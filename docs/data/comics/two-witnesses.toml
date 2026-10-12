@@ -1,0 +1,142 @@
+# One-minute comic for docs/content/last-things/two-witnesses.md.
+# Drawn by: python3 utils/build_comics.py two-witnesses
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-12.
+#
+# An echo: their Lord's story down the left, in sepia because it is done, and the two witnesses'
+# down the right, beat for beat, because "their Lord" is the study's own thesis (Revelation 11:8,
+# 11-12; Acts 1:9). Revelation 11:3-13 records no word spoken by the witnesses or by the crowd. The
+# only speech is heaven's: "Come up here!" (11:12). So the witnesses' bubble is the fire from their
+# mouth (11:5), the crowd's is a bubble of presents (11:10), and the comic puts no words in either.
+# Revelation names neither prophet; the study reads them as Moses and Elijah and marks it contested,
+# so they are drawn as two unnamed men in sackcloth and not as reserved figures.
+
+title = "Their Lord's Story"
+subtitle = "The two witnesses of Revelation 11 in one minute"
+layout = "echo"
+headers = ["Their Lord", "His two witnesses"]
+first_column_past = true
+note = "Revelation records no words from the two witnesses or the crowd: fire and gifts stand where speech would."
+point = "What God did for His Son Jesus, He does for those who bear witness to Him: no one silences them before their work is done, and He raises them in their enemies' sight. Your testimony is not lost when the world mocks it (Revelation 11:7, 11-12)."
+
+[[panel]]
+ref = "John 18:37"
+scene = "colonnade"
+sky = "day"
+flashback = true
+shows = "Jesus before Pilate"
+cast = [
+  { who = "pilate", x = 0.30, face = "right", pose = "fold", s = 0.85, tag = "Pilate" },
+  { who = "jesus", x = 0.72, face = "left", pose = "heart", s = 0.85 },
+]
+say = [
+  { by = "jesus", text = "For this purpose I have come into the world— to bear witness to the truth.", source = "esv", at = [0.5, 0.05], w = 190 },
+]
+
+[[panel]]
+ref = "Revelation 11:2-6"
+scene = "street"
+sky = "storm"
+caption = "Jerusalem, trampled by the nations. Two prophets in sackcloth prophesy for 1,260 days."
+caption_w = 330
+aside = "Revelation names neither of them."
+aside_w = 230
+shows = "in a Jerusalem street under a dark sky, two men in sackcloth face a soldier with a spear and a man raising a stone; fire pours from the prophets' mouths toward them"
+cast = [
+  { who = "witness", id = "w1", name = "the first witness", x = 0.14, face = "right", pose = "open" },
+  { who = "witness", id = "w2", name = "the second witness", x = 0.28, face = "right", pose = "point", tone = 1 },
+  { who = "soldier", id = "foe1", name = "a soldier", x = 0.74, face = "left", pose = "hold", holds = "spear" },
+  { who = "man", id = "foe2", name = "a man with a stone", x = 0.90, face = "left", pose = "raise", holds = "stone" },
+]
+say = [
+  { by = "w1", style = "fire", to = "foe1", text = "" },
+  { by = "w2", style = "fire", to = "foe2", text = "" },
+]
+
+[[panel]]
+ref = "Revelation 11:8; Luke 23:33"
+scene = "hills"
+sky = "storm"
+flashback = true
+caption = "Crucified at Jerusalem."
+caption_w = 190
+shows = "three crosses on a rise outside the city"
+props = [
+  { what = "crosses", x = 0.5, s = 0.9 },
+]
+
+[[panel]]
+ref = "Revelation 11:7-10"
+scene = "street"
+sky = "dusk"
+caption = "Their testimony finished, the beast kills them. The world leaves them in the street and makes merry."
+caption_w = 340
+shows = "the two lie dead in the street; people from the nations stand over them holding presents"
+cast = [
+  { who = "witness", id = "w1", name = "the first witness", x = 0.16, face = "right", stance = "lie" },
+  { who = "witness", id = "w2", name = "the second witness", x = 0.36, face = "right", stance = "lie", tone = 1 },
+  { who = "man", id = "crowd", name = "the crowd", n = 3, x = 0.66, x2 = 0.94, face = "left", pose = ["hold", "praise", "hold"], holds = "gift" },
+  { who = "woman", id = "crowd_w", name = "the crowd", x = 0.56, face = "left", pose = "hold", holds = "gift", dy = -0.03, s = 0.95 },
+]
+say = [
+  { by = "crowd", text = "", picture = { what = "gift", n = 3, label = "presents" }, at = [0.80, 0.30], w = 100 },
+]
+
+[[panel]]
+ref = "Matthew 28:6"
+scene = "hills"
+sky = "dawn"
+flashback = true
+shows = "an open tomb, its stone rolled back"
+props = [
+  { what = "tomb", x = 0.45, s = 0.8 },
+]
+say = [
+  { by = "angel", name = "the angel", from = [0.45, 0.62], text = "He is not here, for he has risen.", source = "esv", at = [0.5, 0.06], w = 170 },
+]
+
+[[panel]]
+ref = "Revelation 11:11-12"
+scene = "street"
+sky = "dawn"
+caption = "After three and a half days a breath of life from God enters them, and they stand up."
+caption_w = 330
+shows = "the two stand on their feet with the breath of God turning about them; the crowd recoils"
+props = [
+  { what = "breath", x = 0.14, front = true },
+  { what = "breath", x = 0.28, front = true },
+]
+cast = [
+  { who = "witness", id = "w1", name = "the first witness", x = 0.14, face = "right", pose = "stand" },
+  { who = "witness", id = "w2", name = "the second witness", x = 0.28, face = "right", pose = "stand", tone = 1 },
+  { who = "man", id = "crowd", name = "the crowd", n = 4, x = 0.62, x2 = 0.94, face = "left", pose = ["turn", "fold", "turn", "fold"] },
+]
+say = [
+  { by = "heaven", name = "a loud voice from heaven", from = [0.92, -0.2], text = "Come up here!", source = "esv", style = "voice", at = [0.62, 0.36], w = 160 },
+]
+
+[[panel]]
+ref = "Acts 1:9"
+scene = "hills"
+sky = "day"
+flashback = true
+shows = "Jesus is lifted up and a cloud takes Him out of the sight of the disciples, who look up"
+cast = [
+  { who = "jesus", x = 0.5, face = "right", pose = "open", s = 0.55, dy = -0.38, in_cloud = true },
+  { who = "disciple", id = "eleven", name = "the disciples", n = 3, x = 0.2, x2 = 0.8, face = "right", pose = "look_up", s = 0.6 },
+]
+
+[[panel]]
+ref = "Revelation 11:12-13"
+scene = "street"
+sky = "storm"
+caption = "They go up to heaven in a cloud while their enemies watch. A tenth of the city falls."
+caption_w = 330
+shows = "the two rise in a cloud above the street; their enemies look up; a building cracks and falls"
+props = [
+  { what = "ruin", x = 0.86, s = 0.9 },
+]
+cast = [
+  { who = "witness", id = "w1", name = "the first witness", x = 0.37, face = "right", pose = "open", s = 0.6, dy = -0.36, in_cloud = true },
+  { who = "witness", id = "w2", name = "the second witness", x = 0.47, face = "right", pose = "open", s = 0.6, dy = -0.36, tone = 1, in_cloud = true },
+  { who = "man", id = "enemies", name = "their enemies", n = 4, x = 0.08, x2 = 0.62, face = "right", pose = ["look_up", "turn", "look_up", "fold"] },
+]

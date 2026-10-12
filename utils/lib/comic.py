@@ -13,7 +13,8 @@ colour and pose, the way a reader recognises a figure in a stained-glass window.
 
 import math
 
-from lib.larkin import (W, INK, MUTED, PAPER, CARD, RED, GOLD, GOLD_EDGE, GOLD_TINT, text, svg_open, heading, banner)
+from lib.larkin import (W, INK, MUTED, PAPER, CARD, RED, GOLD, GOLD_EDGE, GOLD_TINT, text, svg_open, heading, banner,
+                        cloud as larkin_cloud)
 
 # --- palette -------------------------------------------------------------------------------------
 
@@ -78,6 +79,8 @@ CAST = {
                    hair="short", beard=True),
     "soldier": dict(name="a soldier", robes=["#8b1e1e"], mantle="helmet", mantle_fill="#9a8f80",
                     beard=False, short=True),
+    "witness": dict(name="a witness", robes=["#4a4238", "#5a4c3c"], mantle=None, hair="short",
+                    beard=True, coarse=True, belt="#2a2016"),
     "child": dict(name="a child", robes=["#c9b48a", "#8a9a6a", "#b98a7a"], mantle=None,
                   hair="short", beard=False, child=True),
 }
@@ -100,6 +103,10 @@ FIGURES = {
                    mantle_fill="#8a8178", hair="short", beard=True, belt="#c9b48a",
                    why="Peter's brother, fishing from the same boat (Matthew 4:18): Peter's rope belt, "
                        "a mustard tunic and a grey cloak."),
+    "pilate": dict(name="Pilate", study="last-things/two-witnesses.md", robes=["#b59a6a"], mantle="stole",
+                   mantle_fill="#7a1f2b", hair="short", beard=False,
+                   why="The Roman prefect (Luke 3:1): a red military cloak over a tan tunic, and clean-shaven "
+                       "in the Roman manner of the day, so he reads apart from every bearded Judean round him."),
 }
 CAST.update(FIGURES)
 
@@ -119,12 +126,13 @@ POSES = {
     "grope":  {"near": ((22, -66), (38, -64)), "far": ((18, -62), (34, -58))},
     "beg":    {"near": ((18, -58), (32, -56)), "far": ((-10, -54), (-10, -34))},
     "fold":   {"near": ((12, -60), (-4, -58)), "far": ((-12, -60), (6, -60))},
+    "look_up": {"near": ((18, -90), (30, -110)), "far": ((-10, -54), (-10, -34))},
     "turn":   {"near": ((4, -56), (-14, -48)), "far": ((-14, -60), (-26, -52))},
     "heart":  {"near": ((14, -58), (4, -70)), "far": ((-10, -54), (-10, -34))},
 }
 
 # Where a figure's head sits, in its own units, by stance. The bubble tail aims here.
-HEAD = {"stand": (2, -90), "walk": (2, -90), "kneel": (2, -66), "sit": (2, -50)}
+HEAD = {"stand": (2, -90), "walk": (2, -90), "kneel": (2, -66), "sit": (2, -50), "lie": (-90, -14)}
 SPEAKER_NAMES = {k: v["name"] for k, v in CAST.items()}
 
 
@@ -153,6 +161,8 @@ def _prop(kind, hand):
     if kind == "spear":
         return (f'<path d="M{hx} {hy + 40} L{hx} {hy - 70}" stroke="#6b4a2a" stroke-width="3"/>'
                 f'<path d="M{hx - 4} {hy - 68} L{hx} {hy - 84} L{hx + 4} {hy - 68} Z" fill="{STONE}" stroke="{STONE_EDGE}"/>')
+    if kind == "gift":
+        return prop_gift(hx, hy + 4, 0.8)
     if kind == "loaf":
         return prop_loaf(hx, hy + 2, 1.0)
     if kind == "lamp":
@@ -173,7 +183,11 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
     kneel = stance == "kneel"
     sit = stance == "sit"
     up = {"kneel": 24, "sit": 40}.get(stance, 0)
-    g = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s * face * c.get("build", 1):.3f} {s:.3f})">']
+    if stance == "lie":
+        # Laid on the ground, head toward the side the figure faces (Revelation 11:8).
+        g = [f'<g transform="translate({x:.1f} {y - 16 * s:.1f}) rotate({90 * face}) scale({s * c.get("build", 1):.3f} {s:.3f})">']
+    else:
+        g = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s * face * c.get("build", 1):.3f} {s:.3f})">']
     if c.get("glow"):
         g.append(f'<ellipse cx="0" cy="{-52 + up}" rx="46" ry="70" fill="url(#comic-glow)"/>')
 
@@ -215,6 +229,11 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
         g.append(f'<path d="M-7 -60 Q-9 -30 -10 {bottom - 2} M4 -62 Q6 -30 5 {bottom} M12 -50 Q15 -30 15 {bottom - 2}" '
                  f'fill="none" stroke="{FOLD}" stroke-width="1.2"/>'
                  f'<path d="M-2 -66 Q-1 -36 -3 {bottom - 2}" fill="none" stroke="{LITE}" stroke-width="1.6"/>')
+        if c.get("coarse"):
+            # Sackcloth: goat's hair, coarsely woven, the dress of mourning (Revelation 11:3).
+            g.append('<path d="M-9 -74 V-6 M-3 -76 V-4 M3 -76 V-4 M9 -74 V-6 M14 -60 V-8" stroke="#00000040" '
+                     'stroke-width="1" stroke-dasharray="2 2.5"/>'
+                     '<path d="M-15 -62 H15 M-17 -36 H17 M-18 -16 H18" stroke="#ffffff22" stroke-width="1" stroke-dasharray="3 2"/>')
         if c.get("ragged"):
             g.append(f'<rect x="-11" y="-30" width="7" height="6" fill="{_shade(robe)}" transform="rotate(-8 -8 -27)"/>'
                      f'<rect x="6" y="-58" width="6" height="5" fill="{_shade(robe)}"/>')
@@ -613,7 +632,82 @@ def prop_loaf(x, y, s):
             '<path d="M-4 -7 L-1 -3 M2 -8 L5 -4" stroke="#8d6a3e" stroke-width="0.8"/></g>')
 
 
-PROPS = {"fire": prop_fire, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
+def prop_gift(x, y, s):
+    """A wrapped present (Revelation 11:10)."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<rect x="-8" y="-14" width="16" height="14" fill="#8b1e1e" stroke="#4a1010" stroke-width="0.9"/>'
+            f'<path d="M0 -14 V0 M-8 -7 H8" stroke="{GOLD}" stroke-width="2"/>'
+            f'<path d="M0 -14 q-7 -8 -7 -2 q0 3 7 2 q7 1 7 -2 q0 -6 -7 2" fill="none" stroke="{GOLD}" stroke-width="1.6"/></g>')
+
+
+def prop_crosses(x, y, s):
+    """Three crosses on a rise outside the city (Luke 23:33). The figures on them are not drawn."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           '<path d="M-90 0 Q-40 -34 0 -38 Q40 -34 90 0 Z" fill="#a8946a"/>']
+    for dx, hgt in ((-40, 70), (0, 92), (40, 70)):
+        top = -30 - hgt
+        out.append(f'<rect x="{dx - 2.5}" y="{top}" width="5" height="{hgt}" fill="#4a3826"/>'
+                   f'<rect x="{dx - 16}" y="{top + 14}" width="32" height="5" fill="#4a3826"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+def prop_tomb(x, y, s):
+    """A tomb cut in the rock, open, its round stone rolled back (Mark 16:4)."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M-70 0 V-60 Q-60 -96 0 -98 Q60 -96 70 -60 V0 Z" fill="#b8a888" stroke="#7d6c4e" stroke-width="1.2"/>'
+            '<path d="M-20 0 V-40 Q0 -58 20 -40 V0 Z" fill="#2a2016"/>'
+            '<circle cx="46" cy="-24" r="24" fill="#a39274" stroke="#6e5f44" stroke-width="1.4"/>'
+            '<circle cx="46" cy="-24" r="16" fill="none" stroke="#8a7a5e" stroke-width="1"/></g>')
+
+
+def prop_cloud(x, y, s):
+    """A cloud to be taken up in (Acts 1:9; Revelation 11:12); its flat base sits on y."""
+    return "".join(larkin_cloud(x, y, 120 * s, fill="#fbf7ee", stroke="#c9c2b0"))
+
+
+def prop_ruin(x, y, s):
+    """A building breaking: a cracked wall leaning, blocks falling, the ground split (Revelation 11:13)."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            f'<g transform="rotate(9 0 0)"><rect x="-34" y="-96" width="60" height="96" fill="{WALL}" stroke="{WALL_EDGE}" stroke-width="1.2"/>'
+            '<path d="M-4 -96 L4 -70 L-6 -48 L6 -22 L-2 0" fill="none" stroke="#3e3122" stroke-width="2"/>'
+            '<rect x="-20" y="-80" width="10" height="12" fill="#5a4a36"/></g>'
+            '<rect x="30" y="-120" width="14" height="10" fill="#cbbd9c" stroke="#8d7650" transform="rotate(24 37 -115)"/>'
+            '<rect x="46" y="-84" width="12" height="9" fill="#cbbd9c" stroke="#8d7650" transform="rotate(-18 52 -80)"/>'
+            '<rect x="38" y="-46" width="10" height="8" fill="#cbbd9c" stroke="#8d7650" transform="rotate(40 43 -42)"/>'
+            '<path d="M-70 4 L-40 0 L-30 8 L-6 2 L10 10 L40 2 L70 8" fill="none" stroke="#3e3122" stroke-width="2.2"/></g>')
+
+
+def prop_breath(x, y, s):
+    """The breath of life from God entering a body: gold currents turning in on it (Revelation 11:11)."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})" fill="none" stroke="{GOLD}" stroke-width="2.4" stroke-linecap="round" opacity="0.9">']
+    for k, (dx, dy) in enumerate(((-34, -110), (30, -96), (-30, -50), (34, -40))):
+        sx = 1 if dx < 0 else -1
+        out.append(f'<path d="M{dx} {dy} q{14 * sx} -10 {22 * sx} 4 q{6 * sx} 12 {-6 * sx} 14"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+def flame_jet(x0, y0, x1, y1, s):
+    """Fire from a mouth to a foe (Revelation 11:5): a tongue of flame that swells, then tapers."""
+    dx, dy = x1 - x0, y1 - y0
+    length = math.hypot(dx, dy) or 1
+    nx, ny = -dy / length, dx / length
+    def tongue(width):
+        left, right = [], []
+        for k in range(13):
+            t = k / 12
+            wv = width * s * math.sin(math.pi * min(t * 1.15, 1)) ** 0.8 * (1.25 if k % 2 else 0.85)
+            cx_, cy_ = x0 + dx * t, y0 + dy * t
+            left.append(f"{cx_ + nx * wv:.1f},{cy_ + ny * wv:.1f}")
+            right.append(f"{cx_ - nx * wv:.1f},{cy_ - ny * wv:.1f}")
+        return " ".join(left + right[::-1])
+    return (f'<polygon points="{tongue(11)}" fill="#e8873a" stroke="#a5421f" stroke-width="1" stroke-linejoin="round"/>'
+            f'<polygon points="{tongue(5)}" fill="#f6d36a"/>')
+
+
+PROPS = {"gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
+         "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf}
 
 
@@ -659,6 +753,8 @@ def fit(s, width, size):
     """Wrap to the fewest lines that fit width, then even the lines out so none is left an orphan.
 
     Returns (rows, the width the longest row needs)."""
+    if not s.strip():
+        return [], 0
     n = len(wrap(s, _chars(width, size)))
     chars = max(len(w) for w in s.split())
     while len(wrap(s, chars)) > n:
@@ -667,7 +763,7 @@ def fit(s, width, size):
     return rows, max(len(r) for r in rows) * size * EM
 
 
-PIC_STEP = {"kophinos": 14, "spyris": 23, "loaf": 20}
+PIC_STEP = {"kophinos": 14, "spyris": 23, "loaf": 20, "gift": 22}
 PIC_H = 36
 
 
@@ -679,7 +775,8 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None)
     """A speech bubble centred on x with its top at y; its tail points at target (x, y).
 
     style: "speech" (rounded), "shout" (jagged, bold), "whisper" (dotted outline, for an aside),
-    "memory" (a cloud trailing small circles: what the speaker remembers). picture = {what, n} draws
+    "memory" (a cloud trailing small circles: what the speaker remembers), "voice" (gold, bold: a
+    voice from heaven, whose tail points to the sky rather than a face). picture = {what, n} draws
     a counted row of props under the words, so a memory can show what it remembers.
     Returns (svg, height).
     """
@@ -689,7 +786,8 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None)
     h = 18 + lh * len(rows) + (PIC_H if picture else 0)
     x0, x1, y1 = x - w / 2, x + w / 2, y + h
     out = []
-    stroke = f'stroke="{INK}" stroke-width="1.8"'
+    stroke = f'stroke="{GOLD_EDGE if style == "voice" else INK}" stroke-width="{2.4 if style == "voice" else 1.8}"'
+    bg = GOLD_TINT if style == "voice" else CARD
     if style == "shout":
         out.append(_jagged(x0 - 4, y - 4, w + 8, h + 8, stroke))
     if style == "memory":
@@ -718,20 +816,20 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None)
         reach = max(14, d - 22)
         px, py = mx + (tx - mx) * reach / d, my + (ty - my) * reach / d
         out.append(f'<path d="M{base[0][0]:.1f} {base[0][1]:.1f} L{px:.1f} {py:.1f} L{base[1][0]:.1f} {base[1][1]:.1f} Z" '
-                   f'fill="{CARD}" {stroke} stroke-linejoin="round"/>')
+                   f'fill="{bg}" {stroke} stroke-linejoin="round"/>')
     dash = ' stroke-dasharray="2 3"' if style == "whisper" else ""
     if style not in ("shout", "memory"):
-        out.append(f'<rect x="{x0:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="16" fill="{CARD}" {stroke}{dash}/>')
+        out.append(f'<rect x="{x0:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="16" fill="{bg}" {stroke}{dash}/>')
     elif style == "memory":
         pass
     else:
         out.append(f'<rect x="{x0 + 2:.1f}" y="{y + 2:.1f}" width="{w - 4:.1f}" height="{h - 4:.1f}" fill="{CARD}"/>')
     if target:
         # Cover the tail's join with the outline.
-        out.append(f'<path d="M{base[0][0]:.1f} {base[0][1]:.1f} L{base[1][0]:.1f} {base[1][1]:.1f}" stroke="{CARD}" stroke-width="3"/>')
+        out.append(f'<path d="M{base[0][0]:.1f} {base[0][1]:.1f} L{base[1][0]:.1f} {base[1][1]:.1f}" stroke="{bg}" stroke-width="3"/>')
     ty_ = y + 9 + lh * 0.8
     for r in rows:
-        out.append(text(x, ty_, r, size, "middle", "bold" if style == "shout" else None,
+        out.append(text(x, ty_, r, size, "middle", "bold" if style in ("shout", "voice") else None,
                         italic=style == "memory"))
         ty_ += lh
     if picture:
@@ -777,12 +875,15 @@ def bubble_width(text_, w, style="speech", size=14.5, picture=None):
     return core + {"shout": 8, "memory": 26}.get(style, 0)
 
 
-def caption(text_, x, y, w, size=14):
-    """A narrator's box: gold-tinted, square-cornered, italic. Returns (svg, height)."""
+def caption(text_, x, y, w, size=14, dashed=False):
+    """A narrator's box: gold-tinted, square-cornered, italic. dashed=True is an aside that marks a
+    reading or an inference, in the site's confidence code. Returns (svg, height)."""
     lh = size * 1.25
     rows, _ = fit(text_, w - 20, size)
     h = 12 + lh * len(rows)
-    out = [f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" fill="{GOLD_TINT}" stroke="{INK}" stroke-width="1.4"/>']
+    look = f'fill="{PAPER}" stroke="{INK}" stroke-width="1.2" stroke-dasharray="5 4"' if dashed else \
+        f'fill="{GOLD_TINT}" stroke="{INK}" stroke-width="1.4"'
+    out = [f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" {look}/>']
     ty = y + 6 + lh * 0.8
     for r in rows:
         out.append(text(x + 10, ty, r, size, italic=True))
@@ -809,6 +910,8 @@ LAYOUTS = {
     "call-pairs-mission": [[280, 1], [330, 1, 1], [330, 1, 1], [300, 1]],
     # Two meals side by side, what was said about them, then the reckoning and a silent beat.
     "two-tables": [[380, 1, 1], [300, 1], [340, 3, 1]],
+    # An echo: one story beside another, beat for beat, a narrow column and a wide one.
+    "echo": [[260, 1, 2], [260, 1, 2], [260, 1, 2], [260, 1, 2]],
     # Three wide panels: before, turn, after.
     "three-acts": [[280, 1], [280, 1], [280, 1]],
 }
@@ -878,7 +981,7 @@ def draw_panel(i, box, p):
 
     gy = h * GROUND_AT
     base = h / 300 * 1.3
-    heads, drawn, tags, front = {}, [], [], []
+    heads, faces, drawn, tags, front = {}, {}, [], [], []
     for pr in p.get("props", []):
         py = pr.get("y", (gy + 6) / h) * h
         ps = base * pr.get("s", 1.0)
@@ -897,6 +1000,14 @@ def draw_panel(i, box, p):
                            e.get("pose", "stand"), e.get("stance", "stand"), e.get("holds"), e.get("tone", 0))
         drawn.append((fy, svg))
         heads[e.get("id", e["who"])] = head
+        faces[e.get("id", e["who"])] = -1 if e.get("face") == "left" else 1
+        if e.get("in_cloud"):
+            # Taken up in a cloud (Acts 1:9; Revelation 11:12): the cloud's top meets the waist, so the
+            # figure shows from the waist up whatever its scale.
+            fs = base * e.get("s", 1.0)
+            cw = 150 * fs
+            r = cw / (max(3, int(cw // 34)) * 1.55)
+            front.append((fy, "".join(larkin_cloud(fx, fy - 42 * fs + 2.5 * r, cw, fill="#fbf7ee", stroke="#c9c2b0"))))
         if e.get("tag"):
             tags.append(text(fx, fy + 17, e["tag"].upper(), 11.5, "middle", "bold", spacing="1.2",
                              extra=f'stroke="{PAPER}" stroke-width="3.5" paint-order="stroke"'))
@@ -912,12 +1023,31 @@ def draw_panel(i, box, p):
     if p.get("caption"):
         c, cap_h = caption(p["caption"], 10, 10, min(w - 44, p.get("caption_w", w * 0.62)))
         out += c
+    if p.get("aside"):
+        # The aside hangs under the caption, so bubbles keep clear of both as one block.
+        aw = min(w - 44, p.get("aside_w", w * 0.5))
+        a, ah = caption(p["aside"], 10, 10 + cap_h + (4 if cap_h else 0), aw, 12.5, dashed=True)
+        out += a
+        cap_h += ah + (4 if cap_h else 0)
+        p = dict(p, caption_w=max(p.get("caption_w", w * 0.62) if p.get("caption") else 0, aw))
     cap_right = 10 + min(w - 44, p.get("caption_w", w * 0.62)) if cap_h else -1
     cap_bottom = 10 + cap_h + 8 if cap_h else 8
     placed = []
     for b in p.get("say", []):
-        hx, hy, hs = heads[b["by"]]
         style = b.get("style", "speech")
+        if style == "fire":
+            # Revelation 11:5: what comes from the witnesses' mouth is fire, so the jet is their bubble.
+            sx, sy, ss = heads[b["by"]]
+            if "to" in b:
+                tx, ty, ts = heads[b["to"]]
+                ty += 30 * ts
+            else:
+                tx, ty = b["at"][0] * w, b["at"][1] * h
+            out.append(flame_jet(sx + 12 * ss * faces[b["by"]], sy + 4 * ss, tx, ty, ss))
+            continue
+        offstage = "from" in b
+        # A voice with no figure in the panel (heaven, an angel) aims its tail at a place instead.
+        hx, hy, hs = (b["from"][0] * w, b["from"][1] * h, base) if offstage else heads[b["by"]]
         bw = b.get("w", 200)
         pic = b.get("picture")
         _, bh = bubble(b["text"], 0, 0, bw, None, style, picture=pic)
@@ -929,7 +1059,7 @@ def draw_panel(i, box, p):
         clear = hy - 26 * hs
         # A bubble over its own speaker's head hides who is talking: lift it clear, and if the
         # caption or the panel's top is in the way, set it beside the head, toward the panel's centre.
-        if by + bh > clear and abs(bx - hx) < bw / 2 + 10:
+        if not offstage and by + bh > clear and abs(bx - hx) < bw / 2 + 10:
             by = clear - bh
             if by < top_limit(bx):
                 side = 1 if hx < w / 2 else -1
@@ -965,6 +1095,8 @@ def draw_panel(i, box, p):
 def describe(comic):
     """The <desc>, and the alt text for the markdown embed: every panel, every word in it."""
     parts = [f'A one-minute comic in {len(comic["panel"])} panels.']
+    if comic.get("headers"):
+        parts.append("Two columns side by side: " + " and ".join(comic["headers"]) + ", row for row.")
     for i, p in enumerate(comic["panel"]):
         names = {}
         for e in _expand_cast(p.get("cast", [])):
@@ -974,7 +1106,16 @@ def describe(comic):
         if p.get("caption"):
             bits.append(f'Caption: "{p["caption"]}"')
         for b in p.get("say", []):
-            bits.append(f'{names[b["by"]][0].upper() + names[b["by"]][1:]} says: "{b["text"]}"')
+            who = b.get("name") or names.get(b["by"], b["by"])
+            who = who[0].upper() + who[1:]
+            if b.get("style") == "fire":
+                bits.append(f'Fire pours from the mouth of {who[0].lower() + who[1:]} toward {names.get(b.get("to"), "a foe")}')
+            elif not b.get("text") and b.get("picture"):
+                bits.append(f'{who}: a speech bubble with no words, holding {b["picture"]["n"]} {b["picture"].get("label", b["picture"]["what"])}')
+            else:
+                bits.append(f'{who} says: "{b["text"]}"')
+        if p.get("aside"):
+            bits.append(f'Note: "{p["aside"]}"')
         parts.append(" ".join(b if b.rstrip('"”’').endswith((".", "!", "?")) else b + "." for b in bits))
     if comic.get("point"):
         parts.append(f'The point: {comic["point"]}')
@@ -994,7 +1135,8 @@ def credit(h):
 def render(comic):
     layout = comic.get("layout", "setting-exchange-reveal")
     rows = LAYOUTS[layout] if isinstance(layout, str) else layout
-    boxes, bottom = panel_boxes(rows, 108)
+    headers = comic.get("headers", [])
+    boxes, bottom = panel_boxes(rows, 108 + (40 if headers else 0))
     if len(boxes) != len(comic["panel"]):
         raise SystemExit(f'{comic["slug"]}: layout has {len(boxes)} panels, file has {len(comic["panel"])}')
 
@@ -1005,6 +1147,10 @@ def render(comic):
     out = svg_open(h, comic["title"], describe(comic))
     out.append(DEFS)
     out += heading(comic["title"], comic.get("subtitle", ""))
+    # Column headers name what each column of panels is, when the columns run in parallel.
+    for (bx, by_, bw_, _), label in zip(boxes, headers):
+        out += banner(bx + bw_ / 2, by_ - 34, min(bw_ - 40, len(label) * 9 + 20), label.upper(),
+                      fill=SEPIA if label == headers[0] and comic.get("first_column_past") else INK, size=12)
     for i, (box, p) in enumerate(zip(boxes, comic["panel"])):
         out += draw_panel(i, box, p)
 

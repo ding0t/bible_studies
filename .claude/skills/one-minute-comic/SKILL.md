@@ -8,7 +8,9 @@ description: Draws a "one-minute comic" for a study in docs/content/ -- three to
 A study is long; its point is one sentence. The one-minute comic carries that sentence as a story
 a reader can take in before the first heading: who was there, what they said, what it showed. The
 first is `jesus/you-are-gods.md` (`docs/data/comics/you-are-gods.toml`), and `biblical-figures/peter.md`
-(`peter.toml`) shows a life told in six beats; open one beside this file when writing a new one.
+(`peter.toml`) shows a life told in six beats, `bread-of-life` two events compared, and
+`two-witnesses` one story echoing another with almost no words; open the nearest beside this file
+when writing a new one.
 
 Everything is reusable. The cast, poses, scenes, bubbles and layouts live in
 `utils/lib/comic.py`; a comic is a TOML file of data that names them. A new comic is a new file and
@@ -19,21 +21,38 @@ python3 utils/build_comics.py <slug>         # docs/data/comics/<slug>.toml -> d
 python3 utils/build_comics.py --alt <slug>   # the alt text, every panel and every word, for the embed
 python3 utils/build_comics.py --cast         # cast.svg beside this file: every cast member in every pose
 python3 utils/build_comics.py --draft <slug> # render despite layout faults and list them, to see what to move
+python3 utils/build_comics.py --verify <slug># every source = "esv" bubble checked against the ESV of its panel's ref
 qlmanage -t -s 1400 -o <scratchpad> docs/content/assets/img/comics/<slug>.svg   # render and look
 ```
 
-## 1. Find the point, then the beats
+## 1. Read the study for the comic
 
-Start from the study's `**In one sentence:**` line. If the study has none, run
-simplify-bible-study's first step and name it; a comic cannot carry a point the study has not
-settled. Then find the moments in the passage that *show* it: the beats. Most points fall into
-one of the named layouts, chosen by what the story has to do:
+Read the whole study before choosing a panel. Each part of a study feeds one part of the comic:
+
+| In the study | Becomes in the comic |
+|---|---|
+| `**In one sentence:**` | What the comic shows. **The sentence's grammar picks the layout**: "X, then Y" is a sequence; "X and Y compared" is `contrast` or `two-tables`; "X follows Y" or a type and its fulfilment is `echo`; a person's life is `call-pairs-mission` |
+| The passage's own words, and who speaks them | The bubbles (section 2). Note who has *no* recorded words; that is a finding, too |
+| "What X shows about God", Be Transformed | `point`, landed on the reader ("so you…") with its verse |
+| A confidence table, "contested", "this study holds" | What may be drawn as settled and what needs a dashed `aside`. An identification the text does not make (a name, a temple, a place) is never drawn as fact |
+| Word studies (κόφινος/σπυρίς, ἀνθρακιά) and stated numbers | Visual details: a distinction the Greek keeps is drawn as two different objects, a count is drawn as that many |
+| Setting details the study cites (season, terrain, feast) | Scene, sky and caption, each with its verse in the TOML header comment |
+| Tradition, study-Bible opinions, the case for other readings | Leave out. A minute holds the text and the study's point, never the debate |
+
+If the study has no `**In one sentence:**` line, run simplify-bible-study's first step and name it;
+a comic cannot carry a point the study has not settled.
+
+## 1a. Find the beats
+
+Find the moments in the passage that *show* the point: the beats. Most points fall into one of
+the named layouts, chosen by what the story has to do:
 
 | Layout | Panels | Story shape |
 |---|---|---|
 | `setting-exchange-reveal` | 1 / 2 / 1 | Set the scene, two lines of exchange, the reveal |
 | `setting-exchange-evidence-verdict` | 1 / 2 / 1 / 1 | Scene, the charge and the answer, a flashback that proves it, the verdict (you-are-gods) |
 | `two-tables` | 2 / 1 / 3:1 | Two events side by side, what was said about them, the reckoning, a silent beat (bread-of-life) |
+| `echo` | 1:2 × 4, with `headers` | One story beside another, beat for beat: a type and its fulfilment, a servant's life following the Lord's (two-witnesses) |
 | `call-pairs-mission` | 1 / 2 / 2 / 1 | A life: the call, a high and a low, a fall and a return, the mission it reached (peter) |
 | `contrast` | 2 / 1 | Two scenes side by side, then what they mean together |
 | `six-beats` | 2 / 2 / 2 | A sequence of events |
@@ -43,8 +62,13 @@ A layout can also be given inline as rows, `layout = [[300, 1], [300, 2, 1]]`: e
 height, then the relative width of each panel. Add a layout to `LAYOUTS` only when a second comic
 needs the same shape, and name it for the story it tells.
 
-Five panels is the target and six the ceiling. A seventh beat is a second comic, or a sign the
-point is two points.
+Five beats is the target and six the ceiling; count beats, not panels. In an `echo` each row
+is one beat drawn twice, so four rows are eight panels and four beats. A seventh beat is a second
+comic, or a sign the point is two points.
+
+`headers = ["Their Lord", "His two witnesses"]` puts a ribbon over each column of the first row;
+`first_column_past = true` colours the first sepia, to match `flashback = true` on its panels, so
+the column that has already happened reads as the past.
 
 ## 2. Write the words
 
@@ -62,6 +86,19 @@ Scripture does not.
   charge goes in their bubble and Jesus answers in His own terms. A paraphrase like "Yes, I am
   God" puts a sentence in His mouth that the chapter does not, however true the doctrine is, and
   the study beside it would be the first thing to contradict it.
+- **Where the text records no words, write none.** Revelation 11:3-13 gives the two witnesses and
+  the crowd no speech at all; the only words are heaven's, "Come up here!" (11:12). So the comic
+  puts what the text gives in the bubble's place: fire from the witnesses' mouths
+  (`style = "fire"`, `to = <cast id>`, Revelation 11:5), a bubble of presents with no words
+  (`text = ""`, `picture = { what = "gift", n = 3 }`, 11:10). Say so in the comic's `note`. A
+  bubble written for a silent character is the one error a reader cannot check.
+- **A voice with no figure** (heaven, an angel, a voice from the tomb) takes `from = [x, y]`, a
+  place in the panel or above it, in place of a cast member; `style = "voice"` makes it gold and
+  bold. Aim the `from` so the tail does not cross the caption.
+- **Run `--verify` before embedding.** It looks up every `source = "esv"` bubble in the ESV text of
+  the verses its panel's `ref` names and fails on any bubble it cannot find there, then lists the
+  condensed ones for you to read against their verses. A `ref` is therefore the bubble's evidence:
+  if a quoted line comes from a verse outside it, widen the `ref`.
 - **One idea per bubble, about twenty words at most.** Two bubbles per panel is comfortable; three
   is crowded. The reader should finish a panel in under ten seconds.
 - **The caption carries setting, time and narration**: the feast, the season, "Earlier:" for a
@@ -85,7 +122,12 @@ comic knows him in the next. Each is reserved once, in `FIGURES` in `utils/lib/c
 | `jesus` | Jesus | Off-white robe, red stole, long hair and a full beard (Isaiah 50:6), a soft gold light behind Him | you-are-gods |
 | `peter` | Simon Peter | Broad-built; deep teal fisherman's tunic, rope belt, sienna outer garment (John 21:7), grey-flecked hair | peter |
 | `andrew` | Andrew | Peter's rope belt; mustard tunic, grey cloak | peter |
+| `pilate` | Pontius Pilate | Tan tunic, red military cloak, clean-shaven in the Roman manner | two-witnesses |
 
+- **Reserve only a figure the text names.** The two witnesses are unnamed in Revelation 11 and
+  contested in the study, so they are the generic `witness` (sackcloth), never a reserved Moses
+  and Elijah; drawing them as Moses and Elijah would assert on the picture what the study marks as
+  its reading. Put the reading in an `aside`.
 - **Reserve a figure the first time a comic needs them**, never in advance: add a `FIGURES` entry
   with `study` (the page that introduces them) and `why`, which names the Scripture behind any
   detail of dress (John the Baptist's camel hair and leather belt, Matthew 3:4) and records every
@@ -112,12 +154,13 @@ clones:
 | `beggar` | Ragged, patched tunic; use with `holds = "staff"` and `pose = "grope"` for the man born blind |
 | `healed` | The same man, now with a mantle |
 | `soldier` | Red tunic, helmet; `holds = "spear"` |
+| `witness` | Sackcloth (coarse, dark goat's hair), for a prophet in mourning dress (Revelation 11:3) |
 | `child` | Smaller, bare-headed |
 
 - **Faces stay blank, everyone's.** drawn-graphics.md rules out drawing the face of Jesus; a cast
   where nobody has a face keeps Him from being the exception the eye looks for.
-- `pose`: stand, point, open, praise, raise, shout, hold, grope, beg, fold, turn, heart.
-  `stance`: stand, walk, kneel. `face`: "left" or "right". `holds`: stone, staff, scroll, spear,
+- `pose`: stand, point, open, praise, raise, shout, hold, grope, beg, fold, turn, heart, look_up.
+  `stance`: stand, walk, kneel, sit, lie (laid on the ground, head toward `face`). `face`: "left" or "right". `holds`: stone, staff, scroll, spear,
   lamp.
 - **A crowd is one entry**: `n = 3, x = 0.6, x2 = 0.9` spreads three figures, cycles a list of
   poses, varies their robes and staggers their depth. Give it an `id` for its bubbles.
@@ -128,6 +171,8 @@ clones:
 - **`style = "memory"`** is a thought-cloud that trails small circles to its speaker, for what a
   speaker remembers, and `picture = { what = "kophinos", n = 12 }` draws the memory inside it. The
   disciples answering "Twelve." and "Seven." in the boat show the baskets they mean.
+- **Never draw the crucifixion's figures.** `crosses` draws the three crosses on the rise with no
+  one on them; the caption and the verse carry what happened there.
 - **A beat panel**: a narrow panel (`[340, 3, 1]`) holding one figure and one line lets the line
   land in silence. "Do you not yet understand?" is its own panel in bread-of-life.
 - **A half-width panel holds two short bubbles side by side.** Keep each under about 40 characters,
@@ -137,7 +182,13 @@ clones:
   boat), courtyard (walled, a lit doorway), street, grassland (spring grass above the lake), decapolis
   (dry ground, a Greek city on the ridge), hall (inside a synagogue), lake (open water; put people
   in a boat with the `hull` prop). `sky`: day, dawn, winter, dusk, night, storm.
-- `props` stand in the scene rather than in a hand: `fire` (a charcoal fire), `rooster`,
+- `in_cloud = true` on a cast entry sets a cloud at the figure's waist, for one taken up
+  (Acts 1:9; Revelation 11:12); give it a negative `dy` to lift it.
+- `aside` is a dashed note hung under the caption, in the site's confidence code: a reading, an
+  inference, or what the text leaves unsaid ("Revelation names neither of them.").
+- `props` stand in the scene rather than in a hand: `crosses` (three, with no figures on them),
+  `tomb` (open, the stone rolled back), `cloud`, `ruin` (a wall cracking and falling), `breath` (gold
+  currents for the breath of life), `gift`, `fire` (a charcoal fire), `rooster`,
   `kophinos` (a small wicker basket), `spyris` (a large hamper), `loaf`, and `hull`, which runs from
   `x` to `x2` and takes `front = true` so it is drawn over the people standing in it. `y` defaults to
   the ground line; `s` scales. **`n` with `x2` draws a counted row**, so twelve baskets are twelve;
@@ -168,7 +219,8 @@ for a verse or stays out.
 
 Render it and look at the PNG. Check every panel for: a bubble tail pointing at the right
 speaker, text clear of the panel edge, a speaker's head uncovered, the reference tag readable.
-The first comic needed three passes, the second six. When a fix belongs to the system (a wrap that orphans a word,
+The first comic needed three passes, the second six; with `--draft` and the automatic placement,
+the fourth needed three. When a fix belongs to the system (a wrap that orphans a word,
 a pose that reads wrong), fix `comic.py` so every comic gets it, then re-render the others:
 `python3 utils/build_comics.py` with no slug rebuilds them all.
 
