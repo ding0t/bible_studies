@@ -53,6 +53,7 @@ the named layouts, chosen by what the story has to do:
 | `setting-exchange-evidence-verdict` | 1 / 2 / 1 / 1 | Scene, the charge and the answer, a flashback that proves it, the verdict (you-are-gods) |
 | `two-tables` | 2 / 1 / 3:1 | Two events side by side, what was said about them, the reckoning, a silent beat (bread-of-life) |
 | `echo` | 1:2 × 4, with `headers` | One story beside another, beat for beat: a type and its fulfilment, a servant's life following the Lord's (two-witnesses) |
+| `day-by-day` | 3 × 2, then a tally | Days as columns, each night above its daylight as the Hebrew day runs from sunset, then a counting strip (three-days) |
 | `call-pairs-mission` | 1 / 2 / 2 / 1 | A life: the call, a high and a low, a fall and a return, the mission it reached (peter) |
 | `contrast` | 2 / 1 | Two scenes side by side, then what they mean together |
 | `six-beats` | 2 / 2 / 2 | A sequence of events |
@@ -66,7 +67,14 @@ Five beats is the target and six the ceiling; count beats, not panels. In an `ec
 is one beat drawn twice, so four rows are eight panels and four beats. A seventh beat is a second
 comic, or a sign the point is two points.
 
-`headers = ["Their Lord", "His two witnesses"]` puts a ribbon over each column of the first row;
+**A comic can replace a diagram inside a study**, not only open it. `three-days` replaces a mermaid
+flowchart in "The week as the Hebrew calendar counts it" and is embedded where the flowchart was. A
+diagram whose boxes are moments in a story (who was where, what happened, what it counts as) is a
+comic waiting to be drawn; one whose boxes are concepts is not. The comic must still carry every
+claim the diagram made, and the confidence marks with them.
+
+`headers = ["Their Lord", "His two witnesses"]` puts a ribbon over each column of the first row,
+and `subheaders` a line of small italic under each ribbon (the span of each day, in three-days);
 `first_column_past = true` colours the first sepia, to match `flashback = true` on its panels, so
 the column that has already happened reads as the past.
 
@@ -173,6 +181,15 @@ clones:
   disciples answering "Twelve." and "Seven." in the boat show the baskets they mean.
 - **Never draw the crucifixion's figures.** `crosses` draws the three crosses on the rise with no
   one on them; the caption and the verse carry what happened there.
+- **`badge = { text = "Night 1", tone = "night" }`** labels what a panel counts as, bottom-left;
+  tones are `night`, `day` and `muted` (dashed: present but not counted). A reference tag that would
+  collide with it steps up a line.
+- **`kind = "tally"`** is a counting strip in place of a scene: `marks` lists `sun` (`fill = "part"`
+  or `"full"`) and `moon` icons with labels, `{ sunset = true }` puts a divider between days, and
+  `style = "dashed"` draws a mark the count needs that the text does not give, in red with a "?".
+  Its `caption` sits beside the strip.
+- **`numbers = false`** hides the panel numbers when columns or headers already give the reading
+  order, which also lets captions use the full panel width (narrow panels need it).
 - **A beat panel**: a narrow panel (`[340, 3, 1]`) holding one figure and one line lets the line
   land in silence. "Do you not yet understand?" is its own panel in bread-of-life.
 - **A half-width panel holds two short bubbles side by side.** Keep each under about 40 characters,

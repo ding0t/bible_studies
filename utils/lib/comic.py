@@ -161,6 +161,8 @@ def _prop(kind, hand):
     if kind == "spear":
         return (f'<path d="M{hx} {hy + 40} L{hx} {hy - 70}" stroke="#6b4a2a" stroke-width="3"/>'
                 f'<path d="M{hx - 4} {hy - 68} L{hx} {hy - 84} L{hx + 4} {hy - 68} Z" fill="{STONE}" stroke="{STONE_EDGE}"/>')
+    if kind == "jar":
+        return prop_jar(hx, hy + 4, 0.9)
     if kind == "gift":
         return prop_gift(hx, hy + 4, 0.8)
     if kind == "loaf":
@@ -661,6 +663,22 @@ def prop_tomb(x, y, s):
             '<circle cx="46" cy="-24" r="16" fill="none" stroke="#8a7a5e" stroke-width="1"/></g>')
 
 
+def prop_tomb_sealed(x, y, s):
+    """A tomb cut in the rock, the stone rolled against its entrance (Mark 15:46)."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M-70 0 V-60 Q-60 -96 0 -98 Q60 -96 70 -60 V0 Z" fill="#b8a888" stroke="#7d6c4e" stroke-width="1.2"/>'
+            '<path d="M-20 0 V-40 Q0 -58 20 -40 V0 Z" fill="#2a2016"/>'
+            '<circle cx="2" cy="-26" r="26" fill="#a39274" stroke="#6e5f44" stroke-width="1.4"/>'
+            '<circle cx="2" cy="-26" r="18" fill="none" stroke="#8a7a5e" stroke-width="1"/></g>')
+
+
+def prop_jar(x, y, s):
+    """A small jar of spices or ointment (Mark 16:1; Luke 23:56)."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M-5 -16 H5 V-13 Q9 -10 9 -5 Q9 0 0 0 Q-9 0 -9 -5 Q-9 -10 -5 -13 Z" fill="#e8dcc0" stroke="#8d7650" stroke-width="0.9"/>'
+            '<rect x="-4" y="-19" width="8" height="3" fill="#8d7650"/></g>')
+
+
 def prop_cloud(x, y, s):
     """A cloud to be taken up in (Acts 1:9; Revelation 11:12); its flat base sits on y."""
     return "".join(larkin_cloud(x, y, 120 * s, fill="#fbf7ee", stroke="#c9c2b0"))
@@ -706,7 +724,7 @@ def flame_jet(x0, y0, x1, y1, s):
             f'<polygon points="{tongue(5)}" fill="#f6d36a"/>')
 
 
-PROPS = {"gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
+PROPS = {"tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf}
 
@@ -912,6 +930,8 @@ LAYOUTS = {
     "two-tables": [[380, 1, 1], [300, 1], [340, 3, 1]],
     # An echo: one story beside another, beat for beat, a narrow column and a wide one.
     "echo": [[260, 1, 2], [260, 1, 2], [260, 1, 2], [260, 1, 2]],
+    # Days as columns, the night above the daylight, as the Hebrew day runs from sunset; a tally below.
+    "day-by-day": [[260, 1, 1, 1], [260, 1, 1, 1], [110, 1]],
     # Three wide panels: before, turn, after.
     "three-acts": [[280, 1], [280, 1], [280, 1]],
 }
@@ -971,7 +991,68 @@ def _expand_cast(entries):
     return out
 
 
+def _sun(x, y, r, fill):
+    rays = "".join(f'<path d="M{x + r * 1.25 * math.cos(a):.1f} {y + r * 1.25 * math.sin(a):.1f} '
+                   f'L{x + r * 1.6 * math.cos(a):.1f} {y + r * 1.6 * math.sin(a):.1f}" stroke="{GOLD_EDGE}" stroke-width="1.6"/>'
+                   for a in [k * math.pi / 4 for k in range(8)])
+    if fill == "part":
+        body = (f'<circle cx="{x}" cy="{y}" r="{r}" fill="{PAPER}" stroke="{GOLD_EDGE}" stroke-width="1.6"/>'
+                f'<path d="M{x} {y - r} A{r} {r} 0 0 1 {x} {y + r} Z" fill="{GOLD}"/>')
+    else:
+        body = f'<circle cx="{x}" cy="{y}" r="{r}" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1.6"/>'
+    return rays + body
+
+
+def _moon(x, y, r, style):
+    if style == "dashed":
+        return (f'<circle cx="{x}" cy="{y}" r="{r}" fill="none" stroke="{RED}" stroke-width="1.6" stroke-dasharray="4 3"/>'
+                f'<text x="{x}" y="{y + 5}" font-size="14" text-anchor="middle" fill="{RED}" font-weight="bold">?</text>')
+    fill = "#26304a" if style != "muted" else "#a9a3b8"
+    return (f'<circle cx="{x}" cy="{y}" r="{r}" fill="{fill}"/>'
+            f'<circle cx="{x + r * 0.45:.1f}" cy="{y - r * 0.2:.1f}" r="{r * 0.85:.1f}" fill="{CARD}"/>')
+
+
+def draw_tally(i, box, p):
+    """A counting strip: suns and moons in order, sunsets between the days, one label under each.
+    A mark with style "dashed" is one the count needs and the text does not give."""
+    x, y, w, h = box
+    marks = p["marks"]
+    span = p.get("span", 0.64) * w
+    out = [f'<g transform="translate({x:.1f} {y:.1f})">',
+           f'<rect width="{w:.1f}" height="{h}" rx="4" fill="{CARD}" stroke="{INK}" stroke-width="2.6"/>']
+    slots = [m for m in marks if not m.get("sunset")]
+    step = span / len(slots)
+    cx, cy = 14 + step / 2, h * 0.42
+    for m in marks:
+        if m.get("sunset"):
+            sx = cx - step / 2
+            out.append(f'<path d="M{sx:.1f} 14 V{h - 16:.1f}" stroke="{SEPIA}" stroke-width="1.4" stroke-dasharray="3 3"/>'
+                       + text(sx, h - 6, "sunset", 10, "middle", fill=SEPIA, italic=True))
+            continue
+        if m["icon"] == "sun":
+            out.append(_sun(cx, cy, 11, m.get("fill", "full")))
+        else:
+            out.append(_moon(cx, cy, 11, m.get("style", "")))
+        col = RED if m.get("style") == "dashed" else (MUTED if m.get("style") == "muted" else INK)
+        for k, line in enumerate(m.get("label", "").split("\n")):
+            out.append(text(cx, cy + 30 + k * 13, line, 11.5, "middle", "bold" if k == 0 else None, fill=col))
+        cx += step
+    if p.get("caption"):
+        tx = 14 + span + 14
+        rows, _ = fit(p["caption"], w - tx - 14, 13.5)
+        ty = h / 2 - (len(rows) - 1) * 8.5 + 4
+        for r in rows:
+            out.append(text(tx, ty, r, 13.5, weight="bold"))
+            ty += 17
+    if p.get("ref"):
+        out.append(text(w - 12, h - 8, p["ref"], 11, "end", fill=MUTED, italic=True))
+    out.append('</g>')
+    return out
+
+
 def draw_panel(i, box, p):
+    if p.get("kind") == "tally":
+        return draw_tally(i, box, p)
     x, y, w, h = box
     cid = f"pane{i}"
     flash = p.get("flashback", False)
@@ -1021,7 +1102,8 @@ def draw_panel(i, box, p):
 
     cap_h = 0
     if p.get("caption"):
-        c, cap_h = caption(p["caption"], 10, 10, min(w - 44, p.get("caption_w", w * 0.62)))
+        room = w - (20 if p.get("_no_number") else 44)
+        c, cap_h = caption(p["caption"], 10, 10, min(room, p.get("caption_w", w * 0.62)))
         out += c
     if p.get("aside"):
         # The aside hangs under the caption, so bubbles keep clear of both as one block.
@@ -1030,7 +1112,7 @@ def draw_panel(i, box, p):
         out += a
         cap_h += ah + (4 if cap_h else 0)
         p = dict(p, caption_w=max(p.get("caption_w", w * 0.62) if p.get("caption") else 0, aw))
-    cap_right = 10 + min(w - 44, p.get("caption_w", w * 0.62)) if cap_h else -1
+    cap_right = 10 + min(w - (20 if p.get("_no_number") else 44), p.get("caption_w", w * 0.62)) if cap_h else -1
     cap_bottom = 10 + cap_h + 8 if cap_h else 8
     placed = []
     for b in p.get("say", []):
@@ -1076,18 +1158,31 @@ def draw_panel(i, box, p):
         svg, _ = bubble(b["text"], bx, by + inset, bw - 2 * inset, (hx, hy - 6 * hs), style, picture=pic)
         out += svg
 
+    badge_right = 0
+    if p.get("badge"):
+        # A count on the panel, in the panel's own terms: "NIGHT 1", "DAY 2 · ALL".
+        b = p["badge"]
+        tone = b.get("tone", "day")
+        fill, ink, extra = {"night": ("#26304a", PAPER, ""), "day": (GOLD, INK, ""),
+                            "muted": (PAPER, MUTED, ' stroke-dasharray="4 3"')}[tone]
+        bw_ = len(b["text"]) * 7.4 + 18
+        out.append(f'<rect x="8" y="{h - 30:.1f}" width="{bw_:.1f}" height="22" rx="11" fill="{fill}" stroke="{INK}" stroke-width="1.2"{extra}/>')
+        out.append(text(8 + bw_ / 2, h - 14.5, b["text"].upper(), 11.5, "middle", "bold", fill=ink, spacing="1"))
+        badge_right = 8 + bw_
     ref = p.get("ref", "")
     if ref:
         tag = ref + (" · condensed" if any(b.get("source") == "condensed" for b in p.get("say", [])) else "")
         tw = len(tag) * 6.3 + 16
-        out.append(f'<rect x="{w - tw - 6:.1f}" y="{h - 26:.1f}" width="{tw:.1f}" height="20" rx="3" fill="{PAPER}" opacity="0.92"/>')
-        out.append(text(w - 14, h - 11.5, tag, 12, "end", fill=MUTED, italic=True))
+        lift = 24 if badge_right and w - tw - 6 < badge_right + 6 else 0
+        out.append(f'<rect x="{w - tw - 6:.1f}" y="{h - 26 - lift:.1f}" width="{tw:.1f}" height="20" rx="3" fill="{PAPER}" opacity="0.92"/>')
+        out.append(text(w - 14, h - 11.5 - lift, tag, 12, "end", fill=MUTED, italic=True))
     out.append('</g>')
     out.append(f'<rect x="0" y="0" width="{w:.1f}" height="{h}" rx="{18 if flash else 4}" fill="none" stroke="{INK}" stroke-width="2.6"/>')
     if flash:
         out.append(f'<rect x="4" y="4" width="{w - 8:.1f}" height="{h - 8}" rx="15" fill="none" stroke="{SEPIA}" stroke-width="1"/>')
-    out.append(text(12 if not p.get("caption") else w - 14, h - 11 if not p.get("caption") else 24, str(i + 1),
-                    12, "start" if not p.get("caption") else "end", "bold", fill=MUTED))
+    if not p.get("_no_number"):
+        out.append(text(12 if not p.get("caption") else w - 14, h - 11 if not p.get("caption") else 24, str(i + 1),
+                        12, "start" if not p.get("caption") else "end", "bold", fill=MUTED))
     out.append('</g>')
     return out
 
@@ -1096,7 +1191,9 @@ def describe(comic):
     """The <desc>, and the alt text for the markdown embed: every panel, every word in it."""
     parts = [f'A one-minute comic in {len(comic["panel"])} panels.']
     if comic.get("headers"):
-        parts.append("Two columns side by side: " + " and ".join(comic["headers"]) + ", row for row.")
+        hs = comic["headers"]
+        names = ", ".join(hs[:-1]) + " and " + hs[-1] if len(hs) > 1 else hs[0]
+        parts.append(f"{['', 'One column', 'Two columns', 'Three columns', 'Four columns'][len(hs)]} side by side: {names}, row for row.")
     for i, p in enumerate(comic["panel"]):
         names = {}
         for e in _expand_cast(p.get("cast", [])):
@@ -1116,6 +1213,12 @@ def describe(comic):
                 bits.append(f'{who} says: "{b["text"]}"')
         if p.get("aside"):
             bits.append(f'Note: "{p["aside"]}"')
+        if p.get("badge"):
+            bits.append(f'Counted: {p["badge"]["text"]}')
+        if p.get("kind") == "tally":
+            bits.append("The count: " + ", ".join(m["label"].replace("\n", " ") for m in p["marks"] if not m.get("sunset")))
+            if p.get("caption"):
+                bits[-1] += f'. "{p["caption"]}"' 
         parts.append(" ".join(b if b.rstrip('"”’').endswith((".", "!", "?")) else b + "." for b in bits))
     if comic.get("point"):
         parts.append(f'The point: {comic["point"]}')
@@ -1136,7 +1239,8 @@ def render(comic):
     layout = comic.get("layout", "setting-exchange-reveal")
     rows = LAYOUTS[layout] if isinstance(layout, str) else layout
     headers = comic.get("headers", [])
-    boxes, bottom = panel_boxes(rows, 108 + (40 if headers else 0))
+    subheaders = comic.get("subheaders", [])
+    boxes, bottom = panel_boxes(rows, 108 + (40 if headers else 0) + (16 if subheaders else 0))
     if len(boxes) != len(comic["panel"]):
         raise SystemExit(f'{comic["slug"]}: layout has {len(boxes)} panels, file has {len(comic["panel"])}')
 
@@ -1149,10 +1253,13 @@ def render(comic):
     out += heading(comic["title"], comic.get("subtitle", ""))
     # Column headers name what each column of panels is, when the columns run in parallel.
     for (bx, by_, bw_, _), label in zip(boxes, headers):
-        out += banner(bx + bw_ / 2, by_ - 34, min(bw_ - 40, len(label) * 9 + 20), label.upper(),
+        out += banner(bx + bw_ / 2, by_ - 34 - (16 if subheaders else 0), min(bw_ - 40, len(label) * 9 + 20), label.upper(),
                       fill=SEPIA if label == headers[0] and comic.get("first_column_past") else INK, size=12)
+    for (bx, by_, bw_, _), sub in zip(boxes, subheaders):
+        out.append(text(bx + bw_ / 2, by_ - 6, sub, 11.5, "middle", fill=MUTED, italic=True))
     for i, (box, p) in enumerate(zip(boxes, comic["panel"])):
-        out += draw_panel(i, box, p)
+        # numbers = false: the columns or headers already give the reading order.
+        out += draw_panel(i, box, dict(p, _no_number=not comic.get("numbers", True)))
 
     y = bottom + 30
     if point_rows:

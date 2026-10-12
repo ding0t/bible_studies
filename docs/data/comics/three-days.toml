@@ -1,0 +1,121 @@
+# Comic for docs/content/jesus/three-days-and-three-nights.md, section "The week as the Hebrew
+# calendar counts it". It replaces the mermaid flowchart there and says the same thing.
+# Drawn by: python3 utils/build_comics.py three-days
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-12.
+#
+# The Hebrew day runs from evening to evening (Genesis 1:5; Leviticus 23:32), so each column is one
+# day with its night on top. The weekday names are the study's Friday reading; the dashed third
+# night in the tally is what that reading has to absorb (Matthew 12:40), marked as the study marks
+# it. Mark 16:2 has the women at the tomb "when the sun had risen", so day 3 counts from dawn.
+
+title = "Three Days, Two Nights"
+subtitle = "The week as the Hebrew calendar counts it, sunset to sunset"
+layout = "day-by-day"
+headers = ["The Preparation", "The Sabbath", "The first day"]
+numbers = false
+subheaders = ["Thursday sunset → Friday sunset", "Friday sunset → Saturday sunset", "Saturday sunset → Sunday sunset"]
+note = "Each Hebrew day begins at sunset, so its night comes first. Weekdays follow this study's Friday reading."
+point = "Mark names the day He died, “the day before the Sabbath,” and Luke counts that Sunday “the third day.” The Friday reading keeps both, and owes one night."
+
+# --- the nights ----------------------------------------------------------------------------------
+
+[[panel]]
+ref = "Mark 14:17-72"
+scene = "room"
+caption = "The Passover meal, the arrest, the trials."
+caption_w = 200
+badge = { text = "Alive", tone = "muted" }
+shows = "evening indoors by lamplight, Jesus seated with His disciples"
+cast = [
+  { who = "disciple", id = "d1", name = "a disciple", x = 0.22, face = "right", stance = "sit", s = 0.75 },
+  { who = "jesus", x = 0.52, face = "right", stance = "sit", pose = "open", s = 0.75 },
+  { who = "disciple", id = "d2", name = "a disciple", x = 0.82, face = "left", stance = "sit", s = 0.75, tone = 1 },
+]
+
+[[panel]]
+ref = "Mark 15:46"
+scene = "hills"
+sky = "night"
+caption = "In the tomb, the stone rolled against it."
+caption_w = 200
+badge = { text = "Night 1", tone = "night" }
+shows = "the tomb at night, its stone rolled across the entrance"
+props = [
+  { what = "tomb_sealed", x = 0.5, s = 0.8 },
+]
+
+[[panel]]
+ref = "Mark 16:1"
+scene = "street"
+sky = "night"
+caption = "“When the Sabbath was past,” the women buy spices."
+caption_w = 200
+badge = { text = "Night 2", tone = "night" }
+shows = "three women in a street at night, each carrying a jar of spices"
+cast = [
+  { who = "woman", id = "women", name = "the women", n = 3, x = 0.22, x2 = 0.78, face = "right", pose = "hold", holds = "jar", s = 0.8 },
+]
+
+# --- the daylight --------------------------------------------------------------------------------
+
+[[panel]]
+ref = "Mark 15:33-46"
+scene = "hills"
+sky = "storm"
+caption = "“The day before the Sabbath”: crucified, buried before evening."
+caption_w = 200
+badge = { text = "Day 1 · part", tone = "day" }
+shows = "three crosses on a rise under a darkened sky"
+props = [
+  { what = "crosses", x = 0.5, s = 0.75 },
+]
+
+[[panel]]
+ref = "Luke 23:56"
+scene = "room"
+caption = "“On the Sabbath they rested according to the commandment.”"
+caption_w = 200
+badge = { text = "Day 2 · all", tone = "day" }
+shows = "the women seated at rest indoors, their jars beside them"
+props = [
+  { what = "jar", x = 0.88, s = 1.0 },
+]
+cast = [
+  { who = "woman", id = "women", name = "the women", n = 3, x = 0.18, x2 = 0.72, face = "right", stance = "sit", s = 0.75 },
+]
+
+[[panel]]
+ref = "Mark 16:2; Luke 24:13-21"
+scene = "hills"
+sky = "day"
+caption = "Sunrise: the tomb is empty. Later, on the road to Emmaus:"
+caption_w = 200
+badge = { text = "Day 3 · part", tone = "day" }
+shows = "two disciples walk the road to Emmaus with Jesus, whom they do not recognise"
+cast = [
+  { who = "jesus", x = 0.16, face = "right", stance = "walk", s = 0.5 },
+  { who = "disciple", id = "cleopas", name = "Cleopas", x = 0.56, face = "left", stance = "walk", pose = "open", s = 0.5 },
+  { who = "disciple", id = "other", name = "the other disciple", x = 0.80, face = "left", stance = "walk", s = 0.5, tone = 2 },
+]
+say = [
+  { by = "cleopas", text = "It is now the third day since these things happened.", source = "esv", at = [0.5, 0.36], w = 190 },
+]
+
+# --- the count -------------------------------------------------------------------------------------
+
+[[panel]]
+kind = "tally"
+ref = "Matthew 12:40"
+span = 0.66
+caption = "Three days touched. Two nights. The third night is the cost the Friday reading carries."
+marks = [
+  { icon = "moon", style = "muted", label = "alive" },
+  { icon = "sun", fill = "part", label = "Day 1\npart" },
+  { sunset = true },
+  { icon = "moon", label = "Night 1" },
+  { icon = "sun", fill = "full", label = "Day 2\nall" },
+  { sunset = true },
+  { icon = "moon", label = "Night 2" },
+  { icon = "sun", fill = "part", label = "Day 3\npart" },
+  { icon = "moon", style = "dashed", label = "Night 3" },
+]

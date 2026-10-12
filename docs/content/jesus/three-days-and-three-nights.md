@@ -432,24 +432,7 @@ The Hebrew day runs evening to evening — "there was evening and there was morn
 (Genesis 1:5), and "from evening to evening shall you keep your Sabbath" (Leviticus 23:32). Each day
 carries its night at the front.
 
-```mermaid
-flowchart TD
-    subgraph d1["The Preparation · Nisan 14 · Thursday sunset → Friday sunset"]
-      direction TB
-      A["<i>its night</i><br/>Passover meal,<br/>arrest, trials<br/><b>he is alive</b>"] --> B["<i>its daylight</i><br/>crucified, dead at<br/>about the ninth hour,<br/>buried before sunset<br/><b>DAY 1 — part of it</b>"]
-    end
-    subgraph d2["The Sabbath · Friday sunset → Saturday sunset"]
-      direction TB
-      C["<i>its night</i><br/>in the tomb<br/><b>NIGHT 1</b>"] --> D["<i>its daylight</i><br/>in the tomb;<br/>the women rest<br/><b>DAY 2 — all of it</b>"]
-    end
-    subgraph d3["The first day · Saturday sunset → Sunday sunset"]
-      direction TB
-      E["<i>its night</i><br/>in the tomb;<br/>the Sabbath past,<br/>spices bought<br/><b>NIGHT 2</b>"] --> F["<i>its dawn</i><br/>the tomb is empty<br/><b>DAY 3 — part of it</b>"]
-    end
-    d1 --> d2
-    d2 --> d3
-    d3 --> T["<b>Three days touched.</b><br/><b>Two nights.</b><br/>The third night is the cost<br/>the Friday reading carries."]
-```
+[![A one-minute comic in 7 panels. Three columns side by side: The Preparation, The Sabbath and The first day, row for row. Panel 1 (Mark 14:17-72): evening indoors by lamplight, Jesus seated with His disciples. Caption: "The Passover meal, the arrest, the trials." Counted: Alive. Panel 2 (Mark 15:46): the tomb at night, its stone rolled across the entrance. Caption: "In the tomb, the stone rolled against it." Counted: Night 1. Panel 3 (Mark 16:1): three women in a street at night, each carrying a jar of spices. Caption: "“When the Sabbath was past,” the women buy spices." Counted: Night 2. Panel 4 (Mark 15:33-46): three crosses on a rise under a darkened sky. Caption: "“The day before the Sabbath”: crucified, buried before evening." Counted: Day 1 · part. Panel 5 (Luke 23:56): the women seated at rest indoors, their jars beside them. Caption: "“On the Sabbath they rested according to the commandment.”" Counted: Day 2 · all. Panel 6 (Mark 16:2; Luke 24:13-21): two disciples walk the road to Emmaus with Jesus, whom they do not recognise. Caption: "Sunrise: the tomb is empty. Later, on the road to Emmaus:". Cleopas says: "It is now the third day since these things happened." Counted: Day 3 · part. Panel 7 (Matthew 12:40). Caption: "Three days touched. Two nights. The third night is the cost the Friday reading carries." The count: alive, Day 1 part, Night 1, Day 2 all, Night 2, Day 3 part, Night 3. "Three days touched. Two nights. The third night is the cost the Friday reading carries." The point: Mark names the day He died, “the day before the Sabbath,” and Luke counts that Sunday “the third day.” The Friday reading keeps both, and owes one night.](../assets/img/comics/three-days.svg)](../assets/img/comics/three-days.svg)
 
 The night of the Preparation is the one he was
 *alive* for, so it never counts, whichever day the crucifixion is placed on. And the Sabbath is the
