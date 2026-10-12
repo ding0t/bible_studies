@@ -27,6 +27,8 @@ authority, and they are judging the one the Father sent.
 be one with the Father, and theirs condemn them, because they held God's word and authority and did
 not do the work it was given for.
 
+[![A one-minute comic in 5 panels. Panel 1 (John 10:22-30): Jesus walks in Solomon's colonnade on a grey winter day; the authorities gather around Him. Caption: "Jerusalem, in winter, at the Feast of Dedication. Jesus is walking in the temple, in the colonnade of Solomon." An authority says: "If you are the Christ, tell us plainly." Jesus says: "I and the Father are one." Panel 2 (John 10:31-33): the authorities take up stones. An authority says: "You, a man, make yourself God! Stone him!" Panel 3 (John 10:37-38): Jesus answers, arms open. Jesus says: "The Father is in me and I am in the Father. Do not take my word for it: believe the works." Panel 4 (John 9:7, 25-34), a flashback: outside the synagogue the healed man, hands raised, faces the authorities. Caption: "Earlier: Jesus gave sight to a man born blind. The authorities questioned the man." The healed man says: "Though I was blind, now I see! If this man were not from God, he could do nothing." An authority says: "Would you teach us? Out!" Panel 5 (John 10:34-35; Psalm 82:6-7): Jesus faces the authorities, their stones still in their hands. Jesus says: "God gave you His word and called you ‘gods’. But your works lead to death." The point: Jesus’ works are the Father's own. They show that the Father is in Him and He is in the Father, so you can believe the works and believe Him (John 10:38).](../assets/img/comics/you-are-gods.svg)](../assets/img/comics/you-are-gods.svg)
+
 ## Key Takeaways
 
 ### Lessons about Jesus

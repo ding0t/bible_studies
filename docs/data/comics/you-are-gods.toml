@@ -1,0 +1,78 @@
+# One-minute comic for docs/content/jesus/you-are-gods.md.
+# Drawn by: python3 utils/build_comics.py you-are-gods
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-12.
+# source = "esv" is the ESV's words as printed; "condensed" is shortened from the verses in `ref`.
+
+title = "Believe the works"
+subtitle = "John 9-10 in one minute"
+layout = "setting-exchange-evidence-verdict"
+point = "Jesus’ works are the Father's own. They show that the Father is in Him and He is in the Father, so you can believe the works and believe Him (John 10:38)."
+
+[[panel]]
+ref = "John 10:22-30"
+scene = "colonnade"
+sky = "winter"
+caption = "Jerusalem, in winter, at the Feast of Dedication. Jesus is walking in the temple, in the colonnade of Solomon."
+shows = "Jesus walks in Solomon's colonnade on a grey winter day; the authorities gather around Him"
+cast = [
+  { who = "jesus", x = 0.26, stance = "walk", pose = "stand" },
+  { who = "authority", id = "auth", n = 3, x = 0.66, x2 = 0.88, face = "left", pose = ["point", "fold", "stand"] },
+]
+say = [
+  { by = "auth", text = "If you are the Christ, tell us plainly.", source = "esv", at = [0.80, 0.24], w = 210 },
+  { by = "jesus", text = "I and the Father are one.", source = "esv", at = [0.48, 0.40], w = 190 },
+]
+
+[[panel]]
+ref = "John 10:31-33"
+scene = "colonnade"
+sky = "winter"
+shows = "the authorities take up stones"
+cast = [
+  { who = "authority", id = "auth", n = 3, x = 0.22, x2 = 0.78, face = "right", pose = ["shout", "raise", "hold"], holds = "stone" },
+]
+say = [
+  { by = "auth", text = "You, a man, make yourself God! Stone him!", source = "condensed", style = "shout", at = [0.5, 0.06], w = 230 },
+]
+
+[[panel]]
+ref = "John 10:37-38"
+scene = "colonnade"
+sky = "winter"
+shows = "Jesus answers, arms open"
+cast = [
+  { who = "jesus", x = 0.42, face = "left", pose = "open" },
+]
+say = [
+  { by = "jesus", text = "The Father is in me and I am in the Father. Do not take my word for it: believe the works.", source = "condensed", at = [0.5, 0.05], w = 250 },
+]
+
+[[panel]]
+ref = "John 9:7, 25-34"
+scene = "synagogue"
+sky = "day"
+flashback = true
+caption = "Earlier: Jesus gave sight to a man born blind. The authorities questioned the man."
+caption_w = 420
+shows = "outside the synagogue the healed man, hands raised, faces the authorities"
+cast = [
+  { who = "healed", id = "man", x = 0.56, face = "right", pose = "praise" },
+  { who = "authority", id = "auth", n = 2, x = 0.80, x2 = 0.92, face = "left", pose = ["point", "fold"] },
+]
+say = [
+  { by = "man", text = "Though I was blind, now I see! If this man were not from God, he could do nothing.", source = "condensed", at = [0.27, 0.40], w = 270 },
+  { by = "auth", text = "Would you teach us? Out!", source = "condensed", style = "shout", at = [0.82, 0.07], w = 170 },
+]
+
+[[panel]]
+ref = "John 10:34-35; Psalm 82:6-7"
+scene = "colonnade"
+sky = "winter"
+shows = "Jesus faces the authorities, their stones still in their hands"
+cast = [
+  { who = "jesus", x = 0.22, face = "right", pose = "point" },
+  { who = "authority", id = "auth", n = 3, x = 0.60, x2 = 0.86, face = "left", pose = ["hold", "fold", "hold"], holds = "stone" },
+]
+say = [
+  { by = "jesus", text = "God gave you His word and called you ‘gods’. But your works lead to death.", source = "condensed", at = [0.40, 0.06], w = 300 },
+]

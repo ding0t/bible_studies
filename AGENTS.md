@@ -406,6 +406,10 @@ the workflow manually (`workflow_dispatch`).
   (`bride-of-christ.md` went from 4,362 to 14,393 in three weeks). Validator Check 23 warns when a
   study passes its `word_budget` (state file, default 4,000). The four answer *build it / is it
   true? / can it be read? / is it the right size?*
+- **One-minute comics** (`.claude/skills/one-minute-comic/SKILL.md`) tell a study's point in three to
+  six panels. A comic is data, `docs/data/comics/<slug>.toml`, drawn by `utils/build_comics.py` from
+  the reusable cast, poses, scenes and layouts in `utils/lib/comic.py`; every bubble is the ESV's
+  wording or marked "condensed" from the verses its panel names.
 - **An exemption in a checking tool carries its justification with it, or it is a hole.** Two of this
   repo's checks were defeated by an unrecorded exemption rather than by a missing check. The diagram
   sweep skipped `timeline` blocks because they "size themselves" — they do not, and five stayed

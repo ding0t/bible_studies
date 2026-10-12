@@ -7,6 +7,10 @@ together, an object Scripture specifies, or a scene it describes in detail.
 
 Pick the kind before drawing. Each answers a different question and has its own rules.
 
+A fifth form tells rather than explains: the **one-minute comic**, the study's point told in three
+to six panels with speech bubbles and a reusable cast. It has its own skill,
+[one-minute-comic](../one-minute-comic/SKILL.md), and its own library, `utils/lib/comic.py`.
+
 | Kind | Answers | Examples on the site |
 |---|---|---|
 | **Sequence** | *When?* Events on a line of time, spans, the order of a series | `seven-thousand-years`, `seventy-weeks`, `two-stages-of-his-coming`, `end-of-the-ages`, `after-the-thousand-years`, the tribulation charts |
