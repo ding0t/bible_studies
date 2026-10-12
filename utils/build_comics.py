@@ -4,6 +4,7 @@
     python3 utils/build_comics.py you-are-gods    # one comic
     python3 utils/build_comics.py --cast          # the model sheet of every cast member and pose
     python3 utils/build_comics.py --alt you-are-gods   # print the alt text for the markdown embed
+    python3 utils/build_comics.py --draft peter        # render despite layout faults, and list them
 
 A comic file names a layout, then lists its panels: a scene, a sky, the cast with their poses, the
 caption and the speech bubbles, and the verses the panel draws on. The drawing is all in
@@ -15,6 +16,7 @@ import sys
 import tomllib
 from pathlib import Path
 
+from lib import comic as lib
 from lib.comic import cast_sheet, describe, render
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -37,11 +39,16 @@ def main(args):
     if args[:1] == ["--alt"]:
         print(describe(load(args[1])))
         return
+    if args[:1] == ["--draft"]:
+        lib.STRICT = False
+        args = args[1:]
     OUT.mkdir(parents=True, exist_ok=True)
     for slug in args or sorted(p.stem for p in SRC.glob("*.toml")):
         path = OUT / f"{slug}.svg"
         path.write_text(render(load(slug)) + "\n", encoding="utf-8")
         print(f"wrote {path.relative_to(ROOT)}")
+    for msg in lib.PROBLEMS:
+        print(f"  fault: {msg}")
 
 
 if __name__ == "__main__":

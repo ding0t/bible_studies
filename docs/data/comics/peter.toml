@@ -1,0 +1,113 @@
+# One-minute comic for docs/content/biblical-figures/peter.md.
+# Drawn by: python3 utils/build_comics.py peter
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-12.
+# The two charcoal fires: ἀνθρακιά (G439) occurs in the New Testament only at John 18:18 and 21:9
+# (bible_concordance, macula-greek-sblgnt), so panels 4 and 5 are drawn as a pair.
+
+title = "Named a Rock"
+subtitle = "Simon Peter in one minute"
+layout = "call-pairs-mission"
+point = "Jesus named Peter a rock before he had earned it, prayed for him before he fell, and made his return his commission. Your failure can become yours: “when you have turned again, strengthen your brothers” (Luke 22:32)."
+
+[[panel]]
+ref = "John 1:40-42"
+scene = "hills"
+sky = "day"
+caption = "Andrew brings his brother Simon to Jesus. Before Simon has said a word, Jesus renames him Cephas, “Rock”."
+caption_w = 380
+shows = "Andrew leads his brother Simon to Jesus, who stands with His arms open"
+cast = [
+  { who = "andrew", x = 0.12, face = "right", pose = "point", tag = "Andrew" },
+  { who = "peter", id = "simon", name = "Simon", x = 0.30, face = "right", pose = "stand", tag = "Simon" },
+  { who = "jesus", x = 0.62, face = "left", pose = "open" },
+]
+say = [
+  { by = "jesus", text = "You are Simon the son of John. You shall be called Cephas.", source = "esv", at = [0.80, 0.08], w = 230 },
+]
+
+[[panel]]
+ref = "Matthew 16:13-16"
+scene = "hills"
+sky = "day"
+caption = "At Caesarea Philippi Jesus asks, “But who do you say that I am?”"
+caption_w = 290
+shows = "Jesus, arms open, asks the question; Peter answers, hand on his heart"
+cast = [
+  { who = "peter", x = 0.26, face = "right", pose = "heart", tag = "Peter" },
+  { who = "jesus", x = 0.74, face = "left", pose = "open" },
+]
+say = [
+  { by = "peter", text = "You are the Christ, the Son of the living God.", source = "esv", at = [0.40, 0.30], w = 190 },
+]
+
+[[panel]]
+ref = "Matthew 16:21-23"
+scene = "hills"
+sky = "day"
+caption = "Then Jesus speaks of His cross."
+caption_w = 200
+shows = "Peter takes Jesus aside and rebukes Him; Jesus turns on him"
+cast = [
+  { who = "peter", x = 0.28, face = "right", pose = "point" },
+  { who = "jesus", x = 0.72, face = "left", pose = "turn" },
+]
+say = [
+  { by = "peter", text = "Far be it from you, Lord!", source = "esv", at = [0.25, 0.20], w = 130 },
+  { by = "jesus", text = "Get behind me, Satan!", source = "esv", style = "shout", at = [0.74, 0.20], w = 140 },
+]
+
+[[panel]]
+ref = "Matthew 26:69-74; John 18:18"
+scene = "courtyard"
+sky = "night"
+caption = "Night, by a charcoal fire. Three times."
+caption_w = 300
+shows = "in the high priest's courtyard a servant girl points at Peter across a charcoal fire; a rooster stands in the yard"
+props = [
+  { what = "fire", x = 0.50 },
+  { what = "rooster", x = 0.34, s = 0.7 },
+]
+cast = [
+  { who = "woman", id = "girl", name = "a servant girl", x = 0.18, face = "right", pose = "point", s = 0.78 },
+  { who = "peter", x = 0.78, face = "left", pose = "turn", s = 0.78 },
+]
+say = [
+  { by = "girl", text = "You also were with Jesus the Galilean.", source = "esv", at = [0.30, 0.15], w = 140 },
+  { by = "peter", text = "I do not know the man.", source = "esv", style = "shout", at = [0.76, 0.15], w = 130 },
+]
+
+[[panel]]
+ref = "John 21:9-17"
+scene = "shore"
+sky = "dawn"
+caption = "Dawn, by a charcoal fire. Three times."
+caption_w = 300
+shows = "on the lake shore at dawn Jesus and Peter face each other across a charcoal fire, the boat drawn up behind"
+props = [
+  { what = "fire", x = 0.50 },
+]
+cast = [
+  { who = "jesus", x = 0.20, face = "right", pose = "open", s = 0.78 },
+  { who = "peter", x = 0.78, face = "left", pose = "heart", s = 0.78 },
+]
+say = [
+  { by = "jesus", text = "Simon, son of John, do you love me? … Feed my sheep.", source = "condensed", at = [0.27, 0.15], w = 160 },
+  { by = "peter", text = "Yes, Lord; you know that I love you.", source = "esv", at = [0.77, 0.15], w = 140 },
+]
+
+[[panel]]
+ref = "Acts 2:14, 38-41"
+scene = "street"
+sky = "day"
+caption = "At Pentecost Peter stands up with the eleven and preaches. About three thousand are added that day."
+caption_w = 420
+shows = "Peter, two of the apostles behind him, preaches to a crowd in a city street"
+cast = [
+  { who = "disciple", id = "eleven", name = "two of the eleven", n = 2, x = 0.06, x2 = 0.13, face = "right", dy = -0.03, s = 0.9 },
+  { who = "peter", x = 0.24, face = "right", pose = "open", tag = "Peter" },
+  { who = "man", id = "crowd", n = 3, x = 0.58, x2 = 0.92, face = "left", pose = ["heart", "stand", "fold"] },
+  { who = "woman", id = "crowd_w", n = 2, x = 0.66, x2 = 0.84, face = "left", dy = -0.035, s = 0.92 },
+]
+say = [
+  { by = "peter", text = "Repent and be baptized every one of you in the name of Jesus Christ for the forgiveness of your sins.", source = "esv", at = [0.47, 0.22], w = 320 },
+]

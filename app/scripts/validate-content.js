@@ -28,7 +28,9 @@ let warningCount = 0;
  * comment at the call site). Same export-plus-isMain shape as build-events.js.
  */
 export function countWordsToThesis(bodyContent) {
-  const prose = bodyContent.replace(/^#.*$/gm, '');
+  // Image alt text is described for a screen reader, never read on the way to the point, as in
+  // Check 20. A one-minute comic under the opening carries ~300 words of it.
+  const prose = bodyContent.replace(/^#.*$/gm, '').replace(/^\s*\[?!\[.*$/gm, '');
   const boldLead = /\*\*(?:(?!\*\*)[^\n]|\n(?!\s*\n))+?\*\*/.exec(prose);
   if (!boldLead) return Infinity;
   return prose
