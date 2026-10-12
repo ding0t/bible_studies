@@ -201,7 +201,15 @@ parts and no phase checked its claim. It was eventually caught while cutting the
 - Compare the study's central claims — the stated theological principle, and the load-bearing
   exegetical moves it depends on — against what that commentary says. Report one of three outcomes per
   claim checked: **confirms**, **silent** (neither supports nor contradicts), or **complicates/contradicts**.
-- A contradiction against a central claim is a **Critical** finding, not a footnote.
+- A contradiction against a central claim sends you back to the text, not to the commentary's
+  conclusion. Weigh the commentary's *reasons* against the passage and its book context. If the text
+  supports the objection, it is a **Critical** finding. If the study's exegesis answers it, report the
+  disagreement and recommend no change. Never recommend marking a claim "contested" only because a
+  study Bible reads it differently.
+- Report the reverse case too: **any exegetical step that rests on a study note alone** (the study
+  cites a note as the reason for a conclusion, with no verse, word or context behind it). Recommend
+  grounding it in the text or dropping it. See develop-bible-study Phase 6, "A study note checks the
+  exegesis".
 
 ## Phase 6 — Context coverage
 
