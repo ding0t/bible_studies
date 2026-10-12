@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 30:1-10"
 bible_references: ["Exodus 30:1-10", "Exodus 30:34-38", "Exodus 37:25-29", "Exodus 40:26-27", "Leviticus 10:1-3", "Leviticus 16:12-13", "Numbers 16:46-48", "1 Kings 6:20-22", "2 Chronicles 26:16-21", "Psalm 141:2", "Malachi 1:11", "Luke 1:8-13", "Hebrews 7:25", "Hebrews 9:3-4", "Revelation 5:8", "Revelation 6:9-11", "Revelation 8:3-5", "Revelation 9:13", "Revelation 14:18", "Revelation 16:7", "Revelation 21:22", "Revelation 22:4", "Numbers 16:35", "Revelation 6:15-17", "Exodus 25:22"]
 date_created: 2026-09-28
-date_modified: 2026-10-11
+date_modified: 2026-10-12
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -371,19 +371,24 @@ opened, and your prayer rises before Him.
 
 ## Discussion Questions
 
-1. The altar is placed "in front of the mercy seat" though a veil stood between them (Exodus 30:6).
-   What does that placement say about prayer?
-2. Nadab and Abihu offered incense and died; Aaron offered incense and a plague stopped (Leviticus
-   10:1-2; Numbers 16:46-48). What made the difference?
-3. Uzziah was a strong, blessed king when he went in to burn incense (2 Chronicles 26:16). Why is
-   success a danger at the altar?
-4. The martyrs ask "how long?" (Revelation 6:10), and the fire of Revelation 8:5 comes from the altar
-   where the saints' prayers rose. How should that shape the way you pray about injustice?
-5. Hebrews 9:4 describes the Most Holy Place as "having" the golden altar, though Exodus puts it
-   outside the veil. What does it tell you about prayer that the altar belonged to the room behind
-   the veil?
-6. The incense was burned "every morning" and "at twilight" (Exodus 30:7-8). What would a set time of
-   prayer, morning and evening, change in your week?
+1. **The text in its context.** The altar is placed "in front of the mercy seat" though a veil stood
+   between them (Exodus 30:6). What does that placement say about prayer?
+2. **The text in its context.** Nadab and Abihu offered incense and died; Aaron offered incense and a
+   plague stopped (Leviticus 10:1-2; Numbers 16:46-48). What made the difference?
+3. **Christ.** Uzziah was a strong king, and still the priests told him, "It is not for you, Uzziah,
+   to burn incense to the LORD, but for the priests, the sons of Aaron" (2 Chronicles 26:18, ESV).
+   Jesus "always lives to make intercession" for those who draw near to God through Him (Hebrews
+   7:25, ESV). What does it tell you about Jesus that He holds the office no king could take for
+   himself?
+4. **The hard part.** Exodus sets the altar "in front of the veil" (Exodus 30:6, ESV), yet Hebrews
+   describes the Most Holy Place as "having the golden altar of incense" (Hebrews 9:4, ESV), and
+   1 Kings 6:22 calls it "the altar that belonged to the inner sanctuary." How do you hold these
+   texts together?
+5. **Be transformed.** The martyrs ask "how long?" (Revelation 6:10), and the fire of Revelation 8:5
+   comes from the altar where the saints' prayers rose. How should that shape the way you pray about
+   injustice?
+6. **Be transformed.** The incense was burned "every morning" and "at twilight" (Exodus 30:7-8). What
+   would a set time of prayer, morning and evening, change in your week?
 
 ## References & Recommended Reading
 
