@@ -42,8 +42,7 @@ which condemn them because they did not do what God gave them authority to do.
   given authority who used it against the weak, condemn them.
 - **He holds the judging the psalm prayed for.** Psalm 82 ends, "Arise, O God, judge the earth"
   (Psalm 82:8, ESV), and Jesus said "the Father judges no one, but has given all judgment to the Son"
-  (John 5:22, ESV). John does not join the two verses; reading them together is this study's
-  suggestion.
+  (John 5:22, ESV). The prayer of the psalm is answered in the Son.
 
 ### Memory verses
 
@@ -60,7 +59,7 @@ which condemn them because they did not do what God gave them authority to do.
 
 ### Be Transformed
 
-- **Think.** Every authority you hold, at home, at work or in a church, is lent by God, and He will
+- **Think.** Every authority you hold, at home, at work or in a church, is given by God, and He will
   ask what you did with it for the weak (Psalm 82:3-4).
 - **Attitude.** Honour Jesus as you honour the Father (John 5:23). His works settle who He is.
 - **Do.** Name one person under your care who is weak or overlooked, and act for them this week.
@@ -70,7 +69,7 @@ which condemn them because they did not do what God gave them authority to do.
 Father, You are God Most High, and every authority on earth and in heaven answers to You. You set
 judges over Your people and called them by Your name, and You judged them when they failed the weak.
 Thank You for sending Your Son Jesus, whom You consecrated, who did Your works and holds all
-judgment. Teach me to use what You have lent me for the people You love, and to trust Your Son as
+judgment. Teach me to use what You have given me for the people You love, and to trust Your Son as
 the Judge who will put the world right. In Jesus' name. Amen.
 
 ## Study outline
@@ -79,8 +78,8 @@ the Judge who will put the world right. In Jesus' name. Amen.
   happens, who is accusing Jesus, and why a winter feast about a king who called himself god matters.
 - [Psalm 82: authority given, abused and judged](#psalm-82-authority-given-abused-and-judged). Why
   God calls judges "gods", the psalm verse by verse, and who the gods are, in the psalm and in John 10.
-- [The rebuke in the quotation](#the-rebuke-in-the-quotation). Jesus' argument in John 10:34-36, and
-  the men He said it to: teachers who sat on Moses' seat.
+- [The rebuke in the quotation](#the-rebuke-in-the-quotation). Jesus' argument in John 10:34-36, the
+  men He said it to, and His habit of rebuking Israel's teachers with their own Scriptures.
 - [Their works and His](#their-works-and-his). The heart of the study: Jesus' works verify His
   claim, and the authorities' works condemn them.
 - [A title given for an office](#a-title-given-for-an-office). What the psalm does to the teaching that
@@ -204,26 +203,9 @@ accusers to see themselves in them. Both human readings of the psalm lead to the
 gods are Israel's judges, these men held that office, and if they are Israel receiving the law at
 Sinai, these men were Israel and the law's appointed teachers.
 
-**What the psalm meant when it was first sung is contested, and good readers hold each of three
-views.** The translators record the fork themselves: the CSB footnotes the gods of 82:1, "Or the heavenly beings, or the earthly rulers," and
-the LSB, "Or rulers."
-
-- **Human judges.** These gods "judge" (Psalm 82:2), their work is justice for the weak (Psalm
-  82:3-4), and they "die like men" (Psalm 82:7). Exodus 22:8-9 uses *ʾĕlōhîm* of Israel's judges.
-  Jesus' own gloss, above, points this way.
-- **Heavenly powers.** The ESV renders 82:1 "the divine council," and Psalm 89:5-7, 1 Kings 22:19 and
-  Job 1:6 show God among heavenly beings. "Like men you shall die" can be read as a sentence on beings
-  who would otherwise not die. Verse 8's "all the nations" fits Deuteronomy 32:8, where the ESV, following the
-  Septuagint and a Dead Sea Scroll, has the nations divided "according to the number of the sons of
-  God."
-- **Israel at Sinai.** The *NIV Cultural Backgrounds Study Bible* reports that "some ancient Jewish
-  interpreters" applied the psalm "to Israel receiving the law at Mount Sinai" (note on John 10:34).
-  That reading fits "to whom the word of God came" (John 10:35) closely.
-
-Only the heavenly reading separates the psalm's gods from Jesus' hearers, and His gloss fits it
-least well. The heavenly reading and the human reading can also stand together. Isaiah 24:21 has the LORD punishing "the host of heaven,
-in heaven, and the kings of the earth, on the earth" together. On either reading the point stands:
-God gave the title, the holders abused it, and God revokes it.
+Readers also ask whom the psalm meant when it was first sung: human judges, heavenly powers, or
+Israel at Sinai. [Those Called Gods](../spiritual-beings/those-called-gods.md#who-are-the-gods-of-psalm-82)
+sets out that question. For John 10, Jesus has answered it Himself.
 
 ## The rebuke in the quotation
 
@@ -274,19 +256,44 @@ so do and observe whatever they tell you, but not the works they do" (Matthew 23
 honoured their office and condemned their works, which is Psalm 82 in a sentence.
 
 **So to quote "you are gods" to such men was to stand them in the psalm's dock,** because the psalm
-goes on: "nevertheless, like men you shall die." The argument Jesus spelled out is about the title,
-and it holds on its own. The psalm He chose to make it from is a court scene, and His hearers held
-the office it judges. Their works, set against His, are the subject of [Their works and
+goes on: "nevertheless, like men you shall die." The psalm Jesus chose is a court scene, and His
+hearers held the office it judges. Their works, set against His, are the subject of [Their works and
 His](#their-works-and-his).
+
+### Jesus rebukes with their own Scriptures
+
+**Jesus often answered Israel's teachers with a line from their own Scriptures, and the passage the
+line came from carried the charge.** Psalm 82 in John 10 is one instance of a habit the Gospels
+record again and again:
+
+- **Isaiah 29:13.** To Pharisees and scribes from Jerusalem: "You hypocrites! Well did Isaiah
+  prophesy of you, when he said: 'This people honors me with their lips, but their heart is far from
+  me'" (Matthew 15:7-8, ESV). Here He names them outright.
+- **Jeremiah 7:11.** In the temple: "It is written, 'My house shall be called a house of prayer,'
+  but you make it a den of robbers" (Matthew 21:13, ESV). Jeremiah's "den of robbers" comes from his
+  sermon against people who trusted in "the temple of the LORD" (Jeremiah 7:4, ESV) while they
+  oppressed "the sojourner, the fatherless, or the widow" (Jeremiah 7:6, ESV), the same people Psalm
+  82:3 tells the judges to defend.
+- **Hosea 6:6.** "Go and learn what this means: 'I desire mercy, and not sacrifice'" (Matthew 9:13,
+  ESV), and later, "if you had known what this means… you would not have condemned the guiltless"
+  (Matthew 12:7, ESV). Teachers of the law are sent back to learn it.
+- **Psalm 118:22.** To the chief priests and elders who had asked by what authority He acted
+  (Matthew 21:23): "Have you never read in the Scriptures: 'The stone that the builders rejected has
+  become the cornerstone'?" (Matthew 21:42, ESV). Matthew adds, "they perceived that he was speaking
+  about them" (Matthew 21:45, ESV).
+
+Each time, the hearers were the men who held the Scriptures and taught them, and the passage Jesus
+chose described them. They knew those texts whole, and Matthew 21:45 shows they heard what He meant.
+In John 10 He quoted the line about the title, and men who knew Psalm 82 heard the rest of it.
+**This shows that God's word judges the people who hold it, and that the Son, the Word made flesh
+(John 1:14), applies it with authority.** So read Scripture as His hearers should have, and let it
+search your own works before you turn it on anyone else's.
 
 ### How they took it
 
 They tried again to seize Him. "Again they sought to arrest him, but he escaped from their hands"
 (John 10:39, ESV). The argument from the psalm did not soften them; they still heard a claim to be
-God. John does not say whether the psalm, the rebuke inside it, or Jesus' last sentence, "the Father
-is in me and I am in the Father" (John 10:38), moved them to act. All three were in front of them.
-What the text does show is that they understood Him to be claiming what the judges of Psalm 82 were
-never given.
+God, and they understood Him to be claiming what the judges of Psalm 82 were never given.
 
 ## Their works and His
 
@@ -336,16 +343,15 @@ Father" (John 15:24, ESV). And to the Pharisees who heard Him at the end of John
 say, 'We see,' your guilt remains" (John 9:41, ESV).
 
 **This shows that God gives authority for a purpose, judges it by what it does, and will not let
-His own works be called blasphemy.** Whether or not Jesus meant Psalm 82's verdict when He quoted
-it, John's narrative carries the same verdict: men who held God's authority were judged by their
-works, and the man they judged was vindicated by His.
+His own works be called blasphemy.** Jesus quoted Psalm 82 to them, and John's narrative carries
+out its verdict: men who held God's authority were judged by their works, and the man they judged
+was vindicated by His.
 
 ### The judgment is His
 
 The judging God reserved to Himself in Psalm 82:8 is in the Son's hands as well: "the Father judges
 no one, but has given all judgment to the Son, that all may honor the Son, just as they honor the
-Father" (John 5:22-23, ESV). The New Testament never joins John 5:22 to Psalm 82:8. Read together,
-the Son is the one who answers the psalm's last prayer. So you may bring every injustice to Jesus,
+Father" (John 5:22-23, ESV). The Son is the one who answers the psalm's last prayer. So you may bring every injustice to Jesus,
 whom the Father has made Judge, and honour Him with the honour you give the Father.
 
 ## A title given for an office
@@ -369,11 +375,11 @@ He calls it His. You will answer to Him for the weak who were under it.
    (Psalm 82:3)?
 3. **Christ.** Jesus said, "If I am not doing the works of my Father, then do not believe me" (John
    10:37). What does it say about Him that He offered His works as the test of His claim?
-4. **The hard part.** Psalm 82:7 says the gods will "die like men", and Isaiah 24:21 punishes "the
-   host of heaven" and "the kings of the earth" together. How do those texts bear on whether the gods
-   of Psalm 82 are human judges or heavenly powers?
+4. **The hard part.** Jesus told the crowds to "do and observe whatever they tell you, but not the
+   works they do" (Matthew 23:3). How do you honour an office God gave while its holder fails at the
+   work?
 5. **Be transformed.** Psalm 82:3-4 is the job God gave to everyone He set over others. Who is weak
-   or overlooked under the authority God has lent you, and what would justice for them look like this
+   or overlooked under the authority God has given you, and what would justice for them look like this
    week?
 
 ## References & Recommended Reading

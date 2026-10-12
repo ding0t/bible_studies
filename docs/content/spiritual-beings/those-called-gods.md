@@ -130,8 +130,32 @@ God had revealed himself to him" (Genesis 35:7, ESV), with <span dir="rtl">הִ�
 H8582) and <span dir="rtl">נִגְלוּ</span> (*niglu*, H1540), both plural. The context decides; the
 grammar usually agrees with it.
 
-Who the gods of Psalm 82 are is contested: human judges, heavenly powers, or Israel at Sinai. [Who
-are the gods?](../jesus/you-are-gods.md#who-are-the-gods) gives the case for each.
+### Who are the gods of Psalm 82?
+
+**What the psalm meant when it was first sung is contested, and good readers hold each of three
+views.** The translators record the fork themselves: the CSB footnotes the gods of 82:1, "Or the
+heavenly beings, or the earthly rulers," and the LSB, "Or rulers."
+
+- **Human judges.** These gods "judge" (Psalm 82:2), their work is justice for the weak (Psalm
+  82:3-4), and they "die like men" (Psalm 82:7). Exodus 22:8-9 uses *ʾĕlōhîm* of Israel's judges.
+  Jesus' own gloss points this way: "he called them gods to whom the word of God came" (John 10:35,
+  ESV).
+- **Heavenly powers.** The ESV renders 82:1 "the divine council," and Psalm 89:5-7, 1 Kings 22:19 and
+  Job 1:6 show God among heavenly beings. "Like men you shall die" can be read as a sentence on beings
+  who would otherwise not die. Verse 8's "all the nations" fits Deuteronomy 32:8, where the ESV,
+  following the Septuagint and a Dead Sea Scroll, has the nations divided "according to the number of the sons of
+  God."
+- **Israel at Sinai.** The *NIV Cultural Backgrounds Study Bible* reports that "some ancient Jewish
+  interpreters" applied the psalm "to Israel receiving the law at Mount Sinai" (note on John 10:34).
+  That reading fits "to whom the word of God came" (John 10:35) closely.
+
+The heavenly reading and the human reading can stand together. Isaiah 24:21 has the LORD punishing
+"the host of heaven, in heaven, and the kings of the earth, on the earth" together. On either reading the point stands:
+God gave the title, the holders abused it, and God revokes it.
+
+In John 10, Jesus settles it for His own use of the psalm: the gods are those to whom God's word
+came, and His accusers stood among them. [Who are the gods?](../jesus/you-are-gods.md#who-are-the-gods)
+traces that.
 
 ### The names never given away
 
@@ -302,6 +326,7 @@ Brenton's text.
 - *ESV Study Bible* (Crossway, 2016): notes on Psalm 45:6-7; Daniel 10:13; 2 Corinthians 4:3-5;
   Colossians 1:16, 2:15; Ephesians 6:12; Hebrews 1:8-9.
 - *NIV Biblical Theology Study Bible* (Zondervan, 2018): note on Psalm 82:1.
+- *NIV Cultural Backgrounds Study Bible* (Zondervan, 2016): note on John 10:34.
 - *Legacy Standard Bible* (Lockman Foundation, 2021) and *CSB Ancient Faith Study Bible* (Holman,
   2019): footnotes on Psalm 82:1, Psalm 8:5, Exodus 21:6, Exodus 22:8, Exodus 22:28, Deuteronomy 32:8.
 - *NLT Life Application Study Bible* (Tyndale, 3rd ed.): footnotes on Exodus 22:8 and Deuteronomy 32:8.
