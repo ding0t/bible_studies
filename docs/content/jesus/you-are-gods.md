@@ -162,9 +162,10 @@ name He keeps: "I am the LORD; that is my name; my glory I give to no other" (Is
 **So God lends the title for the work, and keeps His name and His glory to Himself.** That
 distinction is the hinge of John 10.
 
-The word's other holders, from heavenly beings and the princes of Daniel 10 to the principalities
-and powers of Ephesians 6, are the subject of [Those Called
-Gods](../spiritual-beings/those-called-gods.md).
+For other examples of Scripture applying <span dir="rtl">אֱלֹהִים</span> (*ʾĕlōhîm*) to those who
+are not the LORD, such as Moses and the heavenly beings, see the study [Those Called
+Gods](../spiritual-beings/those-called-gods.md). It also covers the princes of Daniel 10 and the
+principalities and powers of Ephesians 6.
 
 ### The charge and the job description
 
