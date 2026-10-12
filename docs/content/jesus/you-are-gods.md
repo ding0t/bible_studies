@@ -20,13 +20,12 @@ ESV), and they have understood Him exactly: "you, being a man, make yourself God
 Jesus answers from Psalm 82. There God stands among the judges He appointed and calls them "gods"
 for the office He gave them, then charges them with failing at its work: "Give justice to the weak
 and the fatherless" (Psalm 82:3, ESV). They judged unjustly, and for it they "shall die" like any
-man (Psalm 82:7, ESV). Jesus quotes that psalm to men who are now judging Him, and then points them
-to His works, which do the Father's work and so bear out His claim to be God.
+man (Psalm 82:7, ESV). The men holding the stones are Israel's teachers, given that same word and
+authority, and they are judging the one the Father sent.
 
-**In one sentence:** God gave Israel's teachers His word and His authority, and Psalm 82 judges
-such men by their works; Jesus answered the authorities with that psalm and set two kinds of works
-side by side: His own, the Father's, which verify His claim to be one with the Father, and theirs,
-which condemn them because they did not do what God gave them authority to do.
+**In one sentence:** Jesus set His works beside theirs: His, the Father's own, verify His claim to
+be one with the Father, and theirs condemn them, because they held God's word and authority and did
+not do the work it was given for.
 
 ## Key Takeaways
 
