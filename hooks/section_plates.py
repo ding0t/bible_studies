@@ -1,10 +1,14 @@
-"""Put a strip of the drawn plates on each section's landing page.
+"""Put a strip of the drawn plates, and one of the one-minute comics, on each section's landing page.
 
 Every published study under a top-level section is scanned for the SVGs it embeds from
 assets/img/, and the section's `index.md` gets a scrolling row of thumbnails, each opening the
 study the plate belongs to. Found at build time, so a plate added to a study reaches its section
 page without anyone editing the landing page, and section_index.py's generated card list below it
 is left alone: the strip goes in just above its auto-start marker, with a heading for each.
+
+Comics (assets/img/comics/, utils/build_comics.py) get their own strip, "Comics in these studies",
+above the plates: a comic tells a study's point as a story and is the quickest way into it, where a
+plate explains one part of it. A section with only one kind shows only that strip.
 
 A plate embedded by several studies is credited to the first in path order. Drafts are skipped
 here as well as by draft_pages.py, which keeps them under `mkdocs serve`, so the local strip
@@ -26,6 +30,7 @@ _SVG_TITLE = re.compile(r"<title[^>]*>(.*?)</title>", re.DOTALL)
 _PAGE_TITLE = re.compile(r'^title:\s*"?(.*?)"?\s*$', re.MULTILINE)
 _DRAFT = re.compile(r"^draft:\s*true\s*$", re.MULTILINE)
 _SKIP = {"assets/img/favicon.svg"}
+_COMICS = "assets/img/comics/"
 
 # section -> [(svg path from docs_dir, plate title, page src_uri, page title)]
 _plates: dict[str, list[tuple[str, str, str, str]]] = {}
@@ -62,21 +67,29 @@ def on_page_markdown(markdown, page, config, files):  # noqa: ARG001 - hook sign
         return markdown
 
     here = posixpath.dirname(page.file.src_uri)
-    items = []
-    for svg, plate_title, src_uri, page_title in plates:
-        image = posixpath.relpath(svg, here)
-        link = posixpath.relpath(src_uri, here)
-        alt = plate_title.replace("[", "(").replace("]", ")")
-        items.append(
-            f"-   [![{alt}]({image})]({link})\n\n"
-            f"    __{plate_title}__ · {page_title}\n"
+
+    def gallery(heading, entries, extra_class=""):
+        if not entries:
+            return ""
+        items = []
+        for svg, plate_title, src_uri, page_title in entries:
+            image = posixpath.relpath(svg, here)
+            link = posixpath.relpath(src_uri, here)
+            alt = plate_title.replace("[", "(").replace("]", ")")
+            items.append(
+                f"-   [![{alt}]({image})]({link})\n\n"
+                f"    __{plate_title}__ · {page_title}\n"
+            )
+        return (
+            f"## {heading}\n\n"
+            f'<div class="grid cards plate-gallery plate-strip{extra_class}" markdown>\n\n'
+            + "\n".join(items)
+            + "\n</div>\n\n"
         )
-    strip = (
-        "## Drawn in these studies\n\n"
-        '<div class="grid cards plate-gallery plate-strip" markdown>\n\n'
-        + "\n".join(items)
-        + "\n</div>\n\n"
-    )
+
+    comics = [entry for entry in plates if entry[0].startswith(_COMICS)]
+    drawn = [entry for entry in plates if not entry[0].startswith(_COMICS)]
+    strip = gallery("Comics in these studies", comics, " comic-strip") + gallery("Drawn in these studies", drawn)
     marker = markdown.find("<!-- section-index:auto-start -->")
     if marker == -1:
         return markdown

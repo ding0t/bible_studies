@@ -78,6 +78,11 @@
   height: 9rem;
 }
 
+/* A comic's thumbnail is its title and first panels, so it gets a little more height to show them. */
+.comic-strip.grid.cards img {
+  height: 11rem;
+}
+
 .plate-strip.grid.cards li p:last-child {
   font-size: 0.7rem;
   line-height: 1.35;
