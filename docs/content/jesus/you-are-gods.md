@@ -23,11 +23,10 @@ and the fatherless" (Psalm 82:3, ESV). They judged unjustly, and for it they "sh
 man (Psalm 82:7, ESV). Jesus quotes that psalm to men who are now judging Him, and then points them
 to His works, which do the Father's work and so bear out His claim to be God.
 
-**In one sentence:** Jesus answered the authorities judging Him with Psalm 82, where God sentences
-by their works the judges He appointed, and He set two kinds of works side by side: His own, the
-Father's, which verify His claim to be one with the Father, and theirs, which condemn them because
-they did not do what God gave them authority to do. Whether He meant the psalm's verdict for them is
-contested; the contrast of works is in John's text.
+**In one sentence:** God gave Israel's teachers His word and His authority, and Psalm 82 judges
+such men by their works; Jesus answered the authorities with that psalm and set two kinds of works
+side by side: His own, the Father's, which verify His claim to be one with the Father, and theirs,
+which condemn them because they did not do what God gave them authority to do.
 
 ## Key Takeaways
 
@@ -129,8 +128,8 @@ substance: men with authority over God's people, using it against Him.
 
 ## Psalm 82: authority given, abused and judged
 
-The psalm has a frame and a speech. The psalmist speaks in verses 1 and 8; God speaks in verses 2-7
-(*NIV Biblical Theology Study Bible*, note on Psalm 82).
+The psalm has a frame and a speech. The psalmist speaks in verses 1 and 8, about God and to Him; God
+speaks in verses 2-7, where He says "I said" (Psalm 82:6).
 
 ### God in the assembly of the gods
 
@@ -176,8 +175,8 @@ principalities and powers of Ephesians 6.
 > and the needy; deliver them from the hand of the wicked." 5 They have neither knowledge nor
 > understanding, they walk about in darkness; all the foundations of the earth are shaken.
 
-"How long" is usually the cry of the sufferer to God. Here God asks it of the judges (*NIV Biblical
-Theology Study Bible*, note on 82:2). Verses 3-4 are the work they were given: justice for the weak,
+"How long" is usually the cry of the sufferer to God: "How long, O LORD? Will you forget me
+forever?" (Psalm 13:1, ESV). Here God asks it of the judges. Verses 3-4 are the work they were given: justice for the weak,
 the fatherless, the afflicted, the needy. Their authority was meant to be seen in that work. What
 they did instead was favour the wicked, and verse 5 says what that does: "all the foundations of the
 earth are shaken." Injustice in a court is a crack in creation.
@@ -209,22 +208,17 @@ Sinai, these men were Israel and the law's appointed teachers.
 views.** The translators record the fork themselves: the CSB footnotes the gods of 82:1, "Or the heavenly beings, or the earthly rulers," and
 the LSB, "Or rulers."
 
-- **Human judges.** The *ESV Study Bible* argues that because these gods "judge" among men and "die
-  like men", they are "human rulers, who hold their authority as representatives of the true God"
-  (note on Psalm 82:1). Exodus 22:8-9 uses *ʾĕlōhîm* of Israel's judges. Jesus' own gloss, above, points
-  this way.
+- **Human judges.** These gods "judge" (Psalm 82:2), their work is justice for the weak (Psalm
+  82:3-4), and they "die like men" (Psalm 82:7). Exodus 22:8-9 uses *ʾĕlōhîm* of Israel's judges.
+  Jesus' own gloss, above, points this way.
 - **Heavenly powers.** The ESV renders 82:1 "the divine council," and Psalm 89:5-7, 1 Kings 22:19 and
   Job 1:6 show God among heavenly beings. "Like men you shall die" can be read as a sentence on beings
   who would otherwise not die. Verse 8's "all the nations" fits Deuteronomy 32:8, where the ESV, following the
   Septuagint and a Dead Sea Scroll, has the nations divided "according to the number of the sons of
-  God." The *NIV Cultural Backgrounds Study Bible* takes the gods as heavenly beings and adds that
-  the word "is used both of supernatural beings and of the human rulers who are their agents" (note
-  on 82:6).
+  God."
 - **Israel at Sinai.** The *NIV Cultural Backgrounds Study Bible* reports that "some ancient Jewish
   interpreters" applied the psalm "to Israel receiving the law at Mount Sinai" (note on John 10:34).
-  That reading fits "to whom the word of God came" (John 10:35) closely, and the same note allows
-  that Jesus may be appealing to it. The note's own preference is that the psalm "probably mocks
-  ancient Near Eastern rulers who saw themselves as divine."
+  That reading fits "to whom the word of God came" (John 10:35) closely.
 
 Only the heavenly reading separates the psalm's gods from Jesus' hearers, and His gloss fits it
 least well. The heavenly reading and the human reading can also stand together. Isaiah 24:21 has the LORD punishing "the host of heaven,
@@ -240,8 +234,11 @@ Greek matches the Septuagint word for word: Ἐγὼ εἶπα· Θεοί ἐσ�
 you are gods"). Then He argued from the lesser to the greater. If God called men "gods" because His
 word came to them, and "Scripture cannot be broken" (John 10:35, ESV), then the one "whom the Father
 consecrated and sent into the world" cannot be charged with blasphemy for saying "I am the Son of
-God" (John 10:36, ESV). The *ESV Study Bible* notes that the whole argument rests on one word,
-"gods", and on Scripture being true to the word (note on John 10:35).
+God" (John 10:36, ESV).
+
+The clause Jesus added carries the weight. The title came with the word: God spoke to them, and
+that made them answerable to Him for what they did with it. The men in front of Him had received
+the same word. "Has not Moses given you the law? Yet none of you keeps the law" (John 7:19, ESV).
 
 "Consecrated" is ἡγίασεν (*hēgiasen*, from ἁγιάζω, *hagiazō*, G37, "set apart, make holy"). At a
 feast for the consecration of the temple, Jesus says the Father consecrated Him. The *NIV Cultural
@@ -250,36 +247,37 @@ Backgrounds Study Bible* notes that some read this as Jesus presenting Himself a
 
 ### Men who sat on Moses' seat
 
-Jesus' spoken argument is about the title. The psalm He chose also carries a verdict, and the men
-He quoted it to fit that verdict closely. **Whether Jesus meant the verdict is a reading, and it is
-contested.** The *ESV Study Bible* and the *NIV Biblical Theology Study Bible* read John 10:34-36
-as an argument about the title alone: if human judges can be called gods, the title fits the Son of
-God far better (notes on John 10:34). John does not say Jesus meant the rest of the psalm, and two
-of the texts below come from elsewhere: Matthew 23 is another Gospel and another day, and Ezekiel 34
-shares no wording with Psalm 82. The *NLT Life Application Study Bible* goes further than the
-others and says "Jesus was rebuking the religious leaders" (note on John 10:34-36). The case for
-hearing the verdict too rests on how well the men fit it:
+**The quotation is a rebuke, and John's own text lays the psalm's charges on these men.** John does
+not record Jesus reciting verse 7 to them. He records the authorities, chapter after chapter, doing
+what Psalm 82 condemns, and Jesus naming it:
 
-- **They held authority from God to teach.** "The scribes and the Pharisees sit on Moses' seat, so
-  do and observe whatever they tell you, but not the works they do. For they preach, but do not
-  practice" (Matthew 23:2-3, ESV). Jesus honoured their office and condemned their works, which is
-  Psalm 82 in two sentences.
-- **They had just failed the weak.** Psalm 82:3-4 tells judges to rescue the weak and needy; the
-  authorities in John 9 cast out a beggar who had been given his sight (John 9:34), and Jesus went
-  and found him (John 9:35).
-- **Jesus had already named them false shepherds.** "He who does not enter the sheepfold by the door
-  but climbs in by another way, that man is a thief and a robber" (John 10:1, ESV). Ezekiel 34 had
-  said the same of Israel's leaders: "The weak you have not strengthened, the sick you have not
-  healed" (Ezekiel 34:4, ESV).
-- **They were judging unjustly at that moment.** Jesus had told them, "Do not judge by appearances,
-  but judge with right judgment" (John 7:24, ESV). Now they held stones over a man for His good works
-  (John 10:32).
+- **They were given God's word and did not keep it.** "You search the Scriptures because you think
+  that in them you have eternal life; and it is they that bear witness about me, yet you refuse to
+  come to me that you may have life" (John 5:39-40, ESV). Their own lawgiver stands against them:
+  "There is one who accuses you: Moses, on whom you have set your hope" (John 5:45, ESV).
+- **They held the teaching office and did not understand.** "Are you the teacher of Israel and yet
+  you do not understand these things?" (John 3:10, ESV). Psalm 82:5 says of the judges, "They have
+  neither knowledge nor understanding, they walk about in darkness."
+- **They judged unjustly.** The psalm opens, "How long will you judge unjustly" (Psalm 82:2, ESV),
+  and Jesus told them, "Do not judge by appearances, but judge with right judgment" (John 7:24,
+  ESV). One of their own council had to ask, "Does our law judge a man without first giving him a
+  hearing and learning what he does?" (John 7:51, ESV). Now they held stones over a man for His good
+  works (John 10:32).
+- **They failed the weak.** Psalm 82:3-4 tells judges to rescue the weak and needy. The authorities
+  in John 9 cast out a beggar who had been given his sight (John 9:34), and Jesus went and found him
+  (John 9:35). Then He named them thieves and robbers at the sheepfold (John 10:1), the charge
+  Ezekiel 34 brought against Israel's shepherds: "The weak you have not strengthened, the sick you
+  have not healed" (Ezekiel 34:4, ESV).
 
-Their works, set against His, are the subject of [Their works and His](#their-works-and-his).
+Matthew records the same verdict on another day: "The scribes and the Pharisees sit on Moses' seat,
+so do and observe whatever they tell you, but not the works they do" (Matthew 23:2-3, ESV). Jesus
+honoured their office and condemned their works, which is Psalm 82 in a sentence.
 
-If the verdict is in view, to quote "you are gods" to such men was to stand them in the psalm's
-dock, because the psalm goes on: "nevertheless, like men you shall die." Either way, the argument
-Jesus spelled out is the one about the title, and it holds on its own.
+**So to quote "you are gods" to such men was to stand them in the psalm's dock,** because the psalm
+goes on: "nevertheless, like men you shall die." The argument Jesus spelled out is about the title,
+and it holds on its own. The psalm He chose to make it from is a court scene, and His hearers held
+the office it judges. Their works, set against His, are the subject of [Their works and
+His](#their-works-and-his).
 
 ### How they took it
 
@@ -385,12 +383,11 @@ unfoldingWord Hebrew Bible; Greek New Testament from NA28 and SBLGNT; Septuagint
 
 - *ESV Study Bible* (Crossway, 2016): notes on Psalm 82:1, 82:1-4, 82:5-7, 82:6; John 10:22, 10:34,
   10:35, 10:36.
-- *NIV Biblical Theology Study Bible* (Zondervan, 2018): notes on Psalm 82, 82:1, 82:2, 82:6; John 10:34-36.
+- *NIV Biblical Theology Study Bible* (Zondervan, 2018): notes on Psalm 82:1, 82:6.
 - *NIV Cultural Backgrounds Study Bible* (Zondervan, 2016): notes on Psalm 82:1, 82:6; John 10:22,
   10:31, 10:32, 10:34, 10:36.
 - *Legacy Standard Bible* (Lockman Foundation, 2021) and *CSB Ancient Faith Study Bible* (Holman,
   2019): footnotes on Psalm 82:1, Exodus 21:6, Exodus 22:8, Exodus 22:28.
-- *NLT Life Application Study Bible* (Tyndale, 3rd ed.): note on John 10:34-36.
 - 2 Maccabees 9:12, Greek text in Brenton's Septuagint.
 
 ### On this site
