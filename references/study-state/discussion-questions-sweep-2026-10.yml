@@ -23,10 +23,6 @@ waves: ~4 studies per agent wave, author approves each wave before the next.
 commits: one per study, "docs(<section>): label discussion questions in <study>".
 
 todo:
-  - jesus/the-heavenly-pattern/incense-altar.md
-  - jesus/the-heavenly-pattern/lampstand.md
-  - jesus/the-way.md
-  - jesus/three-days-and-three-nights.md
   - jesus/woman-at-well.md
   - jesus/woman-with-the-issue-of-blood.md
   - last-things/a-thousand-years-in-your-sight.md
@@ -103,6 +99,11 @@ done:
     - jesus/priesthood-before-sinai.md
     - jesus/the-heavenly-pattern/almond.md
     - jesus/the-heavenly-pattern/ark.md
+  wave_9:
+    - jesus/the-heavenly-pattern/incense-altar.md
+    - jesus/the-heavenly-pattern/lampstand.md
+    - jesus/the-way.md
+    - jesus/three-days-and-three-nights.md
 
 # Found in study bodies by sweep agents and left alone (out of scope). Candidates for a follow-up
 # review-bible-study pass; misquotes first.
@@ -115,9 +116,13 @@ found_outside_questions:
     - "christian-life/how-god-answers-prayer.md: quote block says Acts 12:14-16, bible_references says 12:13-16"
     - "jesus/melchizedek-priesthood.md: Key Takeaways quotes Hebrews 7:3 as \"made like\" with no translation named (ESV: \"resembling\")"
     - "jesus/the-heavenly-pattern/almond.md: unclosed quotation mark, line ~232 (\"blossomed blossoms.)"
+    - "jesus/three-days-and-three-nights.md: line ~189 gives LXX Genesis 37:35 as εἰς ᾅδης; Brenton reads εἰς ᾅδου"
+    - "jesus/the-way.md: Acts 11:26 block opens 'And' (ESV lowercase, continues 11:25); Hebrews 9:8 drops 'By this' without an ellipsis"
   lowercase_divine_pronouns_in_own_prose:
     [sin/sorcery.md, biblical-figures/paul.md, biblical-figures/twelve-apostles.md (prayer),
      god/behemoth-and-leviathan.md, jesus/as-the-snake-was-lifted.md]
   x_not_y_contrasts: "reported in most studies; widespread"
   formatting:
     - "israel-and-church/where-two-or-three-are-gathered.md: broken mid-sentence wrapping, lines ~196-231"
+    - "jesus/three-days-and-three-nights.md: Greek κόλπος wrapped in <span dir=\"rtl\"> (line ~246); lowercase pronouns for Jesus throughout"
+    - "jesus/the-heavenly-pattern/lampstand.md: 'Keeping the lamp was keeping faith' opens on Abijah but gives Samuel first"

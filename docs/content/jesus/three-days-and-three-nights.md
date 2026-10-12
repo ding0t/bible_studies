@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 12:40"
 bible_references: ["Matthew 12:40", "Jonah 1:17", "Matthew 16:21", "Matthew 17:23", "Matthew 20:19", "Luke 9:22", "Luke 18:33", "Luke 24:7", "Luke 24:21", "Luke 24:46", "Acts 10:40", "1 Corinthians 15:4", "Mark 8:31", "Mark 9:31", "Mark 10:34", "Mark 15:42", "Luke 23:54", "John 19:31", "John 19:14", "John 19:42", "Matthew 27:62", "Genesis 1:5", "Leviticus 23:32", "Mark 16:1-2", "Matthew 28:1", "John 20:1", "Matthew 27:62-64", "Mark 15:42-46", "Luke 23:50-56", "John 19:38-42", "Jonah 2:2-6", "Matthew 12:39-41", "Leviticus 23:5-11", "1 Corinthians 5:7", "1 Corinthians 15:20-23", "Psalm 16:10", "Acts 2:27", "Acts 2:29-31", "Luke 23:43", "Luke 16:19-31", "Genesis 37:35", "2 Corinthians 12:2-4", "Revelation 2:7", "John 20:17", "Matthew 28:9", "1 Peter 3:18-19", "Hebrews 2:14-15", "Revelation 1:18", "Revelation 20:13-14", "1 Samuel 28:13-19"]
 date_created: 2026-09-06
-date_modified: 2026-10-08
+date_modified: 2026-10-12
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -91,7 +91,7 @@ In Jesus' name. Amen.
 - [What those days achieved](#what-those-days-achieved). Death's holder destroyed, the keys changing hands, the first of a harvest.
 - [Can the crucifixion be dated?](#can-the-crucifixion-be-dated) The three phrasings, προσάββατον, Luke 24:21, the Wednesday case at its strongest, and the year.
 - [Where that leaves it](#where-that-leaves-it). The Wednesday and Friday readings set side by side, with what each has to absorb.
-- [Discussion questions](#discussion-questions). Five, for a group or on your own.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## The sign, and what Jonah said it was
 
@@ -507,22 +507,27 @@ able to name both entries in their own column.
 
 ## Discussion questions
 
-1. **The language.** Jonah says God *brought him up* — <span dir="rtl">עָלָה</span>, an ordinary
-   verb used of mist rising and of men walking uphill, with nothing of resurrection in it. Samuel
-   uses the same verb of being called back. What does it change to notice that Scripture describes
-   coming back from the dead with a plain word for "upward," rather than with a special one?
+1. **The language.** Jonah says God "brought up my life from the pit" (Jonah 2:6), with
+   <span dir="rtl">עָלָה</span> (*ʿalah*), the plain verb for going up — the same verb as the mist
+   that "was going up from the land" (Genesis 2:6). Samuel uses it of being called back from the
+   dead (1 Samuel 28:15). What does it tell you that Scripture describes a return from death with
+   an everyday word for "upward"?
 2. **The text in its context.** Jonah interprets his own three days, and never mentions a fish — he
-   says "the belly of Sheol," "the pit," and "you brought up my life." If that is the sign Jesus
-   chose, what is it a sign *of*, and what would be lost if it were only a statement about how long?
-3. **The type, and Christ.** Asked for proof, Jesus offered one sign: a man swallowed and brought
-   back up. Of everything he could have pointed to, why his own burial? What is he claiming about
-   himself by making that the credential?
-4. **Deeper in Scripture.** Samuel tells Saul, "tomorrow you and your sons shall be with me" — a
-   prophet who died in honour and a king dying under judgment, going to the same place. What does
-   that sentence do to the picture of death you brought to this study?
-5. **The hard part.** Jesus tells the dying thief "today you will be with me in paradise," and tells
-   Mary three days later "I have not yet ascended to the Father." Both are true. How do you hold
-   them together, and what does your answer commit you to about where he spent those days?
+   says "the belly of Sheol," "the pit," and "you brought up my life" (Jonah 2:2-6). If that is the
+   sign Jesus chose, what is it a sign *of*, and what would be lost if it were only a statement
+   about how long?
+3. **Christ.** Asked for a sign, Jesus offered one: Jonah, swallowed and brought back up (Matthew
+   12:39-40). What is He claiming about Himself by making His own burial the credential?
+4. **The realm of the dead.** Samuel tells Saul, "tomorrow you and your sons shall be with me"
+   (1 Samuel 28:19) — a prophet who died in honour and a king dying under judgment, going to the
+   same place. What does that sentence do to the picture of death you brought to this study?
+5. **The hard part.** Jesus tells the dying thief "today you will be with me in paradise" (Luke
+   23:43), and tells Mary three days later "I have not yet ascended to the Father" (John 20:17).
+   Both are true. What does holding them together commit you to about where He spent those days?
+6. **Be transformed.** Christ died to "deliver all those who through fear of death were subject to
+   lifelong slavery" (Hebrews 2:15), and He now holds "the keys of Death and Hades" (Revelation
+   1:18). Where does the fear of death, your own or that of someone you love, still steer what you
+   do, and what would you do differently there knowing who holds those keys?
 
 ## References & Recommended Reading
 
