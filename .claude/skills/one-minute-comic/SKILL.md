@@ -33,6 +33,7 @@ one of the named layouts, chosen by what the story has to do:
 |---|---|---|
 | `setting-exchange-reveal` | 1 / 2 / 1 | Set the scene, two lines of exchange, the reveal |
 | `setting-exchange-evidence-verdict` | 1 / 2 / 1 / 1 | Scene, the charge and the answer, a flashback that proves it, the verdict (you-are-gods) |
+| `two-tables` | 2 / 1 / 3:1 | Two events side by side, what was said about them, the reckoning, a silent beat (bread-of-life) |
 | `call-pairs-mission` | 1 / 2 / 2 / 1 | A life: the call, a high and a low, a fall and a return, the mission it reached (peter) |
 | `contrast` | 2 / 1 | Two scenes side by side, then what they mean together |
 | `six-beats` | 2 / 2 / 2 | A sequence of events |
@@ -124,16 +125,34 @@ clones:
   The renderer lifts a bubble that would cover its own speaker's head; when the caption or the
   panel top is in the way, it sets the bubble beside the head instead. It refuses to build when a
   bubble runs past the panel edge or overlaps another bubble; `--draft` shows you the panel.
+- **`style = "memory"`** is a thought-cloud that trails small circles to its speaker, for what a
+  speaker remembers, and `picture = { what = "kophinos", n = 12 }` draws the memory inside it. The
+  disciples answering "Twelve." and "Seven." in the boat show the baskets they mean.
+- **A beat panel**: a narrow panel (`[340, 3, 1]`) holding one figure and one line lets the line
+  land in silence. "Do you not yet understand?" is its own panel in bread-of-life.
 - **A half-width panel holds two short bubbles side by side.** Keep each under about 40 characters,
   or put the setting line in the caption and give the panel one bubble. Peter's panel 2 does this:
   the caption carries Jesus' question, the bubble Peter's answer.
 - `scene`: colonnade, temple, synagogue, pool, hills, plain, room, shore (lake and a fishing
-  boat), courtyard (walled, a lit doorway), street. `sky`: day, dawn, winter, dusk, night, storm.
-- `props` stand in the scene rather than in a hand: `{ what = "fire", x = 0.5 }` (a charcoal fire),
-  `rooster`. `y` defaults to the ground line; `s` scales.
+  boat), courtyard (walled, a lit doorway), street, grassland (spring grass above the lake), decapolis
+  (dry ground, a Greek city on the ridge), hall (inside a synagogue), lake (open water; put people
+  in a boat with the `hull` prop). `sky`: day, dawn, winter, dusk, night, storm.
+- `props` stand in the scene rather than in a hand: `fire` (a charcoal fire), `rooster`,
+  `kophinos` (a small wicker basket), `spyris` (a large hamper), `loaf`, and `hull`, which runs from
+  `x` to `x2` and takes `front = true` so it is drawn over the people standing in it. `y` defaults to
+  the ground line; `s` scales. **`n` with `x2` draws a counted row**, so twelve baskets are twelve;
+  stack two rows for a heap that still counts.
+- `stance = "sit"` seats a figure cross-legged. A seated crowd at `s = 0.4` with a negative `dy`
+  sits in the background, behind the speakers.
 - `s = 0.8` on cast entries draws them smaller, which buys bubble room in a half-width panel under a
   two-line caption. `flashback = true` tints the panel sepia and rounds its corners.
 - `shows` is a short description of the panel for the alt text. Write what is drawn.
+
+**When two scenes are compared, draw the difference the text gives, and only that.** Both
+feedings happen in a "desolate place" (Mark 6:35; 8:4), so the bread-of-life comic does not draw
+one barren and one lush for drama. It draws what differs: green grass near Passover against bare
+ground after three days, Galilee's lake against the Decapolis' Greek city, twelve κόφινοι against
+seven σπυρίδες. The TOML header records each source.
 
 **Draw what the text gives, and let the text's own echoes show.** Peter's denial and restoration
 both happen by an ἀνθρακιά, a charcoal fire, a word the New Testament uses only at John 18:18 and

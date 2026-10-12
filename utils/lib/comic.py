@@ -124,7 +124,7 @@ POSES = {
 }
 
 # Where a figure's head sits, in its own units, by stance. The bubble tail aims here.
-HEAD = {"stand": (2, -90), "walk": (2, -90), "kneel": (2, -66), "sit": (2, -70)}
+HEAD = {"stand": (2, -90), "walk": (2, -90), "kneel": (2, -66), "sit": (2, -50)}
 SPEAKER_NAMES = {k: v["name"] for k, v in CAST.items()}
 
 
@@ -153,6 +153,8 @@ def _prop(kind, hand):
     if kind == "spear":
         return (f'<path d="M{hx} {hy + 40} L{hx} {hy - 70}" stroke="#6b4a2a" stroke-width="3"/>'
                 f'<path d="M{hx - 4} {hy - 68} L{hx} {hy - 84} L{hx + 4} {hy - 68} Z" fill="{STONE}" stroke="{STONE_EDGE}"/>')
+    if kind == "loaf":
+        return prop_loaf(hx, hy + 2, 1.0)
     if kind == "lamp":
         return (f'<path d="M{hx - 8} {hy - 4} Q{hx} {hy + 4} {hx + 10} {hy - 4} Z" fill="#b5835a" stroke="#6b4a2a" stroke-width="0.8"/>'
                 f'<path d="M{hx + 9} {hy - 5} q2 -8 -1 -12 q-1 6 -3 8 z" fill="{GOLD}"/>')
@@ -169,14 +171,15 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
     if c.get("child"):
         s *= 0.72
     kneel = stance == "kneel"
-    up = 24 if kneel else 0
+    sit = stance == "sit"
+    up = {"kneel": 24, "sit": 40}.get(stance, 0)
     g = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s * face * c.get("build", 1):.3f} {s:.3f})">']
     if c.get("glow"):
         g.append(f'<ellipse cx="0" cy="{-52 + up}" rx="46" ry="70" fill="url(#comic-glow)"/>')
 
     upper = [f'<g transform="translate(0 {up})">'] if up else []
     # Far arm and the far side of a mantle sit behind the body.
-    if c.get("mantle") == "stole" and not kneel:
+    if c.get("mantle") == "stole" and not up:
         upper.append(f'<path d="M-12 -76 Q-24 -44 -21 -8 L-13 -10 Q-14 -44 -6 -76 Z" fill="{c["mantle_fill"]}" stroke="{edge}" stroke-width="0.8"/>')
     upper.append(_arm((-5, -74), *p["far"], _shade(robe), edge, skin))
     if up:
@@ -184,7 +187,12 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
     g += upper
 
     # Feet and robe.
-    if kneel:
+    if sit:
+        # Cross-legged on the ground: the robe spreads into a low mound around the knees.
+        g.append(f'<path d="M-13 -38 Q0 -42 13 -38 Q15 -22 24 -10 Q28 -2 22 2 H-22 Q-28 -2 -24 -10 '
+                 f'Q-15 -22 -13 -38 Z" fill="{robe}" stroke="{edge}" stroke-width="1"/>'
+                 f'<path d="M-16 -8 Q0 -14 18 -8" fill="none" stroke="{FOLD}" stroke-width="1.2"/>')
+    elif kneel:
         g.append(f'<ellipse cx="-14" cy="-1" rx="7" ry="3" fill="{SANDAL}"/>')
         g.append(f'<path d="M-13 -54 Q0 -59 13 -54 Q16 -30 14 -20 Q24 -16 26 -5 Q26 0 21 0 H-12 '
                  f'Q-19 -2 -17 -12 Q-16 -30 -13 -54 Z" fill="{robe}" stroke="{edge}" stroke-width="1"/>')
@@ -215,7 +223,7 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
     # Belt.
     top.append(f'<path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="{c.get("belt", "#00000035")}"/>')
     m = c.get("mantle")
-    if m == "stole" and kneel:
+    if m == "stole" and up:
         # Kneeling, the robe ends at the waist line, so the stole is cut to the torso.
         top.append(f'<path d="M-13 -78 Q-6 -81 -2 -80 L12 -50 L5 -46 Q0 -60 -13 -70 Z" fill="{c["mantle_fill"]}" stroke="{edge}" stroke-width="0.8"/>')
     elif m == "stole":
@@ -464,6 +472,80 @@ def scene_street(w, h, sky, gid):
     return out
 
 
+GRASS = "#9db06a"
+GRASS_NEAR = "#86a055"
+DRY = "#d6bd8c"
+DRY_NEAR = "#c9ab74"
+
+
+def scene_grassland(w, h, sky, gid):
+    """Spring on a Galilean hillside above the lake: much green grass (Mark 6:39; John 6:10)."""
+    out = _sky(w, h, sky, gid)
+    gy = h * GROUND_AT
+    hz = gy - h * 0.36
+    out.append(f'<path d="M0 {hz - 10:.1f} Q{w * 0.4:.1f} {hz - 30:.1f} {w * 0.75:.1f} {hz - 12:.1f} Q{w * 0.9:.1f} {hz - 6:.1f} {w} {hz - 16:.1f} V{hz} H0 Z" fill="#8e9b86"/>')
+    out.append(f'<rect x="0" y="{hz:.1f}" width="{w}" height="22" fill="{WATER}"/>')
+    out.append(f'<path d="M0 {hz + 18:.1f} Q{w * 0.3:.1f} {hz + 4:.1f} {w * 0.6:.1f} {hz + 14:.1f} Q{w * 0.85:.1f} {hz + 22:.1f} {w} {hz + 10:.1f} V{h} H0 Z" fill="{GRASS}"/>')
+    out.append(f'<path d="M0 {gy - 10:.1f} Q{w / 2:.1f} {gy - 22:.1f} {w} {gy - 6:.1f} V{h} H0 Z" fill="{GRASS_NEAR}"/>')
+    for i in range(int(w // 16)):
+        xx = i * 16 + (i * 7) % 11
+        yy = hz + 30 + (i * 37) % int(h - hz - 34)
+        out.append(f'<path d="M{xx:.1f} {yy:.1f} l-2 -6 M{xx + 2:.1f} {yy:.1f} l0 -8 M{xx + 4:.1f} {yy:.1f} l2 -6" stroke="#6f8a44" stroke-width="1.1"/>')
+    return out
+
+
+def scene_decapolis(w, h, sky, gid):
+    """Dry hill country east of the lake, a Greek city on the far ridge (Mark 7:31): the crowd sat
+    "on the ground" (Mark 8:6). The city is the region's name drawn: the Decapolis, ten Greek cities."""
+    out = _sky(w, h, sky, gid)
+    gy = h * GROUND_AT
+    ridge = gy - h * 0.34
+    out.append(f'<path d="M0 {ridge + 10:.1f} Q{w * 0.25:.1f} {ridge - 14:.1f} {w * 0.55:.1f} {ridge - 4:.1f} Q{w * 0.8:.1f} {ridge + 6:.1f} {w} {ridge - 10:.1f} V{h} H0 Z" fill="#c7ad80"/>')
+    cx, cy = w * 0.68, ridge - 4
+    out.append(f'<rect x="{cx - 46:.1f}" y="{cy - 14:.1f}" width="92" height="14" fill="#e3d6b8" stroke="{WALL_EDGE}" stroke-width="0.8"/>')
+    for k in range(6):
+        out.append(f'<rect x="{cx - 22 + k * 8:.1f}" y="{cy - 34:.1f}" width="3" height="20" fill="#f1e9d6" stroke="{WALL_EDGE}" stroke-width="0.4"/>')
+    out.append(f'<path d="M{cx - 26:.1f} {cy - 34:.1f} L{cx + 1:.1f} {cy - 46:.1f} L{cx + 28:.1f} {cy - 34:.1f} Z" fill="#e3d6b8" stroke="{WALL_EDGE}" stroke-width="0.8"/>')
+    for k in range(5):
+        out.append(f'<rect x="{cx - 44 + k * 20:.1f}" y="{cy - 22 - (k * 5) % 9:.1f}" width="12" height="{8 + (k * 5) % 9:.1f}" fill="#dccdae" stroke="{WALL_EDGE}" stroke-width="0.4"/>')
+    out.append(f'<path d="M0 {gy - 18:.1f} Q{w * 0.5:.1f} {gy - 34:.1f} {w} {gy - 14:.1f} V{h} H0 Z" fill="{DRY}"/>')
+    out.append(f'<path d="M0 {gy - 4:.1f} Q{w / 2:.1f} {gy - 14:.1f} {w} {gy:.1f} V{h} H0 Z" fill="{DRY_NEAR}"/>')
+    for i in range(9):
+        rx_, ry_ = (i * 71.3) % w, gy - 20 + (i * 29) % int(h - gy + 14)
+        out.append(f'<ellipse cx="{rx_:.1f}" cy="{ry_:.1f}" rx="{5 + i % 3 * 2}" ry="3.5" fill="#a89070"/>')
+    return out
+
+
+def scene_hall(w, h, sky, gid):
+    """Inside a synagogue: ashlar walls, a colonnade, stone benches along the wall (John 6:59)."""
+    gy = h * GROUND_AT
+    out = [f'<rect width="{w}" height="{h}" fill="#e3d6b8"/>']
+    for r in range(6):
+        yy = r * (gy - 30) / 6
+        off = 0 if r % 2 else 30
+        for i in range(-1, int(w // 60) + 2):
+            out.append(f'<rect x="{i * 60 + off + 2:.1f}" y="{yy + 2:.1f}" width="56" height="{(gy - 30) / 6 - 4:.1f}" fill="none" stroke="#cbbd9c" stroke-width="0.8"/>')
+    out.append(f'<rect x="0" y="{gy - 44:.1f}" width="{w}" height="14" fill="#cbbd9c" stroke="{WALL_EDGE}" stroke-width="0.8"/>')
+    out.append(f'<rect x="0" y="{gy - 30:.1f}" width="{w}" height="{h - gy + 30:.1f}" fill="#bfa982"/>')
+    n = max(3, int(w // 140) + 1)
+    for i in range(n):
+        out.append(_column(30 + i * (w - 60) / (n - 1), 10, gy - 30, 16))
+    return out
+
+
+def scene_lake(w, h, sky, gid):
+    """Open water: the boat itself is the `hull` prop, drawn in front of whoever stands in it."""
+    out = _sky(w, h, sky, gid)
+    gy = h * GROUND_AT
+    hz = gy - h * 0.38
+    out.append(f'<path d="M0 {hz - 12:.1f} Q{w * 0.3:.1f} {hz - 30:.1f} {w * 0.6:.1f} {hz - 14:.1f} Q{w * 0.85:.1f} {hz - 4:.1f} {w} {hz - 18:.1f} V{hz} H0 Z" fill="#9aa48a"/>')
+    out.append(f'<rect x="0" y="{hz:.1f}" width="{w}" height="{h - hz:.1f}" fill="{WATER}"/>')
+    for i in range(int(w // 50)):
+        xx, yy = i * 50 + 20, hz + 16 + (i * 23) % int(h - hz - 20)
+        out.append(f'<path d="M{xx - 14:.1f} {yy:.1f} q7 -4 14 0 t14 0" fill="none" stroke="#ffffff55" stroke-width="1.2"/>')
+    return out
+
+
 # --- panel props ---------------------------------------------------------------------------------
 #
 # Things standing in a scene rather than held; (x, y) is where the prop meets the ground.
@@ -493,10 +575,53 @@ def prop_rooster(x, y, s):
             '</g>')
 
 
-PROPS = {"fire": prop_fire, "rooster": prop_rooster}
+def prop_kophinos(x, y, s):
+    """A κόφινος: the small wicker basket a traveller carried his food in, full of broken pieces."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M-7 -14 Q0 -26 7 -14" fill="none" stroke="#6b4a2a" stroke-width="1.6"/>'
+            '<circle cx="-3" cy="-14" r="3" fill="#d9b679"/><circle cx="3" cy="-15" r="3.4" fill="#c9a060"/>'
+            '<path d="M-8 -13 H8 L6 0 H-6 Z" fill="#b5895a" stroke="#6b4a2a" stroke-width="1"/>'
+            '<path d="M-7 -8 H7 M-6.5 -4 H6.5" stroke="#8d6a3e" stroke-width="0.8"/>'
+            '</g>')
+
+
+def prop_spyris(x, y, s):
+    """A σπυρίς: the large plaited hamper, big enough to lower a man down a wall in (Acts 9:25)."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<circle cx="-7" cy="-26" r="5" fill="#d9b679"/><circle cx="1" cy="-28" r="5.5" fill="#c9a060"/>'
+            '<circle cx="8" cy="-25" r="4.5" fill="#d9b679"/>'
+            '<path d="M-14 -24 Q0 -28 14 -24 L12 0 Q0 3 -12 0 Z" fill="#a8824e" stroke="#5e4224" stroke-width="1.1"/>'
+            '<path d="M-13 -17 Q0 -20 13 -17 M-12.5 -10 Q0 -13 12.5 -10 M-12 -4 Q0 -6 12 -4" fill="none" stroke="#7d5c32" stroke-width="0.9"/>'
+            '<path d="M-6 -25 V1 M6 -25 V1" stroke="#7d5c32" stroke-width="0.7"/>'
+            '</g>')
+
+
+def prop_hull(x, y, s, span=200):
+    """A fishing boat's hull from x across span, drawn in front: whoever stands at its line is in the
+    boat, seen from the waist up."""
+    x0, x1, t = x, x + span, 36 * s
+    return (f'<path d="M{x0 - 10:.1f} {y - t:.1f} H{x1 + 18:.1f} Q{x1 + 4:.1f} {y - 4 * s:.1f} {x1 - 24:.1f} {y:.1f} H{x0 + 20:.1f} '
+            f'Q{x0 - 4:.1f} {y - 6 * s:.1f} {x0 - 10:.1f} {y - t:.1f} Z" fill="#7a5a3a" stroke="#3e3122" stroke-width="1.4"/>'
+            f'<path d="M{x0 - 6:.1f} {y - t * 0.66:.1f} H{x1 + 12:.1f} M{x0:.1f} {y - t * 0.33:.1f} H{x1 + 4:.1f}" stroke="#5a4028" stroke-width="1"/>'
+            f'<rect x="{x0 - 10:.1f}" y="{y - t - 4 * s:.1f}" width="{span + 28:.1f}" height="{5 * s:.1f}" fill="#5a4028"/>')
+
+
+def prop_loaf(x, y, s):
+    """A round flat loaf, for a hand or a boat (Mark 8:14)."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<ellipse cx="0" cy="-5" rx="9" ry="5" fill="#d9a85e" stroke="#8d6a3e" stroke-width="1"/>'
+            '<path d="M-4 -7 L-1 -3 M2 -8 L5 -4" stroke="#8d6a3e" stroke-width="0.8"/></g>')
+
+
+PROPS = {"fire": prop_fire, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
+         "hull": prop_hull, "loaf": prop_loaf}
 
 
 SCENES = {
+    "grassland": scene_grassland,
+    "decapolis": scene_decapolis,
+    "hall": scene_hall,
+    "lake": scene_lake,
     "shore": scene_shore,
     "courtyard": scene_courtyard,
     "street": scene_street,
@@ -542,21 +667,40 @@ def fit(s, width, size):
     return rows, max(len(r) for r in rows) * size * EM
 
 
-def bubble(text_, x, y, w, target=None, style="speech", size=14.5):
+PIC_STEP = {"kophinos": 14, "spyris": 23, "loaf": 20}
+PIC_H = 36
+
+
+def _picture_width(picture):
+    return picture["n"] * PIC_STEP.get(picture["what"], 24) if picture else 0
+
+
+def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None):
     """A speech bubble centred on x with its top at y; its tail points at target (x, y).
 
-    style: "speech" (rounded), "shout" (jagged, bold), "whisper" (dotted outline, for an aside).
+    style: "speech" (rounded), "shout" (jagged, bold), "whisper" (dotted outline, for an aside),
+    "memory" (a cloud trailing small circles: what the speaker remembers). picture = {what, n} draws
+    a counted row of props under the words, so a memory can show what it remembers.
     Returns (svg, height).
     """
     lh = size * 1.25
     rows, need = fit(text_, w - 28, size)
-    w = min(w, need + 34)
-    h = 18 + lh * len(rows)
+    w = max(min(w, need + 34), _picture_width(picture) + 30)
+    h = 18 + lh * len(rows) + (PIC_H if picture else 0)
     x0, x1, y1 = x - w / 2, x + w / 2, y + h
     out = []
     stroke = f'stroke="{INK}" stroke-width="1.8"'
     if style == "shout":
         out.append(_jagged(x0 - 4, y - 4, w + 8, h + 8, stroke))
+    if style == "memory":
+        out += _cloud(x0, y, w, h, stroke)
+        if target:
+            tx, ty = target
+            sx, sy = (x, y + h + 6) if ty > y + h else ((x0 - 4, y + h / 2) if tx < x else (x1 + 4, y + h / 2))
+            for k, r in enumerate((5, 3.6, 2.4)):
+                f = (k + 1) / 4
+                out.append(f'<circle cx="{sx + (tx - sx) * f * 0.8:.1f}" cy="{sy + (ty - sy) * f * 0.8:.1f}" r="{r}" fill="{CARD}" {stroke}/>')
+        target = None
     if target:
         tx, ty = target
         if ty > y1:
@@ -576,8 +720,10 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5):
         out.append(f'<path d="M{base[0][0]:.1f} {base[0][1]:.1f} L{px:.1f} {py:.1f} L{base[1][0]:.1f} {base[1][1]:.1f} Z" '
                    f'fill="{CARD}" {stroke} stroke-linejoin="round"/>')
     dash = ' stroke-dasharray="2 3"' if style == "whisper" else ""
-    if style != "shout":
+    if style not in ("shout", "memory"):
         out.append(f'<rect x="{x0:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="16" fill="{CARD}" {stroke}{dash}/>')
+    elif style == "memory":
+        pass
     else:
         out.append(f'<rect x="{x0 + 2:.1f}" y="{y + 2:.1f}" width="{w - 4:.1f}" height="{h - 4:.1f}" fill="{CARD}"/>')
     if target:
@@ -585,9 +731,30 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5):
         out.append(f'<path d="M{base[0][0]:.1f} {base[0][1]:.1f} L{base[1][0]:.1f} {base[1][1]:.1f}" stroke="{CARD}" stroke-width="3"/>')
     ty_ = y + 9 + lh * 0.8
     for r in rows:
-        out.append(text(x, ty_, r, size, "middle", "bold" if style == "shout" else None))
+        out.append(text(x, ty_, r, size, "middle", "bold" if style == "shout" else None,
+                        italic=style == "memory"))
         ty_ += lh
+    if picture:
+        step = PIC_STEP.get(picture["what"], 24)
+        px0 = x - step * (picture["n"] - 1) / 2
+        for k in range(picture["n"]):
+            out.append(PROPS[picture["what"]](px0 + k * step, y + h - 10, 0.8))
     return out, h
+
+
+def _cloud(x, y, w, h, stroke):
+    """A thought-cloud: scalloped puffs round the edge, then the body laid over their inner halves."""
+    puffs = []
+    nx, ny = max(3, int(w // 26)), max(2, int(h // 24))
+    for k in range(nx + 1):
+        for yy in (y, y + h):
+            puffs.append((x + w * k / nx, yy))
+    for k in range(1, ny):
+        for xx in (x, x + w):
+            puffs.append((xx, y + h * k / ny))
+    out = [f'<circle cx="{px:.1f}" cy="{py:.1f}" r="13" fill="{CARD}" {stroke}/>' for px, py in puffs]
+    out.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" fill="{CARD}"/>')
+    return out
 
 
 def _jagged(x, y, w, h, stroke, step=15, spike=7):
@@ -603,9 +770,11 @@ def _jagged(x, y, w, h, stroke, step=15, spike=7):
     return f'<polygon points="{" ".join(pts)}" fill="{CARD}" {stroke} stroke-linejoin="round"/>'
 
 
-def bubble_width(text_, w, style="speech", size=14.5):
-    """The width bubble() will actually draw: shrunk to the text, never wider than w."""
-    return min(w, fit(text_, w - 28, size)[1] + 34) + (8 if style == "shout" else 0)
+def bubble_width(text_, w, style="speech", size=14.5, picture=None):
+    """The width bubble() will actually draw: shrunk to the text, never wider than w (unless a
+    picture needs the room), plus the spikes of a shout or the puffs of a memory."""
+    core = max(min(w, fit(text_, w - 28, size)[1] + 34), _picture_width(picture) + 30)
+    return core + {"shout": 8, "memory": 26}.get(style, 0)
 
 
 def caption(text_, x, y, w, size=14):
@@ -638,6 +807,8 @@ LAYOUTS = {
     "six-beats": [[270, 1, 1], [270, 1, 1], [270, 1, 1]],
     # A life: the call, two pairs of beats (high then low, fall then return), the mission it reached.
     "call-pairs-mission": [[280, 1], [330, 1, 1], [330, 1, 1], [300, 1]],
+    # Two meals side by side, what was said about them, then the reckoning and a silent beat.
+    "two-tables": [[380, 1, 1], [300, 1], [340, 3, 1]],
     # Three wide panels: before, turn, after.
     "three-acts": [[280, 1], [280, 1], [280, 1]],
 }
@@ -707,10 +878,18 @@ def draw_panel(i, box, p):
 
     gy = h * GROUND_AT
     base = h / 300 * 1.3
-    heads, drawn, tags = {}, [], []
+    heads, drawn, tags, front = {}, [], [], []
     for pr in p.get("props", []):
         py = pr.get("y", (gy + 6) / h) * h
-        drawn.append((py - 0.5, PROPS[pr["what"]](pr["x"] * w, py, base * pr.get("s", 1.0))))
+        ps = base * pr.get("s", 1.0)
+        if pr["what"] == "hull":
+            svg = prop_hull(pr["x"] * w, py, ps, (pr["x2"] - pr["x"]) * w)
+        else:
+            # n > 1 spreads a counted row from x to x2: twelve baskets are drawn as twelve.
+            n = pr.get("n", 1)
+            xs = [pr["x"] + (pr.get("x2", pr["x"]) - pr["x"]) * k / max(1, n - 1) for k in range(n)]
+            svg = "".join(PROPS[pr["what"]](xx * w, py, ps) for xx in xs)
+        (front if pr.get("front") else drawn).append((py - 0.5, svg))
     for e in _expand_cast(p.get("cast", [])):
         fy = gy + 6 + (e.get("dy", 0)) * h
         fx = e["x"] * w
@@ -723,6 +902,7 @@ def draw_panel(i, box, p):
                              extra=f'stroke="{PAPER}" stroke-width="3.5" paint-order="stroke"'))
     for _, svg in sorted(drawn, key=lambda d: d[0]):
         out.append(svg)
+    out += [svg for _, svg in front]
     out += tags
 
     if flash:
@@ -739,8 +919,10 @@ def draw_panel(i, box, p):
         hx, hy, hs = heads[b["by"]]
         style = b.get("style", "speech")
         bw = b.get("w", 200)
-        _, bh = bubble(b["text"], 0, 0, bw, None, style)
-        bw = bubble_width(b["text"], bw, style)
+        pic = b.get("picture")
+        _, bh = bubble(b["text"], 0, 0, bw, None, style, picture=pic)
+        bh += 26 if style == "memory" else 0
+        bw = bubble_width(b["text"], bw, style, picture=pic)
         bx, by = b.get("at", [0.5, 0.1])[0] * w, b.get("at", [0.5, 0.1])[1] * h
         top_limit = lambda x_: cap_bottom if x_ - bw / 2 < cap_right else 8
         by = max(by, top_limit(bx))
@@ -760,7 +942,8 @@ def draw_panel(i, box, p):
             if abs(bx - ox) < (bw + ow) / 2 + 4 and by < oy + oh + 4 and oy < by + bh + 4:
                 problem(f"{where} overlaps another bubble; move one (at) or narrow it (w)")
         placed.append((bx, by, bw, bh))
-        svg, _ = bubble(b["text"], bx, by, bw, (hx, hy - 6 * hs), b.get("style", "speech"))
+        inset = 13 if style == "memory" else 0
+        svg, _ = bubble(b["text"], bx, by + inset, bw - 2 * inset, (hx, hy - 6 * hs), style, picture=pic)
         out += svg
 
     ref = p.get("ref", "")

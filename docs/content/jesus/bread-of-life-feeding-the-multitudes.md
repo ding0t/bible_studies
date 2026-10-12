@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15; Matthew 15:32-39; Mark 8:1-10"
 bible_references: ["John 6:22-71", "Mark 8:14-21", "Matthew 16:5-12", "Exodus 16:4-21", "Numbers 11:4-9", "Numbers 11:31-34", "Deuteronomy 8:2-3", "Deuteronomy 18:15-18", "2 Kings 4:42-44", "Psalm 78:17-31", "Psalm 23:1-2", "Isaiah 25:6-9", "Isaiah 55:1-3", "Ezekiel 34:5", "Ezekiel 34:13-16", "Numbers 27:15-18", "Matthew 4:1-4", "Matthew 6:11", "Luke 11:3", "Proverbs 30:8-9", "Revelation 2:17", "Mark 14:22", "Mark 7:24-31", "Matthew 15:29-31", "1 Timothy 6:6-8", "Romans 1:16", "1 Corinthians 11:23-26", "Luke 9:16"]
 date_created: 2026-07-25
-date_modified: 2026-10-10
+date_modified: 2026-10-12
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -24,6 +24,8 @@ yet understand?"* (Mark 8:21, ESV).
 time the bread is His Son Jesus, the Shepherd who feeds Israel and then the nations to the full and
 loses none of those the Father gives Him; so you come to Jesus Himself for life, and take today's
 portion from your Father's hand.
+
+[![A one-minute comic in 5 panels. Panel 1 (Mark 6:35-44; John 6:4-10): late in the day on a green hillside above the lake, the crowd sits in neat groups; Andrew stands with a boy before Jesus, who holds a loaf; twelve small baskets of broken pieces stand ready. Caption: "Galilee, near Passover. They sit in groups on the green grass." Andrew says: "Five barley loaves and two fish, but what are they for so many?" Panel 2 (Mark 7:31; 8:1-9): in dry hill country with a Greek city on the far ridge, the crowd sits scattered on the bare ground, some with travellers' staffs; a disciple stands before Jesus, who holds a loaf; seven large hampers of broken pieces stand ready. Caption: "The Decapolis. Three days with Him, some from far away. They sit on the ground." A disciple says: "How can one feed these people with bread here in this desolate place?" Panel 3 (John 6:22-35, 59): in the synagogue at Capernaum Jesus faces the crowd that followed Him across the lake. Caption: "The next day, in the synagogue at Capernaum, the crowd comes looking for more bread." The crowd says: "Sir, give us this bread always." Jesus says: "I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst." Panel 4 (Mark 8:14-20): in the boat Jesus asks; Peter and another disciple remember the baskets. Caption: "In the boat with one loaf, Jesus asks for the count." Peter says: "Twelve." A disciple says: "Seven." Panel 5 (Mark 8:21): Jesus alone, close. Jesus says: "Do you not yet understand?" The point: God fed Israel first, then the nations, to the full and from the same hands, and the true bread from heaven is His Son. So come to Jesus Himself, and count the baskets He has already filled for you (John 6:35; Mark 8:21).](../assets/img/comics/bread-of-life.svg)](../assets/img/comics/bread-of-life.svg)
 
 ## Key Takeaways
 

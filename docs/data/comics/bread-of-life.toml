@@ -1,0 +1,111 @@
+# One-minute comic for docs/content/jesus/bread-of-life-feeding-the-multitudes.md.
+# Drawn by: python3 utils/build_comics.py bread-of-life
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-12.
+#
+# The two settings are drawn from what each account gives. The 5,000: spring, "the Passover ... was
+# at hand" (John 6:4), "the green grass" (Mark 6:39), "much grass" (John 6:10), sat "in groups, by
+# hundreds and by fifties" (Mark 6:40), in Jewish Galilee. The 4,000: "the region of the Decapolis"
+# (Mark 7:31), "three days", "some of them have come from far away" (Mark 8:2-3), sat "on the
+# ground" (Mark 8:6). Both are a "desolate place" (Mark 6:35; 8:4), so that is not drawn as the
+# difference. The baskets are counted: 12 κόφινοι (Mark 6:43) and 7 σπυρίδες (Mark 8:8), the
+# distinction Jesus keeps at Mark 8:19-20.
+
+title = "Two Tables"
+subtitle = "The feeding of the 5,000 and the 4,000 in one minute"
+layout = "two-tables"
+point = "God fed Israel first, then the nations, to the full and from the same hands, and the true bread from heaven is His Son. So come to Jesus Himself, and count the baskets He has already filled for you (John 6:35; Mark 8:21)."
+
+[[panel]]
+ref = "Mark 6:35-44; John 6:4-10"
+scene = "grassland"
+sky = "dusk"
+caption = "Galilee, near Passover. They sit in groups on the green grass."
+caption_w = 280
+shows = "late in the day on a green hillside above the lake, the crowd sits in neat groups; Andrew stands with a boy before Jesus, who holds a loaf; twelve small baskets of broken pieces stand ready"
+props = [
+  { what = "kophinos", n = 6, x = 0.60, x2 = 0.93, y = 0.80, s = 0.75 },
+  { what = "kophinos", n = 6, x = 0.63, x2 = 0.96, y = 0.86, s = 0.75 },
+]
+cast = [
+  { who = "man", id = "row1", name = "the crowd", n = 7, x = 0.05, x2 = 0.95, stance = "sit", s = 0.36, dy = -0.20 },
+  { who = "woman", id = "row2", name = "the crowd", n = 6, x = 0.10, x2 = 0.90, stance = "sit", s = 0.42, dy = -0.14 },
+  { who = "child", id = "boy", name = "a boy", x = 0.10, face = "right", pose = "hold", holds = "loaf", s = 0.72 },
+  { who = "andrew", x = 0.22, face = "right", pose = "beg", s = 0.66, tag = "Andrew" },
+  { who = "jesus", x = 0.44, face = "left", pose = "hold", holds = "loaf", s = 0.66 },
+]
+say = [
+  { by = "andrew", text = "Five barley loaves and two fish, but what are they for so many?", source = "condensed", at = [0.30, 0.20], w = 180 },
+]
+
+[[panel]]
+ref = "Mark 7:31; 8:1-9"
+scene = "decapolis"
+sky = "day"
+caption = "The Decapolis. Three days with Him, some from far away. They sit on the ground."
+caption_w = 280
+shows = "in dry hill country with a Greek city on the far ridge, the crowd sits scattered on the bare ground, some with travellers' staffs; a disciple stands before Jesus, who holds a loaf; seven large hampers of broken pieces stand ready"
+props = [
+  { what = "spyris", n = 4, x = 0.62, x2 = 0.94, y = 0.80, s = 0.75 },
+  { what = "spyris", n = 3, x = 0.67, x2 = 0.89, y = 0.87, s = 0.75 },
+]
+cast = [
+  { who = "man", id = "row1", name = "the crowd", n = 5, x = 0.06, x2 = 0.92, stance = "sit", s = 0.36, dy = -0.21, tone = 2 },
+  { who = "woman", id = "row2", name = "the crowd", n = 4, x = 0.16, x2 = 0.82, stance = "sit", s = 0.42, dy = -0.15, tone = 1 },
+  { who = "man", id = "traveller", name = "a traveller", n = 2, x = 0.30, x2 = 0.92, stance = "sit", pose = "hold", holds = "staff", s = 0.40, dy = -0.10, tone = 3 },
+  { who = "disciple", x = 0.18, face = "right", pose = "open", s = 0.66 },
+  { who = "jesus", x = 0.44, face = "left", pose = "hold", holds = "loaf", s = 0.66 },
+]
+say = [
+  { by = "disciple", text = "How can one feed these people with bread here in this desolate place?", source = "esv", at = [0.30, 0.20], w = 180 },
+]
+
+[[panel]]
+ref = "John 6:22-35, 59"
+scene = "hall"
+caption = "The next day, in the synagogue at Capernaum, the crowd comes looking for more bread."
+caption_w = 400
+shows = "in the synagogue at Capernaum Jesus faces the crowd that followed Him across the lake"
+cast = [
+  { who = "jesus", x = 0.22, face = "right", pose = "heart" },
+  { who = "man", id = "crowd", name = "the crowd", n = 4, x = 0.60, x2 = 0.92, face = "left", pose = ["beg", "open", "stand", "fold"] },
+]
+say = [
+  { by = "crowd", text = "Sir, give us this bread always.", source = "esv", at = [0.80, 0.28], w = 190 },
+  { by = "jesus", text = "I am the bread of life; whoever comes to me shall not hunger, and whoever believes in me shall never thirst.", source = "esv", at = [0.42, 0.28], w = 290 },
+]
+
+[[panel]]
+ref = "Mark 8:14-20"
+scene = "lake"
+sky = "day"
+caption = "In the boat with one loaf, Jesus asks for the count."
+caption_w = 460
+shows = "in the boat Jesus asks; Peter and another disciple remember the baskets"
+props = [
+  { what = "hull", x = 0.04, x2 = 0.90, y = 0.97, front = true },
+  { what = "loaf", x = 0.30, y = 0.83, front = true },
+]
+cast = [
+  { who = "jesus", x = 0.14, face = "right", pose = "open", s = 0.8 },
+  { who = "peter", x = 0.48, face = "left", pose = "stand", s = 0.8 },
+  { who = "disciple", x = 0.76, face = "left", pose = "fold", s = 0.8 },
+]
+say = [
+  { by = "peter", text = "Twelve.", source = "esv", style = "memory", picture = { what = "kophinos", n = 12 }, at = [0.26, 0.15], w = 120 },
+  { by = "disciple", text = "Seven.", source = "esv", style = "memory", picture = { what = "spyris", n = 7 }, at = [0.75, 0.15], w = 120 },
+]
+
+[[panel]]
+ref = "Mark 8:21"
+scene = "lake"
+sky = "day"
+shows = "Jesus alone, close"
+props = [
+  { what = "hull", x = -0.2, x2 = 1.1, y = 0.97, front = true },
+]
+cast = [
+  { who = "jesus", x = 0.5, face = "left", pose = "open", s = 1.05 },
+]
+say = [
+  { by = "jesus", text = "Do you not yet understand?", source = "esv", at = [0.5, 0.04], w = 140 },
+]
