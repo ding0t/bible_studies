@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 14:6; Acts 9:2"
 bible_references: ["Isaiah 40:3", "Isaiah 35:8-10", "Psalm 1:1-6", "Jeremiah 6:16", "Deuteronomy 10:12-13", "Matthew 3:3", "Mark 1:2-3", "Luke 3:4-6", "John 1:23", "Matthew 7:13-14", "Matthew 21:32", "Luke 1:76-79", "John 13:36-14:14", "Hebrews 3:10", "Hebrews 9:8", "Hebrews 10:19-20", "Acts 4:12", "Acts 9:1-2", "Acts 11:19-26", "Acts 16:17", "Acts 18:24-26", "Acts 19:9", "Acts 19:23", "Acts 22:4", "Acts 24:5", "Acts 24:14", "Acts 24:22", "Acts 26:28", "Acts 28:22", "1 Peter 4:16", "Romans 3:16-17", "Romans 11:33", "1 Corinthians 4:17", "1 Corinthians 12:31", "2 Peter 2:2", "2 Peter 2:15", "2 Peter 2:21", "Jude 1:11", "James 1:8", "James 5:20"]
 date_created: 2026-08-02
-date_modified: 2026-10-09
+date_modified: 2026-10-12
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -93,7 +93,7 @@ His blood gives. In Jesus' name. Amen.
 - [The name before "Christian"](#any-who-belonged-to-the-way-the-name-before-christian). The six uses in Acts, Qumran's parallel, the accusers' "sect", and where "Christian" came from.
 - [A translation note](#a-translation-note-isaiahs-way-in-capital-letters). Why Isaiah 35:8 has a capital "Way" in the ESV and WEB.
 - [Then and now](#then-and-now). What carries over from the first century and what stays there.
-- [Discussion questions](#discussion-questions). Five, for a group or on your own.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## Before "Christian": how this study is scoped
 
@@ -388,18 +388,26 @@ following Jesus a road under a believer's feet. Paul's "still more excellent way
 
 ## Discussion questions
 
-1. Thomas asks "how can we know the way" expecting directions; Jesus answers with Himself. Where in
-   your own faith are you still asking for directions when Jesus offers Himself?
-2. The earliest believers were named "the Way" by themselves and "a sect" by their accusers, before
-   either label was replaced by "Christian." What does it change to know the name you now wear
-   wasn't the church's own first choice for itself?
-3. Qumran and the earliest church both claimed exclusive access to God, but located that
-   exclusivity in different places: a community's correct practice, and a person. Which is
-   easier to drift toward in your own walk, and why?
-4. Jeremiah 6:16 pictures a "good way" that already exists and is simply refused: "we will not walk
-   in it." Is there a way you already know to be right that you're currently declining to walk?
-5. Paul calls love "a still more excellent way" after a whole chapter about spiritual gifts. What in
-   your own life gets treated as more central than love, that this ranking would correct?
+1. **The language.** "The LORD knows the way of the righteous, but the way of the wicked will
+   perish" (Psalm 1:6, ESV). The Septuagint renders <span dir="rtl">דֶּרֶךְ</span> (*derek*) there
+   with ὁδός, the word Jesus takes for Himself in John 14:6. What changes about following Jesus
+   when the word for how a person lives becomes His name for Himself?
+2. **The text in its context.** The earliest believers were named "the Way" by themselves (Acts
+   24:14) and "a sect" by their accusers (Acts 24:5; 28:22), before either label was replaced by
+   "Christian" (Acts 11:26). What does it change to know the name you now wear wasn't the church's
+   own first choice for itself?
+3. **Christ.** Thomas asks, "How can we know the way?" (John 14:5, ESV), expecting directions;
+   Jesus answers with Himself (John 14:6). Where in your own faith are you still asking for
+   directions when Jesus offers Himself?
+4. **The hard part.** Jesus says "the way is hard that leads to life, and those who find it are
+   few" (Matthew 7:14, ESV). Isaiah says of the Way of Holiness, "even if they are fools, they shall
+   not go astray" (Isaiah 35:8, ESV). How do you hold those two descriptions of the road together?
+5. **Be transformed.** Qumran and the earliest church both claimed exclusive access to God, but
+   located that exclusivity in different places: a community's correct practice, and a person
+   (John 14:6; Acts 4:12). Which is easier to drift toward in your own walk, and why?
+6. **Be transformed.** Jeremiah 6:16 pictures a "good way" that already exists and is simply
+   refused: "We will not walk in it." What way do you already know to be right that you are
+   currently declining to walk?
 
 ## References & Recommended Reading
 
