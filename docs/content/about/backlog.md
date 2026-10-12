@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-11
+date_modified: 2026-10-12
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -36,6 +36,7 @@ Add new items here. They get a number and move into their section.
 | [0.6](#06-pop-up-follow-ups) | Pop-up follow-ups | Site features |
 | [0.7](#07-review-the-older-studies) | Review the older studies | Site features |
 | [0.9](#09-drafts-awaiting-publication) | Drafts awaiting publication | Site features |
+| [0.12](#012-label-the-discussion-questions) | Label the discussion questions | Site features |
 | [1.1](#11-extra-biblical-texts) | Extra-biblical texts | Scripture |
 | [1.2](#12-typed-scripture-links) | Typed scripture links | Scripture |
 | [1.3](#13-learning-hebrew) | Learning Hebrew | Scripture |
@@ -334,6 +335,31 @@ the author's.
 - Bible Translations: the Hebrew New Testaments' status stated four times, the NASB caution three.
 - Frontmatter descriptions still carry "honestly" (Bartholomew, Judas Iscariot) and "genuine…
   rather than assumed" (Bible Prophecy Essentials).
+
+### 0.12 Label the discussion questions
+
+Every Discussion questions set is being brought up to the facet-labelled format of
+[Hurt by the Church](../christian-life/hurt-by-the-church.md): each question opens with its facet in
+bold (**The language.**, **The text in its context.**, **Christ.**, **The hard part.**,
+**Be transformed.**), rests on a named text with the ESV checked against study-notes.db, and the
+set ends on **Be transformed.** Validator Check 25 flags the sets still to do. The format is in
+`.claude/skills/develop-bible-study/discussion-questions.md`.
+
+**Where it stands, 2026-10-12.** Nine waves of four are done: 36 of 70 sets. The 34 left are
+listed in `references/study-state/discussion-questions-sweep-2026-10.yml` under `todo:`, in order,
+with each finished wave under `done:`. The work runs about four studies a wave, the author approves
+each wave before the next, and each study gets its own commit.
+
+- **Next, wave 10:** Woman at the Well, The Woman Who Touched the Fringe, A Thousand Years in Your
+  Sight, and A Day Is a Thousand Years.
+- **After that:** the rest of Last things (21 studies, two of them drafts), then Scripture (6),
+  Spiritual beings (2) and Reading the Song of Songs.
+- **Found along the way.** The sweep agents touched only the questions, so problems they noticed in
+  study bodies are recorded under `found_outside_questions:` in the same file: nine misquotes or
+  citation slips (Ephesians 5:32 in Bride of Christ, 2 Corinthians 5:21 and Romans 8:3 in As the
+  Snake Was Lifted, LXX Genesis 37:35 in Three Days and Three Nights, Hebrews 9:8 in The Way, and
+  others), lowercase divine pronouns in five studies, and three formatting slips. A
+  review-bible-study pass should take these up, misquotes first.
 
 ## 1. Scripture
 
