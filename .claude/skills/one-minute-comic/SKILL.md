@@ -131,6 +131,8 @@ comic knows him in the next. Each is reserved once, in `FIGURES` in `utils/lib/c
 | `peter` | Simon Peter | Broad-built; deep teal fisherman's tunic, rope belt, sienna outer garment (John 21:7), grey-flecked hair | peter |
 | `andrew` | Andrew | Peter's rope belt; mustard tunic, grey cloak | peter |
 | `pilate` | Pontius Pilate | Tan tunic, red military cloak, clean-shaven in the Roman manner | two-witnesses |
+| `john` | John, son of Zebedee | Deep blue tunic, cream mantle, the fishermen's rope belt | test-the-spirits |
+| `paul` | Paul | Rust tunic, charcoal travelling cloak, leather belt | test-the-spirits |
 
 - **Reserve only a figure the text names.** The two witnesses are unnamed in Revelation 11 and
   contested in the study, so they are the generic `witness` (sackcloth), never a reserved Moses
@@ -206,10 +208,11 @@ clones:
 - `props` stand in the scene rather than in a hand: `crosses` (three, with no figures on them),
   `tomb` (open, the stone rolled back), `cloud`, `ruin` (a wall cracking and falling), `breath` (gold
   currents for the breath of life), `gift`, `fire` (a charcoal fire), `rooster`,
-  `kophinos` (a small wicker basket), `spyris` (a large hamper), `loaf`, and `hull`, which runs from
+  `kophinos` (a small wicker basket), `spyris` (a large hamper), `loaf`, `sheep`, and `hull`, which runs from
   `x` to `x2` and takes `front = true` so it is drawn over the people standing in it. `y` defaults to
   the ground line; `s` scales. **`n` with `x2` draws a counted row**, so twelve baskets are twelve;
   stack two rows for a heap that still counts.
+  `face = "left"` turns a prop round, so a flock can walk toward its shepherd.
 - `stance = "sit"` seats a figure cross-legged. A seated crowd at `s = 0.4` with a negative `dy`
   sits in the background, behind the speakers.
 - `s = 0.8` on cast entries draws them smaller, which buys bubble room in a half-width panel under a

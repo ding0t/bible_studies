@@ -1,0 +1,87 @@
+# One-minute comic for docs/content/christian-life/prayer-as-communion.md, section "Your will handed
+# over". Drawn by: python3 utils/build_comics.py not-my-will
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-13.
+#
+# The section's claim is that answered prayer runs through a will brought into line with God's, and
+# its proof is Gethsemane: prayed perfectly, the cup stayed, and Hebrews 5:7 still says "he was heard".
+# Matthew 26:42 has Jesus pray "your will be done" in the very Greek of Matthew 6:10 (γενηθήτω τὸ
+# θέλημά σου), which the Lord's Prayer plate in the next section shows. Reading Hebrews 5:7's answer
+# as the resurrection is the study's reading with the ESV Study Bible, so the comic marks it in an aside.
+
+title = "Not My Will"
+subtitle = "Gethsemane, the cross and the empty tomb in one minute"
+layout = "setting-exchange-evidence-verdict"
+note = "Luke 22 and Matthew 26 both record the Gethsemane prayer; each panel names its source."
+point = "The Father did not take the cup from His Son Jesus. He heard Him, and He raised Him from the dead. So you can pray “your will be done” and leave the outcome with Him (Hebrews 5:7)."
+
+[[panel]]
+ref = "Luke 22:41-42"
+scene = "hills"
+sky = "night"
+caption = "The Mount of Olives. He withdraws a stone’s throw, kneels and prays."
+caption_w = 300
+shows = "at night on the Mount of Olives Jesus kneels alone, the sleeping disciples a stone's throw off"
+cast = [
+  { who = "jesus", x = 0.70, face = "left", stance = "kneel", pose = "open" },
+  { who = "disciple", id = "sleepers", name = "the disciples", n = 3, x = 0.08, x2 = 0.30, face = "right", stance = "lie", s = 0.8 },
+]
+say = [
+  { by = "jesus", text = "Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done.", source = "esv", at = [0.42, 0.08], w = 300 },
+]
+
+[[panel]]
+ref = "Matthew 26:40-41"
+scene = "hills"
+sky = "night"
+shows = "Jesus stands over Peter, who has been sleeping"
+cast = [
+  { who = "peter", x = 0.30, face = "right", stance = "sit", s = 0.85 },
+  { who = "jesus", x = 0.72, face = "left", pose = "point", s = 0.85 },
+]
+say = [
+  { by = "jesus", text = "Watch and pray that you may not enter into temptation.", source = "esv", at = [0.5, 0.06], w = 200 },
+]
+
+[[panel]]
+ref = "Matthew 26:42"
+scene = "hills"
+sky = "night"
+caption = "A second time, the words He taught them (Matthew 6:10):"
+caption_w = 240
+shows = "Jesus kneels again alone, praying"
+cast = [
+  { who = "jesus", x = 0.55, face = "left", stance = "kneel", pose = "fold", s = 0.85 },
+]
+say = [
+  { by = "jesus", text = "My Father, if this cannot pass unless I drink it, your will be done.", source = "esv", at = [0.5, 0.18], w = 220 },
+]
+
+[[panel]]
+ref = "Luke 23:33, 46"
+scene = "hills"
+sky = "storm"
+caption = "The cup is not taken away. His last words are a prayer."
+caption_w = 300
+shows = "three crosses on a rise under a darkened sky"
+props = [
+  { what = "crosses", x = 0.5, s = 0.9 },
+]
+say = [
+  { by = "jesus_cross", name = "Jesus", from = [0.5, 0.42], text = "Father, into your hands I commit my spirit!", source = "esv", at = [0.72, 0.10], w = 220 },
+]
+
+[[panel]]
+ref = "Hebrews 5:7; Luke 24:5-6"
+scene = "hills"
+sky = "dawn"
+caption = "“He was heard because of his reverence.” (Hebrews 5:7)"
+caption_w = 320
+aside = "Heard: read here, with the ESV Study Bible, as the resurrection."
+aside_w = 300
+shows = "the tomb open at dawn, its stone rolled back"
+props = [
+  { what = "tomb", x = 0.40, s = 0.8 },
+]
+say = [
+  { by = "angels", name = "the two men at the tomb", from = [0.40, 0.62], text = "He is not here, but has risen.", source = "esv", at = [0.74, 0.10], w = 180 },
+]

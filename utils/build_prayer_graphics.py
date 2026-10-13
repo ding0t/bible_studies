@@ -1,4 +1,4 @@
-"""Draw the two plates for christian-life/prayer-as-communion.md.
+"""Draw the three plates for christian-life/prayer-as-communion.md.
 
     python3 utils/build_prayer_graphics.py
 
@@ -7,6 +7,10 @@ verse, and what the text leaves open (the hours, the number of windows, the word
 keyed as not stated. ephesians-3-prayer is a relationship diagram of Ephesians 3:14-21: the address,
 the six appeals in their order, the dwelling-and-fullness words beside them, and the doxology. Solid
 is Ephesians' own wording; dashed is the link to Colossians, which the study marks as its reading.
+lords-prayer-shape is a relationship diagram of Matthew 6:9-13: the address and three "your"
+petitions in heaven, "on earth as it is in heaven" as the hinge, three "us" petitions on earth, and
+Gethsemane's "your will be done" (Matthew 26:42) beside the prayer's, the same Greek words. Dashed are
+the doxology (a later addition the ESV footnotes) and the question of how far the hinge reaches.
 """
 
 import math
@@ -20,6 +24,7 @@ OUT = Path(__file__).resolve().parent.parent / "docs" / "content" / "assets" / "
 
 SKY_TOP = "#cfdbe6"
 SKY_LOW = "#f3e2bd"
+SKY_PALE = "#eef2f6"
 SAND = "#e2cc9a"
 SAND_DEEP = "#cdb07a"
 BRICK = "#c9a77a"
@@ -388,9 +393,175 @@ def ephesians_3_prayer():
     return "\n".join(out)
 
 
+
+def petition_card(x, y, w, h, n, label, quote, ref, gk, fill, edge):
+    out = [f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="6" fill="{fill}" stroke="{edge}" stroke-width="1.5"/>',
+           f'<circle cx="{x + 17}" cy="{y + 18}" r="11" fill="{INK}"/>',
+           text(x + 17, y + 22.5, str(n), 13, "middle", "bold", fill=PAPER),
+           text(x + 34, y + 23, label, 14, weight="bold"),
+           text(x + w - 8, y + 23, ref, 11.5, "end", italic=True, fill=MUTED)]
+    ty = y + 44
+    for r in wrap(quote, int((w - 20) / 6.4)):
+        out.append(text(x + 10, ty, r, 13, italic=True))
+        ty += 17
+    out.append(text(x + 10, y + h - 10, gk, 12, fill=BLUE))
+    return out
+
+
+def loaf_glyph(x, y):
+    return (f'<g transform="translate({x} {y})"><ellipse cx="0" cy="0" rx="20" ry="10" fill="#d9a85f" stroke="{BRICK_DARK}" '
+            f'stroke-width="1.2"/><path d="M-10 -4 q4 6 0 10 M0 -6 q4 7 0 12 M10 -4 q4 6 0 10" fill="none" '
+            f'stroke="{BRICK_DARK}" stroke-width="1"/></g>')
+
+
+def ledger_glyph(x, y):
+    out = [f'<rect x="{x - 16}" y="{y - 14}" width="32" height="26" rx="2" fill="{CARD}" stroke="{INK}" stroke-width="1.2"/>']
+    for k in range(3):
+        out.append(f'<path d="M{x - 11} {y - 7 + k * 7} H{x + 11}" stroke="{MUTED}" stroke-width="1"/>')
+    out.append(f'<path d="M{x - 13} {y - 11} L{x + 13} {y + 9}" stroke="{RED}" stroke-width="2"/>')
+    return "".join(out)
+
+
+def path_glyph(x, y):
+    return (f'<path d="M{x - 22} {y + 10} Q{x - 6} {y + 8} {x - 4} {y - 2} T{x + 22} {y - 12}" fill="none" '
+            f'stroke="{BRICK_DARK}" stroke-width="5" stroke-linecap="round"/>'
+            f'<path d="M{x - 22} {y + 10} Q{x - 6} {y + 8} {x - 4} {y - 2} T{x + 22} {y - 12}" fill="none" '
+            f'stroke="{SAND}" stroke-width="2" stroke-dasharray="3 3"/>')
+
+
+def lords_prayer_shape():
+    h = 1170
+    out = svg_open(
+        h,
+        "The shape of the Lord's Prayer",
+        "A diagram of Matthew 6:9-13 (ESV) drawn as heaven above and earth below. In the heaven band: "
+        "the address, 'Our Father in heaven' (6:9), then three petitions, each with the Greek 'your' "
+        "(sou): 1 'hallowed be your name' (6:9), 2 'Your kingdom come' (6:10), 3 'your will be done' "
+        "(6:10). A gold band joins heaven to earth with the words 'on earth as it is in heaven' (6:10), "
+        "noted dashed as debated: whether the phrase governs all three petitions or only the third. In "
+        "the earth band: three petitions spoken as 'us': 4 'Give us this day our daily bread' (6:11), "
+        "with a loaf; 5 'and forgive us our debts, as we also have forgiven our debtors' (6:12), with a "
+        "ledger struck through; 6 'And lead us not into temptation, but deliver us from evil' (6:13), "
+        "with a path. A small figure kneels on the ground. A count: 'your' three times in 6:9-10, "
+        "'us', 'our' and 'we' eight times in 6:11-13. A dashed card: the doxology 'For yours is the "
+        "kingdom and the power and the glory, forever. Amen' is not in the earliest manuscripts; the "
+        "ESV prints it in a footnote. Below, 'He prayed it Himself': Matthew 6:10 and Matthew 26:42, "
+        "'My Father, if this cannot pass unless I drink it, your will be done', share the Greek words "
+        "genēthētō to thelēma sou. The plate closes with the line 'The attitude of prayer is that we "
+        "are God's.'",
+    )
+    out += heading("The Shape of the Prayer", "Matthew 6:9-13 · heaven first, then earth")
+
+    # Heaven.
+    top, mid = 112, 410
+    out.append(f'<defs><linearGradient id="lp-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{SKY_TOP}"/>'
+               f'<stop offset="1" stop-color="{SKY_PALE}"/></linearGradient>'
+               f'<linearGradient id="lp-earth" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{EARTH_TINT}"/>'
+               f'<stop offset="1" stop-color="{SAND}"/></linearGradient></defs>')
+    out.append(f'<rect x="30" y="{top}" width="660" height="{mid - top}" rx="8" fill="url(#lp-sky)" stroke="{BLUE}" stroke-width="1.2"/>')
+    out.append(text(46, top + 24, "IN HEAVEN", 12, weight="bold", fill=BLUE, spacing="1.5"))
+    out.append(text(674, top + 24, "about God", 12, "end", italic=True, fill=BLUE))
+    ay = top + 40
+    out.append(f'<rect x="150" y="{ay}" width="420" height="72" rx="6" fill="{GOLD_TINT}" stroke="{GOLD_EDGE}" stroke-width="1.5"/>')
+    out.append(text(W / 2, ay + 30, "“Our Father in heaven,”", 20, "middle", "bold", italic=True))
+    out.append(text(W / 2, ay + 54, "πάτερ ἡμῶν  pater hēmōn · a child, and a creature · 6:9", 12.5, "middle", fill=BLUE))
+    for cx in (220, 360, 500):
+        out.append(f'<path d="M{W / 2} {ay + 72} L{cx} {ay + 96}" stroke="{INK}" stroke-width="1.3"/>')
+        out.append(arrow_head(cx, ay + 98, math.degrees(math.atan2(26, cx - W / 2)), 8))
+    py, pw, ph = ay + 104, 206, 112
+    yours = [("His name", "“hallowed be your name.”", "6:9", "τὸ ὄνομά σου · your name"),
+             ("His kingdom", "“Your kingdom come,”", "6:10", "ἡ βασιλεία σου · your kingdom"),
+             ("His will", "“your will be done,”", "6:10", "τὸ θέλημά σου · your will")]
+    for i, (lab, q, ref, gk) in enumerate(yours):
+        out += petition_card(42 + i * (pw + 12), py, pw, ph, i + 1, lab, q, ref, gk, CARD, BLUE)
+    for i in range(3):
+        bx = 42 + i * (pw + 12) + pw - 26
+        out.append(f'<circle cx="{bx}" cy="{py + ph - 46}" r="15" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1.2"/>')
+        out.append(text(bx, py + ph - 41, "σου", 13, "middle", "bold"))
+
+    # The hinge.
+    hy = mid - 18
+    out.append(f'<rect x="60" y="{hy}" width="600" height="58" rx="29" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="2"/>')
+    out.append(text(W / 2, hy + 25, "“on earth as it is in heaven.”", 18, "middle", "bold", italic=True))
+    out.append(text(W / 2, hy + 46, "ὡς ἐν οὐρανῷ καὶ ἐπὶ γῆς · the hinge · 6:10", 12.5, "middle", fill=INK))
+    out.append(text(W / 2, hy + 74, "Whether it governs all three petitions above or only the third is debated.", 12,
+                    "middle", italic=True, fill=MUTED))
+
+    # Earth.
+    ey = hy + 88
+    eh = 240
+    out.append(f'<rect x="30" y="{ey}" width="660" height="{eh}" rx="8" fill="url(#lp-earth)" stroke="{BRICK_DARK}" stroke-width="1.2"/>')
+    out.append(text(46, ey + 24, "ON EARTH", 12, weight="bold", fill=BRICK_DARK, spacing="1.5"))
+    out.append(text(674, ey + 24, "for us", 12, "end", italic=True, fill=BRICK_DARK))
+    ours = [("Bread", "“Give us this day our daily bread,”", "6:11", "δὸς ἡμῖν · give us", loaf_glyph),
+            ("Debts", "“and forgive us our debts, as we also have forgiven our debtors.”", "6:12",
+             "ἄφες ἡμῖν · forgive us", ledger_glyph),
+            ("Keeping", "“And lead us not into temptation, but deliver us from evil.”", "6:13",
+             "ῥῦσαι ἡμᾶς · deliver us", path_glyph)]
+    qy = ey + 38
+    for i, (lab, q, ref, gk, glyph) in enumerate(ours):
+        x = 42 + i * (pw + 12)
+        out += petition_card(x, qy, pw, 150, i + 4, lab, q, ref, gk, CARD, BRICK_DARK)
+        out.append(glyph(x + pw - 34, qy + 118))
+    out.append(kneeling(636, ey + eh - 8, 0.7))
+    out.append(text(616, ey + eh - 12, "the one praying", 11.5, "end", italic=True, fill=BRICK_DARK))
+
+    # The count.
+    cy = ey + eh + 34
+    out.append(text(W / 2, cy, "COUNT THE PRONOUNS IN THE GREEK", 12, "middle", "bold", fill=MUTED, spacing="1.2"))
+    cy += 22
+    out.append(text(196, cy + 5, "your (σου), 6:9-10", 13, "end"))
+    for k in range(3):
+        out.append(f'<circle cx="{214 + k * 26}" cy="{cy}" r="9" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1.2"/>')
+    out.append(text(300, cy + 5, "3", 14, weight="bold"))
+    cy += 28
+    out.append(text(196, cy + 5, "us, our, we, 6:11-13", 13, "end"))
+    for k in range(8):
+        out.append(f'<circle cx="{214 + k * 26}" cy="{cy}" r="9" fill="{SAND_DEEP}" stroke="{BRICK_DARK}" stroke-width="1.2"/>')
+    out.append(text(430, cy + 5, "8", 14, weight="bold"))
+    out.append(text(456, cy - 9, "Every request for yourself", 12.5, italic=True, fill=MUTED))
+    out.append(text(456, cy + 8, "is prayed in the plural.", 12.5, italic=True, fill=MUTED))
+
+    # The doxology.
+    dy = cy + 30
+    out.append(f'<rect x="90" y="{dy}" width="540" height="58" rx="6" fill="{CARD}" stroke="{MUTED}" stroke-width="1.4" stroke-dasharray="6 4"/>')
+    out.append(text(W / 2, dy + 24, "“For yours is the kingdom and the power and the glory, forever. Amen.”", 13.5,
+                    "middle", italic=True, fill=MUTED))
+    out.append(text(W / 2, dy + 44, "Not in the earliest manuscripts; the ESV prints it in a footnote to 6:13.", 12,
+                    "middle", fill=MUTED))
+
+    # Gethsemane.
+    gy = dy + 92
+    out += banner(W / 2, gy, 300, "HE PRAYED IT HIMSELF", fill=RED)
+    gy += 44
+    cards = [("Taught on the mountain", "“your will be done,”", "Matthew 6:10"),
+             ("Prayed in Gethsemane", "“My Father, if this cannot pass unless I drink it, your will be done.”",
+              "Matthew 26:42")]
+    for i, (lab, q, ref) in enumerate(cards):
+        x = 42 + i * 336
+        out.append(f'<rect x="{x}" y="{gy}" width="300" height="96" rx="6" fill="{CARD}" stroke="{RED}" stroke-width="1.5"/>')
+        out.append(text(x + 12, gy + 22, lab, 14, weight="bold"))
+        out.append(text(x + 288, gy + 22, ref, 11.5, "end", italic=True, fill=MUTED))
+        ty = gy + 42
+        for r in wrap(q, 44):
+            out.append(text(x + 12, ty, r, 13, italic=True))
+            ty += 17
+        out.append(text(x + 12, gy + 86, "γενηθήτω τὸ θέλημά σου", 13, weight="bold", fill=BLUE))
+    out.append(f'<path d="M342 {gy + 81} H376" stroke="{RED}" stroke-width="2"/>')
+    out.append(text(W / 2, gy + 116, "The same Greek words. The cup was not taken away, and He drank it.", 13,
+                    "middle", italic=True))
+
+    out.append(text(W / 2, gy + 156, "The attitude of prayer is that we are God’s.", 19, "middle", "bold", italic=True))
+    out.append(credit(h))
+    assert gy + 200 <= h, (gy, h)
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
-    for name, fn in (("daniel-at-the-window", daniel_at_the_window), ("ephesians-3-prayer", ephesians_3_prayer)):
+    for name, fn in (("daniel-at-the-window", daniel_at_the_window), ("ephesians-3-prayer", ephesians_3_prayer),
+                     ("lords-prayer-shape", lords_prayer_shape)):
         (OUT / f"{name}.svg").write_text(fn() + "\n", encoding="utf-8")
         print(f"wrote {name}.svg")
 

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 John 4:1-6; Deuteronomy 13:1-5; Matthew 7:15-23"
 bible_references: ["Deuteronomy 18:20-22", "Jeremiah 23:16-32", "Ezekiel 13:1-23", "Isaiah 8:20", "1 Kings 22:22-23", "Matthew 24:4-5", "Matthew 24:11", "Matthew 24:24-25", "2 Thessalonians 2:9-11", "Acts 17:11", "Acts 20:28-32", "Revelation 2:2", "Revelation 2:20", "1 Thessalonians 5:19-22", "1 Peter 1:7", "1 John 2:18-27", "2 John 1:7-11", "3 John 1:5-8", "1 Corinthians 12:3", "2 Corinthians 11:3-4", "2 Corinthians 11:13-15", "Galatians 1:6-9", "2 Peter 2:1-3", "2 Peter 2:10", "2 Peter 2:14-15", "2 Peter 2:18-19", "Jude 1:3-4", "Jude 1:8", "Jude 1:11-13", "Jude 1:16", "Jude 1:19-25", "1 Timothy 4:1-3", "1 Timothy 6:3-5", "Titus 1:9-11", "Titus 1:16", "Romans 16:17-18", "2 Timothy 3:1-7", "2 Timothy 3:14-17", "2 Timothy 4:3-4", "2 Timothy 2:24-26", "Matthew 7:1", "John 7:24", "John 10:4-5", "John 10:27-29", "Ephesians 4:11-15", "Hebrews 13:7-9", "Galatians 5:22-23"]
 date_created: 2026-10-10
-date_modified: 2026-10-10
+date_modified: 2026-10-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -34,6 +34,8 @@ about Jesus Christ come in the flesh, and He tells you to keep testing every tea
 three marks Scripture repeats: the Christ they preach, the life they live, and where they lead you;
 signs, crowds and Bible words can all be counterfeited, and the One who is in you is greater than
 the one who is in the world.
+
+[![A one-minute comic in 5 panels. Panel 1 (1 John 4:1): John seated by lamplight with a scroll, writing to the churches. Caption: "John writes to the churches." John says: "Beloved, do not believe every spirit, but test the spirits to see whether they are from God." Note: "“Test”: δοκιμάζω (dokimazō), the word for gold tried in the fire (1 Peter 1:7)." Panel 2 (Deuteronomy 13:1-3): a prophet with his hand raised calls two Israelites after other gods. Caption: "The sign comes to pass. “You shall not listen.”" A prophet says: "Let us go after other gods … and let us serve them." Panel 3 (Matthew 4:5-7): Jesus at the temple in the holy city; the devil's words come from beyond the panel and are not drawn. Caption: "The devil quotes Scripture." The devil says: "If you are the Son of God, throw yourself down, for it is written…". Jesus says: "Again it is written, ‘You shall not put the Lord your God to the test.’" Panel 4 (Acts 17:10-11): Paul teaching in the synagogue at Berea while his hearers search scrolls of the Scriptures. Caption: "Berea. They test even Paul, “examining the Scriptures daily to see if these things were so.” Luke calls them more noble." Panel 5 (John 10:5, 27; 1 John 4:4): Jesus calls on a hillside and His sheep come to Him; a stranger at the far side calls and the sheep turn from him. Caption: "“He who is in you is greater than he who is in the world.” (1 John 4:4)". Jesus says: "My sheep hear my voice, and I know them, and they follow me." The point: God gave you His word to test every teacher by: the Christ they preach, the life they live, where they lead you. A sign or a Bible verse proves nothing on its own, and the One who is in you is greater (1 John 4:4).](../assets/img/comics/test-the-spirits.svg)](../assets/img/comics/test-the-spirits.svg)
 
 If a wolf has already hurt you or someone you love, read this alongside [Hurt by the
 Church](hurt-by-the-church.md), which deals with the wound.

@@ -107,6 +107,14 @@ FIGURES = {
                    mantle_fill="#7a1f2b", hair="short", beard=False,
                    why="The Roman prefect (Luke 3:1): a red military cloak over a tan tunic, and clean-shaven "
                        "in the Roman manner of the day, so he reads apart from every bearded Judean round him."),
+    "john": dict(name="John", study="christian-life/test-the-spirits.md", robes=["#2e4a7a"], mantle="stole",
+                 mantle_fill="#e6dcc4", hair="short", beard=True, belt="#c9b48a",
+                 why="A fisherman with his brother James (Matthew 4:21), so the fishermen's rope belt; a deep "
+                     "blue tunic and a cream mantle are a fixed choice. Scripture gives no detail of his dress."),
+    "paul": dict(name="Paul", study="christian-life/test-the-spirits.md", robes=["#8a4a2a"], mantle="stole",
+                 mantle_fill="#3e3a36", hair="short", beard=True, belt="#5a3d22",
+                 why="A travelling tentmaker (Acts 18:3): a rust tunic under a charcoal travelling cloak and a "
+                     "leather belt, a fixed choice. Scripture gives no detail of his dress or looks."),
 }
 CAST.update(FIGURES)
 
@@ -724,7 +732,17 @@ def flame_jet(x0, y0, x1, y1, s):
             f'<polygon points="{tongue(5)}" fill="#f6d36a"/>')
 
 
-PROPS = {"tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
+def prop_sheep(x, y, s):
+    """A sheep facing right, in its fleece (John 10:3-4, 27); a flock is a counted row of them."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M-12 -2 V-12 M-6 0 V-12 M8 -2 V-12 M14 0 V-12" stroke="#3b2f22" stroke-width="2.4" stroke-linecap="round"/>'
+            '<path d="M-20 -14 q-4 -10 4 -14 q2 -8 10 -6 q6 -6 12 -1 q8 -3 11 4 q7 2 4 10 q2 7 -6 9 h-30 q-8 -1 -5 -2 z" '
+            'fill="#f1ead8" stroke="#a89a7a" stroke-width="1"/>'
+            '<ellipse cx="22" cy="-24" rx="6" ry="4.5" fill="#3b2f22" transform="rotate(25 22 -24)"/>'
+            '<ellipse cx="18" cy="-27" rx="3" ry="1.6" fill="#3b2f22" transform="rotate(-30 18 -27)"/></g>')
+
+
+PROPS = {"sheep": prop_sheep, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf}
 
@@ -1073,6 +1091,8 @@ def draw_panel(i, box, p):
             n = pr.get("n", 1)
             xs = [pr["x"] + (pr.get("x2", pr["x"]) - pr["x"]) * k / max(1, n - 1) for k in range(n)]
             svg = "".join(PROPS[pr["what"]](xx * w, py, ps) for xx in xs)
+            if pr.get("face") == "left":
+                svg = "".join(f'<g transform="matrix(-1 0 0 1 {2 * xx * w:.1f} 0)">{PROPS[pr["what"]](xx * w, py, ps)}</g>' for xx in xs)
         (front if pr.get("front") else drawn).append((py - 0.5, svg))
     for e in _expand_cast(p.get("cast", [])):
         fy = gy + 6 + (e.get("dy", 0)) * h
