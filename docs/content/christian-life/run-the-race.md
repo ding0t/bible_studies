@@ -16,13 +16,15 @@ ai_provider_models:
 
 Jesus once stood in Galilee and called out to tired people. "Come to me, all who labor and are heavy
 laden, and I will give you rest" (Matthew 11:28, ESV). Many Christians heard that call, came, and
-found it true. Years later they are tired again. Hebrews was written to people like that. They had
-believed, suffered for it, and held on. Now their hands were drooping (Hebrews 12:12).
+found it true. Years later they are tired again. If that is you, the invitation still stands, and
+it is addressed to the tired. Hebrews was written to people like you. They had
+believed, suffered for it, and held on. Now their hands were drooping (Hebrews 12:12), and God
+wrote to lift them.
 
-**In one sentence:** Jesus calls the weary to come to Him and gives them rest by yoking them to
-Himself; you run the long race on that same rest, looking to Jesus, fed by His word, kept in prayer
-and stirred up by one another, and you grow weary again when you take other loads back up: works
-done to be seen, discipline used to earn, and the cares of this age that choke the word.
+**In one sentence:** Jesus calls you to come to Him tired, just as you are, and gives you rest by
+yoking you to Himself; you run the long race on that same rest, looking to Jesus, fed by His word,
+kept in prayer and stirred up by one another, and you may put down the loads He never gave you:
+works done to be seen, discipline used to earn, and the cares of this age that choke the word.
 
 Read the two passages side by side. The first is the invitation; the second is how to keep going.
 
@@ -44,16 +46,6 @@ Read the two passages side by side. The first is the invitation; the second is h
 ## Key Takeaways
 
 *(This section follows the [Key Takeaways](../about/key-takeaways.md) format — see that page for what each part is for.)*
-
-### Types & Prophecy
-
-- **Prophecy.** Isaiah's Servant says the Lord GOD taught him "how to sustain with a word him who is
-  weary" (Isaiah 50:4, ESV), and that he set his face "like a flint" toward disgrace (Isaiah 50:7,
-  ESV). Jesus "set his face to go to Jerusalem" (Luke 9:51, ESV), and He is the one who calls the
-  weary to Himself (Matthew 11:28).
-- **Echo.** At Jeremiah 6:16 God offered Judah "rest for your souls", and Judah answered, "We will
-  not walk in it." Jesus offers the same rest in the same words (Matthew 11:29), and He is Himself
-  the way.
 
 ### Lessons about Jesus
 
@@ -105,7 +97,8 @@ In Jesus' name. Amen.
   hearers carried, and the rest Israel once refused.
 - [Why believers grow weary](#why-believers-grow-weary). What wore down the church Hebrews was
   written to, the weight of never feeling good enough, hurt from inside the church, Hebrews' two
-  words for tired, and Jesus' own weariness at Jacob's well.
+  words for tired, and Jesus' own weariness at Jacob's well, which shows that being tired is not
+  itself a sin.
 - [Run with endurance, looking to Jesus](#run-with-endurance-looking-to-jesus). Hebrews 12:1-3
   phrase by phrase, from whether the [cloud of witnesses](#the-cloud-of-witnesses) watches or
   testifies (contested) to the cross, then Isaiah 40:31, the face like flint, and Philippians 3:12.
@@ -150,8 +143,9 @@ under the legalism of the scribes and Pharisees.
 
 The next scene opens "At that time" (Matthew 12:1, ESV), the same phrase
 that opened Jesus' prayer (Matthew 11:25). His hungry disciples pluck grain on the Sabbath and the
-Pharisees condemn them. Jesus answers with Hosea 6:6: "I desire mercy, and not sacrifice" (Matthew 12:7,
-ESV).
+Pharisees condemn them. Jesus answers with Hosea 6:6, and calls His disciples "the guiltless" (Matthew 12:7, ESV). If
+others have loaded you with rules for earning God's favour, Jesus' verdict on His own still stands:
+He desires mercy.
 
 ### The yoke
 
@@ -161,11 +155,8 @@ called the law's demands "a yoke ... that neither our fathers nor we have been a
 15:10, ESV), and answered it: "we believe that we will be saved through the grace of the Lord
 Jesus" (Acts 15:11, ESV).
 
-Jesus calls ζυγός (*zygos*, G2218) "my yoke". A sage two centuries earlier had used the same picture
-for the yoke of wisdom: "Draw near unto me, ye unlearned ... Put your neck under the yoke ... I have
-but little labour, and have gotten unto me much rest" (Sirach 51:23, 26-27, KJV Apocrypha). Jesus
-has just said "wisdom is justified by her deeds" (Matthew 11:19, ESV). The sage called his pupils
-to wisdom's yoke; Jesus calls them to His own, and points to Himself. "Come to me." "Learn from me."
+Jesus calls ζυγός (*zygos*, G2218) "my yoke", and every line of the invitation points to Himself:
+"Come to me." "Learn from me." The yoke you are offered is Jesus Himself.
 
 A yoke is still a yoke. Rest under it is work done beside Someone who pulls the weight. He is
 πραΰς (*praus*, G4239), gentle, and lowly in heart (Matthew 11:29). His yoke is χρηστός
@@ -254,8 +245,9 @@ they will faint on the way" (Mark 8:3, ESV). Matthew adds, "I am unwilling to se
 ### Jesus was tired too
 
 Jesus Himself was tired. At Jacob's well He was <span data-strongs="G2872">κεκοπιακώς</span>, "wearied as he was from his journey"
-(John 4:6, ESV), the same *kopiaō* as Matthew 11:28. "We do not have a high priest who is unable to
-sympathize with our weaknesses" (Hebrews 4:15, ESV). The writer's answer to the weak is an
+(John 4:6, ESV), the same *kopiaō* as Matthew 11:28. He was tired, and He was "without sin"
+(Hebrews 4:15, ESV), so your tiredness is not a sin to confess. It is a need to bring to Him. "We do
+not have a high priest who is unable to sympathize with our weaknesses" (Hebrews 4:15, ESV). The writer's answer to the weak is an
 invitation: "Let us then with confidence draw near to the throne of grace, that we may receive mercy
 and find grace to help in time of need" (Hebrews 4:16, ESV).
 
@@ -292,7 +284,8 @@ Isaiah had joined these ideas long before. "They who wait for the LORD shall ren
 Old Testament the Hebrews read renders "wait for" with *hypomenō* and "be weary" with *kopiaō*. So
 one verse holds the endurance of Hebrews 12, the running, and the weariness of Matthew 11. Hebrews
 does not quote it; the shared words are an echo. Isaiah's endurance is waiting on the LORD, and He
-gives the strength (Isaiah 40:29).
+gives the strength: "He gives power to the faint" (Isaiah 40:29, ESV). Your endurance is His gift
+too.
 
 ### Looking to Jesus
 
@@ -382,6 +375,10 @@ first, and then he sustained the weary with a word.
 
 The word does what it says. Jesus called Himself the bread of life: "whoever comes to me shall not
 hunger" (John 6:35, ESV). Read the Gospels, and you are reading the Person you are told to consider.
+
+**This shows that God feeds His tired people Himself.** He gives you one another, He hears you at
+His throne, and He speaks to you morning by morning in His word, so you may come to Him hungry and
+go away fed.
 
 ## What weighs the runner down
 
@@ -503,14 +500,11 @@ pray, gather, and put down the loads He never handed you.
 - **ESV Study Bible** (Crossway) — verse text throughout; notes on Matthew 11:28-29, Hebrews 12:1-3,
   Luke 8:14, Philippians 3:12 and Isaiah 50:4-9.
 - **NIV Cultural Backgrounds Study Bible** (Zondervan) — notes on Matthew 11:29 (the yoke of the
-  kingdom and of the law; the Sirach 51 parallel, which that note cites as Jeremiah 6:16) and Hebrews
-  12:1 (stripping to run).
+  kingdom and of the law) and Hebrews 12:1 (stripping to run).
 - **NIV Biblical Theology Study Bible** (Zondervan) — note on Hebrews 12:1-3 as the hinge from faith
   to endurance.
 - **Legacy Standard Bible** (Lockman Foundation) — footnotes at Matthew 11:29 ("Lit lowly"), Mark
   4:19 ("Or age") and Hebrews 12:3 ("Lit souls").
-- **Sirach 51:23-27**, KJV Apocrypha (1611), public domain, via the Scrollmapper deuterocanonical
-  collection.
 - **Septuagint** — Jeremiah 6:16 and Isaiah 40:31, via the LXX lemma data in this site's
   reference database.
 - **Macula Greek (SBLGNT)** and **Macula Hebrew (WLC)** — occurrence data for κοπιάω, φορτίζω,

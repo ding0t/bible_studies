@@ -18,7 +18,6 @@ supporting_passages:
   - "Proverbs 3:5-6; 4:20-23"
   - "Matthew 6:1, 11, 16, 34; 4:4; Deuteronomy 8:3"
   - "Luke 21:34; Luke 18:12; John 4:6; Mark 8:3; Matthew 15:32"
-  - "Sirach 51:23-27 (extra-biblical)"
 genre: [gospel, epistle, prophets, wisdom, parable, topical]
 
 thesis: >-
@@ -319,3 +318,16 @@ evidence:
   - {id: phroureo-2cor11-32, what: "phroureo G5432 at 2 Cor 11:32 (military guard on Damascus)", tool: bible_concordance, args: {strongs: G5432, work_id: macula-greek-sblgnt, book: 2Cor}, expect_contains: "was guarding", checked: 2026-10-13}
   - {id: esv-2cor11-32, what: "ESV 2 Cor 11:32 governor guarding the city", tool: study_verse, args: {book: 2Cor, chapter: 11, verse: 32, work_id: esv-study-bible}, expect_contains: "was guarding the city of Damascus", checked: 2026-10-13}
   - {id: esv-rom5-3, what: "hypomone as endurance under hardship: ESV Rom 5:3", tool: study_verse, args: {book: Rom, chapter: 5, verse: 3, work_id: esv-study-bible}, expect_contains: "suffering produces endurance", checked: 2026-10-13}
+  - {id: isa40-29-esv, what: "Isa 40:29 He gives power to the faint", tool: study_verse, args: {book: Isa, chapter: 40, verse: 29, work_id: esv-study-bible}, expect_contains: "He gives power to the faint", checked: 2026-10-13}
+  - {id: heb4-15-without-sin, what: "Heb 4:15 yet without sin", tool: study_verse, args: {book: Heb, chapter: 4, verse: 15, work_id: esv-study-bible}, expect_contains: "yet without sin", checked: 2026-10-13}
+  - {id: matt12-7-guiltless, what: "Matt 12:7 the guiltless", tool: study_verse, args: {book: Matt, chapter: 12, verse: 7, work_id: esv-study-bible}, expect_contains: "you would not have condemned the guiltless", checked: 2026-10-13}
+
+author_revision_2026-10-13: >-
+  At the author's request: Sirach 51 removed (adds nothing above Scripture; quotation, reference
+  entry and supporting passage gone). Pastoral pass, because a weary reader came for relief and met
+  a technical start: hook and In-one-sentence now address the reader and end on rest; Key Takeaways
+  drops Types & Prophecy (Isaiah 50 and Jeremiah 6:16 stay in the body) so it opens on Jesus who
+  knows weariness; second-person landings added to Who was weary (Matt 12:7 "the guiltless") and
+  Run with endurance (Isa 40:29). The two author items are written: tiredness is not sin (Heb 4:15,
+  "without sin"), with the outline promise restored, and "This shows that God feeds His tired
+  people Himself" closing What feeds the runner.
