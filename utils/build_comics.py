@@ -2,7 +2,7 @@
 
     python3 utils/build_comics.py                 # every comic
     python3 utils/build_comics.py you-are-gods    # one comic
-    python3 utils/build_comics.py --cast          # the model sheet of every cast member and pose
+    python3 utils/build_comics.py --cast          # the model sheets: every cast member and pose, and the emphasis tools
     python3 utils/build_comics.py --alt you-are-gods   # print the alt text for the markdown embed
     python3 utils/build_comics.py --draft peter        # render despite layout faults, and list them
     python3 utils/build_comics.py --verify             # every source = "esv" bubble against the ESV text
@@ -19,12 +19,13 @@ import tomllib
 from pathlib import Path
 
 from lib import comic as lib
-from lib.comic import cast_sheet, describe, render
+from lib.comic import cast_sheet, describe, emphasis_sheet, render
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "docs" / "data" / "comics"
 OUT = ROOT / "docs" / "content" / "assets" / "img" / "comics"
 SHEET = ROOT / ".claude" / "skills" / "one-minute-comic" / "cast.svg"
+EMPHASIS = SHEET.with_name("emphasis.svg")
 
 
 def load(slug):
@@ -76,7 +77,7 @@ def verify(slugs):
             text = " ".join(r["text"] for o, c, a, z in verses(p.get("ref", ""))
                             for r in q.lookup_verse(conn, o, c, a, "esv-study-bible", z))
             for b in p.get("say", []):
-                words = b.get("text", "")
+                words = lib.plain(b.get("text", ""))
                 if not words:
                     continue
                 if b.get("source") == "esv":
@@ -96,6 +97,8 @@ def main(args):
     if args[:1] == ["--cast"]:
         SHEET.write_text(cast_sheet() + "\n", encoding="utf-8")
         print(f"wrote {SHEET.relative_to(ROOT)}")
+        EMPHASIS.write_text(emphasis_sheet() + "\n", encoding="utf-8")
+        print(f"wrote {EMPHASIS.relative_to(ROOT)}")
         return
     if args[:1] == ["--alt"]:
         print(describe(load(args[1])))

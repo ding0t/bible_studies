@@ -12,8 +12,9 @@ colour and pose, the way a reader recognises a figure in a stained-glass window.
 """
 
 import math
+import re
 
-from lib.larkin import (W, INK, MUTED, PAPER, CARD, RED, GOLD, GOLD_EDGE, GOLD_TINT, text, svg_open, heading, banner,
+from lib.larkin import (W, INK, MUTED, PAPER, CARD, RED, GOLD, GOLD_EDGE, GOLD_TINT, esc, text, svg_open, heading, banner,
                         cloud as larkin_cloud)
 
 # --- palette -------------------------------------------------------------------------------------
@@ -115,6 +116,13 @@ FIGURES = {
                  mantle_fill="#3e3a36", hair="short", beard=True, belt="#5a3d22",
                  why="A travelling tentmaker (Acts 18:3): a rust tunic under a charcoal travelling cloak and a "
                      "leather belt, a fixed choice. Scripture gives no detail of his dress or looks."),
+    "elijah": dict(name="Elijah", study="christian-life/when-love-grows-cold.md", robes=["#6d5233"], mantle="stole",
+                   mantle_fill="#3f3226", hair="short", hair_color="#5a4a3a", beard="full", coarse=True,
+                   belt="#3a2614",
+                   why="\"He wore a garment of hair, with a belt of leather about his waist\" (2 Kings 1:8): a coarse "
+                       "brown hair garment and a dark leather belt, and the cloak he wrapped his face in and later cast "
+                       "on Elisha (1 Kings 19:13, 19), drawn dark brown. A full beard; short hair, so he never reads as "
+                       "Jesus, whose hair is long."),
 }
 CAST.update(FIGURES)
 
@@ -575,6 +583,56 @@ def scene_lake(w, h, sky, gid):
     return out
 
 
+def scene_vista(w, h, sky, gid, horizon=0.5):
+    """Open land running to a horizon set by the panel (`horizon`, a fraction of its height), drawn
+    in perspective: a hazy far ridge on the line, ground darkening toward the viewer, a track and
+    tufts that shrink toward the vanishing point. Figures placed with `depth` stand on this ground.
+    A low horizon gives a lone figure the whole sky; a high one fills the panel with land and people."""
+    out = _sky(w, h, sky, gid)
+    hz = h * horizon
+    far, near = ("#cdbd96", GROUND_NEAR) if sky not in ("night", "storm") else ("#5c5a5c", "#4a463e")
+    out.append(f'<path d="M0 {hz + 1:.1f} Q{w * 0.2:.1f} {hz - 16:.1f} {w * 0.42:.1f} {hz - 6:.1f} Q{w * 0.7:.1f} {hz - 20:.1f} '
+               f'{w} {hz - 4:.1f} V{hz + 1:.1f} Z" fill="{SKIES[sky][1]}" stroke="#00000018"/>')
+    out.append(f'<defs><linearGradient id="{gid}g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{far}"/>'
+               f'<stop offset="1" stop-color="{near}"/></linearGradient></defs>'
+               f'<rect x="0" y="{hz:.1f}" width="{w}" height="{h - hz:.1f}" fill="url(#{gid}g)"/>')
+    vx = w * 0.56
+    out.append(f'<path d="M{vx - 2:.1f} {hz:.1f} L{w * 0.30:.1f} {h} H{w * 0.46:.1f} L{vx + 2:.1f} {hz:.1f} Z" fill="#00000010"/>')
+    for k in range(1, 9):
+        t = (k / 9) ** 2
+        yy = hz + (h - hz) * t
+        for j in range(5):
+            xx = (j * 0.23 + (k * 0.37) % 0.2) * w
+            sz = 1 + 5 * t
+            out.append(f'<path d="M{xx:.1f} {yy:.1f} l{-sz * 0.4:.1f} {-sz:.1f} M{xx + sz * 0.3:.1f} {yy:.1f} l0 {-sz * 1.3:.1f} '
+                       f'M{xx + sz * 0.6:.1f} {yy:.1f} l{sz * 0.4:.1f} {-sz:.1f}" stroke="#7d6c4e" stroke-width="{0.5 + t:.2f}"/>')
+    return out
+
+
+def scene_cave(w, h, sky, gid):
+    """A mountainside of bare rock with a cave mouth, for Horeb (1 Kings 19:8-9, 13): "he came to a
+    cave and lodged in it", and later "stood at the entrance of the cave"."""
+    out = _sky(w, h, sky, gid)
+    gy = h * GROUND_AT
+    out.append(f'<path d="M0 {h * 0.08:.1f} L{w * 0.18:.1f} {h * 0.02:.1f} L{w * 0.42:.1f} {h * 0.2:.1f} L{w * 0.58:.1f} {gy - 30:.1f} '
+               f'L{w * 0.58:.1f} {h} H0 Z" fill="#a4977e" stroke="#6e6250" stroke-width="1.4"/>')
+    for k in range(6):
+        y0 = h * (0.16 + k * 0.11)
+        out.append(f'<path d="M{w * 0.03:.1f} {y0:.1f} l{w * (0.1 + (k % 3) * 0.06):.1f} {6 + k % 2 * 5}" stroke="#7d705c" stroke-width="1.2"/>')
+    cx = w * 0.27
+    out.append(f'<path d="M{cx - w * 0.15:.1f} {gy:.1f} Q{cx - w * 0.16:.1f} {gy - h * 0.46:.1f} {cx:.1f} {gy - h * 0.5:.1f} '
+               f'Q{cx + w * 0.16:.1f} {gy - h * 0.46:.1f} {cx + w * 0.15:.1f} {gy:.1f} Z" fill="#2a2016"/>')
+    out.append(f'<path d="M{w * 0.58:.1f} {gy - 30:.1f} Q{w * 0.8:.1f} {gy - 50:.1f} {w} {gy - 34:.1f} V{h} H{w * 0.58:.1f} Z" fill="#b9ab8c"/>')
+    out.append(f'<path d="M0 {gy - 6:.1f} Q{w / 2:.1f} {gy - 16:.1f} {w} {gy - 4:.1f} V{h} H0 Z" fill="#a89a7e"/>')
+    for i in range(12):
+        out.append(f'<ellipse cx="{(i * 61.7) % w:.1f}" cy="{gy + 6 + (i * 17) % max(1, int(h - gy - 10)):.1f}" rx="5" ry="3" fill="#8a7d64"/>')
+    return out
+
+
+# Scenes that take the panel's `horizon`.
+HORIZON_SCENES = {"vista"}
+
+
 # --- panel props ---------------------------------------------------------------------------------
 #
 # Things standing in a scene rather than held; (x, y) is where the prop meets the ground.
@@ -762,7 +820,134 @@ SCENES = {
     "hills": scene_hills,
     "plain": scene_plain,
     "room": scene_room,
+    "vista": scene_vista,
+    "cave": scene_cave,
 }
+
+
+# --- emphasis ------------------------------------------------------------------------------------
+#
+# The tools a comic uses to make its key beat land: where the camera stands (shot, camera, inset),
+# how far away people are (horizon, depth, haze), where the light falls (spotlight, burst), what
+# colour the moment is (grade, look) and the marks drawn round a blank face to say what it feels
+# (marks). Each one is a panel or cast key in the TOML, so every comic can use it.
+
+# Shot sizes: how much bigger than the panel's normal framing the camera draws its subject.
+SHOTS = {"medium": 1.5, "close": 2.0, "extreme": 3.0}
+
+# A figure's look, applied by recolouring the figure itself so it stays crisp at any size. "cold"
+# drains it toward a grey-blue, for love growing cold (Matthew 24:12); "warm" lifts it toward gold;
+# "silhouette" is a dark shape for a foreground figure the camera looks past; "faded" is one leaving
+# the story.
+def _cold(r, g, b):
+    lum = 0.3 * r + 0.59 * g + 0.11 * b
+    return 0.72 * lum + 10, 0.8 * lum + 22, 0.92 * lum + 46
+
+
+def _warm(r, g, b):
+    return r * 1.04 + 14, g * 1.0 + 8, b * 0.82
+
+
+LOOKS = {"cold": _cold, "warm": _warm, "silhouette": lambda r, g, b: (42, 32, 22)}
+
+
+def recolour(svg, look):
+    """Every colour in a figure's svg passed through a look; an alpha suffix (#00000030) is kept."""
+    if look == "faded":
+        return f'<g opacity="0.42">{svg}</g>'
+    fn = LOOKS[look]
+
+    def sub(m):
+        h_ = m.group(1)
+        r, g, b = (int(h_[k:k + 2], 16) for k in (0, 2, 4))
+        return "#" + "".join(f"{max(0, min(255, int(v))):02x}" for v in fn(r, g, b))
+    return re.sub(r"#([0-9a-fA-F]{6})(?=[0-9a-fA-F]{2}\b|\b)", sub, svg)
+
+
+# A panel's colour grade, laid over the whole frame.
+GRADES = {"cold": ("#4f78a8", 0.22), "warm": ("#e8a640", 0.15), "dark": ("#140f08", 0.35)}
+
+COLD = "#5b86b8"
+
+
+def emanata(kind, hx, hy, s, face):
+    """The marks cartoonists draw round a head to show what it feels. Faces here are blank, so these
+    carry the emotion; draw only one the text states or shows (Elijah "was afraid", 1 Kings 19:3)."""
+    f = face
+    if kind == "shock":
+        return "".join(f'<path d="M{hx + dx * s:.1f} {hy - 18 * s:.1f} l{dx * 0.5 * s:.1f} {-11 * s:.1f}" stroke="{INK}" '
+                       f'stroke-width="{2 * s:.1f}" stroke-linecap="round"/>' for dx in (-10, 0, 10))
+    if kind == "sweat":
+        return "".join(f'<path d="M{hx + f * dx * s:.1f} {hy + dy * s:.1f} q{3 * s:.1f} {6 * s:.1f} 0 {8 * s:.1f} '
+                       f'q{-3 * s:.1f} {-2 * s:.1f} 0 {-8 * s:.1f} z" fill="#bfe0f2" stroke="#4a7fa0" stroke-width="{0.9 * s:.1f}"/>'
+                       for dx, dy in ((15, -12), (18, -2)))
+    if kind == "tears":
+        return "".join(f'<path d="M{hx + f * 8 * s:.1f} {hy + dy * s:.1f} q{2.6 * s:.1f} {5 * s:.1f} 0 {7 * s:.1f} '
+                       f'q{-2.6 * s:.1f} {-2 * s:.1f} 0 {-7 * s:.1f} z" fill="#bfe0f2" stroke="#4a7fa0" stroke-width="{0.8 * s:.1f}"/>'
+                       for dy in (2, 12, 22))
+    if kind == "sigh":
+        return (f'<path d="M{hx + f * 14 * s:.1f} {hy + 2 * s:.1f} q{f * 10 * s:.1f} {-2 * s:.1f} {f * 12 * s:.1f} {6 * s:.1f} '
+                f'q{f * 2 * s:.1f} {7 * s:.1f} {f * 10 * s:.1f} {5 * s:.1f}" fill="none" stroke="{MUTED}" stroke-width="{1.6 * s:.1f}" '
+                f'stroke-linecap="round"/>')
+    if kind in ("question", "exclaim"):
+        return text(hx + f * 4 * s, hy - 20 * s, "?" if kind == "question" else "!", round(22 * s, 1), "middle", "bold",
+                    fill=RED if kind == "exclaim" else INK)
+    if kind == "heart":
+        return (f'<path d="M{hx:.1f} {hy - 18 * s:.1f} c{-2 * s:.1f} {-6 * s:.1f} {-10 * s:.1f} {-6 * s:.1f} {-10 * s:.1f} 0 '
+                f'c0 {5 * s:.1f} {10 * s:.1f} {9 * s:.1f} {10 * s:.1f} {9 * s:.1f} c0 0 {10 * s:.1f} {-4 * s:.1f} {10 * s:.1f} {-9 * s:.1f} '
+                f'c0 {-6 * s:.1f} {-8 * s:.1f} {-6 * s:.1f} {-10 * s:.1f} 0 z" fill="{RED}" transform="translate(0 {-8 * s:.1f})"/>')
+    if kind == "cold":
+        # Shiver lines either side and a frost crystal over the head.
+        out = [f'<path d="M{hx + side * 18 * s:.1f} {hy - 8 * s:.1f} q{side * 3 * s:.1f} {4 * s:.1f} 0 {8 * s:.1f} '
+               f'q{-side * 3 * s:.1f} {4 * s:.1f} 0 {8 * s:.1f}" fill="none" stroke="{COLD}" stroke-width="{1.6 * s:.1f}"/>'
+               for side in (-1, 1)]
+        cx, cy, r = hx + f * 2 * s, hy - 26 * s, 6 * s
+        out += [f'<path d="M{cx - r * math.cos(a):.1f} {cy - r * math.sin(a):.1f} L{cx + r * math.cos(a):.1f} {cy + r * math.sin(a):.1f}" '
+                f'stroke="{COLD}" stroke-width="{1.4 * s:.1f}" stroke-linecap="round"/>' for a in (0, math.pi / 3, 2 * math.pi / 3)]
+        return "".join(out)
+    if kind == "warm":
+        return "".join(f'<path d="M{hx + dx * s:.1f} {hy - 18 * s:.1f} q{3 * s:.1f} {-4 * s:.1f} 0 {-8 * s:.1f} '
+                       f'q{-3 * s:.1f} {-4 * s:.1f} 0 {-8 * s:.1f}" fill="none" stroke="{GOLD_EDGE}" stroke-width="{1.8 * s:.1f}" '
+                       f'stroke-linecap="round"/>' for dx in (-8, 0, 8))
+    if kind == "ember":
+        # A wick burning low (Isaiah 42:3): a small flame that has not gone out.
+        return (f'<path d="M{hx:.1f} {hy - 18 * s:.1f} q{-5 * s:.1f} {-6 * s:.1f} 0 {-14 * s:.1f} q{5 * s:.1f} {8 * s:.1f} 0 {14 * s:.1f} z" '
+                f'fill="#e8873a" opacity="0.85"/><circle cx="{hx:.1f}" cy="{hy - 19 * s:.1f}" r="{2 * s:.1f}" fill="#f6d36a"/>')
+    raise SystemExit(f"unknown mark {kind!r}: one of shock, sweat, tears, sigh, question, exclaim, heart, cold, warm, ember")
+
+
+def focus_lines(cx, cy, w, h, color=INK, n=56):
+    """Speed lines converging on a point, stopping short of it, so the eye is driven to what stands
+    there: the comic's way of saying "this, here, now"."""
+    out = []
+    reach = math.hypot(max(cx, w - cx), max(cy, h - cy)) + 20
+    clear = 0.3 * min(w, h)
+    for k in range(n):
+        a = 2 * math.pi * k / n + (k % 3) * 0.02
+        r0 = clear * (1 + 0.45 * ((k * 37) % 11) / 11)
+        half = 0.012 + 0.01 * ((k * 13) % 5) / 5
+        p1 = (cx + reach * math.cos(a - half), cy + reach * math.sin(a - half))
+        p2 = (cx + reach * math.cos(a + half), cy + reach * math.sin(a + half))
+        tip = (cx + r0 * math.cos(a), cy + r0 * math.sin(a))
+        out.append(f'<path d="M{p1[0]:.1f} {p1[1]:.1f} L{tip[0]:.1f} {tip[1]:.1f} L{p2[0]:.1f} {p2[1]:.1f} Z"/>')
+    return f'<g fill="{color}" opacity="{0.55 if color != INK else 0.32}">{"".join(out)}</g>'
+
+
+def spotlight(cx, cy, w, h, key, r=None):
+    """Darken the frame away from one point, so a single figure stands in a pool of light."""
+    r = r or max(w, h) * 0.75
+    return (f'<defs><radialGradient id="spot{key}" gradientUnits="userSpaceOnUse" cx="{cx:.1f}" cy="{cy:.1f}" r="{r:.1f}">'
+            f'<stop offset="0" stop-color="#140f08" stop-opacity="0"/><stop offset="0.3" stop-color="#140f08" stop-opacity="0"/>'
+            f'<stop offset="1" stop-color="#140f08" stop-opacity="0.66"/></radialGradient></defs>'
+            f'<rect width="{w:.1f}" height="{h:.1f}" fill="url(#spot{key})"/>')
+
+
+def _camera(fx, fy, z, at, vw, vh, w, h):
+    """The (tx, ty) that puts stage point (fx, fy), drawn z times larger, at fraction `at` of a vw x vh
+    frame, held so the frame never looks past the edge of the w x h stage."""
+    tx = min(0.0, max(vw - w * z, at[0] * vw - fx * z))
+    ty = min(0.0, max(vh - h * z, at[1] * vh - fy * z))
+    return tx, ty
 
 # --- words ---------------------------------------------------------------------------------------
 
@@ -864,9 +1049,14 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None)
         # Cover the tail's join with the outline.
         out.append(f'<path d="M{base[0][0]:.1f} {base[0][1]:.1f} L{base[1][0]:.1f} {base[1][1]:.1f}" stroke="{bg}" stroke-width="3"/>')
     ty_ = y + 9 + lh * 0.8
+    on = False
     for r in rows:
-        out.append(text(x, ty_, r, size, "middle", "bold" if style in ("shout", "voice") else None,
-                        italic=style == "memory"))
+        if "*" in text_:
+            row, on = _rich(x, ty_, r, size, "bold" if style in ("shout", "voice") else None, style == "memory", on)
+            out.append(row)
+        else:
+            out.append(text(x, ty_, r, size, "middle", "bold" if style in ("shout", "voice") else None,
+                            italic=style == "memory"))
         ty_ += lh
     if picture:
         step = PIC_STEP.get(picture["what"], 24)
@@ -874,6 +1064,27 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None)
         for k in range(picture["n"]):
             out.append(PROPS[picture["what"]](px0 + k * step, y + h - 10, 0.8))
     return out, h
+
+
+def _rich(x, y, row, size, weight, italic, on):
+    """One centred line of a bubble in which *starred words* are the key words: bold and red, the way a
+    letterer leans on the word a line turns on. Emphasis can run across a line break; `on` carries it.
+    Returns (svg, whether emphasis is still open at the line's end)."""
+    spans = []
+    for k, piece in enumerate(row.split("*")):
+        if k:
+            on = not on
+        if piece:
+            look = f' font-weight="bold" fill="{RED}"' if on else ""
+            spans.append(f'<tspan{look}>{esc(piece)}</tspan>')
+    attrs = (f'x="{x:.1f}" y="{y:.1f}" font-size="{size}" fill="{INK}" text-anchor="middle"'
+             + (f' font-weight="{weight}"' if weight else "") + (' font-style="italic"' if italic else ""))
+    return f'<text {attrs}>{"".join(spans)}</text>', on
+
+
+def plain(s):
+    """A bubble's words without the emphasis marks, for the alt text and for checking against the ESV."""
+    return s.replace("*", "")
 
 
 def _cloud(x, y, w, h, stroke):
@@ -1068,19 +1279,17 @@ def draw_tally(i, box, p):
     return out
 
 
-def draw_panel(i, box, p):
-    if p.get("kind") == "tally":
-        return draw_tally(i, box, p)
-    x, y, w, h = box
-    cid = f"pane{i}"
-    flash = p.get("flashback", False)
-    out = [f'<defs><clipPath id="{cid}"><rect x="0" y="0" width="{w:.1f}" height="{h}" rx="{18 if flash else 4}"/></clipPath></defs>',
-           f'<g transform="translate({x:.1f} {y:.1f})">', f'<g clip-path="url(#{cid})">']
-    out += SCENES[p.get("scene", "plain")](w, h, p.get("sky", "day"), f"sky{i}")
-
+def _stage(w, h, p, key):
+    """Everything inside a panel's frame that a camera can move: the scene, its props, the cast, the
+    haze between far and near, focus lines, and the marks round a head. Drawn in stage coordinates,
+    0..w by 0..h; draw_panel decides where the camera stands. Returns (svg, heads, faces)."""
+    name = p.get("scene", "plain")
+    kw = {"horizon": p["horizon"]} if name in HORIZON_SCENES and "horizon" in p else {}
+    out = list(SCENES[name](w, h, p.get("sky", "day"), f"sky{key}", **kw))
     gy = h * GROUND_AT
+    hzy = h * p.get("horizon", 0.5)
     base = h / 300 * 1.3
-    heads, faces, drawn, tags, front = {}, {}, [], [], []
+    heads, faces, drawn, tags, front, marks = {}, {}, [], [], [], []
     for pr in p.get("props", []):
         py = pr.get("y", (gy + 6) / h) * h
         ps = base * pr.get("s", 1.0)
@@ -1093,29 +1302,153 @@ def draw_panel(i, box, p):
             svg = "".join(PROPS[pr["what"]](xx * w, py, ps) for xx in xs)
             if pr.get("face") == "left":
                 svg = "".join(f'<g transform="matrix(-1 0 0 1 {2 * xx * w:.1f} 0)">{PROPS[pr["what"]](xx * w, py, ps)}</g>' for xx in xs)
-        (front if pr.get("front") else drawn).append((py - 0.5, svg))
+        if pr.get("front"):
+            front.append((py - 0.5, svg))
+        else:
+            drawn.append((py - 0.5, svg, False))
     for e in _expand_cast(p.get("cast", [])):
         fy = gy + 6 + (e.get("dy", 0)) * h
         fx = e["x"] * w
-        svg, head = figure(e["who"], fx, fy, base * e.get("s", 1.0), -1 if e.get("face") == "left" else 1,
-                           e.get("pose", "stand"), e.get("stance", "stand"), e.get("holds"), e.get("tone", 0))
-        drawn.append((fy, svg))
+        fs = base * e.get("s", 1.0)
+        depth = e.get("depth", 0)
+        if depth:
+            # Linear perspective: a figure deeper in the picture stands nearer the horizon and is
+            # drawn smaller in proportion, so a crowd recedes to the line instead of floating.
+            fy += (hzy - fy) * depth
+            fs *= max(0.06, 1 - depth)
+        face = -1 if e.get("face") == "left" else 1
+        svg, head = figure(e["who"], fx, fy, fs, face, e.get("pose", "stand"), e.get("stance", "stand"),
+                           e.get("holds"), e.get("tone", 0))
+        if e.get("look"):
+            svg = recolour(svg, e["look"])
+        drawn.append((fy, svg, depth >= 0.35))
         heads[e.get("id", e["who"])] = head
-        faces[e.get("id", e["who"])] = -1 if e.get("face") == "left" else 1
+        faces[e.get("id", e["who"])] = face
         if e.get("in_cloud"):
             # Taken up in a cloud (Acts 1:9; Revelation 11:12): the cloud's top meets the waist, so the
             # figure shows from the waist up whatever its scale.
-            fs = base * e.get("s", 1.0)
             cw = 150 * fs
             r = cw / (max(3, int(cw // 34)) * 1.55)
             front.append((fy, "".join(larkin_cloud(fx, fy - 42 * fs + 2.5 * r, cw, fill="#fbf7ee", stroke="#c9c2b0"))))
+        for m in e.get("marks", []):
+            marks.append(emanata(m, head[0], head[1], head[2], face))
         if e.get("tag"):
             tags.append(text(fx, fy + 17, e["tag"].upper(), 11.5, "middle", "bold", spacing="1.2",
                              extra=f'stroke="{PAPER}" stroke-width="3.5" paint-order="stroke"'))
-    for _, svg in sorted(drawn, key=lambda d: d[0]):
-        out.append(svg)
+    if p.get("burst"):
+        b = p["burst"] if isinstance(p["burst"], dict) else {"on": p["burst"]}
+        hx, hy, hs = _head(heads, b["on"], key)
+        out.append(focus_lines(hx, hy + 30 * hs, w, h, GOLD_EDGE if b.get("color") == "gold" else INK))
+    items = sorted(drawn, key=lambda d: d[0])
+    far = [svg for _, svg, deep in items if deep]
+    if far or p.get("haze"):
+        # Atmospheric perspective: a veil of the horizon's own colour between the far figures and the
+        # near, thickest on the horizon line and gone by the foreground.
+        lo, mid, hi = max(0.0, hzy / h - 0.18), hzy / h, min(1.0, (hzy + (gy - hzy) * 0.6) / h)
+        out += far
+        out.append(f'<defs><linearGradient id="haze{key}" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="{h}">'
+                   f'<stop offset="{lo:.3f}" stop-color="{SKIES[p.get("sky", "day")][1]}" stop-opacity="0"/>'
+                   f'<stop offset="{mid:.3f}" stop-color="{SKIES[p.get("sky", "day")][1]}" stop-opacity="0.55"/>'
+                   f'<stop offset="{hi:.3f}" stop-color="{SKIES[p.get("sky", "day")][1]}" stop-opacity="0"/></linearGradient></defs>'
+                   f'<rect width="{w:.1f}" height="{h}" fill="url(#haze{key})"/>')
+        out += [svg for _, svg, deep in items if not deep]
+    else:
+        out += [svg for _, svg, _ in items]
     out += [svg for _, svg in front]
+    out += marks
     out += tags
+    return out, heads, faces
+
+
+def _head(heads, who, where):
+    if who not in heads:
+        raise SystemExit(f"panel {where}: no cast member {who!r} to point the camera at; ids are {sorted(heads)}")
+    return heads[who]
+
+
+def _shot(p, heads):
+    """Where a panel's camera stands, from `shot` (medium, close, extreme) or `camera` = {on, zoom, at}:
+    the subject's head and shoulders, drawn larger and set at `at` in the frame. None for the normal
+    framing."""
+    if not p.get("camera") and not p.get("shot"):
+        return None
+    cam = p.get("camera", {})
+    on = cam.get("on") or p.get("focus") or next(iter(heads))
+    hx, hy, hs = _head(heads, on, p.get("ref", "?"))
+    z = cam.get("zoom", SHOTS.get(p.get("shot"), 1.0))
+    if on == "jesus" and z > SHOTS["medium"]:
+        # Faces are blank by rule; a close shot of His would draw the eye to what the cast never shows.
+        problem(f'{p.get("ref", "a panel")}: a close shot of Jesus; keep it to shot = "medium" (zoom {SHOTS["medium"]})')
+    return hx, hy + 10 * hs, z, cam.get("at", [0.5, 0.5])
+
+
+def _inset(i, w, h, p, heads):
+    """A close-up set into the corner of a wide panel, ruled to the figure it enlarges: the reader sees
+    where someone stands and, in the same glance, what it is doing to them. Returns (svg, its box in
+    the panel as a bubble-placement obstacle (centre x, top y, width, height))."""
+    ins = p["inset"]
+    on = ins["on"]
+    iw = ins.get("size", 0.36) * w
+    ih = min(h * 0.62, iw * ins.get("aspect", 0.85))
+    corner = ins.get("corner", "tr")
+    ix = 12 if "l" in corner else w - iw - 12
+    iy = 12 if "t" in corner else h - ih - 34
+    cast = [dict(e, marks=e.get("marks", []) + ins.get("marks", [])) if e.get("id", e["who"]) == on else e
+            for e in p.get("cast", [])]
+    sub = dict(p, cast=cast, burst=ins.get("burst"))
+    stage, sheads, _ = _stage(w, h, sub, f"{i}i")
+    sx, sy, ss = _head(sheads, on, i + 1)
+    z = ins.get("zoom", 2.2)
+    tx, ty = _camera(sx, sy + 10 * ss, z, ins.get("at", [0.5, 0.5]), iw, ih, w, h)
+    hx, hy, hs = heads[on]
+    near_x = ix if hx < ix else ix + iw
+    out = [f'<circle cx="{hx:.1f}" cy="{hy + 4 * hs:.1f}" r="{20 * hs:.1f}" fill="none" stroke="{PAPER}" stroke-width="4"/>',
+           f'<circle cx="{hx:.1f}" cy="{hy + 4 * hs:.1f}" r="{20 * hs:.1f}" fill="none" stroke="{INK}" stroke-width="1.4"/>']
+    for cy in (iy, iy + ih):
+        out.append(f'<path d="M{hx:.1f} {hy + 4 * hs:.1f} L{near_x:.1f} {cy:.1f}" stroke="{PAPER}" stroke-width="3.5"/>'
+                   f'<path d="M{hx:.1f} {hy + 4 * hs:.1f} L{near_x:.1f} {cy:.1f}" stroke="{INK}" stroke-width="1.1" stroke-dasharray="4 3"/>')
+    out += [f'<defs><clipPath id="ins{i}"><rect width="{iw:.1f}" height="{ih:.1f}"/></clipPath></defs>',
+            f'<g transform="translate({ix:.1f} {iy:.1f})">',
+            f'<rect x="-4" y="-4" width="{iw + 8:.1f}" height="{ih + 8:.1f}" fill="{PAPER}"/>',
+            f'<g clip-path="url(#ins{i})"><g transform="translate({tx:.1f} {ty:.1f}) scale({z:.3f})">']
+    out += stage
+    out.append('</g>')
+    if ins.get("grade"):
+        col, op = GRADES[ins["grade"]]
+        out.append(f'<rect width="{iw:.1f}" height="{ih:.1f}" fill="{col}" opacity="{op}"/>')
+    out += ['</g>', f'<rect width="{iw:.1f}" height="{ih:.1f}" fill="none" stroke="{INK}" stroke-width="2.6"/>', '</g>']
+    return out, (ix + iw / 2, iy - 4, iw + 8, ih + 8)
+
+
+def draw_panel(i, box, p):
+    if p.get("kind") == "tally":
+        return draw_tally(i, box, p)
+    x, y, w, h = box
+    cid = f"pane{i}"
+    flash = p.get("flashback", False)
+    out = [f'<defs><clipPath id="{cid}"><rect x="0" y="0" width="{w:.1f}" height="{h}" rx="{18 if flash else 4}"/></clipPath></defs>',
+           f'<g transform="translate({x:.1f} {y:.1f})">', f'<g clip-path="url(#{cid})">']
+    base = h / 300 * 1.3
+    stage, heads, faces = _stage(w, h, p, str(i))
+    cam = _shot(p, heads)
+    if cam:
+        fx, fy, z, at = cam
+        tx, ty = _camera(fx, fy, z, at, w, h, w, h)
+        out += [f'<g transform="translate({tx:.1f} {ty:.1f}) scale({z:.3f})">'] + stage + ['</g>']
+        heads = {k: (tx + hx * z, ty + hy * z, hs * z) for k, (hx, hy, hs) in heads.items()}
+    else:
+        out += stage
+    if p.get("grade"):
+        col, op = GRADES[p["grade"]]
+        out.append(f'<rect width="{w:.1f}" height="{h}" fill="{col}" opacity="{op}"/>')
+    if p.get("spotlight"):
+        sp = p["spotlight"] if isinstance(p["spotlight"], dict) else {"on": p["spotlight"]}
+        hx, hy, hs = _head(heads, sp["on"], i)
+        out.append(spotlight(hx, hy + 34 * hs, w, h, i, sp.get("r", 0) * max(w, h) or None))
+    inset = None
+    if p.get("inset"):
+        svg, inset = _inset(i, w, h, p, heads)
+        out += svg
 
     if flash:
         out.append(f'<rect width="{w:.1f}" height="{h}" fill="{SEPIA}" opacity="0.16"/>')
@@ -1134,7 +1467,7 @@ def draw_panel(i, box, p):
         p = dict(p, caption_w=max(p.get("caption_w", w * 0.62) if p.get("caption") else 0, aw))
     cap_right = 10 + min(w - (20 if p.get("_no_number") else 44), p.get("caption_w", w * 0.62)) if cap_h else -1
     cap_bottom = 10 + cap_h + 8 if cap_h else 8
-    placed = []
+    placed = [inset] if inset else []
     for b in p.get("say", []):
         style = b.get("style", "speech")
         if style == "fire":
@@ -1161,7 +1494,9 @@ def draw_panel(i, box, p):
         clear = hy - 26 * hs
         # A bubble over its own speaker's head hides who is talking: lift it clear, and if the
         # caption or the panel's top is in the way, set it beside the head, toward the panel's centre.
-        if not offstage and by + bh > clear and abs(bx - hx) < bw / 2 + 10:
+        # A bubble set wholly below the head (a close shot, where the head is high in the frame)
+        # covers no face and stays where it was put.
+        if not offstage and by + bh > clear and by < hy + 14 * hs and abs(bx - hx) < bw / 2 + 10:
             by = clear - bh
             if by < top_limit(bx):
                 side = 1 if hx < w / 2 else -1
@@ -1230,7 +1565,7 @@ def describe(comic):
             elif not b.get("text") and b.get("picture"):
                 bits.append(f'{who}: a speech bubble with no words, holding {b["picture"]["n"]} {b["picture"].get("label", b["picture"]["what"])}')
             else:
-                bits.append(f'{who} says: "{b["text"]}"')
+                bits.append(f'{who} says: "{plain(b["text"])}"')
         if p.get("aside"):
             bits.append(f'Note: "{p["aside"]}"')
         if p.get("badge"):
@@ -1316,3 +1651,38 @@ def cast_sheet():
     out.append(credit(h))
     out.append('</svg>')
     return "\n".join(out)
+
+
+def emphasis_sheet():
+    """A model sheet of the emphasis tools: one panel per technique, with the TOML that draws it as
+    the caption, for choosing by eye when writing a comic."""
+    crowd = lambda depth, n, look=None, x=0.18, x2=0.96, tone=0: dict(who="man" if n % 2 else "woman", x=x, x2=x2, n=n, depth=depth,
+                                                                     tone=tone, **({"look": look} if look else {}))
+    comic = {
+        "slug": "emphasis", "title": "Emphasis", "subtitle": "the camera, depth, light and marks · utils/lib/comic.py",
+        "layout": [[270, 1, 1], [270, 1, 1], [270, 1, 1]],
+        "note": "Each caption is the TOML key that draws its panel. See .claude/skills/one-minute-comic/SKILL.md, section 3a.",
+        "panel": [
+            {"scene": "hills", "shot": "close", "caption": 'shot = "close"  (medium, close, extreme)', "caption_w": 280,
+             "cast": [{"who": "man", "x": 0.5, "face": "right", "pose": "heart", "marks": ["tears"]}],
+             "say": [{"by": "man", "text": "A *close* shot for the line a face would carry.", "at": [0.74, 0.62], "w": 120}]},
+            {"scene": "plain", "sky": "dusk", "caption": 'inset = { on = "...", zoom = 2.4, marks = [...] }', "caption_w": 270,
+             "inset": {"on": "alone", "zoom": 2.4, "corner": "br", "size": 0.4, "marks": ["sigh"]},
+             "cast": [{"who": "woman", "id": "alone", "x": 0.2, "face": "right"},
+                      {"who": "man", "x": 0.42, "x2": 0.62, "n": 3, "face": "left", "pose": ["point", "stand", "point"]}]},
+            {"scene": "vista", "horizon": 0.42, "caption": "horizon = 0.42, depth = 0..1 (haze is automatic)", "caption_w": 290,
+             "cast": [crowd(0.85, 13), crowd(0.7, 11, tone=1), crowd(0.5, 8, tone=2), crowd(0.25, 5, x=0.3, x2=0.9, tone=3),
+                      {"who": "man", "x": 0.1, "s": 1.5, "dy": 0.1, "look": "silhouette"}]},
+            {"scene": "room", "spotlight": "one", "caption": 'spotlight = "..."', "caption_w": 160,
+             "cast": [{"who": "man", "x": 0.18, "face": "right", "tone": 1}, {"who": "woman", "id": "one", "x": 0.5, "face": "right", "pose": "praise"},
+                      {"who": "man", "x": 0.82, "face": "left", "tone": 3}]},
+            {"scene": "hills", "sky": "dawn", "burst": {"on": "one", "color": "gold"}, "grade": "warm",
+             "caption": 'burst = { on = "...", color = "gold" }, grade = "warm"', "caption_w": 290,
+             "cast": [{"who": "man", "id": "one", "x": 0.5, "face": "right", "pose": "open"}]},
+            {"scene": "street", "sky": "winter", "grade": "cold", "caption": 'look = "cold" | "warm" | "faded", grade = "cold"', "caption_w": 300,
+             "cast": [{"who": "woman", "x": 0.22, "face": "right", "look": "warm", "marks": ["warm"]},
+                      {"who": "man", "x": 0.55, "face": "right", "look": "cold", "marks": ["cold"]},
+                      {"who": "man", "x": 0.82, "face": "right", "look": "faded", "tone": 2, "stance": "walk"}]},
+        ],
+    }
+    return render(comic)

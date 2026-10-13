@@ -113,6 +113,10 @@ Scripture does not.
   flashback. Narration is the study's voice and follows the style guide (affirmative, plain
   terms, divine pronouns capitalised). Quoted Scripture keeps its lowercase pronouns; condensed
   speech is our wording, so it capitalises.
+- **`*Starred words*` are the key words**, set bold and red the way a letterer leans on the word a
+  line turns on: "the love of many will \*grow cold\*." One phrase per bubble at most, and only the
+  words the study's point rests on. The stars are dropped for `--verify` and the alt text, so an
+  ESV bubble with stars still checks as the ESV's wording.
 - **`style = "shout"`** for a crowd or an accusation, `"whisper"` for an aside. Speech is the
   default.
 - **`point`** is the closing line under THE POINT ribbon: the study's sentence, landed on the
@@ -133,6 +137,7 @@ comic knows him in the next. Each is reserved once, in `FIGURES` in `utils/lib/c
 | `pilate` | Pontius Pilate | Tan tunic, red military cloak, clean-shaven in the Roman manner | two-witnesses |
 | `john` | John, son of Zebedee | Deep blue tunic, cream mantle, the fishermen's rope belt | test-the-spirits |
 | `paul` | Paul | Rust tunic, charcoal travelling cloak, leather belt | test-the-spirits |
+| `elijah` | Elijah | Coarse brown hair garment, dark leather belt (2 Kings 1:8), dark cloak (1 Kings 19:13), full beard, short hair | when-love-grows-cold |
 
 - **Reserve only a figure the text names.** The two witnesses are unnamed in Revelation 11 and
   contested in the study, so they are the generic `witness` (sackcloth), never a reserved Moses
@@ -200,7 +205,8 @@ clones:
 - `scene`: colonnade, temple, synagogue, pool, hills, plain, room, shore (lake and a fishing
   boat), courtyard (walled, a lit doorway), street, grassland (spring grass above the lake), decapolis
   (dry ground, a Greek city on the ridge), hall (inside a synagogue), lake (open water; put people
-  in a boat with the `hull` prop). `sky`: day, dawn, winter, dusk, night, storm.
+  in a boat with the `hull` prop). vista (open land to a horizon the panel sets with `horizon`; the
+  ground for `depth`, section 3a), cave (bare rock and a cave mouth, for Horeb, 1 Kings 19:9). `sky`: day, dawn, winter, dusk, night, storm.
 - `in_cloud = true` on a cast entry sets a cloud at the figure's waist, for one taken up
   (Acts 1:9; Revelation 11:12); give it a negative `dy` to lift it.
 - `aside` is a dashed note hung under the caption, in the site's confidence code: a reading, an
@@ -235,6 +241,44 @@ because John 10:22 says so. Atmosphere (a grey sky, columns) may be added and ca
 detail that would make a claim the text does not, such as lamps at the Feast of Dedication, waits
 for a verse or stays out.
 
+## 3a. Emphasis: make the key beat land
+
+A comic tells its point in five beats, and one of them carries it. Emphasis is how the reader's eye
+is told which. `python3 utils/build_comics.py --cast` also writes `emphasis.svg` beside this file:
+every tool below in one panel each, captioned with the TOML that draws it. Open it to choose by eye.
+`when-love-grows-cold` uses most of them and is the specimen.
+
+| Tool | TOML | What it does | Use it for |
+|---|---|---|---|
+| Close shot | `shot = "close"` (`"medium"`, `"extreme"`), or `camera = { on = "<id>", zoom = 2.0, at = [x, y] }` | Moves the camera in on one figure's head and shoulders; `at` is where the head lands in the frame | The one line a face would carry: Elijah's "I only am left". Frame the speaker off-centre with room on the side they face, and put the bubble there |
+| Inset | `inset = { on = "<id>", zoom = 2.4, corner = "br", size = 0.38, marks = ["sigh"] }` | A close-up set into a corner of a wide panel, ruled to the figure it enlarges | Where someone stands *and* what it does to them, in one glance; the inset's `marks` show only in the close-up |
+| Horizon and depth | Panel `scene = "vista"`, `horizon = 0.4`; cast `depth = 0..1` | Figures deeper in the picture stand nearer the horizon and shrink in proportion; a haze in the horizon's colour falls between far and near | A crowd that is more than the panel can hold (the seven thousand). A low horizon gives a lone figure the sky; a high one fills the frame with land and people |
+| Pull back | A close shot, then a wide `vista` panel; the close-shot figure in the foreground with `look = "silhouette"`, `s = 1.5` | The reveal: the reader sees what the figure sees | The answer to a lonely line, the size of what God has done |
+| Spotlight | `spotlight = "<id>"` | Darkens the frame away from one figure | Someone alone, or the one figure the panel is about |
+| Focus lines | `burst = { on = "<id>", color = "gold" }` | Lines converging on a figure, stopping short of it | The arrival or word the comic turns on. Gold for glory; ink for alarm |
+| Grade | `grade = "warm"`, `"cold"`, `"dark"` | Lays a colour over the whole panel | The temperature of the moment, when the text gives it (night, dawn, a cold heart) |
+| Look | cast `look = "cold"`, `"warm"`, `"silhouette"`, `"faded"` | Recolours one figure | Cold for love cooling, warm for the faithful, faded for one leaving the story, silhouette for the figure the camera looks past |
+| Marks | cast `marks = ["sweat", "tears", "shock", "sigh", "question", "exclaim", "heart", "cold", "warm", "ember"]` | The marks cartoonists draw round a head | What a blank face cannot show |
+
+Rules, each for the same reason as section 1's: the picture must not say what the text does not.
+
+- **A mark is an emotion the text gives.** Elijah sweats because "he was afraid" (1 Kings 19:3); a
+  disciple carries a question mark because "some doubted" (Matthew 28:17). No text, no mark. Name the
+  verse in the TOML header.
+- **One emphasis per beat, on the beat that carries the point.** A comic in which every panel zooms,
+  glows and bursts has emphasised nothing. `when-love-grows-cold` gives the close shot to the lonely
+  line, the pull-back to God's answer, and the gold to the risen Jesus.
+- **A crowd too large to draw says so.** Seven thousand cannot be drawn; the panel's `aside` reads
+  "Drawn: a few dozen of the seven thousand." Section 1's rule that a count is drawn as that many
+  still governs every count that can be.
+- **Colour that makes a claim needs a verse.** A `cold` look on a figure says that person's love has
+  cooled; draw it only on someone the text says it of, or in a picture of Jesus' own words about
+  "many".
+- **Close shots of Jesus stay at `medium`.** The faces are blank by rule (drawn-graphics.md); a close
+  shot of His blank face draws the eye to exactly what the cast is built not to show.
+- The camera and inset move everything in the frame, bubbles excepted: bubbles are placed in the
+  panel's own coordinates after the camera, so `at` means the same thing with or without a shot.
+
 ## 4. Build, look, fix
 
 Render it and look at the PNG. Check every panel for: a bubble tail pointing at the right
@@ -260,7 +304,9 @@ TOML, the SVG and the study together.
 ## Extending the system
 
 - **A new character, pose, scene or prop** goes into `utils/lib/comic.py` (`CAST`, `POSES`,
-  `SCENES`, `_prop`) as data or one function, then `--cast` regenerates the model sheet. Colours
+  `SCENES`, `_prop`) as data or one function, then `--cast` regenerates the model sheet. **A new
+  emphasis tool** (a shot, a look, a mark) goes in the emphasis section of the same file and gets a
+  panel in `emphasis_sheet()`, so the sheet stays the full catalogue. Colours
   are named constants at the top of the file; never a stray hex in one comic.
 - **A figure is drawn in its own units**, feet at (0, 0), facing right, about 105 units tall. A
   pose is the (elbow, hand) of the near and far arm in those units.
