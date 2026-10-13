@@ -5,7 +5,7 @@ description: "Jesus invites the weary to Himself and gives them rest under His y
 tags: ["matthew", "hebrews", "isaiah", "proverbs", "philippians", "discipleship", "grace", "prayer", "church", "parable", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Matthew 11:28-30; Hebrews 12:1-3"
-bible_references: ["Matthew 11:19-27", "Matthew 12:1-7", "Matthew 13:1", "Matthew 13:22", "Mark 4:19", "Luke 8:14-15", "Matthew 23:4-5", "Luke 11:46", "Jeremiah 6:16", "Isaiah 40:29-31", "Isaiah 50:4-7", "Luke 9:51", "John 4:6", "Mark 8:3", "Matthew 15:32", "Hebrews 2:1", "Hebrews 3:1", "Hebrews 3:13", "Hebrews 4:15-16", "Hebrews 10:24-25", "Hebrews 10:32-36", "Hebrews 11:39-40", "Hebrews 12:5", "Hebrews 12:12", "Philippians 3:12-14", "Philippians 4:6-8", "Proverbs 3:5-6", "Proverbs 4:20-23", "Matthew 6:1", "Matthew 6:4", "Matthew 6:11", "Matthew 6:16", "Matthew 6:34", "Matthew 4:4", "Deuteronomy 8:3", "Acts 2:42", "Acts 15:10-11", "Luke 18:12-14", "Luke 21:34", "Luke 8:13", "John 10:28", "1 Peter 1:5", "Matthew 11:3", "Galatians 6:9", "1 Peter 5:7", "John 6:35-37", "1 John 5:3", "Hosea 6:6", "Proverbs 3:11-12", "Hebrews 12:14-15", "Psalm 55:12-14", "Acts 15:39", "2 Timothy 4:10-17", "Acts 20:29-30", "John 10:11-13", "Hebrews 9:9", "Hebrews 9:14", "Hebrews 10:1-3", "Hebrews 10:14", "Hebrews 10:22", "Hebrews 10:37-39", "Habakkuk 2:3", "Hebrews 12:4", "Hebrews 12:6", "1 John 3:20", "1 John 2:19", "Luke 8:12", "Mark 4:17"]
+bible_references: ["Matthew 11:19-27", "Matthew 12:1-7", "Matthew 13:1", "Matthew 13:22", "Mark 4:19", "Luke 8:14-15", "Matthew 23:4-5", "Luke 11:46", "Jeremiah 6:16", "Isaiah 40:29-31", "Isaiah 50:4-7", "Luke 9:51", "John 4:6", "Mark 8:3", "Matthew 15:32", "Hebrews 2:1", "Hebrews 3:1", "Hebrews 3:13", "Hebrews 4:15-16", "Hebrews 10:24-25", "Hebrews 10:32-36", "Hebrews 11:39-40", "Hebrews 12:5", "Hebrews 12:12", "Philippians 3:12-14", "Philippians 4:6-8", "Proverbs 3:5-6", "Proverbs 4:20-23", "Matthew 6:1", "Matthew 6:4", "Matthew 6:11", "Matthew 6:16", "Matthew 6:34", "Matthew 4:4", "Deuteronomy 8:3", "Acts 2:42", "Acts 15:10-11", "Luke 18:12-14", "Luke 21:34", "Luke 8:13", "John 10:28", "1 Peter 1:5", "Matthew 11:3", "Galatians 6:9", "1 Peter 5:7", "John 6:35-37", "1 John 5:3", "Hosea 6:6", "Proverbs 3:11-12", "Hebrews 12:14-15", "Psalm 55:12-14", "Acts 15:39", "2 Timothy 4:10-17", "Acts 20:29-30", "John 10:11-13", "Hebrews 9:9", "Hebrews 9:14", "Hebrews 10:1-3", "Hebrews 10:14", "Hebrews 10:22", "Hebrews 10:37-39", "Habakkuk 2:3", "Hebrews 12:4", "Hebrews 12:6", "1 John 3:20", "1 John 2:19", "Luke 8:12", "Mark 4:17", "2 Corinthians 11:32"]
 date_created: 2026-10-02
 date_modified: 2026-10-13
 ai_provider_models:
@@ -104,10 +104,11 @@ In Jesus' name. Amen.
 - [Come to me](#come-to-me). Matthew 11:28-30 in its chapter: who is speaking, what loads the
   hearers carried, and the rest Israel once refused.
 - [Why believers grow weary](#why-believers-grow-weary). What wore down the church Hebrews was
-  written to, the weight of never feeling good enough, hurt from inside the church, and why being
-  tired is not itself a sin.
+  written to, the weight of never feeling good enough, hurt from inside the church, Hebrews' two
+  words for tired, and Jesus' own weariness at Jacob's well.
 - [Run with endurance, looking to Jesus](#run-with-endurance-looking-to-jesus). Hebrews 12:1-3
-  phrase by phrase, Isaiah 40:31, the face like flint, and Philippians 3:12.
+  phrase by phrase, from whether the [cloud of witnesses](#the-cloud-of-witnesses) watches or
+  testifies (contested) to the cross, then Isaiah 40:31, the face like flint, and Philippians 3:12.
 - [What feeds the runner](#what-feeds-the-runner). Gathering with the church, prayer as daily bread,
   and living on the word.
 - [What weighs the runner down](#what-weighs-the-runner-down). Works done to be seen, discipline
@@ -168,13 +169,14 @@ to wisdom's yoke; Jesus calls them to His own, and points to Himself. "Come to m
 
 A yoke is still a yoke. Rest under it is work done beside Someone who pulls the weight. He is
 πραΰς (*praus*, G4239), gentle, and lowly in heart (Matthew 11:29). His yoke is χρηστός
-(*chrēstos*, G5543), kind, well fitted. His burden is ἐλαφρός (*elaphros*, G1645), light. John says
+(*chrēstos*, G5543), kind, comfortable to wear. His burden is ἐλαφρός (*elaphros*, G1645), light. John says
 the same of His commands: "his commandments are not burdensome" (1 John 5:3, ESV).
 
 ### Given, then found
 
 The rest comes twice. "I will give you rest" (Matthew 11:28) is a gift; ἀναπαύω (*anapauō*, G373)
-is something He does. "You will find rest for your souls" (Matthew 11:29) is what you discover once
+is something He does. "You will find rest for your souls" (Matthew 11:29) uses the noun, ἀνάπαυσις
+(*anapausis*, G372): rest you discover once
 you are under the yoke and learning from Him.
 
 That second phrase is Jeremiah's. God told Judah to ask for the ancient paths, "where the good way
@@ -184,8 +186,7 @@ is; and walk in it, and find rest for your souls. But they said, 'We will not wa
 "purification" there instead. So Jesus took Jeremiah's own words and offered again what Judah
 refused. He is the good way, and He walks it with you.
 
-**This shows that God does not wait for the weary to make themselves strong before He receives
-them.** Salvation is rest given by grace. You do not carry it.
+**This shows that God receives the weary as they are and gives them rest Himself.** Salvation is rest given by grace. You do not carry it.
 
 ## Why believers grow weary
 
@@ -242,7 +243,7 @@ do with it, and the Good Shepherd who stays when hired hands run (John 10:11-13)
 
 ### Two words for tired
 
-Hebrews 12:3 uses two words. κάμνω (*kamnō*, G2577) is to grow weary. ἐκλύω (*eklyō*, G1590) is to come loose, to give out. It returns two verses later in the
+Hebrews 12:3 uses two words. κάμνω (*kamnō*, G2577) is to grow weary. ἐκλύω (*eklyō*, G1590) is to faint, to give out. It returns two verses later in the
 quotation of Proverbs 3:11, "nor be weary when reproved by him" (Hebrews 12:5, ESV), and Paul uses it at
 Galatians 6:9: "we will reap, if we do not give up" (ESV).
 
@@ -263,13 +264,15 @@ weary away hungry.**
 
 ## Run with endurance, looking to Jesus
 
-### Lay aside
+### The cloud of witnesses
 
 "Therefore" ties Hebrews 12 to the faithful of chapter 11. They are "so great a cloud of witnesses"
 (Hebrews 12:1, ESV). Whether they *watch* us run or *testify* to us that faith holds is debated.
 μάρτυς (*martys*, G3144, "witness") answers to "commended" in Hebrews 11:39, which supports the second reading, and
 the ESV Study Bible notes that nowhere else does the New Testament picture saints in heaven watching
 saints on earth. Either way, their lives say the race can be finished.
+
+### Lay aside
 
 Runners in the games stripped to run (NIV Cultural Backgrounds Study Bible on Hebrews 12:1). Two
 things come off. ὄγκος (*onkos*, G3591) is bulk, weight; it is not called sin, and it occurs only
@@ -279,7 +282,7 @@ sin has to go.
 
 ### Run with endurance
 
-ὑπομονή (*hypomonē*, G5281) is staying under a load without giving way. Hebrews has the noun twice,
+ὑπομονή (*hypomonē*, G5281) is endurance, holding out under hardship without giving way. Hebrews has the noun twice,
 at Hebrews 10:36 and 12:1, and the verb ὑπομένω (*hypomenō*, G5278) four times. Twice it is Jesus
 who "endured" (Hebrews 12:2, 3). The race, ἀγών (*agōn*, G73), is "set before us": God laid out the
 course.
@@ -364,7 +367,7 @@ help in time of need" (Hebrews 4:16, ESV). It is also where worry goes to be exc
 > let your requests be made known to God. 7 And the peace of God, which surpasses all understanding,
 > will guard your hearts and your minds in Christ Jesus.
 
-"Guard" is φρουρέω (*phroureō*, G5432), a garrison posted at a gate. Peter uses it of believers
+"Guard" is φρουρέω (*phroureō*, G5432), a military verb (2 Corinthians 11:32). Peter uses it of believers
 "guarded through faith" by God's power (1 Peter 1:5, ESV). Peter also says where the anxieties go:
 "casting all your anxieties on him, because he cares for you" (1 Peter 5:7, ESV).
 [Prayer: Communion with God](prayer-as-communion.md) treats prayer at length.
@@ -423,7 +426,7 @@ each soil did with it.
 > of the world and the deceitfulness of riches and the desires for other things enter in and choke
 > the word, and it proves unfruitful.
 
-"Cares" is μέριμνα (*merimna*, G3308), anxiety, the divided mind. The LSB footnotes "world" as "age":
+"Cares" is μέριμνα (*merimna*, G3308), anxiety, worry. The LSB footnotes "world" as "age":
 the worries of this present age. Luke adds the journey: "as they go on their way they are choked by
 the cares and riches and pleasures of life, and their fruit does not mature" (Luke 8:14, ESV). The
 good soil "bear[s] fruit with patience" (Luke 8:15, ESV), ὑπομονή again, the endurance of Hebrews

@@ -151,6 +151,26 @@ stages:
         - "Root-leaning glosses (hypomone 'staying under', ekluo 'come loose', merimna 'divided mind', chrestos 'well fitted' -- LSB footnotes Matt 11:30 'Or comfortable, pleasant', phroureo 'garrison at a gate'): left; author's call."
         - "anapausis G372 is named in References with no Strong's tag in the prose (strongs_suggest); Minor."
         - "Run utils/refresh_frontmatter_provenance.py before committing the publish."
+    review_2026-10-13_pass2:
+      scope: "Follow-up to review_2026-10-13: root-leaning glosses, anapausis tag, style rules a fact-check skips. Earlier ESV/count verification not redone."
+      gloss_verdicts:
+        - "hypomone 'staying under a load': fair sense, phrased from the word's parts. NT usage is endurance/perseverance under suffering (Rom 5:3, Jas 1:3, Heb 10:32 verb, 12:2-3 'endured the cross'). Now 'endurance, holding out under hardship without giving way'."
+        - "ekluo 'come loose': root fallacy for Hebrews 12:3. The literal 'loosen' survives in LXX Gen 27:40 (loosing a yoke), but all 5 NT uses are faint/give up (MACULA glosses) and LXX usage is mostly fainting (1 Sam 14:28, 2 Sam 17:2, Lam 2:12, 19, Deut 20:3). Now 'to faint, to give out'."
+        - "merimna 'the divided mind': root fallacy (folk derivation from merizo, itself doubtful). Usage: care, anxiety, concern (1 Pet 5:7 anxiety; 2 Cor 11:28 Paul's care for the churches; LXX Ps 54:23). Now 'anxiety, worry'."
+        - "phroureo 'a garrison posted at a gate': military sense fair (2 Cor 11:32 the governor guarding Damascus; Gal 3:23 custody; NIVCBSB 'frequent military sense'; ESVSB Philippi garrison), the gate an embellishment. Now 'a military verb (2 Corinthians 11:32)'; 'God's peace stands garrison' in Guard your heart kept as a fair image."
+        - "chrestos 'well fitted': built from the root (chraomai 'use') / carpenter-yoke homiletic, no usage support. NT 7x: kind (Luke 6:35, Eph 4:32, Rom 2:4), good (1 Pet 2:3, 1 Cor 15:33), good of old wine (Luke 5:39); LSB Matt 11:30 footnote 'Or comfortable, pleasant'. Now 'kind, comfortable to wear'."
+      fixed:
+        - "anapausis G372 tagged at Matthew 11:29 in 'Given, then found' (strongs_suggest gap)."
+        - "'This shows that God' sentence in Come to me was a negation ('does not wait for the weary to make themselves strong'); now affirmative: 'God receives the weary as they are and gives them rest Himself.'"
+        - "2 Corinthians 11:32 added to bible_references (new citation)."
+      checked_clean:
+        - "Divine pronouns: capitalised in own prose, lowercase inside quotations and for Isaiah's Servant."
+        - "Intensifiers: none. 'Luke says plainly' (Luke 8:12) marks a settled point beside the contested one; kept."
+        - "Contrasts kept as reader-held wrong versions: 'Hebrews does not quote it' (Isa 40:31 echo), 'not salvation by works' (Phil 3:12, author's brief), 'it does not name a news feed' (confidence marking)."
+      open_for_author:
+        - "'What feeds the runner' states what God does only implicitly (God's peace guards, the word from His mouth); no sentence added because of the 4,100 budget."
+        - "Study outline still promises 'why being tired is not itself a sin'; the section shows it through John 4:6 without stating it. Descriptive, left."
+      size: "4,096 -> 4,097 budget words (word_budget 4,100)."
     validated: true # npm run validate clean for this file, mkdocs build --strict passes, cross_study_claims Matthew 11 / Hebrews 12 show no conflict (2026-10-01)
     review_2026-10-01:
       checked: >-
@@ -180,6 +200,29 @@ stages:
         - "'Why believers grow weary' answers 'what' (symptoms) more than 'why'; 'the years went on and Jesus had not returned' is unsourced inference."
         - "Etymological glosses (hypomone 'staying under', ekluo 'come loose', merimna 'divided mind', chrestos 'well fitted', phroureo 'at a gate') lean on roots."
         - "Brief asks for all the Sower's hindrances; study treats only thorns at length."
+  read:
+    done: true
+    date: "2026-10-13"
+    notes: >-
+      read-bible-study pass (first reader, separate session from drafting and review). Page was
+      already well sectioned: 38 headings, median 112 words, longest 230, none over 400. Structure
+      only; argument order unchanged.
+    changes:
+      - "Split '### Lay aside': its first paragraph (the cloud of witnesses, watchers vs testifiers, marked contested) now sits under '### The cloud of witnesses'; '### Lay aside' keeps the onkos/euperistatos paragraph. Rule 5: the contested reading was hidden under a heading that named the next paragraph. #lay-aside anchor unchanged; no inbound links to it."
+      - "Study outline, 'Why believers grow weary': replaced 'why being tired is not itself a sin' (a claim the section never states; review pass 2 open item) with what the section contains: Hebrews' two words for tired and Jesus' weariness at Jacob's well. Descriptive only."
+      - "Study outline, 'Run with endurance': names the contested cloud-of-witnesses reading and links #the-cloud-of-witnesses."
+    measurements: "sections 38 -> 39; median 112 -> 107; longest 230 -> 230; over 400: 0 -> 0."
+    verify: >-
+      Against a pre-edit copy (uncommitted review edits sit on HEAD, so not --verify-against HEAD):
+      _prose_diff flags only wrapped continuation lines of the two edited outline bullets (the checker
+      reads them as prose); full line diff shows otherwise only the renamed heading and the one added
+      heading. No sentence of the study changed. npm run validate: no warnings for this file.
+      mkdocs build --strict passes; every href="#..." on the built page resolves. Inbound anchor
+      #never-good-enough (great-commission.md) untouched.
+    left_for_author:
+      - "'What feeds the runner' states what God does only implicitly (review pass 2 item); unchanged -- needs a sentence."
+      - "The closing line '**So you may run without fainting:** ...' lands the whole study but sits under '### Guard your heart'. A heading of its own would hold one sentence; left in place."
+      - "Evaluative outline notes (e.g. which section is the heart of the study) are the author's to add; outline kept descriptive."
 
 open_questions:
   - "Fork candidate: the Sabbath-rest thread (Matthew 12:1-14 to Hebrews 4:9-10) deserves its own study; only touched here."
@@ -268,3 +311,11 @@ evidence:
   - {id: esvsb-lk8-14, what: "ESVSB: thorny soil do not persevere to maturity", tool: study_note, args: {book: Luke, chapter: 8, verse: 14, work_id: esv-study-bible, note_type: study_note}, expect_contains: "do not persevere to maturity", checked: 2026-10-13}
   - {id: nivcb-mt11-29, what: "NIVCBSB: yoke of kingdom/law; Sirach saying cited as Jer 6:16", tool: study_note, args: {book: Matt, chapter: 11, verse: 29, work_id: niv-cultural-backgrounds-study-bible, note_type: study_note}, expect_contains: "yoke of the law", checked: 2026-10-13}
   - {id: nivcb-heb12-1, what: "NIVCBSB: stripping off clothes to run", tool: study_note, args: {book: Heb, chapter: 12, verse: 1, work_id: niv-cultural-backgrounds-study-bible, note_type: study_note}, expect_contains: "stripping off clothes to run", checked: 2026-10-13}
+  - {id: anapausis-mt11-29, what: "Matt 11:29 'find rest' = anapausis G372 (now tagged in prose)", tool: bible_interlinear, args: {book: Matt, chapter: 11, verse: 29}, expect_contains: "ἀνάπαυσις", checked: 2026-10-13}
+  - {id: chrestos-nt-7, what: "chrestos G5543 7x NT; senses kind/good/easy (Luke 6:35, Eph 4:32, 1 Pet 2:3, Luke 5:39, Matt 11:30)", tool: bible_concordance, args: {strongs: G5543, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: '"count": 7}', checked: 2026-10-13}
+  - {id: lsb-mt11-30, what: "LSB footnote Matt 11:30 easy = Or comfortable, pleasant (basis for 'comfortable to wear')", tool: study_note, args: {book: Matt, chapter: 11, verse: 30, work_id: lsb-2021, note_type: footnote}, expect_contains: "Or comfortable, pleasant", checked: 2026-10-13}
+  - {id: ekluo-heb-faint, what: "ekluo G1590 in Hebrews glossed faint (every NT use is faint/give up; 'come loose' dropped)", tool: bible_concordance, args: {strongs: G1590, work_id: macula-greek-sblgnt, book: Heb}, expect_contains: "fainting", checked: 2026-10-13}
+  - {id: merimna-1pet-anxiety, what: "merimna G3308 glossed anxiety at 1 Pet 5:7 ('divided mind' dropped)", tool: bible_concordance, args: {strongs: G3308, work_id: macula-greek-sblgnt, book: 1Pet}, expect_contains: "anxiety", checked: 2026-10-13}
+  - {id: phroureo-2cor11-32, what: "phroureo G5432 at 2 Cor 11:32 (military guard on Damascus)", tool: bible_concordance, args: {strongs: G5432, work_id: macula-greek-sblgnt, book: 2Cor}, expect_contains: "was guarding", checked: 2026-10-13}
+  - {id: esv-2cor11-32, what: "ESV 2 Cor 11:32 governor guarding the city", tool: study_verse, args: {book: 2Cor, chapter: 11, verse: 32, work_id: esv-study-bible}, expect_contains: "was guarding the city of Damascus", checked: 2026-10-13}
+  - {id: esv-rom5-3, what: "hypomone as endurance under hardship: ESV Rom 5:3", tool: study_verse, args: {book: Rom, chapter: 5, verse: 3, work_id: esv-study-bible}, expect_contains: "suffering produces endurance", checked: 2026-10-13}
