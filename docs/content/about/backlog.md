@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-12
+date_modified: 2026-10-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -55,7 +55,6 @@ Add new items here. They get a number and move into their section.
 | [9.2](#92-sexual-immorality) | Sexual immorality | Sin |
 | [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
 | [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
-| [10.6](#106-run-the-race) | Run the race | Christian life |
 
 Finished items move to [Completed](#completed) at the foot of the page and keep their numbers, so
 an old reference still points at the right thing.
@@ -185,7 +184,6 @@ Files with `draft: true`, which the build drops. Each needs its remaining passes
 publish. This list names them by file path and links none, because a published page may not link a draft
 (validator Check 24).
 
-- Run the Race (`christian-life/run-the-race.md`): 5,534 words; see [10.6](#106-run-the-race).
 - Great Commission (`christian-life/great-commission.md`): 3,289 words.
 - Supplication: Begging, Turned Upward (`christian-life/supplication.md`): 589 words, a stub.
 - How God Answers Prayer (`christian-life/how-god-answers-prayer.md`): 1,314 words. Publishing it
@@ -906,23 +904,6 @@ heart that opens the door.
 - **Links:** 10.3 (religion and a contrite heart), [The Way](../jesus/the-way.md), and
   [Faith](../salvation/faith.md#the-door-every-morning), which reads the verse as the door faith opens.
 
-### 10.6 Run the race
-
-**Drafted** as `christian-life/run-the-race.md` (still a draft, so not linked until it is
-published). Check the draft against these notes before it is published.
-
-We come to Christ at His invitation, for rest. His burden is light, far lighter than the burden of
-salvation through works (Matthew 11:28-30). So why do Christians grow weary? How do we run the race
-with endurance (Hebrews 12:1), set our faces like flint (Isaiah 50:7), and press on to take hold of
-that for which Christ took hold of us (Philippians 3:12)?
-
-- **What keeps us running:** meeting together and encouraging each other; prayer, as communion and
-  daily bread; living on the word.
-- **What does not:** doing works to be seen as pious; fasting to earn life; taking in all the news
-  and troubles of the world, the cares of life that choke the seed. In short, everything that took
-  the word away in the parable of the sower.
-- **Proverbs:** guard your heart and mind (Proverbs 4:23), and trust Him.
-
 ## Completed
 
 Kept here so that an old reference like "work on 3.1" still resolves.
@@ -936,6 +917,7 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 5.3 | The last trumpet | [The Trumpet Call of God](../last-things/trumpet.md) |
 | 7.1 | Twelve disciples | [The Twelve: Disciples and Apostles](../biblical-figures/twelve-apostles.md), with a page per apostle |
 | 10.1 | Know the truth | [Know the Truth](../christian-life/know-the-truth.md) |
+| 10.6 | Run the race | [Run the Race](../christian-life/run-the-race.md), published 2026-10-13 after two review passes and a read pass; opens on relief, with a one-minute comic |
 | 0.1 | Scripture pop-up on a verse reference | Every reference on the site opens the verse, its context, cross-references and the studies that treat it, 2026-09-27. Blue Letter Bible links removed |
 | 0.2 | Word-study pop-up on an original-language word | Every Strong's tag, and the word in front of it, opens a word card: lexicon, counts, where it occurs, renderings, and the studies that discuss it, 2026-09-27. Follow-ups in [0.6](#06-pop-up-follow-ups) |
 | 0.3 (part) | Normalise the Key Takeaways opening line | Done across 50 studies, 2026-09-27 |
