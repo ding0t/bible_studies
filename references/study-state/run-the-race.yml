@@ -331,3 +331,9 @@ author_revision_2026-10-13: >-
   Run with endurance (Isa 40:29). The two author items are written: tiredness is not sin (Heb 4:15,
   "without sin"), with the outline promise restored, and "This shows that God feeds His tired
   people Himself" closing What feeds the runner.
+comic: >-
+  docs/data/comics/run-the-race.toml, 2026-10-13: five panels (the laden called, Jesus wearied at
+  Jacob's well, the yoke offered, the race looking to Jesus, Isaiah 40:29-31); every ESV bubble passes
+  build_comics.py --verify. Cloud of witnesses deliberately not drawn (watch/testify is contested).
+  Same day: the three orphaned "**Fair.**" verdict labels (from backlog 10.6's fair/out-of-context
+  questions, whose framing review pass 1 removed) were taken out.

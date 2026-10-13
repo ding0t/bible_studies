@@ -26,6 +26,8 @@ yoking you to Himself; you run the long race on that same rest, looking to Jesus
 kept in prayer and stirred up by one another, and you may put down the loads He never gave you:
 works done to be seen, discipline used to earn, and the cares of this age that choke the word.
 
+[![A one-minute comic in 5 panels. Panel 1 (Matthew 11:28): People bent under bundles on their backs walk toward Jesus, who stands with His arms open. Caption: "In the towns of Galilee, Jesus calls out to tired people." Jesus says: "Come to me, all who labor and are heavy laden, and I will give you rest." Panel 2 (John 4:6): A medium view of Jesus sitting tired beside the stone rim of Jacob's well in the midday sun. Caption: "Jacob's well, about noon. Jesus is tired from the road." Note: ""Wearied" (John 4:6): the word for "labor" in Matthew 11:28." Panel 3 (Matthew 11:28-30): A man has set his bundle down on the ground and stands before Jesus, who holds out a wooden yoke to him. Caption: "He offers His own yoke." Jesus says: "Take my yoke upon you, and learn from me,". Jesus says: "For my yoke is easy, and my burden is light." Note: "Drawn: the load set down. "I will give you rest" (11:28)." Panel 4 (Hebrews 12:1-2): A runner in the foreground sets off down a long road toward the horizon, where Jesus sits in a burst of gold light. Caption: "Hebrews pictures the life of faith as a long race." Hebrews says: "let us run with endurance the race that is set before us, looking to Jesus". Note: "Jesus, far off, is seated at the right hand of the throne of God (12:2)." Panel 5 (Isaiah 40:29-31): The runner, upright and striding out over the hills in warm morning light. Caption: "Isaiah, long before:". Isaiah says: "He gives power to the faint,". Isaiah says: "they shall run and not be weary;". The point: Come to Jesus tired, just as you are. He gives rest, and He gives power to the faint, so you may run the long race looking to Him (Matthew 11:28; Isaiah 40:29; Hebrews 12:1-2).](../assets/img/comics/run-the-race.svg)](../assets/img/comics/run-the-race.svg)
+
 Read the two passages side by side. The first is the invitation; the second is how to keep going.
 
 > ✝️ Matthew 11:28-30 (ESV)
@@ -334,7 +336,7 @@ bread and the prayers" (Acts 2:42, ESV).
 
 ### Meeting together and encouraging one another
 
-**Fair, and it is Hebrews' own remedy.** The writer pairs it with endurance:
+This is Hebrews' own remedy, and the writer pairs it with endurance:
 
 > ✝️ Hebrews 10:24-25 (ESV)
 >
@@ -350,7 +352,7 @@ Jesus promises a gathered church.
 
 ### Prayer as communion and daily bread
 
-**Fair.** Jesus taught you to ask for bread one day at a time: "Give us this day our daily bread"
+Jesus taught you to ask for bread one day at a time: "Give us this day our daily bread"
 (Matthew 6:11, ESV). Prayer is where tired people go first: "draw near to the throne of grace ... to
 help in time of need" (Hebrews 4:16, ESV). It is also where worry goes to be exchanged:
 
@@ -367,7 +369,7 @@ help in time of need" (Hebrews 4:16, ESV). It is also where worry goes to be exc
 
 ### Living on the word
 
-**Fair.** Israel learned in the wilderness "that man does not live by bread alone, but man lives by
+Israel learned in the wilderness "that man does not live by bread alone, but man lives by
 every word that comes from the mouth of the LORD" (Deuteronomy 8:3, ESV). Jesus, hungry after forty
 days, lived by that verse (Matthew 4:4). Isaiah's Servant was fed the same way: "Morning by morning
 he awakens; he awakens my ear to hear as those who are taught" (Isaiah 50:4, ESV). He was taught

@@ -1,0 +1,107 @@
+# One-minute comic for docs/content/christian-life/run-the-race.md.
+# Drawn by: python3 utils/build_comics.py run-the-race
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-13.
+#
+# Emphasis, one per beat:
+# - Panel 1: the key word in the bubble (*rest*). The loads are "heavy laden", φορτίζω (G5412), a load
+#   put on someone (Matthew 11:28; 23:4, "tie up heavy burdens ... and lay them on people's shoulders").
+# - Panel 2: a medium shot on Jesus, the closest the rules allow; the sweat mark because He was
+#   "wearied" (John 4:6), κοπιάω, the "labor" of Matthew 11:28. Jacob's well, "sitting beside the well",
+#   "about the sixth hour" (noon), so the sky is day. No words: John records none at this moment.
+# - Panel 3: the key word (*light*). The load set down is the study's application of "I will give you
+#   rest" (11:28); the aside says so.
+# - Panel 4: depth and gold focus lines. Hebrews 12:1-2 is a picture, so the caption says it is one.
+#   Jesus is drawn seated, far off, "seated at the right hand of the throne of God" (12:2). The cloud of
+#   witnesses is left out: whether they watch the runner or testify to him is contested (the study's
+#   "The cloud of witnesses"), and spectators lining the course would draw one reading as fact.
+# - Panel 5: a warm grade. Isaiah 40:29-31; the study calls the shared words with Hebrews 12 an echo.
+
+title = "Run the Race"
+subtitle = "Come to Me, all who are weary, in one minute"
+layout = [[300, 1], [300, 2, 3], [320, 3, 2]]
+point = "Come to Jesus tired, just as you are. He gives rest, and He gives power to the faint, so you may run the long race looking to Him (Matthew 11:28; Isaiah 40:29; Hebrews 12:1-2)."
+
+[[panel]]
+ref = "Matthew 11:28"
+scene = "hills"
+sky = "day"
+caption = "In the towns of Galilee, Jesus calls out to tired people."
+caption_w = 340
+shows = "People bent under bundles on their backs walk toward Jesus, who stands with His arms open"
+cast = [
+  { who = "man", id = "laden", x = 0.06, x2 = 0.44, n = 4, face = "right", pose = "hold", holds = "load" },
+  { who = "woman", id = "laden2", x = 0.14, x2 = 0.36, n = 2, face = "right", pose = "hold", holds = "load", s = 0.85, dy = -0.04, tone = 1 },
+  { who = "jesus", x = 0.80, face = "left", pose = "open" },
+]
+say = [
+  { by = "jesus", text = "Come to me, all who labor and are heavy laden, and I will give you *rest*.", source = "esv", at = [0.62, 0.22], w = 240 },
+]
+
+[[panel]]
+ref = "John 4:6"
+scene = "plain"
+sky = "day"
+camera = { on = "jesus", zoom = 1.5, at = [0.42, 0.74] }
+props = [ { what = "well", x = 0.66 } ]
+caption = "Jacob's well, about noon. Jesus is tired from the road."
+caption_w = 220
+aside = "\"Wearied\" (John 4:6): the word for \"labor\" in Matthew 11:28."
+aside_w = 200
+shows = "A medium view of Jesus sitting tired beside the stone rim of Jacob's well in the midday sun"
+cast = [
+  { who = "jesus", x = 0.40, face = "right", stance = "sit", pose = "fold", marks = ["sweat"] },
+]
+
+[[panel]]
+ref = "Matthew 11:28-30"
+scene = "hills"
+sky = "day"
+caption = "He offers His own yoke."
+caption_w = 200
+aside = "Drawn: the load set down. \"I will give you rest\" (11:28)."
+aside_w = 210
+props = [ { what = "load", x = 0.06 } ]
+shows = "A man has set his bundle down on the ground and stands before Jesus, who holds out a wooden yoke to him"
+cast = [
+  { who = "man", id = "rested", x = 0.19, face = "right", pose = "heart" },
+  { who = "jesus", x = 0.74, face = "left", pose = "offer", holds = "yoke" },
+]
+say = [
+  { by = "jesus", text = "Take my yoke upon you, and learn from me,", source = "esv", at = [0.78, 0.06], w = 160 },
+  { by = "jesus", text = "For my yoke is easy, and my burden is *light*.", source = "esv", at = [0.45, 0.28], w = 140 },
+]
+
+[[panel]]
+ref = "Hebrews 12:1-2"
+scene = "vista"
+sky = "dawn"
+horizon = 0.42
+burst = { on = "jesus", color = "gold" }
+caption = "Hebrews pictures the life of faith as a long race."
+caption_w = 260
+aside = "Jesus, far off, is seated at the right hand of the throne of God (12:2)."
+aside_w = 230
+shows = "A runner in the foreground sets off down a long road toward the horizon, where Jesus sits in a burst of gold light"
+cast = [
+  { who = "jesus", x = 0.76, face = "left", stance = "sit", pose = "open", depth = 0.62 },
+  { who = "man", id = "runner", x = 0.16, face = "right", stance = "walk", pose = "run", s = 1.0, tone = 2 },
+]
+say = [
+  { from = [0.98, -0.1], by = "hebrews", name = "Hebrews", style = "text", text = "let us run with *endurance* the race that is set before us, looking to Jesus", source = "esv", at = [0.56, 0.60], w = 210 },
+]
+
+[[panel]]
+ref = "Isaiah 40:29-31"
+scene = "hills"
+sky = "dawn"
+grade = "warm"
+caption = "Isaiah, long before:"
+caption_w = 150
+shows = "The runner, upright and striding out over the hills in warm morning light"
+cast = [
+  { who = "man", id = "runner", x = 0.26, face = "right", stance = "walk", pose = "run", s = 1.0, tone = 2 },
+]
+say = [
+  { from = [0.95, -0.1], by = "isaiah", name = "Isaiah", style = "text", text = "He gives power to the *faint*,", source = "esv", at = [0.68, 0.30], w = 140 },
+  { from = [0.95, -0.1], by = "isaiah", name = "Isaiah", style = "text", text = "they shall *run and not be weary*;", source = "esv", at = [0.68, 0.56], w = 140 },
+]
