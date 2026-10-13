@@ -145,6 +145,8 @@ POSES = {
     "look_up": {"near": ((18, -90), (30, -110)), "far": ((-10, -54), (-10, -34))},
     "turn":   {"near": ((4, -56), (-14, -48)), "far": ((-14, -60), (-26, -52))},
     "heart":  {"near": ((14, -58), (4, -70)), "far": ((-10, -54), (-10, -34))},
+    "run":    {"near": ((18, -60), (30, -74)), "far": ((-18, -60), (-28, -46))},
+    "offer":  {"near": ((20, -60), (36, -58)), "far": ((-10, -54), (-10, -34))},
 }
 
 # Where a figure's head sits, in its own units, by stance. The bubble tail aims here.
@@ -183,6 +185,11 @@ def _prop(kind, hand):
         return prop_gift(hx, hy + 4, 0.8)
     if kind == "loaf":
         return prop_loaf(hx, hy + 2, 1.0)
+    if kind == "load":
+        # Carried on the back, whatever the hand does; the hand grips the strap.
+        return prop_load(-20, -58, 1.0) + f'<path d="M-10 -84 L{hx} {hy}" stroke="#5a3d22" stroke-width="2"/>'
+    if kind == "yoke":
+        return prop_yoke(hx + 4, hy + 6, 0.7)
     if kind == "lamp":
         return (f'<path d="M{hx - 8} {hy - 4} Q{hx} {hy + 4} {hx + 10} {hy - 4} Z" fill="#b5835a" stroke="#6b4a2a" stroke-width="0.8"/>'
                 f'<path d="M{hx + 9} {hy - 5} q2 -8 -1 -12 q-1 6 -3 8 z" fill="{GOLD}"/>')
@@ -800,7 +807,35 @@ def prop_sheep(x, y, s):
             '<ellipse cx="18" cy="-27" rx="3" ry="1.6" fill="#3b2f22" transform="rotate(-30 18 -27)"/></g>')
 
 
-PROPS = {"sheep": prop_sheep, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
+def prop_load(x, y, s):
+    """A bundle tied with cord, the load put on the heavy-laden (Matthew 11:28; 23:4); its base sits on y."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M-17 0 Q-21 -18 -14 -34 Q0 -42 14 -34 Q21 -18 17 0 Z" fill="#a08660" stroke="#5a4630" stroke-width="1.1"/>'
+            '<path d="M-19 -14 Q0 -8 19 -14 M-2 -38 Q2 -18 -1 0" fill="none" stroke="#5a3d22" stroke-width="2"/>'
+            '<path d="M-12 -30 Q-6 -22 -10 -8" fill="none" stroke="#00000025" stroke-width="1.4"/></g>')
+
+
+def prop_yoke(x, y, s):
+    """A wooden yoke: a beam with two bows that go round the necks of a pair (Matthew 11:29)."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M-30 -16 Q0 -24 30 -16 L30 -10 Q0 -18 -30 -10 Z" fill="#9c7246" stroke="#5a3d22" stroke-width="1.1"/>'
+            '<path d="M-22 -11 Q-22 4 -12 4 Q-4 4 -4 -14 M4 -14 Q4 4 12 4 Q22 4 22 -11" fill="none" stroke="#6b4a2a" stroke-width="2.4"/></g>')
+
+
+def prop_well(x, y, s):
+    """A well with a low stone parapet, like Jacob's well at Sychar (John 4:6)."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           f'<path d="M-40 0 V-30 H40 V0 Z" fill="{STONE}" stroke="{STONE_EDGE}" stroke-width="1.2"/>',
+           f'<ellipse cx="0" cy="-30" rx="40" ry="8" fill="#b5ab9b" stroke="{STONE_EDGE}" stroke-width="1.2"/>',
+           '<ellipse cx="0" cy="-30" rx="28" ry="4.5" fill="#2e2a24"/>']
+    for k, row in enumerate((-20, -10)):
+        for bx in range(-40 + 10 * (k % 2), 40, 20):
+            out.append(f'<path d="M{bx} {row} h20 M{bx} {row - 10} v10" stroke="{STONE_EDGE}" stroke-width="0.8" opacity="0.7"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+PROPS = {"sheep": prop_sheep, "load": prop_load, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf}
 
@@ -1011,6 +1046,9 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None)
     bg = GOLD_TINT if style == "voice" else CARD
     if style == "shout":
         out.append(_jagged(x0 - 4, y - 4, w + 8, h + 8, stroke))
+    if style == "text":
+        # A writer's words with no speaker in the panel (Hebrews, Isaiah): a square box, no tail.
+        target = None
     if style == "memory":
         out += _cloud(x0, y, w, h, stroke)
         if target:
@@ -1040,7 +1078,7 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None)
                    f'fill="{bg}" {stroke} stroke-linejoin="round"/>')
     dash = ' stroke-dasharray="2 3"' if style == "whisper" else ""
     if style not in ("shout", "memory"):
-        out.append(f'<rect x="{x0:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="16" fill="{bg}" {stroke}{dash}/>')
+        out.append(f'<rect x="{x0:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="{3 if style == "text" else 16}" fill="{bg}" {stroke}{dash}/>')
     elif style == "memory":
         pass
     else:

@@ -118,7 +118,13 @@ Scripture does not.
   words the study's point rests on. The stars are dropped for `--verify` and the alt text, so an
   ESV bubble with stars still checks as the ESV's wording.
 - **`style = "shout"`** for a crowd or an accusation, `"whisper"` for an aside. Speech is the
-  default.
+  default. **`style = "text"`** is a square box with no tail, for a writer's words when no speaker
+  stands in the panel (Hebrews 12:1-2, Isaiah 40:29 in `run-the-race`); it still takes `from` and
+  is checked by `--verify` like any ESV bubble.
+- **`holds`** on a cast entry puts a prop in the near hand: `staff`, `scroll`, `stone`, `spear`,
+  `jar`, `gift`, `loaf`, `lamp`, `yoke`, and `load`, which goes on the back with the hand on its
+  strap, for the heavy-laden (Matthew 11:28). Poses include `run` and `offer` (an arm held out
+  with something in the hand).
 - **`point`** is the closing line under THE POINT ribbon: the study's sentence, landed on the
   reader ("so you can..."), with its verse.
 
@@ -214,7 +220,8 @@ clones:
 - `props` stand in the scene rather than in a hand: `crosses` (three, with no figures on them),
   `tomb` (open, the stone rolled back), `cloud`, `ruin` (a wall cracking and falling), `breath` (gold
   currents for the breath of life), `gift`, `fire` (a charcoal fire), `rooster`,
-  `kophinos` (a small wicker basket), `spyris` (a large hamper), `loaf`, `sheep`, and `hull`, which runs from
+  `kophinos` (a small wicker basket), `spyris` (a large hamper), `loaf`, `sheep`, `load` (a corded
+  bundle, set down), `yoke`, `well` (a stone parapet, Jacob's well), and `hull`, which runs from
   `x` to `x2` and takes `front = true` so it is drawn over the people standing in it. `y` defaults to
   the ground line; `s` scales. **`n` with `x2` draws a counted row**, so twelve baskets are twelve;
   stack two rows for a heap that still counts.
