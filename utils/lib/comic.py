@@ -835,7 +835,33 @@ def prop_well(x, y, s):
     return "".join(out)
 
 
-PROPS = {"sheep": prop_sheep, "load": prop_load, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
+def prop_shaft(x, y, s):
+    """A shaft sunk through rock to water far below, with a rope and a jar let down: φρέαρ, the
+    woman's word for Jacob's well (John 4:11-12). Base on y, about 66 units tall."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M-44 -66 H44 V0 H-44 Z" fill="#b9a27c" stroke="#7a6446" stroke-width="1"/>'
+            '<path d="M-44 -46 Q-20 -42 0 -46 T44 -44 M-44 -24 Q-14 -20 8 -25 T44 -22" fill="none" stroke="#8f7a58" stroke-width="1"/>'
+            '<path d="M-10 -66 V-6 H10 V-66 Z" fill="#3a2f24"/>'
+            '<path d="M-10 -12 H10 V-6 H-10 Z" fill="#5b88a8"/>'
+            '<path d="M-16 -70 H-10 V-64 H-16 Z M10 -70 H16 V-64 H10 Z" fill="#9a8f80" stroke="#5e5547" stroke-width="0.8"/>'
+            '<path d="M0 -76 V-30" stroke="#d8c8a0" stroke-width="1.2"/>'
+            '<path d="M-4 -30 H4 L3 -22 H-3 Z" fill="#b5835a" stroke="#6b4a2a" stroke-width="0.7"/>'
+            '<path d="M-6 -76 H6" stroke="#6b4a2a" stroke-width="2.4"/></g>')
+
+
+def prop_spring(x, y, s):
+    """Water rising on its own out of the rock and running over: πηγή, the narrator's word for
+    Jacob's well and Jesus' word for what He gives (John 4:6, 14). Base on y, about 66 units tall."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M-46 0 Q-40 -16 -24 -18 Q-14 -26 0 -20 Q14 -27 26 -18 Q42 -16 46 0 Z" fill="#9a8f80" stroke="#5e5547" stroke-width="1"/>'
+            '<path d="M-3 -20 Q-6 -46 0 -62 Q6 -46 3 -20 Z" fill="#7fb3d5" stroke="#3f7298" stroke-width="1"/>'
+            '<path d="M0 -58 Q-18 -60 -26 -36 Q-30 -24 -34 -14 M0 -58 Q18 -60 26 -36 Q30 -24 34 -14" fill="none" stroke="#5b9cc8" stroke-width="3" stroke-linecap="round"/>'
+            '<path d="M-2 -50 Q-12 -50 -16 -36 M2 -50 Q12 -50 16 -36" fill="none" stroke="#a9d1ea" stroke-width="2" stroke-linecap="round"/>'
+            '<path d="M-44 -4 Q-30 -10 -14 -6 Q0 -2 14 -6 Q30 -10 44 -4 L46 0 H-46 Z" fill="#7fb3d5" stroke="#3f7298" stroke-width="0.8"/>'
+            '<circle cx="-36" cy="-20" r="1.6" fill="#a9d1ea"/><circle cx="37" cy="-22" r="1.6" fill="#a9d1ea"/></g>')
+
+
+PROPS = {"sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf}
 
@@ -1019,12 +1045,17 @@ def fit(s, width, size):
     return rows, max(len(r) for r in rows) * size * EM
 
 
-PIC_STEP = {"kophinos": 14, "spyris": 23, "loaf": 20, "gift": 22}
+PIC_STEP = {"kophinos": 14, "spyris": 23, "loaf": 20, "gift": 22, "shaft": 84, "spring": 96}
 PIC_H = 36
 
 
 def _picture_width(picture):
     return picture["n"] * PIC_STEP.get(picture["what"], 24) if picture else 0
+
+
+def _picture_height(picture):
+    """A picture's room in its bubble: `h` for a tall one (a shaft, a spring), plus a line for `label`."""
+    return picture.get("h", PIC_H) + (18 if picture.get("caption") else 0)
 
 
 def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None):
@@ -1039,7 +1070,7 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None)
     lh = size * 1.25
     rows, need = fit(text_, w - 28, size)
     w = max(min(w, need + 34), _picture_width(picture) + 30)
-    h = 18 + lh * len(rows) + (PIC_H if picture else 0)
+    h = 18 + lh * len(rows) + (_picture_height(picture) if picture else 0)
     x0, x1, y1 = x - w / 2, x + w / 2, y + h
     out = []
     stroke = f'stroke="{GOLD_EDGE if style == "voice" else INK}" stroke-width="{2.4 if style == "voice" else 1.8}"'
@@ -1049,7 +1080,7 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None)
     if style == "text":
         # A writer's words with no speaker in the panel (Hebrews, Isaiah): a square box, no tail.
         target = None
-    if style == "memory":
+    if style in ("memory", "thought"):
         out += _cloud(x0, y, w, h, stroke)
         if target:
             tx, ty = target
@@ -1077,9 +1108,9 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None)
         out.append(f'<path d="M{base[0][0]:.1f} {base[0][1]:.1f} L{px:.1f} {py:.1f} L{base[1][0]:.1f} {base[1][1]:.1f} Z" '
                    f'fill="{bg}" {stroke} stroke-linejoin="round"/>')
     dash = ' stroke-dasharray="2 3"' if style == "whisper" else ""
-    if style not in ("shout", "memory"):
+    if style not in ("shout", "memory", "thought"):
         out.append(f'<rect x="{x0:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h:.1f}" rx="{3 if style == "text" else 16}" fill="{bg}" {stroke}{dash}/>')
-    elif style == "memory":
+    elif style in ("memory", "thought"):
         pass
     else:
         out.append(f'<rect x="{x0 + 2:.1f}" y="{y + 2:.1f}" width="{w - 4:.1f}" height="{h - 4:.1f}" fill="{CARD}"/>')
@@ -1090,17 +1121,21 @@ def bubble(text_, x, y, w, target=None, style="speech", size=14.5, picture=None)
     on = False
     for r in rows:
         if "*" in text_:
-            row, on = _rich(x, ty_, r, size, "bold" if style in ("shout", "voice") else None, style == "memory", on)
+            row, on = _rich(x, ty_, r, size, "bold" if style in ("shout", "voice") else None, style in ("memory", "thought"), on)
             out.append(row)
         else:
             out.append(text(x, ty_, r, size, "middle", "bold" if style in ("shout", "voice") else None,
-                            italic=style == "memory"))
+                            italic=style in ("memory", "thought")))
         ty_ += lh
     if picture:
         step = PIC_STEP.get(picture["what"], 24)
         px0 = x - step * (picture["n"] - 1) / 2
+        base = y + h - 10 - (18 if picture.get("caption") else 0)
         for k in range(picture["n"]):
-            out.append(PROPS[picture["what"]](px0 + k * step, y + h - 10, 0.8))
+            out.append(PROPS[picture["what"]](px0 + k * step, base, picture.get("s", 0.8)))
+        if picture.get("caption"):
+            # The word the thinker uses, under the thing it names: John 4's two words for one well.
+            out.append(text(x, y + h - 10, picture["caption"], 12.5, "middle", None, italic=True))
     return out, h
 
 
@@ -1157,7 +1192,7 @@ def bubble_width(text_, w, style="speech", size=14.5, picture=None):
     """The width bubble() will actually draw: shrunk to the text, never wider than w (unless a
     picture needs the room), plus the spikes of a shout or the puffs of a memory."""
     core = max(min(w, fit(text_, w - 28, size)[1] + 34), _picture_width(picture) + 30)
-    return core + {"shout": 8, "memory": 26}.get(style, 0)
+    return core + {"shout": 8, "memory": 26, "thought": 26}.get(style, 0)
 
 
 def caption(text_, x, y, w, size=14, dashed=False):
@@ -1524,7 +1559,7 @@ def draw_panel(i, box, p):
         bw = b.get("w", 200)
         pic = b.get("picture")
         _, bh = bubble(b["text"], 0, 0, bw, None, style, picture=pic)
-        bh += 26 if style == "memory" else 0
+        bh += 26 if style in ("memory", "thought") else 0
         bw = bubble_width(b["text"], bw, style, picture=pic)
         bx, by = b.get("at", [0.5, 0.1])[0] * w, b.get("at", [0.5, 0.1])[1] * h
         top_limit = lambda x_: cap_bottom if x_ - bw / 2 < cap_right else 8
@@ -1547,7 +1582,7 @@ def draw_panel(i, box, p):
             if abs(bx - ox) < (bw + ow) / 2 + 4 and by < oy + oh + 4 and oy < by + bh + 4:
                 problem(f"{where} overlaps another bubble; move one (at) or narrow it (w)")
         placed.append((bx, by, bw, bh))
-        inset = 13 if style == "memory" else 0
+        inset = 13 if style in ("memory", "thought") else 0
         svg, _ = bubble(b["text"], bx, by + inset, bw - 2 * inset, (hx, hy - 6 * hs), style, picture=pic)
         out += svg
 
@@ -1600,6 +1635,10 @@ def describe(comic):
             who = who[0].upper() + who[1:]
             if b.get("style") == "fire":
                 bits.append(f'Fire pours from the mouth of {who[0].lower() + who[1:]} toward {names.get(b.get("to"), "a foe")}')
+            elif b.get("style") == "thought" and b.get("picture"):
+                pic = b["picture"]
+                bits.append(f'{who} pictures {pic.get("label", pic["what"])}' + (f', labelled "{pic["caption"]}"' if pic.get("caption") else "")
+                            + (f', thinking: "{plain(b["text"])}"' if b.get("text") else ""))
             elif not b.get("text") and b.get("picture"):
                 bits.append(f'{who}: a speech bubble with no words, holding {b["picture"]["n"]} {b["picture"].get("label", b["picture"]["what"])}')
             else:

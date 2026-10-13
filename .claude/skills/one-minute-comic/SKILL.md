@@ -192,6 +192,13 @@ clones:
 - **`style = "memory"`** is a thought-cloud that trails small circles to its speaker, for what a
   speaker remembers, and `picture = { what = "kophinos", n = 12 }` draws the memory inside it. The
   disciples answering "Twelve." and "Seven." in the boat show the baskets they mean.
+- **`style = "thought"`** is the same cloud for what a speaker *has in mind*, and a picture inside it
+  can carry a `caption` (the word they use) and an `h` for a tall drawing. `woman-at-well` is the
+  specimen: John 4 says "well" with two words, so the woman thinks of a `shaft` captioned
+  "φρέαρ: a shaft" (4:11) and Jesus of a `spring` captioned "πηγή: a spring" (4:14). **A thought
+  picture draws only what the thinker's own words in the panel say**, captioned with the word they
+  use; a thought the text does not voice is a bubble written for a silent character. Where the
+  picture carries a reading (she "still pictures the shaft" at 4:15), the panel's `aside` says so.
 - **Never draw the crucifixion's figures.** `crosses` draws the three crosses on the rise with no
   one on them; the caption and the verse carry what happened there.
 - **`badge = { text = "Night 1", tone = "night" }`** labels what a panel counts as, bottom-left;
@@ -221,7 +228,7 @@ clones:
   `tomb` (open, the stone rolled back), `cloud`, `ruin` (a wall cracking and falling), `breath` (gold
   currents for the breath of life), `gift`, `fire` (a charcoal fire), `rooster`,
   `kophinos` (a small wicker basket), `spyris` (a large hamper), `loaf`, `sheep`, `load` (a corded
-  bundle, set down), `yoke`, `well` (a stone parapet, Jacob's well), and `hull`, which runs from
+  bundle, set down), `yoke`, `well` (a stone parapet, Jacob's well), `shaft` and `spring` (for thought pictures), and `hull`, which runs from
   `x` to `x2` and takes `front = true` so it is drawn over the people standing in it. `y` defaults to
   the ground line; `s` scales. **`n` with `x2` draws a counted row**, so twelve baskets are twelve;
   stack two rows for a heap that still counts.
