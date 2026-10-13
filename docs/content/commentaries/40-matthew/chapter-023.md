@@ -22,5 +22,6 @@ draft: false
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 23:34
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 23:5
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 23:4
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 23:28
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 23:39
 <!-- commentary-index:auto-end -->

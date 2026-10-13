@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-11
+date_modified: 2026-10-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -112,6 +112,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     The apostles expected false teachers to rise inside the church. Scripture tells you to keep testing every teacher by three marks: the Christ they preach, the life they live, and where they lead you. Signs, crowds and Bible words prove nothing, and the One in you is greater.
 
     [:octicons-arrow-right-24: Read](test-the-spirits.md)
+
+-   __When Love Grows Cold: The Falling Away and the Remnant__
+
+    ---
+
+    Jesus said the love of the many would grow cold. For the believer watching a friend's faith fade, Scripture adds Elijah's seven thousand, Isaiah's remnant, the disciples who fell away and were called back, and the Lord who knows those who are His.
+
+    [:octicons-arrow-right-24: Read](when-love-grows-cold.md)
 
 </div>
 <!-- section-index:auto-end -->

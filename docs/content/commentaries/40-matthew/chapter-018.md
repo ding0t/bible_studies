@@ -20,4 +20,5 @@ draft: false
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 18:21-35
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 18:21-35
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 18:23-35
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 18:12-14
 <!-- commentary-index:auto-end -->

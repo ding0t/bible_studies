@@ -16,4 +16,5 @@ draft: false
 - [Faith](../../salvation/faith.md) — 7:6
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 7:15-16
 - [The Way](../../jesus/the-way.md) — 7:13-14
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 7:23
 <!-- commentary-index:auto-end -->

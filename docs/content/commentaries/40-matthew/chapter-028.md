@@ -20,6 +20,7 @@ draft: false
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 28:1
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 28:20
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 28:1
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 28:7-10
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 28:19-20
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 28:18
 <!-- commentary-index:auto-end -->

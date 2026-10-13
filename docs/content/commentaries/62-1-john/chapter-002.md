@@ -17,4 +17,5 @@ draft: false
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 2:18-27
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 2:2
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 2:7-8
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 2:19
 <!-- commentary-index:auto-end -->

@@ -17,4 +17,5 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 61:1
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 61:1-2
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 61:10
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 61:3
 <!-- commentary-index:auto-end -->

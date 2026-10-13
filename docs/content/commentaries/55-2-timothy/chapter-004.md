@@ -16,4 +16,5 @@ draft: false
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 4:14-16
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 4:10-17
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 4:3-4
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 4:10-11
 <!-- commentary-index:auto-end -->

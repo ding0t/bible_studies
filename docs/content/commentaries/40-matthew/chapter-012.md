@@ -23,6 +23,7 @@ draft: false
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 12:48-50
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 12:35
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 12:23
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 12:20
 - [Wisdom](../../wisdom/index.md) — 12:42
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 12:28
 <!-- commentary-index:auto-end -->

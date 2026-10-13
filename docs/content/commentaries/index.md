@@ -4,7 +4,7 @@ category: "other"
 description: "Verse-by-verse commentary, organized by book, with auto-linked studies (see commentary_index.py)."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-10-11
+date_modified: 2026-10-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -353,6 +353,12 @@ Verse-by-verse commentary, organized by book, with auto-linked studies (see comm
     ---
 
     [:octicons-arrow-right-24: Browse](56-titus/)
+
+-   __Philemon__
+
+    ---
+
+    [:octicons-arrow-right-24: Browse](57-philemon/)
 
 -   __Hebrews__
 

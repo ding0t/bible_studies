@@ -25,5 +25,6 @@ draft: false
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:3
 - [The Way](../../jesus/the-way.md) — 10:19-20
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 10:35-39
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 10:23-25
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 10:24-25
 <!-- commentary-index:auto-end -->

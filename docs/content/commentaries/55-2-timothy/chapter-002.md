@@ -15,4 +15,5 @@ draft: false
 - [Faith](../../salvation/faith.md) — 2:13
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 2:24-26
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:12
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 2:13
 <!-- commentary-index:auto-end -->

@@ -16,5 +16,6 @@ draft: false
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 5:8-9
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 5:17
 - [The Way](../../jesus/the-way.md) — 5:20
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 5:19-20
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 5:16-18
 <!-- commentary-index:auto-end -->

@@ -19,6 +19,7 @@ draft: false
 - [The End of the Age](../../last-things/end-of-the-age.md) — 24:3 (primary passage)
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 24:32-35 (primary passage)
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 24 (primary passage)
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 24:9-13 (primary passage)
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 24:44
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 24:3
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 24:44

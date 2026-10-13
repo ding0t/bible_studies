@@ -29,4 +29,5 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 1:9
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:14-15
 - [The Way](../../jesus/the-way.md) — 1:11
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 1:20-24
 <!-- commentary-index:auto-end -->

@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 19:9-18 (primary passage)
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 19:8
 <!-- commentary-index:auto-end -->

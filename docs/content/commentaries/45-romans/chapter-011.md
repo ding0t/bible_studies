@@ -14,6 +14,7 @@ draft: false
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 11:1-29 (primary passage)
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 11:11-24 (primary passage)
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 11:1-6 (primary passage)
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 11:33-36
 - [Faith](../../salvation/faith.md) — 11:6
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 11:16

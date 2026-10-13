@@ -19,4 +19,5 @@ draft: false
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 21:15-19
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 21:17
 - [Thomas](../../biblical-figures/thomas.md) — 21:2
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 21:15-17
 <!-- commentary-index:auto-end -->

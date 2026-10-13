@@ -1,0 +1,169 @@
+slug: "when-love-grows-cold"
+title: "When Love Grows Cold: The Falling Away and the Remnant"
+status: published
+target_path: "docs/content/christian-life/when-love-grows-cold.md"
+
+primary_passage: "Matthew 24:9-13; 1 Kings 19:9-18; Romans 11:1-6"
+supporting_passages:
+  - "Matthew 26:31-35; 28:7-10, 16-17"
+  - "Matthew 12:20 / Isaiah 42:3"
+  - "Isaiah 1:9; 6:13; 7:3; 10:20-22"
+  - "Malachi 3:16-18"
+  - "1 Kings 18:4, 13"
+  - "Luke 22:31-32; John 21:15-17; John 6:66-69"
+  - "Acts 13:13; 15:37-39; Colossians 4:10, 14; Philemon 24; 2 Timothy 4:10-11"
+  - "1 John 2:19; 2 Timothy 2:13, 19, 24-26"
+  - "Jude 20-24; Hebrews 3:12-14; 10:23-25; Galatians 6:1; James 5:19-20"
+genre: [gospel, ot-narrative, prophets, epistle, topical]
+
+thesis: >-
+  Jesus told His disciples beforehand that the love of the many would grow cold, and the same
+  Scripture records a God who has always kept a remnant for Himself by grace and who goes after
+  those who stumble, so you can grieve a friend's cooling faith without despair, keep yourself in
+  His love, and go after them in hope.
+outline:
+  - section: "He told you beforehand (Matthew 24:9-13)"
+    says: "Cooling is predicted, has a cause (lawlessness multiplied) and touches the many; Jesus' answer is endurance."
+  - section: "I, even I only, am left (1 Kings 19)"
+    says: "Elijah read his loneliness as the end of the faithful; God answered with seven thousand He Himself kept."
+  - section: "A remnant through the Old Testament"
+    says: "Isaiah and Malachi: God leaves a stump, a returning remnant, a book of remembrance; Paul's 'chosen by grace'. Israel's doctrine; God's character carries over."
+  - section: "You will all fall away (Matthew 26-28)"
+    says: "The same verb lands on the Eleven; the risen Jesus goes before them and calls them brothers; the smouldering wick."
+  - section: "Two names on Paul's list"
+    says: "Mark returned, Demas is left open; the Lord knows those who are His, so you are spared the sorting."
+  - section: "What to do while the love of many cools"
+    says: "Keep yourself, exhort daily, go after the one who wanders, gently; endure."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Placed in christian-life/ (pastoral). Sibling studies: hurt-by-the-church.md (overlaps on Mark, Demas, John 21, Isa 42:3 -- link, do not repeat), assurance-of-salvation.md (1 John 2:19 reading -- stay consistent), olivet-discourse.md (24:4-14 = this age + opening of the 70th week)."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Olivet Discourse spoken to Peter, James, John, Andrew (Mark 13:3) two days before Passover. Elijah 1 Kings 19 after Carmel, fleeing Jezebel; Obadiah had hidden 100 prophets (1 Kings 18:4, 13). Isaiah's remnant language in the Assyrian crisis (8th c. BC). Malachi post-exilic, c. 5th c. BC."
+    literary_context:
+      done: true
+      notes: "Matt 24:9-13 = second-person section after the birth-pains list; 24:10-12 three 'many' clauses; 24:13 answer. Matt 26:31 reuses skandalizo of the Eleven, with 26:32 promise; 28:10 'my brothers'. Rom 11:1-6 Paul's answer to 'has God rejected his people?'"
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "ψύχω", language: greek, transliteration: "psychō", strongs_id: "G5594", gloss: "grow cold", notes: "NT hapax (Matt 24:12). LXX Jer 6:7 a cistern keeps water cool."}
+        - {word: "ἀγάπη", language: greek, transliteration: "agapē", strongs_id: "G26", gloss: "love", notes: "Only occurrence of the noun in Matthew is 24:12; verb carries 22:37-39."}
+        - {word: "ἀνομία", language: greek, transliteration: "anomia", strongs_id: "G458", gloss: "lawlessness", notes: "Matthew 4x: 7:23; 13:41; 23:28; 24:12."}
+        - {word: "σκανδαλίζω", language: greek, transliteration: "skandalizō", strongs_id: "G4624", gloss: "cause to stumble / fall away", notes: "14x in Matthew; 24:10 and 26:31, 33 (twice)."}
+        - {word: "ὑπομένω", language: greek, transliteration: "hypomenō", strongs_id: "G5278", gloss: "endure", notes: "Matt 10:22; 24:13."}
+        - {word: "λεῖμμα", language: greek, transliteration: "leimma", strongs_id: "G3005", gloss: "remnant", notes: "NT hapax Rom 11:5."}
+        - {word: "שָׁאַר", language: hebrew, transliteration: "shaʾar", strongs_id: "H7604", gloss: "leave, remain", notes: "1 Kings 19:18 hiphil 1cs 'I will leave'. LXX: kataleipseis 'you will leave'. Paul Rom 11:4: katelipon emautō 'I have kept for myself'."}
+        - {word: "שְׁאָר", language: hebrew, transliteration: "sheʾar", strongs_id: "H7605", gloss: "remnant", notes: "Isa 10:21 she'ar yashuv; name Shear-jashub Isa 7:3."}
+        - {word: "כֵּהֶה", language: hebrew, transliteration: "keheh", strongs_id: "H3544", gloss: "dim, faint", notes: "Isa 42:3 dim wick; Isa 61:3 faint spirit; 1 Sam 3:2 Eli's eyes."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Remnant of Israel (Rom 11:5) is Israel's doctrine; the church is not renamed 'the remnant'. What carries over is God's character: He keeps a people, by grace, and knows them. Matt 24:4-14 per site = this age and the opening of the 70th week; application to the church age is direct (olivet-discourse.md)."
+    theological_principle:
+      done: true
+      notes: "God keeps His own; cooling is predicted, not a sign that God has lost hold; His way with those who stumble is to go after them."
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Matthew 26:31", relation: "same verb skandalizo applied to the Eleven"}
+      - {ref: "Romans 11:4", relation: "quotes 1 Kings 19:18 with 'for myself'"}
+      - {ref: "Matthew 12:20", relation: "quotes Isaiah 42:3"}
+    translations_compared: ["ESV", "ASV", "LXX (Brenton Greek)", "SBLGNT", "WLC"]
+    divergences_noted: "ASV keeps the article: 'the love of the many'. 1 Kings 19:18 MT 'I will leave', LXX 'you will leave', Paul 'I have left for myself'."
+  drafting:
+    done: true
+    file: "docs/content/christian-life/when-love-grows-cold.md"
+    comic: "docs/data/comics/when-love-grows-cold.toml -- every ESV bubble passes build_comics.py --verify (2026-10-13)"
+  review:
+    done: true
+    validated: true # npm run validate and mkdocs build --strict re-run after review edits, 2026-10-13
+    notes: >-
+      review-bible-study 2026-10-13. Checked: every ESV quotation against study-notes.db (all verbatim
+      except a closing quote mark after Matt 24:13 that the ESV does not have -- removed); every
+      Strong's number, count and exhaustiveness claim against Macula; ESV/NIV BTSB/NIV CBSB notes as
+      cited; ESV footnotes (none on Matt 24, 1 Kgs 19, Rom 11, Jude); siblings olivet-discourse,
+      assurance-of-salvation, hurt-by-the-church; statement-of-faith (consistent); tags/category.
+      Fixed: "many" occurs four times in 24:10-12, not three; "Matthew keeps the verb" implied
+      agapao is reserved for 22:37-39 (8x in Matthew) -> "uses"; hypomeno "remain under a load" was
+      an etymological gloss -> "hold one's ground under pressure"; Obadiah met Elijah "a few days
+      earlier" (19:8 puts forty days between) -> "before Carmel", and discussion Q2 "days" -> "weeks";
+      Shear-jashub H7605 -> H7610 (the name); shuv tagged H7725; "Isaiah's word for the wick" ->
+      "describing the wick" (keheh is the adjective); Mark "in Rome" -> "during an imprisonment"
+      (Colossians' provenance is contested); Demas and Mark "three verses apart" -> adjacent
+      (4:10-11); Jude's "first word for each is mercy" -> "first word and last" (23 has "save").
+      Open for the author: Romans 9:27-29 quotes both Isaiah remnant verses (1:9; 10:22) and is
+      never mentioned; run-the-race.md (draft) link removed at publication, 2026-10-13 (Check 24 would
+      have errored); olivet-discourse.md says "within a day" where this
+      study (following Matt 26:2) says "two days later".
+  read:
+    done: true
+    date: 2026-10-13
+    scope: "read-bible-study structure pass (stranger reader, separate session); no sentence changed"
+    verified: >-
+      study_structure._prose_diff against a pre-edit copy (file is untracked, so --verify-against
+      HEAD cannot run): clean, removed [] / added_unexpected []. A full-line diff (bullets and quotes
+      included) differs only in the two Study outline lines below. Outline anchors checked against
+      the page rendered by mkdocs serve: all 8 resolve. npm run validate: one warning on this file
+      (Check 19, the psycho "nowhere else" line; verified in review as evidence psycho-hapax).
+      mkdocs build --strict: clean.
+    changes:
+      - "'### The setting' -> '### On the Mount of Olives' (name the content)."
+      - "Split '### Three \"many\"s' before its psycho/agape paragraph: new '### The love that grows cold' (word study findable; Discussion Q1 points at it)."
+      - "Split '### The cause and the answer' into '### Why love cools: lawlessness' and '### What Jesus asks: endure to the end' (Endure section at the end returns to 24:13)."
+      - "'### Elijah under the broom tree' -> '### Elijah at Horeb' (the section never mentions the broom tree; it is at Horeb)."
+      - "'## A remnant through the Old Testament' -> '## The remnant, from Isaiah to Paul' (the section ends in Romans 11); outline link updated."
+      - "Moved the Hurt-by-the-Church framing paragraph above '### Mark, who came back' so 'Two names on Paul's list' opens with its own topic sentence."
+      - "Promoted '### The Lord knows those who are His' to '##': it reads 1 John 2:19 against Peter and Mark, not one of Paul's two names, and answers the reader's hardest question. Order unchanged; new outline bullet (descriptive)."
+    sections: "33 -> 35"
+    median_section_words: "122 -> 110"
+    sections_over_400: "0 -> 0"
+    longest_section_words: 248
+    opening: "thesis sits before the comic and passage quote, as in you-are-gods / bread-of-life; left in place"
+    left_for_author: >-
+      Outline annotations are descriptive only; any evaluative note is the author's. 'The Lord knows
+      those who are His' opens on a citation ("John wrote of people who had left his churches") rather
+      than its claim; 'The remnant, from Isaiah to Paul' has its section-level topic sentence ("Elijah's
+      seven thousand is one instance of a pattern...") inside the Isaiah paragraph; both need prose
+      edits, so not touched.
+
+evidence:
+  - {id: psycho-hapax, what: "psycho G5594 occurs once in the NT (Matt 24:12)", tool: bible_concordance, args: {strongs: G5594, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: '"count": 1}', checked: 2026-10-13}
+  - {id: agape-matt-once, what: "agape G26 occurs once in Matthew", tool: bible_concordance, args: {strongs: G26, book: Matt, count_only: true}, expect_contains: '"count": 1}', checked: 2026-10-13}
+  - {id: skandalizo-matt-14, what: "skandalizo G4624 occurs 14 times in Matthew", tool: bible_concordance, args: {strongs: G4624, book: Matt, count_only: true}, expect_contains: '"count": 14}', checked: 2026-10-13}
+  - {id: leimma-rom11-5, what: "leimma G3005 occurs at Rom 11:5", tool: bible_concordance, args: {strongs: G3005}, expect_contains: '"book": "Rom", "chapter": 11, "verse": 5', checked: 2026-10-13}
+  - {id: 1ki19-18-hiphil, what: "1 Kings 19:18 MT 'I will leave' (hiphil 1cs of shaar)", tool: bible_interlinear, args: {book: 1Kgs, chapter: 19, verse: 18}, expect_contains: "Vhp1cs", checked: 2026-10-13}
+  - {id: 1ki19-18-lxx, what: "LXX 1 Kings 19:18 reads kataleipseis, 'you will leave'", tool: bible_parallel, args: {book: 1Kgs, chapter: 19, verse: 18, target: ebible-grcbrent}, expect_contains: "καταλείψεις", checked: 2026-10-13}
+  - {id: rom11-4-emauto, what: "Rom 11:4 katelipon emauto", tool: bible_verse, args: {book: Rom, chapter: 11, verse: 4, translation: sblgnt}, expect_contains: "Κατέλιπον ἐμαυτῷ", checked: 2026-10-13}
+  - {id: 1ki18-13-esv, what: "Obadiah's hundred prophets", tool: study_verse, args: {book: 1Kgs, chapter: 18, verse: 13, work_id: esv-study-bible}, expect_contains: "I hid a hundred men of the LORD's prophets", checked: 2026-10-13}
+  - {id: mt24-12-asv, what: "ASV keeps the article: 'the love of the many'", tool: bible_verse, args: {book: Matt, chapter: 24, verse: 12, translation: ASV}, expect_contains: "the love of the many", checked: 2026-10-13}
+  - {id: isa42-3-keheh, what: "Isa 42:3 wick is keheh H3544", tool: bible_interlinear, args: {book: Isa, chapter: 42, verse: 3}, expect_contains: "H3544", checked: 2026-10-13}
+  - {id: anomia-matt-4, what: "anomia G458 occurs 4 times in Matthew (7:23; 13:41; 23:28; 24:12)", tool: bible_concordance, args: {strongs: G458, book: Matt, count_only: true}, expect_contains: '"count": 4}', checked: 2026-10-13}
+  - {id: agapao-matt-8, what: "agapao G25 occurs 8 times in Matthew, so the verb is not reserved for 22:37-39", tool: bible_concordance, args: {strongs: G25, book: Matt, count_only: true}, expect_contains: '"count": 8}', checked: 2026-10-13}
+  - {id: isa61-3-keheh, what: "Isa 61:3 'faint spirit' is keheh H3544", tool: bible_interlinear, args: {book: Isa, chapter: 61, verse: 3}, expect_contains: "H3544", checked: 2026-10-13}
+  - {id: isa7-3-shear-jashub, what: "Shear-jashub in Isa 7:3 is the name H7610", tool: bible_interlinear, args: {book: Isa, chapter: 7, verse: 3}, expect_contains: "H7610", checked: 2026-10-13}
+  - {id: 1ki19-8-forty-days, what: "Elijah reached Horeb after forty days, so Obadiah's report (18:13) was weeks earlier", tool: study_verse, args: {book: 1Kgs, chapter: 19, verse: 8, work_id: esv-study-bible}, expect_contains: "forty days and forty nights to Horeb", checked: 2026-10-13}
+  - {id: 2tim4-11-mark, what: "Mark (4:11) is the verse after Demas (4:10)", tool: study_verse, args: {book: 2Tim, chapter: 4, verse: 11, work_id: esv-study-bible}, expect_contains: "Get Mark and bring him with you", checked: 2026-10-13}
+  - {id: jude23-save-others, what: "Jude's middle instruction is 'save', first and last are mercy", tool: study_verse, args: {book: Jude, chapter: 1, verse: 23, work_id: esv-study-bible}, expect_contains: "save others by snatching them out of the fire; to others show mercy", checked: 2026-10-13}
+  - {id: mt24-13-esv-note, what: "ESV Study Bible reads 'the end' of 24:13 two ways", tool: study_note, args: {book: Matt, chapter: 24, verse: 13, work_id: esv-study-bible}, expect_contains: "Either the end of the persecution when the Son of Man returns", checked: 2026-10-13}
+  - {id: 1ki19-18-nivbt-note, what: "NIV BTSB: seven thousand a round number correcting Elijah", tool: study_note, args: {book: 1Kgs, chapter: 19, verse: 18, work_id: niv-biblical-theology-study-bible}, expect_contains: "A round number connoting completeness", checked: 2026-10-13}
+  - {id: isa42-3-nivcb-note, what: "NIV CBSB: a smouldering wick was ordinarily replaced", tool: study_note, args: {book: Isa, chapter: 42, verse: 3, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "ordinarily quickly removed, discarded and replaced", checked: 2026-10-13}
+
+open_questions:
+  - "Fork candidate: Matthew 24:12's anomia -- is the lawlessness the world's or the professing community's (cf. 7:23; 23:28)? Marked as both in the draft."
+  - "Fork candidate: Hebrews 6:4-6 and 10:26-31 -- the warning passages; left out of this study deliberately (assurance-of-salvation.md territory)."
+  - "Thesis and outline approved by the author, 2026-10-13."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Verse text. Notes on Matt 24:1-14, 24:13; 1 Kings 19:15-18; Rom 11:3-5; 2 Tim 4:10. Confirmed: 24:4-14 characterises the age; contributed: 'end' of 24:13 read two ways."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "1 Kings 19:18 note: seven thousand corrects Elijah's 'only me' (vv. 10, 14; 18:22); remnant theme. 2 Tim 4:10 Demas a co-worker a few years earlier. Confirmed."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Isa 42:3 -- a smouldering wick was ordinarily discarded and replaced; Esarhaddon snapping kings like reeds. Contributed the background."}
+  - {type: lexicon, title: "Macula Greek (SBLGNT) / Macula Hebrew (WLC) / unfoldingWord ULT alignment", author: "Clear Bible / unfoldingWord", note: "Occurrence counts and interlinear."}
+last_updated: "2026-10-13"

@@ -14,4 +14,5 @@ draft: false
 
 - [Sin and Sorcery](../../sin/sorcery.md) — 3:5
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 3:17
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 3:16-18
 <!-- commentary-index:auto-end -->

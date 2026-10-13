@@ -1,0 +1,114 @@
+# One-minute comic for docs/content/christian-life/when-love-grows-cold.md.
+# Drawn by: python3 utils/build_comics.py when-love-grows-cold
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-13.
+#
+# Emphasis, each placed on the beat that carries the study's point:
+# - Panel 1: key words in the bubble (*grow cold*, *endures*).
+# - Panel 2: a close shot and a spotlight. Elijah alone, and the marks of fear: "he was afraid"
+#   (1 Kings 19:3). Horeb's cave: "he came to a cave and lodged in it" (1 Kings 19:9).
+# - Panel 3: the reveal by pulling back. Elijah in silhouette in the foreground, the faithful
+#   standing in rows to a high horizon, fading into haze: "all the knees that have not bowed"
+#   (1 Kings 19:18), so they stand. Seven thousand cannot be drawn; the aside says so.
+# - Panel 4: night, key words (*fall away*, *go before you*); fall away is σκανδαλίζω (G4624), the
+#   verb of Matthew 24:10, verified with bible_concordance.
+# - Panel 5: focus lines in gold on Jesus and a warm grade; one disciple carries the question mark,
+#   because "some doubted" (Matthew 28:17).
+# Mount of Olives: Jesus "sat" (Matthew 24:3); the four named in Mark 13:3. James is not a reserved
+# figure, so he is the generic disciple.
+
+title = "When Love Grows Cold"
+subtitle = "The falling away and the remnant, in one minute"
+layout = [[280, 1], [320, 2, 3], [300, 3, 2]]
+point = "Jesus told you beforehand that love would grow cold. God still keeps a people for Himself, and Jesus goes ahead of those who stumble. Grieve a friend's cooling faith with hope, and go after them (Romans 11:5; Matthew 26:32)."
+
+[[panel]]
+ref = "Matthew 24:3, 12-13; Mark 13:3"
+scene = "hills"
+sky = "day"
+caption = "Jesus sits on the Mount of Olives. Peter, James, John and Andrew ask Him privately what is coming."
+caption_w = 360
+shows = "Jesus seated on the hillside, speaking to four disciples seated before Him"
+cast = [
+  { who = "peter", x = 0.10, face = "right", stance = "sit", pose = "stand", tag = "Peter" },
+  { who = "andrew", x = 0.21, face = "right", stance = "sit", pose = "fold" },
+  { who = "disciple", id = "james", name = "James", x = 0.32, face = "right", stance = "sit", pose = "stand", tone = 1 },
+  { who = "john", x = 0.43, face = "right", stance = "sit", pose = "heart" },
+  { who = "jesus", x = 0.78, face = "left", stance = "sit", pose = "open" },
+]
+say = [
+  { by = "jesus", text = "And because lawlessness will be increased, the love of many will *grow cold*.", source = "esv", at = [0.62, 0.30], w = 250 },
+  { by = "jesus", text = "But the one who *endures* to the end will be saved.", source = "esv", at = [0.86, 0.10], w = 150 },
+]
+
+[[panel]]
+ref = "1 Kings 19:3, 9, 14"
+scene = "cave"
+sky = "dusk"
+camera = { on = "elijah", zoom = 2.0, at = [0.34, 0.52] }
+spotlight = "elijah"
+caption = "At Horeb, Elijah lodges in a cave."
+caption_w = 200
+shows = "A close view of Elijah at the mouth of the cave, alone in a pool of light, sweating with fear"
+cast = [
+  { who = "elijah", x = 0.42, face = "right", pose = "fold", marks = ["sweat"], tag = "Elijah" },
+]
+say = [
+  { by = "elijah", text = "*I, even I only,* am left.", source = "esv", at = [0.76, 0.36], w = 112 },
+]
+
+[[panel]]
+ref = "1 Kings 19:18"
+scene = "vista"
+sky = "dawn"
+horizon = 0.40
+caption = "God's answer."
+caption_w = 140
+aside = "Drawn: a few dozen of the seven thousand."
+aside_w = 170
+shows = "Pulled back: Elijah, a dark shape in the foreground, looks out over row after row of people standing upright, all the way to the horizon"
+cast = [
+  { who = "woman", x = 0.20, x2 = 0.96, n = 14, depth = 0.86, look = "warm", tone = 2 },
+  { who = "man", x = 0.22, x2 = 0.97, n = 12, depth = 0.76, look = "warm", tone = 1 },
+  { who = "woman", x = 0.26, x2 = 0.96, n = 10, depth = 0.62, look = "warm" },
+  { who = "man", x = 0.32, x2 = 0.95, n = 8, depth = 0.45, look = "warm", tone = 3 },
+  { who = "man", id = "near", x = 0.42, x2 = 0.92, n = 5, depth = 0.22, look = "warm", pose = ["stand", "fold"] },
+  { who = "elijah", x = 0.10, face = "right", s = 1.5, dy = 0.10, look = "silhouette" },
+]
+say = [
+  { from = [0.62, -0.1], by = "the LORD", name = "The LORD", style = "voice", text = "Yet I will leave *seven thousand* in Israel, all the knees that have not bowed to Baal.", source = "esv", at = [0.66, 0.05], w = 230 },
+]
+
+[[panel]]
+ref = "Matthew 26:30-32"
+scene = "hills"
+sky = "night"
+caption = "Two days later, after the Passover meal."
+caption_w = 200
+shows = "Night on the Mount of Olives: Jesus speaks to Peter and the disciples"
+cast = [
+  { who = "disciple", id = "others", x = 0.06, x2 = 0.15, n = 2, face = "right", pose = "stand", s = 0.9 },
+  { who = "peter", x = 0.25, face = "right", pose = "heart", tag = "Peter" },
+  { who = "jesus", x = 0.86, face = "left", pose = "open" },
+]
+say = [
+  { by = "jesus", text = "You will all *fall away* because of me this night.", source = "esv", at = [0.42, 0.22], w = 220 },
+  { by = "jesus", text = "But after I am raised up, I will *go before you* to Galilee.", source = "esv", at = [0.57, 0.56], w = 200 },
+]
+
+[[panel]]
+ref = "Matthew 28:16-20"
+scene = "hills"
+sky = "dawn"
+grade = "warm"
+burst = { on = "jesus", color = "gold" }
+caption = "In Galilee. Some doubt. Jesus comes to them."
+caption_w = 200
+shows = "On a Galilean hillside the risen Jesus speaks to His disciples; three worship with hands raised, one stands apart with a question mark over his head"
+cast = [
+  { who = "jesus", x = 0.12, face = "right", pose = "open" },
+  { who = "disciple", id = "eleven", x = 0.46, x2 = 0.70, n = 3, face = "left", pose = ["praise", "fold", "praise"] },
+  { who = "disciple", id = "doubter", name = "a doubting disciple", x = 0.91, face = "left", pose = "stand", marks = ["question"], tone = 2 },
+]
+say = [
+  { by = "jesus", text = "I am with you *always*, to the end of the age.", source = "esv", at = [0.54, 0.20], w = 170 },
+]

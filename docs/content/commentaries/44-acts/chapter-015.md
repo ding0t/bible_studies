@@ -16,4 +16,5 @@ draft: false
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 15:37-39
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 15:14-16
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 15:5
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 15:37-39
 <!-- commentary-index:auto-end -->

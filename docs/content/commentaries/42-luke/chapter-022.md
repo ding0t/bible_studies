@@ -23,4 +23,5 @@ draft: false
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 22:14-20
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 22:24
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 22:1
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 22:31-32
 <!-- commentary-index:auto-end -->

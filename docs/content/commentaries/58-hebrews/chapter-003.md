@@ -16,4 +16,5 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 3:7
 - [The Way](../../jesus/the-way.md) — 3:10
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 3:14
+- [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 3:12-14
 <!-- commentary-index:auto-end -->
