@@ -20,6 +20,7 @@ draft: false
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 4:15
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 4:14-16
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:16
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 4:15-16
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:9
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 4:15-16
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 4:16

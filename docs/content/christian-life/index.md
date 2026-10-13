@@ -89,6 +89,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
 
     [:octicons-arrow-right-24: Read](prayer-as-communion.md)
 
+-   __Run the Race: Come to Me, All Who Are Weary__
+
+    ---
+
+    Jesus invites the weary to Himself and gives them rest under His yoke. Hebrews tells tired believers to run with endurance, looking to Him. Why Christians grow weary, what feeds the runner, and what weighs the runner down.
+
+    [:octicons-arrow-right-24: Read](run-the-race.md)
+
 -   __Take Up Your Cross__
 
     ---

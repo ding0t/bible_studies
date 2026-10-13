@@ -17,6 +17,7 @@ draft: false
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 1:1
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:24-25
 - [Passover: When I See the Blood](../../feasts/passover.md) — 1:18-19
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 1:5
 - [Simon Peter](../../biblical-figures/peter.md) — 1:1
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 1:11
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 1:7

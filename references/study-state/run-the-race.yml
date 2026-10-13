@@ -1,6 +1,6 @@
 slug: "run-the-race"
 title: "Run the Race: Come to Me, All Who Are Weary"
-status: review
+status: published
 target_path: "docs/content/christian-life/run-the-race.md"
 
 primary_passage: "Matthew 11:28-30; Hebrews 12:1-3"
@@ -42,8 +42,8 @@ outline:
     says: "Works done to be seen (Matthew 6:1, 23:5), fasting to earn (Luke 18:12), and the Sower's cares of this age (Mark 4:19, Luke 8:14, Luke 21:34); guard your heart (Proverbs 4:23) and God's peace guards it (Philippians 4:7)."
   - section: "Discussion questions; References"
     says: "Facets: language, context, Christ, the hard part (thorny soil), transformed."
-word_budget: 4000
-word_budget_reason: ""
+word_budget: 4100
+word_budget_reason: "Published at 4,096 words at the author's request, 2026-10-13, after review; simplify-bible-study can recommend trims later."
 
 stages:
   scoping:
@@ -121,7 +121,36 @@ stages:
     done: true
     file: "docs/content/christian-life/run-the-race.md"
   review:
-    done: false
+    done: true
+    notes: >-
+      2026-10-13 pre-publish review (review-bible-study, all phases). Every ESV quotation (87 fragments)
+      re-checked word for word against study-notes.db esv-study-bible: all verbatim, references correct,
+      divine pronouns lowercase inside quotes. All Greek/Hebrew counts, Strong's numbers and
+      exhaustiveness claims re-run (evidence block below, 62 entries, verify_claims clean). Fixes and
+      open items in review_2026-10-13.
+    review_2026-10-13:
+      fixed:
+        - "Jeremiah 6:16: restored the ESV's period inside the nested quote ('We will not walk in it.')."
+        - "Hebrews 10:24 'consider' link: was an English-only tie to 12:3 (analogizomai, NT hapax). Now names katanoeo G2657, whose only other use in Hebrews is 'consider Jesus' (3:1). Hebrews 3:1 added to bible_references."
+        - "Habakkuk named without a reference: now 'Habakkuk 2:3' (Hebrews 10:37 quotes Hab 2:3; review_gaps flagged Hab 2 as an uncited quotation). Added to bible_references."
+        - "Isaiah 50 Servant pronouns: 'He was taught ... then He sustained' lowercased to match the Key Takeaways ('taught him', 'he set his face'); the study does not argue the identification there (style-guide rule 8)."
+        - "Process narration removed: three references to 'the backlog' (unlinked, meaningless to a reader, used on no other page) rephrased without changing the verdict structure."
+        - "Removed the On-this-site link to great-commission.md, which is draft: true (validate Check 24 / draft_pages.py would ship it as a 404)."
+      checked_clean:
+        - "Counts: phortizo 2x NT; phortion 6 rows (Matt 11:30, 23:4, Luke 11:46 x2, Gal 6:5, Acts 27:10); kopiao 23x; margoa only Jer 6:16; onkos and euperistatos 1x across all works; hypomone 2x / hypomeno 4x in Hebrews; ekluo 5x NT; kamno 2x; katalambano 3x in Phil 3:12-13 (one passive); merimna 6x."
+        - "Morphology: Matt 11:28 pephortismenoi perfect passive participle; John 4:6 kekopiakos = kopiao; Heb 11:39 martyreo (wordplay with martys per ESVSB); Heb 12:3 psychais hymon = LSB 'Lit souls' (same phrase as Matt 11:29); Isa 50:7 H2496; Isa 50:4 H3287; Prov 4:23 H5341 + H4929; Phil 4:7 phroureo."
+        - "LXX Jer 6:16 hagnismon; LXX Isa 40:31 hypomenontes / dramountai / kopiasousi. Sirach 51:23, 26-27 verbatim against KJVA raw text."
+        - "Commentary claims (ESVSB Matt 11:28, Heb 12:1, Luke 8:14; NIVCBSB Matt 11:29 incl. Jer 6:16 miscitation, Heb 12:1) say what the study attributes. NIVBTSB Matt 11:28-30 (independent) confirms the yoke-of-the-law reading."
+        - "Statement of faith (line 193 Heb 12:1-2 gaze; salvation by grace) and assurance-of-salvation.md: consistent. cross_study_claims Matthew 11 / Hebrews 12: no conflict (humility.md, faith.md, lords-supper.md agree)."
+        - "Links: all targets exist and are draft: false after the great-commission removal; #when-someone-walks-away anchor exists. great-commission.md (draft) links here at #never-good-enough, which exists."
+        - "validate: only Check 23 (4,096 words vs 4,000; was 4,116). mkdocs build --strict passes."
+      open_for_author:
+        - "Word budget: 4,096 against 4,000. Raise word_budget with a reason or trim; simplify-bible-study if trimming."
+        - "Hebrews 12:2 anti ('instead of the joy', CSB/NLT footnotes): author decided 2026-10-01 to keep 'for the joy' without a footnote; unchanged."
+        - "Hebrews 12:3 eis heautous (SBLGNT 'against themselves'; NLT footnotes it): incidental, unchanged."
+        - "Root-leaning glosses (hypomone 'staying under', ekluo 'come loose', merimna 'divided mind', chrestos 'well fitted' -- LSB footnotes Matt 11:30 'Or comfortable, pleasant', phroureo 'garrison at a gate'): left; author's call."
+        - "anapausis G372 is named in References with no Strong's tag in the prose (strongs_suggest); Minor."
+        - "Run utils/refresh_frontmatter_provenance.py before committing the publish."
     validated: true # npm run validate clean for this file, mkdocs build --strict passes, cross_study_claims Matthew 11 / Hebrews 12 show no conflict (2026-10-01)
     review_2026-10-01:
       checked: >-
@@ -174,4 +203,68 @@ author_decisions_2026-10-01:
   - "Fork candidate recommended: 'Hurt by the Church' -- wolves, false teachers, betrayal by friends, falling out, the tares misapplication, church discipline (where-two-or-three-are-gathered.md) vs bearing with one another, and forgiveness (ties to the backlog Forgiveness item). Would let this section shrink to a short pointer."
   - "Spin-off written: docs/content/christian-life/hurt-by-the-church.md. 'When the church wears you out' cut to a short paragraph linking it. Page now 4,116 words (Check 23); budget decision left to the author."
   - "Still open from review: rec 2 ('consider' link is English-only), 5 (root-leaning glosses), 6 (Servant pronoun capitals), 7 (Heb 12:3 variant), 8 (anapausis tag)."
-last_updated: "2026-10-01"
+last_updated: "2026-10-13"
+
+evidence:
+  - {id: esv-mt11-28, what: "ESV Matt 11:28 block/memory verse", tool: study_verse, args: {book: Matt, chapter: 11, verse: 28, work_id: esv-study-bible}, expect_contains: "Come to me, all who labor and are heavy laden, and I will give you rest.", checked: 2026-10-13}
+  - {id: esv-mt11-29, what: "ESV Matt 11:29", tool: study_verse, args: {book: Matt, chapter: 11, verse: 29, work_id: esv-study-bible}, expect_contains: "for I am gentle and lowly in heart, and you will find rest for your souls.", checked: 2026-10-13}
+  - {id: esv-mt11-30, what: "ESV Matt 11:30", tool: study_verse, args: {book: Matt, chapter: 11, verse: 30, work_id: esv-study-bible}, expect_contains: "For my yoke is easy, and my burden is light.", checked: 2026-10-13}
+  - {id: esv-heb12-1, what: "ESV Heb 12:1", tool: study_verse, args: {book: Heb, chapter: 12, verse: 1, work_id: esv-study-bible}, expect_contains: "let us run with endurance the race that is set before us", checked: 2026-10-13}
+  - {id: esv-heb12-2, what: "ESV Heb 12:2 'for the joy'", tool: study_verse, args: {book: Heb, chapter: 12, verse: 2, work_id: esv-study-bible}, expect_contains: "who for the joy that was set before him endured the cross, despising the shame", checked: 2026-10-13}
+  - {id: esv-heb12-3, what: "ESV Heb 12:3 memory verse", tool: study_verse, args: {book: Heb, chapter: 12, verse: 3, work_id: esv-study-bible}, expect_contains: "so that you may not grow weary or fainthearted.", checked: 2026-10-13}
+  - {id: esv-mt11-27, what: "ESV Matt 11:27 block quote", tool: study_verse, args: {book: Matt, chapter: 11, verse: 27, work_id: esv-study-bible}, expect_contains: "no one knows the Father except the Son and anyone to whom the Son chooses to reveal him.", checked: 2026-10-13}
+  - {id: esv-isa50-4, what: "ESV Isa 50:4", tool: study_verse, args: {book: Isa, chapter: 50, verse: 4, work_id: esv-study-bible}, expect_contains: "that I may know how to sustain with a word him who is weary. Morning by morning he awakens; he awakens my ear to hear as those who are taught.", checked: 2026-10-13}
+  - {id: esv-isa50-7, what: "ESV Isa 50:7 flint", tool: study_verse, args: {book: Isa, chapter: 50, verse: 7, work_id: esv-study-bible}, expect_contains: "therefore I have set my face like a flint", checked: 2026-10-13}
+  - {id: esv-lk9-51, what: "ESV Luke 9:51", tool: study_verse, args: {book: Luke, chapter: 9, verse: 51, work_id: esv-study-bible}, expect_contains: "he set his face to go to Jerusalem.", checked: 2026-10-13}
+  - {id: esv-jer6-16, what: "ESV Jer 6:16", tool: study_verse, args: {book: Jer, chapter: 6, verse: 16, work_id: esv-study-bible}, expect_contains: "where the good way is; and walk in it, and find rest for your souls.", checked: 2026-10-13}
+  - {id: esv-jn4-6, what: "ESV John 4:6", tool: study_verse, args: {book: John, chapter: 4, verse: 6, work_id: esv-study-bible}, expect_contains: "wearied as he was from his journey", checked: 2026-10-13}
+  - {id: esv-lk11-46, what: "ESV Luke 11:46", tool: study_verse, args: {book: Luke, chapter: 11, verse: 46, work_id: esv-study-bible}, expect_contains: "you load people with burdens hard to bear, and you yourselves do not touch the burdens with one of your fingers.", checked: 2026-10-13}
+  - {id: esv-acts15-10, what: "ESV Acts 15:10", tool: study_verse, args: {book: Acts, chapter: 15, verse: 10, work_id: esv-study-bible}, expect_contains: "that neither our fathers nor we have been able to bear", checked: 2026-10-13}
+  - {id: esv-heb10-14, what: "ESV Heb 10:14", tool: study_verse, args: {book: Heb, chapter: 10, verse: 14, work_id: esv-study-bible}, expect_contains: "by a single offering he has perfected for all time those who are being sanctified.", checked: 2026-10-13}
+  - {id: esv-heb10-22, what: "ESV Heb 10:22", tool: study_verse, args: {book: Heb, chapter: 10, verse: 22, work_id: esv-study-bible}, expect_contains: "with our hearts sprinkled clean from an evil conscience", checked: 2026-10-13}
+  - {id: esv-heb10-39, what: "ESV Heb 10:39", tool: study_verse, args: {book: Heb, chapter: 10, verse: 39, work_id: esv-study-bible}, expect_contains: "we are not of those who shrink back and are destroyed, but of those who have faith and preserve their souls.", checked: 2026-10-13}
+  - {id: esv-isa40-31, what: "ESV Isa 40:31", tool: study_verse, args: {book: Isa, chapter: 40, verse: 31, work_id: esv-study-bible}, expect_contains: "they shall run and not be weary; they shall walk and not faint.", checked: 2026-10-13}
+  - {id: esv-phil3-12, what: "ESV Phil 3:12", tool: study_verse, args: {book: Phil, chapter: 3, verse: 12, work_id: esv-study-bible}, expect_contains: "but I press on to make it my own, because Christ Jesus has made me his own.", checked: 2026-10-13}
+  - {id: esv-heb10-24, what: "ESV Heb 10:24-25 block quote", tool: study_verse, args: {book: Heb, chapter: 10, verse: 24, verse_end: 25, work_id: esv-study-bible}, expect_contains: "not neglecting to meet together, as is the habit of some", checked: 2026-10-13}
+  - {id: esv-heb3-1, what: "ESV Heb 3:1 consider Jesus", tool: study_verse, args: {book: Heb, chapter: 3, verse: 1, work_id: esv-study-bible}, expect_contains: "consider Jesus, the apostle and high priest of our confession", checked: 2026-10-13}
+  - {id: esv-phil4-7, what: "ESV Phil 4:7", tool: study_verse, args: {book: Phil, chapter: 4, verse: 7, work_id: esv-study-bible}, expect_contains: "will guard your hearts and your minds in Christ Jesus.", checked: 2026-10-13}
+  - {id: esv-deut8-3, what: "ESV Deut 8:3", tool: study_verse, args: {book: Deut, chapter: 8, verse: 3, work_id: esv-study-bible}, expect_contains: "man does not live by bread alone, but man lives by every word that comes from the mouth of the LORD.", checked: 2026-10-13}
+  - {id: esv-mk4-19, what: "ESV Mark 4:19", tool: study_verse, args: {book: Mark, chapter: 4, verse: 19, work_id: esv-study-bible}, expect_contains: "but the cares of the world and the deceitfulness of riches and the desires for other things enter in and choke the word", checked: 2026-10-13}
+  - {id: esv-lk8-14, what: "ESV Luke 8:14", tool: study_verse, args: {book: Luke, chapter: 8, verse: 14, work_id: esv-study-bible}, expect_contains: "as they go on their way they are choked by the cares and riches and pleasures of life, and their fruit does not mature.", checked: 2026-10-13}
+  - {id: esv-lk8-13, what: "ESV Luke 8:13", tool: study_verse, args: {book: Luke, chapter: 8, verse: 13, work_id: esv-study-bible}, expect_contains: "they believe for a while, and in time of testing fall away.", checked: 2026-10-13}
+  - {id: esv-lk21-34, what: "ESV Luke 21:34", tool: study_verse, args: {book: Luke, chapter: 21, verse: 34, work_id: esv-study-bible}, expect_contains: "weighed down with dissipation and drunkenness and cares of this life", checked: 2026-10-13}
+  - {id: esv-prov4-23, what: "ESV Prov 4:23", tool: study_verse, args: {book: Prov, chapter: 4, verse: 23, work_id: esv-study-bible}, expect_contains: "Keep your heart with all vigilance, for from it flow the springs of life.", checked: 2026-10-13}
+  - {id: esv-mk8-3, what: "ESV Mark 8:3", tool: study_verse, args: {book: Mark, chapter: 8, verse: 3, work_id: esv-study-bible}, expect_contains: "they will faint on the way.", checked: 2026-10-13}
+  - {id: esv-2tim4-17, what: "ESV 2 Tim 4:17", tool: study_verse, args: {book: 2Tim, chapter: 4, verse: 17, work_id: esv-study-bible}, expect_contains: "But the Lord stood by me and strengthened me", checked: 2026-10-13}
+  - {id: phortizo-nt-2, what: "phortizo G5412 twice in NT (Matt 11:28, Luke 11:46)", tool: bible_concordance, args: {strongs: G5412, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: '"count": 2}', checked: 2026-10-13}
+  - {id: phortion-nt-6, what: "phortion G5413 6 rows in NT incl. Matt 11:30, 23:4", tool: bible_concordance, args: {strongs: G5413, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: '"count": 6}', checked: 2026-10-13}
+  - {id: kopiao-nt-23, what: "kopiao G2872 23x NT", tool: bible_concordance, args: {strongs: G2872, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: '"count": 23}', checked: 2026-10-13}
+  - {id: margoa-once, what: "margoa H4771 only Jer 6:16", tool: bible_concordance, args: {strongs: H4771, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: '"count": 1}', checked: 2026-10-13}
+  - {id: onkos-once, what: "onkos G3591 only Heb 12:1 (all works)", tool: bible_concordance, args: {strongs: G3591, count_only: true}, expect_contains: '"count": 1}', checked: 2026-10-13}
+  - {id: euper-once, what: "euperistatos G2139 only Heb 12:1 (all works)", tool: bible_concordance, args: {strongs: G2139, count_only: true}, expect_contains: '"count": 1}', checked: 2026-10-13}
+  - {id: hypomone-heb-2, what: "hypomone G5281 twice in Hebrews (10:36, 12:1)", tool: bible_concordance, args: {strongs: G5281, work_id: macula-greek-sblgnt, book: Heb, count_only: true}, expect_contains: '"count": 2}', checked: 2026-10-13}
+  - {id: hypomeno-heb-4, what: "hypomeno G5278 four times in Hebrews", tool: bible_concordance, args: {strongs: G5278, work_id: macula-greek-sblgnt, book: Heb, count_only: true}, expect_contains: '"count": 4}', checked: 2026-10-13}
+  - {id: ekluo-nt-5, what: "ekluo G1590 5x NT (Gal 6:9, Heb 12:3, 5, Mark 8:3, Matt 15:32)", tool: bible_concordance, args: {strongs: G1590, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: '"count": 5}', checked: 2026-10-13}
+  - {id: kamno-nt-2, what: "kamno G2577 2x NT", tool: bible_concordance, args: {strongs: G2577, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: '"count": 2}', checked: 2026-10-13}
+  - {id: katalambano-phil-3, what: "katalambano G2638 3x in Philippians (3:12 x2, 3:13)", tool: bible_concordance, args: {strongs: G2638, work_id: macula-greek-sblgnt, book: Phil, count_only: true}, expect_contains: '"count": 3}', checked: 2026-10-13}
+  - {id: merimna-nt-6, what: "merimna G3308 6x NT", tool: bible_concordance, args: {strongs: G3308, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: '"count": 6}', checked: 2026-10-13}
+  - {id: katanoeo-heb-2, what: "katanoeo G2657 in Hebrews only 3:1 and 10:24", tool: bible_concordance, args: {strongs: G2657, work_id: macula-greek-sblgnt, book: Heb, count_only: true}, expect_contains: '"count": 2}', checked: 2026-10-13}
+  - {id: analogizomai-once, what: "analogizomai G357 (Heb 12:3 consider) NT hapax", tool: bible_concordance, args: {strongs: G357, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: '"count": 1}', checked: 2026-10-13}
+  - {id: mt11-28-perf-pass, what: "Matt 11:28 heavy laden = perfect passive participle of phortizo", tool: bible_interlinear, args: {book: Matt, chapter: 11, verse: 28}, expect_contains: "Gr,V,PEP,VMP,", checked: 2026-10-13}
+  - {id: jn4-6-kopiao, what: "John 4:6 wearied = kopiao", tool: bible_interlinear, args: {book: John, chapter: 4, verse: 6}, expect_contains: "κοπιάω", checked: 2026-10-13}
+  - {id: heb11-39-martyreo, what: "Heb 11:39 commended = martyreo", tool: bible_interlinear, args: {book: Heb, chapter: 11, verse: 39}, expect_contains: "μαρτυρέω", checked: 2026-10-13}
+  - {id: heb12-3-psychais, what: "Heb 12:3 ψυχαῖς ὑμῶν (LSB Lit souls)", tool: bible_interlinear, args: {book: Heb, chapter: 12, verse: 3}, expect_contains: "ψυχαῖς", checked: 2026-10-13}
+  - {id: isa50-7-flint, what: "Isa 50:7 flint H2496", tool: bible_interlinear, args: {book: Isa, chapter: 50, verse: 7}, expect_contains: "H2496", checked: 2026-10-13}
+  - {id: isa50-4-yaef, what: "Isa 50:4 weary H3287", tool: bible_interlinear, args: {book: Isa, chapter: 50, verse: 4}, expect_contains: "H3287", checked: 2026-10-13}
+  - {id: prov4-23-mishmar, what: "Prov 4:23 natsar + mishmar", tool: bible_interlinear, args: {book: Prov, chapter: 4, verse: 23}, expect_contains: "H4929", checked: 2026-10-13}
+  - {id: phil4-7-phroureo, what: "Phil 4:7 guard = phroureo", tool: bible_interlinear, args: {book: Phil, chapter: 4, verse: 7}, expect_contains: "φρουρέω", checked: 2026-10-13}
+  - {id: lxx-jer6-16, what: "LXX Jer 6:16 reads hagnismos (purification)", tool: bible_verse, args: {book: Jer, chapter: 6, verse: 16, translation: ebible-grcbrent}, expect_contains: "ἁγνισμὸν", checked: 2026-10-13}
+  - {id: lxx-isa40-31, what: "LXX Isa 40:31 hypomeno + kopiao", tool: bible_verse, args: {book: Isa, chapter: 40, verse: 31, translation: ebible-grcbrent}, expect_contains: "Οἱ δὲ ὑπομένοντες", checked: 2026-10-13}
+  - {id: lsb-heb12-3, what: "LSB footnote Heb 12:3 Lit souls", tool: study_note, args: {book: Heb, chapter: 12, verse: 3, work_id: lsb-2021, note_type: footnote}, expect_contains: "Lit souls", checked: 2026-10-13}
+  - {id: lsb-mk4-19, what: "LSB footnote Mark 4:19 Or age", tool: study_note, args: {book: Mark, chapter: 4, verse: 19, work_id: lsb-2021, note_type: footnote}, expect_contains: "Or age", checked: 2026-10-13}
+  - {id: lsb-mt11-29, what: "LSB footnote Matt 11:29 Lit lowly", tool: study_note, args: {book: Matt, chapter: 11, verse: 29, work_id: lsb-2021, note_type: footnote}, expect_contains: "Lit lowly", checked: 2026-10-13}
+  - {id: esvsb-mt11-28, what: "ESVSB: heavy laden = under legalism of scribes and Pharisees", tool: study_note, args: {book: Matt, chapter: 11, verse: 28, work_id: esv-study-bible, note_type: study_note}, expect_contains: "burden of religious legalism imposed on people by the scribes and Pharisees", checked: 2026-10-13}
+  - {id: esvsb-heb12-1, what: "ESVSB: NT nowhere else pictures saints in heaven watching", tool: study_note, args: {book: Heb, chapter: 12, verse: 1, work_id: esv-study-bible, note_type: study_note}, expect_contains: "nowhere else does the NT envisage saints in heaven watching saints on earth", checked: 2026-10-13}
+  - {id: esvsb-lk8-14, what: "ESVSB: thorny soil do not persevere to maturity", tool: study_note, args: {book: Luke, chapter: 8, verse: 14, work_id: esv-study-bible, note_type: study_note}, expect_contains: "do not persevere to maturity", checked: 2026-10-13}
+  - {id: nivcb-mt11-29, what: "NIVCBSB: yoke of kingdom/law; Sirach saying cited as Jer 6:16", tool: study_note, args: {book: Matt, chapter: 11, verse: 29, work_id: niv-cultural-backgrounds-study-bible, note_type: study_note}, expect_contains: "yoke of the law", checked: 2026-10-13}
+  - {id: nivcb-heb12-1, what: "NIVCBSB: stripping off clothes to run", tool: study_note, args: {book: Heb, chapter: 12, verse: 1, work_id: niv-cultural-backgrounds-study-bible, note_type: study_note}, expect_contains: "stripping off clothes to run", checked: 2026-10-13}

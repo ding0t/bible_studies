@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 55:12-14
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 55:12-14
 <!-- commentary-index:auto-end -->

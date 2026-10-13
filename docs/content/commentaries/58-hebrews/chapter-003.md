@@ -14,6 +14,7 @@ draft: false
 
 - [Faith](../../salvation/faith.md) — 3:7-8
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 3:7
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 3:1
 - [The Way](../../jesus/the-way.md) — 3:10
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 3:14
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 3:12-14

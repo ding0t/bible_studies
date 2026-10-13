@@ -20,6 +20,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 6:28-29
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 6:66-68
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 6:70-71
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 6:35-37
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 6:38
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 6:22-35
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 6:35

@@ -18,6 +18,7 @@ draft: false
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:30-36
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:34-36
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:20
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 2:42
 - [Simon Peter](../../biblical-figures/peter.md) — 2:14-41
 - [The Appointed Times](../../feasts/feasts.md) — 2:1
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 2:42-46

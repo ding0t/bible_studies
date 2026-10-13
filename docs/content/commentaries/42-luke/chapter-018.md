@@ -17,5 +17,6 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 18:14
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 18:1-8
 - [Pride](../../sin/pride.md) — 18:9-14
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 18:12-14
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 18:33
 <!-- commentary-index:auto-end -->

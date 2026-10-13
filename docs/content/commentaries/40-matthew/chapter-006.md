@@ -21,6 +21,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 6:11
 - [In Humility](../../christian-life/humility.md) — 6:11
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 6:8-13
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 6:1
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 6:10
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 6:16-18
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 6:6

@@ -100,8 +100,7 @@ stages:
       "describing the wick" (keheh is the adjective); Mark "in Rome" -> "during an imprisonment"
       (Colossians' provenance is contested); Demas and Mark "three verses apart" -> adjacent
       (4:10-11); Jude's "first word for each is mercy" -> "first word and last" (23 has "save").
-      Open for the author: Romans 9:27-29 quotes both Isaiah remnant verses (1:9; 10:22) and is
-      never mentioned; run-the-race.md (draft) link removed at publication, 2026-10-13 (Check 24 would
+      Romans 9:27-29 (both Isaiah remnant verses) added to 'Paul: chosen by grace' at the author's request, 2026-10-13; run-the-race.md (draft) link removed at publication, 2026-10-13 (Check 24 would
       have errored); olivet-discourse.md says "within a day" where this
       study (following Matt 26:2) says "two days later".
   read:
@@ -156,6 +155,10 @@ evidence:
   - {id: mt24-13-esv-note, what: "ESV Study Bible reads 'the end' of 24:13 two ways", tool: study_note, args: {book: Matt, chapter: 24, verse: 13, work_id: esv-study-bible}, expect_contains: "Either the end of the persecution when the Son of Man returns", checked: 2026-10-13}
   - {id: 1ki19-18-nivbt-note, what: "NIV BTSB: seven thousand a round number correcting Elijah", tool: study_note, args: {book: 1Kgs, chapter: 19, verse: 18, work_id: niv-biblical-theology-study-bible}, expect_contains: "A round number connoting completeness", checked: 2026-10-13}
   - {id: isa42-3-nivcb-note, what: "NIV CBSB: a smouldering wick was ordinarily replaced", tool: study_note, args: {book: Isa, chapter: 42, verse: 3, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "ordinarily quickly removed, discarded and replaced", checked: 2026-10-13}
+  - {id: rom9-27-esv, what: "Rom 9:27 quotes Isa 10:22 (ESV)", tool: study_verse, args: {book: Rom, chapter: 9, verse: 27, work_id: esv-study-bible}, expect_contains: "only a remnant of them will be saved", checked: 2026-10-13}
+  - {id: rom9-29-esv, what: "Rom 9:29 quotes Isa 1:9 (ESV)", tool: study_verse, args: {book: Rom, chapter: 9, verse: 29, work_id: esv-study-bible}, expect_contains: "If the Lord of hosts had not left us offspring, we would have been like Sodom", checked: 2026-10-13}
+  - {id: matt26-2-two-days, what: "Matt 26:2 after two days the Passover (dates the discourse; olivet-discourse.md corrected to match)", tool: study_verse, args: {book: Matt, chapter: 26, verse: 2, work_id: esv-study-bible}, expect_contains: "after two days the Passover", checked: 2026-10-13}
+  - {id: mark14-1-two-days, what: "Mark 14:1 two days before the Passover", tool: study_verse, args: {book: Mark, chapter: 14, verse: 1, work_id: esv-study-bible}, expect_contains: "two days before the Passover", checked: 2026-10-13}
 
 open_questions:
   - "Fork candidate: Matthew 24:12's anomia -- is the lawlessness the world's or the professing community's (cf. 7:23; 23:28)? Marked as both in the draft."

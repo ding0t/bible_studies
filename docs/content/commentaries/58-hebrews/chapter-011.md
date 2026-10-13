@@ -16,6 +16,7 @@ draft: false
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 11:1 (primary passage)
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 11:5
 - [Passover: When I See the Blood](../../feasts/passover.md) — 11:28
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 11:39-40
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 11:5-7
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 11:5
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 11:9

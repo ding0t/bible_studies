@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Pride](../../sin/pride.md) — 3:2
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 3:20
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 3:2
 <!-- commentary-index:auto-end -->

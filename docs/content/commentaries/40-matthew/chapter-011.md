@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 11:28-30 (primary passage)
 - [In Humility](../../christian-life/humility.md) — 11:28-30
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 11:23-24
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 11:16

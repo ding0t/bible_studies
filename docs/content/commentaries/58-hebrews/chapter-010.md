@@ -20,6 +20,7 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 10:1-18
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 10:12-13
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 10:19-22
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 10:24-25
 - [The Appointed Times](../../feasts/feasts.md) — 10:1
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 10:11-22
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:3

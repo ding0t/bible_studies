@@ -18,6 +18,7 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 8:2-3
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 8:3
 - [Pride](../../sin/pride.md) — 8:11-17
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 8:3
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 8:3
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 8:11
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:3

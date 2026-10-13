@@ -14,6 +14,7 @@ draft: false
 
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 40:17
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 40:8
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 40:29-31
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 40:8
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 40:8
 - [The Way](../../jesus/the-way.md) — 40:3

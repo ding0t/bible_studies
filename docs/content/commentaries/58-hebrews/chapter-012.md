@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 12:1-3 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 12:26-28
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 12:23
 - [Faith](../../salvation/faith.md) — 12:1-2

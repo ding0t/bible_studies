@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 6:6
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 6:6
 <!-- commentary-index:auto-end -->

@@ -14,5 +14,6 @@ draft: false
 
 - [Faith](../../salvation/faith.md) — 2:4 (primary passage)
 - [Pride](../../sin/pride.md) — 2:4
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 2:3
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 2:4
 <!-- commentary-index:auto-end -->

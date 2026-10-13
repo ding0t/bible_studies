@@ -17,6 +17,7 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 3:7-8
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 3:4-11
 - [Pride](../../sin/pride.md) — 3:4-9
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 3:12-14
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 3:5
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 3:18-19
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 3:20

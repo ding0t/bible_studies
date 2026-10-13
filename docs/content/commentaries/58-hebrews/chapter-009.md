@@ -16,6 +16,7 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 9:15
 - [Fasting](../../christian-life/fasting.md) — 9:11-12
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 9:6-28
+- [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 9:9
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 9:4
 - [The Appointed Times](../../feasts/feasts.md) — 9:7-12
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 9:4-7

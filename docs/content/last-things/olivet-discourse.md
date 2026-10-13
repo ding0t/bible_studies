@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24; Mark 13; Luke 21"
 bible_references: ["Matthew 23:36-39", "Matthew 24:1-51", "Mark 13:1-37", "Mark 14:32-42", "Mark 14:50", "Luke 21:5-36", "Luke 19:41-44", "Daniel 9:24-27", "Daniel 11:31", "Daniel 12:1-11", "Zechariah 14:1-5", "Isaiah 13:9-10", "Joel 2:30-31", "Daniel 7:13-14", "Revelation 1:7", "1 Thessalonians 4:13-18", "1 Thessalonians 5:1-4", "2 Peter 3:3-13", "John 14:3", "Acts 1:9-12", "Matthew 25:19", "Exodus 22:26-27", "Matthew 10:35-36", "Micah 7:6"]
 date_created: 2026-08-29
-date_modified: 2026-09-28
+date_modified: 2026-10-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -255,7 +255,7 @@ other, love will cool, and your job is to endure. Mark makes the same turn even 
 synagogues, and you will stand before governors and kings for my sake, to bear witness before them"
 (ESV). The disciples asked about the calendar and Jesus answered about their own coming suffering.
 
-He said it to four men Mark names (13:3), and within a day of hearing "the one who endures to the
+He said it to four men Mark names (13:3), and two days after hearing (Matthew 26:1-2; Mark 14:1) "the one who endures to the
 end will be saved," those same men "all left him and fled" (Mark 14:50, ESV). Whatever endurance
 they later showed was not native to them. It was the grace of God, and the endurance Jesus commands
 of you is the endurance He supplies.

@@ -3,11 +3,11 @@ title: "Run the Race: Come to Me, All Who Are Weary"
 category: "spiritual-disciplines"
 description: "Jesus invites the weary to Himself and gives them rest under His yoke. Hebrews tells tired believers to run with endurance, looking to Him. Why Christians grow weary, what feeds the runner, and what weighs the runner down."
 tags: ["matthew", "hebrews", "isaiah", "proverbs", "philippians", "discipleship", "grace", "prayer", "church", "parable", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Matthew 11:28-30; Hebrews 12:1-3"
-bible_references: ["Matthew 11:19-27", "Matthew 12:1-7", "Matthew 13:1", "Matthew 13:22", "Mark 4:19", "Luke 8:14-15", "Matthew 23:4-5", "Luke 11:46", "Jeremiah 6:16", "Isaiah 40:29-31", "Isaiah 50:4-7", "Luke 9:51", "John 4:6", "Mark 8:3", "Matthew 15:32", "Hebrews 2:1", "Hebrews 3:13", "Hebrews 4:15-16", "Hebrews 10:24-25", "Hebrews 10:32-36", "Hebrews 11:39-40", "Hebrews 12:5", "Hebrews 12:12", "Philippians 3:12-14", "Philippians 4:6-8", "Proverbs 3:5-6", "Proverbs 4:20-23", "Matthew 6:1", "Matthew 6:4", "Matthew 6:11", "Matthew 6:16", "Matthew 6:34", "Matthew 4:4", "Deuteronomy 8:3", "Acts 2:42", "Acts 15:10-11", "Luke 18:12-14", "Luke 21:34", "Luke 8:13", "John 10:28", "1 Peter 1:5", "Matthew 11:3", "Galatians 6:9", "1 Peter 5:7", "John 6:35-37", "1 John 5:3", "Hosea 6:6", "Proverbs 3:11-12", "Hebrews 12:14-15", "Psalm 55:12-14", "Acts 15:39", "2 Timothy 4:10-17", "Acts 20:29-30", "John 10:11-13", "Hebrews 9:9", "Hebrews 9:14", "Hebrews 10:1-3", "Hebrews 10:14", "Hebrews 10:22", "Hebrews 10:37-39", "Hebrews 12:4", "Hebrews 12:6", "1 John 3:20", "1 John 2:19", "Luke 8:12", "Mark 4:17"]
+bible_references: ["Matthew 11:19-27", "Matthew 12:1-7", "Matthew 13:1", "Matthew 13:22", "Mark 4:19", "Luke 8:14-15", "Matthew 23:4-5", "Luke 11:46", "Jeremiah 6:16", "Isaiah 40:29-31", "Isaiah 50:4-7", "Luke 9:51", "John 4:6", "Mark 8:3", "Matthew 15:32", "Hebrews 2:1", "Hebrews 3:1", "Hebrews 3:13", "Hebrews 4:15-16", "Hebrews 10:24-25", "Hebrews 10:32-36", "Hebrews 11:39-40", "Hebrews 12:5", "Hebrews 12:12", "Philippians 3:12-14", "Philippians 4:6-8", "Proverbs 3:5-6", "Proverbs 4:20-23", "Matthew 6:1", "Matthew 6:4", "Matthew 6:11", "Matthew 6:16", "Matthew 6:34", "Matthew 4:4", "Deuteronomy 8:3", "Acts 2:42", "Acts 15:10-11", "Luke 18:12-14", "Luke 21:34", "Luke 8:13", "John 10:28", "1 Peter 1:5", "Matthew 11:3", "Galatians 6:9", "1 Peter 5:7", "John 6:35-37", "1 John 5:3", "Hosea 6:6", "Proverbs 3:11-12", "Hebrews 12:14-15", "Psalm 55:12-14", "Acts 15:39", "2 Timothy 4:10-17", "Acts 20:29-30", "John 10:11-13", "Hebrews 9:9", "Hebrews 9:14", "Hebrews 10:1-3", "Hebrews 10:14", "Hebrews 10:22", "Hebrews 10:37-39", "Habakkuk 2:3", "Hebrews 12:4", "Hebrews 12:6", "1 John 3:20", "1 John 2:19", "Luke 8:12", "Mark 4:17"]
 date_created: 2026-10-02
-date_modified: 2026-10-11
+date_modified: 2026-10-13
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -178,7 +178,7 @@ is something He does. "You will find rest for your souls" (Matthew 11:29) is wha
 you are under the yoke and learning from Him.
 
 That second phrase is Jeremiah's. God told Judah to ask for the ancient paths, "where the good way
-is; and walk in it, and find rest for your souls. But they said, 'We will not walk in it'"
+is; and walk in it, and find rest for your souls. But they said, 'We will not walk in it.'"
 (Jeremiah 6:16, ESV). Matthew follows the Hebrew <span dir="rtl">מַרְגּוֹעַ</span> (*margoaʿ*, H4771),
 "rest", a word found nowhere else in the Hebrew Bible. The Greek translation of Jeremiah has
 "purification" there instead. So Jesus took Jeremiah's own words and offered again what Judah
@@ -198,7 +198,7 @@ ESV). Years later their hands were drooping (Hebrews 12:12). The letter names wh
 
 - **Suffering that went on.** The struggle of Hebrews 10:32 had not ended, though "you have not yet
   resisted to the point of shedding your blood" (Hebrews 12:4, ESV).
-- **Waiting.** Jesus had not yet returned. The writer answers with Habakkuk: "Yet a little while,
+- **Waiting.** Jesus had not yet returned. The writer answers with Habakkuk 2:3: "Yet a little while,
   and the coming one will come and will not delay" (Hebrews 10:37, ESV).
 - **Sin left in place.** "Exhort one another every day ... that none of you may be hardened by the
   deceitfulness of sin" (Hebrews 3:13, ESV). It is the sin that "clings so closely" to the runner
@@ -332,8 +332,7 @@ held.
 
 ## What feeds the runner
 
-The backlog behind this study asked three questions. Is it by meeting together, by prayer, by living
-on the word? Scripture says yes to all three, and Luke puts them in one sentence about the first
+Does the runner keep going by meeting together, by prayer, by living on the word? Scripture says yes to all three, and Luke puts them in one sentence about the first
 church: "they devoted themselves to the apostles' teaching and the fellowship, to the breaking of
 bread and the prayers" (Acts 2:42, ESV).
 
@@ -347,8 +346,8 @@ bread and the prayers" (Acts 2:42, ESV).
 > meet together, as is the habit of some, but encouraging one another, and all the more as you see
 > the Day drawing near.
 
-"Consider" here and "consider him" at Hebrews 12:3 work together. You look at Jesus, and you look at
-each other to stir one another up. The exhortation is daily, "as long as it is called 'today'"
+"Consider" here is κατανοέω (*katanoeō*, G2657), the verb of "consider Jesus" (Hebrews 3:1, ESV).
+You look at Jesus, and you look at each other to stir one another up. The exhortation is daily, "as long as it is called 'today'"
 (Hebrews 3:13, ESV). See
 [Where Two or Three Are Gathered](../israel-and-church/where-two-or-three-are-gathered.md) for what
 Jesus promises a gathered church.
@@ -376,15 +375,14 @@ help in time of need" (Hebrews 4:16, ESV). It is also where worry goes to be exc
 every word that comes from the mouth of the LORD" (Deuteronomy 8:3, ESV). Jesus, hungry after forty
 days, lived by that verse (Matthew 4:4). Isaiah's Servant was fed the same way: "Morning by morning
 he awakens; he awakens my ear to hear as those who are taught" (Isaiah 50:4, ESV). He was taught
-first, and then He sustained the weary with a word.
+first, and then he sustained the weary with a word.
 
 The word does what it says. Jesus called Himself the bread of life: "whoever comes to me shall not
 hunger" (John 6:35, ESV). Read the Gospels, and you are reading the Person you are told to consider.
 
 ## What weighs the runner down
 
-The backlog's second list asked what does *not* sustain the runner. Each item is a load Jesus did not
-put on you.
+The loads below are ones Jesus did not put on you.
 
 ### Works done to be seen
 
@@ -462,7 +460,7 @@ world. Then turn to "whatever is true, whatever is honorable, whatever is just, 
 
 ### Guard your heart
 
-The backlog ends in Proverbs, and Proverbs gives the instruction:
+Proverbs gives the instruction:
 
 > ✝️ Proverbs 4:20-23 (ESV)
 >
@@ -528,5 +526,3 @@ pray, gather, and put down the loads He never handed you.
 - [Assurance of Salvation](../salvation/assurance-of-salvation.md) — how the Father and the Son keep
   those who are His.
 - [Hurt by the Church](hurt-by-the-church.md) — wolves, weeds, wounded sheep and the Good Shepherd.
-- [Go and Make Disciples](great-commission.md) — the Great Commission without the weight of missions
-  guilt.
