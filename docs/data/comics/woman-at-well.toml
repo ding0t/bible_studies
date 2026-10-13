@@ -1,0 +1,103 @@
+# One-minute comic for docs/content/jesus/woman-at-well.md.
+# Drawn by: python3 utils/build_comics.py woman-at-well
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-13.
+#
+# The study's finding is a split by speaker (its table under "The two words English calls 'well'"):
+# the narrator calls Jacob's well a πηγή, a spring (John 4:6, twice, SBLGNT checked); the woman calls
+# it a φρέαρ, a shaft (4:11, 12); Jesus takes the narrator's word for what He gives (4:14). English
+# prints "well" for both, so the comic draws the difference as thought pictures: `style = "thought"`
+# with a picture labelled by the word that person actually says. Each picture is grounded in that
+# speaker's own word in the panel's verses; neither invents a thought the text does not voice.
+# The study marks the contrast as "John's staging, carried by who says which word", not a lexical
+# law (Genesis 24 uses both words of one source); the aside in panel 2 says the same.
+#
+# Emphasis, one per beat:
+# - Panel 2 and 3: the two thought pictures and the key words (*well*, *spring*).
+# - Panel 3: gold focus lines on Jesus, the beat the study turns on.
+# - Panel 4: the shaft again over her head, because her request keeps the walk to the shaft in view
+#   ("or have to come here to draw water", 4:15); the aside marks this as the study's reading.
+# - Panel 5: the question mark, because her words are a question: "Can this be the Christ?" (4:29).
+#   The jar left on the ground: "the woman left her water jar" (4:28).
+# Setting: Sychar, Jacob's well, "about the sixth hour" (4:5-6), so a day sky; Jesus sits (4:6).
+
+title = "The Woman at the Well"
+subtitle = "A shaft, a spring, and the One who gives it, in one minute"
+layout = [[290, 1], [340, 1, 1], [330, 1, 1]]
+point = "She came to a shaft; Jesus offered a spring, the Holy Spirit welling up inside whoever asks. Ask Him, and drink (John 4:10, 14; 7:39)."
+
+[[panel]]
+ref = "John 4:5-7"
+scene = "plain"
+sky = "day"
+props = [ { what = "well", x = 0.30 } ]
+caption = "Jacob's well at Sychar, about noon. John calls it a spring, πηγή."
+caption_w = 330
+aside = "Watch who says which word. John 4 splits them by speaker; elsewhere the two can overlap."
+aside_w = 330
+shows = "Jesus sits tired beside the stone rim of Jacob's well; a Samaritan woman walks up carrying a water jar"
+cast = [
+  { who = "jesus", x = 0.14, face = "right", stance = "sit", pose = "fold" },
+  { who = "woman", id = "woman", name = "The woman", x = 0.74, face = "left", stance = "walk", pose = "hold", holds = "jar", tone = 2 },
+]
+say = [
+  { by = "jesus", text = "Give me a drink.", source = "esv", at = [0.28, 0.34], w = 140 },
+]
+
+[[panel]]
+ref = "John 4:11"
+scene = "plain"
+sky = "day"
+shows = "The woman, jar in hand, speaks to Jesus; above her head a thought cloud shows a deep shaft cut through rock to water far below, with a rope and a jar let down"
+cast = [
+  { who = "woman", id = "woman", name = "The woman", x = 0.72, face = "left", pose = "hold", holds = "jar", tone = 2, s = 0.82 },
+]
+say = [
+  { by = "woman", style = "thought", text = "", picture = { what = "shaft", n = 1, h = 70, s = 0.9, label = "a deep shaft", caption = "φρέαρ: a shaft" }, at = [0.76, 0.03], w = 120 },
+  { by = "woman", text = "Sir, you have nothing to draw water with, and the *well* is deep.", source = "esv", at = [0.28, 0.56], w = 160 },
+]
+
+[[panel]]
+ref = "John 4:13-14"
+scene = "plain"
+sky = "day"
+burst = { on = "jesus", color = "gold" }
+shows = "Jesus, seated, answers; above His head a thought cloud shows water rising out of the rock on its own and running over"
+cast = [
+  { who = "jesus", x = 0.30, face = "right", stance = "sit", pose = "open" },
+]
+say = [
+  { by = "jesus", style = "thought", text = "", picture = { what = "spring", n = 1, h = 70, s = 0.9, label = "a spring rising out of the rock", caption = "πηγή: a spring" }, at = [0.28, 0.04], w = 130 },
+  { by = "jesus", text = "The water that I will give him will become in him a *spring* of water welling up to eternal life.", source = "esv", at = [0.72, 0.46], w = 170 },
+]
+
+[[panel]]
+ref = "John 4:15"
+scene = "plain"
+sky = "day"
+aside = "The study's reading: she still pictures the shaft."
+aside_w = 150
+shows = "The woman asks for the water; the thought cloud over her head still shows the shaft"
+cast = [
+  { who = "woman", id = "woman", name = "The woman", x = 0.72, face = "left", pose = "open", tone = 2, s = 0.82 },
+]
+say = [
+  { by = "woman", style = "thought", text = "", picture = { what = "shaft", n = 1, h = 70, s = 0.9, label = "the deep shaft again", caption = "φρέαρ" }, at = [0.74, 0.03], w = 110 },
+  { by = "woman", text = "Sir, give me this water, so that I will not be thirsty or have to come here to *draw water*.", source = "esv", at = [0.27, 0.42], w = 150 },
+]
+
+[[panel]]
+ref = "John 4:26-29"
+scene = "plain"
+sky = "day"
+props = [ { what = "well", x = 0.22 }, { what = "jar", x = 0.40 } ]
+caption = "She leaves her water jar and goes into the town."
+caption_w = 240
+shows = "Jesus sits by the well; the woman's water jar stands on the ground where she left it, and she hurries away toward the town with a question mark over her head"
+cast = [
+  { who = "jesus", x = 0.10, face = "right", stance = "sit", pose = "open" },
+  { who = "woman", id = "woman", name = "The woman", x = 0.82, face = "right", stance = "walk", pose = "open", tone = 2, marks = ["question"] },
+]
+say = [
+  { by = "jesus", text = "I who speak to you am he.", source = "esv", at = [0.22, 0.40], w = 120 },
+  { by = "woman", text = "Can this be the *Christ*?", source = "esv", at = [0.60, 0.62], w = 110 },
+]
