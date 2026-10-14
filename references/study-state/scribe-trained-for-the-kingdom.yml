@@ -541,3 +541,27 @@ read_2026-10-01:
   for_the_author:
     - "The Study outline has no entry for '## Who is writing, and to whom' -- the only teaching ## section it omits. Left alone (outline lines count as prose)."
     - "'The commentaries' reading, and a merism' now sits directly above a paragraph opening with the bold lead-in '**What the new and old are.**' -- slightly redundant; dropping the lead-in is a sentence edit, so the author's call."
+
+read_simplify_2026-10-14:
+  read:
+    before: {sections: 37, median_words: 121, over_target: 0, walls: 0}
+    after: {sections: 38, median_words: 104, over_target: 0, walls: 0}
+    added_heading: "### How much the passive carries -- surfaces the contested-passive confidence note inside '\"Has been trained\": the passive'"
+    outline: "added the missing bullet for '## Who is writing, and to whom'"
+  simplify:
+    status: applied -- author approved items 1-2
+    words_before: 3922
+    budget: 4000
+    shortened_sentences:
+      - old: "He had more to say than He had yet said, and when He said it He did not take back a word of what He had said before."
+        new: "He had more to say than He had yet said."
+        why: "merge -- restated 'This shows that God does not discard His own words'"
+      - old: "**What the new and old are.** The commentaries consulted here converge: ..."
+        new: "The commentaries consulted here converge: ..."
+        why: "bold lead-in duplicated the #### heading"
+      - old: "References: bold labels repeating each ### heading (Bible texts..., Translations quoted..., Commentary and background, On this site)"
+        new: "label dropped; parenthetical note kept as the lead-in sentence; 'On this site:' line deleted"
+    verified: "study_structure.py --verify-against HEAD: removed/added lines are only the above plus the outline bullet's wrapped line. npm run validate: only the pre-existing discussion-question facet warnings."
+  for_review:
+    - "References says NLT renderings of 13:52 'appear in the comparison table only' -- the NLT is not in the dative table (it appears in the storeroom sentence)."
+    - "References credits Brenton for 'Ezra 7:6, 7:11 in Greek' -- the study cites only 7:6 in Greek."

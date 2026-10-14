@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 13:51-52"
 bible_references: ["Matthew 13:10-17", "Isaiah 6:9-10", "Matthew 13:35", "Matthew 13:44-53", "Matthew 9:16-17", "Matthew 12:35", "Matthew 5:17-20", "Matthew 23:34", "Matthew 28:19-20", "Matthew 8:19", "Matthew 27:57", "Matthew 12:14-50", "Matthew 13:39-40", "Ephesians 3:5-9", "Colossians 1:26", "Daniel 2:27-28", "Ezra 7:6-11", "Psalm 78:2", "2 Timothy 3:16-17", "1 John 2:7-8"]
 date_created: 2026-09-18
-date_modified: 2026-10-01
+date_modified: 2026-10-14
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -93,6 +93,8 @@ You have given. In Jesus' name. Amen.
 
 ## Study outline
 
+- [Who is writing, and to whom](#who-is-writing-and-to-whom). A tax collector writing for readers
+  who knew the Law.
 - [Where the verse sits](#where-the-verse-sits). The disciples' "yes" and the "therefore" that
   answers it.
 - [What a scribe was](#what-a-scribe-was). Ezra's office, the first-century profession, and the
@@ -308,7 +310,7 @@ is accomplished" (5:18, ESV). The God who speaks keeps what He has spoken.
 
 #### The commentaries' reading, and a merism
 
-**What the new and old are.** The commentaries consulted here converge: the "new" revelation
+The commentaries consulted here converge: the "new" revelation
 from Jesus fulfils the "old" promises of the Old Testament (*ESV Study Bible*), which are read in
 light of the fuller message of the kingdom (both *Cultural Backgrounds Study Bibles*), with
 continuity between the eras and fresh items added (*NIV Biblical Theology Study Bible*). The *NLT
@@ -339,6 +341,8 @@ Matthew's:
 Matthew's Gospel opens this word in the passive and closes it in the active. In 13:52 the
 disciple is made; in 28:19 the made disciple is sent to make others — "Go therefore and make
 disciples of all nations" (ESV). Everything between those two verses is the training.
+
+### How much the passive carries
 
 How much the passive itself carries is contested. The passive of this verb can mean simply
 "became a disciple": the ESV renders the same form at 27:57 "was a disciple of Jesus," the NIV,
@@ -442,9 +446,8 @@ disciple drop either half. The old stock is God's word to Israel. The new stock 
 of Romans 11 puts the same shape in a heading:
 [two mysteries, "and neither cancels the other"](../israel-and-church/israel-and-the-church.md#two-mysteries-and-neither-cancels-the-other).
 
-**This shows that God adds without subtracting.** He had more to say than He had yet said, and
-when He said it He did not take back a word of what He had said before. That is why the picture is
-a storeroom: it has room for everything He has ever said.
+**This shows that God adds without subtracting.** He had more to say than He had yet said. That is
+why the picture is a storeroom: it has room for everything He has ever said.
 
 ## What Jesus is making
 
@@ -511,8 +514,8 @@ front of someone this week with something in your hands — because He put it th
 
 ### Bible texts and original-language data
 
-**Bible texts and original-language data** (all open-licence, queried from this repo's
-`bible-text.db` — see [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md)):
+All open-licence, queried from this repo's
+`bible-text.db` — see [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md):
 
 - *SBL Greek New Testament* (CC BY 4.0) — the Greek text of Matthew quoted and parsed here.
 - *MACULA Greek Linguistic Datasets (SBLGNT)* (CC BY 4.0) — morphology and Louw-Nida semantic
@@ -528,8 +531,7 @@ front of someone this week with something in your hands — because He put it th
 
 ### Translations quoted
 
-**Translations quoted under publishers' permission notices** (see
-[copyright](../about/copyright.md)):
+Quoted under publishers' permission notices (see [copyright](../about/copyright.md)):
 
 - *The Holy Bible, English Standard Version* (Crossway, 2016) — this site's default, and the
   translation of every quotation above unless otherwise labelled.
@@ -538,7 +540,7 @@ front of someone this week with something in your hands — because He put it th
 
 ### Commentary and background
 
-**Commentary and background** (each cited for a sentence or less, with attribution):
+Each cited for a sentence or less, with attribution:
 
 - *ESV Study Bible* (Crossway, 2016) — introduction to Matthew on authorship and the early
   testimony of Papias and Irenaeus; notes on 13:10-11 and 13:51-52.
@@ -555,8 +557,6 @@ front of someone this week with something in your hands — because He put it th
   quoted above as a verse's meaning.
 
 ### On this site
-
-**On this site:**
 
 - [How to Read the Bible](how-to-read-the-bible.md) — the method this study follows.
 - [Original Language Data](original-language-data.md) — where the Greek and Hebrew data above
