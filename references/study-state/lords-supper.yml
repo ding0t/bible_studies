@@ -53,7 +53,7 @@ graphics_plan:
   - id: svg-3 (optional)
     file: "docs/content/assets/img/lords-supper-one-loaf.svg"
     shows: "Didache 9:4 beside 1 Cor 10:17: scattered grain on the hills gathered into one loaf, one body. Could fold into svg-1 instead."
-  constraints: "Content column ~560px (diagrams.md). Design viewBox ~640 wide, text >= 15 units so it renders >= 13px. Fixed colours with own background (an <img> SVG cannot read the site's dark-mode variables). title + desc for accessibility; full alt text in the markdown, as new-jerusalem.md does."
+graphics_constraints: "Content column ~560px (diagrams.md). Design viewBox ~640 wide, text >= 15 units so it renders >= 13px. Fixed colours with own background (an <img> SVG cannot read the site's dark-mode variables). title + desc for accessibility; full alt text in the markdown, as new-jerusalem.md does."
 
 stages:
   scoping:

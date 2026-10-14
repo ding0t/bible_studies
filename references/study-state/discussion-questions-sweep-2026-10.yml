@@ -20,7 +20,7 @@ pass: >
   variant labels (Language., Context., You.) to the canonical five.
 
 waves: ~4 studies per agent wave, author approves each wave before the next.
-commits: one per study, "docs(<section>): label discussion questions in <study>".
+commits: 'one per study, "docs(<section>): label discussion questions in <study>".'
 
 todo:
   - jesus/woman-at-well.md
