@@ -16,6 +16,7 @@ draft: false
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 6:16
 - [Pride](../../sin/pride.md) — 6:14
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 6:9
+- [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 6:1
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 6:1
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 6:1
 <!-- commentary-index:auto-end -->

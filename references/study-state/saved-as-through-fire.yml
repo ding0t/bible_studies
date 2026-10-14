@@ -1,0 +1,220 @@
+slug: "saved-as-through-fire"
+title: "Saved as Through Fire"
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/salvation/saved-as-through-fire.md"
+
+primary_passage: "1 Corinthians 3:10-15; Jude 1:22-23"
+supporting_passages:
+  - "1 Corinthians 1:10-12"
+  - "1 Corinthians 1:20"
+  - "1 Corinthians 2:14-3:4"
+  - "1 Corinthians 3:16-23"
+  - "1 Corinthians 4:5"
+  - "1 Corinthians 6:9-11"
+  - "2 Corinthians 5:10"
+  - "Jude 1:3-4"
+  - "Jude 1:7"
+  - "Jude 1:9"
+  - "Jude 1:19-21"
+  - "Zechariah 3:1-5"
+  - "Amos 4:11"
+  - "Galatians 6:1"
+  - "James 5:19-20"
+  - "2 Timothy 2:24-26"
+  - "Romans 12:2"
+sibling_studies:
+  - slug: "about/statement-of-faith.md"
+    role: prose
+    use: build-on
+    note: >-
+      "The house God is building" and "Reward for the believer" already read 1 Corinthians
+      3:11-15 as the judgment seat assessing a son's work, not deciding sonship. This study
+      exegetes the passage those two sections rest on; it must stay consistent with them and can
+      link "Reward for the believer".
+  - slug: "christian-life/when-love-grows-cold.md"
+    role: cited
+    use: link
+    note: >-
+      Quotes Jude 20-23 (ESV) in "Keep yourself" and covers going after the wanderer (Galatians
+      6:1; James 5:19-20; Matthew 18:12-14) in "Go after the one who wanders". Link, do not
+      re-argue. This study adds what that one lacks: Zechariah 3 behind Jude 23, the three groups
+      and the textual question, mercy "with fear".
+  - slug: "last-things/rapture.md"
+    role: cited
+    use: link
+    note: "Bema table and 'The judgments' section treat 1 Corinthians 3:11-15 as reward. Link for timing of the Bema; don't re-argue."
+  - slug: "salvation/assurance-of-salvation.md"
+    role: prose
+    use: link
+    note: >-
+      "When someone walks away" (1 John 2:19) is the other half of the profession question: not
+      every profession was real. This study must not contradict it -- 1 Cor 3:15 covers a builder on
+      the foundation, not a profession with no foundation. Link it.
+  - slug: "christian-life/hurt-by-the-church.md"
+    role: cited
+    use: none
+    note: "Galatians 6:1 'restore gently' bullet and Jude 3-4, 12. Passing overlap only."
+  - slug: "christian-life/test-the-spirits.md"
+    role: cited
+    use: link
+    note: "Jude's false teachers (Jude 4, 8, 11-13, 19). Link where Jude 19's 'worldly people' are named."
+  - slug: "christian-life/great-commission.md"
+    role: cited
+    use: none
+    note: "draft: true -- never link from a published page. Cites 1 Cor 3:5 only."
+genre: ["epistle", "topical"]
+
+thesis: "A believer who builds with the world's wisdom is still saved, but only as one escaping through the flames with nothing in his hands; and God, who plucked Joshua from the fire and clothed him clean, sends you to pull drifting brothers and sisters back in mercy."
+outline:
+  - {section: "Two verses, two fires", says: "1 Cor 3:15's fire tests a believer's work; Jude 23's fire is judgment closing on a person. Same people, two sides."}
+  - {section: "Brothers who think like the world", says: "Corinth imported the world's wisdom; Paul separates psychikos (no Spirit) from sarkikos (brothers living by the flesh) and keeps teaching them."}
+  - {section: "The builder and the Day", says: "Builders are first those who build the church; the Day's fire reveals; loss of reward, the builder himself saved."}
+  - {section: "What 'saved as through fire' does not promise", says: "3:17, 6:9-11, 5:5/5:11 limit it; the carnal-Christian category marked contested with both cases."}
+  - {section: "Snatching them out of the fire", says: "Jude 22-23's groups (two or three, textually contested): mercy, rescue, mercy with fear; link when-love-grows-cold for Gal 6:1/James 5."}
+  - {section: "A brand plucked from the fire", says: "Jude reads Zech 3 twice; God rescues, silences the accuser and clothes Joshua clean, pointing to the Branch and the single day; the rescuer was rescued first."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >-
+      Author's brief (2026-10-14): salvation section, "saved as one escaping the flames" applied to
+      Christians who profess faith but are limited in understanding and action; those who say they
+      are Christians but don't live like it; those whose beliefs are shaped more by the world than
+      Scripture; and Jude's "snatched from the fire" as encouraging such believers back to the
+      truth in love. Two passages, two different fires -- see exegesis notes.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        1 Corinthians: Paul from Ephesus, spring AD 53-55 (ESV SB intro; 1 Cor 16:8). A church
+        divided by allegiance to leaders (1:10-12), importing the status culture of Greco-Roman
+        "wisdom" (1:20; 3:18-20). Jude: letter to churches where false teachers had "crept in
+        unnoticed" (Jude 4), perverting grace into sensuality; Jude 17-25 turns to the faithful's
+        response.
+    literary_context:
+      done: true
+      notes: >-
+        1 Cor 3:10-15 sits inside 3:1-4:21 (Paul and Apollos as servants; stop boasting in men).
+        3:1-4 calls the Corinthians brothers, infants in Christ, yet sarkinos/sarkikos, "walking
+        according to man" (kata anthrōpon, 3:3) -- their divisions are the world's way of
+        thinking. 3:5-9 field; 3:10-15 building, builders tested; 3:16-17 temple, the destroyer
+        destroyed (a different and worse case than 3:15); 3:18-20 the wisdom of this world is folly.
+        So the "worldly-minded believer" is in the immediate context, but 3:15's subject is the
+        builder whose WORK (what he built into the church) burns. Primary referent is teachers
+        (Paul, Apollos, "someone else is building", 3:10); ESV SB note extends to anyone who
+        contributes to building up the church (12:7; 14:12). Statement of faith extends further, to
+        each believer's own life. Mark that step as application.
+        Jude 22-23 sits after 20-21 (keep yourselves) and before the doxology (24-25, "him who is
+        able to keep you"). Jude 9 has Michael say "The Lord rebuke you" -- Zech 3:2's first half.
+        Jude 23's "out of the fire" and "garment stained" are Zech 3:2b-4. Jude reads Zechariah 3
+        twice.
+    content_word_studies:
+      done: true
+      notes: "Counts verified by bible_concordance on macula-greek-sblgnt, 2026-10-14."
+      terms:
+        - word: "σαρκίνοις"
+          language: greek
+          transliteration: "sarkinos"
+          strongs_id: "G4560"
+          gloss: "made of flesh, fleshly"
+          notes: "1 Cor 3:1. 4 NT occurrences (1 Cor 3:1; 2 Cor 3:3; Heb 7:16; Rom 7:14)."
+        - word: "σαρκικοί"
+          language: greek
+          transliteration: "sarkikos"
+          strongs_id: "G4559"
+          gloss: "fleshly, characterised by the flesh"
+          notes: "1 Cor 3:3 twice. Addressed to 'brothers', 'infants in Christ' (3:1)."
+        - word: "ψυχικός"
+          language: greek
+          transliteration: "psychikos"
+          strongs_id: "G5591"
+          gloss: "natural, unspiritual"
+          notes: >-
+            6 occurrences in 4 verses: 1 Cor 2:14; 15:44 (x2); 15:46; James 3:15; Jude 19. Paul
+            uses it of the person who does not accept the things of the Spirit (2:14) and then
+            switches to sarkinos for the Corinthian brothers (3:1). Jude 19 uses psychikos of the
+            false teachers, "devoid of the Spirit". The text itself distinguishes the worldly-acting
+            believer from the person without the Spirit.
+        - word: "ζημιωθήσεται"
+          language: greek
+          transliteration: "zēmioō"
+          strongs_id: "G2210"
+          gloss: "suffer loss, forfeit"
+          notes: "6 NT occurrences incl. Matt 16:26 / Mark 8:36 / Luke 9:25 (forfeit his soul) and Phil 3:8 (Paul's loss of all things). CSB AF footnote: 'Or suffer'."
+        - word: "ὡς διὰ πυρός"
+          language: greek
+          transliteration: "hōs dia pyros"
+          strongs_id: "G4442"
+          gloss: "as through fire"
+          notes: >-
+            hōs = the comparison; the man is not refined by the fire, he escapes it like someone
+            out of a burning building. LXX Amos 4:11 'hōs dalos exespasmenos ek pyros' shares hōs +
+            pyros: possible proverbial background, mark as likely, not demonstrated (verb and
+            preposition differ).
+        - word: "ἁρπάζοντες"
+          language: greek
+          transliteration: "harpazō"
+          strongs_id: "G726"
+          gloss: "seize, snatch"
+          notes: "14 NT occurrences; John 10:28-29 (no one will snatch them out of my hand), 1 Thess 4:17."
+        - word: "διακρινομένους"
+          language: greek
+          transliteration: "diakrinomai"
+          strongs_id: "G1252"
+          gloss: "doubt, waver; dispute"
+          notes: "Twice in Jude: 9 (Michael 'disputing') and 22 ('those who doubt'). Contested whether 22 means doubters or disputers."
+        - word: "אוּד מֻצָּל מֵאֵשׁ"
+          language: hebrew
+          transliteration: "ud mutsal me'esh"
+          strongs_id: "H181"
+          gloss: "a firebrand snatched from the fire"
+          notes: "Zech 3:2 (and Amos 4:11 'from the burning', שְׂרֵפָה). LXX Zech 3:2: hōs dalos exespasmenos ek pyros. Jude 23 shares 'ek pyros'."
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: false
+      notes: ""
+    theological_principle:
+      done: false
+      notes: ""
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: false
+    cross_refs:
+      - {ref: "Zechariah 3:2-4", relation: "Jude 9 and 23 both draw on it (rebuke; brand from fire; filthy garments)"}
+      - {ref: "Amos 4:11", relation: "same firebrand idiom; possible background to 1 Cor 3:15's hōs"}
+      - {ref: "1 Corinthians 2:14; Jude 19", relation: "psychikos -- the person without the Spirit"}
+      - {ref: "1 Corinthians 3:16-17", relation: "destroyer of the temple destroyed -- limit on 3:15"}
+      - {ref: "1 Corinthians 6:9-11", relation: "'Do not be deceived' -- limit on reading 3:15 as permission"}
+      - {ref: "2 Corinthians 5:10; 1 Corinthians 4:5", relation: "judgment seat; commendation from God"}
+    translations_compared: ["ESV", "NASB", "NIV"]
+    divergences_noted: >-
+      1 Cor 3:15: ESV "only as through fire"; NASB "yet only so as through fire"; NIV "as one
+      escaping through the flames" (from passage notes: NIV BTSB 'escaping'). Jude 22: NLT footnote
+      'Some manuscripts read must reprove' (elegchete vs eleate); NLT footnote 23: some manuscripts
+      have only two groups. NASB 'on some... others... some' keeps the three-way relative pronoun.
+  drafting:
+    done: true
+    file: "docs/content/salvation/saved-as-through-fire.md"
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "Published 2026-10-14 with links added from statement-of-faith.md 'Reward for the believer' and assurance-of-salvation.md 'When someone walks away'."
+  - "Warfield review confirmed as Princeton Theological Review 17, no. 2 (1919): 322-327 (secondary citations: heidelblog.net 2022-08, kimriddlebarger.com). Chafer 1918 first edition per standard citations; original PTR wording not checked."
+  - "Greek-city patronage of teachers (1 Cor 1:12 background) is summarised from the Cultural Backgrounds notes in general; no single note states it. Firm up or soften in review."
+  - "Jude 22-23: two groups or three, and eleate vs elegchete. NA28 apparatus not queryable (study_verse na28 returned empty). Report as contested from the translators' footnotes; do not resolve beyond them."
+  - "Does 1 Cor 3:15 apply to every believer's life, or primarily to those who build the church? Mark the extension as application."
+  - "The 'carnal Christian' doctrine (Chafer, He That Is Spiritual, 1918) and its critics -- relevant to the author's question; dispensational origin. Treat in one marked-contested paragraph, or fork?"
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "1 Cor intro; notes on 3:1-3, 3:14-15, 3:17; Jude 22-23, 23. Confirmed reward-not-salvation reading; contributed the extension 'anyone who contributes to building up the church'."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "1 Cor 3:13 note: fire manifests, does not punish or purify -- contributed; builders = teachers. Jude 22-23: three groups."}
+  - {type: commentary, title: "NIV / NKJV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Metal refining vs straw burning (Zech 13:9; Mal 3:2-3; Isa 33:11-12); 'infants' as insult to the self-styled wise; Zech 3:2,4 behind Jude 23 and Jude 9."}
+  - {type: other, title: "NLT Christian Basics / Life Application footnotes", author: "Tyndale", note: "Jude 22 'must reprove' variant; two-group manuscripts at Jude 23."}
+  - {type: commentary, title: "CSB Ancient Faith Study Bible", author: "", note: "Footnote at 1 Cor 3:15: 'Or suffer'."}
+last_updated: "2026-10-14"
+# 2026-10-14: comic docs/data/comics/saved-as-through-fire.toml embedded; two-fires table added; statement-of-faith Reward section given its scriptural grounds; when-love-grows-cold given the Zechariah 3 sentence.

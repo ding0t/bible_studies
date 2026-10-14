@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 2:14-16
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 2:14-15
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:14-15
 <!-- commentary-index:auto-end -->

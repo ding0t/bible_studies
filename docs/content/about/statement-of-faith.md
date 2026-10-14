@@ -5,7 +5,7 @@ description: "Personal statement of faith and biblical doctrine"
 tags: ["statement-of-faith", "doctrine", "faith", "justification", "sanctification", "glorification"]
 draft: false
 date_created: 2025-04-28
-date_modified: 2026-09-27
+date_modified: 2026-10-14
 ai_provider_models:
   - anthropic/claude-opus-4.8
   - anthropic/claude-opus-5
@@ -208,9 +208,19 @@ I picture the walk as a house going up on that foundation. God lays each brick: 
 
 - [x] A believer's works are examined for reward at the judgment seat of Christ — a separate event, with a separate outcome, from the final judgment of all.
 
-The same passage that names the foundation goes on to test what was built on it: 1 Corinthians 3:12-15 (ESV) — gold, silver and precious stones against wood, hay and straw, with fire to "test what sort of work each one has done." Work that survives earns reward; work burned up is loss, "though he himself will be saved, but only as through fire." 2 Corinthians 5:10 (ESV) names the setting: "we must all appear before the judgment seat of Christ." This is a son's work being assessed, not a trial to determine whether he is a son.
+The same passage that names the foundation goes on to test what was built on it: 1 Corinthians 3:12-15 (ESV) — gold, silver and precious stones against wood, hay and straw, with fire to "test what sort of work each one has done." Work that survives earns reward; work burned up is loss, "though he himself will be saved, but only as through fire." 2 Corinthians 5:10 (ESV) names the setting: "we must all appear before the judgment seat of Christ, so that each one may receive what is due for what he has done in the body, whether good or evil." The seat is the βῆμα (*bēma*, G968), the raised tribunal from which a Roman governor gave judgment; Paul had stood before the one in Corinth itself (Acts 18:12-17). Romans 14:10-12 calls it "the judgment seat of God" and says "each of us will give an account of himself to God." This is a son's work being assessed, not a trial to determine whether he is a son.
 
-That is not the great white throne of Revelation 20:11-15, where those who rejected Christ are judged — see End times below. My sin was judged at the cross and will not be raised again; what remains under review is the house.
+#### The Lord promises it
+
+The reward is the Lord's own promise. Jesus said it of giving done in secret: Matthew 6:4 (ESV) — "your Father who sees in secret will reward you"; and of His return: Revelation 22:12 (ESV) — "I am coming soon, bringing my recompense with me, to repay each one for what he has done." Colossians 3:24 (ESV) — "from the Lord you will receive the inheritance as your reward. You are serving the Lord Christ." Hebrews 6:10 (ESV) — "God is not unjust so as to overlook your work and the love that you have shown for his name." The New Testament names the rewards as crowns: an imperishable wreath (1 Corinthians 9:25), the crown of righteousness for "all who have loved his appearing" (2 Timothy 4:8, ESV), the unfading crown of glory when the chief Shepherd appears (1 Peter 5:4). And a reward can be forfeited: 2 John 8 (ESV) — "Watch yourselves, so that you may not lose what we have worked for, but may win a full reward."
+
+#### Reward or loss, never condemnation
+
+The outcome at the judgment seat is reward or loss, never condemnation, because condemnation has already been dealt with. John 5:24 (ESV) — whoever believes "has eternal life. He does not come into judgment, but has passed from death to life." Romans 8:1 (ESV) — "There is therefore now no condemnation for those who are in Christ Jesus." Hebrews 10:17 (ESV) — "I will remember their sins and their lawless deeds no more." So 1 Corinthians 3:15 can say of the man whose whole work burns, "he himself will be saved." I work through that verse, and Jude's call to snatch others out of the fire, in [Saved as Through Fire](../salvation/saved-as-through-fire.md).
+
+#### When it happens
+
+The timing is at Christ's coming for His own. Paul tells the Corinthians not to judge "before the time, before the Lord comes... Then each one will receive his commendation from God" (1 Corinthians 4:5, ESV). Jesus put the repayment "at the resurrection of the just" (Luke 14:14, ESV), and Paul orders the resurrection: "Christ the firstfruits, then at his coming those who belong to Christ" (1 Corinthians 15:23, ESV). Revelation 20 then sets a thousand years between "the first resurrection" and "the rest of the dead" (Revelation 20:5, ESV), who stand before the great white throne and are "judged by what was written in the books, according to what they had done" (Revelation 20:12, ESV). That makes two resurrections a thousand years apart. The judgment seat belongs with the first, at "the resurrection of the just," so it is a different event from the great white throne of Revelation 20:11-15 — see End times below. That no believer stands at the great white throne is my reading of "the rest of the dead," and it is the dispensational one; the text itself says that "if anyone's name was not found written in the book of life, he was thrown into the lake of fire" (Revelation 20:15, ESV), and that over those in the first resurrection "the second death has no power" (Revelation 20:6, ESV). My sin was judged at the cross and will not be raised again; what remains under review is the house.
 
 ---
 

@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 4:11
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 4:11
 <!-- commentary-index:auto-end -->

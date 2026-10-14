@@ -1,0 +1,100 @@
+# One-minute comic for docs/content/salvation/saved-as-through-fire.md.
+# Drawn by: python3 utils/build_comics.py saved-as-through-fire
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-14.
+#
+# The study in five beats: Corinth divided by the world's way of following teachers (1 Corinthians
+# 1:11-12); Paul writing to them as brothers who are still "of the flesh" (3:1-3); Paul's picture of
+# the Day, a building of wood and straw burning on its stone foundation while the builder gets out
+# (3:12-15); Zechariah's vision of Joshua, the brand plucked from the fire and clothed clean
+# (Zechariah 3:1-4); and Jude's command to snatch others out of the fire (Jude 23).
+# Panels 3 and 5 draw the writers' own pictures, and their captions say so. Satan stands at Joshua's
+# right hand (Zechariah 3:1) but speaks no recorded words, so he is not drawn and has no bubble.
+# Joshua's soiled look is Zechariah 3:3's "filthy garments". The angel of the LORD is a voice from
+# above: the cast has no angel figure, and no angel is drawn on this site.
+
+title = "Saved as Through Fire"
+subtitle = "Two fires in one minute"
+layout = [[290, 1, 1], [300, 1], [310, 1, 1]]
+note = "Panels 3 and 5 draw Paul’s and Jude’s own pictures. Satan (Zechariah 3:1) has no recorded words and is not drawn."
+point = "A believer who builds with the world’s wisdom is saved, but only as through fire. God plucked Joshua from the fire and clothed him clean; so go after the drifting in mercy (1 Corinthians 3:15; Jude 23)."
+
+[[panel]]
+ref = "1 Corinthians 1:11-12"
+scene = "street"
+sky = "day"
+caption = "Corinth. Chloe’s people report quarrelling."
+caption_w = 230
+shows = "two Corinthian believers in a street, each shouting the name of the teacher he follows"
+cast = [
+  { who = "man", id = "c1", name = "a Corinthian", x = 0.12, face = "right", pose = "shout", tone = 1 },
+  { who = "man", id = "c3", name = "a Corinthian", x = 0.88, face = "left", pose = "raise", tone = 3 },
+]
+say = [
+  { by = "c1", text = "I follow Paul!", source = "esv", style = "shout", at = [0.32, 0.30], w = 95 },
+  { by = "c3", text = "I follow Apollos!", source = "esv", style = "shout", at = [0.66, 0.58], w = 95 },
+]
+
+[[panel]]
+ref = "1 Corinthians 3:1-3"
+scene = "room"
+caption = "From Ephesus, Paul writes to them as brothers."
+caption_w = 230
+shows = "Paul seated with a scroll, writing to the Corinthians"
+cast = [
+  { who = "paul", x = 0.20, face = "right", stance = "sit", pose = "hold", holds = "scroll", tag = "Paul" },
+]
+say = [
+  { by = "paul", text = "Brothers … infants in Christ … you are still *of the flesh*.", source = "condensed", at = [0.66, 0.30], w = 190 },
+]
+
+[[panel]]
+ref = "1 Corinthians 3:12-15"
+scene = "plain"
+sky = "dusk"
+caption = "Paul’s picture: on the Day, fire tests what each one built on the foundation, Jesus Christ."
+caption_w = 420
+aside = "The building is the work. The builder gets out."
+aside_w = 230
+shows = "a house of wood and straw burning on its stone foundation, while the man who built it runs out with nothing in his hands"
+props = [
+  { what = "burning", x = 0.34, s = 1.25 },
+]
+cast = [
+  { who = "man", id = "builder", name = "the builder", x = 0.60, face = "right", stance = "walk", pose = "run", tone = 4 },
+]
+say = [
+  { by = "paul", name = "Paul", from = [1.05, 0.2], style = "text", text = "If anyone’s work is burned up, he will suffer loss, though he himself will be *saved*, but only as through fire.", source = "esv", at = [0.85, 0.36], w = 190 },
+]
+
+[[panel]]
+ref = "Zechariah 3:1-4"
+scene = "temple"
+sky = "dawn"
+caption = "Zechariah’s vision: Joshua the high priest in filthy garments."
+caption_w = 250
+shows = "Joshua the high priest standing in filthy garments while the LORD's voice speaks from above"
+cast = [
+  { who = "priest", id = "joshua", name = "Joshua", x = 0.24, face = "right", pose = "fold", look = "soiled", tag = "Joshua" },
+]
+say = [
+  { by = "lord", name = "the LORD", from = [0.95, 0.30], style = "voice", text = "Is not this a *brand plucked from the fire*?", source = "esv", at = [0.64, 0.36], w = 190 },
+  { by = "angel", name = "the angel", from = [0.98, 0.55], style = "voice", text = "I have taken your iniquity away from you.", source = "esv", at = [0.64, 0.64], w = 190 },
+]
+
+[[panel]]
+ref = "Jude 1:22-23"
+scene = "plain"
+sky = "dusk"
+caption = "Jude’s picture: go after those drifting toward the fire."
+caption_w = 240
+shows = "one believer reaching out and pulling another away from a fire"
+props = [
+  { what = "fire", x = 0.10, s = 1.2 },
+]
+cast = [
+  { who = "woman", id = "drifting", name = "one drifting", x = 0.26, face = "left", stance = "kneel", pose = "turn", tone = 2 },
+  { who = "man", id = "rescuer", name = "a believer", x = 0.44, face = "left", pose = "grope", tone = 1 },
+]
+say = [
+  { by = "jude", name = "Jude", from = [1.05, 0.2], style = "text", text = "Have mercy on those who doubt; save others by *snatching them out of the fire*.", source = "condensed", at = [0.80, 0.44], w = 140 },
+]

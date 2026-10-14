@@ -20,6 +20,7 @@ draft: false
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 10:34-36
 - [Pride](../../sin/pride.md) — 10:33-36
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 10:28
+- [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 10:28-29
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 10:4-5
 - [The Appointed Times](../../feasts/feasts.md) — 10:22-23
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:9

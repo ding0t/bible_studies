@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 John 5:11-13"
 bible_references: ["Acts 4:9-12", "Ephesians 1:13-14", "Ephesians 2:1-10", "John 3:16-18", "John 5:24", "John 6:37-40", "John 10:27-29", "Romans 8:1", "Romans 8:15-17", "Romans 8:31-39", "Romans 10:9-13", "Joel 2:32", "2 Corinthians 5:17", "Philippians 1:6", "Titus 3:4-7", "Hebrews 7:25", "2 Timothy 1:12", "1 Peter 1:3-5", "2 Peter 1:5-11", "Matthew 1:21"]
 date_created: 2026-08-24
-date_modified: 2026-10-10
+date_modified: 2026-10-14
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -224,7 +224,9 @@ able to separate us from the love of God in Christ Jesus our Lord" (ESV). The li
 believer's own future failures, because Paul has already spent Romans 8:1-4 establishing that no
 condemnation remains for them. On its own terms, 1 John 2:19's departure is evidence that not every
 visible profession was the real thing to begin with. That is a hard word. It is a different hard
-word from "you can lose what you were actually given."
+word from "you can lose what you were actually given." For the believer who is truly Christ's but builds
+with the world's wisdom, and for how to go after those who drift, see
+[Saved as Through Fire](saved-as-through-fire.md).
 
 ## Discussion questions
 

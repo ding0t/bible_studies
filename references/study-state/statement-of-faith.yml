@@ -2,6 +2,13 @@ slug: "statement-of-faith"
 title: "Statement of Faith"
 status: published
 target_path: "docs/content/about/statement-of-faith.md"
+word_budget: 4500
+word_budget_reason: >
+  Raised from the 4,000 default on 2026-10-14, at the author's request, when "Reward for the
+  believer" was expanded with the scripture behind it (judgment seat, the Lord's promises, reward
+  or loss without condemnation, and its timing), taking the page to about 4,080 words. The 4,000
+  default is sized for a study read aloud in one sitting. This page is a confession consulted
+  section by section, and each section needs its proof texts.
 
 note: >
   No state file existed before 2026-08-13. This page predates both the develop-bible-study and

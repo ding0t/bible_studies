@@ -659,6 +659,22 @@ def prop_fire(x, y, s):
     return "".join(out)
 
 
+def prop_burning(x, y, s):
+    """A building of wood and straw burning on a foundation of dressed stone (1 Corinthians 3:11-13)."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           '<ellipse cx="0" cy="-70" rx="120" ry="100" fill="url(#comic-fire)"/>']
+    for k in range(6):
+        out.append(f'<rect x="{-72 + 24 * k}" y="-14" width="24" height="14" fill="{STONE}" stroke="{STONE_EDGE}" stroke-width="1"/>')
+    out.append('<path d="M-64 -14 V-84 M-30 -14 V-90 M6 -14 V-92 M40 -14 V-86 M66 -14 V-80" stroke="#6b4a2a" stroke-width="6"/>'
+               '<path d="M-70 -84 L0 -128 L72 -80" fill="none" stroke="#6b4a2a" stroke-width="6"/>'
+               '<path d="M-78 -82 L0 -134 L80 -78 L60 -74 L0 -112 L-58 -78 Z" fill="#d9b85c" stroke="#9c7f2e" stroke-width="1"/>'
+               '<path d="M-60 -14 Q-70 -60 -44 -96 Q-40 -70 -26 -82 Q-20 -120 4 -146 Q8 -110 22 -122 Q30 -90 46 -104 Q66 -70 60 -14 Z" fill="#e8873a" opacity="0.92"/>'
+               '<path d="M-40 -14 Q-46 -50 -26 -70 Q-18 -52 -6 -66 Q2 -96 14 -100 Q18 -70 30 -76 Q44 -46 40 -14 Z" fill="#f6d36a" opacity="0.95"/>'
+               '<path d="M-20 -150 Q-30 -170 -10 -186 M18 -158 Q10 -178 30 -196" fill="none" stroke="#8a8278" stroke-width="5" stroke-linecap="round" opacity="0.6"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
 def prop_rooster(x, y, s):
     """A rooster standing, head up (Matthew 26:74)."""
     return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
@@ -862,7 +878,7 @@ def prop_spring(x, y, s):
 
 
 PROPS = {"sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
-         "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
+         "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf}
 
 
@@ -899,7 +915,7 @@ SHOTS = {"medium": 1.5, "close": 2.0, "extreme": 3.0}
 # A figure's look, applied by recolouring the figure itself so it stays crisp at any size. "cold"
 # drains it toward a grey-blue, for love growing cold (Matthew 24:12); "warm" lifts it toward gold;
 # "silhouette" is a dark shape for a foreground figure the camera looks past; "faded" is one leaving
-# the story.
+# the story; "soiled" browns and dulls the clothes, for filthy garments (Zechariah 3:3; Jude 23).
 def _cold(r, g, b):
     lum = 0.3 * r + 0.59 * g + 0.11 * b
     return 0.72 * lum + 10, 0.8 * lum + 22, 0.92 * lum + 46
@@ -909,7 +925,12 @@ def _warm(r, g, b):
     return r * 1.04 + 14, g * 1.0 + 8, b * 0.82
 
 
-LOOKS = {"cold": _cold, "warm": _warm, "silhouette": lambda r, g, b: (42, 32, 22)}
+def _soiled(r, g, b):
+    lum = 0.3 * r + 0.59 * g + 0.11 * b
+    return 0.55 * lum + 30, 0.5 * lum + 22, 0.4 * lum + 10
+
+
+LOOKS = {"cold": _cold, "warm": _warm, "soiled": _soiled, "silhouette": lambda r, g, b: (42, 32, 22)}
 
 
 def recolour(svg, look):

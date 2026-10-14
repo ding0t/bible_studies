@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1222" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">Saved as Through Fire</title>
+<desc id="d">A one-minute comic in 5 panels. Panel 1 (1 Corinthians 1:11-12): two Corinthian believers in a street, each shouting the name of the teacher he follows. Caption: "Corinth. Chloe’s people report quarrelling." A Corinthian says: "I follow Paul!" A Corinthian says: "I follow Apollos!" Panel 2 (1 Corinthians 3:1-3): Paul seated with a scroll, writing to the Corinthians. Caption: "From Ephesus, Paul writes to them as brothers." Paul says: "Brothers … infants in Christ … you are still of the flesh." Panel 3 (1 Corinthians 3:12-15): a house of wood and straw burning on its stone foundation, while the man who built it runs out with nothing in his hands. Caption: "Paul’s picture: on the Day, fire tests what each one built on the foundation, Jesus Christ." Paul says: "If anyone’s work is burned up, he will suffer loss, though he himself will be saved, but only as through fire." Note: "The building is the work. The builder gets out." Panel 4 (Zechariah 3:1-4): Joshua the high priest standing in filthy garments while the LORD's voice speaks from above. Caption: "Zechariah’s vision: Joshua the high priest in filthy garments." The LORD says: "Is not this a brand plucked from the fire?" The angel says: "I have taken your iniquity away from you." Panel 5 (Jude 1:22-23): one believer reaching out and pulling another away from a fire. Caption: "Jude’s picture: go after those drifting toward the fire." Jude says: "Have mercy on those who doubt; save others by snatching them out of the fire." The point: A believer who builds with the world’s wisdom is saved, but only as through fire. God plucked Joshua from the fire and clothed him clean; so go after the drifting in mercy (1 Corinthians 3:15; Jude 23).</desc>
+<rect width="720" height="1222" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1206" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1194" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<defs><radialGradient id="comic-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6e2a0" stop-opacity="0.9"/><stop offset="1" stop-color="#f6e2a0" stop-opacity="0"/></radialGradient><radialGradient id="comic-fire" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6b04a" stop-opacity="0.75"/><stop offset="1" stop-color="#f6b04a" stop-opacity="0"/></radialGradient></defs>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">SAVED AS THROUGH FIRE</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Two fires in one minute</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<defs><clipPath id="pane0"><rect x="0" y="0" width="323.0" height="290" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 108.0)">
+<g clip-path="url(#pane0)">
+<defs><linearGradient id="sky0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdbe6"/><stop offset="1" stop-color="#f3e2bd"/></linearGradient></defs>
+<rect width="323.0" height="290" fill="url(#sky0)"/>
+<rect x="0.0" y="159.4" width="90" height="70" fill="#e3d6b8" stroke="#8d7650" stroke-width="1"/><rect x="-2.0" y="155.4" width="94" height="6" fill="#bfa982" stroke="#8d7650" stroke-width="0.8"/><rect x="54.0" y="190.9" width="14" height="38.5" fill="#5a4a36"/><rect x="18.0" y="173.4" width="10" height="10" fill="#5a4a36"/>
+<rect x="90.0" y="106.4" width="127" height="123" fill="#d8c7a3" stroke="#8d7650" stroke-width="1"/><rect x="88.0" y="102.4" width="131" height="6" fill="#bfa982" stroke="#8d7650" stroke-width="0.8"/><rect x="166.2" y="161.8" width="14" height="67.7" fill="#5a4a36"/><rect x="115.4" y="131.0" width="10" height="10" fill="#5a4a36"/>
+<rect x="217.0" y="113.4" width="114" height="116" fill="#e3d6b8" stroke="#8d7650" stroke-width="1"/><rect x="215.0" y="109.4" width="118" height="6" fill="#bfa982" stroke="#8d7650" stroke-width="0.8"/><rect x="285.4" y="165.6" width="14" height="63.8" fill="#5a4a36"/><rect x="239.8" y="136.6" width="10" height="10" fill="#5a4a36"/>
+<rect x="0" y="223.4" width="323.0" height="66.6" fill="#d9cba4"/>
+<path d="M0 253.4 Q161.5 243.4 323.0 255.4 V290 H0 Z" fill="#cbb98c"/>
+<g transform="translate(38.8 255.4) scale(1.257 1.257)"><path d="M-5 -74 L22 -72 L40 -76" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L22 -72 L40 -76" fill="none" stroke="#4b573c" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="-76" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#5c6b4a" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#b07f58"/><circle cx="2" cy="-90" r="12" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L18 -94 L14 -114" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L18 -94 L14 -114" fill="none" stroke="#5c6b4a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="14" cy="-114" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/></g>
+<g transform="translate(284.2 255.4) scale(-1.257 1.257)"><path d="M-5 -74 L16 -62 L28 -62" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L16 -62 L28 -62" fill="none" stroke="#404c5b" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="28" cy="-62" r="4.3" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#4f5d70" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#a8774f"/><circle cx="2" cy="-90" r="12" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L14 -96 L8 -120" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L14 -96 L8 -120" fill="none" stroke="#4f5d70" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="8" cy="-120" r="4.3" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/></g>
+<rect x="10.0" y="10.0" width="230.0" height="47.0" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">Corinth. Chloe’s people</text>
+<text x="20.0" y="47.5" font-size="14" fill="#3b2f1e" font-style="italic">report quarrelling.</text>
+<polygon points="53.4,83.0 70.0,76.0 86.7,83.0 103.4,76.0 120.0,83.0 136.7,76.0 153.4,83.0 160.4,98.6 153.4,114.1 160.4,129.7 153.4,145.2 136.7,152.2 120.0,145.2 103.4,152.2 86.7,145.2 70.0,152.2 53.4,145.2 46.4,129.7 53.4,114.1 46.4,98.6" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M59.4 106.1 L50.1 124.7 L59.4 122.1 Z" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="59.4" y="89.0" width="88.0" height="50.2" fill="#fffdf7"/>
+<path d="M59.4 106.1 L59.4 122.1" stroke="#fffdf7" stroke-width="3"/>
+<text x="103.4" y="110.5" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">I follow</text>
+<text x="103.4" y="128.6" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">Paul!</text>
+<polygon points="163.2,164.2 179.8,157.2 196.5,164.2 213.2,157.2 229.8,164.2 246.5,157.2 263.2,164.2 270.2,179.8 263.2,195.3 270.2,210.9 263.2,226.4 246.5,233.4 229.8,226.4 213.2,233.4 196.5,226.4 179.8,233.4 163.2,226.4 156.2,210.9 163.2,195.3 156.2,179.8" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M228.2 170.2 L264.5 148.5 L246.2 170.2 Z" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="169.2" y="170.2" width="88.0" height="50.2" fill="#fffdf7"/>
+<path d="M228.2 170.2 L246.2 170.2" stroke="#fffdf7" stroke-width="3"/>
+<text x="213.2" y="191.7" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">I follow</text>
+<text x="213.2" y="209.8" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">Apollos!</text>
+<rect x="168.7" y="264.0" width="148.3" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="278.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">1 Corinthians 1:11-12</text>
+</g>
+<rect x="0" y="0" width="323.0" height="290" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">1</text>
+</g>
+<defs><clipPath id="pane1"><rect x="0" y="0" width="323.0" height="290" rx="4"/></clipPath></defs>
+<g transform="translate(367.0 108.0)">
+<g clip-path="url(#pane1)">
+<rect width="323.0" height="290" fill="#e3d6b8"/>
+<path d="M226.1 121.8 v-24 q14 -16 28 0 v24 z" fill="#c9b893" stroke="#8d7650" stroke-width="0.8"/>
+<path d="M230.1 115.8 Q238.1 123.8 248.1 115.8 Z" fill="#b5835a" stroke="#6b4a2a" stroke-width="0.8"/><path d="M247.1 114.8 q2 -8 -1 -12 q-1 6 -3 8 z" fill="#e8c46a"/>
+<rect x="0" y="229.4" width="323.0" height="60.6" fill="#bfa982"/>
+<g transform="translate(64.6 255.4) scale(1.257 1.257)"><g transform="translate(0 40)"><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#713c22" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/></g><path d="M-13 -38 Q0 -42 13 -38 Q15 -22 24 -10 Q28 -2 22 2 H-22 Q-28 -2 -24 -10 Q-15 -22 -13 -38 Z" fill="#8a4a2a" stroke="#2a2016" stroke-width="1"/><path d="M-16 -8 Q0 -14 18 -8" fill="none" stroke="#00000030" stroke-width="1.2"/><g transform="translate(0 40)"><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#5a3d22"/><path d="M-13 -78 Q-6 -81 -2 -80 L12 -50 L5 -46 Q0 -60 -13 -70 Z" fill="#3e3a36" stroke="#2a2016" stroke-width="0.8"/><rect x="-2" y="-82" width="7" height="6" fill="#b07f58"/><circle cx="2" cy="-90" r="12" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/><path d="M-10 -93 Q-6 -105 6 -103 Q13 -101 14 -95 Q5 -97 -1 -93 Q-3 -86 -7 -82 Q-11 -86 -10 -93 Z" fill="#3b2a1a"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L14 -56 L20 -44" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L14 -56 L20 -44" fill="none" stroke="#8a4a2a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="-44" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/><rect x="17" y="-58" width="16" height="12" fill="#fffdf7" stroke="#8d7650" stroke-width="0.9"/><rect x="15" y="-60" width="4" height="16" rx="2" fill="#8d7650"/><rect x="33" y="-60" width="4" height="16" rx="2" fill="#8d7650"/></g></g>
+<text x="64.6" y="272.4" font-size="11.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.2" stroke="#faf6ec" stroke-width="3.5" paint-order="stroke">PAUL</text>
+<rect x="10.0" y="10.0" width="230.0" height="47.0" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">From Ephesus, Paul writes</text>
+<text x="20.0" y="47.5" font-size="14" fill="#3b2f1e" font-style="italic">to them as brothers.</text>
+<path d="M133.1 157.4 L87.8 177.4 L151.1 157.4 Z" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="120.1" y="87.0" width="186.2" height="72.4" rx="16" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M133.1 157.4 L151.1 157.4" stroke="#fffdf7" stroke-width="3"/>
+<text x="213.2" y="110.5" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>Brothers … infants in</tspan></text>
+<text x="213.2" y="128.6" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>Christ … you are</tspan></text>
+<text x="213.2" y="146.8" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>still </tspan><tspan font-weight="bold" fill="#8b1e1e">of the flesh</tspan><tspan>.</tspan></text>
+<rect x="105.7" y="264.0" width="211.3" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="278.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">1 Corinthians 3:1-3 · condensed</text>
+</g>
+<rect x="0" y="0" width="323.0" height="290" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">2</text>
+</g>
+<defs><clipPath id="pane2"><rect x="0" y="0" width="660.0" height="300" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 412.0)">
+<g clip-path="url(#pane2)">
+<defs><linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5d5a78"/><stop offset="1" stop-color="#e9b27a"/></linearGradient></defs>
+<rect width="660.0" height="300" fill="url(#sky2)"/>
+<rect x="0" y="232.0" width="660.0" height="68.0" fill="#d9cba4"/>
+<path d="M0 262.0 Q330.0 252.0 660.0 264.0 V300 H0 Z" fill="#cbb98c"/>
+<g transform="translate(224.4 264.0) scale(1.625)"><ellipse cx="0" cy="-70" rx="120" ry="100" fill="url(#comic-fire)"/><rect x="-72" y="-14" width="24" height="14" fill="#9a8f80" stroke="#5e5547" stroke-width="1"/><rect x="-48" y="-14" width="24" height="14" fill="#9a8f80" stroke="#5e5547" stroke-width="1"/><rect x="-24" y="-14" width="24" height="14" fill="#9a8f80" stroke="#5e5547" stroke-width="1"/><rect x="0" y="-14" width="24" height="14" fill="#9a8f80" stroke="#5e5547" stroke-width="1"/><rect x="24" y="-14" width="24" height="14" fill="#9a8f80" stroke="#5e5547" stroke-width="1"/><rect x="48" y="-14" width="24" height="14" fill="#9a8f80" stroke="#5e5547" stroke-width="1"/><path d="M-64 -14 V-84 M-30 -14 V-90 M6 -14 V-92 M40 -14 V-86 M66 -14 V-80" stroke="#6b4a2a" stroke-width="6"/><path d="M-70 -84 L0 -128 L72 -80" fill="none" stroke="#6b4a2a" stroke-width="6"/><path d="M-78 -82 L0 -134 L80 -78 L60 -74 L0 -112 L-58 -78 Z" fill="#d9b85c" stroke="#9c7f2e" stroke-width="1"/><path d="M-60 -14 Q-70 -60 -44 -96 Q-40 -70 -26 -82 Q-20 -120 4 -146 Q8 -110 22 -122 Q30 -90 46 -104 Q66 -70 60 -14 Z" fill="#e8873a" opacity="0.92"/><path d="M-40 -14 Q-46 -50 -26 -70 Q-18 -52 -6 -66 Q2 -96 14 -100 Q18 -70 30 -76 Q44 -46 40 -14 Z" fill="#f6d36a" opacity="0.95"/><path d="M-20 -150 Q-30 -170 -10 -186 M18 -158 Q10 -178 30 -196" fill="none" stroke="#8a8278" stroke-width="5" stroke-linecap="round" opacity="0.6"/></g>
+<g transform="translate(396.0 264.0) scale(1.300 1.300)"><path d="M-5 -74 L-18 -60 L-28 -46" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-18 -60 L-28 -46" fill="none" stroke="#715e41" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-28" cy="-46" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-12" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="14" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -21 -2 Q0 3 21 -2 L21 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#8a7350" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#c39a72"/><circle cx="2" cy="-90" r="12" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L18 -60 L30 -74" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L18 -60 L30 -74" fill="none" stroke="#8a7350" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="30" cy="-74" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/></g>
+<rect x="10.0" y="10.0" width="420.0" height="47.0" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">Paul’s picture: on the Day, fire tests what</text>
+<text x="20.0" y="47.5" font-size="14" fill="#3b2f1e" font-style="italic">each one built on the foundation, Jesus Christ.</text>
+<rect x="10.0" y="61.0" width="230.0" height="43.2" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="20.0" y="79.5" font-size="12.5" fill="#3b2f1e" font-style="italic">The building is the work.</text>
+<text x="20.0" y="95.1" font-size="12.5" fill="#3b2f1e" font-style="italic">The builder gets out.</text>
+<rect x="475.1" y="108.0" width="171.8" height="126.8" rx="3" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<text x="561.0" y="131.5" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>If anyone’s work is</tspan></text>
+<text x="561.0" y="149.6" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>burned up, he will</tspan></text>
+<text x="561.0" y="167.8" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>suffer loss, though</tspan></text>
+<text x="561.0" y="185.9" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>he himself will be</tspan></text>
+<text x="561.0" y="204.0" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan font-weight="bold" fill="#8b1e1e">saved</tspan><tspan>, but only</tspan></text>
+<text x="561.0" y="222.1" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>as through fire.</tspan></text>
+<rect x="505.7" y="274.0" width="148.3" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="646.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">1 Corinthians 3:12-15</text>
+</g>
+<rect x="0" y="0" width="660.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">3</text>
+</g>
+<defs><clipPath id="pane3"><rect x="0" y="0" width="323.0" height="310" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 726.0)">
+<g clip-path="url(#pane3)">
+<defs><linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fa3c0"/><stop offset="1" stop-color="#f2c99a"/></linearGradient></defs>
+<rect width="323.0" height="310" fill="url(#sky3)"/>
+<rect x="177.7" y="55.8" width="96.9" height="210.8" fill="#efe6cf" stroke="#8d7650"/><rect x="210.0" y="93.0" width="32.3" height="68.2" fill="#e8c46a" stroke="#a67c3d"/>
+<rect x="0" y="161.2" width="323.0" height="105.4" fill="#d8c7a3"/>
+<rect x="-27.0" y="164.2" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="33.0" y="164.2" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="93.0" y="164.2" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="153.0" y="164.2" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="213.0" y="164.2" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="273.0" y="164.2" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="333.0" y="164.2" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="393.0" y="164.2" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="-57.0" y="190.6" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="3.0" y="190.6" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="63.0" y="190.6" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="123.0" y="190.6" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="183.0" y="190.6" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="243.0" y="190.6" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="303.0" y="190.6" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="363.0" y="190.6" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="-27.0" y="216.9" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="33.0" y="216.9" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="93.0" y="216.9" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="153.0" y="216.9" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="213.0" y="216.9" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="273.0" y="216.9" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="333.0" y="216.9" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="393.0" y="216.9" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="-57.0" y="243.3" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="3.0" y="243.3" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="63.0" y="243.3" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="123.0" y="243.3" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="183.0" y="243.3" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="243.0" y="243.3" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="303.0" y="243.3" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="363.0" y="243.3" width="54" height="20.4" fill="none" stroke="#8d7650" stroke-width="0.8"/>
+<rect x="0" y="240.6" width="323.0" height="69.4" fill="#d7ccb2"/>
+<path d="M0 258.0 H323.0" stroke="#b8aa8a" stroke-width="1"/>
+<path d="M0 275.3 H323.0" stroke="#b8aa8a" stroke-width="1"/>
+<path d="M0 292.6 H323.0" stroke="#b8aa8a" stroke-width="1"/>
+<path d="M-33.9 240.6 L-193.8 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M-16.2 240.6 L-161.5 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M1.6 240.6 L-129.2 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M19.4 240.6 L-96.9 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M37.1 240.6 L-64.6 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M54.9 240.6 L-32.3 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M72.7 240.6 L0.0 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M90.4 240.6 L32.3 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M108.2 240.6 L64.6 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M126.0 240.6 L96.9 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M143.7 240.6 L129.2 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M161.5 240.6 L161.5 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M179.3 240.6 L193.8 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M197.0 240.6 L226.1 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M214.8 240.6 L258.4 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M232.6 240.6 L290.7 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M250.3 240.6 L323.0 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M268.1 240.6 L355.3 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M285.9 240.6 L387.6 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M303.6 240.6 L419.9 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M321.4 240.6 L452.2 310" stroke="#c4b796" stroke-width="0.8"/>
+<path d="M339.1 240.6 L484.5 310" stroke="#c4b796" stroke-width="0.8"/>
+<g transform="translate(77.5 272.6) scale(1.343 1.343)"><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#7c6b4e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#897858" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="-60" r="4.3" fill="#65563d" stroke="#7c6b4e" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#423724"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#423724"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#a28e6a" stroke="#7c6b4e" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#1e160a30" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#aa957030" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#1e160a35"/><rect x="-2" y="-82" width="7" height="6" fill="#65563d"/><circle cx="2" cy="-90" r="12" fill="#65563d" stroke="#7c6b4e" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#a28e6a" stroke="#7c6b4e" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#473b27" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#362c1c"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#7c6b4e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#a28e6a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-4" cy="-58" r="4.3" fill="#65563d" stroke="#7c6b4e" stroke-width="0.8"/></g>
+<text x="77.5" y="289.6" font-size="11.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.2" stroke="#faf6ec" stroke-width="3.5" paint-order="stroke">JOSHUA</text>
+<rect x="10.0" y="10.0" width="250.0" height="47.0" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">Zechariah’s vision: Joshua the</text>
+<text x="20.0" y="47.5" font-size="14" fill="#3b2f1e" font-style="italic">high priest in filthy garments.</text>
+<path d="M247.1 113.6 L287.7 95.8 L265.1 113.6 Z" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="135.3" y="111.6" width="142.8" height="72.4" rx="16" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4"/>
+<path d="M247.1 113.6 L265.1 113.6" stroke="#f6ecd0" stroke-width="3"/>
+<text x="206.7" y="135.1" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan>Is not this a</tspan></text>
+<text x="206.7" y="153.2" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan font-weight="bold" fill="#8b1e1e">brand plucked</tspan></text>
+<text x="206.7" y="171.3" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan font-weight="bold" fill="#8b1e1e">from the fire</tspan><tspan>?</tspan></text>
+<path d="M243.5 200.4 L297.6 173.7 L261.5 200.4 Z" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="139.0" y="198.4" width="135.5" height="72.4" rx="16" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4"/>
+<path d="M243.5 200.4 L261.5 200.4" stroke="#f6ecd0" stroke-width="3"/>
+<text x="206.7" y="221.9" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">I have taken</text>
+<text x="206.7" y="240.0" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">your iniquity</text>
+<text x="206.7" y="258.1" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">away from you.</text>
+<rect x="206.5" y="284.0" width="110.5" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="298.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Zechariah 3:1-4</text>
+</g>
+<rect x="0" y="0" width="323.0" height="310" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">4</text>
+</g>
+<defs><clipPath id="pane4"><rect x="0" y="0" width="323.0" height="310" rx="4"/></clipPath></defs>
+<g transform="translate(367.0 726.0)">
+<g clip-path="url(#pane4)">
+<defs><linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5d5a78"/><stop offset="1" stop-color="#e9b27a"/></linearGradient></defs>
+<rect width="323.0" height="310" fill="url(#sky4)"/>
+<rect x="0" y="240.6" width="323.0" height="69.4" fill="#d9cba4"/>
+<path d="M0 270.6 Q161.5 260.6 323.0 272.6 V310 H0 Z" fill="#cbb98c"/>
+<g transform="translate(32.3 272.6) scale(1.612)"><ellipse cx="0" cy="-20" rx="70" ry="60" fill="url(#comic-fire)"/><ellipse cx="0" cy="-2" rx="22" ry="6" fill="#3e3122"/><ellipse cx="-22.0" cy="-1.0" rx="5" ry="4" fill="#9a8f80" stroke="#5e5547" stroke-width="0.8"/><ellipse cx="-19.1" cy="0.5" rx="5" ry="4" fill="#9a8f80" stroke="#5e5547" stroke-width="0.8"/><ellipse cx="-11.0" cy="1.6" rx="5" ry="4" fill="#9a8f80" stroke="#5e5547" stroke-width="0.8"/><ellipse cx="-0.0" cy="2.0" rx="5" ry="4" fill="#9a8f80" stroke="#5e5547" stroke-width="0.8"/><ellipse cx="11.0" cy="1.6" rx="5" ry="4" fill="#9a8f80" stroke="#5e5547" stroke-width="0.8"/><ellipse cx="19.1" cy="0.5" rx="5" ry="4" fill="#9a8f80" stroke="#5e5547" stroke-width="0.8"/><ellipse cx="22.0" cy="-1.0" rx="5" ry="4" fill="#9a8f80" stroke="#5e5547" stroke-width="0.8"/><path d="M-14 -4 Q-10 -26 -4 -14 Q0 -36 6 -16 Q12 -28 14 -4 Z" fill="#e8873a"/><path d="M-8 -4 Q-4 -18 0 -10 Q4 -22 8 -4 Z" fill="#f6d36a"/><ellipse cx="0" cy="-3" rx="16" ry="3" fill="#c0392b"/></g>
+<g transform="translate(84.0 272.6) scale(-1.343 1.343)"><g transform="translate(0 24)"><path d="M-5 -74 L-14 -60 L-26 -52" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-14 -60 L-26 -52" fill="none" stroke="#64492f" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-26" cy="-52" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/></g><ellipse cx="-14" cy="-1" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -54 Q0 -59 13 -54 Q16 -30 14 -20 Q24 -16 26 -5 Q26 0 21 0 H-12 Q-19 -2 -17 -12 Q-16 -30 -13 -54 Z" fill="#7a5a3a" stroke="#2a2016" stroke-width="1"/><path d="M-6 -40 Q-4 -24 -8 -6 M6 -44 Q10 -30 8 -18" fill="none" stroke="#00000030" stroke-width="1.2"/><g transform="translate(0 24)"><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#c39a72"/><circle cx="2" cy="-90" r="12" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -113 -12 -98 Q-18 -80 -20 -40 Q-21 -16 -18 -6 L-12 -8 Q-12 -40 -6 -74 Q2 -84 9 -92 Z" fill="#cdbf9e" stroke="#2a2016" stroke-width="0.9"/><path d="M7 -74 L4 -56 L-14 -48" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L4 -56 L-14 -48" fill="none" stroke="#7a5a3a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-14" cy="-48" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/></g></g>
+<g transform="translate(142.1 272.6) scale(-1.343 1.343)"><path d="M-5 -74 L18 -62 L34 -58" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L18 -62 L34 -58" fill="none" stroke="#4b573c" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="34" cy="-58" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#5c6b4a" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#b07f58"/><circle cx="2" cy="-90" r="12" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L22 -66 L38 -64" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L22 -66 L38 -64" fill="none" stroke="#5c6b4a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="-64" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/></g>
+<rect x="10.0" y="10.0" width="240.0" height="47.0" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">Jude’s picture: go after those</text>
+<text x="20.0" y="47.5" font-size="14" fill="#3b2f1e" font-style="italic">drifting toward the fire.</text>
+<rect x="197.9" y="136.4" width="121.0" height="144.9" rx="3" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<text x="258.4" y="159.9" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>Have mercy</tspan></text>
+<text x="258.4" y="178.0" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>on those who</tspan></text>
+<text x="258.4" y="196.2" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>doubt; save</tspan></text>
+<text x="258.4" y="214.3" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>others by</tspan></text>
+<text x="258.4" y="232.4" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan font-weight="bold" fill="#8b1e1e">snatching</tspan></text>
+<text x="258.4" y="250.5" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan font-weight="bold" fill="#8b1e1e">them out of</tspan></text>
+<text x="258.4" y="268.6" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan font-weight="bold" fill="#8b1e1e">the fire</tspan><tspan>.</tspan></text>
+<rect x="149.8" y="284.0" width="167.2" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="298.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Jude 1:22-23 · condensed</text>
+</g>
+<rect x="0" y="0" width="323.0" height="310" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">5</text>
+</g>
+<path d="M270.0 1066 H450.0 L440.0 1079.0 L450.0 1092 H270.0 L280.0 1079.0 Z" fill="#8b1e1e"/>
+<text x="360.0" y="1084.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE POINT</text>
+<text x="360.0" y="1118.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">A believer who builds with the world’s wisdom is saved, but only as</text>
+<text x="360.0" y="1138.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">through fire. God plucked Joshua from the fire and clothed him clean;</text>
+<text x="360.0" y="1158.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">so go after the drifting in mercy (1 Corinthians 3:15; Jude 23).</text>
+<text x="360.0" y="1182.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Panels 3 and 5 draw Paul’s and Jude’s own pictures. Satan (Zechariah 3:1) has no recorded words and is not drawn.</text>
+<text x="696.0" y="1200.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">A one-minute comic · the-way.lewy.au</text>
+</svg>

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 1:22-23 (primary passage)
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 1:6
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 1:14
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 1:8-10
