@@ -231,6 +231,7 @@ uv run python verify_claims.py                        # re-run the SQL behind st
 uv run python verify_claims.py --evidence             # also replay `evidence:` blocks -- tool calls with expected answers
 uv run python verify_claims.py <slug> --only-evidence # just one study's evidence
 uv run python cross_study_claims.py --min-studies 4   # chapters several studies treat; add a chapter to see what each says
+                                                      # ("John 4" --exclude <slug>.md: the siblings a new study should link or build on)
 uv run python commentary_index.py  # regenerate auto cross-ref pages — run after editing a study's bible_references/primary_passage
 uv run python section_index.py     # regenerate category landing pages — run after adding a study or new content section
 uv run python build_study_notes.py # commercial study-Bible db, writes outside this repo — see references/README.md
@@ -286,8 +287,9 @@ different facts and must read differently.
 **Beginning work on a passage? Call `passage_brief` first** — one call returns
 versification, the book introduction, the text in each translation you name (open and
 commercial alike, each routed to the database that holds it), the interlinear, TWOT roots
-for the Hebrew, cross-references, Dead Sea Scroll divergence and study notes, in the order
-the develop skill works in. Its `addressing` section is always computed and flags a
+for the Hebrew, cross-references, Dead Sea Scroll divergence, study notes, and the studies on
+this site that already treat the chapter (`existing_studies`), in the order the develop skill
+works in. Its `addressing` section is always computed and flags a
 reference that is numbered differently across traditions — Hebrew Joel 3:1 is English Joel
 2:28, and reading one under the other raises no error.
 

@@ -290,6 +290,31 @@ Run it for each chapter this study leans on that other studies also treat. The t
 it lays the sentences out side by side. Where two studies disagree, the fix is usually *one* of them,
 and which one is a question for the user, not a silent edit to whichever file is open.
 
+To list the siblings for the study's own passage, pass the chapter with the file left out:
+
+```bash
+uv run python cross_study_claims.py "John 4" --exclude jesus/woman-at-well.md
+```
+
+Each sibling is reported with a role: **primary** (its `primary_passage`), **cited** (its
+`bible_references`) or **prose** (named only in its prose). Start with the primary ones. Then ask
+three questions of each:
+
+1. **Do they agree?** This is the consistency check above.
+2. **Does this study re-argue what a sibling has already settled, without linking to it?** A
+   paragraph that covers ground a primary sibling covers in depth should be one sentence and a
+   link. Re-arguing it costs words, and two versions of one argument can drift apart. Check
+   whether the study links the siblings that treat its own passage. A study that never mentions a
+   primary sibling on the same verses is a finding.
+3. **Could either study enrich the other?** A sibling may hold a word study, a cultural detail or a
+   correction this study needs. This study may have found something a sibling lacks. Report both
+   directions as suggestions. Recommend changes to another study and never make them in this
+   review: that study needs its own review.
+
+If the state file has `sibling_studies` from develop-bible-study Phase 1, check that each one marked
+`link` or `build-on` is linked in the prose, and that no link points to a `draft: true` sibling
+(validator Check 24).
+
 ## Phase 7 — Placement, frontmatter & tags
 
 Cheap to check, and the failures are invisible from the page itself — they show up as a study missing
@@ -422,8 +447,14 @@ Findings, most severe first:
 - **Moderate** — a Phase 6 context gap (e.g., cultural-vs-transcultural never made explicit), a
   statement-of-faith conflict outside those marked-essential sections, a stale word-count claim
   that's directionally still true but numerically off, a cross-reference that's weaker than stated,
-  or a pervasive style-register problem (Phase 8).
-- **Minor** — style-guide hits, padding, structural nits.
+  a conclusion that contradicts a sibling study (Phase 6), or a pervasive style-register problem
+  (Phase 8).
+- **Minor** — style-guide hits, padding, structural nits, a sibling's ground re-argued without a
+  link to it, or a primary sibling on the same passage that is never linked.
+
+**Suggestions for other studies** go in their own list after the findings: what a sibling could
+take from this study, or this study from a sibling (Phase 6, sibling question 3). Name each study
+and the section the addition would go in.
 
 **Report the size.** Give the study's word count, its budget (`word_budget` in the state file, or
 4,000), and the net words your recommended fixes would add. A review only ever finds things to add,

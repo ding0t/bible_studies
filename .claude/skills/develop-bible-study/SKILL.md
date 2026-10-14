@@ -22,6 +22,30 @@ Create the state file for this study — see **State tracking** below — before
 - Identify the primary passage(s) and any supporting cross-references already known.
 - Identify the genre(s) involved (epistle, OT narrative, Acts/historical narrative, Gospel, parable, law, prophets, psalm, wisdom, apocalyptic/Revelation, or topical spanning several). Genre determines which questions in Phase 4 apply.
 - Note this in the state file's `genre` field.
+- **Find what this site has already written on the passage.** For the primary passage's chapter
+  (and any supporting chapter the study will lean on), list the existing studies:
+
+  ```bash
+  cd references/build
+  uv run python cross_study_claims.py "John 4" --exclude <section>/<slug>.md
+  ```
+
+  `passage_brief` returns the same list as `existing_studies`, with `overlaps_passage` set when a
+  study's own references cover the verses. Each study has a `role`: **primary** (the chapter is its
+  `primary_passage`), **cited** (in its `bible_references`) or **prose** (named only in its prose,
+  because older studies left the frontmatter empty). Record them in the state file's
+  `sibling_studies`, each with a `use`:
+
+  - `link` — it already covers ground this study needs; plan to point to it in one sentence
+    instead of re-arguing it.
+  - `build-on` — this study takes its conclusion further; plan to say so and link it.
+  - `enrich` — this study is likely to find something that one lacks; revisit after drafting.
+  - `none` — a passing mention only.
+
+  This step records what other studies cover. It does not adopt their conclusions. Exegesis in
+  Phases 2-5 still runs on the text, uncoerced, and Phase 6 is where the two get compared. A
+  primary sibling on the same verses also raises a scope question for the author before research
+  starts: is this a new study, or a revision of that one?
 
 ## Phase 2 — Exegesis: historical context
 
@@ -109,7 +133,8 @@ uv run python cross_study_claims.py --min-studies 4   # the shared surface, busi
 uv run python cross_study_claims.py "Matthew 24"      # what each study says about one chapter
 ```
 
-Run it for each chapter this study leans on that other studies also treat. The tool cannot judge —
+Run it for each chapter in `sibling_studies` from Phase 1, and for any chapter the research has added
+since. The tool cannot judge —
 it lays the sentences out side by side. Where two studies disagree, the fix is usually *one* of them,
 and which one is a question for the user, not a silent edit to whichever file is open.
 
@@ -132,6 +157,10 @@ drafting; changing them costs a minute at this point and a rewrite later.
 - Write the file per [docs/CONTENT_GUIDE.md](../../../docs/CONTENT_GUIDE.md) frontmatter schema (`title`, `category`, `description`, `tags`, `draft: true`, `bible_references`), into the section chosen from [placement-and-tags.md](placement-and-tags.md).
 - **Fill every placeholder** — that file's "Frontmatter failures worth checking" lists the five template values that once shipped intact on a published page, and why `zadok_year`/`gregorian_year` reach the timeline even on a draft.
 - **Don't hand-write the provenance fields** (`date_created`, `date_modified`, `ai_provider_models`). Run `python3 utils/refresh_frontmatter_provenance.py` from the repo root **before committing**, and stage its edit alongside the study — it derives all three from git history, and running it after the commit instead can't converge. See "The provenance fields" in [placement-and-tags.md](placement-and-tags.md).
+- **Link to sibling studies instead of re-arguing them.** For each `sibling_studies` entry marked
+  `link` or `build-on`, give the point a sentence and a relative link to that study, and spend the
+  words on what this study adds. Never link a `draft: true` sibling from a page that will be
+  published: the link ships as a 404 (validator Check 24).
 - **Always populate `primary_passage` and `bible_references`.** `references/build/commentary_index.py` reads these to auto-generate the "studies referencing this chapter" cross-links inside `docs/content/commentaries/<book>/`, keyed off exactly the passage(s) this study is centrally about (`primary_passage`, singular or `;`-separated for a multi-account passage like a Gospel parallel) versus what it merely cites in passing (`bible_references`). A study missing both is invisible to that index, not an error, but it means the cross-reference system silently under-reports — don't skip this field the way many of the pre-existing studies did.
 - Structure: short hook → **Key Takeaways** → historical/literary context → walk-through with original-language notes → theological principle → discussion questions → **References & Recommended Reading**.
 - **A long study earns two more sections, both from [structural-readability.md](../read-bible-study/structural-readability.md) rules 10-11.** At 2,500+ words and 6+ `##` sections — 38 of 113 pages in this corpus — add a **Study outline** straight after Key Takeaways: a short annotated list of the major sections, a briefing rather than a repeat of the table of contents mkdocs already generates. Its value is the annotations, the grouping of a run of sections into one line, and telling the reader where they are standing. Write descriptive annotations and leave evaluative ones to the author. And put apparatus — source-weighting, correctives, a source underwriting several sections at once — in a single `## Annex:` after the last teaching section, keeping Discussion Questions with the teaching they examine.
@@ -235,6 +264,11 @@ drafting; changing them costs a minute at this point and a rewrite later.
   against a commentary not already cited, context coverage per how-to-read-the-bible.md, a style-guide
   pass), use the sibling **review-bible-study** skill before flipping `draft: false` on anything
   load-bearing.
+- **Offer enrichment back to the siblings.** List for the author each `sibling_studies` entry where
+  this study found something that study lacks: a word study, a correction, or a link back to this
+  one. Say what each would add and where it would go. Don't edit the other study in this session:
+  a change to a published study is its own change and gets its own review. Record what the author
+  chose in the entry's `note`.
 - Once the user has reviewed it, flip `draft: false`.
 - Mark the state file `status: published` — don't delete it; it's the record of how the conclusions were reached.
 

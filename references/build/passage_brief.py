@@ -39,10 +39,21 @@ that resolves to nothing is refused outright. Any lookup that still errors has i
 carried into diagnostics["errors"]. Before both of these, passing "Revelation" returned an ESV
 section with no verses and only an error count to explain it -- an empty section that read like
 an answer.
+
+What the site has already said comes with it
+--------------------------------------------
+`studies` lists the studies on this site that already treat the chapter (cross_study_claims.
+sibling_studies), the ones centrally about it first, and flags those whose own references overlap
+the requested verses. It is here, at the start, because a study researched without it re-argues
+ground a sibling has settled -- or contradicts it, which is how rapture.md and olivet-discourse.md
+came to disagree about Noah.
 """
 from __future__ import annotations
 
+import re
+
 import book_map
+import cross_study_claims
 import research_batch
 import study_notes_query
 import twot_lookup
@@ -51,7 +62,7 @@ DEFAULT_TRANSLATIONS = ["WEB"]            # public domain; safe to quote at leng
 DEFAULT_STUDY_WORKS = ["esv-study-bible"]  # the quotation-verification path
 MAX_DETAIL_VERSES = 12
 MAX_TWOT_LOOKUPS = 25
-SECTIONS = ("addressing", "historical", "text", "words", "crossrefs", "variants", "notes")
+SECTIONS = ("addressing", "historical", "text", "words", "crossrefs", "variants", "notes", "studies")
 
 
 _OSIS_CODES = {code.lower(): code
@@ -218,6 +229,24 @@ def _hebrew_strongs(results: dict, verses: list[int]) -> list[str]:
     return seen[:MAX_TWOT_LOOKUPS]
 
 
+def _overlaps(ref: str, chapter: int, verse_start: int, verse_end: int | None) -> bool:
+    """Whether a frontmatter reference already known to name this chapter covers any of the verses.
+    A chapter-only reference ("Matthew 24") covers all of them."""
+    m = re.search(rf'\s{chapter}:(\d+)(?:-(\d+))?\s*$', ref)
+    if not m:
+        return True
+    lo, hi = int(m.group(1)), int(m.group(2) or m.group(1))
+    return lo <= (verse_end or verse_start) and verse_start <= hi
+
+
+def _existing_studies(book: str, chapter: int, verse_start: int, verse_end: int | None) -> list:
+    found = cross_study_claims.sibling_studies(book, chapter, max_sentences=1)
+    for study in found:
+        study["overlaps_passage"] = any(_overlaps(r, chapter, verse_start, verse_end)
+                                        for r in study["refs"])
+    return found
+
+
 def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | None = None,
                   translations: list[str] | None = None, study_works: list[str] | None = None,
                   include: list[str] | None = None,
@@ -225,7 +254,8 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
     """The standard evidence set for a passage, in exegesis order.
 
     Sections: addressing (versification, always), historical (book introductions), text,
-    words (interlinear + TWOT roots for Hebrew), crossrefs, variants, notes.
+    words (interlinear + TWOT roots for Hebrew), crossrefs, variants, notes, studies (what this
+    site's existing studies already say about the chapter).
     """
     translations = list(translations or DEFAULT_TRANSLATIONS)
     study_works = list(study_works or DEFAULT_STUDY_WORKS)
@@ -305,6 +335,9 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
             work: {str(v): _ok(results, f"note:{work}:{v}") or [] for v in verses}
             for work in study_works
         }
+
+    if "studies" in include:
+        brief["existing_studies"] = _existing_studies(book, chapter, verse_start, verse_end)
 
     unavailable = sorted({r.get("source") or r.get("tool")
                           for r in results.values() if r["status"] == "unavailable"})

@@ -8,6 +8,10 @@ target_path: "" # e.g. docs/content/studies/prophecy/<slug>.md
 
 primary_passage: ""
 supporting_passages: []
+# Phase 1: what this site already says about these chapters (cross_study_claims.py "<Book> <N>").
+# use: link | build-on | enrich | none. note records what was decided, including enrichment
+# offered back to that study after drafting.
+sibling_studies: [] # [{slug: "", role: primary|cited|prose, use: "", note: ""}]
 genre: [] # one or more of: epistle, ot-narrative, acts, gospel, parable, law, prophets, psalm, wisdom, apocalyptic, topical
 
 # Written before drafting (Phase 7). The thesis becomes the page's "In one sentence:" line; the

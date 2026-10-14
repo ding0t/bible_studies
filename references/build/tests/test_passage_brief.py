@@ -224,3 +224,19 @@ def test_commercial_text_covers_the_whole_range():
     assert brief["diagnostics"]["truncated"] is True
     assert len(brief["text"]["ESV"]["verses"]) == 27
     assert len(brief["text"]["WEB"]["verses"]) == 27
+
+
+# --- existing studies: what the site already says about the chapter --------
+
+def test_overlap_compares_verse_ranges():
+    assert pb._overlaps("John 4:1-42", 4, 7, 15)
+    assert pb._overlaps("John 4", 4, 7, 15)
+    assert not pb._overlaps("John 4:6", 4, 7, 15)
+    assert pb._overlaps("John 4:15", 4, 7, 15)
+
+
+def test_brief_lists_the_study_centrally_about_the_passage():
+    brief = pb.passage_brief("John", 4, 7, 15, include=["studies"])
+    first = brief["existing_studies"][0]
+    assert first["slug"] == "jesus/woman-at-well.md"
+    assert first["role"] == "primary" and first["overlaps_passage"]

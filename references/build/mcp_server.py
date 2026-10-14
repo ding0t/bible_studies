@@ -622,7 +622,9 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
     **Start here when you begin work on a passage.** It assembles what would otherwise be a dozen
     separate calls: versification, book introduction, text in each requested translation,
     interlinear with morphology, TWOT roots for the Hebrew, cross-references with shared wording,
-    Dead Sea Scroll divergence, and study notes.
+    Dead Sea Scroll divergence, study notes, and the studies on this site that already treat the
+    chapter (`existing_studies`: role primary/cited/prose, and `overlaps_passage` when a study's
+    own references cover these verses) -- link to or build on those rather than re-arguing them.
 
     `addressing` comes first and is always computed, because a reference is not a universal
     address and getting it wrong is silent: Hebrew Joel 3:1 is English Joel 2:28, LXX Psalm 22 is
@@ -630,7 +632,8 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
 
     translations accepts open-tier codes (WEB, ASV, KJV, YLT) and commercial ones (ESV, NIV, NKJV,
     CSB, NASB, LSB, NA28) interchangeably -- each is routed to the database that actually holds it.
-    include narrows the sections: addressing, historical, text, words, crossrefs, variants, notes.
+    include narrows the sections: addressing, historical, text, words, crossrefs, variants, notes,
+    studies.
 
     Per-verse detail is capped at 12 verses and says when it truncated; text covers the whole
     range. An empty section where `diagnostics.unavailable_sources` names a source is a gap in the
