@@ -16,6 +16,7 @@ draft: false
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 9:1-6
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 9:24
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 9:22-24
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 9:11
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 9:4
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 9:27-29
 <!-- commentary-index:auto-end -->

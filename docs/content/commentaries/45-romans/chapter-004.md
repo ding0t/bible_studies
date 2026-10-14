@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Faith](../../salvation/faith.md) — 4:16-21
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 4:4-5
 <!-- commentary-index:auto-end -->

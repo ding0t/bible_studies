@@ -15,4 +15,5 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 14:11
 - [The Appointed Times](../../feasts/feasts.md) — 14:5-6
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 14:12
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 14:10-12
 <!-- commentary-index:auto-end -->

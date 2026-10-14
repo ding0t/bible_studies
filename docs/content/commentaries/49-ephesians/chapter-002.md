@@ -19,6 +19,7 @@ draft: false
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 2:12-13
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 2:21-22
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 2:8-9
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 2:8-10
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 2:20
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:21-22
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 2:20

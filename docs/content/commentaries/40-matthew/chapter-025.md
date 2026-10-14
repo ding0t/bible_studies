@@ -18,6 +18,7 @@ draft: false
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 25:34
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 25:1-13
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 25:1-13
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 25:31-32
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 25:34
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 25:19
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 25:1-46

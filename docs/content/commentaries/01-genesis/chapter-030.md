@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 30:37
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 30:28-32
 <!-- commentary-index:auto-end -->

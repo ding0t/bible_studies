@@ -18,6 +18,7 @@ draft: false
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 7:9-17
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 7:15
 - [The End of the Age](../../last-things/end-of-the-age.md) — 7:9-14
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 7:9-14
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 7:15
 - [The Rapture of the Church](../../last-things/rapture.md) — 7:9-14
 - [The Restrainer](../../last-things/the-restrainer.md) — 7:9

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 1:7-11
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 1:8
 <!-- commentary-index:auto-end -->

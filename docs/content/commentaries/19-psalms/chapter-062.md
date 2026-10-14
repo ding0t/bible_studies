@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 62:12
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 62:12
 <!-- commentary-index:auto-end -->

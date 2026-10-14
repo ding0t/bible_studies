@@ -23,6 +23,7 @@ draft: false
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 6:8-13
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 6:1
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 6:10
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 6:4
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 6:16-18
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 6:6
 <!-- commentary-index:auto-end -->

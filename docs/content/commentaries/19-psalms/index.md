@@ -67,7 +67,7 @@ What types are seen as shadows of a truth.
 - [Chapter 47](chapter-047.md) — 1 study(ies)
 - [Chapter 49](chapter-049.md) — 2 study(ies)
 - [Chapter 55](chapter-055.md) — 2 study(ies)
-- [Chapter 62](chapter-062.md) — 1 study(ies)
+- [Chapter 62](chapter-062.md) — 2 study(ies)
 - [Chapter 66](chapter-066.md) — 1 study(ies)
 - [Chapter 69](chapter-069.md) — 1 study(ies)
 - [Chapter 73](chapter-073.md) — 1 study(ies)

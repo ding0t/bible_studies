@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-09
+date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -80,6 +80,14 @@ End-times prophecy, read dispensationally.
     Matthew 24:29's "immediately" joins the Son of Man's coming to the end of the great distress; Daniel 9:24-27's own sequence puts the long interval earlier, between the cross and the seventieth week, where the church age runs.
 
     [:octicons-arrow-right-24: Read](immediately-after.md)
+
+-   __The Judgment Seat of Christ__
+
+    ---
+
+    Every believer will appear before the judgment seat of Christ to receive reward or loss for what was built on Him. What the Old and New Testaments say about reward, why it is never wages for salvation, how the white robe differs from the fine linen, and why this is a different judgment from the great white throne.
+
+    [:octicons-arrow-right-24: Read](judgment-seat-of-christ.md)
 
 -   __A New Heaven and a New Earth__
 

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 3:1-9
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:4
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 3:4
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 3:1-5
 <!-- commentary-index:auto-end -->

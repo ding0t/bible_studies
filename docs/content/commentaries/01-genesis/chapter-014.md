@@ -16,4 +16,5 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 14:17-22
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 14:17-20
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 14:1-10
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 14:22-24
 <!-- commentary-index:auto-end -->

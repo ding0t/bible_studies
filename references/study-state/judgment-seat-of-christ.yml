@@ -1,0 +1,150 @@
+slug: "judgment-seat-of-christ"
+title: "The Judgment Seat of Christ"
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/last-things/judgment-seat-of-christ.md"
+
+note: >
+  Requested 2026-10-14 by the author to back the statement of faith's "Reward for the believer",
+  which had grown into a long explanation. Brief: say what the OT and NT teach about the believer's
+  reward, keep it from reading as salvation by works, keep it distinct from the white robes given
+  (Revelation 6:11; 7:14), and differentiate it from the great white throne and say why. The
+  statement-of-faith section shrinks to a short confession linking here; its Resources list moves
+  to resources/recommended.md. Author approved the scope in-session (no separate thesis stop).
+
+primary_passage: "2 Corinthians 5:10; 1 Corinthians 3:10-15; Revelation 20:11-15"
+supporting_passages:
+  - "Genesis 15:1; Psalm 62:12; Isaiah 40:10; 62:11; 61:10; Daniel 12:2-3; Malachi 3:16-18; Zechariah 3:4"
+  - "Romans 14:10-12; 1 Corinthians 4:5-7; Romans 4:4-5; 11:6; Ephesians 2:8-10; Luke 17:10; 1 Corinthians 15:10; Philippians 2:12-13"
+  - "Revelation 3:4-5, 18; 6:11; 7:9-14; 19:7-8; 22:12-14; 4:10-11; 11:18; 20:4-6"
+  - "John 5:22-29; Luke 14:14; 1 Corinthians 15:23; 2 Timothy 4:8; 1 John 2:28; 2 John 8; Colossians 3:23-25"
+
+sibling_studies:
+  - {slug: "last-things/rapture", role: cited, use: link, note: "#the-judgments has the bēma word study (12 NT uses) and a two-row table; #where-the-supper-sits... has the dikaiōmata/edothē point on Rev 19:8 and the inference placing the Bema before the visible return. Link both; do not re-argue. ENRICH OFFER: its table says the great white throne is for 'the unsaved dead' flatly; this study marks that as the dispensational reading of Rev 20:5 against the book of life being opened (20:12, 15)."}
+  - {slug: "last-things/we-shall-all-be-changed", role: cited, use: build-on, note: "'The white robes are a different gift' ends 'What the robes mean is a question for a study of its own.' This study answers it (stolē vs byssinos). ENRICH OFFER: link that sentence here on publish."}
+  - {slug: "israel-and-church/bride-of-christ", role: cited, use: link, note: "Rev 19:7-8 readiness and granted linen; link."}
+  - {slug: "salvation/saved-as-through-fire", role: cited, use: link, note: "1 Cor 3:10-15 exegesis in full (dokimazō, zēmioō, hōs dia pyros). Link; summarise in two sentences."}
+  - {slug: "christian-life/take-up-your-cross", role: prose, use: none, note: "Links statement-of-faith#reward-for-the-believer; keep that anchor when shortening the section."}
+  - {slug: "salvation/assurance-of-salvation", role: prose, use: link, note: "No condemnation; link for assurance."}
+  - {slug: "about/statement-of-faith", role: prose, use: build-on, note: "Section shortened to a confession linking here, same commit as publish (Check 24)."}
+
+genre: ["epistle", "apocalyptic", "prophets", "topical"]
+
+thesis: >-
+  Every believer will stand before the judgment seat of Christ, clothed in a robe washed in His
+  blood, to receive reward or loss for what was built on Him; that is a different judgment from the
+  great white throne, and both the robe and the reward are His gift.
+
+outline:
+  - {section: "Key Takeaways", says: "Lessons about Jesus, memory verses, Be Transformed, prayer."}
+  - {section: "Study outline", says: "Map."}
+  - {section: "What the Old Testament already said", says: "God Himself the reward (Gen 15:1, sakar); Ps 62:12 love and repayment in one verse; Isa 40:10/62:11 'his reward is with him' which Jesus takes as His own in Rev 22:12; Dan 12:2-3 two outcomes and degrees among the righteous; Mal 3:16-18 book of remembrance."}
+  - {section: "The judgment seat", says: "2 Cor 5:10 in context of 5:1-9 (aim to please Him); bēma in one paragraph + link; 'judgment seat of God' (Rom 14:10) and 'of Christ' are one seat because the Father gave all judgment to the Son (John 5:22); the vocabulary is appear/test/receive/wages/commendation (phaneroō, dokimazō, komizō, misthos, epainos)."}
+  - {section: "Good or evil: what loss means", says: "phaulos is the word of John 5:29 and 3:20: Paul does not soften it. Loss, shame at His coming (1 John 2:28), forfeited reward (2 John 8; Rev 3:11), Col 3:25; never condemnation (John 5:24; Rom 8:1)."}
+  - {section: "Reward without works-salvation", says: "misthos is the wages word of Rom 4:4; salvation is never called misthos (Rom 4:4-5; 11:6; Eph 2:8-9); reward is for the already-saved, for work God prepared and works in them (Eph 2:10; Phil 2:13; 1 Cor 15:10); even it is received (1 Cor 4:7); crowns cast before the throne (Rev 4:10-11); Luke 17:10."}
+  - {section: "Two garments", says: "stolē leukē, the white robe: given (6:11), washed white in the blood of the Lamb (7:14), the right to the tree of life (22:14; KJV 'do his commandments' is the TR variant); Luke 15:22 best robe; Isa 61:10, Zech 3:4. byssinos, fine linen = dikaiōmata, righteous deeds, still 'granted' (19:8). The robe answers whether you may stand; the linen what you did with what you were given. Table."}
+  - {section: "Two judgments", says: "Table: seat, judge, who, when, books, question, outcome. Why they differ: John 5:24 vs 5:29; first resurrection vs rest of dead (Rev 20:5-6; 1 Cor 15:23; Luke 14:14); Christ judges both (John 5:22, 27; Acts 17:31)."}
+  - {section: "Where the reading is contested", says: "One general judgment view: Matt 25:31-46, Rev 11:18, Rom 2:6-7, the book of life opened at 20:12; ESV Study Bible note. The dispensational case: Rev 20:5 thousand-year gap, John 5:24. Honest: who stands at the throne beyond the unbelieving dead is the reading's inference."}
+  - {section: "Discussion questions", says: "Five facets."}
+  - {section: "References", says: "Sources."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping: {done: true, notes: "Siblings via grep and cross_study_claims.py 'Revelation 20'."}
+  exegesis:
+    historical_context: {done: true, notes: "Corinth's bēma (Acts 18:12-17); ESV SB and NIV CBSB notes on 2 Cor 5:10 for the forum tribunal."}
+    literary_context: {done: true, notes: "2 Cor 5:1-10 hope of resurrection body then 'we make it our aim to please him' (5:9); 1 Cor 3-4 about teachers' work and not judging before the time; Rev 19-20 order."}
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "βῆμα", language: greek, transliteration: "bēma", strongs_id: "G968", gloss: "tribunal", notes: "12 SBLGNT occurrences (bible_word); see rapture.md."}
+        - {word: "φαῦλος", language: greek, transliteration: "phaulos", strongs_id: "G5337", gloss: "bad, evil", notes: "6 occurrences: 2Cor 5:10; Jas 3:16; John 3:20; 5:29; Rom 9:11; Titus 2:8 (bible_concordance macula-greek-sblgnt). Tischendorf and NA28 φαῦλον; TR and Byzantine Textform read κακόν (KJV 'bad'). Rom 9:11 has the same good/bad pair."}
+        - {word: "μισθός", language: greek, transliteration: "misthos", strongs_id: "G3408", gloss: "wages, reward", notes: "29 SBLGNT. Rom 4:4; 1 Cor 3:8, 14; Rev 22:12; LXX Isa 40:10 ὁ μισθὸς αὐτοῦ μετʼ αὐτοῦ; LXX Isa 62:11 ἔχων τὸν ἑαυτοῦ μισθόν."}
+        - {word: "στολή", language: greek, transliteration: "stolē", strongs_id: "G4749", gloss: "robe", notes: "9 SBLGNT: Luke 15:22; 20:46; Mark 12:38; 16:5; Rev 6:11; 7:9, 13, 14; 22:14."}
+        - {word: "βύσσινος", language: greek, transliteration: "byssinos", strongs_id: "G1039", gloss: "of fine linen", notes: "5 occurrences in 4 verses: Rev 18:12, 16; 19:8 (x2), 14."}
+        - {word: "δικαίωμα", language: greek, transliteration: "dikaiōma", strongs_id: "G1345", gloss: "righteous act", notes: "Rev 15:4; 19:8 in Revelation."}
+        - {word: "שָׂכָר", language: hebrew, transliteration: "sakar", strongs_id: "H7939", gloss: "wages, reward", notes: "28 occurrences in macula-hebrew-wlc (25 in morphhb-wlc, which does not tag 1 Kgs 5:20, Exod 22:14, Jonah 1:3); the earlier 53 summed both works. First occurrence Gen 15:1; Isa 40:10; 62:11."}
+  hermeneutics:
+    cultural_vs_transcultural: {done: true, notes: ""}
+    theological_principle: {done: true, notes: "See thesis."}
+    application_draft: {done: true, notes: ""}
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Isaiah 40:10 -> Revelation 22:12", relation: "Jesus takes the LORD's 'his reward is with him' as 'my reward is with me' (misthos in both LXX and Rev)."}
+      - {ref: "Romans 14:10 / 2 Corinthians 5:10", relation: "SBLGNT 'of God' / 'of Christ'; CSB footnote: other mss read 'of Christ' at Rom 14:10 (KJV)."}
+      - {ref: "Revelation 22:14", relation: "SBLGNT πλύνοντες τὰς στολὰς; KJV 'do his commandments' (CSB footnote: other mss)."}
+    translations_compared: ["ESV", "KJV", "SBLGNT", "Tischendorf", "LXX Brenton", "ULT interlinear"]
+    divergences_noted: "Rom 14:10 God/Christ; Rev 22:14 wash robes / keep commandments."
+  drafting: {done: true, file: "docs/content/last-things/judgment-seat-of-christ.md"}
+  review: {done: true, validated: true}
+
+open_questions:
+  - "Matt 25:31-46 (sheep and goats) treated as the judgment of the nations at His return, a third scene; named only, not argued. Fork candidate: a study of the three judgment scenes."
+  - "Rom 2:6-11 is named as the strongest 'works' text with the two readings marked; not worked through. Fork candidate."
+  - "Who, if anyone, is found in the book of life at the great white throne (millennial saints?) is left as the reading's open edge; the statement of faith's 'no believer stands there' is the author's reading."
+  - "ON PUBLISH (same commit as draft: false): statement-of-faith.md 'Reward for the believer' already links here in the working tree; add a link from we-shall-all-be-changed.md 'The white robes are a different gift' if the author agrees."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "2 Cor 5:10 note: bēma in the Corinthian forum; records the debate whether the judgment also shows who is saved — CONTRIBUTED the honest framing of the contested section. Rev 20:11-15/20:12 notes read the great white throne as including saints (11:18; 19:5) — the counter-case. Rev 19:7-8: gown 'her groom's gift of grace' — confirmed."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "2 Cor 5:10: 'determines not status but reward' — confirmed. Rev 19:8: deeds as response and evidence, not merit — confirmed. Rev 20:12 reads it as the final judgment of righteous and wicked — counter-case."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "2 Cor 5:10: the Corinthian tribunal was massive; Rom 14:10 shows Paul depicts Jesus as divine — confirmed the Christological point."}
+  - {type: other, title: "CSB Ancient Faith Study Bible footnotes", author: "", note: "Rom 14:10 'Other mss read of Christ'; Rev 22:14 'Other mss read who keep his commands'."}
+review_2026-10-14:
+  by: "review-bible-study (agent pass, same day as drafting)"
+  checked: >-
+    Every ESV quotation re-queried in study-notes.db (47 verses); SBLGNT, Tischendorf, TR, Byzantine
+    Textform 2013, KJV and NA28 compared at 2 Cor 5:10, Rom 14:10, Rev 22:14; concordance counts
+    re-run (stolē 9, byssinos 5 in 4 verses, misthos 29, phaulos 6, bēma 12, dikaiōma Rev 15:4/19:8,
+    sakar 28 with Gen 15:1 first); LXX Isa 40:10/62:11 (Brenton); Hebrew Gen 15:1, Ps 62:13 (Eng 12),
+    Dan 12:3; ESV SB notes on 2 Cor 5:10, Rev 11:15-18, 19:7-8, 20:11-15, 20:12; NIV BTSB and NIV CBSB
+    on 2 Cor 5:10; CSB footnotes Rom 14:10, Rev 22:14; NLT LASB on Rev 20:12-15 as independent check
+    (reads the great white throne as everyone's final judgment, deeds as evidence: complicates, already
+    represented in the contested section). Siblings read: rapture.md #the-judgments and
+    #where-the-supper-sits..., we-shall-all-be-changed.md #the-white-robes..., bride-of-christ.md
+    (Rev 19:7-8), saved-as-through-fire.md (1 Cor 3 builders, loss).
+  findings:
+    - {severity: critical, fixed: true, what: "Misquotation: 'when the Lord comes' (1 Cor 4:5) in quotation marks; ESV reads 'before the Lord comes... Then each one will receive his commendation'. Fixed in prose and table."}
+    - {severity: critical, fixed: true, what: "False textual claim at 2 Cor 5:10: 'the KJV reads the same' as Tischendorf's φαῦλον. TR and Byzantine read κακόν. Rewritten."}
+    - {severity: moderate, fixed: true, what: "Overclaim that φαῦλος is 'a strong word' tying believers to John 5:29: Rom 9:11 uses the identical good/bad pair of Jacob and Esau. Section and discussion question 4 reworded."}
+    - {severity: moderate, fixed: true, what: "Rev 22:14 variant attributed to 'the Byzantine manuscripts' and 'the earlier text': narrowed to what was checked (Byzantine Textform and TR vs Tischendorf/SBLGNT). The Byzantine tradition in Revelation is divided; the Andreas/Koine split could not be verified with local tools."}
+    - {severity: moderate, fixed: true, what: "Garment table presented 'given' vs 'granted' as a contrast; both are ἐδόθη (Rev 6:11; 19:8)."}
+    - {severity: moderate, fixed: true, what: "Unmarked step: the stolē in Revelation is worn by martyrs (6:11) and those out of the great tribulation (7:14); giving it to every believer is an extension (grounds added: 21:27 with 22:14, 3:5, Isa 61:10, Zech 3:4). Matters on the site's own pretrib reading, where those groups are tribulation saints."}
+    - {severity: moderate, fixed: true, what: "Contested section omitted the one-judgment view's strong text John 5:28-29 ('an hour... all who are in the tombs'); added with the John 5:25 reply. ESV SB 11:15-18 note was paraphrased as 'a summary of the whole end'; it says many futurists take 11:18 to skip forward beyond the millennium."}
+    - {severity: moderate, fixed: true, what: "Sibling consistency: saved-as-through-fire.md marks 1 Cor 3's builders as first teachers/leaders and every-believer application as a further step; this study applied it unmarked. Sentence added."}
+    - {severity: minor, fixed: true, what: "'The New Testament never calls salvation a μισθός' is contestable (Matt 20:8 parable; 2 John 8 'full reward'); narrowed to Paul's six uses (Rom 4:4; 1 Cor 3:8, 14; 9:17, 18; 1 Tim 5:18)."}
+    - {severity: minor, fixed: true, what: "Eph 2:8's 'gift of God' is salvation by grace through faith; the study had 'Eternal life is'."}
+    - {severity: minor, fixed: true, what: "'Revelation dresses the saints twice' (white clothing also at 3:4-5, 18; 4:4; 19:14); 'woven from what the saints did' beyond the text; Dan 12:3 degrees of glory marked as one reading; 'Daniel gives the OT's clearest word' grader claim cut; Rev 20:11 does not name the One on the throne, identification via John 5:22 now stated."}
+    - {severity: minor, fixed: true, what: "Frontmatter bible_references missed 15 cited passages and listed Matthew 16:27, which the prose never cites."}
+    - {severity: minor, fixed: true, what: "Word budget: 4,060 after fixes; trimmed to under 4,000 (Laodicea quotation reduced to a reference, Paul's misthos refs moved here)."}
+  not_verified:
+    - "Which Byzantine subgroups (Andreas vs Koine) read 'wash their robes' at Rev 22:14 -- no apparatus locally."
+    - "Matthew 25:31-46 as 'judgment of the nations' and millennial believers at the great white throne remain named, not argued (see open_questions)."
+  sibling_notes:
+    - "rapture.md #the-judgments table says the great white throne is for 'the unsaved dead' flatly; this study marks that as an inference from Rev 20:5. Suggest rapture.md adopt the marking (not edited)."
+    - "rapture.md argues the Bema precedes the visible return (from Rev 19:7-8 order); this study says only 'when He comes for His own' -- consistent."
+    - "we-shall-all-be-changed.md 'The white robes are a different gift' defers the robes' meaning to 'a study of its own': link here on publish."
+    - "bride-of-christ.md cites NIV CBSB linking Rev 19:8 linen to Isa 61:10 -- consistent with this study's table."
+  validate: "npm run validate: no warnings or errors for this file (expected statement-of-faith draft-link error only)."
+read_2026-10-14:
+  scope: "read-bible-study structure pass (stranger reader, separate session from the draft); no sentence changed"
+  changes:
+    - "Two garments: split 'The white robe' at its third paragraph under new '### Who wears the robe' (the step from Revelation's martyrs/tribulation multitude to every believer, then Isa 61:10, Zech 3:4, Luke 15:22). The 'Isaiah and Zechariah below' reference still points down to the next paragraph, inside the same new section."
+    - "Two judgments: 'The two side by side' was a table alone between two headings; removed '### Why they are different' and renamed the parent '### The two side by side, and what keeps them apart', so the table is followed by 'Three things in the text keep them apart' and the three bold paragraphs."
+    - "Where the reading is contested: kept as its own H2 and split into '### The case for one general judgment', '### The case for two judgments', '### What stays open' at the three existing topic sentences, so the open edges are findable."
+    - "Study outline: Two judgments and Where the reading is contested given separate bullets; Two garments bullet names 'who wears it'. Descriptive annotations only; all anchors (#what-the-old-testament-already-said, #the-judgment-seat, #good-or-evil, #reward-is-grace-too, #two-garments, #two-judgments, #where-the-reading-is-contested) unchanged."
+  sections: "32 -> 35"
+  median_section_words: "129 -> 122"
+  sections_over_400: "0 -> 0"
+  longest_section_words: "368 -> 299"
+  verify: "File untracked, so verified with study_structure._prose_diff against a pre-edit copy: removed/added lines are only wrapped continuation lines of Study outline bullets (the checker skips list items but not their continuations); raw diff shows only heading lines and outline bullets changed."
+  validate: "npm run validate: no warnings or errors for this file (statement-of-faith draft-link error expected)."
+  inbound_links: "statement-of-faith.md links the page with no anchor; no anchor removed that any page uses."
+  findings_not_fixed_prose:
+    - "The two-judgments table has no lead-in claim sentence before it (structural-readability rule 6); a one-line claim above it would need the author."
+    - "The 'In one sentence' thesis is one ~70-word sentence carrying two claims (judgment seat; great white throne); the author may want it shorter."
+    - "Not re-verified: this pass checks no quotation, count or citation (last review 2026-10-14)."
+author_edits_2026-10-15:
+    - "Author approved both read-pass prose suggestions: lead-in sentence added above the two-judgments table; thesis shortened to the version above (the timing and 'whose name is in the book of life' now live only in the body)."
+last_updated: "2026-10-15"

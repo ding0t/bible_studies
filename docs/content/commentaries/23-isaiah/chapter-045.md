@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [In Humility](../../christian-life/humility.md) — 45:22-23
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 45:23
 <!-- commentary-index:auto-end -->

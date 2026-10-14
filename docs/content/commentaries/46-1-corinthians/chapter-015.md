@@ -26,6 +26,7 @@ draft: false
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 15:8-10
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 15:51-52
 - [The Appointed Times](../../feasts/feasts.md) — 15:20-23
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 15:10
 - [The Rapture of the Church](../../last-things/rapture.md) — 15:51-53
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 15:51-53
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 15:51

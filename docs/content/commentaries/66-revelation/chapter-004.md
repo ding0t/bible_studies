@@ -15,6 +15,7 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 4:6-8
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 4:1
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 4:1
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 4:10-11
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 4:5
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 4:1
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 4:1

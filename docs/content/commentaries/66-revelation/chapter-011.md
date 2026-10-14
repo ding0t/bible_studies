@@ -15,6 +15,7 @@ draft: false
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 11:1-14 (primary passage)
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 11:12-15
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 11:19
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 11:18
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 11:3-8
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 11:2
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 11:1-15

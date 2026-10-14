@@ -5,7 +5,7 @@ description: "Sites, tools and channels I use alongside these studies: short exp
 tags: ["learning"]
 draft: false
 date_created: 2026-10-09
-date_modified: 2026-10-09
+date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -79,6 +79,21 @@ notes, against Scripture (Acts 17:11).
     [:octicons-arrow-right-24: ebible.org](https://ebible.org/)
 
 </div>
+
+## Other statements of faith
+
+Statements I read alongside writing [my own](../about/statement-of-faith.md). They differ most on
+the end times, which makes them useful to compare.
+
+- [Calvary Chapel Association](https://calvarycca.org/statement-of-faith/): the Calvary Chapel
+  movement's statement, which holds a pre-tribulation rapture and a millennial kingdom.
+- [Calvary Chapel Secret Harbour](https://www.ccsh.com.au/statement-of-faith/): a Calvary Chapel
+  church in Western Australia; pre-tribulation rapture and a pre-millennial return.
+- [Desiring God, Affirmation of Faith](https://www.desiringgod.org/affirmation-of-faith#0.1_1): John
+  Piper's ministry. A detailed Reformed Baptist statement.
+- [Aleph with Beth](https://freehebrew.online/statement-of-faith/): the statement of the free Hebrew
+  course on [Hebrew Learning Resources](hebrew-learning-resources.md). It describes Christ's return
+  without naming a rapture or millennium.
 
 ## Behind these studies
 

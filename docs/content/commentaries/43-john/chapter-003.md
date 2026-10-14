@@ -17,6 +17,7 @@ draft: false
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 3:19-21
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 3:16-18
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 3:29
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:20
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 3:29
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 3:29
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 3:22-30

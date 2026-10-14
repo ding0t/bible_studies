@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 3:10-15 (primary passage)
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:10-15 (primary passage)
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 3:23
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 3:6
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:11-15

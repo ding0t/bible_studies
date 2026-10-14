@@ -14,6 +14,7 @@ draft: false
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 2:17
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 2:2
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 2:10
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 2:1-7
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 2:21
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 2:13

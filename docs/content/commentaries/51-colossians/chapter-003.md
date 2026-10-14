@@ -17,6 +17,7 @@ draft: false
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 3:13
 - [In Humility](../../christian-life/humility.md) — 3:12
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 3:2
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:23-25
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 3:1-2
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:4
 <!-- commentary-index:auto-end -->

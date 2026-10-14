@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 20:11-15 (primary passage)
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 20:1-7
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 20:7-15
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 20:13-14
