@@ -16,6 +16,7 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:3-5
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 1:1
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:24-25
+- [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 1:8
 - [Passover: When I See the Blood](../../feasts/passover.md) — 1:18-19
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 1:5
 - [Simon Peter](../../biblical-figures/peter.md) — 1:1

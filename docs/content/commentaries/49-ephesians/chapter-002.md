@@ -16,6 +16,7 @@ draft: false
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 2:7
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 2:1-10
 - [Faith](../../salvation/faith.md) — 2:8-9
+- [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 2:8-10
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 2:12-13
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 2:21-22
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 2:8-9

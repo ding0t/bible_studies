@@ -1,0 +1,97 @@
+# One-minute comic for docs/content/christian-life/partakers-of-the-divine-nature.md.
+# Drawn by: python3 utils/build_comics.py partakers-of-the-divine-nature
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-15.
+#
+# The study in four beats and a strip: Peter, knowing his death is near (2 Peter 1:14), writes that
+# God's divine power "has granted to us all things that pertain to life and godliness" (1:3); Jesus
+# at the vine, the fruit coming from abiding (John 15:5) and given with His joy (John 15:11); believers
+# making every effort (2 Peter 1:5), the effort of commandments "not burdensome" (1 John 5:3); the
+# word strip names Peter's eight qualities, faith first and love last (2 Peter 1:5-7), each joined to
+# the last by ἐν, "in", seven times; and the master's welcome, "Enter into the joy of your master" (Matthew 25:21),
+# for the entrance "richly provided" (2 Peter 1:11).
+# The vine is drawn because John 15 sets the teaching at the vine by Jesus' own words ("I am the
+# vine", 15:5); where He spoke it (after the upper room, John 14:31) is not drawn, so the scene is
+# open hills. The bread given in panel 3 is one example of a deed and carries no claim. Panel 4 is
+# Jesus' parable (Matthew 25:14-30); the master is drawn as a generic man, and setting it beside
+# 2 Peter 1:11 is the study's reading, marked in the aside.
+
+title = "Partakers of the Divine Nature"
+subtitle = "Given everything, the branch bears fruit"
+layout = [[300, 2, 3], [290, 1], [46, 1], [290, 1]]
+note = "Panel 3’s bread is one example of a deed. Panel 4 is Jesus’ parable of the talents."
+point = "God has given you everything for life and godliness and a share in His nature. So give every effort, the glad effort of a branch: the fruit is His, the load is light, and the welcome is joy (2 Peter 1:3-11)."
+
+[[panel]]
+ref = "2 Peter 1:3, 14"
+scene = "room"
+sky = "dusk"
+caption = "Peter, knowing his death is near, writes."
+caption_w = 180
+shows = "Peter, grey-flecked, seated with a scroll on his knee, writing"
+cast = [
+  { who = "peter", x = 0.18, face = "right", stance = "sit", pose = "hold", holds = "scroll", tag = "Peter" },
+]
+say = [
+  { by = "peter", text = "His divine power has *granted to us all things* that pertain to life and godliness.", source = "esv", at = [0.64, 0.40], w = 140 },
+]
+
+[[panel]]
+ref = "John 15:5, 11"
+scene = "hills"
+sky = "day"
+caption = "Jesus: “I am the vine; you are the branches.”"
+caption_w = 190
+shows = "Jesus standing beside a grapevine heavy with clusters, two disciples listening"
+props = [
+  { what = "vine", x = 0.70, s = 1.0 },
+]
+cast = [
+  { who = "jesus", x = 0.16, face = "right", pose = "open" },
+  { who = "disciple", id = "d1", name = "a disciple", x = 0.88, face = "left", pose = "fold", s = 0.85 },
+  { who = "disciple", id = "d2", name = "a disciple", x = 0.96, face = "left", pose = "stand", s = 0.85, tone = 1 },
+]
+say = [
+  { by = "jesus", text = "Whoever abides in me and I in him, he it is that *bears much fruit*.", source = "esv", at = [0.46, 0.27], w = 170 },
+  { by = "jesus", text = "That my joy may be in you, and that your *joy may be full*.", source = "condensed", at = [0.47, 0.60], w = 230 },
+]
+
+[[panel]]
+ref = "2 Peter 1:5; 1 John 5:3"
+scene = "street"
+sky = "day"
+caption = "For this very reason: the effort of a branch."
+caption_w = 260
+shows = "a believer in the street holding out bread to a poor man sitting by the road, another believer walking beside an old man with a staff"
+cast = [
+  { who = "beggar", id = "poor", name = "a poor man", x = 0.08, face = "right", stance = "sit", pose = "beg" },
+  { who = "woman", id = "giver", name = "a believer", x = 0.24, face = "left", pose = "offer", holds = "loaf", tone = 2 },
+  { who = "man", id = "helper", name = "a believer", x = 0.42, face = "right", pose = "hold", tone = 1 },
+  { who = "man", id = "old", name = "an old man", x = 0.50, face = "right", stance = "walk", pose = "hold", holds = "staff", tone = 3 },
+]
+say = [
+  { by = "peter", name = "Peter", from = [1.05, 0.2], style = "text", text = "Make every effort to supplement your faith with *virtue*.", source = "esv", at = [0.80, 0.24], w = 170 },
+  { by = "john", name = "John", from = [1.05, 0.7], style = "text", text = "And his commandments are *not burdensome*.", source = "esv", at = [0.80, 0.62], w = 170 },
+]
+
+[[panel]]
+kind = "thread"
+text = "Eight qualities, faith to love, each grown “in” the one before"
+at = [0.5]
+
+[[panel]]
+ref = "Matthew 25:21; 2 Peter 1:11"
+scene = "courtyard"
+sky = "dawn"
+grade = "warm"
+caption = "Jesus’ picture: the master welcomes his servant."
+caption_w = 250
+aside = "Read beside the entrance “richly provided” (2 Peter 1:11): the study’s reading."
+aside_w = 250
+shows = "a master by the lit doorway of his house holding out his arms to a servant who comes toward him"
+cast = [
+  { who = "man", id = "master", name = "the master", x = 0.22, face = "right", pose = "open", tone = 3 },
+  { who = "man", id = "servant", name = "the servant", x = 0.74, face = "left", stance = "walk", pose = "open", tone = 2 },
+]
+say = [
+  { by = "master", text = "Well done, good and faithful servant. *Enter into the joy* of your master.", source = "condensed", at = [0.52, 0.30], w = 170 },
+]

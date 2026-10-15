@@ -430,3 +430,5 @@ and linen He grants.
   robes beside the resurrection body.
 - [Saved as Through Fire](../salvation/saved-as-through-fire.md): Joshua the brand plucked from the fire,
   and the garment stained by the flesh.
+- [Partakers of the Divine Nature](../christian-life/partakers-of-the-divine-nature.md): the righteous
+  deeds as the fruit of the nature God gives.

@@ -17,6 +17,7 @@ draft: false
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 12:23
 - [Faith](../../salvation/faith.md) — 12:1-2
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 12:14-15
+- [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 12:2
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 12:2
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 12:22-24
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 12:22-23

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Corinthians 3:10-15; Jude 1:22-23"
 bible_references: ["1 Corinthians 1:10-12", "1 Corinthians 1:20", "1 Corinthians 2:14-16", "1 Corinthians 3:1-4", "1 Corinthians 3:5-9", "1 Corinthians 3:16-23", "1 Corinthians 4:5", "1 Corinthians 5:5", "1 Corinthians 5:11", "1 Corinthians 6:9-11", "2 Corinthians 5:10", "Jude 1:3-4", "Jude 1:7", "Jude 1:9", "Jude 1:19-21", "Jude 1:24-25", "Zechariah 3:1-9", "Amos 4:11", "Galatians 6:1", "James 5:19-20", "John 10:28-29"]
 date_created: 2026-10-14
-date_modified: 2026-10-14
+date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -222,6 +222,13 @@ The Amos 4:11 "brand plucked out of the burning" image is close to this, and the
 shares Paul's ὡς ("as") and πυρός ("fire"). Paul may have had it in mind; the verse is not quoted,
 so treat the link as possible.
 
+Peter describes the other end of the scale. For the believer who grows in faith, virtue and the
+rest of his list, "there will be richly provided for you an entrance into the eternal kingdom of our
+Lord and Savior Jesus Christ" (2 Peter 1:11, ESV). Whether "richly" measures reward is contested,
+and if it does, the two pictures face each other: a rich welcome, and a builder walking out of the
+fire with nothing. [Partakers of the Divine Nature](../christian-life/partakers-of-the-divine-nature.md)
+works through Peter's list.
+
 This shows that God's salvation of His children rests on the foundation He laid in Christ, and on
 nothing the believer built. It also shows that God takes what you build seriously enough to test
 every piece of it by fire. You may lose your whole life's work and still be saved. Build so that you
@@ -415,6 +422,7 @@ from stumbling and to present you blameless before the presence of his glory wit
 
 - [Statement of Faith: Reward for the believer](../about/statement-of-faith.md#reward-for-the-believer)
 - [Assurance of Salvation](assurance-of-salvation.md)
+- [Partakers of the Divine Nature](../christian-life/partakers-of-the-divine-nature.md)
 - [When Love Grows Cold](../christian-life/when-love-grows-cold.md)
 - [Test the Spirits](../christian-life/test-the-spirits.md)
 - [The Rapture: The judgments](../last-things/rapture.md#the-judgments)

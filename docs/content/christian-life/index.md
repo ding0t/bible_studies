@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-13
+date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -80,6 +80,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     Line by line through the prayer Jesus gave His disciples in Matthew 6:9-13 and Luke 11:2-4 -- what each petition asks, the words and background behind it, and how to pray it today.
 
     [:octicons-arrow-right-24: Read](lords-prayer.md)
+
+-   __Partakers of the Divine Nature__
+
+    ---
+
+    The virtues of 2 Peter 1:3-11 as the fruit of a nature God has given: everything for life and godliness already granted, real effort that is never a burden, the joy that comes with it, and a rich entrance into Christ's kingdom.
+
+    [:octicons-arrow-right-24: Read](partakers-of-the-divine-nature.md)
 
 -   __Prayer: Communion with God__
 

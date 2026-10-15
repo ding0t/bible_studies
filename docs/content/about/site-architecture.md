@@ -4,7 +4,7 @@ category: "other"
 description: "The tech behind this site: mkdocs with React tools bundled in, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys"
 tags: ["architecture", "mkdocs", "mermaid", "tech-stack"]
 draft: false
-date_created: 2026-10-15
+date_created: 2026-07-19
 date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5

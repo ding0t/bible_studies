@@ -1,0 +1,152 @@
+slug: "partakers-of-the-divine-nature"
+title: "Partakers of the Divine Nature"
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/christian-life/partakers-of-the-divine-nature.md"
+brief: >
+  Author asked on 2026-10-15: "investigate the virtues of sanctification in 2 Peter 1. The christian
+  living by the spirit naturally bears fruit. It is no burden. It is no work. It is natural. And joy.
+  Work that into recent studies if accurate and appropriate... Spin off a new study if needed or
+  extend a relevant one. And link as needed." No backlog entry covers 2 Peter 1.
+
+accuracy_check_of_brief: >-
+  Natural fruit: supported (2 Pet 1:4 physis, divine nature; Gal 5:22 karpos against erga of the
+  flesh 5:19; John 15:4-5; Matt 7:17-18; Ps 1:3). No burden: supported (1 John 5:3 barys; Matt
+  11:30; contrast Matt 23:4 barys of the scribes' burdens; Gal 5:23 no law). Joy: supported but NOT
+  in Peter's list itself; drawn from Gal 5:22, John 15:11, 1 Pet 1:8, Neh 8:10, Heb 12:2, Rom 14:17,
+  Matt 25:21. "No work": NOT accurate as stated. 2 Pet 1:5 "make every effort" (spoudēn pasan) and
+  1:10 "be all the more diligent" (spoudasate); Gal 5:16, 25; Phil 2:12-13; 1 Cor 15:10; Col 1:29.
+  The study holds the true part of it: the effort never earns standing (Eph 2:8-9), is drawn from
+  God's supply (epichorēgeō, 4 of 5 NT uses God/Christ supplying; 1 Pet 4:11 chorēgeō), and is the
+  effort of a living branch. Surfaced to the author rather than softened.
+
+primary_passage: "2 Peter 1:3-11"
+genre: ["epistle", "topical"]
+sibling_studies:
+  - {slug: "salvation/assurance-of-salvation", role: cited, use: link, note: "Already uses 2 Pet 1:5-11 for confirming the calling, with the ESV SB 1:10 note. Linked both ways; not re-argued."}
+  - {slug: "christian-life/run-the-race", role: prose, use: link, note: "Matt 11:28-30 yoke and burden. Linked both ways."}
+  - {slug: "last-things/judgment-seat-of-christ", role: prose, use: build-on, note: "'Even the work is His' (Eph 2:10; 1 Cor 15:10; Phil 2:12-13). Reward side of 2 Pet 1:11. On-this-site link added there (study at 4,000-word budget, so no prose added)."}
+  - {slug: "salvation/saved-as-through-fire", role: prose, use: enrich, note: "Added a paragraph in 'Loss, and saved': 2 Pet 1:11 rich entrance as the other end of the scale, marked contested."}
+  - {slug: "last-things/they-were-given-white-robes", role: prose, use: link, note: "Linen = righteous deeds granted (Rev 19:8). Linked both ways."}
+  - {slug: "sin/pride", role: cited, use: none, note: "Cites 2 Pet 1:4 with the ESV SB note in passing."}
+  - {slug: "christian-life/be-prepared", role: prose, use: none, note: "Gentleness as fruit of the Spirit (Gal 5:23)."}
+
+thesis: >-
+  God has already given you everything a godly life needs and a share in His own nature, so the
+  virtues of 2 Peter 1 grow as that nature's fruit: you give them real effort, the effort of a living
+  branch, they carry no burden of earning, they come with joy, and they end in a rich welcome into the
+  kingdom of your Lord Jesus.
+
+terms:
+  - {word: "δωρέομαι", strongs: G1433, note: "2 Pet 1:3 (perfect participle) and 1:4 (perfect), both 'granted'."}
+  - {word: "ἀρετή", strongs: G703, count: "5 occurrences in 4 verses: 1 Pet 2:9; 2 Pet 1:3; 1:5 (x2); Phil 4:8. God's at 1 Pet 2:9 and 2 Pet 1:3."}
+  - {word: "θεῖος", strongs: G2304, count: "3: Acts 17:29; 2 Pet 1:3, 4."}
+  - {word: "ἐπιχορηγέω", strongs: G2023, count: "5: Gal 3:5; 2 Cor 9:10; Col 2:19; 2 Pet 1:5, 11."}
+  - {word: "χορηγέω", strongs: G5524, count: "2: 2 Cor 9:10; 1 Pet 4:11."}
+  - {word: "σπουδή", strongs: G4710, count: "12 in NT (SBLGNT)."}
+  - {word: "ἀργός", strongs: G692, note: "2 Pet 1:8; Jas 2:20; Matt 20:3, 6; also Matt 12:36; 1 Tim 5:13 (x2); Titus 1:12."}
+  - {word: "ἄκαρπος", strongs: G175, count: "7: Matt 13:22; Mark 4:19; 1 Cor 14:14; Eph 5:11; Titus 3:14; 2 Pet 1:8; Jude 12."}
+  - {word: "ἐγκράτεια", strongs: G1466, count: "4 in 3 verses: Acts 24:25; Gal 5:23; 2 Pet 1:6 (x2)."}
+  - {word: "βαρύς", strongs: G926, note: "1 John 5:3 'not burdensome'; Matt 23:4 'heavy burdens'."}
+  - {word: "πίστις", strongs: G4102, note: "Gal 5:22 domain 31.88 'faithfulness'; 2 Pet 1:5 domain 31.102 'faith'."}
+  - {word: "ἐν", strongs: G1722, note: "Seven times in 1:5-7 joining each quality to the last."}
+
+resources_consulted:
+  - "ESV Study Bible notes on 2 Pet 1:3, 1:4, 1:5, 1:5-7, 1:8, 1:9, 1:10, 1:11"
+  - "NA28 and MACULA SBLGNT for 2 Pet 1:3-11; footnotes for 2 Pet 1 (LSB 'Or virtue' at 1:3, 1:5)"
+  - "All ESV quotations verified against study-notes.db, 2026-10-15"
+
+open_questions:
+  - "2 Pet 1:11 'richly': reward degrees or eternal life itself. Contested; study reads reward side, marked as reading (ESV SB gives both)."
+  - "Theosis reading of 2 Pet 1:4 (Eastern tradition) not treated; could be a fork if wanted."
+  - "ON PUBLISH: links added in assurance-of-salvation, saved-as-through-fire, run-the-race, judgment-seat-of-christ and they-were-given-white-robes must ship in the same commit."
+
+evidence:
+  - {id: 2pet1-3-esv, what: "ESV 2 Pet 1:3 opening quote and memory verse", tool: study_verse, args: {book: 2Pet, chapter: 1, verse: 3, work_id: esv-study-bible}, expect_contains: "who called us to his own glory and excellence", checked: 2026-10-15}
+  - {id: 2pet1-3-lsb-by, what: "LSB reads 'by His own glory' (the fork the study now discloses)", tool: study_verse, args: {book: 2Pet, chapter: 1, verse: 3, work_id: lsb-2021}, expect_contains: "called us by His own glory and excellence", checked: 2026-10-15}
+  - {id: 2pet1-4-esv, what: "ESV 2 Pet 1:4", tool: study_verse, args: {book: 2Pet, chapter: 1, verse: 4, work_id: esv-study-bible}, expect_contains: "you may become partakers of the divine nature, having escaped from the corruption", checked: 2026-10-15}
+  - {id: 2pet1-5-esv, what: "ESV 2 Pet 1:5", tool: study_verse, args: {book: 2Pet, chapter: 1, verse: 5, work_id: esv-study-bible}, expect_contains: "make every effort to supplement your faith with virtue, and virtue with knowledge", checked: 2026-10-15}
+  - {id: 2pet1-7-esv, what: "ESV 2 Pet 1:7", tool: study_verse, args: {book: 2Pet, chapter: 1, verse: 7, work_id: esv-study-bible}, expect_contains: "and godliness with brotherly affection, and brotherly affection with love.", checked: 2026-10-15}
+  - {id: 2pet1-8-esv, what: "ESV 2 Pet 1:8", tool: study_verse, args: {book: 2Pet, chapter: 1, verse: 8, work_id: esv-study-bible}, expect_contains: "they keep you from being ineffective or unfruitful in the knowledge of our Lord Jesus Christ", checked: 2026-10-15}
+  - {id: 2pet1-9-esv, what: "ESV 2 Pet 1:9", tool: study_verse, args: {book: 2Pet, chapter: 1, verse: 9, work_id: esv-study-bible}, expect_contains: "having forgotten that he was cleansed from his former sins", checked: 2026-10-15}
+  - {id: 2pet1-10-esv, what: "ESV 2 Pet 1:10", tool: study_verse, args: {book: 2Pet, chapter: 1, verse: 10, work_id: esv-study-bible}, expect_contains: "be all the more diligent to confirm your calling and election", checked: 2026-10-15}
+  - {id: 2pet1-11-esv, what: "ESV 2 Pet 1:11", tool: study_verse, args: {book: 2Pet, chapter: 1, verse: 11, work_id: esv-study-bible}, expect_contains: "there will be richly provided for you an entrance into the eternal kingdom", checked: 2026-10-15}
+  - {id: 2pet1-12-esv, what: "ESV 2 Pet 1:12", tool: study_verse, args: {book: 2Pet, chapter: 1, verse: 12, work_id: esv-study-bible}, expect_contains: "I intend always to remind you of these qualities", checked: 2026-10-15}
+  - {id: 2pet2-1-esv, what: "ESV 2 Pet 2:1 swift destruction", tool: study_verse, args: {book: 2Pet, chapter: 2, verse: 1, work_id: esv-study-bible}, expect_contains: "swift destruction", checked: 2026-10-15}
+  - {id: 1pet2-9-esv, what: "ESV 1 Pet 2:9", tool: study_verse, args: {book: 1Pet, chapter: 2, verse: 9, work_id: esv-study-bible}, expect_contains: "that you may proclaim the excellencies of him who called you out of darkness", checked: 2026-10-15}
+  - {id: 1pet1-8-esv, what: "ESV 1 Pet 1:8", tool: study_verse, args: {book: 1Pet, chapter: 1, verse: 8, work_id: esv-study-bible}, expect_contains: "you believe in him and rejoice with joy that is inexpressible and filled with glory", checked: 2026-10-15}
+  - {id: 1pet1-23-esv, what: "ESV 1 Pet 1:23", tool: study_verse, args: {book: 1Pet, chapter: 1, verse: 23, work_id: esv-study-bible}, expect_contains: "you have been born again", checked: 2026-10-15}
+  - {id: 1pet4-11-esv, what: "ESV 1 Pet 4:11", tool: study_verse, args: {book: 1Pet, chapter: 4, verse: 11, work_id: esv-study-bible}, expect_contains: "whoever serves, as one who serves by the strength that God supplies", checked: 2026-10-15}
+  - {id: john15-5-esv, what: "ESV John 15:5", tool: study_verse, args: {book: John, chapter: 15, verse: 5, work_id: esv-study-bible}, expect_contains: "Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing", checked: 2026-10-15}
+  - {id: john15-11-esv, what: "ESV John 15:11", tool: study_verse, args: {book: John, chapter: 15, verse: 11, work_id: esv-study-bible}, expect_contains: "that my joy may be in you, and that your joy may be full", checked: 2026-10-15}
+  - {id: gal5-22-esv, what: "ESV Gal 5:22", tool: study_verse, args: {book: Gal, chapter: 5, verse: 22, work_id: esv-study-bible}, expect_contains: "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness,", checked: 2026-10-15}
+  - {id: gal5-23-esv, what: "ESV Gal 5:23", tool: study_verse, args: {book: Gal, chapter: 5, verse: 23, work_id: esv-study-bible}, expect_contains: "gentleness, self-control; against such things there is no law.", checked: 2026-10-15}
+  - {id: gal5-25-esv, what: "ESV Gal 5:25", tool: study_verse, args: {book: Gal, chapter: 5, verse: 25, work_id: esv-study-bible}, expect_contains: "let us also keep in step with the Spirit", checked: 2026-10-15}
+  - {id: matt7-18-esv, what: "ESV Matt 7:18", tool: study_verse, args: {book: Matt, chapter: 7, verse: 18, work_id: esv-study-bible}, expect_contains: "A healthy tree cannot bear bad fruit, nor can a diseased tree bear good fruit.", checked: 2026-10-15}
+  - {id: ps1-3-esv, what: "ESV Ps 1:3", tool: study_verse, args: {book: Ps, chapter: 1, verse: 3, work_id: esv-study-bible}, expect_contains: "He is like a tree planted by streams of water that yields its fruit in its season", checked: 2026-10-15}
+  - {id: phil2-13-esv, what: "ESV Phil 2:13", tool: study_verse, args: {book: Phil, chapter: 2, verse: 13, work_id: esv-study-bible}, expect_contains: "for it is God who works in you, both to will and to work for his good pleasure.", checked: 2026-10-15}
+  - {id: 1cor15-10-esv, what: "ESV 1 Cor 15:10", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 10, work_id: esv-study-bible}, expect_contains: "I worked harder than any of them, though it was not I, but the grace of God that is with me.", checked: 2026-10-15}
+  - {id: col1-29-esv, what: "ESV Col 1:29", tool: study_verse, args: {book: Col, chapter: 1, verse: 29, work_id: esv-study-bible}, expect_contains: "For this I toil, struggling with all his energy that he powerfully works within me.", checked: 2026-10-15}
+  - {id: eph2-10-esv, what: "ESV Eph 2:10", tool: study_verse, args: {book: Eph, chapter: 2, verse: 10, work_id: esv-study-bible}, expect_contains: "created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them", checked: 2026-10-15}
+  - {id: 1john5-3-esv, what: "ESV 1 John 5:3", tool: study_verse, args: {book: 1John, chapter: 5, verse: 3, work_id: esv-study-bible}, expect_contains: "And his commandments are not burdensome.", checked: 2026-10-15}
+  - {id: matt23-4-esv, what: "ESV Matt 23:4", tool: study_verse, args: {book: Matt, chapter: 23, verse: 4, work_id: esv-study-bible}, expect_contains: "They tie up heavy burdens, hard to bear", checked: 2026-10-15}
+  - {id: matt11-30-esv, what: "ESV Matt 11:30", tool: study_verse, args: {book: Matt, chapter: 11, verse: 30, work_id: esv-study-bible}, expect_contains: "For my yoke is easy, and my burden is light.", checked: 2026-10-15}
+  - {id: neh8-10-esv, what: "ESV Neh 8:10", tool: study_verse, args: {book: Neh, chapter: 8, verse: 10, work_id: esv-study-bible}, expect_contains: "do not be grieved, for the joy of the LORD is your strength", checked: 2026-10-15}
+  - {id: neh8-9-esv, what: "Neh 8:9 names Nehemiah, Ezra and the Levites as speakers", tool: study_verse, args: {book: Neh, chapter: 8, verse: 9, work_id: esv-study-bible}, expect_contains: "And Nehemiah, who was the governor, and Ezra the priest and scribe, and the Levites", checked: 2026-10-15}
+  - {id: heb12-2-esv, what: "ESV Heb 12:2", tool: study_verse, args: {book: Heb, chapter: 12, verse: 2, work_id: esv-study-bible}, expect_contains: "for the joy that was set before him endured the cross", checked: 2026-10-15}
+  - {id: rom14-17-esv, what: "ESV Rom 14:17", tool: study_verse, args: {book: Rom, chapter: 14, verse: 17, work_id: esv-study-bible}, expect_contains: "righteousness and peace and joy in the Holy Spirit", checked: 2026-10-15}
+  - {id: matt25-21-esv, what: "ESV Matt 25:21", tool: study_verse, args: {book: Matt, chapter: 25, verse: 21, work_id: esv-study-bible}, expect_contains: "Enter into the joy of your master.", checked: 2026-10-15}
+  - {id: 1cor3-15-esv, what: "ESV 1 Cor 3:15", tool: study_verse, args: {book: 1Cor, chapter: 3, verse: 15, work_id: esv-study-bible}, expect_contains: "he will suffer loss, though he himself will be saved, but only as through fire", checked: 2026-10-15}
+  - {id: rev19-8-esv, what: "ESV Rev 19:8", tool: study_verse, args: {book: Rev, chapter: 19, verse: 8, work_id: esv-study-bible}, expect_contains: "the righteous deeds of the saints", checked: 2026-10-15}
+  - {id: jas2-20-esv, what: "ESV Jas 2:20", tool: study_verse, args: {book: Jas, chapter: 2, verse: 20, work_id: esv-study-bible}, expect_contains: "faith apart from works is useless", checked: 2026-10-15}
+  - {id: matt13-22-esv, what: "ESV Matt 13:22", tool: study_verse, args: {book: Matt, chapter: 13, verse: 22, work_id: esv-study-bible}, expect_contains: "the cares of the world and the deceitfulness of riches", checked: 2026-10-15}
+  - {id: g703-count, what: "arete 5 occurrences in 4 verses", tool: bible_concordance, args: {strongs: G703, work_id: macula-greek-sblgnt}, expect_count: 5, checked: 2026-10-15}
+  - {id: g2304-count, what: "theios 3 occurrences", tool: bible_concordance, args: {strongs: G2304, work_id: macula-greek-sblgnt}, expect_count: 3, checked: 2026-10-15}
+  - {id: g2023-count, what: "epichoregeo 5 occurrences", tool: bible_concordance, args: {strongs: G2023, work_id: macula-greek-sblgnt}, expect_count: 5, checked: 2026-10-15}
+  - {id: g5524-1pet, what: "choregeo at 1 Pet 4:11", tool: bible_concordance, args: {strongs: G5524, work_id: macula-greek-sblgnt}, expect_contains: "1Pet", checked: 2026-10-15}
+  - {id: g4710-count, what: "spoude 12 in NT", tool: bible_concordance, args: {strongs: G4710, work_id: macula-greek-sblgnt, count_only: true}, path: "0.count", expect_equals: 12, checked: 2026-10-15}
+  - {id: g1466-count, what: "enkrateia 4 occurrences in 3 verses", tool: bible_concordance, args: {strongs: G1466, work_id: macula-greek-sblgnt}, expect_count: 4, checked: 2026-10-15}
+  - {id: g692-jas, what: "argos at Jas 2:20 (SBLGNT)", tool: bible_concordance, args: {strongs: G692, work_id: macula-greek-sblgnt, book: Jas}, expect_count: 1, checked: 2026-10-15}
+  - {id: g175-matt, what: "akarpos at Matt 13:22", tool: bible_concordance, args: {strongs: G175, work_id: macula-greek-sblgnt, book: Matt}, expect_count: 1, checked: 2026-10-15}
+  - {id: g926-matt, what: "barys at Matt 23:4", tool: bible_concordance, args: {strongs: G926, work_id: macula-greek-sblgnt, book: Matt}, expect_contains: "\"verse\": 4", checked: 2026-10-15}
+  - {id: g1433-2pet, what: "doreomai at 2 Pet 1:3 and 1:4", tool: bible_concordance, args: {strongs: G1433, work_id: macula-greek-sblgnt, book: 2Pet}, expect_count: 2, checked: 2026-10-15}
+  - {id: esvsb-1-3, what: "ESVSB arete 'sum of all desirable character qualities'", tool: study_note, args: {book: 2Pet, chapter: 1, verse: 3, work_id: esv-study-bible}, expect_contains: "the sum of all desirable character qualities", checked: 2026-10-15}
+  - {id: esvsb-1-4, what: "ESVSB 'never become part of God'", tool: study_note, args: {book: 2Pet, chapter: 1, verse: 4, work_id: esv-study-bible}, expect_contains: "They never become part of God, but amazingly they share in his nature as they become increasingly like him", checked: 2026-10-15}
+  - {id: esvsb-1-5, what: "ESVSB love 'the ultimate result of faith'", tool: study_note, args: {book: 2Pet, chapter: 1, verse: 5, work_id: esv-study-bible}, expect_contains: "the ultimate result of faith", checked: 2026-10-15}
+  - {id: esvsb-1-5-7, what: "ESVSB 'not ... a legalistic code'", tool: study_note, args: {book: 2Pet, chapter: 1, verse: 6, work_id: esv-study-bible}, expect_contains: "does not reflect a legalistic code but rather the desires and features of a transformed heart", checked: 2026-10-15}
+  - {id: esvsb-1-10, what: "ESVSB works evidence, never basis", tool: study_note, args: {book: 2Pet, chapter: 1, verse: 10, work_id: esv-study-bible}, expect_contains: "Good works are evidence of and give assurance of salvation, though they are never the basis for it", checked: 2026-10-15}
+  - {id: esvsb-1-11, what: "ESVSB both views of 'richly'", tool: study_note, args: {book: 2Pet, chapter: 1, verse: 11, work_id: esv-study-bible}, expect_contains: "Others think that eternal life is itself the reward in view", checked: 2026-10-15}
+
+review_2026-10-15: >-
+  Independent review-bible-study pass (agent, same day as drafting; draft: true kept). Checked: all 37
+  ESV quotations against study-notes.db (all verbatim, right verse, right label); every Strong's
+  number, gloss and count (arete 5/4 verses, theios 3, epichoregeo 5 with 4 God/Christ-supplied,
+  choregeo 2, spoude 12, argos 8, akarpos 7, enkrateia 4/3 verses, en x7 in 1:5-7) against MACULA
+  SBLGNT; all six ESV SB attributions. Brief judgment fair both ways: "natural", "no burden", "joy"
+  are carried by Scripture (joy explicitly from outside Peter's list); "no work" is answered by
+  1:5 and 1:10 without softening, and the draft does not overclaim effort as merit. Fixes: (1)
+  undisclosed fork at 1:3 -- NASB/LSB/NIV/CSB read "by his own glory", now disclosed (argument holds
+  either way); (2) "Jesus called us" in Lessons about Jesus now marked "most likely" (ESV SB reads God);
+  (3) "first paragraph" -> after the greeting (1:1-2 is the greeting); (4) "the passages around it"
+  name joy -> 2 Pet 1 does not; reworded; (5) Neh 8:10 speaker not named in the verse -> 8:9's
+  three; (6) "make that calling 'sure'" -> ESV's "confirm", Greek gloss kept; (7) false teachers
+  "do not enter" (no such statement in ch. 2) -> "swift destruction" (2 Pet 2:1); (8) two antithesis
+  foils rewritten affirmatively (God gives before He asks; Gal 5:23); Matt 23:4 tail trimmed;
+  (9) four bare chapter:verse refs given their book; (10) ἔργα tagged G2041; (11) new-birth claim
+  grounded in 1 Pet 1:23. Gaps: crossref leads only (Col 3, Rom 8), no unmentioned quotation.
+  Siblings (cross_study_claims 2 Peter 1) agree; five sibling edits accurate. Statement of faith
+  (Sanctification; Reward for the believer): consistent. Validator: no findings on this file;
+  Check 24 errors on the five siblings expected until publish.
+
+read_2026-10-15: >-
+  read-bible-study pass (agent, separate session; draft: true kept). Structure only, no sentence
+  changed (prose lines diffed against a pre-edit copy: identical). Changes: (1) "Supplied, and
+  supplied richly" demoted ## -> ### under "Make every effort" (it studies the 1:5 verb); (2) "Never
+  a burden" -> "His burden is light" (affirmative heading, Matt 11:30), outline link updated; (3)
+  "Richly provided" split into "What richly measures" (the contested reading, now findable) and
+  "The joy of your master". 31 sections, median 106, none over 400; outline anchors verified.
+comic_2026-10-15: >-
+  docs/data/comics/partakers-of-the-divine-nature.toml, embedded after the thesis. Beats: Peter writes
+  2 Pet 1:3; Jesus at the vine (John 15:5, 11 condensed); the effort of a branch (2 Pet 1:5; 1 John
+  5:3) with a strip naming the eight qualities; the master's welcome (Matt 25:21 condensed) beside
+  2 Pet 1:11, marked as the study's reading. New `vine` prop in utils/lib/comic.py. ESV bubbles
+  verified with --verify.

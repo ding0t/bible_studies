@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 11:28-30; Hebrews 12:1-3"
 bible_references: ["Matthew 11:19-27", "Matthew 12:1-7", "Matthew 13:1", "Matthew 13:22", "Mark 4:19", "Luke 8:14-15", "Matthew 23:4-5", "Luke 11:46", "Jeremiah 6:16", "Isaiah 40:29-31", "Isaiah 50:4-7", "Luke 9:51", "John 4:6", "Mark 8:3", "Matthew 15:32", "Hebrews 2:1", "Hebrews 3:1", "Hebrews 3:13", "Hebrews 4:15-16", "Hebrews 10:24-25", "Hebrews 10:32-36", "Hebrews 11:39-40", "Hebrews 12:5", "Hebrews 12:12", "Philippians 3:12-14", "Philippians 4:6-8", "Proverbs 3:5-6", "Proverbs 4:20-23", "Matthew 6:1", "Matthew 6:4", "Matthew 6:11", "Matthew 6:16", "Matthew 6:34", "Matthew 4:4", "Deuteronomy 8:3", "Acts 2:42", "Acts 15:10-11", "Luke 18:12-14", "Luke 21:34", "Luke 8:13", "John 10:28", "1 Peter 1:5", "Matthew 11:3", "Galatians 6:9", "1 Peter 5:7", "John 6:35-37", "1 John 5:3", "Hosea 6:6", "Proverbs 3:11-12", "Hebrews 12:14-15", "Psalm 55:12-14", "Acts 15:39", "2 Timothy 4:10-17", "Acts 20:29-30", "John 10:11-13", "Hebrews 9:9", "Hebrews 9:14", "Hebrews 10:1-3", "Hebrews 10:14", "Hebrews 10:22", "Hebrews 10:37-39", "Habakkuk 2:3", "Hebrews 12:4", "Hebrews 12:6", "1 John 3:20", "1 John 2:19", "Luke 8:12", "Mark 4:17", "2 Corinthians 11:32"]
 date_created: 2026-10-02
-date_modified: 2026-10-13
+date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -525,3 +525,5 @@ pray, gather, and put down the loads He never handed you.
 - [Assurance of Salvation](../salvation/assurance-of-salvation.md) — how the Father and the Son keep
   those who are His.
 - [Hurt by the Church](hurt-by-the-church.md) — wolves, weeds, wounded sheep and the Good Shepherd.
+- [Partakers of the Divine Nature](partakers-of-the-divine-nature.md) — the virtues of 2 Peter 1 as the
+  fruit of a new nature, and commandments that are not burdensome.

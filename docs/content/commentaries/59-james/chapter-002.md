@@ -14,5 +14,6 @@ draft: false
 
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 2:19
 - [Faith](../../salvation/faith.md) — 2:22
+- [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 2:17-20
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 2:7
 <!-- commentary-index:auto-end -->

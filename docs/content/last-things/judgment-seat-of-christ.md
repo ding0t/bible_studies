@@ -480,5 +480,7 @@ believer's side: whoever "shares in the first resurrection" is beyond the second
   robes beside the resurrection body.
 - [Assurance of Salvation](../salvation/assurance-of-salvation.md): why the believer's standing is
   secure.
+- [Partakers of the Divine Nature](../christian-life/partakers-of-the-divine-nature.md): the virtues of
+  2 Peter 1 as fruit, and the entrance "richly provided".
 - [Statement of Faith](../about/statement-of-faith.md#reward-for-the-believer): the short confession
   this study backs.

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 1:3-11 (primary passage)
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:5-11
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:16
 - [Pride](../../sin/pride.md) — 1:4

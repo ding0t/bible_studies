@@ -16,6 +16,7 @@ draft: false
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 3:16
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 3:29
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 3:17
+- [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 3:5
 - [Pride](../../sin/pride.md) — 3:3
 - [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 3:17
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 3:27

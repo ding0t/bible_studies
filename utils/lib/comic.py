@@ -994,6 +994,24 @@ def prop_yoke(x, y, s):
             '<path d="M-22 -11 Q-22 4 -12 4 Q-4 4 -4 -14 M4 -14 Q4 4 12 4 Q22 4 22 -11" fill="none" stroke="#6b4a2a" stroke-width="2.4"/></g>')
 
 
+def prop_vine(x, y, s):
+    """A grapevine on a low trellis, fruit hanging from its branches (John 15:1-5); its foot sits on y."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           '<path d="M-60 -92 H60 M-50 -92 V0 M50 -92 V0" stroke="#8a6a44" stroke-width="3" fill="none"/>',
+           '<path d="M-3 0 Q-9 -30 2 -52 Q10 -70 -2 -90" stroke="#5a3d22" stroke-width="7" fill="none" stroke-linecap="round"/>',
+           '<path d="M-1 -88 Q-30 -100 -58 -90 M-1 -88 Q30 -102 58 -90 M2 -60 Q-22 -66 -40 -58 M4 -62 Q26 -70 44 -60" '
+           'stroke="#5a3d22" stroke-width="3" fill="none" stroke-linecap="round"/>']
+    for lx, ly, r in ((-50, -96, 0), (-30, -102, 20), (-12, -98, -15), (14, -104, 10), (34, -100, -20), (54, -94, 15),
+                      (-36, -64, 10), (-18, -70, -10), (24, -72, 20), (42, -64, -5)):
+        out.append(f'<path d="M{lx} {ly} q-9 -4 -9 -11 q6 2 9 -3 q3 5 9 3 q0 7 -9 11 z" fill="#5c8a3a" stroke="#3f6526" '
+                   f'stroke-width="0.8" transform="rotate({r} {lx} {ly})"/>')
+    for gx, gy in ((-40, -86), (-8, -84), (24, -88), (48, -84), (-28, -56), (34, -54)):
+        for i, (dx, dy) in enumerate(((0, 0), (-4, 6), (4, 6), (-2, 12), (2, 12), (0, 18), (-5, 1), (5, 1))):
+            out.append(f'<circle cx="{gx + dx}" cy="{gy + dy}" r="3.6" fill="{"#5b2a5e" if i % 2 else "#6e3570"}"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
 def prop_well(x, y, s):
     """A well with a low stone parapet, like Jacob's well at Sychar (John 4:6)."""
     out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
@@ -1033,7 +1051,7 @@ def prop_spring(x, y, s):
             '<circle cx="-36" cy="-20" r="1.6" fill="#a9d1ea"/><circle cx="37" cy="-22" r="1.6" fill="#a9d1ea"/></g>')
 
 
-PROPS = {"sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
+PROPS = {"vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne,
          "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall}

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [In Humility](../../christian-life/humility.md) — 2:1-11 (primary passage)
+- [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 2:12-13
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 2:10
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 2:3-8
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 2:6-7

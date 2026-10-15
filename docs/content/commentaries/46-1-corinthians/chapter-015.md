@@ -23,6 +23,7 @@ draft: false
 - [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 15:22
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 15:42
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 15:51
+- [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 15:10
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 15:8-10
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 15:51-52
 - [The Appointed Times](../../feasts/feasts.md) — 15:20-23

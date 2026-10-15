@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 1:1-3
 - [The Way](../../jesus/the-way.md) — 1:1-6
 <!-- commentary-index:auto-end -->
