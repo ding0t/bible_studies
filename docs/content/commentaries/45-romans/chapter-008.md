@@ -26,6 +26,7 @@ draft: false
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 8:5
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 8:1
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 8:15-17
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 8:1
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 8:38-39
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:11
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 8:11

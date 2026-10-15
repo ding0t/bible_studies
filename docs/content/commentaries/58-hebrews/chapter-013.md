@@ -16,5 +16,6 @@ draft: false
 - [Faith](../../salvation/faith.md) — 13:7
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 13:7-9
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 13:11-13
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 13:17
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 13:14
 <!-- commentary-index:auto-end -->

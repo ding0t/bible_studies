@@ -22,5 +22,6 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 12:1
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 12:1-12
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 12:7
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 12:1
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 12:2-3
 <!-- commentary-index:auto-end -->

@@ -23,4 +23,5 @@ draft: false
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 22:1-5
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 22:16-20
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 22:17
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 22:14
 <!-- commentary-index:auto-end -->

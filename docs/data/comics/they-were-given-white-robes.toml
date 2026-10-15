@@ -1,0 +1,123 @@
+# One-minute comic for docs/content/last-things/they-were-given-white-robes.md.
+# Drawn by: python3 utils/build_comics.py they-were-given-white-robes
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-15.
+#
+# The study in five beats: God clothes Adam and Eve in garments of skins after their fig leaves
+# failed (Genesis 3:7, 10, 21); the son who is "no longer worthy" is given the best robe, a στολή
+# (Luke 15:21-22); Jesus' clothes turn whiter than any fuller could make them (Mark 9:2-3); the
+# multitude's robes are made white in the Lamb's blood (Revelation 7:9, 13-14); and the Bride is
+# granted fine linen, the righteous deeds of the saints (Revelation 19:7-8).
+# Panels 3 and 4 hold the only two New Testament uses of λευκαίνω, "make white" (Mark 9:3;
+# Revelation 7:14; checked with bible_concordance G3021), and the word thread under them says so.
+# Genesis 3:21 records no words and names no animal: the panel's words are the narrator's verse, and
+# "an animal died to make them" is marked as the study's reading. Moses and Elijah (Mark 9:4) are
+# left out of panel 3, which is about the clothes. Jesus' radiant look is Matthew 17:2 ("his face
+# shone like the sun, and his clothes became white as light"). The multitude carry palm branches
+# (Revelation 7:9). The elder's crown is Revelation 4:4. The Bride is Revelation's own picture of the
+# people of God (19:7), drawn as one figure.
+
+title = "They Were Given White Robes"
+subtitle = "Who are these, and where did the white come from?"
+layout = [[300, 1, 1], [360, 1, 1], [46, 1], [300, 1]]
+note = "Panel 1 draws no one giving the clothes: Genesis gives no form. The Bride is Revelation’s picture of God’s people."
+point = "God puts the white on His people: the robe is washed white in the Lamb’s blood, and even the linen of their righteous deeds is granted. Stand in what He washed (Revelation 7:14; 19:8)."
+
+[[panel]]
+ref = "Genesis 3:7, 21"
+scene = "grassland"
+sky = "dawn"
+caption = "Eden. Their fig leaves lie on the ground."
+caption_w = 200
+aside = "Skins: an animal died to make them. The study’s reading."
+aside_w = 200
+shows = "Adam and Eve standing in tunics of hide, the fig-leaf loincloths they had sewn lying on the ground between them"
+props = [
+  { what = "figleaves", x = 0.30, s = 1.1 },
+]
+cast = [
+  { who = "adam", x = 0.14, face = "right", pose = "fold", tag = "Adam" },
+  { who = "eve", x = 0.44, face = "left", pose = "fold", tag = "Eve" },
+]
+say = [
+  { by = "genesis", name = "Genesis", from = [0.95, -0.1], style = "text", text = "And the LORD God made for Adam and for his wife garments of skins and *clothed them*.", source = "esv", at = [0.76, 0.12], w = 140 },
+]
+
+[[panel]]
+ref = "Luke 15:21-22"
+scene = "courtyard"
+sky = "dusk"
+caption = "Jesus’ picture: the son comes home."
+caption_w = 290
+shows = "a son in rags kneeling before his father, who holds out a robe to him"
+cast = [
+  { who = "beggar", id = "son", name = "the son", x = 0.20, face = "right", stance = "kneel", pose = "beg" },
+  { who = "man", id = "father", name = "the father", x = 0.55, face = "left", pose = "offer", holds = "robe", tone = 3 },
+]
+say = [
+  { by = "son", text = "I am no longer *worthy* to be called your son.", source = "esv", at = [0.25, 0.13], w = 140 },
+  { by = "father", text = "Bring quickly the best robe, and put it on him.", source = "esv", at = [0.80, 0.13], w = 110 },
+]
+
+[[panel]]
+ref = "Mark 9:2-3"
+scene = "hills"
+sky = "day"
+grade = "warm"
+caption = "On the mountain, before Peter, James and John."
+caption_w = 230
+shows = "Jesus shining white on a mountain, with Peter, James and John kneeling before Him"
+burst = { on = "jesus", color = "gold" }
+cast = [
+  { who = "peter", x = 0.09, face = "right", stance = "kneel", pose = "fold", s = 0.85 },
+  { who = "james", x = 0.24, face = "right", stance = "kneel", pose = "fold", s = 0.85 },
+  { who = "jesus", x = 0.74, face = "left", pose = "open", look = "radiant" },
+  { who = "john", x = 0.40, face = "right", stance = "kneel", pose = "fold", s = 0.85 },
+]
+say = [
+  { by = "mark", name = "Mark", from = [0.95, -0.1], style = "text", text = "His clothes became radiant, intensely white, *as no one on earth could bleach them*.", source = "esv", at = [0.30, 0.25], w = 170 },
+]
+
+[[panel]]
+ref = "Revelation 7:9, 13-14"
+scene = "vista"
+horizon = 0.46
+sky = "day"
+caption = "An elder asks John: “Who are these, clothed in white robes?”"
+caption_w = 250
+aside = "Drawn: a few dozen of a multitude no one could number."
+aside_w = 250
+shows = "a great crowd in white robes holding palm branches, stretching to the horizon; in front an elder answers John"
+cast = [
+  { who = "robed", id = "far", name = "the multitude", n = 11, x = 0.04, x2 = 0.96, depth = 0.62, face = "right", pose = "raise", holds = "palm" },
+  { who = "robed", id = "mid", name = "the multitude", n = 6, x = 0.08, x2 = 0.92, depth = 0.38, face = "left", pose = "raise", holds = "palm" },
+  { who = "robed", id = "elder", name = "an elder", x = 0.14, face = "right", pose = "open", holds = "crown", s = 0.8 },
+  { who = "john", x = 0.88, face = "left", pose = "stand", s = 0.8 },
+]
+say = [
+  { by = "elder", text = "They have washed their robes and made them *white in the blood of the Lamb*.", source = "esv", at = [0.52, 0.36], w = 180 },
+]
+
+[[panel]]
+kind = "thread"
+text = "λευκαίνω, “make white”: its only two uses in the New Testament"
+at = [0.25, 0.75]
+
+[[panel]]
+ref = "Revelation 19:7-8"
+scene = "vista"
+horizon = 0.66
+sky = "dawn"
+grade = "warm"
+caption = "John’s picture: the Bride, made ready."
+caption_w = 230
+aside = "Granted: even the deeds are His gift (Ephesians 2:10)."
+aside_w = 230
+shows = "the Bride standing in bright white linen, arms raised, with the saints in white behind her"
+cast = [
+  { who = "robed", id = "saints", name = "the saints", n = 7, x = 0.04, x2 = 0.56, depth = 0.5, face = "right", pose = "praise" },
+  { who = "bride", x = 0.30, face = "right", pose = "praise" },
+]
+say = [
+  { by = "john", name = "John", from = [1.05, 0.2], style = "text", text = "It was granted her to clothe herself with *fine linen, bright and pure*.", source = "esv", at = [0.70, 0.36], w = 220 },
+  { by = "john", name = "John", from = [1.05, 0.6], style = "text", text = "For the fine linen is the righteous deeds of the saints.", source = "esv", at = [0.70, 0.68], w = 220 },
+]

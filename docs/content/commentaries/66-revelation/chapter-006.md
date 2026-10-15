@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 6:11 (primary passage)
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 6:9-11
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 6:9-11
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 6:1-12

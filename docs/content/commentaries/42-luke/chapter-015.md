@@ -13,6 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 15:11-32
-- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 15:22
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 15:21-22
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 15:18
 <!-- commentary-index:auto-end -->

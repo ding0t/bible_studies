@@ -26,6 +26,7 @@ draft: false
 - [The Rapture of the Church](../../last-things/rapture.md) — 1:7
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 1:3
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:5
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 1:14
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:18
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 1:16
 <!-- commentary-index:auto-end -->

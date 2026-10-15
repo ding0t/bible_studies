@@ -14,5 +14,6 @@ draft: false
 
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 1:13-14
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 1:9
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 1:18
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 1:9
 <!-- commentary-index:auto-end -->

@@ -1,0 +1,114 @@
+# One-minute comic for the "Given the work, and the Spirit to do it" section of
+# docs/content/last-things/judgment-seat-of-christ.md.
+# Drawn by: python3 utils/build_comics.py ezekiels-commission
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-15.
+#
+# Five beats: Ezekiel falls on his face before the glory and is told to stand (Ezekiel 1:28-2:1); the
+# Spirit enters him and sets him on his feet (2:2); a hand holds out a scroll and he eats it, sweet
+# as honey (2:9-3:3); God makes him a watchman, "whether they hear or refuse to hear" (2:7; 3:17;
+# 33:2-6); and Paul uses the watchman's terms for his own ministry at Miletus (Acts 20:26-27).
+# Ezekiel is drawn lying for "I fell on my face" (Ezekiel 1:28); the glory itself is not drawn, only
+# the cloud of 1:4, since Ezekiel describes it as "the appearance of the likeness" (1:28). The hand and the
+# scroll are 2:9. The breath is רוּחַ (2:2), wind, breath or spirit; the ESV reads the Spirit. The
+# wall, trumpet and turning crowd are Ezekiel 33:2-6's own picture of the watchman. The Ephesian
+# elders weep because "there was much weeping on the part of all" (Acts 20:37).
+# Nobody in panel 4's crowd speaks: Ezekiel records no words from them.
+
+title = "Ezekiel’s Commission"
+subtitle = "The work, the words and the Spirit, all given"
+layout = [[290, 1, 1], [300, 1, 1], [290, 1]]
+note = "The glory is not drawn: Ezekiel saw only “the appearance of the likeness” (Ezekiel 1:28)."
+point = "God gives the work, the words and the Spirit to do it, and asks that you be found faithful with what He gave (Ezekiel 2:2, 7; 1 Corinthians 4:2)."
+
+[[panel]]
+ref = "Ezekiel 2:1"
+scene = "plain"
+sky = "storm"
+caption = "By the Chebar canal, the glory of the LORD. Ezekiel falls on his face."
+caption_w = 240
+shows = "Ezekiel lying face down on the ground under a stormy sky, light breaking from above"
+props = [
+  { what = "cloud", x = 0.70, y = 0.32, s = 1.2 },
+]
+cast = [
+  { who = "ezekiel", x = 0.58, face = "left", stance = "lie", tag = "Ezekiel" },
+]
+say = [
+  { by = "lord", name = "the LORD", from = [0.72, 0.22], style = "voice", text = "Son of man, *stand on your feet*, and I will speak with you.", source = "esv", at = [0.68, 0.50], w = 170 },
+]
+
+[[panel]]
+ref = "Ezekiel 2:2"
+scene = "plain"
+sky = "storm"
+grade = "warm"
+caption = "He cannot rise by himself."
+caption_w = 200
+aside = "Ruach: wind, breath or spirit. The ESV reads the Spirit."
+aside_w = 220
+shows = "Ezekiel standing, gold currents of breath turning in on him, light converging on him"
+burst = { on = "ezekiel", color = "gold" }
+props = [
+  { what = "breath", x = 0.30, s = 1.0 },
+]
+cast = [
+  { who = "ezekiel", x = 0.30, face = "right", pose = "open" },
+]
+say = [
+  { by = "ezekiel", name = "Ezekiel", from = [1.05, 0.3], style = "text", text = "And as he spoke to me, the Spirit entered into me and *set me on my feet*.", source = "esv", at = [0.74, 0.56], w = 150 },
+]
+
+[[panel]]
+ref = "Ezekiel 2:9; 3:1-3"
+scene = "plain"
+sky = "dusk"
+caption = "A hand holds out a scroll, and Ezekiel eats it."
+caption_w = 220
+shows = "a hand reaching down from above the panel holding out a scroll to Ezekiel"
+props = [
+  { what = "hand", x = 0.40, y = 0.50, s = 0.9 },
+]
+cast = [
+  { who = "ezekiel", x = 0.15, face = "right", pose = "raise" },
+]
+say = [
+  { by = "lord", name = "the LORD", from = [0.75, -0.05], style = "voice", text = "Eat this scroll, and go, speak to the house of Israel.", source = "esv", at = [0.76, 0.16], w = 140 },
+  { by = "ezekiel", name = "Ezekiel", from = [1.05, 0.8], style = "text", text = "It was in my mouth *as sweet as honey*.", source = "esv", at = [0.78, 0.60], w = 120 },
+]
+
+[[panel]]
+ref = "Ezekiel 2:7; 3:17-18"
+scene = "plain"
+sky = "day"
+caption = "“Whether they hear or refuse to hear.”"
+caption_w = 220
+shows = "Ezekiel on a city wall blowing a ram's horn, while below some people stop to listen and others turn away"
+props = [
+  { what = "wall", x = 0.24, s = 0.6 },
+]
+cast = [
+  { who = "ezekiel", x = 0.24, face = "right", pose = "raise", holds = "shofar", dy = -0.182, s = 0.8 },
+  { who = "man", id = "hear", name = "one who hears", x = 0.60, face = "left", pose = "look_up", tone = 1, s = 0.85 },
+  { who = "woman", id = "turn", name = "one who turns away", x = 0.76, face = "right", stance = "walk", pose = "turn", tone = 2, s = 0.85 },
+  { who = "man", id = "turn2", name = "one who turns away", x = 0.92, face = "right", stance = "walk", pose = "turn", tone = 4, s = 0.85 },
+]
+say = [
+  { by = "lord", name = "the LORD", from = [0.6, -0.1], style = "voice", text = "I have made you a *watchman* for the house of Israel.", source = "esv", at = [0.70, 0.17], w = 160 },
+]
+
+[[panel]]
+ref = "Acts 20:26-27"
+scene = "shore"
+sky = "dusk"
+caption = "Miletus. Paul says goodbye to the elders of Ephesus."
+caption_w = 270
+aside = "Ezekiel’s terms, for Paul’s own ministry."
+aside_w = 230
+shows = "Paul on the shore speaking to the elders of Ephesus, who are weeping"
+cast = [
+  { who = "paul", x = 0.22, face = "right", pose = "open", tag = "Paul" },
+  { who = "man", id = "elders", name = "the elders of Ephesus", n = 4, x = 0.56, x2 = 0.86, face = "left", pose = "fold", marks = ["tears"] },
+]
+say = [
+  { by = "paul", text = "I am innocent of the blood of all, for I did not shrink from declaring to you the *whole counsel of God*.", source = "esv", at = [0.70, 0.06], w = 250 },
+]

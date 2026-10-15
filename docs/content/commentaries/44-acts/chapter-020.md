@@ -15,6 +15,7 @@ draft: false
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 20:28-31 (primary passage)
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 20:29-30
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 20:28-32
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 20:26-27
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 20:7
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 20:6
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 20:16

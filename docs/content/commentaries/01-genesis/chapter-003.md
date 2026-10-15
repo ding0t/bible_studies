@@ -20,5 +20,6 @@ draft: false
 - [Know the Truth](../../christian-life/know-the-truth.md) — 3:1
 - [Pride](../../sin/pride.md) — 3:5
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 3:17
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 3:7-10
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 3:1-5
 <!-- commentary-index:auto-end -->

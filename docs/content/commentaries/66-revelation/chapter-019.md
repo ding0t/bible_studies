@@ -14,6 +14,7 @@ draft: false
 
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 19:6-9 (primary passage)
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 19:7-9 (primary passage)
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 19:7-8 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 19:6-9
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 19:11-16
 - [Charting End Times](../../last-things/prophecy-chart.md) — 19:7-9

@@ -17,6 +17,7 @@ draft: false
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:14
 - [Passover: When I See the Blood](../../feasts/passover.md) — 5:8-9
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 5:14
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 5:18
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 5:8
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 5:14
 <!-- commentary-index:auto-end -->

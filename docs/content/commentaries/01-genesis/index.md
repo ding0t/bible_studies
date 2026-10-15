@@ -134,7 +134,7 @@ What types are seen as shadows of a truth.
 
 - [Chapter 1](chapter-001.md) — 11 study(ies)
 - [Chapter 2](chapter-002.md) — 14 study(ies)
-- [Chapter 3](chapter-003.md) — 9 study(ies)
+- [Chapter 3](chapter-003.md) — 10 study(ies)
 - [Chapter 4](chapter-004.md) — 1 study(ies)
 - [Chapter 5](chapter-005.md) — 9 study(ies)
 - [Chapter 6](chapter-006.md) — 5 study(ies)

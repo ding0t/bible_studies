@@ -31,4 +31,5 @@ draft: false
 - [The Rapture of the Church](../../last-things/rapture.md) — 21:1-4
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 21:12-14
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 21:22
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 21:27
 <!-- commentary-index:auto-end -->

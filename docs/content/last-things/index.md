@@ -85,7 +85,7 @@ End-times prophecy, read dispensationally.
 
     ---
 
-    Every believer will appear before the judgment seat of Christ to receive reward or loss for what was built on Him. What the Old and New Testaments say about reward, why it is never wages for salvation, how the white robe differs from the fine linen, and why this is a different judgment from the great white throne.
+    Every believer will appear before the judgment seat of Christ to receive reward or loss for what was built on Him. What the Old and New Testaments say about reward, why it is never wages for salvation, how Ezekiel was given his work and held to account for it, how the white robe differs from the fine linen, and why this is a different judgment from the great white throne.
 
     [:octicons-arrow-right-24: Read](judgment-seat-of-christ.md)
 
@@ -184,6 +184,14 @@ End-times prophecy, read dispensationally.
     The restrainer of 2 Thessalonians 2:6-7 is the Holy Spirit dwelling in the church. While the church stands in the midst of the world, lawlessness is held back; when she is caught up, the lawless one is revealed.
 
     [:octicons-arrow-right-24: Read](the-restrainer.md)
+
+-   __They Were Given White Robes__
+
+    ---
+
+    Every white garment God's people wear in Scripture, from the garments of skins in Eden to the robes washed in the Lamb's blood and the Bride's fine linen: who wears them, what makes them white, and why every one of them is God's gift.
+
+    [:octicons-arrow-right-24: Read](they-were-given-white-robes.md)
 
 -   __The Tribulation: Daniel's Seventieth Week, Year by Year__
 

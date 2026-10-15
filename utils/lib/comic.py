@@ -86,6 +86,9 @@ CAST = {
                   hair="short", beard=False, child=True),
     # The robe "washed... white in the blood of the Lamb" (Revelation 7:14; Isaiah 61:10): brighter
     # than the priest's linen and with no head cloth, so it reads as the gift and not an office.
+    # The Bride of the Lamb as Revelation pictures her, in "fine linen, bright and pure" (19:8).
+    "bride": dict(name="the Bride", robes=["#fffdf8"], edge="#b9ab8c", mantle="veil", mantle_fill="#fbf6ea",
+                  beard=False),
     "robed": dict(name="a believer in a white robe", robes=["#fdfbf5", "#f9f6ee"], edge="#a99f88",
                   mantle="stole", mantle_fill="#f4ecd6", hair="short", beard=True),
 }
@@ -127,6 +130,24 @@ FIGURES = {
                        "brown hair garment and a dark leather belt, and the cloak he wrapped his face in and later cast "
                        "on Elisha (1 Kings 19:13, 19), drawn dark brown. A full beard; short hair, so he never reads as "
                        "Jesus, whose hair is long."),
+    "james": dict(name="James", study="last-things/they-were-given-white-robes.md", robes=["#2d4f2d"], mantle="stole",
+                  mantle_fill="#b8a888", hair="short", beard=True, belt="#c9b48a",
+                  why="John's brother, a fisherman in his father's boat (Matthew 4:21): the fishermen's rope belt; a deep "
+                      "forest-green tunic and a sand mantle are a fixed choice, kept apart from John's blue and Peter's teal. "
+                      "Scripture gives no detail of his dress."),
+    "ezekiel": dict(name="Ezekiel", study="last-things/judgment-seat-of-christ.md", robes=["#5e4f7a"], mantle="hood",
+                    mantle_fill="#ece6d6", band="#5e4f7a", beard="full",
+                    why="\"Ezekiel the priest, the son of Buzi\" among the exiles by the Chebar canal (Ezekiel 1:1-3): a priest's "
+                        "pale head cloth, with no temple vestments since he served in exile, over a muted violet tunic, a fixed "
+                        "choice. A full beard; Ezekiel 5:1 has him shave it later, a sign-act this costume does not show."),
+    "adam": dict(name="Adam", study="last-things/they-were-given-white-robes.md", robes=["#c49a6c"], mantle=None,
+                 hair="short", beard=True, short=True, hide=True, edge="#5a3d22",
+                 why="\"The LORD God made for Adam and for his wife garments of skins and clothed them\" (Genesis 3:21): a "
+                     "knee-length tunic of hide, mottled so it reads as skin and never as cloth. Drawn only after 3:21; "
+                     "before it the comic shows the fig leaves on the ground (3:7) and no figure."),
+    "eve": dict(name="Eve", study="last-things/they-were-given-white-robes.md", robes=["#cfa77a"], mantle=None,
+                hair="long", beard=False, hide=True, edge="#5a3d22",
+                why="Genesis 3:21's garments of skins: a full-length hide tunic, mottled like Adam's, and her hair uncovered."),
 }
 CAST.update(FIGURES)
 
@@ -201,6 +222,17 @@ def _prop(kind, hand):
                 f'<path d="M{hx + 4} {hy} L{hx + 6} {hy + 30} M{hx + 14} {hy} L{hx + 17} {hy + 32}" stroke="#d8d0bc" stroke-width="1"/>')
     if kind == "crown":
         return prop_crown(hx + 6, hy + 2, 0.8)
+    if kind == "palm":
+        # A palm branch held up (Revelation 7:9; John 12:13).
+        out = [f'<path d="M{hx} {hy + 6} Q{hx + 4} {hy - 30} {hx + 2} {hy - 58}" fill="none" stroke="#5a7a3a" stroke-width="2.4"/>']
+        for k in range(7):
+            yy = hy - 14 - k * 7
+            out.append(f'<path d="M{hx + 3} {yy} q-14 -2 -18 6 M{hx + 3} {yy} q14 -2 18 6" fill="none" stroke="#6f9a45" stroke-width="2.2"/>')
+        return "".join(out)
+    if kind == "shofar":
+        # A ram's-horn trumpet raised to the lips (Ezekiel 33:3).
+        return (f'<path d="M{hx - 2} {hy} Q{hx - 6} {hy - 16} {hx - 14} {hy - 22} Q{hx + 4} {hy - 30} {hx + 14} {hy - 12} '
+                f'Q{hx + 8} {hy - 12} {hx + 4} {hy - 2} Z" fill="#d9c08a" stroke="#7a6326" stroke-width="1"/>')
     if kind == "lamp":
         return (f'<path d="M{hx - 8} {hy - 4} Q{hx} {hy + 4} {hx + 10} {hy - 4} Z" fill="#b5835a" stroke="#6b4a2a" stroke-width="0.8"/>'
                 f'<path d="M{hx + 9} {hy - 5} q2 -8 -1 -12 q-1 6 -3 8 z" fill="{GOLD}"/>')
@@ -270,6 +302,10 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
             g.append('<path d="M-9 -74 V-6 M-3 -76 V-4 M3 -76 V-4 M9 -74 V-6 M14 -60 V-8" stroke="#00000040" '
                      'stroke-width="1" stroke-dasharray="2 2.5"/>'
                      '<path d="M-15 -62 H15 M-17 -36 H17 M-18 -16 H18" stroke="#ffffff22" stroke-width="1" stroke-dasharray="3 2"/>')
+        if c.get("hide"):
+            # Skins (Genesis 3:21): darker blotches, so the tunic reads as hide.
+            g.append('<g fill="#00000026"><ellipse cx="-7" cy="-62" rx="4" ry="3"/><ellipse cx="6" cy="-40" rx="5" ry="3.5"/>'
+                     '<ellipse cx="-9" cy="-24" rx="3.5" ry="2.5"/><ellipse cx="9" cy="-66" rx="3" ry="2"/></g>')
         if c.get("ragged"):
             g.append(f'<rect x="-11" y="-30" width="7" height="6" fill="{_shade(robe)}" transform="rotate(-8 -8 -27)"/>'
                      f'<rect x="6" y="-58" width="6" height="5" fill="{_shade(robe)}"/>')
@@ -706,6 +742,46 @@ def prop_refined(x, y, s):
     return "".join(out)
 
 
+def prop_figleaves(x, y, s):
+    """Fig leaves sewn together into loincloths and cast off (Genesis 3:7), lying on the ground."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">']
+    for k, (dx, rot) in enumerate(((-16, -20), (-4, 10), (9, -8), (20, 24))):
+        out.append(f'<g transform="translate({dx} -4) rotate({rot})"><path d="M0 0 Q-9 -4 -10 -10 Q-4 -9 -3 -14 Q0 -9 3 -14 '
+                   f'Q4 -9 10 -10 Q9 -4 0 0 Z" fill="#5f8a3a" stroke="#34501f" stroke-width="0.8"/>'
+                   f'<path d="M0 0 V-10" stroke="#34501f" stroke-width="0.6"/></g>')
+    out.append('<path d="M-22 -6 Q-10 -2 2 -6 Q14 -10 26 -4" fill="none" stroke="#c9b48a" stroke-width="1" stroke-dasharray="2 2"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+def prop_hand(x, y, s):
+    """"A hand was stretched out to me, and behold, a scroll of a book was in it" (Ezekiel 2:9): an arm
+    of light reaching down from above the panel, the scroll in the hand. (x, y) is the hand; give the
+    prop a `y` well above the ground."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<ellipse cx="-30" cy="-120" rx="40" ry="140" fill="url(#comic-glow)"/>'
+            '<path d="M-60 -420 L-14 -6 L10 -10 L-34 -420 Z" fill="#f4ead2" stroke="#b9ab8c" stroke-width="1.2"/>'
+            '<path d="M-14 -6 Q-12 6 0 8 Q12 6 12 -4 L10 -10 Z" fill="#c39a72" stroke="#7d5a3a" stroke-width="0.9"/>'
+            f'<rect x="-2" y="2" width="30" height="20" fill="{CARD}" stroke="{WALL_EDGE}" stroke-width="1"/>'
+            '<rect x="-6" y="-1" width="6" height="26" rx="3" fill="#8d7650"/><rect x="26" y="-1" width="6" height="26" rx="3" fill="#8d7650"/>'
+            '<path d="M4 8 H22 M4 12 H22 M4 16 H18" stroke="#8d7650" stroke-width="0.8"/></g>')
+
+
+def prop_wall(x, y, s):
+    """A city wall with battlements, for a watchman (Ezekiel 33:2-6). Its walkway is 70 units up, so a
+    figure standing on it takes dy = -0.303 * s."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           f'<rect x="-90" y="-70" width="180" height="70" fill="{WALL}" stroke="{WALL_EDGE}" stroke-width="1.4"/>']
+    for k in range(7):
+        out.append(f'<rect x="{-90 + k * 28}" y="-86" width="16" height="16" fill="{WALL}" stroke="{WALL_EDGE}" stroke-width="1.2"/>')
+    for row in range(3):
+        for k in range(6):
+            out.append(f'<path d="M{-90 + k * 30 + (row % 2) * 15} {-70 + row * 23} v23" stroke="{WALL_EDGE}" stroke-width="0.6"/>')
+        out.append(f'<path d="M-90 {-47 + row * 23} H90" stroke="{WALL_EDGE}" stroke-width="0.6"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
 def prop_bema(x, y, s):
     """A βῆμα: a raised stone tribunal with steps up its front, the seat a judge spoke from (2 Corinthians
     5:10; Acts 18:12). Its top is 36 units up, so a figure standing on it takes dy = -0.156 * s."""
@@ -960,7 +1036,7 @@ def prop_spring(x, y, s):
 PROPS = {"sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne,
-         "books": prop_books, "crown": prop_crown}
+         "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall}
 
 
 SCENES = {
@@ -996,7 +1072,9 @@ SHOTS = {"medium": 1.5, "close": 2.0, "extreme": 3.0}
 # A figure's look, applied by recolouring the figure itself so it stays crisp at any size. "cold"
 # drains it toward a grey-blue, for love growing cold (Matthew 24:12); "warm" lifts it toward gold;
 # "silhouette" is a dark shape for a foreground figure the camera looks past; "faded" is one leaving
-# the story; "soiled" browns and dulls the clothes, for filthy garments (Zechariah 3:3; Jude 23).
+# the story; "soiled" browns and dulls the clothes, for filthy garments (Zechariah 3:3; Jude 23);
+# "radiant" lifts the whole figure toward white, for the Transfiguration, where "his face shone like
+# the sun, and his clothes became white as light" (Matthew 17:2).
 def _cold(r, g, b):
     lum = 0.3 * r + 0.59 * g + 0.11 * b
     return 0.72 * lum + 10, 0.8 * lum + 22, 0.92 * lum + 46
@@ -1011,7 +1089,11 @@ def _soiled(r, g, b):
     return 0.55 * lum + 30, 0.5 * lum + 22, 0.4 * lum + 10
 
 
-LOOKS = {"cold": _cold, "warm": _warm, "soiled": _soiled, "silhouette": lambda r, g, b: (42, 32, 22)}
+def _radiant(r, g, b):
+    return r + (255 - r) * 0.62, g + (255 - g) * 0.6, b + (255 - b) * 0.5
+
+
+LOOKS = {"radiant": _radiant, "cold": _cold, "warm": _warm, "soiled": _soiled, "silhouette": lambda r, g, b: (42, 32, 22)}
 
 
 def recolour(svg, look):
@@ -1613,7 +1695,30 @@ def draw_gap(box, p):
     return out
 
 
+def draw_thread(box, p):
+    """A word thread: a strip under a row of panels naming the word they share, with a tick up to
+    each. Mark 9:3 and Revelation 7:14 are the only two New Testament uses of λευκαίνω, and the
+    thread shows the reader that the two panels above it are joined by the text, not by the artist."""
+    x, y, w, h = box
+    cy = y + h / 2
+    out = []
+    for f in p.get("at", []):
+        tx = x + f * w
+        out.append(f'<path d="M{tx:.1f} {y - 2:.1f} V{cy - 6:.1f}" stroke="{GOLD_EDGE}" stroke-width="2.2"/>'
+                   f'<path d="M{tx - 5:.1f} {y + 5:.1f} L{tx:.1f} {y - 2:.1f} L{tx + 5:.1f} {y + 5:.1f}" fill="none" stroke="{GOLD_EDGE}" stroke-width="2.2"/>')
+    if len(p.get("at", [])) > 1:
+        xs = [x + f * w for f in p["at"]]
+        out.append(f'<path d="M{min(xs):.1f} {cy - 6:.1f} H{max(xs):.1f}" stroke="{GOLD_EDGE}" stroke-width="2.2"/>')
+    label = p["text"]
+    bw = len(label) * 7.6 + 30
+    out.append(f'<rect x="{x + w / 2 - bw / 2:.1f}" y="{cy - 17:.1f}" width="{bw:.1f}" height="26" rx="13" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1.4"/>')
+    out.append(text(x + w / 2, cy + 1, label, 13, "middle", "bold"))
+    return out
+
+
 def draw_panel(i, box, p):
+    if p.get("kind") == "thread":
+        return draw_thread(box, p)
     if p.get("kind") == "gap":
         return draw_gap(box, p)
     if p.get("kind") == "tally":
@@ -1739,13 +1844,16 @@ def draw_panel(i, box, p):
 
 def describe(comic):
     """The <desc>, and the alt text for the markdown embed: every panel, every word in it."""
-    parts = [f'A one-minute comic in {sum(p.get("kind") != "gap" for p in comic["panel"])} panels.']
+    parts = [f'A one-minute comic in {sum(p.get("kind") not in ("gap", "thread") for p in comic["panel"])} panels.']
     num = 0
     if comic.get("headers"):
         hs = comic["headers"]
         names = ", ".join(hs[:-1]) + " and " + hs[-1] if len(hs) > 1 else hs[0]
         parts.append(f"{['', 'One column', 'Two columns', 'Three columns', 'Four columns'][len(hs)]} side by side: {names}, row for row.")
     for i, p in enumerate(comic["panel"]):
+        if p.get("kind") == "thread":
+            parts.append(f'A strip joins the panels above: {p["text"]}.')
+            continue
         if p.get("kind") == "gap":
             parts.append(f'Then a break in time: {p["text"]}' + (f' ({p["ref"]}).' if p.get("ref") else "."))
             continue
@@ -1820,7 +1928,7 @@ def render(comic):
         out.append(text(bx + bw_ / 2, by_ - 6, sub, 11.5, "middle", fill=MUTED, italic=True))
     num = 0
     for i, (box, p) in enumerate(zip(boxes, comic["panel"])):
-        num += p.get("kind") != "gap"
+        num += p.get("kind") not in ("gap", "thread")
         # numbers = false: the columns or headers already give the reading order.
         out += draw_panel(i, box, dict(p, _no_number=not comic.get("numbers", True), _num=num))
 

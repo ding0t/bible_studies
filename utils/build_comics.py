@@ -73,7 +73,7 @@ def verify(slugs):
     failures = 0
     for slug in slugs:
         comic = load(slug)
-        panels = [p for p in comic["panel"] if p.get("kind") != "gap"]
+        panels = [p for p in comic["panel"] if p.get("kind") not in ("gap", "thread")]
         for i, p in enumerate(panels, 1):
             text = " ".join(r["text"] for o, c, a, z in verses(p.get("ref", ""))
                             for r in q.lookup_verse(conn, o, c, a, "esv-study-bible", z))

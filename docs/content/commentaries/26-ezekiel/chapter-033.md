@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 33:21
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 33:4-9
 <!-- commentary-index:auto-end -->

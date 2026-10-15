@@ -20,6 +20,7 @@ draft: false
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 3:20
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 3:20
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 3:20
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:15
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 3:15
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 3:18-20
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 3:22

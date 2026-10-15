@@ -1,0 +1,204 @@
+slug: "they-were-given-white-robes"
+title: "They Were Given White Robes"
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/last-things/they-were-given-white-robes.md"
+brief: >
+  Backlog 5.6 "They were given white robes" (docs/content/about/backlog.md) is the brief: gather every
+  occurrence, ask what the robes mean, who wears them, and whether they are God's gift; the
+  Transfiguration parallel; gift or deeds; the words; the tie to The Wife of the Lamb and The Bride
+  of Christ; not the resurrection body. Author asked on 2026-10-15 to split the robes and linen out
+  of judgment-seat-of-christ.md "given multiple studies now discuss it", with comics.
+
+primary_passage: "Revelation 6:11; Revelation 7:9-14; Revelation 19:7-8"
+supporting_passages:
+  - "Genesis 3:7, 21"
+  - "Isaiah 1:18; 61:10; 64:6"
+  - "Psalm 51:7"
+  - "Zechariah 3:3-5"
+  - "Daniel 7:9; 12:1, 10"
+  - "Mark 9:2-3; Matthew 17:2"
+  - "Luke 15:21-22"
+  - "Matthew 22:11-13"
+  - "Revelation 3:4-5, 18; 4:4; 16:15; 19:14; 22:14"
+sibling_studies:
+  - {slug: "last-things/judgment-seat-of-christ", role: cited, use: build-on, note: "Its 'Two garments' section (about 830 words, reviewed 2026-10-14) is the seed of this study and is cut to a paragraph and the robe/linen table linking here. Must publish in the same commit."}
+  - {slug: "last-things/we-shall-all-be-changed", role: cited, use: link, note: "'The white robes are a different gift' ends 'What the robes mean is a question for a study of its own.' This study answers it. Offer the author a link back (published study; needs approval)."}
+  - {slug: "last-things/rapture", role: cited, use: link, note: "#the-fabric-linking-the-armies-and-the-bride: byssinon at 19:8 and 19:14, linon for angels at 15:6. Linked, not re-argued."}
+  - {slug: "israel-and-church/bride-of-christ", role: cited, use: link, note: "Bride made ready and granted linen (19:7-8); Ephesians 5:26 washing. Linked."}
+  - {slug: "israel-and-church/wife-of-the-lamb", role: prose, use: link, note: "Backlog asks whether it ties in at 19:7-8. Linked for the Bride's identity; this study does not re-argue it."}
+  - {slug: "last-things/the-restrainer", role: prose, use: none, note: "Reads the Revelation 7 multitude as people who come to Christ during the tribulation. This study stays consistent."}
+  - {slug: "last-things/tribulation", role: prose, use: none, note: "Mentions the fifth-seal martyrs' robes in passing."}
+  - {slug: "salvation/saved-as-through-fire", role: prose, use: link, note: "Jude 23 'garment stained by the flesh'; Zechariah 3 brand plucked from the fire."}
+genre: ["apocalyptic", "prophets", "ot-narrative", "gospel", "parable", "topical"]
+
+thesis: >-
+  God puts the white garment on His people: the robe is given and made white in the Lamb's blood,
+  whiter than any launderer on earth could make it, and even the fine linen of the saints' righteous
+  deeds is granted, so you stand in what He washed and wear what He worked in you.
+outline:
+  - {section: "Key Takeaways", says: "Types & prophecy (Gen 3:21 marked as a reading), lessons about Jesus, memory verses Rev 7:14 and Isa 61:10, Be Transformed, prayer."}
+  - {section: "Study outline", says: "Map."}
+  - {section: "The clothes God makes", says: "Gen 3:7 self-made loincloths vs 3:21 God makes and clothes; labash hiphil with God as subject at Gen 3:21, Isa 61:10, Zech 3:4; Isaiah's same word tsedaqah for our deeds as a polluted garment (64:6) and His robe of righteousness (61:10)."}
+  - {section: "Whiter than snow", says: "laban 'make white': Isa 1:18 (LXX: God says 'I will make white'), Ps 51:7 (LXX plyno + leukaino), Dan 12:10 in the time of trouble (12:1). White as God's own colour: Dan 7:9; Rev 1:14."}
+  - {section: "As no one on earth could bleach them", says: "leukaino twice in the NT: Mark 9:3 and Rev 7:14. The whiteness is His; the robes are whitened in His blood. Angels in white."}
+  - {section: "Every white garment in Revelation", says: "Table of eight scenes with word, wearer and how received; words stole, himation, byssinos, leukos counted."}
+  - {section: "Given, washed, granted", says: "edothe at 6:11 and 19:8; eplynan/eleukanan en to haimati (7:14) with Ps 51:7 and Dan 12 echoes; 22:14 present participle and the TR variant."}
+  - {section: "The fine linen of righteous deeds", says: "dikaiomata (Rev 15:4 God's, 19:8 the saints'; Rom 8:4 fulfilled in us by the Spirit); Isa 64:6 beside Rev 19:8; Eph 2:10; armies in the same linen (link rapture); link judgment seat for reward."}
+  - {section: "Who wears them", says: "Martyrs, the tribulation multitude, Sardis' few, the elders (contested), the Bride; the step to every believer marked with its grounds; not the resurrection body (link)."}
+  - {section: "Worthy, soiled, and the wedding garment", says: "The hard part: Rev 3:4 'worthy' (axios: 7 in Rev), 3:18 buy from Me, 16:15 keep garments on, Jude 23, Matt 22:11-13 (supplied garment contested)."}
+  - {section: "Discussion questions", says: "Five facets."}
+  - {section: "References", says: "Sources and on-this-site links."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Backlog 5.6 is the brief. Placement last-things/ beside judgment-seat-of-christ."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Revelation to seven churches in Asia (Sardis's history of unwatched walls, ESV SB note on
+        3:1-6); white garments as festal and priestly dress; fuller's bleaching as a trade (Mark 9:3).
+        Zechariah 3 post-exilic high priest. Genesis 3 garments of skins.
+    literary_context:
+      done: true
+      notes: >
+        Rev 6:9-11 fifth seal; 7:9-17 interlude after the sixth seal, answering 6:17 'who can stand?';
+        19:7-8 marriage of the Lamb after Babylon's fall (Babylon wears byssinos 18:16); 19:14 the
+        armies; 22:14 closing beatitude. Rev 3 letters to Sardis and Laodicea.
+    content_word_studies:
+      done: true
+      notes: "All counts from MACULA SBLGNT / WLC via bible_concordance on 2026-10-15."
+      terms:
+        - {word: "στολή", language: greek, transliteration: "stolē", strongs_id: "G4749", gloss: "long robe", notes: "9 NT: Luke 15:22; 20:46; Mark 12:38; 16:5; Rev 6:11; 7:9, 13, 14; 22:14 (5 in Rev)."}
+        - {word: "λευκός", language: greek, transliteration: "leukos", strongs_id: "G3022", gloss: "white", notes: "25 occurrences in 23 NT verses; 16 in Revelation in 14 verses (1:14 x2, 2:17, 3:4, 3:5, 3:18, 4:4, 6:2, 6:11, 7:9, 7:13, 14:14, 19:11, 19:14 x2, 20:11)."}
+        - {word: "λευκαίνω", language: greek, transliteration: "leukainō", strongs_id: "G3021", gloss: "make white", notes: "2 NT: Mark 9:3; Rev 7:14. LXX: Ps 50:9 (Eng 51:7) and Isa 1:18 (λευκανῶ, 1st sg, God the subject); ἐκλευκαίνω in Theodotion Dan 12:10."}
+        - {word: "πλύνω", language: greek, transliteration: "plynō", strongs_id: "G4150", gloss: "wash (clothes)", notes: "2 in SBLGNT: Rev 7:14 (aorist ἔπλυναν); 22:14 (present participle πλύνοντες). LXX Ps 50:9 πλυνεῖς με."}
+        - {word: "βύσσινος", language: greek, transliteration: "byssinos", strongs_id: "G1039", gloss: "of fine linen", notes: "5 occurrences in 4 verses: Rev 18:12, 16; 19:8 (x2), 14."}
+        - {word: "δικαίωμα", language: greek, transliteration: "dikaiōma", strongs_id: "G1345", gloss: "righteous act, requirement", notes: "10 NT. Rev 15:4 God's righteous acts; Rev 19:8 the saints'; Rom 8:4 the righteous requirement fulfilled in us who walk by the Spirit; Rom 5:18 Christ's one act of righteousness."}
+        - {word: "ἱμάτιον", language: greek, transliteration: "himation", strongs_id: "G2440", gloss: "garment", notes: "Rev 3:4, 5, 18; 4:4; 16:15; 19:13, 16."}
+        - {word: "ἄξιος", language: greek, transliteration: "axios", strongs_id: "G514", gloss: "worthy", notes: "7 in Rev: 3:4; 4:11; 5:2, 4, 9, 12; 16:6. Luke 15:21 'no longer worthy' before the stolē of 15:22."}
+        - {word: "לָבַשׁ", language: hebrew, transliteration: "labash", strongs_id: "H3847", gloss: "clothe (hiphil)", notes: "Hiphil with God as subject at Gen 3:21 (וַיַּלְבִּשֵׁם), Isa 61:10 (הִלְבִּישַׁנִי), Zech 3:4 (הַלְבֵּשׁ). 96 occurrences of the root in MACULA WLC (all stems)."}
+        - {word: "לָבַן", language: hebrew, transliteration: "laban", strongs_id: "H3835", gloss: "be/make white", notes: "Isa 1:18 (hiphil yalbinu); Ps 51:9 Heb = 51:7 Eng (albin); Dan 11:35; 12:10 (hithpael yitlabbenu, 'make themselves white'); Joel 1:7."}
+        - {word: "צְדָקָה", language: hebrew, transliteration: "tsedaqah", strongs_id: "H6666", gloss: "righteousness", notes: "Isa 61:10 me'il tsedaqah 'robe of righteousness'; Isa 64:5 Heb = 64:6 Eng kol-tsidqotenu 'all our righteous deeds' like a polluted garment."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "The garments are pictures; what transcends is who supplies them and what makes them white."
+    theological_principle:
+      done: true
+      notes: "See thesis. Imputed righteousness (robe) and the Spirit-produced works God prepared (linen), both given."
+    application_draft:
+      done: true
+      notes: "Stop sewing fig leaves; come to the blood daily (22:14 present, 1 John 1:7); walk worthy and keep the garment (Rev 16:15)."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Ps 51:7 (LXX 50:9)", relation: "Shares both verbs of Rev 7:14 (πλύνω, λευκαίνω); bible_trace silent, verified by reading the LXX. Marked as echo. ESV SB note on 7:13-14 also cites Ps 51:7."}
+      - {ref: "Dan 12:1, 10 (Theodotion)", relation: "θλῖψις in the time of trouble; ἐκλευκανθῶσι 'made white'. Rev 7:14 'out of the great tribulation... made them white'. Echo, marked."}
+      - {ref: "Isa 1:18 LXX", relation: "ὡς χιόνα λευκανῶ, God speaking: 'I will make white'. Hebrew: they shall be white."}
+      - {ref: "Mark 9:3", relation: "Only other NT λευκαίνω."}
+      - {ref: "Isa 64:6 / Isa 61:10", relation: "Same noun tsedaqah: our righteous deeds a polluted garment; His robe of righteousness."}
+      - {ref: "Gen 3:21 / Isa 61:10 / Zech 3:4", relation: "labash hiphil, God the subject."}
+    translations_compared: ["ESV", "WEB", "ULT", "KJV (Rev 22:14)", "LXX Brenton", "SBLGNT"]
+    divergences_noted: "Rev 22:14: TR/Byzantine 'do his commandments' (KJV) vs 'wash their robes' (SBLGNT, ESV; CSB footnote 'Other mss read who keep his commands'). Ezek-style ULT 'wind' for ruach not relevant here."
+  drafting:
+    done: true
+    file: "docs/content/last-things/they-were-given-white-robes.md"
+  review:
+    done: true
+    validated: true
+
+open_questions:
+  - "Twenty-four elders (Rev 4:4): redeemed (Israel and church; or the raptured church on a pre-tribulation reading) or angels. Left contested with both cases."
+  - "Matt 22:11-13: whether the host supplied the wedding garment has no first-century evidence the study can cite; left as contested."
+  - "ON PUBLISH: publish together with the shortened 'Two garments' in judgment-seat-of-christ.md, which links here. Offer the author links from we-shall-all-be-changed.md and rapture.md (published; need approval)."
+  - "Rev 19:13 'robe dipped in blood' (His own or His enemies', Isa 63:1-3) left out: contested and not needed for the thesis. Fork candidate with Isaiah 63."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Notes on Rev 3:1-6, 3:4-5, 4:4 (elders: people of God or angels), 7:1-17, 7:13-14 (cf. Ps 51:7), 19:7-8 ('her groom's gift of grace'), Matt 22:11 (two readings of the garment). Confirmed; the 4:4 and Matt 22 notes supplied the two sides of each contested reading."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Matt 22:11-13: possibly supplied attire; 'enter God's kingdom on his terms'."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Matt 22:11: some scholars suggest supplied garments, others soiled clothing as insult; contributed the caution."}
+  - {type: commentary, title: "CSB Ancient Faith Study Bible", author: "Holman", note: "Footnote Rev 22:14 variant."}
+  - {type: other, title: "Brenton Septuagint (Daniel = Theodotion)", author: "Brenton", note: "Ps 50:9, Isa 1:18, Dan 12:1, 10, Isa 61:10, Isa 64:5, Gen 3:21."}
+evidence:
+  - {id: rev7-14-esv, what: "ESV Rev 7:14 block quote and memory verse", tool: study_verse, args: {book: Rev, chapter: 7, verse: 14, work_id: esv-study-bible}, expect_contains: "They have washed their robes and made them white in the blood of the Lamb", checked: 2026-10-15}
+  - {id: rev6-11-esv, what: "ESV Rev 6:11", tool: study_verse, args: {book: Rev, chapter: 6, verse: 11, work_id: esv-study-bible}, expect_contains: "Then they were each given a white robe and told to rest a little longer", checked: 2026-10-15}
+  - {id: rev19-8-esv, what: "ESV Rev 19:8", tool: study_verse, args: {book: Rev, chapter: 19, verse: 8, work_id: esv-study-bible}, expect_contains: "it was granted her to clothe herself with fine linen, bright and pure", checked: 2026-10-15}
+  - {id: rev22-14-esv, what: "ESV Rev 22:14", tool: study_verse, args: {book: Rev, chapter: 22, verse: 14, work_id: esv-study-bible}, expect_contains: "Blessed are those who wash their robes", checked: 2026-10-15}
+  - {id: rev3-4-esv, what: "ESV Rev 3:4 worthy", tool: study_verse, args: {book: Rev, chapter: 3, verse: 4, work_id: esv-study-bible}, expect_contains: "they will walk with me in white, for they are worthy", checked: 2026-10-15}
+  - {id: rev3-18-esv, what: "ESV Rev 3:18", tool: study_verse, args: {book: Rev, chapter: 3, verse: 18, work_id: esv-study-bible}, expect_contains: "white garments so that you may clothe yourself and the shame of your nakedness may not be seen", checked: 2026-10-15}
+  - {id: gen3-21-esv, what: "ESV Gen 3:21", tool: study_verse, args: {book: Gen, chapter: 3, verse: 21, work_id: esv-study-bible}, expect_contains: "garments of skins and clothed them", checked: 2026-10-15}
+  - {id: isa61-10-esv, what: "ESV Isa 61:10 memory verse", tool: study_verse, args: {book: Isa, chapter: 61, verse: 10, work_id: esv-study-bible}, expect_contains: "he has covered me with the robe of righteousness", checked: 2026-10-15}
+  - {id: isa64-6-esv, what: "ESV Isa 64:6", tool: study_verse, args: {book: Isa, chapter: 64, verse: 6, work_id: esv-study-bible}, expect_contains: "all our righteous deeds are like a polluted garment", checked: 2026-10-15}
+  - {id: zech3-4-esv, what: "ESV Zech 3:4", tool: study_verse, args: {book: Zech, chapter: 3, verse: 4, work_id: esv-study-bible}, expect_contains: "I will clothe you with pure vestments", checked: 2026-10-15}
+  - {id: mark9-3-esv, what: "ESV Mark 9:3", tool: study_verse, args: {book: Mark, chapter: 9, verse: 3, work_id: esv-study-bible}, expect_contains: "as no one on earth could bleach them", checked: 2026-10-15}
+  - {id: dan12-10-esv, what: "ESV Dan 12:10", tool: study_verse, args: {book: Dan, chapter: 12, verse: 10, work_id: esv-study-bible}, expect_contains: "Many shall purify themselves and make themselves white and be refined", checked: 2026-10-15}
+  - {id: rom8-1-esv, what: "ESV Rom 8:1 (added in review)", tool: study_verse, args: {book: Rom, chapter: 8, verse: 1, work_id: esv-study-bible}, expect_contains: "There is therefore now no condemnation for those who are in Christ Jesus", checked: 2026-10-15}
+  - {id: matt22-12-esv, what: "ESV Matt 22:12", tool: study_verse, args: {book: Matt, chapter: 22, verse: 12, work_id: esv-study-bible}, expect_contains: "Friend, how did you get in here without a wedding garment?", checked: 2026-10-15}
+  - {id: leukaino-nt, what: "leukaino G3021: 2 in NT (Mark 9:3; Rev 7:14)", tool: bible_concordance, args: {strongs: G3021, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 2", checked: 2026-10-15}
+  - {id: stole-nt, what: "stole G4749: 9 in NT", tool: bible_concordance, args: {strongs: G4749, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 9", checked: 2026-10-15}
+  - {id: stole-rev, what: "stole G4749: 5 in Revelation", tool: bible_concordance, args: {strongs: G4749, work_id: macula-greek-sblgnt, count_only: true, book: Rev}, expect_contains: "\"count\": 5", checked: 2026-10-15}
+  - {id: leukos-rev, what: "leukos G3022: 16 in Revelation", tool: bible_concordance, args: {strongs: G3022, work_id: macula-greek-sblgnt, count_only: true, book: Rev}, expect_contains: "\"count\": 16", checked: 2026-10-15}
+  - {id: byssinos-nt, what: "byssinos G1039: 5, all in Revelation", tool: bible_concordance, args: {strongs: G1039, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 5", checked: 2026-10-15}
+  - {id: byssinos-rev, what: "byssinos G1039: 5 in Revelation", tool: bible_concordance, args: {strongs: G1039, work_id: macula-greek-sblgnt, count_only: true, book: Rev}, expect_contains: "\"count\": 5", checked: 2026-10-15}
+  - {id: dikaioma-rev, what: "dikaioma G1345: 2 in Revelation", tool: bible_concordance, args: {strongs: G1345, work_id: macula-greek-sblgnt, count_only: true, book: Rev}, expect_contains: "\"count\": 2", checked: 2026-10-15}
+  - {id: axios-rev, what: "axios G514: 7 in Revelation", tool: bible_concordance, args: {strongs: G514, work_id: macula-greek-sblgnt, count_only: true, book: Rev}, expect_contains: "\"count\": 7", checked: 2026-10-15}
+  - {id: plyno-nt, what: "plyno G4150: 2 in NT", tool: bible_concordance, args: {strongs: G4150, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 2", checked: 2026-10-15}
+  - {id: ps50-9-lxx, what: "LXX Ps 50:9 (Eng 51:7) wash + make white", tool: bible_verse, args: {book: Ps, chapter: 50, verse: 9, translation: ebible-grcbrent}, expect_contains: "πλυνεῖς με καὶ ὑπὲρ χιόνα λευκανθήσομαι", checked: 2026-10-15}
+  - {id: isa1-18-lxx, what: "LXX Isa 1:18 God speaks: I will make white", tool: bible_verse, args: {book: Isa, chapter: 1, verse: 18, translation: ebible-grcbrent}, expect_contains: "ὡς χιόνα λευκανῶ", checked: 2026-10-15}
+  - {id: dan12-10-th, what: "Theodotion Dan 12:10 ekleukanthosi", tool: bible_verse, args: {book: Dan, chapter: 12, verse: 10, translation: ebible-grcbrent}, expect_contains: "ἐκλευκανθῶσι", checked: 2026-10-15}
+  - {id: dan12-1-th, what: "Theodotion Dan 12:1 thlipsis", tool: bible_verse, args: {book: Dan, chapter: 12, verse: 1, translation: ebible-grcbrent}, expect_contains: "καιρὸς θλίψεως", checked: 2026-10-15}
+  - {id: mark9-3-gk, what: "Mark 9:3 fuller", tool: bible_verse, args: {book: Mark, chapter: 9, verse: 3, translation: sblgnt}, expect_contains: "οἷα γναφεὺς ἐπὶ τῆς γῆς οὐ δύναται", checked: 2026-10-15}
+  - {id: rev22-14-tr, what: "TR Rev 22:14 do his commandments", tool: bible_verse, args: {book: Rev, chapter: 22, verse: 14, translation: scrollmapper-TR}, expect_contains: "ποιουντες τας εντολας αυτου", checked: 2026-10-15}
+  - {id: rev22-14-tisch, what: "Tischendorf Rev 22:14 wash their robes", tool: bible_verse, args: {book: Rev, chapter: 22, verse: 14, translation: ebible-grc-tisch}, expect_contains: "πλύνοντες τὰς στολὰς", checked: 2026-10-15}
+  - {id: esvsb-rev7-13, what: "ESV SB 7:13-14 cites Ps 51:7 and the church-history reading", tool: study_note, args: {book: Rev, chapter: 7, verse: 14, work_id: esv-study-bible}, expect_contains: "cf. Ps. 51:7", checked: 2026-10-15}
+  - {id: esvsb-rev19-7, what: "ESV SB 19:7-8 groom gift of grace", tool: study_note, args: {book: Rev, chapter: 19, verse: 8, work_id: esv-study-bible}, expect_contains: "her groom’s gift of grace", checked: 2026-10-15}
+  - {id: esvsb-rev4-4, what: "ESV SB 4:4 elders as angels named", tool: study_note, args: {book: Rev, chapter: 4, verse: 4, work_id: esv-study-bible}, expect_contains: "Some interpreters believe that these elders are angels", checked: 2026-10-15}
+  - {id: esvsb-matt22-11, what: "ESV SB Matt 22:11 two readings", tool: study_note, args: {book: Matt, chapter: 22, verse: 11, work_id: esv-study-bible}, expect_contains: "supplying garments for his guests", checked: 2026-10-15}
+  - {id: nivcbsb-matt22-11, what: "NIV CBSB Matt 22:11 supplied vs soiled", tool: study_note, args: {book: Matt, chapter: 22, verse: 11, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "soiled clothing would insult the host", checked: 2026-10-15}
+  - {id: csbafsb-rev22-14, what: "CSB AFSB footnote Rev 22:14 variant", tool: study_note, args: {book: Rev, chapter: 22, verse: 14, work_id: csb-ancient-faith-study-bible, note_type: footnote}, expect_contains: "Other mss read who keep his commands", checked: 2026-10-15}
+review_2026-10-15:
+  reviewer: "independent review-bible-study pass (separate session from drafting)"
+  checked: >
+    Every ESV quotation (37 verses) against study-notes.db; all verbatim. Strong's numbers and counts
+    for στολή, λευκός, λευκαίνω, πλύνω, βύσσινος, δικαίωμα, ἄξιος (MACULA SBLGNT, count_only); לָבַשׁ
+    hiphil at Gen 3:21, Isa 61:10, Zech 3:4 and צְדָקָה at Isa 61:10 / 64:5 Heb (morphhb-wlc, MACULA);
+    LXX Ps 50:9, Isa 1:18, Theodotion Dan 12:1, 10 (Brenton); Rev 22:14 in SBLGNT, Tischendorf, TR, Byz,
+    KJV and the CSB AFSB footnote; ESV SB notes on Rev 3:4-5, 4:4, 7:13-14, 19:7-8, Matt 22:11; NIV CBSB
+    and NIV BTSB on Matt 22:11. All links and anchors resolve. Statement of faith: Declared righteous,
+    Reward for the believer, End times. Siblings: judgment-seat-of-christ, we-shall-all-be-changed,
+    rapture, saved-as-through-fire, the-restrainer.
+  found_and_fixed:
+    - "Intro 'Revelation puts God's people in white eight times': the eight table scenes include 19:8 and 22:14, whose garments are not called white. Reworded to 'eight scenes of white robes and bright linen'."
+    - "'In Sardis ... had soiled theirs (Revelation 3:4)': 3:4 names the few who had NOT; reworded to 'all but a few names'."
+    - "'Same verb in the same form': Gen 3:21 wayyiqtol, Isa 61:10 perfect, Zech 3:4 infinitive absolute -- same hiphil stem, not same form. And Zech 3:4's speaker is the angel of the LORD; the God-as-subject reading is now marked."
+    - "'Isaiah uses one noun for two garments': the shared noun is tsedaqah, not a garment word; clarified. 'soiled rag' imported KJV 'filthy rags'; now Isaiah's 'polluted garment'."
+    - "Dan 12 paragraph said Daniel was told the white comes from the Lamb's blood; now Daniel is told of the whitening and John names the blood, echoes marked."
+    - "Rev 22:14 present participle read as 'keep washing' unmarked (here and in Be Transformed); now marked as the study's reading of the aspect."
+    - "Matt 22:11 note attribution blended ESV SB and NIV CBSB; ESV SB's second reading (righteous works) was dropped. Attributed separately; 'came on his own terms' (not in the text) replaced by what the text says; closing claim marked as the study's reading."
+    - "'Promises to people who conquer (2:10; 3:5)': 2:10 is to the faithful; reworded."
+    - "Negative definitions recast affirmatively: 'God does not wait...', 'They did not wash anything', 'Worthiness never bought the robe', 'What changed is where the deeds came from' (now grounded in Isa 64:6's own 'we have all become like one who is unclean'), 'It did not work'."
+    - "Soiled-garments section could read as the robe (standing) being soiled; added 'What is soiled is the walk; the standing holds' with Romans 8:1, matching statement-of-faith 'Declared righteous' and judgment-seat comic 'The robe does not [burn]'."
+    - "Strong's numbers added for θλῖψις (G2347) and ἐδόθη (G1325)."
+  verified_unchanged: "λευκαίνω only Mark 9:3 + Rev 7:14; βύσσινος 5x in 4 verses all Revelation (Luke 16:19 is βύσσος G1040); δικαίωμα 2x in Revelation; ἄξιος 7x; λευκός 16x in Revelation; στολή 9 NT / 5 Rev; comic bubbles all verbatim ESV, no comic change."
+  open_for_author:
+    - "Twenty-four elders and Matt 22 supplied garment remain contested by design."
+    - "Comic panel 1 aside and Types & Prophecy keep the Gen 3:21 'an animal died' reading, marked; author may want it in the prayer only."
+read_2026-10-15:
+  pass: "read-bible-study, separate session; no sentence changed (diff vs pre-pass copy shows only added heading lines)"
+  changes:
+    - "'As no one on earth could bleach them' (262 words, the only ## without sub-headings) split into ### On the mountain / ### The multitude's robes / ### Heaven's messengers in white."
+    - "Rev 22:14 variant paragraph given #### The text of Revelation 22:14 under Still washing (rule 5: a contested text made findable)."
+    - "#every-white-garment-in-revelation unchanged (linked from rapture.md); all Study outline anchors verified against the served page."
+  open_for_author:
+    - "Intro line 2 is broken: 'Revelation alone puts God's in eight scenes of white robes and bright linen' -- a word ('people') was lost in the review rewording."
+    - "The Every white garment table opens its section with no lead-in claim (rule 6); needs one authored sentence."
+last_updated: "2026-10-15"
+comic_two_garments_2026-10-15: >-
+  Added comparison comic docs/data/comics/two-garments.toml (robe | linen columns: given 6:11/19:8 with
+  an edothe word thread; Zech 3:3-4 / Rev 19:8 + Eph 2:10; 1 Cor 3:15 / 3:14 marked as the study's
+  reading; Isa 61:10 worn together). Embedded after "Robe and linen together". All 6 ESV bubbles
+  verified; one condensed (Eph 2:10). Also fixed the intro's dropped word ("God's people") and wrote
+  a lead-in for the Revelation garments table, both flagged by the read pass.

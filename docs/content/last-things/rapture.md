@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Thessalonians 4:15-18"
 bible_references: ["John 14:1-4", "Matthew 24:36-44", "Matthew 25:1-13", "1 Corinthians 15:51-53", "2 Thessalonians 2:1-7", "2 Corinthians 12:2-4", "Acts 8:39", "Revelation 12:5", "1 Thessalonians 5:9", "Revelation 3:10", "Daniel 9:27", "Revelation 19:11-16", "2 Corinthians 5:10", "1 Corinthians 3:11-15", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1-4", "Genesis 5:21-24", "Hebrews 11:5", "Genesis 19:15-16", "Genesis 19:24", "Revelation 7:9-14", "Colossians 3:4", "Revelation 19:14", "Matthew 24:29-31", "Matthew 25:6", "1 Thessalonians 1:10", "1 Thessalonians 3:13", "1 Thessalonians 4:13-14", "1 Thessalonians 5:2-4", "2 Thessalonians 1:6-10", "Titus 2:13", "Revelation 1:7", "Revelation 6:16-17", "Revelation 15:1-6", "Revelation 17:14", "Revelation 19:7-9", "Daniel 9:24", "Ephesians 3:5-6", "John 17:15", "Acts 7:5", "Acts 28:15", "1 Timothy 5:21", "1 Corinthians 4:5"]
 date_created: 2024-04-23
-date_modified: 2026-10-04
+date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -236,7 +236,8 @@ include her. Four lines of evidence say it does.
 Six verses earlier the bride is granted **βύσσινον λαμπρὸν καθαρόν**, "fine linen, bright and pure"
 (19:8) — two of the three words identical. When John dresses angels he reaches for a different noun:
 the seven angels of Revelation 15:6 wear **λίνον** καθαρὸν λαμπρόν, same participle *ἐνδεδυμένοι*, different
-cloth. So the armies are dressed as the bride is. (A few manuscripts of 15:6 read λίθον, "stone", for
+cloth. So the armies are dressed as the bride is. Every white garment in Revelation, and who
+gives it, is set out in [They Were Given White Robes](they-were-given-white-robes.md#every-white-garment-in-revelation). (A few manuscripts of 15:6 read λίθον, "stone", for
 λίνον; the SBLGNT and the ESV read linen, and either way the angels' noun differs from the bride's.)
 
 #### The company at the Lamb's war

@@ -15,5 +15,6 @@ draft: false
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 3:1-9
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:4
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 3:4
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 3:3-5
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 3:1-5
 <!-- commentary-index:auto-end -->

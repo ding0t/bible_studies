@@ -14,6 +14,6 @@ draft: false
 
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 18:3
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 18:2
-- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 18:12-17
+- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 18:6
 - [The Way](../../jesus/the-way.md) — 18:24-26
 <!-- commentary-index:auto-end -->

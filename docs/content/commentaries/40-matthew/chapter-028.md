@@ -17,6 +17,7 @@ draft: false
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 28:1
 - [The Appointed Times](../../feasts/feasts.md) — 28:1
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 28:19-20
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 28:3
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 28:1
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 28:20
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 28:1

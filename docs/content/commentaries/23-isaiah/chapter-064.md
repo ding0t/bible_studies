@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 64:8
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 64:6
 <!-- commentary-index:auto-end -->

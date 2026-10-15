@@ -37,4 +37,5 @@ draft: false
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 24:8
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 24:29-31
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 24:15
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 24:21
 <!-- commentary-index:auto-end -->

@@ -1,0 +1,145 @@
+# One-minute comic for docs/content/last-things/they-were-given-white-robes.md, embedded in
+# "The fine linen of righteous deeds", where the study sets the robe and the linen side by side.
+# Drawn by: python3 utils/build_comics.py two-garments
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-15.
+#
+# A comparison in the echo shape: the white robe down the left, the fine linen down the right, one
+# question per row.
+# Row 1, how each comes: both are given, and Revelation uses the same verb for both, ἐδόθη (6:11;
+# 19:8), which the word thread under the row names. The martyrs are "under the altar" (6:9).
+# Row 2, what each is: the robe is iniquity taken away and pure clothing put on (Zechariah 3:3-4,
+# the study's clothing-by-God thread); the linen "is the righteous deeds of the saints" (Revelation
+# 19:8), which God "prepared beforehand" (Ephesians 2:10). The deed drawn, bread given to a poor
+# man, is an example and carries no claim about which deeds.
+# Row 3, the judgment seat: the robe holds when the work burns (1 Corinthians 3:15); surviving work
+# brings reward (3:14). Setting the robe/linen pair against 1 Corinthians 3 is the study's reading
+# (it links judgment-seat-of-christ.md), so the row carries an aside saying so.
+# Row 4, worn together: Isaiah's song, clothed by God "as a bride adorns herself" (Isaiah 61:10).
+# Zechariah 3:4's speaker is "the angel"; the study marks reading him as the LORD as contested, so
+# the angel is a voice with no figure, named only as the angel.
+
+title = "Two Garments"
+subtitle = "The white robe and the fine linen, side by side"
+layout = [[290, 1, 1], [46, 1], [300, 1, 1], [300, 1, 1], [280, 1]]
+headers = ["The white robe", "The fine linen"]
+note = "Panel 4’s bread is one example: Revelation names no deed. The Bride is Revelation’s picture of God’s people."
+point = "Both garments are given. The robe is your standing, washed white by the Lamb and never burned; the linen is the deeds God prepared for you to walk in. Wear both as His gift (Revelation 6:11; 19:8; Ephesians 2:10)."
+
+[[panel]]
+ref = "Revelation 6:9-11"
+scene = "temple"
+sky = "day"
+caption = "Under the altar, the martyrs."
+caption_w = 200
+shows = "four martyrs in white robes looking up, under the altar of heaven"
+cast = [
+  { who = "robed", id = "martyrs", name = "the martyrs", n = 4, x = 0.10, x2 = 0.52, face = "right", pose = ["look_up", "fold", "look_up", "raise"] },
+]
+say = [
+  { by = "john", name = "John", from = [1.05, 0.2], style = "text", text = "Then they were each *given a white robe* and told to rest a little longer.", source = "esv", at = [0.74, 0.34], w = 150 },
+]
+
+[[panel]]
+ref = "Revelation 19:7-8"
+scene = "vista"
+horizon = 0.66
+sky = "dawn"
+grade = "warm"
+caption = "The Bride, made ready."
+caption_w = 170
+shows = "the Bride standing in bright white linen, arms raised"
+cast = [
+  { who = "bride", x = 0.24, face = "right", pose = "praise" },
+]
+say = [
+  { by = "john", name = "John", from = [1.05, 0.2], style = "text", text = "It was *granted her* to clothe herself with fine linen, bright and pure.", source = "esv", at = [0.68, 0.34], w = 160 },
+]
+
+[[panel]]
+kind = "thread"
+text = "ἐδόθη, “it was given”: the same word for both garments"
+at = [0.25, 0.75]
+
+[[panel]]
+ref = "Zechariah 3:3-4"
+scene = "temple"
+sky = "day"
+caption = "Joshua the high priest, in filthy garments."
+caption_w = 200
+shows = "Joshua in a ragged, stained garment, and an attendant holding out a clean white robe to him"
+cast = [
+  { who = "beggar", id = "joshua", name = "Joshua", x = 0.14, face = "right", pose = "fold", tag = "Joshua" },
+  { who = "man", id = "att", name = "an attendant", x = 0.38, face = "left", pose = "offer", holds = "robe", tone = 2 },
+]
+say = [
+  { by = "angel", name = "the angel", from = [0.95, -0.2], style = "voice", text = "I have *taken your iniquity away* from you, and I will clothe you with pure vestments.", source = "esv", at = [0.76, 0.42], w = 140 },
+]
+
+[[panel]]
+ref = "Revelation 19:8; Ephesians 2:10"
+scene = "street"
+sky = "day"
+caption = "The deeds God prepared."
+caption_w = 170
+shows = "a believer in white holding out a loaf to a poor man sitting by the road"
+cast = [
+  { who = "beggar", id = "poor", name = "a poor man", x = 0.14, face = "right", stance = "sit", pose = "beg" },
+  { who = "robed", id = "saint", name = "a believer", x = 0.36, face = "left", pose = "offer", holds = "loaf", tone = 1 },
+]
+say = [
+  { by = "john", name = "John", from = [1.05, 0.1], style = "text", text = "For the fine linen is *the righteous deeds of the saints*.", source = "esv", at = [0.74, 0.12], w = 150 },
+  { by = "paul", name = "Paul", from = [1.05, 0.7], style = "text", text = "Good works, which *God prepared beforehand*.", source = "condensed", at = [0.74, 0.58], w = 150 },
+]
+
+[[panel]]
+ref = "1 Corinthians 3:15"
+scene = "plain"
+sky = "dusk"
+caption = "The work burns. The robe holds."
+caption_w = 160
+aside = "Robe and linen at the judgment seat: the study’s reading."
+aside_w = 160
+shows = "a building of wood and straw burning, its builder walking out of it in a white robe with empty hands"
+props = [
+  { what = "burning", x = 0.22, s = 0.7 },
+]
+cast = [
+  { who = "robed", id = "b1", name = "the builder", x = 0.52, face = "right", stance = "walk", pose = "run", tone = 1, s = 0.7 },
+]
+say = [
+  { by = "paul", name = "Paul", from = [1.05, 0.3], style = "text", text = "He himself will be *saved*, but only as through fire.", source = "esv", at = [0.80, 0.30], w = 120 },
+]
+
+[[panel]]
+ref = "1 Corinthians 3:14"
+scene = "plain"
+sky = "dusk"
+caption = "The work survives the fire."
+caption_w = 150
+shows = "a building of gold, silver and precious stones standing whole in the fire, its builder in white holding up a gold wreath"
+props = [
+  { what = "refined", x = 0.22, s = 0.7 },
+]
+cast = [
+  { who = "robed", id = "b2", name = "the builder", x = 0.52, face = "left", pose = "raise", holds = "crown", tone = 0, s = 0.7 },
+]
+say = [
+  { by = "paul", name = "Paul", from = [1.05, 0.3], style = "text", text = "If the work that anyone has built on the foundation survives, he will receive a *reward*.", source = "esv", at = [0.75, 0.26], w = 130 },
+]
+
+[[panel]]
+ref = "Isaiah 61:10"
+scene = "vista"
+horizon = 0.66
+sky = "dawn"
+grade = "warm"
+caption = "Worn together: Isaiah’s song."
+caption_w = 220
+shows = "a believer in a white robe and the Bride in bright linen, side by side with arms raised in praise"
+cast = [
+  { who = "robed", id = "singer", name = "a believer", x = 0.16, face = "right", pose = "praise", tone = 1 },
+  { who = "bride", x = 0.30, face = "right", pose = "praise" },
+]
+say = [
+  { by = "isaiah", name = "Isaiah", from = [1.05, 0.3], style = "text", text = "He has clothed me with the garments of salvation; he has covered me with *the robe of righteousness*.", source = "esv", at = [0.68, 0.38], w = 280 },
+]

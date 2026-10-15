@@ -85,6 +85,13 @@ counted or numbered as a panel. `judgment-seat-of-christ` puts "A thousand years
 read as adjacent are held apart by the distance the text puts between them. Use it only for a span
 the text states.
 
+**A word thread** is a panel with `kind = "thread"`, `text` and `at` (fractions of the page width),
+on its own short row under a row of panels: a gold strip naming the word the panels above share,
+with a tick up to each. `they-were-given-white-robes` runs one under Mark 9:3 and Revelation 7:14,
+the only two New Testament uses of λευκαίνω, so the reader sees the text joining the two scenes and
+not the artist. Verify the word with `bible_concordance` and record it in the TOML header; a thread
+is a claim about the text, held to the same standard as a bubble.
+
 ## 2. Write the words
 
 The bubbles are the comic. They are also the place a comic is most likely to say something
@@ -130,7 +137,8 @@ Scripture does not.
   is checked by `--verify` like any ESV bubble.
 - **`holds`** on a cast entry puts a prop in the near hand: `staff`, `scroll`, `stone`, `spear`,
   `jar`, `gift`, `loaf`, `lamp`, `yoke`, `robe` (a white robe held out, folded over the hand),
-  `crown` (a gold victor's wreath, the στέφανος), and `load`, which goes on the back with the hand on its
+  `crown` (a gold victor's wreath, the στέφανος), `palm` (a palm branch, Revelation 7:9), `shofar`
+  (a ram's-horn trumpet, Ezekiel 33:3), and `load`, which goes on the back with the hand on its
   strap, for the heavy-laden (Matthew 11:28). Poses include `run` and `offer` (an arm held out
   with something in the hand).
 - **`point`** is the closing line under THE POINT ribbon: the study's sentence, landed on the
@@ -152,6 +160,9 @@ comic knows him in the next. Each is reserved once, in `FIGURES` in `utils/lib/c
 | `john` | John, son of Zebedee | Deep blue tunic, cream mantle, the fishermen's rope belt | test-the-spirits |
 | `paul` | Paul | Rust tunic, charcoal travelling cloak, leather belt | test-the-spirits |
 | `elijah` | Elijah | Coarse brown hair garment, dark leather belt (2 Kings 1:8), dark cloak (1 Kings 19:13), full beard, short hair | when-love-grows-cold |
+| `james` | James, son of Zebedee | Deep forest-green tunic, sand mantle, the fishermen's rope belt | they-were-given-white-robes |
+| `adam`, `eve` | Adam and Eve | Mottled hide tunics, knee-length for Adam, full-length for Eve: the "garments of skins" (Genesis 3:21). Drawn only after 3:21 | they-were-given-white-robes |
+| `ezekiel` | Ezekiel | A priest's pale head cloth (Ezekiel 1:3) over a muted violet tunic, full beard | ezekiels-commission |
 
 - **Reserve only a figure the text names.** The two witnesses are unnamed in Revelation 11 and
   contested in the study, so they are the generic `witness` (sackcloth), never a reserved Moses
@@ -185,6 +196,7 @@ clones:
 | `soldier` | Red tunic, helmet; `holds = "spear"` |
 | `witness` | Sackcloth (coarse, dark goat's hair), for a prophet in mourning dress (Revelation 11:3) |
 | `child` | Smaller, bare-headed |
+| `bride` | Bright white linen and a white veil: the Bride as Revelation pictures God's people (19:7-8). Say in the caption that it is John's picture |
 | `robed` | A white robe and pale stole, no head cloth: one clothed in the robe "made white in the blood of the Lamb" (Revelation 7:14). Brighter than the priest's linen, so it reads as a gift and not an office |
 
 - **Faces stay blank, everyone's.** drawn-graphics.md rules out drawing the face of Jesus; a cast
@@ -243,7 +255,11 @@ clones:
   `throne` (a throne with the one seated on it drawn as light, since Revelation 4:2-3 and 20:11 give
   a presence and no form), `books` (opened, Revelation 20:12), `crown` (a wreath laid down), and
   `refined`, the counterpart of `burning`: gold, silver and precious stones standing whole in the
-  fire on the same foundation (1 Corinthians 3:12-14). `y` defaults to
+  fire on the same foundation (1 Corinthians 3:12-14). Also `figleaves` (the sewn loincloths of
+  Genesis 3:7, cast off on the ground), `wall` (a city wall with battlements for a watchman; a figure
+  on it takes `dy = -0.303 * s`) and `hand` ("a hand was stretched out to me, and behold, a scroll",
+  Ezekiel 2:9: an arm reaching down from above the frame, the scroll in the hand; give it a `y` well
+  above the ground). `y` defaults to
   the ground line; `s` scales. **`n` with `x2` draws a counted row**, so twelve baskets are twelve;
   stack two rows for a heap that still counts.
   `face = "left"` turns a prop round, so a flock can walk toward its shepherd.
@@ -285,7 +301,7 @@ every tool below in one panel each, captioned with the TOML that draws it. Open 
 | Spotlight | `spotlight = "<id>"` | Darkens the frame away from one figure | Someone alone, or the one figure the panel is about |
 | Focus lines | `burst = { on = "<id>", color = "gold" }` | Lines converging on a figure, stopping short of it | The arrival or word the comic turns on. Gold for glory; ink for alarm |
 | Grade | `grade = "warm"`, `"cold"`, `"dark"` | Lays a colour over the whole panel | The temperature of the moment, when the text gives it (night, dawn, a cold heart) |
-| Look | cast `look = "cold"`, `"warm"`, `"silhouette"`, `"faded"` | Recolours one figure | Cold for love cooling, warm for the faithful, faded for one leaving the story, silhouette for the figure the camera looks past |
+| Look | cast `look = "cold"`, `"warm"`, `"radiant"`, `"silhouette"`, `"faded"` | Recolours one figure | Cold for love cooling, warm for the faithful, radiant for His glory at the Transfiguration (Matthew 17:2), faded for one leaving the story, silhouette for the figure the camera looks past |
 | Marks | cast `marks = ["sweat", "tears", "shock", "sigh", "question", "exclaim", "heart", "cold", "warm", "ember"]` | The marks cartoonists draw round a head | What a blank face cannot show |
 
 Rules, each for the same reason as section 1's: the picture must not say what the text does not.

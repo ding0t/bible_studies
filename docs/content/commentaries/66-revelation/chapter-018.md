@@ -14,6 +14,6 @@ draft: false
 
 - [Pride](../../sin/pride.md) — 18:7-8
 - [Sin and Sorcery](../../sin/sorcery.md) — 18:23
-- [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 18:12-16
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 18:23
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 18:16
 <!-- commentary-index:auto-end -->

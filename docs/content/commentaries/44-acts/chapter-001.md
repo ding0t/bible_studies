@@ -31,6 +31,7 @@ draft: false
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 1:6-7
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:9-12
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:9
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 1:10
 - [Thomas](../../biblical-figures/thomas.md) — 1:13
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 1:3
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 1:3-5

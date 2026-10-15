@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 7:9-14 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 7:9
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 7:14
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 7:1-9

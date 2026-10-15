@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Corinthians 15:35-58"
 bible_references: ["1 Corinthians 15:12", "1 Corinthians 15:20-26", "Genesis 2:7", "Isaiah 25:8", "Isaiah 26:19", "Hosea 13:14", "Job 14:7-14", "Job 19:25-27", "Job 33:24-28", "Job 42:17", "Psalm 102:26", "Acts 2:27", "1 Corinthians 2:14-15", "Romans 5:14", "Philippians 3:20-21", "Romans 8:11", "Romans 8:23", "Romans 8:29", "1 John 3:2", "1 Thessalonians 4:16-17", "2 Corinthians 5:1-4", "Luke 24:36-43", "John 20:19-27", "1 Timothy 6:16", "Hebrews 1:12", "Revelation 6:11", "Daniel 12:2-3", "Job 19:25-27", "1 Corinthians 15:8", "Acts 26:13", "Revelation 1:16", "Luke 24:26", "1 Timothy 3:16", "Acts 1:3", "Matthew 17:2"]
 date_created: 2026-09-28
-date_modified: 2026-10-07
+date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -379,7 +379,8 @@ promise: a believer who dies goes at once to be with the Lord Jesus, and waits t
 The martyrs under the altar "were each given a white robe and told to rest a little longer"
 (Revelation 6:11, ESV). They are clothed and they are still waiting. The robe is given *before* the
 resurrection, to people who are not yet raised, so it cannot be the resurrection body. Both are
-clothing, and both are God's gift. What the robes mean is a question for a study of its own.
+clothing, and both are God's gift. What the robes mean is the subject of
+[They Were Given White Robes](they-were-given-white-robes.md).
 
 ## Death swallowed up
 
@@ -531,3 +532,5 @@ be changed with them, in the twinkling of an eye.
   the firstfruits" (1 Corinthians 15:20, 23).
 - [Heaven and Earth Will Pass Away](heaven-and-earth-will-pass-away.md) — the same verb "change"
   applied to the creation.
+- [They Were Given White Robes](they-were-given-white-robes.md) — the robe given before the
+  resurrection, and the fine linen of the saints.

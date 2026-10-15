@@ -21,4 +21,5 @@ draft: false
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 5:5-9
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 5:10
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 5:10
+- [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 5:9
 <!-- commentary-index:auto-end -->
