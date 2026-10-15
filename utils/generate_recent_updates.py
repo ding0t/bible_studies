@@ -9,7 +9,7 @@ took the page out of `draft: true`, or its first commit if it was never a draft.
 will not do, because it is the first commit, and a study drafted for three weeks before going live
 would count as three weeks old on the day it appears. The same dates are written to
 docs/data/published.json, which hooks/new_pages.py reads to mark each new page, and its sidebar
-entry, for the same window.
+entry, for the same window, and the newest of them to docs/content/feed.xml, the site's RSS feed.
 
 Same delimited auto-section pattern as section_index.py/commentary_index.py: only the text
 between the AUTO_START/AUTO_END markers on each page is regenerated, so hand-written prose
@@ -29,8 +29,10 @@ import json
 import os
 import re
 import subprocess
-from datetime import date, datetime
+from datetime import date, datetime, time, timezone
+from email.utils import format_datetime
 from pathlib import Path
+from xml.sax.saxutils import escape
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 CONTENT_DIR = REPO_ROOT / "docs" / "content"
@@ -38,6 +40,9 @@ CONTENT_DIR = REPO_ROOT / "docs" / "content"
 FULL_PAGE = CONTENT_DIR / "about" / "recent-updates.md"
 HOME_PAGE = CONTENT_DIR / "index.md"
 PUBLISHED_JSON = REPO_ROOT / "docs" / "data" / "published.json"
+FEED_XML = CONTENT_DIR / "feed.xml"
+MKDOCS_YML = REPO_ROOT / "mkdocs.yml"
+FEED_COUNT = 20
 
 FULL_START = "<!-- recent-updates:auto-start -->"
 FULL_END = "<!-- recent-updates:auto-end -->"
@@ -85,7 +90,9 @@ def git_history(md_path: Path) -> list[tuple[date, str]]:
     it has no history yet (freshly created and uncommitted -- nothing to report until then)."""
     rel = md_path.relative_to(REPO_ROOT)
     out = subprocess.run(
-        ["git", "log", "--follow", "--reverse", "-p", "--unified=0",
+        # No --reverse: git applies it before --follow, which then stops at the first rename and
+        # dates a moved page from its move. Reversed here instead.
+        ["git", "log", "--follow", "-p", "--unified=0",
          "--format=%x01%ad", "--date=short", "--", str(rel)],
         cwd=REPO_ROOT, capture_output=True, text=True, check=True,
     ).stdout
@@ -93,7 +100,7 @@ def git_history(md_path: Path) -> list[tuple[date, str]]:
     for record in out.split("\x01")[1:]:
         day, _, diff = record.partition("\n")
         history.append((datetime.strptime(day.strip(), "%Y-%m-%d").date(), diff))
-    return history
+    return history[::-1]
 
 
 def first_published(history: list[tuple[date, str]]) -> date | None:
@@ -249,6 +256,57 @@ def write_published_json(pages: list[dict]) -> bool:
     return True
 
 
+def site_url() -> str:
+    for line in MKDOCS_YML.read_text(encoding="utf-8").splitlines():
+        if line.startswith("site_url:"):
+            return line.split(":", 1)[1].strip().strip("'\"").rstrip("/") + "/"
+    raise SystemExit("site_url not found in mkdocs.yml")
+
+
+def page_url(base: str, page: dict) -> str:
+    rel = page["path"].relative_to(CONTENT_DIR).with_suffix("").as_posix()
+    rel = rel.removesuffix("index")
+    return base + (rel if rel == "" or rel.endswith("/") else rel + "/")
+
+
+def write_feed(pages: list[dict]) -> bool:
+    """docs/content/feed.xml: the newest studies by first-published date, the same date "New this
+    month" uses. It carries no lastBuildDate, so the file changes only when a page is published
+    and CI's daily rebuild leaves it alone."""
+    base = site_url()
+    home = parse_frontmatter(HOME_PAGE)
+    newest = sorted(pages, key=lambda p: (-p["published"].toordinal(), p["title"]))[:FEED_COUNT]
+    items = []
+    for page in newest:
+        url = page_url(base, page)
+        published = format_datetime(datetime.combine(page["published"], time(0, 0), tzinfo=timezone.utc))
+        items.append(
+            "    <item>\n"
+            f"      <title>{escape(page['title'])}</title>\n"
+            f"      <link>{url}</link>\n"
+            f'      <guid isPermaLink="true">{url}</guid>\n'
+            f"      <pubDate>{published}</pubDate>\n"
+            f"      <description>{escape(page['description'])}</description>\n"
+            "    </item>"
+        )
+    text = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        "  <channel>\n"
+        "    <title>The Way: new studies</title>\n"
+        f"    <link>{base}</link>\n"
+        f'    <atom:link href="{base}feed.xml" rel="self" type="application/rss+xml"/>\n'
+        f"    <description>{escape(home.get('description', ''))}</description>\n"
+        "    <language>en-au</language>\n"
+        + "\n".join(items)
+        + "\n  </channel>\n</rss>\n"
+    )
+    if FEED_XML.exists() and FEED_XML.read_text(encoding="utf-8") == text:
+        return False
+    FEED_XML.write_text(text, encoding="utf-8")
+    return True
+
+
 def main() -> None:
     argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
@@ -267,6 +325,8 @@ def main() -> None:
             changed.append(str(path.relative_to(REPO_ROOT)))
     if write_published_json(pages):
         changed.append(str(PUBLISHED_JSON.relative_to(REPO_ROOT)))
+    if write_feed(pages):
+        changed.append(str(FEED_XML.relative_to(REPO_ROOT)))
     if changed:
         print(f"Updated: {', '.join(sorted(set(changed)))}")
     else:

@@ -54,6 +54,9 @@ def on_config(config):
 
 def on_page_markdown(markdown, page, config, files):  # noqa: ARG001 - hook signature
     published = _published.get(page.file.src_uri)
+    if published is not None:
+        # Read by docs/overrides/main.html for the page's structured data (datePublished).
+        page.meta.setdefault("date_published", published.isoformat())
     if published is None or (date.today() - published).days >= _window_days:
         return markdown
     page.meta.setdefault("status", "new")

@@ -308,53 +308,53 @@ dispensational charts. Each one opens the study it belongs to.
 <!-- new-pages-teaser:auto-start -->
 <div class="grid cards" markdown>
 
--   __Faith__
+-   __Partakers of the Divine Nature__
 
     ---
 
-    Faith is leaning your whole weight on God and on what He has finished in Jesus. Pride is the same trust pointed at yourself, and it has two faces: refusing God's promise, and trying to earn it. A study of Habakkuk 2:4 and the one other place its word for pride appears.
+    The virtues of 2 Peter 1:3-11 as the fruit of a nature God has given: everything for life and godliness already granted, real effort that is never a burden, the joy that comes with it, and a rich entrance into Christ's kingdom.
 
-    :material-new-box: Published 29 September 2026 · [:octicons-arrow-right-24: Read](salvation/faith.md)
+    :material-new-box: Published 15 October 2026 · [:octicons-arrow-right-24: Read](christian-life/partakers-of-the-divine-nature.md)
 
--   __The Ark of the Covenant__
-
-    ---
-
-    Exodus 25:10-22 to Revelation 11:19: the gold chest that held God's covenant under the mercy seat where blood was sprinkled once a year, the ark Israel carried, lost and never remade, the mercy seat Paul names in Jesus, and the ark John sees in the temple in heaven.
-
-    :material-new-box: Published 29 September 2026 · [:octicons-arrow-right-24: Read](jesus/the-heavenly-pattern/ark.md)
-
--   __The Golden Altar of Incense__
+-   __The Judgment Seat of Christ__
 
     ---
 
-    Exodus 30:1-10 to Revelation 8: the small gold altar before the veil where incense rose to God every morning and evening, the fire only God could supply, and the altar before His throne where the prayers of the saints rise and are answered.
+    Every believer will appear before the judgment seat of Christ to receive reward or loss for what was built on Him. What the Old and New Testaments say about reward, why it is never wages for salvation, how Ezekiel was given his work and held to account for it, how the white robe differs from the fine linen, and why this is a different judgment from the great white throne.
 
-    :material-new-box: Published 29 September 2026 · [:octicons-arrow-right-24: Read](jesus/the-heavenly-pattern/incense-altar.md)
+    :material-new-box: Published 15 October 2026 · [:octicons-arrow-right-24: Read](last-things/judgment-seat-of-christ.md)
 
--   __The Two Witnesses__
-
-    ---
-
-    Revelation 11:1-14: two prophets who testify in Jerusalem for 1,260 days, drawn from Zechariah's olive trees and clothed in the powers of Moses and Elijah, killed where their Lord was crucified, raised and taken up. Who they are, when they come, and what their story shows about God.
-
-    :material-new-box: Published 29 September 2026 · [:octicons-arrow-right-24: Read](last-things/two-witnesses.md)
-
--   __A New Heaven and a New Earth__
+-   __They Were Given White Robes__
 
     ---
 
-    Revelation 20:7-21:8 after the thousand years and the great white throne: what Isaiah promised, what John saw, the eighth day of the Law as a type of the new creation, and where the New Testament's 'age to come' fits.
+    Every white garment God's people wear in Scripture, from the garments of skins in Eden to the robes washed in the Lamb's blood and the Bride's fine linen: who wears them, what makes them white, and why every one of them is God's gift.
 
-    :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](last-things/new-heaven-and-new-earth.md)
+    :material-new-box: Published 15 October 2026 · [:octicons-arrow-right-24: Read](last-things/they-were-given-white-robes.md)
 
--   __Before Aaron: Who Offered Sacrifice?__
+-   __Saved as Through Fire__
 
     ---
 
-    Before Sinai the heads of families offered sacrifice for their households, yet Scripture calls none of them a priest. God then appointed Aaron's sons and gave the Levites in place of Israel's firstborn, because priesthood is always His appointment, and He appointed His Son Jesus, who holds His priesthood permanently.
+    Paul says a believer who builds with the world's wisdom is saved, but only as one escaping through the flames (1 Corinthians 3:15). Jude sends the church to snatch the drifting out of the fire (Jude 22-23). A study of both, and of the God who plucked Joshua from the fire and clothed him clean.
 
-    :material-new-box: Published 28 September 2026 · [:octicons-arrow-right-24: Read](jesus/priesthood-before-sinai.md)
+    :material-new-box: Published 14 October 2026, revised 15 October 2026 · [:octicons-arrow-right-24: Read](salvation/saved-as-through-fire.md)
+
+-   __Run the Race: Come to Me, All Who Are Weary__
+
+    ---
+
+    Jesus invites the weary to Himself and gives them rest under His yoke. Hebrews tells tired believers to run with endurance, looking to Him. Why Christians grow weary, what feeds the runner, and what weighs the runner down.
+
+    :material-new-box: Published 13 October 2026, revised 15 October 2026 · [:octicons-arrow-right-24: Read](christian-life/run-the-race.md)
+
+-   __When Love Grows Cold: The Falling Away and the Remnant__
+
+    ---
+
+    Jesus said the love of the many would grow cold. For the believer watching a friend's faith fade, Scripture adds Elijah's seven thousand, Isaiah's remnant, the disciples who fell away and were called back, and the Lord who knows those who are His.
+
+    :material-new-box: Published 13 October 2026, revised 14 October 2026 · [:octicons-arrow-right-24: Read](christian-life/when-love-grows-cold.md)
 
 </div>
 <!-- new-pages-teaser:auto-end -->
@@ -362,11 +362,11 @@ dispensational charts. Each one opens the study it belongs to.
 ## Recently updated
 
 <!-- recent-updates-teaser:auto-start -->
-- **[A Day Is a Thousand Years](last-things/day-is-a-thousand-years.md)** — :material-update: Updated 30 September 2026
-- **[Backlog](about/backlog.md)** — :material-update: Updated 30 September 2026
-- **[Chronology Anchors: What Can Actually Be Dated, and How Tightly](chronology/chronology-anchors.md)** — :material-update: Updated 30 September 2026
-- **[Prophetic Timeline](timeline.md)** — :material-update: Updated 30 September 2026
-- **[The Combined Timeline: One Line, Two Zones](chronology/combined-timeline.md)** — :material-update: Updated 30 September 2026
+- **[Assurance of Salvation](salvation/assurance-of-salvation.md)** — :material-update: Updated 15 October 2026
+- **[How This Site Is Built](about/site-architecture.md)** — :material-update: Updated 15 October 2026
+- **[Our Data Sources](about/about-our-datasets.md)** — :material-update: Updated 15 October 2026
+- **[Statement of Faith](about/statement-of-faith.md)** — :material-update: Updated 15 October 2026
+- **[The Rapture of the Church](last-things/rapture.md)** — :material-update: Updated 15 October 2026
 <!-- recent-updates-teaser:auto-end -->
 
 See the full [Recently Updated](about/recent-updates.md) page for more.

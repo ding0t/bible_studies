@@ -309,7 +309,7 @@ python3 utils/validate_genealogy.py       # run after hand-editing docs/data/gen
                                           # coverage are reported as warnings, because that
                                           # non-uniformity is legitimate content the components
                                           # must guard against rather than a data error.
-python3 utils/generate_recent_updates.py  # regenerate New this month / Recently Updated (page + homepage) and docs/data/published.json from git log; runs automatically in CI, so a manual run is only needed to preview locally
+python3 utils/generate_recent_updates.py  # regenerate New this month / Recently Updated (page + homepage), docs/data/published.json and the RSS feed docs/content/feed.xml from git log; runs automatically in CI, so a manual run is only needed to preview locally
 python3 utils/refresh_frontmatter_provenance.py  # fill date_created/date_modified/ai_provider_models on hand-written pages from git history -- run BEFORE committing a new or revised page and stage its edit with yours (--check reports drift without writing)
 ```
 

@@ -1,9 +1,56 @@
 {% extends "base.html" %}
 
-{#- The generated chapter pages are link lists for browsing, about 45% of the site by count. Kept
-    out of Google's index so search sends readers to the studies; also dropped from sitemap.xml. -#}
 {% block extrahead %}
-  {%- if page and page.file.src_uri.startswith('commentaries/') and '/chapter-' in page.file.src_uri %}
+  {#- The generated chapter pages are link lists for browsing, about 45% of the site by count. Kept
+      out of Google's index so search sends readers to the studies; also dropped from sitemap.xml. -#}
+  {%- set chapter_page = page and page.file.src_uri.startswith('commentaries/') and '/chapter-' in page.file.src_uri %}
+  {%- if chapter_page %}
   <meta name="robots" content="noindex, follow">
+  {%- endif %}
+
+  {#- Link previews. A study pasted into a message or a post shows its title, its description and
+      a picture, where before it showed a bare URL. The picture is the site's banner,
+      assets/img/og-the-way.png (1200 x 630, drawn from about/the-way.svg, since messaging apps
+      do not render SVG); a page can name its own with `image:` in its frontmatter. -#}
+  {%- if page %}
+  {%- set og_title = page.meta.title or page.title or config.site_name %}
+  {%- set og_description = page.meta.description or config.site_description or "" %}
+  {%- set og_image = config.site_url ~ (page.meta.image or "assets/img/og-the-way.png") %}
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:type" content="{{ 'website' if page.is_homepage else 'article' }}">
+  <meta property="og:title" content="{{ og_title | e }}">
+  <meta property="og:description" content="{{ og_description | e }}">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta property="og:image" content="{{ og_image }}">
+  {%- if not page.meta.image %}
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The Way: one road through Scripture, from Isaiah 30:21 to John 14:6 and Acts 9:2">
+  {%- endif %}
+  <meta property="og:locale" content="en_AU">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ og_title | e }}">
+  <meta name="twitter:description" content="{{ og_description | e }}">
+  <meta name="twitter:image" content="{{ og_image }}">
+  {%- endif %}
+
+  {#- New studies as a feed, written by utils/generate_recent_updates.py from the same
+      first-published dates as "New this month". -#}
+  <link rel="alternate" type="application/rss+xml" title="{{ config.site_name }}: new studies" href="{{ config.site_url }}feed.xml">
+
+  {#- Structured data, so search engines can read a study's dates. date_published is the day the
+      page left draft (docs/data/published.json, set by hooks/new_pages.py); date_modified is the
+      provenance field utils/refresh_frontmatter_provenance.py writes. Hand-written pages only:
+      the generated chapter pages carry neither date and are kept out of the index anyway. -#}
+  {%- if page and page.is_homepage %}
+  <script type="application/ld+json">
+  {{ {"@context": "https://schema.org", "@type": "WebSite", "name": config.site_name, "url": config.site_url, "description": page.meta.description or ""} | tojson }}
+  </script>
+  {%- elif page and page.meta.date_modified and not chapter_page %}
+  {%- set ld = {"@context": "https://schema.org", "@type": "Article", "headline": og_title, "description": og_description, "url": page.canonical_url, "image": og_image, "inLanguage": "en", "dateModified": page.meta.date_modified | string, "publisher": {"@type": "Organization", "name": config.site_name, "url": config.site_url}} %}
+  {%- if page.meta.date_published %}{% set _ = ld.update({"datePublished": page.meta.date_published}) %}{% endif %}
+  <script type="application/ld+json">
+  {{ ld | tojson }}
+  </script>
   {%- endif %}
 {% endblock %}
