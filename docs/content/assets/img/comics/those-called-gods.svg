@@ -1,0 +1,338 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1546" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">Those Called Gods</title>
+<desc id="d">A one-minute comic in 7 panels. Panel 1 (Exodus 7:1): Moses, grey-haired, holding his staff and looking up to a voice from above. Caption: "On earth, God lends the name to those He sends." The LORD says: "See, I have made you like God to Pharaoh." Panel 2 (Exodus 22:9): three judges seated, two men standing before them with a dispute. Caption: "Israel’s judges give God’s verdict." The Law says: "The case of both parties shall come before God." Note: "Here ʾĕlōhîm takes a plural verb: the judges." Panel 3 (Psalm 82:1-7): a throne of light; before it a row of judges stand with heads bowed. Caption: "God has taken His place in the council and judges the “gods”." God says: "You are gods, sons of the Most High, all of you; nevertheless, like men you shall die." Note: "Who they are is contested: judges, heavenly powers, or Israel at Sinai. Drawn: judges." Panel 4 (Daniel 10:10-13): Daniel on his hands and knees by the river, a voice speaking to him from above. Caption: "Over the nations: princes in heaven." The man in linen says: "The prince of the kingdom of Persia withstood me twenty-one days, but Michael, one of the chief princes, came to help me." Note: "The man in linen (10:5) is drawn as a voice." Panel 5 (1 Corinthians 10:20): a man offering at a stone idol on a plinth, smoke rising from the altar. Caption: "Behind the idols." Paul says: "What pagans sacrifice they offer to demons and not to God." Note: "“By nature are not gods” (Galatians 4:8)." Panel 6 (Colossians 2:15): three empty crosses on a rise at dusk. Caption: "At the cross." Paul says: "He disarmed the rulers and authorities and put them to open shame, by triumphing over them in him." Panel 7 (Hebrews 1:8): Jesus standing in radiant light, gold lines converging on Him, a voice speaking from above. Caption: "The one called God who is God." The Father says: "Your throne, O God, is forever and ever." The point: Every power that carries the name “god” was made through the Son, answers to God, and was disarmed at the cross. So fear none of them, and worship the Son, whose throne is forever (Colossians 2:15; Hebrews 1:8).</desc>
+<rect width="720" height="1546" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1530" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1518" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<defs><radialGradient id="comic-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6e2a0" stop-opacity="0.9"/><stop offset="1" stop-color="#f6e2a0" stop-opacity="0"/></radialGradient><radialGradient id="comic-white" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient><radialGradient id="comic-fire" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6b04a" stop-opacity="0.75"/><stop offset="1" stop-color="#f6b04a" stop-opacity="0"/></radialGradient></defs>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THOSE CALLED GODS</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Who carries the name, and who holds it</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<defs><clipPath id="pane0"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 108.0)">
+<g clip-path="url(#pane0)">
+<defs><linearGradient id="sky0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdbe6"/><stop offset="1" stop-color="#f3e2bd"/></linearGradient></defs>
+<rect width="323.0" height="300" fill="url(#sky0)"/>
+<rect x="0" y="232.0" width="323.0" height="68.0" fill="#d9cba4"/>
+<path d="M0 262.0 Q161.5 252.0 323.0 264.0 V300 H0 Z" fill="#cbb98c"/>
+<g transform="translate(77.5 264.0) scale(1.300 1.300)"><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#4d687d" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#5f7f99" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#b88a62"/><circle cx="2" cy="-90" r="12" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d9cdb0" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#5f7f99" stroke-width="3"/><path d="M-3 -88 Q-5 -78 1 -72 Q7 -66 13 -69 Q17 -73 16 -86 Q14 -84 10 -85 Q5 -86 3 -83 Q1 -86 -3 -88 Z" fill="#8a8178"/><path d="M7 -86 Q11 -89 15.5 -86.5 Q15 -81 8 -82 Z" fill="#8a8178"/><path d="M7 -74 L18 -90 L30 -110" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L18 -90 L30 -110" fill="none" stroke="#5f7f99" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="30" cy="-110" r="4.3" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/><path d="M32 -154 L36 0" stroke="#6b4a2a" stroke-width="3.2" stroke-linecap="round"/></g>
+<text x="77.5" y="281.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.2" stroke="#faf6ec" stroke-width="3.5" paint-order="stroke">MOSES</text>
+<rect x="10.0" y="10.0" width="230.0" height="47.0" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">On earth, God lends the</text>
+<text x="20.0" y="47.5" font-size="14" fill="#3b2f1e" font-style="italic">name to those He sends.</text>
+<path d="M281.7 104.0 L290.7 -15.8 L299.7 104.0 Z" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="124.6" y="102.0" width="190.0" height="54.2" rx="16" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4"/>
+<path d="M281.7 104.0 L299.7 104.0" stroke="#f6ecd0" stroke-width="3"/>
+<text x="219.6" y="125.5" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan>See, I have made you</tspan></text>
+<text x="219.6" y="143.6" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan font-weight="bold" fill="#8b1e1e">like God</tspan><tspan> to Pharaoh.</tspan></text>
+<rect x="238.0" y="274.0" width="79.0" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Exodus 7:1</text>
+</g>
+<rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">1</text>
+</g>
+<defs><clipPath id="pane1"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
+<g transform="translate(367.0 108.0)">
+<g clip-path="url(#pane1)">
+<defs><linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdbe6"/><stop offset="1" stop-color="#f3e2bd"/></linearGradient></defs>
+<rect width="323.0" height="300" fill="url(#sky1)"/>
+<rect x="0" y="132.0" width="323.0" height="126.0" fill="#6e5c44"/>
+<rect x="-22.0" y="134.0" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="26.0" y="134.0" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="74.0" y="134.0" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="122.0" y="134.0" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="170.0" y="134.0" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="218.0" y="134.0" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="266.0" y="134.0" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="314.0" y="134.0" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="362.0" y="134.0" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="-46.0" y="159.2" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="2.0" y="159.2" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="50.0" y="159.2" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="98.0" y="159.2" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="146.0" y="159.2" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="194.0" y="159.2" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="242.0" y="159.2" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="290.0" y="159.2" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="338.0" y="159.2" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="-22.0" y="184.4" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="26.0" y="184.4" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="74.0" y="184.4" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="122.0" y="184.4" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="170.0" y="184.4" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="218.0" y="184.4" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="266.0" y="184.4" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="314.0" y="184.4" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="362.0" y="184.4" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="-46.0" y="209.6" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="2.0" y="209.6" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="50.0" y="209.6" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="98.0" y="209.6" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="146.0" y="209.6" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="194.0" y="209.6" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="242.0" y="209.6" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="290.0" y="209.6" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="338.0" y="209.6" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="-22.0" y="234.8" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="26.0" y="234.8" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="74.0" y="234.8" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="122.0" y="234.8" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="170.0" y="234.8" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="218.0" y="234.8" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="266.0" y="234.8" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="314.0" y="234.8" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="362.0" y="234.8" width="44" height="21.2" fill="none" stroke="#5a4a36" stroke-width="0.8"/>
+<rect x="0" y="126.0" width="323.0" height="8" fill="#5a4a36"/>
+<path d="M25.2 238.0 V174.0 Q45.2 154.0 65.2 174.0 V238.0 Z" fill="#e8b860" opacity="0.85"/>
+<rect x="0" y="232.0" width="323.0" height="68.0" fill="#4e4234"/>
+<g transform="translate(232.6 264.0) scale(-1.300 1.300)"><g transform="translate(0 40)"><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#4b573c" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/></g><path d="M-13 -38 Q0 -42 13 -38 Q15 -22 24 -10 Q28 -2 22 2 H-22 Q-28 -2 -24 -10 Q-15 -22 -13 -38 Z" fill="#5c6b4a" stroke="#2a2016" stroke-width="1"/><path d="M-16 -8 Q0 -14 18 -8" fill="none" stroke="#00000030" stroke-width="1.2"/><g transform="translate(0 40)"><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#b07f58"/><circle cx="2" cy="-90" r="12" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L22 -72 L40 -76" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L22 -72 L40 -76" fill="none" stroke="#5c6b4a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="-76" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/></g></g>
+<g transform="translate(84.0 264.0) scale(1.300 1.300)"><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#404c5b" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#4f5d70" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#a8774f"/><circle cx="2" cy="-90" r="12" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L22 -72 L40 -76" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L22 -72 L40 -76" fill="none" stroke="#4f5d70" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="-76" r="4.3" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/></g>
+<g transform="translate(180.9 274.5) scale(-1.222 1.222)"><g transform="translate(0 40)"><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#64492f" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="-60" r="4.3" fill="#9a6a45" stroke="#2a2016" stroke-width="0.8"/></g><path d="M-13 -38 Q0 -42 13 -38 Q15 -22 24 -10 Q28 -2 22 2 H-22 Q-28 -2 -24 -10 Q-15 -22 -13 -38 Z" fill="#7a5a3a" stroke="#2a2016" stroke-width="1"/><path d="M-16 -8 Q0 -14 18 -8" fill="none" stroke="#00000030" stroke-width="1.2"/><g transform="translate(0 40)"><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#9a6a45"/><circle cx="2" cy="-90" r="12" fill="#9a6a45" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#7a5a3a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-4" cy="-58" r="4.3" fill="#9a6a45" stroke="#2a2016" stroke-width="0.8"/></g></g>
+<g transform="translate(284.2 274.5) scale(-1.222 1.222)"><g transform="translate(0 40)"><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#5a3c3c" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="-60" r="4.3" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/></g><path d="M-13 -38 Q0 -42 13 -38 Q15 -22 24 -10 Q28 -2 22 2 H-22 Q-28 -2 -24 -10 Q-15 -22 -13 -38 Z" fill="#6e4a4a" stroke="#2a2016" stroke-width="1"/><path d="M-16 -8 Q0 -14 18 -8" fill="none" stroke="#00000030" stroke-width="1.2"/><g transform="translate(0 40)"><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#b88a62"/><circle cx="2" cy="-90" r="12" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#6e4a4a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-4" cy="-58" r="4.3" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/></g></g>
+<g transform="translate(32.3 274.5) scale(1.222 1.222)"><path d="M-5 -74 L-20 -64 L-32 -72" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-20 -64 L-32 -72" fill="none" stroke="#5a3c3c" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-32" cy="-72" r="4.3" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#6e4a4a" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#b88a62"/><circle cx="2" cy="-90" r="12" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L22 -64 L36 -72" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L22 -64 L36 -72" fill="none" stroke="#6e4a4a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="36" cy="-72" r="4.3" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/></g>
+<rect x="10.0" y="10.0" width="279.0" height="29.5" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">Israel’s judges give God’s verdict.</text>
+<rect x="10.0" y="43.5" width="279.0" height="43.2" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="20.0" y="62.0" font-size="12.5" fill="#3b2f1e" font-style="italic">Here ʾĕlōhîm takes a</text>
+<text x="20.0" y="77.6" font-size="12.5" fill="#3b2f1e" font-style="italic">plural verb: the judges.</text>
+<rect x="130.9" y="108.0" width="164.5" height="72.4" rx="3" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<text x="213.2" y="131.5" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>The case of both</tspan></text>
+<text x="213.2" y="149.6" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>parties shall</tspan></text>
+<text x="213.2" y="167.8" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan font-weight="bold" fill="#8b1e1e">come before God</tspan><tspan>.</tspan></text>
+<rect x="231.7" y="274.0" width="85.3" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Exodus 22:9</text>
+</g>
+<rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">2</text>
+</g>
+<defs><clipPath id="pane2"><rect x="0" y="0" width="660.0" height="310" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 422.0)">
+<g clip-path="url(#pane2)">
+<defs><linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4652"/><stop offset="1" stop-color="#9a9290"/></linearGradient></defs>
+<rect width="660.0" height="310" fill="url(#sky2)"/>
+<path d="M0 187.0 Q132.0 170.0 277.2 180.0 Q462.0 166.0 660.0 182.0 V187.0 Z" fill="#9a9290" stroke="#00000018"/>
+<defs><linearGradient id="sky2g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5c5a5c"/><stop offset="1" stop-color="#4a463e"/></linearGradient></defs><rect x="0" y="186.0" width="660.0" height="124.0" fill="url(#sky2g)"/>
+<path d="M367.6 186.0 L198.0 310 H303.6 L371.6 186.0 Z" fill="#00000010"/>
+<path d="M112.2 187.5 l-0.4 -1.1 M112.5 187.5 l0 -1.4 M112.8 187.5 l0.4 -1.1" stroke="#7d6c4e" stroke-width="0.51"/>
+<path d="M264.0 187.5 l-0.4 -1.1 M264.3 187.5 l0 -1.4 M264.6 187.5 l0.4 -1.1" stroke="#7d6c4e" stroke-width="0.51"/>
+<path d="M415.8 187.5 l-0.4 -1.1 M416.1 187.5 l0 -1.4 M416.4 187.5 l0.4 -1.1" stroke="#7d6c4e" stroke-width="0.51"/>
+<path d="M567.6 187.5 l-0.4 -1.1 M567.9 187.5 l0 -1.4 M568.2 187.5 l0.4 -1.1" stroke="#7d6c4e" stroke-width="0.51"/>
+<path d="M719.4 187.5 l-0.4 -1.1 M719.7 187.5 l0 -1.4 M720.0 187.5 l0.4 -1.1" stroke="#7d6c4e" stroke-width="0.51"/>
+<path d="M92.4 192.1 l-0.5 -1.2 M92.8 192.1 l0 -1.6 M93.1 192.1 l0.5 -1.2" stroke="#7d6c4e" stroke-width="0.55"/>
+<path d="M244.2 192.1 l-0.5 -1.2 M244.6 192.1 l0 -1.6 M244.9 192.1 l0.5 -1.2" stroke="#7d6c4e" stroke-width="0.55"/>
+<path d="M396.0 192.1 l-0.5 -1.2 M396.4 192.1 l0 -1.6 M396.7 192.1 l0.5 -1.2" stroke="#7d6c4e" stroke-width="0.55"/>
+<path d="M547.8 192.1 l-0.5 -1.2 M548.2 192.1 l0 -1.6 M548.5 192.1 l0.5 -1.2" stroke="#7d6c4e" stroke-width="0.55"/>
+<path d="M699.6 192.1 l-0.5 -1.2 M700.0 192.1 l0 -1.6 M700.3 192.1 l0.5 -1.2" stroke="#7d6c4e" stroke-width="0.55"/>
+<path d="M72.6 199.8 l-0.6 -1.6 M73.1 199.8 l0 -2.0 M73.5 199.8 l0.6 -1.6" stroke="#7d6c4e" stroke-width="0.61"/>
+<path d="M224.4 199.8 l-0.6 -1.6 M224.9 199.8 l0 -2.0 M225.3 199.8 l0.6 -1.6" stroke="#7d6c4e" stroke-width="0.61"/>
+<path d="M376.2 199.8 l-0.6 -1.6 M376.7 199.8 l0 -2.0 M377.1 199.8 l0.6 -1.6" stroke="#7d6c4e" stroke-width="0.61"/>
+<path d="M528.0 199.8 l-0.6 -1.6 M528.5 199.8 l0 -2.0 M528.9 199.8 l0.6 -1.6" stroke="#7d6c4e" stroke-width="0.61"/>
+<path d="M679.8 199.8 l-0.6 -1.6 M680.3 199.8 l0 -2.0 M680.7 199.8 l0.6 -1.6" stroke="#7d6c4e" stroke-width="0.61"/>
+<path d="M52.8 210.5 l-0.8 -2.0 M53.4 210.5 l0 -2.6 M54.0 210.5 l0.8 -2.0" stroke="#7d6c4e" stroke-width="0.70"/>
+<path d="M204.6 210.5 l-0.8 -2.0 M205.2 210.5 l0 -2.6 M205.8 210.5 l0.8 -2.0" stroke="#7d6c4e" stroke-width="0.70"/>
+<path d="M356.4 210.5 l-0.8 -2.0 M357.0 210.5 l0 -2.6 M357.6 210.5 l0.8 -2.0" stroke="#7d6c4e" stroke-width="0.70"/>
+<path d="M508.2 210.5 l-0.8 -2.0 M508.8 210.5 l0 -2.6 M509.4 210.5 l0.8 -2.0" stroke="#7d6c4e" stroke-width="0.70"/>
+<path d="M660.0 210.5 l-0.8 -2.0 M660.6 210.5 l0 -2.6 M661.2 210.5 l0.8 -2.0" stroke="#7d6c4e" stroke-width="0.70"/>
+<path d="M33.0 224.3 l-1.0 -2.5 M33.8 224.3 l0 -3.3 M34.5 224.3 l1.0 -2.5" stroke="#7d6c4e" stroke-width="0.81"/>
+<path d="M184.8 224.3 l-1.0 -2.5 M185.6 224.3 l0 -3.3 M186.3 224.3 l1.0 -2.5" stroke="#7d6c4e" stroke-width="0.81"/>
+<path d="M336.6 224.3 l-1.0 -2.5 M337.4 224.3 l0 -3.3 M338.1 224.3 l1.0 -2.5" stroke="#7d6c4e" stroke-width="0.81"/>
+<path d="M488.4 224.3 l-1.0 -2.5 M489.2 224.3 l0 -3.3 M489.9 224.3 l1.0 -2.5" stroke="#7d6c4e" stroke-width="0.81"/>
+<path d="M640.2 224.3 l-1.0 -2.5 M641.0 224.3 l0 -3.3 M641.7 224.3 l1.0 -2.5" stroke="#7d6c4e" stroke-width="0.81"/>
+<path d="M13.2 241.1 l-1.3 -3.2 M14.2 241.1 l0 -4.2 M15.1 241.1 l1.3 -3.2" stroke="#7d6c4e" stroke-width="0.94"/>
+<path d="M165.0 241.1 l-1.3 -3.2 M166.0 241.1 l0 -4.2 M166.9 241.1 l1.3 -3.2" stroke="#7d6c4e" stroke-width="0.94"/>
+<path d="M316.8 241.1 l-1.3 -3.2 M317.8 241.1 l0 -4.2 M318.7 241.1 l1.3 -3.2" stroke="#7d6c4e" stroke-width="0.94"/>
+<path d="M468.6 241.1 l-1.3 -3.2 M469.6 241.1 l0 -4.2 M470.5 241.1 l1.3 -3.2" stroke="#7d6c4e" stroke-width="0.94"/>
+<path d="M620.4 241.1 l-1.3 -3.2 M621.4 241.1 l0 -4.2 M622.3 241.1 l1.3 -3.2" stroke="#7d6c4e" stroke-width="0.94"/>
+<path d="M125.4 261.0 l-1.6 -4.0 M126.6 261.0 l0 -5.2 M127.8 261.0 l1.6 -4.0" stroke="#7d6c4e" stroke-width="1.10"/>
+<path d="M277.2 261.0 l-1.6 -4.0 M278.4 261.0 l0 -5.2 M279.6 261.0 l1.6 -4.0" stroke="#7d6c4e" stroke-width="1.10"/>
+<path d="M429.0 261.0 l-1.6 -4.0 M430.2 261.0 l0 -5.2 M431.4 261.0 l1.6 -4.0" stroke="#7d6c4e" stroke-width="1.10"/>
+<path d="M580.8 261.0 l-1.6 -4.0 M582.0 261.0 l0 -5.2 M583.2 261.0 l1.6 -4.0" stroke="#7d6c4e" stroke-width="1.10"/>
+<path d="M732.6 261.0 l-1.6 -4.0 M733.8 261.0 l0 -5.2 M735.0 261.0 l1.6 -4.0" stroke="#7d6c4e" stroke-width="1.10"/>
+<path d="M105.6 284.0 l-2.0 -5.0 M107.1 284.0 l0 -6.4 M108.6 284.0 l2.0 -5.0" stroke="#7d6c4e" stroke-width="1.29"/>
+<path d="M257.4 284.0 l-2.0 -5.0 M258.9 284.0 l0 -6.4 M260.4 284.0 l2.0 -5.0" stroke="#7d6c4e" stroke-width="1.29"/>
+<path d="M409.2 284.0 l-2.0 -5.0 M410.7 284.0 l0 -6.4 M412.2 284.0 l2.0 -5.0" stroke="#7d6c4e" stroke-width="1.29"/>
+<path d="M561.0 284.0 l-2.0 -5.0 M562.5 284.0 l0 -6.4 M564.0 284.0 l2.0 -5.0" stroke="#7d6c4e" stroke-width="1.29"/>
+<path d="M712.8 284.0 l-2.0 -5.0 M714.3 284.0 l0 -6.4 M715.8 284.0 l2.0 -5.0" stroke="#7d6c4e" stroke-width="1.29"/>
+<g transform="translate(554.4 272.6) scale(1.478)"><ellipse cx="0" cy="-96" rx="120" ry="110" fill="url(#comic-white)"/><rect x="-60" y="-18" width="120" height="18" fill="#f2efe8" stroke="#a9a090" stroke-width="1.2"/><rect x="-48" y="-36" width="96" height="18" fill="#f7f5f0" stroke="#a9a090" stroke-width="1.2"/><path d="M-40 -36 V-150 Q0 -176 40 -150 V-36 Z" fill="#fbfaf6" stroke="#a9a090" stroke-width="1.4"/><path d="M-52 -36 V-82 H-40 M52 -36 V-82 H40" fill="none" stroke="#a9a090" stroke-width="5" stroke-linecap="round"/><ellipse cx="0" cy="-84" rx="30" ry="46" fill="#ffffff" opacity="0.95"/><ellipse cx="0" cy="-84" rx="18" ry="30" fill="#fffbe6"/></g>
+<g transform="translate(191.4 272.6) scale(1.343 1.343)"><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#4b573c" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#5c6b4a" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#b07f58"/><circle cx="2" cy="-90" r="12" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L10 -54 L10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L10 -54 L10 -34" fill="none" stroke="#5c6b4a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="-34" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/></g>
+<g transform="translate(336.6 272.6) scale(1.343 1.343)"><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#404c5b" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#4f5d70" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#a8774f"/><circle cx="2" cy="-90" r="12" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L14 -56 L20 -44" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L14 -56 L20 -44" fill="none" stroke="#4f5d70" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="-44" r="4.3" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/></g>
+<g transform="translate(118.8 283.5) scale(1.263 1.263)"><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#64492f" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="-60" r="4.3" fill="#9a6a45" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#7a5a3a" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#9a6a45"/><circle cx="2" cy="-90" r="12" fill="#9a6a45" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#7a5a3a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-4" cy="-58" r="4.3" fill="#9a6a45" stroke="#2a2016" stroke-width="0.8"/></g>
+<g transform="translate(264.0 283.5) scale(1.263 1.263)"><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#5a3c3c" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="-60" r="4.3" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#6e4a4a" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#b88a62"/><circle cx="2" cy="-90" r="12" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#6e4a4a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-4" cy="-58" r="4.3" fill="#b88a62" stroke="#2a2016" stroke-width="0.8"/></g>
+<g transform="translate(409.2 283.5) scale(1.263 1.263)"><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#715e41" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="-60" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#8a7350" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#c39a72"/><circle cx="2" cy="-90" r="12" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#8a7350" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-4" cy="-58" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/></g>
+<rect x="10.0" y="10.0" width="300.0" height="47.0" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">God has taken His place in the</text>
+<text x="20.0" y="47.5" font-size="14" fill="#3b2f1e" font-style="italic">council and judges the “gods”.</text>
+<rect x="10.0" y="61.0" width="300.0" height="43.2" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="20.0" y="79.5" font-size="12.5" fill="#3b2f1e" font-style="italic">Who they are is contested: judges, heavenly</text>
+<text x="20.0" y="95.1" font-size="12.5" fill="#3b2f1e" font-style="italic">powers, or Israel at Sinai. Drawn: judges.</text>
+<path d="M375.6 114.2 L532.5 102.2 L393.6 114.2 Z" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="147.8" y="112.2" width="258.8" height="72.4" rx="16" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4"/>
+<path d="M375.6 114.2 L393.6 114.2" stroke="#f6ecd0" stroke-width="3"/>
+<text x="277.2" y="135.8" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan>You are gods, sons of the Most</tspan></text>
+<text x="277.2" y="153.9" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan>High, all of you; nevertheless,</tspan></text>
+<text x="277.2" y="172.0" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan font-weight="bold" fill="#8b1e1e">like men you shall die</tspan><tspan>.</tspan></text>
+<rect x="562.4" y="284.0" width="91.6" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="646.0" y="298.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Psalm 82:1-7</text>
+</g>
+<rect x="0" y="0" width="660.0" height="310" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">3</text>
+</g>
+<defs><clipPath id="pane3"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 746.0)">
+<g clip-path="url(#pane3)">
+<defs><linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5d5a78"/><stop offset="1" stop-color="#e9b27a"/></linearGradient></defs>
+<rect width="323.0" height="300" fill="url(#sky3)"/>
+<rect x="0" y="232.0" width="323.0" height="68.0" fill="#d9cba4"/>
+<path d="M0 262.0 Q161.5 252.0 323.0 264.0 V300 H0 Z" fill="#cbb98c"/>
+<g transform="translate(64.6 264.0) scale(1.300 1.300)"><g transform="translate(0 24)"><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#906422" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/></g><ellipse cx="-14" cy="-1" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -54 Q0 -59 13 -54 Q16 -30 14 -20 Q24 -16 26 -5 Q26 0 21 0 H-12 Q-19 -2 -17 -12 Q-16 -30 -13 -54 Z" fill="#b07a2a" stroke="#2a2016" stroke-width="1"/><path d="M-6 -40 Q-4 -24 -8 -6 M6 -44 Q10 -30 8 -18" fill="none" stroke="#00000030" stroke-width="1.2"/><g transform="translate(0 24)"><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><path d="M-13 -78 Q-6 -81 -2 -80 L12 -50 L5 -46 Q0 -60 -13 -70 Z" fill="#e6d6a8" stroke="#2a2016" stroke-width="0.8"/><rect x="-2" y="-82" width="7" height="6" fill="#a8774f"/><circle cx="2" cy="-90" r="12" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/><path d="M-10 -93 Q-6 -105 6 -103 Q13 -101 14 -95 Q5 -97 -1 -93 Q-3 -86 -7 -82 Q-11 -86 -10 -93 Z" fill="#3b2a1a"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L18 -90 L30 -110" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L18 -90 L30 -110" fill="none" stroke="#b07a2a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="30" cy="-110" r="4.3" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/></g></g>
+<text x="64.6" y="281.0" font-size="11.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="1.2" stroke="#faf6ec" stroke-width="3.5" paint-order="stroke">DANIEL</text>
+<rect x="10.0" y="10.0" width="220.0" height="47.0" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">Over the nations:</text>
+<text x="20.0" y="47.5" font-size="14" fill="#3b2f1e" font-style="italic">princes in heaven.</text>
+<rect x="10.0" y="61.0" width="220.0" height="43.2" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="20.0" y="79.5" font-size="12.5" fill="#3b2f1e" font-style="italic">The man in linen (10:5)</text>
+<text x="20.0" y="95.1" font-size="12.5" fill="#3b2f1e" font-style="italic">is drawn as a voice.</text>
+<path d="M282.6 114.2 L304.6 -15.9 L300.6 114.2 Z" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="112.8" y="112.2" width="200.8" height="126.8" rx="16" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4"/>
+<path d="M282.6 114.2 L300.6 114.2" stroke="#f6ecd0" stroke-width="3"/>
+<text x="213.2" y="135.8" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan>The </tspan><tspan font-weight="bold" fill="#8b1e1e">prince of the</tspan></text>
+<text x="213.2" y="153.9" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan font-weight="bold" fill="#8b1e1e">kingdom of Persia</tspan></text>
+<text x="213.2" y="172.0" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan>withstood me twenty-one</tspan></text>
+<text x="213.2" y="190.1" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan>days, but Michael, one</tspan></text>
+<text x="213.2" y="208.2" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan>of the chief princes,</tspan></text>
+<text x="213.2" y="226.4" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan>came to help me.</tspan></text>
+<rect x="206.5" y="274.0" width="110.5" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Daniel 10:10-13</text>
+</g>
+<rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">4</text>
+</g>
+<defs><clipPath id="pane4"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
+<g transform="translate(367.0 746.0)">
+<g clip-path="url(#pane4)">
+<defs><linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdbe6"/><stop offset="1" stop-color="#f3e2bd"/></linearGradient></defs>
+<rect width="323.0" height="300" fill="url(#sky4)"/>
+<rect x="0.0" y="168.0" width="90" height="70" fill="#e3d6b8" stroke="#8d7650" stroke-width="1"/><rect x="-2.0" y="164.0" width="94" height="6" fill="#bfa982" stroke="#8d7650" stroke-width="0.8"/><rect x="54.0" y="199.5" width="14" height="38.5" fill="#5a4a36"/><rect x="18.0" y="182.0" width="10" height="10" fill="#5a4a36"/>
+<rect x="90.0" y="115.0" width="127" height="123" fill="#d8c7a3" stroke="#8d7650" stroke-width="1"/><rect x="88.0" y="111.0" width="131" height="6" fill="#bfa982" stroke="#8d7650" stroke-width="0.8"/><rect x="166.2" y="170.3" width="14" height="67.7" fill="#5a4a36"/><rect x="115.4" y="139.6" width="10" height="10" fill="#5a4a36"/>
+<rect x="217.0" y="122.0" width="114" height="116" fill="#e3d6b8" stroke="#8d7650" stroke-width="1"/><rect x="215.0" y="118.0" width="118" height="6" fill="#bfa982" stroke="#8d7650" stroke-width="0.8"/><rect x="285.4" y="174.2" width="14" height="63.8" fill="#5a4a36"/><rect x="239.8" y="145.2" width="10" height="10" fill="#5a4a36"/>
+<rect x="0" y="232.0" width="323.0" height="68.0" fill="#d9cba4"/>
+<path d="M0 262.0 Q161.5 252.0 323.0 264.0 V300 H0 Z" fill="#cbb98c"/>
+<g transform="translate(229.3 264.0) scale(1.235)"><rect x="-26" y="-34" width="52" height="34" fill="#9a8f80" stroke="#5e5547" stroke-width="1.2"/><rect x="-30" y="-40" width="60" height="7" fill="#b3a897" stroke="#5e5547" stroke-width="1"/><path d="M-12 -40 L-9 -88 Q0 -94 9 -88 L12 -40 Z" fill="#a39886" stroke="#5e5547" stroke-width="1.2"/><path d="M-9 -84 L-22 -104 M9 -84 L16 -64" stroke="#a39886" stroke-width="5" stroke-linecap="round"/><circle cx="0" cy="-100" r="9" fill="#a39886" stroke="#5e5547" stroke-width="1.2"/><path d="M-6 -108 L0 -118 L6 -108" fill="none" stroke="#5e5547" stroke-width="1.4"/><rect x="38" y="-20" width="26" height="20" fill="#cdbb94" stroke="#8d7650" stroke-width="1"/><path d="M51 -22 Q44 -36 52 -46 Q60 -56 50 -70" fill="none" stroke="#8a8178" stroke-width="2.4" opacity="0.7"/></g>
+<g transform="translate(158.3 264.0) scale(1.300 1.300)"><g transform="translate(0 24)"><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#404c5b" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/></g><ellipse cx="-14" cy="-1" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -54 Q0 -59 13 -54 Q16 -30 14 -20 Q24 -16 26 -5 Q26 0 21 0 H-12 Q-19 -2 -17 -12 Q-16 -30 -13 -54 Z" fill="#4f5d70" stroke="#2a2016" stroke-width="1"/><path d="M-6 -40 Q-4 -24 -8 -6 M6 -44 Q10 -30 8 -18" fill="none" stroke="#00000030" stroke-width="1.2"/><g transform="translate(0 24)"><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#a8774f"/><circle cx="2" cy="-90" r="12" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" fill="#d8c9a6" stroke="#2a2016" stroke-width="0.9"/><path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="#6b2c2c" stroke-width="3"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L20 -60 L36 -58" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L20 -60 L36 -58" fill="none" stroke="#4f5d70" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="36" cy="-58" r="4.3" fill="#a8774f" stroke="#2a2016" stroke-width="0.8"/><g transform="translate(36.0 -54.0) scale(0.800)"><rect x="-8" y="-14" width="16" height="14" fill="#8b1e1e" stroke="#4a1010" stroke-width="0.9"/><path d="M0 -14 V0 M-8 -7 H8" stroke="#e8c46a" stroke-width="2"/><path d="M0 -14 q-7 -8 -7 -2 q0 3 7 2 q7 1 7 -2 q0 -6 -7 2" fill="none" stroke="#e8c46a" stroke-width="1.6"/></g></g></g>
+<rect x="10.0" y="10.0" width="160.0" height="29.5" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">Behind the idols.</text>
+<rect x="10.0" y="43.5" width="200.0" height="43.2" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="20.0" y="62.0" font-size="12.5" fill="#3b2f1e" font-style="italic">“By nature are not</text>
+<text x="20.0" y="77.6" font-size="12.5" fill="#3b2f1e" font-style="italic">gods” (Galatians 4:8).</text>
+<rect x="6.9" y="132.0" width="128.2" height="108.6" rx="3" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<text x="71.1" y="155.5" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>What pagans</tspan></text>
+<text x="71.1" y="173.6" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>sacrifice</tspan></text>
+<text x="71.1" y="191.8" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>they offer to</tspan></text>
+<text x="71.1" y="209.9" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan font-weight="bold" fill="#8b1e1e">demons</tspan><tspan> and</tspan></text>
+<text x="71.1" y="228.0" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>not to God.</tspan></text>
+<rect x="181.3" y="274.0" width="135.7" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">1 Corinthians 10:20</text>
+</g>
+<rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">5</text>
+</g>
+<defs><clipPath id="pane5"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 1060.0)">
+<g clip-path="url(#pane5)">
+<defs><linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5d5a78"/><stop offset="1" stop-color="#e9b27a"/></linearGradient></defs>
+<rect width="323.0" height="300" fill="url(#sky5)"/>
+<path d="M0 198.0 Q80.8 148.0 161.5 188.0 Q242.2 218.0 323.0 168.0 V300 H0 Z" fill="#c7b78f"/>
+<rect x="0" y="232.0" width="323.0" height="68.0" fill="#d9cba4"/>
+<path d="M0 262.0 Q161.5 252.0 323.0 264.0 V300 H0 Z" fill="#cbb98c"/>
+<g transform="translate(200.3 264.0) scale(1.300)"><path d="M-90 0 Q-40 -34 0 -38 Q40 -34 90 0 Z" fill="#a8946a"/><rect x="-42.5" y="-100" width="5" height="70" fill="#4a3826"/><rect x="-56" y="-86" width="32" height="5" fill="#4a3826"/><rect x="-2.5" y="-122" width="5" height="92" fill="#4a3826"/><rect x="-16" y="-108" width="32" height="5" fill="#4a3826"/><rect x="37.5" y="-100" width="5" height="70" fill="#4a3826"/><rect x="24" y="-86" width="32" height="5" fill="#4a3826"/></g>
+<rect x="10.0" y="10.0" width="160.0" height="29.5" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">At the cross.</text>
+<rect x="12.2" y="120.0" width="150.0" height="144.9" rx="3" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<text x="87.2" y="143.5" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>He disarmed the</tspan></text>
+<text x="87.2" y="161.6" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>rulers and</tspan></text>
+<text x="87.2" y="179.8" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>authorities and</tspan></text>
+<text x="87.2" y="197.9" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>put them to</tspan></text>
+<text x="87.2" y="216.0" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan font-weight="bold" fill="#8b1e1e">open shame</tspan><tspan>, by</tspan></text>
+<text x="87.2" y="234.1" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>triumphing over</tspan></text>
+<text x="87.2" y="252.2" font-size="14.5" fill="#3b2f1e" text-anchor="middle"><tspan>them in him.</tspan></text>
+<rect x="206.5" y="274.0" width="110.5" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Colossians 2:15</text>
+</g>
+<rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">6</text>
+</g>
+<defs><clipPath id="pane6"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
+<g transform="translate(367.0 1060.0)">
+<g clip-path="url(#pane6)">
+<defs><linearGradient id="sky6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fa3c0"/><stop offset="1" stop-color="#f2c99a"/></linearGradient></defs>
+<rect width="323.0" height="300" fill="url(#sky6)"/>
+<path d="M0 187.0 Q64.6 170.0 135.7 180.0 Q226.1 166.0 323.0 182.0 V187.0 Z" fill="#f2c99a" stroke="#00000018"/>
+<defs><linearGradient id="sky6g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cdbd96"/><stop offset="1" stop-color="#cbb98c"/></linearGradient></defs><rect x="0" y="186.0" width="323.0" height="114.0" fill="url(#sky6g)"/>
+<path d="M178.9 186.0 L96.9 300 H148.6 L182.9 186.0 Z" fill="#00000010"/>
+<path d="M54.9 187.4 l-0.4 -1.1 M55.2 187.4 l0 -1.4 M55.5 187.4 l0.4 -1.1" stroke="#7d6c4e" stroke-width="0.51"/>
+<path d="M129.2 187.4 l-0.4 -1.1 M129.5 187.4 l0 -1.4 M129.8 187.4 l0.4 -1.1" stroke="#7d6c4e" stroke-width="0.51"/>
+<path d="M203.5 187.4 l-0.4 -1.1 M203.8 187.4 l0 -1.4 M204.1 187.4 l0.4 -1.1" stroke="#7d6c4e" stroke-width="0.51"/>
+<path d="M277.8 187.4 l-0.4 -1.1 M278.1 187.4 l0 -1.4 M278.4 187.4 l0.4 -1.1" stroke="#7d6c4e" stroke-width="0.51"/>
+<path d="M352.1 187.4 l-0.4 -1.1 M352.4 187.4 l0 -1.4 M352.7 187.4 l0.4 -1.1" stroke="#7d6c4e" stroke-width="0.51"/>
+<path d="M45.2 191.6 l-0.5 -1.2 M45.6 191.6 l0 -1.6 M46.0 191.6 l0.5 -1.2" stroke="#7d6c4e" stroke-width="0.55"/>
+<path d="M119.5 191.6 l-0.5 -1.2 M119.9 191.6 l0 -1.6 M120.3 191.6 l0.5 -1.2" stroke="#7d6c4e" stroke-width="0.55"/>
+<path d="M193.8 191.6 l-0.5 -1.2 M194.2 191.6 l0 -1.6 M194.5 191.6 l0.5 -1.2" stroke="#7d6c4e" stroke-width="0.55"/>
+<path d="M268.1 191.6 l-0.5 -1.2 M268.5 191.6 l0 -1.6 M268.8 191.6 l0.5 -1.2" stroke="#7d6c4e" stroke-width="0.55"/>
+<path d="M342.4 191.6 l-0.5 -1.2 M342.8 191.6 l0 -1.6 M343.1 191.6 l0.5 -1.2" stroke="#7d6c4e" stroke-width="0.55"/>
+<path d="M35.5 198.7 l-0.6 -1.6 M36.0 198.7 l0 -2.0 M36.5 198.7 l0.6 -1.6" stroke="#7d6c4e" stroke-width="0.61"/>
+<path d="M109.8 198.7 l-0.6 -1.6 M110.3 198.7 l0 -2.0 M110.8 198.7 l0.6 -1.6" stroke="#7d6c4e" stroke-width="0.61"/>
+<path d="M184.1 198.7 l-0.6 -1.6 M184.6 198.7 l0 -2.0 M185.0 198.7 l0.6 -1.6" stroke="#7d6c4e" stroke-width="0.61"/>
+<path d="M258.4 198.7 l-0.6 -1.6 M258.9 198.7 l0 -2.0 M259.3 198.7 l0.6 -1.6" stroke="#7d6c4e" stroke-width="0.61"/>
+<path d="M332.7 198.7 l-0.6 -1.6 M333.2 198.7 l0 -2.0 M333.6 198.7 l0.6 -1.6" stroke="#7d6c4e" stroke-width="0.61"/>
+<path d="M25.8 208.5 l-0.8 -2.0 M26.4 208.5 l0 -2.6 M27.0 208.5 l0.8 -2.0" stroke="#7d6c4e" stroke-width="0.70"/>
+<path d="M100.1 208.5 l-0.8 -2.0 M100.7 208.5 l0 -2.6 M101.3 208.5 l0.8 -2.0" stroke="#7d6c4e" stroke-width="0.70"/>
+<path d="M174.4 208.5 l-0.8 -2.0 M175.0 208.5 l0 -2.6 M175.6 208.5 l0.8 -2.0" stroke="#7d6c4e" stroke-width="0.70"/>
+<path d="M248.7 208.5 l-0.8 -2.0 M249.3 208.5 l0 -2.6 M249.9 208.5 l0.8 -2.0" stroke="#7d6c4e" stroke-width="0.70"/>
+<path d="M323.0 208.5 l-0.8 -2.0 M323.6 208.5 l0 -2.6 M324.2 208.5 l0.8 -2.0" stroke="#7d6c4e" stroke-width="0.70"/>
+<path d="M16.1 221.2 l-1.0 -2.5 M16.9 221.2 l0 -3.3 M17.7 221.2 l1.0 -2.5" stroke="#7d6c4e" stroke-width="0.81"/>
+<path d="M90.4 221.2 l-1.0 -2.5 M91.2 221.2 l0 -3.3 M92.0 221.2 l1.0 -2.5" stroke="#7d6c4e" stroke-width="0.81"/>
+<path d="M164.7 221.2 l-1.0 -2.5 M165.5 221.2 l0 -3.3 M166.3 221.2 l1.0 -2.5" stroke="#7d6c4e" stroke-width="0.81"/>
+<path d="M239.0 221.2 l-1.0 -2.5 M239.8 221.2 l0 -3.3 M240.5 221.2 l1.0 -2.5" stroke="#7d6c4e" stroke-width="0.81"/>
+<path d="M313.3 221.2 l-1.0 -2.5 M314.1 221.2 l0 -3.3 M314.8 221.2 l1.0 -2.5" stroke="#7d6c4e" stroke-width="0.81"/>
+<path d="M6.5 236.7 l-1.3 -3.2 M7.4 236.7 l0 -4.2 M8.4 236.7 l1.3 -3.2" stroke="#7d6c4e" stroke-width="0.94"/>
+<path d="M80.7 236.7 l-1.3 -3.2 M81.7 236.7 l0 -4.2 M82.7 236.7 l1.3 -3.2" stroke="#7d6c4e" stroke-width="0.94"/>
+<path d="M155.0 236.7 l-1.3 -3.2 M156.0 236.7 l0 -4.2 M157.0 236.7 l1.3 -3.2" stroke="#7d6c4e" stroke-width="0.94"/>
+<path d="M229.3 236.7 l-1.3 -3.2 M230.3 236.7 l0 -4.2 M231.3 236.7 l1.3 -3.2" stroke="#7d6c4e" stroke-width="0.94"/>
+<path d="M303.6 236.7 l-1.3 -3.2 M304.6 236.7 l0 -4.2 M305.6 236.7 l1.3 -3.2" stroke="#7d6c4e" stroke-width="0.94"/>
+<path d="M61.4 255.0 l-1.6 -4.0 M62.6 255.0 l0 -5.2 M63.8 255.0 l1.6 -4.0" stroke="#7d6c4e" stroke-width="1.10"/>
+<path d="M135.7 255.0 l-1.6 -4.0 M136.9 255.0 l0 -5.2 M138.1 255.0 l1.6 -4.0" stroke="#7d6c4e" stroke-width="1.10"/>
+<path d="M209.9 255.0 l-1.6 -4.0 M211.2 255.0 l0 -5.2 M212.4 255.0 l1.6 -4.0" stroke="#7d6c4e" stroke-width="1.10"/>
+<path d="M284.2 255.0 l-1.6 -4.0 M285.4 255.0 l0 -5.2 M286.7 255.0 l1.6 -4.0" stroke="#7d6c4e" stroke-width="1.10"/>
+<path d="M358.5 255.0 l-1.6 -4.0 M359.7 255.0 l0 -5.2 M360.9 255.0 l1.6 -4.0" stroke="#7d6c4e" stroke-width="1.10"/>
+<path d="M51.7 276.1 l-2.0 -5.0 M53.2 276.1 l0 -6.4 M54.7 276.1 l2.0 -5.0" stroke="#7d6c4e" stroke-width="1.29"/>
+<path d="M126.0 276.1 l-2.0 -5.0 M127.5 276.1 l0 -6.4 M128.9 276.1 l2.0 -5.0" stroke="#7d6c4e" stroke-width="1.29"/>
+<path d="M200.3 276.1 l-2.0 -5.0 M201.7 276.1 l0 -6.4 M203.2 276.1 l2.0 -5.0" stroke="#7d6c4e" stroke-width="1.29"/>
+<path d="M274.5 276.1 l-2.0 -5.0 M276.0 276.1 l0 -6.4 M277.5 276.1 l2.0 -5.0" stroke="#7d6c4e" stroke-width="1.29"/>
+<path d="M348.8 276.1 l-2.0 -5.0 M350.3 276.1 l0 -6.4 M351.8 276.1 l2.0 -5.0" stroke="#7d6c4e" stroke-width="1.29"/>
+<g fill="#a67c3d" opacity="0.55"><path d="M534.2 182.3 L313.5 186.0 L534.2 189.7 Z"/><path d="M532.2 221.4 L327.3 199.8 L530.8 232.5 Z"/><path d="M524.6 263.0 L338.8 217.2 L522.3 271.4 Z"/><path d="M518.8 282.8 L311.9 216.9 L514.7 294.5 Z"/><path d="M503.0 322.0 L320.2 235.0 L498.5 330.8 Z"/><path d="M481.9 358.6 L325.1 255.6 L477.7 364.8 Z"/><path d="M469.9 375.4 L299.6 246.7 L462.9 384.1 Z"/><path d="M441.9 407.1 L301.2 266.8 L435.7 413.1 Z"/><path d="M412.4 432.8 L298.5 288.2 L402.3 440.2 Z"/><path d="M393.0 446.5 L277.3 271.6 L384.6 451.7 Z"/><path d="M356.1 467.1 L271.6 291.3 L349.3 470.2 Z"/><path d="M319.7 481.5 L249.8 272.1 L309.0 484.8 Z"/><path d="M296.9 488.0 L246.8 288.1 L288.4 489.9 Z"/><path d="M258.3 494.8 L234.5 304.9 L245.9 496.0 Z"/><path d="M216.0 496.7 L219.8 279.6 L206.1 496.3 Z"/><path d="M192.4 495.2 L211.4 293.7 L185.0 494.4 Z"/><path d="M153.7 488.8 L193.7 305.5 L142.9 486.1 Z"/><path d="M113.3 476.6 L187.7 276.5 L105.2 473.4 Z"/><path d="M94.3 468.6 L174.9 287.0 L83.1 463.2 Z"/><path d="M57.1 448.5 L153.9 292.0 L48.8 443.0 Z"/><path d="M23.0 423.5 L157.4 262.4 L17.4 418.6 Z"/><path d="M7.7 409.7 L141.6 267.9 L-0.2 401.8 Z"/><path d="M-20.6 378.3 L152.0 240.7 L-25.9 371.4 Z"/><path d="M-42.9 346.0 L132.7 238.1 L-49.1 335.3 Z"/><path d="M-54.3 325.3 L115.9 237.8 L-58.6 316.3 Z"/><path d="M-70.6 286.3 L134.5 215.2 L-73.0 279.2 Z"/><path d="M-80.9 248.5 L116.9 205.9 L-83.0 237.5 Z"/><path d="M-84.8 225.1 L101.1 199.8 L-85.8 216.5 Z"/><path d="M-87.3 186.0 L126.2 184.1 L-87.0 173.6 Z"/><path d="M-84.4 143.8 L112.7 169.0 L-82.9 134.0 Z"/><path d="M-80.3 120.5 L99.9 157.8 L-78.6 113.2 Z"/><path d="M-69.6 82.8 L128.8 150.7 L-65.7 72.3 Z"/><path d="M-52.9 43.9 L121.3 131.6 L-48.8 36.2 Z"/><path d="M-42.9 26.0 L147.3 138.1 L-36.3 15.4 Z"/><path d="M-18.7 -8.7 L142.9 119.1 L-12.3 -16.4 Z"/><path d="M10.0 -39.8 L142.5 98.2 L15.5 -44.9 Z"/><path d="M25.4 -53.4 L165.1 112.8 L34.1 -60.4 Z"/><path d="M59.7 -78.1 L167.7 93.1 L67.2 -82.6 Z"/><path d="M94.3 -96.6 L174.6 73.0 L105.7 -101.6 Z"/><path d="M116.2 -105.7 L191.3 94.1 L125.6 -108.9 Z"/><path d="M156.8 -117.5 L200.7 76.2 L164.1 -119.0 Z"/><path d="M195.5 -123.5 L214.4 59.5 L206.7 -124.3 Z"/><path d="M219.1 -124.7 L223.5 85.0 L227.9 -124.7 Z"/><path d="M258.3 -122.8 L238.8 71.2 L270.6 -121.2 Z"/><path d="M299.9 -115.2 L247.0 99.1 L309.5 -112.6 Z"/><path d="M322.6 -108.5 L258.1 87.1 L329.7 -106.1 Z"/><path d="M358.9 -93.7 L277.5 79.4 L368.9 -88.7 Z"/><path d="M395.6 -72.8 L276.5 108.7 L402.8 -67.8 Z"/><path d="M412.4 -60.8 L291.1 101.2 L422.1 -53.0 Z"/><path d="M444.1 -32.9 L312.3 100.7 L451.0 -25.7 Z"/><path d="M471.8 -0.9 L302.0 128.4 L476.2 5.1 Z"/><path d="M483.6 15.9 L318.4 126.4 L489.6 25.4 Z"/><path d="M504.3 52.8 L338.8 133.3 L507.9 60.8 Z"/><path d="M518.8 89.2 L320.1 156.5 L522.5 101.1 Z"/><path d="M525.3 112.0 L336.4 160.2 L527.5 121.7 Z"/><path d="M532.6 153.7 L313.1 177.7 L533.3 161.1 Z"/></g>
+<g transform="translate(226.1 264.0) scale(-1.300 1.300)"><ellipse cx="0" cy="-52" rx="46" ry="70" fill="url(#comic-glow)"/><path d="M-12 -76 Q-24 -44 -21 -8 L-13 -10 Q-14 -44 -6 -76 Z" fill="#d9b095" stroke="#e4ddc5" stroke-width="0.8"/><path d="M-5 -74 L-20 -64 L-32 -72" fill="none" stroke="#e4ddc5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-20 -64 L-32 -72" fill="none" stroke="#e8e4d5" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-32" cy="-72" r="4.3" fill="#e4d0b0" stroke="#e4ddc5" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#c0b190"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#c0b190"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#f8f5e8" stroke="#e4ddc5" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#9e997f30" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#9e997f35"/><path d="M-13 -78 Q-6 -81 -2 -80 L19 -28 L12 -22 Q2 -44 -13 -70 Z" fill="#d9b095" stroke="#e4ddc5" stroke-width="0.8"/><path d="M-6 -74 L12 -32" stroke="#9e997f30" stroke-width="1.2"/><rect x="-2" y="-82" width="7" height="6" fill="#e4d0b0"/><circle cx="2" cy="-90" r="12" fill="#e4d0b0" stroke="#e4ddc5" stroke-width="0.8"/><path d="M-10 -94 Q-6 -105 6 -103 Q13 -101 14 -95 Q5 -97 -1 -93 Q-3 -84 -6 -72 Q-12 -72 -14 -76 Q-12 -84 -10 -94 Z" fill="#b4a98c"/><path d="M-3 -88 Q-5 -78 1 -72 Q7 -66 13 -69 Q17 -73 16 -86 Q14 -84 10 -85 Q5 -86 3 -83 Q1 -86 -3 -88 Z" fill="#b4a98c"/><path d="M7 -86 Q11 -89 15.5 -86.5 Q15 -81 8 -82 Z" fill="#b4a98c"/><path d="M7 -74 L22 -64 L36 -72" fill="none" stroke="#e4ddc5" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L22 -64 L36 -72" fill="none" stroke="#f8f5e8" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="36" cy="-72" r="4.3" fill="#e4d0b0" stroke="#e4ddc5" stroke-width="0.8"/></g>
+<rect width="323.0" height="300" fill="#e8a640" opacity="0.15"/>
+<rect x="10.0" y="10.0" width="220.0" height="47.0" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="30.0" font-size="14" fill="#3b2f1e" font-style="italic">The one called</text>
+<text x="20.0" y="47.5" font-size="14" fill="#3b2f1e" font-style="italic">God who is God.</text>
+<path d="M120.2 122.0 L129.2 -15.8 L138.2 122.0 Z" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4" stroke-linejoin="round"/>
+<rect x="21.9" y="120.0" width="150.0" height="72.4" rx="16" fill="#f6ecd0" stroke="#a67c3d" stroke-width="2.4"/>
+<path d="M120.2 122.0 L138.2 122.0" stroke="#f6ecd0" stroke-width="3"/>
+<text x="96.9" y="143.5" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan>Your throne, </tspan><tspan font-weight="bold" fill="#8b1e1e">O</tspan></text>
+<text x="96.9" y="161.6" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan font-weight="bold" fill="#8b1e1e">God</tspan><tspan>, is forever</tspan></text>
+<text x="96.9" y="179.8" font-size="14.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold"><tspan>and ever.</tspan></text>
+<rect x="231.7" y="274.0" width="85.3" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Hebrews 1:8</text>
+</g>
+<rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">7</text>
+</g>
+<path d="M270.0 1390 H450.0 L440.0 1403.0 L450.0 1416 H270.0 L280.0 1403.0 Z" fill="#8b1e1e"/>
+<text x="360.0" y="1408.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE POINT</text>
+<text x="360.0" y="1442.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">Every power that carries the name “god” was made through the Son,</text>
+<text x="360.0" y="1462.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">answers to God, and was disarmed at the cross. So fear none of them, and</text>
+<text x="360.0" y="1482.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">worship the Son, whose throne is forever (Colossians 2:15; Hebrews 1:8).</text>
+<text x="360.0" y="1506.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">The One on the throne is drawn as light; the angel in Daniel 10 as a voice.</text>
+<text x="696.0" y="1524.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">A one-minute comic · the-way.lewy.au</text>
+</svg>

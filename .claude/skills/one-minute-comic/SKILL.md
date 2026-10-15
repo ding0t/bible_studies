@@ -163,6 +163,8 @@ comic knows him in the next. Each is reserved once, in `FIGURES` in `utils/lib/c
 | `james` | James, son of Zebedee | Deep forest-green tunic, sand mantle, the fishermen's rope belt | they-were-given-white-robes |
 | `adam`, `eve` | Adam and Eve | Mottled hide tunics, knee-length for Adam, full-length for Eve: the "garments of skins" (Genesis 3:21). Drawn only after 3:21 | they-were-given-white-robes |
 | `ezekiel` | Ezekiel | A priest's pale head cloth (Ezekiel 1:3) over a muted violet tunic, full beard | ezekiels-commission |
+| `moses` | Moses | Dusty blue tunic, pale head cloth, grey hair and full beard (eighty, Exodus 7:7); carries the staff (Exodus 4:2) | those-called-gods |
+| `daniel` | Daniel | Saffron courtier's tunic (Daniel 2:48), cream mantle | those-called-gods |
 
 - **Reserve only a figure the text names.** The two witnesses are unnamed in Revelation 11 and
   contested in the study, so they are the generic `witness` (sackcloth), never a reserved Moses
@@ -256,7 +258,7 @@ clones:
   a presence and no form), `books` (opened, Revelation 20:12), `crown` (a wreath laid down), and
   `refined`, the counterpart of `burning`: gold, silver and precious stones standing whole in the
   fire on the same foundation (1 Corinthians 3:12-14). Also `figleaves` (the sewn loincloths of
-  Genesis 3:7, cast off on the ground), `wall` (a city wall with battlements for a watchman; a figure
+  Genesis 3:7, cast off on the ground), `idol` (a faceless stone god on a plinth with a smoking altar, Deuteronomy 32:17; 1 Corinthians 10:20), `wall` (a city wall with battlements for a watchman; a figure
   on it takes `dy = -0.303 * s`) and `hand` ("a hand was stretched out to me, and behold, a scroll",
   Ezekiel 2:9: an arm reaching down from above the frame, the scroll in the hand; give it a `y` well
   above the ground). `y` defaults to

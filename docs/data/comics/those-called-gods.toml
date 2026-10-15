@@ -1,0 +1,140 @@
+# One-minute comic for docs/content/spiritual-beings/those-called-gods.md.
+# Drawn by: python3 utils/build_comics.py those-called-gods
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-15.
+#
+# The study in five beats, in its own order: on earth God puts His name on those He appoints, Moses
+# "like God to Pharaoh" (Exodus 7:1) and Israel's judges, before whom a case "shall come before God"
+# (Exodus 22:9, where ʾĕlōhîm takes a plural verb); in Psalm 82 God stands in the council and
+# sentences the "gods" to die like men (82:1, 6-7); over the nations stand princes in heaven (Daniel
+# 10:13) and demons behind the idols (1 Corinthians 10:20; Deuteronomy 32:17); at the cross Christ
+# disarmed the rulers and authorities (Colossians 2:15); and of the Son the Father says, "Your throne,
+# O God" (Hebrews 1:8).
+# Psalm 82's "gods" are drawn as men because the study's own case leans that way (82:2-4, 7; John
+# 10:35), and the panel's aside marks the reading as contested, as the study does. The One on the
+# throne is drawn as light, as in judgment-seat-of-christ. The angel who speaks to Daniel is drawn
+# as a voice: the study is about the princes he names, and Daniel 10:5-6 gives a man of light too
+# bright to look at. Daniel kneels because 10:10 sets him "on my hands and knees". Pharaoh is left
+# out of panel 1: the verse is spoken to Moses.
+
+title = "Those Called Gods"
+subtitle = "Who carries the name, and who holds it"
+layout = [[300, 1, 1], [310, 1], [300, 1, 1], [300, 1, 1]]
+note = "The One on the throne is drawn as light; the angel in Daniel 10 as a voice."
+point = "Every power that carries the name “god” was made through the Son, answers to God, and was disarmed at the cross. So fear none of them, and worship the Son, whose throne is forever (Colossians 2:15; Hebrews 1:8)."
+
+[[panel]]
+ref = "Exodus 7:1"
+scene = "plain"
+sky = "day"
+caption = "On earth, God lends the name to those He sends."
+caption_w = 230
+shows = "Moses, grey-haired, holding his staff and looking up to a voice from above"
+cast = [
+  { who = "moses", x = 0.24, face = "right", pose = "look_up", holds = "staff", tag = "Moses" },
+]
+say = [
+  { by = "lord", name = "the LORD", from = [0.9, -0.1], style = "voice", text = "See, I have made you *like God* to Pharaoh.", source = "esv", at = [0.68, 0.34], w = 190 },
+]
+
+[[panel]]
+ref = "Exodus 22:9"
+scene = "courtyard"
+sky = "day"
+caption = "Israel’s judges give God’s verdict."
+caption_w = 290
+aside = "Here ʾĕlōhîm takes a plural verb: the judges."
+aside_w = 300
+shows = "three judges seated, two men standing before them with a dispute"
+cast = [
+  { who = "man", id = "judges", name = "the judges", n = 3, x = 0.56, x2 = 0.88, face = "left", stance = "sit", pose = ["fold", "point", "fold"] },
+  { who = "man", id = "parties", name = "the two parties", n = 2, x = 0.10, x2 = 0.26, face = "right", pose = ["open", "point"], tone = 2 },
+]
+say = [
+  { by = "moses", name = "the Law", from = [0.5, -0.1], style = "text", text = "The case of both parties shall *come before God*.", source = "esv", at = [0.66, 0.36], w = 180 },
+]
+
+[[panel]]
+ref = "Psalm 82:1-7"
+scene = "vista"
+horizon = 0.6
+sky = "storm"
+caption = "God has taken His place in the council and judges the “gods”."
+caption_w = 300
+aside = "Who they are is contested: judges, heavenly powers, or Israel at Sinai. Drawn: judges."
+aside_w = 300
+shows = "a throne of light; before it a row of judges stand with heads bowed"
+props = [
+  { what = "throne", x = 0.84, s = 1.1 },
+]
+cast = [
+  { who = "man", id = "gods", name = "the gods of the psalm", n = 5, x = 0.18, x2 = 0.62, face = "right", pose = ["fold", "stand", "fold", "hold", "fold"] },
+]
+say = [
+  { by = "god", name = "God", from = [0.84, 0.35], style = "voice", text = "You are gods, sons of the Most High, all of you; nevertheless, *like men you shall die*.", source = "esv", at = [0.42, 0.06], w = 330 },
+]
+
+[[panel]]
+ref = "Daniel 10:10-13"
+scene = "plain"
+sky = "dusk"
+caption = "Over the nations: princes in heaven."
+caption_w = 220
+aside = "The man in linen (10:5) is drawn as a voice."
+aside_w = 220
+shows = "Daniel on his hands and knees by the river, a voice speaking to him from above"
+cast = [
+  { who = "daniel", x = 0.20, face = "right", stance = "kneel", pose = "look_up", tag = "Daniel" },
+]
+say = [
+  { by = "angel", name = "the man in linen", from = [0.95, -0.1], style = "voice", text = "The *prince of the kingdom of Persia* withstood me twenty-one days, but Michael, one of the chief princes, came to help me.", source = "esv", at = [0.66, 0.36], w = 210 },
+]
+
+[[panel]]
+ref = "1 Corinthians 10:20"
+scene = "street"
+sky = "day"
+caption = "Behind the idols."
+caption_w = 160
+aside = "“By nature are not gods” (Galatians 4:8)."
+aside_w = 200
+shows = "a man offering at a stone idol on a plinth, smoke rising from the altar"
+props = [
+  { what = "idol", x = 0.71, s = 0.95 },
+]
+cast = [
+  { who = "man", id = "worshipper", name = "a worshipper", x = 0.49, face = "right", stance = "kneel", pose = "offer", holds = "gift", tone = 3 },
+]
+say = [
+  { by = "paul", name = "Paul", from = [0.1, -0.1], style = "text", text = "What pagans sacrifice they offer to *demons* and not to God.", source = "esv", at = [0.22, 0.44], w = 130 },
+]
+
+[[panel]]
+ref = "Colossians 2:15"
+scene = "hills"
+sky = "dusk"
+caption = "At the cross."
+caption_w = 160
+shows = "three empty crosses on a rise at dusk"
+props = [
+  { what = "crosses", x = 0.62, s = 1.0 },
+]
+say = [
+  { by = "paul", name = "Paul", from = [0.1, -0.1], style = "text", text = "He disarmed the rulers and authorities and put them to *open shame*, by triumphing over them in him.", source = "esv", at = [0.27, 0.40], w = 180 },
+]
+
+[[panel]]
+ref = "Hebrews 1:8"
+scene = "vista"
+horizon = 0.62
+sky = "dawn"
+grade = "warm"
+caption = "The one called God who is God."
+caption_w = 220
+shows = "Jesus standing in radiant light, gold lines converging on Him, a voice speaking from above"
+burst = { on = "jesus", color = "gold" }
+cast = [
+  { who = "jesus", x = 0.70, face = "left", pose = "open", look = "radiant" },
+]
+say = [
+  { by = "father", name = "the Father", from = [0.4, -0.1], style = "voice", text = "Your throne, *O God*, is forever and ever.", source = "esv", at = [0.30, 0.40], w = 170 },
+]

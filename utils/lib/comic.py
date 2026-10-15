@@ -148,6 +148,15 @@ FIGURES = {
     "eve": dict(name="Eve", study="last-things/they-were-given-white-robes.md", robes=["#cfa77a"], mantle=None,
                 hair="long", beard=False, hide=True, edge="#5a3d22",
                 why="Genesis 3:21's garments of skins: a full-length hide tunic, mottled like Adam's, and her hair uncovered."),
+    "moses": dict(name="Moses", study="spiritual-beings/those-called-gods.md", robes=["#5f7f99"], mantle="hood",
+                  mantle_fill="#d9cdb0", band="#5f7f99", hair_color=HAIR_GREY, beard="full",
+                  why="A shepherd of Jethro's flock with the staff God made a sign (Exodus 3:1; 4:2-4), so he carries a staff; "
+                      "eighty years old when he spoke to Pharaoh (Exodus 7:7), so grey-haired and full-bearded. A dusty "
+                      "blue tunic and a pale head cloth are a fixed choice. Scripture gives no detail of his dress."),
+    "daniel": dict(name="Daniel", study="spiritual-beings/those-called-gods.md", robes=["#b07a2a"], mantle="stole",
+                   mantle_fill="#e6d6a8", hair="short", beard=True,
+                   why="An official of the Babylonian and Persian courts (Daniel 2:48; 6:1-3): a saffron courtier's tunic and "
+                       "a cream mantle, a fixed choice, kept brighter than Andrew's mustard. Scripture gives no detail of his dress."),
 }
 CAST.update(FIGURES)
 
@@ -1051,10 +1060,25 @@ def prop_spring(x, y, s):
             '<circle cx="-36" cy="-20" r="1.6" fill="#a9d1ea"/><circle cx="37" cy="-22" r="1.6" fill="#a9d1ea"/></g>')
 
 
+def prop_idol(x, y, s):
+    """A carved god on a plinth with an altar smoking before it: what the nations worshipped, "worthless
+    idols" (Psalm 96:5) with demons behind the sacrifice (Deuteronomy 32:17; 1 Corinthians 10:20). The
+    statue is grey stone and faceless, like every figure in the comics."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            f'<rect x="-26" y="-34" width="52" height="34" fill="{STONE}" stroke="{STONE_EDGE}" stroke-width="1.2"/>'
+            f'<rect x="-30" y="-40" width="60" height="7" fill="#b3a897" stroke="{STONE_EDGE}" stroke-width="1"/>'
+            f'<path d="M-12 -40 L-9 -88 Q0 -94 9 -88 L12 -40 Z" fill="#a39886" stroke="{STONE_EDGE}" stroke-width="1.2"/>'
+            f'<path d="M-9 -84 L-22 -104 M9 -84 L16 -64" stroke="#a39886" stroke-width="5" stroke-linecap="round"/>'
+            f'<circle cx="0" cy="-100" r="9" fill="#a39886" stroke="{STONE_EDGE}" stroke-width="1.2"/>'
+            f'<path d="M-6 -108 L0 -118 L6 -108" fill="none" stroke="{STONE_EDGE}" stroke-width="1.4"/>'
+            f'<rect x="38" y="-20" width="26" height="20" fill="#cdbb94" stroke="{WALL_EDGE}" stroke-width="1"/>'
+            '<path d="M51 -22 Q44 -36 52 -46 Q60 -56 50 -70" fill="none" stroke="#8a8178" stroke-width="2.4" opacity="0.7"/></g>')
+
+
 PROPS = {"vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne,
-         "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall}
+         "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall, "idol": prop_idol}
 
 
 SCENES = {
