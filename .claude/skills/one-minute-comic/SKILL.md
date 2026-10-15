@@ -78,6 +78,13 @@ and `subheaders` a line of small italic under each ribbon (the span of each day,
 `first_column_past = true` colours the first sepia, to match `flashback = true` on its panels, so
 the column that has already happened reads as the past.
 
+**A time gap** is a panel with `kind = "gap"`, `text` and `ref`, given its own short row in the
+layout (`[46, 1]`): no frame, a dotted rule across the page and the span on a ribbon. It is not
+counted or numbered as a panel. `judgment-seat-of-christ` puts "A thousand years" (Revelation 20:5,
+7) between the crowns cast before the throne and the great white throne, so two scenes the eye would
+read as adjacent are held apart by the distance the text puts between them. Use it only for a span
+the text states.
+
 ## 2. Write the words
 
 The bubbles are the comic. They are also the place a comic is most likely to say something
@@ -122,7 +129,8 @@ Scripture does not.
   stands in the panel (Hebrews 12:1-2, Isaiah 40:29 in `run-the-race`); it still takes `from` and
   is checked by `--verify` like any ESV bubble.
 - **`holds`** on a cast entry puts a prop in the near hand: `staff`, `scroll`, `stone`, `spear`,
-  `jar`, `gift`, `loaf`, `lamp`, `yoke`, and `load`, which goes on the back with the hand on its
+  `jar`, `gift`, `loaf`, `lamp`, `yoke`, `robe` (a white robe held out, folded over the hand),
+  `crown` (a gold victor's wreath, the στέφανος), and `load`, which goes on the back with the hand on its
   strap, for the heavy-laden (Matthew 11:28). Poses include `run` and `offer` (an arm held out
   with something in the hand).
 - **`point`** is the closing line under THE POINT ribbon: the study's sentence, landed on the
@@ -177,6 +185,7 @@ clones:
 | `soldier` | Red tunic, helmet; `holds = "spear"` |
 | `witness` | Sackcloth (coarse, dark goat's hair), for a prophet in mourning dress (Revelation 11:3) |
 | `child` | Smaller, bare-headed |
+| `robed` | A white robe and pale stole, no head cloth: one clothed in the robe "made white in the blood of the Lamb" (Revelation 7:14). Brighter than the priest's linen, so it reads as a gift and not an office |
 
 - **Faces stay blank, everyone's.** drawn-graphics.md rules out drawing the face of Jesus; a cast
   where nobody has a face keeps Him from being the exception the eye looks for.
@@ -229,7 +238,12 @@ clones:
   currents for the breath of life), `gift`, `fire` (a charcoal fire), `rooster`,
   `kophinos` (a small wicker basket), `spyris` (a large hamper), `loaf`, `sheep`, `load` (a corded
   bundle, set down), `yoke`, `well` (a stone parapet, Jacob's well), `shaft` and `spring` (for thought pictures), and `hull`, which runs from
-  `x` to `x2` and takes `front = true` so it is drawn over the people standing in it. `y` defaults to
+  `x` to `x2` and takes `front = true` so it is drawn over the people standing in it. For judgment
+  scenes: `bema` (a raised stone tribunal with steps; a figure on it takes `dy = -0.156 * s`),
+  `throne` (a throne with the one seated on it drawn as light, since Revelation 4:2-3 and 20:11 give
+  a presence and no form), `books` (opened, Revelation 20:12), `crown` (a wreath laid down), and
+  `refined`, the counterpart of `burning`: gold, silver and precious stones standing whole in the
+  fire on the same foundation (1 Corinthians 3:12-14). `y` defaults to
   the ground line; `s` scales. **`n` with `x2` draws a counted row**, so twelve baskets are twelve;
   stack two rows for a heap that still counts.
   `face = "left"` turns a prop round, so a flock can walk toward its shepherd.

@@ -1,0 +1,147 @@
+# One-minute comic for docs/content/last-things/judgment-seat-of-christ.md.
+# Drawn by: python3 utils/build_comics.py judgment-seat-of-christ
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-15.
+#
+# The study in five beats, in the order it puts them: the robe is given before any work is weighed
+# (Isaiah 61:10; Revelation 7:14; Romans 8:1); every believer appears before the βῆμα (2 Corinthians
+# 5:10); the fire tests the work, which survives for reward or burns for loss while the builder is
+# saved (1 Corinthians 3:13-15); the crowns go back to the throne (Revelation 4:10-11); and, a
+# thousand years later (Revelation 20:5, 7), a different judgment at the great white throne, where
+# the question is the book of life (Revelation 20:11-15).
+# The builder in panels 3 and 4 keeps the white robe of panel 1 while the work burns: the study's
+# point that loss at the judgment seat is never condemnation (Romans 8:1).
+# The reward is drawn as a wreath because Paul names the reward a στέφανος (1 Corinthians 9:25) and
+# the elders cast their στέφανοι (Revelation 4:10). The one seated on each throne is drawn as light:
+# Revelation describes His presence, and gives no form (4:2-3; 20:11).
+# The "time gap" strip is the device this comic introduces: a ribbon between rows naming the span
+# the text puts between two scenes.
+
+title = "The Judgment Seat of Christ"
+subtitle = "The robe first, then the fire"
+layout = [[300, 1, 1], [300, 1, 1], [290, 1], [46, 1], [300, 1]]
+note = "The One on each throne is drawn as light; the reward as a wreath (1 Corinthians 9:25)."
+point = "You stand before Christ’s judgment seat in a robe washed in His blood; there your work is tested for reward or loss, and every crown goes back to Him. Both the robe and the reward are His gift (2 Corinthians 5:10; Revelation 4:10)."
+
+[[panel]]
+ref = "Isaiah 61:10"
+scene = "plain"
+sky = "dawn"
+caption = "Before any work is weighed, the robe is given."
+caption_w = 230
+aside = "Isaiah’s picture. Washed white in the Lamb’s blood (Revelation 7:14)."
+aside_w = 230
+shows = "Jesus holding out a white robe to a kneeling man in soiled clothes"
+cast = [
+  { who = "man", id = "believer", name = "a man in soiled clothes", x = 0.14, face = "right", stance = "kneel", pose = "raise", look = "soiled", tone = 3 },
+  { who = "jesus", x = 0.36, face = "left", pose = "offer", holds = "robe" },
+]
+say = [
+  { by = "isaiah", name = "Isaiah", from = [1.05, 0.2], style = "text", text = "He has clothed me with the garments of salvation; he has covered me with the *robe of righteousness*.", source = "esv", at = [0.72, 0.40], w = 170 },
+]
+
+[[panel]]
+ref = "2 Corinthians 5:10"
+scene = "colonnade"
+sky = "day"
+caption = "At His coming: the βῆμα, the judgment seat."
+caption_w = 230
+shows = "Jesus standing on a raised stone tribunal, three believers in white robes standing before Him"
+burst = { on = "jesus", color = "gold" }
+props = [
+  { what = "bema", x = 0.72, s = 1.1 },
+]
+cast = [
+  { who = "robed", id = "b1", name = "a believer", x = 0.10, face = "right", pose = "fold", tone = 0, s = 0.8 },
+  { who = "robed", id = "b2", name = "a believer", x = 0.24, face = "right", pose = "stand", tone = 1, s = 0.8 },
+  { who = "robed", id = "b3", name = "a believer", x = 0.38, face = "right", pose = "fold", tone = 0, s = 0.8 },
+  { who = "jesus", x = 0.72, face = "left", pose = "open", dy = -0.172 },
+]
+say = [
+  { by = "paul", name = "Paul", from = [0.3, -0.1], style = "text", text = "For we must all appear before the *judgment seat of Christ*.", source = "esv", at = [0.30, 0.27], w = 180 },
+]
+
+[[panel]]
+ref = "1 Corinthians 3:13-14"
+scene = "plain"
+sky = "dusk"
+caption = "The fire tests each one’s work."
+caption_w = 200
+shows = "a building of gold, silver and precious stones standing whole in the fire on its stone foundation, its builder in a white robe holding up a gold wreath"
+props = [
+  { what = "refined", x = 0.28, s = 0.8 },
+]
+cast = [
+  { who = "robed", id = "builder1", name = "the builder", x = 0.82, face = "left", pose = "raise", holds = "crown", tone = 0, s = 0.85 },
+]
+say = [
+  { by = "paul", name = "Paul", from = [1.05, 0.3], style = "text", text = "If the work that anyone has built on the foundation survives, he will receive a *reward*.", source = "esv", at = [0.70, 0.10], w = 170 },
+]
+
+[[panel]]
+ref = "1 Corinthians 3:15"
+scene = "plain"
+sky = "dusk"
+caption = "Another builder’s work burns."
+caption_w = 170
+aside = "The work burns. The robe does not (Romans 8:1)."
+aside_w = 170
+shows = "a building of wood and straw burning on its stone foundation, its builder still in a white robe walking out of it with empty hands"
+props = [
+  { what = "burning", x = 0.28, s = 0.8 },
+]
+cast = [
+  { who = "robed", id = "builder2", name = "the builder", x = 0.84, face = "right", stance = "walk", pose = "run", tone = 1, s = 0.85 },
+]
+say = [
+  { by = "paul", name = "Paul", from = [1.05, 0.3], style = "text", text = "He will suffer loss, though he himself will be *saved*, but only as through fire.", source = "esv", at = [0.76, 0.03], w = 130 },
+]
+
+[[panel]]
+ref = "Revelation 4:10-11"
+scene = "vista"
+horizon = 0.62
+sky = "dawn"
+grade = "warm"
+caption = "Every crown goes back to the throne."
+caption_w = 260
+aside = "Drawn: four of the twenty-four elders. Revelation does not say who they are."
+aside_w = 300
+shows = "four elders in white robes kneeling before a throne of light, holding out gold wreaths, with three wreaths already laid before the throne"
+props = [
+  { what = "throne", x = 0.80, s = 1.0 },
+  { what = "crown", x = 0.62, x2 = 0.68, n = 3, s = 1.2 },
+]
+cast = [
+  { who = "robed", id = "elders", name = "every elder", n = 4, x = 0.18, x2 = 0.54, face = "right", stance = "kneel", pose = "offer", holds = "crown" },
+]
+say = [
+  { by = "elders", text = "Worthy are you, our Lord and God, to receive *glory and honor and power*.", source = "esv", at = [0.36, 0.40], w = 220 },
+]
+
+[[panel]]
+kind = "gap"
+text = "A thousand years"
+ref = "Revelation 20:5, 7"
+
+[[panel]]
+ref = "Revelation 20:11-15"
+scene = "vista"
+horizon = 0.56
+sky = "storm"
+caption = "Then a different judgment: the great white throne."
+caption_w = 260
+aside = "Here the question is whose name is in the book of life."
+aside_w = 300
+shows = "the dead, great and small, standing before a great white throne of light, with books lying open before it"
+props = [
+  { what = "throne", x = 0.82, s = 1.2 },
+  { what = "books", x = 0.60, x2 = 0.70, n = 3, s = 1.3 },
+]
+cast = [
+  { who = "man", id = "far", name = "the dead", n = 7, x = 0.06, x2 = 0.50, depth = 0.45, face = "right", pose = "fold" },
+  { who = "woman", id = "dead", name = "the dead", n = 4, x = 0.10, x2 = 0.46, face = "right", pose = "stand" },
+]
+say = [
+  { by = "john", name = "John", from = [0.5, -0.1], style = "text", text = "I saw the dead, great and small, standing before the throne, and *books were opened*.", source = "esv", at = [0.30, 0.34], w = 230 },
+  { by = "john", name = "John", from = [0.5, -0.1], style = "text", text = "If anyone’s name was not found written in the book of life, he was thrown into the lake of fire.", source = "esv", at = [0.62, 0.34], w = 200 },
+]

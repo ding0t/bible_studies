@@ -84,6 +84,10 @@ CAST = {
                     beard=True, coarse=True, belt="#2a2016"),
     "child": dict(name="a child", robes=["#c9b48a", "#8a9a6a", "#b98a7a"], mantle=None,
                   hair="short", beard=False, child=True),
+    # The robe "washed... white in the blood of the Lamb" (Revelation 7:14; Isaiah 61:10): brighter
+    # than the priest's linen and with no head cloth, so it reads as the gift and not an office.
+    "robed": dict(name="a believer in a white robe", robes=["#fdfbf5", "#f9f6ee"], edge="#a99f88",
+                  mantle="stole", mantle_fill="#f4ecd6", hair="short", beard=True),
 }
 
 # --- reserved figures ----------------------------------------------------------------------------
@@ -190,6 +194,13 @@ def _prop(kind, hand):
         return prop_load(-20, -58, 1.0) + f'<path d="M-10 -84 L{hx} {hy}" stroke="#5a3d22" stroke-width="2"/>'
     if kind == "yoke":
         return prop_yoke(hx + 4, hy + 6, 0.7)
+    if kind == "robe":
+        # A white robe held out folded over the hand, the gift before any work is weighed (Isaiah 61:10).
+        return (f'<path d="M{hx - 6} {hy - 4} H{hx + 22} L{hx + 26} {hy + 30} Q{hx + 10} {hy + 36} {hx - 4} {hy + 28} Z" '
+                f'fill="#fdfbf5" stroke="#a99f88" stroke-width="1"/>'
+                f'<path d="M{hx + 4} {hy} L{hx + 6} {hy + 30} M{hx + 14} {hy} L{hx + 17} {hy + 32}" stroke="#d8d0bc" stroke-width="1"/>')
+    if kind == "crown":
+        return prop_crown(hx + 6, hy + 2, 0.8)
     if kind == "lamp":
         return (f'<path d="M{hx - 8} {hy - 4} Q{hx} {hy + 4} {hx + 10} {hy - 4} Z" fill="#b5835a" stroke="#6b4a2a" stroke-width="0.8"/>'
                 f'<path d="M{hx + 9} {hy - 5} q2 -8 -1 -12 q-1 6 -3 8 z" fill="{GOLD}"/>')
@@ -675,6 +686,75 @@ def prop_burning(x, y, s):
     return "".join(out)
 
 
+def prop_refined(x, y, s):
+    """A building of gold, silver and precious stones standing in the fire on the same stone
+    foundation, whole when the flames have passed (1 Corinthians 3:12-14)."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           '<ellipse cx="0" cy="-70" rx="120" ry="100" fill="url(#comic-fire)"/>']
+    for k in range(6):
+        out.append(f'<rect x="{-72 + 24 * k}" y="-14" width="24" height="14" fill="{STONE}" stroke="{STONE_EDGE}" stroke-width="1"/>')
+    for row in range(4):
+        for k in range(5):
+            fill = ("#d9ad3c", "#c9ccd1")[(row + k) % 2]
+            out.append(f'<rect x="{-64 + 26 * k + (row % 2) * 4}" y="{-32 - 18 * row}" width="24" height="18" fill="{fill}" stroke="#7a6326" stroke-width="0.9"/>')
+    out.append('<path d="M-70 -86 L0 -128 L72 -86 Z" fill="#e3bc4c" stroke="#7a6326" stroke-width="1.2"/>'
+               '<circle cx="-36" cy="-56" r="5" fill="#2a7f9e" stroke="#174a5e"/><circle cx="20" cy="-74" r="5" fill="#9b2c5c" stroke="#5a1834"/>'
+               '<circle cx="0" cy="-106" r="6" fill="#2f8a5a" stroke="#1a4f33"/><circle cx="44" cy="-40" r="4.5" fill="#2a7f9e" stroke="#174a5e"/>'
+               '<path d="M-84 -14 Q-80 -40 -66 -30 Q-60 -52 -50 -14 Z M50 -14 Q58 -46 68 -30 Q78 -44 84 -14 Z" fill="#e8873a" opacity="0.9"/>'
+               '<path d="M-10 -138 l4 -10 l4 10 l-4 -4 z M30 -120 l3 -8 l3 8 l-3 -3 z M-46 -100 l3 -8 l3 8 l-3 -3 z" fill="#fff6d0"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+def prop_bema(x, y, s):
+    """A βῆμα: a raised stone tribunal with steps up its front, the seat a judge spoke from (2 Corinthians
+    5:10; Acts 18:12). Its top is 36 units up, so a figure standing on it takes dy = -0.156 * s."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           f'<rect x="-64" y="-36" width="128" height="36" fill="{WALL}" stroke="{WALL_EDGE}" stroke-width="1.4"/>',
+           f'<rect x="-70" y="-42" width="140" height="7" fill="#e6d8b6" stroke="{WALL_EDGE}" stroke-width="1.2"/>']
+    for k in range(3):
+        out.append(f'<rect x="{-26 + 4 * k}" y="{-12 * (k + 1)}" width="{52 - 8 * k}" height="12" fill="#cdbb94" stroke="{WALL_EDGE}" stroke-width="0.9" transform="translate(0 0)"/>')
+    out.append(f'<path d="M-56 -30 V-6 M56 -30 V-6" stroke="{WALL_EDGE}" stroke-width="1"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+def prop_throne(x, y, s):
+    """A throne in heaven with the one seated on it drawn as light (Revelation 4:2-3; 20:11): Revelation
+    gives His presence, from which earth and sky fled, and no form to draw."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<ellipse cx="0" cy="-96" rx="120" ry="110" fill="url(#comic-white)"/>'
+            '<rect x="-60" y="-18" width="120" height="18" fill="#f2efe8" stroke="#a9a090" stroke-width="1.2"/>'
+            '<rect x="-48" y="-36" width="96" height="18" fill="#f7f5f0" stroke="#a9a090" stroke-width="1.2"/>'
+            '<path d="M-40 -36 V-150 Q0 -176 40 -150 V-36 Z" fill="#fbfaf6" stroke="#a9a090" stroke-width="1.4"/>'
+            '<path d="M-52 -36 V-82 H-40 M52 -36 V-82 H40" fill="none" stroke="#a9a090" stroke-width="5" stroke-linecap="round"/>'
+            '<ellipse cx="0" cy="-84" rx="30" ry="46" fill="#ffffff" opacity="0.95"/>'
+            '<ellipse cx="0" cy="-84" rx="18" ry="30" fill="#fffbe6"/></g>')
+
+
+def prop_books(x, y, s):
+    """An opened book on the ground (Revelation 20:12: "books were opened")."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M0 -4 L-22 -10 L-22 -26 L0 -20 Z" fill="#f4ecd6" stroke="#6b4a2a" stroke-width="1"/>'
+            '<path d="M0 -4 L22 -10 L22 -26 L0 -20 Z" fill="#efe5cc" stroke="#6b4a2a" stroke-width="1"/>'
+            '<path d="M-18 -14 L-4 -10 M-18 -19 L-4 -15 M4 -10 L18 -14 M4 -15 L18 -19" stroke="#8d7650" stroke-width="0.8"/>'
+            '<path d="M-24 -8 L0 -2 L24 -8 L24 -4 L0 2 L-24 -4 Z" fill="#7a1f2b"/></g>')
+
+
+def prop_crown(x, y, s):
+    """A victor's wreath in gold, the στέφανος (1 Corinthians 9:25; Revelation 4:4, 10): a ring of
+    leaves stood on its edge, so it reads as a wreath at any size."""
+    out = [f'<g transform="translate({x:.1f} {y - 11 * s:.1f}) scale({s:.3f})">',
+           f'<circle r="9" fill="none" stroke="{GOLD_EDGE}" stroke-width="2.2"/>']
+    for k in range(14):
+        a = 2 * math.pi * k / 14
+        lx, ly = 9 * math.cos(a), 9 * math.sin(a)
+        out.append(f'<ellipse cx="{lx:.1f}" cy="{ly:.1f}" rx="3.6" ry="1.7" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="0.6" '
+                   f'transform="rotate({math.degrees(a) + 90 + (35 if k % 2 else -35):.0f} {lx:.1f} {ly:.1f})"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
 def prop_rooster(x, y, s):
     """A rooster standing, head up (Matthew 26:74)."""
     return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
@@ -879,7 +959,8 @@ def prop_spring(x, y, s):
 
 PROPS = {"sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
-         "hull": prop_hull, "loaf": prop_loaf}
+         "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne,
+         "books": prop_books, "crown": prop_crown}
 
 
 SCENES = {
@@ -1514,7 +1595,27 @@ def _inset(i, w, h, p, heads):
     return out, (ix + iw / 2, iy - 4, iw + 8, ih + 8)
 
 
+def draw_gap(box, p):
+    """A break in time between two rows: no frame, a dotted rule across the page and the span named
+    on a ribbon ("A thousand years", Revelation 20:5, 7), so the reader feels the distance between
+    two scenes the eye would otherwise read as adjacent."""
+    x, y, w, h = box
+    cy = y + h / 2
+    label = p["text"].upper()
+    bw = len(label) * 8.6 + 34
+    out = [f'<path d="M{x:.1f} {cy:.1f} H{x + w:.1f}" stroke="{INK}" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>']
+    out += banner(x + w / 2, cy - 13, bw, label, fill=p.get("fill", INK), size=12.5)
+    if p.get("ref"):
+        rw = len(p["ref"]) * 6.3 + 12
+        rx = x + w / 2 + bw / 2 + 18
+        out.append(f'<rect x="{rx:.1f}" y="{cy - 10:.1f}" width="{rw:.1f}" height="20" fill="{PAPER}"/>')
+        out.append(text(rx + 6, cy + 4.5, p["ref"], 12, "start", fill=MUTED, italic=True))
+    return out
+
+
 def draw_panel(i, box, p):
+    if p.get("kind") == "gap":
+        return draw_gap(box, p)
     if p.get("kind") == "tally":
         return draw_tally(i, box, p)
     x, y, w, h = box
@@ -1630,7 +1731,7 @@ def draw_panel(i, box, p):
     if flash:
         out.append(f'<rect x="4" y="4" width="{w - 8:.1f}" height="{h - 8}" rx="15" fill="none" stroke="{SEPIA}" stroke-width="1"/>')
     if not p.get("_no_number"):
-        out.append(text(12 if not p.get("caption") else w - 14, h - 11 if not p.get("caption") else 24, str(i + 1),
+        out.append(text(12 if not p.get("caption") else w - 14, h - 11 if not p.get("caption") else 24, str(p.get("_num", i + 1)),
                         12, "start" if not p.get("caption") else "end", "bold", fill=MUTED))
     out.append('</g>')
     return out
@@ -1638,16 +1739,21 @@ def draw_panel(i, box, p):
 
 def describe(comic):
     """The <desc>, and the alt text for the markdown embed: every panel, every word in it."""
-    parts = [f'A one-minute comic in {len(comic["panel"])} panels.']
+    parts = [f'A one-minute comic in {sum(p.get("kind") != "gap" for p in comic["panel"])} panels.']
+    num = 0
     if comic.get("headers"):
         hs = comic["headers"]
         names = ", ".join(hs[:-1]) + " and " + hs[-1] if len(hs) > 1 else hs[0]
         parts.append(f"{['', 'One column', 'Two columns', 'Three columns', 'Four columns'][len(hs)]} side by side: {names}, row for row.")
     for i, p in enumerate(comic["panel"]):
+        if p.get("kind") == "gap":
+            parts.append(f'Then a break in time: {p["text"]}' + (f' ({p["ref"]}).' if p.get("ref") else "."))
+            continue
+        num += 1
         names = {}
         for e in _expand_cast(p.get("cast", [])):
             names[e.get("id", e["who"])] = e.get("name", SPEAKER_NAMES[e["who"]])
-        bits = [f'Panel {i + 1}' + (f' ({p["ref"]})' if p.get("ref") else "") +
+        bits = [f'Panel {num}' + (f' ({p["ref"]})' if p.get("ref") else "") +
                 (", a flashback" if p.get("flashback") else "") + f': {p.get("shows", "")}'.rstrip(": ")]
         if p.get("caption"):
             bits.append(f'Caption: "{p["caption"]}"')
@@ -1680,6 +1786,8 @@ def describe(comic):
 
 DEFS = (f'<defs><radialGradient id="comic-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="{GLOW}" stop-opacity="0.9"/>'
         f'<stop offset="1" stop-color="{GLOW}" stop-opacity="0"/></radialGradient>'
+        '<radialGradient id="comic-white" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>'
+        '<stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>'
         '<radialGradient id="comic-fire" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6b04a" stop-opacity="0.75"/>'
         '<stop offset="1" stop-color="#f6b04a" stop-opacity="0"/></radialGradient></defs>')
 
@@ -1710,9 +1818,11 @@ def render(comic):
                       fill=SEPIA if label == headers[0] and comic.get("first_column_past") else INK, size=12)
     for (bx, by_, bw_, _), sub in zip(boxes, subheaders):
         out.append(text(bx + bw_ / 2, by_ - 6, sub, 11.5, "middle", fill=MUTED, italic=True))
+    num = 0
     for i, (box, p) in enumerate(zip(boxes, comic["panel"])):
+        num += p.get("kind") != "gap"
         # numbers = false: the columns or headers already give the reading order.
-        out += draw_panel(i, box, dict(p, _no_number=not comic.get("numbers", True)))
+        out += draw_panel(i, box, dict(p, _no_number=not comic.get("numbers", True), _num=num))
 
     y = bottom + 30
     if point_rows:
