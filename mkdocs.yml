@@ -81,6 +81,8 @@ plugins:
   # See docs/content/about/our-taxonomy.md and docs/dev/taxonomy-migration.md.
   - redirects:
       redirect_maps:
+        # How This Site Is Built moved from Resources to About on 2026-10-15: it explains the site, not a study aid.
+        'resources/site-architecture.md': 'about/site-architecture.md'
         # Test the Spirits became a study of recognising false teachers and moved beside Hurt by the Church on 2026-10-10.
         'spiritual-beings/test-the-spirits.md': 'christian-life/test-the-spirits.md'
         # commentary_index.py once read "Jude 12" as chapter 12 and generated pages for chapters Jude

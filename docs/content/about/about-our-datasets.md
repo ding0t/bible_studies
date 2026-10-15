@@ -5,7 +5,7 @@ description: "What Bible text, lexical, and commentary data backs this site, org
 tags: ["data", "sources", "licensing", "transparency"]
 draft: false
 date_created: 2026-07-27
-date_modified: 2026-10-09
+date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -215,7 +215,7 @@ can be checked again after any change to the data.
 Whatever the tier, one rule governs every study: a language or textual claim has to resolve to an
 actual row in one of these two databases, checked when the study is written. That is what
 "checkable" means on the [AI in These Studies](why-ai-assisted-study.md) page, and [How This Site Is
-Built](../resources/site-architecture.md) documents the tools for checking it yourself.
+Built](site-architecture.md) documents the tools for checking it yourself.
 
 ## See also
 
@@ -223,6 +223,6 @@ Built](../resources/site-architecture.md) documents the tools for checking it yo
   every English translation, Hebrew witness and Greek New Testament text, including which are
   queryable
 - [Copyright & Scripture Permissions](copyright.md): the publishers' own required notices
-- [How This Site Is Built](../resources/site-architecture.md): the build pipeline and query tools
+- [How This Site Is Built](site-architecture.md): the build pipeline and query tools
 - [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md): the
   full developer-facing catalogue, with exact query patterns for every source above

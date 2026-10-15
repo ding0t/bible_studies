@@ -152,7 +152,7 @@ The 2026-09-04 table, for the twelve fixed then:
 |---|---|---|
 | 3725 (15%) | 1178 (48%) | `about/about-our-datasets.md` |
 | 3265 (17%) | 276 (100%) | `last-things/olivet-discourse.md` |
-| 2084 (27%) | 558 (100%) | `resources/site-architecture.md` |
+| 2084 (27%) | 558 (100%) | `about/site-architecture.md` |
 | 1975 (29%) | 826 (68%) | `chronology/combined-timeline.md` |
 | 1910 (29%) | 518 (100%) | `last-things/prophecy-chart.md` |
 | 1638 (34%) | 269 (100%) | `israel-and-church/bride-of-christ.md` |

@@ -4,7 +4,7 @@ category: "other"
 description: "External sources, tools, and datasets this project draws on."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-10-10
+date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -73,14 +73,6 @@ External sources, tools, and datasets this project draws on.
     Sites, tools and channels I use alongside these studies: short expositional answers, free study tooling, free Bibles, and biblical archaeology on location.
 
     [:octicons-arrow-right-24: Read](recommended.md)
-
--   __How This Site Is Built__
-
-    ---
-
-    The tech behind this site: mkdocs with React tools bundled in, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys
-
-    [:octicons-arrow-right-24: Read](site-architecture.md)
 
 </div>
 <!-- section-index:auto-end -->

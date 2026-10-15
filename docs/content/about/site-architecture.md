@@ -1,11 +1,11 @@
 ---
 title: "How This Site Is Built"
-category: "resources"
+category: "other"
 description: "The tech behind this site: mkdocs with React tools bundled in, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys"
 tags: ["architecture", "mkdocs", "mermaid", "tech-stack"]
 draft: false
-date_created: 2026-07-19
-date_modified: 2026-10-02
+date_created: 2026-10-15
+date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -90,7 +90,7 @@ There's also an in-progress, not-yet-integrated piece: `references/build/twot/`,
 | `.claude/skills/develop-bible-study/` | The exegesis-then-hermeneutics writing process | [SKILL.md](https://github.com/ding0t/bible_studies/blob/main/.claude/skills/develop-bible-study/SKILL.md) |
 | `references/build/build.py` | Builds `bible-text.db` from open Bible-text/lexicon sources | [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) |
 | `references/build/query.py` | CLI for word/concordance/domain/verse lookups against `bible-text.db` | same |
-| `references/build/sefaria.py` | Fetches/caches Jewish literature (Mishnah, Talmud) from Sefaria | [jewish-sources.md](jewish-sources.md) |
+| `references/build/sefaria.py` | Fetches/caches Jewish literature (Mishnah, Talmud) from Sefaria | [jewish-sources.md](../resources/jewish-sources.md) |
 | `references/build/build_study_notes.py` | Builds `study-notes.db` from commercial study Bibles (external storage) | [references/README.md](https://github.com/ding0t/bible_studies/blob/main/references/README.md) |
 | `references/build/commentary_index.py` | Auto-links Bible commentary chapters to the studies that treat them | same |
 | `references/build/section_index.py` | Generates nav landing pages for every content section | same |

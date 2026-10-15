@@ -4,7 +4,7 @@ category: "other"
 description: "About this project and its statement of faith."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-09-04
+date_modified: 2026-10-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5
@@ -72,6 +72,14 @@ About this project and its statement of faith.
     A running list of the studies and pages on this site that have been newly published or most recently revised.
 
     [:octicons-arrow-right-24: Read](recent-updates.md)
+
+-   __How This Site Is Built__
+
+    ---
+
+    The tech behind this site: mkdocs with React tools bundled in, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys
+
+    [:octicons-arrow-right-24: Read](site-architecture.md)
 
 -   __Statement of Faith__
 
