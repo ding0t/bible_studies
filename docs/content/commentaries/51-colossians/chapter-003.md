@@ -16,6 +16,7 @@ draft: false
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 3:13
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 3:13
 - [In Humility](../../christian-life/humility.md) — 3:12
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 3:5
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 3:2
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:23-25
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 3:1-2

@@ -20,6 +20,7 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 4:15
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 4:16-17
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 4:13-18
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 4:3-8
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 4:17
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:16-18
 - [The End of the Age](../../last-things/end-of-the-age.md) — 4:17

@@ -4,7 +4,7 @@ category: "other"
 description: "Sin, temptation, and the pattern of redemption in Scripture."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-09-28
+date_modified: 2026-10-16
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -37,7 +37,7 @@ Sin, temptation, and the pattern of redemption in Scripture.
 
     ---
 
-    Biblical perspective on sexual immorality and purity
+    What Scripture calls sexual immorality and why it is sin: an exegetical study of 1 Corinthians 6:12-20, where Paul grounds purity in a body the Lord bought, indwells, joins to Himself and will raise.
 
     [:octicons-arrow-right-24: Read](sexual-immorality.md)
 

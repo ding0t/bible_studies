@@ -15,5 +15,6 @@ draft: false
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 15:32-39 (primary passage)
 - [Faith](../../salvation/faith.md) — 15:21-28
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 15:32
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 15:19
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 15:15-16
 <!-- commentary-index:auto-end -->

@@ -15,6 +15,7 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 10:16
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 10:20-21
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 10:18
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 10:13-14
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 10:13
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 10:16
 - [The End of the Age](../../last-things/end-of-the-age.md) — 10:11

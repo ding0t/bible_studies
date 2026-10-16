@@ -17,5 +17,6 @@ draft: false
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 15:14-16
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 15:10-11
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 15:5
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 15:20
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 15:37-39
 <!-- commentary-index:auto-end -->

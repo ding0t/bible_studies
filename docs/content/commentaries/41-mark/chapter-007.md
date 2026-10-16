@@ -17,4 +17,5 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 7:21-23
 - [Pride](../../sin/pride.md) — 7:21-23
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 7:3
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 7:21-23
 <!-- commentary-index:auto-end -->

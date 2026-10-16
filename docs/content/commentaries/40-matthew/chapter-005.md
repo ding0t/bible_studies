@@ -16,6 +16,7 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 5:18
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:17-18
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 5:20
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 5:27-28
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 5:14-16
 - [The Restrainer](../../last-things/the-restrainer.md) — 5:13-14
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 5:17-20

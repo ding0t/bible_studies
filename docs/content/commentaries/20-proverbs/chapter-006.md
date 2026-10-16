@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Pride](../../sin/pride.md) — 6:16-17
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 6:32
 <!-- commentary-index:auto-end -->

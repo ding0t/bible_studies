@@ -14,4 +14,5 @@ draft: false
 
 - [Fasting](../../christian-life/fasting.md) — 7:5
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 7:31
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 7:2-4
 <!-- commentary-index:auto-end -->

@@ -1,0 +1,100 @@
+slug: "sexual-immorality"
+title: "Sin and Sexual Immorality"
+status: review # drafted 2026-10-16; awaiting human review
+target_path: "docs/content/sin/sexual-immorality.md"
+
+primary_passage: "1 Corinthians 6:12-20"
+supporting_passages:
+  - "1 Corinthians 5:1"
+  - "1 Corinthians 6:9-11"
+  - "1 Corinthians 7:2-4"
+  - "Genesis 2:24"
+  - "Matthew 19:4-6"
+  - "Matthew 15:19"
+  - "Matthew 5:27-28"
+  - "Leviticus 18:24-25"
+  - "Acts 15:20"
+  - "1 Thessalonians 4:3-8"
+  - "Hebrews 13:4"
+  - "Ephesians 5:3"
+  - "Ephesians 5:31-32"
+  - "2 Corinthians 11:2"
+  - "Proverbs 6:32"
+  - "Genesis 39:9-12"
+  - "1 Corinthians 10:13"
+sibling_studies:
+  - {slug: "israel-and-church/bride-of-christ.md", role: cited, use: link, note: "Carries the bridal/betrothal theme (2 Corinthians 11:2; Ephesians 5:25-32) and 1 Corinthians 6:11, 20. Link it from the one-flesh/one-spirit section instead of re-arguing the bride."}
+  - {slug: "wisdom/reading-the-song-of-songs.md", role: cited, use: link, note: "Married love as God's gift (Genesis 2:22-24). One sentence and a link, so the study's affirmative ground is visible."}
+  - {slug: "sin/idolatry.md", role: prose, use: none, note: "A stub (backlog 0.x); Colossians 3:5 pairs the two. Do not lean on it."}
+  - {slug: "sin/pride.md", role: prose, use: none, note: "Same section; model for shape. Mark 7:21 list."}
+  - {slug: "salvation/saved-as-through-fire.md", role: cited, use: none, note: "Cites 1 Corinthians 6:9-11 for a different point."}
+genre: [epistle, topical]
+
+thesis: "Scripture calls every sexual union outside the one-flesh marriage of a man and a woman sexual immorality, and Paul gives the reason it is sin: your body belongs to the Lord who bought it and will raise it, and it is joined to Him, so flee immorality and glorify God in your body."
+outline:
+  - {section: "What Scripture calls sexual immorality", says: "πορνεία covers every sexual union outside marriage (1 Corinthians 5:1; Acts 15:20 with Leviticus 18; Matthew 15:19), the boundary Jesus draws from Genesis 2:24 (Matthew 19:4-6), reaching to the heart (Matthew 5:28; Hebrews 13:4)."}
+  - {section: "Corinth's slogans", says: "Some believers used prostitutes on the slogans 'All things are lawful' and 'Food is meant for the stomach'; Paul quotes and answers them (1 Corinthians 6:12-13)."}
+  - {section: "The body is for the Lord", says: "God will raise the body as He raised Jesus, so what you do with it matters to Him (1 Corinthians 6:13-14)."}
+  - {section: "Joined to Christ", says: "Paul uses Genesis 2:24's verb for both unions: one body with a prostitute, one spirit with the Lord (1 Corinthians 6:15-17); marriage pictures Christ and the church (Ephesians 5:31-32; 2 Corinthians 11:2), so immorality tells a lie about that union. The 'bride' step is marked as the study's reading."}
+  - {section: "A sin against your own body", says: "1 Corinthians 6:18, with the textual fork marked: 'other' is not in the Greek, so 'every sin... is outside the body' may be a Corinthian slogan Paul refutes. Either way Paul says sexual sin is against one's own body (Proverbs 6:32)."}
+  - {section: "A temple bought with a price", says: "The body is the Spirit's ναός, and you are not your own: you were bought; so glorify God in your body (1 Corinthians 6:19-20)."}
+  - {section: "Flee, and you were washed", says: "The command is flight (Genesis 39:12; 1 Corinthians 10:13; 1 Thessalonians 4:3-8), and the ground under it is grace: 'such were some of you. But you were washed' (1 Corinthians 6:11; 1 John 1:9)."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Backlog 9.2 is the brief: what Scripture calls sexual sin; why it is sin; the impact on the individual (sin against one's own body); 'defiling the image of the bride of Christ?'. Existing page is a 28-word stub; rewrite in place at the same URL."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Paul from Ephesus, spring AD 53-55 (ESV Study Bible intro). Corinth a port city at the isthmus. ESVSB note on 6:12-20: some Corinthian believers were using prostitutes, treating bodily appetite as indifferent. Avoid the '1,000 temple prostitutes' claim (Strabo, about old Corinth before 146 BC) -- not needed and contested."
+    literary_context:
+      done: true
+      notes: "Chapters 5-7 are one block: incest tolerated (5:1), lawsuits (6:1-8), the vice list and 'such were some of you' (6:9-11), prostitutes (6:12-20), then marriage 'because of the temptation to sexual immorality' (7:2). Paul's slogans 'All things are lawful' recur at 10:23."
+    content_word_studies:
+      done: true
+      notes: "Counts are SBLGNT (macula-greek-sblgnt)."
+      terms:
+        - {word: "πορνεία", language: greek, transliteration: "porneia", strongs_id: "G4202", gloss: "sexual immorality", notes: "25 NT occurrences. Incest at 1 Corinthians 5:1; listed beside adultery (μοιχεία) in Matthew 15:19 and Mark 7:21, so the wider term. In LXX Hosea it names Israel's idolatry (Hosea 1:2; 2:4; 4:11-12)."}
+        - {word: "πορνεύω", language: greek, transliteration: "porneuō", strongs_id: "G4203", gloss: "commit sexual immorality", notes: "8 NT occurrences; 1 Corinthians 6:18."}
+        - {word: "πόρνη", language: greek, transliteration: "pornē", strongs_id: "G4204", gloss: "prostitute", notes: "12 NT occurrences; 1 Corinthians 6:15-16."}
+        - {word: "πόρνος", language: greek, transliteration: "pornos", strongs_id: "G4205", gloss: "sexually immoral person", notes: "10 NT occurrences; 1 Corinthians 6:9; Hebrews 13:4."}
+        - {word: "κολλάω", language: greek, transliteration: "kollaō", strongs_id: "G2853", gloss: "join, cling", notes: "12 NT occurrences. Matthew 19:5's quotation of Genesis 2:24 and 1 Corinthians 6:16-17 (both unions). The echo is the hinge of 6:15-17."}
+        - {word: "ναός", language: greek, transliteration: "naos", strongs_id: "G3485", gloss: "temple, sanctuary", notes: "LSB footnote on 1 Corinthians 6:19: 'The inner part of the temple'."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Acts 15:20: the ESV Study Bible holds the πορνεία requirement apart from the three food rules -- not contextual. Its ground in 1 Corinthians 6 is creation (Genesis 2:24) and redemption (bought, raised, indwelt), none tied to Corinth."
+    theological_principle:
+      done: true
+      notes: "See thesis. God made the body, bought it, lives in it and will raise it; the one-flesh union belongs inside marriage, which pictures Christ and His people."
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "1 Corinthians 6:18 / 10:14", relation: "'Flee' twice: immorality and idolatry"}
+      - {ref: "1 Corinthians 10:7-8; Numbers 25:1-2", relation: "Idolatry and immorality together in Israel's history"}
+    translations_compared: ["ESV", "CSB", "LSB", "NLT"]
+    divergences_noted: "1 Corinthians 6:18: CSB footnote 'Lit Every sin' -- 'other' is supplied. NIV/NKJV Cultural Backgrounds notes: some attribute the line to the interlocutor. 6:20: CSB footnote, later manuscripts add 'and in your spirit, which belong to God'."
+  drafting:
+    done: true
+    file: "docs/content/sin/sexual-immorality.md"
+    notes: "Rewritten in place over the published stub, so draft: false (a draft flag would 404 sin/index.md and backlog.md links). Added from verification: Hebrew dābaq (H1692) in Genesis 2:24 and Deuteronomy 10:20; LXX Genesis 2:24 has proskollao, LXX Deuteronomy 10:20 kollao. 1 Corinthians 6:18 'other' is added by ESV, CSB, NASB, LSB and NIV; NKJV omits it."
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "Fork candidate: homosexual practice (1 Corinthians 6:9's two terms; Romans 1:24-27) -- a study of its own, named once here inside the πορνεία range."
+  - "Fork candidate: divorce and the 'exception clause' (Matthew 5:32; 19:9) -- πορνεία occurs there but the question is divorce, not this study's."
+  - "Fork candidate: Hosea and Revelation's harlot as idolatry -- name the LXX link in one sentence only."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Intro to 1 Corinthians (date, place); notes on 6:12-13, 6:12-20, 6:14, 6:15, 6:16-18, 6:19, 6:20; Acts 15:19-21 (πορνεία not contextual). Confirmed the reading; contributed the 'flee' link to 10:14."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "1 Corinthians 6:18 (sexual sin involves the union of two bodies); Acts 15:20 (Leviticus 17-18 parallels)."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "1 Corinthians 6:18: moralists urged flight from vice; 'other' absent in Greek, line possibly the interlocutor's. Contributed the fork."}
+  - {type: other, title: "CSB Ancient Faith Study Bible / LSB footnotes", author: "", note: "6:18 'Lit Every sin'; 6:19 ναός 'inner part of the temple'; 6:20 variant."}
+last_updated: "2026-10-16"
