@@ -138,7 +138,7 @@ Scripture does not.
 - **`holds`** on a cast entry puts a prop in the near hand: `staff`, `scroll`, `stone`, `spear`,
   `jar`, `gift`, `loaf`, `lamp`, `yoke`, `robe` (a white robe held out, folded over the hand),
   `crown` (a gold victor's wreath, the στέφανος), `palm` (a palm branch, Revelation 7:9), `shofar`
-  (a ram's-horn trumpet, Ezekiel 33:3), and `load`, which goes on the back with the hand on its
+  (a ram's-horn trumpet, Ezekiel 33:3), `cup` (the golden cup, Revelation 17:4), and `load`, which goes on the back with the hand on its
   strap, for the heavy-laden (Matthew 11:28). Poses include `run` and `offer` (an arm held out
   with something in the hand).
 - **`point`** is the closing line under THE POINT ribbon: the study's sentence, landed on the
@@ -200,6 +200,7 @@ clones:
 | `witness` | Sackcloth (coarse, dark goat's hair), for a prophet in mourning dress (Revelation 11:3) |
 | `child` | Smaller, bare-headed |
 | `bride` | Bright white linen and a white veil: the Bride as Revelation pictures God's people (19:7-8). Say in the caption that it is John's picture |
+| `harlot` | Royal purple, a scarlet veil and a gold girdle, "arrayed in purple and scarlet, and adorned with gold" (Revelation 17:4); `holds = "cup"` for the golden cup. Babylon as John pictures her, a city (17:18): say so in the caption or `note`, and do not draw the beast or name the city |
 | `robed` | A white robe and pale stole, no head cloth: one clothed in the robe "made white in the blood of the Lamb" (Revelation 7:14). Brighter than the priest's linen, so it reads as a gift and not an office |
 
 - **Faces stay blank, everyone's.** drawn-graphics.md rules out drawing the face of Jesus; a cast

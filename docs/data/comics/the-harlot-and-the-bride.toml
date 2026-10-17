@@ -1,0 +1,158 @@
+# One-minute comic for docs/content/last-things/the-harlot-and-the-bride.md.
+# Drawn by: python3 utils/build_comics.py the-harlot-and-the-bride
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-17.
+#
+# A comparison in the echo shape: the harlot down the left, the Bride down the right, one beat per row.
+# Row 1, the invitation: one of the seven bowl angels says to John, "Come, I will show you" both
+# times. SBLGNT Revelation 17:1 and 21:9 share "Καὶ ἦλθεν εἷς ἐκ τῶν ἑπτὰ ἀγγέλων τῶν ἐχόντων τὰς
+# ἑπτὰ φιάλας ... καὶ ἐλάλησεν μετʼ ἐμοῦ λέγων· Δεῦρο, δείξω σοι" (checked 2026-10-17), which the
+# word thread names. The angel is a voice with no figure; John is the reserved `john`.
+# Row 2, her dress: purple, scarlet, gold and the golden cup (17:4) against linen "granted her"
+# (19:8). The harlot is drawn seated because John sees her "sitting" (17:3) and she says "I sit as a
+# queen" (18:7); the scarlet beast she sits on is not drawn, and the note says so. She is a city
+# pictured as a woman (17:18), and the comic names no city: the study marks the identification as
+# contested.
+# Row 3, her end: an empty, ruined street at night under 18:23's "no more", with no figure, since
+# 17:16's devouring is left to the words. The Bride's end is the marriage supper (19:9). Jesus is
+# drawn as the Lamb whose marriage it is (19:7), the identification Revelation itself makes (5:6-9).
+# Row 4, the call: "Come out of her, my people" (18:4), a voice from heaven to people walking out;
+# the Bride's "Come" (22:17) to one who is thirsty, beside the spring of the water of life.
+
+title = "The Harlot and the Bride"
+subtitle = "Two women, two invitations, two ends"
+layout = [[280, 1, 1], [46, 1], [300, 1, 1], [300, 1, 1], [300, 1, 1]]
+headers = ["The harlot", "The Bride"]
+note = "Both women are John’s pictures: the harlot a city (Revelation 17:18), the Bride God’s people. The beast she sits on is not drawn."
+point = "Two women call, and Scripture has already written how each one ends. Come out of Babylon, and answer the Bride’s “Come” (Revelation 18:4; 22:17)."
+
+[[panel]]
+ref = "Revelation 17:1"
+scene = "plain"
+sky = "dusk"
+caption = "One of the seven angels to John."
+caption_w = 190
+shows = "John standing on a plain at dusk, looking up toward a voice from above"
+cast = [
+  { who = "john", x = 0.20, face = "right", pose = "look_up", tag = "John" },
+]
+say = [
+  { by = "angel", name = "the angel", from = [0.72, -0.2], style = "voice", text = "Come, I will show you the judgment of the *great prostitute*", source = "esv", at = [0.68, 0.40], w = 150 },
+]
+
+[[panel]]
+ref = "Revelation 21:9"
+scene = "vista"
+horizon = 0.66
+sky = "dawn"
+caption = "The same angel’s words, again."
+caption_w = 190
+shows = "John standing at dawn, looking up toward a voice from above"
+cast = [
+  { who = "john", x = 0.20, face = "right", pose = "look_up" },
+]
+say = [
+  { by = "angel", name = "the angel", from = [0.72, -0.2], style = "voice", text = "Come, I will show you the *Bride*, the wife of the Lamb.", source = "esv", at = [0.68, 0.40], w = 150 },
+]
+
+[[panel]]
+kind = "thread"
+text = "Δεῦρο, δείξω σοι, “Come, I will show you”: the same words for both women"
+at = [0.25, 0.75]
+
+[[panel]]
+ref = "Revelation 17:3-4"
+scene = "plain"
+sky = "dusk"
+caption = "In a wilderness: purple, scarlet and gold."
+caption_w = 200
+shows = "the harlot seated, in purple and a scarlet veil with a gold girdle, holding up a golden cup"
+cast = [
+  { who = "harlot", x = 0.22, face = "right", stance = "sit", pose = "raise", holds = "cup" },
+]
+say = [
+  { by = "john", name = "John", from = [1.05, 0.2], style = "text", text = "holding in her hand a *golden cup* full of abominations", source = "esv", at = [0.70, 0.40], w = 140 },
+]
+
+[[panel]]
+ref = "Revelation 19:7-8"
+scene = "vista"
+horizon = 0.66
+sky = "dawn"
+grade = "warm"
+caption = "The Bride, made ready."
+caption_w = 170
+shows = "the Bride standing in bright white linen, arms raised"
+cast = [
+  { who = "bride", x = 0.24, face = "right", pose = "praise" },
+]
+say = [
+  { by = "john", name = "John", from = [1.05, 0.2], style = "text", text = "it was *granted her* to clothe herself with fine linen, bright and pure", source = "esv", at = [0.68, 0.40], w = 160 },
+]
+
+[[panel]]
+ref = "Revelation 18:23"
+scene = "street"
+sky = "night"
+grade = "dark"
+caption = "Her end: silence."
+caption_w = 150
+shows = "an empty street at night, a wall cracking and falling, no one in it"
+props = [
+  { what = "ruin", x = 0.26, s = 0.8 },
+]
+say = [
+  { by = "john", name = "John", from = [1.05, 0.2], style = "text", text = "the voice of bridegroom and bride will be heard in you *no more*", source = "esv", at = [0.70, 0.40], w = 150 },
+]
+
+[[panel]]
+ref = "Revelation 19:7-9"
+scene = "vista"
+horizon = 0.66
+sky = "dawn"
+grade = "warm"
+caption = "Her end: a wedding."
+caption_w = 160
+shows = "the risen Jesus in light beside the Bride in white, with three guests in white robes"
+cast = [
+  { who = "jesus", x = 0.14, face = "right", pose = "open", look = "radiant" },
+  { who = "bride", x = 0.34, face = "left", pose = "praise" },
+  { who = "robed", id = "guests", name = "the invited guests", n = 3, x = 0.62, x2 = 0.88, face = "left", pose = ["praise", "fold", "raise"], s = 0.85 },
+]
+say = [
+  { by = "angel", name = "the angel", from = [0.72, -0.2], style = "voice", text = "Blessed are those who are invited to the *marriage supper* of the Lamb.", source = "esv", at = [0.74, 0.12], w = 140 },
+]
+
+[[panel]]
+ref = "Revelation 18:4"
+scene = "street"
+sky = "dusk"
+caption = "A voice from heaven."
+caption_w = 160
+shows = "a man and a woman walking out of the city street, away from it"
+cast = [
+  { who = "woman", id = "w", name = "a woman", x = 0.14, face = "left", stance = "walk", tone = 1 },
+  { who = "man", id = "m", name = "a man", x = 0.28, face = "left", stance = "walk", tone = 3 },
+]
+say = [
+  { by = "heaven", name = "a voice from heaven", from = [0.72, -0.2], style = "voice", text = "*Come out of her*, my people, lest you take part in her sins", source = "esv", at = [0.68, 0.42], w = 150 },
+]
+
+[[panel]]
+ref = "Revelation 22:17"
+scene = "vista"
+horizon = 0.66
+sky = "day"
+caption = "The Bride calls."
+caption_w = 150
+shows = "the Bride beside a spring, arm held out to a man walking toward her"
+props = [
+  { what = "spring", x = 0.50, s = 0.6 },
+]
+cast = [
+  { who = "bride", x = 0.20, face = "right", pose = "open" },
+  { who = "man", id = "thirsty", name = "one who is thirsty", x = 0.86, face = "left", stance = "walk", tone = 0, s = 0.82 },
+]
+say = [
+  { by = "bride", text = "*Come.*", source = "esv", at = [0.22, 0.30], w = 70 },
+  { by = "john", name = "John", from = [1.05, 0.2], style = "text", text = "let the one who desires take the water of life without price", source = "esv", at = [0.72, 0.10], w = 150 },
+]

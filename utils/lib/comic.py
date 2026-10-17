@@ -89,6 +89,11 @@ CAST = {
     # The Bride of the Lamb as Revelation pictures her, in "fine linen, bright and pure" (19:8).
     "bride": dict(name="the Bride", robes=["#fffdf8"], edge="#b9ab8c", mantle="veil", mantle_fill="#fbf6ea",
                   beard=False),
+    # The harlot as John sees her, "arrayed in purple and scarlet, and adorned with gold" (Revelation
+    # 17:4): a city pictured as a woman (17:18), so captions say it is John's picture. A royal purple
+    # unlike Ezekiel's violet or Mary Magdalene's plum, a scarlet veil and a gold girdle.
+    "harlot": dict(name="the harlot", robes=["#4a1f5a"], edge="#2a1030", mantle="veil", mantle_fill="#a3202a",
+                   belt=GOLD, beard=False),
     "robed": dict(name="a believer in a white robe", robes=["#fdfbf5", "#f9f6ee"], edge="#a99f88",
                   mantle="stole", mantle_fill="#f4ecd6", hair="short", beard=True),
 }
@@ -246,6 +251,11 @@ def _prop(kind, hand):
         # A ram's-horn trumpet raised to the lips (Ezekiel 33:3).
         return (f'<path d="M{hx - 2} {hy} Q{hx - 6} {hy - 16} {hx - 14} {hy - 22} Q{hx + 4} {hy - 30} {hx + 14} {hy - 12} '
                 f'Q{hx + 8} {hy - 12} {hx + 4} {hy - 2} Z" fill="#d9c08a" stroke="#7a6326" stroke-width="1"/>')
+    if kind == "cup":
+        # The "golden cup" in the harlot's hand (Revelation 17:4; Jeremiah 51:7).
+        return (f'<path d="M{hx - 7} {hy - 18} H{hx + 9} Q{hx + 8} {hy - 6} {hx + 1} {hy - 4} Q{hx - 6} {hy - 6} {hx - 7} {hy - 18} Z" '
+                f'fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="0.9"/>'
+                f'<path d="M{hx + 1} {hy - 4} V{hy + 3} M{hx - 4} {hy + 3} H{hx + 6}" stroke="{GOLD_EDGE}" stroke-width="1.6"/>')
     if kind == "lamp":
         return (f'<path d="M{hx - 8} {hy - 4} Q{hx} {hy + 4} {hx + 10} {hy - 4} Z" fill="#b5835a" stroke="#6b4a2a" stroke-width="0.8"/>'
                 f'<path d="M{hx + 9} {hy - 5} q2 -8 -1 -12 q-1 6 -3 8 z" fill="{GOLD}"/>')
