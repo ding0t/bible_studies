@@ -8,7 +8,8 @@ primary_passage: "Exodus 3:14-15"
 bible_references: ["Exodus 3:14-15", "Psalm 22:1", "Genesis 1:1", "Genesis 15:2", "Genesis 17:1", "Genesis 14:19", "Genesis 16:13", "Genesis 22:14", "Exodus 15:26", "Exodus 17:15", "Judges 6:24", "Isaiah 6:3", "Joshua 3:10", "Isaiah 7:14", "Isaiah 9:6", "Jeremiah 23:6", "Psalm 24:8", "Psalm 34:8", "Nehemiah 8:17", "Matthew 1:21"]
 date_created: 2026-10-17
 date_modified: 2026-10-17
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Names of God: word cards

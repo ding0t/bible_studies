@@ -4,7 +4,7 @@ category: "other"
 description: "Learn to read the Hebrew Bible for free with Aleph with Beth: how the course works, the video playlist, the learning schedule, the printed transcripts and grammar, and other helps."
 tags: ["lang/hebrew", "learning", "courses"]
 draft: false
-date_created: 2026-10-17
+date_created: 2025-04-24
 date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5

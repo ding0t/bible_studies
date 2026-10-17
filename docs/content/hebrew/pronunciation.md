@@ -8,7 +8,8 @@ primary_passage: "Exodus 3:15"
 bible_references: ["Exodus 3:15", "Isaiah 45:23", "Philippians 2:9-11"]
 date_created: 2026-10-17
 date_modified: 2026-10-17
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # How Hebrew is pronounced
