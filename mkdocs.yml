@@ -57,6 +57,8 @@ hooks:
   - hooks/memory_verses.py
   # Replaces <!-- hebrew-cards: <deck> --> with printable A4 word cards. See hooks/hebrew_cards.py.
   - hooks/hebrew_cards.py
+  # Replaces <!-- hebrew-writing --> with A4 handwriting sheets. See hooks/hebrew_writing.py.
+  - hooks/hebrew_writing.py
   # Replaces <!-- subject-wheel --> with the home page's wheel of studies per section.
   - hooks/subject_wheel.py
   # A strip of the drawn plates each section's studies embed, on its landing page.

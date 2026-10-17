@@ -48,12 +48,16 @@ done:
     לַיהוָה (prefixed, so pointed differently) and was swapped for Isaiah 6:3; and TAHOT's
     paragraph marks had to be stripped before matching.
   - 2026-10-17 three unlinked third-party PDFs removed from assets/img/
+  - 2026-10-17 writing sheets (hooks/hebrew_writing.py): square, cursive (Gveret Levin, SIL OFL,
+    on Google Fonts -- checked to be genuine Israeli cursive with niqqud), Paleo-Hebrew, and the
+    names of God in all three. No stroke-order arrows: none drawn rather than guessed.
+  - 2026-10-17 Three Scripts page. Evidence: the DSS Text-Fabric data (restricted-data/dss,
+    tf/2.0, feature `script`=paleohebrew, mapped to scrolls through oslots) gives יהוה in
+    Paleo-Hebrew 286 of 4,843 times in 15 scrolls: 11Q5 164/165, 4Q57 82/83, 1QpHab 8/8,
+    11Q2 7/7 (book Lev). Sanhedrin 21b quoted from Sefaria's William Davidson edition (API v3).
+  - 2026-10-17 The Shema page, letter by letter, with the verbless-clause translation question
+    marked open (footnote alternatives from CSB/NLT/LSB) and 1 Corinthians 8:6.
 
 todo:
-  - A4 writing sheets -- square print, paleo-Hebrew (Noto Sans Phoenician), cursive (needs a
-    licensed cursive font; none chosen yet), with ruled guides and right-to-left rows
-  - "Three Scripts" page (paleo, square, cursive; Siloam inscription; 11Q5 writing the divine
-    name in paleo-Hebrew -- verify before citing)
   - Names of God study in /god/ via develop-bible-study
-  - "Read your first verse": the Shema letter by letter
   - later: on-screen spaced-review deck; he-IL speech buttons (never speaking the divine name)

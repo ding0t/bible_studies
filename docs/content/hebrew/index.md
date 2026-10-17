@@ -28,7 +28,12 @@ below builds on the one before, so take them in order.
 3. **[The Names of God: Word Cards](names-of-god-cards.md).** Twenty-one printable flashcards, in an
    order that adds a few letters at a time. Work through the deck and you will have met all 22
    letters, in the names God revealed Himself by.
-4. **[Aleph with Beth](aleph-with-beth.md).** The free video course this site recommends for going
+4. **[Three Scripts](three-scripts.md) and [Writing Sheets](writing-sheets.md).** The same letters in
+   Paleo-Hebrew, square script and modern cursive, where each comes from, and A4 sheets to practise
+   writing them, including the names of God in all three.
+5. **[Read Your First Verse: the Shema](the-shema.md).** Deuteronomy 6:4, six words, letter by
+   letter: the verse Jesus called the most important.
+6. **[Aleph with Beth](aleph-with-beth.md).** The free video course this site recommends for going
    on to read whole passages.
 
 Alongside these, the [Memory Verse Cards](../resources/memory-verses.md) print verses such as

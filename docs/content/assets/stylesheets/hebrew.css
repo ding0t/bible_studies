@@ -3,7 +3,7 @@
  * Paleo-Hebrew has no font of its own on most devices. Unicode encodes it as Phoenician
  * (U+10900-1091F), the same 22-letter alphabet Israel wrote before the exile, so the Phoenician
  * font draws it. */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Phoenician&family=Noto+Serif+Hebrew:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gveret+Levin&family=Noto+Sans+Phoenician&family=Noto+Serif+Hebrew:wght@400;600&display=swap");
 
 .he-big {
   font-family: "Noto Serif Hebrew", serif;
@@ -125,4 +125,131 @@
   text-transform: uppercase;
   letter-spacing: 0.12em;
   margin-right: calc(1 * var(--mm));
+}
+
+/* ---- Writing sheets (hooks/hebrew_writing.py) -------------------------------------------------
+ * Four guide lines per row, as on a child's exercise book: the ascender (lamed), the top line the
+ * letters hang from, the baseline, and the descender (qof and four of the final forms). */
+
+.hw-set { display: none; }
+.hw-deck:has(.hw-opt-square:checked) .hw-square,
+.hw-deck:has(.hw-opt-cursive:checked) .hw-cursive,
+.hw-deck:has(.hw-opt-paleo:checked) .hw-paleo,
+.hw-deck:has(.hw-opt-names:checked) .hw-names { display: block; }
+
+.hw-deck {
+  --hw-guide: #c9c4bb;
+  --hw-base: #8f8a81;
+  --hw-trace: #cfcac2;
+}
+.hw-square, .hw-names .hw-line:first-of-type { --hw-font: "Noto Serif Hebrew", serif; }
+.hw-cursive, .hw-line-cursive { --hw-font: "Gveret Levin", cursive; }
+.hw-paleo, .hw-line-paleo { --hw-font: "Noto Sans Phoenician", sans-serif; }
+
+.hw-rows {
+  position: absolute;
+  left: calc(10 * var(--mm));
+  top: calc(10 * var(--mm));
+  width: calc(190 * var(--mm));
+  height: calc(270 * var(--mm));
+  display: grid;
+  grid-template-rows: repeat(var(--rows), minmax(0, 1fr));
+}
+
+.hw-row {
+  display: grid;
+  grid-template-columns: calc(32 * var(--mm)) repeat(7, 1fr);
+  background:
+    linear-gradient(var(--hw-guide), var(--hw-guide)) 0 14% / 100% calc(0.2 * var(--mm)) no-repeat,
+    linear-gradient(var(--hw-base), var(--hw-base)) 0 32% / 100% calc(0.25 * var(--mm)) no-repeat,
+    linear-gradient(var(--hw-base), var(--hw-base)) 0 70% / 100% calc(0.4 * var(--mm)) no-repeat,
+    linear-gradient(var(--hw-guide), var(--hw-guide)) 0 88% / 100% calc(0.2 * var(--mm)) no-repeat;
+}
+
+.hw-cell {
+  position: relative;
+  border-left: calc(0.2 * var(--mm)) dotted var(--hw-guide);
+  font-family: var(--hw-font);
+  font-size: calc(var(--hw-size, 17) * var(--mm));
+  line-height: 1;
+  text-align: center;
+}
+.hw-cell:last-child { border-left: 0; }
+/* The glyph's baseline sits on the row's baseline (70 %): the em box is lifted by the font's
+   descent, which differs per script. */
+.hw-model, .hw-trace {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: calc(30% - var(--hw-descent, 0.27em));
+}
+.hw-square { --hw-size: 17; --hw-descent: 0.28em; }
+.hw-cursive { --hw-size: 15; --hw-descent: 0.22em; }
+.hw-paleo { --hw-size: 15; --hw-descent: 0em; }
+.hw-trace { color: var(--hw-trace); }
+.hw-model small {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: calc(1 * var(--mm));
+  font-family: system-ui, sans-serif;
+  font-size: calc(2 * var(--mm));
+  color: var(--mv-muted);
+}
+
+.hw-name {
+  display: grid;
+  grid-template-rows: calc(6 * var(--mm)) repeat(3, minmax(0, 1fr));
+  padding-bottom: calc(1.5 * var(--mm));
+  overflow: hidden;
+}
+.hw-name header {
+  font-size: calc(3 * var(--mm));
+  border-bottom: calc(0.3 * var(--mm)) solid var(--mv-hebrew);
+  color: var(--mv-ink);
+}
+.hw-name header b { color: var(--mv-hebrew); margin-right: calc(1.5 * var(--mm)); }
+.hw-name cite {
+  float: right;
+  font-style: normal;
+  font-family: system-ui, sans-serif;
+  font-size: calc(2.2 * var(--mm));
+  color: var(--mv-muted);
+}
+.hw-line {
+  display: grid;
+  grid-template-columns: calc(18 * var(--mm)) calc(56 * var(--mm)) 1fr;
+  align-items: end;
+  min-height: 0;
+  background: linear-gradient(var(--hw-base), var(--hw-base)) 0 78% / 100% calc(0.3 * var(--mm)) no-repeat;
+}
+.hw-script {
+  align-self: start;
+  margin-top: calc(1.5 * var(--mm));
+  font-family: system-ui, sans-serif;
+  font-size: calc(1.9 * var(--mm));
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--mv-muted);
+  direction: ltr;
+  text-align: right;
+  padding-left: calc(2 * var(--mm));
+}
+.hw-model-word {
+  font-family: var(--hw-font);
+  font-size: calc(7 * var(--mm));
+  line-height: 1;
+  padding-bottom: calc(22% - var(--hw-descent, 0.27em));
+  white-space: nowrap;
+}
+.hw-line:first-of-type { --hw-descent: 0.28em; }
+.hw-line-cursive { --hw-descent: 0.22em; }
+.hw-line-paleo { --hw-descent: 0.02em; }
+.hw-model-word { align-self: stretch; display: flex; align-items: flex-end; justify-content: flex-start; }
+.hw-copy { border-right: calc(0.2 * var(--mm)) dotted var(--hw-guide); align-self: stretch; }
+
+.he-cursive {
+  font-family: "Gveret Levin", cursive;
+  font-size: 1.7em;
+  line-height: 1.2;
 }

@@ -74,7 +74,8 @@ word is laid out in His people's alphabet from first letter to last.
   You need it to read a commentary, but read the words aloud with the Israeli sounds.
 - **Paleo-Hebrew** is the older script Israel wrote in before the exile: the same 22 letters in the
   shapes they shared with the Phoenicians. The square letters above were adopted from the Aramaic
-  script after the exile and are the ones every printed Hebrew Bible uses.
+  script after the exile and are the ones every printed Hebrew Bible uses. [Three
+  Scripts](three-scripts.md) tells how the change happened.
 
 ## The vowels
 
@@ -147,6 +148,8 @@ What Scripture actually *does* with these values — the acrostic poems, the one
   pronunciation, and how the name of God is read.
 - [The Names of God: Word Cards](names-of-god-cards.md): learn the letters through the names God
   gave Himself, printed as A4 flashcards.
+- [Three Scripts](three-scripts.md) and [Writing Sheets](writing-sheets.md): the letters in
+  Paleo-Hebrew, square script and cursive, with A4 sheets to practise writing them.
 - [Aleph with Beth](aleph-with-beth.md): the free video course this site recommends for learning to
   read the Hebrew Bible.
 - [Biblical Numerology](../scripture/numerology.md): how the letter values are used, and misused.
