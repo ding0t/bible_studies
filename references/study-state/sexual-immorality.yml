@@ -136,3 +136,6 @@ simplify_2026-10-17:
     - "6:18 closer: others wronged, 1 Thessalonians 4:6 and Malachi 2:14 for the spouse betrayed."
     - "Bride section kept (~180 words, backlog brief asks it) with Scripture not in bride-of-christ.md: Ephesians 5:3, Jeremiah 3:20, James 4:4."
     - "Discussion question 5 relabelled Be transformed. Bare references given book names."
+read_2026-10-17:
+  - "Structure only, no sentence changed (study_structure.py --verify-against HEAD clean). Six ### sub-headings added; Study outline unchanged (all ## anchors kept)."
+  - "Longest section 549 -> 348 words; over-400 sections 3 -> 0; median 206 -> 150; sections 18 -> 24."

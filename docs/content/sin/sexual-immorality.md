@@ -110,6 +110,8 @@ Mark 7:21). Adultery, μοιχεία (*moicheia*, moy-KAY-ah, G3430), is unfaith
 πορνεία is the wider term, and it takes in sex before marriage, sex for pay, and every union
 Leviticus 18 forbids.
 
+### The boundary Jesus draws from Genesis 2:24
+
 **Defined from creation.** When Jesus was asked about marriage, He went back past Moses to the
 beginning:
 
@@ -128,6 +130,8 @@ all, and let the marriage bed be undefiled, for God will judge the sexually immo
 Jesus also carried the boundary inward: "everyone who looks at a woman with lustful intent has
 already committed adultery with her in his heart" (Matthew 5:28, ESV). The sin begins where Matthew
 15:19 says every sin begins, in the heart.
+
+### Same-sex intercourse, divorce and idolatry
 
 Three questions sit inside this word and each needs its own study. Same-sex intercourse is named in
 Leviticus 18:22, and Paul's vice list includes "men who practice homosexuality" (1 Corinthians 6:9,
@@ -162,6 +166,8 @@ a prostitute?" (1 Corinthians 6:15, ESV). Here is the whole passage.
 > his own body. 19 Or do you not know that your body is a temple of the Holy Spirit within you, whom
 > you have from God? You are not your own, 20 for you were bought with a price. So glorify God in your
 > body.
+
+### Whose words are in quotation marks
 
 The ESV prints two lines in quotation marks. Greek has no quotation marks, so the punctuation is
 the translators' judgment. The ESV, CSB, NIV and NLT print the quotation marks; the NASB, LSB and
@@ -264,6 +270,8 @@ The Greek reads πᾶν ἁμάρτημα ὃ ἐὰν ποιήσῃ ἄνθρω
 person might commit is outside the body." The word "other" is supplied. The ESV, CSB, NASB, LSB and NIV all add
 it, and the CSB footnotes it "Lit *Every sin*"; the NKJV leaves it out. Two readings follow.
 
+### Paul's statement, or a third slogan
+
 **Paul's own statement.** Translators who add "other" take the line as Paul's, contrasting sexual
 sin with every other sin. Gluttony and drunkenness involve the body too, so on this reading Paul
 means that sexual sin is different in kind. The NIV Biblical Theology Study Bible notes that it
@@ -279,6 +287,8 @@ Study Bible mentions this possibility. It fits the passage's pattern of slogan a
 fits a church that thought the body did not matter. Against it: of the translations compared here
 only the WEB prints the line as a quotation (the ESV, CSB, NASB, LSB, NIV and NKJV do not), and it
 is longer and more qualified than the two slogans before it.
+
+### Where both readings land
 
 Both readings land in the same place, which is why the passage can be taught confidently while this
 line is held loosely. On either reading Paul says that the immoral person "sins against his own
@@ -328,6 +338,8 @@ and Israel's history had already joined them. Paul recalls the golden calf, when
 down to eat and drink and rose up to play," and the plains of Moab, where Israel's men went after
 the women of Moab and bowed to their gods: "We must not indulge in sexual immorality as some of them
 did" (1 Corinthians 10:7-8, ESV; Exodus 32:6; Numbers 25:1-2).
+
+### Joseph and the way of escape
 
 Fleeing is a strategy of distance. Joseph is the picture. Potiphar's wife "spoke to Joseph day
 after day," and his answer was to refuse "to lie beside her or to be with her" (Genesis 39:10,
