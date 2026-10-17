@@ -157,6 +157,10 @@ FIGURES = {
                    mantle_fill="#e6d6a8", hair="short", beard=True,
                    why="An official of the Babylonian and Persian courts (Daniel 2:48; 6:1-3): a saffron courtier's tunic and "
                        "a cream mantle, a fixed choice, kept brighter than Andrew's mustard. Scripture gives no detail of his dress."),
+    "magdalene": dict(name="Mary Magdalene", study="jesus/jesus-and-women.md", robes=["#8a3b5c"], mantle="veil",
+                      mantle_fill="#e7d3c4", beard=False,
+                      why="A woman of means from Magdala who provided for Jesus and the Twelve (Luke 8:2-3), so a dyed plum-rose robe "
+                          "and a pale veil, a fixed choice kept apart from the generic women's robes. Scripture gives no detail of her dress."),
 }
 CAST.update(FIGURES)
 
@@ -351,6 +355,11 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
         top.append(f'<path d="M13 -98 Q2 -112 -12 -98 Q-16 -86 -18 -70 L-8 -70 Q-4 -82 9 -92 Z" '
                    f'fill="{c["mantle_fill"]}" stroke="{edge}" stroke-width="0.9"/>'
                    f'<path d="M-11 -100 Q2 -108 13 -99" fill="none" stroke="{c["band"]}" stroke-width="3"/>')
+    elif m == "veil" and up:
+        # Kneeling or seated, the upper body is lowered by `up`; a full-length veil would hang below the floor.
+        b = -6 - up
+        top.append(f'<path d="M13 -98 Q2 -113 -12 -98 Q-18 -84 -19 {b} L-12 {b - 2} '
+                   f'Q-11 -60 -6 -74 Q2 -84 9 -92 Z" fill="{c["mantle_fill"]}" stroke="{edge}" stroke-width="0.9"/>')
     elif m == "veil":
         top.append(f'<path d="M13 -98 Q2 -113 -12 -98 Q-18 -80 -20 -40 Q-21 -16 -18 -6 L-12 -8 '
                    f'Q-12 -40 -6 -74 Q2 -84 9 -92 Z" fill="{c["mantle_fill"]}" stroke="{edge}" stroke-width="0.9"/>')

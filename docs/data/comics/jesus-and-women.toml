@@ -1,0 +1,105 @@
+# One-minute comic for docs/content/jesus/jesus-and-women.md.
+# Drawn by: python3 utils/build_comics.py jesus-and-women
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-16.
+#
+# The study in five beats, in the Gospels' own order: women travel with Jesus beside the Twelve
+# (Luke 8:1-3); Mary of Bethany takes the disciple's place at His feet and He defends it (Luke
+# 10:38-42); the women who followed Him from Galilee stay at the cross (Mark 15:40-41); the risen
+# Jesus sends Mary Magdalene to "my brothers" (John 20:17); she tells them, "I have seen the Lord"
+# (John 20:18). Mary Magdalene is reserved here (Luke 8:2 names her first among the women); the
+# other women are the generic cast. Luke 8:3 names no gifts, so none are drawn. Mary of Bethany is
+# drawn seated, as Luke 10:39 says (παρακαθεσθεῖσα). The aside on panel 5 is Luke 24:11, the
+# apostles' own response; every note in the comic is Scripture.
+
+title = "Jesus and Women"
+subtitle = "Disciples at His feet, witnesses of His rising"
+layout = [[300, 1], [380, 3, 2], [390, 1, 1]]
+note = "Luke 8:3 names no gifts, so none are drawn."
+point = "Jesus taught women as His disciples and sent them as the first witnesses of His resurrection. Sit at His feet, and go and tell what you have seen (Luke 10:42; John 20:17-18)."
+
+[[panel]]
+ref = "Luke 8:1-3"
+scene = "hills"
+sky = "day"
+caption = "Through the towns of Galilee, preaching the kingdom."
+caption_w = 300
+shows = "Jesus walks a hill road with two of the Twelve ahead of Him and three women following, Mary Magdalene among them"
+cast = [
+  { who = "woman", id = "women", name = "the other women", n = 2, x = 0.08, x2 = 0.2, face = "right", stance = "walk", tone = 1 },
+  { who = "magdalene", x = 0.32, face = "right", stance = "walk", tag = "Mary Magdalene" },
+  { who = "jesus", x = 0.55, face = "right", stance = "walk", pose = "open" },
+  { who = "disciple", id = "twelve", name = "two of the Twelve", n = 2, x = 0.74, x2 = 0.88, face = "right", stance = "walk" },
+]
+say = [
+  { by = "luke", name = "Luke", from = [0.5, -0.1], style = "text", text = "the twelve were with him, and also *some women*", source = "esv", at = [0.72, 0.30], w = 190 },
+]
+
+[[panel]]
+ref = "Luke 10:38-42"
+scene = "room"
+caption = "Bethany: Mary sits at His feet."
+caption_w = 220
+aside = "At a teacher’s feet: the disciple’s place (Acts 22:3)."
+aside_w = 230
+shows = "Jesus seated teaching, Mary seated on the floor at His feet listening, Martha standing behind pointing at her sister"
+cast = [
+  { who = "jesus", x = 0.14, face = "right", stance = "sit", pose = "open" },
+  { who = "woman", id = "mary", name = "Mary of Bethany", x = 0.36, face = "left", stance = "sit", pose = "fold", tone = 3 },
+  { who = "woman", id = "martha", name = "Martha", x = 0.82, face = "left", pose = "point", tone = 0 },
+]
+say = [
+  { by = "martha", text = "Lord, do you not care that my sister has left me to serve alone?", source = "esv", at = [0.80, 0.20], w = 140 },
+  { by = "jesus", text = "Mary has chosen the *good portion*, which will not be taken away from her.", source = "esv", at = [0.36, 0.62], w = 165 },
+]
+
+[[panel]]
+ref = "Mark 15:40-41"
+scene = "hills"
+sky = "dusk"
+caption = "At the cross, the women stayed."
+caption_w = 220
+shows = "three empty crosses on a rise at dusk; three women watch from a distance, Mary Magdalene among them"
+props = [
+  { what = "crosses", x = 0.76, s = 0.8 },
+]
+cast = [
+  { who = "magdalene", x = 0.16, face = "right", pose = "heart" },
+  { who = "woman", id = "watchers", name = "Mary the mother of James and Joses, and Salome", n = 2, x = 0.3, x2 = 0.44, face = "right", pose = ["fold", "heart"], tone = 2 },
+]
+say = [
+  { by = "mark", name = "Mark", from = [0.5, -0.1], style = "text", text = "When he was in Galilee, they *followed him* and ministered to him", source = "esv", at = [0.62, 0.30], w = 150 },
+]
+
+[[panel]]
+ref = "John 20:15-17"
+scene = "plain"
+sky = "dawn"
+grade = "warm"
+shows = "the open tomb behind; Mary Magdalene kneels before the risen Jesus, who stands in radiant light"
+burst = { on = "jesus", color = "gold" }
+props = [
+  { what = "tomb", x = 0.12, s = 0.8 },
+]
+cast = [
+  { who = "jesus", x = 0.27, face = "right", pose = "open", look = "radiant" },
+  { who = "magdalene", x = 0.91, face = "left", stance = "kneel", pose = "look_up" },
+]
+say = [
+  { by = "jesus", text = "go to *my brothers* and say to them, ‘I am ascending to my Father and your Father, to my God and your God.’", source = "esv", at = [0.55, 0.20], w = 170 },
+]
+
+[[panel]]
+ref = "John 20:18"
+scene = "room"
+caption = "She went and told them."
+caption_w = 200
+aside = "Luke 24:11: to the apostles “these words seemed … an idle tale.”"
+aside_w = 260
+shows = "Mary Magdalene stands in a room before three seated disciples, her arm raised as she tells them"
+cast = [
+  { who = "magdalene", x = 0.24, face = "right", pose = "raise" },
+  { who = "disciple", id = "disciples", name = "the disciples", n = 3, x = 0.6, x2 = 0.88, face = "left", stance = "sit", pose = ["fold", "open", "fold"] },
+]
+say = [
+  { by = "magdalene", text = "*I have seen the Lord*", source = "esv", at = [0.4, 0.48], w = 110 },
+]

@@ -7,9 +7,10 @@ draft: false
 primary_passage: "1 Corinthians 6:12-20"
 bible_references: ["Genesis 2:24", "Genesis 39:9-12", "Leviticus 18:24-26", "Deuteronomy 10:20", "Proverbs 6:32", "Matthew 5:27-28", "Matthew 15:19", "Matthew 19:4-6", "Mark 7:21-23", "Acts 15:20", "1 Corinthians 3:16", "1 Corinthians 5:1", "1 Corinthians 6:9-11", "1 Corinthians 7:2-4", "1 Corinthians 7:23", "1 Corinthians 10:13-14", "1 Corinthians 10:23", "2 Corinthians 11:2", "Ephesians 5:3", "Ephesians 5:31-32", "Colossians 3:5", "1 Thessalonians 4:3-8", "Hebrews 4:15-16", "Hebrews 13:4", "1 John 1:9"]
 date_created: 2026-01-11
-date_modified: 2026-10-16
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 

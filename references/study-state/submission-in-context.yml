@@ -1,0 +1,56 @@
+slug: "submission-in-context"
+title: "Submission in Context"
+status: review # drafted 2026-10-16 as draft: true; awaiting human review
+target_path: "docs/content/christian-life/submission-in-context.md"
+companion: "references/study-state/jesus-and-women.yml (research and decisions recorded there)"
+primary_passage: "Ephesians 5:21-33"
+genre: [epistle, topical]
+thesis: "Every New Testament call to wives to submit sits inside a call to mutual submission and a husband's Christ-like self-giving, so no text licenses control, coercion or abuse; husband and wife hold authority over each other's bodies equally, and where a text's reach is contested the study gives both cases."
+word_budget: 4100 # raised 2026-10-17 by the author: the pastoral section and both readings of the contested texts carry the length
+outline:
+  - {section: "How these verses get used", says: "The test this study applies: each verse read in its paragraph, its audience and its reason."}
+  - {section: "Genesis 3:16: a consequence", says: "'He shall rule over you' is spoken after the fall, beside thorns and pain; tᵉšûqâ pairs with Genesis 4:7. The curse describes what sin does; redemption works against it."}
+  - {section: "Ephesians 5:21-33: one verb for everyone", says: "5:22 has no verb of its own and borrows 'submitting to one another' (5:21); the husband's charge is the cross (5:25-29); headship defined by Christ who gave Himself. Compare the Bride of Christ."}
+  - {section: "1 Corinthians 7:3-5: neither body is your own", says: "ἐξουσιάζει in both directions with ὁμοίως; 'by agreement'. Gives each spouse to the other; licenses neither to take."}
+  - {section: "1 Peter 3:1-7 and Colossians 3:18-19", says: "A believing wife with an unbelieving husband; 'do not fear anything that is frightening' (3:6); co-heirs, prayers hindered (3:7); 'do not be harsh' (Colossians 3:19)."}
+  - {section: "The contested texts", says: "1 Corinthians 14:34-35 beside 11:5; 1 Timothy 2:11-15 (αὐθεντέω once in the NT). Both cases, no ruling (author's decision 2026-10-16)."}
+  - {section: "Where submission ends: pastoral guidance", says: "Acts 5:29; abuse named as sin (Colossians 3:19; Malachi 2:14; 1 Peter 3:7); safety and the civil authorities first (Romans 13:3-4); church discipline (1 Corinthians 5:11); separation (1 Corinthians 7:10-11). Plain guidance for a pastor and for a wife."}
+open_questions: []
+last_updated: "2026-10-16"
+drafting:
+  done: true
+  file: "docs/content/christian-life/submission-in-context.md"
+  notes: "Graphics: plate one-verb-for-everyone (utils/build_women_graphics.py). Found in verification: ἐξουσιάζω 4x (1 Cor 6:12; 7:4 twice; Luke 22:25); σύμφωνος, πτόησις, αὐθεντέω each once; 1 Peter 3:6 echoes LXX Proverbs 3:25 (πτόησιν); Ephesians 5:21 is the fourth participle of 5:18. Pastoral section names 000 and 1800RESPECT (Australia)."
+review_2026-10-16:
+  scope: "review-bible-study, all eight phases; draft stays draft: true"
+  verified: "Every ESV quotation re-queried in study-notes.db (26 passages); NA28 Greek of Eph 5:18-22, 1 Cor 7:4-5, 1 Pet 3:6-7, 1 Tim 2:2, 11-12; footnotes CSB Eph 5:22, LSB Eph 5:21, NLT Gen 3:16 / 1 Cor 14:35 / 1 Tim 2:12; counts G1850 x4, G4859 x1, G4423 x1, G831 x1, G1625 (Eph 5:29; 6:4), G2282 (1 Thess 2:7; Eph 5:29), G4789 (incl. Rom 8:17), G2271/G2272 (1 Tim 2:2, 11-12); H8669 and H4910 in Gen 3:16 and 4:7; H2555 in Gen 6:11, Mal 2:16, Ps 11:5; LXX Prov 3:25 πτόησιν; KJV 1 Tim 2:12 'usurp authority'; study notes ESVSB/NIVBT/NIVCB on 1 Cor 14:34-35 and 1 Tim 2:11-12; ESVSB Gen 3:16."
+  fixed:
+    - "Eph 5:19-21 has FIVE participles (λαλοῦντες, ᾄδοντες, ψάλλοντες, εὐχαριστοῦντες, ὑποτασσόμενοι), not four. (The drafting note above saying 'fourth participle' is also wrong.)"
+    - "Gen 4:7 is fifteen verses after 3:16, not eleven: now 'in the next chapter'."
+    - "Gen 3:16 called 'a curse' and answered with Gal 3:13 (the curse of the law): the woman's sentence is not termed a curse. Reworded; Gal 3:13 replaced with 2 Cor 5:17; added the ESVSB pre-fall-order reading of Gen 3:16 for fairness."
+    - "1 Cor 14:34-35 recast as two labelled readings; corrected attribution of 'as the Law also says' (ESVSB/NIVBT: Gen 2; NIVCB: Torah depicts submission chiefly at the fall); added the 14:34-35 placement variant (NLT footnote)."
+    - "1 Pet 3:1 misquote 'that they may be won' -> 'they may be won'; Luke 24:11 'called' -> 'seemed to them'; Ps 11:5 quotation started at 'His soul' (capital looked like house style) -> full verse; ἐγκόπτω 'literally cut into, blocked on their way to God' (etymology) -> 1 Thess 2:18 usage; 1 Cor 7:4 'broken twice over' synthetic claim tightened; μανθανέτω given G3129."
+    - "bible_references: added Matthew 19:8-9, Luke 24:11, 1 Cor 7:15, 1 Cor 14:29-35, 2 Cor 5:17, 1 Thess 2:18, 1 John 1:9."
+  for_author:
+    - "Word count ~4,870 incl. references against a 4,000 budget; review fixes added ~150 words. Consider simplify-bible-study."
+    - "Eph 5:31-32 (quoting Gen 2:24) is inside the primary passage and never mentioned (review_gaps quotation gap)."
+    - "'Husbands' nine verses' (5:25-33) includes 5:30-32 on Christ and the church and 5:33b to the wife; prose and plate both carry it."
+    - "1 Tim 2:12 second reading's lexical case rests on KJV/NLT 'usurp'; the ESVSB explicitly argues against that sense. Author may want the second reading's own lexical argument or to drop the KJV point."
+    - "'weaker vessel describes her physical vulnerability' stated as settled; it is a common but not uncontested reading."
+    - "Mal 2:16 is a notoriously difficult text (CSB/NLT footnotes: 'he hates divorce'); the ESV rendering is used without noting this."
+    - "000 and 1800RESPECT (1800 737 732) look correct but could not be checked online; verify before publishing."
+    - "Links to jesus-and-women.md (draft): publish both in the same commit (validator Check 24)."
+revision_2026-10-17:
+  author_direction: "Drop the hotline (no external services named). Investigate 1 Timothy 2:12 and Malachi 2:16 / weaker vessel from the text. Discuss Ephesians 5:31-32. Keep secular positions out; do not overclaim. Simplify subagent to follow."
+  changed:
+    - "Thesis: no longer claims every submission text sits inside mutual submission (1 Peter 3, Colossians 3, Titus 2 do not); restated as addressed to the wife, as to the Lord, beside the husband's call to love and honour."
+    - "Ephesians 5:21 ἀλλήλοις marked contested: reciprocal in Ephesians 4:2, 25, 32 (G240, 4 uses in Ephesians) vs ESVSB 'according to the authority and order established by God' from 5:22-6:9. 5:24 'in everything' now quoted, limited by 'as to the Lord'. 'Paul gives the head no right of command' removed."
+    - "New subsection 'The mystery of one flesh' (Ephesians 5:31-33; Genesis 2:24; Matthew 19:8)."
+    - "1 Peter 3:7: Greek set out; comparative ἀσθενεστέρῳ implies both are vessels (σκεῦος, 2 Corinthians 4:7); two ὡς clauses (weakness -> live with according to knowledge; co-heirs -> honour), CSB/NASB/LSB vs ESV attachment; 1 Corinthians 12:22-23 same comparative -> greater honour; kind of weakness unspecified (ἀσθενής of body Matthew 26:41, of standing 1 Corinthians 1:27), study notes reported, mental/spiritual weakness excluded by co-heirship."
+    - "1 Corinthians 14: σιγάω 3x in 1 Corinthians, all 14:28, 30, 34 (G4601); ὑποτάσσω 14:32/14:34 supports reading 1; μαθεῖν 14:35 / μανθάνωσιν 14:31 supports reading 2. CBSB cultural claims removed."
+    - "1 Timothy 2: settled points listed (μανθανέτω command; ἡσυχία G2271 4x incl. Acts 22:2, 2 Thessalonians 3:12; αὐθεντέω G831 once in NT, verb absent from Brenton LXX by text search -- only the noun αὐθέντης Wisdom 12:6 and αὐθεντία 3 Maccabees 2:29; γάρ reasons). KJV/NLT 'usurp' no longer carries reading 2; reading 2 now rests on 1:3-7, 4:3 (forbid marriage) with 2:15, 5:13-15, 2 Timothy 3:6-7. Each reading's open question stated."
+    - "Malachi 2:16: translation fork shown (NASB/LSB 'I hate divorce' vs ESV/CSB/NIV husband as subject; LXX 'if, having hated, you send away'; 4Q76 has אם, 15 extant words). Explicitly not used as a text about physical abuse; removed from the divorce-grounds sentence."
+    - "Pastoral section: helplines and secular counselling claim removed. Fleeing danger grounded in 1 Samuel 19:12, Acts 9:25, Luke 4:30, Proverbs 22:3, 1 Corinthians 7:11. 'Believe her' (Luke 24:11 misapplied) replaced by Psalm 82:3, Proverbs 31:8 with Deuteronomy 19:15, 18, Matthew 18:16, Proverbs 18:17. Reconciliation: Luke 3:8."
+    - "Removed unsourced cultural claims ('in a world where...', 1 Peter 'husband's gods') and the σύμφωνος/symphony etymology."
+    - "Plate one-verb-for-everyone: wives card now includes 5:24."
+  open: "4,483 words against 4,000 (Check 23); over-target sections: The mystery of one flesh, 1 Peter 3:1-7, 1 Timothy 2:11-15. Run simplify-bible-study, then read-bible-study."

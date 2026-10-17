@@ -165,6 +165,7 @@ comic knows him in the next. Each is reserved once, in `FIGURES` in `utils/lib/c
 | `ezekiel` | Ezekiel | A priest's pale head cloth (Ezekiel 1:3) over a muted violet tunic, full beard | ezekiels-commission |
 | `moses` | Moses | Dusty blue tunic, pale head cloth, grey hair and full beard (eighty, Exodus 7:7); carries the staff (Exodus 4:2) | those-called-gods |
 | `daniel` | Daniel | Saffron courtier's tunic (Daniel 2:48), cream mantle | those-called-gods |
+| `magdalene` | Mary Magdalene | A plum-rose robe and a pale veil, a woman of means who provided for Jesus (Luke 8:2-3) | jesus-and-women |
 
 - **Reserve only a figure the text names.** The two witnesses are unnamed in Revelation 11 and
   contested in the study, so they are the generic `witness` (sackcloth), never a reserved Moses

@@ -1,0 +1,85 @@
+slug: "jesus-and-women"
+title: "Jesus and Women"
+status: review # drafted 2026-10-16 as draft: true; awaiting human review
+target_path: "docs/content/jesus/jesus-and-women.md"
+
+# Brief (author, 2026-10-16), over backlog 2.3's one line ("How Jesus treats women across the
+# Gospels, against the norms of his day"): Jesus' revolutionary attitude to women; women as His
+# followers and their significant roles; OT and NT women; compare with the Bride of Christ; the
+# statements misused to make women submit to men out of biblical context; 1 Corinthians 7:4 ("the
+# wife/husband does not have authority over their own body"); "a defensible scripture-based position
+# and fact for pastoral guidance".
+
+genre: [gospel, epistle, ot-narrative, topical]
+statement_of_faith: "Silent on women, marriage and church office (checked 2026-10-16). The 1 Timothy 2:12 question is the author's call."
+
+sibling_studies:
+  - {slug: "jesus/woman-at-well.md", role: primary, use: link, note: "John 4:27 the disciples marvel he talks with a woman; 4:39 her testimony."}
+  - {slug: "jesus/woman-with-the-issue-of-blood.md", role: primary, use: link, note: "Mark 5:34 'Daughter'."}
+  - {slug: "israel-and-church/bride-of-christ.md", role: cited, use: build-on, note: "Ephesians 5:25-32; Christ's headship as self-giving; link, do not re-argue the betrothal."}
+  - {slug: "israel-and-church/wife-of-the-lamb.md", role: cited, use: link, note: "Revelation 19:7-8."}
+  - {slug: "sin/sexual-immorality.md", role: cited, use: link, note: "1 Corinthians 7:2-4 mutuality; Matthew 19:4-6."}
+
+proposed_split:
+  recommendation: "Two linked studies. The brief holds two arguments: who Jesus showed women to be (Gospels, with OT and NT women around it), and how the submission texts read in context with pastoral guidance. Together they run past 8,000 words."
+  study_1: {path: "docs/content/jesus/jesus-and-women.md", primary_passage: "Luke 8:1-3", thesis: "Jesus treated women as disciples: He taught them, was followed and funded by them, defended them, and sent them as the first witnesses of His resurrection, because God made male and female alike in His image, and His bride is made of daughters and sons alike."}
+  study_2: {path: "docs/content/christian-life/submission-in-context.md", primary_passage: "Ephesians 5:21-33", thesis: "Every New Testament call to wives to submit sits inside mutual submission and a husband's Christ-like self-giving, so no text licenses control, coercion or abuse; husband and wife hold authority over each other's bodies equally (1 Corinthians 7:4), and where a text's reach is contested the study gives both cases."}
+
+research:
+  - {claim: "ʿēzer (H5828) occurs 21 times (WLC); Genesis 2:18, 20 of the woman; most others name God as Israel's help (Exodus 18:4; Deuteronomy 33:7, 26, 29; Psalm 33:20; 121:1-2; 124:8; 146:5; Hosea 13:9).", source: "bible_concordance H5828 macula-hebrew-wlc"}
+  - {claim: "Genesis 3:16 'he shall rule over you' (māšal) is spoken after the fall; tᵉšûqâ 'desire' pairs with Genesis 4:7. ESV 'contrary to'; NLT footnote gives 'though you will have desire for your husband'.", source: "interlinear; study_verse; footnotes"}
+  - {claim: "Ephesians 5:22 has no verb in NA28 (αἱ γυναῖκες τοῖς ἰδίοις ἀνδράσιν ὡς τῷ κυρίῳ); it borrows 'submitting' from 5:21 'submitting to one another'. CSB footnote: other mss omit 'submit'.", source: "study_verse na28; CSB footnote"}
+  - {claim: "1 Corinthians 7:4 ἐξουσιάζει in both directions with ὁμοίως; 7:5 'by agreement'.", source: "interlinear; ESV"}
+  - {claim: "Luke 8:3 'many others' and 'who' are feminine; women from Herod's household to the formerly demonised (ESVSB). Luke 10:39 'sat at the Lord's feet' = disciple's posture (Acts 22:3); women not taught in rabbinic schools (NIV/NKJV CBSB, citing m. Avot 1:4).", source: "study notes"}
+  - {claim: "Women's testimony of limited value in Jewish and Roman law (Josephus, Ant. 4.219; m. Yebamot 16:7; Justinian Inst. 2.10.6), yet women are first entrusted with the resurrection (Matthew 28:7, 10; John 20:17-18; Luke 24:10-11).", source: "NIV CBSB note on Matthew 28:7"}
+  - {claim: "Matthew 19:3 'for any cause' = the Hillelite position; usual Judean custom: only the husband could divorce (CBSB; m. Gittin 9:10).", source: "ESVSB, NIV CBSB notes on Matthew 19:3"}
+  - {claim: "Romans 16:1 Phoebe διάκονος (footnotes: deacon/deaconess/minister/courier), προστάτις 'patron'. 16:7 Junia a feminine Latin name; 'well known to / noteworthy among the apostles' is contested (ESVSB vs NIVBTSB, CSB footnote).", source: "footnotes; study notes"}
+  - {claim: "1 Corinthians 14:34-35 sits beside 11:5 (women pray and prophesy); ESVSB reads it as judging prophecies. αὐθεντέω (G831) occurs once in the NT, 1 Timothy 2:12.", source: "ESVSB note; bible_concordance G831"}
+  - {claim: "OT: Miriam sent with Moses and Aaron (Micah 6:4); Deborah judging Israel (Judges 4:4-5); Huldah consulted by the priest and the king's officials (2 Kings 22:14-15). NT: Anna (Luke 2:36-38); Philip's daughters (Acts 21:9); Priscilla teaching Apollos with Aquila (Acts 18:26); Euodia and Syntyche 'labored side by side with me' (Philippians 4:2-3); Acts 2:17-18.", source: "ESV verified"}
+
+decisions:
+  - "2026-10-16, author: two linked studies (study_2 has its own state file, submission-in-context.yml)."
+  - "2026-10-16, author: 1 Timothy 2:12 and 1 Corinthians 14:34-35 -- give both cases, no ruling. Pastoral guidance stands on what is settled."
+primary_passage: "Luke 8:1-3"
+thesis: "Jesus treated women as disciples: He taught them, was followed and funded by them, defended them, and sent them as the first witnesses of His resurrection, because God made male and female alike in His image, and the bride He gave Himself for is made of daughters and sons alike."
+word_budget: 4000
+outline:
+  - {section: "Made alike in His image", says: "Genesis 1:27-28 male and female bear the image and receive the commission together; ʿēzer (Genesis 2:18) is a word used mostly of God. Genesis 3:16's rule is a consequence of the fall (one paragraph; argued in study 2)."}
+  - {section: "Women God sent before Jesus came", says: "Miriam sent with Moses and Aaron (Micah 6:4); Deborah judging Israel (Judges 4:4-5); Huldah consulted by the priest (2 Kings 22:14); Anna (Luke 2:36-38)."}
+  - {section: "The world He walked into", says: "Women's testimony discounted (Josephus, Ant. 4.219); divorce 'for any cause' the husband's alone (m. Gittin 9:10); girls not schooled in Torah. Background, cited."}
+  - {section: "Followers and funders", says: "Luke 8:1-3: named women travel with Jesus and the Twelve and provide for them; Mark 15:40-41: they followed Him from Galilee and stayed at the cross."}
+  - {section: "A disciple at His feet", says: "Luke 10:38-42: Mary takes the disciple's place (Acts 22:3) and Jesus defends it as 'the good portion'."}
+  - {section: "He defended them", says: "Matthew 19:3-9 closes the 'any cause' door that left wives disposable; Matthew 5:28 lays lust at the man's door; Luke 13:16 'a daughter of Abraham'; Mark 5:34 'Daughter'; John 4:27; Mark 14:9."}
+  - {section: "First witnesses of the resurrection", says: "Matthew 28:7-10; John 20:17-18 'go to my brothers'; Luke 24:10-11 the apostles disbelieve them."}
+  - {section: "The church He built", says: "Acts 2:17-18; Priscilla (Acts 18:26), Phoebe (Romans 16:1-2), Junia (16:7, contested reading marked), Euodia and Syntyche (Philippians 4:2-3); Galatians 3:28; 1 Peter 3:7 co-heirs."}
+  - {section: "The bride He gave Himself for", says: "How Christ treats His bride (Ephesians 5:25-29; Revelation 19:7-8) matches how He treated women; link Bride of Christ and study 2."}
+last_updated: "2026-10-16"
+drafting:
+  done: true
+  file: "docs/content/jesus/jesus-and-women.md"
+  notes: "Graphics: comic docs/data/comics/jesus-and-women.toml (Mary Magdalene reserved as `magdalene`); plate the-serving-word (utils/build_women_graphics.py). Added in verification: John 20:18 ἀγγέλλουσα; Galatians 3:28 ἄρσεν καὶ θῆλυ = LXX Genesis 1:27; προστάτις once (Romans 16:2); Luke 10:40 διακονία/διακονεῖν; Mark 2:14 (not 1:17) for ἀκολουθέω."
+review_2026-10-16:
+  checked: "All 43 ESV quotations re-queried (study_verse, esv-study-bible) -- verbatim, references and labels correct. NA28 Greek for every quoted phrase; Brenton LXX Genesis 1:27. Counts: H5828 21x (WLC), 15-16 of the other 19 name God; G4368 once (Romans 16:2); G1625 Ephesians 5:29 and 6:4 only; G2282 Ephesians 5:29 and 1 Thessalonians 2:7 only; G4789 Romans 8:17 confirmed. Study notes behind every attribution; footnotes for Luke 8, Luke 2:37, Genesis 2:18, Luke 10:42. Mishnah fetched via sefaria.py (Kulp, CC-BY). Comic --verify all ok; plate quotes match ESV. review_gaps, strongs_suggest, cross_study_claims run."
+  fixed:
+    - "Avot 1:4 was cited for girls' education; CBSB cites it for the disciple's posture. Moved to Luke 10:39 paragraph with Kulp's wording."
+    - "Gittin 9:10 'spoiled a dish' was the ESVSB note's (unnamed) translation; replaced with Kulp 'merely burnt his dish', version named."
+    - "Yebamot 16:7 cited as restricting women's testimony; its halakha actually admits a woman's word for remarriage. Replaced with Shevuot 4:1 (Kulp)."
+    - "Anna 'eighty-four years old': Luke 2:37 also reads 'a widow for 84 years' (NLT, CSB footnotes); both now given."
+    - "Acts 2:17-18 now names Joel 2:28-29 (review_gaps quotation)."
+    - "Junia: 'ESV and NIV Biblical Theology Study Bibles' -> ESV Study Bible and NIV BTSB; 'apostles as messengers' attributed to both."
+    - "Sibling links added: wife-of-the-lamb.md, sexual-immorality.md (state file marked both 'link')."
+  left_for_author:
+    - "Heading 'Against blaming women for men's lust' (Matthew 5:28) supplies a foil the verse never names."
+    - "1 Peter 3:7 quoted without 'as the weaker vessel' in the same clause."
+    - "ἀγγέλλω -> ἄγγελος/εὐαγγέλιον word-family line edges toward root argument."
+    - "Over budget by raw count (5,143 words incl. comic alt text and references); validator Check 23 silent."
+    - "Links to submission-in-context.md (draft): publish both in the same commit."
+revision_2026-10-17:
+  author_direction: "Study on Scripture: do not overclaim links, keep secular/extra-biblical positions out of the argument; 'not blaming women for men's lust' heading is legitimate; check comics."
+  changed:
+    - "Opening and 'The world He walked into' rebuilt on the Gospels' own evidence (John 4:27, 4:9; Luke 7:39; Matthew 19:3, 7; Luke 24:11). Josephus and Gittin 9:10 kept as one labelled background paragraph; Avot 1:4, Shevuot 4:1 and the 'girls not schooled' claim removed."
+    - "Overclaimed links cut: 'Jesus came to undo the curse'; ʿēzer 'carries strength' / 'faces him as an equal'; ἀγγέλλω -> εὐαγγέλιον root line; 'the women were doing the work He came to do' (prose, plate and alt); 'courts discounted' / 1 Corinthians 1:27 apologetic; Galatians 3:28 'quotes' Genesis -> shares the LXX words, with 3:26, 29 giving the context (standing as sons and heirs)."
+    - "Martha's confession now compared title-for-title with Matthew 16:16 (verified)."
+    - "He defended them: Mark 10:11 'commits adultery against her' (μοιχᾶται ἐπ᾽ αὐτήν) and Matthew 19:10 added as the textual weight; Matthew 5:29 added under the lust heading; Luke 19:9 'son of Abraham' beside 'daughter of Abraham'."
+    - "1 Peter 3:7 now quoted with 'as the weaker vessel'; companion study reads it."
+    - "Comic: panel 5 aside Josephus -> Luke 24:11; caption 'The first witness' -> 'She went and told them'; panel 4 caption dropped to clear Mary Magdalene from the bubble; Mary of Bethany drawn seated (παρακαθεσθεῖσα); veil fixed for kneel/sit in utils/lib/comic.py. --verify all ok."
