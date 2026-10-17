@@ -76,9 +76,9 @@ In Jesus' name. Amen.
 ## Study outline
 
 1. **Two women** — [The angel's two invitations](#the-angels-two-invitations) · [A harlot, never a wife](#a-harlot-never-a-wife). How Revelation introduces both women, and what the harlot is to the beast.
-2. **The pattern before Revelation** — [Two women in Proverbs](#two-women-in-proverbs) · [Harlot cities](#harlot-cities) · [The wife who played the harlot](#the-wife-who-played-the-harlot). Proverbs, Jezebel, Nineveh, Tyre and Babylon, and Israel's unfaithfulness and restoration.
+2. **The pattern before Revelation** — [Two women in Proverbs](#two-women-in-proverbs) · [Jezebel and the harlot cities](#jezebel-and-the-harlot-cities) · [The wife who played the harlot](#the-wife-who-played-the-harlot). Proverbs, Jezebel, Nineveh, Tyre and Babylon, and Israel's unfaithfulness and restoration.
 3. **The harlot's pull on the bride** — [The serpent and the betrothed virgin](#the-serpent-and-the-betrothed-virgin). Satan's deception of the church, and Jezebel in Thyatira.
-4. **Two peoples** — [Two names on the forehead](#two-names-on-the-forehead) · [Come out of her](#come-out-of-her) · [The end of each woman](#the-end-of-each-woman). Who follows each woman, the call to leave Babylon, and the two endings.
+4. **Two peoples** — [Two names on the forehead](#two-names-on-the-forehead) · [Come out of her](#come-out-of-her) · [The end of each woman](#the-end-of-each-woman). Who follows each woman, the call to leave Babylon (with when she falls and who she is), and the two endings.
 5. [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## The angel's two invitations
@@ -148,7 +148,7 @@ and this study does not make Folly a figure for Babylon. What Proverbs gives is 
 pattern keeps: two women, two invitations in the same words, and two houses, one of life and one of
 death.
 
-## Harlot cities
+## Jezebel and the harlot cities
 
 Before Revelation, Scripture gives the harlot's name to a queen and to two cities: Jehu charges
 Jezebel with whorings, Nahum calls Nineveh a prostitute, and Isaiah calls Tyre one. The city that
@@ -168,12 +168,16 @@ carries the name in Revelation already bears the same marks in the prophets.
   on her "in one day," "in spite of your many sorceries" (Isaiah 47:9, ESV), and there the Septuagint
   has φαρμακεία, the word Revelation 18:23 uses.
 
+### Two marks: sorcery and commerce
+
 Two marks recur. The first is sorcery beside harlotry. The Septuagint of 2 Kings
 9:22 pairs Jezebel's πορνεῖαι, "whorings," with her φάρμακα, "sorceries," and the Septuagint of
 Nahum 3:4 pairs the same two words for Nineveh. Revelation gives Babylon both: she is the πόρνη, and
 "all nations were deceived by your sorcery," φαρμακείᾳ (*pharmakeia*, far-mah-KAY-ah, G5331;
 Revelation 18:23, ESV). The second is commerce: Tyre's trade with the kingdoms, and Babylon's
 merchants grown rich (Revelation 18:3).
+
+### Babylon's cup and boast, carried into Revelation
 
 Revelation also echoes the Old Testament's words about Babylon. The "golden cup" in the harlot's
 hand (Revelation 17:4) recalls Jeremiah's: the Septuagint reads ποτήριον χρυσοῦν (Jeremiah 28:7 in
@@ -252,6 +256,8 @@ exiles in the first Babylon, Jeremiah said, "Go out of the midst of her, my peop
 midst of her" (Isaiah 52:11, ESV). The Septuagint of Isaiah 52:11 reads ἐξέλθατε ἐκ μέσου αὐτῆς,
 "go out from the midst of her," and Revelation 18:4 has ἐξέλθατε ... ἐξ αὐτῆς, "come out of her."
 
+### When Babylon falls
+
 When Babylon falls is a question of the prophetic timeline. Revelation places it in the seventh
 bowl: "God remembered Babylon the great, to make her drain the cup of the wine of the fury of his
 wrath" (Revelation 16:19, ESV). This site reads the bowls as part of the coming tribulation and
@@ -261,6 +267,8 @@ those days. The call itself is already the church's. Paul quotes Isaiah 52:11 to
 "Therefore go out from their midst, and be separate from them, says the Lord, and touch no unclean
 thing; then I will welcome you, and I will be a father to you, and you shall be sons and daughters
 to me" (2 Corinthians 6:17-18, ESV).
+
+### Who Babylon is: a contested identification
 
 Who Babylon is in Revelation is contested. The angel calls her "the great city that has dominion
 over the kings of the earth" (Revelation 17:18) and places her on "seven mountains" (Revelation 17:9), which

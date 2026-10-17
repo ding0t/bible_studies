@@ -75,3 +75,22 @@ simplify_2026-10-17:
     Kept once: "Scripture never makes him her bridegroom" (the author's question) and the
     Ephesians 5:29 contrast. Review items: added Isaiah 47:9 (ESV "many sorceries"; LXX
     pharmakeia); cut the Revelation 9:21 table row; DQ5 relabelled "The text in its context".
+read_2026-10-17:
+  scope: "read-bible-study structure pass (stranger reader, separate session from the draft); no sentence changed"
+  changes:
+    - "Renamed '## Harlot cities' to '## Jezebel and the harlot cities' (the section opens with a queen; outline link updated)."
+    - "Split it with '### Two marks: sorcery and commerce' and '### Babylon''s cup and boast, carried into Revelation' (the golden-cup and widow echoes behind the Types & Prophecy takeaway now have a heading)."
+    - "Split '## Come out of her' with '### When Babylon falls' and '### Who Babylon is: a contested identification' (the contested reading had no heading)."
+    - "Study outline group 4 annotation extended (descriptive)."
+  sections: "18 -> 22"
+  median_section_words: "149 -> 122"
+  sections_over_400: "0 -> 0"
+  longest_section_words: "353 -> 289"
+  verify: "study_structure.py --verify-against HEAD: clean, removed [], added_allowed [], added_unexpected []"
+  validate: "npm run validate: no warnings for this file"
+  anchors: "all 10 Study outline anchors resolve (python-markdown toc render)"
+  findings_not_fixed_prose:
+    - "'## A harlot, never a wife' is a heading built on what she is not; an affirmative alternative would be e.g. 'The harlot''s lovers and the beast that carries her'. Left as the author's title."
+    - "'## The serpent and the betrothed virgin' also carries Jezebel in Thyatira and James 4:4; at 175 words it cannot split cleanly, because its closing paragraph ('Her voice reaches the bride now') sums up all three."
+    - "'## The end of each woman' (289) has natural halves, but 'The harlot''s end is silence.' / 'The Bride''s end is a wedding:' already act as headings, and the closing paragraphs compare both women."
+    - "Not re-verified: this pass checks no quotation, count or citation (review_2026-10-17 is the audit of record)."
