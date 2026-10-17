@@ -5,7 +5,7 @@ description: "What Scripture calls sexual immorality and why it is sin: an exege
 tags: ["sexual-immorality", "purity", "marriage", "sanctification", "doctrine", "1-corinthians", "genesis", "matthew", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "1 Corinthians 6:12-20"
-bible_references: ["Genesis 2:24", "Genesis 39:9-12", "Leviticus 18:24-26", "Deuteronomy 10:20", "Proverbs 6:32", "Matthew 5:27-28", "Matthew 15:19", "Matthew 19:4-6", "Mark 7:21-23", "Acts 15:20", "1 Corinthians 3:16", "1 Corinthians 5:1", "1 Corinthians 6:9-11", "1 Corinthians 7:2-4", "1 Corinthians 7:23", "1 Corinthians 10:13-14", "1 Corinthians 10:23", "2 Corinthians 11:2", "Ephesians 5:3", "Ephesians 5:31-32", "Colossians 3:5", "1 Thessalonians 4:3-8", "Hebrews 4:15-16", "Hebrews 13:4", "1 John 1:9"]
+bible_references: ["Genesis 2:24", "Genesis 39:9-12", "Exodus 32:6", "Leviticus 17:8-13", "Leviticus 18:24-26", "Numbers 25:1-2", "Deuteronomy 10:20", "Proverbs 6:32", "Matthew 5:27-28", "Matthew 15:19", "Matthew 19:4-6", "Mark 7:21-23", "Acts 15:20", "1 Corinthians 3:16", "1 Corinthians 5:1", "1 Corinthians 6:9-11", "1 Corinthians 7:2-4", "1 Corinthians 7:23", "1 Corinthians 10:13-14", "1 Corinthians 10:23", "2 Corinthians 11:2", "Ephesians 5:3", "Ephesians 5:31-32", "1 Thessalonians 4:3-8", "Hebrews 4:15-16", "Hebrews 13:4", "1 Peter 1:18-19", "1 John 1:9", "Revelation 5:9", "Deuteronomy 11:22", "Deuteronomy 30:20", "Joshua 23:8", "Jeremiah 3:20", "Malachi 2:14", "James 4:4", "2 Timothy 2:22"]
 date_created: 2026-01-11
 date_modified: 2026-10-17
 ai_provider_models:
@@ -33,8 +33,8 @@ body.
 
 - He drew the boundary of sexual life from creation itself: "What therefore God has joined
   together, let not man separate" (Matthew 19:6). Jesus took His answer from Genesis 2:24.
-- He bought the body with His own life (1 Corinthians 6:20), and the believer is "joined to the
-  Lord" (6:17) with the verb Jesus used for a husband joined to his wife (Matthew 19:5).
+- He bought the body with His own blood (1 Corinthians 6:20; Revelation 5:9), and the believer is
+  "joined to the Lord" (1 Corinthians 6:17) with the verb Jesus used for a husband joined to his wife (Matthew 19:5).
 - God raised Him bodily, and the same power will raise you (1 Corinthians 6:14). His resurrection
   is the reason your body has a future.
 
@@ -56,7 +56,7 @@ body.
 - **Think.** Your body is a person's dwelling place: the Holy Spirit's (1 Corinthians 6:19). What
   you do with it, you do in His house and with Him present.
 - **Attitude.** Hold your body as purchased property, cared for on behalf of its Owner. You were
-  bought with a price, and the price was Christ (6:20).
+  bought with a price, and the price was Christ's blood (1 Corinthians 6:20; 1 Peter 1:18-19).
 - **Do.** Name the place, the screen, the hour or the friendship where temptation reliably meets
   you, and decide now how you will leave it. Joseph's escape took one decision made in advance and
   a pair of legs (Genesis 39:12).
@@ -92,15 +92,17 @@ Leviticus 18:8 forbids exactly this union.
 **The Law of Leviticus 18.** When the council at Jerusalem asked what Gentile believers must keep,
 James named four things: "abstain from the things polluted by idols, and from sexual immorality,
 and from what has been strangled, and from blood" (Acts 15:20, ESV). The four correspond to laws
-Leviticus 17-18 lays on "the stranger who sojourns among you" as well as on Israel (Leviticus
-18:26, ESV), and the NIV Biblical Theology Study Bible notes the parallel. The sexual laws of
-Leviticus 18 are the list behind James's one word: incest, adultery, same-sex intercourse and
-bestiality (18:6-23). God's judgment on the land of Canaan was for these: "by all these the nations
+Leviticus 17-18 lays on the sojourner as well as on Israel: sacrifice (Leviticus 17:8-9), blood
+(Leviticus 17:10-12), an animal's blood poured out (Leviticus 17:13), and the sexual laws, kept by
+"the native or the stranger who sojourns among you" (Leviticus 18:26, ESV). James's next
+sentence names Moses, who "is read every Sabbath in the synagogues" (Acts 15:21, ESV). So the
+sexual laws of Leviticus 18 are likely, though not certainly, the list behind James's one word:
+incest, adultery, same-sex intercourse and bestiality (Leviticus 18:6-23). The other reading takes
+πορνεία in its general sense, the sexual sins common among pagans; the NIV Biblical Theology Study
+Bible offers both. God's judgment on the land of Canaan was for these: "by all these the nations
 I am driving out before you have become unclean, and the land became unclean, so that I punished
 its iniquity, and the land vomited out its inhabitants" (Leviticus 18:24-25, ESV). Those nations had
-no Sinai covenant, so the standard binds every people. The ESV Study Bible observes that the
-council's food rules answered a passing situation between Jewish and Gentile believers, while its
-ban on sexual immorality reflects God's lasting moral will.
+no Sinai covenant, so the standard binds every people.
 
 **Wider than adultery.** Jesus lists the two side by side: "out of the heart come evil thoughts,
 murder, adultery, sexual immorality, theft, false witness, slander" (Matthew 15:19, ESV; compare
@@ -131,21 +133,20 @@ Three questions sit inside this word and each needs its own study. Same-sex inte
 Leviticus 18:22, and Paul's vice list includes "men who practice homosexuality" (1 Corinthians 6:9,
 ESV). Divorce is a separate question, though πορνεία appears in Jesus' exception (Matthew 5:32;
 19:9). And the prophets use harlotry as a picture of idolatry: the Septuagint renders Hosea's
-charge against Israel with this same word (Hosea 1:2; 4:12), and Revelation uses it seven times, five of
-them of Babylon (Revelation 14:8; 17:2, 4; 18:3; 19:2). This study keeps to the sin of the body.
+charge against Israel with this same word (Hosea 1:2; 4:12), and Revelation does the same of
+Babylon (Revelation 17:2). This study keeps to the sin of the body.
 
 ## Two slogans from Corinth
 
-Paul wrote 1 Corinthians from Ephesus, probably in the spring of AD 53-55, to a church in a
-prosperous port city on the isthmus between mainland Greece and the Peloponnese. Chapters 5-7 are
-one block about bodies and sex: a man living with his stepmother (5:1), believers suing each other
-(6:1-8), a list of those who will not inherit the kingdom (6:9-11), men visiting prostitutes
-(6:12-20), and then marriage, "because of the temptation to sexual immorality" (7:2, ESV). Five of
+Paul wrote 1 Corinthians from Ephesus, before Pentecost (1 Corinthians 16:8). Chapters 5-7 are
+one block about bodies and sex: a man living with his stepmother (1 Corinthians 5:1), believers suing each other
+(1 Corinthians 6:1-8), a list of those who will not inherit the kingdom (1 Corinthians 6:9-11), men visiting prostitutes
+(1 Corinthians 6:12-20), and then marriage, "because of the temptation to sexual immorality" (1 Corinthians 7:2, ESV). Five of
 Paul's ten uses of πορνεία are in these three chapters.
 
 The ESV Study Bible reads 6:12-20 as a response to Corinthian believers who were using prostitutes,
 and Paul's argument requires it: "Shall I then take the members of Christ and make them members of
-a prostitute?" (6:15, ESV). Here is the whole passage.
+a prostitute?" (1 Corinthians 6:15, ESV). Here is the whole passage.
 
 > ✝️ 1 Corinthians 6:12-20 (ESV)
 >
@@ -163,33 +164,36 @@ a prostitute?" (6:15, ESV). Here is the whole passage.
 > body.
 
 The ESV prints two lines in quotation marks. Greek has no quotation marks, so the punctuation is
-the translators' judgment, and it is a judgment almost every modern translation shares: Paul is
-quoting the Corinthians and answering them. Two things show it. Each slogan is followed at once by
+the translators' judgment. The ESV, CSB, NIV and NLT print the quotation marks; the NASB, LSB and
+NKJV leave them out. The ESV's reading, followed here, is that Paul is quoting the Corinthians and
+answering them. Two things support it. Each slogan is followed at once by
 a correction ("but not all things are helpful"; "and God will destroy both"), and Paul quotes "All
-things are lawful" again at 10:23 with the same qualification.
+things are lawful" again at 1 Corinthians 10:23 with the same qualification. The translations
+that use quotation marks differ on where the second slogan ends: the NIV carries "and God will
+destroy them both" inside it, as the Corinthians' own words; the ESV, CSB and NLT give that clause
+to Paul.
 
 The first slogan sounds like Paul's own teaching on freedom from the Law. Paul agrees with the words
 and answers what was being done with them. Some things are unhelpful, and he says, "I will not be
-dominated by anything" (6:12). A freedom that ends in a habit you cannot leave has turned into its
+dominated by anything" (1 Corinthians 6:12). A freedom that ends in a habit you cannot leave has turned into its
 opposite.
 
 The second slogan is an argument by analogy. The stomach is made for food, and food for the
 stomach; both are passing things, so what you feed an appetite has no moral weight. The Corinthians
 applied it to sex: the body has a hunger, so meet it. Paul accepts the first half. Food and stomach
-both pass away, "God will destroy both one and the other" (6:13). Then he breaks the analogy at the
+both pass away, "God will destroy both one and the other" (1 Corinthians 6:13). Then he breaks the analogy at the
 point where it fails.
 
 ## The body is for the Lord
 
-"The body is not meant for sexual immorality, but for the Lord, and the Lord for the body" (6:13,
-ESV). Paul answers the slogan with the purpose God gave the body. Its purpose is the Lord, and the
-Lord has given Himself to it. The relation runs both ways.
+"The body is not meant for sexual immorality, but for the Lord, and the Lord for the body" (1 Corinthians 6:13,
+ESV). Paul answers the slogan with the purpose God gave the body. The relation runs both ways.
 
 Then comes the reason the body differs from the stomach: "God raised the Lord and will also raise
-us up by his power" (6:14, ESV). The stomach will be done away with; the body will be raised. Paul
+us up by his power" (1 Corinthians 6:14, ESV). The stomach will be done away with; the body will be raised. Paul
 gives a whole chapter to this later in the letter, where the body sown perishable is raised
-imperishable (1 Corinthians 15:42-44). The Corinthians had a low view of the body because they
-thought it had no future. Paul's answer is the empty tomb. What God means to raise, He cares about
+imperishable (1 Corinthians 15:42-44). Some in Corinth were saying "there is no resurrection of
+the dead" (1 Corinthians 15:12, ESV), and a body with no future is easy to hold cheap. Paul's answer is the empty tomb. What God means to raise, He cares about
 now.
 
 This shows that God values the human body. He made it, His Son took one, and He will raise it. Your
@@ -212,39 +216,38 @@ Genesis 2:24: the man "will be joined" (κολληθήσεται) to his wife (M
 Genesis has the compound προσκολλάω). Behind both stands the Hebrew <span dir="rtl">דָּבַק</span>
 (*dāḇaq*, dah-VAHK, H1692), "to cling, to hold fast."
 
-Moses uses the same Hebrew verb for Israel and its God: "You shall fear the LORD your God. You shall
-serve him and hold fast to him" (Deuteronomy 10:20, ESV). The Septuagint renders it with κολλάω.
-So the vocabulary was already shared before Paul. The word for a husband clinging to his wife was
-also the word for a people clinging to the LORD.
+Paul does not cite it, but the Old Testament already used this verb for Israel and its God: "You
+shall fear the LORD your God. You shall serve him and hold fast to him" (Deuteronomy 10:20, ESV;
+also Deuteronomy 11:22; 30:20; Joshua 23:8). The Septuagint renders Deuteronomy 10:20 with κολλάω.
+Scripture had one word for a husband clinging to his wife and for a people clinging to the LORD.
 
 Paul puts the two unions side by side. Joined to a prostitute, a man becomes "one body with her,"
 and Paul cites Genesis 2:24 to say so: "The two will become one flesh." Sex makes a union whether
 the two intend one or not. The Corinthian man thought he was feeding an appetite. God's word from
 creation says he joined himself to a woman. Joined to the Lord, the believer becomes "one spirit
-with him." The believer's body is a member of Christ (6:15), so the man who goes to a prostitute
-takes Christ's members with him. Paul answers that thought with his sharpest refusal, μὴ
-γένοιτο, "Never!"
+with him." The believer's body is a member of Christ (1 Corinthians 6:15), so the man who goes to a prostitute
+takes Christ's members with him. Paul answers that thought with μὴ γένοιτο, "Never!"
 
 This is the ground of the prohibition. Sexual immorality is sin because it joins to someone else a
 body that already belongs to Christ.
 
 ### The bride and the picture
 
-The backlog question for this study asked whether sexual sin defiles the image of the bride of
-Christ. Paul draws that line himself in two other letters. He quotes the same Genesis 2:24 at
-Ephesians 5:31 and then says, "This mystery is profound, and I am saying that it refers to Christ
-and the church" (Ephesians 5:32, ESV). To the Corinthians he writes, "I betrothed you to one
-husband, to present you as a pure virgin to Christ" (2 Corinthians 11:2, ESV). Marriage, by God's
-design, pictures Christ and His people.
+Does sexual sin defile the image of the bride of Christ? Paul draws the line between marriage and
+Christ himself. He quotes Genesis 2:24 at Ephesians 5:31 and says, "This mystery is profound, and I
+am saying that it refers to Christ and the church" (Ephesians 5:32, ESV). Earlier in the same
+chapter he writes, "sexual immorality and all impurity or covetousness must not even be named among
+you, as is proper among saints" (Ephesians 5:3, ESV). To the Corinthians he writes, "I betrothed
+you to one husband, to present you as a pure virgin to Christ" (2 Corinthians 11:2, ESV).
+Scripture also uses the picture in reverse, for unfaithfulness to God: "as a treacherous wife leaves
+her husband, so have you been treacherous to me" (Jeremiah 3:20, ESV); "You adulterous people!"
+(James 4:4, ESV).
 
-From there the conclusion is this study's reading, though it follows closely: since marriage is
-the picture of Christ's union with the church, a sexual union outside marriage tells a false story
-about that union. It enacts a joining with no covenant behind it, the kind of union Christ never
-makes. 1 Corinthians 6 itself argues from the believer's own union with Christ, one spirit with
-Him, and leaves the bridal picture to Ephesians. The two arguments agree, and the study [The Bride
-of Christ](../israel-and-church/bride-of-christ.md) lays out the betrothal in full.
+The conclusion is this study's reading, though it follows closely: a sexual union outside marriage
+tells a false story about Christ's union with the church, a joining with no covenant behind it. The
+study [The Bride of Christ](../israel-and-church/bride-of-christ.md) lays out the betrothal in full.
 
-What God joins, He joins for good. This shows that God binds Himself to His people by covenant and
+This shows that God binds Himself to His people by covenant and
 keeps it, and He made marriage to show the world what that faithfulness looks like.
 
 ## A sin against your own body
@@ -265,27 +268,25 @@ it, and the CSB footnotes it "Lit *Every sin*"; the NKJV leaves it out. Two read
 sin with every other sin. Gluttony and drunkenness involve the body too, so on this reading Paul
 means that sexual sin is different in kind. The NIV Biblical Theology Study Bible notes that it
 alone involves the union of two bodies, and the ESV Study Bible that it is a sin against Christ,
-whose member the body is, and against one's own body at once. Proverbs said as much of adultery:
-"he who does it destroys himself" (Proverbs 6:32, ESV), literally "destroys his <span
-dir="rtl">נֶפֶשׁ</span>" (*nep̄eš*, NEH-fesh, H5315), his life.
+whose member the body is, and against one's own body at once. Proverbs makes a related point about adultery:
+"he who does it destroys himself" (Proverbs 6:32, ESV).
 
 **A third slogan.** The line has the same shape as the other two. It is short, general and in the
-voice of a principle, and Paul answers it with "but." Read this way, "Every sin a person commits is
+voice of a principle, and Paul answers it with "but" (δέ). Read this way, "Every sin a person commits is
 outside the body" is the Corinthians' claim, that what the body does cannot touch the self. Paul
 replies, "but the sexually immoral person sins against his own body." The NIV Cultural Backgrounds
 Study Bible mentions this possibility. It fits the passage's pattern of slogan and answer, and it
-fits a church that thought the body did not matter. Against it: none of the translations compared here
-prints the line as a quotation, and it is longer and more qualified than the two slogans before
-it.
+fits a church that thought the body did not matter. Against it: of the translations compared here
+only the WEB prints the line as a quotation (the ESV, CSB, NASB, LSB, NIV and NKJV do not), and it
+is longer and more qualified than the two slogans before it.
 
 Both readings land in the same place, which is why the passage can be taught confidently while this
 line is held loosely. On either reading Paul says that the immoral person "sins against his own
 body," εἰς τὸ ἴδιον σῶμα. The sin is done to the body as well as with it. The body that was made
 for the Lord, that will be raised, that is joined to Christ, is the very thing being wronged.
 
-That answers the backlog's "impact on the individual." Sexual sin hurts other people, the
-spouse betrayed or the brother wronged (1 Thessalonians 4:6). It also harms the one who commits it,
-in a way Paul locates in the body itself.
+Sexual sin wrongs others too: Paul names the brother wronged (1 Thessalonians 4:6), and Malachi the
+spouse betrayed, "the wife of your youth, to whom you have been faithless" (Malachi 2:14, ESV).
 
 ## A temple bought with a price
 
@@ -301,14 +302,15 @@ picture to each believer's body. The word is ναός (*naos*, nah-OSS, G3485), 
 place where the Holy Spirit lives. Sexual sin is committed in His house.
 
 Then the reason in commercial language: "You are not your own, for you were bought with a price."
-ἠγοράσθητε is from ἀγοράζω (*agorazō*, ah-go-RAD-zoh, G59), to buy in the marketplace, the ἀγορά.
-Corinth had a slave market, and Paul's readers included slaves (7:21-23). A bought slave belonged to
-the master who paid for him. Paul names the price elsewhere in the letter, "Christ, our Passover
-lamb, has been sacrificed" (1 Corinthians 5:7, ESV), and repeats the purchase at 7:23: "You were bought
-with a price; do not become bondservants of men" (ESV). This is the doctrine of redemption, applied
-to the body.
+ἠγοράσθητε is from ἀγοράζω (*agorazō*, ah-go-RAD-zoh, G59), the ordinary verb for buying. Paul's
+readers included slaves (1 Corinthians 7:21-23), and a bought slave belonged to the master who paid
+for him. Paul repeats the purchase at 1 Corinthians 7:23: "You were bought with a price; do not
+become bondservants of men" (ESV). He does not name the price in either verse. Peter does: "you were
+ransomed ... not with perishable things such as silver or gold, but with the precious blood of
+Christ" (1 Peter 1:18-19, ESV), and the song of Revelation 5:9 uses Paul's verb, "by your blood you
+ransomed people for God" (ESV).
 
-So the conclusion: "glorify God in your body." Some later manuscripts add "and in your spirit,
+So the conclusion: "glorify God in your body." Other manuscripts add "and in your spirit,
 which belong to God" (CSB footnote). Modern editions print the shorter text, and it keeps the
 command on the body, the subject of the whole paragraph.
 
@@ -318,19 +320,20 @@ indwelling, and He means it to show His glory.
 ## Flee, and you were washed
 
 Paul's command is a single word: φεύγετε (*pheugete*, FYOO-geh-teh, G5343), "Flee." It is a
-present imperative, keep fleeing. He gives the same command once more in the letter: "Therefore,
-my beloved, flee from idolatry" (10:14, ESV). The ESV Study Bible draws the line between the two,
+present imperative, keep fleeing, and Paul gives the same command to Timothy as a way of life
+paired with a pursuit: "So flee youthful passions and pursue righteousness" (2 Timothy 2:22, ESV).
+Joseph refused Potiphar's wife "day after day" (Genesis 39:10, ESV). Paul gives the command once more
+in this letter: "Therefore, my beloved, flee from idolatry" (1 Corinthians 10:14, ESV). The ESV Study Bible draws the line between the two,
 and Israel's history had already joined them. Paul recalls the golden calf, when "the people sat
 down to eat and drink and rose up to play," and the plains of Moab, where Israel's men went after
 the women of Moab and bowed to their gods: "We must not indulge in sexual immorality as some of them
-did" (1 Corinthians 10:7-8, ESV; Numbers 25:1-2). Colossians names covetousness as idolatry in the same
-list as sexual immorality (Colossians 3:5).
+did" (1 Corinthians 10:7-8, ESV; Exodus 32:6; Numbers 25:1-2).
 
 Fleeing is a strategy of distance. Joseph is the picture. Potiphar's wife "spoke to Joseph day
 after day," and his answer was to refuse "to lie beside her or to be with her" (Genesis 39:10,
 ESV). When she caught his garment, "he left his garment in her hand and fled and got out of the
-house" (39:12, ESV). He had already settled why: "How then can I do this great wickedness and sin
-against God?" (39:9, ESV). Joseph named the sin as one against God before the moment came, and
+house" (Genesis 39:12, ESV). He had already settled why: "How then can I do this great wickedness and sin
+against God?" (Genesis 39:9, ESV). Joseph named the sin as one against God before the moment came, and
 when it came he ran.
 
 God promises an exit every time: "God is faithful, and he will not let you be tempted beyond your
@@ -342,8 +345,8 @@ Paul gave the Thessalonians the same instruction as God's will for them: "For th
 God, your sanctification: that you abstain from sexual immorality; that each one of you know how to
 control his own body in holiness and honor" (1 Thessalonians 4:3-4, ESV). He closes the paragraph
 with the Spirit: "whoever disregards this, disregards not man but God, who gives his Holy Spirit to
-you" (4:8, ESV). The same Spirit who lives in the temple of 1 Corinthians 6:19 gives the strength to
-keep it.
+you" (1 Thessalonians 4:8, ESV). The God who calls you to holiness gives you His Spirit, the Spirit
+who lives in the temple of 1 Corinthians 6:19.
 
 ### Such were some of you
 
@@ -355,9 +358,8 @@ not inherit the kingdom, headed by "the sexually immoral," he writes:
 > 11 And such were some of you. But you were washed, you were sanctified, you were justified in the
 > name of the Lord Jesus Christ and by the Spirit of our God.
 
-Some of the Corinthians had been exactly what the list names. Paul speaks of it in the past tense.
-Three verbs describe what God had done for them: washed, sanctified, justified, each complete, each
-done "in the name of the Lord Jesus Christ and by the Spirit of our God." The command to flee is
+Some of the Corinthians had been exactly what the list names. Three verbs describe what God had done for them: washed, sanctified, justified, each in the past
+tense, each done "in the name of the Lord Jesus Christ and by the Spirit of our God." The command to flee is
 addressed to people already washed. Purity in 6:12-20 is the life of the justified, and the call is
 to live as what God has already made you.
 
@@ -387,19 +389,19 @@ with His Spirit, so you may flee immorality and glorify God in your body.
 ## Discussion questions
 
 1. **The language.** Paul uses κολλάω, "joined," for a man with a prostitute (1 Corinthians 6:16)
-   and for a believer with the Lord (6:17), the verb Jesus uses for a husband with his wife
+   and for a believer with the Lord (1 Corinthians 6:17), the verb Jesus uses for a husband with his wife
    (Matthew 19:5). What does the one verb in three places say about what sex does?
 2. **The text in its context.** Chapters 5-7 move from incest, to lawsuits, to prostitutes, to
    marriage (1 Corinthians 7:2). Why might Paul place "such were some of you. But you were washed"
-   (6:11) immediately before the command to flee?
-3. **Christ.** "You were bought with a price" (6:20). How does knowing who paid, and what He paid,
+   (1 Corinthians 6:11) immediately before the command to flee?
+3. **Christ.** "You were bought with a price" (1 Corinthians 6:20). How does knowing who paid, and what He paid,
    change the way you think about your own body?
-4. **The hard part.** "Every other sin a person commits is outside the body" (6:18) may be Paul's
+4. **The hard part.** "Every other sin a person commits is outside the body" (1 Corinthians 6:18) may be Paul's
    statement or a Corinthian slogan he answers. What does each reading claim, and what does Paul
    say on both?
-5. **The text in its context.** The Corinthians said "Food is meant for the stomach" (6:13). What
+5. **Be transformed.** The Corinthians said "Food is meant for the stomach" (1 Corinthians 6:13). What
    slogans does our own culture use to say the body's choices carry no moral weight, and how does
-   the resurrection answer them (6:14)?
+   the resurrection answer them (1 Corinthians 6:14)?
 6. **Be transformed.** Joseph decided why he would refuse before the day she caught his garment
    (Genesis 39:9, 12). What is your way of escape (1 Corinthians 10:13), and what would it take to
    decide on it before you need it?

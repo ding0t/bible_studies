@@ -85,8 +85,9 @@ stages:
     file: "docs/content/sin/sexual-immorality.md"
     notes: "Rewritten in place over the published stub, so draft: false (a draft flag would 404 sin/index.md and backlog.md links). Added from verification: Hebrew dābaq (H1692) in Genesis 2:24 and Deuteronomy 10:20; LXX Genesis 2:24 has proskollao, LXX Deuteronomy 10:20 kollao. 1 Corinthians 6:18 'other' is added by ESV, CSB, NASB, LSB and NIV; NKJV omits it."
   review:
-    done: false
-    validated: false
+    done: true
+    validated: true
+    notes: "review-bible-study 2026-10-17; see review_2026-10-17. validate clean for this file; Check 23 count 3,754 of 4,000."
 
 open_questions:
   - "Fork candidate: homosexual practice (1 Corinthians 6:9's two terms; Romans 1:24-27) -- a study of its own, named once here inside the πορνεία range."
@@ -97,4 +98,41 @@ resources_consulted:
   - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "1 Corinthians 6:18 (sexual sin involves the union of two bodies); Acts 15:20 (Leviticus 17-18 parallels)."}
   - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "1 Corinthians 6:18: moralists urged flight from vice; 'other' absent in Greek, line possibly the interlocutor's. Contributed the fork."}
   - {type: other, title: "CSB Ancient Faith Study Bible / LSB footnotes", author: "", note: "6:18 'Lit Every sin'; 6:19 ναός 'inner part of the temple'; 6:20 variant."}
-last_updated: "2026-10-16"
+last_updated: "2026-10-17"
+
+review_2026-10-17:
+  scope: "Pre-publication review of the committed draft:false page (4364cf99, unpushed), plus the author's scripture-only / no-overclaim direction."
+  checked:
+    - "Every ESV quotation re-queried in esv-study-bible: every one verbatim, references correct."
+    - "Counts (macula-greek-sblgnt): πορνεία G4202 25; Paul 10, five in 1 Corinthians 5-7; Revelation 7, five of Babylon (14:8; 17:2, 4; 18:3; 19:2); κολλάω G2853 12; πορνεύω 8; πόρνη 12; πόρνος 10; φεύγω in 1 Corinthians only 6:18 and 10:14; ἀγοράζω at 1 Corinthians 6:20, 7:23."
+    - "Forms: κολλώμενος at 1 Corinthians 6:16 and 6:17; κολληθήσεται Matthew 19:5; 6:18 Greek has no 'other'; μὴ γένοιτο 6:15."
+    - "LXX (ebible-grcbrent): Genesis 2:24 προσκολληθήσεται; Deuteronomy 10:20 κολληθήσῃ; Hosea 1:2 and 4:12 πορνεία. Hebrew (macula-hebrew-wlc): דָּבַק H1692 at Genesis 2:24 and Deuteronomy 10:20; נֶפֶשׁ H5315 at Proverbs 6:32."
+    - "Footnotes: CSB 6:18 'Lit Every sin'; CSB 6:20 'Other mss add...'; LSB 6:19 ναός 'The inner part of the temple'. 6:18 'other': ESV, CSB, NASB 1995/2020, LSB, NIV add; NKJV omits."
+    - "Study notes: ESVSB 6:12-20, 6:12-13, 6:16-18, 10:14, Acts 15:19-21, intro (Ephesus, spring AD 53/54/55); NIVBT 6:18 and Acts 15:20; NIVCB 6:18. All attributions accurate."
+    - "Siblings via cross_study_claims '1 Corinthians 6': no contradictions; bride-of-christ uses 1 Peter 1:18-19 and Revelation 5:9 for the price. review_gaps: Mark 10:7 (Genesis 2:24 parallel) only quotation gap, not needed. Internal links resolve; none to drafts."
+  fixed:
+    - "Translations' slogan punctuation: 'almost every modern translation' was false -- NASB, LSB, NKJV print no quotation marks at 6:12-13. Now names who does and who does not; adds the NIV's longer extent of the second slogan ('and God will destroy them both' inside it)."
+    - "6:18 'none of the translations compared here prints the line as a quotation' -- the WEB (the pop-up text) does. Corrected."
+    - "Acts 15 / Leviticus 17-18 stated flatly as 'the list behind James's one word' and leaning on NIVBT; NIVBT itself offers OT-forbidden unions or general pagan sins. Now grounded in Leviticus 17:8-13, 18:26 and Acts 15:21, marked likely-not-certain, with the other reading."
+    - "Price of purchase: 1 Corinthians 5:7 presented as Paul 'naming the price' -- overclaim (5:7 says nothing of buying). Replaced with 1 Peter 1:18-19 and Revelation 5:9 (ἀγοράζω, G59). Key Takeaways and Be Transformed cites corrected the same way (6:20 alone does not name the price)."
+    - "Removed ἀγοράζω-from-ἀγορά etymology and the unsourced 'Corinth had a slave market'."
+    - "Low view of the body now rests on 1 Corinthians 15:12 instead of an uncited assertion; date grounded in 1 Corinthians 16:8."
+    - "CSB footnote says 'Other mss', not 'later manuscripts'. 'Proverbs said as much' narrowed to 'a related point'. 'each complete' -> 'each in the past tense'. 'sharpest refusal' grader adjective cut. Exodus 32:6 added for the golden calf. Two 'backlog' meta-references removed from reader-facing prose."
+    - "bible_references: added Exodus 32:6, Leviticus 17:8-13, Numbers 25:1-2, 1 Peter 1:18-19, Revelation 5:9."
+  left_for_author:
+    - "Discussion question 5 is labelled 'The text in its context.' but asks about modern cultural slogans -- arguably Be transformed; two questions share the context label and none is labelled Christ beyond Q3."
+    - "Bare chapter:verse references inside the body and discussion questions (e.g. '(6:13)') resolve correctly via primary_passage, but the house rule asks every reference to name its book."
+    - "Deuteronomy 10:20 paragraph: accurate as shared vocabulary; check it does not read as Paul drawing on Deuteronomy, which the text does not show."
+    - "'present imperative, keep fleeing' leans on verbal aspect; keep or soften."
+    - "'the spouse betrayed' was dropped from the 1 Thessalonians 4:6 sentence for want of a cited verse; restore with a verse (e.g. Proverbs 6:32-34) if wanted."
+    - "What Scripture calls sexual immorality is 587 words, near Check 21's 600 limit; a sub-heading would give room."
+  size: "3,754 words (Check 23 count) against budget 4,000; review fixes net +174."
+simplify_2026-10-17:
+  applied_by_author_approval:
+    - "Dropped ESVSB Acts 15 sentence (Leviticus 18:24-26 carries the point); Revelation porneia list -> Revelation 17:2; cut Corinth port/date background (16:8 kept); cut Colossians 3:5 aside, repeated redemption line, repeated past-tense line, 6:13 restatement, nephesh gloss."
+    - "Deuteronomy 10:20 paragraph kept and reworded: Paul does not cite it; dabaq of holding fast to the LORD verified at Deuteronomy 10:20; 11:22; 30:20; Joshua 23:8 (WLC)."
+    - "'Keep fleeing' kept (author), now also grounded in 2 Timothy 2:22 (φεῦγε, present imperative) and Genesis 39:10 'day after day'."
+    - "1 Thessalonians 4:8 closer rewritten to what the verse says (God gives His Spirit)."
+    - "6:18 closer: others wronged, 1 Thessalonians 4:6 and Malachi 2:14 for the spouse betrayed."
+    - "Bride section kept (~180 words, backlog brief asks it) with Scripture not in bride-of-christ.md: Ephesians 5:3, Jeremiah 3:20, James 4:4."
+    - "Discussion question 5 relabelled Be transformed. Bare references given book names."
