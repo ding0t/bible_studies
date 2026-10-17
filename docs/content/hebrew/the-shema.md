@@ -8,7 +8,8 @@ primary_passage: "Deuteronomy 6:4"
 bible_references: ["Deuteronomy 6:4-9", "Mark 12:29-30", "1 Corinthians 8:6", "Zechariah 14:9"]
 date_created: 2026-10-17
 date_modified: 2026-10-17
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Read your first verse: the Shema

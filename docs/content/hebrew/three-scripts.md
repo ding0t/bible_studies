@@ -8,7 +8,8 @@ primary_passage: "Matthew 5:18"
 bible_references: ["Matthew 5:17-18", "2 Kings 20:20", "2 Chronicles 32:30", "Exodus 3:15"]
 date_created: 2026-10-17
 date_modified: 2026-10-17
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Three scripts
