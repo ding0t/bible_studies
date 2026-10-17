@@ -16,6 +16,7 @@ draft: false
 - [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 2:17
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 2:36-38
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:30-36
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 2:17-18
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:34-36
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:20
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 2:42

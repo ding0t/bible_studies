@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 21:9-22:5"
 bible_references: ["Revelation 21:2", "Revelation 21:9-27", "Revelation 22:1-5", "Revelation 22:14-15", "Revelation 22:17", "Revelation 22:19", "Revelation 3:12", "Revelation 7:15", "Revelation 11:2", "Revelation 11:8", "Revelation 17:1-5", "Revelation 17:18", "Revelation 19:7-8", "Revelation 20:9", "Isaiah 66:22-23", "Psalm 86:9", "Revelation 15:4", "Revelation 5:9", "Daniel 7:14", "Genesis 22:18", "Ephesians 5:25-27", "Isaiah 54:5", "Zechariah 14:11", "Ezekiel 40:2-3", "Ezekiel 47:1-12", "Ezekiel 48:30-35", "Isaiah 52:1", "Isaiah 54:11-12", "Isaiah 60:3", "Isaiah 60:11", "Isaiah 60:19", "Genesis 12:3", "Matthew 23:37", "Exodus 25:9", "Hebrews 11:9", "2 Corinthians 11:2", "Zechariah 2:1-5", "Zechariah 14:8-11", "Genesis 2:9-10", "Genesis 3:17", "Genesis 3:22-24", "Exodus 28:17-21", "Exodus 28:29", "Exodus 33:20", "1 Kings 6:20", "Hebrews 9:7", "Hebrews 11:10", "Hebrews 11:16", "Hebrews 12:22-24", "Hebrews 13:14", "Galatians 4:25-26", "Philippians 3:20", "John 7:37-38", "John 14:2-3", "Ephesians 2:20", "Psalm 46:4"]
 date_created: 2026-09-28
-date_modified: 2026-09-28
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -229,7 +229,8 @@ Revelation's own pattern favours the third. John builds the two visions to match
 Babylon is a woman and a city at once. The *NIV Cultural Backgrounds Study Bible* observes that
 "Babylon in Revelation represents the people of Rome and not simply its location," and that "the
 new Jerusalem undoubtedly includes the people of God" (note on Revelation 21:2). The city is a place, and the
-people are why it has a bride's name.
+people are why it has a bride's name. The study [The Harlot and the Bride](the-harlot-and-the-bride.md)
+follows the harlot through Scripture, from Proverbs and the prophets to Babylon's fall.
 
 ### Who the bride is
 
@@ -452,5 +453,7 @@ they may enter the city by the gates" (Revelation 22:14, ESV).
   bride, and the one Husband with two covenanted peoples.
 - [The Bride of Christ](../israel-and-church/bride-of-christ.md) — the wedding pattern, and the bride
   homed.
+- [The Harlot and the Bride](the-harlot-and-the-bride.md) — Babylon set beside the Bride, and the call
+  to come out of her.
 - [Israel and the Church](../israel-and-church/israel-and-the-church.md) — the distinction the gates
   and foundations keep.

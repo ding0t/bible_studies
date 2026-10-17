@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 25:8
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 25:1-2
 <!-- commentary-index:auto-end -->

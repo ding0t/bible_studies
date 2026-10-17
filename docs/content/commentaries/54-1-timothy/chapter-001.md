@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 1:12-16
+- [Submission in Context](../../christian-life/submission-in-context.md) — 1:3-7
 <!-- commentary-index:auto-end -->

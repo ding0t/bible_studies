@@ -19,6 +19,7 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:7
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:6-11
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 1:6-7
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 1:14
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 1:15-20
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 1:13
 - [Philip](../../biblical-figures/philip.md) — 1:13

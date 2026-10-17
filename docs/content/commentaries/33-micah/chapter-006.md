@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [In Humility](../../christian-life/humility.md) — 6:8
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 6:4
 <!-- commentary-index:auto-end -->

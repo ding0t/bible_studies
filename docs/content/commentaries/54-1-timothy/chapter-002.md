@@ -14,4 +14,5 @@ draft: false
 
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 2:5
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 2:1-2
+- [Submission in Context](../../christian-life/submission-in-context.md) — 2:11-15
 <!-- commentary-index:auto-end -->

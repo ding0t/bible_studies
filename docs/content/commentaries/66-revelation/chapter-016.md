@@ -14,6 +14,7 @@ draft: false
 
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 16:15
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 16:7
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 16:19
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 16:1-21
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 16:15
 <!-- commentary-index:auto-end -->

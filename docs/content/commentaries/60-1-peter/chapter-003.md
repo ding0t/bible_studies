@@ -16,8 +16,10 @@ draft: false
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 3:15 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 3:21
 - [Biblical Numerology](../../scripture/numerology.md) — 3:20
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 3:7
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 3:18
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 3:20
+- [Submission in Context](../../christian-life/submission-in-context.md) — 3:1-7
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 3:20
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 3:20
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:15

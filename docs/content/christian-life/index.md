@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-15
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -104,6 +104,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     Jesus invites the weary to Himself and gives them rest under His yoke. Hebrews tells tired believers to run with endurance, looking to Him. Why Christians grow weary, what feeds the runner, and what weighs the runner down.
 
     [:octicons-arrow-right-24: Read](run-the-race.md)
+
+-   __Submission in Context__
+
+    ---
+
+    The verses used to make women submit to men, read in their paragraphs and in the Greek: Genesis 3:16, Ephesians 5:21-33, 1 Corinthians 7:3-5, 1 Peter 3:1-7, and the contested texts on women in church, with plain pastoral guidance on where submission ends.
+
+    [:octicons-arrow-right-24: Read](submission-in-context.md)
 
 -   __Take Up Your Cross__
 

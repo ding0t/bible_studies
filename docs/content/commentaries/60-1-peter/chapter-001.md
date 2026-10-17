@@ -20,6 +20,7 @@ draft: false
 - [Passover: When I See the Blood](../../feasts/passover.md) — 1:18-19
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 1:5
 - [Simon Peter](../../biblical-figures/peter.md) — 1:1
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 1:18-19
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 1:11
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 1:7
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:19

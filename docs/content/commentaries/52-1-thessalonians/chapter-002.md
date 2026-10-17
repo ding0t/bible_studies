@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Submission in Context](../../christian-life/submission-in-context.md) — 2:7
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 2:19
 <!-- commentary-index:auto-end -->

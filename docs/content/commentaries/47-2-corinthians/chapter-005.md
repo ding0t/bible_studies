@@ -21,6 +21,7 @@ draft: false
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:17-18
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 5:18-21
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 5:10
+- [Submission in Context](../../christian-life/submission-in-context.md) — 5:17
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 5:10
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:5
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:10

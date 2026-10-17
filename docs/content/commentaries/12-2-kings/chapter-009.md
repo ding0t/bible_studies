@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 9:24-27
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 9:22
 - [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 9:24-27
 <!-- commentary-index:auto-end -->

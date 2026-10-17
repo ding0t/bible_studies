@@ -14,4 +14,5 @@ draft: false
 
 - [Faith](../../salvation/faith.md) — 7:1-10
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 7:41-47
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 7:36-50
 <!-- commentary-index:auto-end -->

@@ -14,4 +14,5 @@ draft: false
 
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 9:1-19 (primary passage)
 - [The Way](../../jesus/the-way.md) — 9:2 (primary passage)
+- [Submission in Context](../../christian-life/submission-in-context.md) — 9:23-25
 <!-- commentary-index:auto-end -->

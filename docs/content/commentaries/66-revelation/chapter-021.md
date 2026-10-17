@@ -25,6 +25,7 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 21:1-9
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 21:8
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 21:22
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 21:2
 - [The Heavenly Pattern](../../jesus/the-heavenly-pattern/index.md) — 21:3
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 21:22-23
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 21:2

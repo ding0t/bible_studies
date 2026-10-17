@@ -20,7 +20,9 @@ draft: false
 - [Charting End Times](../../last-things/prophecy-chart.md) — 19:7-9
 - [Fasting](../../christian-life/fasting.md) — 19:7-9
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 19:11-16
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 19:7-8
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 19:11-16
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 19:1-9
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 19:7-8
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 19:7-9
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 19:7-8

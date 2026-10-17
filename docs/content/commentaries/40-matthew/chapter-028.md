@@ -15,6 +15,7 @@ draft: false
 - [The End of the Age](../../last-things/end-of-the-age.md) — 28:20 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 28:1
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 28:1
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 28:5-10
 - [The Appointed Times](../../feasts/feasts.md) — 28:1
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 28:19-20
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 28:3

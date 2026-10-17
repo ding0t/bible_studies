@@ -4,7 +4,7 @@ category: "other"
 description: "Who Christ is and what he did, including Old Testament prophecy fulfilled in him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-11
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -40,6 +40,14 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
     The two feeding miracles read the way Jesus reads them at Mark 8:19-21 -- what He makes explicit about the sign in John 6, and what the narrative leaves implicit about Jew, Gentile, shepherd, and the wrong way to want bread.
 
     [:octicons-arrow-right-24: Read](bread-of-life-feeding-the-multitudes.md)
+
+-   __Jesus and Women__
+
+    ---
+
+    How Jesus treated women against the customs of His day: as disciples He taught, followers who funded His work, people He defended, and the first witnesses of His resurrection, read with the women God sent in the Old Testament and the women of the early church.
+
+    [:octicons-arrow-right-24: Read](jesus-and-women.md)
 
 -   __The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back__
 

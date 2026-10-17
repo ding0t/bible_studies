@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 2:14
+- [Submission in Context](../../christian-life/submission-in-context.md) — 2:3-5
 - [The End of the Age](../../last-things/end-of-the-age.md) — 2:12-13
 - [The Rapture of the Church](../../last-things/rapture.md) — 2:13
 <!-- commentary-index:auto-end -->

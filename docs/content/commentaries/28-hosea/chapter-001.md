@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 1:9-10
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 1:2
 <!-- commentary-index:auto-end -->

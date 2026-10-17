@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 11:22
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 11:29
 <!-- commentary-index:auto-end -->

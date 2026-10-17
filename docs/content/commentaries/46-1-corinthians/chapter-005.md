@@ -19,6 +19,7 @@ draft: false
 - [Passover: When I See the Blood](../../feasts/passover.md) — 5:7-8
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 5:5
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 5:1
+- [Submission in Context](../../christian-life/submission-in-context.md) — 5:11
 - [The Appointed Times](../../feasts/feasts.md) — 5:7-8
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 5:7-8
 - [The Restrainer](../../last-things/the-restrainer.md) — 5:2

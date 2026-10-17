@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 4:1
+- [Submission in Context](../../christian-life/submission-in-context.md) — 4:3
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 4:1-3
 <!-- commentary-index:auto-end -->

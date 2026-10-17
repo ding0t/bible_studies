@@ -18,6 +18,7 @@ draft: false
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 22:20
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 22:17
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 22:4
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 22:4
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 22:12-14
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 22:5
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 22:1-5

@@ -15,6 +15,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 3:11
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 3:16
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 3:29
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 3:28
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 3:17
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 3:5
 - [Pride](../../sin/pride.md) — 3:3

@@ -16,6 +16,7 @@ draft: false
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 16:21-28 (primary passage)
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 16:5-12
 - [Faith](../../salvation/faith.md) — 16:8-10
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 16:16
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 16:21
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 16:6-12
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 16:18-19

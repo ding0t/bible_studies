@@ -88,3 +88,5 @@ read_2026-10-17:
     - "He defended them (421 words) grouped into '### Marriage and lust' (166) and '### The overlooked and the despised' (236); bold labels kept."
     - "Followers and funders (389) split at Mark 10:45 into '### One verb for their service and His' (215 / 174)."
   result: "Longest section 421 -> 238; over 400: 1 -> 0. study_structure.py --verify-against HEAD: clean, no sentence changed. Study outline anchors unchanged (no ## heading renamed)."
+
+published: "2026-10-17"

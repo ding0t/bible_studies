@@ -3,7 +3,7 @@ title: "The Harlot and the Bride"
 category: "prophecy"
 description: "Revelation 17-19 sets two women side by side: Babylon the great prostitute and the Bride, the wife of the Lamb. Scripture's pattern of the harlot, from Proverbs and the prophets to Jezebel and Babylon, the people who follow each woman, and the call to come out of her."
 tags: ["revelation", "proverbs", "isaiah", "jeremiah", "ezekiel", "hosea", "2-corinthians", "babylon", "bride", "dispensationalism", "method/word-study", "lang/greek", "lang/hebrew", "person/jezebel"]
-draft: true
+draft: false
 primary_passage: "Revelation 17:1-6"
 bible_references: ["Revelation 17:1-18", "Revelation 18:2-8", "Revelation 18:22-24", "Revelation 19:1-9", "Revelation 21:2", "Revelation 21:9-10", "Revelation 21:27", "Revelation 22:4", "Revelation 22:14-17", "Revelation 2:20", "Revelation 12:9", "Revelation 13:2", "Revelation 13:16", "Revelation 14:1", "Revelation 14:8", "Revelation 16:19", "1 Kings 16:31", "1 Kings 21:25", "2 Kings 9:22", "Proverbs 9:1-6", "Proverbs 9:13-18", "Isaiah 1:21", "Isaiah 23:15-17", "Isaiah 47:5-9", "Isaiah 52:11", "Jeremiah 25:10", "Jeremiah 51:7", "Jeremiah 51:45", "Ezekiel 16:15", "Ezekiel 16:32", "Hosea 1:2", "Hosea 2:14", "Nahum 3:4", "2 Corinthians 6:16-18", "2 Corinthians 11:2-3", "2 Corinthians 11:14", "Ephesians 5:29", "James 4:4"]
 date_created: 2026-10-17

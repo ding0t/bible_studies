@@ -14,4 +14,5 @@ draft: false
 
 - [Wisdom](../../wisdom/index.md) — 9:10 (primary passage)
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 9:10
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 9:1-6
 <!-- commentary-index:auto-end -->

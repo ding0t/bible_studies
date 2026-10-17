@@ -14,6 +14,7 @@ draft: false
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 52:13
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 52:7
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 52:11
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 52:1
 - [The Restrainer](../../last-things/the-restrainer.md) — 52:11
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 52:5

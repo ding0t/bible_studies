@@ -15,6 +15,7 @@ draft: false
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 5:23-24
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 5:18
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:17-18
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 5:28
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 5:20
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 5:27-28
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 5:14-16

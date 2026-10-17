@@ -12,7 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
-- [Chapter 1](chapter-001.md) — 4 study(ies)
+- [Chapter 1](chapter-001.md) — 5 study(ies)
 - [Chapter 2](chapter-002.md) — 1 study(ies)
 - [Chapter 6](chapter-006.md) — 3 study(ies)
 - [Chapter 7](chapter-007.md) — 3 study(ies)
@@ -26,6 +26,7 @@ draft: false
 - [Chapter 15](chapter-015.md) — 1 study(ies)
 - [Chapter 18](chapter-018.md) — 1 study(ies)
 - [Chapter 22](chapter-022.md) — 1 study(ies)
+- [Chapter 23](chapter-023.md) — 1 study(ies)
 - [Chapter 24](chapter-024.md) — 3 study(ies)
 - [Chapter 25](chapter-025.md) — 6 study(ies)
 - [Chapter 26](chapter-026.md) — 2 study(ies)
@@ -38,11 +39,11 @@ draft: false
 - [Chapter 44](chapter-044.md) — 2 study(ies)
 - [Chapter 45](chapter-045.md) — 2 study(ies)
 - [Chapter 46](chapter-046.md) — 1 study(ies)
-- [Chapter 47](chapter-047.md) — 1 study(ies)
+- [Chapter 47](chapter-047.md) — 2 study(ies)
 - [Chapter 49](chapter-049.md) — 1 study(ies)
 - [Chapter 50](chapter-050.md) — 1 study(ies)
 - [Chapter 51](chapter-051.md) — 1 study(ies)
-- [Chapter 52](chapter-052.md) — 5 study(ies)
+- [Chapter 52](chapter-052.md) — 6 study(ies)
 - [Chapter 53](chapter-053.md) — 6 study(ies)
 - [Chapter 54](chapter-054.md) — 7 study(ies)
 - [Chapter 55](chapter-055.md) — 5 study(ies)

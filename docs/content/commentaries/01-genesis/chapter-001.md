@@ -17,7 +17,9 @@ draft: false
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 1:1-31
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 1:2
 - [Biblical Numerology](../../scripture/numerology.md) — 1:1
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 1:27-28
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1
+- [Submission in Context](../../christian-life/submission-in-context.md) — 1:27-28
 - [The Appointed Times](../../feasts/feasts.md) — 1:14
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 1:14-19
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 1:1

@@ -16,6 +16,7 @@ draft: false
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 14:22
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 14:50
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 14:33
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 14:3-9
 - [John son of Zebedee](../../biblical-figures/john.md) — 14:33
 - [Simon Peter](../../biblical-figures/peter.md) — 14:66-72
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 14:32-42

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 19:15
+- [Submission in Context](../../christian-life/submission-in-context.md) — 19:15-18
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 19:15
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 19:15
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 19:15

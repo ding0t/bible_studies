@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 31:10-31
+- [Submission in Context](../../christian-life/submission-in-context.md) — 31:8-9
 <!-- commentary-index:auto-end -->

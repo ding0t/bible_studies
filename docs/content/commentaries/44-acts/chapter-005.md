@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 5:17
+- [Submission in Context](../../christian-life/submission-in-context.md) — 5:29
 <!-- commentary-index:auto-end -->

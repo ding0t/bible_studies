@@ -15,6 +15,7 @@ draft: false
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 12:9
 - [Know the Truth](../../christian-life/know-the-truth.md) — 12:9
 - [Pride](../../sin/pride.md) — 12:9
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 12:9
 - [The Rapture of the Church](../../last-things/rapture.md) — 12:5
 - [The Restrainer](../../last-things/the-restrainer.md) — 12:7-8
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 12:6-14

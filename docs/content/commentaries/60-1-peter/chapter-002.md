@@ -19,6 +19,7 @@ draft: false
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:9
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 2:9
 - [Simon Peter](../../biblical-figures/peter.md) — 2:21
+- [Submission in Context](../../christian-life/submission-in-context.md) — 2:21-23
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 2:21
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:9
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 2:22

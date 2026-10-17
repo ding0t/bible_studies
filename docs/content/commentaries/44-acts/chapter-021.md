@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 21:20
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 21:9
 - [Philip](../../biblical-figures/philip.md) — 21:8
 <!-- commentary-index:auto-end -->

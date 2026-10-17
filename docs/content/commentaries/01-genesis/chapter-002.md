@@ -18,9 +18,11 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 2:10
 - [Faith](../../salvation/faith.md) — 2:2
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:2-3
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 2:18-24
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 2:22-24
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 2:24
 - [Six Days of History](../../last-things/six-days-of-history.md) — 2:1-3
+- [Submission in Context](../../christian-life/submission-in-context.md) — 2:24
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 2:7
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 2:24
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 2:9-10

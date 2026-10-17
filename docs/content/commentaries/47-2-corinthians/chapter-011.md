@@ -18,6 +18,7 @@ draft: false
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 11:2
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 11:3-4
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 11:2
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 11:2-3
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 11:2
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 11:2
 <!-- commentary-index:auto-end -->

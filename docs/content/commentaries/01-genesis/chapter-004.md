@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:26
+- [Submission in Context](../../christian-life/submission-in-context.md) — 4:7
 <!-- commentary-index:auto-end -->

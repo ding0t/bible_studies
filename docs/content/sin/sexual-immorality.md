@@ -249,7 +249,8 @@ you, as is proper among saints" (Ephesians 5:3, ESV). To the Corinthians he writ
 you to one husband, to present you as a pure virgin to Christ" (2 Corinthians 11:2, ESV).
 Scripture also uses the picture in reverse, for unfaithfulness to God: "as a treacherous wife leaves
 her husband, so have you been treacherous to me" (Jeremiah 3:20, ESV); "You adulterous people!"
-(James 4:4, ESV).
+(James 4:4, ESV). The study [The Harlot and the Bride](../last-things/the-harlot-and-the-bride.md)
+follows that reverse picture to Babylon in Revelation.
 
 The conclusion is this study's reading, though it follows closely: a sexual union outside marriage
 tells a false story about Christ's union with the church, a joining with no covenant behind it. The
@@ -447,4 +448,5 @@ with His Spirit, so you may flee immorality and glorify God in your body.
 
 Related studies on this site: [The Bride of Christ](../israel-and-church/bride-of-christ.md) ·
 [Reading the Song of Songs](../wisdom/reading-the-song-of-songs.md) ·
-[Sin and Idolatry](idolatry.md)
+[Sin and Idolatry](idolatry.md) ·
+[The Harlot and the Bride](../last-things/the-harlot-and-the-bride.md)

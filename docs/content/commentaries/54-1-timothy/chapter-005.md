@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Submission in Context](../../christian-life/submission-in-context.md) — 5:13-15
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:21
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 5:19-20
 <!-- commentary-index:auto-end -->

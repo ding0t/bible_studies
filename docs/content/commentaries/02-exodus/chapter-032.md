@@ -15,5 +15,6 @@ draft: false
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 32:12-14
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 32:26-29
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 32:11-14
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 32:6
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 32:28
 <!-- commentary-index:auto-end -->

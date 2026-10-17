@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Sin and Sorcery](../../sin/sorcery.md) — 3:4
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 3:4
 <!-- commentary-index:auto-end -->

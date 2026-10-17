@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [In Humility](../../christian-life/humility.md) — 14:20
+- [Submission in Context](../../christian-life/submission-in-context.md) — 14:29-35
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 14:8
 <!-- commentary-index:auto-end -->

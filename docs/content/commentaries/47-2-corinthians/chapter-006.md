@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 6:16-18
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 6:16
 - [The Restrainer](../../last-things/the-restrainer.md) — 6:17
 <!-- commentary-index:auto-end -->

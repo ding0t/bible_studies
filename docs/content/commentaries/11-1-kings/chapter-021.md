@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Fasting](../../christian-life/fasting.md) — 21:27-29
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 21:25
 <!-- commentary-index:auto-end -->

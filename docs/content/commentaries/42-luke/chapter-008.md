@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 8:1-3 (primary passage)
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 8:43-48 (primary passage)
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 8:29
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 8:14-15

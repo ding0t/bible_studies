@@ -14,5 +14,6 @@ draft: false
 
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 1:8-10
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 1:9
+- [Submission in Context](../../christian-life/submission-in-context.md) — 1:9
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 1:7
 <!-- commentary-index:auto-end -->

@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 15:20
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 15:17
 <!-- commentary-index:auto-end -->

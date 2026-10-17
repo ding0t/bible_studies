@@ -16,4 +16,5 @@ draft: false
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 82:1-8 (primary passage)
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 82:1-8
 - [Pride](../../sin/pride.md) — 82:1-8
+- [Submission in Context](../../christian-life/submission-in-context.md) — 82:3-4
 <!-- commentary-index:auto-end -->

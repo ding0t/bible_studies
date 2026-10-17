@@ -18,5 +18,7 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 4:6-10
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:2-3
 - [Pride](../../sin/pride.md) — 4:6
+- [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 4:4
+- [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 4:4
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:7
 <!-- commentary-index:auto-end -->

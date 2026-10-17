@@ -13,6 +13,8 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 22:1
+- [Jesus and Women](../../jesus/jesus-and-women.md) — 22:3
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 22:3
+- [Submission in Context](../../christian-life/submission-in-context.md) — 22:2
 - [The Way](../../jesus/the-way.md) — 22:4
 <!-- commentary-index:auto-end -->

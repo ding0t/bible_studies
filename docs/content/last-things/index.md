@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-15
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -176,6 +176,14 @@ End-times prophecy, read dispensationally.
     Enoch, Lot and Elijah were taken out before judgment reached them, and Noah was kept through it. Read as types, they illustrate the pretribulational rapture that other texts teach directly.
 
     [:octicons-arrow-right-24: Read](taken-before-judgment.md)
+
+-   __The Harlot and the Bride__
+
+    ---
+
+    Revelation 17-19 sets two women side by side: Babylon the great prostitute and the Bride, the wife of the Lamb. Scripture's pattern of the harlot, from Proverbs and the prophets to Jezebel and Babylon, the people who follow each woman, and the call to come out of her.
+
+    [:octicons-arrow-right-24: Read](the-harlot-and-the-bride.md)
 
 -   __The Restrainer__
 
