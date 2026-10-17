@@ -8,8 +8,8 @@
 # Jesus sends Mary Magdalene to "my brothers" (John 20:17); she tells them, "I have seen the Lord"
 # (John 20:18). Mary Magdalene is reserved here (Luke 8:2 names her first among the women); the
 # other women are the generic cast. Luke 8:3 names no gifts, so none are drawn. Mary of Bethany is
-# drawn seated, as Luke 10:39 says (παρακαθεσθεῖσα). The aside on panel 5 is Luke 24:11, the
-# apostles' own response; every note in the comic is Scripture.
+# drawn seated, as Luke 10:39 says (παρακαθεσθεῖσα). The aside on panel 5 is Luke 24:10-11, the
+# apostles' response to the women's earlier report from the tomb (not to John 20:18); every note in the comic is Scripture.
 
 title = "Jesus and Women"
 subtitle = "Disciples at His feet, witnesses of His rising"
@@ -49,7 +49,7 @@ cast = [
 ]
 say = [
   { by = "martha", text = "Lord, do you not care that my sister has left me to serve alone?", source = "esv", at = [0.80, 0.20], w = 140 },
-  { by = "jesus", text = "Mary has chosen the *good portion*, which will not be taken away from her.", source = "esv", at = [0.36, 0.62], w = 165 },
+  { by = "jesus", text = "Mary has chosen the *good portion*, which will not be taken away from her.", source = "esv", at = [0.30, 0.44], w = 190 },
 ]
 
 [[panel]]
@@ -67,7 +67,7 @@ cast = [
   { who = "woman", id = "watchers", name = "Mary the mother of James and Joses, and Salome", n = 2, x = 0.3, x2 = 0.44, face = "right", pose = ["fold", "heart"], tone = 2 },
 ]
 say = [
-  { by = "mark", name = "Mark", from = [0.5, -0.1], style = "text", text = "When he was in Galilee, they *followed him* and ministered to him", source = "esv", at = [0.62, 0.30], w = 150 },
+  { by = "mark", name = "Mark", from = [0.5, -0.1], style = "text", text = "When he was in Galilee, they *followed him* and ministered to him", source = "esv", at = [0.72, 0.24], w = 125 },
 ]
 
 [[panel]]
@@ -93,8 +93,8 @@ ref = "John 20:18"
 scene = "room"
 caption = "She went and told them."
 caption_w = 200
-aside = "Luke 24:11: to the apostles “these words seemed … an idle tale.”"
-aside_w = 260
+aside = "Earlier, Mary Magdalene and the women told the apostles of the empty tomb, and “these words seemed to them an idle tale” (Luke 24:10-11)."
+aside_w = 300
 shows = "Mary Magdalene stands in a room before three seated disciples, her arm raised as she tells them"
 cast = [
   { who = "magdalene", x = 0.24, face = "right", pose = "raise" },
