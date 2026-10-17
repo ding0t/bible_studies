@@ -37,4 +37,41 @@ drafting:
   done: true
   file: "docs/content/last-things/the-harlot-and-the-bride.md"
   notes: "All ESV quotations verified with study_verse on 2026-10-17. Next: review-bible-study, simplify, read-bible-study; then publish with inbound links."
+
+review_2026-10-17:
+  checked:
+    - "Every ESV quotation re-queried (study_verse, esv-study-bible): Revelation 2:20; 9:21; 12:9; 13:2, 16; 14:1, 8; 16:19; 17:1-18; 18:3-7, 22-23; 19:2, 7-9; 21:9-10, 27; 22:4, 14-17; Genesis 11:4, 9; 1 Kings 16:31; 21:25; 2 Kings 9:22; Proverbs 7:10-27; 9:1-18; Isaiah 1:21; 23:15-17; 47:5-12; 52:11; Jeremiah 25:9-10; 51:7, 45; Ezekiel 16:15, 32; Hosea 1:2; 2:14; Nahum 3:4; 2 Corinthians 6:16-18; 11:2-3, 14; Ephesians 5:29; James 4:4. Wording all matches."
+    - "NA28 (na28-greek-nt): Revelation 17:1-4, 16; 18:4, 7, 23; 21:9; 22:15."
+    - "Counts (macula-greek-sblgnt): G4204 Revelation 5x (17:1, 5, 15, 16; 19:2); G3565 Revelation 4x (18:23; 21:2, 9; 22:17); G5331 3x NT (Galatians 5:20; Revelation 9:21; 18:23); G5333 Revelation 22:15 only; G4205 Revelation 21:8; 22:15. H894 in Genesis 10:10; 11:9."
+    - "LXX (ebible-grcbrent): 4 Kingdoms 9:22 πορνεῖαι + φάρμακα; Nahum 3:4 πόρνη, πορνείᾳ, φαρμάκων/φαρμάκοις; Jeremiah 28:7 Ποτήριον χρυσοῦν (Babylon is the cup, in the Lord's hand); Isaiah 47:8 οὐ καθιῶ χήρα; Isaiah 52:11 ἐξέλθατε ἐκ μέσου αὐτῆς; MT Jeremiah 51:45 absent (LXX 28:44 -> 28:49). LXX Jeremiah 25:10 has ὀσμὴν μύρου for MT's millstones."
+    - "ESV Study Bible note on Revelation 17:1-19:10: futurist readings attributed correctly (religious entity supporting the Antichrist; restored Babylon; revived Roman empire)."
+    - "No ESV footnotes on Revelation 17. Links all resolve to draft: false pages. Statement of Faith line 251 (pretribulational) matches the timing paragraph. cross_study_claims Revelation 17: no sibling conflict."
+    - "Framing: nothing gives Satan a bride; timing paragraph and the Israel-wife / church-Bride position are both stated as this site's reading."
+  fixed:
+    - "Revelation 17:1 / 21:9: 'identical up to the woman' was false -- 17:1 has τὸ κρίμα before τῆς πόρνης. Now 'identical up to what is shown', with the judgment of the prostitute."
+    - "'The prophets call cities harlots' introduced a list in which Jezebel is a queen named by Jehu and Babylon is never called a harlot in the Hebrew prophets. Intro rewritten to say who calls whom what."
+    - "Echoes overclaimed as identity: the golden cup 'is Jeremiah's' (in Jeremiah Babylon is the cup in the LORD's hand) and the boast 'is Isaiah 47:8's' (shared: sit, widow). Both now worded as echoes with the shared words named. Key Takeaways 'harlot cities ... reappear' (Jeremiah 25:10 is against Judah) now 'Old Testament words ... have echoes'. 'The words are the prophets'' -> 'echo the prophets''. Jeremiah 25:10 'same sentence over Judah' -> 'same words over Judah and its neighbours' (25:9)."
+    - "'Proverbs 7 shows the same woman' (the adulteress of Proverbs 7 is not Folly of Proverbs 9) -> 'a woman like her'."
+    - "Finery 'on loan from the beast' / 'stripped by the beast that gave it' had no text behind it -> the beast that carries her strips her (17:16). 'Given by the Lamb' -> 'granted by God' (19:8 divine passive)."
+    - "Revelation 17:16 sentence: subject is the ten horns and the beast; μισήσουσιν parenthesised."
+    - "Contested Babylon identity now gives a textual reason on the other side: the mountains are also seven kings (17:10)."
+    - "Citation: 'forgotten prostitute' is Isaiah 23:16 -> (Isaiah 23:16-17). Bookless references given their book: Proverbs 9:6, 9:17-18, 7:22, 7:27; Isaiah 47:5; Revelation 17:1, 21:9, 17:9, 18:4. Added G4205 for πόρνοι."
+  left_for_author:
+    - "Isaiah 47:9, 12 give OT Babylon 'many sorceries' (LXX 47:9 ἐν τῇ φαρμακείᾳ σου, Revelation 18:23's exact phrase; LXX 47:10 adds ἡ πορνεία σου where MT differs). The strongest harlotry+sorcery link for Babylon itself; worth a sentence in Harlot cities (about 40 words)."
+    - "'She belongs to no one' / 'never anyone's wife': her own boast 'I am no widow' (Revelation 18:7; Isaiah 47:8-9 'widowhood') claims a spouse-like status. Consider naming it as her claim the text refutes."
+    - "Revelation 9:21's unrepentant are 'the rest of mankind' (9:20), not named as the harlot's people; the table row is an inference."
+    - "Jeremiah's bridegroom/bride formula recurs (Jeremiah 7:34; 16:9; 33:11); 25:10 is the one with millstones and lamp, which justifies picking it -- could say so."
+    - "Discussion question 5 is labelled The language but asks a pattern question; consider The text in its context."
+    - "strongs_suggest: δεῦρο G1204, μισήσουσιν G3404, πορνεῖαι G4202, ἐξέλθατε G1831 untagged (Minor)."
+    - "ai_provider_models is [] -- run utils/refresh_frontmatter_provenance.py before committing (validator warns)."
+    - "Antithesis and register pass needs a human reader (human-review.md)."
 last_updated: "2026-10-17"
+simplify_2026-10-17:
+  applied: >-
+    Author approved all. Cut: John "in the Spirit" line (in New Jerusalem's table), the repeated
+    18:23 quotation in the nymphe paragraph, "will hate ... Christ never hates His own", the two
+    extra "never a wife" lines, "not only a city at the end of history", the paragraph after the
+    forehead table, the finery "never taken" line (unanchored), the Proverbs 7 paragraph, Babel/H894.
+    Kept once: "Scripture never makes him her bridegroom" (the author's question) and the
+    Ephesians 5:29 contrast. Review items: added Isaiah 47:9 (ESV "many sorceries"; LXX
+    pharmakeia); cut the Revelation 9:21 table row; DQ5 relabelled "The text in its context".
