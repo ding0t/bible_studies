@@ -60,12 +60,12 @@ def on_page_content(html, page, config, files):  # noqa: ARG001 - hook signature
         if not found:
             log.warning("hebrew_cards: %s asks for deck %r, which does not exist", page.file.src_uri, match[1])
             return ""
-        return render_deck(found["cards"], f"hc-{match[1]}")
+        return render_deck(found["cards"], f"hc-{match[1]}", match[1])
 
     return _MARKER.sub(deck, html)
 
 
-def render_deck(cards: list[dict], deck_id: str) -> str:
+def render_deck(cards: list[dict], deck_id: str, slug: str) -> str:
     sheets = [cards[i:i + _CARDS_PER_SHEET] for i in range(0, len(cards), _CARDS_PER_SHEET)]
     total = len(sheets)
     one_sided = "".join(_sheet("", [_full(c, n) for n, c in _numbered(sheets, i)], i, total)
@@ -74,6 +74,10 @@ def render_deck(cards: list[dict], deck_id: str) -> str:
         _sheet("mv-front", [_front(c, n) for n, c in _numbered(sheets, i)], i, total, "fronts")
         + _sheet("mv-back", [_full(c, n, front=False) for n, c in _numbered(sheets, i)], i, total, "backs")
         for i in range(total))
+    # The on-screen practice (app/src/entries/hebrew-cards.js) reads the deck from here.
+    practice = json.dumps({"slug": slug, "cards": [
+        {"id": f"{slug}-{i}", **{k: c[k] for k in ("hebrew", "name", "popular", "meaning", "quote", "quote_ref", "divine", "words")}}
+        for i, c in enumerate(cards)]}, ensure_ascii=False).replace("</", "<\\/")
     return f"""
 <div class="mv-deck hc-deck" data-no-popups>
   <form class="mv-controls" aria-label="Card layout">
@@ -81,6 +85,7 @@ def render_deck(cards: list[dict], deck_id: str) -> str:
       <legend>Print as</legend>
       <label><input type="radio" name="{deck_id}-layout" value="flash" class="mv-opt-flash" checked> Flashcards <small>double-sided, flip on long edge</small></label>
       <label><input type="radio" name="{deck_id}-layout" value="cards" class="mv-opt-cards"> Cards <small>one-sided</small></label>
+      <label><input type="radio" name="{deck_id}-layout" value="screen" class="hc-opt-screen"> Practise on screen <small>one card at a time, with spaced review</small></label>
     </fieldset>
     <fieldset>
       <legend>Show</legend>
@@ -91,7 +96,10 @@ def render_deck(cards: list[dict], deck_id: str) -> str:
   </form>
   <div class="mv-cards">{one_sided}</div>
   <div class="mv-flash">{flash}</div>
+  <div class="hc-screen" aria-live="polite"><p>The on-screen practice needs JavaScript.</p></div>
+  <script type="application/json" class="hc-data">{practice}</script>
 </div>
+<script type="module" src="/assets/js/hebrew-cards.js"></script>
 """
 
 

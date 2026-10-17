@@ -55,9 +55,13 @@ done:
     tf/2.0, feature `script`=paleohebrew, mapped to scrolls through oslots) gives יהוה in
     Paleo-Hebrew 286 of 4,843 times in 15 scrolls: 11Q5 164/165, 4Q57 82/83, 1QpHab 8/8,
     11Q2 7/7 (book Lev). Sanhedrin 21b quoted from Sefaria's William Davidson edition (API v3).
+  - 2026-10-18 On-screen practice for the word cards (app/src/entries/hebrew-cards.js,
+    app/src/utils/cardReview.js + tests): Leitner review, new cards in deck order (3 a day),
+    progress in localStorage (guarded), Hear it via the browser's he voice with the divine name
+    always spoken as Adonai (tested).
   - 2026-10-17 The Shema page, letter by letter, with the verbless-clause translation question
     marked open (footnote alternatives from CSB/NLT/LSB) and 1 Corinthians 8:6.
 
 todo:
-  - Names of God study in /god/ via develop-bible-study
-  - later: on-screen spaced-review deck; he-IL speech buttons (never speaking the divine name)
+  - Names of God study in /god/ via develop-bible-study -- research done, thesis and outline
+    awaiting the author (references/study-state/names-of-god.yml)

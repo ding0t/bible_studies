@@ -102,8 +102,9 @@ hand-write those three.
   the separate Genealogy Viewer is gone and `/genealogy/` redirects to `/timeline/#view=family`.
   **Astro is gone** — there is one site build. `app/` is now just the React components
   (`app/src/components/chronology/` for the timeline), their utils, the build scripts and the tests;
-  esbuild bundles the three entry points in `app/src/entries/` (the timeline, the Scripture Links
-  explorer, and the site-wide verse and word pop-ups) into `docs/content/assets/js/`.
+  esbuild bundles the four entry points in `app/src/entries/` (the timeline, the Scripture Links
+  explorer, the site-wide verse and word pop-ups, and the Hebrew word cards' on-screen practice)
+  into `docs/content/assets/js/`.
 - **One set of chronology facts.** `docs/data/chronology.json` holds every dated event once (anchor
   table, Genesis markers, milestones, the AD 33 sequence, life events), each tagged with the people
   it involves; the genealogy era files hold people, each storing ONE calendar (`zadok_year_*` for
@@ -134,12 +135,12 @@ Hot-reload dev server at http://localhost:8000/. `docs_dir` is `docs/content` (s
 ```bash
 cd app
 npm install
-npm run build:tools  # events.json + esbuild -> docs/content/assets/js/{genealogy,timeline,
-                     # references,popups}.js (gitignored). Run before `mkdocs serve`, or the tool
+npm run build:tools  # events.json + esbuild -> docs/content/assets/js/{timeline,references,
+                     # popups,hebrew-cards}.js (gitignored). Run before `mkdocs serve`, or the tool
                      # pages render an empty div and no reference on any page pops up.
 npm run dev:tools    # same, unminified, with esbuild --watch. Pair with `mkdocs serve`: the
                      # bundles land inside docs_dir, so a rebuild triggers a page reload.
-npm test             # build-events, calendarConvert, bibleReference, chronology
+npm test             # build-events, calendarConvert, bibleReference, chronology, cardReview
 npm run lint         # eslint src/  (npm run format for prettier)
 ```
 

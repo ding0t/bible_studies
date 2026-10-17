@@ -253,3 +253,35 @@
   font-size: 1.7em;
   line-height: 1.2;
 }
+
+/* ---- On-screen practice (app/src/entries/hebrew-cards.js) ------------------------------------ */
+
+.hc-screen { display: none; }
+.hc-deck:has(.hc-opt-screen:checked) .hc-screen { display: block; }
+.hc-deck:has(.hc-opt-screen:checked) :is(.mv-cards, .mv-flash),
+.hc-deck:has(.hc-opt-screen:checked) .mv-controls .md-button--primary[onclick] { display: none; }
+
+.hc-screen {
+  --mm: 1.6px;
+  --mv-ink: var(--md-default-fg-color);
+  --mv-muted: var(--md-default-fg-color--light);
+  max-width: 34rem;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+.hc-screen-status { font-size: 0.75rem; color: var(--md-default-fg-color--light); }
+.hc-screen-card {
+  padding: 1.5rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.4rem;
+  background: var(--md-code-bg-color);
+}
+.hc-screen-card .hc-word { font-size: 3rem; color: var(--md-typeset-a-color); margin: 0; }
+.hc-screen-card .hc-paleo { font-size: 1.4rem; margin: 0.2rem 0 0; }
+.hc-deck:not(:has(.hc-opt-paleo:checked)) .hc-screen-card .hc-paleo { display: none; }
+.hc-screen-back p { margin: 0.4rem 0; }
+.hc-screen-reading { font-style: italic; font-size: 1.1rem; }
+.hc-screen-card .hc-meaning { font-size: 1.1rem; }
+.hc-screen-name, .hc-screen-quote { font-size: 0.8rem; color: var(--md-default-fg-color--light); }
+.hc-screen-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; margin-top: 1rem; }
+.hc-screen-actions .md-button { margin: 0; }

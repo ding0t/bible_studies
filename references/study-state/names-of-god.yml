@@ -1,0 +1,132 @@
+slug: names-of-god
+title: "The Names of God"
+status: drafting # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: docs/content/god/names-of-god.md
+
+primary_passage: "Exodus 3:13-15"
+supporting_passages:
+  - "Exodus 6:2-3"
+  - "Exodus 34:5-7"
+  - "Genesis 14:18-22"
+  - "Genesis 16:13"
+  - "Genesis 17:1"
+  - "Genesis 22:14"
+  - "Exodus 15:26"
+  - "Exodus 17:15"
+  - "Judges 6:24"
+  - "1 Samuel 1:3"
+  - "Jeremiah 23:5-6"
+  - "Isaiah 7:14"
+  - "Isaiah 9:6"
+  - "Matthew 1:21-23"
+  - "John 8:58"
+  - "Philippians 2:9-11"
+sibling_studies:
+  - {slug: hebrew/names-of-god-cards, role: primary, use: build-on, note: "The vocabulary deck this study is the theology for. Link both ways once this publishes."}
+  - {slug: hebrew/pronunciation, role: primary, use: link, note: "Owns how the name is read (Adonai, HaShem, Jehovah, Yahweh). Link, don't repeat."}
+  - {slug: spiritual-beings/those-called-gods, role: cited, use: link, note: "Owns the range of elohim (God, gods, judges). Gives 2,601 occurrences in one Hebrew text."}
+  - {slug: jesus/woman-at-well, role: cited, use: link, note: "Owns John's ego eimi sayings and whether John 4:26 carries Exodus 3:14."}
+  - {slug: jesus/melchizedek-priesthood, role: cited, use: link, note: "Treats El Elyon at Genesis 14."}
+  - {slug: christian-life/humility, role: cited, use: link, note: "Primary on Philippians 2:1-13."}
+  - {slug: israel-and-church/hebrew-roots, role: cited, use: none, note: "Cites Isaiah 7:14 in passing."}
+genre: [topical, ot-narrative, law, prophets, gospel, epistle]
+
+thesis: >
+  God names Himself by what He does: each name He gave was spoken to someone at the end of their
+  own resources, each is a promise He has kept, and all of them meet in Jesus, whose name means
+  "the LORD saves".
+outline:
+  - {section: "Key Takeaways", says: "Types & prophecy (nes; the lamb God sees to), lessons about Jesus, memory verses (Exodus 3:15; Philippians 2:9-10), Be transformed, prayer."}
+  - {section: "\"What is his name?\" (Exodus 3:12-15)", says: "God answers Moses' fear with ehyeh, 'I will be with you' (3:12), and names Himself with the same verb two verses later (3:14); YHWH is His name forever (3:15). How it is read is pronunciation.md's job -- one link."}
+  - {section: "The name explained (Exodus 34:5-7)", says: "God's own commentary on His name: merciful, gracious, slow to anger, abounding in steadfast love, and just."}
+  - {section: "Known by name, known by deed (Exodus 6:2-8)", says: "The hard verse. Genesis has the name spoken to Abram (15:7) and by him (14:22; 22:14), so 'not known' means not yet known in what it promises -- the redemption 6:6-8 lists. Face-value alternative stated and why Genesis weighs against it."}
+  - {section: "Names given in the hard places", says: "Grouped walk-through, each name in its narrative moment: El Shaddai to the childless (four of six Genesis uses with 'fruitful and multiply'; meaning contested -- the Greek has 'your God', 'the Sufficient', 'the Almighty'); LORD of hosts first on barren Hannah's lips (1 Samuel 1:3, 11); El Roi to a runaway slave (Genesis 16:13); YHWH Yireh on Moriah (22:8 and 22:14 share ra'ah) and the Lamb (John 1:29); YHWH Rofekha at bitter Marah (Exodus 15:23-26); YHWH Nissi, nes = the serpent's pole (Numbers 21:8-9) and the root of Jesse's signal (Isaiah 11:10) -- link as-the-snake-was-lifted; YHWH Shalom to terrified Gideon (Judges 6:22-24); El Elyon and Adonai briefly, linking melchizedek-priesthood."}
+  - {section: "Names the prophets gave the coming King", says: "Immanuel (Isaiah 7:14; Matthew 1:23); El Gibbor -- Isaiah's own next use is the LORD (10:21), so the child bears a divine title; YHWH Tsidkenu for the Branch (Jeremiah 23:5-6), shared with the city in 33:16 -- the righteousness is given to His people (1 Corinthians 1:30; 2 Corinthians 5:21)."}
+  - {section: "The name above every name", says: "Yeshua (Numbers 13:16; Matthew 1:21); 'Eli, Eli' on the cross (Psalm 22:1; Matthew 27:46); 'before Abraham was, I am' (John 8:58, link woman-at-well); 'your name, which you have given me' (John 17:11); every knee (Isaiah 45:23; Philippians 2:9-11); calling on the name (Joel 2:32; Romans 10:13); one name of Father, Son and Spirit (Matthew 28:19). So you may call on Him by name."}
+  - {section: "Discussion questions", says: "Facet-labelled per discussion-questions.md."}
+  - {section: "References & Recommended Reading", says: "Lexicons, TAHOT/MACULA, study Bibles consulted, Brenton LXX."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Topical study requested 2026-10-17 as the theology companion to the names-of-God word cards.
+      Placement god/ (Theology Proper: how God makes Himself known). No backlog entry. The names
+      covered are the deck's; the study should treat each as revealed in a narrative moment, not
+      as a list of titles, and end on the name of Jesus.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Each name sits in its own narrative setting; the study's spine is Exodus 3 (Moses at Horeb,
+        Israel enslaved in Egypt) with Exodus 6 and 34 as God's own expansions. Names in Genesis
+        belong to the patriarchal narratives; Tsevaot first appears at Shiloh in the judges'
+        period (1 Samuel 1:3); Immanuel/El Gibbor in Isaiah's Ahaz-era oracles (Isaiah 7-10);
+        Tsidkenu in Jeremiah's prophecies against Judah's last kings.
+    literary_context:
+      done: true
+      notes: >
+        Exodus 3:12-15 is one exchange: Moses' objection 'Who am I?' (3:11) is answered 'I will be
+        with you' (ehyeh, 3:12), and his next, 'What is his name?' (3:13), with ehyeh asher ehyeh
+        (3:14) and YHWH (3:15). Exodus 6:2-8 is framed by 'I am the LORD' (6:2, 6, 8) around seven
+        'I will' promises. Exodus 34:5-7 follows the golden calf and Moses' request to see God's
+        glory (33:18-19, where God promises to proclaim His name).
+    content_word_studies:
+      done: false
+      notes: >
+        Verified against MACULA WLC / unfoldingWord interlinear / Brenton LXX (2026-10-18):
+        ehyeh (H1961 Vqi1cs) in Exodus 3:12 and 3:14 identical form; LXX Exodus 3:14 'ego eimi ho
+        on'. Exodus 6:3 'nodati' Niphal of yada. Counts per one text (macula-hebrew-wlc): YHWH
+        H3068 6,513 (H3069 is separate); elohim H430 2,601 (agrees with those-called-gods);
+        Shaddai H7706 48, 31 in Job, 6 in Genesis (17:1; 28:3; 35:11; 43:14; 48:3; 49:25);
+        Adonai H136 438, first at Genesis 15:2; YHWH + tsevaot within three words 264 times,
+        first 1 Samuel 1:3, second 1:11 (Hannah). nes H5251: Exodus 17:15, Numbers 21:8-9,
+        Isaiah 11:10, 12. Genesis 22:8 and 22:14 both H7200. El Gibbor at Isaiah 9:6 (Heb 9:5)
+        and 10:21. Shaddai in LXX: Genesis 17:1 'ho theos sou', Ruth 1:20 'ho hikanos', Job 5:17
+        'pantokrator'; TWOT 2333 gloss 'sufficient'.
+      terms:
+        - {word: "אֶהְיֶה", language: hebrew, transliteration: ehyeh, strongs_id: H1961, gloss: "I will be / I am", notes: "same form in 3:12 and 3:14"}
+        - {word: "יהוה", language: hebrew, transliteration: YHWH, strongs_id: H3068, gloss: "the LORD", notes: "read Adonai; see hebrew/pronunciation.md"}
+        - {word: "שַׁדַּי", language: hebrew, transliteration: Shaddai, strongs_id: H7706, gloss: "Almighty (contested)", notes: "three ancient renderings; context in Genesis = fruitfulness"}
+        - {word: "נֵס", language: hebrew, transliteration: nes, strongs_id: H5251, gloss: "banner, pole, signal"}
+        - {word: "גִּבּוֹר", language: hebrew, transliteration: gibbor, strongs_id: H1368, gloss: "mighty, warrior"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: false
+      notes: ""
+    theological_principle:
+      done: true
+      notes: >
+        God makes Himself known by name as a promise to act, and keeps it; the NT gives the divine
+        name and its titles to Jesus (Philippians 2:9-11 from Isaiah 45:23; Romans 10:13 from Joel
+        2:32; John 8:58; John 17:11). Consistent with statement-of-faith.md (Trinity, deity of
+        Christ; it cites Matthew 28:19's single 'name'). No conflict.
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: false
+    cross_refs: []
+    translations_compared: []
+    divergences_noted: ""
+  drafting:
+    done: false
+    file: ""
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "Exodus 17:16's first clause is obscure in Hebrew (CSB/NLT footnotes); do not build on it."
+  - "Isaiah 7:14 almah/parthenos: out of scope; one sentence at most, pointing to the footnote fork."
+  - "Jeremiah 23:6 as a play on Zedekiah's name: plausible, unverified here; omit."
+  - "Enrichment for as-the-snake-was-lifted.md: Exodus 17:15 YHWH Nissi uses the same nes."
+resources_consulted:
+  - {type: lexicon, title: "MACULA Hebrew WLC; unfoldingWord ULT/UHB interlinear", note: "forms, counts, first occurrences"}
+  - {type: other, title: "Brenton LXX (ebible-grcbrent)", note: "Exodus 3:14; Genesis 17:1; Ruth 1:20; Job 5:17"}
+  - {type: lexicon, title: "TWOT (root map)", note: "Shaddai 2333 'sufficient'"}
+  - {type: commentary, title: "ESV Study Bible", note: "Exodus 3:13-15; 6:2-8 notes checked after exegesis -- confirmed the 3:12/3:14 link and the 'known in experience' reading of 6:3; contributed the Genesis 4:26 etc. list"}
+  - {type: other, title: "CSB, LSB, NLT footnotes", note: "Exodus 3:14 alternatives; Exodus 17:16 obscure; Deuteronomy 6:4"}
+last_updated: "2026-10-18"

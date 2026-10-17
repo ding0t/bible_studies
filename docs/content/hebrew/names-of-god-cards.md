@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 3:14-15"
 bible_references: ["Exodus 3:14-15", "Psalm 22:1", "Genesis 1:1", "Genesis 15:2", "Genesis 17:1", "Genesis 14:19", "Genesis 16:13", "Genesis 22:14", "Exodus 15:26", "Exodus 17:15", "Judges 6:24", "Isaiah 6:3", "Joshua 3:10", "Isaiah 7:14", "Isaiah 9:6", "Jeremiah 23:6", "Psalm 24:8", "Psalm 34:8", "Nehemiah 8:17", "Matthew 1:21"]
 date_created: 2026-10-17
-date_modified: 2026-10-17
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -56,7 +56,14 @@ in the table, say its sound, then read the word.
 
 ## Learning a card
 
-Take one card a day. Read the front aloud, letter by letter, then turn it over to check the
+**On screen**, choose **Practise on screen** above the cards. It shows one card at a time: read the
+word, show the reading to check yourself, then mark it **Again** or **I read it**. It introduces
+three new cards a day, in the deck's order, and brings each card back when it is due: the next
+day, then after three days, a week, two weeks and a month. **Hear it** reads the word aloud in your
+device's Hebrew voice, where it has one, and always says *Adonai* for the name of God. Your progress
+is kept in this browser only.
+
+**On paper**, take one card a day. Read the front aloud, letter by letter, then turn it over to check the
 reading and learn the meaning. Each time you read it correctly on a later day, tick a circle: **1,
 2, 4, 7, 14 and 30 days** after you learn it. Widening gaps like these are what fix a word in
 long-term memory.
