@@ -66,9 +66,10 @@ Lewis Sperry Chafer's *Systematic Theology* and Charles Ryrie's *Basic Theology*
 | **Feasts** | *Appointed times* | 263 | The biblical feasts and calendars: their Old Testament instruction, their observance, and their fulfilment |
 | **Biblical figures** | *(Biography)* | — | Studies of particular people in Scripture — the twelve disciples, the patriarchs, the prophets, the kings |
 | **Sermons** | Homiletics | 251, 252 | Sermon notes, teaching material, and guidance on preparing to teach |
-| **Resources** | — | — | Guides to external material: source catalogues, language-learning aids, and reference tools |
+| **Learn Hebrew** | — | 492.4 | A course in reading the Hebrew Bible, taken in order: the alphabet and vowels, pronunciation, printable writing sheets and word cards |
+| **Resources** | — | — | Guides to external material: source catalogues, study aids, and reference tools |
 
-The last two sit alongside the studies rather than inside them, because they describe *how* material
+The last three sit alongside the studies rather than inside them, because they describe *how* material
 is delivered or *where* it comes from rather than what subject it treats.
 
 ### These sections are top-level

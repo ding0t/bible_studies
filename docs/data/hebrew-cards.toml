@@ -1,0 +1,204 @@
+# Hebrew word cards, printed from docs/content/hebrew/ pages with <!-- hebrew-cards: <deck> -->.
+#
+# After editing, from references/build run:
+#     uv run python export_hebrew_cards.py
+# which checks every Hebrew word against STEPBible's TAHOT at the card's verse (a word that is not
+# there fails the export), takes its syllables, stress and Strong's number from TAHOT, checks the
+# quotation against the ESV in study-notes.db, works out which letters each card introduces, and
+# writes docs/data/hebrew-cards.json (committed -- CI cannot reach either database).
+#
+#   hebrew   The words as the verse writes them, vowel points and all, separated by spaces. A word
+#            may be one part of a TAHOT word: אֵל matches the אֵל in לְאֵל.
+#   ref      The verse the Hebrew is taken from, numbered as English Bibles number it.
+#   name     The name as the card titles it.
+#   popular  Optional. The form people know it by, where that differs from what the verse says.
+#   meaning  The English, short enough for a card.
+#   quote    Words from the ESV of `quote_ref` (default `ref`), copied exactly; the export fails if
+#            they are not there.
+#   modern   One line on the word in Hebrew spoken today.
+#   divine   true for the four-letter name: the card says "read Adonai" and gives no respelling.
+#
+# Cards print in this order. Each one adds a few letters, so working through the deck in order
+# teaches the alphabet; the export prints the running count.
+
+[deck.names-of-god]
+title = "The Names of God"
+
+[[deck.names-of-god.card]]
+hebrew = "אֵלִי"
+ref = "Psalm 22:1"
+name = "Eli"
+meaning = "my God"
+quote = "My God, my God, why have you forsaken me?"
+modern = "El (אֵל) lives on inside names: Michael, Daniel, Israel."
+
+[[deck.names-of-god.card]]
+hebrew = "אֱלֹהִים"
+ref = "Genesis 1:1"
+name = "Elohim"
+meaning = "God"
+quote = "In the beginning, God created the heavens and the earth."
+modern = "Still the everyday word for God."
+
+[[deck.names-of-god.card]]
+hebrew = "אֲדֹנָי"
+ref = "Genesis 15:2"
+name = "Adonai"
+meaning = "Lord, my Lord"
+quote = "O Lord GOD, what will you give me"
+modern = "Adoni (אֲדוֹנִי), \"sir\", is everyday polite address."
+
+[[deck.names-of-god.card]]
+hebrew = "יְהוָה"
+ref = "Exodus 3:15"
+name = "YHWH"
+meaning = "the LORD, God's own name"
+quote = "This is my name forever"
+modern = "Read aloud as Adonai; in conversation many say HaShem, \"the Name\"."
+divine = true
+
+[[deck.names-of-god.card]]
+hebrew = "אֶהְיֶה אֲשֶׁר אֶהְיֶה"
+ref = "Exodus 3:14"
+name = "Ehyeh asher Ehyeh"
+meaning = "I AM WHO I AM"
+quote = "I AM WHO I AM."
+modern = "Ehyeh (אֶהְיֶה) is ordinary future tense today: \"I will be\"."
+
+[[deck.names-of-god.card]]
+hebrew = "אֵל שַׁדַּי"
+ref = "Genesis 17:1"
+name = "El Shaddai"
+meaning = "God Almighty"
+quote = "I am God Almighty; walk before me, and be blameless"
+modern = "Shaddai is written on the back of the scroll inside a mezuzah."
+
+[[deck.names-of-god.card]]
+hebrew = "אֵל עֶלְיוֹן"
+ref = "Genesis 14:19"
+name = "El Elyon"
+meaning = "God Most High"
+quote = "Blessed be Abram by God Most High, Possessor of heaven and earth"
+modern = "Elyon means \"supreme\": Israel's Supreme Court is Beit HaMishpat HaElyon."
+
+[[deck.names-of-god.card]]
+hebrew = "אֵל רֳאִי"
+ref = "Genesis 16:13"
+name = "El Roi"
+meaning = "the God who sees"
+quote = "You are a God of seeing"
+modern = "From ra'ah (רָאָה), \"see\": lehitra'ot, \"see you\", means goodbye."
+
+[[deck.names-of-god.card]]
+hebrew = "יְהוָה יִרְאֶה"
+ref = "Genesis 22:14"
+name = "YHWH Yireh"
+popular = "Jehovah Jireh"
+meaning = "the LORD will see to it, will provide"
+quote = "The LORD will provide"
+modern = "The same verb as El Roi: yir'eh is \"he will see\"."
+divine = true
+
+[[deck.names-of-god.card]]
+hebrew = "יְהוָה רֹפְאֶךָ"
+ref = "Exodus 15:26"
+name = "YHWH Rofekha"
+popular = "Jehovah Rapha"
+meaning = "the LORD your healer"
+quote = "I am the LORD, your healer."
+modern = "A rofe (רוֹפֵא) is a doctor."
+divine = true
+
+[[deck.names-of-god.card]]
+hebrew = "יְהוָה נִסִּי"
+ref = "Exodus 17:15"
+name = "YHWH Nissi"
+meaning = "the LORD is my banner"
+quote = "The LORD Is My Banner"
+modern = "Nes (נֵס) now means \"miracle\": nes gadol hayah sham, \"a great miracle happened there\"."
+divine = true
+
+[[deck.names-of-god.card]]
+hebrew = "יְהוָה שָׁלוֹם"
+ref = "Judges 6:24"
+name = "YHWH Shalom"
+meaning = "the LORD is peace"
+quote = "The LORD Is Peace."
+modern = "Shalom is hello and goodbye."
+divine = true
+
+[[deck.names-of-god.card]]
+hebrew = "יְהוָה צְבָאוֹת"
+ref = "Isaiah 6:3"
+name = "YHWH Tsevaot"
+popular = "the LORD of Sabaoth"
+meaning = "the LORD of hosts"
+quote = "Holy, holy, holy is the LORD of hosts"
+modern = "Tsava (צָבָא) is an army: the IDF is Tsva HaHaganah LeYisrael."
+divine = true
+
+[[deck.names-of-god.card]]
+hebrew = "אֵל חַי"
+ref = "Joshua 3:10"
+name = "El Chai"
+meaning = "the living God"
+quote = "the living God is among you"
+modern = "Chai (חַי) is \"alive\": the toast l'chaim is \"to life\"."
+
+[[deck.names-of-god.card]]
+hebrew = "עִמָּנוּ אֵל"
+ref = "Isaiah 7:14"
+name = "Immanuel"
+meaning = "God with us"
+quote = "Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel."
+modern = "Imanu (עִמָּנוּ), \"with us\", is still everyday Hebrew."
+
+[[deck.names-of-god.card]]
+hebrew = "אֵל גִּבּוֹר"
+ref = "Isaiah 9:6"
+name = "El Gibbor"
+meaning = "Mighty God"
+quote = "and his name shall be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace."
+modern = "A gibbor (גִּבּוֹר) is a hero."
+
+[[deck.names-of-god.card]]
+hebrew = "יְהוָה צִדְקֵנוּ"
+ref = "Jeremiah 23:6"
+name = "YHWH Tsidkenu"
+meaning = "the LORD is our righteousness"
+quote = "The LORD is our righteousness."
+modern = "Tsedek (צֶדֶק) is justice; tsedakah (צְדָקָה) is charity."
+divine = true
+
+[[deck.names-of-god.card]]
+hebrew = "מֶלֶךְ הַכָּבוֹד"
+ref = "Psalm 24:8"
+name = "Melekh HaKavod"
+meaning = "the King of glory"
+quote = "Who is this King of glory?"
+modern = "Kavod (כָּבוֹד) is honour or respect: kol hakavod, \"well done\"."
+
+[[deck.names-of-god.card]]
+hebrew = "עִזּוּז וְגִבּוֹר"
+ref = "Psalm 24:8"
+name = "Izzuz veGibbor"
+meaning = "strong and mighty"
+quote = "The LORD, strong and mighty"
+modern = "From oz (עֹז), \"strength\"."
+
+[[deck.names-of-god.card]]
+hebrew = "טוֹב"
+ref = "Psalm 34:8"
+name = "Tov"
+meaning = "good"
+quote = "Oh, taste and see that the LORD is good!"
+modern = "Boker tov (בֹּקֶר טוֹב) is \"good morning\"."
+
+[[deck.names-of-god.card]]
+hebrew = "יֵשׁוּעַ"
+ref = "Nehemiah 8:17"
+name = "Yeshua"
+meaning = "the LORD saves: the name of Jesus"
+quote = "you shall call his name Jesus, for he will save his people from their sins."
+quote_ref = "Matthew 1:21"
+modern = "Yeshuah (יְשׁוּעָה) is \"salvation\"."

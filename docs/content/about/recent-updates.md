@@ -4,7 +4,7 @@ category: "other"
 description: "A running list of the studies and pages on this site that have been newly published or most recently revised."
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-10-08
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -697,7 +697,7 @@ when it is revised.
 
     Learn to read the Hebrew Bible for free with Aleph with Beth: how the course works, the video playlist, the learning schedule, the printed transcripts and grammar, and other helps.
 
-    :material-update: Updated 10 October 2026 · [:octicons-arrow-right-24: Read](../resources/hebrew-learning-resources.md)
+    :material-update: Updated 10 October 2026 · [:octicons-arrow-right-24: Read](../hebrew/aleph-with-beth.md)
 
 -   __Hebrew Roots of Christianity__
 

@@ -1,0 +1,742 @@
+{
+ "sources": {
+  "hebrew": "STEPBible TAHOT (Translators Amalgamated Hebrew OT), CC BY, STEPBible.org",
+  "ESV": "ESV® Bible, © 2001 by Crossway. Used by permission. All rights reserved."
+ },
+ "decks": {
+  "names-of-god": {
+   "title": "The Names of God",
+   "cards": [
+    {
+     "hebrew": "אֵלִי",
+     "ref": "Psalm 22:1",
+     "name": "Eli",
+     "popular": "",
+     "meaning": "my God",
+     "quote": "My God, my God, why have you forsaken me?",
+     "quote_ref": "Psalm 22:1",
+     "modern": "El (אֵל) lives on inside names: Michael, Daniel, Israel.",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֵלִי",
+       "t": [
+        "'e",
+        "li"
+       ],
+       "s": 1,
+       "strongs": "H410",
+       "paleo": "𐤀𐤋𐤉"
+      }
+     ],
+     "new_letters": [
+      "א",
+      "ל",
+      "י"
+     ],
+     "new_finals": [],
+     "letters_known": 3
+    },
+    {
+     "hebrew": "אֱלֹהִים",
+     "ref": "Genesis 1:1",
+     "name": "Elohim",
+     "popular": "",
+     "meaning": "God",
+     "quote": "In the beginning, God created the heavens and the earth.",
+     "quote_ref": "Genesis 1:1",
+     "modern": "Still the everyday word for God.",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֱלֹהִים",
+       "t": [
+        "'e",
+        "lo",
+        "him"
+       ],
+       "s": 2,
+       "strongs": "H430",
+       "paleo": "𐤀𐤋𐤄𐤉𐤌"
+      }
+     ],
+     "new_letters": [
+      "ה",
+      "מ"
+     ],
+     "new_finals": [
+      "ם"
+     ],
+     "letters_known": 5
+    },
+    {
+     "hebrew": "אֲדֹנָי",
+     "ref": "Genesis 15:2",
+     "name": "Adonai",
+     "popular": "",
+     "meaning": "Lord, my Lord",
+     "quote": "O Lord GOD, what will you give me",
+     "quote_ref": "Genesis 15:2",
+     "modern": "Adoni (אֲדוֹנִי), \"sir\", is everyday polite address.",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֲדֹנָי",
+       "t": [
+        "'a",
+        "do",
+        "nai"
+       ],
+       "s": 2,
+       "strongs": "H136",
+       "paleo": "𐤀𐤃𐤍𐤉"
+      }
+     ],
+     "new_letters": [
+      "ד",
+      "נ"
+     ],
+     "new_finals": [],
+     "letters_known": 7
+    },
+    {
+     "hebrew": "יְהוָה",
+     "ref": "Exodus 3:15",
+     "name": "YHWH",
+     "popular": "",
+     "meaning": "the LORD, God's own name",
+     "quote": "This is my name forever",
+     "quote_ref": "Exodus 3:15",
+     "modern": "Read aloud as Adonai; in conversation many say HaShem, \"the Name\".",
+     "divine": true,
+     "words": [
+      {
+       "w": "יְהוָה",
+       "t": [],
+       "s": null,
+       "strongs": "H3068",
+       "paleo": "𐤉𐤄𐤅𐤄"
+      }
+     ],
+     "new_letters": [
+      "ו"
+     ],
+     "new_finals": [],
+     "letters_known": 8
+    },
+    {
+     "hebrew": "אֶהְיֶה אֲשֶׁר אֶהְיֶה",
+     "ref": "Exodus 3:14",
+     "name": "Ehyeh asher Ehyeh",
+     "popular": "",
+     "meaning": "I AM WHO I AM",
+     "quote": "I AM WHO I AM.",
+     "quote_ref": "Exodus 3:14",
+     "modern": "Ehyeh (אֶהְיֶה) is ordinary future tense today: \"I will be\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֶהְיֶה",
+       "t": [
+        "'eh",
+        "yeh"
+       ],
+       "s": 1,
+       "strongs": "H1961",
+       "paleo": "𐤀𐤄𐤉𐤄"
+      },
+      {
+       "w": "אֲשֶׁר",
+       "t": [
+        "'a",
+        "sher"
+       ],
+       "s": 1,
+       "strongs": "H834",
+       "paleo": "𐤀𐤔𐤓"
+      },
+      {
+       "w": "אֶהְיֶה",
+       "t": [
+        "'eh",
+        "yeh"
+       ],
+       "s": 1,
+       "strongs": "H1961",
+       "paleo": "𐤀𐤄𐤉𐤄"
+      }
+     ],
+     "new_letters": [
+      "ש",
+      "ר"
+     ],
+     "new_finals": [],
+     "letters_known": 10
+    },
+    {
+     "hebrew": "אֵל שַׁדַּי",
+     "ref": "Genesis 17:1",
+     "name": "El Shaddai",
+     "popular": "",
+     "meaning": "God Almighty",
+     "quote": "I am God Almighty; walk before me, and be blameless",
+     "quote_ref": "Genesis 17:1",
+     "modern": "Shaddai is written on the back of the scroll inside a mezuzah.",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֵל",
+       "t": [
+        "'el"
+       ],
+       "s": null,
+       "strongs": "H410",
+       "paleo": "𐤀𐤋"
+      },
+      {
+       "w": "שַׁדַּי",
+       "t": [
+        "sha",
+        "dai"
+       ],
+       "s": 1,
+       "strongs": "H7706",
+       "paleo": "𐤔𐤃𐤉"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 10
+    },
+    {
+     "hebrew": "אֵל עֶלְיוֹן",
+     "ref": "Genesis 14:19",
+     "name": "El Elyon",
+     "popular": "",
+     "meaning": "God Most High",
+     "quote": "Blessed be Abram by God Most High, Possessor of heaven and earth",
+     "quote_ref": "Genesis 14:19",
+     "modern": "Elyon means \"supreme\": Israel's Supreme Court is Beit HaMishpat HaElyon.",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֵל",
+       "t": [
+        "'el"
+       ],
+       "s": 0,
+       "strongs": "H410",
+       "paleo": "𐤀𐤋"
+      },
+      {
+       "w": "עֶלְיוֹן",
+       "t": [
+        "el",
+        "yon"
+       ],
+       "s": 1,
+       "strongs": "H5945",
+       "paleo": "𐤏𐤋𐤉𐤅𐤍"
+      }
+     ],
+     "new_letters": [
+      "ע"
+     ],
+     "new_finals": [
+      "ן"
+     ],
+     "letters_known": 11
+    },
+    {
+     "hebrew": "אֵל רֳאִי",
+     "ref": "Genesis 16:13",
+     "name": "El Roi",
+     "popular": "",
+     "meaning": "the God who sees",
+     "quote": "You are a God of seeing",
+     "quote_ref": "Genesis 16:13",
+     "modern": "From ra'ah (רָאָה), \"see\": lehitra'ot, \"see you\", means goodbye.",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֵל",
+       "t": [
+        "'el"
+       ],
+       "s": null,
+       "strongs": "H410",
+       "paleo": "𐤀𐤋"
+      },
+      {
+       "w": "רֳאִי",
+       "t": [
+        "ro",
+        "'i"
+       ],
+       "s": 1,
+       "strongs": "H7210",
+       "paleo": "𐤓𐤀𐤉"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 11
+    },
+    {
+     "hebrew": "יְהוָה יִרְאֶה",
+     "ref": "Genesis 22:14",
+     "name": "YHWH Yireh",
+     "popular": "Jehovah Jireh",
+     "meaning": "the LORD will see to it, will provide",
+     "quote": "The LORD will provide",
+     "quote_ref": "Genesis 22:14",
+     "modern": "The same verb as El Roi: yir'eh is \"he will see\".",
+     "divine": true,
+     "words": [
+      {
+       "w": "יְהוָה",
+       "t": [],
+       "s": null,
+       "strongs": "H3068",
+       "paleo": "𐤉𐤄𐤅𐤄"
+      },
+      {
+       "w": "יִרְאֶה",
+       "t": [
+        "yir",
+        "'eh"
+       ],
+       "s": 1,
+       "strongs": "H7200",
+       "paleo": "𐤉𐤓𐤀𐤄"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 11
+    },
+    {
+     "hebrew": "יְהוָה רֹפְאֶךָ",
+     "ref": "Exodus 15:26",
+     "name": "YHWH Rofekha",
+     "popular": "Jehovah Rapha",
+     "meaning": "the LORD your healer",
+     "quote": "I am the LORD, your healer.",
+     "quote_ref": "Exodus 15:26",
+     "modern": "A rofe (רוֹפֵא) is a doctor.",
+     "divine": true,
+     "words": [
+      {
+       "w": "יְהוָה",
+       "t": [],
+       "s": null,
+       "strongs": "H3068",
+       "paleo": "𐤉𐤄𐤅𐤄"
+      },
+      {
+       "w": "רֹפְאֶךָ",
+       "t": [
+        "ro",
+        "fe",
+        "'e",
+        "kha"
+       ],
+       "s": 2,
+       "strongs": "H7495",
+       "paleo": "𐤓𐤐𐤀𐤊"
+      }
+     ],
+     "new_letters": [
+      "פ",
+      "כ"
+     ],
+     "new_finals": [
+      "ך"
+     ],
+     "letters_known": 13
+    },
+    {
+     "hebrew": "יְהוָה נִסִּי",
+     "ref": "Exodus 17:15",
+     "name": "YHWH Nissi",
+     "popular": "",
+     "meaning": "the LORD is my banner",
+     "quote": "The LORD Is My Banner",
+     "quote_ref": "Exodus 17:15",
+     "modern": "Nes (נֵס) now means \"miracle\": nes gadol hayah sham, \"a great miracle happened there\".",
+     "divine": true,
+     "words": [
+      {
+       "w": "יְהוָה",
+       "t": [],
+       "s": null,
+       "strongs": "H3068",
+       "paleo": "𐤉𐤄𐤅𐤄"
+      },
+      {
+       "w": "נִסִּי",
+       "t": [
+        "ni",
+        "si"
+       ],
+       "s": 1,
+       "strongs": "H5251",
+       "paleo": "𐤍𐤎𐤉"
+      }
+     ],
+     "new_letters": [
+      "ס"
+     ],
+     "new_finals": [],
+     "letters_known": 14
+    },
+    {
+     "hebrew": "יְהוָה שָׁלוֹם",
+     "ref": "Judges 6:24",
+     "name": "YHWH Shalom",
+     "popular": "",
+     "meaning": "the LORD is peace",
+     "quote": "The LORD Is Peace.",
+     "quote_ref": "Judges 6:24",
+     "modern": "Shalom is hello and goodbye.",
+     "divine": true,
+     "words": [
+      {
+       "w": "יְהוָה",
+       "t": [],
+       "s": null,
+       "strongs": "H3068",
+       "paleo": "𐤉𐤄𐤅𐤄"
+      },
+      {
+       "w": "שָׁלוֹם",
+       "t": [
+        "sha",
+        "lom"
+       ],
+       "s": 1,
+       "strongs": "H7965",
+       "paleo": "𐤔𐤋𐤅𐤌"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 14
+    },
+    {
+     "hebrew": "יְהוָה צְבָאוֹת",
+     "ref": "Isaiah 6:3",
+     "name": "YHWH Tsevaot",
+     "popular": "the LORD of Sabaoth",
+     "meaning": "the LORD of hosts",
+     "quote": "Holy, holy, holy is the LORD of hosts",
+     "quote_ref": "Isaiah 6:3",
+     "modern": "Tsava (צָבָא) is an army: the IDF is Tsva HaHaganah LeYisrael.",
+     "divine": true,
+     "words": [
+      {
+       "w": "יְהוָה",
+       "t": [],
+       "s": null,
+       "strongs": "H3068",
+       "paleo": "𐤉𐤄𐤅𐤄"
+      },
+      {
+       "w": "צְבָאוֹת",
+       "t": [
+        "tze",
+        "va",
+        "'ot"
+       ],
+       "s": null,
+       "strongs": "H6635",
+       "paleo": "𐤑𐤁𐤀𐤅𐤕"
+      }
+     ],
+     "new_letters": [
+      "צ",
+      "ב",
+      "ת"
+     ],
+     "new_finals": [],
+     "letters_known": 17
+    },
+    {
+     "hebrew": "אֵל חַי",
+     "ref": "Joshua 3:10",
+     "name": "El Chai",
+     "popular": "",
+     "meaning": "the living God",
+     "quote": "the living God is among you",
+     "quote_ref": "Joshua 3:10",
+     "modern": "Chai (חַי) is \"alive\": the toast l'chaim is \"to life\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֵל",
+       "t": [
+        "'el"
+       ],
+       "s": null,
+       "strongs": "H410",
+       "paleo": "𐤀𐤋"
+      },
+      {
+       "w": "חַי",
+       "t": [
+        "chai"
+       ],
+       "s": null,
+       "strongs": "H2416",
+       "paleo": "𐤇𐤉"
+      }
+     ],
+     "new_letters": [
+      "ח"
+     ],
+     "new_finals": [],
+     "letters_known": 18
+    },
+    {
+     "hebrew": "עִמָּנוּ אֵל",
+     "ref": "Isaiah 7:14",
+     "name": "Immanuel",
+     "popular": "",
+     "meaning": "God with us",
+     "quote": "Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel.",
+     "quote_ref": "Isaiah 7:14",
+     "modern": "Imanu (עִמָּנוּ), \"with us\", is still everyday Hebrew.",
+     "divine": false,
+     "words": [
+      {
+       "w": "עִמָּנוּ",
+       "t": [
+        "'i",
+        "ma",
+        "nu"
+       ],
+       "s": 1,
+       "strongs": "H6005",
+       "paleo": "𐤏𐤌𐤍𐤅"
+      },
+      {
+       "w": "אֵל",
+       "t": [
+        "'el"
+       ],
+       "s": 0,
+       "strongs": "H6005",
+       "paleo": "𐤀𐤋"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 18
+    },
+    {
+     "hebrew": "אֵל גִּבּוֹר",
+     "ref": "Isaiah 9:6",
+     "name": "El Gibbor",
+     "popular": "",
+     "meaning": "Mighty God",
+     "quote": "and his name shall be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.",
+     "quote_ref": "Isaiah 9:6",
+     "modern": "A gibbor (גִּבּוֹר) is a hero.",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֵל",
+       "t": [
+        "'el"
+       ],
+       "s": null,
+       "strongs": "H410",
+       "paleo": "𐤀𐤋"
+      },
+      {
+       "w": "גִּבּוֹר",
+       "t": [
+        "gi",
+        "bor"
+       ],
+       "s": 1,
+       "strongs": "H1368",
+       "paleo": "𐤂𐤁𐤅𐤓"
+      }
+     ],
+     "new_letters": [
+      "ג"
+     ],
+     "new_finals": [],
+     "letters_known": 19
+    },
+    {
+     "hebrew": "יְהוָה צִדְקֵנוּ",
+     "ref": "Jeremiah 23:6",
+     "name": "YHWH Tsidkenu",
+     "popular": "",
+     "meaning": "the LORD is our righteousness",
+     "quote": "The LORD is our righteousness.",
+     "quote_ref": "Jeremiah 23:6",
+     "modern": "Tsedek (צֶדֶק) is justice; tsedakah (צְדָקָה) is charity.",
+     "divine": true,
+     "words": [
+      {
+       "w": "יְהוָה",
+       "t": [],
+       "s": null,
+       "strongs": "H3068",
+       "paleo": "𐤉𐤄𐤅𐤄"
+      },
+      {
+       "w": "צִדְקֵנוּ",
+       "t": [
+        "tzid",
+        "ke",
+        "nu"
+       ],
+       "s": 1,
+       "strongs": "H6664",
+       "paleo": "𐤑𐤃𐤒𐤍𐤅"
+      }
+     ],
+     "new_letters": [
+      "ק"
+     ],
+     "new_finals": [],
+     "letters_known": 20
+    },
+    {
+     "hebrew": "מֶלֶךְ הַכָּבוֹד",
+     "ref": "Psalm 24:8",
+     "name": "Melekh HaKavod",
+     "popular": "",
+     "meaning": "the King of glory",
+     "quote": "Who is this King of glory?",
+     "quote_ref": "Psalm 24:8",
+     "modern": "Kavod (כָּבוֹד) is honour or respect: kol hakavod, \"well done\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "מֶלֶךְ",
+       "t": [
+        "me",
+        "lekh"
+       ],
+       "s": 0,
+       "strongs": "H4428",
+       "paleo": "𐤌𐤋𐤊"
+      },
+      {
+       "w": "הַכָּבוֹד",
+       "t": [
+        "ha",
+        "ka",
+        "vod"
+       ],
+       "s": 2,
+       "strongs": "H3519",
+       "paleo": "𐤄𐤊𐤁𐤅𐤃"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 20
+    },
+    {
+     "hebrew": "עִזּוּז וְגִבּוֹר",
+     "ref": "Psalm 24:8",
+     "name": "Izzuz veGibbor",
+     "popular": "",
+     "meaning": "strong and mighty",
+     "quote": "The LORD, strong and mighty",
+     "quote_ref": "Psalm 24:8",
+     "modern": "From oz (עֹז), \"strength\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "עִזּוּז",
+       "t": [
+        "'i",
+        "zuz"
+       ],
+       "s": 1,
+       "strongs": "H5808",
+       "paleo": "𐤏𐤆𐤅𐤆"
+      },
+      {
+       "w": "וְגִבּוֹר",
+       "t": [
+        "ve",
+        "gi",
+        "bor"
+       ],
+       "s": 2,
+       "strongs": "H1368",
+       "paleo": "𐤅𐤂𐤁𐤅𐤓"
+      }
+     ],
+     "new_letters": [
+      "ז"
+     ],
+     "new_finals": [],
+     "letters_known": 21
+    },
+    {
+     "hebrew": "טוֹב",
+     "ref": "Psalm 34:8",
+     "name": "Tov",
+     "popular": "",
+     "meaning": "good",
+     "quote": "Oh, taste and see that the LORD is good!",
+     "quote_ref": "Psalm 34:8",
+     "modern": "Boker tov (בֹּקֶר טוֹב) is \"good morning\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "טוֹב",
+       "t": [
+        "tov"
+       ],
+       "s": 0,
+       "strongs": "H2895",
+       "paleo": "𐤈𐤅𐤁"
+      }
+     ],
+     "new_letters": [
+      "ט"
+     ],
+     "new_finals": [],
+     "letters_known": 22
+    },
+    {
+     "hebrew": "יֵשׁוּעַ",
+     "ref": "Nehemiah 8:17",
+     "name": "Yeshua",
+     "popular": "",
+     "meaning": "the LORD saves: the name of Jesus",
+     "quote": "you shall call his name Jesus, for he will save his people from their sins.",
+     "quote_ref": "Matthew 1:21",
+     "modern": "Yeshuah (יְשׁוּעָה) is \"salvation\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "יֵשׁוּעַ",
+       "t": [
+        "ye",
+        "shu",
+        "a'"
+       ],
+       "s": 1,
+       "strongs": "H3442",
+       "paleo": "𐤉𐤔𐤅𐤏"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 22
+    }
+   ]
+  }
+ }
+}

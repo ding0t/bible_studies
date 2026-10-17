@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-13
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -541,9 +541,14 @@ existing commentary index immediately.
 - **Memory verses in Hebrew.** A few key verses to learn in the original, like Genesis 1:1, which
   [Verses Quoted Well](../scripture/verses-quoted-well.md) already gives with its Hebrew and
   pronunciation.
-- **The aleph-bet.** Expand the material on [Hebrew Learning
-  Resources](../resources/hebrew-learning-resources.md): the first week, the words, and the link to
+- **The aleph-bet.** Expand the material on [Aleph with
+  Beth](../hebrew/aleph-with-beth.md): the first week, the words, and the link to
   the videos. Make sure there is material on the basics, such as learning the alphabet.
+  *Started 2026-10-17:* [Learn Hebrew](../hebrew/index.md) is now its own section, with the
+  alphabet and vowels, a pronunciation guide and a names-of-God flashcard deck. Still to come: A4
+  writing sheets for the square, Paleo-Hebrew and cursive scripts, a Three Scripts page, a Names of
+  God study in God, and the Shema read letter by letter. Plan and decisions:
+  `references/study-state/learn-hebrew-section.yml`.
 
 ## 2. Jesus
 

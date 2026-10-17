@@ -1,11 +1,11 @@
 ---
-title: "Hebrew Learning Resources"
+title: "Aleph with Beth: A Free Hebrew Course"
 category: "other"
 description: "Learn to read the Hebrew Bible for free with Aleph with Beth: how the course works, the video playlist, the learning schedule, the printed transcripts and grammar, and other helps."
 tags: ["lang/hebrew", "learning", "courses"]
 draft: false
-date_created: 2025-04-24
-date_modified: 2026-10-10
+date_created: 2026-10-17
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -146,7 +146,7 @@ transcripts are free online, and Bethany Case has also published them in print.
 
 ## On this site
 
-- [Hebrew Alphabet](hebrew-alphabet.md) — the letters, their names, sounds and transliterations,
+- [Hebrew Alphabet](alphabet.md) — the letters, their names, sounds and transliterations,
   for reference while you learn.
 - Every Hebrew word tagged on a study (for example *shaqed*, H8247) opens a word card when you tap
   it, with its meaning and where else it occurs.

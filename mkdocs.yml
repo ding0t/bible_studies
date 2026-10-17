@@ -55,6 +55,8 @@ hooks:
   - hooks/new_pages.py
   # Replaces <!-- memory-verses --> with printable A4 card sheets. See hooks/memory_verses.py.
   - hooks/memory_verses.py
+  # Replaces <!-- hebrew-cards: <deck> --> with printable A4 word cards. See hooks/hebrew_cards.py.
+  - hooks/hebrew_cards.py
   # Replaces <!-- subject-wheel --> with the home page's wheel of studies per section.
   - hooks/subject_wheel.py
   # A strip of the drawn plates each section's studies embed, on its landing page.
@@ -85,6 +87,10 @@ plugins:
         'resources/site-architecture.md': 'about/site-architecture.md'
         # Test the Spirits became a study of recognising false teachers and moved beside Hurt by the Church on 2026-10-10.
         'spiritual-beings/test-the-spirits.md': 'christian-life/test-the-spirits.md'
+        # The Hebrew pages left Resources for their own section, Learn Hebrew, on 2026-10-17: a course
+        # taken in order rather than a source catalogue.
+        'resources/hebrew-alphabet.md': 'hebrew/alphabet.md'
+        'resources/hebrew-learning-resources.md': 'hebrew/aleph-with-beth.md'
         # commentary_index.py once read "Jude 12" as chapter 12 and generated pages for chapters Jude
         # does not have. Removed 2026-10-10; the old URLs land on the one real chapter.
         'commentaries/65-jude/chapter-006.md': 'commentaries/65-jude/chapter-001.md'
@@ -395,9 +401,9 @@ plugins:
         'bible/how-to-read-the-bible.md': 'scripture/how-to-read-the-bible.md'
         'bible/index.md': 'commentaries/index.md'
         'bible/translations.md': 'scripture/translations.md'
-        'hebrew-studies/hebrew-alphabet.md': 'resources/hebrew-alphabet.md'
-        'hebrew-studies/index.md': 'resources/index.md'
-        'hebrew-studies/resources.md': 'resources/hebrew-learning-resources.md'
+        'hebrew-studies/hebrew-alphabet.md': 'hebrew/alphabet.md'
+        'hebrew-studies/index.md': 'hebrew/index.md'
+        'hebrew-studies/resources.md': 'hebrew/aleph-with-beth.md'
         'investigation/deliverance/christians-and-deliverance.md': 'spiritual-beings/deliverance/christians-and-deliverance.md'
         'investigation/deliverance/contemporary-deliverance.md': 'spiritual-beings/deliverance/contemporary-deliverance.md'
         'investigation/deliverance/index.md': 'spiritual-beings/deliverance/index.md'
@@ -474,6 +480,7 @@ extra_css:
   - assets/stylesheets/new-pages.css
   - assets/stylesheets/video-embed.css
   - assets/stylesheets/memory-verses.css
+  - assets/stylesheets/hebrew.css
   - assets/stylesheets/home.css
 
 # Verse and word pop-ups on every page. The bundle is built by `npm run build:tools` (app/) and

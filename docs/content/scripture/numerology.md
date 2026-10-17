@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 119; Revelation 13:18"
 bible_references: ["Genesis 1:1", "Proverbs 25:2", "Deuteronomy 29:29", "Psalm 145:13", "Lamentations 1:1-22", "Lamentations 3:1-66", "Lamentations 5:1-22", "Proverbs 31:10-31", "Daniel 5:25-28", "Matthew 1:17", "Luke 14:28", "2 Timothy 3:16-17", "Revelation 13:18", "Deuteronomy 6:4", "Deuteronomy 19:15", "Jonah 1:17", "Matthew 12:40", "1 Corinthians 15:4", "Genesis 2:10", "Revelation 4:6-8", "Genesis 1:26-31", "Genesis 2:2-3", "Leviticus 23:1-44", "Genesis 17:12", "1 Peter 3:20", "Exodus 20:1-17", "Genesis 49:1-28", "Matthew 10:2-4", "Revelation 21:12-14", "Genesis 7:12", "Numbers 14:33-34", "Matthew 4:2"]
 date_created: 2025-12-13
-date_modified: 2026-10-09
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -91,7 +91,7 @@ of your law, and let what I find there send me back to obey your Son Jesus. In J
 Neither biblical Hebrew nor Koine Greek had a separate set of digit symbols. There is no Hebrew "7"
 the way there is an English 7. Each language used its own alphabet to count: א is 1, ב is 2, and so
 on up through ת at 400. The full value table lives on the
-[Hebrew alphabet](../resources/hebrew-alphabet.md#numbers) page.
+[Hebrew alphabet](../hebrew/alphabet.md#numbers) page.
 
 When a Hebrew writer wrote a number, he wrote letters, because that was the only way to write one.
 Every Hebrew word therefore *has* a numeric total, in the same way every English word has a length.
@@ -508,5 +508,5 @@ Where a number carries real weight in a passage, the study of that passage says 
 - Gordon D. Fee and Douglas Stuart, *How to Read the Bible for All Its Worth* — the
   exegesis-before-hermeneutics discipline behind this site's [How to Read the
   Bible](how-to-read-the-bible.md).
-- [Hebrew Alphabet](../resources/hebrew-alphabet.md) — letter values, pronunciation and
+- [Hebrew Alphabet](../hebrew/alphabet.md) — letter values, pronunciation and
   transliteration.

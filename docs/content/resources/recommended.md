@@ -5,7 +5,7 @@ description: "Sites, tools and channels I use alongside these studies: short exp
 tags: ["learning"]
 draft: false
 date_created: 2026-10-09
-date_modified: 2026-10-15
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -92,7 +92,7 @@ the end times, which makes them useful to compare.
 - [Desiring God, Affirmation of Faith](https://www.desiringgod.org/affirmation-of-faith#0.1_1): John
   Piper's ministry. A detailed Reformed Baptist statement.
 - [Aleph with Beth](https://freehebrew.online/statement-of-faith/): the statement of the free Hebrew
-  course on [Hebrew Learning Resources](hebrew-learning-resources.md). It describes Christ's return
+  course this site recommends ([Aleph with Beth](../hebrew/aleph-with-beth.md)). It describes Christ's return
   without naming a rapture or millennium.
 
 ## Behind these studies
@@ -121,4 +121,4 @@ The texts, lexicons and commentaries every study here is checked against.
 
 </div>
 
-For learning the language itself, see [Hebrew Learning Resources](hebrew-learning-resources.md).
+For learning the language itself, see [Learn Hebrew](../hebrew/index.md) and [Aleph with Beth](../hebrew/aleph-with-beth.md).

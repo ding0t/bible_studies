@@ -47,6 +47,7 @@ SECTION_BLURBS = {
     "god/dreams-and-visions/personal-examples": "The author's own personal dream accounts, kept as testimony rather than Scripture.",
     "commentaries": "Verse-by-verse commentary, organized by book, with auto-linked studies (see commentary_index.py).",
     "sermons": "Sermon notes, teaching material, and guidance on preparing to teach.",
+    "hebrew": "A course in reading the Hebrew Bible, taken in order: the letters, the sounds, and the names of God.",
     "resources": "External sources, tools, and datasets this project draws on.",
     "about": "About this project, its taxonomy, and its statement of faith.",
 }

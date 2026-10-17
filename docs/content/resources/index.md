@@ -4,7 +4,7 @@ category: "other"
 description: "External sources, tools, and datasets this project draws on."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-10-15
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -17,22 +17,6 @@ External sources, tools, and datasets this project draws on.
 
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
-
--   __Hebrew Alphabet__
-
-    ---
-
-    Introduction to Hebrew letters, pronunciations, and transliterations
-
-    [:octicons-arrow-right-24: Read](hebrew-alphabet.md)
-
--   __Hebrew Learning Resources__
-
-    ---
-
-    Learn to read the Hebrew Bible for free with Aleph with Beth: how the course works, the video playlist, the learning schedule, the printed transcripts and grammar, and other helps.
-
-    [:octicons-arrow-right-24: Read](hebrew-learning-resources.md)
 
 -   __Jewish Literature & Primary Sources__
 

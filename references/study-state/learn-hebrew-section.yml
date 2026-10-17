@@ -1,0 +1,59 @@
+slug: learn-hebrew-section
+title: "Learn Hebrew: a top-level section with a path, printables and card decks"
+status: in-progress
+started: 2026-10-17
+
+why: >
+  The author asked (2026-10-17) for help starting Hebrew, biblical and modern: A4 printables for
+  the ancient, biblical and modern scripts and for writing them; flashcards with the word in
+  biblical and modern Hebrew, its pronunciation and meaning, starting with the names of God; and a
+  note on how pronunciation differs between communities (Israeli vs American Jews). Backlog 1.3
+  ("Learning Hebrew") asked for the alphabet basics too.
+
+decisions:
+  section: >
+    Top-level /hebrew/ ("Learn Hebrew"), beside Sermons and Resources outside the theology loci:
+    it is a course taken in order, not a source catalogue. The two Hebrew pages move there from
+    /resources/ with redirects. The Names of God *study* is Theology Proper and belongs in /god/;
+    /hebrew/ owns the card deck and links to the study.
+  pronunciation: >
+    The site standard is modern Israeli pronunciation -- what every study's respelling already
+    uses (bereshit, ha'arets), what TAHOT's syllabified transliteration gives, and what a learner
+    hears from Israeli speakers. Academic transliteration (SBL: ḥ, ṭ, ʿ) stays as a column for
+    reading commentaries. Ashkenazi, Yemenite and the academic reconstruction get an awareness
+    page, not a second standard.
+  divine-name: >
+    Cards print יְהוָה as the Masoretic text does, say it is read "Adonai", and never give a
+    stressed respelling of "Yahweh" (no source records its stress -- see export_memory_verses.py
+    _DIVINE_NAME). Any future audio must speak "Adonai" for it.
+  names-as-written: >
+    A card prints the verse's own words, with the popular label beneath: Exodus 15:26 is
+    יְהוָה רֹפְאֶךָ "the LORD your healer" (popularly "YHWH Rapha"); Genesis 22:14 is
+    יְהוָה יִרְאֶה "the LORD will see" ("Jehovah Jireh").
+  spelling-source: >
+    Every Hebrew word on a card is checked by the exporter against TAHOT at the card's source
+    verse; a mismatch fails the export. Nothing typed from memory ships.
+  letter-order: >
+    The names deck is ordered so each card adds a few new letters; the exporter computes and prints
+    "new letters" per card, so the claim cannot drift from the data.
+
+done:
+  - 2026-10-17 scaffold /hebrew/ (index as the learning path, .pages, nav, redirects from
+    resources/ and the older hebrew-studies/ URLs, inbound links, taxonomy row, section_index blurb)
+  - 2026-10-17 alphabet page rewritten (22 letters, finals, vowels, Israeli standard, biblical
+    column, academic column, Paleo column, dagesh corrected)
+  - 2026-10-17 pronunciation page (traditions table, Shabbat/Shabbos comparisons, the divine name)
+  - 2026-10-17 names-of-God deck -- 21 cards, all 22 letters by card 20, finals ך ם ן (not ף ץ).
+    The exporter's checks caught two of my own source choices: 1 Samuel 1:3 has the name as
+    לַיהוָה (prefixed, so pointed differently) and was swapped for Isaiah 6:3; and TAHOT's
+    paragraph marks had to be stripped before matching.
+  - 2026-10-17 three unlinked third-party PDFs removed from assets/img/
+
+todo:
+  - A4 writing sheets -- square print, paleo-Hebrew (Noto Sans Phoenician), cursive (needs a
+    licensed cursive font; none chosen yet), with ruled guides and right-to-left rows
+  - "Three Scripts" page (paleo, square, cursive; Siloam inscription; 11Q5 writing the divine
+    name in paleo-Hebrew -- verify before citing)
+  - Names of God study in /god/ via develop-bible-study
+  - "Read your first verse": the Shema letter by letter
+  - later: on-screen spaced-review deck; he-IL speech buttons (never speaking the divine name)

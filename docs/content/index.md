@@ -4,7 +4,7 @@ category: "other"
 description: "Personal Bible study notes: the Old and New Testaments read in context, with word studies in the original languages and every claim traceable to a source."
 draft: false
 date_created: 2026-07-10
-date_modified: 2026-10-09
+date_modified: 2026-10-17
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -58,7 +58,7 @@ The studies have a focus on:
 - Understanding faith in God as described in the Old and New Testaments of the Bible, in order to be prepared to explain the truth in love.
 - Exegetical and expository [original-language studies](about/about-our-datasets.md). That is using source texts to elicit meaning sometimes lost in just one or more English translations.
 - Bible end times. Scripture says we are in the last days, and it matters to know where we stand with God before hard days arrive.
-- Starting the journey of [learning biblical Hebrew](resources/hebrew-learning-resources.md).
+- Starting the journey of [learning biblical Hebrew](hebrew/index.md).
 - Answering little [side quests](god/world-population-declares-gods-creation-and-biblical-truth.md) that come up.
 - Keeping a [tidy house](about/our-taxonomy.md).
 

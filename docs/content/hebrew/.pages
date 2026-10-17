@@ -1,0 +1,10 @@
+title: Learn Hebrew
+# Learning order, not alphabetical: letters first, then how they sound, then words to read with
+# them, then the course to keep going with. "..." keeps any new page visible until it is placed.
+nav:
+  - index.md
+  - alphabet.md
+  - pronunciation.md
+  - names-of-god-cards.md
+  - aleph-with-beth.md
+  - ...
