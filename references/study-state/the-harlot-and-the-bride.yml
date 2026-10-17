@@ -1,0 +1,40 @@
+slug: "the-harlot-and-the-bride"
+title: "The Harlot and the Bride"
+status: drafting # drafted 2026-10-17 as draft: true
+target_path: "docs/content/last-things/the-harlot-and-the-bride.md"
+primary_passage: "Revelation 17:1-6"
+word_budget: 4000
+
+# Brief (author, 2026-10-17): from the Sexual Immorality bride section -- "a pattern of those who
+# follow Satan as the bride anti-pattern"; new study, link to the sin study and the bride study.
+# Framing agreed with the author: Scripture's two women (the harlot and the Bride); Satan is the
+# deceiver and the power behind the harlot, never her bridegroom. Placement: last-things.
+
+genre: [apocalyptic, prophets, wisdom, epistle]
+statement_of_faith: "End times: dispensational, pretribulational. Babylon falls in the seventh bowl (Revelation 16:19); the church is caught up before; Revelation 18:4 addressed to God's people then, the call already the church's via 2 Corinthians 6:17. Bride of Christ study: Israel the LORD's wife (restored), church the Bride -- kept consistent."
+thesis: "Scripture sets two women before every person, the harlot, who seduces with luxury and sorcery and is devoured by the beast she rides, and the Bride, whom the Lamb washes, clothes and marries, and God calls His people to come out of the one and make ready for the other."
+
+sibling_studies:
+  - {slug: "last-things/new-jerusalem.md", role: cited, use: link, note: "Already has the Revelation 17 / 21 table (invitation, wilderness/mountain, adornment, forehead name, city). Link, do not repeat."}
+  - {slug: "israel-and-church/bride-of-christ.md", role: cited, use: link, note: "Israel the wife restored (Hosea 2), church the Bride; 2 Corinthians 11:2."}
+  - {slug: "israel-and-church/wife-of-the-lamb.md", role: cited, use: link, note: "Revelation 19 and 21."}
+  - {slug: "sin/sexual-immorality.md", role: prose, use: link, note: "Bride section; add an inbound link when this study is published."}
+
+research:
+  - "Revelation 17:1 and 21:9 identical up to the object: δεῦρο, δείξω σοι (NA28)."
+  - "πόρνη G4204 in Revelation 5x, all Babylon (17:1, 5, 15, 16; 19:2). νύμφη G3565 in Revelation 4x: 18:23 (silenced in Babylon), 21:2, 21:9, 22:17 (macula-greek-sblgnt)."
+  - "Revelation 17:16 μισήσουσιν; contrast Ephesians 5:29."
+  - "Harlotry + sorcery: LXX 2 Kings 9:22 πορνεῖαι ... φάρμακα (Jezebel); LXX Nahum 3:4 πόρνη ... πορνείᾳ ... φαρμάκοις (Nineveh); Revelation 18:23 φαρμακείᾳ (G5331); Revelation 9:21; 21:8; 22:15 φάρμακοι (G5333) and πόρνοι."
+  - "Revelation 17:4 ποτήριον χρυσοῦν = LXX Jeremiah 28:7 (MT 51:7) ποτήριον χρυσοῦν. Revelation 18:7 χήρα οὐκ εἰμί ~ LXX Isaiah 47:8 οὐ καθιῶ χήρα. Revelation 18:23 ~ Jeremiah 25:10 (bridegroom/bride, millstones, lamp). Revelation 18:4 ἐξέλθατε ... ἐξ αὐτῆς ~ LXX Isaiah 52:11 ἐξέλθατε ἐκ μέσου αὐτῆς; MT Jeremiah 51:45 (absent from LXX). bible_trace found no derived link for these verses; the echoes are stated from the shared words, and the study does not claim quotation."
+  - "בָּבֶל H894 = Babel (Genesis 10:10; 11:9) and Babylon."
+  - "ESVSB note on Revelation 17:1-19:10: futurist readings (religious entity, rebuilt Babylon, revived Roman empire)."
+
+decisions:
+  - "2026-10-17, author: last-things placement; two-women framing."
+  - "Draft links out to published studies only. Inbound links (sexual-immorality.md bride section, bride-of-christ.md, new-jerusalem.md) are added in the commit that publishes this study."
+
+drafting:
+  done: true
+  file: "docs/content/last-things/the-harlot-and-the-bride.md"
+  notes: "All ESV quotations verified with study_verse on 2026-10-17. Next: review-bible-study, simplify, read-bible-study; then publish with inbound links."
+last_updated: "2026-10-17"
