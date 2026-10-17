@@ -83,3 +83,8 @@ revision_2026-10-17:
     - "He defended them: Mark 10:11 'commits adultery against her' (μοιχᾶται ἐπ᾽ αὐτήν) and Matthew 19:10 added as the textual weight; Matthew 5:29 added under the lust heading; Luke 19:9 'son of Abraham' beside 'daughter of Abraham'."
     - "1 Peter 3:7 now quoted with 'as the weaker vessel'; companion study reads it."
     - "Comic: panel 5 aside Josephus -> Luke 24:11; caption 'The first witness' -> 'She went and told them'; panel 4 caption dropped to clear Mary Magdalene from the bubble; Mary of Bethany drawn seated (παρακαθεσθεῖσα); veil fixed for kneel/sit in utils/lib/comic.py. --verify all ok."
+read_2026-10-17:
+  changed:
+    - "He defended them (421 words) grouped into '### Marriage and lust' (166) and '### The overlooked and the despised' (236); bold labels kept."
+    - "Followers and funders (389) split at Mark 10:45 into '### One verb for their service and His' (215 / 174)."
+  result: "Longest section 421 -> 238; over 400: 1 -> 0. study_structure.py --verify-against HEAD: clean, no sentence changed. Study outline anchors unchanged (no ## heading renamed)."

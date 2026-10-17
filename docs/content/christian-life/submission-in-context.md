@@ -190,6 +190,8 @@ something about Christ to everyone who sees it. Paul's last word holds both call
 each one of you love his wife as himself, and let the wife see that she respects her husband"
 (5:33, ESV).
 
+### Christ's love made visible
+
 [![One verb for everyone: a relationship diagram in three panels. First, Ephesians 5:21-33. Over the whole household code stands 5:21, "submitting to one another out of reverence for Christ". In the Greek, 5:22 has no verb of its own (literally "wives, to your own husbands, as to the Lord"); it borrows "submitting" from 5:21, and 5:24 states it in full: "wives should submit in everything to their husbands." Beside the wives' instruction stands the husbands': love as Christ loved the church and gave himself up for her, nourish and cherish. The measure of both is Christ, who "loved us and gave himself up for us" (Ephesians 5:2). Second, 1 Corinthians 7:4 drawn as a mirror: the wife does not have authority over her own body, but the husband does; likewise the husband does not have authority over his own body, but the wife does. The same verb, exousiazei, runs both ways, joined by "likewise", and a dashed note adds 7:5's "except perhaps by agreement": each is given to the other, and neither is licensed to take. Third, the four New Testament uses of the verb exousiazō: 1 Corinthians 6:12 ("I will not be dominated by anything"), 7:4 twice, and Luke 22:25-26, where Jesus says the Gentile rulers exercise authority over people, "But not so with you." The plate closes with Luke 22:27, "I am among you as the one who serves."](../assets/img/submission-in-context/one-verb-for-everyone.svg)](../assets/img/submission-in-context/one-verb-for-everyone.svg)
 
 This shows that God's design for marriage is Christ's love made visible. He asks the wife to serve
@@ -247,12 +249,16 @@ entrusting himself to him who judges justly" (2:23, ESV); 3:1 begins "Likewise,"
 > way, showing honor to the woman as the weaker vessel, since they are heirs with you of the grace
 > of life, so that your prayers may not be hindered.
 
+### The wife who does not fear
+
 Two details in the Greek protect the wife. First, "do not fear anything that is frightening" is μὴ
 φοβούμεναι μηδεμίαν πτόησιν. πτόησις (*ptoēsis*, PTOH-ay-sis, G4423), "terror, intimidation,"
 occurs in the New Testament only here. It echoes the Septuagint of Proverbs 3:25, "you shall not
 fear πτόησιν," where the reason follows: "the LORD will be your confidence" (Proverbs 3:26, ESV).
 Peter commends a wife who does good and refuses to be ruled by fear. Submission that is extracted
 by intimidation is a different thing from the one he describes.
+
+### The weaker vessel, a fellow heir
 
 Second, the husband's verse. In Greek it runs: συνοικοῦντες κατὰ γνῶσιν ὡς ἀσθενεστέρῳ σκεύει τῷ
 γυναικείῳ, ἀπονέμοντες τιμὴν ὡς καὶ συγκληρονόμοις χάριτος ζωῆς (NA28), "living with them according
@@ -278,6 +284,8 @@ flesh is weak" (Matthew 26:41, ESV), and low standing, "God chose what is weak i
 mind or of faith, since the same sentence makes her a fellow heir. Whichever is meant, the text
 settles the husband's response: understanding and honour. The warning is severe: a husband who dishonours
 his wife will find his prayers "hindered," ἐγκόπτεσθαι (*enkoptesthai*, G1465).
+
+### Colossians 3:18-19: do not be harsh
 
 Paul's shortest version says the same: "Wives, submit to your husbands, as is fitting in the Lord.
 Husbands, love your wives, and do not be harsh with them" (Colossians 3:18-19, ESV). "Be harsh" is
@@ -334,6 +342,8 @@ began as a marginal note, and others hold them to be Paul's in either position.
 > she will be saved through childbearing—if they continue in faith and love and holiness, with
 > self-control.
 
+#### Four settled points
+
 Four things in the text are settled.
 
 - **"Let her learn" is a command**: μανθανέτω (*manthanetō*, G3129). Paul orders that women be taught.
@@ -348,6 +358,8 @@ Four things in the text are settled.
   case on the context.
 - **Paul gives reasons**, introduced by "for," γάρ: Adam was formed first, and the woman was deceived
   (2:13-14). Any reading has to explain why these are the reasons he gives.
+
+#### The two readings
 
 The two readings:
 
@@ -369,6 +381,8 @@ The two readings:
 Each reading has a question to answer from the text. The first must explain Priscilla, and why Paul
 adds Eve's deception if the ground is creation order alone. The second must explain why Paul grounds
 the instruction in creation, "Adam was formed first," and not in the local trouble.
+
+#### What both readings share
 
 What both readings share is the larger part of the question. Neither forbids women to learn, pray,
 prophesy, serve, give, lead in the church's ministries, teach other women and children, or tell

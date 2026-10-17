@@ -54,3 +54,13 @@ revision_2026-10-17:
     - "Removed unsourced cultural claims ('in a world where...', 1 Peter 'husband's gods') and the σύμφωνος/symphony etymology."
     - "Plate one-verb-for-everyone: wives card now includes 5:24."
   open: "4,483 words against 4,000 (Check 23); over-target sections: The mystery of one flesh, 1 Peter 3:1-7, 1 Timothy 2:11-15. Run simplify-bible-study, then read-bible-study."
+read_2026-10-17:
+  result: "read-bible-study pass, structure only; study_structure --verify-against HEAD clean (no sentence changed)."
+  added_headings:
+    - "### Christ's love made visible (plate + closing 'This shows' line, split from The mystery of one flesh)"
+    - "### The wife who does not fear / ### The weaker vessel, a fellow heir / ### Colossians 3:18-19: do not be harsh (under 1 Peter 3:1-7)"
+    - "#### Four settled points / #### The two readings / #### What both readings share (under 1 Timothy 2:11-15)"
+  measurements: "23 -> 30 sections; median 165 -> 139; longest 485 -> 305; over 400: 3 -> 0."
+  for_author:
+    - "'Two details in the Greek protect the wife' now heads the first of two sub-sections it introduces; reads fine, but a review pass may prefer to move it."
+    - "The plate (~230 words of alt text) is what made The mystery of one flesh long; image lines count in study_structure though not in validator Checks 20-23."

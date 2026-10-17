@@ -171,6 +171,8 @@ him and ministered to him," ἠκολούθουν αὐτῷ καὶ διηκό�
 (Mark 2:14; 8:34). These women followed Jesus in the full sense, from Galilee to Golgotha. When the
 disciples "all left him and fled" (Mark 14:50, ESV), "there were also women looking on from a distance" (15:40).
 
+### One verb for their service and His
+
 Jesus used the same verb for His own mission:
 
 > ✝️ Mark 10:45 (ESV)
@@ -218,6 +220,8 @@ living God" (Matthew 16:16, ESV).
 Again and again in the Gospels, Jesus stood between a woman and the people who would push her
 aside.
 
+### Marriage and lust
+
 **Against disposable marriage.** To the question "for any cause?" (Matthew 19:3) Jesus answered
 from creation: "from the beginning it was not so" (19:8), and "What therefore God has joined
 together, let not man separate" (19:6). He named Moses' concession as a concession to "your hardness
@@ -230,6 +234,8 @@ better not to marry" (Matthew 19:10, ESV).
 already committed adultery with her in his heart" (Matthew 5:28, ESV). Jesus put responsibility for
 lust on the man who looks, and the remedy He gives is the man's own: "If your right eye causes you
 to sin, tear it out and throw it away" (5:29, ESV).
+
+### The overlooked and the despised
 
 **For a woman everyone overlooked.** In a synagogue on the Sabbath He saw a woman bent over for
 eighteen years, "called her over," and laid His hands on her (Luke 13:12-13). When the ruler of the
