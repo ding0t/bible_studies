@@ -138,7 +138,7 @@ Scripture does not.
 - **`holds`** on a cast entry puts a prop in the near hand: `staff`, `scroll`, `stone`, `spear`,
   `jar`, `gift`, `loaf`, `lamp`, `yoke`, `robe` (a white robe held out, folded over the hand),
   `crown` (a gold victor's wreath, the στέφανος), `palm` (a palm branch, Revelation 7:9), `shofar`
-  (a ram's-horn trumpet, Ezekiel 33:3), `cup` (the golden cup, Revelation 17:4), and `load`, which goes on the back with the hand on its
+  (a ram's-horn trumpet, Ezekiel 33:3), `cup` (the golden cup, Revelation 17:4), `garment` (a cloth hanging from the fist, Genesis 39:12), and `load`, which goes on the back with the hand on its
   strap, for the heavy-laden (Matthew 11:28). Poses include `run` and `offer` (an arm held out
   with something in the hand).
 - **`point`** is the closing line under THE POINT ribbon: the study's sentence, landed on the
@@ -165,6 +165,7 @@ comic knows him in the next. Each is reserved once, in `FIGURES` in `utils/lib/c
 | `ezekiel` | Ezekiel | A priest's pale head cloth (Ezekiel 1:3) over a muted violet tunic, full beard | ezekiels-commission |
 | `moses` | Moses | Dusty blue tunic, pale head cloth, grey hair and full beard (eighty, Exodus 7:7); carries the staff (Exodus 4:2) | those-called-gods |
 | `daniel` | Daniel | Saffron courtier's tunic (Daniel 2:48), cream mantle | those-called-gods |
+| `joseph` | Joseph, son of Jacob | Young and clean-shaven (Genesis 39:6; 41:14), a jade tunic and no outer garment, the one he left in her hand (39:12) | sexual-immorality |
 | `magdalene` | Mary Magdalene | A plum-rose robe and a pale veil, a woman of means who provided for Jesus (Luke 8:2-3) | jesus-and-women |
 
 - **Reserve only a figure the text names.** The two witnesses are unnamed in Revelation 11 and
@@ -201,6 +202,7 @@ clones:
 | `child` | Smaller, bare-headed |
 | `bride` | Bright white linen and a white veil: the Bride as Revelation pictures God's people (19:7-8). Say in the caption that it is John's picture |
 | `harlot` | Royal purple, a scarlet veil and a gold girdle, "arrayed in purple and scarlet, and adorned with gold" (Revelation 17:4); `holds = "cup"` for the golden cup. Babylon as John pictures her, a city (17:18): say so in the caption or `note`, and do not draw the beast or name the city |
+| `egyptian` | An Egyptian woman of rank: pleated white linen, a black shoulder-length wig, a gold broad collar, bare-headed. Drawn for Potiphar's wife, whom Scripture leaves unnamed; the dress is period background, so the comic's `note` says so. `holds = "garment"` for Joseph's garment (Genesis 39:12) |
 | `robed` | A white robe and pale stole, no head cloth: one clothed in the robe "made white in the blood of the Lamb" (Revelation 7:14). Brighter than the priest's linen, so it reads as a gift and not an office |
 
 - **Faces stay blank, everyone's.** drawn-graphics.md rules out drawing the face of Jesus; a cast

@@ -94,6 +94,12 @@ CAST = {
     # unlike Ezekiel's violet or Mary Magdalene's plum, a scarlet veil and a gold girdle.
     "harlot": dict(name="the harlot", robes=["#4a1f5a"], edge="#2a1030", mantle="veil", mantle_fill="#a3202a",
                    belt=GOLD, beard=False),
+    # An Egyptian woman of rank, for Potiphar's wife (Genesis 39:7), whom Scripture does not name.
+    # Background, not Scripture: the pleated white linen sheath, the black shoulder-length wig and the
+    # gold broad collar of Egypt's wealthy households in tomb paintings. Genesis gives Egypt's fine
+    # linen and gold at Joseph's own rise (41:42). Bare-headed, set apart from the veiled cast.
+    "egyptian": dict(name="an Egyptian woman", robes=["#f6f1e2"], edge="#a99f88", mantle=None, hair="wig",
+                     hair_color="#15110d", collar=True, pleated=True, beard=False),
     "robed": dict(name="a believer in a white robe", robes=["#fdfbf5", "#f9f6ee"], edge="#a99f88",
                   mantle="stole", mantle_fill="#f4ecd6", hair="short", beard=True),
 }
@@ -162,6 +168,12 @@ FIGURES = {
                    mantle_fill="#e6d6a8", hair="short", beard=True,
                    why="An official of the Babylonian and Persian courts (Daniel 2:48; 6:1-3): a saffron courtier's tunic and "
                        "a cream mantle, a fixed choice, kept brighter than Andrew's mustard. Scripture gives no detail of his dress."),
+    "joseph": dict(name="Joseph", study="sin/sexual-immorality.md", robes=["#3a8a7a"], mantle=None,
+                   hair="short", beard=False, belt="#c9b48a",
+                   why="A young man, \"handsome in form and appearance\" (Genesis 39:6), drawn clean-shaven as he "
+                       "shaved to stand before Pharaoh (Genesis 41:14). A jade tunic and no outer garment: the "
+                       "garment he is remembered by was left in Potiphar's wife's hand (Genesis 39:12), drawn by "
+                       "the `garment` prop in sand gold."),
     "magdalene": dict(name="Mary Magdalene", study="jesus/jesus-and-women.md", robes=["#8a3b5c"], mantle="veil",
                       mantle_fill="#e7d3c4", beard=False,
                       why="A woman of means from Magdala who provided for Jesus and the Twelve (Luke 8:2-3), so a dyed plum-rose robe "
@@ -251,6 +263,12 @@ def _prop(kind, hand):
         # A ram's-horn trumpet raised to the lips (Ezekiel 33:3).
         return (f'<path d="M{hx - 2} {hy} Q{hx - 6} {hy - 16} {hx - 14} {hy - 22} Q{hx + 4} {hy - 30} {hx + 14} {hy - 12} '
                 f'Q{hx + 8} {hy - 12} {hx + 4} {hy - 2} Z" fill="#d9c08a" stroke="#7a6326" stroke-width="1"/>')
+    if kind == "garment":
+        # Joseph's garment, caught and left in her hand (Genesis 39:12): a cloth hanging from the fist.
+        return (f'<path d="M{hx - 4} {hy - 4} Q{hx + 8} {hy - 8} {hx + 10} {hy} Q{hx + 16} {hy + 22} {hx + 8} {hy + 40} '
+                f'Q{hx - 2} {hy + 44} {hx - 8} {hy + 36} Q{hx - 2} {hy + 18} {hx - 4} {hy - 4} Z" '
+                f'fill="#d9b26a" stroke="#8d7650" stroke-width="1"/>'
+                f'<path d="M{hx + 2} {hy + 2} Q{hx + 6} {hy + 20} {hx + 2} {hy + 38}" fill="none" stroke="#b8935a" stroke-width="1.2"/>')
     if kind == "cup":
         # The "golden cup" in the harlot's hand (Revelation 17:4; Jeremiah 51:7).
         return (f'<path d="M{hx - 7} {hy - 18} H{hx + 9} Q{hx + 8} {hy - 6} {hx + 1} {hy - 4} Q{hx - 6} {hy - 6} {hx - 7} {hy - 18} Z" '
@@ -329,6 +347,9 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
             # Skins (Genesis 3:21): darker blotches, so the tunic reads as hide.
             g.append('<g fill="#00000026"><ellipse cx="-7" cy="-62" rx="4" ry="3"/><ellipse cx="6" cy="-40" rx="5" ry="3.5"/>'
                      '<ellipse cx="-9" cy="-24" rx="3.5" ry="2.5"/><ellipse cx="9" cy="-66" rx="3" ry="2"/></g>')
+        if c.get("pleated"):
+            g.append('<path d="M-10 -40 L-13 -4 M-5 -42 L-6 -2 M0 -43 V-2 M5 -42 L6 -2 M10 -40 L13 -4" '
+                     'stroke="#00000018" stroke-width="0.9"/>')
         if c.get("ragged"):
             g.append(f'<rect x="-11" y="-30" width="7" height="6" fill="{_shade(robe)}" transform="rotate(-8 -8 -27)"/>'
                      f'<rect x="6" y="-58" width="6" height="5" fill="{_shade(robe)}"/>')
@@ -350,6 +371,10 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
     if c.get("hair") == "long":
         top.append(f'<path d="M-10 -94 Q-6 -105 6 -103 Q13 -101 14 -95 Q5 -97 -1 -93 Q-3 -84 -6 -72 '
                    f'Q-12 -72 -14 -76 Q-12 -84 -10 -94 Z" fill="{hair}"/>')
+    elif c.get("hair") == "wig":
+        # A shoulder-length Egyptian wig, squared off at the jaw.
+        top.append(f'<path d="M-12 -94 Q-8 -106 4 -105 Q15 -103 15 -94 L15 -86 Q9 -92 6 -95 Q2 -93 0 -90 '
+                   f'L0 -76 L-14 -76 Q-15 -86 -12 -94 Z" fill="{hair}"/>')
     elif c.get("hair") == "short":
         top.append(f'<path d="M-10 -93 Q-6 -105 6 -103 Q13 -101 14 -95 Q5 -97 -1 -93 Q-3 -86 -7 -82 '
                    f'Q-11 -86 -10 -93 Z" fill="{hair}"/>')
@@ -377,6 +402,10 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
         top.append(f'<path d="M-11 -92 Q-10 -106 3 -106 Q15 -105 15 -93 Z" fill="{c["mantle_fill"]}" stroke="{STONE_EDGE}" stroke-width="1"/>'
                    f'<path d="M-6 -106 Q2 -118 12 -106" fill="none" stroke="{RED}" stroke-width="4"/>'
                    f'<path d="M-11 -92 L-12 -80" stroke="{STONE_EDGE}" stroke-width="3"/>')
+    if c.get("collar"):
+        # A broad collar of gold and coloured beads across the shoulders.
+        top.append(f'<path d="M-13 -78 Q2 -66 15 -78 L15 -73 Q2 -60 -13 -73 Z" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="0.8"/>'
+                   f'<path d="M-11 -75 Q2 -66 13 -75" fill="none" stroke="#2f6f8f" stroke-width="1.4"/>')
     if c.get("phylactery"):
         top.append(f'<rect x="7" y="-106" width="7" height="6" fill="#1f1810" transform="rotate(18 10 -103)"/>')
     if c.get("beard") == "full":

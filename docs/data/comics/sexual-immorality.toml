@@ -1,0 +1,108 @@
+# One-minute comic for docs/content/sin/sexual-immorality.md.
+# Drawn by: python3 utils/build_comics.py sexual-immorality
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-17.
+#
+# The study's sentence in five beats: Corinth's slogans (1 Corinthians 6:12-13), Paul's answer that
+# the body is for the Lord (6:13), the reason, bought with a price (6:19-20), what fleeing looks like
+# (Joseph, Genesis 39:12, under 6:18), and the grace the argument stands on (6:11).
+# Panel 1: the quotation marks are the ESV's reading (Greek has none; NASB, LSB and NKJV omit them),
+# which the study follows and marks, so the panel's aside says so. The speakers are generic men of
+# Corinth; the text says only that some Corinthians said this.
+# Panel 2: Paul wrote from Ephesus (1 Corinthians 16:8), drawn writing with a scroll.
+# Panel 3: the price is "the precious blood of Christ" (1 Peter 1:18-19; Revelation 5:9), the study's
+# own grounding, so the crosses stand empty on the rise and the aside names the verse.
+# Panel 4: Potiphar's wife is unnamed in Scripture, so she is the generic `egyptian` (her dress is
+# background from Egyptian tomb painting, recorded in comic.py). She holds the garment (39:12);
+# her words are not drawn. Joseph runs for the door. His reason, "How then can I do this great
+# wickedness and sin against God?" (39:9), was said on an earlier day, so it is an aside, not a bubble.
+# Panel 5: "And such were some of you" (6:11), drawn as believers in white.
+
+title = "Flee, and Glorify God in Your Body"
+subtitle = "Sin and sexual immorality in one minute"
+layout = [[300, 3, 2], [300, 1], [320, 1, 1]]
+note = "Potiphar’s wife is unnamed in Scripture; her Egyptian dress is drawn from the period, not the text."
+point = "Your body is the Lord’s: He bought it, He will raise it, and it is joined to Him. So flee, and glorify God in your body (1 Corinthians 6:13-20)."
+
+[[panel]]
+ref = "1 Corinthians 6:12-13"
+scene = "street"
+sky = "day"
+caption = "Corinth: what some were saying."
+caption_w = 200
+aside = "The quotation marks are the ESV’s reading: Paul quotes them."
+aside_w = 200
+shows = "two men of Corinth talking in a city street"
+cast = [
+  { who = "man", id = "c1", name = "a Corinthian", x = 0.12, face = "right", pose = "open", tone = 4 },
+  { who = "man", id = "c2", name = "another Corinthian", x = 0.88, face = "left", pose = "point", tone = 2 },
+]
+say = [
+  { by = "c1", text = "All things are *lawful* for me", source = "esv", at = [0.33, 0.56], w = 110 },
+  { by = "c2", text = "Food is meant for the stomach and the stomach for food", source = "esv", at = [0.66, 0.56], w = 125 },
+]
+
+[[panel]]
+ref = "1 Corinthians 6:13"
+scene = "room"
+caption = "Paul answers."
+caption_w = 140
+shows = "Paul standing in a room, holding a scroll"
+cast = [
+  { who = "paul", x = 0.22, face = "right", pose = "raise", holds = "scroll", tag = "Paul" },
+]
+say = [
+  { by = "paul", text = "The body is not meant for sexual immorality, but *for the Lord*, and the Lord for the body.", source = "esv", at = [0.66, 0.40], w = 150 },
+]
+
+[[panel]]
+ref = "1 Corinthians 6:19-20"
+scene = "hills"
+sky = "dusk"
+grade = "warm"
+caption = "The reason: you were bought."
+caption_w = 220
+aside = "The price: “the precious blood of Christ” (1 Peter 1:18-19)."
+aside_w = 230
+shows = "three empty crosses on a rise at dusk; a believer in white stands looking up at them"
+props = [
+  { what = "crosses", x = 0.70, s = 0.8 },
+]
+cast = [
+  { who = "robed", id = "b", name = "a believer", x = 0.42, face = "right", pose = "heart", tone = 1 },
+]
+say = [
+  { by = "paul", name = "Paul", from = [-0.05, 0.3], style = "text", text = "You are not your own, for you were *bought with a price*. So glorify God in your body.", source = "esv", at = [0.17, 0.48], w = 170 },
+]
+
+[[panel]]
+ref = "Genesis 39:12; 1 Corinthians 6:18"
+scene = "courtyard"
+sky = "day"
+caption = "Joseph left his garment in her hand and fled."
+caption_w = 200
+aside = "His reason, settled before: “sin against God” (Genesis 39:9)."
+aside_w = 200
+shows = "Potiphar's wife, a rich Egyptian woman in white linen with a gold collar, holds Joseph's garment; Joseph runs for the doorway"
+cast = [
+  { who = "egyptian", id = "wife", name = "Potiphar’s wife", x = 0.16, face = "right", pose = "offer", holds = "garment" },
+  { who = "joseph", x = 0.84, face = "right", stance = "walk", pose = "run" },
+]
+say = [
+  { by = "paul", name = "Paul", from = [1.05, 0.3], style = "text", text = "*Flee* from sexual immorality.", source = "esv", at = [0.84, 0.10], w = 90 },
+]
+
+[[panel]]
+ref = "1 Corinthians 6:11"
+scene = "vista"
+horizon = 0.66
+sky = "dawn"
+grade = "warm"
+caption = "And such were some of you."
+caption_w = 180
+shows = "three believers in white robes standing in morning light, arms raised"
+cast = [
+  { who = "robed", id = "washed", name = "believers in white", n = 3, x = 0.14, x2 = 0.42, face = "right", pose = ["praise", "heart", "raise"] },
+]
+say = [
+  { by = "paul", name = "Paul", from = [1.05, 0.3], style = "text", text = "But you were *washed*, you were sanctified, you were justified", source = "esv", at = [0.74, 0.36], w = 130 },
+]
