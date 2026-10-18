@@ -5,7 +5,7 @@ description: "A study of the names the Bible gives Jesus, from the Old Testament
 tags: ["names-of-god", "christology", "deity-of-christ", "prophecy-fulfilled", "matthew", "john", "isaiah", "revelation", "lang/hebrew", "lang/greek", "method/word-study"]
 draft: false
 primary_passage: "Matthew 16:13-17"
-bible_references: ["Matthew 16:13-17", "Mark 8:29-31", "Psalm 2:2-7", "2 Samuel 7:12-16", "Daniel 9:25-26", "Deuteronomy 18:15-18", "Acts 3:22", "Matthew 17:5", "Psalm 110:1-4", "Matthew 22:41-46", "Hebrews 5:5-6", "Isaiah 9:6-7", "Isaiah 22:21", "Isaiah 11:1", "Jeremiah 23:5-6", "Zechariah 3:8", "Zechariah 6:12-13", "Numbers 24:17", "Revelation 22:16", "Ezekiel 34:23-24", "Isaiah 42:1", "Matthew 12:17-18", "Isaiah 52:13", "Isaiah 6:1", "Isaiah 57:15", "Isaiah 53:5-7", "Acts 8:32-35", "John 12:37-41", "Psalm 118:22", "Matthew 21:42", "Acts 4:11-12", "Daniel 7:13-14", "Matthew 1:21-23", "Luke 1:31-33", "Luke 2:11", "Mark 14:61-64", "John 12:34", "Acts 7:56", "John 6:35", "John 8:12", "John 10:9-11", "John 11:25-26", "John 14:6", "John 15:1-5", "John 8:58", "Mark 10:46-52", "John 4:42", "Luke 23:42-43", "John 20:28", "John 20:31", "John 1:1", "John 1:14", "John 1:29", "Philippians 2:9-11", "Hebrews 4:14-16", "1 Corinthians 15:45", "Isaiah 44:6", "Revelation 1:17-18", "Revelation 22:13", "Revelation 5:5-6", "Revelation 19:11-16"]
+bible_references: ["Matthew 16:13-17", "Mark 8:29-31", "Psalm 2:2-7", "2 Samuel 7:12-16", "Daniel 9:25-26", "Deuteronomy 18:15-18", "Acts 3:22", "Matthew 17:5", "Psalm 110:1-4", "Matthew 22:41-46", "Hebrews 5:5-6", "Isaiah 9:6-7", "Isaiah 22:21", "Isaiah 11:1", "Jeremiah 23:5-6", "Zechariah 3:8", "Zechariah 6:12-13", "Numbers 24:17", "Revelation 22:16", "Ezekiel 34:23-24", "Isaiah 42:1", "Matthew 12:17-18", "Isaiah 52:13", "Isaiah 53:3", "Isaiah 6:1", "Isaiah 57:15", "Isaiah 53:5-7", "Acts 8:32-35", "John 12:37-41", "Psalm 118:22", "Matthew 21:42", "Acts 4:11-12", "Daniel 7:13-14", "Matthew 1:21-23", "Luke 1:31-33", "Luke 2:11", "Mark 14:61-64", "John 12:34", "Acts 7:56", "John 6:35", "John 8:12", "John 10:9-11", "John 11:25-26", "John 14:6", "John 15:1-5", "John 8:58", "Mark 10:46-52", "John 4:42", "Luke 23:42-43", "John 20:28", "John 20:31", "John 1:1", "John 1:14", "John 1:29", "Philippians 2:9-11", "Hebrews 4:14-16", "1 Corinthians 15:45", "Isaiah 44:6", "Revelation 1:17-18", "Revelation 22:13", "Revelation 5:5-6", "Revelation 19:11-16"]
 date_created: 2026-10-18
 date_modified: 2026-10-18
 ai_provider_models:
@@ -87,7 +87,8 @@ and the thief, hear me now: have mercy on me, and remember me. In Jesus' name. A
 - ["Who do you say that I am?"](#who-do-you-say-that-i-am) The question at Caesarea Philippi, and
   Peter's two names for Jesus.
 - [Names promised before He came](#names-promised-before-he-came). The Old Testament's names for the
-  coming King, grouped by what He would be: [the Anointed](#the-anointed) · [a prophet like
+  coming King: the title that gathers them, the three offices, and three names no anointed man had
+  filled: [the Anointed](#the-anointed) · [a prophet like
   Moses](#a-prophet-like-moses) · [a priest forever](#a-priest-forever) · [Isaiah's four names
   for the King](#isaiahs-four-names-for-the-king) · [the Branch, the star and the
   shepherd](#the-branch-the-star-and-the-shepherd) · [the Servant](#the-servant-high-and-lifted-up)
@@ -138,9 +139,11 @@ follows what Jesus said next. The rest of this study gathers the Bible's answers
 
 The Old Testament named the King God would send, centuries before He was born. [The Names of
 God](../god/names-of-god.md#names-the-prophets-gave-the-coming-king) covers three of those names:
-Immanuel, Mighty God, and "The LORD is our righteousness". The others fall into the three offices
-Israel anointed men for (prophet, priest and king) and then into two names that no anointed man had
-filled: the Servant and the son of man.
+Immanuel, Mighty God, and "The LORD is our righteousness". The others begin with the title that
+gathers them, *the Anointed*. Then come the three offices Israel anointed men for (prophet, priest
+and king), and three names no anointed man had filled: the Servant, the rejected stone and the son
+of man. The Servant and the stone are both rejected by people and raised up by God (Isaiah 52:13;
+53:3; Psalm 118:22).
 
 ### The Anointed
 
@@ -213,7 +216,9 @@ God". The other three each say what kind of King He is.
 
 ### The Branch, the star and the shepherd
 
-**The Branch.** Isaiah saw the royal line cut down to a stump: "There shall come forth a shoot from
+#### The Branch
+
+Isaiah saw the royal line cut down to a stump: "There shall come forth a shoot from
 the stump of Jesse, and a branch from his roots shall bear fruit" (Isaiah 11:1, ESV). Jeremiah and
 Zechariah made "Branch" a name, <span dir="rtl">צֶמַח</span> (*tsemach*, TSEH-makh, H6780). Jeremiah's
 "righteous Branch" is named "The LORD is our righteousness" (Jeremiah 23:5-6), which [The Names of
@@ -222,13 +227,17 @@ God](../god/names-of-god.md#the-lord-is-our-righteousness) studies. Zechariah's 
 temple of the LORD and "sit and rule on his throne. And there shall be a priest on his throne"
 (Zechariah 6:12-13, ESV). The King and the Priest are one man again, as in Psalm 110.
 
-**The star out of Jacob.** Balaam, hired to curse Israel, saw its King far off: "I see him, but not
+#### The star out of Jacob
+
+Balaam, hired to curse Israel, saw its King far off: "I see him, but not
 now; I behold him, but not near: a star shall come out of Jacob, and a scepter shall rise out of
 Israel" (Numbers 24:17, ESV). The word is <span dir="rtl">כּוֹכָב</span> (*kokhav*, H3556). In the
 last chapter of the Bible Jesus takes the name: "I am the root and the descendant of David, the
 bright morning star" (Revelation 22:16, ESV).
 
-**The one shepherd.** After the shepherds of Israel had fed themselves and scattered the sheep,
+#### The one shepherd
+
+After the shepherds of Israel had fed themselves and scattered the sheep,
 God promised, "I will set up over them one shepherd, my servant David, and he shall feed them"
 (Ezekiel 34:23, ESV). The shepherd is <span dir="rtl">רֹעֶה</span> (*roʿeh*, H7473). Ezekiel wrote
 four centuries after David died, so "David" here is David's promised son. Jesus said, "I am the good
@@ -374,25 +383,33 @@ John rests on it. The One who is the bread and the light is the God who told Mos
 to people with nothing left. In the Gospels the movement runs the other way. People with nothing
 left called Jesus by name, and He answered each one.
 
-**"Son of David", from a blind beggar.** Bartimaeus sat by the road out of Jericho. "When he heard
+### "Son of David", from a blind beggar
+
+Bartimaeus sat by the road out of Jericho. "When he heard
 that it was Jesus of Nazareth, he began to cry out and say, 'Jesus, Son of David, have mercy on
 me!' And many rebuked him, telling him to be silent. But he cried out all the more" (Mark 10:47-48,
 ESV). "Son of David" was the King's name from 2 Samuel 7, and a blind man shouted it in public a few
 days before Jesus entered Jerusalem. "Jesus stopped and said, 'Call him'" (Mark 10:49, ESV), and
 Bartimaeus "immediately ... recovered his sight and followed him on the way" (Mark 10:52, ESV).
 
-**"Savior of the world", from Samaritans.** Jesus spent two days in a Samaritan town because of
+### "Savior of the world", from Samaritans
+
+Jesus spent two days in a Samaritan town because of
 one woman's testimony. Then the townspeople said, "we have heard for ourselves, and we know that this
 is indeed the Savior of the world" (John 4:42, ESV). Jews and Samaritans did not mix (John 4:9), and
 the people whom Israel kept out were the first to give Him this name. [The Woman at the
 Well](woman-at-well.md) tells their story.
 
-**"Jesus", from a dying thief.** One of the men crucified beside Him said, "Jesus, remember me when
+### "Jesus", from a dying thief
+
+One of the men crucified beside Him said, "Jesus, remember me when
 you come into your kingdom." Jesus answered, "Truly, I say to you, today you will be with me in
 paradise" (Luke 23:42-43, ESV). The thief had no time left to do anything. He called on the name,
 and that was enough.
 
-**"My Lord and my God", from a doubter.** Thomas would not believe the others had seen Jesus risen.
+### "My Lord and my God", from a doubter
+
+Thomas would not believe the others had seen Jesus risen.
 A week later Jesus came and showed him His wounds, and Thomas answered, <span lang="grc">ὁ κύριός
 μου καὶ ὁ θεός μου</span>, "My Lord and my God!" (John 20:28, ESV). Jesus accepted the words. John
 then says why he wrote his Gospel: "so that you may believe that Jesus is the Christ, the Son of
@@ -400,36 +417,48 @@ God, and that by believing you may have life in his name" (John 20:31, ESV).
 
 ## Names the apostles gave Him
 
-**The Word.** "In the beginning was the Word, and the Word was with God, and the Word was God"
+### The Word
+
+"In the beginning was the Word, and the Word was with God, and the Word was God"
 (John 1:1, ESV). <span lang="grc">ὁ λόγος</span> (*ho logos*, G3056) is God's speech. God created
 by speaking (Genesis 1:3), and the Word "became flesh and dwelt among us" (John 1:14, ESV). Jesus is
 what God says, and God has said it in a man.
 
-**The Lamb of God.** "Behold, the Lamb of God, who takes away the sin of the world!" (John 1:29,
+### The Lamb of God
+
+"Behold, the Lamb of God, who takes away the sin of the world!" (John 1:29,
 ESV). The word is <span lang="grc">ἀμνός</span> (*amnos*, G286), the Septuagint's word in Isaiah 53:7,
 where the Greek has the lamb silent before its shearer. It occurs only four times in the New Testament: John 1:29 and
 1:36, Acts 8:32 quoting Isaiah 53:7, and 1 Peter 1:19 ("a lamb without blemish or spot"). John the
 Baptist was naming Jesus as Isaiah's Servant. [Passover](../feasts/passover.md#the-lamb-of-god)
 studies the Lamb and the feast.
 
-**Lord.** <span lang="grc">κύριος</span> (*kyrios*, G2962) can be a polite "sir". It is also the
+### Lord
+
+<span lang="grc">κύριος</span> (*kyrios*, G2962) can be a polite "sir". It is also the
 word the Septuagint uses for the name *YHWH*. Paul gives it to Jesus in the confession "Jesus Christ
 is Lord" (Philippians 2:11), quoting the LORD's own oath in Isaiah 45:23. [The Names of
 God](../god/names-of-god.md#every-knee-and-everyone-who-calls) studies that passage.
 
-**The great high priest.** "Since then we have a great high priest who has passed through the
+### The great high priest
+
+"Since then we have a great high priest who has passed through the
 heavens, Jesus, the Son of God, let us hold fast our confession" (Hebrews 4:14, ESV). He can
 "sympathize with our weaknesses", having been "tempted as we are, yet without sin" (Hebrews 4:15,
 ESV). So you may "draw near to the throne of grace" (Hebrews 4:16, ESV).
 
-**The last Adam.** "The first man Adam became a living being; the last Adam became a life-giving
+### The last Adam
+
+"The first man Adam became a living being; the last Adam became a life-giving
 spirit" (1 Corinthians 15:45, ESV). Adam brought death to everyone who belongs to him. Jesus, the
 <span lang="grc">ἔσχατος Ἀδάμ</span> (*eschatos Adam*, G2078), brings resurrection life to everyone
 who belongs to Him (1 Corinthians 15:22-23).
 
 ## Names He will wear when He returns
 
-**The First and the Last.** Through Isaiah the LORD named Himself: "I am the first and I am the
+### The First and the Last
+
+Through Isaiah the LORD named Himself: "I am the first and I am the
 last; besides me there is no god" (Isaiah 44:6, ESV). John fell at the feet of the risen Jesus "as
 though dead", and Jesus laid His right hand on him:
 
@@ -444,14 +473,18 @@ God can say "besides me there is no god", and Jesus takes the title. He says it 
 the book: "I am the Alpha and the Omega, the first and the last, the beginning and the end"
 (Revelation 22:13, ESV). The first thing He says with it is "Fear not."
 
-**The Lion who is a Lamb.** In heaven no one could open the sealed scroll, and John wept. An elder
+### The Lion who is a Lamb
+
+In heaven no one could open the sealed scroll, and John wept. An elder
 told him, "Weep no more; behold, the Lion of the tribe of Judah, the Root of David, has conquered"
 (Revelation 5:5, ESV). John heard of a Lion, and then he "saw a Lamb standing, as though it had been
 slain" (Revelation 5:6, ESV). Revelation's word is <span lang="grc">ἀρνίον</span> (*arnion*, G721),
 which occurs 29 times in the book, 28 of them of Jesus (the other is the beast with "two
 horns like a lamb", Revelation 13:11, ESV). The King of Judah conquered by being killed.
 
-**Faithful and True, the Word of God, King of kings.** At the end of the age heaven opens.
+### Faithful and True, the Word of God, King of kings
+
+At the end of the age heaven opens.
 
 > ✝️ Revelation 19:11-13, 16 (ESV)
 >
