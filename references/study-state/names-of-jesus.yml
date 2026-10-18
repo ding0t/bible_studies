@@ -1,6 +1,6 @@
 slug: names-of-jesus
 title: "The Names of Jesus"
-status: drafting # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
 target_path: docs/content/jesus/names-of-jesus.md
 
 primary_passage: "Matthew 16:13-17"
@@ -114,7 +114,7 @@ stages:
     validated: false
     notes: ""
 
-back_links_on_publish:
+back_links_on_publish:  # all added 2026-10-18 in the publishing commit
   # Check 24: a published page may not link a draft, so these go in the commit that flips draft: false.
   - {file: god/names-of-god.md, where: "intro line and 'The name above every name' / On this site", say: "The Names of Jesus: the second half"}
   - {file: jesus/index.md, where: "section listing (section_index.py regenerates the card)", say: ""}

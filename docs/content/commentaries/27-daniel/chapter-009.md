@@ -24,6 +24,7 @@ draft: false
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 9:24-27
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 9:2-23
 - [The End of the Age](../../last-things/end-of-the-age.md) — 9:27
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 9:25-26
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 9:24-27
 - [The Rapture of the Church](../../last-things/rapture.md) — 9:27
 - [The Restrainer](../../last-things/the-restrainer.md) — 9:27

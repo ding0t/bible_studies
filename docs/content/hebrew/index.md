@@ -28,7 +28,9 @@ below builds on the one before, so take them in order.
 3. **[The Names of God: Word Cards](names-of-god-cards.md).** Twenty-one printable flashcards, in an
    order that adds a few letters at a time. Work through the deck and you will have met all 22
    letters, in the names God revealed Himself by. [The Names of God](../god/names-of-god.md) is the
-   study behind them.
+   study behind them. The [Names of Jesus word cards](names-of-jesus-cards.md) are a second deck of
+   18, the Old Testament's names for the coming Christ, each beside the verse that gives the name to
+   Jesus.
 4. **[Three Scripts](three-scripts.md) and [Writing Sheets](writing-sheets.md).** The same letters in
    Paleo-Hebrew, square script and modern cursive, where each comes from, and A4 sheets to practise
    writing them, including the names of God in all three.

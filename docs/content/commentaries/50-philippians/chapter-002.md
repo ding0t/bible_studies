@@ -19,5 +19,6 @@ draft: false
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 2:6-7
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 2:12-13
 - [The Names of God](../../god/names-of-god.md) — 2:9-11
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 2:9-11
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:15
 <!-- commentary-index:auto-end -->

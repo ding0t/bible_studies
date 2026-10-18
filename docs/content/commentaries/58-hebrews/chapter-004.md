@@ -27,6 +27,7 @@ draft: false
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 4:16
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 4:16
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 4:15
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 4:14-16
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 4:9-11
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 4:15
 <!-- commentary-index:auto-end -->

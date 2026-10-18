@@ -17,4 +17,5 @@ draft: false
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 2:36-38
 - [The Appointed Times](../../feasts/feasts.md) — 2:41
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 2:52
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 2:11
 <!-- commentary-index:auto-end -->

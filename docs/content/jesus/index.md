@@ -4,7 +4,7 @@ category: "other"
 description: "Who Christ is and what he did, including Old Testament prophecy fulfilled in him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-17
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -64,6 +64,14 @@ Who Christ is and what he did, including Old Testament prophecy fulfilled in him
     What a priest is, what 'the order of Melchizedek' means, and how Hebrews reads Genesis 14 and Psalm 110 to show that Jesus holds that priesthood forever.
 
     [:octicons-arrow-right-24: Read](melchizedek-priesthood.md)
+
+-   __The Names of Jesus__
+
+    ---
+
+    A study of the names the Bible gives Jesus, from the Old Testament's Anointed, Prophet, Priest, Branch and Servant to the Son of Man, the seven "I am" sayings, the names people cried out to Him, and the names He will wear when He returns: each one an answer to His question, "Who do you say that I am?"
+
+    [:octicons-arrow-right-24: Read](names-of-jesus.md)
 
 -   __Before Aaron: Who Offered Sacrifice?__
 

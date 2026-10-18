@@ -22,7 +22,8 @@ someone at the end of their own resources, each is a promise He has kept, and al
 name means "the LORD saves".
 
 This study is the theology behind the [Names of God word cards](../hebrew/names-of-god-cards.md),
-which teach the same names as Hebrew vocabulary, one letter at a time.
+which teach the same names as Hebrew vocabulary, one letter at a time. Its second half, [The Names
+of Jesus](../jesus/names-of-jesus.md), begins where this study ends, at the name of Jesus.
 
 ## Key Takeaways
 
@@ -494,7 +495,8 @@ onoma*, G3686): one name, shared by the Father, the Son and the Holy Spirit. The
 
 So every name meets in Jesus. In Him God is with us (Immanuel), sees and provides the Lamb (El Roi,
 YHWH Yireh), heals, is lifted up as the banner, gives peace, is our righteousness, and saves. The
-names were promises, and He has kept them. Call on Him by name, and you will be saved.
+names were promises, and He has kept them. Call on Him by name, and you will be saved. [The Names
+of Jesus](../jesus/names-of-jesus.md) follows the names the rest of Scripture gives Him.
 
 ## Discussion questions
 
@@ -542,3 +544,5 @@ names were promises, and He has kept them. Call on Him by name, and you will be 
 - [As the Snake Was Lifted Up](../jesus/as-the-snake-was-lifted.md): the *nes* and the cross.
 - [The Woman at the Well](../jesus/woman-at-well.md): the first "I am" in John.
 - [In Humility](../christian-life/humility.md): Philippians 2 and the name above every name.
+- [The Names of Jesus](../jesus/names-of-jesus.md): the names the prophets, the apostles and Jesus
+  Himself give the Son.

@@ -24,4 +24,5 @@ draft: false
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 6:38
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 6:22-35
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 6:35
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 6:35
 <!-- commentary-index:auto-end -->

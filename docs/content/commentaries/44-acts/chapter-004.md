@@ -16,6 +16,7 @@ draft: false
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 4:2
 - [John son of Zebedee](../../biblical-figures/john.md) — 4:13
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:24-31
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 4:11-12
 - [The Way](../../jesus/the-way.md) — 4:12
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 4:24-31
 <!-- commentary-index:auto-end -->

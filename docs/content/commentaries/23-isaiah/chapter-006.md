@@ -14,6 +14,7 @@ draft: false
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 6:2
 - [The Names of God](../../god/names-of-god.md) — 6:1
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 6:1
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 6:9-10
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 6:13
 <!-- commentary-index:auto-end -->

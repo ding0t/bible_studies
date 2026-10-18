@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 118:26
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 118:22
 <!-- commentary-index:auto-end -->

@@ -18,6 +18,7 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:9
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 5:8
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 5:6
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 5:5-6
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 5:9
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 5:5-9
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 5:10

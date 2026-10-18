@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 22:21
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 22:21
 <!-- commentary-index:auto-end -->

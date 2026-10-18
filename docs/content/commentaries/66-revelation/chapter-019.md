@@ -25,6 +25,7 @@ draft: false
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 19:1-9
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 19:7-8
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 19:7-9
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 19:11-16
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 19:7-8
 - [The Rapture of the Church](../../last-things/rapture.md) — 19:11-16
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 19:7-16

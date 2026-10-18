@@ -32,6 +32,7 @@ draft: false
 - [Chapter 20](chapter-020.md) — 3 study(ies)
 - [Chapter 21](chapter-021.md) — 4 study(ies)
 - [Chapter 23](chapter-023.md) — 2 study(ies)
+- [Chapter 24](chapter-024.md) — 1 study(ies)
 - [Chapter 25](chapter-025.md) — 2 study(ies)
 - [Chapter 26](chapter-026.md) — 1 study(ies)
 - [Chapter 27](chapter-027.md) — 1 study(ies)

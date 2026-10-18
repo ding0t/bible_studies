@@ -14,6 +14,7 @@ draft: false
 
 - [Simon Peter](../../biblical-figures/peter.md) — 16:13-20 (primary passage)
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 16:21-28 (primary passage)
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 16:13-17 (primary passage)
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 16:5-12
 - [Faith](../../salvation/faith.md) — 16:8-10
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 16:16

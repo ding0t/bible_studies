@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 16:13-20; John 21:15-19"
 bible_references: ["John 1:40-42", "Matthew 4:18-20", "Luke 5:1-11", "Matthew 14:28-31", "Luke 22:31-34", "Mark 14:66-72", "Acts 2:14-41", "Acts 10:1-48", "Galatians 2:11-14", "1 Peter 1:1", "Matthew 16:21-24", "Matthew 26:33-35", "Matthew 26:58", "Matthew 26:69-75", "Luke 22:61", "1 Peter 2:21", "1 Peter 5:5-6"]
 date_created: 2026-08-08
-date_modified: 2026-10-13
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -85,7 +85,7 @@ natural leader: he arrived as somebody's younger-brother introduction.
 Peter is the disciple who steps forward, and the pattern is consistent — a real insight followed by
 a real collapse, usually within the same chapter.
 
-- **He names Jesus rightly** and is told the insight was not his own: "You are the Christ, the Son of the living God" (Matthew 16:16), to which Jesus responds that "flesh and blood has not revealed this to you, but my Father who is in heaven" (16:17). Verses later, Peter rebukes Jesus for predicting the cross and is answered "Get behind me, Satan" (16:23).
+- **He names Jesus rightly** and is told the insight was not his own: "You are the Christ, the Son of the living God" (Matthew 16:16), to which Jesus responds that "flesh and blood has not revealed this to you, but my Father who is in heaven" (16:17). [The Names of Jesus](../jesus/names-of-jesus.md) gathers the Bible's other answers to the question Peter answered. Verses later, Peter rebukes Jesus for predicting the cross and is answered "Get behind me, Satan" (16:23).
 - **He walks on water and sinks** (Matthew 14:28-31) — the only disciple who got out of the boat, and the only one who needed pulling out of the lake.
 - **He denies Jesus three times** (Mark 14:66-72), having sworn hours earlier that he would not.
 - **He is restored three times** on the beach, question matched to denial: "Simon, son of John, do you love me?" (John 21:15-17). Jesus does not extract an apology; he issues a commission — *feed my sheep*.

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [In Humility](../../christian-life/humility.md) — 57:15
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 57:15
 <!-- commentary-index:auto-end -->

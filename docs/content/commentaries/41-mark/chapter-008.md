@@ -16,6 +16,7 @@ draft: false
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:34 (primary passage)
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 8:3
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 8:33
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 8:29-31
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 8:31
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 8:15
 <!-- commentary-index:auto-end -->

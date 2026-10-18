@@ -19,5 +19,6 @@ draft: false
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 8:12
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 8:12
 - [The Names of God](../../god/names-of-god.md) — 8:58
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 8:12
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 8:58
 <!-- commentary-index:auto-end -->

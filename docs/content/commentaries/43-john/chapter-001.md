@@ -31,6 +31,7 @@ draft: false
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 1:48-50
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 1:12
 - [The Names of God](../../god/names-of-god.md) — 1:29
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 1:1
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 1:35-51
 - [The Way](../../jesus/the-way.md) — 1:23
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 1:39

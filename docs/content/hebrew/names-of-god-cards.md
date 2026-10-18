@@ -27,7 +27,8 @@ the rest of the Old Testament He kept adding to it: the God who sees Hagar in th
 who provides on the mountain, the LORD who heals, the LORD our righteousness. Each name is something
 He has shown Himself to be, so learning them is learning what He has promised to be for you. The last
 card is the name He gave His Son, Jesus, *Yeshua*: "the LORD saves". [The Names of God](../god/names-of-god.md)
-is the study behind the cards: where each name was given, to whom, and what it promised.
+is the study behind the cards: where each name was given, to whom, and what it promised. The
+[Names of Jesus word cards](names-of-jesus-cards.md) begin where this deck ends, at *Yeshua*.
 
 ## How the deck teaches the letters
 

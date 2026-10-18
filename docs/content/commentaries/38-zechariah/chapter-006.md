@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 6:12-13
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 6:12-13
 <!-- commentary-index:auto-end -->

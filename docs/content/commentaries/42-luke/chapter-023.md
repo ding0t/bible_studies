@@ -18,5 +18,6 @@ draft: false
 - [Know the Truth](../../christian-life/know-the-truth.md) — 23:46
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 23:44-45
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 23:34
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 23:42-43
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 23:54
 <!-- commentary-index:auto-end -->

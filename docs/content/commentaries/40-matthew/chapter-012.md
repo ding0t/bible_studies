@@ -21,6 +21,7 @@ draft: false
 - [The End of the Age](../../last-things/end-of-the-age.md) — 12:32
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 12:39-42
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 12:28
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 12:17-18
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 12:48-50
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 12:35
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 12:23

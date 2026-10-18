@@ -17,6 +17,7 @@ draft: false
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:4
 - [Pride](../../sin/pride.md) — 1:51-52
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 1:8-13
+- [The Names of Jesus](../../jesus/names-of-jesus.md) — 1:31-33
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:17
 - [The Way](../../jesus/the-way.md) — 1:76-79
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 1:78-79
