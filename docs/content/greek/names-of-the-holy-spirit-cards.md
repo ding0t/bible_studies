@@ -8,7 +8,8 @@ primary_passage: "John 14:26"
 bible_references: ["John 3:8", "John 14:26", "John 15:26", "John 16:13", "Romans 8:9", "Romans 8:15", "Ephesians 1:14", "Romans 8:2", "Ephesians 1:17", "1 Peter 4:14", "Hebrews 9:14", "Hebrews 10:29", "Ephesians 1:13", "Galatians 4:6", "Acts 5:4"]
 date_created: 2026-10-18
 date_modified: 2026-10-18
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Names of the Holy Spirit: Greek word cards

@@ -8,7 +8,8 @@ primary_passage: "John 14:15-18"
 bible_references: ["Genesis 1:2", "Job 33:4", "1 Samuel 16:13-14", "Isaiah 11:1-3", "Isaiah 61:1", "Luke 4:18", "Psalm 51:11", "Isaiah 63:10-11", "Psalm 139:7", "Nehemiah 9:20", "Psalm 143:10", "Joel 2:28-29", "Ezekiel 36:26-27", "Ezekiel 37:9-14", "Zechariah 4:6", "Zechariah 12:10", "John 3:5-8", "John 7:37-39", "John 14:15-18", "John 14:26", "John 15:26", "John 16:7-8", "John 16:13-14", "John 20:22", "1 John 2:1", "Acts 1:4-5", "Acts 2:33", "Acts 5:3-4", "Acts 16:7", "Matthew 28:19", "2 Corinthians 13:14", "Romans 8:2", "Romans 8:9-11", "Romans 8:14-16", "Romans 8:26", "Galatians 4:6", "1 Corinthians 3:16", "1 Corinthians 12:3", "2 Corinthians 1:22", "2 Corinthians 3:17-18", "2 Corinthians 5:5", "Ephesians 1:13-14", "Ephesians 1:17", "Ephesians 4:30", "Philippians 1:19", "Hebrews 9:14", "Hebrews 10:29", "1 Peter 1:11", "1 Peter 4:14", "Revelation 1:4-5", "Revelation 22:17"]
 date_created: 2026-10-18
 date_modified: 2026-10-18
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Names of the Holy Spirit

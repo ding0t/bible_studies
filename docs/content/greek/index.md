@@ -6,7 +6,8 @@ tags: ["lang/greek", "learning"]
 draft: true
 date_created: 2026-10-18
 date_modified: 2026-10-18
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Learn Greek
