@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 6:9-13; Luke 11:2-4"
 bible_references: ["Matthew 6:5-15", "Matthew 6:25-34", "John 1:12", "Galatians 4:4-6", "Psalm 27:10", "Ecclesiastes 5:2", "Ezekiel 36:20-22", "1 Peter 3:15", "John 17:6", "John 12:28", "Matthew 4:1-4", "John 6:35", "Habakkuk 3:17-18", "Philippians 4:11-12", "Colossians 2:13-14", "Matthew 18:21-35", "Luke 23:34", "Hebrews 4:15", "John 17:15", "Luke 22:31-32", "1 Corinthians 10:13", "John 14:13", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Exodus 16:19-26", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Luke 17:21", "Matthew 25:34", "Acts 1:6-7", "Matthew 26:41", "Revelation 3:10", "Ephesians 4:32", "1 Peter 5:7"]
 date_created: 2026-07-22
-date_modified: 2026-10-10
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -213,7 +213,8 @@ it. Peter uses the same verb for the believer's own part: "in your hearts honor 
 holy" (1 Peter 3:15, ESV), **ἁγιάσατε** (*hagiasate*, hah-gee-AH-sah-teh, G37).
 
 This shows that God guards His own name and has made it known in His Son: "I have manifested your
-name to the people whom you gave me" (John 17:6, ESV). Cyprian read the petition this way: "not
+name to the people whom you gave me" (John 17:6, ESV). [The Names of God](../god/names-of-god.md)
+follows the names He has made known. Cyprian read the petition this way: "not
 that we wish for God that He may be hallowed by our prayers, but that we beseech of Him that His
 name may be hallowed in us" (*On the Lord's Prayer* 12, ANF 5).
 

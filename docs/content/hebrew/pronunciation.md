@@ -136,6 +136,8 @@ said "I AM" at the burning bush.
 
 ## Where next
 
+- [The Names of God](../god/names-of-god.md): what the name means, and the other names God gave
+  Himself.
 - [The Hebrew Alphabet](alphabet.md): every letter and vowel with its Israeli sound.
 - [The Names of God: Word Cards](names-of-god-cards.md): the names, printed as A4 flashcards with
   their pronunciation.

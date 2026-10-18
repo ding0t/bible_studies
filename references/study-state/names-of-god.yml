@@ -1,6 +1,6 @@
 slug: names-of-god
 title: "The Names of God"
-status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
 target_path: docs/content/god/names-of-god.md
 
 primary_passage: "Exodus 3:13-15"
@@ -134,7 +134,7 @@ stages:
       macula-hebrew-wlc). Six factual fixes applied; judgement calls listed under
       review_2026-10-18.open_for_author. Validate: no warnings for this file. Still draft: true.
 
-back_links_on_publish:
+back_links_on_publish:  # all added 2026-10-18 in the publishing commit
   # Check 24: a published page may not link a draft, so these go in the commit that flips draft: false.
   - {file: hebrew/names-of-god-cards.md, where: "intro or Sources", say: "the theology of each name"}
   - {file: hebrew/pronunciation.md, where: "The name of God", say: "what the name means"}

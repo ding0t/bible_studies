@@ -14,4 +14,5 @@ draft: false
 
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 1:22
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:1
+- [The Names of God](../../god/names-of-god.md) — 1:20
 <!-- commentary-index:auto-end -->

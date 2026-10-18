@@ -14,4 +14,5 @@ draft: false
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 11:10
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 11:11
+- [The Names of God](../../god/names-of-god.md) — 11:10
 <!-- commentary-index:auto-end -->

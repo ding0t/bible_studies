@@ -26,7 +26,8 @@ God did not leave His people to guess at Him. At the burning bush He told Moses 
 the rest of the Old Testament He kept adding to it: the God who sees Hagar in the wilderness, the LORD
 who provides on the mountain, the LORD who heals, the LORD our righteousness. Each name is something
 He has shown Himself to be, so learning them is learning what He has promised to be for you. The last
-card is the name He gave His Son, Jesus, *Yeshua*: "the LORD saves".
+card is the name He gave His Son, Jesus, *Yeshua*: "the LORD saves". [The Names of God](../god/names-of-god.md)
+is the study behind the cards: where each name was given, to whom, and what it promised.
 
 ## How the deck teaches the letters
 

@@ -15,6 +15,7 @@ draft: false
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 22:13
 - [Faith](../../salvation/faith.md) — 22:2
 - [Six Days of History](../../last-things/six-days-of-history.md) — 22:17-18
+- [The Names of God](../../god/names-of-god.md) — 22:7-14
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 22:18
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 22:17
 <!-- commentary-index:auto-end -->

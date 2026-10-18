@@ -16,5 +16,6 @@ draft: false
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 14:39-45
 - [Biblical Numerology](../../scripture/numerology.md) — 14:33-34
 - [Pride](../../sin/pride.md) — 14:1-4
+- [The Names of God](../../god/names-of-god.md) — 14:17-19
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 14:36-37
 <!-- commentary-index:auto-end -->

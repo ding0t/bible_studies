@@ -3,7 +3,7 @@ title: "The Names of God"
 category: "theology"
 description: "A study of the names God gave Himself in the Old Testament, from \"I AM WHO I AM\" at the burning bush to the LORD our righteousness: where each was spoken, to whom, what it promised, and how all of them meet in the name of Jesus."
 tags: ["names-of-god", "exodus", "genesis", "isaiah", "lang/hebrew", "lang/greek", "method/word-study", "deity-of-christ"]
-draft: true
+draft: false
 primary_passage: "Exodus 3:13-15"
 bible_references: ["Exodus 3:11-15", "Exodus 6:2-8", "Exodus 33:18-19", "Exodus 34:5-7", "Genesis 14:18-22", "Genesis 15:2", "Genesis 15:7", "Genesis 16:13", "Genesis 17:1-2", "Genesis 22:7-14", "Exodus 15:23-26", "Exodus 17:15", "Judges 6:22-24", "1 Samuel 1:10-11", "Ruth 1:20", "Isaiah 7:14", "Isaiah 9:6", "Isaiah 10:21", "Jeremiah 23:5-6", "Jeremiah 33:16", "Numbers 13:16", "Matthew 1:21-23", "Matthew 27:46", "John 8:58", "John 17:11", "Philippians 2:9-11", "Isaiah 45:23", "Joel 2:32", "Romans 10:13", "Matthew 28:19", "Genesis 4:26", "Isaiah 42:8", "1 Samuel 1:3", "Numbers 21:8-9", "Isaiah 11:10", "John 1:29", "John 3:14", "2 Corinthians 5:21", "1 Corinthians 1:30", "Exodus 17:9-11", "Genesis 49:25", "Numbers 14:17-19", "Genesis 1:1", "Isaiah 6:1", "Judges 6:12"]
 date_created: 2026-10-18

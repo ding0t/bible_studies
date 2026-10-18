@@ -18,5 +18,6 @@ draft: false
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 8:28
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 8:12
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 8:12
+- [The Names of God](../../god/names-of-god.md) — 8:58
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 8:58
 <!-- commentary-index:auto-end -->

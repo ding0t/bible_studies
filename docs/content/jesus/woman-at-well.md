@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 4:1-42"
 bible_references: ["John 3:22-30", "John 7:37-39", "John 1:39", "John 1:46", "John 8:58", "Jeremiah 2:13", "Jeremiah 17:13", "Zechariah 14:8", "Isaiah 12:3", "Isaiah 44:3", "Ezekiel 47:1-6", "Genesis 24:10-27", "Genesis 29:1-12", "Exodus 2:15-21", "Deuteronomy 18:15-18", "Deuteronomy 27:4", "Deuteronomy 11:29", "2 Kings 17:24-41", "Genesis 33:18-20", "Joshua 24:32", "Exodus 3:14", "Luke 14:5", "Revelation 9:1-2", "John 3:9", "John 2:19-21", "Matthew 5:35", "Zechariah 14:16", "Revelation 21:22", "John 2:8-9", "John 8:22", "John 8:24-28", "John 9:9", "John 18:35", "Matthew 12:23", "Genesis 24:42-45", "Genesis 26:19", "Leviticus 14:6"]
 date_created: 2025-04-25
-date_modified: 2026-10-13
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -377,7 +377,8 @@ Whether it carries the weight of Exodus 3:14 is unsettled. In context it answers
 the Messiah, so "I am he" is the natural sense — but the NLT's footnote at 4:26 offers "The 'I AM'
 is here" and "I am the LORD", and cross-references Exodus 3:14, so the divine-name reading is a live
 translator's option as well as a commentator's. The absolute use, with no predicate at all, comes at
-8:24 and 8:28 and is unmistakable at 8:58; what 4:26 establishes is that the formula starts here.
+8:24 and 8:28 and is unmistakable at 8:58; what 4:26 establishes is that the formula starts here. [The Names of
+God](../god/names-of-god.md#i-will-be) sets out Exodus 3:14 itself.
 
 ## A hesitant witness, and a two-day stay
 

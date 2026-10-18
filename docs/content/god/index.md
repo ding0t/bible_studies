@@ -4,7 +4,7 @@ category: "other"
 description: "God's nature and character, creation, and the ways he makes himself known."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-08
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -40,6 +40,14 @@ God's nature and character, creation, and the ways he makes himself known.
     An exegetical study of Romans 1:19-23 on what creation alone reveals about God, with a look at young-earth arguments from design, the fossil record, and the early universe.
 
     [:octicons-arrow-right-24: Read](creation-reveals-the-creator.md)
+
+-   __The Names of God__
+
+    ---
+
+    A study of the names God gave Himself in the Old Testament, from "I AM WHO I AM" at the burning bush to the LORD our righteousness: where each was spoken, to whom, what it promised, and how all of them meet in the name of Jesus.
+
+    [:octicons-arrow-right-24: Read](names-of-god.md)
 
 -   __What World Population Declares: Biblical Chronology and the Arithmetic of Growth__
 

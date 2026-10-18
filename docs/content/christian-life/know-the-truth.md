@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 8:31-47"
 bible_references: ["John 18:37-38", "John 1:14", "John 1:17", "John 14:6", "John 16:13", "John 17:17", "Exodus 34:6", "Psalm 31:5", "Psalm 119:160", "Isaiah 65:16", "Revelation 3:14", "Hebrews 6:18", "Luke 1:4", "Luke 23:46", "1 John 2:21", "1 John 4:6", "1 John 5:20", "Genesis 3:1", "Genesis 3:4", "2 Corinthians 4:4", "2 Corinthians 11:3", "2 Corinthians 11:14", "Revelation 12:9", "2 Thessalonians 2:10-11", "Romans 1:25", "Romans 11:1", "Romans 11:29", "John 1:12", "2 Thessalonians 2:7", "Ephesians 4:14-15", "Ephesians 6:14", "1 Timothy 3:15", "2 Timothy 3:7"]
 date_created: 2026-09-25
-date_modified: 2026-10-10
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -94,7 +94,8 @@ and faithfulness" (Exodus 34:6, ESV). "Faithfulness" there is *emet*, paired wit
 <span dir="rtl">חֶסֶד</span> (*chesed*, steadfast love). David calls Him
 <span dir="rtl">אֵל אֱמֶת</span> (*El emet*), "faithful God," in the psalm that says "Into your hand
 I commit my spirit" (Psalm 31:5, ESV) — the words Jesus prayed as He died (Luke 23:46). And His word
-carries the same quality: "The sum of your word is truth" (Psalm 119:160, ESV).
+carries the same quality: "The sum of your word is truth" (Psalm 119:160, ESV). [The Names of
+God](../god/names-of-god.md#the-name-explained) reads the whole proclamation of Exodus 34:6-7.
 
 The same root gives the word you say at the end of a prayer. Isaiah foresees a day when "he who blesses himself
 in the land shall bless himself by the God of truth, and he who takes an oath in the land shall swear
@@ -311,6 +312,7 @@ Timothy 3:7, ESV). Jesus promised arrival — "you will know the truth" — to t
 
 ### On this site
 
+- [The Names of God](../god/names-of-god.md) — the name the LORD proclaimed in Exodus 34:6.
 - [The Way](../jesus/the-way.md) — "I am the way, and the truth, and the life" (John 14:6) worked
   through.
 - [Israel and the Church](../israel-and-church/israel-and-the-church.md) — what Romans 11 says is still

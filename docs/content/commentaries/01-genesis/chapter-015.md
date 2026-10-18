@@ -16,6 +16,7 @@ draft: false
 - [Sin and Sorcery](../../sin/sorcery.md) — 15:16
 - [Six Days of History](../../last-things/six-days-of-history.md) — 15:5
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 15:1
+- [The Names of God](../../god/names-of-god.md) — 15:2
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 15:5
 - [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 15:13-16
 <!-- commentary-index:auto-end -->

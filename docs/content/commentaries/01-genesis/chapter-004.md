@@ -14,4 +14,5 @@ draft: false
 
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:26
 - [Submission in Context](../../christian-life/submission-in-context.md) — 4:7
+- [The Names of God](../../god/names-of-god.md) — 4:26
 <!-- commentary-index:auto-end -->

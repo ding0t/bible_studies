@@ -5,7 +5,7 @@ description: "A course in reading the Hebrew Bible, taken in order: the 22 lette
 tags: ["lang/hebrew", "learning"]
 draft: false
 date_created: 2026-10-17
-date_modified: 2026-10-17
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -27,7 +27,8 @@ below builds on the one before, so take them in order.
    pronunciation this site uses, and how the name of God is read.
 3. **[The Names of God: Word Cards](names-of-god-cards.md).** Twenty-one printable flashcards, in an
    order that adds a few letters at a time. Work through the deck and you will have met all 22
-   letters, in the names God revealed Himself by.
+   letters, in the names God revealed Himself by. [The Names of God](../god/names-of-god.md) is the
+   study behind them.
 4. **[Three Scripts](three-scripts.md) and [Writing Sheets](writing-sheets.md).** The same letters in
    Paleo-Hebrew, square script and modern cursive, where each comes from, and A4 sheets to practise
    writing them, including the names of God in all three.

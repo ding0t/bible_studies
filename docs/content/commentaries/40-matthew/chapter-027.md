@@ -18,6 +18,7 @@ draft: false
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 27:45
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 27:32
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 27:51
+- [The Names of God](../../god/names-of-god.md) — 27:46
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 27:57
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 27:62
 <!-- commentary-index:auto-end -->

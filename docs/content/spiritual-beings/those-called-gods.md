@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 82:1-8; Deuteronomy 32:8-9"
 bible_references: ["Psalm 82:1-8", "Deuteronomy 32:8-9", "Deuteronomy 32:17", "Deuteronomy 4:19-20", "Deuteronomy 10:17", "Exodus 4:16", "Exodus 7:1", "Exodus 12:12", "Exodus 21:6", "Exodus 22:8-9", "Exodus 22:28", "Exodus 3:15", "Genesis 1:1", "Genesis 20:13", "Genesis 35:7", "Psalm 8:5", "Hebrews 2:6-7", "Psalm 89:5-8", "Psalm 89:27", "Psalm 96:4-5", "1 Samuel 28:13", "1 Kings 22:19", "Job 1:6", "Daniel 1:7", "Daniel 10:13", "Daniel 10:20-21", "Isaiah 24:21-22", "Isaiah 42:8", "1 Corinthians 8:5-6", "1 Corinthians 10:20", "Galatians 4:8", "1 Corinthians 8:4", "Hebrews 1:4-14", "2 Corinthians 4:4", "John 12:31", "Ephesians 2:2", "Colossians 1:16", "Ephesians 1:20-22", "Ephesians 3:10", "Ephesians 6:10-13", "Colossians 2:15", "1 Peter 3:22", "1 Corinthians 15:24-25", "Romans 8:38-39", "Psalm 45:6-7", "Hebrews 1:8-9", "John 10:34-36"]
 date_created: 2026-10-11
-date_modified: 2026-10-15
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -169,7 +169,7 @@ covenant name, <span dir="rtl">יְהוָה</span> (YHWH, H3068), rendered "the 
 my name forever" (Exodus 3:15, ESV). "I am the LORD; that is my name; my glory I give to no other"
 (Isaiah 42:8, ESV). Deuteronomy 10:17 says it in one phrase: "the LORD your God is God of gods and
 Lord of lords" (ESV). **So God lends the title for the work, and keeps His name and His glory to
-Himself.**
+Himself.** [The Names of God](../god/names-of-god.md) follows the names He gave Himself.
 
 ## Gods over the nations
 
@@ -336,6 +336,8 @@ Brenton's text.
 
 ### On this site
 
+- [The Names of God](../god/names-of-god.md): the names God gave Himself, from the burning bush to
+  Jesus.
 - [You Are Gods](../jesus/you-are-gods.md): Psalm 82 in John 10, and the contested question of who
   the psalm's gods are.
 - [The Nephilim](nephilim.md): the "sons of God" of Genesis 6.

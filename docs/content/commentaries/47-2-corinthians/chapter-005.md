@@ -24,6 +24,7 @@ draft: false
 - [Submission in Context](../../christian-life/submission-in-context.md) — 5:17
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 5:10
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:5
+- [The Names of God](../../god/names-of-god.md) — 5:21
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:10
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 5:10
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 5:21

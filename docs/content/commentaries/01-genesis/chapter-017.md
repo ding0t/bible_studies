@@ -17,4 +17,5 @@ draft: false
 - [Faith](../../salvation/faith.md) — 17:17
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 17:5
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 17:17
+- [The Names of God](../../god/names-of-god.md) — 17:1-2
 <!-- commentary-index:auto-end -->

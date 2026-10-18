@@ -16,5 +16,6 @@ draft: false
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 1:10-12
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 1:20
 - [Submission in Context](../../christian-life/submission-in-context.md) — 1:27
+- [The Names of God](../../god/names-of-god.md) — 1:30
 - [Wisdom](../../wisdom/index.md) — 1:24
 <!-- commentary-index:auto-end -->

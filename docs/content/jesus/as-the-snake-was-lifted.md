@@ -226,7 +226,9 @@ held up his hand (Exodus 17:9-11, ESV), Moses built an altar and named it "The L
 Reading the three as one picture is this study's own reading. No verse cites another, and Jesus
 names only the serpent (John 3:14). The reading rests on what each *nes* does in its own context:
 it is raised where people in danger can see it, over a battle, a dying camp and the nations, and
-what is lifted up on it saves those who look to it. That is the pattern Jesus claims for His cross.
+what is lifted up on it saves those who look to it. That is the pattern Jesus claims for His cross. [The Names of
+God](../god/names-of-god.md#the-lord-is-my-banner-over-the-battle-with-amalek) reads Exodus 17 in
+full.
 
 ### ὑψόω: lifted up and exalted
 

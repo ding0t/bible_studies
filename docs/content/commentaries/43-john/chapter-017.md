@@ -16,5 +16,6 @@ draft: false
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 17:3
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 17:15
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 17:6
+- [The Names of God](../../god/names-of-god.md) — 17:11
 - [The Rapture of the Church](../../last-things/rapture.md) — 17:15
 <!-- commentary-index:auto-end -->

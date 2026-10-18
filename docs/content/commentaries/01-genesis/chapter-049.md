@@ -14,4 +14,5 @@ draft: false
 
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 49:1
 - [Biblical Numerology](../../scripture/numerology.md) — 49:1-28
+- [The Names of God](../../god/names-of-god.md) — 49:25
 <!-- commentary-index:auto-end -->

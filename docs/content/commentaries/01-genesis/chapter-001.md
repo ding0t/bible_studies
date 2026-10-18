@@ -21,6 +21,7 @@ draft: false
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1
 - [Submission in Context](../../christian-life/submission-in-context.md) — 1:27-28
 - [The Appointed Times](../../feasts/feasts.md) — 1:14
+- [The Names of God](../../god/names-of-god.md) — 1:1
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 1:14-19
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 1:1
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:5

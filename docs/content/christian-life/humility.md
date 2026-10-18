@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Philippians 2:1-11"
 bible_references: ["Philippians 4:2", "Philippians 1:17", "Philippians 2:12-13", "Philippians 3:7-8", "Numbers 12:1-8", "Matthew 11:28-30", "Zechariah 9:9", "Matthew 21:5", "John 13:1-17", "Mark 10:42-45", "Luke 22:24-27", "Isaiah 45:22-23", "Romans 14:11", "Isaiah 57:15", "Isaiah 61:1", "Luke 4:18", "Isaiah 66:2", "Micah 6:8", "Proverbs 3:34", "Proverbs 11:2", "James 4:6-10", "James 4:13-15", "1 Peter 5:5-7", "Matthew 23:12", "Luke 14:11", "Luke 18:14", "Deuteronomy 8:2-3", "Deuteronomy 8:14-17", "Exodus 16:19-20", "Matthew 6:11", "Romans 12:3", "Romans 12:16", "1 Corinthians 4:7", "1 Corinthians 8:1", "1 Corinthians 14:20", "Matthew 18:1-4", "Ephesians 4:2", "Colossians 3:12", "Colossians 2:16-23", "Matthew 6:1", "Mark 7:21-23", "Genesis 3:5"]
 date_created: 2026-09-28
-date_modified: 2026-09-28
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -304,7 +304,8 @@ up.
 In Isaiah 45 the LORD says, "I am God, and there is no other," and swears, "To me every knee shall
 bow, every tongue shall swear allegiance" (Isaiah 45:22-23, ESV). Paul quotes that oath elsewhere of
 God (Romans 14:11). Here he gives the bowing knee and the confessing tongue to Jesus. The one who
-humbled Himself furthest receives the worship the LORD swore would be His alone.
+humbled Himself furthest receives the worship the LORD swore would be His alone. [The Names of
+God](../god/names-of-god.md#every-knee-and-everyone-who-calls) traces the name He was given.
 
 God exalts the lowly, and He did it first and supremely for His Son. For Jesus, the way down was the
 road to glory. Paul turns straight back to the Philippians: "work out your own salvation with fear
@@ -494,6 +495,7 @@ Satan belong to a study of their own: [Pride](../sin/pride.md).
 
 ### On this site
 
+- [The Names of God](../god/names-of-god.md) — the name above every name, and the names before it.
 - [Pride](../sin/pride.md) — the sin humility answers.
 - [The Lord's Prayer](lords-prayer.md) — "Give us this day our daily bread," and the manna behind it.
 - [Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md) — the manna, and the bread
