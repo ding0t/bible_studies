@@ -87,7 +87,7 @@
   flex: 1;
   height: calc(1 * var(--mm));
   border: calc(0.2 * var(--mm)) solid var(--mv-rule);
-  background: linear-gradient(to right, var(--mv-hebrew) calc(var(--known) / 22 * 100%), transparent 0);
+  background: linear-gradient(to right, var(--mv-hebrew) calc(var(--known) / var(--total, 22) * 100%), transparent 0);
 }
 
 .hc-full { gap: calc(1.8 * var(--mm)); }

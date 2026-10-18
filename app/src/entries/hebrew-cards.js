@@ -1,6 +1,9 @@
-// On-screen practice for the Hebrew word cards. hooks/hebrew_cards.py renders each deck with its
-// cards as JSON in <script type="application/json" class="hc-data"> and an empty .hc-screen; this
-// fills the .hc-screen with one card at a time and a spaced-review session (utils/cardReview.js).
+// On-screen practice for the Hebrew and Greek word cards. hooks/hebrew_cards.py and
+// hooks/greek_cards.py render each deck with its cards as JSON in
+// <script type="application/json" class="hc-data"> and an empty .hc-screen; this fills the
+// .hc-screen with one card at a time and a spaced-review session (utils/cardReview.js). A Greek
+// deck says so in its JSON (lang, dir, voice, store); a Hebrew deck predates those keys, so each
+// falls back to Hebrew.
 //
 // Progress is a per-browser convenience, kept in localStorage: it can be missing or blocked, so
 // every read and write is guarded and the page works without it.
@@ -26,14 +29,14 @@ function save(key, value) {
 
 const { speechSynthesis, SpeechSynthesisUtterance } = globalThis;
 
-function hebrewVoice() {
-  return speechSynthesis?.getVoices().find((v) => v.lang.toLowerCase().startsWith('he')) ?? null;
+function findVoice(prefix) {
+  return speechSynthesis?.getVoices().find((v) => v.lang.toLowerCase().startsWith(prefix)) ?? null;
 }
 
-function speak(hebrew) {
-  const voice = hebrewVoice();
+function speak(text, prefix) {
+  const voice = findVoice(prefix);
   if (!voice) return false;
-  const utterance = new SpeechSynthesisUtterance(spokenText(hebrew));
+  const utterance = new SpeechSynthesisUtterance(prefix === 'he' ? spokenText(text) : text);
   utterance.voice = voice;
   utterance.lang = voice.lang;
   utterance.rate = 0.8;
@@ -59,7 +62,7 @@ function reading(card) {
   const out = el('p', { class: 'hc-screen-reading' });
   card.words.forEach((w, i) => {
     if (i) out.append('   ');
-    if (card.divine && !w.t.length) return out.append('read Adonai');
+    if (card.divine && !w.t.length) return out.append(w.strongs === 'H3069' ? 'read Elohim' : 'read Adonai');
     w.t.forEach((syl, j) => {
       if (j) out.append('·');
       out.append(j === w.s && w.t.length > 1 ? el('u', {}, syl) : syl);
@@ -71,7 +74,12 @@ function reading(card) {
 function mount(deck) {
   const data = JSON.parse(deck.querySelector('.hc-data').textContent);
   const screen = deck.querySelector('.hc-screen');
-  const key = `hebrew-cards:${data.slug}`;
+  const lang = data.lang ?? 'he';
+  const dir = data.dir ?? 'rtl';
+  const voice = data.voice ?? 'he';
+  const key = `${data.store ?? 'hebrew-cards'}:${data.slug}`;
+  const wordOf = (card) => card.word ?? card.hebrew;
+  const secondOf = (card) => card.second ?? card.words.map((w) => w.paleo).join(' ');
   const cards = Object.fromEntries(data.cards.map((c) => [c.id, c]));
   const ids = data.cards.map((c) => c.id);
 
@@ -102,11 +110,11 @@ function mount(deck) {
     }
     const card = cards[queue[0]];
     const hear = el('button', { type: 'button', class: 'md-button', onclick: () => {
-      if (!speak(card.hebrew)) hear.textContent = 'No Hebrew voice on this device';
+      if (!speak(wordOf(card), voice)) hear.textContent = `No ${lang === 'he' ? 'Hebrew' : 'Greek'} voice on this device`;
     } }, 'Hear it');
-    const face = el('div', { class: 'hc-screen-card', lang: 'he' },
-      el('p', { class: 'hc-word', dir: 'rtl' }, card.hebrew),
-      el('p', { class: 'hc-paleo', dir: 'rtl' }, card.words.map((w) => w.paleo).join(' ')),
+    const face = el('div', { class: 'hc-screen-card', lang },
+      el('p', { class: 'hc-word', dir }, wordOf(card)),
+      el('p', { class: 'hc-paleo', dir }, secondOf(card)),
       flipped ? el('div', { class: 'hc-screen-back', lang: 'en' },
         reading(card),
         el('p', { class: 'hc-meaning' }, card.meaning),

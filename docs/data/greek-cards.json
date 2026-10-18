@@ -1,0 +1,791 @@
+{
+ "sources": {
+  "greek": "SBL Greek New Testament (SBLGNT); Strong's numbers from MACULA Greek, CC BY 4.0",
+  "ESV": "ESV® Bible, © 2001 by Crossway. Used by permission. All rights reserved."
+ },
+ "decks": {
+  "names-of-the-holy-spirit": {
+   "title": "The Names of the Holy Spirit",
+   "cards": [
+    {
+     "greek": "πνεῦμα",
+     "ref": "John 3:8",
+     "name": "Pneuma",
+     "popular": "",
+     "meaning": "breath, wind, Spirit",
+     "quote": "The wind blows where it wishes",
+     "quote_ref": "John 3:8",
+     "modern": "Pnévma is still spirit, and also wit; to Ágio Pnévma is the Holy Spirit.",
+     "words": [
+      {
+       "w": "πνεῦμα",
+       "t": [
+        "pneu",
+        "ma"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑ"
+      }
+     ],
+     "new_letters": [
+      "π",
+      "ν",
+      "ε",
+      "υ",
+      "μ",
+      "α"
+     ],
+     "new_finals": [],
+     "letters_known": 6
+    },
+    {
+     "greek": "τὸ πνεῦμα τὸ ἅγιον",
+     "ref": "John 14:26",
+     "name": "To Pneuma to Hagion",
+     "popular": "",
+     "meaning": "the Holy Spirit; literally, the Spirit, the holy one",
+     "quote": "the Helper, the Holy Spirit",
+     "quote_ref": "John 14:26",
+     "modern": "Ágios is a saint in Greek today, as in Ágios Nikólaos.",
+     "words": [
+      {
+       "w": "τὸ",
+       "t": [
+        "to"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΟ"
+      },
+      {
+       "w": "πνεῦμα",
+       "t": [
+        "pneu",
+        "ma"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑ"
+      },
+      {
+       "w": "τὸ",
+       "t": [
+        "to"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΟ"
+      },
+      {
+       "w": "ἅγιον",
+       "t": [
+        "ha",
+        "gi",
+        "on"
+       ],
+       "s": 0,
+       "strongs": "G40",
+       "uncial": "ΑΓΙΟΝ"
+      }
+     ],
+     "new_letters": [
+      "τ",
+      "ο",
+      "γ",
+      "ι"
+     ],
+     "new_finals": [],
+     "letters_known": 10
+    },
+    {
+     "greek": "ὁ παράκλητος",
+     "ref": "John 15:26",
+     "name": "Paraklētos",
+     "popular": "the Comforter, the Advocate",
+     "meaning": "the Helper: one called alongside to help",
+     "quote": "But when the Helper comes",
+     "quote_ref": "John 15:26",
+     "modern": "Orthodox prayer still opens \"Heavenly King, Paráklite\", calling the Spirit the Comforter.",
+     "words": [
+      {
+       "w": "ὁ",
+       "t": [
+        "ho"
+       ],
+       "s": null,
+       "strongs": "G3588",
+       "uncial": "Ο"
+      },
+      {
+       "w": "παράκλητος",
+       "t": [
+        "pa",
+        "ra",
+        "klē",
+        "tos"
+       ],
+       "s": 1,
+       "strongs": "G3875",
+       "uncial": "ΠΑΡΑΚΛΗΤΟϹ"
+      }
+     ],
+     "new_letters": [
+      "ρ",
+      "κ",
+      "λ",
+      "η",
+      "σ"
+     ],
+     "new_finals": [
+      "ς"
+     ],
+     "letters_known": 15
+    },
+    {
+     "greek": "τὸ πνεῦμα τῆς ἀληθείας",
+     "ref": "John 16:13",
+     "name": "Pneuma tēs Alētheias",
+     "popular": "",
+     "meaning": "the Spirit of truth",
+     "quote": "When the Spirit of truth comes",
+     "quote_ref": "John 16:13",
+     "modern": "Alítheia is still truth, and alithiná means \"really\".",
+     "words": [
+      {
+       "w": "τὸ",
+       "t": [
+        "to"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΟ"
+      },
+      {
+       "w": "πνεῦμα",
+       "t": [
+        "pneu",
+        "ma"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑ"
+      },
+      {
+       "w": "τῆς",
+       "t": [
+        "tēs"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΗϹ"
+      },
+      {
+       "w": "ἀληθείας",
+       "t": [
+        "a",
+        "lē",
+        "thei",
+        "as"
+       ],
+       "s": 2,
+       "strongs": "G225",
+       "uncial": "ΑΛΗΘΕΙΑϹ"
+      }
+     ],
+     "new_letters": [
+      "θ"
+     ],
+     "new_finals": [],
+     "letters_known": 16
+    },
+    {
+     "greek": "πνεῦμα θεοῦ",
+     "ref": "Romans 8:9",
+     "name": "Pneuma Theou",
+     "popular": "",
+     "meaning": "the Spirit of God",
+     "quote": "the Spirit of God dwells in you",
+     "quote_ref": "Romans 8:9",
+     "modern": "Theós is still God, and Thee mou! is \"my God!\"",
+     "words": [
+      {
+       "w": "πνεῦμα",
+       "t": [
+        "pneu",
+        "ma"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑ"
+      },
+      {
+       "w": "θεοῦ",
+       "t": [
+        "the",
+        "ou"
+       ],
+       "s": 1,
+       "strongs": "G2316",
+       "uncial": "ΘΕΟΥ"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 16
+    },
+    {
+     "greek": "πνεῦμα Χριστοῦ",
+     "ref": "Romans 8:9",
+     "name": "Pneuma Christou",
+     "popular": "",
+     "meaning": "the Spirit of Christ",
+     "quote": "Anyone who does not have the Spirit of Christ does not belong to him",
+     "quote_ref": "Romans 8:9",
+     "modern": "Christós; Christoúgenna, \"Christ's birth\", is Christmas.",
+     "words": [
+      {
+       "w": "πνεῦμα",
+       "t": [
+        "pneu",
+        "ma"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑ"
+      },
+      {
+       "w": "Χριστοῦ",
+       "t": [
+        "Chri",
+        "stou"
+       ],
+       "s": 1,
+       "strongs": "G5547",
+       "uncial": "ΧΡΙϹΤΟΥ"
+      }
+     ],
+     "new_letters": [
+      "χ"
+     ],
+     "new_finals": [],
+     "letters_known": 17
+    },
+    {
+     "greek": "πνεῦμα υἱοθεσίας",
+     "ref": "Romans 8:15",
+     "name": "Pneuma Huiothesias",
+     "popular": "",
+     "meaning": "the Spirit of adoption: of being made a son",
+     "quote": "the Spirit of adoption as sons",
+     "quote_ref": "Romans 8:15",
+     "modern": "Yiothesía is still the word for adoption.",
+     "words": [
+      {
+       "w": "πνεῦμα",
+       "t": [
+        "pneu",
+        "ma"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑ"
+      },
+      {
+       "w": "υἱοθεσίας",
+       "t": [
+        "hui",
+        "o",
+        "the",
+        "si",
+        "as"
+       ],
+       "s": 3,
+       "strongs": "G5206",
+       "uncial": "ΥΙΟΘΕϹΙΑϹ"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 17
+    },
+    {
+     "greek": "ἀρραβὼν",
+     "ref": "Ephesians 1:14",
+     "name": "Arrabōn",
+     "popular": "",
+     "meaning": "guarantee, first payment, pledge",
+     "quote": "the guarantee of our inheritance",
+     "quote_ref": "Ephesians 1:14",
+     "modern": "Arravónas is an engagement today, and arravoniastikós a fiancé.",
+     "words": [
+      {
+       "w": "ἀρραβὼν",
+       "t": [
+        "ar",
+        "ra",
+        "bōn"
+       ],
+       "s": 2,
+       "strongs": "G728",
+       "uncial": "ΑΡΡΑΒΩΝ"
+      }
+     ],
+     "new_letters": [
+      "β",
+      "ω"
+     ],
+     "new_finals": [],
+     "letters_known": 19
+    },
+    {
+     "greek": "τοῦ πνεύματος τῆς ζωῆς",
+     "ref": "Romans 8:2",
+     "name": "Pneuma tēs Zōēs",
+     "popular": "",
+     "meaning": "the Spirit of life",
+     "quote": "the law of the Spirit of life",
+     "quote_ref": "Romans 8:2",
+     "modern": "Zoí is still life, and a zóo is an animal.",
+     "words": [
+      {
+       "w": "τοῦ",
+       "t": [
+        "tou"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΟΥ"
+      },
+      {
+       "w": "πνεύματος",
+       "t": [
+        "pneu",
+        "ma",
+        "tos"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑΤΟϹ"
+      },
+      {
+       "w": "τῆς",
+       "t": [
+        "tēs"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΗϹ"
+      },
+      {
+       "w": "ζωῆς",
+       "t": [
+        "zō",
+        "ēs"
+       ],
+       "s": 1,
+       "strongs": "G2222",
+       "uncial": "ΖΩΗϹ"
+      }
+     ],
+     "new_letters": [
+      "ζ"
+     ],
+     "new_finals": [],
+     "letters_known": 20
+    },
+    {
+     "greek": "πνεῦμα σοφίας",
+     "ref": "Ephesians 1:17",
+     "name": "Pneuma Sophias",
+     "popular": "",
+     "meaning": "the Spirit of wisdom",
+     "quote": "the Spirit of wisdom and of revelation",
+     "quote_ref": "Ephesians 1:17",
+     "modern": "Sofía is still wisdom, and a common girl's name.",
+     "words": [
+      {
+       "w": "πνεῦμα",
+       "t": [
+        "pneu",
+        "ma"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑ"
+      },
+      {
+       "w": "σοφίας",
+       "t": [
+        "so",
+        "phi",
+        "as"
+       ],
+       "s": 1,
+       "strongs": "G4678",
+       "uncial": "ϹΟΦΙΑϹ"
+      }
+     ],
+     "new_letters": [
+      "φ"
+     ],
+     "new_finals": [],
+     "letters_known": 21
+    },
+    {
+     "greek": "τὸ τῆς δόξης … πνεῦμα",
+     "ref": "1 Peter 4:14",
+     "name": "Pneuma tēs Doxēs",
+     "popular": "",
+     "meaning": "the Spirit of glory",
+     "quote": "the Spirit of glory and of God rests upon you",
+     "quote_ref": "1 Peter 4:14",
+     "modern": "Dóxa is glory: Dóxa to Theó, \"glory to God\", is how Greeks say \"thank God\".",
+     "words": [
+      {
+       "w": "τὸ",
+       "t": [
+        "to"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΟ"
+      },
+      {
+       "w": "τῆς",
+       "t": [
+        "tēs"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΗϹ"
+      },
+      {
+       "w": "δόξης",
+       "t": [
+        "do",
+        "xēs"
+       ],
+       "s": 0,
+       "strongs": "G1391",
+       "uncial": "ΔΟΞΗϹ"
+      },
+      {
+       "w": "…",
+       "t": [],
+       "s": null,
+       "strongs": null,
+       "uncial": "…"
+      },
+      {
+       "w": "πνεῦμα",
+       "t": [
+        "pneu",
+        "ma"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑ"
+      }
+     ],
+     "new_letters": [
+      "δ",
+      "ξ"
+     ],
+     "new_finals": [],
+     "letters_known": 23
+    },
+    {
+     "greek": "πνεύματος αἰωνίου",
+     "ref": "Hebrews 9:14",
+     "name": "Pneuma Aiōnion",
+     "popular": "",
+     "meaning": "the eternal Spirit",
+     "quote": "through the eternal Spirit offered himself without blemish to God",
+     "quote_ref": "Hebrews 9:14",
+     "modern": "Aiónios is still eternal, and aiónas is a century.",
+     "words": [
+      {
+       "w": "πνεύματος",
+       "t": [
+        "pneu",
+        "ma",
+        "tos"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑΤΟϹ"
+      },
+      {
+       "w": "αἰωνίου",
+       "t": [
+        "ai",
+        "ō",
+        "ni",
+        "ou"
+       ],
+       "s": 2,
+       "strongs": "G166",
+       "uncial": "ΑΙΩΝΙΟΥ"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 23
+    },
+    {
+     "greek": "τὸ πνεῦμα τῆς χάριτος",
+     "ref": "Hebrews 10:29",
+     "name": "Pneuma tēs Charitos",
+     "popular": "",
+     "meaning": "the Spirit of grace",
+     "quote": "the Spirit of grace",
+     "quote_ref": "Hebrews 10:29",
+     "modern": "Cháris is grace and favour; chári se is \"thanks to you\".",
+     "words": [
+      {
+       "w": "τὸ",
+       "t": [
+        "to"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΟ"
+      },
+      {
+       "w": "πνεῦμα",
+       "t": [
+        "pneu",
+        "ma"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑ"
+      },
+      {
+       "w": "τῆς",
+       "t": [
+        "tēs"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΗϹ"
+      },
+      {
+       "w": "χάριτος",
+       "t": [
+        "cha",
+        "ri",
+        "tos"
+       ],
+       "s": 0,
+       "strongs": "G5485",
+       "uncial": "ΧΑΡΙΤΟϹ"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 23
+    },
+    {
+     "greek": "τῷ πνεύματι τῆς ἐπαγγελίας τῷ ἁγίῳ",
+     "ref": "Ephesians 1:13",
+     "name": "Pneuma tēs Epangelias",
+     "popular": "",
+     "meaning": "the Holy Spirit of promise",
+     "quote": "sealed with the promised Holy Spirit",
+     "quote_ref": "Ephesians 1:13",
+     "modern": "Epangelía is still a promise, and epángelma a profession.",
+     "words": [
+      {
+       "w": "τῷ",
+       "t": [
+        "tō"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΩ"
+      },
+      {
+       "w": "πνεύματι",
+       "t": [
+        "pneu",
+        "ma",
+        "ti"
+       ],
+       "s": 0,
+       "strongs": "G4151",
+       "uncial": "ΠΝΕΥΜΑΤΙ"
+      },
+      {
+       "w": "τῆς",
+       "t": [
+        "tēs"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΗϹ"
+      },
+      {
+       "w": "ἐπαγγελίας",
+       "t": [
+        "e",
+        "pan",
+        "ge",
+        "li",
+        "as"
+       ],
+       "s": 3,
+       "strongs": "G1860",
+       "uncial": "ΕΠΑΓΓΕΛΙΑϹ"
+      },
+      {
+       "w": "τῷ",
+       "t": [
+        "tō"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΩ"
+      },
+      {
+       "w": "ἁγίῳ",
+       "t": [
+        "ha",
+        "gi",
+        "ō"
+       ],
+       "s": 1,
+       "strongs": "G40",
+       "uncial": "ΑΓΙΩ"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 23
+    },
+    {
+     "greek": "Αββα ὁ πατήρ",
+     "ref": "Galatians 4:6",
+     "name": "Abba ho Patēr",
+     "popular": "",
+     "meaning": "Abba! Father! (Aramaic, then Greek)",
+     "quote": "crying, “Abba! Father!”",
+     "quote_ref": "Galatians 4:6",
+     "modern": "Greek says patéras for father; Abba is Aramaic, kept untranslated.",
+     "words": [
+      {
+       "w": "Αββα",
+       "t": [
+        "Ab",
+        "ba"
+       ],
+       "s": null,
+       "strongs": "G5",
+       "uncial": "ΑΒΒΑ"
+      },
+      {
+       "w": "ὁ",
+       "t": [
+        "ho"
+       ],
+       "s": null,
+       "strongs": "G3588",
+       "uncial": "Ο"
+      },
+      {
+       "w": "πατήρ",
+       "t": [
+        "pa",
+        "tēr"
+       ],
+       "s": 1,
+       "strongs": "G3962",
+       "uncial": "ΠΑΤΗΡ"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 23
+    },
+    {
+     "greek": "οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ",
+     "ref": "Acts 5:4",
+     "name": "Not to men, but to God",
+     "popular": "",
+     "meaning": "you lied not to men but to God: Peter, of lying to the Holy Spirit",
+     "quote": "You have not lied to man but to God",
+     "quote_ref": "Acts 5:4",
+     "modern": "Psémata are lies today, and a pséftis is a liar.",
+     "words": [
+      {
+       "w": "οὐκ",
+       "t": [
+        "ouk"
+       ],
+       "s": null,
+       "strongs": "G3756",
+       "uncial": "ΟΥΚ"
+      },
+      {
+       "w": "ἐψεύσω",
+       "t": [
+        "e",
+        "pseu",
+        "sō"
+       ],
+       "s": 1,
+       "strongs": "G5574",
+       "uncial": "ΕΨΕΥϹΩ"
+      },
+      {
+       "w": "ἀνθρώποις",
+       "t": [
+        "an",
+        "thrō",
+        "pois"
+       ],
+       "s": 1,
+       "strongs": "G444",
+       "uncial": "ΑΝΘΡΩΠΟΙϹ"
+      },
+      {
+       "w": "ἀλλὰ",
+       "t": [
+        "al",
+        "la"
+       ],
+       "s": 1,
+       "strongs": "G235",
+       "uncial": "ΑΛΛΑ"
+      },
+      {
+       "w": "τῷ",
+       "t": [
+        "tō"
+       ],
+       "s": 0,
+       "strongs": "G3588",
+       "uncial": "ΤΩ"
+      },
+      {
+       "w": "θεῷ",
+       "t": [
+        "the",
+        "ō"
+       ],
+       "s": 1,
+       "strongs": "G2316",
+       "uncial": "ΘΕΩ"
+      }
+     ],
+     "new_letters": [
+      "ψ"
+     ],
+     "new_finals": [],
+     "letters_known": 24
+    }
+   ]
+  }
+ }
+}

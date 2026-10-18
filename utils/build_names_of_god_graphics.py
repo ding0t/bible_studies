@@ -22,7 +22,7 @@ from pathlib import Path
 
 from lib.larkin import (W, PAPER, INK, MUTED, CARD, RED, GOLD, GOLD_EDGE, GOLD_TINT, BLUE,
                         EARTH_TINT, esc, text)
-from lib.outline_text import place, PALEO
+from lib.outline_text import place, GREEK, PALEO
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "content" / "assets" / "img" / "names-of-god"
@@ -558,8 +558,17 @@ def key_lines(items, width=104):
     return rows
 
 
-def plate(slug, card, scene, translit, quote, ref, key):
-    he, paleo, meaning = card["hebrew"], " ".join(w["paleo"] for w in card["words"]), card["meaning"]
+def plate(slug, card, scene, translit, quote, ref, key, series="The Names of God", greek=False):
+    """One plate. A Greek card (export_greek_cards.py) sets its word in Noto Serif with the uncial
+    capitals beneath, where a Hebrew card has Paleo-Hebrew."""
+    if greek:
+        he, paleo = card["greek"], " ".join(w["uncial"] for w in card["words"])
+        word_font = dict(font=GREEK, weight=500, rtl=False)
+        second_font = dict(font=GREEK, weight=400, rtl=False)
+    else:
+        he, paleo = card["hebrew"], " ".join(w["paleo"] for w in card["words"])
+        word_font, second_font = {}, dict(font=PALEO, weight=400)
+    meaning = card["meaning"]
     quote_rows = wrap(quote, 40)
     rows = key_lines(key)
     h = max(SY + SH, 254 + 18 * len(quote_rows)) + 22 + 17 * len(rows) + 30
@@ -578,11 +587,15 @@ def plate(slug, card, scene, translit, quote, ref, key):
     out += ['</g>', f'<rect width="{SW}" height="{SH}" rx="6" fill="none" stroke="{INK}" stroke-width="1.6"/></g>']
 
     size = 78
-    d, w = place(he, 0, 0, size, fill=INK)
+    d, w = place(he, 0, 0, size, fill=INK, **word_font)
     if w > 300:
         size = size * 300 / w
-    path, _ = place(he, RX, 112, size, fill=INK)
-    ppath, _ = place(paleo, RX, 158, 30, font=PALEO, weight=400, fill=GOLD_EDGE)
+    path, _ = place(he, RX, 112, size, fill=INK, **word_font)
+    second = 30
+    _, pw = place(paleo, 0, 0, second, **second_font)
+    if pw > 300:
+        second = second * 300 / pw
+    ppath, _ = place(paleo, RX, 158, second, fill=GOLD_EDGE, **second_font)
     out += [path, ppath,
             text(RX, 196, translit, 22, "middle", "bold", italic=True),
             text(RX, 219, meaning, 15, "middle", fill=MUTED, italic=True),
@@ -598,7 +611,7 @@ def plate(slug, card, scene, translit, quote, ref, key):
     for row, inferred in rows:
         out.append(text(30, y, row, 12.5, fill=MUTED if not inferred else BLUE, italic=inferred))
         y += 17
-    out.append(text(W - 24, h - 22, "The Names of God · the-way.lewy.au", 11, "end", fill=MUTED, italic=True))
+    out.append(text(W - 24, h - 22, f"{series} · the-way.lewy.au", 11, "end", fill=MUTED, italic=True))
     out.append("</svg>")
     return "\n".join(out) + "\n"
 

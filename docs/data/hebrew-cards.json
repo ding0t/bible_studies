@@ -1414,6 +1414,597 @@
      "letters_known": 22
     }
    ]
+  },
+  "names-of-the-holy-spirit": {
+   "title": "The Names of the Holy Spirit",
+   "cards": [
+    {
+     "hebrew": "רוּחַ",
+     "ref": "Genesis 1:2",
+     "name": "Ruach",
+     "popular": "",
+     "meaning": "breath, wind, Spirit",
+     "quote": "The wind blows where it wishes, and you hear its sound",
+     "quote_ref": "John 3:8",
+     "modern": "Ruach is still wind and spirit, and ruach ha-qodesh is the Holy Spirit.",
+     "divine": false,
+     "words": [
+      {
+       "w": "רוּחַ",
+       "t": [
+        "ru",
+        "ach"
+       ],
+       "s": 0,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇"
+      }
+     ],
+     "new_letters": [
+      "ר",
+      "ו",
+      "ח"
+     ],
+     "new_finals": [],
+     "letters_known": 3
+    },
+    {
+     "hebrew": "רוּחִי",
+     "ref": "Ezekiel 36:27",
+     "name": "Ruchi",
+     "popular": "",
+     "meaning": "my Spirit",
+     "quote": "I will put my Spirit within you",
+     "quote_ref": "Ezekiel 36:27",
+     "modern": "Ruchani, from the same word, means spiritual.",
+     "divine": false,
+     "words": [
+      {
+       "w": "רוּחִי",
+       "t": [
+        "ru",
+        "chi"
+       ],
+       "s": 1,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇𐤉"
+      }
+     ],
+     "new_letters": [
+      "י"
+     ],
+     "new_finals": [],
+     "letters_known": 4
+    },
+    {
+     "hebrew": "רוּחַ יְהוָה",
+     "ref": "Isaiah 11:2",
+     "name": "Ruach YHWH",
+     "popular": "",
+     "meaning": "the Spirit of the LORD",
+     "quote": "the Spirit of the LORD shall rest upon him",
+     "quote_ref": "Isaiah 11:2",
+     "modern": "Readers say ruach Adonai, or ruach HaShem, \"the Spirit of the Name\".",
+     "divine": true,
+     "words": [
+      {
+       "w": "רוּחַ",
+       "t": [
+        "ru",
+        "ach"
+       ],
+       "s": 0,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇"
+      },
+      {
+       "w": "יְהוָה",
+       "t": [],
+       "s": null,
+       "strongs": "H3068",
+       "paleo": "𐤉𐤄𐤅𐤄"
+      }
+     ],
+     "new_letters": [
+      "ה"
+     ],
+     "new_finals": [],
+     "letters_known": 5
+    },
+    {
+     "hebrew": "רוּחַ אֱלֹהִים",
+     "ref": "Genesis 1:2",
+     "name": "Ruach Elohim",
+     "popular": "",
+     "meaning": "the Spirit of God",
+     "quote": "all who are led by the Spirit of God are sons of God",
+     "quote_ref": "Romans 8:14",
+     "modern": "Elohim is still the word for God.",
+     "divine": false,
+     "words": [
+      {
+       "w": "רוּחַ",
+       "t": [
+        "ru",
+        "ach"
+       ],
+       "s": 0,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇"
+      },
+      {
+       "w": "אֱלֹהִים",
+       "t": [
+        "'e",
+        "lo",
+        "him"
+       ],
+       "s": 2,
+       "strongs": "H430",
+       "paleo": "𐤀𐤋𐤄𐤉𐤌"
+      }
+     ],
+     "new_letters": [
+      "א",
+      "ל",
+      "מ"
+     ],
+     "new_finals": [
+      "ם"
+     ],
+     "letters_known": 8
+    },
+    {
+     "hebrew": "רוּחַ חָכְמָה",
+     "ref": "Isaiah 11:2",
+     "name": "Ruach Chokhmah",
+     "popular": "",
+     "meaning": "the Spirit of wisdom",
+     "quote": "the Spirit of wisdom and of revelation",
+     "quote_ref": "Ephesians 1:17",
+     "modern": "Chokhmah is still wisdom, and a chakham is a wise man.",
+     "divine": false,
+     "words": [
+      {
+       "w": "רוּחַ",
+       "t": [
+        "ru",
+        "ach"
+       ],
+       "s": 0,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇"
+      },
+      {
+       "w": "חָכְמָה",
+       "t": [
+        "chokh",
+        "mah"
+       ],
+       "s": null,
+       "strongs": "H2451",
+       "paleo": "𐤇𐤊𐤌𐤄"
+      }
+     ],
+     "new_letters": [
+      "כ"
+     ],
+     "new_finals": [],
+     "letters_known": 9
+    },
+    {
+     "hebrew": "רוּחַ קָדְשְׁךָ",
+     "ref": "Psalm 51:11",
+     "name": "Ruach Qodshekha",
+     "popular": "",
+     "meaning": "your Holy Spirit",
+     "quote": "take not your Holy Spirit from me",
+     "quote_ref": "Psalm 51:11",
+     "modern": "Ruach ha-qodesh, \"the Spirit of holiness\", is the Hebrew name for the Holy Spirit.",
+     "divine": false,
+     "words": [
+      {
+       "w": "רוּחַ",
+       "t": [
+        "ru",
+        "ach"
+       ],
+       "s": 0,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇"
+      },
+      {
+       "w": "קָדְשְׁךָ",
+       "t": [
+        "kod",
+        "she",
+        "cha"
+       ],
+       "s": null,
+       "strongs": "H6944",
+       "paleo": "𐤒𐤃𐤔𐤊"
+      }
+     ],
+     "new_letters": [
+      "ק",
+      "ד",
+      "ש"
+     ],
+     "new_finals": [
+      "ך"
+     ],
+     "letters_known": 12
+    },
+    {
+     "hebrew": "וְרוּחֲךָ הַטּוֹבָה",
+     "ref": "Nehemiah 9:20",
+     "name": "VeRuchakha HaTovah",
+     "popular": "",
+     "meaning": "and your good Spirit",
+     "quote": "You gave your good Spirit to instruct them",
+     "quote_ref": "Nehemiah 9:20",
+     "modern": "Tov is still good: boker tov is good morning.",
+     "divine": false,
+     "words": [
+      {
+       "w": "וְרוּחֲךָ",
+       "t": [
+        "ve",
+        "ru",
+        "cha",
+        "kha"
+       ],
+       "s": 3,
+       "strongs": "H7307",
+       "paleo": "𐤅𐤓𐤅𐤇𐤊"
+      },
+      {
+       "w": "הַטּוֹבָה",
+       "t": [
+        "ha",
+        "to",
+        "vah"
+       ],
+       "s": 2,
+       "strongs": "H2896",
+       "paleo": "𐤄𐤈𐤅𐤁𐤄"
+      }
+     ],
+     "new_letters": [
+      "ט",
+      "ב"
+     ],
+     "new_finals": [],
+     "letters_known": 14
+    },
+    {
+     "hebrew": "רוּחַ עֵצָה וּגְבוּרָה",
+     "ref": "Isaiah 11:2",
+     "name": "Ruach ʿEtsah uGevurah",
+     "popular": "",
+     "meaning": "the Spirit of counsel and might",
+     "quote": "the Spirit of counsel and might",
+     "quote_ref": "Isaiah 11:2",
+     "modern": "A yoʿets is an adviser today, and gevurah is strength.",
+     "divine": false,
+     "words": [
+      {
+       "w": "רוּחַ",
+       "t": [
+        "ru",
+        "ach"
+       ],
+       "s": 0,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇"
+      },
+      {
+       "w": "עֵצָה",
+       "t": [
+        "'e",
+        "tzah"
+       ],
+       "s": 1,
+       "strongs": "H6098",
+       "paleo": "𐤏𐤑𐤄"
+      },
+      {
+       "w": "וּגְבוּרָה",
+       "t": [
+        "u",
+        "ge",
+        "vu",
+        "rah"
+       ],
+       "s": 3,
+       "strongs": "H1369",
+       "paleo": "𐤅𐤂𐤁𐤅𐤓𐤄"
+      }
+     ],
+     "new_letters": [
+      "ע",
+      "צ",
+      "ג"
+     ],
+     "new_finals": [],
+     "letters_known": 17
+    },
+    {
+     "hebrew": "רוּחַ דַּעַת",
+     "ref": "Isaiah 11:2",
+     "name": "Ruach Daʿat",
+     "popular": "",
+     "meaning": "the Spirit of knowledge",
+     "quote": "the Spirit of knowledge and the fear of the LORD",
+     "quote_ref": "Isaiah 11:2",
+     "modern": "Daʿat is still knowledge: daʿat ha-qahal is public opinion.",
+     "divine": false,
+     "words": [
+      {
+       "w": "רוּחַ",
+       "t": [
+        "ru",
+        "ach"
+       ],
+       "s": 0,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇"
+      },
+      {
+       "w": "דַּעַת",
+       "t": [
+        "da",
+        "'at"
+       ],
+       "s": 0,
+       "strongs": "H1847",
+       "paleo": "𐤃𐤏𐤕"
+      }
+     ],
+     "new_letters": [
+      "ת"
+     ],
+     "new_finals": [],
+     "letters_known": 18
+    },
+    {
+     "hebrew": "אֶשְׁפּוֹךְ",
+     "ref": "Joel 2:28",
+     "name": "Eshpokh",
+     "popular": "",
+     "meaning": "I will pour out",
+     "quote": "I will pour out my Spirit on all flesh",
+     "quote_ref": "Acts 2:17",
+     "modern": "Shafakh is still to pour, or to spill.",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֶשְׁפּוֹךְ",
+       "t": [
+        "'esh",
+        "pokh"
+       ],
+       "s": 1,
+       "strongs": "H8210",
+       "paleo": "𐤀𐤔𐤐𐤅𐤊"
+      }
+     ],
+     "new_letters": [
+      "פ"
+     ],
+     "new_finals": [],
+     "letters_known": 19
+    },
+    {
+     "hebrew": "רוּחַ חֵן",
+     "ref": "Zechariah 12:10",
+     "name": "Ruach Chen",
+     "popular": "",
+     "meaning": "a spirit of grace; or, the Spirit of grace",
+     "quote": "the Spirit of grace",
+     "quote_ref": "Hebrews 10:29",
+     "modern": "Chen is still grace and charm.",
+     "divine": false,
+     "words": [
+      {
+       "w": "רוּחַ",
+       "t": [
+        "ru",
+        "ach"
+       ],
+       "s": 0,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇"
+      },
+      {
+       "w": "חֵן",
+       "t": [
+        "chen"
+       ],
+       "s": null,
+       "strongs": "H2580",
+       "paleo": "𐤇𐤍"
+      }
+     ],
+     "new_letters": [
+      "נ"
+     ],
+     "new_finals": [
+      "ן"
+     ],
+     "letters_known": 20
+    },
+    {
+     "hebrew": "רוּחַ אֲדֹנָי יְהוִה",
+     "ref": "Isaiah 61:1",
+     "name": "Ruach Adonai YHWH",
+     "popular": "",
+     "meaning": "the Spirit of the Lord GOD",
+     "quote": "The Spirit of the Lord is upon me",
+     "quote_ref": "Luke 4:18",
+     "modern": "After Adonai the name is read Elohim, so readers say ruach Adonai Elohim.",
+     "divine": true,
+     "words": [
+      {
+       "w": "רוּחַ",
+       "t": [
+        "ru",
+        "ach"
+       ],
+       "s": 0,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇"
+      },
+      {
+       "w": "אֲדֹנָי",
+       "t": [
+        "'a",
+        "do",
+        "nai"
+       ],
+       "s": 2,
+       "strongs": "H136",
+       "paleo": "𐤀𐤃𐤍𐤉"
+      },
+      {
+       "w": "יְהוִה",
+       "t": [],
+       "s": null,
+       "strongs": "H3069",
+       "paleo": "𐤉𐤄𐤅𐤄"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 20
+    },
+    {
+     "hebrew": "בְּרוּחִי",
+     "ref": "Zechariah 4:6",
+     "name": "BeRuchi",
+     "popular": "",
+     "meaning": "by my Spirit",
+     "quote": "Not by might, nor by power, but by my Spirit",
+     "quote_ref": "Zechariah 4:6",
+     "modern": "Ruach is also morale: ruach tsevet is team spirit.",
+     "divine": false,
+     "words": [
+      {
+       "w": "בְּרוּחִי",
+       "t": [
+        "be",
+        "ru",
+        "chi"
+       ],
+       "s": 2,
+       "strongs": "H7307",
+       "paleo": "𐤁𐤓𐤅𐤇𐤉"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 20
+    },
+    {
+     "hebrew": "רוּחִי עַל זַרְעֶךָ",
+     "ref": "Isaiah 44:3",
+     "name": "Ruchi ʿal Zarʿekha",
+     "popular": "",
+     "meaning": "my Spirit upon your offspring",
+     "quote": "I will pour my Spirit upon your offspring",
+     "quote_ref": "Isaiah 44:3",
+     "modern": "Zeraʿ is still seed, and offspring.",
+     "divine": false,
+     "words": [
+      {
+       "w": "רוּחִי",
+       "t": [
+        "ru",
+        "chi"
+       ],
+       "s": 1,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇𐤉"
+      },
+      {
+       "w": "עַל",
+       "t": [
+        "'al"
+       ],
+       "s": null,
+       "strongs": "H5921",
+       "paleo": "𐤏𐤋"
+      },
+      {
+       "w": "זַרְעֶךָ",
+       "t": [
+        "zar",
+        "'e",
+        "kha"
+       ],
+       "s": 1,
+       "strongs": "H2233",
+       "paleo": "𐤆𐤓𐤏𐤊"
+      }
+     ],
+     "new_letters": [
+      "ז"
+     ],
+     "new_finals": [],
+     "letters_known": 21
+    },
+    {
+     "hebrew": "רוּחַ נְדִיבָה תִסְמְכֵנִי",
+     "ref": "Psalm 51:12",
+     "name": "Ruach Nedivah",
+     "popular": "",
+     "meaning": "a willing spirit will uphold me",
+     "quote": "uphold me with a willing spirit",
+     "quote_ref": "Psalm 51:12",
+     "modern": "Nadiv is generous today, and a nedavah is a donation.",
+     "divine": false,
+     "words": [
+      {
+       "w": "רוּחַ",
+       "t": [
+        "ru",
+        "ach"
+       ],
+       "s": 0,
+       "strongs": "H7307",
+       "paleo": "𐤓𐤅𐤇"
+      },
+      {
+       "w": "נְדִיבָה",
+       "t": [
+        "ne",
+        "di",
+        "vah"
+       ],
+       "s": 2,
+       "strongs": "H5081",
+       "paleo": "𐤍𐤃𐤉𐤁𐤄"
+      },
+      {
+       "w": "תִסְמְכֵנִי",
+       "t": [
+        "tis",
+        "me",
+        "khe",
+        "ni"
+       ],
+       "s": 2,
+       "strongs": "H5564",
+       "paleo": "𐤕𐤎𐤌𐤊𐤍𐤉"
+      }
+     ],
+     "new_letters": [
+      "ס"
+     ],
+     "new_finals": [],
+     "letters_known": 22
+    }
+   ]
   }
  }
 }

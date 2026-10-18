@@ -369,3 +369,134 @@ meaning = "I am the first and I am the last"
 quote = "Fear not, I am the first and the last"
 quote_ref = "Revelation 1:17"
 modern = "Sunday is yom rishon, \"the first day\"."
+
+[deck.names-of-the-holy-spirit]
+title = "The Names of the Holy Spirit"
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחַ"
+ref = "Genesis 1:2"
+name = "Ruach"
+meaning = "breath, wind, Spirit"
+quote = "The wind blows where it wishes, and you hear its sound"
+quote_ref = "John 3:8"
+modern = "Ruach is still wind and spirit, and ruach ha-qodesh is the Holy Spirit."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחִי"
+ref = "Ezekiel 36:27"
+name = "Ruchi"
+meaning = "my Spirit"
+quote = "I will put my Spirit within you"
+modern = "Ruchani, from the same word, means spiritual."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחַ יְהוָה"
+ref = "Isaiah 11:2"
+name = "Ruach YHWH"
+meaning = "the Spirit of the LORD"
+quote = "the Spirit of the LORD shall rest upon him"
+divine = true
+modern = "Readers say ruach Adonai, or ruach HaShem, \"the Spirit of the Name\"."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחַ אֱלֹהִים"
+ref = "Genesis 1:2"
+name = "Ruach Elohim"
+meaning = "the Spirit of God"
+quote = "all who are led by the Spirit of God are sons of God"
+quote_ref = "Romans 8:14"
+modern = "Elohim is still the word for God."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחַ חָכְמָה"
+ref = "Isaiah 11:2"
+name = "Ruach Chokhmah"
+meaning = "the Spirit of wisdom"
+quote = "the Spirit of wisdom and of revelation"
+quote_ref = "Ephesians 1:17"
+modern = "Chokhmah is still wisdom, and a chakham is a wise man."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחַ קָדְשְׁךָ"
+ref = "Psalm 51:11"
+name = "Ruach Qodshekha"
+meaning = "your Holy Spirit"
+quote = "take not your Holy Spirit from me"
+modern = "Ruach ha-qodesh, \"the Spirit of holiness\", is the Hebrew name for the Holy Spirit."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "וְרוּחֲךָ הַטּוֹבָה"
+ref = "Nehemiah 9:20"
+name = "VeRuchakha HaTovah"
+meaning = "and your good Spirit"
+quote = "You gave your good Spirit to instruct them"
+modern = "Tov is still good: boker tov is good morning."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחַ עֵצָה וּגְבוּרָה"
+ref = "Isaiah 11:2"
+name = "Ruach ʿEtsah uGevurah"
+meaning = "the Spirit of counsel and might"
+quote = "the Spirit of counsel and might"
+modern = "A yoʿets is an adviser today, and gevurah is strength."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחַ דַּעַת"
+ref = "Isaiah 11:2"
+name = "Ruach Daʿat"
+meaning = "the Spirit of knowledge"
+quote = "the Spirit of knowledge and the fear of the LORD"
+modern = "Daʿat is still knowledge: daʿat ha-qahal is public opinion."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "אֶשְׁפּוֹךְ"
+ref = "Joel 2:28"
+name = "Eshpokh"
+meaning = "I will pour out"
+quote = "I will pour out my Spirit on all flesh"
+quote_ref = "Acts 2:17"
+modern = "Shafakh is still to pour, or to spill."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחַ חֵן"
+ref = "Zechariah 12:10"
+name = "Ruach Chen"
+meaning = "a spirit of grace; or, the Spirit of grace"
+quote = "the Spirit of grace"
+quote_ref = "Hebrews 10:29"
+modern = "Chen is still grace and charm."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחַ אֲדֹנָי יְהוִה"
+ref = "Isaiah 61:1"
+name = "Ruach Adonai YHWH"
+meaning = "the Spirit of the Lord GOD"
+quote = "The Spirit of the Lord is upon me"
+quote_ref = "Luke 4:18"
+divine = true
+modern = "After Adonai the name is read Elohim, so readers say ruach Adonai Elohim."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "בְּרוּחִי"
+ref = "Zechariah 4:6"
+name = "BeRuchi"
+meaning = "by my Spirit"
+quote = "Not by might, nor by power, but by my Spirit"
+modern = "Ruach is also morale: ruach tsevet is team spirit."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחִי עַל זַרְעֶךָ"
+ref = "Isaiah 44:3"
+name = "Ruchi ʿal Zarʿekha"
+meaning = "my Spirit upon your offspring"
+quote = "I will pour my Spirit upon your offspring"
+modern = "Zeraʿ is still seed, and offspring."
+
+[[deck.names-of-the-holy-spirit.card]]
+hebrew = "רוּחַ נְדִיבָה תִסְמְכֵנִי"
+ref = "Psalm 51:12"
+name = "Ruach Nedivah"
+meaning = "a willing spirit will uphold me"
+quote = "uphold me with a willing spirit"
+modern = "Nadiv is generous today, and a nedavah is a donation."

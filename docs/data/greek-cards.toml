@@ -1,0 +1,137 @@
+# Greek word cards, checked and exported by references/build/export_greek_cards.py into
+# greek-cards.json, and rendered by hooks/greek_cards.py wherever a page carries
+# <!-- greek-cards: <deck> -->. Each word must be in the SBL Greek New Testament at `ref`, and each
+# quote in the ESV at `quote_ref` (default `ref`). `…` stands for words left out between two that
+# are in the verse. Cards are in teaching order: the export counts the letters each one adds.
+
+[deck.names-of-the-holy-spirit]
+title = "The Names of the Holy Spirit"
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "πνεῦμα"
+ref = "John 3:8"
+name = "Pneuma"
+meaning = "breath, wind, Spirit"
+quote = "The wind blows where it wishes"
+modern = "Pnévma is still spirit, and also wit; to Ágio Pnévma is the Holy Spirit."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "τὸ πνεῦμα τὸ ἅγιον"
+ref = "John 14:26"
+name = "To Pneuma to Hagion"
+meaning = "the Holy Spirit; literally, the Spirit, the holy one"
+quote = "the Helper, the Holy Spirit"
+modern = "Ágios is a saint in Greek today, as in Ágios Nikólaos."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "ὁ παράκλητος"
+ref = "John 15:26"
+name = "Paraklētos"
+meaning = "the Helper: one called alongside to help"
+popular = "the Comforter, the Advocate"
+quote = "But when the Helper comes"
+modern = "Orthodox prayer still opens \"Heavenly King, Paráklite\", calling the Spirit the Comforter."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "τὸ πνεῦμα τῆς ἀληθείας"
+ref = "John 16:13"
+name = "Pneuma tēs Alētheias"
+meaning = "the Spirit of truth"
+quote = "When the Spirit of truth comes"
+modern = "Alítheia is still truth, and alithiná means \"really\"."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "πνεῦμα θεοῦ"
+ref = "Romans 8:9"
+name = "Pneuma Theou"
+meaning = "the Spirit of God"
+quote = "the Spirit of God dwells in you"
+modern = "Theós is still God, and Thee mou! is \"my God!\""
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "πνεῦμα Χριστοῦ"
+ref = "Romans 8:9"
+name = "Pneuma Christou"
+meaning = "the Spirit of Christ"
+quote = "Anyone who does not have the Spirit of Christ does not belong to him"
+modern = "Christós; Christoúgenna, \"Christ's birth\", is Christmas."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "πνεῦμα υἱοθεσίας"
+ref = "Romans 8:15"
+name = "Pneuma Huiothesias"
+meaning = "the Spirit of adoption: of being made a son"
+quote = "the Spirit of adoption as sons"
+modern = "Yiothesía is still the word for adoption."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "ἀρραβὼν"
+ref = "Ephesians 1:14"
+name = "Arrabōn"
+meaning = "guarantee, first payment, pledge"
+quote = "the guarantee of our inheritance"
+modern = "Arravónas is an engagement today, and arravoniastikós a fiancé."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "τοῦ πνεύματος τῆς ζωῆς"
+ref = "Romans 8:2"
+name = "Pneuma tēs Zōēs"
+meaning = "the Spirit of life"
+quote = "the law of the Spirit of life"
+modern = "Zoí is still life, and a zóo is an animal."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "πνεῦμα σοφίας"
+ref = "Ephesians 1:17"
+name = "Pneuma Sophias"
+meaning = "the Spirit of wisdom"
+quote = "the Spirit of wisdom and of revelation"
+modern = "Sofía is still wisdom, and a common girl's name."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "τὸ τῆς δόξης … πνεῦμα"
+ref = "1 Peter 4:14"
+name = "Pneuma tēs Doxēs"
+meaning = "the Spirit of glory"
+quote = "the Spirit of glory and of God rests upon you"
+modern = "Dóxa is glory: Dóxa to Theó, \"glory to God\", is how Greeks say \"thank God\"."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "πνεύματος αἰωνίου"
+ref = "Hebrews 9:14"
+name = "Pneuma Aiōnion"
+meaning = "the eternal Spirit"
+quote = "through the eternal Spirit offered himself without blemish to God"
+modern = "Aiónios is still eternal, and aiónas is a century."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "τὸ πνεῦμα τῆς χάριτος"
+ref = "Hebrews 10:29"
+name = "Pneuma tēs Charitos"
+meaning = "the Spirit of grace"
+quote = "the Spirit of grace"
+modern = "Cháris is grace and favour; chári se is \"thanks to you\"."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "τῷ πνεύματι τῆς ἐπαγγελίας τῷ ἁγίῳ"
+ref = "Ephesians 1:13"
+name = "Pneuma tēs Epangelias"
+meaning = "the Holy Spirit of promise"
+quote = "sealed with the promised Holy Spirit"
+modern = "Epangelía is still a promise, and epángelma a profession."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "Αββα ὁ πατήρ"
+ref = "Galatians 4:6"
+name = "Abba ho Patēr"
+meaning = "Abba! Father! (Aramaic, then Greek)"
+quote = "crying, “Abba! Father!”"
+modern = "Greek says patéras for father; Abba is Aramaic, kept untranslated."
+
+[[deck.names-of-the-holy-spirit.card]]
+greek = "οὐκ ἐψεύσω ἀνθρώποις ἀλλὰ τῷ θεῷ"
+ref = "Acts 5:4"
+name = "Not to men, but to God"
+meaning = "you lied not to men but to God: Peter, of lying to the Holy Spirit"
+quote = "You have not lied to man but to God"
+modern = "Psémata are lies today, and a pséftis is a liar."

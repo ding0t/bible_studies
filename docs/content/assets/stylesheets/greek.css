@@ -1,0 +1,14 @@
+/* Greek word cards (hooks/greek_cards.py). The card layout is hebrew.css's .hc-* rules; only the
+ * script and its direction differ. The uncial line uses the lunate sigma (Ϲ) of the codices, which
+ * Noto Serif draws. */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600&display=swap");
+
+.gc-deck [lang="grc"], .gc-deck .hc-word, .gc-deck .gc-uncial {
+  font-family: "Noto Serif", "Gentium Plus", "SBL Greek", "Times New Roman", serif;
+}
+.gc-deck .hc-word { direction: ltr; }
+.gc-deck .hc-prompt .hc-word { font-size: calc(8.5 * var(--mm)); }
+.gc-deck .hc-full .hc-word { font-size: calc(5.5 * var(--mm)); }
+.gc-deck .hc-syl b { font-size: calc(5 * var(--mm)); }
+.gc-uncial { letter-spacing: 0.12em; font-size: calc(3.6 * var(--mm)); }
+.gc-deck .hc-screen-card .hc-word { font-size: 2.4rem; }

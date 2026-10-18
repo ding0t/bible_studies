@@ -1,4 +1,4 @@
-// Spaced review for the Hebrew word cards (docs/content/hebrew/names-of-god-cards.md).
+// Spaced review for the Hebrew and Greek word cards (docs/content/hebrew/names-of-god-cards.md).
 //
 // A Leitner schedule: a card read correctly moves up a box and comes back after that box's
 // interval; a miss sends it to box 0 and back into today's session. New cards are introduced in
@@ -23,7 +23,8 @@ export function review(entry, correct, now) {
   return { box, due: now + INTERVAL_DAYS[box] * DAY };
 }
 
-/** The text to speak: the divine name is read Adonai, never sounded out. */
+/** The text to speak: the divine name is read Adonai, never sounded out, and where it is pointed
+ * for Elohim (after Adonai, as in Isaiah 61:1) it is read Elohim. */
 export function spokenText(hebrew) {
-  return hebrew.replace(/יְהוָה|יהוה/g, 'אֲדֹנָי');
+  return hebrew.replace(/יְהוִה/g, 'אֱלֹהִים').replace(/יְהוָה|יהוה/g, 'אֲדֹנָי');
 }

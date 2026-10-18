@@ -38,4 +38,5 @@ test('the divine name is spoken as Adonai, in a phrase and alone', () => {
   assert.equal(spokenText('יְהוָה רֹפְאֶךָ'), 'אֲדֹנָי רֹפְאֶךָ');
   assert.equal(spokenText('יהוה'), 'אֲדֹנָי');
   assert.equal(spokenText('אֵל שַׁדַּי'), 'אֵל שַׁדַּי');
+  assert.equal(spokenText('אֲדֹנָי יְהוִה'), 'אֲדֹנָי אֱלֹהִים');
 });

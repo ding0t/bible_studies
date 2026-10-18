@@ -6,7 +6,8 @@ type designer put them) and fontTools turns each glyph into a path. Needs uharfb
 
     uv run --with uharfbuzz --with fonttools python3 utils/build_names_of_god_graphics.py
 
-The fonts are Noto Serif Hebrew and Noto Sans Phoenician (SIL Open Font License, fonts/OFL.txt).
+The fonts are Noto Serif Hebrew, Noto Sans Phoenician and Noto Serif, the last subset to Greek
+(SIL Open Font License, fonts/OFL.txt).
 """
 
 from functools import lru_cache
@@ -22,6 +23,8 @@ from fontTools.varLib.instancer import instantiateVariableFont
 FONTS = Path(__file__).resolve().parent / "fonts"
 HEBREW = "NotoSerifHebrew.ttf"
 PALEO = "NotoSansPhoenician.ttf"
+# Noto Serif cut down to Latin, Greek and Greek Extended (fontTools.subset), for the Greek plates.
+GREEK = "NotoSerifGreek.ttf"
 
 
 @lru_cache(maxsize=None)

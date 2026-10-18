@@ -159,7 +159,9 @@ def _full(card: dict | None, number: int, front: bool = True) -> str:
 
 def _reading(word: dict, divine: bool) -> str:
     if divine and not word["t"]:
-        return '<span class="hc-syl"><b lang="he">' + escape(word["w"]) + '</b><i>read <em>Adonai</em></i></span>'
+        # H3069 is the name pointed for Elohim, as after Adonai in "Adonai YHWH" (Isaiah 61:1).
+        read = "Elohim" if word["strongs"] == "H3069" else "Adonai"
+        return f'<span class="hc-syl"><b lang="he">{escape(word["w"])}</b><i>read <em>{read}</em></i></span>'
     # A one-syllable word has nowhere else for the stress to fall, so it is not marked.
     stress = word["s"] if len(word["t"]) > 1 else None
     syllables = "·".join(f"<u>{escape(s)}</u>" if i == stress else escape(s) for i, s in enumerate(word["t"]))
