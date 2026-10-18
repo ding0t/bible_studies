@@ -1,6 +1,6 @@
 slug: names-of-god
 title: "The Names of God"
-status: drafting # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
 target_path: docs/content/god/names-of-god.md
 
 primary_passage: "Exodus 3:13-15"
@@ -112,12 +112,32 @@ stages:
     translations_compared: []
     divergences_noted: ""
   drafting:
-    done: false
-    file: ""
+    done: true
+    file: docs/content/god/names-of-god.md
+    notes: >
+      Drafted 2026-10-18 as draft: true after the author approved the thesis and outline, with this
+      direction on overlap: "Still go over the concept in this study for the name. But back onto
+      the existing studies for depth. They cover different but overlapping concepts and should
+      support each other." So each name gets its concept here in a paragraph, and the sibling that
+      owns the depth is linked at that point (those-called-gods, know-the-truth, melchizedek,
+      as-the-snake-was-lifted, woman-at-well, humility, the-shema, pronunciation, lords-prayer).
+      Validate clean except the provenance fields (filled at commit); strict build clean; every
+      link and anchor checked; 0 antithesis constructions by the human-review.md count.
   review:
     done: false
     validated: false
 
+back_links_on_publish:
+  # Check 24: a published page may not link a draft, so these go in the commit that flips draft: false.
+  - {file: hebrew/names-of-god-cards.md, where: "intro or Sources", say: "the theology of each name"}
+  - {file: hebrew/pronunciation.md, where: "The name of God", say: "what the name means"}
+  - {file: spiritual-beings/those-called-gods.md, where: "The names never given away", say: "the names God gave Himself"}
+  - {file: jesus/as-the-snake-was-lifted.md, where: "The Hebrew words ... banner", say: "Exodus 17:15, YHWH Nissi, the same nes (enrichment)"}
+  - {file: jesus/woman-at-well.md, where: "I am, the one speaking to you", say: "Exodus 3:14 and the name"}
+  - {file: christian-life/humility.md, where: "Therefore God exalted Him", say: "the name above every name"}
+  - {file: christian-life/know-the-truth.md, where: "Exodus 34:6 paragraph", say: "the name proclaimed"}
+  - {file: christian-life/lords-prayer.md, where: "Hallowed be your name", say: "the names God has made known"}
+  - {file: hebrew/index.md, where: "step 3 or Where next", say: "the study behind the cards"}
 open_questions:
   - "Exodus 17:16's first clause is obscure in Hebrew (CSB/NLT footnotes); do not build on it."
   - "Isaiah 7:14 almah/parthenos: out of scope; one sentence at most, pointing to the footnote fork."
