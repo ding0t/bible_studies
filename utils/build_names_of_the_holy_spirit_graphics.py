@@ -219,7 +219,7 @@ PLATES = [
      "Cast me not away from your presence, and take not your Holy Spirit from me.", "Psalm 51:11 (ESV)",
      [("Nathan sent to David, and gone", "2 Samuel 12:1, 15", True),
       ("the night, the room, the lamp, and David on his knees", "", False)]),
-    ("ruchakha-hatovah", "VeRuchakha HaTovah", "hebrew", scene_tovah, "Ruchakha HaTovah",
+    ("ruchakha-hatovah", "VeRuchakha Hattovah", "hebrew", scene_tovah, "Ruchakha Hattovah",
      "You gave your good Spirit to instruct them and did not withhold your manna from their mouth and "
      "gave them water for their thirst.", "Nehemiah 9:20 (ESV)",
      [("the pillar of cloud to lead them by day", "Nehemiah 9:19", True),

@@ -5,7 +5,7 @@ description: "The 24 letters of the Greek New Testament with their names and sou
 tags: ["lang/greek", "learning"]
 draft: true
 date_created: 2026-10-18
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -66,8 +66,8 @@ classroom reading, and a line on each says what the word means in Greek today.
 
 The oldest copies of the New Testament were written in capitals only, with no spaces between words
 and no accents: the **uncial** script. Their sigma was the round *lunate* sigma, Ϲ. So John 3:8's
-πνεῦμα appears as ΠΝΕΥΜΑ. The scribes also wrote sacred names short, with a line over them: ΘΣ for
-θεός (God), ΙΣ for Ἰησοῦς (Jesus), and ΠΝΑ for πνεῦμα when it means the Spirit. The word cards show
+πνεῦμα appears as ΠΝΕΥΜΑ. The scribes also wrote sacred names short, with a line over them: ΘϹ for
+θεός (God), ΙϹ for Ἰησοῦς (Jesus), and ΠΝΑ for πνεῦμα when it means the Spirit. The word cards show
 each word in uncial capitals beneath the modern print.
 
 ## Word cards

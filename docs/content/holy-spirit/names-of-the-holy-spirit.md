@@ -7,7 +7,7 @@ draft: true
 primary_passage: "John 14:15-18"
 bible_references: ["Genesis 1:2", "Job 33:4", "1 Samuel 16:13-14", "Isaiah 11:1-3", "Isaiah 61:1", "Luke 4:18", "Psalm 51:11", "Isaiah 63:10-11", "Psalm 139:7", "Nehemiah 9:20", "Psalm 143:10", "Joel 2:28-29", "Ezekiel 36:26-27", "Ezekiel 37:9-14", "Zechariah 4:6", "Zechariah 12:10", "John 3:5-8", "John 7:37-39", "John 14:15-18", "John 14:26", "John 15:26", "John 16:7-8", "John 16:13-14", "John 20:22", "1 John 2:1", "Acts 1:4-5", "Acts 2:33", "Acts 5:3-4", "Acts 16:7", "Matthew 28:19", "2 Corinthians 13:14", "Romans 8:2", "Romans 8:9-11", "Romans 8:14-16", "Romans 8:26", "Galatians 4:6", "1 Corinthians 3:16", "1 Corinthians 12:3", "2 Corinthians 1:22", "2 Corinthians 3:17-18", "2 Corinthians 5:5", "Ephesians 1:13-14", "Ephesians 1:17", "Ephesians 4:30", "Philippians 1:19", "Hebrews 9:14", "Hebrews 10:29", "1 Peter 1:11", "1 Peter 4:14", "Revelation 1:4-5", "Revelation 22:17"]
 date_created: 2026-10-18
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -53,10 +53,14 @@ time.
 ### Lessons about Jesus
 
 - Jesus calls the Spirit "another Helper" (John 14:16). The word, <span lang="grc">παράκλητος</span> (*paraklētos*, G3875), is
-  used once more in the New Testament, of Jesus Himself: "we have an advocate with the Father,
+  used five times in the New Testament: four times by Jesus of the Spirit in John 14-16, and once of
+  Jesus Himself: "we have an advocate with the Father,
   Jesus Christ the righteous" (1 John 2:1, ESV). The Spirit does for His people on earth what the
   Son does for them before the Father.
-- The Spirit rested on Jesus without measure, as Isaiah promised, and the Spirit is named after
+- God gives Jesus the Spirit "without measure" (John 3:34, ESV), as Isaiah promised: "I have put my
+  Spirit upon him" (Isaiah 42:1, ESV). The next verse names the giver: "The Father loves the Son and
+  has given all things into his hand" (John 3:35, ESV). Peter says the same: "God anointed Jesus of
+  Nazareth with the Holy Spirit and with power" (Acts 10:38, ESV). The Spirit is also named after
   Him: "the Spirit of Christ" (Romans 8:9), "the Spirit of Jesus" (Acts 16:7), "the Spirit of his
   Son" (Galatians 4:6).
 - The Spirit's work is to make Jesus known: "He will glorify me, for he will take what is mine and
@@ -88,9 +92,9 @@ time.
 ### Prayer
 
 Abba, Father, You promised Your Spirit by the prophets and gave Him through Your Son. Thank You that
-I am not left an orphan, that the Spirit of truth lives in me and will not leave. Holy Spirit,
-teach me what Jesus said, show me His glory, and lead me in Your good way. Keep me from grieving
-You. Let me call God Father and Jesus Lord with all my heart. In Jesus' name. Amen.
+I am not left an orphan, that the Spirit of truth lives in me and will not leave. By Your Spirit
+teach me what Jesus said, show me His glory, and let Your good Spirit lead me. Keep me from grieving
+Your Holy Spirit. Let me call You Father and Jesus Lord with all my heart. In Jesus' name. Amen.
 
 ## Study outline
 
@@ -99,9 +103,10 @@ You. Let me call God Father and Jesus Lord with all my heart. In Jesus' name. Am
 - [Breath, wind and Spirit](#breath-wind-and-spirit). The Hebrew and Greek words, and why most of
   His names begin "Spirit of".
 - [Names in the Old Testament](#names-in-the-old-testament). The Spirit of God, the Spirit of the
-  LORD, your Holy Spirit, your good Spirit, and the Spirit God promised to pour out.
-- [Names Jesus gave Him](#names-jesus-gave-him). The Helper, the Spirit of truth, and the promise of
-  the Father.
+  LORD on David, on the Branch and on the Anointed, your Holy Spirit, your good Spirit, the Spirit
+  God promised to pour out, and Zechariah's contested "spirit of grace".
+- [Names Jesus gave Him](#names-jesus-gave-him). The Helper, the Spirit of truth, the pronouns John
+  uses for Him, and the promise of the Father.
 - [Names that say He is God](#names-that-say-he-is-god). The Spirit of God and of Christ, the Lord
   who is the Spirit, and the one name.
 - [Names for what He does in you](#names-for-what-he-does-in-you). Life, adoption, the seal and the
@@ -183,6 +188,8 @@ on judges, on prophets, and on the king. When Samuel anointed David, "the Spirit
 upon David from that day forward" (1 Samuel 16:13, ESV). The next verse is the sorrow of it: "Now
 the Spirit of the LORD departed from Saul" (1 Samuel 16:14, ESV).
 
+### The Spirit resting on the Branch
+
 Isaiah saw the Spirit of the LORD resting on one King for good. From the stump of Jesse's cut-down
 line a Branch would grow (Isaiah 11:1), the Branch of [The Names of
 Jesus](../jesus/names-of-jesus.md#the-branch), and:
@@ -198,10 +205,12 @@ understanding"; <span dir="rtl">רוּחַ עֵצָה וּגְבוּרָה</span
 H1369), "counsel and might"; and <span dir="rtl">רוּחַ דַּעַת וְיִרְאַת יְהוָה</span>
 (*ruach daʿat veyirʾat YHWH*, H1847, H3374), "knowledge and the fear of the LORD". The verb is
 <span dir="rtl">נָחָה</span> (*nachah*, H5117), "rest", the word for settling and staying. The
-Septuagint renders the last "fear" as <span lang="grc">εὐσεβεία</span> (*eusebeia*, G2150),
+Septuagint renders the last "fear" as <span lang="grc">εὐσέβεια</span> (*eusebeia*, G2150),
 "godliness", then has "the spirit of the fear of God" in Isaiah 11:3, so the Greek counts seven
 gifts where the Hebrew counts six. That Greek count is one source of the church's phrase "the
 sevenfold Spirit".
+
+### The Spirit of the Lord GOD upon the Anointed
 
 Isaiah heard the same King speak: "The Spirit of the Lord GOD is upon me, because the LORD has
 anointed me to bring good news to the poor" (Isaiah 61:1, ESV). <span dir="rtl">רוּחַ אֲדֹנָי
@@ -219,7 +228,7 @@ The name "Holy Spirit" occurs three times in the whole Old Testament, and two of
 losing Him. David prayed after his sin with Bathsheba: "Cast me not away from your presence, and
 take not your Holy Spirit from me" (Psalm 51:11, ESV). He had seen it happen to Saul.
 <span dir="rtl">רוּחַ קָדְשְׁךָ</span> (*ruach qodshekha*, H7307, H6944) is literally "the Spirit of
-your holiness", which the NLT gives as its footnote. The other two are in Isaiah's prayer, looking
+your holiness", and the NLT footnotes "your spirit of holiness". The other two are in Isaiah's prayer, looking
 back on the wilderness:
 
 > ✝️ Isaiah 63:10-11 (ESV)
@@ -239,7 +248,7 @@ the psalm say so.
 
 ### Your good Spirit
 
-[![Ruchakha HaTovah, וְרוּחֲךָ הַטּוֹבָה, “and your good Spirit”, in large Hebrew with its Paleo-Hebrew form. In the scene: the pillar of cloud to lead them by day (Nehemiah 9:19); water out of the rock (9:15, 20); manna on the ground (9:20). Not stated, drawn for the scene: the camp's tents. The plate quotes Nehemiah 9:20 (ESV).](../assets/img/names-of-the-holy-spirit/ruchakha-hatovah.svg)](../assets/img/names-of-the-holy-spirit/ruchakha-hatovah.svg)
+[![Ruchakha Hattovah, וְרוּחֲךָ הַטּוֹבָה, “and your good Spirit”, in large Hebrew with its Paleo-Hebrew form. In the scene: the pillar of cloud to lead them by day (Nehemiah 9:19); water out of the rock (9:15, 20); manna on the ground (9:20). Not stated, drawn for the scene: the camp's tents. The plate quotes Nehemiah 9:20 (ESV).](../assets/img/names-of-the-holy-spirit/ruchakha-hatovah.svg)](../assets/img/names-of-the-holy-spirit/ruchakha-hatovah.svg)
 
 Nehemiah's Levites prayed through Israel's history and remembered the wilderness: "You gave your
 good Spirit to instruct them and did not withhold your manna from their mouth" (Nehemiah 9:20, ESV).
@@ -267,13 +276,17 @@ out. Peter stood up at Pentecost and said, "this is what was uttered through the
 (Acts 2:16, ESV). [Weeks](../feasts/weeks.md#the-day-of-pentecost) follows the feast it fell on,
 and [Dreams and Visions](dreams-and-visions/index.md) the dreams Joel names.
 
-Ezekiel heard the promise as a new heart: "I will put my Spirit within you, and cause you to walk in
-my statutes" (Ezekiel 36:27, ESV). The Spirit within does what the law written on stone could not.
-To Zerubbabel, rebuilding the temple with a handful of returned exiles, God said, "Not by might, nor
+Ezekiel heard the promise as a new heart. God would "remove the heart of stone" (Ezekiel 36:26,
+ESV), and He said, "I will put my Spirit within you, and cause you to walk in my statutes"
+(Ezekiel 36:27, ESV). The Spirit within does what Paul says the law, "weakened by the flesh, could
+not do" (Romans 8:3, ESV). To Zerubbabel, rebuilding the temple with the 42,360 who had come back
+from exile (Ezra 2:64), God said, "Not by might, nor
 by power, but by my Spirit, says the LORD of hosts" (Zechariah 4:6, ESV). Both prophets spoke to
 Israel first, and both promises still stand for Israel; [Israel's Regathering and
 Refining](../israel-and-church/israels-regathering-and-refining.md) follows Ezekiel 36-37 for the
 nation.
+
+### A spirit of grace and pleas for mercy
 
 Zechariah's last promise is a Spirit poured out on Jerusalem in mourning: "I will pour out on the
 house of David and the inhabitants of Jerusalem a spirit of grace and pleas for mercy, so that, when
@@ -282,10 +295,12 @@ they look on me, on him whom they have pierced, they shall mourn for him" (Zecha
 prints a small *s*, and the NLT and CSB footnote "Or *the Spirit*". The Hebrew has no capital
 letters, so the case rests on the verse. It is God who pours, and in Joel and Ezekiel what God pours
 out and puts within is His Spirit. Against that, "a spirit of grace and pleas for mercy" can be read
-as a disposition He gives, a heart that pleads. Hebrews points the New Testament reader to the first reading. The
-Septuagint renders the phrase <span lang="grc">πνεῦμα χάριτος</span> (*pneuma charitos*, G4151, G5485), and
-Hebrews 10:29 warns against having "outraged the Spirit of grace", <span lang="grc">τὸ πνεῦμα τῆς
-χάριτος</span>, the same words.
+as a disposition He gives, a heart that pleads. Hebrews likely points the New Testament reader to
+the first reading. The Septuagint renders the phrase <span lang="grc">πνεῦμα χάριτος</span>
+(*pneuma charitos*, G4151, G5485), and Hebrews 10:29 warns against having "outraged the Spirit of
+grace", <span lang="grc">τὸ πνεῦμα τῆς χάριτος</span>, the same words. Hebrews does not cite
+Zechariah, and the cross-reference lists do not join the two verses, so the echo is likely and not
+certain.
 
 ## Names Jesus gave Him
 
@@ -309,12 +324,27 @@ four times (John 14:16, 26; 15:26; 16:7), and the Spirit of truth three times (J
   (John 16:14, ESV). [Know the Truth](../christian-life/know-the-truth.md) studies the Spirit who
   guides "into all the truth".
 
-John's Greek shows a person in the grammar. *Pneuma* is a neuter noun, so John 14:26 says "the Holy
-Spirit, <span lang="grc">ὃ</span>" (*ho*, G3739), with a neuter relative pronoun, as the grammar requires. Then
-the next word is <span lang="grc">ἐκεῖνος</span> (*ekeinos*, G1565), masculine: "*he* will teach
-you". John uses the masculine again with "the Spirit of truth" in John 16:13. [The
+### John's pronouns for the Spirit
+
+John's Greek gives the Spirit both kinds of name in one sentence. *Pneuma* is a neuter noun, so
+John 14:26 says "the Holy Spirit, <span lang="grc">ὃ</span>" (*ho*, G3739), with a neuter relative
+pronoun, as the grammar requires. *Paraklētos*, "Helper", is masculine, and after the relative
+clause the sentence takes it up with <span lang="grc">ἐκεῖνος</span> (*ekeinos*, G1565),
+masculine: "*he* will teach you". In John 16:13 the masculine stands directly beside the neuter
+name: <span lang="grc">ἐκεῖνος, τὸ πνεῦμα τῆς ἀληθείας</span>, "he, the Spirit of truth". [The
 Restrainer](../last-things/the-restrainer.md#from-what-to-he) follows the same shift in
 2 Thessalonians 2.
+
+The masculine pronoun follows the masculine *paraklētos*, so the grammar alone does not prove that
+the Spirit is a person. What He does proves it. He speaks in the first person: "the Holy Spirit
+said, 'Set apart for me Barnabas and Saul for the work to which I have called them'" (Acts 13:2,
+ESV). He chooses, giving gifts "to each one individually as he wills" (1 Corinthians 12:11, ESV).
+He has a mind, and He prays: God "knows what is the mind of the Spirit, because the Spirit
+intercedes for the saints according to the will of God" (Romans 8:27, ESV). The apostles wrote, "it
+has seemed good to the Holy Spirit and to us" (Acts 15:28, ESV). The Spirit who lives in you is
+Someone who speaks, chooses, and prays for you.
+
+### The promise of the Father
 
 After the resurrection Jesus called Him **the promise of the Father**: "wait for the promise of the
 Father, which, he said, 'you heard from me; for John baptized with water, but you will be baptized
@@ -336,8 +366,17 @@ them interchangeably.
   sufferings (1 Peter 1:11).
 - **The Lord.** "Now the Lord is the Spirit, and where the Spirit of the Lord is, there is freedom"
   (2 Corinthians 3:17, ESV). The verse before, "when one turns to the Lord, the veil is removed"
-  (2 Corinthians 3:16, ESV), echoes Moses, who removed his veil "whenever Moses went in before the
-  LORD" (Exodus 34:34, ESV). "The Lord" here is the God of Sinai, and the Spirit is that Lord.
+  (2 Corinthians 3:16, ESV), takes its words from Moses, who removed his veil "whenever Moses went
+  in before the LORD" (Exodus 34:34, ESV). Paul shares four words with the Septuagint of
+  that verse: <span lang="grc">ἡνίκα</span> (*hēnika*, G2259), "whenever",
+  <span lang="grc">κύριος</span> (*kyrios*, G2962), "Lord", and
+  <span lang="grc">περιαιρέω τὸ κάλυμμα</span> (*periaireō to kalymma*, G4014, G2571), "take away the
+  veil". "The Lord" here is the LORD of Sinai, and the Spirit is that Lord. The New Testament says
+  the same elsewhere. The LORD's words to Isaiah (Isaiah 6:8-9) are what "the Holy Spirit was right
+  in saying to your fathers through Isaiah the prophet" (Acts 28:25, ESV), and Psalm 95, where the
+  LORD speaks of "your fathers" who "put me to the test", is what "the Holy Spirit says"
+  (Hebrews 3:7, ESV). Some take "the Lord" in 3:17 as Christ, since the veil is lifted "only through
+  Christ" (2 Corinthians 3:14, ESV). The words Paul borrows from Exodus favour the LORD of Sinai.
 - **God.** Ananias kept back part of the price of his land and claimed to give it all. Peter said
   to him, "why has Satan filled your heart to lie to the Holy Spirit?", and then, "You have not lied
   to man but to God" (Acts 5:3-4, ESV).
@@ -387,7 +426,7 @@ that binds the payer to pay the rest. The New Testament uses the word three time
 are of the Spirit (2 Corinthians 1:22; 5:5; Ephesians 1:14). [Assurance of
 Salvation](../salvation/assurance-of-salvation.md) and [The Bride of
 Christ](../israel-and-church/bride-of-christ.md) study the word; in modern Greek
-<span lang="el">αρραβώνας</span> is an engagement, and the ring that pledges a marriage.
+<span lang="el">αρραβώνας</span> is an engagement, the pledge of a marriage.
 
 ### The Spirit of wisdom and of revelation
 
@@ -414,7 +453,7 @@ the waters at creation.
 Read the Old Testament names beside the New and one difference stands out. The Spirit of the LORD
 came upon Israel's judges and kings for a task, and could depart, as He did from Saul
 (1 Samuel 16:14); David prayed that He would not be taken from him (Psalm 51:11). Jesus promised a
-Helper "to be with you forever" who "dwells with you and will be in you" (John 14:16-17, ESV), and
+Helper "to be with you forever" who "dwells with you and will be in you" (John 14:16-17, ESV),[^estai] and
 John says why the change waited: "as yet the Spirit had not been given, because Jesus was not yet
 glorified" (John 7:39, ESV). Since Pentecost the Spirit indwells every believer and seals each one
 "for the day of redemption" (Ephesians 4:30, ESV), and "God's Spirit dwells in you"
@@ -478,6 +517,19 @@ so you may call God "Abba! Father!", and call Jesus "Lord", and know that God Hi
 5. **Be transformed.** Romans 8:15 says the Spirit is the one "by whom we cry, 'Abba! Father!'" When
    did you last pray to God as Father? What would change this week if you believed you were never
    an orphan?
+
+[^estai]: Some manuscripts of John 14:17 read <span lang="grc">ἐστίν</span> (*estin*), "is in you",
+    where the SBL Greek New Testament reads <span lang="grc">ἔσται</span> (*estai*), "will be in you";
+    the CSB and NLT footnote it. The NA28, the SBL text, the unfoldingWord Greek New Testament,
+    Tischendorf, the Byzantine text and the Textus Receptus all print *estai*; of the Greek texts
+    checked, only the Statistical Restoration Greek New Testament prints *estin*. Both nineteenth-century
+    Hebrew New Testaments read the future: Delitzsch has <span dir="rtl">אף יהיה בתוככם</span>
+    (*af yihyeh betokhekhem*), "will also be in your midst", and Salkinson-Ginsburg doubles the verb,
+    <span dir="rtl">וְאַף־הָיֹה יִהְיֶה בְּתוֹכְכֶם</span> (*ve'af hayoh yihyeh betokhekhem*), "will
+    surely be". They are translations of the Greek, so they show how two Hebrew scholars read the
+    verse; they cannot show which word John wrote. The context supports the future: "he will give
+    you another Helper" (John 14:16, ESV), and "if I do not go away, the Helper will not come to you"
+    (John 16:7, ESV).
 
 ## References & Recommended Reading
 

@@ -91,6 +91,41 @@ evidence:
   - {id: zech12-10-fn, what: "NLT footnote Zech 12:10 'Or the Spirit'", tool: study_note, args: {book: Zech, chapter: 12, verse: 10, note_type: footnote}, expect_contains: "Or the Spirit", checked: 2026-10-18}
   - {id: rev1-4-fn, what: "CSB footnote Rev 1:4 sevenfold Spirit", tool: study_note, args: {book: Rev, chapter: 1, verse: 4, note_type: footnote}, expect_contains: "sevenfold Spirit", checked: 2026-10-18}
   - {id: gal4-6-esv, what: "ESV Gal 4:6", tool: study_verse, args: {book: Gal, chapter: 4, verse: 6, work_id: esv-study-bible}, expect_contains: "God has sent the Spirit of his Son into our hearts", checked: 2026-10-18}
+  - {id: lxx-isa11-3, what: "LXX Isa 11:3 adds 'spirit of the fear of God' (seven gifts)", tool: bible_verse, args: {book: Isa, chapter: 11, verse: 3, translation: ebible-grcbrent}, expect_contains: "πνεῦμα φόβου Θεοῦ", checked: 2026-10-19}
+  - {id: lxx-isa11-2, what: "LXX Isa 11:2 anapausetai, eusebeias", tool: bible_verse, args: {book: Isa, chapter: 11, verse: 2, translation: ebible-grcbrent}, expect_contains: "ἀναπαύσεται ἐπʼ αὐτὸν πνεῦμα τοῦ Θεοῦ", checked: 2026-10-19}
+  - {id: lxx-isa63-10, what: "LXX Isa 63:10 paroxynan (provoked)", tool: bible_verse, args: {book: Isa, chapter: 63, verse: 10, translation: ebible-grcbrent}, expect_contains: "παρώξυναν τὸ πνεῦμα τὸ ἅγιον", checked: 2026-10-19}
+  - {id: lxx-zech12-10, what: "LXX Zech 12:10 pneuma charitos", tool: bible_verse, args: {book: Zech, chapter: 12, verse: 10, translation: ebible-grcbrent}, expect_contains: "πνεῦμα χάριτος", checked: 2026-10-19}
+  - {id: jn14-26-sblgnt, what: "John 14:26 neuter ho, then masculine ekeinos taking up parakletos", tool: bible_verse, args: {book: John, chapter: 14, verse: 26, translation: sblgnt}, expect_contains: "ὃ πέμψει ὁ πατὴρ ἐν τῷ ὀνόματί μου, ἐκεῖνος", checked: 2026-10-19}
+  - {id: jn16-13-sblgnt, what: "John 16:13 ekeinos beside to pneuma tes aletheias", tool: bible_verse, args: {book: John, chapter: 16, verse: 13, translation: sblgnt}, expect_contains: "ἐκεῖνος, τὸ πνεῦμα τῆς ἀληθείας", checked: 2026-10-19}
+  - {id: 1pet4-14-sblgnt, what: "1 Pet 4:14 anapauetai", tool: bible_verse, args: {book: 1Pet, chapter: 4, verse: 14, translation: sblgnt}, expect_contains: "ἀναπαύεται", checked: 2026-10-19}
+  - {id: ps51-11-fn, what: "NLT footnote Ps 51:11 'Or your spirit of holiness'", tool: study_note, args: {book: Ps, chapter: 51, verse: 11, note_type: footnote}, expect_contains: "your spirit of holiness", checked: 2026-10-19}
+  - {id: jn14-17-fn, what: "John 14:17 variant 'and is (in you)' footnoted (CSB, NLT)", tool: study_note, args: {book: John, chapter: 14, verse: 17, note_type: footnote}, expect_contains: "and is", checked: 2026-10-19}
+  - {id: jn14-16-fn, what: "LSB footnote John 14:16 'one called alongside as a helper'", tool: study_note, args: {book: John, chapter: 14, verse: 16, note_type: footnote}, expect_contains: "one called alongside as a helper", checked: 2026-10-19}
+  - {id: acts1-4-esv, what: "ESV Acts 1:4 promise of the Father", tool: study_verse, args: {book: Acts, chapter: 1, verse: 4, work_id: esv-study-bible}, expect_contains: "to wait for the promise of the Father", checked: 2026-10-19}
+  - {id: ex34-34-esv, what: "ESV Exod 34:34 behind 2 Cor 3:16", tool: study_verse, args: {book: Exod, chapter: 34, verse: 34, work_id: esv-study-bible}, expect_contains: "Whenever Moses went in before the LORD", checked: 2026-10-19}
+  - {id: 1pet4-14-esv, what: "ESV 1 Pet 4:14", tool: study_verse, args: {book: 1Pet, chapter: 4, verse: 14, work_id: esv-study-bible}, expect_contains: "the Spirit of glory and of God rests upon you", checked: 2026-10-19}
+  - {id: heb10-29-esv, what: "ESV Heb 10:29", tool: study_verse, args: {book: Heb, chapter: 10, verse: 29, work_id: esv-study-bible}, expect_contains: "outraged the Spirit of grace", checked: 2026-10-19}
+  - {id: jn3-34-esv, what: "ESV John 3:34", tool: study_verse, args: {book: John, chapter: 3, verse: 34, work_id: esv-study-bible}, expect_contains: "he gives the Spirit without measure", checked: 2026-10-19}
+  - {id: jn3-35-esv, what: "ESV John 3:35", tool: study_verse, args: {book: John, chapter: 3, verse: 35, work_id: esv-study-bible}, expect_contains: "The Father loves the Son and has given all things into his hand", checked: 2026-10-19}
+  - {id: isa42-1-esv, what: "ESV Isa 42:1", tool: study_verse, args: {book: Isa, chapter: 42, verse: 1, work_id: esv-study-bible}, expect_contains: "I have put my Spirit upon him", checked: 2026-10-19}
+  - {id: acts10-38-esv, what: "ESV Acts 10:38", tool: study_verse, args: {book: Acts, chapter: 10, verse: 38, work_id: esv-study-bible}, expect_contains: "God anointed Jesus of Nazareth with the Holy Spirit and with power", checked: 2026-10-19}
+  - {id: acts13-2-esv, what: "ESV Acts 13:2", tool: study_verse, args: {book: Acts, chapter: 13, verse: 2, work_id: esv-study-bible}, expect_contains: "Set apart for me Barnabas and Saul for the work to which I have called them", checked: 2026-10-19}
+  - {id: 1cor12-11-esv, what: "ESV 1Cor 12:11", tool: study_verse, args: {book: 1Cor, chapter: 12, verse: 11, work_id: esv-study-bible}, expect_contains: "to each one individually as he wills", checked: 2026-10-19}
+  - {id: rom8-27-esv, what: "ESV Rom 8:27", tool: study_verse, args: {book: Rom, chapter: 8, verse: 27, work_id: esv-study-bible}, expect_contains: "knows what is the mind of the Spirit, because the Spirit intercedes for the saints according to the will of God", checked: 2026-10-19}
+  - {id: acts15-28-esv, what: "ESV Acts 15:28", tool: study_verse, args: {book: Acts, chapter: 15, verse: 28, work_id: esv-study-bible}, expect_contains: "it has seemed good to the Holy Spirit and to us", checked: 2026-10-19}
+  - {id: ezek36-26-esv, what: "ESV Ezek 36:26", tool: study_verse, args: {book: Ezek, chapter: 36, verse: 26, work_id: esv-study-bible}, expect_contains: "remove the heart of stone", checked: 2026-10-19}
+  - {id: rom8-3-esv, what: "ESV Rom 8:3", tool: study_verse, args: {book: Rom, chapter: 8, verse: 3, work_id: esv-study-bible}, expect_contains: "weakened by the flesh, could not do", checked: 2026-10-19}
+  - {id: ezra2-64-esv, what: "ESV Ezra 2:64", tool: study_verse, args: {book: Ezra, chapter: 2, verse: 64, work_id: esv-study-bible}, expect_contains: "42,360", checked: 2026-10-19}
+  - {id: acts28-25-esv, what: "ESV Acts 28:25", tool: study_verse, args: {book: Acts, chapter: 28, verse: 25, work_id: esv-study-bible}, expect_contains: "The Holy Spirit was right in saying to your fathers through Isaiah the prophet", checked: 2026-10-19}
+  - {id: heb3-7-esv, what: "ESV Heb 3:7", tool: study_verse, args: {book: Heb, chapter: 3, verse: 7, work_id: esv-study-bible}, expect_contains: "as the Holy Spirit says", checked: 2026-10-19}
+  - {id: ps95-9-esv, what: "ESV Ps 95:9", tool: study_verse, args: {book: Ps, chapter: 95, verse: 9, work_id: esv-study-bible}, expect_contains: "your fathers put me to the test", checked: 2026-10-19}
+  - {id: 2cor3-14-esv, what: "ESV 2Cor 3:14", tool: study_verse, args: {book: 2Cor, chapter: 3, verse: 14, work_id: esv-study-bible}, expect_contains: "only through Christ", checked: 2026-10-19}
+  - {id: jn16-7-esv, what: "ESV John 16:7", tool: study_verse, args: {book: John, chapter: 16, verse: 7, work_id: esv-study-bible}, expect_contains: "the Helper will not come to you", checked: 2026-10-19}
+  - {id: jn14-17-fn-csb, what: "CSB footnote John 14:17 other mss", tool: study_note, args: {book: John, chapter: 14, verse: 17, note_type: footnote}, expect_contains: "Other mss read and is", checked: 2026-10-19}
+  - {id: jn14-17-na28, what: "NA28 John 14:17 reads estai", tool: study_verse, args: {book: John, chapter: 14, verse: 17, work_id: na28-greek-nt}, expect_contains: "ἐν ὑμῖν ἔσται", checked: 2026-10-19}
+  - {id: jn14-17-delitzsch, what: "Delitzsch John 14:17 future", tool: bible_verse, args: {book: John, chapter: 14, verse: 17, translation: ebible-heb}, expect_contains: "אף יהיה בתוככם", checked: 2026-10-19}
+  - {id: jn14-17-sg, what: "Salkinson-Ginsburg John 14:17 inf. abs.", tool: bible_verse, args: {book: John, chapter: 14, verse: 17, translation: ebible-hebsg}, expect_contains: "הָיֹה יִהְיֶה בְּתוֹכְכֶם", checked: 2026-10-19}
+  - {id: lxx-exod34-34, what: "LXX Exod 34:34 shares henika, kyrios, periaireo, kalymma with 2 Cor 3:16", tool: bible_verse, args: {book: Exod, chapter: 34, verse: 34, translation: ebible-grcbrent}, expect_contains: "περιῃρεῖτο τὸ κάλυμμα", checked: 2026-10-19}
 resources_consulted:
   - "ESV verse text via study-notes.db (esv-study-bible)."
   - "SBLGNT and Brenton LXX via bible-text.db verses."
@@ -110,3 +145,41 @@ plates: "utils/build_names_of_the_holy_spirit_graphics.py draws 7 plates into do
 cards: "Hebrew deck names-of-the-holy-spirit (15 cards, 22/22 letters); Greek deck (16 cards, 24/24 letters) -- new Greek card system: export_greek_cards.py, hooks/greek_cards.py, greek.css."
 open_questions:
   - "Hebrew word-card deck for the Spirit's names (ruach elohim, ruach YHWH, ruach qodshekha, ruach chokhmah, ruach chen ...)? Offer after the draft."
+
+review_2026-10-19:
+  scope: "Study plus companion Hebrew deck, Greek deck, Learn Greek page, both card pages (accuracy only)."
+  verified: >
+    Every ESV quotation in the study (about 60) against esv-study-bible: all verbatim. LXX Isa 11:2-3,
+    63:10, Zech 12:10; SBLGNT John 14:16-17, 14:26, 16:13, 1 Pet 4:14, Eph 1:13, 4:30, Rom 8:15,
+    Matt 28:19, Heb 9:14, 10:29, Mark 14:36; WLC Gen 1:2, Isa 11:2, 61:1, Ps 51:13, Isa 63:10-11,
+    Neh 9:20, Ps 143:10, Joel 3:1, Zech 12:10. Every Strong's number against MACULA lemmas: all correct.
+    ruach+qodesh exactly 3x (Ps 51:13 MT, Isa 63:10, 11); 'Spirit of truth' in John 3x (14:17; 15:26;
+    16:13; plus 1 John 4:6). Footnotes on John 14, Zech 12:10, Ps 51:11, Rev 1:4. All internal links
+    and anchors resolve. Card exporters pass. Modern Greek/Hebrew 'Today' lines checked.
+  fixed:
+    - "Key Takeaways: paraklētos 'used once more' -> five uses, four of the Spirit in John 14-16, one of Jesus."
+    - "εὐσεβεία -> εὐσέβεια (lemma)."
+    - "Ps 51:11 NLT footnote is 'your spirit of holiness', not 'the Spirit of your holiness'."
+    - "John 14:26 ekeinos: not 'the next word'; it takes up masculine paraklētos (agrees with the-restrainer.md)."
+    - "Modern Greek αρραβώνας is an engagement; dropped 'the ring' (the ring is βέρα)."
+  for_author:
+    - "John 14:17 variant ἔσται/ἔστιν (CSB, NLT footnote 'and is in you') undisclosed; 'Upon, and within' leans on 'will be'."
+    - "Personhood-from-grammar paragraph: masculine ekeinos is explained by paraklētos; the inference is contested."
+    - "'Hebrews points the NT reader to the first reading' (Zech 12:10 -> Heb 10:29) stated as settled; allusion is probable, not certain."
+    - "'rested on Jesus without measure, as Isaiah promised': 'without measure' is John 3:34, uncited."
+    - "2 Cor 3:17 'the Lord here is the God of Sinai' stated plainly; Lord = Christ is the other reading."
+  validate: "npm run validate: no errors or warnings on the study, card pages or Learn Greek (Check 23 word budget passes)."
+
+read_2026-10-19:
+  scope: "Structure only (read-bible-study); no sentence changed. Run after review_2026-10-19, on its uncommitted edits."
+  measurements: "Sections 32 -> 37; median 106 -> 100 words; over 400: 3 -> 0 (411, 406, 412); longest 412 -> 285; walls 0."
+  changes:
+    - "Spirit of the LORD: split Isaiah 11:2 into '### The Spirit resting on the Branch' and Isaiah 61:1 into '### The Spirit of the Lord GOD upon the Anointed'."
+    - "My Spirit, poured out: Zechariah 12:10 (contested reading) given '### A spirit of grace and pleas for mercy'."
+    - "Names Jesus gave Him: '### John's pronouns for the Spirit' (John 14:26; 16:13 grammar) and '### The promise of the Father' (Acts 1:4-5; 2:33)."
+    - "Study outline: Old Testament and Names Jesus gave Him annotations extended (descriptive) to name the new sub-sections; no anchors changed."
+  verified: "Prose diff against the pre-pass copy: only the two Study outline bullets' wrapped lines differ (the checker reads list continuation lines as prose). No new anchor targets linked; no inbound anchor links from other pages; directional references unaffected."
+  for_author:
+    - "Opening paragraph after the thesis ('This is the third of three studies...') spends the opening on the series and the cards; consider moving it lower or into On this site (needs an author call)."
+    - "No evaluative outline annotations written; add one if a section deserves to be flagged as the heart of the study."
+  validate: "npm run validate: no findings on this file."
