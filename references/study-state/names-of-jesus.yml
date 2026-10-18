@@ -195,3 +195,23 @@ review_2026-10-18:
     - "jesus/as-the-snake-was-lifted.md, the hypsoo / Isaiah 52:13 section: could add that yarum venissa is the pair Isaiah uses of the LORD's throne (6:1) and of the LORD (33:10; 57:15)"
     - "jesus/jesus-and-women.md: Martha's confession (John 11:27) is a name given in need that this study's 'Names cried out in need' could cite, with a link"
   size: "5,809 words on disk including frontmatter and References; validator raises no budget warning against word_budget 4500. Fixes net about +40 words"
+read_2026-10-18:
+  by: "read-bible-study (subagent, fresh reader)"
+  changed: >
+    Structure only, no sentence changed outside the Study outline (prose-line diff against HEAD:
+    every removed or added line is a Study outline continuation line). "### The King's names"
+    (395 words) split at its paragraph break into "### Isaiah's four names for the King" (Isaiah
+    9:6-7) and a new "### The Branch, the star and the shepherd" over the three bold run-in names.
+    The study's closing paragraph ("So the names answer His question...") was buried as the last
+    paragraph of the Revelation 19 item; it now has its own section, "## The names answer His
+    question", which also brings "Names He will wear when He returns" from 414 to under 400.
+    Study outline updated: renamed anchor, new sub-section link, and a descriptive bullet for the
+    closing section; all 28 in-page anchors resolved against the served page. No incoming links
+    to the renamed #the-kings-names anchor elsewhere. 25 -> 27 sections, median 139 -> 135 words,
+    1 over 400 -> 0.
+  open_for_author:
+    - "Branch, star and shepherd (Isaiah 11 / Jeremiah 23 / Zechariah; Numbers 24:17; Ezekiel 34:23) and the run-in names in Names cried out in need, Names the apostles gave Him and Names He will wear are bold labels, so the TOC and outline cannot link them. In names-of-god.md the author converted the equivalent labels to ### headings; doing it here drops the labels from the prose lines, so it is the author's call."
+    - "Names promised before He came: the intro sorts the names into three offices (prophet, priest, king) and two unfilled names (the Servant, the son of man), but the sub-sections also include The Anointed and The stone the builders rejected, which the scheme does not place. A sentence change to the intro, or a decision to group the sub-sections under it."
+    - "The Anointed (220 words): the Daniel 9:25-26 contested reading starts mid-paragraph, so it cannot get its own heading (as Exodus 6:3 did in names-of-god.md) without re-breaking the paragraph."
+    - "Caesarea Philippi section: line 109 is one unwrapped long line (formatting only, left untouched so the prose diff stays clean)."
+    - "Study outline bullets are descriptive; the closing bullet's 'and the call to use them' is descriptive of the final sentence. Any evaluative annotation (which section matters most) is the author's to add."

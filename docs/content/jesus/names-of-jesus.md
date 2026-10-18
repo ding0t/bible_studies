@@ -86,9 +86,11 @@ and the thief, hear me now: have mercy on me, and remember me. In Jesus' name. A
   Peter's two names for Jesus.
 - [Names promised before He came](#names-promised-before-he-came). The Old Testament's names for the
   coming King, grouped by what He would be: [the Anointed](#the-anointed) · [a prophet like
-  Moses](#a-prophet-like-moses) · [a priest forever](#a-priest-forever) · [the King's
-  names](#the-kings-names) · [the Servant](#the-servant-high-and-lifted-up) · [the rejected
-  stone](#the-stone-the-builders-rejected) · [one like a son of man](#one-like-a-son-of-man).
+  Moses](#a-prophet-like-moses) · [a priest forever](#a-priest-forever) · [Isaiah's four names
+  for the King](#isaiahs-four-names-for-the-king) · [the Branch, the star and the
+  shepherd](#the-branch-the-star-and-the-shepherd) · [the Servant](#the-servant-high-and-lifted-up)
+  · [the rejected stone](#the-stone-the-builders-rejected) · [one like a son of
+  man](#one-like-a-son-of-man).
 - [Names given at His birth](#names-given-at-his-birth). Jesus, Immanuel, Son of the Most High,
   and "a Savior, who is Christ the Lord".
 - [The name He chose: the Son of Man](#the-name-he-chose-the-son-of-man). Why His favourite name for
@@ -101,6 +103,8 @@ and the thief, hear me now: have mercy on me, and remember me. In Jesus' name. A
   great high priest and the last Adam.
 - [Names He will wear when He returns](#names-he-will-wear-when-he-returns). The First and the Last,
   the Lion who is a Lamb, and the rider of Revelation 19.
+- [The names answer His question](#the-names-answer-his-question). The names gathered into one
+  answer, and the call to use them.
 
 ## "Who do you say that I am?"
 
@@ -187,7 +191,7 @@ and David's Lord. Hebrews joins the psalm's two oracles: the God who said "You a
 H3548). Judah's kings were barred from the priest's work, and King Uzziah was struck with leprosy
 for burning incense (2 Chronicles 26:16-21). A King who is also a Priest needed a new order. [Jesus, Priest in the Order of Melchizedek](melchizedek-priesthood.md) studies it.
 
-### The King's names
+### Isaiah's four names for the King
 
 Isaiah gave the child born to David's house four names: "Wonderful Counselor, Mighty God,
 Everlasting Father, Prince of Peace" (Isaiah 9:6, ESV). The Names of God takes *El gibbor*, "Mighty
@@ -204,6 +208,8 @@ God". The other three each say what kind of King He is.
 - <span dir="rtl">שַׂר־שָׁלוֹם</span> (*sar shalom*, H8269, H7965), "Prince of Peace", and "of the
   increase of his government and of peace there will be no end, on the throne of David" (Isaiah 9:7,
   ESV).
+
+### The Branch, the star and the shepherd
 
 **The Branch.** Isaiah saw the royal line cut down to a stump: "There shall come forth a shoot from
 the stump of Jesse, and a branch from his roots shall bear fruit" (Isaiah 11:1, ESV). Jeremiah and
@@ -459,6 +465,8 @@ God, John's first name for Him (John 1:1). He is King of kings and Lord of lords
 puts His return before the thousand-year reign of Revelation 20, and this site reads that order as
 the order of events. The Son of Man Daniel saw will come with the clouds, and the kingdom given to
 Him will have no end.
+
+## The names answer His question
 
 So the names answer His question. He is the Christ, the Prophet, the Priest and the King, the
 Servant who was pierced and the Son of Man who will reign. He is the LORD who says "I am" and "the
