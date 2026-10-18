@@ -32,8 +32,8 @@ sibling_studies:
 genre: [topical, ot-narrative, law, prophets, gospel, epistle]
 
 thesis: >
-  God names Himself by what He does: each name He gave was spoken to someone at the end of their
-  own resources, each is a promise He has kept, and all of them meet in Jesus, whose name means
+  God names Himself by what He does: almost every name He gave was spoken to someone at the end of
+  their own resources, each is a promise He has kept, and all of them meet in Jesus, whose name means
   "the LORD saves".
 outline:
   - {section: "Key Takeaways", says: "Types & prophecy (nes; the lamb God sees to), lessons about Jesus, memory verses (Exodus 3:15; Philippians 2:9-10), Be transformed, prayer."}
@@ -82,7 +82,9 @@ stages:
         H3068 6,513 (H3069 is separate); elohim H430 2,601 (agrees with those-called-gods);
         Shaddai H7706 48, 31 in Job, 6 in Genesis (17:1; 28:3; 35:11; 43:14; 48:3; 49:25);
         Adonai H136 438, first at Genesis 15:2; YHWH + tsevaot within three words 264 times,
-        first 1 Samuel 1:3, second 1:11 (Hannah). nes H5251: Exodus 17:15, Numbers 21:8-9,
+        first 1 Samuel 1:3, second 1:11 (Hannah). [Corrected in review 2026-10-18: the 264
+        includes 3 false hits (Ps 103:21, Isa 13:4 twice-counted, Isa 24:21); adjacent YHWH
+        tsevaot = 240, plus 21 'YHWH (ha)Elohei tsevaot' = 261.] nes H5251: Exodus 17:15, Numbers 21:8-9,
         Isaiah 11:10, 12. Genesis 22:8 and 22:14 both H7200. El Gibbor at Isaiah 9:6 (Heb 9:5)
         and 10:21. Shaddai in LXX: Genesis 17:1 'ho theos sou', Ruth 1:20 'ho hikanos', Job 5:17
         'pantokrator'; TWOT 2333 gloss 'sufficient'.
@@ -124,8 +126,13 @@ stages:
       Validate clean except the provenance fields (filled at commit); strict build clean; every
       link and anchor checked; 0 antithesis constructions by the human-review.md count.
   review:
-    done: false
-    validated: false
+    done: true
+    validated: true
+    notes: >
+      review-bible-study 2026-10-18 (subagent). Every quotation re-queried (ESV via study_verse
+      esv-study-bible; Brenton via ebible-grcbrent; SBLGNT via macula-greek-sblgnt; WLC via
+      macula-hebrew-wlc). Six factual fixes applied; judgement calls listed under
+      review_2026-10-18.open_for_author. Validate: no warnings for this file. Still draft: true.
 
 back_links_on_publish:
   # Check 24: a published page may not link a draft, so these go in the commit that flips draft: false.
@@ -150,3 +157,98 @@ resources_consulted:
   - {type: commentary, title: "ESV Study Bible", note: "Exodus 3:13-15; 6:2-8 notes checked after exegesis -- confirmed the 3:12/3:14 link and the 'known in experience' reading of 6:3; contributed the Genesis 4:26 etc. list"}
   - {type: other, title: "CSB, LSB, NLT footnotes", note: "Exodus 3:14 alternatives; Exodus 17:16 obscure; Deuteronomy 6:4"}
 last_updated: "2026-10-18"
+
+evidence:
+  - {id: ex3-12-esv, what: "ESV Exod 3:12 'I will be with you'", tool: study_verse, args: {book: Exod, chapter: 3, verse: 12, work_id: esv-study-bible}, expect_contains: "But I will be with you", checked: 2026-10-18}
+  - {id: ex3-14-esv, what: "ESV Exod 3:14", tool: study_verse, args: {book: Exod, chapter: 3, verse: 14, work_id: esv-study-bible}, expect_contains: "I AM has sent me to you", checked: 2026-10-18}
+  - {id: ex3-15-esv, what: "ESV Exod 3:15 memory verse", tool: study_verse, args: {book: Exod, chapter: 3, verse: 15, work_id: esv-study-bible}, expect_contains: "This is my name forever, and thus I am to be remembered throughout all generations", checked: 2026-10-18}
+  - {id: ex3-14-lxx, what: "Brenton LXX Exod 3:14 ego eimi ho on", tool: bible_verse, args: {book: Exod, chapter: 3, verse: 14, translation: ebible-grcbrent}, expect_contains: "ἐγώ εἰμι ὁ Ὤν", checked: 2026-10-18}
+  - {id: ex3-14-nlt-fn, what: "NLT/CSB footnotes at Exod 3:14 ('I WILL BE WHAT' / 'I WILL BE WHO'); LSB hayah note", tool: study_note, args: {book: Exod, chapter: 3, verse: 14, note_type: footnote}, expect_contains: "I WILL BE WHO I WILL BE", checked: 2026-10-18}
+  - {id: ex3-12-ehyeh, what: "ehyeh Vqi1cs in Exod 3:12 (same form as 3:14)", tool: bible_interlinear, args: {book: Exod, chapter: 3, verse: 12}, expect_contains: "H1961", checked: 2026-10-18}
+  - {id: ex6-3-esv, what: "ESV Exod 6:3", tool: study_verse, args: {book: Exod, chapter: 6, verse: 3, work_id: esv-study-bible}, expect_contains: "but by my name the LORD I did not make myself known to them", checked: 2026-10-18}
+  - {id: ex6-3-esvsb, what: "ESVSB reads 6:3 as 'not fully understand and experience'", tool: study_note, args: {book: Exod, chapter: 6, verse: 3, work_id: esv-study-bible}, expect_contains: "did not fully understand and experience", checked: 2026-10-18}
+  - {id: ex34-6-esv, what: "ESV Exod 34:6", tool: study_verse, args: {book: Exod, chapter: 34, verse: 6, work_id: esv-study-bible}, expect_contains: "a God merciful and gracious, slow to anger, and abounding in steadfast love and faithfulness", checked: 2026-10-18}
+  - {id: gen15-7-esv, what: "ESV Gen 15:7 'I am the LORD' to Abram", tool: study_verse, args: {book: Gen, chapter: 15, verse: 7, work_id: esv-study-bible}, expect_contains: "I am the LORD who brought you out from Ur of the Chaldeans", checked: 2026-10-18}
+  - {id: gen16-13-esv, what: "ESV Gen 16:13", tool: study_verse, args: {book: Gen, chapter: 16, verse: 13, work_id: esv-study-bible}, expect_contains: "You are a God of seeing", checked: 2026-10-18}
+  - {id: gen17-1-lxx, what: "LXX Gen 17:1 renders Shaddai 'your God'", tool: bible_verse, args: {book: Gen, chapter: 17, verse: 1, translation: ebible-grcbrent}, expect_contains: "ἐγώ εἰμι ὁ Θεός σου", checked: 2026-10-18}
+  - {id: ruth1-20-lxx, what: "LXX Ruth 1:20 ho hikanos", tool: bible_verse, args: {book: Ruth, chapter: 1, verse: 20, translation: ebible-grcbrent}, expect_contains: "ὁ ἱκανὸς", checked: 2026-10-18}
+  - {id: job5-17-lxx, what: "LXX Job 5:17 pantokrator", tool: bible_verse, args: {book: Job, chapter: 5, verse: 17, translation: ebible-grcbrent}, expect_contains: "παντοκράτορος", checked: 2026-10-18}
+  - {id: twot-shaddai, what: "TWOT 2333 = H7706 'sufficient'", tool: twot_root, args: {root: "2333"}, expect_contains: "sufficient", checked: 2026-10-18}
+  - {id: gen22-14-esv, what: "ESV Gen 22:14", tool: study_verse, args: {book: Gen, chapter: 22, verse: 14, work_id: esv-study-bible}, expect_contains: "The LORD will provide", checked: 2026-10-18}
+  - {id: ex15-26-esv, what: "ESV Exod 15:26", tool: study_verse, args: {book: Exod, chapter: 15, verse: 26, work_id: esv-study-bible}, expect_contains: "for I am the LORD, your healer", checked: 2026-10-18}
+  - {id: ex12-14-statute, what: "Passover already a 'statute' before Marah (corrects 'a single statute')", tool: study_verse, args: {book: Exod, chapter: 12, verse: 14, work_id: esv-study-bible}, expect_contains: "as a statute forever", checked: 2026-10-18}
+  - {id: ex17-15-esv, what: "ESV Exod 17:15", tool: study_verse, args: {book: Exod, chapter: 17, verse: 15, work_id: esv-study-bible}, expect_contains: "The LORD Is My Banner", checked: 2026-10-18}
+  - {id: num21-8-esv, what: "ESV Num 21:8 pole", tool: study_verse, args: {book: Num, chapter: 21, verse: 8, work_id: esv-study-bible}, expect_contains: "set it on a pole", checked: 2026-10-18}
+  - {id: judg6-24-esv, what: "ESV Judg 6:24", tool: study_verse, args: {book: Judg, chapter: 6, verse: 24, work_id: esv-study-bible}, expect_contains: "The LORD Is Peace", checked: 2026-10-18}
+  - {id: 1sam1-11-esv, what: "ESV 1 Sam 1:11 Hannah 'O LORD of hosts'", tool: study_verse, args: {book: 1Sam, chapter: 1, verse: 11, work_id: esv-study-bible}, expect_contains: "O LORD of hosts, if you will indeed look on the affliction of your servant", checked: 2026-10-18}
+  - {id: is10-21-esv, what: "ESV Isa 10:21 'the mighty God'", tool: study_verse, args: {book: Isa, chapter: 10, verse: 21, work_id: esv-study-bible}, expect_contains: "to the mighty God", checked: 2026-10-18}
+  - {id: jer23-6-esv, what: "ESV Jer 23:6", tool: study_verse, args: {book: Jer, chapter: 23, verse: 6, work_id: esv-study-bible}, expect_contains: "The LORD is our righteousness", checked: 2026-10-18}
+  - {id: jer33-16-esv, what: "ESV Jer 33:16, name given to the city", tool: study_verse, args: {book: Jer, chapter: 33, verse: 16, work_id: esv-study-bible}, expect_contains: "the name by which it will be called", checked: 2026-10-18}
+  - {id: num13-16-lxx, what: "LXX Num 13:16 Iesous", tool: bible_verse, args: {book: Num, chapter: 13, verse: 16, translation: ebible-grcbrent}, expect_contains: "Ἰησοῦν", checked: 2026-10-18}
+  - {id: neh8-17-yeshua, what: "Neh 8:17 Jeshua son of Nun (H3442)", tool: bible_concordance, args: {strongs: H3442, work_id: macula-hebrew-wlc, book: Neh}, expect_contains: "\"verse\": 17", checked: 2026-10-18}
+  - {id: john8-58-esv, what: "ESV John 8:58", tool: study_verse, args: {book: John, chapter: 8, verse: 58, work_id: esv-study-bible}, expect_contains: "before Abraham was, I am", checked: 2026-10-18}
+  - {id: phil2-10-esv, what: "ESV Phil 2:10 memory verse", tool: study_verse, args: {book: Phil, chapter: 2, verse: 10, work_id: esv-study-bible}, expect_contains: "so that at the name of Jesus every knee should bow", checked: 2026-10-18}
+  - {id: is45-23-esv, what: "ESV Isa 45:23", tool: study_verse, args: {book: Isa, chapter: 45, verse: 23, work_id: esv-study-bible}, expect_contains: "To me every knee shall bow, every tongue shall swear allegiance", checked: 2026-10-18}
+  - {id: rom10-13-esv, what: "ESV Rom 10:13", tool: study_verse, args: {book: Rom, chapter: 10, verse: 13, work_id: esv-study-bible}, expect_contains: "everyone who calls on the name of the Lord will be saved", checked: 2026-10-18}
+  - {id: yhwh-count, what: "YHWH H3068 6,513 in WLC", tool: bible_concordance, args: {strongs: H3068, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "6513", checked: 2026-10-18}
+  - {id: adonai-count, what: "Adonai H136 438 in WLC", tool: bible_concordance, args: {strongs: H136, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "438", checked: 2026-10-18}
+  - {id: elohim-count, what: "elohim H430 2,601 (agrees with those-called-gods)", tool: bible_concordance, args: {strongs: H430, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "2601", checked: 2026-10-18}
+  - {id: shaddai-count, what: "Shaddai H7706 48 in WLC (31 Job, 6 Genesis)", tool: bible_concordance, args: {strongs: H7706, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "48", checked: 2026-10-18}
+
+review_2026-10-18:
+  by: "review-bible-study (subagent)"
+  checked: >
+    All ESV quotations and quoted fragments re-queried (Exod 3:11-15, 6:2-8, 33:19, 34:5-7, 15:22-26,
+    17:8-15; Gen 4:26, 14:18-22, 15:2-7, 16:11-13, 17:1-2, 22:7-14; Num 13:16, 21:8; Judg 6:22-24;
+    1 Sam 1:3-11; Ruth 1:20, 4:17; Isa 6:3, 7:14, 9:6, 10:21, 11:10, 42:8, 45:23; Jer 23:5-6, 33:16;
+    Joel 2:32; Matt 1:21-23, 27:46, 28:19; John 1:29, 3:14, 8:58-59, 17:11; Rom 10:9-13; 1 Cor 1:30,
+    8:6; 2 Cor 5:21; Phil 2:9-11) -- all verbatim. Brenton LXX Exod 3:14, Gen 17:1, Ruth 1:20,
+    Job 5:17, Num 13:16, Joel 3:5; SBLGNT Phil 2:11, John 8:58, Matt 28:19, Rom 10:13. WLC morphology
+    for every Hebrew form and Strong's tag (H1961 Vqi1cs in 3:12 and 3:14; nodati VNp1cs; H7200 in
+    Gen 22:8/14; H7495, H5251, H7965, H6664, H1368 at Isa 9:5 Heb and 10:21, H1954 -> H3091, H5945
+    tagged 5945a, H7210). Counts re-run. All nine internal links and anchors resolve; every linked
+    sibling is draft: false. ESVSB and NIV Biblical Theology Study Bible (independent) both confirm
+    the 3:12/3:14 link and the 'known in experience' reading of 6:3.
+  fixed:
+    - "Exod 3:14 footnotes: CSB reads 'I WILL BE WHO I WILL BE' (and 'I AM BECAUSE I AM'), not 'WHAT'; now NLT and CSB given separately."
+    - "YHWH tsevaot '264' -> 240 adjacent, 261 with 'the LORD God of hosts' (264 had 3 false hits: Ps 103:21, Isa 13:4 double, Isa 24:21). Prose and References."
+    - "'He healed the water before He gave them a single statute' was false (Passover 'statute', Exod 12:14, 43) -> 'before He set them the statute and rule of Marah (Exodus 15:25)'."
+    - "'Job uses it 31 times' -> 'the book of Job' (Eliphaz, Bildad, Zophar and Elihu say it too, e.g. Job 5:17)."
+    - "hayah tagged H1961 (strongs_suggest)."
+    - "bible_references completed with passages the argument quotes: Gen 4:26, Isa 42:8, 1 Sam 1:3, Num 21:8-9, Isa 11:10, John 1:29, John 3:14, 2 Cor 5:21, 1 Cor 1:30."
+  open_for_author:
+    - "Thesis and hook say EACH name was given to someone in trouble / at the end of their resources; the body says 'almost every'. El Elyon (Gen 14, after victory), the first LORD of hosts (1 Sam 1:3, Elkanah at worship), Isa 6:3 and Exod 3 itself do not fit. Hedge the thesis or the names chosen (Moderate)."
+    - "Key Takeaways labels Exod 17:15's nes a Type of the cross via Num 21:8 and John 3:14. The link is lexical only; John 3:14 applies the serpent, not Exod 17, and as-the-snake-was-lifted.md says of Isa 11 'the vocabulary simply runs through both'. Consider 'Connection' rather than 'Type' (Moderate)."
+    - "Exod 6:3 'contested' paragraph gives two views; NIVBTSB lists four, including the grammatical/interrogative reading. Optional sentence (Minor)."
+    - "'since before the time of Jesus' (Adonai read for YHWH) matches names-of-god-cards.md but pronunciation.md says 'By the time of Jesus'. Pick one wording across the three (Minor)."
+    - "Shaddai: Gen 49:25 ('blessings of the breasts and of the womb') is also fertility, so five of six could be claimed (Minor, strengthens)."
+    - "'Every later name in this study is one strand of Exodus 34:6-7' is a synthetic claim that El Gibbor and tsevaot fit loosely (Minor)."
+    - "Adonai 'a servant's word for his master': the servant's word is adon (H113); H136 is its form reserved for God. Clarify (Minor)."
+    - "Key Takeaways: Joel 2:32 is not 'the LORD speaking His own name' in the way Isa 45:23 is (prophet's voice, 'as the LORD has said') (Minor)."
+    - "Cultural-vs-transcultural line not drawn explicitly (state: done false) (Moderate per skill; light for a topical study)."
+    - "Suggestion: Num 14:18 is Moses praying Exod 34:6-7 back to God -- fits 'pray it back to Him by name' (review_gaps quotation hit)."
+    - "Size: ~4,360 words by a rough count excluding outline and References against a 4,000 budget (validator Check 23 silent, so its count is lower); fixes added ~25 words."
+
+read_2026-10-18:
+  by: "read-bible-study (subagent, fresh reader)"
+  changed: >
+    Structure only, no sentence changed (prose-line diff against the post-review file clean, Study
+    outline excluded). Study outline bullets now link every section and sub-section (21 anchors,
+    all resolved against the served page) and say "Nine names" (the hard-places section has nine
+    names in eight sub-sections; it said eight). Exodus 6:3 contested paragraph given its own
+    heading, "### Contested: one story or separate sources", with the section's conclusion ("So
+    God's name is learned by what He does...") moved above it so the section's point comes before
+    the debate. Three hard-places headings given their scene like their siblings: God Most High,
+    served by Melchizedek; The LORD is my banner, over the battle with Amalek; The LORD is peace,
+    to Gideon. 30 -> 31 sections, median 120 -> 123 words, 0 over 400 before and after.
+  open_for_author:
+    - "Thesis lands on the status of the names (kept promises meeting in Jesus) rather than on the reader; structural-readability rule 1 asks it to finish 'so you ___'. Sentence change, left."
+    - "Names the prophets gave the coming King (261 words) carries its three names as bold run-in labels, so they are absent from the TOC and the outline cannot link them. Converting to ### headings drops the labels from the prose lines; author's call."
+    - "'What Shaddai means is contested' paragraph sits inside God Almighty, to the childless (223 words); small enough to leave without a heading."
+
+author_decisions_2026-10-18:
+  - "Thesis and hook: 'almost every' name (God Most High, Elkanah's first 'LORD of hosts' and Isaiah 6:3 do not fit 'each')."
+  - "Banner (nes) stays a Type, labelled 'this study's reading', with its basis stated: the shared word plus what each nes does in context (raised where the endangered can see it; what is lifted saves those who look). Joshua (first bearer of the name, Exodus 17:9 per MACULA H3091) fights under it. as-the-snake-was-lifted.md updated to the same reading, Exodus 17:15 added there (author: don't back down from genuine insights; mark them as ours and consistent with context)."
+  - "Adonai timing: 'by the time of Jesus' on all three pages (this study, names-of-god-cards, the-shema). Evidence added to hebrew/pronunciation.md 'How we know when': 1QIsaa swaps the name and Adonai both ways (MT Adonai -> scroll YHWH at Isaiah 6:11, 7:14, 9:7, 21:16, 28:2, 28:22, 49:22, 52:4, 61:11; MT YHWH -> scroll Adonai at 3:17b), per-verse tally in bible-text.db (dss-1Qisaa vs macula-hebrew-wlc); 3:17, 6:11, 7:14 and 28:22 read word by word, the rest tally only; Josephus Ant. 2.276 (Whiston, Gutenberg 2848); Mishnah Sotah 7:6 (Kulp, CC BY); Pesachim 50a (William Davidson, CC BY-NC)."
+  - "Prophets' three names are ### headings. Adonai vs Elohim paragraph added (Elohim = God as Creator over all; Adonai = servant to Master; Adonai YHWH pointed with Elohim's vowels, read Adonai Elohim, ESV 'Lord GOD')."
+  - "Smaller fixes applied: adon (H113) vs Adonai; Shaddai five of six about children (49:25); Exodus 6:3 four approaches per NIV Biblical Theology Study Bible; 'most later names' show a strand of Exodus 34:6-7; Numbers 14:17-19 in Be Transformed; Joel 2:32 wording in Lessons about Jesus."

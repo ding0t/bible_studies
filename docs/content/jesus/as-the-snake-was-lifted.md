@@ -5,9 +5,9 @@ description: "An exegetical study of Numbers 21:4-9 and John 3:14-15: how Jesus 
 tags: ["method/typology", "numbers", "john", "crucifixion", "method/word-study", "lang/hebrew", "lang/greek", "old-testament", "prophecy-fulfilled"]
 draft: false
 primary_passage: "Numbers 21:4-9; John 3:14-15"
-bible_references: ["John 3:1-21", "John 3:16", "John 8:28", "John 12:32-34", "John 20:30-31", "2 Kings 18:1-4", "Isaiah 11:10", "Isaiah 52:13", "Genesis 3:14-15", "2 Corinthians 5:21", "Romans 8:3", "Hebrews 4:15", "Numbers 11:1-3", "Numbers 16:46-48", "Numbers 14:39-45", "Exodus 16:2-5", "Numbers 20:22-29", "Numbers 21:21-35", "Deuteronomy 8:15", "Revelation 12:9", "Isaiah 6:2", "Isaiah 6:6"]
+bible_references: ["Exodus 17:9-15", "John 3:1-21", "John 3:16", "John 8:28", "John 12:32-34", "John 20:30-31", "2 Kings 18:1-4", "Isaiah 11:10", "Isaiah 52:13", "Genesis 3:14-15", "2 Corinthians 5:21", "Romans 8:3", "Hebrews 4:15", "Numbers 11:1-3", "Numbers 16:46-48", "Numbers 14:39-45", "Exodus 16:2-5", "Numbers 20:22-29", "Numbers 21:21-35", "Deuteronomy 8:15", "Revelation 12:9", "Isaiah 6:2", "Isaiah 6:6"]
 date_created: 2026-07-22
-date_modified: 2026-10-10
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -218,8 +218,15 @@ such identification.
 **Nes.** <span dir="rtl">נֵס</span> ("standard, banner, signal pole," H5251) is what the serpent is
 set on in Numbers 21:8 and 21:9. It is also what Isaiah's messianic figure becomes: "the root of
 Jesse, who stands as a banner of the peoples," whom "the nations will seek" (Isaiah 11:10, WEB). One
-word covers the pole raised for Israel's healing and the ensign the nations come to. Isaiah 11 is
-not citing the Numbers scene; the vocabulary simply runs through both.
+word covers the pole raised for Israel's healing and the ensign the nations come to. The word
+appears earlier too: after Joshua's victory over Amalek, won while Moses stood on the hill with "the staff of God" and
+held up his hand (Exodus 17:9-11, ESV), Moses built an altar and named it "The LORD Is My Banner", <span dir="rtl">יְהוָה
+נִסִּי</span> (*YHWH nissi*, Exodus 17:15, ESV).
+
+Reading the three as one picture is this study's own reading. No verse cites another, and Jesus
+names only the serpent (John 3:14). The reading rests on what each *nes* does in its own context:
+it is raised where people in danger can see it, over a battle, a dying camp and the nations, and
+what is lifted up on it saves those who look to it. That is the pattern Jesus claims for His cross.
 
 ### ὑψόω: lifted up and exalted
 

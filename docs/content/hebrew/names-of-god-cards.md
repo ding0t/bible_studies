@@ -46,7 +46,7 @@ in the table, say its sound, then read the word.
 - **The back** has the reading in syllables with the stressed one underlined, the meaning, the verse
   that reveals the name (ESV), and a line marked **Today** on the word in modern Hebrew.
 - **The name of God**, <span dir="rtl">יְהוָה</span>, has no reading on the card. It says *read
-  Adonai*, which is what Jewish readers have said in its place since before the time of Jesus.
+  Adonai*, which Jewish readers were already saying in its place by the time of Jesus.
   [How Hebrew Is Pronounced](pronunciation.md#the-name-of-god) explains why.
 - **Names as the verse says them.** Two names are better known in another form. Exodus 15:26 says
   <span dir="rtl">יְהוָה רֹפְאֶךָ</span>, "the LORD your healer", which is popularly shortened to

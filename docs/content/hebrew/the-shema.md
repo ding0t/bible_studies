@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Deuteronomy 6:4"
 bible_references: ["Deuteronomy 6:4-9", "Mark 12:29-30", "1 Corinthians 8:6", "Zechariah 14:9"]
 date_created: 2026-10-17
-date_modified: 2026-10-17
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -67,7 +67,7 @@ The sheva under שׂ ends a syllable, so it is silent: *yis*, not *yi-se*.
 | <span class="he-big" dir="rtl">ה</span> | he | none |
 
 God's own name. Its vowels are a reminder to say *Adonai*, "Lord", in its place, which is how it
-has been read aloud since before the time of Jesus. [How Hebrew Is
+was read aloud by the time of Jesus. [How Hebrew Is
 Pronounced](pronunciation.md#the-name-of-god) tells the story.
 
 ### 4. <span dir="rtl">אֱלֹהֵינוּ</span>, *e-lo-HEI-nu*, "our God"

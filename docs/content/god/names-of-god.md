@@ -5,7 +5,7 @@ description: "A study of the names God gave Himself in the Old Testament, from \
 tags: ["names-of-god", "exodus", "genesis", "isaiah", "lang/hebrew", "lang/greek", "method/word-study", "deity-of-christ"]
 draft: true
 primary_passage: "Exodus 3:13-15"
-bible_references: ["Exodus 3:11-15", "Exodus 6:2-8", "Exodus 33:18-19", "Exodus 34:5-7", "Genesis 14:18-22", "Genesis 15:2", "Genesis 15:7", "Genesis 16:13", "Genesis 17:1-2", "Genesis 22:7-14", "Exodus 15:23-26", "Exodus 17:15", "Judges 6:22-24", "1 Samuel 1:10-11", "Ruth 1:20", "Isaiah 7:14", "Isaiah 9:6", "Isaiah 10:21", "Jeremiah 23:5-6", "Jeremiah 33:16", "Numbers 13:16", "Matthew 1:21-23", "Matthew 27:46", "John 8:58", "John 17:11", "Philippians 2:9-11", "Isaiah 45:23", "Joel 2:32", "Romans 10:13", "Matthew 28:19"]
+bible_references: ["Exodus 3:11-15", "Exodus 6:2-8", "Exodus 33:18-19", "Exodus 34:5-7", "Genesis 14:18-22", "Genesis 15:2", "Genesis 15:7", "Genesis 16:13", "Genesis 17:1-2", "Genesis 22:7-14", "Exodus 15:23-26", "Exodus 17:15", "Judges 6:22-24", "1 Samuel 1:10-11", "Ruth 1:20", "Isaiah 7:14", "Isaiah 9:6", "Isaiah 10:21", "Jeremiah 23:5-6", "Jeremiah 33:16", "Numbers 13:16", "Matthew 1:21-23", "Matthew 27:46", "John 8:58", "John 17:11", "Philippians 2:9-11", "Isaiah 45:23", "Joel 2:32", "Romans 10:13", "Matthew 28:19", "Genesis 4:26", "Isaiah 42:8", "1 Samuel 1:3", "Numbers 21:8-9", "Isaiah 11:10", "John 1:29", "John 3:14", "2 Corinthians 5:21", "1 Corinthians 1:30", "Exodus 17:9-11", "Genesis 49:25", "Numbers 14:17-19", "Genesis 1:1", "Isaiah 6:1", "Judges 6:12"]
 date_created: 2026-10-18
 date_modified: 2026-10-18
 ai_provider_models:
@@ -14,11 +14,11 @@ ai_provider_models:
 
 # The Names of God
 
-Moses asked God His name, and the answer has filled the rest of the Bible. Each time God gave
-Himself a name, He gave it to someone in trouble, in the middle of what He was doing for them.
+Moses asked God His name, and the answer has filled the rest of the Bible. Almost every time God
+gave Himself a name, He gave it to someone in trouble, in the middle of what He was doing for them.
 
-**In one sentence:** God names Himself by what He does: each name He gave was spoken to someone at
-the end of their own resources, each is a promise He has kept, and all of them meet in Jesus, whose
+**In one sentence:** God names Himself by what He does: almost every name He gave was spoken to
+someone at the end of their own resources, each is a promise He has kept, and all of them meet in Jesus, whose
 name means "the LORD saves".
 
 This study is the theology behind the [Names of God word cards](../hebrew/names-of-god-cards.md),
@@ -31,9 +31,11 @@ which teach the same names as Hebrew vocabulary, one letter at a time.
 - **Type.** On Mount Moriah Abraham told Isaac, "God will provide for himself the lamb" (Genesis
   22:8, ESV), and named the place "The LORD will provide" (Genesis 22:14, ESV). John the Baptist
   pointed at Jesus: "Behold, the Lamb of God" (John 1:29, ESV).
-- **Type.** The banner Moses named in Exodus 17:15 is a <span dir="rtl">נֵס</span> (*nes*), the same
-  word as the pole that held up the bronze serpent (Numbers 21:8), which Jesus applied to His cross
-  (John 3:14).
+- **Type (this study's reading).** The banner Moses named in Exodus 17:15 is a
+  <span dir="rtl">נֵס</span> (*nes*), the same word as the pole that held up the bronze serpent
+  (Numbers 21:8), which Jesus applied to His cross (John 3:14). No verse joins Exodus 17 to the
+  cross; the type rests on the shared word and on what each *nes* did, and is set out in [The LORD
+  is my banner](#the-lord-is-my-banner-over-the-battle-with-amalek).
 - **Prophecy.** Isaiah and Jeremiah gave the coming King divine names: Immanuel, "God with us"
   (Isaiah 7:14), "Mighty God" (Isaiah 9:6) and "The LORD is our righteousness" (Jeremiah 23:6).
 
@@ -42,9 +44,9 @@ which teach the same names as Hebrew vocabulary, one letter at a time.
 - Jesus bears the name He was given as its meaning: *Yeshua*, "the LORD saves", "for he will save his
   people from their sins" (Matthew 1:21, ESV).
 - Jesus spoke the burning bush's "I am" of Himself: "before Abraham was, I am" (John 8:58, ESV).
-- The apostles gave Jesus the verses where the LORD speaks His own name: every knee bowing (Isaiah
-  45:23; Philippians 2:10-11) and everyone who calls on the name being saved (Joel 2:32; Romans
-  10:13).
+- The apostles gave Jesus verses about the LORD's own name: the oath the LORD swore by Himself that
+  every knee will bow to Him (Isaiah 45:23; Philippians 2:10-11), and Joel's promise that everyone
+  who calls on the name of the LORD will be saved (Joel 2:32; Romans 10:13).
 
 ### Memory verses
 
@@ -61,11 +63,12 @@ which teach the same names as Hebrew vocabulary, one letter at a time.
 
 - **Think.** God's names are promises with His character behind them. When you read "the LORD", read
   the God of Exodus 34:6, who said what He is like and has kept His word.
-- **Attitude.** Each of these names was given to someone with nothing left: a childless couple, a
+- **Attitude.** Most of these names were given to someone with nothing left: a childless couple, a
   runaway slave, a frightened farmer, a people with bitter water. Your own empty place is where God
   has always made Himself known.
 - **Do.** Learn one name this week with the [word cards](../hebrew/names-of-god-cards.md), read the
-  passage where God gave it, and pray it back to Him by name.
+  passage where God gave it, and pray it back to Him by name, as Moses prayed Exodus 34:6-7 back to
+  God when Israel had sinned again (Numbers 14:17-19).
 
 ### Prayer
 
@@ -76,14 +79,26 @@ In Jesus' name. Amen.
 
 ## Study outline
 
-- **"What is his name?"** God answers Moses at the burning bush, and the answer is a promise to be
-  with him.
-- **The name explained** and **Known by name, known by deed.** God's own commentary on His name in
-  Exodus 34, and what Exodus 6:3 means when it says the patriarchs did not know it.
-- **Names given in the hard places.** Eight names from Genesis to 1 Samuel, each in the scene where
-  it was given.
-- **Names the prophets gave the coming King.** Immanuel, Mighty God, and the LORD our righteousness.
-- **The name above every name.** How the New Testament gives the names to Jesus.
+- ["What is his name?"](#what-is-his-name) God answers Moses at the burning bush, and the answer is
+  a promise to be with him: [I will be](#i-will-be) · [The LORD](#the-lord).
+- [The name explained](#the-name-explained) and [Known by name, known by
+  deed](#known-by-name-known-by-deed). God's own commentary on His name in Exodus 34, and what
+  Exodus 6:3 means when it says the patriarchs did not know it, with the [contested
+  reading](#contested-one-story-or-separate-sources) set out on both sides.
+- [Names given in the hard places](#names-given-in-the-hard-places). Nine names from Genesis to
+  1 Samuel, each in the scene where it was given: [God Almighty](#god-almighty-to-the-childless) ·
+  [Lord](#lord-from-a-man-with-no-heir) · [God Most High](#god-most-high-served-by-melchizedek) ·
+  [the God who sees and the LORD who will provide](#the-god-who-sees-and-the-lord-who-will-see-to-it)
+  · [the LORD your healer](#the-lord-your-healer-at-bitter-water) · [the LORD is my
+  banner](#the-lord-is-my-banner-over-the-battle-with-amalek) · [the LORD is
+  peace](#the-lord-is-peace-to-gideon) · [the LORD of hosts](#the-lord-of-hosts-on-hannahs-lips).
+- [Names the prophets gave the coming King](#names-the-prophets-gave-the-coming-king).
+  [Immanuel](#immanuel) · [Mighty God](#mighty-god) · [The LORD is our
+  righteousness](#the-lord-is-our-righteousness).
+- [The name above every name](#the-name-above-every-name). How the New Testament gives the names to
+  Jesus: [Jesus: the LORD saves](#jesus-the-lord-saves) · [The Son speaks the Father's
+  names](#the-son-speaks-the-fathers-names) · [Every knee, and everyone who
+  calls](#every-knee-and-everyone-who-calls) · [One name](#one-name).
 
 ## "What is his name?"
 
@@ -110,8 +125,9 @@ gives His name with the same word in the same form: <span dir="rtl">אֶהְיֶ
 (*ehyeh asher ehyeh*), "I AM WHO I AM" (Exodus 3:14). So God's name first reaches Moses as an answer
 to his fear. Before it tells him what God is in Himself, it tells him God will go with him.
 
-The Hebrew verb covers both "I am" and "I will be". The ESV prints "I AM WHO I AM", and the CSB and
-NLT footnote "I WILL BE WHAT I WILL BE"; the choice between them is open. The Greek translators of the Septuagint chose being:
+The Hebrew verb covers both "I am" and "I will be". The ESV prints "I AM WHO I AM"; the NLT
+footnotes "I WILL BE WHAT I WILL BE" and the CSB "I WILL BE WHO I WILL BE"; the choice between them
+is open. The Greek translators of the Septuagint chose being:
 <span lang="grc">ἐγώ εἰμι ὁ ὤν</span> (*egō eimi ho ōn*), "I am the one who is" (Exodus 3:14,
 Brenton LXX). The two readings belong together. The God who simply is, owing His existence to no one,
 is the God who can promise to be with Moses in Egypt.
@@ -122,9 +138,9 @@ Verse 15 turns the first person into a name: <span dir="rtl">יְהוָה</span>
 four letters English Bibles print as "the LORD" in small capitals. It is God's personal name, used
 6,513 times in the Hebrew Old Testament (WLC), and He says of it, "This is my name forever". God
 explains it with the verb *to be* in Exodus 3:14, and the LSB's footnote there says the name is
-derived from that verb, <span dir="rtl">הָיָה</span> (*hayah*).
-Pronunciation is a separate question: Jews have read it aloud as *Adonai*, "Lord", since before the
-time of Jesus, and [How Hebrew Is Pronounced](../hebrew/pronunciation.md#the-name-of-god) tells
+derived from that verb, <span dir="rtl">הָיָה</span> (*hayah*, H1961).
+Pronunciation is a separate question: by the time of Jesus, Jews read it aloud as *Adonai*,
+"Lord", and [How Hebrew Is Pronounced](../hebrew/pronunciation.md#the-name-of-god) tells
 that story.
 
 The word for God in general, <span dir="rtl">אֱלֹהִים</span> (*elohim*, H430), can be used of
@@ -155,7 +171,8 @@ clear the guilty".
 
 He said it to a people who had just broken the covenant at the foot of the mountain. So when God
 proclaims His name, He describes His mercy to sinners, and He told it to the people who needed it
-most. Every later name in this study is one strand of Exodus 34:6-7 shown in a person's life.
+most. Most of the later names in this study show one strand of Exodus 34:6-7 in a person's life: mercy
+to Hagar, grace to Gideon, faithfulness to Abraham.
 
 ## Known by name, known by deed
 
@@ -179,14 +196,20 @@ redeem, take as His people, be their God, bring into the land, give it. Then "yo
 am the LORD your God, who has brought you out" (Exodus 6:7, ESV). The patriarchs had the name and
 the promise. Israel in Egypt would see it kept. The ESV Study Bible reads the verse the same way.
 
-This reading is contested. Many critical scholars take the verse at face value and conclude that
-the Genesis passages using the name come from a different source that did not share Exodus 6's
-view. That case depends on dividing Genesis into sources. Read as one story, Genesis and Exodus have
-the patriarchs using the name and Israel learning what it meant. This study takes the reading that
-keeps the two books together, and it is a judgement.
-
 So God's name is learned by what He does. Abraham knew it as a promise, and his descendants knew it
 as a rescue.
+
+### Contested: one story or separate sources
+
+This reading is contested, and the *NIV Biblical Theology Study Bible* sets out four approaches
+(note on Exodus 6:3). Two take the name as new to Moses. Source critics assign the Genesis passages
+using the name to a different source that did not share Exodus 6's view. Others say Genesis uses
+the name to show that the patriarchs' God is Israel's God. Two take the name as known before Moses.
+One is the reading above, which that study Bible calls the traditional solution. The other is
+grammatical: it reads the verse as a question, "by my name the LORD was I not known to them?" The
+source-critical case depends on dividing Genesis into sources. Read as one story, Genesis and Exodus have
+the patriarchs using the name and Israel learning what it meant. This study takes the reading that
+keeps the two books together, and it is a judgement.
 
 ## Names given in the hard places
 
@@ -200,29 +223,39 @@ each one in Hebrew.
 <span dir="rtl">אֵל שַׁדַּי</span> (*El Shaddai*, H7706) is the name of Exodus 6:3, the one the
 patriarchs knew. God first speaks it to Abram at ninety-nine, still without a son by Sarah: "I am
 God Almighty; walk before me, and be blameless, that I may make my covenant between me and you, and
-may multiply you greatly" (Genesis 17:1-2, ESV). Genesis uses *Shaddai* six times, and four come
-with being fruitful or multiplying (Genesis 17:1-2; 28:3; 35:11; 48:3-4).
+may multiply you greatly" (Genesis 17:1-2, ESV). Genesis uses *Shaddai* six times, and five are about
+children: four come with being fruitful or multiplying (Genesis 17:1-2; 28:3; 35:11; 48:3-4), and
+the fifth promises "blessings of the breasts and of the womb" (Genesis 49:25, ESV).
 
 What *Shaddai* means is contested. The Greek translators did not agree on it: "your God" at Genesis
 17:1, "the Sufficient One" (*ho hikanos*) at Ruth 1:20 and "the Almighty" (*pantokratōr*) at Job
 5:17 (Brenton LXX). The *Theological Wordbook of the Old Testament* (TWOT 2333) gives "sufficient".
-What Genesis shows is clearer than the
-etymology: *El Shaddai* is the name God gave to people who could not have children, as He promised
+What Genesis shows is clearer than the etymology: *El Shaddai* is the name God gave to people who could not have children, as He promised
 them nations.
 
 The same name is on the lips of the grieving. Naomi, widowed and childless, said, "the Almighty has
-dealt very bitterly with me" (Ruth 1:20, ESV), and Job uses it 31 times. Scripture lets them say it.
-The God who promised Abraham descendants is the one to whom the bereaved bring their complaint, and
-in Naomi's story He answers it with a grandson in the line of David (Ruth 4:17).
+dealt very bitterly with me" (Ruth 1:20, ESV), and the book of Job uses it 31 times. Scripture
+lets them say it. The God who promised Abraham descendants is the one to whom the bereaved bring
+their complaint, and in Naomi's story He answers it with a grandson in the line of David (Ruth 4:17).
 
 ### Lord, from a man with no heir
 
 <span dir="rtl">אֲדֹנָי</span> (*Adonai*, H136), "Lord", is first spoken to God by Abram: "O Lord
-GOD, what will you give me, for I continue childless" (Genesis 15:2, ESV). It is a servant's word for
-his master, and the Old Testament uses it of God 438 times. It is also the word Jews say aloud for
-the name *YHWH*, so Abram's word for his Master became Israel's way of reading the name.
+GOD, what will you give me, for I continue childless" (Genesis 15:2, ESV). It is the form of
+<span dir="rtl">אָדוֹן</span> (*adon*, H113), a servant's word for his master, that is kept for God,
+and the Old Testament uses it 438 times. It is also the word Jews say aloud for the name *YHWH*,
+so Abram's word for his Master became Israel's way of reading the name.
 
-### God Most High
+The two common words for God do different work. *Elohim* names Him as God, the Creator over all:
+"In the beginning, God created the heavens and the earth" (Genesis 1:1, ESV). *Adonai* is how a
+servant speaks to his Master, and it is the word on the lips of Abram, Gideon (Judges 6:22) and
+Isaiah, who "saw the Lord sitting upon a throne" (Isaiah 6:1, ESV). When the name stands next to
+*Adonai*, as in Abram's "Lord GOD", <span dir="rtl">אֲדֹנָי יֱהוִה</span>, the Masoretes gave
+the name the vowels of *Elohim* so that the reader says *Adonai Elohim* and avoids saying "Lord" twice.
+That is why the ESV prints "Lord GOD" there. [How Hebrew Is
+Pronounced](../hebrew/pronunciation.md#the-name-of-god) has the history of the custom.
+
+### God Most High, served by Melchizedek
 
 <span dir="rtl">אֵל עֶלְיוֹן</span> (*El Elyon*, H5945), "God Most High", is the God Melchizedek
 served, "Possessor of heaven and earth" (Genesis 14:19, ESV). Abram identified Him with the LORD
@@ -270,9 +303,9 @@ became sweet (Exodus 15:25). Then God named Himself:
 
 <span dir="rtl">יְהוָה רֹפְאֶךָ</span> (*YHWH rofekha*, H7495), "the LORD your healer". Popular
 books spell it "Jehovah Rapha". God gave it to a thirsty, grumbling people, and He healed the water
-before He gave them a single statute.
+before He set them the statute and rule of Marah (Exodus 15:25).
 
-### The LORD is my banner
+### The LORD is my banner, over the battle with Amalek
 
 When Amalek attacked Israel at Rephidim, Israel prevailed whenever Moses held up his hand,
 and Amalek whenever he lowered it (Exodus 17:11). After the battle "Moses built an altar and called the name of
@@ -285,10 +318,18 @@ pole, and everyone who is bitten, when he sees it, shall live" (Numbers 21:8, ES
 the coming King, "the root of Jesse, who shall stand as a signal for the peoples" (Isaiah 11:10,
 ESV). [As the Snake Was Lifted
 Up](../jesus/as-the-snake-was-lifted.md#the-hebrew-words-serpent-bronze-burning-one-banner) traces
-the word from the pole to the cross. Israel's banner over the battle was God Himself, and the pole
-God told Moses to raise in the camp foreshadowed His Son lifted up for all to see (John 3:14).
+the word from the pole to the cross.
 
-### The LORD is peace
+Reading the three together as one picture of Christ is this study's own reading. No verse cites
+another, and Jesus names only the serpent (John 3:14). The reading rests on the text. Each *nes* is
+raised where people in danger can see it: over a battle Israel could not win alone, over a camp
+dying of snakebite, and over the nations. Each time, what is lifted up saves those who look to it.
+In Exodus 17 the battle was fought by Joshua (Exodus 17:9), the first man in Scripture to bear the
+name Jesus was later given, while Moses stood on the hill with "the staff of God" (Exodus 17:9, ESV). Israel's banner over that battle was God
+Himself, and the pole God told Moses to raise in the camp foreshadowed His Son lifted up for all to
+see.
+
+### The LORD is peace, to Gideon
 
 Gideon was threshing wheat in a winepress to hide it from the Midianites when the angel of the LORD
 called him a mighty man of valour. When Gideon realised who had been speaking with him, he
@@ -307,9 +348,10 @@ expected to die was given peace, and he named the altar after what God had said.
 ### The LORD of hosts, on Hannah's lips
 
 <span dir="rtl">יְהוָה צְבָאוֹת</span> (*YHWH tsevaot*, H6635), "the LORD of hosts", is the
-title of the God who commands the armies of heaven. It occurs 264 times. The first is 1 Samuel 1:3,
-where Elkanah goes up to worship the LORD of hosts at Shiloh. The second is the first time anyone
-speaks it to God, and it is a barren woman praying:
+title of the God who commands the armies of heaven. The two words stand together 240 times in one
+Hebrew text (WLC), 261 counting "the LORD God of hosts". The first is 1 Samuel 1:3, where Elkanah goes
+up to worship the LORD of hosts at Shiloh. The second is the first time anyone speaks it to God, and
+it is a barren woman praying:
 
 > ✝️ 1 Samuel 1:10-11 (ESV)
 >
@@ -327,18 +369,22 @@ holy is the LORD of hosts" (Isaiah 6:3, ESV).
 The prophets, writing as Judah's kings failed, gave the King God promised to send names that belong
 to God.
 
-**Immanuel.** "Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel"
+### Immanuel
+
+"Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel"
 (Isaiah 7:14, ESV): <span dir="rtl">עִמָּנוּ אֵל</span> (*immanu el*, H6005), "with us is God".
 Matthew quotes it of Jesus' birth and translates it, "God with us" (Matthew 1:23, ESV). The promise
 of Exodus 3:12, "I will be with you", took flesh.
 
-**Mighty God.** Isaiah gave the child born to the house of David four names: "Wonderful Counselor,
+### Mighty God
+
+Isaiah gave the child born to the house of David four names: "Wonderful Counselor,
 Mighty God, Everlasting Father, Prince of Peace" (Isaiah 9:6, ESV). "Mighty God" is
 <span dir="rtl">אֵל גִּבּוֹר</span> (*El gibbor*, H1368). Isaiah's next use of the phrase is about
 the LORD Himself: "A remnant will return, the remnant of Jacob, to the mighty God" (Isaiah 10:21,
 ESV). So Isaiah gave the child a title he uses for God, one chapter later.
 
-**The LORD is our righteousness.**
+### The LORD is our righteousness
 
 > ✝️ Jeremiah 23:5-6 (ESV)
 >
@@ -442,7 +488,8 @@ names were promises, and He has kept them. Call on Him by name, and you will be 
 
 - **Hebrew text and counts.** Westminster Leningrad Codex via MACULA Hebrew (Clear Bible), and
   STEPBible TAHOT (CC BY) for the pointed forms. Counts are for one Hebrew text (WLC): YHWH (H3068)
-  6,513; *Adonai* (H136) 438; *Shaddai* (H7706) 48; *YHWH tsevaot* 264.
+  6,513; *Adonai* (H136) 438; *Shaddai* (H7706) 48; *YHWH tsevaot* 240 as adjacent words, 261 with
+  "the LORD God of hosts".
 - **Greek.** Brenton's Septuagint (Exodus 3:14; Numbers 13:16; Genesis 17:1; Ruth 1:20; Job 5:17;
   Isaiah 45:23; Joel 3:5); SBL Greek New Testament.
 - **Lexicons.** *Theological Wordbook of the Old Testament* (Moody), entry 2333 on *Shaddai*;

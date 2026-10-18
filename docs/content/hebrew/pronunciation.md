@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 3:15"
 bible_references: ["Exodus 3:15", "Isaiah 45:23", "Philippians 2:9-11"]
 date_created: 2026-10-17
-date_modified: 2026-10-17
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -83,6 +83,9 @@ to the reader of what to say. That is why:
 - **In a synagogue** you will hear *Adonai* wherever the text has the name, and outside prayer many
   Jews say *HaShem*, "the Name".
 - **English Bibles** print "the LORD" in small capitals for it, following the same practice.
+- **Where the name follows *Adonai*** (*Adonai YHWH*, as in Genesis 15:2), the Masoretes gave the
+  name the vowels of *Elohim*, <span dir="rtl">אֲדֹנָי יֱהוִה</span>, so the reader says *Adonai
+  Elohim* and avoids saying "Lord" twice. English Bibles print "Lord GOD" there.
 - **"Jehovah"** arose when Christian readers in the late Middle Ages read the consonants and the
   reminder vowels together, as if they made one word.
 - **"Yahweh"**, the form the studies on this site use, is the scholarly reconstruction of the
@@ -91,6 +94,30 @@ to the reader of what to say. That is why:
   so this site gives the spelling and no stressed respelling.
 
 The word cards print the name as the Hebrew Bible does and mark it "read *Adonai*".
+
+### How we know when
+
+The custom is older than the earliest statement of it. In date order:
+
+- **The Great Isaiah Scroll** from Qumran (1QIsaᵃ), copied in the second century BC, treats the
+  name and *Adonai* as interchangeable. Where the Masoretic text has *Adonai*, the scroll sometimes
+  has the name (Isaiah 6:11; 7:14), and where the Masoretic text has the name, it once has *Adonai*
+  (Isaiah 3:17). A scribe who said *Adonai* for both would slip this way. That is the likeliest
+  explanation, but it is an inference from the copying. Some Qumran scribes also wrote the name in
+  the old letters ([Three Scripts](three-scripts.md)).
+- **Josephus**, writing around AD 93, says God told Moses "his holy name, which had never been
+  discovered to men before; concerning which it is not lawful for me to say any more" (*Antiquities*
+  2.276, Whiston).
+- **The Mishnah**, written down around AD 200, remembers the Temple: "In the Temple the name was
+  uttered as it is written, but in the province in its substituted name" (Sotah 7:6, trans. Joshua
+  Kulp, CC BY).
+- **The Talmud** names the substitute. God's name "that is written with the letters yod and heh is
+  read as Adonai", and in the world to come it will be read as it is written (Pesachim 50a, William
+  Davidson Edition, CC BY-NC), the day when "the LORD will be one and his name one" (Zechariah
+  14:9, ESV).
+
+So "by the time of Jesus" is the statement the sources support, and the Isaiah scroll suggests the
+custom is older still.
 
 What the Jewish readers did with the name, the apostles did with Jesus. The Greek Old Testament put
 *Kyrios*, "Lord", where the Hebrew has the name. In Isaiah 45:23 the LORD swears by Himself, "To
