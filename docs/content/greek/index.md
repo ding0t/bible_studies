@@ -3,7 +3,7 @@ title: "Learn Greek"
 category: "other"
 description: "The 24 letters of the Greek New Testament with their names and sounds, the uncial capitals the manuscripts were written in, and printable word cards of the Holy Spirit's names."
 tags: ["lang/greek", "learning"]
-draft: true
+draft: false
 date_created: 2026-10-18
 date_modified: 2026-10-19
 ai_provider_models:

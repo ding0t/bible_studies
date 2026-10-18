@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 33:4
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 33:24-28
 <!-- commentary-index:auto-end -->

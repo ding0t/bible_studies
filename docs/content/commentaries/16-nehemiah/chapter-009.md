@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Fasting](../../christian-life/fasting.md) — 9:1-2
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 9:20
 <!-- commentary-index:auto-end -->

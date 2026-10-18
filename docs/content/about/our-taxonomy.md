@@ -77,9 +77,10 @@ the Holy Spirit as peers.
 | **Sermons** | Homiletics | 251, 252 | Sermon notes, teaching material, and guidance on preparing to teach |
 | **Blog** | — | — | The author's personal notes and testimony, kept apart from the studies: dream accounts first |
 | **Learn Hebrew** | — | 492.4 | A course in reading the Hebrew Bible, taken in order: the alphabet and vowels, pronunciation, printable writing sheets and word cards |
+| **Learn Greek** | — | 487 | The Greek alphabet of the New Testament, its pronunciation and uncial script, and printable word cards |
 | **Resources** | — | — | Guides to external material: source catalogues, study aids, and reference tools |
 
-The last three sit alongside the studies rather than inside them, because they describe *how* material
+The last four sit alongside the studies rather than inside them, because they describe *how* material
 is delivered or *where* it comes from rather than what subject it treats.
 
 ### These sections are top-level

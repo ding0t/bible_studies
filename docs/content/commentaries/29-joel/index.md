@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Chapters with linked studies
 
-- [Chapter 2](chapter-002.md) — 10 study(ies)
+- [Chapter 2](chapter-002.md) — 11 study(ies)
 <!-- commentary-index:auto-end -->

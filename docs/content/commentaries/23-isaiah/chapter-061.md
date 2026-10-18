@@ -18,6 +18,7 @@ draft: false
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 61:1-2
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 61:10
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 61:10
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 61:1
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 61:10
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 61:3
 <!-- commentary-index:auto-end -->

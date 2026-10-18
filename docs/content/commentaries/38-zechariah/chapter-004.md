@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 4:1-14
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 4:6
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 4:3
 <!-- commentary-index:auto-end -->

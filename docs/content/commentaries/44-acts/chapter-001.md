@@ -30,6 +30,7 @@ draft: false
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:6-11
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 1:7
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 1:6-7
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 1:4-5
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:9-12
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:9
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 1:10

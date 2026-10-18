@@ -18,6 +18,7 @@ draft: false
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 28:5-10
 - [The Appointed Times](../../feasts/feasts.md) — 28:1
 - [The Names of God](../../god/names-of-god.md) — 28:19
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 28:19
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 28:19-20
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 28:3
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 28:1

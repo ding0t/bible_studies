@@ -24,6 +24,7 @@ draft: false
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 4:11-15
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 4:30
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 4:32
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 4:30
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 4:1
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:29
 <!-- commentary-index:auto-end -->

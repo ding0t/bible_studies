@@ -3,11 +3,11 @@ title: "The Names of the Holy Spirit: Hebrew Word Cards"
 category: "other"
 description: "Fifteen printable A4 flashcards of the Old Testament's names for the Spirit of God in Hebrew, ordered so each card adds a few new letters: the Hebrew, its Paleo-Hebrew form, the pronunciation, the meaning, a verse, and the word in Hebrew today."
 tags: ["lang/hebrew", "learning", "names-of-god", "printable"]
-draft: true
+draft: false
 primary_passage: "Isaiah 11:2"
 bible_references: ["Genesis 1:2", "John 3:8", "Ezekiel 36:27", "Isaiah 11:2", "Romans 8:14", "Ephesians 1:17", "Psalm 51:11", "Psalm 51:12", "Nehemiah 9:20", "Joel 2:28", "Acts 2:17", "Zechariah 12:10", "Hebrews 10:29", "Isaiah 61:1", "Luke 4:18", "Zechariah 4:6", "Isaiah 44:3"]
 date_created: 2026-10-18
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

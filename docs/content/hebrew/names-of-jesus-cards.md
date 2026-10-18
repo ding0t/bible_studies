@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 1:21"
 bible_references: ["Nehemiah 8:17", "Matthew 1:21", "Daniel 9:25", "John 1:41", "Zechariah 6:12", "Isaiah 9:6", "Ephesians 2:14", "Deuteronomy 18:15", "Acts 3:22", "Daniel 7:13", "Mark 14:62", "Psalm 110:4", "Hebrews 5:6", "Numbers 24:17", "Revelation 22:16", "Ezekiel 34:23", "John 10:11", "John 3:16", "Isaiah 52:13", "Matthew 12:18", "Isaiah 53:7", "John 1:29", "Psalm 118:22", "Acts 4:11", "Genesis 22:18", "Galatians 3:16", "Isaiah 59:20", "Romans 11:26", "Isaiah 44:6", "Revelation 1:17"]
 date_created: 2026-10-18
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -30,7 +30,8 @@ verse. The back of the card quotes the New Testament verse where that name is gi
 shepherd of John 10:11. [The Names of Jesus](../jesus/names-of-jesus.md) is the study behind the
 cards: where each name was promised, and how Jesus fulfils it. The companion deck, [The Names of
 God](names-of-god-cards.md), teaches the names God gave Himself; it ends with *Yeshua*, and this
-deck begins there.
+deck begins there. A third deck, [The Names of the Holy Spirit](names-of-the-holy-spirit-cards.md),
+teaches the Spirit's names.
 
 ## How the deck teaches the letters
 

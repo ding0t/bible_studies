@@ -16,6 +16,7 @@ draft: false
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 4:3-5
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 4:11
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 4:1
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 4:14
 - [The Way](../../jesus/the-way.md) — 4:16
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:4
 <!-- commentary-index:auto-end -->

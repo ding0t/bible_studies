@@ -25,6 +25,7 @@ draft: false
 - [Six Days of History](../../last-things/six-days-of-history.md) — 8:29
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 8:5
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 8:1
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 8:2
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 8:15-17
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 8:1
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 8:38-39

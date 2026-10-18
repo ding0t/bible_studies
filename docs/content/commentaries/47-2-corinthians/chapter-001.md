@@ -18,5 +18,6 @@ draft: false
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 1:22
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 1:20
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:22
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 1:22
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 1:12
 <!-- commentary-index:auto-end -->

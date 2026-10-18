@@ -3,7 +3,7 @@ title: "The Names of the Holy Spirit"
 category: "theology"
 description: "A study of the names the Bible gives the Holy Spirit, from the Spirit of God over the waters to the Helper Jesus promised: whose Spirit He is, what each name says He brings, and how by Him you call God Father and Jesus Lord."
 tags: ["names-of-god", "trinity", "deity-of-the-spirit", "john", "romans", "isaiah", "lang/hebrew", "lang/greek", "method/word-study"]
-draft: true
+draft: false
 primary_passage: "John 14:15-18"
 bible_references: ["Genesis 1:2", "Job 33:4", "1 Samuel 16:13-14", "Isaiah 11:1-3", "Isaiah 61:1", "Luke 4:18", "Psalm 51:11", "Isaiah 63:10-11", "Psalm 139:7", "Nehemiah 9:20", "Psalm 143:10", "Joel 2:28-29", "Ezekiel 36:26-27", "Ezekiel 37:9-14", "Zechariah 4:6", "Zechariah 12:10", "John 3:5-8", "John 7:37-39", "John 14:15-18", "John 14:26", "John 15:26", "John 16:7-8", "John 16:13-14", "John 20:22", "1 John 2:1", "Acts 1:4-5", "Acts 2:33", "Acts 5:3-4", "Acts 16:7", "Matthew 28:19", "2 Corinthians 13:14", "Romans 8:2", "Romans 8:9-11", "Romans 8:14-16", "Romans 8:26", "Galatians 4:6", "1 Corinthians 3:16", "1 Corinthians 12:3", "2 Corinthians 1:22", "2 Corinthians 3:17-18", "2 Corinthians 5:5", "Ephesians 1:13-14", "Ephesians 1:17", "Ephesians 4:30", "Philippians 1:19", "Hebrews 9:14", "Hebrews 10:29", "1 Peter 1:11", "1 Peter 4:14", "Revelation 1:4-5", "Revelation 22:17"]
 date_created: 2026-10-18
@@ -26,13 +26,6 @@ Bible gives the Holy Spirit says whose He is and what He brings: He is the Spiri
 LORD, of the Father and of the Son, God Himself present with His people, promised by the prophets
 and given to live in you forever, and He is the one by whom you call God "Abba! Father!" and say
 "Jesus is Lord", so the God whose names you have learned now lives in you.
-
-This is the third of three studies. [The Names of God](../god/names-of-god.md) follows the names God
-gave Himself, and [The Names of Jesus](../jesus/names-of-jesus.md) the names given to God the Son.
-This one follows the names of the Spirit, by whom both are known. The names are also printable word
-cards, in [Hebrew](../hebrew/names-of-the-holy-spirit-cards.md) and in
-[Greek](../greek/names-of-the-holy-spirit-cards.md), ordered to teach each alphabet a few letters at a
-time.
 
 ## Key Takeaways
 
@@ -114,7 +107,8 @@ Your Holy Spirit. Let me call You Father and Jesus Lord with all my heart. In Je
 - [Names at the end](#names-at-the-end). The seven spirits before the throne, and the Spirit who
   says "Come".
 - [The Spirit teaches you the other names](#the-spirit-teaches-you-the-other-names). By Him you say
-  "Abba! Father!" and "Jesus is Lord".
+  "Abba! Father!" and "Jesus is Lord". **The heart of the study:** every name of God you have learned
+  you speak by the Spirit, who lives in you.
 
 ## "I will not leave you as orphans"
 
@@ -544,11 +538,14 @@ so you may call God "Abba! Father!", and call Jesus "Lord", and know that God Hi
 
 ### On this site
 
-- [The Names of God](../god/names-of-god.md) and [The Names of Jesus](../jesus/names-of-jesus.md),
-  the first two studies in this series.
-- [Hebrew word cards](../hebrew/names-of-the-holy-spirit-cards.md) and [Greek word
-  cards](../greek/names-of-the-holy-spirit-cards.md) for the names in this study, and [Learn
-  Greek](../greek/index.md) for the alphabet.
+This is the third of three studies. [The Names of God](../god/names-of-god.md) follows the names God
+gave Himself, and [The Names of Jesus](../jesus/names-of-jesus.md) the names given to God the Son.
+This one follows the names of the Spirit, by whom both are known. The names are also printable word
+cards, in [Hebrew](../hebrew/names-of-the-holy-spirit-cards.md) and in
+[Greek](../greek/names-of-the-holy-spirit-cards.md), ordered to teach each alphabet a few letters at a
+time.
+
+- [Learn Greek](../greek/index.md) for the alphabet.
 - [Weeks: Fifty Days to Pentecost](../feasts/weeks.md), the day the Spirit was poured out.
 - [The Restrainer](../last-things/the-restrainer.md), the Spirit dwelling in the church.
 - [Assurance of Salvation](../salvation/assurance-of-salvation.md) and [The Bride of

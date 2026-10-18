@@ -17,5 +17,6 @@ draft: false
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 16:37
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 16:6-10
 - [Sin and Sorcery](../../sin/sorcery.md) — 16:16-18
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 16:7
 - [The Way](../../jesus/the-way.md) — 16:17
 <!-- commentary-index:auto-end -->

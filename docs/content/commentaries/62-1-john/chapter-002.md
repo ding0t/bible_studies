@@ -18,6 +18,7 @@ draft: false
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 2:18-27
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 2:2
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 2:28
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 2:1
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 2:7-8
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 2:19
 <!-- commentary-index:auto-end -->

@@ -22,6 +22,7 @@ draft: false
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 22:12-14
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 22:5
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 22:16
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 22:17
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 22:1-5
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 22:16-20
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 22:17

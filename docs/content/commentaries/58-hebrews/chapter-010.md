@@ -24,6 +24,7 @@ draft: false
 - [The Appointed Times](../../feasts/feasts.md) — 10:1
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 10:11-22
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:3
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 10:29
 - [The Way](../../jesus/the-way.md) — 10:19-20
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 10:35-39
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 10:23-25

@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 51:11
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 51:7
 <!-- commentary-index:auto-end -->

@@ -19,6 +19,7 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 3:29
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:20
 - [The Names of God](../../god/names-of-god.md) — 3:14
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 3:5-8
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 3:29
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 3:29
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 3:22-30

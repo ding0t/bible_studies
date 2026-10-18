@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 3:13-15"
 bible_references: ["Exodus 3:11-15", "Exodus 6:2-8", "Exodus 33:18-19", "Exodus 34:5-7", "Genesis 14:18-22", "Genesis 15:2", "Genesis 15:7", "Genesis 16:13", "Genesis 17:1-2", "Genesis 22:7-14", "Exodus 15:23-26", "Exodus 17:15", "Judges 6:22-24", "1 Samuel 1:10-11", "Ruth 1:20", "Isaiah 7:14", "Isaiah 9:6", "Isaiah 10:21", "Jeremiah 23:5-6", "Jeremiah 33:16", "Numbers 13:16", "Matthew 1:21-23", "Matthew 27:46", "John 8:58", "John 17:11", "Philippians 2:9-11", "Isaiah 45:23", "Joel 2:32", "Romans 10:13", "Matthew 28:19", "Genesis 4:26", "Isaiah 42:8", "1 Samuel 1:3", "Numbers 21:8-9", "Isaiah 11:10", "John 1:29", "John 3:14", "2 Corinthians 5:21", "1 Corinthians 1:30", "Exodus 17:9-11", "Genesis 49:25", "Numbers 14:17-19", "Genesis 1:1", "Isaiah 6:1", "Judges 6:12"]
 date_created: 2026-10-18
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -23,7 +23,8 @@ name means "the LORD saves".
 
 This study is the theology behind the [Names of God word cards](../hebrew/names-of-god-cards.md),
 which teach the same names as Hebrew vocabulary, one letter at a time. Its second half, [The Names
-of Jesus](../jesus/names-of-jesus.md), begins where this study ends, at the name of Jesus.
+of Jesus](../jesus/names-of-jesus.md), begins where this study ends, at the name of Jesus, and [The
+Names of the Holy Spirit](../holy-spirit/names-of-the-holy-spirit.md) completes the three.
 
 ## Key Takeaways
 
@@ -546,3 +547,5 @@ of Jesus](../jesus/names-of-jesus.md) follows the names the rest of Scripture gi
 - [In Humility](../christian-life/humility.md): Philippians 2 and the name above every name.
 - [The Names of Jesus](../jesus/names-of-jesus.md): the names the prophets, the apostles and Jesus
   Himself give the Son.
+- [The Names of the Holy Spirit](../holy-spirit/names-of-the-holy-spirit.md): the names of the
+  Spirit, by whom you call God "Abba! Father!"

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:15-22; Acts 2:1-41"
 bible_references: ["Leviticus 23:15-22", "Leviticus 23:10", "Leviticus 2:11-12", "Deuteronomy 16:9-12", "Deuteronomy 16:16", "Exodus 23:16", "Exodus 34:22", "Numbers 28:26", "Exodus 19:1", "Exodus 19:16-18", "Exodus 32:28", "Ruth 2:23", "Acts 1:3-5", "Acts 1:9", "Matthew 28:1", "Acts 2:1-11", "Acts 2:16-18", "Acts 2:32-35", "Psalm 110:1", "Acts 2:41", "Acts 11:15", "Acts 10:44-48", "Acts 20:16", "1 Corinthians 16:8", "John 16:7", "Joel 2:28-32", "Jeremiah 31:33", "Ezekiel 36:26-27", "2 Corinthians 3:3", "2 Corinthians 3:6", "Romans 8:23", "Ephesians 1:13-14", "Ephesians 2:14-16"]
 date_created: 2026-10-02
-date_modified: 2026-10-08
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -266,3 +266,5 @@ For where Weeks sits among the feasts, see [The Appointed Times](feasts.md). The
 - [Firstfruits: The Sheaf Waved on the Third Day](firstfruits.md) — where the count begins.
 - [Unleavened Bread](unleavened-bread.md) — what leaven pictures.
 - [Prophecy Chart](../last-things/prophecy-chart.md) — Pentecost and the church.
+- [The Names of the Holy Spirit](../holy-spirit/names-of-the-holy-spirit.md) — the promise of the
+  Father, poured out at Pentecost.

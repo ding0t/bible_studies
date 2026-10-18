@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 139:1-12
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 139:7
 - [The Restrainer](../../last-things/the-restrainer.md) — 139:7
 <!-- commentary-index:auto-end -->

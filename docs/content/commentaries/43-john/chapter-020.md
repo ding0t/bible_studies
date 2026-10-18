@@ -16,6 +16,7 @@ draft: false
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 20:30-31
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 20:15-18
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 20:28
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 20:22
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 20:12
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 20:1
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 20:19-27

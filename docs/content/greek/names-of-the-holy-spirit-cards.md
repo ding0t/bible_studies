@@ -3,11 +3,11 @@ title: "The Names of the Holy Spirit: Greek Word Cards"
 category: "other"
 description: "Sixteen printable A4 flashcards of the New Testament's names for the Holy Spirit in Greek, ordered so each card adds a few new letters: the Greek, its uncial capitals, the pronunciation, the meaning, the verse, and the word in Greek today."
 tags: ["lang/greek", "learning", "names-of-god", "printable"]
-draft: true
+draft: false
 primary_passage: "John 14:26"
 bible_references: ["John 3:8", "John 14:26", "John 15:26", "John 16:13", "Romans 8:9", "Romans 8:15", "Ephesians 1:14", "Romans 8:2", "Ephesians 1:17", "1 Peter 4:14", "Hebrews 9:14", "Hebrews 10:29", "Ephesians 1:13", "Galatians 4:6", "Acts 5:4"]
 date_created: 2026-10-18
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

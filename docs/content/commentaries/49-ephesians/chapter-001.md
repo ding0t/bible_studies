@@ -19,6 +19,7 @@ draft: false
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 1:14
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 1:9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:13-14
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 1:13-14
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 1:5
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 1:20-22
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 1:13-14

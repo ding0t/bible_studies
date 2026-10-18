@@ -25,6 +25,7 @@ draft: false
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 5:10
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:5
 - [The Names of God](../../god/names-of-god.md) — 5:21
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 5:5
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:10
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 5:10
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 5:21

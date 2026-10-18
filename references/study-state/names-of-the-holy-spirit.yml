@@ -1,7 +1,7 @@
 ---
 slug: names-of-the-holy-spirit
 title: "The Names of the Holy Spirit"
-status: drafting # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
 target_path: docs/content/holy-spirit/names-of-the-holy-spirit.md
 last_updated: 2026-10-18
 
@@ -183,3 +183,7 @@ read_2026-10-19:
     - "Opening paragraph after the thesis ('This is the third of three studies...') spends the opening on the series and the cards; consider moving it lower or into On this site (needs an author call)."
     - "No evaluative outline annotations written; add one if a section deserves to be flagged as the heart of the study."
   validate: "npm run validate: no findings on this file."
+
+published_2026-10-19:
+  author_rulings: "John 14:17 kept as 'will be' with an endnote on estin; personhood argued from Acts 13:2, 1 Cor 12:11, Rom 8:27, Acts 15:28; Heb 10:29 echo marked likely; John 3:34 cited with the giver from John 3:35, Isa 42:1, Acts 10:38; 2 Cor 3:17 supported from LXX Exod 34:34, Acts 28:25, Heb 3:7; series paragraph moved to On this site; outline marks the last section as the heart of the study."
+  done: "deferred_until_publish and back_links_on_publish all applied, including weeks and the-restrainer; Learn Greek added to our-taxonomy (placement-and-tags lists no language-course sections, so no row there)."

@@ -19,6 +19,7 @@ draft: false
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 7:15
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 7:24
 - [The Appointed Times](../../feasts/feasts.md) — 7:2
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 7:37-39
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 7:37-38
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 7:37-39
 <!-- commentary-index:auto-end -->

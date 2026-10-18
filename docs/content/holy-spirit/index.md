@@ -4,7 +4,7 @@ category: "other"
 description: "God the Holy Spirit: who He is, His names, and His work in Scripture and in every believer."
 draft: false
 date_created: 2026-10-18
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -18,6 +18,9 @@ what is to come (Ephesians 1:13-14). This section sits beside [God the Father](.
 [Jesus](../jesus/index.md), God the Son, because the three persons are one God. The
 [Statement of Faith](../about/statement-of-faith.md#god-the-holy-spirit) sets out what this site
 believes about Him.
+
+[The Names of the Holy Spirit](names-of-the-holy-spirit.md) follows the names Scripture gives Him,
+from the Spirit of God over the waters to the Spirit and the Bride who say "Come".
 
 ## Studies of the Spirit elsewhere on this site
 
@@ -38,6 +41,14 @@ These studies are filed by their own subject, and each has a part on the Spirit:
     How God has spoken through dreams and visions, and how to tell those from the counterfeits.
 
     [:octicons-arrow-right-24: Browse](dreams-and-visions/)
+
+-   __The Names of the Holy Spirit__
+
+    ---
+
+    A study of the names the Bible gives the Holy Spirit, from the Spirit of God over the waters to the Helper Jesus promised: whose Spirit He is, what each name says He brings, and how by Him you call God Father and Jesus Lord.
+
+    [:octicons-arrow-right-24: Read](names-of-the-holy-spirit.md)
 
 </div>
 <!-- section-index:auto-end -->

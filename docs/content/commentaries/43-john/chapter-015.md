@@ -16,5 +16,6 @@ draft: false
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 15:1-11
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 15:7
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 15:1-5
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 15:26
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 15:16
 <!-- commentary-index:auto-end -->

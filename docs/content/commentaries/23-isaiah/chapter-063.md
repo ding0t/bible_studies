@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 63:16
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 63:10-11
 <!-- commentary-index:auto-end -->

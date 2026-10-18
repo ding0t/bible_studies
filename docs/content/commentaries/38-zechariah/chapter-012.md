@@ -16,6 +16,7 @@ draft: false
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 12:10
 - [The Appointed Times](../../feasts/feasts.md) — 12:10
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 12:10
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 12:10
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 12:10
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 12:10
 <!-- commentary-index:auto-end -->

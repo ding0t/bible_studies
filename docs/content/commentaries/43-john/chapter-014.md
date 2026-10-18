@@ -15,6 +15,7 @@ draft: false
 - [Philip](../../biblical-figures/philip.md) — 14:8-11 (primary passage)
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 14:22-24 (primary passage)
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 14:1-3 (primary passage)
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 14:15-18 (primary passage)
 - [The Way](../../jesus/the-way.md) — 14:6 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 14:1-3
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 14:10-11

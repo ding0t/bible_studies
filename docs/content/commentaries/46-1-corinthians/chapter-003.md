@@ -17,6 +17,7 @@ draft: false
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 3:23
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 3:16
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 3:6
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 3:16
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:11-15
 - [The Restrainer](../../last-things/the-restrainer.md) — 3:16
 <!-- commentary-index:auto-end -->

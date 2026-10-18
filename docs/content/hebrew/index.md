@@ -5,7 +5,7 @@ description: "A course in reading the Hebrew Bible, taken in order: the 22 lette
 tags: ["lang/hebrew", "learning"]
 draft: false
 date_created: 2026-10-17
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -30,7 +30,8 @@ below builds on the one before, so take them in order.
    letters, in the names God revealed Himself by. [The Names of God](../god/names-of-god.md) is the
    study behind them. The [Names of Jesus word cards](names-of-jesus-cards.md) are a second deck of
    18, the Old Testament's names for the coming Christ, each beside the verse that gives the name to
-   Jesus.
+   Jesus, and the [Names of the Holy Spirit word cards](names-of-the-holy-spirit-cards.md) a third
+   deck of 15. The same names in the Greek of the New Testament are in [Learn Greek](../greek/index.md).
 4. **[Three Scripts](three-scripts.md) and [Writing Sheets](writing-sheets.md).** The same letters in
    Paleo-Hebrew, square script and modern cursive, where each comes from, and A4 sheets to practise
    writing them, including the names of God in all three.

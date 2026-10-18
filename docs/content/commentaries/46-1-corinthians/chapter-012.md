@@ -16,5 +16,6 @@ draft: false
 - [Submission in Context](../../christian-life/submission-in-context.md) — 12:22-23
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 12:3
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 12:27
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 12:3
 - [The Way](../../jesus/the-way.md) — 12:31
 <!-- commentary-index:auto-end -->

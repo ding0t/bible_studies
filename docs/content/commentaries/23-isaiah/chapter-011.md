@@ -16,4 +16,5 @@ draft: false
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 11:11
 - [The Names of God](../../god/names-of-god.md) — 11:10
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 11:1
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 11:1-3
 <!-- commentary-index:auto-end -->

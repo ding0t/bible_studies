@@ -23,6 +23,7 @@ draft: false
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 1:4
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 1:10
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 1:17-18
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 1:4-5
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:7
 - [The Rapture of the Church](../../last-things/rapture.md) — 1:7
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 1:3

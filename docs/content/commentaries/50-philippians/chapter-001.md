@@ -19,4 +19,5 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 1:17
 - [Pride](../../sin/pride.md) — 1:6
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:6
+- [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 1:19
 <!-- commentary-index:auto-end -->
