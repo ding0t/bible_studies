@@ -14,5 +14,5 @@ draft: false
 
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 47:1-12
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 47:1-6
-- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 47:9
+- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 47:9
 <!-- commentary-index:auto-end -->

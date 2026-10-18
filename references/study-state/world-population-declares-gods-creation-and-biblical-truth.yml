@@ -1,7 +1,7 @@
 slug: "world-population-declares-gods-creation-and-biblical-truth"
 title: "What World Population Declares: Biblical Chronology and the Arithmetic of Growth"
 status: published
-target_path: "docs/content/god/world-population-declares-gods-creation-and-biblical-truth.md"
+target_path: "docs/content/chronology/world-population-declares-gods-creation-and-biblical-truth.md"
 
 primary_passage: "Genesis 9:1-19"
 supporting_passages:
@@ -111,7 +111,7 @@ stages:
       that moves the modelled rate by under 0.02 percentage points.
   drafting:
     done: true
-    file: "docs/content/god/world-population-declares-gods-creation-and-biblical-truth.md"
+    file: "docs/content/chronology/world-population-declares-gods-creation-and-biblical-truth.md"
   review:
     done: true
     validated: true # npm run validate clean (0 findings on this file); mkdocs build --strict passes

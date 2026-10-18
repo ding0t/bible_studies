@@ -16,7 +16,7 @@ draft: false
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 1:6
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 1:14
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 1:8-10
-- [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 1:8
+- [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 1:8
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 1:9
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:6
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:9

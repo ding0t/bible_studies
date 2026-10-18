@@ -85,6 +85,15 @@ plugins:
   # See docs/content/about/our-taxonomy.md and docs/dev/taxonomy-migration.md.
   - redirects:
       redirect_maps:
+        # The God section became God the Father on 2026-10-18, beside Jesus and The Holy Spirit:
+        # population arithmetic went to Chronology, Dreams and Visions to The Holy Spirit (Joel 2:28),
+        # and the author's dream accounts to the Blog, kept apart from the studies.
+        'god/world-population-declares-gods-creation-and-biblical-truth.md': 'chronology/world-population-declares-gods-creation-and-biblical-truth.md'
+        'god/dreams-and-visions/index.md': 'holy-spirit/dreams-and-visions/index.md'
+        'god/dreams-and-visions/personal-examples/index.md': 'blog/index.md'
+        'god/dreams-and-visions/personal-examples/monster-in-man.md': 'blog/monster-in-man.md'
+        'god/dreams-and-visions/personal-examples/sleep-paralysis.md': 'blog/sleep-paralysis.md'
+        'god/dreams-and-visions/personal-examples/the-deceiver.md': 'blog/the-deceiver.md'
         # How This Site Is Built moved from Resources to About on 2026-10-15: it explains the site, not a study aid.
         'resources/site-architecture.md': 'about/site-architecture.md'
         # Test the Spirits became a study of recognising false teachers and moved beside Hurt by the Church on 2026-10-10.
@@ -456,11 +465,11 @@ plugins:
         'studies/teaching-resources/on-teaching.md': 'sermons/on-teaching.md'
         'studies/teaching-resources/sermon-howto.md': 'sermons/sermon-howto.md'
         'studies/theology/creation-reveals-the-creator.md': 'god/creation-reveals-the-creator.md'
-        'studies/theology/dreams-and-visions/index.md': 'god/dreams-and-visions/index.md'
-        'studies/theology/dreams-and-visions/personal-examples/index.md': 'god/dreams-and-visions/personal-examples/index.md'
-        'studies/theology/dreams-and-visions/personal-examples/monster-in-man.md': 'god/dreams-and-visions/personal-examples/monster-in-man.md'
-        'studies/theology/dreams-and-visions/personal-examples/sleep-paralysis.md': 'god/dreams-and-visions/personal-examples/sleep-paralysis.md'
-        'studies/theology/dreams-and-visions/personal-examples/the-deceiver.md': 'god/dreams-and-visions/personal-examples/the-deceiver.md'
+        'studies/theology/dreams-and-visions/index.md': 'holy-spirit/dreams-and-visions/index.md'
+        'studies/theology/dreams-and-visions/personal-examples/index.md': 'blog/index.md'
+        'studies/theology/dreams-and-visions/personal-examples/monster-in-man.md': 'blog/monster-in-man.md'
+        'studies/theology/dreams-and-visions/personal-examples/sleep-paralysis.md': 'blog/sleep-paralysis.md'
+        'studies/theology/dreams-and-visions/personal-examples/the-deceiver.md': 'blog/the-deceiver.md'
         'studies/theology/hebrew-roots.md': 'israel-and-church/hebrew-roots.md'
         'studies/theology/index.md': 'god/index.md'
         'studies/theology/israel-and-the-church.md': 'israel-and-church/israel-and-the-church.md'

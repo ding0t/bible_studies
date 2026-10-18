@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-17
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -218,7 +218,7 @@ review-bible-study pass should take them up. Still to do: the reference and abou
   - [Bible Prophecy Essentials](../last-things/prophecy-essentials.md): 15 "rather than", 15 ", not"
   - [The Trumpet Call of God](../last-things/trumpet.md): 16 "rather than"
   - [Prophecy Events and Times](../last-things/prophecy-events-times.md): 17 ", not", 70 em-dashes
-  - [Dreams and Visions](../god/dreams-and-visions/index.md): 11 "rather than", 10 ", not"
+  - [Dreams and Visions](../holy-spirit/dreams-and-visions/index.md): 11 "rather than", 10 ", not"
   - [What Creation Declares](../god/creation-reveals-the-creator.md): 10 "rather than",
     11 ", not"
   - [Genealogy and Times](../chronology/genealogy-times.md): 11 "rather than", 7 "exactly"; pair

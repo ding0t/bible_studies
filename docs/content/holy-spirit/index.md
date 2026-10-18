@@ -29,5 +29,15 @@ These studies are filed by their own subject, and each has a part on the Spirit:
   dwelling in the church holds back lawlessness until the church is caught up.
 
 <!-- section-index:auto-start -->
-*No published content in this section yet.*
+<div class="grid cards" markdown>
+
+-   __Dreams and Visions: Godly and Otherwise__
+
+    ---
+
+    How God has spoken through dreams and visions, and how to tell those from the counterfeits.
+
+    [:octicons-arrow-right-24: Browse](dreams-and-visions/)
+
+</div>
 <!-- section-index:auto-end -->

@@ -20,5 +20,5 @@ draft: false
 - [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 5:1-32
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:21-24
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 5:24
-- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 5:32
+- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 5:32
 <!-- commentary-index:auto-end -->

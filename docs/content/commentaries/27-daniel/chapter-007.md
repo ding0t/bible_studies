@@ -12,7 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 7:1
+- [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 7:1
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 7:13-14
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 7:13-14
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 7:14

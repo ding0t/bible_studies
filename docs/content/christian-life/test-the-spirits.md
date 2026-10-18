@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 John 4:1-6; Deuteronomy 13:1-5; Matthew 7:15-23"
 bible_references: ["Deuteronomy 18:20-22", "Jeremiah 23:16-32", "Ezekiel 13:1-23", "Isaiah 8:20", "1 Kings 22:22-23", "Matthew 24:4-5", "Matthew 24:11", "Matthew 24:24-25", "2 Thessalonians 2:9-11", "Acts 17:11", "Acts 20:28-32", "Revelation 2:2", "Revelation 2:20", "1 Thessalonians 5:19-22", "1 Peter 1:7", "1 John 2:18-27", "2 John 1:7-11", "3 John 1:5-8", "1 Corinthians 12:3", "2 Corinthians 11:3-4", "2 Corinthians 11:13-15", "Galatians 1:6-9", "2 Peter 2:1-3", "2 Peter 2:10", "2 Peter 2:14-15", "2 Peter 2:18-19", "Jude 1:3-4", "Jude 1:8", "Jude 1:11-13", "Jude 1:16", "Jude 1:19-25", "1 Timothy 4:1-3", "1 Timothy 6:3-5", "Titus 1:9-11", "Titus 1:16", "Romans 16:17-18", "2 Timothy 3:1-7", "2 Timothy 3:14-17", "2 Timothy 4:3-4", "2 Timothy 2:24-26", "Matthew 7:1", "John 7:24", "John 10:4-5", "John 10:27-29", "Ephesians 4:11-15", "Hebrews 13:7-9", "Galatians 5:22-23"]
 date_created: 2026-10-10
-date_modified: 2026-10-13
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -222,7 +222,7 @@ prophesy in your name, and cast out demons in your name, and do many mighty work
 And then will I declare to them, 'I never knew you'" (Matthew 7:22-23, ESV). At the end of the age
 false christs "perform great signs and wonders, so as to lead astray, if possible, even the elect"
 (Matthew 24:24, ESV). Power is no evidence of truth. The questions about a dream are the same; see
-[A framework for discernment](../god/dreams-and-visions/index.md#a-framework-for-discernment-built-from-the-text).
+[A framework for discernment](../holy-spirit/dreams-and-visions/index.md#a-framework-for-discernment-built-from-the-text).
 
 ### A crowd
 
@@ -485,7 +485,7 @@ closes his letter about wolves with this:
 - [Hurt by the Church](hurt-by-the-church.md) — brothers who fail you, shepherds who harm, wolves who
   prey, and how Scripture answers each.
 - [Know the Truth](know-the-truth.md) — truth, and the father of lies.
-- [Dreams and Visions](../god/dreams-and-visions/index.md) — testing a dream by Deuteronomy 13 and
+- [Dreams and Visions](../holy-spirit/dreams-and-visions/index.md) — testing a dream by Deuteronomy 13 and
   Jeremiah 23.
 - [Sorcery](../sin/sorcery.md) — why an accurate prediction settles nothing.
 - [The Restrainer](../last-things/the-restrainer.md) — what holds back the final deceiver.

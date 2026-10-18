@@ -15,7 +15,7 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 1:20
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:21
 - [Biblical Numerology](../../scripture/numerology.md) — 1:17
-- [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 1:20-21
+- [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 1:20-21
 - [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 1:1-17
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:1
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 1:20-24

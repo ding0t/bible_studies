@@ -15,7 +15,7 @@ draft: false
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 4:1-6 (primary passage)
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 4:4
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 4:1-4
-- [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 4:1
+- [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 4:1
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 4:1-3
 - [Know the Truth](../../christian-life/know-the-truth.md) — 4:6
 - [The Restrainer](../../last-things/the-restrainer.md) — 4:4

@@ -13,7 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 5:9
-- [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 5:19-21
+- [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 5:19-21
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 5:1-11
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 5:9
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 5:16-18

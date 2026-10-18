@@ -12,5 +12,5 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 3:5-15
+- [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 3:5-15
 <!-- commentary-index:auto-end -->

@@ -4,7 +4,7 @@ category: "other"
 description: "Dating biblical history -- what can be fixed to a year, how the numbers in Scripture add up, and the one timeline this site works to."
 draft: false
 date_created: 2026-10-08
-date_modified: 2026-10-08
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -30,7 +30,7 @@ Other studies use these dates for their own subjects:
 - [Firstfruits](../feasts/firstfruits.md) and
   [Three Days and Three Nights](../jesus/three-days-and-three-nights.md) build on the crucifixion
   year settled in Chronology Anchors.
-- [What World Population Declares](../god/world-population-declares-gods-creation-and-biblical-truth.md)
+- [What World Population Declares](world-population-declares-gods-creation-and-biblical-truth.md)
   checks the creation date against the arithmetic of population growth.
 
 <!-- section-index:auto-start -->
@@ -83,6 +83,14 @@ Other studies use these dates for their own subjects:
     Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,466 years at creation and converge on Abraham to the year.
 
     [:octicons-arrow-right-24: Read](combined-timeline.md)
+
+-   __What World Population Declares: Biblical Chronology and the Arithmetic of Growth__
+
+    ---
+
+    God's first command to humanity was to multiply. This study traces that command from Genesis 1:28 through Noah and Israel in Egypt, then runs the Bible's own population figures against exponential growth models — how many people are alive, how many have ever been born, and what 6,000 years of history requires demographically.
+
+    [:octicons-arrow-right-24: Read](world-population-declares-gods-creation-and-biblical-truth.md)
 
 </div>
 <!-- section-index:auto-end -->

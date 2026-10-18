@@ -14,5 +14,5 @@ draft: false
 
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 10:19
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 10:15-19
-- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 10:1-32
+- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 10:1-32
 <!-- commentary-index:auto-end -->

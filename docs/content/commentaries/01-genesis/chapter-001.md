@@ -25,5 +25,5 @@ draft: false
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 1:14-19
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 1:1
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:5
-- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 1:20-21
+- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 1:20-21
 <!-- commentary-index:auto-end -->

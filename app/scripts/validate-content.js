@@ -412,7 +412,7 @@ function validateFile(filePath) {
   //
   // All three are scoped to studies -- frontmatter carries primary_passage, body over 400
   // words -- which excludes the ~390 generated commentary pages, index/tag pages, and the
-  // short narrative pieces under god/dreams-and-visions/. All three are WARNINGS, in the
+  // short narrative pieces under blog/. All three are WARNINGS, in the
   // spirit of Checks 10-13: each has a legitimate exception the regex cannot see.
   const isStudy =
     /^primary_passage:/m.test(frontmatter) &&

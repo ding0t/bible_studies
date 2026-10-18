@@ -16,5 +16,5 @@ draft: false
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 6:1-4
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 6:9
 - [The Restrainer](../../last-things/the-restrainer.md) — 6:3
-- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 6:1
+- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 6:1
 <!-- commentary-index:auto-end -->

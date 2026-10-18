@@ -13,7 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 16:16-18 (primary passage)
-- [Dreams and Visions: Godly and Otherwise](../../god/dreams-and-visions/index.md) — 16:9-10
+- [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 16:9-10
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 16:37
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 16:6-10
 - [Sin and Sorcery](../../sin/sorcery.md) — 16:16-18

@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-10-09
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -226,7 +226,7 @@ six-thousand-year history needs no special pleading, and stops short of calling 
 → [Statement of faith](about/statement-of-faith.md#creation-is-6-days),
 [Genealogy and Times](chronology/genealogy-times.md),
 [The Flood and the King Lists](chronology/flood-and-the-king-lists.md), and
-[What World Population Declares](god/world-population-declares-gods-creation-and-biblical-truth.md)
+[What World Population Declares](chronology/world-population-declares-gods-creation-and-biblical-truth.md)
 
 ### When was Jesus crucified?
 

@@ -18,5 +18,5 @@ draft: false
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 7:1
 - [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 7:11
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 7:6
-- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../god/world-population-declares-gods-creation-and-biblical-truth.md) — 7:11
+- [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 7:11
 <!-- commentary-index:auto-end -->

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Kings 15:25-28"
 bible_references: ["1 Kings 6:1", "1 Kings 14:20-21", "1 Kings 15:1-2", "1 Kings 15:9-10", "1 Kings 15:33", "1 Kings 16:8-10", "1 Kings 16:23", "1 Kings 16:29", "1 Kings 22:41-42", "1 Kings 22:51", "2 Kings 3:1", "2 Kings 1:17", "2 Kings 8:17", "2 Kings 8:25-26", "2 Kings 9:24-27", "2 Kings 15:5", "2 Kings 25:27", "Genesis 15:13-16", "Genesis 46:11", "Exodus 1:7", "Exodus 1:12", "Exodus 6:16-20", "Exodus 7:7", "Exodus 12:40-41", "Numbers 26:59", "Acts 7:6", "Galatians 3:17", "Psalm 119:160", "Galatians 4:4"]
 date_created: 2026-10-08
-date_modified: 2026-10-10
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -299,7 +299,7 @@ Two kinds of evidence pull opposite ways.
   skip generations, as [Four Hundred and Eighty Years](four-hundred-and-eighty-years.md) shows
   Ruth's and Ezra's lists do.
 - **Population favours the long stay.** [What World Population
-  Declares](../god/world-population-declares-gods-creation-and-biblical-truth.md#the-rate-the-census-implies)
+  Declares](world-population-declares-gods-creation-and-biblical-truth.md#the-rate-the-census-implies)
   works out the growth from seventy people to the two million or so implied by the census of
   Numbers 1:46. Over 430 years that takes 2.39% a year, the population doubling every 29 years.
   Over 215 years it takes 4.77% a year, a doubling every 15 years. Read the census as clans or
@@ -398,7 +398,7 @@ own way.
   the Exodus.
 - **Septuagint** (Brenton) and **Samaritan Pentateuch**, Exodus 12:40, checked in `bible-text.db`;
   the *CSB Ancient Faith Study Bible* footnote there records the variant.
-- [What World Population Declares](../god/world-population-declares-gods-creation-and-biblical-truth.md)
+- [What World Population Declares](world-population-declares-gods-creation-and-biblical-truth.md)
   — the growth rates each length of stay requires.
 - **Dunham Bible Museum, "KJV @400"** — the 1701 marginal dates under William Lloyd.
 - ***ESV Study Bible*** (Crossway) and ***NIV Biblical Theology Study Bible*** (Zondervan), notes

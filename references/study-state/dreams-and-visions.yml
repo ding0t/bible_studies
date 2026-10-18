@@ -1,7 +1,7 @@
 slug: "dreams-and-visions"
 title: "Dreams and Visions: Godly and Otherwise"
 status: review
-target_path: "docs/content/god/dreams-and-visions/index.md"
+target_path: "docs/content/holy-spirit/dreams-and-visions/index.md"
 
 primary_passage: "Genesis 37:5-11; Genesis 40-41; Daniel 2; Deuteronomy 13:1-5; Jeremiah 23:25-32"
 supporting_passages:
@@ -120,7 +120,7 @@ stages:
       section per the skill's own "only where it earned one" guidance.
   drafting:
     done: true
-    file: "docs/content/god/dreams-and-visions/index.md"
+    file: "docs/content/holy-spirit/dreams-and-visions/index.md"
   review:
     done: false
     validated: true

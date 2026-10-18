@@ -9,7 +9,7 @@ gregorian_year: -2303
 primary_passage: "Genesis 5:1-32; Genesis 11:10-26"
 bible_references: ["Genesis 5:3-5", "Genesis 5:24-27", "Genesis 7:6", "Genesis 7:11", "Genesis 7:23", "Genesis 11:1-9", "Genesis 11:26", "Genesis 11:32", "Genesis 12:4", "Genesis 17:17", "Genesis 21:5", "Genesis 25:7", "1 Chronicles 1:24", "Isaiah 40:8", "Luke 3:36-38", "Acts 7:4", "Acts 7:14", "Romans 3:2", "Hebrews 11:5", "1 Peter 3:20"]
 date_created: 2026-09-26
-date_modified: 2026-10-10
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -28,7 +28,7 @@ Genesis 5 and 11 best, because the Septuagint and Samaritan numbers carry the ma
 solving problems; and since no defensible reading moves the Flood before Egypt's First Dynasty,
 the conflict with archaeology is real under every text and cannot be solved by changing manuscripts.
 
-This study grew out of [What World Population Declares](../god/world-population-declares-gods-creation-and-biblical-truth.md),
+This study grew out of [What World Population Declares](world-population-declares-gods-creation-and-biblical-truth.md),
 which relies on the same chronology for its growth-rate arithmetic. The manuscript tables behind it
 are in [Genealogy and Times](genealogy-times.md).
 

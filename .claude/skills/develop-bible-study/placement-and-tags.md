@@ -16,9 +16,9 @@ Named from the systematic-theology loci in plain English:
 | Section | Locus | Takes |
 |---|---|---|
 | `scripture/` | Bibliology | Canon, manuscripts, textual criticism, translation, how to read it, biblical archaeology, extra-biblical texts |
-| `god/` | Theology Proper (nav: *God the Father*) | Trinity, the Father, God's names and nature, creation, revelation (incl. dreams and visions) |
+| `god/` | Theology Proper (nav: *God the Father*) | Trinity, the Father, God's names and nature, creation, general revelation |
 | `jesus/` | Christology (nav: *Jesus*) | God the Son: who Christ is and what He did; OT prophecy fulfilled in Him |
-| `holy-spirit/` | Pneumatology (nav: *The Holy Spirit*) | God the Holy Spirit: His person, names and work |
+| `holy-spirit/` | Pneumatology (nav: *The Holy Spirit*) | God the Holy Spirit: His person, names and work, incl. dreams and visions |
 | `sin/` | Hamartiology | The nature of sin and its particular forms |
 | `spiritual-beings/` | Angelology & Demonology | Angels, demons, Satan, Nephilim, deliverance, discernment of spirits |
 | `israel-and-church/` | Ecclesiology + the dispensational distinction | Covenants, Israel/Church, Hebrew roots |
@@ -28,6 +28,7 @@ Named from the systematic-theology loci in plain English:
 | `christian-life/` | Practical theology | Prayer, fasting, the disciplines |
 | `commentaries/<nn>-<book>/` | — | Book studies and chapter notes, filed by book |
 | `sermons/` | Homiletics | Sermon and teaching material |
+| `blog/` | — | The author's personal notes and testimony (dream accounts); not studies |
 | `resources/` | — | Guides to external material |
 
 **Two sections are defined but not created**: `salvation/` (Soteriology — grace, redemption,

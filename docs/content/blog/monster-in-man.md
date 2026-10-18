@@ -4,8 +4,8 @@ category: "dreams"
 description: "A dream about internal struggle and the human condition"
 tags: ["dreams", "human-nature", "struggle", "april-2008"]
 draft: false
-date_created: 2024-10-06
-date_modified: 2026-09-27
+date_created: 2026-10-18
+date_modified: 2026-10-18
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -17,7 +17,7 @@ ai_provider_models:
 !!! note "Personal experience, not Scripture"
     This is the author's own dream account, kept as personal testimony -- not a claim of new
     revelation carrying Scripture's authority. See [Dreams and Visions: Godly and
-    Otherwise](../index.md) for what the Bible itself says about dreams, and for the discernment
+    Otherwise](../holy-spirit/dreams-and-visions/index.md) for what the Bible itself says about dreams, and for the discernment
     framework this account is offered alongside, not above.
 
 03 April 2008

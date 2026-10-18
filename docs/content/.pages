@@ -19,6 +19,8 @@ nav:
   - wisdom
   - commentaries
   - sermons
+  # Personal notes and testimony, kept apart from the studies.
+  - blog
   - hebrew
   - resources
   # A lookup surface rather than a section: short definitions that link out to the page

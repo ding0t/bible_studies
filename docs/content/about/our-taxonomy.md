@@ -61,9 +61,9 @@ the Holy Spirit as peers.
 | Our term | Academic term | Dewey | What belongs here |
 |---|---|---|---|
 | **Scripture** | Bibliology | 220, 229 | The Bible about itself: canon, manuscripts and textual criticism, translation, how to read it, biblical archaeology, extra-biblical and inter-testamental texts, apocrypha and pseudepigrapha |
-| **God the Father** | Theology Proper | 231 | One God in three persons: the Trinity, the Father, God's names, nature and character, creation, and how God reveals Himself — including dreams, visions, and general revelation |
+| **God the Father** | Theology Proper | 231 | One God in three persons: the Trinity, the Father, God's names, nature and character, creation, and how God reveals Himself in creation (general revelation) |
 | **Jesus** | Christology | 232 | God the Son: who Christ is and what He did: incarnation, ministry, passion, resurrection, His offices as prophet, priest and king, and Old Testament prophecy fulfilled in Him |
-| **The Holy Spirit** | Pneumatology | 231 | God the Holy Spirit: His person, His names, and His work in Scripture and in believers |
+| **The Holy Spirit** | Pneumatology | 231 | God the Holy Spirit: His person, His names, and His work in Scripture and in believers, including dreams and visions (Joel 2:28) |
 | **Sin** | Hamartiology | 233, 241.3 | The nature of sin and its particular forms — idolatry, sexual immorality, sorcery — and what Scripture says about temptation and repentance |
 | **Salvation** | Soteriology | 234 | Grace, redemption, justification, assurance of salvation, and what happens at death |
 | **Spiritual beings** | Angelology & Demonology | 235 | Angels, demons, Satan, the Nephilim, deliverance, and discernment of spirits |
@@ -75,6 +75,7 @@ the Holy Spirit as peers.
 | **Feasts** | *Appointed times* | 263 | The biblical feasts and calendars: their Old Testament instruction, their observance, and their fulfilment |
 | **Biblical figures** | *(Biography)* | — | Studies of particular people in Scripture — the twelve disciples, the patriarchs, the prophets, the kings |
 | **Sermons** | Homiletics | 251, 252 | Sermon notes, teaching material, and guidance on preparing to teach |
+| **Blog** | — | — | The author's personal notes and testimony, kept apart from the studies: dream accounts first |
 | **Learn Hebrew** | — | 492.4 | A course in reading the Hebrew Bible, taken in order: the alphabet and vowels, pronunciation, printable writing sheets and word cards |
 | **Resources** | — | — | Guides to external material: source catalogues, study aids, and reference tools |
 
@@ -88,15 +89,16 @@ nested under a `studies/` wrapper. A container holding nearly every page on the 
 nothing, and the extra path segment appears in every URL forever.
 
 ```
-about/              biblical-figures/   christian-life/
-chronology/         commentaries/       feasts/
-god/                holy-spirit/        israel-and-church/
-jesus/              last-things/        resources/
-salvation/          scripture/          sermons/
-sin/                spiritual-beings/   wisdom/
+about/              biblical-figures/   blog/
+christian-life/     chronology/         commentaries/
+feasts/             god/                holy-spirit/
+israel-and-church/  jesus/              last-things/
+resources/          salvation/          scripture/
+sermons/            sin/                spiritual-beings/
+wisdom/
 ```
 
-Eighteen top-level entries sounds like a lot, but `navigation.prune` is enabled in `mkdocs.yml`, so
+Nineteen top-level entries sounds like a lot, but `navigation.prune` is enabled in `mkdocs.yml`, so
 the sidebar only ever renders the branch you are actually in.
 
 ### Navigation order is deliberate
@@ -124,6 +126,7 @@ nav:
   - biblical-figures
   - commentaries
   - sermons
+  - blog
   - resources
   - about
 ```
@@ -156,7 +159,7 @@ references. One file, filed under its subject. The bulk of the site.
 
 A subject small enough to be one topic and large enough to need several pages: a **directory
 containing an `index.md`**, with the parts as sibling pages. The index carries the introduction and
-links the parts in reading order. `god/dreams-and-visions/` is the working example.
+links the parts in reading order. `holy-spirit/dreams-and-visions/` is the working example.
 
 This needs no special handling — `references/build/section_index.py` generates a card grid for any
 directory that lacks an index page, and the navigation builds itself from the directory tree.

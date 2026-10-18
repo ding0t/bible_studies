@@ -26,14 +26,6 @@ sets out what this site believes about the Trinity.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
--   __Dreams and Visions: Godly and Otherwise__
-
-    ---
-
-    How God has spoken through dreams and visions, and how to tell those from the counterfeits.
-
-    [:octicons-arrow-right-24: Browse](dreams-and-visions/)
-
 -   __Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41__
 
     ---
@@ -57,14 +49,6 @@ sets out what this site believes about the Trinity.
     A study of the names God gave Himself in the Old Testament, from "I AM WHO I AM" at the burning bush to the LORD our righteousness: where each was spoken, to whom, what it promised, and how all of them meet in the name of Jesus.
 
     [:octicons-arrow-right-24: Read](names-of-god.md)
-
--   __What World Population Declares: Biblical Chronology and the Arithmetic of Growth__
-
-    ---
-
-    God's first command to humanity was to multiply. This study traces that command from Genesis 1:28 through Noah and Israel in Egypt, then runs the Bible's own population figures against exponential growth models — how many people are alive, how many have ever been born, and what 6,000 years of history requires demographically.
-
-    [:octicons-arrow-right-24: Read](world-population-declares-gods-creation-and-biblical-truth.md)
 
 </div>
 <!-- section-index:auto-end -->
