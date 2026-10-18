@@ -737,6 +737,683 @@
      "letters_known": 22
     }
    ]
+  },
+  "names-of-jesus": {
+   "title": "The Names of Jesus",
+   "cards": [
+    {
+     "hebrew": "יֵשׁוּעַ",
+     "ref": "Nehemiah 8:17",
+     "name": "Yeshua",
+     "popular": "",
+     "meaning": "the LORD saves: Jesus",
+     "quote": "you shall call his name Jesus, for he will save his people from their sins.",
+     "quote_ref": "Matthew 1:21",
+     "modern": "Hebrew-speaking believers say Yeshua; Israeli Hebrew more often says Yeshu (יֵשׁוּ).",
+     "divine": false,
+     "words": [
+      {
+       "w": "יֵשׁוּעַ",
+       "t": [
+        "ye",
+        "shu",
+        "a'"
+       ],
+       "s": 1,
+       "strongs": "H3442",
+       "paleo": "𐤉𐤔𐤅𐤏"
+      }
+     ],
+     "new_letters": [
+      "י",
+      "ש",
+      "ו",
+      "ע"
+     ],
+     "new_finals": [],
+     "letters_known": 4
+    },
+    {
+     "hebrew": "מָשִׁיחַ",
+     "ref": "Daniel 9:25",
+     "name": "Mashiach",
+     "popular": "",
+     "meaning": "Anointed, Messiah: in Greek, Christ",
+     "quote": "We have found the Messiah",
+     "quote_ref": "John 1:41",
+     "modern": "Still the word for Messiah; Christians are notsrim (נוֹצְרִים), \"Nazarenes\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "מָשִׁיחַ",
+       "t": [
+        "ma",
+        "shi",
+        "ach"
+       ],
+       "s": 1,
+       "strongs": "H4899",
+       "paleo": "𐤌𐤔𐤉𐤇"
+      }
+     ],
+     "new_letters": [
+      "מ",
+      "ח"
+     ],
+     "new_finals": [],
+     "letters_known": 6
+    },
+    {
+     "hebrew": "צֶמַח",
+     "ref": "Zechariah 6:12",
+     "name": "Tsemach",
+     "popular": "",
+     "meaning": "the Branch",
+     "quote": "Behold, the man whose name is the Branch",
+     "quote_ref": "Zechariah 6:12",
+     "modern": "Tsemach is today's word for a plant.",
+     "divine": false,
+     "words": [
+      {
+       "w": "צֶמַח",
+       "t": [
+        "tze",
+        "mach"
+       ],
+       "s": 0,
+       "strongs": "H6780",
+       "paleo": "𐤑𐤌𐤇"
+      }
+     ],
+     "new_letters": [
+      "צ"
+     ],
+     "new_finals": [],
+     "letters_known": 7
+    },
+    {
+     "hebrew": "שַׂר שָׁלוֹם",
+     "ref": "Isaiah 9:6",
+     "name": "Sar Shalom",
+     "popular": "",
+     "meaning": "Prince of Peace",
+     "quote": "For he himself is our peace",
+     "quote_ref": "Ephesians 2:14",
+     "modern": "A sar is a government minister today: sar ha-chutz is the foreign minister.",
+     "divine": false,
+     "words": [
+      {
+       "w": "שַׂר",
+       "t": [
+        "sar"
+       ],
+       "s": null,
+       "strongs": "H8269",
+       "paleo": "𐤔𐤓"
+      },
+      {
+       "w": "שָׁלוֹם",
+       "t": [
+        "sha",
+        "lom"
+       ],
+       "s": 1,
+       "strongs": "H7965",
+       "paleo": "𐤔𐤋𐤅𐤌"
+      }
+     ],
+     "new_letters": [
+      "ר",
+      "ל"
+     ],
+     "new_finals": [
+      "ם"
+     ],
+     "letters_known": 9
+    },
+    {
+     "hebrew": "פֶּלֶא יוֹעֵץ",
+     "ref": "Isaiah 9:6",
+     "name": "Pele Yoʿets",
+     "popular": "",
+     "meaning": "Wonderful Counselor",
+     "quote": "his name shall be called Wonderful Counselor",
+     "quote_ref": "Isaiah 9:6",
+     "modern": "A yoʿets (יוֹעֵץ) is an adviser or consultant.",
+     "divine": false,
+     "words": [
+      {
+       "w": "פֶּלֶא",
+       "t": [
+        "pe",
+        "le'"
+       ],
+       "s": 0,
+       "strongs": "H6382",
+       "paleo": "𐤐𐤋𐤀"
+      },
+      {
+       "w": "יוֹעֵץ",
+       "t": [
+        "yo",
+        "'etz"
+       ],
+       "s": 1,
+       "strongs": "H3289",
+       "paleo": "𐤉𐤅𐤏𐤑"
+      }
+     ],
+     "new_letters": [
+      "פ",
+      "א"
+     ],
+     "new_finals": [
+      "ץ"
+     ],
+     "letters_known": 11
+    },
+    {
+     "hebrew": "נָבִיא",
+     "ref": "Deuteronomy 18:15",
+     "name": "Navi",
+     "popular": "",
+     "meaning": "a prophet, like Moses",
+     "quote": "The Lord God will raise up for you a prophet like me from your brothers.",
+     "quote_ref": "Acts 3:22",
+     "modern": "The Prophets in the Hebrew Bible are the Neviʾim (נְבִיאִים).",
+     "divine": false,
+     "words": [
+      {
+       "w": "נָבִיא",
+       "t": [
+        "na",
+        "vi'"
+       ],
+       "s": 1,
+       "strongs": "H5030",
+       "paleo": "𐤍𐤁𐤉𐤀"
+      }
+     ],
+     "new_letters": [
+      "נ",
+      "ב"
+     ],
+     "new_finals": [],
+     "letters_known": 13
+    },
+    {
+     "hebrew": "כְּבַר אֱנָשׁ",
+     "ref": "Daniel 7:13",
+     "name": "Kevar Enash",
+     "popular": "",
+     "meaning": "like a son of man (Aramaic)",
+     "quote": "you will see the Son of Man seated at the right hand of Power",
+     "quote_ref": "Mark 14:62",
+     "modern": "Hebrew says ben adam (בֶּן אָדָם), today's word for \"a person\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "כְּבַר",
+       "t": [
+        "ke",
+        "var"
+       ],
+       "s": 1,
+       "strongs": "H1247",
+       "paleo": "𐤊𐤁𐤓"
+      },
+      {
+       "w": "אֱנָשׁ",
+       "t": [
+        "'e",
+        "nash"
+       ],
+       "s": 1,
+       "strongs": "H606",
+       "paleo": "𐤀𐤍𐤔"
+      }
+     ],
+     "new_letters": [
+      "כ"
+     ],
+     "new_finals": [],
+     "letters_known": 14
+    },
+    {
+     "hebrew": "כֹהֵן לְעוֹלָם",
+     "ref": "Psalm 110:4",
+     "name": "Kohen leʿolam",
+     "popular": "",
+     "meaning": "a priest forever",
+     "quote": "You are a priest forever, after the order of Melchizedek.",
+     "quote_ref": "Hebrews 5:6",
+     "modern": "Cohen, Kahn and Katz are family names of those who trace descent from Aaron.",
+     "divine": false,
+     "words": [
+      {
+       "w": "כֹהֵן",
+       "t": [
+        "kho",
+        "hen"
+       ],
+       "s": 1,
+       "strongs": "H3548",
+       "paleo": "𐤊𐤄𐤍"
+      },
+      {
+       "w": "לְעוֹלָם",
+       "t": [
+        "le",
+        "'o",
+        "lam"
+       ],
+       "s": 2,
+       "strongs": "H5769",
+       "paleo": "𐤋𐤏𐤅𐤋𐤌"
+      }
+     ],
+     "new_letters": [
+      "ה"
+     ],
+     "new_finals": [
+      "ן"
+     ],
+     "letters_known": 15
+    },
+    {
+     "hebrew": "כּוֹכָב מִיַּעֲקֹב",
+     "ref": "Numbers 24:17",
+     "name": "Kokhav miYaʿakov",
+     "popular": "",
+     "meaning": "a star out of Jacob",
+     "quote": "I am the root and the descendant of David, the bright morning star.",
+     "quote_ref": "Revelation 22:16",
+     "modern": "Kokhav is still a star, in the sky or on the screen.",
+     "divine": false,
+     "words": [
+      {
+       "w": "כּוֹכָב",
+       "t": [
+        "ko",
+        "khav"
+       ],
+       "s": 1,
+       "strongs": "H3556",
+       "paleo": "𐤊𐤅𐤊𐤁"
+      },
+      {
+       "w": "מִיַּעֲקֹב",
+       "t": [
+        "mi",
+        "ya",
+        "'a",
+        "ko"
+       ],
+       "s": 3,
+       "strongs": "H3290",
+       "paleo": "𐤌𐤉𐤏𐤒𐤁"
+      }
+     ],
+     "new_letters": [
+      "ק"
+     ],
+     "new_finals": [],
+     "letters_known": 16
+    },
+    {
+     "hebrew": "רֹעֶה אֶחָד",
+     "ref": "Ezekiel 34:23",
+     "name": "Roʿeh Echad",
+     "popular": "",
+     "meaning": "one shepherd",
+     "quote": "I am the good shepherd.",
+     "quote_ref": "John 10:11",
+     "modern": "Psalm 23 opens with the same word: Adonai roʿi (יְהוָה רֹעִי), \"the LORD is my shepherd\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "רֹעֶה",
+       "t": [
+        "ro",
+        "'eh"
+       ],
+       "s": 1,
+       "strongs": "H7462",
+       "paleo": "𐤓𐤏𐤄"
+      },
+      {
+       "w": "אֶחָד",
+       "t": [
+        "'e",
+        "chad"
+       ],
+       "s": 1,
+       "strongs": "H259",
+       "paleo": "𐤀𐤇𐤃"
+      }
+     ],
+     "new_letters": [
+      "ד"
+     ],
+     "new_finals": [],
+     "letters_known": 17
+    },
+    {
+     "hebrew": "אֲבִי עַד",
+     "ref": "Isaiah 9:6",
+     "name": "Avi ʿAd",
+     "popular": "",
+     "meaning": "Everlasting Father",
+     "quote": "Everlasting Father",
+     "quote_ref": "Isaiah 9:6",
+     "modern": "ʿAd (עַד) is everyday \"until\"; laʿad (לָעַד) is \"forever\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֲבִי",
+       "t": [
+        "'a",
+        "vi"
+       ],
+       "s": null,
+       "strongs": "H1",
+       "paleo": "𐤀𐤁𐤉"
+      },
+      {
+       "w": "עַד",
+       "t": [
+        "'ad"
+       ],
+       "s": 0,
+       "strongs": "H5703",
+       "paleo": "𐤏𐤃"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 17
+    },
+    {
+     "hebrew": "בֵּן נִתַּן לָנוּ",
+     "ref": "Isaiah 9:6",
+     "name": "Ben Nittan Lanu",
+     "popular": "",
+     "meaning": "a son is given to us",
+     "quote": "For God so loved the world, that he gave his only Son",
+     "quote_ref": "John 3:16",
+     "modern": "Natan, \"he gave\", is also a name: Nathan the prophet.",
+     "divine": false,
+     "words": [
+      {
+       "w": "בֵּן",
+       "t": [
+        "ben"
+       ],
+       "s": null,
+       "strongs": "H1121",
+       "paleo": "𐤁𐤍"
+      },
+      {
+       "w": "נִתַּן",
+       "t": [
+        "ni",
+        "tan"
+       ],
+       "s": null,
+       "strongs": "H5414",
+       "paleo": "𐤍𐤕𐤍"
+      },
+      {
+       "w": "לָנוּ",
+       "t": [
+        "la",
+        "nu"
+       ],
+       "s": 0,
+       "strongs": "H9005",
+       "paleo": "𐤋𐤍𐤅"
+      }
+     ],
+     "new_letters": [
+      "ת"
+     ],
+     "new_finals": [],
+     "letters_known": 18
+    },
+    {
+     "hebrew": "עַבְדִּי",
+     "ref": "Isaiah 52:13",
+     "name": "ʿAvdi",
+     "popular": "",
+     "meaning": "my servant",
+     "quote": "Behold, my servant whom I have chosen",
+     "quote_ref": "Matthew 12:18",
+     "modern": "ʿAvodah (עֲבוֹדָה), from the same root, is everyday \"work\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "עַבְדִּי",
+       "t": [
+        "'av",
+        "di"
+       ],
+       "s": 1,
+       "strongs": "H5650",
+       "paleo": "𐤏𐤁𐤃𐤉"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 18
+    },
+    {
+     "hebrew": "כַּשֶּׂה לַטֶּבַח",
+     "ref": "Isaiah 53:7",
+     "name": "Kaseh Lattevach",
+     "popular": "",
+     "meaning": "like a lamb to the slaughter",
+     "quote": "Behold, the Lamb of God, who takes away the sin of the world!",
+     "quote_ref": "John 1:29",
+     "modern": "A seh is a lamb or kid; everyday Hebrew says keves (כֶּבֶשׂ) for a lamb.",
+     "divine": false,
+     "words": [
+      {
+       "w": "כַּשֶּׂה",
+       "t": [
+        "ka",
+        "seh"
+       ],
+       "s": 1,
+       "strongs": "H7716",
+       "paleo": "𐤊𐤔𐤄"
+      },
+      {
+       "w": "לַטֶּבַח",
+       "t": [
+        "la",
+        "te",
+        "vach"
+       ],
+       "s": 1,
+       "strongs": "H2874",
+       "paleo": "𐤋𐤈𐤁𐤇"
+      }
+     ],
+     "new_letters": [
+      "ט"
+     ],
+     "new_finals": [],
+     "letters_known": 19
+    },
+    {
+     "hebrew": "אֶבֶן מָאֲסוּ הַבּוֹנִים",
+     "ref": "Psalm 118:22",
+     "name": "Even Maʾasu HaBonim",
+     "popular": "",
+     "meaning": "the stone the builders rejected",
+     "quote": "This Jesus is the stone that was rejected by you, the builders",
+     "quote_ref": "Acts 4:11",
+     "modern": "Rosh Pina, \"cornerstone\", from the same verse, is a town in Galilee.",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֶבֶן",
+       "t": [
+        "'e",
+        "ven"
+       ],
+       "s": 0,
+       "strongs": "H68",
+       "paleo": "𐤀𐤁𐤍"
+      },
+      {
+       "w": "מָאֲסוּ",
+       "t": [
+        "ma",
+        "'a",
+        "su"
+       ],
+       "s": 2,
+       "strongs": "H3988",
+       "paleo": "𐤌𐤀𐤎𐤅"
+      },
+      {
+       "w": "הַבּוֹנִים",
+       "t": [
+        "ha",
+        "bo",
+        "nim"
+       ],
+       "s": 2,
+       "strongs": "H1129",
+       "paleo": "𐤄𐤁𐤅𐤍𐤉𐤌"
+      }
+     ],
+     "new_letters": [
+      "ס"
+     ],
+     "new_finals": [],
+     "letters_known": 20
+    },
+    {
+     "hebrew": "בְזַרְעֲךָ",
+     "ref": "Genesis 22:18",
+     "name": "Vezarʿakha",
+     "popular": "",
+     "meaning": "in your offspring",
+     "quote": "“And to your offspring,” who is Christ.",
+     "quote_ref": "Galatians 3:16",
+     "modern": "Zeraʿ (זֶרַע) is still seed, for a garden or a family line.",
+     "divine": false,
+     "words": [
+      {
+       "w": "בְזַרְעֲךָ",
+       "t": [
+        "ve",
+        "zar",
+        "'a",
+        "kha"
+       ],
+       "s": 3,
+       "strongs": "H2233",
+       "paleo": "𐤁𐤆𐤓𐤏𐤊"
+      }
+     ],
+     "new_letters": [
+      "ז"
+     ],
+     "new_finals": [
+      "ך"
+     ],
+     "letters_known": 21
+    },
+    {
+     "hebrew": "גּוֹאֵל",
+     "ref": "Isaiah 59:20",
+     "name": "Goʾel",
+     "popular": "",
+     "meaning": "Redeemer",
+     "quote": "The Deliverer will come from Zion",
+     "quote_ref": "Romans 11:26",
+     "modern": "Geʾulah (גְּאֻלָּה), \"redemption\", is the name of a Jerusalem neighbourhood.",
+     "divine": false,
+     "words": [
+      {
+       "w": "גּוֹאֵל",
+       "t": [
+        "go",
+        "'el"
+       ],
+       "s": 1,
+       "strongs": "H1350",
+       "paleo": "𐤂𐤅𐤀𐤋"
+      }
+     ],
+     "new_letters": [
+      "ג"
+     ],
+     "new_finals": [],
+     "letters_known": 22
+    },
+    {
+     "hebrew": "אֲנִי רִאשׁוֹן וַאֲנִי אַחֲרוֹן",
+     "ref": "Isaiah 44:6",
+     "name": "Ani Rishon vaʾAni Acharon",
+     "popular": "",
+     "meaning": "I am the first and I am the last",
+     "quote": "Fear not, I am the first and the last",
+     "quote_ref": "Revelation 1:17",
+     "modern": "Sunday is yom rishon, \"the first day\".",
+     "divine": false,
+     "words": [
+      {
+       "w": "אֲנִי",
+       "t": [
+        "'a",
+        "ni"
+       ],
+       "s": 1,
+       "strongs": "H589",
+       "paleo": "𐤀𐤍𐤉"
+      },
+      {
+       "w": "רִאשׁוֹן",
+       "t": [
+        "ri",
+        "shon"
+       ],
+       "s": 1,
+       "strongs": "H7223",
+       "paleo": "𐤓𐤀𐤔𐤅𐤍"
+      },
+      {
+       "w": "וַאֲנִי",
+       "t": [
+        "va",
+        "'a",
+        "ni"
+       ],
+       "s": 2,
+       "strongs": "H589",
+       "paleo": "𐤅𐤀𐤍𐤉"
+      },
+      {
+       "w": "אַחֲרוֹן",
+       "t": [
+        "'a",
+        "cha",
+        "ron"
+       ],
+       "s": 2,
+       "strongs": "H314",
+       "paleo": "𐤀𐤇𐤓𐤅𐤍"
+      }
+     ],
+     "new_letters": [],
+     "new_finals": [],
+     "letters_known": 22
+    }
+   ]
   }
  }
 }

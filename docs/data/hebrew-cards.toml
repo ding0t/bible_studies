@@ -202,3 +202,170 @@ meaning = "the LORD saves: the name of Jesus"
 quote = "you shall call his name Jesus, for he will save his people from their sins."
 quote_ref = "Matthew 1:21"
 modern = "Yeshuah (יְשׁוּעָה) is \"salvation\"."
+
+# The Names of Jesus: the Hebrew of the Old Testament names, each card quoting the New Testament verse
+# that gives the name to Jesus (quote_ref) where there is one. The study is
+# docs/content/jesus/names-of-jesus.md. The last three letters (ת, ז, ג) arrive on cards for names
+# the study does not treat -- a son given, the offspring, the Redeemer -- so the deck reaches all 22.
+
+[deck.names-of-jesus]
+title = "The Names of Jesus"
+
+[[deck.names-of-jesus.card]]
+hebrew = "יֵשׁוּעַ"
+ref = "Nehemiah 8:17"
+name = "Yeshua"
+meaning = "the LORD saves: Jesus"
+quote = "you shall call his name Jesus, for he will save his people from their sins."
+quote_ref = "Matthew 1:21"
+modern = "Hebrew-speaking believers say Yeshua; Israeli Hebrew more often says Yeshu (יֵשׁוּ)."
+
+[[deck.names-of-jesus.card]]
+hebrew = "מָשִׁיחַ"
+ref = "Daniel 9:25"
+name = "Mashiach"
+meaning = "Anointed, Messiah: in Greek, Christ"
+quote = "We have found the Messiah"
+quote_ref = "John 1:41"
+modern = "Still the word for Messiah; Christians are notsrim (נוֹצְרִים), \"Nazarenes\"."
+
+[[deck.names-of-jesus.card]]
+hebrew = "צֶמַח"
+ref = "Zechariah 6:12"
+name = "Tsemach"
+meaning = "the Branch"
+quote = "Behold, the man whose name is the Branch"
+modern = "Tsemach is today's word for a plant."
+
+[[deck.names-of-jesus.card]]
+hebrew = "שַׂר שָׁלוֹם"
+ref = "Isaiah 9:6"
+name = "Sar Shalom"
+meaning = "Prince of Peace"
+quote = "For he himself is our peace"
+quote_ref = "Ephesians 2:14"
+modern = "A sar is a government minister today: sar ha-chutz is the foreign minister."
+
+[[deck.names-of-jesus.card]]
+hebrew = "פֶּלֶא יוֹעֵץ"
+ref = "Isaiah 9:6"
+name = "Pele Yoʿets"
+meaning = "Wonderful Counselor"
+quote = "his name shall be called Wonderful Counselor"
+modern = "A yoʿets (יוֹעֵץ) is an adviser or consultant."
+
+[[deck.names-of-jesus.card]]
+hebrew = "נָבִיא"
+ref = "Deuteronomy 18:15"
+name = "Navi"
+meaning = "a prophet, like Moses"
+quote = "The Lord God will raise up for you a prophet like me from your brothers."
+quote_ref = "Acts 3:22"
+modern = "The Prophets in the Hebrew Bible are the Neviʾim (נְבִיאִים)."
+
+[[deck.names-of-jesus.card]]
+hebrew = "כְּבַר אֱנָשׁ"
+ref = "Daniel 7:13"
+name = "Kevar Enash"
+meaning = "like a son of man (Aramaic)"
+quote = "you will see the Son of Man seated at the right hand of Power"
+quote_ref = "Mark 14:62"
+modern = "Hebrew says ben adam (בֶּן אָדָם), today's word for \"a person\"."
+
+[[deck.names-of-jesus.card]]
+hebrew = "כֹהֵן לְעוֹלָם"
+ref = "Psalm 110:4"
+name = "Kohen leʿolam"
+meaning = "a priest forever"
+quote = "You are a priest forever, after the order of Melchizedek."
+quote_ref = "Hebrews 5:6"
+modern = "Cohen, Kahn and Katz are family names of those who trace descent from Aaron."
+
+[[deck.names-of-jesus.card]]
+hebrew = "כּוֹכָב מִיַּעֲקֹב"
+ref = "Numbers 24:17"
+name = "Kokhav miYaʿakov"
+meaning = "a star out of Jacob"
+quote = "I am the root and the descendant of David, the bright morning star."
+quote_ref = "Revelation 22:16"
+modern = "Kokhav is still a star, in the sky or on the screen."
+
+[[deck.names-of-jesus.card]]
+hebrew = "רֹעֶה אֶחָד"
+ref = "Ezekiel 34:23"
+name = "Roʿeh Echad"
+meaning = "one shepherd"
+quote = "I am the good shepherd."
+quote_ref = "John 10:11"
+modern = "Psalm 23 opens with the same word: Adonai roʿi (יְהוָה רֹעִי), \"the LORD is my shepherd\"."
+
+[[deck.names-of-jesus.card]]
+hebrew = "אֲבִי עַד"
+ref = "Isaiah 9:6"
+name = "Avi ʿAd"
+meaning = "Everlasting Father"
+quote = "Everlasting Father"
+modern = "ʿAd (עַד) is everyday \"until\"; laʿad (לָעַד) is \"forever\"."
+
+[[deck.names-of-jesus.card]]
+hebrew = "בֵּן נִתַּן לָנוּ"
+ref = "Isaiah 9:6"
+name = "Ben Nittan Lanu"
+meaning = "a son is given to us"
+quote = "For God so loved the world, that he gave his only Son"
+quote_ref = "John 3:16"
+modern = "Natan, \"he gave\", is also a name: Nathan the prophet."
+
+[[deck.names-of-jesus.card]]
+hebrew = "עַבְדִּי"
+ref = "Isaiah 52:13"
+name = "ʿAvdi"
+meaning = "my servant"
+quote = "Behold, my servant whom I have chosen"
+quote_ref = "Matthew 12:18"
+modern = "ʿAvodah (עֲבוֹדָה), from the same root, is everyday \"work\"."
+
+[[deck.names-of-jesus.card]]
+hebrew = "כַּשֶּׂה לַטֶּבַח"
+ref = "Isaiah 53:7"
+name = "Kaseh Lattevach"
+meaning = "like a lamb to the slaughter"
+quote = "Behold, the Lamb of God, who takes away the sin of the world!"
+quote_ref = "John 1:29"
+modern = "A seh is a lamb or kid; everyday Hebrew says keves (כֶּבֶשׂ) for a lamb."
+
+[[deck.names-of-jesus.card]]
+hebrew = "אֶבֶן מָאֲסוּ הַבּוֹנִים"
+ref = "Psalm 118:22"
+name = "Even Maʾasu HaBonim"
+meaning = "the stone the builders rejected"
+quote = "This Jesus is the stone that was rejected by you, the builders"
+quote_ref = "Acts 4:11"
+modern = "Rosh Pina, \"cornerstone\", from the same verse, is a town in Galilee."
+
+[[deck.names-of-jesus.card]]
+hebrew = "בְזַרְעֲךָ"
+ref = "Genesis 22:18"
+name = "Vezarʿakha"
+meaning = "in your offspring"
+quote = "\"And to your offspring,\" who is Christ."
+quote_ref = "Galatians 3:16"
+modern = "Zeraʿ (זֶרַע) is still seed, for a garden or a family line."
+
+[[deck.names-of-jesus.card]]
+hebrew = "גּוֹאֵל"
+ref = "Isaiah 59:20"
+name = "Goʾel"
+meaning = "Redeemer"
+quote = "The Deliverer will come from Zion"
+quote_ref = "Romans 11:26"
+modern = "Geʾulah (גְּאֻלָּה), \"redemption\", is the name of a Jerusalem neighbourhood."
+
+[[deck.names-of-jesus.card]]
+hebrew = "אֲנִי רִאשׁוֹן וַאֲנִי אַחֲרוֹן"
+ref = "Isaiah 44:6"
+name = "Ani Rishon vaʾAni Acharon"
+meaning = "I am the first and I am the last"
+quote = "Fear not, I am the first and the last"
+quote_ref = "Revelation 1:17"
+modern = "Sunday is yom rishon, \"the first day\"."

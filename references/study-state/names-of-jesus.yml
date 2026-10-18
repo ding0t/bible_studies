@@ -119,7 +119,10 @@ back_links_on_publish:
   - {file: god/names-of-god.md, where: "intro line and 'The name above every name' / On this site", say: "The Names of Jesus: the second half"}
   - {file: jesus/index.md, where: "section listing (section_index.py regenerates the card)", say: ""}
   - {file: biblical-figures/peter.md, where: "What Scripture records (Matthew 16:16)", say: "the names Peter's confession opened"}
-  - {file: hebrew/names-of-god-cards.md, where: "Sources / where next", say: "optional"}
+  - {file: hebrew/names-of-jesus-cards.md, where: "frontmatter", say: "flip draft: false in the same commit as the study (it links the study)"}
+  - {file: hebrew/names-of-god-cards.md, where: "intro, after the Yeshua sentence", say: "the companion deck, which begins at Yeshua"}
+  - {file: hebrew/index.md, where: "step list after the Names of God cards", say: "The Names of Jesus: Word Cards"}
+  - {file: hebrew/.pages, where: "nav, after names-of-god-cards.md", say: ""}
 enrichment_offers:
   - "names-of-god.md: Isaiah 52:13's rum + nasa pair (shared with Isaiah 6:1; 33:10; 57:15) would strengthen its 'names the prophets gave the coming King' section."
   - "passover.md: amnos occurs four times in the NT (John 1:29, 36; Acts 8:32; 1 Peter 1:19) and is the LXX word of Isaiah 53:7; Revelation uses arnion (28 of 29 of Jesus)."

@@ -26,6 +26,8 @@ gives Him He will wear when He returns to reign, so you may call on Him by name,
 
 This study is the second half of [The Names of God](../god/names-of-god.md), which follows the
 names God gave Himself in the Old Testament and ends where this one begins, at the name of Jesus.
+The [Names of Jesus word cards](../hebrew/names-of-jesus-cards.md) teach the Old Testament names
+in Hebrew, one letter at a time, each beside the verse that gives the name to Jesus.
 
 ## Key Takeaways
 
@@ -509,6 +511,8 @@ the Lord will be saved" (Romans 10:13, ESV). Call on Him by name.
 ### On this site
 
 - [The Names of God](../god/names-of-god.md): the names God gave Himself, and how they meet in Jesus.
+- [The Names of Jesus word cards](../hebrew/names-of-jesus-cards.md): the Old Testament names in
+  Hebrew.
 - [The Names of God word cards](../hebrew/names-of-god-cards.md): the same names in Hebrew.
 - [Simon Peter](../biblical-figures/peter.md): the man who answered at Caesarea Philippi.
 - [Jesus, Priest in the Order of Melchizedek](melchizedek-priesthood.md): Psalm 110 and Hebrews.
