@@ -8,7 +8,8 @@ primary_passage: "Matthew 1:21"
 bible_references: ["Nehemiah 8:17", "Matthew 1:21", "Daniel 9:25", "John 1:41", "Zechariah 6:12", "Isaiah 9:6", "Ephesians 2:14", "Deuteronomy 18:15", "Acts 3:22", "Daniel 7:13", "Mark 14:62", "Psalm 110:4", "Hebrews 5:6", "Numbers 24:17", "Revelation 22:16", "Ezekiel 34:23", "John 10:11", "John 3:16", "Isaiah 52:13", "Matthew 12:18", "Isaiah 53:7", "John 1:29", "Psalm 118:22", "Acts 4:11", "Genesis 22:18", "Galatians 3:16", "Isaiah 59:20", "Romans 11:26", "Isaiah 44:6", "Revelation 1:17"]
 date_created: 2026-10-18
 date_modified: 2026-10-18
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Names of Jesus: word cards
