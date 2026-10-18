@@ -31,18 +31,20 @@ _DRAFT = re.compile(r"^draft:\s*true\s*$", re.MULTILINE)
 _GENERATED = ("commentary-index:auto-start", "section-index:auto-start")
 _DESCRIPTION = re.compile(r'^description:\s*"?(.*?)"?\s*$', re.MULTILINE)
 
-# Clockwise from twelve o'clock, roughly in the order the story of Scripture meets them: God and
-# the beings He made, the fall, the people and nation He worked through, the feasts that pictured
-# His Son, the Son, what He won, the life that follows, and the end. about/, resources/, sermons/
-# and commentaries/ are left off: they are a kind of page, not a subject.
+# Clockwise from twelve o'clock. The three persons of the Godhead come first and side by side, so
+# no wedge labelled "God" stands apart from the Son and the Spirit. Then roughly the order the story
+# of Scripture meets the rest: the beings God made, the fall, the people and nation He worked
+# through, the feasts that pictured His Son, what the Son won, the life that follows, and the end.
+# about/, resources/, sermons/ and commentaries/ are left off: they are a kind of page, not a subject.
 _SECTIONS = (
-    ("god", ("God",)),
+    ("god", ("God the", "Father")),
+    ("jesus", ("Jesus",)),
+    ("holy-spirit", ("Holy", "Spirit")),
     ("spiritual-beings", ("Spiritual", "beings")),
     ("sin", ("Sin",)),
     ("biblical-figures", ("Biblical", "figures")),
     ("israel-and-church", ("Israel &", "the Church")),
     ("feasts", ("Feasts",)),
-    ("jesus", ("Jesus",)),
     ("salvation", ("Salvation",)),
     ("christian-life", ("Christian", "life")),
     ("wisdom", ("Wisdom",)),

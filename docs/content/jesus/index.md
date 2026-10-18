@@ -1,7 +1,7 @@
 ---
 title: "Jesus"
 category: "other"
-description: "Who Christ is and what he did, including Old Testament prophecy fulfilled in him."
+description: "God the Son: who Jesus is and what He did, including Old Testament prophecy fulfilled in Him."
 draft: false
 date_created: 2026-08-07
 date_modified: 2026-10-18
@@ -12,7 +12,11 @@ ai_provider_models:
 
 # Jesus
 
-Who Christ is and what he did, including Old Testament prophecy fulfilled in him.
+Jesus Christ is God the Son, the second person of the Trinity, fully God and fully man. "In the
+beginning was the Word, and the Word was with God, and the Word was God", and "the Word became flesh
+and dwelt among us" (John 1:1, 14, ESV). This section studies who He is and what He did, and where the
+Old Testament promised Him. It sits between [God the Father](../god/index.md) and
+[The Holy Spirit](../holy-spirit/index.md), because the three persons are one God.
 
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>

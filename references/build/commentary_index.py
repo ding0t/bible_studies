@@ -33,6 +33,7 @@ SUBJECT_DIRS = [
     "scripture",
     "god",
     "jesus",
+    "holy-spirit",
     "sin",
     "salvation",
     "spiritual-beings",

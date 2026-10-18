@@ -16,8 +16,9 @@ Named from the systematic-theology loci in plain English:
 | Section | Locus | Takes |
 |---|---|---|
 | `scripture/` | Bibliology | Canon, manuscripts, textual criticism, translation, how to read it, biblical archaeology, extra-biblical texts |
-| `god/` | Theology Proper | God's nature, Trinity, Holy Spirit, creation, revelation (incl. dreams and visions) |
-| `jesus/` | Christology | Who Christ is and what he did; OT prophecy fulfilled in him |
+| `god/` | Theology Proper (nav: *God the Father*) | Trinity, the Father, God's names and nature, creation, revelation (incl. dreams and visions) |
+| `jesus/` | Christology (nav: *Jesus*) | God the Son: who Christ is and what He did; OT prophecy fulfilled in Him |
+| `holy-spirit/` | Pneumatology (nav: *The Holy Spirit*) | God the Holy Spirit: His person, names and work |
 | `sin/` | Hamartiology | The nature of sin and its particular forms |
 | `spiritual-beings/` | Angelology & Demonology | Angels, demons, Satan, Nephilim, deliverance, discernment of spirits |
 | `israel-and-church/` | Ecclesiology + the dispensational distinction | Covenants, Israel/Church, Hebrew roots |

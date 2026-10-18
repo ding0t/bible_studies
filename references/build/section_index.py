@@ -30,8 +30,9 @@ SECTION_END = "<!-- section-index:auto-end -->"
 # loci. Add a line when a new section is created.
 SECTION_BLURBS = {
     "scripture": "The Bible about itself -- canon, manuscripts, translation, and the archaeology behind the text.",
-    "god": "God's nature and character, creation, and the ways he makes himself known.",
-    "jesus": "Who Christ is and what he did, including Old Testament prophecy fulfilled in him.",
+    "god": "One God in three persons: the Father, His names and nature, creation, and the ways He makes Himself known.",
+    "jesus": "God the Son: who Jesus is and what He did, including Old Testament prophecy fulfilled in Him.",
+    "holy-spirit": "God the Holy Spirit: who He is, His names, and His work in Scripture and in every believer.",
     "sin": "Sin, temptation, and the pattern of redemption in Scripture.",
     "salvation": "Grace, redemption, assurance, and what happens at death.",
     "spiritual-beings": "Angels, demons, and the discernment of spirits.",

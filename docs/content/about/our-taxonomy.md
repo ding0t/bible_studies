@@ -46,6 +46,14 @@ distinction between Israel and the Church is a major subject in its own right ra
 footnote inside ecclesiology. It gets its own section below. The reference works behind this are
 Lewis Sperry Chafer's *Systematic Theology* and Charles Ryrie's *Basic Theology*.
 
+**The three persons side by side.** The Father, the Son and the Holy Spirit each have a section,
+and the three sit together in the navigation and on the home page's subject wheel, in the order of
+the creeds. A section called "God" beside one called "Jesus" read as if Jesus were not God, and
+filing the Spirit under "God" would have made it worse. So the first section is titled *God the
+Father* and opens with the Trinity, and the other two open by naming the Son and the Spirit as God.
+Chafer and Ryrie lay out their theologies the same way, with the doctrine of God, of Christ and of
+the Holy Spirit as peers.
+
 ---
 
 ## The sections
@@ -53,8 +61,9 @@ Lewis Sperry Chafer's *Systematic Theology* and Charles Ryrie's *Basic Theology*
 | Our term | Academic term | Dewey | What belongs here |
 |---|---|---|---|
 | **Scripture** | Bibliology | 220, 229 | The Bible about itself: canon, manuscripts and textual criticism, translation, how to read it, biblical archaeology, extra-biblical and inter-testamental texts, apocrypha and pseudepigrapha |
-| **God** | Theology Proper | 231 | God's nature and character, the Trinity, the Holy Spirit, creation, and how God reveals himself — including dreams, visions, and general revelation |
-| **Jesus** | Christology | 232 | Who Christ is and what he did: incarnation, ministry, passion, resurrection, his offices as prophet, priest and king, and Old Testament prophecy fulfilled in him |
+| **God the Father** | Theology Proper | 231 | One God in three persons: the Trinity, the Father, God's names, nature and character, creation, and how God reveals Himself — including dreams, visions, and general revelation |
+| **Jesus** | Christology | 232 | God the Son: who Christ is and what He did: incarnation, ministry, passion, resurrection, His offices as prophet, priest and king, and Old Testament prophecy fulfilled in Him |
+| **The Holy Spirit** | Pneumatology | 231 | God the Holy Spirit: His person, His names, and His work in Scripture and in believers |
 | **Sin** | Hamartiology | 233, 241.3 | The nature of sin and its particular forms — idolatry, sexual immorality, sorcery — and what Scripture says about temptation and repentance |
 | **Salvation** | Soteriology | 234 | Grace, redemption, justification, assurance of salvation, and what happens at death |
 | **Spiritual beings** | Angelology & Demonology | 235 | Angels, demons, Satan, the Nephilim, deliverance, and discernment of spirits |
@@ -81,13 +90,13 @@ nothing, and the extra path segment appears in every URL forever.
 ```
 about/              biblical-figures/   christian-life/
 chronology/         commentaries/       feasts/
-god/                israel-and-church/  jesus/
-last-things/        resources/          salvation/
-scripture/          sermons/            sin/
-spiritual-beings/   wisdom/
+god/                holy-spirit/        israel-and-church/
+jesus/              last-things/        resources/
+salvation/          scripture/          sermons/
+sin/                spiritual-beings/   wisdom/
 ```
 
-Seventeen top-level entries sounds like a lot, but `navigation.prune` is enabled in `mkdocs.yml`, so
+Eighteen top-level entries sounds like a lot, but `navigation.prune` is enabled in `mkdocs.yml`, so
 the sidebar only ever renders the branch you are actually in.
 
 ### Navigation order is deliberate
@@ -103,6 +112,7 @@ nav:
   - scripture
   - god
   - jesus
+  - holy-spirit
   - spiritual-beings
   - sin
   - salvation
