@@ -119,6 +119,8 @@ Moses was wanted for murder. Moses objected twice. The first objection was about
 
 ### I will be
 
+[![Ehyeh asher Ehyeh, אֶהְיֶה אֲשֶׁר אֶהְיֶה, “I AM WHO I AM”, in large Hebrew with its Paleo-Hebrew form. In the scene: Horeb, the mountain of God, and the flock (Exodus 3:1); the bush burning, yet not consumed (3:2); sandals off on holy ground (3:5). The plate quotes Exodus 3:12, 14 (ESV).](../assets/img/names-of-god/ehyeh.svg)](../assets/img/names-of-god/ehyeh.svg)
+
 The answer to "Who am I?" is "I will be with you", and the Hebrew verb there is
 <span dir="rtl">אֶהְיֶה</span> (*ehyeh*, eh-YEH, H1961), "I will be" or "I am". Two verses later God
 gives His name with the same word in the same form: <span dir="rtl">אֶהְיֶה אֲשֶׁר אֶהְיֶה</span>
@@ -133,6 +135,8 @@ Brenton LXX). The two readings belong together. The God who simply is, owing His
 is the God who can promise to be with Moses in Egypt.
 
 ### The LORD
+
+[![YHWH, read Adonai, יְהוָה, “the LORD, God's own name”, in large Hebrew with its Paleo-Hebrew form. In the scene: a scroll column in square script with the name in the old letters, as the Great Psalms Scroll (11Q5) writes it 164 times of 165 (Three Scripts). Not stated, drawn for the scene: the column is schematic, not a facsimile. The plate quotes Exodus 3:15 (ESV).](../assets/img/names-of-god/yhwh.svg)](../assets/img/names-of-god/yhwh.svg)
 
 Verse 15 turns the first person into a name: <span dir="rtl">יְהוָה</span> (YHWH, H3068), the
 four letters English Bibles print as "the LORD" in small capitals. It is God's personal name, used
@@ -220,6 +224,8 @@ each one in Hebrew.
 
 ### God Almighty, to the childless
 
+[![El Shaddai, אֵל שַׁדַּי, “God Almighty”, in large Hebrew with its Paleo-Hebrew form. In the scene: the LORD appeared, drawn as light (Genesis 17:1); Abram fell on his face (17:3); Abram renamed Abraham (17:5); his tent (12:8). The plate quotes Genesis 17:1-2 (ESV).](../assets/img/names-of-god/shaddai.svg)](../assets/img/names-of-god/shaddai.svg)
+
 <span dir="rtl">אֵל שַׁדַּי</span> (*El Shaddai*, H7706) is the name of Exodus 6:3, the one the
 patriarchs knew. God first speaks it to Abram at ninety-nine, still without a son by Sarah: "I am
 God Almighty; walk before me, and be blameless, that I may make my covenant between me and you, and
@@ -240,6 +246,8 @@ their complaint, and in Naomi's story He answers it with a grandson in the line 
 
 ### Lord, from a man with no heir
 
+[![Adonai, אֲדֹנָי, “Lord, my Lord”, in large Hebrew with its Paleo-Hebrew form. In the scene: brought outside (Genesis 15:5); the stars he could not number (15:5); his tent (12:8). The plate quotes Genesis 15:2, 5 (ESV).](../assets/img/names-of-god/adonai.svg)](../assets/img/names-of-god/adonai.svg)
+
 <span dir="rtl">אֲדֹנָי</span> (*Adonai*, H136), "Lord", is first spoken to God by Abram: "O Lord
 GOD, what will you give me, for I continue childless" (Genesis 15:2, ESV). It is the form of
 <span dir="rtl">אָדוֹן</span> (*adon*, H113), a servant's word for his master, that is kept for God,
@@ -257,6 +265,8 @@ Pronounced](../hebrew/pronunciation.md#the-name-of-god) has the history of the c
 
 ### God Most High, served by Melchizedek
 
+[![El Elyon, אֵל עֶלְיוֹן, “God Most High”, in large Hebrew with its Paleo-Hebrew form. In the scene: Melchizedek king of Salem meets Abram (Genesis 14:18); bread and wine (14:18). The plate quotes Genesis 14:19 (ESV).](../assets/img/names-of-god/elyon.svg)](../assets/img/names-of-god/elyon.svg)
+
 <span dir="rtl">אֵל עֶלְיוֹן</span> (*El Elyon*, H5945), "God Most High", is the God Melchizedek
 served, "Possessor of heaven and earth" (Genesis 14:19, ESV). Abram identified Him with the LORD
 three verses later (Genesis 14:22). [Jesus, Priest in the Order of
@@ -264,6 +274,8 @@ Melchizedek](../jesus/melchizedek-priesthood.md#genesis-14-a-priest-without-a-ge
 scene and what Hebrews makes of it.
 
 ### The God who sees, and the LORD who will see to it
+
+[![El Roi, אֵל רֳאִי, “the God who sees”, in large Hebrew with its Paleo-Hebrew form. In the scene: a spring of water in the wilderness, on the way to Shur (Genesis 16:7); the well called Beer-lahai-roi (16:14). Not stated, drawn for the scene: the ring of stones round the spring. The plate quotes Genesis 16:13 (ESV).](../assets/img/names-of-god/roi.svg)](../assets/img/names-of-god/roi.svg)
 
 Hagar was Sarai's Egyptian slave, pregnant by Abram, and she ran from her mistress into the
 wilderness. The angel of the LORD found her by a spring and told her to name her son Ishmael, "God
@@ -278,6 +290,8 @@ hears". Then she named God:
 (*raah*, H7200), "to see". A runaway slave, with no one to protect her, found that God had been
 watching her.
 
+[![YHWH Yireh, יְהוָה יִרְאֶה, “the LORD will see to it, will provide”, in large Hebrew with its Paleo-Hebrew form. In the scene: the altar, and the wood laid in order (Genesis 22:9); a ram caught in a thicket by his horns (22:13); on the mount of the LORD (22:14). The plate quotes Genesis 22:14 (ESV).](../assets/img/names-of-god/yireh.svg)](../assets/img/names-of-god/yireh.svg)
+
 The same verb gives the name on Mount Moriah. Isaac asked, "where is the lamb for a burnt offering?"
 and Abraham answered, "God will provide for himself the lamb for a burnt offering, my son" (Genesis
 22:7-8, ESV). The Hebrew of "will provide" is *yireh*, "will see": God will see to the lamb. When
@@ -290,6 +304,8 @@ God, who takes away the sin of the world!" (John 1:29, ESV). The lamb Abraham pr
 God provided in His Son.
 
 ### The LORD your healer, at bitter water
+
+[![YHWH Rofekha, יְהוָה רֹפְאֶךָ, “the LORD your healer”, in large Hebrew with its Paleo-Hebrew form. In the scene: the bitter water of Marah, and the log thrown in (Exodus 15:23-25); Moses cried to the LORD (15:25); Elim's twelve springs and seventy palm trees, all drawn (15:27). The plate quotes Exodus 15:26 (ESV).](../assets/img/names-of-god/rofekha.svg)](../assets/img/names-of-god/rofekha.svg)
 
 Three days after the Red Sea, Israel came to Marah and "could not drink the water of Marah because
 it was bitter" (Exodus 15:23, ESV). Moses cried to the LORD, the LORD showed him a log, and the water
@@ -306,6 +322,8 @@ books spell it "Jehovah Rapha". God gave it to a thirsty, grumbling people, and 
 before He set them the statute and rule of Marah (Exodus 15:25).
 
 ### The LORD is my banner, over the battle with Amalek
+
+[![YHWH Nissi, יְהוָה נִסִּי, “the LORD is my banner”, in large Hebrew with its Paleo-Hebrew form. In the scene: Moses on the hill with the staff of God (Exodus 17:9-10); seated on a stone, his hands held up by Aaron and Hur (17:12); Joshua's battle with Amalek below, with the sword (17:10, 13). The plate quotes Exodus 17:15 (ESV).](../assets/img/names-of-god/nissi.svg)](../assets/img/names-of-god/nissi.svg)
 
 When Amalek attacked Israel at Rephidim, Israel prevailed whenever Moses held up his hand,
 and Amalek whenever he lowered it (Exodus 17:11). After the battle "Moses built an altar and called the name of
@@ -331,6 +349,8 @@ see.
 
 ### The LORD is peace, to Gideon
 
+[![YHWH Shalom, יְהוָה שָׁלוֹם, “the LORD is peace”, in large Hebrew with its Paleo-Hebrew form. In the scene: the terebinth at Ophrah (Judges 6:11); the winepress (6:11); fire springing up from the rock (6:21). The plate quotes Judges 6:23 (ESV).](../assets/img/names-of-god/shalom.svg)](../assets/img/names-of-god/shalom.svg)
+
 Gideon was threshing wheat in a winepress to hide it from the Midianites when the angel of the LORD
 called him a mighty man of valour. When Gideon realised who had been speaking with him, he
 expected to die:
@@ -346,6 +366,8 @@ expected to die:
 expected to die was given peace, and he named the altar after what God had said.
 
 ### The LORD of hosts, on Hannah's lips
+
+[![YHWH Tsevaot, יְהוָה צְבָאוֹת, “the LORD of hosts”, in large Hebrew with its Paleo-Hebrew form. In the scene: Eli on the seat beside the doorpost of the temple (1 Samuel 1:9); Hannah praying; only her lips moved (1:12-13). Not stated, drawn for the scene: Hannah kneeling. The plate quotes 1 Samuel 1:11 (ESV).](../assets/img/names-of-god/tsevaot.svg)](../assets/img/names-of-god/tsevaot.svg)
 
 <span dir="rtl">יְהוָה צְבָאוֹת</span> (*YHWH tsevaot*, H6635), "the LORD of hosts", is the
 title of the God who commands the armies of heaven. The two words stand together 240 times in one
@@ -371,12 +393,16 @@ to God.
 
 ### Immanuel
 
+[![Immanuel, עִמָּנוּ אֵל, “God with us”, in large Hebrew with its Paleo-Hebrew form. In the scene: the star came to rest over the place where the child was (Matthew 2:9); the house (2:11). The plate quotes Matthew 1:23 (ESV).](../assets/img/names-of-god/immanuel.svg)](../assets/img/names-of-god/immanuel.svg)
+
 "Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel"
 (Isaiah 7:14, ESV): <span dir="rtl">עִמָּנוּ אֵל</span> (*immanu el*, H6005), "with us is God".
 Matthew quotes it of Jesus' birth and translates it, "God with us" (Matthew 1:23, ESV). The promise
 of Exodus 3:12, "I will be with you", took flesh.
 
 ### Mighty God
+
+[![El Gibbor, אֵל גִּבּוֹר, “Mighty God”, in large Hebrew with its Paleo-Hebrew form. In the scene: the throne of David (Isaiah 9:7). Not stated, drawn for the scene: the crown on it. The plate quotes Isaiah 9:6 (ESV).](../assets/img/names-of-god/gibbor.svg)](../assets/img/names-of-god/gibbor.svg)
 
 Isaiah gave the child born to the house of David four names: "Wonderful Counselor,
 Mighty God, Everlasting Father, Prince of Peace" (Isaiah 9:6, ESV). "Mighty God" is
@@ -385,6 +411,8 @@ the LORD Himself: "A remnant will return, the remnant of Jacob, to the mighty Go
 ESV). So Isaiah gave the child a title he uses for God, one chapter later.
 
 ### The LORD is our righteousness
+
+[![YHWH Tsidkenu, יְהוָה צִדְקֵנוּ, “the LORD is our righteousness”, in large Hebrew with its Paleo-Hebrew form. In the scene: a righteous Branch raised up for David (Jeremiah 23:5); drawn as Isaiah's shoot from the stump of Jesse, bearing fruit (Isaiah 11:1). The plate quotes Jeremiah 23:6 (ESV).](../assets/img/names-of-god/tsidkenu.svg)](../assets/img/names-of-god/tsidkenu.svg)
 
 > ✝️ Jeremiah 23:5-6 (ESV)
 >
@@ -404,6 +432,8 @@ This is justification, God counting His Son's righteousness as yours.
 ## The name above every name
 
 ### Jesus: the LORD saves
+
+[![Yeshua, Jesus, יֵשׁוּעַ, “the LORD saves: the name of Jesus”, in large Hebrew with its Paleo-Hebrew form. In the scene: three crosses: two robbers were crucified with him (Matthew 27:38); the stone rolled back (28:2); “He is not here, for he has risen” (28:6); toward the dawn of the first day (28:1). The plate quotes Matthew 1:21 (ESV).](../assets/img/names-of-god/yeshua.svg)](../assets/img/names-of-god/yeshua.svg)
 
 Moses renamed his assistant: "Moses called Hoshea the son of Nun Joshua" (Numbers 13:16, ESV). He
 added God's name to the front of it. <span dir="rtl">הוֹשֵׁעַ</span> (*Hoshea*, H1954), "salvation",
