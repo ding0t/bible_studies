@@ -154,3 +154,44 @@ evidence:
   - {id: lk23-42-esv, what: "ESV Luke 23:42", tool: study_verse, args: {book: Luke, chapter: 23, verse: 42, work_id: esv-study-bible}, expect_contains: "Jesus, remember me when you come into your kingdom", checked: 2026-10-18}
   - {id: rev19-13-esv, what: "ESV Rev 19:13", tool: study_verse, args: {book: Rev, chapter: 19, verse: 13, work_id: esv-study-bible}, expect_contains: "the name by which he is called is The Word of God", checked: 2026-10-18}
   - {id: isa44-6-esv, what: "ESV Isa 44:6", tool: study_verse, args: {book: Isa, chapter: 44, verse: 6, work_id: esv-study-bible}, expect_contains: "I am the first and I am the last", checked: 2026-10-18}
+
+review_2026-10-18:
+  scope: "review-bible-study, all eight phases, re-derived from source (study-notes.db ESV verses, macula-greek-sblgnt / macula-hebrew-wlc morphology, ebible-grcbrent LXX); state file not used as verification"
+  checked:
+    - "Every ESV quotation (about 70 verses) re-queried with study_verse: wording matches; ellipses honest (Acts 8:35, Mark 10:52, Acts 4:11-12, Mark 8:31)"
+    - "Greek forms and Strong's against SBLGNT: Matt 16:16 ho christos G5547; Luke 2:11 soter hos estin christos kyrios; John 20:28; Rev 1:17 ho protos kai ho eschatos; 1 Cor 15:45 ho eschatos Adam; John 1:1 ho logos"
+    - "Hebrew/Aramaic forms and Strong's against MACULA WLC: Isa 9:5 (Eng 9:6) pele yoets H6382/H3289, avi-ad H1/H5703, sar shalom H8269/H7965; Jer 23:5 tsemach H6780; Num 24:17 kokhav H3556; Ezek 34:23 roeh H7473; Isa 42:1 avdi H5650; Isa 52:13 yarum venissa H7311/H5375; Dan 7:13 kevar enash H1247/H606"
+    - "Counts: Iesous G2424 910; christos G5547 528; amnos G286 4 (John 1:29, 1:36, Acts 8:32, 1 Pet 1:19); arnion G721 30 = John 21:15 + 29 in Revelation, 28 of Jesus (13:11 the beast); mashiach H4899 38 in MACULA (Strong's lists 39; 2 Sam 1:21 is the one MACULA tags otherwise)"
+    - "Son of Man: articular ho huios tou anthropou 81 in the Gospels (Matt 30, Mark 14, Luke 25 incl. 22:22 with men intervening, John 12); John 5:27 anarthrous; outside the Gospels articular only Acts 7:56; anarthrous Heb 2:6, Rev 1:13, 14:14. Non-Jesus speakers only John 12:34 (twice, the crowd) and Luke 24:7 (the two men / angels) -- claim holds"
+    - "Brenton LXX Isa 9:5 Megales boules angelos confirmed; LXX Exod 3:14 ego eimi ho on (study wording matches names-of-god.md)"
+    - "Daniel 9:25-26: ESV wording; NLT footnote 'Or an anointed one; similarly in 9:26. Hebrew reads a messiah' confirmed; marked contested in prose; consistent with prophecy-events-times.md, immediately-after.md, tribulation.md"
+    - "Caesarea Philippi: ESV Study Bible note on Matt 16:13 confirms Pan worship, the cave, the temple to Augustus and Philip's renaming 'in honor of himself and Augustus Caesar'; attributed in prose"
+    - "Isaiah 22:21 ESV 'he shall be a father to the inhabitants of Jerusalem' confirmed; reading of avi-ad as royal-paternal is contextual (Isaiah's own usage), not a root fallacy"
+    - "Revelation 19-20 ordering line consistent with statement-of-faith.md lines 255-257 (visible return Rev 19:11-16, then literal thousand years Rev 20:1-6)"
+    - "Phase 5 cross-check (not cited by the study): NIV Cultural Backgrounds note on Matt 16:16 confirms the Son of God / 2 Sam 7:14 / Ps 2:7 link; NIV Biblical Theology note confirms the revelation reading of 16:17"
+    - "Siblings: names-of-god.md not contradicted; its owned names (Immanuel, Mighty God, The LORD is our righteousness, Jesus/Yeshua, ego eimi, Phil 2 / Isa 45:23) are each one sentence and a link here. as-the-snake-was-lifted.md (Isa 52:13 yarum venissa vegavah) agrees. All 14 linked pages exist and are draft: false; all anchors resolve"
+    - "review_gaps: quotation gaps are Heb 7, Mark 12, Heb 1:13, Acts 2:34, Luke 20 (Ps 110 / Ps 118 parallels, covered via melchizedek-priesthood.md link) and Isa 7:14 (named in prose, absent from bible_references)"
+    - "Structure: hook, In one sentence, Key Takeaways (Types & Prophecy, Lessons, Memory verses as block quotes, Be Transformed Think/Attitude/Do, Prayer ending In Jesus' name), Study outline, facet-labelled discussion questions incl. Be transformed. No X-not-Y constructions found; no Hebrew in bold; npm run validate gives no warning for this file"
+  fixed:
+    - "Son of Man per-Gospel split corrected to Matthew 30, Mark 14, Luke 25, John 12 (prose and References), with John 5:27 noted as anarthrous"
+    - "rum + nasa in Isaiah: exhaustive list was six verses, corpus has ten; prose now names the pride uses as Isaiah 2:12-14; 37:23 and adds the signal uses Isaiah 13:2; 49:22; References list corrected"
+    - "amnos: LXX Isa 53:7 has probaton led to the slaughter and amnos silent before the shearer; prose no longer says amnos is the lamb led to the slaughter (Key Takeaways and Lamb of God paragraph)"
+    - "Revelation 5:6: removed 'John turned to see a lion', which the text does not say; now 'John heard of a Lion, and then he saw a Lamb'"
+    - "'Before Jesus was born, God named Him through angels' -> 'Around His birth' (Luke 2:11 is after the birth)"
+    - "Light of the world row: 'after the Feast of Booths' -> 'at the close of the Feast of Booths' (John 7:37 is the feast's last day)"
+    - "Resurrection row: 'four days after Lazarus died' -> 'with Lazarus four days in the tomb (John 11:17)', the text's own measure"
+    - "last Adam: citation for 'everyone who belongs to Him' widened to 1 Corinthians 15:22-23 (15:23 has 'those who belong to Christ')"
+  open_for_author:
+    - "Caesarea Philippi: 'sets Him beside the God who is alive, in a town full of shrines to gods who were not' is an inference from the ESV Study Bible background note; Matthew draws no contrast with Pan. Keep as stated, or mark it as likely (and discussion question 2 rests on the same inference)"
+    - "Isaiah 9:6: the NLT footnotes 'Or Wonderful, Counselor', a five-name split the study does not disclose while it counts 'four names'. The References line also cites an LSB footnote at Isa 9:6 ('Lit be') that the prose never uses; disclose the NLT fork in a clause or drop both from References"
+    - "Everlasting Father via Isaiah 22:21 is stated plainly; it is the contextual reading, but some read avi-ad as a divine title ('Father of eternity'). Decide whether to mark confidence. Isaiah 22:22 (the key of David) is quoted by Rev 3:7 of Jesus, an option if more on Eliakim is wanted"
+    - "Daniel 9: consider linking immediately-after.md, which treats Daniel 9:26 ('cut off') in depth, beside the prophecy-events-times.md link"
+    - "Key Takeaways Type bullet quotes Isaiah 53:7's 'lamb that is led to the slaughter' (Hebrew seh) and then names amnos, which in the LXX belongs to the shearer simile. Now accurate, but quoting 'like a sheep that before its shearers is silent' there would line the two up"
+    - "John 8:58: 'Those are the Septuagint's words at the burning bush' -- LXX Exod 3:14 is ego eimi ho on, so the bare ego eimi is its opening; names-of-god.md says the same, so any precision tweak (or adding Isaiah 43:10's ego eimi) belongs in both studies together"
+    - "bible_references omits Isaiah 7:14 (quoted via Matthew 1:23), Romans 10:13 (quoted in the close) and Isaiah 45:23; adding them would put the study on those commentary-index pages"
+    - "'Moses asked God, What is his name? (Exodus 3:13)' -- in the text it is the question Moses expects Israel to ask him; matches names-of-god.md's heading, so left"
+    - "ego eimi is tagged G1510 only (ego is G1473); same as names-of-god.md"
+  suggestions_for_other_studies:
+    - "jesus/as-the-snake-was-lifted.md, the hypsoo / Isaiah 52:13 section: could add that yarum venissa is the pair Isaiah uses of the LORD's throne (6:1) and of the LORD (33:10; 57:15)"
+    - "jesus/jesus-and-women.md: Martha's confession (John 11:27) is a name given in need that this study's 'Names cried out in need' could cite, with a link"
+  size: "5,809 words on disk including frontmatter and References; validator raises no budget warning against word_budget 4500. Fixes net about +40 words"

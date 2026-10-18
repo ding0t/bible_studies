@@ -39,7 +39,7 @@ names God gave Himself in the Old Testament and ends where this one begins, at t
 - **Prophecy.** Daniel saw "one like a son of man" given an everlasting kingdom (Daniel 7:13-14).
   "The Son of Man" became the name Jesus used for Himself more than any other.
 - **Type.** Isaiah's Servant goes to death "like a lamb that is led to the slaughter" (Isaiah 53:7,
-  ESV). John the Baptist names Jesus with the Septuagint's word from that verse:
+  ESV). John the Baptist names Jesus with *amnos*, the Septuagint's word for "lamb" in that verse:
   "Behold, the Lamb of God" (John 1:29, ESV).
 
 ### Lessons about Jesus
@@ -237,8 +237,8 @@ up, and shall be exalted" (Isaiah 52:13, ESV). "High and lifted up" is <span dir
 וְנִשָּׂא</span> (*yarum venissa*, H7311, H5375). Elsewhere in Isaiah that pair of verbs belongs to
 the LORD: the throne Isaiah saw "high and lifted up" (Isaiah 6:1, ESV), the LORD who says "now I
 will lift myself up" (Isaiah 33:10, ESV), and "the One who is high and lifted up, who inhabits
-eternity, whose name is Holy" (Isaiah 57:15, ESV). The other two uses are the pride God brings down
-(Isaiah 2:13; 37:23). John read Isaiah this way. He quotes Isaiah 53:1 and Isaiah 6:10 together and
+eternity, whose name is Holy" (Isaiah 57:15, ESV). Its other uses are the pride God brings down
+(Isaiah 2:12-14; 37:23) and the raising of a signal to the nations (Isaiah 13:2; 49:22). John read Isaiah this way. He quotes Isaiah 53:1 and Isaiah 6:10 together and
 explains, "Isaiah said these things because he saw his glory and spoke of him" (John 12:41, ESV).
 
 Then the song goes down into suffering:
@@ -285,7 +285,7 @@ man", a human figure. He comes "with the clouds of heaven", and the clouds are w
 
 ## Names given at His birth
 
-Before Jesus was born, God named Him through angels.
+Around His birth, God named Him through angels.
 
 - **Jesus.** "You shall call his name Jesus, for he will save his people from their sins"
   (Matthew 1:21, ESV). <span lang="grc">Ἰησοῦς</span> (*Iēsous*, G2424) is the Greek form of
@@ -307,7 +307,7 @@ Before Jesus was born, God named Him through angels.
 
 Jesus called Himself "the Son of Man", <span lang="grc">ὁ υἱὸς τοῦ ἀνθρώπου</span> (*ho huios tou
 anthrōpou*, G5207, G444), more than by any other name. The phrase occurs 81 times in the four Gospels (SBLGNT:
-Matthew 30, Mark 14, Luke 24, John 13). Each time it comes from His own mouth, or from someone
+Matthew 30, Mark 14, Luke 25, John 12), and John 5:27 has it once more without "the". Each time it comes from His own mouth, or from someone
 repeating His words: the crowd (John 12:34) and the angels at the tomb (Luke 24:7). Outside the
 Gospels the full title, with "the", occurs once, from Stephen at the moment of his death: "I see the heavens opened, and
 the Son of Man standing at the right hand of God" (Acts 7:56, ESV).
@@ -343,10 +343,10 @@ Old Testament had made.
 | Jesus said | Where | The need and the promise | Studied in |
 |---|---|---|---|
 | "I am the bread of life" | John 6:35 | A crowd fed the day before, asking for the manna again (John 6:31; Exodus 16) | [Bread of Life](bread-of-life-feeding-the-multitudes.md#i-am-the-bread-of-life) |
-| "I am the light of the world" | John 8:12 | Said in the temple treasury (John 8:20), after the Feast of Booths (John 7:37) | [The Lampstand](the-heavenly-pattern/lampstand.md) |
+| "I am the light of the world" | John 8:12 | Said in the temple treasury (John 8:20), at the close of the Feast of Booths (John 7:37) | [The Lampstand](the-heavenly-pattern/lampstand.md) |
 | "I am the door" | John 10:9 | Sheep kept from thieves; "he will be saved" | |
 | "I am the good shepherd" | John 10:11 | Ezekiel 34's scattered sheep and one shepherd | [Hurt by the Church](../christian-life/hurt-by-the-church.md) |
-| "I am the resurrection and the life" | John 11:25 | Spoken to Martha, four days after Lazarus died | |
+| "I am the resurrection and the life" | John 11:25 | Spoken to Martha, with Lazarus four days in the tomb (John 11:17) | |
 | "I am the way, and the truth, and the life" | John 14:6 | Thomas: "we do not know where you are going" (John 14:5) | [The Way](the-way.md) |
 | "I am the true vine" | John 15:1 | Israel, the vine that bore no good fruit (Isaiah 5:1-7; Psalm 80:8) | |
 
@@ -398,8 +398,8 @@ by speaking (Genesis 1:3), and the Word "became flesh and dwelt among us" (John 
 what God says, and God has said it in a man.
 
 **The Lamb of God.** "Behold, the Lamb of God, who takes away the sin of the world!" (John 1:29,
-ESV). The word is <span lang="grc">ἀμνός</span> (*amnos*, G286), the Septuagint's word for the lamb
-led to the slaughter in Isaiah 53:7. It occurs only four times in the New Testament: John 1:29 and
+ESV). The word is <span lang="grc">ἀμνός</span> (*amnos*, G286), the Septuagint's word in Isaiah 53:7,
+where the Greek has the lamb silent before its shearer. It occurs only four times in the New Testament: John 1:29 and
 1:36, Acts 8:32 quoting Isaiah 53:7, and 1 Peter 1:19 ("a lamb without blemish or spot"). John the
 Baptist was naming Jesus as Isaiah's Servant. [Passover](../feasts/passover.md#the-lamb-of-god)
 studies the Lamb and the feast.
@@ -417,7 +417,7 @@ ESV). So you may "draw near to the throne of grace" (Hebrews 4:16, ESV).
 **The last Adam.** "The first man Adam became a living being; the last Adam became a life-giving
 spirit" (1 Corinthians 15:45, ESV). Adam brought death to everyone who belongs to him. Jesus, the
 <span lang="grc">ἔσχατος Ἀδάμ</span> (*eschatos Adam*, G2078), brings resurrection life to everyone
-who belongs to Him (1 Corinthians 15:22).
+who belongs to Him (1 Corinthians 15:22-23).
 
 ## Names He will wear when He returns
 
@@ -438,7 +438,7 @@ the book: "I am the Alpha and the Omega, the first and the last, the beginning a
 
 **The Lion who is a Lamb.** In heaven no one could open the sealed scroll, and John wept. An elder
 told him, "Weep no more; behold, the Lion of the tribe of Judah, the Root of David, has conquered"
-(Revelation 5:5, ESV). John turned to see a lion "and ... saw a Lamb standing, as though it had been
+(Revelation 5:5, ESV). John heard of a Lion, and then he "saw a Lamb standing, as though it had been
 slain" (Revelation 5:6, ESV). Revelation's word is <span lang="grc">ἀρνίον</span> (*arnion*, G721),
 which occurs 29 times in the book, 28 of them of Jesus (the other is the beast with "two
 horns like a lamb", Revelation 13:11, ESV). The King of Judah conquered by being killed.
@@ -488,10 +488,11 @@ the Lord will be saved" (Romans 10:13, ESV). Call on Him by name.
 
 - **Greek text and counts.** SBL Greek New Testament, via MACULA Greek (Clear Bible). Counts are for
   that text: *Iēsous* (G2424) 910; *christos* (G5547) 528; "the Son of Man" 81 in the Gospels
-  (Matthew 30, Mark 14, Luke 24, John 13), with Acts 7:56, Hebrews 2:6, Revelation 1:13 and 14:14
+  (Matthew 30, Mark 14, Luke 25, John 12), plus John 5:27 without the article, with Acts 7:56, Hebrews 2:6, Revelation 1:13 and 14:14
   outside them; *amnos* (G286) 4; *arnion* (G721) 30, 29 of them in Revelation and 28 of those of Jesus.
 - **Hebrew and Aramaic text.** Westminster Leningrad Codex via MACULA Hebrew. *Mashiach* (H4899) 38;
-  the pair *rum* + *nasa* (H7311, H5375) in Isaiah at 2:13; 6:1; 33:10; 37:23; 52:13; 57:15.
+  the pair *rum* + *nasa* (H7311, H5375) in one verse in Isaiah at 2:12; 2:13; 2:14; 6:1; 13:2; 33:10;
+  37:23; 49:22; 52:13; 57:15.
 - **Septuagint.** Brenton's Septuagint (Isaiah 9:6, numbered 9:5 there; Isaiah 53:7).
 - **Study Bibles consulted.** *ESV Study Bible* (Crossway), notes on Matthew 16:13-17; footnotes in
   the LSB and NLT at Isaiah 9:6 and Daniel 9:25.
