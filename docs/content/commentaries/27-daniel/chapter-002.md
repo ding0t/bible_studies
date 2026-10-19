@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 2 (primary passage)
+- [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 2:31-45 (primary passage)
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 2:44
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:27-30
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 2:17-23

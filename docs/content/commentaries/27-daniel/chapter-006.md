@@ -14,4 +14,5 @@ draft: false
 
 - [Faith](../../salvation/faith.md) — 6:23
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 6:10-11
+- [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 6:28
 <!-- commentary-index:auto-end -->

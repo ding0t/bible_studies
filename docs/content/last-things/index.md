@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-17
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -184,6 +184,14 @@ End-times prophecy, read dispensationally.
     Revelation 17-19 sets two women side by side: Babylon the great prostitute and the Bride, the wife of the Lamb. Scripture's pattern of the harlot, from Proverbs and the prophets to Jezebel and Babylon, the people who follow each woman, and the call to come out of her.
 
     [:octicons-arrow-right-24: Read](the-harlot-and-the-bride.md)
+
+-   __The Image and the Kingdoms: Daniel 2 and 7 Through History__
+
+    ---
+
+    Nebuchadnezzar's image and Daniel's four beasts as one prophecy: Babylon, Media-Persia, Greece and Rome, the ten kings and the little horn, the stone cut out by no human hand, and where the seventy weeks of Daniel 9 sit inside it.
+
+    [:octicons-arrow-right-24: Read](the-image-and-the-kingdoms.md)
 
 -   __The Restrainer__
 

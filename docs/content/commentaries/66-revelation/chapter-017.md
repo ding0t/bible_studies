@@ -15,6 +15,7 @@ draft: false
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 17:1-6 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 17:11
 - [Six Days of History](../../last-things/six-days-of-history.md) — 17:15
+- [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 17:12-14
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 17:1-5
 - [The Rapture of the Church](../../last-things/rapture.md) — 17:14
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 17:6

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 29:10-13
+- [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 29:7
 <!-- commentary-index:auto-end -->

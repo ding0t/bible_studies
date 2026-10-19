@@ -16,6 +16,7 @@ draft: false
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 13:1
 - [Six Days of History](../../last-things/six-days-of-history.md) — 13:14-18
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 13:2
+- [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 13:1-7
 - [The Restrainer](../../last-things/the-restrainer.md) — 13:7
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 13:5-8
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 13:5-7

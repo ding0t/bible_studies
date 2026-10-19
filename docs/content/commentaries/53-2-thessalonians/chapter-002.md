@@ -18,6 +18,7 @@ draft: false
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 2:6-7
 - [Pride](../../sin/pride.md) — 2:3-8
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 2:9-11
+- [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 2:3-4
 - [The Rapture of the Church](../../last-things/rapture.md) — 2:1-7
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 2:3-8
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 2:4

@@ -22,6 +22,7 @@ draft: false
 - [Six Days of History](../../last-things/six-days-of-history.md) — 1:15
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 1:9-13
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:22
+- [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 1:13
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 1:26
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 1:16
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 1:13

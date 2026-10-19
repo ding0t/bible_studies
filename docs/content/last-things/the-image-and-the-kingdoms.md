@@ -2,8 +2,8 @@
 title: "The Image and the Kingdoms: Daniel 2 and 7 Through History"
 category: "prophecy"
 description: "Nebuchadnezzar's image and Daniel's four beasts as one prophecy: Babylon, Media-Persia, Greece and Rome, the ten kings and the little horn, the stone cut out by no human hand, and where the seventy weeks of Daniel 9 sit inside it."
-tags: ["daniel", "revelation", "dispensationalism", "kingdom-of-god", "antichrist", "prophecy", "chart", "lang/aramaic", "lang/greek", "status/draft"]
-draft: true
+tags: ["daniel", "revelation", "dispensationalism", "kingdom-of-god", "antichrist", "prophecy", "chart", "lang/aramaic", "lang/greek"]
+draft: false
 primary_passage: "Daniel 2:31-45; Daniel 7:1-28"
 bible_references: ["Daniel 2:1-49", "Daniel 3:1", "Daniel 3:17-18", "Daniel 4:17", "Daniel 5:28", "Daniel 6:28", "Daniel 7:1-28", "Daniel 8:8-9", "Daniel 8:20-22", "Daniel 9:24-27", "Psalm 118:22", "Jeremiah 29:7", "Matthew 21:44", "Matthew 24:15", "Mark 14:62", "Luke 20:17-18", "Luke 21:24", "Colossians 1:13", "2 Thessalonians 2:3-4", "Revelation 13:1-7", "Revelation 17:12-14"]
 date_created: 2026-10-19
@@ -39,7 +39,7 @@ weeks are one prophecy of history ending in Christ's kingdom.
 
 [![A one-minute comic in 5 panels. Panel 1 (Daniel 2:1-3): Nebuchadnezzar lying awake on his couch at night. Caption: "Babylon, 603 BC. The king cannot sleep." Nebuchadnezzar says: "I had a dream, and my spirit is troubled to know the dream." Panel 2 (Daniel 2:27-28): Daniel standing before Nebuchadnezzar, pointing upward. Caption: "Daniel before the king." Daniel says: "There is a God in heaven who reveals mysteries." Panel 3 (Daniel 2:31-38): the great image standing in the dream: head of gold, chest and arms of silver, middle of bronze, legs of iron, feet of iron and clay. Caption: "Gold, silver, bronze, iron, iron mixed with clay." Daniel says: "You are the head of gold." Panel 4 (Daniel 2:34-35): the image struck: a stone flying at its feet; fragments of gold, silver, bronze, iron and clay blowing away on the wind. Caption: "A stone cut out by no human hand strikes the feet." Note: "Broken “all together” and blown away like chaff." Panel 5 (Daniel 2:35, 46-47): a great grey mountain filling the horizon; Nebuchadnezzar on his knees before Daniel. Caption: "The stone becomes a great mountain and fills the whole earth." Nebuchadnezzar says: "Truly, your God is God of gods and Lord of kings." The point: Every kingdom you live under will pass, and God will set up a kingdom that shall never be destroyed, His Son's (Daniel 2:44; 7:13-14).](../assets/img/comics/the-image-and-the-kingdoms.svg)](../assets/img/comics/the-image-and-the-kingdoms.svg)
 
-The [History Chart's Daniel's kingdoms sheet](../chronology/history-chart.md) draws this study as
+The [Daniel's kingdoms sheet on the timeline](/timeline/#daniel&view=chart) draws this study as
 one picture: the image down the left side, each part ruled across to the years its kingdom held.
 
 ## Key Takeaways

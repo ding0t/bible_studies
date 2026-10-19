@@ -30,6 +30,7 @@ draft: false
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 24:29
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 24:4-5
 - [The Day Is Near](../../last-things/day-is-near.md) — 24:3-14
+- [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 24:15
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 24:37-39
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 24:3
 - [The Rapture of the Church](../../last-things/rapture.md) — 24:36-44
