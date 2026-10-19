@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import matter from 'gray-matter';
+import yaml from 'js-yaml';
 
 function walk(dir) {
   const out = [];
@@ -18,7 +18,8 @@ function walk(dir) {
 export function generateEvents(contentDir, base = '') {
   return walk(contentDir)
     .map((file) => {
-      const { data } = matter(fs.readFileSync(file, 'utf8'));
+      const frontmatter = fs.readFileSync(file, 'utf8').match(/^---\r?\n([\s\S]*?)\r?\n---/);
+      const data = (frontmatter && yaml.load(frontmatter[1])) || {};
       if (data.zadok_year == null && data.gregorian_year == null) return null;
       const rel = path
         .relative(contentDir, file)

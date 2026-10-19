@@ -44,19 +44,19 @@ done:
     column, academic column, Paleo column, dagesh corrected)
   - 2026-10-17 pronunciation page (traditions table, Shabbat/Shabbos comparisons, the divine name)
   - 2026-10-17 names-of-God deck -- 21 cards, all 22 letters by card 20, finals ך ם ן (not ף ץ).
-    The exporter's checks caught two of my own source choices: 1 Samuel 1:3 has the name as
+    The exporter's checks caught two of my own source choices -- 1 Samuel 1:3 has the name as
     לַיהוָה (prefixed, so pointed differently) and was swapped for Isaiah 6:3; and TAHOT's
     paragraph marks had to be stripped before matching.
   - 2026-10-17 three unlinked third-party PDFs removed from assets/img/
-  - 2026-10-17 writing sheets (hooks/hebrew_writing.py): square, cursive (Gveret Levin, SIL OFL,
+  - 2026-10-17 writing sheets (hooks/hebrew_writing.py) -- square, cursive (Gveret Levin, SIL OFL,
     on Google Fonts -- checked to be genuine Israeli cursive with niqqud), Paleo-Hebrew, and the
-    names of God in all three. No stroke-order arrows: none drawn rather than guessed.
-  - 2026-10-17 Three Scripts page. Evidence: the DSS Text-Fabric data (restricted-data/dss,
+    names of God in all three. No stroke-order arrows -- none drawn rather than guessed.
+  - 2026-10-17 Three Scripts page. Evidence -- the DSS Text-Fabric data (restricted-data/dss,
     tf/2.0, feature `script`=paleohebrew, mapped to scrolls through oslots) gives יהוה in
-    Paleo-Hebrew 286 of 4,843 times in 15 scrolls: 11Q5 164/165, 4Q57 82/83, 1QpHab 8/8,
+    Paleo-Hebrew 286 of 4,843 times in 15 scrolls -- 11Q5 164/165, 4Q57 82/83, 1QpHab 8/8,
     11Q2 7/7 (book Lev). Sanhedrin 21b quoted from Sefaria's William Davidson edition (API v3).
   - 2026-10-18 On-screen practice for the word cards (app/src/entries/hebrew-cards.js,
-    app/src/utils/cardReview.js + tests): Leitner review, new cards in deck order (3 a day),
+    app/src/utils/cardReview.js + tests) -- Leitner review, new cards in deck order (3 a day),
     progress in localStorage (guarded), Hear it via the browser's he voice with the divine name
     always spoken as Adonai (tested).
   - 2026-10-17 The Shema page, letter by letter, with the verbless-clause translation question
