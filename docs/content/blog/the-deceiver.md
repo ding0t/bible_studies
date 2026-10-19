@@ -1,18 +1,18 @@
 ---
-title: "The Deceiver"
+title: "Dream: The Deceiver"
 category: "dreams"
 description: "A dream about a deceptive evil entity and spiritual discernment"
 tags: ["dreams", "deception", "spiritual-warfare", "discernment", "june-2023"]
 draft: false
 date_created: 2024-10-06
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
-# The Deceiver
+# Dream: The Deceiver
 
 !!! note "Personal experience, not Scripture"
     This is the author's own dream account, kept as personal testimony -- not a claim of new

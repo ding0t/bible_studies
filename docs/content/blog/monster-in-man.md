@@ -1,18 +1,18 @@
 ---
-title: "The Monster in the Man"
+title: "Dream: The Monster in the Man"
 category: "dreams"
 description: "A dream about internal struggle and the human condition"
 tags: ["dreams", "human-nature", "struggle", "april-2008"]
 draft: false
 date_created: 2024-10-06
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
-# The monster in the man
+# Dream: The Monster in the Man
 
 !!! note "Personal experience, not Scripture"
     This is the author's own dream account, kept as personal testimony -- not a claim of new

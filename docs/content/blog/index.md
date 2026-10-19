@@ -34,7 +34,7 @@ from Scripture and cites its sources; an entry here tells what happened to one p
 
     [:octicons-arrow-right-24: Read](2026-10-19-ai.md)
 
--   __The Monster in the Man__
+-   __Dream: The Monster in the Man__
 
     ---
 
@@ -42,7 +42,7 @@ from Scripture and cites its sources; an entry here tells what happened to one p
 
     [:octicons-arrow-right-24: Read](monster-in-man.md)
 
--   __Sleep Paralysis Dreams__
+-   __Dreams: Sleep Paralysis__
 
     ---
 
@@ -50,7 +50,7 @@ from Scripture and cites its sources; an entry here tells what happened to one p
 
     [:octicons-arrow-right-24: Read](sleep-paralysis.md)
 
--   __The Deceiver__
+-   __Dream: The Deceiver__
 
     ---
 

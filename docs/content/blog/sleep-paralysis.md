@@ -1,18 +1,18 @@
 ---
-title: "Sleep Paralysis Dreams"
+title: "Dreams: Sleep Paralysis"
 category: "dreams"
 description: "Personal experience with sleep paralysis and spiritual significance"
 tags: ["dreams", "sleep-paralysis", "spiritual-warfare", "angelic-presence"]
 draft: false
 date_created: 2025-04-24
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
-# Sleep Paralysis Dreams
+# Dreams: Sleep Paralysis
 
 !!! note "Personal experience, not Scripture"
     This is the author's own dream account, kept as personal testimony -- not a claim of new
