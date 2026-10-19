@@ -39,6 +39,9 @@ theme:
     - toc.follow
     - navigation.tracking
     - navigation.path
+    # Renders each top-level group in docs/content/.pages (Topics, Explore, Learn, ...) as a sidebar
+    # caption with its sections under it.
+    - navigation.sections
     - navigation.prune
     - navigation.top
     - navigation.indexes

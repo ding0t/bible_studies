@@ -99,8 +99,12 @@ sin/                spiritual-beings/   teaching/
 wisdom/
 ```
 
-Nineteen top-level entries sounds like a lot, but `navigation.prune` is enabled in `mkdocs.yml`, so
-the sidebar only ever renders the branch you are actually in.
+Nineteen top-level entries sounds like a lot, so the sidebar groups them under five captions:
+**Topics** (the doctrinal sections), **Explore** (Scripture Links, the Prophetic Timeline and the
+Commentaries), **Learn** (Hebrew, Greek and the Glossary), **Teaching and writing**, and **About
+this site**. `navigation.sections` in `mkdocs.yml` draws the captions, and `navigation.prune` keeps
+the sidebar to the branch you are actually in. A caption is a title in the root `.pages` file and
+adds no directory, so no URL carries it.
 
 ### Navigation order is deliberate
 
@@ -112,24 +116,25 @@ it:
 ```yaml
 nav:
   - index.md
-  - scripture
-  - god
-  - jesus
-  - holy-spirit
-  - spiritual-beings
-  - sin
-  - salvation
-  - israel-and-church
-  - chronology
-  - last-things
-  - feasts
-  - christian-life
-  - biblical-figures
-  - commentaries
-  - teaching
-  - blog
-  - resources
-  - about
+  - Topics:
+    - scripture
+    - god
+    - jesus
+    - holy-spirit
+    - biblical-figures
+    - spiritual-beings
+    - sin
+    - salvation
+    - israel-and-church
+    - chronology
+    - last-things
+    - feasts
+    - christian-life
+    - wisdom
+  - Explore: [references.md, timeline.md, commentaries]
+  - Learn: [hebrew, greek, glossary.md]
+  - Teaching and writing: [teaching, blog]
+  - About this site: [faq.md, resources, about]
 ```
 
 ### Reserved, not yet created
