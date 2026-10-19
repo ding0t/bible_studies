@@ -29,6 +29,7 @@ import PersonPanel from './PersonPanel';
 import DetailPanel from './DetailPanel';
 import FutureSequence from './FutureSequence';
 import DatedSequence from './DatedSequence';
+import PassionChart from './PassionChart';
 import FamilyTree from './FamilyTree';
 import HistoryChart from './HistoryChart';
 
@@ -351,13 +352,13 @@ export default function ChronologyExplorer({
       <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start', flexWrap: 'wrap' }}>
         <div style={{ flex: '1 1 600px', minWidth: 0 }}>
           {view === 'chart' ? (
-            isDated || isFuture ? (
+            isDated ? (
+              <PassionChart period={period} />
+            ) : isFuture ? (
               <div className="hc-controls" style={card}>
                 <p style={{ margin: '0 0 0.6rem' }}>
-                  {isDated
-                    ? 'This period is drawn hour by hour, on an axis of its own.'
-                    : 'This period has no date: Scripture gives its length and keeps its start hidden.'}{' '}
-                  The Chart prints periods with a year; open this one on the Timeline.
+                  This period has no date: Scripture gives its length and keeps its start hidden. The
+                  Chart prints periods with a year; open this one on the Timeline.
                 </p>
                 <button style={chip(true, '#0f766e')} onClick={() => setView('timeline')}>
                   Open in Timeline

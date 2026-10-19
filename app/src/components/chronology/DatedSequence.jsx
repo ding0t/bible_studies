@@ -14,7 +14,7 @@ const WEEKDAYS = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thurs
 // Mark 13:35 names the four Roman night watches: evening, midnight, cockcrow, morning.
 const WATCHES = ['evening', 'midnight', 'cockcrow', 'morning'];
 
-function civilDay(dayIndex) {
+export function civilDay(dayIndex) {
   let day = 28 + dayIndex;
   let m = 0;
   while (day > MONTHS[m][1]) {
@@ -24,7 +24,7 @@ function civilDay(dayIndex) {
   return `${WEEKDAYS[dayIndex % 7]} ${day} ${MONTHS[m][0]}`;
 }
 
-function clock(hour) {
+export function clock(hour) {
   const h = Math.round(hour % 24);
   if (h === 0 || h === 24) return 'midnight';
   if (h === 12) return 'noon';
@@ -33,7 +33,7 @@ function clock(hour) {
 
 // The Gospels count daylight hours from about 6 am (the third hour is about 9 am) and the night in
 // watches of three hours from about 6 pm.
-function gospelHour(hour) {
+export function gospelHour(hour) {
   const h = ((Math.round(hour) % 24) + 24) % 24;
   if (h >= 6 && h < 18) {
     const n = h - 6;
