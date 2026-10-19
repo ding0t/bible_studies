@@ -476,38 +476,15 @@ cast = [
 # is a silhouette, since Scripture gives him no face.
 
 [[vignette]]
-event = "rapture"
-scene = "hills"
-sky = "day"
-shows = "believers in white robes lifted up toward a cloud (1 Thessalonians 4:16-17)"
-cast = [
-  { who = "robed", n = 4, x = 0.2, x2 = 0.7, face = "right", pose = "look_up", s = 0.8 },
-]
-props = [
-  { what = "cloud", x = 0.62, y = 0.28, s = 1.0 },
-]
-
-[[vignette]]
 event = "covenant"
 scene = "hall"
 sky = "day"
 shows = "a ruler in silhouette holding out a scroll to the leaders gathered before him: a strong covenant with many (Daniel 9:27)"
 cast = [
   { who = "man", x = 0.22, face = "right", pose = "offer", holds = "scroll", look = "silhouette", s = 0.95 },
-  { who = "priest", x = 0.58, face = "left", s = 0.85 },
-  { who = "authority", x = 0.8, face = "left", s = 0.85 },
-]
-
-[[vignette]]
-event = "abomination"
-scene = "temple"
-sky = "dusk"
-shows = "a man in silhouette seated in the temple court beside an idol (Daniel 9:27; Matthew 24:15; 2 Thessalonians 2:4)"
-cast = [
-  { who = "man", x = 0.3, face = "right", stance = "sit", pose = "open", look = "silhouette", s = 1.0 },
-]
-props = [
-  { what = "idol", x = 0.68, s = 0.9 },
+  { who = "priest", x = 0.5, face = "left", s = 0.85 },
+  { who = "authority", x = 0.66, face = "left", s = 0.85 },
+  { who = "man", n = 3, x = 0.78, x2 = 0.96, face = "left", s = 0.7, tone = 1 },
 ]
 
 [[vignette]]
@@ -522,47 +499,6 @@ cast = [
 props = [
   { what = "ruin", x = 0.52, s = 1.1 },
   { what = "burning", x = 0.74, s = 0.9 },
-]
-
-[[vignette]]
-event = "armageddon"
-scene = "plain"
-sky = "storm"
-shows = "armies of the kings gathered on a plain under a darkened sky, spears raised (Revelation 16:14, 16)"
-cast = [
-  { who = "soldier", n = 6, x = 0.1, x2 = 0.9, face = "right", holds = "spear", s = 0.7 },
-  { who = "soldier", n = 5, x = 0.18, x2 = 0.82, face = "left", holds = "spear", s = 0.55, tone = 1 },
-]
-
-[[vignette]]
-event = "marriage_of_lamb"
-scene = "room"
-shows = "the Bride in fine linen with robed guests at the marriage supper (Revelation 19:7-9)"
-cast = [
-  { who = "robed", x = 0.18, face = "right", s = 0.8 },
-  { who = "bride", x = 0.5, face = "right", pose = "open", s = 1.0 },
-  { who = "robed", x = 0.82, face = "left", s = 0.8, tone = 1 },
-]
-
-[[vignette]]
-event = "look_pierced"
-scene = "hills"
-sky = "dawn"
-shows = "mourners kneeling and looking up toward Jesus standing in light on the Mount of Olives (Zechariah 12:10; 14:4)"
-cast = [
-  { who = "jesus", x = 0.5, face = "right", s = 0.5, dy = -0.1 },
-  { who = "man", n = 3, x = 0.12, x2 = 0.4, face = "right", pose = "look_up", stance = "kneel", s = 0.85 },
-  { who = "woman", n = 3, x = 0.62, x2 = 0.9, face = "left", pose = "look_up", stance = "kneel", s = 0.85, tone = 1 },
-]
-
-[[vignette]]
-event = "multitude"
-scene = "grassland"
-sky = "day"
-shows = "a great crowd in white robes holding palm branches, from every nation (Revelation 7:9)"
-cast = [
-  { who = "robed", n = 5, x = 0.08, x2 = 0.92, face = "right", pose = "praise", holds = "palm", s = 0.7 },
-  { who = "robed", n = 4, x = 0.16, x2 = 0.84, face = "right", pose = "praise", holds = "palm", s = 0.5, tone = 1 },
 ]
 
 [[vignette]]

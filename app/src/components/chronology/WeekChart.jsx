@@ -308,6 +308,11 @@ export default function WeekChart({ period }) {
       </div>
       {selected && (
         <div className="hc-controls" style={{ ...card, display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+          {vignettes.has(selected.id) && (
+            <svg viewBox="0 0 240 180" role="img" aria-label={selected.label} style={{ flex: '0 1 22rem', width: '100%', maxWidth: '22rem', borderRadius: '0.4rem', border: `1px solid ${theme.border}` }}>
+              <use href={`#v-${selected.id}`} />
+            </svg>
+          )}
           <div style={{ flex: '1 1 18rem' }}>
             <div style={{ fontWeight: 700, fontSize: '1rem' }}>{selected.label}</div>
             <div style={{ fontSize: '0.85rem', color: theme.textMuted, margin: '0.2rem 0 0.5rem' }}>
