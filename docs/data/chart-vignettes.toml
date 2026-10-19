@@ -109,3 +109,362 @@ props = [
   { what = "sheep", x = 0.72, s = 0.75 },
   { what = "sheep", x = 0.15, s = 0.6, face = "left" },
 ]
+
+# --- AD 33: the Passion week chart (app/src/components/chronology/PassionChart.jsx) ---------------
+# Keyed by the event ids in chronology.json's passion_sequence. Jesus is drawn only where the text
+# has Him in the scene; the unnamed (the crowd, soldiers, women) are the generic cast.
+
+[[vignette]]
+event = "entry"
+scene = "street"
+shows = "a crowd lining the road with palm branches (John 12:13)"
+cast = [
+  { who = "man", x = 0.22, face = "right", pose = "praise", holds = "palm", s = 0.85 },
+  { who = "woman", x = 0.5, face = "right", pose = "praise", holds = "palm", s = 0.85 },
+  { who = "child", x = 0.72, face = "left", pose = "praise", holds = "palm", s = 0.8 },
+]
+
+[[vignette]]
+event = "temple_cleansed"
+scene = "temple"
+shows = "Jesus in the temple courts with sheep for sale and the traders (Mark 11:15)"
+cast = [
+  { who = "jesus", x = 0.35, face = "right", pose = "point", s = 0.9 },
+  { who = "man", x = 0.8, face = "left", s = 0.8 },
+]
+props = [
+  { what = "sheep", x = 0.62, s = 0.7 },
+]
+
+[[vignette]]
+event = "olivet"
+scene = "hills"
+sky = "dusk"
+shows = "Jesus sitting on the Mount of Olives teaching four disciples (Mark 13:3)"
+cast = [
+  { who = "jesus", x = 0.35, face = "right", stance = "sit", pose = "open", s = 0.85 },
+  { who = "peter", x = 0.62, face = "left", stance = "sit", s = 0.75 },
+  { who = "disciple", x = 0.82, face = "left", stance = "sit", s = 0.75 },
+]
+
+[[vignette]]
+event = "plot"
+scene = "hall"
+shows = "the chief priests and elders gathered in counsel (Matthew 26:3-4)"
+cast = [
+  { who = "priest", x = 0.28, face = "right", pose = "point", s = 0.85 },
+  { who = "authority", x = 0.56, face = "left", s = 0.85 },
+  { who = "authority", x = 0.8, face = "left", s = 0.85, tone = 2 },
+]
+
+[[vignette]]
+event = "supper"
+scene = "room"
+shows = "Jesus at the table with His disciples, the bread in His hand (Luke 22:19)"
+cast = [
+  { who = "disciple", x = 0.2, face = "right", stance = "sit", s = 0.75 },
+  { who = "jesus", x = 0.52, face = "right", stance = "sit", pose = "offer", holds = "loaf", s = 0.8 },
+  { who = "disciple", x = 0.82, face = "left", stance = "sit", s = 0.75, tone = 2 },
+]
+
+[[vignette]]
+event = "feet"
+scene = "room"
+shows = "Jesus kneeling to wash Peter's feet (John 13:5-6)"
+cast = [
+  { who = "jesus", x = 0.35, face = "right", stance = "kneel", pose = "hold", s = 0.85 },
+  { who = "peter", x = 0.68, face = "left", stance = "sit", s = 0.8 },
+]
+props = [
+  { what = "jar", x = 0.5, s = 0.8 },
+]
+
+[[vignette]]
+event = "gethsemane_prayer"
+scene = "hills"
+sky = "night"
+shows = "at night Jesus kneels alone, the disciples asleep a stone's throw off (Luke 22:41)"
+cast = [
+  { who = "jesus", x = 0.7, face = "left", stance = "kneel", pose = "open" },
+  { who = "disciple", n = 3, x = 0.08, x2 = 0.3, face = "right", stance = "lie", s = 0.8 },
+]
+
+[[vignette]]
+event = "arrest"
+scene = "hills"
+sky = "night"
+shows = "Jesus standing before soldiers with spears and a fire (John 18:3-4)"
+cast = [
+  { who = "jesus", x = 0.3, face = "right", s = 0.9 },
+  { who = "soldier", n = 2, x = 0.62, x2 = 0.85, face = "left", holds = "spear", s = 0.85 },
+]
+props = [
+  { what = "fire", x = 0.5, s = 0.5 },
+]
+
+[[vignette]]
+event = "denials"
+scene = "courtyard"
+sky = "night"
+shows = "Peter warming himself at a fire in the courtyard while a rooster crows (John 18:18, 27)"
+cast = [
+  { who = "peter", x = 0.4, face = "right", pose = "fold", s = 0.9 },
+  { who = "woman", x = 0.72, face = "left", pose = "point", s = 0.8 },
+]
+props = [
+  { what = "fire", x = 0.62, s = 0.55 },
+  { what = "rooster", x = 0.9, s = 0.7 },
+]
+
+[[vignette]]
+event = "pilate"
+scene = "hall"
+shows = "Jesus standing before Pilate at the judgment seat (John 19:13)"
+cast = [
+  { who = "jesus", x = 0.28, face = "right", pose = "fold", s = 0.9 },
+  { who = "pilate", x = 0.78, face = "left", stance = "sit", s = 0.9 },
+]
+props = [
+  { what = "bema", x = 0.78, s = 0.8 },
+]
+
+[[vignette]]
+event = "crucified"
+scene = "hills"
+sky = "storm"
+shows = "three crosses on a rise under a darkened sky (Luke 23:33, 44)"
+props = [
+  { what = "crosses", x = 0.5, s = 0.9 },
+]
+
+[[vignette]]
+event = "burial"
+scene = "hills"
+sky = "dusk"
+shows = "a tomb cut in the rock and two women watching where He was laid (Mark 15:46-47)"
+cast = [
+  { who = "magdalene", x = 0.74, face = "left", s = 0.8 },
+  { who = "woman", x = 0.88, face = "left", s = 0.8 },
+]
+props = [
+  { what = "tomb_sealed", x = 0.38, s = 0.8 },
+]
+
+[[vignette]]
+event = "tomb"
+scene = "hills"
+sky = "night"
+shows = "the sealed tomb with soldiers on guard (Matthew 27:65-66)"
+cast = [
+  { who = "soldier", n = 2, x = 0.68, x2 = 0.86, face = "left", holds = "spear", s = 0.85 },
+]
+props = [
+  { what = "tomb_sealed", x = 0.38, s = 0.8 },
+]
+
+[[vignette]]
+event = "empty_tomb"
+scene = "hills"
+sky = "dawn"
+shows = "the tomb open at dawn and the women arriving with spice jars (Luke 24:1-2)"
+cast = [
+  { who = "magdalene", x = 0.7, face = "left", pose = "hold", holds = "jar", s = 0.8 },
+  { who = "woman", x = 0.86, face = "left", pose = "hold", holds = "jar", s = 0.8 },
+]
+props = [
+  { what = "tomb", x = 0.38, s = 0.8 },
+]
+
+[[vignette]]
+event = "magdalene"
+scene = "hills"
+sky = "dawn"
+shows = "Mary Magdalene meeting Jesus in the garden at the tomb (John 20:14-16)"
+cast = [
+  { who = "magdalene", x = 0.34, face = "right", stance = "kneel", pose = "open", s = 0.85 },
+  { who = "jesus", x = 0.68, face = "left", s = 0.9 },
+]
+
+[[vignette]]
+event = "emmaus"
+scene = "hills"
+sky = "day"
+shows = "Jesus walking the road with two disciples (Luke 24:15)"
+cast = [
+  { who = "jesus", x = 0.16, face = "right", stance = "walk", s = 0.5 },
+  { who = "disciple", x = 0.56, face = "left", stance = "walk", pose = "open", s = 0.5 },
+  { who = "disciple", x = 0.8, face = "left", stance = "walk", s = 0.5, tone = 2 },
+]
+
+[[vignette]]
+event = "upper_room"
+scene = "room"
+shows = "Jesus standing among the disciples (John 20:19)"
+cast = [
+  { who = "disciple", x = 0.2, face = "right", stance = "sit", s = 0.75 },
+  { who = "jesus", x = 0.5, face = "right", pose = "open", s = 0.85 },
+  { who = "peter", x = 0.8, face = "left", stance = "sit", s = 0.75 },
+]
+
+[[vignette]]
+event = "ascension"
+scene = "hills"
+sky = "day"
+shows = "the disciples looking up as a cloud takes Jesus out of sight (Acts 1:9-10)"
+cast = [
+  { who = "disciple", n = 3, x = 0.2, x2 = 0.7, face = "right", pose = "look_up", s = 0.8 },
+]
+props = [
+  { what = "cloud", x = 0.78, y = 0.3, s = 1.0 },
+]
+
+[[vignette]]
+event = "pentecost_spirit"
+scene = "room"
+shows = "tongues as of fire resting on each of the gathered disciples (Acts 2:3)"
+cast = [
+  { who = "disciple", n = 3, x = 0.2, x2 = 0.8, face = "right", s = 0.8 },
+]
+props = [
+  { what = "fire", x = 0.2, y = 0.5, s = 0.45 },
+  { what = "fire", x = 0.5, y = 0.5, s = 0.45 },
+  { what = "fire", x = 0.8, y = 0.5, s = 0.45 },
+]
+
+# The hour-by-hour views name the same scenes by their own event ids; each reuses the picture drawn
+# for its summary above, or draws the scene the detail event itself gives.
+
+[[vignette]]
+event = "bread_cup"
+scene = "room"
+shows = "Jesus at the table giving the bread to His disciples (Matthew 26:26)"
+cast = [
+  { who = "disciple", x = 0.2, face = "right", stance = "sit", s = 0.75 },
+  { who = "jesus", x = 0.52, face = "right", stance = "sit", pose = "offer", holds = "loaf", s = 0.8 },
+  { who = "peter", x = 0.82, face = "left", stance = "sit", s = 0.75 },
+]
+
+[[vignette]]
+event = "caiaphas"
+scene = "hall"
+shows = "Jesus standing before the high priest and the council (Matthew 26:62-64)"
+cast = [
+  { who = "jesus", x = 0.28, face = "right", pose = "fold", s = 0.9 },
+  { who = "priest", x = 0.62, face = "left", pose = "point", s = 0.85 },
+  { who = "authority", x = 0.84, face = "left", s = 0.85 },
+]
+
+[[vignette]]
+event = "council"
+scene = "hall"
+shows = "the chief priests and elders taking counsel at daybreak (Matthew 27:1)"
+cast = [
+  { who = "priest", x = 0.28, face = "right", pose = "point", s = 0.85 },
+  { who = "authority", x = 0.56, face = "left", s = 0.85 },
+  { who = "authority", x = 0.8, face = "left", s = 0.85, tone = 2 },
+]
+
+[[vignette]]
+event = "third_hour"
+scene = "hills"
+sky = "day"
+shows = "three crosses on a rise in daylight (Mark 15:25)"
+props = [
+  { what = "crosses", x = 0.5, s = 0.9 },
+]
+
+[[vignette]]
+event = "darkness"
+scene = "hills"
+sky = "storm"
+shows = "three crosses on a rise under a darkened sky (Luke 23:44-45)"
+props = [
+  { what = "crosses", x = 0.5, s = 0.9 },
+]
+
+[[vignette]]
+event = "finished"
+scene = "hills"
+sky = "storm"
+shows = "three crosses on a rise under a darkened sky (John 19:30)"
+props = [
+  { what = "crosses", x = 0.5, s = 0.9 },
+]
+
+[[vignette]]
+event = "laid"
+scene = "hills"
+sky = "dusk"
+shows = "a tomb cut in the rock and two women watching where He was laid (Mark 15:46-47)"
+cast = [
+  { who = "magdalene", x = 0.74, face = "left", s = 0.8 },
+  { who = "woman", x = 0.88, face = "left", s = 0.8 },
+]
+props = [
+  { what = "tomb_sealed", x = 0.38, s = 0.8 },
+]
+
+[[vignette]]
+event = "angel"
+scene = "hills"
+sky = "dawn"
+shows = "the stone rolled back from the tomb at dawn, the guards fallen (Matthew 28:2-4)"
+cast = [
+  { who = "soldier", n = 2, x = 0.7, x2 = 0.86, face = "left", stance = "lie", s = 0.8 },
+]
+props = [
+  { what = "tomb", x = 0.38, s = 0.8 },
+]
+
+[[vignette]]
+event = "set_out"
+scene = "hills"
+sky = "night"
+shows = "the women setting out for the tomb while it is still dark, spice jars in hand (John 20:1; Luke 24:1)"
+cast = [
+  { who = "magdalene", x = 0.4, face = "right", stance = "walk", holds = "jar", s = 0.8 },
+  { who = "woman", x = 0.62, face = "right", stance = "walk", holds = "jar", s = 0.8 },
+]
+
+[[vignette]]
+event = "risen"
+scene = "hills"
+sky = "dawn"
+shows = "the empty tomb at dawn, its stone rolled back (Matthew 28:6)"
+props = [
+  { what = "tomb", x = 0.5, s = 0.9 },
+]
+
+[[vignette]]
+event = "peter_john"
+scene = "hills"
+sky = "dawn"
+shows = "Peter and John running to the tomb (John 20:3-4)"
+cast = [
+  { who = "peter", x = 0.4, face = "right", pose = "run", s = 0.8 },
+  { who = "john", x = 0.6, face = "right", pose = "run", s = 0.8 },
+]
+props = [
+  { what = "tomb", x = 0.86, s = 0.6 },
+]
+
+[[vignette]]
+event = "women_meet"
+scene = "hills"
+sky = "dawn"
+shows = "Jesus meeting the women on the road (Matthew 28:9)"
+cast = [
+  { who = "woman", x = 0.28, face = "right", stance = "kneel", s = 0.8 },
+  { who = "magdalene", x = 0.44, face = "right", stance = "kneel", s = 0.8 },
+  { who = "jesus", x = 0.72, face = "left", pose = "open", s = 0.9 },
+]
+
+[[vignette]]
+event = "guards"
+scene = "hall"
+shows = "the guards reporting to the chief priests (Matthew 28:11)"
+cast = [
+  { who = "soldier", x = 0.25, face = "right", s = 0.85 },
+  { who = "priest", x = 0.6, face = "left", s = 0.85 },
+  { who = "authority", x = 0.82, face = "left", s = 0.85 },
+]

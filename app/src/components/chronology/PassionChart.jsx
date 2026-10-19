@@ -1,6 +1,6 @@
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { CHRONOLOGY } from '../../utils/chronology';
-import { SHEET, packRows, textWidth } from '../../utils/historyChart';
+import { SHEET, packRows, placeCallouts, textWidth } from '../../utils/historyChart';
 import { chip, studyUrl, theme } from './shared';
 import { civilDay, clock, gospelHour } from './DatedSequence';
 
@@ -13,17 +13,30 @@ const INK = '#3b2f1e';
 const MUTED = '#6b5a3e';
 const PAPER = '#faf6ec';
 const RED = '#8b1e1e';
+const SPRITES_URL = '/assets/chart/sprites.svg';
+const CW = 30;
+const CH = 22.5;
 const ROW = 3.9;
 const SIZE = 2.5;
 
 const TRACKS = [
-  { id: 'feasts', label: 'Appointed times (Leviticus 23)', color: '#b45309', maxRows: 6 },
   { id: 'jesus', label: 'Jesus', color: '#2563eb', maxRows: 40 },
+  { id: 'feasts', label: 'Appointed times (Leviticus 23)', color: '#b45309', maxRows: 6 },
   { id: 'church', label: 'The disciples', color: '#7c3aed', maxRows: 3 },
 ];
 const CERTAINTY_RANK = { stated: 0, 'site-reading': 1, contested: 2 };
 
-export function Sheet({ period, mono, svgRef, onSelect }) {
+// Two lines under a picture, the second cut short if it must be.
+function wrap2(label, widthMm, size) {
+  const max = Math.floor(widthMm / (size * 0.5));
+  if (label.length <= max) return [label];
+  const cut = label.lastIndexOf(' ', max);
+  const first = cut > 0 ? label.slice(0, cut) : label.slice(0, max);
+  const rest = label.slice(first.length).trim();
+  return [first, rest.length <= max ? rest : `${rest.slice(0, max - 1)}…`];
+}
+
+export function Sheet({ period, mono, pictures, vignettes, svgRef, onSelect }) {
   const P = CHRONOLOGY.passion_sequence;
   const { w: W, h: H, margin: M } = SHEET;
   const [start, end] = period.dated;
@@ -119,13 +132,40 @@ export function Sheet({ period, mono, svgRef, onSelect }) {
     .filter((e) => (hourly ? !e.summary : !e.detail))
     .filter((e) => inRange(e.at, e.end ?? e.at))
     .sort((a, b) => (CERTAINTY_RANK[a.certainty] ?? 0) - (CERTAINTY_RANK[b.certainty] ?? 0) || a.at - b.at);
+  // Pictures: the events that have one, spread across the sheet, each led down to its marker below
+  const pictured = [];
+  if (pictures && vignettes.size) {
+    const fit = items.filter((e) => vignettes.has(e.id));
+    const maxN = Math.floor((R - L + 2) / (CW + 2));
+    const picked = fit.length > maxN ? Array.from({ length: maxN }, (_, i) => fit[Math.round((i * (fit.length - 1)) / (maxN - 1))]) : fit;
+    const cy = top + 2;
+    for (const c of placeCallouts(picked.map((e) => ({ ...e, x: x(e.at) })), CW, L, R)) {
+      pictured.push({ ...c, bottom: cy + CH + 6 });
+      els.push(
+        <g key={`pic-${c.id}`} onClick={() => onSelect({ ...c, when: when(c.at, c.end) })} style={{ cursor: 'pointer' }}>
+          <rect x={c.cx - 0.6} y={cy - 0.6} width={CW + 1.2} height={CH + 1.2} fill={PAPER} stroke={INK} strokeWidth="0.35" />
+          <svg x={c.cx} y={cy} width={CW} height={CH} viewBox="0 0 240 180" style={mono ? { filter: 'url(#pc-mono)' } : undefined}>
+            <use href={`#v-${c.id}`} />
+          </svg>
+          {wrap2(c.label, CW + 1, 2.1).map((line, k) => (
+            <text key={k} x={c.cx + CW / 2} y={cy + CH + 2.8 + k * 2.4} fontSize="2.1" textAnchor="middle" fontWeight="bold" fill={INK}>{line}</text>
+          ))}
+          <title>{c.label}</title>
+        </g>
+      );
+    }
+    if (pictured.length) top = cy + CH + 8;
+  }
+
   let y = top + 2;
   const bottom = H - M - 16;
   let dropped = 0;
   for (const t of TRACKS) {
     const mine = items.filter((e) => e.track === t.id);
     if (!mine.length) continue;
-    const roomRows = Math.floor((bottom - y - 8) / ROW) - (t.id === 'jesus' && items.some((e) => e.track === 'church') ? 2 : 0);
+    const later = TRACKS.slice(TRACKS.indexOf(t) + 1).map((u) => Math.min(u.maxRows, items.filter((e) => e.track === u.id).length));
+    const reserve = later.reduce((sum, n) => sum + (n ? 8 + n * ROW : 0), 0);
+    const roomRows = Math.floor((bottom - y - 8 - reserve) / ROW);
     const laid = mine.map((e) => {
       const a = x(e.at);
       const b = e.end != null ? Math.max(a + 0.8, x(e.end)) : a;
@@ -142,12 +182,18 @@ export function Sheet({ period, mono, svgRef, onSelect }) {
       <text key={`tl-${t.id}`} x={L} y={y + 2.2} fontSize="2.4" fontWeight="bold" fill={ink(t.color)}>{t.label}</text>
     );
     y += 3.4;
+    const ruleY = y;
     els.push(<line key={`tr-${t.id}`} x1={L} x2={R} y1={y} y2={y} stroke={ink(t.color)} strokeWidth="0.3" />);
     for (const p of placed) {
       const py = y + 3 + p.row * ROW;
       const dashed = p.certainty === 'contested';
       const light = p.certainty === 'site-reading';
       const fill = mono ? (light || dashed ? '#ffffff' : INK) : dashed ? PAPER : ink(t.color);
+      const pic = pictured.find((c) => c.id === p.id);
+      if (pic) {
+        els.push(<line key={`lead-${p.id}`} x1={pic.cx + CW / 2} x2={p.a} y1={pic.bottom} y2={ruleY} stroke={INK} strokeWidth="0.2" strokeDasharray="0.8 0.6" />);
+        els.push(<circle key={`lead-dot-${p.id}`} cx={p.a} cy={ruleY} r="0.7" fill={INK} />);
+      }
       els.push(
         <g key={`ev-${t.id}-${p.id}`} onClick={() => onSelect({ ...p, when: when(p.at, p.end) })} style={{ cursor: 'pointer' }}>
           {p.end != null ? (
@@ -198,6 +244,9 @@ export function Sheet({ period, mono, svgRef, onSelect }) {
       <text x={M} y={M + 14.4} fontSize="2" fill={MUTED}>
         Each Hebrew day runs from about 6 pm to 6 pm, its night shaded. Where the Gospels give the hour an event sits there; elsewhere it keeps the order the text gives and its hour is approximate.
       </text>
+      <defs>
+        <filter id="pc-mono"><feColorMatrix type="saturate" values="0" /></filter>
+      </defs>
       {els}
       <g fontSize="1.9" fill={INK}>
         <text x={M} y={H - M - 7.4}>
@@ -215,6 +264,18 @@ export function Sheet({ period, mono, svgRef, onSelect }) {
 export default function PassionChart({ period }) {
   const svgRef = useRef(null);
   const [mono, setMono] = useState(false);
+  const [pictures, setPictures] = useState(true);
+  const [sprite, setSprite] = useState('');
+  useEffect(() => {
+    fetch(SPRITES_URL)
+      .then((r) => (r.ok ? r.text() : ''))
+      .then(setSprite)
+      .catch(() => setSprite(''));
+  }, []);
+  const vignettes = useMemo(
+    () => new Set([...sprite.matchAll(/<symbol id="v-([^"]+)"/g)].map((m) => m[1])),
+    [sprite]
+  );
   const [selected, setSelected] = useState(null);
   const card = {
     padding: '1rem 1.25rem',
@@ -230,7 +291,9 @@ export default function PassionChart({ period }) {
     clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
     clone.setAttribute('width', '297mm');
     clone.setAttribute('height', '210mm');
-    const url = URL.createObjectURL(new window.Blob([clone.outerHTML], { type: 'image/svg+xml' }));
+    const defs = sprite.replace(/^<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '');
+    const body = clone.outerHTML.replace(/^<svg([^>]*)>/, `<svg$1><defs>${defs}</defs>`);
+    const url = URL.createObjectURL(new window.Blob([body], { type: 'image/svg+xml' }));
     const link = document.createElement('a');
     link.href = url;
     link.download = `${period.id}.svg`;
@@ -240,14 +303,16 @@ export default function PassionChart({ period }) {
 
   return (
     <div>
+      <div dangerouslySetInnerHTML={{ __html: sprite }} />
       <div className="hc-controls" style={{ ...card, display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center' }}>
         <button style={chip(!mono, '#b45309')} onClick={() => setMono(false)}>Colour</button>
         <button style={chip(mono, '#b45309')} onClick={() => setMono(true)}>Black and white</button>
+        <button style={chip(pictures, '#2563eb')} onClick={() => setPictures(!pictures)}>Pictures</button>
         <button style={{ ...chip(false, '#64748b'), marginLeft: 'auto' }} onClick={download}>Download as SVG</button>
         <button style={chip(true, '#be185d')} onClick={() => window.print()}>Print</button>
       </div>
       <div className="hc-sheet-wrap" style={{ marginBottom: '1rem' }}>
-        <Sheet period={period} mono={mono} svgRef={svgRef} onSelect={setSelected} />
+        <Sheet period={period} mono={mono} pictures={pictures} vignettes={vignettes} svgRef={svgRef} onSelect={setSelected} />
       </div>
       {selected && (
         <div className="hc-controls" style={{ ...card, display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
