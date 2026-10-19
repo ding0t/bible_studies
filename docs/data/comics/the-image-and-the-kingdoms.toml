@@ -1,0 +1,100 @@
+# One-minute comic for docs/content/last-things/the-image-and-the-kingdoms.md.
+# Drawn by: python3 utils/build_comics.py the-image-and-the-kingdoms
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-19.
+#
+# Daniel 2 in five beats: the king troubled in the night (2:1-3, "as you lay in bed", 2:28-29); Daniel
+# before him giving the credit to "a God in heaven who reveals mysteries" (2:27-28); the image in its
+# metals, and "you are the head of gold" (2:31-33, 38); the stone cut out by no human hand striking the
+# feet, every metal broken "all together" and carried off like chaff (2:34-35); and the stone become a
+# mountain filling the earth, with the king fallen on his face before Daniel (2:35, 46-47).
+# Nebuchadnezzar is drawn in the royal dress of a Neo-Babylonian king: background, not Scripture (see
+# FIGURES["nebuchadnezzar"]). The image is drawn faceless and plain, with only the metals Daniel names.
+# The stone strikes the feet as the text says; which coming of Christ that is, the study argues and the
+# comic leaves to the point line.
+
+title = "The Dream and the Stone"
+subtitle = "Daniel 2: the kingdoms of men, and the kingdom of God"
+layout = [[300, 1, 1], [330, 1, 1], [300, 1]]
+note = "Nebuchadnezzar's dress is Babylonian background; Daniel 2 does not describe it."
+point = "Every kingdom you live under will pass, and God will set up a kingdom that shall never be destroyed, His Son's (Daniel 2:44; 7:13-14)."
+
+[[panel]]
+ref = "Daniel 2:1-3"
+scene = "room"
+sky = "night"
+caption = "Babylon, 603 BC. The king cannot sleep."
+caption_w = 230
+shows = "Nebuchadnezzar lying awake on his couch at night"
+props = [
+  { what = "bed", x = 0.47, s = 1.1 },
+]
+cast = [
+  { who = "nebuchadnezzar", x = 0.51, face = "left", stance = "lie", dy = -0.075, s = 0.95, marks = ["sweat"], tag = "Nebuchadnezzar" },
+]
+say = [
+  { by = "nebuchadnezzar", text = "I had a dream, and my spirit is *troubled* to know the dream.", source = "esv", at = [0.55, 0.42], w = 200 },
+]
+
+[[panel]]
+ref = "Daniel 2:27-28"
+scene = "hall"
+caption = "Daniel before the king."
+caption_w = 200
+shows = "Daniel standing before Nebuchadnezzar, pointing upward"
+cast = [
+  { who = "daniel", x = 0.26, face = "right", pose = "raise", tag = "Daniel" },
+  { who = "nebuchadnezzar", x = 0.8, face = "left", pose = "fold" },
+]
+say = [
+  { by = "daniel", text = "There is *a God in heaven* who reveals mysteries.", source = "esv", at = [0.5, 0.56], w = 150 },
+]
+
+[[panel]]
+ref = "Daniel 2:31-38"
+scene = "plain"
+sky = "dusk"
+caption = "Gold, silver, bronze, iron, iron mixed with clay."
+caption_w = 240
+shows = "the great image standing in the dream: head of gold, chest and arms of silver, middle of bronze, legs of iron, feet of iron and clay"
+props = [
+  { what = "statue", x = 0.64, s = 1.12 },
+]
+cast = [
+  { who = "daniel", x = 0.16, face = "right", pose = "point", s = 0.8 },
+]
+say = [
+  { by = "daniel", text = "You are the *head of gold*.", source = "esv", at = [0.22, 0.36], w = 130 },
+]
+
+[[panel]]
+ref = "Daniel 2:34-35"
+scene = "plain"
+sky = "storm"
+caption = "A stone cut out by no human hand strikes the feet."
+caption_w = 260
+aside = "Broken “all together” and blown away like chaff."
+aside_w = 200
+shows = "the image struck: a stone flying at its feet; fragments of gold, silver, bronze, iron and clay blowing away on the wind"
+props = [
+  { what = "statue", x = 0.74, s = 0.84 },
+  { what = "stone", x = 0.5, y = 0.8, s = 1.1 },
+  { what = "chaff", x = 0.52, y = 0.72, s = 0.9 },
+]
+
+[[panel]]
+ref = "Daniel 2:35, 46-47"
+scene = "plain"
+sky = "dawn"
+caption = "The stone becomes a great mountain and fills the whole earth."
+caption_w = 330
+shows = "a great grey mountain filling the horizon; Nebuchadnezzar on his knees before Daniel"
+props = [
+  { what = "mountain", x = 0.5, s = 1.6 },
+]
+cast = [
+  { who = "daniel", x = 0.66, face = "left", pose = "open" },
+  { who = "nebuchadnezzar", x = 0.5, face = "right", stance = "kneel", pose = "fold" },
+]
+say = [
+  { by = "nebuchadnezzar", text = "Truly, your God is *God of gods* and Lord of kings.", source = "esv", at = [0.22, 0.4], w = 210 },
+]

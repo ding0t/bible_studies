@@ -1,0 +1,127 @@
+slug: "the-image-and-the-kingdoms"
+title: "The Image and the Kingdoms: Daniel 2 and 7 Through History"
+status: review # drafted; awaiting the author's read and a review-bible-study pass before publishing
+target_path: "docs/content/last-things/the-image-and-the-kingdoms.md"
+
+primary_passage: "Daniel 2:31-45; Daniel 7:1-28"
+supporting_passages:
+  - "Daniel 8:20-22"     # Daniel names Media-Persia and Greece himself
+  - "Daniel 9:24-27"     # the seventy weeks: Messiah cut off in the fourth kingdom; the coming prince's people
+  - "Daniel 3:1"         # the same word, tselem: Nebuchadnezzar's answer to the dream was an image all of gold
+  - "Revelation 13:1-7"  # one beast with the features of all four; 42 months
+  - "2 Thessalonians 2:3-8"
+  - "Luke 21:24"         # the times of the Gentiles
+  - "Matthew 21:42-44"   # the stone that crushes (contested link to Daniel 2:34-35)
+
+sibling_studies:
+  - {slug: "holy-spirit/dreams-and-visions/index.md", role: primary, use: link, note: "Daniel 2 as a God-given dream and its interpretation; this study takes up the content of the dream instead"}
+  - {slug: "last-things/prophecy-events-times.md", role: primary, use: link, note: "the arithmetic of the 69 weeks to AD 33; one sentence and a link, no re-derivation"}
+  - {slug: "last-things/tribulation.md", role: primary, use: link, note: "the 70th week year by year; this study supplies who the little horn's kingdom is"}
+  - {slug: "last-things/immediately-after.md", role: primary, use: build-on, note: "names the four Gentile empires of Daniel 2 and 7 in one paragraph (times of the Gentiles); this study is the full treatment that paragraph points to"}
+  - {slug: "last-things/prophecy-essentials.md", role: cited, use: link, note: "the gap in Daniel 9:26-27"}
+  - {slug: "chronology/chronology-anchors.md", role: cited, use: link, note: "Daniel 8's fulfilment dated entry by entry: Gaugamela 331, Alexander 323, Ipsus 301, Antiochus IV"}
+  - {slug: "last-things/the-restrainer.md", role: cited, use: link, note: "what holds back the lawless one"}
+  - {slug: "last-things/olivet-discourse.md", role: cited, use: link, note: "Daniel 7:13 on Jesus' lips"}
+  - {slug: "last-things/your-kingdom-come.md", role: cited, use: link, note: "Daniel 2:44 and the kingdom prayed for"}
+  - {slug: "chronology/history-chart.md", role: prose, use: enrich, note: "the Daniel's kingdoms sheet should link here once published, and its church-age label can cite this study"}
+genre: [apocalyptic, ot-narrative, prophets]
+
+thesis: >-
+  God showed a pagan king the whole course of Gentile power, Babylon to the end, as one image that a
+  stone not cut by human hands will strike and replace; Daniel 7 shows the same four kingdoms as God
+  sees them, names the last ruler of the fourth, and his three and a half years are the second half
+  of Daniel's seventieth week, so the image, the beasts and the weeks are one prophecy of history
+  ending in Christ's kingdom.
+outline:
+  - {section: "In one sentence / Key Takeaways", says: "the thesis, the kingdoms named, memory verse Daniel 2:44"}
+  - {section: "The night the king could not sleep", says: "Daniel 2:1-30 in its setting: 603 BC, the second year of the king who took Daniel captive; only the God of heaven reveals mysteries (2:28, raz); the dream reaches 'the end of days'"}
+  - {section: "One image, four metals", says: "Daniel 2:31-43 part by part; the falling value and rising hardness of the metals; tselem, and the image all of gold the king set up in Daniel 3:1 as his answer"}
+  - {section: "The kingdoms Daniel names", says: "Babylon (2:38), Media-Persia (8:20), Greece (8:21), with the fulfilments dated in Chronology Anchors; the fourth unnamed, and the case for Rome from the text (9:26) and history, with the Greek-fourth alternative and why Daniel 8:20's single ram tells against it"}
+  - {section: "The same four as God sees them", says: "Daniel 7: the lion, bear, leopard and the terrible beast; why the parallel is the book's own design (chapters 2 and 7 frame the Aramaic section); the ten horns and the little horn (7:24-25), distinct from Daniel 8's little horn, Antiochus IV"}
+  - {section: "The stone and the Son of Man", says: "2:34-35, 44-45 beside 7:13-14, 27: the kingdom given to one like a son of man and to the saints; Jesus takes the title (Mark 14:62)"}
+  - {section: "Where the seventy weeks sit in the image", says: "the 69 weeks run inside the silver and the iron and end at Messiah cut off (9:26); 'the people of the prince who is to come' destroy the city, so the coming prince belongs to the fourth kingdom; the little horn's 'time, times and half a time' (7:25) is the half week of 9:27 and the 42 months of Revelation 13:5; link, don't re-argue, the arithmetic and the year-by-year week"}
+  - {section: "Between the legs and the feet (contested)", says: "the textual reasons the stone has not yet struck: it strikes the feet and all the metals 'together' (2:35), 'in the days of those kings' (2:44), the ten kings never coexisted, the gap already in 9:26-27; the other reading (the stone is Christ's first coming and the mountain the church's growth) and its reasons; this site holds the first, per the statement of faith"}
+  - {section: "What this shows about God", says: "He rules the kingdoms of men and gives them to whom He will (4:17, 25); history is not cyclical or random but heading to Christ's reign; so you can live faithfully under any kingdom, as Daniel did under four kings"}
+  - {section: "Discussion questions", says: "faceted per discussion-questions.md"}
+  - {section: "References & Recommended Reading", says: ""}
+word_budget: 4500
+word_budget_reason: "two primary chapters (2 and 7) plus their join to Daniel 9; Daniel 7:9-14's throne scene is held to one section and forked if it grows"
+
+stages:
+  scoping:
+    done: true
+    notes: >-
+      Daniel 9 has three primary studies already (prophecy-events-times, tribulation, immediately-after),
+      so a second seventy-weeks study would duplicate; this study joins the image to the weeks and links
+      them. Daniel 2 has no study on its content (dreams-and-visions treats it as a dream) and Daniel 7 has
+      no primary study at all, so one study on 2 and 7 fills the real gap.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Daniel 2:1, second year of Nebuchadnezzar, 603/602 BC (accession 605, anchor 10). Daniel 7:1, first
+        year of Belshazzar's regency, 553-550 BC (NIV Cultural Backgrounds: no later than 550/549, Verse Account
+        of Nabonidus; Nabonidus Chronicle year 7). Daniel 8:1, Belshazzar's third year. ESV Study Bible intro:
+        sixth-century authorship (Matthew 24:15) against the second-century-composition view.
+    literary_context:
+      done: true
+      notes: >-
+        Aramaic section 2:4b-7:28, and chapters 2 and 7 open and close it, both about four kingdoms. The
+        fuller chiasm (3/6 deliverance, 4/5 judgment) was not verified against a commentary, so the draft
+        states only the frame, which the text itself shows.
+    content_word_studies:
+      done: true
+      notes: "interlinear pulled for 2:28, 2:31, 2:34, 2:41, 2:44, 7:13"
+      terms:
+        - {word: "צְלֵם", language: aramaic, transliteration: "tselem", strongs_id: "H6755", gloss: "image, statue", notes: "same word as the golden image of 3:1"}
+        - {word: "רָז", language: aramaic, transliteration: "raz", strongs_id: "H7328", gloss: "mystery, secret"}
+        - {word: "בְּאַחֲרִית יוֹמַיָּא", language: aramaic, transliteration: "be'acharit yomayya", strongs_id: "H0320", gloss: "at the end of the days", notes: "2:28; the dream's horizon"}
+        - {word: "אֶבֶן", language: aramaic, transliteration: "even", strongs_id: "H0069", gloss: "stone", notes: "cut out 'not by hands' (lā bîdayin, 2:34)"}
+        - {word: "פְּלִיגָה", language: aramaic, transliteration: "peligah", strongs_id: "H6386", gloss: "divided", notes: "2:41"}
+        - {word: "חֲסַף", language: aramaic, transliteration: "chasaf", strongs_id: "H2635", gloss: "potter's clay"}
+        - {word: "מַלְכוּ", language: aramaic, transliteration: "malku", strongs_id: "H4437", gloss: "kingdom, reign"}
+        - {word: "כְּבַר אֱנָשׁ", language: aramaic, transliteration: "kevar enash", strongs_id: "H1247 H0606", gloss: "like a son of man", notes: "7:13"}
+  hermeneutics:
+    cultural_vs_transcultural: {done: false, notes: ""}
+    theological_principle:
+      done: false
+      notes: "God rules the kingdoms of men (4:17); statement of faith 'End times': dispensational, pretribulational, literal 70th week, Christ's reign. The gap reading intersects it; the exegesis must give both sides."
+    application_draft: {done: false, notes: ""}
+  cross_reference:
+    done: false
+    cross_refs: []
+    translations_compared: []
+    divergences_noted: ""
+  drafting: {done: true, file: "docs/content/last-things/the-image-and-the-kingdoms.md"}
+  review: {done: false, validated: true}  # validate clean but for the opening block-quote share (Check 15), kept deliberately: the passage is the subject
+
+comic:
+  proposal: >-
+    'The Dream and the Stone', five panels: the king sleepless on his bed (2:1); Daniel before him,
+    'there is a God in heaven who reveals mysteries' (2:28); the image in its metals (2:31-33); the stone
+    strikes the feet and the image becomes chaff (2:34-35); the stone becomes a mountain filling the earth,
+    the king falling before Daniel (2:35, 46-47).
+  cast_needed:
+    - "nebuchadnezzar: new figure. Scripture gives no description of his dress; a Babylonian royal robe and the king's head-dress are cultural background, to be drawn plain and noted as such"
+    - "daniel: exists (FIGURES), a court official's saffron tunic"
+  props_needed:
+    - "statue: move the drawing from utils/build_chart_sprites.py into lib/comic.py as prop_statue so the chart and the comic draw one image"
+    - "stone: likewise into comic.py"
+    - "mountain: new, the stone grown to fill the earth (2:35)"
+    - "bed: new, for 2:1 (a king's couch)"
+
+findings:
+  - "tselem (H6755) runs from the dream (2:31-35) to the golden image (3:1-19) in MACULA WLC; no count stated in the study, since the concordance total double-counts two works."
+  - "likmao (G3039): NT only Matthew 21:44 and Luke 20:18; Greek Daniel 2:44 (Theodotion, ebible-grcbrent) 'leptynei kai likmesei'. bible_trace on Luke 20:18 finds no Daniel link (leads: Isaiah 8:14), so the study calls it an allusion. Matthew 21:44 lacking in some early manuscripts (CSB, NLT footnotes)."
+  - "kachadah 2:35 'all together', LSB footnote 'Lit like one'. NLT footnote at 2:34: 'from a mountain' is in the Greek there and in the Aramaic only at 2:45."
+  - "ESV Study Bible chart puts Daniel 2 in 604; its 2:43-44 note says about 602. The study gives 603/602 on accession-year reckoning, matching the History Chart."
+open_questions:
+  - "Fork candidate: Daniel 7:9-14, the Ancient of Days and the Son of Man, as its own study if it outgrows one section."
+  - "Matthew 21:44 / Luke 20:18 as an allusion to the crushing stone of Daniel 2:34-35: run bible_trace; mark as allusion, not quotation."
+  - "Revelation 13:2 combines leopard, bear and lion in reverse order of Daniel 7: verify wording before using."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "introduction to Daniel (date and authorship); note on 7:1-2 (c. 552 BC); note on 7:1-12:13 (empire dates)"}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "7:1, Belshazzar's regency no later than 550/549 BC"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "7:1, coregency 553-550 BC"}
+last_updated: "2026-10-19"
