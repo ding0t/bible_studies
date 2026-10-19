@@ -5,7 +5,7 @@ description: "Nebuchadnezzar's image and Daniel's four beasts as one prophecy: B
 tags: ["daniel", "revelation", "dispensationalism", "kingdom-of-god", "antichrist", "prophecy", "chart", "lang/aramaic", "lang/greek", "status/draft"]
 draft: true
 primary_passage: "Daniel 2:31-45; Daniel 7:1-28"
-bible_references: ["Daniel 2:1-49", "Daniel 3:1", "Daniel 3:17-18", "Daniel 4:17", "Daniel 5:28", "Daniel 6:28", "Daniel 7:1-28", "Daniel 8:8-9", "Daniel 8:20-22", "Daniel 9:24-27", "Jeremiah 29:7", "Matthew 21:44", "Matthew 24:15", "Mark 14:62", "Luke 20:17-18", "Luke 21:24", "Colossians 1:13", "2 Thessalonians 2:3-4", "Revelation 13:1-7", "Revelation 17:12-14"]
+bible_references: ["Daniel 2:1-49", "Daniel 3:1", "Daniel 3:17-18", "Daniel 4:17", "Daniel 5:28", "Daniel 6:28", "Daniel 7:1-28", "Daniel 8:8-9", "Daniel 8:20-22", "Daniel 9:24-27", "Psalm 118:22", "Jeremiah 29:7", "Matthew 21:44", "Matthew 24:15", "Mark 14:62", "Luke 20:17-18", "Luke 21:24", "Colossians 1:13", "2 Thessalonians 2:3-4", "Revelation 13:1-7", "Revelation 17:12-14"]
 date_created: 2026-10-19
 date_modified: 2026-10-19
 ai_provider_models:
@@ -63,7 +63,7 @@ each part is for.)*
   14:62).
 - **He is the stone.** The kingdom God sets up "in the days of those kings" breaks every kingdom
   before it (Daniel 2:44), and Jesus spoke of a stone that "will crush" whoever it falls on (Luke
-  20:18) in the words Greek Daniel uses.
+  20:18) with the verb Greek Daniel uses of the stone kingdom (Daniel 2:44).
 
 ### Memory verses
 
@@ -96,16 +96,16 @@ In Jesus' name. Amen.
   BC, and the God who reveals mysteries.
 - **[One image, four metals](#one-image-four-metals)**: the image part by part, and the image of gold
   the king built in answer.
-- **[The kingdoms Daniel names](#the-kingdoms-daniel-names)**: Babylon, Media-Persia and Greece from
+- **[Naming the four kingdoms](#naming-the-four-kingdoms)**: Babylon, Media-Persia and Greece from
   Daniel's own mouth, and the case for Rome as the fourth.
 - **[The same four as God sees them](#the-same-four-as-god-sees-them)**: Daniel 7's beasts, the ten
   horns and the little horn.
-- **[The stone and the Son of Man](#the-stone-and-the-son-of-man)**: who receives the kingdom.
+- **[The stone and the Son of Man](#the-stone-and-the-son-of-man)**: who receives the kingdom, and the stone Jesus spoke of in Luke 20:18.
 - **[Where the seventy weeks sit in the image](#where-the-seventy-weeks-sit-in-the-image)**: Daniel 9
   inside the silver and the iron.
 - **[Between the legs and the feet](#between-the-legs-and-the-feet)**: whether the stone has struck,
   with the case on both sides.
-- **[What this shows about God](#what-this-shows-about-god)**: the application.
+- **[What this shows about God](#what-this-shows-about-god)**: God rules the kingdoms of men, gives the kingdom to His Son, and so you can live faithfully under any of them.
 
 ## The night the king could not sleep
 
@@ -159,7 +159,7 @@ ESV). The feet then lose the strength the legs had, because iron and clay "will 
 ### The stone
 
 **The end of the image comes from outside it.** A stone "was cut out by no human hand", <span
-dir="rtl">לָא בִידַיִן</span> (*la vidayin*, "not by hands"), and struck the image "on its feet"
+dir="rtl">לָא בִידַיִן</span> (*la vidayin*, H3809, H3028, "not by hands"), and struck the image "on its feet"
 (Daniel 2:34, ESV). The metals were broken "all together" (Daniel 2:35), <span dir="rtl">כַּחֲדָה</span>
 (*kachadah*, H2298), "as one", which is the LSB's footnoted literal rendering. Then the stone "became a
 great mountain and filled the whole earth" (Daniel 2:35, ESV). Daniel 2:45 adds that the stone was cut
@@ -172,11 +172,11 @@ made an image of gold, whose height was sixty cubits and its breadth six cubits"
 <span dir="rtl">צְלֵם</span> runs through both chapters, from the dream (Daniel 2:31-35) to the plain
 of Dura (Daniel 3:1-19). Told he was the head of gold and that a kingdom would come after his, the
 king set up an image of gold from top to bottom and ordered the nations to worship it. Daniel 3
-does not say this was his intent; the shared word sets the two images side by side, and the reader
+leaves his motive unstated; the shared word sets the two images side by side, and the reader
 sees the king's answer to God's revelation. Three young men refused it: "we will not serve your gods
 or worship the golden image that you have set up" (Daniel 3:18, ESV).
 
-## The kingdoms Daniel names
+## Naming the four kingdoms
 
 ### Babylon, Media-Persia, Greece
 
@@ -235,7 +235,7 @@ splendid figure of metal; in chapter 7 a prophet sees them as beasts that devour
 | Media-Persia | Chest and arms of silver (2:32, 39) | A bear raised up on one side, three ribs in its mouth (7:5) | A ram with two horns (8:3-4, 20) |
 | Greece | Middle and thighs of bronze (2:32, 39) | A leopard with four wings and four heads (7:6) | A goat whose great horn breaks into four (8:5-8, 21-22) |
 | Rome | Legs of iron (2:33, 40) | A fourth beast with iron teeth and ten horns (7:7, 19, 23) | |
-| Its last form | Feet and ten toes of iron and clay (2:33, 41-43) | Ten horns, and a little horn that puts down three (7:7-8, 24) | |
+| Its last form | Feet and toes of iron and clay (2:33, 41-43) | Ten horns, and a little horn that puts down three (7:7-8, 24) | |
 | God's kingdom | A stone that becomes a mountain (2:34-35, 44-45) | One like a son of man given an everlasting kingdom (7:13-14, 27) | |
 
 The leopard's four heads match the goat's four horns, both the divided Greek empire. The fourth beast
@@ -256,7 +256,8 @@ image's legs.
 > think to change the times and the law; and they shall be given into his hand for a time, times, and
 > half a time.
 
-The ten horns are the ten toes of the image: the fourth kingdom's last form, divided among ten kings.
+The ten horns answer to the toes of the image, which Daniel 2 does not number (Daniel 2:41-42); this
+site reads both as the fourth kingdom's last form, divided among ten kings.
 The little horn rises after them and rules over the saints for "a time, times, and half a time",
 three and a half years. Paul calls him "the man of lawlessness" who "takes his seat in the temple of
 God, proclaiming himself to be God" (2 Thessalonians 2:3-4, ESV), and Revelation gives his beast
@@ -269,6 +270,8 @@ temple in 167 BC. Daniel 7's grows from the fourth beast. Antiochus is a preview
 and Jesus still spoke of the abomination as future after him (Matthew 24:15).
 
 ## The stone and the Son of Man
+
+### One like a son of man
 
 **Both visions end with God's kingdom replacing the kingdoms of men, and Daniel 7 says who receives
 it.**
@@ -289,13 +292,15 @@ took the title as His own: "you will see the Son of Man seated at the right hand
 with the clouds of heaven" (Mark 14:62, ESV). [The Olivet Discourse](olivet-discourse.md) follows
 Daniel 7:13 through Jesus' teaching.
 
+### The stone that will crush
+
 **Jesus also spoke of the stone.** After quoting Psalm 118:22, He said, "Everyone who falls on that
 stone will be broken to pieces, and when it falls on anyone, it will crush him" (Luke 20:18, ESV;
 compare Matthew 21:44, which some early manuscripts lack). "Crush" is λικμάω (*likmaō*, G3039), and in
 the New Testament it occurs in these two verses only. Greek Daniel uses it of the stone kingdom:
 "λεπτυνεῖ καὶ λικμήσει πάσας τὰς βασιλείας", "it will grind and crush all the kingdoms" (Daniel 2:44,
-Theodotion's Greek). The two passages share a rare verb without sharing a phrase, which makes this an allusion, and it
-puts Jesus in the stone's place.
+Theodotion's Greek). The link is one rare verb, which makes this an allusion, and it puts Jesus in
+the stone's place.
 
 ## Where the seventy weeks sit in the image
 
@@ -391,7 +396,7 @@ belong to Christ: delivered "from the domain of darkness and transferred... to t
 beloved Son" (Colossians 1:13, ESV).
 
 **So you can live faithfully under any kingdom.** Daniel served Nebuchadnezzar, Belshazzar, Darius
-and Cyrus (Daniel 6:28). He sought the welfare of Babylon, as Jeremiah told the exiles to (Jeremiah
+and Cyrus (Daniel 2:48; 5:29; 6:28). He sought the welfare of Babylon, as Jeremiah told the exiles to (Jeremiah
 29:7), and he never bowed. You live in the long middle of this prophecy, under rulers who will one day
 be chaff on a threshing floor. Serve them well, pray for them, and keep your worship for the God who
 will set up the kingdom that stands forever.

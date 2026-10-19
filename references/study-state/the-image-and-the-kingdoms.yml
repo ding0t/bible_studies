@@ -125,3 +125,36 @@ resources_consulted:
   - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "7:1, Belshazzar's regency no later than 550/549 BC"}
   - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "7:1, coregency 553-550 BC"}
 last_updated: "2026-10-19"
+
+review_2026-10-19:
+  checked: >-
+    Every ESV quotation re-queried in study-notes.db (Daniel 2-10, Mark 14:62, Luke 20:17-18, 21:24,
+    Matthew 21:44, 24:15, 2 Thessalonians 2:3-4, Revelation 13:5, 17:12, Colossians 1:13, Jeremiah 29:7):
+    all verbatim. Strong's re-derived from the MACULA interlinear (2:28, 2:34, 2:35, 2:41, 7:13): all correct.
+    likmao G3039 NT occurrences = Matthew 21:44, Luke 20:18 only (confirmed); Theodotion Daniel 2:44 wording
+    confirmed. LSB footnotes 2:28, 2:35 and CSB/NLT Matthew 21:44 footnotes confirmed. ESV Study Bible 2:43-44
+    'almost universally' and second-century-dating claim confirmed. Internal links and anchors resolve.
+    Independent commentary (NLT Life Application 2:31-47, 7:24) confirms the Rome identification.
+  fixed:
+    - "Key Takeaways: 'in the words Greek Daniel uses' overstated a single shared verb; now 'with the verb'"
+    - "'ten toes' stated as text; Daniel 2:41-42 does not number the toes (table and Daniel 7 section)"
+    - "Daniel served four kings cited only Daniel 6:28 (names two); now 2:48; 5:29; 6:28"
+    - "la vidayin given H3809, H3028"
+    - "two negative-framed sentences recast affirmatively (Daniel 3 motive; likmao allusion)"
+    - "Psalm 118:22 added to bible_references (named in prose, flagged by review_gaps as a quotation)"
+  open_for_author:
+    - "'In the days of those kings' (2:44): Daniel 2 names a kingdom, not kings, in 2:40-43; the antecedent is inferred"
+    - "ESV Study Bible 2:43-44 reads the stone as starting small and growing; the study cites that note for another point"
+    - "Daniel 7:1 date: NLT footnote gives 556 or 553 BC against the study's 553-550"
+    - "Siblings: israel-and-the-church.md treats raz in Daniel 2 and could be linked; two-witnesses.md treats 7:21, 25"
+
+read_2026-10-19:
+  rule: "change no sentence (read-bible-study)"
+  measurements: "sections 30 -> 32; median 113 -> 106 words; over 400: 0 -> 0; walls 0 -> 0"
+  changes:
+    - "'## The stone and the Son of Man' (235 words, two bold-led ideas) split into '### One like a son of man' and '### The stone that will crush', so the likmao allusion shows in the TOC"
+    - "'## The kingdoms Daniel names' renamed '## Naming the four kingdoms': it holds the fourth kingdom, which Daniel does not name; Study outline link updated (no external links to the old anchor)"
+    - "Study outline: descriptive annotations widened for the split section and for 'What this shows about God' (was 'the application')"
+  verify: "prose diff against the pre-pass working copy (post-review): clean, no sentence changed"
+  left_open:
+    - "Check 15 (60% of opening 250 words block quote): not fixable by structure alone. The intro ends in a colon that leads into Daniel 2:31-35, and structural-readability rule 1 puts the In-one-sentence thesis after the passage quote; moving either changes a sentence or breaks rule 1. Author's call."
