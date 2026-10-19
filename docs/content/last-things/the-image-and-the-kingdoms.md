@@ -136,7 +136,9 @@ treats the chapter as a dream given and interpreted; this study takes up what th
 > and the visions of your head as you lay in bed are these:
 
 The word for "mystery" is the Aramaic <span dir="rtl">רָז</span> (*raz*, H7328), a secret held in
-heaven until God discloses it. "In the latter days" is <span dir="rtl">בְּאַחֲרִית יוֹמַיָּא</span>
+heaven until God discloses it. [Israel and the
+Church](../israel-and-church/israel-and-the-church.md#what-scripture-means-by-a-mystery) follows the
+word into Paul. "In the latter days" is <span dir="rtl">בְּאַחֲרִית יוֹמַיָּא</span>
 (*be'acharit yomayya*, H320, H3118), literally "at the end of the days", as the LSB's footnote gives
 it. The phrase sets the dream's horizon: it runs from the king's own reign to the end of history.
 

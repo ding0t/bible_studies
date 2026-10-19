@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Romans 11:1-29; Ephesians 2:11-22"
 bible_references: ["Romans 9:1-6", "Romans 11:1-5", "Romans 11:17-24", "Romans 10:1", "Isaiah 59:20", "Hebrews 8:8-10", "Jeremiah 9:25-26", "Genesis 17:5", "Acts 18:2", "1 Corinthians 10:18", "1 Corinthians 10:32", "Ephesians 3:1-9", "Colossians 1:25-27", "Daniel 2:27-30", "Revelation 7:1-9", "Zechariah 12:10", "Galatians 6:16", "Galatians 3:29", "Romans 2:28-29", "1 Peter 2:9", "Amos 9:11-15", "Romans 15:8-12", "Isaiah 49:6", "Genesis 12:3"]
 date_created: 2026-07-24
-date_modified: 2026-10-10
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -256,7 +256,9 @@ future at Romans 11), and it carries a specific sense. **μυστήριον** (*
 twenty-six times in the Greek New Testament,
 nineteen of them in Paul. It is not a puzzle. The sense Scripture gives it comes from Daniel.
 
-Daniel 2 turns on the Aramaic <span dir="rtl">רָז</span> (*raz*, H7328), a secret held in heaven. The
+Daniel 2 turns on the Aramaic <span dir="rtl">רָז</span> (*raz*, H7328), a secret held in heaven: there,
+the image of four kingdoms and the stone that ends them, which [The Image and the
+Kingdoms](../last-things/the-image-and-the-kingdoms.md) works through. The
 word occurs nine times in that book and nowhere else in the Old Testament, and every place the ESV
 prints "mystery" in Daniel it is translating this word. Nebuchadnezzar's wise men cannot produce the
 king's dream, because the thing is not the sort of thing men find out:

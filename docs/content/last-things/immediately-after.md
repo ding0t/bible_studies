@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:29-31; Daniel 9:24-27"
 bible_references: ["Matthew 24:1-31", "Daniel 9:1", "Matthew 4:20", "Matthew 26:74", "Mark 13:24", "Daniel 9:2", "Daniel 9:19", "Daniel 9:24-27", "Daniel 2:44", "Luke 21:20-24", "Luke 4:16-21", "Isaiah 61:1-2", "2 Thessalonians 2:3-4", "1 Thessalonians 4:16-17", "2 Thessalonians 2:1", "1 Corinthians 15:51", "Romans 11:25-26", "Hebrews 10:1-9", "Daniel 7:13-14", "Daniel 12:1", "Revelation 7:14", "Revelation 19:11-16", "Revelation 21:1-4", "Revelation 20:1-15", "2 Peter 3:7-13", "Zechariah 14:4", "Revelation 4:1", "Revelation 6:1-12", "1 Corinthians 15:3", "Zechariah 14:1-2", "Daniel 9:25"]
 date_created: 2026-09-26
-date_modified: 2026-10-08
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -313,7 +313,8 @@ Luke's phrase names the whole period of Gentile rule over Jerusalem. "Jerusalem 
 until the times of the Gentiles are fulfilled" (21:24, ESV) names a period with a stated end
 condition, and Daniel supplies the frame: the four Gentile empires of Daniel 2 and 7, ending when "the
 God of heaven will set up a kingdom that shall never be destroyed... It shall break in pieces all these
-kingdoms and bring them to an end, and it shall stand forever" (Daniel 2:44, ESV). John A. Martin dates the period from
+kingdoms and bring them to an end, and it shall stand forever" (Daniel 2:44, ESV). [The Image and the
+Kingdoms](the-image-and-the-kingdoms.md) works through the four and the stone. John A. Martin dates the period from
 Babylon's capture of the city in 586 BC to Jerusalem's last Gentile domination in the tribulation,
 "just before the Messiah returns" (*Bible Knowledge Commentary*, on Luke 21:20-24; compare Zechariah
 14:1-2). Jerusalem's political history since AD 70 fits inside that frame without closing it. A
