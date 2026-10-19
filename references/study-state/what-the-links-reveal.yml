@@ -1,0 +1,64 @@
+# State for docs/content/scripture/what-the-links-reveal.md -- a reading of the derived scripture
+# links as a whole. Every count in the study is a claim below; re-run with
+#   uv run python verify_claims.py what-the-links-reveal   (from references/build)
+# Strong links are the ones export_links.py ships: alignment >= 18 for quotations, idf_overlap >= 14
+# for allusions.
+slug: what-the-links-reveal
+status: drafted
+date: 2026-10-19
+claims:
+  - id: strong-greek-quotations
+    what: strong Greek quotations, NT to Septuagint
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='quotation-greek' AND alignment >= 18"
+    expect: 140
+  - id: inner-biblical
+    what: Hebrew Old Testament links to itself
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='inner-biblical'"
+    expect: 822
+  - id: weak-greek
+    what: Greek matches below the strong line
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='quotation-greek' AND alignment < 18"
+    expect: 1190
+  - id: hebrews-links
+    what: strong links from Hebrews (all three NT classes)
+    sql: |
+      SELECT COUNT(*) FROM scripture_links WHERE from_book='Heb' AND (
+        (link_type='quotation-greek' AND alignment >= 18) OR link_type='quotation-hebrew'
+        OR (link_type='allusion-lemma' AND idf_overlap >= 14))
+    expect: 54
+  - id: revelation-quotations
+    what: strong Greek quotations in Revelation
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE from_book='Rev' AND link_type='quotation-greek' AND alignment >= 18"
+    expect: 0
+  - id: psalm-110-1
+    what: strong Greek quotations of LXX Psalm 109:1 (English 110:1)
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='quotation-greek' AND alignment >= 18 AND to_book='Ps' AND to_chapter=109 AND to_verse=1"
+    expect: 6
+  - id: mark-12-30-deut
+    what: strong Greek links from Mark 12:30 to Deuteronomy
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='quotation-greek' AND alignment >= 18 AND from_book='Mark' AND from_chapter=12 AND from_verse=30 AND to_book='Deut'"
+    expect: 8
+  - id: rom-3-13-psalm-13
+    what: Romans 3:13 aligns with LXX Psalm 13:3
+    sql: "SELECT alignment FROM scripture_links WHERE link_type='quotation-greek' AND from_book='Rom' AND from_chapter=3 AND from_verse=13 AND to_book='Ps' AND to_chapter=13 AND to_verse=3"
+    expect: 30
+  - id: matt-2-6-micah
+    what: any link from Matthew 2:6 to Micah
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE from_book='Matt' AND from_chapter=2 AND from_verse=6 AND to_book='Mic'"
+    expect: 0
+  - id: matt-27-46
+    what: any link from Matthew 27:46
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE from_book='Matt' AND from_chapter=27 AND from_verse=46"
+    expect: 0
+  - id: chron-16
+    what: Hebrew links touching 1 Chronicles 16
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='inner-biblical' AND ((from_book='1Chr' AND from_chapter=16) OR (to_book='1Chr' AND to_chapter=16))"
+    expect: 1
+  - id: james-2-8
+    what: James 2:8 against Leviticus 19:18, below the line
+    sql: "SELECT alignment FROM scripture_links WHERE link_type='quotation-greek' AND from_book='Jas' AND from_chapter=2 AND from_verse=8 AND to_book='Lev'"
+    expect: 12
+  - id: romans-1-17
+    what: Romans 1:17 against Habakkuk 2:4, below the line
+    sql: "SELECT alignment FROM scripture_links WHERE link_type='quotation-greek' AND from_book='Rom' AND from_chapter=1 AND from_verse=17 AND to_book='Hab'"
+    expect: 11

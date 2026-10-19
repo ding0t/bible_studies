@@ -5,7 +5,7 @@ description: "Scripture links on this site are derived from the biblical texts t
 tags: ["data", "method/textual-criticism", "cross-references", "septuagint", "transparency", "mermaid"]
 draft: false
 date_created: 2026-09-04
-date_modified: 2026-10-10
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -285,6 +285,9 @@ reading. A word the Masoretic has and the scroll lacks is almost always damage t
 counting it would turn holes into omissions.
 
 ## Limits
+
+[What the Scripture Links Reveal](../scripture/what-the-links-reveal.md) reads these results as a whole: the most-quoted verse and chapter, the book that quotes most densely, and the well-known connections that fall under the threshold or outside the data.
+
 
 The links do not interpret. A link says two passages share wording or rare vocabulary. Whether the
 second fulfils the first, whether the connection is typological, and whether the author meant it are

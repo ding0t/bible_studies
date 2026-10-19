@@ -121,5 +121,13 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
 
     [:octicons-arrow-right-24: Read](verses-quoted-well.md)
 
+-   __What the Scripture Links Reveal__
+
+    ---
+
+    What 1,114 links derived from the Hebrew and Greek texts show about how Scripture quotes Scripture: the verse the New Testament quotes most, the book that quotes most densely, the psalm that may carry Paul's words, and the famous connections that leave no trace in the wording at all.
+
+    [:octicons-arrow-right-24: Read](what-the-links-reveal.md)
+
 </div>
 <!-- section-index:auto-end -->

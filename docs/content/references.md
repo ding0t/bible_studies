@@ -101,3 +101,4 @@ corroborate each other. And where neither does, the tool says nothing rather tha
 Silence here means nothing was found. It is a concordance, not a commentary.
 
 [How this works in detail](about/how-we-cross-reference.md){ .md-button }
+[What the links reveal](scripture/what-the-links-reveal.md){ .md-button }

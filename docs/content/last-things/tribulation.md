@@ -10,6 +10,7 @@ date_created: 2026-10-03
 date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
+  - anthropic/claude-sonnet-5.5
 ---
 
 # The Tribulation
@@ -271,7 +272,7 @@ Read it from the top. The sections after it walk through each half.
 
 *Select any chart to open it full size.*
 
-The same seven years are drawn on the [timeline's Chart view](../timeline.md#week70&view=chart) with a picture for each scene, from the covenant to the King's return, ready to print.
+The same seven years are drawn on the [timeline's Chart view](/timeline/#week70&view=chart) with a picture for each scene, from the covenant to the King's return, ready to print.
 
 ## The first half
 
