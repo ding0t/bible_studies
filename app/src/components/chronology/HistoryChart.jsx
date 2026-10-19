@@ -18,6 +18,8 @@ import {
   placeCallouts,
   presentAm,
   resolveAges,
+  resolveMovements,
+  resolvePeriods,
   resolveThreads,
   splitSheets,
   textWidth,
@@ -130,6 +132,8 @@ export default function HistoryChart() {
     return {
       events,
       ages: resolveAges(events),
+      periods: resolvePeriods(events),
+      movements: resolveMovements(events),
       threads: resolveThreads(events),
       people: mergePeopleWithVariant(loadGenealogyPeople(), 'mt').filter(
         (p) => p.zadok_year_born != null && p.zadok_year_died != null
@@ -362,10 +366,12 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
   const inRange = (am, amEnd = am) => amEnd >= a && am <= b;
 
   // --- what is on this sheet ----------------------------------------------------------------
-  const scriptureItems = data.events
+  const moved = new Set(data.movements.map((m) => m.event));
+  const scriptureItems = [...data.movements, ...data.events.filter((e) => !moved.has(e.id))]
     .filter((e) => e.am != null && inRange(e.am))
     .filter(
       (e) =>
+        e.source === 'movement' ||
         e.source === 'genesis' ||
         e.source === 'milestone' ||
         (e.source === 'anchor' && (e.core || years <= CORE_ONLY_SPAN)) ||
@@ -374,7 +380,7 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
     .map((e) => ({
       ...e,
       priority:
-        e.source === 'milestone' || (e.source === 'genesis' && e.core)
+        e.source === 'movement' || e.source === 'milestone' || (e.source === 'genesis' && e.core)
           ? 0
           : e.source === 'anchor' && e.core
             ? 1
@@ -405,7 +411,8 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
   const AXIS_AM = 25;
   const DAYS = [26.5, 35.5];
   const AGES = [36.5, 44];
-  const BODY = [45.5, 182.5];
+  const PERIODS_BAND = [44.8, 50.6];
+  const BODY = [52, 182.5];
   const AXIS_G = 185;
   const laneWeights = { scripture: lanes.pictures ? 3.4 : 2.2, people: 1.4, texts: 1.5 };
   const shown = ['scripture', 'people', 'texts'].filter((id) => lanes[id]);
@@ -464,6 +471,35 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
     }
   }
 
+  // --- periods: the stretches inside the ages, with each exile and return marked ---------------
+  for (const pd of data.periods) {
+    if (!inRange(pd.am, pd.amEnd)) continue;
+    const px0 = x(pd.am);
+    const px1 = x(Math.min(pd.amEnd, b));
+    const fit = fitLabel([pd.label], px1 - px0 - 1, [2.2, 1.9, 1.6]);
+    els.push(
+      <g key={`period-${pd.id}`} onClick={() => onSelect(pd)} style={{ cursor: 'pointer' }}>
+        <rect x={px0} y={PERIODS_BAND[0]} width={px1 - px0} height={PERIODS_BAND[1] - PERIODS_BAND[0]} fill={pd.id === 'exile' && !mono ? '#efe1d0' : '#ffffff'} stroke={INK} strokeWidth="0.25" />
+        {pd.id === 'exile' && <rect x={px0} y={PERIODS_BAND[0]} width={px1 - px0} height={PERIODS_BAND[1] - PERIODS_BAND[0]} fill="url(#hc-hatch)" opacity="0.35" />}
+        {fit && (
+          <text x={(px0 + px1) / 2} y={PERIODS_BAND[1] - 1.9} fontSize={fit.size} textAnchor="middle" fill={INK} stroke="#ffffff" strokeWidth="0.6" style={{ paintOrder: 'stroke' }}>
+            {fit.t}
+          </text>
+        )}
+        <title>{`${pd.label} (${pd.refs})`}</title>
+      </g>
+    );
+  }
+  for (const m of data.movements) {
+    if (!inRange(m.am)) continue;
+    els.push(
+      <g key={`band-${m.id}`}>
+        <Arrow x={x(m.am)} y={PERIODS_BAND[0] + 1.6} out={m.direction === 'out'} mono={mono} />
+        <title>{`${m.label}, ${formatYear(m.gregorian_year)} (${m.refs})`}</title>
+      </g>
+    );
+  }
+
   // --- creation days: each day of the week over its thousand years ----------------------------
   const days = [
     ...CHRONOLOGY.millennial_days.map((d) => ({ n: d.day, am0: d.am_start, am1: d.am_end })),
@@ -518,6 +554,7 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
       <text x={M} y={AXIS_AM - 1.2} fontSize="2.2" fontWeight="bold" fill={INK}>Anno Mundi</text>
       <text x={M} y={(DAYS[0] + DAYS[1]) / 2 + 1} fontSize="2.2" fontWeight="bold" fill={INK}>The week</text>
       <text x={M} y={(AGES[0] + AGES[1]) / 2 + 1} fontSize="2.2" fontWeight="bold" fill={INK}>The ages</text>
+      <text x={M} y={(PERIODS_BAND[0] + PERIODS_BAND[1]) / 2 + 1} fontSize="2.2" fontWeight="bold" fill={INK}>The periods</text>
       <text x={M} y={AXIS_G + 3.4} fontSize="2.2" fontWeight="bold" fill={INK}>BC / AD</text>
     </g>
   );
@@ -580,7 +617,11 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
       els.push(
         <g key={`ev-${p.id}`} onClick={() => onSelect(p)} style={{ cursor: 'pointer' }}>
           <line x1={p.ex} x2={p.ex} y1={base} y2={ly + 0.6} stroke={INK} strokeWidth="0.15" opacity="0.6" />
-          <circle cx={p.ex} cy={base} r="0.6" fill={p.source === 'milestone' ? RED : INK} />
+          {p.source === 'movement' ? (
+            <Arrow x={p.ex} y={base} out={p.direction === 'out'} mono={mono} />
+          ) : (
+            <circle cx={p.ex} cy={base} r="0.6" fill={p.source === 'milestone' ? RED : INK} />
+          )}
           <text x={p.right ? p.ex - 0.8 : p.ex + 0.8} y={ly} fontSize="2.1" textAnchor={p.right ? 'end' : 'start'} fill={INK} stroke={PAPER} strokeWidth="0.6" style={{ paintOrder: 'stroke' }}>
             {p.label}
             <tspan fill={MUTED} fontSize="1.8">{`  ${dateOf(p.am, data.now)}`}</tspan>
@@ -859,15 +900,19 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
                 <text x={M + i * 30 + 4} y={H - M - 1.6}>{label}</text>
               </g>
             ))}
-          <rect x={M + 120} y={H - M - 3.6} width="6" height="2.2" fill="url(#hc-hatch)" stroke={INK} strokeWidth="0.2" />
-          <text x={M + 127} y={H - M - 1.6}>Lifespan calculated or estimated</text>
+          <rect x={M + 116} y={H - M - 3.6} width="6" height="2.2" fill="url(#hc-hatch)" stroke={INK} strokeWidth="0.2" />
+          <text x={M + 123} y={H - M - 1.6}>Calculated or estimated</text>
+          <Arrow x={M + 152} y={H - M - 3.4} out mono={mono} />
+          <text x={M + 154} y={H - M - 1.6}>Exile</text>
+          <Arrow x={M + 164} y={H - M - 3.4} out={false} mono={mono} />
+          <text x={M + 166} y={H - M - 1.6}>Return</text>
           {lanes.threads &&
             data.threads.map((t, i) => {
               const st = THREAD_STYLE[t.id] ?? { color: INK, dash: null };
               return (
                 <g key={`leg-${t.id}`}>
-                  <line x1={M + 172 + i * 27} x2={M + 177 + i * 27} y1={H - M - 2.3} y2={H - M - 2.3} stroke={mono ? INK : st.color} strokeWidth="0.6" strokeDasharray={st.dash ?? undefined} />
-                  <text x={M + 178 + i * 27} y={H - M - 1.6}>{t.label}</text>
+                  <line x1={M + 180 + i * 27} x2={M + 185 + i * 27} y1={H - M - 2.3} y2={H - M - 2.3} stroke={mono ? INK : st.color} strokeWidth="0.6" strokeDasharray={st.dash ?? undefined} />
+                  <text x={M + 186 + i * 27} y={H - M - 1.6}>{t.label}</text>
                 </g>
               );
             })}
@@ -904,6 +949,13 @@ function wrap2(s, widthMm, size) {
   const cut = s.lastIndexOf(' ', max);
   const first = cut > 0 ? s.slice(0, cut) : s.slice(0, max);
   return [first, trim(s.slice(first.length).trim(), widthMm, size)];
+}
+
+// ▼ away from the land, ▲ back to it. Filled and hollow as well as coloured, so they print in mono.
+function Arrow({ x, y, out, mono }) {
+  const d = out ? `M${x - 1.2} ${y - 1} H${x + 1.2} L${x} ${y + 1.1} Z` : `M${x - 1.2} ${y + 1} H${x + 1.2} L${x} ${y - 1.1} Z`;
+  const color = mono ? INK : out ? RED : '#2f6f3f';
+  return <path d={d} fill={out ? color : PAPER} stroke={color} strokeWidth="0.35" />;
 }
 
 function more(id, xr, yy, n) {

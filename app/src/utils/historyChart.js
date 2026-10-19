@@ -9,15 +9,35 @@ import { CHRONOLOGY, gregorianToAm, amToGregorian } from './chronology.js';
 export const SHEET = { w: 297, h: 210, margin: 8 };
 const EPOCH = 'genealogy';
 
-/** The ages (chronology.json `ages`) with their start and end on the Anno Mundi axis. */
-export function resolveAges(events) {
+// A span starts at a dated event and runs to the next span's start, or to its own `to` event.
+function resolveSpans(list, events, kind) {
   const byId = new Map(events.map((e) => [e.id, e]));
-  const starts = CHRONOLOGY.ages.map((a) => {
-    const am = a.from_am ?? byId.get(a.from)?.am;
-    if (am == null) throw new Error(`age ${a.id}: no dated event ${a.from}`);
-    return { ...a, am };
+  const amOf = (id) => {
+    const am = byId.get(id)?.am;
+    if (am == null) throw new Error(`${kind}: no dated event ${id}`);
+    return am;
+  };
+  const starts = list.map((s) => ({ ...s, am: s.from_am ?? amOf(s.from) }));
+  return starts.map((s, i) => ({
+    ...s,
+    amEnd: s.to ? amOf(s.to) : (starts[i + 1]?.am ?? Infinity),
+  }));
+}
+
+/** The ages (chronology.json `ages`) with their start and end on the Anno Mundi axis. */
+export const resolveAges = (events) => resolveSpans(CHRONOLOGY.ages, events, 'age');
+
+/** The periods inside the ages (chronology.json `periods`): In Egypt, the divided kingdom, the exile. */
+export const resolvePeriods = (events) => resolveSpans(CHRONOLOGY.periods, events, 'period');
+
+/** The exiles and returns (chronology.json `movements`), each placed at its event's year. */
+export function resolveMovements(events) {
+  const byId = new Map(events.map((e) => [e.id, e]));
+  return CHRONOLOGY.movements.map((m) => {
+    const e = byId.get(m.event);
+    if (e?.am == null) throw new Error(`movement: no dated event ${m.event}`);
+    return { ...m, id: `move-${m.event}`, am: e.am, gregorian_year: e.gregorian, source: 'movement' };
   });
-  return starts.map((a, i) => ({ ...a, amEnd: starts[i + 1]?.am ?? Infinity }));
 }
 
 /** Threads (chronology.json `threads`) with each event resolved; undated or unknown ids listed. */

@@ -10,6 +10,8 @@ import {
   packRows,
   placeCallouts,
   resolveAges,
+  resolveMovements,
+  resolvePeriods,
   resolveThreads,
 } from './historyChart.js';
 
@@ -29,6 +31,22 @@ test('the ages follow the epoch: the Flood age starts at the Flood, the church a
   const ages = Object.fromEntries(resolveAges(events).map((a) => [a.id, a]));
   assert.equal(ages.postdiluvian.am, 1656);
   assert.equal(ages.church.am, events.find((e) => e.id === 'anchor_41').am);
+});
+
+test('the periods run in order, the exile from the temple burned to Cyrus', () => {
+  const periods = resolvePeriods(events);
+  for (const p of periods) assert.ok(p.amEnd > p.am, `${p.id} has a length`);
+  for (let i = 1; i < periods.length; i++) assert.ok(periods[i].am >= periods[i - 1].am);
+  const exile = periods.find((p) => p.id === 'exile');
+  assert.equal(exile.amEnd - exile.am, 586 - 538);
+});
+
+test('each deportation is followed in time by a return', () => {
+  const moves = resolveMovements(events);
+  const lastOut = Math.max(...moves.filter((m) => m.direction === 'out').map((m) => m.am));
+  const firstBack = Math.min(...moves.filter((m) => m.direction === 'back').map((m) => m.am));
+  assert.ok(firstBack > lastOut);
+  assert.equal(moves.find((m) => m.event === 'anchor_12').gregorian_year, -586);
 });
 
 test('every thread event is a dated event, so no thread silently loses a point', () => {

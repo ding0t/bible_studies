@@ -135,6 +135,118 @@
       "note": "A new heaven and a new earth, with no end (Revelation 21:1; 22:5)."
     }
   ],
+  "periods_note": "The periods inside the ages, in the names readers know them by, for the timeline's and the History Chart's second band. Each starts at a dated event (`from`) and runs to the next period's start unless `to` names its own end, so they follow the epoch. Periods begin with the sojourn in Egypt; before it the ages are fine-grained enough.",
+  "periods": [
+    {
+      "id": "egypt",
+      "label": "In Egypt",
+      "from": "jacob_to_egypt",
+      "refs": "Genesis 46 - Exodus 12",
+      "note": "Jacob's family goes down to Egypt, grows into a nation and is enslaved (Exodus 1:7-14)."
+    },
+    {
+      "id": "wilderness",
+      "label": "The wilderness",
+      "from": "exodus_early_date",
+      "refs": "Exodus 13 - Deuteronomy 34",
+      "note": "Sinai, the covenant and the tabernacle, then forty years' wandering (Numbers 14:33-34)."
+    },
+    {
+      "id": "judges",
+      "label": "The judges and Saul",
+      "from": "conquest",
+      "refs": "Joshua - 1 Samuel",
+      "note": "The conquest under Joshua, the cycle of the judges, and Saul's reign."
+    },
+    {
+      "id": "united",
+      "label": "David and Solomon",
+      "from": "david_coronation_as_king",
+      "refs": "2 Samuel - 1 Kings 11",
+      "note": "David reigns, first over Judah at Hebron, then over all Israel (2 Samuel 5:4-5); Solomon builds the temple."
+    },
+    {
+      "id": "divided",
+      "label": "The divided kingdom",
+      "from": "anchor_03",
+      "refs": "1 Kings 12 - 2 Kings 25",
+      "note": "Israel in the north and Judah in the south. Israel goes into exile in Assyria in 722 BC (2 Kings 17:6); Judah stands until 586 BC."
+    },
+    {
+      "id": "exile",
+      "label": "Exile in Babylon",
+      "from": "anchor_12",
+      "refs": "2 Kings 25; Daniel; Ezekiel",
+      "note": "Judah in Babylon from the temple's fall to Cyrus's decree. The first captives, Daniel among them, were taken in 605 BC (Daniel 1:1-6). Jeremiah's seventy years (Jeremiah 29:10) are counted from different starting points by different readers."
+    },
+    {
+      "id": "return",
+      "label": "Return and rebuilding",
+      "from": "anchor_15",
+      "refs": "Ezra; Nehemiah; Haggai; Zechariah; Esther",
+      "note": "The returns under Zerubbabel, Ezra and Nehemiah; the temple rebuilt and the walls restored."
+    },
+    {
+      "id": "between",
+      "label": "Between the Testaments",
+      "from": "anchor_21",
+      "refs": "Daniel 8; 11 (foretold)",
+      "note": "From Malachi, the last writing prophet, to the coming of Christ: Persia, Greece, the Maccabees and Rome."
+    },
+    {
+      "id": "christ",
+      "label": "The life of Christ",
+      "from": "anchor_37",
+      "to": "anchor_41",
+      "refs": "the Gospels",
+      "note": "From His birth to the cross and the resurrection."
+    }
+  ],
+  "movements_note": "The exiles and returns, marked as movements on the timeline and the History Chart: an arrow away from the land for each deportation and back for each return. Each points at a dated event already in this file and gives the movement its own label, so the event keeps the label its source table uses.",
+  "movements": [
+    {
+      "event": "anchor_08",
+      "direction": "out",
+      "label": "Israel exiled to Assyria",
+      "refs": "2 Kings 17:6, 23"
+    },
+    {
+      "event": "anchor_10",
+      "direction": "out",
+      "label": "First captives to Babylon, Daniel among them",
+      "refs": "Daniel 1:1-6"
+    },
+    {
+      "event": "anchor_11",
+      "direction": "out",
+      "label": "Jehoiachin and 10,000 captives to Babylon",
+      "refs": "2 Kings 24:12-16"
+    },
+    {
+      "event": "anchor_12",
+      "direction": "out",
+      "label": "Jerusalem burned; Judah exiled to Babylon",
+      "refs": "2 Kings 25:8-11"
+    },
+    {
+      "event": "anchor_15",
+      "direction": "back",
+      "label": "First return, with Zerubbabel",
+      "refs": "Ezra 1:1-4; 2:1-2"
+    },
+    {
+      "event": "anchor_19",
+      "direction": "back",
+      "label": "Ezra returns",
+      "refs": "Ezra 7:7-8"
+    },
+    {
+      "event": "anchor_20",
+      "direction": "back",
+      "label": "Nehemiah returns to rebuild the walls",
+      "refs": "Nehemiah 2:1-11"
+    }
+  ],
   "epochs": [
     {
       "id": "genealogy",

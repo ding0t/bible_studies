@@ -5,7 +5,9 @@ import {
   amToGregorian,
   gregorianToAm,
   eventsForPerson,
+  loadEvents,
 } from '../../utils/chronology';
+import { resolveAges, resolveMovements, resolvePeriods } from '../../utils/historyChart';
 import {
   CLASSIFICATION,
   CORE_ONLY_SPAN,
@@ -32,6 +34,14 @@ const WEEK_END = 7000;
 const EIGHTH = CHRONOLOGY.eighth_day;
 // Wider than this and the Gantt shows the key people only, unless the reader asks for everyone.
 const KEY_PEOPLE_SPAN = 2000;
+
+// The ages and the periods inside them, and the exiles and returns: the same spans the History
+// Chart prints, resolved once from the shared events.
+const EVENTS = loadEvents();
+const AGES = resolveAges(EVENTS);
+const PERIODS = resolvePeriods(EVENTS);
+const MOVEMENTS = resolveMovements(EVENTS);
+const AGE_TINT = ['rgba(37,99,235,0.14)', 'rgba(5,150,105,0.14)', 'rgba(217,119,6,0.16)', 'rgba(190,24,93,0.12)', 'rgba(124,58,237,0.13)', 'rgba(217,119,6,0.22)', 'rgba(5,150,105,0.08)'];
 
 const hatch = (color) => `repeating-linear-gradient(135deg, ${color} 0 4px, ${color}55 4px 8px)`;
 
@@ -223,6 +233,81 @@ export default function TimeChart({
               Day 8 ⟶
             </a>
           )}
+        </Row>
+
+        {/* Ages, then the periods inside them with each exile (▼) and return (▲) */}
+        <Row label="Ages" height="1.4rem">
+          {AGES.filter((a) => inView(a.am, a.amEnd)).map((a, i) => (
+            <div
+              key={a.id}
+              title={`${a.label} (${a.term}), ${a.refs}. ${a.note}`}
+              style={{
+                position: 'absolute',
+                left: clipX(a.am),
+                width: clipX(a.amEnd) - clipX(a.am),
+                top: 1,
+                bottom: 1,
+                background: AGE_TINT[i % AGE_TINT.length],
+                borderRadius: '0.25rem',
+                fontSize: '0.68rem',
+                fontWeight: 700,
+                color: theme.text,
+                lineHeight: '1.25rem',
+                textAlign: 'center',
+                whiteSpace: 'nowrap',
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+              }}
+            >
+              {a.label}
+            </div>
+          ))}
+        </Row>
+        <Row label="Periods" height="1.4rem">
+          {PERIODS.filter((p) => inView(p.am, p.amEnd)).map((p) => (
+            <div
+              key={p.id}
+              title={`${p.label} (${p.refs}). ${p.note}`}
+              style={{
+                position: 'absolute',
+                left: clipX(p.am),
+                width: clipX(p.amEnd) - clipX(p.am),
+                top: 1,
+                bottom: 1,
+                border: `1px solid ${theme.borderStrong}`,
+                background: p.id === 'exile' ? hatch('rgba(139,30,30,0.18)') : theme.cardBg,
+                borderRadius: '0.25rem',
+                fontSize: '0.66rem',
+                color: theme.text,
+                lineHeight: '1.2rem',
+                textAlign: 'center',
+                whiteSpace: 'nowrap',
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+              }}
+            >
+              {p.label}
+            </div>
+          ))}
+          {MOVEMENTS.filter((m) => inView(m.am)).map((m) => (
+            <div
+              key={m.id}
+              title={`${m.label}, ${formatGregorian(m.gregorian_year)} (${m.refs})`}
+              style={{
+                position: 'absolute',
+                left: amToX(m.am) - 6,
+                top: -2,
+                width: 12,
+                textAlign: 'center',
+                fontSize: '0.75rem',
+                lineHeight: 1,
+                color: m.direction === 'out' ? '#b91c1c' : '#15803d',
+                zIndex: 1,
+              }}
+            >
+              {m.direction === 'out' ? '▼' : '▲'}
+            </div>
+          ))}
         </Row>
 
         {/* Ruler */}
