@@ -4,7 +4,7 @@ category: "other"
 description: "External sources, tools, and datasets this project draws on."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-10-17
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -17,6 +17,14 @@ External sources, tools, and datasets this project draws on.
 
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
+
+-   __Getting Started: Your Own Study Workbench__
+
+    ---
+
+    Set up the same open-data Bible workbench and AI agent this site is built with: prerequisites, the data, the agent, copy-paste prompts, and what the commercial sources add if you leave them out.
+
+    [:octicons-arrow-right-24: Read](getting-started.md)
 
 -   __Jewish Literature & Primary Sources__
 

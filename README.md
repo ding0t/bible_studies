@@ -23,6 +23,8 @@ One site build, from two source trees:
 
 ## Getting Started
 
+Building your own study workbench (data, agent, prompts): see the [Getting Started guide](docs/content/resources/getting-started.md).
+
 ### Content (studies, commentaries)
 
 ```bash

@@ -5,7 +5,7 @@ description: "What Bible text, lexical, and commentary data backs this site, org
 tags: ["data", "sources", "licensing", "transparency"]
 draft: false
 date_created: 2026-07-27
-date_modified: 2026-10-15
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -23,7 +23,8 @@ It records where every source lives, which licence tier it sits in, how much of 
 and a short profile of what it is good and poor at. The build scripts and the query tools all read
 it, so this page and the tools agree.
 
-Four other pages take up neighbouring questions:
+Four other pages take up neighbouring questions, and [Getting Started](../resources/getting-started.md)
+shows how to build this data into a workbench of your own:
 
 - [Public Data Sources](../resources/public-data-sources.md) surveys the open Bible data that
   exists, including sources considered and turned down.
