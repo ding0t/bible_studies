@@ -178,6 +178,11 @@ FIGURES = {
                       mantle_fill="#e7d3c4", beard=False,
                       why="A woman of means from Magdala who provided for Jesus and the Twelve (Luke 8:2-3), so a dyed plum-rose robe "
                           "and a pale veil, a fixed choice kept apart from the generic women's robes. Scripture gives no detail of her dress."),
+    "nebuchadnezzar": dict(name="Nebuchadnezzar", study="last-things/the-image-and-the-kingdoms.md", robes=["#2b1f4f"],
+                           mantle="royal", mantle_fill="#e8d9b0", belt=GOLD, collar=True, beard="full",
+                           why="King of Babylon (Daniel 1:1; 2:1). Scripture gives no detail of his dress. Background, not Scripture: "
+                               "the tall rounded cap and long belted robe of a Neo-Babylonian king, as Nabonidus is shown on his stelae, "
+                               "with a gold collar. Deep indigo is a fixed choice, kept apart from the harlot's purple and Ezekiel's violet."),
 }
 CAST.update(FIGURES)
 
@@ -398,6 +403,11 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
     elif m == "veil":
         top.append(f'<path d="M13 -98 Q2 -113 -12 -98 Q-18 -80 -20 -40 Q-21 -16 -18 -6 L-12 -8 '
                    f'Q-12 -40 -6 -74 Q2 -84 9 -92 Z" fill="{c["mantle_fill"]}" stroke="{edge}" stroke-width="0.9"/>')
+    elif m == "royal":
+        # A tall rounded royal cap, banded at the brow (Babylonian background; see FIGURES["nebuchadnezzar"]).
+        top.append(f'<path d="M-11 -96 Q-12 -122 2 -124 Q16 -122 15 -96 Z" fill="{c["mantle_fill"]}" stroke="{edge}" stroke-width="0.9"/>'
+                   f'<path d="M-11 -97 Q2 -101 15 -97" fill="none" stroke="{GOLD_EDGE}" stroke-width="3"/>'
+                   f'<path d="M-6 -104 Q2 -107 10 -104 M-4 -112 Q2 -114 8 -112" fill="none" stroke="{GOLD_EDGE}" stroke-width="1" opacity="0.8"/>')
     elif m == "helmet":
         top.append(f'<path d="M-11 -92 Q-10 -106 3 -106 Q15 -105 15 -93 Z" fill="{c["mantle_fill"]}" stroke="{STONE_EDGE}" stroke-width="1"/>'
                    f'<path d="M-6 -106 Q2 -118 12 -106" fill="none" stroke="{RED}" stroke-width="4"/>'
@@ -1180,11 +1190,101 @@ def prop_rainbow(x, y, s):
     return "".join(out)
 
 
+# Nebuchadnezzar's image (Daniel 2:31-33), shared by the comics and the History Chart's Daniel plate
+# (utils/build_chart_sprites.py), so both draw one image. In its own units it is 120 wide and 320 tall,
+# with each part's band fixed so the chart can rule a line from a part to its kingdom: head 8-52, chest
+# and arms 52-118, middle and thighs 118-178, legs 178-268, feet 268-300. Faceless like the cast, and no
+# crown or ornament: Daniel gives the metals and nothing more. Each metal has a texture of its own as
+# well as a colour, so the parts stay apart printed in grey.
+STATUE_GOLD, STATUE_GOLD_EDGE = "#d9a820", "#8a6510"
+STATUE_SILVER, STATUE_SILVER_EDGE = "#c9ced3", "#6e757c"
+STATUE_BRONZE, STATUE_BRONZE_EDGE = "#b8743a", "#6e4520"
+STATUE_IRON, STATUE_IRON_EDGE = "#5d636a", "#2b2f33"
+STATUE_CLAY = "#c49a6c"
+
+
+def statue_body():
+    o = [f'<path d="M48 52 V44 Q38 40 38 28 Q38 8 60 8 Q82 8 82 28 Q82 40 72 44 V52 Z" fill="{STATUE_GOLD}" stroke="{STATUE_GOLD_EDGE}" stroke-width="1.6"/>']
+    o += [f'<circle cx="{x}" cy="{y}" r="1.1" fill="{STATUE_GOLD_EDGE}"/>' for x, y in ((50, 20), (60, 16), (70, 20), (55, 30), (65, 30), (60, 40))]
+    o.append(f'<path d="M26 58 Q30 52 48 52 H72 Q90 52 94 58 L90 118 H30 Z" fill="{STATUE_SILVER}" stroke="{STATUE_SILVER_EDGE}" stroke-width="1.6"/>')
+    o.append(f'<path d="M26 58 L14 70 L12 114 L22 116 L26 76 Z M94 58 L106 70 L108 114 L98 116 L94 76 Z" fill="{STATUE_SILVER}" stroke="{STATUE_SILVER_EDGE}" stroke-width="1.6"/>')
+    o += [f'<path d="M34 {y} H86" stroke="{STATUE_SILVER_EDGE}" stroke-width="0.8" opacity="0.7"/>' for y in range(66, 116, 8)]
+    o.append(f'<path d="M30 118 H90 L92 150 L88 178 H63 L60 156 L57 178 H32 L28 150 Z" fill="{STATUE_BRONZE}" stroke="{STATUE_BRONZE_EDGE}" stroke-width="1.6"/>')
+    o += [f'<path d="M{x} 120 l-12 12" stroke="{STATUE_BRONZE_EDGE}" stroke-width="0.8" opacity="0.7"/>' for x in range(44, 92, 8)]
+    o += [f'<path d="M{x} 146 l-10 10" stroke="{STATUE_BRONZE_EDGE}" stroke-width="0.8" opacity="0.7"/>' for x in (44, 52, 76, 84)]
+    o.append(f'<path d="M33 178 H57 L55 268 H37 Z M63 178 H87 L83 268 H65 Z" fill="{STATUE_IRON}" stroke="{STATUE_IRON_EDGE}" stroke-width="1.6"/>')
+    o.append('<path d="M42 184 V262 M72 184 V262" stroke="#8d949b" stroke-width="1.4" opacity="0.8"/>')
+    # Feet and toes, partly iron and partly clay: ten toes (Daniel 2:42).
+    for fx in (28, 62):
+        o.append(f'<path d="M{fx + 8} 268 H{fx + 26} L{fx + 30} 290 H{fx + 2} Z" fill="{STATUE_IRON}" stroke="{STATUE_IRON_EDGE}" stroke-width="1.4"/>')
+        o.append(f'<path d="M{fx + 12} 274 h6 v8 h-6 Z M{fx + 20} 280 h5 v8 h-5 Z M{fx + 6} 282 h5 v6 h-5 Z" fill="{STATUE_CLAY}"/>')
+        for t in range(5):
+            o.append(f'<rect x="{fx + 3 + t * 5.6:.1f}" y="290" width="4.8" height="10" rx="2" fill="{STATUE_IRON if t % 2 else STATUE_CLAY}" stroke="{STATUE_IRON_EDGE}" stroke-width="1"/>')
+    return "".join(o)
+
+
+def stone_body():
+    """The stone cut out by no human hand (Daniel 2:34, 45), in its own 40-unit box."""
+    return ('<path d="M8 22 Q6 10 18 6 Q30 2 34 14 Q38 26 26 32 Q12 36 8 22 Z" fill="#b3a897" stroke="#5e5547" stroke-width="1.6"/>'
+            '<path d="M16 14 l6 3 M24 22 l5 -2 M14 24 l4 3" stroke="#5e5547" stroke-width="1"/>')
+
+
+def prop_statue(x, y, s):
+    """Nebuchadnezzar's image standing on y, about 160 units tall at s = 1 (Daniel 2:31-33)."""
+    k = s * 0.5
+    return f'<g transform="translate({x - 60 * k:.1f} {y - 300 * k:.1f}) scale({k:.3f})">{statue_body()}</g>'
+
+
+def prop_stone(x, y, s):
+    """The stone in flight, with speed lines behind it (Daniel 2:34). Centred on (x, y)."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M-60 -16 H-26 M-66 -4 H-24 M-58 8 H-26" stroke="#5e5547" stroke-width="2" stroke-linecap="round" opacity="0.6"/>'
+            f'<g transform="translate(-20 -20)">{stone_body()}</g></g>')
+
+
+def prop_chaff(x, y, s):
+    """The image broken "all together" and blowing away "like the chaff of the summer threshing floors"
+    (Daniel 2:35): fragments of each metal and the clay, carried off by the wind. Base on y."""
+    bits = ((STATUE_GOLD, -40, -60, 20), (STATUE_SILVER, -10, -40, -15), (STATUE_BRONZE, 20, -70, 35),
+            (STATUE_IRON, 50, -30, -25), (STATUE_CLAY, 75, -55, 10), (STATUE_GOLD, 95, -20, 40),
+            (STATUE_SILVER, 30, -12, 60), (STATUE_IRON, -25, -10, -40), (STATUE_BRONZE, 110, -45, -10),
+            (STATUE_CLAY, 5, -95, 25), (STATUE_IRON, 70, -90, 50), (STATUE_SILVER, 125, -75, -30))
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           '<path d="M-70 -50 Q0 -70 70 -55 T160 -60 M-60 -20 Q20 -36 90 -24 T170 -30 M-50 -85 Q30 -100 110 -88" '
+           'fill="none" stroke="#8a8178" stroke-width="1.6" stroke-linecap="round" opacity="0.6"/>']
+    for col, bx, by, r in bits:
+        out.append(f'<path d="M{bx} {by} l9 -4 l5 7 l-8 5 Z" fill="{col}" stroke="#2b2f33" stroke-width="0.6" transform="rotate({r} {bx} {by})"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+def prop_mountain(x, y, s):
+    """The stone become "a great mountain" that "filled the whole earth" (Daniel 2:35): a mountain of the
+    stone's own grey, wider than the panel. Base on y."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<path d="M-260 0 Q-170 -60 -90 -120 Q-30 -170 0 -176 Q40 -168 100 -112 Q180 -50 260 0 Z" fill="#b3a897" stroke="#5e5547" stroke-width="1.6"/>'
+            '<path d="M-40 -150 Q-10 -130 -30 -90 M30 -140 Q60 -100 40 -60 M-120 -70 Q-90 -50 -110 -20 M120 -70 Q150 -40 130 -10" '
+            'fill="none" stroke="#8a8070" stroke-width="1.4"/>'
+            '<path d="M-16 -170 Q0 -178 18 -168 Q6 -160 -16 -170 Z" fill="#d8d0c0"/></g>')
+
+
+def prop_bed(x, y, s):
+    """A king's couch, low and wooden with a cushion, for "as you lay in bed" (Daniel 2:28-29). A figure
+    lying on it takes dy = -0.07 * s. About 130 units long."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<rect x="-66" y="-22" width="132" height="12" rx="3" fill="#7a5230" stroke="#4a3018" stroke-width="1.2"/>'
+            '<path d="M-60 -10 V0 M60 -10 V0" stroke="#4a3018" stroke-width="5"/>'
+            '<rect x="-64" y="-30" width="128" height="9" rx="4" fill="#d8c9a6" stroke="#8d7650" stroke-width="1"/>'
+            '<path d="M-66 -22 Q-72 -40 -60 -44 L-56 -24 Z" fill="#7a5230" stroke="#4a3018" stroke-width="1"/>'
+            f'<ellipse cx="-50" cy="-34" rx="14" ry="6" fill="#a03a2a" stroke="#5a1f15" stroke-width="0.8"/></g>')
+
+
 PROPS = {"vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne,
          "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall, "idol": prop_idol,
-         "ark": prop_ark, "tower": prop_tower, "tablets": prop_tablets, "rainbow": prop_rainbow}
+         "ark": prop_ark, "tower": prop_tower, "tablets": prop_tablets, "rainbow": prop_rainbow,
+         "statue": prop_statue, "stone": prop_stone, "chaff": prop_chaff, "mountain": prop_mountain, "bed": prop_bed}
 
 
 SCENES = {

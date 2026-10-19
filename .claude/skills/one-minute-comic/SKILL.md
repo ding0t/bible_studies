@@ -167,6 +167,7 @@ comic knows him in the next. Each is reserved once, in `FIGURES` in `utils/lib/c
 | `daniel` | Daniel | Saffron courtier's tunic (Daniel 2:48), cream mantle | those-called-gods |
 | `joseph` | Joseph, son of Jacob | Young and clean-shaven (Genesis 39:6; 41:14), a jade tunic and no outer garment, the one he left in her hand (39:12) | sexual-immorality |
 | `magdalene` | Mary Magdalene | A plum-rose robe and a pale veil, a woman of means who provided for Jesus (Luke 8:2-3) | jesus-and-women |
+| `nebuchadnezzar` | Nebuchadnezzar | Deep indigo robe, gold belt and collar, full beard, the tall rounded cap of a Neo-Babylonian king: background, not Scripture, so the comic's `note` says so | the-image-and-the-kingdoms |
 
 - **Reserve only a figure the text names.** The two witnesses are unnamed in Revelation 11 and
   contested in the study, so they are the generic `witness` (sackcloth), never a reserved Moses
@@ -255,7 +256,7 @@ clones:
   `tomb` (open, the stone rolled back), `cloud`, `ruin` (a wall cracking and falling), `breath` (gold
   currents for the breath of life), `gift`, `fire` (a charcoal fire), `rooster`,
   `vine` (a grapevine on a trellis, heavy with clusters, John 15:1-5), `kophinos` (a small wicker basket), `spyris` (a large hamper), `loaf`, `sheep`, `load` (a corded
-  bundle, set down), `yoke`, `well` (a stone parapet, Jacob's well), `shaft` and `spring` (for thought pictures), and `hull`, which runs from
+  bundle, set down), `yoke`, `statue` (Nebuchadnezzar's image, shared with the History Chart), `stone` (in flight), `chaff` (the image's metals blowing away, Daniel 2:35), `mountain`, `bed` (a figure lying on it takes `dy = -0.075`), `ark`, `tower`, `tablets`, `rainbow`, `well` (a stone parapet, Jacob's well), `shaft` and `spring` (for thought pictures), and `hull`, which runs from
   `x` to `x2` and takes `front = true` so it is drawn over the people standing in it. For judgment
   scenes: `bema` (a raised stone tribunal with steps; a figure on it takes `dy = -0.156 * s`),
   `throne` (a throne with the one seated on it drawn as light, since Revelation 4:2-3 and 20:11 give
