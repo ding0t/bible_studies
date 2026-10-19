@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Mark 2:16"
 bible_references: ["Mark 2:16", "Luke 5:30", "Acts 23:6-9", "Acts 19:35", "1 Corinthians 1:20", "Ezra 7:6-11", "Acts 5:17", "Acts 15:5", "Acts 26:5", "Philippians 3:5", "Matthew 5:20", "Matthew 23:1-36", "Luke 11:42-52", "Mark 12:38", "Mark 1:22", "John 7:15", "Matthew 13:52", "Matthew 23:34", "Mark 7:3", "Nehemiah 8:8", "Luke 11:53", "Acts 22:3"]
 date_created: 2026-10-01
-date_modified: 2026-10-01
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -405,3 +405,5 @@ Jesus, learn what He teaches, and go where He sends you.
 
 - [The Scribe Trained for the Kingdom](scribe-trained-for-the-kingdom.md) — Matthew 13:52, the
   disciple Jesus makes into a scribe.
+- [Preparing to Teach](../teaching/preparing-to-teach.md) — Ezra's pattern of study, do, teach
+  (Ezra 7:10) applied to preparing a lesson.
