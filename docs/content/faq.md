@@ -1,11 +1,11 @@
 ---
 title: "FAQ"
 category: "other"
-description: "Short answers to the questions readers arrive with — who writes this, how AI is used, what I believe, which translation and why, and how to check any claim on the site for yourself."
+description: "Short answers to the questions readers arrive with — who writes this, how AI is used, what I believe, which translations and why, what the timeline is for, and how to check any claim on the site for yourself."
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -147,11 +147,24 @@ against them. → [Ancient texts and manuscripts](scripture/ancient-texts-manusc
 
 ## Bible text and translations
 
-### Which translation do you use, and why?
+### Which translations do you use, and why?
 
-The ESV for quotation, cross-checked against the NASB, NIV and NLT wherever a verse is disputed or
-ambiguous — differently weighted translations disagreeing is itself information. The Masoretic Text
-and the Septuagint anchor the original-language work.
+**Two English Bibles do most of the work: the ESV in the studies' prose and the WEB everywhere
+else.** The ESV is the text a study quotes, chosen because it is literal enough for close reading,
+and its quotations are checked against the ESV's own text. The World English
+Bible is public domain, so the site can carry all of it: it is the verse that opens in a pop-up
+when you tap any reference, and a study quotes it where a passage has to be reproduced at length.
+
+Behind those two, a study compares more:
+
+- **Other English translations**, to see a disputed or ambiguous verse from several sides: the
+  NASB and LSB (the most literal; the LSB prints the divine name as Yahweh), the NIV, NLT and CSB
+  (more readable), and the ASV, YLT and ULT as literal cross-checks. The ULT records which Hebrew
+  or Greek word stands behind each English word.
+- **The original languages**: the Masoretic Hebrew text and the Septuagint for the Old Testament,
+  the Greek New Testament in its modern critical editions, and the Dead Sea Scrolls and Samaritan
+  Pentateuch where they read differently.
+
 → [Translation philosophy](scripture/translations.md#translation-philosophy)
 
 ### Why not the KJV or the NKJV?
@@ -294,13 +307,29 @@ Directories carry the subject and tags carry everything else — method, languag
 [Scripture Links](references.md) goes the other way, from a verse to what connects to it.
 → [Our taxonomy](about/our-taxonomy.md)
 
-### What are the timeline and genealogy pages?
+### What is the timeline for?
 
-One interactive chart rather than pages of prose. The [Timeline](timeline.md) sets creation
-through to the millennial reign against the millennial-week framework, with a row for every person
-in the genealogy from Adam to Jesus: lifespans, Hebrew name meanings, family, and who was alive at
-the same time as whom, which is more surprising than it sounds. It zooms from the whole of history
-down to AD 33 hour by hour, and a family-tree view shows the same people by descent.
+**To see the whole of God's work in history at once, in the shape He gave it.** "With the Lord one
+day is as a thousand years" (2 Peter 3:8, ESV), and the [Prophetic Timeline](timeline.md) lays
+history out that way: seven thousand-year days from creation to the millennial reign. It puts a
+passage you are reading in its place, beside what came before it and what it looks forward to. It
+shows who was alive at the same time as whom, which surprises most readers: Methuselah dies in the
+year of the Flood, and Noah's son Shem is still alive when Abraham is 150. It sets the dated records of
+archaeology beside the biblical events they confirm.
+
+It has a row for every person in the genealogy from Adam to Jesus, with lifespans, Hebrew name
+meanings and family. It zooms from the whole week down to AD 33 hour by hour, and a family-tree
+view shows the same people by descent. Every date is argued for in the
+[Chronology](chronology/index.md) studies.
+
+### Can I print the timeline?
+
+**Yes: the [History Chart](chronology/history-chart.md) prints any stretch of it on A4 sheets**,
+for a classroom wall, a small group or your own Bible. It draws the creation days over their
+thousand years, the ages from before the Flood to the new creation, the main events with a picture
+over each, the people, the manuscripts and inscriptions that bear witness to the history, and
+threads that follow a promise to its fulfilment. Choose a period and a number of sheets, print in
+colour or black and white, or download a sheet to take to a print shop.
 
 ### Can I quote or reuse this?
 

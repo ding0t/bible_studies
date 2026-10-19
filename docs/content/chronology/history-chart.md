@@ -23,7 +23,7 @@ the millennial kingdom and the new creation.
 
 Under them run the lanes. **Scripture and history** carries the events with a picture over the
 main ones. **People** draws each life in the genealogy from Adam to Jesus to scale, so you can see
-Methuselah die in the year of the Flood and Shem outlive Abraham's birth by centuries. **Texts and
+Methuselah die in the year of the Flood and Noah's son Shem still alive when Abraham is 150. **Texts and
 finds** places the manuscripts, inscriptions and ancient writers from
 [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md) against the history
 they bear witness to. **Threads** follow a promise to its fulfilment: the promised Seed from

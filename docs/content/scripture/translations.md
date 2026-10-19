@@ -5,7 +5,7 @@ description: "The English translations, Hebrew Masoretic witnesses, and Greek Ne
 tags: ["translations", "versions", "lang/hebrew", "lang/greek", "septuagint", "masoretic", "method/textual-criticism"]
 draft: false
 date_created: 2025-06-07
-date_modified: 2026-10-09
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -37,7 +37,9 @@ Our default is the **ESV** for prose quotation. We cross-check it against **NASB
 **NLT**, for how differently-weighted translation philosophies render a disputed or ambiguous verse.
 Against the **LSB** where the divine name is at stake, since it prints Yahweh where the others print
 LORD. And against **WEB**, **ASV**, and **YLT** when we need a text we can actually store, search,
-and quote in full without a permissions ceiling. The Masoretic Text and Septuagint anchor original-
+and quote in full without a permissions ceiling. That makes the **WEB** the translation readers see
+most: it is the verse text in every pop-up on the site, and the one a study quotes when a passage
+has to be reproduced at length. The Masoretic Text and Septuagint anchor original-
 language word studies. The Greek New Testament entries below anchor NT word studies and textual-
 criticism notes. See [AGENTS.md](https://github.com/ding0t/bible_studies/blob/main/AGENTS.md) for
 the standing rule this page expands on.
