@@ -1123,10 +1123,68 @@ def prop_idol(x, y, s):
             '<path d="M51 -22 Q44 -36 52 -46 Q60 -56 50 -70" fill="none" stroke="#8a8178" stroke-width="2.4" opacity="0.7"/></g>')
 
 
+def prop_ark(x, y, s):
+    """The ark side-on, riding the water: a box with a roof, not a ship's hull. Genesis 6:14-16 gives
+    300 cubits by 30, three decks, a door in its side and a roof finished a cubit above, so the hull is
+    drawn ten times as long as it is high, with no prow and no mast. Waterline on y, 220 units long."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           '<path d="M-110 -4 H110 V-26 H-110 Z" fill="#8a6440" stroke="#4a3420" stroke-width="1.4"/>',
+           '<path d="M-114 -26 L-104 -34 H104 L114 -26 Z" fill="#6e4e30" stroke="#4a3420" stroke-width="1.2"/>',
+           '<path d="M-104 -30 H104" stroke="#d8c7a3" stroke-width="1.6" stroke-dasharray="6 5"/>']
+    for dy in (-11, -18):
+        out.append(f'<path d="M-110 {dy} H110" stroke="#4a3420" stroke-width="0.8" opacity="0.7"/>')
+    for bx in range(-100, 110, 20):
+        out.append(f'<path d="M{bx} -4 V-26" stroke="#4a3420" stroke-width="0.5" opacity="0.45"/>')
+    out.append('<rect x="34" y="-24" width="12" height="16" fill="#3a2a1a" stroke="#4a3420" stroke-width="0.8"/>')
+    out.append(f'<path d="M-130 0 Q-110 -6 -90 0 T-50 0 T-10 0 T30 0 T70 0 T110 0 T150 0" fill="none" stroke="{WATER}" stroke-width="3"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+def prop_tower(x, y, s):
+    """Babel's tower: stepped courses of baked brick (Genesis 11:3), the top left unfinished because
+    they "left off building the city" (11:8). Base on y, about 150 units tall."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">']
+    tiers = ((-64, 64, 0, -38), (-50, 50, -38, -72), (-36, 36, -72, -104), (-22, 22, -104, -132))
+    for k, (x0, x1, y0, y1) in enumerate(tiers):
+        out.append(f'<path d="M{x0} {y0} H{x1} V{y1} H{x0} Z" fill="{_shade("#c9a97a", 1 - 0.05 * k)}" stroke="#7a5a36" stroke-width="1.2"/>')
+        for ry in range(y0 - 8, y1, -8):
+            out.append(f'<path d="M{x0} {ry} H{x1}" stroke="#7a5a36" stroke-width="0.5" opacity="0.6"/>')
+    out.append('<path d="M-64 0 L-12 -38 M64 0 L12 -38" stroke="#7a5a36" stroke-width="1" opacity="0.5"/>')
+    out.append('<path d="M-14 -132 V-150 M14 -132 V-146 M-14 -142 H14" stroke="#5a3d22" stroke-width="2"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+def prop_tablets(x, y, s):
+    """The two tablets of the testimony, stone, written on both sides (Exodus 31:18; 32:15). Scripture
+    gives no shape, so they are plain slabs, and the writing is ruled lines: no numerals, no letters.
+    Base on y, about 60 units tall."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">']
+    for tx in (-44, 4):
+        out.append(f'<rect x="{tx}" y="-60" width="40" height="60" rx="3" fill="{STONE}" stroke="{STONE_EDGE}" stroke-width="1.4"/>')
+        for ly in range(-50, -6, 7):
+            out.append(f'<path d="M{tx + 7} {ly} H{tx + 33}" stroke="{STONE_EDGE}" stroke-width="1" opacity="0.75"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+def prop_rainbow(x, y, s):
+    """The bow in the cloud, the sign of the covenant never again to flood the earth (Genesis 9:13-15).
+    Its feet stand on y either side of x; about 300 units across."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})" fill="none" opacity="0.85">']
+    for k, col in enumerate(("#c0392b", "#e67e22", "#f1c40f", "#27ae60", "#2e86c1", "#6c3483")):
+        r = 150 - k * 7
+        out.append(f'<path d="M{-r} 0 A{r} {r * 0.82:.0f} 0 0 1 {r} 0" stroke="{col}" stroke-width="7"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
 PROPS = {"vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne,
-         "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall, "idol": prop_idol}
+         "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall, "idol": prop_idol,
+         "ark": prop_ark, "tower": prop_tower, "tablets": prop_tablets, "rainbow": prop_rainbow}
 
 
 SCENES = {

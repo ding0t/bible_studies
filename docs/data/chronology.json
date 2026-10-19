@@ -67,6 +67,74 @@
     "note": "After the thousand years, a new heaven and a new earth (Revelation 21:1) with no night (21:25; 22:5). Scripture never calls it 'the eighth day'; the Law's eighth days (Leviticus 23:36, 39; 9:23) are the type the early church read it from. It has a beginning and no end, so the chart draws it open and counts no years in it.",
     "url": "/last-things/new-heaven-and-new-earth/#the-eighth-day"
   },
+  "ages_note": "The ages of history in the common terms Christians use for them, from Creation to the new creation. Each age starts at an event in this file (`from`), so it moves with the epoch instead of storing a year; `from_am` is used only where the start is a millennial-day boundary. The order follows this site's dispensational reading (statement-of-faith.md, 'End times'). The church age's end is the rapture, which Scripture leaves undated (Mark 13:32; Acts 1:7), so it carries `open_end` and the chart fades it out; certainty uses the future_sequence vocabulary.",
+  "ages": [
+    {
+      "id": "antediluvian",
+      "label": "Before the Flood",
+      "term": "Antediluvian",
+      "from": "creation",
+      "refs": "Genesis 1-7",
+      "certainty": "stated",
+      "note": "From Creation through the Fall to the Flood: Adam to Noah, ten generations (Genesis 5)."
+    },
+    {
+      "id": "postdiluvian",
+      "label": "After the Flood",
+      "term": "Postdiluvian",
+      "from": "flood",
+      "refs": "Genesis 8-11",
+      "certainty": "stated",
+      "note": "The covenant with Noah (Genesis 9:8-17), the nations and Babel, Shem to Terah (Genesis 10-11)."
+    },
+    {
+      "id": "patriarchs",
+      "label": "The patriarchs",
+      "term": "Patriarchal age",
+      "from": "abram_called",
+      "refs": "Genesis 12 - Exodus 12",
+      "certainty": "stated",
+      "note": "The promise to Abraham (Genesis 12:1-3), Isaac, Jacob and the twelve, and the sojourn in Egypt."
+    },
+    {
+      "id": "law",
+      "label": "Israel under the Law",
+      "term": "Age of the Law",
+      "from": "exodus_early_date",
+      "refs": "Exodus 19 - the Gospels",
+      "certainty": "stated",
+      "note": "From Sinai to the cross: the covenant, the land, the kings, the exile and return. \"The law was our guardian until Christ came\" (Galatians 3:24, ESV)."
+    },
+    {
+      "id": "church",
+      "label": "The church age",
+      "term": "Age of grace",
+      "from": "anchor_41",
+      "refs": "Acts 2 - 1 Thessalonians 4:17",
+      "certainty": "stated",
+      "open_end": true,
+      "note": "From Pentecost, fifty days after the resurrection in AD 33 (Acts 2:1), to the rapture, whose day is not given (Mark 13:32; Acts 1:7)."
+    },
+    {
+      "id": "kingdom",
+      "label": "The millennial kingdom",
+      "term": "The thousand years",
+      "from": "millennial_reign_start",
+      "refs": "Revelation 20:2-7",
+      "certainty": "site-reading",
+      "note": "Christ reigns a thousand years (Revelation 20:4). It is placed on Day 7 by this site's reading of 2 Peter 3:8; the year it begins is not given."
+    },
+    {
+      "id": "new_creation",
+      "label": "The new creation",
+      "term": "The eternal state",
+      "from_am": 7000,
+      "refs": "Revelation 21-22",
+      "certainty": "stated",
+      "open_end": true,
+      "note": "A new heaven and a new earth, with no end (Revelation 21:1; 22:5)."
+    }
+  ],
   "epochs": [
     {
       "id": "genealogy",
@@ -3521,6 +3589,265 @@
       "people": [
         "jesus"
       ]
+    }
+  ],
+  "artifacts_note": "Texts and archaeology against the biblical history: the dated entries of the catalogue in Ancient Texts and Manuscripts (scripture/ancient-texts-manuscripts.md), with that study's dates. Each stores ONE calendar (gregorian_year, plus gregorian_end for a date range). The Merneptah Stele is in `anchors` and the bullae are undated, so neither is repeated here. kind: manuscript (a copy of Scripture), inscription (stone, clay or metal), historian (an ancient writer naming Jesus or the church).",
+  "artifacts": [
+    {
+      "id": "amarna_letters",
+      "label": "The Amarna Letters",
+      "kind": "inscription",
+      "gregorian_year": -1360,
+      "gregorian_end": -1332,
+      "refs": "Joshua 10:1-5; Judges 1:21",
+      "image": "/assets/img/archaeology/amarna-letter-gezer.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "tel_dan",
+      "label": "The Tel Dan Inscription: \"house of David\"",
+      "kind": "inscription",
+      "gregorian_year": -841,
+      "refs": "2 Kings 8:7-15; 9:14-15",
+      "image": "/assets/img/archaeology/tel-dan-stele.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "mesha_stele",
+      "label": "The Mesha Stele (Moabite Stone)",
+      "kind": "inscription",
+      "gregorian_year": -840,
+      "refs": "2 Kings 3:4-5",
+      "image": "/assets/img/archaeology/mesha-stele.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "siloam_inscription",
+      "label": "The Siloam Inscription",
+      "kind": "inscription",
+      "gregorian_year": -701,
+      "refs": "2 Chronicles 32:2-4, 30",
+      "image": "/assets/img/archaeology/siloam-inscription.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "taylor_prism",
+      "label": "The Taylor Prism (Sennacherib)",
+      "kind": "inscription",
+      "gregorian_year": -690,
+      "refs": "2 Kings 18:13-16; 19:35-36",
+      "image": "/assets/img/archaeology/taylor-prism.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "babylonian_chronicles",
+      "label": "The Babylonian Chronicles",
+      "kind": "inscription",
+      "gregorian_year": -626,
+      "gregorian_end": -539,
+      "refs": "2 Kings 24:10-12; 25:1-2",
+      "image": "/assets/img/archaeology/babylonian-chronicle-jerusalem.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "ketef_hinnom",
+      "label": "The Ketef Hinnom silver scrolls",
+      "kind": "manuscript",
+      "gregorian_year": -600,
+      "refs": "Numbers 6:24-26",
+      "image": "/assets/img/archaeology/ketef-hinnom-silver-scrolls.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "lachish_letters",
+      "label": "The Lachish Letters",
+      "kind": "inscription",
+      "gregorian_year": -588,
+      "gregorian_end": -586,
+      "refs": "Jeremiah 34:7",
+      "image": "/assets/img/archaeology/lachish-letter-4.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "cyrus_cylinder",
+      "label": "The Cyrus Cylinder",
+      "kind": "inscription",
+      "gregorian_year": -539,
+      "refs": "Isaiah 44:28; 45:1-4; Ezra 1:1-4",
+      "image": "/assets/img/archaeology/cyrus-cylinder.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "dead_sea_scrolls",
+      "label": "The Dead Sea Scrolls",
+      "kind": "manuscript",
+      "gregorian_year": -250,
+      "gregorian_end": 68,
+      "refs": "Isaiah 53; Daniel 9:24-27; Psalm 22",
+      "image": "/assets/img/archaeology/dead-sea-scrolls-isaiah-53.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "caiaphas_ossuary",
+      "label": "The Caiaphas Ossuary",
+      "kind": "inscription",
+      "gregorian_year": 18,
+      "gregorian_end": 36,
+      "refs": "Matthew 26:3, 57-68; John 11:49-50",
+      "image": "/assets/img/archaeology/caiaphas-ossuary.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "pilate_stone",
+      "label": "The Pontius Pilate Stone",
+      "kind": "inscription",
+      "gregorian_year": 26,
+      "gregorian_end": 36,
+      "refs": "Matthew 27:2; Luke 3:1",
+      "image": "/assets/img/archaeology/pilate-stone.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "josephus",
+      "label": "Josephus, Antiquities",
+      "kind": "historian",
+      "gregorian_year": 93,
+      "gregorian_end": 94,
+      "refs": "Matthew 14:1-12; Galatians 1:19",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "pliny",
+      "label": "Pliny the Younger's letter on the Christians",
+      "kind": "historian",
+      "gregorian_year": 112,
+      "refs": "Acts 20:7; Colossians 3:16",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "tacitus",
+      "label": "Tacitus, Annals",
+      "kind": "historian",
+      "gregorian_year": 116,
+      "refs": "Luke 3:1; Acts 28:14-31",
+      "image": "/assets/img/archaeology/tacitus-annals-mediceus.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "suetonius",
+      "label": "Suetonius, Lives of the Caesars",
+      "kind": "historian",
+      "gregorian_year": 121,
+      "refs": "Acts 18:2",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "p52",
+      "label": "Papyrus P52 (John Rylands)",
+      "kind": "manuscript",
+      "gregorian_year": 125,
+      "gregorian_end": 150,
+      "refs": "John 18:31-33, 37-38",
+      "image": "/assets/img/archaeology/p52.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "p66",
+      "label": "Papyrus P66 (Bodmer II)",
+      "kind": "manuscript",
+      "gregorian_year": 175,
+      "gregorian_end": 200,
+      "refs": "John 1:1; 3:16; 20:31",
+      "image": "/assets/img/archaeology/p66.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "p46",
+      "label": "Papyrus P46 (Chester Beatty II)",
+      "kind": "manuscript",
+      "gregorian_year": 175,
+      "gregorian_end": 225,
+      "refs": "Romans 5:1; 1 Corinthians 15:3-4",
+      "image": "/assets/img/archaeology/p46.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "talmud",
+      "label": "The Talmud references",
+      "kind": "historian",
+      "gregorian_year": 200,
+      "gregorian_end": 500,
+      "refs": "Matthew 12:24; John 19:14",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "vaticanus",
+      "label": "Codex Vaticanus",
+      "kind": "manuscript",
+      "gregorian_year": 300,
+      "gregorian_end": 325,
+      "refs": "the whole Bible in Greek",
+      "image": "/assets/img/archaeology/codex-vaticanus.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "sinaiticus",
+      "label": "Codex Sinaiticus",
+      "kind": "manuscript",
+      "gregorian_year": 330,
+      "gregorian_end": 360,
+      "refs": "the whole New Testament in Greek",
+      "image": "/assets/img/archaeology/codex-sinaiticus.jpg",
+      "study_ref": "scripture/ancient-texts-manuscripts"
+    }
+  ],
+  "threads_note": "Larkin-style lines of thought: each thread joins events in this file, in order, so the chart can draw a promise to its fulfilment or a theme across centuries. `events` are ids from loadEvents(); kind 'line' draws a ribbon through them, 'arc' a span from the first to the last (a counted prophecy). certainty as in future_sequence: 'stated' where Scripture itself draws the link (the refs say where), 'site-reading' where it rests on this site's chronology.",
+  "threads": [
+    {
+      "id": "seed",
+      "label": "The promised Seed",
+      "kind": "line",
+      "certainty": "stated",
+      "events": [
+        "abram_called",
+        "david_davidic_covenant",
+        "ahaz_immanuel_prophecy",
+        "annunciation",
+        "anchor_41"
+      ],
+      "refs": "Genesis 12:3; Galatians 3:16; 2 Samuel 7:12-16; Luke 1:32-33; Isaiah 7:14; Matthew 1:23",
+      "note": "Abraham's offspring, David's son, Immanuel: the promise the New Testament names fulfilled in Jesus."
+    },
+    {
+      "id": "temple",
+      "label": "The temple",
+      "kind": "line",
+      "certainty": "stated",
+      "events": [
+        "anchor_01",
+        "anchor_12",
+        "anchor_16",
+        "anchor_18",
+        "anchor_28",
+        "anchor_29",
+        "anchor_36",
+        "anchor_39"
+      ],
+      "refs": "1 Kings 6:1; 2 Kings 25:9; Ezra 3:10; 6:15; Daniel 11:31; John 2:19-21",
+      "note": "Built, burned, rebuilt, defiled, cleansed and rebuilt again; Jesus spoke of the temple of His body (John 2:21)."
+    },
+    {
+      "id": "seventy_weeks",
+      "label": "Daniel's 69 weeks",
+      "kind": "arc",
+      "certainty": "site-reading",
+      "events": [
+        "anchor_20",
+        "daniel_terminus_hoehner"
+      ],
+      "refs": "Daniel 9:25-26; Nehemiah 2:1-8",
+      "note": "From the decree to restore Jerusalem to the Anointed One cut off, counted in years of 360 days (Hoehner).",
+      "span_label": "483 years of 360 days (476 of ours)"
     }
   ]
 }

@@ -7,7 +7,7 @@ draft: false
 hide:
   - toc
 date_created: 2026-08-24
-date_modified: 2026-10-08
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -28,7 +28,8 @@ sets out what can be dated and how tightly, and why the site anchors where it do
 and Eighty Years](chronology/four-hundred-and-eighty-years.md) counts back from the temple to the
 Exodus, and [Why Not 4004 BC?](chronology/why-not-4004-bc.md) explains why this line sits
 forty-five years after Ussher's. Every study behind these dates is in
-[Chronology](chronology/index.md).
+[Chronology](chronology/index.md). To print any period on A4 sheets, with pictures, the ages and
+the dated texts and finds, use the [History Chart](chronology/history-chart.md).
 
 Pick a period to zoom in (from Creation to the Flood down to the years Jesus was on earth) or type
 any range of years, and the list under the chart shows every event in view. AD 33 can be followed

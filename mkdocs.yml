@@ -497,6 +497,7 @@ extra_css:
   - assets/stylesheets/new-pages.css
   - assets/stylesheets/video-embed.css
   - assets/stylesheets/memory-verses.css
+  - assets/stylesheets/history-chart.css
   - assets/stylesheets/hebrew.css
   - assets/stylesheets/greek.css
   - assets/stylesheets/home.css

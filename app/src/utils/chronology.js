@@ -46,7 +46,8 @@ let eventsCache = null;
 
 /**
  * Every dated event on the site, from one place: the Genesis markers, the anchor table, the other
- * archaeological anchors, the prophecy milestones, the AD 33 sequence and the life events. Each is
+ * archaeological anchors, the catalogued texts and artifacts, the prophecy milestones, the AD 33
+ * sequence and the life events. Each is
  * stored once; `people` names everyone it involves. Undated events (Scripture gives no year) carry
  * am and gregorian of null.
  */
@@ -67,6 +68,10 @@ export function loadEvents() {
   for (const e of chronology.genesis_markers) add('genesis', e, bothCalendars(e.am_year));
   for (const e of chronology.anchor_table) add('anchor', e, bothCalendars(null, e.gregorian_year));
   for (const e of chronology.anchors) add('archaeology', e, bothCalendars(null, e.gregorian_year));
+  for (const e of chronology.artifacts)
+    add('artifact', e, bothCalendars(null, e.gregorian_year), {
+      am_end: e.gregorian_end != null ? gregorianToAm(e.gregorian_end, SITE_EPOCH) : undefined,
+    });
   for (const e of chronology.milestones) add('milestone', e, bothCalendars(e.am_year, e.gregorian_year));
   for (const e of chronology.passion_sequence.events) add('passion', e, bothCalendars(null, AD33), { hour: e.at });
   for (const e of chronology.life_events) add('life', e, e.undated ? bothCalendars() : bothCalendars(e.am, e.gregorian));

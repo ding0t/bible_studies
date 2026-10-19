@@ -1,0 +1,111 @@
+# Pictures for the History Chart (docs/content/chronology/history-chart.md), drawn from the comic
+# library by: python3 utils/build_chart_sprites.py
+#
+# Each vignette is one comic panel with no bubbles and no caption, keyed by the id of the event it
+# illustrates in docs/data/chronology.json (anything loadEvents() returns). The chart puts it above
+# that event when there is room. The panel fields are the comic ones (scene, sky, cast, props); see
+# .claude/skills/one-minute-comic/SKILL.md. `shows` is the alt text, read aloud by a screen reader
+# and printed nowhere.
+#
+# The comic rules hold here too: nothing is drawn that the text does not give. Adam and Eve wear
+# Genesis 3:21's skins, so they are not drawn at Creation, where they wore nothing (Genesis 2:25).
+
+[[vignette]]
+event = "creation"
+scene = "plain"
+sky = "dawn"
+shows = "first light over an empty land, water rising from the ground and sheep grazing"
+props = [
+  { what = "spring", x = 0.32, s = 0.9 },
+  { what = "sheep", x = 0.7, s = 0.8 },
+]
+
+[[vignette]]
+event = "flood"
+scene = "plain"
+sky = "storm"
+shows = "the ark, a long roofed box, riding the water under a storm sky"
+props = [
+  { what = "ark", x = 0.5, s = 1.0 },
+]
+
+[[vignette]]
+event = "babel"
+scene = "plain"
+sky = "dusk"
+shows = "a stepped brick tower left unfinished, a builder beside it"
+props = [
+  { what = "tower", x = 0.58, s = 1.0 },
+]
+cast = [
+  { who = "man", x = 0.2, face = "right", pose = "point", s = 0.8 },
+]
+
+[[vignette]]
+event = "abram_called"
+scene = "hills"
+shows = "Abram walking out with his staff, sheep going with him"
+cast = [
+  { who = "man", x = 0.38, face = "right", stance = "walk", holds = "staff", tone = 2 },
+]
+props = [
+  { what = "sheep", x = 0.72, s = 0.7 },
+]
+
+[[vignette]]
+event = "exodus_early_date"
+scene = "plain"
+shows = "Moses with his staff raised"
+cast = [
+  { who = "moses", x = 0.4, face = "right", pose = "raise", holds = "staff" },
+]
+
+[[vignette]]
+event = "anchor_01"
+scene = "temple"
+shows = "a priest before the temple"
+cast = [
+  { who = "priest", x = 0.3, face = "right", pose = "open", s = 0.8 },
+]
+
+[[vignette]]
+event = "anchor_12"
+scene = "street"
+sky = "dusk"
+shows = "Jerusalem burning, a building breaking and a fire in the street"
+props = [
+  { what = "ruin", x = 0.62, s = 0.9 },
+  { what = "fire", x = 0.25, s = 1.2 },
+]
+
+[[vignette]]
+event = "anchor_37"
+scene = "room"
+sky = "night"
+shows = "Mary seated with the child, Joseph standing beside them, at night"
+cast = [
+  { who = "woman", x = 0.42, face = "right", stance = "sit", s = 0.85 },
+  { who = "child", x = 0.55, face = "left", stance = "sit", s = 0.85 },
+  { who = "man", x = 0.75, face = "left", s = 0.85, tone = 1 },
+]
+
+[[vignette]]
+event = "anchor_41"
+scene = "hills"
+sky = "storm"
+shows = "three crosses on a hill under a dark sky"
+props = [
+  { what = "crosses", x = 0.5, s = 1.0 },
+]
+
+[[vignette]]
+event = "millennial_reign_start"
+scene = "grassland"
+shows = "Jesus standing among sheep in green country"
+cast = [
+  { who = "jesus", x = 0.42, face = "right", pose = "open" },
+]
+props = [
+  { what = "sheep", x = 0.72, s = 0.75 },
+  { what = "sheep", x = 0.15, s = 0.6, face = "left" },
+]

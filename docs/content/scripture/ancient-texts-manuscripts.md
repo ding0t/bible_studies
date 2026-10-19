@@ -5,7 +5,7 @@ description: "How Scripture compares to other ancient works on manuscript eviden
 tags: ["method/archaeology", "method/textual-criticism", "manuscripts", "inscriptions", "dead-sea-scrolls", "apologetics"]
 draft: false
 date_created: 2026-01-24
-date_modified: 2026-10-08
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -877,6 +877,7 @@ substantially what its authors wrote is not.
 - [Bible Translations and Source Texts](translations.md) — which manuscript traditions stand behind the English versions
 - [Archaeological Sites](archaeological-sites.md) — the sites, as distinct from the texts
 - [Chronology Anchors](../chronology/chronology-anchors.md#outside-witnesses) — which of these inscriptions fix a year, which check one, and which only confirm the people and events
+- [History Chart](../chronology/history-chart.md) — the dated entries of this catalogue placed against the biblical history, printable on A4
 - [How to Read the Bible](how-to-read-the-bible.md) — the method this site applies to the text once its reliability is granted
 
 ---
