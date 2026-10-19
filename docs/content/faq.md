@@ -328,7 +328,8 @@ view shows the same people by descent. Every date is argued for in the
 for a classroom wall, a small group or your own Bible. It draws the creation days over their
 thousand years, the ages from before the Flood to the new creation, the main events with a picture
 over each, the people, the manuscripts and inscriptions that bear witness to the history, and
-threads that follow a promise to its fulfilment. Choose a period and a number of sheets, print in
+threads that follow a promise to its fulfilment. A separate sheet lays Daniel's kingdoms against
+Nebuchadnezzar's image. Choose a period and a number of sheets, print in
 colour or black and white, or download a sheet to take to a print shop.
 
 ### Can I quote or reuse this?

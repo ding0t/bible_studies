@@ -4,7 +4,8 @@
 
 Writes docs/content/assets/chart/sprites.svg: a <symbol> for every vignette in
 docs/data/chart-vignettes.toml (`v-<event id>`, a comic panel with no bubbles), an icon for each of
-the creation days (`day-1` to `day-8`), and one for each kind of text or artifact (`kind-*`). The
+the creation days (`day-1` to `day-8`), one for each kind of text or artifact (`kind-*`), and
+Nebuchadnezzar's image and the stone for the Daniel's kingdoms plate (`statue`, `stone`). The
 chart (app/src/components/chronology/HistoryChart.jsx) places them with <use>, so each picture is
 stored once however many sheets show it. Committed, like the comics, because CI does not run Python.
 Re-run after editing the vignettes or the comic library.
@@ -75,6 +76,50 @@ KINDS = {
 }
 
 
+# Nebuchadnezzar's image (Daniel 2:31-33), for the Daniel's kingdoms plate. Drawn in its own units,
+# 120 wide and 320 tall, with each part's band fixed so the plate can rule a line from the part to its
+# kingdom: head 8-52, chest and arms 52-118, middle and thighs 118-178, legs 178-268, feet 268-300.
+# Faceless like the comic cast, and no crown or ornament: Daniel gives the metals and nothing more.
+# Each metal has a texture of its own as well as a colour, so the parts stay apart printed in grey.
+GOLD, GOLD_EDGE = "#d9a820", "#8a6510"
+SILVER, SILVER_EDGE = "#c9ced3", "#6e757c"
+BRONZE, BRONZE_EDGE = "#b8743a", "#6e4520"
+IRON, IRON_EDGE = "#5d636a", "#2b2f33"
+CLAY = "#c49a6c"
+
+
+def statue():
+    o = []
+    # Head of fine gold
+    o.append(f'<path d="M48 52 V44 Q38 40 38 28 Q38 8 60 8 Q82 8 82 28 Q82 40 72 44 V52 Z" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1.6"/>')
+    o += [f'<circle cx="{x}" cy="{y}" r="1.1" fill="{GOLD_EDGE}"/>' for x, y in ((50, 20), (60, 16), (70, 20), (55, 30), (65, 30), (60, 40))]
+    # Chest and arms of silver
+    o.append(f'<path d="M26 58 Q30 52 48 52 H72 Q90 52 94 58 L90 118 H30 Z" fill="{SILVER}" stroke="{SILVER_EDGE}" stroke-width="1.6"/>')
+    o.append(f'<path d="M26 58 L14 70 L12 114 L22 116 L26 76 Z M94 58 L106 70 L108 114 L98 116 L94 76 Z" fill="{SILVER}" stroke="{SILVER_EDGE}" stroke-width="1.6"/>')
+    o += [f'<path d="M34 {y} H86" stroke="{SILVER_EDGE}" stroke-width="0.8" opacity="0.7"/>' for y in range(66, 116, 8)]
+    # Middle and thighs of bronze
+    o.append(f'<path d="M30 118 H90 L92 150 L88 178 H63 L60 156 L57 178 H32 L28 150 Z" fill="{BRONZE}" stroke="{BRONZE_EDGE}" stroke-width="1.6"/>')
+    o += [f'<path d="M{x} 120 l-12 12" stroke="{BRONZE_EDGE}" stroke-width="0.8" opacity="0.7"/>' for x in range(44, 92, 8)]
+    o += [f'<path d="M{x} 146 l-10 10" stroke="{BRONZE_EDGE}" stroke-width="0.8" opacity="0.7"/>' for x in (44, 52, 76, 84)]
+    # Legs of iron
+    o.append(f'<path d="M33 178 H57 L55 268 H37 Z M63 178 H87 L83 268 H65 Z" fill="{IRON}" stroke="{IRON_EDGE}" stroke-width="1.6"/>')
+    o.append(f'<path d="M42 184 V262 M72 184 V262" stroke="#8d949b" stroke-width="1.4" opacity="0.8"/>')
+    # Feet and toes, partly iron and partly clay: ten toes (Daniel 2:42)
+    for fx in (28, 62):
+        o.append(f'<path d="M{fx + 8} 268 H{fx + 26} L{fx + 30} 290 H{fx + 2} Z" fill="{IRON}" stroke="{IRON_EDGE}" stroke-width="1.4"/>')
+        o.append(f'<path d="M{fx + 12} 274 h6 v8 h-6 Z M{fx + 20} 280 h5 v8 h-5 Z M{fx + 6} 282 h5 v6 h-5 Z" fill="{CLAY}"/>')
+        for t in range(5):
+            tx = fx + 3 + t * 5.6
+            o.append(f'<rect x="{tx:.1f}" y="290" width="4.8" height="10" rx="2" fill="{IRON if t % 2 else CLAY}" stroke="{IRON_EDGE}" stroke-width="1"/>')
+    return "".join(o)
+
+
+def stone():
+    """The stone cut out by no human hand (Daniel 2:34, 45), in flight."""
+    return ('<path d="M8 22 Q6 10 18 6 Q30 2 34 14 Q38 26 26 32 Q12 36 8 22 Z" fill="#b3a897" stroke="#5e5547" stroke-width="1.6"/>'
+            '<path d="M16 14 l6 3 M24 22 l5 -2 M14 24 l4 3" stroke="#5e5547" stroke-width="1"/>')
+
+
 def vignette(v):
     parts, _, _ = comic._stage(VW, VH, v, f"v{v['event']}")
     return (f'<symbol id="v-{v["event"]}" viewBox="0 0 {VW} {VH}"><title>{esc(v["shows"])}</title>'
@@ -91,6 +136,8 @@ def main():
             for n, (t, body) in DAYS.items()]
     out += [f'<symbol id="kind-{k}" viewBox="0 0 24 24"><title>{esc(t)}</title>{body}</symbol>'
             for k, (t, body) in KINDS.items()]
+    out.append(f'<symbol id="statue" viewBox="0 0 120 320"><title>Nebuchadnezzar\'s image: head of gold, chest and arms of silver, middle and thighs of bronze, legs of iron, feet of iron and clay (Daniel 2:32-33)</title>{statue()}</symbol>')
+    out.append(f'<symbol id="stone" viewBox="0 0 40 40"><title>A stone cut out by no human hand (Daniel 2:34)</title>{stone()}</symbol>')
     out.append("</svg>")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text("\n".join(out) + "\n", encoding="utf-8")

@@ -24,6 +24,7 @@ import {
   splitSheets,
   textWidth,
 } from '../../utils/historyChart';
+import DanielKingdoms from './DanielKingdoms';
 import { CORE_ONLY_SPAN, PERIODS, chip, parseGregorian, sectionLabel, studyUrl, theme } from './shared';
 
 // The printable chart: the chronology as A4 sheets, drawn from the same events as the timeline.
@@ -74,6 +75,9 @@ function readHash() {
   return out;
 }
 
+// A plate of its own rather than a stretch of years: Daniel's kingdoms against Nebuchadnezzar's image.
+const DANIEL = 'daniel';
+
 const LANES = [
   { id: 'scripture', label: 'Scripture and history' },
   { id: 'people', label: 'People' },
@@ -85,7 +89,7 @@ const LANES = [
 export default function HistoryChart() {
   const hash = useMemo(() => readHash(), []);
   const [periodId, setPeriodId] = useState(
-    PRINT_PERIODS.some((p) => p.id === hash.period) ? hash.period : 'week'
+    hash.period === DANIEL || PRINT_PERIODS.some((p) => p.id === hash.period) ? hash.period : 'week'
   );
   const [custom, setCustom] = useState(null);
   const [fromText, setFromText] = useState('');
@@ -143,6 +147,7 @@ export default function HistoryChart() {
   }, []);
 
   const period = PRINT_PERIODS.find((p) => p.id === periodId) ?? PRINT_PERIODS[0];
+  // The Daniel plate has no range of its own; the chart behind it stays on the whole week.
   const [amStart, amEnd] = custom ?? periodRange(period);
   const ranges = splitSheets(amStart, amEnd, sheets);
   const title = custom
@@ -184,6 +189,15 @@ export default function HistoryChart() {
       <div className="hc-controls" style={card}>
         <div style={sectionLabel}>PERIOD</div>
         <div style={row}>
+          <button
+            style={chip(!custom && periodId === DANIEL, '#a67c3d')}
+            onClick={() => {
+              setCustom(null);
+              setPeriodId(DANIEL);
+            }}
+          >
+            Daniel's kingdoms
+          </button>
           {PRINT_PERIODS.map((p) => (
             <button
               key={p.id}
@@ -267,7 +281,10 @@ export default function HistoryChart() {
         </div>
       </div>
 
-      {ranges.map((r, i) => (
+      {!custom && periodId === DANIEL ? (
+        <DanielSheet events={data.events} mono={mono} sprite={sprite} onSelect={setSelected} />
+      ) : (
+        ranges.map((r, i) => (
         <Sheet
           key={`${r[0]}-${i}`}
           range={r}
@@ -283,7 +300,8 @@ export default function HistoryChart() {
           slug={custom ? 'range' : periodId}
           onSelect={setSelected}
         />
-      ))}
+        ))
+      )}
 
       {selected && <Detail item={selected} onClose={() => setSelected(null)} card={card} />}
     </div>
@@ -841,22 +859,8 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
   const LX = X1 - LW;
   const lx = (am) => LX + (Math.max(0, Math.min(7400, am)) / 7400) * LW;
 
-  const download = () => {
-    const node = svgRef.current;
-    if (!node) return;
-    const clone = node.cloneNode(true);
-    clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
-    clone.setAttribute('width', '297mm');
-    clone.setAttribute('height', '210mm');
-    const defs = sprite.replace(/^<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '');
-    const body = clone.outerHTML.replace(/^<svg([^>]*)>/, `<svg$1><defs>${defs}</defs>`);
-    const url = URL.createObjectURL(new window.Blob([body], { type: 'image/svg+xml' }));
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `history-chart-${slug}${total > 1 ? `-${index + 1}` : ''}.svg`;
-    link.click();
-    URL.revokeObjectURL(url);
-  };
+  const download = () =>
+    downloadSvg(svgRef.current, sprite, `history-chart-${slug}${total > 1 ? `-${index + 1}` : ''}.svg`);
 
   return (
     <div className="hc-sheet-wrap" style={{ marginBottom: '1rem' }}>
@@ -956,6 +960,37 @@ function Arrow({ x, y, out, mono }) {
   const d = out ? `M${x - 1.2} ${y - 1} H${x + 1.2} L${x} ${y + 1.1} Z` : `M${x - 1.2} ${y + 1} H${x + 1.2} L${x} ${y - 1.1} Z`;
   const color = mono ? INK : out ? RED : '#2f6f3f';
   return <path d={d} fill={out ? color : PAPER} stroke={color} strokeWidth="0.35" />;
+}
+
+// A sheet as a standalone SVG file, with the pictures it uses carried inside it.
+function downloadSvg(node, sprite, name) {
+  if (!node) return;
+  const clone = node.cloneNode(true);
+  clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+  clone.setAttribute('width', '297mm');
+  clone.setAttribute('height', '210mm');
+  const defs = sprite.replace(/^<svg[^>]*>/, '').replace(/<\/svg>\s*$/, '');
+  const body = clone.outerHTML.replace(/^<svg([^>]*)>/, `<svg$1><defs>${defs}</defs>`);
+  const url = URL.createObjectURL(new window.Blob([body], { type: 'image/svg+xml' }));
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = name;
+  link.click();
+  URL.revokeObjectURL(url);
+}
+
+function DanielSheet({ events, mono, sprite, onSelect }) {
+  const svgRef = useRef(null);
+  return (
+    <div className="hc-sheet-wrap" style={{ marginBottom: '1rem' }}>
+      <DanielKingdoms events={events} mono={mono} onSelect={onSelect} svgRef={svgRef} />
+      <div className="hc-controls" style={{ textAlign: 'right', marginTop: '0.3rem' }}>
+        <button style={chip(false, '#64748b')} onClick={() => downloadSvg(svgRef.current, sprite, 'daniels-kingdoms.svg')}>
+          Download as SVG
+        </button>
+      </div>
+    </div>
+  );
 }
 
 function more(id, xr, yy, n) {

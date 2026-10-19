@@ -7,7 +7,7 @@ import {
   eventsForPerson,
   loadEvents,
 } from '../../utils/chronology';
-import { resolveAges, resolveMovements, resolvePeriods } from '../../utils/historyChart';
+import { resolveAges, resolveKingdoms, resolveMovements, resolvePeriods } from '../../utils/historyChart';
 import {
   CLASSIFICATION,
   CORE_ONLY_SPAN,
@@ -41,6 +41,10 @@ const EVENTS = loadEvents();
 const AGES = resolveAges(EVENTS);
 const PERIODS = resolvePeriods(EVENTS);
 const MOVEMENTS = resolveMovements(EVENTS);
+// Daniel's kingdoms with a year: the four the image's metals stand for. The feet and the stone are
+// undated, so they belong to the History Chart's Daniel plate and not to a dated axis.
+const KINGDOMS = resolveKingdoms(EVENTS).filter((k) => k.am != null && k.amEnd != null);
+const METAL_BG = { gold: '#e4bd45', silver: '#cfd4d9', bronze: '#c4864e', iron: '#7b8188' };
 const AGE_TINT = ['rgba(37,99,235,0.14)', 'rgba(5,150,105,0.14)', 'rgba(217,119,6,0.16)', 'rgba(190,24,93,0.12)', 'rgba(124,58,237,0.13)', 'rgba(217,119,6,0.22)', 'rgba(5,150,105,0.08)'];
 
 const hatch = (color) => `repeating-linear-gradient(135deg, ${color} 0 4px, ${color}55 4px 8px)`;
@@ -309,6 +313,37 @@ export default function TimeChart({
             </div>
           ))}
         </Row>
+
+        {KINGDOMS.some((k) => inView(k.am, k.amEnd)) && (
+          <Row label={<a href="/chronology/history-chart/#period=daniel">Daniel's kingdoms</a>} height="1.4rem">
+            {KINGDOMS.filter((k) => inView(k.am, k.amEnd)).map((k) => (
+              <div
+                key={k.id}
+                title={`${k.label}: ${k.image} (${k.image_refs}); ${k.beast} (${k.beast_refs}). ${k.note}`}
+                style={{
+                  position: 'absolute',
+                  left: clipX(k.am),
+                  width: clipX(k.amEnd) - clipX(k.am),
+                  top: 1,
+                  bottom: 1,
+                  background: METAL_BG[k.metal],
+                  border: k.certainty === 'stated' ? '1px solid #3b2f1e' : '1px dashed #3b2f1e',
+                  borderRadius: '0.25rem',
+                  fontSize: '0.66rem',
+                  fontWeight: 700,
+                  color: k.metal === 'iron' ? '#ffffff' : '#1e293b',
+                  lineHeight: '1.2rem',
+                  textAlign: 'center',
+                  whiteSpace: 'nowrap',
+                  overflow: 'hidden',
+                  textOverflow: 'ellipsis',
+                }}
+              >
+                {k.label}
+              </div>
+            ))}
+          </Row>
+        )}
 
         {/* Ruler */}
         <Row

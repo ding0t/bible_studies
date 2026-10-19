@@ -30,6 +30,21 @@ export const resolveAges = (events) => resolveSpans(CHRONOLOGY.ages, events, 'ag
 /** The periods inside the ages (chronology.json `periods`): In Egypt, the divided kingdom, the exile. */
 export const resolvePeriods = (events) => resolveSpans(CHRONOLOGY.periods, events, 'period');
 
+/**
+ * Daniel's kingdoms (chronology.json `kingdoms`), each with its years where it has them. The future
+ * ones (`future`, and the stone's start as a site reading) carry am null or the event's AM.
+ */
+export function resolveKingdoms(events) {
+  const byId = new Map(events.map((e) => [e.id, e]));
+  return CHRONOLOGY.kingdoms.map((k) => ({
+    ...k,
+    am: k.from ? (byId.get(k.from)?.am ?? null) : null,
+    amEnd: k.to ? (byId.get(k.to)?.am ?? null) : null,
+    gStart: k.from ? (byId.get(k.from)?.gregorian ?? null) : null,
+    gEnd: k.to ? (byId.get(k.to)?.gregorian ?? null) : null,
+  }));
+}
+
 /** The exiles and returns (chronology.json `movements`), each placed at its event's year. */
 export function resolveMovements(events) {
   const byId = new Map(events.map((e) => [e.id, e]));

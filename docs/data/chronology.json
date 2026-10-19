@@ -247,6 +247,99 @@
       "refs": "Nehemiah 2:1-11"
     }
   ],
+  "kingdoms_note": "Daniel's kingdoms, for the timeline's kingdoms row and the History Chart's 'Daniel's kingdoms' plate: each part of Nebuchadnezzar's image (Daniel 2:31-45) with the beast of Daniel 7 and the animal of Daniel 8 that stand for the same kingdom. Each runs from `from` to `to` (event ids). `named` gives the verse where Daniel names the kingdom himself; the fourth is never named, so Rome is this site's reading and carries certainty 'site-reading', as do the future ten kings. The feet and the stone have no year: Scripture gives their order (Daniel 2:44, 'in the days of those kings') and withholds the date (Mark 13:32).",
+  "kingdoms": [
+    {
+      "id": "babylon",
+      "label": "Babylon",
+      "to": "anchor_14",
+      "part": "head",
+      "metal": "gold",
+      "image": "Head of fine gold",
+      "image_refs": "Daniel 2:32, 37-38",
+      "beast": "A lion with eagles' wings",
+      "beast_refs": "Daniel 7:4",
+      "named": "Daniel 2:38",
+      "certainty": "stated",
+      "note": "\"You are the head of gold\" (Daniel 2:38, ESV): Daniel names Nebuchadnezzar's own kingdom as the first.",
+      "from": "anchor_10"
+    },
+    {
+      "id": "persia",
+      "label": "Media-Persia",
+      "to": "anchor_22",
+      "part": "chest",
+      "metal": "silver",
+      "image": "Chest and arms of silver",
+      "image_refs": "Daniel 2:32, 39",
+      "beast": "A bear raised up on one side, three ribs in its mouth",
+      "beast_refs": "Daniel 7:5",
+      "vision": "The ram with two horns",
+      "vision_refs": "Daniel 8:3-4, 20",
+      "named": "Daniel 8:20",
+      "certainty": "stated",
+      "note": "The ram's two horns are \"the kings of Media and Persia\" (Daniel 8:20, ESV), one kingdom with its higher horn, Persia, rising last.",
+      "from": "anchor_14"
+    },
+    {
+      "id": "greece",
+      "label": "Greece",
+      "to": "anchor_33",
+      "part": "belly",
+      "metal": "bronze",
+      "image": "Middle and thighs of bronze",
+      "image_refs": "Daniel 2:32, 39",
+      "beast": "A leopard with four wings and four heads",
+      "beast_refs": "Daniel 7:6",
+      "vision": "The goat whose great horn breaks into four",
+      "vision_refs": "Daniel 8:5-8, 21-22",
+      "named": "Daniel 8:21",
+      "certainty": "stated",
+      "note": "\"The goat is the king of Greece\" (Daniel 8:21, ESV): Alexander, then the four kingdoms of his generals.",
+      "from": "anchor_22"
+    },
+    {
+      "id": "rome",
+      "label": "Rome",
+      "to": "temple_destroyed_70",
+      "open_end": true,
+      "part": "legs",
+      "metal": "iron",
+      "image": "Legs of iron",
+      "image_refs": "Daniel 2:33, 40",
+      "beast": "A fourth beast with great iron teeth and ten horns",
+      "beast_refs": "Daniel 7:7, 19, 23",
+      "certainty": "site-reading",
+      "note": "Daniel never names the fourth kingdom. This site reads it as Rome, which ruled Judea from 63 BC, crucified Jesus and destroyed the temple in AD 70 (Daniel 9:26). Others count Media and Persia as two and make Greece the fourth; Daniel 8:20 joins them in one ram.",
+      "from": "anchor_33"
+    },
+    {
+      "id": "ten_kings",
+      "label": "Ten kings and the little horn",
+      "future": true,
+      "part": "feet",
+      "metal": "iron-clay",
+      "image": "Feet and toes, partly iron and partly clay",
+      "image_refs": "Daniel 2:33, 41-43",
+      "beast": "Ten horns, and a little horn that puts down three and wears out the saints",
+      "beast_refs": "Daniel 7:7-8, 20-25",
+      "certainty": "site-reading",
+      "note": "The fourth kingdom's last form, still future on this site's reading: ten kings, and one who rises after them, speaks against the Most High and has the saints in his hand \"for a time, times, and half a time\" (Daniel 7:25, ESV), the Antichrist of the tribulation (2 Thessalonians 2:3-4; Revelation 13:5-7). Daniel 8's little horn is a different figure, Antiochus IV."
+    },
+    {
+      "id": "stone",
+      "label": "The stone: God's kingdom",
+      "part": "stone",
+      "metal": "stone",
+      "image": "A stone cut out by no human hand becomes a great mountain",
+      "image_refs": "Daniel 2:34-35, 44-45",
+      "beast": "One like a son of man is given an everlasting kingdom",
+      "beast_refs": "Daniel 7:13-14, 27",
+      "certainty": "stated",
+      "note": "\"In the days of those kings the God of heaven will set up a kingdom that shall never be destroyed\" (Daniel 2:44, ESV). The kingdom is stated; that it begins with Christ's thousand-year reign is this site's reading (Revelation 20:4).",
+      "from": "millennial_reign_start"
+    }
+  ],
   "epochs": [
     {
       "id": "genealogy",
@@ -298,6 +391,16 @@
       "evidence": "Bronk Ramsey et al., Science 328 (2010) 1554-1557: 211 short-lived samples, Bayesian model, accession 2691-2625 BC (midpoint shown). About 355 years before the MT Flood date (2303 BC). Radiocarbon estimate, not a synchronism.",
       "study_ref": "chronology/flood-and-the-king-lists",
       "core": false
+    },
+    {
+      "id": "temple_destroyed_70",
+      "label": "Rome destroys Jerusalem and the temple",
+      "gregorian_year": 70,
+      "evidence": "Josephus, Jewish War 6; the Arch of Titus in Rome shows the temple's lampstand carried in triumph",
+      "scripture": "Daniel 9:26; Luke 21:20-24",
+      "study_ref": "last-things/immediately-after",
+      "core": true,
+      "people": []
     }
   ],
   "milestones": [
@@ -339,6 +442,33 @@
       "kind": "framework",
       "note": "The start of Day 7 (Rev 20:2-7) -- Satan bound, the thousand-year reign begins.",
       "study_ref": "last-things/day-is-near"
+    },
+    {
+      "id": "daniel_2_dream",
+      "label": "Nebuchadnezzar dreams of the great image",
+      "gregorian_year": -603,
+      "kind": "vision",
+      "error": "603/602",
+      "scripture": "Daniel 2:1, 31-45",
+      "note": "\"In the second year of the reign of Nebuchadnezzar\" (Daniel 2:1). He acceded in 605 BC (anchor 10), so his second year is 603/602 BC on Babylonian reckoning."
+    },
+    {
+      "id": "daniel_7_beasts",
+      "label": "Daniel sees four beasts from the sea",
+      "gregorian_year": -553,
+      "kind": "vision",
+      "error": "553-550",
+      "scripture": "Daniel 7:1-28",
+      "note": "\"In the first year of Belshazzar king of Babylon\" (Daniel 7:1): the start of his regency while Nabonidus was in Tema, which the study Bibles place between 553 and 550 BC."
+    },
+    {
+      "id": "daniel_8_ram_goat",
+      "label": "Daniel sees the ram and the goat",
+      "gregorian_year": -551,
+      "kind": "vision",
+      "error": "551-548",
+      "scripture": "Daniel 8:1-27",
+      "note": "\"In the third year of the reign of King Belshazzar\" (Daniel 8:1): two years after the vision of chapter 7."
     }
   ],
   "anchor_table_note": "Mirrors the table in docs/content/chronology/chronology-anchors.md row for row (number, date, tier, error bar, Zadok year). app/src/utils/chronology.test.js fails if the two disagree. 'core' rows show on the whole-week view; the rest appear when the view narrows.",

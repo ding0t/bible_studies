@@ -30,6 +30,15 @@ they bear witness to. **Threads** follow a promise to its fulfilment: the promis
 Abraham to the cross, the temple from Solomon to the Passover in John 2, and Daniel's sixty-nine
 weeks.
 
+**Daniel's kingdoms** is a sheet of its own. Nebuchadnezzar's image stands down the left side,
+and each part rules a line across to the years its kingdom held: the head of gold to Babylon, the
+silver to Media-Persia, the bronze to Greece, the iron legs to Rome, then the feet of iron and clay
+and the stone cut out by no human hand in the years Scripture leaves undated (Daniel 2:31-45). Each
+kingdom carries its beast from Daniel 7 and its animal from Daniel 8, and an arrow from the night
+of the dream in 603 BC shows how many years ahead God made it known. Daniel names the first three
+himself (Daniel 2:38; 8:20-21); Rome as the fourth, and its last form still to come, are this
+site's reading, drawn dashed so you can see which is which.
+
 Every date comes from the same data as the [Prophetic Timeline](../timeline.md) and is argued for
 in the [Chronology](index.md) studies. Anno Mundi (years since creation) runs along the top and
 BC/AD along the bottom.

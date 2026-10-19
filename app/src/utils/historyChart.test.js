@@ -10,6 +10,7 @@ import {
   packRows,
   placeCallouts,
   resolveAges,
+  resolveKingdoms,
   resolveMovements,
   resolvePeriods,
   resolveThreads,
@@ -47,6 +48,14 @@ test('each deportation is followed in time by a return', () => {
   const firstBack = Math.min(...moves.filter((m) => m.direction === 'back').map((m) => m.am));
   assert.ok(firstBack > lastOut);
   assert.equal(moves.find((m) => m.event === 'anchor_12').gregorian_year, -586);
+});
+
+test("Daniel's kingdoms follow one another without a gap until the future ones", () => {
+  const ks = resolveKingdoms(events);
+  const dated = ks.filter((k) => !k.future && k.id !== 'stone');
+  for (let i = 1; i < dated.length; i++) assert.equal(dated[i].am, dated[i - 1].amEnd, `${dated[i].id} follows ${dated[i - 1].id}`);
+  assert.deepEqual(dated.map((k) => k.gStart), [-605, -539, -331, -63]);
+  assert.equal(ks.find((k) => k.id === 'rome').certainty, 'site-reading', 'Daniel never names the fourth kingdom');
 });
 
 test('every thread event is a dated event, so no thread silently loses a point', () => {
