@@ -23,6 +23,7 @@ import {
   sectionLabel,
   theme,
 } from './shared';
+import { presentAm } from '../../utils/historyChart';
 import TimeChart from './TimeChart';
 import PersonPanel from './PersonPanel';
 import DetailPanel from './DetailPanel';
@@ -52,6 +53,14 @@ function writeHash({ period, person, view }) {
   if (person) parts.push(`person=${person}`);
   const hash = parts.length ? `#${parts.join('&')}` : ' ';
   window.history.replaceState(null, '', hash === ' ' ? window.location.pathname : hash);
+}
+
+// The end of a range as a reader should see it. The eighth day counts no years, and a year past
+// today is not dated (Mark 13:32), so neither gets a calendar year.
+function rangeEndLabel(amEnd, epochId) {
+  if (amEnd > CHRONOLOGY.eighth_day.am_start) return 'the new creation';
+  if (amEnd > presentAm()) return 'the years not yet dated';
+  return formatGregorian(amToGregorian(Math.round(amEnd), epochId));
 }
 
 export default function ChronologyExplorer({
@@ -440,8 +449,8 @@ export default function ChronologyExplorer({
 
               <div style={{ fontSize: '0.8rem', fontWeight: 700, margin: '0 0 0.4rem 0.2rem' }}>
                 {formatGregorian(amToGregorian(Math.round(amStart), primaryEpoch))} –{' '}
-                {formatGregorian(amToGregorian(Math.round(amEnd), primaryEpoch))} · AM{' '}
-                {Math.round(amStart)}–{Math.round(amEnd)}
+                {rangeEndLabel(amEnd, primaryEpoch)} · AM {Math.round(amStart)}–
+                {Math.round(Math.min(amEnd, CHRONOLOGY.eighth_day.am_start))}
               </div>
               <TimeChart
                 amStart={amStart}
