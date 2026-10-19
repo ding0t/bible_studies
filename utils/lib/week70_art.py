@@ -47,7 +47,7 @@ def _star(x, y, r, fill="#f6e7a8"):
     return f'<path d="M{" L".join(pts)} Z" fill="{fill}"/>'
 
 
-def wings(x, y, s=1.0, face=1, spread=1.0, fill=WING, edge=WING_EDGE, covert="#fffdf6"):
+def wings(x, y, s=1.0, face=1, spread=1.0, fill=WING, edge=WING_EDGE, covert="#fffdf6", eyes=False):
     """A pair of feathered wings raised behind a figure whose shoulders are at (x, y): a back row of
     long flight feathers fanned from the shoulder and a shorter row of coverts over them."""
     out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s * face:.3f} {s:.3f})">']
@@ -61,6 +61,9 @@ def wings(x, y, s=1.0, face=1, spread=1.0, fill=WING, edge=WING_EDGE, covert="#f
                 rot = ang if m == 1 else 180 - ang
                 out.append(f'<ellipse cx="{cx:.1f}" cy="{cy:.1f}" rx="{ln / 2:.1f}" ry="{width:.1f}" transform="rotate({rot:.1f} {cx:.1f} {cy:.1f})" '
                            f'fill="{fillc}" stroke="{edge}" stroke-width="0.9"/>')
+                if eyes:
+                    out.append(f'<circle cx="{cx + 0.2 * ln * math.cos(a) * m:.1f}" cy="{cy + 0.2 * ln * math.sin(a):.1f}" r="1.7" fill="#bfe6f2" stroke="{GOLD_DK}" stroke-width="0.4"/>'
+                               f'<circle cx="{cx + 0.2 * ln * math.cos(a) * m:.1f}" cy="{cy + 0.2 * ln * math.sin(a):.1f}" r="0.7" fill="#2a2118"/>')
     out.append("</g>")
     return "".join(out)
 
@@ -198,38 +201,131 @@ def _elder(x, y, s, face=1, tone=0):
     return seat + body + crown
 
 
-def lamb_scroll():
-    """Revelation 4-5: the throne under its emerald rainbow with the seven lamps, the sea of glass, the four living creatures, the twenty-four
-    elders in white and crowned; in the right hand of him who sits, the scroll written within and on the back, sealed with seven seals, and the
-    Lamb as though slain, with seven horns and seven eyes, coming to take it."""
-    out = _sky("w70-lamb-sky", "#fff6d6", "#efcd7a")
+def _creature_big(kind, x, y, s=1.0, flip=1):
+    """One of the four living creatures, large: six wings and eyes all over them and round about (Revelation 4:6-8), the face of a lion, an ox,
+    a man or a flying eagle."""
+    cols = {"lion": ("#c98a3a", "#e3b56a"), "ox": ("#8a5a32", "#d9a77a"), "man": ("#b98a5e", "#d8b88a"), "eagle": ("#6a4a2a", "#e0b24a")}
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s * flip:.3f} {s:.3f})">']
+    for ang, sp in ((-62, 0.8), (-8, 0.9), (46, 0.8)):
+        out.append(f'<g transform="rotate({ang})">{wings(0, 0, 0.55, 1, sp, "#e8dcc0", GOLD_DK, "#f6ecd2", eyes=True)}</g>')
+    out.append(f'<circle r="11" fill="#f0e4c4" stroke="{GOLD_DK}" stroke-width="1.2"/>')
+    body, face = cols[kind]
+    if kind == "lion":
+        out.append(f'<circle r="9" fill="{body}" stroke="#6a4416" stroke-width="1"/><circle r="5.6" fill="{face}"/><path d="M-2.4 0.4 h4.8 l-2.4 3.4 z" fill="#3a2412"/><circle cx="-2.4" cy="-1.6" r="0.9" fill="#3a2412"/><circle cx="2.4" cy="-1.6" r="0.9" fill="#3a2412"/>')
+    elif kind == "ox":
+        out.append(f'<ellipse rx="6.4" ry="6.8" fill="{body}" stroke="#4a2c14" stroke-width="1"/><path d="M-6 -3.6 Q-11 -9 -6 -10 M6 -3.6 Q11 -9 6 -10" stroke="#f1e6c8" stroke-width="2" fill="none" stroke-linecap="round"/><ellipse cy="3.6" rx="3.6" ry="2.4" fill="{face}"/>')
+    elif kind == "man":
+        out.append(f'<circle r="6.2" fill="{body}" stroke="#4a2c14" stroke-width="1"/><path d="M-5 1 Q0 10 5 1 Q0 6 -5 1 Z" fill="#3a2412"/><circle cx="-2.2" cy="-1.2" r="0.9" fill="#3a2412"/><circle cx="2.2" cy="-1.2" r="0.9" fill="#3a2412"/>')
+    else:
+        out.append(f'<ellipse rx="6.2" ry="6.6" fill="{body}" stroke="#3a2412" stroke-width="1"/><path d="M0 -1 L9 1.4 L0 3.8 Z" fill="{face}" stroke="{GOLD_DK}" stroke-width="0.8"/><circle cx="-1.4" cy="-2.4" r="1.1" fill="#f6d36a"/>')
+    out.append("</g>")
+    return "".join(out)
+
+
+def _elder_back(x, y, s=1.0, tone=0, arms="up"):
+    """An elder seen from behind, in white with a gold sash and a gold band round his head, hands raised in worship (Revelation 4:4, 10)."""
+    skin = ("#b98a5e", "#8a5a3a", "#d8b08a", "#6a4a2e")[tone % 4]
+    hair = ("#2a1d10", "#d8d4cc", "#3a2a1a", "#8a8478")[tone % 4]
+    o = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s})">']
+    o.append('<path d="M-24 0 C-26 -26 -22 -48 -12 -60 L12 -60 C22 -48 26 -26 24 0 Z" fill="#f6f2e6" stroke="#bdb49c" stroke-width="1"/>')
+    o.append('<path d="M-14 -58 C-8 -30 -10 -12 -14 0 M14 -58 C8 -30 10 -12 14 0 M0 -58 V0" stroke="#d6cfba" stroke-width="1.2" fill="none"/>')
+    o.append('<path d="M-23 -38 H23 V-30 H-23 Z" fill="#e0b24a" stroke="#9c7a2e" stroke-width="1"/><path d="M-23 -34 H23" stroke="#c9962a" stroke-width="0.8"/>')
+    if arms == "up":
+        o.append('<path d="M-12 -56 C-24 -52 -32 -62 -30 -78" stroke="#f6f2e6" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M-12 -56 C-24 -52 -32 -62 -30 -78" stroke="#bdb49c" stroke-width="1" fill="none" transform="translate(0 0)"/>'
+                 '<path d="M12 -56 C24 -52 32 -62 30 -78" stroke="#f6f2e6" stroke-width="9" fill="none" stroke-linecap="round"/>')
+        o.append(f'<ellipse cx="-30" cy="-82" rx="5" ry="6" fill="{skin}"/><ellipse cx="30" cy="-82" rx="5" ry="6" fill="{skin}"/>')
+    o.append(f'<circle cx="0" cy="-67" r="9" fill="{skin}"/><path d="M-9 -68 C-9 -80 9 -80 9 -68 C8 -72 -8 -72 -9 -68 Z" fill="{hair}"/>')
+    o.append(f'<path d="M-9.4 -72 h18.8 v4.2 h-18.8 Z" fill="#e0b24a" stroke="#9c7a2e" stroke-width="0.8"/>')
+    o.append("</g>")
+    return "".join(o)
+
+
+def _lamb_front(x, y, s=1.0):
+    """The Lamb facing us, as though slain: fleece with the red marks of the wounds, a lamb's face, seven upright gold horns and seven eyes."""
+    o = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s})">']
+    for lx in (-9, 9):
+        o.append(f'<path d="M{lx} -30 V-4" stroke="{INK}" stroke-width="7" stroke-linecap="round"/><path d="M{lx} -30 V-4" stroke="#f4eee0" stroke-width="4.8" stroke-linecap="round"/><path d="M{lx - 3.4} -3 q3.4 5 6.8 0 v3.6 h-6.8 Z" fill="#2a2118"/>')
     for k in range(20):
-        a = math.pi * (0.08 + 0.84 * k / 19)
-        out.append(f'<path d="M120 64 L{120 + 200 * math.cos(a):.1f} {64 - 200 * math.sin(a):.1f}" stroke="#fff" stroke-width="3" opacity="0.26"/>')
-    for r, c in ((46, "#6f9f5d"), (40, "#a8c890"), (34, "#6f9f5d")):
-        out.append(f'<path d="M{120 - r} 80 A{r} {r * 0.95:.0f} 0 0 1 {120 + r} 80" fill="none" stroke="{c}" stroke-width="3" opacity="0.9"/>')
-    out.append(comic.PROPS["throne"](120, 88, 0.36))
-    out.append('<defs><linearGradient id="w70-glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8f6fb"/><stop offset="1" stop-color="#9fd0e0"/></linearGradient></defs>')
-    out.append('<path d="M0 132 Q120 122 240 132 V180 H0 Z" fill="url(#w70-glass)" stroke="#8fc0d0" stroke-width="1"/>')
-    for y in (142, 154, 168):
-        out.append(f'<path d="M6 {y} Q60 {y - 4} 120 {y} T234 {y}" fill="none" stroke="#fff" stroke-width="1.4" opacity="0.7"/>')
+        a = math.pi * 2 * k / 20
+        o.append(f'<circle cx="{26 * math.cos(a):.1f}" cy="{-44 + 20 * math.sin(a):.1f}" r="{8 + (k % 3) * 0.8:.1f}" fill="{WHITE}" stroke="{INK}" stroke-width="1"/>')
+    o.append(f'<ellipse cx="0" cy="-44" rx="26" ry="20" fill="{WHITE}"/>')
+    for cx, cy in ((-8, -38), (8, -34), (0, -28), (-14, -44)):
+        o.append(f'<path d="M{cx - 4} {cy} q4 -5 8 0" fill="none" stroke="#d4cbb4" stroke-width="1.1"/>')
+    # The marks of the slaying on the fleece (Revelation 5:6).
+    o.append(f'<path d="M-16 -50 q4 -4 8 0 q2 5 -3 7 q-6 0 -5 -7 Z M10 -52 q5 -2 8 2 q-2 5 -7 4 Z" fill="{RED}" opacity="0.8"/><path d="M-2 -30 q2 6 0 12" stroke="{RED}" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.85"/>')
+    # The head.
+    o.append(f'<g transform="translate(0 -62)">')
+    o.append(f'<ellipse cx="-13" cy="3" rx="9" ry="3.6" transform="rotate(-18 -13 3)" fill="#efe6d4" stroke="{INK}" stroke-width="1"/><ellipse cx="13" cy="3" rx="9" ry="3.6" transform="rotate(18 13 3)" fill="#efe6d4" stroke="{INK}" stroke-width="1"/>')
+    o.append(f'<path d="M-9 -4 C-9 -12 9 -12 9 -4 C10 8 6 16 0 17 C-6 16 -10 8 -9 -4 Z" fill="{WHITE}" stroke="{INK}" stroke-width="1.2"/>')
+    o.append(f'<ellipse cx="0" cy="11" rx="4.2" ry="3.6" fill="#f1dcd0" stroke="{INK}" stroke-width="0.8"/><path d="M-1.6 10 h1 M0.6 10 h1" stroke="{INK}" stroke-width="1"/>')
+    o.append(f'<circle cx="-4.4" cy="0" r="1.6" fill="{INK}"/><circle cx="4.4" cy="0" r="1.6" fill="{INK}"/>')
     for i in range(7):
-        lx = 96 + i * 8
-        out.append(f'<path d="M{lx} 98 v-5" stroke="{GOLD_DK}" stroke-width="1.1"/><path d="M{lx - 2} 93 q2 -8 4 0 q-2 3 -4 0 Z" fill="#f08a3a" stroke="#c25a1a" stroke-width="0.5"/><path d="M{lx - 0.9} 93 q0.9 -4.4 1.8 0 Z" fill="#f8d56a"/>')
-    for kind, cx, cy in (("lion", 62, 58), ("man", 92, 34), ("eagle", 148, 34), ("ox", 178, 58)):
-        out.append(_creature(kind, cx, cy, 0.8))
-    n = 0
-    for side, x0 in ((1, 6), (-1, 234)):
-        for row, ry in enumerate((112, 132)):
-            for col in range(6):
-                out.append(_elder(x0 + side * col * 9.4, ry, 0.2, face=side, tone=n))
-                n += 1
-    # The right hand from the throne, the sealed scroll resting on it.
-    out.append('<path d="M130 70 C150 76 180 90 194 106" stroke="#fffdf0" stroke-width="7" stroke-linecap="round" opacity="0.9"/>')
-    out.append(_scroll(126, 102, 78, 26, -3))
-    out.append(_hand(172, 112, 0.74, 8, flip=True))
-    # The Lamb comes to take it, head lifted.
-    out.append(_lamb(58, 176, 0.72, look_up=22))
+        a = math.radians(-150 + i * 20)
+        hx, hy = 15 * math.cos(a) * 0.62, -5 + 12 * math.sin(a)
+        o.append(f'<path d="M{hx:.1f} {hy:.1f} l{9 * math.cos(a) * 0.55:.1f} {11 * math.sin(a):.1f}" stroke="#2a2118" stroke-width="2.2" stroke-linecap="round"/>'
+                 f'<path d="M{hx:.1f} {hy:.1f} l{9 * math.cos(a) * 0.55:.1f} {11 * math.sin(a):.1f}" stroke="{GOLD}" stroke-width="0.9" stroke-linecap="round"/>')
+    for i in range(7):
+        ex = -9 + i * 3
+        o.append(f'<path d="M{ex - 1.2:.1f} -9 q1.2 -1.6 2.4 0 q-1.2 1.6 -2.4 0 Z" fill="#8fd0e8" stroke="{GOLD_DK}" stroke-width="0.4"/>')
+    o.append("</g></g>")
+    return "".join(o)
+
+
+def lamb_scroll():
+    """Revelation 4-5, from where the elders stand: the glowing throne with the one who sits on it as light, the scroll in His right hand, the
+    rainbow and the rays, the four living creatures covered in eyes, the elders crowned and worshipping, the Lamb as though slain with seven
+    horns and seven eyes standing before the throne on the sea of glass like crystal."""
+    out = _sky("w70-lamb-sky", "#fff9e0", "#f2d48a")
+    out.append('<defs><radialGradient id="w70-throne-glow" cx="0.5" cy="0.28" r="0.55"><stop offset="0" stop-color="#ffffff" stop-opacity="1"/><stop offset="0.5" stop-color="#fff6cf" stop-opacity="0.7"/><stop offset="1" stop-color="#fff6cf" stop-opacity="0"/></radialGradient>'
+               '<linearGradient id="w70-floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3c4"/><stop offset="1" stop-color="#e8c470"/></linearGradient></defs>')
+    out.append('<rect width="240" height="180" fill="url(#w70-throne-glow)"/>')
+    for k in range(26):
+        a = math.pi * (0.05 + 0.9 * k / 25)
+        out.append(f'<path d="M120 52 L{120 + 260 * math.cos(a):.1f} {52 - 260 * math.sin(a):.1f}" stroke="#fff" stroke-width="{2.4 + (k % 3)}" opacity="0.3"/>')
+    # The rainbow like an emerald round the throne (4:3).
+    for r, c in ((56, "#7fb06a"), (50, "#c6dd9a"), (44, "#f2e39a"), (38, "#f0b88a")):
+        out.append(f'<path d="M{120 - r} 78 A{r} {r * 0.8:.0f} 0 0 1 {120 + r} 78" fill="none" stroke="{c}" stroke-width="3.6" opacity="0.65"/>')
+    # The floor: golden steps and the sea of glass, with reflections.
+    out.append('<path d="M0 102 H240 V180 H0 Z" fill="url(#w70-floor)"/>')
+    for i, y in enumerate((106, 116, 128, 142, 160)):
+        out.append(f'<path d="M{70 - i * 14} {y} H{170 + i * 14}" stroke="#fffbe6" stroke-width="{1.6 + i * 0.5}" opacity="0.8"/>')
+    for k in range(9):
+        out.append(f'<path d="M{104 + k * 4} 104 L{40 + k * 20} 180" stroke="#fffbe6" stroke-width="0.9" opacity="0.5"/>')
+    # The throne: the One who sits on it drawn only as light, a seat of white and gold.
+    out.append('<rect x="84" y="78" width="72" height="8" fill="#fbf4d8" stroke="#d8c78a" stroke-width="1"/><rect x="94" y="70" width="52" height="9" fill="#fffbe6" stroke="#d8c78a" stroke-width="1"/>')
+    out.append('<path d="M92 70 V24 Q120 6 148 24 V70 Z" fill="#fffdf0" stroke="#e6d9a8" stroke-width="1.2" opacity="0.95"/>')
+    out.append('<ellipse cx="120" cy="44" rx="30" ry="40" fill="#ffffff" opacity="0.85"/>')
+    out.append('<path d="M88 70 C86 46 98 34 112 32 L128 32 C142 34 154 46 152 70 Z" fill="#ffffff" stroke="#efe6c4" stroke-width="1" opacity="0.96"/>')
+    out.append('<path d="M104 38 C102 52 104 62 100 70 M136 38 C138 52 136 62 140 70 M120 36 V70" stroke="#e8dfc2" stroke-width="1.1" fill="none"/>')
+    out.append('<circle cx="120" cy="26" r="9" fill="#ffffff" stroke="#efe6c4" stroke-width="1"/><path d="M112 30 C112 40 128 40 128 30 C126 34 114 34 112 30 Z" fill="#f4efdc"/>')
+    # His right hand held out with the scroll (5:1): the arm of light and the scroll hanging from it, seals showing.
+    out.append('<path d="M104 46 C100 52 98 60 96 68" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/><path d="M104 46 C92 50 84 58 76 66" stroke="#efe6c4" stroke-width="0.8" fill="none"/>')
+    out.append(_scroll(68, 78, 46, 20, -8))
+    out.append(_hand(94, 70, 0.3, 10, flip=True))
+    # The four living creatures, huge, winged and full of eyes.
+    out.append(_creature_big("lion", 30, 44, 0.72))
+    out.append(_creature_big("man", 66, 18, 0.5))
+    out.append(_creature_big("eagle", 172, 26, 0.6, -1))
+    out.append(_creature_big("ox", 206, 58, 0.8, -1))
+    # The elders beyond: rows of small ones in white and gold on either side of the pavement.
+    for k in range(6):
+        out.append(_elder_back(70 - k * 7, 112 + (k % 2) * 3, 0.22, tone=k))
+        out.append(_elder_back(170 + k * 7, 112 + (k % 2) * 3, 0.22, tone=k + 1))
+    for k in range(6):
+        out.append(_elder_back(66 - k * 9, 126 + (k % 2) * 3, 0.3, tone=k + 2))
+        out.append(_elder_back(174 + k * 9, 126 + (k % 2) * 3, 0.3, tone=k + 3))
+    # The Lamb, facing us, and His reflection in the glass.
+    out.append('<g transform="translate(0 322) scale(1 -1)" opacity="0.14">' + _lamb_front(120, 161, 0.86) + "</g>")
+    out.append(_lamb_front(120, 160, 0.86))
+    # Seven lamps of fire burning before the throne (4:5).
+    for i in range(7):
+        lx = 92 + i * 9.4
+        out.append(f'<path d="M{lx} 104 v-6" stroke="{GOLD_DK}" stroke-width="1.1"/><path d="M{lx - 2} 98 q2 -8 4 0 q-2 3 -4 0 Z" fill="#f08a3a" stroke="#c25a1a" stroke-width="0.5"/><path d="M{lx - 0.9} 98 q0.9 -4.4 1.8 0 Z" fill="#f8d56a"/>')
+    # The foreground elders, seen from behind, hands lifted in worship.
+    out.append(_elder_back(18, 184, 0.82, tone=0))
+    out.append(_elder_back(52, 186, 0.74, tone=1))
+    out.append(_elder_back(188, 186, 0.74, tone=2))
+    out.append(_elder_back(222, 184, 0.82, tone=3))
     return "".join(out)
 
 
