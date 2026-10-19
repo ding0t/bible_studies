@@ -9,12 +9,15 @@ export default function FutureSequence({ period, theme, width, selected, setSele
   const [start, end] = period.future;
   const span = end - start;
   const xOf = (y) => ((Math.min(Math.max(y, start), end) - start) / span) * width;
+  // `detail` events fill in the seven years and would crowd a thousand-year axis, so only the week's
+  // own views show them.
   const all = CHRONOLOGY.future_sequence.events.filter(
-    (e) => (e.end ?? e.at) >= start && e.at <= end
+    (e) => (e.end ?? e.at) >= start && e.at <= end && (span <= 100 || !e.detail)
   );
   const tracks = [
     { id: 'church', label: 'The Church, in heaven', color: '#7c3aed' },
     { id: 'earth', label: 'On earth', color: '#b45309' },
+    { id: 'israel', label: 'Israel', color: '#2f4f7f' },
   ];
   const step = span > 100 ? 100 : 0.5;
   const ticks = [];
@@ -85,7 +88,7 @@ export default function FutureSequence({ period, theme, width, selected, setSele
               </div>
             ))}
           </div>
-          {tracks.map((t) => {
+          {tracks.filter((t) => all.some((e) => e.track === t.id)).map((t) => {
             const items = stackRows(
               all.filter((e) => e.track === t.id).sort((a, b) => a.at - b.at),
               xOf,

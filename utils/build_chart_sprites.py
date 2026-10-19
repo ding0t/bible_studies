@@ -14,7 +14,7 @@ Re-run after editing the vignettes or the comic library.
 import tomllib
 from pathlib import Path
 
-from lib import comic
+from lib import comic, week70_art
 from lib.larkin import INK, esc
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -88,6 +88,8 @@ def main():
     # every comic sky is a gradient.
     out = ['<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="position:absolute" aria-hidden="true">']
     out += [vignette(v) for v in data["vignette"]]
+    out += [f'<symbol id="v-{eid}" viewBox="0 0 {VW} {VH}"><title>{esc(shows)}</title>{fn()}</symbol>'
+            for eid, (shows, fn) in week70_art.ART.items()]
     out += [f'<symbol id="day-{n}" viewBox="0 0 40 40"><title>{esc(t)}</title>{body}</symbol>'
             for n, (t, body) in DAYS.items()]
     out += [f'<symbol id="kind-{k}" viewBox="0 0 24 24"><title>{esc(t)}</title>{body}</symbol>'
@@ -97,7 +99,7 @@ def main():
     out.append("</svg>")
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text("\n".join(out) + "\n", encoding="utf-8")
-    print(f"wrote {OUT.relative_to(ROOT)}: {len(data['vignette'])} vignettes, {len(DAYS)} days, {len(KINDS)} kinds")
+    print(f"wrote {OUT.relative_to(ROOT)}: {len(data['vignette'])} vignettes, {len(week70_art.ART)} plates, {len(DAYS)} days, {len(KINDS)} kinds")
     for msg in comic.PROBLEMS:
         print(f"  fault: {msg}")
 

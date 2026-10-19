@@ -30,6 +30,7 @@ import DetailPanel from './DetailPanel';
 import FutureSequence from './FutureSequence';
 import DatedSequence from './DatedSequence';
 import PassionChart from './PassionChart';
+import WeekChart from './WeekChart';
 import FamilyTree from './FamilyTree';
 import HistoryChart from './HistoryChart';
 
@@ -354,6 +355,8 @@ export default function ChronologyExplorer({
           {view === 'chart' ? (
             isDated ? (
               <PassionChart period={period} />
+            ) : isFuture && periodId === 'week70' ? (
+              <WeekChart period={period} />
             ) : isFuture ? (
               <div className="hc-controls" style={card}>
                 <p style={{ margin: '0 0 0.6rem' }}>
