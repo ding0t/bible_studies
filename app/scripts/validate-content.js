@@ -853,9 +853,12 @@ function validateFile(filePath) {
       if (/^<!--\s*[\w-]+:auto-start\s*-->/.test(trimmed)) { inAuto = true; continue; }
       if (/^<!--\s*[\w-]+:auto-end\s*-->/.test(trimmed)) { inAuto = false; continue; }
       if (inAuto) continue;
-      if (/^#{2,4}\s/.test(trimmed)) {
+      // A titled admonition (`??? note "Title"`, collapsible or not) is a stopping place too: its
+      // title names the part, as a heading does, and a collapsed box shows only that title.
+      const admonition = trimmed.match(/^(?:\?{3}\+?|!{3})\s+\w+\s+"([^"]+)"/);
+      if (/^#{2,4}\s/.test(trimmed) || admonition) {
         flush();
-        heading = trimmed.replace(/^#+\s*/, '');
+        heading = admonition ? admonition[1] : trimmed.replace(/^#+\s*/, '');
         headingLine = i + 1;
         words = 0;
         continue;

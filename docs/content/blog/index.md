@@ -4,7 +4,7 @@ category: "other"
 description: "The author's personal notes and testimony, kept apart from the studies. It begins with three dream accounts."
 draft: false
 date_created: 2026-10-18
-date_modified: 2026-10-18
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -25,6 +25,14 @@ from Scripture and cites its sources; an entry here tells what happened to one p
 
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
+
+-   __AI-supported Bible studies: reflections after six months__
+
+    ---
+
+    Six months of studying the Bible with AI: how this site was built, the ups and downs from its git history, and what changed in the way I study
+
+    [:octicons-arrow-right-24: Read](2026-10-19-ai.md)
 
 -   __The Monster in the Man__
 
