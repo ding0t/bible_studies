@@ -2,7 +2,6 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import {
   CHRONOLOGY,
   amToGregorian,
-  gregorianToAm,
   loadEvents,
   loadGenealogyPeople,
   mergePeopleWithVariant,
@@ -25,12 +24,12 @@ import {
   textWidth,
 } from '../../utils/historyChart';
 import DanielKingdoms from './DanielKingdoms';
-import { CORE_ONLY_SPAN, PERIODS, chip, parseGregorian, sectionLabel, studyUrl, theme } from './shared';
+import { CORE_ONLY_SPAN, chip, sectionLabel, studyUrl, theme } from './shared';
 
 // The printable chart: the chronology as A4 sheets, drawn from the same events as the timeline.
 // The sheet is paper whatever the site's palette, because it is a picture of what will print.
 const SPRITES_URL = '/assets/chart/sprites.svg';
-const PAGE_URL = 'the-way.lewy.au/chronology/history-chart/';
+const PAGE_URL = 'the-way.lewy.au/timeline/';
 const EPOCH = 'genealogy';
 const SERIF = "Georgia, 'Times New Roman', serif";
 const INK = '#3b2f1e';
@@ -61,11 +60,6 @@ const KIND_LABEL = {
   archaeology: 'Dated record',
 };
 
-// Periods with a year on the Anno Mundi axis; the hour-by-hour AD 33 views and the undated future
-// have axes of their own and are not printable yet.
-const PRINT_PERIODS = PERIODS.filter((p) => p.am || p.greg);
-const periodRange = (p) => (p.am ? p.am : p.greg.map((g) => gregorianToAm(g, EPOCH)));
-
 function readHash() {
   const out = {};
   for (const part of window.location.hash.replace(/^#/, '').split('&').filter(Boolean)) {
@@ -75,9 +69,6 @@ function readHash() {
   return out;
 }
 
-// A plate of its own rather than a stretch of years: Daniel's kingdoms against Nebuchadnezzar's image.
-const DANIEL = 'daniel';
-
 const LANES = [
   { id: 'scripture', label: 'Scripture and history' },
   { id: 'people', label: 'People' },
@@ -86,15 +77,23 @@ const LANES = [
   { id: 'pictures', label: 'Pictures' },
 ];
 
-export default function HistoryChart() {
+// The Chart view of the chronology page (ChronologyExplorer), which owns the period, the address bar
+// and the detail panels; this component owns only what is particular to print. Events and people
+// clicked on a sheet open the Timeline's own panels; the ages, periods, threads and kingdoms, which
+// the Timeline has no panel for, open a card here.
+const EVENT_SOURCES = new Set(['genesis', 'anchor', 'archaeology', 'artifact', 'milestone', 'life', 'passion']);
+
+export default function HistoryChart({
+  amStart,
+  amEnd,
+  title,
+  slug,
+  daniel,
+  onSelectEvent,
+  onSelectPerson,
+  onOptionsChange,
+}) {
   const hash = useMemo(() => readHash(), []);
-  const [periodId, setPeriodId] = useState(
-    hash.period === DANIEL || PRINT_PERIODS.some((p) => p.id === hash.period) ? hash.period : 'week'
-  );
-  const [custom, setCustom] = useState(null);
-  const [fromText, setFromText] = useState('');
-  const [toText, setToText] = useState('');
-  const [rangeError, setRangeError] = useState('');
   const [sheets, setSheets] = useState(Math.min(12, Math.max(1, Number(hash.sheets) || 1)));
   const [scaleMode, setScaleMode] = useState(hash.scale === 'even' ? 'even' : 'fitted');
   const [mono, setMono] = useState(hash.ink === 'mono');
@@ -113,18 +112,13 @@ export default function HistoryChart() {
 
   useEffect(() => {
     const parts = [];
-    if (!custom && periodId !== 'week') parts.push(`period=${periodId}`);
     if (sheets > 1) parts.push(`sheets=${sheets}`);
     if (scaleMode === 'even') parts.push('scale=even');
     if (mono) parts.push('ink=mono');
     const off = LANES.filter((l) => !lanes[l.id]).map((l) => l.id);
     if (off.length) parts.push(`off=${off.join(',')}`);
-    window.history.replaceState(
-      null,
-      '',
-      parts.length ? `#${parts.join('&')}` : window.location.pathname
-    );
-  }, [periodId, custom, sheets, scaleMode, mono, lanes]);
+    onOptionsChange?.(parts);
+  }, [sheets, scaleMode, mono, lanes, onOptionsChange]);
 
   const vignettes = useMemo(
     () => new Set([...sprite.matchAll(/<symbol id="v-([^"]+)"/g)].map((m) => m[1])),
@@ -146,23 +140,13 @@ export default function HistoryChart() {
     };
   }, []);
 
-  const period = PRINT_PERIODS.find((p) => p.id === periodId) ?? PRINT_PERIODS[0];
-  // The Daniel plate has no range of its own; the chart behind it stays on the whole week.
-  const [amStart, amEnd] = custom ?? periodRange(period);
   const ranges = splitSheets(amStart, amEnd, sheets);
-  const title = custom
-    ? `${formatYear(amToGregorian(amStart, EPOCH))} to ${formatYear(amToGregorian(amEnd, EPOCH))}`
-    : period.label;
-
-  const applyCustom = () => {
-    const a = parseGregorian(fromText);
-    const b = parseGregorian(toText);
-    if (a == null || b == null || a >= b) {
-      setRangeError('Enter two years, earliest first, e.g. "1000 BC" and "AD 100".');
-      return;
-    }
-    setRangeError('');
-    setCustom([gregorianToAm(a, EPOCH), gregorianToAm(b, EPOCH)]);
+  const byId = useMemo(() => new Map(data.events.map((e) => [e.id, e])), [data]);
+  const select = (item) => {
+    if (item.source === 'movement' && byId.has(item.event)) return onSelectEvent(byId.get(item.event));
+    if (EVENT_SOURCES.has(item.source)) return onSelectEvent(item);
+    if (item.zadok_year_born != null && item.id) return onSelectPerson(item.id);
+    setSelected(item);
   };
 
   const card = {
@@ -187,52 +171,6 @@ export default function HistoryChart() {
     <div className="hc-root" style={{ color: theme.text }}>
       <div dangerouslySetInnerHTML={{ __html: sprite }} />
       <div className="hc-controls" style={card}>
-        <div style={sectionLabel}>PERIOD</div>
-        <div style={row}>
-          <button
-            style={chip(!custom && periodId === DANIEL, '#a67c3d')}
-            onClick={() => {
-              setCustom(null);
-              setPeriodId(DANIEL);
-            }}
-          >
-            Daniel's kingdoms
-          </button>
-          {PRINT_PERIODS.map((p) => (
-            <button
-              key={p.id}
-              style={chip(!custom && periodId === p.id, '#2563eb')}
-              onClick={() => {
-                setCustom(null);
-                setPeriodId(p.id);
-              }}
-            >
-              {p.label}
-            </button>
-          ))}
-        </div>
-        <div style={{ ...row, alignItems: 'center' }}>
-          <span style={{ fontSize: '0.8rem', color: theme.textMuted }}>Or any range:</span>
-          <input
-            style={input}
-            placeholder="1000 BC"
-            value={fromText}
-            onChange={(e) => setFromText(e.target.value)}
-            aria-label="From year"
-          />
-          <span style={{ fontSize: '0.8rem', color: theme.textMuted }}>to</span>
-          <input
-            style={input}
-            placeholder="AD 100"
-            value={toText}
-            onChange={(e) => setToText(e.target.value)}
-            aria-label="To year"
-          />
-          <button style={chip(Boolean(custom), '#2563eb')} onClick={applyCustom}>
-            Show
-          </button>
-          {rangeError && <span style={{ fontSize: '0.8rem', color: '#b91c1c' }}>{rangeError}</span>}
-        </div>
         <div style={sectionLabel}>SHOW</div>
         <div style={row}>
           {LANES.map((l) => (
@@ -281,8 +219,8 @@ export default function HistoryChart() {
         </div>
       </div>
 
-      {!custom && periodId === DANIEL ? (
-        <DanielSheet events={data.events} mono={mono} sprite={sprite} onSelect={setSelected} />
+      {daniel ? (
+        <DanielSheet events={data.events} mono={mono} sprite={sprite} onSelect={select} />
       ) : (
         ranges.map((r, i) => (
         <Sheet
@@ -297,8 +235,8 @@ export default function HistoryChart() {
           scaleMode={scaleMode}
           vignettes={vignettes}
           sprite={sprite}
-          slug={custom ? 'range' : periodId}
-          onSelect={setSelected}
+          slug={slug}
+          onSelect={select}
         />
         ))
       )}

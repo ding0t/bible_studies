@@ -1,6 +1,7 @@
-/* The History Chart (docs/content/chronology/history-chart.md): A4 landscape sheets drawn by
+/* The timeline's Chart view (docs/content/timeline.md#view=chart): A4 landscape sheets drawn by
  * app/src/components/chronology/HistoryChart.jsx. Same approach as memory-verses.css: the sheet is
- * paper in both palettes, and printing hides everything but the sheets. */
+ * paper in both palettes, and printing hides everything but the sheets. .hc-root exists only while
+ * the Chart view is open, so the Timeline and Family tree print as ordinary pages. */
 
 .hc-sheet {
   print-color-adjust: exact;
@@ -15,7 +16,7 @@
 @media print {
   body:has(.hc-root) :is(.md-header, .md-tabs, .md-sidebar, .md-footer, .md-top, .md-source-file,
     .md-path, .md-content__button, .hc-controls),
-  body:has(.hc-root) .md-content__inner > :not(#history-chart-root) {
+  body:has(.hc-root) .md-content__inner > :not(#timeline-root) {
     display: none !important;
   }
   /* The whole body, not only the sheets: Chrome sizes the first page from whatever precedes the

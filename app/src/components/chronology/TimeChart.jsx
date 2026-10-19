@@ -154,7 +154,7 @@ export default function TimeChart({
     p.lineages?.includes('jesus_line')
       ? GENEALOGY_INDEX.lineages.jesus_line.color
       : GENEALOGY_INDEX.lineages.seth_line.color;
-  const markerRows = ['genesis', 'anchor', 'archaeology', 'milestone', 'life', 'event'].filter(
+  const markerRows = ['genesis', 'anchor', 'archaeology', 'artifact', 'milestone', 'life', 'event'].filter(
     (l) => layers[l] && markers.some((m) => m.layer === l)
   );
 
@@ -315,7 +315,7 @@ export default function TimeChart({
         </Row>
 
         {KINGDOMS.some((k) => inView(k.am, k.amEnd)) && (
-          <Row label={<a href="/chronology/history-chart/#period=daniel">Daniel's kingdoms</a>} height="1.4rem">
+          <Row label={<a href="#daniel&view=chart">Daniel's kingdoms</a>} height="1.4rem">
             {KINGDOMS.filter((k) => inView(k.am, k.amEnd)).map((k) => (
               <div
                 key={k.id}

@@ -29,6 +29,7 @@ export const LAYER_META = {
   genesis: { label: 'Genesis', color: '#b45309' },
   anchor: { label: 'Anchor table', color: '#0891b2' },
   archaeology: { label: 'Other archaeology', color: '#0f766e' },
+  artifact: { label: 'Texts and finds', color: '#8a5a2b' },
   milestone: { label: 'Prophecy', color: '#be185d' },
   life: { label: "People's events", color: '#64748b' },
   event: { label: 'Studies', color: '#65a30d' },
@@ -46,6 +47,9 @@ export const PERIODS = [
   { id: 'conquest-solomon', label: 'Conquest to Solomon', am: [2530, 3060] },
   { id: 'kingdom-exile', label: 'Kingdom, exile and return', greg: [-1000, -500] },
   { id: 'between', label: 'Between the Testaments', greg: [-540, 5] },
+  // Daniel's kingdoms: on the Chart view a plate of its own (Nebuchadnezzar's image across time), on
+  // the Timeline the years it covers, from the dream to the first century.
+  { id: 'daniel', label: "Daniel's kingdoms", greg: [-620, 100] },
   { id: 'christ', label: 'When Jesus was on earth', greg: [-8, 36] },
   // AD 33, hour by hour: hours from midnight at the start of Saturday 28 March (Julian).
   { id: 'passion-week', label: 'Passion week (AD 33)', dated: [42, 222] },
@@ -224,6 +228,7 @@ export const SOURCE_LAYER = {
   genesis: 'genesis',
   anchor: 'anchor',
   archaeology: 'archaeology',
+  artifact: 'artifact',
   milestone: 'milestone',
   passion: 'milestone',
   life: 'life',

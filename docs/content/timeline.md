@@ -1,7 +1,7 @@
 ---
 title: "Prophetic Timeline"
 category: "other"
-description: "The millennial week charted: creation to the millennial reign across seven thousand-year days, with every person in the genealogy from Adam to Jesus, the dated anchors of history, and AD 33 hour by hour."
+description: "The millennial week in three views: a printable chart with pictures, the ages and the dated texts and finds; a zoomable timeline with every person from Adam to Jesus and AD 33 hour by hour; and the family tree."
 tags: ["chronology", "prophecy", "last-things"]
 draft: false
 hide:
@@ -28,11 +28,31 @@ sets out what can be dated and how tightly, and why the site anchors where it do
 and Eighty Years](chronology/four-hundred-and-eighty-years.md) counts back from the temple to the
 Exodus, and [Why Not 4004 BC?](chronology/why-not-4004-bc.md) explains why this line sits
 forty-five years after Ussher's. Every study behind these dates is in
-[Chronology](chronology/index.md). To print any period on A4 sheets, with pictures, the ages and
-the dated texts and finds, use the [History Chart](chronology/history-chart.md).
+[Chronology](chronology/index.md).
 
-Pick a period to zoom in (from Creation to the Flood down to the years Jesus was on earth) or type
-any range of years, and the list under the chart shows every event in view. AD 33 can be followed
+One set of dates drives three views, and the period you choose carries from one to the next.
+
+**Chart** lays history out on A4 sheets, to print, pin up and teach from. Each of the seven days of
+the creation week stands over its thousand years. The ages run across the top in the names
+Christians have long used for them: before the Flood, after the Flood, the patriarchs, Israel under
+the Law, the church age, the millennial kingdom and the new creation. Under them are the periods,
+with an arrow at each exile and each return.
+
+Below run four lanes. **Scripture and history** puts a picture over the main events. **People**
+draws each life in the genealogy to scale: Methuselah dies in the year of the Flood, and Noah's son
+Shem is still alive when Abraham is 150. **Texts and finds** sets the manuscripts, inscriptions and
+ancient writers from [Ancient Texts and Manuscripts](scripture/ancient-texts-manuscripts.md) against
+the history they bear witness to. **Threads** follow a promise to its fulfilment: the promised Seed,
+the temple, and Daniel's sixty-nine weeks.
+
+Spread a period over up to twelve sheets. Fit the scale to the events or keep it even, and switch
+any lane off. In black and white the ages are told apart by pattern. **Daniel's kingdoms** is a
+sheet of its own: Nebuchadnezzar's image down the side, each part ruled across to the years its
+kingdom held. [The Image and the Kingdoms](last-things/the-image-and-the-kingdoms.md) works it
+through. Print landscape at 100% with no margins, or download a sheet as SVG for a print shop.
+
+**Timeline** is the one to explore with. Pick a period to zoom in (from Creation to the Flood down to
+the years Jesus was on earth) or type any range of years, and the list under the chart shows every event in view. AD 33 can be followed
 day by day and hour by hour: Passion Week, Thursday night's betrayal and trials, the crucifixion
 from the third hour to the ninth, the three days and nights, the resurrection morning, and the
 fifty days to Pentecost, each set against the Hebrew day and the appointed feast it fell on. The address bar keeps
@@ -44,7 +64,7 @@ The genealogy runs through the chart as a row for each person, Adam to Jesus, wi
 took part in marked on their row. Hatched bars are lives the text leaves estimated or calculated.
 Choose anyone for their Hebrew name and its meaning, their dates in both calendars, their family,
 their events and everyone alive in their lifetime; hover the chart for the year, and click it to list
-who was alive then. The Family tree view shows the same people by descent.
+who was alive then. **Family tree** shows the same people by descent.
 
 The Septuagint, the Samaritan Pentateuch and dsscalendar.org's epoch reckon differently, and can be
 switched on below for comparison. [Genealogy and Times](chronology/genealogy-times.md) and [The

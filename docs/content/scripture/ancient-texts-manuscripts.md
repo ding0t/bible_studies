@@ -877,7 +877,7 @@ substantially what its authors wrote is not.
 - [Bible Translations and Source Texts](translations.md) — which manuscript traditions stand behind the English versions
 - [Archaeological Sites](archaeological-sites.md) — the sites, as distinct from the texts
 - [Chronology Anchors](../chronology/chronology-anchors.md#outside-witnesses) — which of these inscriptions fix a year, which check one, and which only confirm the people and events
-- [History Chart](../chronology/history-chart.md) — the dated entries of this catalogue placed against the biblical history, printable on A4
+- [The timeline's Chart view](/timeline/#view=chart) — the dated entries of this catalogue placed against the biblical history, printable on A4
 - [How to Read the Bible](how-to-read-the-bible.md) — the method this site applies to the text once its reliability is granted
 
 ---

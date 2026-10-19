@@ -30,9 +30,27 @@ import DetailPanel from './DetailPanel';
 import FutureSequence from './FutureSequence';
 import DatedSequence from './DatedSequence';
 import FamilyTree from './FamilyTree';
+import HistoryChart from './HistoryChart';
 
-// The view lives in the address bar so any view can be shared: #christ, #kingdom-exile&person=hezekiah,
-// #view=family&person=abraham.
+// Three views of one set of data: the printable Chart, the zoomable Timeline and the Family tree.
+// The view lives in the address bar so any view can be shared: #christ&view=chart,
+// #kingdom-exile&person=hezekiah, #view=family&person=abraham. The Chart adds its print options
+// (sheets, scale, ink, off), which HistoryChart reads and reports back.
+const VIEWS = [
+  { id: 'chart', label: 'Chart' },
+  { id: 'timeline', label: 'Timeline' },
+  { id: 'family', label: 'Family tree' },
+];
+
+// The Chart is an A4 sheet: on a phone its type would be too small to read, so a phone opens on the
+// Timeline. A link that names a period or a person was shared from the Timeline before the Chart
+// existed, and still opens there.
+function defaultView(fromHash) {
+  if (fromHash.period || fromHash.person) return 'timeline';
+  if (typeof window === 'undefined' || !window.matchMedia) return 'timeline';
+  return window.matchMedia('(min-width: 900px)').matches ? 'chart' : 'timeline';
+}
+
 function readHash() {
   if (typeof window === 'undefined') return {};
   const out = {};
@@ -45,12 +63,13 @@ function readHash() {
   return out;
 }
 
-function writeHash({ period, person, view }) {
+function writeHash({ period, person, view, fallbackView, chartOptions }) {
   if (typeof window === 'undefined') return;
   const parts = [];
   if (period && period !== 'week') parts.push(period);
-  if (view && view !== 'chart') parts.push(`view=${view}`);
+  if (view && view !== fallbackView) parts.push(`view=${view}`);
   if (person) parts.push(`person=${person}`);
+  if (view === 'chart' && chartOptions) parts.push(...chartOptions);
   const hash = parts.length ? `#${parts.join('&')}` : ' ';
   window.history.replaceState(null, '', hash === ' ' ? window.location.pathname : hash);
 }
@@ -77,12 +96,19 @@ export default function ChronologyExplorer({
     genesis: true,
     anchor: true,
     archaeology: true,
+    artifact: true,
     milestone: true,
     life: true,
     event: true,
   });
   const [periodId, setPeriodId] = useState(() => initialPeriod ?? fromHash.period ?? 'week');
-  const [view, setView] = useState(() => initialView ?? fromHash.view ?? 'chart');
+  const fallbackView = useMemo(() => defaultView(fromHash), [fromHash]);
+  const [view, setView] = useState(() =>
+    VIEWS.some((v) => v.id === (initialView ?? fromHash.view))
+      ? (initialView ?? fromHash.view)
+      : fallbackView
+  );
+  const [chartOptions, setChartOptions] = useState([]);
   const [personId, setPersonId] = useState(() => initialPerson ?? fromHash.person ?? null);
   const [custom, setCustom] = useState(null);
   const [fromText, setFromText] = useState('');
@@ -94,8 +120,15 @@ export default function ChronologyExplorer({
   const [showEveryone, setShowEveryone] = useState(false);
 
   useEffect(
-    () => writeHash({ period: custom ? null : periodId, person: personId, view }),
-    [periodId, personId, view, custom]
+    () =>
+      writeHash({
+        period: custom ? null : periodId,
+        person: personId,
+        view,
+        fallbackView,
+        chartOptions,
+      }),
+    [periodId, personId, view, custom, fallbackView, chartOptions]
   );
 
   const genealogyPeople = useMemo(() => loadGenealogyPeople(), []);
@@ -121,12 +154,12 @@ export default function ChronologyExplorer({
     setRangeError('');
     setPeriodId(id);
     setSelected(null);
-    setView('chart');
+    setView((v) => (v === 'family' ? 'timeline' : v));
   };
   const showRange = (a, b) => {
     setCustom([a, b]);
     setSelected(null);
-    setView('chart');
+    setView((v) => (v === 'family' ? 'timeline' : v));
   };
   const applyCustom = () => {
     const a = parseGregorian(fromText);
@@ -164,12 +197,13 @@ export default function ChronologyExplorer({
         genesis: 'genesis',
         anchor: 'anchor',
         archaeology: 'archaeology',
+        artifact: 'artifact',
         milestone: 'milestone',
         life: 'life',
       }[e.source];
       if (!layer) continue; // the AD 33 sequence has its own hour-level views
       const am =
-        e.source === 'anchor' || e.source === 'archaeology'
+        e.source === 'anchor' || e.source === 'archaeology' || e.source === 'artifact'
           ? gregorianToAm(e.gregorian_year, primaryEpoch)
           : e.am;
       out.push({
@@ -219,7 +253,7 @@ export default function ChronologyExplorer({
     if (e.source === 'passion') {
       setPeriodId(e.detail ? 'crucifixion' : 'passion-week');
       setCustom(null);
-      setView('chart');
+      setView('timeline');
       setSelected({ kind: 'dated', ...e });
       return;
     }
@@ -259,16 +293,15 @@ export default function ChronologyExplorer({
         color: theme.text,
       }}
     >
-      <div style={card}>
+      <div className="hc-controls" style={card}>
         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '0.75rem' }}>
-          <button style={chip(view === 'chart', '#0f766e')} onClick={() => setView('chart')}>
-            Timeline
-          </button>
-          <button style={chip(view === 'family', '#0f766e')} onClick={() => setView('family')}>
-            Family tree
-          </button>
+          {VIEWS.map((v) => (
+            <button key={v.id} style={chip(view === v.id, '#0f766e')} onClick={() => setView(v.id)}>
+              {v.label}
+            </button>
+          ))}
         </div>
-        {view === 'chart' && (
+        {view !== 'family' && (
           <>
             <div style={sectionLabel}>PERIOD</div>
             <div
@@ -317,7 +350,46 @@ export default function ChronologyExplorer({
 
       <div style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start', flexWrap: 'wrap' }}>
         <div style={{ flex: '1 1 600px', minWidth: 0 }}>
-          {view === 'family' ? (
+          {view === 'chart' ? (
+            isDated || isFuture ? (
+              <div className="hc-controls" style={card}>
+                <p style={{ margin: '0 0 0.6rem' }}>
+                  {isDated
+                    ? 'This period is drawn hour by hour, on an axis of its own.'
+                    : 'This period has no date: Scripture gives its length and keeps its start hidden.'}{' '}
+                  The Chart prints periods with a year; open this one on the Timeline.
+                </p>
+                <button style={chip(true, '#0f766e')} onClick={() => setView('timeline')}>
+                  Open in Timeline
+                </button>
+              </div>
+            ) : (
+              <>
+                <HistoryChart
+                  amStart={amStart}
+                  amEnd={amEnd}
+                  title={
+                    custom
+                      ? `${formatGregorian(amToGregorian(Math.round(amStart), primaryEpoch))} to ${formatGregorian(amToGregorian(Math.round(amEnd), primaryEpoch))}`
+                      : period.label
+                  }
+                  slug={custom ? 'range' : periodId}
+                  daniel={!custom && periodId === 'daniel'}
+                  onSelectEvent={selectEvent}
+                  onSelectPerson={selectPerson}
+                  onOptionsChange={setChartOptions}
+                />
+                <div className="hc-controls">
+                  <DetailPanel
+                    selected={selected?.kind === 'marker' ? selected : null}
+                    theme={theme}
+                    activeEpochs={activeEpochs}
+                    markerDate={markerDate}
+                  />
+                </div>
+              </>
+            )
+          ) : view === 'family' ? (
             <FamilyTree
               people={allPeople}
               selectedPersonId={personId}
@@ -531,6 +603,7 @@ export default function ChronologyExplorer({
         </div>
 
         {person && (
+          <div className="hc-controls" style={{ display: 'contents' }}>
           <PersonPanel
             person={person}
             people={allPeople}
@@ -539,10 +612,11 @@ export default function ChronologyExplorer({
             onFocusLife={focusLife}
             onClose={() => setPersonId(null)}
           />
+          </div>
         )}
       </div>
 
-      <p style={{ fontSize: '0.8rem', color: theme.textMuted, marginTop: '1rem' }}>
+      <p className="hc-controls" style={{ fontSize: '0.8rem', color: theme.textMuted, marginTop: '1rem' }}>
         Anno Mundi (years since creation) on this site's chronology: the Masoretic numbers, creation
         3959 BC — the "a day is a thousand years" frame (2 Peter 3:8). Pick a period or type a range
         to zoom, or a person to follow their life; filled anchor markers are Fixed, hollow ones

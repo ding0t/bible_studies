@@ -39,6 +39,13 @@ export default function DetailPanel({ selected, theme, activeEpochs, markerDate 
             {selected.tier && ` · ${selected.tier}`}
             {selected.scripture && ` · ${selected.scripture}`}
           </div>
+          {selected.image && (
+            <img
+              src={selected.image}
+              alt={selected.label}
+              style={{ maxWidth: '100%', maxHeight: '12rem', borderRadius: '0.4rem', margin: '0.3rem 0' }}
+            />
+          )}
           <p style={{ margin: 0 }}>{selected.evidence ?? selected.note ?? selected.description}</p>
           {(selected.study_ref || selected.url) && (
             <a

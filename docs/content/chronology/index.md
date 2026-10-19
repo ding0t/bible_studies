@@ -13,8 +13,8 @@ ai_provider_models:
 
 Dating biblical history: what can be fixed to a year, how the numbers in Scripture add up, and
 the one timeline this site works to. Every date on the
-[Prophetic Timeline](../timeline.md) is argued for here, and the
-[History Chart](history-chart.md) prints any stretch of it on A4 sheets.
+[Prophetic Timeline](../timeline.md) is argued for here, and its
+[Chart view](/timeline/#view=chart) prints any stretch of it on A4 sheets.
 
 The studies read in order. They start from the events an outside record fixes, Solomon's temple
 onward, and count back from there through the kings, the Exodus and the genealogies of Genesis 5
@@ -84,14 +84,6 @@ Other studies use these dates for their own subjects:
     Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,466 years at creation and converge on Abraham to the year.
 
     [:octicons-arrow-right-24: Read](combined-timeline.md)
-
--   __History Chart__
-
-    ---
-
-    Biblical history and prophecy on printable A4 sheets: the seven days of the millennial week, the ages from before the Flood to the new creation, the people, the dated texts and finds, and the lines that run from promise to fulfilment.
-
-    [:octicons-arrow-right-24: Read](history-chart.md)
 
 -   __What World Population Declares: Biblical Chronology and the Arithmetic of Growth__
 

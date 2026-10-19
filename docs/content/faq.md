@@ -324,7 +324,7 @@ view shows the same people by descent. Every date is argued for in the
 
 ### Can I print the timeline?
 
-**Yes: the [History Chart](chronology/history-chart.md) prints any stretch of it on A4 sheets**,
+**Yes: the timeline's [Chart view](/timeline/#view=chart) prints any stretch of it on A4 sheets**,
 for a classroom wall, a small group or your own Bible. It draws the creation days over their
 thousand years, the ages from before the Flood to the new creation, the main events with a picture
 over each, the people, the manuscripts and inscriptions that bear witness to the history, and
