@@ -97,3 +97,30 @@ Concept tags are a useful extra feature, too sparse to stand alone.
    model dependency and an opaque score. Revisit if 1–4 leave a clear gap.
 7. **Not measured at all:** New Testament to New Testament. The Synoptic parallels, Jude and 2 Peter,
    and 1 Timothy 5:18 citing Luke 10:7 need a class of their own.
+
+## Built in, 2026-10-20
+
+Recommendations 1, 2 and 4 (as a class of its own), and the Translation Notes from 3, went into the
+build. Each rule then had to hold up on the whole Bible, not just the lab:
+
+| Rule | Strong links | Corroborated |
+|---|---|---|
+| Greek, every rule | 246 (was 140) | 84% (was 82%) |
+| unique phrases alone | 57 | 79% |
+| citation formula + phrases alone | 24 | 83% |
+| Hebrew lemmas, chaining | 2,054 (was 822) | 46% (was 45%) |
+| crosslang | 48 | 88% |
+
+Two first versions were noise and were tightened before shipping:
+
+- **Formula by lemma** (γράφω, πληρόω) admitted Colossians 1:9's "be filled" and Revelation's "write".
+  Formula by citing form (γέγραπται, ἡ γραφή, πληρωθῇ, ῥηθέν), with Revelation exempt (its "it is
+  written" is the book of life), took the rule from 56% to 83%.
+- **Hebrew surface matches the lemmas do not confirm** were regnal and ritual formulas at 16%; they now
+  need lemma confirmation.
+
+A Psalms-only rule surfaced on the way: the verse-shift correction for psalm titles had been applied to
+every book, mapping LXX Micah 5:1 to English 5:3. It now applies to Psalms only (build.py, query.py).
+
+Still open: Matthew 24:15 (the concept bridge found it; no shipped rule does), Joel 3:16 and Amos 1:2, New
+Testament to New Testament, and a Greek 1 Enoch for Jude 14.

@@ -1,11 +1,11 @@
 ---
 title: "How We Cross-Reference Scripture"
 category: "other"
-description: "Scripture links on this site are derived from the biblical texts themselves rather than copied from a cross-reference list — how that works, the four kinds of evidence it produces, and why they are never merged into a single score."
+description: "Scripture links on this site are derived from the biblical texts themselves rather than copied from a cross-reference list — how that works, the five kinds of evidence it produces, and why they are never merged into a single score."
 tags: ["data", "method/textual-criticism", "cross-references", "septuagint", "transparency", "mermaid"]
 draft: false
 date_created: 2026-09-04
-date_modified: 2026-10-19
+date_modified: 2026-10-20
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -26,6 +26,21 @@ To skip the method and look up a verse:
 
 [Look up a verse in Scripture Links](../references.md){ .md-button }
 
+## Study outline
+
+- [Why a list is not enough](#why-a-list-is-not-enough). Hebrews 10:5 and Psalm 40:6, and what a list
+  cannot explain.
+- [Five kinds of link, kept separate](#five-kinds-of-link-kept-separate). The classes, and why they
+  are never added into one score.
+- [How the matching works](#how-the-matching-works) and [where the thresholds come
+  from](#where-the-thresholds-come-from). The measures, the cut-offs, and the rules added in October
+  2026.
+- [What the method produces](#what-the-method-produces) and [what this gives you in a
+  study](#what-this-gives-you-in-a-study). The counts, and the gaps the links reveal in a study.
+- [Compared with an inherited list](#compared-with-an-inherited-list), [tracing one
+  verse](#tracing-one-verse) and [the Dead Sea Scrolls](#checking-against-the-dead-sea-scrolls).
+- [Limits](#limits) and [where the data lives](#where-the-data-lives).
+
 ## Why a list is not enough
 
 Hebrews 10:5 says *"a body you have prepared for me"* and is quoting Psalm 40. Turn to Psalm 40:6
@@ -36,9 +51,9 @@ Septuagint reads differently from the Hebrew.
 A cross-reference list tells you the two verses are connected. It cannot explain why they read
 differently, and it cannot find other cases like it. Only the texts themselves can.
 
-## Four kinds of link, kept separate
+## Five kinds of link, kept separate
 
-The method produces four kinds of link. Each is stored on its own and they are **never added up
+The method produces five kinds of link. Each is stored on its own and they are **never added up
 into one relevance score**. They rest on different evidence, and the kind of evidence decides what a
 link can be used for.
 
@@ -48,8 +63,9 @@ flowchart LR
         direction TB
         QG["quotation-greek<br/>Greek New Testament quoting<br/>the Greek Old Testament"]
         IB["inner-biblical<br/>the Hebrew Old Testament<br/>quoting itself"]
+        XL["quotation-crosslang<br/>the Greek New Testament read<br/>against the Hebrew Old Testament"]
         AL["allusion-lemma<br/>shared rare vocabulary,<br/>no shared phrasing needed"]
-        QG ~~~ IB ~~~ AL
+        QG ~~~ IB ~~~ XL ~~~ AL
     end
     subgraph judged["Someone's judgement — useful, but not the same thing"]
         direction TB
@@ -157,6 +173,36 @@ The cut-off for "strong" sits where the rate drops. Allusions show an even sharp
 pairs of verses are confirmed **0.3%** of the time, and pairs above the rare-word threshold **52%**
 of the time, 173 times as often.
 
+### Rules added in October 2026
+
+Testing the links against two answer keys with no connection to the method, the WEB translators'
+quotation footnotes and unfoldingWord's Translation Notes, showed the strong links found only about
+one in six of the quotations those keys mark. The gaps had causes, and each cause now has its own
+rule. Every link records the rule that admitted it, and the page says so under each link ("Found
+by...").
+
+- **Unique phrases.** A run of everyday words can be unique as a phrase. John 10:34 shares four common
+  words with Psalm 82:6 (*"I said, you are gods"*), and the phrase occurs in one Septuagint verse.
+  Three such phrases admit a link on their own: 79% confirmed.
+- **A citation formula.** A verse that says "it is written", "the Scripture", "that it might be
+  fulfilled", sharing two such phrases with one Old Testament verse: 83% confirmed. This is what
+  finds the short, famous quotations: James 2:8, Romans 1:17, Matthew 4:7, Matthew 2:6 from Micah.
+  Revelation is exempt, because its "it is written" is a name written in the book of life.
+- **Hebrew on dictionary forms.** Matching the Hebrew on MACULA's lemmas, with prefixes split and
+  spelling normalised, and counting a weaker match whose neighbouring verses also match, because
+  borrowed passages come in runs. 1 Chronicles 16:8 and Psalm 105:1 are the same words with one
+  spelling difference; they scored 12 on the surface and now match. The sixteen best-known parallels
+  went from 68 of 266 verses found to 211, at the same rate of confirmation as before.
+- **Reading the Greek against the Hebrew.** A vocabulary learned from the Septuagint's own
+  translation choices lets a New Testament verse be compared with the Hebrew directly, for
+  quotations that follow the Hebrew where the Septuagint reads differently: "Death is swallowed up
+  in victory" (1 Corinthians 15:54; Isaiah 25:8), "I will strike the shepherd" (Matthew 26:31;
+  Zechariah 13:7). Only in verses that cite Scripture, only the best match, and only with a clear
+  margin: 88% confirmed. This is its own class, `quotation-crosslang`.
+
+[What the Scripture Links Reveal](../scripture/what-the-links-reveal.md) reads the results as a whole,
+including which gaps these rules closed and which remain.
+
 No single link is certain because of this. A link marked strong has passed the same test as every
 other link, and links of that strength are confirmed 86% of the time.
 
@@ -164,14 +210,15 @@ other link, and links of that strength are confirmed 86% of the time.
 
 Every link is stored in one table, `scripture_links`, in the site's reference database. The table is
 rebuilt from scratch on each build. Nobody edits it by hand, and running the build again produces
-the same rows. The four kinds of link, the texts compared, and the current counts:
+the same rows. The five kinds of link, the texts compared, and the current counts of strong links:
 
 | class | from | to | links |
 |---|---|---|---|
-| `inner-biblical` | Westminster Leningrad Codex | itself | 822 |
-| `quotation-greek` | SBL Greek New Testament | Brenton's 1851 Septuagint | 140 |
+| `inner-biblical` | Westminster Leningrad Codex, matched on MACULA lemmas | itself | 2,054 |
+| `quotation-greek` | SBL Greek New Testament | Brenton's 1851 Septuagint | 246 |
 | `allusion-lemma` | MACULA Greek lemmas | Septuagint lemmas | 103 |
 | `quotation-hebrew` | Delitzsch Hebrew New Testament | Westminster Leningrad Codex | 49 |
+| `quotation-crosslang` | MACULA Greek (Strong's numbers) | Westminster Leningrad Codex, through a lexicon learned from the Septuagint | 48 |
 
 All of these source texts are openly licensed, so anyone can rebuild the table. The
 [source catalogue](about-our-datasets.md) gives each one's licence and origin. The `inner-biblical`
@@ -192,7 +239,7 @@ connected to the study's verses that the study never cites.
 
 ## What this gives you in a study
 
-**It finds connections the lists missed.** Of the 140 strong Greek quotations, ten (about one in
+**It finds connections the lists missed.** In the method's first version, of the 140 strong Greek quotations, ten (about one in
 fourteen) appear in neither outside list. That count is cautious. Twenty-three of the 140 are
 missing *at that exact verse*, but in 13 of those a list records the same quotation one or two
 verses earlier, so only ten are true gaps.

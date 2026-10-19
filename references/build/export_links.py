@@ -22,7 +22,7 @@ import versification
 OUT = Path(__file__).resolve().parents[2] / "docs" / "data" / "scripture-links.json"
 ENGLISH = "ebible-eng-web"
 ORIGINAL = {"lxx": "ebible-grcbrent", "masoretic": "morphhb-wlc", "english": "sblgnt"}
-METHOD_ORDER = ["quotation-greek", "inner-biblical", "allusion-lemma", "quotation-hebrew"]
+METHOD_ORDER = ["quotation-greek", "inner-biblical", "quotation-crosslang", "allusion-lemma", "quotation-hebrew"]
 
 
 def main() -> int:
@@ -49,16 +49,15 @@ def main() -> int:
         texts[key] = entry
         return key
 
+    # `strong` is set by the build: a pair one of quotations.py's rules admits on its own measure.
     rows = conn.execute(
-        "SELECT * FROM scripture_links WHERE (link_type='allusion-lemma' AND idf_overlap >= ?) "
-        "OR (link_type != 'allusion-lemma' AND alignment >= ?) ORDER BY link_type, from_book, "
-        "from_chapter, from_verse, to_book, to_chapter, to_verse",
-        (quotations.ALLUSION_WEIGHT, quotations.QUOTATION_ALIGNMENT)).fetchall()
+        "SELECT * FROM scripture_links WHERE strong ORDER BY link_type, from_book, "
+        "from_chapter, from_verse, to_book, to_chapter, to_verse").fetchall()
 
     links = []
     for row in rows:
         kind = row["link_type"]
-        source_scheme = "english" if kind in ("quotation-greek", "allusion-lemma") else "masoretic"
+        source_scheme = "english" if kind in ("quotation-greek", "allusion-lemma", "quotation-crosslang") else "masoretic"
         target_scheme = query.LINK_TARGET_SCHEME[kind]
         source = (row["from_book"], row["from_chapter"], row["from_verse"])
         target = (row["to_book"], row["to_chapter"], row["to_verse"])
@@ -71,8 +70,10 @@ def main() -> int:
         target_key = remember(target_scheme, *target, target_english)
         entry = {
             "f": source_key, "t": target_key, "m": kind,
-            "s": round(row["idf_overlap"], 1) if kind == "allusion-lemma" else row["alignment"],
+            "s": (round(row["idf_overlap"], 1) if kind == "allusion-lemma" else
+                  round(row["lemma_score"]) if row["lemma_score"] is not None else row["alignment"]),
             "c": 1 if row["corroborated"] else 0,
+            "b": row["basis"],
         }
         if target_english:
             english_key = f"{target_english[0]} {target_english[1]}:{target_english[2]}"
@@ -139,6 +140,24 @@ def main() -> int:
             texts[source] = {"e": rendered["text"]} if rendered else {}
         bucket.append({"r": target, "v": row["votes"]})
 
+    # unfoldingWord's Translation Notes name the verse a quotation comes from. Where the derived
+    # links have nothing for that pair, the note is a lead worth showing, marked as the editors'.
+    linked = {(l["f"], l.get("te") or l["t"]) for l in links}
+    noted: dict[str, list] = {}
+    for row in conn.execute("SELECT DISTINCT from_book, from_chapter, from_verse, to_book, to_chapter, "
+                            "to_verse_start FROM cross_references WHERE work_id='uw-tn-quotations'"):
+        source = f"{row['from_book']} {row['from_chapter']}:{row['from_verse']}"
+        target = f"{row['to_book']} {row['to_chapter']}:{row['to_verse_start']}"
+        if (source, target) in linked:
+            continue
+        for key, ref in ((source, (row["from_book"], row["from_chapter"], row["from_verse"])),
+                         (target, (row["to_book"], row["to_chapter"], row["to_verse_start"]))):
+            if key not in texts:
+                rendered = conn.execute("SELECT text FROM verses WHERE work_id=? AND book=? AND chapter=? AND verse=?",
+                                        (ENGLISH, *ref)).fetchone()
+                texts[key] = {"e": rendered["text"]} if rendered else {}
+        noted.setdefault(source, []).append(target)
+
     OUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "generated": date.today().isoformat(),
@@ -146,6 +165,7 @@ def main() -> int:
         "texts": texts,
         "links": links,
         "leads": leads,
+        "noted": noted,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     size = OUT.stat().st_size / 1e6

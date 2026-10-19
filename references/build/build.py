@@ -644,6 +644,68 @@ def ingest_uhg(conn: sqlite3.Connection) -> None:
     print(f"uw-uhg: {len(rows)} grammar articles")
 
 
+def ingest_uw_tn_quotations(conn: sqlite3.Connection) -> None:
+    """unfoldingWord's Translation Notes, kept for one thing: where a note filed under the
+    `writing-quotations` article names the Old Testament verse a New Testament verse quotes. That is
+    an editor's explicit statement, independent of the derived links, so it serves as a second
+    answer key (docs/dev/link-detection-research.md) and as a lead the Scripture Links page can show.
+    The notes themselves are not loaded. References are in the ULT's English numbering."""
+    repo = OPEN_DATA / "uw-tn"
+    if not repo.is_dir():
+        print("uw-tn: missing -- skipped")
+        return
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+        ("uw-tn-quotations", "TN", "unfoldingWord Translation Notes: quotations named", "eng", "uw-tn",
+         "https://git.door43.org/unfoldingWord/en_tn", submodule_commit("uw-tn"), TODAY,
+         "Creative Commons: BY-SA 4.0", "open", "unfoldingWord, https://www.unfoldingword.org/utn"),
+    )
+    usfm = {"GEN": "Gen", "EXO": "Exod", "LEV": "Lev", "NUM": "Num", "DEU": "Deut", "JOS": "Josh", "JDG": "Judg",
+            "RUT": "Ruth", "1SA": "1Sam", "2SA": "2Sam", "1KI": "1Kgs", "2KI": "2Kgs", "1CH": "1Chr", "2CH": "2Chr",
+            "EZR": "Ezra", "NEH": "Neh", "EST": "Esth", "JOB": "Job", "PSA": "Ps", "PRO": "Prov", "ECC": "Eccl",
+            "SNG": "Song", "ISA": "Isa", "JER": "Jer", "LAM": "Lam", "EZK": "Ezek", "DAN": "Dan", "HOS": "Hos",
+            "JOL": "Joel", "AMO": "Amos", "OBA": "Obad", "JON": "Jonah", "MIC": "Mic", "NAM": "Nah", "HAB": "Hab",
+            "ZEP": "Zeph", "HAG": "Hag", "ZEC": "Zech", "MAL": "Mal", "MAT": "Matt", "MRK": "Mark", "LUK": "Luke",
+            "JHN": "John", "ACT": "Acts", "ROM": "Rom", "1CO": "1Cor", "2CO": "2Cor", "GAL": "Gal", "EPH": "Eph",
+            "PHP": "Phil", "COL": "Col", "1TH": "1Thess", "2TH": "2Thess", "1TI": "1Tim", "2TI": "2Tim", "TIT": "Titus",
+            "PHM": "Phlm", "HEB": "Heb", "JAS": "Jas", "1PE": "1Pet", "2PE": "2Pet", "1JN": "1John", "2JN": "2John",
+            "3JN": "3John", "JUD": "Jude", "REV": "Rev"}
+    old_testament = set(list(usfm.values())[:39])
+    names = {"genesis": "Gen", "exodus": "Exod", "leviticus": "Lev", "numbers": "Num", "deuteronomy": "Deut",
+             "joshua": "Josh", "judges": "Judg", "ruth": "Ruth", "1 samuel": "1Sam", "2 samuel": "2Sam",
+             "1 kings": "1Kgs", "2 kings": "2Kgs", "1 chronicles": "1Chr", "2 chronicles": "2Chr", "ezra": "Ezra",
+             "nehemiah": "Neh", "esther": "Esth", "job": "Job", "psalm": "Ps", "psalms": "Ps", "proverbs": "Prov",
+             "ecclesiastes": "Eccl", "song of songs": "Song", "isaiah": "Isa", "jeremiah": "Jer",
+             "lamentations": "Lam", "ezekiel": "Ezek", "daniel": "Dan", "hosea": "Hos", "joel": "Joel",
+             "amos": "Amos", "obadiah": "Obad", "jonah": "Jonah", "micah": "Mic", "nahum": "Nah",
+             "habakkuk": "Hab", "zephaniah": "Zeph", "haggai": "Hag", "zechariah": "Zech", "malachi": "Mal"}
+    linked = re.compile(r"\.\./\.\./([0-9a-z]{3})/(\d{3})/(\d{3})\.md")
+    named = re.compile(r"\b(" + "|".join(sorted(names, key=len, reverse=True)) + r")\s+(\d{1,3}):(\d{1,3})", re.I)
+    rows = set()
+    for path in sorted(repo.glob("tn_*.tsv")):
+        book = usfm.get(path.stem[3:6])
+        if book is None or book in old_testament:
+            continue
+        with path.open(encoding="utf-8") as fh:
+            for row in csv.reader(fh, delimiter="\t"):
+                if len(row) < 7 or "quotation" not in row[3] or ":" not in row[0]:
+                    continue
+                chapter, verse = row[0].split(":", 1)
+                verse = verse.split("-")[0]
+                if not (chapter.isdigit() and verse.isdigit()):
+                    continue
+                found = [(usfm.get(b.upper()), c, v) for b, c, v in linked.findall(row[6])]
+                found += [(names[n.lower()], c, v) for n, c, v in named.findall(row[6])]
+                for target, c, v in found:
+                    if target in old_testament:
+                        rows.add(("uw-tn-quotations", book, int(chapter), int(verse), target, int(c), int(v), int(v)))
+    conn.executemany("INSERT INTO cross_references (work_id, from_book, from_chapter, from_verse, to_book, "
+                     "to_chapter, to_verse_start, to_verse_end) VALUES (?,?,?,?,?,?,?,?)", sorted(rows))
+    conn.commit()
+    print(f"uw-tn-quotations: {len(rows)} New Testament verses' quotations named")
+
+
 def ingest_morphhb(conn: sqlite3.Connection) -> None:
     from BibleOrgSys import BibleOrgSysGlobals
     from BibleOrgSys.OriginalLanguages.HebrewWLCBible import OSISHebrewWLCBible
@@ -1467,9 +1529,11 @@ def derive_scripture_links(conn: sqlite3.Connection) -> None:
             return None
         # the chapter comes from the scheme, the verse has to be measured -- otherwise Hebrews
         # 10:5's source records as English Psalm 40:7 when the verse it quotes is 40:6
+        # Only Psalms carry titles. align() already places every other book's verse, and measuring
+        # anyway shifted LXX Micah 5:1 to English 5:3 because the chapters differ in length.
         offset = versification.superscription_offset(
             chapter_lengths(conn, source_work, book, chapter),
-            chapter_lengths(conn, "ebible-eng-web", aligned[0], aligned[1]))
+            chapter_lengths(conn, "ebible-eng-web", aligned[0], aligned[1])) if aligned[0] == "Ps" else 0
         shifted = aligned[2] - offset
         # A title shift that lands below verse 1 was never a title: the two chapters differ for
         # some other reason, and shifting the front is the wrong correction. Hosea is now mapped
@@ -1479,20 +1543,24 @@ def derive_scripture_links(conn: sqlite3.Connection) -> None:
             return (aligned[0], aligned[1], aligned[2])
         return (aligned[0], aligned[1], shifted)
 
-    def record(link_type, from_work, to_work, pair, to_scheme):
+    def record(link_type, from_work, to_work, pair, to_scheme, strong=0, basis=None, phrases=None,
+               lemma_score=None):
         fb, fc, fv = pair["from"]
         tb, tc, tv = pair["to"]
         english = english_ref(tb, tc, tv, to_scheme, to_work)
         corroborated = 0
         if english is not None:
             corroborated = 1 if conn.execute(
-                "SELECT 1 FROM cross_references WHERE from_book=? AND from_chapter=? AND from_verse=? "
+                # The Translation Notes stay out: they are the answer key the new rules were tested on.
+                "SELECT 1 FROM cross_references WHERE work_id != 'uw-tn-quotations' "
+                "AND from_book=? AND from_chapter=? AND from_verse=? "
                 "AND to_book=? AND to_chapter=? AND ABS(to_verse_start - ?) <= 2 LIMIT 1",
                 (fb, fc, fv, english[0], english[1], english[2])).fetchone() else 0
         rows.append((link_type, from_work, fb, fc, fv, to_work, tb, tc, tv, pair["shared_ngrams"],
                      pair["containment"], pair["longest_run"], pair["alignment"],
                      pair["idf_overlap"], corroborated,
-                     english[1] if english else None, english[2] if english else None))
+                     english[1] if english else None, english[2] if english else None,
+                     strong, basis, phrases, lemma_score))
 
     # 1. the Greek class -- the New Testament quoting the Septuagint, in one language. Against the
     # Hebrew canon's books only. With Brenton's deuterocanon indexed too, 186 new pairs appeared
@@ -1503,9 +1571,36 @@ def derive_scripture_links(conn: sqlite3.Connection) -> None:
     lxx_rows = [r for r in conn.execute(fetch, ("ebible-grcbrent",)).fetchall()
                 if r[0] not in DEUTEROCANON_OSIS]
     lxx_tokens, lxx_index = quotations.build_index(lxx_rows)
-    for pair in quotations.find_quotations(conn.execute(fetch, ("sblgnt",)).fetchall(),
-                                            lxx_tokens, lxx_index):
-        record("quotation-greek", "sblgnt", "ebible-grcbrent", pair, "lxx")
+    nt_rows = conn.execute(fetch, ("sblgnt",)).fetchall()
+    nt_tokens = {(b, c, v): quotations.normalise_greek(t) for b, c, v, t in nt_rows}
+    greek = {(p["from"], p["to"]): p for p in quotations.find_quotations(nt_rows, lxx_tokens, lxx_index)}
+    phrases = quotations.unique_phrases(nt_rows, lxx_rows)
+    def cites_scripture(ref):
+        b, c, v = ref
+        # Revelation never cites Scripture by formula; its "it is written" is a name written in the
+        # book of life (13:8; 17:8), which admitted two false links to Numbers 14:14.
+        if b == "Rev":
+            return False
+        return bool((set(nt_tokens.get(ref, ())) | set(nt_tokens.get((b, c, v - 1), ()))) & quotations.FORMULA_FORMS)
+
+    documents = len(lxx_tokens)
+    for key in phrases:
+        if key not in greek:          # a unique phrase the shared-4-gram retrieval never compared
+            a, b = nt_tokens[key[0]], lxx_tokens[key[1]]
+            common = quotations.ngrams(a) & quotations.ngrams(b)
+            greek[key] = {"from": key[0], "to": key[1], "shared_ngrams": len(common),
+                          "containment": round(len(common) / max(1, len(quotations.ngrams(a))), 4),
+                          "longest_run": quotations.longest_shared_run(a, b),
+                          "alignment": quotations.local_alignment(a, b),
+                          "idf_overlap": round(sum(math.log(documents / len(lxx_index[g])) for g in common), 3)}
+    for key in sorted(greek):
+        pair, n = greek[key], phrases.get(key, 0)
+        basis = [name for name, ok in (
+            ("alignment", pair["alignment"] >= quotations.QUOTATION_ALIGNMENT),
+            ("unique-phrases", n >= quotations.UNIQUE_PHRASES),
+            ("formula+phrases", n >= quotations.FORMULA_PHRASES and cites_scripture(key[0]))) if ok]
+        record("quotation-greek", "sblgnt", "ebible-grcbrent", pair, "lxx", strong=int(bool(basis)),
+               basis="+".join(basis) or None, phrases=n)
 
     # 2. inner-biblical -- the Hebrew Old Testament quoting itself. Trigrams, because Hebrew packs
     # more into a word than Greek does; a higher shared-gram floor to compensate.
@@ -1516,23 +1611,84 @@ def derive_scripture_links(conn: sqlite3.Connection) -> None:
         """A verse resembling its own neighbours is continuous prose, not a citation."""
         return source[0] == target[0] and abs(source[1] - target[1]) <= 1
 
-    seen: set[tuple] = set()
+    surface: dict[tuple, dict] = {}
     for pair in quotations.find_quotations(wlc, heb_tokens, heb_index, quotations.normalise_hebrew,
                                             n=3, min_shared=4, exclude=same_context):
         if pair["alignment"] < quotations.QUOTATION_ALIGNMENT:
             continue
         key = tuple(sorted([pair["from"], pair["to"]]))   # the relation is symmetric; store it once
-        if key in seen:
+        surface.setdefault(key, pair)
+
+    # The same text on MACULA's lemmas: prefixes split and spelling normalised, so a vowel letter
+    # no longer breaks a word. Candidates share two lemma trigrams that are not all particles.
+    keyed: dict[tuple, list] = collections.defaultdict(list)
+    for b, c, v, s, lemma in conn.execute(
+            "SELECT book, chapter, verse, strongs_id, lemma FROM morphology WHERE work_id='macula-hebrew-wlc' "
+            "ORDER BY book, chapter, verse, word_position"):
+        k = (s or "").split("+")[0].strip() or (lemma or "")
+        if k:
+            keyed[(b, c, v)].append(k)
+    df = collections.Counter(k for seq in keyed.values() for k in set(seq))
+    weights = {k: math.log(len(keyed) / n) for k, n in df.items()}
+    stop = {k for k, _ in collections.Counter(k for seq in keyed.values() for k in seq).most_common(40)}
+    trigram_index: dict[tuple, set] = collections.defaultdict(set)
+    trigrams = {}
+    for ref, seq in keyed.items():
+        grams = {tuple(seq[i:i + 3]) for i in range(len(seq) - 2) if not set(seq[i:i + 3]) <= stop}
+        trigrams[ref] = grams
+        for g in grams:
+            trigram_index[g].add(ref)
+    lemma_scores: dict[tuple, float] = {}
+    for ref, grams in trigrams.items():
+        hits: collections.Counter = collections.Counter()
+        for g in grams:
+            if len(trigram_index[g]) <= 60:
+                for t in trigram_index[g]:
+                    if t != ref:
+                        hits[t] += 1
+        for t, n in hits.items():
+            key = tuple(sorted([ref, t]))
+            if n >= 2 and key not in lemma_scores and not same_context(ref, t):
+                lemma_scores[key] = quotations.weighted_alignment(keyed[ref], keyed[t], weights)
+
+    def in_a_run(key):
+        a, b = key
+        return any(lemma_scores.get(tuple(sorted([(a[0], a[1], a[2] + d), (b[0], b[1], b[2] + d)])), 0)
+                   >= quotations.LEMMA_RUN for d in (-1, 1))
+
+    heb_docs = len(heb_tokens)
+    for key in sorted(set(surface) | {k for k, v in lemma_scores.items() if v >= quotations.LEMMA_RUN}):
+        score = lemma_scores.get(key)
+        if score is None and key[0] in keyed and key[1] in keyed:
+            score = quotations.weighted_alignment(keyed[key[0]], keyed[key[1]], weights)
+        score = score or 0.0
+        # A surface match the lemmas do not confirm is a formula ("the rest of the acts of...", "speak
+        # to the people of Israel and say") -- 16% corroborated -- so the lemma rules decide.
+        basis = [name for name, ok in (
+            ("alignment", key in surface and (score >= quotations.LEMMA_ALIGNMENT or in_a_run(key))),
+            ("lemma", score >= quotations.LEMMA_ALIGNMENT),
+            ("lemma-run", quotations.LEMMA_RUN <= score < quotations.LEMMA_ALIGNMENT and in_a_run(key))) if ok]
+        if not basis:
             continue
-        seen.add(key)
-        record("inner-biblical", "morphhb-wlc", "morphhb-wlc", pair, "masoretic")
+        pair = surface.get(key)
+        if pair is None:
+            a, b = heb_tokens.get(key[0], []), heb_tokens.get(key[1], [])
+            common = quotations.ngrams(a, 3) & quotations.ngrams(b, 3)
+            pair = {"from": key[0], "to": key[1], "shared_ngrams": len(common),
+                    "containment": round(len(common) / max(1, len(quotations.ngrams(a, 3))), 4),
+                    "longest_run": quotations.longest_shared_run(a, b),
+                    "alignment": quotations.local_alignment(a, b),
+                    "idf_overlap": round(sum(math.log(heb_docs / len(heb_index[g])) for g in common if g in heb_index), 3)}
+        record("inner-biblical", "morphhb-wlc", "morphhb-wlc", pair, "masoretic", strong=1,
+               basis="+".join(basis), lemma_score=round(score, 1))
 
     # 3. the Hebrew New Testament -- candidates only, see the schema comment
     hebrew_nt = [r for r in conn.execute(fetch, ("ebible-heb",)).fetchall() if r[0] in nt_books]
     for pair in quotations.find_quotations(hebrew_nt, heb_tokens, heb_index,
                                             quotations.normalise_hebrew, n=3, min_shared=3):
         if pair["alignment"] >= quotations.QUOTATION_ALIGNMENT:
-            record("quotation-hebrew", "ebible-heb", "morphhb-wlc", pair, "masoretic")
+            record("quotation-hebrew", "ebible-heb", "morphhb-wlc", pair, "masoretic", strong=1,
+                   basis="hebrew-nt")
 
     # 4. rare-lemma allusion -- the Septuagint against the Greek New Testament, both lemmatised.
     # Same language and a shared lemma inventory (96% of NT tokens have a lemma the LXX also uses),
@@ -1583,26 +1739,83 @@ def derive_scripture_links(conn: sqlite3.Connection) -> None:
             record("allusion-lemma", "macula-greek-sblgnt", "lxx-lemmas",
                    {"from": (book, chapter, verse), "to": target, "shared_ngrams": len(shared),
                     "containment": round(len(shared) / len(rare), 4), "longest_run": 0,
-                    "alignment": 0, "idf_overlap": round(weight, 3)}, "lxx")
+                    "alignment": 0, "idf_overlap": round(weight, 3)}, "lxx", strong=1, basis="rare-lemmas")
+
+    # 5. across the languages -- see quotations.CROSSLANG_SCORE. The lexicon is learned from the
+    # Septuagint's own translation of each verse; the New Testament is then read against the Hebrew.
+    def strongs_key(raw):
+        m = re.match(r"(\d+)", (raw or "").split("/")[-1].strip())
+        return m.group(1) if m else None
+    lxx_seq: dict[tuple, list] = collections.defaultdict(list)
+    for b, c, v, s in conn.execute("SELECT book, chapter, verse, strongs_id FROM morphology "
+                                   "WHERE work_id='lxx-lemmas' ORDER BY book, chapter, verse, word_position"):
+        k = strongs_key(s)
+        if k and b not in DEUTEROCANON_OSIS:
+            lxx_seq[(b, c, v)].append("3588" if k == "3801" else k)
+    heb_seq: dict[tuple, list] = collections.defaultdict(list)
+    for b, c, v, s in conn.execute("SELECT book, chapter, verse, strongs_id FROM morphology "
+                                   "WHERE work_id='morphhb-wlc' ORDER BY book, chapter, verse, word_position"):
+        k = strongs_key(s)
+        if k:
+            heb_seq[(b, c, v)].append(k)
+    two_form = {"DanOG": "Dan", "JoshA": "Josh", "JoshB": "Josh", "JudgA": "Judg", "JudgB": "Judg"}
+    verse_pairs = []
+    for (b, c, v), greek_keys in lxx_seq.items():
+        m = versification.align(two_form.get(b, b), c, v, "lxx", "masoretic")
+        if m and m in heb_seq:
+            verse_pairs.append((greek_keys, heb_seq[m]))
+    lexicon = quotations.learn_lexicon(verse_pairs)
+    heb_df = collections.Counter(k for seq in heb_seq.values() for k in set(seq))
+    heb_weights = {k: math.log(len(heb_seq) / n) for k, n in heb_df.items()}
+    heb_stop = {k for k, _ in collections.Counter(k for seq in heb_seq.values() for k in seq).most_common(40)}
+    heb_postings: dict[str, set] = collections.defaultdict(set)
+    for ref, seq in heb_seq.items():
+        for k in set(seq) - heb_stop:
+            heb_postings[k].add(ref)
+    nt_seq: dict[tuple, list] = collections.defaultdict(list)
+    for b, c, v, s in conn.execute("SELECT book, chapter, verse, strongs_id FROM morphology "
+                                   "WHERE work_id='macula-greek-sblgnt' ORDER BY book, chapter, verse, word_position"):
+        k = strongs_key(s)
+        if k:
+            nt_seq[(b, c, v)].append(k)
+    citing = {r for r in nt_seq if cites_scripture(r)}
+    for ref in sorted(citing):
+        translated = [lexicon.get(g, []) for g in nt_seq[ref]]
+        keys = sorted({h for opts in translated for h in opts[:2] if h not in heb_stop and h in heb_postings})
+        candidates: set = set()
+        for i in range(len(keys)):
+            for j in range(i + 1, len(keys)):
+                both = heb_postings[keys[i]] & heb_postings[keys[j]]
+                if len(both) <= 400:
+                    candidates |= both
+        scored = sorted(((quotations.crosslang_alignment(translated, heb_seq[t], heb_weights, heb_stop), t)
+                         for t in candidates), reverse=True)
+        if not scored:
+            continue
+        best, target = scored[0]
+        margin = best - (scored[1][0] if len(scored) > 1 else 0)
+        if best >= quotations.CROSSLANG_SCORE and margin >= quotations.CROSSLANG_MARGIN:
+            record("quotation-crosslang", "sblgnt", "morphhb-wlc",
+                   {"from": ref, "to": target, "shared_ngrams": 0, "containment": 0.0, "longest_run": 0,
+                    "alignment": int(round(best)), "idf_overlap": 0.0},
+                   "masoretic", strong=1, basis="crosslang", lemma_score=round(best, 1))
 
     conn.executemany(
         "INSERT INTO scripture_links (link_type, from_work, from_book, from_chapter, from_verse, "
         "to_work, to_book, to_chapter, to_verse, shared_ngrams, containment, longest_run, "
-        "alignment, idf_overlap, corroborated, to_english_chapter, to_english_verse) "
-        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+        "alignment, idf_overlap, corroborated, to_english_chapter, to_english_verse, strong, basis, "
+        "unique_phrases, lemma_score) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
         rows)
     conn.commit()
     for link_type, in conn.execute("SELECT DISTINCT link_type FROM scripture_links"):
-        # allusion is scored on rarity, not alignment -- reporting it against the wrong measure
-        # would say "0 strong" about a class where every stored row already cleared its threshold
-        column, floor = (("idf_overlap", quotations.ALLUSION_WEIGHT)
-                         if link_type == "allusion-lemma"
-                         else ("alignment", quotations.QUOTATION_ALIGNMENT))
         total, strong, agreed = conn.execute(
-            f"SELECT COUNT(*), SUM({column} >= ?), SUM({column} >= ? AND corroborated) "
-            "FROM scripture_links WHERE link_type=?", (floor, floor, link_type)).fetchone()
-        print(f"links {link_type:18} {total:6} pairs, {strong or 0:5} at {column}>={floor} "
-              f"({agreed or 0} corroborated)")
+            "SELECT COUNT(*), SUM(strong), SUM(strong AND corroborated) FROM scripture_links "
+            "WHERE link_type=?", (link_type,)).fetchone()
+        print(f"links {link_type:20} {total:6} pairs, {strong or 0:5} strong ({agreed or 0} corroborated)")
+        for basis, n, c in conn.execute(
+                "SELECT basis, COUNT(*), SUM(corroborated) FROM scripture_links WHERE link_type=? AND strong "
+                "GROUP BY basis ORDER BY COUNT(*) DESC", (link_type,)):
+            print(f"      {basis:34} {n:5}  {100 * (c or 0) / n:3.0f}% corroborated")
 
 
 def main() -> None:
@@ -1629,6 +1842,7 @@ def main() -> None:
     ingest_unfoldingword_text(conn, "uw-uhb", "uw-uhb", "unfoldingWord Hebrew Bible", "hbo", "hbo_uhb")
     ingest_unfoldingword_text(conn, "uw-ugnt", "uw-ugnt", "unfoldingWord Greek New Testament", "grc", "el-x-koine_ugnt")
     ingest_ult(conn)
+    ingest_uw_tn_quotations(conn)
     ingest_uhg(conn)
     ingest_dss(conn)
     ingest_lxx_lemmas(conn)

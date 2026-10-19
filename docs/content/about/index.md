@@ -4,7 +4,7 @@ category: "other"
 description: "About this project and its statement of faith."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-10-15
+date_modified: 2026-10-20
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -46,7 +46,7 @@ About this project and its statement of faith.
 
     ---
 
-    Scripture links on this site are derived from the biblical texts themselves rather than copied from a cross-reference list — how that works, the four kinds of evidence it produces, and why they are never merged into a single score.
+    Scripture links on this site are derived from the biblical texts themselves rather than copied from a cross-reference list — how that works, the five kinds of evidence it produces, and why they are never merged into a single score.
 
     [:octicons-arrow-right-24: Read](how-we-cross-reference.md)
 

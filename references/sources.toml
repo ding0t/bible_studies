@@ -417,6 +417,15 @@ purpose = "unfoldingWord's literal text, and the only English here aligned word-
 strengths = ["Powers bible_interlinear -- the sole link in this database between an English word and the original it renders. The cheapest guard against building a point on a translator's choice."]
 limits = ["The alignment is many-to-many by nature: Genesis 1:1's 'the heavens' renders both אֵת and הַשָּׁמַיִם, since the object marker has no English of its own."]
 
+[profiles.translation-notes]
+kind = ["index"]
+era = "modern"
+language = "en"
+applies_to = ["uw-tn-quotations"]
+purpose = "Where unfoldingWord's Translation Notes name the Old Testament verse a New Testament verse quotes (notes filed under the writing-quotations article). The notes themselves are not loaded."
+strengths = ["An editor's explicit statement of a quotation, independent of the derived links -- the second answer key the 2026-10 link rules were tested against (docs/dev/link-detection-research.md). Kept out of the links' corroboration for that reason."]
+limits = ["213 verses: the notes name a quotation where a translator needs help with it, so silence is not evidence of no quotation.", "References are in the ULT's English numbering."]
+
 [profiles.hebrew-nt]
 kind = ["translation"]
 edition = "translation"

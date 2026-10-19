@@ -26,11 +26,11 @@ def conn():
     c.close()
 
 
-def test_all_four_sources_ingested(conn):
+def test_all_unfoldingword_sources_ingested(conn):
     works = {r["work_id"]: r for r in conn.execute(
         "SELECT work_id, license_tier, license FROM works WHERE work_id LIKE 'uw-%'")}
-    assert set(works) == {"uw-uhb", "uw-ugnt", "uw-ult", "uw-uhg"}
-    # all four are CC BY-SA, which is open for this project's purposes but is NOT plain CC BY --
+    assert set(works) == {"uw-uhb", "uw-ugnt", "uw-ult", "uw-uhg", "uw-tn-quotations"}
+    # all of them are CC BY-SA, which is open for this project's purposes but is NOT plain CC BY --
     # see references/README.md before publishing a derived dataset built on them
     for work in works.values():
         assert work["license_tier"] == "open"

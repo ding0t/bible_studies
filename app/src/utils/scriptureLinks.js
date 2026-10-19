@@ -35,6 +35,15 @@ export const METHODS = {
     dash: '6 3',
     width: 1.8,
   },
+  'quotation-crosslang': {
+    label: 'Quotation',
+    weight: 'read against the Hebrew',
+    why: 'The Greek of the New Testament verse matches the Hebrew of the Old, word for word in meaning, through the vocabulary the Septuagint translators themselves chose. Only in verses that cite Scripture: it finds quotations that follow the Hebrew where the Greek Old Testament reads differently.',
+    verb: ['quotes', 'quoted by'],
+    color: 'var(--color-link-crosslang, #7c3aed)',
+    dash: '8 2 2 2',
+    width: 2,
+  },
   'quotation-hebrew': {
     label: 'Candidate',
     weight: "a translator's judgement",
@@ -50,9 +59,31 @@ export const METHODS = {
 export const METHOD_NAMES = {
   'quotation-greek': 'Quotation (Greek)',
   'inner-biblical': 'Quotation (Hebrew)',
+  'quotation-crosslang': 'Quotation (from the Hebrew)',
   'allusion-lemma': 'Allusion',
   'quotation-hebrew': 'Candidate',
 };
+
+// What each rule in the build means, in plain words, for the "found by" line under a link.
+export const BASIS = {
+  alignment: 'the wording lines up',
+  'unique-phrases': 'phrases found in only one Old Testament verse',
+  'formula+phrases': 'the verse cites Scripture and shares a phrase found in only one Old Testament verse',
+  lemma: 'the same words, matched on their dictionary forms',
+  'lemma-run': 'one of a run of parallel verses',
+  crosslang: 'the Greek matches the Hebrew through the Septuagint’s own vocabulary',
+  'rare-lemmas': 'shared rare words',
+  'hebrew-nt': 'a Hebrew translation of the New Testament renders it as a quotation',
+};
+
+export const basisWords = (basis) =>
+  (basis ? basis.split('+').reduce((parts, b, i, all) => {
+    // 'formula+phrases' is one rule written with a plus; join it back before translating.
+    if (b === 'formula' && all[i + 1] === 'phrases') return parts;
+    const key = b === 'phrases' && all[i - 1] === 'formula' ? 'formula+phrases' : b;
+    if (BASIS[key]) parts.push(BASIS[key]);
+    return parts;
+  }, []) : []);
 
 export const SCOPES = [
   { id: 'nt-ot', label: 'New Testament and the Old', test: (f, t) => isNT(f) && !isNT(t) },

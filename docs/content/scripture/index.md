@@ -4,7 +4,7 @@ category: "other"
 description: "The Bible about itself -- canon, manuscripts, translation, and the archaeology behind the text."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-06
+date_modified: 2026-10-20
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -125,7 +125,7 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
 
     ---
 
-    What 1,114 links derived from the Hebrew and Greek texts show about how Scripture quotes Scripture: the verse the New Testament quotes most, the book that quotes most densely, the psalm that may carry Paul's words, and the famous connections that leave no trace in the wording at all.
+    What 2,500 links derived from the Hebrew and Greek texts show about how Scripture quotes Scripture: the verses the New Testament quotes most, the book that quotes most densely, the psalm that may carry Paul's words, the gaps that turned out to be the method's, and the connections that leave no trace in the wording at all.
 
     [:octicons-arrow-right-24: Read](what-the-links-reveal.md)
 

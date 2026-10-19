@@ -752,3 +752,134 @@ def run_twl(uw_dir):
 
 if __name__ == "__main__" and (sys.argv[1:2] or ["nt"])[0] == "twl":
     run_twl(sys.argv[2])
+
+
+# --- a Greek<->Hebrew lexicon learned from the Septuagint, for quotations that follow the Hebrew ---
+
+def learn_lexicon(iters=6):
+    """IBM Model 1 over Septuagint/Masoretic verse pairs, on Strong's keys: P(hebrew | greek)."""
+    lxx = {k: v for k, v in key_sequences("lxx-lemmas").items() if k[0] not in DEUTERO}
+    import re
+    def norm(k):
+        k = k.split("/")[-1].strip()
+        m = re.match(r"(\d+)", k)
+        return m.group(1) if m else k
+    heb = {r: [norm(k) for k in seq] for r, seq in key_sequences("morphhb-wlc").items()}
+    pairs = []
+    for (b, c, v), g in lxx.items():
+        m = versification.align(LXX_BOOK.get(b, b), c, v, "lxx", "masoretic")
+        if m and m in heb:
+            pairs.append((g, heb[m]))
+    print(f"aligned verse pairs: {len(pairs)}")
+    t = collections.defaultdict(lambda: 1e-3)
+    for _ in range(iters):
+        count = collections.defaultdict(float)
+        total = collections.defaultdict(float)
+        for g, h in pairs:
+            for hk in h:
+                z = sum(t[(hk, gk)] for gk in g)
+                for gk in g:
+                    c = t[(hk, gk)] / z
+                    count[(hk, gk)] += c
+                    total[gk] += c
+        t = collections.defaultdict(float, {k: v / total[k[1]] for k, v in count.items()})
+    lex = collections.defaultdict(list)
+    for (hk, gk), p in t.items():
+        if p >= 0.05:
+            lex[gk].append((p, hk))
+    for gk in lex:
+        lex[gk].sort(reverse=True)
+        lex[gk] = lex[gk][:4]
+    return lex, heb
+
+
+def run_crossling():
+    nt = key_sequences("macula-greek-sblgnt")
+    lex, heb = learn_lexicon()
+    for g in ("2316", "3624", "5207", "125", "1537", "2564"):   # θεός, οἶκος, υἱός, Αἴγυπτος, ἐκ, καλέω
+        print(g, lex.get(g, [])[:3])
+    w, _ = idf_table(heb)
+    freq = collections.Counter(k for s in heb.values() for k in s)
+    stop = {k for k, _ in freq.most_common(40)}
+    ix = collections.defaultdict(set)
+    for ref, seq in heb.items():
+        for k in set(seq) - stop:
+            ix[k].add(ref)
+
+    def translate(seq):
+        return [[hk for p, hk in lex.get(g, [])] for g in seq]
+
+    def score(tr, h):
+        """Weighted alignment where a Greek position matches any of its Hebrew translations."""
+        best, prev = 0.0, [0.0] * (len(h) + 1)
+        for i in range(1, len(tr) + 1):
+            cur = [0.0] * (len(h) + 1)
+            for j in range(1, len(h) + 1):
+                m = prev[j - 1] + (w.get(h[j - 1], 0.5) if h[j - 1] in tr[i - 1] and h[j - 1] not in stop else -0.6)
+                cur[j] = max(0.0, m, prev[j] - 0.8, cur[j - 1] - 0.8)
+                best = max(best, cur[j])
+            prev = cur
+        return best
+
+    def ranked(src):
+        tr = translate(nt.get(src, []))
+        # Candidates: verses holding two of the translated words together. A common word like
+        # "son" or "Egypt" is useless alone and distinctive in a pair.
+        keys = sorted({hk for opts in tr for hk in opts[:2] if hk not in stop and hk in ix})
+        cand = set()
+        for i in range(len(keys)):
+            for j in range(i + 1, len(keys)):
+                both = ix[keys[i]] & ix[keys[j]]
+                if len(both) <= 400:
+                    cand |= both
+        return sorted(((score(tr, heb[r]), r) for r in cand), reverse=True)
+
+    print("\nHebrew-following quotations, rank of the right verse by learned-lexicon match:")
+    for src, tgt in HEBREW_FOLLOWING:
+        rs = ranked(src)
+        pos = next((i + 1 for i, (s, r) in enumerate(rs) if r == tgt), None)
+        top = rs[0] if rs else None
+        print(f"  {src[0]} {src[1]}:{src[2]:<3} -> {tgt[0]} {tgt[1]}:{tgt[2]:<3} rank {pos}  "
+              f"score {next((round(s, 1) for s, r in rs if r == tgt), None)}  top {top[1] if top else None} {round(top[0], 1) if top else ''}")
+    return nt, lex, heb, ranked
+
+
+if __name__ == "__main__" and (sys.argv[1:2] or ["nt"])[0] == "xl":
+    run_crossling()
+
+
+def run_crossling_global(uw_dir=None):
+    nt, lex, heb, ranked = run_crossling()
+    xr, web = openbible(), load_gold()
+    gold = collections.defaultdict(list, {k: list(v) for k, v in web.items()})
+    if uw_dir:
+        tn, tagged = load_tn_quotations(uw_dir)
+        for r, ts in tagged.items():
+            for t in ts:
+                gold[r].append((t[0], t[1], t[2], t[2]))
+    # Verses carrying a citation formula, and the verse after one (the quotation often follows).
+    targets = set()
+    for ref in nt:
+        if set(nt[ref]) & FORMULA:
+            targets.add(ref)
+            targets.add((ref[0], ref[1], ref[2] + 1))
+    rows = []
+    for ref in sorted(t for t in targets if t in nt):
+        rs = ranked(ref)
+        if rs:
+            s, r = rs[0]
+            gap = s - (rs[1][0] if len(rs) > 1 else 0)
+            eng = english_of(*r, "masoretic")
+            rows.append((ref, eng, s, gap, corroborated(xr, ref, eng), hits_gold(gold, ref, eng) is not None))
+    print(f"\nformula verses scored: {len(rows)}")
+    print(" score>=  margin>=  links  corrob%  in-key%")
+    for thr in (8, 10, 12, 14):
+        for gap in (0, 1, 2, 3):
+            sel = [x for x in rows if x[2] >= thr and x[3] >= gap]
+            if sel:
+                print(f"  {thr:5}  {gap:7}  {len(sel):5}  {100 * sum(x[4] for x in sel) / len(sel):6.0f}%  {100 * sum(x[5] for x in sel) / len(sel):6.0f}%")
+    return rows
+
+
+if __name__ == "__main__" and (sys.argv[1:2] or ["nt"])[0] == "xlg":
+    run_crossling_global(sys.argv[2] if len(sys.argv) > 2 else None)

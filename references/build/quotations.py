@@ -169,3 +169,115 @@ def find_quotations(quoting_verses, source_tokens, index, tokenise=normalise_gre
                 "alignment": local_alignment(toks, target),
                 "idf_overlap": round(sum(math.log(documents / len(index[g])) for g in common), 3),
             }
+
+
+# --- 2026-10: what the surface method missed ------------------------------------------------------
+#
+# Measured in link_lab.py against two answer keys with no connection to the method (the WEB
+# translators' quotation footnotes and unfoldingWord's Translation Notes) and calibrated, like the
+# thresholds above, on openbible corroboration. docs/dev/link-detection-research.md has the tables.
+# Each rule below admits a link on its own and the row records which rule did (`basis`), so a link
+# can always be explained and no score is ever a blend of the others.
+
+# Unique phrases. A run of everyday words can be unique as a phrase: John 10:34 shares four common
+# words with Psalm 82:6 (LXX 81:6), "I said, you are gods", and the phrase occurs in one Septuagint
+# verse. That uniqueness is the evidence -- the fingerprinting idea plagiarism detectors use.
+PHRASE_N = 3
+UNIQUE_PHRASES = 3          # three phrases, each in one Septuagint verse: 87% corroborated
+FORMULA_PHRASES = 2         # two, where the verse cites Scripture: 81% corroborated
+PHRASE_NT_CAP = 12          # a phrase in more NT verses than this is an idiom, not a quotation
+# The citing forms themselves -- "it is written", "the Scripture", "that it might be fulfilled", "what
+# was spoken" -- in the verse or the one before. Forms, not lemmas: Revelation's "write" and
+# Colossians' "be filled" are the same lemmas and are not citations, and admitted 13 false links.
+FORMULA_FORMS = {"γεγραπται", "γεγραμμενον", "γεγραμμενοσ", "γραφη", "γραφην", "γραφησ",
+                 "πληρωθη", "πληρωθωσιν", "επληρωθη", "πληρωθηναι", "ρηθεν", "ειρηται", "ειρημενον"}
+
+# Hebrew on lemmas. MACULA splits prefixes and normalises spelling, so 1 Chronicles 16:8 and Psalm
+# 105:1 -- the same seven words, one written with a vowel letter -- align fully where the surface
+# scored 12. Rarity-weighted; a weaker pair counts when its neighbours on the same diagonal also
+# match, because borrowed passages come as runs. 61% corroborated against the surface method's 59%,
+# and 211 of 266 verses of sixteen known parallels against 68.
+LEMMA_ALIGNMENT = 36
+LEMMA_RUN = 22
+
+# Across the languages: New Testament Greek against the Hebrew, through a lexicon learned from the
+# Septuagint's own translation choices. Only in verses that cite Scripture, only the best match, and
+# only with a clear margin over the next. 75% corroborated. It reaches quotations that follow the
+# Hebrew, and Matthew 24:15's "abomination of desolation" (Daniel 12:11), which no Greek method finds.
+CROSSLANG_SCORE = 14.0
+CROSSLANG_MARGIN = 2.0
+
+
+def unique_phrases(quoting_rows, source_rows, n=PHRASE_N, nt_cap=PHRASE_NT_CAP):
+    """{(quoting_ref, source_ref): number of shared phrases found in exactly one source verse}."""
+    where = collections.defaultdict(set)
+    for book, chapter, verse, text in source_rows:
+        toks = normalise_greek(text)
+        for i in range(len(toks) - n + 1):
+            where[tuple(toks[i:i + n])].add((book, chapter, verse))
+    quoting = {(b, c, v): normalise_greek(t) for b, c, v, t in quoting_rows}
+    spread = collections.Counter()
+    for toks in quoting.values():
+        spread.update({tuple(toks[i:i + n]) for i in range(len(toks) - n + 1)})
+    out = collections.Counter()
+    for ref, toks in quoting.items():
+        for gram in {tuple(toks[i:i + n]) for i in range(len(toks) - n + 1)}:
+            hits = where.get(gram)
+            if hits and len(hits) == 1 and spread[gram] <= nt_cap:
+                out[(ref, next(iter(hits)))] += 1
+    return out
+
+
+def weighted_alignment(a, b, weights, gap=1.0, mismatch=0.8, default=0.5):
+    """Smith-Waterman where a match is worth its key's rarity: two rare words in order outweigh six
+    particles. Keys are lemmas or Strong's numbers, so spelling and inflection drop out."""
+    best = 0.0
+    prev = [0.0] * (len(b) + 1)
+    for i in range(1, len(a) + 1):
+        cur = [0.0] * (len(b) + 1)
+        for j in range(1, len(b) + 1):
+            m = prev[j - 1] + (weights.get(a[i - 1], default) if a[i - 1] == b[j - 1] else -mismatch)
+            cur[j] = max(0.0, m, prev[j] - gap, cur[j - 1] - gap)
+            if cur[j] > best:
+                best = cur[j]
+        prev = cur
+    return best
+
+
+def learn_lexicon(verse_pairs, iterations=6, floor=0.05, keep=4):
+    """P(hebrew | greek) by IBM Model 1 over aligned Septuagint/Masoretic verses: the translators'
+    own choices, learned. Returns {greek key: [hebrew keys, most likely first]}."""
+    t: dict = collections.defaultdict(lambda: 1e-3)
+    for _ in range(iterations):
+        count: dict = collections.defaultdict(float)
+        total: dict = collections.defaultdict(float)
+        for greek, hebrew in verse_pairs:
+            for h in hebrew:
+                z = sum(t[(h, g)] for g in greek)
+                for g in greek:
+                    c = t[(h, g)] / z
+                    count[(h, g)] += c
+                    total[g] += c
+        t = collections.defaultdict(float, {k: v / total[k[1]] for k, v in count.items()})
+    lexicon: dict = collections.defaultdict(list)
+    for (h, g), p in t.items():
+        if p >= floor:
+            lexicon[g].append((p, h))
+    return {g: [h for _, h in sorted(opts, reverse=True)[:keep]] for g, opts in lexicon.items()}
+
+
+def crosslang_alignment(translated, hebrew, weights, stop, gap=0.8, mismatch=0.6):
+    """Weighted alignment where a Greek position matches any of its learned Hebrew renderings."""
+    best = 0.0
+    prev = [0.0] * (len(hebrew) + 1)
+    for i in range(1, len(translated) + 1):
+        options = translated[i - 1]
+        cur = [0.0] * (len(hebrew) + 1)
+        for j in range(1, len(hebrew) + 1):
+            h = hebrew[j - 1]
+            m = prev[j - 1] + (weights.get(h, 0.5) if h in options and h not in stop else -mismatch)
+            cur[j] = max(0.0, m, prev[j] - gap, cur[j - 1] - gap)
+            if cur[j] > best:
+                best = cur[j]
+        prev = cur
+    return best

@@ -258,7 +258,58 @@ def test_classes_are_stored_separately_and_never_merged(conn):
     """The discipline the backlog sets: a quotation in Greek is a textual fact, a Hebrew New
     Testament match is a translator's judgement, and nothing may collapse them into one score."""
     kinds = {r["link_type"] for r in conn.execute("SELECT DISTINCT link_type FROM scripture_links")}
-    assert kinds == {"quotation-greek", "inner-biblical", "quotation-hebrew", "allusion-lemma"}
+    assert kinds == {"quotation-greek", "inner-biblical", "quotation-hebrew", "allusion-lemma",
+                     "quotation-crosslang"}
+
+
+# --- 2026-10 rules: each one pinned to the case that motivated it -------------------------------
+
+def _strong(conn, nt, ot_book, ot_chapter, link_type="quotation-greek"):
+    return conn.execute(
+        "SELECT basis FROM scripture_links WHERE strong AND link_type=? AND from_book=? AND from_chapter=? "
+        "AND from_verse=? AND to_book=? AND to_chapter=?", (link_type, *nt, ot_book, ot_chapter)).fetchone()
+
+
+def test_a_unique_phrase_of_common_words_is_found(conn):
+    """John 10:34 shares four everyday words with Psalm 82:6 (LXX 81:6). No rarity measure sees
+    them; the phrase occurs in one Septuagint verse, and the verse cites Scripture."""
+    row = _strong(conn, ("John", 10, 34), "Ps", 81)
+    assert row and "phrases" in row["basis"]
+
+
+def test_short_famous_quotations_are_strong(conn):
+    for nt, ot in ((("Jas", 2, 8), ("Lev", 19)), (("Rom", 1, 17), ("Hab", 2)), (("Matt", 4, 7), ("Deut", 6))):
+        assert _strong(conn, nt, *ot), f"{nt} -> {ot}"
+
+
+def test_hebrew_lemmas_see_past_spelling(conn):
+    """1 Chronicles 16:8 is Psalm 105:1 word for word, one word spelled with a vowel letter. The
+    surface scored 12; the lemmas must find it."""
+    n = conn.execute(
+        "SELECT COUNT(*) n FROM scripture_links WHERE link_type='inner-biblical' AND "
+        "((from_book='1Chr' AND from_chapter=16 AND to_book='Ps' AND to_chapter=105) OR "
+        " (to_book='1Chr' AND to_chapter=16 AND from_book='Ps' AND from_chapter=105))").fetchone()["n"]
+    assert n >= 10
+
+
+def test_every_strong_link_names_the_rule_that_admitted_it(conn):
+    assert conn.execute("SELECT COUNT(*) n FROM scripture_links WHERE strong AND basis IS NULL").fetchone()["n"] == 0
+
+
+def test_new_rules_hold_precision(conn):
+    """Each rule must stay well corroborated on its own, or it is admitting noise."""
+    for link_type, basis, floor in (("quotation-greek", "unique-phrases", 0.7),
+                                    ("quotation-greek", "formula+phrases", 0.65),
+                                    ("quotation-crosslang", "crosslang", 0.7)):
+        r = conn.execute("SELECT AVG(corroborated) r FROM scripture_links WHERE link_type=? AND basis=?",
+                         (link_type, basis)).fetchone()["r"]
+        assert r and r >= floor, f"{basis} at {r}"
+
+
+def test_crosslang_reaches_a_quotation_that_follows_the_hebrew(conn):
+    """1 Corinthians 15:54's "Death is swallowed up in victory" renders Isaiah 25:8 where the
+    Septuagint reads differently."""
+    assert _strong(conn, ("1Cor", 15, 54), "Isa", 25, "quotation-crosslang")
 
 
 # --- rare-lemma allusion: the Septuagint against the Greek New Testament -----------------------
@@ -294,7 +345,7 @@ def test_allusion_class_reaches_past_quotation(conn):
     assert row and row["idf_overlap"] >= quotations.ALLUSION_WEIGHT
     assert row["alignment"] == 0, "allusion is not scored on alignment"
     assert conn.execute(
-        "SELECT COUNT(*) n FROM scripture_links WHERE link_type='quotation-greek' "
+        "SELECT COUNT(*) n FROM scripture_links WHERE link_type='quotation-greek' AND strong "
         "AND from_book='Rev' AND from_chapter=21 AND to_book='Ezek'").fetchone()["n"] == 0
 
 

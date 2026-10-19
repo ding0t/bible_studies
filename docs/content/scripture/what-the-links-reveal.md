@@ -1,30 +1,31 @@
 ---
 title: "What the Scripture Links Reveal"
 category: "bible"
-description: "What 1,114 links derived from the Hebrew and Greek texts show about how Scripture quotes Scripture: the verse the New Testament quotes most, the book that quotes most densely, the psalm that may carry Paul's words, and the famous connections that leave no trace in the wording at all."
+description: "What 2,500 links derived from the Hebrew and Greek texts show about how Scripture quotes Scripture: the verses the New Testament quotes most, the book that quotes most densely, the psalm that may carry Paul's words, the gaps that turned out to be the method's, and the connections that leave no trace in the wording at all."
 tags: ["cross-references", "septuagint", "method/textual-criticism", "data", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Luke 24:27"
-bible_references: ["Luke 24:27", "Hebrews 1:1", "Psalm 110:1", "Psalm 118:22", "Genesis 2:24", "Isaiah 6:9-10", "Jeremiah 31:31-34", "Hebrews 8:8-12", "Mark 12:30", "Deuteronomy 6:5", "Psalm 14:3", "Romans 3:10-18", "2 Kings 23:28", "2 Chronicles 36:22-23", "Ezra 1:1-3", "Micah 5:2", "Matthew 2:6", "Matthew 27:46", "Psalm 22:1", "Jude 14-15", "1 Chronicles 16:8", "Psalm 105:1", "Revelation 21:19-20", "Matthew 11:10", "Exodus 23:20", "Malachi 3:1", "Matthew 24:15"]
+bible_references: ["Luke 24:27", "Hebrews 1:1", "Leviticus 19:18", "Psalm 110:1", "Psalm 118:22", "Psalm 118:26", "Genesis 2:24", "Jeremiah 31:31-34", "Hebrews 8:8-12", "Mark 12:30", "Deuteronomy 6:5", "Psalm 14:3", "Romans 3:10-18", "Exodus 25-31", "Exodus 35-40", "2 Kings 23:28", "2 Chronicles 36:22-23", "Ezra 1:1-3", "Micah 5:2", "Matthew 2:6", "John 10:34", "Psalm 82:6", "Mark 14:62", "Daniel 7:13", "Philippians 1:19", "Job 13:16", "1 Corinthians 15:54", "Isaiah 25:8", "Matthew 26:31", "Zechariah 13:7", "Matthew 27:46", "Psalm 22:1", "Jude 14-15", "1 Chronicles 16:8", "Psalm 105:1", "Revelation 21:19-20", "Matthew 24:15"]
 date_created: 2026-10-19
-date_modified: 2026-10-19
+date_modified: 2026-10-20
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
 
 # What the Scripture Links Reveal
 
-The [Scripture Links](../references.md) page holds 1,114 connections between verses, each one found
+The [Scripture Links](../references.md) page holds 2,500 connections between verses, each one found
 by comparing the Hebrew and Greek texts themselves. [How We Cross-Reference
 Scripture](../about/how-we-cross-reference.md) explains the method. This study reads the results as a
 whole and asks what they show: which passages the Bible returns to most, how its writers handled the
 words they quoted, and where the best-known connections leave no mark in the wording at all.
 
 **In one sentence:** read as a whole, the links show the New Testament writers returning again and
-again to a handful of passages about the Son at God's right hand and the covenant made new, quoting
-them in the Greek their readers knew, while some of the most important connections in Scripture are
-carried by meaning and fulfilment and leave no trace in shared words, so the links point you to the
-text and leave the reading to you.
+again to a handful of passages about the Son at God's right hand, the covenant made new and the
+neighbour to be loved, quoting them in the Greek their readers knew and sometimes from the Hebrew
+behind it, while a few of the most important connections in Scripture are carried by meaning and
+fulfilment and leave no trace in shared words, so the links point you to the text and leave the
+reading to you.
 
 ## Key Takeaways
 
@@ -33,12 +34,13 @@ each part is for.)*
 
 ### Lessons about Jesus
 
-- **The verse the New Testament quotes most is about Him.** Psalm 110:1, "Sit at my right hand, until
-  I make your enemies your footstool" (ESV), is linked from five books: Matthew, Mark, Luke, Acts and
-  Hebrews. Jesus quoted it Himself (Matthew 22:44), and the apostles built on it.
-- **The book that leans hardest on the Old Testament is about His priesthood.** Hebrews has 54 links
-  in 303 verses, nearly three times the rate of any other book, and most of them run to the Psalms
-  and to Jeremiah's new covenant.
+- **The verse quoted from the most books is the one Jesus called the second commandment.** "You shall
+  love your neighbor as yourself" (Leviticus 19:18, ESV) is linked from six books: Matthew, Mark,
+  Luke, Romans, Galatians and James. Jesus set it beside the Shema (Mark 12:29-31), and His apostles
+  kept it there.
+- **Next comes the verse about where He is now.** Psalm 110:1, "Sit at my right hand, until I make
+  your enemies your footstool" (ESV), is linked from five books. Jesus quoted it Himself (Matthew
+  22:44), and the apostles built on it.
 - **His cry from the cross stays in His own language.** "Eli, Eli, lema sabachthani?" (Matthew 27:46,
   ESV) quotes Psalm 22:1 in the words Jesus spoke, so no Greek text can match it.
 
@@ -69,14 +71,15 @@ In Jesus' name. Amen.
 
 ## Study outline
 
-- [Where the numbers come from](#where-the-numbers-come-from). Four kinds of link and what counts as
-  a strong one.
-- [What exists](#what-exists). The most-quoted verse and chapter, the book that quotes most densely,
+- [Where the numbers come from](#where-the-numbers-come-from). Five kinds of link, and the rules
+  that make one strong.
+- [What exists](#what-exists). The most-quoted verses and chapter, the book that quotes most densely,
   a saying with eight echoes, a psalm that may carry Paul's words, what "allusion" usually turns out
   to be, and the Old Testament quoting itself.
-- [What does not exist](#what-does-not-exist). Ten letters with no strong link, a Revelation with no
-  quotation, the Bethlehem prophecy and the cry from the cross, a near-identical psalm the method
-  misses, and the links nobody measured.
+- [Gaps that were the method's](#gaps-that-were-the-methods). Short quotations, a phrase of everyday
+  words, a psalm missed by one letter, and quotations that follow the Hebrew.
+- [What does not exist](#what-does-not-exist). Eight letters with no strong link, Revelation, the cry
+  from the cross, Jude's Enoch, and the links nobody measured.
 - [What readers connect](#what-readers-connect). The cross-references people vote for most, and why
   none of them share a word.
 - [What the links show about God](#what-the-links-show-about-god). The Word that holds together, and
@@ -84,54 +87,58 @@ In Jesus' name. Amen.
 
 ## Where the numbers come from
 
-Every link belongs to one of four kinds, kept apart because they are different evidence:
+Every link belongs to one of five kinds, kept apart because they are different evidence:
 
 | Kind | What is compared | Strong links |
 |---|---|---|
-| Quotation (Greek) | the Greek New Testament against the Septuagint | 140 |
-| Quotation (Hebrew) | the Hebrew Old Testament against itself | 822 |
+| Quotation (Greek) | the Greek New Testament against the Septuagint | 246 |
+| Quotation (Hebrew) | the Hebrew Old Testament against itself | 2,054 |
+| Quotation (from the Hebrew) | the Greek New Testament against the Hebrew Old Testament, through the Septuagint's own vocabulary | 48 |
 | Allusion | rare Greek words shared by a New Testament and a Septuagint verse | 103 |
 | Candidate | a 19th-century Hebrew translation of the New Testament against the Hebrew Old Testament | 49 |
 
-A quotation counts as **strong** when its alignment score reaches 18, which in practice means about
-nine words in order with room for small changes. That threshold was set by testing every pair
-against two independent cross-reference lists ([How We Cross-Reference
-Scripture](../about/how-we-cross-reference.md#where-the-thresholds-come-from)). The database holds
-another 1,190 weaker Greek matches below the line, and this study names them where they explain an
-absence. All the counts below are of strong links unless the text says otherwise, and each is
-recorded with the query that produces it so it can be re-checked.
+A link is **strong** when one of a small set of rules admits it, and every link records which rule
+did. For a Greek quotation the rules are: the wording aligns closely (about nine words in order); or
+the verses share phrases that occur in only one Old Testament verse; or the verse cites Scripture
+("it is written") and shares such a phrase. A Hebrew parallel is matched on the words' dictionary
+forms, so spelling and prefixes do not hide it. Each rule was tested against two answer keys that
+have nothing to do with the method, the WEB translators' quotation footnotes and unfoldingWord's
+Translation Notes, and against independent cross-references for precision. The database holds
+another 5,161 weaker Greek matches that no rule admits, and this study names them where they explain
+an absence. Each count below is recorded with the query that produces it, so it can be re-checked.
 
-Two of the four kinds cross the testaments: 292 links run from the New Testament to the Old. The
-other 822 are the Old Testament quoting itself.
+Four of the five kinds cross the testaments: 446 links run from the New Testament to the Old. The
+other 2,054 are the Old Testament quoting itself.
 
 ## What exists
 
 ### The most-quoted verses
 
-Five Old Testament verses are each linked from three or more New Testament books:
+Five Old Testament verses are each linked from four or more New Testament books:
 
 | Verse | Quoted in | What it says |
 |---|---|---|
-| Psalm 110:1 | Matthew 22:44, Mark 12:36, Luke 20:43, Acts 2:34-35, Hebrews 1:13 | the LORD tells "my Lord" to sit at His right hand |
+| Leviticus 19:18 | Matthew 19:19 and 22:39, Mark 12:31, Luke 10:27, Romans 13:9, Galatians 5:14, James 2:8 | love your neighbour as yourself |
+| Psalm 110:1 | Matthew 22:44, Mark 12:36, Luke 20:42-43, Acts 2:34-35, Hebrews 1:13 | the LORD tells "my Lord" to sit at His right hand |
+| Psalm 118:26 | Matthew 21:9 and 23:39, Mark 11:9, Luke 13:35, John 12:13 | blessed is he who comes in the name of the Lord |
 | Psalm 118:22 | Matthew 21:42, Mark 12:10, Luke 20:17, 1 Peter 2:7 | the rejected stone becomes the cornerstone |
-| Genesis 2:24 | Matthew 19:5, Mark 10:7, Ephesians 5:31 | the two become one flesh |
-| Isaiah 6:9-10 | Matthew 13:14-15, Acts 28:26-27 | hearing without understanding |
-| Deuteronomy 6:5 | Mark 12:30, Luke 10:27, Matthew 22:37 | love the LORD with all your heart |
+| Genesis 2:24 | Matthew 19:5, Mark 10:7-8, 1 Corinthians 6:16, Ephesians 5:31 | the two become one flesh |
 
-Jesus quotes all five in the Gospels, and the first two are about Him. Psalm 110:1 is the
-verse Jesus used to ask how the Messiah could be David's son and David's Lord at once (Matthew
+Jesus quotes all five in the Gospels. Two are about how His people are to live, love of neighbour and
+the one flesh of marriage, and three are about Him. Psalm 118 supplies two of the five: the crowd
+sang its blessing as He entered Jerusalem, and He took its rejected stone as His own. Psalm 110:1 is
+the verse Jesus used to ask how the Messiah could be David's son and David's Lord at once (Matthew
 22:41-45), and the apostles kept returning to it to say where He is now: seated at the Father's right
-hand. The Septuagint numbers it Psalm 109, and the links record both numbers.
+hand. The Septuagint numbers these psalms 117 and 109, and the links record both numbers.
 
 ### The most-quoted chapter
 
-The single most-linked chapter is Jeremiah 31, the new covenant. Hebrews quotes its promise at
-length twice (Hebrews 8:8-12; 10:16-17), and the links reach it thirteen times. The count needs both
-numbering systems to see it: the Septuagint places these verses in its chapter 38, and the links
-split between the two. Counted once, no chapter of the Old Testament is reached more often.
-
-Genesis 11 comes close, with twelve links, but for a different reason: Luke's genealogy shares its
-names (see [Allusions are usually lists](#allusions-are-usually-lists)).
+The single most-linked chapter is Jeremiah 31, the new covenant, with sixteen links. Hebrews quotes
+its promise at length twice (Hebrews 8:8-12; 10:16-17), and Matthew 2:18 quotes its Rachel weeping
+for her children. The count needs both numbering systems to see it: the Septuagint places these
+verses in its chapter 38. Psalm 118 follows with fourteen, Psalm 110 with thirteen, and Genesis 11
+with twelve, the last for a different reason: Luke's genealogy shares its names (see [Allusions are
+usually lists](#allusions-are-usually-lists)).
 
 ### The book that quotes most densely
 
@@ -139,16 +146,16 @@ Measured against its length, Hebrews leans on the Old Testament more than any ot
 
 | Book | Strong links | Verses | Per 100 verses |
 |---|---|---|---|
-| Hebrews | 54 | 303 | 17.8 |
-| Romans | 29 | 430 | 6.7 |
-| Acts | 64 | 1,002 | 6.4 |
-| Luke | 45 | 1,149 | 3.9 |
-| Matthew | 38 | 1,068 | 3.6 |
+| Hebrews | 65 | 303 | 21.5 |
+| Romans | 57 | 430 | 13.3 |
+| 1 Peter | 11 | 105 | 10.5 |
+| Acts | 78 | 1,002 | 7.8 |
+| Matthew | 70 | 1,068 | 6.6 |
 
-Nearly half of Hebrews' links run to the Psalms, and eleven more to Jeremiah. Psalm 95 ("Today, if you hear
-his voice") is quoted six times across Hebrews 3 and 4. The letter argues from the Old Testament line
-by line, which is what you would expect of a book written to show Jewish believers that Jesus is the
-priest and sacrifice their Scriptures promised.
+Nearly half of Hebrews' links run to the Psalms, and thirteen more to Jeremiah. Psalm 95 ("Today, if
+you hear his voice") is quoted seven times across Hebrews 3 and 4. The letter argues from the Old
+Testament line by line, which is what you would expect of a book written to show Jewish believers
+that Jesus is the priest and sacrifice their Scriptures promised.
 
 ### One saying, eight echoes
 
@@ -173,9 +180,9 @@ The Hebrew of Psalm 14:3, followed by the ESV, has one line:
 
 Brenton's Septuagint, the Greek text the links use, continues past that line with six more:
 *τάφος ἀνεῳγμένος ὁ λάρυγξ αὐτῶν* ("their throat is an open grave") and on through "there is no fear
-of God before their eyes." Those are the lines Paul strings together in Romans 3:13-18. Paul drew the first of
-them from Psalm 5:9, Psalm 140:3 and Psalm 10:7 (the *NIV Cultural Backgrounds Study Bible* on
-Romans 3:13-14), and the rest from Isaiah 59:7-8 and Psalm 36:1. In this Greek psalm they arrive
+of God before their eyes." Those are the lines Paul strings together in Romans 3:13-18. Paul drew the
+first of them from Psalm 5:9, Psalm 140:3 and Psalm 10:7 (the *NIV Cultural Backgrounds Study Bible*
+on Romans 3:13-14), and the rest from Isaiah 59:7-8 and Psalm 36:1. In this Greek psalm they arrive
 already assembled.
 
 What the data shows is settled: one Greek text of Psalm 14 contains Paul's catena and the Hebrew does
@@ -190,10 +197,9 @@ The allusion class links verses that share several rare Greek words. Read throug
 links turn out to be lists:
 
 - **Genealogies.** 35 come from the genealogies of Jesus in Matthew 1 and Luke 3 sharing names with
-  Genesis 5 and 11, Ruth 4 and 1 Chronicles 1. Luke 3:35 alone is linked eleven times, the most of any
-  New Testament verse.
-- **Places.** Acts 2:10 (the nations at Pentecost) and Acts 21:1 and 27:5 (Paul's sea routes)
-  share place names with the list of cities in 1 Maccabees 15:23.
+  Genesis 5 and 11, Ruth 4 and 1 Chronicles 1. Luke 3:35 alone is linked eleven times.
+- **Places.** Acts 2:10 (the nations at Pentecost) and Acts 21:1 and 27:5 (Paul's sea routes) share
+  place names with the list of cities in 1 Maccabees 15:23.
 - **Precious things.** The foundation stones of the New Jerusalem (Revelation 21:19-20) share their
   gems with the covering of the king of Tyre in Eden (Ezekiel 28:13). The cargo of Babylon
   (Revelation 18:13) shares its spices with the garden of the Song (Song of Songs 4:14), and so does
@@ -210,15 +216,22 @@ Areopagus (Acts 17:29) and Wisdom 13:10's mockery of idols of gold and silver is
 
 ### The Old Testament quoting itself
 
-The 822 Hebrew links are the largest group, and four book pairs supply more than half of them: 1
-Kings with 2 Chronicles, 1 Kings with 2 Kings, 2 Kings with itself, and 2 Kings with Isaiah. The
-histories of Israel were written more than once, and the links trace the shared material: Isaiah
-36-39 inside 2 Kings 18-20, Jeremiah 52 inside 2 Kings 24-25, Psalm 18 inside 2 Samuel 22, Micah's
-mountain of the LORD inside Isaiah 2.
+The 2,054 Hebrew links are the largest group, and the histories account for much of it: 1 Kings with
+2 Chronicles (217), 1 Kings with 2 Kings (196), 2 Kings with itself (147). The histories of Israel
+were written more than once, and the links trace the shared material: Isaiah 36-39 inside 2 Kings
+18-20, Jeremiah 52 inside 2 Kings 24-25, Psalm 18 inside 2 Samuel 22, Micah's mountain of the LORD
+inside Isaiah 2.
 
-Three findings stand out.
+Four findings stand out.
 
-**A quarter of them point to a book we do not have.** 211 of the 822 links join verses built on the
+**The tabernacle, commanded and built.** The pair with the most links of all is Exodus with itself:
+220. 181 of them join Exodus 25-31, where God gives Moses the pattern of the tabernacle, to Exodus
+35-40, where Bezalel and the people make it. The second half repeats the first almost word for word,
+curtain by curtain and clasp by clasp. God had said "Exactly as I show you concerning the pattern of
+the tabernacle... so you shall make it" (Exodus 25:9, ESV), and the text records that they did, in
+the same words.
+
+**One in nine points to a book we do not have.** 229 of the 2,054 links join verses built on the
 same formula:
 
 > ✝️ 2 Kings 23:28 (ESV)
@@ -232,71 +245,51 @@ record the writer of Kings used. It is a different work from the biblical 1 and 
 were written after the exile and end with Cyrus's decree. The links find a formula repeated, which is
 a textual fact, and it shows the writer of Kings pointing his readers to his sources again and again.
 
-**Chronicles ends where Ezra begins.** 2 Chronicles 36:22-23 and Ezra 1:1-3 align at 39 and 41, more than
-twice the threshold. They are the same decree of Cyrus. In the order of most
-printed Hebrew Bibles, the one the Talmud lists (b. *Bava Batra* 14b), Chronicles is the last book,
-so the Hebrew Bible closes on the decree's final words: "Let him go up" (2 Chronicles 36:23, ESV).
+**Chronicles ends where Ezra begins.** 2 Chronicles 36:22-23 and Ezra 1:1-3 align at 39 and 41 on
+their surface wording, more than twice the threshold. They are the same decree of Cyrus. In the
+order of most printed Hebrew Bibles, the one the Talmud lists (b. *Bava Batra* 14b), Chronicles is
+the last book, so the Hebrew Bible closes on the decree's final words: "Let him go up" (2 Chronicles
+36:23, ESV).
 
-**The covenant renewed repeats the covenant given.** Exodus links to itself 45 times. Among them,
-the festival laws of Exodus 23 come back word for word in Exodus 34, after the golden calf, when God
-writes the covenant again on new tablets.
+**The covenant renewed repeats the covenant given.** Among Exodus's self-links, the festival laws of
+Exodus 23 come back word for word in Exodus 34, after the golden calf, when God writes the covenant
+again on new tablets.
 
 ### The Dead Sea Scrolls
 
-93 links carry a reading from the Dead Sea Scrolls where a scroll differs from the Masoretic Hebrew
-at the quoted verse. 76 of them are Isaiah, because the Great Isaiah Scroll (1QIsaᵃ) preserves the
-whole book. When a New Testament quotation lands on Isaiah, the scroll reading is usually there to
-compare.
+148 links carry a reading from the Dead Sea Scrolls where a scroll differs from the Masoretic Hebrew
+at the quoted verse. 105 of them are Isaiah, because the Great Isaiah Scroll (1QIsaᵃ) preserves the
+whole book. When a quotation lands on Isaiah, the scroll reading is usually there to compare.
 
-## What does not exist
+## Gaps that were the method's
 
-### Ten letters with no strong link
+The first version of this study, with 1,114 links, listed absences that looked like facts about
+Scripture. Testing them showed that several were facts about the method, and the method changed (the
+research is recorded in the repository, `docs/dev/link-detection-research.md`). Each change shows
+what kind of evidence a link is.
 
-Philippians, 1 Thessalonians, 2 Timothy, Titus, Philemon, James, 1, 2 and 3 John and Jude have no
-strong link to the Old Testament. Some of them barely quote. James quotes plainly, and
-the reason it scores nothing is length. James 2:8 quotes "You shall love your neighbor as yourself"
-from Leviticus 19:18, and James 2:23 quotes "Abraham believed God" from Genesis 15:6. Both are short,
-and they align at 12 and 14, under the line of 18.
+**Short quotations are often the famous ones.** James 2:8 ("You shall love your neighbor as
+yourself"), Romans 1:17 ("The righteous shall live by faith"), and Jesus' answers to the tempter
+(Matthew 4:7, 10) are short. They aligned at 11 to 15, under a line set at 18, so they sat in the
+database unshown. Each is introduced as Scripture, "as it is written", and each shares a phrase that
+occurs in only one Old Testament verse. That pairing is now a rule, and it holds: of the links it
+admits on its own, 83% are confirmed by independent cross-references.
 
-The same happens to Romans 1:17 and Habakkuk 2:4, "The righteous shall live by faith", which aligns at
-11. The verse that shaped the Reformation is in the database, below the threshold. The shortest
-quotations are often the best known, and a method built on runs of words sees them least.
+**A phrase of everyday words can be unique.** Jesus' defence in John 10:34 quotes Psalm 82:6:
 
-### A Revelation with no quotation
+> ✝️ John 10:34 (ESV)
+>
+> 34 Jesus answered them, "Is it not written in your Law, 'I said, you are gods'?"
 
-Revelation is soaked in the Old Testament: its throne room, its beasts, its city and its river all
-come from Ezekiel, Daniel, Isaiah and Zechariah. It has no strong Greek quotation at all. Its six
-links are all shared rare words: Gog and Magog (Revelation 20:8; Ezekiel 38:2), the gems, the spices.
+The shared Greek, *ἐγὼ εἶπα θεοί ἐστε*, is four of the commonest words in the language. No measure
+of rarity sees them. As a phrase, though, they occur in one Septuagint verse, and that uniqueness is
+the evidence, the same reasoning a plagiarism checker uses. The same rule finds Mark 14:62's "coming
+with the clouds of heaven" from Daniel 7:13 (Matthew's version, 26:64, paraphrases further and is
+still missed), and Paul's "this will turn out for my deliverance" (Philippians 1:19), which is the
+Septuagint of Job 13:16 word for word, though the ESV, translating the Hebrew, renders Job's line "This
+will be my salvation."
 
-That fits what readers of Revelation have long observed. John never introduces a passage with
-"as it is written". He takes the Old Testament's images and words and rewrites them into his vision.
-Revelation is the most Old Testament book in the New Testament and the one a word-matching method
-finds hardest.
-
-### John's two quotations
-
-John's Gospel, 878 verses, has two strong quotations: Isaiah 53:1 at John 12:38 and Psalm 22:18 at
-John 19:24. John cites Scripture often, but he paraphrases. His version of Isaiah 6:10 (John 12:40)
-differs too much from the Greek to match, though the quotations of the same verse in Matthew 13 and
-Acts 28 match closely.
-
-### Thirteen Old Testament books the New Testament never strongly reaches
-
-Judges, 1 Samuel, 2 Kings, Ezra, Nehemiah, Ecclesiastes, Lamentations, Daniel, Obadiah, Micah,
-Nahum, Zephaniah and Malachi have no strong link from the New Testament. For some, that matches what
-scholars find: Ecclesiastes is not quoted in the New Testament. For others, it is a surprise with a
-reason.
-
-**Daniel.** Jesus names Daniel when He speaks of "the abomination of desolation spoken of by the
-prophet Daniel" (Matthew 24:15, ESV). The shared Greek, *τὸ βδέλυγμα τῆς ἐρημώσεως*, is three or
-four words, too short to reach the line. Daniel 7:13 behind Matthew 26:64 is paraphrased, as [the Scripture Links
-page](../references.md#two-kinds-of-knowing) explains.
-
-**Malachi.** Matthew 11:10, "Behold, I send my messenger before your face", is usually linked to
-Malachi 3:1. Its first nine Greek words match Exodus 23:20 exactly, and the method links it there.
-Matthew joined the two passages, and the Exodus half carries the wording.
-
-**Micah.** The Bethlehem prophecy has no textual link at all.
+**Bethlehem is found.** Matthew 2:6 now links to Micah 5:2.
 
 > ✝️ Micah 5:2 (ESV)
 >
@@ -309,11 +302,80 @@ Matthew joined the two passages, and the Exodus half carries the wording.
 > 6 "'And you, O Bethlehem, in the land of Judah, are by no means least among the rulers of Judah;
 > for from you shall come a ruler who will shepherd my people Israel.'"
 
-Micah says Bethlehem is "too little". Matthew, quoting the chief priests and scribes, says it is "by
-no means least", because the ruler has now come from it. The closing line, "who will shepherd my
-people Israel", comes from 2 Samuel 5:2, where God says it of David, and that is the strongest link
-the method finds, still below the line. The verse every Christmas reading uses is joined to Micah by meaning,
-by place and by fulfilment, and the wording carries the change the fulfilment made.
+The verses share a phrase found nowhere else, and Matthew introduces it as what "is written by the
+prophet" (Matthew 2:5, ESV). The change Matthew makes is still the point: Micah says Bethlehem is
+"too little", and Matthew, quoting the chief priests and scribes, says it is "by no means least",
+because the ruler has now come from it. The closing line, "who will shepherd my people Israel", comes
+from 2 Samuel 5:2, where God says it of David.
+
+**A psalm copied almost exactly.** 1 Chronicles 16:8-36 is the song David appointed when the ark came
+to Jerusalem, built from Psalm 105:1-15, Psalm 96 and Psalm 106. Its first verse is word for word
+Psalm 105:1:
+
+> ✝️ 1 Chronicles 16:8 (ESV)
+>
+> 8 Oh give thanks to the LORD; call upon his name; make known his deeds among the peoples!
+
+On the surface the two scored 12, because one word is spelled with a vowel letter and one without
+(<span dir="rtl">עֲלִילֹתָיו</span> in Chronicles, <span dir="rtl">עֲלִילוֹתָיו</span> in the psalm).
+Matched on the words' dictionary forms, the song now links to its psalms 25 times, and Obadiah's
+oracle against Edom to Jeremiah 49, and Psalm 108 to Psalm 57, come back the same way. Borrowed
+passages also come in runs, verse after verse, so a weaker match whose neighbours match too counts as
+part of the borrowing. Of 266 verses in sixteen well-known parallels, the links now find 211, against
+68 before.
+
+**Some quotations follow the Hebrew.** Where the Septuagint reads differently from the Hebrew, a
+Greek-to-Greek method cannot see a New Testament writer who translated the Hebrew afresh. A new class
+reads the Greek against the Hebrew through a vocabulary learned from the Septuagint translators' own
+choices, and only in verses that cite Scripture. It finds 48 links, 88% confirmed independently.
+Among them:
+
+> ✝️ 1 Corinthians 15:54 (ESV)
+>
+> 54 When the perishable puts on the imperishable, and the mortal puts on immortality, then shall come
+> to pass the saying that is written: "Death is swallowed up in victory."
+
+Paul's line renders Isaiah 25:8, "He will swallow up death forever" (ESV), where the Septuagint reads
+differently. The same class joins "I will strike the shepherd" (Matthew 26:31) to Zechariah 13:7.
+
+## What does not exist
+
+### Eight letters with no strong link
+
+1 Thessalonians, 2 Timothy, Titus, Philemon, 1, 2 and 3 John, and Jude have no strong link to the Old
+Testament. These letters allude more than they quote, or quote rarely. Jude's one explicit quotation
+is the next case.
+
+### Jude and Enoch
+
+Jude 14-15 quotes a prophecy of Enoch: "Behold, the Lord comes with ten thousands of his holy ones, to
+execute judgment on all" (ESV). The words are found in 1 Enoch 1:9. That book is not among the texts
+the links are computed from, so the quotation cannot appear. An absence in the links can be an absence
+in the database.
+
+### Revelation
+
+Revelation is soaked in the Old Testament: its throne room, its beasts, its city and its river all
+come from Ezekiel, Daniel, Isaiah and Zechariah. It has three strong Greek links, and the clearest is
+Revelation 2:27's "rule them with a rod of iron" from Psalm 2:9. The rest of its links are shared rare
+words: Gog and Magog (Revelation 20:8; Ezekiel 38:2), the gems, the spices.
+
+That fits what readers of Revelation have long observed. John never introduces a passage with "as it
+is written". He takes the Old Testament's images and words and rewrites them into his vision.
+Revelation is the most Old Testament book in the New Testament and the one a word-matching method
+finds hardest.
+
+### Ten Old Testament books the New Testament never strongly reaches
+
+Judges, 1 Samuel, 2 Kings, Ezra, Nehemiah, Ecclesiastes, Lamentations, Obadiah, Nahum and Zephaniah
+have no strong link from the New Testament. For some, that matches what scholars find: Ecclesiastes is
+not quoted in the New Testament.
+
+**Daniel's "abomination of desolation"** is still missing. Jesus names Daniel when He speaks of "the
+abomination of desolation spoken of by the prophet Daniel" (Matthew 24:15, ESV). The shared Greek,
+*τὸ βδέλυγμα τῆς ἐρημώσεως*, is three or four words in a form that varies between Daniel's verses, so
+no rule admits it. The research found it by matching shared concepts, and it is a candidate for the
+next round.
 
 ### The cry from the cross
 
@@ -323,37 +385,9 @@ by place and by fulfilment, and the wording carries the change the fulfilment ma
 > sabachthani?" that is, "My God, my God, why have you forsaken me?"
 
 Matthew gives Jesus' words as He spoke them, in Hebrew and Aramaic, written out in Greek letters, and
-then translates them. A Greek method has nothing to match. The most solemn quotation in the Gospels is
-invisible to it, and the reason is that the evangelist kept the sound of the Lord's own voice.
-
-### Jude and Enoch
-
-Jude 14-15 quotes a prophecy of Enoch: "Behold, the Lord comes with ten thousands of his holy ones,
-to execute judgment on all" (ESV). The words are found in 1 Enoch 1:9. That book is not among the
-texts the links are computed from, so the quotation cannot appear. An absence in the links can be an
-absence in the database.
-
-### A psalm copied almost exactly, and missed
-
-1 Chronicles 16:8-36 is the song David appointed when the ark came to Jerusalem, and it is built from
-three psalms: Psalm 105:1-15, Psalm 96 and Psalm 106. Its first verse is word for word Psalm 105:1:
-
-> ✝️ 1 Chronicles 16:8 (ESV)
->
-> 8 Oh give thanks to the LORD; call upon his name; make known his deeds among the peoples!
-
-Of the whole song, the links find one verse, its last (1 Chronicles 16:36 with Psalm 106:48). The
-first verse misses by one letter. The two Hebrew texts spell the last word differently,
-<span dir="rtl">עֲלִילֹתָיו</span> in Chronicles and <span dir="rtl">עֲלִילוֹתָיו</span> in the
-psalm, with and without a vowel letter. To the method those are different words. Seven Hebrew words
-with one mismatch align at 12, under the line.
-
-Other known parallels miss the same way: Joel 3:16 and Amos 1:2 ("The LORD roars from Zion"),
-Obadiah's oracle against Edom and Jeremiah 49, the first half of Psalm 108 and Psalm 57. As a result
-fifteen Old Testament books show no strong link to any other, among them Joel, Amos, Obadiah and
-Malachi. Hebrew verses are short and Hebrew spelling varies, so the threshold that works for Greek
-quotations is strict for Hebrew ones. Treating spelling variants as the same word would recover many
-of these, and the method should be changed to do it.
+then translates them. A Greek method has nothing to match, and the Hebrew method only reads verses
+that cite Scripture by formula. The most solemn quotation in the Gospels is invisible to the method,
+and the reason is that the evangelist kept the sound of the Lord's own voice.
 
 ### The links nobody measured
 
@@ -361,12 +395,13 @@ There are no links from one New Testament book to another. None was computed. Th
 shared wording, 2 Peter's use of Jude, and 1 Timothy 5:18 quoting "The laborer deserves his wages"
 from Luke 10:7 are all outside the data. Paul in 1 Timothy 5:18 calls a saying in Luke "Scripture"
 alongside Deuteronomy, so a New Testament to New Testament class would show something the current
-links cannot.
+links cannot. Joel 3:16 and Amos 1:2 ("The LORD roars from Zion") are also still unlinked; that
+parallel is a single short line.
 
 ## What readers connect
 
 Alongside the derived links, the page shows traditional cross-references, ranked by how many people
-voted for them on OpenBible.info. Of 2,595 verses with such a cross-reference, 2,343 have no derived
+voted for them on OpenBible.info. Of 2,640 verses with such a cross-reference, 2,224 have no derived
 link at all.
 
 The most-voted ones are revealing. The top of the list joins Romans 8:29 to Ephesians 1:5 (1,268
@@ -375,34 +410,35 @@ They are well-loved verses joined to other well-loved verses on the same theme. 
 quoted phrase. Readers connect Scripture by what it promises, and the word-matching method connects it
 by what it repeats. Both are real, and they answer different questions. The traditional list is the
 better guide to a theme; the derived links are the better guide to what a writer was actually
-quoting.
+quoting. Where unfoldingWord's Translation Notes name a quotation the derived links do not show, the
+page shows that too, marked as the editors' judgement.
 
 ## What the links show about God
 
 **God speaks one word through many writers.** "Long ago, at many times and in many ways, God spoke
-to our fathers by the prophets" (Hebrews 1:1, ESV). The 822 links inside the Old Testament show that
-word handed on: Kings into Chronicles, Kings into Isaiah and Jeremiah, the law of Exodus 23 written
-again in Exodus 34, Cyrus's decree closing one book and opening the next. This shows that God
-preserves His word across centuries and writers, and you can read it trusting that its parts belong
-together.
+to our fathers by the prophets" (Hebrews 1:1, ESV). The 2,054 links inside the Old Testament show that
+word handed on: Kings into Chronicles, Kings into Isaiah and Jeremiah, the tabernacle commanded and
+then built in the same words, Cyrus's decree closing one book and opening the next. This shows that
+God preserves His word across centuries and writers, and you can read it trusting that its parts
+belong together.
 
-**The Scriptures are about His Son.** The verse quoted most is Psalm 110:1, the Son seated at the
-Father's right hand. The chapter reached most is the new covenant of Jeremiah 31. The book that
-quotes most densely, Hebrews, uses them to show Jesus as the King and Priest the Scriptures promised.
-Jesus Himself opened the Scriptures this way on the road to Emmaus (Luke 24:27). The links make
-visible, in numbers, the shape He gave them.
+**The Scriptures are about His Son and His people.** The verses quoted most are Psalm 110:1, the Son
+seated at the Father's right hand, and Leviticus 19:18, the love He commands. The chapter reached
+most is the new covenant of Jeremiah 31. The book that quotes most densely, Hebrews, uses them to show
+Jesus as the King and Priest the Scriptures promised. Jesus Himself opened the Scriptures this way on
+the road to Emmaus (Luke 24:27). The links make visible, in numbers, the shape He gave them.
 
-**God's word is not bound to one language.** 140 of the New Testament's strong quotations follow the
-Greek Septuagint, a translation, and the apostles used it to preach Christ to people who read Greek.
-God spoke His word in Hebrew and was content for it to be heard in Greek. So you may read your Bible
-in your own language and know that you hold His word.
+**God's word is not bound to one language.** Most of the New Testament's quotations follow the Greek
+Septuagint, a translation, and the apostles used it to preach Christ to people who read Greek. Others
+render the Hebrew afresh, as Paul did with "Death is swallowed up in victory." God spoke His word in
+Hebrew and was content for it to be heard in Greek. So you may read your Bible in your own language
+and know that you hold His word.
 
-**What the wording cannot show, God still fulfils.** Bethlehem, the cry from the cross and the Son
-of Man coming on the clouds leave little or no trace in shared words. Their connections are carried by
-history and fulfilment: the ruler born where Micah said, the psalm prayed on the cross, the claim
-the high priest understood at once. A method can count words. Seeing that the One the Scriptures
-promised has come is the work of the Holy Spirit opening the eyes of the reader, and you can ask Him
-for it.
+**What the wording cannot show, God still fulfils.** The cry from the cross and the Son of Man coming
+on the clouds in Matthew's paraphrase leave little or no trace in shared words. Their connections are
+carried by history and fulfilment: the psalm prayed on the cross, the claim the high priest understood
+at once. A method can count words. Seeing that the One the Scriptures promised has come is the work of
+the Holy Spirit opening the eyes of the reader, and you can ask Him for it.
 
 ## Discussion questions
 
@@ -415,16 +451,19 @@ for it.
    1:13. What does each writer use the verse to say about Jesus?
 4. **The hard part.** One Greek text of Psalm 14 contains lines Paul quotes in Romans 3. How should
    a reader handle a verse whose wording differs between the Hebrew and the Greek?
-5. **Be transformed.** Hebrews quotes Psalm 95 six times: "Today, if you hear his voice, do not
-   harden your hearts" (Hebrews 3:15, ESV). Where are you being asked to listen today, and what would
-   hardening your heart look like there?
+5. **Be transformed.** "You shall love your neighbor as yourself" is quoted in more New Testament
+   books than any other Old Testament verse (Leviticus 19:18). Who is the neighbour you find hardest to
+   love this week, and what would loving them as yourself look like?
 
 ## References
 
 - **Data:** the `scripture_links` table in this site's reference database, built from the SBL Greek
-  New Testament, Brenton's Septuagint (1851), the Westminster Leningrad Codex, the Delitzsch Hebrew
-  New Testament and MACULA's Greek lemmas; strong links exported to `docs/data/scripture-links.json`.
-  Method and thresholds: [How We Cross-Reference Scripture](../about/how-we-cross-reference.md).
+  New Testament, Brenton's Septuagint (1851), the Westminster Leningrad Codex, MACULA's Greek and
+  Hebrew lemmas, the Open Scriptures Septuagint lemmas and the Delitzsch Hebrew New Testament; strong
+  links exported to `docs/data/scripture-links.json`. Method and thresholds: [How We Cross-Reference
+  Scripture](../about/how-we-cross-reference.md).
+- **Answer keys and leads:** the WEB translators' quotation footnotes, and unfoldingWord's
+  Translation Notes (CC BY-SA 4.0), notes filed under the quotation article.
 - **Traditional cross-references:** OpenBible.info's crowd-voted cross-references (CC BY).
 - **Study notes:** *NIV Cultural Backgrounds Study Bible* (Zondervan, 2016), note on Romans
   3:13-14, for the sources of Paul's catena.

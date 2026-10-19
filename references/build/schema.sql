@@ -161,6 +161,10 @@ CREATE TABLE scripture_links (      -- derived here rather than ingested: see qu
     --                       evidence. Useful because it catches quotations the Greek misses, where
     --                       the NT follows the Hebrew rather than the LXX. Verify in Greek before
     --                       any of it carries weight in a study.
+    --   'quotation-crosslang' NT Greek against the Hebrew OT, through a Greek->Hebrew lexicon learned
+    --                       from the Septuagint's own translation choices. Only in verses that cite
+    --                       Scripture, only the best match, only with a clear margin: it reaches the
+    --                       quotations that follow the Hebrew where the Septuagint differs.
     link_type TEXT NOT NULL,
     from_work TEXT NOT NULL REFERENCES works(work_id),
     from_book TEXT NOT NULL, from_chapter INTEGER NOT NULL, from_verse INTEGER NOT NULL,
@@ -182,7 +186,15 @@ CREATE TABLE scripture_links (      -- derived here rather than ingested: see qu
     corroborated INTEGER NOT NULL,   -- 1 when openbible's cross-references independently agree
     -- the english-scheme reference for to_*, so a caller need not re-align. NULL where the passage
     -- has no English counterpart (LXX Jeremiah 30, the Proverbs 24 tail).
-    to_english_chapter INTEGER, to_english_verse INTEGER
+    to_english_chapter INTEGER, to_english_verse INTEGER,
+    -- Added 2026-10 (docs/dev/link-detection-research.md). `strong` is what the reader sees: 1 when
+    -- any rule in quotations.py admits the pair. `basis` names every rule that did, so a link can
+    -- always be explained -- 'alignment', 'unique-phrases', 'formula+phrases', 'lemma', 'lemma-run',
+    -- 'crosslang', 'rare-lemmas', 'hebrew-nt'. Never a blend: each rule stands on its own measure.
+    strong INTEGER NOT NULL DEFAULT 0,
+    basis TEXT,
+    unique_phrases INTEGER,          -- Greek: shared phrases found in exactly one Septuagint verse
+    lemma_score REAL                 -- inner-biblical and crosslang: the rarity-weighted alignment
 );
 CREATE INDEX idx_link_from ON scripture_links(link_type, from_book, from_chapter, from_verse);
 CREATE INDEX idx_link_to ON scripture_links(link_type, to_book, to_chapter, to_verse);

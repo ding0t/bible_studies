@@ -5,9 +5,10 @@ description: "Look up a verse and see what it quotes, what quotes it, and what i
 tags: ["cross-references", "septuagint", "method/textual-criticism", "tools"]
 draft: false
 date_created: 2026-09-04
-date_modified: 2026-10-19
+date_modified: 2026-10-20
 ai_provider_models:
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
 ---
 
@@ -66,9 +67,10 @@ score** — because they are not the same kind of evidence:
 |---|---|
 | **Quotation** | The same language on both sides, so the quotation is literally the same words. A textual fact. |
 | **Allusion** | No shared phrasing. What the passages share is vocabulary occurring almost nowhere else. |
+| **Quotation (from the Hebrew)** | The Greek of the New Testament matches the Hebrew of the Old, through the vocabulary the Septuagint translators chose. Only where the verse cites Scripture. |
 | **Candidate** | A 19th-century Hebrew New Testament reads this as a quotation. An informed judgement about the text, not evidence from it. |
 
-Each link also says whether it appears in a conventional cross-reference list. **"Not in any
+Each link also says which rule found it, and whether it appears in a conventional cross-reference list. **"Not in any
 reference list" is not a weakness** — those are the connections this method exists to find.
 
 Where a quoted Old Testament verse is one the Dead Sea Scrolls also preserve, any scroll reading the

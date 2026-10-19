@@ -10,6 +10,7 @@ import {
   METHODS,
   METHOD_NAMES,
   SCOPES,
+  basisWords,
   bookOfKey,
   displayBook as bookName,
   entriesFor,
@@ -55,7 +56,7 @@ function readHash() {
 }
 
 function Strength({ method, value, corroborated }) {
-  const scale = method === 'allusion-lemma' ? value / 30 : value / 45;
+  const scale = method === 'allusion-lemma' ? value / 30 : method === 'quotation-crosslang' ? value / 25 : value / 45;
   const filled = Math.max(1, Math.min(5, Math.round(scale * 5)));
   return (
     <span style={{ color: theme.muted, fontSize: '0.85em', whiteSpace: 'nowrap' }}>
@@ -102,6 +103,11 @@ function Connection({ link: l, texts, direction, at, showAt, onOpen }) {
         <Strength method={l.m} value={l.s} corroborated={l.c} />
       </header>
 
+      {basisWords(l.b).length > 0 && (
+        <p style={{ margin: '0.35rem 0 0', color: theme.muted, fontSize: '0.85em' }}>
+          Found by: {basisWords(l.b).join('; ')}.
+        </p>
+      )}
       {l.sh && <p style={{ margin: '0.6rem 0 0.2rem', color: theme.muted, fontSize: '0.9em' }}>Shared wording:</p>}
       {other.o && (
         <p lang={/[֐-׿]/.test(other.o) ? 'he' : 'grc'} dir={/[֐-׿]/.test(other.o) ? 'rtl' : 'ltr'} style={{ margin: '0.2rem 0', lineHeight: 1.7 }}>
@@ -232,6 +238,7 @@ export default function ScriptureLinks({ data }) {
 
   const entries = selected ? entriesFor(byRef, selected).filter((e) => !hidden.has(e.link.m)) : [];
   const leads = (selected?.key && data.leads[selected.key]) || [];
+  const noted = (selected?.key && data.noted?.[selected.key]) || [];
   const grouped = data.methodOrder
     .map((m) => [m, entries.filter((e) => e.link.m === m)])
     .filter(([, rows]) => rows.length > 0);
@@ -356,6 +363,24 @@ export default function ScriptureLinks({ data }) {
                   ))}
                 </section>
               ))}
+              {noted.length > 0 && (
+                <section style={{ marginTop: '1.75rem', paddingTop: '0.5rem', borderTop: `2px solid ${theme.line}` }}>
+                  <h3 style={{ margin: '0 0 0.2rem' }}>
+                    Named as a quotation{' '}
+                    <span style={{ fontWeight: 400, color: theme.muted, fontSize: '0.75em' }}>by unfoldingWord’s Translation Notes</span>
+                  </h3>
+                  <p style={{ margin: '0 0 0.6rem', color: theme.muted, fontSize: '0.9em' }}>
+                    The notes’ editors say this verse quotes the passage below, and the texts alone do not show it strongly enough
+                    to derive. A stated judgement to check against both verses.
+                  </p>
+                  {noted.map((r) => (
+                    <article key={r} style={{ borderTop: `1px solid ${theme.line}`, padding: '0.7rem 0' }}>
+                      <button type="button" onClick={() => open(r)} style={{ ...link, fontWeight: 700 }}>{prettyKey(r)}</button>
+                      {data.texts[r]?.e && <p style={{ margin: '0.3rem 0 0', color: theme.muted }}>{data.texts[r].e}</p>}
+                    </article>
+                  ))}
+                </section>
+              )}
               {leads.length > 0 && (
                 <section style={{ marginTop: '1.75rem', paddingTop: '0.5rem', borderTop: `2px solid ${theme.line}` }}>
                   <h3 style={{ margin: '0 0 0.2rem' }}>

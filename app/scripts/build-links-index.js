@@ -28,5 +28,8 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const dest = path.join(root, 'docs/content/assets/popups/links.json');
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   fs.writeFileSync(dest, JSON.stringify(index));
+  // The Scripture Links page fetches the full data at runtime rather than bundling it: inside a
+  // script every Greek and Hebrew letter becomes a \u escape, and the bundle grew to 4.8 MB.
+  fs.copyFileSync(path.join(root, 'docs/data/scripture-links.json'), path.join(path.dirname(dest), 'scripture-links.json'));
   console.log(`wrote ${path.relative(root, dest)}: ${Object.keys(index).length} verses`);
 }

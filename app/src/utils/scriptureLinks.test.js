@@ -17,6 +17,7 @@ import {
   matrix,
   methodBreakdown,
   topTargets,
+  basisWords,
 } from './scriptureLinks.js';
 import { linkIndex } from '../../scripts/build-links-index.js';
 
@@ -74,4 +75,11 @@ test('the pop-up index lists exactly the verses the lookup can answer for', () =
   const byRef = indexByRef(data.links);
   assert.deepEqual(Object.keys(index).sort(), [...byRef.keys()].sort());
   assert.equal(Object.values(index).reduce((n, [out]) => n + out, 0), data.links.length);
+});
+
+test('every rule that admitted a link has plain words for the "found by" line', () => {
+  for (const basis of new Set(data.links.map((l) => l.b))) {
+    assert.ok(basis, 'a link with no basis');
+    assert.equal(basisWords(basis).length, basis.split('+').length - (basis.includes('formula+phrases') ? 1 : 0), basis);
+  }
 });

@@ -602,7 +602,8 @@ def lookup_parallel(conn: sqlite3.Connection, book: str, chapter: int, verse: in
 
     src_n = _chapter_verse_count(conn, src, book, chapter)
     tgt_n = _chapter_verse_count(conn, tgt, a_book, a_chapter)
-    offset = versification.superscription_offset(src_n, tgt_n)
+    # Only Psalms carry titles; align() already places every other book's verse.
+    offset = versification.superscription_offset(src_n, tgt_n) if a_book == "Ps" else 0
     if offset:
         result["verse_offset"] = offset
     a_verse -= offset
@@ -625,6 +626,7 @@ LINK_TARGET_SCHEME = {
     "inner-biblical": "masoretic",
     "quotation-hebrew": "masoretic",
     "allusion-lemma": "lxx",
+    "quotation-crosslang": "masoretic",
 }
 
 

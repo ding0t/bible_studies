@@ -49,6 +49,7 @@
   --color-link-inner: #047857;
   --color-link-allusion: #b45309;
   --color-link-candidate: #be123c;
+  --color-link-crosslang: #7c3aed;
 }
 
 [data-md-color-scheme="slate"] {
@@ -59,6 +60,7 @@
   --color-link-inner: #6ee7b7;
   --color-link-allusion: #fcd34d;
   --color-link-candidate: #fda4af;
+  --color-link-crosslang: #c4b5fd;
 }
 
 /* Material's content column is 61rem, but the viewer wants up to 1400px and holds wide tables and

@@ -205,7 +205,7 @@ See the [develop-bible-study skill](https://github.com/ding0t/bible_studies/blob
 
 ## unfoldingWord: the alignment and the grammar
 
-Four CC BY-SA 4.0 sources submoduled 2026-09-05 and wired end to end. They answer two questions
+Four CC BY-SA 4.0 sources submoduled 2026-09-05 and wired end to end, and a fifth, the Translation Notes, added 2026-10-20 for the quotations it names. They answer two questions
 nothing else here could.
 
 **`word_alignment` — which original word each English word renders.** 475,036 rows from ULT, whose
@@ -229,6 +229,7 @@ lemma mean"; until this went in, "what is a gentilic adjective doing" had to com
 | `uw-uhb` | unfoldingWord Hebrew Bible, 23,145 verses | the Hebrew side, and **an alignment anchor rather than a second Hebrew text** — see the versification warning below before querying it beside `morphhb-wlc`. Its per-word morphology is deliberately **not** loaded into `morphology` — that table is MACULA's off the same WLC, and a second opinion in the same columns would silently double every count a word study makes |
 | `uw-ugnt` | unfoldingWord Greek NT, 7,958 verses | the Greek side, **and a distinct witness**: a Bunning Heuristic Prototype text, not SBLGNT. Measured over the 7,939 verses the two share: 14.7% differ once accents, SBL sigla, case and elision marks are normalised, 11.4% still differ after itacism (ει/ι) is collapsed too, and only **87 verses differ by three or more words**. So "one verse in six" is the right raw count but the wrong impression — the bulk is manuscript orthography (Δαυείδ for Δαυίδ 59×, Πειλᾶτος for Πιλᾶτος 39×, Ἡλείας for Ἡλίας 16×), not textual instability. Where it *is* substantive it is substantive at the places that matter: Mark 16:8ff, the pericope adulterae (John 8:4–11), Luke 23:34, 1 Cor 7:33–34, and John 1:34's Υἱὸς against SBLGNT's ἐκλεκτός. Treat it as a real second witness worth consulting, and confirm with `bible_verse` which text a reading came from |
 | `uw-uhg` | unfoldingWord Hebrew Grammar, 88 articles | no verses at all; it lives in `grammar_articles` |
+| `uw-tn` | unfoldingWord Translation Notes (submodule `references/open-data/uw-tn`, shallow), loaded as `uw-tn-quotations` | only the quotations the notes name: 213 New Testament verses with the Old Testament verse they quote, in `cross_references`. An independent answer key for the derived links (see [docs/dev/link-detection-research.md](../docs/dev/link-detection-research.md)), so it is kept out of their corroboration. CC BY-SA 4.0 |
 
 **UHB and WLC do not agree about verse numbers, and nothing stops you querying them as if they
 did.** This is the sharpest edge on these four sources, and it is not an accident of the ingest --

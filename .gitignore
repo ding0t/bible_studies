@@ -34,3 +34,4 @@ docs/content/assets/js/
 
 # Written by app/scripts/build-links-index.js on every build from docs/data/scripture-links.json.
 docs/content/assets/popups/links.json
+docs/content/assets/popups/scripture-links.json
