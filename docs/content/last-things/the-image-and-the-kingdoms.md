@@ -8,7 +8,8 @@ primary_passage: "Daniel 2:31-45; Daniel 7:1-28"
 bible_references: ["Daniel 2:1-49", "Daniel 3:1", "Daniel 3:17-18", "Daniel 4:17", "Daniel 5:28", "Daniel 6:28", "Daniel 7:1-28", "Daniel 8:8-9", "Daniel 8:20-22", "Daniel 9:24-27", "Jeremiah 29:7", "Matthew 21:44", "Matthew 24:15", "Mark 14:62", "Luke 20:17-18", "Luke 21:24", "Colossians 1:13", "2 Thessalonians 2:3-4", "Revelation 13:1-7", "Revelation 17:12-14"]
 date_created: 2026-10-19
 date_modified: 2026-10-19
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Image and the Kingdoms
