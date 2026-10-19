@@ -45,12 +45,20 @@
   --color-epoch-site: #1d4ed8;
   --color-epoch-compare: #be123c;
   --color-eighth-day: #047857;
+  --color-link-quotation: #1d4ed8;
+  --color-link-inner: #047857;
+  --color-link-allusion: #b45309;
+  --color-link-candidate: #be123c;
 }
 
 [data-md-color-scheme="slate"] {
   --color-epoch-site: #93c5fd;
   --color-epoch-compare: #fda4af;
   --color-eighth-day: #6ee7b7;
+  --color-link-quotation: #93c5fd;
+  --color-link-inner: #6ee7b7;
+  --color-link-allusion: #fcd34d;
+  --color-link-candidate: #fda4af;
 }
 
 /* Material's content column is 61rem, but the viewer wants up to 1400px and holds wide tables and

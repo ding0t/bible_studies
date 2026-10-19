@@ -1,21 +1,22 @@
 {
   "name": "bible-end-times-astro",
   "type": "module",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Biblical studies with interactive timeline and dual calendar views (Gregorian & Zadok)",
   "engines": {
     "node": ">=22.12.0"
   },
   "scripts": {
     "build:events": "node scripts/build-events.js",
+    "build:links": "node scripts/build-links-index.js",
     "validate": "node scripts/validate-content.js",
-    "test": "node --test scripts/build-events.test.js && node --test scripts/validate-content.test.js && node src/utils/calendarConvert.test.js && node src/utils/bibleReference.test.js && node src/utils/chronology.test.js && node --test src/utils/scriptureRefs.test.js && node --test src/utils/cardReview.test.js && node --test src/utils/historyChart.test.js",
+    "test": "node --test scripts/build-events.test.js && node --test scripts/validate-content.test.js && node src/utils/calendarConvert.test.js && node src/utils/bibleReference.test.js && node src/utils/chronology.test.js && node --test src/utils/scriptureRefs.test.js && node --test src/utils/cardReview.test.js && node --test src/utils/historyChart.test.js && node --test src/utils/scriptureLinks.test.js",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css}\"",
     "format:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,json,css}\"",
-    "build:tools": "npm run build:events && esbuild src/entries/timeline.jsx src/entries/references.jsx src/entries/popups.js src/entries/hebrew-cards.js --bundle --format=esm --jsx=automatic --outdir=../docs/content/assets/js --minify",
-    "dev:tools": "npm run build:events && esbuild src/entries/timeline.jsx src/entries/references.jsx src/entries/popups.js src/entries/hebrew-cards.js --bundle --format=esm --jsx=automatic --outdir=../docs/content/assets/js --watch"
+    "build:tools": "npm run build:events && npm run build:links && esbuild src/entries/timeline.jsx src/entries/references.jsx src/entries/popups.js src/entries/hebrew-cards.js --bundle --format=esm --jsx=automatic --outdir=../docs/content/assets/js --minify",
+    "dev:tools": "npm run build:events && npm run build:links && esbuild src/entries/timeline.jsx src/entries/references.jsx src/entries/popups.js src/entries/hebrew-cards.js --bundle --format=esm --jsx=automatic --outdir=../docs/content/assets/js --watch"
   },
   "dependencies": {
     "js-yaml": "^4.3.2",

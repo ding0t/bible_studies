@@ -31,3 +31,6 @@ docs/content/assets/js/
 
 # Wrangler's local cache/account state from `wrangler deploy`
 .wrangler/
+
+# Written by app/scripts/build-links-index.js on every build from docs/data/scripture-links.json.
+docs/content/assets/popups/links.json

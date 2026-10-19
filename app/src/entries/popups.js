@@ -400,6 +400,14 @@ async function renderVerse(ref, withContext = false) {
       }, withContext ? 'Hide context' : 'Show context')
     );
   }
+  const linkCounts = ref.v1 !== undefined && ref.v1 === ref.v2 && ref.c1 === ref.c2 ? await scriptureLinksAt(`${ref.book} ${ref.c1}:${ref.v1}`) : null;
+  if (linkCounts) {
+    const [quotes, quoted] = linkCounts;
+    const said = [quotes ? `quotes or echoes ${quotes}` : null, quoted ? `quoted or echoed by ${quoted}` : null].filter(Boolean).join(' · ');
+    actions.append(
+      el('a', { class: 'pop-link', href: `${new URL('references/', SITE).href}#ref=${encodeURIComponent(`${ref.book} ${ref.c1}:${ref.v1}`)}`, title: said }, `Scripture links (${quotes + quoted})`)
+    );
+  }
   const chapterUrl = await commentaryUrl(ref);
   if (chapterUrl) actions.append(el('a', { class: 'pop-link', href: chapterUrl }, `${formatRef({ ...ref, v1: undefined, c2: ref.c1 })} commentary`));
 
@@ -453,6 +461,16 @@ async function loadStudies() {
     });
   }
   return studyIndex;
+}
+
+// links.json is written by scripts/build-links-index.js from the Scripture Links data: a verse is
+// listed only when that page has something to show for it.
+async function scriptureLinksAt(key) {
+  try {
+    return (await load('links.json'))[key] ?? null;
+  } catch {
+    return null;
+  }
 }
 
 async function studiesOn(ref) {

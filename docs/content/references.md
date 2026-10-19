@@ -1,11 +1,11 @@
 ---
 title: "Scripture Links"
 category: "other"
-description: "Look up a verse and see what it quotes, what quotes it, and what it echoes — with the shared wording shown, so you can judge each link rather than take it on trust."
+description: "Look up a verse and see what it quotes, what quotes it, and what it echoes, with the shared wording shown, then step back to a map of the books, a book-by-book table and the shape of the evidence."
 tags: ["cross-references", "septuagint", "method/textual-criticism", "tools"]
 draft: false
 date_created: 2026-09-04
-date_modified: 2026-09-04
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
 ---
@@ -23,6 +23,27 @@ you what the claim rests on.
 <div id="references-root"></div>
 
 <script type="module" src="/assets/js/references.js"></script>
+
+## Four ways in
+
+- **Look up a verse.** Type a verse or a whole chapter, with the book written in full or abbreviated. Every
+  connection lists the shared wording, and each verse it names opens in turn, so you can follow a quotation
+  from the New Testament back to its source and onward. A diagram beside the results draws the verse and its
+  neighbours, quoting verses on the left and quoted verses on the right.
+- **Map of the books.** Every book on a ring, a curve wherever one quotes or echoes another. Select a book
+  to light its curves and list its links. Flip the scope to **Old Testament parallels** and the ring shows
+  Kings and Chronicles, Samuel and the Chronicler, and the Pentateuch's repeated laws answering each other.
+- **Book by book.** The same links as a table of exact counts, for when you want to know how many times Luke
+  draws on Isaiah.
+- **The evidence.** How many links rest on each kind of evidence, how many of those no reference list carries,
+  and the verses the rest of Scripture comes back to most.
+
+Every view has an address, so a verse or a diagram can be shared as a link, and the back button retraces the
+verses you followed. The verse pop-ups that appear on every page of the site add a **Scripture links**
+button wherever a verse has something to show here.
+
+All four views are drawn from one data file. When the links are re-derived, the diagrams, the counts and the
+pop-up buttons follow without anyone redrawing them.
 
 !!! tip "Try Hebrews 10:5"
 
