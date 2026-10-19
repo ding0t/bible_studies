@@ -100,8 +100,8 @@ wisdom/
 ```
 
 Nineteen top-level entries sounds like a lot, so the sidebar groups them under five captions:
-**Topics** (the doctrinal sections), **Explore** (Scripture Links, the Prophetic Timeline and the
-Commentaries), **Learn** (Hebrew, Greek and the Glossary), **Teaching and writing**, and **About
+**Topics** (the doctrinal sections and the Commentaries), **Explore** (Scripture Links and the
+Prophetic Timeline), **Learn** (Hebrew, Greek and the Glossary), **Teaching and writing**, and **About
 this site**. `navigation.sections` in `mkdocs.yml` draws the captions, and `navigation.prune` keeps
 the sidebar to the branch you are actually in. A caption is a title in the root `.pages` file and
 adds no directory, so no URL carries it.
@@ -131,7 +131,8 @@ nav:
     - feasts
     - christian-life
     - wisdom
-  - Explore: [references.md, timeline.md, commentaries]
+    - commentaries
+  - Explore: [references.md, timeline.md]
   - Learn: [hebrew, greek, glossary.md]
   - Teaching and writing: [teaching, blog]
   - About this site: [faq.md, resources, about]
