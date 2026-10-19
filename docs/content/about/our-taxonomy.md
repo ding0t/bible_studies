@@ -99,10 +99,10 @@ sin/                spiritual-beings/   teaching/
 wisdom/
 ```
 
-Nineteen top-level entries sounds like a lot, so the sidebar groups them under five captions:
-**Topics** (the doctrinal sections and the Commentaries), **Explore** (Scripture Links and the
-Prophetic Timeline), **Learn** (Hebrew, Greek and the Glossary), **Teaching and writing**, and **About
-this site**. `navigation.sections` in `mkdocs.yml` draws the captions, and `navigation.prune` keeps
+Nineteen top-level entries sounds like a lot, so the sidebar groups them under four captions:
+**Topics** (the doctrinal sections, Teaching and the Commentaries), **Explore** (Scripture Links and
+the Prophetic Timeline), **Learn** (Hebrew, Greek and the Glossary), and **About this site** (the
+FAQ, Resources, About and the Blog). `navigation.sections` in `mkdocs.yml` draws the captions, and `navigation.prune` keeps
 the sidebar to the branch you are actually in. A caption is a title in the root `.pages` file and
 adds no directory, so no URL carries it.
 
@@ -131,11 +131,11 @@ nav:
     - feasts
     - christian-life
     - wisdom
+    - teaching
     - commentaries
   - Explore: [references.md, timeline.md]
   - Learn: [hebrew, greek, glossary.md]
-  - Teaching and writing: [teaching, blog]
-  - About this site: [faq.md, resources, about]
+  - About this site: [faq.md, resources, about, blog]
 ```
 
 ### Reserved, not yet created
