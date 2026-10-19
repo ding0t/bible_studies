@@ -38,7 +38,7 @@ title: "The Feasts of the Lord"
 
 - Groups studies together on the studies page
 - If omitted, defaults to "other"
-- Common categories: `prophecy`, `theology`, `spiritual-disciplines`, `sins`, `feasts`, `sermons`, etc.
+- Common categories: `prophecy`, `theology`, `spiritual-disciplines`, `sins`, `feasts`, `teaching`, etc.
 
 ```yaml
 category: "prophecy"
@@ -238,7 +238,7 @@ When referencing images in your markdown files, use the correct relative paths:
 
 The path depends on how deep your file is in the directory structure. Count the levels from your file to `docs/`, then add `assets/img/`:
 
-**From `docs/content/sermons/file.md` (2 levels deep):**
+**From `docs/content/teaching/file.md` (2 levels deep):**
 
 ```markdown
 ![Description](../../assets/img/image-name.jpg)
@@ -330,7 +330,7 @@ Common existing categories:
 - `spiritual-disciplines` - Prayer, fasting, etc.
 - `sins` - Sin and redemption
 - `feasts` - Biblical feasts and seasons
-- `sermons` - Sermon notes and presentations
+- `teaching` - Preparing to teach, teaching material and sermon notes
 - `hebrew-studies` - Hebrew language and culture
 - `dreams` / `dreams-visions` - Dreams and visions
 - `teaching-resources` - Teaching materials

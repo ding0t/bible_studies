@@ -27,7 +27,7 @@ COMMENTARIES_DIR = CONTENT_DIR / "commentaries"
 # Subject sections scanned for primary_passage/bible_references, per
 # docs/content/about/our-taxonomy.md. This is an explicit allow-list rather than
 # "every directory under content/" on purpose: scanning the whole tree would pull
-# in about/, commentaries/, resources/ and sermons/ and start cross-referencing
+# in about/, commentaries/, resources/ and teaching/ and start cross-referencing
 # the site's own meta pages. Add a line here when a new subject section is created.
 SUBJECT_DIRS = [
     "scripture",

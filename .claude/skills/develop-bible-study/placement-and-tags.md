@@ -27,7 +27,7 @@ Named from the systematic-theology loci in plain English:
 | `feasts/` | *Appointed times* | The feasts and calendars |
 | `christian-life/` | Practical theology | Prayer, fasting, the disciplines |
 | `commentaries/<nn>-<book>/` | — | Book studies and chapter notes, filed by book |
-| `sermons/` | Homiletics | Sermon and teaching material |
+| `teaching/` | Homiletics | Teaching the Bible to others: preparing to teach, teaching material, sermon notes |
 | `blog/` | — | The author's personal notes and testimony (dream accounts); not studies |
 | `resources/` | — | Guides to external material |
 

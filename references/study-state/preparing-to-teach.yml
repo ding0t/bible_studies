@@ -1,0 +1,115 @@
+slug: preparing-to-teach
+title: "Preparing to Teach: Study, Do, Teach"
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: docs/content/teaching/preparing-to-teach.md
+last_updated: 2026-10-19
+primary_passage: "Ezra 7:10"
+genre: "topical (OT narrative, pastoral epistles)"
+origin: >
+  Merges the author's Sermon Principles (sermons/sermon-howto.md, seven one-line principles, kept as
+  the section's structure) and On Teaching (sermons/on-teaching.md, one external link on lay
+  accountability), both drafted 2026-10-19 for rewrite. Redirects from both old paths.
+thesis: >
+  Ezra studied God's Law, did it, and then taught it, in that order; a teacher in the church follows
+  the same order, teaches plainly from the verses, points to Christ, and answers to God for it.
+sibling_studies:
+  - {slug: scripture/how-to-read-the-bible, use: link, note: "Owns the method of exegesis before application."}
+  - {slug: scripture/scribe-trained-for-the-kingdom, use: link, note: "Matthew 13:52."}
+  - {slug: christian-life/test-the-spirits, use: link}
+  - {slug: christian-life/know-the-truth, use: link}
+contested_marked:
+  - "Nehemiah 8:8 meforash: 'clearly' or 'translating' (LSB footnote); both stated."
+author_decisions_open:
+  - "Principle 5 keeps the author's 'do not apologise' as 'does not apologise for what God has said', paired with 2 Timothy 2:24-25 on manner."
+evidence:
+  - {id: 1tim4-16, what: "ESV 1 Tim 4:16", tool: study_verse, args: {book: 1Tim, chapter: 4, verse: 16, work_id: esv-study-bible}, expect_contains: "Keep a close watch on yourself and on the teaching", checked: 2026-10-19}
+  - {id: ezra7-10, what: "ESV Ezra 7:10", tool: study_verse, args: {book: Ezra, chapter: 7, verse: 10, work_id: esv-study-bible}, expect_contains: "set his heart to study the Law of the LORD, and to do it and to teach", checked: 2026-10-19}
+  - {id: ezra7-6, what: "ESV Ezra 7:6", tool: study_verse, args: {book: Ezra, chapter: 7, verse: 6, work_id: esv-study-bible}, expect_contains: "a scribe skilled in the Law of Moses", checked: 2026-10-19}
+  - {id: neh8-8, what: "ESV Neh 8:8", tool: study_verse, args: {book: Neh, chapter: 8, verse: 8, work_id: esv-study-bible}, expect_contains: "so that the people understood the reading", checked: 2026-10-19}
+  - {id: lk24-27, what: "ESV Luke 24:27", tool: study_verse, args: {book: Luke, chapter: 24, verse: 27, work_id: esv-study-bible}, expect_contains: "he interpreted to them in all the Scriptures the things concerning himself", checked: 2026-10-19}
+  - {id: mt23-8, what: "ESV Matt 23:8", tool: study_verse, args: {book: Matt, chapter: 23, verse: 8, work_id: esv-study-bible}, expect_contains: "you have one teacher, and you are all brothers", checked: 2026-10-19}
+  - {id: mt28-20, what: "ESV Matt 28:20", tool: study_verse, args: {book: Matt, chapter: 28, verse: 20, work_id: esv-study-bible}, expect_contains: "teaching them to observe all that I have commanded you", checked: 2026-10-19}
+  - {id: 1co2-2, what: "ESV 1Cor 2:2", tool: study_verse, args: {book: 1Cor, chapter: 2, verse: 2, work_id: esv-study-bible}, expect_contains: "except Jesus Christ and him crucified", checked: 2026-10-19}
+  - {id: 2ti2-15, what: "ESV 2Tim 2:15", tool: study_verse, args: {book: 2Tim, chapter: 2, verse: 15, work_id: esv-study-bible}, expect_contains: "rightly handling the word of truth", checked: 2026-10-19}
+  - {id: jas3-1, what: "ESV Jas 3:1", tool: study_verse, args: {book: Jas, chapter: 3, verse: 1, work_id: esv-study-bible}, expect_contains: "we who teach will be judged with greater strictness", checked: 2026-10-19}
+  - {id: col3-16, what: "ESV Col 3:16", tool: study_verse, args: {book: Col, chapter: 3, verse: 16, work_id: esv-study-bible}, expect_contains: "teaching and admonishing one another in all wisdom", checked: 2026-10-19}
+  - {id: heb5-12, what: "ESV Heb 5:12", tool: study_verse, args: {book: Heb, chapter: 5, verse: 12, work_id: esv-study-bible}, expect_contains: "by this time you ought to be teachers", checked: 2026-10-19}
+  - {id: rom12-7, what: "ESV Rom 12:7", tool: study_verse, args: {book: Rom, chapter: 12, verse: 7, work_id: esv-study-bible}, expect_contains: "the one who teaches, in his teaching", checked: 2026-10-19}
+  - {id: 2ti2-2, what: "ESV 2Tim 2:2", tool: study_verse, args: {book: 2Tim, chapter: 2, verse: 2, work_id: esv-study-bible}, expect_contains: "who will be able to teach others also", checked: 2026-10-19}
+  - {id: acts18-25, what: "ESV Acts 18:25", tool: study_verse, args: {book: Acts, chapter: 18, verse: 25, work_id: esv-study-bible}, expect_contains: "though he knew only the baptism of John", checked: 2026-10-19}
+  - {id: acts18-26, what: "ESV Acts 18:26", tool: study_verse, args: {book: Acts, chapter: 18, verse: 26, work_id: esv-study-bible}, expect_contains: "took him aside and explained to him the way of God more accurately", checked: 2026-10-19}
+  - {id: acts18-27, what: "ESV Acts 18:27", tool: study_verse, args: {book: Acts, chapter: 18, verse: 27, work_id: esv-study-bible}, expect_contains: "greatly helped those who through grace had believed", checked: 2026-10-19}
+  - {id: titus1-9, what: "ESV Titus 1:9", tool: study_verse, args: {book: Titus, chapter: 1, verse: 9, work_id: esv-study-bible}, expect_contains: "hold firm to the trustworthy word as taught", checked: 2026-10-19}
+  - {id: acts6-4, what: "ESV Acts 6:4", tool: study_verse, args: {book: Acts, chapter: 6, verse: 4, work_id: esv-study-bible}, expect_contains: "devote ourselves to prayer and to the ministry of the word", checked: 2026-10-19}
+  - {id: col4-4, what: "ESV Col 4:4", tool: study_verse, args: {book: Col, chapter: 4, verse: 4, work_id: esv-study-bible}, expect_contains: "that I may make it clear, which is how I ought to speak", checked: 2026-10-19}
+  - {id: 2ti3-16, what: "ESV 2Tim 3:16", tool: study_verse, args: {book: 2Tim, chapter: 3, verse: 16, work_id: esv-study-bible}, expect_contains: "All Scripture is breathed out by God and profitable for teaching", checked: 2026-10-19}
+  - {id: 1pe4-11, what: "ESV 1Pet 4:11", tool: study_verse, args: {book: 1Pet, chapter: 4, verse: 11, work_id: esv-study-bible}, expect_contains: "as one who speaks oracles of God", checked: 2026-10-19}
+  - {id: pr3-6, what: "ESV Prov 3:6", tool: study_verse, args: {book: Prov, chapter: 3, verse: 6, work_id: esv-study-bible}, expect_contains: "he will make straight your paths", checked: 2026-10-19}
+  - {id: acts17-11, what: "ESV Acts 17:11", tool: study_verse, args: {book: Acts, chapter: 17, verse: 11, work_id: esv-study-bible}, expect_contains: "examining the Scriptures daily to see if these things were so", checked: 2026-10-19}
+  - {id: col1-28, what: "ESV Col 1:28", tool: study_verse, args: {book: Col, chapter: 1, verse: 28, work_id: esv-study-bible}, expect_contains: "Him we proclaim, warning everyone and teaching everyone with all wisdom", checked: 2026-10-19}
+  - {id: mt13-52, what: "ESV Matt 13:52", tool: study_verse, args: {book: Matt, chapter: 13, verse: 52, work_id: esv-study-bible}, expect_contains: "brings out of his treasure what is new and what is old", checked: 2026-10-19}
+  - {id: 2ti4-3, what: "ESV 2Tim 4:3", tool: study_verse, args: {book: 2Tim, chapter: 4, verse: 3, work_id: esv-study-bible}, expect_contains: "having itching ears they will accumulate for themselves teachers", checked: 2026-10-19}
+  - {id: acts20-27, what: "ESV Acts 20:27", tool: study_verse, args: {book: Acts, chapter: 20, verse: 27, work_id: esv-study-bible}, expect_contains: "I did not shrink from declaring to you the whole counsel of God", checked: 2026-10-19}
+  - {id: 2ti2-24, what: "ESV 2Tim 2:24", tool: study_verse, args: {book: 2Tim, chapter: 2, verse: 24, work_id: esv-study-bible}, expect_contains: "must not be quarrelsome but kind to everyone, able to teach", checked: 2026-10-19}
+  - {id: 1pe3-15, what: "ESV 1Pet 3:15", tool: study_verse, args: {book: 1Pet, chapter: 3, verse: 15, work_id: esv-study-bible}, expect_contains: "with gentleness and respect", checked: 2026-10-19}
+  - {id: 1co14-9, what: "ESV 1Cor 14:9", tool: study_verse, args: {book: 1Cor, chapter: 14, verse: 9, work_id: esv-study-bible}, expect_contains: "For you will be speaking into the air", checked: 2026-10-19}
+  - {id: orthotomeo-count, what: "G3718 once in NT (2Tim 2:15), twice in LXX (Prov 3:6; 11:5)", tool: bible_concordance, args: {strongs: G3718}, expect_contains: "Prov", checked: 2026-10-19}
+  - {id: neh8-8-lsb-fn, what: "LSB footnote Neh 8:8 Or translating", tool: study_note, args: {book: Neh, chapter: 8, verse: 8, note_type: footnote}, expect_contains: "Or translating", checked: 2026-10-19}
+  - {id: ezra7-10-lsb-fn, what: "LSB footnote Ezra 7:10 Lit seek", tool: study_note, args: {book: Ezra, chapter: 7, verse: 10, note_type: footnote}, expect_contains: "Lit seek", checked: 2026-10-19}
+  - {id: g3718-count, what: "G3718 three occurrences in all: 2Tim 2:15, Prov 3:6, Prov 11:5", tool: bible_concordance, args: {strongs: G3718, count_only: true}, expect_contains: "3", checked: 2026-10-19}
+  - {id: lxx-pr3-6, what: "LXX Prov 3:6: know her, that she may cut your ways straight", tool: bible_verse, args: {book: Prov, chapter: 3, verse: 6, translation: ebible-grcbrent}, expect_contains: "γνώριζε αὐτὴν, ἵνα ὀρθοτομῇ τὰς ὁδούς σου", checked: 2026-10-19}
+  - {id: lxx-pr11-5, what: "LXX Prov 11:5: righteousness cuts straight ways", tool: bible_verse, args: {book: Prov, chapter: 11, verse: 5, translation: ebible-grcbrent}, expect_contains: "Δικαιοσύνη ἀμώμους ὀρθοτομεῖ ὁδοὺς", checked: 2026-10-19}
+  - {id: esv-pr11-5, what: "ESV Prov 11:5 subject is righteousness", tool: study_verse, args: {book: Prov, chapter: 11, verse: 5, work_id: esv-study-bible}, expect_contains: "The righteousness of the blameless keeps his way straight", checked: 2026-10-19}
+  - {id: acts18-27-welcome, what: "ESV Acts 18:27 brothers wrote to welcome him", tool: study_verse, args: {book: Acts, chapter: 18, verse: 27, work_id: esv-study-bible}, expect_contains: "the brothers encouraged him and wrote to the disciples to welcome him", checked: 2026-10-19}
+  - {id: acts18-24, what: "ESV Acts 18:24", tool: study_verse, args: {book: Acts, chapter: 18, verse: 24, work_id: esv-study-bible}, expect_contains: "He was an eloquent man, competent in the Scriptures.", checked: 2026-10-19}
+  - {id: acts18-3, what: "ESV Acts 18:3", tool: study_verse, args: {book: Acts, chapter: 18, verse: 3, work_id: esv-study-bible}, expect_contains: "for they were tentmakers by trade", checked: 2026-10-19}
+  - {id: col4-3, what: "ESV Col 4:3 (prison, door for the word)", tool: study_verse, args: {book: Col, chapter: 4, verse: 3, work_id: esv-study-bible}, expect_contains: "that God may open to us a door for the word", checked: 2026-10-19}
+  - {id: 2ti4-2, what: "ESV 2Tim 4:2", tool: study_verse, args: {book: 2Tim, chapter: 4, verse: 2, work_id: esv-study-bible}, expect_contains: "preach the word; be ready in season and out of season; reprove, rebuke, and exhort, with complete patience and teaching", checked: 2026-10-19}
+  - {id: 2ti2-25, what: "ESV 2Tim 2:25", tool: study_verse, args: {book: 2Tim, chapter: 2, verse: 25, work_id: esv-study-bible}, expect_contains: "correcting his opponents with gentleness. God may perhaps grant them repentance leading to a knowledge of the truth", checked: 2026-10-19}
+  - {id: ezra7-9-reason, what: "Ezra 7:9 'for the good hand of his God was on him' precedes 7:10's 'For'", tool: study_verse, args: {book: Ezra, chapter: 7, verse: 9, work_id: esv-study-bible}, expect_contains: "for the good hand of his God was on him", checked: 2026-10-19}
+  - {id: ezra7-25-teach, what: "Ezra 7:25 commission to teach", tool: study_verse, args: {book: Ezra, chapter: 7, verse: 25, work_id: esv-study-bible}, expect_contains: "And those who do not know them, you shall teach", checked: 2026-10-19}
+  - {id: ezra7-10-heb, what: "WLC Ezra 7:10 forms: הֵכִין לְבָבוֹ, לִדְרוֹשׁ, וְלַעֲשֹׂת, וּלְלַמֵּד (H3559, H3824, H1875, H6213, H3925)", tool: bible_interlinear, args: {book: Ezra, chapter: 7, verse: 10}, expect_contains: "H3925", checked: 2026-10-19}
+  - {id: neh8-8-heb, what: "Neh 8:8 מְפֹרָשׁ H6567", tool: bible_interlinear, args: {book: Neh, chapter: 8, verse: 8}, expect_contains: "H6567", checked: 2026-10-19}
+  - {id: jas3-1-grk, what: "Jas 3:1 μεῖζον κρίμα G3187 G2917, first plural λημψόμεθα", tool: bible_interlinear, args: {book: Jas, chapter: 3, verse: 1}, expect_contains: "λημψόμεθα", checked: 2026-10-19}
+review_2026-10-19:
+  scope: "review-bible-study, all eight phases, on the merged draft (2,305 words before fixes; budget 4,000)."
+  verified: >
+    All 30 ESV quotations re-queried in full against study-notes.db (verbatim, references and labels
+    correct). Hebrew forms and Strong's numbers of Ezra 7:10 and Nehemiah 8:8 against WLC/MACULA; Greek
+    meizon krima and orthotomounta against SBLGNT; G3718 concordance (NT once, LXX Prov 3:6 and 11:5);
+    LSB footnotes at Ezra 7:10 and Neh 8:8. Commentary cross-check: ESV Study Bible and NIV Biblical
+    Theology Study Bible on Ezra 7:10 and Neh 8:8 confirm the study-do-teach reading and the
+    translation option. Statement of faith: consistent (Scripture's authority, Acts 17:11). All four
+    internal links resolve to published pages.
+  fixed:
+    - "Critical: 'The Septuagint uses it twice, of God making a path straight' was false. LXX Prov 11:5 has righteousness as subject; LXX Prov 3:6 has 'know her' (wisdom) so that she cuts the ways straight, and the ESV quoted translates the Hebrew. Rewritten to say so."
+    - "Acts 18: 'He received it' is not in the text; replaced with what 18:27 says (the brothers wrote ahead to welcome him)."
+    - "bible_references: added Proverbs 11:5, which the prose cites."
+    - "Linked sibling scripture/scribes-and-pharisees.md (cites Ezra 7:6-11 and Neh 8:8, treats meforash), previously unlinked."
+  open_for_author:
+    - "Principle 4 and the prayer say every passage shows Jesus; Luke 24:27 supports 'all the Scriptures concern Him', and 'every passage' is an extension. Mark as a hermeneutical position or narrow it."
+    - "Types & Prophecy calls Ezra a 'Picture' of Christ opening the Scriptures; Scripture does not draw the type. Consider relabelling as a parallel."
+    - "1 Peter 3:15 is about answering outsiders who ask for your hope, not correcting error; its use in principle 5 is a stretch."
+    - "'Any brother or sister who can show him the text' (Acts 18:26) states what Priscilla did; confirm the author is content that it does not read as taking a side on women teaching (1 Timothy 2:12), which the page does not argue."
+    - "Lead: 1 Timothy 4:16 ('watch on yourself and on the teaching'), cited by the ESV Study Bible on Ezra 7:10, supports the do-before-teach order directly."
+    - "Optional: LSB footnotes James 3:1 'Or greater condemnation'."
+  validate: "No errors on this file; only the three expected missing-provenance warnings."
+read_2026-10-19:
+  scope: "read-bible-study on the reviewed draft (uncommitted, just moved sermons/ -> teaching/). Structure only; no sentence changed."
+  measured: "Sections 20 -> 23; median 59 -> 70 words (empty/short Key Takeaways sub-sections dominate); longest 300 -> 200; over 400 words: 0 -> 0; walls: 0 -> 0."
+  changes:
+    - "Study, do, teach: added '### *Meforash*: \"clearly\", or \"translating\"' over the Nehemiah 8:8 paragraph, so the contested reading is findable (rule 5)."
+    - "Who should teach (300 words, three ideas): added '### James 3:1: a greater judgment' and '### Apollos: teaching under correction'; the every-believer paragraph stays as the section's opening. Makes findable what the description promises (James 3:1 for a teacher who is not a pastor)."
+  verified: "diff against a pre-pass copy shows only the three heading lines (and blank lines) added; no prose line removed or changed. No directional references or in-page anchors in the file; no inbound anchor links."
+  not_done:
+    - "No Study outline: the page is under Check 22's 2,500-word bar."
+    - "Principle 2 (200 words) carries the orthotomeo word study; a sub-heading would serve the word-study reader but adds a fourth heading level inside a numbered list. Left for the author."
+  validate: "No errors on this file; only the three expected missing-provenance warnings."
+
+author_rulings_2026-10-19:
+  - "Principle 4: 'every passage points to Christ' kept, marked as the position the page holds (read first for Christ, then for what it asks of you), grounded on Luke 24:27."
+  - "Ezra relabelled 'Parallel' (Scripture draws no type)."
+  - "1 Peter 3:15 dropped from principle 5 (context is answering outsiders)."
+  - "Apollos: noted the manner (together, private, respectful) and pointed the women-teaching question to submission-in-context#the-two-readings, unsettled here."
+  - "1 Timothy 4:16 added to 'Study, do, teach'."
+  - "Section renamed sermons/ -> teaching/ before first publish."

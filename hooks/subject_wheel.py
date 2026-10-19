@@ -35,7 +35,7 @@ _DESCRIPTION = re.compile(r'^description:\s*"?(.*?)"?\s*$', re.MULTILINE)
 # no wedge labelled "God" stands apart from the Son and the Spirit. Then roughly the order the story
 # of Scripture meets the rest: the beings God made, the fall, the people and nation He worked
 # through, the feasts that pictured His Son, what the Son won, the life that follows, and the end.
-# about/, resources/, sermons/ and commentaries/ are left off: they are a kind of page, not a subject.
+# about/, resources/, teaching/ and commentaries/ are left off: they are a kind of page, not a subject.
 _SECTIONS = (
     ("god", ("God the", "Father")),
     ("jesus", ("Jesus",)),

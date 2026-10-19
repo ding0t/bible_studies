@@ -74,7 +74,7 @@ the Holy Spirit as peers.
 | **Wisdom** | *Wisdom literature* | 223 | What Proverbs, Ecclesiastes, Job, the Song of Songs and James teach about living skilfully before God, and personal reflections from reading them |
 | **Feasts** | *Appointed times* | 263 | The biblical feasts and calendars: their Old Testament instruction, their observance, and their fulfilment |
 | **Biblical figures** | *(Biography)* | — | Studies of particular people in Scripture — the twelve disciples, the patriarchs, the prophets, the kings |
-| **Sermons** | Homiletics | 251, 252 | Sermon notes, teaching material, and guidance on preparing to teach |
+| **Teaching** | Homiletics | 251, 252 | Teaching the Bible to others: guidance on preparing to teach, teaching material, and sermon notes |
 | **Blog** | — | — | The author's personal notes and testimony, kept apart from the studies: dream accounts first |
 | **Learn Hebrew** | — | 492.4 | A course in reading the Hebrew Bible, taken in order: the alphabet and vowels, pronunciation, printable writing sheets and word cards |
 | **Learn Greek** | — | 487 | The Greek alphabet of the New Testament, its pronunciation and uncial script, and printable word cards |
@@ -95,7 +95,7 @@ christian-life/     chronology/         commentaries/
 feasts/             god/                holy-spirit/
 israel-and-church/  jesus/              last-things/
 resources/          salvation/          scripture/
-sermons/            sin/                spiritual-beings/
+sin/                spiritual-beings/   teaching/
 wisdom/
 ```
 
@@ -126,7 +126,7 @@ nav:
   - christian-life
   - biblical-figures
   - commentaries
-  - sermons
+  - teaching
   - blog
   - resources
   - about

@@ -47,7 +47,7 @@ SECTION_BLURBS = {
     "holy-spirit/dreams-and-visions": "How God has spoken through dreams and visions, and how to tell those from the counterfeits.",
     "blog": "The author's personal notes and testimony, kept apart from the studies.",
     "commentaries": "Verse-by-verse commentary, organized by book, with auto-linked studies (see commentary_index.py).",
-    "sermons": "Sermon notes, teaching material, and guidance on preparing to teach.",
+    "teaching": "Teaching the Bible to others: preparing to teach, teaching material and sermon notes.",
     "greek": "The Greek alphabet of the New Testament, and printable word cards of the Holy Spirit's names.",
     "hebrew": "A course in reading the Hebrew Bible, taken in order: the letters, the sounds, and the names of God.",
     "resources": "External sources, tools, and datasets this project draws on.",
