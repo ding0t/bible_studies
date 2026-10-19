@@ -3,9 +3,9 @@ title: "On Teaching"
 category: "other"
 description: "Biblical principles for laypersons teaching in the church"
 tags: ["audience/teaching", "church", "doctrine"]
-draft: false
+draft: true
 date_created: 2024-05-24
-date_modified: 2026-08-23
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-sonnet-5

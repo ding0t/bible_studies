@@ -3,9 +3,9 @@ title: "Foundations for Studying the Word"
 category: "sermons"
 description: "Foundational principles for approaching biblical study with a prophetic perspective"
 tags: ["prophecy", "doctrine", "audience/teaching", "foundations"]
-draft: false
+draft: true
 date_created: 2025-04-24
-date_modified: 2026-09-27
+date_modified: 2026-10-19
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
