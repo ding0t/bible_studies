@@ -261,3 +261,14 @@ judgment_calls_2026-10-20:
     - "Genesis 12:3 to Jesus now goes through Genesis 12:2 (Abram's great name) and Galatians 3:8, 16."
     - "saphah: rim/shore sense no longer carried into Genesis 11; Genesis 9:1 background added with link to the population study; 'Hold your own tongue loosely' -> 'language'; Prophecy takeaway rewritten in devotional register."
   verified: "ESV Genesis 5:1, 9:1, 12:2; Galatians 3:8, 16; Acts 2:1 via study_verse; sepher H5612a at Genesis 5:1 via interlinear."
+
+simulation_2026-10-20:
+  asked: "Author asked for (1) the minimum-count insight added to the study and (2) an original test: can lineages begun at Babel reach today's family sizes?"
+  script: "utils/simulate_language_families.py -> docs/data/language-simulation.json (seed 11, 60 runs per fitted model); chart growing-the-families.svg"
+  method: "421 founders at 2103 BC; each lineage's size drawn from Kendall's (1948) exact birth-death distribution; founder net rates lognormal (median, spread) capped at the Romance rate; death/birth ratio searched; N0 set so expected surviving lineages = 421; loss = squared log error over 8 statistics, medians across runs."
+  results:
+    homogeneous: "Fails: ~22 isolates (obs 183), 399 families (238), largest ~118 (1,408), median family 14 (5); inside 10-90% band at 31 of 421 ranks."
+    varied: "Fits: median rate 0.00023/yr, log-spread 0.75, no deaths, 421 founders; 163 isolates, 258 families, median family 4; inside band at 328 of 421 ranks. Top ranks erratic (largest 500 to 66,779 across 10-90%)."
+    required: "From one Babel language, Atlantic-Congo needs a doubling every 395 yr, Austronesian 400, Indo-European 449, Sino-Tibetan 458, Afro-Asiatic 482; Romance recorded 255."
+  limits: "Three free settings fitted to the data: shows reachability, not causation. Mainstream explains the same shape by the same expansions, so the test does not discriminate between histories. Counts include recorded extinct languages."
+  minimum_count: "Decay test => every unrelated lineage needs its own Babel language => at least 429 (stated) Babel languages; ~23 speakers each on the population study's 10,000. Replaces the '70 vs 429 open tension' weak point."

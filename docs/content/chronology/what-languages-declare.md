@@ -91,7 +91,7 @@ confesses that Jesus Christ is Lord. In Jesus' name. Amen.
   Genesis 10 as the result, Genesis 11 as the cause, the Hebrew of "one lip," and what Genesis 10 does
   not claim to be.
 - **[Part two: what the languages say](#part-two-what-the-languages-say).** The evidence from outside Scripture, with four charts, in three steps and then its limits:
-    - *Today's languages against the Bible's timescale* — [429 lineages and no common trunk](#429-lineages-and-no-common-trunk) · [The decay test](#the-decay-test).
+    - *Today's languages against the Bible's timescale* — [429 lineages and no common trunk](#429-lineages-and-no-common-trunk) · [The decay test](#the-decay-test) · [How many languages Babel made](#how-many-languages-babel-made).
     - *The long-ancestry alternative and what it costs* — [How fast tongues multiply](#how-fast-tongues-multiply) · [Two more facts to weigh](#two-more-facts-to-weigh).
     - *The written record* — [The first written witnesses](#the-first-written-witnesses) · [Speech and writing](#speech-and-writing-have-different-family-trees).
     - [Where this argument is weak](#where-this-argument-is-weak).
@@ -227,6 +227,39 @@ of magnitude. The conclusion survives the dispute: no published rate leaves 4,00
 looking like chance. **Within the Bible's chronology, the shape of the world's languages requires
 Babel.**
 
+### How many languages Babel made
+
+The decay test also counts. Two languages descended from one Babel language would still share a
+fifth of their core words today, and the comparative method would join them. So every lineage with
+no relative goes back to a language of its own at Babel. **Babel produced at least 429 mutually
+unrelated languages**, and more if some lineages have since died out unrecorded.
+
+That settles which way the count in Genesis 10 runs. Seventy nations cannot each have had one
+language. Genesis ties the languages to clans: "each with his own language, by their clans, in their
+nations" (Genesis 10:5, ESV). The population study models about 10,000 people at the dispersal, and
+429 languages among them is about 23 speakers each, the size of an extended household. A language
+for each clan is the plain reading of Genesis 10:5, and the arithmetic points the same way. Both
+figures rest on models, so this is a strong inference, and it stays an inference.
+
+Could lineages begun together at Babel grow to today's sizes? A simulation tested it. It started the
+421 lineages in Glottolog's data at about 2103 BC and drew each one's growth from the exact formula
+for languages splitting and dying at set rates (D. G. Kendall, 1948).
+
+[![Rank-size plot of the 421 language lineages in Glottolog's data against two Babel models that start them all c. 2103 BC. If every people's languages grew at one rate, the largest lineage would hold about 118 languages and there would be about 22 isolates; the world has 1,408 and 183. If peoples grew unevenly, the model's band contains the observed lineage at 328 of 421 ranks. The largest family needs a doubling every 395 years, slower than Romance's 255.](../assets/img/what-languages-declare/growing-the-families.svg)](../assets/img/what-languages-declare/growing-the-families.svg)
+
+If every people's languages grew at one rate, the result looks nothing like the world: about 22
+isolates against 183, and a largest family near 120 against 1,408. Equal growth from Babel fails. If
+peoples grew unevenly, most staying put and a few spreading far, the model matches the real
+lineages at 328 of 421 ranks. The largest family, Atlantic-Congo, needs its languages to double
+every 395 years from one Babel language. Romance doubled every 255. No family needs a faster pace
+than history records.
+
+Uneven growth is what history shows. The Bantu and Austronesian expansions carried two families
+across much of Africa and the Pacific. The mainstream account uses the same expansions to explain
+the same shape, so this test does not choose between the two histories. It shows that the Babel
+model survives the family sizes, and what it requires: hundreds of languages at the start, and
+peoples who spread at very different speeds.
+
 ### How fast tongues multiply
 
 That leaves the second model, a long common ancestry. It escapes the decay test with time. The time
@@ -311,9 +344,10 @@ act on the spoken word and nowhere else.
 - **The decay test is neutral between Babel and deep time.** It rules out a young, gradual
   history. Against a long one, the argument rests on growth rates and the written record, and those
   show fit, which is weaker than proof.
-- **Seventy and 429.** If Babel produced about seventy languages, the world has six times as many
-  unrelated lineages. Genesis never numbers the languages, and clans could hold their own (Genesis
-  10:5). The tension is real and the text leaves it open.
+- **The count and the simulation are models.** The floor of 429 Babel languages rests on the decay
+  rates, and the 23 speakers each on the population study's headcount. The simulation fits three
+  free settings to the data, so its good fit shows the family sizes are reachable from Babel; it
+  cannot show that this is how they arose.
 - **Indo-European is the hardest case.** Hittite and Luwian names were already distinct at Kanesh by
   about 1900 BC, two or three centuries after Peleg's birth on the Masoretic dates. The current
   Bayesian estimate puts the family's first split about 8,100 years ago (Heggarty and others, 2023).
@@ -414,8 +448,9 @@ oracle bones of about 1250 BC, are also later than Moses. This study leaves the 
    tower?
 3. **Christ.** Revelation 5:9 sings that the Lamb ransomed people "from every tribe and language."
    How does Babel shape the way you hear that song?
-4. **The hard part.** Genesis 10 lists seventy nations "each with his own language," and the world
-   holds 429 unrelated lineages. How do you hold a count Genesis gives beside one it never gives?
+4. **The hard part.** Genesis 11:9 says the LORD confused "the language of all the earth," and the
+   linguists' clock puts Indo-European's first split about 8,100 years ago. How do you weigh a clock
+   built outside Scripture against Scripture's own chronology?
 5. **Be transformed.** At Babel people built to make a name for themselves (Genesis 11:4). Where are
    you building a name, and what would it look like to make Jesus' name known in its place?
 
@@ -431,6 +466,10 @@ oracle bones of about 1250 BC, are also later than Moses. This study leaves the 
 - **Glottolog 5.3** (Hammarström, Forkel, Haspelmath & Bank, 2026) —
   [glottolog.org](https://glottolog.org/glottolog/glottologinformation): 7,674 spoken first
   languages, 246 families, 183 isolates; family sizes from the glottolog-cldf v5.3 data release.
+- **D. G. Kendall**, "On the Generalized 'Birth-and-Death' Process," *Annals of Mathematical
+  Statistics* 19 (1948) 1-15 — the lineage-size formula behind the simulation, which is
+  `utils/simulate_language_families.py` in this site's repository, with its results in
+  `docs/data/language-simulation.json`.
 - **R. B. Lees**, "The Basis of Glottochronology," *Language* 29 (1953) 113-127.
 - **M. Swadesh**, "Towards Greater Accuracy in Lexicostatistic Dating," *International Journal of
   American Linguistics* 21 (1955) 121-137.

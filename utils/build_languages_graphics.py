@@ -363,10 +363,94 @@ def first_writing():
     return "\n".join(out)
 
 
+def growing_families():
+    sim = json.loads((ROOT / "docs" / "data" / "language-simulation.json").read_text(encoding="utf-8"))
+    obs = sim["observed_ranks"]
+    n = len(obs)
+    x0, x1, y0, y1, ymax = 100, 680, 150, 520, 10000
+
+    def px(rank):
+        return x0 + (x1 - x0) * math.log(rank) / math.log(n)
+
+    def py(size):
+        return y1 - (y1 - y0) * math.log10(max(1, min(size, ymax))) / math.log10(ymax)
+
+    body = [f'<clipPath id="plot"><rect x="{x0}" y="{y0}" width="{x1 - x0}" height="{y1 - y0}"/></clipPath>']
+    for v in (1, 10, 100, 1000, 10000):
+        body.append(f'<path d="M{x0} {py(v):.1f} H{x1}" stroke="{GOLD_EDGE}" stroke-width="0.5" '
+                    f'stroke-opacity="0.5"/>')
+        body.append(text(x0 - 8, py(v) + 5, f"{v:,}", 13, "end", fill=MUTED))
+    for r in (1, 10, 100, n):
+        body.append(text(px(r), y1 + 20, str(r), 13, "middle", fill=MUTED))
+    body.append(text((x0 + x1) / 2, y1 + 42, "Lineages ranked from largest to smallest", 14, "middle"))
+    body.append(text(30, (y0 + y1) / 2, "Languages in the lineage", 14, "middle",
+                     extra=f'transform="rotate(-90 30 {(y0 + y1) / 2})"'))
+    styles = {"homogeneous": (BLUE, BLUE_TINT), "varied": (GOLD_EDGE, GOLD_TINT)}
+    for name in ("homogeneous", "varied"):
+        curve = sim["curves"][name]
+        stroke, tint = styles[name]
+        top = [(px(i + 1), py(c[2])) for i, c in enumerate(curve)]
+        bot = [(px(i + 1), py(c[0])) for i, c in enumerate(curve)]
+        pts = " ".join(f"{x:.1f},{y:.1f}" for x, y in top + bot[::-1])
+        body.append(f'<polygon points="{pts}" fill="{tint}" fill-opacity="0.8" stroke="{stroke}" '
+                    f'stroke-width="1" stroke-dasharray="5 3" clip-path="url(#plot)"/>')
+    dots = "".join(f'<circle cx="{px(i + 1):.1f}" cy="{py(s):.1f}" r="2.4"/>' for i, s in enumerate(obs))
+    body.append(f'<g fill="{INK}">{dots}</g>')
+    body.append(f'<path d="M{x0} {y0} V{y1} H{x1}" fill="none" stroke="{INK}" stroke-width="1.2"/>')
+
+    hom, var = sim["homogeneous"], sim["varied"]
+    obs_s = sim["observed"]
+    inside = sum(1 for i, s in enumerate(obs)
+                 if sim["curves"]["varied"][i][0] <= s <= sim["curves"]["varied"][i][2])
+    body.append(text(px(1) + 10, py(obs[0]) - 6, "Atlantic-Congo", 12.5, weight="bold", extra=HALO))
+    body.append(text(px(3), py(60) + 4, "Every people grows alike", 13, weight="bold", fill=BLUE,
+                     extra=HALO))
+    body.append(text(px(2.4), py(6000), "Peoples grow unevenly", 13, weight="bold", fill=GOLD_EDGE,
+                     extra=HALO))
+
+    y = y1 + 72
+    rows = [
+        ("Observed (Glottolog)", f"{obs_s['isolates']} isolates · {obs_s['families']} families · "
+         f"largest {obs_s['largest']:,} · median family {obs_s['median_family']}"),
+        ("Every people grows alike", f"{hom['median']['isolates']} isolates · {hom['median']['families']} "
+         f"families · largest {hom['median']['largest']:,} · median family {hom['median']['median_family']}"),
+        ("Peoples grow unevenly", f"{var['median']['isolates']} isolates · {var['median']['families']} "
+         f"families · median family {var['median']['median_family']} · inside the band at {inside} of {n} ranks"),
+    ]
+    for label, line in rows:
+        body.append(text(40, y, label, 13.5, weight="bold"))
+        body.append(text(40, y + 17, line, 12.5, fill=MUTED))
+        y += 42
+    req = sim["required_doubling_from_one_language"]
+    body += note(40, y + 4, [
+        f"{sim['observed']['isolates'] + sim['observed']['families']} lineages begun at Babel, c. "
+        f"{sim['babel_bc']} BC. The largest needs a doubling every {req[0]['doubling_years']} years;",
+        f"Romance, the fastest recorded family, doubled every {sim['rate_cap']['doubling_years']}. "
+        "Bands: 10th to 90th percentile of 60 runs.",
+        "A fitted model shows the shape is reachable; it does not show this is how it happened.",
+    ], 11.5, MUTED, italic=True)
+    h = int(y + 3 * 16 + 44)
+    desc = (f"Rank-size plot of the {n} language lineages Glottolog recognises, against two Babel "
+            f"models that start them all c. {sim['babel_bc']} BC. If every people's languages grew at "
+            f"one rate, the largest lineage would hold about {hom['median']['largest']} languages and "
+            f"there would be about {hom['median']['isolates']} isolates; the world has "
+            f"{obs_s['largest']:,} and {obs_s['isolates']}. If peoples grew unevenly, the model's band "
+            f"contains the observed lineage at {inside} of {n} ranks. The largest family needs a "
+            f"doubling every {req[0]['doubling_years']} years, slower than Romance's "
+            f"{sim['rate_cap']['doubling_years']}.")
+    out = svg_open(h, "Can Babel grow today's families?", desc)
+    out += heading("Growing the Families", "Can lineages begun at Babel reach today's sizes?")
+    out += body
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for name, fn in (("no-common-trunk", lineages), ("decay-test", decay),
-                     ("how-fast-tongues-multiply", rates), ("first-written-witnesses", first_writing)):
+                     ("how-fast-tongues-multiply", rates), ("first-written-witnesses", first_writing),
+                     ("growing-the-families", growing_families)):
         (OUT / f"{name}.svg").write_text(fn(), encoding="utf-8")
         print("wrote", OUT / f"{name}.svg")
 
