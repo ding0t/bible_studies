@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-18
+date_modified: 2026-10-20
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -139,9 +139,10 @@ What the pop-ups (0.1 and 0.2) left undone.
 
 ### 0.7 Review the older studies
 
-About 70 hand-written studies are live, and 19 have had a review-bible-study pass since
+About 70 hand-written studies are live, and 21 have had a review-bible-study pass since
 2026-09-24 (The Rapture of the Church on 2026-09-28, Genealogy and Times on 2026-09-30,
-Melchizedek on 2026-10-02 after its rewrite). Nearly every page lists `anthropic/claude-opus-5.5` in its provenance, but that
+Melchizedek on 2026-10-02 after its rewrite, Six Days of History and A Thousand Years in Your
+Sight on 2026-10-20). Nearly every page lists `anthropic/claude-opus-5.5` in its provenance, but that
 records the site-wide sweeps (pop-ups, Key Takeaways) rather than reviews. A review counts when it
 is recorded as a dated `review_` block in the study's state file. Work through the list in batches
 of about four, and record each review in the state file.
@@ -155,7 +156,7 @@ of about four, and record each review in the state file.
     [Taken Before Judgment](../last-things/taken-before-judgment.md) (reviewed and fixed 2026-10-04),
     [Six Days of History](../last-things/six-days-of-history.md) and
     [A Thousand Years in Your Sight](../last-things/a-thousand-years-in-your-sight.md): published
-    2026-09-27 without a review.
+    2026-09-27 without a review; both reviewed, read and fixed 2026-10-20.
   - [One Taken, One Left](../last-things/one-taken-one-left.md): reviewed and fixed 2026-10-04; previously never reviewed. The Olivet and
     rapture studies both point readers to it.
   - [The Olivet Discourse](../last-things/olivet-discourse.md): regrouped 2026-09-28. Last reviewed
@@ -165,10 +166,10 @@ of about four, and record each review in the state file.
 - **Priority 2: long, and never reviewed by any model.**
   - [Bible Translations & Source Texts](../scripture/translations.md): the `source_profile` data was distilled from it,
     so an error here reaches every study's choice of translation.
-  - [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md) and
-    [Biblical Numerology](../scripture/numerology.md).
-  - [The Woman at the Well](../jesus/woman-at-well.md) and
-    [The Woman Who Touched the Fringe](../jesus/woman-with-the-issue-of-blood.md).
+  - [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md).
+    [Biblical Numerology](../scripture/numerology.md) was reviewed 2026-10-09.
+  - [The Woman Who Touched the Fringe](../jesus/woman-with-the-issue-of-blood.md).
+    [The Woman at the Well](../jesus/woman-at-well.md) was reviewed 2026-09-28.
   - [Paul](../biblical-figures/paul.md) and the ten short apostle pages.
   - [Fasting](../christian-life/fasting.md) was rewritten and reviewed 2026-10-01, so it drops off
     this list.
