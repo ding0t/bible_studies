@@ -16,4 +16,5 @@ draft: false
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 19:35
 - [Sin and Sorcery](../../sin/sorcery.md) — 19:11-20
 - [The Way](../../jesus/the-way.md) — 19:9
+- [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 19:32
 <!-- commentary-index:auto-end -->

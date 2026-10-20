@@ -4,7 +4,7 @@ category: "other"
 description: "Dating biblical history -- what can be fixed to a year, how the numbers in Scripture add up, and the one timeline this site works to."
 draft: false
 date_created: 2026-10-08
-date_modified: 2026-10-19
+date_modified: 2026-10-20
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -84,6 +84,14 @@ Other studies use these dates for their own subjects:
     Creation to the present on a single line, showing where the biblical timeline is rigid and where it stretches — the manuscript variants diverge by 1,466 years at creation and converge on Abraham to the year.
 
     [:octicons-arrow-right-24: Read](combined-timeline.md)
+
+-   __What Languages Declare: Babel and the Arithmetic of Tongues__
+
+    ---
+
+    Genesis 11 says God divided one language at Babel in a single act. This study reads Babel in its context, then sets the world's 7,674 languages against it: 429 lineages with no common trunk, a decay test that rules out slow drift from one tongue in the Bible's timescale, the growth rates a long common ancestry needs, and the first written records of each family. It ends at Pentecost and before the Lamb, where every tongue is gathered.
+
+    [:octicons-arrow-right-24: Read](what-languages-declare.md)
 
 -   __What World Population Declares: Biblical Chronology and the Arithmetic of Growth__
 

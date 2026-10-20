@@ -27,5 +27,6 @@ draft: false
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 2:27
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 2:27
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:27
+- [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 2:1-11
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 2:30-35
 <!-- commentary-index:auto-end -->

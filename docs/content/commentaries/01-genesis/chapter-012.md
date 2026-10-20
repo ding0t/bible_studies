@@ -19,4 +19,5 @@ draft: false
 - [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 12:4
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 12:4
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 12:3
+- [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 12:2-3
 <!-- commentary-index:auto-end -->

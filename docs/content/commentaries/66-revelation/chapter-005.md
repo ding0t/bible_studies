@@ -24,4 +24,5 @@ draft: false
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 5:10
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 5:10
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 5:9
+- [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 5:9
 <!-- commentary-index:auto-end -->

@@ -15,4 +15,5 @@ draft: false
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 9:1-19 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 9:11
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 9:11
+- [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 9:1
 <!-- commentary-index:auto-end -->
