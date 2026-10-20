@@ -5,7 +5,7 @@ description: "Genesis 11 says God divided one language at Babel in a single act.
 tags: ["babel", "genesis", "acts", "revelation", "zephaniah", "pentecost", "languages", "creation", "young-earth", "apologetics", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: true
 primary_passage: "Genesis 11:1-9"
-bible_references: ["Genesis 2:19", "Genesis 10:1-32", "Genesis 10:5", "Genesis 10:20", "Genesis 10:22", "Genesis 10:25", "Genesis 10:31-32", "Genesis 11:1-9", "Genesis 12:3", "Deuteronomy 32:8", "Isaiah 19:18", "Zephaniah 3:8-10", "Acts 2:1-11", "Acts 17:26-27", "Revelation 5:9", "Revelation 7:9"]
+bible_references: ["Genesis 2:19", "Genesis 5:1", "Genesis 9:1", "Genesis 10:1-32", "Genesis 10:5", "Genesis 10:20", "Genesis 10:22", "Genesis 10:25", "Genesis 10:31-32", "Genesis 11:1-9", "Genesis 12:2-3", "Deuteronomy 32:8", "Isaiah 19:18", "Zephaniah 3:8-10", "Acts 2:1-11", "Acts 17:26-27", "Acts 19:32", "Acts 21:27-31", "Galatians 3:8", "Galatians 3:16", "Revelation 5:9", "Revelation 7:9"]
 date_created: 2026-10-20
 date_modified: 2026-10-20
 ai_provider_models:
@@ -14,7 +14,8 @@ ai_provider_models:
 
 # What Languages Declare: Babel and the Arithmetic of Tongues
 
-Seventy nations walked away from Babel. Today linguists catalogue 7,674 languages. They sort them
+Genesis 10 names seventy nations, each with its own language. Today linguists catalogue 7,674
+languages. They sort them
 into 246 families and 183 isolates, and no accepted method joins any of those 429 lineages to
 another.
 
@@ -24,8 +25,9 @@ look-alikes. Something broke the line.
 
 **In one sentence:** At Babel God divided one language in a single act, and the shape of the world's
 languages today, hundreds of lineages with no common trunk, is what that act leaves behind; the long
-common ancestry that does without Babel has to assume language growth stood almost still for tens of
-thousands of years, a stillness no recorded family shows.
+common ancestry that does without Babel has to assume that new languages and lost ones stayed in
+balance for tens of thousands of years, longer than any record reaches, while every family whose
+growth was written down multiplied fast.
 
 It is the third of a set. [What Creation Declares](../god/creation-reveals-the-creator.md) argues
 from design and [What World Population Declares](world-population-declares-gods-creation-and-biblical-truth.md)
@@ -35,22 +37,23 @@ from headcount. This one argues from speech.
 
 ### Types & Prophecy
 
-- **Prophecy.** "I will change the speech of the peoples to a pure speech, that all of them may call
-  upon the name of the LORD" (Zephaniah 3:9, ESV). The word for "speech" is Babel's word, *saphah*.
-  Zephaniah sets it after the day the LORD gathers the nations to judgment (Zephaniah 3:8), in the
-  restoration of Israel that fills the rest of the chapter. Pentecost tasted it; the kingdom
-  completes it.
+- **Prophecy.** God has promised to make the nations' speech clean: "I will change the speech of the
+  peoples to a pure speech, that all of them may call upon the name of the LORD" (Zephaniah 3:9,
+  ESV). "Speech" is Babel's word, *saphah*, and the promise most likely answers Babel. It comes after
+  the LORD judges the nations (Zephaniah 3:8) and belongs to the kingdom He restores to Israel.
+  Pentecost gave the first taste of it.
 
 ### Lessons about Jesus
 
-- **At Pentecost the Holy Spirit gave the apostles the nations' languages to tell the mighty works of
-  God**, and the crowd "were bewildered" with the verb the Greek Old Testament uses at Babel (Acts 2:6;
-  Genesis 11:7, 9). The gospel of Jesus goes
-  out in every tongue.
+- **At Pentecost the Holy Spirit gave the believers the nations' languages to tell the mighty works
+  of God**, and the crowd "were bewildered" with the verb the Greek Old Testament uses at Babel (Acts
+  2:6; Genesis 11:7, 9). The gospel of Jesus goes out in every tongue.
 - **The Lamb ransomed His people "from every tribe and language and people and nation"** (Revelation
   5:9, ESV). The languages God divided at Babel are the languages Jesus bought people from.
-- **Babel's builders wanted a name. God gave the nations one:** the Lord Jesus, the Son of Abraham, in
-  whom "all the families of the earth shall be blessed" (Genesis 12:3, ESV).
+- **Babel's builders tried to make a name for themselves. God made Abram's name great** (Genesis
+  12:2) and promised that in him "all the families of the earth shall be blessed" (Genesis 12:3,
+  ESV). Paul calls that promise the gospel preached beforehand, and names Abraham's offspring: "who
+  is Christ" (Galatians 3:8, 16, ESV). The scattered families are blessed in Jesus.
 
 ### Memory verses
 
@@ -69,7 +72,7 @@ from headcount. This one argues from speech.
 
 - **Think.** Your language is a gift from God's hand at Babel. It carries His judgment on human pride
   and His mercy that sent the nations out to seek Him.
-- **Attitude.** Hold your own tongue loosely. The multitude before the throne speaks thousands of
+- **Attitude.** Hold your own language loosely. The multitude before the throne speaks thousands of
   languages, and yours is one voice among them.
 - **Do.** Pray this week for one people group still without Scripture in their language. Learn its
   name and pray for it by name.
@@ -89,7 +92,7 @@ confesses that Jesus Christ is Lord. In Jesus' name. Amen.
   not claim to be.
 - **[Part two: what the languages say](#part-two-what-the-languages-say).** The evidence from outside Scripture, with four charts, in three steps and then its limits:
     - *Today's languages against the Bible's timescale* — [429 lineages and no common trunk](#429-lineages-and-no-common-trunk) · [The decay test](#the-decay-test).
-    - *The long-ancestry alternative and what it costs* — [How fast tongues multiply](#how-fast-tongues-multiply) · [Two more facts](#two-more-facts-long-ancestry-has-to-carry).
+    - *The long-ancestry alternative and what it costs* — [How fast tongues multiply](#how-fast-tongues-multiply) · [Two more facts to weigh](#two-more-facts-to-weigh).
     - *The written record* — [The first written witnesses](#the-first-written-witnesses) · [Speech and writing](#speech-and-writing-have-different-family-trees).
     - [Where this argument is weak](#where-this-argument-is-weak).
 - **[Part three: what languages declare](#part-three-what-languages-declare).** Babel to Pentecost to
@@ -131,13 +134,17 @@ models the dispersal at about 2103 BC.
 
 Genesis 11 uses a different word for language: <span dir="rtl">שָׂפָה</span> (*saphah*, H8193), "lip."
 The same noun names the rim of Solomon's bronze sea (1 Kings 7:23) and the shore of a sea (1 Kings
-9:26). "One lip" is the edge where speech leaves the body, and the whole earth had one. "The same
+9:26). Of people it means the lips that form words, and so speech itself: "one lip" is one speech,
+and the whole earth had it. "The same
 words" is <span dir="rtl">דְּבָרִים אֲחָדִים</span> (*devarim achadim*), literally "one words": one
 vocabulary.
 
 The builders' "let us" (Genesis 11:3, 4) is answered by the LORD's "let us" (Genesis 11:7). Their fear
 was <span dir="rtl">פּוּץ</span> (*puts*, H6327), "lest we be dispersed" (Genesis 11:4, ESV), and the
-narrator uses the same verb for what God did: "the LORD dispersed them" (Genesis 11:8, 9). The verb of
+narrator uses the same verb for what God did: "the LORD dispersed them" (Genesis 11:8, 9). Their fear
+ran against the command God gave Noah and his sons: "Be fruitful and multiply and fill the earth"
+(Genesis 9:1, ESV), which [What World Population Declares](world-population-declares-gods-creation-and-biblical-truth.md#babel-declining-the-command)
+traces. The verb of
 judgment is <span dir="rtl">בָּלַל</span> (*balal*, H1101), "to mix, confuse," and the city's name
 <span dir="rtl">בָּבֶל</span> (*Bavel*, H894) sounds like it. The Septuagint makes the point in Greek:
 God says "let us confound," συγχέωμεν (*synchéōmen*, G4797), and the city is named Σύγχυσις
@@ -210,7 +217,9 @@ That leaves three ways to get today's languages:
 2. **One language, drifting for 50,000 years or more.** This is the mainstream view, and the decay
    test cannot refute it. It fits by giving the evidence time to vanish.
 3. **One language, divided at a stroke about 2100 BC.** This is Genesis 11:7-9. It predicts unrelated
-   families from the start, and that is what the languages show.
+   families from the start, and that is what the languages show between families. Inside the
+   deepest families the same arithmetic presses on this model too; see
+   [Where this argument is weak](#where-this-argument-is-weak).
 
 Glottochronology's fixed rate has been disputed since Knut Bergsland and Hans Vogt (1962) showed
 real languages varying around it, which is why the chart draws a band and why the test gives an order
@@ -236,31 +245,35 @@ than every recorded family, which leaves room for the languages lost along the w
 From one language 50,000 years ago, the same total needs a doubling every 3,874 years. From 100,000
 years ago it needs one every 7,748. That is ten to thirty times slower than any family history
 records. A long ancestry works only if new languages and dead ones stayed closely balanced
-for tens of thousands of years. Language death is real, and the mainstream account appeals to it.
-The balance itself is an assumption, and no recorded family displays it.
+for tens of thousands of years. Language death is real, and the mainstream account appeals to it:
+Anatolian and Tocharian died out entirely, as did Latin's Italic sisters. The balance itself
+cannot be tested, because no written record reaches back that far, and every family we can watch
+across its written history grew far faster.
 
 This is the same kind of argument the population study makes, and it has the same ceiling. It shows
 which history fits the measured rates without help. It cannot by itself rule out a history that adds
 a balancing assumption.
 
-### Two more facts long ancestry has to carry
+### Two more facts to weigh
 
 **Every known language is complete.** Edward Sapir wrote in 1921 that "we know of no people that is
 not possessed of a fully developed language" (*Language*, ch. 1). The oldest written languages,
-Sumerian, Egyptian and Akkadian, already have full grammars. Nowhere does the record show a simpler
-stage of human speech. A long gradual history has to place every such stage before writing, beyond
-the evidence. Genesis begins with a man who speaks: "whatever the man called every living creature,
-that was its name" (Genesis 2:19, ESV).
+Sumerian, Egyptian and Akkadian, already have full grammars. The long account expects this as well:
+it places any simpler stages of speech before writing, where no evidence of them can survive.
+Genesis needs no such stages. It begins with a man who speaks: "whatever the man called every living
+creature, that was its name" (Genesis 2:19, ESV).
 
 **Speech is old and writing is young.** On the mainstream account people spoke fully for over a
 hundred thousand years. They began writing only about 5,200 years ago, in Mesopotamia and Egypt
-within a few centuries of each other, and later independently in China and Mesoamerica. Within the
-Bible's history, writing comes a few generations after the nations settled. Both accounts can explain
-the timing, and the shorter history needs no explanation for the long silence.
+within a few centuries of each other, and later independently in China and Mesoamerica. In the
+Bible's history speech begins with Adam, a few thousand years before the oldest inscriptions, and
+Genesis already calls Adam's genealogy a <span dir="rtl">סֵפֶר</span> (*sepher*, H5612), "the book
+of the generations of Adam" (Genesis 5:1, ESV). Scripture never says when writing began. The long
+account has to explain a hundred thousand years of speech without a written word; the shorter one
+has only a short gap to explain.
 
-Neither fact proves Babel. Each weighs where the evidence is: complete languages, a short written
-record and unrelated families sit plainly in Genesis's history and need extra assumptions in the long
-one.
+Both facts fit the long account as well, so neither proves Babel. Genesis's history holds them
+without the unseen stages and the long silence.
 
 ### The first written witnesses
 
@@ -308,18 +321,29 @@ act on the spoken word and nowhere else.
   families happens in bursts when languages split, so change runs fastest where a language divides. That
   narrows the gap by an amount nobody has measured, and a gap remains. Babel could also have
   produced sister languages within a family. Genesis is silent on that, so it stays a speculation.
+- **Afro-Asiatic is harder still.** Egyptian and Akkadian belong to one family, yet they are already
+  far apart in their first records, and on conventional dates both were written before the modelled
+  Babel. The decay arithmetic applied inside this family presses on Babel the way it presses on drift
+  from one tongue. The answers available are the ones for Indo-European, faster change at each split
+  or sister languages made at Babel, plus the conventional dates themselves, which
+  [The Flood and the King Lists](flood-and-the-king-lists.md) weighs. None of them is settled.
 - **The rates are disputed.** Mark Pagel and colleagues (2013) argued that a few very frequent words
   keep a signal for about 15,000 years, joining seven Eurasian families. Most historical linguists
-  rejected the method. If Pagel is right, the young, gradual model fails more clearly still, and the 429
-  lineages would be fewer.
+  rejected the method. The claim cuts both ways. If Pagel is right, the young, gradual model fails
+  more clearly still; and families that Babel would make independent turn out related, at a depth
+  of about 15,000 years, which presses on Babel too.
 
 ## Part three: what languages declare
 
 At Babel the nations were scattered by language. At Pentecost they were gathered by language. The
 crowd in Jerusalem "were bewildered, because each one was hearing them speak in his own language"
 (Acts 2:6, ESV). "Bewildered" is συνεχύθη, from συγχέω (*synchéō*, G4797), the verb the Septuagint used at
-Babel. It occurs five times in the New Testament, all in Acts. Luke shares a word with Genesis 11
-here and quotes nothing from it, so the link is an echo, and it is a strong one. Among the hearers
+Babel. It occurs five times in the New Testament, all in Acts, and Luke also uses it for rioting
+crowds (Acts 19:32; 21:27, 31), so the verb alone is a modest echo. It has a second word beside it.
+The Septuagint has God confuse their γλῶσσα (*glōssa*, G1100, "tongue," Genesis 11:7), and at
+Pentecost the believers speak in other γλῶσσαι and the crowd hears God's works "in our own tongues"
+(Acts 2:4, 11, ESV). Two of Babel's words in one scene of divided languages make the echo likely.
+Luke quotes nothing from Genesis 11. Among the hearers
 were "Medes and Elamites" (Acts 2:9, ESV), descendants of Madai and Elam in the table of nations
 (Genesis 10:2, 22).
 
@@ -334,15 +358,18 @@ were "Medes and Elamites" (Acts 2:9, ESV), descendants of Madai and Elam in the 
 > own tongues the mighty works of God."
 
 The Holy Spirit kept the languages. Each man heard in his own διάλεκτος (*dialektos*, G1258), "his own
-native language" (Acts 2:8, ESV), and the apostles spoke in other γλῶσσαι (*glōssai*, G1100,
-"tongues," Acts 2:4). Babel's division stands, and God now speaks through it.
+native language" (Acts 2:8, ESV). Those who spoke were "all together in one place" (Acts 2:1, ESV),
+and Luke does not narrow "all" to the apostles. Babel's division stands, and God now speaks through
+it.
 
 The end of the story keeps them too. John saw "a great multitude that no one could number, from
 every nation, from all tribes and peoples and languages, standing before the throne and before the
 Lamb" (Revelation 7:9, ESV). Two chapters earlier the living creatures and the elders sing to the Lamb that "by your blood you ransomed people for God
 from every tribe and language and people and nation" (Revelation 5:9, ESV). Zephaniah promised a
-"pure speech" for the peoples (Zephaniah 3:9, ESV), Babel's *saphah* made clean, in the kingdom that
-follows the day of judgment. Pentecost was its first taste.
+"pure speech" for the peoples (Zephaniah 3:9, ESV), in the kingdom that follows the day of judgment.
+The word is Babel's *saphah*, and the peoples unite "to call upon the name of the LORD" where Babel's
+builders united to "make a name for ourselves" (Genesis 11:4, ESV). Zephaniah never names Babel, so
+the allusion stays a likelihood. Pentecost was its first taste.
 
 ### Three things the languages declare about God
 
