@@ -1,0 +1,2088 @@
+{
+ "generated": "2026-10-20",
+ "baseline": 0.0007833058242135819,
+ "curve": [
+  {
+   "from": 6,
+   "pairs": 3394,
+   "confirmed": 68
+  },
+  {
+   "from": 8,
+   "pairs": 648,
+   "confirmed": 62
+  },
+  {
+   "from": 10,
+   "pairs": 931,
+   "confirmed": 84
+  },
+  {
+   "from": 12,
+   "pairs": 178,
+   "confirmed": 69
+  },
+  {
+   "from": 14,
+   "pairs": 78,
+   "confirmed": 41
+  },
+  {
+   "from": 16,
+   "pairs": 37,
+   "confirmed": 19
+  },
+  {
+   "from": 18,
+   "pairs": 28,
+   "confirmed": 21
+  },
+  {
+   "from": 20,
+   "pairs": 30,
+   "confirmed": 25
+  },
+  {
+   "from": 22,
+   "pairs": 19,
+   "confirmed": 17
+  },
+  {
+   "from": 24,
+   "pairs": 13,
+   "confirmed": 12
+  },
+  {
+   "from": 26,
+   "pairs": 10,
+   "confirmed": 9
+  },
+  {
+   "from": 28,
+   "pairs": 6,
+   "confirmed": 5
+  },
+  {
+   "from": 30,
+   "pairs": 13,
+   "confirmed": 9
+  },
+  {
+   "from": 32,
+   "pairs": 3,
+   "confirmed": 3
+  },
+  {
+   "from": 34,
+   "pairs": 6,
+   "confirmed": 4
+  },
+  {
+   "from": 36,
+   "pairs": 2,
+   "confirmed": 2
+  },
+  {
+   "from": 38,
+   "pairs": 1,
+   "confirmed": 1
+  },
+  {
+   "from": 40,
+   "pairs": 10,
+   "confirmed": 10
+  }
+ ],
+ "threshold": 18,
+ "rules": {
+  "greek-unique-phrases": {
+   "links": 180,
+   "confirmed": 163,
+   "alone": 54,
+   "key": 126,
+   "keyAlone": 35
+  },
+  "greek-formula": {
+   "links": 80,
+   "confirmed": 75,
+   "alone": 19,
+   "key": 59,
+   "keyAlone": 13
+  },
+  "greek-alignment": {
+   "links": 141,
+   "confirmed": 118,
+   "alone": 30,
+   "key": 84,
+   "keyAlone": 4
+  },
+  "hebrew-lemma-run": {
+   "links": 505,
+   "confirmed": 207,
+   "alone": 484,
+   "keyAlone": 93,
+   "key": 95
+  },
+  "hebrew-lemma": {
+   "links": 1549,
+   "confirmed": 742,
+   "alone": 830,
+   "keyAlone": 51,
+   "key": 116
+  },
+  "hebrew-alignment": {
+   "links": 740,
+   "confirmed": 357,
+   "key": 67
+  },
+  "quotation-hebrew": {
+   "links": 49,
+   "confirmed": 48,
+   "alone": 8,
+   "key": 31,
+   "keyAlone": 5
+  },
+  "allusion-lemma": {
+   "links": 103,
+   "confirmed": 47,
+   "alone": 89,
+   "key": 13,
+   "keyAlone": 3
+  },
+  "quotation-crosslang": {
+   "links": 48,
+   "confirmed": 42,
+   "alone": 19,
+   "key": 36,
+   "keyAlone": 12
+  }
+ },
+ "overlap": [
+  {
+   "rules": [
+    "allusion-lemma"
+   ],
+   "links": 89,
+   "confirmed": 35
+  },
+  {
+   "rules": [
+    "greek-unique-phrases"
+   ],
+   "links": 54,
+   "confirmed": 43
+  },
+  {
+   "rules": [
+    "greek-alignment",
+    "greek-unique-phrases"
+   ],
+   "links": 47,
+   "confirmed": 43
+  },
+  {
+   "rules": [
+    "greek-alignment"
+   ],
+   "links": 30,
+   "confirmed": 14
+  },
+  {
+   "rules": [
+    "greek-alignment",
+    "greek-unique-phrases",
+    "quotation-hebrew"
+   ],
+   "links": 20,
+   "confirmed": 19
+  },
+  {
+   "rules": [
+    "greek-formula"
+   ],
+   "links": 19,
+   "confirmed": 15
+  },
+  {
+   "rules": [
+    "quotation-crosslang"
+   ],
+   "links": 19,
+   "confirmed": 14
+  },
+  {
+   "rules": [
+    "greek-formula",
+    "greek-unique-phrases"
+   ],
+   "links": 15,
+   "confirmed": 15
+  },
+  {
+   "rules": [
+    "greek-alignment",
+    "greek-formula",
+    "greek-unique-phrases"
+   ],
+   "links": 10,
+   "confirmed": 10
+  },
+  {
+   "rules": [
+    "greek-alignment",
+    "greek-formula",
+    "greek-unique-phrases",
+    "quotation-crosslang"
+   ],
+   "links": 9,
+   "confirmed": 9
+  },
+  {
+   "rules": [
+    "quotation-hebrew"
+   ],
+   "links": 8,
+   "confirmed": 8
+  },
+  {
+   "rules": [
+    "greek-alignment",
+    "quotation-hebrew"
+   ],
+   "links": 7,
+   "confirmed": 7
+  },
+  {
+   "rules": [
+    "greek-formula",
+    "greek-unique-phrases",
+    "quotation-crosslang"
+   ],
+   "links": 5,
+   "confirmed": 5
+  },
+  {
+   "rules": [
+    "greek-formula",
+    "quotation-crosslang"
+   ],
+   "links": 3,
+   "confirmed": 3
+  },
+  {
+   "rules": [
+    "greek-alignment",
+    "greek-formula",
+    "quotation-crosslang"
+   ],
+   "links": 3,
+   "confirmed": 2
+  },
+  {
+   "rules": [
+    "greek-formula",
+    "greek-unique-phrases",
+    "quotation-hebrew"
+   ],
+   "links": 3,
+   "confirmed": 3
+  },
+  {
+   "rules": [
+    "allusion-lemma",
+    "greek-alignment",
+    "greek-formula",
+    "greek-unique-phrases",
+    "quotation-crosslang"
+   ],
+   "links": 3,
+   "confirmed": 3
+  },
+  {
+   "rules": [
+    "allusion-lemma",
+    "greek-alignment",
+    "greek-unique-phrases",
+    "quotation-hebrew"
+   ],
+   "links": 3,
+   "confirmed": 3
+  },
+  {
+   "rules": [
+    "greek-alignment",
+    "greek-formula",
+    "greek-unique-phrases",
+    "quotation-crosslang",
+    "quotation-hebrew"
+   ],
+   "links": 3,
+   "confirmed": 3
+  },
+  {
+   "rules": [
+    "allusion-lemma",
+    "greek-unique-phrases"
+   ],
+   "links": 3,
+   "confirmed": 2
+  },
+  {
+   "rules": [
+    "greek-alignment",
+    "greek-formula",
+    "greek-unique-phrases",
+    "quotation-hebrew"
+   ],
+   "links": 3,
+   "confirmed": 3
+  },
+  {
+   "rules": [
+    "allusion-lemma",
+    "greek-formula",
+    "quotation-crosslang",
+    "quotation-hebrew"
+   ],
+   "links": 2,
+   "confirmed": 2
+  },
+  {
+   "rules": [
+    "allusion-lemma",
+    "greek-alignment",
+    "greek-formula",
+    "greek-unique-phrases"
+   ],
+   "links": 1,
+   "confirmed": 1
+  },
+  {
+   "rules": [
+    "allusion-lemma",
+    "greek-formula",
+    "greek-unique-phrases"
+   ],
+   "links": 1,
+   "confirmed": 1
+  },
+  {
+   "rules": [
+    "allusion-lemma",
+    "greek-alignment"
+   ],
+   "links": 1,
+   "confirmed": 0
+  },
+  {
+   "rules": [
+    "greek-alignment",
+    "quotation-crosslang"
+   ],
+   "links": 1,
+   "confirmed": 1
+  }
+ ],
+ "otOverlap": [
+  {
+   "rules": [
+    "hebrew-lemma"
+   ],
+   "links": 830,
+   "confirmed": 394
+  },
+  {
+   "rules": [
+    "hebrew-alignment",
+    "hebrew-lemma"
+   ],
+   "links": 719,
+   "confirmed": 348
+  },
+  {
+   "rules": [
+    "hebrew-lemma-run"
+   ],
+   "links": 484,
+   "confirmed": 198
+  },
+  {
+   "rules": [
+    "hebrew-alignment",
+    "hebrew-lemma-run"
+   ],
+   "links": 21,
+   "confirmed": 9
+  }
+ ],
+ "key": {
+  "total": 477,
+  "foundBy": [
+   {
+    "rules": [],
+    "n": 301
+   },
+   {
+    "rules": [
+     "greek-alignment",
+     "greek-unique-phrases"
+    ],
+    "n": 36
+   },
+   {
+    "rules": [
+     "greek-unique-phrases"
+    ],
+    "n": 35
+   },
+   {
+    "rules": [
+     "greek-formula"
+    ],
+    "n": 13
+   },
+   {
+    "rules": [
+     "greek-alignment",
+     "greek-unique-phrases",
+     "quotation-hebrew"
+    ],
+    "n": 12
+   },
+   {
+    "rules": [
+     "quotation-crosslang"
+    ],
+    "n": 12
+   },
+   {
+    "rules": [
+     "greek-formula",
+     "greek-unique-phrases"
+    ],
+    "n": 11
+   },
+   {
+    "rules": [
+     "greek-alignment",
+     "greek-formula",
+     "greek-unique-phrases",
+     "quotation-crosslang"
+    ],
+    "n": 9
+   },
+   {
+    "rules": [
+     "greek-alignment",
+     "greek-formula",
+     "greek-unique-phrases"
+    ],
+    "n": 6
+   },
+   {
+    "rules": [
+     "quotation-hebrew"
+    ],
+    "n": 5
+   },
+   {
+    "rules": [
+     "greek-formula",
+     "greek-unique-phrases",
+     "quotation-crosslang"
+    ],
+    "n": 4
+   },
+   {
+    "rules": [
+     "greek-alignment",
+     "quotation-hebrew"
+    ],
+    "n": 4
+   },
+   {
+    "rules": [
+     "greek-alignment"
+    ],
+    "n": 4
+   },
+   {
+    "rules": [
+     "greek-alignment",
+     "greek-formula",
+     "greek-unique-phrases",
+     "quotation-hebrew"
+    ],
+    "n": 3
+   },
+   {
+    "rules": [
+     "greek-formula",
+     "quotation-crosslang"
+    ],
+    "n": 3
+   },
+   {
+    "rules": [
+     "allusion-lemma"
+    ],
+    "n": 3
+   },
+   {
+    "rules": [
+     "allusion-lemma",
+     "greek-formula",
+     "quotation-crosslang",
+     "quotation-hebrew"
+    ],
+    "n": 2
+   },
+   {
+    "rules": [
+     "allusion-lemma",
+     "greek-alignment",
+     "greek-unique-phrases",
+     "quotation-hebrew"
+    ],
+    "n": 2
+   },
+   {
+    "rules": [
+     "allusion-lemma",
+     "greek-unique-phrases"
+    ],
+    "n": 2
+   },
+   {
+    "rules": [
+     "greek-alignment",
+     "greek-formula",
+     "quotation-crosslang"
+    ],
+    "n": 2
+   },
+   {
+    "rules": [
+     "greek-alignment",
+     "greek-formula",
+     "greek-unique-phrases",
+     "quotation-crosslang",
+     "quotation-hebrew"
+    ],
+    "n": 2
+   },
+   {
+    "rules": [
+     "allusion-lemma",
+     "greek-formula",
+     "greek-unique-phrases"
+    ],
+    "n": 1
+   },
+   {
+    "rules": [
+     "greek-formula",
+     "greek-unique-phrases",
+     "quotation-hebrew"
+    ],
+    "n": 1
+   },
+   {
+    "rules": [
+     "allusion-lemma",
+     "greek-alignment",
+     "greek-formula",
+     "greek-unique-phrases",
+     "quotation-crosslang"
+    ],
+    "n": 1
+   },
+   {
+    "rules": [
+     "allusion-lemma",
+     "greek-alignment",
+     "greek-formula",
+     "greek-unique-phrases"
+    ],
+    "n": 1
+   },
+   {
+    "rules": [
+     "allusion-lemma",
+     "greek-alignment"
+    ],
+    "n": 1
+   },
+   {
+    "rules": [
+     "greek-alignment",
+     "quotation-crosslang"
+    ],
+    "n": 1
+   }
+  ],
+  "missed": [
+   [
+    "Matt 2:15",
+    "Hos 11:1"
+   ],
+   [
+    "Matt 5:3",
+    "Isa 57:15"
+   ],
+   [
+    "Matt 5:3",
+    "Isa 66:2"
+   ],
+   [
+    "Matt 5:4",
+    "Isa 61:2"
+   ],
+   [
+    "Matt 5:4",
+    "Isa 66:10"
+   ],
+   [
+    "Matt 5:4",
+    "Isa 66:13"
+   ],
+   [
+    "Matt 5:5",
+    "Ps 37:11"
+   ],
+   [
+    "Matt 5:21",
+    "Exod 20:13"
+   ],
+   [
+    "Matt 5:27",
+    "Exod 20:14"
+   ],
+   [
+    "Matt 5:31",
+    "Deut 24:1"
+   ],
+   [
+    "Matt 5:33",
+    "Num 30:2"
+   ],
+   [
+    "Matt 5:33",
+    "Deut 23:21"
+   ],
+   [
+    "Matt 5:33",
+    "Eccl 5:4"
+   ],
+   [
+    "Matt 5:38",
+    "Exod 21:24"
+   ],
+   [
+    "Matt 5:38",
+    "Lev 24:20"
+   ],
+   [
+    "Matt 5:38",
+    "Deut 19:21"
+   ],
+   [
+    "Matt 5:43",
+    "Lev 19:18"
+   ],
+   [
+    "Matt 8:17",
+    "Isa 53:4"
+   ],
+   [
+    "Matt 9:13",
+    "Hos 6:6"
+   ],
+   [
+    "Matt 10:36",
+    "Mic 7:6"
+   ],
+   [
+    "Matt 11:5",
+    "Isa 35:5"
+   ],
+   [
+    "Matt 11:5",
+    "Isa 61:1"
+   ],
+   [
+    "Matt 11:10",
+    "Mal 3:1"
+   ],
+   [
+    "Matt 12:4",
+    "1Sam 21:3"
+   ],
+   [
+    "Matt 12:7",
+    "Hos 6:6"
+   ],
+   [
+    "Matt 12:21",
+    "Isa 42:1"
+   ],
+   [
+    "Matt 14:25",
+    "Job 9:8"
+   ],
+   [
+    "Matt 15:4",
+    "Exod 20:12"
+   ],
+   [
+    "Matt 15:4",
+    "Deut 5:16"
+   ],
+   [
+    "Matt 15:4",
+    "Exod 21:17"
+   ],
+   [
+    "Matt 15:4",
+    "Lev 20:9"
+   ],
+   [
+    "Matt 18:16",
+    "Deut 19:15"
+   ],
+   [
+    "Matt 19:4",
+    "Gen 1:27"
+   ],
+   [
+    "Matt 19:19",
+    "Exod 20:12"
+   ],
+   [
+    "Matt 19:19",
+    "Deut 5:16"
+   ],
+   [
+    "Matt 22:32",
+    "Exod 3:6"
+   ],
+   [
+    "Matt 24:15",
+    "Dan 9:27"
+   ],
+   [
+    "Matt 24:15",
+    "Dan 11:31"
+   ],
+   [
+    "Matt 24:15",
+    "Dan 12:11"
+   ],
+   [
+    "Matt 24:29",
+    "Isa 34:4"
+   ],
+   [
+    "Matt 27:10",
+    "Zech 11:12"
+   ],
+   [
+    "Matt 27:10",
+    "Jer 19:1"
+   ],
+   [
+    "Matt 27:10",
+    "Jer 32:6"
+   ],
+   [
+    "Matt 27:46",
+    "Ps 22:1"
+   ],
+   [
+    "Mark 1:2",
+    "Mal 3:1"
+   ],
+   [
+    "Mark 4:12",
+    "Isa 6:9"
+   ],
+   [
+    "Mark 6:48",
+    "Job 9:8"
+   ],
+   [
+    "Mark 7:10",
+    "Exod 20:12"
+   ],
+   [
+    "Mark 7:10",
+    "Deut 5:16"
+   ],
+   [
+    "Mark 7:10",
+    "Exod 21:17"
+   ],
+   [
+    "Mark 7:10",
+    "Lev 20:9"
+   ],
+   [
+    "Mark 9:44",
+    "Isa 66:24"
+   ],
+   [
+    "Mark 9:48",
+    "Isa 66:24"
+   ],
+   [
+    "Mark 10:6",
+    "Gen 1:27"
+   ],
+   [
+    "Mark 10:19",
+    "Exod 20:12"
+   ],
+   [
+    "Mark 10:19",
+    "Deut 5:16"
+   ],
+   [
+    "Mark 12:26",
+    "Exod 3:6"
+   ],
+   [
+    "Mark 13:14",
+    "Dan 9:17"
+   ],
+   [
+    "Mark 13:14",
+    "Dan 11:31"
+   ],
+   [
+    "Mark 13:14",
+    "Dan 12:11"
+   ],
+   [
+    "Mark 13:25",
+    "Isa 13:10"
+   ],
+   [
+    "Mark 13:25",
+    "Isa 34:4"
+   ],
+   [
+    "Mark 14:27",
+    "Zech 13:7"
+   ],
+   [
+    "Mark 15:34",
+    "Ps 22:1"
+   ],
+   [
+    "Luke 1:17",
+    "Mal 4:6"
+   ],
+   [
+    "Luke 2:23",
+    "Exod 13:2"
+   ],
+   [
+    "Luke 2:23",
+    "Exod 13:12"
+   ],
+   [
+    "Luke 2:24",
+    "Lev 12:8"
+   ],
+   [
+    "Luke 4:19",
+    "Isa 61:1"
+   ],
+   [
+    "Luke 7:27",
+    "Mal 3:1"
+   ],
+   [
+    "Luke 8:10",
+    "Isa 6:9"
+   ],
+   [
+    "Luke 8:24",
+    "Ps 107:29"
+   ],
+   [
+    "Luke 12:53",
+    "Mic 7:6"
+   ],
+   [
+    "Luke 18:20",
+    "Exod 20:12"
+   ],
+   [
+    "Luke 18:20",
+    "Deut 5:16"
+   ],
+   [
+    "Luke 19:38",
+    "Ps 118:26"
+   ],
+   [
+    "Luke 20:37",
+    "Exod 3:6"
+   ],
+   [
+    "Luke 22:37",
+    "Isa 53:12"
+   ],
+   [
+    "Luke 23:30",
+    "Hos 10:8"
+   ],
+   [
+    "John 1:23",
+    "Isa 40:3"
+   ],
+   [
+    "John 6:19",
+    "Job 9:8"
+   ],
+   [
+    "John 6:31",
+    "Exod 16:4"
+   ],
+   [
+    "John 6:31",
+    "Neh 9:15"
+   ],
+   [
+    "John 6:31",
+    "Ps 78:24"
+   ],
+   [
+    "John 6:45",
+    "Isa 54:13"
+   ],
+   [
+    "John 7:42",
+    "2Sam 7:12"
+   ],
+   [
+    "John 7:42",
+    "Mic 5:2"
+   ],
+   [
+    "John 7:52",
+    "Isa 9:1"
+   ],
+   [
+    "John 7:52",
+    "Matt 4:13"
+   ],
+   [
+    "John 8:5",
+    "Lev 20:10"
+   ],
+   [
+    "John 8:5",
+    "Deut 22:22"
+   ],
+   [
+    "John 8:12",
+    "Isa 60:1"
+   ],
+   [
+    "John 8:17",
+    "Deut 17:6"
+   ],
+   [
+    "John 8:17",
+    "Deut 19:15"
+   ],
+   [
+    "John 8:32",
+    "Ps 119:45"
+   ],
+   [
+    "John 8:58",
+    "Exod 3:14"
+   ],
+   [
+    "John 9:31",
+    "Ps 66:18"
+   ],
+   [
+    "John 9:31",
+    "Prov 15:29"
+   ],
+   [
+    "John 9:31",
+    "Prov 28:9"
+   ],
+   [
+    "John 10:11",
+    "Isa 40:11"
+   ],
+   [
+    "John 10:11",
+    "Ezek 34:11"
+   ],
+   [
+    "John 10:11",
+    "Ezek 34:15"
+   ],
+   [
+    "John 10:11",
+    "Ezek 34:22"
+   ],
+   [
+    "John 10:16",
+    "Isa 56:8"
+   ],
+   [
+    "John 10:17",
+    "Isa 53:7"
+   ],
+   [
+    "John 10:21",
+    "Exod 4:11"
+   ],
+   [
+    "John 12:34",
+    "Isa 9:7"
+   ],
+   [
+    "John 12:34",
+    "Dan 2:44"
+   ],
+   [
+    "John 12:34",
+    "Isa 53:8"
+   ],
+   [
+    "John 12:40",
+    "Isa 6:10"
+   ],
+   [
+    "John 12:41",
+    "Isa 6:1"
+   ],
+   [
+    "John 13:18",
+    "Ps 41:9"
+   ],
+   [
+    "John 15:20",
+    "John 13:16"
+   ],
+   [
+    "John 15:25",
+    "Ps 35:19"
+   ],
+   [
+    "John 15:25",
+    "Ps 69:4"
+   ],
+   [
+    "John 17:17",
+    "Ps 119:142"
+   ],
+   [
+    "John 18:9",
+    "John 6:39"
+   ],
+   [
+    "John 19:36",
+    "Exod 12:46"
+   ],
+   [
+    "John 19:36",
+    "Num 9:12"
+   ],
+   [
+    "John 19:36",
+    "Ps 34:20"
+   ],
+   [
+    "John 19:37",
+    "Zech 12:10"
+   ],
+   [
+    "Acts 2:21",
+    "Joel 2:28"
+   ],
+   [
+    "Acts 3:23",
+    "Deut 18:15"
+   ],
+   [
+    "Acts 3:23",
+    "Deut 18:18"
+   ],
+   [
+    "Acts 3:25",
+    "Gen 22:18"
+   ],
+   [
+    "Acts 3:25",
+    "Gen 26:4"
+   ],
+   [
+    "Acts 4:11",
+    "Ps 118:22"
+   ],
+   [
+    "Acts 7:32",
+    "Exod 3:6"
+   ],
+   [
+    "Acts 7:34",
+    "Exod 3:5"
+   ],
+   [
+    "Acts 7:34",
+    "Exod 3:10"
+   ],
+   [
+    "Acts 7:37",
+    "Deut 18:15"
+   ],
+   [
+    "Acts 7:50",
+    "Isa 66:1"
+   ],
+   [
+    "Acts 23:5",
+    "Exod 22:28"
+   ],
+   [
+    "Rom 2:6",
+    "Ps 62:12"
+   ],
+   [
+    "Rom 2:6",
+    "Prov 24:12"
+   ],
+   [
+    "Rom 2:24",
+    "Isa 52:5"
+   ],
+   [
+    "Rom 2:24",
+    "Ezek 36:22"
+   ],
+   [
+    "Rom 3:12",
+    "Ps 53:1"
+   ],
+   [
+    "Rom 3:12",
+    "Eccl 7:20"
+   ],
+   [
+    "Rom 3:13",
+    "Ps 140:3"
+   ],
+   [
+    "Rom 3:14",
+    "Ps 10:7"
+   ],
+   [
+    "Rom 3:17",
+    "Isa 59:7"
+   ],
+   [
+    "Rom 3:18",
+    "Ps 36:1"
+   ],
+   [
+    "Rom 4:3",
+    "Gen 15:6"
+   ],
+   [
+    "Rom 4:18",
+    "Gen 15:5"
+   ],
+   [
+    "Rom 4:22",
+    "Gen 15:6"
+   ],
+   [
+    "Rom 7:7",
+    "Exod 20:17"
+   ],
+   [
+    "Rom 7:7",
+    "Deut 5:21"
+   ],
+   [
+    "Rom 9:9",
+    "Gen 18:10"
+   ],
+   [
+    "Rom 9:9",
+    "Gen 18:14"
+   ],
+   [
+    "Rom 9:20",
+    "Isa 45:9"
+   ],
+   [
+    "Rom 9:25",
+    "Hos 2:23"
+   ],
+   [
+    "Rom 9:28",
+    "Isa 10:22"
+   ],
+   [
+    "Rom 9:33",
+    "Isa 28:16"
+   ],
+   [
+    "Rom 10:5",
+    "Lev 18:5"
+   ],
+   [
+    "Rom 10:6",
+    "Deut 30:12"
+   ],
+   [
+    "Rom 10:7",
+    "Deut 30:13"
+   ],
+   [
+    "Rom 10:11",
+    "Isa 28:16"
+   ],
+   [
+    "Rom 10:15",
+    "Isa 52:7"
+   ],
+   [
+    "Rom 10:19",
+    "Deut 32:21"
+   ],
+   [
+    "Rom 11:3",
+    "1Kgs 19:10"
+   ],
+   [
+    "Rom 11:3",
+    "1Kgs 19:14"
+   ],
+   [
+    "Rom 11:4",
+    "1Kgs 19:18"
+   ],
+   [
+    "Rom 11:8",
+    "Isa 29:10"
+   ],
+   [
+    "Rom 11:27",
+    "Isa 27:9"
+   ],
+   [
+    "Rom 11:27",
+    "Jer 31:33"
+   ],
+   [
+    "Rom 11:34",
+    "Isa 40:13"
+   ],
+   [
+    "Rom 11:35",
+    "Job 41:11"
+   ],
+   [
+    "Rom 12:19",
+    "Deut 32:35"
+   ],
+   [
+    "Rom 13:9",
+    "Exod 20:13"
+   ],
+   [
+    "Rom 13:9",
+    "Exod 20:17"
+   ],
+   [
+    "Rom 13:9",
+    "Deut 5:17"
+   ],
+   [
+    "Rom 13:9",
+    "Deut 5:21"
+   ],
+   [
+    "Rom 15:11",
+    "Ps 117:1"
+   ],
+   [
+    "1Cor 1:31",
+    "Jer 9:24"
+   ],
+   [
+    "1Cor 2:9",
+    "Isa 64:4"
+   ],
+   [
+    "1Cor 2:16",
+    "Isa 40:13"
+   ],
+   [
+    "1Cor 3:19",
+    "Job 5:13"
+   ],
+   [
+    "1Cor 5:13",
+    "Deut 17:7"
+   ],
+   [
+    "1Cor 5:13",
+    "Deut 19:19"
+   ],
+   [
+    "1Cor 5:13",
+    "Deut 21:21"
+   ],
+   [
+    "1Cor 5:13",
+    "Deut 22:21"
+   ],
+   [
+    "1Cor 5:13",
+    "Deut 24:7"
+   ],
+   [
+    "1Cor 10:26",
+    "Ps 24:1"
+   ],
+   [
+    "1Cor 14:21",
+    "Isa 28:11"
+   ],
+   [
+    "1Cor 14:34",
+    "Deut 27:9"
+   ],
+   [
+    "1Cor 15:27",
+    "Ps 8:6"
+   ],
+   [
+    "1Cor 15:45",
+    "Gen 2:7"
+   ],
+   [
+    "1Cor 15:55",
+    "Hos 13:14"
+   ],
+   [
+    "2Cor 4:6",
+    "Gen 1:3"
+   ],
+   [
+    "2Cor 4:13",
+    "Ps 116:10"
+   ],
+   [
+    "2Cor 6:16",
+    "Lev 26:12"
+   ],
+   [
+    "2Cor 6:16",
+    "Jer 32:38"
+   ],
+   [
+    "2Cor 6:16",
+    "Ezek 37:27"
+   ],
+   [
+    "2Cor 6:17",
+    "Isa 52:11"
+   ],
+   [
+    "2Cor 6:17",
+    "Ezek 20:34"
+   ],
+   [
+    "2Cor 6:17",
+    "Ezek 20:41"
+   ],
+   [
+    "2Cor 6:18",
+    "2Sam 7:14"
+   ],
+   [
+    "2Cor 6:18",
+    "2Sam 7:8"
+   ],
+   [
+    "2Cor 10:17",
+    "Jer 9:24"
+   ],
+   [
+    "Gal 3:6",
+    "Gen 15:6"
+   ],
+   [
+    "Gal 3:8",
+    "Gen 12:3"
+   ],
+   [
+    "Gal 3:8",
+    "Gen 18:18"
+   ],
+   [
+    "Gal 3:8",
+    "Gen 22:18"
+   ],
+   [
+    "Gal 3:10",
+    "Deut 27:26"
+   ],
+   [
+    "Gal 3:12",
+    "Lev 18:5"
+   ],
+   [
+    "Gal 3:13",
+    "Deut 21:23"
+   ],
+   [
+    "Gal 3:16",
+    "Gen 12:7"
+   ],
+   [
+    "Gal 3:16",
+    "Gen 13:15"
+   ],
+   [
+    "Gal 3:16",
+    "Gen 24:7"
+   ],
+   [
+    "Eph 4:8",
+    "Ps 68:18"
+   ],
+   [
+    "Eph 4:26",
+    "Ps 4:4"
+   ],
+   [
+    "Eph 6:3",
+    "Deut 5:16"
+   ],
+   [
+    "1Tim 5:18",
+    "Luke 10:7"
+   ],
+   [
+    "1Tim 5:18",
+    "Lev 19:13"
+   ],
+   [
+    "2Tim 2:19",
+    "Num 16:5"
+   ],
+   [
+    "Heb 2:8",
+    "Ps 8:4"
+   ],
+   [
+    "Heb 4:5",
+    "Ps 95:11"
+   ],
+   [
+    "Heb 8:5",
+    "Exod 25:40"
+   ],
+   [
+    "Heb 9:20",
+    "Exod 24:8"
+   ],
+   [
+    "Heb 10:17",
+    "Jer 31:34"
+   ],
+   [
+    "Heb 10:30",
+    "Deut 32:35"
+   ],
+   [
+    "Heb 10:30",
+    "Ps 135:14"
+   ],
+   [
+    "Heb 11:33",
+    "Dan 6:22"
+   ],
+   [
+    "Heb 11:34",
+    "Dan 3:1"
+   ],
+   [
+    "Heb 11:34",
+    "1Kgs 19:1"
+   ],
+   [
+    "Heb 11:34",
+    "2Kgs 6:31"
+   ],
+   [
+    "Heb 11:35",
+    "1Kgs 17:17"
+   ],
+   [
+    "Heb 11:35",
+    "2Kgs 4:32"
+   ],
+   [
+    "Heb 11:37",
+    "2Chr 24:20"
+   ],
+   [
+    "Heb 11:37",
+    "Jer 26:20"
+   ],
+   [
+    "Heb 11:37",
+    "1Kgs 19:10"
+   ],
+   [
+    "Heb 12:12",
+    "Isa 35:3"
+   ],
+   [
+    "Heb 12:20",
+    "Exod 19:12"
+   ],
+   [
+    "Heb 12:21",
+    "Deut 9:19"
+   ],
+   [
+    "Heb 12:24",
+    "Jer 31:31"
+   ],
+   [
+    "Heb 12:26",
+    "Hag 2:6"
+   ],
+   [
+    "Heb 12:29",
+    "Deut 4:24"
+   ],
+   [
+    "Heb 13:5",
+    "Deut 31:6"
+   ],
+   [
+    "Heb 13:6",
+    "Ps 118:6"
+   ],
+   [
+    "Heb 13:11",
+    "Lev 16:27"
+   ],
+   [
+    "Heb 13:15",
+    "Ps 50:23"
+   ],
+   [
+    "Jas 2:11",
+    "Exod 20:14"
+   ],
+   [
+    "Jas 2:11",
+    "Deut 5:18"
+   ],
+   [
+    "Jas 2:23",
+    "Gen 15:6"
+   ],
+   [
+    "1Pet 1:16",
+    "Lev 11:44"
+   ],
+   [
+    "1Pet 1:25",
+    "Isa 40:6"
+   ],
+   [
+    "1Pet 2:8",
+    "Isa 8:14"
+   ],
+   [
+    "1Pet 2:22",
+    "Isa 53:9"
+   ],
+   [
+    "1Pet 3:14",
+    "Isa 8:12"
+   ],
+   [
+    "1Pet 5:5",
+    "Prov 3:34"
+   ],
+   [
+    "2Pet 1:17",
+    "Matt 17:5"
+   ],
+   [
+    "2Pet 1:17",
+    "Mark 9:7"
+   ],
+   [
+    "2Pet 1:17",
+    "Luke 9:35"
+   ],
+   [
+    "2Pet 2:22",
+    "Prov 26:11"
+   ],
+   [
+    "Rev 1:6",
+    "Exod 19:6"
+   ],
+   [
+    "Rev 1:6",
+    "Isa 61:6"
+   ],
+   [
+    "Rev 1:13",
+    "Dan 7:13"
+   ],
+   [
+    "Rev 14:14",
+    "Dan 7:13"
+   ],
+   [
+    "Rev 19:15",
+    "Ps 2:9"
+   ],
+   [
+    "1Cor 5:13",
+    "Deut 13:5"
+   ],
+   [
+    "1Cor 15:54",
+    "Hos 13:14"
+   ],
+   [
+    "2Cor 4:6",
+    "Isa 9:2"
+   ],
+   [
+    "2Cor 6:16",
+    "Jer 31:33"
+   ],
+   [
+    "Heb 3:7",
+    "Num 14:1"
+   ],
+   [
+    "Heb 4:5",
+    "Ps 95:1"
+   ],
+   [
+    "Heb 10:15",
+    "Jer 31:33"
+   ],
+   [
+    "Heb 10:37",
+    "Hab 2:3"
+   ],
+   [
+    "Heb 10:37",
+    "Isa 26:20"
+   ],
+   [
+    "Heb 12:21",
+    "Exod 3:6"
+   ],
+   [
+    "John 12:13",
+    "Ps 118:1"
+   ],
+   [
+    "John 12:39",
+    "Isa 6:10"
+   ],
+   [
+    "John 19:28",
+    "Ps 69:21"
+   ],
+   [
+    "Mark 1:2",
+    "Isa 40:3"
+   ],
+   [
+    "Mark 10:19",
+    "Deut 5:21"
+   ],
+   [
+    "Mark 10:19",
+    "Exod 20:17"
+   ],
+   [
+    "Mark 12:19",
+    "Deut 25:5"
+   ],
+   [
+    "Mark 15:28",
+    "Isa 53:12"
+   ],
+   [
+    "Matt 1:22",
+    "Isa 7:14"
+   ],
+   [
+    "Matt 2:5",
+    "Mic 5:2"
+   ],
+   [
+    "Matt 2:17",
+    "Jer 31:15"
+   ],
+   [
+    "Matt 4:14",
+    "Isa 9:1"
+   ],
+   [
+    "Matt 5:21",
+    "Deut 5:17"
+   ],
+   [
+    "Matt 5:27",
+    "Deut 5:18"
+   ],
+   [
+    "Matt 10:35",
+    "Mic 7:6"
+   ],
+   [
+    "Matt 12:18",
+    "Isa 42:4"
+   ],
+   [
+    "Matt 15:7",
+    "Isa 29:13"
+   ],
+   [
+    "Matt 19:18",
+    "Deut 5:16"
+   ],
+   [
+    "Matt 19:18",
+    "Exod 20:12"
+   ],
+   [
+    "Matt 19:18",
+    "Lev 19:18"
+   ],
+   [
+    "Matt 21:4",
+    "Zech 9:9"
+   ],
+   [
+    "Matt 22:24",
+    "Deut 25:5"
+   ],
+   [
+    "Matt 22:31",
+    "Exod 3:6"
+   ],
+   [
+    "Matt 22:43",
+    "Ps 110:1"
+   ],
+   [
+    "Matt 27:9",
+    "Jer 19:1"
+   ],
+   [
+    "Matt 27:9",
+    "Jer 32:6"
+   ],
+   [
+    "Matt 27:9",
+    "Zech 11:12"
+   ],
+   [
+    "Rom 4:6",
+    "Ps 31:1"
+   ],
+   [
+    "Rom 4:9",
+    "Gen 15:6"
+   ],
+   [
+    "Rom 10:6",
+    "Deut 9:4"
+   ],
+   [
+    "Rom 11:2",
+    "1Kgs 19:10"
+   ]
+  ]
+ },
+ "otKey": {
+  "total": 266,
+  "foundBy": [
+   {
+    "rules": [
+     "hebrew-lemma-run"
+    ],
+    "n": 93
+   },
+   {
+    "rules": [
+     "hebrew-alignment",
+     "hebrew-lemma"
+    ],
+    "n": 65
+   },
+   {
+    "rules": [],
+    "n": 55
+   },
+   {
+    "rules": [
+     "hebrew-lemma"
+    ],
+    "n": 51
+   },
+   {
+    "rules": [
+     "hebrew-alignment",
+     "hebrew-lemma-run"
+    ],
+    "n": 2
+   }
+  ],
+  "missed": [
+   [
+    "1Chr 16:14",
+    "Ps 105"
+   ],
+   [
+    "1Chr 16:30",
+    "Ps 96"
+   ],
+   [
+    "1Chr 16:31",
+    "Ps 96"
+   ],
+   [
+    "1Chr 16:32",
+    "Ps 96"
+   ],
+   [
+    "1Chr 16:33",
+    "Ps 96"
+   ],
+   [
+    "1Chr 16:34",
+    "Ps 106"
+   ],
+   [
+    "Joel 4:16",
+    "Amos 1"
+   ],
+   [
+    "Obad 1:5",
+    "Jer 49"
+   ],
+   [
+    "Ps 108:2",
+    "Ps 57"
+   ],
+   [
+    "2Sam 22:2",
+    "Ps 18"
+   ],
+   [
+    "2Sam 22:13",
+    "Ps 18"
+   ],
+   [
+    "2Sam 22:24",
+    "Ps 18"
+   ],
+   [
+    "2Sam 22:33",
+    "Ps 18"
+   ],
+   [
+    "2Sam 22:42",
+    "Ps 18"
+   ],
+   [
+    "2Sam 22:45",
+    "Ps 18"
+   ],
+   [
+    "Ps 14:5",
+    "Ps 53"
+   ],
+   [
+    "Ps 14:6",
+    "Ps 53"
+   ],
+   [
+    "1Chr 17:13",
+    "2Sam 7"
+   ],
+   [
+    "1Chr 17:14",
+    "2Sam 7"
+   ],
+   [
+    "1Chr 17:18",
+    "2Sam 7"
+   ],
+   [
+    "Ezra 2:5",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:8",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:9",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:10",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:14",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:15",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:16",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:17",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:18",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:19",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:20",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:21",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:22",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:23",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:24",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:29",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:30",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:34",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:39",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:46",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:47",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:48",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:49",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:50",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:66",
+    "Neh 7"
+   ],
+   [
+    "Ezra 2:68",
+    "Neh 7"
+   ],
+   [
+    "Exod 20:2",
+    "Deut 5"
+   ],
+   [
+    "Exod 20:3",
+    "Deut 5"
+   ],
+   [
+    "Exod 20:8",
+    "Deut 5"
+   ],
+   [
+    "Exod 20:11",
+    "Deut 5"
+   ],
+   [
+    "Exod 20:13",
+    "Deut 5"
+   ],
+   [
+    "Exod 20:14",
+    "Deut 5"
+   ],
+   [
+    "Exod 20:15",
+    "Deut 5"
+   ],
+   [
+    "Exod 20:16",
+    "Deut 5"
+   ],
+   [
+    "Isa 37:15",
+    "2Kgs 19"
+   ]
+  ]
+ }
+}

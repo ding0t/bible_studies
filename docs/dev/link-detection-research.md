@@ -122,5 +122,7 @@ Two first versions were noise and were tightened before shipping:
 A Psalms-only rule surfaced on the way: the verse-shift correction for psalm titles had been applied to
 every book, mapping LXX Micah 5:1 to English 5:3. It now applies to Psalms only (build.py, query.py).
 
+Found since by the method page's answer-key chart: Romans 4:3 cites Genesis 15:6 by formula but shares only one unique phrase, because "credited to him for righteousness" also stands in LXX Psalm 105:31 (106:31). A formula rule taking one phrase plus alignment 14 would recover it; untested for noise.
+
 Still open: Matthew 24:15 (the concept bridge found it; no shipped rule does), Joel 3:16 and Amos 1:2, New
 Testament to New Testament, and a Greek 1 Enoch for Jude 14.

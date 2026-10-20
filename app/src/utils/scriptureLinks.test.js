@@ -5,6 +5,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import data from '../../../docs/data/scripture-links.json' with { type: 'json' };
+import method from '../../../docs/data/link-method.json' with { type: 'json' };
 import {
   METHODS,
   SCOPES,
@@ -18,6 +19,9 @@ import {
   methodBreakdown,
   topTargets,
   basisWords,
+  RULES,
+  calibration,
+  confirmationFor,
 } from './scriptureLinks.js';
 import { linkIndex } from '../../scripts/build-links-index.js';
 
@@ -82,4 +86,27 @@ test('every rule that admitted a link has plain words for the "found by" line', 
     assert.ok(basis, 'a link with no basis');
     assert.equal(basisWords(basis).length, basis.split('+').length - (basis.includes('formula+phrases') ? 1 : 0), basis);
   }
+});
+
+test('every rule the build reports has a profile, and every profile a rule, or a card would be blank', () => {
+  const profiled = new Set(RULES.map((r) => r.id));
+  for (const id of Object.keys(method.rules)) assert.ok(profiled.has(id), `rule ${id} has no profile in RULES`);
+  for (const id of profiled) assert.ok(method.rules[id], `RULES profiles ${id}, which the build no longer reports`);
+});
+
+test('each answer key is accounted for: found by some rules or listed as missed', () => {
+  for (const key of [method.key, method.otKey]) {
+    assert.equal(key.foundBy.reduce((s, f) => s + f.n, 0), key.total);
+    assert.equal(key.foundBy.find((f) => f.rules.length === 0)?.n ?? 0, key.missed.length);
+  }
+});
+
+test('a link\'s trust line is the confirmed share of links found the same way', () => {
+  const cal = calibration(data.links);
+  const link = data.links.find((l) => l.f === 'John 10:34');
+  const same = data.links.filter((l) => l.m === link.m && l.b === link.b);
+  const t = confirmationFor(cal, link);
+  assert.ok(t.exact && same.length >= 10);
+  assert.equal(t.c, same.filter((l) => l.c).length);
+  assert.equal(t.n, same.length);
 });

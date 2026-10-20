@@ -502,16 +502,7 @@ if __name__ == "__main__" and (sys.argv[1:2] or ["nt"])[0] == "fp":
 
 # --- the Hebrew Old Testament quoting itself, on lemmas -----------------------------------------
 
-KNOWN_OT = [  # well-known parallels, as (book, chapter, first verse, last verse) pairs
-    (("1Chr", 16, 8, 22), ("Ps", 105, 1, 15)), (("1Chr", 16, 23, 33), ("Ps", 96, 1, 13)),
-    (("1Chr", 16, 34, 36), ("Ps", 106, 1, 48)), (("Joel", 4, 16, 16), ("Amos", 1, 2, 2)),
-    (("Obad", 1, 1, 5), ("Jer", 49, 9, 16)), (("Ps", 108, 2, 6), ("Ps", 57, 8, 12)),
-    (("Ps", 108, 7, 14), ("Ps", 60, 7, 14)), (("Ps", 70, 2, 6), ("Ps", 40, 14, 18)),
-    (("Isa", 2, 2, 4), ("Mic", 4, 1, 3)), (("2Sam", 22, 2, 51), ("Ps", 18, 3, 51)),
-    (("Ps", 14, 1, 7), ("Ps", 53, 2, 7)), (("1Chr", 17, 1, 27), ("2Sam", 7, 1, 29)),
-    (("Ezra", 2, 1, 70), ("Neh", 7, 6, 73)), (("Exod", 20, 2, 17), ("Deut", 5, 6, 21)),
-    (("2Chr", 36, 22, 23), ("Ezra", 1, 1, 3)), (("Isa", 37, 1, 38), ("2Kgs", 19, 1, 37)),
-]
+from quotations import KNOWN_OT  # noqa: E402  (moved: export_links.py measures recall on it)
 
 
 def run_ot():

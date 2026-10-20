@@ -38,7 +38,12 @@ you what the claim rests on.
 - **Book by book.** The same links as a table of exact counts, for when you want to know how many times Luke
   draws on Isaiah.
 - **The evidence.** How many links rest on each kind of evidence, how many of those no reference list carries,
-  and the verses the rest of Scripture comes back to most.
+  and the verses the rest of Scripture comes back to most. Below that, each rule's record: how often an outside
+  list confirms it, what it finds that no other rule does, where the rules agree, and every quotation in the
+  answer keys that all of them miss, each one a verse you can open.
+
+On the map, the table and the evidence, **Only links no reference list carries** narrows every diagram to the
+connections this method found and the inherited lists did not.
 
 Every view has an address, so a verse or a diagram can be shared as a link, and the back button retraces the
 verses you followed. The verse pop-ups that appear on every page of the site add a **Scripture links**
@@ -70,8 +75,11 @@ score** — because they are not the same kind of evidence:
 | **Quotation (from the Hebrew)** | The Greek of the New Testament matches the Hebrew of the Old, through the vocabulary the Septuagint translators chose. Only where the verse cites Scripture. |
 | **Candidate** | A 19th-century Hebrew New Testament reads this as a quotation. An informed judgement about the text, not evidence from it. |
 
-Each link also says which rule found it, and whether it appears in a conventional cross-reference list. **"Not in any
-reference list" is not a weakness** — those are the connections this method exists to find.
+Each link says which rule found it and how far to trust that rule: the share of links found the same way that an
+outside cross-reference list confirms. A line reading "94% of links found this way are confirmed" means the rule is
+reliable; whether this particular link is in a reference list is shown beside it. A reliable rule finding a link no
+list carries is the case this method exists for. [What each rule adds, and where it
+fails](about/how-we-cross-reference.md#what-each-rule-adds-and-where-it-fails) gives each rule's record.
 
 Where a quoted Old Testament verse is one the Dead Sea Scrolls also preserve, any scroll reading the
 Masoretic text lacks is shown with it, along with how much of that verse survives. A legible word in

@@ -35,6 +35,8 @@ To skip the method and look up a verse:
 - [How the matching works](#how-the-matching-works) and [where the thresholds come
   from](#where-the-thresholds-come-from). The measures, the cut-offs, and the rules added in October
   2026.
+- [What each rule adds, and where it fails](#what-each-rule-adds-and-where-it-fails). How far to trust
+  each rule, what only it finds, where the rules agree, and what all of them miss.
 - [What the method produces](#what-the-method-produces) and [what this gives you in a
   study](#what-this-gives-you-in-a-study). The counts, and the gaps the links reveal in a study.
 - [Compared with an inherited list](#compared-with-an-inherited-list), [tracing one
@@ -164,51 +166,15 @@ passages are linked when the distinctive words they share add up past a set weig
 ## Where the thresholds come from
 
 The outside lists show how often a link at each strength is confirmed by someone else, and each
-cut-off sits where that rate drops. For the Greek quotations, across all 5,407 pairs the method
-scores:
+cut-off sits where that rate drops. The chart shows it for the Greek quotations: every pair the
+method scores, by alignment, and the share an outside list confirms.
 
-| Alignment | Pairs | Confirmed by an outside list |
-|---|---|---|
-| 20 and over | 113 | **86%** |
-| 18–19 | 28 | 75% |
-| 15–17 | 74 | 49% |
-| 10–14 | 1,150 | 15% |
-| under 10 | 4,042 | 3% |
+<div data-link-chart="curve"></div>
 
-The line for a strong alignment is 18, the last band where three links in four are confirmed. For a
-baseline, a verse from each Testament picked at random is confirmed **0.08%** of the time (400,000
-random pairs). Allusions above the rare-word threshold are confirmed **46%** of the time, nearly six
-hundred times as often.
-
-Alignment is one of several rules, and the page names the rule under each link ("Found by..."),
-because their rates differ:
-
-| Greek quotation, admitted by | Links | Confirmed |
-|---|---|---|
-| alignment and unique phrases together | 102 | 94% |
-| a citation formula and two unique phrases | 24 | 83% |
-| three unique phrases | 57 | 79% |
-| both phrase rules, no strong alignment | 24 | 100% |
-| alignment alone | 39 | 56% |
-| **every Greek rule** | **246** | **84%** |
-
-Alignment alone is the weakest. Its unconfirmed links are refrains a writer could have drawn from
-several verses (Mark 12:30 against the seven places Deuteronomy repeats "with all your heart and with
-all your soul"), stock phrases ("the heaven and the earth and the sea", Acts 4:24 and Haggai 2:6),
-and finds no list records, such as Luke 1:31 with Genesis 16:11, so an unconfirmed link can still be
-a real one. When an aligned pair also shares a phrase found in one Old Testament verse, 94% are
-confirmed. The other classes:
-
-| Class | Strong links | Confirmed |
-|---|---|---|
-| reading the Greek against the Hebrew (`quotation-crosslang`) | 48 | 88% |
-| allusion by rare words (`allusion-lemma`) | 103 | 46% |
-| the Hebrew Old Testament quoting itself (`inner-biblical`) | 2,054 | 46% |
-
-The Hebrew rate measures the outside lists as much as the links. The surface method it replaced,
-which found only near-verbatim parallels such as Kings and Chronicles, was confirmed at 45%, so the
-lists record fewer than half of even those. For the Hebrew the better test is the sixteen best-known
-parallels: the links find 211 of their 266 verses.
+Pairs aligning at 20 or more are confirmed 86% of the time, at 18-19 75%, at 15-17 49%, and at
+10-14 15%. The line for a strong alignment is 18, the last band where three links in four are
+confirmed. For a baseline, a verse from each Testament picked at random is confirmed **0.08%** of
+the time, so even the weakest rule below is hundreds of times better than chance.
 
 ### Rules added in October 2026
 
@@ -244,7 +210,75 @@ by...").
 including which gaps these rules closed and which remain.
 
 No single link is certain because of this. A link marked strong has passed one of these rules, and
-the tables above give how often links admitted by that rule are confirmed.
+the Scripture Links page shows beside each link how often links found the same way are confirmed.
+
+## What each rule adds, and where it fails
+
+Every rule answers to three questions: how often an outside list confirms what it finds, what it
+finds that no other rule does, and where it goes wrong. The first is trust; the second is the reason
+to keep it. A rule that is always confirmed and only ever finds what the others find adds nothing,
+and a rule with a lower rate can still be the only way to a real connection.
+
+<div data-link-chart="trust"></div>
+
+Read the chart from the right. The Hebrew New Testament is confirmed almost every time but adds little
+of its own, because a translator who knew the tradition rendered the quotations the tradition already
+knew. Unique phrases sit high and to the right: trusted, and the only route to 35 quotations in the
+answer keys. Alignment, the original measure, now finds just four quotations nothing else does.
+Shared rare words sit furthest left, confirmed 46% of the time, yet 89 of their links come from no
+other rule, which is why they are kept as a class of their own and labelled as echoes. In the Hebrew,
+chaining a run of verses is the least confirmed rule and the one that finds the most: 93 verses of
+the known parallels are reached by it alone.
+
+### The New Testament rules
+
+<div data-link-chart="profiles-nt"></div>
+
+### The Old Testament rules
+
+<div data-link-chart="profiles-ot"></div>
+
+### Where the rules agree
+
+When several rules find the same connection, it rests on more than one kind of evidence. Each column
+below is one combination of rules, and a column with a single dot is what one rule contributes on its
+own.
+
+<div data-link-chart="agree-nt"></div>
+
+Agreement tracks confirmation. Alignment with unique phrases is confirmed 91% of the time, and a
+connection found by three or more rules 64 times in 66; alignment alone, 47%. In the Hebrew, every
+link the printed wording finds is also found on dictionary forms, which is the rule working as
+designed: surface matches the lemmas did not confirm were formulas, and they were dropped.
+
+<div data-link-chart="agree-ot"></div>
+
+### What every rule misses
+
+The answer keys name quotations independently of the method, so they also show what it cannot find.
+Each square is one quotation the WEB translators' footnotes or unfoldingWord's Translation Notes name.
+
+<div data-link-chart="key-nt"></div>
+
+The rules together find 176 of 477, about three in eight. The hollow squares fall into a few kinds:
+
+- **Allusions with no shared phrase.** The Beatitudes echo Isaiah and Psalm 37 (Matthew 5:3-5), and
+  Hebrews 11:33-37 recalls Daniel's lions and Elijah's widow in a few words each.
+- **Quotations too short to carry a phrase.** "You shall not murder" is two Greek words (Matthew
+  5:21; Exodus 20:13).
+- **A phrase shared with a second verse.** Romans 4:3 introduces Genesis 15:6 as Scripture, but its
+  closing words in Greek, "credited to him for righteousness", also stand in Psalm 106:31, so the phrase is
+  not unique and the formula rule cannot use it.
+- **Quotations that follow the Hebrew in few words**, such as Matthew 2:15 and John 19:37.
+- **What leaves no Greek to match**: the cry from the cross (Matthew 27:46) and Daniel's
+  "abomination of desolation" (Matthew 24:15).
+
+<div data-link-chart="key-ot"></div>
+
+For the Old Testament, the rules find 211 of the 266 verses in sixteen well-known parallels. The
+misses are short commandments ("You shall not murder" is two Hebrew words), the family lists of Ezra
+2 and Nehemiah 7, whose numbers differ (775 sons of Arah in Ezra 2:5, 652 in Nehemiah 7:10), and the
+single line Joel and Amos share. Each chart lists its misses, and each opens in Scripture Links.
 
 ## What the method produces
 
@@ -399,3 +433,5 @@ The reference database is built from openly licensed sources and rebuilt from sc
 build, so anyone can reproduce it. The [source catalogue](about-our-datasets.md) lists those sources
 and their licences. The [translations page](../scripture/translations.md) covers the texts
 themselves and where their verse numbering differs.
+
+<script type="module" src="/assets/js/references.js"></script>

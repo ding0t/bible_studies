@@ -6,12 +6,16 @@
 // can be shared, and the back button walks the verses a reader has followed.
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { ChordMap, EgoGraph, MatrixTable, MethodBars, MethodKey, TopVerses } from './LinkCharts.jsx';
+import { KeyCoverage, RuleAgreement, RuleProfiles, TrustMap } from './MethodCharts.jsx';
 import {
   METHODS,
   METHOD_NAMES,
   SCOPES,
+  RULES,
   basisWords,
   bookOfKey,
+  calibration,
+  confirmationFor,
   displayBook as bookName,
   entriesFor,
   indexByRef,
@@ -55,16 +59,22 @@ function readHash() {
   return Object.fromEntries(new window.URLSearchParams(window.location.hash.replace(/^#/, '')));
 }
 
-function Strength({ method, value, corroborated }) {
-  const scale = method === 'allusion-lemma' ? value / 30 : method === 'quotation-crosslang' ? value / 25 : value / 45;
-  const filled = Math.max(1, Math.min(5, Math.round(scale * 5)));
+// How far to trust a link, calibrated: the share of links found the same way that an outside list
+// confirms. A score on its own (alignment 24, weight 15) means nothing to a reader; this does.
+function Trust({ link, cal }) {
+  const t = confirmationFor(cal, link);
+  const rate = t.n ? t.c / t.n : 0;
+  const colour = METHODS[link.m]?.color ?? theme.accent;
   return (
-    <span style={{ color: theme.muted, fontSize: '0.85em', whiteSpace: 'nowrap' }}>
-      <span aria-hidden="true" style={{ color: theme.accent, letterSpacing: '1px' }}>
-        {'●'.repeat(filled)}{'○'.repeat(5 - filled)}
+    <span style={{ color: theme.muted, fontSize: '0.85em', display: 'inline-flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap' }}>
+      <svg width="54" height="8" aria-hidden="true">
+        <rect width="54" height="8" rx="4" fill={theme.line} />
+        <rect width={Math.max(3, rate * 54)} height="8" rx="4" fill={colour} />
+      </svg>
+      <span title={`${t.c} of ${t.n} links found ${t.exact ? 'this way' : 'by this kind of evidence'} are confirmed by an outside list`}>
+        {Math.round(rate * 100)}% of links found {t.exact ? 'this way' : 'like this'} are confirmed
       </span>
-      <span style={{ position: 'absolute', left: '-9999px' }}>{`Strength ${filled} of 5. `}</span>{' '}
-      {corroborated ? 'also in reference lists' : 'not in any reference list'}
+      <span>· {link.c ? 'this one is in a reference list' : 'this one is in no reference list'}</span>
     </span>
   );
 }
@@ -84,7 +94,7 @@ function WithShared({ text, shared }) {
   );
 }
 
-function Connection({ link: l, texts, direction, at, showAt, onOpen }) {
+function Connection({ link: l, texts, direction, at, showAt, onOpen, cal }) {
   const meta = METHODS[l.m];
   const otherKey = direction === 'from' ? l.t : l.f;
   const other = texts[otherKey] || {};
@@ -100,7 +110,7 @@ function Connection({ link: l, texts, direction, at, showAt, onOpen }) {
           </button>
         </strong>
         {englishRef && <span style={{ color: theme.muted }}>= {englishRef}</span>}
-        <Strength method={l.m} value={l.s} corroborated={l.c} />
+        <Trust link={l} cal={cal} />
       </header>
 
       {basisWords(l.b).length > 0 && (
@@ -131,14 +141,18 @@ function Connection({ link: l, texts, direction, at, showAt, onOpen }) {
   );
 }
 
-function Scope({ scope, setScope, links }) {
+function Scope({ scope, setScope, links, fresh, setFresh }) {
   return (
-    <div role="group" aria-label="Which links to draw" style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', margin: '0.5rem 0 1rem' }}>
+    <div role="group" aria-label="Which links to draw" style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', alignItems: 'center', margin: '0.5rem 0 1rem' }}>
       {SCOPES.map((s) => (
         <button key={s.id} type="button" aria-pressed={scope === s.id} onClick={() => setScope(s.id)} style={chip(scope === s.id)}>
-          {s.label} <span style={{ opacity: 0.75 }}>({links.filter((l) => inScope(l, s.id)).length})</span>
+          {s.label} <span style={{ opacity: 0.75 }}>({links.filter((l) => inScope(l, s.id) && (!fresh || !l.c)).length})</span>
         </button>
       ))}
+      <label style={{ display: 'inline-flex', alignItems: 'center', gap: '0.35rem', fontSize: '0.9rem', marginLeft: '0.4rem', cursor: 'pointer' }}>
+        <input type="checkbox" checked={fresh} onChange={(e) => setFresh(e.target.checked)} />
+        Only links no reference list carries
+      </label>
     </div>
   );
 }
@@ -173,7 +187,7 @@ function FlowList({ links, active, onOpen, clear }) {
   );
 }
 
-export default function ScriptureLinks({ data }) {
+export default function ScriptureLinks({ data, method }) {
   const initial = useMemo(readHash, []);
   const [view, setView] = useState(VIEWS.some((v) => v.id === initial.view) ? initial.view : 'lookup');
   const [scope, setScope] = useState(SCOPES.some((s) => s.id === initial.scope) ? initial.scope : 'nt-ot');
@@ -182,10 +196,12 @@ export default function ScriptureLinks({ data }) {
   const [hidden, setHidden] = useState(() => new Set());
   const [active, setActive] = useState(null);
   const [trail, setTrail] = useState([]);
+  const [fresh, setFresh] = useState(initial.fresh === '1');
 
   const byRef = useMemo(() => indexByRef(data.links), [data]);
   const references = useMemo(() => [...byRef.keys()].sort(), [byRef]);
-  const scoped = useMemo(() => data.links.filter((l) => inScope(l, scope)), [data, scope]);
+  const scoped = useMemo(() => data.links.filter((l) => inScope(l, scope) && (!fresh || !l.c)), [data, scope, fresh]);
+  const cal = useMemo(() => calibration(data.links), [data]);
   const starts = useMemo(() => startingPoints(data.links), [data]);
 
   const open = useCallback((text, push = true) => {
@@ -217,6 +233,13 @@ export default function ScriptureLinks({ data }) {
     setView(id);
     const params = new window.URLSearchParams(window.location.hash.replace(/^#/, ''));
     if (id === 'lookup') params.delete('view'); else params.set('view', id);
+    window.history.replaceState(null, '', `#${params}`);
+  };
+  const chooseFresh = (on) => {
+    setFresh(on);
+    setActive(null);
+    const params = new window.URLSearchParams(window.location.hash.replace(/^#/, ''));
+    if (on) params.set('fresh', '1'); else params.delete('fresh');
     window.history.replaceState(null, '', `#${params}`);
   };
   const chooseScope = (id) => {
@@ -359,7 +382,7 @@ export default function ScriptureLinks({ data }) {
                   </h3>
                   <p style={{ margin: '0 0 0.4rem', color: theme.muted, fontSize: '0.9em' }}>{METHODS[method].why}</p>
                   {rows.map(({ link: l, direction, at }, i) => (
-                    <Connection key={i} link={l} texts={data.texts} direction={direction} at={at} showAt={Boolean(selected.chapter)} onOpen={open} />
+                    <Connection key={i} link={l} texts={data.texts} direction={direction} at={at} showAt={Boolean(selected.chapter)} onOpen={open} cal={cal} />
                   ))}
                 </section>
               ))}
@@ -411,7 +434,7 @@ export default function ScriptureLinks({ data }) {
           <p style={{ color: theme.muted, margin: '0 0 0.2rem', fontSize: '0.95rem' }}>
             Each curve joins two books where a verse in one quotes or echoes a verse in the other. The wider the curve, the more verses it carries.
           </p>
-          <Scope scope={scope} setScope={chooseScope} links={data.links} />
+          <Scope scope={scope} setScope={chooseScope} links={data.links} fresh={fresh} setFresh={chooseFresh} />
           <MethodKey methods={data.methodOrder.filter((m) => scoped.some((l) => l.m === m))} />
           <ChordMap links={scoped} active={active} setActive={setActive} />
           <FlowList links={scoped} active={active} onOpen={open} clear={() => setActive(null)} />
@@ -424,7 +447,7 @@ export default function ScriptureLinks({ data }) {
           <p style={{ color: theme.muted, margin: '0 0 0.2rem', fontSize: '0.95rem' }}>
             The same links as a table, for reading an exact count. Darker is more links.
           </p>
-          <Scope scope={scope} setScope={chooseScope} links={data.links} />
+          <Scope scope={scope} setScope={chooseScope} links={data.links} fresh={fresh} setFresh={chooseFresh} />
           <MatrixTable links={scoped} active={active} setActive={setActive} />
           <FlowList links={scoped} active={active} onOpen={open} clear={() => setActive(null)} />
         </section>
@@ -436,10 +459,29 @@ export default function ScriptureLinks({ data }) {
           <p style={{ color: theme.muted, margin: '0 0 0.2rem', fontSize: '0.95rem' }}>
             How many links rest on each kind of evidence, and which verses the rest of Scripture returns to.
           </p>
-          <Scope scope={scope} setScope={chooseScope} links={data.links} />
+          <Scope scope={scope} setScope={chooseScope} links={data.links} fresh={fresh} setFresh={chooseFresh} />
           <MethodBars links={scoped} methodOrder={data.methodOrder} />
           <h3 style={{ margin: '1.6rem 0 0.4rem' }}>Most often drawn on</h3>
           <TopVerses links={scoped} onOpen={open} />
+          {method && (
+            <>
+              <h3 style={{ margin: '2rem 0 0.3rem' }}>How far to trust each rule, and what it adds</h3>
+              <p style={{ color: theme.muted, margin: '0 0 0.2rem', fontSize: '0.9rem' }}>
+                Every link names the rule that found it. Here is each rule’s record against outside lists and answer keys.
+              </p>
+              <TrustMap method={method} />
+              <RuleProfiles method={method} onOpen={open} rules={RULES.filter((r) => (scope === 'ot-ot') === (r.method === 'inner-biblical') || scope === 'all')} />
+              <h3 style={{ margin: '1.6rem 0 0.3rem' }}>Where the rules agree</h3>
+              <RuleAgreement method={method} scope={scope === 'ot-ot' ? 'ot' : 'nt'} />
+              <h3 style={{ margin: '1.6rem 0 0.3rem' }}>What the rules miss</h3>
+              <p style={{ color: theme.muted, margin: '0 0 0.2rem', fontSize: '0.9rem' }}>
+                {scope === 'ot-ot'
+                  ? 'Every verse of sixteen well-known Old Testament parallels, one square each.'
+                  : 'Every quotation the WEB translators’ footnotes or unfoldingWord’s Translation Notes name, one square each.'}
+              </p>
+              <KeyCoverage method={method} scope={scope === 'ot-ot' ? 'ot' : 'nt'} onOpen={open} />
+            </>
+          )}
         </section>
       )}
 

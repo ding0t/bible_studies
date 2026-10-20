@@ -189,6 +189,19 @@ PHRASE_NT_CAP = 12          # a phrase in more NT verses than this is an idiom, 
 # The citing forms themselves -- "it is written", "the Scripture", "that it might be fulfilled", "what
 # was spoken" -- in the verse or the one before. Forms, not lemmas: Revelation's "write" and
 # Colossians' "be filled" are the same lemmas and are not citations, and admitted 13 false links.
+# The Hebrew answer key: sixteen well-known parallels, (book, chapter, first verse, last verse) in the
+# Masoretic numbering. link_lab.py set the Hebrew rules against it; export_links.py reports recall on it.
+KNOWN_OT = [
+    (("1Chr", 16, 8, 22), ("Ps", 105, 1, 15)), (("1Chr", 16, 23, 33), ("Ps", 96, 1, 13)),
+    (("1Chr", 16, 34, 36), ("Ps", 106, 1, 48)), (("Joel", 4, 16, 16), ("Amos", 1, 2, 2)),
+    (("Obad", 1, 1, 5), ("Jer", 49, 9, 16)), (("Ps", 108, 2, 6), ("Ps", 57, 8, 12)),
+    (("Ps", 108, 7, 14), ("Ps", 60, 7, 14)), (("Ps", 70, 2, 6), ("Ps", 40, 14, 18)),
+    (("Isa", 2, 2, 4), ("Mic", 4, 1, 3)), (("2Sam", 22, 2, 51), ("Ps", 18, 3, 51)),
+    (("Ps", 14, 1, 7), ("Ps", 53, 2, 7)), (("1Chr", 17, 1, 27), ("2Sam", 7, 1, 29)),
+    (("Ezra", 2, 1, 70), ("Neh", 7, 6, 73)), (("Exod", 20, 2, 17), ("Deut", 5, 6, 21)),
+    (("2Chr", 36, 22, 23), ("Ezra", 1, 1, 3)), (("Isa", 37, 1, 38), ("2Kgs", 19, 1, 37)),
+]
+
 FORMULA_FORMS = {"γεγραπται", "γεγραμμενον", "γεγραμμενοσ", "γραφη", "γραφην", "γραφησ",
                  "πληρωθη", "πληρωθωσιν", "επληρωθη", "πληρωθηναι", "ρηθεν", "ειρηται", "ειρημενον"}
 

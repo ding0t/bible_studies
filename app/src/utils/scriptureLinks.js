@@ -85,6 +85,109 @@ export const basisWords = (basis) =>
     return parts;
   }, []) : []);
 
+// Each rule as the method page profiles it: what it sees, what only it can do, where it goes wrong,
+// with a case of each a reader can open. The numbers beside these come from link-method.json, so the
+// profile stays editorial and the counts stay live. `method` picks the colour; `dash` tells a rule
+// from its siblings in the same class. Weak examples are links the rule really admits that no
+// outside list confirms, or quotations it really misses.
+export const RULES = [
+  {
+    id: 'greek-alignment', method: 'quotation-greek', dash: null, name: 'Wording that lines up',
+    sees: 'About nine Greek words in order, allowing for words added or left out.',
+    strong: 'Long and adapted quotations: Luke 4:18 leaves a clause out of Isaiah 61:1 and still aligns.',
+    strongRef: 'Luke 4:18',
+    weak: 'Refrains and stock phrases align too: Mark 12:30 against seven verses of Deuteronomy, Acts 4:24 against Haggai 2:6.',
+    weakRef: 'Acts 4:24',
+  },
+  {
+    id: 'greek-unique-phrases', method: 'quotation-greek', dash: '5 3', name: 'A phrase found in one verse',
+    sees: 'Three-word phrases that occur in only one Septuagint verse.',
+    strong: 'Short quotations made of everyday words, which no rarity measure sees: John 10:34 and Psalm 82:6.',
+    strongRef: 'John 10:34',
+    weak: 'A phrase can be unique and still be idiom: Ephesians 6:10’s “the strength of his might” and Daniel 4:30.',
+    weakRef: 'Eph 6:10',
+  },
+  {
+    id: 'greek-formula', method: 'quotation-greek', dash: '1.5 3', name: 'The verse cites Scripture',
+    sees: '“It is written”, “the Scripture”, “that it might be fulfilled”, plus two unique phrases.',
+    strong: 'The short, famous quotations: James 2:8, Romans 1:17, Matthew 4:7, Matthew 2:6 from Micah.',
+    strongRef: 'Jas 2:8',
+    weak: 'Only where the writer says he is quoting. Romans 4:3 says it and is missed: its phrase also stands in Psalm 106:31.',
+    weakRef: 'Rom 4:3',
+  },
+  {
+    id: 'quotation-crosslang', method: 'quotation-crosslang', dash: '8 2 2 2', name: 'Greek read against the Hebrew',
+    sees: 'The Greek verse against the Hebrew, through the Septuagint translators’ own word choices.',
+    strong: 'Quotations that follow the Hebrew where the Septuagint differs: 1 Corinthians 15:54 and Isaiah 25:8.',
+    strongRef: '1Cor 15:54',
+    weak: 'It takes the best match it can find: John 19:29’s sour wine lands on Ruth 2:14.',
+    weakRef: 'John 19:29',
+  },
+  {
+    id: 'allusion-lemma', method: 'allusion-lemma', dash: '6 3', name: 'Shared rare words',
+    sees: 'Words found in 30 verses or fewer, shared by two passages with no phrase in common.',
+    strong: 'Echoes with no shared phrasing: the jewels of Revelation 21:20 and Ezekiel 28:13.',
+    strongRef: 'Rev 21:20',
+    weak: 'Mostly lists: names in the genealogies, places, gems and spices.',
+    weakRef: 'Luke 3:35',
+  },
+  {
+    id: 'quotation-hebrew', method: 'quotation-hebrew', dash: '1.5 3.5', name: 'A Hebrew New Testament',
+    sees: 'Where Delitzsch’s 19th-century Hebrew translation uses the Old Testament’s own words.',
+    strong: 'Almost always confirmed, and it catches quotations the Greek method misses.',
+    strongRef: 'Acts 2:20',
+    weak: 'A translator’s judgement: he knew the tradition, so agreeing with the lists proves little.',
+    weakRef: null,
+  },
+  {
+    id: 'hebrew-alignment', method: 'inner-biblical', dash: null, name: 'Hebrew wording lines up',
+    sees: 'Hebrew words in order, as printed.',
+    strong: 'Near-verbatim retellings: Kings in Chronicles, Isaiah 36-39 in 2 Kings 18-20.',
+    strongRef: '2Chr 36:22',
+    weak: 'On its own it finds formulas (“the rest of the acts of…”), so it admits nothing without the dictionary-form match.',
+    weakRef: null,
+  },
+  {
+    id: 'hebrew-lemma', method: 'inner-biblical', dash: '5 3', name: 'Same words in dictionary form',
+    sees: 'Hebrew words reduced to their dictionary forms, rare ones weighted more.',
+    strong: 'Parallels the printed text cannot match, where a word is spelled or prefixed differently: 2 Samuel 22 and Psalm 18.',
+    strongRef: '2Sam 22:3',
+    weak: 'Short verses carry too little to score: “You shall not murder” is two Hebrew words.',
+    weakRef: 'Exod 20:13',
+  },
+  {
+    id: 'hebrew-lemma-run', method: 'inner-biblical', dash: '1.5 3', name: 'One of a run',
+    sees: 'A weaker match whose neighbouring verses also match, as borrowed passages come in runs.',
+    strong: 'Whole borrowed passages: 1 Chronicles 16:8 and Psalm 105:1 begin a psalm the Chronicler copies verse after verse.',
+    strongRef: '1Chr 16:8',
+    weak: 'A weak verse is admitted on its neighbours’ strength, so it is confirmed least often.',
+    weakRef: null,
+  },
+];
+
+export const ruleById = Object.fromEntries(RULES.map((r) => [r.id, r]));
+
+// How often links found the way this one was found are confirmed by an outside list, from the
+// exported links themselves: grouped by class and the exact rules that admitted them.
+export function calibration(links) {
+  const out = new Map();
+  for (const l of links) {
+    for (const id of [`${l.m}|${l.b}`, l.m]) {
+      const s = out.get(id) ?? { n: 0, c: 0 };
+      s.n += 1;
+      s.c += l.c;
+      out.set(id, s);
+    }
+  }
+  return out;
+}
+
+// A group under ten links says little about itself; fall back to the class as a whole.
+export function confirmationFor(cal, link) {
+  const exact = cal.get(`${link.m}|${link.b}`);
+  return exact && exact.n >= 10 ? { ...exact, exact: true } : { ...cal.get(link.m), exact: false };
+}
+
 export const SCOPES = [
   { id: 'nt-ot', label: 'New Testament and the Old', test: (f, t) => isNT(f) && !isNT(t) },
   { id: 'ot-ot', label: 'Old Testament parallels', test: (f, t) => !isNT(f) && !isNT(t) },
