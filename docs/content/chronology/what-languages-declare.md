@@ -44,7 +44,8 @@ from headcount. This one argues from speech.
 ### Lessons about Jesus
 
 - **At Pentecost the Holy Spirit gave the apostles the nations' languages to tell the mighty works of
-  God**, and the crowd "were bewildered" with Babel's own verb (Acts 2:6). The gospel of Jesus goes
+  God**, and the crowd "were bewildered" with the verb the Greek Old Testament uses at Babel (Acts 2:6;
+  Genesis 11:7, 9). The gospel of Jesus goes
   out in every tongue.
 - **The Lamb ransomed His people "from every tribe and language and people and nation"** (Revelation
   5:9, ESV). The languages God divided at Babel are the languages Jesus bought people from.
@@ -98,7 +99,7 @@ confesses that Jesus Christ is Lord. In Jesus' name. Amen.
 ### Genesis 10 first, then its cause
 
 Genesis 10 lists the nations descended from Noah's three sons. Three times it closes a branch with
-the same formula: "by their clans, their languages, their lands, and their nations" (Genesis 10:20,
+the same four terms: "by their clans, their languages, their lands, and their nations" (Genesis 10:20,
 31, ESV; compare 10:5). The word for "languages" there is <span dir="rtl">לָשׁוֹן</span> (*lashon*,
 H3956, "tongue").
 
@@ -221,10 +222,11 @@ That leaves the second model, a long common ancestry. It escapes the decay test 
 it needs has its own cost, and the growth of known families measures it.
 
 Families with a written history let the rate be counted. Latin became 77 Romance languages in about
-1,600 years. Arabic became 38 varieties in about 1,350, and Common Slavic 20 languages in about
-1,400. Each doubled its number of languages every 255 to 324 years, net of the languages that died.
+1,600 years. Arabic became 37 varieties in about 1,350, and Common Slavic 20 languages in about
+1,400. Each doubled its number of languages every 255 to 324 years, counting the recorded extinct
+ones as the world total does.
 
-[![Doubling time of the number of languages. Families with a recorded history doubled every 255 to 372 years (Romance, Arabic, Slavic, Germanic), Bantu every 547 on a model date. Growing from Genesis 10's seventy nations to 7,674 languages since Babel needs a doubling about every 609 years on the Masoretic dates, or 690 on the Septuagint's. Growing from one language 50,000 or 100,000 years ago needs a doubling every 3,874 or 7,748 years.](../assets/img/what-languages-declare/how-fast-tongues-multiply.svg)](../assets/img/what-languages-declare/how-fast-tongues-multiply.svg)
+[![Doubling time of the number of languages. Romance, Arabic and Slavic, with recorded histories, doubled every 255 to 324 years; Germanic every 372 and Bantu every 547 on model dates. Growing from Genesis 10's seventy nations to 7,674 languages since Babel needs a doubling about every 609 years on the Masoretic dates, or 690 on the Septuagint's. Growing from one language 50,000 or 100,000 years ago needs a doubling every 3,874 or 7,748 years.](../assets/img/what-languages-declare/how-fast-tongues-multiply.svg)](../assets/img/what-languages-declare/how-fast-tongues-multiply.svg)
 
 From seventy nations at Babel to 7,674 languages needs a doubling every 609 years. That is slower
 than every recorded family, which leaves room for the languages lost along the way.
@@ -262,26 +264,27 @@ one.
 
 Each family's first written record can be placed against Genesis.
 
-[![Timeline from 3400 BC to the start of the era of each family's first written record: Egyptian c. 3250 BC and Sumerian c. 3200 BC, both disputed; Akkadian c. 2400 BC; Elamite c. 2250 BC; Hittite and Luwian names c. 1900 BC; Greek c. 1400 BC; Indo-Aryan c. 1380 BC; Chinese c. 1250 BC; Mayan c. 300 BC, disputed. Marked against the Flood (2303 BC Masoretic, 3183 BC Septuagint) and Peleg's lifetime (2202-1963 BC Masoretic, 2652-2313 BC Septuagint).](../assets/img/what-languages-declare/first-written-witnesses.svg)](../assets/img/what-languages-declare/first-written-witnesses.svg)
+[![Timeline from 3400 BC to the start of the era of each family's first written record: Egyptian c. 3250 BC and Sumerian c. 3200 BC, both disputed; Akkadian c. 2350 BC; Elamite c. 2250 BC; Hittite and Luwian names c. 1900 BC; Greek c. 1400 BC; Indo-Aryan c. 1380 BC; Chinese c. 1250 BC; Mayan c. 300 BC, disputed. Marked against the Flood (2303 BC Masoretic, 3183 BC Septuagint) and Peleg's lifetime (2202-1963 BC Masoretic, 2652-2313 BC Septuagint).](../assets/img/what-languages-declare/first-written-witnesses.svg)](../assets/img/what-languages-declare/first-written-witnesses.svg)
 
-Every Indo-European record falls after Peleg. So do the Chinese oracle bones and the Mayan murals.
+Every Indo-European record falls after Peleg's birth. So do the Chinese oracle bones and the Mayan murals.
 The pressure point is at the top of the chart. On conventional dates, Egyptian, Sumerian and Akkadian
-were written before the Masoretic Flood. That conflict belongs to the dating of early Mesopotamia and
+were written before the Masoretic Flood, and Elamite before Peleg was born. That conflict belongs to the dating of early Mesopotamia and
 Egypt as a whole, and [The Flood and the King Lists](flood-and-the-king-lists.md) weighs it there.
 
 ### Speech and writing have different family trees
 
 Babel confused speech. The people would no longer <span dir="rtl">שָׁמַע</span> (*shama*, H8085),
-"hear," one another (Genesis 11:7, where the ESV has "understand"). Writing was not yet on the scene,
-and its later history has the opposite shape to the history of speech.
+"hear," one another (Genesis 11:7, where the ESV has "understand"). Genesis 11 says nothing about writing,
+and writing's history has the opposite shape to the history of speech.
 
 Writing was invented only a few times: in Mesopotamia, Egypt, China and Mesoamerica. Every other
 script was borrowed or adapted from one of those. Cuneiform, made for Sumerian, an isolate, went on
 to write Akkadian (Semitic), Elamite (an isolate) and Hittite (Indo-European), four unrelated
 languages in one script. Chinese characters went on to write Japanese, Korean and Vietnamese. And
 nearly every alphabet in use, Hebrew, Arabic, Greek, Latin and Cyrillic among them, descends from one
-source, the Proto-Sinaitic letters of Egypt and Sinai of about 1850 BC. Korean Hangul (AD 1443) is a
-rare script designed from nothing.
+source, the Proto-Sinaitic letters of Egypt and Sinai, usually dated about 1850 BC and by some
+scholars a few centuries later. Korean Hangul (AD 1443) is a rare script invented by design, its
+consonant shapes drawn from the mouth that speaks them.
 
 So writing behaves like any human invention: a few inventions, then spread by borrowing across
 language lines. Speech breaks into hundreds of lineages that borrowing never connects. The two
@@ -320,19 +323,19 @@ oracle bones of about 1250 BC, are also later than Moses. This study leaves the 
   about 1900 BC, two or three centuries after Peleg's birth on the Masoretic dates. The current
   Bayesian estimate puts the family's first split about 8,100 years ago (Heggarty and others, 2023).
   Quentin Atkinson and colleagues (2008) found that 10-33% of vocabulary change in three large
-  families happens in bursts when languages split, so early change ran faster than the average. That
+  families happens in bursts when languages split, so change runs fastest where a language divides. That
   narrows the gap by an amount nobody has measured, and a gap remains. Babel could also have
   produced sister languages within a family. Genesis is silent on that, so it stays a speculation.
 - **The rates are disputed.** Mark Pagel and colleagues (2013) argued that a few very frequent words
   keep a signal for about 15,000 years, joining seven Eurasian families. Most historical linguists
-  rejected the method. If Pagel is right, the young, gradual model fails more clearly still, and some
-  of the 429 lineages may be fewer.
+  rejected the method. If Pagel is right, the young, gradual model fails more clearly still, and the 429
+  lineages would be fewer.
 
 ## Part three: what languages declare
 
 At Babel the nations were scattered by language. At Pentecost they were gathered by language. The
 crowd in Jerusalem "were bewildered, because each one was hearing them speak in his own language"
-(Acts 2:6, ESV). "Bewildered" is συνεχύθη, from συγχέω (*synchéō*), the verb the Septuagint used at
+(Acts 2:6, ESV). "Bewildered" is συνεχύθη, from συγχέω (*synchéō*, G4797), the verb the Septuagint used at
 Babel. It occurs five times in the New Testament, all in Acts. Luke shares a word with Genesis 11
 here and quotes nothing from it, so the link is an echo, and it is a strong one. Among the hearers
 were "Medes and Elamites" (Acts 2:9, ESV), descendants of Madai and Elam in the table of nations
@@ -354,7 +357,7 @@ native language" (Acts 2:8, ESV), and the apostles spoke in other γλῶσσα�
 
 The end of the story keeps them too. John saw "a great multitude that no one could number, from
 every nation, from all tribes and peoples and languages, standing before the throne and before the
-Lamb" (Revelation 7:9, ESV). They sing to the Lamb that "by your blood you ransomed people for God
+Lamb" (Revelation 7:9, ESV). Two chapters earlier the living creatures and the elders sing to the Lamb that "by your blood you ransomed people for God
 from every tribe and language and people and nation" (Revelation 5:9, ESV). Zephaniah promised a
 "pure speech" for the peoples (Zephaniah 3:9, ESV), Babel's *saphah* made clean, in the kingdom that
 follows the day of judgment. Pentecost was its first taste.
@@ -411,7 +414,9 @@ His mighty works in their own tongue.
   Project Gutenberg #12629).
 - **R. D. Woodard** (ed.), *The Cambridge Encyclopedia of the World's Ancient Languages* (Cambridge,
   2004) — conventional dates of first attestation.
-- **A. Kloekhorst**, *Kanišite Hittite* (Brill, 2019) — Hittite and Luwian names at Kanesh.
+- **A. Kloekhorst**, *Kanišite Hittite: The Earliest Attested Record of Indo-European* (Brill, 2019) —
+  Hittite names and words at Kanesh; and **I. Yakubovich**, *Sociolinguistics of the Luvian Language*
+  (Brill, 2010) — Luwian names there, some of which Kloekhorst disputes.
 - ***Enmerkar and the Lord of Aratta***, lines 134-155, in the *Electronic Text Corpus of Sumerian
   Literature* (Oxford), c.1.8.2.3.
 - **C. H. Kang & E. R. Nelson**, *The Discovery of Genesis* (Concordia, 1979); and Xu Shen, *Shuowen

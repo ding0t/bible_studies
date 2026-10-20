@@ -263,7 +263,7 @@ def rates():
                      yrs * ln2 / math.log(total), True, BLUE))
 
     x0, x1, dmax = 300, 610, 8000
-    body = [text(40, 140, "Years for the number of languages to double (net of languages lost)",
+    body = [text(40, 140, "Years for the number of languages to double (recorded extinct ones counted)",
                  14, weight="bold")]
     y = 168
     for name, sub, d, dashed, colour in rows:

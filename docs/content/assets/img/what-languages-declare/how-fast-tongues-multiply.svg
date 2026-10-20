@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 700" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
 <title id="t">How fast languages multiply</title>
-<desc id="d">Doubling time of the number of languages: Romance every 255 years; Arabic every 257 years; Slavic every 324 years; Germanic every 372 years; Narrow Bantu every 547 years; Babel, Masoretic every 609 years; Babel, Septuagint every 690 years; One tongue, 50k years every 3,874 years; One tongue, 100k years every 7,748 years. Families with a recorded history doubled faster than Babel requires; one language long ago requires a rate ten to thirty times slower than any of them.</desc>
+<desc id="d">Doubling time of the number of languages: Romance every 255 years; Arabic every 259 years; Slavic every 324 years; Germanic every 372 years; Narrow Bantu every 547 years; Babel, Masoretic every 609 years; Babel, Septuagint every 690 years; One tongue, 50k years every 3,874 years; One tongue, 100k years every 7,748 years. Families with a recorded history doubled faster than Babel requires; one language long ago requires a rate ten to thirty times slower than any of them.</desc>
 <rect width="720" height="700" fill="#faf6ec"/>
 <rect x="8" y="8" width="704" height="684" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
 <rect x="14" y="14" width="692" height="672" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
@@ -8,15 +8,15 @@
 <text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Measured rates beside the rates each history needs</text>
 <path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
 <circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
-<text x="40.0" y="140.0" font-size="14" fill="#3b2f1e" font-weight="bold">Years for the number of languages to double (net of languages lost)</text>
+<text x="40.0" y="140.0" font-size="14" fill="#3b2f1e" font-weight="bold">Years for the number of languages to double (recorded extinct ones counted)</text>
 <text x="40.0" y="182.0" font-size="14" fill="#3b2f1e" font-weight="bold">Romance</text>
 <text x="40.0" y="199.0" font-size="12" fill="#6b5a3e" font-style="italic">77 languages in 1,600 years</text>
 <rect x="300" y="172" width="9.9" height="24" fill="#a67c3d" fill-opacity="0.35" stroke="#a67c3d" stroke-width="1.4"/>
 <text x="317.9" y="189.0" font-size="14" fill="#3b2f1e" font-weight="bold">255</text>
 <text x="40.0" y="228.0" font-size="14" fill="#3b2f1e" font-weight="bold">Arabic</text>
-<text x="40.0" y="245.0" font-size="12" fill="#6b5a3e" font-style="italic">38 languages in 1,350 years</text>
+<text x="40.0" y="245.0" font-size="12" fill="#6b5a3e" font-style="italic">37 languages in 1,350 years</text>
 <rect x="300" y="218" width="10.0" height="24" fill="#a67c3d" fill-opacity="0.35" stroke="#a67c3d" stroke-width="1.4"/>
-<text x="318.0" y="235.0" font-size="14" fill="#3b2f1e" font-weight="bold">257</text>
+<text x="318.0" y="235.0" font-size="14" fill="#3b2f1e" font-weight="bold">259</text>
 <text x="40.0" y="274.0" font-size="14" fill="#3b2f1e" font-weight="bold">Slavic</text>
 <text x="40.0" y="291.0" font-size="12" fill="#6b5a3e" font-style="italic">20 languages in 1,400 years</text>
 <rect x="300" y="264" width="12.6" height="24" fill="#a67c3d" fill-opacity="0.35" stroke="#a67c3d" stroke-width="1.4"/>

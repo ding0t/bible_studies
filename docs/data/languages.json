@@ -30,20 +30,20 @@
     "source": "language counts: Glottolog child_language_count for each family (includes recorded extinct varieties); ages: when the parent began to split",
     "families": [
       {"name": "Romance", "glottocode": "roma1334", "languages": 77, "years": 1600, "dated_by": "history", "age_note": "Latin, from the 5th century AD"},
-      {"name": "Arabic", "glottocode": "arab1394", "languages": 38, "years": 1350, "dated_by": "history", "age_note": "the 7th-century AD conquests"},
+      {"name": "Arabic", "glottocode": "arab1394", "languages": 37, "years": 1350, "dated_by": "history", "age_note": "the 7th-century AD conquests; Glottolog's Arabian node holds 38, less Ancient North Arabian, which is pre-Islamic and no daughter of it"},
       {"name": "Slavic", "glottocode": "slav1255", "languages": 20, "years": 1400, "dated_by": "history", "age_note": "Common Slavic, from the 6th-7th century AD"},
       {"name": "Germanic", "glottocode": "germ1287", "languages": 106, "years": 2500, "dated_by": "model", "age_note": "Proto-Germanic, c. 500 BC, a reconstruction"},
       {"name": "Narrow Bantu", "glottocode": "narr1281", "languages": 563, "years": 5000, "dated_by": "model", "age_note": "the Bantu expansion, c. 3000 BC, a model date"}
     ]
   },
   "first_writing": {
-    "source": "conventional dates as given in R. D. Woodard (ed.), The Cambridge Encyclopedia of the World's Ancient Languages (2004) and the works named per row; BC; 'dashed' marks a date or an identification that is disputed",
+    "source": "conventional dates (middle chronology for Mesopotamia) as given in R. D. Woodard (ed.), The Cambridge Encyclopedia of the World's Ancient Languages (2004) and the works named per row; BC; 'dashed' marks a date or an identification that is disputed",
     "rows": [
       {"language": "Egyptian", "family": "Afro-Asiatic", "bc": 3250, "dashed": true, "what": "Abydos tomb U-j labels (reading as language disputed)"},
       {"language": "Sumerian", "family": "isolate", "bc": 3200, "dashed": true, "what": "Uruk IV proto-cuneiform (language identification disputed)"},
-      {"language": "Akkadian", "family": "Afro-Asiatic", "bc": 2400, "dashed": false, "what": "Old Akkadian royal inscriptions"},
+      {"language": "Akkadian", "family": "Afro-Asiatic", "bc": 2350, "dashed": false, "what": "Sargonic royal inscriptions (Semitic names at Fara are earlier)"},
       {"language": "Elamite", "family": "isolate", "bc": 2250, "dashed": false, "what": "Old Elamite treaty with Naram-Sin"},
-      {"language": "Hittite and Luwian", "family": "Indo-European", "bc": 1900, "dashed": false, "what": "personal names in the Kanesh merchant archives (Kloekhorst, Kanishite Hittite, 2019)"},
+      {"language": "Hittite and Luwian", "family": "Indo-European", "bc": 1900, "dashed": false, "what": "names in the Kanesh merchant archives (Kloekhorst 2019; Yakubovich 2010)"},
       {"language": "Greek", "family": "Indo-European", "bc": 1400, "dashed": false, "what": "Linear B tablets, Knossos"},
       {"language": "Indo-Aryan", "family": "Indo-European", "bc": 1380, "dashed": false, "what": "Mitra and Varuna in the Mitanni treaty with the Hittites"},
       {"language": "Chinese", "family": "Sino-Tibetan", "bc": 1250, "dashed": false, "what": "oracle-bone inscriptions, reign of Wu Ding"},

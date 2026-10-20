@@ -154,14 +154,18 @@ stages:
     done: true
     file: "docs/content/chronology/what-languages-declare.md"
   review:
-    done: false
-    validated: true # npm run validate 2026-10-20: only the three provenance warnings (filled at commit); mkdocs build --strict passes
+    done: true # review-bible-study 2026-10-20 (agent pass); judgment calls below await the author
+    validated: true # npm run validate 2026-10-20 after review edits: no warnings on this file; evidence replay 7/7 ok
+    notes: "See review_2026-10-20."
 
 evidence:
   - {claim: "synecho occurs 5 times in the NT, all in Acts", tool: bible_concordance, args: {strongs: "G4797", work_id: "macula-greek-sblgnt"}, expect_count: 5}
   - {claim: "Zephaniah 3:9 'pure speech' is saphah", tool: bible_interlinear, args: {book: "Zeph", chapter: 3, verse: 9}, expect_contains: "H8193"}
   - {claim: "Genesis 10:5 'language' is lashon", tool: bible_interlinear, args: {book: "Gen", chapter: 10, verse: 5}, expect_contains: "H3956"}
   - {claim: "Acts 2:6 'bewildered' is synecho", tool: bible_interlinear, args: {book: "Acts", chapter: 2, verse: 6}, expect_contains: "G47970"}
+  - {claim: "Genesis 11:7 'understand' renders shama", tool: bible_interlinear, args: {book: "Gen", chapter: 11, verse: 7}, expect_contains: "H8085"}
+  - {claim: "1 Kings 7:23 'brim' is saphah", tool: bible_interlinear, args: {book: "1Kgs", chapter: 7, verse: 23}, expect_contains: "H8193"}
+  - {claim: "Revelation 5:9's singers are the living creatures and elders of 5:8", tool: study_verse, args: {book: "Rev", chapter: 5, verse: 8, work_id: "esv-study-bible"}, expect_contains: "twenty-four elders"}
 
 open_questions:
   - "Author decision: is the 70-vs-429 tension worded right (stated open, text silent on a number)?"
@@ -183,5 +187,44 @@ resources_consulted:
   - {type: other, title: "ETCSL c.1.8.2.3, Enmerkar and the Lord of Aratta 134-155", note: "Optative/future wording; Kramer's past reading. Jacobsen 1992, Vanstiphout 1994, Klein 2000 in the literature."}
   - {type: other, title: "Shuowen Jiezi entries 船, 禁", note: "船 从舟 鉛省聲; 禁 从示 林聲 (via chinesenotes / dong-chinese search results). 婪 not verified and not used."}
   - {type: other, title: "Kang & Nelson critiques", note: "Timothy Chow review; Raccoon Bend; Talk.Origins CG101."}
+
+  - {type: other, title: "Glottolog languoid API and Newick trees (roma1334, arab1394, slav1255, germ1287, narr1281)", note: "Review 2026-10-20: child_language_count 77/38/20/106/563 confirmed; Arabian's 38 includes Ancient North Arabian (pre-Islamic, not a daughter) -> 37 used. Romance's 77 includes creoles and Old French/Old Spanish/Old Provencal stages."}
+  - {type: other, title: "Sapir 1921, Gutenberg #12629 (re-downloaded)", note: "Quote confirmed in ch. I, 'Introductory: Language Defined'."}
+  - {type: other, title: "ETCSL tr1823 (Enmerkar and the Lord of Aratta)", note: "Both quoted phrases confirmed in the block labelled 134-155."}
+  - {type: other, title: "Yakubovich, Sociolinguistics of the Luvian Language (Brill, 2010); eDiAna entries", note: "Luwian names in Old Assyrian Kanesh texts; several identifications disputed by Kloekhorst 2019. Karum period c. 1970-1710 BC."}
+  - {type: other, title: "RIME 2 (Frayne 1993) description; Abu Salabikh/Fara Semitic material", note: "First Akkadian royal inscriptions are Sargonic (2334 BC middle chronology); earlier Semitic names at Fara. Data row moved 2400 -> 2350."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible; ESV Study Bible (Zeph 3:9, Acts 2:1-13)", note: "Phase 5 cross-check. NIVBTSB: Zeph 3:9 'likely alludes' to Babel (confirms, at 'likely'); ESV SB 'some have suggested' (weaker). NIVBTSB places fulfilment in the church (complicates; study's kingdom placement follows the statement of faith -- no change). ESV SB Acts 2:1-4 'on the believers' (bears on 'the apostles')."}
+
+review_2026-10-20:
+  checked:
+    - "Every ESV quotation re-queried in study-notes.db (Gen 2:19; 10:5, 20, 25, 31; 11:1-9; 12:3; Deut 32:8; Isa 19:18; Zeph 3:9; Acts 2:4-11; 17:26-27; Rev 5:8-9; 7:9-10): all verbatim. ESV SB Gen 11:1 note quote verbatim."
+    - "Hebrew/Greek re-derived from interlinear/concordance: saphah H8193 (Gen 11:1, 7, 9; Zeph 3:9; 1 Kgs 7:23; 9:26), lashon H3956 (Gen 10:5), puts H6327 (11:4, 8, 9), balal H1101, Bavel H894, shama H8085 (11:7), synecho G4797 (5x SBLGNT, all Acts), synchysis G4799 (LXX Gen 11:9; Acts 19:29), dialektos G1258, glossa G1100. Brenton Gen 11:7 synchéōmen, 11:9 Synchysis confirmed."
+    - "Arithmetic recomputed: 16.6-28.8% shared at 4,129 years; doublings 255/259/324/372/547, 609 (MT), 690 (LXX), 3,874, 7,748; 135 of 238 families <=5; Peleg 2202-1963, Flood 2303."
+    - "Glottolog 5.3 page: 7,674 / 246 / 183, dated 2026-03-02. Lees 0.8048 on 13 pairs (200-word), Swadesh 0.86 (100-word), Bergsland & Vogt rates 4-20%/millennium, Atkinson 10-33%, Pagel ~15,000 yrs / seven families, Heggarty ~8,100 BP, Sapir quote, ETCSL phrases, Shuowen 船/禁 analyses."
+  corrected:
+    - "Rev 5:9 singers: 'They sing' (implying the 7:9 multitude) -> the living creatures and elders (Rev 5:8)."
+    - "Arabic count 38 -> 37 (Ancient North Arabian removed); doubling 257 -> 259."
+    - "'net of the languages that died' -> recorded extinct ones counted (prose and chart heading)."
+    - "Akkadian first record 2400 'Old Akkadian royal inscriptions' -> 2350 Sargonic royal inscriptions."
+    - "Kanesh row and references: Luwian names credited to Yakubovich 2010, Kloekhorst disputes some."
+    - "'Every Indo-European record falls after Peleg' -> after Peleg's birth (karum II begins c. 1970-1950 BC); Elamite noted as before Peleg's birth."
+    - "'Writing was not yet on the scene' (contradicted the study's own chart) -> Genesis 11 says nothing about writing."
+    - "Atkinson 2008 'early change ran faster' -> change runs fastest where a language divides."
+    - "Acts 2:6 'Babel's own verb' (KT) -> the verb the Greek OT uses at Babel; G4797 tag added in Part three."
+    - "Genesis 10 'same formula' -> 'same four terms' (10:5 orders them differently). Proto-Sinaitic date marked as debated; Hangul 'designed from nothing' -> invented by design, shapes drawn from the speech organs. Pagel bullet wording. Alt text no longer counts model-dated Germanic as recorded."
+  for_author:
+    - "Thesis + 'no recorded family displays it': recorded families also shrink (Anatolian, Tocharian extinct; Italic beyond Latin; Celtic), and no record spans tens of millennia, so the claim should say the balance is untestable rather than unattested."
+    - "Afro-Asiatic is harder than Indo-European: Egyptian and Akkadian, already far apart, are written before the modelled Babel on conventional dates; the decay arithmetic applied inside deep families presses on model 3 too. Model 3 'matches' needs that caveat."
+    - "'Within the Bible's history, writing comes a few generations after the nations settled': Scripture does not date writing (sepher, Gen 5:1), and conventional dates put it before the Flood."
+    - "'Every known language is complete' is also what the long account predicts; 'has to carry' overstates."
+    - "Pagel cuts both ways: if right it links families Babel would make independent, at ~15,000 years."
+    - "Acts 2:6 echo 'a strong one': Luke uses synecho for crowd uproar in 19:32; 21:27, 31. LXX Gen 11:7 confuses their glossa, Acts 2:4, 11's word -- a firmer link."
+    - "Zeph 3:9: lexical link certain; Babel allusion 'likely' (NIVBTSB) / 'some suggest' (ESV SB) -- mark confidence."
+    - "'the apostles' at Pentecost: Acts 2:1, 4 say 'they were all'; Twelve vs 120 contested."
+    - "Hook 'Seventy nations walked away from Babel': Genesis does not say so; ch. 10 includes Joktan's sons, likely after Peleg."
+    - "Gen 12:3 -> Jesus needs Gal 3:8, 16; the great name in 12:2 is given to Abram."
+    - "saphah 'the edge where speech leaves the body' imports the rim/shore sense."
+    - "'Hold your own tongue loosely' reads as the idiom for keeping quiet."
+    - "Literary context: Gen 9:1, 7 'fill the earth' behind 11:4 and the scattering, not mentioned; population study makes it."
 
 last_updated: "2026-10-20"

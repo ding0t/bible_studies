@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 803" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
 <title id="t">When each family first wrote</title>
-<desc id="d">Timeline from 3400 BC to the start of the era of the first written record of each language family: Egyptian c. 3250 BC; Sumerian c. 3200 BC; Akkadian c. 2400 BC; Elamite c. 2250 BC; Hittite and Luwian c. 1900 BC; Greek c. 1400 BC; Indo-Aryan c. 1380 BC; Chinese c. 1250 BC; Mayan c. 300 BC. Marked against the Flood (2303 BC Masoretic, 3183 BC Septuagint) and Peleg's lifetime (2202-1963 BC Masoretic, 2652-2313 BC Septuagint). Egyptian and Sumerian writing is dated before both Flood dates; every Indo-European record falls after Peleg.</desc>
+<desc id="d">Timeline from 3400 BC to the start of the era of the first written record of each language family: Egyptian c. 3250 BC; Sumerian c. 3200 BC; Akkadian c. 2350 BC; Elamite c. 2250 BC; Hittite and Luwian c. 1900 BC; Greek c. 1400 BC; Indo-Aryan c. 1380 BC; Chinese c. 1250 BC; Mayan c. 300 BC. Marked against the Flood (2303 BC Masoretic, 3183 BC Septuagint) and Peleg's lifetime (2202-1963 BC Masoretic, 2652-2313 BC Septuagint). Egyptian and Sumerian writing is dated before both Flood dates; every Indo-European record falls after Peleg.</desc>
 <rect width="720" height="803" fill="#faf6ec"/>
 <rect x="8" y="8" width="704" height="787" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
 <rect x="14" y="14" width="692" height="775" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
@@ -47,7 +47,7 @@
 <path d="M200 275.0 H690" stroke="#a67c3d" stroke-width="0.4" stroke-opacity="0.6"/>
 <text x="40.0" y="276.0" font-size="14" fill="#3b2f1e" font-weight="bold">Akkadian</text>
 <text x="40.0" y="290.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Afro-Asiatic</text>
-<circle cx="344.1" cy="275.0" r="6" fill="#3b2f1e" stroke="#3b2f1e" stroke-width="1.6"/>
+<circle cx="351.3" cy="275.0" r="6" fill="#3b2f1e" stroke="#3b2f1e" stroke-width="1.6"/>
 <path d="M200 309.0 H690" stroke="#a67c3d" stroke-width="0.4" stroke-opacity="0.6"/>
 <text x="40.0" y="310.0" font-size="14" fill="#3b2f1e" font-weight="bold">Elamite</text>
 <text x="40.0" y="324.0" font-size="11.5" fill="#6b5a3e" font-style="italic">isolate</text>
@@ -74,9 +74,9 @@
 <circle cx="646.8" cy="479.0" r="6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6" stroke-dasharray="3 2"/>
 <text x="40.0" y="546.0" font-size="11.5" fill="#3b2f1e">Egyptian, c. 3250 BC: Abydos tomb U-j labels (reading as language disputed).</text>
 <text x="40.0" y="561.5" font-size="11.5" fill="#3b2f1e">Sumerian, c. 3200 BC: Uruk IV proto-cuneiform (language identification disputed).</text>
-<text x="40.0" y="577.0" font-size="11.5" fill="#3b2f1e">Akkadian, c. 2400 BC: Old Akkadian royal inscriptions.</text>
+<text x="40.0" y="577.0" font-size="11.5" fill="#3b2f1e">Akkadian, c. 2350 BC: Sargonic royal inscriptions (Semitic names at Fara are earlier).</text>
 <text x="40.0" y="592.5" font-size="11.5" fill="#3b2f1e">Elamite, c. 2250 BC: Old Elamite treaty with Naram-Sin.</text>
-<text x="40.0" y="608.0" font-size="11.5" fill="#3b2f1e">Hittite and Luwian, c. 1900 BC: personal names in the Kanesh merchant archives (Kloekhorst, Kanishite Hittite, 2019).</text>
+<text x="40.0" y="608.0" font-size="11.5" fill="#3b2f1e">Hittite and Luwian, c. 1900 BC: names in the Kanesh merchant archives (Kloekhorst 2019; Yakubovich 2010).</text>
 <text x="40.0" y="623.5" font-size="11.5" fill="#3b2f1e">Greek, c. 1400 BC: Linear B tablets, Knossos.</text>
 <text x="40.0" y="639.0" font-size="11.5" fill="#3b2f1e">Indo-Aryan, c. 1380 BC: Mitra and Varuna in the Mitanni treaty with the Hittites.</text>
 <text x="40.0" y="654.5" font-size="11.5" fill="#3b2f1e">Chinese, c. 1250 BC: oracle-bone inscriptions, reign of Wu Ding.</text>
