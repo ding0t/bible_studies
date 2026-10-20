@@ -493,7 +493,7 @@ def one_alphabet():
             "Mongolian, Kharosthi and, disputed, Brahmi and the scripts of South and Southeast Asia); "
             "South Arabian (then Ge'ez) branched off before Phoenician, at a disputed point.")
     out = svg_open(h, "One alphabet, few inventions", desc)
-    out += heading("One Alphabet", "Writing's few roots, most of them near Jerusalem")
+    out += heading("One Alphabet", "Writing's few roots, three of them near Jerusalem")
     out += body
     out.append(credit(h))
     out.append("</svg>")

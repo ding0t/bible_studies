@@ -55,7 +55,7 @@
       ["Aramaic", "Syria", "c. 800 BC", 2, false, true],
       ["Hebrew square script", "Judea", "c. 300 BC", 3, false, true],
       ["Syriac", "Edessa", "c. AD 1", 3, false, false],
-      ["Arabic (through Nabataean)", "Arabia", "c. AD 500", 3, false, false],
+      ["Arabic (through Nabataean)", "Syria and Arabia", "c. AD 500", 3, false, false],
       ["Mongolian (through Sogdian, Uyghur)", "Central Asia", "c. AD 1200", 3, false, false],
       ["Kharosthi", "NW India", "c. 250 BC", 3, false, false],
       ["Brahmi", "India", "c. 250 BC", 3, true, false],

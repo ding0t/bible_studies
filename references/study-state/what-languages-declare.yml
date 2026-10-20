@@ -307,3 +307,8 @@ review_2026-10-20b:
     - "one-alphabet subtitle 'most of them near Jerusalem': 2 of 4 independent inventions; 'most' holds only counting the alphabet as a root."
     - "Arabic row place 'Arabia': the earliest Arabic-script inscriptions (Zabad 512, Jabal Usays 528, Harran 568) are in Syria; 'Syria and Arabia' would be closer."
   limits: "Web search not used; external dates checked against standard reference values. Distances use site coordinates, not modern city centres."
+
+review_2026-10-20b_judgment_calls_applied:
+  - "Simulation fit: prose now says 226 of the 328 matching ranks are 1-3-language lineages, misses run one way (too few mid-sized families at ranks 6-149; typical largest ~5,200 vs 1,408), and the best fit needed no extinction though Anatolian and Tocharian died out."
+  - "one-alphabet subtitle: 'most of them near Jerusalem' -> 'three of them near Jerusalem' (Egypt, Uruk, the alphabet)."
+  - "Arabic row place: 'Arabia' -> 'Syria and Arabia' (earliest Arabic-script inscriptions AD 512-568 in Syria)."

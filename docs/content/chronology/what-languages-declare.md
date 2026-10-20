@@ -249,8 +249,13 @@ for languages splitting and dying at set rates (D. G. Kendall, 1948).
 
 If every people's languages grew at one rate, the result looks nothing like the world: about 22
 isolates against 183, and a largest family near 120 against 1,408. Equal growth from Babel fails. If
-peoples grew unevenly, most staying put and a few spreading far, the model matches the real
-lineages at 328 of 421 ranks. The largest family, Atlantic-Congo, needs its languages to double
+peoples grew unevenly, most staying put and a few spreading far, the model comes much closer. Its
+range contains the real lineage at 328 of 421 ranks, though 226 of those are the smallest lineages,
+of one to three languages, where it can hardly miss. Where it misses, it misses one way: at ranks 6
+to 149 it makes too few mid-sized families, and its typical largest family, about 5,200 languages,
+overshoots Atlantic-Congo's 1,408. Its best fit also needed no lineage to die out, though history
+shows whole branches dying (Anatolian, Tocharian). The model gets the shape and misses the middle.
+The largest family, Atlantic-Congo, needs its languages to double
 every 395 years from one Babel language. Romance doubled every 255. No family needs a faster pace
 than history records.
 

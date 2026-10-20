@@ -5,7 +5,7 @@
 <rect x="8" y="8" width="704" height="966" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
 <rect x="14" y="14" width="692" height="954" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
 <text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">ONE ALPHABET</text>
-<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Writing's few roots, most of them near Jerusalem</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Writing's few roots, three of them near Jerusalem</text>
 <path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
 <circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
 <text x="40.0" y="140.0" font-size="14" fill="#3b2f1e" font-weight="bold" letter-spacing="1.5">WRITING WAS INVENTED A FEW TIMES</text>
@@ -65,7 +65,7 @@
 <path d="M112.0 580.0 V663.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
 <circle cx="142.0" cy="663.0" r="4.5" fill="#3b2f1e"/>
 <text x="152.0" y="668.0" font-size="13.5" fill="#3b2f1e">Arabic (through Nabataean)</text>
-<text x="680.0" y="668.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Arabia · c. AD 500</text>
+<text x="680.0" y="668.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Syria and Arabia · c. AD 500</text>
 <path d="M112.0 580.0 V693.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
 <circle cx="142.0" cy="693.0" r="4.5" fill="#3b2f1e"/>
 <text x="152.0" y="698.0" font-size="13.5" fill="#3b2f1e">Mongolian (through Sogdian, Uyghur)</text>
