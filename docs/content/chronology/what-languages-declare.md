@@ -1,0 +1,418 @@
+---
+title: "What Languages Declare: Babel and the Arithmetic of Tongues"
+category: "theology"
+description: "Genesis 11 says God divided one language at Babel in a single act. This study reads Babel in its context, then sets the world's 7,674 languages against it: 429 lineages with no common trunk, a decay test that rules out slow drift from one tongue in the Bible's timescale, the growth rates a long common ancestry needs, and the first written records of each family. It ends at Pentecost and before the Lamb, where every tongue is gathered."
+tags: ["babel", "genesis", "acts", "revelation", "zephaniah", "pentecost", "languages", "creation", "young-earth", "apologetics", "method/word-study", "lang/hebrew", "lang/greek"]
+draft: true
+primary_passage: "Genesis 11:1-9"
+bible_references: ["Genesis 2:19", "Genesis 10:1-32", "Genesis 10:5", "Genesis 10:20", "Genesis 10:22", "Genesis 10:25", "Genesis 10:31-32", "Genesis 11:1-9", "Genesis 12:3", "Deuteronomy 32:8", "Isaiah 19:18", "Zephaniah 3:8-10", "Acts 2:1-11", "Acts 17:26-27", "Revelation 5:9", "Revelation 7:9"]
+date_created: 2026-10-20
+date_modified: 2026-10-20
+ai_provider_models:
+  - anthropic/claude-opus-5.5
+---
+
+# What Languages Declare: Babel and the Arithmetic of Tongues
+
+Seventy nations walked away from Babel. Today linguists catalogue 7,674 languages. They sort them
+into 246 families and 183 isolates, and no accepted method joins any of those 429 lineages to
+another.
+
+**One language drifting for the Bible's four thousand years would still show its family likeness.**
+Any two languages on earth would share about a fifth of their basic words. They share chance-level
+look-alikes. Something broke the line.
+
+**In one sentence:** At Babel God divided one language in a single act, and the shape of the world's
+languages today, hundreds of lineages with no common trunk, is what that act leaves behind; the long
+common ancestry that does without Babel has to assume language growth stood almost still for tens of
+thousands of years, a stillness no recorded family shows.
+
+It is the third of a set. [What Creation Declares](../god/creation-reveals-the-creator.md) argues
+from design and [What World Population Declares](world-population-declares-gods-creation-and-biblical-truth.md)
+from headcount. This one argues from speech.
+
+## Key Takeaways
+
+### Types & Prophecy
+
+- **Prophecy.** "I will change the speech of the peoples to a pure speech, that all of them may call
+  upon the name of the LORD" (Zephaniah 3:9, ESV). The word for "speech" is Babel's word, *saphah*.
+  Zephaniah sets it after the day the LORD gathers the nations to judgment (Zephaniah 3:8), in the
+  restoration of Israel that fills the rest of the chapter. Pentecost tasted it; the kingdom
+  completes it.
+
+### Lessons about Jesus
+
+- **At Pentecost the Holy Spirit gave the apostles the nations' languages to tell the mighty works of
+  God**, and the crowd "were bewildered" with Babel's own verb (Acts 2:6). The gospel of Jesus goes
+  out in every tongue.
+- **The Lamb ransomed His people "from every tribe and language and people and nation"** (Revelation
+  5:9, ESV). The languages God divided at Babel are the languages Jesus bought people from.
+- **Babel's builders wanted a name. God gave the nations one:** the Lord Jesus, the Son of Abraham, in
+  whom "all the families of the earth shall be blessed" (Genesis 12:3, ESV).
+
+### Memory verses
+
+> ✝️ Genesis 11:9 (ESV)
+>
+> 9 Therefore its name was called Babel, because there the LORD confused the language of all the
+> earth. And from there the LORD dispersed them over the face of all the earth.
+
+> ✝️ Revelation 7:9 (ESV)
+>
+> 9 After this I looked, and behold, a great multitude that no one could number, from every nation,
+> from all tribes and peoples and languages, standing before the throne and before the Lamb, clothed in
+> white robes, with palm branches in their hands,
+
+### Be Transformed
+
+- **Think.** Your language is a gift from God's hand at Babel. It carries His judgment on human pride
+  and His mercy that sent the nations out to seek Him.
+- **Attitude.** Hold your own tongue loosely. The multitude before the throne speaks thousands of
+  languages, and yours is one voice among them.
+- **Do.** Pray this week for one people group still without Scripture in their language. Learn its
+  name and pray for it by name.
+
+### Prayer
+
+Father, You divided the speech of the proud at Babel, and You scattered the nations so they would
+seek You. Thank You for sending Your Son Jesus to ransom people from every language, and for pouring
+out the Holy Spirit so the nations heard Your mighty works in their own tongues. Keep me from building
+a name for myself. Send Your word into every language that has not yet heard it, until every tongue
+confesses that Jesus Christ is Lord. In Jesus' name. Amen.
+
+## Study outline
+
+- **[Part one: what Scripture says](#part-one-what-scripture-says).** Babel read in its context:
+  Genesis 10 as the result, Genesis 11 as the cause, the Hebrew of "one lip," and what Genesis 10 does
+  not claim to be.
+- **[Part two: what the languages say](#part-two-what-the-languages-say).** Four charts: the lineages
+  with no common trunk, the decay test, the growth rates each history needs, and the first written
+  witnesses. Then the long-ancestry alternative, how writing's history differs from speech's, and
+  where this argument is weak.
+- **[Part three: what languages declare](#part-three-what-languages-declare).** Babel to Pentecost to
+  the throne, and what it shows about God.
+
+## Part one: what Scripture says
+
+### Genesis 10 first, then its cause
+
+Genesis 10 lists the nations descended from Noah's three sons. Three times it closes a branch with
+the same formula: "by their clans, their languages, their lands, and their nations" (Genesis 10:20,
+31, ESV; compare 10:5). The word for "languages" there is <span dir="rtl">לָשׁוֹן</span> (*lashon*,
+H3956, "tongue").
+
+Genesis 11:1-9 then explains how one family came to have many tongues. The *ESV Study Bible* notes at
+Genesis 11:1 that the episode is "not placed chronologically after the events narrated in ch. 10";
+Genesis 10:25 dates it, giving Peleg his name "for in his days the earth was divided" (ESV). On the
+Masoretic text this site follows, Peleg lived from 2202 to 1963 BC, and
+[What World Population Declares](world-population-declares-gods-creation-and-biblical-truth.md#the-chronology)
+models the dispersal at about 2103 BC.
+
+> ✝️ Genesis 11:1-9 (ESV)
+>
+> 1 Now the whole earth had one language and the same words. 2 And as people migrated from the east,
+> they found a plain in the land of Shinar and settled there. 3 And they said to one another, "Come,
+> let us make bricks, and burn them thoroughly." And they had brick for stone, and bitumen for mortar.
+> 4 Then they said, "Come, let us build ourselves a city and a tower with its top in the heavens, and
+> let us make a name for ourselves, lest we be dispersed over the face of the whole earth." 5 And the
+> LORD came down to see the city and the tower, which the children of man had built. 6 And the LORD
+> said, "Behold, they are one people, and they have all one language, and this is only the beginning
+> of what they will do. And nothing that they propose to do will now be impossible for them. 7 Come,
+> let us go down and there confuse their language, so that they may not understand one another's
+> speech." 8 So the LORD dispersed them from there over the face of all the earth, and they left off
+> building the city. 9 Therefore its name was called Babel, because there the LORD confused the
+> language of all the earth. And from there the LORD dispersed them over the face of all the earth.
+
+### One lip, and the verb that broke it
+
+Genesis 11 uses a different word for language: <span dir="rtl">שָׂפָה</span> (*saphah*, H8193), "lip."
+The same noun names the rim of Solomon's bronze sea (1 Kings 7:23) and the shore of a sea (1 Kings
+9:26). "One lip" is the edge where speech leaves the body, and the whole earth had one. "The same
+words" is <span dir="rtl">דְּבָרִים אֲחָדִים</span> (*devarim achadim*), literally "one words": one
+vocabulary.
+
+The builders' "let us" (Genesis 11:3, 4) is answered by the LORD's "let us" (Genesis 11:7). Their fear
+was <span dir="rtl">פּוּץ</span> (*puts*, H6327), "lest we be dispersed" (Genesis 11:4, ESV), and the
+narrator uses the same verb for what God did: "the LORD dispersed them" (Genesis 11:8, 9). The verb of
+judgment is <span dir="rtl">בָּלַל</span> (*balal*, H1101), "to mix, confuse," and the city's name
+<span dir="rtl">בָּבֶל</span> (*Bavel*, H894) sounds like it. The Septuagint makes the point in Greek:
+God says "let us confound," συγχέωμεν (*synchéōmen*, G4797), and the city is named Σύγχυσις
+(*Synchysis*, G4799), "Confusion" (Genesis 11:7, 9, Brenton LXX).
+
+Three things in the text matter for what follows. God acts **at a stroke**: one decision, one
+descent, one result (Genesis 11:7-8). He acts on **speech itself**, so the people "may not understand
+one another" (Genesis 11:7, ESV). And the result is a **scattering over all the earth**, which Moses
+later sets in God's sovereign plan: "when he divided mankind, he fixed the borders of the peoples"
+(Deuteronomy 32:8, ESV). Paul tells the Athenians why: God "made from one man every nation of mankind
+… that they should seek God" (Acts 17:26-27, ESV).
+
+This shows that God opposes the pride that builds a name in place of His, and that His judgment on it
+carried mercy inside it from the first day. Babel scattered the nations into the places where they
+would grope for Him.
+
+### What Genesis 10 does not claim to be
+
+Genesis 10 groups nations by descent, territory and language together. It is no language family
+tree, and reading it as one runs into the text itself:
+
+- **Canaan is a son of Ham** (Genesis 10:6), yet Isaiah calls Hebrew "the language of Canaan"
+  (Isaiah 19:18, ESV). Hebrew, Canaanite and Phoenician are one Semitic cluster.
+- **Elam is a son of Shem** (Genesis 10:22), yet Elamite is an isolate with no Semitic connection.
+
+So a map that paints Japheth as Indo-European, Shem as Semitic and Ham as African says more than
+Genesis does. Genesis also gives no count of languages. It lists seventy nations in the Masoretic
+text, each "with his own language" (Genesis 10:5, ESV); "seventy languages" is a later Jewish
+tradition built on that list.
+
+## Part two: what the languages say
+
+Part one rests on Scripture. Part two weighs evidence from outside it: the catalogues and methods of
+historical linguistics, cited as such. The question is which history of human speech that evidence
+fits.
+
+### 429 lineages and no common trunk
+
+Glottolog 5.3 (March 2026), the standard reference catalogue, lists 7,674 first languages, living and
+recorded extinct. It sorts them into 246 families and 183 isolates. A family is a group whose common
+ancestor can be reconstructed by the **comparative method**: matching words across languages by
+regular sound changes, the way Latin is recovered from French, Spanish and Italian. An isolate is a
+language with no demonstrable relative at all, such as Basque, Sumerian or Elamite.
+
+[![Every independent language lineage drawn as a circle sized by its number of languages. The largest are Atlantic-Congo (1,408), Austronesian (1,276), Indo-European (586), Sino-Tibetan (519), Afro-Asiatic (381) and Trans New Guinea (317); then 232 smaller families, most with five languages or fewer; then 183 isolates. No reconstruction joins any two. Genesis 10 lists seventy nations.](../assets/img/what-languages-declare/no-common-trunk.svg)](../assets/img/what-languages-declare/no-common-trunk.svg)
+
+Two features of this picture matter. Most families are small: in Glottolog's data, 135 of them hold
+five languages or fewer. And the method that builds the families stops at the family. Its reach is
+usually put at six to eight thousand years. Proposals to join families above that level, such as
+Nostratic or "Proto-World," have not won acceptance among historical linguists.
+
+### The decay test
+
+Languages replace their basic words at a measurable pace. Robert Lees (1953) measured thirteen
+language pairs with known histories and found that a language keeps about 80.5% of a 200-word core
+list per thousand years. Morris Swadesh (1955) trimmed the list to its 100 most stable items and put
+the figure at 86%. Both languages of a pair are losing words, so two sisters share the rate
+squared.
+
+Run that forward from Babel. If one language had simply drifted apart from 2103 BC, any two languages
+alive today would share between 17% and 29% of their core words. That figure is far above chance and
+is easy to detect. Between families, they share chance-level look-alikes.
+
+[![The share of core vocabulary two languages keep in common, falling with time since they were one, drawn as a band between 86% and 80.5% retention per thousand years. At Babel, c. 2103 BC, drift alone would leave 17 to 29 percent shared between any two languages; by 10,000 years the band reaches the chance level of about 5 percent. Three models: one tongue drifting since c. 2100 BC is ruled out; one tongue 50,000 years ago matches by erasing the evidence; one tongue divided at a stroke, Genesis 11:7-9, matches.](../assets/img/what-languages-declare/decay-test.svg)](../assets/img/what-languages-declare/decay-test.svg)
+
+That leaves three ways to get today's languages:
+
+1. **One language, drifting since about 2100 BC.** Ruled out. It predicts a family likeness the
+   languages do not have.
+2. **One language, drifting for 50,000 years or more.** This is the mainstream view, and the decay
+   test cannot refute it. It fits by giving the evidence time to vanish.
+3. **One language, divided at a stroke about 2100 BC.** This is Genesis 11:7-9. It predicts unrelated
+   families from the start, and that is what the languages show.
+
+Glottochronology's fixed rate has been disputed since Knut Bergsland and Hans Vogt (1962) showed
+real languages varying around it, which is why the chart draws a band and why the test gives an order
+of magnitude. The conclusion survives the dispute: no published rate leaves 4,000 years of drift
+looking like chance. **Within the Bible's chronology, the shape of the world's languages requires
+Babel.**
+
+### How fast tongues multiply
+
+That leaves the second model, a long common ancestry. It escapes the decay test with time. The time
+it needs has its own cost, and the growth of known families measures it.
+
+Families with a written history let the rate be counted. Latin became 77 Romance languages in about
+1,600 years. Arabic became 38 varieties in about 1,350, and Common Slavic 20 languages in about
+1,400. Each doubled its number of languages every 255 to 324 years, net of the languages that died.
+
+[![Doubling time of the number of languages. Families with a recorded history doubled every 255 to 372 years (Romance, Arabic, Slavic, Germanic), Bantu every 547 on a model date. Growing from Genesis 10's seventy nations to 7,674 languages since Babel needs a doubling about every 609 years on the Masoretic dates, or 690 on the Septuagint's. Growing from one language 50,000 or 100,000 years ago needs a doubling every 3,874 or 7,748 years.](../assets/img/what-languages-declare/how-fast-tongues-multiply.svg)](../assets/img/what-languages-declare/how-fast-tongues-multiply.svg)
+
+From seventy nations at Babel to 7,674 languages needs a doubling every 609 years. That is slower
+than every recorded family, which leaves room for the languages lost along the way.
+
+From one language 50,000 years ago, the same total needs a doubling every 3,874 years. From 100,000
+years ago it needs one every 7,748. That is ten to thirty times slower than any family history
+records. A long ancestry works only if new languages and dead ones stayed closely balanced
+for tens of thousands of years. Language death is real, and the mainstream account appeals to it.
+The balance itself is an assumption, and no recorded family displays it.
+
+This is the same kind of argument the population study makes, and it has the same ceiling. It shows
+which history fits the measured rates without help. It cannot by itself rule out a history that adds
+a balancing assumption.
+
+### Two more facts long ancestry has to carry
+
+**Every known language is complete.** Edward Sapir wrote in 1921 that "we know of no people that is
+not possessed of a fully developed language" (*Language*, ch. 1). The oldest written languages,
+Sumerian, Egyptian and Akkadian, already have full grammars. Nowhere does the record show a simpler
+stage of human speech. A long gradual history has to place every such stage before writing, beyond
+the evidence. Genesis begins with a man who speaks: "whatever the man called every living creature,
+that was its name" (Genesis 2:19, ESV).
+
+**Speech is old and writing is young.** On the mainstream account people spoke fully for over a
+hundred thousand years. They began writing only about 5,200 years ago, in Mesopotamia and Egypt
+within a few centuries of each other, and later independently in China and Mesoamerica. Within the
+Bible's history, writing comes a few generations after the nations settled. Both accounts can explain
+the timing, and the shorter history needs no explanation for the long silence.
+
+Neither fact proves Babel. Each weighs where the evidence is: complete languages, a short written
+record and unrelated families sit plainly in Genesis's history and need extra assumptions in the long
+one.
+
+### The first written witnesses
+
+Each family's first written record can be placed against Genesis.
+
+[![Timeline from 3400 BC to the start of the era of each family's first written record: Egyptian c. 3250 BC and Sumerian c. 3200 BC, both disputed; Akkadian c. 2400 BC; Elamite c. 2250 BC; Hittite and Luwian names c. 1900 BC; Greek c. 1400 BC; Indo-Aryan c. 1380 BC; Chinese c. 1250 BC; Mayan c. 300 BC, disputed. Marked against the Flood (2303 BC Masoretic, 3183 BC Septuagint) and Peleg's lifetime (2202-1963 BC Masoretic, 2652-2313 BC Septuagint).](../assets/img/what-languages-declare/first-written-witnesses.svg)](../assets/img/what-languages-declare/first-written-witnesses.svg)
+
+Every Indo-European record falls after Peleg. So do the Chinese oracle bones and the Mayan murals.
+The pressure point is at the top of the chart. On conventional dates, Egyptian, Sumerian and Akkadian
+were written before the Masoretic Flood. That conflict belongs to the dating of early Mesopotamia and
+Egypt as a whole, and [The Flood and the King Lists](flood-and-the-king-lists.md) weighs it there.
+
+### Speech and writing have different family trees
+
+Babel confused speech. The people would no longer <span dir="rtl">שָׁמַע</span> (*shama*, H8085),
+"hear," one another (Genesis 11:7, where the ESV has "understand"). Writing was not yet on the scene,
+and its later history has the opposite shape to the history of speech.
+
+Writing was invented only a few times: in Mesopotamia, Egypt, China and Mesoamerica. Every other
+script was borrowed or adapted from one of those. Cuneiform, made for Sumerian, an isolate, went on
+to write Akkadian (Semitic), Elamite (an isolate) and Hittite (Indo-European), four unrelated
+languages in one script. Chinese characters went on to write Japanese, Korean and Vietnamese. And
+nearly every alphabet in use, Hebrew, Arabic, Greek, Latin and Cyrillic among them, descends from one
+source, the Proto-Sinaitic letters of Egypt and Sinai of about 1850 BC. Korean Hangul (AD 1443) is a
+rare script designed from nothing.
+
+So writing behaves like any human invention: a few inventions, then spread by borrowing across
+language lines. Speech breaks into hundreds of lineages that borrowing never connects. The two
+records sit side by side in the same peoples, and only one of them shows a break. Genesis puts God's
+act on the spoken word and nowhere else.
+
+### Babel in Sumerian memory
+
+One Sumerian text speaks to Babel directly. In *Enmerkar and the Lord of Aratta* (lines 134-155),
+the lands are to "address Enlil together in a single language," and the god Enki will "change the
+speech in their mouths" (ETCSL translation). Scholars dispute whether the passage looks back to a lost
+unity, as Samuel Noah Kramer read it, or forward to a hoped-for one, as the ETCSL rendering has it.
+At most it is a distorted memory of a confusion of tongues sent by heaven; it carries nothing in this
+argument. The [king-lists study](flood-and-the-king-lists.md#babels-archaeology) covers it with the
+ziggurat of Babylon.
+
+### Chinese characters and the creation story
+
+C. H. Kang and Ethel Nelson's *The Discovery of Genesis* (1979) reads Genesis in Chinese
+characters, such as 船 (boat) as "vessel, eight, mouths" for the eight people on the ark. The oldest
+Chinese dictionary, the *Shuowen Jiezi* (AD 100), analyses 船 as 舟 "boat" for meaning plus a
+shortened 鉛 for sound. It reads 禁 (forbid), which the book takes as two trees and a divine command,
+as 示 for meaning plus 林 for sound. Most Chinese characters are built this way, from one part for
+meaning and one for sound, and the book reads the sound parts as story. The oldest characters, on
+oracle bones of about 1250 BC, are also later than Moses. This study leaves the claim out.
+
+### Where this argument is weak
+
+- **The decay test is neutral between Babel and deep time.** It rules out a young, gradual
+  history. Against a long one, the argument rests on growth rates and the written record, and those
+  show fit, which is weaker than proof.
+- **Seventy and 429.** If Babel produced about seventy languages, the world has six times as many
+  unrelated lineages. Genesis never numbers the languages, and clans could hold their own (Genesis
+  10:5). The tension is real and the text leaves it open.
+- **Indo-European is the hardest case.** Hittite and Luwian names were already distinct at Kanesh by
+  about 1900 BC, two or three centuries after Peleg's birth on the Masoretic dates. The current
+  Bayesian estimate puts the family's first split about 8,100 years ago (Heggarty and others, 2023).
+  Quentin Atkinson and colleagues (2008) found that 10-33% of vocabulary change in three large
+  families happens in bursts when languages split, so early change ran faster than the average. That
+  narrows the gap by an amount nobody has measured, and a gap remains. Babel could also have
+  produced sister languages within a family. Genesis is silent on that, so it stays a speculation.
+- **The rates are disputed.** Mark Pagel and colleagues (2013) argued that a few very frequent words
+  keep a signal for about 15,000 years, joining seven Eurasian families. Most historical linguists
+  rejected the method. If Pagel is right, the young, gradual model fails more clearly still, and some
+  of the 429 lineages may be fewer.
+
+## Part three: what languages declare
+
+At Babel the nations were scattered by language. At Pentecost they were gathered by language. The
+crowd in Jerusalem "were bewildered, because each one was hearing them speak in his own language"
+(Acts 2:6, ESV). "Bewildered" is συνεχύθη, from συγχέω (*synchéō*), the verb the Septuagint used at
+Babel. It occurs five times in the New Testament, all in Acts. Luke shares a word with Genesis 11
+here and quotes nothing from it, so the link is an echo, and it is a strong one. Among the hearers
+were "Medes and Elamites" (Acts 2:9, ESV), descendants of Madai and Elam in the table of nations
+(Genesis 10:2, 22).
+
+> ✝️ Acts 2:6-11 (ESV)
+>
+> 6 And at this sound the multitude came together, and they were bewildered, because each one was
+> hearing them speak in his own language. 7 And they were amazed and astonished, saying, "Are not all
+> these who are speaking Galileans? 8 And how is it that we hear, each of us in his own native
+> language? 9 Parthians and Medes and Elamites and residents of Mesopotamia, Judea and Cappadocia,
+> Pontus and Asia, 10 Phrygia and Pamphylia, Egypt and the parts of Libya belonging to Cyrene, and
+> visitors from Rome, 11 both Jews and proselytes, Cretans and Arabians—we hear them telling in our
+> own tongues the mighty works of God."
+
+The Holy Spirit kept the languages. Each man heard in his own διάλεκτος (*dialektos*, G1258), "his own
+native language" (Acts 2:8, ESV), and the apostles spoke in other γλῶσσαι (*glōssai*, G1100,
+"tongues," Acts 2:4). Babel's division stands, and God now speaks through it.
+
+The end of the story keeps them too. John saw "a great multitude that no one could number, from
+every nation, from all tribes and peoples and languages, standing before the throne and before the
+Lamb" (Revelation 7:9, ESV). They sing to the Lamb that "by your blood you ransomed people for God
+from every tribe and language and people and nation" (Revelation 5:9, ESV). Zephaniah promised a
+"pure speech" for the peoples (Zephaniah 3:9, ESV), Babel's *saphah* made clean, in the kingdom that
+follows the day of judgment. Pentecost was its first taste.
+
+So the languages declare three things about God. **He judges pride**: the city built for a name
+stands unfinished (Genesis 11:8). **He rules the nations**: He divided them, fixed their borders and
+set their times (Deuteronomy 32:8; Acts 17:26). **He redeems them**: His Son Jesus ransomed people
+from every one of those languages, and the Holy Spirit carries the gospel into each of them.
+
+So when you hear a language you cannot understand, you are hearing Babel, and you are hearing a
+people God scattered so they would seek Him. Jesus died for people who speak it. Pray that they hear
+His mighty works in their own tongue.
+
+## Discussion questions
+
+1. **The language.** Genesis 11 calls language "one lip," *saphah*, and Zephaniah 3:9 promises the
+   peoples a "pure" *saphah*. What does the choice of that word, over Genesis 10's *lashon*, tell you
+   about what God means to restore?
+2. **The text in its context.** The builders built "lest we be dispersed" (Genesis 11:4), and God
+   dispersed them with the same verb. What does that reversal show about the purpose behind their
+   tower?
+3. **Christ.** Revelation 5:9 sings that the Lamb ransomed people "from every tribe and language."
+   How does Babel shape the way you hear that song?
+4. **The hard part.** Genesis 10 lists seventy nations "each with his own language," and the world
+   holds 429 unrelated lineages. How do you hold a count Genesis gives beside one it never gives?
+5. **Be transformed.** At Babel people built to make a name for themselves (Genesis 11:4). Where are
+   you building a name, and what would it look like to make Jesus' name known in its place?
+
+## References & Recommended Reading
+
+- **ESV Bible** (Crossway) — primary translation; every quotation verified against `study-notes.db`.
+- ***ESV Study Bible*** (Crossway) — notes on Genesis 11:1 (the episode placed before Genesis 10's
+  outcome), 11:1-9, 11:5-8 and 11:9 (*balal* and *Bavel*; ziggurats).
+- **Westminster Leningrad Codex** and **unfoldingWord ULT/UHB** interlinear, via this repo's
+  `bible-text.db` — *saphah*, *lashon*, *balal* and *puts* in Genesis 10:5, 11:1-9 and Zephaniah 3:9.
+- **Brenton Septuagint** (Genesis 11:7, 9: συγχέω, Σύγχυσις) and **SBLGNT** (συγχέω in Acts), via
+  `bible-text.db`.
+- **Glottolog 5.3** (Hammarström, Forkel, Haspelmath & Bank, 2026) —
+  [glottolog.org](https://glottolog.org/glottolog/glottologinformation): 7,674 spoken first
+  languages, 246 families, 183 isolates; family sizes from the glottolog-cldf v5.3 data release.
+- **R. B. Lees**, "The Basis of Glottochronology," *Language* 29 (1953) 113-127.
+- **M. Swadesh**, "Towards Greater Accuracy in Lexicostatistic Dating," *International Journal of
+  American Linguistics* 21 (1955) 121-137.
+- **K. Bergsland & H. Vogt**, "On the Validity of Glottochronology," *Current Anthropology* 3 (1962)
+  115-153.
+- **Q. D. Atkinson, A. Meade, C. Venditti, S. J. Greenhill & M. Pagel**, "Languages Evolve in
+  Punctuational Bursts," *Science* 319 (2008) 588.
+- **M. Pagel, Q. D. Atkinson, A. S. Calude & A. Meade**, "Ultraconserved Words Point to Deep Language
+  Ancestry across Eurasia," *PNAS* 110 (2013) 8471-8476; and the critique at *Language Log*,
+  "Ultraconserved words? Really??" (2013).
+- **P. Heggarty and others**, "Language Trees with Sampled Ancestors Support a Hybrid Model for the
+  Origin of Indo-European Languages," *Science* 381 (2023) eabg0818.
+- **Edward Sapir**, *Language: An Introduction to the Study of Speech* (1921), ch. 1 (public domain,
+  Project Gutenberg #12629).
+- **R. D. Woodard** (ed.), *The Cambridge Encyclopedia of the World's Ancient Languages* (Cambridge,
+  2004) — conventional dates of first attestation.
+- **A. Kloekhorst**, *Kanišite Hittite* (Brill, 2019) — Hittite and Luwian names at Kanesh.
+- ***Enmerkar and the Lord of Aratta***, lines 134-155, in the *Electronic Text Corpus of Sumerian
+  Literature* (Oxford), c.1.8.2.3.
+- **C. H. Kang & E. R. Nelson**, *The Discovery of Genesis* (Concordia, 1979); and Xu Shen, *Shuowen
+  Jiezi* (c. AD 100), entries 船 and 禁.

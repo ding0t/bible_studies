@@ -1,0 +1,53 @@
+{
+  "_about": "Language data for chronology/what-languages-declare.md, read by utils/build_languages_graphics.py. Every figure carries its source; Biblical dates are not stored here -- they come from docs/data/chronology.json.",
+  "world": {
+    "spoken_l1_languages": 7674,
+    "families_stated": 246,
+    "isolates": 183,
+    "source": "Glottolog 5.3 (2026-03-02), https://glottolog.org/glottolog/glottologinformation; the 7,674 total reproduced from the glottolog-cldf v5.3 languages.csv"
+  },
+  "genesis_10_nations": 70,
+  "lineage_sizes": {
+    "source": "glottolog-cldf v5.3 languages.csv: spoken L1 languages per top-level family (excluding the sign, pidgin, mixed, artificial, speech-register, unattested, unclassifiable and bookkeeping pseudo-families); 238 families hold a language in this count, the other 8 of the stated 246 do not",
+    "largest": [
+      ["Atlantic-Congo", 1408], ["Austronesian", 1276], ["Indo-European", 586],
+      ["Sino-Tibetan", 519], ["Afro-Asiatic", 381], ["Nuclear Trans New Guinea", 317],
+      ["Pama-Nyungan", 250], ["Otomanguean", 181], ["Austroasiatic", 158], ["Tai-Kadai", 95],
+      ["Dravidian", 82], ["Arawakan", 77], ["Mande", 75], ["Tupian", 70], ["Uto-Aztecan", 69]
+    ],
+    "all_family_sizes": [1408, 1276, 586, 519, 381, 317, 250, 181, 158, 95, 82, 77, 75, 70, 69, 63, 56, 55, 49, 47, 46, 45, 44, 43, 43, 42, 38, 36, 36, 34, 29, 27, 26, 25, 24, 23, 20, 20, 19, 19, 19, 18, 17, 17, 17, 15, 15, 15, 14, 13, 13, 13, 13, 13, 13, 13, 12, 12, 12, 11, 11, 11, 11, 11, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9, 9, 9, 8, 8, 8, 8, 8, 8, 7, 7, 7, 7, 7, 7, 7, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+    "families_with_language": 238,
+    "families_of_five_or_fewer": 135,
+    "median_family_size": 5
+  },
+  "retention": {
+    "lees_1953": {"rate": 0.8048, "list": "200-word", "source": "R. B. Lees, 'The Basis of Glottochronology', Language 29 (1953) 113-127"},
+    "swadesh_1955": {"rate": 0.86, "list": "100-word", "source": "M. Swadesh, 'Towards Greater Accuracy in Lexicostatistic Dating', IJAL 21 (1955) 121-137"},
+    "chance_floor_percent": 5,
+    "chance_floor_note": "approximate level below which look-alikes cannot be told from chance; drawn dashed"
+  },
+  "diversification": {
+    "source": "language counts: Glottolog child_language_count for each family (includes recorded extinct varieties); ages: when the parent began to split",
+    "families": [
+      {"name": "Romance", "glottocode": "roma1334", "languages": 77, "years": 1600, "dated_by": "history", "age_note": "Latin, from the 5th century AD"},
+      {"name": "Arabic", "glottocode": "arab1394", "languages": 38, "years": 1350, "dated_by": "history", "age_note": "the 7th-century AD conquests"},
+      {"name": "Slavic", "glottocode": "slav1255", "languages": 20, "years": 1400, "dated_by": "history", "age_note": "Common Slavic, from the 6th-7th century AD"},
+      {"name": "Germanic", "glottocode": "germ1287", "languages": 106, "years": 2500, "dated_by": "model", "age_note": "Proto-Germanic, c. 500 BC, a reconstruction"},
+      {"name": "Narrow Bantu", "glottocode": "narr1281", "languages": 563, "years": 5000, "dated_by": "model", "age_note": "the Bantu expansion, c. 3000 BC, a model date"}
+    ]
+  },
+  "first_writing": {
+    "source": "conventional dates as given in R. D. Woodard (ed.), The Cambridge Encyclopedia of the World's Ancient Languages (2004) and the works named per row; BC; 'dashed' marks a date or an identification that is disputed",
+    "rows": [
+      {"language": "Egyptian", "family": "Afro-Asiatic", "bc": 3250, "dashed": true, "what": "Abydos tomb U-j labels (reading as language disputed)"},
+      {"language": "Sumerian", "family": "isolate", "bc": 3200, "dashed": true, "what": "Uruk IV proto-cuneiform (language identification disputed)"},
+      {"language": "Akkadian", "family": "Afro-Asiatic", "bc": 2400, "dashed": false, "what": "Old Akkadian royal inscriptions"},
+      {"language": "Elamite", "family": "isolate", "bc": 2250, "dashed": false, "what": "Old Elamite treaty with Naram-Sin"},
+      {"language": "Hittite and Luwian", "family": "Indo-European", "bc": 1900, "dashed": false, "what": "personal names in the Kanesh merchant archives (Kloekhorst, Kanishite Hittite, 2019)"},
+      {"language": "Greek", "family": "Indo-European", "bc": 1400, "dashed": false, "what": "Linear B tablets, Knossos"},
+      {"language": "Indo-Aryan", "family": "Indo-European", "bc": 1380, "dashed": false, "what": "Mitra and Varuna in the Mitanni treaty with the Hittites"},
+      {"language": "Chinese", "family": "Sino-Tibetan", "bc": 1250, "dashed": false, "what": "oracle-bone inscriptions, reign of Wu Ding"},
+      {"language": "Mayan", "family": "Mayan", "bc": 300, "dashed": true, "what": "San Bartolo murals"}
+    ]
+  }
+}

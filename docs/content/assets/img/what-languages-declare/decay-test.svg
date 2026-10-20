@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 795" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">The decay test</title>
+<desc id="d">Share of core vocabulary two languages keep in common, falling with time since they were one: between 86% and 80.5% retention per millennium for each. At Babel, c. 2103 BC, drift alone would leave 17 to 29 percent shared between any two languages; by 10,000 years it reaches the chance level of about 5 percent. Three models: one tongue drifting since c. 2100 BC is ruled out; one tongue 50,000 years ago matches by erasing the evidence; one tongue divided at a stroke, Genesis 11:7-9, matches.</desc>
+<rect width="720" height="795" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="779" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="767" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE DECAY TEST</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">What drift alone would leave behind</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<path d="M90 470.0 H680" stroke="#a67c3d" stroke-width="0.5" stroke-opacity="0.5"/>
+<text x="82.0" y="475.0" font-size="13" fill="#6b5a3e" text-anchor="end">0%</text>
+<path d="M90 387.5 H680" stroke="#a67c3d" stroke-width="0.5" stroke-opacity="0.5"/>
+<text x="82.0" y="392.5" font-size="13" fill="#6b5a3e" text-anchor="end">25%</text>
+<path d="M90 305.0 H680" stroke="#a67c3d" stroke-width="0.5" stroke-opacity="0.5"/>
+<text x="82.0" y="310.0" font-size="13" fill="#6b5a3e" text-anchor="end">50%</text>
+<path d="M90 222.5 H680" stroke="#a67c3d" stroke-width="0.5" stroke-opacity="0.5"/>
+<text x="82.0" y="227.5" font-size="13" fill="#6b5a3e" text-anchor="end">75%</text>
+<path d="M90 140.0 H680" stroke="#a67c3d" stroke-width="0.5" stroke-opacity="0.5"/>
+<text x="82.0" y="145.0" font-size="13" fill="#6b5a3e" text-anchor="end">100%</text>
+<text x="90.0" y="490.0" font-size="13" fill="#6b5a3e" text-anchor="middle">0</text>
+<text x="237.5" y="490.0" font-size="13" fill="#6b5a3e" text-anchor="middle">5,000</text>
+<text x="385.0" y="490.0" font-size="13" fill="#6b5a3e" text-anchor="middle">10,000</text>
+<text x="532.5" y="490.0" font-size="13" fill="#6b5a3e" text-anchor="middle">15,000</text>
+<text x="680.0" y="490.0" font-size="13" fill="#6b5a3e" text-anchor="middle">20,000</text>
+<text x="385.0" y="512.0" font-size="14" fill="#3b2f1e" text-anchor="middle">Years since the languages were one</text>
+<text x="30.0" y="305.0" font-size="14" fill="#3b2f1e" text-anchor="middle" transform="rotate(-90 30 305.0)">Core vocabulary still shared</text>
+<polygon points="90.0,140.0 97.4,164.0 104.8,186.2 112.1,206.8 119.5,225.9 126.9,243.7 134.2,260.1 141.6,275.3 149.0,289.5 156.4,302.6 163.8,314.8 171.1,326.0 178.5,336.5 185.9,346.2 193.2,355.2 200.6,363.5 208.0,371.3 215.4,378.4 222.8,385.1 230.1,391.3 237.5,397.0 244.9,402.3 252.2,407.2 259.6,411.8 267.0,416.0 274.4,419.9 281.8,423.5 289.1,426.9 296.5,430.1 303.9,433.0 311.2,435.6 318.6,438.1 326.0,440.5 333.4,442.6 340.8,444.6 348.1,446.4 355.5,448.1 362.9,449.7 370.2,451.2 377.6,452.6 385.0,453.8 392.4,455.0 399.8,456.1 407.1,457.1 414.5,458.0 421.9,458.9 429.2,459.7 436.6,460.5 444.0,461.2 451.4,461.8 458.8,462.4 466.1,462.9 473.5,463.5 480.9,463.9 488.2,464.4 495.6,464.8 503.0,465.2 510.4,465.5 517.8,465.8 525.1,466.1 532.5,466.4 539.9,466.7 547.2,466.9 554.6,467.1 562.0,467.4 569.4,467.5 576.8,467.7 584.1,467.9 591.5,468.0 598.9,468.2 606.2,468.3 613.6,468.4 621.0,468.6 628.4,468.7 635.8,468.8 643.1,468.8 650.5,468.9 657.9,469.0 665.2,469.1 672.6,469.1 680.0,469.2 680.0,469.9 672.6,469.9 665.2,469.9 657.9,469.9 650.5,469.9 643.1,469.9 635.8,469.9 628.4,469.9 621.0,469.9 613.6,469.9 606.2,469.8 598.9,469.8 591.5,469.8 584.1,469.8 576.8,469.7 569.4,469.7 562.0,469.7 554.6,469.6 547.2,469.6 539.9,469.6 532.5,469.5 525.1,469.5 517.8,469.4 510.4,469.3 503.0,469.2 495.6,469.2 488.2,469.1 480.9,469.0 473.5,468.8 466.1,468.7 458.8,468.6 451.4,468.4 444.0,468.2 436.6,468.0 429.2,467.8 421.9,467.5 414.5,467.2 407.1,466.9 399.8,466.5 392.4,466.2 385.0,465.7 377.6,465.2 370.2,464.7 362.9,464.1 355.5,463.4 348.1,462.6 340.8,461.8 333.4,460.8 326.0,459.8 318.6,458.6 311.2,457.3 303.9,455.8 296.5,454.2 289.1,452.4 281.8,450.4 274.4,448.1 267.0,445.6 259.6,442.8 252.2,439.7 244.9,436.3 237.5,432.4 230.1,428.1 222.8,423.3 215.4,417.9 208.0,411.9 200.6,405.3 193.2,397.8 185.9,389.6 178.5,380.3 171.1,370.0 163.8,358.6 156.4,345.8 149.0,331.6 141.6,315.7 134.2,298.0 126.9,278.3 119.5,256.3 112.1,231.7 104.8,204.4 97.4,174.0 90.0,140.0" fill="#e3e9f2" stroke="none"/>
+<polyline points="90.0,140.0 97.4,164.0 104.8,186.2 112.1,206.8 119.5,225.9 126.9,243.7 134.2,260.1 141.6,275.3 149.0,289.5 156.4,302.6 163.8,314.8 171.1,326.0 178.5,336.5 185.9,346.2 193.2,355.2 200.6,363.5 208.0,371.3 215.4,378.4 222.8,385.1 230.1,391.3 237.5,397.0 244.9,402.3 252.2,407.2 259.6,411.8 267.0,416.0 274.4,419.9 281.8,423.5 289.1,426.9 296.5,430.1 303.9,433.0 311.2,435.6 318.6,438.1 326.0,440.5 333.4,442.6 340.8,444.6 348.1,446.4 355.5,448.1 362.9,449.7 370.2,451.2 377.6,452.6 385.0,453.8 392.4,455.0 399.8,456.1 407.1,457.1 414.5,458.0 421.9,458.9 429.2,459.7 436.6,460.5 444.0,461.2 451.4,461.8 458.8,462.4 466.1,462.9 473.5,463.5 480.9,463.9 488.2,464.4 495.6,464.8 503.0,465.2 510.4,465.5 517.8,465.8 525.1,466.1 532.5,466.4 539.9,466.7 547.2,466.9 554.6,467.1 562.0,467.4 569.4,467.5 576.8,467.7 584.1,467.9 591.5,468.0 598.9,468.2 606.2,468.3 613.6,468.4 621.0,468.6 628.4,468.7 635.8,468.8 643.1,468.8 650.5,468.9 657.9,469.0 665.2,469.1 672.6,469.1 680.0,469.2" fill="none" stroke="#2f4f7f" stroke-width="2"/>
+<polyline points="90.0,140.0 97.4,174.0 104.8,204.4 112.1,231.7 119.5,256.3 126.9,278.3 134.2,298.0 141.6,315.7 149.0,331.6 156.4,345.8 163.8,358.6 171.1,370.0 178.5,380.3 185.9,389.6 193.2,397.8 200.6,405.3 208.0,411.9 215.4,417.9 222.8,423.3 230.1,428.1 237.5,432.4 244.9,436.3 252.2,439.7 259.6,442.8 267.0,445.6 274.4,448.1 281.8,450.4 289.1,452.4 296.5,454.2 303.9,455.8 311.2,457.3 318.6,458.6 326.0,459.8 333.4,460.8 340.8,461.8 348.1,462.6 355.5,463.4 362.9,464.1 370.2,464.7 377.6,465.2 385.0,465.7 392.4,466.2 399.8,466.5 407.1,466.9 414.5,467.2 421.9,467.5 429.2,467.8 436.6,468.0 444.0,468.2 451.4,468.4 458.8,468.6 466.1,468.7 473.5,468.8 480.9,469.0 488.2,469.1 495.6,469.2 503.0,469.2 510.4,469.3 517.8,469.4 525.1,469.5 532.5,469.5 539.9,469.6 547.2,469.6 554.6,469.6 562.0,469.7 569.4,469.7 576.8,469.7 584.1,469.8 591.5,469.8 598.9,469.8 606.2,469.8 613.6,469.9 621.0,469.9 628.4,469.9 635.8,469.9 643.1,469.9 650.5,469.9 657.9,469.9 665.2,469.9 672.6,469.9 680.0,469.9" fill="none" stroke="#2f4f7f" stroke-width="2"/>
+<path d="M90 453.5 H680" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="676.0" y="446.5" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">about where look-alikes become chance</text>
+<path d="M211.8 140 V470" stroke="#8b1e1e" stroke-width="2"/>
+<path d="M228.0 180 V470" stroke="#8b1e1e" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="205.8" y="154.0" font-size="13" fill="#8b1e1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Babel c. 2103 BC</text>
+<text x="234.0" y="194.0" font-size="12.5" fill="#8b1e1e" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Septuagint: 2652 BC</text>
+<circle cx="211.8" cy="415.1" r="4.5" fill="#8b1e1e"/>
+<circle cx="211.8" cy="375.0" r="4.5" fill="#8b1e1e"/>
+<path d="M217.8 375.0 H234.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="238.0" y="371.0" font-size="13" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">17–29% if one tongue drifted</text>
+<text x="238.0" y="388.0" font-size="13" fill="#3b2f1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">from 2103 BC: shared between</text>
+<text x="238.0" y="405.0" font-size="13" fill="#3b2f1e" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">any two languages on earth</text>
+<text x="40.0" y="540.0" font-size="14" fill="#3b2f1e" font-weight="bold" letter-spacing="1.5">THREE WAYS TO GET TODAY'S LANGUAGES</text>
+<rect x="40.0" y="552.0" width="206.7" height="129" rx="5" fill="#fffdf7" stroke="#8b1e1e" stroke-width="1.4"/>
+<text x="48.0" y="570.5" font-size="13" fill="#3b2f1e" font-weight="bold">One tongue, drift,</text>
+<text x="48.0" y="587.5" font-size="13" fill="#3b2f1e">since c. 2100 BC</text>
+<text x="48.0" y="604.5" font-size="13" fill="#3b2f1e">Predicts 17–29% shared</text>
+<text x="48.0" y="621.5" font-size="13" fill="#3b2f1e">everywhere.</text>
+<text x="48.0" y="638.5" font-size="13" fill="#3b2f1e">Observed: chance level</text>
+<text x="48.0" y="655.5" font-size="13" fill="#3b2f1e">between families.</text>
+<text x="48.0" y="672.5" font-size="11.5" fill="#6b5a3e" font-style="italic">Ruled out</text>
+<rect x="256.7" y="552.0" width="206.7" height="129" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="264.7" y="570.5" font-size="13" fill="#3b2f1e" font-weight="bold">One tongue, drift,</text>
+<text x="264.7" y="587.5" font-size="13" fill="#3b2f1e">50,000+ years ago</text>
+<text x="264.7" y="604.5" font-size="13" fill="#3b2f1e">Predicts near 0%:</text>
+<text x="264.7" y="621.5" font-size="13" fill="#3b2f1e">matches, by giving</text>
+<text x="264.7" y="638.5" font-size="13" fill="#3b2f1e">the evidence time</text>
+<text x="264.7" y="655.5" font-size="13" fill="#3b2f1e">to vanish.</text>
+<text x="264.7" y="672.5" font-size="11.5" fill="#6b5a3e" font-style="italic">The mainstream view</text>
+<rect x="473.3" y="552.0" width="206.7" height="112" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="481.3" y="570.5" font-size="13" fill="#3b2f1e" font-weight="bold">One tongue, divided</text>
+<text x="481.3" y="587.5" font-size="13" fill="#3b2f1e">at a stroke, c. 2100 BC</text>
+<text x="481.3" y="604.5" font-size="13" fill="#3b2f1e">Predicts unrelated</text>
+<text x="481.3" y="621.5" font-size="13" fill="#3b2f1e">families from the</text>
+<text x="481.3" y="638.5" font-size="13" fill="#3b2f1e">start: matches.</text>
+<text x="481.3" y="655.5" font-size="11.5" fill="#6b5a3e" font-style="italic">Genesis 11:7-9</text>
+<text x="40.0" y="707.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Band: 86% of core words kept per thousand years (Swadesh 1955, 100-word list) down to</text>
+<text x="40.0" y="722.5" font-size="11.5" fill="#6b5a3e" font-style="italic">80.5% (Lees 1953, 200-word list), applied to both languages of a pair. Fixed rates are</text>
+<text x="40.0" y="738.0" font-size="11.5" fill="#6b5a3e" font-style="italic">disputed (Bergsland &amp; Vogt 1962), so the band is an order of magnitude, never a date.</text>
+<text x="696.0" y="773.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

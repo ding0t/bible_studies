@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 803" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">When each family first wrote</title>
+<desc id="d">Timeline from 3400 BC to the start of the era of the first written record of each language family: Egyptian c. 3250 BC; Sumerian c. 3200 BC; Akkadian c. 2400 BC; Elamite c. 2250 BC; Hittite and Luwian c. 1900 BC; Greek c. 1400 BC; Indo-Aryan c. 1380 BC; Chinese c. 1250 BC; Mayan c. 300 BC. Marked against the Flood (2303 BC Masoretic, 3183 BC Septuagint) and Peleg's lifetime (2202-1963 BC Masoretic, 2652-2313 BC Septuagint). Egyptian and Sumerian writing is dated before both Flood dates; every Indo-European record falls after Peleg.</desc>
+<rect width="720" height="803" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="787" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="775" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE FIRST WRITTEN WITNESSES</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Each family's earliest record, against Genesis</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<rect x="372.7" y="160" width="34.4" height="336" fill="#f1dcd4"/>
+<path d="M307.8 160 V496" stroke="#8b1e1e" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M356.7 160 V496" stroke="#8b1e1e" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M358.1 140 V496" stroke="#2f4f7f" stroke-width="2"/>
+<path d="M231.3 140 V496" stroke="#2f4f7f" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="362.1" y="136.0" font-size="12.5" fill="#2f4f7f" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Flood 2303</text>
+<text x="227.3" y="136.0" font-size="12.5" fill="#2f4f7f" text-anchor="end" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">LXX Flood 3183</text>
+<text x="411.1" y="154.0" font-size="12.5" fill="#8b1e1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Peleg 2202–1963</text>
+<text x="303.8" y="154.0" font-size="12.5" fill="#8b1e1e" text-anchor="end" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">LXX Peleg</text>
+<path d="M200.0 496 V502" stroke="#3b2f1e"/>
+<text x="200.0" y="518.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">3400 BC</text>
+<path d="M257.6 496 V502" stroke="#3b2f1e"/>
+<text x="257.6" y="518.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">3000 BC</text>
+<path d="M315.3 496 V502" stroke="#3b2f1e"/>
+<text x="315.3" y="518.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">2600 BC</text>
+<path d="M372.9 496 V502" stroke="#3b2f1e"/>
+<text x="372.9" y="518.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">2200 BC</text>
+<path d="M430.6 496 V502" stroke="#3b2f1e"/>
+<text x="430.6" y="518.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">1800 BC</text>
+<path d="M488.2 496 V502" stroke="#3b2f1e"/>
+<text x="488.2" y="518.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">1400 BC</text>
+<path d="M545.9 496 V502" stroke="#3b2f1e"/>
+<text x="545.9" y="518.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">1000 BC</text>
+<path d="M603.5 496 V502" stroke="#3b2f1e"/>
+<text x="603.5" y="518.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">600 BC</text>
+<path d="M661.2 496 V502" stroke="#3b2f1e"/>
+<text x="661.2" y="518.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">200 BC</text>
+<path d="M200 496 H690" stroke="#3b2f1e" stroke-width="1.2"/>
+<path d="M200 207.0 H690" stroke="#a67c3d" stroke-width="0.4" stroke-opacity="0.6"/>
+<text x="40.0" y="208.0" font-size="14" fill="#3b2f1e" font-weight="bold">Egyptian</text>
+<text x="40.0" y="222.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Afro-Asiatic</text>
+<circle cx="221.6" cy="207.0" r="6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6" stroke-dasharray="3 2"/>
+<path d="M200 241.0 H690" stroke="#a67c3d" stroke-width="0.4" stroke-opacity="0.6"/>
+<text x="40.0" y="242.0" font-size="14" fill="#3b2f1e" font-weight="bold">Sumerian</text>
+<text x="40.0" y="256.0" font-size="11.5" fill="#6b5a3e" font-style="italic">isolate</text>
+<circle cx="228.8" cy="241.0" r="6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6" stroke-dasharray="3 2"/>
+<path d="M200 275.0 H690" stroke="#a67c3d" stroke-width="0.4" stroke-opacity="0.6"/>
+<text x="40.0" y="276.0" font-size="14" fill="#3b2f1e" font-weight="bold">Akkadian</text>
+<text x="40.0" y="290.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Afro-Asiatic</text>
+<circle cx="344.1" cy="275.0" r="6" fill="#3b2f1e" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M200 309.0 H690" stroke="#a67c3d" stroke-width="0.4" stroke-opacity="0.6"/>
+<text x="40.0" y="310.0" font-size="14" fill="#3b2f1e" font-weight="bold">Elamite</text>
+<text x="40.0" y="324.0" font-size="11.5" fill="#6b5a3e" font-style="italic">isolate</text>
+<circle cx="365.7" cy="309.0" r="6" fill="#3b2f1e" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M200 343.0 H690" stroke="#a67c3d" stroke-width="0.4" stroke-opacity="0.6"/>
+<text x="40.0" y="344.0" font-size="14" fill="#3b2f1e" font-weight="bold">Hittite and Luwian</text>
+<text x="40.0" y="358.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Indo-European</text>
+<circle cx="416.2" cy="343.0" r="6" fill="#3b2f1e" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M200 377.0 H690" stroke="#a67c3d" stroke-width="0.4" stroke-opacity="0.6"/>
+<text x="40.0" y="378.0" font-size="14" fill="#3b2f1e" font-weight="bold">Greek</text>
+<text x="40.0" y="392.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Indo-European</text>
+<circle cx="488.2" cy="377.0" r="6" fill="#3b2f1e" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M200 411.0 H690" stroke="#a67c3d" stroke-width="0.4" stroke-opacity="0.6"/>
+<text x="40.0" y="412.0" font-size="14" fill="#3b2f1e" font-weight="bold">Indo-Aryan</text>
+<text x="40.0" y="426.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Indo-European</text>
+<circle cx="491.1" cy="411.0" r="6" fill="#3b2f1e" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M200 445.0 H690" stroke="#a67c3d" stroke-width="0.4" stroke-opacity="0.6"/>
+<text x="40.0" y="446.0" font-size="14" fill="#3b2f1e" font-weight="bold">Chinese</text>
+<text x="40.0" y="460.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Sino-Tibetan</text>
+<circle cx="509.9" cy="445.0" r="6" fill="#3b2f1e" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M200 479.0 H690" stroke="#a67c3d" stroke-width="0.4" stroke-opacity="0.6"/>
+<text x="40.0" y="480.0" font-size="14" fill="#3b2f1e" font-weight="bold">Mayan</text>
+<text x="40.0" y="494.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Mayan</text>
+<circle cx="646.8" cy="479.0" r="6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6" stroke-dasharray="3 2"/>
+<text x="40.0" y="546.0" font-size="11.5" fill="#3b2f1e">Egyptian, c. 3250 BC: Abydos tomb U-j labels (reading as language disputed).</text>
+<text x="40.0" y="561.5" font-size="11.5" fill="#3b2f1e">Sumerian, c. 3200 BC: Uruk IV proto-cuneiform (language identification disputed).</text>
+<text x="40.0" y="577.0" font-size="11.5" fill="#3b2f1e">Akkadian, c. 2400 BC: Old Akkadian royal inscriptions.</text>
+<text x="40.0" y="592.5" font-size="11.5" fill="#3b2f1e">Elamite, c. 2250 BC: Old Elamite treaty with Naram-Sin.</text>
+<text x="40.0" y="608.0" font-size="11.5" fill="#3b2f1e">Hittite and Luwian, c. 1900 BC: personal names in the Kanesh merchant archives (Kloekhorst, Kanishite Hittite, 2019).</text>
+<text x="40.0" y="623.5" font-size="11.5" fill="#3b2f1e">Greek, c. 1400 BC: Linear B tablets, Knossos.</text>
+<text x="40.0" y="639.0" font-size="11.5" fill="#3b2f1e">Indo-Aryan, c. 1380 BC: Mitra and Varuna in the Mitanni treaty with the Hittites.</text>
+<text x="40.0" y="654.5" font-size="11.5" fill="#3b2f1e">Chinese, c. 1250 BC: oracle-bone inscriptions, reign of Wu Ding.</text>
+<text x="40.0" y="670.0" font-size="11.5" fill="#3b2f1e">Mayan, c. 300 BC: San Bartolo murals.</text>
+<text x="40.0" y="699.5" font-size="11.5" fill="#6b5a3e" font-style="italic">Solid dot: an agreed first record. Open dot: the date or the language is disputed.</text>
+<text x="40.0" y="715.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Red band: Peleg's lifetime, “in his days the earth was divided” (Genesis 10:25, ESV),</text>
+<text x="40.0" y="730.5" font-size="11.5" fill="#6b5a3e" font-style="italic">on the Masoretic text this site follows; dashed: the same on the Septuagint. Dates are</text>
+<text x="40.0" y="746.0" font-size="11.5" fill="#6b5a3e" font-style="italic">conventional archaeological ones; how they meet the Flood is weighed in The Flood and the King Lists.</text>
+<text x="696.0" y="781.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

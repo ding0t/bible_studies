@@ -1,0 +1,187 @@
+slug: "what-languages-declare"
+title: "What Languages Declare: Babel and the Arithmetic of Tongues"
+status: review # first draft written 2026-10-20, draft: true; awaiting author read + review-bible-study
+target_path: "docs/content/chronology/what-languages-declare.md"
+
+primary_passage: "Genesis 11:1-9"
+supporting_passages:
+  - "Genesis 10:1-32"   # the outcome, placed first: "each with his own language" (10:5, 20, 31)
+  - "Genesis 10:25"     # Peleg, "in his days the earth was divided"
+  - "Genesis 2:19"      # the first man speaks and names
+  - "Deuteronomy 32:8"  # quoted only up to "borders of the peoples" -- the variant clause is not used
+  - "Isaiah 19:18"      # "the language of Canaan" -- Hamite Canaan speaks Semitic
+  - "Zephaniah 3:8-10"  # the same saphah, made pure, after the judgment of the nations
+  - "Acts 2:1-11"       # Pentecost; Acts 2:6 synecho = LXX Genesis 11:7, 9
+  - "Acts 17:26-27"     # scattered "that they should seek God"
+  - "Revelation 5:9"    # ransomed from every language
+  - "Revelation 7:9"    # every tongue before the Lamb
+
+sibling_studies:
+  - slug: "chronology/world-population-declares-gods-creation-and-biblical-truth"
+    role: cited
+    use: build-on
+    note: "The series this joins. Babel date c. 2103 BC (AM 1856) and Peleg 2202-1963 BC reused; 'consistency is the ceiling' framing reused for the growth-rate section. Linked twice."
+  - slug: "god/creation-reveals-the-creator"
+    role: none
+    use: link
+    note: "First of the 'declares' set; linked in the hook."
+  - slug: "chronology/flood-and-the-king-lists"
+    role: primary
+    use: link
+    note: "Carries the writing-before-the-Flood pressure and Enmerkar/Etemenanki; linked from 'The first written witnesses' and 'Babel in Sumerian memory'. This study adds only the ETCSL tense question. Site follows MT numbers per its 'why this site follows the Masoretic numbers' section."
+  - slug: "chronology/genealogy-times"
+    role: primary
+    use: none
+    note: "Not linked; combined-timeline table supplied the LXX Peleg/Flood dates."
+  - slug: "chronology/combined-timeline"
+    role: primary
+    use: none
+    note: "Source of LXX Flood 3183 BC and Peleg 2652 BC (constants in utils/build_languages_graphics.py)."
+  - slug: "feasts/weeks"
+    role: primary
+    use: enrich
+    note: "Covers Pentecost but never names Babel. Offer back: the LXX Genesis 11:7, 9 / Acts 2:6 synecho echo. Not edited in this session."
+
+genre: [ot-narrative, topical]
+
+thesis: >-
+  At Babel God divided one language in a single act, and the shape of the world's languages today,
+  hundreds of lineages with no common trunk, is what that act leaves behind; the long common ancestry
+  that does without Babel has to assume language growth stood almost still for tens of thousands of
+  years, a stillness no recorded family shows.
+
+outline:
+  - section: "Hook + In one sentence + series link"
+    says: "Seventy nations, 7,674 languages, 429 lineages; drift would leave a fifth of core words shared."
+  - section: "Key Takeaways"
+    says: "Zephaniah 3:9 prophecy; Pentecost, Revelation 5:9 and Genesis 12:3 about Jesus; memory verses Genesis 11:9 and Revelation 7:9; Think/Attitude/Do; prayer."
+  - section: "Part one: Genesis 10 first, then its cause"
+    says: "lashon in ch. 10, the outcome; 11:1-9 the cause, dated by Peleg."
+  - section: "Part one: One lip, and the verb that broke it"
+    says: "saphah, devarim achadim, let us / let us, puts reversed, balal/Bavel, LXX Synchysis; God acts at a stroke, on speech, scattering in mercy (Deuteronomy 32:8; Acts 17:26-27)."
+  - section: "Part one: What Genesis 10 does not claim to be"
+    says: "Canaan and Elam; no language count in Genesis."
+  - section: "Part two: 429 lineages and no common trunk"
+    says: "Glottolog 5.3; comparative method's reach; chart no-common-trunk."
+  - section: "Part two: The decay test"
+    says: "Lees/Swadesh band; 17-29% at 2103 BC; three models; young+gradual ruled out; Babel required within the Bible's chronology. Chart decay-test."
+  - section: "Part two: How fast tongues multiply"
+    says: "Author's added emphasis (2026-10-20): the case against long common ancestry. Babel needs a 609-yr doubling, slower than every recorded family; one tongue 50k/100k years ago needs 3,874/7,748, 10-30x slower, i.e. an assumed birth/death balance. Chart how-fast-tongues-multiply."
+  - section: "Part two: Two more facts long ancestry has to carry"
+    says: "Every known language complete (Sapir 1921); speech old, writing young."
+  - section: "Part two: The first written witnesses"
+    says: "Chart first-written-witnesses; IE all after Peleg; pre-Flood writing on conventional dates linked to king-lists."
+  - section: "Part two: Speech and writing have different family trees"
+    says: "Added at the author's request (2026-10-20): writing invented a few times and spread by borrowing across language lines; speech shows the break; Genesis 11:7 targets hearing (shama)."
+  - section: "Part two: Babel in Sumerian memory"
+    says: "Enmerkar 134-155, tense disputed; distorted memory at most."
+  - section: "Part two: Chinese characters and the creation story"
+    says: "Kang & Nelson; Shuowen 船 and 禁 as sound+meaning compounds; oracle bones post-Moses; left out."
+  - section: "Part two: Where this argument is weak"
+    says: "Decay test neutral vs deep time; 70 vs 429; Indo-European timing (Kanesh 1900 BC vs Heggarty 8,100 BP; Atkinson bursts); Pagel."
+  - section: "Part three: what languages declare"
+    says: "Acts 2:6 synecho echo; Medes and Elamites; languages kept; Revelation 7:9, 5:9; Zephaniah 3:9 in the kingdom; God judges pride, rules the nations, redeems them; so you may pray."
+word_budget: 4000
+word_budget_reason: ""
+
+graphics:
+  generator: "utils/build_languages_graphics.py"
+  data: "docs/data/languages.json (+ docs/data/chronology.json for MT dates)"
+  built: [no-common-trunk, decay-test, how-fast-tongues-multiply, first-written-witnesses]
+  rendered_and_checked: "2026-10-20 with qlmanage; collisions fixed"
+  proposed_not_built:
+    - {kind: imagery, what: "Babel -> Pentecost -> Revelation 7:9 plate, details numbered to verses"}
+
+stages:
+  scoping:
+    done: true
+    notes: >-
+      Author asked (2026-10-20) for a 'languages declare' companion to the creation and population
+      studies. Author: 'the details are external too' -- Part two carries extra-biblical linguistics,
+      labelled as such; Parts one and three rest on Scripture. Author then asked for the study to
+      press the case against a long common ancestry and to say that today's language shape needs a
+      Babel event; and asked whether written and spoken language differ (section added).
+      Decisions taken without a ruling (flag to author): the 70-vs-429 tension is stated as open;
+      the MT is the working chronology (site policy) with LXX values drawn dashed beside it.
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Shinar, baked brick and bitumen (Genesis 11:2-3); ESV SB 11:9 ziggurat note. Genesis authorship/occasion not developed -- the sibling population study covers it."
+    literary_context:
+      done: true
+      notes: >-
+        10:1-32 lists the nations 'each with his own language' before 11:1-9 explains how; ESV SB
+        11:1. 11:1-9 framed by 'whole earth' (11:1, 9); builders' 'let us' (11:3-4) answered by the
+        LORD's (11:7); puts feared (11:4) and done (11:8-9). Followed by Shem to Abram (11:10-32) and
+        the blessing of all families (12:3).
+    content_word_studies:
+      done: true
+      notes: "Verified in bible-text.db 2026-10-20."
+      terms:
+        - {word: "שָׂפָה", language: hebrew, transliteration: "saphah", strongs_id: "H8193", gloss: "lip; speech; edge, shore", notes: "Genesis 11:1, 6, 7, 9; Zephaniah 3:9 with berurah (H1305); rim/shore 1 Kings 7:23; 9:26 (MACULA glosses)."}
+        - {word: "לָשׁוֹן", language: hebrew, transliteration: "lashon", strongs_id: "H3956", gloss: "tongue, language", notes: "Genesis 10:5 (ULT interlinear)."}
+        - {word: "בָּלַל", language: hebrew, transliteration: "balal", strongs_id: "H1101", gloss: "mix, confuse", notes: "Genesis 11:7, 9."}
+        - {word: "פּוּץ", language: hebrew, transliteration: "puts", strongs_id: "H6327", gloss: "scatter, disperse", notes: "Genesis 11:4, 8, 9 (interlinear)."}
+        - {word: "שָׁמַע", language: hebrew, transliteration: "shama", strongs_id: "H8085", gloss: "hear, understand", notes: "Genesis 11:7, ESV 'understand' (interlinear)."}
+        - {word: "συγχέω", language: greek, transliteration: "synchéō", strongs_id: "G4797", gloss: "confuse, confound", notes: "LXX Genesis 11:7, 9 (Brenton); Σύγχυσις G4799 names the city at 11:9. SBLGNT: 5 occurrences, all Acts (2:6; 9:22; 19:32; 21:27, 31)."}
+        - {word: "διάλεκτος", language: greek, transliteration: "dialektos", strongs_id: "G1258", gloss: "language", notes: "Acts 2:6 (interlinear), 2:8."}
+        - {word: "γλῶσσα", language: greek, transliteration: "glōssa", strongs_id: "G1100", gloss: "tongue, language", notes: "Acts 2:4, 11; Revelation 7:9."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Babel's pride and God's scattering-in-mercy carry over directly; the application is prayer for unreached language groups and refusing to build a name."
+    theological_principle:
+      done: true
+      notes: >-
+        God judges pride, rules the nations (Deuteronomy 32:8; Acts 17:26) and redeems them in Jesus
+        from every language (Revelation 5:9), keeping the languages (Acts 2:6-11; Revelation 7:9).
+        Statement of faith checked: young six-day creation and the site's MT chronology are
+        consistent with the thesis; Zephaniah 3:9 placed in the kingdom after judgment, Pentecost as
+        foretaste (dispensational preference). No conflict found.
+    application_draft:
+      done: true
+      notes: "Be Transformed + Part three close."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Acts 2:6", relation: "LXX Genesis 11:7, 9 verb synecho; lemma echo, no quotation"}
+      - {ref: "Acts 2:9", relation: "Medes and Elamites = Madai (Genesis 10:2) and Elam (10:22)"}
+      - {ref: "Zephaniah 3:9", relation: "saphah restored"}
+      - {ref: "Deuteronomy 32:8", relation: "division of the nations; 4Q37 elohim variant in the final clause (extant_words 2), deliberately not quoted"}
+    translations_compared: ["ESV", "WEB", "ULT", "LXX Brenton"]
+    divergences_noted: "LXX Genesis 11:9 names the city Synchysis; ESV Acts 2:6 'bewildered' hides the shared verb; ESV Genesis 11:7 'understand' renders shama 'hear'."
+  drafting:
+    done: true
+    file: "docs/content/chronology/what-languages-declare.md"
+  review:
+    done: false
+    validated: true # npm run validate 2026-10-20: only the three provenance warnings (filled at commit); mkdocs build --strict passes
+
+evidence:
+  - {claim: "synecho occurs 5 times in the NT, all in Acts", tool: bible_concordance, args: {strongs: "G4797", work_id: "macula-greek-sblgnt"}, expect_count: 5}
+  - {claim: "Zephaniah 3:9 'pure speech' is saphah", tool: bible_interlinear, args: {book: "Zeph", chapter: 3, verse: 9}, expect_contains: "H8193"}
+  - {claim: "Genesis 10:5 'language' is lashon", tool: bible_interlinear, args: {book: "Gen", chapter: 10, verse: 5}, expect_contains: "H3956"}
+  - {claim: "Acts 2:6 'bewildered' is synecho", tool: bible_interlinear, args: {book: "Acts", chapter: 2, verse: 6}, expect_contains: "G47970"}
+
+open_questions:
+  - "Author decision: is the 70-vs-429 tension worded right (stated open, text silent on a number)?"
+  - "Author decision: LXX values drawn dashed beside MT on two charts -- keep, or MT only?"
+  - "First-attestation dates are conventional values from memory of standard references (Woodard 2004 et al.); review-bible-study should check each row of docs/data/languages.json first_writing against a source, especially Elamite c. 2250 and Akkadian c. 2400."
+  - "Family ages for the growth chart (Romance 1,600; Arabic 1,350; Slavic 1,400; Germanic 2,500; Bantu 5,000) are round values; Germanic and Bantu are model dates and drawn dashed. Glottolog counts include recorded extinct varieties."
+  - "Kanesh: Kloekhorst 2019 cited for Hittite and Luwian names c. 1900 BC from catalogue description; verify both languages are attested there before publishing."
+  - "Ethnologue living count (~7,170, 2025) not used; Glottolog 7,674 includes recorded extinct languages. Say so if a reviewer prefers living-only."
+  - "Fork candidates: Deuteronomy 32:8 and the divine council; a Genesis 10 map of identifiable peoples; a Babel-Pentecost-Revelation 7:9 imagery plate."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Genesis 11:1, 11:1-9, 11:2-4, 11:5-8, 11:9. Contributed: 11:1 not chronologically after ch. 10; balal/Babel; ziggurat."}
+  - {type: other, title: "Glottolog 5.3 and glottolog-cldf v5.3 languages.csv", author: "Hammarström et al.", note: "7,674 spoken L1 (reproduced exactly from the CSV), 246 families stated / 238 with a language in the data, 183 isolates; family child_language_count via the languoid JSON API."}
+  - {type: other, title: "Lees 1953; Swadesh 1955; Bergsland & Vogt 1962", note: "0.8048 and 0.86 retention; critique. Confirmed via Wikipedia 'Glottochronology' and the Arizona Anthropologist article."}
+  - {type: other, title: "Atkinson et al. 2008, Science 319:588", note: "10-33% of vocabulary differences from bursts at splits."}
+  - {type: other, title: "Pagel et al. 2013, PNAS", note: "~14,450-year Eurasiatic claim; Language Log and Häkkinen critiques."}
+  - {type: other, title: "Heggarty et al. 2023, Science 381 eabg0818", note: "IE divergence from c. 8,100 years ago."}
+  - {type: other, title: "Sapir, Language (1921), Project Gutenberg #12629", note: "'we know of no people that is not possessed of a fully developed language' -- verified in the downloaded text."}
+  - {type: other, title: "ETCSL c.1.8.2.3, Enmerkar and the Lord of Aratta 134-155", note: "Optative/future wording; Kramer's past reading. Jacobsen 1992, Vanstiphout 1994, Klein 2000 in the literature."}
+  - {type: other, title: "Shuowen Jiezi entries 船, 禁", note: "船 从舟 鉛省聲; 禁 从示 林聲 (via chinesenotes / dong-chinese search results). 婪 not verified and not used."}
+  - {type: other, title: "Kang & Nelson critiques", note: "Timothy Chow review; Raccoon Bend; Talk.Origins CG101."}
+
+last_updated: "2026-10-20"
