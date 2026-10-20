@@ -87,12 +87,14 @@ confesses that Jesus Christ is Lord. In Jesus' name. Amen.
 - **[Part one: what Scripture says](#part-one-what-scripture-says).** Babel read in its context:
   Genesis 10 as the result, Genesis 11 as the cause, the Hebrew of "one lip," and what Genesis 10 does
   not claim to be.
-- **[Part two: what the languages say](#part-two-what-the-languages-say).** Four charts: the lineages
-  with no common trunk, the decay test, the growth rates each history needs, and the first written
-  witnesses. Then the long-ancestry alternative, how writing's history differs from speech's, and
-  where this argument is weak.
+- **[Part two: what the languages say](#part-two-what-the-languages-say).** The evidence from outside Scripture, with four charts, in three steps and then its limits:
+    - *Today's languages against the Bible's timescale* — [429 lineages and no common trunk](#429-lineages-and-no-common-trunk) · [The decay test](#the-decay-test).
+    - *The long-ancestry alternative and what it costs* — [How fast tongues multiply](#how-fast-tongues-multiply) · [Two more facts](#two-more-facts-long-ancestry-has-to-carry).
+    - *The written record* — [The first written witnesses](#the-first-written-witnesses) · [Speech and writing](#speech-and-writing-have-different-family-trees).
+    - [Where this argument is weak](#where-this-argument-is-weak).
 - **[Part three: what languages declare](#part-three-what-languages-declare).** Babel to Pentecost to
   the throne, and what it shows about God.
+- **[Annex: two outside claims this study sets aside](#annex-two-outside-claims-this-study-sets-aside).** A Sumerian text on a single language and a reading of Genesis in Chinese characters, each weighed and left out of the argument.
 
 ## Part one: what Scripture says
 
@@ -152,7 +154,7 @@ This shows that God opposes the pride that builds a name in place of His, and th
 carried mercy inside it from the first day. Babel scattered the nations into the places where they
 would grope for Him.
 
-### What Genesis 10 does not claim to be
+### Genesis 10 groups nations by descent, land and language
 
 Genesis 10 groups nations by descent, territory and language together. It is no language family
 tree, and reading it as one runs into the text itself:
@@ -291,26 +293,6 @@ language lines. Speech breaks into hundreds of lineages that borrowing never con
 records sit side by side in the same peoples, and only one of them shows a break. Genesis puts God's
 act on the spoken word and nowhere else.
 
-### Babel in Sumerian memory
-
-One Sumerian text speaks to Babel directly. In *Enmerkar and the Lord of Aratta* (lines 134-155),
-the lands are to "address Enlil together in a single language," and the god Enki will "change the
-speech in their mouths" (ETCSL translation). Scholars dispute whether the passage looks back to a lost
-unity, as Samuel Noah Kramer read it, or forward to a hoped-for one, as the ETCSL rendering has it.
-At most it is a distorted memory of a confusion of tongues sent by heaven; it carries nothing in this
-argument. The [king-lists study](flood-and-the-king-lists.md#babels-archaeology) covers it with the
-ziggurat of Babylon.
-
-### Chinese characters and the creation story
-
-C. H. Kang and Ethel Nelson's *The Discovery of Genesis* (1979) reads Genesis in Chinese
-characters, such as 船 (boat) as "vessel, eight, mouths" for the eight people on the ark. The oldest
-Chinese dictionary, the *Shuowen Jiezi* (AD 100), analyses 船 as 舟 "boat" for meaning plus a
-shortened 鉛 for sound. It reads 禁 (forbid), which the book takes as two trees and a divine command,
-as 示 for meaning plus 林 for sound. Most Chinese characters are built this way, from one part for
-meaning and one for sound, and the book reads the sound parts as story. The oldest characters, on
-oracle bones of about 1250 BC, are also later than Moses. This study leaves the claim out.
-
 ### Where this argument is weak
 
 - **The decay test is neutral between Babel and deep time.** It rules out a young, gradual
@@ -362,6 +344,8 @@ from every tribe and language and people and nation" (Revelation 5:9, ESV). Zeph
 "pure speech" for the peoples (Zephaniah 3:9, ESV), Babel's *saphah* made clean, in the kingdom that
 follows the day of judgment. Pentecost was its first taste.
 
+### Three things the languages declare about God
+
 So the languages declare three things about God. **He judges pride**: the city built for a name
 stands unfinished (Genesis 11:8). **He rules the nations**: He divided them, fixed their borders and
 set their times (Deuteronomy 32:8; Acts 17:26). **He redeems them**: His Son Jesus ransomed people
@@ -370,6 +354,28 @@ from every one of those languages, and the Holy Spirit carries the gospel into e
 So when you hear a language you cannot understand, you are hearing Babel, and you are hearing a
 people God scattered so they would seek Him. Jesus died for people who speak it. Pray that they hear
 His mighty works in their own tongue.
+
+## Annex: two outside claims this study sets aside
+
+### Babel in Sumerian memory
+
+One Sumerian text speaks to Babel directly. In *Enmerkar and the Lord of Aratta* (lines 134-155),
+the lands are to "address Enlil together in a single language," and the god Enki will "change the
+speech in their mouths" (ETCSL translation). Scholars dispute whether the passage looks back to a lost
+unity, as Samuel Noah Kramer read it, or forward to a hoped-for one, as the ETCSL rendering has it.
+At most it is a distorted memory of a confusion of tongues sent by heaven; it carries nothing in this
+argument. The [king-lists study](flood-and-the-king-lists.md#babels-archaeology) covers it with the
+ziggurat of Babylon.
+
+### Chinese characters and the creation story
+
+C. H. Kang and Ethel Nelson's *The Discovery of Genesis* (1979) reads Genesis in Chinese
+characters, such as 船 (boat) as "vessel, eight, mouths" for the eight people on the ark. The oldest
+Chinese dictionary, the *Shuowen Jiezi* (AD 100), analyses 船 as 舟 "boat" for meaning plus a
+shortened 鉛 for sound. It reads 禁 (forbid), which the book takes as two trees and a divine command,
+as 示 for meaning plus 林 for sound. Most Chinese characters are built this way, from one part for
+meaning and one for sound, and the book reads the sound parts as story. The oldest characters, on
+oracle bones of about 1250 BC, are also later than Moses. This study leaves the claim out.
 
 ## Discussion questions
 

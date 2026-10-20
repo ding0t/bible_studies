@@ -59,7 +59,7 @@ outline:
     says: "lashon in ch. 10, the outcome; 11:1-9 the cause, dated by Peleg."
   - section: "Part one: One lip, and the verb that broke it"
     says: "saphah, devarim achadim, let us / let us, puts reversed, balal/Bavel, LXX Synchysis; God acts at a stroke, on speech, scattering in mercy (Deuteronomy 32:8; Acts 17:26-27)."
-  - section: "Part one: What Genesis 10 does not claim to be"
+  - section: "Part one: Genesis 10 groups nations by descent, land and language"
     says: "Canaan and Elam; no language count in Genesis."
   - section: "Part two: 429 lineages and no common trunk"
     says: "Glottolog 5.3; comparative method's reach; chart no-common-trunk."
@@ -73,9 +73,9 @@ outline:
     says: "Chart first-written-witnesses; IE all after Peleg; pre-Flood writing on conventional dates linked to king-lists."
   - section: "Part two: Speech and writing have different family trees"
     says: "Added at the author's request (2026-10-20): writing invented a few times and spread by borrowing across language lines; speech shows the break; Genesis 11:7 targets hearing (shama)."
-  - section: "Part two: Babel in Sumerian memory"
+  - section: "Annex: Babel in Sumerian memory"
     says: "Enmerkar 134-155, tense disputed; distorted memory at most."
-  - section: "Part two: Chinese characters and the creation story"
+  - section: "Annex: Chinese characters and the creation story"
     says: "Kang & Nelson; Shuowen 船 and 禁 as sound+meaning compounds; oracle bones post-Moses; left out."
   - section: "Part two: Where this argument is weak"
     says: "Decay test neutral vs deep time; 70 vs 429; Indo-European timing (Kanesh 1900 BC vs Heggarty 8,100 BP; Atkinson bursts); Pagel."
@@ -157,6 +157,23 @@ stages:
     done: true # review-bible-study 2026-10-20 (agent pass); judgment calls below await the author
     validated: true # npm run validate 2026-10-20 after review edits: no warnings on this file; evidence replay 7/7 ok
     notes: "See review_2026-10-20."
+  readability:
+    done: true # read-bible-study 2026-10-20 (agent pass, fresh session); no sentence changed
+    notes: >-
+      Before: 24 sections, median 124 words, 0 over 400, longest 361. After: 26 sections, median 124,
+      0 over 400, longest 311. Changes: (1) 'What Genesis 10 does not claim to be' renamed 'Genesis 10
+      groups nations by descent, land and language' (heading named what the section is not);
+      (2) 'Babel in Sumerian memory' and 'Chinese characters and the creation story' moved out of
+      Part two into '## Annex: two outside claims this study sets aside' before Discussion questions
+      -- both say they carry nothing in the argument, and they sat between the writing sections and
+      'Where this argument is weak', which answers the decay/growth/Indo-European case; (3) '### Three
+      things the languages declare about God' added in Part three so the payoff is findable;
+      (4) Study outline: Part two bullet regrouped into three steps plus its limits with per-section
+      anchors (the old annotation put the long-ancestry sections after the fourth chart), annex bullet
+      added. verify-against HEAD: added_unexpected none; removed = only the three wrapped lines of the
+      old Part two outline annotation (the checker skips a bullet's first line but not its
+      continuation lines). In-page anchors checked against mkdocs serve: none missing. Validate: no
+      warnings on this file. Not done: no prose changed, so the review for_author items stand.
 
 evidence:
   - {claim: "synecho occurs 5 times in the NT, all in Acts", tool: bible_concordance, args: {strongs: "G4797", work_id: "macula-greek-sblgnt"}, expect_count: 5}
