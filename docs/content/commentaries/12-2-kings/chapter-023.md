@@ -14,4 +14,5 @@ draft: false
 
 - [Passover: When I See the Blood](../../feasts/passover.md) — 23:21-22
 - [Sin and Sorcery](../../sin/sorcery.md) — 23:24
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 23:28
 <!-- commentary-index:auto-end -->

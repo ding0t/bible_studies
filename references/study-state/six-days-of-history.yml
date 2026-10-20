@@ -112,7 +112,194 @@ evidence:
   - {id: heb4-9-esv, what: "ESV Hebrews 4:9", tool: study_verse, args: {book: Heb, chapter: 4, verse: 9, work_id: esv-study-bible}, expect_contains: "there remains a Sabbath rest for the people of God", checked: 2026-09-27}
   - {id: esvsb-gen1-24-31, what: "ESV SB: day six the longest section, the peak", tool: study_note, args: {book: Gen, chapter: 1, verse: 24, work_id: esv-study-bible, note_type: study_note}, expect_contains: "day 6 is the peak of interest", checked: 2026-09-27}
   - {id: esvsb-gen1-1, what: "ESV SB: 1:1-2:3 structured into seven sections", tool: study_note, args: {book: Gen, chapter: 1, verse: 1, work_id: esv-study-bible, note_type: study_note}, expect_contains: "Structured into seven sections", checked: 2026-09-27}
+  # review_2026-10-20 additions
+  - {id: gen1-14-esv, what: "ESV Genesis 1:14 block quote", tool: study_verse, args: {book: Gen, chapter: 1, verse: 14, work_id: esv-study-bible}, expect_contains: "And let them be for signs and for seasons, and for days and years,", checked: 2026-10-20}
+  - {id: gen1-22-esv, what: "ESV Genesis 1:22 (day five blessing)", tool: study_verse, args: {book: Gen, chapter: 1, verse: 22, work_id: esv-study-bible}, expect_contains: "And God blessed them, saying, “Be fruitful and multiply and fill the waters in the seas", checked: 2026-10-20}
+  - {id: gen1-28-esv, what: "Genesis 1:28 repeats day five's blessing + multiply for man (review finding: 'the one thing' claim)", tool: study_verse, args: {book: Gen, chapter: 1, verse: 28, work_id: esv-study-bible}, expect_contains: "And God blessed them. And God said to them, “Be fruitful and multiply", checked: 2026-10-20}
+  - {id: gen9-1-esv, what: "Noah blessed + 'be fruitful and multiply' in the second millennium (review finding)", tool: study_verse, args: {book: Gen, chapter: 9, verse: 1, work_id: esv-study-bible}, expect_contains: "And God blessed Noah and his sons and said to them, “Be fruitful and multiply", checked: 2026-10-20}
+  - {id: gen35-11-esv, what: "Jacob told 'be fruitful and multiply' in the third millennium (review finding)", tool: study_verse, args: {book: Gen, chapter: 35, verse: 11, work_id: esv-study-bible}, expect_contains: "I am God Almighty: be fruitful and multiply", checked: 2026-10-20}
+  - {id: lxx-gen1-22, what: "LXX day-five verbs auxanesthe kai plethynesthe", tool: bible_verse, args: {book: Gen, chapter: 1, verse: 22, translation: ebible-grcbrent}, path: text, expect_contains: "αὐξάνεσθε καὶ πληθύνεσθε", checked: 2026-10-20}
+  - {id: acts12-24-grk, what: "Acts 12:24 the word 'grew and multiplied' -- the actual NT echo of day five's verbs (proposed fix)", tool: bible_verse, args: {book: Acts, chapter: 12, verse: 24, translation: SBLGNT}, path: text, expect_contains: "ηὔξανεν καὶ ἐπληθύνετο", checked: 2026-10-20}
+  - {id: lxx-gen1-8, what: "LXX Genesis 1:8 adds 'God saw that it was good' (undisclosed fork in day two's 'not called good')", tool: bible_verse, args: {book: Gen, chapter: 1, verse: 8, translation: ebible-grcbrent}, path: text, expect_contains: "εἶδεν ὁ Θεὸς ὅτι καλόν", checked: 2026-10-20}
+  - {id: lxx-gen1-26, what: "LXX Genesis 1:26 kat' eikona", tool: bible_verse, args: {book: Gen, chapter: 1, verse: 26, translation: ebible-grcbrent}, path: text, expect_contains: "κατʼ εἰκόνα ἡμετέραν", checked: 2026-10-20}
+  - {id: lxx-gen2-7, what: "LXX Genesis 2:7 pnoe", tool: bible_verse, args: {book: Gen, chapter: 2, verse: 7, translation: ebible-grcbrent}, path: text, expect_contains: "πνοὴν ζωῆς", checked: 2026-10-20}
+  - {id: rev13-15-grk, what: "Revelation 13:15 pneuma + eikon", tool: bible_verse, args: {book: Rev, chapter: 13, verse: 15, translation: SBLGNT}, path: text, expect_contains: "τῇ εἰκόνι τοῦ θηρίου", checked: 2026-10-20}
+  - {id: rev13-18-esv, what: "ESV Revelation 13:18", tool: study_verse, args: {book: Rev, chapter: 13, verse: 18, work_id: esv-study-bible}, expect_contains: "let the one who has understanding calculate the number of the beast, for it is the number of a man, and his number is 666", checked: 2026-10-20}
+  - {id: rev20-4-esv, what: "ESV Revelation 20:4", tool: study_verse, args: {book: Rev, chapter: 20, verse: 4, work_id: esv-study-bible}, expect_contains: "those who had not worshiped the beast or its image", checked: 2026-10-20}
+  - {id: ps89-36-esv, what: "ESV Psalm 89:36", tool: study_verse, args: {book: Ps, chapter: 89, verse: 36, work_id: esv-study-bible}, expect_contains: "His offspring shall endure forever, his throne as long as the sun before me", checked: 2026-10-20}
+  - {id: exod14-22-esv, what: "ESV Exodus 14:22", tool: study_verse, args: {book: Exod, chapter: 14, verse: 22, work_id: esv-study-bible}, expect_contains: "went into the midst of the sea on dry ground", checked: 2026-10-20}
+  - {id: 2chr8-13-esv, what: "Solomon keeps the feasts 'according to the commandment of Moses' (proposed fix for day four)", tool: study_verse, args: {book: 2Chr, chapter: 8, verse: 13, work_id: esv-study-bible}, expect_contains: "offering according to the commandment of Moses for the Sabbaths, the new moons, and the three annual feasts", checked: 2026-10-20}
+  - {id: wlc-gen1-31, what: "Hebrew article at day six", tool: bible_verse, args: {book: Gen, chapter: 1, verse: 31, translation: WLC}, path: text, expect_contains: "י֥וֹם הַ/שִּׁשִּֽׁי", checked: 2026-10-20}
+  - {id: web-gen1-31, what: "WEB 'a sixth day' (translation table)", tool: bible_verse, args: {book: Gen, chapter: 1, verse: 31, translation: WEB}, path: text, expect_contains: "a sixth day", checked: 2026-10-20}
+  - {id: asv-gen1-5, what: "ASV 'one day' (translation table)", tool: bible_verse, args: {book: Gen, chapter: 1, verse: 5, translation: ASV}, path: text, expect_contains: "one day", checked: 2026-10-20}
+  - {id: rotherham-gen1-23, what: "Rotherham 'a fifth day' (translation table)", tool: bible_verse, args: {book: Gen, chapter: 1, verse: 23, translation: Rotherham}, path: text, expect_contains: "a fifth day", checked: 2026-10-20}
+  - {id: bsb-gen1-23, what: "BSB 'the fifth day' (translation table)", tool: bible_verse, args: {book: Gen, chapter: 1, verse: 23, translation: BSB}, path: text, expect_contains: "the fifth day", checked: 2026-10-20}
+  - {id: nasb2020-gen1-23, what: "NASB 2020 'a fifth day' (translation table)", tool: study_verse, args: {book: Gen, chapter: 1, verse: 23, work_id: nasb-2020}, expect_contains: "a fifth day", checked: 2026-10-20}
+  - {id: acts12-24-esv, what: "ESV Acts 12:24 (R2 fix)", tool: study_verse, args: {book: Acts, chapter: 12, verse: 24, work_id: esv-study-bible}, expect_contains: "But the word of God increased and multiplied.", checked: 2026-10-20}
+  - {id: lxx-gen1-28, what: "LXX Genesis 1:28 has the same verb pair (R2: echo shared with day six)", tool: bible_verse, args: {book: Gen, chapter: 1, verse: 28, translation: ebible-grcbrent}, path: text, expect_contains: "αὐξάνεσθε καὶ πληθύνεσθε", checked: 2026-10-20}
+  - {id: ps89-38-esv, what: "Psalm 89:38 the throne humbled (R3 fix)", tool: study_verse, args: {book: Ps, chapter: 89, verse: 38, work_id: esv-study-bible}, expect_contains: "But now you have cast off and rejected", checked: 2026-10-20}
+  - {id: nkjvcb-gen4-26, what: "NKJV Cultural Backgrounds note: not only Seth's line called on the LORD", tool: study_note, args: {book: Gen, chapter: 4, verse: 26, work_id: nkjv-cultural-backgrounds-study-bible, note_type: study_note}, expect_contains: "does not imply that only the line of Seth called on the name of the Lord", checked: 2026-10-20}
 
 chronology_alignment_2026-10-01: >
   Creation 3959 BC. Solomon's temple begun AM 2993 and finished AM 3000 on this epoch (noted as carrying Solomon's +/-5, not leaned on). Nativity paragraph updated as in the parent study. The site's single chronology line, and the reason for each date, is recorded in
   references/study-state/chronology-anchors.yml under chronology_line.
+
+review_2026-10-20:
+  reviewer: "anthropic/claude-opus-5.5 (review-bible-study, agent session; author not present -- nothing in the study edited)"
+  file_status: "draft: false (live)"
+  checked: >
+    Phase 1: all 29 quoted ESV verses re-queried in study-notes.db (esv-study-bible) -- every one
+    verbatim, references correct. Phase 2: Barnabas 15, Irenaeus AH 5.23.2, 5.28.2, 5.28.3 checked
+    against ANF vol. 1 on the media volume (anf01.txt) -- all verbatim and correctly sectioned;
+    NKJV CB note on Genesis 4:26 confirmed; all five parent-study anchors and the two site links
+    resolve; a-thousand-years-in-your-sight.md is now draft: false (open question 2 is closed).
+    Phase 3: H4150 in Leviticus 23 = 2+2+1+1 at 23:2, 4, 37, 44 (six across four verses, correct);
+    H3004 at Gen 1:9-10 and Exod 14:22 correct; ki tov absent from MT 1:8, present 1:10 and 1:12;
+    LXX kat' eikona (1:26-27), pnoe (2:7), SBLGNT pneuma/eikon (Rev 13:15) correct; translation
+    table re-queried for all seven rows (WLC, ESV, BSB, WEB, ASV, NASB 2020, Rotherham) -- all
+    correct. Genesis 1 footnotes read: CSB 1:14 "Or for the appointed times" supports the mo'adim
+    reading. Phase 4 arithmetic: Adam d. AM 930, Enoch AM 987, Flood AM 1656, Temple AM 2993/3000,
+    Nativity AM 3954 (5 BC), cross AM 3991 (AD 33), AM 4000 = AD 42, AM 6000 = AD 2042, Ussher AM
+    4000 = 4 BC -- all correct. Phase 5: NIV CB on 1:14 and ESV SB on 1:6-8 -- silent on the
+    typology, nothing contradicts. Phase 6: review_gaps (no load-bearing quotation gap);
+    cross_study_claims "Genesis 1" (30 siblings). Validator: two Check 25 warnings, no errors.
+  findings:
+    - id: R1
+      severity: critical
+      location: "Day five, final sentence"
+      finding: >
+        False synthetic claim: "The church is the one thing in this scheme that begins with a
+        blessing and a command to multiply." Genesis 1:28 (day six, man), Genesis 9:1 (Noah, AM
+        1657, day two) and Genesis 35:11 (Jacob, day three) each have God's blessing and "be
+        fruitful and multiply". Sibling world-population-declares-gods-creation-and-biblical-truth.md
+        traces exactly this mandate re-issued from 1:28 to Noah.
+      proposed_fix: "Delete the sentence (about -20 words), or narrow it to what is distinctive (the word itself multiplying -- see R2)."
+      verdict: open
+    - id: R2
+      severity: moderate
+      location: "Day five, second paragraph"
+      finding: >
+        "a commission whose verbs are day five's verbs" is unsupported by the verses cited:
+        Matthew 4:19 and 13:47 share no verb with Genesis 1:22, and Matthew 28:19's verbs (go, make
+        disciples, baptize, teach) are not day five's. The real echo exists and is uncited: LXX
+        Genesis 1:22 auxanesthe kai plethynesthe; Acts 12:24 "the word of God increased and
+        multiplied" (ηὔξανεν καὶ ἐπληθύνετο), also Acts 6:7. Note Gen 1:28 LXX has the same verbs,
+        so mark the echo as shared with day six.
+      proposed_fix: "Replace the phrase with Acts 12:24 (ESV) plus the Greek pair against LXX Genesis 1:22 (about +25 words)."
+      verdict: open
+    - id: R3
+      severity: critical
+      location: "Day four, paragraph 2 ('The fourth millennium is when Israel starts running on it')"
+      finding: >
+        False synthetic claim. The mo'adim of Leviticus 23 were given at Sinai and kept from the
+        Exodus (Passover, Exod 12; Num 9:5; Josh 5:10) -- AM ~2513, the third millennium on the
+        site's own epoch. "The throne established in the same period" is also off: the Davidic
+        covenant is 1001 BC = AM 2958 in chronology.json, David crowned AM 2948 -- both third
+        millennium. Psalm 89 itself (written after the throne's humbling, vv. 38-51) is fourth
+        millennium, but the throne it describes was established before AM 3000.
+      proposed_fix: >
+        Recast as "the fourth millennium gives that calendar its house": Solomon offering "according
+        to the commandment of Moses for the Sabbaths, the new moons, and the three annual feasts"
+        (2 Chronicles 8:13, ESV), and the throne promised just before AM 3000 sung in day four's
+        terms in Psalm 89. About +15 words net.
+      verdict: open
+    - id: R4
+      severity: moderate
+      location: "Day five and table row 5 vs the site's own epoch"
+      finding: >
+        On the 3959 BC epoch Pentecost (AD 33) is AM 3991 -- day four -- and AM 5000 is AD 1042, so
+        the Reformation and the modern missionary expansion fall in day six, while the church-age
+        continues through nearly all of day six before Revelation 13. "The fifth millennium is the
+        gospel going out over that sea" is therefore a loose fit the study does not mark, unlike
+        the Temple fit (which it does mark). Same class as the day-is-a-thousand-years day-three
+        ordering error caught in Phase 4 history.
+      proposed_fix: "Add one marked-confidence sentence: the gospel launches at the close of day four and its widest spread is in day six; the fit is in the first centuries' spread, offered as typology. About +30 words."
+      verdict: open
+    - id: R5
+      severity: minor
+      location: "Day two, first sentence"
+      finding: >
+        "the only day of the week God does not call good" -- day seven is not called good either
+        (the claim holds for the six working days). And LXX Genesis 1:8 adds "and God saw that it
+        was good"; the study uses the LXX elsewhere (eikon), so the fork deserves one clause.
+      proposed_fix: "'the only working day ...' plus '(the Septuagint supplies it; the Hebrew does not)'. About +10 words."
+      verdict: open
+    - id: R6
+      severity: minor
+      location: "Inline quotations throughout days one-six (Gen 4:26, 8:2, 12:7, 22:17-18, Exod 14:22, Ps 89:36-37, Gen 15:5, Mal 4:2, Gen 1:22, Rev 17:15, Matt 4:19, 13:47, Rev 13:14-15, 13:18)"
+      finding: "Quotations verified ESV-verbatim but carry no translation label; AGENTS.md requires the translation on every quote. References section's 'quoted throughout' partly covers it."
+      proposed_fix: "Add (ESV) at first quote in each subsection. About +15 words."
+      verdict: open
+    - id: R7
+      severity: minor
+      location: "Discussion Questions"
+      finding: "Validator Check 25: none of the five carries a facet label, and no **Be transformed.** label (Q3 and Q5 are personal in substance). No question touches Christ's death on the sixth day or the day-four/Temple material."
+      proposed_fix: "Label: Q1 The language., Q2 The text in its context., Q3 Christ., Q4 The hard part., Q5 Be transformed. About +10 words."
+      verdict: open
+    - id: R8
+      severity: minor
+      location: "Strong's tags"
+      finding: "strongs_suggest: κατ' εἰκόνα (line 280) untagged; ki tov, yom echad, yom hashishi are phrases (tag the head word if wanted). eikon is tagged G1504 elsewhere in the paragraph."
+      proposed_fix: "data-strongs on the LXX phrase (G1504). 0 words."
+      verdict: open
+    - id: R9
+      severity: minor
+      location: "References: Rosh HaShanah 31a"
+      finding: "Cited as William Davidson Edition (CC BY-NC), the version references/README.md says to avoid. Nothing is quoted, so no wrong-wording risk; re-name a CC0/CC-BY version via sefaria.py when convenient."
+      proposed_fix: "Swap the edition named. 0 words."
+      verdict: open
+    - id: R10
+      severity: minor
+      location: "Siblings"
+      finding: "feasts/feasts.md treats Genesis 1:14 mo'adim and world-population-...md the be-fruitful mandate; neither is linked. numerology.md (6 = man, Rev 13:18) agrees."
+      proposed_fix: "One link from day four to feasts.md. About +8 words."
+      verdict: open
+    - id: R11
+      severity: minor
+      location: "Day four, line 237"
+      finding: "Paragraph source line is unwrapped (two sentences run on to ~170 chars); also line 249 breaks mid-paragraph. Cosmetic in markdown only."
+      proposed_fix: "Re-wrap. 0 words."
+      verdict: open
+  statement_of_faith: >
+    Consistent. 'Creation is 6 days' (plain-reading literal week) -- the study says the week is
+    'first of all an account of creation' and marks the history reading as a second, typological
+    step. End times (literal thousand-year reign, Revelation 20) -- consistent. No conflict.
+  commentary_cross_check: "NIV Cultural Backgrounds on 1:14, ESV SB on 1:6-8: silent on the typology; no contradiction."
+  size: >
+    ~3,750 counted words (no Check 23 warning) against a 4,000 budget. Recommended fixes net about
+    +95 words (R1 -20, R2 +25, R3 +15, R4 +30, R5 +10, R6 +15, R7 +10, R10 +8), staying under
+    budget.
+  open_questions_status: "Open question 2 (link to a draft) is resolved: a-thousand-years-in-your-sight.md is draft: false."
+  fixes_applied_2026-10-20:
+    applied_by: "anthropic/claude-opus-5.5 (agent session; author approved all of R1-R11)"
+    R1: "Deleted 'The church is the one thing in this scheme that begins with a blessing and a command to multiply.' Replaced by R2's narrower claim: in Acts the thing multiplying is the word of God itself."
+    R2: "Dropped 'a commission whose verbs are day five's verbs'. New paragraph: LXX Genesis 1:22 auxanesthe kai plethynesthe against Acts 12:24 (ESV 'the word of God increased and multiplied'; SBLGNT ηὔξανεν καὶ ἐπληθύνετο), compare Acts 6:7; marked as shared with day six (LXX Genesis 1:28 has the same pair). All verified this session (study_verse esv-study-bible; bible_verse ebible-grcbrent, SBLGNT)."
+    R3: "Day four recast: Israel kept the calendar from the Exodus (Exodus 12; Numbers 9:5; Leviticus 23 at Sinai), third millennium; 'the fourth millennium gives the calendar its house'; Solomon offering per 2 Chronicles 8:13 (ESV, verified); throne promised David just before AM 3000 and sung in day-four terms in Psalm 89, written after its humbling (Psalm 89:38-51, v. 38 verified). Paragraph split in two (throne/lights) to keep the section readable."
+    R4: "New marked-confidence paragraph closing Day five: fit is looser, offered as typology; Pentecost AD 33 = AM 3991 (day four), AM 5000 = AD 1042, Reformation and modern missions in day six; the match is the first centuries' spread. Table row 5 left unchanged."
+    R5: "'the only working day God does not call good'; 'The Hebrew of Genesis 1:8'; added that the Septuagint supplies it (εἶδεν ὁ Θεὸς ὅτι καλόν, verified) and the study follows the Hebrew."
+    R6: "(ESV) added to Genesis 4:26, 2:17, 8:2, 12:7, 15:5, 1:22; Psalm 89:36-37; Malachi 4:2; Revelation 17:15 (book named), 13:14-15, 13:18; Matthew 4:19, 13:47."
+    R7: "Facet labels added: Q1 The language., Q2 The text in its context., Q3 Christ., Q4 The hard part., Q5 Be transformed. Question text unchanged. Check 25 no longer fires."
+    R8: "<span data-strongs=\"G1504\"> on κατ' εἰκόνα."
+    R9: "William Davidson Edition / CC BY-NC dropped; now 'cited by folio for the Temple's daily psalms; not quoted'. No edition named because nothing is reproduced."
+    R10: "Link to ../feasts/feasts.md (The Appointed Times, draft: false) from day four and from 'On this site'. world-population study not linked (the R1 claim it bore on was deleted)."
+    R11: "Day four re-wrapped; the mid-paragraph break before 'Scripture's own statement' joined."
+    also: "bible_references gained Exodus 12:1-28, Numbers 9:5, 1 Kings 6:38, 2 Chronicles 8:13, Acts 6:7, Acts 12:24; Psalm 89:36-37 widened to 89:36-51. References list names Brenton for Genesis 1:8, 1:22, 1:28 and SBLGNT for Acts 6:7, 12:24. commentary_index.py NOT re-run. Provenance script not run."
+    validate: "npm run validate: no errors or warnings for this file (93 warnings corpus-wide, none here). ~3,920 words raw body excluding outline and References; no Check 23."
+
+read_2026-10-20:
+  reader: "anthropic/claude-opus-5.5 (read-bible-study, fresh agent session; did not draft the study)"
+  verified: "study_structure.py --verify-against HEAD: clean, no sentence changed (removed [], added_unexpected [], added_allowed [])"
+  measurements: "sections 25 -> 28; median 120 -> 93 words; over 400: 0 -> 0; walls 0 -> 0; longest 318 (Day four) unchanged"
+  changes:
+    - "Split 'What kind of claim this is' (184 words, two subjects) at 'It is also no calendar.' under new ### The Father keeps the date -- the AD 2042 epoch figure and Acts 1:7 were invisible under the old heading."
+    - "Split '## The true image' (308 words) into ### Two images on the sixth day and ### The seventh day's rest -- the rest is the destination named in the thesis and was buried in the section's last paragraph."
+    - "Study outline bullets left unchanged: their annotations still describe the sections, and no in-page anchor was added or renamed (existing outline anchors untouched)."
+  review_location_notes: >
+    Three headings were inserted, so review_2026-10-20 line numbers shift: R11's 'line 237' is now
+    line 239 and its 'line 249' is now 251; R8's 'line 280' is now 282. No sentence flagged by R1-R11
+    moved section: R1/R2/R4 remain in Day five, R3 and R11 in Day four, R5 in Day two.
+  left_for_author:
+    - "The days-and-millennia table ends its section (structural-readability rule 6) and is led in by an epoch convention sentence, not a claim. Only the author can write a claim before it or a line after it saying what the table establishes."
+    - "Day four (318 words) carries three subjects -- mo'adim, Temple/throne, and Christ's birth at the close of the day. Within target, so not split; if R3's rewrite grows it, a break before 'On the working epoch' is the natural one."
+    - "'Reading Genesis 1 in English' is close to annex material (which translation to read), but Discussion Q1 depends on it and it already sits after the teaching, so it was not renamed."
+  verifies_nothing: "This pass checked no quotation, count or doctrine. The content audit is review_2026-10-20, whose fixes are still open."

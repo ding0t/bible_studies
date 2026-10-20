@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 14:7
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 14:3
 <!-- commentary-index:auto-end -->

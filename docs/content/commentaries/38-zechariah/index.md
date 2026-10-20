@@ -23,6 +23,6 @@ draft: false
 - [Chapter 10](chapter-010.md) — 1 study(ies)
 - [Chapter 11](chapter-011.md) — 1 study(ies)
 - [Chapter 12](chapter-012.md) — 7 study(ies)
-- [Chapter 13](chapter-013.md) — 4 study(ies)
+- [Chapter 13](chapter-013.md) — 5 study(ies)
 - [Chapter 14](chapter-014.md) — 11 study(ies)
 <!-- commentary-index:auto-end -->

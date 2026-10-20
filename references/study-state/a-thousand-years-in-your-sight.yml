@@ -78,7 +78,242 @@ open_questions:
   - "Placement: the developed study is about God's eternity and human frailty in Psalm 90; god/ may now fit better than last-things/. Path kept as briefed; author's call before publish (URL changes are costly after)."
   - "Augustine Confessions bk 11 / Boethius Consolation bk 5 cited at book level from general knowledge, not checked against the patristics corpus."
   - "Body ~3,000 words (slightly over the 1,500-3,000 aim, under the 4,000 budget). Psalm 92 section is the likeliest trim if the author wants it shorter."
-last_updated: "2026-09-27"
+last_updated: "2026-10-20"
+review_2026-10-20:
+  skill: review-bible-study (full, phases 1-8)
+  reviewer: anthropic/claude-opus-5.5 (author not in session; findings recorded, study markdown NOT edited)
+  status_at_review: "draft: false (live)"
+  checked: >
+    Every ESV quotation re-pulled from study-notes.db (study_verse, esv-study-bible) and compared
+    verbatim: Ps 90:1-17, 89:46-52, 92:1-15, 106:45-48, 41:13, 72:19, 102:27; Num 14:29-34; Eccl 6:6;
+    Isa 40:17; Exod 32:12-14, 34:6; Gen 3:19; Deut 33:1; Heb 1:8-12, 13:8; John 1:14; 2 Tim 1:10;
+    1 Cor 15:58; 2 Pet 3:4-9 -- all match, references correct, labels correct. Existing 35 evidence
+    entries replayed (verify_claims.py --only-evidence): 0 failing. Interlinear re-run for Ps 90:1-5,
+    12-17; 92:1, 2, 4, 7; 106:45; Exod 32:12; Gen 2:3, 3:19. TWOT roots re-checked (1581a, 1631a, 2340,
+    1213, 1344, 698a all correct). Moses-in-Psalms count (8, only 90:1 a title) re-run: correct.
+    All footnotes on Ps 90 read (CSB Ancient Faith, LSB). Study notes re-read (ESVSB, NIVBTSB,
+    NIVCBSB, NLT Life Application as the independent commentary). b. Sanhedrin 97a and
+    b. Rosh HaShanah 31a checked against the cached Sefaria texts. LXX psalm titles checked
+    (ebible-grcbrent). validate-content.js, review_gaps, cross_study_claims "Psalm 90",
+    study_structure.py, mermaid render (529px wide, OK) and the pop-up resolver
+    (app/src/entries/popups.js) run against the file.
+  word_count: "~3,300 counted words (validator Check 23 silent); budget 4,000. Net effect of all fixes below: about +60 words."
+  findings:
+    - id: 1
+      severity: critical
+      location: "Where the psalm stands in the Psalter > The seam after Psalm 89 (line ~255)"
+      issue: >
+        False synthetic claim: "Each of the Psalter's five books closes with a doxology ending in
+        'Amen' (Psalms 41:13; 72:19; 89:52; 106:48)". Only four references are given because only four
+        books close that way; Book V closes with Psalm 150 ("Praise the LORD!", 150:6), and 106:48
+        itself ends "Praise the LORD!" after its "Amen".
+      fix: >-
+        "Each of the first four books closes with a doxology and an 'Amen' (Psalms 41:13; 72:19; 89:52; 106:48)." (+2 words)
+      verdict: confirmed against ESV text (evidence ps41-13-esv, ps72-19-esv, ps89-52-esv, ps106-48-esv, ps150-6-esv)
+    - id: 2
+      severity: critical
+      location: "The psalm for the seventh day, opening sentence (line ~295)"
+      issue: >
+        Uniqueness claim broader than its source: "the only psalm in the Psalter assigned to a day of
+        the week". NIVCBSB says only that Ps 92 is the only psalm designated *for the Sabbath*. The
+        Septuagint Psalter titles four more to weekdays (LXX 23/Eng 24 first day, 47/48 second day,
+        93/94 fourth day, 92/93 the day before the Sabbath), and b. Rosh HaShanah 31a -- which this
+        study itself cites -- lists a Temple psalm for every day. The sibling day-is-a-thousand-years.md
+        quotes that list, so the corpus contradicts itself here.
+      fix: >-
+        "...comes the only psalm whose Hebrew title assigns it to a day of the week." (+2 words) Optionally a clause noting the Temple sang a psalm for each day.
+      verdict: confirmed (evidence lxx-ps24-title, lxx-ps48-title, lxx-ps93-title, lxx-ps94-title, nivcb-ps92-title)
+    - id: 3
+      severity: moderate
+      location: "The eternal God and the thousand-year day > The dwelling place (line ~117)"
+      issue: >
+        Undisclosed textual fork. The section's argument turns on ma'on = "home" (a homeless
+        generation always had one), but CSB Ancient Faith footnotes 90:1 "Some Hb mss, LXX; other Hb
+        mss read dwelling place" (CSB text reads "refuge"), LSB notes "some ancient mss place of
+        refuge", and the LXX reads katafygē. The study quotes LSB's footnote but drops its second half.
+      fix: One sentence -- "A few Hebrew manuscripts and the Septuagint read 'refuge' (ma'oz); the Masoretic text, which the ESV follows, reads 'dwelling'." (+25 words)
+      verdict: confirmed (evidence csb-ps90-1-variant, lsb-ps90-1-variant, lxx-ps90-1-refuge)
+    - id: 4
+      severity: moderate
+      location: "The psalm for the seventh day, last paragraph (line ~335)"
+      issue: >
+        Talmud quotation presents the translator's gloss as the rabbis' words and does not name the
+        version. In the William Davidson Edition (CC-BY-NC) of b. Sanhedrin 97a the bold Talmud text is
+        "a day ... that is entirely Shabbat"; "i.e., one thousand years" is Steinsaltz's unbolded
+        explanatory insertion. The sibling study labels the same quotation "William Davidson Edition".
+      fix: Quote only the Talmud's words ("a day that is entirely Shabbat") and attribute "b. Sanhedrin 97a, William Davidson Edition"; say the thousand-year sense comes from the surrounding baraita. (+4 words)
+      verdict: confirmed against references/build/cache/sefaria (Sanhedrin, Davidson edition)
+    - id: 5
+      severity: moderate
+      location: "Pop-up references: line ~132 '(90:10)', line ~177 '(note on 90:3)', line ~271 '(3:8, ESV)', Discussion Q2 '(90:10)'"
+      issue: >
+        Four bare references resolve against the last book named in their paragraph
+        (app/src/entries/popups.js): 90:10 -> Genesis 90:10 (after "Genesis 1"); note on 90:3 ->
+        Genesis 90:3 (after Genesis 3:19); 3:8 -> Psalm 3:8 (after "Psalm 90:4") -- the reader opening
+        Peter's quotation is shown the wrong verse; Q2 90:10 -> Numbers 90:10.
+      fix: Write "Psalm 90:10", "Psalm 90:3", "2 Peter 3:8", "Psalm 90:10". (+5 words)
+      verdict: confirmed by reading the resolver; not tested in a browser
+    - id: 6
+      severity: moderate
+      location: "The psalm's own vocabulary, first paragraph (line ~125-129)"
+      issue: >
+        Unsupported synthetic claim: "A thousand is the ceiling of a human life in Hebrew reckoning".
+        No source given; Eccl 6:6, cited as support, actually reaches past it ("a thousand years twice
+        over"). The ESVSB note on 90:3-6 does read v. 4's thousand as "the longest imaginable" life,
+        and the sibling's Jubilees 4:29-30 (Adam 70 short of the thousand-year day) is the ancient
+        witness for the idea. Ages verified (Gen 5: 930/912/962/969); Noah's 950 (Gen 9:29) also
+        stays under.
+      fix: >-
+        "A thousand years is the longest life anyone in Genesis approaches" + cite ESVSB note on 90:3-6 or link the sibling's Jubilees section; reword Eccl 6:6 as hyperbole reaching past even that. (~+15 words)
+      verdict: claim partly supported, overstated as written
+    - id: 7
+      severity: minor
+      location: "Key Takeaways > Lessons about Jesus, first bullet; Discussion Q3"
+      issue: >
+        "The eternal God of Psalm 90 is the God the Son" (also a grammar slip, "the God the Son").
+        Hebrews applies Psalm 102 (not 90) to the Son; the bridge to Psalm 90 is inference left
+        unmarked, and "is ... the Son" / Q3 "the eternal God of Psalm 90:2 is Jesus" can read as
+        identifying the LORD of Ps 90 with the Son alone. Not a conflict with the statement of faith's
+        "One God in Three" (Son co-eternal), but tighter wording keeps it clearly Trinitarian. Q3 also
+        attributes "of the Son" to Heb 1:10-12; the phrase is in 1:8.
+      fix: >-
+        "The Son shares the eternity Psalm 90 confesses." Q3 -> "Hebrews 1:8, 10-12". (~0 words)
+    - id: 8
+      severity: minor
+      location: "Our days under His wrath / A song of final sorting (lines ~327-330)"
+      issue: >
+        "Psalm 92's wicked are the grass now" sits beside a section that argues from shared Hebrew
+        words, but the grass words differ (90:5 chatsir H2682; 92:7 'esev H6212). Image link only.
+      fix: Leave as image, or add "(a different word, the same picture)". (+6 words)
+      verdict: confirmed (evidence ps90-5-chatsir, ps92-7-esev)
+    - id: 9
+      severity: minor
+      location: "A song of final sorting, last sentence (line ~331)"
+      issue: NIVBTSB "draws the same conclusion" -- its title note concludes the Sabbath signified a final *rest*; the study's conclusion is final *sorting*. Related, not the same.
+      fix: >-
+        "draws a related conclusion". (0 words)
+    - id: 10
+      severity: minor
+      location: "Hebrew title, line ~302"
+      issue: Pointing slip -- study has הַשַׁבָּת (shin without dagesh forte); WLC reads הַשַּׁבָּת.
+      fix: Add the dagesh to the shin. (0 words)
+    - id: 11
+      severity: minor
+      location: "lines ~154 and ~156"
+      issue: Bold added inside quotations ("**How long?**" in the ESV; "**in** time" in the NIVBTSB note) without "emphasis added".
+      fix: Drop the bold or add "(emphasis added)". (0-4 words)
+    - id: 12
+      severity: minor
+      location: "Citations without locators"
+      issue: >
+        "Lactantius quotes it" has no locator and no References entry (sibling cites Divine Institutes
+        7.14); "three watches" for ashmurah is uncited (Judges 7:19 "middle watch" supports it).
+        Augustine/Boethius remain cited at book level from general knowledge (open question from
+        drafting, still unverified against the patristics corpus).
+      fix: Add "(Divine Institutes 7.14)" and a References line; add "(Judges 7:19)". (+8 words)
+    - id: 13
+      severity: minor
+      location: "Discussion Questions"
+      issue: Validator Check 25 -- 6 of 6 questions lack facet labels; no **Be transformed.** question (Q5/Q6 are personal and could take the label).
+      fix: Label per discussion-questions.md (The language. Q1; The text in its context. Q2; Christ. Q3; The hard part. Q4; Be transformed. Q5, Q6). (+12 words)
+    - id: 14
+      severity: minor
+      location: "Placement / frontmatter"
+      issue: >
+        Open question from drafting still open: the study is about God's eternity and human frailty
+        in Psalm 90 and now sits in last-things/ with category "prophecy" and tag "last-days"; its
+        eschatology is handed to the sibling. A god/ or scripture/ placement fits the subject better,
+        but the page is live, so a move costs a redirect. Author's call. Provenance fields current.
+      fix: Author decision; if moved, add a mkdocs-redirects entry.
+    - id: 15
+      severity: minor
+      location: "The psalm's own vocabulary, paragraph 2 (line ~139-142)"
+      issue: Style -- the Isaiah 40:17 foil ("Scripture has other ways ... Psalm 90 does not use them") defines the point by what it is not. Otherwise the register is clean (antithesis count low).
+      fix: Optional cut of the Isaiah sentence (-30 words).
+  confirmed_without_finding:
+    - "All ESV quotations verbatim; all cited references correct; translation labels correct."
+    - "shuv + niphal imperative nacham in Ps 90:13 = Exod 32:12 (VNv2ms both); 106:45 nacham + chesed."
+    - "Ps 92:2, 4 reuse all six terms claimed from 90:14-17: chesed, boqer, samach, po'al, ranan, ma'aseh yadayim."
+    - "Moses named 8x in Psalms, only 90:1 a superscription; Deut 33:1 'man of God'."
+    - "'six verses later' (90:4 -> 90:10) correct; Genesis 5 ages correct."
+    - "ESVSB, NIVBTSB, NIVCBSB, LSB quotations and paraphrases accurate (except finding 9)."
+    - "b. Rosh HaShanah 31a: Levites sang Ps 92 on the seventh day -- confirmed."
+    - "Mermaid diagram renders 529px wide -- under the ~560px limit."
+    - "Sibling day-is-a-thousand-years.md now links this study (open question 1 resolved)."
+  commentary_cross_check: >
+    NLT Life Application (not cited by the study), note on 90:4: confirms God's eternity against
+    human brevity; leans timeless ("completely unrestricted by time") on the point the study marks
+    contested -- the study presents both sides, so no change. NIVBTSB 92:2 and 92:4 notes
+    independently confirm the 90:14-15 -> 92:2, 4 answer the study draws (could be credited).
+  context_coverage:
+    genre: covered
+    historical_occasion: covered
+    literary_context: covered
+    original_language: covered (gap -- finding 3)
+    cultural_vs_transcultural: partial (the wilderness setting is applied to the reader; the line is implicit, not drawn)
+    principle_elsewhere_in_scripture: covered
+    statement_of_faith: >
+      No conflict. Death as judgment on sin matches "The fall and Sin"; the Son's eternity matches
+      "One God in Three" (see finding 7 for wording); divine timelessness is not addressed by the
+      statement and the study marks it contested; eschatology deferred to the sibling, consistent
+      with the dispensational "End times" section.
+  review_gaps: "Top gap Ps 45 (Heb 1:8-9 quotes Ps 45:6-7) -- not relevant to the argument; Ps 103:15-16 (grass) a possible cross-reference. Nothing that bears on the argument."
+  suggestions_for_other_studies:
+    - "day-is-a-thousand-years.md, 'The Temple' section: could note that the Hebrew titles assign only Ps 92 while the LXX titles assign four more, which supports its Temple-liturgy point."
+    - "This study could link the sibling's Jubilees section from 'The psalm's own vocabulary' (finding 6)."
+  verdict: >
+    Sound study; scripture text clean. Two false synthetic claims (findings 1-2) are one-clause
+    fixes and should be made promptly since the page is live; findings 3-6 next. Net effect of all
+    fixes about +60 words (or -30 if the optional Isaiah cut is taken), well inside the 4,000 budget.
+read_2026-10-20:
+  skill: read-bible-study
+  by: anthropic/claude-opus-5.5 (fresh session; did not draft the study)
+  before: {sections: 25, with_prose: 21, median_words: 82, longest_words: 263, over_400: 0, walls: 0}
+  after: {sections: 26, with_prose: 22, median_words: 101, longest_words: 255, over_400: 0, walls: 0}
+  prose_identity: "study_structure.py --verify-against HEAD: clean, no sentence changed (removed [], added_unexpected [], added_allowed [])"
+  changes:
+    - what: "Renamed '### The psalm's own vocabulary' to '### A thousand years, a day and a watch'."
+      why: >
+        Rule 3. The old heading named a function and nearly duplicated its sibling ('The psalm's
+        own word for eternity'); the section is the scale of verse 4 (a thousand years against a
+        lifespan, a day, a night watch). No incoming anchors anywhere in docs/. Review findings
+        located at "The psalm's own vocabulary" (review lines for findings 6 and the Isaiah/'Moses
+        also picks a day' paragraph, plus suggestions_for_other_studies) now live under the new
+        heading.
+    - what: "Added '### Is God outside time?' before the paragraph opening 'Whether God is outside time altogether is contested'."
+      why: >
+        Rule 5. The study's one marked-contested question was the second half of a 263-word
+        section about *olam*; it now has a heading a reader can find it by. The paragraph has no
+        bare chapter:verse reference, so no pop-up resolution moves.
+  not_changed:
+    - "No sentence carrying a bare reference ((90:10), (90:3), (3:8, ESV), (6:6), etc.) was moved to a new paragraph or section; the review's pop-up finding stays for the author."
+    - "Study outline left as is. A rewording of its 'verses 1-4' bullet to mention the new sub-section was tried and reverted: the verifier reads a wrapped bullet's continuation line as prose and flagged it, so outline edits on wrapped bullets need the author or a verifier fix."
+    - "Our days under His wrath (226 words) considered for a '### Teach us to number our days' split and left whole: it reads cleanly and its 'Then the first request of the psalm:' line would open the new section mid-thought."
+  for_author:
+    - "This pass verifies nothing; the review_2026-10-20 findings above are still open."
+    - "Validator: no structural warnings; Check 25 (discussion questions lack facet labels, no Be transformed. question) is pre-existing and content work."
+    - "refresh_frontmatter_provenance.py not run: it takes no path argument and would also rewrite six-days-of-history.md, which another agent is editing. Run it at commit time."
+  tool_gap: "study_structure.py prose_identity treats the continuation line of a wrapped list item as prose, contrary to SKILL.md's note that outline bullets are invisible to the check."
+fixes_applied_2026-10-20:
+  by: anthropic/claude-opus-5.5 (author approved all review_2026-10-20 findings; 14 deferred)
+  findings:
+    - {id: 1, done: "Doxology sentence now 'Each of the first four books closes with a doxology and an \"Amen\"'."}
+    - {id: 2, done: "'the only psalm whose Hebrew title assigns it to a day of the week'; NIVCBSB claim narrowed to 'designated for the Sabbath'; added that the LXX titles assign four more weekdays (Pss 24, 48, 93, 94 English numbering; evidence lxx-ps*-title)."}
+    - {id: 3, done: "Added: a few Hebrew mss and the LXX (καταφυγή) read 'refuge' (CSB footnote); the MT, followed by the ESV, reads 'dwelling'. The Hebrew of the variant (ma'oz in the proposed fix) was NOT named: no tool here shows the variant's Hebrew spelling (CSB/LSB footnotes give only the English), so it was left out rather than written from memory."}
+    - {id: 4, done: "Quotation reduced to the Talmud's bold text, 'a day … that is entirely Shabbat', attributed 'b. Sanhedrin 97a, William Davidson Edition'; the thousand-year sense attributed to the surrounding baraita's use of Psalm 90:4. Checked against references/build/cache/sefaria (Sanhedrin, William Davidson Edition) -- 'i.e., one thousand years' is unbolded there. References entry names the edition."}
+    - {id: 5, done: "'(Psalm 90:10)' twice (body + Q2), '(note on Psalm 90:3)', '(2 Peter 3:8, ESV)'. Ecclesiastes reference also written '(Ecclesiastes 6:6)'."}
+    - {id: 6, done: "'A thousand years is the longest life anyone in Genesis approaches'; cites ESVSB note on 90:3-6 ('longest imaginable', evidence esvsb-ps90-3-6-longest); Eccl 6:6 now framed as hyperbole reaching past it."}
+    - {id: 7, done: "Lessons-about-Jesus bullet now '**The Son shares the eternity Psalm 90 confesses.**' (bullet still names Psalm 102:27 as the text Hebrews applies). Q3 cites Hebrews 1:8, 10-12 and asks about Jesus sharing the eternity of Psalm 90:2."}
+    - {id: 8, done: "Added '(a different word, the same picture)'."}
+    - {id: 9, done: "'draws a related conclusion'."}
+    - {id: 10, done: "Pointing corrected to הַשַּׁבָּת (WLC via bible_verse ebible-heb/MACULA: שַּׁבָּֽת)."}
+    - {id: 11, done: "Bold removed from 'How long?' (ESV) and 'in' (NIVBTSB) inside the quotations."}
+    - {id: 12, done: "Added '(Divine Institutes 7.14)' and a References line (ANF 7) -- verified in $BIBLE_MEDIA_ROOT/reference/patristics/ante-nicene-fathers/anf07.txt, Book VII Chap. XIV quotes 'In Thy sight, O Lord, a thousand years are as one day'. Added Judges 7:19 'middle watch' for the three watches (ESV verified; added to bible_references). Augustine, Confessions 11 and Boethius, Consolation 5 remain UNVERIFIED: the patristics corpus holds neither (only Augustine PL 40, not PL 32 Confessions; no Boethius). Left cited at book level as before; needs a source check."}
+    - {id: 13, done: "Labels: Q1 The language.; Q2 The text in its context.; Q3 Christ.; Q4 The hard part.; Q5, Q6 Be transformed."}
+    - {id: 14, done: "DEFERRED by the author's instruction: file, category and tags left as they are."}
+    - {id: 15, done: "Isaiah 40:17 sentence cut; paragraph now 'Moses also picks a day. He names a unit, and the unit he names is the one the creation week is counted in.' Isaiah 40:17 removed from bible_references; Judges 7:19 added."}
+  validate: "npm run validate: no errors or warnings for this file (Check 25 cleared; Check 23 silent)."
+  not_done: "refresh_frontmatter_provenance.py not run and nothing committed, per instruction -- run it at commit time."
 evidence:
   - {id: ps90-1-esv, what: "ESV 90:1 title and dwelling place", tool: study_verse, args: {book: Ps, chapter: 90, verse: 1, work_id: esv-study-bible}, expect_contains: "you have been our dwelling place in all generations", checked: 2026-09-27}
   - {id: ps90-2-esv, what: "ESV 90:2 memory verse", tool: study_verse, args: {book: Ps, chapter: 90, verse: 2, work_id: esv-study-bible}, expect_contains: "from everlasting to everlasting you are God", checked: 2026-09-27}
@@ -115,3 +350,36 @@ evidence:
   - {id: twot-chesed, what: "chesed TWOT 698a", tool: twot_strongs, args: {strongs_id: H2617}, expect_contains: "698a", checked: 2026-09-27}
   - {id: esvsb-ps90-intro, what: "ESVSB setting and time words", tool: study_note, args: {book: Ps, chapter: 90, verse: 1, work_id: esv-study-bible}, expect_contains: "picture Israel around the time of Deuteronomy", checked: 2026-09-27}
   - {id: nivbt-ps90-13, what: "NIVBTSB 90:13 -> v.3 and 106:45", tool: study_note, args: {book: Ps, chapter: 90, verse: 13, work_id: niv-biblical-theology-study-bible}, expect_contains: "106:45", checked: 2026-09-27}
+  - {id: lxx-ps24-title, what: "LXX Ps 23 (Eng 24) titled for the first day of the week", tool: bible_parallel, args: {book: Ps, chapter: 24, verse: 1, target: ebible-grcbrent}, expect_contains: "τῆς μιᾶς σαββάτου", checked: 2026-10-20}
+  - {id: lxx-ps48-title, what: "LXX Ps 47 (Eng 48) titled for the second day", tool: bible_verse, args: {book: Ps, chapter: 47, verse: 1, translation: ebible-grcbrent}, expect_contains: "δευτέρᾳ σαββάτου", checked: 2026-10-20}
+  - {id: lxx-ps93-title, what: "LXX Ps 92 (Eng 93) titled for the day before the Sabbath", tool: bible_parallel, args: {book: Ps, chapter: 93, verse: 1, target: ebible-grcbrent}, expect_contains: "προσαββάτου", checked: 2026-10-20}
+  - {id: lxx-ps94-title, what: "LXX Ps 93 (Eng 94) titled for the fourth day", tool: bible_parallel, args: {book: Ps, chapter: 94, verse: 1, target: ebible-grcbrent}, expect_contains: "τετράδι σαββάτου", checked: 2026-10-20}
+  - {id: nivcb-ps92-title, what: "NIVCBSB: only psalm designated for the Sabbath (not for 'a day of the week')", tool: study_note, args: {book: Ps, chapter: 92, verse: 1, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "only psalm that is designated for the Sabbath", checked: 2026-10-20}
+  - {id: lxx-ps90-1-refuge, what: "LXX Ps 89:1 reads 'refuge' at 90:1", tool: bible_parallel, args: {book: Ps, chapter: 90, verse: 1, target: ebible-grcbrent}, expect_contains: "καταφυγὴ", checked: 2026-10-20}
+  - {id: csb-ps90-1-variant, what: "CSB AF footnote: ma'on/ma'oz variant at 90:1", tool: study_note, args: {book: Ps, chapter: 90, verse: 1, work_id: csb-ancient-faith-study-bible, note_type: footnote}, expect_contains: "other Hb mss read dwelling place", checked: 2026-10-20}
+  - {id: lsb-ps90-1-variant, what: "LSB footnote 90:1 includes the refuge variant", tool: study_note, args: {book: Ps, chapter: 90, verse: 1, work_id: lsb-2021, note_type: footnote}, expect_contains: "some ancient mss place of refuge", checked: 2026-10-20}
+  - {id: ps41-13-esv, what: "Book I doxology", tool: study_verse, args: {book: Ps, chapter: 41, verse: 13, work_id: esv-study-bible}, expect_contains: "Amen and Amen.", checked: 2026-10-20}
+  - {id: ps72-19-esv, what: "Book II doxology", tool: study_verse, args: {book: Ps, chapter: 72, verse: 19, work_id: esv-study-bible}, expect_contains: "Amen and Amen!", checked: 2026-10-20}
+  - {id: ps89-52-esv, what: "Book III doxology", tool: study_verse, args: {book: Ps, chapter: 89, verse: 52, work_id: esv-study-bible}, expect_contains: "Amen and Amen.", checked: 2026-10-20}
+  - {id: ps106-48-esv, what: "Book IV doxology ends 'Praise the LORD!' after 'Amen'", tool: study_verse, args: {book: Ps, chapter: 106, verse: 48, work_id: esv-study-bible}, expect_contains: "“Amen!” Praise the LORD!", checked: 2026-10-20}
+  - {id: ps150-6-esv, what: "Book V closes with Ps 150, no Amen doxology", tool: study_verse, args: {book: Ps, chapter: 150, verse: 6, work_id: esv-study-bible}, expect_contains: "Praise the LORD!", checked: 2026-10-20}
+  - {id: nivbt-book4, what: "NIVBTSB Book IV note quoted", tool: study_note, args: {book: Ps, chapter: 90, verse: 1, work_id: niv-biblical-theology-study-bible}, expect_contains: "downbeat ending of Book III", checked: 2026-10-20}
+  - {id: nivbt-ps90-4, what: "NIVBTSB 90:4 note quoted", tool: study_note, args: {book: Ps, chapter: 90, verse: 4, work_id: niv-biblical-theology-study-bible}, expect_contains: "existence in time", checked: 2026-10-20}
+  - {id: nivbt-ps92-title, what: "NIVBTSB Ps 92 title note quoted", tool: study_note, args: {book: Ps, chapter: 92, verse: 1, work_id: niv-biblical-theology-study-bible}, expect_contains: "a spiritual and final rest that was to come", checked: 2026-10-20}
+  - {id: esvsb-ps90-3-dust, what: "ESVSB 90:3 dakka' vs 'apar", tool: study_note, args: {book: Ps, chapter: 90, verse: 3, work_id: esv-study-bible}, expect_contains: "dakka", checked: 2026-10-20}
+  - {id: esvsb-ps90-3-6-longest, what: "ESVSB reads v.4's thousand as the longest imaginable life", tool: study_note, args: {book: Ps, chapter: 90, verse: 4, work_id: esv-study-bible}, expect_contains: "even the longest imaginable", checked: 2026-10-20}
+  - {id: ps90-5-chatsir, what: "Ps 90:5 grass = chatsir", tool: bible_interlinear, args: {book: Ps, chapter: 90, verse: 5}, expect_contains: "H2682a", checked: 2026-10-20}
+  - {id: ps92-7-esev, what: "Ps 92:7 grass = 'esev (different word)", tool: bible_interlinear, args: {book: Ps, chapter: 92, verse: 7}, expect_contains: "H6212", checked: 2026-10-20}
+  - {id: ps90-14-ranan, what: "ranan in 90:14", tool: bible_interlinear, args: {book: Ps, chapter: 90, verse: 14}, expect_contains: "H7442b", checked: 2026-10-20}
+  - {id: ps92-4-ranan, what: "ranan in 92:4", tool: bible_interlinear, args: {book: Ps, chapter: 92, verse: 4}, expect_contains: "H7442b", checked: 2026-10-20}
+  - {id: gen5-27-esv, what: "Methuselah 969", tool: study_verse, args: {book: Gen, chapter: 5, verse: 27, work_id: esv-study-bible}, expect_contains: "969", checked: 2026-10-20}
+  - {id: gen9-29-esv, what: "Noah 950, also under a thousand", tool: study_verse, args: {book: Gen, chapter: 9, verse: 29, work_id: esv-study-bible}, expect_contains: "950", checked: 2026-10-20}
+  - {id: judg7-19-esv, what: "'middle watch' implies three night watches", tool: study_verse, args: {book: Judg, chapter: 7, verse: 19, work_id: esv-study-bible}, expect_contains: "middle watch", checked: 2026-10-20}
+  - {id: eccl6-6-esv, what: "ESV Eccl 6:6", tool: study_verse, args: {book: Eccl, chapter: 6, verse: 6, work_id: esv-study-bible}, expect_contains: "live a thousand years twice over", checked: 2026-10-20}
+  - {id: ps89-49-esv, what: "ESV Ps 89:49", tool: study_verse, args: {book: Ps, chapter: 89, verse: 49, work_id: esv-study-bible}, expect_contains: "where is your steadfast love of old", checked: 2026-10-20}
+  - {id: 2pet3-8-esv, what: "ESV 2 Pet 3:8", tool: study_verse, args: {book: 2Pet, chapter: 3, verse: 8, work_id: esv-study-bible}, expect_contains: "with the Lord one day is as a thousand years, and a thousand years as one day", checked: 2026-10-20}
+  - {id: ps92-7-esv, what: "ESV Ps 92:7 block quote", tool: study_verse, args: {book: Ps, chapter: 92, verse: 7, work_id: esv-study-bible}, expect_contains: "that though the wicked sprout like grass and all evildoers flourish, they are doomed to destruction forever", checked: 2026-10-20}
+  - {id: ps92-14-esv, what: "ESV Ps 92:14", tool: study_verse, args: {book: Ps, chapter: 92, verse: 14, work_id: esv-study-bible}, expect_contains: "They still bear fruit in old age; they are ever full of sap and green", checked: 2026-10-20}
+  - {id: ps90-10-esv, what: "ESV Ps 90:10", tool: study_verse, args: {book: Ps, chapter: 90, verse: 10, work_id: esv-study-bible}, expect_contains: "The years of our life are seventy, or even by reason of strength eighty", checked: 2026-10-20}
+  - {id: isa40-17-esv, what: "ESV Isa 40:17", tool: study_verse, args: {book: Isa, chapter: 40, verse: 17, work_id: esv-study-bible}, expect_contains: "they are accounted by him as less than nothing and emptiness", checked: 2026-10-20}
+  - {id: heb1-8-12-esv, what: "Heb 1:8 'of the Son' + 1:12 years no end", tool: study_verse, args: {book: Heb, chapter: 1, verse: 8, verse_end: 12, work_id: esv-study-bible}, expect_contains: "your years will have no end", checked: 2026-10-20}

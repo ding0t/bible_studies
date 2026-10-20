@@ -15,5 +15,6 @@ draft: false
 - [Sin and Sorcery](../../sin/sorcery.md) — 19:31
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 19:9-10
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 19:12
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 19:18
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 19:17
 <!-- commentary-index:auto-end -->

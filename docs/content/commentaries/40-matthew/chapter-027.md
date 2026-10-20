@@ -21,4 +21,5 @@ draft: false
 - [The Names of God](../../god/names-of-god.md) — 27:46
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 27:57
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 27:62
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 27:46
 <!-- commentary-index:auto-end -->

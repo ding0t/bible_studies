@@ -17,4 +17,5 @@ draft: false
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 2:12-13
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:5-6
 - [Sin and Sorcery](../../sin/sorcery.md) — 2:1-12
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 2:6
 <!-- commentary-index:auto-end -->

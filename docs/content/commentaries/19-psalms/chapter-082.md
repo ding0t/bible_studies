@@ -17,4 +17,5 @@ draft: false
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 82:1-8
 - [Pride](../../sin/pride.md) — 82:1-8
 - [Submission in Context](../../christian-life/submission-in-context.md) — 82:3-4
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 82:6
 <!-- commentary-index:auto-end -->

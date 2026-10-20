@@ -23,4 +23,5 @@ draft: false
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 1:3
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 1:12
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 1:1-3
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 1:1
 <!-- commentary-index:auto-end -->

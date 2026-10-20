@@ -29,4 +29,5 @@ draft: false
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:24
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 2:16-17
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:7
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 2:24
 <!-- commentary-index:auto-end -->

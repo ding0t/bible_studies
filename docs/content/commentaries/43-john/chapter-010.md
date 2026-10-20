@@ -27,4 +27,5 @@ draft: false
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 10:9-11
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 10:34-36
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 10:21
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 10:34
 <!-- commentary-index:auto-end -->

@@ -17,4 +17,5 @@ draft: false
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 8:5
 - [The Heavenly Pattern](../../jesus/the-heavenly-pattern/index.md) — 8:5
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 8:5
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 8:8-12
 <!-- commentary-index:auto-end -->

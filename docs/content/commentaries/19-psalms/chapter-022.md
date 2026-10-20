@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 22:16-18
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 22:1
 <!-- commentary-index:auto-end -->

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Passover: When I See the Blood](../../feasts/passover.md) — 9:10-12
+- [Six Days of History](../../last-things/six-days-of-history.md) — 9:5
 <!-- commentary-index:auto-end -->

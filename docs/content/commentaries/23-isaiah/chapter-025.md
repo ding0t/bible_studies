@@ -18,4 +18,5 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 25:6-8
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 25:6-8
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 25:8
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 25:8
 <!-- commentary-index:auto-end -->

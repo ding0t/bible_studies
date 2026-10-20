@@ -34,4 +34,5 @@ draft: false
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 15:51
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 15:24-25
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 15:4
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 15:54
 <!-- commentary-index:auto-end -->

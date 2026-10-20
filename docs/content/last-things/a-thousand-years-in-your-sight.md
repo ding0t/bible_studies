@@ -5,9 +5,9 @@ description: "Psalm 90, Moses' prayer for a dying generation: the eternal God wh
 tags: ["psalms", "exodus", "numbers", "2-peter", "sabbath", "last-days", "method/word-study", "lang/hebrew"]
 draft: false
 primary_passage: "Psalm 90:1-17"
-bible_references: ["Psalm 90:1-17", "Psalm 89:46-52", "Psalm 92:1-14", "Psalm 106:45", "Psalm 102:27", "Exodus 32:12-14", "Exodus 34:6", "Numbers 14:29", "Numbers 14:34", "Deuteronomy 33:1", "Genesis 3:19", "Ecclesiastes 6:6", "Isaiah 40:17", "Hebrews 1:8-12", "Hebrews 13:8", "John 1:14", "2 Timothy 1:10", "1 Corinthians 15:58", "2 Peter 3:4", "2 Peter 3:8-9"]
+bible_references: ["Psalm 90:1-17", "Psalm 89:46-52", "Psalm 92:1-14", "Psalm 106:45", "Psalm 102:27", "Exodus 32:12-14", "Exodus 34:6", "Numbers 14:29", "Numbers 14:34", "Deuteronomy 33:1", "Genesis 3:19", "Ecclesiastes 6:6", "Judges 7:19", "Hebrews 1:8-12", "Hebrews 13:8", "John 1:14", "2 Timothy 1:10", "1 Corinthians 15:58", "2 Peter 3:4", "2 Peter 3:8-9"]
 date_created: 2026-09-26
-date_modified: 2026-09-27
+date_modified: 2026-10-20
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -37,7 +37,7 @@ days.
 
 ### Lessons about Jesus
 
-- **The eternal God of Psalm 90 is the God the Son.** Hebrews takes the Psalter's "you are the same,
+- **The Son shares the eternity Psalm 90 confesses.** Hebrews takes the Psalter's "you are the same,
   and your years have no end" (Psalm 102:27, ESV) and says it "of the Son" (Hebrews 1:8, 10-12,
   ESV). "Jesus Christ is the same yesterday and today and forever" (Hebrews 13:8, ESV).
 - **God answered "Return, O LORD!" by coming.** The Lord who had been Israel's dwelling place "became
@@ -119,31 +119,32 @@ Moses opens with a word for a home: <span dir="rtl">מָעוֹן</span> (*ma'on*
 glosses it "the home and refuge" of God's people (note on 90:1-2). The Israelites Moses prayed for
 had no home for forty years. He tells them they always had one. **This shows that God Himself is the
 permanent address of a people with no fixed place: the generations change, and He does not.**
+A few Hebrew manuscripts and the Septuagint read "refuge" here (CSB footnote on Psalm 90:1; the
+Septuagint's καταφυγή, *kataphygē*). The Masoretic text, which the ESV follows, reads "dwelling."
 
-### The psalm's own vocabulary
+### A thousand years, a day and a watch
 
 Psalm 90:4 then puts the thousand-year day in the mouth of the man who wrote Genesis 5. A thousand
-is the ceiling of a human life in Hebrew reckoning, and Moses is the one who recorded that nobody
-ever reached it — Adam 930, Seth 912, Jared 962, Methuselah 969, and the list stops there.
-Ecclesiastes uses the figure the same way: "even though he should live a thousand years twice over"
-(6:6) is Qohelet reaching for the largest span a hearer could picture. Setting a thousand years
+years is the longest life anyone in Genesis approaches, and Moses is the one who recorded that
+nobody reached it — Adam 930, Seth 912, Jared 962, Methuselah 969, and the list stops there. The
+*ESV Study Bible* reads verse 4's thousand years as human life at its "longest imaginable" (note on
+Psalm 90:3-6). Ecclesiastes reaches past it in hyperbole: "even though he should live a thousand
+years twice over" (Ecclesiastes 6:6). Setting a thousand years
 against a single day sets the outer limit of human time against the smallest unit Genesis 1 counts
 in. And the psalm names the other end of the same scale six verses later: "The years of our life are
-seventy, or even by reason of strength eighty" (90:10).
+seventy, or even by reason of strength eighty" (Psalm 90:10).
 
 > ✝️ Psalm 90:4 (ESV)
 >
 > 4 For a thousand years in your sight are but as yesterday when it is past, or as a watch in the
 > night.
 
-Moses also picks a *day*. Scripture has other ways of saying human time is nothing to God — "all the
-nations are as nothing before him, they are accounted by him as less than nothing and emptiness"
-(Isaiah 40:17) — and Psalm 90 does not use them. It names a unit, and the unit it names is the one
-the creation week is counted in.
+Moses also picks a *day*. He names a unit, and the unit he names is the one the creation week is
+counted in.
 
 The psalm's second comparison is smaller than its first: "as yesterday when it is past," and then
 "as a watch in the night" (<span dir="rtl">אַשְׁמוּרָה</span>, *ashmurah*, H821 — one of the three
-watches Israel divided the night into, so roughly four hours). Two comparisons of unequal size make
+watches Israel divided the night into, so roughly four hours; Judges 7:19 names the "middle watch"). Two comparisons of unequal size make
 verse 4 a statement of scale.
 
 ### The psalm's own word for eternity
@@ -152,10 +153,12 @@ The psalm's own word for God's eternity is <span dir="rtl">עוֹלָם</span> (
 in verse 2 — <span dir="rtl">מֵעוֹלָם עַד־עוֹלָם</span> (*me'olam ad-olam*), which the MACULA gloss
 renders "from antiquity to perpetuity" and TWOT defines as "long duration" (root 1631a). It is a
 word for the *extent* of time. And the psalm keeps addressing God inside time after verse 4: "Return,
-O LORD! **How long?**" (90:13); "for as many days as you have afflicted us, and for as many years as
+O LORD! How long?" (90:13); "for as many days as you have afflicted us, and for as many years as
 we have seen evil" (90:15). The *NIV Biblical Theology Study Bible* reads verse 4 the same way, as
-marking "the difference between the Lord's and humankind's existence **in** time," and says God
+marking "the difference between the Lord's and humankind's existence in time," and says God
 "does not account for time in the same way that humans do."
+
+### Is God outside time?
 
 **Whether God is outside time altogether is contested, and Psalm 90 does not settle it.** The
 classical Christian answer (Augustine, *Confessions* book 11; Boethius, *Consolation of Philosophy*
@@ -174,7 +177,7 @@ that is renewed in the morning … in the evening it fades and withers" (90:5-6,
 verse 3 is <span dir="rtl">שׁוּב</span> (*shuv*, H7725, TWOT 2340, "turn back"), the verb of God's
 sentence on Adam: "to dust you shall return" (Genesis 3:19, ESV). The *ESV Study Bible* notes that
 Moses' word for dust differs from Genesis but that "return" joined to loose soil makes the allusion
-clear (note on 90:3).
+clear (note on Psalm 90:3).
 
 Moses says why the grass withers:
 
@@ -252,8 +255,8 @@ Lord your labor is not in vain" (1 Corinthians 15:58, ESV).
 Psalm 90 opens Book IV, immediately after Book III closes on the bleakest note in the Psalter — "How
 long, O LORD? Will you hide yourself forever?" (89:46), "Lord, where is your steadfast love of old,
 which by your faithfulness you swore to David?" (89:49), and enemies who "mock the footsteps of your
-anointed" (89:51). Each of the Psalter's five books closes with a doxology ending in "Amen" (Psalms
-41:13; 72:19; 89:52; 106:48), so the seam between Book III and Book IV is marked in the text. The
+anointed" (89:51). Each of the first four books closes with a doxology and an "Amen" (Psalms 41:13;
+72:19; 89:52; 106:48), so the seam between Book III and Book IV is marked in the text. The
 *NIV Biblical Theology Study Bible* treats that placement as deliberate, "significant, especially in
 the light of the downbeat ending of Book III," and names "an eternal hope grounded in an eternal God
 (90:1-2, 4)" among Book IV's governing themes.
@@ -268,7 +271,7 @@ draws that line from 90:13 to 106:45 (note on 90:13).
 
 Peter's scoffers ask the question of Psalm 89 — "Where is the promise of his coming?" (2 Peter 3:4)
 — and he answers with Psalm 90:4: "with the Lord one day is as a thousand years, and a thousand
-years as one day" (3:8, ESV). He is repeating the Psalter's move.
+years as one day" (2 Peter 3:8, ESV). He is repeating the Psalter's move.
 
 ```mermaid
 flowchart LR
@@ -286,23 +289,25 @@ patient toward you, not wishing that any should perish, but that all should reac
 Peter 3:9, ESV).
 
 The rabbis quote this verse as the warrant for a thousand-year day (b. *Sanhedrin* 97a), Lactantius
-quotes it, and Peter reaches for it. What they built from it — the week of millennia — is traced in
+quotes it (*Divine Institutes* 7.14), and Peter reaches for it. What they built from it — the week of millennia — is traced in
 [A Day Is a Thousand Years](day-is-a-thousand-years.md), which argues that reading on its own
 evidence.
 
 ## The psalm for the seventh day
 
-Two psalms after Moses' prayer comes the only psalm in the Psalter assigned to a day of the week.
+Two psalms after Moses' prayer comes the only psalm whose Hebrew title assigns it to a day of the
+week.
 
 > ✝️ Psalm 92:1 (ESV)
 >
 > 1 A Psalm. A Song for the Sabbath. It is good to give thanks to the LORD, to sing praises to your
 > name, O Most High;
 
-The Hebrew title is <span dir="rtl">מִזְמוֹר שִׁיר לְיוֹם הַשַׁבָּת</span> (*mizmor shir l'yom
+The Hebrew title is <span dir="rtl">מִזְמוֹר שִׁיר לְיוֹם הַשַּׁבָּת</span> (*mizmor shir l'yom
 hashabbat*) — "a psalm, a song, for **the day of** the Sabbath," carrying the same definite
 construction Genesis 2:2-3 uses for the seventh day. The *NIV Cultural Backgrounds Study Bible* notes
-that this is the only psalm so designated.
+that this is the only psalm designated for the Sabbath. The Septuagint's titles assign four more to
+other weekdays (Psalms 24, 48, 93 and 94 in English numbering).
 
 ### It sings back what Psalm 90 asked for
 
@@ -326,31 +331,31 @@ A psalm written for the day of rest turns out to be about the final sorting of t
 
 Then the other half: "The righteous flourish like the palm tree… They still bear fruit in old age;
 they are ever full of sap and green" (92:12, 14). Psalm 90's people were grass that withers by
-evening. Psalm 92's wicked are the grass now, and the righteous are palm trees that bear fruit in old
+evening. Psalm 92's wicked are the grass now (a different word, the same picture), and the righteous are palm trees that bear fruit in old
 age. Judgment on the wicked, permanence for the righteous, and God exalted forever at the centre —
-that is the seventh day's own song. The *NIV Biblical Theology Study Bible* draws the same
+that is the seventh day's own song. The *NIV Biblical Theology Study Bible* draws a related
 conclusion from the title: the Sabbath rest "signified a spiritual and final rest that was to come."
 
 The Levites sang this psalm in the Temple every seventh day (b. *Rosh HaShanah* 31a), and the rabbis
-read its title as naming an age — "a day, i.e., one thousand years, that is entirely Shabbat"
-(b. *Sanhedrin* 97a). [A Day Is a Thousand Years](day-is-a-thousand-years.md#what-peters-readers-already-believed)
+read its title as naming an age: "a day … that is entirely Shabbat" (b. *Sanhedrin* 97a, William
+Davidson Edition), a day the surrounding baraita makes a thousand years from Psalm 90:4. [A Day Is a Thousand Years](day-is-a-thousand-years.md#what-peters-readers-already-believed)
 follows that reading into the millennium. Psalm 92's own verses already look to the end: the God of
 Psalm 90 who is from everlasting is "on high forever" (92:8), and the prayer of a dying generation
 becomes the song of people who flourish in His house.
 
 ## Discussion Questions
 
-1. The verb *shuv* appears in verse 3 ("You return man to dust … Return, O children of man!") and in
+1. **The language.** The verb *shuv* appears in verse 3 ("You return man to dust … Return, O children of man!") and in
    verse 13 ("Return, O LORD!"). What does Moses do by turning God's own word back to Him?
-2. Moses buried a generation in the wilderness (Numbers 14:29, 34). How does that setting change the
-   way you hear "The years of our life are seventy" (90:10)?
-3. Hebrews 1:10-12 says "of the Son" that "you are the same, and your years will have no end." What
-   does it mean for you that the eternal God of Psalm 90:2 is Jesus?
-4. Psalm 90 calls God eternal and also asks Him "How long?" (90:13). How do you hold those two
+2. **The text in its context.** Moses buried a generation in the wilderness (Numbers 14:29, 34). How does that setting change the
+   way you hear "The years of our life are seventy" (Psalm 90:10)?
+3. **Christ.** Hebrews 1:8, 10-12 says "of the Son" that "you are the same, and your years will
+   have no end." What does it mean for you that Jesus shares the eternity Psalm 90:2 confesses?
+4. **The hard part.** Psalm 90 calls God eternal and also asks Him "How long?" (90:13). How do you hold those two
    sentences together?
-5. At the golden calf Moses prayed "turn" and "relent," and God relented (Exodus 32:12, 14). Where
+5. **Be transformed.** At the golden calf Moses prayed "turn" and "relent," and God relented (Exodus 32:12, 14). Where
    are you praying "How long?" now, and what would it look like to pray it as Moses did?
-6. "Teach us to number our days" (90:12). What would change this week if you counted your days the
+6. **Be transformed.** "Teach us to number our days" (90:12). What would change this week if you counted your days the
    way Moses asks?
 
 ## References & Recommended Reading
@@ -369,7 +374,8 @@ becomes the song of people who flourish in His house.
 - Original-language data from this project's `bible-text.db` — MACULA Hebrew (WLC) glosses and the
   unfoldingWord interlinear for Psalm 90:1-17, Psalm 92:2, 4, Psalm 106:45, Exodus 32:12 and Genesis
   3:19.
-- Babylonian Talmud, *Sanhedrin* 97a and *Rosh HaShanah* 31a.
+- Babylonian Talmud, *Sanhedrin* 97a (William Davidson Edition, Sefaria) and *Rosh HaShanah* 31a.
+- Lactantius, *Divine Institutes* 7.14 (*Ante-Nicene Fathers*, vol. 7).
 - Augustine, *Confessions*, book 11, and Boethius, *The Consolation of Philosophy*, book 5 — the
   classical case for divine timelessness.
 

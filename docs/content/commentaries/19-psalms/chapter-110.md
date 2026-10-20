@@ -18,4 +18,5 @@ draft: false
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 110:2
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 110:1-4
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 110:1
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 110:1
 <!-- commentary-index:auto-end -->

@@ -15,4 +15,5 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 118:26
 - [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 118:22
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 118:22
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 118:22
 <!-- commentary-index:auto-end -->

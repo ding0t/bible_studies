@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 12:38
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 12:30
 <!-- commentary-index:auto-end -->

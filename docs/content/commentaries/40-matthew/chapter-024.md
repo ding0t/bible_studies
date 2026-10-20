@@ -39,4 +39,5 @@ draft: false
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 24:29-31
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 24:15
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 24:21
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 24:15
 <!-- commentary-index:auto-end -->

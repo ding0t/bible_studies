@@ -19,4 +19,5 @@ draft: false
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 3:24
 - [The Way](../../jesus/the-way.md) — 3:16-17
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 3:11
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 3:10-18
 <!-- commentary-index:auto-end -->

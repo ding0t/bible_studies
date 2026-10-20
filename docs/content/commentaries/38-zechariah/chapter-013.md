@@ -16,4 +16,5 @@ draft: false
 - [The Appointed Times](../../feasts/feasts.md) — 13:1
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 13:1
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 13:8-9
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 13:7
 <!-- commentary-index:auto-end -->

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 36:21-23
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 36:22-23
 <!-- commentary-index:auto-end -->

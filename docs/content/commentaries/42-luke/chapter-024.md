@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 24:27 (primary passage)
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 24:27 (primary passage)
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 24:47
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 24:25-27
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 24:10-11

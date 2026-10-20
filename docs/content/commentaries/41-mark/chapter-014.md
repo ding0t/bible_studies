@@ -23,4 +23,5 @@ draft: false
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 14:61-64
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 14:32-42
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 14:50
+- [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 14:62
 <!-- commentary-index:auto-end -->

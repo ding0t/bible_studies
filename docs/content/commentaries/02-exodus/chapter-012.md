@@ -17,6 +17,7 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 12:13
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 12:2-3
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 12:14
+- [Six Days of History](../../last-things/six-days-of-history.md) — 12:1-28
 - [The Appointed Times](../../feasts/feasts.md) — 12:2
 - [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 12:40-41
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 12:11
