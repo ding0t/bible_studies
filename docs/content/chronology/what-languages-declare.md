@@ -5,7 +5,7 @@ description: "Genesis 11 says God divided one language at Babel in a single act.
 tags: ["babel", "genesis", "acts", "revelation", "zephaniah", "pentecost", "languages", "creation", "young-earth", "apologetics", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: true
 primary_passage: "Genesis 11:1-9"
-bible_references: ["Genesis 2:19", "Genesis 5:1", "Genesis 9:1", "Genesis 10:1-32", "Genesis 10:5", "Genesis 10:20", "Genesis 10:22", "Genesis 10:25", "Genesis 10:31-32", "Genesis 11:1-9", "Genesis 12:2-3", "Deuteronomy 32:8", "Isaiah 19:18", "Zephaniah 3:8-10", "Acts 2:1-11", "Acts 17:26-27", "Acts 19:32", "Acts 21:27-31", "Galatians 3:8", "Galatians 3:16", "Revelation 5:9", "Revelation 7:9"]
+bible_references: ["Genesis 2:19", "Genesis 5:1", "Genesis 9:1", "Genesis 10:1-32", "Genesis 10:5", "Genesis 10:10", "Genesis 10:20", "Genesis 10:22", "Genesis 10:25", "Genesis 10:31-32", "Genesis 11:1-9", "Genesis 12:2-3", "Deuteronomy 32:8", "Isaiah 19:18", "Zephaniah 3:8-10", "Acts 2:1-11", "Acts 17:26-27", "Acts 19:32", "Acts 21:27-31", "Galatians 3:8", "Galatians 3:16", "Revelation 5:9", "Revelation 7:9"]
 date_created: 2026-10-20
 date_modified: 2026-10-20
 ai_provider_models:
@@ -321,9 +321,12 @@ Egypt as a whole, and [The Flood and the King Lists](flood-and-the-king-lists.md
 
 ### Speech and writing have different family trees
 
-Babel confused speech. The people would no longer <span dir="rtl">שָׁמַע</span> (*shama*, H8085),
-"hear," one another (Genesis 11:7, where the ESV has "understand"). Genesis 11 says nothing about writing,
-and writing's history has the opposite shape to the history of speech.
+Babel confused speech. Every word Genesis 11 uses for what God changed belongs to the mouth and the
+ear: the "lip" (*saphah*, Genesis 11:1, 6, 7, 9), the "words" (Genesis 11:1), and hearing, for the
+people would no longer <span dir="rtl">שָׁמַע</span> (*shama*, H8085), "hear," one another (Genesis
+11:7, where the ESV has "understand"). The Septuagint keeps to the body too: God confuses their
+"tongue" (Genesis 11:7) and their "lips," χείλη (Genesis 11:9, Brenton LXX). Genesis 11 says nothing
+about writing, and writing's history has the opposite shape to the history of speech.
 
 Writing was invented only a few times: in Mesopotamia, Egypt, China and Mesoamerica. Every other
 script was borrowed or adapted from one of those. Cuneiform, made for Sumerian, an isolate, went on
@@ -334,10 +337,21 @@ source, the Proto-Sinaitic letters of Egypt and Sinai, usually dated about 1850 
 scholars a few centuries later. Korean Hangul (AD 1443) is a rare script invented by design, its
 consonant shapes drawn from the mouth that speaks them.
 
+[![Writing was invented independently a few times: Egyptian hieroglyphs c. 3250 BC and cuneiform at Uruk, the Erech of Genesis 10:10, c. 3200 BC, both within about 1,000 km of Jerusalem; Chinese characters c. 1250 BC; Maya glyphs c. 300 BC. The alphabet began as Proto-Sinaitic letters in Sinai and Egypt c. 1850 BC and passed through Phoenician to Paleo-Hebrew, Greek (then Latin and Cyrillic), Aramaic (then square Hebrew, Syriac, Arabic, Mongolian, Kharosthi and, disputed, Brahmi and the scripts of South and Southeast Asia) and South Arabian (then Ge'ez).](../assets/img/what-languages-declare/one-alphabet.svg)](../assets/img/what-languages-declare/one-alphabet.svg)
+
 So writing behaves like any human invention: a few inventions, then spread by borrowing across
 language lines. Speech breaks into hundreds of lineages that borrowing never connects. The two
 records sit side by side in the same peoples, and only one of them shows a break. Genesis puts God's
 act on the spoken word and nowhere else.
+
+Writing's roots also gather in one region. The oldest known writing comes from Uruk, in southern
+Iraq, about 3200 BC. Genesis names it: Nimrod's kingdom began with "Babel, Erech, Accad, and Calneh,
+in the land of Shinar" (Genesis 10:10, ESV), and Erech is Uruk. Egypt's hieroglyphs appear within a
+few centuries. The alphabet was made in Sinai and Egypt and carried out through Canaan and Syria.
+Three of writing's roots lie within about 1,000 km of Jerusalem, and the one that became most of the
+world's scripts passed through the land God gave Israel. The plain reading is that writing was
+invented after the dispersal in the region where the dispersal began, and borrowed outward from
+there. Whether anyone wrote before Babel, Scripture does not say.
 
 ### Where this argument is weak
 
@@ -484,6 +498,8 @@ oracle bones of about 1250 BC, are also later than Moses. This study leaves the 
   Origin of Indo-European Languages," *Science* 381 (2023) eabg0818.
 - **Edward Sapir**, *Language: An Introduction to the Study of Speech* (1921), ch. 1 (public domain,
   Project Gutenberg #12629).
+- **P. T. Daniels & W. Bright** (eds.), *The World's Writing Systems* (Oxford, 1996) — the descent
+  of the alphabet and the independent inventions of writing.
 - **R. D. Woodard** (ed.), *The Cambridge Encyclopedia of the World's Ancient Languages* (Cambridge,
   2004) — conventional dates of first attestation.
 - **A. Kloekhorst**, *Kanišite Hittite: The Earliest Attested Record of Indo-European* (Brill, 2019) —

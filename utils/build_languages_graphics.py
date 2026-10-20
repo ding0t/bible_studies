@@ -446,8 +446,63 @@ def growing_families():
     return "\n".join(out)
 
 
+def one_alphabet():
+    sc = DATA["scripts"]
+    body = [text(40, 140, "WRITING WAS INVENTED A FEW TIMES", 14, weight="bold", spacing="1.5")]
+    y = 168
+    for i, s in enumerate(sc["independent"]):
+        x = 40 + (i % 2) * 330
+        yy = y + (i // 2) * 52
+        stroke = RED if s["near"] else INK
+        c, _ = card(x, yy, 310, [s["name"], f"{s['place']} · {s['date']}"], "", stroke=stroke, size=13)
+        body += c
+    y += 2 * 52 + 30
+    body.append(text(40, y, "AND ONE ALPHABET BECAME MOST OF THE REST", 14, weight="bold", spacing="1.5"))
+    body.append(text(40, y + 20, "Its letter shapes drawn from Egyptian hieroglyphs", 12.5, fill=MUTED,
+                     italic=True))
+    y += 46
+    row_h, indent = 30, 30
+    last_at_depth = {}
+    for name, place, date, depth, dashed, near in sc["alphabet"]:
+        x = 52 + depth * indent
+        cy = y + row_h / 2
+        if depth > 0:
+            px_, py_ = last_at_depth[depth - 1]
+            dash = ' stroke-dasharray="4 3"' if dashed else ""
+            body.append(f'<path d="M{px_:.1f} {py_ + 7:.1f} V{cy:.1f} H{x - 6:.1f}" fill="none" '
+                        f'stroke="{INK}" stroke-width="1.2"{dash}/>')
+        fill = RED if near else INK
+        body.append(f'<circle cx="{x:.1f}" cy="{cy:.1f}" r="4.5" fill="{fill}"/>')
+        body.append(text(x + 10, cy + 5, name, 13.5, weight="bold" if depth <= 2 else None, fill=fill))
+        body.append(text(W - 40, cy + 5, f"{place} · {date}", 12, "end", fill=MUTED, italic=True))
+        last_at_depth[depth] = (x, cy)
+        y += row_h
+    y += 20
+    body += note(40, y, [
+        "Red: arose within about 1,000 km of Jerusalem. Dashed: the link is disputed (Brahmi's descent",
+        "from Aramaic; South Arabian's branching point) or the script was modelled on another, not descended.",
+        "Dates conventional (Daniels & Bright 1996). Other independent or invented scripts, such as Korean",
+        "Hangul (AD 1443) and Cherokee (1821), are later and few.",
+    ], 11.5, MUTED, italic=True)
+    h = int(y + 4 * 16 + 40)
+    desc = ("Writing was invented independently a few times: Egyptian hieroglyphs c. 3250 BC and "
+            "cuneiform at Uruk, the Erech of Genesis 10:10, c. 3200 BC, both within about 1,000 km "
+            "of Jerusalem; Chinese characters c. 1250 BC; Maya glyphs c. 300 BC. The alphabet began "
+            "as Proto-Sinaitic letters in Sinai and Egypt c. 1850 BC and passed through Phoenician to "
+            "Paleo-Hebrew, Greek (then Latin, Cyrillic), Aramaic (then square Hebrew, Syriac, Arabic, "
+            "Mongolian, Kharosthi and, disputed, Brahmi and the scripts of South and Southeast Asia) "
+            "and South Arabian (then Ge'ez).")
+    out = svg_open(h, "One alphabet, few inventions", desc)
+    out += heading("One Alphabet", "Writing's few roots, most of them near Jerusalem")
+    out += body
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
+    (OUT / "one-alphabet.svg").write_text(one_alphabet(), encoding="utf-8")
     for name, fn in (("no-common-trunk", lineages), ("decay-test", decay),
                      ("how-fast-tongues-multiply", rates), ("first-written-witnesses", first_writing),
                      ("growing-the-families", growing_families)):

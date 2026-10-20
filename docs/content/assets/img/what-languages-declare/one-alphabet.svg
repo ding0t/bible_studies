@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 982" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">One alphabet, few inventions</title>
+<desc id="d">Writing was invented independently a few times: Egyptian hieroglyphs c. 3250 BC and cuneiform at Uruk, the Erech of Genesis 10:10, c. 3200 BC, both within about 1,000 km of Jerusalem; Chinese characters c. 1250 BC; Maya glyphs c. 300 BC. The alphabet began as Proto-Sinaitic letters in Sinai and Egypt c. 1850 BC and passed through Phoenician to Paleo-Hebrew, Greek (then Latin, Cyrillic), Aramaic (then square Hebrew, Syriac, Arabic, Mongolian, Kharosthi and, disputed, Brahmi and the scripts of South and Southeast Asia) and South Arabian (then Ge'ez).</desc>
+<rect width="720" height="982" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="966" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="954" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">ONE ALPHABET</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Writing's few roots, most of them near Jerusalem</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<text x="40.0" y="140.0" font-size="14" fill="#3b2f1e" font-weight="bold" letter-spacing="1.5">WRITING WAS INVENTED A FEW TIMES</text>
+<rect x="40.0" y="168.0" width="310.0" height="44" rx="5" fill="#fffdf7" stroke="#8b1e1e" stroke-width="1.4"/>
+<text x="48.0" y="186.4" font-size="13" fill="#3b2f1e" font-weight="bold">Egyptian hieroglyphs</text>
+<text x="48.0" y="203.4" font-size="13" fill="#3b2f1e">Egypt · c. 3250 BC</text>
+<rect x="370.0" y="168.0" width="310.0" height="44" rx="5" fill="#fffdf7" stroke="#8b1e1e" stroke-width="1.4"/>
+<text x="378.0" y="186.4" font-size="13" fill="#3b2f1e" font-weight="bold">Cuneiform</text>
+<text x="378.0" y="203.4" font-size="13" fill="#3b2f1e">Uruk (Erech, Genesis 10:10) · c. 3200 BC</text>
+<rect x="40.0" y="220.0" width="310.0" height="44" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="48.0" y="238.4" font-size="13" fill="#3b2f1e" font-weight="bold">Chinese characters</text>
+<text x="48.0" y="255.4" font-size="13" fill="#3b2f1e">Yellow River · c. 1250 BC</text>
+<rect x="370.0" y="220.0" width="310.0" height="44" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="378.0" y="238.4" font-size="13" fill="#3b2f1e" font-weight="bold">Maya glyphs</text>
+<text x="378.0" y="255.4" font-size="13" fill="#3b2f1e">Mesoamerica · c. 300 BC</text>
+<text x="40.0" y="302.0" font-size="14" fill="#3b2f1e" font-weight="bold" letter-spacing="1.5">AND ONE ALPHABET BECAME MOST OF THE REST</text>
+<text x="40.0" y="322.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Its letter shapes drawn from Egyptian hieroglyphs</text>
+<circle cx="52.0" cy="363.0" r="4.5" fill="#8b1e1e"/>
+<text x="62.0" y="368.0" font-size="13.5" fill="#8b1e1e" font-weight="bold">Proto-Sinaitic letters</text>
+<text x="680.0" y="368.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Sinai and Egypt · c. 1850 BC</text>
+<path d="M52.0 370.0 V393.0 H76.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="82.0" cy="393.0" r="4.5" fill="#8b1e1e"/>
+<text x="92.0" y="398.0" font-size="13.5" fill="#8b1e1e" font-weight="bold">Phoenician</text>
+<text x="680.0" y="398.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Canaan's coast · c. 1050 BC</text>
+<path d="M82.0 400.0 V423.0 H106.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="112.0" cy="423.0" r="4.5" fill="#8b1e1e"/>
+<text x="122.0" y="428.0" font-size="13.5" fill="#8b1e1e" font-weight="bold">Paleo-Hebrew</text>
+<text x="680.0" y="428.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Israel and Judah · c. 1000 BC</text>
+<path d="M82.0 400.0 V453.0 H106.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="112.0" cy="453.0" r="4.5" fill="#3b2f1e"/>
+<text x="122.0" y="458.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Greek</text>
+<text x="680.0" y="458.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Aegean · c. 800 BC</text>
+<path d="M112.0 460.0 V483.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="142.0" cy="483.0" r="4.5" fill="#3b2f1e"/>
+<text x="152.0" y="488.0" font-size="13.5" fill="#3b2f1e">Latin (through Etruscan)</text>
+<text x="680.0" y="488.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Italy · c. 600 BC</text>
+<path d="M112.0 460.0 V513.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="142.0" cy="513.0" r="4.5" fill="#3b2f1e"/>
+<text x="152.0" y="518.0" font-size="13.5" fill="#3b2f1e">Cyrillic</text>
+<text x="680.0" y="518.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Bulgaria · c. AD 900</text>
+<path d="M112.0 460.0 V543.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="142.0" cy="543.0" r="4.5" fill="#3b2f1e"/>
+<text x="152.0" y="548.0" font-size="13.5" fill="#3b2f1e">Armenian, Georgian (modelled on Greek)</text>
+<text x="680.0" y="548.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Caucasus · c. AD 400</text>
+<path d="M82.0 400.0 V573.0 H106.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="112.0" cy="573.0" r="4.5" fill="#8b1e1e"/>
+<text x="122.0" y="578.0" font-size="13.5" fill="#8b1e1e" font-weight="bold">Aramaic</text>
+<text x="680.0" y="578.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Syria · c. 800 BC</text>
+<path d="M112.0 580.0 V603.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="142.0" cy="603.0" r="4.5" fill="#8b1e1e"/>
+<text x="152.0" y="608.0" font-size="13.5" fill="#8b1e1e">Hebrew square script</text>
+<text x="680.0" y="608.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Judea · c. 300 BC</text>
+<path d="M112.0 580.0 V633.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="142.0" cy="633.0" r="4.5" fill="#3b2f1e"/>
+<text x="152.0" y="638.0" font-size="13.5" fill="#3b2f1e">Syriac</text>
+<text x="680.0" y="638.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Edessa · c. AD 1</text>
+<path d="M112.0 580.0 V663.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="142.0" cy="663.0" r="4.5" fill="#3b2f1e"/>
+<text x="152.0" y="668.0" font-size="13.5" fill="#3b2f1e">Arabic (through Nabataean)</text>
+<text x="680.0" y="668.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Arabia · c. AD 500</text>
+<path d="M112.0 580.0 V693.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="142.0" cy="693.0" r="4.5" fill="#3b2f1e"/>
+<text x="152.0" y="698.0" font-size="13.5" fill="#3b2f1e">Mongolian (through Sogdian, Uyghur)</text>
+<text x="680.0" y="698.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Central Asia · c. AD 1200</text>
+<path d="M112.0 580.0 V723.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="142.0" cy="723.0" r="4.5" fill="#3b2f1e"/>
+<text x="152.0" y="728.0" font-size="13.5" fill="#3b2f1e">Kharosthi</text>
+<text x="680.0" y="728.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">NW India · c. 250 BC</text>
+<path d="M112.0 580.0 V753.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="142.0" cy="753.0" r="4.5" fill="#3b2f1e"/>
+<text x="152.0" y="758.0" font-size="13.5" fill="#3b2f1e">Brahmi</text>
+<text x="680.0" y="758.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">India · c. 250 BC</text>
+<path d="M142.0 760.0 V783.0 H166.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="172.0" cy="783.0" r="4.5" fill="#3b2f1e"/>
+<text x="182.0" y="788.0" font-size="13.5" fill="#3b2f1e">Devanagari, Tamil, Thai, Tibetan ...</text>
+<text x="680.0" y="788.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">South and SE Asia · AD 300 on</text>
+<path d="M82.0 400.0 V813.0 H106.0" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="112.0" cy="813.0" r="4.5" fill="#3b2f1e"/>
+<text x="122.0" y="818.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Ancient South Arabian</text>
+<text x="680.0" y="818.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Yemen · c. 900 BC</text>
+<path d="M112.0 820.0 V843.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="142.0" cy="843.0" r="4.5" fill="#3b2f1e"/>
+<text x="152.0" y="848.0" font-size="13.5" fill="#3b2f1e">Ge'ez</text>
+<text x="680.0" y="848.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ethiopia · c. AD 300</text>
+<text x="40.0" y="878.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Red: arose within about 1,000 km of Jerusalem. Dashed: the link is disputed (Brahmi's descent</text>
+<text x="40.0" y="893.5" font-size="11.5" fill="#6b5a3e" font-style="italic">from Aramaic; South Arabian's branching point) or the script was modelled on another, not descended.</text>
+<text x="40.0" y="909.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Dates conventional (Daniels &amp; Bright 1996). Other independent or invented scripts, such as Korean</text>
+<text x="40.0" y="924.5" font-size="11.5" fill="#6b5a3e" font-style="italic">Hangul (AD 1443) and Cherokee (1821), are later and few.</text>
+<text x="696.0" y="960.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

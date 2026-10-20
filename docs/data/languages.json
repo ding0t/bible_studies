@@ -36,6 +36,34 @@
       {"name": "Narrow Bantu", "glottocode": "narr1281", "languages": 563, "years": 5000, "dated_by": "model", "age_note": "the Bantu expansion, c. 3000 BC, a model date"}
     ]
   },
+  "scripts": {
+    "source": "conventional dates and descent, as in P. T. Daniels & W. Bright (eds.), The World's Writing Systems (1996) and Woodard (2004); 'dashed' marks a disputed link; 'near' marks an origin within about 1,000 km of Jerusalem (Uruk ~990 km, Abydos ~700 km, Serabit el-Khadim ~350 km)",
+    "independent": [
+      {"name": "Egyptian hieroglyphs", "place": "Egypt", "date": "c. 3250 BC", "near": true},
+      {"name": "Cuneiform", "place": "Uruk (Erech, Genesis 10:10)", "date": "c. 3200 BC", "near": true},
+      {"name": "Chinese characters", "place": "Yellow River", "date": "c. 1250 BC", "near": false},
+      {"name": "Maya glyphs", "place": "Mesoamerica", "date": "c. 300 BC", "near": false}
+    ],
+    "alphabet": [
+      ["Proto-Sinaitic letters", "Sinai and Egypt", "c. 1850 BC", 0, false, true],
+      ["Phoenician", "Canaan's coast", "c. 1050 BC", 1, false, true],
+      ["Paleo-Hebrew", "Israel and Judah", "c. 1000 BC", 2, false, true],
+      ["Greek", "Aegean", "c. 800 BC", 2, false, false],
+      ["Latin (through Etruscan)", "Italy", "c. 600 BC", 3, false, false],
+      ["Cyrillic", "Bulgaria", "c. AD 900", 3, false, false],
+      ["Armenian, Georgian (modelled on Greek)", "Caucasus", "c. AD 400", 3, true, false],
+      ["Aramaic", "Syria", "c. 800 BC", 2, false, true],
+      ["Hebrew square script", "Judea", "c. 300 BC", 3, false, true],
+      ["Syriac", "Edessa", "c. AD 1", 3, false, false],
+      ["Arabic (through Nabataean)", "Arabia", "c. AD 500", 3, false, false],
+      ["Mongolian (through Sogdian, Uyghur)", "Central Asia", "c. AD 1200", 3, false, false],
+      ["Kharosthi", "NW India", "c. 250 BC", 3, false, false],
+      ["Brahmi", "India", "c. 250 BC", 3, true, false],
+      ["Devanagari, Tamil, Thai, Tibetan ...", "South and SE Asia", "AD 300 on", 4, false, false],
+      ["Ancient South Arabian", "Yemen", "c. 900 BC", 2, true, false],
+      ["Ge'ez", "Ethiopia", "c. AD 300", 3, false, false]
+    ]
+  },
   "first_writing": {
     "source": "conventional dates (middle chronology for Mesopotamia) as given in R. D. Woodard (ed.), The Cambridge Encyclopedia of the World's Ancient Languages (2004) and the works named per row; BC; 'dashed' marks a date or an identification that is disputed",
     "rows": [

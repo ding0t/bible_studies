@@ -81,8 +81,8 @@ outline:
     says: "Decay test neutral vs deep time; 70 vs 429; Indo-European timing (Kanesh 1900 BC vs Heggarty 8,100 BP; Atkinson bursts); Pagel."
   - section: "Part three: what languages declare"
     says: "Acts 2:6 synecho echo; Medes and Elamites; languages kept; Revelation 7:9, 5:9; Zephaniah 3:9 in the kingdom; God judges pride, rules the nations, redeems them; so you may pray."
-word_budget: 4000
-word_budget_reason: ""
+word_budget: 4400
+word_budget_reason: "Raised 2026-10-20 when the author asked for the writing-origins section: a two-part study (Scripture, then external evidence with six charts) like its sibling world-population-declares, which carries 4,400. At 4,150 words after the addition."
 
 graphics:
   generator: "utils/build_languages_graphics.py"
