@@ -183,6 +183,19 @@ evidence:
   - {claim: "Genesis 11:7 'understand' renders shama", tool: bible_interlinear, args: {book: "Gen", chapter: 11, verse: 7}, expect_contains: "H8085"}
   - {claim: "1 Kings 7:23 'brim' is saphah", tool: bible_interlinear, args: {book: "1Kgs", chapter: 7, verse: 23}, expect_contains: "H8193"}
   - {claim: "Revelation 5:9's singers are the living creatures and elders of 5:8", tool: study_verse, args: {book: "Rev", chapter: 5, verse: 8, work_id: "esv-study-bible"}, expect_contains: "twenty-four elders"}
+  - {claim: "ESV Genesis 5:1 'the book of the generations of Adam'", tool: study_verse, args: {book: "Gen", chapter: 5, verse: 1, work_id: "esv-study-bible"}, expect_contains: "the book of the generations of Adam"}
+  - {claim: "Genesis 5:1 'book' is sepher", tool: bible_interlinear, args: {book: "Gen", chapter: 5, verse: 1}, expect_contains: "H5612"}
+  - {claim: "ESV Genesis 9:1 'Be fruitful and multiply and fill the earth'", tool: study_verse, args: {book: "Gen", chapter: 9, verse: 1, work_id: "esv-study-bible"}, expect_contains: "Be fruitful and multiply and fill the earth"}
+  - {claim: "ESV Genesis 10:10 'Babel, Erech, Accad, and Calneh, in the land of Shinar'", tool: study_verse, args: {book: "Gen", chapter: 10, verse: 10, work_id: "esv-study-bible"}, expect_contains: "Babel, Erech, Accad, and Calneh, in the land of Shinar"}
+  - {claim: "ESV Genesis 11:4 'make a name for ourselves'", tool: study_verse, args: {book: "Gen", chapter: 11, verse: 4, work_id: "esv-study-bible"}, expect_contains: "make a name for ourselves"}
+  - {claim: "ESV Genesis 12:3 'all the families of the earth shall be blessed'", tool: study_verse, args: {book: "Gen", chapter: 12, verse: 3, work_id: "esv-study-bible"}, expect_contains: "all the families of the earth shall be blessed"}
+  - {claim: "ESV Galatians 3:16 'who is Christ'", tool: study_verse, args: {book: "Gal", chapter: 3, verse: 16, work_id: "esv-study-bible"}, expect_contains: "who is Christ"}
+  - {claim: "ESV Acts 2:1 'all together in one place'", tool: study_verse, args: {book: "Acts", chapter: 2, verse: 1, work_id: "esv-study-bible"}, expect_contains: "all together in one place"}
+  - {claim: "ESV Acts 2:11 'in our own tongues'", tool: study_verse, args: {book: "Acts", chapter: 2, verse: 11, work_id: "esv-study-bible"}, expect_contains: "in our own tongues"}
+  - {claim: "ESV Zephaniah 3:9 'call upon the name of the LORD'", tool: study_verse, args: {book: "Zeph", chapter: 3, verse: 9, work_id: "esv-study-bible"}, expect_contains: "call upon the name of the LORD"}
+  - {claim: "saphah in Genesis 11:1 (Hebrew)", tool: bible_interlinear, args: {book: "Gen", chapter: 11, verse: 1}, expect_contains: "H8193"}
+  - {claim: "LXX Genesis 11:7 God confuses their glossa", tool: bible_verse, args: {book: "Gen", chapter: 11, verse: 7, translation: "ebible-grcbrent"}, expect_contains: "γλῶσσαν"}
+  - {claim: "LXX Genesis 11:9 the LORD confused the lips (cheile)", tool: bible_verse, args: {book: "Gen", chapter: 11, verse: 9, translation: "ebible-grcbrent"}, expect_contains: "χείλη"}
 
 open_questions:
   - "Author decision: is the 70-vs-429 tension worded right (stated open, text silent on a number)?"
@@ -272,3 +285,25 @@ simulation_2026-10-20:
     required: "From one Babel language, Atlantic-Congo needs a doubling every 395 yr, Austronesian 400, Indo-European 449, Sino-Tibetan 458, Afro-Asiatic 482; Romance recorded 255."
   limits: "Three free settings fitted to the data: shows reachability, not causation. Mainstream explains the same shape by the same expansions, so the test does not discriminate between histories. Counts include recorded extinct languages."
   minimum_count: "Decay test => every unrelated lineage needs its own Babel language => at least 429 (stated) Babel languages; ~23 speakers each on the population study's 10,000. Replaces the '70 vs 429 open tension' weak point."
+
+review_2026-10-20b:
+  scope: "Material added after review_2026-10-20 (git diff b3ad18b6..7880f608): 'How many languages Babel made', the simulation and growing-the-families chart, 'Speech and writing' additions and the one-alphabet chart, and the judgment_calls_2026-10-20 edits."
+  checked:
+    - "ESV re-queried in study-notes.db, all verbatim: Genesis 5:1, 9:1, 10:5, 10:10, 11:4, 12:2-3; Galatians 3:8, 16; Acts 2:1, 4, 11; Zephaniah 3:9."
+    - "Hebrew/Greek: saphah H8193 at Genesis 11:1, 6, 7 (twice), 9; devarim H1697 at 11:1; sepher H5612a at 5:1; Brenton LXX 11:7 glossan, 11:9 cheile (11:1 cheilos hen, phone mia); synecho G4797 = Acts 2:6; 9:22; 19:32; 21:27, 31."
+    - "Population study: 10,000 people at Babel c. 2103 BC (its chronology table); 10,000/429 = 23.3."
+    - "Kendall (1948) birth-death formulas in utils/simulate_language_families.py: extinction a = u(e^rT-1)/(b e^rT-u) and geometric parameter g = b(e^rT-1)/(b e^rT-u) correct; inverse-CDF geometric draw correct. Citation (Ann. Math. Statist. 19 (1948) 1-15) correct."
+    - "Re-ran the script (seed 11): output byte-identical to the committed JSON. Homogeneous 22 isolates / largest 118; varied 163 isolates / 258 families / median 4; band contains the observed rank at 328 of 421 (homogeneous 31); Atlantic-Congo 395-year doubling, Austronesian 400, IE 449, ST 458, AA 482; Romance 255."
+    - "Distances from Jerusalem (haversine): Uruk 989 km, Abydos 699, Serabit el-Khadim 347."
+    - "Scripts rows checked against standard dates (Daniels & Bright 1996): all within convention. Anatolian, Tocharian and all non-Latin Italic languages extinct: correct. Erech = Uruk: standard."
+  corrected:
+    - "one-alphabet chart: Ancient South Arabian drawn as a daughter of Phoenician -> branch from Proto-Sinaitic (depth 1, still dashed); it splits from the Canaanite line before Phoenician. Ge'ez moved with it. Chart desc and prose alt text updated."
+    - "'The oldest known writing comes from Uruk ... Egypt's hieroglyphs appear within a few centuries' contradicted the study's own dates (Egyptian c. 3250, Sumerian c. 3200) -> both about 3200 BC, priority disputed."
+    - "'The plain reading is that writing was invented after the dispersal' contradicted the study's own first-written-witnesses chart (Uruk c. 3200 BC precedes the Flood on MT and LXX) -> writing began in the land of the dispersal; on conventional dates Uruk's tablets predate the Flood, pointing to that section."
+    - "Zephaniah 3:9 quote: 'to call upon' -> to 'call upon' (ESV has 'may call upon')."
+  for_author:
+    - "Simulation 'matches the real lineages at 328 of 421 ranks': 226 of those ranks have a zero-width band (sizes 1-3), and 86 of the 93 misses are ranks 6-9 and 15-149, all above the band: the varied model makes too few mid-sized families (14 to ~300 languages); its median largest family is 5,168 against 1,408. Suggest saying where it misses."
+    - "Fitted death ratio is 0: the best fit is pure splitting with no extinction, while the prose describes 'splitting and dying' and elsewhere names extinct branches. Say the fit needed no deaths, or explain."
+    - "one-alphabet subtitle 'most of them near Jerusalem': 2 of 4 independent inventions; 'most' holds only counting the alphabet as a root."
+    - "Arabic row place 'Arabia': the earliest Arabic-script inscriptions (Zabad 512, Jabal Usays 528, Harran 568) are in Syria; 'Syria and Arabia' would be closer."
+  limits: "Web search not used; external dates checked against standard reference values. Distances use site coordinates, not modern city centres."

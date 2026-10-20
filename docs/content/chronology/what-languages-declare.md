@@ -337,21 +337,23 @@ source, the Proto-Sinaitic letters of Egypt and Sinai, usually dated about 1850 
 scholars a few centuries later. Korean Hangul (AD 1443) is a rare script invented by design, its
 consonant shapes drawn from the mouth that speaks them.
 
-[![Writing was invented independently a few times: Egyptian hieroglyphs c. 3250 BC and cuneiform at Uruk, the Erech of Genesis 10:10, c. 3200 BC, both within about 1,000 km of Jerusalem; Chinese characters c. 1250 BC; Maya glyphs c. 300 BC. The alphabet began as Proto-Sinaitic letters in Sinai and Egypt c. 1850 BC and passed through Phoenician to Paleo-Hebrew, Greek (then Latin and Cyrillic), Aramaic (then square Hebrew, Syriac, Arabic, Mongolian, Kharosthi and, disputed, Brahmi and the scripts of South and Southeast Asia) and South Arabian (then Ge'ez).](../assets/img/what-languages-declare/one-alphabet.svg)](../assets/img/what-languages-declare/one-alphabet.svg)
+[![Writing was invented independently a few times: Egyptian hieroglyphs c. 3250 BC and cuneiform at Uruk, the Erech of Genesis 10:10, c. 3200 BC, both within about 1,000 km of Jerusalem; Chinese characters c. 1250 BC; Maya glyphs c. 300 BC. The alphabet began as Proto-Sinaitic letters in Sinai and Egypt c. 1850 BC and passed through Phoenician to Paleo-Hebrew, Greek (then Latin and Cyrillic), Aramaic (then square Hebrew, Syriac, Arabic, Mongolian, Kharosthi and, disputed, Brahmi and the scripts of South and Southeast Asia); South Arabian (then Ge'ez) branched off before Phoenician, at a disputed point.](../assets/img/what-languages-declare/one-alphabet.svg)](../assets/img/what-languages-declare/one-alphabet.svg)
 
 So writing behaves like any human invention: a few inventions, then spread by borrowing across
 language lines. Speech breaks into hundreds of lineages that borrowing never connects. The two
 records sit side by side in the same peoples, and only one of them shows a break. Genesis puts God's
 act on the spoken word and nowhere else.
 
-Writing's roots also gather in one region. The oldest known writing comes from Uruk, in southern
-Iraq, about 3200 BC. Genesis names it: Nimrod's kingdom began with "Babel, Erech, Accad, and Calneh,
-in the land of Shinar" (Genesis 10:10, ESV), and Erech is Uruk. Egypt's hieroglyphs appear within a
-few centuries. The alphabet was made in Sinai and Egypt and carried out through Canaan and Syria.
-Three of writing's roots lie within about 1,000 km of Jerusalem, and the one that became most of the
-world's scripts passed through the land God gave Israel. The plain reading is that writing was
-invented after the dispersal in the region where the dispersal began, and borrowed outward from
-there. Whether anyone wrote before Babel, Scripture does not say.
+Writing's roots also gather in one region. The oldest known writing comes from two places at about
+the same time, about 3200 BC: Uruk, in southern Iraq, and Egypt. Which came first is disputed.
+Genesis names Uruk: Nimrod's kingdom began with "Babel, Erech, Accad, and Calneh, in the land of
+Shinar" (Genesis 10:10, ESV), and Erech is Uruk. The alphabet was made in Sinai and Egypt and carried
+out through Canaan and Syria. Three of writing's roots lie within about 1,000 km of Jerusalem, and the
+one that became most of the world's scripts passed through the land God gave Israel. Writing began in
+the land where Genesis sets the dispersal and was borrowed outward from there. On conventional dates
+Uruk's tablets are older than the Flood on either chronology, the conflict
+[The first written witnesses](#the-first-written-witnesses) sets out. Whether anyone wrote before
+Babel, Scripture does not say.
 
 ### Where this argument is weak
 
@@ -415,7 +417,7 @@ every nation, from all tribes and peoples and languages, standing before the thr
 Lamb" (Revelation 7:9, ESV). Two chapters earlier the living creatures and the elders sing to the Lamb that "by your blood you ransomed people for God
 from every tribe and language and people and nation" (Revelation 5:9, ESV). Zephaniah promised a
 "pure speech" for the peoples (Zephaniah 3:9, ESV), in the kingdom that follows the day of judgment.
-The word is Babel's *saphah*, and the peoples unite "to call upon the name of the LORD" where Babel's
+The word is Babel's *saphah*, and the peoples unite to "call upon the name of the LORD" where Babel's
 builders united to "make a name for ourselves" (Genesis 11:4, ESV). Zephaniah never names Babel, so
 the allusion stays a likelihood. Pentecost was its first taste.
 

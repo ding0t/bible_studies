@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 982" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
 <title id="t">One alphabet, few inventions</title>
-<desc id="d">Writing was invented independently a few times: Egyptian hieroglyphs c. 3250 BC and cuneiform at Uruk, the Erech of Genesis 10:10, c. 3200 BC, both within about 1,000 km of Jerusalem; Chinese characters c. 1250 BC; Maya glyphs c. 300 BC. The alphabet began as Proto-Sinaitic letters in Sinai and Egypt c. 1850 BC and passed through Phoenician to Paleo-Hebrew, Greek (then Latin, Cyrillic), Aramaic (then square Hebrew, Syriac, Arabic, Mongolian, Kharosthi and, disputed, Brahmi and the scripts of South and Southeast Asia) and South Arabian (then Ge'ez).</desc>
+<desc id="d">Writing was invented independently a few times: Egyptian hieroglyphs c. 3250 BC and cuneiform at Uruk, the Erech of Genesis 10:10, c. 3200 BC, both within about 1,000 km of Jerusalem; Chinese characters c. 1250 BC; Maya glyphs c. 300 BC. The alphabet began as Proto-Sinaitic letters in Sinai and Egypt c. 1850 BC and passed through Phoenician to Paleo-Hebrew, Greek (then Latin, Cyrillic), Aramaic (then square Hebrew, Syriac, Arabic, Mongolian, Kharosthi and, disputed, Brahmi and the scripts of South and Southeast Asia); South Arabian (then Ge'ez) branched off before Phoenician, at a disputed point.</desc>
 <rect width="720" height="982" fill="#faf6ec"/>
 <rect x="8" y="8" width="704" height="966" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
 <rect x="14" y="14" width="692" height="954" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
@@ -82,13 +82,13 @@
 <circle cx="172.0" cy="783.0" r="4.5" fill="#3b2f1e"/>
 <text x="182.0" y="788.0" font-size="13.5" fill="#3b2f1e">Devanagari, Tamil, Thai, Tibetan ...</text>
 <text x="680.0" y="788.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">South and SE Asia · AD 300 on</text>
-<path d="M82.0 400.0 V813.0 H106.0" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
-<circle cx="112.0" cy="813.0" r="4.5" fill="#3b2f1e"/>
-<text x="122.0" y="818.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Ancient South Arabian</text>
+<path d="M52.0 370.0 V813.0 H76.0" fill="none" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="82.0" cy="813.0" r="4.5" fill="#3b2f1e"/>
+<text x="92.0" y="818.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Ancient South Arabian</text>
 <text x="680.0" y="818.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Yemen · c. 900 BC</text>
-<path d="M112.0 820.0 V843.0 H136.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
-<circle cx="142.0" cy="843.0" r="4.5" fill="#3b2f1e"/>
-<text x="152.0" y="848.0" font-size="13.5" fill="#3b2f1e">Ge'ez</text>
+<path d="M82.0 820.0 V843.0 H106.0" fill="none" stroke="#3b2f1e" stroke-width="1.2"/>
+<circle cx="112.0" cy="843.0" r="4.5" fill="#3b2f1e"/>
+<text x="122.0" y="848.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Ge'ez</text>
 <text x="680.0" y="848.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ethiopia · c. AD 300</text>
 <text x="40.0" y="878.0" font-size="11.5" fill="#6b5a3e" font-style="italic">Red: arose within about 1,000 km of Jerusalem. Dashed: the link is disputed (Brahmi's descent</text>
 <text x="40.0" y="893.5" font-size="11.5" fill="#6b5a3e" font-style="italic">from Aramaic; South Arabian's branching point) or the script was modelled on another, not descended.</text>

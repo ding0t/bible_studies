@@ -490,8 +490,8 @@ def one_alphabet():
             "of Jerusalem; Chinese characters c. 1250 BC; Maya glyphs c. 300 BC. The alphabet began "
             "as Proto-Sinaitic letters in Sinai and Egypt c. 1850 BC and passed through Phoenician to "
             "Paleo-Hebrew, Greek (then Latin, Cyrillic), Aramaic (then square Hebrew, Syriac, Arabic, "
-            "Mongolian, Kharosthi and, disputed, Brahmi and the scripts of South and Southeast Asia) "
-            "and South Arabian (then Ge'ez).")
+            "Mongolian, Kharosthi and, disputed, Brahmi and the scripts of South and Southeast Asia); "
+            "South Arabian (then Ge'ez) branched off before Phoenician, at a disputed point.")
     out = svg_open(h, "One alphabet, few inventions", desc)
     out += heading("One Alphabet", "Writing's few roots, most of them near Jerusalem")
     out += body

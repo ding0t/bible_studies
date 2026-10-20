@@ -60,8 +60,8 @@
       ["Kharosthi", "NW India", "c. 250 BC", 3, false, false],
       ["Brahmi", "India", "c. 250 BC", 3, true, false],
       ["Devanagari, Tamil, Thai, Tibetan ...", "South and SE Asia", "AD 300 on", 4, false, false],
-      ["Ancient South Arabian", "Yemen", "c. 900 BC", 2, true, false],
-      ["Ge'ez", "Ethiopia", "c. AD 300", 3, false, false]
+      ["Ancient South Arabian", "Yemen", "c. 900 BC", 1, true, false],
+      ["Ge'ez", "Ethiopia", "c. AD 300", 2, false, false]
     ]
   },
   "first_writing": {
