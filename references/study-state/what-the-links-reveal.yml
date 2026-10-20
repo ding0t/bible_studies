@@ -9,6 +9,7 @@ date: 2026-10-20
 history:
   - 2026-10-19 first draft against 1,114 links (surface matching only)
   - 2026-10-20 revised after the link rules changed; several absences were the method's
+  - 2026-10-20 reviewed against the shipped data: genealogy allusions 35->32, deuterocanon 20->19, OpenBible verses with no derived link 2,224->2,234 (English-scheme targets), Psalm 95 "seven verses"; six claims added
 claims:
   - id: strong-total
     what: strong links of every kind
@@ -80,3 +81,27 @@ claims:
     what: links admitted by the formula rule alone that independent cross-references confirm
     sql: "SELECT SUM(corroborated) FROM scripture_links WHERE basis='formula+phrases'"
     expect: 20
+  - id: genealogy-allusions
+    what: allusion links from Jesus' genealogies (Matthew 1, Luke 3)
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='allusion-lemma' AND strong AND ((from_book='Matt' AND from_chapter=1) OR (from_book='Luke' AND from_chapter=3))"
+    expect: 32
+  - id: deuterocanon-allusions
+    what: allusion links to deuterocanonical books
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='allusion-lemma' AND strong AND to_book IN ('Wis','Sir','1Macc','2Macc','3Macc','4Macc','TobS','PsSol','2Esd')"
+    expect: 19
+  - id: regnal-formula
+    what: Hebrew links where either verse carries "the rest of the acts" (WEB)
+    sql: "SELECT COUNT(*) FROM scripture_links s WHERE strong AND link_type='inner-biblical' AND EXISTS (SELECT 1 FROM verses w WHERE w.work_id='ebible-eng-web' AND lower(w.text) LIKE '%rest of the acts%' AND ((w.book=s.from_book AND w.chapter=s.from_chapter AND w.verse=s.from_verse) OR (w.book=s.to_book AND w.chapter=s.to_chapter AND w.verse=s.to_verse)))"
+    expect: 229
+  - id: tabernacle-commanded-built
+    what: Hebrew links joining Exodus 25-31 to Exodus 35-40
+    sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='inner-biblical' AND strong AND from_book='Exod' AND to_book='Exod' AND MIN(from_chapter,to_chapter) BETWEEN 25 AND 31 AND MAX(from_chapter,to_chapter) BETWEEN 35 AND 40"
+    expect: 181
+  - id: hebrews-psalm-95
+    what: verses of Hebrews strongly linked to Psalm 95 (LXX 94)
+    sql: "SELECT COUNT(DISTINCT from_chapter*100+from_verse) FROM scripture_links WHERE strong AND from_book='Heb' AND to_book='Ps' AND to_english_chapter=95"
+    expect: 7
+  - id: greek-alignment-only-precision
+    what: per cent of Greek links admitted on alignment alone, no unique phrase, that are confirmed (method page)
+    sql: "SELECT ROUND(100.0*AVG(corroborated)) FROM scripture_links WHERE link_type='quotation-greek' AND strong AND basis='alignment'"
+    expect: 56

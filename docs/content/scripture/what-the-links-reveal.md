@@ -153,7 +153,7 @@ Measured against its length, Hebrews leans on the Old Testament more than any ot
 | Matthew | 70 | 1,068 | 6.6 |
 
 Nearly half of Hebrews' links run to the Psalms, and thirteen more to Jeremiah. Psalm 95 ("Today, if
-you hear his voice") is quoted seven times across Hebrews 3 and 4. The letter argues from the Old
+you hear his voice") is quoted in seven verses across Hebrews 3 and 4. The letter argues from the Old
 Testament line by line, which is what you would expect of a book written to show Jewish believers
 that Jesus is the priest and sacrifice their Scriptures promised.
 
@@ -196,8 +196,8 @@ reading.
 The allusion class links verses that share several rare Greek words. Read through, most of its 103
 links turn out to be lists:
 
-- **Genealogies.** 35 come from the genealogies of Jesus in Matthew 1 and Luke 3 sharing names with
-  Genesis 5 and 11, Ruth 4 and 1 Chronicles 1. Luke 3:35 alone is linked eleven times.
+- **Genealogies.** 32 come from the genealogies of Jesus in Matthew 1 and Luke 3 sharing names with
+  Genesis 4, 5, 10 and 11, Ruth 4 and 1 Chronicles 1-2. Luke 3:35 alone is linked eleven times.
 - **Places.** Acts 2:10 (the nations at Pentecost) and Acts 21:1 and 27:5 (Paul's sea routes) share
   place names with the list of cities in 1 Maccabees 15:23.
 - **Precious things.** The foundation stones of the New Jerusalem (Revelation 21:19-20) share their
@@ -209,7 +209,7 @@ So the allusion class finds lists more than echoes. That makes it most useful ex
 carries meaning: a genealogy that runs back to Adam, or a city whose foundations repeat the jewels of
 Eden.
 
-The class is also the only one that reaches the deuterocanon. Of its 103 links, 20 run to books such
+The class is also the only one that reaches the deuterocanon. Of its 103 links, 19 run to books such
 as Wisdom, Sirach and the Maccabees. They are all shared vocabulary, so they show which words a
 New Testament writer shared with those books and say nothing about the books' authority. Paul at the
 Areopagus (Acts 17:29) and Wisdom 13:10's mockery of idols of gold and silver is the clearest.
@@ -401,7 +401,7 @@ parallel is a single short line.
 ## What readers connect
 
 Alongside the derived links, the page shows traditional cross-references, ranked by how many people
-voted for them on OpenBible.info. Of 2,640 verses with such a cross-reference, 2,224 have no derived
+voted for them on OpenBible.info. Of 2,640 verses with such a cross-reference, 2,234 have no derived
 link at all.
 
 The most-voted ones are revealing. The top of the list joins Romans 8:29 to Ephesians 1:5 (1,268

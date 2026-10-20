@@ -136,14 +136,17 @@ set and the World English Bible translators' footnotes. When they agree, two ind
 point the same way. When a strong textual match appears in neither, the method has found a
 connection the tradition did not record. The footnote list is small, a few hundred notes against
 830,000 crowd-voted links, but it concentrates on New Testament quotations of the Old, the same
-ground these links cover. It caught three quotations the larger list had missed.
+ground these links cover. It caught three quotations the larger list had missed. A third list,
+unfoldingWord's Translation Notes, is kept out of this check, because the rules below were tested
+against it.
 
 ### The measurements, by name
 
 The first pass is an index of every four-word sequence. A pair of verses must share at least two of
 them before it is scored. This keeps the work manageable: 7,939 Greek New Testament verses against
 22,948 Septuagint verses makes 182 million possible pairs, far too many to align one by one. The
-index finds candidates cheaply, and the slower scoring runs only on those.
+index finds candidates cheaply, and the slower scoring runs only on those. The unique-phrase rule
+adds candidates from three-word phrases, and the Hebrew is indexed on dictionary forms.
 
 Each candidate is measured four ways. The four scores are stored side by side and never summed:
 
@@ -160,18 +163,52 @@ passages are linked when the distinctive words they share add up past a set weig
 
 ## Where the thresholds come from
 
-The outside lists show how often a link at each strength is confirmed by someone else. The answer
-falls into clear bands:
+The outside lists show how often a link at each strength is confirmed by someone else, and each
+cut-off sits where that rate drops. For the Greek quotations, across all 5,407 pairs the method
+scores:
 
-| Alignment strength | Confirmed by an outside list |
-|---|---|
-| Strong (20+) | **86%** |
-| Borderline (15–19) | 55% |
-| Weak (10–14) | 14% |
+| Alignment | Pairs | Confirmed by an outside list |
+|---|---|---|
+| 20 and over | 113 | **86%** |
+| 18–19 | 28 | 75% |
+| 15–17 | 74 | 49% |
+| 10–14 | 1,150 | 15% |
+| under 10 | 4,042 | 3% |
 
-The cut-off for "strong" sits where the rate drops. Allusions show an even sharper split: random
-pairs of verses are confirmed **0.3%** of the time, and pairs above the rare-word threshold **52%**
-of the time, 173 times as often.
+The line for a strong alignment is 18, the last band where three links in four are confirmed. For a
+baseline, a verse from each Testament picked at random is confirmed **0.08%** of the time (400,000
+random pairs). Allusions above the rare-word threshold are confirmed **46%** of the time, nearly six
+hundred times as often.
+
+Alignment is one of several rules, and the page names the rule under each link ("Found by..."),
+because their rates differ:
+
+| Greek quotation, admitted by | Links | Confirmed |
+|---|---|---|
+| alignment and unique phrases together | 102 | 94% |
+| a citation formula and two unique phrases | 24 | 83% |
+| three unique phrases | 57 | 79% |
+| both phrase rules, no strong alignment | 24 | 100% |
+| alignment alone | 39 | 56% |
+| **every Greek rule** | **246** | **84%** |
+
+Alignment alone is the weakest. Its unconfirmed links are refrains a writer could have drawn from
+several verses (Mark 12:30 against the seven places Deuteronomy repeats "with all your heart and with
+all your soul"), stock phrases ("the heaven and the earth and the sea", Acts 4:24 and Haggai 2:6),
+and finds no list records, such as Luke 1:31 with Genesis 16:11, so an unconfirmed link can still be
+a real one. When an aligned pair also shares a phrase found in one Old Testament verse, 94% are
+confirmed. The other classes:
+
+| Class | Strong links | Confirmed |
+|---|---|---|
+| reading the Greek against the Hebrew (`quotation-crosslang`) | 48 | 88% |
+| allusion by rare words (`allusion-lemma`) | 103 | 46% |
+| the Hebrew Old Testament quoting itself (`inner-biblical`) | 2,054 | 46% |
+
+The Hebrew rate measures the outside lists as much as the links. The surface method it replaced,
+which found only near-verbatim parallels such as Kings and Chronicles, was confirmed at 45%, so the
+lists record fewer than half of even those. For the Hebrew the better test is the sixteen best-known
+parallels: the links find 211 of their 266 verses.
 
 ### Rules added in October 2026
 
@@ -183,14 +220,17 @@ by...").
 
 - **Unique phrases.** A run of everyday words can be unique as a phrase. John 10:34 shares four common
   words with Psalm 82:6 (*"I said, you are gods"*), and the phrase occurs in one Septuagint verse.
-  Three such phrases admit a link on their own: 79% confirmed.
+  Three such phrases admit a link on their own. Phrases here are three words long, and a phrase
+  found in twelve or more New Testament verses does not count.
 - **A citation formula.** A verse that says "it is written", "the Scripture", "that it might be
-  fulfilled", sharing two such phrases with one Old Testament verse: 83% confirmed. This is what
+  fulfilled", in that verse or the one before, sharing two such phrases with one Old Testament
+  verse. This is what
   finds the short, famous quotations: James 2:8, Romans 1:17, Matthew 4:7, Matthew 2:6 from Micah.
   Revelation is exempt, because its "it is written" is a name written in the book of life.
 - **Hebrew on dictionary forms.** Matching the Hebrew on MACULA's lemmas, with prefixes split and
   spelling normalised, and counting a weaker match whose neighbouring verses also match, because
-  borrowed passages come in runs. 1 Chronicles 16:8 and Psalm 105:1 are the same words with one
+  borrowed passages come in runs. A pair needs a rarity-weighted score of 36, or 22 with a matching
+  neighbour on the same diagonal. 1 Chronicles 16:8 and Psalm 105:1 are the same words with one
   spelling difference; they scored 12 on the surface and now match. The sixteen best-known parallels
   went from 68 of 266 verses found to 211, at the same rate of confirmation as before.
 - **Reading the Greek against the Hebrew.** A vocabulary learned from the Septuagint's own
@@ -198,13 +238,13 @@ by...").
   quotations that follow the Hebrew where the Septuagint reads differently: "Death is swallowed up
   in victory" (1 Corinthians 15:54; Isaiah 25:8), "I will strike the shepherd" (Matthew 26:31;
   Zechariah 13:7). Only in verses that cite Scripture, only the best match, and only with a clear
-  margin: 88% confirmed. This is its own class, `quotation-crosslang`.
+  margin over the second best. This is its own class, `quotation-crosslang`.
 
 [What the Scripture Links Reveal](../scripture/what-the-links-reveal.md) reads the results as a whole,
 including which gaps these rules closed and which remain.
 
-No single link is certain because of this. A link marked strong has passed the same test as every
-other link, and links of that strength are confirmed 86% of the time.
+No single link is certain because of this. A link marked strong has passed one of these rules, and
+the tables above give how often links admitted by that rule are confirmed.
 
 ## What the method produces
 
@@ -333,8 +373,15 @@ counting it would turn holes into omissions.
 
 ## Limits
 
-[What the Scripture Links Reveal](../scripture/what-the-links-reveal.md) reads these results as a whole: the most-quoted verse and chapter, the book that quotes most densely, and the well-known connections that fall under the threshold or outside the data.
+[What the Scripture Links Reveal](../scripture/what-the-links-reveal.md) reads these results as a
+whole: the most-quoted verse and chapter, the book that quotes most densely, and the well-known
+connections that fall under the threshold or outside the data.
 
+Some connections no word method reaches. Matthew 24:15's "abomination of desolation" shares three or
+four words with Daniel in forms that vary between Daniel's verses. Matthew 27:46 gives Jesus' cry in
+Hebrew and Aramaic written out in Greek letters, so there is no Greek to match. Jude 14-15 quotes 1
+Enoch, which is not among the texts compared. And no links are computed from one New Testament book
+to another.
 
 The links do not interpret. A link says two passages share wording or rare vocabulary. Whether the
 second fulfils the first, whether the connection is typological, and whether the author meant it are
