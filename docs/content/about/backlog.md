@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-21
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -877,7 +877,11 @@ Still to do:
   studies, the original languages (`hidden_distinctions` is new: the English words that hide two
   Hebrew or Greek words), the chronology and the prophetic outline, and the study skills are
   served as prompts. The data is the open tier plus the CC BY-NC Dead Sea Scrolls, served free
-  with attribution; never study-notes.db or TWOT. Still to do: list it in the connector
+  with attribution; never study-notes.db or TWOT. Since 2026-10-22 `search_studies` also searches
+  the full text of every section, from the site search's own index, and returns each study's best
+  sections; it still matches words, so a spelling variant (*hesed*, *chesed*) finds only the pages
+  that use that spelling, and the `questions:` lists remain the way a reader's own wording is
+  matched. Still to do: list it in the connector
   directories, and add a `lxx_occurrences` list (the Septuagint counts are in the lexicon, but not
   where each one is).
 - **Richer structured data.** Add to each page's JSON-LD its primary passage (`about`), its tags

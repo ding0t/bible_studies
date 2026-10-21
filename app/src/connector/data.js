@@ -32,6 +32,8 @@ export function createData(fetchText) {
     studiesIndex: () => json('assets/studies-index.json'),
     studiesByPassage: () => json('assets/popups/studies.json'),
     grammar: () => json('assets/lang/grammar.json'),
+    searchSections: () => json('assets/search/sections.json'),
+    searchTerms: (prefix) => json(`assets/search/terms/${prefix}.json`),
   };
 }
 

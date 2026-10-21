@@ -346,7 +346,8 @@ the workflow manually (`workflow_dispatch`).
   `app/dist/worker.js`, the site Worker's `main`, which `wrangler.jsonc` runs only for `/mcp`. It
   reads the site's own built files through the ASSETS binding: `assets/lang/` from
   `export_connector.py`, the pop-up data, `assets/studies-index.json` and `assets/gospel.json` from
-  the hook, and the chronology bundled from `app/src/utils/chronology.js`. So it is never staler
+  the hook, `assets/search/` (the site search's index re-cut by the hook into per-word files, so
+  `search_studies` reads the full text of every section a few words at a time), and the chronology bundled from `app/src/utils/chronology.js`. So it is never staler
   than the deploy, except the language data, which changes only when re-exported and published.
   `npm run test:connector` (CONNECTOR_SITE=<built site>) runs in CI after the mkdocs build. Serve
   open-tier data and the CC BY-NC scrolls only; study-notes.db and TWOT never leave this machine.

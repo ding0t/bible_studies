@@ -10,22 +10,72 @@ const STOP = new Set(
   )
 );
 
-function terms(text) {
-  return String(text ?? '')
-    .toLowerCase()
-    .replace(/[^a-z0-9' ]/g, ' ')
-    .split(/\s+/)
-    .filter((t) => t.length > 1 && !STOP.has(t));
+// Must split words exactly as `_words` in hooks/llms.py, which built the word index this searches.
+function words(text) {
+  return (
+    String(text ?? '')
+      .toLowerCase()
+      .normalize('NFKD')
+      .replace(/\p{M}/gu, '')
+      .replace(/['’]s\b/g, '')
+      .match(/[a-z0-9]+/g) ?? []
+  ).filter((t) => t.length > 1);
 }
 
-function stem(t) {
-  return t.replace(/(ing|ed|es|s)$/, '');
+// Enough to make save, saves, saved and saving one word; the index stores words as written and
+// is stemmed here, so the stemmer can change without rebuilding it.
+export function stem(word) {
+  return word
+    .replace(/ies$/, 'y')
+    .replace(/(ing|ed|es|s)$/, '')
+    .replace(/(.{3,})e$/, '$1');
+}
+
+const tokens = (text) => words(text).map(stem);
+const STOP_STEMS = new Set(tokens([...STOP].join(' ')));
+
+// The site search's index, by section (hooks/llms.py, assets/search/), scored by BM25: which
+// sections of which pages use the query's words, weighted by how rare each word is.
+async function fullText(data, wanted) {
+  const sections = await data.searchSections();
+  const byPage = new Map();
+  const missing = [];
+  if (!sections?.length) return { byPage, missing };
+  const average = sections.reduce((n, s) => n + s[3], 0) / sections.length;
+  const bySection = new Map();
+  for (const word of wanted) {
+    const shard = (await data.searchTerms(word.slice(0, 2))) ?? {};
+    const tf = new Map();
+    for (const [key, postings] of Object.entries(shard)) {
+      if (stem(key) !== word) continue;
+      for (const [i, n] of postings) tf.set(i, (tf.get(i) ?? 0) + n);
+    }
+    if (!tf.size) missing.push(word);
+    const idf = Math.log(1 + (sections.length - tf.size + 0.5) / (tf.size + 0.5));
+    for (const [i, n] of tf) {
+      const length = sections[i][3];
+      const score = (idf * n * 2.2) / (n + 1.2 * (0.25 + (0.75 * length) / average));
+      bySection.set(i, (bySection.get(i) ?? 0) + score);
+    }
+  }
+  for (const [i, score] of bySection) {
+    const [url, anchor, title] = sections[i];
+    if (!byPage.has(url)) byPage.set(url, []);
+    byPage.get(url).push({ title, anchor, score });
+  }
+  for (const list of byPage.values()) list.sort((a, b) => b.score - a.score);
+  return { byPage, missing };
 }
 
 export async function searchStudies(data, { query, limit = 6 }) {
   const index = (await data.studiesIndex()) ?? [];
-  const wanted = terms(query).map(stem);
+  const wanted = [...new Set(tokens(query).filter((t) => !STOP_STEMS.has(t)))];
   if (!wanted.length) throw new Error('Give a question or topic to search for.');
+  const exact = String(query)
+    .toLowerCase()
+    .trim()
+    .replace(/[?.!]+$/, '');
+  const { byPage, missing } = await fullText(data, wanted);
   const scored = index
     .map((s) => {
       const fields = [
@@ -37,31 +87,43 @@ export async function searchStudies(data, { query, limit = 6 }) {
       let score = 0;
       for (const w of wanted) {
         for (const [text, weight] of fields) {
-          if (terms(text).some((t) => stem(t) === w)) score += weight;
+          if (tokens(text).includes(w)) score += weight;
         }
       }
-      const q = String(query)
-        .toLowerCase()
-        .trim()
-        .replace(/[?.!]+$/, '');
-      if (s.questions.some((x) => x.toLowerCase().replace(/[?.!]+$/, '') === q)) score += 50;
-      return { s, score };
+      if (s.questions.some((x) => x.toLowerCase().replace(/[?.!]+$/, '') === exact)) score += 50;
+      // The questions, title and thesis say what a study is about; the full text says where else
+      // a word is discussed, so it ranks behind them and mostly picks the section.
+      const found = byPage.get(s.url) ?? [];
+      return { s, found, score: score * 3 + (found[0]?.score ?? 0) };
     })
     .filter((x) => x.score > 0)
     .sort((a, b) => b.score - a.score)
     .slice(0, Math.min(limit, 15));
   return {
     query,
-    results: scored.map(({ s }) => ({
+    results: scored.map(({ s, found }) => ({
       title: s.title,
       url: SITE + s.url,
       markdown: `${SITE}${s.url}index.md`,
       in_one_sentence: s.summary,
       passage: s.passage || undefined,
       answers: s.questions.length ? s.questions : undefined,
+      best_sections: found.length ? bestSections(s.url, found) : undefined,
     })),
-    next: 'Read a study with get_study. Quote its one-sentence thesis rather than summarising it afresh, and point the reader to the verses it rests on.',
+    words_not_on_the_site: missing.length
+      ? words(query).filter((w) => missing.includes(stem(w)))
+      : undefined,
+    next: 'Read a study with get_study, or just one of its best_sections by name. Quote its one-sentence thesis rather than summarising it afresh, and point the reader to the verses it rests on. A word in words_not_on_the_site appears nowhere on the site: say the site does not treat it rather than stretching a result to fit.',
   };
+}
+
+// A page's opening and its first heading share the page's title; show each title once.
+function bestSections(url, found) {
+  const seen = new Set();
+  return found
+    .filter((f) => !seen.has(f.title) && seen.add(f.title))
+    .slice(0, 3)
+    .map((f) => ({ section: f.title, url: `${SITE}${url}${f.anchor ? `#${f.anchor}` : ''}` }));
 }
 
 export async function studiesForPassage(data, { reference }) {

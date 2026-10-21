@@ -50,6 +50,18 @@ test("a question in a reader's words finds the study that answers it", async () 
   assert.equal(results[0].title, 'Assurance of Salvation');
 });
 
+test('a word only in the body of a study finds it, and the section', async () => {
+  const { results } = await call('search_studies', { query: 'Tartarus' });
+  assert.equal(results[0].title, 'At Home with the Lord');
+  assert.match(results[0].best_sections[0].section, /Tartarus/);
+  assert.match(results[0].best_sections[0].url, /#/);
+});
+
+test('a word the site never uses is reported, not stretched to fit', async () => {
+  const result = await call('search_studies', { query: 'what does the bible say about tattoos' });
+  assert.deepEqual(result.words_not_on_the_site, ['tattoos']);
+});
+
 test('beneath the English of John 21:15 is agapao', async () => {
   const { verses } = await call('beneath_the_english', { reference: 'john 21:15' });
   const love = verses[0].words.find((w) => /love/.test(w.english));

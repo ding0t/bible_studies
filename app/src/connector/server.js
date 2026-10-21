@@ -52,7 +52,7 @@ export const TOOLS = [
     name: 'search_studies',
     title: 'Search the studies',
     description:
-      'Find the studies that answer a question or treat a topic, e.g. "how can I be sure I am saved?", "the rapture", "forgiveness". Returns each study\'s one-sentence thesis, passage and the questions it answers.',
+      'Find the studies that answer a question or treat a topic, e.g. "how can I be sure I am saved?", "the rapture", "forgiveness". Searches each study\'s questions, title and thesis, then the full text of every section, so a word used only in the body (a name, a place, a transliterated Hebrew or Greek word) is found too. Returns each study\'s one-sentence thesis, passage, the questions it answers and its best-matching sections.',
     inputSchema: {
       type: 'object',
       properties: {

@@ -1,6 +1,6 @@
 """Make the site readable by an AI assistant a reader has pointed at it.
 
-Six outputs, all from the pages draft_pages.py kept, so a draft never reaches any of them:
+Seven outputs, all from the pages draft_pages.py kept, so a draft never reaches any of them:
 
 - **A markdown copy of every page** beside its HTML, at `<page url>index.md`
   (https://the-way.lewy.au/salvation/assurance-of-salvation/index.md). The HTML of a 3,400-word
@@ -19,6 +19,13 @@ Six outputs, all from the pages draft_pages.py kept, so a draft never reaches an
   the connector's first tool serves.
 - **assets/studies-index.json**, every page's title, URL, thesis, passage, questions and tags, for
   the public connector's study search (app/src/connector/).
+- **assets/search/**, the site search's own index (search/search_index.json, one entry per
+  section) turned into a word index the connector can read a few words at a time: sections.json
+  lists the sections, and terms/<first two letters>.json holds, for each word, the sections it
+  occurs in and how often. The browser builds its search index from the whole 5 MB file on every
+  load; a Worker answering one request cannot, so the index is built here. Words are stored as
+  written; the connector stems both sides, so only the word splitting in `_words` has to match
+  `words` in app/src/connector/studies.js.
 - **The FAQ's list of questions the studies answer**, replacing `<!-- study-questions -->`, so a
   question asked in a reader's own words ("how can I be sure I am saved?") appears on the site in
   those words and points at the study.
@@ -30,12 +37,17 @@ list, which the author writes; see docs/CONTENT_GUIDE.md.
 
 from __future__ import annotations
 
+import html
 import json
 import posixpath
 import re
 from pathlib import Path
 
+import unicodedata
+from collections import Counter, defaultdict
+
 import yaml
+from mkdocs.plugins import event_priority
 
 _FRONTMATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*(?:\n|\Z)", re.DOTALL)
 _THESIS = re.compile(r"^\*\*In one sentence:\*\*\s*(.+?)(?:\n\s*\n|\Z)", re.MULTILINE | re.DOTALL)
@@ -256,6 +268,53 @@ def _llms_txt(config) -> str:
     return "\n".join(out)
 
 
+def _words(text: str) -> list[str]:
+    """Lowercase, accents dropped (ḥesed -> hesed), possessive 's dropped. Greek and Hebrew letters
+    are dropped; transliterations are what get searched."""
+    text = unicodedata.normalize("NFKD", text.lower())
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    text = re.sub(r"['’]s\b", "", text)
+    return [t for t in re.findall(r"[a-z0-9]+", text) if len(t) > 1]
+
+
+# A heading's words count this many times over its text's, as the site search weights titles.
+_TITLE_WEIGHT = 5
+
+
+def _search_index(site_dir: Path) -> None:
+    source = site_dir / "search" / "search_index.json"
+    if not source.exists():
+        return
+    pages = {p["url"] for p in _pages if not p["src"].startswith(_COMMENTARY) and p["url"] != "tags/"}
+    sections = []
+    postings: dict[str, list] = defaultdict(list)
+    for doc in json.loads(source.read_text(encoding="utf-8"))["docs"]:
+        url, _, anchor = doc["location"].partition("#")
+        if url not in pages:
+            continue
+        title = html.unescape(re.sub(r"<[^>]+>", "", doc["title"]))
+        counts = Counter(_words(html.unescape(re.sub(r"<[^>]+>", " ", doc["text"]))))
+        for t in _words(title):
+            counts[t] += _TITLE_WEIGHT
+        if not counts:
+            continue
+        for t, n in counts.items():
+            postings[t].append([len(sections), n])
+        sections.append([url, anchor, title, sum(counts.values())])
+    out = site_dir / "assets" / "search"
+    (out / "terms").mkdir(parents=True, exist_ok=True)
+    (out / "sections.json").write_text(json.dumps(sections, ensure_ascii=False, separators=(",", ":")),
+                                       encoding="utf-8")
+    shards: dict[str, dict] = defaultdict(dict)
+    for t, p in postings.items():
+        shards[t[:2]][t] = p
+    for key, terms in shards.items():
+        (out / "terms" / f"{key}.json").write_text(json.dumps(terms, separators=(",", ":")),
+                                                   encoding="utf-8")
+
+
+# Last, so the search plugin has already written search/search_index.json.
+@event_priority(-100)
 def on_post_build(config):
     site_dir = Path(config["site_dir"])
     site = config["site_url"]
@@ -281,3 +340,4 @@ def on_post_build(config):
              for p in _pages if not p["src"].startswith(_COMMENTARY)]
     (site_dir / "assets" / "studies-index.json").write_text(
         json.dumps(index, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    _search_index(site_dir)
