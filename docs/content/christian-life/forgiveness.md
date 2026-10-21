@@ -3,11 +3,12 @@ title: "Forgive Us Our Debts"
 category: "spiritual-disciplines"
 description: "God forgives by cancelling a debt you could never pay, and the forgiveness is received by everyone who repents. A study of Matthew 6:14-15: what biblical forgiveness is, how it differs from love and from trust, what to do when the one who wronged you keeps on, and how to forgive without false guilt."
 tags: ["matthew", "luke", "ephesians", "1-peter", "forgiveness", "repentance", "reconciliation", "method/word-study", "lang/greek", "lang/hebrew"]
+questions: ["Do I have to forgive someone who isn't sorry?", "Does forgiving someone mean I have to trust them again?"]
 draft: false
 primary_passage: "Matthew 6:14-15"
 bible_references: ["Matthew 6:12", "Mark 11:25", "Luke 17:3-4", "Matthew 18:15-17", "Matthew 18:21-35", "Matthew 5:23-24", "Matthew 5:44-45", "Matthew 4:20", "Luke 7:41-47", "Luke 23:34", "Luke 24:47", "Luke 13:3", "Acts 2:36-38", "Acts 3:17-19", "Acts 7:60", "Acts 16:37", "Ephesians 4:26", "Ephesians 4:31-32", "Colossians 2:13-14", "Colossians 3:13", "Romans 5:8-10", "Romans 12:17-21", "Romans 13:4", "2 Corinthians 2:6-11", "2 Corinthians 5:18-21", "1 John 1:8-10", "1 Peter 2:23", "1 Peter 4:3-5", "2 Timothy 4:14-16", "Exodus 34:6-7", "Deuteronomy 29:19-20", "Deuteronomy 15:1-2", "Psalm 130:3-4", "Jeremiah 31:34", "Genesis 42:21", "Genesis 50:17-21", "Matthew 10:16"]
 date_created: 2026-10-04
-date_modified: 2026-10-10
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

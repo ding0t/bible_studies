@@ -852,6 +852,36 @@ Left over from moving the site's chronology to the Masoretic numbers on 2026-09-
 - **The Flood study skipped two passes.** It was published straight after its develop pass. Run
   read-bible-study (in a fresh session) and review-bible-study on it.
 
+### 8.3 AI-assistant friendliness
+
+A reader can point an AI assistant at the site and ask "how can I be sure I am saved?", "what
+scripture is related to this?" or "what is this site about?". Done on 2026-10-21:
+
+- Cloudflare had been blocking ClaudeBot and GPTBot while robots.txt allowed everything. The author
+  turned on AI crawlers; all of them now get through.
+- `hooks/llms.py` writes `llms.txt` (every study by section with its one-sentence thesis, primary
+  passage and questions) and a markdown copy of every page at its URL plus `index.md`.
+- A [For AI Assistants](for-ai-assistants.md) page says how to represent and quote the site.
+- A `questions:` frontmatter field, listed in llms.txt and in the FAQ's "What questions do the
+  studies answer?". The first 24 studies have one.
+
+Still to do:
+
+- **Questions for the rest.** Write `questions:` for the remaining studies, starting with the ones
+  readers search for. The author should check the first 24, which were drafted by AI.
+- **One small file per Bible chapter.** The studies that treat it, its cross-references and the
+  quotations in and out, as JSON. The commentary chapter pages hold this as HTML, kept out of
+  search engines.
+- **A public connector.** A read-only MCP server on Cloudflare Workers, serving only the open-tier
+  JSON already published (never study-notes.db): `search_studies`, `studies_for_passage`,
+  `get_study`, `verse`, `crossrefs`, `word`. A user could then add the site to Claude or ChatGPT as a
+  connector.
+- **Richer structured data.** Add to each page's JSON-LD its primary passage (`about`), its tags
+  (`keywords`), its section (`isPartOf`) and its one-sentence thesis (`abstract`).
+- **Key verses by topic.** The Memory verses sections as JSON, grouped by tag.
+- **Check how Cloudflare serves `.md`.** If it isn't served as `text/markdown`, add a `_headers`
+  rule.
+
 ## 9. Sin
 
 ### 9.1 Calling good evil and evil good

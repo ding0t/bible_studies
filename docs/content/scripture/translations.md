@@ -3,9 +3,10 @@ title: "Bible Translations & Source Texts"
 category: "bible"
 description: "The English translations, Hebrew Masoretic witnesses, and Greek New Testament/Septuagint texts this project relies on — strengths, cautions, publication history, and which ones are actually queryable in this repo's own database versus cited from general knowledge."
 tags: ["translations", "versions", "lang/hebrew", "lang/greek", "septuagint", "masoretic", "method/textual-criticism"]
+questions: ["Which Bible translation should I use?", "Why not use the KJV for study?"]
 draft: false
 date_created: 2025-06-07
-date_modified: 2026-10-19
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5

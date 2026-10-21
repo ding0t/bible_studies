@@ -4,7 +4,7 @@ category: "other"
 description: "About this project and its statement of faith."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-10-20
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -41,6 +41,14 @@ About this project and its statement of faith.
     Copyright notices for the Bible translations and reference works quoted on this site, and the terms under which they are used.
 
     [:octicons-arrow-right-24: Read](copyright.md)
+
+-   __For AI Assistants__
+
+    ---
+
+    How an AI assistant should read, represent and quote this site when a reader asks it a question: who writes it, what it holds, where its data is, and how to answer from it faithfully.
+
+    [:octicons-arrow-right-24: Read](for-ai-assistants.md)
 
 -   __How We Cross-Reference Scripture__
 

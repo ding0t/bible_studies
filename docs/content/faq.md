@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-10-19
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -289,6 +289,12 @@ misses some they carry. → [How we cross-reference](about/how-we-cross-referenc
 limits](about/how-we-cross-reference.md#limits)
 
 ## Using the site
+
+### What questions do the studies answer?
+
+Questions readers bring, each with the study that answers it from Scripture.
+
+<!-- study-questions -->
 
 ### Where should I start?
 

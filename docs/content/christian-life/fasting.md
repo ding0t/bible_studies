@@ -3,11 +3,12 @@ title: "Fasting"
 category: "spiritual-disciplines"
 description: "Fasting in Scripture is humbling yourself before God: going without food to seek Him in repentance, grief, need and decision, while the Bridegroom is away. What the Bible shows fasting doing, what it never promises, and the verses most often misused about it."
 tags: ["fasting", "prayer", "humility", "repentance", "matthew", "isaiah", "mark", "acts", "method/word-study", "method/textual-criticism", "lang/hebrew", "lang/greek"]
+questions: ["Should Christians fast?", "What does the Bible say fasting does?"]
 draft: false
 primary_passage: "Matthew 6:16-18"
 bible_references: ["Leviticus 16:29-31", "Isaiah 58:1-12", "Psalm 35:13", "Ezra 8:21-23", "1 Kings 21:27-29", "Daniel 9:3", "Daniel 10:2-14", "Joel 2:12-13", "Jonah 3:5-10", "1 Samuel 7:6", "2 Samuel 12:16-23", "2 Chronicles 20:3-4", "Esther 4:16", "Nehemiah 1:4", "Nehemiah 9:1-2", "Judges 20:26-28", "Zechariah 7:5", "Zechariah 8:19", "Exodus 34:28", "Deuteronomy 8:2-3", "Deuteronomy 9:18", "Matthew 4:1-4", "Luke 4:1-2", "Matthew 9:14-15", "Mark 2:18-20", "Luke 5:33-35", "Luke 2:37", "Luke 18:9-14", "Acts 13:1-3", "Acts 14:23", "Acts 27:9", "Mark 9:14-29", "Matthew 17:14-21", "1 Corinthians 7:5", "Acts 10:30", "2 Corinthians 10:3-5", "James 4:7-10", "1 Peter 5:8-9", "Ephesians 6:10-18", "Hebrews 9:11-12", "Revelation 19:7-9"]
 date_created: 2026-01-24
-date_modified: 2026-10-11
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5

@@ -3,11 +3,12 @@ title: "Saved as Through Fire"
 category: "theology"
 description: "Paul says a believer who builds with the world's wisdom is saved, but only as one escaping through the flames (1 Corinthians 3:15). Jude sends the church to snatch the drifting out of the fire (Jude 22-23). A study of both, and of the God who plucked Joshua from the fire and clothed him clean."
 tags: ["1-corinthians", "jude", "zechariah", "amos", "judgment-seat", "restoration", "sanctification", "worldliness", "person/joshua-the-high-priest", "method/word-study", "lang/greek", "lang/hebrew"]
+questions: ["What does 'saved as through fire' mean in 1 Corinthians 3:15?", "How do I help a Christian who is drifting from the faith?"]
 draft: false
 primary_passage: "1 Corinthians 3:10-15; Jude 1:22-23"
 bible_references: ["1 Corinthians 1:10-12", "1 Corinthians 1:20", "1 Corinthians 2:14-16", "1 Corinthians 3:1-4", "1 Corinthians 3:5-9", "1 Corinthians 3:16-23", "1 Corinthians 4:5", "1 Corinthians 5:5", "1 Corinthians 5:11", "1 Corinthians 6:9-11", "2 Corinthians 5:10", "Jude 1:3-4", "Jude 1:7", "Jude 1:9", "Jude 1:19-21", "Jude 1:24-25", "Zechariah 3:1-9", "Amos 4:11", "Galatians 6:1", "James 5:19-20", "John 10:28-29"]
 date_created: 2026-10-14
-date_modified: 2026-10-15
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

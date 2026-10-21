@@ -3,11 +3,12 @@ title: "Hurt by the Church: Wolves, Weeds and the Good Shepherd"
 category: "spiritual-disciplines"
 description: "People in church get hurt by the people they trusted. Scripture names four kinds of hurt: brothers who fail you, shepherds who harm, wolves who prey, and the weeds of the world. It answers each one differently, and it points every one of them to the Good Shepherd who stays."
 tags: ["ezekiel", "john", "acts", "psalms", "2-timothy", "3-john", "matthew", "church", "church-discipline", "reconciliation", "method/word-study", "lang/greek", "lang/hebrew"]
+questions: ["I've been hurt by my church. What does the Bible say?", "What should I do about a pastor who abuses his position?"]
 draft: false
 primary_passage: "Ezekiel 34:1-16; John 10:11-13; Acts 20:28-31"
 bible_references: ["Psalm 55:12-14", "Psalm 55:20-22", "Psalm 41:9", "John 13:18", "John 1:11", "John 6:66-68", "Mark 14:50", "John 9:34-35", "John 10:1-11", "Isaiah 42:3", "Leviticus 25:46", "Leviticus 25:53", "Acts 15:37-39", "Philippians 4:2-3", "2 Timothy 4:10-17", "John 21:15-17", "Colossians 3:13", "Ephesians 4:31-32", "Matthew 18:15", "Matthew 18:21-22", "Luke 17:3-4", "1 Corinthians 6:7", "Galatians 6:1-2", "3 John 9-11", "1 Peter 5:2-4", "Matthew 20:25-28", "Exodus 1:13-14", "Leviticus 25:43", "Romans 13:3-4", "Matthew 7:15-16", "Matthew 10:16", "1 John 4:1-3", "Galatians 1:6-9", "2 Peter 2:1-3", "2 Timothy 4:3-4", "Titus 1:10-11", "Jude 3-4", "Jude 12", "Romans 16:17-18", "2 Timothy 3:5", "Matthew 13:24-30", "Matthew 13:36-43", "1 Corinthians 5:11-13", "Hebrews 10:25", "Hebrews 12:14-15", "Psalm 34:18", "Matthew 12:20", "Hebrews 4:15"]
 date_created: 2026-10-02
-date_modified: 2026-10-10
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

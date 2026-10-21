@@ -97,6 +97,19 @@ primary_passage: "Mark 5:25-34"
 primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
 ```
 
+### questions
+
+- The questions this study answers, written the way a reader would ask them ("How can I be sure I
+  am saved?"), not as headings
+- `hooks/llms.py` lists them beside the study in `llms.txt` (the site map for AI assistants) and in
+  the FAQ's "What questions do the studies answer?", so a question asked in a reader's own words leads to
+  the study that answers it
+- Only questions the study actually answers from its text; two or three is typical
+
+```yaml
+questions: ["How can I be sure I am saved?", "Can I lose my salvation?"]
+```
+
 ### year, zadok_year, gregorian_year
 
 - Numeric fields for timeline integration

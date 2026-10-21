@@ -34,6 +34,13 @@
   <meta name="twitter:image" content="{{ og_image }}">
   {%- endif %}
 
+  {#- The page's markdown source, with absolute links, for an AI assistant reading the page; and the
+      site map written for them. Both are written by hooks/llms.py. -#}
+  {%- if page %}
+  <link rel="alternate" type="text/markdown" href="{{ page.canonical_url }}index.md">
+  {%- endif %}
+  <link rel="help" type="text/plain" href="{{ config.site_url }}llms.txt">
+
   {#- New studies as a feed, written by utils/generate_recent_updates.py from the same
       first-published dates as "New this month". -#}
   <link rel="alternate" type="application/rss+xml" title="{{ config.site_name }}: new studies" href="{{ config.site_url }}feed.xml">

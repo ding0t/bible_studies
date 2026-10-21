@@ -3,11 +3,12 @@ title: "How God Answers Prayer"
 category: "prayer"
 description: "Heard at once, answered by varied routes and on God's own timetable, sometimes missed while it happens, and kept: what Scripture shows about the answers to prayer."
 tags: ["genesis", "daniel", "john", "acts", "revelation", "psalms", "discipleship"]
+questions: ["Why hasn't God answered my prayer?", "How does God answer prayer?"]
 draft: false
 primary_passage: "Daniel 10:12-13"
 bible_references: ["John 11:41-42", "Isaiah 65:17-24", "Genesis 24:15", "Genesis 24:45", "Daniel 9:20-23", "Daniel 10:2-3", "Daniel 10:12-13", "Daniel 10:20-21", "2 Corinthians 12:8-9", "Acts 16:6-10", "Matthew 26:39", "Hebrews 5:7", "John 12:28-30", "Psalm 29:3", "Job 37:4", "2 Samuel 22:14", "Acts 12:5", "Acts 12:13-16", "Psalm 141:2", "Revelation 5:8", "Revelation 8:3-5", "Revelation 6:9-11"]
 date_created: 2026-09-26
-date_modified: 2026-10-11
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

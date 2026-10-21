@@ -68,6 +68,9 @@ hooks:
   - hooks/subject_wheel.py
   # A strip of the drawn plates each section's studies embed, on its landing page.
   - hooks/section_plates.py
+  # llms.txt, a markdown copy of every page, and the FAQ's list of questions the studies answer,
+  # for AI assistants a reader points at the site. See hooks/llms.py.
+  - hooks/llms.py
 
 # The tooltip on the icon hooks/new_pages.py puts beside a new page in the navigation.
 extra:

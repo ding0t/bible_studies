@@ -3,11 +3,12 @@ title: "The Lord's Supper: Do This in Remembrance of Me"
 category: "feasts"
 description: "The memorial meal Jesus gave His church, as the Passover was Israel's: what it remembers, what it teaches, how it makes many one body, what went wrong at Corinth, how to come to it, and the cup Jesus will drink new with His people at the marriage supper of the Lamb."
 tags: ["communion", "last-supper", "passover", "1-corinthians", "luke", "method/typology", "method/word-study", "lang/greek", "lang/hebrew"]
+questions: ["What is communion for, and how should I take it?"]
 draft: false
 primary_passage: "1 Corinthians 11:17-34"
 bible_references: ["1 Corinthians 11:17-34", "1 Corinthians 10:1-4", "1 Corinthians 10:14-22", "1 Corinthians 5:7-8", "1 Corinthians 12:27", "Luke 22:14-20", "Luke 22:28-30", "Matthew 26:26-29", "Luke 24:30-35", "Acts 2:42-46", "Acts 20:7", "Exodus 12:11", "Exodus 12:14", "Exodus 12:26-27", "Exodus 13:8-9", "Deuteronomy 8:11", "Deuteronomy 16:3", "Joshua 4:6-7", "Hebrews 10:3", "Hebrews 12:2", "Colossians 3:1-2", "2 Peter 1:12-13", "John 10:9", "Isaiah 25:6-8", "Revelation 19:7-9", "Revelation 1:10"]
 date_created: 2026-10-02
-date_modified: 2026-10-02
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

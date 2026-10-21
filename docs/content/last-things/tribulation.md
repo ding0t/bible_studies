@@ -3,11 +3,12 @@ title: "The Tribulation: Daniel's Seventieth Week, Year by Year"
 category: "prophecy"
 description: "The seven years of Daniel 9:27 drawn out in four charts: what the week is for, the seals, trumpets and bowls in order, what happens at the midpoint, and where the church, Israel and the tribulation saints are while it runs."
 tags: ["revelation", "daniel", "jeremiah", "zechariah", "matthew", "2-thessalonians", "dispensationalism", "chart", "larkin", "tribulation", "temple", "lang/greek", "lang/hebrew"]
+questions: ["What happens during the seven-year tribulation?", "What are the seals, trumpets and bowls in Revelation?"]
 draft: false
 primary_passage: "Daniel 9:24-27; Revelation 6:1-19:21"
 bible_references: ["Daniel 9:24-27", "Daniel 7:25", "Daniel 11:31", "Daniel 12:1-12", "Genesis 37:9", "Jeremiah 30:7", "Zechariah 12:10", "Zechariah 13:8-9", "Zechariah 14:4", "Habakkuk 3:2", "Joel 2:11", "Matthew 24:8", "Matthew 24:15-22", "Matthew 24:29-30", "Romans 11:25-26", "1 Thessalonians 1:10", "1 Thessalonians 4:16-17", "1 Thessalonians 5:9", "2 Thessalonians 2:3-8", "2 Peter 3:9", "2 Corinthians 5:10", "Revelation 1:3", "Revelation 1:7", "Revelation 1:19", "Revelation 2:21", "Revelation 3:10", "Revelation 4:1", "Revelation 5:5-9", "Revelation 6:1-17", "Revelation 7:1-17", "Revelation 8:1-12", "Revelation 9:15-21", "Revelation 11:1-15", "Revelation 12:6-14", "Revelation 13:5-8", "Revelation 14:1-7", "Revelation 15:1-4", "Revelation 12:1-17", "Revelation 16:1-21", "Revelation 19:7-16", "Revelation 20:4", "Revelation 22:16-20"]
 date_created: 2026-10-03
-date_modified: 2026-10-19
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
