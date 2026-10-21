@@ -28,6 +28,12 @@ references/build/BibleOrgSysData/
 
 # Built by `npm run build:tools` in app/ before the mkdocs build; never committed.
 docs/content/assets/js/
+app/dist/
+
+# The connector's original-language data: 130 MB written by references/build/export_connector.py
+# and published as a GitHub release asset, which the deploy workflow downloads. Too large to
+# commit on every regeneration.
+docs/content/assets/lang/
 
 # Wrangler's local cache/account state from `wrangler deploy`
 .wrangler/

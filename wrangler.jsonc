@@ -1,8 +1,14 @@
 {
   "name": "the-way",
   "compatibility_date": "2026-09-05",
+  // The Worker runs only for /mcp, the public connector (app/src/entries/worker.js, bundled by
+  // `npm run build:tools`); every other request is served from the static assets directly,
+  // without invoking it.
+  "main": "app/dist/worker.js",
   "assets": {
     "directory": "./site",
+    "binding": "ASSETS",
+    "run_worker_first": ["/mcp", "/mcp/"],
     "not_found_handling": "404-page",
     "html_handling": "auto-trailing-slash"
   }

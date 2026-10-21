@@ -10,6 +10,8 @@ on:
       # hooks/draft_pages.py decides which pages reach the build at all, so a change to it
       # changes the published site even when no content file moves.
       - 'hooks/**'
+      # hooks/llms.py publishes the study skills at /skills/, and the connector serves them.
+      - '.claude/skills/**'
       - 'wrangler.jsonc'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
@@ -63,8 +65,23 @@ jobs:
         run: npm run build:tools
         working-directory: app
 
+      # The public connector's original-language data (references/build/export_connector.py),
+      # 130 MB of JSON: kept out of git and published as a release asset, because CI cannot
+      # rebuild bible-text.db. mkdocs copies it into the site like any other asset.
+      - name: Download original-language data
+        run: |
+          gh release download lang-data --pattern lang.tgz --dir "$RUNNER_TEMP"
+          tar xzf "$RUNNER_TEMP/lang.tgz" -C docs/content/assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+
       - name: Build mkdocs content site
         run: uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects mkdocs build --site-dir site
+
+      # The connector (/mcp) against the site just built: the files the Worker will read.
+      - name: Test connector
+        run: CONNECTOR_SITE=../site npm run test:connector
+        working-directory: app
 
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@v3
@@ -73,5 +90,5 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           # No `wrangler` devDependency anywhere in the repo for the action to detect a version
           # from, so it silently falls back to an old pinned default (3.90.0) that doesn't
-          # understand an assets-only wrangler.jsonc (no `main`) -- pin explicitly instead.
+          # understand wrangler.jsonc's assets block -- pin explicitly instead.
           wranglerVersion: '4'

@@ -237,6 +237,8 @@ uv run python commentary_index.py  # regenerate auto cross-ref pages — run aft
 uv run python section_index.py     # regenerate category landing pages — run after adding a study or new content section
 uv run python build_study_notes.py # commercial study-Bible db, writes outside this repo — see references/README.md
 uv run python export_popups.py     # verse + word pop-up data -> docs/content/assets/popups/ (committed; re-run when bible-text.db changes)
+uv run python export_connector.py --publish  # the connector's Hebrew/Greek data -> docs/content/assets/lang/ (130 MB,
+                                             # gitignored) and the `lang-data` release the deploy downloads
 uv run python export_memory_verses.py  # docs/data/memory-verses.toml -> .json for the printable cards (hooks/memory_verses.py);
                                        # re-run after adding a verse -- needs study-notes.db for the ESV
 ```
@@ -336,6 +338,19 @@ the workflow manually (`workflow_dispatch`).
   This replaced a two-project split (mkdocs + Astro, stitched at deploy time) that let the halves
   disagree about the site root and silently 404 every tool asset in 2026-08. Keep it that way: a
   second build system is how that class of bug comes back.
+- **The site is readable by AI assistants, and the gospel comes first.** `hooks/llms.py` writes
+  `llms.txt` (opening with the home page's gospel section), a markdown copy of every page at its URL
+  plus `index.md`, the FAQ's question list from each study's `questions:` frontmatter, and the study
+  skills at `/skills/`. The **public connector** is an MCP server at `/mcp` (Streamable HTTP,
+  stateless, read-only): `app/src/connector/`, bundled by `npm run build:worker` into
+  `app/dist/worker.js`, the site Worker's `main`, which `wrangler.jsonc` runs only for `/mcp`. It
+  reads the site's own built files through the ASSETS binding: `assets/lang/` from
+  `export_connector.py`, the pop-up data, `assets/studies-index.json` and `assets/gospel.json` from
+  the hook, and the chronology bundled from `app/src/utils/chronology.js`. So it is never staler
+  than the deploy, except the language data, which changes only when re-exported and published.
+  `npm run test:connector` (CONNECTOR_SITE=<built site>) runs in CI after the mkdocs build. Serve
+  open-tier data and the CC BY-NC scrolls only; study-notes.db and TWOT never leave this machine.
+  [For AI Assistants](docs/content/about/for-ai-assistants.md) is the human-readable side.
 - **Every Bible reference and Strong's tag on a page pops up.** `app/src/entries/popups.js`, loaded
   site-wide through `extra_javascript`, scans the rendered page (not the markdown) with
   `app/src/utils/scriptureRefs.js` and opens a card: the verse (WEB), its context, OpenBible
