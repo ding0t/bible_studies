@@ -114,8 +114,22 @@ stages:
     done: true
     file: "docs/content/christian-life/those-who-sigh-and-groan.md"
   review:
-    done: false # self-check only; run review-bible-study, then read-bible-study in a fresh session
+    done: true # review-bible-study 2026-10-21 (see review_2026-10-21); fixes applied the same day
     validated: true # npm run validate 2026-10-21: no errors; only provenance warnings (filled at commit)
+  readability:
+    done: true # read-bible-study 2026-10-21 (agent pass, fresh session); no sentence changed
+    notes: >-
+      Before: 35 sections, median 155 words, 2 over 400 (The Lord knows those who are His 423, The
+      pattern returns 419), longest 423, 0 walls. After: 37 sections, median 159, 0 over 400, longest
+      378 (The heart God promised), 0 walls. Changes: (1) '### The remnant God kept for Himself' added
+      inside 'The mark now', splitting the shaʾar / 1 Kings 19:18 / Romans 11:4-6 / Isaiah 4:3 /
+      Malachi 3:16-18 remnant thread off the 2 Timothy 2:19 / Numbers 16:5 section; (2) '### The
+      breath, the covenant and the name' added, splitting Revelation 11:11 / 21:3 / 22:4 off the
+      Revelation 7 / 9 / 14 forehead-seal section. study_structure.py --verify-against HEAD: clean,
+      no sentence changed. validate: no warnings for this file. Study outline left as is (a reworded
+      bullet's continuation line registers as prose in the identity check). Left for the author:
+      'The Lord knows those who are His' opens on a block quote with no topic sentence before it
+      (rule 7); discussion question 5 uses the label 'Gift and command.' outside the five facets.
 
 evidence:
   - {id: esv-ezek9-4, what: "ESV Ezekiel 9:4 wording quoted in the opening and memory verse", tool: study_verse, args: {book: Ezek, chapter: 9, verse: 4, work_id: esv-study-bible}, expect_contains: "put a mark on the foreheads of the men who sigh and groan over all the abominations", checked: 2026-10-21}

@@ -472,6 +472,8 @@ groaning of God's people is His work in them.
 
 ### The Lord knows those who are His
 
+God's knowing of His own is written into the foundation itself:
+
 > ✝️ 2 Timothy 2:19 (ESV)
 >
 > 19 But God's firm foundation stands, bearing this seal: "The Lord knows those who are his," and,
@@ -489,6 +491,8 @@ of Isaiah 52:11: "Depart, depart, go out from there; touch no unclean thing" (ES
 
 So the seal reads in Ezekiel 9's order. God knows His own first. Then His own can be seen, leaving
 what He hates.
+
+### The remnant God kept for Himself
 
 The word "remnant" carries the same truth. It is built on <span dir="rtl">שָׁאַר</span> (*shaʾar*,
 H7604), "to leave". Ezekiel used it of himself in Ezekiel 9:8, "I was left", and then asked whether
@@ -528,6 +532,8 @@ Interpreters differ on whether the 144,000 are ethnic Israel or the whole church
 Church](../israel-and-church/israel-and-the-church.md#two-companies-in-revelation-7) calls its own
 treatment of Revelation 7 the weakest part of its case, because the chapter is apocalyptic imagery. The pattern holds on either
 reading: God marks His own before His wrath falls, and the destroyer touches none of them.
+
+### The breath, the covenant and the name
 
 Revelation draws on Ezekiel's promises of the Spirit as well as its mark. When God raises [His two
 witnesses](../last-things/two-witnesses.md), "a breath of life from God entered them, and they stood
@@ -575,7 +581,7 @@ reading; the teaching of Ezekiel 9 rests on the mark of ownership the text itsel
 4. **The hard part.** The psalmist says "Do I not loathe those who rise up against you?" (Psalm
    139:21), and God says "I have no pleasure in the death of the wicked" (Ezekiel 33:11). How do you
    hold those two sentences together?
-5. **Gift and command.** God says "make yourselves a new heart" (Ezekiel 18:31) and also "I will give
+5. **The text in its context.** God says "make yourselves a new heart" (Ezekiel 18:31) and also "I will give
    you a new heart" (Ezekiel 36:26). What does each sentence ask of the person who hears it?
 6. **The hard part.** "The LORD looks on the heart" (1 Samuel 16:7) and "The Lord knows those who are
    his" (2 Timothy 2:19). What comfort, and what warning, do those two sentences hold for someone
