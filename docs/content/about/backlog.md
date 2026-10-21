@@ -872,15 +872,51 @@ Still to do:
 - **One small file per Bible chapter.** The studies that treat it, its cross-references and the
   quotations in and out, as JSON. The commentary chapter pages hold this as HTML, kept out of
   search engines.
-- **A public connector.** A read-only MCP server on Cloudflare Workers, serving only the open-tier
-  JSON already published (never study-notes.db): `search_studies`, `studies_for_passage`,
-  `get_study`, `verse`, `crossrefs`, `word`. A user could then add the site to Claude or ChatGPT as a
-  connector.
+- **A public connector, with the original languages.** A read-only MCP server on Cloudflare
+  Workers that a user adds to Claude or ChatGPT. Most AI answers about Hebrew and Greek are recalled
+  rather than looked up; this site's research tools look them up. The author asked (2026-10-21) for
+  that original-language work to be the connector's value-add. The design:
+  - **Data.** Ship it as a Cloudflare D1 (SQLite) copy of the open-tier tables of `bible-text.db`,
+    exported and uploaded from the local machine, since CI cannot build the database. That covers
+    the Hebrew and Greek texts, MACULA, the unfoldingWord ULT, the UHB and UGNT notes, the
+    Septuagint, WEB/ASV/BSB, the scripture links and OpenBible.
+    - Never study-notes.db or TWOT.
+    - The Dead Sea Scrolls, BHSA and Mounce are CC BY-NC (`restricted-data/`). Serving them on a
+      non-commercial site is a licence decision for the author.
+    - Every result carries its source and licence tier, as the local tools' results do.
+  - **Study tools:** `search_studies`, `studies_for_passage`, `get_study` (markdown, or one section
+    such as Key Takeaways), `questions`.
+  - **Original-language tools,** each a call the local MCP server already makes, so the connector
+    reuses that code's queries:
+    - `beneath_the_english(ref)`: under each English word, the Hebrew or Greek it renders (ULT
+      alignment), with lemma, Strong's number, transliteration, gloss and morphology.
+    - `word_study(strongs)`: meaning, count in the Old Testament (Hebrew), the Septuagint and the
+      New Testament, every occurrence for a rare word, the commonest renderings, the semantic domain
+      (Louw-Nida/SDBH), and the studies on this site that discuss it.
+    - `hidden_distinctions(passage)`, the new one: where a passage uses two different original
+      words that English renders the same (*agapaō*/*phileō* in John 21:15-17, *kophinos*/*spyris*
+      in the feedings), or one word that English renders several ways. It is computed from the
+      alignment and answers "what does my translation not show me here?". This is the move this
+      site's strongest studies are built on, and no other connector offers it.
+    - `quotation_trace(ref)`: what a verse quotes and what quotes it, with the shared words in the
+      original. It also says whether a New Testament quotation follows the Septuagint or the Hebrew
+      (Hebrews 10:5's "a body" against Psalm 40:6's "ears").
+    - `who_is_acting(ref)`: MACULA's clause roles and coreference, which resolve an implicit subject
+      or an ambiguous "he".
+    - `textual_notes(ref)`: the Ketiv/Qere readings and the ULT/UGNT translator notes, and Dead Sea
+      Scroll divergence if the NC decision allows. It carries `extant_words`, so a fragment is
+      never cited as a whole verse.
+    - `grammar(term)`: the unfoldingWord Hebrew Grammar articles, for "what does the construct
+      state do?".
+  - **The guardrails go with the data.** Each tool's description repeats the local server's warnings:
+    - Silence means the method found nothing; it does not show there is nothing.
+    - Verse numbering differs between traditions (Joel 2:28 in English is Joel 3:1 in Hebrew), and
+      results report both.
+    - A Strong's gloss is a starting point. Usage in context decides meaning.
+    - The connector's instructions point to For AI Assistants.
 - **Richer structured data.** Add to each page's JSON-LD its primary passage (`about`), its tags
   (`keywords`), its section (`isPartOf`) and its one-sentence thesis (`abstract`).
 - **Key verses by topic.** The Memory verses sections as JSON, grouped by tag.
-- **Check how Cloudflare serves `.md`.** If it isn't served as `text/markdown`, add a `_headers`
-  rule.
 
 ## 9. Sin
 
