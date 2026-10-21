@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 30:20
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 30:6
 <!-- commentary-index:auto-end -->

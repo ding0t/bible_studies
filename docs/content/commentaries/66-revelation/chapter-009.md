@@ -16,4 +16,5 @@ draft: false
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 9:13
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 9:15-21
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 9:1-2
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 9:4
 <!-- commentary-index:auto-end -->

@@ -22,4 +22,5 @@ draft: false
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 7:37-39
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 7:37-38
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 7:37-39
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 7:38-39
 <!-- commentary-index:auto-end -->

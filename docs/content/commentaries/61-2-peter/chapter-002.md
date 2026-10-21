@@ -24,4 +24,5 @@ draft: false
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 2:6-9
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 2:4-5
 - [The Way](../../jesus/the-way.md) — 2:2
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 2:7-9
 <!-- commentary-index:auto-end -->

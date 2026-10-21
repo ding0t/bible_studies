@@ -33,5 +33,6 @@ draft: false
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 21:12-14
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 21:22
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 21:27
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 21:3
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 21:19-20
 <!-- commentary-index:auto-end -->

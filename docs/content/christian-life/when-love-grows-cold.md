@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:9-13; 1 Kings 19:9-18; Romans 11:1-6"
 bible_references: ["Matthew 24:9-13", "Matthew 24:25", "Matthew 22:37-39", "Matthew 7:23", "Matthew 23:28", "1 Kings 18:4", "1 Kings 18:13", "1 Kings 19:10", "1 Kings 19:14", "1 Kings 19:18", "Romans 9:27-29", "Romans 11:1-6", "Isaiah 1:9", "Isaiah 6:13", "Isaiah 7:3", "Isaiah 10:20-22", "Malachi 3:16-18", "Matthew 26:31-35", "Matthew 28:7-10", "Matthew 28:16-17", "Luke 22:31-32", "John 21:15-17", "Matthew 12:20", "Isaiah 42:3", "Isaiah 61:3", "Acts 13:13", "Acts 15:37-39", "Colossians 4:10", "Colossians 4:14", "Philemon 24", "2 Timothy 4:10-11", "1 John 2:19", "2 Timothy 2:13", "2 Timothy 2:19", "2 Timothy 2:24-26", "Jude 20-24", "Jude 9", "Zechariah 3:1-5", "Hebrews 3:12-14", "Hebrews 10:23-25", "Galatians 6:1", "James 5:19-20", "Matthew 18:12-14", "Jeremiah 3:22"]
 date_created: 2026-10-13
-date_modified: 2026-10-14
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -473,3 +473,5 @@ after your friend with the patience of the Shepherd who went after you.
 - [Assurance of Salvation](../salvation/assurance-of-salvation.md) — the security of those who are
   Christ's, and what 1 John 2:19 means.
 - [Run the Race](run-the-race.md) — endurance in the Christian life.
+- [Those Who Sigh and Groan](those-who-sigh-and-groan.md) — the faithful marked and spared in
+  Ezekiel 9, and the Lord who knows those who are His (2 Timothy 2:19).

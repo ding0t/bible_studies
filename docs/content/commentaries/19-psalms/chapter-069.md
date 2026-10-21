@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 69:9
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 69:9
 <!-- commentary-index:auto-end -->

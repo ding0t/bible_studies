@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-20
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -194,7 +194,6 @@ publish. This list names them by file path and links none, because a published p
   Meet the Lord in the Air (`last-things/meet-the-lord-in-the-air.md`) (3,138 words).
 - Four Hundred and Eighty Years (`chronology/four-hundred-and-eighty-years.md`): 1,393 words,
   forked from Genealogy and Times; see [8.2](#82-chronology-follow-ups).
-
 ### 0.10 Cut the AI register
 
 A tidy of [Biblical Numerology](../scripture/numerology.md) on 2026-10-09 took its em-dashes from
@@ -909,6 +908,29 @@ heart that opens the door.
   and Laodicea's lukewarm water supply, which the letter's "neither cold nor hot" draws on.
 - **Links:** 10.3 (religion and a contrite heart), [The Way](../jesus/the-way.md), and
   [Faith](../salvation/faith.md#the-door-every-morning), which reads the verse as the door faith opens.
+
+### 10.5 Follow-ups from Those Who Sigh and Groan
+
+The review of [Those Who Sigh and Groan](../christian-life/those-who-sigh-and-groan.md) on
+2026-10-21 found things for other studies. It was published the same day without a
+read-bible-study pass; run one in a fresh session. Each sibling below got an "On this site"
+back-link when it was published; the content notes are still to do.
+
+- **[Taken Before Judgment](../last-things/taken-before-judgment.md):** add that 2 Peter 2:8's
+  ἐβασάνιζεν (*ebasanizen*, G928) is imperfect. Lot "was tormenting his righteous soul" day after
+  day, which is the continuing grief of Ezekiel 9:4's participles.
+- **[When Love Grows Cold](../christian-life/when-love-grows-cold.md):** consider linking the new
+  study from the remnant section itself (Romans 11:1-6). The two make the same "for myself" point
+  about Romans 11:4.
+- **[Israel's Regathering and Refining](../israel-and-church/israels-regathering-and-refining.md):**
+  note the order in Ezekiel 36. The new heart and Spirit come first (36:26-27), then "you will
+  loathe yourselves" (36:31), so the grief follows the gift.
+- **[The Names of the Holy Spirit](../holy-spirit/names-of-the-holy-spirit.md):** consider linking
+  the new study from its treatment of Ephesians 4:30, the Spirit who seals and can be grieved.
+- **Fork candidates** (from the study's state file): the remnant across Scripture (שָׁאַר
+  *shaʾar*; 1 Kings 19:18; Isaiah 4:3; Romans 11); the rabbinic reading of Ezekiel 9 in b. Shabbat
+  55a, which needs a primary source first; and the seal of God against the mark of the beast
+  (Revelation 7:3; 13:16).
 
 ## Completed
 

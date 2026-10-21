@@ -16,4 +16,5 @@ draft: false
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 78:4
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 78:2
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 78:2
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 78:40-41
 <!-- commentary-index:auto-end -->

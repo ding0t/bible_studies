@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 16:13-14
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 16:1
 <!-- commentary-index:auto-end -->

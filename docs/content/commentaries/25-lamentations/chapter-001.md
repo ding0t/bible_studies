@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Biblical Numerology](../../scripture/numerology.md) — 1:1-22
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 1:4
 <!-- commentary-index:auto-end -->

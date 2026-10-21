@@ -17,4 +17,5 @@ draft: false
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 89:15
 - [Six Days of History](../../last-things/six-days-of-history.md) — 89:36-51
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 89:5-8
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 89:20
 <!-- commentary-index:auto-end -->

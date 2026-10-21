@@ -29,6 +29,7 @@ draft: false
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 8:15-17
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 8:1
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 8:38-39
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 8:26
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:11
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 8:11
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 8:23

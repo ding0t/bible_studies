@@ -18,4 +18,5 @@ draft: false
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 14:1
 - [The Restrainer](../../last-things/the-restrainer.md) — 14:6
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 14:1-7
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 14:1
 <!-- commentary-index:auto-end -->

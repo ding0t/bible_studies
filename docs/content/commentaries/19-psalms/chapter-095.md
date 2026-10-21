@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Faith](../../salvation/faith.md) — 95:7-11
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 95:10
 <!-- commentary-index:auto-end -->

@@ -18,5 +18,6 @@ draft: false
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 4:1
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 4:14
 - [The Way](../../jesus/the-way.md) — 4:16
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 4:17
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:4
 <!-- commentary-index:auto-end -->

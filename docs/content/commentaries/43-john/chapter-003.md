@@ -23,4 +23,5 @@ draft: false
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 3:29
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 3:29
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 3:22-30
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 3:5
 <!-- commentary-index:auto-end -->

@@ -26,6 +26,7 @@ draft: false
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:3
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 10:29
 - [The Way](../../jesus/the-way.md) — 10:19-20
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 10:16
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 10:35-39
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 10:23-25
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 10:24-25

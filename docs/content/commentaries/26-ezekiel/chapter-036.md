@@ -17,5 +17,6 @@ draft: false
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 36:24-26
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 36:20-22
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 36:26-27
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 36:26-27
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 36:26-27
 <!-- commentary-index:auto-end -->

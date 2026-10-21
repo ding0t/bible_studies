@@ -23,6 +23,7 @@ draft: false
 - [The Appointed Times](../../feasts/feasts.md) — 5:7-8
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 5:7-8
 - [The Restrainer](../../last-things/the-restrainer.md) — 5:2
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 5:2
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 5:7
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 5:4
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 5:4-5

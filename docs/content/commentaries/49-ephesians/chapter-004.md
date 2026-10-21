@@ -26,5 +26,6 @@ draft: false
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 4:32
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 4:30
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 4:1
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 4:30
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:29
 <!-- commentary-index:auto-end -->

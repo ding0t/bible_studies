@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ezekiel 36:22-28; Zechariah 12:10-13:9"
 bible_references: ["Ezekiel 33:21", "Ezekiel 36:22-28", "Ezekiel 36:32", "Ezekiel 37:11-12", "Ezekiel 37:15-22", "Ezekiel 20:34-37", "Zechariah 1:1", "Zechariah 10:8-10", "Zechariah 10:6-7", "Ezekiel 38:8", "Ezekiel 20:38", "Ezra 7:6", "Romans 9:24", "Amos 9:11", "Isaiah 27:9", "John 19:35", "Zechariah 12:10", "Zechariah 13:1", "Zechariah 13:3", "Zechariah 13:7-9", "Amos 9:15", "Isaiah 11:11", "Isaiah 59:20", "Psalm 14:7", "Hosea 1:9-10", "Hosea 5:15", "Deuteronomy 4:30-31", "Jeremiah 30:7", "Daniel 12:1", "Numbers 25:8", "1 Samuel 31:4", "Matthew 24:15-20", "Matthew 26:31", "John 19:37", "Acts 1:6-7", "Acts 15:14-16", "Romans 9:25-26", "Romans 11:26-27", "Romans 11:29", "John 19:34", "Revelation 1:7"]
 date_created: 2026-09-26
-date_modified: 2026-10-10
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -409,3 +409,5 @@ his line follows Isaiah's Greek closely.
 - [The Rapture of the Church](../last-things/rapture.md) — where the church stands in relation to the
   time of distress for Jacob.
 - [The Day Is Near](../last-things/day-is-near.md) — why the timing of Christ's return is hidden.
+- [Those Who Sigh and Groan](../christian-life/those-who-sigh-and-groan.md) — Ezekiel's new heart
+  and Spirit, and the grief over sin that follows the gift (Ezekiel 36:26-31).

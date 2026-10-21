@@ -18,5 +18,6 @@ draft: false
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 52:13
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 52:1
 - [The Restrainer](../../last-things/the-restrainer.md) — 52:11
+- [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 52:11
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 52:5
 <!-- commentary-index:auto-end -->

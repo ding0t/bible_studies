@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-17
+date_modified: 2026-10-21
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -136,6 +136,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     The apostles expected false teachers to rise inside the church. Scripture tells you to keep testing every teacher by three marks: the Christ they preach, the life they live, and where they lead you. Signs, crowds and Bible words prove nothing, and the One in you is greater.
 
     [:octicons-arrow-right-24: Read](test-the-spirits.md)
+
+-   __Those Who Sigh and Groan: A Heart After God's Own__
+
+    ---
+
+    In Ezekiel 9 God sent a scribe through Jerusalem to mark everyone who sighed and groaned over its abominations, and the marked were spared. What grieves God grieves His own, and in Christ He gives that heart and seals it with His Spirit.
+
+    [:octicons-arrow-right-24: Read](those-who-sigh-and-groan.md)
 
 -   __When Love Grows Cold: The Falling Away and the Remnant__
 
