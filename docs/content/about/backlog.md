@@ -40,6 +40,8 @@ Add new items here. They get a number and move into their section.
 | [1.1](#11-extra-biblical-texts) | Extra-biblical texts | Scripture |
 | [1.2](#12-typed-scripture-links) | Typed scripture links | Scripture |
 | [1.3](#13-learning-hebrew) | Learning Hebrew | Scripture |
+| [11.1](#111-the-trinity) | The Trinity | God the Father |
+| [11.2](#112-the-nature-of-god-his-attributes) | The nature of God: His attributes | God the Father |
 | [2.1](#21-prophecy-and-jesus) | Prophecy and Jesus | Jesus |
 | [2.3](#23-jesus-attitude-toward-women) | Jesus' attitude toward women | Jesus |
 | [2.4](#24-the-feedings-and-the-hardened-hearts) | The feedings and the hardened hearts | Jesus |
@@ -549,6 +551,52 @@ existing commentary index immediately.
   writing sheets for the square, Paleo-Hebrew and cursive scripts, a Three Scripts page, a Names of
   God study in God, and the Shema read letter by letter. Plan and decisions:
   `references/study-state/learn-hebrew-section.yml`.
+
+## 11. God the Father
+
+Numbered 11 because 3 to 10 were already taken when the section was added; it sits here in the
+site's teaching order.
+
+### 11.1 The Trinity
+
+One God in three persons, as a study of its own. The section page for
+[God the Father](../god/index.md) and the [statement of faith](statement-of-faith.md) state the
+doctrine in a paragraph each, and the names studies for the Father, Son and Spirit take the persons
+one at a time; nothing yet works the doctrine itself from the text. The gap shows in
+[The Nature of God](../series/the-nature-of-god.md) series, where it is the week marked *coming*.
+
+- **The oneness first.** Deuteronomy 6:4, with אֶחָד (*echad*, H259, "one") worked from its own
+  uses rather than from what either side of the argument needs it to mean, and Isaiah 44:6; 45:5.
+- **The three named together.** Matthew 28:19 (one name, three persons), the baptism of Jesus
+  (Matthew 3:16-17), 2 Corinthians 13:14, John 14:16-17, 26 and 15:26 (the Son asks, the Father
+  gives, the Spirit is sent).
+- **Each person named God.** John 1:1-3, 14; 20:28; Acts 5:3-4; Hebrews 1:8.
+- **The Old Testament hints, marked by how firmly the text makes them**, stated, echoed or read in:
+  Genesis 1:26, Isaiah 48:16, the angel of the LORD.
+- **The words the church used and why**: Trinity, person, essence, as the councils used them against
+  modalism and Arianism. Name each error in a sentence; define the doctrine affirmatively.
+- **Land it in the second person**: the Father adopts you, the Son redeems you, the Spirit seals you
+  (Ephesians 1:3-14).
+- Check against the statement of faith's "One God in Three" section, which this study must agree
+  with or flag.
+
+### 11.2 The nature of God: His attributes
+
+What God is like, as a companion to [The Names of God](../god/names-of-god.md), which is organised
+by what He does. Holiness, love, justice, faithfulness, eternity, unchangeableness, His presence
+everywhere, His knowledge and His power, each from the passages that state it (Isaiah 6:1-7;
+1 John 4:8, 16; Exodus 34:6-7; Malachi 3:6; Psalm 139; Psalm 90:2).
+
+- **Start from Exodus 34:6-7**, God's own statement of His character, which the rest of the Old
+  Testament quotes back (Numbers 14:18; Psalm 86:15; Joel 2:13; Jonah 4:2). Run the concordance on
+  the echoes before claiming a count.
+- **Group them so a reader can hold them**: the attributes God shares with people in part (love,
+  justice, faithfulness) and the ones only He has (eternity, unchangeableness, presence everywhere).
+  This is the traditional communicable/incommunicable division; say so and gloss it.
+- **Each attribute seen in Jesus** (John 14:9; Colossians 1:15; Hebrews 1:3), so the study ends in a
+  person.
+- Nine attributes will not fit the 4,000-word budget in one study. Consider two, the shared
+  attributes and the rest, each its own week of [The Nature of God](../series/the-nature-of-god.md).
 
 ## 2. Jesus
 
