@@ -24,7 +24,8 @@ series:
       why: "Why the day is hidden and how to wait for it: patient, awake and at work."
 date_created: 2026-10-22
 date_modified: 2026-10-22
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # End Times Fundamentals

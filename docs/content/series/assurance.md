@@ -12,7 +12,8 @@ series:
       why: "1 John 5:11-13, Acts 4:12 and Ephesians 2:8-9: the ground of salvation and the confidence Scripture says it gives."
 date_created: 2026-10-22
 date_modified: 2026-10-22
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Can I Know I Am Saved?
