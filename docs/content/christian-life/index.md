@@ -105,6 +105,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
 
     [:octicons-arrow-right-24: Read](run-the-race.md)
 
+-   __Salt, Light and the Aroma of Christ__
+
+    ---
+
+    Jesus told His disciples, "You are the salt of the earth" and "You are the light of the world"; Paul wrote, "we are the aroma of Christ to God." What each picture meant to its first hearers, what it asks of one believer and of a whole church, and the churches Jesus calls lampstands.
+
+    [:octicons-arrow-right-24: Read](salt-light-and-aroma.md)
+
 -   __Submission in Context__
 
     ---

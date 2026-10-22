@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 2:14-16 (primary passage)
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 2:6-11
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 2:6-8
 <!-- commentary-index:auto-end -->

@@ -17,6 +17,7 @@ draft: false
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 1:5
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 1:7
 - [John son of Zebedee](../../biblical-figures/john.md) — 1:9
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 1:12-13
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:4
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:3
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 1:7

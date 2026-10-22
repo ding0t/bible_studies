@@ -14,5 +14,6 @@ draft: false
 
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 18:7
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 18:21
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 18:19
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 18:1-7
 <!-- commentary-index:auto-end -->

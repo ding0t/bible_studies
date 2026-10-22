@@ -19,6 +19,7 @@ draft: false
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:3
 - [Idolatry](../../sin/idolatry.md) — 1:21-25
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:25
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 1:22
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 1:4
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 1:13
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 1:32

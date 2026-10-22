@@ -18,6 +18,7 @@ draft: false
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 2:23
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:9
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 2:9
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 2:9-12
 - [Simon Peter](../../biblical-figures/peter.md) — 2:21
 - [Submission in Context](../../christian-life/submission-in-context.md) — 2:21-23
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 2:21

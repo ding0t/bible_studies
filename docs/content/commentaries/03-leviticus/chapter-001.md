@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 1:9
 - [The Appointed Times](../../feasts/feasts.md) — 1:1
 <!-- commentary-index:auto-end -->

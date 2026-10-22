@@ -19,6 +19,7 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 1:1
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 1:27-28
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 1:14
 - [Submission in Context](../../christian-life/submission-in-context.md) — 1:27-28
 - [The Appointed Times](../../feasts/feasts.md) — 1:14
 - [The Names of God](../../god/names-of-god.md) — 1:1

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 20:34-37
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 20:41
 <!-- commentary-index:auto-end -->

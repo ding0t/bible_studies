@@ -18,6 +18,7 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 9:14-29
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 9:2-8
 - [John son of Zebedee](../../biblical-figures/john.md) — 9:2-8
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 9:33-34
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 9:2-3
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 9:31
 <!-- commentary-index:auto-end -->

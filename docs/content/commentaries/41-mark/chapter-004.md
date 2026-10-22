@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 4:19
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 4:21
 <!-- commentary-index:auto-end -->

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 2:19-22
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 2:3-11
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 2:11
 <!-- commentary-index:auto-end -->

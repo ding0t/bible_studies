@@ -14,6 +14,7 @@ draft: false
 
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 11:1-14 (primary passage)
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 11:12-15
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 11:4
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 11:19
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 11:18
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 11:3-8

@@ -1,0 +1,131 @@
+slug: "salt-light-and-aroma"
+title: "Salt, Light and the Aroma of Christ"
+status: published
+target_path: "docs/content/christian-life/salt-light-and-aroma.md"
+
+primary_passage: "Matthew 5:13-16; 2 Corinthians 2:14-16"
+supporting_passages:
+  - "Mark 9:49-50"
+  - "Luke 14:34-35"
+  - "Colossians 4:5-6"
+  - "Leviticus 2:13; Numbers 18:19; 2 Chronicles 13:5; 2 Kings 2:19-22"
+  - "John 8:12; 9:5; Isaiah 42:6; 49:6; Acts 13:47"
+  - "Philippians 2:14-16; Ephesians 5:1-2, 8-9; 1 Peter 2:9-12; 2 Corinthians 4:6"
+  - "Revelation 1:12-13, 20; 2:1, 4-5"
+  - "Genesis 8:21; Ezekiel 20:41; Philippians 4:18; John 12:3"
+sibling_studies:
+  - {slug: "jesus/the-heavenly-pattern/lampstand.md", role: cited, use: link, note: "Covers Revelation 1-2 lampstands, the Ephesus warning and Jesus as High Priest among them; link to #seven-lampstands-on-patmos instead of re-arguing. It already cites Matthew 5:14-16 and counts λυχνία outside Revelation (5)."}
+  - {slug: "last-things/the-restrainer.md", role: cited, use: none, note: "Cites Philippians 2:15 (church in the midst of a crooked generation). Consistent with this study."}
+  - {slug: "christian-life/humility.md", role: primary, use: none, note: "Philippians 2:1-13; this study uses 2:15 only."}
+  - {slug: "last-things/two-witnesses.md", role: cited, use: none, note: "Revelation 11:4 lampstands; not needed here."}
+  - {slug: "jesus/the-heavenly-pattern/incense-altar.md", role: prose, use: enrich, note: "Could take a link back to this study's aroma section (Ezekiel 20:41; 2 Corinthians 2:15). Offer only."}
+genre: [gospel, epistle, apocalyptic, topical]
+
+thesis: "Jesus calls His disciples salt, light and the aroma of Christ: each believer carries what is His, and together, as a city on a hill and as lampstands He walks among, the church shows the world the Father, so that people see your good works and give glory to God."
+outline:
+  - {section: "Who Jesus is talking to", says: "Matthew 5:1-12: disciples, plural, just called blessed in persecution; 'you are' is a statement of what they are."}
+  - {section: "The salt of the earth", says: "Salt preserved, seasoned and sealed covenants; μωραίνω means become foolish; salt that stops being salt is thrown out; Mark 9:50 and Colossians 4:6 put it in the church's peace and in speech."}
+  - {section: "The light of the world", says: "Jesus is the light and gives it; Isaiah's Servant's calling; a city (corporate) and a lamp (household); 'your (plural) light (singular)'; the light is good works that bring glory to the Father."}
+  - {section: "Churches as lampstands", says: "Revelation 1:20 names churches as lampstands; Jesus walks among them and can remove one (2:5), the same warning as salt thrown out. Link The Lampstand."}
+  - {section: "The aroma of Christ", says: "2 Corinthians 2:14-16 joins the triumph and the sacrifice's pleasing aroma; God accepts His people as an aroma (Ezekiel 20:41); Ephesians 5:2 and Philippians 4:18 extend it to every believer and a church's giving; one fragrance, two responses."}
+  - {section: "What this shows about God", says: "God puts His own life in His people and is seen through them; table of individual and church for each image."}
+word_budget: 4100
+word_budget_reason: "The author asked (2026-10-22) for a paragraph on whether 'thrown out' and lampstand removal touch salvation; it took the study to 4,004 counted words."
+
+stages:
+  scoping:
+    done: true
+    notes: "Author approved thesis and outline 2026-10-22. No primary sibling on Matthew 5:13-16 or 2 Corinthians 2:14-16. Placement christian-life/ (practical theology); israel-and-church/ was considered, but the study is mainly about the believer's life before the world."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Sermon on the Mount near Capernaum, to disciples with the crowds listening (Matthew 5:1; 7:28). Galilean oil lamps were small, set on a stand; μόδιος a grain measure (~8.75 litres; LSB fn 'peck-measure'). Salt: preservative, seasoning, required on offerings (Leviticus 2:13; Ezekiel 43:24), 'covenant of salt' for permanence (Numbers 18:19; 2 Chronicles 13:5), Elisha's healing of Jericho's spring (2 Kings 2:19-22). Ancient salt from the Dead Sea area carried impurities and could leach (Cultural Backgrounds note). 2 Corinthians 2:14: the Roman triumph, the only other NT use of θριαμβεύω being Colossians 2:15; incense in the streets 'taken by some' (ESV SB note on 2:15-16a; corrected in review 2026-10-22, NIV BT and Cultural Backgrounds say nothing of incense on the route), and euōdia/osmē is the LXX sacrifice phrase (ESV SB)."
+    literary_context:
+      done: true
+      notes: "Matthew 5:13-16 follows directly on 5:10-12 (persecuted like the prophets) and leads into 5:17-20 (the righteousness that exceeds the scribes'). Good works (5:16) are then defined by 5:21-7:12. 2 Corinthians 2:14-17 opens Paul's defence of his ministry (2:14-7:4); 'we' is first Paul and his co-workers (2:17), and Ephesians 5:2 and Philippians 4:18 carry the aroma language to all believers and a church's gift."
+    content_word_studies:
+      done: true
+      notes: "Counts verified via bible_concordance on macula-greek-sblgnt, 2026-10-22."
+      terms:
+        - {word: "ἅλας", language: greek, transliteration: "halas", strongs_id: "G217", gloss: "salt", notes: "7 occurrences in 4 passages: Matthew 5:13 (x2); Mark 9:50 (x2); Luke 14:34 (x2); Colossians 4:6."}
+        - {word: "μωραίνω", language: greek, transliteration: "mōrainō", strongs_id: "G3471", gloss: "become foolish / tasteless", notes: "4 NT: Matthew 5:13; Luke 14:34 (salt); Romans 1:22 'became fools'; 1 Corinthians 1:20 'made foolish'."}
+        - {word: "ἀρτύω", language: greek, transliteration: "artyō", strongs_id: "G741", gloss: "season", notes: "3 NT: Mark 9:50; Luke 14:34; Colossians 4:6 - ties Paul's speech 'seasoned with salt' to the salt sayings."}
+        - {word: "מֶלַח", language: hebrew, transliteration: "melach", strongs_id: "H4417", gloss: "salt", notes: "Leviticus 2:13 'salt of the covenant'; Numbers 18:19 'covenant of salt forever'."}
+        - {word: "φῶς", language: greek, transliteration: "phōs", strongs_id: "G5457", gloss: "light", notes: "Matthew 5:14, 16; John 8:12; 9:5."}
+        - {word: "λύχνος", language: greek, transliteration: "lychnos", strongs_id: "G3088", gloss: "lamp", notes: "Matthew 5:15."}
+        - {word: "λυχνία", language: greek, transliteration: "lychnia", strongs_id: "G3087", gloss: "lampstand", notes: "12 occurrences in 11 verses: Matthew 5:15; Mark 4:21; Luke 8:16; 11:33; Hebrews 9:2; Revelation 1:12, 13, 20 (x2); 2:1, 5; 11:4."}
+        - {word: "μόδιος", language: greek, transliteration: "modios", strongs_id: "G3426", gloss: "grain measure, basket", notes: "3 NT, all the lamp saying: Matthew 5:15; Mark 4:21; Luke 11:33."}
+        - {word: "φωστήρ", language: greek, transliteration: "phōstēr", strongs_id: "G5458", gloss: "light, luminary", notes: "2 NT: Philippians 2:15; Revelation 21:11. LXX Genesis 1:14 for the lights of the sky."}
+        - {word: "εὐωδία", language: greek, transliteration: "euōdia", strongs_id: "G2175", gloss: "fragrance, pleasing aroma", notes: "3 NT: 2 Corinthians 2:15; Ephesians 5:2; Philippians 4:18. LXX ὀσμὴ εὐωδίας for רֵיחַ נִיחֹחַ (Genesis 8:21; Ezekiel 20:41)."}
+        - {word: "ὀσμή", language: greek, transliteration: "osmē", strongs_id: "G3744", gloss: "smell, aroma", notes: "6 NT in 5 verses: John 12:3; 2 Corinthians 2:14, 16 (x2); Ephesians 5:2; Philippians 4:18."}
+        - {word: "θριαμβεύω", language: greek, transliteration: "thriambeuō", strongs_id: "G2358", gloss: "lead in a triumphal procession", notes: "2 NT: 2 Corinthians 2:14; Colossians 2:15."}
+        - {word: "רֵיחַ נִיחֹחַ", language: hebrew, transliteration: "reach nichoach", strongs_id: "H7381; H5207", gloss: "a soothing, pleasing aroma", notes: "Genesis 8:21; Ezekiel 20:41 (God accepts His people 'as a pleasing aroma')."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Salt-as-preservative and clay lamps are the cultural vehicle; the identity statement and the purpose clause (Matthew 5:16) carry over. The triumph image is Roman; the sacrifice image is Israel's and Paul extends it to all believers in Ephesians 5:2."
+    theological_principle:
+      done: true
+      notes: "God puts His own light and fragrance in His people, individually and together, and is seen in their good works; a people that stops being what He made it is set aside from its use (salt thrown out; lampstand removed). Consistent with statement-of-faith; no intersection with its Israel/church or eschatology positions. Isaiah 49:6 is applied by Paul to his mission (Acts 13:47) without cancelling Isaiah 60's promise to Zion; stated that way to keep Israel and church distinct."
+    application_draft:
+      done: true
+      notes: "In the Be Transformed and the closing section."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Mark 9:49-50", relation: "salt saying with 'be at peace with one another' - corporate"}
+      - {ref: "Luke 14:34-35", relation: "salt saying after counting the cost of discipleship"}
+      - {ref: "Colossians 4:6", relation: "speech seasoned with salt; same verb ἀρτύω"}
+      - {ref: "Mark 4:21; Luke 8:16; 11:33", relation: "lamp on a stand parallels"}
+      - {ref: "Revelation 1:20; 2:5", relation: "churches as lampstands; removal"}
+      - {ref: "Philippians 2:15", relation: "shine as lights in the world, from Deuteronomy 32:5 LXX wording"}
+      - {ref: "1 Peter 2:12", relation: "see your good deeds and glorify God - echoes Matthew 5:16"}
+      - {ref: "Ezekiel 20:41", relation: "God accepts His people as a pleasing aroma"}
+      - {ref: "Ephesians 5:2; Philippians 4:18", relation: "εὐωδία of Christ's sacrifice and a church's gift"}
+    translations_compared: ["ESV", "WEB", "NA28/SBLGNT", "LSB footnotes", "CSB footnote"]
+    divergences_noted: "Matthew 5:13 ἐν τίνι ἁλισθήσεται: ESV 'how shall its saltiness be restored'; WEB 'with what will it be salted'; CSB footnote 'Or how can the earth be salted?'. LSB footnotes 'peck-measure' (5:15) and 'mountain' (5:14)."
+  drafting:
+    done: true
+    file: "docs/content/christian-life/salt-light-and-aroma.md"
+  review:
+    done: true
+    validated: true # npm run validate: no warnings for this file except ai_provider_models empty until first commit; mkdocs build --strict clean (draft excluded, links checked by eye)
+    notes: "review-bible-study pass 2026-10-22, see review_2026-10-22."
+
+review_2026-10-22:
+  checked:
+    - "Phase 1: all 68 ESV quotations re-queried from study-notes.db (esv-study-bible) by script; all verbatim apart from dropped sentence-initial conjunctions (Matthew 7:26 'And', Ephesians 5:1 'Therefore', Ephesians 5:8 'for'). Comic bubbles: build_comics.py --verify all ok."
+    - "Phase 3: bible_concordance on macula-greek-sblgnt re-derived G217 (7), G3471 (4), G741 (3), G3426 (3), G5458 (2), G2175 (3), G3744 (6 in 5 verses), G2358 (2), G3087 (12 in 11 verses, 5 outside Revelation); all match. Mark 9:50 also has ἅλα tagged G251 (1), not counted under G217, which is consistent with the pop-up. H5207: Ezekiel 20:41 is the only occurrence applied to a people (others are offerings, incl. idols' at Ezekiel 6:13; 16:19; 20:28), so 'Once God says it of a people' holds. NA28 checked for Ὑμεῖς ἐστε (Matthew 5:13-14), τὸ φῶς τοῦ κόσμου (John 8:12), τὸ φῶς ὑμῶν (5:16), ἐν τίνι ἁλισθήσεται, ἐν ἑαυτοῖς (Mark 9:50). Brenton LXX checked for Genesis 1:14 φωστῆρες, Genesis 8:21 and Ezekiel 20:41 ὀσμὴ εὐωδίας, Deuteronomy 32:5 γενεὰ σκολιὰ καὶ διεστραμμένη. Footnotes on Matthew 5:13-16 and 2 Corinthians 2:14-16: only CSB 5:13 and LSB 5:14, 5:15, all already disclosed."
+    - "Phase 2: study-note attributions checked: NIV CB Matthew 5:13, 5:14, 5:15, Colossians 4:6 confirmed; NIV BT 2 Corinthians 2:14 (captives, Colossians 2:15) confirmed."
+    - "Phase 5: NLT Life Application (uncited) on Matthew 5:13-14 confirms the salt/light reading (distinct and engaged; city visible at night); silent on the aroma."
+    - "Phase 6: review_gaps: no quotation gap bearing on the argument (Isaiah 33:18 via 1 Corinthians 1:20 is incidental). cross_study_claims Matthew 5, 2 Corinthians 2, Revelation 2: consistent with lampstand.md and the-restrainer.md. Statement of faith: consistent; see the open question on 'thrown out'."
+  fixed:
+    - "Critical (synthetic claim): 'to every church He says, \"I know your works\"' was false; Smyrna hears 'I know your tribulation' (2:9) and Pergamum 'I know where you dwell' (2:13). Now 'church after church' with the five references; bible_references extended."
+    - "Critical (citation): incense along the triumph route was attributed to the NIV Biblical Theology Study Bible, whose note says nothing of incense. Re-attributed to the ESV Study Bible's 2:15-16a note ('taken by some'). The historical_context note above repeats the wrong attribution (NIV BT, Cultural Backgrounds); neither note mentions incense."
+    - "Moderate: the Revelation 4:5 sentence said the lampstands' light is connected to the seven spirits; Revelation 4:5 has torches, and lampstand.md says 'John sees torches here, and no lampstand'. Reworded."
+    - "Minor: Matthew 7:26 'the same word' was the adjective μωρός, not the verb; 'an ordinary house' for a picture that includes the smoke of an offering; Acts 13:45 'many in the synagogue' became 'the Jews of Pisidian Antioch'; NIV CB salt-impurity note re-attributed to 'commentators' as the note does; transliteration 'reach' became 'reyach' with pronunciation; pronunciations added for nine glossed Greek words (house rule)."
+    - "Minor (comic): the point read 'walks among His churches as their lampstands' (He is not the lampstands); now 'His churches, His lampstands'. SVG rebuilt, --verify ok, alt text in the study matches --alt."
+  not_fixed:
+    - "Question for the author: Matthew 5:13 'thrown out' and Revelation 2:5 removal are read as loss of usefulness/place. The study never says whether 'thrown out' bears on a believer's salvation; statement-of-faith 'The house God is building' (the foundation is never at risk) would answer it in one sentence. Doctrinal addition, left to the author."
+    - "Minor: the 2 Corinthians 2:15 memory verse ends mid-sentence on a comma; consider 2:15-16a."
+    - "Minor: tag 'light' is used by no other page; 'witness' by one other (great-commission.md)."
+  size: "5,342 words raw; validator Check 23 counts under the 4,000 budget (quotes excluded). Fixes added about 45 words."
+
+
+read_2026-10-22:
+  notes: "read-bible-study pass in a fresh session. Four ### headings added, no sentence changed (study_structure._prose_diff against a pre-edit copy: clean, removed/added none): 'What gets salted: the salt or the earth' (the 5:13 grammatical fork, findable), 'A light for the nations' (Servant calling and the Isaiah 60 Israel/church line), and under Churches as lampstands 'The stand of Matthew 5:15 in Revelation' / 'He walks among them and can remove one'. Study outline light bullet now names the Servant. 26 -> 30 sections, median 148 -> 139, longest 351 -> 300, none over 400. For the author: discussion question 5 is labelled 'The church.', outside the five facet labels (Check 25 does not flag it)."
+
+open_questions:
+  - "Comic: salt-light-and-aroma.toml added two props to utils/lib/comic.py (lampstand, golden_lampstand)."
+  - "Done 2026-10-22 by separate agents: review-bible-study (see review_2026-10-22) and read-bible-study (see read_2026-10-22). Author approved all follow-ups 2026-10-22: added a paragraph on 'thrown out'/lampstand removal and salvation (1 Corinthians 3:11, 15; statement of faith, 'The house God is building'), relabelled question 5 'Be transformed.', extended the memory verse to 2 Corinthians 2:15-16, dropped the one-off 'light' tag. Published."
+  - "Fork candidate: Mark 9:49 'salted with fire' - contested (sacrifice/suffering/Spirit vs judgement); this study notes it only in passing."
+  - "Fork candidate: whether 'a city set on a hill' echoes Isaiah 2:2-3's mountain of the LORD's house. Matthew does not cite it; left out."
+  - "Enrichment offer: incense-altar.md could link here from its aroma material."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Notes on Matthew 5:13, 5:14, 5:15; 2 Corinthians 2:14, 2:15-16; Mark 9:49; Colossians 4:5-6; Revelation 1:20. Confirmed the salt/light reading; contributed the LXX sacrifice background for euōdia/osmē, which this study then verified in Genesis 8:21 and Ezekiel 20:41."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan (Walton, Keener eds.)", note: "Matthew 5:13 impure salt and the later rabbinic 'afterbirth of a mule' answer; 5:14 hill cities visible at night and Isaiah 42:6; 49:6; 5:15 small hand lamps; 2 Corinthians 2:14 triumphs reserved to the emperor by the first century. Contributed background."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Matthew 5:13 preservative as the likely point; 2 Corinthians 2:14 captives in the procession and Colossians 2:15. Confirmed."}
+  - {type: other, title: "CSB Ancient Faith Study Bible footnote, Matthew 5:13", author: "Holman", note: "'Or how can the earth be salted?' - the grammatical fork."}
+  - {type: other, title: "LSB footnotes", author: "Lockman", note: "Matthew 5:14 'Or mountain'; 5:15 'Or peck-measure'."}
+  - {type: lexicon, title: "MACULA Greek (SBLGNT), MACULA Hebrew (WLC), Brenton LXX", author: "Clear Bible / Brenton", note: "Counts and Greek/Hebrew wording."}
+last_updated: "2026-10-22"

@@ -1,0 +1,103 @@
+# One-minute comic for docs/content/christian-life/salt-light-and-aroma.md.
+# Drawn by: python3 utils/build_comics.py salt-light-and-aroma
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-22.
+#
+# Panel 1: "he went up on the mountain, and when he sat down, his disciples came to him" (Matthew
+#   5:1). Peter is the only disciple named; Matthew names none here, so the rest are generic and Peter
+#   carries no tag. Key words on the two identity statements.
+# Panel 2: a lamp on a household stand, night in a house. The stand is λυχνία (G3087); the basket
+#   Jesus rules out is μόδιος (G3426), a grain measure, so no basket is drawn over a lamp.
+# Panel 3: Revelation 1:12-13, 20. Seven separate lampstands, counted, each with one flame: John
+#   describes seven stands, not one seven-branched menorah (see prop_golden_lampstand). Jesus "in
+#   the midst of the lampstands" (1:13). John falls at His feet (1:17); drawn kneeling.
+# Thread: λυχνία in Matthew 5:15 and Revelation 1:20, verified with bible_concordance on
+#   macula-greek-sblgnt (12 occurrences in 11 verses; Matthew 5:15 is one, Revelation 1:20 has two).
+#   The thread names the shared word only; that the church is the stand of Matthew 5:15 is this
+#   study's connection, and the aside says so.
+# Panel 4: Matthew 5:16. Good works are drawn as bread given to a poor man (Matthew 25:35 names
+#   feeding the hungry); onlookers praise looking up, toward "your Father who is in heaven".
+
+title = "Salt and Light"
+subtitle = "You are the salt of the earth and the light of the world, in one minute"
+layout = [[280, 1], [300, 1, 1], [46, 1], [290, 1]]
+point = "Jesus has made you salt and light, and He walks among His churches, His lampstands. Shine together where people can see, so they give glory to your Father in heaven (Matthew 5:16; Revelation 1:20)."
+
+[[panel]]
+ref = "Matthew 5:1-2, 13-14"
+scene = "hills"
+sky = "day"
+caption = "Jesus sits down on the mountain. His disciples come to Him, and He teaches them."
+caption_w = 360
+shows = "Jesus seated on the hillside, teaching four disciples seated before Him"
+cast = [
+  { who = "peter", x = 0.10, face = "right", stance = "sit", pose = "stand" },
+  { who = "disciple", x = 0.21, face = "right", stance = "sit", pose = "fold", tone = 1 },
+  { who = "disciple", x = 0.32, face = "right", stance = "sit", pose = "heart", tone = 2 },
+  { who = "disciple", x = 0.43, face = "right", stance = "sit", pose = "stand", tone = 3 },
+  { who = "jesus", x = 0.78, face = "left", stance = "sit", pose = "open" },
+]
+say = [
+  { by = "jesus", text = "You are the *salt of the earth*,", source = "esv", at = [0.60, 0.30], w = 170 },
+  { by = "jesus", text = "You are the *light of the world*. A city set on a hill cannot be hidden.", source = "esv", at = [0.86, 0.08], w = 180 },
+]
+
+[[panel]]
+ref = "Matthew 5:15"
+scene = "room"
+sky = "night"
+grade = "warm"
+caption = "Jesus' picture: a lamp in a house at night."
+caption_w = 150
+shows = "Inside a house at night, a small clay lamp burns on a wooden stand and lights a woman and a child beside it"
+props = [
+  { what = "lampstand", x = 0.36 },
+]
+cast = [
+  { who = "woman", x = 0.10, face = "right", pose = "open", tone = 1, s = 0.8 },
+  { who = "child", x = 0.21, face = "right", pose = "look_up", s = 0.8 },
+]
+say = [
+  { from = [0.98, -0.1], by = "jesus", name = "Jesus", style = "text", text = "Nor do people light a lamp and put it under a basket, but *on a stand*, and it gives light to all in the house.", source = "esv", at = [0.70, 0.06], w = 145 },
+]
+
+[[panel]]
+ref = "Revelation 1:12-13, 17, 20"
+scene = "plain"
+sky = "night"
+caption = "Years later, on Patmos, John sees the risen Jesus."
+caption_w = 165
+aside = "Reading the church as the stand of Matthew 5:15 is this study's link."
+aside_w = 165
+shows = "The risen Jesus, radiant, stands among seven golden lampstands while John kneels before Him"
+props = [
+  { what = "golden_lampstand", x = 0.10, x2 = 0.94, n = 7, s = 0.7 },
+]
+cast = [
+  { who = "john", x = 0.31, face = "right", stance = "kneel", pose = "fold", tag = "John" },
+  { who = "jesus", x = 0.59, face = "left", pose = "open", look = "radiant" },
+]
+burst = { on = "jesus", color = "gold" }
+say = [
+  { by = "jesus", text = "the seven *lampstands* are the seven churches.", source = "esv", at = [0.82, 0.05], w = 105 },
+]
+
+[[panel]]
+kind = "thread"
+text = "λυχνία, “lampstand”: the stand in Matthew 5:15 and the churches of Revelation 1:20"
+at = [0.25, 0.75]
+
+[[panel]]
+ref = "Matthew 5:16"
+scene = "street"
+sky = "day"
+caption = "In the town, a disciple gives bread to a poor man."
+caption_w = 260
+shows = "In a village street a disciple holds out a loaf to a beggar while three neighbours look up and praise God"
+cast = [
+  { who = "disciple", x = 0.16, face = "right", pose = "offer", holds = "loaf", tone = 1 },
+  { who = "beggar", x = 0.32, face = "left", pose = "beg" },
+  { who = "man", id = "onlookers", n = 3, x = 0.58, x2 = 0.90, s = 0.85, face = "left", pose = ["praise", "look_up", "praise"] },
+]
+say = [
+  { from = [0.98, -0.1], by = "jesus", name = "Jesus", style = "text", text = "let your light shine before others, so that they may see your good works and *give glory to your Father* who is in heaven.", source = "esv", at = [0.70, 0.03], w = 330 },
+]

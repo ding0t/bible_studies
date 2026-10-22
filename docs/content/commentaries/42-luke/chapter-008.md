@@ -16,4 +16,5 @@ draft: false
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 8:43-48 (primary passage)
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 8:29
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 8:14-15
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 8:16
 <!-- commentary-index:auto-end -->

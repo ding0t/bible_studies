@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 2:17
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 2:1-5
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 2:2
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 2:20
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 2:10

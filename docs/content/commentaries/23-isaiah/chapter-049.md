@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 49:6
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 49:6
 <!-- commentary-index:auto-end -->

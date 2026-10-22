@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 13:5
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 13:11
 <!-- commentary-index:auto-end -->

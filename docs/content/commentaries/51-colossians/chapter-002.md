@@ -25,6 +25,7 @@ draft: false
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 2:19
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 2:7
 - [Pride](../../sin/pride.md) — 2:18
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 2:15
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 2:16-17
 - [The Appointed Times](../../feasts/feasts.md) — 2:16-17
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 2:13-14

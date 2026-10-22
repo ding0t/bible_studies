@@ -23,6 +23,7 @@ draft: false
 - [Passover: When I See the Blood](../../feasts/passover.md) — 1:29
 - [Philip](../../biblical-figures/philip.md) — 1:43-46
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 1:4-5
 - [Simon Peter](../../biblical-figures/peter.md) — 1:40-42
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 1:14
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 1:12

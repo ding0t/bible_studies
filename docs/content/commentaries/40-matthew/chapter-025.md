@@ -16,6 +16,7 @@ draft: false
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 25:10
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 25:31-34
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 25:21
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 25:1-13
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 25:34
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 25:1-13
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 25:1-13

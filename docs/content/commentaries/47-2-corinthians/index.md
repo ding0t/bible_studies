@@ -13,9 +13,9 @@ draft: false
 ## Chapters with linked studies
 
 - [Chapter 1](chapter-001.md) — 8 study(ies)
-- [Chapter 2](chapter-002.md) — 2 study(ies)
-- [Chapter 3](chapter-003.md) — 4 study(ies)
-- [Chapter 4](chapter-004.md) — 4 study(ies)
+- [Chapter 2](chapter-002.md) — 3 study(ies)
+- [Chapter 3](chapter-003.md) — 5 study(ies)
+- [Chapter 4](chapter-004.md) — 5 study(ies)
 - [Chapter 5](chapter-005.md) — 18 study(ies)
 - [Chapter 6](chapter-006.md) — 3 study(ies)
 - [Chapter 7](chapter-007.md) — 2 study(ies)

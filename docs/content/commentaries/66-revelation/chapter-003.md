@@ -16,6 +16,7 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 3:3
 - [Know the Truth](../../christian-life/know-the-truth.md) — 3:14
 - [Pride](../../sin/pride.md) — 3:14-18
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 3:1
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 3:10
 - [The End of the Age](../../last-things/end-of-the-age.md) — 3:10
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:5

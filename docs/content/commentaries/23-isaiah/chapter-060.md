@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 60:21
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 60:1-3
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 60:3
 <!-- commentary-index:auto-end -->

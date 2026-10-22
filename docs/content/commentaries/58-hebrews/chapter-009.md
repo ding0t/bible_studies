@@ -17,6 +17,7 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 9:11-12
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 9:6-28
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 9:9
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 9:2
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 9:4
 - [The Appointed Times](../../feasts/feasts.md) — 9:7-12
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 9:4-7

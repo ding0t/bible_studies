@@ -17,6 +17,7 @@ draft: false
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 4:2-3
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:6-7
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 4:6-8
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 4:18
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 4:11
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 4:11-12
 <!-- commentary-index:auto-end -->

@@ -16,6 +16,7 @@ draft: false
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 3:16 (primary passage)
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 3:19-21
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 3:16-18
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 3:19-21
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 3:29
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:20
 - [The Names of God](../../god/names-of-god.md) — 3:14
