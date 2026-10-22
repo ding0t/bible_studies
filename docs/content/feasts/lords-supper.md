@@ -240,6 +240,7 @@ jealousy?" (1 Corinthians 10:22, ESV) takes its verb from Deuteronomy 32:21;
 [Idolatry](../sin/idolatry.md#the-song-of-moses) traces both, and [Those Called
 Gods](../spiritual-beings/those-called-gods.md#what-the-nations-worshipped) what stands behind the
 idols. Moses sang those words over Israel, God's own people, and Paul turns them on the church.
+
 Both of Paul's tables already had Old Testament names. Isaiah charged Israel with laying the rival
 one, "who set a table for Fortune and fill cups of mixed wine for Destiny" (Isaiah 65:11, ESV), and
 the Greek Old Testament there sets the table "for the demon"; Paul does not cite the verse. Malachi
