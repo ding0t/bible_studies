@@ -5,9 +5,9 @@ description: "Scripture lends the word אֱלֹהִים, \"gods\", to judges, to
 tags: ["psalms", "deuteronomy", "daniel", "ephesians", "colossians", "divine-council", "spiritual-warfare", "demons", "satan", "authority", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: false
 primary_passage: "Psalm 82:1-8; Deuteronomy 32:8-9"
-bible_references: ["Psalm 82:1-8", "Deuteronomy 32:8-9", "Deuteronomy 32:17", "Deuteronomy 4:19-20", "Deuteronomy 10:17", "Exodus 4:16", "Exodus 7:1", "Exodus 12:12", "Exodus 21:6", "Exodus 22:8-9", "Exodus 22:28", "Exodus 3:15", "Genesis 1:1", "Genesis 20:13", "Genesis 35:7", "Psalm 8:5", "Hebrews 2:6-7", "Psalm 89:5-8", "Psalm 89:27", "Psalm 96:4-5", "1 Samuel 28:13", "1 Kings 22:19", "Job 1:6", "Daniel 1:7", "Daniel 10:13", "Daniel 10:20-21", "Isaiah 24:21-22", "Isaiah 42:8", "1 Corinthians 8:5-6", "1 Corinthians 10:20", "Galatians 4:8", "1 Corinthians 8:4", "Hebrews 1:4-14", "2 Corinthians 4:4", "John 12:31", "Ephesians 2:2", "Colossians 1:16", "Ephesians 1:20-22", "Ephesians 3:10", "Ephesians 6:10-13", "Colossians 2:15", "1 Peter 3:22", "1 Corinthians 15:24-25", "Romans 8:38-39", "Psalm 45:6-7", "Hebrews 1:8-9", "John 10:34-36"]
+bible_references: ["Psalm 82:1-8", "Deuteronomy 32:8-9", "Deuteronomy 32:17", "Deuteronomy 32:43", "Deuteronomy 4:19-20", "Deuteronomy 10:17", "Exodus 4:16", "Exodus 7:1", "Exodus 12:12", "Exodus 21:6", "Exodus 22:8-9", "Exodus 22:28", "Exodus 3:15", "Genesis 1:1", "Genesis 20:13", "Genesis 35:7", "Psalm 8:5", "Hebrews 2:6-7", "Psalm 89:5-8", "Psalm 89:27", "Psalm 96:4-5", "1 Samuel 28:13", "1 Kings 22:19", "Job 1:6", "Daniel 1:7", "Daniel 10:13", "Daniel 10:20-21", "Isaiah 24:21-22", "Isaiah 42:8", "1 Corinthians 8:5-6", "1 Corinthians 10:20", "Galatians 4:8", "1 Corinthians 8:4", "Hebrews 1:4-14", "2 Corinthians 4:4", "John 12:31", "Ephesians 2:2", "Colossians 1:16", "Ephesians 1:20-22", "Ephesians 3:10", "Ephesians 6:10-13", "Colossians 2:15", "1 Peter 3:22", "1 Corinthians 15:24-25", "Romans 8:38-39", "Psalm 45:6-7", "Hebrews 1:8-9", "John 10:34-36"]
 date_created: 2026-10-11
-date_modified: 2026-10-18
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -296,6 +296,18 @@ forever and ever'" (Hebrews 1:8, ESV). The *ESV Study Bible*'s note on Hebrews: 
 rightfully also called God, in this case by God the Father" (note on Hebrews 1:8-9). Hebrews quotes
 it to show the Son above the angels (Hebrews 1:4-14), the beings the Septuagint reads behind the
 *ʾĕlōhîm* of Psalm 8:5.
+
+Two verses earlier Hebrews quotes the Song of Moses: "Let all God's angels worship him" (Hebrews 1:6,
+ESV). The Masoretic text of Deuteronomy 32:43 lacks that line. A Dead Sea Scroll of Deuteronomy (4Q44)
+has it in Hebrew, and the ESV follows the scroll in its own text: "Rejoice with him, O heavens; bow
+down to him, all gods" (Deuteronomy 32:43, ESV), where "gods" is <span dir="rtl">אֱלֹהִים</span>. The
+Septuagint reads "angels of God". It is the same Song that sets the nations under the sons of God
+(Deuteronomy 32:8) and says Israel "sacrificed to demons that were no gods" (Deuteronomy 32:17, ESV).
+The Song that names the powers behind the idols ends by commanding every one called *ʾĕlōhîm* to bow
+down, and Hebrews says the One they bow to is the Son. [True
+Worship](../christian-life/true-worship.md#hebrews-16-and-the-song-of-moses) follows that line
+through Hebrews.
+
 **This shows that every other holder of the title received it from God, and the Son holds it by nature.**
 Judges die like men (Psalm 82:7), the powers are disarmed (Colossians 2:15), and of the Son the
 Father says, "Your throne, O God, is forever and ever." So worship Him alone, and fear none of the
@@ -333,6 +345,8 @@ Brenton's text.
   2019): footnotes on Psalm 82:1, Psalm 8:5, Exodus 21:6, Exodus 22:8, Exodus 22:28, Deuteronomy 32:8.
 - *NLT Life Application Study Bible* (Tyndale, 3rd ed.): footnotes on Exodus 22:8 and Deuteronomy 32:8.
 - Dead Sea Scroll 4Q37 (Deuteronomy 32:8), via this site's Dead Sea Scroll comparison.
+- Dead Sea Scroll 4Q44 (Deuteronomy 32:43), via the same comparison; Septuagint text from Brenton's
+  edition.
 
 ### On this site
 
@@ -341,5 +355,7 @@ Brenton's text.
 - [You Are Gods](../jesus/you-are-gods.md): Psalm 82 in John 10, and the contested question of who
   the psalm's gods are.
 - [The Nephilim](nephilim.md): the "sons of God" of Genesis 6.
+- [True Worship](../christian-life/true-worship.md): why worship belongs to God alone, and why angels
+  refuse it while the Son receives it.
 - [Melchizedek in Second Temple Judaism](../scripture/melchizedek-in-second-temple-judaism.md): how
   the Dead Sea Scroll 11Q13 read Psalm 82.
