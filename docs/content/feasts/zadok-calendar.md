@@ -20,10 +20,11 @@ sabbaticals, jubilees and ages of history are the units this site uses when it c
 from creation.
 
 Dates on this site carry a *Zadok year* beside the BC/AD one: an *anno mundi* ("year of the world")
-count of the years since creation. This page explains the calendar that count is named for, where
-it comes from, and why I use it instead of the standard rabbinic (lunisolar) Hebrew calendar most
-people know. Primary source for the structure below: [dsscalendar.org](https://dsscalendar.org),
-the work of Dr. Ken Johnson, Th.D. (BibleFacts Ministries).
+count of the years since creation. It takes its name from the Zadokite priests' 364-day calendar,
+which the Dead Sea Scrolls community kept. I follow it over the rabbinic (lunisolar) Hebrew
+calendar. Primary source for the structure below:
+[dsscalendar.org](https://dsscalendar.org), the work of Dr. Ken Johnson, Th.D. (BibleFacts
+Ministries).
 
 ## What it is
 
@@ -98,8 +99,13 @@ line between this age and the next is [The End of the Age](../last-things/end-of
 Nested inside that larger scheme are ordinary Sabbatical (7-year, Leviticus
 25:1-7) and Jubilee (50-year, Leviticus 25:8-13)
 cycles. The calendar is the scaffolding the whole chronology runs on. dsscalendar.org even ties a
-specific messianic claim to that scaffolding. It reads 11Q13, the Melchizedek scroll, as placing the
-Messiah's death exactly one Shemittah after the ninth Jubilee of its scheme.
+specific messianic claim to that scaffolding. The Melchizedek scroll (11Q13) dates its jubilee
+release "in the first week of the jubilee after the ni[ne] jubilees". Its Day of Atonement falls at
+"the e[nd of] the tenth jubilee" (11Q13 II 7-8, ed. García Martínez and Tigchelaar). So the first
+week after nine jubilees is the tenth jubilee's opening week. dsscalendar.org dates that week to
+around AD 32, the time of the Messiah's death. The scroll itself gives no year. The AD date is that
+site's chronology applied to it ([Melchizedek in Second Temple
+Judaism](../scripture/melchizedek-in-second-temple-judaism.md#the-zadok-calendars-reading-of-11q13)).
 
 ### The Enoch wheel's 140 jubilees
 
@@ -150,7 +156,8 @@ dating and the [Prophetic Timeline](../../timeline/) tool are already built on i
 The calendar's structure says nothing about *when* the count starts. **A Zadok year is a count of
 the years elapsed since creation, with creation's own year as year 0, and this site puts year 0 at
 3959 BC.** That epoch is derived: the Masoretic numbers of Genesis 5 and 11, counted forward to an
-Exodus that 1 Kings 6:1 fixes at 1446 BC. On it AD 2026 is AM 5984, and the six-thousandth year
+Exodus in 1446 BC. That date is 1 Kings 6:1's 480 years counted back from Solomon's fourth year,
+966 BC on Edwin Thiele's chronology of the kings. On it AD 2026 is AM 5984, and the six-thousandth year
 falls in AD 2042. dsscalendar.org starts its count at 3925 BC, 34 years later, which puts year 6000
 in AD 2075. This page follows dsscalendar.org on the calendar's structure and the site's own line on
 the epoch.
