@@ -98,11 +98,11 @@ In Jesus' name. Amen.
 ## Study outline
 
 - [Made after the pattern](#made-after-the-pattern). Exodus 25:23-30: a gold table with a rim, rings
-  and gold vessels. The plate draws it to scale.
+  and gold vessels. The plate draws it to scale, and where it stood in the tent.
 - [The bread of the Face](#the-bread-of-the-face). What "bread of the Presence" says in Hebrew, the
   twelve loaves, and the Sabbath when they were changed.
 - [From the wilderness to the temple](#from-the-wilderness-to-the-temple). The table on the march, in
-  Solomon's house and in Ezekiel's vision.
+  Solomon's temple and after the exile, in Ezekiel's vision, and in Hebrews 9.
 - [David ate the holy bread](#david-ate-the-holy-bread). 1 Samuel 21 at Nob, and Jesus' reading of
   it in Matthew 12.
 - [The table of the Lord](#the-table-of-the-lord). Malachi, Paul, and the table in the kingdom.
@@ -150,6 +150,8 @@ The plate draws the table at Exodus 25:23's measurements, with everything the te
 dashed: the place of the rim, the length of the poles, and how the twelve loaves were laid out.
 
 ![Plate of the table and the bread of the Presence. The table in side elevation, drawn to scale at two cubits long and one and a half high, with a gold molding, a rim a handbreadth wide drawn dashed between the legs because its place is not given, a ring at each leg holding a pole, and twelve loaves on top in two stacks of six with frankincense on each, the stacks and the frankincense dishes dashed because the arrangement is the Mishnah's reading and no dish is named. A list beside it separates what the text states from what it leaves unstated. Below are the twelve loaves drawn both ways the Hebrew allows, two rows of six and two stacks of six, both dashed; the week of the bread, set out every Sabbath, kept before the LORD, eaten by the priests in a holy place and replaced by hot bread; and a strip following the table from the tabernacle through the wilderness, David at Nob, Solomon's ten tables, Malachi and Ezekiel, to Matthew 12:3-4, 1 Corinthians 10:21 and Luke 22:30.](../../assets/img/sanctuary-table.svg)
+
+### On the north side, facing the lampstand
 
 The table stood "on the north side of the tabernacle, outside the veil" (Exodus 40:22, ESV), with the
 lampstand opposite it on the south (Exodus 26:35). [The Lampstand](lampstand.md#where-the-light-fell)
@@ -220,10 +222,8 @@ Anatolia, set out daily where this bread was set out weekly (note on Exodus 25:3
 
 On the march the table was covered "with a cloth of blue" and carried with its vessels and "the
 regular showbread also" on it (Numbers 4:7, ESV), so the bread stayed before God even on the road.
-After the exile, the Chronicler's list of those who served again at God's house records that "some
-of their kinsmen of the Kohathites had charge of the showbread, to prepare it every Sabbath"
-(1 Chronicles 9:32, ESV; the list opens at 9:2). The Chronicler's "showbread" there is
-*lechem hamma'arekhet*, "bread of the arrangement", from the root of Leviticus 24:6's two "piles".
+
+### In Solomon's temple and after the exile
 
 David gave Solomon "the weight of gold for each table for the showbread, the silver for the silver
 tables" (1 Chronicles 28:16, ESV), and Solomon made ten tables for the temple, "five on the south side
@@ -233,10 +233,19 @@ table for the bread of the Presence" (1 Kings 7:48, ESV), and so does Chronicles
 (2 Chronicles 29:18), so whether the bread lay on one of Solomon's ten tables or on all of them is
 left open.
 
+After the exile, the Chronicler's list of those who served again at God's house records that "some
+of their kinsmen of the Kohathites had charge of the showbread, to prepare it every Sabbath"
+(1 Chronicles 9:32, ESV; the list opens at 9:2). The Chronicler's "showbread" there is
+*lechem hamma'arekhet*, "bread of the arrangement", from the root of Leviticus 24:6's two "piles".
+
+### Ezekiel's table before the LORD
+
 Ezekiel's vision of the temple has an altar of wood, three cubits high and two long, and his guide
 tells him, "This is the table that is before the LORD" (Ezekiel 41:22, ESV). The table is named
 again, and again it stands "before the face of" the LORD. (What Ezekiel's temple is, and when, is the
 question the series sets aside for the bronze altar.)
+
+### Listed in Hebrews 9
 
 Hebrews lists the table in the first room of the tent, "in which were the lampstand and the table and
 the bread of the Presence" (Hebrews 9:2, ESV). The Greek for "the bread of the Presence" is "the
@@ -296,11 +305,15 @@ who follow Him.
 
 ## The table of the Lord
 
+### The LORD's table in Malachi
+
 Malachi charged the priests of his day with despising God's table. They offered "polluted food upon
 my altar", saying "that the LORD's table may be despised" (Malachi 1:7, ESV), and profaned it "when
 you say that the Lord's table is polluted, and its fruit, that is, its food may be despised" (Malachi
 1:12, ESV). Malachi sets "my altar" and "the LORD's table" side by side, the place where God received His
 people's gifts.
+
+### The table of the Lord at Corinth
 
 Paul uses the phrase of the church's meal: "You cannot drink the cup of the Lord and the cup of
 demons. You cannot partake of the table of the Lord and the table of demons" (1 Corinthians 10:21,
@@ -310,6 +323,8 @@ quoting Malachi, and he sets it against the idol feasts of Corinth. His comparis
 at the altar: "are not those who eat the sacrifices participants in the altar?" (1 Corinthians
 10:18, ESV). [The Lord's Supper](../../feasts/lords-supper.md#the-table-of-the-lord-alone)
 works through what that means for the church.
+
+### "My table in my kingdom"
 
 Then, at the Last Supper, Jesus promised His disciples:
 
