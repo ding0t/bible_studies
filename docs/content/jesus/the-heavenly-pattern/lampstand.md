@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 25:31-40"
 bible_references: ["Exodus 25:31-40", "Exodus 26:35", "Exodus 27:20-21", "Exodus 28:4", "Exodus 37:17-24", "Exodus 40:24-25", "Leviticus 24:1-4", "Leviticus 26:12", "Numbers 8:1-4", "Numbers 17:8", "Numbers 17:10", "1 Samuel 3:3", "1 Kings 7:49", "1 Chronicles 28:15", "1 Chronicles 28:19", "2 Chronicles 4:7", "2 Chronicles 13:11", "Jeremiah 1:11-12", "Jeremiah 52:19", "Zechariah 3:4", "Zechariah 4:1-14", "Daniel 10:5", "Matthew 5:14-16", "John 8:12", "2 Corinthians 6:16", "Hebrews 8:5", "Hebrews 9:2", "Revelation 1:4", "Revelation 1:12-20", "Revelation 2:1-7", "Revelation 4:5", "Revelation 5:6", "Revelation 11:3-8", "Revelation 21:22-23", "Revelation 22:5", "Revelation 1:10", "Exodus 30:7", "Ezekiel 1:13", "Isaiah 22:21", "Zechariah 4:9", "Revelation 11:2", "Luke 9:28-33", "Malachi 4:4-5"]
 date_created: 2026-09-28
-date_modified: 2026-10-12
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -514,6 +514,8 @@ Lamb is the lamp. Until then He has set your church in the dark to shine.
 - [The Heavenly Pattern](index.md) — the series this page belongs to.
 - [The Almond](almond.md) — Aaron's staff that budded, and the almond's name, "watching."
 - [The Two Witnesses](../../last-things/two-witnesses.md) — Revelation 11 and the case for Moses and Elijah.
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — the lamp on
+  its stand (Matthew 5:15), where the stand is the same word as Revelation's lampstands.
 - [Jesus, Priest in the Order of Melchizedek](../melchizedek-priesthood.md) — Hebrews' "copy and
   shadow" argument, and Christ's priesthood in the true tabernacle.
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — the city whose lamp is the Lamb.

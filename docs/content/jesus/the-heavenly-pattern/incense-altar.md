@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 30:1-10"
 bible_references: ["Exodus 30:1-10", "Exodus 30:34-38", "Exodus 37:25-29", "Exodus 40:26-27", "Leviticus 10:1-3", "Leviticus 16:12-13", "Numbers 16:46-48", "1 Kings 6:20-22", "2 Chronicles 26:16-21", "Psalm 141:2", "Malachi 1:11", "Luke 1:8-13", "Hebrews 7:25", "Hebrews 9:3-4", "Revelation 5:8", "Revelation 6:9-11", "Revelation 8:3-5", "Revelation 9:13", "Revelation 14:18", "Revelation 16:7", "Revelation 21:22", "Revelation 22:4", "Numbers 16:35", "Revelation 6:15-17", "Exodus 25:22"]
 date_created: 2026-09-28
-date_modified: 2026-10-12
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -410,6 +410,8 @@ opened, and your prayer rises before Him.
 
 - [The Heavenly Pattern](index.md) — the series this page belongs to.
 - [The Lampstand](lampstand.md) — the altar's partner in the daily service.
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — the offerings'
+  "pleasing aroma," fulfilled in Christ and carried by His people (2 Corinthians 2:14-16).
 - [Prayer as Communion](../../christian-life/prayer-as-communion.md) — what prayer is, and how Jesus,
   Daniel and Paul prayed.
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — heard at once,

@@ -379,6 +379,8 @@ than Satan, and His presence in the church lasts through this age and ends when 
 
 - [The Rapture of the Church](rapture.md) — the pretribulational case, and the grammar of 2
   Thessalonians 2:7.
+- [Salt, Light and the Aroma of Christ](../christian-life/salt-light-and-aroma.md) — the church as
+  salt and light in the world (Matthew 5:13-16; Philippians 2:15).
 - [Know the Truth](../christian-life/know-the-truth.md) — the strong delusion of 2 Thessalonians
   2:10-11.
 - [The Names of the Holy Spirit](../holy-spirit/names-of-the-holy-spirit.md) — the Helper given
