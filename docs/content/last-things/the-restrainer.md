@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Thessalonians 2:1-12"
 bible_references: ["2 Thessalonians 2:1-9", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Philippians 2:15", "2 Corinthians 6:17", "1 Corinthians 5:2", "Colossians 2:14", "1 Corinthians 3:16", "Ephesians 2:21-22", "John 14:16-17", "John 14:26", "John 16:7-8", "John 16:13", "1 John 4:4", "Genesis 6:3", "Matthew 5:13-14", "Revelation 7:9", "Revelation 7:14", "Revelation 13:7", "Revelation 14:6", "Daniel 9:27", "Matthew 24:15", "Matthew 24:21", "Daniel 10:13", "Daniel 12:1", "Jude 9", "Revelation 12:7-8", "Romans 13:4", "Psalm 139:7", "Isaiah 52:11", "Genesis 29:35"]
 date_created: 2026-09-26
-date_modified: 2026-10-19
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -143,7 +143,7 @@ Bible* notes the same shift (note on 2:5-7).
 The Holy Spirit carries both kinds of name in John's Gospel. His name πνεῦμα (*pneuma*, G4151), "Spirit," is
 neuter. His title παράκλητος (*paraklētos*, G3875), "Helper," is masculine. John 14:26 uses both in one
 sentence: "But the Helper, the Holy Spirit, whom the Father will send in my name, he will teach you
-all things" (ESV). There the neuter "whom" (ὅ) follows "Spirit," and the masculine "he" (ἐκεῖνος)
+all things" (ESV). There the neuter "whom" (<span data-strongs="G3739">ὅ</span>) follows "Spirit," and the masculine "he" (ἐκεῖνος)
 takes up "Helper." John 16:13 sets the two side by side: ἐκεῖνος, τὸ πνεῦμα τῆς ἀληθείας, "he, the
 Spirit of truth" (ESV "When the Spirit of truth comes"). One Person is spoken of in the neuter and in
 the masculine. Paul's neuter τὸ κατέχον and masculine ὁ κατέχων fit a restrainer who is that Person;
@@ -307,7 +307,7 @@ case at length.
   (Revelation 12:7, ESV). The *ESV Study Bible* cites a Septuagint reading and rabbinic traditions in
   which Michael "passes away" before the great tribulation (note on 2:5-7). That Greek text is not in
   this project, whose Greek Daniel is Theodotion's; it reads ἀναστήσεται, "shall arise." The Hebrew
-  verb <span dir="rtl">עָמַד</span> (*amad*) means "stand," and it can mean "stop" ("she ceased
+  verb <span dir="rtl">עָמַד</span> (*amad*, H5975) means "stand," and it can mean "stop" ("she ceased
   bearing," Genesis 29:35, ESV), so the verb alone does not settle it. The verse's context does:
   Michael is "the great prince who has charge of your people," and "at that time your people shall be
   delivered" (Daniel 12:1, ESV). He stands for Israel in the time of trouble. And he fights under

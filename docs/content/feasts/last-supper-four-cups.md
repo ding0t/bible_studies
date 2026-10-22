@@ -9,7 +9,7 @@ bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Cori
 zadok_year: 3991
 gregorian_year: 33
 date_created: 2026-07-19
-date_modified: 2026-10-02
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -177,7 +177,7 @@ Lord." The four accounts do not narrate the same number of cups.
 
 **Matthew (26:26-29) and Mark (14:22-26)** each narrate **one** cup, given after the bread, and
 attach the vow to that same cup — the one Jesus has just identified with his blood. Matthew differs
-from Mark twice over: he adds **μεθ' ὑμῶν** (*meth' hymōn*, "with you"), and where Mark has "the
+from Mark twice over: he adds **μεθ' ὑμῶν** (*meth' hymōn*, G5216, "with you"), and where Mark has "the
 kingdom of God" Matthew has "my Father's kingdom." Both differences point the vow at a named
 company and a named place.
 

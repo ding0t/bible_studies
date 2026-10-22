@@ -4,7 +4,7 @@ category: "other"
 description: "Personal Bible study notes: the Old and New Testaments read in context, with word studies in the original languages and every claim traceable to a source."
 draft: false
 date_created: 2026-07-10
-date_modified: 2026-10-18
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -149,7 +149,7 @@ Faith in Christ rests on evidence that can be examined. Here is what convinces m
     ??? note "A textual question in Psalm 22:16"
 
         Psalm 22:16 carries a textual question. The Masoretic Text reads <span dir="rtl">כָּאֲרִי</span> (*ka'ari*), "like a lion," while the
-        Septuagint has ὤρυξαν, "they pierced." The ESV follows the Septuagint reading. See
+        Septuagint has <span data-strongs="G3736">ὤρυξαν</span>, "they pierced." The ESV follows the Septuagint reading. See
         [Bible Prophecy Essentials](last-things/prophecy-essentials.md) for the evidence on both sides.
 
 -   :material-gift-outline:{ .lg .middle } __Salvation rests on God's grace__

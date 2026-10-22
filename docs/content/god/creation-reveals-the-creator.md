@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Romans 1:19-23"
 bible_references: ["Psalm 19:1-4", "Acts 14:15-17", "Acts 17:24-28", "Job 38:4-7", "Ephesians 2:10", "Colossians 1:15-17", "Hebrews 1:1-3", "Romans 10:14-17", "Romans 3:11"]
 date_created: 2026-08-04
-date_modified: 2026-10-10
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -163,7 +163,7 @@ Romans 1:19-23 makes a real, specific claim. Every person, everywhere, has been 
 ## Discussion questions
 
 1. **The language.** Paul calls the created world "the things that have been made" (Romans 1:20),
-   from ποίημα (*poiema*), and calls believers "his workmanship" (Ephesians 2:10), the same word.
+   from ποίημα (*poiema*, G4161), and calls believers "his workmanship" (Ephesians 2:10), the same word.
    What does that shared word say about what God is doing in you?
 2. **The text in its context.** "So they are without excuse" (Romans 1:20, ESV) opens an argument
    that closes on "None is righteous, no, not one" (Romans 3:10, ESV) before Paul turns to

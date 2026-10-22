@@ -8,7 +8,7 @@ draft: false
 primary_passage: "1 John 5:11-13"
 bible_references: ["Acts 4:9-12", "Ephesians 1:13-14", "Ephesians 2:1-10", "John 3:16-18", "John 5:24", "John 6:37-40", "John 10:27-29", "Romans 8:1", "Romans 8:15-17", "Romans 8:31-39", "Romans 10:9-13", "Joel 2:32", "2 Corinthians 5:17", "Philippians 1:6", "Titus 3:4-7", "Hebrews 7:25", "2 Timothy 1:12", "1 Peter 1:3-5", "2 Peter 1:5-11", "Matthew 1:21"]
 date_created: 2026-08-24
-date_modified: 2026-10-21
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -256,7 +256,7 @@ with the world's wisdom, and for how to go after those who drift, see
   2:1-10; Romans 8:1-17; John 10:26-29; 2 Peter 1:5-11; Philippians 1:6. Quoted briefly with
   attribution per this site's [copyright policy](../about/copyright.md); ESV Bible text quoted under
   Crossway's stated permissions.
-- *Theological Wordbook of the Old Testament* (TWOT), root 929, <span dir="rtl">יָשַׁע</span> (*yashaʿ*), "deliver" — the
+- *Theological Wordbook of the Old Testament* (TWOT), root 929, <span dir="rtl">יָשַׁע</span> (*yashaʿ*, H3467), "deliver" — the
   root behind Jesus' own name.
 - MACULA Greek Linguistic Datasets (Greek NT syntax and morphology, CC BY 4.0) and the SBL Greek New
   Testament, used to verify the *sōzō* wordplay in Acts 4:9-12, the *touto* referent in Ephesians

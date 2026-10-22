@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:35"
 bible_references: ["Matthew 24:3-44", "Matthew 24:8", "Matthew 5:18", "Mark 13:3", "Mark 13:31", "Luke 21:33", "Isaiah 40:8", "Isaiah 51:6", "Isaiah 65:17", "2 Peter 1:16", "2 Peter 3:1-14", "1 Thessalonians 4:15", "1 Thessalonians 5:1-11", "Acts 1:7", "Revelation 3:3", "Revelation 16:15", "Revelation 20:4-15", "Revelation 21:1", "Romans 8:18-25", "2 Peter 3:5-7", "2 Peter 2:4-9", "Genesis 8:22", "Genesis 9:11", "Isaiah 54:9", "Isaiah 66:16", "Zephaniah 3:8", "Luke 17:26-30", "Jude 6", "Jude 14", "Luke 12:39-40", "Luke 21:34-36", "Isaiah 13:8", "Hebrews 1:10-12", "Psalm 102:25-27", "1 Peter 1:24-25", "Luke 16:17", "1 Corinthians 15:42", "1 Corinthians 15:51", "1 Corinthians 7:31", "Matthew 19:28", "Acts 3:21", "Revelation 21:5"]
 date_created: 2026-09-26
-date_modified: 2026-09-28
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -108,7 +108,7 @@ the timing: "But concerning that day and hour no one knows, not even the angels 
 Son, but the Father only" (24:36, ESV). Verse 35 is the hinge. It guarantees everything Jesus has
 just predicted (24:4-31) before He tells the disciples they will not be given its date. The saying
 stands in all three Synoptic Gospels (Mark 13:31; Luke 21:33). Mark and Luke have the plural verb,
-παρελεύσονται (*pareleusontai*), the form 2 Peter 3:10 uses.
+παρελεύσονται (*pareleusontai*, G3928), the form 2 Peter 3:10 uses.
 
 The discourse reaches past the return and the kingdom, to the end of the physical creation. Verse 35
 sits immediately after the one ["This Generation"](fig-tree-and-this-generation.md#this-generation-whose-and-of-what)
@@ -307,7 +307,7 @@ the fire to the flood, when "the world that then existed was deluged with water 
 3:6, ESV), and that world perished without ceasing to be the earth. Jesus calls the age to come "the
 new world," παλιγγενεσία (*palingenesia*, G3824), a "regeneration" (Matthew 19:28, ESV); Peter calls
 it "the time for restoring all the things" (Acts 3:21, ESV). And the One on the throne says, "I am
-making all things new" (Revelation 21:5, ESV): πάντα (*panta*), "all things," is what He makes new.
+making all things new" (Revelation 21:5, ESV): πάντα (*panta*, G3956), "all things," is what He makes new.
 
 The textual problem at 2 Peter 3:10 bears on this. The *ESV Study Bible* argues for renewal partly from
 "will be found" (note on 3:10), but the NA28 prints "will *not* be found," so the verse cannot carry
@@ -384,7 +384,7 @@ The closest wording is in Luke's account of the discourse. "Watch yourselves les
 upon you suddenly like a trap ... that you may have strength to escape" (Luke 21:34, 36, ESV).
 "Suddenly" there is αἰφνίδιος (*aiphnidios*, G160), a word the New Testament uses only twice: at
 Luke 21:34 and at 1 Thessalonians 5:3, "sudden destruction." Both verses also use ἐφίστημι
-(*ephistēmi*), "come upon," and both speak of escape, ἐκφεύγω (*ekpheugō*): "strength to escape"
+(*ephistēmi*, G2186), "come upon," and both speak of escape, ἐκφεύγω (*ekpheugō*, G1628): "strength to escape"
 (Luke 21:36) and "they will not escape" (1 Thessalonians 5:3). Paul applies it exactly as Jesus did:
 "let us keep awake and be sober" (1 Thessalonians 5:6).
 

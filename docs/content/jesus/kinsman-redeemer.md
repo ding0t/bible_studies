@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ruth 3:9-13; Ruth 4:1-17"
 bible_references: ["Ruth 1:1", "Ruth 1:16", "Ruth 1:21", "Ruth 2:1", "Ruth 2:12", "Ruth 2:20", "Ruth 3:9-13", "Ruth 4:1-22", "Judges 17:6", "Judges 21:25", "Leviticus 19:9-10", "Leviticus 25:23-25", "Leviticus 25:47-55", "Numbers 35:12", "Deuteronomy 25:5-10", "Deuteronomy 23:3", "Genesis 38:8", "Jeremiah 32:7", "Job 19:25", "Nehemiah 13:1", "Nehemiah 13:23", "Isaiah 54:5", "Isaiah 59:20", "Isaiah 56:3-7", "Romans 11:26", "Romans 3:24", "Galatians 4:4-5", "Hebrews 2:11", "Hebrews 2:17", "1 Peter 1:18-19", "Matthew 1:3", "Matthew 1:5"]
 date_created: 2026-09-21
-date_modified: 2026-10-10
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -121,7 +121,7 @@ Three laws shape the story:
 ### The office in the Law
 
 <span dir="rtl">גֹּאֵל</span> (*goel*, H1350; "go-EL") is the participle of
-<span dir="rtl">גָּאַל</span> (*gaʾal*, TWOT root 300), "to redeem" or "buy back." In Ruth the verb
+<span dir="rtl">גָּאַל</span> (*gaʾal*, H1350, TWOT root 300), "to redeem" or "buy back." In Ruth the verb
 and participle occur 21 times, and the noun <span dir="rtl">גְּאֻלָּה</span> (*geʾullah*, H1353,
 "right of redemption") twice more (4:6, 7). That is the *ESV Study Bible*'s count of 23, and the
 word first appears when Naomi hears Boaz's name (2:20) and last when the women name the child
@@ -149,7 +149,7 @@ has it first: "if he is not willing to redeem you, then, as the LORD lives, I wi
 
 The Septuagint, the Greek Old Testament, renders *goel* in Ruth as ἀγχιστεύς (*anchisteus*), "the
 one near" (3:9, 12; 4:6, 14). At Leviticus 25:25 it puts both ideas side by side: ὁ ἀγχιστεύων, the
-one who is near, λυτρώσεται, shall redeem. Peter uses that second verb for you: ἐλυτρώθητε, "you
+one who is near, <span data-strongs="G3084">λυτρώσεται</span>, shall redeem. Peter uses that second verb for you: ἐλυτρώθητε, "you
 were ransomed ... with the precious blood of Christ" (1 Peter 1:18-19, ESV). The Greek Bible holds the
 two halves of the office together — kin, and buying back — and Peter's word for your redemption is
 the Levitical one.
@@ -249,7 +249,7 @@ might also face" (note on 4:6); the text itself is silent on Boaz's cost.
 > the name of the dead in his inheritance, that the name of the dead may not be cut off from among
 > his brothers and from the gate of his native place. You are witnesses this day."
 
-"I have bought" is <span dir="rtl">קָנִיתִי</span> (*qaniti*), from <span dir="rtl">קָנָה</span>
+"I have bought" is <span dir="rtl">קָנִיתִי</span> (*qaniti*, H7069), from <span dir="rtl">קָנָה</span>
 (*qanah*, H7069), to acquire. The people answer, "We are witnesses," and bless the marriage by
 Rachel, Leah and Perez (4:11-12).
 

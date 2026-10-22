@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 10:1-4; Mark 3:13-19; Luke 6:12-16; Acts 1:13"
 bible_references: ["John 1:35-51", "Matthew 4:18-22", "Luke 5:1-11", "Mark 6:7-13", "Matthew 19:28", "Revelation 21:12-14", "Ephesians 2:20", "Acts 1:15-26", "Matthew 10:5-6", "Mark 14:50", "Luke 22:24", "John 15:16", "John 12:20-22", "Titus 3:5"]
 date_created: 2026-08-08
-date_modified: 2026-10-10
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -142,7 +142,7 @@ changes. The order *within* a group changes constantly.
 
 Three things hold across all four lists without exception:
 
-1. **Peter is first every time.** Matthew goes further and numbers him, <span lang="grc">πρῶτος</span> (*prōtos*, PRO-toss), "first," though no one else in his list is given a number. It is an ordinal marker with nothing after it to be ordinal against.
+1. **Peter is first every time.** Matthew goes further and numbers him, <span lang="grc">πρῶτος</span> (*prōtos*, PRO-toss, G4413), "first," though no one else in his list is given a number. It is an ordinal marker with nothing after it to be ordinal against.
 2. **Philip is fifth every time, and James son of Alphaeus is ninth every time.** Each heads a group of four.
 3. **Judas Iscariot is last every time he appears at all,** and he is simply gone in Acts.
 
@@ -314,7 +314,7 @@ supplies; where a meaning is uncertain, it is marked so.
 | 8 | Matthew | <span lang="grc" data-strongs="G3156">Μαθθαῖος</span> | <span dir="rtl">מַתִּתְיָה</span> (*Mattityah*, H4993), "gift of Yahweh"; also called Levi, "attached" | Tax collector (<span lang="grc" data-strongs="G5057">τελώνης</span>, *telōnēs*) under Rome |
 | 9 | James son of Alphaeus | <span lang="grc">Ἰάκωβος</span> | As above; *Alphaeus* is of uncertain derivation | Nothing recorded beyond the lists |
 | 10 | Thaddaeus / Judas son of James | <span lang="grc" data-strongs="G2280">Θαδδαῖος</span> | **Uncertain.** Strong's declines to derive it | Speaks once (John 14:22) |
-| 11 | Simon the Zealot | <span lang="grc">Καναναῖος</span> / <span lang="grc">Ζηλωτής</span> | Aramaic <span dir="rtl">קַנְאָן</span> (*qanʾan*), "zealous" — **not** "Canaanite" | Zealot, or of zealot temperament |
+| 11 | Simon the Zealot | <span lang="grc">Καναναῖος</span> / <span lang="grc" data-strongs="G2208">Ζηλωτής</span> | Aramaic <span dir="rtl">קַנְאָן</span> (*qanʾan*), "zealous" — **not** "Canaanite" | Zealot, or of zealot temperament |
 | 12 | Judas Iscariot | <span lang="grc">Ἰούδας Ἰσκαριώτης</span> | *Judah*, "praised"; *Iscariot* probably *ish-Qeriyoth*, "man of Kerioth" | Kept the money box (John 12:6); betrayed Jesus |
 
 Three notes on that table, each a place where confident-sounding tradition outruns the
@@ -421,8 +421,8 @@ Mark 3:14, Matthew 19:28, John 15:16 and Acts 1:21-22.
 ## Questions for discussion
 
 1. **The language.** Luke 6:13 says Jesus "called his disciples and chose from them twelve, whom he
-   named apostles." A <span lang="grc">μαθητής</span> (*mathētēs*) is a learner; an
-   <span lang="grc">ἀπόστολος</span> (*apostolos*) is an envoy sent with the sender's authority.
+   named apostles." A <span lang="grc">μαθητής</span> (*mathētēs*, G3101) is a learner; an
+   <span lang="grc">ἀπόστολος</span> (*apostolos*, G652) is an envoy sent with the sender's authority.
    What does the second title give the Twelve that the first did not?
 2. **The text in its context.** Jesus told the Twelve they "will also sit on twelve thrones, judging
    the twelve tribes of Israel" (Matthew 19:28). What would a Jew waiting for God to restore the

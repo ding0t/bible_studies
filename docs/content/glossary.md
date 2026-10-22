@@ -5,7 +5,7 @@ description: "Short definitions of the terms these studies use — interpretive 
 tags: ["glossary", "reference", "method/word-study", "method/textual-criticism"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-10-20
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -337,7 +337,7 @@ never to form one. → [The two databases](about/about-our-datasets.md#the-two-d
 
 **TWOT**{ #twot } — The *Theological Wordbook of the Old Testament*. Its bare facts are open enough
 to use freely: a Strong's number pointing to a root, lemma and one-line gloss, as H2617 <span
-dir="rtl">חֶ֫סֶד</span> (*ḥesed*) points to root 698a. Its discussion prose is not, and sits in the
+dir="rtl">חֶ֫סֶד</span> (*ḥesed*, H2617) points to root 698a. Its discussion prose is not, and sits in the
 quotation-only tier. → [TWOT: one source, split across two tiers](about/about-our-datasets.md#twot-
 one-source-split-across-two-tiers)
 

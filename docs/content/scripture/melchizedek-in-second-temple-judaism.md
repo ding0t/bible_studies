@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 110:4"
 bible_references: ["Genesis 14:17-20", "Psalm 76:2", "Psalm 110:1-4", "Leviticus 25:8-13", "Deuteronomy 15:2", "Isaiah 61:1-2", "Luke 4:18-21", "Psalm 82:1-8", "Psalm 7:7-8", "John 10:34-36", "Isaiah 52:7", "Daniel 9:24-27", "John 1:14", "Hebrews 1:5", "Hebrews 1:13", "Hebrews 5:11-14", "Hebrews 6:19-20", "Hebrews 7:1-4", "Hebrews 7:14-16", "Hebrews 7:21-27", "Hebrews 10:12-13", "Revelation 19:11-16", "Revelation 20:4-6"]
 date_created: 2026-09-26
-date_modified: 2026-09-28
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -145,7 +145,7 @@ interpretation "for the last days concerns the captives" (II 4), using Isaiah 61
 (<span dir="rtl">השבויים</span>, *haššəbûyîm*). Melchizedek "will bring them back to it and proclaim liberty to them, to
 release them [from the debt] of all their iniquities" (II 6). "Proclaim liberty"
 (<span dir="rtl">וקרא להמה דרור</span>, *wəqārāʾ lāhēmmāh dərôr*) is Isaiah 61:1's phrase, and
-<span dir="rtl">דְּרוֹר</span> (*derôr*) is also the word Leviticus 25:10 uses for the Jubilee's release. It is rare: seven
+<span dir="rtl">דְּרוֹר</span> (*derôr*, H1865) is also the word Leviticus 25:10 uses for the Jubilee's release. It is rare: seven
 occurrences in the Hebrew Bible, in Leviticus 25:10, Isaiah 61:1, Jeremiah 34 (four times) and
 Ezekiel 46:17. The shared Hebrew word does the connecting.
 

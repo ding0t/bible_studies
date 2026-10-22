@@ -5,7 +5,7 @@ description: "How AI is used to research and draft the studies on this site: wha
 tags: ["ai", "study-method", "transparency"]
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-10-19
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -34,7 +34,7 @@ Want the same setup for your own study? [Getting Started](../resources/getting-s
 or Greek — I'm at the start of that road, not the end of it. Working through a passage's morphology,
 lemmas, Strong's numbers, and semantic domains by hand would take days per chapter, if I could do it
 reliably at all. Querying a structured dataset takes minutes, and the result is checkable: when a
-study says a word is <span dir="rtl">חֶסֶד</span> (*chesed*) and gives its range of meaning, that
+study says a word is <span dir="rtl">חֶסֶד</span> (*chesed*, H2617) and gives its range of meaning, that
 came from a lexical database with an entry anyone can look up.
 
 **Many translations at once.** A single English translation is one committee's set of decisions.

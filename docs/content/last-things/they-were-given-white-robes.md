@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 6:11; Revelation 7:9-14; Revelation 19:7-8"
 bible_references: ["Genesis 3:7-10", "Genesis 3:21", "Psalm 51:7", "Isaiah 1:18", "Isaiah 55:1", "Isaiah 61:10", "Isaiah 64:6", "Zechariah 3:3-5", "Daniel 7:9", "Daniel 12:1", "Daniel 12:10", "Matthew 17:2", "Matthew 22:11-13", "Matthew 24:21", "Matthew 28:3", "Mark 9:2-3", "Mark 16:5", "Luke 15:21-22", "John 20:12", "Acts 1:10", "Romans 5:18", "Romans 8:1", "Romans 8:4", "Galatians 3:27", "Ephesians 2:8-10", "Ephesians 4:1", "Colossians 3:12", "1 John 1:7", "Jude 1:23", "Revelation 1:14", "Revelation 3:4-5", "Revelation 3:17-18", "Revelation 4:4", "Revelation 4:10-11", "Revelation 5:9", "Revelation 6:9-11", "Revelation 7:9-17", "Revelation 12:11", "Revelation 15:4", "Revelation 16:15", "Revelation 18:16", "Revelation 19:7-8", "Revelation 19:14", "Revelation 20:11", "Revelation 21:27", "Revelation 22:14"]
 date_created: 2026-10-15
-date_modified: 2026-10-15
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -219,7 +219,7 @@ offered, given, washed or granted.
 | Revelation 7:9-14 | A great multitude from every nation, out of the great tribulation | στολαὶ λευκαί, white robes | Washed and made white in the blood of the Lamb |
 | Revelation 19:7-8 | The Bride of the Lamb | βύσσινον λαμπρὸν καθαρόν, fine linen, bright and pure | ἐδόθη, "granted" |
 | Revelation 19:14 | The armies of heaven following Him | βύσσινον λευκὸν καθαρόν, fine linen, white and pure | Not said |
-| Revelation 22:14 | "Those who wash their robes" | στολαί | Washed |
+| Revelation 22:14 | "Those who wash their robes" | <span data-strongs="G4749">στολαί</span> | Washed |
 
 Three words carry the clothing. στολή, a long robe, appears nine times in the New Testament, five of
 them in Revelation (Revelation 6:11; 7:9, 13, 14; 22:14). ἱμάτιον (*himation*, G2440) is the common

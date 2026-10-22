@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Proverbs 9:10"
 bible_references: ["Proverbs 1:7", "Proverbs 3:5-6", "Proverbs 9:10", "Proverbs 8:35-36", "1 Corinthians 1:24", "1 Corinthians 1:30", "Colossians 2:3", "Matthew 12:42", "James 1:5"]
 date_created: 2026-09-20
-date_modified: 2026-09-27
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -17,7 +17,7 @@ ai_provider_models:
 
 **Scripture treats wisdom as a road you walk.** Proverbs says so in its own figure: wisdom calls out
 in the street, two paths lie open, and a life ends on one of them. The Hebrew
-<span dir="rtl">חׇכְמָה</span> (*ḥokmâ*) is skill in living rightly before God, and Proverbs uses the
+<span dir="rtl">חׇכְמָה</span> (*ḥokmâ*, H2451) is skill in living rightly before God, and Proverbs uses the
 word 70 times across its 31 chapters working out what that skill looks like at a market stall, in a
 marriage, in an argument, and at the end of a life.
 

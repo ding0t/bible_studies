@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 8:31-47"
 bible_references: ["John 18:37-38", "John 1:14", "John 1:17", "John 14:6", "John 16:13", "John 17:17", "Exodus 34:6", "Psalm 31:5", "Psalm 119:160", "Isaiah 65:16", "Revelation 3:14", "Hebrews 6:18", "Luke 1:4", "Luke 23:46", "1 John 2:21", "1 John 4:6", "1 John 5:20", "Genesis 3:1", "Genesis 3:4", "2 Corinthians 4:4", "2 Corinthians 11:3", "2 Corinthians 11:14", "Revelation 12:9", "2 Thessalonians 2:10-11", "Romans 1:25", "Romans 11:1", "Romans 11:29", "John 1:12", "2 Thessalonians 2:7", "Ephesians 4:14-15", "Ephesians 6:14", "1 Timothy 3:15", "2 Timothy 3:7"]
 date_created: 2026-09-25
-date_modified: 2026-10-18
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -84,14 +84,14 @@ In Jesus' name. Amen.
 ### Emet: what is firm
 
 The Old Testament word is <span dir="rtl">אֱמֶת</span> (*emet*, H571; "EH-met"). It comes from the
-root <span dir="rtl">אָמַן</span> (*aman*), and the *Theological Wordbook of the Old Testament* files
+root <span dir="rtl">אָמַן</span> (*aman*, H539), and the *Theological Wordbook of the Old Testament* files
 it under that root with the gloss "firmness" (TWOT 116k). *Emet* occurs 127 times. What is *emet* is
 what holds when you put your weight on it.
 
 So the word describes God before it describes a sentence. When the LORD proclaims His own name to
 Moses, He ends with it: "a God merciful and gracious, slow to anger, and abounding in steadfast love
 and faithfulness" (Exodus 34:6, ESV). "Faithfulness" there is *emet*, paired with
-<span dir="rtl">חֶסֶד</span> (*chesed*, steadfast love). David calls Him
+<span dir="rtl">חֶסֶד</span> (*chesed*, H2617, steadfast love). David calls Him
 <span dir="rtl">אֵל אֱמֶת</span> (*El emet*), "faithful God," in the psalm that says "Into your hand
 I commit my spirit" (Psalm 31:5, ESV) — the words Jesus prayed as He died (Luke 23:46). And His word
 carries the same quality: "The sum of your word is truth" (Psalm 119:160, ESV). [The Names of

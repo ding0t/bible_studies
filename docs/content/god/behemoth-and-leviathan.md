@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Job 40:15-24; Job 41:1-34"
 bible_references: ["Job 3:8", "Job 7:12", "Job 9:32-33", "Job 38:4-8", "Job 40:15-24", "Job 41:1-34", "Job 42:1-6", "Genesis 1:2", "Genesis 1:21", "Genesis 2:7", "Psalm 18:8", "Psalm 74:12-15", "Psalm 104:24-26", "Isaiah 27:1", "Ezekiel 29:3", "Romans 1:19-20", "Romans 11:33-36", "1 Timothy 2:5"]
 date_created: 2026-08-23
-date_modified: 2026-10-10
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -233,7 +233,7 @@ The name occurs five times in the Old Testament, and Job 41 is the longest treat
 >
 > 24 O LORD, how manifold are your works! In wisdom have you made them all; the earth is full of your creatures. 25 Here is the sea, great and wide, which teems with creatures innumerable, living things both small and great. 26 There go the ships, and Leviathan, which you formed to play in it.
 
-"Formed" is <span dir="rtl">יָצַר</span> (*yatsar*, H3335, TWOT root 898), the verb used of God forming man from the dust in Genesis 2:7 and forming every beast of the field in Genesis 2:19. The Septuagint uses ἔπλασας here, the same verb it uses of God forming Adam. Leviathan is placed in the psalm's inventory of made things, alongside the ships and the innumerable sea creatures — and the *ESV Study Bible*'s own note on Psalm 104:25-26 files it among the "great sea creatures" of Genesis 1:21, which is *tannin*.
+"Formed" is <span dir="rtl">יָצַר</span> (*yatsar*, H3335, TWOT root 898), the verb used of God forming man from the dust in Genesis 2:7 and forming every beast of the field in Genesis 2:19. The Septuagint uses <span data-strongs="G4111">ἔπλασας</span> here, the same verb it uses of God forming Adam. Leviathan is placed in the psalm's inventory of made things, alongside the ships and the innumerable sea creatures — and the *ESV Study Bible*'s own note on Psalm 104:25-26 files it among the "great sea creatures" of Genesis 1:21, which is *tannin*.
 
 **Psalm 74:14** — the hardest of the four.
 

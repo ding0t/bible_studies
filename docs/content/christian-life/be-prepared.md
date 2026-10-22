@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Peter 3:13-17"
 bible_references: ["1 Peter 3:13-17", "1 Peter 3:8-12", "1 Peter 3:18", "1 Peter 1:1", "1 Peter 1:3", "1 Peter 1:4", "1 Peter 1:5", "1 Peter 1:17", "1 Peter 1:21", "1 Peter 2:3", "1 Peter 2:11", "1 Peter 2:12", "1 Peter 2:18", "1 Peter 3:2", "1 Peter 4:3-4", "1 Peter 4:16", "Isaiah 8:12-13", "Psalm 34:12-16", "Acts 17:10-12", "Acts 21:20", "Acts 22:1", "Acts 25:16", "Colossians 4:5-6", "Luke 21:12-15", "Luke 6:15", "Titus 2:14", "Galatians 5:22-23", "Galatians 1:14", "1 Corinthians 9:3", "2 Corinthians 7:11", "Philippians 1:7", "Philippians 1:16", "2 Timothy 4:16", "Matthew 24:44", "Matthew 25:10"]
 date_created: 2024-05-24
-date_modified: 2026-10-11
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -162,7 +162,7 @@ Israel to Jesus, and Peter never pauses to defend the move.
 ## Zealots for the Good
 
 Verse 13 has a word with an edge on it. "If you are zealous for what is good" translates ζηλωταὶ τοῦ
-ἀγαθοῦ — literally "zealots of the good." Ζηλωτής (*zēlōtēs*) is the word Luke uses as a nickname for
+ἀγαθοῦ — literally "zealots of the good." Ζηλωτής (*zēlōtēs*, G2207) is the word Luke uses as a nickname for
 one of the Twelve: "Simon who was called the Zealot" (Luke 6:15). In the New
 Testament it describes people burning about something: the Jerusalem believers "all zealous for the law" (Acts 21:20), Paul
 on his own past (Galatians 1:14), and the people Christ purifies for Himself, "zealous for good
@@ -206,9 +206,9 @@ where the prophet is told not to share Judah's panic about the Assyrian threat:
 
 Isaiah's two verses work as a pair. Stop fearing what everyone else fears — then fear this instead.
 The Hebrew verb in 8:13 is <span dir="rtl">תַקְדִּישׁוּ</span> (*taqdishu*, H6942), a hiphil of
-<span dir="rtl">קָדַשׁ</span> (*qadash*), "to treat as holy." The Septuagint renders the clause
+<span dir="rtl">קָדַשׁ</span> (*qadash*, H6942), "to treat as holy." The Septuagint renders the clause
 κύριον αὐτὸν ἁγιάσατε — "the Lord, Him, sanctify." The Greek
-also drops <span dir="rtl">צְבָאוֹת</span> (*tsevaʾot*,
+also drops <span dir="rtl">צְבָאוֹת</span> (*tsevaʾot*, H6635,
 "hosts") altogether: it reads "the Lord," where the Hebrew reads "the LORD of hosts."
 
 Peter carries the first half over almost word for word and then changes one word in the second. Where

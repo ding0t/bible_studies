@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Acts 9:1-19; Romans 11:11-24"
 bible_references: ["Acts 9:15", "Acts 26:12-18", "Galatians 1:11-24", "Galatians 2:7-9", "Philippians 3:4-11", "1 Timothy 1:12-16", "1 Corinthians 15:8-10", "Ephesians 3:1-8", "Romans 9:22-24", "Ephesians 2:12-13"]
 date_created: 2026-08-29
-date_modified: 2026-10-10
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -149,7 +149,7 @@ The qualifying word is **ἐκλογή** (*eklogē*, G1589), "a choosing, a sele
 uses of God's sovereign choice throughout Romans 9-11. That is not incidental. A few chapters
 earlier in the same letter Paul had written of "vessels of mercy, which he has prepared beforehand
 for glory... including us whom he has called, not from the Jews only but also from the Gentiles"
-(Romans 9:23-24, ESV). That is the same noun, **σκεύη** (*skeuē*), qualified this time by *mercy*
+(Romans 9:23-24, ESV). That is the same noun, **σκεύη** (*skeuē*, G4632), qualified this time by *mercy*
 (ἐλέους) rather than by *choosing* (ἐκλογῆς). Two different qualifiers, on two occasions. They are
 the same word for the same kind of thing. A container with nothing to recommend it except that God
 decided to fill it. Paul is named once, and the mixed company of believing Jews and Gentiles he

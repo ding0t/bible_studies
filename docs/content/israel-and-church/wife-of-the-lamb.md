@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 19:7-9; Revelation 21:1-14"
 bible_references: ["Revelation 19:7", "Revelation 21:2", "Revelation 21:9", "Revelation 22:17", "Revelation 18:23", "Revelation 20:6", "Revelation 22:3-5", "Hosea 2:16", "Isaiah 54:5", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "Ephesians 1:5", "Ephesians 1:11", "Ephesians 1:14", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "Ephesians 5:31", "1 Peter 1:4", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "1 Corinthians 6:17", "Hosea 2:14-23", "Isaiah 54:7", "Isaiah 62:4", "Romans 9:25", "Romans 11:26", "2 Corinthians 11:2", "Revelation 19:11", "Zechariah 12:10", "John 3:29", "Matthew 11:11", "Revelation 21:3", "Revelation 21:12-14", "Revelation 21:24", "Ephesians 2:20", "1 Corinthians 10:32", "Hebrews 12:22-23", "Hebrews 11:10", "Hebrews 11:16", "John 14:2", "Revelation 5:10", "Hosea 2:17", "Genesis 2:24", "Leviticus 26:12", "Ezekiel 37:27", "Revelation 12:6", "Romans 11:17", "Romans 11:24", "Galatians 4:24", "Galatians 4:26-28", "Galatians 4:31", "Isaiah 54:1"]
 date_created: 2026-09-25
-date_modified: 2026-10-10
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -135,7 +135,7 @@ gets a new name: "Married" (Isaiah 62:4, ESV).
 Hosea says what changes when she comes back. "In that day, declares the LORD, you will call me
 'My Husband,' and no longer will you call me 'My Baal'" (Hosea 2:16, ESV). The two Hebrew words are
 <span dir="rtl">אִישִׁי</span> (*ishi*, "my man," H376) and <span dir="rtl">בַּעְלִי</span>
-(*baʿli*, H1180), and <span dir="rtl">בַּעַל</span> (*baʿal*) is the ownership word — master, possessor, and
+(*baʿli*, H1180), and <span dir="rtl">בַּעַל</span> (*baʿal*, H1167) is the ownership word — master, possessor, and
 the name of the Canaanite storm god she had been chasing. Isaiah uses the same root affirmingly,
 calling the LORD <span dir="rtl">בֹּעֲלַיִךְ</span> (*boʿalayik*), "your husband" (Isaiah 54:5), so the root
 itself is not the problem. The next verse gives the reason: "I will remove the names of the Baals from her mouth"
@@ -326,7 +326,7 @@ You are betrothed; you are waiting for your wedding.
 
 **Household and family.** "You are fellow citizens with the saints and members of the household of
 God" (Ephesians 2:19, ESV), and God is the one "from whom every family in heaven and on earth is
-named" (3:15, ESV). "Family" there is πατριά (*patria*, G3965), built on πατήρ (*patēr*) — a word the Greek
+named" (3:15, ESV). "Family" there is πατριά (*patria*, G3965), built on πατήρ (*patēr*, G3962) — a word the Greek
 Old Testament uses 174 times of a clan traced to its father, and which appears only three times in
 the New Testament.
 

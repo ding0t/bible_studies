@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
 bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "John 1:11", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Ruth 2:12", "Ruth 3:9", "Ruth 4:6", "Ruth 4:9-10", "Ruth 4:14", "Tobit 7:13-16", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Genesis 38:25", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 19:11", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1", "Ezekiel 16:8-9", "1 Corinthians 6:11", "Revelation 21:24", "Revelation 22:3-5", "1 Peter 1:18-19", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "1 Corinthians 10:16"]
 date_created: 2026-09-01
-date_modified: 2026-10-17
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -298,7 +298,7 @@ detail. A nearer redeemer holds the prior claim, and he weighs it against his ow
 redeem it for myself, lest I impair my own inheritance" (Ruth 4:6, ESV). Boaz takes it up in public,
 at the gate, in front of witnesses, and names two things in one breath — the land, and "Also Ruth
 the Moabite, the widow of Mahlon, I have bought to be my wife, to perpetuate the name of the dead in
-his inheritance" (Ruth 4:10, ESV). "I have bought" is <span dir="rtl">קָנִיתִי</span> (*qaniti*),
+his inheritance" (Ruth 4:10, ESV). "I have bought" is <span dir="rtl">קָנִיתִי</span> (*qaniti*, H7069),
 from <span dir="rtl">קָנָה</span> (*qanah*, H7069), to acquire; and the sentence closes, "You are
 witnesses this day."
 

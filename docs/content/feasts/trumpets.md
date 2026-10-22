@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:23-25"
 bible_references: ["Leviticus 23:23-25", "Numbers 29:1-6", "Numbers 10:1-10", "Leviticus 25:9", "Psalm 81:3", "Ezekiel 40:1", "Exodus 2:24", "Exodus 19:16-20", "Exodus 24:12", "Numbers 23:21", "Psalm 47:5-7", "Psalm 89:15", "Proverbs 30:27", "Daniel 12:1-2", "Jude 9", "Isaiah 27:13", "1 Corinthians 15:51-53", "1 Thessalonians 4:16-17", "Revelation 1:10-13", "Revelation 4:1", "Revelation 11:12-15", "Matthew 24:30-31", "Matthew 24:36", "Matthew 24:42-44", "Joel 2:1", "Joel 2:15"]
 date_created: 2025-08-10
-date_modified: 2026-10-10
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -181,7 +181,7 @@ HaZikkaron, the Day of Remembrance, and Leviticus 23:24's own vocabulary carries
 
 The teruah was also how Israel hailed its King. Balaam, hired to curse Israel, blesses it instead:
 "The LORD their God is with them, and the shout of a king is among them" (Numbers 23:21, ESV). The
-"shout" is <span dir="rtl">תְּרוּעַת</span> (*teruat*), the same word. Psalm 47 sets the shout and
+"shout" is <span dir="rtl">תְּרוּעַת</span> (*teruat*, H8643), the same word. Psalm 47 sets the shout and
 the horn around God's throne: "God has gone up with a shout, the LORD with the sound of a trumpet"
 (Psalm 47:5, ESV), where the shout is teruah and the trumpet is shofar, "for God is the King of all
 the earth" (Psalm 47:7, ESV). "Blessed are the people who know the festal shout" (Psalm 89:15, ESV)
@@ -278,7 +278,7 @@ voice of an archangel, and with the sound of the trumpet of God" (ESV).
   among the trumpets that proclaimed the Lord's presence. There God goes up with teruah and shofar;
   the Septuagint has ἐν φωνῇ σάλπιγγος (*en phōnē salpingos*), "with the sound of a trumpet" (Psalm
   46:6 LXX). In Paul the Lord comes down with cry, voice and trumpet, and the church goes up "to
-  meet" Him. That noun, ἀπάντησις (*apantēsis*), the same note explains as the welcome a city gave an
+  meet" Him. That noun, ἀπάντησις (*apantēsis*, G529), the same note explains as the welcome a city gave an
   arriving dignitary.
 
 Paul quotes none of these texts and names no feast. The match is one of function: the day Israel

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Corinthians 15:35-58"
 bible_references: ["1 Corinthians 15:12", "1 Corinthians 15:20-26", "Genesis 2:7", "Isaiah 25:8", "Isaiah 26:19", "Hosea 13:14", "Job 14:7-14", "Job 19:25-27", "Job 33:24-28", "Job 42:17", "Psalm 102:26", "Acts 2:27", "1 Corinthians 2:14-15", "Romans 5:14", "Philippians 3:20-21", "Romans 8:11", "Romans 8:23", "Romans 8:29", "1 John 3:2", "1 Thessalonians 4:16-17", "2 Corinthians 5:1-4", "Luke 24:36-43", "John 20:19-27", "1 Timothy 6:16", "Hebrews 1:12", "Revelation 6:11", "Daniel 12:2-3", "Job 19:25-27", "1 Corinthians 15:8", "Acts 26:13", "Revelation 1:16", "Luke 24:26", "1 Timothy 3:16", "Acts 1:3", "Matthew 17:2"]
 date_created: 2026-09-28
-date_modified: 2026-10-15
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -439,7 +439,7 @@ see God… my eyes shall behold, and not another" (Job 19:25-27, ESV). "My Redee
 <span dir="rtl">גֹּאֲלִי</span> (*goʾali*, H1350), the root of Hosea's "I shall redeem them."
 "Not another" is Paul's "this perishable body": the one who rises is the one who died. **The Hebrew
 of Job 19:26 is contested.** "From my flesh" can mean "in my flesh" or "apart from my flesh." The
-Greek Old Testament reads a resurrection there: "may He raise up (ἀναστῆσαι) my skin."
+Greek Old Testament reads a resurrection there: "may He raise up (<span data-strongs="G450">ἀναστῆσαι</span>) my skin."
 
 Elihu uses Hosea's other verb. "He has redeemed (<span dir="rtl">פָּדָה</span>, *padah*, H6299) my
 soul from going down into the pit" (Job 33:28, ESV), because "I have found a ransom" (Job 33:24,

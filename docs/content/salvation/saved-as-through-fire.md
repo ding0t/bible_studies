@@ -8,7 +8,7 @@ draft: false
 primary_passage: "1 Corinthians 3:10-15; Jude 1:22-23"
 bible_references: ["1 Corinthians 1:10-12", "1 Corinthians 1:20", "1 Corinthians 2:14-16", "1 Corinthians 3:1-4", "1 Corinthians 3:5-9", "1 Corinthians 3:16-23", "1 Corinthians 4:5", "1 Corinthians 5:5", "1 Corinthians 5:11", "1 Corinthians 6:9-11", "2 Corinthians 5:10", "Jude 1:3-4", "Jude 1:7", "Jude 1:9", "Jude 1:19-21", "Jude 1:24-25", "Zechariah 3:1-9", "Amos 4:11", "Galatians 6:1", "James 5:19-20", "John 10:28-29"]
 date_created: 2026-10-14
-date_modified: 2026-10-21
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -220,7 +220,7 @@ saved."
 The picture is a builder standing on a solid foundation while everything he put up over it burns.
 He walks out with his life and nothing else. A whole lifetime of building is gone, and he is saved.
 The Amos 4:11 "brand plucked out of the burning" image is close to this, and the Greek of Amos 4:11
-shares Paul's ὡς ("as") and πυρός ("fire"). Paul may have had it in mind; the verse is not quoted,
+shares Paul's ὡς ("as", G5613) and πυρός ("fire", G4442). Paul may have had it in mind; the verse is not quoted,
 so treat the link as possible.
 
 Peter describes the other end of the scale. For the believer who grows in faith, virtue and the

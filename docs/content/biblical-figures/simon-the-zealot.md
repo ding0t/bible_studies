@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 6:15; Matthew 10:4"
 bible_references: ["Mark 3:18", "Acts 1:13", "Matthew 9:9", "Matthew 22:15-22"]
 date_created: 2026-08-08
-date_modified: 2026-10-09
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -50,7 +50,7 @@ instincts. In Jesus' name. Amen.
 
 ## The name, and a mistranslation
 
-Luke calls him <span lang="grc">Ζηλωτής</span> (*Zēlōtēs*, zay-lo-TACE), "Zealot" (Luke 6:15;
+Luke calls him <span lang="grc">Ζηλωτής</span> (*Zēlōtēs*, zay-lo-TACE, G2208), "Zealot" (Luke 6:15;
 Acts 1:13).
 
 Matthew and Mark use a different word: <span lang="grc">Καναναῖος</span> (*Kananaios*,

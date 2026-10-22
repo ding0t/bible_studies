@@ -6,7 +6,7 @@ tags: ["study-method", "principles", "learning"]
 questions: ["How should I read and understand the Bible?"]
 draft: false
 date_created: 2026-01-11
-date_modified: 2026-10-21
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -44,7 +44,7 @@ Don't build a doctrine on one obscure narrative detail or an incidental remark. 
 
 ## Beware eisegesis
 
-**Eisegesis is reading into a passage a meaning its author never put there.** The name is built as the mirror of exegesis. *Exegesis* comes from ἐξηγέομαι (*exēgeomai*, ex-ay-GEH-oh-my, G1834), "to lead out" or "to tell", the verb John uses of Jesus: "he has made him known" (John 1:18, ESV). *Eisegesis* swaps the prefix for εἰς (*eis*), "into". The word was coined by later scholarship. The practice it names is in Scripture, and Scripture warns against it.
+**Eisegesis is reading into a passage a meaning its author never put there.** The name is built as the mirror of exegesis. *Exegesis* comes from ἐξηγέομαι (*exēgeomai*, ex-ay-GEH-oh-my, G1834), "to lead out" or "to tell", the verb John uses of Jesus: "he has made him known" (John 1:18, ESV). *Eisegesis* swaps the prefix for εἰς (*eis*, G1519), "into". The word was coined by later scholarship. The practice it names is in Scripture, and Scripture warns against it.
 
 ### How to recognise it
 
