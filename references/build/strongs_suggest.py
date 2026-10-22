@@ -1,10 +1,12 @@
 """Strong's numbers a study could add so its word studies open a pop-up card.
 
 The site's pop-up (app/src/entries/popups.js) opens a word study from a Strong's tag and from the
-Greek or Hebrew word written just before it: `ἀρραβών (*arrabōn*, G728)`. A word glossed with a
-transliteration but no number, `κατέχω (*katechō*)`, gets no card. Once a page has tagged a word,
-the pop-up links that word's later mentions on the same page too, so only the untagged ones are
-reported here.
+Greek or Hebrew word written just before it: `ἀρραβών (*arrabōn*, G728)`. Any other word opens
+through the form index (export_popups.py), which guesses from the form alone and leaves a form
+shared by two words unlinked. A word study's number is what makes its card certain, so a glossed
+word with no number is reported whether or not the index can place it. Once a page has tagged a
+word, the pop-up links that word's later mentions on the same page too, so only the untagged ones
+are reported here.
 
 Each untagged glossed word is looked up in MACULA's surface forms and lemmas (bible-text.db). A
 word that resolves to exactly one Strong's number is a suggestion; one that resolves to several
@@ -12,7 +14,8 @@ lists them, because only the author knows which is meant. Nothing is written: a 
 the wrong card with no error, so every suggestion is for the author to accept.
 
 A word named bare, with no gloss at all -- `The New Testament never uses δαιμονίζομαι of a Christian`
--- gets no card either, unless the page tags it somewhere. These are reported too, with the number
+-- is reported only when the form index cannot link it either, since it then gets no card. These
+are reported with the number
 another page already tags that word with where there is one, since that is the author's own reading
 and outranks MACULA's. Only a lone word counts: a run of two or more is a quotation, whose articles
 and conjunctions nobody means to study, and a block quotation is skipped whole.
@@ -25,12 +28,16 @@ Usage:  uv run python strongs_suggest.py docs/content/last-things/the-restrainer
         uv run python strongs_suggest.py --all
 """
 import argparse
+import json
 import re
 import sqlite3
 import sys
 import unicodedata
 from collections import defaultdict
+from functools import cache
 from pathlib import Path
+
+from export_popups import OUT as POPUPS, bare_key, form_key, shard_of
 
 DB_PATH = Path(__file__).resolve().parent / "out" / "bible-text.db"
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -63,6 +70,23 @@ def tag_in(text: str) -> str | None:
         if 1 <= int(number) <= STRONGS_MAX[prefix]:
             return f"{prefix}{int(number)}"
     return None
+
+
+@cache
+def form_shard(name: str) -> dict:
+    path = POPUPS / "forms" / f"{name}.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
+def index_links(word: str) -> bool:
+    """Whether the pop-up's form index gives this word one number, as popups.js linkForms does
+    for a page that has not tagged any of an ambiguous form's numbers."""
+    key = form_key(word)
+    for k in (key, bare_key(key)):
+        found = form_shard(shard_of(k)).get(k)
+        if found:
+            return isinstance(found, str)
+    return False
 
 
 def load_index(conn: sqlite3.Connection) -> tuple[dict[str, set[str]], dict[str, str]]:
@@ -167,6 +191,8 @@ def scan(
         ids = sorted((site or {}).get(key) or forms.get(key, ()), key=lambda s: (s[0], int(re.sub(r"\D", "", s))))
         # An inflected form the next clause tags by its lemma: `μαντευομένη, from μαντεύομαι (…, G3132)`.
         if len(ids) == 1 and re.search(rf"(?<![\w-]){ids[0]}(?!\d)", body[m.end(): m.end() + 150]):
+            continue
+        if index_links(word):
             continue
         source = "site" if (site or {}).get(key) else "macula" if ids else ""
         report["bare"].append((line_of(m.start()), word, source, [(sid, lemmas.get(sid, "")) for sid in ids]))
