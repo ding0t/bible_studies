@@ -1,0 +1,80 @@
+slug: "true-worship"
+title: "True Worship"
+status: review
+target_path: "docs/content/christian-life/true-worship.md"
+
+primary_passage: "John 4:21-24"
+supporting_passages:
+  - "Genesis 22:5-8"
+  - "Exodus 20:3-6; 25:8-9"
+  - "Deuteronomy 6:13; 32:43 (LXX)"
+  - "Psalm 29:2; 51:16-17; 95:6-7"
+  - "Isaiah 2:2-3; 6:1-5; 29:13; 42:8; 66:23"
+  - "Micah 6:6-8"
+  - "Zechariah 14:9, 16"
+  - "Daniel 3:17-18; 4:34"
+  - "Matthew 4:8-10; 14:33; 15:8-9; 28:9, 17"
+  - "John 2:19-21; 9:38; 20:28"
+  - "Acts 2:42; 10:25-26; 12:21-23; 14:11-15; 20:7"
+  - "Romans 12:1; Philippians 2:9-11; 3:3; Colossians 3:16"
+  - "Hebrews 1:6; 10:19-22; 12:28-29; 13:15-16; 1 Peter 2:5"
+  - "2 Thessalonians 2:4"
+  - "Revelation 4:8-11; 5:8-14; 7:9-12; 13:4, 8, 15; 14:6-7; 15:4; 19:10; 21:22; 22:3-4, 8-9"
+sibling_studies:
+  - {slug: "jesus/woman-at-well", role: primary, use: build-on, note: "Treats John 4:20-24 in full: Gerizim and Deut 27:4 (MT Ebal / SP Gerizim), δεῖ at 4:20 and 4:24 (where -> how), 'salvation is from the Jews', Jerusalem's future, and the case for 'Spirit' (LSB/CSB footnotes, NIV/CSB text, John 7:39). This study summarises in a paragraph and links; the author approved pulling detail and cross-linking (2026-10-22)."}
+  - {slug: "sin/idolatry", role: cited, use: link, note: "Its 'Made to worship' section is this study's 'why'. Link both ways when this one is published (idolatry 'Turning back' already points to John 4:23)."}
+  - {slug: "sin/pride", role: cited, use: link, note: "Its 'You are gods' section lists every human claim to divinity; this study takes only worship received and refused (Acts 12, Acts 14, 2 Thess 2:4) and links it."}
+  - {slug: "feasts/tabernacles", role: cited, use: link, note: "Zechariah 14:16-19, the nations keeping Booths in the kingdom."}
+  - {slug: "last-things/new-jerusalem", role: cited, use: link, note: "Revelation 21:22; 22:3-4, the city's temple and the servants who worship and see His face."}
+  - {slug: "spiritual-beings/those-called-gods", role: cited, use: enrich, note: "Could add Hebrews 1:6 / Deuteronomy 32:43 LXX and 4Q44: the 'gods' bow to Him in the same Song that says Israel sacrificed to demons."}
+genre: [topical, gospel, epistle, apocalyptic, law, psalm, prophets]
+
+thesis: "Worship is bowing your whole self before God because He is worthy as Creator and Redeemer; before Jesus it came through a place, a priesthood and sacrifice, since Jesus it comes through Him, by the Holy Spirit and in truth, anywhere and with your whole life, and in the kingdom and the new creation every nation and every creature will give it, so it belongs to God alone, which is why angels refuse it, the beast demands it, and Jesus receives it."
+outline:
+  - {section: "What worship is", says: "shachah (bow down) and proskyneō; ʿavad and latreuō (serve). Both senses: the whole life (Rom 12:1) and acts of praise (Heb 13:15)."}
+  - {section: "Why we worship", says: "Creator (Ps 95:6; Rev 4:11) and Redeemer (Rev 5:9); made for it (link idolatry); His glory He gives to no other (Isa 42:8)."}
+  - {section: "Before Jesus", says: "Moriah: worship as offering what you love, and God provides the lamb (Gen 22:5-8). Tabernacle 'that I may dwell' (Exod 25:8). Isaiah 6. The prophets reject lips without the heart (Isa 29:13; Ps 51:16-17; Mic 6:6-8)."}
+  - {section: "What Jesus taught", says: "Matt 4:10 (worship where Deut 6:13 has fear; 'only' with the LXX); John 4:21-24 summarised from woman-at-well; Matt 15:8-9; John 2:19-21."}
+  - {section: "Worship belongs to God alone", says: "Angels refuse (Rev 19:10; 22:8-9, Ὅρα μή); apostles refuse (Acts 10:25-26; 14:14-15); Herod struck (Acts 12:21-23); Daniel 3:18 and 4:34; the beast demands (Rev 13:4, 8, 15; 2 Thess 2:4); the eternal gospel (Rev 14:7)."}
+  - {section: "Jesus receives it", says: "Matt 14:33; 28:9, 17; John 9:38; 20:28; Heb 1:6 quoting LXX Deut 32:43 (4Q44 preserves the Hebrew); Phil 2:10-11; Rev 5:8-14. Jesus accepts what angels refuse."}
+  - {section: "The mightiest worship", says: "Seraphim cover their faces (Isa 6:2-3); living creatures day and night (Rev 4:8); elders cast crowns (4:10); all angels on their faces (7:11); 'the host of heaven worships you' (Neh 9:6)."}
+  - {section: "Worship since Jesus", says: "How, where, when: Heb 10:19-22; Phil 3:3; Rom 12:1; Heb 13:15-16; 1 Pet 2:5; Heb 12:28-29; gathered (Acts 2:42; 20:7; Col 3:16)."}
+  - {section: "Worship in the kingdom and forever", says: "Zech 14:9, 16; Isa 2:2-3; 66:23; Ezekiel 40-48 marked as debated; Rev 15:4; 21:22; 22:3-4."}
+word_budget: 5000
+word_budget_reason: "The author's brief (2026-10-22) asks for what, how, when, where and why across four eras (before Jesus, Jesus, the church, the kingdom and beyond), heaven's worship, and worship given to God alone. 4,000 would mean forking the eras."
+
+stages:
+  scoping: {done: true, notes: "Backlog 10.6 plus the author's brief of 2026-10-22. Placed in christian-life/ (practical theology). Primary sibling woman-at-well handles John 4 exegesis; this study builds on it."}
+  exegesis:
+    historical_context: {done: true, notes: "Tabernacle/temple worship; Second Temple Gerizim dispute (from woman-at-well); Roman ruler worship behind Acts 12 and Revelation 13."}
+    literary_context: {done: true, notes: "Revelation's worship scenes alternate with judgment and with the beast's counterfeit worship (Rev 4-5, 7, 13, 14, 15, 19, 22)."}
+    content_word_studies:
+      done: true
+      notes: "Counts: G4352 60x SBLGNT, 24 in Revelation, 13 in Matthew; G3000 21x; H7812 162x morphhb-wlc (macula files it under lemma חוה as 7812a; a plain 'H7812' count on macula returns 2, so cite the morphhb figure)."
+      terms:
+        - {word: "הִשְׁתַּחֲוָה", language: hebrew, transliteration: "hishtachavah", strongs_id: "H7812", gloss: "bow down, worship", notes: "Gen 18:2; 19:1; 23:7 to people; Gen 22:5 Abraham going to worship. Root (שחה vs חוה) debated; not argued in the study."}
+        - {word: "προσκυνέω", language: greek, transliteration: "proskyneō", strongs_id: "G4352", gloss: "bow down, worship"}
+        - {word: "λατρεύω", language: greek, transliteration: "latreuō", strongs_id: "G3000", gloss: "serve (in worship)", notes: "Rev 22:3 λατρεύσουσιν; Rom 12:1 λογικὴν λατρείαν (G3050, G2999)."}
+        - {word: "Ὅρα μή", language: greek, transliteration: "hora mē", strongs_id: "G3708", gloss: "See that you do not!", notes: "Rev 19:10; 22:9. ESV 'You must not do that!'"}
+  hermeneutics:
+    cultural_vs_transcultural: {done: true, notes: "Place, priesthood and animal sacrifice fulfilled in Christ (John 2:21; Heb 10:19-22); bowing, serving, reverence and exclusive devotion carry over."}
+    theological_principle: {done: true, notes: "God alone is worthy of worship; that Jesus receives it while angels and apostles refuse it is a proof of His deity (ESV Study Bible on Heb 1:6 and Rev 19:10 confirms)."}
+    application_draft: {done: true, notes: "Be Transformed: think (whole life), attitude (reverence), do (gather, and offer one act of praise and one act of sharing this week, Heb 13:15-16)."}
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Hebrews 1:6 <- Deuteronomy 32:43 LXX", relation: "quotation-greek, strength 12, corroborated. MT lacks the line; 4Q44 (4QDeut-q) has חוה and אלהים, 18 words of the verse survive."}
+      - {ref: "Matthew 4:10 <- Deuteronomy 6:13", relation: "Matthew προσκυνήσεις where MT 'fear' and Brenton LXX φοβηθήσῃ; μόνῳ ('only') matches the LXX."}
+    translations_compared: ["ESV", "LXX (Brenton)", "SBLGNT", "MT (WLC)"]
+    divergences_noted: "Deut 32:43: MT shorter than LXX and 4Q44."
+  drafting: {done: true, file: "docs/content/christian-life/true-worship.md"}
+  review: {done: false, validated: true}
+
+open_questions:
+  - "Ezekiel 40-48 offerings in the millennium: memorial, literal-purificatory, or other; marked as debated in one sentence. Fork candidate."
+  - "Sunday / the Lord's day: Acts 20:7 and 1 Cor 16:2 record practice; Revelation 1:10. Marked as recorded practice."
+  - "Fork candidate: music in worship (Psalms, Col 3:16, Eph 5:19)."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Heb 1:6 note confirmed: only God is worthy of worship, so the angels' worship of the Son shows His deity; cites Deut 32:43 LXX or Ps 97:7. Rev 19:9-10 note confirmed John's double rebuke as 'dramatic confirmation of the deity of Jesus'. Rom 12:1 note contributed the broad (whole life) and narrow (acts of praise) senses of worship. John 4:24 note: God is spirit, so worship is not confined to one place."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Matt 4:10: Jesus follows Deut 6:13's context, which forbids idolatry (6:14)."}
+last_updated: "2026-10-22"
