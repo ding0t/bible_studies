@@ -397,18 +397,36 @@ export async function crossReferences(data, { reference }) {
   };
 }
 
+// The unfoldingWord titles are morphology-tag names ("Verb Sequential Imperfect"); readers ask by
+// the traditional ones, which otherwise match only incidental body text ("waw consecutive" scored
+// highest on "Number Plural").
+const GRAMMAR_ALIASES = [
+  [
+    /\b(wayyiqtol|vayyiqtol|preterite|(waw|vav) (consecutive|conversive)( imperfect)?)\b/,
+    'sequential imperfect',
+  ],
+  [/\b(weqatal|veqatal|(waw|vav) (consecutive|conversive) perfect)\b/, 'sequential perfect'],
+  [/\byiqtol\b/, 'verb imperfect'],
+  [/\bqatal\b/, 'verb perfect'],
+  [/\b(accusative|object) marker\b|\bet\b/, 'direct object marker'],
+  [/\bconstruct chain\b/, 'state construct'],
+  [/\bhe locale\b/, 'directional he'],
+];
+
 export async function hebrewGrammar(data, { topic }) {
   const articles = (await data.grammar()) ?? [];
-  const terms = String(topic ?? '')
-    .toLowerCase()
+  const asked = String(topic ?? '').toLowerCase();
+  const terms = (GRAMMAR_ALIASES.find(([re]) => re.test(asked))?.[1] ?? asked)
     .split(/\s+/)
     .filter(Boolean);
   const scored = articles
     .map((a) => {
-      const title = a.title.toLowerCase();
+      // Title words by prefix, so "hiph" finds Hiphil but "perfect" does not find Imperfect.
+      const titleWords = a.title.toLowerCase().split(/\s+/);
       const body = a.body.toLowerCase();
       const score = terms.reduce(
-        (s, t) => s + (title.includes(t) ? 5 : 0) + (body.includes(t) ? 1 : 0),
+        (s, t) =>
+          s + (titleWords.some((w) => w.startsWith(t)) ? 5 : 0) + (body.includes(t) ? 1 : 0),
         0
       );
       return { a, score };

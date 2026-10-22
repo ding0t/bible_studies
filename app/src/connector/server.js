@@ -279,10 +279,27 @@ async function dispatch(data, method, params = {}) {
     case 'tools/call': {
       const tool = TOOLS.find((t) => t.name === params.name);
       if (!tool) throw new RpcError(-32602, `Unknown tool: ${params.name}`);
+      // One line per call is the only record of what the connector is used for: every outcome,
+      // a bug inside a tool included, reaches the client as HTTP 200, so Cloudflare's own
+      // metrics cannot tell a failure from a success. Read them in Workers Logs.
+      const started = Date.now();
+      const log = (outcome, extra = {}) =>
+        console.log(
+          JSON.stringify({
+            tool: tool.name,
+            arguments: params.arguments ?? {},
+            outcome,
+            ms: Date.now() - started,
+            ...extra,
+          })
+        );
       try {
         const result = await tool.run(data, params.arguments ?? {});
+        log('ok');
         return { content: [{ type: 'text', text: JSON.stringify(result, null, 1) }] };
       } catch (e) {
+        // Bad input throws a plain Error; anything else (TypeError, RangeError) is a bug.
+        log('error', { error: e.message, stack: e.name === 'Error' ? undefined : e.stack });
         return { content: [{ type: 'text', text: e.message }], isError: true };
       }
     }

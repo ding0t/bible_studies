@@ -101,6 +101,15 @@ test('years convert both ways on the site epoch', async () => {
   assert.equal((await call('convert_year', { year: 'AM 2513' })).year, '1446 BC');
 });
 
+test('a traditional grammar name finds the article under its tag name', async () => {
+  const waw = await call('hebrew_grammar', { topic: 'waw consecutive' });
+  assert.equal(waw.article.title, 'Verb Sequential Imperfect');
+  assert.equal(
+    (await call('hebrew_grammar', { topic: 'weqatal' })).article.title,
+    'Verb Sequential Perfect'
+  );
+});
+
 test('a skill is served as a prompt with the connector adapter', async () => {
   const { result } = await handleMessage(data, {
     jsonrpc: '2.0',

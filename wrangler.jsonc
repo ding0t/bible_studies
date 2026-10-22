@@ -5,6 +5,9 @@
   // `npm run build:tools`); every other request is served from the static assets directly,
   // without invoking it.
   "main": "app/dist/worker.js",
+  // Workers Logs: the connector's one line per tool call (server.js). Static assets never invoke
+  // the Worker, so this records /mcp traffic only.
+  "observability": { "enabled": true },
   "assets": {
     "directory": "./site",
     "binding": "ASSETS",
