@@ -5,7 +5,7 @@ description: "Set up the same open-data Bible workbench and AI agent this site i
 tags: ["getting-started", "study-method", "ai", "data"]
 draft: false
 date_created: 2026-10-19
-date_modified: 2026-10-19
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-sonnet-5.5
 ---
@@ -133,7 +133,7 @@ The first reports `study-notes` as missing if you skipped Level 3, which is the 
 
 ```bash
 uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin \
-    --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects mkdocs serve
+    --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects --with segno mkdocs serve
 # the timeline and pop-ups need their bundle first:
 cd app && npm install && npm run build:tools
 ```

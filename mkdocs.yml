@@ -68,6 +68,9 @@ hooks:
   - hooks/subject_wheel.py
   # A strip of the drawn plates each section's studies embed, on its landing page.
   - hooks/section_plates.py
+  # A printable one-sheet group study under every study's discussion questions. Needs segno (QR
+  # code), so the mkdocs commands carry --with segno. See hooks/study_sheet.py.
+  - hooks/study_sheet.py
   # llms.txt, a markdown copy of every page, and the FAQ's list of questions the studies answer,
   # for AI assistants a reader points at the site. See hooks/llms.py.
   - hooks/llms.py
@@ -508,6 +511,7 @@ extra_css:
   - assets/stylesheets/hebrew.css
   - assets/stylesheets/greek.css
   - assets/stylesheets/home.css
+  - assets/stylesheets/study-sheet.css
 
 # Verse and word pop-ups on every page. The bundle is built by `npm run build:tools` (app/) and
 # its data lives in assets/popups/ -- see app/src/entries/popups.js.

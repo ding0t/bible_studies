@@ -125,7 +125,7 @@ hand-write those three.
 **Content site** (`docs/content/` — mkdocs-material, where nearly all writing happens):
 
 ```bash
-uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects mkdocs serve
+uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects --with segno mkdocs serve
 ```
 
 Hot-reload dev server at http://localhost:8000/. `docs_dir` is `docs/content` (see `mkdocs.yml`).
@@ -429,6 +429,17 @@ the workflow manually (`workflow_dispatch`).
   six panels. A comic is data, `docs/data/comics/<slug>.toml`, drawn by `utils/build_comics.py` from
   the reusable cast, poses, scenes and layouts in `utils/lib/comic.py`; every bubble is the ESV's
   wording or marked "condensed" from the verses its panel names.
+- **Every study with a point and discussion questions gets a printable group sheet**
+  (`hooks/study_sheet.py`): one A4 sheet, double-sided, for a 40-minute group, in a collapsed
+  block under the questions. It is assembled from the rendered study (the `**In one sentence:**`
+  thesis, `primary_passage` in WEB, the first comic or drawn SVG, the Study outline, the
+  questions, Be Transformed, the first memory verse, the prayer), so it says nothing the study
+  does not. The sheet is the group's; **the study itself is the leader's notes** — one set of
+  notes per study, with no separate leader's guide to drift from it. **The facet labels on the questions place them on the clock** (language and context
+  → Discover, Christ and the hard part → Wrestle, Be transformed → Respond), which is one more
+  reason a question set should carry them (Check 25). A study needs no change to get a sheet; a
+  weak sheet is a sign of a missing thesis, outline or facet label. See
+  [docs/dev/study-sheets.md](docs/dev/study-sheets.md).
 - **An exemption in a checking tool carries its justification with it, or it is a hole.** Two of this
   repo's checks were defeated by an unrecorded exemption rather than by a missing check. The diagram
   sweep skipped `timeline` blocks because they "size themselves" — they do not, and five stayed

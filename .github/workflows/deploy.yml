@@ -76,7 +76,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
 
       - name: Build mkdocs content site
-        run: uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects mkdocs build --site-dir site
+        run: uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects --with segno mkdocs build --site-dir site
 
       # The connector (/mcp) against the site just built: the files the Worker will read.
       - name: Test connector

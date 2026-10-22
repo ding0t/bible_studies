@@ -28,7 +28,7 @@ Building your own study workbench (data, agent, prompts): see the [Getting Start
 ### Content (studies, commentaries)
 
 ```bash
-uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects mkdocs serve
+uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects --with segno mkdocs serve
 ```
 
 Dev server (hot reload) at http://localhost:8000/.

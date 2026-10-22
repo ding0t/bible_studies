@@ -247,7 +247,7 @@ drafting; changing them costs a minute at this point and a rewrite later.
 
   ```bash
   uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin \
-      --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects \
+      --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects --with segno \
       mkdocs build --strict --site-dir /tmp/mkcheck
   ```
 

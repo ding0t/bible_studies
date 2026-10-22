@@ -1,0 +1,350 @@
+/* Group study sheet -- rendered by hooks/study_sheet.py.
+ *
+ * The memory verse cards' unit (memory-verses.css): --mm is 1/210 of the sheet's width, so the
+ * on-screen sheet is an exact scale model of the printed A4 page. Paper in both site palettes.
+ * Each side is a flex column inside a 10 mm margin; the parts that must fit (passage, questions)
+ * take what is left, and the ruled writing space is whatever remains after them. */
+
+.ss {
+  --mm: calc(100cqw / 210);
+  --ss-ink: #1d1b19;
+  --ss-muted: #6b665f;
+  /* Chosen to hold up printed in greyscale: the accent reads as near-black, the rules as a grey a
+     toner printer still lays down. */
+  --ss-rule: #aaa49a;
+  --ss-accent: #6a3410;
+  --ss-tint: #f6f1e8;
+  --ss-serif: "Noto Serif", Georgia, "Times New Roman", serif;
+  --ss-sans: system-ui, sans-serif;
+  margin: 1.6rem 0;
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+}
+.ss > summary {
+  cursor: pointer;
+  padding: 0.6rem 0.8rem;
+  font-weight: 700;
+}
+.ss > summary small { font-weight: 400; color: var(--md-default-fg-color--light); margin-left: 0.4rem; }
+.ss-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1.2rem;
+  padding: 0 0.8rem 1rem;
+  font-size: 0.75rem;
+}
+.ss-controls p { margin: 0; flex: 1 1 20rem; }
+.ss-controls .md-button { margin: 0; }
+.ss-controls label { cursor: pointer; white-space: nowrap; }
+
+/* Black & white: no tints, black labels, outlined badges and a grey graphic, for a black-only or
+   toner printer, where tints come out as dither and colour as muddy grey. */
+.ss:has(.ss-opt-mono:checked) {
+  --ss-accent: #000;
+  --ss-tint: #fff;
+  --ss-rule: #8a8a8a;
+  --ss-muted: #444;
+}
+.ss:has(.ss-opt-mono:checked) .ss-badge {
+  background: #fff;
+  color: #000;
+  box-shadow: inset 0 0 0 calc(0.3 * var(--mm)) #000;
+}
+.ss:has(.ss-opt-mono:checked) :is(.ss-point, .ss-plan span) {
+  box-shadow: inset 0 0 0 calc(0.25 * var(--mm)) #000;
+}
+.ss:has(.ss-opt-mono:checked) .ss-graphic { filter: grayscale(1) contrast(1.15); }
+
+/* ---- Sheet ------------------------------------------------------------------------------- */
+
+.ss-sheet {
+  container-type: inline-size;
+  position: relative;
+  width: min(100% - 1.6rem, 210mm);
+  aspect-ratio: 210 / 297;
+  margin: 0 auto 1.6rem;
+  background: #fff;
+  color: var(--ss-ink);
+  box-shadow: 0 0.1rem 0.6rem rgb(0 0 0 / 0.18);
+  overflow: hidden;
+  font-family: var(--ss-serif);
+  line-height: 1.3;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+.ss-sheet > * { position: relative; }
+.ss-sheet {
+  display: flex;
+  flex-direction: column;
+  gap: calc(3 * var(--mm));
+  padding: calc(10 * var(--mm)) calc(10 * var(--mm)) calc(15 * var(--mm));
+  box-sizing: border-box;
+  font-size: calc(3.1 * var(--mm));
+}
+.ss-sheet p { margin: 0; }
+.ss-sheet h2 {
+  margin: 0;
+  font-family: var(--ss-serif);
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--ss-ink);
+}
+.ss-sheet b, .ss-sheet strong { font-weight: 600; }
+.ss-sheet small { font-size: 0.78em; }
+
+/* Section labels: small capitals in the accent colour. */
+.ss-h {
+  display: flex;
+  align-items: center;
+  gap: calc(2 * var(--mm));
+  margin-bottom: calc(1.4 * var(--mm));
+  font-family: var(--ss-sans);
+  font-size: calc(2.4 * var(--mm));
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ss-accent);
+}
+.ss-h small { font-weight: 400; letter-spacing: 0.04em; color: var(--ss-muted); text-transform: none; }
+
+.ss-badge {
+  display: inline-flex;
+  align-items: baseline;
+  gap: calc(0.5 * var(--mm));
+  padding: calc(0.4 * var(--mm)) calc(1.6 * var(--mm));
+  border-radius: calc(4 * var(--mm));
+  background: var(--ss-accent);
+  color: #fff;
+  font-family: var(--ss-sans);
+  font-size: calc(2.2 * var(--mm));
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  white-space: nowrap;
+}
+.ss-sheet .ss-badge small { font-weight: 400; font-size: 0.8em; color: inherit; letter-spacing: 0; }
+.ss-badge-open { float: left; margin: calc(0.3 * var(--mm)) calc(2 * var(--mm)) 0 0; }
+
+/* ---- Side 1 ------------------------------------------------------------------------------ */
+
+.ss-head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: calc(1 * var(--mm)) calc(4 * var(--mm));
+  padding-bottom: calc(2.5 * var(--mm));
+  border-bottom: calc(0.5 * var(--mm)) solid var(--ss-ink);
+}
+.ss-kicker {
+  grid-column: 1 / -1;
+  font-family: var(--ss-sans);
+  font-size: calc(2.3 * var(--mm));
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--ss-muted);
+}
+.ss-head h2 { font-size: calc(6.4 * var(--mm)); line-height: 1.1; }
+.ss-ref {
+  max-width: calc(70 * var(--mm));
+  text-align: right;
+  font-family: var(--ss-sans);
+  font-size: calc(2.5 * var(--mm));
+  color: var(--ss-muted);
+}
+
+.ss-point {
+  padding: calc(2.6 * var(--mm)) calc(3.5 * var(--mm));
+  background: var(--ss-tint);
+  border-left: calc(1 * var(--mm)) solid var(--ss-accent);
+  font-size: calc(3.4 * var(--mm));
+  line-height: 1.35;
+}
+.ss-point > b {
+  margin-right: calc(1.5 * var(--mm));
+  font-family: var(--ss-sans);
+  font-size: calc(2.4 * var(--mm));
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ss-accent);
+}
+
+.ss-body {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  gap: calc(6 * var(--mm));
+}
+.ss-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(3.5 * var(--mm));
+  overflow: hidden;
+}
+.ss-side {
+  width: calc(66 * var(--mm));
+  display: flex;
+  flex-direction: column;
+  gap: calc(4 * var(--mm));
+  overflow: hidden;
+}
+.ss-none .ss-side { width: calc(54 * var(--mm)); }
+
+.ss-open p { font-size: calc(3.2 * var(--mm)); }
+
+.ss-passage { margin-top: calc(1.2 * var(--mm)) !important; text-align: justify; hyphens: auto; }
+.ss-passage > b { font-family: var(--ss-sans); font-size: 0.85em; margin-right: calc(1 * var(--mm)); }
+.ss-passage sup {
+  font-family: var(--ss-sans);
+  font-size: 0.62em;
+  color: var(--ss-muted);
+  margin: 0 calc(0.4 * var(--mm)) 0 calc(0.8 * var(--mm));
+}
+.ss-dense .ss-passage { font-size: calc(2.75 * var(--mm)); line-height: 1.28; }
+.ss-also {
+  margin-top: calc(1.4 * var(--mm)) !important;
+  font-family: var(--ss-sans);
+  font-size: calc(2.4 * var(--mm));
+  color: var(--ss-muted);
+}
+
+.ss-graphic { display: block; width: 100%; height: auto; }
+.ss-graphic-wide { max-height: calc(80 * var(--mm)); object-fit: contain; }
+
+.ss-look { flex: 1; min-height: calc(36 * var(--mm)); display: flex; flex-direction: column; }
+.ss-look-cols { flex: 1; display: grid; grid-template-columns: repeat(3, 1fr); gap: calc(3 * var(--mm)); }
+.ss-look-cols div { display: flex; flex-direction: column; border-top: calc(0.3 * var(--mm)) solid var(--ss-ink); padding-top: calc(1 * var(--mm)); }
+.ss-look-cols b { font-family: var(--ss-sans); font-size: calc(2.4 * var(--mm)); }
+
+/* Ruled writing space, wherever an <i> is left empty for it. */
+/* A tiled single rule, not a repeating-linear-gradient: Chrome's PDF output drops every few
+   stripes of a repeating gradient. */
+.ss-look-cols i, .ss-q i {
+  flex: 1;
+  min-height: calc(7 * var(--mm));
+  background: linear-gradient(transparent calc(100% - 0.25 * var(--mm)), var(--ss-rule) 0)
+    0 0 / 100% calc(7 * var(--mm)) repeat-y;
+}
+
+.ss-brief ol { margin: 0; padding-left: calc(4.5 * var(--mm)); }
+.ss-brief li { margin: 0 0 calc(1.3 * var(--mm)); font-size: calc(2.6 * var(--mm)); line-height: 1.3; }
+.ss-brief li::marker { font-family: var(--ss-sans); color: var(--ss-muted); }
+/* Set by ssFit when the outline overruns its column: smaller, then section names only. */
+.ss-tight .ss-brief li { margin-bottom: calc(0.7 * var(--mm)); font-size: calc(2.3 * var(--mm)); }
+.ss-titles .ss-brief li > span { display: none; }
+.ss-nobrief .ss-brief { display: none; }
+
+.ss-foot {
+  position: absolute !important;
+  left: calc(10 * var(--mm));
+  right: calc(10 * var(--mm));
+  bottom: calc(6 * var(--mm));
+  display: flex;
+  justify-content: space-between;
+  gap: calc(4 * var(--mm));
+  font-family: var(--ss-sans);
+  font-size: calc(1.9 * var(--mm));
+  color: var(--ss-muted);
+}
+
+/* ---- Side 2 ------------------------------------------------------------------------------ */
+
+.ss-head-back { grid-template-columns: 1fr; }
+.ss-head-back h2 { font-size: calc(4.6 * var(--mm)); }
+.ss-plan { display: flex; gap: calc(0.6 * var(--mm)); font-family: var(--ss-sans); font-size: calc(2.2 * var(--mm)); }
+.ss-plan span {
+  display: flex;
+  flex-direction: column;
+  padding: calc(1 * var(--mm)) calc(1.6 * var(--mm));
+  background: var(--ss-tint);
+  color: var(--ss-muted);
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ss-plan b { color: var(--ss-ink); font-size: calc(2.5 * var(--mm)); }
+
+.ss-questions { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: calc(3 * var(--mm)); }
+.ss-group { display: flex; flex-direction: column; gap: calc(1.6 * var(--mm)); }
+/* The writing space goes where the conversation is longest: Discover and Wrestle share the
+   page's spare height by their minutes. */
+.ss-group-discover { flex: 13; }
+.ss-group-wrestle { flex: 10; }
+.ss-group-respond { flex: 4; }
+.ss-q { flex: 1; display: flex; flex-direction: column; gap: calc(0.6 * var(--mm)); }
+.ss-q p { font-size: calc(3 * var(--mm)); }
+.ss-n {
+  display: inline-block;
+  min-width: calc(4.5 * var(--mm));
+  font-family: var(--ss-sans);
+  font-weight: 700;
+  color: var(--ss-accent);
+}
+.ss-q strong { font-family: var(--ss-sans); font-size: 0.88em; }
+
+.ss-respond {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: calc(3 * var(--mm)) calc(6 * var(--mm));
+  padding-top: calc(3 * var(--mm));
+  border-top: calc(0.5 * var(--mm)) solid var(--ss-ink);
+  font-size: calc(2.7 * var(--mm));
+}
+.ss-tad { grid-row: span 2; }
+.ss-tad ul { margin: 0; padding-left: calc(4 * var(--mm)); }
+.ss-tad li { margin: 0 0 calc(1.2 * var(--mm)); }
+.ss-memory p { font-style: italic; }
+.ss-memory cite {
+  display: block;
+  margin-top: calc(0.8 * var(--mm));
+  font-style: normal;
+  font-family: var(--ss-sans);
+  font-size: calc(2.3 * var(--mm));
+  color: var(--ss-muted);
+}
+.ss-prayer p + p { margin-top: calc(1 * var(--mm)); }
+.ss-prayer { font-size: calc(2.55 * var(--mm)); }
+.ss-respond:not(:has(.ss-tad)) { grid-template-columns: 1fr; }
+
+.ss-foot-back { align-items: center; justify-content: flex-start; }
+.ss-qr svg { display: block; width: calc(11 * var(--mm)); height: calc(11 * var(--mm)); }
+.ss-url { display: flex; flex-direction: column; flex: 1; font-size: calc(2.1 * var(--mm)); }
+.ss-url b { color: var(--ss-ink); }
+.ss-back { padding-bottom: calc(20 * var(--mm)); }
+.ss-foot-back { bottom: calc(5 * var(--mm)); }
+
+/* ---- Print -------------------------------------------------------------------------------- */
+
+@page study-sheet {
+  size: A4 portrait;
+  margin: 0;
+}
+
+@media print {
+  .ss-printing body :is(.md-header, .md-tabs, .md-sidebar, .md-footer, .md-top, .md-source-file,
+    .md-path, .md-content__button, .md-banner),
+  .ss-printing .md-content__inner > :not(.ss),
+  .ss-printing .ss > :is(summary, .ss-controls) {
+    display: none !important;
+  }
+  .ss-printing body { page: study-sheet; }
+  .ss-printing :is(.md-main__inner, .md-content, .md-content__inner, .md-grid, .ss) {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+    border: 0 !important;
+  }
+  .ss-printing .md-content__inner::before { display: none; }
+  .ss-sheet {
+    width: 210mm;
+    /* Short of 297 mm so a few px of offset cannot spill a blank page after a side. */
+    height: 292mm;
+    aspect-ratio: auto;
+    margin: 0;
+    box-shadow: none;
+  }
+  .ss-back { break-before: page; }
+  /* Printing the study itself (Ctrl+P, not the button) leaves the sheet out. */
+  html:not(.ss-printing) .ss { display: none; }
+}

@@ -103,7 +103,7 @@ needs a change to the tools in `app/`.
 **Content** (anything in `docs/content/`), with hot reload at `http://localhost:8000/`:
 
 ```bash
-uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects mkdocs serve
+uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects --with segno mkdocs serve
 ```
 
 **Tools** (anything in `app/`). Build the bundles once, or keep them rebuilding while you work, and
