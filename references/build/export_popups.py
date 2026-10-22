@@ -16,6 +16,10 @@ Everything written here ships to every reader's browser, so every source is `ope
                        TBESH's "Meaning" column is left out: its header says it derives from Online
                        Bible's abridged BDB and asks that permission be sought, which CC BY alone
                        does not settle.
+- forms/<hex>.json     every inflected form in the Hebrew Bible (OSHB morphhb, CC BY), the Greek NT
+                       (MACULA) and the LXX lemmas, keyed by form_key and sharded by first two letters,
+                       mapped to its Strong's number. This is what lets ὑψωθῆναι open G5312 and a
+                       quoted Hebrew sentence open word by word, with no tag in the study.
 
 Counts come from the data, never from a study's sentence, so a pop-up stays right when a study's
 claim is wrong.
@@ -25,6 +29,7 @@ Usage: uv run python export_popups.py
 import json
 import re
 import shutil
+import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -188,15 +193,104 @@ def export_words(conn) -> int:
     return written
 
 
+# form_key must stay identical to formKey in app/src/utils/scriptureRefs.js: the browser looks a
+# page's word up by it. Greek keeps its breathings, acute, circumflex and iota subscript, because
+# those are what tell ἦν "was" from ἥν "whom"; a grave is the same accent as an acute. Hebrew drops
+# cantillation, meteg and maqaf and keeps its vowel points. bare_key drops every mark, for studies
+# that quote an unaccented or unpointed text, and is consulted only when the full key misses.
+_HEBREW_MARKS = re.compile("[֑-ֽ֯־׀׃;·ʼ’']")
+_GREEK_MARKS = re.compile("[̀-ͯ]")
+_GREEK_KEPT = {"́", "̓", "̔", "͂", "ͅ"}
+_ALL_MARKS = re.compile("[̀-ְͯ-ׇ]")
+# A form whose commonest number has less than this share of its occurrences is ambiguous: the
+# browser links it only when the page has already tagged one of its numbers.
+DOMINANT = 0.8
+MAX_CANDIDATES = 4
+
+
+def form_key(word: str) -> str:
+    plain = unicodedata.normalize("NFD", word).replace("̀", "́")
+    plain = _GREEK_MARKS.sub(lambda m: m[0] if m[0] in _GREEK_KEPT else "", _HEBREW_MARKS.sub("", plain))
+    return unicodedata.normalize("NFC", plain).lower().replace("ς", "σ")
+
+
+def bare_key(key: str) -> str:
+    return unicodedata.normalize("NFC", _ALL_MARKS.sub("", unicodedata.normalize("NFD", key)))
+
+
+def shard_of(key: str) -> str:
+    """The first two letters, points dropped: one letter alone leaves the vav shard at 640 KB,
+    since every "and" form starts with it."""
+    return "".join(f"{ord(ch):04x}" for ch in bare_key(key)[:2])
+
+
+def export_forms(conn) -> int:
+    """A key takes its numbers from the first source that has it: the forms attested in the Hebrew
+    Bible and the Greek NT, then the lexicons' dictionary forms (so δίδωμι or שָׁבַת named with no
+    number still resolves), then the bare keys of both, then the Septuagint's lemmas, which carry
+    no accents at all."""
+    known = {
+        "H": set(read_lexicon(next(LEXICONS.glob("TBESH*.txt")), "H")),
+        "G": set(read_lexicon(next(LEXICONS.glob("TBESG*.txt")), "G")),
+    }
+    attested, lexicon, septuagint = (defaultdict(Counter) for _ in range(3))
+
+    def add(tier: dict, prefix: str, word: str | None, strongs: str | None) -> None:
+        parsed = query.parse_strongs_id(strongs)
+        if not word or not parsed or parsed[0] not in known[prefix]:
+            return
+        key = form_key(word.replace("/", ""))
+        if sum(ch.isalpha() for ch in key) >= 2:
+            tier[key][f"{prefix}{parsed[0]}"] += 1
+
+    for row in conn.execute(
+            "SELECT surface_form, strongs_id FROM morphology WHERE work_id='morphhb-wlc'"):
+        add(attested, "H", row["surface_form"], row["strongs_id"])
+    for row in conn.execute(
+            "SELECT surface_form, strongs_id FROM morphology WHERE work_id='macula-greek-sblgnt'"):
+        add(attested, "G", row["surface_form"], row["strongs_id"])
+    for row in conn.execute(
+            "SELECT lemma, strongs_id FROM morphology WHERE work_id='lxx-lemmas'"):
+        add(septuagint, "G", row["lemma"], row["strongs_id"])
+    for prefix, glob in (("H", "TBESH*.txt"), ("G", "TBESG*.txt")):
+        for number, entry in read_lexicon(next(LEXICONS.glob(glob)), prefix).items():
+            add(lexicon, prefix, entry["l"], str(number))
+
+    def bare(tier: dict) -> dict:
+        stripped: dict[str, Counter] = defaultdict(Counter)
+        for key, ids in tier.items():
+            stripped[bare_key(key)].update(ids)
+        return stripped
+
+    forms: dict[str, Counter] = {}
+    for tier in (attested, lexicon, bare(attested), bare(lexicon), septuagint):
+        for key, ids in tier.items():
+            forms.setdefault(key, ids)
+
+    shards: dict[str, dict] = defaultdict(dict)
+    for key, ids in forms.items():
+        total = sum(ids.values())
+        ranked = ids.most_common()
+        if ranked[0][1] / total >= DOMINANT:
+            value = ranked[0][0]
+        else:
+            value = [i for i, n in ranked[:MAX_CANDIDATES] if n / total >= 0.1]
+        shards[shard_of(key)][key] = value
+    for shard, data in shards.items():
+        dump(OUT / "forms" / f"{shard}.json", dict(sorted(data.items())))
+    return len(shards)
+
+
 def main() -> int:
     conn = query.connect()
     if OUT.exists():
         shutil.rmtree(OUT)
     books = export_verses(conn)
     shards = export_words(conn)
+    forms = export_forms(conn)
     size = sum(p.stat().st_size for p in OUT.rglob("*.json"))
-    print(f"wrote {books} verse files and {shards} word files to {OUT.relative_to(REPO)} "
-          f"({size / 1_000_000:.1f} MB)")
+    print(f"wrote {books} verse files, {shards} word files and {forms} form files to "
+          f"{OUT.relative_to(REPO)} ({size / 1_000_000:.1f} MB)")
     return 0
 
 

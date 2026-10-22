@@ -1,10 +1,14 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import {
   findBookNames,
   findRefs,
   findStrongs,
+  bareKey,
   findWords,
+  formKey,
+  formShard,
   formatRef,
   lemmaBefore,
   namedWork,
@@ -109,6 +113,26 @@ test('a word matches its accented and final-sigma forms, not a differently point
     findWords('ἀρραβών, and the <span>כָּנָף</span>').map((w) => w.key),
     [wordKey('ἀρραβών'), 'כָּנָף']
   );
+});
+
+// Against the committed index, so a drift between form_key (export_popups.py) and formKey shows
+// up here: an inflected form, a dictionary form named with no number, a prefixed Hebrew word
+// typed without meteg or maqaf, and an unpointed one.
+test('the form index finds a word in any form a study writes it', () => {
+  const lookup = (word) => {
+    const key = formKey(word);
+    const shard = JSON.parse(readFileSync(new URL(`../../../docs/content/assets/popups/forms/${formShard(key)}.json`, import.meta.url)));
+    return shard[key] ?? shard[bareKey(key)];
+  };
+  assert.equal(lookup('ὑψωθῆναι'), 'G5312');
+  assert.equal(lookup('δίδωμι'), 'G1325');
+  assert.equal(lookup('Ἰδοὺ'), 'G2400');
+  assert.equal(lookup('וַיִּשְׁבֹּת'), 'H7673');
+  assert.equal(lookup('בְּרֵאשִׁ֖ית'), 'H7225');
+  assert.equal(lookup('אלהים'), 'H430');
+  assert.equal(lookup('αρραβωνα'), 'G728');
+  assert.equal(lookup('ἦν'), 'G2258');
+  assert.equal(lookup('ἥν'), 'G3739');
 });
 
 test('a bare chapter and verse takes the book of the passage in hand', () => {

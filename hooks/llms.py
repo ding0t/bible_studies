@@ -259,6 +259,10 @@ def _llms_txt(config) -> str:
         f"- [Lexicon]({site}assets/popups/words/G39.json): JSON, Strong's numbers in files of a hundred"
         " (G39.json holds G3900-G3999; H00.json holds H1-H99): transliteration, gloss, occurrence count"
         " and where the word occurs.",
+        f"- [Word forms]({site}assets/popups/forms/03bb03bf.json): JSON, every inflected Hebrew and Greek"
+        " form in the Bible mapped to its Strong's number, in files named by the hex code points of a"
+        " form's first two unaccented letters (03bb03bf is λο-). A list of numbers means the form is"
+        " ambiguous.",
         f"- [Scripture links]({site}assets/popups/scripture-links.json): JSON, typed links between passages"
         " (quotation, allusion) with the words they share.",
         f"- [Tags]({site}tags.json): JSON, every page with its topic tags.",

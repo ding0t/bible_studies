@@ -15,7 +15,8 @@
   color: var(--md-accent-fg-color, var(--md-primary-fg-color));
   outline: none;
 }
-.pop-word {
+/* A Strong's number ("G126"), not the Greek or Hebrew word it glosses, which keeps its own size. */
+.pop-tag {
   font-size: 0.9em;
   font-variant-numeric: tabular-nums;
 }

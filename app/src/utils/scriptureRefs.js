@@ -318,6 +318,35 @@ export function wordKey(word) {
     .replace(/ς/g, 'σ');
 }
 
+// The key of a word in the form index (references/build/export_popups.py form_key, which this must
+// match exactly). Greek keeps its breathings, acute, circumflex and iota subscript -- they tell ἦν
+// "was" from ἥν "whom" -- with a grave read as an acute. Hebrew keeps its vowel points and drops
+// cantillation, meteg and maqaf.
+const GREEK_KEPT = new Set(['́', '̓', '̔', '͂', 'ͅ']);
+export function formKey(word) {
+  return word
+    .normalize('NFD')
+    .replace(/̀/g, '́')
+    .replace(/[֑-ֽ֯־׀׃;·ʼ’']/g, '')
+    .replace(/[̀-ͯ]/g, (mark) => (GREEK_KEPT.has(mark) ? mark : ''))
+    .normalize('NFC')
+    .toLowerCase()
+    .replace(/ς/g, 'σ');
+}
+
+// Every mark gone: the fallback for an unpointed or unaccented quotation.
+export function bareKey(key) {
+  return key.normalize('NFD').replace(/[̀-ְͯ-ׇ]/g, '').normalize('NFC');
+}
+
+// Which forms/<shard>.json holds a key: its first two bare letters.
+export function formShard(key) {
+  return [...bareKey(key)]
+    .slice(0, 2)
+    .map((ch) => ch.codePointAt(0).toString(16).padStart(4, '0'))
+    .join('');
+}
+
 export function findWords(text) {
   return [...text.matchAll(WORDS)].map((m) => ({
     start: m.index,

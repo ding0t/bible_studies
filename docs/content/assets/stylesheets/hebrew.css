@@ -5,6 +5,25 @@
  * font draws it. */
 @import url("https://fonts.googleapis.com/css2?family=Gveret+Levin&family=Noto+Sans+Phoenician&family=Noto+Serif+Hebrew:wght@400;600&display=swap");
 
+/* Hebrew in running text. The site font (Roboto) has no Hebrew, so a browser substituted whatever
+ * the device had, at body size, and vowel points crowded into illegibility. Noto Serif Hebrew is
+ * imported above already and is drawn for pointed text. A step up in size because Hebrew letters
+ * sit on a smaller body than Latin ones; line-height 1 keeps the bigger word from opening a gap
+ * between lines. :where() keeps this at the weight of one class, so the word cards' and memory
+ * verses' own rules win, and a Hebrew word inside a Hebrew span is not enlarged twice. */
+.md-typeset :where([dir="rtl"], [lang="he"]):where(:not(.paleo, .he-big, .he-vowel, .he-cursive)) {
+  font-family: "Noto Serif Hebrew", "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
+  font-size: 1.2em;
+  line-height: 1;
+}
+.md-typeset :where([dir="rtl"], [lang="he"]) :where([dir="rtl"], [lang="he"]),
+.md-typeset :where([data-no-popups] :is([dir="rtl"], [lang="he"])) {
+  font-size: inherit;
+}
+.pop-script[lang="he"] {
+  font-family: "Noto Serif Hebrew", "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
+}
+
 .he-big {
   font-family: "Noto Serif Hebrew", serif;
   font-size: 1.6em;

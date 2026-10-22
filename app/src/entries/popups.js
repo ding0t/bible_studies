@@ -16,6 +16,9 @@ import {
   findStrongs,
   findWords,
   formatRef,
+  formKey,
+  formShard,
+  bareKey,
   lemmaBefore,
   namedWork,
   parseRef,
@@ -72,6 +75,11 @@ function el(tag, attrs = {}, ...children) {
 
 function trigger(kind, value, text) {
   const node = el('span', { class: kind === 'ref' ? 'pop-ref' : 'pop-word', role: 'button', tabindex: '0' }, text);
+  if (kind === 'word') {
+    const lang = scriptOf(text);
+    if (lang) node.lang = lang;
+    else node.classList.add('pop-tag');
+  }
   refs.set(node, { kind, value });
   if (kind === 'ref') node.setAttribute('aria-label', `${text.trim()}: show ${formatRef(value)}`);
   else node.setAttribute('aria-label', `${text.trim()}: show word study ${value}`);
@@ -81,7 +89,12 @@ function trigger(kind, value, text) {
 // ---------------------------------------------------------------------------------------------
 // Finding references in the page
 
+// A screen reader voices text by its lang, and studies are read aloud: Hebrew left untagged is read
+// with an English voice. It also gives hebrew.css the hook for a font that draws vowel points.
+const scriptOf = (text) => (/[\u0590-\u05FF\uFB1D-\uFB4F]/.test(text) ? 'he' : /[\u0370-\u03FF\u1F00-\u1FFF]/.test(text) ? 'grc' : null);
+
 function scan(root) {
+  for (const span of root.querySelectorAll('[dir="rtl"]:not([lang]):not(.paleo)')) span.lang = 'he';
   const tagged = new Map();
   for (const node of root.querySelectorAll('[data-ref]')) {
     const ref = parseRef(node.dataset.ref);
@@ -176,6 +189,7 @@ function scan(root) {
     for (const made of words) linkWord(made, refs.get(made).value, tagged);
   }
   linkRepeats(root, tagged);
+  return linkForms(root);
 }
 
 // Studies write a word as <span dir="rtl">גֹּאֵל</span> (*goel*, H1350), **ἀΐδιος** (*aidios*,
@@ -249,6 +263,67 @@ function linkRepeats(root, tagged) {
   }
 }
 
+// Every other Greek or Hebrew word on the page -- an inflected form of a tagged word (ὑψωθῆναι beside
+// ὑψόω, G5312), a quoted verse, a lemma named with no number -- opens through the form index
+// export_popups.py writes from the Hebrew Bible, the Greek NT and the Septuagint. A form that
+// belongs to more than one word is linked only when the page has tagged one of them, so the index
+// never overrules a study. Single letters (the alphabet tables) are left alone.
+const MAQAF = /\u05BE/;
+async function linkForms(root) {
+  const pending = [];
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_ELEMENT | NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      if (node.nodeType === Node.ELEMENT_NODE) {
+        return node.matches(SKIP) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_SKIP;
+      }
+      return ORIGINAL.test(node.data) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
+    },
+  });
+  while (walker.nextNode()) {
+    const words = [];
+    for (const w of findWords(walker.currentNode.data)) {
+      let start = w.start;
+      for (const part of walker.currentNode.data.slice(w.start, w.end).split(MAQAF)) {
+        const key = formKey(part);
+        if ([...bareKey(key)].length >= 2) words.push({ start, end: start + part.length, keys: [key, bareKey(key)] });
+        start += part.length + 1;
+      }
+    }
+    if (words.length) pending.push({ node: walker.currentNode, words });
+  }
+  if (!pending.length) return;
+
+  const shards = new Map();
+  for (const { words } of pending) for (const w of words) shards.set(formShard(w.keys[0]), null);
+  await Promise.all(
+    [...shards.keys()].map(async (s) => shards.set(s, await load(`forms/${s}.json`).catch(() => ({}))))
+  );
+  const onPage = new Set([...root.querySelectorAll('.pop-word')].map((n) => refs.get(n)?.value));
+  const resolve = (keys) => {
+    for (const key of keys) {
+      const found = shards.get(formShard(key))?.[key];
+      if (typeof found === 'string') return found;
+      if (found) return found.find((id) => onPage.has(id)) ?? null;
+    }
+    return null;
+  };
+
+  for (const { node, words } of pending) {
+    if (!node.isConnected) continue;
+    const fragment = document.createDocumentFragment();
+    let at = 0;
+    for (const w of words) {
+      const id = resolve(w.keys);
+      if (!id) continue;
+      fragment.append(node.data.slice(at, w.start), trigger('word', id, node.data.slice(w.start, w.end)));
+      at = w.end;
+    }
+    if (!at) continue;
+    fragment.append(node.data.slice(at));
+    node.replaceWith(fragment);
+  }
+}
+
 // A table whose column header names the book -- "| Day | Genesis |" over rows of "(1:3-5)".
 function columnBook(node) {
   const cell = node.parentElement.closest('td');
@@ -261,6 +336,10 @@ function columnBook(node) {
 
 function adopt(node, kind, value) {
   node.classList.add(kind === 'ref' ? 'pop-ref' : 'pop-word');
+  if (kind === 'word' && !node.hasAttribute('lang')) {
+    const lang = scriptOf(node.textContent);
+    if (lang) node.lang = lang;
+  }
   node.setAttribute('role', 'button');
   node.setAttribute('tabindex', '0');
   refs.set(node, { kind, value });

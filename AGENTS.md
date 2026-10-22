@@ -367,6 +367,12 @@ the workflow manually (`workflow_dispatch`).
   the quotation, the heading, then the page's `primary_passage` (which `hooks/popups.py` writes onto
   the page), but an edit that moves the reference before it repoints it silently. A
   Strong's tag also opens from the word in front of it and from that word's later mentions.
+  Every other Greek or Hebrew word on the page, inflected forms and quoted sentences included,
+  opens through the form index (`assets/popups/forms/`, every form in OSHB, MACULA Greek and the
+  LXX lemmas mapped to its number). A form that belongs to two words links only when the page has
+  tagged one of them, so an explicit tag always decides. Hebrew in running text is set in Noto
+  Serif Hebrew at 1.2em (`hebrew.css`), and the script gives Hebrew and Greek words a `lang` so a
+  screen reader voices them in the right language.
   `data-ref="…"` and `data-strongs="…"` spans mark what the text cannot say on its own. The data is
   in two halves by where it can be built: `references/build/export_popups.py` writes the Bible
   text, cross-references and lexicon from `bible-text.db` into `docs/content/assets/popups/`
