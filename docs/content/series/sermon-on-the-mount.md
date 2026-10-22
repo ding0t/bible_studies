@@ -20,7 +20,8 @@ series:
       why: "Matthew 6:16-18: fasting for the Father who sees in secret."
 date_created: 2026-10-22
 date_modified: 2026-10-22
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Sermon on the Mount

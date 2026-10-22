@@ -20,7 +20,8 @@ series:
       why: "The priest who holds His priesthood forever and always lives to intercede for those who come to God through Him (Hebrews 7:25)."
 date_created: 2026-10-22
 date_modified: 2026-10-22
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Gospel in the Old Testament

@@ -20,7 +20,8 @@ series:
       why: "The people God marked for grieving over what grieves Him."
 date_created: 2026-10-22
 date_modified: 2026-10-22
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # When Faith Is Hard

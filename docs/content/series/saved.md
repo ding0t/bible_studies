@@ -22,7 +22,8 @@ series:
       why: "Saved, though only as through fire: what a believer's building is tested for, and snatching the drifting out of the flames."
 date_created: 2026-10-22
 date_modified: 2026-10-22
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Saved: Salvation Foundations

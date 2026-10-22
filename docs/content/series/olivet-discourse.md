@@ -22,7 +22,8 @@ series:
       why: "Matthew 24:37-41: Noah was the one left; who is taken, and where."
 date_created: 2026-10-22
 date_modified: 2026-10-22
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Olivet Discourse, Week by Week
