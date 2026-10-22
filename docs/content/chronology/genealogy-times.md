@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
 date_created: 2026-07-24
-date_modified: 2026-10-09
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -340,6 +340,51 @@ after it. [The Flood and the King Lists](flood-and-the-king-lists.md) weighs the
 "The biblical timeline" is not a single settled number even before archaeology enters the
 picture. All three variants agree on Terah's death because they share the anchor and the chain
 from Terah forward; they diverge only above him.
+
+### Where year 0 sits
+
+**Scripture supplies the intervals for a creation epoch without supplying the epoch itself.**
+Converting a Zadok year to BC/AD therefore takes a choice, and five candidates have been weighed on
+this site. They span 84 years:
+
+| Reading | Exodus anchor | Nahor | Creation | AD 2026 | Year 6000 |
+|---|---|---|---|---|---|
+| **This site** | 1446 BC | 29 | **3959 BC** | AM 5984 | AD 2042 |
+| Ussher | 1491 BC | 29 | 4004 BC | AM 6029 | AD 1997 |
+| Nahor 79 | 1446 BC | 79 | 4009 BC | AM 6034 | AD 1992 |
+| Nahor 79, temple at 961 BC | 1441 BC | 79 | 4004 BC | AM 6029 | AD 1997 |
+| dsscalendar.org | — | — | 3925 BC | AM 5951 | AD 2075 |
+
+**Two parameters separate the first four.** The *Exodus anchor* is where the derived chain gets
+pinned to a Gregorian year. 1491 BC is Ussher's own figure, reached before the Assyrian synchronism
+existed. 1446 BC follows from 1 Kings 6:1's 480 years, counted back from Solomon's fourth year,
+itself fixed by the astronomically dated eclipse of 763 BC. That is the date this site uses. Ussher
+reached 1491 BC from a temple date of 1012 BC, which he got by adding the kings' reigns end to end,
+against the 966 BC the Assyrian synchronisms fix ([Why Not 4004 BC?](why-not-4004-bc.md)). The
+*Nahor* column is his age at Terah's birth. The Masoretic 29 stands against 79 in both the
+Samaritan Pentateuch and LXX Codex Alexandrinus, with Theophilus of Antioch at 75. That agreement
+counts as one witness: the Samaritan and Greek descend from one text type, and 79 is the Masoretic
+29 plus 50 with the years after reduced by 50 to keep its total, the same compensating shift the
+Samaritan makes for Shelah through Serug (Andrew Steinmann, *JETS* 64/1, 2021). The site keeps 29.
+
+The fourth reading reaches Ussher's 4004 BC while also taking the Nahor 79 reading, but only by
+moving Solomon's fourth year from 966 to 961 BC. That is inside the spread of Israelite regnal
+chronology. It is still a five-year adjustment made to land on a number chosen in advance, so any
+correspondence it preserves is an artifact of the adjustment. It is recorded so the option is
+visible.
+
+**The Exodus is AM 2513 on the Masoretic chain.** Walking the genealogy from Adam to Terah, then to
+Abram by Acts 7:4, then to the Exodus by Galatians 3:17, gives that figure. Subtracting it from each
+epoch puts the Exodus at 1491 BC on Ussher's, 1446 BC on this site's, and 1412 BC on
+dsscalendar.org's. 1412 BC corresponds to no standard reckoning I have been able to trace.
+
+These figures count Adam's creation year as AM 0. dsscalendar.org counts it as AM 1 instead, and its
+published week boundaries make the mapping exact: week 1 runs 1-700 AM = 3925-3226 BC, week 6 runs
+3501-4200 AM = 425 BC-AD 275, and week 10 runs 6301-7000 AM = AD 2376-3075. So on its reckoning AD
+2026 is AM 5951, and year 6000 falls in AD 2075. And the conversion is not a plain subtraction,
+because there is no year zero between 1 BC and AD 1: on this site's epoch AM 3958 is 1 BC, AM 3959
+is AD 1, and AD 2026 is AM 5984. [The Zadok Calendar](../feasts/zadok-calendar.md) describes the
+364-day calendar the count is named for.
 
 ## What this means for prophecy and Christ
 

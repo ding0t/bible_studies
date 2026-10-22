@@ -1,12 +1,12 @@
 ---
 title: "The Zadok Calendar"
 category: "prophecy"
-description: "The 364-day priestly calendar behind this site's zadok_year dating, its roots in the Zadokite priesthood and the Dead Sea Scrolls, and why I use it"
+description: "The 364-day priestly calendar behind this site's Zadok years: its year, sabbaticals, jubilees and ages, its roots in the Zadokite priesthood and the Dead Sea Scrolls, and why I use it"
 tags: ["zadok", "calendar", "dead-sea-scrolls", "enoch", "jubilees", "chronology", "prophecy"]
 draft: false
 bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticus 25:8-13", "2 Samuel 8:17", "1 Kings 2:35", "Ezekiel 44:15", "Daniel 9:24-27"]
 date_created: 2026-07-19
-date_modified: 2026-10-08
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -15,24 +15,28 @@ ai_provider_models:
 
 # The Zadok calendar
 
-Every study on this site that carries a `zadok_year` alongside its `gregorian_year` is using a
-specific, non-default calendar. This page explains what that calendar is, where it comes from, and
-why I use it instead of the standard rabbinic (lunisolar) Hebrew calendar most people know. Primary
-source for the structure below: [dsscalendar.org](https://dsscalendar.org), the work of Dr. Ken
-Johnson, Th.D. (BibleFacts Ministries).
+**In one sentence:** the Zadok calendar is a 364-day priestly year built in sevens, and its
+sabbaticals, jubilees and ages of history are the units this site uses when it counts the years
+from creation.
+
+Dates on this site carry a *Zadok year* beside the BC/AD one: an *anno mundi* ("year of the world")
+count of the years since creation. This page explains the calendar that count is named for, where
+it comes from, and why I use it instead of the standard rabbinic (lunisolar) Hebrew calendar most
+people know. Primary source for the structure below: [dsscalendar.org](https://dsscalendar.org),
+the work of Dr. Ken Johnson, Th.D. (BibleFacts Ministries).
 
 ## What it is
 
-The Zadok calendar is a **364-day solar calendar**: 12 months of exactly 30 days (360 days), plus 4 additional "Tekufah" days marking the two equinoxes and two solstices, bringing the total to 364. 
+The Zadok calendar is a **364-day solar calendar**: 12 months of exactly 30 days (360 days), plus 4 additional "Tekufah" days marking the two equinoxes and two solstices, bringing the total to 364.
 
 Every month begins on the same weekday every year, because 364 divides evenly into 52 full weeks.
 This is a perpetual calendar. In a lunar or lunisolar one, a feast date drifts across the days of
 the week from year to year.
 
-On this reckoning, 1 Abib/Nisan — New Year's Day — always falls on a Wednesday, the day the sun,
-moon, and stars ("the greater and lesser lights") were placed in the sky to mark seasons, days, and
-years in the first place (Genesis 1:14-19, ESV).
-A solar calendar anchored on the day the sun itself was created is a deliberate feature.
+On this reckoning, 1 Abib/Nisan — New Year's Day — always falls on a Wednesday. That is the fourth
+day, when God made the greater light and the lesser light and set them "for signs and for seasons,
+and for days and years" (Genesis 1:14-19, ESV). The year begins on the day the lights that measure
+it were made.
 
 364 days runs about a day and a quarter short of the true solar year. So the system periodically
 inserts an extra week to stay aligned with the actual seasons, roughly every 5-6 years on
@@ -49,9 +53,9 @@ dsscalendar.org's own reckoning. A lunisolar calendar instead makes monthly luna
 
 ## Why "Zadok"
 
-Zadok was the high priest under David and Solomon (2 Samuel 8:17; 1 Kings 2:35), and his descendants became the standard by which later Scripture measures a faithful priesthood. 
+Zadok was the high priest under David and Solomon (2 Samuel 8:17; 1 Kings 2:35), and his descendants became the standard by which later Scripture measures a faithful priesthood.
 
-When Ezekiel is shown the future temple, it's specifically "the sons of Zadok" who are named as the priests who stayed faithful and will minister there (Ezekiel 44:15, ESV). 
+When Ezekiel is shown the future temple, it's specifically "the sons of Zadok" who are named as the priests who stayed faithful and will minister there (Ezekiel 44:15, ESV).
 
 Centuries later, the community behind the Dead Sea Scrolls at Qumran identified itself with that
 same Zadokite priestly line. It rejected the calendar kept by the Hasmonean-controlled priesthood
@@ -85,86 +89,11 @@ line between this age and the next is [The End of the Age](../last-things/end-of
 
 Nested inside that larger scheme are ordinary Sabbatical (7-year, Leviticus
 25:1-7) and Jubilee (50-year, Leviticus 25:8-13)
-cycles. The calendar is the scaffolding the
-whole chronology runs on, well beyond a way of tracking days. dsscalendar.org even ties a specific
-messianic claim to that scaffolding. It reads 11Q13, the Melchizedek scroll, as placing the
+cycles. The calendar is the scaffolding the whole chronology runs on. dsscalendar.org even ties a
+specific messianic claim to that scaffolding. It reads 11Q13, the Melchizedek scroll, as placing the
 Messiah's death exactly one Shemittah after the ninth Jubilee of its scheme.
 
-## Why I use it
-
-A few reasons this calendar, rather than the standard rabbinic one, is the one behind this site's `zadok_year` dating:
-
-- **It's priestly, and the calendar was a priestly responsibility.** Israel's priests were the ones charged with tracking the sacred calendar (the priestly courses of 1 Chronicles 24 presuppose exactly this kind of fixed, calculable rotation) — and it's the Zadokite line Scripture itself names as the one that stayed faithful.
-- **It matches Israel's "appointed times" more naturally.** The feasts of Leviticus 23 are called *moedim* — fixed, appointed times — and a calendar where every feast lands on the same weekday every single year fits that language more naturally than one where the date has to be recalculated and can shift.
-- **It's what the community closest to the Hebrew text of Scripture used.** The Qumran community preserved the Old Testament with remarkable textual fidelity (see [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md)) and used this calendar as a matter of course — that's not proof by itself, but it's real evidence about what calendar was in live use by people steeped in the text, not a later rabbinic innovation.
-- **It's the calendar the numbers in Daniel and the Apocalypse of Weeks actually run on.** A fixed 364-day/7-year/50-year nested structure is exactly what a chronology of "weeks" of years — Daniel's seventy weeks (Daniel 9:24-27, ESV) among them — needs to work as clean arithmetic, without the extra lunar leap-month adjustments a lunisolar calendar requires.
-
-I'll say plainly: this is not the calendar most of modern Judaism or most Christian scholarship uses today, and treating it as settled is overclaiming — it's a minority, largely Second-Temple-sectarian reconstruction, not a consensus position. I use it because the case above persuades me, and because it's the framework the rest of this site's `zadok_year`/`gregorian_year` dating and the [Prophetic Timeline](../../timeline/) tool are already built on.
-
-## Where year 0 sits
-
-The calendar structure above says nothing about *when* the count starts. That is a separate
-question, and this site's answer to it has until now lived only as a constant in two code files
-rather than being stated anywhere a reader could check.
-
-### The candidate epochs, 84 years apart
-
-**Zadok year 0 is Adam's creation, and the Zadok year is absolute — a count of elapsed years since
-that point.** Converting it to a BC/AD date requires a creation epoch, and Scripture supplies the
-intervals for one without supplying the epoch itself. Five candidates are recorded on this site,
-and they span 84 years:
-
-| Scenario | Exodus anchor | Nahor | Creation | AD 2026 | Year 6000 |
-|---|---|---|---|---|---|
-| **`a_prime`** — active since 2026-10-01 | 1446 BC | 29 | **3959 BC** | AM 5984 | AD 2042 |
-| `ussher_published` — active until 2026-10-01 | 1491 BC | 29 | 4004 BC | AM 6029 | AD 1997 |
-| `a_double_prime` | 1446 BC | 79 | 4009 BC | AM 6034 | AD 1992 |
-| `a_double_prime_exact` | 1441 BC | 79 | 4004 BC | AM 6029 | AD 1997 |
-| dsscalendar.org | — | — | 3925 BC | AM 5951 | AD 2075 |
-
-All four scenarios and their arguments each way are recorded in
-`docs/data/genealogy/index.json` under `chronology_scenarios`; the generator prints the
-comparison on every run. Only the active one drives published dates.
-
-### What separates the three scenarios
-
-**Two parameters separate them.** The *Exodus anchor* is where the derived chain gets pinned to a
-Gregorian year. 1491 BC is Ussher's own figure, reached before the Assyrian synchronism existed.
-1446 BC follows from 1 Kings 6:1's 480 years, counted back from Solomon's fourth year, itself fixed
-by the astronomically dated eclipse of 763 BC. That is the date this site uses, in [Prophecy:
-Events and Times](../last-things/prophecy-events-times.md) and, since 2026-10-01, for every
-`zadok_year`. Ussher reached 1491 BC from a temple date of 1012 BC, which he got by adding the
-kings' reigns end to end, against the 966 BC the Assyrian synchronisms fix ([Why Not 4004
-BC?](../chronology/why-not-4004-bc.md)). The *Nahor* column is his age at Terah's
-birth. The Masoretic 29 stands against 79 in both the Samaritan Pentateuch and LXX Codex
-Alexandrinus, with Theophilus of Antioch at 75. That agreement counts as one witness: the
-Samaritan and Greek descend from one text type, and 79 is the Masoretic 29 plus 50 with the years
-after reduced by 50 to keep its total, the same compensating shift the Samaritan makes for Shelah
-through Serug (Andrew Steinmann, *JETS* 64/1, 2021). The site keeps 29.
-
-`a_double_prime_exact` reaches the former 4004 BC epoch while also taking the Nahor 79 reading, but
-only by moving Solomon's fourth year from 966 to 961 BC. That is inside the spread of Israelite
-regnal chronology. It is still a five-year adjustment made to land on a number chosen in advance.
-The two correspondences it preserves are therefore artifacts of the adjustment rather than evidence
-for it. It is tracked so the option is visible, not recommended.
-
-### Counting from Adam, and the missing year zero
-
-Those figures count Adam's creation year as AM 0, which is the convention the genealogy data uses
-(Adam's `zadok_year_born` is 0). Two caveats come with that.
-
-dsscalendar.org counts creation as AM 1 instead. Its published week boundaries make the mapping
-exact. Week 1 runs 1-700 AM = 3925-3226 BC. Week 6 runs 3501-4200 AM = 425 BC-AD 275. Week 10 runs
-6301-7000 AM = AD 2376-3075. So on its reckoning **AD 2026 is AM 5951**, and year 6000 falls in AD
-2075. The one-year gap against the table above is a difference of convention, not of epoch.
-
-And the conversion is not a plain subtraction, because there is no year zero between 1 BC and
-AD 1. AM 3958 is 1 BC, AM 3959 is AD 1, and AD 2026 is AM 5984. Both of this site's converters
-subtracted straight through the gap until August 2026, rendering every AD year one too early;
-they now skip it, and three studies whose `zadok_year` had inherited the error have been
-corrected by a year.
-
-### The Enoch wheel's 140 jubilees
+## The Enoch wheel's 140 jubilees
 
 One structural detail from the same source bears on how this site uses jubilees. dsscalendar.org's
 Enoch wheel divides the 7,000 years three ways. Ten weeks of 700 years. Seventy centuries of 100.
@@ -192,31 +121,34 @@ choice, since Scripture does not settle it.
 
 [![The Zadok calendar's nested sevens. The 364-day year in four quarters of three 30-day months and a Tekufah day, 91 days or 13 weeks each. Then a ladder: the week, the year of 52 weeks, the sabbatical of seven years (Leviticus 25:1-7) and the jubilee, forty-nine years and then the fiftieth (Leviticus 25:8-10). There the count divides: the Rabbis' 50-year cycle, under which ten jubilees make dsscalendar.org's 500-year Onah and forty make the Talmud's 2,000-year age; and Rabbi Yehuda's and the book of Jubilees' 49-year cycle, under which ten jubilees make Daniel's 490 years and fifty run from Adam to the Jordan. dsscalendar.org's constructions are dashed.](../assets/img/feasts/weeks-within-weeks.svg)](../assets/img/feasts/weeks-within-weeks.svg)
 
-### Where the Exodus falls
+## Why I use it
 
-**The three differ only in where they anchor the Exodus.** Walking the Masoretic genealogy from Adam
-to Terah, then to Abram by Acts 7:4, then to the Exodus by Galatians 3:17, puts the Exodus at Anno
-Mundi 2513. Subtracting that from each epoch gives the Exodus at 1491 BC, 1446 BC and 1412 BC
-respectively. Of those, 1446 BC is the one that follows from 1 Kings 6:1's 480 years, counted back
-from Solomon's fourth year. That year is itself fixed by the Assyrian synchronism resting on the
-astronomically dated eclipse of 763 BC. 1491 BC is Ussher's own figure, reached before that
-synchronism was available. 1412 BC corresponds to no standard reckoning I have been able to trace.
-This site uses 1446 BC.
+A few reasons this calendar is the one behind this site's Zadok years:
 
-### Where this site departs from dsscalendar.org
+- **It's priestly, and the calendar was a priestly responsibility.** Israel's priests kept the sacred calendar, and the priestly courses of 1 Chronicles 24 need a fixed rotation. The Qumran calendar scrolls track those same courses against the 364-day year; the Chronicler himself names no calendar. And it's the Zadokite line Scripture names as the one that stayed faithful.
+- **It matches Israel's "appointed times."** The feasts of Leviticus 23 are called *moedim*, fixed appointed times, and under this calendar every feast falls on the same weekday every year.
+- **It was in live use among people steeped in the text.** The Qumran community preserved the Old Testament with remarkable textual fidelity (see [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md)) and kept this calendar as a matter of course. That is evidence about what calendar was in use in the Second Temple period, though it does not by itself prove the calendar was Moses'.
+- **It is built in sevens at every scale.** The week, the 52-week year, the sabbatical and the jubilee nest inside one another, and the Apocalypse of Weeks carries the same pattern across all of history. Daniel's seventy weeks are counted separately: this site measures them in 360-day prophetic years ([Chronology Anchors](../chronology/chronology-anchors.md); [Prophecy: Events and Times](../last-things/prophecy-events-times.md)), so the 364-day year is not what makes Daniel's arithmetic work.
 
-**This page follows dsscalendar.org on the calendar's structure and departs from it on the epoch.**
-Every `zadok_year` on the site, in `docs/data/events.json` and on the
-[Prophetic Timeline](../../timeline/) counts from 3959 BC (Ussher's 4004 BC until 2026-10-01),
-which puts the present 34 years later than dsscalendar.org's reckoning does, and places the
-six-thousandth year in AD 2042 where dsscalendar.org has AD 2075. The site's epoch is derived: the
-Masoretic numbers of Genesis 5 and 11 counted to an Exodus that 1 Kings 6:1 fixes at 1446 BC.
-dsscalendar.org's comes from its own week boundaries. The site works to the derived line
-throughout, [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md#six-days-of-history) included.
+This is a minority position. Most of modern Judaism and most Christian scholarship use other
+calendars, and this one is largely a Second Temple sectarian reconstruction, so treating it as
+settled would overclaim. I use it because the case above persuades me, and because the site's
+dating and the [Prophetic Timeline](../../timeline/) tool are already built on it.
 
-The figures, with the scriptural basis for each, are in `docs/data/genealogy/index.json` under
-`chronology_scenarios`, and the decision is recorded in
-`references/study-state/chronology-anchors.yml` (`decisions_2026-10-01`).
+## Counting the years from creation
+
+The calendar's structure says nothing about *when* the count starts. **A Zadok year is a count of
+the years elapsed since creation, with creation's own year as year 0, and this site puts year 0 at
+3959 BC.** That epoch is derived: the Masoretic numbers of Genesis 5 and 11, counted forward to an
+Exodus that 1 Kings 6:1 fixes at 1446 BC. On it AD 2026 is AM 5984, and the six-thousandth year
+falls in AD 2042. dsscalendar.org starts its count at 3925 BC, 34 years later, which puts year 6000
+in AD 2075. This page follows dsscalendar.org on the calendar's structure and the site's own line on
+the epoch.
+
+[Chronology Anchors](../chronology/chronology-anchors.md) is the dated rail the epoch hangs from,
+[Genealogy and Times](../chronology/genealogy-times.md#where-year-0-sits) sets out the candidate
+epochs and the choices between them, and [Why Not 4004 BC?](../chronology/why-not-4004-bc.md)
+traces how Ussher's older epoch came out forty-five years earlier.
 
 ## Resources
 
@@ -227,4 +159,5 @@ The figures, with the scriptural basis for each, are in `docs/data/genealogy/ind
 - [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md) — for the Dead Sea Scrolls' broader significance.
 - [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) — the thousand-year days and the Talmud's three ages of two thousand years: this site's 7,000-year, six-days-plus-a-sabbath-millennium reading that this calendar's larger week-of-weeks scheme supports.
 - [The End of the Age](../last-things/end-of-the-age.md) — the New Testament's line between this age and the next.
+- [Genealogy and Times](../chronology/genealogy-times.md) and [Chronology Anchors](../chronology/chronology-anchors.md) — the epoch and the dates it rests on.
 - R. H. Charles, trans., *The Book of Jubilees* (1913), 50:4; b. *Nedarim* 61a, b. *Arakhin* 12b and b. *Sanhedrin* 97b, William Davidson Edition (Sefaria, CC-BY-NC).

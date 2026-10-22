@@ -3,7 +3,7 @@
  *
  * Zadok year = ELAPSED YEARS SINCE CREATION. Adam's creation is Zadok year 0, and the
  * creation year itself is 3959 BC on this site's working epoch (see
- * docs/content/feasts/zadok-calendar.md, "Where year 0 sits", for the epoch and the two
+ * docs/content/chronology/genealogy-times.md, "Where year 0 sits", for the epoch and the two
  * live alternatives).
  *
  * Gregorian years are signed with NO YEAR ZERO, matching how historians write BC/AD:

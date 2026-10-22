@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 11:10-32"
 bible_references: ["Genesis 5:1-32", "Genesis 7:11", "Genesis 11:10-32", "Genesis 12:4", "Exodus 12:40-41", "1 Kings 6:1", "Acts 7:4", "Galatians 3:17"]
 date_created: 2026-08-22
-date_modified: 2026-10-10
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -142,7 +142,7 @@ Forty-one events with their evidence, tiers and error bars are in [Chronology An
 
 ## What is settled and what is open
 
-**Settled.** The order of events, throughout. The Gregorian dates below Abraham, to within a year for most of them. The crucifixion at Friday 3 April AD 33. The sabbatical cycle, anchored on three attested sabbatical years whose intervals are exact multiples of seven. The epoch, since 2026-10-01: the Masoretic chain on the 1446 BC Exodus (`a_prime`), with the three alternates recorded in `docs/data/genealogy/index.json` and set out in [The Zadok Calendar](../feasts/zadok-calendar.md#where-year-0-sits).
+**Settled.** The order of events, throughout. The Gregorian dates below Abraham, to within a year for most of them. The crucifixion at Friday 3 April AD 33. The sabbatical cycle, anchored on three attested sabbatical years whose intervals are exact multiples of seven. The epoch, since 2026-10-01: the Masoretic chain on the 1446 BC Exodus (`a_prime`), with the three alternates recorded in `docs/data/genealogy/index.json` and set out in [Genealogy and Times](genealogy-times.md#where-year-0-sits).
 
 **Open, and tracked rather than guessed.** Which manuscript tradition preserves the older figures in Genesis 5 and 11 — the evidence splits by chapter.
 

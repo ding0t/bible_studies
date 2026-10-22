@@ -352,8 +352,8 @@
       "id": "millennial_2075",
       "name": "dsscalendar.org epoch (comparison only)",
       "am0_gregorian": -3926,
-      "note": "Comparison only; this site does not date by it. dsscalendar.org's week boundaries put AM 6000 in AD 2075, which backs out to AM 0 = 3926 BC (it counts the creation year as AM 1, so its creation year is 3925 BC). The Day Is Near used it until 2026-10-01. About 34 years later than this site's epoch, and not derived from the Masoretic numbers or from 1 Kings 6:1, which is why the site follows the genealogical epoch instead. See feasts/zadok-calendar.md, 'Where year 0 sits'.",
-      "study_ref": "feasts/zadok-calendar"
+      "note": "Comparison only; this site does not date by it. dsscalendar.org's week boundaries put AM 6000 in AD 2075, which backs out to AM 0 = 3926 BC (it counts the creation year as AM 1, so its creation year is 3925 BC). The Day Is Near used it until 2026-10-01. About 34 years later than this site's epoch, and not derived from the Masoretic numbers or from 1 Kings 6:1, which is why the site follows the genealogical epoch instead. See chronology/genealogy-times.md, 'Where year 0 sits'.",
+      "study_ref": "chronology/genealogy-times"
     }
   ],
   "anchors": [
