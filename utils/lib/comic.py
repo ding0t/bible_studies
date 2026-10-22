@@ -1007,9 +1007,10 @@ def prop_lampstand(x, y, s):
 
 def prop_golden_lampstand(x, y, s):
     """One of the "seven golden lampstands" (Revelation 1:12), λυχνία as in Matthew 5:15. John gives
-    seven stands and no shape for any of them, so each is drawn as a single gold stand with one
-    flame: the seven-branched menorah of Exodus 25 would put seven lamps on one stand, which is not
-    what he describes. About 80 units tall."""
+    seven stands and no shape for any of them. Each is drawn as a single gold stand with one flame so
+    that seven read as seven at comic scale; the seven-branched lampstand was the common Jewish symbol
+    (Cultural Backgrounds Study Bible on Revelation 1:12), so a comic using this prop says in its
+    `note` that the shape is not given. About 80 units tall."""
     return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
             f'<circle cx="1" cy="-88" r="22" fill="{GLOW}" opacity="0.5"/>'
             f'<path d="M-13 0 H13 L6 -7 H-6 Z" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1"/>'

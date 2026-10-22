@@ -322,9 +322,11 @@ lampstand was the most common symbol of Judaism across the Mediterranean world (
 1:12). John's first readers would have recognised it at once as the lamp of God's house.
 
 This is the lampstand's clearest meaning in Scripture, and it is given in Jesus' words. A church is
-what God set in His house to give light before Him. Jesus said the same of His disciples without the
-furniture: "You are the light of the world... let your light shine before others, so that they may see
-your good works and give glory to your Father who is in heaven" (Matthew 5:14, 16, ESV).
+what God set in His house to give light before Him. Jesus had already used the same word of His
+disciples. "You are the light of the world," He told them, and a lamp is set "on a stand, and it gives
+light to all in the house" (Matthew 5:14-15, ESV), where the stand is λυχνία. Revelation does not quote
+the saying, so joining the two is a reading; [Salt, Light and the Aroma of
+Christ](../../christian-life/salt-light-and-aroma.md#churches-as-lampstands) sets them side by side.
 
 ### The High Priest's robe
 
@@ -365,8 +367,9 @@ at first" (Revelation 2:4, ESV). And He warns:
 > 5 Remember therefore from where you have fallen; repent, and do the works you did at first. If not,
 > I will come to you and remove your lampstand from its place, unless you repent.
 
-To lose the lampstand is to stop being a church, whatever the congregation might go on doing (*ESV
-Study Bible* and *Cultural Backgrounds Study Bible*, notes on Revelation 2:5). The priest dressed the
+The lampstand is the church (Revelation 1:20), so to lose the lampstand is to stop being one of His
+churches, whatever the congregation might go on doing (*ESV Study Bible* and *Cultural Backgrounds
+Study Bible*, notes on Revelation 2:5). The priest dressed the
 lamps; Jesus has the authority to take one away.
 
 This shows that Jesus is present with His churches, sees each of them, and keeps them burning. He
