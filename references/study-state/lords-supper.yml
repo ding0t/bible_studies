@@ -141,3 +141,22 @@ evidence_notes:
 on_publish:
   - "Flip draft: false; run refresh_frontmatter_provenance.py; add lords-supper.md to feasts/.pages after last-supper-four-cups.md; add it to The Appointed Times' series list under Passover and its On this site list; run section_index.py and commentary_index.py. (Linking a draft from a published page fails mkdocs build --strict, so these wait.)"
   - "Then refocus last-supper-four-cups.md on 'I will not drink again' and point its general communion material here."
+review_2026-10-23:
+  scope: "review-bible-study, priority on the 90418e07 'Song of Moses' paragraph in 'The table of the Lord alone'"
+  verified:
+    - "1 Cor 10:20 δαιμονίοις καὶ οὐ θεῷ = Brenton LXX Deut 32:17 (ἔθυσαν δαιμονίοις, καὶ οὐ Θεῷ); bible_trace quotation-greek, strength 8. Same verb θύω both sides. SBLGNT marks a word-order variant on καὶ οὐ θεῷ θύουσιν; NA28 brackets [θύουσιν]."
+    - "παραζηλόω G3863: LXX Deut 32:21 (twice; only Deuteronomy hit), 1 Cor 10:22; NT also Rom 10:19; 11:11, 14."
+    - "Isa 65:11 ESV verbatim. Brenton LXX: ἑτοιμάζοντες τῷ δαιμονίῳ τράπεζαν (lxx-lemmas tags δαίμων G1142, the Rahlfs reading) -- the Greek table is 'for the demon'. Not quoted by Paul; openbible lead only (9 votes) from 1 Cor 10:21."
+    - "Mal 1:7, 12 Brenton: τράπεζα Κυρίου both verses; 1:7 sets it beside θυσιαστήριόν μου. ESV 'the LORD's table' (1:7), 'the Lord's table' (1:12)."
+    - "anaxiōs G371: SBLGNT 1 Cor 11:27 only; LXX 2 Macc 14:42. TR/KJV add it at 11:29 ('unworthily') -- now disclosed."
+    - "G364 4x NT, G2960 2x NT, G2605 1 Cor 2:1; 9:14; 11:26, G1252 1 Cor 11:29, 31 -- all as stated. All ESV quotations re-checked with study_verse."
+  findings:
+    - "Fixed: opener claimed each section opens one of 11:23-26 (false; three sections don't) -> now names what the four verses hold."
+    - "Fixed: new paragraph re-argued sin/idolatry.md#the-song-of-moses almost line for line without linking it -> compressed to one sentence + link; kept what is this study's own (the two tables' OT names); added LXX Isa 65:11 'for the demon'; moved the section's landing sentence to the end."
+    - "Fixed: G1140 tag sat after θεῷ (would open the wrong card); dropped, form index covers it."
+    - "Fixed: 1 Cor 11:21 quoted as 'go ahead' (ESV 'goes ahead'); John 14:26 added to bible_references; Idolatry added to On this site."
+    - "For author: 'This is my body' section says contested but gives only one side's case (open AUTHOR DECISION above still open)."
+    - "For author: CSB renders 11:33 'welcome one another' (footnote 'Or wait for'); the Corinth section's remedy argument rests on 'wait'."
+    - "For author: discussion question 5 carries 'Teaching.' rather than a facet label."
+  commentary_cross_check: "NIV Biblical Theology Study Bible (not in References) on 11:27 and 10:21-22: confirms."
+  validate: "Only the pre-existing Check 18 warning (now line 293), count re-run and holds."

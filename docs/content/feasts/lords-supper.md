@@ -6,7 +6,7 @@ tags: ["communion", "last-supper", "passover", "1-corinthians", "luke", "method/
 questions: ["What is communion for, and how should I take it?"]
 draft: false
 primary_passage: "1 Corinthians 11:17-34"
-bible_references: ["1 Corinthians 11:17-34", "1 Corinthians 10:1-4", "1 Corinthians 10:14-22", "1 Corinthians 5:7-8", "1 Corinthians 12:27", "Luke 22:14-20", "Luke 22:28-30", "Matthew 26:26-29", "Luke 24:30-35", "Acts 2:42-46", "Acts 20:7", "Exodus 12:11", "Exodus 12:14", "Exodus 12:26-27", "Exodus 13:8-9", "Deuteronomy 8:11", "Deuteronomy 16:3", "Joshua 4:6-7", "Hebrews 10:3", "Hebrews 12:2", "Colossians 3:1-2", "2 Peter 1:12-13", "John 10:9", "Isaiah 25:6-8", "Revelation 19:7-9", "Revelation 1:10", "Deuteronomy 32:17", "Deuteronomy 32:21", "1 Corinthians 10:20", "1 Corinthians 10:22", "Isaiah 65:11", "Malachi 1:7", "Malachi 1:12"]
+bible_references: ["1 Corinthians 11:17-34", "1 Corinthians 10:1-4", "1 Corinthians 10:14-22", "1 Corinthians 5:7-8", "1 Corinthians 12:27", "Luke 22:14-20", "Luke 22:28-30", "Matthew 26:26-29", "Luke 24:30-35", "Acts 2:42-46", "Acts 20:7", "Exodus 12:11", "Exodus 12:14", "Exodus 12:26-27", "Exodus 13:8-9", "Deuteronomy 8:11", "Deuteronomy 16:3", "Joshua 4:6-7", "Hebrews 10:3", "Hebrews 12:2", "Colossians 3:1-2", "2 Peter 1:12-13", "John 10:9", "Isaiah 25:6-8", "Revelation 19:7-9", "Revelation 1:10", "John 14:26", "Deuteronomy 32:17", "Deuteronomy 32:21", "1 Corinthians 10:20", "1 Corinthians 10:22", "Isaiah 65:11", "Malachi 1:7", "Malachi 1:12"]
 date_created: 2026-10-02
 date_modified: 2026-10-23
 ai_provider_models:
@@ -26,7 +26,7 @@ with the one body He has made, and you wait for the cup He has not yet drunk, wh
 with you in His Father's kingdom; so come to it examined, reconciled to your brothers and sisters,
 and with your eyes on Him.
 
-Paul's four verses on the night itself carry all of that, and each section below opens one of them:
+Paul's four verses on the night itself hold the remembrance, the new covenant and the proclamation:
 
 > ✝️ 1 Corinthians 11:23-26 (ESV)
 >
@@ -232,20 +232,21 @@ ESV). The Supper is never a private meal. You eat it with the people Jesus died 
 Paul makes the point to warn them. "Consider the people of Israel: are not those who eat the
 sacrifices participants in the altar?" (1 Corinthians 10:18, ESV). A meal joins the one who eats it
 to the one it is offered to. So "you cannot drink the cup of the Lord and the cup of demons. You
-cannot partake of the table of the Lord and the table of demons" (1 Corinthians 10:21, ESV). The
-Lord's table belongs to one Lord, and the one who eats at it belongs to Him.
+cannot partake of the table of the Lord and the table of demons" (1 Corinthians 10:21, ESV).
 
-Paul takes the warning from the Song of Moses. "What pagans sacrifice they offer to demons and not to
-God" (1 Corinthians 10:20, ESV) repeats the Greek Old Testament of Deuteronomy 32:17 word for word:
-δαιμονίοις καὶ οὐ θεῷ (*daimoniois kai ou theō*, G1140, "to demons and not to God"). Moses sang it
-against Israel, God's own people, and Paul's next question carries the Song's verb as well: "Shall we
-provoke the Lord to jealousy?" (1 Corinthians 10:22, ESV), παραζηλόω (*parazēloō*, G3863), the word of
-Deuteronomy 32:21. [Those Called Gods](../spiritual-beings/those-called-gods.md#what-the-nations-worshipped)
-covers what stands behind the idols. Isaiah brought the same charge against Israel with a rival table
-and cup, "who set a table for Fortune and fill cups of mixed wine for Destiny" (Isaiah 65:11, ESV),
-a parallel Paul does not cite. The name "the table of the Lord" was already the Greek Old Testament's
-for the altar (Malachi 1:7, 12), as [The Table and the Bread of the
-Presence](../jesus/the-heavenly-pattern/table.md#the-lords-table-in-malachi) shows.
+Paul takes the warning from the Song of Moses. "To demons and not to God" (1 Corinthians 10:20, ESV)
+is the Greek Old Testament's wording at Deuteronomy 32:17, and "Shall we provoke the Lord to
+jealousy?" (1 Corinthians 10:22, ESV) takes its verb from Deuteronomy 32:21;
+[Idolatry](../sin/idolatry.md#the-song-of-moses) traces both, and [Those Called
+Gods](../spiritual-beings/those-called-gods.md#what-the-nations-worshipped) what stands behind the
+idols. Moses sang those words over Israel, God's own people, and Paul turns them on the church.
+Both of Paul's tables already had Old Testament names. Isaiah charged Israel with laying the rival
+one, "who set a table for Fortune and fill cups of mixed wine for Destiny" (Isaiah 65:11, ESV), and
+the Greek Old Testament there sets the table "for the demon"; Paul does not cite the verse. Malachi
+calls the altar "the LORD's table" (Malachi 1:7, ESV; 1:12), τράπεζα κυρίου in Greek, Paul's own phrase,
+as [The Table and the Bread of the
+Presence](../jesus/the-heavenly-pattern/table.md#the-lords-table-in-malachi) shows. The Lord's table
+belongs to one Lord, and the one who eats at it belongs to Him.
 
 ## What went wrong at Corinth
 
@@ -269,8 +270,8 @@ The churches met in homes (1 Corinthians 16:19), and in a Roman city a dinner wa
 The *NIV Cultural Backgrounds Study Bible* describes the setting: an average wealthy home could
 recline nine to twelve guests on three couches in its dining room, the *triclinium*, with more,
 perhaps forty, in the larger *atrium*; the best places and the best food went to those nearest the
-host.[^cbsb-banquets] Paul's own words fit that picture. Some "go ahead" with their meal, others
-have "nothing", and his remedy is "wait for one another" (1 Corinthians 11:21-22, 33).
+host.[^cbsb-banquets] Paul's own words fit that picture. Each one "goes ahead with his own meal",
+some have "nothing", and his remedy is "wait for one another" (1 Corinthians 11:21-22, 33).
 
 ![Floor plan of a wealthy Roman house in Corinth, drawn as a reconstruction. On the left, the triclinium: three couches in a U around a table, nine to twelve guests reclining, with the host's food and wine, labelled "each one goes ahead with his own meal" (1 Corinthians 11:21). On the right, the larger atrium around a central pool, up to about forty people, latecomers arriving from work, labelled "one goes hungry" and "humiliate those who have nothing" (11:21-22). Along the bottom, Paul's remedy: "wait for one another" (11:33).](../assets/img/lords-supper-corinth-house.svg)
 
@@ -290,7 +291,8 @@ supper that you eat."**
 > eats and drinks judgment on himself.
 
 "In an unworthy manner" is one word, ἀναξίως (*anaxiōs*, G371), found nowhere else in the New
-Testament. It is an adverb. It describes how a person eats, and in context it is the way the
+Testament; later manuscripts repeat it in 1 Corinthians 11:29, the KJV's "unworthily". It is an
+adverb. It describes how a person eats, and in context it is the way the
 Corinthians were eating: each for himself, the poor shamed. No one is worthy of Christ's body given
 for them; that is why it was given. Paul asks for a worthy *manner*.
 
@@ -412,6 +414,8 @@ time you eat this bread you say that you expect to be there.
 - [Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md) — the feeding miracles and
   John 6, and the same "given thanks ... broke" in Mark 8:6 and 1 Corinthians 11:23-24
 - [The Bride of Christ](../israel-and-church/bride-of-christ.md)
+- [Idolatry](../sin/idolatry.md) — 1 Corinthians 10:14-22 and the Song of Moses behind "the table
+  of demons"
 
 [^cbsb-banquets]: *NIV Cultural Backgrounds Study Bible*, article "Banquets in Corinth" and note on
     1 Corinthians 11:21.
