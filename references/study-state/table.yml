@@ -148,3 +148,30 @@ resources_consulted:
   - {type: other, title: "Legacy Standard Bible footnotes", author: "Lockman Foundation", note: "Exodus 25:29 'Or platters'; 25:30 'Lit Face', 'Or continually'; Matthew 12:4 'lit loaves of presentation'."}
 last_updated: "2026-10-22"
 # Graphics: plate utils/sanctuary_plates.py build_table -> assets/img/sanctuary-table.svg; comic docs/data/comics/table.toml (David reserved in utils/lib/comic.py FIGURES). Strict build passed with draft flipped for the check.
+review_2026-10-22:
+  by: "review-bible-study (agent pass; author to read the three human-review tells)"
+  checked:
+    - "Every ESV quotation re-queried from study-notes.db (23 passages): all verbatim."
+    - "LSB footnotes Exodus 25:29-30, Matthew 12:4; CBSB and NIVBTSB notes on Exodus 25:30; ESVSB on 2 Chronicles 4:7-8 and Matthew 12:6."
+    - "H7979 = 71 (macula-hebrew-wlc); misgeret H4526 at Exodus 25:25 and 25:27; ma'arekhet H4635 at 1 Chronicles 9:32; LXX Exodus 25:30 artous enopious; LXX Malachi 1:7, 12 trapeza kyriou = 1 Corinthians 10:21's wording."
+    - "Mishnah Menachot 11:4-6 re-fetched via sefaria.py, Sefaria Community Translation (CC0): Ben Zoma, stacks, reeds, wind between the stacks all confirmed."
+    - "build_comics.py --verify table: 3 ok, 2 condensed (Matthew 12:4; 12:6-7), both faithful."
+    - "review_gaps: 1 Kings 7:48 (quotation link) taken up; Exodus 27:20-21 not needed."
+  fixed:
+    - "CRITICAL: thesis and prayer said Jesus 'gave' the holy bread to the hungry; He cited David and defended His disciples. Rewritten."
+    - "Key takeaway 'the temple whose bread David ate': David ate at the tabernacle at Nob. Reworded."
+    - "Thesis stated the Exodus 24 -> tent meal link unmarked though the tier table calls it inferred; dropped from the thesis."
+    - "Luke 22:29-30 is spoken to the Twelve; Luke 13:29 added as the text that widens the promise to 'you'."
+    - "Hosea 6:6 labelled ESV with Matthew's wording; now cited as Matthew 12:7 quoting Hosea, with the ESV's 'steadfast love' noted."
+    - "1 Kings 7:48 / 2 Chronicles 29:18 single table disclosed beside Solomon's ten."
+    - "'Bread kept for God's priests' rebuilt affirmatively: the foil (ANE feeding) moved after the claim as background; 'Only the frankincense went up in smoke' (not in Lev 24) and 'had already said so through Asaph' (anachronistic) removed."
+    - "Writing around the theology: 'What the table shows about God' now names covenant blood (Exodus 24:8; Luke 22:20; Matthew 26:28) and communion (1 Corinthians 10:16), confidence marked."
+    - "Meta-narration removed ('this study does not make Him say it', 'the study's cross-reference tools')."
+    - "G1799 tag dropped from ἐνώπιος (Strong's G1799 is the preposition ἐνώπιον)."
+    - "Plate: frankincense dishes dashed and smoke removed (no dish named, nothing burns on the table); rows view dashed like the stacks view (both unstated)."
+    - "Tags: luke, 1-corinthians added."
+  left_for_author:
+    - "Matthew 12:6 μεῖζον is neuter ('something greater'); the takeaway reads it as Jesus. Mark it or keep."
+    - "Plate strip draws Malachi 1:7 and 1 Corinthians 10:21 with the showbread-table icon, solid."
+    - "Matthew 11:28-30 ('I will give you rest') directly precedes Matthew 12:1 and pairs with Exodus 33:14's 'I will give you rest'; possible one-sentence enrichment."
+    - "The human-review tells (antithesis count, essay register, writing around the theology) need the author's read."

@@ -888,18 +888,18 @@ TABLE_FACTS = [
     ('Twelve loaves, in two sets of six', 'given', 'Leviticus 24:5-6'),
     ('Frankincense on each arrangement', 'given', 'Leviticus 24:7'),
     ('Rows or stacks', 'unstated', 'the Hebrew allows both; stacks: Mishnah Menachot 11:5-6'),
-    ('Whether the rim stood above the top or joined the legs below it', 'unstated', 'not given; drawn below, dashed'),
-    ('Length of the poles, shape of the vessels', 'unstated', 'not given'),
+    ('Whether the rim stood above the top or below it', 'unstated', 'not given; drawn below, dashed'),
+    ('Length of the poles, shape of the vessels, any dish for the frankincense', 'unstated', 'not given'),
 ]
 
 TABLE_DESC = (
     "Plate in four parts. The table of Exodus 25 in side elevation, drawn to scale at two cubits long "
     "and one and a half high: acacia overlaid with gold, a gold molding around the top, a rim a "
     "handbreadth wide drawn dashed between the legs because its place is not given, a ring at each "
-    "leg holding a pole, and twelve loaves on it in two stacks of six with a dish of frankincense on "
-    "each, the stacks dashed because the arrangement is the Mishnah's reading. Beside it, what the "
-    "text states and what it leaves unstated. Below, the twelve loaves drawn both ways the Hebrew "
-    "allows, two rows of six and two stacks of six; the week of the bread, set out every Sabbath, "
+    "leg holding a pole, and twelve loaves on it in two stacks of six with frankincense on each, the "
+    "stacks and the frankincense dishes dashed because the arrangement is the Mishnah's reading and "
+    "no dish is named. Beside it, what the text states and what it leaves unstated. Below, the twelve "
+    "loaves drawn both ways the Hebrew allows, two rows of six and two stacks of six, both dashed; the week of the bread, set out every Sabbath, "
     "kept before the LORD, then eaten by the priests in a holy place as hot bread replaces it; and a "
     "strip following the table from the tabernacle through the wilderness, David at Nob, Solomon's "
     "ten tables, Malachi and Ezekiel, to Jesus' words about David and the bread, the table of the "
@@ -932,8 +932,8 @@ def build_table():
 
     stacks = ''.join(loaf(cx + dx, top - 8 - i * 11, 92, 10, dashed=True)
                      for dx in (-62, 62) for i in range(6))
-    frank = ''.join(f'<path d="M{cx + dx - 14} {top - 76} q14 10 28 0 Z" fill="url(#gold)" stroke="#9a7424"/>'
-                    f'<path d="M{cx + dx} {top - 80} q-5 -6 0 -11 q5 -5 0 -10" fill="none" stroke="#a9a1bb" stroke-width="1.6"/>'
+    # Leviticus 24:7 puts frankincense on each pile but names no dish, and nothing burns on the table.
+    frank = ''.join(f'<path d="M{cx + dx - 14} {top - 76} q14 10 28 0 Z" fill="url(#gold)" stroke="{MUTED}" {DASH}/>'
                     for dx in (-62, 62))
     legs = ''.join(f'<rect x="{x}" y="{top + 10}" width="{leg}" height="{Hh - 10}" fill="url(#gold)" stroke="#9a7424"/>'
                    for x in (x0 + 6, x0 + L - 6 - leg))
@@ -963,7 +963,7 @@ def build_table():
 
     # Panel B: the twelve loaves both ways Leviticus 24:6's ma'arakhot allows.
     bx, by = 70, 1000
-    rows_view = ''.join(loaf(bx + 30 + c * 40, by + 30 + r * 34, 34, 22) for r in range(2) for c in range(6))
+    rows_view = ''.join(loaf(bx + 30 + c * 40, by + 30 + r * 34, 34, 22, dashed=True) for r in range(2) for c in range(6))
     stacks_view = ''.join(loaf(bx + 400 + s * 110, by + 80 - i * 12, 80, 10, dashed=True)
                           for s in range(2) for i in range(6))
     panel_b = f'''
@@ -971,7 +971,7 @@ def build_table():
   {wrap("Leviticus 24:6: “two מַעֲרָכוֹת, six in each.” The word means an arrangement set in order: ESV “piles,” WEB “rows.”", bx - 10, by - 42, 64, 11.5, MUTED)}
   <rect x="{bx}" y="{by + 6}" width="270" height="86" fill="url(#gold)" stroke="#9a7424" opacity="0.55"/>
   {rows_view}
-  <text x="{bx + 135}" y="{by + 116}" font-size="11.5" fill="{INK}" text-anchor="middle">rows, seen from above</text>
+  <text x="{bx + 135}" y="{by + 116}" font-size="11.5" fill="{MUTED}" text-anchor="middle" font-style="italic">rows, seen from above</text>
   <rect x="{bx + 340}" y="{by + 88}" width="250" height="8" fill="url(#gold)" stroke="#9a7424"/>
   {stacks_view}
   <text x="{bx + 465}" y="{by + 116}" font-size="11.5" fill="{MUTED}" text-anchor="middle" font-style="italic">stacks, seen from the side</text>

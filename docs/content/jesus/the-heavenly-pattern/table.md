@@ -2,13 +2,14 @@
 title: "The Table and the Bread of the Presence"
 category: "theology"
 description: "Exodus 25:23-30 to Luke 22:30: the gold table in God's tent and the twelve loaves kept on it before His face every Sabbath, the holy bread David ate at Nob, Jesus' answer about it in the grainfields, the table of the Lord, and the table He promises in His kingdom."
-tags: ["exodus", "leviticus", "1-samuel", "matthew", "hebrews", "temple", "priesthood", "sabbath", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
+tags: ["exodus", "leviticus", "1-samuel", "matthew", "luke", "1-corinthians", "hebrews", "temple", "priesthood", "sabbath", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: true
 primary_passage: "Exodus 25:23-30"
-bible_references: ["Exodus 24:9-11", "Exodus 25:23-30", "Exodus 26:35", "Exodus 33:14-15", "Exodus 37:10-16", "Exodus 40:22-23", "Leviticus 24:5-9", "Numbers 4:7", "1 Samuel 21:1-6", "1 Chronicles 9:32", "1 Chronicles 28:16", "2 Chronicles 4:8", "2 Chronicles 4:19", "Ezekiel 41:22", "Malachi 1:7", "Malachi 1:12", "Matthew 12:1-8", "Mark 2:23-28", "Luke 6:1-5", "Luke 22:29-30", "John 6:31-35", "1 Corinthians 10:21", "Hebrews 9:2", "Hebrews 9:5", "Exodus 25:10", "Leviticus 24:2-4", "1 Chronicles 9:2", "Numbers 28:9-10", "Hosea 6:6", "Psalm 23:5", "Psalm 50:12-13", "2 Samuel 9:7"]
+bible_references: ["Exodus 24:9-11", "Exodus 25:23-30", "Exodus 26:35", "Exodus 33:14-15", "Exodus 37:10-16", "Exodus 40:22-23", "Leviticus 24:5-9", "Numbers 4:7", "1 Samuel 21:1-6", "1 Chronicles 9:32", "1 Chronicles 28:16", "2 Chronicles 4:8", "2 Chronicles 4:19", "Ezekiel 41:22", "Malachi 1:7", "Malachi 1:12", "Matthew 12:1-8", "Mark 2:23-28", "Luke 6:1-5", "Luke 22:29-30", "John 6:31-35", "1 Corinthians 10:21", "Hebrews 9:2", "Hebrews 9:5", "Exodus 25:10", "Leviticus 24:2-4", "1 Chronicles 9:2", "Numbers 28:9-10", "Hosea 6:6", "Psalm 23:5", "Psalm 50:12-13", "2 Samuel 9:7", "Exodus 24:8", "1 Kings 7:48", "2 Chronicles 29:18", "Luke 13:29", "Luke 22:20", "Matthew 26:28", "1 Corinthians 10:16-18"]
 date_created: 2026-10-22
 date_modified: 2026-10-22
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Table and the Bread of the Presence
@@ -27,12 +28,11 @@ The last thing that happens on Sinai before God gives Moses the plan of His tent
 Then God begins the pattern. After the ark that holds His covenant, the next thing He orders is a
 table, with bread on it "before me regularly" (Exodus 25:30, ESV).
 
-**In one sentence:** God set a table in His tent and kept bread on it before His face every Sabbath,
-twelve loaves from the people of Israel that His priests ate in a holy place, so that the meal
-Israel's elders ate in His presence on Sinai went on in the tent; the New Testament never explains
-the table, but Jesus gave its bread to the hungry, the church eats at the table of the Lord, and
-Jesus promises a place at His table in His kingdom, so in Him you are fed in God's presence now and
-will eat with Him there.
+**In one sentence:** God set a table in His tent and kept twelve loaves of Israel's bread on it
+before His face every Sabbath, then gave them to His priests to eat in a holy place; the New
+Testament never explains the table, but Jesus defended His hungry disciples with its bread, the
+church eats at the table of the Lord, and Jesus promises a place at His table in His kingdom, so
+through His blood of the new covenant you are fed in God's presence now and will eat with Him there.
 
 [![A one-minute comic in 5 panels. Panel 1 (Matthew 12:1-2): Jesus walks through a field with two disciples, who pluck grain; two authorities point at them. Caption: "On a Sabbath Jesus went through the grainfields. His disciples were hungry and began to pluck heads of grain and eat." An authority says: "Look, your disciples are doing what is not lawful to do on the Sabbath." Panel 2 (Matthew 12:3): Jesus answers the authorities. Jesus says: "Have you not read what David did when he was hungry?" Panel 3 (Matthew 12:4): Jesus goes on, pointing back. Jesus says: "He ate the bread of the Presence, which only the priests could eat." Panel 4 (1 Samuel 21:1-6), a flashback: at Nob the priest holds out a loaf to David. Caption: "Earlier: David, fleeing from Saul, came hungry to Ahimelech the priest at Nob. The only bread was the bread removed from before the LORD." A priest says: "I have no common bread on hand, but there is holy bread." Panel 5 (Matthew 12:6-8): Jesus faces the authorities; the disciples stand behind Him. Jesus says: "Something greater than the temple is here. I desire mercy, and not sacrifice." The point: The bread set out before God's face fed a hungry man, and the One greater than the temple says God desires mercy, so you can come to Him in your need (Matthew 12:6-7).](../../assets/img/comics/table.svg)](../../assets/img/comics/table.svg)
 
@@ -50,16 +50,18 @@ what each part is for.)*
 - **The New Testament names the table and does not interpret it.** Hebrews lists "the lampstand and
   the table and the bread of the Presence" in the first tent (Hebrews 9:2, ESV), and stops: "Of these
   things we cannot now speak in detail" (Hebrews 9:5, ESV). Every connection from the table to Christ
-  on this page is an echo or an inference, and the table at the end sorts them.
+  on this page is an echo or an inference, and the last section sorts them.
 - **Jesus promises a table in His kingdom.** "I assign to you, as my Father assigned to me, a
-  kingdom, that you may eat and drink at my table in my kingdom" (Luke 22:29-30, ESV).
+  kingdom, that you may eat and drink at my table in my kingdom" (Luke 22:29-30, ESV). He promises
+  it beyond the Twelve: "people will come from east and west, and from north and south, and recline
+  at table in the kingdom of God" (Luke 13:29, ESV).
 
 ### Lessons about Jesus
 
-- **Jesus is greater than the temple whose bread David ate.** When the authorities charged His hungry
-  disciples, He pointed them to the bread of the Presence and said, "something greater than the temple
-  is here" (Matthew 12:6, ESV).
-- **Jesus reads the holy bread by mercy.** "I desire mercy, and not sacrifice" (Matthew 12:7, ESV).
+- **Jesus is greater than the temple.** When the authorities charged His hungry disciples, He pointed
+  them to David eating the bread of the Presence and said, "something greater than the temple is
+  here" (Matthew 12:6, ESV).
+- **Jesus defends the hungry with mercy.** "I desire mercy, and not sacrifice" (Matthew 12:7, ESV).
   The bread kept before God's face fed a hungry man, and the Son of Man, Lord of the Sabbath, defends
   the hungry who follow Him.
 - **Jesus is the host of the table.** Paul calls it "the table of the Lord" (1 Corinthians 10:21,
@@ -87,8 +89,8 @@ what each part is for.)*
 ### Prayer
 
 Father, You fed Your people in Your presence on the mountain and kept bread before Your face in Your
-tent, week after week. Thank You for Your Son Jesus, greater than the temple, who gave the holy bread
-to the hungry and set His own table for us. Feed us from Your hand, keep us at the table of the Lord
+tent, week after week. Thank You for Your Son Jesus, greater than the temple, who defended the hungry
+with the holy bread, gave His blood for the new covenant and set His own table for us. Feed us from Your hand, keep us at the table of the Lord
 alone, and bring us to eat with Him in His kingdom.
 
 In Jesus' name. Amen.
@@ -147,7 +149,7 @@ first as "dishes" with the footnote "Or platters". The Bible names them and give
 The plate draws the table at Exodus 25:23's measurements, with everything the text leaves out drawn
 dashed: the place of the rim, the length of the poles, and how the twelve loaves were laid out.
 
-![Plate of the table and the bread of the Presence. The table in side elevation, drawn to scale at two cubits long and one and a half high, with a gold molding, a rim a handbreadth wide drawn dashed between the legs because its place is not given, a ring at each leg holding a pole, and twelve loaves on top in two stacks of six with a dish of frankincense on each, the stacks dashed because the arrangement is the Mishnah's reading. A list beside it separates what the text states from what it leaves unstated. Below are the twelve loaves drawn both ways the Hebrew allows, two rows of six and two stacks of six; the week of the bread, set out every Sabbath, kept before the LORD, eaten by the priests in a holy place and replaced by hot bread; and a strip following the table from the tabernacle through the wilderness, David at Nob, Solomon's ten tables, Malachi and Ezekiel, to Matthew 12:3-4, 1 Corinthians 10:21 and Luke 22:30.](../../assets/img/sanctuary-table.svg)
+![Plate of the table and the bread of the Presence. The table in side elevation, drawn to scale at two cubits long and one and a half high, with a gold molding, a rim a handbreadth wide drawn dashed between the legs because its place is not given, a ring at each leg holding a pole, and twelve loaves on top in two stacks of six with frankincense on each, the stacks and the frankincense dishes dashed because the arrangement is the Mishnah's reading and no dish is named. A list beside it separates what the text states from what it leaves unstated. Below are the twelve loaves drawn both ways the Hebrew allows, two rows of six and two stacks of six, both dashed; the week of the bread, set out every Sabbath, kept before the LORD, eaten by the priests in a holy place and replaced by hot bread; and a strip following the table from the tabernacle through the wilderness, David at Nob, Solomon's ten tables, Malachi and Ezekiel, to Matthew 12:3-4, 1 Corinthians 10:21 and Luke 22:30.](../../assets/img/sanctuary-table.svg)
 
 The table stood "on the north side of the tabernacle, outside the veil" (Exodus 40:22, ESV), with the
 lampstand opposite it on the south (Exodus 26:35). [The Lampstand](lampstand.md#where-the-light-fell)
@@ -161,7 +163,7 @@ covers how its light fell across the room onto the bread.
 pah-NEEM, H3899, H6440), and *panim* is the Hebrew word for "face". The Legacy Standard Bible's
 footnote on Exodus 25:30 says so plainly: "Lit Face". The verse uses the word twice. Read word for
 word, God says, "you shall set bread of the Face on the table before My face, continually." The Greek
-Old Testament keeps the thought with ἄρτους ἐνωπίους (*artous enōpious*, G740, G1799, "loaves of the presence"). The KJV's "shewbread"
+Old Testament keeps the thought with ἄρτους ἐνωπίους (*artous enōpious*, G740, "loaves of the presence"). The KJV's "shewbread"
 names the bread for being set out on show; the Hebrew names whose face it was set before.
 
 When God promised to go with Israel after the golden calf, He used the same word: "My presence will
@@ -171,7 +173,7 @@ face". Moses answered, "If your presence will not go with me, do not bring us up
 
 "Regularly" is <span dir="rtl">תָּמִיד</span> (*tamid*, H8548), "continually", the word used of the
 lamps that burned every night (Leviticus 24:2-4); the Legacy Standard Bible reads "at all times" and
-footnotes "Or continually". There was never a day when the table stood empty before God.
+footnotes "Or continually". Every day of the year the table held bread before God.
 
 ### Twelve loaves every Sabbath
 
@@ -203,14 +205,16 @@ Second Temple, and Scripture says only "six in a pile."
 
 ### Bread kept for God's priests
 
-Temples across the ancient world set food before their gods, every day, to feed them. The *NIV
-Cultural Backgrounds Study Bible* notes that bread laid out before a god is attested in Egypt,
-Mesopotamia and Anatolia (note on Exodus 25:30). The text of Leviticus 24 gives the tabernacle bread
-its own pattern. It was changed weekly, on the Sabbath. Only the frankincense went up in smoke. The
-loaves went to Aaron and his sons as "a most holy portion" (Leviticus 24:9, ESV). God had
-already said so through Asaph: "If I were hungry, I would not tell you, for the world and its fullness
-are mine. Do I eat the flesh of bulls or drink the blood of goats?" (Psalm 50:12-13, ESV). He gives
-the bread back to those who serve Him. In His presence, it is God who feeds.
+Leviticus 24 gives the bread its week. It was changed on the Sabbath. The frankincense was the LORD's
+memorial portion (Leviticus 24:7), and the loaves went to Aaron and his sons as "a most holy portion"
+(Leviticus 24:9, ESV). God takes His people's bread before His face and gives it to those who serve
+Him. He says through Asaph why: "If I were hungry, I would not tell you, for the world and its
+fullness are mine. Do I eat the flesh of bulls or drink the blood of goats?" (Psalm 50:12-13, ESV).
+In His presence God is the one who feeds.
+
+Israel's neighbours kept food before their gods' statues to feed them, and the *NIV Cultural
+Backgrounds Study Bible* notes that bread laid out before a god is attested in Egypt, Mesopotamia and
+Anatolia, set out daily where this bread was set out weekly (note on Exodus 25:30).
 
 ## From the wilderness to the temple
 
@@ -218,12 +222,16 @@ On the march the table was covered "with a cloth of blue" and carried with its v
 regular showbread also" on it (Numbers 4:7, ESV), so the bread stayed before God even on the road.
 After the exile, the Chronicler's list of those who served again at God's house records that "some
 of their kinsmen of the Kohathites had charge of the showbread, to prepare it every Sabbath"
-(1 Chronicles 9:2, 32, ESV).
+(1 Chronicles 9:32, ESV; the list opens at 9:2). The Chronicler's "showbread" there is
+*lechem hamma'arekhet*, "bread of the arrangement", from the root of Leviticus 24:6's two "piles".
 
 David gave Solomon "the weight of gold for each table for the showbread, the silver for the silver
 tables" (1 Chronicles 28:16, ESV), and Solomon made ten tables for the temple, "five on the south side
 and five on the north" (2 Chronicles 4:8, ESV), among them "the tables for the bread of the Presence"
-(2 Chronicles 4:19, ESV). One table became ten, as one lampstand did.
+(2 Chronicles 4:19, ESV). One table became ten, as one lampstand did. Kings names a single "golden
+table for the bread of the Presence" (1 Kings 7:48, ESV), and so does Chronicles in Hezekiah's day
+(2 Chronicles 29:18), so whether the bread lay on one of Solomon's ten tables or on all of them is
+left open.
 
 Ezekiel's vision of the temple has an altar of wood, three cubits high and two long, and his guide
 tells him, "This is the table that is before the LORD" (Ezekiel 41:22, ESV). The table is named
@@ -277,14 +285,14 @@ the Sabbath sacrifices (Numbers 28:9-10) and setting out this very bread (Leviti
 guiltless. Then He says that something greater
 than the temple is standing in the field. If the temple's service set the Sabbath's rule aside, the
 One greater than the temple may feed His own on it. And God, through Hosea, has already said what He
-wants: "I desire mercy, and not sacrifice" (Hosea 6:6, quoted at Matthew 12:7, ESV). Mark adds that
+wants: "I desire mercy, and not sacrifice" (Matthew 12:7, ESV, quoting Hosea 6:6, where the ESV
+renders <span dir="rtl">חֶסֶד</span>, *chesed*, "steadfast love"). Mark adds that
 "the Sabbath was made for man, not man for the Sabbath" (Mark 2:27, ESV), and Luke tells the same
 account (Luke 6:1-5).
 
-The point Jesus draws is about Himself and the Sabbath. He does not say what the bread pictured, and
-this study does not make Him say it. What He shows is the God the bread belonged to: the bread set
-before His face fed a hungry man, and the Lord of the Sabbath is merciful to the hungry who follow
-Him.
+The point Jesus draws is about Himself and the Sabbath, and it shows the God the bread belonged to:
+the bread set before His face fed a hungry man, and the Lord of the Sabbath is merciful to the hungry
+who follow Him.
 
 ## The table of the Lord
 
@@ -296,9 +304,11 @@ people's gifts.
 
 Paul uses the phrase of the church's meal: "You cannot drink the cup of the Lord and the cup of
 demons. You cannot partake of the table of the Lord and the table of demons" (1 Corinthians 10:21,
-ESV). The Greek is τράπεζα (*trapeza*, G5132), "table". The study's cross-reference tools find no
-quotation of Malachi in the verse; the two passages share the phrase, and Paul sets it against the
-idol feasts of Corinth. [The Lord's Supper](../../feasts/lords-supper.md#the-table-of-the-lord-alone)
+ESV). The Greek is τράπεζα (*trapeza*, G5132), "table", and Paul's "table of the Lord" is the Greek
+Old Testament's own wording at Malachi 1:7 and 12. The two passages share the phrase without Paul
+quoting Malachi, and he sets it against the idol feasts of Corinth. His comparison is Israel eating
+at the altar: "are not those who eat the sacrifices participants in the altar?" (1 Corinthians
+10:18, ESV). [The Lord's Supper](../../feasts/lords-supper.md#the-table-of-the-lord-alone)
 works through what that means for the church.
 
 Then, at the Last Supper, Jesus promised His disciples:
@@ -321,7 +331,7 @@ This table sorts the study's connections by how directly Scripture makes each on
 | Jesus cites the bread of the Presence to defend His hungry disciples | Matthew 12:3-8 | Stated |
 | Hebrews lists the table in the first tent | Hebrews 9:2 | Stated, and left uninterpreted (Hebrews 9:5) |
 | Jesus promises His own a table in His kingdom | Luke 22:29-30 | Stated, as promise; its link to the tent's table is an echo |
-| "The table of the Lord" | Malachi 1:7, 12; 1 Corinthians 10:21 | A shared phrase; no quotation is found |
+| "The table of the Lord" | Malachi 1:7, 12; 1 Corinthians 10:21 | A shared phrase, the Septuagint's τράπεζα κυρίου; Paul does not quote Malachi |
 | The tent's table carries on the meal of Exodus 24:11 | Exodus 24:11; 25:23-30 | Inferred from the order of Exodus |
 | The twelve loaves stand for the twelve tribes | Leviticus 24:5-8 | Inferred: twelve loaves "from the people of Israel"; the text pairs no loaf with a tribe |
 | Jesus is the bread before God's face | John 6:35 | Read in: John 6 draws on the manna (John 6:31-33), and no text joins it to the table |
@@ -333,8 +343,17 @@ Sabbath, and gave them to His priests to eat. When David came hungry, the bread 
 disciples were hungry, the One greater than the temple defended them with that bread and with God's
 own word, "I desire mercy" (Matthew 12:7, ESV).
 
-So come to Jesus hungry. He is the Lord of the Sabbath and the host of the table of the Lord, and He
-has promised that you will eat and drink at His table in His kingdom.
+That nearness is bought with blood. The Sinai meal came after Moses threw "the blood of the
+covenant" on the people (Exodus 24:8, ESV), and the loaves were set out "as a covenant forever"
+(Leviticus 24:8, ESV). At the Last Supper the cup is "the new covenant in my blood" (Luke 22:20, ESV)
+before Jesus promises His table (Luke 22:29-30). Scripture states the order in both; that the second
+meal answers the first is an echo, carried by Jesus' words "my blood of the covenant" (Matthew 26:28,
+ESV). This is communion with God: the bread and cup of the Lord's table are "a participation in the
+blood of Christ" and "in the body of Christ" (1 Corinthians 10:16, ESV).
+
+So come to Jesus hungry. By His blood you are brought near and fed in God's presence. He is the Lord
+of the Sabbath and the host of the table of the Lord, and He has promised that you will eat and drink
+at His table in His kingdom.
 
 ## Discussion Questions
 
