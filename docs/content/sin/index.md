@@ -4,7 +4,7 @@ category: "other"
 description: "Sin, temptation, and the pattern of redemption in Scripture."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-16
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
