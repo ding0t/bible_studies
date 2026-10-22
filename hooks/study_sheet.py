@@ -163,7 +163,7 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
       <div class="ss-read"><span class="ss-h">{_badge("read")}Read it aloud <small>WEB</small></span>{read}</div>
       {wide}
       <div class="ss-look"><span class="ss-h">{_badge("discover")}Look closer <small>before you turn over</small></span>
-        <div class="ss-look-cols"><div><b>What does it say?</b><i></i></div><div><b>What did it mean to them?</b><i></i></div><div><b>What does it mean for us?</b><i></i></div></div>
+        <div class="ss-look-rows"><div><b>What does it say?</b><i></i></div><div><b>What did it mean to them?</b><i></i></div><div><b>What does it mean for us?</b><i></i></div></div>
       </div>
     </div>
     {f'<aside class="ss-side">{side}</aside>' if side else ""}

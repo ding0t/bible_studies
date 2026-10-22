@@ -213,15 +213,16 @@
 .ss-graphic { display: block; width: 100%; height: auto; }
 .ss-graphic-wide { max-height: calc(80 * var(--mm)); object-fit: contain; }
 
-.ss-look { flex: 1; min-height: calc(36 * var(--mm)); display: flex; flex-direction: column; }
-.ss-look-cols { flex: 1; display: grid; grid-template-columns: repeat(3, 1fr); gap: calc(3 * var(--mm)); }
-.ss-look-cols div { display: flex; flex-direction: column; border-top: calc(0.3 * var(--mm)) solid var(--ss-ink); padding-top: calc(1 * var(--mm)); }
-.ss-look-cols b { font-family: var(--ss-sans); font-size: calc(2.4 * var(--mm)); }
+/* Three rows, each a full-width label with writing lines under it: room for at least one line each. */
+.ss-look { flex: 1; min-height: calc(50 * var(--mm)); display: flex; flex-direction: column; }
+.ss-look-rows { flex: 1; display: grid; grid-template-rows: repeat(3, 1fr); gap: calc(2 * var(--mm)); }
+.ss-look-rows div { display: flex; flex-direction: column; border-top: calc(0.3 * var(--mm)) solid var(--ss-ink); padding-top: calc(0.8 * var(--mm)); }
+.ss-look-rows b { font-family: var(--ss-sans); font-size: calc(2.6 * var(--mm)); line-height: 1.6; }
 
 /* Ruled writing space, wherever an <i> is left empty for it. */
 /* A tiled single rule, not a repeating-linear-gradient: Chrome's PDF output drops every few
    stripes of a repeating gradient. */
-.ss-look-cols i, .ss-q i {
+.ss-look-rows i, .ss-q i {
   flex: 1;
   min-height: calc(7 * var(--mm));
   background: linear-gradient(transparent calc(100% - 0.25 * var(--mm)), var(--ss-rule) 0)
@@ -229,7 +230,8 @@
 }
 
 .ss-brief ol { margin: 0; padding-left: calc(4.5 * var(--mm)); }
-.ss-brief li { margin: 0 0 calc(1.3 * var(--mm)); font-size: calc(2.6 * var(--mm)); line-height: 1.3; }
+/* The ink is restated because Material colours list items itself, pale grey in its dark palette. */
+.ss-brief li { margin: 0 0 calc(1.3 * var(--mm)); font-size: calc(2.6 * var(--mm)); line-height: 1.3; color: var(--ss-ink); }
 .ss-brief li::marker { font-family: var(--ss-sans); color: var(--ss-muted); }
 /* Set by ssFit when the outline overruns its column: smaller, then section names only. */
 .ss-tight .ss-brief li { margin-bottom: calc(0.7 * var(--mm)); font-size: calc(2.3 * var(--mm)); }
