@@ -6,9 +6,9 @@ tags: ["communion", "last-supper", "passover", "1-corinthians", "luke", "method/
 questions: ["What is communion for, and how should I take it?"]
 draft: false
 primary_passage: "1 Corinthians 11:17-34"
-bible_references: ["1 Corinthians 11:17-34", "1 Corinthians 10:1-4", "1 Corinthians 10:14-22", "1 Corinthians 5:7-8", "1 Corinthians 12:27", "Luke 22:14-20", "Luke 22:28-30", "Matthew 26:26-29", "Luke 24:30-35", "Acts 2:42-46", "Acts 20:7", "Exodus 12:11", "Exodus 12:14", "Exodus 12:26-27", "Exodus 13:8-9", "Deuteronomy 8:11", "Deuteronomy 16:3", "Joshua 4:6-7", "Hebrews 10:3", "Hebrews 12:2", "Colossians 3:1-2", "2 Peter 1:12-13", "John 10:9", "Isaiah 25:6-8", "Revelation 19:7-9", "Revelation 1:10"]
+bible_references: ["1 Corinthians 11:17-34", "1 Corinthians 10:1-4", "1 Corinthians 10:14-22", "1 Corinthians 5:7-8", "1 Corinthians 12:27", "Luke 22:14-20", "Luke 22:28-30", "Matthew 26:26-29", "Luke 24:30-35", "Acts 2:42-46", "Acts 20:7", "Exodus 12:11", "Exodus 12:14", "Exodus 12:26-27", "Exodus 13:8-9", "Deuteronomy 8:11", "Deuteronomy 16:3", "Joshua 4:6-7", "Hebrews 10:3", "Hebrews 12:2", "Colossians 3:1-2", "2 Peter 1:12-13", "John 10:9", "Isaiah 25:6-8", "Revelation 19:7-9", "Revelation 1:10", "Deuteronomy 32:17", "Deuteronomy 32:21", "1 Corinthians 10:20", "1 Corinthians 10:22", "Isaiah 65:11", "Malachi 1:7", "Malachi 1:12"]
 date_created: 2026-10-02
-date_modified: 2026-10-21
+date_modified: 2026-10-23
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -234,6 +234,18 @@ sacrifices participants in the altar?" (1 Corinthians 10:18, ESV). A meal joins 
 to the one it is offered to. So "you cannot drink the cup of the Lord and the cup of demons. You
 cannot partake of the table of the Lord and the table of demons" (1 Corinthians 10:21, ESV). The
 Lord's table belongs to one Lord, and the one who eats at it belongs to Him.
+
+Paul takes the warning from the Song of Moses. "What pagans sacrifice they offer to demons and not to
+God" (1 Corinthians 10:20, ESV) repeats the Greek Old Testament of Deuteronomy 32:17 word for word:
+δαιμονίοις καὶ οὐ θεῷ (*daimoniois kai ou theō*, G1140, "to demons and not to God"). Moses sang it
+against Israel, God's own people, and Paul's next question carries the Song's verb as well: "Shall we
+provoke the Lord to jealousy?" (1 Corinthians 10:22, ESV), παραζηλόω (*parazēloō*, G3863), the word of
+Deuteronomy 32:21. [Those Called Gods](../spiritual-beings/those-called-gods.md#what-the-nations-worshipped)
+covers what stands behind the idols. Isaiah brought the same charge against Israel with a rival table
+and cup, "who set a table for Fortune and fill cups of mixed wine for Destiny" (Isaiah 65:11, ESV),
+a parallel Paul does not cite. The name "the table of the Lord" was already the Greek Old Testament's
+for the altar (Malachi 1:7, 12), as [The Table and the Bread of the
+Presence](../jesus/the-heavenly-pattern/table.md#the-lords-table-in-malachi) shows.
 
 ## What went wrong at Corinth
 
