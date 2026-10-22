@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Idolatry](../../sin/idolatry.md) — 4:8-9
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:6-7
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:4
 - [The Appointed Times](../../feasts/feasts.md) — 4:9-11

@@ -16,6 +16,7 @@ draft: false
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 1:12-13
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 1:13
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 1:18
+- [Idolatry](../../sin/idolatry.md) — 1:16
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 1:25-27
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 1:29
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 1:19

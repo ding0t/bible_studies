@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 8:5-6
+- [Idolatry](../../sin/idolatry.md) — 8:4-6
 - [In Humility](../../christian-life/humility.md) — 8:1
 - [Pride](../../sin/pride.md) — 8:1
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 8:5-6

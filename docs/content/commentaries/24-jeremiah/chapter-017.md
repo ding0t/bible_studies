@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Idolatry](../../sin/idolatry.md) — 17:5-8
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 17:13
 <!-- commentary-index:auto-end -->

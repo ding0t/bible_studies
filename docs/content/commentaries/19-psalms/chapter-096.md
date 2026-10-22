@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Idolatry](../../sin/idolatry.md) — 96:5
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 96:4-5
 <!-- commentary-index:auto-end -->

@@ -16,6 +16,7 @@ draft: false
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 20:8-11
 - [Biblical Numerology](../../scripture/numerology.md) — 20:1-17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 20:11
+- [Idolatry](../../sin/idolatry.md) — 20:3-6
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 20:19
 - [Six Days of History](../../last-things/six-days-of-history.md) — 20:11
 <!-- commentary-index:auto-end -->

@@ -17,6 +17,7 @@ draft: false
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 1:16
 - [Faith](../../salvation/faith.md) — 1:17
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:3
+- [Idolatry](../../sin/idolatry.md) — 1:21-25
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:25
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 1:4
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 1:13

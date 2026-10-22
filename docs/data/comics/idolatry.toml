@@ -1,0 +1,102 @@
+# One-minute comic for docs/content/sin/idolatry.md.
+# Drawn by: python3 utils/build_comics.py idolatry
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-22.
+#
+# The study in five beats, in its own order: the made god is nothing, a log that half bakes bread and
+# half is prayed to (Isaiah 44:15-17); the worship given to a god goes to demons (1 Corinthians
+# 10:20, quoting Deuteronomy 32:17) -- and only there, which is why the aside says so; the uncarved
+# idol Paul names is money (Colossians 3:5), and Jesus puts it in God's place by name (Matthew 6:24);
+# pride is the door, wealth and a lifted heart before other gods (Deuteronomy 8:12-19); and John's
+# last word, after naming Jesus Christ the true God (1 John 5:20-21).
+# The carpenter kneels because Isaiah 44:17 says he "falls down to it". The charcoal fire is the
+# half of the log he burned (44:16). Moses speaks Deuteronomy 8 to Israel on the plains of Moab
+# (Deuteronomy 1:5); the speaker is drawn, the hearers are a small crowd. Jesus' hearers in Matthew
+# 6 are "his disciples" and the crowds (5:1; 7:28).
+
+title = "Idolatry"
+subtitle = "What you trust and serve in God’s place"
+layout = [[300, 1, 1], [300, 1, 1], [250, 1]]
+point = "Whatever you trust and serve in God’s place is an idol. Turn from it to the living God and His Son Jesus Christ, the true God (1 Thessalonians 1:9; 1 John 5:20-21)."
+
+[[panel]]
+ref = "Isaiah 44:16-17"
+scene = "room"
+sky = "day"
+caption = "Half the log bakes his bread. The rest becomes his god."
+caption_w = 260
+shows = "a carpenter kneeling before a stone idol on a plinth, a charcoal fire burning beside him"
+props = [
+  { what = "fire", x = 0.18, s = 0.9 },
+  { what = "idol", x = 0.74, s = 0.95 },
+]
+cast = [
+  { who = "man", id = "carpenter", name = "the carpenter", x = 0.46, face = "right", stance = "kneel", pose = "raise", tone = 1 },
+]
+say = [
+  { by = "carpenter", text = "*Deliver me*, for you are my god!", source = "esv", at = [0.30, 0.36], w = 150 },
+]
+
+[[panel]]
+ref = "1 Corinthians 10:20"
+scene = "street"
+sky = "day"
+caption = "The worship goes somewhere."
+caption_w = 260
+aside = "Scripture names demons where a god is worshipped (Deuteronomy 32:17)."
+aside_w = 260
+shows = "Paul standing at the left, pointing toward a man offering at a stone idol"
+props = [
+  { what = "idol", x = 0.86, s = 0.9 },
+]
+cast = [
+  { who = "paul", x = 0.16, face = "right", pose = "point", tag = "Paul" },
+  { who = "man", id = "worshipper", name = "a worshipper", x = 0.64, face = "right", stance = "kneel", pose = "offer", holds = "gift", tone = 3 },
+]
+say = [
+  { by = "paul", text = "What pagans sacrifice they offer to *demons* and not to God.", source = "esv", at = [0.42, 0.30], w = 190 },
+]
+
+[[panel]]
+ref = "Matthew 6:24"
+scene = "hills"
+sky = "day"
+caption = "The idol Paul names in the church is greed (Colossians 3:5)."
+caption_w = 260
+shows = "Jesus teaching on a hillside, three disciples listening"
+cast = [
+  { who = "jesus", x = 0.24, face = "right", pose = "open", tag = "Jesus" },
+  { who = "disciple", id = "disciples", name = "the disciples", n = 3, x = 0.60, x2 = 0.88, face = "left", stance = "sit", pose = ["fold", "stand", "fold"] },
+]
+say = [
+  { by = "jesus", text = "You cannot serve God and *money*.", source = "esv", at = [0.56, 0.36], w = 150 },
+]
+
+[[panel]]
+ref = "Deuteronomy 8:17"
+scene = "plain"
+sky = "dusk"
+caption = "Pride opens the door to other gods."
+caption_w = 260
+shows = "Moses with his staff, speaking to a small crowd of Israelites"
+cast = [
+  { who = "moses", x = 0.20, face = "right", pose = "point", holds = "staff", tag = "Moses" },
+  { who = "man", id = "israel", name = "Israel", n = 3, x = 0.64, x2 = 0.90, face = "left", stance = "sit", pose = ["stand", "fold", "stand"], tone = 2 },
+]
+say = [
+  { by = "moses", text = "Beware lest you say in your heart, ‘My power and the might of my hand have *gotten me this wealth*.’", source = "esv", at = [0.52, 0.22], w = 200 },
+]
+
+[[panel]]
+ref = "1 John 5:20-21"
+scene = "room"
+sky = "dusk"
+caption = "John has just named Jesus Christ “the true God and eternal life.”"
+caption_w = 380
+shows = "John, an old man, speaking to a gathered church"
+cast = [
+  { who = "john", x = 0.30, face = "right", pose = "open", tag = "John" },
+  { who = "man", id = "church", name = "the church", n = 4, x = 0.60, x2 = 0.90, face = "left", stance = "sit", pose = ["fold", "stand", "heart", "fold"], tone = 1 },
+]
+say = [
+  { by = "john", text = "Little children, *keep yourselves from idols*.", source = "esv", at = [0.50, 0.32], w = 200 },
+]

@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Idolatry](../../sin/idolatry.md) — 3:14-16
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 3:12
 <!-- commentary-index:auto-end -->

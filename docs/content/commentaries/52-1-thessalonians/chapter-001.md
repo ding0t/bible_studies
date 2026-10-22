@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Idolatry](../../sin/idolatry.md) — 1:9-10
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 1:10
 - [The Rapture of the Church](../../last-things/rapture.md) — 1:10
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 1:10

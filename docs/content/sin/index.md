@@ -17,11 +17,11 @@ Sin, temptation, and the pattern of redemption in Scripture.
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
--   __Sin and Idolatry__
+-   __Idolatry__
 
     ---
 
-    Understanding idolatry as a primary sin against God
+    Idolatry is giving a created thing the trust and service that belong to God. The made god is nothing, but worship offered to it goes to demons. Paul names greed as idolatry in the church, and pride is the self-sufficiency that opens the door to both. God answers with a jealous love and the call back to His Son Jesus Christ, the true God.
 
     [:octicons-arrow-right-24: Read](idolatry.md)
 

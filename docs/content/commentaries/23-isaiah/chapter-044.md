@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Idolatry](../../sin/idolatry.md) — 44:9-20
 - [Sin and Sorcery](../../sin/sorcery.md) — 44:24-26
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 44:6
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 44:3

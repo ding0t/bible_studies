@@ -15,6 +15,7 @@ draft: false
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 4:7
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 4:7
 - [Fasting](../../christian-life/fasting.md) — 4:7-10
+- [Idolatry](../../sin/idolatry.md) — 4:1-7
 - [In Humility](../../christian-life/humility.md) — 4:6-10
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:2-3
 - [Pride](../../sin/pride.md) — 4:6

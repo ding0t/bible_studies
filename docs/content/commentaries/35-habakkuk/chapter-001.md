@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Faith](../../salvation/faith.md) — 1:6
+- [Idolatry](../../sin/idolatry.md) — 1:11-16
 <!-- commentary-index:auto-end -->

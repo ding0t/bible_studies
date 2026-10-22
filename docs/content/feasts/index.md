@@ -102,7 +102,7 @@ The biblical feasts, their Old Testament instruction, and New Testament fulfillm
 
     ---
 
-    The 364-day priestly calendar behind this site's zadok_year dating, its roots in the Zadokite priesthood and the Dead Sea Scrolls, and why I use it
+    The 364-day priestly calendar behind this site's Zadok years: its year, sabbaticals, jubilees and ages, its roots in the Zadokite priesthood and the Dead Sea Scrolls, and why I use it
 
     [:octicons-arrow-right-24: Read](zadok-calendar.md)
 

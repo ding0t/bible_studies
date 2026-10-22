@@ -14,6 +14,7 @@ draft: false
 
 - [Submission in Context](../../christian-life/submission-in-context.md) — 5:21-33 (primary passage)
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:22-33 (primary passage)
+- [Idolatry](../../sin/idolatry.md) — 5:5
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 5:25-29
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 5:25
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 5:3

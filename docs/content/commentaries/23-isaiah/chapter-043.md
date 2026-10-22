@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 43:19
+- [Idolatry](../../sin/idolatry.md) — 43:7
 <!-- commentary-index:auto-end -->

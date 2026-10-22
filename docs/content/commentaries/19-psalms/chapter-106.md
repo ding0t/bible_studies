@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 106:45
+- [Idolatry](../../sin/idolatry.md) — 106:19-20
 <!-- commentary-index:auto-end -->

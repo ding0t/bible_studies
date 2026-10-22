@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 5:11-13 (primary passage)
+- [Idolatry](../../sin/idolatry.md) — 5:20-21
 - [Know the Truth](../../christian-life/know-the-truth.md) — 5:20
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 5:3
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 5:14

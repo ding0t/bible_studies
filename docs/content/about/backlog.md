@@ -968,6 +968,31 @@ back-link when it was published; the content notes are still to do.
   55a, which needs a primary source first; and the seal of God against the mark of the beast
   (Revelation 7:3; 13:16).
 
+### 10.6 True worship: in spirit and truth
+
+What true worship is, what Jesus taught about it, and how the Old and New Testaments describe it.
+It is the positive counterpart to [Idolatry](../sin/idolatry.md): people are made to worship
+(Isaiah 43:7; Romans 1:21-25), so the answer to an idol is the worship the idol took, given back
+to God.
+
+- **Jesus' teaching:** John 4:21-24 (where becomes how; "the Father is seeking such people");
+  Matthew 4:10 / Luke 4:8 ("You shall worship the Lord your God and him only shall you serve",
+  from Deuteronomy 6:13); Matthew 15:8-9 (lip worship, quoting Isaiah 29:13); John 9:38.
+- **Old Testament:** the words שָׁחָה (*shachah*, bow down) and עָבַד (*ʿavad*, serve), and what
+  each adds; the first "worship" in the Bible (Genesis 22:5); Psalms 95-100; worship and obedience
+  (1 Samuel 15:22; Psalm 51:16-17; Micah 6:6-8; Amos 5:21-24); the tabernacle and temple as the
+  pattern.
+- **New Testament:** προσκυνέω (*proskyneō*) and λατρεύω (*latreuō*); Romans 12:1 ("spiritual
+  worship", λογικὴν λατρείαν); Philippians 3:3 ("worship by the Spirit of God"); Hebrews 12:28;
+  13:15-16; Revelation 4-5.
+- **Settle in the exegesis:** whether "in spirit" in John 4:23-24 means the human spirit or the
+  Holy Spirit, with the case on both sides. Check what [The Woman at the Well](../jesus/woman-at-well.md)
+  already says. It treats John 4:20-24 directly, so decide first whether this is a new study or a
+  link to that one for the John 4 material.
+- **Links:** [Idolatry](../sin/idolatry.md) (both ways once published),
+  [The Woman at the Well](../jesus/woman-at-well.md), [Prayer as Communion](../christian-life/prayer-as-communion.md),
+  and 10.3 (religion and the Way).
+
 ## Completed
 
 Kept here so that an old reference like "work on 3.1" still resolves.

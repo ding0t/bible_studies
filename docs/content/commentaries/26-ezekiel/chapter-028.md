@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Idolatry](../../sin/idolatry.md) — 28:2
 - [Pride](../../sin/pride.md) — 28:2
 <!-- commentary-index:auto-end -->

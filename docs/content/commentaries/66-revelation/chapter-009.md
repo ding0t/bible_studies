@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Idolatry](../../sin/idolatry.md) — 9:20
 - [Sin and Sorcery](../../sin/sorcery.md) — 9:21
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 9:13
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 9:15-21

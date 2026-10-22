@@ -1,0 +1,129 @@
+slug: "idolatry"
+title: "Sin and Idolatry"
+status: published
+target_path: "docs/content/sin/idolatry.md"
+
+primary_passage: "1 Corinthians 10:14-22"
+supporting_passages:
+  - "1 Corinthians 8:4-6"
+  - "Deuteronomy 32:15-21"
+  - "Psalm 106:19-20, 35-38"
+  - "Leviticus 17:7"
+  - "Isaiah 44:9-20"
+  - "Psalm 115:3-8"
+  - "Psalm 96:5"
+  - "Jeremiah 2:11-13"
+  - "Ezekiel 14:1-8"
+  - "Colossians 3:1-6"
+  - "Ephesians 5:5"
+  - "Romans 1:21-25"
+  - "Exodus 20:3-6"
+  - "Galatians 4:8-9"
+  - "Revelation 9:20"
+  - "1 Thessalonians 1:9-10"
+  - "1 John 5:20-21"
+sibling_studies:
+  - slug: "spiritual-beings/those-called-gods"
+    role: cited
+    use: link
+    note: "Its 'What the nations worshipped' paragraph states the nothing/demons pair in five sentences (Ps 96:5, Deut 32:17, 1 Cor 8:5, 10:20, Gal 4:8). This study is the full treatment; link it for the divine council and the powers over the nations, don't re-argue those."
+  - slug: "feasts/lords-supper"
+    role: cited
+    use: link
+    note: "Covers 1 Cor 10:16-21 koinonia at the Lord's table; link for the meal, spend words here on the table of demons."
+  - slug: "sin/sexual-immorality"
+    role: cited
+    use: link
+    note: "Quotes 1 Cor 10:14 and 10:7-8 (golden calf, Baal of Peor). Col 3:5 list pairs porneia with pleonexia."
+  - slug: "sin/sorcery"
+    role: prose
+    use: link
+    note: "Gal 5:20 idolatry beside sorcery."
+  - slug: "sin/pride"
+    role: prose
+    use: enrich
+    note: "Links to Idolatry as 'the heart that sets up something in God's place'; may want a sentence back once this is published."
+
+genre: [topical, epistle, law, prophets, psalm]
+
+thesis: "Idolatry is giving a created thing the trust and service that belong to God; in its plainest form it is a made god, whose worship goes to demons, and in the form Paul names in the church it is greed, money trusted in God's place, while pride is the self-sufficiency that opens the door to both, and God answers every one of them with a jealous love and the call back to His Son Jesus Christ, the true God."
+# Revised 2026-10-22 at the author's correction: demons are tied in Scripture to sacrifice/worship
+# offered to a god (Lev 17:7; Deut 32:17; Ps 106:37; 1 Cor 10:20; Rev 9:20), never to covetousness
+# or pride. Pride is a distinct sin and the door (Deut 8:12-19; 32:15-17), linked to pride.md.
+outline:
+  - {section: "What idolatry is", says: "Trust, worship and service given to a created thing (Exod 20:5; Isa 44:17; Jer 17:5-7; Rom 1:25)."}
+  - {section: "Made to worship", says: "Added 2026-10-22 at the author's request. Isa 43:7; Col 1:16; Rev 4:11 (made for His glory); Rom 1:21, 25 (withheld worship goes to the creature); Jer 2:13 (the thirst stays, so they dig); Acts 17:16-27. The 'built-in need' step is marked as the church's reading, with Augustine Confessions 1.1 paraphrased (not in the local patristics corpus, so not quoted). Turning back now ends on John 4:23 and links woman-at-well; the full worship study is backlog 10.6."}
+  - {section: "The made god is nothing", says: "Isa 44; Jer 10:5; Ps 115:8 you become like it; the exchange of glory (Ps 106:20; Jer 2:11-13; Rom 1:23 from LXX Ps 105:20)."}
+  - {section: "The worship goes to demons", says: "1 Cor 8:4 and 10:19-22 both Paul's; quotes LXX Deut 32:17 and 32:21; shedim 2x; Lev 17:7; table of texts; demons only where a god is worshipped; general demonic influence (Eph 2:2; Jas 3:15; 4:7) kept distinct."}
+  - {section: "Greed, the idolatry Paul names", says: "Col 3:5 grammar; Eph 5:5; Job 31:24-28; Hab 1:11, 16; Matt 6:24 douleuo = 1 Thess 1:9; Luke 12:15-21; 1 Tim 6:17."}
+  - {section: "Pride, the door to the idol", says: "Deut 8:12-19 and 32:15-17 order; 1 Sam 15:23 is a comparison; Ezek 28:2; 2 Thess 2:4; 2 Tim 3:2-4; 'idolatry of self' marked as a teaching phrase; links pride.md."}
+  - {section: "The idol in the heart", says: "Ezek 14:1-8; gillulim 48x/39 in Ezekiel, likely 'dung'; amulet suggestion marked; God lays hold of the heart."}
+  - {section: "Why God is jealous", says: "Exod 20:5-6; Deut 32:16; Lev 17:7; Jas 4:4; covenant husband."}
+  - {section: "Three questions for your heart", says: "Trust (Isa 44:17; Job 31:24), serve (Matt 6:24), could not give up (Luke 12:20)."}
+  - {section: "Turning back", says: "Ezek 14:6; 1 Thess 1:9-10; Col 3:1-5; 1 John 5:20-21."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Brief is the stub's own question, 'Is idolatry the worship of demons?', plus its heart theme (Col 3:5, Ezek 14:3). No backlog entry (backlog 0.8 lists it only as a stub needing a develop pass). URL is published, so the file stays at sin/idolatry.md. The stub answers the question 'no'; 1 Cor 10:20 answers 'yes' by quoting Deut 32:17, so the draft corrects the stub."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Corinth: meat sold after temple sacrifice, meals in temple dining rooms (1 Cor 8:10). Ezekiel 14: elders of the exile at Tel-abib consulting the prophet (cf. 8:1; 20:1). Deut 32: Song of Moses, covenant witness before entry. Colossae: Gentile converts (1:21), vice list 3:5-9."
+    literary_context:
+      done: true
+      notes: "1 Cor 8-10 is one argument: 8:4 concedes 'an idol has no real existence'; 10:1-13 the wilderness warning; 10:14 'flee from idolatry'; 10:19-20 denies the idol is anything, then says the sacrifice goes to demons; 10:22 'provoke the Lord to jealousy' = Deut 32:21. So both statements are Paul's, two chapters apart, in one argument. Col 3:5 follows 3:1-4 (raised with Christ, life hidden with Him): the 'therefore' grounds the putting-to-death in union with Christ."
+    content_word_studies:
+      done: true
+      notes: "Counts verified with bible_concordance on macula-greek-sblgnt / macula-hebrew-wlc (an unrestricted count double-counts across morphology works: H1544 95 -> 48; G1497 102 -> 11)."
+      terms:
+        - {word: "εἴδωλον", language: greek, transliteration: "eidōlon", strongs_id: "G1497", gloss: "idol, image", notes: "11x SBLGNT. 1 Cor 8:4 οὐδὲν εἴδωλον ἐν κόσμῳ."}
+        - {word: "εἰδωλολατρία", language: greek, transliteration: "eidōlolatria", strongs_id: "G1495", gloss: "idolatry", notes: "4x: 1 Cor 10:14; Gal 5:20; Col 3:5; 1 Pet 4:3."}
+        - {word: "εἰδωλολάτρης", language: greek, transliteration: "eidōlolatrēs", strongs_id: "G1496", gloss: "idolater", notes: "7x: 1 Cor 5:10, 11; 6:9; 10:7; Eph 5:5; Rev 21:8; 22:15."}
+        - {word: "πλεονεξία", language: greek, transliteration: "pleonexia", strongs_id: "G4124", gloss: "covetousness, greed, wanting more", notes: "10x SBLGNT. Col 3:5 τὴν πλεονεξίαν ἥτις ἐστὶν εἰδωλολατρία: the article and ἥτις single out covetousness as the one Paul names idolatry."}
+        - {word: "δαιμόνιον", language: greek, transliteration: "daimonion", strongs_id: "G1140", gloss: "demon", notes: "1 Cor 10:20-21 four times."}
+        - {word: "κοινωνός", language: greek, transliteration: "koinōnos", strongs_id: "G2844", gloss: "partner, participant", notes: "1 Cor 10:18, 20: participants in the altar / with demons."}
+        - {word: "שֵׁד", language: hebrew, transliteration: "shed", strongs_id: "H7700", gloss: "demon", notes: "2x only: Deut 32:17; Ps 106:37 (verified). LXX δαιμόνια both."}
+        - {word: "שָׂעִיר", language: hebrew, transliteration: "saʿir", strongs_id: "H8163", gloss: "hairy one, goat; goat demon", notes: "Lev 17:7 'goat demons, after whom they whore' (זָנָה); also 2 Chr 11:15."}
+        - {word: "גִּלּוּלִים", language: hebrew, transliteration: "gillulim", strongs_id: "H1544", gloss: "idols (probably 'dung pellets')", notes: "48x WLC, 39 in Ezekiel. Derivation from gll/gel 'dung' is the common view (NLT footnote 'round things, probably alludes to dung'); mark as likely, not certain."}
+        - {word: "אֱלִילִים", language: hebrew, transliteration: "ʾelilim", strongs_id: "H457", gloss: "worthless things, idols", notes: "20x WLC. Ps 96:5 pun on ʾelohim — already treated in those-called-gods.md; cite briefly."}
+        - {word: "מוּר", language: hebrew, transliteration: "mur", strongs_id: "H4171", gloss: "exchange", notes: "Ps 106:20; Jer 2:11 (twice). LXX Ps 105:20 ἠλλάξαντο τὴν δόξαν αὐτῶν ἐν ὁμοιώματι μόσχου -> Rom 1:23 ἤλλαξαν τὴν δόξαν ... ἐν ὁμοιώματι. bible_trace silent (middle vs active form); the shared phrase is visible in the Greek, cite directly."}
+        - {word: "הֶעֱלוּ ... עַל לִבָּם", language: hebrew, transliteration: "heʿelu ... ʿal libbam", strongs_id: "H5927", gloss: "brought up onto their heart", notes: "Ezek 14:3, 4, 7. Hiphil of ʿalah. Cultural Backgrounds suggests amulets worn on the chest; possible, but 14:5 'lay hold of the hearts' and 14:7 'separates himself from me' keep the referent inward."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Temple meat is Corinth's occasion; the principle (no fellowship at two tables; the worship goes somewhere) transcends it. Carved images are rare in a Western reader's life; covetousness (Col 3:5) and trust (Ps 115:8; Isa 44:17 'deliver me') are not."
+    theological_principle:
+      done: true
+      notes: "God made the heart for Himself and loves His people with an exclusive, covenant love; idolatry is the heart's exchange of that God for a made thing it can control, and the exchange is never neutral because demons receive the worship. The remedy is a turning to the living God through His Son (1 Thess 1:9-10; 1 John 5:20-21)."
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "1 Corinthians 10:20 <- Deuteronomy 32:17 LXX", relation: "quotation-greek, strength 8, corroborated: δαιμονίοις καὶ οὐ θεῷ"}
+      - {ref: "1 Corinthians 10:22 <- Deuteronomy 32:21 LXX", relation: "shared verb παραζηλόω (provoke to jealousy); tool silent, verified by reading both Greek texts"}
+      - {ref: "Romans 1:23 <- Psalm 106:20 (LXX 105:20)", relation: "shared ἀλλάσσω + τὴν δόξαν + ἐν ὁμοιώματι; tool silent"}
+    translations_compared: ["ESV", "WEB", "LXX (Brenton Greek)", "SBLGNT"]
+    divergences_noted: "ESV 1 Cor 8:4 'an idol has no real existence' (paraphrastic) vs WEB 'no idol is anything in the world' (closer to οὐδὲν εἴδωλον ἐν κόσμῳ). ESV Lev 17:7 'goat demons' vs KJV 'devils'. Col 3:5 ESV 'what is earthly in you' vs WEB/LSB footnote 'members which are on the earth' (τὰ μέλη)."
+  drafting:
+    done: true
+    file: "docs/content/sin/idolatry.md"
+  review:
+    done: false
+    validated: true # 2026-10-22: validate-content clean apart from provenance (filled at commit); mkdocs build --strict passes
+
+open_questions:
+  - "NIV/NKJV Cultural Backgrounds note on Deut 32:17 argues the shedim 'would not have been considered demons' (Akkadian shedu / Deir Alla shdyn). Paul's quotation of the LXX at 1 Cor 10:20 reads them as demons, as do Ps 106:37 and the ESV Study Bible. Per the ancient-witness-over-modern-gloss rule, Paul's reading carries the argument; give the background note one marked sentence."
+  - "gillulim etymology ('dung pellets') is likely, not certain; mark it."
+  - "Fork candidate: food offered to idols and the weak conscience (1 Cor 8; 10:23-33; Rom 14) — a Christian-liberty study, outside this thesis."
+  - "Fork candidate: Revelation's idolatry (13:14-15 the image of the beast; 9:20) — last-things material."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "1 Cor 10:19-20 note confirmed the Deut 32:17 link and the demonic power behind false religion; Ezek 14:1-11 note contributed the exile setting and the three-part structure of God's answer; Col 3:5 note confirmed."}
+  - {type: commentary, title: "NIV / NKJV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Contributed: LXX renders false gods as demons (Ps 96:5; 106:37; Isa 65:3, 11) and early Jewish/Christian sources agree with Paul; Ezek 14:3 amulet suggestion; Deut 32:17 shedim background note, which disagrees with Paul's reading — see open_questions."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Col 3:5 confirmed: the vices summarised as idolatry, 'wanting more and more'."}
+  - {type: other, title: "NLT footnote, Ezekiel 14:3", author: "Tyndale", note: "gillulim, lit. 'round things', probably alludes to dung."}
+last_updated: "2026-10-22"

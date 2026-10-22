@@ -19,6 +19,7 @@ draft: false
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 6:10 (primary passage)
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 6:11
 - [Faith](../../salvation/faith.md) — 6:11
+- [Idolatry](../../sin/idolatry.md) — 6:24
 - [In Humility](../../christian-life/humility.md) — 6:11
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 6:8-13
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 6:1
