@@ -9,7 +9,8 @@ primary_passage: "John 4:21-24"
 bible_references: ["Genesis 22:5-8", "Exodus 20:3-6", "Exodus 25:8-9", "Deuteronomy 6:13", "Deuteronomy 32:43", "Nehemiah 9:6", "Psalm 29:2", "Psalm 51:16-17", "Psalm 95:6-7", "Isaiah 2:2-3", "Isaiah 6:1-5", "Isaiah 29:13", "Isaiah 42:8", "Isaiah 66:23", "Micah 6:6-8", "Zechariah 14:9", "Zechariah 14:16", "Daniel 3:17-18", "Daniel 4:34", "Matthew 4:8-10", "Matthew 14:33", "Matthew 15:8-9", "Matthew 28:9", "Matthew 28:17", "John 2:19-21", "John 9:38", "John 20:28", "Acts 2:42", "Acts 10:25-26", "Acts 12:21-23", "Acts 14:11-15", "Acts 20:7", "Romans 12:1", "Philippians 2:9-11", "Philippians 3:3", "Colossians 3:16", "2 Thessalonians 2:4", "Hebrews 1:6", "Hebrews 10:19-22", "Hebrews 12:28-29", "Hebrews 13:15-16", "1 Peter 2:5", "Revelation 4:8-11", "Revelation 5:8-14", "Revelation 7:9-12", "Revelation 13:4", "Revelation 13:8", "Revelation 13:15", "Revelation 14:6-7", "Revelation 15:4", "Revelation 19:10", "Revelation 21:22", "Revelation 22:3-4", "Revelation 22:8-9"]
 date_created: 2026-10-22
 date_modified: 2026-10-22
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # True Worship
@@ -26,6 +27,8 @@ Redeemer; before Jesus it came through a place, a priesthood and sacrifice, sinc
 through Him, by the Holy Spirit and in truth, anywhere and with your whole life, and in the kingdom and
 the new creation every nation and every creature will give it, so it belongs to God alone, which is
 why angels refuse it, the beast demands it, and Jesus receives it.
+
+[![A one-minute comic in 6 panels. Two columns side by side: Refused and Received, row for row. Panel 1 (Acts 10:25-26): Peter lifting up Cornelius, a centurion, who has fallen at his feet. Caption: "Cornelius falls at his feet. Peter refuses it." Peter says: "Stand up; I too am a man." Panel 2 (Matthew 14:33): in the boat after the storm, the disciples kneel before Jesus. Caption: "Jesus accepts it." The disciples says: "Truly you are the Son of God." Panel 3 (Revelation 22:8-9): John kneeling, a voice of light speaking from above him. Caption: "An angel refuses it." The angel says: "You must not do that! I am a fellow servant with you." The angel says: "Worship God." Note: "The angel is drawn as a voice." Panel 4 (Matthew 28:9): the open tomb behind; the risen Jesus greets Mary Magdalene and the other Mary, who kneel at His feet. Caption: "They took hold of His feet and worshiped Him." Jesus says: "Greetings!" Panel 5 (Revelation 13:4, 15): a crowd bowing low before a stone image under a dark sky. Caption: "At the end, the beast demands it, and those who refuse are put to death." The world says: "Who is like the beast, and who can fight against it?" Note: "The beast is not drawn. Its image is (Revelation 13:14-15)." Panel 6 (Revelation 5:13-14): a throne of light; elders in white kneel before it with their crowns laid down, and a great crowd kneels behind them. Caption: "Every creature in heaven and on earth worships the One on the throne and the Lamb." Every creature says: "To him who sits on the throne and to the Lamb be blessing and honor and glory and might forever and ever!" The point: Worship belongs to God alone. Angels and apostles refuse it, the beast demands it, and Jesus receives it because He is God. So bow before the Father and the Lamb with your whole life (John 4:23; Revelation 5:13).](../assets/img/comics/true-worship.svg)](../assets/img/comics/true-worship.svg)
 
 ## Key Takeaways
 

@@ -1,0 +1,136 @@
+# One-minute comic for docs/content/christian-life/true-worship.md.
+# Drawn by: python3 utils/build_comics.py true-worship
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-22.
+#
+# The study's point is a contrast, so the comic is two columns, Refused and Received, then two wide
+# rows. Row 1: Peter lifts Cornelius, who fell at his feet and worshipped (Acts 10:25-26); the
+# disciples in the boat worship Jesus and He accepts it (Matthew 14:33). Row 2: the angel stops John
+# (Revelation 22:8-9; also 19:10); the women take hold of the risen Jesus' feet and worship Him
+# (Matthew 28:9). Row 3: the beast demands worship (Revelation 13:4, 15). Row 4: every creature
+# worships the One on the throne and the Lamb, and the elders fall down (Revelation 5:13-14), the
+# elders' crowns from 4:10.
+# Cornelius is a centurion (Acts 10:1), so he is drawn as a soldier. Matthew 28:1 names "Mary
+# Magdalene and the other Mary", so the reserved Magdalene kneels with a second woman. The angel is
+# drawn as a voice, as in those-called-gods: Revelation 22:8 gives no description of him. The beast
+# is not drawn; the crowd bows to an image, which Revelation 13:14-15 says the beast's prophet made.
+# The One on the throne is drawn as light (Revelation 4:2-3), as in judgment-seat-of-christ.
+
+title = "True Worship"
+subtitle = "Who refuses it, who demands it, and who receives it"
+layout = [[290, 1, 1], [290, 1, 1], [270, 1], [300, 1]]
+headers = ["Refused", "Received"]
+note = "The angel and the One on the throne are drawn as a voice and as light; the beast is not drawn."
+point = "Worship belongs to God alone. Angels and apostles refuse it, the beast demands it, and Jesus receives it because He is God. So bow before the Father and the Lamb with your whole life (John 4:23; Revelation 5:13)."
+
+[[panel]]
+ref = "Acts 10:25-26"
+scene = "courtyard"
+sky = "day"
+caption = "Cornelius falls at his feet. Peter refuses it."
+caption_w = 230
+shows = "Peter lifting up Cornelius, a centurion, who has fallen at his feet"
+cast = [
+  { who = "peter", x = 0.30, face = "right", pose = "open", tag = "Peter" },
+  { who = "soldier", id = "cornelius", name = "Cornelius", x = 0.66, face = "left", stance = "kneel", pose = "fold" },
+]
+say = [
+  { by = "peter", text = "Stand up; *I too am a man*.", source = "esv", at = [0.58, 0.36], w = 140 },
+]
+
+[[panel]]
+ref = "Matthew 14:33"
+scene = "lake"
+sky = "storm"
+caption = "Jesus accepts it."
+caption_w = 170
+shows = "in the boat after the storm, the disciples kneel before Jesus"
+props = [
+  { what = "hull", x = 0.04, x2 = 0.94, y = 0.97, front = true },
+]
+cast = [
+  { who = "jesus", x = 0.20, face = "right", pose = "open", s = 0.8, tag = "Jesus" },
+  { who = "disciple", id = "disciples", name = "the disciples", n = 3, x = 0.52, x2 = 0.84, face = "left", stance = "kneel", pose = ["fold", "praise", "fold"], s = 0.8 },
+]
+say = [
+  { by = "disciples", text = "Truly you are the *Son of God*.", source = "esv", at = [0.62, 0.34], w = 150 },
+]
+
+[[panel]]
+ref = "Revelation 22:8-9"
+scene = "vista"
+horizon = 0.62
+sky = "dusk"
+caption = "An angel refuses it."
+caption_w = 180
+aside = "The angel is drawn as a voice."
+aside_w = 180
+shows = "John kneeling, a voice of light speaking from above him"
+cast = [
+  { who = "john", x = 0.22, face = "right", stance = "kneel", pose = "look_up", tag = "John" },
+]
+say = [
+  { by = "angel", name = "the angel", from = [0.66, -0.1], style = "voice", text = "You must not do that! I am a *fellow servant* with you.", source = "esv", at = [0.55, 0.42], w = 175 },
+  { by = "angel", name = "the angel", from = [0.90, -0.1], style = "voice", text = "*Worship God.*", source = "esv", at = [0.84, 0.74], w = 90 },
+]
+
+[[panel]]
+ref = "Matthew 28:9"
+scene = "plain"
+sky = "dawn"
+grade = "warm"
+caption = "They took hold of His feet and worshiped Him."
+caption_w = 220
+shows = "the open tomb behind; the risen Jesus greets Mary Magdalene and the other Mary, who kneel at His feet"
+burst = { on = "jesus", color = "gold" }
+props = [
+  { what = "tomb", x = 0.10, s = 0.7 },
+]
+cast = [
+  { who = "jesus", x = 0.42, face = "right", pose = "open", look = "radiant" },
+  { who = "magdalene", x = 0.66, face = "left", stance = "kneel", pose = "look_up" },
+  { who = "woman", id = "othermary", name = "the other Mary", x = 0.84, face = "left", stance = "kneel", pose = "fold", tone = 1 },
+]
+say = [
+  { by = "jesus", text = "Greetings!", source = "esv", at = [0.62, 0.44], w = 100 },
+]
+
+[[panel]]
+ref = "Revelation 13:4, 15"
+scene = "street"
+sky = "storm"
+grade = "dark"
+caption = "At the end, the beast demands it, and those who refuse are put to death."
+caption_w = 420
+aside = "The beast is not drawn. Its image is (Revelation 13:14-15)."
+aside_w = 300
+shows = "a crowd bowing low before a stone image under a dark sky"
+props = [
+  { what = "idol", x = 0.84, s = 1.0 },
+]
+cast = [
+  { who = "man", id = "world", name = "the world", n = 6, x = 0.10, x2 = 0.68, face = "right", stance = "kneel", pose = ["fold", "raise", "fold", "fold", "raise", "fold"] },
+]
+say = [
+  { by = "world", style = "shout", text = "Who is like the beast, and *who can fight against it?*", source = "esv", at = [0.40, 0.44], w = 220 },
+]
+
+[[panel]]
+ref = "Revelation 5:13-14"
+scene = "vista"
+horizon = 0.55
+sky = "dawn"
+caption = "Every creature in heaven and on earth worships the One on the throne and the Lamb."
+caption_w = 420
+shows = "a throne of light; elders in white kneel before it with their crowns laid down, and a great crowd kneels behind them"
+burst = { on = "elders", color = "gold" }
+props = [
+  { what = "throne", x = 0.84, s = 1.1 },
+  { what = "crown", x = 0.60, x2 = 0.70, n = 3, s = 1.1 },
+]
+cast = [
+  { who = "robed", id = "elders", name = "the elders", n = 4, x = 0.30, x2 = 0.54, face = "right", stance = "kneel", pose = "fold" },
+  { who = "robed", id = "multitude", name = "every creature", n = 7, x = 0.04, x2 = 0.30, depth = 0.5, face = "right", stance = "kneel", pose = ["praise", "fold"] },
+]
+say = [
+  { by = "multitude", text = "To him who sits on the throne and to the Lamb be *blessing and honor and glory and might* forever and ever!", source = "esv", at = [0.30, 0.38], w = 260 },
+]
