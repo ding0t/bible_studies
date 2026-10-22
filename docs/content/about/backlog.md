@@ -47,6 +47,11 @@ Add new items here. They get a number and move into their section.
 | [2.4](#24-the-feedings-and-the-hardened-hearts) | The feedings and the hardened hearts | Jesus |
 | [2.5](#25-the-heavenly-pattern) | The heavenly pattern (series) | Jesus |
 | [4.2](#42-on-death) | On death | Salvation |
+| [4.4](#44-grace) | Grace | Salvation |
+| [4.5](#45-repentance) | Repentance | Salvation |
+| [4.6](#46-justified) | Justified | Salvation |
+| [4.7](#47-adopted) | Adopted | Salvation |
+| [4.8](#48-made-holy) | Made holy | Salvation |
 | [5.1](#51-tribulation-perspectives) | Tribulation perspectives | Last things |
 | [5.2](#52-end-times) | End times | Last things |
 | [5.6](#56-they-were-given-white-robes) | They were given white robes | Last things |
@@ -55,6 +60,7 @@ Add new items here. They get a number and move into their section.
 | [8.2](#82-chronology-follow-ups) | Chronology follow-ups | Sources & tooling |
 | [9.1](#91-calling-good-evil-and-evil-good) | Calling good evil and evil good | Sin |
 | [9.2](#92-sexual-immorality) | Sexual immorality | Sin |
+| [9.3](#93-why-we-need-saving) | Why we need saving | Sin |
 | [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
 | [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
 
@@ -758,6 +764,62 @@ Notes to work through:
 follows is [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) (5.8). Still to fold in
 from the notes above: the thief on the cross, Moses and Elijah at the Transfiguration, and Luke 16.
 
+### 4.4 Grace
+
+The coming week two of [Saved](../series/saved.md), after Why We Need Saving (9.3). God's favour
+given to those who have earned the opposite.
+
+- χάρις (*charis*, G5485) and חֵן (*chen*, H2580), with the LORD "gracious" in Exodus 34:6, which
+  11.2 also starts from: link the two, do not repeat.
+- Ephesians 2:4-9; Romans 3:24; 5:15-21; Titus 2:11-14 (grace that saves also trains).
+- Grace and works in Romans 11:6, and grace as the power for service (1 Corinthians 15:10).
+
+### 4.5 Repentance
+
+Week four of [Saved](../series/saved.md).
+
+- μετανοέω / μετάνοια (*metanoeō*, G3340; *metanoia*, G3341) and שׁוּב (*shuv*, H7725, "turn,
+  return"), worked from their uses.
+- Acts 2:38; 3:19; 17:30; 2 Corinthians 7:9-10 (godly grief and worldly grief); Ezekiel 18:30-32;
+  Luke 15.
+- **Contested, and say so:** how repentance relates to faith, one turn seen from two sides or a
+  second condition. Give the textual case on each side, then check the conclusion against the
+  [statement of faith](statement-of-faith.md).
+- Link [Forgive Us Our Debts](../christian-life/forgiveness.md), which already treats repentance
+  between people.
+
+### 4.6 Justified
+
+Week five of [Saved](../series/saved.md). God declares the ungodly righteous for the sake of Christ.
+
+- δικαιόω (*dikaioō*, G1344); Genesis 15:6 read in Romans 4:1-8 and Galatians 3:6; Romans
+  3:21-26; 5:1; Galatians 2:16; 2 Corinthians 5:21.
+- Romans 3:25's ἱλαστήριον is already worked in [The Ark of the
+  Covenant](../jesus/the-heavenly-pattern/ark.md): link it.
+- James 2:21-24 beside Romans 4, from the text of each.
+
+### 4.7 Adopted
+
+Week six of [Saved](../series/saved.md).
+
+- υἱοθεσία (*huiothesia*, G5206), five New Testament uses: Romans 8:15, 23; 9:4; Galatians 4:5;
+  Ephesians 1:5. Verify each against the concordance; Romans 9:4 is Israel's.
+- The Spirit of adoption and "Abba" (Romans 8:15-17; Galatians 4:6), with Roman adoption as
+  background, cited to a primary or scholarly source.
+- [Prayer: Communion with God](../christian-life/prayer-as-communion.md) and [The Names of the Holy
+  Spirit](../holy-spirit/names-of-the-holy-spirit.md) already rest on adoption: link both.
+
+### 4.8 Made holy
+
+Week seven of [Saved](../series/saved.md). Sanctification, both set apart once and made holy over a
+life.
+
+- ἁγιάζω (*hagiazō*, G37) and ἁγιασμός (*hagiasmos*, G38); Hebrews 10:10, 14 (set apart once for
+  all, and being made holy); 1 Thessalonians 4:3; 5:23; Philippians 2:12-13; 2 Corinthians 3:18.
+- [Unleavened Bread](../feasts/unleavened-bread.md)'s "as you really are unleavened"
+  (1 Corinthians 5:7) and [Partakers of the Divine Nature](../christian-life/partakers-of-the-divine-nature.md)
+  already make the case from two sides: link both.
+
 ## 5. Last things
 
 ### 5.1 Tribulation perspectives
@@ -954,6 +1016,15 @@ The current study is very light.
 - why is it sin
 - the impact on the individual: sin against one's own body
 - defiling the image of the bride of Christ?
+
+### 9.3 Why we need saving
+
+Week one of [Saved](../series/saved.md): what sin is, before the section's studies of its particular
+forms ([Idolatry](../sin/idolatry.md), [Pride](../sin/pride.md)).
+
+- חָטָא (*chata'*, H2398) and ἁμαρτία (*hamartia*, G266), and the other words for sin.
+- Genesis 3; Isaiah 59:2; Romans 3:9-23; 5:12; 6:23; Ephesians 2:1-3.
+- End on Romans 5:8, so the study arrives at the gospel the series goes on to teach.
 
 ## 10. Christian life
 
