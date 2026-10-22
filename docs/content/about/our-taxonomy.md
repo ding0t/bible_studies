@@ -116,7 +116,7 @@ A study has one home, its subject. A **series** is a page whose frontmatter list
 anywhere on the site in the order a group would take them, one a week, so the same study can sit in
 a topic series, a series through a book and a foundations series at once without moving.
 `hooks/series.py` writes each series' weeks, the hub at `/series/` grouped by cut (foundations, by
-topic, through a book, for a season, one session), and a "Week 2 of 7" line under the title of every
+topic, through a book, through a passage, for a season, one session), and a "Week 2 of 7" line under the title of every
 study in one. A series page usually lives in `series/`; one that is also the index of its own
 studies, such as [The Heavenly Pattern](../jesus/the-heavenly-pattern/index.md), stays with them.
 

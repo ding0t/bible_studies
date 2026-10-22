@@ -5,7 +5,7 @@ subject taxonomy, and a series only points at it, so the same study can sit in a
 book series and a foundations series at once:
 
     series:
-      cut: foundations          # foundations | topic | book | season | one-off
+      cut: foundations          # foundations | topic | book | passage | season | one-off
       sessions:
         - study: last-things/rapture.md      # path from docs/content
           why: "what this week adds"        # optional, shown under the title
@@ -49,6 +49,7 @@ _CUTS = {
     "foundations": "Foundations",
     "topic": "By topic",
     "book": "Through a book",
+    "passage": "Through a passage",
     "season": "For a season",
     "one-off": "One session",
 }

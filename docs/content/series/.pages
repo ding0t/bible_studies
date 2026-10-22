@@ -1,11 +1,19 @@
-# The hub first, then the series in the hub's own order: foundations, topics, books, one session.
-# "..." keeps a new series visible until it is placed.
+# The hub first, then the series in the hub's own order: foundations, topics, books, passages,
+# seasons, one session. "..." keeps a new series visible until it is placed.
 title: Study Series
 nav:
   - index.md
   - end-times-fundamentals.md
+  - saved.md
   - the-nature-of-god.md
+  - the-gospel-in-the-old-testament.md
   - learning-to-pray.md
+  - the-bride.md
+  - when-faith-is-hard.md
   - through-johns-gospel.md
+  - sermon-on-the-mount.md
+  - olivet-discourse.md
+  - spring-feasts.md
+  - autumn-feasts.md
   - assurance.md
   - ...

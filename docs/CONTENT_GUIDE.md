@@ -114,7 +114,8 @@ questions: ["How can I be sure I am saved?", "Can I lose my salvation?"]
 
 - Makes the page a **study series**: studies from anywhere on the site in the order a group takes
   them, one a week. A study keeps its one home, so it can sit in several series at once
-- `cut` places it on the hub at `/series/`: `foundations`, `topic`, `book`, `season` or `one-off`
+- `cut` places it on the hub at `/series/`: `foundations`, `topic`, `book` (a whole book, such as
+  John), `passage` (one block of text, such as the Sermon on the Mount), `season` or `one-off`
 - Each session is a `study` (path from `docs/content/`) with an optional `why` (what that week adds,
   shown under its title), or a `planned` title for a week not yet written, shown as *coming* and
   never linked. A draft study is shown the same way until it is published
