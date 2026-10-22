@@ -1,0 +1,19 @@
+/* hooks/series.py: the line under a study's title naming its series, and a series page's weeks.
+   Material's own variables, so both follow the palette toggle. */
+.md-typeset .page-series {
+  margin-top: -0.6em;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+}
+
+.md-typeset .page-series .twemoji {
+  color: var(--md-accent-fg-color);
+}
+
+.md-typeset .series-sessions > ol > li {
+  margin-bottom: 1em;
+}
+
+.md-typeset .series-sessions small {
+  color: var(--md-default-fg-color--light);
+}

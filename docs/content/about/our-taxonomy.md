@@ -79,8 +79,9 @@ the Holy Spirit as peers.
 | **Learn Hebrew** | — | 492.4 | A course in reading the Hebrew Bible, taken in order: the alphabet and vowels, pronunciation, printable writing sheets and word cards |
 | **Learn Greek** | — | 487 | The Greek alphabet of the New Testament, its pronunciation and uncial script, and printable word cards |
 | **Resources** | — | — | Guides to external material: source catalogues, study aids, and reference tools |
+| **Study Series** | — | — | No studies of its own: series pages that take studies filed elsewhere in an order, one a week, for a group (see below) |
 
-The last four sit alongside the studies rather than inside them, because they describe *how* material
+The last five sit alongside the studies rather than inside them, because they describe *how* material
 is delivered or *where* it comes from rather than what subject it treats.
 
 ### These sections are top-level
@@ -95,16 +96,29 @@ christian-life/     chronology/         commentaries/
 feasts/             god/                holy-spirit/
 israel-and-church/  jesus/              last-things/
 resources/          salvation/          scripture/
-sin/                spiritual-beings/   teaching/
-wisdom/
+series/             sin/                spiritual-beings/
+teaching/           wisdom/
 ```
 
-Nineteen top-level entries sounds like a lot, so the sidebar groups them under four captions:
-**Topics** (the doctrinal sections, Teaching and the Commentaries), **Explore** (Scripture Links and
-the Prophetic Timeline), **Learn** (Hebrew, Greek and the Glossary), and **About this site** (the
-FAQ, Resources, About and the Blog). `navigation.sections` in `mkdocs.yml` draws the captions, and `navigation.prune` keeps
-the sidebar to the branch you are actually in. A caption is a title in the root `.pages` file and
-adds no directory, so no URL carries it.
+Twenty top-level entries sounds like a lot, so the sidebar groups most of them under three
+captions: **Topics** (the doctrinal sections, Teaching and the Commentaries), **Explore** (Scripture
+Links and the Prophetic Timeline), and **Learn** (Hebrew, Greek, the Glossary and Resources).
+**Study Series**, the **Blog**, the **FAQ** and **About** stand at the top level on their own. On a
+phone, `navigation.sections` does not apply and each caption is a level to tap into, so these four
+are one tap from the menu; under a single "About this site" caption they were two, and the statement
+of faith three. `navigation.sections` in `mkdocs.yml` draws the captions, and `navigation.prune`
+keeps the sidebar to the branch you are actually in. A caption is a title in the root `.pages` file
+and adds no directory, so no URL carries it.
+
+### A series cuts across the sections
+
+A study has one home, its subject. A **series** is a page whose frontmatter lists studies from
+anywhere on the site in the order a group would take them, one a week, so the same study can sit in
+a topic series, a series through a book and a foundations series at once without moving.
+`hooks/series.py` writes each series' weeks, the hub at `/series/` grouped by cut (foundations, by
+topic, through a book, for a season, one session), and a "Week 2 of 7" line under the title of every
+study in one. A series page usually lives in `series/`; one that is also the index of its own
+studies, such as [The Heavenly Pattern](../jesus/the-heavenly-pattern/index.md), stays with them.
 
 ### Navigation order is deliberate
 
@@ -133,9 +147,12 @@ nav:
     - wisdom
     - teaching
     - commentaries
+  - series
   - Explore: [references.md, timeline.md]
-  - Learn: [hebrew, greek, glossary.md]
-  - About this site: [faq.md, resources, about, blog]
+  - Learn: [hebrew, greek, glossary.md, resources]
+  - blog
+  - faq.md
+  - about
 ```
 
 ### Reserved, not yet created

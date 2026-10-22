@@ -59,6 +59,7 @@ in the study, where every reader gets it.
 
 - **A one-to-one variant**: three questions, more weight on Respond, a "next week I'll ask you
   about…" line.
-- **Series booklets**: one sheet per week for a section's studies, with a cover.
+- **Series booklets**: a cover, then one sheet per week, for a study series (`hooks/series.py`;
+  the `series:` frontmatter already lists the weeks in order).
 - Studies with seven or more questions get as little as one ruled line on some; the sheet has no
   rule yet for choosing which to keep.

@@ -266,6 +266,15 @@ dispensational charts. Each one opens the study it belongs to.
 
     [:octicons-arrow-right-24: Read](about/statement-of-faith.md)
 
+-   :material-account-group:{ .lg .middle } __Study Series__
+
+    ---
+
+    Studies in an order for a group to take one a week, each with a printable group sheet: End
+    Times Fundamentals, The Nature of God, Learning to Pray and more.
+
+    [:octicons-arrow-right-24: Browse](series/index.md)
+
 -   :material-bookshelf:{ .lg .middle } __Commentaries__
 
     ---

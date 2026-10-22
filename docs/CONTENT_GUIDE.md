@@ -110,6 +110,27 @@ primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
 questions: ["How can I be sure I am saved?", "Can I lose my salvation?"]
 ```
 
+### series
+
+- Makes the page a **study series**: studies from anywhere on the site in the order a group takes
+  them, one a week. A study keeps its one home, so it can sit in several series at once
+- `cut` places it on the hub at `/series/`: `foundations`, `topic`, `book`, `season` or `one-off`
+- Each session is a `study` (path from `docs/content/`) with an optional `why` (what that week adds,
+  shown under its title), or a `planned` title for a week not yet written, shown as *coming* and
+  never linked. A draft study is shown the same way until it is published
+- `<!-- series-sessions -->` in the body is replaced with the weeks; leave it out if the page lists
+  its studies by hand. Every study in the series gets a "Week 2 of 7" line under its title
+- See `hooks/series.py`. New series go in `docs/content/series/`, and in its `.pages`
+
+```yaml
+series:
+  cut: foundations
+  sessions:
+    - study: last-things/rapture.md
+      why: "The blessed hope of the Church, and the order of events."
+    - planned: "The Millennium"
+```
+
 ### year, zadok_year, gregorian_year
 
 - Numeric fields for timeline integration

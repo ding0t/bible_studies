@@ -6,8 +6,19 @@ tags: ["exodus", "hebrews", "revelation", "temple", "priesthood", "method/typolo
 draft: false
 primary_passage: "Exodus 25:8-9"
 bible_references: ["Exodus 25:8-9", "Exodus 25:40", "1 Chronicles 28:11-19", "Acts 7:44", "Hebrews 8:5", "Hebrews 9:5", "Hebrews 9:23-24", "Revelation 21:3", "Revelation 21:22"]
+series:
+  cut: topic
+  sessions:
+    - study: jesus/the-heavenly-pattern/ark.md
+    - study: jesus/the-heavenly-pattern/incense-altar.md
+    - study: jesus/the-heavenly-pattern/lampstand.md
+    - study: jesus/the-heavenly-pattern/almond.md
+    - planned: "The Table"
+    - planned: "The Bronze Altar"
+    - planned: "The Basin and the Sea"
+    - planned: "The House, from Tent to City"
 date_created: 2026-09-28
-date_modified: 2026-10-09
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

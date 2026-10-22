@@ -1,0 +1,11 @@
+# The hub first, then the series in the hub's own order: foundations, topics, books, one session.
+# "..." keeps a new series visible until it is placed.
+title: Study Series
+nav:
+  - index.md
+  - end-times-fundamentals.md
+  - the-nature-of-god.md
+  - learning-to-pray.md
+  - through-johns-gospel.md
+  - assurance.md
+  - ...

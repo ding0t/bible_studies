@@ -446,6 +446,14 @@ the workflow manually (`workflow_dispatch`).
   reason a question set should carry them (Check 25). A study needs no change to get a sheet; a
   weak sheet is a sign of a missing thesis, outline or facet label. See
   [docs/dev/study-sheets.md](docs/dev/study-sheets.md).
+- **A study series is a page with a `series:` frontmatter block** (`hooks/series.py`), listing
+  studies from any section in the order a group takes them, one a week. A study keeps its one home
+  in the taxonomy and only gets pointed at, so it can sit in several series; never move or copy a
+  study into `series/`. The hook writes the weeks, the hub at `/series/` grouped by `cut`, and a
+  "Week 2 of 7" line on each member study. A `planned` week, or a draft study, shows as *coming*
+  and is never linked, which keeps Check 24's rule for links a hook writes. A series' `why` lines
+  are descriptive; whether a series is worth running is the author's call. Field reference:
+  [docs/CONTENT_GUIDE.md](docs/CONTENT_GUIDE.md#series).
 - **An exemption in a checking tool carries its justification with it, or it is a hole.** Two of this
   repo's checks were defeated by an unrecorded exemption rather than by a missing check. The diagram
   sweep skipped `timeline` blocks because they "size themselves" — they do not, and five stayed

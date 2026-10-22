@@ -27,6 +27,8 @@ nav:
     - teaching
     # The chapter-by-chapter index of every book, linking the studies that treat each chapter.
     - commentaries
+  # The studies again, gathered for a group to take one a week (hooks/series.py).
+  - series
   # The interactive tools: ordinary mkdocs pages with a React
   # bundle mounted into each (built by `npm run build:tools` in app/). references.md leads: it is
   # the one a reader reaches for while actually studying a passage.
@@ -39,9 +41,12 @@ nav:
     # A lookup surface rather than a section: short definitions that link out to the page owning
     # each term.
     - glossary.md
-  - About this site:
-    - faq.md
+    # Getting started, memory verses and recommended reading: study aids, not facts about the site.
     - resources
-    - about
-    # The author's personal notes and testimony, kept apart from the studies.
-    - blog
+  # Blog, FAQ and About sit at the top level on their own. On a phone, navigation.sections does not
+  # apply and every group above is a level to tap into; under one "About this site" group these
+  # three were two taps deep, and the statement of faith three.
+  # The blog: the author's personal notes and testimony, kept apart from the studies.
+  - blog
+  - faq.md
+  - about

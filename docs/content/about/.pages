@@ -1,0 +1,7 @@
+# What a visitor looks for first: what the site believes, then what is new. "..." keeps the rest
+# in alphabetical order.
+nav:
+  - index.md
+  - statement-of-faith.md
+  - recent-updates.md
+  - ...
