@@ -30,5 +30,6 @@ draft: false
 - [The Rapture of the Church](../../last-things/rapture.md) — 19:11-16
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 19:7-16
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 19:11-16
+- [True Worship](../../christian-life/true-worship.md) — 19:10
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 19:11-16
 <!-- commentary-index:auto-end -->

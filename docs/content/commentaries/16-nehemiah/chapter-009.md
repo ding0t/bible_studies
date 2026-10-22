@@ -14,4 +14,5 @@ draft: false
 
 - [Fasting](../../christian-life/fasting.md) — 9:1-2
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 9:20
+- [True Worship](../../christian-life/true-worship.md) — 9:6
 <!-- commentary-index:auto-end -->

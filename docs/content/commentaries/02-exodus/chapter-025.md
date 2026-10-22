@@ -19,4 +19,5 @@ draft: false
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 25:31-36
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 25:22
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 25:9
+- [True Worship](../../christian-life/true-worship.md) — 25:8-9
 <!-- commentary-index:auto-end -->

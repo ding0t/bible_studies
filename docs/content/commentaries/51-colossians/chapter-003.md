@@ -23,4 +23,5 @@ draft: false
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 3:1-2
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:4
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 3:12
+- [True Worship](../../christian-life/true-worship.md) — 3:16
 <!-- commentary-index:auto-end -->

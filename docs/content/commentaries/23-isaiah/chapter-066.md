@@ -16,4 +16,5 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 66:16
 - [In Humility](../../christian-life/humility.md) — 66:2
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 66:22-23
+- [True Worship](../../christian-life/true-worship.md) — 66:23
 <!-- commentary-index:auto-end -->

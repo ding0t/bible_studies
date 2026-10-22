@@ -19,6 +19,7 @@ draft: false
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 20:22
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 20:12
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 20:1
+- [True Worship](../../christian-life/true-worship.md) — 20:28
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 20:19-27
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 20:23
 <!-- commentary-index:auto-end -->

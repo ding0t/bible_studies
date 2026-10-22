@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Pride](../../sin/pride.md) — 2:10-12
+- [True Worship](../../christian-life/true-worship.md) — 2:2-3
 <!-- commentary-index:auto-end -->

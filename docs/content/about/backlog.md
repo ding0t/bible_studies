@@ -970,6 +970,8 @@ back-link when it was published; the content notes are still to do.
 
 ### 10.6 True worship: in spirit and truth
 
+**Published 2026-10-22** as [True Worship](../christian-life/true-worship.md). Move to Completed when convenient.
+
 What true worship is, what Jesus taught about it, and how the Old and New Testaments describe it.
 It is the positive counterpart to [Idolatry](../sin/idolatry.md): people are made to worship
 (Isaiah 43:7; Romans 1:21-25), so the answer to an idol is the worship the idol took, given back

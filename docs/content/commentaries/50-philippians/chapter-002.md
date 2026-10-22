@@ -21,4 +21,5 @@ draft: false
 - [The Names of God](../../god/names-of-god.md) — 2:9-11
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 2:9-11
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:15
+- [True Worship](../../christian-life/true-worship.md) — 2:9-11
 <!-- commentary-index:auto-end -->

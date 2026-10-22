@@ -15,4 +15,5 @@ draft: false
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 51:11
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 51:7
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 51:10
+- [True Worship](../../christian-life/true-worship.md) — 51:16-17
 <!-- commentary-index:auto-end -->

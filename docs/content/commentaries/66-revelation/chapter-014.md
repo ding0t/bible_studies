@@ -19,4 +19,5 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 14:6
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 14:1-7
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 14:1
+- [True Worship](../../christian-life/true-worship.md) — 14:6-11
 <!-- commentary-index:auto-end -->

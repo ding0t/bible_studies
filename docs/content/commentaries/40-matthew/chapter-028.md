@@ -22,6 +22,7 @@ draft: false
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 28:19-20
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 28:3
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 28:1
+- [True Worship](../../christian-life/true-worship.md) — 28:9
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 28:20
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 28:1
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 28:7-10

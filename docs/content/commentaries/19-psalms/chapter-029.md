@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 29:3
+- [True Worship](../../christian-life/true-worship.md) — 29:2
 <!-- commentary-index:auto-end -->

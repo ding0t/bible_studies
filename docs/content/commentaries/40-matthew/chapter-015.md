@@ -17,4 +17,5 @@ draft: false
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 15:32
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 15:19
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 15:15-16
+- [True Worship](../../christian-life/true-worship.md) — 15:8-9
 <!-- commentary-index:auto-end -->

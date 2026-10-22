@@ -17,6 +17,7 @@ draft: false
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 20:28-32
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 20:26-27
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 20:7
+- [True Worship](../../christian-life/true-worship.md) — 20:7
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 20:6
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 20:16
 <!-- commentary-index:auto-end -->

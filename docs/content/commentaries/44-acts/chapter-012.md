@@ -17,6 +17,7 @@ draft: false
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 12:5
 - [Pride](../../sin/pride.md) — 12:21-23
 - [Six Days of History](../../last-things/six-days-of-history.md) — 12:24
+- [True Worship](../../christian-life/true-worship.md) — 12:21-23
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 12:3
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 12:5
 <!-- commentary-index:auto-end -->

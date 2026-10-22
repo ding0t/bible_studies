@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-21
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -144,6 +144,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     In Ezekiel 9 God sent a scribe through Jerusalem to mark everyone who sighed and groaned over its abominations, and the marked were spared. What grieves God grieves His own, and in Christ He gives that heart and seals it with His Spirit.
 
     [:octicons-arrow-right-24: Read](those-who-sigh-and-groan.md)
+
+-   __True Worship__
+
+    ---
+
+    Worship is bowing your whole self before God because He is worthy as Creator and Redeemer. Before Jesus it came through a place, a priesthood and sacrifice; since Jesus it comes through Him, by the Holy Spirit and in truth, with your whole life; in the kingdom and the new creation every nation and creature will give it. It belongs to God alone: angels refuse it, the beast demands it, and Jesus receives it.
+
+    [:octicons-arrow-right-24: Read](true-worship.md)
 
 -   __When Love Grows Cold: The Falling Away and the Remnant__
 

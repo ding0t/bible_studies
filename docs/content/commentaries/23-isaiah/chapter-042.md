@@ -17,5 +17,6 @@ draft: false
 - [The Names of God](../../god/names-of-god.md) — 42:8
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 42:1
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 42:8
+- [True Worship](../../christian-life/true-worship.md) — 42:8
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 42:3
 <!-- commentary-index:auto-end -->

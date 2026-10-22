@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 4:1-42 (primary passage)
+- [True Worship](../../christian-life/true-worship.md) — 4:21-24 (primary passage)
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 4:22
 - [Idolatry](../../sin/idolatry.md) — 4:23-24
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 4:9

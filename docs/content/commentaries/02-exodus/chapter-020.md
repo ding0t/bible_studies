@@ -19,4 +19,5 @@ draft: false
 - [Idolatry](../../sin/idolatry.md) — 20:3-6
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 20:19
 - [Six Days of History](../../last-things/six-days-of-history.md) — 20:11
+- [True Worship](../../christian-life/true-worship.md) — 20:3-6
 <!-- commentary-index:auto-end -->

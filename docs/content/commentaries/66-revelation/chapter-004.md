@@ -22,5 +22,6 @@ draft: false
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 4:1
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 4:1
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 4:4
+- [True Worship](../../christian-life/true-worship.md) — 4:8-11
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 4:11
 <!-- commentary-index:auto-end -->

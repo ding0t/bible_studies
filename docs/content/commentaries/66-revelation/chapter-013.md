@@ -20,4 +20,5 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 13:7
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 13:5-8
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 13:5-7
+- [True Worship](../../christian-life/true-worship.md) — 13:4
 <!-- commentary-index:auto-end -->

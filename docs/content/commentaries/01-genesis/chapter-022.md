@@ -17,5 +17,6 @@ draft: false
 - [Six Days of History](../../last-things/six-days-of-history.md) — 22:17-18
 - [The Names of God](../../god/names-of-god.md) — 22:7-14
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 22:18
+- [True Worship](../../christian-life/true-worship.md) — 22:5-8
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 22:17
 <!-- commentary-index:auto-end -->

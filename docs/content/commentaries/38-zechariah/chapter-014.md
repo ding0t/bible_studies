@@ -23,4 +23,5 @@ draft: false
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 14:1-5
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 14:4
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 14:8
+- [True Worship](../../christian-life/true-worship.md) — 14:9
 <!-- commentary-index:auto-end -->

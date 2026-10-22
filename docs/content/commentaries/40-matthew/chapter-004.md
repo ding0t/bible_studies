@@ -27,6 +27,7 @@ draft: false
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 4:1-11
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 4:1-4
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 4:18-22
+- [True Worship](../../christian-life/true-worship.md) — 4:8-10
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:1-11
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 4:17
 <!-- commentary-index:auto-end -->

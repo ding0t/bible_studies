@@ -21,5 +21,6 @@ draft: false
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 12:2
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 12:22-24
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 12:22-23
+- [True Worship](../../christian-life/true-worship.md) — 12:28-29
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 12:2
 <!-- commentary-index:auto-end -->

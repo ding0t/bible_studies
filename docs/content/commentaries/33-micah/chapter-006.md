@@ -14,4 +14,5 @@ draft: false
 
 - [In Humility](../../christian-life/humility.md) — 6:8
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 6:4
+- [True Worship](../../christian-life/true-worship.md) — 6:6-8
 <!-- commentary-index:auto-end -->

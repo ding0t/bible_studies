@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 45:21-25
+- [True Worship](../../christian-life/true-worship.md) — 45:15-17
 <!-- commentary-index:auto-end -->

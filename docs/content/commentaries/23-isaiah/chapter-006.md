@@ -16,5 +16,6 @@ draft: false
 - [The Names of God](../../god/names-of-god.md) — 6:1
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 6:1
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 6:9-10
+- [True Worship](../../christian-life/true-worship.md) — 6:1-5
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 6:13
 <!-- commentary-index:auto-end -->

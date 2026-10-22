@@ -449,7 +449,9 @@ God, a Son who rose, and a deliverance He has already won.
 The worship the idol took comes home. Jesus told a woman at a well, beside a cistern, "the true
 worshipers will worship the Father in spirit and truth, for the Father is seeking such people to
 worship him" (John 4:23, ESV). [The Woman at the Well](../jesus/woman-at-well.md) follows that
-conversation from Jeremiah's broken cisterns to the spring Jesus gives.
+conversation from Jeremiah's broken cisterns to the spring Jesus gives, and
+[True Worship](../christian-life/true-worship.md) sets out the worship you were made for: what it
+is, how it looked before and since Jesus, and why it belongs to God alone.
 
 Paul grounds the command to put greed to death in what Christ has done:
 
@@ -505,6 +507,8 @@ been given the one they all imitate.
 - [Pride](pride.md) — the self-sufficient heart that wants God's place.
 - [The Woman at the Well](../jesus/woman-at-well.md) — the spring Israel forsook, and worship in
   spirit and truth.
+- [True Worship](../christian-life/true-worship.md) — the answer to idolatry: worship given to God
+  alone.
 - [The Lord's Supper](../feasts/lords-supper.md) — the table of the Lord in 1 Corinthians 10.
 - [Sin and Sorcery](sorcery.md) — idolatry's neighbour in Galatians 5:20.
 - [Sin and Sexual Immorality](sexual-immorality.md) — the other half of the Colossians 3:5 list.

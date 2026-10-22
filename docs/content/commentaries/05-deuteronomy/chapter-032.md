@@ -16,5 +16,6 @@ draft: false
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 32:8-9
 - [Faith](../../salvation/faith.md) — 32:4
 - [Idolatry](../../sin/idolatry.md) — 32:15-21
+- [True Worship](../../christian-life/true-worship.md) — 32:43
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 32:8
 <!-- commentary-index:auto-end -->

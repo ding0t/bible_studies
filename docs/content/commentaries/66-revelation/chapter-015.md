@@ -16,4 +16,5 @@ draft: false
 - [The Rapture of the Church](../../last-things/rapture.md) — 15:1-6
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 15:1-4
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 15:4
+- [True Worship](../../christian-life/true-worship.md) — 15:4
 <!-- commentary-index:auto-end -->

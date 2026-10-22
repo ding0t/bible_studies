@@ -25,6 +25,7 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 7:9
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 7:1-17
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 7:2-3
+- [True Worship](../../christian-life/true-worship.md) — 7:9-12
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 7:9
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 7:9
 <!-- commentary-index:auto-end -->

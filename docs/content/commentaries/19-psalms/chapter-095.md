@@ -14,4 +14,5 @@ draft: false
 
 - [Faith](../../salvation/faith.md) — 95:7-11
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 95:10
+- [True Worship](../../christian-life/true-worship.md) — 95:6-7
 <!-- commentary-index:auto-end -->

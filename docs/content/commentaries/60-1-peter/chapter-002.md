@@ -22,5 +22,6 @@ draft: false
 - [Submission in Context](../../christian-life/submission-in-context.md) — 2:21-23
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 2:21
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:9
+- [True Worship](../../christian-life/true-worship.md) — 2:5
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 2:22
 <!-- commentary-index:auto-end -->

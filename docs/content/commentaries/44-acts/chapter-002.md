@@ -25,6 +25,7 @@ draft: false
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 2:42-46
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 2:33
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 2:27
+- [True Worship](../../christian-life/true-worship.md) — 2:42
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 2:27
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:27
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 2:1-11

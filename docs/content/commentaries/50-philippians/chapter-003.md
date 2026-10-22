@@ -21,6 +21,7 @@ draft: false
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 3:5
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 3:18-19
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 3:20
+- [True Worship](../../christian-life/true-worship.md) — 3:3
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 3:21
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 3:20-21
 <!-- commentary-index:auto-end -->

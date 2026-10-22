@@ -15,4 +15,5 @@ draft: false
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 4:4-27
 - [Pride](../../sin/pride.md) — 4:29-37
 - [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 4:17
+- [True Worship](../../christian-life/true-worship.md) — 4:30-34
 <!-- commentary-index:auto-end -->

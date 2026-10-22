@@ -19,4 +19,5 @@ draft: false
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 13:11-13
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 13:17
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 13:14
+- [True Worship](../../christian-life/true-worship.md) — 13:15-16
 <!-- commentary-index:auto-end -->
