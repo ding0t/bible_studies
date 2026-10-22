@@ -283,8 +283,8 @@ async function dispatch(data, method, params = {}) {
       // a bug inside a tool included, reaches the client as HTTP 200, so Cloudflare's own
       // metrics cannot tell a failure from a success. Read them in Workers Logs.
       const started = Date.now();
-      const log = (outcome, extra = {}) =>
-        console.log(
+      const log = (outcome, extra = {}, write = console.log) =>
+        write(
           JSON.stringify({
             tool: tool.name,
             arguments: params.arguments ?? {},
@@ -298,8 +298,14 @@ async function dispatch(data, method, params = {}) {
         log('ok');
         return { content: [{ type: 'text', text: JSON.stringify(result, null, 1) }] };
       } catch (e) {
-        // Bad input throws a plain Error; anything else (TypeError, RangeError) is a bug.
-        log('error', { error: e.message, stack: e.name === 'Error' ? undefined : e.stack });
+        // Bad input throws a plain Error; anything else (TypeError, RangeError) is a bug, logged at
+        // error severity so Workers Logs can filter bugs from bad input by level.
+        const bug = e.name !== 'Error';
+        log(
+          'error',
+          { error: e.message, stack: bug ? e.stack : undefined },
+          bug ? console.error : console.log
+        );
         return { content: [{ type: 'text', text: e.message }], isError: true };
       }
     }
