@@ -15,5 +15,6 @@ draft: false
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 13:3
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 13:10-17
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 13:6-9
+- [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 13:29
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 13:21
 <!-- commentary-index:auto-end -->

@@ -25,6 +25,7 @@ draft: false
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 26:2
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 26:41
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 26:26-29
+- [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 26:28
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 26:67
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 26:31
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 26:31-35

@@ -15,4 +15,5 @@ draft: false
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 28:2
 - [The Heavenly Pattern](../../jesus/the-heavenly-pattern/index.md) — 28:11-19
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 28:15
+- [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 28:16
 <!-- commentary-index:auto-end -->

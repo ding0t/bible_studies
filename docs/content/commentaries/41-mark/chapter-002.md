@@ -17,4 +17,5 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 2:18-20
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 2:14
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 2:13-17
+- [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 2:23-28
 <!-- commentary-index:auto-end -->

@@ -15,5 +15,6 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 24:8
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 24:5
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 24:12
+- [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 24:9-11
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 24:12-18
 <!-- commentary-index:auto-end -->

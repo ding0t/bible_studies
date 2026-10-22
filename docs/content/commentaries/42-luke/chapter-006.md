@@ -22,5 +22,6 @@ draft: false
 - [Philip](../../biblical-figures/philip.md) — 6:14
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 6:12
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 6:16
+- [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 6:1-5
 - [Thomas](../../biblical-figures/thomas.md) — 6:15
 <!-- commentary-index:auto-end -->

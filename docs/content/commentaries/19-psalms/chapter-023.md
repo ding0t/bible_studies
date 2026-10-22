@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 23:1-2
+- [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 23:5
 <!-- commentary-index:auto-end -->

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 4:15
+- [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 4:7
 <!-- commentary-index:auto-end -->

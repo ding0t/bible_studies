@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 4:7
+- [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 4:8
 <!-- commentary-index:auto-end -->

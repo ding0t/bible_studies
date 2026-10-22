@@ -3,7 +3,7 @@ title: "The Table and the Bread of the Presence"
 category: "theology"
 description: "Exodus 25:23-30 to Luke 22:30: the gold table in God's tent and the twelve loaves kept on it before His face every Sabbath, the holy bread David ate at Nob, Jesus' answer about it in the grainfields, the table of the Lord, and the table He promises in His kingdom."
 tags: ["exodus", "leviticus", "1-samuel", "matthew", "luke", "1-corinthians", "hebrews", "temple", "priesthood", "sabbath", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Exodus 25:23-30"
 bible_references: ["Exodus 24:9-11", "Exodus 25:23-30", "Exodus 26:35", "Exodus 33:14-15", "Exodus 37:10-16", "Exodus 40:22-23", "Leviticus 24:5-9", "Numbers 4:7", "1 Samuel 21:1-6", "1 Chronicles 9:32", "1 Chronicles 28:16", "2 Chronicles 4:8", "2 Chronicles 4:19", "Ezekiel 41:22", "Malachi 1:7", "Malachi 1:12", "Matthew 12:1-8", "Mark 2:23-28", "Luke 6:1-5", "Luke 22:29-30", "John 6:31-35", "1 Corinthians 10:21", "Hebrews 9:2", "Hebrews 9:5", "Exodus 25:10", "Leviticus 24:2-4", "1 Chronicles 9:2", "Numbers 28:9-10", "Hosea 6:6", "Psalm 23:5", "Psalm 50:12-13", "2 Samuel 9:7", "Exodus 24:8", "1 Kings 7:48", "2 Chronicles 29:18", "Luke 13:29", "Luke 22:20", "Matthew 26:28", "1 Corinthians 10:16-18"]
 date_created: 2026-10-22
@@ -60,7 +60,9 @@ what each part is for.)*
 
 - **Jesus is greater than the temple.** When the authorities charged His hungry disciples, He pointed
   them to David eating the bread of the Presence and said, "something greater than the temple is
-  here" (Matthew 12:6, ESV).
+  here" (Matthew 12:6, ESV). The Greek is neuter, μεῖζον (*meizon*, G3187, "something
+  greater"); it is read of Jesus Himself, who goes on to call Himself "lord of the Sabbath" (Matthew
+  12:8, ESV), and some read it of the kingdom present in Him.
 - **Jesus defends the hungry with mercy.** "I desire mercy, and not sacrifice" (Matthew 12:7, ESV).
   The bread kept before God's face fed a hungry man, and the Son of Man, Lord of the Sabbath, defends
   the hungry who follow Him.
@@ -196,6 +198,10 @@ it came "from the people of Israel as a covenant forever" (Leviticus 24:8, ESV),
 their own fine flour. The frankincense went up to God as the memorial portion, and the bread came back
 to God's priests, who ate it in a holy place.
 
+Israel's neighbours kept food before their gods' statues to feed them, and the *NIV Cultural
+Backgrounds Study Bible* notes that bread laid out before a god is attested in Egypt, Mesopotamia and
+Anatolia, set out daily where this bread was set out weekly (note on Exodus 25:30).
+
 The ESV's "two piles" and the WEB's "two rows" translate one word,
 <span dir="rtl">מַעֲרָכָה</span> (*ma'arakhah*, H4634), an arrangement set in order, from the verb
 "arrange" in verse 8. The Hebrew allows either, and the plate draws both. The Mishnah, written down
@@ -207,16 +213,10 @@ Second Temple, and Scripture says only "six in a pile."
 
 ### Bread kept for God's priests
 
-Leviticus 24 gives the bread its week. It was changed on the Sabbath. The frankincense was the LORD's
-memorial portion (Leviticus 24:7), and the loaves went to Aaron and his sons as "a most holy portion"
-(Leviticus 24:9, ESV). God takes His people's bread before His face and gives it to those who serve
-Him. He says through Asaph why: "If I were hungry, I would not tell you, for the world and its
+God takes His people's bread before His face and gives it to those who serve Him, Aaron and his sons,
+as "a most holy portion" (Leviticus 24:9, ESV). He says through Asaph why: "If I were hungry, I would not tell you, for the world and its
 fullness are mine. Do I eat the flesh of bulls or drink the blood of goats?" (Psalm 50:12-13, ESV).
 In His presence God is the one who feeds.
-
-Israel's neighbours kept food before their gods' statues to feed them, and the *NIV Cultural
-Backgrounds Study Bible* notes that bread laid out before a god is attested in Egypt, Mesopotamia and
-Anatolia, set out daily where this bread was set out weekly (note on Exodus 25:30).
 
 ## From the wilderness to the temple
 
@@ -377,8 +377,8 @@ at His table in His kingdom.
 2. **The text in its context.** Exodus 24:11 ends with the elders eating and drinking before God,
    and Exodus 25 begins the tent with an ark and a table. What does that order suggest God was making
    room for?
-3. **Christ.** In Matthew 12:3-8 Jesus calls Himself "greater than the temple." How does the bread of
-   the Presence make that claim sharper?
+3. **Christ.** In Matthew 12:3-8 Jesus says "something greater than the temple is here." How does the
+   bread of the Presence make that claim sharper?
 4. **The hard part.** Leviticus 24:9 gave the bread to the priests, and Ahimelech gave it to David.
    Jesus says the priests profane the Sabbath and are guiltless (Matthew 12:5). How does He hold the
    law and mercy together without setting the law aside?

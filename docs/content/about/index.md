@@ -4,7 +4,7 @@ category: "other"
 description: "About this project and its statement of faith."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-10-21
+date_modified: 2026-10-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -17,6 +17,22 @@ About this project and its statement of faith.
 
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
+
+-   __Statement of Faith__
+
+    ---
+
+    Personal statement of faith and biblical doctrine
+
+    [:octicons-arrow-right-24: Read](statement-of-faith.md)
+
+-   __Recently Updated__
+
+    ---
+
+    A running list of the studies and pages on this site that have been newly published or most recently revised.
+
+    [:octicons-arrow-right-24: Read](recent-updates.md)
 
 -   __Our Data Sources__
 
@@ -74,14 +90,6 @@ About this project and its statement of faith.
 
     [:octicons-arrow-right-24: Read](our-taxonomy.md)
 
--   __Recently Updated__
-
-    ---
-
-    A running list of the studies and pages on this site that have been newly published or most recently revised.
-
-    [:octicons-arrow-right-24: Read](recent-updates.md)
-
 -   __How This Site Is Built__
 
     ---
@@ -89,14 +97,6 @@ About this project and its statement of faith.
     The tech behind this site: mkdocs with React tools bundled in, the develop-bible-study skill, the Bible-text/Jewish-literature data pipeline, and how it all deploys
 
     [:octicons-arrow-right-24: Read](site-architecture.md)
-
--   __Statement of Faith__
-
-    ---
-
-    Personal statement of faith and biblical doctrine
-
-    [:octicons-arrow-right-24: Read](statement-of-faith.md)
 
 -   __AI in These Studies__
 

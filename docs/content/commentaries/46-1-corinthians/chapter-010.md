@@ -22,6 +22,7 @@ draft: false
 - [The End of the Age](../../last-things/end-of-the-age.md) — 10:11
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 10:13
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:1-4
+- [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 10:21
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 10:32
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 10:20
 <!-- commentary-index:auto-end -->

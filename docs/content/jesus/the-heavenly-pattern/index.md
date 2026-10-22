@@ -43,6 +43,9 @@ after the list of furnishings: "Of these things we cannot now speak in detail" (
 
 - [The Ark of the Covenant](ark.md) — the gold chest under the mercy seat, lost on earth, named in
   Jesus as the propitiation, and seen in the temple in heaven.
+- [The Table and the Bread of the Presence](table.md) — the gold table where twelve loaves were kept
+  before God's face every Sabbath, the holy bread David ate, and the table Jesus promises in His
+  kingdom.
 - [The Golden Altar of Incense](incense-altar.md) — the altar before the veil where incense rose with
   the lamps, and the altar before the throne where the saints' prayers rise.
 - [The Lampstand](lampstand.md) — one almond tree of hammered gold, kept burning every night, and the
@@ -51,8 +54,7 @@ after the list of furnishings: "Of these things we cannot now speak in detail" (
 Alongside the furnishings: [The Almond](almond.md) — the tree whose name sounds like "watching," on
 the lampstand's cups and on Aaron's staff that budded overnight to show whom God had chosen.
 
-*In preparation: the table, the bronze altar, the basin and sea, and the house itself from tent to
-city.*
+*In preparation: the bronze altar, the basin and sea, and the house itself from tent to city.*
 
 Related: [The Two Witnesses](../../last-things/two-witnesses.md) takes up Zechariah's two olive trees
 from the lampstand page.
