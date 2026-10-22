@@ -68,7 +68,7 @@ stages:
     translations_compared: ["ESV", "LXX (Brenton)", "SBLGNT", "MT (WLC)"]
     divergences_noted: "Deut 32:43: MT shorter than LXX and 4Q44."
   drafting: {done: true, file: "docs/content/christian-life/true-worship.md"}
-  review: {done: false, validated: true}
+  review: {done: true, validated: true}
 
 open_questions:
   - "Ezekiel 40-48 offerings in the millennium: memorial, literal-purificatory, or other; marked as debated in one sentence. Fork candidate."
@@ -78,3 +78,24 @@ resources_consulted:
   - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Heb 1:6 note confirmed: only God is worthy of worship, so the angels' worship of the Son shows His deity; cites Deut 32:43 LXX or Ps 97:7. Rev 19:9-10 note confirmed John's double rebuke as 'dramatic confirmation of the deity of Jesus'. Rom 12:1 note contributed the broad (whole life) and narrow (acts of praise) senses of worship. John 4:24 note: God is spirit, so worship is not confined to one place."}
   - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Matt 4:10: Jesus follows Deut 6:13's context, which forbids idolatry (6:14)."}
 last_updated: "2026-10-22"
+review_2026-10-22:
+  checked: "Every ESV quotation re-queried from study-notes.db (esv-study-bible); counts re-run (H7812 162 morphhb-wlc; G4352 60, 24 in Rev; G3000 21; all confirmed); Heb 1:6 vs Brenton Deut 32:43, Swete Odes 2:43, 4Q44 (18 extant words) and MT; Matt 4:10 vs MT and Brenton Deut 6:13 (proskyneseis for phobethese, auto monoi = LXX, confirmed); footnotes on John 4:23-24, Deut 32:43, Heb 1:6, Rev 19:10; 22:9; NIV BTSB John 4:23 and NIV CBSB Heb 1:6 as independent commentary (both confirm); review_gaps (no quotation gap bearing on the argument); siblings woman-at-well, idolatry, pride, tabernacles, new-jerusalem, those-called-gods (no contradictions); statement-of-faith End times (consistent); validate-content (no warnings for this file)."
+  fixed:
+    - "Rom 12:1 / Rev 22:3: 'the same word' corrected -- Rev 22:3 has the verb latreuo (G3000), Rom 12:1 the noun latreia (G2999)."
+    - "Heb 1:6 'word for word' qualified to Brenton's edition; CSB footnote records other Greek witnesses with 'sons of God' in this line. Added that the ESV translates Deut 32:43 from the scroll ('bow down to him, all gods')."
+    - "Rev 19:10 / 22:9: 'the same words' -> 'the same command' (the two verses differ after 'fellow servant')."
+    - "Daniel 4: 'on his own knees' (not in the text; 4:34 has eyes lifted to heaven) corrected; added 4:30, 32 so the 'judged' heading is grounded."
+    - "Neh 9:6 is the Levites' prayer (9:5), not Nehemiah's sight."
+    - "Matt 28:9: the women had left the tomb (28:8)."
+    - "H7812: Gen 18:2; 19:1 are its first two uses (concordance), replacing 'early in Genesis'."
+    - "Ezekiel sentence: 'says less about the shape of the liturgy' was inaccurate for Ezek 44-46; now names Ezek 45:17's atonement wording and leaves the meaning open, matching tabernacles.md; 'this site among them' matches new-jerusalem.md."
+    - "Pride link: 'every man' exhaustiveness removed; link anchored to #you-are-gods."
+    - "Added Colossians 2:18 (worship of angels) to the angels section."
+    - "Discussion question 1: latreuo is not slave-service; 'as a slave serves' dropped."
+    - "'A few chapters earlier' (Rev 5 -> 22) -> 'Earlier in the same book'."
+    - "Strong's numbers and pronunciations added for avad, dei, hora me, syndoulos, latreusousin, latreia."
+  open_for_author:
+    - "The 'In one sentence' thesis is ~85 words; consider a shorter thesis (read/simplify pass)."
+    - "Rev 14:9-11 (the warning against worshipping the beast) and Rev 20:4 (those who refused it reign a thousand years) would close the beast section and tie it to the millennium section; not added."
+    - "Matt 4:10: some LXX witnesses (e.g. Codex Alexandrinus) are often reported to read proskyneseis at Deut 6:13; not verifiable in this repo's data, so not added."
+    - "those-called-gods could take Heb 1:6 / Deut 32:43 / 4Q44 from this study (suggestion for that study's own review)."

@@ -6,7 +6,7 @@ tags: ["worship", "john", "revelation", "hebrews", "angels", "idolatry", "millen
 questions: ["What is true worship?", "What did Jesus teach about worship?", "Why did the angel tell John not to worship him?"]
 draft: true
 primary_passage: "John 4:21-24"
-bible_references: ["Genesis 22:5-8", "Exodus 20:3-6", "Exodus 25:8-9", "Deuteronomy 6:13", "Deuteronomy 32:43", "Nehemiah 9:6", "Psalm 29:2", "Psalm 51:16-17", "Psalm 95:6-7", "Isaiah 2:2-3", "Isaiah 6:1-5", "Isaiah 29:13", "Isaiah 42:8", "Isaiah 66:23", "Micah 6:6-8", "Zechariah 14:9", "Zechariah 14:16", "Daniel 3:17-18", "Daniel 4:34", "Matthew 4:8-10", "Matthew 14:33", "Matthew 15:8-9", "Matthew 28:9", "Matthew 28:17", "John 2:19-21", "John 9:38", "John 20:28", "Acts 2:42", "Acts 10:25-26", "Acts 12:21-23", "Acts 14:11-15", "Acts 20:7", "Romans 12:1", "Philippians 2:9-11", "Philippians 3:3", "Colossians 3:16", "2 Thessalonians 2:4", "Hebrews 1:6", "Hebrews 10:19-22", "Hebrews 12:28-29", "Hebrews 13:15-16", "1 Peter 2:5", "Revelation 4:8-11", "Revelation 5:8-14", "Revelation 7:9-12", "Revelation 13:4", "Revelation 13:8", "Revelation 13:15", "Revelation 14:6-7", "Revelation 15:4", "Revelation 19:10", "Revelation 21:22", "Revelation 22:3-4", "Revelation 22:8-9"]
+bible_references: ["Genesis 22:5-8", "Exodus 20:3-6", "Exodus 25:8-9", "Deuteronomy 6:13", "Deuteronomy 32:43", "Nehemiah 9:6", "Psalm 29:2", "Psalm 51:16-17", "Psalm 95:6-7", "Isaiah 2:2-3", "Isaiah 6:1-5", "Isaiah 29:13", "Isaiah 42:8", "Isaiah 66:23", "Micah 6:6-8", "Zechariah 14:9", "Zechariah 14:16", "Daniel 3:17-18", "Daniel 4:30-34", "Ezekiel 45:15-17", "Matthew 4:8-10", "Matthew 14:33", "Matthew 15:8-9", "Matthew 28:9", "Matthew 28:17", "John 2:19-21", "John 9:38", "John 20:28", "Acts 2:42", "Acts 10:25-26", "Acts 12:21-23", "Acts 14:11-15", "Acts 20:7", "Romans 12:1", "Philippians 2:9-11", "Philippians 3:3", "Colossians 2:18", "Colossians 3:16", "2 Thessalonians 2:4", "Hebrews 1:6", "Hebrews 10:19-22", "Hebrews 12:28-29", "Hebrews 13:15-16", "1 Peter 2:5", "Revelation 4:8-11", "Revelation 5:8-14", "Revelation 7:9-12", "Revelation 13:4", "Revelation 13:8", "Revelation 13:15", "Revelation 14:6-7", "Revelation 15:4", "Revelation 19:10", "Revelation 21:22", "Revelation 22:3-4", "Revelation 22:8-9"]
 date_created: 2026-10-22
 date_modified: 2026-10-22
 ai_provider_models:
@@ -20,7 +20,7 @@ future. Twice the angel stops him: "You must not do that! I am a fellow servant 
 brothers the prophets, and with those who keep the words of this book. Worship God" (Revelation
 22:9, ESV; also 19:10).
 
-A few chapters earlier John had watched that same heaven fall down before the Lamb.
+Earlier in the same book John had watched that same heaven fall down before the Lamb.
 
 **In one sentence:** Worship is bowing your whole self before God because He is worthy as Creator and
 Redeemer; before Jesus it came through a place, a priesthood and sacrifice, since Jesus it comes
@@ -106,8 +106,8 @@ In Jesus' name. Amen.
 ### Bowing down
 
 The Old Testament's main word for worship is a posture. <span dir="rtl">הִשְׁתַּחֲוָה</span>
-(*hishtachavah*, hish-ta-kha-VAH, H7812) means to bow down to the ground. It occurs 162 times. Early in
-Genesis it is how Abraham greets honoured guests and how Lot meets the angels at Sodom's gate (Genesis
+(*hishtachavah*, hish-ta-kha-VAH, H7812) means to bow down to the ground. It occurs 162 times. Its first two
+uses are how Abraham greets honoured guests and how Lot meets the angels at Sodom's gate (Genesis
 18:2; 19:1). Then Abraham uses it for what he is going up Mount Moriah to do: "I and the boy will go
 over there and worship and come again to you" (Genesis 22:5, ESV). The New Testament word carries the
 same picture. προσκυνέω (*proskyneō*, pros-koo-NEH-oh, G4352) is to fall down before someone. It
@@ -115,7 +115,7 @@ occurs 60 times in the New Testament, and 24 of them are in Revelation.
 
 ### Serving
 
-The second pair of words is about service. <span dir="rtl">עָבַד</span> (*ʿavad*, H5647) is to serve,
+The second pair of words is about service. <span dir="rtl">עָבַד</span> (*ʿavad*, ah-VAD, H5647) is to serve,
 and in Greek λατρεύω (*latreuō*, lat-ryoo-OH, G3000) is to serve God in worship. The first commandment
 puts the two side by side: "You shall not bow down to them or serve them" (Exodus 20:5, ESV). So does
 Jesus: "You shall worship the Lord your God and him only shall you serve" (Matthew 4:10, ESV). Worship
@@ -123,7 +123,7 @@ is the bowing; service is the life that follows it.
 
 ### Both senses
 
-The New Testament uses the word both ways. Paul calls the whole of a Christian's life worship: "present
+The New Testament speaks of worship in both senses. Paul calls the whole of a Christian's life worship: "present
 your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship"
 (Romans 12:1, ESV). Hebrews names particular acts: "let us continually offer up a sacrifice of praise
 to God, that is, the fruit of lips that acknowledge his name" (Hebrews 13:15, ESV). True worship is the
@@ -223,7 +223,7 @@ you say that in Jerusalem is the place where people ought to worship" (John 4:20
 > worship him. 24 God is spirit, and those who worship him must worship in spirit and truth."
 
 She asked *where* one must worship. He answered *how*, and John marks the turn with the same word,
-δεῖ, "must", in her question and in His answer (John 4:20, 24).
+δεῖ (*dei*, G1163), "must", in her question and in His answer (John 4:20, 24).
 [The Woman at the Well](../jesus/woman-at-well.md#worship-the-question-relocated) works through that
 conversation: why she pointed at Gerizim, what "salvation is from the Jews" kept, and why "spirit" here
 most naturally means the Holy Spirit, the living water Jesus gives (John 7:39).
@@ -250,7 +250,7 @@ through the Son.
 
 ### Angels refuse it
 
-John fell down before the angel twice, and twice heard the same words:
+John fell down before the angel twice, and twice heard the same command:
 
 > ✝️ Revelation 19:10 (ESV)
 >
@@ -258,9 +258,11 @@ John fell down before the angel twice, and twice heard the same words:
 > fellow servant with you and your brothers who hold to the testimony of Jesus. Worship God." For the
 > testimony of Jesus is the spirit of prophecy.
 
-The Greek is two words, Ὅρα μή (*hora mē*, G3708), "See that you don't!" The angel names himself "a
-fellow servant", σύνδουλος, a slave of the same Master. However glorious he is, he is a creature, and
-creatures do not receive worship. He says it again in Revelation 22:8-9.
+The Greek is two words, Ὅρα μή (*hora mē*, HOR-ah may, G3708), "See that you don't!" The angel names
+himself "a fellow servant", σύνδουλος (*syndoulos*, SOON-doo-los, G4889), a slave of the same Master. However glorious he is, he is a creature, and
+creatures do not receive worship. He says it again in Revelation 22:8-9. Paul names the same error in
+the church and warns against anyone "insisting on asceticism and worship of angels" (Colossians 2:18,
+ESV).
 
 ### Apostles refuse it
 
@@ -276,9 +278,12 @@ Herod Agrippa sat on his throne in royal robes while the crowd shouted, "The voi
 of a man!" "Immediately an angel of the Lord struck him down, because he did not give God the glory"
 (Acts 12:22-23, ESV). Nebuchadnezzar set up a golden image for every people to worship, and three
 young men answered him, "we will not serve your gods or worship the golden image that you have set up"
-(Daniel 3:18, ESV). He ended the story on his own knees: "I blessed the Most High, and praised and
-honored him who lives forever" (Daniel 4:34, ESV). [Pride](../sin/pride.md) sets out every man in
-Scripture who claimed to be a god, and how each one ended.
+(Daniel 3:18, ESV). Later he claimed the glory for himself, looking over Babylon "which I have built by my mighty power as a
+royal residence and for the glory of my majesty" (Daniel 4:30, ESV), and was driven out to live with the
+beasts until he knew "that the Most High rules" (Daniel 4:32, ESV). He ended the story with his eyes
+lifted to heaven: "I blessed the Most High, and praised and honored him who lives forever" (Daniel 4:34,
+ESV). [Pride](../sin/pride.md#you-are-gods) sets out the men in Scripture who claimed to be gods, and
+how each one ended.
 
 ### The beast demands it
 
@@ -299,15 +304,17 @@ question. Whom will you worship?
 
 Set the angel's "You must not do that!" beside the Gospels. Jesus never says it. The disciples in the
 boat "worshiped him, saying, 'Truly you are the Son of God'" (Matthew 14:33, ESV). The man born blind
-said, "'Lord, I believe,' and he worshiped him" (John 9:38, ESV). The women at the empty tomb "took hold
+said, "'Lord, I believe,' and he worshiped him" (John 9:38, ESV). The women running from the empty tomb "took hold
 of his feet and worshiped him" (Matthew 28:9, ESV). Thomas said to Him, "My Lord and my God!" (John
 20:28, ESV). Jesus accepted every one.
 
 Heaven does the same. Hebrews quotes the Song of Moses: "when he brings the firstborn into the world, he
 says, 'Let all God's angels worship him'" (Hebrews 1:6, ESV). The line is the Septuagint of Deuteronomy
-32:43 word for word, καὶ προσκυνησάτωσαν αὐτῷ πάντες ἄγγελοι θεοῦ. The Masoretic text of that verse is
-shorter and lacks it, but a Dead Sea Scroll of Deuteronomy (4Q44) has the Hebrew line, with
-"bow down" and "gods". It is the same Song in which Israel "sacrificed to demons that were no gods"
+32:43 word for word as Brenton's edition prints it, καὶ προσκυνησάτωσαν αὐτῷ πάντες ἄγγελοι θεοῦ
+(other Greek witnesses read "sons of God" in this line and "angels" in the next; CSB footnote on
+Deuteronomy 32:43). The Masoretic text of that verse is shorter and lacks it, but a Dead Sea Scroll of
+Deuteronomy (4Q44) has the Hebrew line, with "bow down" and "gods", and the ESV translates from it:
+"bow down to him, all gods" (Deuteronomy 32:43, ESV). It is the same Song in which Israel "sacrificed to demons that were no gods"
 (Deuteronomy 32:17, ESV). The Song that condemns worship given to the wrong beings ends by commanding
 heaven's beings to worship Him, and Hebrews says that "Him" is the Son.
 
@@ -332,7 +339,8 @@ When the Lamb takes the scroll, the creatures and elders fall down before Him (R
 "many angels, numbering myriads of myriads and thousands of thousands" (Revelation 5:11, ESV), then
 "every creature in heaven and on earth and under the earth and in the sea" (Revelation 5:13, ESV). Later
 "all the angels … fell on their faces before the throne and worshiped God" (Revelation 7:11, ESV).
-Nehemiah saw it already: "the host of heaven worships you" (Nehemiah 9:6, ESV).
+The Levites' prayer in Nehemiah had already confessed it: "the host of heaven worships you" (Nehemiah
+9:6, ESV).
 
 The elders cast their crowns. Whatever authority a creature holds, it holds from God, and in His
 presence it lays it down. This shows that God is so great that nothing He made, however mighty, stands
@@ -385,11 +393,13 @@ nations shall flow to it, and many peoples shall come, and say: 'Come, let us go
 the LORD'" (Isaiah 2:2-3, ESV), and "all flesh shall come to worship before me" (Isaiah 66:23, ESV).
 [Tabernacles: God Dwelling with His People](../feasts/tabernacles.md) follows that feast into the kingdom.
 
-Ezekiel 40-48 describes a temple with priests and offerings, and dispensational readers place it in
-the thousand years. How those offerings stand beside the once-for-all sacrifice of Hebrews 10 is
+Ezekiel 40-48 describes a temple with priests and offerings, and dispensational readers, this site
+among them, place it in the thousand years. How those offerings, given "to make atonement on behalf of
+the house of Israel" (Ezekiel 45:17, ESV), stand beside the once-for-all sacrifice of Hebrews 10 is
 debated among them: some read them as memorials looking back to the cross, others as offerings for
 ceremonial cleansing in a kingdom where mortal people still live. Scripture is clear that the nations
-will worship the King in Jerusalem; it says less about the shape of the liturgy.
+will worship the King in Jerusalem; what Ezekiel's offerings will mean then is the part that stays
+open.
 
 ### The new creation
 
@@ -403,8 +413,8 @@ sight:
 > 3 No longer will there be anything accursed, but the throne of God and of the Lamb will be in it, and
 > his servants will worship him. 4 They will see his face, and his name will be on their foreheads.
 
-The verb is λατρεύσουσιν, "they will serve" in worship, the same word as Romans 12:1's "spiritual
-worship". The life of worship you begin now is the life you will live forever, with His face before
+The verb is λατρεύσουσιν (*latreusousin*, G3000), "they will serve" in worship, from λατρεύω, the verb
+behind Romans 12:1's noun λατρεία (*latreia*, G2999), "spiritual worship". The life of worship you begin now is the life you will live forever, with His face before
 you. [The New Jerusalem](../last-things/new-jerusalem.md) describes the city where it happens.
 
 This shows that God's purpose for His people has always been to dwell with them and be worshipped by
@@ -414,7 +424,7 @@ The Father is seeking worshippers, and through His Son Jesus and by the Holy Spi
 ## Discussion questions
 
 1. **The language.** The Hebrew and Greek words for worship mean to bow down, and the words for service
-   mean to serve as a slave serves a master (Exodus 20:5; Matthew 4:10). What does each picture add to
+   mean to serve a master (Exodus 20:5; Matthew 4:10). What does each picture add to
    what you mean when you say "worship"?
 2. **The text in its context.** The woman at the well asked *where* to worship, and Jesus answered
    *how* (John 4:20-24). Why did the place matter so much to her, and why does it stop mattering?
@@ -441,6 +451,6 @@ The Father is seeking worshippers, and through His Son Jesus and by the Holy Spi
 
 - [The Woman at the Well](../jesus/woman-at-well.md) — John 4 in full, and worship in spirit and truth.
 - [Idolatry](../sin/idolatry.md) — what happens when worship goes to something God made.
-- [Pride](../sin/pride.md) — every claim to be a god, and how it ended.
+- [Pride](../sin/pride.md) — the men who claimed to be gods, and how each ended.
 - [Tabernacles: God Dwelling with His People](../feasts/tabernacles.md) — the nations keeping the feast in the kingdom.
 - [The New Jerusalem](../last-things/new-jerusalem.md) — the city whose temple is God and the Lamb.
