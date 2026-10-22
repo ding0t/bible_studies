@@ -68,11 +68,17 @@ the Zadok, Essene, or Qumran calendar today.
 
 The calendar itself predates the Qumran community. The clearest early exposition is the "Book of the Luminaries" in [1 Enoch 72-82](https://dsscalendar.org/e/), an extended account of the sun, moon, and stars' courses that lays out the same 364-day, 12-month structure. The book of Jubilees, writing not long after, commands this calendar explicitly and warns that following a lunar reckoning instead is a departure from what God appointed. Both works were known and copied at Qumran, and both are part of why the calendar is associated with a much older priestly tradition than the sect that preserved it for us.
 
+## Weeks within weeks: the calendar's cycles
+
+### Ten weeks of history
+
 The community also read its own history and future through a much larger version of the same "week"
 pattern: [1 Enoch 91-93](https://dsscalendar.org/e/), the "Apocalypse of Weeks," divides all of
 history into ten "weeks", with "many weeks without number for ever" after them (1 Enoch 91:17, trans.
 R. H. Charles). Enoch numbers the weeks without giving their length. dsscalendar.org reads each as
 700 years, which makes 7,000 years from creation to a new creation.
+
+### Ages of 2,000 years and days of 1,000
 
 dsscalendar.org also divides its scheme into ages of 2,000 years, each made of four 500-year
 "Onahs" of ten 50-year jubilees. The 2,000-year age has an ancient witness: the Talmud's six thousand
@@ -87,19 +93,23 @@ The same week of thousand-year days is the shape of this site's own reading of 2
 ordinary history followed by a seventh, sabbath-rest millennium. Where the New Testament draws the
 line between this age and the next is [The End of the Age](../last-things/end-of-the-age.md).
 
+### Sabbaticals and jubilees
+
 Nested inside that larger scheme are ordinary Sabbatical (7-year, Leviticus
 25:1-7) and Jubilee (50-year, Leviticus 25:8-13)
 cycles. The calendar is the scaffolding the whole chronology runs on. dsscalendar.org even ties a
 specific messianic claim to that scaffolding. It reads 11Q13, the Melchizedek scroll, as placing the
 Messiah's death exactly one Shemittah after the ninth Jubilee of its scheme.
 
-## The Enoch wheel's 140 jubilees
+### The Enoch wheel's 140 jubilees
 
 One structural detail from the same source bears on how this site uses jubilees. dsscalendar.org's
 Enoch wheel divides the 7,000 years three ways. Ten weeks of 700 years. Seventy centuries of 100.
 And **140 jubilees of 50 years each**. That last figure settles, for its scheme, the ambiguity
 Leviticus 25:8-10 leaves open between a 49-year and a 50-year cycle: 140 × 50 = 7,000 exactly, where
 49-year cycles would not divide the total at all.
+
+### Forty-nine years or fifty
 
 **The ambiguity is old, and Leviticus leaves it open.** Everyone agrees on the text: "count seven weeks
 of years … forty-nine years", then "consecrate the fiftieth year … It shall be a jubilee for you"
