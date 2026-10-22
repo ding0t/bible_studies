@@ -178,6 +178,11 @@ FIGURES = {
                       mantle_fill="#e7d3c4", beard=False,
                       why="A woman of means from Magdala who provided for Jesus and the Twelve (Luke 8:2-3), so a dyed plum-rose robe "
                           "and a pale veil, a fixed choice kept apart from the generic women's robes. Scripture gives no detail of her dress."),
+    "david": dict(name="David", study="jesus/the-heavenly-pattern/table.md", robes=["#c06a2a"], mantle="stole",
+                  mantle_fill="#efe4c8", hair="short", hair_color="#8a3e22", beard=True,
+                  why="\"He was ruddy and had beautiful eyes and was handsome\" (1 Samuel 16:12): auburn hair, a young man's "
+                      "short beard. A burnt-orange tunic and a cream mantle are a fixed choice, brighter than Paul's rust. "
+                      "Scripture gives no detail of his dress."),
     "nebuchadnezzar": dict(name="Nebuchadnezzar", study="last-things/the-image-and-the-kingdoms.md", robes=["#2b1f4f"],
                            mantle="royal", mantle_fill="#e8d9b0", belt=GOLD, collar=True, beard="full",
                            why="King of Babylon (Daniel 1:1; 2:1). Scripture gives no detail of his dress. Background, not Scripture: "

@@ -1,0 +1,150 @@
+# Fifth page of the series jesus/the-heavenly-pattern/ (after lampstand, ark, incense-altar,
+# almond). Same template: one furnishing traced Sinai -> Solomon -> NT -> heaven, a generated
+# plate, a tier table. Planning notes: about/backlog.md 2.5 "The table and the bread of the Presence".
+
+slug: "table"
+title: "The Table and the Bread of the Presence"
+status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/jesus/the-heavenly-pattern/table.md"
+
+primary_passage: "Exodus 25:23-30"
+supporting_passages:
+  - "Exodus 24:9-11"
+  - "Exodus 26:35"
+  - "Exodus 37:10-16"
+  - "Exodus 40:22-23"
+  - "Leviticus 24:5-9"
+  - "Numbers 4:7"
+  - "1 Samuel 21:1-6"
+  - "1 Chronicles 9:32"
+  - "1 Chronicles 28:16"
+  - "2 Chronicles 4:8, 19"
+  - "Ezekiel 41:22"
+  - "Malachi 1:7, 12"
+  - "Matthew 12:1-8"
+  - "Mark 2:23-28"
+  - "Luke 6:1-5"
+  - "Luke 22:29-30"
+  - "John 6:35"
+  - "1 Corinthians 10:21"
+  - "Hebrews 9:2"
+sibling_studies:
+  - slug: "jesus/the-heavenly-pattern/lampstand.md"
+    role: primary
+    use: link
+    note: "Already has the lamps lighting the table across the Holy Place (Exodus 26:35; Numbers 8:1-4) and the twelve loaves. One sentence and a link; do not re-argue."
+  - slug: "jesus/the-heavenly-pattern/ark.md"
+    role: primary
+    use: link
+    note: "Already notes the LXX verb for setting out the bread (Exodus 40:23; Leviticus 24:8) beside Romans 3:25. Link rather than repeat."
+  - slug: "jesus/the-heavenly-pattern/incense-altar.md"
+    role: cited
+    use: link
+    note: "Placement in the Holy Place: lampstand south, table north, altar before the veil."
+  - slug: "jesus/bread-of-life-feeding-the-multitudes.md"
+    role: primary
+    use: link
+    note: "John 6 is treated there. This study only asks whether the NT connects John 6:35 to the table (it does not) and links."
+  - slug: "feasts/lords-supper.md"
+    role: cited
+    use: build-on
+    note: "1 Corinthians 10:21 'the table of the Lord'. This study supplies the OT table behind the phrase (Malachi 1:7, 12) and links."
+  - slug: "feasts/last-supper-four-cups.md"
+    role: cited
+    use: link
+    note: "Luke 22:29-30, eating at His table in the kingdom."
+genre: [law, ot-narrative, gospel, epistle, prophets, topical]
+
+thesis: >
+  God set a table in His tent and kept bread on it before His face every Sabbath, from the twelve
+  tribes and eaten by His priests, continuing the meal Israel's elders ate in His presence on
+  Sinai; the New Testament never explains the table, but it names the Lord's table and the table
+  in His kingdom, so in His Son Jesus you are given a place at God's table now and at His table to
+  come.
+outline:
+  - section: "Hook + In one sentence + Key Takeaways + Study outline"
+    says: "Exodus 24:11 'they beheld God, and ate and drank', then the first thing God orders after the ark is a table."
+  - section: "Made after the pattern (Exodus 25:23-30)"
+    says: "2 x 1 x 1.5 cubits, acacia overlaid with gold, a handbreadth rim, rings at the legs for poles, gold plates, dishes, flagons and bowls (LSB footnote 'Or platters'). Plate drawn to scale; what the text leaves out drawn dashed."
+  - section: "The bread of the Face"
+    says: "lechem panim set lefanai tamid (Exodus 25:30): panim twice, 'bread of the Face before My face' (LSB 'Lit Face'). Twelve loaves of two tenths each, two ma'arakhot (ESV 'piles', interlinear 'rows'; the plate flags both), frankincense as the memorial, set out every Sabbath 'from the people of Israel as a covenant forever', eaten by the priests in a holy place (Leviticus 24:5-9). The text's own reasons it is not food for God: weekly, and eaten by the priests (CBSB background on ANE temple feeding, set beside the text, not carrying it)."
+  - section: "From the wilderness to the temple"
+    says: "Blue cloth and 'the regular bread' on the march (Numbers 4:7); Kohathites prepare it every Sabbath (1 Chronicles 9:32); David's gold and silver tables and Solomon's ten (1 Chronicles 28:16; 2 Chronicles 4:8, 19); Ezekiel's wooden 'table that is before the LORD' (Ezekiel 41:22). Hebrews 9:2 lists it in the first tent."
+  - section: "David ate the holy bread"
+    says: "1 Samuel 21:1-6: the bread 'removed from before the LORD', replaced by hot bread. Jesus reads it in Matthew 12:1-8 (and Mark 2:25-28; Luke 6:3-5): the priests' bread given to the hungry, 'something greater than the temple is here', mercy and not sacrifice, the Son of Man lord of the Sabbath. Greek prothesis, 'loaves of presentation'."
+  - section: "The table of the Lord"
+    says: "Malachi 1:7, 12, the LORD's table despised by the priests; Paul's 'table of the Lord' (1 Corinthians 10:21); Jesus' 'eat and drink at my table in my kingdom' (Luke 22:29-30). Link the Lord's Supper and Four Cups studies."
+  - section: "What the table shows about God"
+    says: "Tier table: stated (Hebrews 9:2 lists it; Jesus cites the bread), echoed (Lord's table, table in the kingdom), inferred (John 6:35 bread of life; Christ as the bread before God's face), later tradition. Hebrews 9:5's limit. God feeds His people before His face, and in Jesus you eat with Him."
+  - section: "Discussion questions; References"
+    says: ""
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Backlog 2.5 order: the table is next after the ark and the incense altar, and unblocked (the 'settle first' Ezekiel sacrifices question governs the bronze altar and house pages; Ezekiel 41:22 here is a table, mentioned only)."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Instructions given on Sinai (Exodus 25-31), carried out in 37:10-16, placed 'on the north
+        side ... outside the veil' (Exodus 40:22-23). Immediately before, the covenant is ratified
+        and the elders 'beheld God, and ate and drank' (Exodus 24:11); ESVSB reads it as the
+        fellowship the peace offering signifies. ANE temples fed their gods daily; CBSB notes the
+        tabernacle bread differs: weekly, and eaten by priests (Leviticus 24:8-9).
+    literary_context:
+      done: true
+      notes: >
+        Exodus 25 orders the furniture from the inside out: ark (10-22), table (23-30), lampstand
+        (31-40). The table is the first thing outside the Most Holy Place. Leviticus 24:1-9 pairs
+        the lamp oil and the bread right after the feast calendar of chapter 23.
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "שֻׁלְחָן", language: hebrew, transliteration: "shulchan", strongs_id: "H7979", gloss: "table", notes: "71 occurrences (macula-hebrew-wlc, count_only)."}
+        - {word: "לֶחֶם פָּנִים", language: hebrew, transliteration: "lechem panim", strongs_id: "H3899 + H6440", gloss: "bread of (the) face/presence", notes: "Exodus 25:30 sets it לְפָנַי 'before my face': panim twice. LSB footnote 'Lit Face'."}
+        - {word: "תָּמִיד", language: hebrew, transliteration: "tamid", strongs_id: "H8548", gloss: "continually, regularly", notes: "Exodus 25:30; Leviticus 24:8. LSB 'at all times', footnote 'Or continually'. Same word the lampstand page works."}
+        - {word: "מַעֲרָכָה / מַעֲרֶכֶת", language: hebrew, transliteration: "ma'arakhah / ma'arekhet", strongs_id: "H4634 / H4635", gloss: "row, pile, arrangement", notes: "Leviticus 24:6: two ma'arakhot, six in the ma'arekhet. ESV 'piles', ULT 'rows'. Verb arakh (H6186) 'arrange' in 24:8 and Exodus 40:23. Plate must flag both readings."}
+        - {word: "πρόθεσις", language: greek, transliteration: "prothesis", strongs_id: "G4286", gloss: "presentation, setting out; purpose", notes: "12 NT uses (SBLGNT): the bread in Matthew 12:4; Mark 2:26; Luke 6:4; Hebrews 9:2 ('presentation'); elsewhere God's or a person's purpose (Romans 8:28; 9:11; Ephesians 1:11; 3:11; 2 Timothy 1:9; 3:10; Acts 11:23; 27:13). LSB footnote at Matthew 12:4 'lit loaves of presentation'. Two senses of one word: do NOT build an argument on the overlap."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: ""
+    theological_principle:
+      done: true
+      notes: "God feeds His people in His presence; the bread is Israel's own offering, kept before His face and given back to His priests."
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Exodus 25:30", relation: "bible_trace returns no connections and no leads: the NT never quotes or alludes to this verse."}
+      - {ref: "Hebrews 9:2", relation: "Lists the table and the bread in the first tent; no interpretation (Hebrews 9:5 limit)."}
+      - {ref: "Matthew 12:3-8", relation: "Jesus cites 1 Samuel 21; the point is the Sabbath and mercy, with 'something greater than the temple'."}
+      - {ref: "1 Corinthians 10:21", relation: "'the table of the Lord' -- echo of Malachi 1:7, 12, unverified as a deliberate allusion; run bible_trace on it."}
+    translations_compared: ["ESV", "LSB", "WEB (pending)", "ULT interlinear"]
+    divergences_noted: "Leviticus 24:6 piles (ESV) vs rows (ULT). Exodus 25:30 'regularly' (ESV) vs 'at all times' (LSB). Exodus 25:29 vessel names vary across versions."
+  drafting:
+    done: true
+    file: "docs/content/jesus/the-heavenly-pattern/table.md"
+  review:
+    done: false
+    validated: false
+
+open_questions:
+  - "RESOLVED 2026-10-22: rows or stacks. Mishnah Menachot 11:5-6 (Sefaria Community Translation, CC0) has two stacks with gold supports and reeds; 11:4 Ben Zoma reads 'bread of the Face' as loaves that 'must have faces'. Plate draws both and dashes the stacks as tradition. Josephus not consulted."
+  - "DROPPED: Revelation 19:9 and 3:20. Neither names a table; left out rather than stretched."
+  - "RESOLVED: 1 Corinthians 10:21 bible_trace finds no connection to Malachi 1:7, 12 (leads only: Matthew 6:24, 1 Kings 18:21, Isaiah 65:11). The study calls it a shared phrase."
+  - "Isaiah 65:11 'who prepare a table for Fortune' is a lead on 1 Corinthians 10:21: a rival table. Possible enrichment for lords-supper.md, not this study."
+  - "Corrected in self-check: table is the SAME height as the ark (both 1.5 cubits); 1 Chronicles 9 is the post-exilic list (9:2); LXX Exodus 25:30 is artous enopious, not prothesis; Psalm 121:4 misquote replaced with Psalm 50:12-13 (verified)."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Exodus 25:23-30 (twelve loaves, facing the lampstand); Leviticus 24:1-9, 24:5-9; Exodus 24:9-11; Matthew 12:4. Confirmed the reading; contributed nothing the text did not."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Exodus 25:30: ANE temples fed their gods daily; the tabernacle bread was weekly and eaten by priests. Contributed the background."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Exodus 25:30 ('Presence' as in Exodus 33:14-15); Exodus 24:11 covenant meal foreshadowing the Lord's Supper and Revelation 19:9 -- a note's typology, to be weighed, not carried."}
+  - {type: other, title: "Legacy Standard Bible footnotes", author: "Lockman Foundation", note: "Exodus 25:29 'Or platters'; 25:30 'Lit Face', 'Or continually'; Matthew 12:4 'lit loaves of presentation'."}
+last_updated: "2026-10-22"
+# Graphics: plate utils/sanctuary_plates.py build_table -> assets/img/sanctuary-table.svg; comic docs/data/comics/table.toml (David reserved in utils/lib/comic.py FIGURES). Strict build passed with draft flipped for the check.

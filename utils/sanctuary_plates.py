@@ -874,10 +874,159 @@ def build_almond():
 
 BLUE_CORD = '#2f5a8f'  # "a cord of blue" (Exodus 28:37)
 EARTH = '#e6d6b8'
+LOAF = '#e9cf98'
+LOAF_EDGE = '#a9824a'
+
+
+TABLE_FACTS = [
+    ('Acacia wood, 2 × 1 × 1½ cubits', 'given', 'Exodus 25:23'),
+    ('Overlaid with pure gold, with a gold molding around', 'given', 'Exodus 25:24'),
+    ('A rim a handbreadth wide, with its own gold molding', 'given', 'Exodus 25:25'),
+    ('Four gold rings at the four corners, at its four legs, close to the rim', 'given', 'Exodus 25:26-27'),
+    ('Poles of gold-covered acacia to carry it', 'given', 'Exodus 25:28'),
+    ('Plates, dishes, flagons and bowls of pure gold', 'given', 'Exodus 25:29; 37:16'),
+    ('Twelve loaves, in two sets of six', 'given', 'Leviticus 24:5-6'),
+    ('Frankincense on each arrangement', 'given', 'Leviticus 24:7'),
+    ('Rows or stacks', 'unstated', 'the Hebrew allows both; stacks: Mishnah Menachot 11:5-6'),
+    ('Whether the rim stood above the top or joined the legs below it', 'unstated', 'not given; drawn below, dashed'),
+    ('Length of the poles, shape of the vessels', 'unstated', 'not given'),
+]
+
+TABLE_DESC = (
+    "Plate in four parts. The table of Exodus 25 in side elevation, drawn to scale at two cubits long "
+    "and one and a half high: acacia overlaid with gold, a gold molding around the top, a rim a "
+    "handbreadth wide drawn dashed between the legs because its place is not given, a ring at each "
+    "leg holding a pole, and twelve loaves on it in two stacks of six with a dish of frankincense on "
+    "each, the stacks dashed because the arrangement is the Mishnah's reading. Beside it, what the "
+    "text states and what it leaves unstated. Below, the twelve loaves drawn both ways the Hebrew "
+    "allows, two rows of six and two stacks of six; the week of the bread, set out every Sabbath, "
+    "kept before the LORD, then eaten by the priests in a holy place as hot bread replaces it; and a "
+    "strip following the table from the tabernacle through the wilderness, David at Nob, Solomon's "
+    "ten tables, Malachi and Ezekiel, to Jesus' words about David and the bread, the table of the "
+    "Lord, and Jesus' promise of His table in His kingdom.")
+
+
+def mini_table(x, y, vision):
+    style = f'fill="none" stroke="#b08a2e" stroke-width="2.2"{" " + DASH if vision else ""}'
+    return (f'<rect x="{x - 20}" y="{y - 26}" width="40" height="5" {style}/>'
+            f'<line x1="{x - 16}" y1="{y - 21}" x2="{x - 16}" y2="{y}" {style}/>'
+            f'<line x1="{x + 16}" y1="{y - 21}" x2="{x + 16}" y2="{y}" {style}/>'
+            f'<ellipse cx="{x - 8}" cy="{y - 30}" rx="7" ry="3.5" fill="{LOAF}" stroke="{LOAF_EDGE}"/>'
+            f'<ellipse cx="{x + 8}" cy="{y - 30}" rx="7" ry="3.5" fill="{LOAF}" stroke="{LOAF_EDGE}"/>')
+
+
+def loaf(x, y, w, h, dashed=False):
+    return (f'<rect x="{x - w / 2}" y="{y - h / 2}" width="{w}" height="{h}" rx="{h / 2}" fill="{LOAF}" '
+            f'stroke="{MUTED if dashed else LOAF_EDGE}" stroke-width="1"{" " + DASH if dashed else ""}/>')
+
+
+def build_table():
+    W, H = 960, 1580
+    cubit = 140
+    cx, floor = 290, 580
+    L, Hh = 2 * cubit, 1.5 * cubit
+    x0, top = cx - L / 2, floor - Hh
+    hand = cubit / 6  # a handbreadth, six to the cubit
+    leg = 12
+    rim_y = top + 28
+
+    stacks = ''.join(loaf(cx + dx, top - 8 - i * 11, 92, 10, dashed=True)
+                     for dx in (-62, 62) for i in range(6))
+    frank = ''.join(f'<path d="M{cx + dx - 14} {top - 76} q14 10 28 0 Z" fill="url(#gold)" stroke="#9a7424"/>'
+                    f'<path d="M{cx + dx} {top - 80} q-5 -6 0 -11 q5 -5 0 -10" fill="none" stroke="#a9a1bb" stroke-width="1.6"/>'
+                    for dx in (-62, 62))
+    legs = ''.join(f'<rect x="{x}" y="{top + 10}" width="{leg}" height="{Hh - 10}" fill="url(#gold)" stroke="#9a7424"/>'
+                   for x in (x0 + 6, x0 + L - 6 - leg))
+    rings = ''.join(f'<circle cx="{x + leg / 2}" cy="{rim_y + hand + 16}" r="7" fill="none" stroke="#9a7424" stroke-width="3"/>'
+                    for x in (x0 + 6, x0 + L - 6 - leg))
+    table = f'''
+  {stacks}
+  {frank}
+  <rect x="{x0 - 6}" y="{top}" width="{L + 12}" height="10" fill="url(#gold)" stroke="#9a7424" stroke-width="1.2"/>
+  <rect x="{x0 - 8}" y="{top + 2}" width="{L + 16}" height="5" fill="url(#gold)" stroke="#9a7424" stroke-width="0.8"/>
+  {legs}
+  <rect x="{x0 + 6}" y="{rim_y}" width="{L - 12}" height="{hand}" fill="#f6dc86" stroke="{MUTED}" stroke-width="1.2" {DASH}/>
+  {rings}
+  <line x1="{x0 - 60}" y1="{rim_y + hand + 16}" x2="{x0 + L + 60}" y2="{rim_y + hand + 16}" stroke="#b08a2e" stroke-width="6" stroke-linecap="round"/>
+  <line x1="{x0 - 100}" y1="{rim_y + hand + 16}" x2="{x0 - 60}" y2="{rim_y + hand + 16}" stroke="#b08a2e" stroke-width="6" {DASH}/>
+  <line x1="{x0 + L + 60}" y1="{rim_y + hand + 16}" x2="{x0 + L + 100}" y2="{rim_y + hand + 16}" stroke="#b08a2e" stroke-width="6" {DASH}/>
+  <text x="{x0 + L + 16}" y="{top - 60}" font-size="11" fill="{INK}">frankincense on each</text>
+  <text x="{x0 + L + 16}" y="{top - 30}" font-size="11" fill="{MUTED}" font-style="italic">twelve loaves: stacks are</text>
+  <text x="{x0 + L + 16}" y="{top - 16}" font-size="11" fill="{MUTED}" font-style="italic">the Mishnah’s reading</text>
+  <text x="{x0 + L + 16}" y="{top + 8}" font-size="11" fill="{INK}">gold molding</text>
+  <text x="{x0 + L + 16}" y="{rim_y + 12}" font-size="11" fill="{MUTED}" font-style="italic">rim, a handbreadth: place not given</text>
+  <text x="{x0 + L + 16}" y="{rim_y + hand + 40}" font-size="11" fill="{INK}">ring at a leg, pole through it</text>
+  <text x="{x0 - 100}" y="{rim_y + hand + 40}" font-size="10.5" fill="{MUTED}" font-style="italic">poles: length not given</text>
+  <line x1="{cx - 210}" y1="{floor}" x2="{cx + 210}" y2="{floor}" stroke="{RULE}" stroke-width="0.8"/>
+  {dimension(x0, floor + 22, x0 + L, floor + 22, '2 cubits')}
+  {dimension(x0 - 40, top, x0 - 40, floor, '1½ cubits', side=-1)}'''
+
+    # Panel B: the twelve loaves both ways Leviticus 24:6's ma'arakhot allows.
+    bx, by = 70, 1000
+    rows_view = ''.join(loaf(bx + 30 + c * 40, by + 30 + r * 34, 34, 22) for r in range(2) for c in range(6))
+    stacks_view = ''.join(loaf(bx + 400 + s * 110, by + 80 - i * 12, 80, 10, dashed=True)
+                          for s in range(2) for i in range(6))
+    panel_b = f'''
+  <text x="{bx - 10}" y="{by - 64}" font-family="Georgia, serif" font-size="19" fill="{INK}">Two rows, or two stacks</text>
+  {wrap("Leviticus 24:6: “two מַעֲרָכוֹת, six in each.” The word means an arrangement set in order: ESV “piles,” WEB “rows.”", bx - 10, by - 42, 64, 11.5, MUTED)}
+  <rect x="{bx}" y="{by + 6}" width="270" height="86" fill="url(#gold)" stroke="#9a7424" opacity="0.55"/>
+  {rows_view}
+  <text x="{bx + 135}" y="{by + 116}" font-size="11.5" fill="{INK}" text-anchor="middle">rows, seen from above</text>
+  <rect x="{bx + 340}" y="{by + 88}" width="250" height="8" fill="url(#gold)" stroke="#9a7424"/>
+  {stacks_view}
+  <text x="{bx + 465}" y="{by + 116}" font-size="11.5" fill="{MUTED}" text-anchor="middle" font-style="italic">stacks, seen from the side</text>
+  {wrap("The Mishnah (Menachot 11:5-6) has two stacks held apart by gold supports and hollow reeds, each loaf ten handbreadths long with its ends turned up. That is the tradition of the Second Temple; Exodus and Leviticus say only “six in each.”", bx - 10, by + 144, 64, 11, MUTED, italic=True)}'''
+
+    # Panel C: the week of the bread (Leviticus 24:7-9; 1 Samuel 21:6).
+    wx, wy = 700, by + 40
+    steps = [('Sabbath', 'set out before the LORD', 'Leviticus 24:8'),
+             ('all week', 'before His face, with frankincense', 'Leviticus 24:7'),
+             ('next Sabbath', 'eaten by the priests in a holy place', 'Leviticus 24:9'),
+             ('same day', 'hot bread put in its place', '1 Samuel 21:6')]
+    week = ''.join(
+        f'<circle cx="{wx}" cy="{wy + i * 62}" r="7" fill="#b08a2e"/>'
+        f'<text x="{wx + 16}" y="{wy + i * 62 - 2}" font-size="12" fill="{INK}" font-weight="bold">{when}</text>'
+        f'<text x="{wx + 16}" y="{wy + i * 62 + 13}" font-size="11.5" fill="{INK}">{what}</text>'
+        f'<text x="{wx + 16}" y="{wy + i * 62 + 27}" font-size="10.5" fill="{MUTED}" font-style="italic">{ref}</text>'
+        for i, (when, what, ref) in enumerate(steps))
+    panel_c = f'''
+  <text x="{wx - 20}" y="{by - 64}" font-family="Georgia, serif" font-size="19" fill="{INK}">The week of the bread</text>
+  <line x1="{wx}" y1="{wy}" x2="{wx}" y2="{wy + 3 * 62}" stroke="#b08a2e" stroke-width="2"/>
+  <path d="M{wx - 14} {wy + 3 * 62} C{wx - 60} {wy + 2 * 62} {wx - 60} {wy + 62} {wx - 14} {wy}" fill="none" stroke="#e0a526" stroke-width="1.6" {DASH} marker-end="url(#arrow)"/>
+  {week}'''
+
+    stages = [
+        ('', 'On the north side', 'Exodus 40:22-23', False),
+        ('', 'Carried under blue', 'Numbers 4:7', False),
+        ('', 'David given the bread', '1 Samuel 21:6', False),
+        ('', 'Solomon: ten tables', '2 Chronicles 4:8, 19', False),
+        ('', '“The LORD’s table” despised', 'Malachi 1:7, 12', False),
+        ('', '“The table before the LORD”', 'Ezekiel 41:22', True),
+        ('', 'Jesus: “what David did”', 'Matthew 12:3-4', False),
+        ('', '“The table of the Lord”', '1 Corinthians 10:21', False),
+        ('', '“My table in my kingdom”', 'Luke 22:30', True),
+    ]
+    strip = stage_strip(stages, mini_table, 1420, W, 'Where the table stands in Scripture',
+                        'Dashed: seen in a vision (Ezekiel), or promised and still to come (Luke 22:30).')
+
+    body = f'''
+  <text x="{cx}" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="{INK}">What Moses was told to make</text>
+  {table}
+  {scale_bar(cx - 210, floor + 70, cubit, "Drawn to scale from Exodus 25:23. The loaves’ arrangement, the rim’s place and the poles are dashed.")}
+  {facts_column(TABLE_FACTS, 'Exodus 25:23-30; 37:10-16; Leviticus 24:5-9')}
+
+  <line x1="40" y1="{by - 110}" x2="{W - 40}" y2="{by - 110}" stroke="{RULE}" stroke-width="0.6"/>
+  {panel_b}
+  {panel_c}
+
+  {strip}'''
+    return plate(W, H, 'The Table and the Bread of the Presence',
+                 '“You shall set the bread of the Presence on the table before me regularly” (Exodus 25:30, ESV)',
+                 'The table and the bread of the Presence, Exodus 25:23-30', TABLE_DESC, body)
 
 
 PLATES = {'lampstand': build_lampstand, 'incense-altar': build_incense_altar, 'ark': build_ark,
-          'almond': build_almond}
+          'almond': build_almond, 'table': build_table}
 
 
 def main():

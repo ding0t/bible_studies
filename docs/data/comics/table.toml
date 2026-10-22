@@ -1,0 +1,83 @@
+# One-minute comic for docs/content/jesus/the-heavenly-pattern/table.md.
+# Drawn by: python3 utils/build_comics.py table
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-22.
+# source = "esv" is the ESV's words as printed; "condensed" is shortened from the verses in `ref`.
+#
+# Grainfields on the Sabbath: Matthew 12:1. The disciples' hunger: Matthew 12:1. David's hunger and
+# Ahimelech at Nob: 1 Samuel 21:1-6; Matthew 12:3-4. The bread "removed from before the LORD, to be
+# replaced by hot bread": 1 Samuel 21:6. The disciples and the authorities say nothing in reply to
+# Jesus in Matthew 12:3-8, so they have no bubble after panel 1.
+
+title = "The bread before His face"
+subtitle = "Matthew 12 and 1 Samuel 21 in one minute"
+layout = "setting-exchange-evidence-verdict"
+point = "The bread set out before God's face fed a hungry man, and the One greater than the temple says God desires mercy, so you can come to Him in your need (Matthew 12:6-7)."
+
+[[panel]]
+ref = "Matthew 12:1-2"
+scene = "plain"
+sky = "day"
+caption = "On a Sabbath Jesus went through the grainfields. His disciples were hungry and began to pluck heads of grain and eat."
+shows = "Jesus walks through a field with two disciples, who pluck grain; two authorities point at them"
+cast = [
+  { who = "jesus", x = 0.22, stance = "walk", pose = "stand" },
+  { who = "disciple", id = "dis", n = 2, x = 0.38, x2 = 0.50, pose = ["hold", "heart"] },
+  { who = "authority", id = "auth", n = 2, x = 0.74, x2 = 0.88, face = "left", pose = ["point", "fold"] },
+]
+say = [
+  { by = "auth", text = "Look, your disciples are doing what is not lawful to do on the Sabbath.", source = "esv", at = [0.78, 0.30], w = 230 },
+]
+
+[[panel]]
+ref = "Matthew 12:3"
+scene = "plain"
+sky = "day"
+shows = "Jesus answers the authorities"
+cast = [
+  { who = "jesus", x = 0.40, face = "right", pose = "open" },
+]
+say = [
+  { by = "jesus", text = "Have you not read what *David* did when he was hungry?", source = "esv", at = [0.5, 0.06], w = 230 },
+]
+
+[[panel]]
+ref = "Matthew 12:4"
+scene = "plain"
+sky = "day"
+shows = "Jesus goes on, pointing back"
+cast = [
+  { who = "jesus", x = 0.42, face = "left", pose = "point" },
+]
+say = [
+  { by = "jesus", text = "He ate the *bread of the Presence*, which only the priests could eat.", source = "condensed", at = [0.5, 0.06], w = 240 },
+]
+
+[[panel]]
+ref = "1 Samuel 21:1-6"
+scene = "courtyard"
+sky = "day"
+flashback = true
+caption = "Earlier: David, fleeing from Saul, came hungry to Ahimelech the priest at Nob. The only bread was the bread removed from before the LORD."
+caption_w = 430
+shows = "at Nob the priest holds out a loaf to David"
+cast = [
+  { who = "david", id = "david", x = 0.34, face = "right", pose = "beg", tag = "David" },
+  { who = "priest", id = "priest", x = 0.66, face = "left", pose = "offer", holds = "loaf" },
+]
+say = [
+  { by = "priest", text = "I have no common bread on hand, but there is *holy bread*.", source = "esv", at = [0.87, 0.44], w = 180 },
+]
+
+[[panel]]
+ref = "Matthew 12:6-8"
+scene = "plain"
+sky = "day"
+shows = "Jesus faces the authorities; the disciples stand behind Him"
+cast = [
+  { who = "jesus", x = 0.30, face = "right", pose = "open" },
+  { who = "disciple", id = "dis", n = 2, x = 0.10, x2 = 0.18, pose = ["stand", "hold"] },
+  { who = "authority", id = "auth", n = 2, x = 0.72, x2 = 0.86, face = "left", pose = ["fold", "stand"] },
+]
+say = [
+  { by = "jesus", text = "Something *greater than the temple* is here. I desire mercy, and not sacrifice.", source = "condensed", at = [0.50, 0.06], w = 300 },
+]

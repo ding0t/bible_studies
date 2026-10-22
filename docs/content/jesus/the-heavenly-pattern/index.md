@@ -10,10 +10,10 @@ series:
   cut: topic
   sessions:
     - study: jesus/the-heavenly-pattern/ark.md
+    - study: jesus/the-heavenly-pattern/table.md
     - study: jesus/the-heavenly-pattern/incense-altar.md
     - study: jesus/the-heavenly-pattern/lampstand.md
     - study: jesus/the-heavenly-pattern/almond.md
-    - planned: "The Table"
     - planned: "The Bronze Altar"
     - planned: "The Basin and the Sea"
     - planned: "The House, from Tent to City"

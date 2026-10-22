@@ -167,6 +167,7 @@ comic knows him in the next. Each is reserved once, in `FIGURES` in `utils/lib/c
 | `daniel` | Daniel | Saffron courtier's tunic (Daniel 2:48), cream mantle | those-called-gods |
 | `joseph` | Joseph, son of Jacob | Young and clean-shaven (Genesis 39:6; 41:14), a jade tunic and no outer garment, the one he left in her hand (39:12) | sexual-immorality |
 | `magdalene` | Mary Magdalene | A plum-rose robe and a pale veil, a woman of means who provided for Jesus (Luke 8:2-3) | jesus-and-women |
+| `david` | David | Burnt-orange tunic, cream mantle, auburn hair and a young man's short beard ("ruddy", 1 Samuel 16:12) | table |
 | `nebuchadnezzar` | Nebuchadnezzar | Deep indigo robe, gold belt and collar, full beard, the tall rounded cap of a Neo-Babylonian king: background, not Scripture, so the comic's `note` says so | the-image-and-the-kingdoms |
 
 - **Reserve only a figure the text names.** The two witnesses are unnamed in Revelation 11 and

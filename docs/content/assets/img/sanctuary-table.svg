@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 1580" font-family="Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">The table and the bread of the Presence, Exodus 25:23-30</title>
+  <desc id="d">Plate in four parts. The table of Exodus 25 in side elevation, drawn to scale at two cubits long and one and a half high: acacia overlaid with gold, a gold molding around the top, a rim a handbreadth wide drawn dashed between the legs because its place is not given, a ring at each leg holding a pole, and twelve loaves on it in two stacks of six with a dish of frankincense on each, the stacks dashed because the arrangement is the Mishnah's reading. Beside it, what the text states and what it leaves unstated. Below, the twelve loaves drawn both ways the Hebrew allows, two rows of six and two stacks of six; the week of the bread, set out every Sabbath, kept before the LORD, then eaten by the priests in a holy place as hot bread replaces it; and a strip following the table from the tabernacle through the wilderness, David at Nob, Solomon's ten tables, Malachi and Ezekiel, to Jesus' words about David and the bread, the table of the Lord, and Jesus' promise of His table in His kingdom.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbe7a1"/><stop offset="0.5" stop-color="#eec95c"/><stop offset="1" stop-color="#d9a93a"/>
+    </linearGradient>
+    <radialGradient id="flame" cx="50%" cy="65%" r="60%">
+      <stop offset="0" stop-color="#fff3b0"/><stop offset="0.6" stop-color="#f7b733" stop-opacity="0.9"/><stop offset="1" stop-color="#f08a24" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glory" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fffdf2"/><stop offset="0.45" stop-color="#fff0b8"/><stop offset="1" stop-color="#fff0b8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="smoke" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#b9b2c9" stop-opacity="0.9"/><stop offset="1" stop-color="#d9d4e3" stop-opacity="0"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#e0a526"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="1580" fill="#faf5e8"/>
+  <rect x="12" y="12" width="936" height="1556" fill="none" stroke="#5a4a2c" stroke-width="1.5"/>
+  <rect x="18" y="18" width="924" height="1544" fill="none" stroke="#5a4a2c" stroke-width="0.6"/>
+
+  <text x="480.0" y="58" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#3b2f1a" letter-spacing="1">The Table and the Bread of the Presence</text>
+  <text x="480.0" y="84" text-anchor="middle" font-size="14" fill="#7a6d57" font-style="italic">“You shall set the bread of the Presence on the table before me regularly” (Exodus 25:30, ESV)</text>
+
+  <text x="290" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#3b2f1a">What Moses was told to make</text>
+  
+  <rect x="182.0" y="357.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="182.0" y="346.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="182.0" y="335.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="182.0" y="324.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="182.0" y="313.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="182.0" y="302.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="306.0" y="357.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="306.0" y="346.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="306.0" y="335.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="306.0" y="324.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="306.0" y="313.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="306.0" y="302.0" width="92" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/>
+  <path d="M214 294.0 q14 10 28 0 Z" fill="url(#gold)" stroke="#9a7424"/><path d="M228 290.0 q-5 -6 0 -11 q5 -5 0 -10" fill="none" stroke="#a9a1bb" stroke-width="1.6"/><path d="M338 294.0 q14 10 28 0 Z" fill="url(#gold)" stroke="#9a7424"/><path d="M352 290.0 q-5 -6 0 -11 q5 -5 0 -10" fill="none" stroke="#a9a1bb" stroke-width="1.6"/>
+  <rect x="144.0" y="370.0" width="292" height="10" fill="url(#gold)" stroke="#9a7424" stroke-width="1.2"/>
+  <rect x="142.0" y="372.0" width="296" height="5" fill="url(#gold)" stroke="#9a7424" stroke-width="0.8"/>
+  <rect x="156.0" y="380.0" width="12" height="200.0" fill="url(#gold)" stroke="#9a7424"/><rect x="412.0" y="380.0" width="12" height="200.0" fill="url(#gold)" stroke="#9a7424"/>
+  <rect x="156.0" y="398.0" width="268" height="23.333333333333332" fill="#f6dc86" stroke="#7a6d57" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <circle cx="162.0" cy="437.3333333333333" r="7" fill="none" stroke="#9a7424" stroke-width="3"/><circle cx="418.0" cy="437.3333333333333" r="7" fill="none" stroke="#9a7424" stroke-width="3"/>
+  <line x1="90.0" y1="437.3333333333333" x2="490.0" y2="437.3333333333333" stroke="#b08a2e" stroke-width="6" stroke-linecap="round"/>
+  <line x1="50.0" y1="437.3333333333333" x2="90.0" y2="437.3333333333333" stroke="#b08a2e" stroke-width="6" stroke-dasharray="5 4"/>
+  <line x1="490.0" y1="437.3333333333333" x2="530.0" y2="437.3333333333333" stroke="#b08a2e" stroke-width="6" stroke-dasharray="5 4"/>
+  <text x="446.0" y="310.0" font-size="11" fill="#3b2f1a">frankincense on each</text>
+  <text x="446.0" y="340.0" font-size="11" fill="#7a6d57" font-style="italic">twelve loaves: stacks are</text>
+  <text x="446.0" y="354.0" font-size="11" fill="#7a6d57" font-style="italic">the Mishnah’s reading</text>
+  <text x="446.0" y="378.0" font-size="11" fill="#3b2f1a">gold molding</text>
+  <text x="446.0" y="410.0" font-size="11" fill="#7a6d57" font-style="italic">rim, a handbreadth: place not given</text>
+  <text x="446.0" y="461.3333333333333" font-size="11" fill="#3b2f1a">ring at a leg, pole through it</text>
+  <text x="50.0" y="461.3333333333333" font-size="10.5" fill="#7a6d57" font-style="italic">poles: length not given</text>
+  <line x1="80" y1="580" x2="500" y2="580" stroke="#5a4a2c" stroke-width="0.8"/>
+  <line x1="150.0" y1="602" x2="430.0" y2="602" stroke="#7a6d57" stroke-width="1"/><line x1="150.0" y1="597" x2="150.0" y2="607" stroke="#7a6d57" stroke-width="1"/><line x1="430.0" y1="597" x2="430.0" y2="607" stroke="#7a6d57" stroke-width="1"/><text x="290.0" y="622" font-size="11.5" fill="#3b2f1a" text-anchor="middle">2 cubits</text>
+  <line x1="110.0" y1="370.0" x2="110.0" y2="580" stroke="#7a6d57" stroke-width="1"/><line x1="105.0" y1="370.0" x2="115.0" y2="370.0" stroke="#7a6d57" stroke-width="1"/><line x1="105.0" y1="580" x2="115.0" y2="580" stroke="#7a6d57" stroke-width="1"/><text x="98.0" y="479.0" font-size="11.5" fill="#3b2f1a" text-anchor="end">1½ cubits</text>
+  <line x1="80" y1="650" x2="220" y2="650" stroke="#3b2f1a" stroke-width="2"/><line x1="80" y1="645" x2="80" y2="655" stroke="#3b2f1a"/><line x1="220" y1="645" x2="220" y2="655" stroke="#3b2f1a"/><text x="150.0" y="668" text-anchor="middle" font-size="11.5" fill="#3b2f1a">1 cubit (about 45 cm)</text><text x="238" y="646.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Drawn to scale from Exodus 25:23. The loaves’</text><text x="238" y="660.9" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">arrangement, the rim’s place and the poles are</text><text x="238" y="675.7" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">dashed.</text>
+  <text x="626" y="140" font-family="Georgia, serif" font-size="19" fill="#3b2f1a">What the text gives</text>
+  <circle cx="632" cy="166" r="5" fill="#b08a2e"/><text x="646" y="170" font-size="11.5" fill="#3b2f1a">stated: drawn solid</text>
+  <circle cx="632" cy="186" r="5" fill="#faf5e8" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/><text x="646" y="190" font-size="11.5" fill="#7a6d57">not stated: dashed, or a tradition named</text>
+  <line x1="626" y1="206" x2="920" y2="206" stroke="#5a4a2c" stroke-width="0.6"/>
+  <text x="626" y="236" font-size="12" fill="#3b2f1a" font-weight="bold">Exodus 25:23-30; 37:10-16; Leviticus 24:5-9</text>
+  <circle cx="632" cy="258" r="5" fill="#b08a2e"/>
+  <text x="646" y="262.0" font-size="13" fill="#3b2f1a" text-anchor="start">Acacia wood, 2 × 1 × 1½ cubits</text>
+  <text x="646" y="279.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:23</text>
+  <circle cx="632" cy="302" r="5" fill="#b08a2e"/>
+  <text x="646" y="306.0" font-size="13" fill="#3b2f1a" text-anchor="start">Overlaid with pure gold, with a gold</text><text x="646" y="323.6" font-size="13" fill="#3b2f1a" text-anchor="start">molding around</text>
+  <text x="646" y="340.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:24</text>
+  <circle cx="632" cy="363" r="5" fill="#b08a2e"/>
+  <text x="646" y="367.0" font-size="13" fill="#3b2f1a" text-anchor="start">A rim a handbreadth wide, with its</text><text x="646" y="384.6" font-size="13" fill="#3b2f1a" text-anchor="start">own gold molding</text>
+  <text x="646" y="401.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:25</text>
+  <circle cx="632" cy="424" r="5" fill="#b08a2e"/>
+  <text x="646" y="428.0" font-size="13" fill="#3b2f1a" text-anchor="start">Four gold rings at the four corners,</text><text x="646" y="445.6" font-size="13" fill="#3b2f1a" text-anchor="start">at its four legs, close to the rim</text>
+  <text x="646" y="462.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:26-27</text>
+  <circle cx="632" cy="485" r="5" fill="#b08a2e"/>
+  <text x="646" y="489.0" font-size="13" fill="#3b2f1a" text-anchor="start">Poles of gold-covered acacia to</text><text x="646" y="506.6" font-size="13" fill="#3b2f1a" text-anchor="start">carry it</text>
+  <text x="646" y="523.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:28</text>
+  <circle cx="632" cy="546" r="5" fill="#b08a2e"/>
+  <text x="646" y="550.0" font-size="13" fill="#3b2f1a" text-anchor="start">Plates, dishes, flagons and bowls of</text><text x="646" y="567.5" font-size="13" fill="#3b2f1a" text-anchor="start">pure gold</text>
+  <text x="646" y="584.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus 25:29; 37:16</text>
+  <circle cx="632" cy="607" r="5" fill="#b08a2e"/>
+  <text x="646" y="611.0" font-size="13" fill="#3b2f1a" text-anchor="start">Twelve loaves, in two sets of six</text>
+  <text x="646" y="628.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Leviticus 24:5-6</text>
+  <circle cx="632" cy="651" r="5" fill="#b08a2e"/>
+  <text x="646" y="655.0" font-size="13" fill="#3b2f1a" text-anchor="start">Frankincense on each arrangement</text>
+  <text x="646" y="672.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Leviticus 24:7</text>
+  <circle cx="632" cy="695" r="5" fill="#faf5e8" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <text x="646" y="699.0" font-size="13" fill="#7a6d57" text-anchor="start">Rows or stacks</text>
+  <text x="646" y="716.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">the Hebrew allows both; stacks: Mishnah</text><text x="646" y="730.9" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Menachot 11:5-6</text>
+  <circle cx="632" cy="754" r="5" fill="#faf5e8" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <text x="646" y="758.0" font-size="13" fill="#7a6d57" text-anchor="start">Whether the rim stood above the top</text><text x="646" y="775.5" font-size="13" fill="#7a6d57" text-anchor="start">or joined the legs below it</text>
+  <text x="646" y="792.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">not given; drawn below, dashed</text>
+  <circle cx="632" cy="815" r="5" fill="#faf5e8" stroke="#7a6d57" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <text x="646" y="819.0" font-size="13" fill="#7a6d57" text-anchor="start">Length of the poles, shape of the</text><text x="646" y="836.5" font-size="13" fill="#7a6d57" text-anchor="start">vessels</text>
+  <text x="646" y="853.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">not given</text>
+
+  <line x1="40" y1="890" x2="920" y2="890" stroke="#5a4a2c" stroke-width="0.6"/>
+  
+  <text x="60" y="936" font-family="Georgia, serif" font-size="19" fill="#3b2f1a">Two rows, or two stacks</text>
+  <text x="60" y="958.0" font-size="11.5" fill="#7a6d57" text-anchor="start">Leviticus 24:6: “two מַעֲרָכוֹת, six in each.” The word means an</text><text x="60" y="973.5" font-size="11.5" fill="#7a6d57" text-anchor="start">arrangement set in order: ESV “piles,” WEB “rows.”</text>
+  <rect x="70" y="1006" width="270" height="86" fill="url(#gold)" stroke="#9a7424" opacity="0.55"/>
+  <rect x="83.0" y="1019.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/><rect x="123.0" y="1019.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/><rect x="163.0" y="1019.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/><rect x="203.0" y="1019.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/><rect x="243.0" y="1019.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/><rect x="283.0" y="1019.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/><rect x="83.0" y="1053.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/><rect x="123.0" y="1053.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/><rect x="163.0" y="1053.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/><rect x="203.0" y="1053.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/><rect x="243.0" y="1053.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/><rect x="283.0" y="1053.0" width="34" height="22" rx="11.0" fill="#e9cf98" stroke="#a9824a" stroke-width="1"/>
+  <text x="205" y="1116" font-size="11.5" fill="#3b2f1a" text-anchor="middle">rows, seen from above</text>
+  <rect x="410" y="1088" width="250" height="8" fill="url(#gold)" stroke="#9a7424"/>
+  <rect x="430.0" y="1075.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="430.0" y="1063.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="430.0" y="1051.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="430.0" y="1039.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="430.0" y="1027.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="430.0" y="1015.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="540.0" y="1075.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="540.0" y="1063.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="540.0" y="1051.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="540.0" y="1039.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="540.0" y="1027.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/><rect x="540.0" y="1015.0" width="80" height="10" rx="5.0" fill="#e9cf98" stroke="#7a6d57" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="535" y="1116" font-size="11.5" fill="#7a6d57" text-anchor="middle" font-style="italic">stacks, seen from the side</text>
+  <text x="60" y="1144.0" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">The Mishnah (Menachot 11:5-6) has two stacks held apart by gold</text><text x="60" y="1158.8" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">supports and hollow reeds, each loaf ten handbreadths long with</text><text x="60" y="1173.7" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">its ends turned up. That is the tradition of the Second Temple;</text><text x="60" y="1188.5" font-size="11" fill="#7a6d57" text-anchor="start" font-style="italic">Exodus and Leviticus say only “six in each.”</text>
+  
+  <text x="680" y="936" font-family="Georgia, serif" font-size="19" fill="#3b2f1a">The week of the bread</text>
+  <line x1="700" y1="1040" x2="700" y2="1226" stroke="#b08a2e" stroke-width="2"/>
+  <path d="M686 1226 C640 1164 640 1102 686 1040" fill="none" stroke="#e0a526" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+  <circle cx="700" cy="1040" r="7" fill="#b08a2e"/><text x="716" y="1038" font-size="12" fill="#3b2f1a" font-weight="bold">Sabbath</text><text x="716" y="1053" font-size="11.5" fill="#3b2f1a">set out before the LORD</text><text x="716" y="1067" font-size="10.5" fill="#7a6d57" font-style="italic">Leviticus 24:8</text><circle cx="700" cy="1102" r="7" fill="#b08a2e"/><text x="716" y="1100" font-size="12" fill="#3b2f1a" font-weight="bold">all week</text><text x="716" y="1115" font-size="11.5" fill="#3b2f1a">before His face, with frankincense</text><text x="716" y="1129" font-size="10.5" fill="#7a6d57" font-style="italic">Leviticus 24:7</text><circle cx="700" cy="1164" r="7" fill="#b08a2e"/><text x="716" y="1162" font-size="12" fill="#3b2f1a" font-weight="bold">next Sabbath</text><text x="716" y="1177" font-size="11.5" fill="#3b2f1a">eaten by the priests in a holy place</text><text x="716" y="1191" font-size="10.5" fill="#7a6d57" font-style="italic">Leviticus 24:9</text><circle cx="700" cy="1226" r="7" fill="#b08a2e"/><text x="716" y="1224" font-size="12" fill="#3b2f1a" font-weight="bold">same day</text><text x="716" y="1239" font-size="11.5" fill="#3b2f1a">hot bread put in its place</text><text x="716" y="1253" font-size="10.5" fill="#7a6d57" font-style="italic">1 Samuel 21:6</text>
+
+  <line x1="40" y1="1308" x2="920" y2="1308" stroke="#5a4a2c" stroke-width="0.6"/>
+  <text x="480.0" y="1340" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#3b2f1a">Where the table stands in Scripture</text>
+  <text x="480.0" y="1358" text-anchor="middle" font-size="11" fill="#7a6d57" font-style="italic">Dashed: seen in a vision (Ezekiel), or promised and still to come (Luke 22:30).</text>
+  <rect x="86.66666666666666" y="1398" width="40" height="5" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="90.66666666666666" y1="1403" x2="90.66666666666666" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="122.66666666666666" y1="1403" x2="122.66666666666666" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><ellipse cx="98.66666666666666" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/><ellipse cx="114.66666666666666" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/>
+  <text x="106.66666666666666" y="1476.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">On the north</text><text x="106.66666666666666" y="1492.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">side</text>
+  <text x="106.66666666666666" y="1510.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Exodus 40:22-23</text>
+  <rect x="180.0" y="1398" width="40" height="5" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="184.0" y1="1403" x2="184.0" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="216.0" y1="1403" x2="216.0" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><ellipse cx="192.0" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/><ellipse cx="208.0" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/>
+  <text x="200.0" y="1476.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Carried under</text><text x="200.0" y="1492.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">blue</text>
+  <text x="200.0" y="1510.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Numbers 4:7</text>
+  <text x="153.33333333333334" y="1408" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="273.3333333333333" y="1398" width="40" height="5" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="277.3333333333333" y1="1403" x2="277.3333333333333" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="309.3333333333333" y1="1403" x2="309.3333333333333" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><ellipse cx="285.3333333333333" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/><ellipse cx="301.3333333333333" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/>
+  <text x="293.3333333333333" y="1476.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">David given the</text><text x="293.3333333333333" y="1492.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">bread</text>
+  <text x="293.3333333333333" y="1510.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">1 Samuel 21:6</text>
+  <text x="246.66666666666666" y="1408" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="366.66666666666663" y="1398" width="40" height="5" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="370.66666666666663" y1="1403" x2="370.66666666666663" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="402.66666666666663" y1="1403" x2="402.66666666666663" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><ellipse cx="378.66666666666663" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/><ellipse cx="394.66666666666663" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/>
+  <text x="386.66666666666663" y="1476.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Solomon: ten</text><text x="386.66666666666663" y="1492.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">tables</text>
+  <text x="386.66666666666663" y="1510.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">2 Chronicles 4:8,</text><text x="386.66666666666663" y="1524.2" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">19</text>
+  <text x="339.99999999999994" y="1408" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="460.0" y="1398" width="40" height="5" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="464.0" y1="1403" x2="464.0" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="496.0" y1="1403" x2="496.0" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><ellipse cx="472.0" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/><ellipse cx="488.0" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/>
+  <text x="480.0" y="1476.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">“The LORD’s</text><text x="480.0" y="1492.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">table” despised</text>
+  <text x="480.0" y="1510.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Malachi 1:7, 12</text>
+  <text x="433.3333333333333" y="1408" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="553.3333333333333" y="1398" width="40" height="5" fill="none" stroke="#b08a2e" stroke-width="2.2" stroke-dasharray="5 4"/><line x1="557.3333333333333" y1="1403" x2="557.3333333333333" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2" stroke-dasharray="5 4"/><line x1="589.3333333333333" y1="1403" x2="589.3333333333333" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2" stroke-dasharray="5 4"/><ellipse cx="565.3333333333333" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/><ellipse cx="581.3333333333333" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/>
+  <text x="573.3333333333333" y="1476.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">“The table</text><text x="573.3333333333333" y="1492.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">before the</text><text x="573.3333333333333" y="1509.8" font-size="12.5" fill="#3b2f1a" text-anchor="middle">LORD”</text>
+  <text x="573.3333333333333" y="1527.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Ezekiel 41:22</text>
+  <text x="526.6666666666666" y="1408" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="646.6666666666666" y="1398" width="40" height="5" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="650.6666666666666" y1="1403" x2="650.6666666666666" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="682.6666666666666" y1="1403" x2="682.6666666666666" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><ellipse cx="658.6666666666666" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/><ellipse cx="674.6666666666666" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/>
+  <text x="666.6666666666666" y="1476.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">Jesus: “what</text><text x="666.6666666666666" y="1492.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">David did”</text>
+  <text x="666.6666666666666" y="1510.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Matthew 12:3-4</text>
+  <text x="620.0" y="1408" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="740.0" y="1398" width="40" height="5" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="744.0" y1="1403" x2="744.0" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><line x1="776.0" y1="1403" x2="776.0" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2"/><ellipse cx="752.0" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/><ellipse cx="768.0" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/>
+  <text x="760.0" y="1476.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">“The table of</text><text x="760.0" y="1492.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">the Lord”</text>
+  <text x="760.0" y="1510.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">1 Corinthians 10:21</text>
+  <text x="713.3333333333334" y="1408" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+  <rect x="833.3333333333333" y="1398" width="40" height="5" fill="none" stroke="#b08a2e" stroke-width="2.2" stroke-dasharray="5 4"/><line x1="837.3333333333333" y1="1403" x2="837.3333333333333" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2" stroke-dasharray="5 4"/><line x1="869.3333333333333" y1="1403" x2="869.3333333333333" y2="1424" fill="none" stroke="#b08a2e" stroke-width="2.2" stroke-dasharray="5 4"/><ellipse cx="845.3333333333333" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/><ellipse cx="861.3333333333333" cy="1394" rx="7" ry="3.5" fill="#e9cf98" stroke="#a9824a"/>
+  <text x="853.3333333333333" y="1476.0" font-size="12.5" fill="#3b2f1a" text-anchor="middle">“My table in my</text><text x="853.3333333333333" y="1492.9" font-size="12.5" fill="#3b2f1a" text-anchor="middle">kingdom”</text>
+  <text x="853.3333333333333" y="1510.0" font-size="10.5" fill="#7a6d57" text-anchor="middle" font-style="italic">Luke 22:30</text>
+  <text x="806.6666666666666" y="1408" font-size="16" fill="#7a6d57" text-anchor="middle">›</text>
+</svg>
