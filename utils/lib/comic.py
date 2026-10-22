@@ -991,6 +991,35 @@ def prop_jar(x, y, s):
             '<rect x="-4" y="-19" width="8" height="3" fill="#8d7650"/></g>')
 
 
+def prop_lampstand(x, y, s):
+    """A household lampstand, λυχνία (Matthew 5:15): a turned wooden stand with a small clay oil lamp
+    burning on top, about 75 units tall so the flame sits near a standing figure's shoulder. Its light
+    is drawn as a soft halo because the lamp "gives light to all in the house"."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            f'<circle cx="2" cy="-84" r="34" fill="{GLOW}" opacity="0.45"/>'
+            '<path d="M-12 0 H12 L6 -5 H-6 Z" fill="#8a6440" stroke="#5a3d22" stroke-width="0.9"/>'
+            '<path d="M-2 -5 V-70 H2 V-5 Z" fill="#9a7048" stroke="#5a3d22" stroke-width="0.8"/>'
+            '<ellipse cx="0" cy="-40" rx="4" ry="2" fill="#8a6440" stroke="#5a3d22" stroke-width="0.7"/>'
+            '<path d="M-9 -70 H9 L7 -73 H-7 Z" fill="#8a6440" stroke="#5a3d22" stroke-width="0.8"/>'
+            '<path d="M-8 -74 Q0 -66 10 -74 Z" fill="#b5835a" stroke="#6b4a2a" stroke-width="0.8"/>'
+            f'<path d="M9 -75 q2 -8 -1 -12 q-1 6 -3 8 z" fill="{GOLD}"/></g>')
+
+
+def prop_golden_lampstand(x, y, s):
+    """One of the "seven golden lampstands" (Revelation 1:12), λυχνία as in Matthew 5:15. John gives
+    seven stands and no shape for any of them, so each is drawn as a single gold stand with one
+    flame: the seven-branched menorah of Exodus 25 would put seven lamps on one stand, which is not
+    what he describes. About 80 units tall."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            f'<circle cx="1" cy="-88" r="22" fill="{GLOW}" opacity="0.5"/>'
+            f'<path d="M-13 0 H13 L6 -7 H-6 Z" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1"/>'
+            f'<path d="M-2 -7 V-74 H2 V-7 Z" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="0.8"/>'
+            f'<ellipse cx="0" cy="-30" rx="5" ry="2.4" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="0.7"/>'
+            f'<ellipse cx="0" cy="-54" rx="4" ry="2" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="0.7"/>'
+            f'<path d="M-9 -74 Q0 -82 9 -74 Q0 -70 -9 -74 Z" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="0.9"/>'
+            f'<path d="M1 -78 q3 -9 -1 -14 q-1 7 -3 9 z" fill="#e8742a"/></g>')
+
+
 def prop_cloud(x, y, s):
     """A cloud to be taken up in (Acts 1:9; Revelation 11:12); its flat base sits on y."""
     return "".join(larkin_cloud(x, y, 120 * s, fill="#fbf7ee", stroke="#c9c2b0"))
@@ -1279,7 +1308,7 @@ def prop_bed(x, y, s):
             f'<ellipse cx="-50" cy="-34" rx="14" ry="6" fill="#a03a2a" stroke="#5a1f15" stroke-width="0.8"/></g>')
 
 
-PROPS = {"vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
+PROPS = {"vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "lampstand": prop_lampstand, "golden_lampstand": prop_golden_lampstand, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne,
          "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall, "idol": prop_idol,

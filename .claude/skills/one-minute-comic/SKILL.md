@@ -255,7 +255,9 @@ clones:
 - `props` stand in the scene rather than in a hand: `crosses` (three, with no figures on them),
   `tomb` (open, the stone rolled back), `cloud`, `ruin` (a wall cracking and falling), `breath` (gold
   currents for the breath of life), `gift`, `fire` (a charcoal fire), `rooster`,
-  `vine` (a grapevine on a trellis, heavy with clusters, John 15:1-5), `kophinos` (a small wicker basket), `spyris` (a large hamper), `loaf`, `sheep`, `load` (a corded
+  `vine` (a grapevine on a trellis, heavy with clusters, John 15:1-5), `lampstand` (a household
+  stand with a clay lamp burning on it, Matthew 5:15), `golden_lampstand` (one of Revelation 1:12's
+  seven, a single gold stand with one flame; give `n = 7` with `x2` for the seven), `kophinos` (a small wicker basket), `spyris` (a large hamper), `loaf`, `sheep`, `load` (a corded
   bundle, set down), `yoke`, `statue` (Nebuchadnezzar's image, shared with the History Chart), `stone` (in flight), `chaff` (the image's metals blowing away, Daniel 2:35), `mountain`, `bed` (a figure lying on it takes `dy = -0.075`), `ark`, `tower`, `tablets`, `rainbow`, `well` (a stone parapet, Jacob's well), `shaft` and `spring` (for thought pictures), and `hull`, which runs from
   `x` to `x2` and takes `front = true` so it is drawn over the people standing in it. For judgment
   scenes: `bema` (a raised stone tribunal with steps; a figure on it takes `dy = -0.156 * s`),
