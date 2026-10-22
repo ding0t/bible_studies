@@ -302,11 +302,15 @@ question. Whom will you worship?
 
 ## Jesus receives it
 
+### In the Gospels
+
 Set the angel's "You must not do that!" beside the Gospels. Jesus never says it. The disciples in the
 boat "worshiped him, saying, 'Truly you are the Son of God'" (Matthew 14:33, ESV). The man born blind
 said, "'Lord, I believe,' and he worshiped him" (John 9:38, ESV). The women running from the empty tomb "took hold
 of his feet and worshiped him" (Matthew 28:9, ESV). Thomas said to Him, "My Lord and my God!" (John
 20:28, ESV). Jesus accepted every one.
+
+### Hebrews 1:6 and the Song of Moses
 
 Heaven does the same. Hebrews quotes the Song of Moses: "when he brings the firstborn into the world, he
 says, 'Let all God's angels worship him'" (Hebrews 1:6, ESV). The line is the Septuagint of Deuteronomy
@@ -317,6 +321,8 @@ Deuteronomy (4Q44) has the Hebrew line, with "bow down" and "gods", and the ESV 
 "bow down to him, all gods" (Deuteronomy 32:43, ESV). It is the same Song in which Israel "sacrificed to demons that were no gods"
 (Deuteronomy 32:17, ESV). The Song that condemns worship given to the wrong beings ends by commanding
 heaven's beings to worship Him, and Hebrews says that "Him" is the Son.
+
+### Every knee
 
 So every knee bows to Jesus: "at the name of Jesus every knee should bow, in heaven and on earth and
 under the earth, and every tongue confess that Jesus Christ is Lord, to the glory of God the Father"
