@@ -1,7 +1,8 @@
 /* The subject wheel drawn by hooks/subject_wheel.py. */
-.subject-wheel-figure {
+.md-typeset .subject-wheel-figure {
   margin: 1.5rem auto 2rem;
-  /* mkdocs-material sizes figure to fit-content, which collapses a percentage-width SVG to 300px. */
+  /* .md-typeset figure sets width: fit-content, which collapses a percentage-width SVG to 300px;
+     the .md-typeset prefix is what outranks it. */
   width: 100%;
 }
 
