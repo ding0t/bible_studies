@@ -30,4 +30,5 @@ draft: false
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 2:2
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 2:14-16
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 2:10
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 2:1-5
 <!-- commentary-index:auto-end -->

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 8:5
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 8:5
 <!-- commentary-index:auto-end -->

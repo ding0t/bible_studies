@@ -18,4 +18,5 @@ draft: false
 - [Sin and Sorcery](../../sin/sorcery.md) — 8:9-24
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 8:32-35
 - [The Rapture of the Church](../../last-things/rapture.md) — 8:39
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 8:32-35
 <!-- commentary-index:auto-end -->

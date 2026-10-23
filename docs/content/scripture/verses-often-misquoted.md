@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 20:7; 1 Peter 3:15; Matthew 18:20; John 8:32; 1 Corinthians 15:44; Mark 8:34; Mark 9:29; Mark 5:15"
 bible_references: ["1 Peter 3:13-17", "Isaiah 8:13", "1 Peter 1:3", "1 Peter 4:4", "Matthew 18:15-20", "Deuteronomy 19:15", "1 Corinthians 5:4", "1 Corinthians 6:1", "Matthew 28:20", "Matthew 18:21-35", "John 8:31-36", "1 Corinthians 15:42-45", "Luke 24:39", "Romans 8:11", "Philippians 3:21", "Mark 9:14-29", "Matthew 17:20", "Isaiah 58:3-7", "Mark 5:1-20", "John 10:21", "2 Corinthians 12:7", "Matthew 26:67", "Colossians 1:13", "1 Corinthians 6:19", "1 John 4:4", "Matthew 23:4", "Matthew 6:16-18", "Daniel 10:12", "James 4:7", "1 Peter 5:9", "1 Corinthians 2:14-15", "Galatians 4:7", "Matthew 14:23", "Isaiah 8:12", "1 Peter 3:14", "Genesis 2:16-17", "Genesis 3:1-5", "Matthew 3:17", "Matthew 4:1-11", "Deuteronomy 8:3", "Deuteronomy 6:13", "Deuteronomy 6:16", "Psalm 91:1", "Psalm 91:11-12", "2 Peter 3:16", "Mark 8:31-35", "Luke 9:23-24", "Luke 14:27", "John 19:17", "Galatians 2:20", "Exodus 20:7", "Leviticus 19:12", "Numbers 6:27", "Deuteronomy 5:20", "Psalm 24:4", "Jeremiah 14:14", "Matthew 5:33-37", "James 2:7", "Romans 2:24", "Isaiah 52:5", "Ephesians 4:29"]
 date_created: 2026-10-01
-date_modified: 2026-10-02
+date_modified: 2026-10-23
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -472,6 +472,8 @@ indwelling of the Holy Spirit, the kingdom of the Son, spiritual warfare, resist
 
 - [How to Read the Bible](how-to-read-the-bible.md)
 - [Verses Quoted Well](verses-quoted-well.md)
+- [Why We Need Saving](../sin/why-we-need-saving.md) — the garden followed on to what the serpent's
+  lie cost, and the God who came looking
 - [Be Prepared](../christian-life/be-prepared.md)
 - [Know the Truth](../christian-life/know-the-truth.md)
 - [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md)

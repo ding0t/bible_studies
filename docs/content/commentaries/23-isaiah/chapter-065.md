@@ -16,4 +16,5 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 65:17
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 65:17-24
 - [Know the Truth](../../christian-life/know-the-truth.md) — 65:16
+- [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 65:11
 <!-- commentary-index:auto-end -->

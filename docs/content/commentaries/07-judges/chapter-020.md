@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Fasting](../../christian-life/fasting.md) — 20:26-28
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 20:16
 <!-- commentary-index:auto-end -->

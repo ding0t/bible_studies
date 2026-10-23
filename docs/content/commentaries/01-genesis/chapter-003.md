@@ -24,4 +24,5 @@ draft: false
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 3:17
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 3:7-10
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 3:1-5
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 3:1-24
 <!-- commentary-index:auto-end -->

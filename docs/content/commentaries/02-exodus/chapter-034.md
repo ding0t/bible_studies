@@ -21,4 +21,5 @@ draft: false
 - [The Names of God](../../god/names-of-god.md) — 34:5-7
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 34:6-7
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 34:22
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 34:6-7
 <!-- commentary-index:auto-end -->

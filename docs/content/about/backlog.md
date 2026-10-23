@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-22
+date_modified: 2026-10-23
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -60,7 +60,6 @@ Add new items here. They get a number and move into their section.
 | [8.2](#82-chronology-follow-ups) | Chronology follow-ups | Sources & tooling |
 | [9.1](#91-calling-good-evil-and-evil-good) | Calling good evil and evil good | Sin |
 | [9.2](#92-sexual-immorality) | Sexual immorality | Sin |
-| [9.3](#93-why-we-need-saving) | Why we need saving | Sin |
 | [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
 | [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
 
@@ -766,7 +765,7 @@ from the notes above: the thief on the cross, Moses and Elijah at the Transfigur
 
 ### 4.4 Grace
 
-The coming week two of [Saved](../series/saved.md), after Why We Need Saving (9.3). God's favour
+The coming week two of [Saved](../series/saved.md), after [Why We Need Saving](../sin/why-we-need-saving.md). God's favour
 given to those who have earned the opposite.
 
 - χάρις (*charis*, G5485) and חֵן (*chen*, H2580), with the LORD "gracious" in Exodus 34:6, which
@@ -1017,15 +1016,6 @@ The current study is very light.
 - the impact on the individual: sin against one's own body
 - defiling the image of the bride of Christ?
 
-### 9.3 Why we need saving
-
-Week one of [Saved](../series/saved.md): what sin is, before the section's studies of its particular
-forms ([Idolatry](../sin/idolatry.md), [Pride](../sin/pride.md)).
-
-- חָטָא (*chata'*, H2398) and ἁμαρτία (*hamartia*, G266), and the other words for sin.
-- Genesis 3; Isaiah 59:2; Romans 3:9-23; 5:12; 6:23; Ephesians 2:1-3.
-- End on Romans 5:8, so the study arrives at the gospel the series goes on to teach.
-
 ## 10. Christian life
 
 ### 10.3 Religion and the Way
@@ -1143,6 +1133,7 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 6.3 | The Lord's Supper | [The Lord's Supper: Do This in Remembrance of Me](../feasts/lords-supper.md), with two graphics; the [four-cups study](../feasts/last-supper-four-cups.md) now points its general communion material there, 2026-10-02 |
 | new | Edits to Verses Often Misquoted | [Verses Often Misquoted](../scripture/verses-often-misquoted.md) opens on common church sayings, adds "Did God actually say?" (the garden, the wilderness, the church), "Take up your cross" and a link to How to Read the Bible, 2026-10-02 |
 | 5.5 | The age to come | The age to come in [A New Heaven and a New Earth](../last-things/new-heaven-and-new-earth.md#the-age-to-come); the line between the ages in [The End of the Age](../last-things/end-of-the-age.md) (Matthew's συντέλεια, opened at the cross and closed at the return), with cross-links and a scope line on each, and the Zadok calendar's 49- or 50-year jubilee question, 2026-10-03 |
+| 9.3 | Why we need saving | [Why We Need Saving](../sin/why-we-need-saving.md), week one of [Saved](../series/saved.md): God's commands are for our good, sin calls His good evil, the Hebrew and Greek words for sin, Romans 3 and 5 (the "all sinned" question marked contested, with Jewish writers on both sides), ending on Romans 5:8; with a one-minute comic, 2026-10-23 |
 | 10.7 | Forgiveness | [Forgive Us Our Debts](../christian-life/forgiveness.md), on Matthew 6:14-15: God's forgiveness paid and offered to all and received by those who repent, releasing a debt to God (Mark 11:25) and forgiving the one who repents (Luke 17:3-4), the offender who keeps on, Matthew 6:15 used as a weapon, and what forgiveness is not, 2026-10-04 |
 | 5.9 | The tribulation period | [The Tribulation: Daniel's Seventieth Week, Year by Year](../last-things/tribulation.md): what the week is for, the seals, trumpets and bowls in order, the midpoint, and where the church, Israel and the tribulation saints are, with four charts, 2026-10-03 |
 | 10.8 | Fasting: a rewrite | [Fasting](../christian-life/fasting.md) rewritten so "When to fast" no longer reads as deliverance ministry (2 Corinthians 10:4's strongholds are arguments), then reviewed, 2026-10-01 |

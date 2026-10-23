@@ -14,4 +14,5 @@ draft: false
 
 - [Faith](../../salvation/faith.md) — 4:16-21
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 4:4-5
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 4:6-8
 <!-- commentary-index:auto-end -->

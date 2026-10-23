@@ -14,4 +14,5 @@ draft: false
 
 - [Biblical Numerology](../../scripture/numerology.md) — 3:1-66
 - [Faith](../../salvation/faith.md) — 3:22-23
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 3:9
 <!-- commentary-index:auto-end -->

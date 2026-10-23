@@ -17,4 +17,5 @@ draft: false
 - [Submission in Context](../../christian-life/submission-in-context.md) — 3:8
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 3:36-38
 - [The Way](../../jesus/the-way.md) — 3:4-6
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 3:14
 <!-- commentary-index:auto-end -->

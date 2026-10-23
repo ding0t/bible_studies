@@ -1,0 +1,109 @@
+# One-minute comic for docs/content/sin/why-we-need-saving.md.
+# Drawn by: python3 utils/build_comics.py why-we-need-saving
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-23.
+#
+# The study in five beats: God gives every tree and one command, for the man's life (Genesis 2:9,
+# 16-17); the serpent contradicts God, and the forbidden tree looks "good for food" (Genesis 3:4-6),
+# the words Genesis 2:9 used of the trees God gave (טוֹב and נֶחְמָד, checked with bible_interlinear);
+# God calls "Where are you?" and the man answers from hiding (Genesis 3:8-10); every one of us has
+# gone astray like sheep to his own way (Isaiah 53:6); and while we were still sinners, Christ died
+# for us (Romans 5:8).
+# No person is drawn in the garden. Adam and Eve are reserved figures drawn only in the garments of
+# skins (Genesis 3:21), and these panels come before 3:21: the man's words come from the thicket he
+# hid in (3:8), and the woman is named in the caption. God gives no form in Genesis 2-3, so He is a
+# voice. Genesis gives the serpent no shape before the curse (3:14) and names no fruit; both are drawn
+# plainly and the note says so. The forbidden tree is drawn as the same tree as the others because to
+# the woman it looked like them (3:6). The evening light is "the cool of the day" (3:8). The crosses
+# have no figures on them, by the site's rule, under the darkness of Luke 23:44.
+
+title = "Why We Need Saving"
+subtitle = "Sin and the God who came looking, in one minute"
+layout = [[300, 1], [300, 1, 1], [300, 1, 1]]
+note = "No one is drawn in the garden: God gives no form there, and Adam and Eve are drawn only once He has clothed them (Genesis 3:21). Genesis names no fruit and gives the serpent no shape before the curse."
+point = "God's commands are for your good, and sin calls His good evil. Every one of us went our own way, but God came looking: while you were still a sinner, His Son Jesus died for you (Romans 5:8)."
+
+[[panel]]
+ref = "Genesis 2:9, 16-17"
+scene = "eden"
+sky = "day"
+caption = "Eden. Every tree is good for food, and God gives the man one command."
+caption_w = 240
+shows = "the garden in Eden with fruit trees, a river, and one tree in the middle; God's voice speaks from above"
+props = [
+  { what = "fruit_tree", x = 0.08, s = 0.9 },
+  { what = "fruit_tree", x = 0.30, s = 0.8 },
+  { what = "fruit_tree", x = 0.50, s = 1.15 },
+  { what = "fruit_tree", x = 0.88, s = 0.95 },
+]
+say = [
+  { by = "lord", name = "the LORD God", from = [0.46, -0.1], style = "voice", text = "You may surely eat of *every tree* of the garden,", source = "esv", at = [0.26, 0.40], w = 170 },
+  { by = "lord", name = "the LORD God", from = [0.56, -0.1], style = "voice", text = "for in the day that you eat of it you shall *surely die*.", source = "esv", at = [0.76, 0.30], w = 180 },
+]
+
+[[panel]]
+ref = "Genesis 3:4-6"
+scene = "eden"
+sky = "day"
+caption = "The serpent speaks to the woman."
+caption_w = 220
+shows = "the tree in the middle of the garden, heavy with fruit, and the serpent at its foot with its head raised"
+props = [
+  { what = "fruit_tree", x = 0.34, s = 1.15 },
+  { what = "serpent", x = 0.56, s = 1.4 },
+]
+say = [
+  { by = "serpent", name = "the serpent", from = [0.68, 0.64], style = "whisper", text = "You will not surely die. You will be *like God*.", source = "condensed", at = [0.80, 0.19], w = 130 },
+  { by = "genesis", name = "Genesis", from = [1.05, 1.0], style = "text", text = "the woman saw that the tree was *good* for food", source = "esv", at = [0.24, 0.30], w = 130 },
+]
+
+[[panel]]
+ref = "Genesis 3:8-10"
+scene = "eden"
+sky = "dusk"
+grade = "dark"
+caption = "The cool of the day."
+caption_w = 170
+shows = "the garden at evening, dark, with light falling on a thicket where the man and his wife are hiding; God's voice calls from above and the man answers from the thicket"
+spotlight = { at = [0.58, 0.78], r = 0.7 }
+props = [
+  { what = "fruit_tree", x = 0.16, s = 1.0 },
+  { what = "fruit_tree", x = 0.86, s = 0.9 },
+  { what = "thicket", x = 0.58, s = 1.15 },
+]
+say = [
+  { by = "lord", name = "the LORD God", from = [0.62, -0.1], style = "voice", text = "*Where are you?*", source = "esv", at = [0.26, 0.46], w = 120 },
+  { by = "man", name = "the man", from = [0.58, 0.74], text = "I was afraid, because I was naked, and *I hid myself*.", source = "esv", at = [0.72, 0.36], w = 150 },
+]
+
+[[panel]]
+ref = "Isaiah 53:6"
+scene = "hills"
+sky = "dusk"
+caption = "And every one of us since."
+caption_w = 200
+shows = "six sheep scattered over open hills, near and far, each walking off in a different direction"
+props = [
+  { what = "sheep", x = 0.06, s = 1.0, face = "left", y = 0.95 },
+  { what = "sheep", x = 0.26, s = 0.7, y = 0.78 },
+  { what = "sheep", x = 0.42, s = 1.1, face = "left", y = 0.97 },
+  { what = "sheep", x = 0.60, s = 0.6, y = 0.74 },
+  { what = "sheep", x = 0.80, s = 0.8, face = "left", y = 0.82 },
+  { what = "sheep", x = 0.97, s = 1.0, y = 0.80 },
+]
+say = [
+  { by = "isaiah", name = "Isaiah", from = [1.05, 1.0], style = "text", text = "All we like sheep have gone astray; we have turned—every one—to *his own way*;", source = "esv", at = [0.56, 0.24], w = 220 },
+]
+
+[[panel]]
+ref = "Romans 5:8"
+scene = "hills"
+sky = "storm"
+caption = "But God came looking."
+caption_w = 170
+shows = "three crosses on a rise under a dark sky, with no figures on them"
+props = [
+  { what = "crosses", x = 0.77, s = 1.0 },
+]
+say = [
+  { by = "paul", name = "Paul", from = [1.05, 1.0], style = "text", text = "but God shows his love for us in that while we were still sinners, *Christ died for us*.", source = "esv", at = [0.29, 0.30], w = 170 },
+]

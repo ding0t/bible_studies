@@ -14,5 +14,6 @@ draft: false
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 1:1
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 1:11
+- [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 1:7
 - [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 1:7
 <!-- commentary-index:auto-end -->

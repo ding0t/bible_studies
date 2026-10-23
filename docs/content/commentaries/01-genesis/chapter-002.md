@@ -19,6 +19,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 2:2
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:2-3
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 2:18-24
+- [Pride](../../sin/pride.md) — 2:9
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 2:22-24
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 2:24
 - [Six Days of History](../../last-things/six-days-of-history.md) — 2:1-3
@@ -31,4 +32,5 @@ draft: false
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:7
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 2:19
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 2:24
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 2:9
 <!-- commentary-index:auto-end -->

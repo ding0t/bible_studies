@@ -20,4 +20,5 @@ draft: false
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 5:18
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 5:8
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 5:14
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 5:12-19
 <!-- commentary-index:auto-end -->

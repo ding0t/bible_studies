@@ -15,4 +15,5 @@ draft: false
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 59:20
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 59:20
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 59:20
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 59:1-2
 <!-- commentary-index:auto-end -->

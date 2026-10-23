@@ -18,6 +18,8 @@ draft: false
 - [Charting End Times](../../last-things/prophecy-chart.md) — 20:11
 - [Idolatry](../../sin/idolatry.md) — 20:3-6
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 20:19
+- [Pride](../../sin/pride.md) — 20:17
 - [Six Days of History](../../last-things/six-days-of-history.md) — 20:11
 - [True Worship](../../christian-life/true-worship.md) — 20:3-6
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 20:17
 <!-- commentary-index:auto-end -->

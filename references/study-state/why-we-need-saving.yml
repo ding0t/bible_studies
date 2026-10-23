@@ -1,0 +1,119 @@
+slug: "why-we-need-saving"
+title: "Why We Need Saving"
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/sin/why-we-need-saving.md"
+
+primary_passage: "Romans 3:9-23"
+supporting_passages: ["Genesis 3:1-24", "Isaiah 59:1-2", "Romans 5:12", "Romans 6:23", "Ephesians 2:1-3", "Romans 5:8"]
+sibling_studies:
+  - {slug: "sin/pride.md", role: cited, use: link, note: "Genesis 3:5 'like God' as the root of pride; link, don't re-argue. ENRICHED 2026-10-23 (author approved): Genesis 2:9 / 3:6 nechmad-tov paragraph added under What pride is. Back-link to this study still to add when it is published (Check 24)."}
+  - {slug: "sin/idolatry.md", role: none, use: link, note: "a particular form of sin; this study is the general case"}
+  - {slug: "scripture/verses-often-misquoted.md", role: cited, use: link, note: "Genesis 3:1-5, the serpent's misquotation. PENDING (author approved 2026-10-23): add a back-link from its Genesis 3 section in the same commit that flips this study to draft: false -- linking a draft now would ship a 404 (Check 24)."}
+  - {slug: "last-things/they-were-given-white-robes.md", role: cited, use: link, note: "Genesis 3:7-10, 21 covering"}
+  - {slug: "scripture/what-the-links-reveal.md", role: cited, use: link, note: "sources of the Romans 3:10-18 catena"}
+  - {slug: "christian-life/forgiveness.md", role: cited, use: link, note: "Romans 5:8-10 already quoted there"}
+  - {slug: "feasts/day-of-atonement.md", role: cited, use: none, note: "Romans 3:25 propitiation belongs to week five (Justified)"}
+  - {slug: "series/saved.md", role: primary, use: build-on, note: "this is week one; series order follows Ephesians 2:1-10"}
+genre: [topical, epistle, ot-narrative, prophets]
+
+thesis: "God is good and gave His commands for your good, but since Adam every one of us has turned to our own way, believing the lie that His good is evil; so sin separates you from God, enslaves you and earns you death, and God showed His love by sending His Son Jesus to die for you while you were still a sinner (Romans 5:8)."
+thesis_note: "Author (2026-10-23) added: sin is against the good God intends for us; His law and way are for our good (Deuteronomy 10:13); we stray like sheep to our own way (Isaiah 53:6); 'my way is better' is the same straying; calling evil good is the deceit of sin. Became the new section The good God gave and the garden section's Genesis 2:9 / 3:6 tov-nechmad finding."
+outline:
+  - {section: "Hook: 'Where are you?'", says: "The first question God asks after the first sin (Genesis 3:9); the sinner hides and God comes looking."}
+  - {section: "The good God gave", says: "Genesis 1:31; 2:9, 16-17; Deuteronomy 10:13; 6:24; 30:15-19; Isaiah 30:21; Psalm 119:68. God's commands come from His goodness and are for your life."}
+  - {section: "What happened in the garden", says: "Genesis 2:17; 3:1-13 shows sin before it is named: doubt God's word, deny His warning, want His place, take; then shame, hiding and blame. The first word for sin arrives at Genesis 4:7, crouching at the door."}
+  - {section: "Three words for one thing", says: "chata' misses the mark (Judges 20:16), avon bends what was straight and carries its guilt and penalty (Lamentations 3:9; Genesis 4:13), pesha rebels against a rightful king (2 Kings 8:20). Exodus 34:7, Psalm 32 and Psalm 51 use all three; Psalm 51:4 says whom sin is against. Greek: hamartia, paraptoma, parabasis, anomia (1 John 3:4)."}
+  - {section: "None is righteous", says: "Romans 3:9-20: Jew and Gentile alike 'under sin', a power; the catena from the Psalms and Isaiah 59; every mouth stopped. 3:23: sinned (aorist) and are falling short (present) of God's glory, the glory Romans 1:23 says was exchanged."}
+  - {section: "Through one man", says: "Romans 5:12-19 and Ephesians 2:3: sin entered through Adam and reached everyone. eph' ho contested (in Adam / personally), with textual reasons; 5:19 'made sinners' and 5:14 favour representation; statement of faith agrees."}
+  - {section: "What sin costs", says: "Separation (Isaiah 59:2), death toward God (Ephesians 2:1), slavery (Romans 6:16-17), wages paid out as death (Romans 6:23, opsonion), wrath (Ephesians 2:3). Law shows sin and cannot remove it (Romans 3:20); Isaiah 59:16 'no man'."}
+  - {section: "But God", says: "Isaiah 59:16, 20 (His own arm, a Redeemer); Genesis 3:15, 21; Ephesians 2:4-5; Romans 5:6-8. God's love meets sinners where they are: lands on Romans 5:8 and hands on to week two, Grace."}
+  - {section: "Discussion questions / Be Transformed / Prayer / References", says: "facet-labelled questions; Think/Attitude/Do; prayer naming Jesus."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Backlog 9.3. Week one of Saved. No existing study works the doctrine of sin in general; siblings treat forms (pride, idolatry) or single verses."
+  exegesis:
+    historical_context: {done: false, notes: ""}
+    literary_context: {done: false, notes: ""}
+    content_word_studies: {done: false, notes: "", terms: []}
+  hermeneutics:
+    cultural_vs_transcultural: {done: false, notes: ""}
+    theological_principle: {done: false, notes: ""}
+    application_draft: {done: false, notes: ""}
+  cross_reference:
+    done: false
+    cross_refs: []
+    translations_compared: []
+    divergences_noted: ""
+  drafting: {done: true, file: "docs/content/sin/why-we-need-saving.md"}
+  review: {done: true, validated: true}  # npm run validate clean 2026-10-23 bar provenance (filled at commit); 3,985 words
+
+open_questions:
+  - "Fork candidate: Romans 5:12 eph' ho and imputation in full (federal vs. realist vs. personal), with patristic reading (Augustine's in quo from the Latin). This study marks it contested and gives the textual case only."
+  - "Fork candidate: teshuqah 'desire' in Genesis 4:7 and 3:16, the same word; christian-life/submission-in-context.md treats 3:16."
+  - "Fork candidate: Adam's lost glory in Jewish tradition and Romans 3:23 (NKJV Cultural Backgrounds article 'Adam in Jewish Tradition'); this study states the Romans 1:23 / 8:30 link from the text only."
+research_findings:
+  - "Genesis 2:9 (nechmad H2530, tov H2896, 'good for food') and Genesis 3:6 (tov for food, nechmad to make wise): the forbidden tree described in the words of the given trees."
+  - "exapatao G1818 in both 2 Corinthians 11:3 (serpent, Eve) and Romans 7:11 (sin, Paul); apate G539 in Hebrews 3:13."
+  - "Isaiah 53:6: avon H5771 'iniquity of us all' laid on him; Isaiah 30:21 'This is the way, walk in it'."
+  - "Genesis 3 uses none of H2398/H2403/H5771/H6588. First chatta't Genesis 4:7; first avon Genesis 4:13 ('punishment'); first pesha Genesis 31:36 (macula-hebrew-wlc)."
+  - "H2398 chata' = 'miss': Judges 20:16 slingers 'would not miss' (yachati'), Proverbs 19:2 'misses his way'. TWOT 638."
+  - "H5771 avon, TWOT 1577a, root avah H5753 'bend': Lamentations 3:9 'made crooked', Psalm 38:7 (Heb) 'bent down', Isaiah 21:3. Avon covers guilt and its punishment (Genesis 4:13 ESV 'punishment')."
+  - "H6588 pesha, verb H6586: 2 Kings 8:20 Edom 'revolted'; 1 Kings 12:19 Israel 'in rebellion against the house of David'."
+  - "Exodus 34:7 has avon, pesha, chatta'ah together (interlinear)."
+  - "G266 hamartia: 172 in SBLGNT, 48 in Romans, first at Romans 3:9 (hyph' hamartian, 'under sin'), 42 of 48 in Romans 5-8. CSB footnote at 3:9: 'Under sin's power or dominion'."
+  - "Romans 3:23: hemarton aorist, hysterountai present (G5302, 16x NT). CSB footnote 'Or and lack the'."
+  - "Romans 5:12 eph' ho; 5:14 parabasis G3847 of Adam; 5:14 'not like the transgression of Adam' yet death reigned."
+  - "G3800 opsonion: 4x NT (Luke 3:14 soldiers' wages; 1 Corinthians 9:7 'serves as a soldier at his own expense'; 2 Corinthians 11:8; Romans 6:23)."
+  - "G3900 paraptoma in Ephesians: 1:7, 2:1, 2:5."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Romans 3:9-20 catena sources (confirmed what-the-links-reveal); 5:12 two readings of 'all sinned' (contributed the framing); Eph 2:3 'by nature' -> Psalm 51:5."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Romans 3:9 'sin in the singular' as a power (confirmed concordance finding); Eph 2:3 first-person plural includes Jewish believers."}
+  - {type: commentary, title: "NKJV / NIV Cultural Backgrounds Study Bible", author: "Zondervan (Keener)", note: "Romans 5:12: Jewish tradition held Adam introduced sin and death and all sinned, not usually inherited guilt; Romans 6:23 wages vs gift."}
+  - {type: commentary, title: "CSB Ancient Faith Study Bible", author: "Holman", note: "footnotes Romans 3:9 'under sin's power', 3:23 'lack', 5:12 'have sinned'."}
+  - {type: lexicon, title: "TWOT", author: "Harris, Archer, Waltke", note: "roots 638, 1577, 1846"}
+review_2026-10-23:
+  skill: review-bible-study
+  checked:
+    - "Phase 1: every ESV quotation re-queried from study-notes.db esv-study-bible; all verbatim, references and labels correct."
+    - "Phase 2/3: concordance re-run (macula-greek-sblgnt / macula-hebrew-wlc). Confirmed: G266 172 NT, 48 Romans, first at 3:9, 42 in Rom 5-8; G5302 16; G3800 4 (Luke 3:14, 1Cor 9:7, 2Cor 11:8, Rom 6:23); G1818 at 2Cor 11:3 and Rom 7:11; G3900 Eph 1:7, 2:1, 2:5; G3847 at Rom 5:14; H2398 'miss' Judg 20:16; H5753 Lam 3:9; H6586 2Kgs 8:20, 1Kgs 12:19; H2530 Gen 2:9 + 3:6; H914 Hiphil participle Isa 59:2; Exod 34:7 avon + pesha + chatta'ah (H2401). Genesis 3 has none of H2398/H2403/H5771/H5753/H6588; first H2403 Gen 4:7, H5771 Gen 4:13, H6588 Gen 31:36. TWOT 638, 1577, 1846 confirmed. CSB footnotes at Rom 3:9 ('Under sin's power or dominion'), 3:23 ('Or and lack the'), 5:12 ('Or have sinned') confirmed."
+    - "Phase 5: ESV and NIV BTSB notes on Gen 3:6 and NLT Life Application on Gen 3:6 confirm the tov/nechmad reading and 'sin made to look good'; ESV and NIV BTSB on Rom 5:12 confirm the two readings; NLT LASB on Rom 5:12 is silent between them."
+    - "Phase 6: review_gaps -- Psalm 14 (Rom 3:10-12 quotes it) covered via the 'from the Psalms' line and what-the-links-reveal link; Romans 4:7-8 quotes Psalm 32:1-2 (not mentioned, left as suggestion); 1 Cor 15:22 added to the representative case. No sibling contradicts the study (cross_study_claims Romans 3, Romans 5)."
+  fixed:
+    - "Synthetic claim: 'He comes back to it four more times in seven verses' and 'the paragraph's four \"one man\" statements' -- Rom 5:18 says 'one trespass', and 5:16, 5:17 add further 'one man' phrases, so 'four' was not a count of anything. Reworded to 'that one man and his one trespass through the next seven verses' / 'repeated \"one man\" and \"one trespass\"'."
+    - "Citation: the personal-sin reading's Jewish background was attributed to the NIV Cultural Backgrounds note on Rom 5:12, which says only that Adam introduced sin and death. The 'descendants then sinned as he did' claim is in the article 'Adam in Jewish Tradition'; citation and References entry now name the article, and 'Jewish writers of the time commonly' became 'Jewish tradition normally' (the article's word, and it includes later rabbis)."
+    - "Fairness of Rom 5:12: added to the personal side that the verse itself never says 'in Adam'; added 1 Cor 15:22 'in Adam all die' to the representative side."
+    - "Romans 5:19 tense: 'one Man's obedience makes the many righteous' -> 'will make' (ESV 'will be made')."
+    - "Romans 1:18 paraphrase ('against what destroys His creation and defies Him') replaced with the verse's own words."
+    - "'None of the four Hebrew words below' -> 'None of the Hebrew words below' (five are listed; none occurs in Genesis 3)."
+    - "'The Hebrew gives this tree the words God had used' -> 'the words used for the trees God gave' (Gen 2:9 is narration). 'Eve said so herself' -> 'Eve named it'."
+    - "Style rule 5: 'he insists the command was never the problem' -> 'he says the command itself is good'; 'The problem was never God's strength or His hearing' -> 'The LORD could save, and He could hear'; heading 'My way instead of His' -> 'Our own way'. 'His command protected Himself' -> 'served Him'."
+    - "Strong's numbers added: G264 (hemarton), G5449 (physei), G5485 (charis). bible_references gained Psalm 8:5, Romans 1:18, Romans 2:21-24, 1 Corinthians 15:22."
+    - "Cuts to hold the budget: 1 Cor 9:7 clause in the opsonion bullet, 'The New Testament has the same range.', 'Paul's comparison needs it.' Budget words 3,305 -> 3,299 (validator measure)."
+  left_for_author:
+    - "Romans 4:7-8 quotes Psalm 32:1-2 -- one clause would tie David's blessedness to Paul's next chapter; not added (budget)."
+    - "2 Baruch 54:15, 19 is the commonly cited primary source behind the Jewish-tradition claim (unverified here, from memory; check check_sources.py raw-only list); cite it in place of the study Bible if the text is reachable."
+    - "NIV BTSB on Gen 3:6: nechmad is the root of 'covet' (Exod 20:17) -- a possible enrichment, not added."
+    - "Context coverage: Romans' occasion (author, audience) is never stated; cultural-vs-transcultural is implicit. Judged acceptable for a topical study; author's call."
+    - "Human-review tells (essay register in Key Takeaways and prayer, writing around the theology) need the author's read; the agent's own pass found none it would change."
+read_2026-10-23:
+  skill: read-bible-study
+  reader: "fresh session, did not draft the study"
+  measurements: "sections 30 -> 31; median 102 -> 96 words; longest 278 (unchanged); over 400: 0 -> 0; walls 0 -> 0"
+  changed:
+    - "New ### Sin crouching at the door under What happened in the garden: split off the Genesis 4:7 paragraph from Hiding and blaming. It is the first naming of sin and the hinge into Three words for one thing; under 'Hiding and blaming' a reader could not find it."
+    - "### Dead, enslaved, paid -> ### Dead, enslaved, paid, under wrath: the section has four bullets and the heading named three."
+    - "Study outline: the What happened in the garden bullet now also names the hiding/exile and the first naming of sin at Cain's door (descriptive). All ## headings unchanged, so outline anchors unchanged."
+  verified: "File untracked, so --verify-against HEAD cannot run; diffed against a pre-pass copy instead. Only differences: one new heading, one renamed heading, one outline bullet. No sentence of prose changed."
+  left_for_author:
+    - "But God opens 'The same verse goes on:', which leans on Isaiah 59:16 at the end of the previous section. A reader arriving from the Study outline lands mid-thought. Fixing it needs a sentence change (naming Isaiah 59:16 in the opening line)."
+  validate: "only the three expected missing-provenance warnings for this file"
+last_updated: "2026-10-23"
+author_decisions_2026-10-23:
+  - "Applied: Romans 4:6-8 quotes Psalm 32:1-2 (bible_trace quotation-greek, corroborated) -- one sentence after the Psalm 32 quotation."
+  - "Applied: Romans 5:12 Jewish background now cites primary texts on both sides -- 2 Baruch 54:19 (trans. R. H. Charles, raw-only scrollmapper deuterocanonical source) and 2 Esdras 7:48 KJV numbering (4 Ezra). Replaces the Cultural Backgrounds article's 'normally held' claim in the body; article kept in References. No date claimed for either book."
+  - "Applied: nechmad < chamad H2530, Exodus 20:17; Joshua 7:21 saw / tov / chamad / laqach, same sequence as Genesis 3:6 (bible_interlinear verified). Also added to sin/pride.md under What pride is, at the author's request."
+published: "2026-10-23 -- draft flipped; Saved week one, Verses Often Misquoted and Pride back-links added in the same commit."

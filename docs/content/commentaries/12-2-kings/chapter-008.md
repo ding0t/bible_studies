@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 8:17
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 8:20
 <!-- commentary-index:auto-end -->

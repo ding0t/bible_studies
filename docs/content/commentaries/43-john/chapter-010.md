@@ -28,4 +28,5 @@ draft: false
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 10:34-36
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 10:21
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 10:34
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 10:10-11
 <!-- commentary-index:auto-end -->

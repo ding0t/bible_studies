@@ -34,4 +34,5 @@ draft: false
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 8:11
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 8:23
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 8:26-27
+- [Why We Need Saving](../../sin/why-we-need-saving.md) — 8:30
 <!-- commentary-index:auto-end -->

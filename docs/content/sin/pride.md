@@ -6,9 +6,9 @@ tags: ["proverbs", "daniel", "isaiah", "ezekiel", "james", "numbers", "galatians
 questions: ["What is pride, and why does God oppose it?"]
 draft: false
 primary_passage: "Proverbs 16:18"
-bible_references: ["Daniel 4:29-37", "Genesis 3:5", "Deuteronomy 8:11-17", "Isaiah 2:10-12", "Isaiah 14:11", "Proverbs 8:13", "Proverbs 6:16-17", "Proverbs 16:5", "Proverbs 29:23", "Proverbs 3:34", "Obadiah 1:3-4", "Mark 7:21-23", "2 Chronicles 26:16", "2 Chronicles 32:25-26", "1 Corinthians 4:7", "1 Corinthians 4:18", "1 Corinthians 8:1", "1 Timothy 3:6", "Luke 18:9-14", "James 4:6", "James 4:13-16", "1 John 2:16", "3 John 1:9", "Acts 12:21-23", "Acts 14:11-15", "Ezekiel 28:2", "2 Thessalonians 2:3-8", "1 John 3:2", "2 Chronicles 26:19-21", "Psalm 82:1-8", "John 10:33-36", "2 Peter 1:4", "Colossians 2:18", "Luke 1:51-52", "Revelation 18:7-8", "Isaiah 14:4-21", "Ezekiel 28:11-19", "Luke 10:15-18", "Revelation 12:9", "Jeremiah 9:23-24", "1 Corinthians 1:28-31", "Romans 3:24-27", "Galatians 6:14", "1 Peter 5:7", "Numbers 13:33", "Numbers 14:1-4", "Numbers 14:11", "Numbers 14:39-45", "Deuteronomy 1:41-43", "Habakkuk 2:4", "Galatians 3:3", "Galatians 5:4", "Philippians 3:4-9", "Romans 8:30", "Philippians 1:6", "Revelation 3:14-18", "Hosea 12:8"]
+bible_references: ["Daniel 4:29-37", "Genesis 3:5", "Genesis 2:9", "Genesis 3:6", "Exodus 20:17", "Joshua 7:21", "Deuteronomy 8:11-17", "Isaiah 2:10-12", "Isaiah 14:11", "Proverbs 8:13", "Proverbs 6:16-17", "Proverbs 16:5", "Proverbs 29:23", "Proverbs 3:34", "Obadiah 1:3-4", "Mark 7:21-23", "2 Chronicles 26:16", "2 Chronicles 32:25-26", "1 Corinthians 4:7", "1 Corinthians 4:18", "1 Corinthians 8:1", "1 Timothy 3:6", "Luke 18:9-14", "James 4:6", "James 4:13-16", "1 John 2:16", "3 John 1:9", "Acts 12:21-23", "Acts 14:11-15", "Ezekiel 28:2", "2 Thessalonians 2:3-8", "1 John 3:2", "2 Chronicles 26:19-21", "Psalm 82:1-8", "John 10:33-36", "2 Peter 1:4", "Colossians 2:18", "Luke 1:51-52", "Revelation 18:7-8", "Isaiah 14:4-21", "Ezekiel 28:11-19", "Luke 10:15-18", "Revelation 12:9", "Jeremiah 9:23-24", "1 Corinthians 1:28-31", "Romans 3:24-27", "Galatians 6:14", "1 Peter 5:7", "Numbers 13:33", "Numbers 14:1-4", "Numbers 14:11", "Numbers 14:39-45", "Deuteronomy 1:41-43", "Habakkuk 2:4", "Galatians 3:3", "Galatians 5:4", "Philippians 3:4-9", "Romans 8:30", "Philippians 1:6", "Revelation 3:14-18", "Hosea 12:8"]
 date_created: 2026-09-28
-date_modified: 2026-10-21
+date_modified: 2026-10-23
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -117,6 +117,15 @@ ESV). Pride forgets the Giver and credits the self.
 At its root, pride wants God's place. The serpent's offer to Eve was "you will be like God, knowing
 good and evil" (Genesis 3:5, ESV). Eve was already made in God's image. The temptation was to have
 God's place without God. Every later form of pride has that shape.
+
+Eve then judged the tree by her own eyes. Genesis 2:9 calls the trees God gave
+<span dir="rtl">נֶחְמָד</span> (*nechmad*, H2530, "pleasant") and <span dir="rtl">טוֹב</span>
+(*tov*, H2896, "good") for food. Genesis 3:6 gives the forbidden tree the same two words: she "saw
+that the tree was good for food" and "to be desired to make one wise" (ESV). *Nechmad* comes from
+<span dir="rtl">חָמַד</span> (*chamad*, H2530), the verb of "You shall not covet" (Exodus 20:17), and
+Achan's confession runs through the same steps: "when I saw among the spoil a beautiful cloak...
+then I coveted them and took them" (Joshua 7:21, ESV). Pride trusts its own verdict on what is good
+over God's word about it.
 
 ## What the words mean
 
@@ -475,3 +484,5 @@ Humility](../christian-life/humility.md).
   Himself.
 - [Sin and Idolatry](idolatry.md) — the heart that sets up something in God's place.
 - [Faith](../salvation/faith.md) — leaning your whole weight on God, and the people who did.
+- [Why We Need Saving](why-we-need-saving.md) — what sin is, from the garden to the cross, and why
+  the forbidden tree looked good.
