@@ -36,7 +36,7 @@
 <text x="646.0" y="268.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">John 1:40-42</text>
 </g>
 <rect x="0" y="0" width="660.0" height="280" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">1</text>
+<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">1</text>
 </g>
 <defs><clipPath id="pane1"><rect x="0" y="0" width="323.0" height="330" rx="4"/></clipPath></defs>
 <g transform="translate(30.0 402.0)">
@@ -62,7 +62,7 @@
 <text x="309.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Matthew 16:13-16</text>
 </g>
 <rect x="0" y="0" width="323.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">2</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">2</text>
 </g>
 <defs><clipPath id="pane2"><rect x="0" y="0" width="323.0" height="330" rx="4"/></clipPath></defs>
 <g transform="translate(367.0 402.0)">
@@ -92,7 +92,7 @@
 <text x="309.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Matthew 16:21-23</text>
 </g>
 <rect x="0" y="0" width="323.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">3</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">3</text>
 </g>
 <defs><clipPath id="pane3"><rect x="0" y="0" width="323.0" height="330" rx="4"/></clipPath></defs>
 <g transform="translate(30.0 746.0)">
@@ -171,7 +171,7 @@
 <text x="309.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Matthew 26:69-74; John 18:18</text>
 </g>
 <rect x="0" y="0" width="323.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">4</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">4</text>
 </g>
 <defs><clipPath id="pane4"><rect x="0" y="0" width="323.0" height="330" rx="4"/></clipPath></defs>
 <g transform="translate(367.0 746.0)">
@@ -230,7 +230,7 @@
 <text x="309.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">John 21:9-17 · condensed</text>
 </g>
 <rect x="0" y="0" width="323.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">5</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">5</text>
 </g>
 <defs><clipPath id="pane5"><rect x="0" y="0" width="660.0" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(30.0 1090.0)">
@@ -267,7 +267,7 @@
 <text x="646.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Acts 2:14, 38-41</text>
 </g>
 <rect x="0" y="0" width="660.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">6</text>
+<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">6</text>
 </g>
 <path d="M270.0 1420 H450.0 L440.0 1433.0 L450.0 1446 H270.0 L280.0 1433.0 Z" fill="#8b1e1e"/>
 <text x="360.0" y="1438.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE POINT</text>

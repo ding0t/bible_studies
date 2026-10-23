@@ -67,6 +67,13 @@ Five beats is the target and six the ceiling; count beats, not panels. In an `ec
 is one beat drawn twice, so four rows are eight panels and four beats. A seventh beat is a second
 comic, or a sign the point is two points.
 
+**A doctrine has no single scene, so tell its first story and then cross to the reader in the
+text's own picture.** `why-we-need-saving` (the doctrine of sin) draws Genesis 2-3 in three beats,
+then turns with a caption, "And every one of us since.", to Isaiah 53:6's straying sheep, and
+lands on the cross with Romans 5:8. The crossing panel is a picture a verse paints, drawn with that
+verse in a text box, so the reader gets from Eden to themselves without a line the text does not
+give. Layout `[[300, 1], [300, 1, 1], [300, 1, 1]]`: one wide establishing panel, then pairs.
+
 **A comic can replace a diagram inside a study**, not only open it. `three-days` replaces a mermaid
 flowchart in "The week as the Hebrew calendar counts it" and is embedded where the flowchart was. A
 diagram whose boxes are moments in a story (who was where, what happened, what it counts as) is a
@@ -116,7 +123,15 @@ Scripture does not.
   bubble written for a silent character is the one error a reader cannot check.
 - **A voice with no figure** (heaven, an angel, a voice from the tomb) takes `from = [x, y]`, a
   place in the panel or above it, in place of a cast member; `style = "voice"` makes it gold and
-  bold. Aim the `from` so the tail does not cross the caption.
+  bold. Aim the `from` so the tail does not cross the caption. A tail from above the frame is a
+  straight line from the bubble to `from`; where the caption is in the way, narrow the caption
+  (`caption_w`) and move `from` toward the panel's centre until the line clears its right edge.
+  `why-we-need-saving` panels 1 and 3 needed both.
+- **A speaker the comic may not draw speaks from where they are.** Adam and Eve are reserved for
+  after Genesis 3:21, so in `why-we-need-saving` the man answers "I hid myself" (Genesis 3:10) from
+  the `thicket` he hid in, with `from` aimed into it and `spotlight = { at = [x, y] }` on the place.
+  Hiding is drawn by not drawing the people, and the rule that kept them out of the picture became
+  the beat. Say in the `note` who is not drawn and why.
 - **Run `--verify` before embedding.** It looks up every `source = "esv"` bubble in the ESV text of
   the verses its panel's `ref` names and fails on any bubble it cannot find there, then lists the
   condensed ones for you to read against their verses. A `ref` is therefore the bubble's evidence:
@@ -248,7 +263,9 @@ clones:
   boat), courtyard (walled, a lit doorway), street, grassland (spring grass above the lake), decapolis
   (dry ground, a Greek city on the ridge), hall (inside a synagogue), lake (open water; put people
   in a boat with the `hull` prop). vista (open land to a horizon the panel sets with `horizon`; the
-  ground for `depth`, section 3a), cave (bare rock and a cave mouth, for Horeb, 1 Kings 19:9). `sky`: day, dawn, winter, dusk, night, storm.
+  ground for `depth`, section 3a), cave (bare rock and a cave mouth, for Horeb, 1 Kings 19:9), eden
+  (the garden: far trees, the river of Genesis 2:10, green ground; put the near trees in as
+  `fruit_tree` props). `sky`: day, dawn, winter, dusk, night, storm.
 - `in_cloud = true` on a cast entry sets a cloud at the figure's waist, for one taken up
   (Acts 1:9; Revelation 11:12); give it a negative `dy` to lift it.
 - `aside` is a dashed note hung under the caption, in the site's confidence code: a reading, an
@@ -267,7 +284,11 @@ clones:
   a presence and no form), `books` (opened, Revelation 20:12), `crown` (a wreath laid down), and
   `refined`, the counterpart of `burning`: gold, silver and precious stones standing whole in the
   fire on the same foundation (1 Corinthians 3:12-14). Also `figleaves` (the sewn loincloths of
-  Genesis 3:7, cast off on the ground), `idol` (a faceless stone god on a plinth with a smoking altar, Deuteronomy 32:17; 1 Corinthians 10:20), `wall` (a city wall with battlements for a watchman; a figure
+  Genesis 3:7, cast off on the ground), `fruit_tree` (a tree "good for food", Genesis 2:9, with
+  round fruit of no species since Genesis names none; the forbidden tree is the same prop, because
+  it looked like the others, 3:6), `thicket` (dense shrubs to hide in, Genesis 3:8; nobody is drawn
+  behind it), `serpent` (Genesis 3:1, head raised; Genesis gives it no form before the curse of
+  3:14, so the `note` says so), `idol` (a faceless stone god on a plinth with a smoking altar, Deuteronomy 32:17; 1 Corinthians 10:20), `wall` (a city wall with battlements for a watchman; a figure
   on it takes `dy = -0.303 * s`) and `hand` ("a hand was stretched out to me, and behold, a scroll",
   Ezekiel 2:9: an arm reaching down from above the frame, the scroll in the hand; give it a `y` well
   above the ground). `y` defaults to
@@ -309,7 +330,7 @@ every tool below in one panel each, captioned with the TOML that draws it. Open 
 | Inset | `inset = { on = "<id>", zoom = 2.4, corner = "br", size = 0.38, marks = ["sigh"] }` | A close-up set into a corner of a wide panel, ruled to the figure it enlarges | Where someone stands *and* what it does to them, in one glance; the inset's `marks` show only in the close-up |
 | Horizon and depth | Panel `scene = "vista"`, `horizon = 0.4`; cast `depth = 0..1` | Figures deeper in the picture stand nearer the horizon and shrink in proportion; a haze in the horizon's colour falls between far and near | A crowd that is more than the panel can hold (the seven thousand). A low horizon gives a lone figure the sky; a high one fills the frame with land and people |
 | Pull back | A close shot, then a wide `vista` panel; the close-shot figure in the foreground with `look = "silhouette"`, `s = 1.5` | The reveal: the reader sees what the figure sees | The answer to a lonely line, the size of what God has done |
-| Spotlight | `spotlight = "<id>"` | Darkens the frame away from one figure | Someone alone, or the one figure the panel is about |
+| Spotlight | `spotlight = "<id>"`, or `spotlight = { at = [x, y], r = 0.7 }` for a place | Darkens the frame away from one figure, or from a place where someone undrawn is | Someone alone, or the one figure the panel is about; the thicket the man hides in |
 | Focus lines | `burst = { on = "<id>", color = "gold" }` | Lines converging on a figure, stopping short of it | The arrival or word the comic turns on. Gold for glory; ink for alarm |
 | Grade | `grade = "warm"`, `"cold"`, `"dark"` | Lays a colour over the whole panel | The temperature of the moment, when the text gives it (night, dawn, a cold heart) |
 | Look | cast `look = "cold"`, `"warm"`, `"radiant"`, `"silhouette"`, `"faded"` | Recolours one figure | Cold for love cooling, warm for the faithful, radiant for His glory at the Transfiguration (Matthew 17:2), faded for one leaving the story, silhouette for the figure the camera looks past |
@@ -339,7 +360,9 @@ Rules, each for the same reason as section 1's: the picture must not say what th
 Render it and look at the PNG. Check every panel for: a bubble tail pointing at the right
 speaker, text clear of the panel edge, a speaker's head uncovered, the reference tag readable.
 The first comic needed three passes, the second six; with `--draft` and the automatic placement,
-the fourth needed three. When a fix belongs to the system (a wrap that orphans a word,
+the fourth needed three. A `style = "text"` box set low in a panel runs into the reference tag in
+the bottom-right corner and is clipped by the frame; set text boxes in the upper half. A long
+`note` now wraps inside the frame, but two lines is the most a reader will take in. When a fix belongs to the system (a wrap that orphans a word,
 a pose that reads wrong), fix `comic.py` so every comic gets it, then re-render the others:
 `python3 utils/build_comics.py` with no slug rebuilds them all.
 

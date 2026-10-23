@@ -35,7 +35,7 @@
 <text x="244.4" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">2 Peter 1:3, 14</text>
 </g>
 <rect x="0" y="0" width="258.4" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="244.4" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">1</text>
+<text x="244.4" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">1</text>
 </g>
 <defs><clipPath id="pane1"><rect x="0" y="0" width="387.6" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(302.4 108.0)">
@@ -69,7 +69,7 @@
 <text x="373.6" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">John 15:5, 11 · condensed</text>
 </g>
 <rect x="0" y="0" width="387.6" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="373.6" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">2</text>
+<text x="373.6" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">2</text>
 </g>
 <defs><clipPath id="pane2"><rect x="0" y="0" width="660.0" height="290" rx="4"/></clipPath></defs>
 <g transform="translate(30.0 422.0)">
@@ -104,7 +104,7 @@
 <text x="646.0" y="278.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">2 Peter 1:5; 1 John 5:3</text>
 </g>
 <rect x="0" y="0" width="660.0" height="290" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">3</text>
+<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">3</text>
 </g>
 <path d="M360.0 724.0 V743.0" stroke="#a67c3d" stroke-width="2.2"/><path d="M355.0 731.0 L360.0 724.0 L365.0 731.0" fill="none" stroke="#a67c3d" stroke-width="2.2"/>
 <rect x="109.4" y="732.0" width="501.2" height="26" rx="13" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.4"/>
@@ -220,7 +220,7 @@
 <text x="646.0" y="278.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Matthew 25:21; 2 Peter 1:11 · condensed</text>
 </g>
 <rect x="0" y="0" width="660.0" height="290" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">4</text>
+<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">4</text>
 </g>
 <path d="M270.0 1106 H450.0 L440.0 1119.0 L450.0 1132 H270.0 L280.0 1119.0 Z" fill="#8b1e1e"/>
 <text x="360.0" y="1124.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE POINT</text>

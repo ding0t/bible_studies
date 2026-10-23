@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1596" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1612" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
 <title id="t">The Harlot and the Bride</title>
 <desc id="d">A one-minute comic in 8 panels. Two columns side by side: The harlot and The Bride, row for row. Panel 1 (Revelation 17:1): John standing on a plain at dusk, looking up toward a voice from above. Caption: "One of the seven angels to John." The angel says: "Come, I will show you the judgment of the great prostitute". Panel 2 (Revelation 21:9): John standing at dawn, looking up toward a voice from above. Caption: "The same angel’s words, again." The angel says: "Come, I will show you the Bride, the wife of the Lamb." A strip joins the panels above: Δεῦρο, δείξω σοι, “Come, I will show you”: the same words for both women. Panel 3 (Revelation 17:3-4): the harlot seated, in purple and a scarlet veil with a gold girdle, holding up a golden cup. Caption: "In a wilderness: purple, scarlet and gold." John says: "holding in her hand a golden cup full of abominations". Panel 4 (Revelation 19:7-8): the Bride standing in bright white linen, arms raised. Caption: "The Bride, made ready." John says: "it was granted her to clothe herself with fine linen, bright and pure". Panel 5 (Revelation 18:23): an empty street at night, a wall cracking and falling, no one in it. Caption: "Her end: silence." John says: "the voice of bridegroom and bride will be heard in you no more". Panel 6 (Revelation 19:7-9): the risen Jesus in light beside the Bride in white, with three guests in white robes. Caption: "Her end: a wedding." The angel says: "Blessed are those who are invited to the marriage supper of the Lamb." Panel 7 (Revelation 18:4): a man and a woman walking out of the city street, away from it. Caption: "A voice from heaven." A voice from heaven says: "Come out of her, my people, lest you take part in her sins". Panel 8 (Revelation 22:17): the Bride beside a spring, arm held out to a man walking toward her. Caption: "The Bride calls." The Bride says: "Come." John says: "let the one who desires take the water of life without price". The point: Two women call, and Scripture has already written how each one ends. Come out of Babylon, and answer the Bride’s “Come” (Revelation 18:4; 22:17).</desc>
-<rect width="720" height="1596" fill="#faf6ec"/>
-<rect x="8" y="8" width="704" height="1580" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
-<rect x="14" y="14" width="692" height="1568" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<rect width="720" height="1612" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1596" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1584" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
 <defs><radialGradient id="comic-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6e2a0" stop-opacity="0.9"/><stop offset="1" stop-color="#f6e2a0" stop-opacity="0"/></radialGradient><radialGradient id="comic-white" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient><radialGradient id="comic-fire" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6b04a" stop-opacity="0.75"/><stop offset="1" stop-color="#f6b04a" stop-opacity="0"/></radialGradient></defs>
 <text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE HARLOT AND THE BRIDE</text>
 <text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Two women, two invitations, two ends</text>
@@ -37,7 +37,7 @@
 <text x="309.0" y="268.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 17:1</text>
 </g>
 <rect x="0" y="0" width="323.0" height="280" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">1</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">1</text>
 </g>
 <defs><clipPath id="pane1"><rect x="0" y="0" width="323.0" height="280" rx="4"/></clipPath></defs>
 <g transform="translate(367.0 148.0)">
@@ -103,7 +103,7 @@
 <text x="309.0" y="268.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 21:9</text>
 </g>
 <rect x="0" y="0" width="323.0" height="280" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">2</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">2</text>
 </g>
 <path d="M195.0 440.0 V459.0" stroke="#a67c3d" stroke-width="2.2"/><path d="M190.0 447.0 L195.0 440.0 L200.0 447.0" fill="none" stroke="#a67c3d" stroke-width="2.2"/>
 <path d="M525.0 440.0 V459.0" stroke="#a67c3d" stroke-width="2.2"/><path d="M520.0 447.0 L525.0 440.0 L530.0 447.0" fill="none" stroke="#a67c3d" stroke-width="2.2"/>
@@ -130,7 +130,7 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 17:3-4</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">3</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">3</text>
 </g>
 <defs><clipPath id="pane4"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(367.0 502.0)">
@@ -195,7 +195,7 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 19:7-8</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">4</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">4</text>
 </g>
 <defs><clipPath id="pane5"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(30.0 816.0)">
@@ -221,7 +221,7 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 18:23</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">5</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">5</text>
 </g>
 <defs><clipPath id="pane6"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(367.0 816.0)">
@@ -292,7 +292,7 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 19:7-9</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">6</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">6</text>
 </g>
 <defs><clipPath id="pane7"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(30.0 1130.0)">
@@ -319,7 +319,7 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 18:4</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">7</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">7</text>
 </g>
 <defs><clipPath id="pane8"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(367.0 1130.0)">
@@ -387,12 +387,13 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 22:17</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">8</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">8</text>
 </g>
 <path d="M270.0 1460 H450.0 L440.0 1473.0 L450.0 1486 H270.0 L280.0 1473.0 Z" fill="#8b1e1e"/>
 <text x="360.0" y="1478.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE POINT</text>
 <text x="360.0" y="1512.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">Two women call, and Scripture has already written how each one ends. Come</text>
 <text x="360.0" y="1532.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">out of Babylon, and answer the Bride’s “Come” (Revelation 18:4; 22:17).</text>
-<text x="360.0" y="1556.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Both women are John’s pictures: the harlot a city (Revelation 17:18), the Bride God’s people. The beast she sits on is not drawn.</text>
-<text x="696.0" y="1574.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">A one-minute comic · the-way.lewy.au</text>
+<text x="360.0" y="1556.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Both women are John’s pictures: the harlot a city (Revelation</text>
+<text x="360.0" y="1572.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">17:18), the Bride God’s people. The beast she sits on is not drawn.</text>
+<text x="696.0" y="1590.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">A one-minute comic · the-way.lewy.au</text>
 </svg>

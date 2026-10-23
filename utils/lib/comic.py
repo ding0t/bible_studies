@@ -755,6 +755,48 @@ def scene_cave(w, h, sky, gid):
     return out
 
 
+EDEN_LEAF = "#5f8f3e"
+EDEN_LEAF_DARK = "#3f6a2a"
+EDEN_GRASS = "#8fb35e"
+EDEN_GRASS_NEAR = "#76a04a"
+
+
+def _canopy(cx, cy, r, fill, edge):
+    """A round tree crown built of overlapping lobes, so it reads as foliage at any scale."""
+    lobes = ((0, 0, 1.0), (-0.62, 0.18, 0.7), (0.62, 0.16, 0.72), (-0.3, -0.42, 0.66), (0.34, -0.4, 0.64))
+    return "".join(f'<circle cx="{cx + dx * r:.1f}" cy="{cy + dy * r:.1f}" r="{k * r:.1f}" fill="{fill}" stroke="{edge}" stroke-width="1"/>'
+                   for dx, dy, k in lobes)
+
+
+def scene_eden(w, h, sky, gid):
+    """The garden in Eden: "every tree that is pleasant to the sight and good for food" (Genesis 2:9),
+    and "a river flowed out of Eden to water the garden" (Genesis 2:10). Far trees on the skyline, the
+    river winding toward the viewer, green ground. Put the near trees in as `fruit_tree` props, so a
+    panel can place the one in the middle."""
+    out = _sky(w, h, sky, gid)
+    gy = h * GROUND_AT
+    hz = gy - h * 0.34
+    dark = sky in ("dusk", "night", "storm")
+    far = "#6f8a62" if not dark else "#4a5a52"
+    out.append(f'<rect x="0" y="{hz - 8:.1f}" width="{w}" height="{gy - hz + 8:.1f}" fill="{far}"/>')
+    for i in range(int(w // 34) + 2):
+        cx = i * 34 + (i * 13) % 17
+        out.append(_canopy(cx, hz - 10 - (i * 7) % 12, 16 + (i * 5) % 8, far, _shade(far, 0.8)))
+    out.append(f'<path d="M0 {hz + 10:.1f} Q{w * 0.4:.1f} {hz - 2:.1f} {w} {hz + 8:.1f} V{h} H0 Z" fill="{EDEN_GRASS}"/>')
+    rx = w * 0.62
+    out.append(f'<path d="M{rx - 6:.1f} {hz + 8:.1f} Q{rx - 50:.1f} {hz + 40:.1f} {rx + 10:.1f} {gy - 40:.1f} Q{rx + 70:.1f} {gy - 14:.1f} '
+               f'{rx + 40:.1f} {h} H{rx + 110:.1f} Q{rx + 120:.1f} {gy - 20:.1f} {rx + 40:.1f} {gy - 44:.1f} Q{rx - 20:.1f} {hz + 40:.1f} {rx + 6:.1f} {hz + 8:.1f} Z" '
+               f'fill="{WATER}" stroke="#5d7d92" stroke-width="0.8"/>')
+    out.append(f'<path d="M0 {gy - 8:.1f} Q{w / 2:.1f} {gy - 20:.1f} {w} {gy - 4:.1f} V{h} H0 Z" fill="{EDEN_GRASS_NEAR}" opacity="0.85"/>')
+    for i in range(int(w // 22)):
+        xx = i * 22 + (i * 7) % 13
+        yy = hz + 20 + (i * 37) % int(h - hz - 24)
+        col = ("#e8d36a", "#f2efe4", "#d98a8a")[i % 3]
+        out.append(f'<path d="M{xx:.1f} {yy:.1f} l-2 -6 M{xx + 2:.1f} {yy:.1f} l0 -8 M{xx + 4:.1f} {yy:.1f} l2 -6" stroke="#5d8a3a" stroke-width="1"/>'
+                   + (f'<circle cx="{xx + 2:.1f}" cy="{yy - 9:.1f}" r="1.8" fill="{col}"/>' if i % 2 else ""))
+    return out
+
+
 # Scenes that take the panel's `horizon`.
 HORIZON_SCENES = {"vista"}
 
@@ -1314,7 +1356,56 @@ def prop_bed(x, y, s):
             f'<ellipse cx="-50" cy="-34" rx="14" ry="6" fill="#a03a2a" stroke="#5a1f15" stroke-width="0.8"/></g>')
 
 
-PROPS = {"vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "lampstand": prop_lampstand, "golden_lampstand": prop_golden_lampstand, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
+def prop_fruit_tree(x, y, s):
+    """A fruit tree in Eden, "pleasant to the sight and good for food" (Genesis 2:9). Genesis names no
+    kind of fruit, so the fruit is drawn as plain round fruit of no species. The forbidden tree is
+    drawn as this same tree, because to the woman it looked like the others: "good for food" and
+    "to be desired" (Genesis 3:6). About 150 units tall; its foot sits on y."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           '<path d="M-7 0 Q-5 -40 -9 -70 L-2 -74 Q4 -40 8 0 Z" fill="#6b4a2a" stroke="#3e2a16" stroke-width="1.1"/>',
+           '<path d="M-6 -60 Q-22 -78 -34 -84 M2 -66 Q18 -82 30 -88" stroke="#6b4a2a" stroke-width="4" fill="none" stroke-linecap="round"/>',
+           _canopy(0, -108, 40, EDEN_LEAF, EDEN_LEAF_DARK),
+           '<path d="M-28 -118 q8 -6 14 0 M6 -132 q8 -6 14 0 M14 -96 q8 -6 14 0" stroke="#ffffff30" stroke-width="2" fill="none"/>']
+    for fx, fy in ((-30, -96), (-14, -120), (4, -100), (22, -118), (30, -90), (-6, -136), (-38, -122), (12, -80), (-20, -84)):
+        out.append(f'<circle cx="{fx}" cy="{fy}" r="4.6" fill="#d0612e" stroke="#8a3a18" stroke-width="0.8"/>'
+                   f'<circle cx="{fx - 1.4}" cy="{fy - 1.6}" r="1.3" fill="#ffffff70"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+def prop_thicket(x, y, s):
+    """Dense shrubs low enough to hide in: "the man and his wife hid themselves from the presence of the
+    LORD God among the trees of the garden" (Genesis 3:8). Nobody is drawn behind it; a hidden speaker's
+    bubble takes `from` aimed into it. About 70 units tall, 150 wide."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">']
+    for dx, dy, r, fill in ((-52, -26, 30, EDEN_LEAF_DARK), (52, -24, 30, EDEN_LEAF_DARK), (-22, -40, 36, EDEN_LEAF),
+                            (24, -42, 36, EDEN_LEAF), (0, -24, 34, "#4f7d34")):
+        out.append(_canopy(dx, dy, r * 0.62, fill, "#2f4f1f"))
+    for lx, ly, rot in ((-40, -48, -20), (-6, -62, 10), (30, -58, -10), (52, -36, 25), (-60, -30, -35)):
+        out.append(f'<path d="M{lx} {ly} q-9 -4 -10 -10 q6 1 7 -4 q3 5 6 0 q1 5 7 4 q-1 6 -10 10 z" fill="#6e9a44" stroke="#2f4f1f" '
+                   f'stroke-width="0.7" transform="rotate({rot} {lx} {ly})"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
+def prop_serpent(x, y, s):
+    """The serpent, "more crafty than any other beast of the field" (Genesis 3:1), its head raised toward
+    the one it speaks to. Genesis gives it no form before the curse ("on your belly you shall go",
+    Genesis 3:14), so a comic drawing it says so in its `note`. Faces right; about 46 units tall."""
+    body = "#6f7a3a"
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<ellipse cx="-4" cy="-3" rx="34" ry="5" fill="#00000022"/>'
+            f'<path d="M-36 -4 Q-30 -14 -14 -10 Q4 -6 10 -14 Q14 -24 4 -30 Q-6 -36 2 -42 Q8 -46 16 -44" fill="none" '
+            f'stroke="#3e4520" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>'
+            f'<path d="M-36 -4 Q-30 -14 -14 -10 Q4 -6 10 -14 Q14 -24 4 -30 Q-6 -36 2 -42 Q8 -46 16 -44" fill="none" '
+            f'stroke="{body}" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>'
+            '<path d="M-30 -9 l3 -2 M-20 -10 l3 -2 M-8 -9 l3 -2 M6 -12 l2 -3 M8 -24 l-3 -2 M0 -34 l-3 -1" stroke="#c9b24a" stroke-width="1.6"/>'
+            f'<path d="M12 -48 Q22 -52 28 -45 Q24 -40 14 -40 Z" fill="{body}" stroke="#3e4520" stroke-width="1.1"/>'
+            '<circle cx="21" cy="-47" r="1.4" fill="#1a1a0a"/>'
+            '<path d="M28 -45 l7 -1 m-7 1 l6 2" stroke="#a5421f" stroke-width="1" fill="none"/></g>')
+
+
+PROPS = {"fruit_tree": prop_fruit_tree, "thicket": prop_thicket, "serpent": prop_serpent, "vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "lampstand": prop_lampstand, "golden_lampstand": prop_golden_lampstand, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne,
          "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall, "idol": prop_idol,
@@ -1339,6 +1430,7 @@ SCENES = {
     "room": scene_room,
     "vista": scene_vista,
     "cave": scene_cave,
+    "eden": scene_eden,
 }
 
 
@@ -2026,8 +2118,14 @@ def draw_panel(i, box, p):
         out.append(f'<rect width="{w:.1f}" height="{h}" fill="{col}" opacity="{op}"/>')
     if p.get("spotlight"):
         sp = p["spotlight"] if isinstance(p["spotlight"], dict) else {"on": p["spotlight"]}
-        hx, hy, hs = _head(heads, sp["on"], i)
-        out.append(spotlight(hx, hy + 34 * hs, w, h, i, sp.get("r", 0) * max(w, h) or None))
+        if "at" in sp:
+            # A place rather than a figure: someone the panel does not draw, such as the man and his
+            # wife hidden among the trees (Genesis 3:8).
+            cx, cy = sp["at"][0] * w, sp["at"][1] * h
+        else:
+            hx, hy, hs = _head(heads, sp["on"], i)
+            cx, cy = hx, hy + 34 * hs
+        out.append(spotlight(cx, cy, w, h, i, sp.get("r", 0) * max(w, h) or None))
     inset = None
     if p.get("inset"):
         svg, inset = _inset(i, w, h, p, heads)
@@ -2120,7 +2218,9 @@ def draw_panel(i, box, p):
         out.append(f'<rect x="4" y="4" width="{w - 8:.1f}" height="{h - 8}" rx="15" fill="none" stroke="{SEPIA}" stroke-width="1"/>')
     if not p.get("_no_number"):
         out.append(text(12 if not p.get("caption") else w - 14, h - 11 if not p.get("caption") else 24, str(p.get("_num", i + 1)),
-                        12, "start" if not p.get("caption") else "end", "bold", fill=MUTED))
+                        12, "start" if not p.get("caption") else "end", "bold", fill=MUTED,
+                        # A paper halo keeps the number readable on a dusk, night or storm sky.
+                        extra=f'stroke="{PAPER}" stroke-width="3" paint-order="stroke"'))
     out.append('</g>')
     return out
 
@@ -2198,7 +2298,9 @@ def render(comic):
 
     point_rows = fit(comic.get("point", ""), 600, 16)[0] if comic.get("point") else []
     note = comic.get("note", "Each panel names its verses; “condensed” marks words shortened from the ESV.")
-    h = int(bottom + 30 + (40 + 20 * len(point_rows) if point_rows else 0) + 56)
+    # A long note wraps inside the frame instead of running past it; each extra line adds height.
+    note_rows = fit(note, W - 120, 12)[0] or [note]
+    h = int(bottom + 30 + (40 + 20 * len(point_rows) if point_rows else 0) + 56 + 16 * (len(note_rows) - 1))
 
     out = svg_open(h, comic["title"], describe(comic))
     out.append(DEFS)
@@ -2222,7 +2324,8 @@ def render(comic):
         for r in point_rows:
             out.append(text(W / 2, y, r, 16, "middle", "bold"))
             y += 20
-    out.append(text(W / 2, h - 40, note, 12, "middle", fill=MUTED, italic=True))
+    for k, r in enumerate(note_rows):
+        out.append(text(W / 2, h - 40 - 16 * (len(note_rows) - 1 - k), r, 12, "middle", fill=MUTED, italic=True))
     out.append(credit(h))
     out.append('</svg>')
     return "\n".join(out)

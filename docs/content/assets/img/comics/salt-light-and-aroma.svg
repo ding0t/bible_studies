@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1252" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1268" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
 <title id="t">Salt and Light</title>
 <desc id="d">A one-minute comic in 4 panels. Panel 1 (Matthew 5:1-2, 13-14): Jesus seated on the hillside, teaching four disciples seated before Him. Caption: "Jesus sits down on the mountain. His disciples come to Him, and He teaches them." Jesus says: "You are the salt of the earth,". Jesus says: "You are the light of the world. A city set on a hill cannot be hidden." Panel 2 (Matthew 5:15): Inside a house at night, a small clay lamp burns on a wooden stand and lights a woman and a child beside it. Caption: "Jesus' picture: a lamp in a house at night." Jesus says: "Nor do people light a lamp and put it under a basket, but on a stand, and it gives light to all in the house." Panel 3 (Revelation 1:12-13, 17, 20): The risen Jesus, radiant, stands among seven golden lampstands while John kneels before Him. Caption: "Years later, on Patmos, John sees the risen Jesus." Jesus says: "the seven lampstands are the seven churches." Note: "Reading the church as the stand of Matthew 5:15 is this study's link." A strip joins the panels above: λυχνία, “lampstand”: the stand in Matthew 5:15 and the churches of Revelation 1:20. Panel 4 (Matthew 5:16): In a village street a disciple holds out a loaf to a beggar while three neighbours look up and praise God. Caption: "In the town, a disciple gives bread to a poor man." Jesus says: "let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven." The point: Jesus has made you salt and light, and He walks among His churches, His lampstands. Shine together where people can see, so they give glory to your Father in heaven (Matthew 5:16; Revelation 1:20).</desc>
-<rect width="720" height="1252" fill="#faf6ec"/>
-<rect x="8" y="8" width="704" height="1236" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
-<rect x="14" y="14" width="692" height="1224" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<rect width="720" height="1268" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1252" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1240" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
 <defs><radialGradient id="comic-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6e2a0" stop-opacity="0.9"/><stop offset="1" stop-color="#f6e2a0" stop-opacity="0"/></radialGradient><radialGradient id="comic-white" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient><radialGradient id="comic-fire" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6b04a" stop-opacity="0.75"/><stop offset="1" stop-color="#f6b04a" stop-opacity="0"/></radialGradient></defs>
 <text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">SALT AND LIGHT</text>
 <text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">You are the salt of the earth and the light of the world, in one minute</text>
@@ -41,7 +41,7 @@
 <text x="646.0" y="268.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Matthew 5:1-2, 13-14</text>
 </g>
 <rect x="0" y="0" width="660.0" height="280" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">1</text>
+<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">1</text>
 </g>
 <defs><clipPath id="pane1"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(30.0 402.0)">
@@ -71,7 +71,7 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Matthew 5:15</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">2</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">2</text>
 </g>
 <defs><clipPath id="pane2"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(367.0 402.0)">
@@ -106,7 +106,7 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 1:12-13, 17, 20</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">3</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">3</text>
 </g>
 <path d="M195.0 714.0 V733.0" stroke="#a67c3d" stroke-width="2.2"/><path d="M190.0 721.0 L195.0 714.0 L200.0 721.0" fill="none" stroke="#a67c3d" stroke-width="2.2"/>
 <path d="M525.0 714.0 V733.0" stroke="#a67c3d" stroke-width="2.2"/><path d="M520.0 721.0 L525.0 714.0 L530.0 721.0" fill="none" stroke="#a67c3d" stroke-width="2.2"/>
@@ -143,13 +143,14 @@
 <text x="646.0" y="278.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Matthew 5:16</text>
 </g>
 <rect x="0" y="0" width="660.0" height="290" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">4</text>
+<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">4</text>
 </g>
 <path d="M270.0 1096 H450.0 L440.0 1109.0 L450.0 1122 H270.0 L280.0 1109.0 Z" fill="#8b1e1e"/>
 <text x="360.0" y="1114.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE POINT</text>
 <text x="360.0" y="1148.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">Jesus has made you salt and light, and He walks among His churches,</text>
 <text x="360.0" y="1168.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">His lampstands. Shine together where people can see, so they give</text>
 <text x="360.0" y="1188.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">glory to your Father in heaven (Matthew 5:16; Revelation 1:20).</text>
-<text x="360.0" y="1212.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Revelation gives the lampstands no shape, so each is drawn as one stand. Panel 4's bread is one example of a good work.</text>
-<text x="696.0" y="1230.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">A one-minute comic · the-way.lewy.au</text>
+<text x="360.0" y="1212.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Revelation gives the lampstands no shape, so each is drawn</text>
+<text x="360.0" y="1228.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">as one stand. Panel 4's bread is one example of a good work.</text>
+<text x="696.0" y="1246.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">A one-minute comic · the-way.lewy.au</text>
 </svg>

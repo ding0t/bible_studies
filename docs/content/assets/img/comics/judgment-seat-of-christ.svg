@@ -36,7 +36,7 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Isaiah 61:10</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">1</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">1</text>
 </g>
 <defs><clipPath id="pane1"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(367.0 108.0)">
@@ -92,7 +92,7 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">2 Corinthians 5:10</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">2</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">2</text>
 </g>
 <defs><clipPath id="pane2"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(30.0 422.0)">
@@ -116,7 +116,7 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">1 Corinthians 3:13-14</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">3</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">3</text>
 </g>
 <defs><clipPath id="pane3"><rect x="0" y="0" width="323.0" height="300" rx="4"/></clipPath></defs>
 <g transform="translate(367.0 422.0)">
@@ -145,7 +145,7 @@
 <text x="309.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">1 Corinthians 3:15</text>
 </g>
 <rect x="0" y="0" width="323.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">4</text>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">4</text>
 </g>
 <defs><clipPath id="pane4"><rect x="0" y="0" width="660.0" height="290" rx="4"/></clipPath></defs>
 <g transform="translate(30.0 736.0)">
@@ -218,7 +218,7 @@
 <text x="646.0" y="278.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 4:10-11</text>
 </g>
 <rect x="0" y="0" width="660.0" height="290" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">5</text>
+<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">5</text>
 </g>
 <path d="M30.0 1063.0 H690.0" stroke="#3b2f1e" stroke-width="2" stroke-dasharray="2 7" stroke-linecap="round"/>
 <path d="M264.2 1050.0 H455.8 L445.8 1063.0 L455.8 1076.0 H264.2 L274.2 1063.0 Z" fill="#3b2f1e"/>
@@ -308,7 +308,7 @@
 <text x="646.0" y="288.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Revelation 20:11-15</text>
 </g>
 <rect x="0" y="0" width="660.0" height="300" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
-<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold">6</text>
+<text x="646.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">6</text>
 </g>
 <path d="M270.0 1430 H450.0 L440.0 1443.0 L450.0 1456 H270.0 L280.0 1443.0 Z" fill="#8b1e1e"/>
 <text x="360.0" y="1448.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE POINT</text>
