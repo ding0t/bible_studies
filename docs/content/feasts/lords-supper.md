@@ -116,8 +116,8 @@ In Jesus' name. Amen.
 ### What Israel remembered
 
 The Passover was given to be remembered. "This day shall be for you a memorial day, and you shall
-keep it as a feast to the LORD; throughout your generations, as a statute forever" (Exodus 12:14,
-ESV). "Memorial" is <span dir="rtl">זִכָּרוֹן</span> (*zikkaron*, H2146), from the verb to remember;
+keep it as a feast to the LORD; throughout your generations, as a statute forever, you shall keep it
+as a feast" (Exodus 12:14, ESV). "Memorial" is <span dir="rtl">זִכָּרוֹן</span> (*zikkaron*, H2146), from the verb to remember;
 the Septuagint renders it μνημόσυνον (*mnēmosynon*, G3422). The unleavened bread carried the same
 purpose, "that all the days of your life you may remember the day when you came out of the land of
 Egypt" (Deuteronomy 16:3, ESV).
@@ -387,7 +387,7 @@ time you eat this bread you say that you expect to be there.
 4. **The hard part.** "Without discerning the body" (1 Corinthians 11:29) is read of Christ's body
    given on the cross and of the church as His body. Which reading do you find stronger, and does the
    difference change how you come to the table?
-5. **Teaching.** Israel's children were expected to ask, "What do you mean by this service?" (Exodus
+5. **Be transformed.** Israel's children were expected to ask, "What do you mean by this service?" (Exodus
    12:26). How would you answer that about the Lord's Supper, in a sentence a child could follow?
 6. **Be transformed.** Jesus said He would drink the cup new "with you" in His Father's kingdom
    (Matthew 26:29). How does knowing the meal is unfinished change what you think about while you eat
