@@ -508,6 +508,8 @@ extra_css:
   - assets/stylesheets/tools.css
   - assets/stylesheets/popups.css
   - assets/stylesheets/new-pages.css
+  # Collapses Blog and About in the sidebar until the reader is inside one.
+  - assets/stylesheets/nav.css
   - assets/stylesheets/video-embed.css
   - assets/stylesheets/memory-verses.css
   - assets/stylesheets/history-chart.css

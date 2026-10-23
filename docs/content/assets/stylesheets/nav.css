@@ -1,0 +1,8 @@
+/* navigation.sections expands every top-level section. Blog and About have their own index pages
+   (rendered as links, unlike the title-only Topics/Explore/Learn groups), so collapse them
+   until the reader is inside one. */
+@media screen and (min-width: 76.25em) {
+  .md-nav--primary > .md-nav__list > .md-nav__item--section:has(> .md-nav__container):not(.md-nav__item--active) > .md-nav {
+    display: none;
+  }
+}
