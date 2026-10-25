@@ -117,6 +117,22 @@ stages:
         - "Publish dependency unchanged: jesus/psalm-118-road-to-gethsemane.md and resources/songbook.md are draft:true."
       commentary_crosscheck: "NLT Life Application note on Eph 5:18-21 (not cited by the study): confirms the participles as by-products of Spirit-filling (counts four)."
 
+  read:
+    done: true
+    read_2026-10-25:
+      by: "read-bible-study, fresh session (did not draft or review)"
+      before: "27 headings, median 94 words, 0 over 400, longest 211 (Only the Psalter?)"
+      after: "27 headings, unchanged counts -- the study was already broken into readable sections"
+      changed:
+        - "Moved '## The God who sings' from between 'The church's first songs' and 'What the church kept' to after 'What the church kept'. The history now runs unbroken (Israel -> first church -> what the church kept) and the theology lands directly before the application in 'Sing it when'."
+        - "Study outline re-ordered to match: 'What the church kept' gets its own bullet ('the early church's own collection'); 'Sing it when' gets its own ('how to use the songs now')."
+      verify: "study_structure.py --verify-against HEAD: no study sentence added or removed. One 'removed' line is the wrapped continuation of the old outline bullet ('early church's own collection, and how to use the songs now.'), which the checker reads as prose because it does not start with '-'."
+      anchors: "every href=#... on the served page resolves to an id (mkdocs serve, draft kept)."
+      for_author:
+        - "Length: about 4,145 words against a 4,000 budget (Check 23, which excludes References and the outline, does not fire). No section stalls; the weight is breadth. Candidates for simplify-bible-study: 'Wine and the Spirit' (Tertullian) and 'What the church kept' are both history beside the thesis; the Odes list (14 items) is the longest stretch a reader skims."
+        - "'## Three words' ends its own body on the table; what the table establishes comes two paragraphs later at the end of '### Psalm 76 carries all three'. Fixing it needs a sentence after the table."
+        - "The zimrat debate (Exodus 15:2) and the Ephesians 5:18 'Passive: the Holy Spirit does the filling' point (left_for_author in review) are contested readings without headings; both are short enough that a heading would fragment them."
+
 evidence:
   - {id: psalmos-nt-7, what: "psalmos occurs 7 times in the NT", tool: bible_concordance, args: {strongs: G5568, work_id: macula-greek-sblgnt}, expect_count: 7, checked: 2026-10-25}
   - {id: hymnos-nt-2, what: "hymnos only Eph 5:19 and Col 3:16", tool: bible_concordance, args: {strongs: G5215, work_id: macula-greek-sblgnt}, expect_count: 2, checked: 2026-10-25}

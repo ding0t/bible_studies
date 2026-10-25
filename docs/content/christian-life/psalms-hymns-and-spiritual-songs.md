@@ -79,9 +79,9 @@ In Jesus' name. Amen.
   hymns and spiritual songs are, and the debate over which songs Paul meant.
 - **[Israel's songbook](#israels-songbook)** and **[The church's first songs](#the-churchs-first-songs)**
   — the history, from the Red Sea to Revelation.
+- **[What the church kept](#what-the-church-kept)** — the early church's own collection.
 - **[The God who sings](#the-god-who-sings)** — what the songs show about Jesus and the Father.
-- **[What the church kept](#what-the-church-kept)** and **[Sing it when](#sing-it-when)** — the
-  early church's own collection, and how to use the songs now.
+- **[Sing it when](#sing-it-when)** — how to use the songs now.
 
 ## One command, five results
 
@@ -296,30 +296,6 @@ sea after the beast is defeated. Read in the dispensational framework this site 
 believers who die for their faith during the Tribulation. The rescue they celebrate is the Lamb's,
 and they sing it with the words of the Exodus.
 
-## The God who sings
-
-The songs reach further than the people who sing them. Hebrews takes Psalm 22:22 and puts it in the
-mouth of Jesus:
-
-> ✝️ Hebrews 2:11-12 (ESV)
->
-> 11 For he who sanctifies and those who are sanctified all have one source. That is why he is not
-> ashamed to call them brothers, 12 saying, "I will tell of your name to my brothers; in the midst
-> of the congregation I will sing your praise."
-
-The verb is ὑμνήσω (*hymnēsō*, G5214), from the same root as Paul's "hymns." The Son of God stands among
-the people He has made His brothers and sings the Father's praise. This is adoption: He calls you
-His brother or sister, and He leads the singing. When a church sings to the Father in the name of
-the Lord Jesus Christ (Ephesians 5:20), it joins a song He is already singing.
-
-The Father sings too. Zephaniah tells Jerusalem, "The LORD your God is in your midst, a mighty one
-who will save; he will rejoice over you with gladness; he will quiet you by his love; he will exult
-over you with loud singing" (Zephaniah 3:17, ESV).
-
-So the whole Godhead is involved when a church sings. The Holy Spirit fills it, the Son sings in its
-midst, and the Father rejoices over it with singing. This shows that God made you to sing because He
-is a God who rejoices, and He has brought you into His family's song.
-
 ## What the church kept
 
 The early church kept a collection of songs alongside the Psalter. Greek Bibles added a book called
@@ -353,6 +329,30 @@ Divine" (Eusebius, *Church History* 5.28.5, NPNF2 1). The church's songs held it
 So a body of songs kept beside the Psalms is an old practice. This site now keeps one: the
 [Songbook](../resources/songbook.md) gathers the songs of Scripture, the songs Jesus knew and sang,
 and the earliest Christian songs, with when each was first sung.
+
+## The God who sings
+
+The songs reach further than the people who sing them. Hebrews takes Psalm 22:22 and puts it in the
+mouth of Jesus:
+
+> ✝️ Hebrews 2:11-12 (ESV)
+>
+> 11 For he who sanctifies and those who are sanctified all have one source. That is why he is not
+> ashamed to call them brothers, 12 saying, "I will tell of your name to my brothers; in the midst
+> of the congregation I will sing your praise."
+
+The verb is ὑμνήσω (*hymnēsō*, G5214), from the same root as Paul's "hymns." The Son of God stands among
+the people He has made His brothers and sings the Father's praise. This is adoption: He calls you
+His brother or sister, and He leads the singing. When a church sings to the Father in the name of
+the Lord Jesus Christ (Ephesians 5:20), it joins a song He is already singing.
+
+The Father sings too. Zephaniah tells Jerusalem, "The LORD your God is in your midst, a mighty one
+who will save; he will rejoice over you with gladness; he will quiet you by his love; he will exult
+over you with loud singing" (Zephaniah 3:17, ESV).
+
+So the whole Godhead is involved when a church sings. The Holy Spirit fills it, the Son sings in its
+midst, and the Father rejoices over it with singing. This shows that God made you to sing because He
+is a God who rejoices, and He has brought you into His family's song.
 
 ## Sing it when
 
