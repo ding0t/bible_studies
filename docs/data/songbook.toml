@@ -54,7 +54,7 @@ ref = "Judges 5:1-31"
 group = "israel"
 sung_by = "Deborah and Barak"
 occasion = "The defeat of Sisera's army at the river Kishon (Judges 4:12-16)."
-first_line = "Hear, you kings! Give ear, you princes! I, even I, will sing to Yahweh."
+first_line = "Hear, you kings! Give ear, you princes! I, even I, will sing to Yahweh. (Judges 5:3)"
 sing_when = ["victory", "deliverance"]
 
 [[song]]
@@ -73,7 +73,7 @@ title = "The Song of the Bow"
 ref = "2 Samuel 1:19-27"
 group = "israel"
 sung_by = "David, who commanded that it be taught to the people of Judah (2 Samuel 1:18)"
-occasion = "Saul and Jonathan have died on Mount Gilboa (2 Samuel 1:4)."
+occasion = "Saul and Jonathan have died on Mount Gilboa (2 Samuel 1:4-6)."
 first_line = "Your glory, Israel, was slain on your high places! How the mighty have fallen!"
 sing_when = ["grief"]
 
@@ -94,7 +94,7 @@ ref = "Isaiah 12:1-6"
 group = "israel"
 sung_by = "The redeemed, \"in that day\" (Isaiah 12:1)"
 occasion = "A song for the future regathering of Israel (Isaiah 11:11-16). It takes up Moses' line from Exodus 15:2."
-first_line = "Behold, God is my salvation. I will trust, and will not be afraid; for Yah, Yahweh, is my strength and song."
+first_line = "Behold, God is my salvation. I will trust, and will not be afraid; for Yah, Yahweh, is my strength and song. (Isaiah 12:2)"
 sing_when = ["deliverance", "trust"]
 
 [[song]]
@@ -124,7 +124,7 @@ ref = "Habakkuk 3:2-19"
 group = "israel"
 sung_by = "Habakkuk, \"for the music director, on my stringed instruments\" (Habakkuk 3:19, WEB)"
 occasion = "Babylon is coming (Habakkuk 1:6). He resolves to rejoice in God when every harvest fails."
-first_line = "For even though the fig tree doesn't flourish … yet I will rejoice in Yahweh. I will be joyful in the God of my salvation!"
+first_line = "For even though the fig tree doesn't flourish … yet I will rejoice in Yahweh. I will be joyful in the God of my salvation! (Habakkuk 3:17-18)"
 sing_when = ["trouble", "trust"]
 
 # --- From the Psalter ------------------------------------------------------------------------------
@@ -237,7 +237,7 @@ occasion = "Sung around the Passover meal; the Mishnah has the last of it sung o
 first_line = "Praise Yah! Praise, you servants of Yahweh, praise Yahweh's name."
 sing_when = ["the-lords-supper", "thanksgiving"]
 jesus = "sang"
-jesus_note = "\"When they had sung a hymn, they went out to the Mount of Olives\" (Matthew 26:30, ESV): very likely the close of the Hallel. The crowds sang Psalm 118:25-26 to Him on the road into Jerusalem (Matthew 21:9)."
+jesus_note = "\"When they had sung a hymn, they went out to the Mount of Olives\" (Matthew 26:30, ESV): very likely the close of the Hallel. The crowds shouted Psalm 118:25-26 to Him on the road into Jerusalem (Matthew 21:9)."
 
 [[song]]
 id = "psalm-118"
@@ -268,7 +268,7 @@ id = "psalm-136"
 title = "Psalm 136: His Love Endures Forever"
 ref = "Psalm 136:1-26"
 group = "psalms"
-sung_by = "A congregation answering a leader: the refrain comes 26 times"
+sung_by = "Probably a congregation answering a leader: the refrain comes 26 times"
 occasion = "Creation, the Exodus and the conquest, told line by line."
 first_line = "Give thanks to Yahweh, for he is good, for his loving kindness endures forever."
 sing_when = ["thanksgiving", "remembering"]
@@ -332,7 +332,7 @@ id = "awake-o-sleeper"
 title = "Awake, O Sleeper"
 ref = "Ephesians 5:14"
 group = "first-church"
-sung_by = "Quoted by Paul: \"Therefore it says\""
+sung_by = "Quoted by Paul: \"Therefore he says\" (Ephesians 5:14, WEB)"
 occasion = "No Old Testament verse reads like it. Possibly an early Christian song, possibly a summary of Isaiah 26:19 and 60:1; contested."
 first_line = "Awake, you who sleep, and arise from the dead, and Christ will shine on you."
 sing_when = ["morning", "repentance"]
@@ -410,7 +410,7 @@ ref = "Revelation 19:1-8"
 group = "heaven"
 sung_by = "A great multitude in heaven"
 occasion = "The fall of Babylon, and the marriage supper of the Lamb announced (Revelation 19:7-9). The only place the New Testament says \"Hallelujah.\""
-first_line = "Hallelujah! For the Lord our God, the Almighty, reigns!"
+first_line = "Hallelujah! For the Lord our God, the Almighty, reigns! (Revelation 19:6)"
 sing_when = ["victory", "worship"]
 
 # --- Songs the early church wrote ------------------------------------------------------------------

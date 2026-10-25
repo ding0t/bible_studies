@@ -5,7 +5,7 @@ description: "What Paul meant by psalms, hymns and spiritual songs in Ephesians 
 tags: ["ephesians", "colossians", "psalms", "worship", "church", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: true
 primary_passage: "Ephesians 5:18-21; Colossians 3:16-17"
-bible_references: ["Ephesians 5:14", "Ephesians 5:18-21", "Colossians 3:16-17", "1 Corinthians 14:15", "1 Corinthians 14:26", "James 5:13", "Acts 16:25", "Matthew 26:30", "Hebrews 2:11-12", "Psalm 22:22", "Zephaniah 3:17", "Exodus 15:1-2", "Exodus 15:20-21", "Deuteronomy 31:19-22", "Deuteronomy 32:1-43", "Judges 5:3", "1 Samuel 2:1-10", "1 Chronicles 25:1-7", "2 Chronicles 29:30", "Psalm 40:3", "Psalm 72:20", "Psalm 76:1", "Psalm 96:1", "Psalm 118:14", "Psalm 145:1", "Isaiah 12:2", "Luke 1:46-55", "Luke 1:68-79", "Luke 2:13-14", "Luke 2:29-32", "Philippians 2:6-11", "Colossians 1:15-20", "1 Timothy 3:16", "Revelation 5:9-10", "Revelation 14:3", "Revelation 15:2-4"]
+bible_references: ["Ephesians 5:14", "Ephesians 5:18-21", "Colossians 3:16-17", "1 Corinthians 14:15", "1 Corinthians 14:26", "James 5:13", "Acts 16:25", "Matthew 26:30", "Hebrews 2:11-12", "Psalm 22:22", "Zephaniah 3:17", "Exodus 15:1-2", "Exodus 15:20-21", "Deuteronomy 31:19-22", "Deuteronomy 32:1-43", "Judges 5:3", "1 Samuel 2:1-10", "1 Chronicles 25:1-7", "2 Chronicles 29:30", "Psalm 40:3", "Psalm 72:20", "Psalm 76:1", "Psalm 96:1", "Psalm 118:14", "Psalm 145:1", "Isaiah 12:2", "Luke 1:46-55", "Luke 1:68-79", "Luke 2:13-14", "Luke 2:29-32", "Philippians 2:6-11", "Colossians 1:15-20", "1 Timothy 3:16", "Revelation 5:9-10", "Revelation 14:3", "Revelation 15:2-4", "Isaiah 26:19", "Isaiah 60:1", "2 Samuel 22:1-51", "Revelation 4:8-11", "Revelation 19:1-8"]
 date_created: 2026-10-25
 date_modified: 2026-10-25
 ai_provider_models:
@@ -124,7 +124,7 @@ Ephesians 5:18-19 being practised nearly a century and a half later.
 ## The word of Christ, sung
 
 Paul wrote Colossians at the same time and sent it by the same man, Tychicus (Ephesians 6:21;
-Colossians 4:7). Its version of the passage is close to word for word.
+Colossians 4:7). Its version of the passage runs closely parallel.
 
 > ✝️ Colossians 3:16-17 (ESV)
 >
@@ -141,7 +141,8 @@ church through the word about Christ, and the songs are one channel the word tra
 ### Songs that teach
 
 Colossians makes the songs a means of teaching: "teaching and admonishing one another" (Colossians
-3:16). The singing has two directions. It goes sideways, "addressing one another" (Ephesians 5:19),
+3:16). The NASB, CSB and NIV attach the psalms to that teaching ("with psalms", "through psalms"), and the
+ESV attaches them to the singing; Ephesians 5:19, "addressing one another in psalms," says it either way. The singing has two directions. It goes sideways, "addressing one another" (Ephesians 5:19),
 and upward, "to the Lord with your heart." The person next to you in church hears your song, and it
 teaches them.
 
@@ -166,16 +167,16 @@ Each has a Hebrew word behind it, through the Greek Old Testament his churches r
 
 | Greek | Hebrew behind it | Centre of meaning | Where it occurs |
 |---|---|---|---|
-| ψαλμός *psalmos* | <span dir="rtl">מִזְמוֹר</span> (*mizmor*, H4210) | a song sung to a plucked instrument | 7 times in the NT, four of them naming the book of Psalms (Luke 20:42; 24:44; Acts 1:20; 13:33). *Mizmor* occurs 57 times, every one in a psalm title. |
+| ψαλμός *psalmos* | <span dir="rtl">מִזְמוֹר</span> (*mizmor*, H4210) | a song sung to a plucked instrument | 7 times in the NT, four of them referring to the Psalms (Luke 20:42; 24:44; Acts 1:20; 13:33). *Mizmor* occurs 57 times, every one in a psalm title. |
 | ὕμνος *hymnos* | <span dir="rtl">תְּהִלָּה</span> (*tehillah*, H8416) | a song of praise addressed to God | Only Ephesians 5:19 and Colossians 3:16 in the NT. Psalm 145 is the one psalm titled *tehillah*, and the plural, *Tehillim*, is the Hebrew name of the whole book. |
-| ᾠδή *ōdē* | <span dir="rtl">שִׁיר</span> (*shir*, H7892) | song, the general word | Ephesians 5:19; Colossians 3:16; Revelation 5:9; 14:3; 15:3. *Shir* runs through 16 books, from Moses' song (Exodus 15:1) to the Song of Songs. |
+| ᾠδή *ōdē* | <span dir="rtl">שִׁיר</span> (*shir*, H7892) | song, the general word | Ephesians 5:19; Colossians 3:16; Revelation 5:9; 14:3; 15:3. *Shir* occurs in 16 books, among them Moses' song (Exodus 15:1) and the Song of Songs. |
 
 ### Psalm 76 carries all three
 
 The Hebrew title of Psalm 76 reads "To the choirmaster: with stringed instruments. A Psalm of Asaph.
-A Song" (ESV). The Greek Old Testament translated it ἐν ὕμνοις, ψαλμὸς τῷ Ἀσάφ, ᾠδή: "in hymns, a
-psalm of Asaph, a song" (<span data-ref="Psalm 76:1">LXX Psalm 75:1</span>, Brenton). Paul's three words stand together in one psalm
-title. The Greek Psalter uses *psalmos* in 72 places and *ōdē* in 44, most of them in titles. Every
+A Song" (ESV). The Greek Old Testament translated it ἐν ὕμνοις, ψαλμὸς τῷ Ἀσάφ· ᾠδή: "in hymns, a
+psalm of Asaph, a song" (<span data-ref="Psalm 76:1">LXX Psalm 75:1</span>, Brenton's Greek text). Paul's three words stand together in one psalm
+title. The Greek Psalter uses *psalmos* 72 times and *ōdē* 44 times, most of them in titles. Every
 Song of Ascents (Psalms 120-134) is headed ᾠδή. At the end of Book Two the Hebrew reads "The prayers
 of David, the son of Jesse, are ended" (Psalm 72:20, ESV), and the Greek has "the *hymns* of David".
 
@@ -210,7 +211,7 @@ already given, and it was inspired.
   but I will sing with my mind also" (1 Corinthians 14:15, ESV).
 - The Psalms themselves call for new songs: "He put a new song in my mouth" (Psalm 40:3, ESV; see
   Psalm 96:1).
-- In heaven the saints "sang a new song" to the Lamb by name: "Worthy are you… for you were slain"
+- In heaven the living creatures and the elders "sang a new song" to the Lamb: "Worthy are you… for you were slain"
   (Revelation 5:9, ESV). The Psalter could not yet name Him.
 - Tertullian's church sang songs "from the holy Scriptures or one of his own composing."
 
@@ -252,8 +253,8 @@ has become my salvation" (Exodus 15:2, ESV). The Hallel sings it again: "The LOR
 my song; he has become my salvation" (Psalm 118:14, ESV). So does Isaiah, of a rescue still to come
 (Isaiah 12:2). God's people sang His first great deliverance into every later one.
 
-One word in the line is debated. <span dir="rtl">זִמְרָת</span> (*zimrat*, H2176) is "my song" in
-the ESV, CSB, NASB and NLT, and "my defense" in the NIV; the CSB footnotes "Or might." Hebrew has two
+One word in the line is debated. <span dir="rtl">זִמְרָת</span> (*zimrat*, H2176) is "song" in
+the ESV, CSB, NASB and NLT, and "defense" in the NIV; the CSB footnotes "Or might." Hebrew has two
 words spelled this way, one meaning song and one meaning strength or protection. The reuse of the
 line across Exodus, Psalms and Isaiah holds whichever sense is right.
 
@@ -287,7 +288,7 @@ way, every one of them sings about Jesus.
 
 ### Revelation's songs
 
-Revelation is full of hymns of praise (Revelation 4:8, 11; 5:9-14; 19:1-8). Its last song returns
+Revelation is full of hymns of praise (Revelation 4:8, 11; 5:9-14; 19:1-8). One of its songs returns
 to the first. Beside "a sea of glass mingled with fire" stand "those who had conquered the beast,"
 and "they sing the song of Moses, the servant of God, and the song of the Lamb" (Revelation 15:2-3,
 ESV). Moses sang beside the Red Sea after Pharaoh's army drowned. These saints sing beside a heavenly
@@ -306,7 +307,7 @@ mouth of Jesus:
 > ashamed to call them brothers, 12 saying, "I will tell of your name to my brothers; in the midst
 > of the congregation I will sing your praise."
 
-The verb is ὑμνήσω (*hymnēsō*), from the same root as Paul's "hymns." The Son of God stands among
+The verb is ὑμνήσω (*hymnēsō*, G5214), from the same root as Paul's "hymns." The Son of God stands among
 the people He has made His brothers and sings the Father's praise. This is adoption: He calls you
 His brother or sister, and He leads the singing. When a church sings to the Father in the name of
 the Lord Jesus Christ (Ephesians 5:20), it joins a song He is already singing.
@@ -340,12 +341,12 @@ the *Odes* after the Psalms. In the order of the fifth-century Codex Alexandrinu
 13. Zechariah's song (Luke 1)
 14. The morning hymn, which opens with the angels' words, "Glory to God in the highest" (Luke 2:14)
 
-Two of these, the Prayer of Manasseh and the Greek additions to Daniel, are outside the Protestant
-canon; the rest are Scripture. The fourteenth is a Christian hymn built on Luke 2:14, copied into a
-Bible.
+Four of these are outside the Protestant canon: the Prayer of Manasseh, the two odes from the Greek
+additions to Daniel, and the fourteenth, a Christian hymn built on Luke 2:14 and copied into a Bible.
+The other ten are Scripture.
 
-Christians also wrote new songs from the start. Early in the third century a writer quoted by Eusebius answered a
-heretic who denied that Jesus is God by pointing to the songs: "how many psalms and hymns, written by
+Christians also wrote new songs from the start. Early in the third century a writer quoted by Eusebius answered the
+followers of Artemon, who taught that Jesus was a mere man, by pointing to the songs: "how many psalms and hymns, written by
 the faithful brethren from the beginning, celebrate Christ the Word of God, speaking of him as
 Divine" (Eusebius, *Church History* 5.28.5, NPNF2 1). The church's songs held its doctrine.
 
