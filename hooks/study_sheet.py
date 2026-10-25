@@ -1,13 +1,15 @@
 """Add a printable group study sheet to every study that has a point and discussion questions.
 
-One A4 sheet, printed double-sided, for a 40-minute small group or a study with a friend:
+Four A4 pages, two sheets printed double-sided, for a 40-minute small group or a study with a
+friend, set at 12 pt for older eyes:
 
-- side 1  the point, an opening question, the primary passage to read aloud (WEB), a "look closer"
-          box to write in, the study's primary graphic (its comic, else its first drawn diagram)
-          and the Study outline as "the study in brief".
-- side 2  the discussion questions on a timed plan, with room to write, then the response: the
-          Be Transformed think/attitude/do, the first memory verse and the study's prayer, and a QR
-          code back to the full study.
+- page 1  the point, an opening question, the primary passage to read aloud (WEB) and a "look
+          closer" box to write in.
+- page 2  the study's primary graphic (its comic, else its first drawn diagram) as large as the
+          page allows, and the Study outline as "the study in brief".
+- page 3  the discussion questions on a timed plan, with room to write.
+- page 4  the response: the Be Transformed think/attitude/do, the first memory verse and the
+          study's prayer, room for notes, and a QR code back to the full study.
 
 Everything on the sheet is lifted from the rendered study, so it says nothing the study does not
 and needs no checking of its own. The facet labels on the questions (develop-bible-study's
@@ -53,7 +55,7 @@ _BOOKS = {
 _SINGLE_CHAPTER = {"Obad", "Phlm", "2John", "3John", "Jude"}
 _REF = re.compile(r"^(?:(?P<book>(?:[123]\s)?\D+?)\s+)?(?P<c1>\d+)(?::(?P<v1>\d+))?(?:-(?:(?P<c2>\d+):)?(?P<v2>\d+))?$")
 
-# (key, label, from minute, to minute). The widths of the plan bar on side 2 are these minutes.
+# (key, label, from minute, to minute). The widths of the plan bar on page 3 are these minutes.
 _PLAN = (
     ("open", "Open", 0, 5),
     ("read", "Read", 5, 12),
@@ -69,23 +71,24 @@ _FACETS = {
     "be transformed": "respond",
 }
 
-# More passage than side 1 holds at any size; the rest of the fitting is _FIT_SCRIPT's.
-_MOST_WORDS = 900
+# More passage than page 1 holds at 12 pt; the rest of the fitting is _FIT_SCRIPT's.
+_MOST_WORDS = 500
 
-# Fits side 1 to its page, which a word count cannot: the point, the opener and the outline all
-# vary. Steps the passage type down, then moves trailing passages to "Also read", then trims verses
-# from the end; and tightens the outline column, then drops its annotations, then the outline. Every size is in sheet
-# millimetres, so a fit measured on the screen preview holds on paper. Runs on open and on print.
+# Fits page 1 to its page, which a word count cannot: the point, the opener and the passage all
+# vary, and the type never shrinks below 12 pt to make room. Moves trailing passages to "Also read",
+# then trims verses from the end; on page 2, drops the outline's annotations, then the outline.
+# Every size is in sheet millimetres, so a fit measured on the screen preview holds on paper. Runs
+# on open and on print.
 _FIT_SCRIPT = """<script>
 function ssFit(details) {
-  const sheet = details.querySelector(".ss-front"), main = sheet.querySelector(".ss-main");
-  const side = sheet.querySelector(".ss-side"), read = sheet.querySelector(".ss-read");
-  const also = sheet.querySelector(".ss-also"), passages = [...read.querySelectorAll(".ss-passage")];
+  const p1 = details.querySelector(".ss-p1"), main = p1.querySelector(".ss-main");
+  const p2 = details.querySelector(".ss-p2"), brief = p2.querySelector(".ss-brief");
+  const read = p1.querySelector(".ss-read"), also = p1.querySelector(".ss-also");
+  const passages = [...read.querySelectorAll(".ss-passage")];
   const over = (e) => e && e.scrollHeight > e.clientHeight + 1;
-  sheet.querySelectorAll("[data-fit]").forEach((e) => { e.hidden = false; delete e.dataset.fit; });
-  sheet.classList.remove("ss-dense", "ss-tight", "ss-titles", "ss-nobrief");
+  details.querySelectorAll("[data-fit]").forEach((e) => { e.hidden = false; delete e.dataset.fit; });
+  p2.classList.remove("ss-titles", "ss-nobrief");
   const dropped = [];
-  if (over(main)) sheet.classList.add("ss-dense");
   while (over(main) && passages.length > 1) {
     const p = passages.pop();
     p.hidden = true; p.dataset.fit = ""; dropped.unshift(p.dataset.passage);
@@ -97,12 +100,14 @@ function ssFit(details) {
     v.hidden = true; v.dataset.fit = ""; from = v.dataset.verse;
   }
   if (from) dropped.unshift(passages[0].dataset.passage + " from " + from);
-  const rest = dropped.concat(also.dataset.also ? [also.dataset.also] : []);
+  // The hook's own cut ("John 4:1-42 from 4:30") gives way to the fit's, which starts earlier.
+  const passage = (e) => e.split(" from ")[0], fitted = new Set(dropped.map(passage));
+  const cut = also.dataset.also ? also.dataset.also.split("; ") : [];
+  const rest = dropped.concat(cut.filter((e) => !fitted.has(passage(e))));
   also.textContent = "Also read: " + rest.join("; ");
   also.hidden = !rest.length;
-  if (over(side)) sheet.classList.add("ss-tight");
-  if (over(side)) sheet.classList.add("ss-titles");
-  if (over(side)) sheet.classList.add("ss-nobrief");
+  if (over(brief)) p2.classList.add("ss-titles");
+  if (over(brief)) p2.classList.add("ss-nobrief");
 }
 // Print follows html.ss-on, which only the reader sets, by clicking the summary or Print sheet:
 // mkdocs-material opens every <details> when printing, so [open] cannot tell a sheet the reader
@@ -169,61 +174,70 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
     title = page.meta.get("title") or page.title
     graphic = _graphic(page, config, article)
     layout = graphic["shape"] if graphic else "none"
-    passages = _passages(page.meta.get("primary_passage"), config)
-    read = _read(passages)
+    read = _read(_passages(page.meta.get("primary_passage"), config))
     url = page.canonical_url
 
-    side = ""
-    if layout == "portrait":
-        side = f'<img class="ss-graphic" src="{graphic["src"]}" alt="">'
-    side += _brief(_section(article, 2, "study-outline"))
-    wide = f'<img class="ss-graphic ss-graphic-wide" src="{graphic["src"]}" alt="">' if layout == "landscape" else ""
+    head = f'<header class="ss-head ss-head-back"><h2>{escape(title)}</h2></header>'
 
-    front = f"""<section class="ss-sheet ss-front ss-{layout}" aria-label="Study sheet, side 1">
+    def foot(n: int) -> str:
+        return f"""<footer class="ss-foot"><span>Page {n} of 4 · print double-sided, flip on long edge</span><span>{_NOTICE}</span></footer>"""
+
+    p1 = f"""<section class="ss-sheet ss-p1" aria-label="Study sheet, page 1">
   <header class="ss-head">
     <span class="ss-kicker">Group study · 40 minutes</span>
     <h2>{escape(title)}</h2>
     <span class="ss-ref">{escape(str(page.meta.get("primary_passage") or ""))}</span>
   </header>
   <p class="ss-point"><b>The point</b> {_clean(point)}</p>
-  <div class="ss-body">
-    <div class="ss-main">
-      <div class="ss-open">{_badge("open")}<p>{_opener(page.meta, title)}</p></div>
-      <div class="ss-read"><span class="ss-h">{_badge("read")}Read it aloud <small>WEB</small></span>{read}</div>
-      {wide}
-      <div class="ss-look"><span class="ss-h">{_badge("discover")}Look closer <small>before you turn over</small></span>
-        <div class="ss-look-rows"><div><b>What does it say?</b><i></i></div><div><b>What did it mean to them?</b><i></i></div><div><b>What does it mean for us?</b><i></i></div></div>
-      </div>
+  <div class="ss-main">
+    <div class="ss-open">{_badge("open")}<p>{_opener(page.meta, title)}</p></div>
+    <div class="ss-read"><span class="ss-h">{_badge("read")}Read it aloud <small>WEB</small></span>{read}</div>
+    <div class="ss-look"><span class="ss-h">{_badge("discover")}Look closer</span>
+      <div class="ss-look-rows"><div><b>What does it say?</b><i></i></div><div><b>What did it mean to them?</b><i></i></div><div><b>What does it mean for us?</b><i></i></div></div>
     </div>
-    {f'<aside class="ss-side">{side}</aside>' if side else ""}
   </div>
-  <footer class="ss-foot"><span>Side 1 of 2 · print double-sided, flip on long edge</span><span>{_NOTICE}</span></footer>
+  {foot(1)}
 </section>"""
 
-    back = f"""<section class="ss-sheet ss-back" aria-label="Study sheet, side 2">
+    picture = f'<img class="ss-graphic" src="{graphic["src"]}" alt="">' if graphic else ""
+    notes = '<div class="ss-notes"><span class="ss-h">Notes</span><i></i></div>'
+    p2 = f"""<section class="ss-sheet ss-p2 ss-{layout}" aria-label="Study sheet, page 2">
+  {head}
+  <div class="ss-p2-body">{picture}{_brief(_section(article, 2, "study-outline"))}{notes if not graphic else ""}</div>
+  {foot(2)}
+</section>"""
+
+    p3 = f"""<section class="ss-sheet ss-p3" aria-label="Study sheet, page 3">
   <header class="ss-head ss-head-back"><h2>{escape(title)}</h2>{_plan()}</header>
   <div class="ss-questions">{_questions(questions)}</div>
+  {foot(3)}
+</section>"""
+
+    qr = f"""<span class="ss-qr">{segno.make(url, error="m").svg_inline(border=0, omitsize=True, dark="#1d1b19")}</span>
+    <span class="ss-url"><b>The whole study, with every verse a tap away</b>{escape(url)}</span>"""
+    p4 = f"""<section class="ss-sheet ss-p4" aria-label="Study sheet, page 4">
+  {head}
   <div class="ss-respond">{_respond(article)}</div>
-  <footer class="ss-foot ss-foot-back">
-    <span class="ss-qr">{segno.make(url, error="m").svg_inline(border=0, omitsize=True, dark="#1d1b19")}</span>
-    <span class="ss-url"><b>The whole study, with every verse a tap away</b>{escape(url)}</span>
-    <span>Side 2 of 2 · {_NOTICE}</span>
-  </footer>
+  {notes}
+  <div class="ss-link">{qr}</div>
+  {foot(4)}
 </section>"""
 
     return f"""
 <details class="ss" id="group-study-sheet" data-no-popups>
-  <summary>Group study sheet <small>one A4 sheet, double-sided, for a 40-minute group</small></summary>
+  <summary>Group study sheet <small>two A4 sheets, double-sided, for a 40-minute group</small></summary>
   <div class="ss-controls">
     <p>The point, the passage, the questions on a timed plan and the response, from this study.
-    Print on both sides of one A4 sheet, flipping on the long edge. While this block is open,
+    Print on both sides of two A4 sheets, flipping on the long edge. While this block is open,
     printing the page prints the sheet; close it to print the study.</p>
     <label><input type="checkbox" class="ss-opt-mono"> Black &amp; white <small>for a black-only printer</small></label>
     <button type="button" class="md-button md-button--primary"
       onclick="const d=this.closest('details');d.open=true;ssOn(true);ssFit(d);window.print()">Print sheet</button>
   </div>
-  {front}
-  {back}
+  {p1}
+  {p2}
+  {p3}
+  {p4}
   {_FIT_SCRIPT}
 </details>
 """
@@ -262,20 +276,24 @@ def _opener(meta: dict, title: str) -> str:
 
 
 def _graphic(page, config, article: str) -> dict | None:
-    """The study's primary graphic: its comic, else the first drawn (SVG) image on the page."""
+    """The study's primary graphic: its comic, else the first drawn (SVG) image on the page that is
+    a diagram, not an emblem."""
     srcs = re.findall(r'<img\b[^>]*\bsrc="([^"]+\.svg)"', article)
     srcs = [s for s in srcs if "/assets/img/" in "/" + s and "favicon" not in s]
-    src = next((s for s in srcs if "/comics/" in s), srcs[0] if srcs else None)
-    if not src:
-        return None
-    path = Path(config.docs_dir) / posixpath.normpath(posixpath.join(page.url, src))
-    try:
-        box = re.search(r'viewBox="([\d.\s-]+)"', path.read_text(encoding="utf-8")[:2000])
-    except FileNotFoundError:
-        log.warning("study_sheet: %s has no file at %s", page.file.src_uri, path)
-        return None
-    w, h = (float(n) for n in box[1].split()[2:4]) if box else (1, 1)
-    return {"src": src, "shape": "landscape" if w / h > 1.1 else "portrait"}
+    srcs = sorted(srcs, key=lambda s: "/comics/" not in s)
+    for src in srcs:
+        path = Path(config.docs_dir) / posixpath.normpath(posixpath.join(page.url, src))
+        try:
+            box = re.search(r'viewBox="([\d.\s-]+)"', path.read_text(encoding="utf-8")[:2000])
+        except FileNotFoundError:
+            log.warning("study_sheet: %s has no file at %s", page.file.src_uri, path)
+            continue
+        w, h = (float(n) for n in box[1].split()[2:4]) if box else (1, 1)
+        # A feast's 100-unit emblem is decoration, and blown up to a page it says nothing.
+        if w < 300:
+            continue
+        return {"src": src, "shape": "landscape" if w / h > 1.1 else "portrait"}
+    return None
 
 
 def _passages(value, config) -> list[dict]:
@@ -340,9 +358,12 @@ def _read(passages: list[dict]) -> str:
 
 
 def _brief(outline_html: str) -> str:
-    # Each outline line opens with a link to its section; the link text is the section's name.
-    items = [_clean(re.sub(r"^\s*<a\b[^>]*>(.*?)</a>(.*)", r"<b>\1</b><span>\2</span>", i, flags=re.DOTALL))
-             for i in _items(outline_html, "ul")]
+    # Each outline line opens with its section's name: a link, bold, or a bold link, in a bulleted
+    # or a numbered list.
+    lists = re.search(r"<(ul|ol)>", outline_html)
+    items = [_clean(re.sub(r"^\s*(<strong>.*?</strong>|<a\b[^>]*>.*?</a>)(.*)",
+                           lambda m: f"<b>{re.sub(r'<[^>]+>', '', m[1])}</b><span>{m[2]}</span>", i, flags=re.DOTALL))
+             for i in _items(outline_html, lists[1])] if lists else []
     items = [i for i in items if not i.startswith("<b>Discussion questions")]
     if not items:
         return ""

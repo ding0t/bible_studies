@@ -436,8 +436,8 @@ the workflow manually (`workflow_dispatch`).
   the reusable cast, poses, scenes and layouts in `utils/lib/comic.py`; every bubble is the ESV's
   wording or marked "condensed" from the verses its panel names.
 - **Every study with a point and discussion questions gets a printable group sheet**
-  (`hooks/study_sheet.py`): one A4 sheet, double-sided, for a 40-minute group, in a collapsed
-  block under the questions. It is assembled from the rendered study (the `**In one sentence:**`
+  (`hooks/study_sheet.py`): four A4 pages at 12 pt, two sheets double-sided, for a 40-minute
+  group, in a collapsed block under the questions (a printer icon by the title jumps to it). It is assembled from the rendered study (the `**In one sentence:**`
   thesis, `primary_passage` in WEB, the first comic or drawn SVG, the Study outline, the
   questions, Be Transformed, the first memory verse, the prayer), so it says nothing the study
   does not. The sheet is the group's; **the study itself is the leader's notes** — one set of

@@ -1,12 +1,16 @@
-/* Group study sheet -- rendered by hooks/study_sheet.py.
+/* Group study sheet -- rendered by hooks/study_sheet.py. Four A4 pages, two sheets double-sided.
  *
  * The memory verse cards' unit (memory-verses.css): --mm is 1/210 of the sheet's width, so the
  * on-screen sheet is an exact scale model of the printed A4 page. Paper in both site palettes.
- * Each side is a flex column inside a 10 mm margin; the parts that must fit (passage, questions)
+ * Each page is a flex column inside a 12 mm margin; the parts that must fit (passage, questions)
  * take what is left, and the ruled writing space is whatever remains after them. */
 
 .ss {
-  --mm: calc(100cqw / 210);
+  /* The block is the container, not the sheet: a sheet's own type, padding and gap resolve cqw
+     against the container above it, so with the sheet as container they followed the viewport and
+     the preview ssFit measures stopped matching paper. Its width is the sheet's, below. */
+  container-type: inline-size;
+  --mm: calc(min(100cqw - 1.6rem, 210mm) / 210);
   --ss-ink: #1d1b19;
   --ss-muted: #6b665f;
   /* Chosen to hold up printed in greyscale: the accent reads as near-black, the rules as a grey a
@@ -60,10 +64,13 @@
 
 /* ---- Sheet ------------------------------------------------------------------------------- */
 
+/* Type in points, for older eyes: 12 pt for everything read (--pt12), never smaller to make room;
+   10 pt for labels, 9 pt for the footer. 1 pt is 0.3528 mm. */
 .ss-sheet {
-  container-type: inline-size;
+  --pt: calc(0.3528 * var(--mm));
+  --pt12: calc(12 * var(--pt));
   position: relative;
-  width: min(100% - 1.6rem, 210mm);
+  width: calc(210 * var(--mm));
   aspect-ratio: 210 / 297;
   margin: 0 auto 1.6rem;
   background: #fff;
@@ -71,19 +78,17 @@
   box-shadow: 0 0.1rem 0.6rem rgb(0 0 0 / 0.18);
   overflow: hidden;
   font-family: var(--ss-serif);
-  line-height: 1.3;
+  line-height: 1.35;
   print-color-adjust: exact;
   -webkit-print-color-adjust: exact;
-}
-.ss-sheet > * { position: relative; }
-.ss-sheet {
   display: flex;
   flex-direction: column;
-  gap: calc(3 * var(--mm));
-  padding: calc(10 * var(--mm)) calc(10 * var(--mm)) calc(15 * var(--mm));
+  gap: calc(4 * var(--mm));
+  padding: calc(12 * var(--mm)) calc(12 * var(--mm)) calc(17 * var(--mm));
   box-sizing: border-box;
-  font-size: calc(3.1 * var(--mm));
+  font-size: var(--pt12);
 }
+.ss-sheet > * { position: relative; }
 .ss-sheet p { margin: 0; }
 .ss-sheet h2 {
   margin: 0;
@@ -93,19 +98,19 @@
   color: var(--ss-ink);
 }
 .ss-sheet b, .ss-sheet strong { font-weight: 600; }
-.ss-sheet small { font-size: 0.78em; }
+.ss-sheet small { font-size: 0.85em; }
 
-/* Section labels: small capitals in the accent colour. */
+/* Section labels: capitals in the accent colour. */
 .ss-h {
   display: flex;
   align-items: center;
-  gap: calc(2 * var(--mm));
-  margin-bottom: calc(1.4 * var(--mm));
+  gap: calc(2.5 * var(--mm));
+  margin-bottom: calc(2 * var(--mm));
   font-family: var(--ss-sans);
-  font-size: calc(2.4 * var(--mm));
+  font-size: calc(10 * var(--pt));
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: var(--ss-accent);
 }
 .ss-h small { font-weight: 400; letter-spacing: 0.04em; color: var(--ss-muted); text-transform: none; }
@@ -113,22 +118,22 @@
 .ss-badge {
   display: inline-flex;
   align-items: baseline;
-  gap: calc(0.5 * var(--mm));
-  padding: calc(0.4 * var(--mm)) calc(1.6 * var(--mm));
+  gap: calc(0.6 * var(--mm));
+  padding: calc(0.6 * var(--mm)) calc(2 * var(--mm));
   border-radius: calc(4 * var(--mm));
   background: var(--ss-accent);
   color: #fff;
   font-family: var(--ss-sans);
-  font-size: calc(2.2 * var(--mm));
+  font-size: calc(10 * var(--pt));
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: none;
   white-space: nowrap;
 }
-.ss-sheet .ss-badge small { font-weight: 400; font-size: 0.8em; color: inherit; letter-spacing: 0; }
-.ss-badge-open { float: left; margin: calc(0.3 * var(--mm)) calc(2 * var(--mm)) 0 0; }
+.ss-sheet .ss-badge small { font-weight: 400; font-size: 0.85em; color: inherit; letter-spacing: 0; }
+.ss-badge-open { float: left; margin: calc(0.4 * var(--mm)) calc(2.5 * var(--mm)) 0 0; }
 
-/* ---- Side 1 ------------------------------------------------------------------------------ */
+/* ---- Page 1 ------------------------------------------------------------------------------ */
 
 .ss-head {
   display: grid;
@@ -141,123 +146,111 @@
 .ss-kicker {
   grid-column: 1 / -1;
   font-family: var(--ss-sans);
-  font-size: calc(2.3 * var(--mm));
+  font-size: calc(10 * var(--pt));
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   color: var(--ss-muted);
 }
-.ss-head h2 { font-size: calc(6.4 * var(--mm)); line-height: 1.1; }
+.ss-head h2 { font-size: calc(22 * var(--pt)); line-height: 1.1; }
 .ss-ref {
   max-width: calc(70 * var(--mm));
   text-align: right;
   font-family: var(--ss-sans);
-  font-size: calc(2.5 * var(--mm));
+  font-size: calc(11 * var(--pt));
   color: var(--ss-muted);
 }
 
 .ss-point {
-  padding: calc(2.6 * var(--mm)) calc(3.5 * var(--mm));
+  padding: calc(3 * var(--mm)) calc(4 * var(--mm));
   background: var(--ss-tint);
   border-left: calc(1 * var(--mm)) solid var(--ss-accent);
-  font-size: calc(3.4 * var(--mm));
-  line-height: 1.35;
 }
 .ss-point > b {
   margin-right: calc(1.5 * var(--mm));
   font-family: var(--ss-sans);
-  font-size: calc(2.4 * var(--mm));
+  font-size: calc(10 * var(--pt));
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   color: var(--ss-accent);
 }
 
-.ss-body {
-  flex: 1;
-  min-height: 0;
-  display: flex;
-  gap: calc(6 * var(--mm));
-}
 .ss-main {
   flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: calc(3.5 * var(--mm));
-  overflow: hidden;
-}
-.ss-side {
-  width: calc(66 * var(--mm));
+  min-height: 0;
   display: flex;
   flex-direction: column;
   gap: calc(4 * var(--mm));
   overflow: hidden;
 }
-.ss-none .ss-side { width: calc(54 * var(--mm)); }
 
-.ss-open p { font-size: calc(3.2 * var(--mm)); }
-
-.ss-passage { margin-top: calc(1.2 * var(--mm)) !important; text-align: justify; hyphens: auto; }
-.ss-passage > b { font-family: var(--ss-sans); font-size: 0.85em; margin-right: calc(1 * var(--mm)); }
+.ss-passage { margin-top: calc(1.4 * var(--mm)) !important; line-height: 1.45; }
+.ss-passage > b { font-family: var(--ss-sans); font-size: 0.9em; margin-right: calc(1.2 * var(--mm)); }
 .ss-passage sup {
   font-family: var(--ss-sans);
-  font-size: 0.62em;
+  font-size: 0.7em;
   color: var(--ss-muted);
-  margin: 0 calc(0.4 * var(--mm)) 0 calc(0.8 * var(--mm));
+  margin: 0 calc(0.5 * var(--mm)) 0 calc(1 * var(--mm));
 }
-.ss-dense .ss-passage { font-size: calc(2.75 * var(--mm)); line-height: 1.28; }
 .ss-also {
-  margin-top: calc(1.4 * var(--mm)) !important;
+  margin-top: calc(1.6 * var(--mm)) !important;
   font-family: var(--ss-sans);
-  font-size: calc(2.4 * var(--mm));
+  font-size: calc(10 * var(--pt));
   color: var(--ss-muted);
 }
 
-.ss-graphic { display: block; width: 100%; height: auto; }
-.ss-graphic-wide { max-height: calc(80 * var(--mm)); object-fit: contain; }
+/* Three rows, each a full-width label with writing lines under it: room for two lines each. */
+.ss-look { flex: 1; min-height: calc(62 * var(--mm)); display: flex; flex-direction: column; }
+.ss-look-rows { flex: 1; display: grid; grid-template-rows: repeat(3, 1fr); gap: calc(2.5 * var(--mm)); }
+.ss-look-rows div { display: flex; flex-direction: column; border-top: calc(0.3 * var(--mm)) solid var(--ss-ink); padding-top: calc(1 * var(--mm)); }
+.ss-look-rows b { font-family: var(--ss-sans); font-size: calc(11 * var(--pt)); line-height: 1.5; }
 
-/* Three rows, each a full-width label with writing lines under it: room for at least one line each. */
-.ss-look { flex: 1; min-height: calc(50 * var(--mm)); display: flex; flex-direction: column; }
-.ss-look-rows { flex: 1; display: grid; grid-template-rows: repeat(3, 1fr); gap: calc(2 * var(--mm)); }
-.ss-look-rows div { display: flex; flex-direction: column; border-top: calc(0.3 * var(--mm)) solid var(--ss-ink); padding-top: calc(0.8 * var(--mm)); }
-.ss-look-rows b { font-family: var(--ss-sans); font-size: calc(2.6 * var(--mm)); line-height: 1.6; }
-
-/* Ruled writing space, wherever an <i> is left empty for it. */
+/* Ruled writing space, wherever an <i> is left empty for it, 8 mm apart for a larger hand. */
 /* A tiled single rule, not a repeating-linear-gradient: Chrome's PDF output drops every few
    stripes of a repeating gradient. */
-.ss-look-rows i, .ss-q i {
+.ss-look-rows i, .ss-q i, .ss-notes i {
   flex: 1;
-  min-height: calc(7 * var(--mm));
+  min-height: calc(8 * var(--mm));
   background: linear-gradient(transparent calc(100% - 0.25 * var(--mm)), var(--ss-rule) 0)
-    0 0 / 100% calc(7 * var(--mm)) repeat-y;
+    0 0 / 100% calc(8 * var(--mm)) repeat-y;
 }
 
-.ss-brief ol { margin: 0; padding-left: calc(4.5 * var(--mm)); }
+/* ---- Page 2: the picture and the study in brief ------------------------------------------ */
+
+.ss-p2-body { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: calc(5 * var(--mm)); }
+.ss-graphic { display: block; min-width: 0; min-height: 0; object-fit: contain; object-position: top; }
+/* A tall graphic takes the page's full height, and the outline the column it leaves. */
+.ss-portrait .ss-p2-body { flex-direction: row; }
+.ss-portrait .ss-graphic { height: 100%; width: auto; max-width: 68%; }
+.ss-landscape .ss-graphic { width: 100%; height: auto; max-height: 60%; }
+.ss-brief { flex: 1; min-width: 0; min-height: 0; overflow: hidden; }
+.ss-brief ol { margin: 0; padding-left: calc(6 * var(--mm)); }
 /* The ink is restated because Material colours list items itself, pale grey in its dark palette. */
-.ss-brief li { margin: 0 0 calc(1.3 * var(--mm)); font-size: calc(2.6 * var(--mm)); line-height: 1.3; color: var(--ss-ink); }
+.ss-brief li { margin: 0 0 calc(2.2 * var(--mm)); line-height: 1.3; color: var(--ss-ink); }
 .ss-brief li::marker { font-family: var(--ss-sans); color: var(--ss-muted); }
-/* Set by ssFit when the outline overruns its column: smaller, then section names only. */
-.ss-tight .ss-brief li { margin-bottom: calc(0.7 * var(--mm)); font-size: calc(2.3 * var(--mm)); }
+/* Set by ssFit when the outline overruns its column: section names only, then no outline. */
 .ss-titles .ss-brief li > span { display: none; }
 .ss-nobrief .ss-brief { display: none; }
+.ss-notes { flex: 1; min-height: calc(40 * var(--mm)); display: flex; flex-direction: column; }
+.ss-none .ss-brief { flex: none; }
 
 .ss-foot {
   position: absolute !important;
-  left: calc(10 * var(--mm));
-  right: calc(10 * var(--mm));
-  bottom: calc(6 * var(--mm));
+  left: calc(12 * var(--mm));
+  right: calc(12 * var(--mm));
+  bottom: calc(7 * var(--mm));
   display: flex;
   justify-content: space-between;
   gap: calc(4 * var(--mm));
   font-family: var(--ss-sans);
-  font-size: calc(1.9 * var(--mm));
+  font-size: calc(9 * var(--pt));
   color: var(--ss-muted);
 }
 
-/* ---- Side 2 ------------------------------------------------------------------------------ */
+/* ---- Pages 3 and 4 ----------------------------------------------------------------------- */
 
 .ss-head-back { grid-template-columns: 1fr; }
-.ss-head-back h2 { font-size: calc(4.6 * var(--mm)); }
-.ss-plan { display: flex; gap: calc(0.6 * var(--mm)); font-family: var(--ss-sans); font-size: calc(2.2 * var(--mm)); }
+.ss-head-back h2 { font-size: calc(15 * var(--pt)); }
+.ss-plan { display: flex; gap: calc(0.6 * var(--mm)); font-family: var(--ss-sans); font-size: calc(9 * var(--pt)); }
 .ss-plan span {
   display: flex;
   flex-direction: column;
@@ -267,56 +260,52 @@
   white-space: nowrap;
   overflow: hidden;
 }
-.ss-plan b { color: var(--ss-ink); font-size: calc(2.5 * var(--mm)); }
+.ss-plan b { color: var(--ss-ink); font-size: calc(10 * var(--pt)); }
 
-.ss-questions { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: calc(3 * var(--mm)); }
-.ss-group { display: flex; flex-direction: column; gap: calc(1.6 * var(--mm)); }
+.ss-questions { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: calc(4 * var(--mm)); }
+.ss-group { display: flex; flex-direction: column; gap: calc(2 * var(--mm)); }
 /* The writing space goes where the conversation is longest: Discover and Wrestle share the
    page's spare height by their minutes. */
 .ss-group-discover { flex: 13; }
 .ss-group-wrestle { flex: 10; }
 .ss-group-respond { flex: 4; }
-.ss-q { flex: 1; display: flex; flex-direction: column; gap: calc(0.6 * var(--mm)); }
-.ss-q p { font-size: calc(3 * var(--mm)); }
+.ss-q { flex: 1; display: flex; flex-direction: column; gap: calc(0.8 * var(--mm)); }
 .ss-n {
   display: inline-block;
-  min-width: calc(4.5 * var(--mm));
+  min-width: calc(6 * var(--mm));
   font-family: var(--ss-sans);
   font-weight: 700;
   color: var(--ss-accent);
 }
-.ss-q strong { font-family: var(--ss-sans); font-size: 0.88em; }
+.ss-q strong { font-family: var(--ss-sans); font-size: 0.9em; }
 
-.ss-respond {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: calc(3 * var(--mm)) calc(6 * var(--mm));
-  padding-top: calc(3 * var(--mm));
-  border-top: calc(0.5 * var(--mm)) solid var(--ss-ink);
-  font-size: calc(2.7 * var(--mm));
-}
-.ss-tad { grid-row: span 2; }
-.ss-tad ul { margin: 0; padding-left: calc(4 * var(--mm)); }
-.ss-tad li { margin: 0 0 calc(1.2 * var(--mm)); }
+.ss-respond { display: flex; flex-direction: column; gap: calc(5 * var(--mm)); }
+.ss-tad ul { margin: 0; padding-left: calc(5 * var(--mm)); }
+.ss-tad li { margin: 0 0 calc(1.6 * var(--mm)); color: var(--ss-ink); }
 .ss-memory p { font-style: italic; }
 .ss-memory cite {
   display: block;
-  margin-top: calc(0.8 * var(--mm));
+  margin-top: calc(1 * var(--mm));
   font-style: normal;
   font-family: var(--ss-sans);
-  font-size: calc(2.3 * var(--mm));
+  font-size: calc(10 * var(--pt));
   color: var(--ss-muted);
 }
-.ss-prayer p + p { margin-top: calc(1 * var(--mm)); }
-.ss-prayer { font-size: calc(2.55 * var(--mm)); }
-.ss-respond:not(:has(.ss-tad)) { grid-template-columns: 1fr; }
+.ss-prayer p + p { margin-top: calc(1.4 * var(--mm)); }
+.ss-p4 .ss-notes { min-height: calc(24 * var(--mm)); }
 
-.ss-foot-back { align-items: center; justify-content: flex-start; }
-.ss-qr svg { display: block; width: calc(11 * var(--mm)); height: calc(11 * var(--mm)); }
-.ss-url { display: flex; flex-direction: column; flex: 1; font-size: calc(2.1 * var(--mm)); }
+.ss-link {
+  display: flex;
+  align-items: center;
+  gap: calc(4 * var(--mm));
+  padding-top: calc(3 * var(--mm));
+  border-top: calc(0.3 * var(--mm)) solid var(--ss-rule);
+  font-family: var(--ss-sans);
+  font-size: calc(10 * var(--pt));
+}
+.ss-qr svg { display: block; width: calc(18 * var(--mm)); height: calc(18 * var(--mm)); }
+.ss-url { display: flex; flex-direction: column; color: var(--ss-muted); }
 .ss-url b { color: var(--ss-ink); }
-.ss-back { padding-bottom: calc(20 * var(--mm)); }
-.ss-foot-back { bottom: calc(5 * var(--mm)); }
 
 /* ---- Print -------------------------------------------------------------------------------- */
 
@@ -336,6 +325,7 @@
     display: none !important;
   }
   .ss-on body { page: study-sheet; }
+  .ss { --mm: 1mm; }
   .ss-on :is(.md-main__inner, .md-content, .md-content__inner, .md-grid, .ss) {
     margin: 0 !important;
     padding: 0 !important;
@@ -351,7 +341,7 @@
     margin: 0;
     box-shadow: none;
   }
-  .ss-back { break-before: page; }
+  .ss-sheet + .ss-sheet { break-before: page; }
   /* With the block closed, printing the study leaves the sheet out. */
   html:not(.ss-on) .ss { display: none !important; }
 }

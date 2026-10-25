@@ -1,22 +1,24 @@
 # Group study sheets
 
-A one-sheet version of a study for a 40-minute small group or a study with a friend: A4, printed
-double-sided, flipped on the long edge. `hooks/study_sheet.py` adds it to every study that has an
+A four-page version of a study for a 40-minute small group or a study with a friend: two A4 sheets,
+printed double-sided, flipped on the long edge, set at 12 pt for older eyes. `hooks/study_sheet.py` adds it to every study that has an
 `**In one sentence:**` thesis and a `## Discussion questions` list (99 pages as of 2026-10-22), in a
 collapsed "Group study sheet" block under the questions, with a Print button. A printer icon
 beside the title opens the block and jumps to it, since a leader decides to print from the top.
 
 ## What goes on it
 
-| Side 1 | Side 2 |
+| Page | What is on it |
 |---|---|
-| Title, `primary_passage` | The timed plan: Open 0–5, Read 5–12, Discover 12–25, Wrestle 25–35, Respond 35–40 |
-| The point (the thesis) | The questions, grouped on the plan by facet label, each with ruled space |
-| Open: the first `questions:` frontmatter entry, else "what comes to mind when you hear …" | This week: Be Transformed's think / attitude / do |
-| Read it aloud: `primary_passage` in WEB | Memory verse: the first one |
-| Look closer: say / meant then / means for us, to write in | Pray together: the study's prayer |
-| The primary graphic: the first comic, else the first drawn SVG | QR code and URL back to the full study |
-| The study in brief: the Study outline | |
+| 1 | Title, `primary_passage`; the point (the thesis); Open: the first `questions:` frontmatter entry, else "what comes to mind when you hear …"; Read it aloud: `primary_passage` in WEB; Look closer: say / meant then / means for us, to write in |
+| 2 | The primary graphic, as large as the page allows (the first comic, else the first drawn SVG that is a diagram rather than a 100-unit feast emblem); the study in brief: the Study outline, beside a tall graphic, under a wide one, or with room for notes when there is no graphic |
+| 3 | The timed plan: Open 0–5, Read 5–12, Discover 12–25, Wrestle 25–35, Respond 35–40; the questions, grouped on the plan by facet label, each with ruled space |
+| 4 | This week: Be Transformed's think / attitude / do; Memory verse: the first one; Pray together: the study's prayer; notes; QR code and URL back to the full study |
+
+**12 pt is the floor.** Everything read on the sheet is 12 pt, labels 10 pt and the footer 9 pt,
+and nothing shrinks to make room; a long passage loses verses to "Also read" instead. The graphic
+is the exception: its text is drawn into the SVG for the web (bubbles at 14.5 of 720 units), so a
+comic scaled to a page's height prints it at about 7 pt.
 
 Everything is lifted from the rendered page, so the sheet adds no claims and needs no
 verification of its own. The passage is in WEB because it is printed at length; ESV appears only
@@ -26,11 +28,13 @@ verse cards.
 ## How it fits
 
 All sizes are in sheet millimetres (`--mm`, as in `memory-verses.css`), so the on-screen sheet is a
-scale model of the page. Side 1 is fitted in the browser by `ssFit` (inline in the hook) on open
-and on Print. It steps the passage type down, moves trailing passages to an "Also read" line, then
-trims verses from the end, and it tightens the outline column before dropping it. A word count
-cannot do this: the thesis, the opener and the outline all compete for the same height. The hook
-cuts any passage past 900 words before shipping it.
+scale model of the page. The block, not the sheet, is the size container, so a sheet's own type
+and padding scale with it too (with the sheet as container they followed the viewport, and the
+preview stopped matching paper). Page 1 is fitted in the browser by `ssFit` (inline in the hook) on
+open and on Print. It moves trailing passages to an "Also read" line, then trims verses from the
+end; on page 2 it drops the outline's annotations, then the outline. A word count cannot do this:
+the thesis, the opener and the passage all compete for the same height. The hook cuts any passage
+past 500 words before shipping it.
 
 Hooking `on_post_page`, after the search plugin indexes the page, keeps the sheet's copy of the
 questions out of site search. Print media follows `html.ss-on`, which only the reader sets, by
@@ -50,9 +54,10 @@ chosen to hold up when a colour sheet is printed in greyscale.
 
 Build to a scratch directory, serve it, and print with Playwright. `page.pdf()` with
 `prefer_css_page_size=True` after opening the block, calling `ssOn(true)` and `ssFit`
-reproduces the Print button. Check for overflow with `scrollHeight > clientHeight` on `.ss-main`,
-`.ss-side` and `.ss-questions` under print media. `pdftoppm -gray` and `-mono` simulate greyscale
-and black-only printers. At the prototype, all 99 sheets fitted.
+reproduces the Print button. Check for overflow with `scrollHeight > clientHeight` on each `.ss-sheet`,
+`.ss-main` and `.ss-questions`, and that nothing on a page reaches its footer. `pdftoppm -gray` and `-mono` simulate greyscale
+and black-only printers. At the 12 pt redesign (2026-10-25), all 104 sheets fitted their four pages, 37 with
+verses moved to "Also read".
 
 ## The study is the leader's notes
 
