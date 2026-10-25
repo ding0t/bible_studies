@@ -17,6 +17,8 @@
   --ss-serif: "Noto Serif", Georgia, "Times New Roman", serif;
   --ss-sans: system-ui, sans-serif;
   margin: 1.6rem 0;
+  /* Clear of the sticky header when the title's printer icon jumps here. */
+  scroll-margin-top: 3.6rem;
   border: 0.05rem solid var(--md-default-fg-color--lightest);
   border-radius: 0.2rem;
 }

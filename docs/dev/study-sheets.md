@@ -3,7 +3,8 @@
 A one-sheet version of a study for a 40-minute small group or a study with a friend: A4, printed
 double-sided, flipped on the long edge. `hooks/study_sheet.py` adds it to every study that has an
 `**In one sentence:**` thesis and a `## Discussion questions` list (99 pages as of 2026-10-22), in a
-collapsed "Group study sheet" block under the questions, with a Print button.
+collapsed "Group study sheet" block under the questions, with a Print button. A printer icon
+beside the title opens the block and jumps to it, since a leader decides to print from the top.
 
 ## What goes on it
 

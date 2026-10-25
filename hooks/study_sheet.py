@@ -127,6 +127,12 @@ addEventListener("toggle", (e) => {
 }, true);
 </script>"""
 
+# Material Design Icons "printer", the set mkdocs-material ships.
+_JUMP = """<a href="#group-study-sheet" class="md-content__button md-icon ss-jump"
+  title="Print the group study sheet" aria-label="Print the group study sheet"
+  onclick="const d=document.getElementById('group-study-sheet');if(!d.open){d.open=true;ssOn(true)}">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 3H6v4h12m1 5a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1m-3 7H8v-5h8m3-6H5a3 3 0 0 0-3 3v6h4v4h12v-4h4v-6a3 3 0 0 0-3-3Z"/></svg></a>"""
+
 _NOTICE = "Scripture: WEB, public domain · ESV® © 2001 Crossway, used by permission"
 
 _verses: dict[str, dict] = {}
@@ -150,7 +156,13 @@ def on_post_page(output, page, config):
     sheet = render_sheet(page, config, article, point[1], questions)
     after = re.search(r'<h2 id="discussion-questions".*?(?=<h2\b|$)', article, re.DOTALL)
     at = start + after.end()
-    return output[:at] + sheet + output[at:]
+    output = output[:at] + sheet + output[at:]
+    # A leader decides to print before the group, from the top, and the sheet sits by the
+    # questions it is built from, so the title carries a way down to it.
+    top = output.find("<h1", start)
+    if top < 0:
+        top = output.index(">", start) + 1
+    return output[:top] + _JUMP + output[top:]
 
 
 def render_sheet(page, config, article: str, point: str, questions: list[str]) -> str:
@@ -200,7 +212,7 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
 </section>"""
 
     return f"""
-<details class="ss" data-no-popups>
+<details class="ss" id="group-study-sheet" data-no-popups>
   <summary>Group study sheet <small>one A4 sheet, double-sided, for a 40-minute group</small></summary>
   <div class="ss-controls">
     <p>The point, the passage, the questions on a timed plan and the response, from this study.
