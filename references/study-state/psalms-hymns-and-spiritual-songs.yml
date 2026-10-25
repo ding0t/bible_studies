@@ -1,0 +1,122 @@
+slug: "psalms-hymns-and-spiritual-songs"
+title: "Psalms, Hymns and Spiritual Songs"
+status: review # drafted 2026-10-25; thesis + outline approved by author
+target_path: "docs/content/christian-life/psalms-hymns-and-spiritual-songs.md"
+
+primary_passage: "Ephesians 5:18-21; Colossians 3:16-17"
+supporting_passages:
+  - "Ephesians 5:14"        # "Therefore it says, Awake, O sleeper" -- likely a hymn quoted 5 verses earlier
+  - "1 Corinthians 14:26"   # each one has a psalm (ψαλμός)
+  - "James 5:13"
+  - "Acts 16:25"
+  - "Matthew 26:30; Mark 14:26"
+  - "Hebrews 2:12"          # Christ sings in the midst of the congregation (Psalm 22:22)
+  - "Zephaniah 3:17"        # the LORD exults over you with loud singing
+  - "Exodus 15:1-2"         # first song in Scripture
+  - "Deuteronomy 31:19-22"  # a song written to be remembered -- "live unforgotten in the mouths of their offspring"
+  - "Judges 5; 1 Samuel 2:1-10"
+  - "1 Chronicles 25:1-7; 2 Chronicles 29:30"
+  - "Psalm 72:20; Psalm 76 title; Psalm 145 title"
+  - "Luke 1:46-55, 68-79; 2:14, 29-32"
+  - "Philippians 2:6-11; Colossians 1:15-20; 1 Timothy 3:16"   # hymn fragments, identification contested
+  - "Revelation 5:9-10; 14:3; 15:2-4"
+sibling_studies:
+  - {slug: "christian-life/true-worship.md", role: cited, use: link, note: "quotes Col 3:16 once in passing on the first believers' gatherings; link for the theology of worship"}
+  - {slug: "christian-life/submission-in-context.md", role: primary, use: link, note: "treats Eph 5:18-21 as one sentence ending in v.21; this study covers the first three participles, link for the fifth"}
+  - {slug: "jesus/psalm-118-road-to-gethsemane.md", role: prose, use: link, note: "settles which hymn was sung in Matt 26:30 (Hallel, Pss 113-118); cite in one sentence, do not re-argue"}
+  - {slug: "feasts/last-supper-four-cups.md", role: prose, use: none, note: ""}
+  - {slug: "resources/memory-verses.md", role: prose, use: link, note: "songbook is the sung counterpart; possible 'songs' set of memory cards"}
+genre: [epistle, topical]
+
+thesis: "God fills His church with His Spirit so that it sings: the old psalms and new songs about Jesus carry the word of Christ into every member's memory, so that you teach one another with them and thank the Father with them."
+outline:
+  - {section: "Before daylight, a song to Christ", says: "Hook: Pliny (c. AD 112) found Christians singing to Christ as God; Paul had commanded it fifty years earlier."}
+  - {section: "One command, five participles", says: "Eph 5:18-21 is one imperative (be filled, present passive) worked out in speaking, singing, making melody, giving thanks, submitting; the Spirit fills, the songs go to the Lord Jesus, thanks go to the Father."}
+  - {section: "The word of Christ, sung", says: "Col 3:16 names the source as the word of Christ dwelling richly; the songs teach and admonish one another (horizontal) and go to the Lord (vertical). Same life described twice."}
+  - {section: "Three words", says: "psalmos/hymnos/ode with Hebrew mizmor/tehillah/shir; LXX Ps 76 title carries all three; the terms overlap, each has a centre; 'spiritual' ties back to v.18."}
+  - {section: "Only the Psalter? (contested)", says: "Case for psalms-only (LXX titles) and the case for psalms plus new songs (1 Cor 14:26, Eph 5:14, Rev 5:9 'new song', Luke's canticles, Tertullian Apol. 39); marked."}
+  - {section: "Israel's songbook", says: "Exod 15 to Deut 32 (a song to outlive forgetting) to Deborah, Hannah, David's 288 trained singers, Hezekiah, the five books of Psalms, Ascents, Hallel."}
+  - {section: "The church's first songs", says: "Luke's four canticles, the Hallel in the upper room, Acts 16:25 at midnight, hymn fragments in the letters, Revelation's new song; Rev 15:3 sings Exod 15 again with the Lamb."}
+  - {section: "The God who sings", says: "Christ sings among His brothers (Heb 2:12), the LORD exults over His people with singing (Zeph 3:17): our singing joins His."}
+  - {section: "What the church kept", says: "The Odes appended to the Psalter (Codex Alexandrinus); Eusebius 5.28.5 -- psalms and hymns by the brethren from the beginning; this is the precedent for the site's songbook."}
+  - {section: "Sing it when", says: "Application: James 5:13, songs as memory, link to the songbook."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Primary Eph 5:18-21 read with its twin Col 3:16-17. Topical spread across OT/NT song history, kept in check by moving the catalogue into a separate songbook page so the study explains and the songbook lists."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Ephesians and Colossians are companion prison letters carried by Tychicus (Eph 6:21; Col 4:7). Ephesus: Dionysiac drinking-cult setting often cited for the wine/Spirit contrast -- NOT verified here, do not assert without a source. Oral culture: songs as the teaching medium (ESVSB note on Col 3:16 makes this point; use as background only)."
+    literary_context:
+      done: true
+      notes: "Eph 5:15-21 one Greek sentence (ESVSB note on 5:21). Imperative πληροῦσθε (present passive, ongoing) then five participles: λαλοῦντες, ᾄδοντες, ψάλλοντες, εὐχαριστοῦντες, ὑποτασσόμενοι. Trinitarian structure in the text: Spirit (v18), Lord = Christ (v19, cf. v20 'our Lord Jesus Christ'), God the Father (v20). Eph 5:14 'Therefore it says' introduces lines not found verbatim in the OT -- likely a hymn or a summary of Isa 26:19 / 60:1 (contested; three study Bibles split). Col 3:16 parallel: the source is 'the word of Christ' dwelling richly rather than 'be filled with the Spirit' -- read together, Spirit-filling and the indwelt word of Christ produce the same singing."
+    content_word_studies:
+      done: true
+      notes: "Counts verified (MACULA SBLGNT; morphhb-wlc; lxx-lemmas) 2026-10-25."
+      terms:
+        - {word: "ψαλμός", language: greek, transliteration: "psalmos", strongs_id: "G5568", gloss: "psalm, song sung to a plucked instrument", notes: "7x NT: Luke 20:42; 24:44; Acts 1:20; 13:33 (the book of Psalms); 1 Cor 14:26; Eph 5:19; Col 3:16. LXX Psalms 72x, nearly all in titles, rendering מִזְמוֹר."}
+        - {word: "ὕμνος", language: greek, transliteration: "hymnos", strongs_id: "G5215", gloss: "song of praise to God", notes: "NT only Eph 5:19 and Col 3:16. Verb ὑμνέω G5214 4x: Matt 26:30; Mark 14:26; Acts 16:25; Heb 2:12. LXX Ps 13x; LXX Ps 71:20 (Eng 72:20) 'the hymns of David are ended' where Hebrew has 'prayers' (תְּפִלּוֹת). Titles 'ἐν ὕμνοις' render בִּנְגִינוֹת (with stringed instruments): LXX Ps 6, 54, 60, 66, 75."}
+        - {word: "ᾠδή", language: greek, transliteration: "ōdē", strongs_id: "G5603", gloss: "song", notes: "7 tokens NT in 5 verses: Eph 5:19; Col 3:16; Rev 5:9; 14:3 (x2); 15:3 (x2: song of Moses, song of the Lamb). LXX Ps 44x, incl. every Song of Ascents title (LXX 119-133), rendering שִׁיר. Generic word -- 'spiritual' specifies it."}
+        - {word: "πνευματικός", language: greek, transliteration: "pneumatikos", strongs_id: "G4152", gloss: "spiritual, of the Spirit", notes: "Agrees with ᾠδαῖς (nearest noun); may qualify all three. CSB footnote at Col 3:16: 'Or and songs prompted by the Spirit'. Ties back to πληροῦσθε ἐν πνεύματι v18."}
+        - {word: "ψάλλω", language: greek, transliteration: "psallō", strongs_id: "G5567", gloss: "sing praise (orig. pluck strings)", notes: "5 tokens NT: Rom 15:9; 1 Cor 14:15 (x2); Eph 5:19; Jas 5:13. Instruments debate exists (a cappella traditions) -- mention only if needed; Paul's named instrument here is 'your heart'."}
+        - {word: "ᾄδω", language: greek, transliteration: "adō", strongs_id: "G103", gloss: "sing", notes: "5x NT: Eph 5:19; Col 3:16; Rev 5:9; 14:3; 15:3."}
+        - {word: "מִזְמוֹר", language: hebrew, transliteration: "mizmor", strongs_id: "H4210", gloss: "psalm (song with accompaniment)", notes: "57x WLC, every one in the Psalms, all in titles."}
+        - {word: "שִׁיר", language: hebrew, transliteration: "shir", strongs_id: "H7892", gloss: "song", notes: "82x WLC (with shirah), Ps 38, spread across 16 books incl. Exod 15:1, Deut 31-32, Song 1:1."}
+        - {word: "תְּהִלָּה", language: hebrew, transliteration: "tehillah", strongs_id: "H8416", gloss: "praise, song of praise", notes: "45x WLC; Psalm 145 the only psalm titled tehillah; plural Tehillim is the Hebrew name of the book."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Transcultural: Spirit-filled churches sing; the songs carry Christ's word; they are addressed both to one another and to the Lord; thanks to the Father in Jesus' name. Cultural/contested: which repertoire (psalms only vs new songs), instruments, spontaneous Spirit-prompted songs (1 Cor 14:15, 26)."
+    theological_principle:
+      done: true
+      notes: "God fills His church with His Spirit and the result is song: Trinitarian (Spirit fills, sung to the Son, thanks to the Father), word-shaped (Col 3:16), mutual (to one another), and memorable (Deut 31:21 -- the song lives unforgotten). Christ Himself sings among His people (Heb 2:12)."
+    application_draft:
+      done: false
+      notes: "Think: singing is a means of teaching, not a warm-up. Attitude: sing to the Lord with your heart, to the person beside you with your mouth. Do: learn one biblical song by heart (songbook)."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Colossians 3:16-17", relation: "twin passage"}
+      - {ref: "Ephesians 5:14", relation: "likely hymn citation in near context (contested)"}
+      - {ref: "1 Corinthians 14:15, 26", relation: "psalm brought to the gathering; sing with spirit and mind"}
+      - {ref: "Exodus 15 / Revelation 15:3", relation: "first song and last: Moses' song sung with the Lamb's"}
+      - {ref: "Deuteronomy 31:19-22", relation: "song as remembered witness"}
+      - {ref: "Hebrews 2:12 (Psalm 22:22)", relation: "Christ sings in the congregation"}
+    translations_compared: ["ESV", "NASB", "WEB", "NA28", "LSB footnotes", "CSB footnote"]
+    divergences_noted: "ESV/NASB 'addressing/speaking to one another'; LSB footnote 'Or yourselves' (ἑαυτοῖς). 1 Cor 14:26 ESV renders ψαλμόν as 'hymn' (WEB 'psalm') -- an English reader loses the link to Eph 5:19. CSB footnote Col 3:16 'songs prompted by the Spirit'."
+  drafting:
+    done: true
+    file: "docs/content/christian-life/psalms-hymns-and-spiritual-songs.md"
+    notes: "Approved as outlined. Corrections made while drafting: Pliny's Bithynia is not Paul's province of Asia; Exodus 15 is the first song recorded as sung to the LORD (songs are mentioned at Genesis 31:27); Revelation 7:10 is said, not sung; zimrat (H2176) in Exodus 15:2 is contested between 'song' (ESV/CSB/NASB/NLT) and 'defense' (NIV; CSB fn 'Or might') -- marked in the text."
+  review:
+    done: false
+    validated: true # npm run validate clean for this file; mkdocs build --strict clean; rendered and checked in webkit light/dark/mobile
+
+evidence: []   # populate with evidence_draft when drafting (counts above, LXX Ps 75:1 title, ESV quotations)
+
+open_questions:
+  - "Phos Hilaron / Basil, On the Holy Spirit 29.73 -- NPNF2 vol 8 not in the patristics corpus; do not cite unless sourced."
+  - "Odes of Solomon -- not on disk; cite only if a source is added."
+  - "Ephesus drinking-cult (Dionysus) background for 5:18 -- needs a source or leave out."
+  - "Fork candidate: instruments in worship (psallō) -- its own study if wanted."
+  - "Fork candidate: exclusive psalmody, fuller treatment."
+  - "Songbook built: docs/data/songbook.toml (38 songs), hooks/songbook.py, resources/songbook.md (draft). Author chose scope: Scripture songs, OT psalms and songs, songs Jesus knew/sang, early-church hymns on disk only. Later hymns and modern songs excluded."
+  - "PUBLISH DEPENDENCY: this study links jesus/psalm-118-road-to-gethsemane.md, which is draft:true. Publish both together or drop the link (validator Check 24)."
+  - "Publish the study and resources/songbook.md in the same commit -- each links the other."
+  - "Ideas not built: song card embedded in a study via a marker; 'Sung as' line in the verse pop-up; group-sheet song; memory-verse set of song verses; full song text via an export step (would need the WEB from bible-text.db, so a committed JSON like memory-verses)."
+  - "Psalms of Solomon (swete-lxx) are songs from Jesus' generation; whether He knew them is unknowable -- left out of 'songs Jesus knew'."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Eph 5:19 note: canonical psalms plus contemporary compositions (confirmed my reading); Col 3:16 note: songs as teaching in an oral culture (contributed); Eph 5:14 note: composite Isaiah reference."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Eph 5:19: terms probably synonymous; Eph 5:14 probably an early hymn (contributed the Isa 26:19/60:1 source pairing)."}
+  - {type: commentary, title: "NIV / NKJV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Eph 5:19-21 participles expound v18 (confirmed); 1 Chr 25:1-6 prophetic temple singers (contributed); Eph 5:14 open between Targum-style paraphrase and Christian song (contributed the 'contested' framing)."}
+  - {type: other, title: "LSB and CSB footnotes", author: "Lockman / Holman", note: "Col 3:16 'Or one another, singing with psalms'; 'songs prompted by the Spirit'; Eph 5:19 'Or yourselves'."}
+  - {type: other, title: "Pliny the Younger, Letters 10.96, in McGiffert's note to Eusebius, Church History 3.33", author: "NPNF2 vol 1 (1890), open", note: "'sing responsively a song unto Christ as God' before daylight."}
+  - {type: other, title: "Tertullian, Apology 39", author: "ANF vol 3, open", note: "each sings a hymn 'either one from the holy Scriptures or one of his own composing' -- 'a proof of the measure of our drinking'."}
+  - {type: other, title: "Eusebius, Church History 5.28.5", author: "NPNF2 vol 1, open", note: "'psalms and hymns, written by the faithful brethren from the beginning, celebrate Christ the Word of God'."}
+  - {type: other, title: "Swete LXX Odes 1-14", author: "swete-lxx", note: "Codex Alexandrinus numbering: Exod 15, Deut 32, Hannah, Isaiah, Jonah, Habakkuk, Hezekiah, Manasseh, Azariah, Hymn of the Fathers, Mary, Simeon, Zechariah, Morning Hymn."}
+last_updated: "2026-10-25"
