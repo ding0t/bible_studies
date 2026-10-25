@@ -107,7 +107,6 @@ function ssFit(details) {
 addEventListener("toggle", (e) => {
   if (e.target.matches?.("details.ss") && e.target.open) document.fonts.ready.then(() => ssFit(e.target));
 }, true);
-addEventListener("afterprint", () => document.documentElement.classList.remove("ss-printing"));
 </script>"""
 
 _NOTICE = "Scripture: WEB, public domain · ESV® © 2001 Crossway, used by permission"
@@ -187,10 +186,11 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
   <summary>Group study sheet <small>one A4 sheet, double-sided, for a 40-minute group</small></summary>
   <div class="ss-controls">
     <p>The point, the passage, the questions on a timed plan and the response, from this study.
-    Print on both sides of one A4 sheet, flipping on the long edge.</p>
+    Print on both sides of one A4 sheet, flipping on the long edge. While this block is open,
+    printing the page prints the sheet; close it to print the study.</p>
     <label><input type="checkbox" class="ss-opt-mono"> Black &amp; white <small>for a black-only printer</small></label>
     <button type="button" class="md-button md-button--primary"
-      onclick="const d=this.closest('details');d.open=true;ssFit(d);document.documentElement.classList.add('ss-printing');window.print()">Print sheet</button>
+      onclick="const d=this.closest('details');d.open=true;ssFit(d);window.print()">Print sheet</button>
   </div>
   {front}
   {back}
