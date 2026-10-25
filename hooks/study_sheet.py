@@ -104,6 +104,24 @@ function ssFit(details) {
   if (over(side)) sheet.classList.add("ss-titles");
   if (over(side)) sheet.classList.add("ss-nobrief");
 }
+// Print follows html.ss-on, which only the reader sets, by clicking the summary or Print sheet:
+// mkdocs-material opens every <details> when printing, so [open] cannot tell a sheet the reader
+// opened from one Material opened. Safari keeps its default margins under the stylesheet's named
+// @page study-sheet and shrinks the sheet to fit them, so an unnamed @page goes in with the class.
+function ssOn(on) {
+  document.documentElement.classList.toggle("ss-on", on);
+  let s = document.getElementById("ss-page");
+  if (on && !s) {
+    s = document.head.appendChild(document.createElement("style"));
+    s.id = "ss-page";
+    s.textContent = "@page { size: A4 portrait; margin: 0; }";
+  }
+  if (!on && s) s.remove();
+}
+addEventListener("click", (e) => {
+  const summary = e.target.closest?.("details.ss > summary");
+  if (summary) ssOn(!summary.parentElement.open);
+}, true);
 addEventListener("toggle", (e) => {
   if (e.target.matches?.("details.ss") && e.target.open) document.fonts.ready.then(() => ssFit(e.target));
 }, true);
@@ -190,7 +208,7 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
     printing the page prints the sheet; close it to print the study.</p>
     <label><input type="checkbox" class="ss-opt-mono"> Black &amp; white <small>for a black-only printer</small></label>
     <button type="button" class="md-button md-button--primary"
-      onclick="const d=this.closest('details');d.open=true;ssFit(d);window.print()">Print sheet</button>
+      onclick="const d=this.closest('details');d.open=true;ssOn(true);ssFit(d);window.print()">Print sheet</button>
   </div>
   {front}
   {back}

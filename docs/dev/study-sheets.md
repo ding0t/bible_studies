@@ -32,10 +32,14 @@ cannot do this: the thesis, the opener and the outline all compete for the same 
 cuts any passage past 900 words before shipping it.
 
 Hooking `on_post_page`, after the search plugin indexes the page, keeps the sheet's copy of the
-questions out of site search. Print media is keyed to the block being open: open, the page prints
-as the sheet (from the Print button or the browser's own Print); closed, it prints the study with
-no sheet. An earlier version had the button set `html.ss-printing` and `afterprint` clear it, which
-Safari defeats by firing `afterprint` before it lays out the print.
+questions out of site search. Print media follows `html.ss-on`, which only the reader sets, by
+clicking the block's summary or the Print button: with it, the page prints as the sheet (from the
+button or the browser's own Print); without it, the study prints with no sheet. Two things rule
+out simpler keys. Safari fires `afterprint` before it lays out the print, so a class the button
+sets and `afterprint` clears is gone in time to print the study; and mkdocs-material opens every
+`<details>` while printing, so `details[open]` would print the sheet in place of the study.
+Safari also keeps its default margins under the named `@page study-sheet` and shrinks the sheet
+to fit them, so `ssOn` adds an unnamed `@page { size: A4; margin: 0 }` alongside the class.
 
 **Black & white** (a checkbox by the Print button) drops the tints, makes labels black, outlines the
 badges and greys the graphic, for black-only and toner printers. The default colours are also
@@ -44,7 +48,7 @@ chosen to hold up when a colour sheet is printed in greyscale.
 ## Checking a change
 
 Build to a scratch directory, serve it, and print with Playwright. `page.pdf()` with
-`prefer_css_page_size=True` after opening the block and calling `ssFit`
+`prefer_css_page_size=True` after opening the block, calling `ssOn(true)` and `ssFit`
 reproduces the Print button. Check for overflow with `scrollHeight > clientHeight` on `.ss-main`,
 `.ss-side` and `.ss-questions` under print media. `pdftoppm -gray` and `-mono` simulate greyscale
 and black-only printers. At the prototype, all 99 sheets fitted.

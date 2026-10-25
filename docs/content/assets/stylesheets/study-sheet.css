@@ -324,22 +324,23 @@
 }
 
 @media print {
-  /* Keyed to the open block, not to a class the Print button sets and afterprint clears: Safari
-     fires afterprint before it lays out the print, so a class-gated sheet printed as the study. */
-  :root:has(details.ss[open]) body :is(.md-header, .md-tabs, .md-sidebar, .md-footer, .md-top,
+  /* html.ss-on is set and cleared by the reader's own clicks (hooks/study_sheet.py), never by
+     print events: Safari fires afterprint before it lays out the print, and Material opens every
+     <details> while printing. */
+  .ss-on body :is(.md-header, .md-tabs, .md-sidebar, .md-footer, .md-top,
     .md-source-file, .md-path, .md-content__button, .md-banner),
-  :root:has(details.ss[open]) .md-content__inner > :not(.ss),
+  .ss-on .md-content__inner > :not(.ss),
   .ss > :is(summary, .ss-controls) {
     display: none !important;
   }
-  :root:has(details.ss[open]) body { page: study-sheet; }
-  :root:has(details.ss[open]) :is(.md-main__inner, .md-content, .md-content__inner, .md-grid, .ss) {
+  .ss-on body { page: study-sheet; }
+  .ss-on :is(.md-main__inner, .md-content, .md-content__inner, .md-grid, .ss) {
     margin: 0 !important;
     padding: 0 !important;
     max-width: none !important;
     border: 0 !important;
   }
-  :root:has(details.ss[open]) .md-content__inner::before { display: none; }
+  .ss-on .md-content__inner::before { display: none; }
   .ss-sheet {
     width: 210mm;
     /* Short of 297 mm so a few px of offset cannot spill a blank page after a side. */
@@ -350,5 +351,5 @@
   }
   .ss-back { break-before: page; }
   /* With the block closed, printing the study leaves the sheet out. */
-  details.ss:not([open]) { display: none; }
+  html:not(.ss-on) .ss { display: none !important; }
 }
