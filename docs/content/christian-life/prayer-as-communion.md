@@ -60,10 +60,11 @@ His will before your own, and you ask Him for this day's bread, as Jesus taught.
 
 ### Be Transformed
 
-- **Think.** Prayer is time with your Father, opened to you at the cost of His Son. You are invited
-  to it before you are commanded to it.
-- **Attitude.** Come as a child and as a creature: "Our Father" and "hallowed be your name". Let
-  "your will be done" come before your list, and let Him set the tone of the day.
+- **Think.** Prayer is time with your Father (Romans 8:15), opened to you at the cost of His Son
+  (Hebrews 10:19-20). You are invited to it before you are commanded to it.
+- **Attitude.** Come as a child and as a creature: "Our Father" and "hallowed be your name"
+  (Matthew 6:9). Let "your will be done" (Matthew 6:10) come before your list, and let Him set the
+  tone of the day.
 - **Do.** Fix a time and a place, as Daniel had a window and Jesus a desolate place before dawn,
   and each day this week pray [the pattern](#a-pattern-to-pray-by) in four steps. (1) *Our
   Father:* recognise who He is and thank Him (Matthew 6:9; Philippians 4:6). (2) *Your will:* seek
@@ -508,7 +509,8 @@ at Home](teaching-the-lords-prayer-at-home.md) is a guide for families, a line a
    His disciples to ask for bread "this day" (Matthew 6:11). What do you need to ask your Father for
    today?
 7. **Be transformed.** Choose one person and pray Ephesians 3:16-19 for them by name every day this
-   week. What do you expect to change, in them or in you?
+   week, from its [card](../resources/memory-verses.md). What do you expect to change, in them or in
+   you?
 
 ## References & Recommended Reading
 

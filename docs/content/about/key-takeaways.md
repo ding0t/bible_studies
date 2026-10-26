@@ -5,7 +5,7 @@ description: "What the Key Takeaways section at the top of every study is for, t
 tags: ["study-method", "key-takeaways", "transformation"]
 draft: false
 date_created: 2026-08-02
-date_modified: 2026-09-28
+date_modified: 2026-10-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -156,6 +156,12 @@ belief to correct. **Attitude** is a posture or disposition to adopt. **Do** is 
 to take. Those three cover the same four things in Romans 12:2's own vocabulary — thoughts,
 attitudes, actions, behaviors — because "actions" and "behaviors" are close enough in practice to
 share one bullet.
+
+**Each bullet names the verse it stands on**, in parentheses at the end of the sentence it
+supports: "Come as a child: 'Our Father' (Matthew 6:9)." The study has already argued the point;
+the reference lets a group member who reads only this section, or only the printed sheet, open
+their Bible at the place the application comes from. Cite the study's own passages, the ones its
+exegesis established.
 
 A study earns a different shape only when the application genuinely will not split three ways —
 never as a default to fall back on when writing the three bullets feels like more work than a

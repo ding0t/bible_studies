@@ -393,7 +393,8 @@ Report as **Minor**, or **Moderate** where the questions no longer reflect what 
 [key-takeaways.md](../../../docs/content/about/key-takeaways.md#be-transformed).** The default
 shape is three labeled bullets — `**Think.**`, `**Attitude.**`, `**Do.**` — and a study that instead
 has a prose paragraph, an unlabeled list, a different bullet count, or custom labels has drifted from
-the site's convention unless the study genuinely can't be split three ways. This is the same failure
+the site's convention unless the study genuinely can't be split three ways. A bullet with no
+Scripture reference is Minor: each names the verse it stands on. This is the same failure
 class as the discussion-questions check above: each shape is individually readable, so nothing looks
 wrong until the corpus is read side by side. A 2026-09-19 audit found 6 of 29 published studies with
 a Be Transformed subsection had drifted this way with no stated reason — this is corpus-wide drift,
