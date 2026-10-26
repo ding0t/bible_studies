@@ -1,0 +1,88 @@
+/* The Songbook (hooks/songbook.py). Colours come from material's own variables, so the cards
+ * follow the site's palette and dark-mode toggle. */
+
+.sb-group {
+  display: grid;
+  gap: 0.8rem;
+  margin: 1rem 0 1.6rem;
+}
+
+.sb-song {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid var(--md-accent-fg-color);
+  border-radius: 0.2rem;
+  padding: 0.6rem 0.9rem;
+  scroll-margin-top: 4rem;
+}
+
+.sb-song:target {
+  background: var(--md-accent-fg-color--transparent);
+}
+
+.sb-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.8rem;
+  align-items: baseline;
+}
+
+.sb-title {
+  font-size: 1.05em;
+}
+
+.sb-ref {
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .sb-first {
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+
+.sb-first cite {
+  font-style: normal;
+  font-size: 0.8em;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .sb-meta,
+.md-typeset .sb-jesus,
+.md-typeset .sb-when {
+  margin: 0.25rem 0;
+}
+
+.sb-meta b,
+.sb-when b {
+  display: inline-block;
+  min-width: 5.5em;
+  color: var(--md-default-fg-color--light);
+  font-weight: 600;
+}
+
+.sb-tag {
+  display: inline-block;
+  margin: 0.1rem 0.3rem 0.1rem 0;
+  padding: 0 0.45rem;
+  border-radius: 1rem;
+  background: var(--md-default-fg-color--lightest);
+  font-size: 0.85em;
+}
+
+.md-typeset .sb-index dt {
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.md-typeset .sb-index dd {
+  margin-left: 1.2rem;
+}
+
+.md-typeset .sb-jesus-index ul {
+  margin: 0.2rem 0;
+}
+
+@media print {
+  .sb-song {
+    break-inside: avoid;
+  }
+}

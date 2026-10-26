@@ -61,6 +61,9 @@ hooks:
   - hooks/series.py
   # Replaces <!-- memory-verses --> with printable A4 card sheets. See hooks/memory_verses.py.
   - hooks/memory_verses.py
+  # Replaces <!-- songbook: <group> -->, <!-- songbook-occasions --> and <!-- songbook-jesus -->
+  # with the songs in docs/data/songbook.toml. See hooks/songbook.py.
+  - hooks/songbook.py
   # Replaces <!-- hebrew-cards: <deck> --> with printable A4 word cards. See hooks/hebrew_cards.py.
   - hooks/hebrew_cards.py
   # Replaces <!-- greek-cards: <deck> --> with printable A4 word cards. See hooks/greek_cards.py.
@@ -512,6 +515,7 @@ extra_css:
   - assets/stylesheets/nav.css
   - assets/stylesheets/video-embed.css
   - assets/stylesheets/memory-verses.css
+  - assets/stylesheets/songbook.css
   - assets/stylesheets/history-chart.css
   - assets/stylesheets/hebrew.css
   - assets/stylesheets/greek.css

@@ -1,0 +1,429 @@
+# The Songbook: docs/content/resources/songbook.md, rendered by hooks/songbook.py.
+#
+# A body of psalms, hymns and spiritual songs (Ephesians 5:19) to remember and to point to from a
+# study. Read directly by the hook; no export step, because every field is typed here.
+#
+#   id          Anchor on the page: /resources/songbook/#song-<id>. Link to it from a study.
+#   title       What the song is usually called.
+#   ref         Where it is, numbered as English Bibles number it. Plain text, so it pops up.
+#   group       Which part of the page it sits in: israel | psalms | first-church | heaven | early-church
+#   sung_by     Who sang it first.
+#   occasion    What had just happened, with the verse that says so.
+#   first_line  Its opening words in the WEB (public domain), or a translation marked in `source`.
+#   source      Optional. Where first_line comes from, when it is not the WEB.
+#   sing_when   Occasions from OCCASIONS in hooks/songbook.py. An unknown one is logged at build.
+#   jesus       Optional. sang | quoted | sung-to: how Jesus is connected to the song.
+#   jesus_note  Required with `jesus`. The verse that shows it, and how sure it is.
+
+# --- Songs of Israel, outside the Psalter ----------------------------------------------------------
+
+[[song]]
+id = "song-of-the-sea"
+title = "The Song of the Sea"
+ref = "Exodus 15:1-18"
+group = "israel"
+sung_by = "Moses and the people of Israel, with Miriam leading the women (Exodus 15:20-21)"
+occasion = "The LORD has drowned Pharaoh's army in the Red Sea (Exodus 14:26-31). The first song Scripture records being sung to the LORD."
+first_line = "I will sing to Yahweh, for he has triumphed gloriously. He has thrown the horse and his rider into the sea."
+sing_when = ["deliverance", "victory"]
+
+[[song]]
+id = "song-of-the-well"
+title = "The Song of the Well"
+ref = "Numbers 21:17-18"
+group = "israel"
+sung_by = "Israel in the wilderness"
+occasion = "Yahweh tells Moses, \"Gather the people together, and I will give them water\" (Numbers 21:16, WEB)."
+first_line = "Spring up, well! Sing to it."
+sing_when = ["provision"]
+
+[[song]]
+id = "song-of-moses"
+title = "The Song of Moses"
+ref = "Deuteronomy 32:1-43"
+group = "israel"
+sung_by = "Moses, who taught it to Israel the day he wrote it (Deuteronomy 31:22)"
+occasion = "Israel is about to enter the land. God gives a song so that it \"will live unforgotten in the mouths of their offspring\" (Deuteronomy 31:21, ESV)."
+first_line = "Give ear, you heavens, and I will speak. Let the earth hear the words of my mouth."
+sing_when = ["remembering", "repentance"]
+
+[[song]]
+id = "song-of-deborah"
+title = "The Song of Deborah and Barak"
+ref = "Judges 5:1-31"
+group = "israel"
+sung_by = "Deborah and Barak"
+occasion = "The defeat of Sisera's army at the river Kishon (Judges 4:12-16)."
+first_line = "Hear, you kings! Give ear, you princes! I, even I, will sing to Yahweh. (Judges 5:3)"
+sing_when = ["victory", "deliverance"]
+
+[[song]]
+id = "song-of-hannah"
+title = "The Song of Hannah"
+ref = "1 Samuel 2:1-10"
+group = "israel"
+sung_by = "Hannah"
+occasion = "She brings Samuel, the son she prayed for, to the house of the LORD at Shiloh (1 Samuel 1:24-28). Mary's song echoes it."
+first_line = "My heart exults in Yahweh! My horn is exalted in Yahweh."
+sing_when = ["a-birth", "answered-prayer"]
+
+[[song]]
+id = "song-of-the-bow"
+title = "The Song of the Bow"
+ref = "2 Samuel 1:19-27"
+group = "israel"
+sung_by = "David, who commanded that it be taught to the people of Judah (2 Samuel 1:18)"
+occasion = "Saul and Jonathan have died on Mount Gilboa (2 Samuel 1:4-6)."
+first_line = "Your glory, Israel, was slain on your high places! How the mighty have fallen!"
+sing_when = ["grief"]
+
+[[song]]
+id = "davids-song-of-deliverance"
+title = "David's Song of Deliverance"
+ref = "2 Samuel 22:1-51"
+group = "israel"
+sung_by = "David. Israel kept it twice: here, and as Psalm 18."
+occasion = "\"The day that Yahweh delivered him out of the hand of all his enemies, and out of the hand of Saul\" (2 Samuel 22:1, WEB)."
+first_line = "Yahweh is my rock, my fortress, and my deliverer."
+sing_when = ["deliverance", "thanksgiving"]
+
+[[song]]
+id = "isaiah-12"
+title = "The Song of Salvation"
+ref = "Isaiah 12:1-6"
+group = "israel"
+sung_by = "The redeemed, \"in that day\" (Isaiah 12:1)"
+occasion = "A song for the future regathering of Israel (Isaiah 11:11-16). It takes up Moses' line from Exodus 15:2."
+first_line = "Behold, God is my salvation. I will trust, and will not be afraid; for Yah, Yahweh, is my strength and song. (Isaiah 12:2)"
+sing_when = ["deliverance", "trust"]
+
+[[song]]
+id = "jonahs-prayer"
+title = "Jonah's Prayer"
+ref = "Jonah 2:2-9"
+group = "israel"
+sung_by = "Jonah"
+occasion = "From inside the great fish (Jonah 1:17-2:1). Jesus named Jonah's three days as the sign of His own (Matthew 12:40)."
+first_line = "I called because of my affliction to Yahweh. He answered me."
+sing_when = ["trouble", "repentance"]
+
+[[song]]
+id = "hezekiahs-song"
+title = "Hezekiah's Song"
+ref = "Isaiah 38:10-20"
+group = "israel"
+sung_by = "Hezekiah, king of Judah"
+occasion = "He has been sick to the point of death and the LORD has added fifteen years to his life (Isaiah 38:1-9)."
+first_line = "In the middle of my life I go into the gates of Sheol."
+sing_when = ["sickness", "answered-prayer"]
+
+[[song]]
+id = "habakkuk-3"
+title = "Habakkuk's Prayer"
+ref = "Habakkuk 3:2-19"
+group = "israel"
+sung_by = "Habakkuk, \"for the music director, on my stringed instruments\" (Habakkuk 3:19, WEB)"
+occasion = "Babylon is coming (Habakkuk 1:6). He resolves to rejoice in God when every harvest fails."
+first_line = "For even though the fig tree doesn't flourish … yet I will rejoice in Yahweh. I will be joyful in the God of my salvation! (Habakkuk 3:17-18)"
+sing_when = ["trouble", "trust"]
+
+# --- From the Psalter ------------------------------------------------------------------------------
+
+[[song]]
+id = "psalm-90"
+title = "Psalm 90: Lord, You Have Been Our Dwelling Place"
+ref = "Psalm 90:1-17"
+group = "psalms"
+sung_by = "Moses, \"the man of God\" (Psalm 90:1). The oldest psalm by its title."
+occasion = "A prayer about the shortness of life against the eternity of God."
+first_line = "Lord, you have been our dwelling place for all generations."
+sing_when = ["grief", "a-death"]
+
+[[song]]
+id = "psalm-23"
+title = "Psalm 23: The LORD Is My Shepherd"
+ref = "Psalm 23:1-6"
+group = "psalms"
+sung_by = "David"
+occasion = "No occasion given. Jesus called Himself the good shepherd (John 10:11)."
+first_line = "Yahweh is my shepherd; I shall lack nothing."
+sing_when = ["trust", "a-death"]
+
+[[song]]
+id = "psalm-22"
+title = "Psalm 22: My God, My God"
+ref = "Psalm 22:1-31"
+group = "psalms"
+sung_by = "David"
+occasion = "A lament that turns to praise: \"Among the assembly, I will praise you\" (Psalm 22:22, WEB)."
+first_line = "My God, my God, why have you forsaken me?"
+sing_when = ["trouble", "grief"]
+jesus = "quoted"
+jesus_note = "He cried its first line from the cross (Matthew 27:46). Hebrews puts verse 22 in His mouth (Hebrews 2:12)."
+
+[[song]]
+id = "psalm-31"
+title = "Psalm 31: Into Your Hand"
+ref = "Psalm 31:1-24"
+group = "psalms"
+sung_by = "David"
+occasion = "A prayer for refuge from enemies."
+first_line = "Into your hand I commend my spirit. You redeem me, Yahweh, God of truth. (Psalm 31:5)"
+sing_when = ["trouble", "a-death"]
+jesus = "quoted"
+jesus_note = "His last words on the cross: \"Father, into your hands I commit my spirit!\" (Luke 23:46, WEB)."
+
+[[song]]
+id = "psalm-110"
+title = "Psalm 110: Sit at My Right Hand"
+ref = "Psalm 110:1-7"
+group = "psalms"
+sung_by = "David"
+occasion = "The LORD speaks to David's Lord, the king and priest after the order of Melchizedek (Psalm 110:4)."
+first_line = "Yahweh says to my Lord, \"Sit at my right hand, until I make your enemies your footstool for your feet.\""
+sing_when = ["worship"]
+jesus = "quoted"
+jesus_note = "He asked the Pharisees how David could call his son \"Lord\" (Matthew 22:41-45)."
+
+[[song]]
+id = "psalm-8"
+title = "Psalm 8: How Majestic Is Your Name"
+ref = "Psalm 8:1-9"
+group = "psalms"
+sung_by = "David"
+occasion = "Praise for the Creator who crowns man with glory."
+first_line = "From the lips of babes and infants you have established strength. (Psalm 8:2)"
+sing_when = ["worship", "creation"]
+jesus = "quoted"
+jesus_note = "He quoted it when children shouted \"Hosanna\" in the temple (Matthew 21:16)."
+
+[[song]]
+id = "psalm-51"
+title = "Psalm 51: Have Mercy on Me"
+ref = "Psalm 51:1-19"
+group = "psalms"
+sung_by = "David"
+occasion = "\"When Nathan the prophet came to him, after he had gone in to Bathsheba\" (Psalm 51:1, WEB title)."
+first_line = "Have mercy on me, God, according to your loving kindness."
+sing_when = ["repentance"]
+
+[[song]]
+id = "psalm-46"
+title = "Psalm 46: God Is Our Refuge"
+ref = "Psalm 46:1-11"
+group = "psalms"
+sung_by = "The sons of Korah"
+occasion = "No occasion given; a song for a city under threat."
+first_line = "God is our refuge and strength, a very present help in trouble."
+sing_when = ["trouble", "trust"]
+
+[[song]]
+id = "psalm-100"
+title = "Psalm 100: A Psalm of Thanksgiving"
+ref = "Psalm 100:1-5"
+group = "psalms"
+sung_by = "No author named"
+occasion = "Titled \"A Psalm of thanksgiving\" (Psalm 100:1, WEB)."
+first_line = "Shout for joy to Yahweh, all you lands!"
+sing_when = ["thanksgiving", "worship"]
+
+[[song]]
+id = "hallel"
+title = "The Hallel: Psalms 113-118"
+ref = "Psalms 113:1-118:29"
+group = "psalms"
+sung_by = "Israel at Passover and the pilgrim feasts"
+occasion = "Sung around the Passover meal; the Mishnah has the last of it sung over the fourth cup (Mishnah Pesachim 10:7)."
+first_line = "Praise Yah! Praise, you servants of Yahweh, praise Yahweh's name."
+sing_when = ["the-lords-supper", "thanksgiving"]
+jesus = "sang"
+jesus_note = "\"When they had sung a hymn, they went out to the Mount of Olives\" (Matthew 26:30, ESV): very likely the close of the Hallel. The crowds shouted Psalm 118:25-26 to Him on the road into Jerusalem (Matthew 21:9)."
+
+[[song]]
+id = "psalm-118"
+title = "Psalm 118: The Stone the Builders Rejected"
+ref = "Psalm 118:1-29"
+group = "psalms"
+sung_by = "Israel; the last psalm of the Hallel"
+occasion = "A procession into the house of the LORD after a great deliverance (Psalm 118:19-27)."
+first_line = "Give thanks to Yahweh, for he is good, for his loving kindness endures forever."
+sing_when = ["the-lords-supper", "thanksgiving", "deliverance"]
+jesus = "sang"
+jesus_note = "He claimed its rejected stone (Matthew 21:42), and very likely sang it last on the night He was betrayed (Matthew 26:30)."
+
+[[song]]
+id = "songs-of-ascents"
+title = "The Songs of Ascents: Psalms 120-134"
+ref = "Psalms 120:1-134:3"
+group = "psalms"
+sung_by = "Pilgrims; each is titled \"A Song of Ascents\""
+occasion = "Going up to Jerusalem for the feasts."
+first_line = "In my distress, I cried to Yahweh. He answered me."
+sing_when = ["a-journey", "worship"]
+jesus = "sang"
+jesus_note = "Likely, and inferred. His family went up to Jerusalem every Passover (Luke 2:41-42), and these are the pilgrims' songs. No Gospel says He sang them."
+
+[[song]]
+id = "psalm-136"
+title = "Psalm 136: His Love Endures Forever"
+ref = "Psalm 136:1-26"
+group = "psalms"
+sung_by = "Probably a congregation answering a leader: the refrain comes 26 times"
+occasion = "Creation, the Exodus and the conquest, told line by line."
+first_line = "Give thanks to Yahweh, for he is good, for his loving kindness endures forever."
+sing_when = ["thanksgiving", "remembering"]
+
+[[song]]
+id = "psalm-150"
+title = "Psalm 150: Let Everything That Has Breath"
+ref = "Psalm 150:1-6"
+group = "psalms"
+sung_by = "The close of the whole Psalter"
+occasion = "The fifth book's doxology, and the book's last word."
+first_line = "Let everything that has breath praise Yah! Praise Yah! (Psalm 150:6)"
+sing_when = ["worship"]
+
+# --- Songs of the first church ---------------------------------------------------------------------
+
+[[song]]
+id = "magnificat"
+title = "Mary's Song"
+ref = "Luke 1:46-55"
+group = "first-church"
+sung_by = "Mary"
+occasion = "Elizabeth has just blessed her as \"the mother of my Lord\" (Luke 1:43). Echoes Hannah's song."
+first_line = "My soul magnifies the Lord. My spirit has rejoiced in God my Savior."
+sing_when = ["a-birth", "worship"]
+
+[[song]]
+id = "benedictus"
+title = "Zechariah's Song"
+ref = "Luke 1:68-79"
+group = "first-church"
+sung_by = "Zechariah, \"filled with the Holy Spirit\" (Luke 1:67)"
+occasion = "The naming of his son John, when his tongue was loosed (Luke 1:63-64)."
+first_line = "Blessed be the Lord, the God of Israel, for he has visited and redeemed his people."
+sing_when = ["a-birth", "thanksgiving"]
+
+[[song]]
+id = "gloria"
+title = "The Angels' Song"
+ref = "Luke 2:13-14"
+group = "first-church"
+sung_by = "\"A multitude of the heavenly army\" (Luke 2:13, WEB)"
+occasion = "The birth of Jesus, announced to shepherds near Bethlehem."
+first_line = "Glory to God in the highest, on earth peace, good will toward men."
+sing_when = ["a-birth", "worship"]
+
+[[song]]
+id = "nunc-dimittis"
+title = "Simeon's Song"
+ref = "Luke 2:29-32"
+group = "first-church"
+sung_by = "Simeon, holding the infant Jesus in the temple"
+occasion = "The Holy Spirit had told him he would not die before seeing the Lord's Christ (Luke 2:26)."
+first_line = "Now you are releasing your servant, Master, according to your word, in peace."
+sing_when = ["a-death", "evening"]
+jesus = "sung-to"
+jesus_note = "Sung over Him as a baby, when He was presented at the temple about forty days after His birth (Luke 2:22; Leviticus 12:2-4)."
+
+[[song]]
+id = "awake-o-sleeper"
+title = "Awake, O Sleeper"
+ref = "Ephesians 5:14"
+group = "first-church"
+sung_by = "Quoted by Paul: \"Therefore he says\" (Ephesians 5:14, WEB)"
+occasion = "No Old Testament verse reads like it. Possibly an early Christian song, possibly a summary of Isaiah 26:19 and 60:1; contested."
+first_line = "Awake, you who sleep, and arise from the dead, and Christ will shine on you."
+sing_when = ["morning", "repentance"]
+
+[[song]]
+id = "christ-hymn"
+title = "He Humbled Himself"
+ref = "Philippians 2:6-11"
+group = "first-church"
+sung_by = "Paul's churches. Called a hymn from its poetic form; whether Paul wrote it or quoted it is debated."
+occasion = "Paul sets Christ's humility before a church he is calling to humility (Philippians 2:3-5)."
+first_line = "who, existing in the form of God, didn't consider equality with God a thing to be grasped."
+sing_when = ["worship"]
+
+[[song]]
+id = "firstborn-of-creation"
+title = "The Image of the Invisible God"
+ref = "Colossians 1:15-20"
+group = "first-church"
+sung_by = "Paul's churches. Hymn-like in form; the identification as a song is debated."
+occasion = "Against teaching at Colossae that made Christ less than supreme (Colossians 2:8-10)."
+first_line = "He is the image of the invisible God, the firstborn of all creation."
+sing_when = ["worship", "creation"]
+
+[[song]]
+id = "mystery-of-godliness"
+title = "The Mystery of Godliness"
+ref = "1 Timothy 3:16"
+group = "first-church"
+sung_by = "Introduced by Paul as what \"we confess\" (ESV): six short lines"
+occasion = "Paul tells Timothy how to behave in the household of God (1 Timothy 3:15)."
+first_line = "God was revealed in the flesh, justified in the spirit, seen by angels, preached among the nations, believed on in the world, and received up in glory."
+sing_when = ["worship"]
+
+# --- Songs of heaven -------------------------------------------------------------------------------
+
+[[song]]
+id = "holy-holy-holy"
+title = "Holy, Holy, Holy"
+ref = "Revelation 4:8-11"
+group = "heaven"
+sung_by = "The four living creatures and the twenty-four elders"
+occasion = "Around the throne, day and night. Echoes the seraphim of Isaiah 6:3."
+first_line = "Holy, holy, holy is the Lord God, the Almighty, who was and who is and who is to come!"
+sing_when = ["worship", "creation"]
+
+[[song]]
+id = "new-song"
+title = "The New Song: Worthy Is the Lamb"
+ref = "Revelation 5:9-14"
+group = "heaven"
+sung_by = "The living creatures and the elders, then myriads of angels, then every creature"
+occasion = "The Lamb takes the scroll from the right hand of Him who sits on the throne (Revelation 5:7)."
+first_line = "You are worthy to take the book and to open its seals, for you were killed, and bought us for God with your blood."
+sing_when = ["worship", "the-lords-supper"]
+jesus = "sung-to"
+jesus_note = "Sung to the Lamb by name (Revelation 5:9, 12)."
+
+[[song]]
+id = "song-of-moses-and-the-lamb"
+title = "The Song of Moses and of the Lamb"
+ref = "Revelation 15:3-4"
+group = "heaven"
+sung_by = "\"Those who overcame the beast,\" standing on a sea of glass (Revelation 15:2, WEB)"
+occasion = "Before the seven last plagues. They sing the Exodus song again, joined to the Lamb's."
+first_line = "Great and marvelous are your works, Lord God, the Almighty! Righteous and true are your ways, you King of the nations."
+sing_when = ["victory", "deliverance", "persecution"]
+jesus = "sung-to"
+jesus_note = "\"The song of the Lamb\" (Revelation 15:3)."
+
+[[song]]
+id = "hallelujah-chorus"
+title = "Hallelujah! The Lord Our God Reigns"
+ref = "Revelation 19:1-8"
+group = "heaven"
+sung_by = "A great multitude in heaven"
+occasion = "The fall of Babylon, and the marriage supper of the Lamb announced (Revelation 19:7-9). The only place the New Testament says \"Hallelujah.\""
+first_line = "Hallelujah! For the Lord our God, the Almighty, reigns! (Revelation 19:6)"
+sing_when = ["victory", "worship"]
+
+# --- Songs the early church wrote ------------------------------------------------------------------
+
+[[song]]
+id = "morning-hymn"
+title = "The Morning Hymn"
+ref = "Luke 2:14"
+group = "early-church"
+sung_by = "Greek-speaking churches. Copied into Bibles after the Psalms as the fourteenth of the Odes (Codex Alexandrinus, fifth century)."
+occasion = "A morning song that begins with the angels' words and goes on to praise the Father, the Son and the Holy Spirit."
+first_line = "Glory to God in the highest, and on earth peace, good will among men. We praise you, we bless you, we worship you, we glorify you, we give you thanks for your great glory, Lord, heavenly King, God the Father Almighty; Lord, only-begotten Son, Jesus Christ, and Holy Spirit. Lord God, Lamb of God, Son of the Father, who takes away the sins of the world, have mercy on us."
+source = "Odes 14:1, Swete's Septuagint (public domain), translated for this page"
+sing_when = ["morning", "worship"]
+jesus = "sung-to"
+jesus_note = "Addresses Him as \"Lord God, Lamb of God,\" as Pliny's Christians sang \"unto Christ as God.\""
