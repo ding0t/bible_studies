@@ -64,8 +64,12 @@ His will before your own, and you ask Him for this day's bread, as Jesus taught.
   to it before you are commanded to it.
 - **Attitude.** Come as a child and as a creature: "Our Father" and "hallowed be your name". Let
   "your will be done" come before your list, and let Him set the tone of the day.
-- **Do.** Fix a time and a place, as Daniel had a window and Jesus a desolate place before dawn.
-  This week, pray Ephesians 3:16-19 by name for one person, and for yourself.
+- **Do.** Fix a time and a place, as Daniel had a window and Jesus a desolate place before dawn,
+  and each day this week pray [the pattern](#a-pattern-to-pray-by) in four steps. (1) *Our
+  Father:* recognise who He is and thank Him (Matthew 6:9; Philippians 4:6). (2) *Your will:* seek
+  His will before your own (Matthew 6:10). (3) *Today:* ask for what you and others need this day
+  (Matthew 6:11). (4) *Forgive and keep:* ask Him to forgive you as you forgive others, to lead you
+  away from temptation and to keep you from evil (Matthew 6:12-13).
 
 ### Prayer
 
