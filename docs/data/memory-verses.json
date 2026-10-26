@@ -1054,6 +1054,554 @@
     "ESV": "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.",
     "WEB": "For God so loved the world, that he gave his only born Son, that whoever believes in him should not perish, but have eternal life."
    }
+  },
+  {
+   "ref": "Ephesians 3:16-19",
+   "theme": "Paul's Prayer",
+   "set": "prayer",
+   "language": "greek",
+   "words": [
+    {
+     "w": "ἵνα",
+     "t": [
+      "ina"
+     ],
+     "s": null,
+     "g": "that"
+    },
+    {
+     "w": "δῷ",
+     "t": [
+      "dō"
+     ],
+     "s": null,
+     "g": "He may give"
+    },
+    {
+     "w": "ὑμῖν",
+     "t": [
+      "humin"
+     ],
+     "s": null,
+     "g": "you"
+    },
+    {
+     "w": "κατὰ",
+     "t": [
+      "kata"
+     ],
+     "s": null,
+     "g": "according to"
+    },
+    {
+     "w": "τὸ",
+     "t": [
+      "to"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "πλοῦτος",
+     "t": [
+      "ploutos"
+     ],
+     "s": null,
+     "g": "riches"
+    },
+    {
+     "w": "τῆς",
+     "t": [
+      "tēs"
+     ],
+     "s": null,
+     "g": "of the"
+    },
+    {
+     "w": "δόξης",
+     "t": [
+      "doxēs"
+     ],
+     "s": null,
+     "g": "glory"
+    },
+    {
+     "w": "αὐτοῦ",
+     "t": [
+      "autou"
+     ],
+     "s": null,
+     "g": "of Him"
+    },
+    {
+     "w": "δυνάμει",
+     "t": [
+      "dunamei"
+     ],
+     "s": null,
+     "g": "with power"
+    },
+    {
+     "w": "κραταιωθῆναι",
+     "t": [
+      "krataiōthēnai"
+     ],
+     "s": null,
+     "g": "to be strengthened"
+    },
+    {
+     "w": "διὰ",
+     "t": [
+      "dia"
+     ],
+     "s": null,
+     "g": "through"
+    },
+    {
+     "w": "τοῦ",
+     "t": [
+      "tou"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "πνεύματος",
+     "t": [
+      "pneumatos"
+     ],
+     "s": null,
+     "g": "Spirit"
+    },
+    {
+     "w": "αὐτοῦ",
+     "t": [
+      "autou"
+     ],
+     "s": null,
+     "g": "of Him"
+    },
+    {
+     "w": "εἰς",
+     "t": [
+      "eis"
+     ],
+     "s": null,
+     "g": "in"
+    },
+    {
+     "w": "τὸν",
+     "t": [
+      "ton"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "ἔσω",
+     "t": [
+      "esō"
+     ],
+     "s": null,
+     "g": "inner"
+    },
+    {
+     "w": "ἄνθρωπον,",
+     "t": [
+      "anthrōpon"
+     ],
+     "s": null,
+     "g": "man,"
+    },
+    {
+     "w": "κατοικῆσαι",
+     "t": [
+      "katoikēsai"
+     ],
+     "s": null,
+     "g": "for to dwell"
+    },
+    {
+     "w": "τὸν",
+     "t": [
+      "ton"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "Χριστὸν",
+     "t": [
+      "Christon"
+     ],
+     "s": null,
+     "g": "Christ"
+    },
+    {
+     "w": "διὰ",
+     "t": [
+      "dia"
+     ],
+     "s": null,
+     "g": "through"
+    },
+    {
+     "w": "τῆς",
+     "t": [
+      "tēs"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "πίστεως",
+     "t": [
+      "pisteōs"
+     ],
+     "s": null,
+     "g": "faith"
+    },
+    {
+     "w": "ἐν",
+     "t": [
+      "en"
+     ],
+     "s": null,
+     "g": "in"
+    },
+    {
+     "w": "ταῖς",
+     "t": [
+      "tais"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "καρδίαις",
+     "t": [
+      "kardiais"
+     ],
+     "s": null,
+     "g": "hearts"
+    },
+    {
+     "w": "ὑμῶν",
+     "t": [
+      "humōn"
+     ],
+     "s": null,
+     "g": "of you"
+    },
+    {
+     "w": "ἐν",
+     "t": [
+      "en"
+     ],
+     "s": null,
+     "g": "in"
+    },
+    {
+     "w": "ἀγάπῃ",
+     "t": [
+      "agapē"
+     ],
+     "s": null,
+     "g": "love"
+    },
+    {
+     "w": "ἐρριζωμένοι",
+     "t": [
+      "errizōmenoi"
+     ],
+     "s": null,
+     "g": "rooted"
+    },
+    {
+     "w": "καὶ",
+     "t": [
+      "kai"
+     ],
+     "s": null,
+     "g": "and"
+    },
+    {
+     "w": "τεθεμελιωμένοι,",
+     "t": [
+      "tethemeliōmenoi"
+     ],
+     "s": null,
+     "g": "founded,"
+    },
+    {
+     "w": "ἵνα",
+     "t": [
+      "ina"
+     ],
+     "s": null,
+     "g": "so that"
+    },
+    {
+     "w": "ἐξισχύσητε",
+     "t": [
+      "exischusēte"
+     ],
+     "s": null,
+     "g": "you may be fully able"
+    },
+    {
+     "w": "καταλαβέσθαι",
+     "t": [
+      "katalabesthai"
+     ],
+     "s": null,
+     "g": "to grasp"
+    },
+    {
+     "w": "σὺν",
+     "t": [
+      "sun"
+     ],
+     "s": null,
+     "g": "with"
+    },
+    {
+     "w": "πᾶσιν",
+     "t": [
+      "pasin"
+     ],
+     "s": null,
+     "g": "all"
+    },
+    {
+     "w": "τοῖς",
+     "t": [
+      "tois"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "ἁγίοις",
+     "t": [
+      "hagiois"
+     ],
+     "s": null,
+     "g": "saints"
+    },
+    {
+     "w": "τί",
+     "t": [
+      "ti"
+     ],
+     "s": null,
+     "g": "what is"
+    },
+    {
+     "w": "τὸ",
+     "t": [
+      "to"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "πλάτος",
+     "t": [
+      "platos"
+     ],
+     "s": null,
+     "g": "breadth"
+    },
+    {
+     "w": "καὶ",
+     "t": [
+      "kai"
+     ],
+     "s": null,
+     "g": "and"
+    },
+    {
+     "w": "μῆκος",
+     "t": [
+      "mēkos"
+     ],
+     "s": null,
+     "g": "length"
+    },
+    {
+     "w": "καὶ",
+     "t": [
+      "kai"
+     ],
+     "s": null,
+     "g": "and"
+    },
+    {
+     "w": "ὕψος",
+     "t": [
+      "hupsos"
+     ],
+     "s": null,
+     "g": "height"
+    },
+    {
+     "w": "καὶ",
+     "t": [
+      "kai"
+     ],
+     "s": null,
+     "g": "and"
+    },
+    {
+     "w": "βάθος,",
+     "t": [
+      "bathos"
+     ],
+     "s": null,
+     "g": "depth"
+    },
+    {
+     "w": "γνῶναί",
+     "t": [
+      "gnōnai"
+     ],
+     "s": null,
+     "g": "to know"
+    },
+    {
+     "w": "τε",
+     "t": [
+      "te"
+     ],
+     "s": null,
+     "g": "then"
+    },
+    {
+     "w": "τὴν",
+     "t": [
+      "tēn"
+     ],
+     "s": null,
+     "g": "which"
+    },
+    {
+     "w": "ὑπερβάλλουσαν",
+     "t": [
+      "huperballousan"
+     ],
+     "s": null,
+     "g": "is surpassing"
+    },
+    {
+     "w": "τῆς",
+     "t": [
+      "tēs"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "γνώσεως",
+     "t": [
+      "gnōseōs"
+     ],
+     "s": null,
+     "g": "knowledge"
+    },
+    {
+     "w": "ἀγάπην",
+     "t": [
+      "agapēn"
+     ],
+     "s": null,
+     "g": "love"
+    },
+    {
+     "w": "τοῦ",
+     "t": [
+      "tou"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "Χριστοῦ,",
+     "t": [
+      "Christou"
+     ],
+     "s": null,
+     "g": "of Christ,"
+    },
+    {
+     "w": "ἵνα",
+     "t": [
+      "ina"
+     ],
+     "s": null,
+     "g": "so that"
+    },
+    {
+     "w": "πληρωθῆτε",
+     "t": [
+      "plērōthēte"
+     ],
+     "s": null,
+     "g": "you may be filled"
+    },
+    {
+     "w": "εἰς",
+     "t": [
+      "eis"
+     ],
+     "s": null,
+     "g": "unto"
+    },
+    {
+     "w": "πᾶν",
+     "t": [
+      "pan"
+     ],
+     "s": null,
+     "g": "all"
+    },
+    {
+     "w": "τὸ",
+     "t": [
+      "to"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "πλήρωμα",
+     "t": [
+      "plērōma"
+     ],
+     "s": null,
+     "g": "fullness"
+    },
+    {
+     "w": "τοῦ",
+     "t": [
+      "tou"
+     ],
+     "s": null,
+     "g": "the"
+    },
+    {
+     "w": "θεοῦ.",
+     "t": [
+      "theou"
+     ],
+     "s": null,
+     "g": "of God."
+    }
+   ],
+   "translations": {
+    "ESV": "that according to the riches of his glory he may grant you to be strengthened with power through his Spirit in your inner being, so that Christ may dwell in your hearts through faith—that you, being rooted and grounded in love, may have strength to comprehend with all the saints what is the breadth and length and height and depth, and to know the love of Christ that surpasses knowledge, that you may be filled with all the fullness of God.",
+    "WEB": "that he would grant you, according to the riches of his glory, that you may be strengthened with power through his Spirit in the inner person, that Christ may dwell in your hearts through faith, to the end that you, being rooted and grounded in love, may be strengthened to comprehend with all the saints what is the width and length and height and depth, and to know Christ’s love which surpasses knowledge, that you may be filled with all the fullness of God."
+   }
   }
  ]
 }

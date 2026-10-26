@@ -52,3 +52,8 @@ set = "foundations"
 ref = "John 3:16"
 theme = "God's Love"
 set = "foundations"
+
+[[verse]]
+ref = "Ephesians 3:16-19"
+theme = "Paul's Prayer"
+set = "prayer"

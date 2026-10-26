@@ -15,7 +15,8 @@ between on the page (CSS only, no script):
 
 Sizes in the stylesheet are in sheet-relative units, so the on-screen sheet is an exact scale
 model of the printed one. Empty places on the last sheet become blank ruled cards to write a
-verse of your own on.
+verse of your own on. A passage too long for one card (Ephesians 3:16-19) takes four places, a
+190 x 135 mm half sheet, so it still cuts on the same lines.
 """
 
 from __future__ import annotations
@@ -30,6 +31,8 @@ log = logging.getLogger("mkdocs.hooks.memory_verses")
 
 _MARKER = re.compile(r"<!--\s*memory-verses(?::\s*([\w-]+))?\s*-->")
 _CARDS_PER_SHEET = 8
+# Past this length (_length) a dense2 card overflows; the verse takes a 2 x 2 large card instead.
+_LARGE = 48
 # Days after learning a verse to say it again -- widening gaps, the spacing that fixes a memory.
 _REVIEW_DAYS = (1, 2, 4, 7, 14, 30)
 _FONTS = ("https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@400;600"
@@ -85,7 +88,7 @@ def first_letters(text: str) -> str:
 
 
 def render_deck(verses: list[dict], deck_id: str) -> str:
-    sheets = [verses[i:i + _CARDS_PER_SHEET] for i in range(0, max(len(verses), 1), _CARDS_PER_SHEET)]
+    sheets = _paginate(verses)
     cards = "".join(_sheet("", [_full(v, n) for n, v in _numbered(sheets, i)], i, len(sheets))
                     for i in range(len(sheets)))
     flash = "".join(
@@ -114,10 +117,25 @@ def render_deck(verses: list[dict], deck_id: str) -> str:
 """
 
 
+def _paginate(verses: list[dict]) -> list[list[dict]]:
+    """Fill sheets in order by places used. A large card spans both columns, so any mix whose
+    places add up to eight fits the 2 x 4 grid."""
+    sheets: list[list[dict]] = [[]]
+    used = 0
+    for verse in verses:
+        cost = _places(verse)
+        if used + cost > _CARDS_PER_SHEET:
+            sheets.append([])
+            used = 0
+        sheets[-1].append(verse)
+        used += cost
+    return sheets
+
+
 def _numbered(sheets: list[list[dict]], i: int):
-    """(card number, verse or None) for every place on sheet i, padding with blanks."""
-    start = i * _CARDS_PER_SHEET
-    sheet = sheets[i] + [None] * (_CARDS_PER_SHEET - len(sheets[i]))
+    """(card number, verse or None) for every card on sheet i, padding with blanks."""
+    start = sum(len(s) + _CARDS_PER_SHEET - sum(map(_places, s)) for s in sheets[:i])
+    sheet = sheets[i] + [None] * (_CARDS_PER_SHEET - sum(map(_places, sheets[i])))
     return [(start + k + 1, v) for k, v in enumerate(sheet)]
 
 
@@ -141,7 +159,7 @@ def _full(verse: dict | None, number: int) -> str:
         f'<span class="mv-translit">{_translit(w)}</span>'
         f'<span class="mv-gloss">{escape(w["g"])}</span></span>'
         for w in verse["words"])
-    return f"""<article class="mv-card mv-full{_density(verse)}">
+    return f"""<article class="mv-card mv-full{_size(verse)}{_density(verse)}">
   <header class="mv-head"><b>{escape(verse["ref"])}</b><span>{escape(verse["theme"])}</span></header>
   <div class="mv-words" dir="{'rtl' if hebrew else 'ltr'}" lang="{'he' if hebrew else 'grc'}">{words}</div>
   {_english(verse["translations"])}
@@ -156,7 +174,7 @@ def _front(verse: dict | None, number: int) -> str:
     incipit = verse["words"][0]
     hebrew = verse["language"] == "hebrew"
     boxes = "".join(f"<span><i></i>{d}</span>" for d in _REVIEW_DAYS)
-    return f"""<article class="mv-card mv-prompt">
+    return f"""<article class="mv-card mv-prompt{_size(verse)}">
   <span class="mv-theme">{escape(verse["theme"])}</span>
   <b class="mv-ref">{escape(verse["ref"])}</b>
   <span class="mv-incipit" lang="{'he' if hebrew else 'grc'}">{escape(incipit["w"])}
@@ -193,7 +211,20 @@ def _same(a: str, b: str) -> bool:
     return " ".join(a.split()) == " ".join(b.split())
 
 
+def _length(verse: dict) -> float:
+    return len(verse["words"]) + sum(len(t) for t in verse["translations"].values()) / 25
+
+
+def _places(verse: dict) -> int:
+    return 4 if _length(verse) > _LARGE else 1
+
+
+def _size(verse: dict) -> str:
+    return " mv-large" if _places(verse) == 4 else ""
+
+
 def _density(verse: dict) -> str:
-    """Long verses step the type down so they still fit a 95 x 67.5 mm card."""
-    size = len(verse["words"]) + sum(len(t) for t in verse["translations"].values()) / 25
+    """Long verses step the type down so they still fit their card. A large card holds about five
+    times as much as a small one: four places, with one header and wider lines."""
+    size = _length(verse) / (5 if _places(verse) == 4 else 1)
     return " mv-dense2" if size > 34 else " mv-dense1" if size > 22 else ""
