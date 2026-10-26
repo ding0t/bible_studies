@@ -84,6 +84,31 @@ holds are listed.
 
 <!-- songbook: early-church -->
 
+## How they were sung
+
+The tunes are lost. No melody from Scripture survives in a form anyone can sing, so every card here
+gives the words. Scripture does keep some of the instructions that went with them.
+
+Several psalm titles name a tune or a setting, the way a hymn book prints a tune's name above the
+words. Psalm 22 is "set to 'The Doe of the Morning'", Psalm 8 is "on an instrument of Gath", and
+Psalm 46 is "according to Alamoth" (WEB). Their cards say what each term may mean and how sure that
+is.
+
+Some of those terms had passed out of use before Jesus was born. The Septuagint, the Greek
+translation of the Psalms, probably made in the second century BC, renders the same titles "for the
+help of the morning", "for the winepresses" and "concerning hidden things". Its translators read
+the Hebrew letters as ordinary words, because the musical sense was no longer known.
+
+Others were the temple musicians' own terms. When David brought the ark to Jerusalem, Levites
+played "stringed instruments set to Alamoth" and "harps tuned to the eight-stringed lyre"
+(1 Chronicles 15:20-21, WEB).
+
+The Hebrew Bible also carries marks for chanting. The Masoretes, the scribes who copied it from
+about the seventh to the tenth century AD, added an accent to each word telling a reader how to
+chant it, with a system of its own for Psalms, Job and Proverbs. The accents record how the
+synagogue chanted the text in their day. Attempts to rebuild David's melodies from them are
+disputed.
+
 ## Adding a song
 
 The songs live in `docs/data/songbook.toml`, one entry per song; the file's header lists the

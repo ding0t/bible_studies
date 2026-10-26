@@ -11,6 +11,11 @@
 #   occasion    What had just happened, with the verse that says so.
 #   first_line  Its opening words in the WEB (public domain), or a translation marked in `source`.
 #   source      Optional. Where first_line comes from, when it is not the WEB.
+#   tune        Optional. What the song's title says about its tune or setting, after tune_hebrew
+#               (the Hebrew words of the title). The melodies themselves are lost.
+#   words       Optional. The whole song, line by line, for a song whose words are not in the WEB.
+#               Every other song's words are exported from the WEB by
+#               references/build/export_songbook.py into docs/data/songbook-words.json.
 #   sing_when   Occasions from OCCASIONS in hooks/songbook.py. An unknown one is logged at build.
 #   jesus       Optional. sang | quoted | sung-to: how Jesus is connected to the song.
 #   jesus_note  Required with `jesus`. The verse that shows it, and how sure it is.
@@ -126,6 +131,8 @@ sung_by = "Habakkuk, \"for the music director, on my stringed instruments\" (Hab
 occasion = "Babylon is coming (Habakkuk 1:6). He resolves to rejoice in God when every harvest fails."
 first_line = "For even though the fig tree doesn't flourish … yet I will rejoice in Yahweh. I will be joyful in the God of my salvation! (Habakkuk 3:17-18)"
 sing_when = ["trouble", "trust"]
+tune_hebrew = "עַל שִׁגְיֹנוֹת"
+tune = "(ʿal šigyōnôt), \"set to victorious music\" (Habakkuk 3:1, WEB). The Hebrew is Shigionoth, a musical term whose meaning is unknown; its singular, Shiggaion, heads Psalm 7. The prayer ends with a note for the leader: \"For the music director, on my stringed instruments\" (Habakkuk 3:19, WEB). The Septuagint has \"with a song.\""
 
 # --- From the Psalter ------------------------------------------------------------------------------
 
@@ -158,6 +165,8 @@ sung_by = "David"
 occasion = "A lament that turns to praise: \"Among the assembly, I will praise you\" (Psalm 22:22, WEB)."
 first_line = "My God, my God, why have you forsaken me?"
 sing_when = ["trouble", "grief"]
+tune_hebrew = "עַל־אַיֶּלֶת הַשַּׁחַר"
+tune = "(ʿal-ʾayyelet haššaḥar), \"set to 'The Doe of the Morning'\" (WEB). Almost certainly the name of a tune Israel knew, the way a hymn book names one; the melody is lost. The Septuagint read the same letters as the word for \"help\" in Psalm 22:19 (\"You are my help\") and has \"for the help of the morning.\""
 jesus = "quoted"
 jesus_note = "He cried its first line from the cross (Matthew 27:46). Hebrews puts verse 22 in His mouth (Hebrews 2:12)."
 
@@ -194,6 +203,8 @@ sung_by = "David"
 occasion = "Praise for the Creator who crowns man with glory."
 first_line = "From the lips of babes and infants you have established strength. (Psalm 8:2)"
 sing_when = ["worship", "creation"]
+tune_hebrew = "עַל־הַגִּתִּית"
+tune = "(ʿal-haggittît), \"on an instrument of Gath\" (WEB), as over Psalms 81 and 84. An instrument or a tune from Gath, or a word from gat, \"winepress\": which is uncertain. The Septuagint took the last and has \"for the winepresses.\""
 jesus = "quoted"
 jesus_note = "He quoted it when children shouted \"Hosanna\" in the temple (Matthew 21:16)."
 
@@ -216,6 +227,8 @@ sung_by = "The sons of Korah"
 occasion = "No occasion given; a song for a city under threat."
 first_line = "God is our refuge and strength, a very present help in trouble."
 sing_when = ["trouble", "trust"]
+tune_hebrew = "עַל־עֲלָמוֹת"
+tune = "(ʿal-ʿălāmôt), \"according to Alamoth\" (WEB). A musicians' term: when the ark came to Jerusalem, Levites played \"stringed instruments set to Alamoth\" beside \"harps tuned to the eight-stringed lyre\" (1 Chronicles 15:20-21, WEB). ʿălāmôt means \"young women\", so it probably marks a high range of voice or instrument; that reading is likely but contested. The Septuagint, reading the letters as \"hidden\", has \"concerning hidden things.\""
 
 [[song]]
 id = "psalm-100"
@@ -424,6 +437,30 @@ sung_by = "Greek-speaking churches. Copied into Bibles after the Psalms as the f
 occasion = "A morning song that begins with the angels' words and goes on to praise the Father, the Son and the Holy Spirit."
 first_line = "Glory to God in the highest, and on earth peace, good will among men. We praise you, we bless you, we worship you, we glorify you, we give you thanks for your great glory, Lord, heavenly King, God the Father Almighty; Lord, only-begotten Son, Jesus Christ, and Holy Spirit. Lord God, Lamb of God, Son of the Father, who takes away the sins of the world, have mercy on us."
 source = "Odes 14:1, Swete's Septuagint (public domain), translated for this page"
+# Translated for this page from Swete's Greek, line by line. The second half is lines of the
+# Greek Psalter and the Prayer of Azariah, each checked against Brenton's Septuagint and cited with
+# its English verse number.
+words = [
+  "Glory to God in the highest, and on earth peace, good will among men.",
+  "We praise you, we bless you, we worship you, we glorify you,",
+  "we give you thanks for your great glory,",
+  "Lord, heavenly King, God the Father Almighty;",
+  "Lord, only-begotten Son, Jesus Christ, and Holy Spirit.",
+  "Lord God, Lamb of God, Son of the Father,",
+  "who takes away the sins of the world, have mercy on us;",
+  "who takes away the sins of the world, have mercy on us; receive our prayer;",
+  "who sits at the right hand of the Father, have mercy on us.",
+  "For you alone are holy; you alone are Lord, Jesus Christ, to the glory of God the Father. Amen.",
+  "Every day I will bless you, and praise your name forever, and forever and ever. (Psalm 145:2)",
+  "Lord, count us worthy to be kept this day without sin.",
+  "Blessed are you, Lord, the God of our fathers, and praised and glorified is your name forever. Amen. (The Prayer of Azariah, in the Greek of Daniel 3)",
+  "Blessed are you, Lord; teach me your statutes. (Psalm 119:12, sung three times)",
+  "Lord, you have been our refuge from generation to generation. (Psalm 90:1)",
+  "I said, Lord, have mercy on me; heal my soul, for I have sinned against you. (Psalm 41:4)",
+  "Lord, I have fled to you for refuge; teach me to do your will, for you are my God. (Psalm 143:9-10)",
+  "For with you is the fountain of life; in your light we will see light. (Psalm 36:9)",
+  "Continue your mercy to those who know you. (Psalm 36:10)",
+]
 sing_when = ["morning", "worship"]
 jesus = "sung-to"
 jesus_note = "Addresses Him as \"Lord God, Lamb of God,\" as Pliny's Christians sang \"unto Christ as God.\""

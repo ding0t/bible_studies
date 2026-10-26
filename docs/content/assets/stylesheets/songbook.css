@@ -81,6 +81,41 @@
   margin: 0.2rem 0;
 }
 
+/* The full words, folded away under the card. */
+.md-typeset .sb-words {
+  margin: 0.4rem 0 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  background: none;
+  font-size: inherit;
+}
+.md-typeset .sb-words > summary {
+  padding: 0 1.8rem 0 0;
+  margin: 0;
+  display: inline-block;
+  background: none;
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+}
+.md-typeset .sb-words > summary::before { display: none; }
+.md-typeset .sb-words > summary::after { top: 0.15em; }
+.md-typeset .sb-lines { margin-top: 0.4rem; }
+.md-typeset .sb-lines p {
+  margin: 0.15rem 0;
+}
+.md-typeset .sb-lines sup {
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .sb-ch {
+  font-weight: 600;
+  margin-top: 0.7rem;
+}
+.md-typeset .sb-src {
+  font-size: 0.8em;
+  color: var(--md-default-fg-color--light);
+}
+
 @media print {
   .sb-song {
     break-inside: avoid;

@@ -241,6 +241,8 @@ uv run python export_connector.py --publish  # the connector's Hebrew/Greek data
                                              # gitignored) and the `lang-data` release the deploy downloads
 uv run python export_memory_verses.py  # docs/data/memory-verses.toml -> .json for the printable cards (hooks/memory_verses.py);
                                        # re-run after adding a verse -- needs study-notes.db for the ESV
+uv run python export_songbook.py   # docs/data/songbook.toml -> songbook-words.json, each song's full WEB text
+                                   # for the Songbook (hooks/songbook.py); re-run after adding a song
 ```
 
 **Source catalog drift check** (run from the repo root, stdlib only):
