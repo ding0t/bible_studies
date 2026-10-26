@@ -257,7 +257,7 @@
 .ss-questions { flex: 1; min-height: 0; display: flex; flex-direction: column; }
 .ss-group, .ss-q { display: contents; }
 .ss-questions .ss-h { margin: calc(4 * var(--mm)) 0 0; }
-.ss-questions .ss-h:first-child { margin-top: 0; }
+.ss-questions > .ss-group:first-child .ss-h { margin-top: 0; }
 .ss-q p { margin-top: calc(2.5 * var(--mm)); }
 .ss-q i { flex: 1 1 0; }
 .ss-n {
@@ -297,32 +297,31 @@
 .ss-url { display: flex; flex-direction: column; color: var(--ss-muted); }
 .ss-url b { color: var(--ss-ink); }
 
-/* ---- Two pages: the path, then the questions ------------------------------------------- */
+/* ---- Two pages: each step with its questions ------------------------------------------ */
 
 .ss:has(.ss-opt-two:checked) .ss-four,
 .ss:not(:has(.ss-opt-two:checked)) .ss-two { display: none; }
 
-.ss-t1-body { flex: 1; min-height: 0; overflow: hidden; display: flex; flex-direction: column; gap: calc(5 * var(--mm)); }
-.ss-lead > b, .ss-asks, .ss-step {
+/* One run of blocks across both pages (ssFlow); each block keeps its own height. */
+.ss-flow { flex: 1; min-height: 0; overflow: hidden; display: flex; flex-direction: column; }
+.ss-b { flex: none; }
+.ss-lead + .ss-lead { margin-top: calc(2 * var(--mm)); }
+.ss-lead > b, .ss-grouphead, .ss-step {
   font-family: var(--ss-sans);
   font-size: calc(10 * var(--pt));
   font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
   color: var(--ss-accent);
 }
-.ss-lead > b { margin-right: calc(1.5 * var(--mm)); text-transform: uppercase; letter-spacing: 0.08em; }
-.ss-path ol { margin: 0; padding: 0; list-style: none; }
-.ss-path li {
-  display: grid;
-  grid-template-columns: calc(6 * var(--mm)) 1fr auto;
-  align-items: baseline;
-  gap: 0 calc(3 * var(--mm));
-  margin: 0 0 calc(3.5 * var(--mm));
-  padding-bottom: calc(3 * var(--mm));
-  border-bottom: calc(0.3 * var(--mm)) solid var(--ss-rule);
-  line-height: 1.35;
-  color: var(--ss-ink);
+.ss-lead > b { margin-right: calc(1.5 * var(--mm)); }
+.ss-stephead, .ss-grouphead {
+  margin-top: calc(5 * var(--mm));
+  padding-top: calc(2 * var(--mm));
+  border-top: calc(0.4 * var(--mm)) solid var(--ss-accent);
 }
-.ss-asks { white-space: nowrap; }
+.ss-stephead { display: grid; grid-template-columns: calc(6 * var(--mm)) 1fr; gap: 0 calc(2 * var(--mm)); line-height: 1.35; }
+.ss-step { font-size: calc(12 * var(--pt)); letter-spacing: 0; }
 .ss-keys {
   display: block;
   margin-top: calc(1 * var(--mm));
@@ -330,12 +329,28 @@
   font-size: calc(11 * var(--pt));
   color: var(--ss-muted);
 }
-/* Set by ssFit when a page overruns: key verses go, then the annotations, then This week; the
-   questions page drops its QR code, then closes up the gaps between questions. */
-.ss-nokeys .ss-keys, .ss-titles .ss-note, .ss-noweek .ss-tad, .ss-noqr .ss-link { display: none; }
+.ss-two .ss-q { display: block; }
+.ss-two .ss-q p { margin-top: calc(2.5 * var(--mm)); }
+.ss-two .ss-q i { display: block; flex: none; height: calc(16 * var(--mm)); }
+.ss-two .ss-tad ul { margin-top: calc(2 * var(--mm)); }
+.ss-two .ss-point { margin-top: calc(2 * var(--mm)); }
+/* Set by ssFlow when page 2 overruns: key verses go, then the QR code, then the gaps close up,
+   then the step notes, then the answer spaces drop to one line. */
+.ss-nokeys .ss-keys, .ss-titles .ss-note, .ss-noqr .ss-link { display: none; }
+.ss-snug .ss-stephead, .ss-snug .ss-grouphead { margin-top: calc(3 * var(--mm)); padding-top: calc(1.5 * var(--mm)); }
+.ss-snug .ss-q p { margin-top: calc(1.5 * var(--mm)); }
+.ss-tight .ss-q i { height: calc(8 * var(--mm)); }
 .ss-tight .ss-q p { margin-top: calc(1 * var(--mm)); }
-.ss-tight .ss-questions .ss-h { margin-top: calc(2 * var(--mm)); }
-.ss-step { margin-right: calc(1.5 * var(--mm)); }
+
+/* Page 4's Be transformed question: two lines to answer in, above the think / attitude / do. */
+.ss-p4 .ss-tad .ss-q i { display: block; height: calc(16 * var(--mm)); }
+.ss-p4 .ss-tad ul { margin-top: calc(3 * var(--mm)); }
+/* Set by ssFit when page 3 or 4 overruns. */
+.ss-p3.ss-snug .ss-questions .ss-h { margin-top: calc(2 * var(--mm)); }
+.ss-p3.ss-snug .ss-q p { margin-top: calc(1 * var(--mm)); }
+.ss-nonotes .ss-notes { display: none; }
+.ss-noempty .ss-empty { display: none; }
+.ss-p4.ss-tight .ss-tad .ss-q i { height: calc(8 * var(--mm)); }
 
 /* ---- Print -------------------------------------------------------------------------------- */
 

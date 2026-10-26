@@ -7,18 +7,21 @@ friend, set at 12 pt for older eyes:
           closer" box to write in.
 - page 2  the study's primary graphic (its comic, else its first drawn diagram) as large as the
           page allows, and the Study outline as "the study in brief".
-- page 3  the discussion questions, grouped by their minutes, with the same room to write under each.
-- page 4  the response: the Be Transformed think/attitude/do, the first memory verse and the
+- page 3  the discussion questions under the Study outline's steps, each step with its share of the
+          minutes, the same room to write under each (by facet, for a study with no outline).
+- page 4  Be transformed (its question, then think/attitude/do), the first memory verse and the
           study's prayer, room for notes, and a QR code back to the full study.
 
 Or, for a study with a Study outline, one sheet double-sided ("Two pages"), for a leader who does
-not know the study well: page 1 is the path through it (each outline step with its key verses and
-the questions that belong to it), This week, and the point to finish on; page 2 is the questions,
-grouped by step. A question belongs to the step whose section cites the same verses.
+not know the study well: Open, Read it aloud, then each outline step (its note and key verses)
+followed straight away by the questions that belong to it, then Be transformed, and the point to
+finish on, poured across the two pages. A question belongs to the step whose section cites the
+same verses.
 
 Everything on the sheet is lifted from the rendered study, so it says nothing the study does not
 and needs no checking of its own. The facet labels on the questions (develop-bible-study's
-discussion-questions.md) place each one on the clock.
+discussion-questions.md) mark Be transformed, which closes the sheet, and place the rest on the
+clock where a study has no outline to group them by.
 
 It runs at on_post_page, after the search plugin has indexed the page, so the sheet's copy of the
 questions is not a second search hit for every study.
@@ -113,17 +116,57 @@ function ssFit(details) {
   also.hidden = !rest.length;
   if (over(brief)) p2.classList.add("ss-titles");
   if (over(brief)) p2.classList.add("ss-nobrief");
-  // The two-page sheet's path: key verses go first, then the steps' annotations, then This week,
-  // which the four-page sheet still carries. The questions give up the QR code, then
-  // the gaps between them.
+  // Page 3 closes up its gaps, then drops the steps that have no questions; page 4 gives up its
+  // notes, then Be transformed's answer space drops to one line.
+  const p3 = details.querySelector(".ss-p3"), p4 = details.querySelector(".ss-p4");
+  p3.classList.remove("ss-snug", "ss-noempty");
+  p4.classList.remove("ss-nonotes", "ss-tight");
+  if (over(p3.querySelector(".ss-questions"))) p3.classList.add("ss-snug");
+  if (over(p3.querySelector(".ss-questions"))) p3.classList.add("ss-noempty");
+  const foot = p4.querySelector(".ss-foot");
+  const low = () => [...p4.children].some((e) => e !== foot && e.getBoundingClientRect().bottom > foot.getBoundingClientRect().top + 1);
+  if (low()) p4.classList.add("ss-nonotes");
+  if (low()) p4.classList.add("ss-tight");
+  ssFlow(details);
+}
+// The two-page sheet is one run of blocks poured across two pages. Answer spaces start at two
+// lines; whatever does not fit page 1 moves to page 2, and a heading moves with the question under
+// it. If page 2 overflows, the key verses go, then the QR code, then the gaps between blocks close
+// up, then the step notes (which a leader new to the study leans on most), then the answer spaces
+// drop to one line. What room is left is shared out: every answer on both pages gets
+// the same extra height, in sheet millimetres so the fit holds on paper.
+function ssFlow(details) {
   const t1 = details.querySelector(".ss-t1"), t2 = details.querySelector(".ss-t2");
-  if (t1) {
-    const body = t1.querySelector(".ss-t1-body"), qs = t2.querySelector(".ss-questions");
-    t1.classList.remove("ss-nokeys", "ss-titles", "ss-noweek");
-    t2.classList.remove("ss-noqr", "ss-tight");
-    for (const c of ["ss-nokeys", "ss-titles", "ss-noweek"]) if (over(body)) t1.classList.add(c);
-    for (const c of ["ss-noqr", "ss-tight"]) if (over(qs)) t2.classList.add(c);
+  if (!t1 || !t1.offsetParent) return;
+  const f1 = t1.querySelector(".ss-flow"), f2 = t2.querySelector(".ss-flow");
+  const answers = [...details.querySelectorAll(".ss-two .ss-q i")];
+  const used = (f) => f.lastElementChild ? f.lastElementChild.getBoundingClientRect().bottom - f.getBoundingClientRect().top : 0;
+  const fits = (f) => used(f) <= f.clientHeight + 1;
+  const steps = ["ss-nokeys", "ss-noqr", "ss-snug", "ss-titles", "ss-tight"];
+  const pour = (on) => {
+    [t1, t2].forEach((t) => steps.forEach((c) => t.classList.toggle(c, on.includes(c))));
+    f1.append(...f2.children);
+    while (!fits(f1) && f1.children.length > 1) f2.prepend(f1.lastElementChild);
+    while (f1.children.length > 1 && f1.lastElementChild.hasAttribute("data-keep")) f2.prepend(f1.lastElementChild);
+    return fits(f2);
+  };
+  answers.forEach((i) => { i.style.height = ""; });
+  let on = [];
+  while (!pour(on) && on.length < steps.length) on = steps.slice(0, on.length + 1);
+  // A later step can make room for an earlier one: put back whatever still fits.
+  for (const c of on.slice(0, -1)) {
+    const fewer = on.filter((x) => x !== c);
+    if (pour(fewer)) on = fewer;
   }
+  pour(on);
+  const mm = t1.getBoundingClientRect().width / 210;
+  const spare = [f1, f2].map((f) => {
+    const n = f.querySelectorAll(".ss-q i").length;
+    return n ? (f.clientHeight - used(f)) / n : Infinity;
+  });
+  const extra = Math.max(0, Math.min(...spare));
+  if (!isFinite(extra)) return;
+  answers.forEach((i) => { i.style.height = `calc(${(i.getBoundingClientRect().height + extra) / mm} * var(--mm))`; });
 }
 // Print follows html.ss-on, which only the reader sets, by clicking the summary or Print sheet:
 // mkdocs-material opens every <details> when printing, so [open] cannot tell a sheet the reader
@@ -236,9 +279,12 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
   {foot(2)}
 </section>"""
 
+    asked = [q for segment, q in _segments(questions) if segment != "respond"]
+    respond = [q for segment, q in _segments(questions) if segment == "respond"]
+    plan = _steps(page, article, questions)
     p3 = f"""<section class="ss-sheet ss-p3" aria-label="Study sheet, page 3">
   {head}
-  <div class="ss-questions">{_questions(questions)}</div>
+  <div class="ss-questions">{_by_step(*plan) if plan else _questions(asked)}</div>
   {foot(3)}
 </section>"""
 
@@ -246,15 +292,15 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
     <span class="ss-url"><b>The whole study, with every verse a tap away</b>{escape(url)}</span>"""
     p4 = f"""<section class="ss-sheet ss-p4" aria-label="Study sheet, page 4">
   {head}
-  <div class="ss-respond">{_respond(article)}</div>
+  <div class="ss-respond">{_respond(article, respond, len(asked) + 1)}</div>
   {notes}
   <div class="ss-link">{qr}</div>
   {foot(4)}
 </section>"""
 
-    two = _two_pages(page, article, point, questions, title, qr)
-    option = ('<label><input type="checkbox" class="ss-opt-two"> Two pages <small>one sheet: the path '
-              'through the study, then the questions</small></label>') if two else ""
+    two = _two_pages(page, article, point, plan, respond, title, qr) if plan else ""
+    option = ('<label><input type="checkbox" class="ss-opt-two"> Two pages <small>one sheet: each '
+              'step of the study with its questions</small></label>') if two else ""
     return f"""
 <details class="ss" id="group-study-sheet" data-no-popups>
   <summary>Group study sheet <small>for a 40-minute group: two A4 sheets, or one with the guided path</small></summary>
@@ -402,15 +448,24 @@ def _brief(outline_html: str) -> str:
     return f'<div class="ss-brief"><span class="ss-h">The study in brief</span><ol>{lis}</ol></div>'
 
 
-def _questions(questions: list[str]) -> str:
-    groups: dict[str, list[str]] = {"discover": [], "wrestle": [], "respond": []}
-    segment = "discover"
+def _segments(questions: list[str]) -> list[tuple[str, str]]:
+    """Each question with its place on the clock. A question without a facet label stays in the
+    segment of the one before it."""
+    out, segment = [], "discover"
     for q in questions:
         label = re.match(r"\s*<strong>(.*?)\.?</strong>", q)
         segment = _FACETS.get(label[1].strip().rstrip(".").lower(), segment) if label else segment
-        groups[segment].append(_clean(q))
+        out.append((segment, q))
+    return out
+
+
+def _questions(questions: list[str]) -> str:
+    """Page 3 for a study with no outline to walk: the questions under Discover and Wrestle."""
+    groups: dict[str, list[str]] = {"discover": [], "wrestle": []}
+    for segment, q in _segments(questions):
+        groups.setdefault(segment, []).append(_clean(q))
     out, number = "", 0
-    for key, label, a, b in _PLAN[2:]:
+    for key, label, a, b in _PLAN[2:4]:
         if not groups[key]:
             continue
         qs = ""
@@ -421,8 +476,12 @@ def _questions(questions: list[str]) -> str:
     return out
 
 
-def _question(number: int, q: str) -> str:
-    return f'<div class="ss-q"><p><span class="ss-n">{number}</span>{q}</p><i></i></div>'
+def _question(number: int, q: str, cls: str = "ss-q") -> str:
+    return f'<div class="{cls}"><p><span class="ss-n">{number}</span>{q}</p><i></i></div>'
+
+
+def _minutes(a: int, b: int) -> str:
+    return f'<span class="ss-badge" title="{a}–{b} minutes">{a}–{b}<small>min</small></span>'
 
 
 def _citations(html: str, book: str) -> list[set[tuple[str, int, int]]]:
@@ -451,9 +510,10 @@ def _anchored(article: str, anchor: str) -> str:
     return _section(article, int(m[1]), anchor) if m else ""
 
 
-def _two_pages(page, article: str, point: str, questions: list[str], title: str, qr: str) -> str:
-    """One sheet that walks the Study outline, for a leader who does not know the study well. Empty
-    when the study has no outline to walk."""
+def _steps(page, article: str, questions: list[str]) -> tuple[list[dict], list[str]] | None:
+    """The Study outline's steps, each with the questions that belong to it, and the questions no
+    step claims. Be transformed questions are left out: they close the sheet. None when the study
+    has no outline of two or more steps to walk."""
     outline = _section(article, 2, "study-outline")
     passage = _REF.match(str(page.meta.get("primary_passage") or "").split(";")[0].strip())
     book = passage["book"].strip() if passage and passage["book"] else ""
@@ -478,13 +538,11 @@ def _two_pages(page, article: str, point: str, questions: list[str], title: str,
         steps.append({"name": name, "note": note, "keys": keys,
                       "cited": set().union(*_citations(section, book)), "qs": []})
     if len(steps) < 2:
-        return ""
+        return None
 
-    respond, other = [], []
-    for q in questions:
-        label = re.match(r"\s*<strong>(.*?)\.?</strong>", q)
-        if label and _FACETS.get(label[1].strip().rstrip(".").lower()) == "respond":
-            respond.append(q)
+    other = []
+    for segment, q in _segments(questions):
+        if segment == "respond":
             continue
         # The step that cites most of the question's references; a tie goes to the earlier step,
         # where the group meets the verse first. Counting references, not verses, keeps a
@@ -493,34 +551,68 @@ def _two_pages(page, article: str, point: str, questions: list[str], title: str,
         scores = [sum(bool(c & s["cited"]) for c in asked) for s in steps]
         best = max(scores)
         (steps[scores.index(best)]["qs"] if best else other).append(q)
+    return steps, other
 
-    groups = [(f'<span class="ss-step">{i}</span>{escape(s["name"])}', s["qs"])
-              for i, s in enumerate(steps, 1)] + [("Talk it over", other), ("Respond", respond)]
-    number, path_qs, body = 0, {}, ""
-    for i, (label, qs) in enumerate(groups):
-        if not qs:
-            continue
-        path_qs[i] = (number + 1, number + len(qs))
-        body += f'<div class="ss-group"><span class="ss-h">{label}</span>{"".join(_question(number + k, _clean(q)) for k, q in enumerate(qs, 1))}</div>'
-        number += len(qs)
 
-    def asks(i: int) -> str:
-        if i not in path_qs:
-            return ""
-        a, b = path_qs[i]
-        return f'<span class="ss-asks">{"Question" if a == b else "Questions"} {a}{"" if a == b else f"–{b}"}</span>'
+def _by_step(steps: list[dict], other: list[str]) -> str:
+    """Page 3 for a study with an outline: the questions under the step they belong to, in the
+    outline's order, with Discover and Wrestle's minutes (12 to 35) shared out by question count.
+    A step with no questions keeps its heading, so the page still shows the way through, unless the
+    page runs out of room."""
+    groups = [(f'{i}. {escape(s["name"])}', s["qs"]) for i, s in enumerate(steps, 1)]
+    groups += [("Talk it over", other)] if other else []
+    total = sum(len(qs) for _, qs in groups) or 1
+    out, number, start = "", 0, 12
+    for label, qs in groups:
+        end = 12 + round(23 * (number + len(qs)) / total)
+        badge = _minutes(start, end) if qs else ""
+        body = "".join(_question(number + k, _clean(q)) for k, q in enumerate(qs, 1))
+        out += f'<div class="ss-group{"" if qs else " ss-empty"}"><span class="ss-h">{badge}{label}</span>{body}</div>'
+        number, start = number + len(qs), end
+    return out
 
-    # Numbered by hand: WebKit drops a list marker when the item holds a float.
-    lis = "".join(
-        f'<li><span class="ss-step">{i + 1}</span><div><b>{escape(s["name"])}</b>'
-        f'<span class="ss-note"> — {_clean(s["note"])}</span>'
-        + (f'<span class="ss-keys">Key verses: {escape("; ".join(s["keys"]))}</span>' if s["keys"] else "")
-        + f"</div>{asks(i)}</li>"
-        for i, s in enumerate(steps))
-    transform = _items(_section(article, 3, "be-transformed"), "ul")
-    tad = (f'<div class="ss-tad"><span class="ss-h">This week</span><ul>{"".join(f"<li>{_clean(i)}</li>" for i in transform)}</ul></div>'
-           if transform else "")
+
+def _transform(article: str, respond: list[str], first: int, cls: str = "ss-q") -> tuple[str, str] | None:
+    """Be transformed: its discussion questions, then the think / attitude / do list."""
+    items = _items(_section(article, 3, "be-transformed"), "ul")
+    if not respond and not items:
+        return None
+    qs = "".join(_question(first + k, _clean(q), cls) for k, q in enumerate(respond))
+    tad = f'<ul>{"".join(f"<li>{_clean(i)}</li>" for i in items)}</ul>' if items else ""
+    return qs, tad
+
+
+def _two_pages(page, article: str, point: str, plan, respond: list[str], title: str, qr: str) -> str:
+    """One sheet that walks the Study outline, for a leader who does not know the study well: each
+    step with its key verses, then straight away the questions that belong to it. The hook writes
+    the blocks in order onto page 1; ssFlow carries what does not fit over to page 2."""
+    steps, other = plan
+    blocks, number = [], 0
     passage = escape(str(page.meta.get("primary_passage") or ""))
+    blocks.append(f'<p class="ss-b ss-lead"><b>Open</b> {_opener(page.meta, title)}</p>')
+    if passage:
+        blocks.append(f'<p class="ss-b ss-lead"><b>Read it aloud</b> {passage}</p>')
+    for i, s in enumerate(steps, 1):
+        keys = f'<span class="ss-keys">Key verses: {escape("; ".join(s["keys"]))}</span>' if s["keys"] else ""
+        note = _clean(s["note"])
+        # data-keep: a heading goes to the next page with the question under it, never alone.
+        blocks.append(f'<div class="ss-b ss-stephead" data-keep><span class="ss-step">{i}</span><div>'
+                      f'<b>{escape(s["name"])}</b>{f'<span class="ss-note"> — {note}</span>' if note else ""}{keys}</div></div>')
+        for q in s["qs"]:
+            number += 1
+            blocks.append(_question(number, _clean(q), "ss-b ss-q"))
+    if other:
+        blocks.append('<div class="ss-b ss-grouphead" data-keep>Talk it over</div>')
+        for q in other:
+            number += 1
+            blocks.append(_question(number, _clean(q), "ss-b ss-q"))
+    transform = _transform(article, respond, number + 1, "ss-b ss-q")
+    if transform:
+        qs, tad = transform
+        blocks.append('<div class="ss-b ss-grouphead" data-keep>Be transformed</div>')
+        blocks.append(qs)
+        if tad:
+            blocks.append(f'<div class="ss-b ss-tad">{tad}</div>')
 
     def foot(n: int) -> str:
         return f'<footer class="ss-foot"><span>Page {n} of 2 · print double-sided, flip on long edge</span><span>{_NOTICE}</span></footer>'
@@ -528,31 +620,29 @@ def _two_pages(page, article: str, point: str, questions: list[str], title: str,
     return f"""<div class="ss-set ss-two">
 <section class="ss-sheet ss-t1" aria-label="Two-page study sheet, page 1">
   <header class="ss-head">
-    <span class="ss-kicker">Group study · the path through it</span>
+    <span class="ss-kicker">Group study · step by step</span>
     <h2>{escape(title)}</h2>
     <span class="ss-ref">{passage}</span>
   </header>
-  <div class="ss-t1-body">
-    <p class="ss-lead"><b>Open</b> {_opener(page.meta, title)}</p>
-    {f'<p class="ss-lead"><b>Read it aloud</b> {passage}</p>' if passage else ""}
-    <div class="ss-path"><span class="ss-h">The path</span><ol>{lis}</ol></div>
-    {tad}
-  </div>
-  <p class="ss-point"><b>The point</b> {_clean(point)}</p>
+  <div class="ss-flow">{"".join(blocks)}</div>
   {foot(1)}
 </section>
 <section class="ss-sheet ss-t2" aria-label="Two-page study sheet, page 2">
   <header class="ss-head ss-head-back"><h2>{escape(title)}</h2></header>
-  <div class="ss-questions">{body}</div>
+  <div class="ss-flow"></div>
+  <p class="ss-point"><b>The point</b> {_clean(point)}</p>
   <div class="ss-link">{qr}</div>
   {foot(2)}
 </section>
 </div>"""
 
 
-def _respond(article: str) -> str:
-    transform = _section(article, 3, "be-transformed")
-    tad = "".join(f"<li>{_clean(i)}</li>" for i in _items(transform, "ul"))
+def _respond(article: str, respond: list[str], first: int) -> str:
+    transform = _transform(article, respond, first)
+    tad = ""
+    if transform:
+        qs, items = transform
+        tad = f'<div class="ss-tad"><span class="ss-h">{_badge("respond")}Be transformed</span>{qs}{items}</div>'
     # Markdown merges consecutive quote blocks into one, so the verses are told apart by their
     # "✝️ Reference (TRANSLATION)" lines. One verse to learn this week: the first.
     paragraphs = re.findall(r"<p>(.*?)</p>", _section(article, 3, "memory-verses"), re.DOTALL)
@@ -564,5 +654,4 @@ def _respond(article: str) -> str:
         memory = f'<div class="ss-memory"><span class="ss-h">Memory verse</span>{_clean(text)}<cite>{_clean(ref)}</cite></div>'
     prayer = _section(article, 3, "prayer").strip()
     prayer = f'<div class="ss-prayer"><span class="ss-h">Pray together</span>{_clean(prayer)}</div>' if prayer else ""
-    tad = f'<div class="ss-tad"><span class="ss-h">This week</span><ul>{tad}</ul></div>' if tad else ""
     return tad + memory + prayer

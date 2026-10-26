@@ -12,8 +12,8 @@ beside the title opens the block and jumps to it, since a leader decides to prin
 |---|---|
 | 1 | Title, `primary_passage`; the point (the thesis); Open: the first `questions:` frontmatter entry, else "what comes to mind when you hear …"; Read it aloud: `primary_passage` in WEB; Look closer: say / meant then / means for us, to write in |
 | 2 | The primary graphic, as large as the page allows (the first comic, else the first drawn SVG that is a diagram rather than a 100-unit feast emblem); the study in brief: the Study outline, beside a tall graphic, under a wide one, or with room for notes when there is no graphic |
-| 3 | The questions, grouped by facet label under Discover 12–25, Wrestle 25–35 and Respond 35–40 (each group's badge carries its minutes; Open 0–5 and Read 5–12 are on page 1), each with the same ruled space whatever its length |
-| 4 | This week: Be Transformed's think / attitude / do; Memory verse: the first one; Pray together: the study's prayer; notes; QR code and URL back to the full study |
+| 3 | The questions under the Study outline's steps, in the outline's order, each step's badge carrying its share of Discover and Wrestle's minutes (12–35, by question count); a step with no questions keeps its heading. Unmatched questions go under "Talk it over". A study with no outline of two or more steps groups them by facet under Discover 12–25 and Wrestle 25–35 instead. Each question gets the same ruled space whatever its length |
+| 4 | Be transformed 35–40: the study's Be transformed question with room to answer, then its think / attitude / do; Memory verse: the first one; Pray together: the study's prayer; notes; QR code and URL back to the full study |
 
 **12 pt is the floor.** Everything read on the sheet is 12 pt, labels 10 pt and the footer 9 pt,
 and nothing shrinks to make room; a long passage loses verses to "Also read" instead. The graphic
@@ -25,17 +25,20 @@ verification of its own. The passage is in WEB because it is printed at length; 
 where the study already quotes it (questions, memory verse), under the same notice as the memory
 verse cards.
 
-## Two pages: the path, then the questions
+## Two pages: each step with its questions
 
 A **Two pages** checkbox by the Print button swaps the four pages for one sheet printed
 double-sided, for a leader who does not know the study well. It is offered when the Study outline
-has two or more steps that link their sections (92 of 104 sheets on 2026-10-26), and the browser
-remembers the choice.
+has two or more steps that link their sections (93 of 105 sheets on 2026-10-26), and the browser
+remembers the choice. It reads as one run from top to bottom:
 
-| Page | What is on it |
-|---|---|
-| 1 | Open; Read it aloud (the reference only); **The path**: each outline step, numbered, with its note, up to three key verses (the reference lines of the section's quote blocks, when the note cites none) and which questions belong to it ("Questions 2–3"); This week; the point, last |
-| 2 | The questions under the step they belong to, then "Talk it over" for any that match no step, then Respond (Be transformed); QR code and URL |
+1. **Open** and **Read it aloud** (the reference only).
+2. Each outline step, numbered, with its note and up to three key verses (the reference lines of
+   the section's quote blocks, when the note cites none), followed straight away by the questions
+   that belong to it. A step with no questions stands as a framing step.
+3. **Talk it over**, for any question no step claims.
+4. **Be transformed**: its question, then the think / attitude / do.
+5. **The point**, last, then the QR code.
 
 **A question belongs to the step whose sections cite the most of its references.** References
 are counted, not verses, so a four-verse range does not outweigh three single verses, and a tie
@@ -43,11 +46,13 @@ goes to the earlier step, where the group meets the verse first. A bare "4:13" i
 book of `primary_passage`, except straight after another reference in the same citation, and a
 whole chapter ("Matthew 24") covers all its verses. A step that links several sections covers
 all of them. Outline lines may be "Name — note" or "Name. Note". A question that cites no verse
-falls to "Talk it over" (44 of 508 on 2026-10-26).
+falls to "Talk it over". The four-page sheet's page 3 uses the same matching.
 
-`ssFit` fits both pages: on page 1 the key verses go first, then the step notes, then This week
-(which the four-page sheet still carries); on page 2 the QR code goes, then the gaps between
-questions close up.
+The hook writes the blocks in order onto page 1, and `ssFlow` pours what does not fit onto page 2,
+keeping a heading with the question under it. Answer spaces start at two lines. If page 2
+overruns, the key verses go, then the QR code, then the gaps close up, then the step notes, then
+the answers drop to one line; anything dropped that fits again once a later step has made room is
+put back. The room left over is shared equally among every answer on both pages.
 
 ## How it fits
 
@@ -56,7 +61,9 @@ scale model of the page. The block, not the sheet, is the size container, so a s
 and padding scale with it too (with the sheet as container they followed the viewport, and the
 preview stopped matching paper). Page 1 is fitted in the browser by `ssFit` (inline in the hook) on
 open and on Print. It moves trailing passages to an "Also read" line, then trims verses from the
-end; on page 2 it drops the outline's annotations, then the outline. A word count cannot do this:
+end; on page 2 it drops the outline's annotations, then the outline; page 3 closes up its gaps,
+then drops the steps with no questions; page 4 drops its notes, then gives Be transformed's
+question one line to answer in. A word count cannot do this:
 the thesis, the opener and the passage all compete for the same height. The hook cuts any passage
 past 500 words before shipping it.
 

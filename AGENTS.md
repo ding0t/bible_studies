@@ -443,9 +443,12 @@ the workflow manually (`workflow_dispatch`).
   thesis, `primary_passage` in WEB, the first comic or drawn SVG, the Study outline, the
   questions, Be Transformed, the first memory verse, the prayer), so it says nothing the study
   does not. The sheet is the group's; **the study itself is the leader's notes** — one set of
-  notes per study, with no separate leader's guide to drift from it. **The facet labels on the questions place them on the clock** (language and context
-  → Discover, Christ and the hard part → Wrestle, Be transformed → Respond), which is one more
-  reason a question set should carry them (Check 25). A study needs no change to get a sheet; a
+  notes per study, with no separate leader's guide to drift from it. **The questions sit under the Study outline's steps** (the step whose section cites the
+  same verses), and **the facet labels mark Be transformed**, which closes the sheet, and place the
+  rest on the clock when a study has no outline (language and context → Discover, Christ and the
+  hard part → Wrestle): two more reasons a study should carry an outline and its question set
+  facet labels (Checks 22, 25). A **Two pages** option pours Open, the passage, each step with its
+  questions, Be transformed and the point across one double-sided sheet. A study needs no change to get a sheet; a
   weak sheet is a sign of a missing thesis, outline or facet label. See
   [docs/dev/study-sheets.md](docs/dev/study-sheets.md).
 - **A study series is a page with a `series:` frontmatter block** (`hooks/series.py`), listing
