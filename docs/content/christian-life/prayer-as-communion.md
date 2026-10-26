@@ -47,10 +47,13 @@ His will before your own, and you ask Him for this day's bread, as Jesus taught.
 
 ### Memory verses
 
-> ✝️ Ephesians 3:16-17 (ESV)
+> ✝️ Ephesians 3:16-19 (ESV)
 >
 > 16 that according to the riches of his glory he may grant you to be strengthened with power
-> through his Spirit in your inner being, 17 so that Christ may dwell in your hearts through faith
+> through his Spirit in your inner being, 17 so that Christ may dwell in your hearts through
+> faith—that you, being rooted and grounded in love, 18 may have strength to comprehend with all the
+> saints what is the breadth and length and height and depth, 19 and to know the love of Christ that
+> surpasses knowledge, that you may be filled with all the fullness of God.
 
 > ✝️ Philippians 4:6-7 (ESV)
 >

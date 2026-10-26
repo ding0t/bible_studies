@@ -640,6 +640,16 @@ def _two_pages(page, article: str, point: str, plan, respond: list[str], title: 
 </div>"""
 
 
+def _unnumber(text: str, ref: str) -> str:
+    """Drop the verse numbers from a quoted passage: the leading one, and each later number in the
+    reference's range (17, 18, 19 for "Ephesians 3:16-19"), so a number in the verse itself stays."""
+    text = re.sub(r"^\s*\d+\s+", "", text)
+    span = re.search(r":(\d+)-(\d+)", ref)
+    for n in range(int(span[1]) + 1, int(span[2]) + 1) if span else ():
+        text = re.sub(rf"(?<=\s){n}\s+", "", text, count=1)
+    return text
+
+
 def _respond(article: str, respond: list[str], first: int) -> str:
     transform = _transform(article, respond, first)
     tad = ""
@@ -652,7 +662,7 @@ def _respond(article: str, respond: list[str], first: int) -> str:
     memory = ""
     if paragraphs and paragraphs[0].startswith("✝"):
         ref = paragraphs[0].lstrip("✝️ ")
-        text = "".join(f"<p>{re.sub(r'^\s*\d+\s+', '', p)}</p>"
+        text = "".join(f"<p>{_unnumber(p, ref)}</p>"
                        for p in itertools.takewhile(lambda p: not p.startswith("✝"), paragraphs[1:]))
         memory = f'<div class="ss-memory"><span class="ss-h">Memory verse</span>{_clean(text)}<cite>{_clean(ref)}</cite></div>'
     prayer = _section(article, 3, "prayer").strip()
