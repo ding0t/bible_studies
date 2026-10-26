@@ -60,4 +60,13 @@
   {{ ld | tojson }}
   </script>
   {%- endif %}
+
+  {#- Cloudflare Web Analytics: page views, referrers, countries and load times, with no cookies
+      and nothing that identifies a reader. Written into the page because the Worker serves it
+      from static assets, where the dashboard's automatic setup does not inject the script. Left
+      out under `mkdocs serve`, which rewrites site_url to the local address, so previews are not
+      counted. The token is the public site token for lewy.au, not a secret. -#}
+  {%- if config.site_url.startswith("https://the-way.lewy.au") %}
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "4105987d8056474087f4480796410140"}'></script>
+  {%- endif %}
 {% endblock %}
