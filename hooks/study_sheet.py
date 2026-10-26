@@ -11,6 +11,11 @@ friend, set at 12 pt for older eyes:
 - page 4  the response: the Be Transformed think/attitude/do, the first memory verse and the
           study's prayer, room for notes, and a QR code back to the full study.
 
+Or, for a study with a Study outline, one sheet double-sided ("Two pages"), for a leader who does
+not know the study well: page 1 is the path through it (each outline step with its key verses and
+the questions that belong to it), This week, and the point to finish on; page 2 is the questions,
+grouped by step. A question belongs to the step whose section cites the same verses.
+
 Everything on the sheet is lifted from the rendered study, so it says nothing the study does not
 and needs no checking of its own. The facet labels on the questions (develop-bible-study's
 discussion-questions.md) place each one on the clock.
@@ -108,6 +113,17 @@ function ssFit(details) {
   also.hidden = !rest.length;
   if (over(brief)) p2.classList.add("ss-titles");
   if (over(brief)) p2.classList.add("ss-nobrief");
+  // The two-page sheet's path: key verses go first, then the steps' annotations, then This week,
+  // which the four-page sheet still carries. The questions give up the QR code, then
+  // the gaps between them.
+  const t1 = details.querySelector(".ss-t1"), t2 = details.querySelector(".ss-t2");
+  if (t1) {
+    const body = t1.querySelector(".ss-t1-body"), qs = t2.querySelector(".ss-questions");
+    t1.classList.remove("ss-nokeys", "ss-titles", "ss-noweek");
+    t2.classList.remove("ss-noqr", "ss-tight");
+    for (const c of ["ss-nokeys", "ss-titles", "ss-noweek"]) if (over(body)) t1.classList.add(c);
+    for (const c of ["ss-noqr", "ss-tight"]) if (over(qs)) t2.classList.add(c);
+  }
 }
 // Print follows html.ss-on, which only the reader sets, by clicking the summary or Print sheet:
 // mkdocs-material opens every <details> when printing, so [open] cannot tell a sheet the reader
@@ -128,7 +144,16 @@ addEventListener("click", (e) => {
   if (summary) ssOn(!summary.parentElement.open);
 }, true);
 addEventListener("toggle", (e) => {
-  if (e.target.matches?.("details.ss") && e.target.open) document.fonts.ready.then(() => ssFit(e.target));
+  if (!e.target.matches?.("details.ss") || !e.target.open) return;
+  const two = e.target.querySelector(".ss-opt-two");
+  try { if (two && localStorage.getItem("ss-two") === "1") two.checked = true; } catch {}
+  document.fonts.ready.then(() => ssFit(e.target));
+}, true);
+// A hidden set measures nothing, so the newly shown one is fitted when the reader switches.
+addEventListener("change", (e) => {
+  if (!e.target.matches?.(".ss-opt-two")) return;
+  try { localStorage.setItem("ss-two", e.target.checked ? "1" : "0"); } catch {}
+  ssFit(e.target.closest("details.ss"));
 }, true);
 </script>"""
 
@@ -137,6 +162,10 @@ _JUMP = """<a href="#group-study-sheet" class="md-content__button md-icon ss-jum
   title="Print the group study sheet" aria-label="Print the group study sheet"
   onclick="const d=document.getElementById('group-study-sheet');if(!d.open){d.open=true;ssOn(true)}">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 3H6v4h12m1 5a1 1 0 0 1-1-1 1 1 0 0 1 1-1 1 1 0 0 1 1 1 1 1 0 0 1-1 1m-3 7H8v-5h8m3-6H5a3 3 0 0 0-3 3v6h4v4h12v-4h4v-6a3 3 0 0 0-3-3Z"/></svg></a>"""
+
+_BOOK_NAMES = "|".join(sorted(map(re.escape, _BOOKS), key=len, reverse=True))
+# A reference with or without its book ("John 4:13", "4:13"), or a whole chapter ("Matthew 24").
+_SCAN = re.compile(rf"(?:\b({_BOOK_NAMES})\s+)?(?<![\d:])(\d+)(?::(\d+)(?:[-–](\d+)(?![\d:]))?)?(?![\d:])")
 
 _NOTICE = "Scripture: WEB, public domain · ESV® © 2001 Crossway, used by permission"
 
@@ -223,21 +252,23 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
   {foot(4)}
 </section>"""
 
+    two = _two_pages(page, article, point, questions, title, qr)
+    option = ('<label><input type="checkbox" class="ss-opt-two"> Two pages <small>one sheet: the path '
+              'through the study, then the questions</small></label>') if two else ""
     return f"""
 <details class="ss" id="group-study-sheet" data-no-popups>
-  <summary>Group study sheet <small>two A4 sheets, double-sided, for a 40-minute group</small></summary>
+  <summary>Group study sheet <small>for a 40-minute group: two A4 sheets, or one with the guided path</small></summary>
   <div class="ss-controls">
     <p>The point, the passage, the questions and the response, from this study.
     Print on both sides of two A4 sheets, flipping on the long edge. While this block is open,
     printing the page prints the sheet; close it to print the study.</p>
     <label><input type="checkbox" class="ss-opt-mono"> Black &amp; white <small>for a black-only printer</small></label>
+    {option}
     <button type="button" class="md-button md-button--primary"
       onclick="const d=this.closest('details');d.open=true;ssOn(true);ssFit(d);window.print()">Print sheet</button>
   </div>
-  {p1}
-  {p2}
-  {p3}
-  {p4}
+  <div class="ss-set ss-four">{p1}{p2}{p3}{p4}</div>
+  {two}
   {_FIT_SCRIPT}
 </details>
 """
@@ -385,9 +416,138 @@ def _questions(questions: list[str]) -> str:
         qs = ""
         for q in groups[key]:
             number += 1
-            qs += f'<div class="ss-q"><p><span class="ss-n">{number}</span>{q}</p><i></i></div>'
+            qs += _question(number, q)
         out += f'<div class="ss-group ss-group-{key}"><span class="ss-h">{_badge(key)}{label}</span>{qs}</div>'
     return out
+
+
+def _question(number: int, q: str) -> str:
+    return f'<div class="ss-q"><p><span class="ss-n">{number}</span>{q}</p><i></i></div>'
+
+
+def _citations(html: str, book: str) -> list[set[tuple[str, int, int]]]:
+    """Each reference in the HTML, as the verses it covers. A bare "4:13" is in `book`, the study's
+    own passage, as the pop-up reads it; a whole chapter covers all its verses. A bare number is not
+    a reference. Image alt text describes a picture and often lists every verse on the page, so it
+    is skipped."""
+    text = re.sub(r"<[^>]+>", " ", re.sub(r"<img\b[^>]*>", "", html))
+    out, prev, end = [], book, 0
+    for m in _SCAN.finditer(text):
+        if not m[1] and not m[3]:
+            continue
+        # A continuation in the same citation ("Revelation 21:2, 9; 22:17") keeps its book.
+        if not m[1] and not re.fullmatch(r"[\s,;]*", text[end:m.start()]):
+            prev = book
+        prev, end = m[1] or prev, m.end()
+        name, first = prev.rstrip("s"), int(m[3] or 1)
+        last = int(m[4] or m[3] or 176)
+        out.append({(name, int(m[2]), v) for v in range(first, min(last, first + 175) + 1)})
+    return out
+
+
+def _anchored(article: str, anchor: str) -> str:
+    """The HTML under the heading with this id, to the next heading of its level or higher."""
+    m = re.search(rf'<h([2-4]) id="{re.escape(anchor)}"', article)
+    return _section(article, int(m[1]), anchor) if m else ""
+
+
+def _two_pages(page, article: str, point: str, questions: list[str], title: str, qr: str) -> str:
+    """One sheet that walks the Study outline, for a leader who does not know the study well. Empty
+    when the study has no outline to walk."""
+    outline = _section(article, 2, "study-outline")
+    passage = _REF.match(str(page.meta.get("primary_passage") or "").split(";")[0].strip())
+    book = passage["book"].strip() if passage and passage["book"] else ""
+    lists = re.search(r"<(ul|ol)>", outline)
+    steps = []
+    for item in _items(outline, lists[1]) if lists else []:
+        # "Name — note" or "Name. Note", the name linking its section.
+        head = re.match(r"\s*(?:<strong>)?\s*<a\b[^>]*href=\"#([^\"]+)\"[^>]*>(.*?)</a>\s*(?:</strong>)?\s*(?:[—–-]|\.)?\s*(.*)$",
+                        item, re.DOTALL)
+        if not head:
+            continue
+        name = re.sub(r"<[^>]+>", "", head[2]).strip()
+        if name.lower().startswith("discussion questions"):
+            continue
+        # A step that links several sections covers all of them.
+        anchors = [head[1]] + re.findall(r'href="#([^"]+)"', head[3])
+        section = "".join(_anchored(article, a) for a in anchors)
+        note = head[3]
+        keys = []
+        if not _citations(note, book):
+            keys = re.findall(r"<blockquote>\s*<p>✝️?\s*(.+?)\s*\([A-Z0-9]+\)", section)[:3]
+        steps.append({"name": name, "note": note, "keys": keys,
+                      "cited": set().union(*_citations(section, book)), "qs": []})
+    if len(steps) < 2:
+        return ""
+
+    respond, other = [], []
+    for q in questions:
+        label = re.match(r"\s*<strong>(.*?)\.?</strong>", q)
+        if label and _FACETS.get(label[1].strip().rstrip(".").lower()) == "respond":
+            respond.append(q)
+            continue
+        # The step that cites most of the question's references; a tie goes to the earlier step,
+        # where the group meets the verse first. Counting references, not verses, keeps a
+        # four-verse range from outweighing three single verses.
+        asked = _citations(q, book)
+        scores = [sum(bool(c & s["cited"]) for c in asked) for s in steps]
+        best = max(scores)
+        (steps[scores.index(best)]["qs"] if best else other).append(q)
+
+    groups = [(f'<span class="ss-step">{i}</span>{escape(s["name"])}', s["qs"])
+              for i, s in enumerate(steps, 1)] + [("Talk it over", other), ("Respond", respond)]
+    number, path_qs, body = 0, {}, ""
+    for i, (label, qs) in enumerate(groups):
+        if not qs:
+            continue
+        path_qs[i] = (number + 1, number + len(qs))
+        body += f'<div class="ss-group"><span class="ss-h">{label}</span>{"".join(_question(number + k, _clean(q)) for k, q in enumerate(qs, 1))}</div>'
+        number += len(qs)
+
+    def asks(i: int) -> str:
+        if i not in path_qs:
+            return ""
+        a, b = path_qs[i]
+        return f'<span class="ss-asks">{"Question" if a == b else "Questions"} {a}{"" if a == b else f"–{b}"}</span>'
+
+    # Numbered by hand: WebKit drops a list marker when the item holds a float.
+    lis = "".join(
+        f'<li><span class="ss-step">{i + 1}</span><div><b>{escape(s["name"])}</b>'
+        f'<span class="ss-note"> — {_clean(s["note"])}</span>'
+        + (f'<span class="ss-keys">Key verses: {escape("; ".join(s["keys"]))}</span>' if s["keys"] else "")
+        + f"</div>{asks(i)}</li>"
+        for i, s in enumerate(steps))
+    transform = _items(_section(article, 3, "be-transformed"), "ul")
+    tad = (f'<div class="ss-tad"><span class="ss-h">This week</span><ul>{"".join(f"<li>{_clean(i)}</li>" for i in transform)}</ul></div>'
+           if transform else "")
+    passage = escape(str(page.meta.get("primary_passage") or ""))
+
+    def foot(n: int) -> str:
+        return f'<footer class="ss-foot"><span>Page {n} of 2 · print double-sided, flip on long edge</span><span>{_NOTICE}</span></footer>'
+
+    return f"""<div class="ss-set ss-two">
+<section class="ss-sheet ss-t1" aria-label="Two-page study sheet, page 1">
+  <header class="ss-head">
+    <span class="ss-kicker">Group study · the path through it</span>
+    <h2>{escape(title)}</h2>
+    <span class="ss-ref">{passage}</span>
+  </header>
+  <div class="ss-t1-body">
+    <p class="ss-lead"><b>Open</b> {_opener(page.meta, title)}</p>
+    {f'<p class="ss-lead"><b>Read it aloud</b> {passage}</p>' if passage else ""}
+    <div class="ss-path"><span class="ss-h">The path</span><ol>{lis}</ol></div>
+    {tad}
+  </div>
+  <p class="ss-point"><b>The point</b> {_clean(point)}</p>
+  {foot(1)}
+</section>
+<section class="ss-sheet ss-t2" aria-label="Two-page study sheet, page 2">
+  <header class="ss-head ss-head-back"><h2>{escape(title)}</h2></header>
+  <div class="ss-questions">{body}</div>
+  <div class="ss-link">{qr}</div>
+  {foot(2)}
+</section>
+</div>"""
 
 
 def _respond(article: str) -> str:

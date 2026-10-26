@@ -25,6 +25,30 @@ verification of its own. The passage is in WEB because it is printed at length; 
 where the study already quotes it (questions, memory verse), under the same notice as the memory
 verse cards.
 
+## Two pages: the path, then the questions
+
+A **Two pages** checkbox by the Print button swaps the four pages for one sheet printed
+double-sided, for a leader who does not know the study well. It is offered when the Study outline
+has two or more steps that link their sections (92 of 104 sheets on 2026-10-26), and the browser
+remembers the choice.
+
+| Page | What is on it |
+|---|---|
+| 1 | Open; Read it aloud (the reference only); **The path**: each outline step, numbered, with its note, up to three key verses (the reference lines of the section's quote blocks, when the note cites none) and which questions belong to it ("Questions 2–3"); This week; the point, last |
+| 2 | The questions under the step they belong to, then "Talk it over" for any that match no step, then Respond (Be transformed); QR code and URL |
+
+**A question belongs to the step whose sections cite the most of its references.** References
+are counted, not verses, so a four-verse range does not outweigh three single verses, and a tie
+goes to the earlier step, where the group meets the verse first. A bare "4:13" is read in the
+book of `primary_passage`, except straight after another reference in the same citation, and a
+whole chapter ("Matthew 24") covers all its verses. A step that links several sections covers
+all of them. Outline lines may be "Name — note" or "Name. Note". A question that cites no verse
+falls to "Talk it over" (44 of 508 on 2026-10-26).
+
+`ssFit` fits both pages: on page 1 the key verses go first, then the step notes, then This week
+(which the four-page sheet still carries); on page 2 the QR code goes, then the gaps between
+questions close up.
+
 ## How it fits
 
 All sizes are in sheet millimetres (`--mm`, as in `memory-verses.css`), so the on-screen sheet is a

@@ -297,6 +297,46 @@
 .ss-url { display: flex; flex-direction: column; color: var(--ss-muted); }
 .ss-url b { color: var(--ss-ink); }
 
+/* ---- Two pages: the path, then the questions ------------------------------------------- */
+
+.ss:has(.ss-opt-two:checked) .ss-four,
+.ss:not(:has(.ss-opt-two:checked)) .ss-two { display: none; }
+
+.ss-t1-body { flex: 1; min-height: 0; overflow: hidden; display: flex; flex-direction: column; gap: calc(5 * var(--mm)); }
+.ss-lead > b, .ss-asks, .ss-step {
+  font-family: var(--ss-sans);
+  font-size: calc(10 * var(--pt));
+  font-weight: 700;
+  color: var(--ss-accent);
+}
+.ss-lead > b { margin-right: calc(1.5 * var(--mm)); text-transform: uppercase; letter-spacing: 0.08em; }
+.ss-path ol { margin: 0; padding: 0; list-style: none; }
+.ss-path li {
+  display: grid;
+  grid-template-columns: calc(6 * var(--mm)) 1fr auto;
+  align-items: baseline;
+  gap: 0 calc(3 * var(--mm));
+  margin: 0 0 calc(3.5 * var(--mm));
+  padding-bottom: calc(3 * var(--mm));
+  border-bottom: calc(0.3 * var(--mm)) solid var(--ss-rule);
+  line-height: 1.35;
+  color: var(--ss-ink);
+}
+.ss-asks { white-space: nowrap; }
+.ss-keys {
+  display: block;
+  margin-top: calc(1 * var(--mm));
+  font-family: var(--ss-sans);
+  font-size: calc(11 * var(--pt));
+  color: var(--ss-muted);
+}
+/* Set by ssFit when a page overruns: key verses go, then the annotations, then This week; the
+   questions page drops its QR code, then closes up the gaps between questions. */
+.ss-nokeys .ss-keys, .ss-titles .ss-note, .ss-noweek .ss-tad, .ss-noqr .ss-link { display: none; }
+.ss-tight .ss-q p { margin-top: calc(1 * var(--mm)); }
+.ss-tight .ss-questions .ss-h { margin-top: calc(2 * var(--mm)); }
+.ss-step { margin-right: calc(1.5 * var(--mm)); }
+
 /* ---- Print -------------------------------------------------------------------------------- */
 
 @page study-sheet {
