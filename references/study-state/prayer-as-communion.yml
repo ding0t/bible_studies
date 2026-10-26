@@ -62,3 +62,38 @@ simplify_2026-09-29:
     - "Paul's vocabulary list reduced to epignosis x4 and sophia x2."
     - "Luke 5:16 grammar section and eight-version table reduced to one paragraph."
   verify: "study_structure.py --verify-against HEAD: added_unexpected holds only the shortened sentences and two in-page pointers."
+
+simplify_2026-10-26:
+  by: "simplify-bible-study, author-directed spine"
+  brief: >
+    Author: organise the study as the way to pray -- who God is as our Father in Jesus, seeking His
+    will first, then daily bread -- so it is easier to teach, with the key takeaways in sight
+    throughout. "The outcome is to understand prayer better, that we may pray better." Keep one
+    study. Do not stretch "daily bread" beyond what Scripture says.
+  words: "4,255 -> 3,904 main line (budget 4,700), plus 263 in four collapsed asides"
+  spine: >
+    The shape of prayer (Lord's Prayer diagram, moved up as the map) / Our Father: you come as His
+    child / Your will be done: you seek His will first / Give us this day: you depend on Him daily /
+    Pray then like this. Every section moved verbatim under the part it illustrates; Daniel split
+    across parts 2 (Daniel 9), 3 (Daniel 6) and 5 (Daniel 2, under Personal and corporate). Inbound
+    anchors kept (#a-given-willingness-the-spirits-own-cry, #a-pattern-to-pray-by,
+    #keep-asking-and-keep-talking, #personal-and-corporate).
+  asides: >
+    Author asked that tangents be marked as asides rather than deleted: collapsed `??? note
+    "Aside: ..."` blocks for the evening sacrifice (Daniel 9:21), Philippians 2:10, Christ
+    dwelling/God's fullness (Colossians 1:19; 2:9-10), and Nehemiah + Acts 4 (the gallery). Moses
+    moved inline to part 2.
+  daily_bread_trimmed: >
+    Removed as beyond Scripture: "Prayer is how that dependence is lived. Yesterday's prayer does
+    not carry today, any more than yesterday's manna did"; "You need prayer every day, the way
+    Israel needed manna every morning"; "You need it the way you need bread" (Be Transformed);
+    "as necessary as daily bread" (thesis, description); "and that He feeds His children with
+    Himself and His will as surely as with bread". Kept: Exodus 16, Deuteronomy 8:3, Matthew 6:11
+    "this day", Matthew 4:4, John 4:34.
+  new_or_rewritten: >
+    Thesis; description; the five part headings and the Study outline; Q5 (label "Daily bread." ->
+    "The text in its context.", question reworded to Matthew 6:11); "Moses argued ... too" (gallery
+    bullet turned into a sentence); Lessons about Jesus reordered to follow the parts.
+  open_questions:
+    - "Part 'Our Father' had no discussion question; added Q1 (The language: Matthew 6:9, Ephesians 3:14-15, Romans 8:15) at the author's request, 2026-10-26."
+    - "Group sheet follow-ups (plan bar, even answer lines, Q4 black box, two-page option, guided path) come next, built on this spine."

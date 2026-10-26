@@ -1,13 +1,13 @@
 ---
 title: "Prayer: Communion with God"
 category: "prayer"
-description: "What prayer is (a child's communion with the Father), why it is as necessary as daily bread, how Jesus, Daniel and Paul prayed (with Ephesians 3:14-21 worked through in depth), and the practical mechanics: whom to pray to, alone and together, what to pray about, persistence, and a pattern to pray by."
+description: "What prayer is (a child's communion with the Father), in the order of the prayer Jesus taught: coming to God as your Father through His Son Jesus, seeking His will first, and asking for this day's bread; how Jesus, Daniel and Paul prayed (with Ephesians 3:14-21 worked through in depth); and a pattern to pray by."
 tags: ["matthew", "luke", "john", "acts", "daniel", "ephesians", "colossians", "1-timothy", "1-thessalonians", "hebrews", "exodus", "psalms", "discipleship", "method/word-study", "lang/greek", "lang/aramaic", "person/daniel", "person/paul"]
 draft: false
 primary_passage: "Ephesians 3:14-21"
 bible_references: ["Ephesians 3:14-21", "Daniel 6:10-11", "Daniel 9:2-23", "Daniel 2:17-23", "Romans 8:15-16", "Galatians 4:6-7", "Mark 3:14", "John 17:3", "John 17:20-21", "Psalm 42:1-2", "Psalm 16:11", "Matthew 6:8-13", "Luke 22:42", "Exodus 16:4", "Exodus 16:19-21", "Deuteronomy 8:3", "Matthew 4:4", "John 4:34", "Hebrews 10:19-22", "Hebrews 4:16", "Hebrews 7:25", "Hebrews 5:7", "Philippians 4:6-7", "Romans 12:1-2", "1 John 5:14", "Psalm 37:4", "John 15:7", "Psalm 66:18-19", "James 4:2-3", "Mark 1:35-37", "Luke 5:16", "Luke 6:12", "Matthew 14:23", "Daniel 6:3-5", "Daniel 6:22", "John 17:5", "2 Kings 25:9", "1 Kings 8:10-11", "Colossians 2:7", "1 Kings 8:48-49", "Jeremiah 29:10-13", "Jeremiah 25:11-12", "Ephesians 2:21-22", "Colossians 1:19", "Colossians 2:9-10", "Ephesians 3:1", "Ephesians 4:1", "Philippians 2:10", "Exodus 32:11-14", "Nehemiah 2:4-5", "Acts 4:24-31", "Ephesians 2:18", "John 16:23-24", "Acts 7:59", "2 Corinthians 12:8-9", "Romans 8:26-27", "Matthew 6:5-6", "Acts 1:14", "Acts 12:5", "1 Timothy 2:1-2", "1 Timothy 2:5-6", "Colossians 4:2", "1 Thessalonians 5:16-18", "Luke 11:5-13", "Luke 18:1-8", "Deuteronomy 6:6-7"]
 date_created: 2024-10-06
-date_modified: 2026-10-13
+date_modified: 2026-10-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -26,9 +26,8 @@ know a love too large to know (Ephesians 3:14-19).
 Each man is keeping company with God.
 
 **In one sentence:** God the Father has adopted you through His Son Jesus and given you His Spirit
-to cry "Abba! Father!", so prayer is communion with Him: as necessary as daily bread, the place
-where He sets your attitude and brings your will into line with His, and a habit Jesus, Daniel and
-Paul kept because they could not live without it.
+to cry "Abba! Father!", so prayer is communion with Him: you come to Him as your Father, you seek
+His will before your own, and you ask Him for this day's bread, as Jesus taught.
 
 ## Key Takeaways
 
@@ -38,10 +37,10 @@ Paul kept because they could not live without it.
 
 - **He opened the way.** "We have confidence to enter the holy places by the blood of Jesus"
   (Hebrews 10:19, ESV). You pray as one already welcomed.
-- **He prayed as a habit, alone, at cost.** "He would withdraw to desolate places and pray" (Luke
-  5:16, ESV), and before dawn He was gone so early His friends had to hunt Him down (Mark 1:35-37).
 - **He prayed the Father's will over His own.** "Father, if you are willing, remove this cup from
   me. Nevertheless, not my will, but yours, be done" (Luke 22:42, ESV).
+- **He prayed as a habit, alone, at cost.** "He would withdraw to desolate places and pray" (Luke
+  5:16, ESV), and before dawn He was gone so early His friends had to hunt Him down (Mark 1:35-37).
 - **He prayed for you, and still does.** "I do not ask for these only, but also for those who will
   believe in me through their word" (John 17:20, ESV); "he always lives to make intercession for
   them" (Hebrews 7:25, ESV).
@@ -61,8 +60,8 @@ Paul kept because they could not live without it.
 
 ### Be Transformed
 
-- **Think.** Prayer is time with your Father, opened to you at the cost of His Son. You need it the
-  way you need bread, and you are invited to it before you are commanded to it.
+- **Think.** Prayer is time with your Father, opened to you at the cost of His Son. You are invited
+  to it before you are commanded to it.
 - **Attitude.** Come as a child and as a creature: "Our Father" and "hallowed be your name". Let
   "your will be done" come before your list, and let Him set the tone of the day.
 - **Do.** Fix a time and a place, as Daniel had a window and Jesus a desolate place before dawn.
@@ -79,13 +78,30 @@ You want. In Jesus' name. Amen.
 
 ## Study outline
 
-1. **[What prayer is](#what-prayer-is)** — a child with the Father by the Spirit's own cry, communion, the will handed over, and the attitude prayer sets.
-2. **[Why prayer matters](#why-prayer-matters)** — daily bread, and a way opened at great cost.
-3. **[Prayer through Scripture](#prayer-through-scripture)** — Jesus; Daniel with his friends, at the window and from the books; Paul on his knees in Ephesians 3:14-21; and a short gallery.
-4. **[The mechanics](#the-mechanics)** — whom to pray to, alone and together, what to pray about,
-   keep asking, a pattern to pray by, and households.
+1. **[The shape of prayer](#the-shape-of-prayer)** — the prayer Jesus taught puts Father, will and
+   bread in that order (Matthew 6:9-13).
+2. **[Our Father](#our-father-you-come-as-his-child)** — adopted through His Son Jesus, given the
+   Spirit's own cry, brought in by His blood; whom to pray to (Romans 8:15; Hebrews 10:19-22).
+3. **[Your will be done](#your-will-be-done-you-seek-his-will-first)** — the will handed over,
+   Gethsemane, and Daniel asking for what God had promised (1 John 5:14; Luke 22:42; Daniel 9:2-3).
+4. **[Give us this day](#give-us-this-day-you-depend-on-him-daily)** — communion, the manna, and the
+   daily habit Jesus and Daniel kept; keep asking (Matthew 6:11; Luke 5:16; Daniel 6:10).
+5. **[Pray then like this](#pray-then-like-this)** — a pattern to pray by, Paul's prayer in
+   Ephesians 3:14-21, what to pray about, alone and together, and households.
 
-## What prayer is
+## The shape of prayer
+
+This site's first notes on prayer opened with one line: *the attitude of prayer is that we are
+God's.* The prayer Jesus taught is built that way.
+
+[![A diagram of Matthew 6:9-13 (ESV) drawn as heaven above and earth below. In the heaven band: the address, 'Our Father in heaven' (6:9), then three petitions, each with the Greek 'your' (sou): 1 'hallowed be your name' (6:9), 2 'Your kingdom come' (6:10), 3 'your will be done' (6:10). A gold band joins heaven to earth with the words 'on earth as it is in heaven' (6:10), noted dashed as debated: whether the phrase governs all three petitions or only the third. In the earth band: three petitions spoken as 'us': 4 'Give us this day our daily bread' (6:11), with a loaf; 5 'and forgive us our debts, as we also have forgiven our debtors' (6:12), with a ledger struck through; 6 'And lead us not into temptation, but deliver us from evil' (6:13), with a path. A small figure kneels on the ground. A count: 'your' three times in 6:9-10, 'us', 'our' and 'we' eight times in 6:11-13. A dashed card: the doxology 'For yours is the kingdom and the power and the glory, forever. Amen' is not in the earliest manuscripts; the ESV prints it in a footnote. Below, 'He prayed it Himself': Matthew 6:10 and Matthew 26:42, 'My Father, if this cannot pass unless I drink it, your will be done', share the Greek words genēthētō to thelēma sou. The plate closes with the line 'The attitude of prayer is that we are God's.'](../assets/img/prayer/lords-prayer-shape.svg)](../assets/img/prayer/lords-prayer-shape.svg)
+
+Three lines about God and His purposes come before any request for yourself (Matthew 6:9-10). By the time you ask for bread you
+have already called Him Father, honoured His name and handed over your will. Prayer prayed this way
+re-orders the one praying before it brings a single need. [The Lord's
+Prayer](lords-prayer.md) works through every line.
+
+## Our Father: you come as His child
 
 ### A given willingness: the Spirit's own cry
 
@@ -103,20 +119,41 @@ but a son" (Galatians 4:6-7, ESV). This is **adoption**. **It shows that God wan
 to: He made you His child and sent the Spirit of His Son Jesus to say "Father" in you.** So you can
 come to Him on the days you feel nothing, because the willingness to pray is His gift.
 
-### Communion: being with Him
+### A way opened at great cost
 
-**Communion** is shared life, two persons with each other. When Jesus chose the Twelve, the first
-reason Mark gives is "so that they might be with him", and only then "he might send them out to
-preach" (Mark 3:14, ESV). Prayer is that being-with, carried on after the Ascension. Jesus defined
-the life He gives in the same terms, in prayer: "this is eternal life, that they know you, the only
-true God, and Jesus Christ whom you have sent" (John 17:3, ESV).
+> ✝️ Hebrews 10:19-22 (ESV)
+>
+> 19 Therefore, brothers, since we have confidence to enter the holy places by the blood of Jesus,
+> 20 by the new and living way that he opened for us through the curtain, that is, through his flesh,
+> 21 and since we have a great priest over the house of God, 22 let us draw near with a true heart in
+> full assurance of faith, with our hearts sprinkled clean from an evil conscience and our bodies
+> washed with pure water.
 
-The Psalms record the appetite behind it: "As a deer pants for flowing streams, so pants my soul for
-you, O God" (Psalm 42:1, ESV). That is a lament, and it still speaks of thirst. And they record what
-is found there: "in your presence there is fullness of joy" (Psalm 16:11, ESV). Prayer includes
-asking, and Jesus says "your Father knows what you need before you ask him" (Matthew 6:8, ESV) as a
-reason to ask plainly, without heaping up words. Underneath the asking is a relationship: the Father wants your company, and prayer
-is where you give it.
+The curtain is the one before the Most Holy Place, the blood is Jesus', and the writer's conclusion
+is an instruction to pray: **draw near**, προσέρχομαι (*proserchomai*, pros-ER-kho-my, G4334). Hebrews
+4:16 attaches the promise: "let us then with confidence draw near to the throne of grace, that we may
+receive mercy and find grace to help in time of need" (ESV). That cost is the **atonement**. **The
+Father opened the way to Himself through the blood of His Son**, and the Son "always lives to make
+intercession" for those who come (Hebrews 7:25, ESV). Neglecting prayer leaves unused a door that
+cost that much to open.
+
+### Whom to pray to
+
+Jesus taught prayer to the Father: "Pray then like this: Our Father in heaven" (Matthew 6:9, ESV),
+and "whatever you ask of the Father in my name, he will give it to you" (John 16:23, ESV). Paul puts
+the whole Trinity in one sentence: "through him we both have access in one Spirit to the Father"
+(Ephesians 2:18, ESV). Paul's word for "access" is προσαγωγή (*prosagōgē*, G4318), being brought in
+and presented, as at court.
+
+Prayer to Jesus is also in the New Testament and is never corrected. Stephen died praying "Lord
+Jesus, receive my spirit" (Acts 7:59, ESV), and Paul pleaded with the Lord about his thorn and was
+answered, "My grace is sufficient for you" (2 Corinthians 12:8-9, ESV). The Spirit helps from
+within: He "intercedes for us with groanings too deep for words" (Romans 8:26, ESV). No prayer in the
+New Testament is addressed to the Spirit; that is an argument from silence, which is why this study
+describes His part as help given to the one praying. **Make the Father your habit, because Jesus
+taught it, and speak to the Son freely, because Scripture does.**
+
+## Your will be done: you seek His will first
 
 ### Your will handed over
 
@@ -144,22 +181,62 @@ and leave the outcome with a Father whose will is wiser than yours.
 
 [![A one-minute comic in 5 panels. Panel 1 (Luke 22:41-42): at night on the Mount of Olives Jesus kneels alone, the sleeping disciples a stone's throw off. Caption: "The Mount of Olives. He withdraws a stone’s throw, kneels and prays." Jesus says: "Father, if you are willing, remove this cup from me. Nevertheless, not my will, but yours, be done." Panel 2 (Matthew 26:40-41): Jesus stands over Peter, who has been sleeping. Jesus says: "Watch and pray that you may not enter into temptation." Panel 3 (Matthew 26:42): Jesus kneels again alone, praying. Caption: "A second time, the words He taught them (Matthew 6:10):". Jesus says: "My Father, if this cannot pass unless I drink it, your will be done." Panel 4 (Luke 23:33, 46): three crosses on a rise under a darkened sky. Caption: "The cup is not taken away. His last words are a prayer." Jesus says: "Father, into your hands I commit my spirit!" Panel 5 (Hebrews 5:7; Luke 24:5-6): the tomb open at dawn, its stone rolled back. Caption: "“He was heard because of his reverence.” (Hebrews 5:7)". The two men at the tomb says: "He is not here, but has risen." Note: "Heard: read here, with the ESV Study Bible, as the resurrection." The point: The Father did not take the cup from His Son Jesus. He heard Him, and He raised Him from the dead. So you can pray “your will be done” and leave the outcome with Him (Hebrews 5:7).](../assets/img/comics/not-my-will.svg)](../assets/img/comics/not-my-will.svg)
 
-### Prayer sets your attitude
+### Daniel: asking for what God has promised
 
-This site's first notes on prayer opened with one line: *the attitude of prayer is that we are
-God's.* The prayer Jesus taught is built that way.
+Daniel was taken to Babylon as a youth (Daniel 1:1-6) and was still praying there in old age. The
+*ESV Study Bible* reckons him over eighty by Daniel 9 (note on Daniel 9:1-27).
 
-[![A diagram of Matthew 6:9-13 (ESV) drawn as heaven above and earth below. In the heaven band: the address, 'Our Father in heaven' (6:9), then three petitions, each with the Greek 'your' (sou): 1 'hallowed be your name' (6:9), 2 'Your kingdom come' (6:10), 3 'your will be done' (6:10). A gold band joins heaven to earth with the words 'on earth as it is in heaven' (6:10), noted dashed as debated: whether the phrase governs all three petitions or only the third. In the earth band: three petitions spoken as 'us': 4 'Give us this day our daily bread' (6:11), with a loaf; 5 'and forgive us our debts, as we also have forgiven our debtors' (6:12), with a ledger struck through; 6 'And lead us not into temptation, but deliver us from evil' (6:13), with a path. A small figure kneels on the ground. A count: 'your' three times in 6:9-10, 'us', 'our' and 'we' eight times in 6:11-13. A dashed card: the doxology 'For yours is the kingdom and the power and the glory, forever. Amen' is not in the earliest manuscripts; the ESV prints it in a footnote. Below, 'He prayed it Himself': Matthew 6:10 and Matthew 26:42, 'My Father, if this cannot pass unless I drink it, your will be done', share the Greek words genēthētō to thelēma sou. The plate closes with the line 'The attitude of prayer is that we are God's.'](../assets/img/prayer/lords-prayer-shape.svg)](../assets/img/prayer/lords-prayer-shape.svg)
+In the first year of Darius, Daniel "perceived in the books" that
+Jeremiah had set seventy years for Jerusalem's desolation (Daniel 9:2, ESV). Daniel does not say
+which passage he read; Jeremiah gives the seventy years twice (Jeremiah 25:11-12; 29:10). The
+second, a letter to the exiles in Babylon, goes on: "When seventy years are completed for Babylon,
+I will visit you… Then you will call upon me and come and pray to me, and I will hear you" (Jeremiah
+29:10, 12, ESV). Daniel did what it describes.
+"I turned my face to the Lord God, seeking him by prayer and pleas for mercy with fasting and
+sackcloth and ashes" (Daniel 9:3, ESV). Three things mark the prayer that follows:
 
-Three lines about God and His purposes come before any request for yourself (Matthew 6:9-10). By the time you ask for bread you
-have already called Him Father, honoured His name and handed over your will. Prayer prayed this way
-re-orders the one praying before it brings a single need. [The Lord's
-Prayer](lords-prayer.md) works through every line.
+- **He began with who God is**: "O Lord, the great and awesome God, who keeps covenant and steadfast
+  love" (Daniel 9:4, ESV).
+- **He confessed as "we"**: "we have sinned and done wrong and acted wickedly" (Daniel 9:5, ESV).
+  The man his enemies could find no fault in counted himself among the guilty.
+- **He pleaded God's mercy and God's name**: "we do not present our pleas before you because of our
+  righteousness, but because of your great mercy… for your own sake, O my God, because your city and
+  your people are called by your name" (Daniel 9:18-19, ESV).
 
-## Why prayer matters
 
-You need prayer every day, the way Israel needed manna every morning, and God paid the highest price
-to make it possible.
+The answer had been sent "at the beginning of your pleas for mercy" (Daniel 9:23, ESV); [How God
+Answers Prayer](how-god-answers-prayer.md) follows that thread into Daniel 10.
+
+??? note "Aside: the hour of the evening sacrifice"
+
+    Gabriel came "at the time of the evening sacrifice" (Daniel 9:21, ESV). There had been no evening
+    sacrifice since the temple burned in 586 BC (some reckon 587; 2 Kings 25:8-9), and Daniel still
+    marked the hour by it.
+
+Moses argued from God's own promises too: "Remember Abraham, Isaac, and Israel… to whom you swore by
+your own self", and "the LORD relented" (Exodus 32:13-14, ESV).
+
+**This shows that God is a promise-keeping God who invites His people to pray His promises back to
+Him, and who hears those who come on His mercy and His name.** So read your Bible with prayer
+open: when you find what God has said He will do, ask Him for it, and come with nothing in your
+hands but His mercy.
+
+## Give us this day: you depend on Him daily
+
+### Communion: being with Him
+
+**Communion** is shared life, two persons with each other. When Jesus chose the Twelve, the first
+reason Mark gives is "so that they might be with him", and only then "he might send them out to
+preach" (Mark 3:14, ESV). Prayer is that being-with, carried on after the Ascension. Jesus defined
+the life He gives in the same terms, in prayer: "this is eternal life, that they know you, the only
+true God, and Jesus Christ whom you have sent" (John 17:3, ESV).
+
+The Psalms record the appetite behind it: "As a deer pants for flowing streams, so pants my soul for
+you, O God" (Psalm 42:1, ESV). That is a lament, and it still speaks of thirst. And they record what
+is found there: "in your presence there is fullness of joy" (Psalm 16:11, ESV). Prayer includes
+asking, and Jesus says "your Father knows what you need before you ask him" (Matthew 6:8, ESV) as a
+reason to ask plainly, without heaping up words. Underneath the asking is a relationship: the Father wants your company, and prayer
+is where you give it.
 
 ### Daily bread
 
@@ -171,39 +248,14 @@ that comes from the mouth of the LORD" (Deuteronomy 8:3, ESV). The *ESV Study Bi
 as a sign that Israel's "whole lives were to be sustained by the Lord and governed by his word"
 (note on Exodus 16:4).
 
-Prayer is how that dependence is lived. Yesterday's prayer does not carry today, any more than
-yesterday's manna did, and Jesus taught His disciples to ask for bread "this day" (Matthew 6:11).
+Jesus taught His disciples to ask for bread "this day" (Matthew 6:11).
 He quoted Deuteronomy 8:3 when He was starving (Matthew 4:4), and He named His own food: "My food is
 to do the will of him who sent me and to accomplish his work" (John 4:34, ESV). What fed Jesus was
-the Father's will. **This shows that God means to be depended on daily, and that He feeds His
-children with Himself and His will as surely as with bread.** So come to Him each morning as one
-who has nothing stored.
+the Father's will. **This shows that God means to be depended on daily.** So come to Him each
+morning as one who has nothing stored.
 
 [Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md#daily-bread) traces the manna to
 Jesus, and [In Humility](humility.md#daily-bread) shows why one day at a time is humbling.
-
-### A way opened at great cost
-
-> ✝️ Hebrews 10:19-22 (ESV)
->
-> 19 Therefore, brothers, since we have confidence to enter the holy places by the blood of Jesus,
-> 20 by the new and living way that he opened for us through the curtain, that is, through his flesh,
-> 21 and since we have a great priest over the house of God, 22 let us draw near with a true heart in
-> full assurance of faith, with our hearts sprinkled clean from an evil conscience and our bodies
-> washed with pure water.
-
-The curtain is the one before the Most Holy Place, the blood is Jesus', and the writer's conclusion
-is an instruction to pray: **draw near**, προσέρχομαι (*proserchomai*, pros-ER-kho-my, G4334). Hebrews
-4:16 attaches the promise: "let us then with confidence draw near to the throne of grace, that we may
-receive mercy and find grace to help in time of need" (ESV). That cost is the **atonement**. **The
-Father opened the way to Himself through the blood of His Son**, and the Son "always lives to make
-intercession" for those who come (Hebrews 7:25, ESV). Neglecting prayer leaves unused a door that
-cost that much to open.
-
-## Prayer through Scripture
-
-Three people show prayer from the inside: Jesus, the pattern; Daniel, who kept a lifetime's habit
-under a death sentence; and Paul, whose prayer in Ephesians 3 shows what to ask for those you love.
 
 ### How Jesus prayed
 
@@ -227,22 +279,9 @@ He went to be with His Father, and John 17 records what that sounded like. **The
 the Father's glory "before the world existed" (John 17:5, ESV), still made time to be alone with
 Him.** If He needed it, so do you.
 
-### Daniel: a lifetime at the window
+### Daniel at the window
 
 [![An illustrated plate of Daniel 6:10-11. In the upper chamber of a house in Babylon a small kneeling figure faces open windows toward Jerusalem, far to the west across the desert, where the temple lies in ruins. Seven numbered callouts quote the verses: the signed document (Daniel 6:10), his house, the windows of the upper chamber open toward Jerusalem, on his knees, three times a day praying and giving thanks, as he had done previously, and the men who came by agreement and found him making petition (Daniel 6:11). A dashed key line says the text does not state the hours, the number of windows, or what he prayed. Below, two source cards: Solomon's prayer asking God to hear exiles who pray toward the land, the city and the house (1 Kings 8:48-49), and Jeremiah's letter to the exiles promising that after seventy years 'you will call upon me and come and pray to me, and I will hear you' (Jeremiah 29:10-12); Daniel read Jeremiah's seventy years (Daniel 9:2). At the foot, Daniel 9:18: 'because of your great mercy'.](../assets/img/prayer/daniel-at-the-window.svg)](../assets/img/prayer/daniel-at-the-window.svg)
-
-Daniel was taken to Babylon as a youth (Daniel 1:1-6) and was still praying there in old age. The
-*ESV Study Bible* reckons him over eighty by Daniel 9 (note on Daniel 9:1-27). His book shows his prayer three ways.
-
-#### With his friends, then in praise
-
-In Daniel 2, facing execution with the rest of Babylon's
-wise men, he went home and told Hananiah, Mishael and Azariah "to seek mercy from the God of heaven
-concerning this mystery" (Daniel 2:18, ESV). When the answer came, he blessed God before he went
-anywhere near the king: "To you, O God of my fathers, I give thanks and praise… for you have made
-known to us the king's matter" (Daniel 2:23, ESV). He asked together, and he thanked first.
-
-#### At the window
 
 In Daniel 6, his rivals could find "no ground for complaint or any fault"
 in him, and concluded: "unless we find it in connection with the law of his God" (Daniel 6:4-5,
@@ -266,35 +305,42 @@ The *ESV Study Bible* calls Daniel's practice "consciously fulfilling" that pray
 6:10). The house was rubble; Daniel prayed toward the promise. And on the day the decree was
 signed, he gave thanks.
 
-#### From the books
+### Keep asking, and keep talking
 
-In the first year of Darius, Daniel "perceived in the books" that
-Jeremiah had set seventy years for Jerusalem's desolation (Daniel 9:2, ESV). Daniel does not say
-which passage he read; Jeremiah gives the seventy years twice (Jeremiah 25:11-12; 29:10). The
-second, a letter to the exiles in Babylon, goes on: "When seventy years are completed for Babylon,
-I will visit you… Then you will call upon me and come and pray to me, and I will hear you" (Jeremiah
-29:10, 12, ESV). Daniel did what it describes.
-"I turned my face to the Lord God, seeking him by prayer and pleas for mercy with fasting and
-sackcloth and ashes" (Daniel 9:3, ESV). Three things mark the prayer that follows:
+"Pray without ceasing" (1 Thessalonians 5:17, ESV). The word is ἀδιαλείπτως (*adialeiptōs*, G89),
+and Paul uses it of his own habit of remembering churches (Romans 1:9; 1 Thessalonians 1:2), so it
+means again and again through the day, with no long gaps. Hang short prayers on what you already
+do: waking, the kettle, the car, a meal, the moment before a hard conversation.
 
-- **He began with who God is**: "O Lord, the great and awesome God, who keeps covenant and steadfast
-  love" (Daniel 9:4, ESV).
-- **He confessed as "we"**: "we have sinned and done wrong and acted wickedly" (Daniel 9:5, ESV).
-  The man his enemies could find no fault in counted himself among the guilty.
-- **He pleaded God's mercy and God's name**: "we do not present our pleas before you because of our
-  righteousness, but because of your great mercy… for your own sake, O my God, because your city and
-  your people are called by your name" (Daniel 9:18-19, ESV).
+Jesus told two parables about not giving up. A man knocks at midnight for bread, and his friend gets
+up "because of his impudence" (Luke 11:8, ESV), ἀναίδεια (*anaideia*, G335), shamelessness, found
+only here in the New Testament. "How much more will the heavenly Father give the Holy Spirit to
+those who ask him!" (Luke 11:13, ESV). A widow wears down an unjust judge, and Luke gives the point
+first: "they ought always to pray and not lose heart" (Luke 18:1, ESV). If a sleepy neighbour and a
+corrupt judge give way, your Father will. **This shows that God wants to be asked again.** When an
+answer is slow, keep bringing the same request. Write it down with the date, and write the answer
+beside it when it comes. [How God Answers Prayer](how-god-answers-prayer.md) shows how the answers
+come.
 
-Gabriel came "at the time of the evening sacrifice" (Daniel 9:21, ESV). There had been no evening
-sacrifice since the temple burned in 586 BC (some reckon 587; 2 Kings 25:8-9), and Daniel still
-marked the hour by it. The answer had been sent "at the
-beginning of your pleas for mercy" (Daniel 9:23, ESV); [How God Answers Prayer](how-god-answers-prayer.md)
-follows that thread into Daniel 10.
+## Pray then like this
 
-**This shows that God is a promise-keeping God who invites His people to pray His promises back to
-Him, and who hears those who come on His mercy and His name.** So read your Bible with prayer
-open: when you find what God has said He will do, ask Him for it, and come with nothing in your
-hands but His mercy.
+### A pattern to pray by
+
+Everything above fits a shape small enough to carry. It follows the Lord's Prayer, with thanksgiving
+and intercession placed where the rest of the New Testament puts them:
+
+1. **Recognise who you are speaking to.** "Our Father in heaven, hallowed be your name." Say
+   something true about Him first, as Daniel did (Daniel 9:4).
+2. **Thank Him** for what He has already done, "with thanksgiving" (Philippians 4:6). Daniel gave
+   thanks the day the decree was signed.
+3. **Hand over your will.** "Your will be done." Ask what He wants before you tell Him what you want.
+4. **Ask for today.** "Give us this day our daily bread." Real needs, plainly said.
+5. **Name other people.** Pray Ephesians 3:16-19 over them by name.
+6. **Clear the accounts and ask to be kept.** "Forgive us… as we also have forgiven… deliver us
+   from evil."
+
+It takes twenty seconds if that is all you have, and will hold half an hour if you stay at each
+step. Jesus said "pray *like this*" (Matthew 6:9).
 
 ### Paul on his knees: Ephesians 3:14-21
 
@@ -321,9 +367,13 @@ Bible*, note on 3:14-15). He has just told them "not to lose heart over what I a
 
 **How he prayed it.** "I bow my knees", κάμπτω τὰ γόνατά μου (*kamptō*, G2578). Most people in
 Paul's day stood to pray (Mark 11:25; Luke 18:11, 13), so kneeling expressed deep reverence (*NIV
-Biblical Theology Study Bible*, note on 3:14-15). Paul uses the same verb of the day when "at the name
-of Jesus every knee should bow" (Philippians 2:10, ESV). Paul does not join the two passages, but
-read side by side, in prayer he bends now the knee every creature will bend then.
+Biblical Theology Study Bible*, note on 3:14-15).
+
+??? note "Aside: every knee will bow"
+
+    Paul uses the same verb of the day when "at the name of Jesus every knee should bow" (Philippians
+    2:10, ESV). Paul does not join the two passages, but read side by side, in prayer he bends now the
+    knee every creature will bend then.
 
 **To whom.** "The Father, from whom every family in heaven and on earth is named." *Family* is
 πατριά (*patria*, G3965), built on πατήρ (*patēr*, G3962, "father"), and the wordplay is Paul's own:
@@ -358,14 +408,14 @@ Each request opens into the next, and each Person of the Trinity is in it:
    filled the temple (1 Kings 8:10-11), Paul prays God would fill His people with Himself (*NIV
    Biblical Theology Study Bible*, note on 3:19).
 
-#### Christ dwelling, God's fullness
+??? note "Aside: Christ dwelling, God's fullness"
 
-Paul's letter to Colossae uses the same two words of Christ: "in him all the fullness of God was
-pleased to dwell" (Colossians 1:19, ESV), and "in him the whole fullness of deity dwells bodily, and
-you have been filled in him" (Colossians 2:9-10, ESV). Read together, the fullness of God dwells in
-Christ, Christ dwells in you, and you are filled with the fullness of God. Ephesians 3 does not cite
-Colossians, so the link is this study's reading of one writer's vocabulary; the doctrine it points to
-is **union with Christ**.
+    Paul's letter to Colossae uses the same two words of Christ: "in him all the fullness of God was
+    pleased to dwell" (Colossians 1:19, ESV), and "in him the whole fullness of deity dwells bodily, and
+    you have been filled in him" (Colossians 2:9-10, ESV). Read together, the fullness of God dwells in
+    Christ, Christ dwells in you, and you are filled with the fullness of God. Ephesians 3 does not cite
+    Colossians, so the link is this study's reading of one writer's vocabulary; the doctrine it points to
+    is **union with Christ**.
 
 #### More than we ask
 
@@ -381,44 +431,6 @@ pray this way for the people you love: by name, for their inner strength, for Ch
 presence, for their grasp of His love. Pray it for yourself, and for the people you find hardest to
 pray for. And when you have asked for the most you can imagine, finish by praising the God who can
 do more.
-
-### A short gallery
-
-- **Moses** argued from God's own promises: "Remember Abraham, Isaac, and Israel… to whom you swore
-  by your own self", and "the LORD relented" (Exodus 32:13-14, ESV).
-- **Nehemiah** prayed in the space between a king's question and his answer: "I prayed to the God
-  of heaven. And I said to the king…" (Nehemiah 2:4-5, ESV).
-- **The church under threat** began with God's sovereignty, "Sovereign Lord, who made the heaven
-  and the earth" (Acts 4:24, ESV), and asked for boldness to keep speaking (Acts 4:29).
-
-## The mechanics
-
-### Whom to pray to
-
-Jesus taught prayer to the Father: "Pray then like this: Our Father in heaven" (Matthew 6:9, ESV),
-and "whatever you ask of the Father in my name, he will give it to you" (John 16:23, ESV). Paul puts
-the whole Trinity in one sentence: "through him we both have access in one Spirit to the Father"
-(Ephesians 2:18, ESV). Paul's word for "access" is προσαγωγή (*prosagōgē*, G4318), being brought in
-and presented, as at court.
-
-Prayer to Jesus is also in the New Testament and is never corrected. Stephen died praying "Lord
-Jesus, receive my spirit" (Acts 7:59, ESV), and Paul pleaded with the Lord about his thorn and was
-answered, "My grace is sufficient for you" (2 Corinthians 12:8-9, ESV). The Spirit helps from
-within: He "intercedes for us with groanings too deep for words" (Romans 8:26, ESV). No prayer in the
-New Testament is addressed to the Spirit; that is an argument from silence, which is why this study
-describes His part as help given to the one praying. **Make the Father your habit, because Jesus
-taught it, and speak to the Son freely, because Scripture does.**
-
-### Personal and corporate
-
-"Go into your room and shut the door and pray to your Father who is in secret" (Matthew 6:6, ESV),
-against those who pray "that they may be seen by others" (Matthew 6:5, ESV). Yet every first-person
-word in the prayer Jesus then teaches is plural: *our* Father, give *us*, forgive *us*. The early
-church prayed together as a matter of course: "with one accord… devoting themselves to prayer" (Acts
-1:14, ESV), and "earnest prayer for him was made to God by the church" (Acts 12:5, ESV). Daniel
-prayed alone at his window and with his friends in his house. You need both: the shut door keeps
-prayer honest, and the gathering keeps the "our". [Where Two or Three Are
-Gathered](../israel-and-church/where-two-or-three-are-gathered.md) treats praying together.
 
 ### What to pray about
 
@@ -436,40 +448,31 @@ included. Most prayer lives are heavy on the first and light on the last two. Pa
 four verses on: "there is one mediator between God and men, the man Christ Jesus" (1 Timothy 2:5,
 ESV). Philippians 4:6 gives the scope: "in everything."
 
-### Keep asking, and keep talking
+### Personal and corporate
 
-"Pray without ceasing" (1 Thessalonians 5:17, ESV). The word is ἀδιαλείπτως (*adialeiptōs*, G89),
-and Paul uses it of his own habit of remembering churches (Romans 1:9; 1 Thessalonians 1:2), so it
-means again and again through the day, with no long gaps. Hang short prayers on what you already
-do: waking, the kettle, the car, a meal, the moment before a hard conversation.
+"Go into your room and shut the door and pray to your Father who is in secret" (Matthew 6:6, ESV),
+against those who pray "that they may be seen by others" (Matthew 6:5, ESV). Yet every first-person
+word in the prayer Jesus then teaches is plural: *our* Father, give *us*, forgive *us*. The early
+church prayed together as a matter of course: "with one accord… devoting themselves to prayer" (Acts
+1:14, ESV), and "earnest prayer for him was made to God by the church" (Acts 12:5, ESV). Daniel
+prayed alone at his window and with his friends in his house. You need both: the shut door keeps
+prayer honest, and the gathering keeps the "our". [Where Two or Three Are
+Gathered](../israel-and-church/where-two-or-three-are-gathered.md) treats praying together.
 
-Jesus told two parables about not giving up. A man knocks at midnight for bread, and his friend gets
-up "because of his impudence" (Luke 11:8, ESV), ἀναίδεια (*anaideia*, G335), shamelessness, found
-only here in the New Testament. "How much more will the heavenly Father give the Holy Spirit to
-those who ask him!" (Luke 11:13, ESV). A widow wears down an unjust judge, and Luke gives the point
-first: "they ought always to pray and not lose heart" (Luke 18:1, ESV). If a sleepy neighbour and a
-corrupt judge give way, your Father will. **This shows that God wants to be asked again.** When an
-answer is slow, keep bringing the same request. Write it down with the date, and write the answer
-beside it when it comes. [How God Answers Prayer](how-god-answers-prayer.md) shows how the answers
-come.
+In Daniel 2, facing execution with the rest of Babylon's
+wise men, he went home and told Hananiah, Mishael and Azariah "to seek mercy from the God of heaven
+concerning this mystery" (Daniel 2:18, ESV). When the answer came, he blessed God before he went
+anywhere near the king: "To you, O God of my fathers, I give thanks and praise… for you have made
+known to us the king's matter" (Daniel 2:23, ESV). He asked together, and he thanked first.
 
-### A pattern to pray by
+??? note "Aside: two more who prayed"
 
-Everything above fits a shape small enough to carry. It follows the Lord's Prayer, with thanksgiving
-and intercession placed where the rest of the New Testament puts them:
-
-1. **Recognise who you are speaking to.** "Our Father in heaven, hallowed be your name." Say
-   something true about Him first, as Daniel did (Daniel 9:4).
-2. **Thank Him** for what He has already done, "with thanksgiving" (Philippians 4:6). Daniel gave
-   thanks the day the decree was signed.
-3. **Hand over your will.** "Your will be done." Ask what He wants before you tell Him what you want.
-4. **Ask for today.** "Give us this day our daily bread." Real needs, plainly said.
-5. **Name other people.** Pray Ephesians 3:16-19 over them by name.
-6. **Clear the accounts and ask to be kept.** "Forgive us… as we also have forgiven… deliver us
-   from evil."
-
-It takes twenty seconds if that is all you have, and will hold half an hour if you stay at each
-step. Jesus said "pray *like this*" (Matthew 6:9).
+    - **Moses** argued from God's own promises: "Remember Abraham, Isaac, and Israel… to whom you swore
+      by your own self", and "the LORD relented" (Exodus 32:13-14, ESV).
+    - **Nehemiah** prayed in the space between a king's question and his answer: "I prayed to the God
+      of heaven. And I said to the king…" (Nehemiah 2:4-5, ESV).
+    - **The church under threat** began with God's sovereignty, "Sovereign Lord, who made the heaven
+      and the earth" (Acts 4:24, ESV), and asked for boldness to keep speaking (Acts 4:29).
 
 ### Teaching a household to pray
 
@@ -480,20 +483,27 @@ at Home](teaching-the-lords-prayer-at-home.md) is a guide for families, a line a
 
 ## Discussion questions
 
-1. **The language.** Daniel 6:10 describes Daniel *kneeling, praying, giving thanks* with participles
+1. **The language.** Jesus' prayer opens "Our Father in heaven" (Matthew 6:9), and Paul's opens on
+   his knees "before the Father, from whom every family in heaven and on earth is named" (Ephesians
+   3:14-15), where *family* (πατριά, *patria*) is built on *father* (πατήρ, *patēr*). Both begin
+   with who God is to them before they ask for anything, and the Spirit gives you the same cry,
+   "Abba! Father!" (Romans 8:15). How would your prayers change if you began each one by
+   remembering whose child you are?
+2. **The language.** Daniel 6:10 describes Daniel *kneeling, praying, giving thanks* with participles
    for ongoing action, "as he had done previously". What would have to be true of your prayer life
    for "as he had done previously" to describe it?
-2. **The text in its context.** Daniel read Jeremiah's seventy years (Daniel 9:2) and then did
+3. **The text in its context.** Daniel read Jeremiah's seventy years (Daniel 9:2) and then did
    what Jeremiah 29:12 describes: he called on God and prayed.
    What promise of God have you read recently, and how would you pray it back to Him?
-3. **Christ.** Paul prays that "Christ may dwell in your hearts through faith" (Ephesians 3:17) for
+4. **Christ.** Paul prays that "Christ may dwell in your hearts through faith" (Ephesians 3:17) for
    people who already belonged to Christ. What is he asking for that they did not yet have?
-4. **The hard part.** Jesus prayed "remove this cup" and the cup stayed (Luke 22:42). Hebrews says He
+5. **The hard part.** Jesus prayed "remove this cup" and the cup stayed (Luke 22:42). Hebrews says He
    "was heard" (Hebrews 5:7). How do you hold those two verses together when your own prayer is not
    answered the way you asked?
-5. **Daily bread.** Manna could not be stored overnight (Exodus 16:20), and Jesus said His food was
-   to do the Father's will (John 4:34). Where are you trying to live on yesterday's prayer?
-6. **Be transformed.** Choose one person and pray Ephesians 3:16-19 for them by name every day this
+6. **The text in its context.** Manna could not be stored overnight (Exodus 16:20), and Jesus taught
+   His disciples to ask for bread "this day" (Matthew 6:11). What do you need to ask your Father for
+   today?
+7. **Be transformed.** Choose one person and pray Ephesians 3:16-19 for them by name every day this
    week. What do you expect to change, in them or in you?
 
 ## References & Recommended Reading
