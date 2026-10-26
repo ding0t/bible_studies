@@ -7,7 +7,7 @@ friend, set at 12 pt for older eyes:
           closer" box to write in.
 - page 2  the study's primary graphic (its comic, else its first drawn diagram) as large as the
           page allows, and the Study outline as "the study in brief".
-- page 3  the discussion questions on a timed plan, with room to write.
+- page 3  the discussion questions, grouped by their minutes, with the same room to write under each.
 - page 4  the response: the Be Transformed think/attitude/do, the first memory verse and the
           study's prayer, room for notes, and a QR code back to the full study.
 
@@ -55,7 +55,7 @@ _BOOKS = {
 _SINGLE_CHAPTER = {"Obad", "Phlm", "2John", "3John", "Jude"}
 _REF = re.compile(r"^(?:(?P<book>(?:[123]\s)?\D+?)\s+)?(?P<c1>\d+)(?::(?P<v1>\d+))?(?:-(?:(?P<c2>\d+):)?(?P<v2>\d+))?$")
 
-# (key, label, from minute, to minute). The widths of the plan bar on page 3 are these minutes.
+# (key, label, from minute, to minute): the badges' times on pages 1 and 3.
 _PLAN = (
     ("open", "Open", 0, 5),
     ("read", "Read", 5, 12),
@@ -208,7 +208,7 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
 </section>"""
 
     p3 = f"""<section class="ss-sheet ss-p3" aria-label="Study sheet, page 3">
-  <header class="ss-head ss-head-back"><h2>{escape(title)}</h2>{_plan()}</header>
+  {head}
   <div class="ss-questions">{_questions(questions)}</div>
   {foot(3)}
 </section>"""
@@ -227,7 +227,7 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
 <details class="ss" id="group-study-sheet" data-no-popups>
   <summary>Group study sheet <small>two A4 sheets, double-sided, for a 40-minute group</small></summary>
   <div class="ss-controls">
-    <p>The point, the passage, the questions on a timed plan and the response, from this study.
+    <p>The point, the passage, the questions and the response, from this study.
     Print on both sides of two A4 sheets, flipping on the long edge. While this block is open,
     printing the page prints the sheet; close it to print the study.</p>
     <label><input type="checkbox" class="ss-opt-mono"> Black &amp; white <small>for a black-only printer</small></label>
@@ -369,12 +369,6 @@ def _brief(outline_html: str) -> str:
         return ""
     lis = "".join(f"<li>{i}</li>" for i in items)
     return f'<div class="ss-brief"><span class="ss-h">The study in brief</span><ol>{lis}</ol></div>'
-
-
-def _plan() -> str:
-    cells = "".join(f'<span style="flex:{b - a}"><b>{label}</b>{a}–{b}</span>'
-                    for k, label, a, b in _PLAN)
-    return f'<div class="ss-plan" aria-label="Timed plan, in minutes">{cells}</div>'
 
 
 def _questions(questions: list[str]) -> str:

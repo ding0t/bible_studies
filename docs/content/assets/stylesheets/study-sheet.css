@@ -57,7 +57,7 @@
   color: #000;
   box-shadow: inset 0 0 0 calc(0.3 * var(--mm)) #000;
 }
-.ss:has(.ss-opt-mono:checked) :is(.ss-point, .ss-plan span) {
+.ss:has(.ss-opt-mono:checked) .ss-point {
   box-shadow: inset 0 0 0 calc(0.25 * var(--mm)) #000;
 }
 .ss:has(.ss-opt-mono:checked) .ss-graphic { filter: grayscale(1) contrast(1.15); }
@@ -206,11 +206,12 @@
 
 /* Ruled writing space, wherever an <i> is left empty for it, 8 mm apart for a larger hand. */
 /* A tiled single rule, not a repeating-linear-gradient: Chrome's PDF output drops every few
-   stripes of a repeating gradient. */
+   stripes of a repeating gradient. White, not transparent, above the rule: transparent is black
+   at zero alpha, and Safari's PDF output can drop the alpha and print the box solid black. */
 .ss-look-rows i, .ss-q i, .ss-notes i {
   flex: 1;
   min-height: calc(8 * var(--mm));
-  background: linear-gradient(transparent calc(100% - 0.25 * var(--mm)), var(--ss-rule) 0)
+  background: linear-gradient(#fff calc(100% - 0.25 * var(--mm)), var(--ss-rule) 0)
     0 0 / 100% calc(8 * var(--mm)) repeat-y;
 }
 
@@ -250,26 +251,15 @@
 
 .ss-head-back { grid-template-columns: 1fr; }
 .ss-head-back h2 { font-size: calc(15 * var(--pt)); }
-.ss-plan { display: flex; gap: calc(0.6 * var(--mm)); font-family: var(--ss-sans); font-size: calc(9 * var(--pt)); }
-.ss-plan span {
-  display: flex;
-  flex-direction: column;
-  padding: calc(1 * var(--mm)) calc(1.6 * var(--mm));
-  background: var(--ss-tint);
-  color: var(--ss-muted);
-  white-space: nowrap;
-  overflow: hidden;
-}
-.ss-plan b { color: var(--ss-ink); font-size: calc(10 * var(--pt)); }
-
-.ss-questions { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: calc(4 * var(--mm)); }
-.ss-group { display: flex; flex-direction: column; gap: calc(2 * var(--mm)); }
-/* The writing space goes where the conversation is longest: Discover and Wrestle share the
-   page's spare height by their minutes. */
-.ss-group-discover { flex: 13; }
-.ss-group-wrestle { flex: 10; }
-.ss-group-respond { flex: 4; }
-.ss-q { flex: 1; display: flex; flex-direction: column; gap: calc(0.8 * var(--mm)); }
+/* Every question gets the same room to write: the groups and questions step aside (display:
+   contents), so each answer space is a flex item of one column, and all share its spare height
+   equally whatever the length of the question above them. */
+.ss-questions { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.ss-group, .ss-q { display: contents; }
+.ss-questions .ss-h { margin: calc(4 * var(--mm)) 0 0; }
+.ss-questions .ss-h:first-child { margin-top: 0; }
+.ss-q p { margin-top: calc(2.5 * var(--mm)); }
+.ss-q i { flex: 1 1 0; }
 .ss-n {
   display: inline-block;
   min-width: calc(6 * var(--mm));

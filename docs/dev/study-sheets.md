@@ -12,7 +12,7 @@ beside the title opens the block and jumps to it, since a leader decides to prin
 |---|---|
 | 1 | Title, `primary_passage`; the point (the thesis); Open: the first `questions:` frontmatter entry, else "what comes to mind when you hear …"; Read it aloud: `primary_passage` in WEB; Look closer: say / meant then / means for us, to write in |
 | 2 | The primary graphic, as large as the page allows (the first comic, else the first drawn SVG that is a diagram rather than a 100-unit feast emblem); the study in brief: the Study outline, beside a tall graphic, under a wide one, or with room for notes when there is no graphic |
-| 3 | The timed plan: Open 0–5, Read 5–12, Discover 12–25, Wrestle 25–35, Respond 35–40; the questions, grouped on the plan by facet label, each with ruled space |
+| 3 | The questions, grouped by facet label under Discover 12–25, Wrestle 25–35 and Respond 35–40 (each group's badge carries its minutes; Open 0–5 and Read 5–12 are on page 1), each with the same ruled space whatever its length |
 | 4 | This week: Be Transformed's think / attitude / do; Memory verse: the first one; Pray together: the study's prayer; notes; QR code and URL back to the full study |
 
 **12 pt is the floor.** Everything read on the sheet is 12 pt, labels 10 pt and the footer 9 pt,
