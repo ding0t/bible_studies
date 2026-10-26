@@ -16,6 +16,7 @@ draft: false
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 16:9-10
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 16:37
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 16:6-10
+- [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 16:25
 - [Sin and Sorcery](../../sin/sorcery.md) — 16:16-18
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 16:7
 - [The Way](../../jesus/the-way.md) — 16:17

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 15:2-4
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 15:4
 - [The Rapture of the Church](../../last-things/rapture.md) — 15:1-6
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 15:1-4

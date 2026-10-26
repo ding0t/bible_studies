@@ -16,6 +16,7 @@ draft: false
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 4:1
 - [Idolatry](../../sin/idolatry.md) — 4:11
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 4:1
+- [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 4:8-11
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 4:5
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 4:10-11
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 4:5

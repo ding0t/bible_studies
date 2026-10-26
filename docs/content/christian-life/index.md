@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-22
+date_modified: 2026-10-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -93,9 +93,17 @@ Prayer, fasting, and the disciplines of walking with Christ.
 
     ---
 
-    What prayer is (a child's communion with the Father), why it is as necessary as daily bread, how Jesus, Daniel and Paul prayed (with Ephesians 3:14-21 worked through in depth), and the practical mechanics: whom to pray to, alone and together, what to pray about, persistence, and a pattern to pray by.
+    What prayer is (a child's communion with the Father), in the order of the prayer Jesus taught: coming to God as your Father through His Son Jesus, seeking His will first, and asking for this day's bread; how Jesus, Daniel and Paul prayed (with Ephesians 3:14-21 worked through in depth); and a pattern to pray by.
 
     [:octicons-arrow-right-24: Read](prayer-as-communion.md)
+
+-   __Psalms, Hymns and Spiritual Songs__
+
+    ---
+
+    What Paul meant by psalms, hymns and spiritual songs in Ephesians 5:19 and Colossians 3:16, where the three words come from, the songs Israel and the first church sang, and why a Spirit-filled church sings.
+
+    [:octicons-arrow-right-24: Read](psalms-hymns-and-spiritual-songs.md)
 
 -   __Run the Race: Come to Me, All Who Are Weary__
 

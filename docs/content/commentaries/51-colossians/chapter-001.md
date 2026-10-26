@@ -20,6 +20,7 @@ draft: false
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 1:25-27
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 1:29
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 1:19
+- [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 1:15-20
 - [Six Days of History](../../last-things/six-days-of-history.md) — 1:15
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 1:9-13
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:22

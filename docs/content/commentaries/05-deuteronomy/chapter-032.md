@@ -16,6 +16,7 @@ draft: false
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 32:8-9
 - [Faith](../../salvation/faith.md) — 32:4
 - [Idolatry](../../sin/idolatry.md) — 32:15-21
+- [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 32:1-43
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 32:5
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 32:17
 - [True Worship](../../christian-life/true-worship.md) — 32:43

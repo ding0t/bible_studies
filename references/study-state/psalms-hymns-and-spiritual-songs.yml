@@ -164,8 +164,8 @@ open_questions:
   - "Fork candidate: instruments in worship (psallō) -- its own study if wanted."
   - "Fork candidate: exclusive psalmody, fuller treatment."
   - "Songbook built: docs/data/songbook.toml (38 songs), hooks/songbook.py, resources/songbook.md (draft). Author chose scope: Scripture songs, OT psalms and songs, songs Jesus knew/sang, early-church hymns on disk only. Later hymns and modern songs excluded."
-  - "PUBLISH DEPENDENCY: this study links jesus/psalm-118-road-to-gethsemane.md, which is draft:true. Publish both together or drop the link (validator Check 24)."
-  - "Publish the study and resources/songbook.md in the same commit -- each links the other."
+  - "PENDING LINK: published 2026-10-26 with jesus/psalm-118-road-to-gethsemane.md still draft (status: review). The link in 'Songs in the New Testament' became plain text '(coming soon)' and the Related Studies bullet was removed. Restore both when the Psalm 118 study is published (validator Check 24)."
+  - "Study and resources/songbook.md published together 2026-10-26 -- each links the other."
   - "Ideas not built: song card embedded in a study via a marker; 'Sung as' line in the verse pop-up; group-sheet song; memory-verse set of song verses; full song text via an export step (would need the WEB from bible-text.db, so a committed JSON like memory-verses)."
   - "Psalms of Solomon (swete-lxx) are songs from Jesus' generation; whether He knew them is unknowable -- left out of 'songs Jesus knew'."
 

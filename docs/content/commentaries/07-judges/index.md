@@ -13,6 +13,7 @@ draft: false
 ## Chapters with linked studies
 
 - [Chapter 4](chapter-004.md) — 1 study(ies)
+- [Chapter 5](chapter-005.md) — 1 study(ies)
 - [Chapter 6](chapter-006.md) — 1 study(ies)
 - [Chapter 7](chapter-007.md) — 2 study(ies)
 - [Chapter 14](chapter-014.md) — 1 study(ies)

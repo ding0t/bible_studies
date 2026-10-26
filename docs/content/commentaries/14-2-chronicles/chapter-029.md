@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 29:30
 - [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 29:18
 <!-- commentary-index:auto-end -->

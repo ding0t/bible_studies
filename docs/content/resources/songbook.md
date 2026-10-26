@@ -3,11 +3,11 @@ title: "The Songbook"
 category: "other"
 description: "A body of psalms, hymns and spiritual songs to remember: the songs of Scripture, the songs Jesus sang and quoted, and the earliest Christian songs, with who first sang each and when to sing it."
 tags: ["psalms", "worship", "memorisation"]
-draft: true
+draft: false
 primary_passage: "Colossians 3:16"
 bible_references: ["Colossians 3:16", "Ephesians 5:19", "Deuteronomy 31:21", "James 5:13"]
 date_created: 2026-10-25
-date_modified: 2026-10-25
+date_modified: 2026-10-26
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

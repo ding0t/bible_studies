@@ -3,11 +3,11 @@ title: "Psalms, Hymns and Spiritual Songs"
 category: "christian-life"
 description: "What Paul meant by psalms, hymns and spiritual songs in Ephesians 5:19 and Colossians 3:16, where the three words come from, the songs Israel and the first church sang, and why a Spirit-filled church sings."
 tags: ["ephesians", "colossians", "psalms", "worship", "church", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Ephesians 5:18-21; Colossians 3:16-17"
 bible_references: ["Ephesians 5:14", "Ephesians 5:18-21", "Colossians 3:16-17", "1 Corinthians 14:15", "1 Corinthians 14:26", "James 5:13", "Acts 16:25", "Matthew 26:30", "Hebrews 2:11-12", "Psalm 22:22", "Zephaniah 3:17", "Exodus 15:1-2", "Exodus 15:20-21", "Deuteronomy 31:19-22", "Deuteronomy 32:1-43", "Judges 5:3", "1 Samuel 2:1-10", "1 Chronicles 25:1-7", "2 Chronicles 29:30", "Psalm 40:3", "Psalm 72:20", "Psalm 76:1", "Psalm 96:1", "Psalm 118:14", "Psalm 145:1", "Isaiah 12:2", "Luke 1:46-55", "Luke 1:68-79", "Luke 2:13-14", "Luke 2:29-32", "Philippians 2:6-11", "Colossians 1:15-20", "1 Timothy 3:16", "Revelation 5:9-10", "Revelation 14:3", "Revelation 15:2-4", "Isaiah 26:19", "Isaiah 60:1", "2 Samuel 22:1-51", "Revelation 4:8-11", "Revelation 19:1-8"]
 date_created: 2026-10-25
-date_modified: 2026-10-25
+date_modified: 2026-10-26
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -268,7 +268,7 @@ The New Testament opens in song. Luke records four songs around the birth of Jes
 - **Simeon**: "Lord, now you are letting your servant depart in peace" (Luke 2:29-32).
 
 The Last Supper ended in a hymn (Matthew 26:30), very likely the end of the Passover Hallel, which
-ends with Psalm 118. [Psalm 118 on the Road to Gethsemane](../jesus/psalm-118-road-to-gethsemane.md)
+ends with Psalm 118. *Psalm 118 on the Road to Gethsemane* (coming soon)
 sets out the evidence. If so, Jesus sang Moses' line on the night before the cross: "The LORD is my
 strength and my song."
 
@@ -411,6 +411,4 @@ Lord Jesus with your heart, and you give thanks to the Father always and for eve
   earliest Christian songs.
 - [True Worship](true-worship.md)
 - [Submission in Context](submission-in-context.md) — the fifth participle of Ephesians 5:18-21.
-- [Psalm 118 on the Road to Gethsemane](../jesus/psalm-118-road-to-gethsemane.md) — the hymn of
-  Matthew 26:30.
 - [Memory Verses](../resources/memory-verses.md)

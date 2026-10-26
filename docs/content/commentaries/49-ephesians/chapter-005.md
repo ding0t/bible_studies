@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 5:18-21 (primary passage)
 - [Submission in Context](../../christian-life/submission-in-context.md) — 5:21-33 (primary passage)
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:22-33 (primary passage)
 - [Idolatry](../../sin/idolatry.md) — 5:5

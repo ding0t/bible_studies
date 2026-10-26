@@ -4,7 +4,7 @@ category: "other"
 description: "External sources, tools, and datasets this project draws on."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-10-19
+date_modified: 2026-10-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -66,6 +66,14 @@ External sources, tools, and datasets this project draws on.
     Sites, tools and channels I use alongside these studies: short expositional answers, free study tooling, free Bibles, and biblical archaeology on location.
 
     [:octicons-arrow-right-24: Read](recommended.md)
+
+-   __The Songbook__
+
+    ---
+
+    A body of psalms, hymns and spiritual songs to remember: the songs of Scripture, the songs Jesus sang and quoted, and the earliest Christian songs, with who first sang each and when to sing it.
+
+    [:octicons-arrow-right-24: Read](songbook.md)
 
 </div>
 <!-- section-index:auto-end -->

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 5:13
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 5:19-20
 - [The Day Is Near](../../last-things/day-is-near.md) — 5:7-8
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 5:8-9

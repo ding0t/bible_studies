@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 76:2
+- [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 76:1
 <!-- commentary-index:auto-end -->

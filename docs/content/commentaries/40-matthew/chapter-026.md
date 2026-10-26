@@ -17,6 +17,7 @@ draft: false
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 26:39
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 26:74
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 26:31
+- [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 26:30
 - [Simon Peter](../../biblical-figures/peter.md) — 26:33-35
 - [Submission in Context](../../christian-life/submission-in-context.md) — 26:41
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 26:31-42
