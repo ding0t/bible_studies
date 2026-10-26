@@ -559,7 +559,8 @@ def _by_step(steps: list[dict], other: list[str]) -> str:
     outline's order, with Discover and Wrestle's minutes (12 to 35) shared out by question count.
     A step with no questions keeps its heading, so the page still shows the way through, unless the
     page runs out of room."""
-    groups = [(f'{i}. {escape(s["name"])}', s["qs"]) for i, s in enumerate(steps, 1)]
+    # "Step 2", never a bare numeral: the numbers on the page belong to the questions.
+    groups = [(f'Step {i} · {escape(s["name"])}', s["qs"]) for i, s in enumerate(steps, 1)]
     groups += [("Talk it over", other)] if other else []
     total = sum(len(qs) for _, qs in groups) or 1
     out, number, start = "", 0, 12
@@ -596,8 +597,10 @@ def _two_pages(page, article: str, point: str, plan, respond: list[str], title: 
         keys = f'<span class="ss-keys">Key verses: {escape("; ".join(s["keys"]))}</span>' if s["keys"] else ""
         note = _clean(s["note"])
         # data-keep: a heading goes to the next page with the question under it, never alone.
-        blocks.append(f'<div class="ss-b ss-stephead" data-keep><span class="ss-step">{i}</span><div>'
-                      f'<b>{escape(s["name"])}</b>{f'<span class="ss-note"> — {note}</span>' if note else ""}{keys}</div></div>')
+        # A tinted band headed "Step 2", never a bare numeral: the numbers on the page belong to
+        # the questions.
+        blocks.append(f'<div class="ss-b ss-stephead" data-keep><span class="ss-step">Step {i}</span>'
+                      f'<b>{escape(s["name"])}</b>{f'<span class="ss-note"> — {note}</span>' if note else ""}{keys}</div>')
         for q in s["qs"]:
             number += 1
             blocks.append(_question(number, _clean(q), "ss-b ss-q"))

@@ -57,7 +57,9 @@
   color: #000;
   box-shadow: inset 0 0 0 calc(0.3 * var(--mm)) #000;
 }
-.ss:has(.ss-opt-mono:checked) .ss-point {
+.ss:has(.ss-opt-mono:checked) .ss-point,
+.ss:has(.ss-opt-mono:checked) .ss-stephead,
+.ss:has(.ss-opt-mono:checked) .ss-grouphead {
   box-shadow: inset 0 0 0 calc(0.25 * var(--mm)) #000;
 }
 .ss:has(.ss-opt-mono:checked) .ss-graphic { filter: grayscale(1) contrast(1.15); }
@@ -315,13 +317,16 @@
   color: var(--ss-accent);
 }
 .ss-lead > b { margin-right: calc(1.5 * var(--mm)); }
+/* Steps and the closing groups are tinted bands, like the point: a part of the study to walk
+   through, set apart from the numbered questions under it. */
 .ss-stephead, .ss-grouphead {
-  margin-top: calc(5 * var(--mm));
-  padding-top: calc(2 * var(--mm));
-  border-top: calc(0.4 * var(--mm)) solid var(--ss-accent);
+  margin-top: calc(4 * var(--mm));
+  padding: calc(1.4 * var(--mm)) calc(3 * var(--mm));
+  background: var(--ss-tint);
+  border-left: calc(1 * var(--mm)) solid var(--ss-accent);
+  line-height: 1.35;
 }
-.ss-stephead { display: grid; grid-template-columns: calc(6 * var(--mm)) 1fr; gap: 0 calc(2 * var(--mm)); line-height: 1.35; }
-.ss-step { font-size: calc(12 * var(--pt)); letter-spacing: 0; }
+.ss-step { margin-right: calc(2 * var(--mm)); }
 .ss-keys {
   display: block;
   margin-top: calc(1 * var(--mm));
@@ -337,7 +342,7 @@
 /* Set by ssFlow when page 2 overruns: key verses go, then the QR code, then the gaps close up,
    then the step notes, then the answer spaces drop to one line. */
 .ss-nokeys .ss-keys, .ss-titles .ss-note, .ss-noqr .ss-link { display: none; }
-.ss-snug .ss-stephead, .ss-snug .ss-grouphead { margin-top: calc(3 * var(--mm)); padding-top: calc(1.5 * var(--mm)); }
+.ss-snug .ss-stephead, .ss-snug .ss-grouphead { margin-top: calc(2.5 * var(--mm)); padding-block: calc(0.8 * var(--mm)); }
 .ss-snug .ss-q p { margin-top: calc(1.5 * var(--mm)); }
 .ss-tight .ss-q i { height: calc(8 * var(--mm)); }
 .ss-tight .ss-q p { margin-top: calc(1 * var(--mm)); }
