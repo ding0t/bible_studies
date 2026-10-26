@@ -17,7 +17,7 @@ series:
     - study: christian-life/fasting.md
       why: "Humbling yourself before God by going without food, and what Scripture never promises it does."
 date_created: 2026-10-22
-date_modified: 2026-10-22
+date_modified: 2026-10-26
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -30,6 +30,10 @@ timetable, and sometimes joined with fasting.
 
 The weeks move from what prayer is, to the pattern Jesus gave, to what happens after you pray, to a
 discipline that goes with it.
+
+For a household, [Teaching the Lord's Prayer at Home](../christian-life/teaching-the-lords-prayer-at-home.md)
+takes the prayer one line a week for seven weeks, with a story, a question for children and one
+thing to do together.
 
 ## The weeks
 

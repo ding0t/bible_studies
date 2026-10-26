@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1084" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">The Prayer in Seven Pictures</title>
+<desc id="d">A card for the fridge: the Lord's Prayer (Matthew 6:9-13, ESV) in seven pictures, one for each week of the household guide. Week 1: a house with its door open, beside 'Our Father in heaven,' (6:9) and 'God is our Father, because Jesus made us His children.' Week 2: a mountain under a cloud, beside 'hallowed be your name.' (6:9) and 'God's name is who He is, and He is holy.' Week 3: a crown, beside 'Your kingdom come, your will be done, on earth as it is in heaven.' (6:10) and 'God is King, Jesus is coming back to reign, and God's way is best.' Week 4: a loaf, beside 'Give us this day our daily bread,' (6:11) and 'God gives us what we need, one day at a time.' Week 5: a ledger struck through, beside 'and forgive us our debts, as we also have forgiven our debtors.' (6:12) and 'God forgives us because Jesus paid what we owed, so we forgive each other.' Week 6: a path, beside 'And lead us not into temptation, but deliver us from evil.' (6:13) and 'God is stronger than the devil, and He keeps His children.' Week 7: a gold seal reading Amen, beside 'Amen.' (2 Corinthians 1:20) and 'Every promise God makes is “Yes” in Jesus.' Below: pray the whole prayer together every day, and in your own words in four steps: Our Father, Your will, Today, Forgive and keep.</desc>
+<rect width="720" height="1084" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1068" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1056" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE PRAYER IN SEVEN PICTURES</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Matthew 6:9-13 · one line a week · for the fridge</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<rect x="34" y="128" width="652" height="96" rx="8" fill="#fffdf7" stroke="#a67c3d" stroke-width="1.2"/>
+<circle cx="92" cy="176.0" r="30" fill="#fffdf7" stroke="#a67c3d" stroke-width="2"/>
+<path d="M72 174.0 L92 156.0 L112 174.0" fill="none" stroke="#8d6c45" stroke-width="3" stroke-linejoin="round"/><rect x="77" y="172.0" width="30" height="20" fill="#f4e8cf" stroke="#8d6c45" stroke-width="1.6"/><rect x="87" y="179.0" width="10" height="13" fill="#e8c46a"/><path d="M87 179.0 L81 182.0 V194.0 L87 192.0 Z" fill="#c9a77a" stroke="#8d6c45" stroke-width="1"/>
+<text x="140.0" y="154.0" font-size="12" fill="#8b1e1e" font-weight="bold" letter-spacing="1.5">WEEK 1</text>
+<text x="670.0" y="154.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">6:9</text>
+<text x="140.0" y="176.0" font-size="16" fill="#3b2f1e" font-style="italic">“Our Father in heaven,”</text>
+<text x="140.0" y="198.0" font-size="14.5" fill="#2f4f7f" font-weight="bold">God is our Father, because Jesus made us His children.</text>
+<rect x="34" y="236" width="652" height="96" rx="8" fill="#fffdf7" stroke="#a67c3d" stroke-width="1.2"/>
+<circle cx="92" cy="284.0" r="30" fill="#fffdf7" stroke="#a67c3d" stroke-width="2"/>
+<path d="M70 298.0 L88 274.0 L96 282.0 L102 276.0 L114 298.0 Z" fill="#9a8a72" stroke="#8d6c45" stroke-width="1.2"/><ellipse cx="90" cy="270.0" rx="15" ry="6" fill="#ffffff" stroke="#a67c3d" stroke-width="1.2"/><ellipse cx="100" cy="266.0" rx="9" ry="5" fill="#ffffff" stroke="#a67c3d" stroke-width="1.2"/>
+<text x="140.0" y="262.0" font-size="12" fill="#8b1e1e" font-weight="bold" letter-spacing="1.5">WEEK 2</text>
+<text x="670.0" y="262.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">6:9</text>
+<text x="140.0" y="284.0" font-size="16" fill="#3b2f1e" font-style="italic">“hallowed be your name.”</text>
+<text x="140.0" y="306.0" font-size="14.5" fill="#2f4f7f" font-weight="bold">God's name is who He is, and He is holy.</text>
+<rect x="34" y="344" width="652" height="126" rx="8" fill="#fffdf7" stroke="#a67c3d" stroke-width="1.2"/>
+<circle cx="92" cy="407.0" r="30" fill="#fffdf7" stroke="#a67c3d" stroke-width="2"/>
+<path d="M74 417.0 L72 397.0 L83 407.0 L92 393.0 L101 407.0 L112 397.0 L110 417.0 Z" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.6" stroke-linejoin="round"/><circle cx="92" cy="411.0" r="3" fill="#8b1e1e"/>
+<text x="140.0" y="370.0" font-size="12" fill="#8b1e1e" font-weight="bold" letter-spacing="1.5">WEEK 3</text>
+<text x="670.0" y="370.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">6:10</text>
+<text x="140.0" y="392.0" font-size="16" fill="#3b2f1e" font-style="italic">“Your kingdom come, your will be done, on earth as it is in</text>
+<text x="140.0" y="412.0" font-size="16" fill="#3b2f1e" font-style="italic">heaven.”</text>
+<text x="140.0" y="434.0" font-size="14.5" fill="#2f4f7f" font-weight="bold">God is King, Jesus is coming back to reign, and God's way is</text>
+<text x="140.0" y="452.0" font-size="14.5" fill="#2f4f7f" font-weight="bold">best.</text>
+<rect x="34" y="482" width="652" height="96" rx="8" fill="#fffdf7" stroke="#a67c3d" stroke-width="1.2"/>
+<circle cx="92" cy="530.0" r="30" fill="#fffdf7" stroke="#a67c3d" stroke-width="2"/>
+<g transform="translate(92 530.0)"><ellipse cx="0" cy="0" rx="20" ry="10" fill="#d9a85f" stroke="#8d6c45" stroke-width="1.2"/><path d="M-10 -4 q4 6 0 10 M0 -6 q4 7 0 12 M10 -4 q4 6 0 10" fill="none" stroke="#8d6c45" stroke-width="1"/></g>
+<text x="140.0" y="508.0" font-size="12" fill="#8b1e1e" font-weight="bold" letter-spacing="1.5">WEEK 4</text>
+<text x="670.0" y="508.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">6:11</text>
+<text x="140.0" y="530.0" font-size="16" fill="#3b2f1e" font-style="italic">“Give us this day our daily bread,”</text>
+<text x="140.0" y="552.0" font-size="14.5" fill="#2f4f7f" font-weight="bold">God gives us what we need, one day at a time.</text>
+<rect x="34" y="590" width="652" height="126" rx="8" fill="#fffdf7" stroke="#a67c3d" stroke-width="1.2"/>
+<circle cx="92" cy="653.0" r="30" fill="#fffdf7" stroke="#a67c3d" stroke-width="2"/>
+<rect x="76" y="639.0" width="32" height="26" rx="2" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.2"/><path d="M81 646.0 H103" stroke="#6b5a3e" stroke-width="1"/><path d="M81 653.0 H103" stroke="#6b5a3e" stroke-width="1"/><path d="M81 660.0 H103" stroke="#6b5a3e" stroke-width="1"/><path d="M79 642.0 L105 662.0" stroke="#8b1e1e" stroke-width="2"/>
+<text x="140.0" y="616.0" font-size="12" fill="#8b1e1e" font-weight="bold" letter-spacing="1.5">WEEK 5</text>
+<text x="670.0" y="616.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">6:12</text>
+<text x="140.0" y="638.0" font-size="16" fill="#3b2f1e" font-style="italic">“and forgive us our debts, as we also have forgiven our</text>
+<text x="140.0" y="658.0" font-size="16" fill="#3b2f1e" font-style="italic">debtors.”</text>
+<text x="140.0" y="680.0" font-size="14.5" fill="#2f4f7f" font-weight="bold">God forgives us because Jesus paid what we owed, so we forgive</text>
+<text x="140.0" y="698.0" font-size="14.5" fill="#2f4f7f" font-weight="bold">each other.</text>
+<rect x="34" y="728" width="652" height="96" rx="8" fill="#fffdf7" stroke="#a67c3d" stroke-width="1.2"/>
+<circle cx="92" cy="776.0" r="30" fill="#fffdf7" stroke="#a67c3d" stroke-width="2"/>
+<path d="M70 786.0 Q86 784.0 88 774.0 T114 764.0" fill="none" stroke="#8d6c45" stroke-width="5" stroke-linecap="round"/><path d="M70 786.0 Q86 784.0 88 774.0 T114 764.0" fill="none" stroke="#e2cc9a" stroke-width="2" stroke-dasharray="3 3"/>
+<text x="140.0" y="754.0" font-size="12" fill="#8b1e1e" font-weight="bold" letter-spacing="1.5">WEEK 6</text>
+<text x="670.0" y="754.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">6:13</text>
+<text x="140.0" y="776.0" font-size="16" fill="#3b2f1e" font-style="italic">“And lead us not into temptation, but deliver us from evil.”</text>
+<text x="140.0" y="798.0" font-size="14.5" fill="#2f4f7f" font-weight="bold">God is stronger than the devil, and He keeps His children.</text>
+<rect x="34" y="836" width="652" height="96" rx="8" fill="#fffdf7" stroke="#a67c3d" stroke-width="1.2"/>
+<circle cx="92" cy="884.0" r="30" fill="#fffdf7" stroke="#a67c3d" stroke-width="2"/>
+<circle cx="92" cy="884.0" r="18" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.6"/><circle cx="92" cy="884.0" r="14" fill="none" stroke="#a67c3d" stroke-width="0.8"/><text x="92.0" y="888.0" font-size="10" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="0.5">AMEN</text>
+<text x="140.0" y="862.0" font-size="12" fill="#8b1e1e" font-weight="bold" letter-spacing="1.5">WEEK 7</text>
+<text x="670.0" y="862.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">2 Corinthians 1:20</text>
+<text x="140.0" y="884.0" font-size="16" fill="#3b2f1e" font-style="italic">Amen.</text>
+<text x="140.0" y="906.0" font-size="14.5" fill="#2f4f7f" font-weight="bold">Every promise God makes is “Yes” in Jesus.</text>
+<text x="360.0" y="970.0" font-size="18" fill="#3b2f1e" text-anchor="middle" font-weight="bold" font-style="italic">Pray the whole prayer together every day.</text>
+<text x="360.0" y="1002.0" font-size="14" fill="#6b5a3e" text-anchor="middle">In your own words, in four steps:</text>
+<text x="360.0" y="1026.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">Our Father  ·  Your will  ·  Today  ·  Forgive and keep</text>
+<text x="696.0" y="1062.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

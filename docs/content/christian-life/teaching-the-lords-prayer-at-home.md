@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 6:9-13; Deuteronomy 6:6-7"
 bible_references: ["Luke 11:1", "Deuteronomy 6:20-21", "Deuteronomy 8:3", "Luke 15:11-32", "Ezekiel 36:17-20", "John 6:22-35", "Acts 27:35", "Philippians 4:11", "Hebrews 4:15-16", "John 17:15", "1 Thessalonians 5:23-24", "Ephesians 3:20-21", "James 1:13", "Matthew 6:15", "1 Chronicles 29:11", "1 Corinthians 3:6", "Psalm 78:4", "Ephesians 6:4", "2 Timothy 3:15", "Luke 15:20", "John 1:12", "Ephesians 3:14-15", "Exodus 34:6", "Psalm 34:3", "2 Thessalonians 1:11-12", "Matthew 26:39", "Revelation 22:20", "Colossians 1:9-13", "Exodus 16:4-18", "Philippians 4:19", "Matthew 18:21-35", "Ephesians 4:32", "Colossians 1:14", "Matthew 4:1-11", "1 Corinthians 10:13", "2 Thessalonians 3:3", "2 Corinthians 1:20"]
 date_created: 2026-10-04
-date_modified: 2026-10-11
+date_modified: 2026-10-26
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -22,6 +22,8 @@ children and adults together.
 **In one sentence:** A household learns the Lord's Prayer by praying it together in the ordinary
 hours of the day, one line at a time, the way Deuteronomy 6 puts God's words into family life, so
 that children and parents come to know who the Father is and ask Him for what they need.
+
+[![A one-minute comic in 5 panels. Panel 1 (Luke 11:1): Jesus standing alone praying with folded hands on open hills, and three disciples a little way off watching Him. Caption: "Jesus was praying in a certain place. His disciples watched." Panel 2 (Luke 11:1): a disciple speaking to Jesus, two others behind him. Caption: "When He finished, one of them asked." A disciple says: "Lord, teach us to pray, as John taught his disciples." Panel 3 (Luke 11:2): Jesus teaching the disciples the first lines of the prayer. Caption: "He said to them, "When you pray, say:"". Jesus says: "Father, hallowed be your name. Your kingdom come." Panel 4 (Luke 11:3-4): Jesus going on with the prayer, the disciples listening. Caption: "Then what to ask for." Jesus says: "Give us each day our daily bread, and forgive us our sins,". Panel 5 (Deuteronomy 6:7; Matthew 6:9): a father, a mother and two children at home with a loaf, praying together; a child says the first line. Caption: "And at your table." A child says: "Our Father in heaven, hallowed be your name." Deuteronomy says: "You shall teach them diligently to your children". The point: The disciples asked to be taught after watching Jesus pray. Pray where your children can see you, and teach them the words He gave, one line at a time (Deuteronomy 6:7).](../assets/img/comics/teach-us-to-pray.svg)](../assets/img/comics/teach-us-to-pray.svg)
 
 The theology and the Greek behind each line are in [The Lord's Prayer](lords-prayer.md). This page
 is for using it at home.
@@ -118,6 +120,11 @@ Take one line a week, and pray the whole prayer together every day while you do.
 Seven weeks is a pace, and a family can stay on a line for longer. The point is that each line gets
 a week of attention before the next.
 
+The card below has each week's line, its picture and its sentence for children. Print it for the
+fridge.
+
+[![The Prayer in Seven Pictures, a card for the fridge: Week 1, a house with its door open: 'Our Father in heaven,' (6:9), 'God is our Father, because Jesus made us His children.'; Week 2, a mountain under a cloud: 'hallowed be your name.' (6:9), 'God's name is who He is, and He is holy.'; Week 3, a crown: 'Your kingdom come, your will be done, on earth as it is in heaven.' (6:10), 'God is King, Jesus is coming back to reign, and God's way is best.'; Week 4, a loaf: 'Give us this day our daily bread,' (6:11), 'God gives us what we need, one day at a time.'; Week 5, a ledger struck through: 'and forgive us our debts, as we also have forgiven our debtors.' (6:12), 'God forgives us because Jesus paid what we owed, so we forgive each other.'; Week 6, a path: 'And lead us not into temptation, but deliver us from evil.' (6:13), 'God is stronger than the devil, and He keeps His children.'; Week 7, a gold seal reading Amen: 'Amen.' (2 Corinthians 1:20), 'Every promise God makes is “Yes” in Jesus.'. Below: pray the whole prayer together every day, and in your own words in four steps: Our Father, Your will, Today, Forgive and keep.](../assets/img/prayer/seven-pictures.svg)](../assets/img/prayer/seven-pictures.svg)
+
 ### Different ages
 
 **Little children** learn the words by hearing them. Pray the prayer aloud every day; let them join in
@@ -135,6 +142,8 @@ no one" (James 1:13, ESV)? And does Matthew 6:15 mean God's forgiveness depends 
 Prayer](lords-prayer.md) answers both; read those sections with them and ask what they make of it.
 
 ## Week 1: Our Father in heaven
+
+![Week 1: a house with its door open](../assets/img/prayer/week-1.svg){ align=right width=72 }
 
 **What it shows about God.** *God is our Father, because Jesus made us His children.*
 
@@ -166,6 +175,8 @@ Salvation](../salvation/assurance-of-salvation.md).
 
 ## Week 2: Hallowed be your name
 
+![Week 2: a mountain under a cloud](../assets/img/prayer/week-2.svg){ align=right width=72 }
+
 **What it shows about God.** *God's name is who He is, and He is holy.*
 
 **Story.** God shows Moses His name (Exodus 34:5-7). "The LORD, the LORD, a God merciful and
@@ -190,6 +201,8 @@ you, and you in him" (2 Thessalonians 1:12, ESV).
 **Go deeper.** [Hallowed be your name](lords-prayer.md#hallowed-be-your-name).
 
 ## Week 3: Your kingdom come, your will be done
+
+![Week 3: a crown](../assets/img/prayer/week-3.svg){ align=right width=72 }
 
 **What it shows about God.** *God is King, Jesus is coming back to reign, and God's way is best.*
 
@@ -217,6 +230,8 @@ will in all spiritual wisdom and understanding" (Colossians 1:9, ESV), and thank
 Come](../last-things/your-kingdom-come.md), [The Rapture of the Church](../last-things/rapture.md).
 
 ## Week 4: Give us this day our daily bread
+
+![Week 4: a loaf](../assets/img/prayer/week-4.svg){ align=right width=72 }
 
 **What it shows about God.** *God gives us what we need, one day at a time.*
 
@@ -251,6 +266,8 @@ Humility](humility.md#daily-bread).
 
 ## Week 5: Forgive us our debts
 
+![Week 5: a ledger struck through](../assets/img/prayer/week-5.svg){ align=right width=72 }
+
 **What it shows about God.** *God forgives us because Jesus paid what we owed, so we forgive each
 other.*
 
@@ -282,6 +299,8 @@ themselves.
 Debts](forgiveness.md), [Hurt by the Church](hurt-by-the-church.md).
 
 ## Week 6: Lead us not into temptation, but deliver us from evil
+
+![Week 6: a path](../assets/img/prayer/week-6.svg){ align=right width=72 }
 
 **What it shows about God.** *God is stronger than the devil, and He keeps His children.*
 
@@ -316,6 +335,8 @@ the wilderness](fasting.md#forty-days-in-the-wilderness).
 
 ## Week 7: The whole prayer, and Amen
 
+![Week 7: a gold seal reading Amen](../assets/img/prayer/week-7.svg){ align=right width=72 }
+
 **What it shows about God.** *Every promise God makes is "Yes" in Jesus.*
 
 **The prayer.** This week, pray the whole prayer slowly each day and stop after each line for one
@@ -324,6 +345,13 @@ power and the glory, forever." The earliest manuscripts of Matthew do not have i
 *Didache* already prays a shorter form of it, and it is probably drawn from David's prayer in
 1 Chronicles 29:11 ([Why some Bibles end
 differently](lords-prayer.md#why-some-bibles-end-differently)).
+
+**In your own words.** Once the words are known, pray them in four steps, the same four that
+[Prayer as Communion](prayer-as-communion.md#be-transformed) gives. *Our Father:* say who He is and
+thank Him. *Your will:* ask for what He wants first. *Today:* ask for what you and others need
+today. *Forgive and keep:* ask Him to forgive you as you forgive others, and to keep you from
+temptation and from evil. The steps follow the prayer's own lines (Matthew 6:9-13), with thanks
+added as Paul adds it, "with thanksgiving" (Philippians 4:6, ESV).
 
 **Amen.** The word is Hebrew, <span dir="rtl">אָמֵן</span> (*amen*, ah-MANE, H543), and means "it is
 so, truly". Israel answered God's words with it (Deuteronomy 27:15-26). Paul says why we can say it: "all the promises of God find their Yes in

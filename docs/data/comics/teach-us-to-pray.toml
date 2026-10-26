@@ -1,0 +1,98 @@
+# One-minute comic for docs/content/christian-life/teaching-the-lords-prayer-at-home.md (also
+# embedded in lords-prayer.md under "Luke: the disciples asked").
+# Drawn by: python3 utils/build_comics.py teach-us-to-pray
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-10-26.
+#
+# The study in five beats: the disciples watch Jesus pray (Luke 11:1); one of them asks to be taught
+# (11:1); He gives the prayer's first lines (11:2) and its requests (11:3-4); and a household prays
+# it, as Deuteronomy 6:7 puts God's words into family life.
+# Luke records none of the words of Jesus' own prayer in 11:1, so panel 1 has no bubble: the beat is
+# the watching, which is the guide's first practice ("Let them watch"). Luke names neither the place
+# nor the disciple who asks, so the place is open hills and the asker is a generic disciple. Luke
+# gives no posture for this prayer; folded hands are drawing, not a claim.
+
+title = "Teach Us to Pray"
+subtitle = "Luke 11:1-4 and a household's table, in one minute"
+layout = [[300, 1], [300, 1, 1], [300, 1, 1]]
+note = "Luke gives none of the words Jesus prayed in 11:1, so the first panel has none. He names neither the place nor the disciple who asked."
+point = "The disciples asked to be taught after watching Jesus pray. Pray where your children can see you, and teach them the words He gave, one line at a time (Deuteronomy 6:7)."
+
+[[panel]]
+ref = "Luke 11:1"
+scene = "hills"
+sky = "day"
+caption = "Jesus was praying in a certain place. His disciples watched."
+caption_w = 300
+shows = "Jesus standing alone praying with folded hands on open hills, and three disciples a little way off watching Him"
+cast = [
+  { who = "jesus", x = 0.30, pose = "fold", face = "right", tag = "Jesus" },
+  { who = "disciple", n = 3, x = 0.66, x2 = 0.90, pose = ["stand", "fold", "stand"], face = "left", s = 0.9 },
+]
+spotlight = "jesus"
+
+[[panel]]
+ref = "Luke 11:1"
+scene = "hills"
+sky = "day"
+caption = "When He finished, one of them asked."
+caption_w = 200
+shows = "a disciple speaking to Jesus, two others behind him"
+cast = [
+  { who = "jesus", x = 0.24, pose = "open", face = "right" },
+  { id = "asker", who = "disciple", x = 0.66, pose = "open", face = "left" },
+  { who = "disciple", x = 0.86, pose = "stand", face = "left", tone = 1, s = 0.92 },
+]
+say = [
+  { by = "asker", name = "a disciple", text = "Lord, *teach us to pray*, as John taught his disciples.", source = "esv", at = [0.62, 0.30], w = 150 },
+]
+
+[[panel]]
+ref = "Luke 11:2"
+scene = "hills"
+sky = "day"
+caption = "He said to them, \"When you pray, say:\""
+caption_w = 200
+shows = "Jesus teaching the disciples the first lines of the prayer"
+cast = [
+  { who = "jesus", x = 0.30, pose = "open", face = "right" },
+  { who = "disciple", n = 2, x = 0.66, x2 = 0.86, pose = ["stand", "fold"], face = "left" },
+]
+say = [
+  { by = "jesus", name = "Jesus", text = "*Father*, hallowed be your name. Your kingdom come.", source = "esv", at = [0.38, 0.30], w = 150 },
+]
+
+[[panel]]
+ref = "Luke 11:3-4"
+scene = "hills"
+sky = "day"
+caption = "Then what to ask for."
+caption_w = 170
+shows = "Jesus going on with the prayer, the disciples listening"
+cast = [
+  { who = "jesus", x = 0.30, pose = "open", face = "right" },
+  { who = "disciple", n = 2, x = 0.66, x2 = 0.86, pose = ["fold", "stand"], face = "left" },
+]
+say = [
+  { by = "jesus", name = "Jesus", text = "Give us each day our *daily bread*, and forgive us our sins,", source = "esv", at = [0.68, 0.32], w = 150 },
+]
+
+[[panel]]
+ref = "Deuteronomy 6:7; Matthew 6:9"
+scene = "room"
+sky = "night"
+caption = "And at your table."
+caption_w = 150
+shows = "a father, a mother and two children at home with a loaf, praying together; a child says the first line"
+cast = [
+  { who = "man", x = 0.18, pose = "fold", face = "right", stance = "sit" },
+  { id = "child", who = "child", x = 0.42, pose = "fold", face = "right", stance = "sit" },
+  { who = "child", x = 0.62, pose = "fold", face = "left", stance = "sit", tone = 1 },
+  { who = "woman", x = 0.84, pose = "fold", face = "left", stance = "sit" },
+]
+props = [
+  { what = "loaf", x = 0.52, s = 0.8 },
+]
+say = [
+  { by = "child", name = "a child", text = "Our *Father* in heaven, hallowed be your name.", source = "esv", at = [0.30, 0.40], w = 115 },
+  { by = "deuteronomy", name = "Deuteronomy", from = [1.05, 1.0], style = "text", text = "You shall teach them diligently to your children", source = "esv", at = [0.79, 0.30], w = 105 },
+]

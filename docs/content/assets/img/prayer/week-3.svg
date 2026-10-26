@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="Week 3: a crown">
+<circle cx="36" cy="34" r="30" fill="#fffdf7" stroke="#a67c3d" stroke-width="2"/>
+<path d="M18 44 L16 24 L27 34 L36 20 L45 34 L56 24 L54 44 Z" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.6" stroke-linejoin="round"/><circle cx="36" cy="38" r="3" fill="#8b1e1e"/>
+<circle cx="58" cy="58" r="11" fill="#3b2f1e"/>
+<text x="58.0" y="62.5" font-size="13" fill="#faf6ec" text-anchor="middle" font-weight="bold">3</text>
+</svg>

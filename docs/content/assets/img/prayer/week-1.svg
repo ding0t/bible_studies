@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="Week 1: a house with its door open">
+<circle cx="36" cy="34" r="30" fill="#fffdf7" stroke="#a67c3d" stroke-width="2"/>
+<path d="M16 32 L36 14 L56 32" fill="none" stroke="#8d6c45" stroke-width="3" stroke-linejoin="round"/><rect x="21" y="30" width="30" height="20" fill="#f4e8cf" stroke="#8d6c45" stroke-width="1.6"/><rect x="31" y="37" width="10" height="13" fill="#e8c46a"/><path d="M31 37 L25 40 V52 L31 50 Z" fill="#c9a77a" stroke="#8d6c45" stroke-width="1"/>
+<circle cx="58" cy="58" r="11" fill="#3b2f1e"/>
+<text x="58.0" y="62.5" font-size="13" fill="#faf6ec" text-anchor="middle" font-weight="bold">1</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="Week 5: a ledger struck through">
+<circle cx="36" cy="34" r="30" fill="#fffdf7" stroke="#a67c3d" stroke-width="2"/>
+<rect x="20" y="20" width="32" height="26" rx="2" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.2"/><path d="M25 27 H47" stroke="#6b5a3e" stroke-width="1"/><path d="M25 34 H47" stroke="#6b5a3e" stroke-width="1"/><path d="M25 41 H47" stroke="#6b5a3e" stroke-width="1"/><path d="M23 23 L49 43" stroke="#8b1e1e" stroke-width="2"/>
+<circle cx="58" cy="58" r="11" fill="#3b2f1e"/>
+<text x="58.0" y="62.5" font-size="13" fill="#faf6ec" text-anchor="middle" font-weight="bold">5</text>
+</svg>

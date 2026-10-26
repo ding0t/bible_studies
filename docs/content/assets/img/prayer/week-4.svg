@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="Week 4: a loaf">
+<circle cx="36" cy="34" r="30" fill="#fffdf7" stroke="#a67c3d" stroke-width="2"/>
+<g transform="translate(36 34)"><ellipse cx="0" cy="0" rx="20" ry="10" fill="#d9a85f" stroke="#8d6c45" stroke-width="1.2"/><path d="M-10 -4 q4 6 0 10 M0 -6 q4 7 0 12 M10 -4 q4 6 0 10" fill="none" stroke="#8d6c45" stroke-width="1"/></g>
+<circle cx="58" cy="58" r="11" fill="#3b2f1e"/>
+<text x="58.0" y="62.5" font-size="13" fill="#faf6ec" text-anchor="middle" font-weight="bold">4</text>
+</svg>

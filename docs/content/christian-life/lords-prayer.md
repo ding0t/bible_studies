@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Matthew 6:9-13; Luke 11:2-4"
 bible_references: ["Matthew 6:5-15", "Matthew 6:25-34", "John 1:12", "Galatians 4:4-6", "Psalm 27:10", "Ecclesiastes 5:2", "Ezekiel 36:20-22", "1 Peter 3:15", "John 17:6", "John 12:28", "Matthew 4:1-4", "John 6:35", "Habakkuk 3:17-18", "Philippians 4:11-12", "Colossians 2:13-14", "Matthew 18:21-35", "Luke 23:34", "Hebrews 4:15", "John 17:15", "Luke 22:31-32", "1 Corinthians 10:13", "John 14:13", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Exodus 16:19-26", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Luke 17:21", "Matthew 25:34", "Acts 1:6-7", "Matthew 26:41", "Revelation 3:10", "Ephesians 4:32", "1 Peter 5:7"]
 date_created: 2026-07-22
-date_modified: 2026-10-21
+date_modified: 2026-10-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -74,7 +74,9 @@ something about who God is and what you may ask Him for.
 - **Do.** Pray it together. An early church manual, probably from about AD 100, told believers to
   pray it three times a day (*Didache* 8:3). Take one line a week at a family meal
   ([Teaching the Lord's Prayer at Home](teaching-the-lords-prayer-at-home.md)): what it shows
-  about God, and one thing to ask Him for in its words. And name someone you are withholding
+  about God, and one thing to ask Him for in its words. When the words are known, pray it in your
+  own words in four steps: *Our Father*, *Your will*, *Today*, *Forgive and keep* ([Prayer as
+  Communion](prayer-as-communion.md#be-transformed)). And name someone you are withholding
   forgiveness from; this prayer, prayed honestly, asks you to extend what you are asking to receive.
 
 ### Prayer
@@ -109,6 +111,8 @@ Father, thank You that we may call You Father, because You sent Your Son Jesus t
 > 2 And he said to them, "When you pray, say: "Father, hallowed be your name. Your kingdom come.
 > 3 Give us each day our daily bread,
 > 4 and forgive us our sins, for we ourselves forgive everyone who is indebted to us. And lead us not into temptation.""
+
+[![A one-minute comic in 5 panels. Panel 1 (Luke 11:1): Jesus standing alone praying with folded hands on open hills, and three disciples a little way off watching Him. Caption: "Jesus was praying in a certain place. His disciples watched." Panel 2 (Luke 11:1): a disciple speaking to Jesus, two others behind him. Caption: "When He finished, one of them asked." A disciple says: "Lord, teach us to pray, as John taught his disciples." Panel 3 (Luke 11:2): Jesus teaching the disciples the first lines of the prayer. Caption: "He said to them, "When you pray, say:"". Jesus says: "Father, hallowed be your name. Your kingdom come." Panel 4 (Luke 11:3-4): Jesus going on with the prayer, the disciples listening. Caption: "Then what to ask for." Jesus says: "Give us each day our daily bread, and forgive us our sins,". Panel 5 (Deuteronomy 6:7; Matthew 6:9): a father, a mother and two children at home with a loaf, praying together; a child says the first line. Caption: "And at your table." A child says: "Our Father in heaven, hallowed be your name." Deuteronomy says: "You shall teach them diligently to your children". The point: The disciples asked to be taught after watching Jesus pray. Pray where your children can see you, and teach them the words He gave, one line at a time (Deuteronomy 6:7).](../assets/img/comics/teach-us-to-pray.svg)](../assets/img/comics/teach-us-to-pray.svg)
 
 The disciples had just watched Jesus pray, and one of them asked for what John the Baptist had
 apparently already given his own followers: a distinctive, identifying prayer. Luke 5:33 already
@@ -157,6 +161,8 @@ Matthew's fuller form is the one most people know, so the sections below follow 
 > 11 Give us this day our daily bread,
 > 12 and forgive us our debts, as we also have forgiven our debtors.
 > 13 And lead us not into temptation, but deliver us from evil.
+
+[![A diagram of Matthew 6:9-13 (ESV) drawn as heaven above and earth below. In the heaven band: the address, 'Our Father in heaven' (6:9), then three petitions, each with the Greek 'your' (sou): 1 'hallowed be your name' (6:9), 2 'Your kingdom come' (6:10), 3 'your will be done' (6:10). A gold band joins heaven to earth with the words 'on earth as it is in heaven' (6:10), noted dashed as debated: whether the phrase governs all three petitions or only the third. In the earth band: three petitions spoken as 'us': 4 'Give us this day our daily bread' (6:11), with a loaf; 5 'and forgive us our debts, as we also have forgiven our debtors' (6:12), with a ledger struck through; 6 'And lead us not into temptation, but deliver us from evil' (6:13), with a path. A small figure kneels on the ground. A count: 'your' three times in 6:9-10, 'us', 'our' and 'we' eight times in 6:11-13. A dashed card: the doxology 'For yours is the kingdom and the power and the glory, forever. Amen' is not in the earliest manuscripts; the ESV prints it in a footnote. Below, 'He prayed it Himself': Matthew 6:10 and Matthew 26:42, 'My Father, if this cannot pass unless I drink it, your will be done', share the Greek words genēthētō to thelēma sou. The plate closes with the line 'The attitude of prayer is that we are God's.'](../assets/img/prayer/lords-prayer-shape.svg)](../assets/img/prayer/lords-prayer-shape.svg)
 
 ### Our Father in heaven
 

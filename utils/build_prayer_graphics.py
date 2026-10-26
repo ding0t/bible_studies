@@ -1,4 +1,5 @@
-"""Draw the three plates for christian-life/prayer-as-communion.md.
+"""Draw the prayer plates: three for christian-life/prayer-as-communion.md, and the household guide's
+card and week emblems.
 
     python3 utils/build_prayer_graphics.py
 
@@ -11,13 +12,16 @@ lords-prayer-shape is a relationship diagram of Matthew 6:9-13: the address and 
 petitions in heaven, "on earth as it is in heaven" as the hinge, three "us" petitions on earth, and
 Gethsemane's "your will be done" (Matthew 26:42) beside the prayer's, the same Greek words. Dashed are
 the doxology (a later addition the ESV footnotes) and the question of how far the hinge reaches.
+seven-pictures is a card for christian-life/teaching-the-lords-prayer-at-home.md: each week's line,
+its "what it shows about God" sentence and the picture of its story, ending on the four steps that
+Prayer as Communion gives; week-1 to week-7 are the pictures alone, for the head of each week.
 """
 
 import math
 from pathlib import Path
 
 from lib.larkin import (W, PAPER, INK, MUTED, CARD, RED, GOLD, GOLD_EDGE, GOLD_TINT, BLUE,
-                        BLUE_TINT, EARTH_TINT, text, svg_open, heading, banner, arrow_head, card,
+                        BLUE_TINT, EARTH_TINT, CLOUD, text, svg_open, heading, banner, arrow_head, card,
                         credit, esc)
 
 OUT = Path(__file__).resolve().parent.parent / "docs" / "content" / "assets" / "img" / "prayer"
@@ -558,12 +562,122 @@ def lords_prayer_shape():
     return "\n".join(out)
 
 
+def home_glyph(x, y):
+    """A house with its door open: the son coming home (Luke 15:20)."""
+    return (f'<path d="M{x - 20} {y - 2} L{x} {y - 20} L{x + 20} {y - 2}" fill="none" stroke="{BRICK_DARK}" stroke-width="3" '
+            f'stroke-linejoin="round"/><rect x="{x - 15}" y="{y - 4}" width="30" height="20" fill="{ROOM}" stroke="{BRICK_DARK}" '
+            f'stroke-width="1.6"/><rect x="{x - 5}" y="{y + 3}" width="10" height="13" fill="{GOLD}"/>'
+            f'<path d="M{x - 5} {y + 3} L{x - 11} {y + 6} V{y + 18} L{x - 5} {y + 16} Z" fill="{BRICK}" stroke="{BRICK_DARK}" stroke-width="1"/>')
+
+
+def sinai_glyph(x, y):
+    """The mountain and the cloud: the LORD proclaiming His name to Moses (Exodus 34:5-7)."""
+    return (f'<path d="M{x - 22} {y + 14} L{x - 4} {y - 10} L{x + 4} {y - 2} L{x + 10} {y - 8} L{x + 22} {y + 14} Z" '
+            f'fill="{RUIN}" stroke="{BRICK_DARK}" stroke-width="1.2"/>'
+            f'<ellipse cx="{x - 2}" cy="{y - 14}" rx="15" ry="6" fill="{CLOUD}" stroke="{GOLD_EDGE}" stroke-width="1.2"/>'
+            f'<ellipse cx="{x + 8}" cy="{y - 18}" rx="9" ry="5" fill="{CLOUD}" stroke="{GOLD_EDGE}" stroke-width="1.2"/>')
+
+
+def crown_glyph(x, y):
+    """A crown: God is King, and Jesus is coming back to reign."""
+    return (f'<path d="M{x - 18} {y + 10} L{x - 20} {y - 10} L{x - 9} {y} L{x} {y - 14} L{x + 9} {y} L{x + 20} {y - 10} '
+            f'L{x + 18} {y + 10} Z" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1.6" stroke-linejoin="round"/>'
+            f'<circle cx="{x}" cy="{y + 4}" r="3" fill="{RED}"/>')
+
+
+def amen_glyph(x, y):
+    """A seal reading AMEN: "it is so", the Yes of 2 Corinthians 1:20."""
+    return (f'<circle cx="{x}" cy="{y}" r="18" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="1.6"/>'
+            f'<circle cx="{x}" cy="{y}" r="14" fill="none" stroke="{GOLD_EDGE}" stroke-width="0.8"/>'
+            + text(x, y + 4, "AMEN", 10, "middle", "bold", fill=INK, spacing="0.5"))
+
+
+# The seven weeks of christian-life/teaching-the-lords-prayer-at-home.md: each line of Matthew 6:9-13
+# (ESV), the week's "what it shows about God" sentence as the guide words it, and the picture of the
+# week's story. Week 7 has no line of its own; it prays the whole prayer and its Amen.
+WEEKS = [
+    ("Our Father in heaven,", "6:9", "God is our Father, because Jesus made us His children.", home_glyph,
+     "a house with its door open"),
+    ("hallowed be your name.", "6:9", "God's name is who He is, and He is holy.", sinai_glyph,
+     "a mountain under a cloud"),
+    ("Your kingdom come, your will be done, on earth as it is in heaven.", "6:10",
+     "God is King, Jesus is coming back to reign, and God's way is best.", crown_glyph, "a crown"),
+    ("Give us this day our daily bread,", "6:11", "God gives us what we need, one day at a time.", loaf_glyph,
+     "a loaf"),
+    ("and forgive us our debts, as we also have forgiven our debtors.", "6:12",
+     "God forgives us because Jesus paid what we owed, so we forgive each other.", ledger_glyph,
+     "a ledger struck through"),
+    ("And lead us not into temptation, but deliver us from evil.", "6:13",
+     "God is stronger than the devil, and He keeps His children.", path_glyph, "a path"),
+    ("Amen.", "2 Corinthians 1:20", "Every promise God makes is \u201cYes\u201d in Jesus.", amen_glyph,
+     "a gold seal reading Amen"),
+]
+
+
+def emblem(n, x, y):
+    _, _, _, glyph, _ = WEEKS[n - 1]
+    return [f'<circle cx="{x}" cy="{y}" r="30" fill="{CARD}" stroke="{GOLD_EDGE}" stroke-width="2"/>', glyph(x, y)]
+
+
+def week_emblem(n):
+    """One week's picture alone, for the head of its section in the guide."""
+    _, _, _, _, what = WEEKS[n - 1]
+    return "\n".join([
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" role="img" aria-label="Week {n}: {esc(what)}">',
+        *emblem(n, 36, 34),
+        f'<circle cx="58" cy="58" r="11" fill="{INK}"/>',
+        text(58, 62.5, str(n), 13, "middle", "bold", fill=PAPER),
+        "</svg>"])
+
+
+def seven_pictures():
+    top = 128
+    rows = []
+    for i, (line, ref, shows, _, _) in enumerate(WEEKS, 1):
+        quote = wrap(f"\u201c{line}\u201d" if i < len(WEEKS) else line, 60)
+        says = wrap(shows, 64)
+        rows.append((quote, says, max(96, 50 + 20 * len(quote) + 18 * len(says))))
+    h = top + sum(r[2] + 12 for r in rows) + 140
+    desc = ("A card for the fridge: the Lord's Prayer (Matthew 6:9-13, ESV) in seven pictures, one for each "
+            "week of the household guide. " + " ".join(
+                f"Week {i}: {what}, beside '{line}' ({ref}) and '{shows}'" for i, (line, ref, shows, _, what)
+                in enumerate(WEEKS, 1)) +
+            " Below: pray the whole prayer together every day, and in your own words in four steps: Our Father, "
+            "Your will, Today, Forgive and keep.")
+    out = svg_open(h, "The Prayer in Seven Pictures", desc)
+    out += heading("The Prayer in Seven Pictures", "Matthew 6:9-13 · one line a week · for the fridge")
+    y = top
+    for i, ((quote, says, rh), (_, ref, _, _, _)) in enumerate(zip(rows, WEEKS), 1):
+        out.append(f'<rect x="34" y="{y}" width="652" height="{rh}" rx="8" fill="{CARD}" stroke="{GOLD_EDGE}" stroke-width="1.2"/>')
+        out += emblem(i, 92, y + rh / 2)
+        out.append(text(140, y + 26, f"WEEK {i}", 12, weight="bold", fill=RED, spacing="1.5"))
+        out.append(text(670, y + 26, ref, 12, "end", italic=True, fill=MUTED))
+        ty = y + 48
+        for r in quote:
+            out.append(text(140, ty, r, 16, italic=True))
+            ty += 20
+        for r in says:
+            out.append(text(140, ty + 2, r, 14.5, weight="bold", fill=BLUE))
+            ty += 18
+        y += rh + 12
+    fy = y + 16
+    out.append(text(W / 2, fy + 10, "Pray the whole prayer together every day.", 18, "middle", "bold", italic=True))
+    out.append(text(W / 2, fy + 42, "In your own words, in four steps:", 14, "middle", fill=MUTED))
+    out.append(text(W / 2, fy + 66, "Our Father  ·  Your will  ·  Today  ·  Forgive and keep", 16, "middle", "bold"))
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     for name, fn in (("daniel-at-the-window", daniel_at_the_window), ("ephesians-3-prayer", ephesians_3_prayer),
-                     ("lords-prayer-shape", lords_prayer_shape)):
+                     ("lords-prayer-shape", lords_prayer_shape), ("seven-pictures", seven_pictures)):
         (OUT / f"{name}.svg").write_text(fn() + "\n", encoding="utf-8")
         print(f"wrote {name}.svg")
+    for n in range(1, len(WEEKS) + 1):
+        (OUT / f"week-{n}.svg").write_text(week_emblem(n) + "\n", encoding="utf-8")
+    print(f"wrote week-1..{len(WEEKS)}.svg")
 
 
 if __name__ == "__main__":
