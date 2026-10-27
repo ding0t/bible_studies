@@ -47,8 +47,11 @@ def _prose_lines(lines: list[str]) -> list[str]:
 
     Tables, lists and block quotes are already visually broken -- a long reference table is not a
     wall -- and fenced code is not prose at all. Same rule as validate-content.js Check 21.
+
+    A list item's wrapped, indented continuation lines belong to the item. Counting them as prose
+    made a reworded Study outline bullet read as a changed sentence in prose_identity.
     """
-    out, in_fence = [], False
+    out, in_fence, in_list = [], False, False
     for line in lines:
         s = line.strip()
         if s.startswith("```"):
@@ -56,10 +59,46 @@ def _prose_lines(lines: list[str]) -> list[str]:
             continue
         if in_fence or not s:
             continue
-        if s.startswith("|") or s.startswith(">") or _LIST_ITEM.match(s):
+        if _LIST_ITEM.match(s):
+            in_list = True
+            continue
+        if in_list and line[:1].isspace():
+            continue
+        in_list = False
+        if s.startswith("|") or s.startswith(">"):
             continue
         out.append(s)
     return out
+
+
+def _list_items(lines: list[str]) -> list[str]:
+    """Every list item outside the Study outline, its wrapped lines joined into one string.
+
+    Lists are not prose for measuring a wall, but they are sentences: a Key Takeaways bullet or a
+    discussion question changed inside a "structure only" pass is exactly what prose_identity
+    exists to catch, and it used to skip them. Joining the wrapped lines means a re-wrap never
+    reads as an edit. The Study outline is left out because writing it is part of the pass
+    (structural-readability.md rule 10).
+    """
+    items, current, in_fence, in_outline = [], None, False, False
+    for line in lines:
+        s = line.strip()
+        if s.startswith("```"):
+            in_fence = not in_fence
+        heading = _HEADING.match(s)
+        if heading and len(heading.group(1)) == 2:
+            in_outline = heading.group(2).strip().lower() == "study outline"
+        if in_fence or heading or in_outline:
+            current = None
+            continue
+        if _LIST_ITEM.match(s):
+            current = [s]
+            items.append(current)
+        elif current is not None and s and line[:1].isspace():
+            current.append(s)
+        elif s:
+            current = None
+    return [" ".join(i) for i in items]
 
 
 def _resolve(path: str) -> pathlib.Path:
@@ -127,8 +166,9 @@ def _prose_diff(before: str, after: str) -> dict:
         # refresh_frontmatter_provenance.py rewrites on every run -- look like a deleted sentence,
         # which is the one finding this check treats as always a defect. A verifier that cries
         # wolf on a routine edit is a verifier people stop reading.
-        body = _strip_frontmatter(text)
-        return _prose_lines([l for l in body.splitlines() if not _HEADING.match(l.strip())])
+        lines = _strip_frontmatter(text).splitlines()
+        return (_prose_lines([l for l in lines if not _HEADING.match(l.strip())])
+                + _list_items(lines))
 
     from collections import Counter
     old_c, new_c = Counter(prose_set(before)), Counter(prose_set(after))

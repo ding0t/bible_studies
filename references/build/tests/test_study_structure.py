@@ -37,6 +37,27 @@ def test_tables_lists_quotes_and_code_are_not_prose():
     assert ss._prose_lines(lines) == ["Real prose here.", "More real prose."]
 
 
+def test_a_list_items_wrapped_lines_are_not_prose():
+    lines = ["- an outline bullet whose annotation", "  wraps onto a second line.", "",
+             "Real prose here."]
+    assert ss._prose_lines(lines) == ["Real prose here."]
+
+
+def test_a_reworded_outline_bullet_is_clean_and_a_reworded_takeaway_is_not():
+    before = ("## Key Takeaways\n\n- **Think.** God keeps His\n  people.\n\n"
+              "## Study outline\n\n- [One](#one). The first\n  part.\n\n## One\n\nProse.\n")
+    rewrapped = before.replace("God keeps His\n  people.", "God keeps\n  His people.")
+    assert ss._prose_diff(before, rewrapped)["clean"] is True
+
+    outline_edit = before.replace("The first\n  part.", "The first part,\n  renamed.")
+    assert ss._prose_diff(before, outline_edit)["clean"] is True
+
+    takeaway_edit = before.replace("God keeps His\n  people.", "God keeps His\n  church.")
+    result = ss._prose_diff(before, takeaway_edit)
+    assert result["clean"] is False
+    assert result["removed"] == ["- **Think.** God keeps His people."]
+
+
 def test_frontmatter_is_not_prose():
     body = ss._strip_frontmatter("---\ntitle: x\ndraft: true\n---\n\nThe body.\n")
     assert "title" not in body

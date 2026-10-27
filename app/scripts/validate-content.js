@@ -831,6 +831,8 @@ function validateFile(filePath) {
     // Recently Updated card grids, the commentary index), so they are lists, not an author's
     // prose, and a card's indented description line would otherwise count as a paragraph.
     let inAuto = false;
+    // A list item's wrapped, indented lines belong to the item, as in study_structure.py.
+    let inList = false;
 
     const flush = () => {
       if (heading && words > 600) {
@@ -861,12 +863,16 @@ function validateFile(filePath) {
         heading = admonition ? admonition[1] : trimmed.replace(/^#+\s*/, '');
         headingLine = i + 1;
         words = 0;
+        inList = false;
         continue;
       }
       if (!heading) continue;
       if (trimmed.startsWith('|') || trimmed.startsWith('>')) continue;
       if (/^\[?!\[/.test(trimmed)) continue; // image alt text, as in Check 20
-      if (/^([-*+]\s|\d+\.\s)/.test(trimmed)) continue;
+      if (/^([-*+]\s|\d+\.\s)/.test(trimmed)) { inList = true; continue; }
+      if (!trimmed) continue;
+      if (inList && /^\s/.test(line)) continue;
+      inList = false;
       words += trimmed.split(/\s+/).filter(Boolean).length;
     }
     flush();
