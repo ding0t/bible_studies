@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 3:14-21"
 bible_references: ["Ephesians 3:14-21", "Daniel 6:10-11", "Daniel 9:2-23", "Daniel 2:17-23", "Romans 8:15-16", "Galatians 4:6-7", "Mark 3:14", "John 17:3", "John 17:20-21", "Psalm 42:1-2", "Psalm 16:11", "Matthew 6:8-13", "Luke 22:42", "Exodus 16:4", "Exodus 16:19-21", "Deuteronomy 8:3", "Matthew 4:4", "John 4:34", "Hebrews 10:19-22", "Hebrews 4:16", "Hebrews 7:25", "Hebrews 5:7", "Philippians 4:6-7", "Romans 12:1-2", "1 John 5:14", "Psalm 37:4", "John 15:7", "Psalm 66:18-19", "James 4:2-3", "Mark 1:35-37", "Luke 5:16", "Luke 6:12", "Matthew 14:23", "Daniel 6:3-5", "Daniel 6:22", "John 17:5", "2 Kings 25:9", "1 Kings 8:10-11", "Colossians 2:7", "1 Kings 8:48-49", "Jeremiah 29:10-13", "Jeremiah 25:11-12", "Ephesians 2:21-22", "Colossians 1:19", "Colossians 2:9-10", "Ephesians 3:1", "Ephesians 4:1", "Philippians 2:10", "Exodus 32:11-14", "Nehemiah 2:4-5", "Acts 4:24-31", "Ephesians 2:18", "John 16:23-24", "Acts 7:59", "2 Corinthians 12:8-9", "Romans 8:26-27", "Matthew 6:5-6", "Acts 1:14", "Acts 12:5", "1 Timothy 2:1-2", "1 Timothy 2:5-6", "Colossians 4:2", "1 Thessalonians 5:16-18", "Luke 11:5-13", "Luke 18:1-8", "Deuteronomy 6:6-7"]
 date_created: 2024-10-06
-date_modified: 2026-10-26
+date_modified: 2026-10-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -102,12 +102,10 @@ You want. In Jesus' name. Amen.
 This site's first notes on prayer opened with one line: *the attitude of prayer is that we are
 God's.* The prayer Jesus taught is built that way.
 
-[![A diagram of Matthew 6:9-13 (ESV) drawn as heaven above and earth below. In the heaven band: the address, 'Our Father in heaven' (6:9), then three petitions, each with the Greek 'your' (sou): 1 'hallowed be your name' (6:9), 2 'Your kingdom come' (6:10), 3 'your will be done' (6:10). A gold band joins heaven to earth with the words 'on earth as it is in heaven' (6:10), noted dashed as debated: whether the phrase governs all three petitions or only the third. In the earth band: three petitions spoken as 'us': 4 'Give us this day our daily bread' (6:11), with a loaf; 5 'and forgive us our debts, as we also have forgiven our debtors' (6:12), with a ledger struck through; 6 'And lead us not into temptation, but deliver us from evil' (6:13), with a path. A small figure kneels on the ground. A count: 'your' three times in 6:9-10, 'us', 'our' and 'we' eight times in 6:11-13. A dashed card: the doxology 'For yours is the kingdom and the power and the glory, forever. Amen' is not in the earliest manuscripts; the ESV prints it in a footnote. Below, 'He prayed it Himself': Matthew 6:10 and Matthew 26:42, 'My Father, if this cannot pass unless I drink it, your will be done', share the Greek words genēthētō to thelēma sou. The plate closes with the line 'The attitude of prayer is that we are God's.'](../assets/img/prayer/lords-prayer-shape.svg)](../assets/img/prayer/lords-prayer-shape.svg)
-
 Three lines about God and His purposes come before any request for yourself (Matthew 6:9-10). By the time you ask for bread you
 have already called Him Father, honoured His name and handed over your will. Prayer prayed this way
 re-orders the one praying before it brings a single need. [The Lord's
-Prayer](lords-prayer.md) works through every line.
+Prayer](lords-prayer.md#the-prayer-line-by-line) draws that shape and works through every line.
 
 ## Our Father: you come as His child
 

@@ -497,3 +497,36 @@ read_2026-10-04:
     unchanged: its ### grouping still matches.
   verify_against_HEAD: "clean: true -- no sentence changed (removed [], added_unexpected [])"
   validate: no warnings for this file
+
+review_2026-10-27:
+  scope: >
+    Full review-bible-study pass, focused on what changed since review_2026-10-04b (comic, the
+    lords-prayer-shape plate, links to the household guide / Names of God / prayer-as-communion,
+    facet-labelled questions) plus a re-check of every ESV quotation. Also its fit as week 2 of
+    series/learning-to-pray.md and its overlap with teaching-the-lords-prayer-at-home.md.
+  checked: >
+    ESV (study-notes.db) verbatim for every quotation in the file, including Deut 6:7 in the comic
+    alt text; WEB/ASV/YLT doxology and Luke 11:2 claims; NASB/NIV/CSB/WEB split on tou ponērou;
+    SBLGNT forms of ponēros at Matt 13:19, 38; 1 John 2:13-14; 3:12; 5:18-19; genēthētō to thelēma
+    sou shared by Matt 6:10 and 26:42; plate counts (sou x3 in 6:9-10; us/our/we x8 in 6:11-13);
+    G1967=2, G945=1, G932=162 (verify_claims --evidence). All 31 internal links and anchors resolve
+    to draft: false pages. NIV Biblical Theology note on Matt 6:11, 6:13 confirms.
+  fixed:
+    - "Luke 11:4 block quote closed with two quote marks; ESV has one."
+    - "tou ponērou: 'the same phrase' -> 'the same word with the article' (only Matt 13:38 and 1 John 3:12 have the genitive)."
+    - "Pronunciation added for opheilonti; Hebrew script, pronunciation and H2706 added for lechem chuqqi."
+    - "Be Transformed Attitude and Do bullets given their verses (Matt 6:6; 6:12)."
+    - "Q1 gives ἐπιούσιος beside the transliteration; Q6 rewritten from a yes/no question (discussion-questions.md rule)."
+    - "Luke 17:21 removed from bible_references (dropped from the prose 2026-10-04)."
+  open:
+    - "Matt 4:4 quotes Deut 8:3, said of the manna; the daily-bread section cites both and never joins them (review_gaps quotation gap)."
+    - "Q3 'Which line ... could He never pray for Himself?' still presumes one answer; Matt 4:1 is a second candidate."
+    - "Same lords-prayer-shape plate appears in week 1 (prayer-as-communion) and week 2."
+    - "No forward pointer to how-god-answers-prayer.md (week 3)."
+    - "Word count 4,405 against a 4,400 budget after these fixes (Check 23)."
+review_2026-10-27_applied:
+  - "Deut 8:3 named as the source of Matt 4:4 (said of the manna)."
+  - "Q3 re-aimed at Gethsemane: which lines did He pray, which could He never pray."
+  - "Q4 relabelled The hard part (was 'Already and not yet', not a facet label)."
+  - "Do bullet trimmed to one action (a line a week); drops the four-steps link whose step count disagreed with prayer-as-communion's six-step pattern."
+  - "lords-prayer-shape.svg removed from prayer-as-communion (week 1); it lives here, week 1 links #the-prayer-line-by-line."

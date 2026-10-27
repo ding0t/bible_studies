@@ -6,9 +6,9 @@ tags: ["lords-prayer", "sermon-on-the-mount", "matthew", "luke", "jesus-teaching
 questions: ["How did Jesus teach us to pray?", "What does each line of the Lord's Prayer mean?"]
 draft: false
 primary_passage: "Matthew 6:9-13; Luke 11:2-4"
-bible_references: ["Matthew 6:5-15", "Matthew 6:25-34", "John 1:12", "Galatians 4:4-6", "Psalm 27:10", "Ecclesiastes 5:2", "Ezekiel 36:20-22", "1 Peter 3:15", "John 17:6", "John 12:28", "Matthew 4:1-4", "John 6:35", "Habakkuk 3:17-18", "Philippians 4:11-12", "Colossians 2:13-14", "Matthew 18:21-35", "Luke 23:34", "Hebrews 4:15", "John 17:15", "Luke 22:31-32", "1 Corinthians 10:13", "John 14:13", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Exodus 16:19-26", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Luke 17:21", "Matthew 25:34", "Acts 1:6-7", "Matthew 26:41", "Revelation 3:10", "Ephesians 4:32", "1 Peter 5:7"]
+bible_references: ["Matthew 6:5-15", "Matthew 6:25-34", "John 1:12", "Galatians 4:4-6", "Psalm 27:10", "Ecclesiastes 5:2", "Ezekiel 36:20-22", "1 Peter 3:15", "John 17:6", "John 12:28", "Matthew 4:1-4", "John 6:35", "Habakkuk 3:17-18", "Philippians 4:11-12", "Colossians 2:13-14", "Matthew 18:21-35", "Luke 23:34", "Hebrews 4:15", "John 17:15", "Luke 22:31-32", "1 Corinthians 10:13", "John 14:13", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Exodus 16:19-26", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Matthew 25:34", "Acts 1:6-7", "Matthew 26:41", "Revelation 3:10", "Ephesians 4:32", "1 Peter 5:7"]
 date_created: 2026-07-22
-date_modified: 2026-10-26
+date_modified: 2026-10-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -70,14 +70,11 @@ something about who God is and what you may ask Him for.
 - **Attitude.** Pray it as "us". Every first-person word in the prayer is plural, so even alone you
   are praying for your household, your church and the brother who wronged you. And let go of
   needing an audience or a word count: this prayer is short, and it is prayed to a Father who sees
-  in secret.
+  in secret (Matthew 6:6).
 - **Do.** Pray it together. An early church manual, probably from about AD 100, told believers to
   pray it three times a day (*Didache* 8:3). Take one line a week at a family meal
   ([Teaching the Lord's Prayer at Home](teaching-the-lords-prayer-at-home.md)): what it shows
-  about God, and one thing to ask Him for in its words. When the words are known, pray it in your
-  own words in four steps: *Our Father*, *Your will*, *Today*, *Forgive and keep* ([Prayer as
-  Communion](prayer-as-communion.md#be-transformed)). And name someone you are withholding
-  forgiveness from; this prayer, prayed honestly, asks you to extend what you are asking to receive.
+  about God, and one thing to ask Him for in its words.
 
 ### Prayer
 
@@ -87,15 +84,15 @@ Father, thank You that we may call You Father, because You sent Your Son Jesus t
 
 - **[Where Jesus taught it](#where-jesus-taught-it)** — Luke's occasion, Matthew's setting, and
   what each Gospel does with the prayer.
-- **The prayer, line by line** — each petition, the word behind it, and a line to pray it with:
+- **[The prayer, line by line](#the-prayer-line-by-line)** — each petition, the word behind it, and a line to pray it with:
   [Our Father in heaven](#our-father-in-heaven) ·
   [Hallowed be your name](#hallowed-be-your-name) ·
   [Your kingdom come, your will be done](#your-kingdom-come-your-will-be-done) ·
   [Our daily bread](#give-us-this-day-our-daily-bread) ·
   [Forgive us our debts](#forgive-us-our-debts) ·
   [Lead us not into temptation](#lead-us-not-into-temptation-but-deliver-us-from-evil).
-- **[What the prayer teaches](#what-the-prayer-teaches)** — the shape underneath the words, and
-  where else Scripture teaches it.
+- **[What the prayer teaches](#what-the-prayer-teaches)** — the shape underneath the words,
+  where else Scripture teaches it, and praying it in Jesus' name.
 - **[Annex: the two Gospel accounts](#annex-the-two-gospel-accounts)** —
   [why some Bibles end differently](#why-some-bibles-end-differently) (the doxology and Luke's
   shorter text), and [one occasion or two?](#one-occasion-or-two)
@@ -110,7 +107,7 @@ Father, thank You that we may call You Father, because You sent Your Son Jesus t
 > him, "Lord, teach us to pray, as John taught his disciples."
 > 2 And he said to them, "When you pray, say: "Father, hallowed be your name. Your kingdom come.
 > 3 Give us each day our daily bread,
-> 4 and forgive us our sins, for we ourselves forgive everyone who is indebted to us. And lead us not into temptation.""
+> 4 and forgive us our sins, for we ourselves forgive everyone who is indebted to us. And lead us not into temptation."
 
 [![A one-minute comic in 5 panels. Panel 1 (Luke 11:1): Jesus standing alone praying with folded hands on open hills, and three disciples a little way off watching Him. Caption: "Jesus was praying in a certain place. His disciples watched." Panel 2 (Luke 11:1): a disciple speaking to Jesus, two others behind him. Caption: "When He finished, one of them asked." A disciple says: "Lord, teach us to pray, as John taught his disciples." Panel 3 (Luke 11:2): Jesus teaching the disciples the first lines of the prayer. Caption: "He said to them, "When you pray, say:"". Jesus says: "Father, hallowed be your name. Your kingdom come." Panel 4 (Luke 11:3-4): Jesus going on with the prayer, the disciples listening. Caption: "Then what to ask for." Jesus says: "Give us each day our daily bread, and forgive us our sins,". Panel 5 (Deuteronomy 6:7; Matthew 6:9): a father, a mother and two children at home with a loaf, praying together; a child says the first line. Caption: "And at your table." A child says: "Our Father in heaven, hallowed be your name." Deuteronomy says: "You shall teach them diligently to your children". The point: The disciples asked to be taught after watching Jesus pray. Pray where your children can see you, and teach them the words He gave, one line at a time (Deuteronomy 6:7).](../assets/img/comics/teach-us-to-pray.svg)](../assets/img/comics/teach-us-to-pray.svg)
 
@@ -269,8 +266,8 @@ The live options are "daily", "for today", "for the coming day", or "necessary f
 of them ask God for today's or tomorrow's sufficiency, not a stockpile. The Old Testament background
 fits that shape. Manna could not be hoarded beyond its day, except the day before the Sabbath
 (Exodus 16:4, 19-26): a built-in, day-by-day dependence. And Proverbs 30:8's prayer, "feed me with
-the food that is needful for me" (literally "the bread of my portion", Hebrew *lechem chuqqi*, TWOT
-root 728a), asks for enough, without either poverty or riches. This shows that God wants to be asked
+the food that is needful for me" (literally "the bread of my portion", Hebrew <span dir="rtl">לֶחֶם חֻקִּי</span> *lechem chuqqi*, LEH-khem
+khook-KEE, H2706, TWOT root 728a), asks for enough, without either poverty or riches. This shows that God wants to be asked
 again tomorrow, and that He means to provide.
 
 #### The Father who feeds, in plenty and in want
@@ -279,7 +276,7 @@ The same sermon goes on to read like this petition preached. A few verses on, Je
 anxious, saying, 'What shall we eat?'… your heavenly Father knows that you need them all" (Matthew
 6:31-32, ESV). The birds and the lilies of Matthew 6:25-30 make the same point.
 And Jesus lived it first: hungry after forty days, He answered the tempter that "Man shall not live
-by bread alone, but by every word that comes from the mouth of God" (Matthew 4:4, ESV). The Father
+by bread alone, but by every word that comes from the mouth of God" (Matthew 4:4, ESV), quoting what Moses said of the manna (Deuteronomy 8:3). The Father
 who feeds the body also gives the word it lives by. In John 6 Jesus feeds five
 thousand and the next day says, "I am the bread of life" (John 6:35, ESV); [Bread of
 Life](../jesus/bread-of-life-feeding-the-multitudes.md#daily-bread) traces the line from the manna
@@ -300,7 +297,7 @@ trust You with tomorrow."*
 
 **ὀφειλήματα** (*opheilēmata*, oh-fay-LAY-mah-tah, "debts," G3783). Matthew has Jesus ask forgiveness
 for "debts", financial language used for sin. Luke's parallel uses "sins" (**ἁμαρτίας**, *hamartias*,
-hah-mar-TEE-as, G266) for what God forgives, but keeps the debt word (*opheilonti*, G3784, "indebted")
+hah-mar-TEE-as, G266) for what God forgives, but keeps the debt word (*opheilonti*, oh-fay-LON-tee, G3784, "indebted")
 for what we forgive others. Israel practised an actual sabbatical-year debt release (*shemittah*,
 Deuteronomy 15:1-2), a periodic, covenant-mandated cancellation of debts that could not otherwise be
 repaid, so the prayer borrows a category its hearers lived under.
@@ -353,7 +350,7 @@ not into" as a Semitic idiom for "do not let us fall into". Either reading keeps
 God is never the source of your temptation, and He is the one you ask to keep you out of it.
 
 **τοῦ πονηροῦ** (*tou ponērou*, too pon-ay-ROO, "evil / the evil one," G4190). The Greek can mean
-"evil" in general or "the evil one", Satan. Elsewhere the same phrase plainly denotes Satan (Matthew
+"evil" in general or "the evil one", Satan. Elsewhere the same word with the article plainly denotes Satan (Matthew
 13:19, 38; 1 John 2:13-14; 3:12; 5:18-19), which inclines many interpreters toward "deliver us from
 the evil one". English translations split on it (the ESV and NASB have "evil"; the NIV, CSB and WEB
 "the evil one"), and either is grammatically defensible. Either way, the prayer ends by admitting you
@@ -440,25 +437,25 @@ Either way, read each account first in its own setting before blending the two.
 
 ## Discussion questions
 
-1. **The language.** The Greek word behind "daily" (*epiousios*) occurs only in this prayer
+1. **The language.** The Greek word behind "daily", ἐπιούσιος (*epiousios*), occurs only in this prayer
    (Matthew 6:11; Luke 11:3), and every proposed meaning asks for enough for today or tomorrow, like
    the manna Moses said to "leave any of it over till the morning" (Exodus 16:19). What would change
    in your own asking if you prayed for "enough for today"?
 2. **The text in its context.** One of the disciples, having just watched Jesus pray, asked, "Lord,
    teach us to pray, as John taught his disciples" (Luke 11:1). What would a prayer of their own
    have meant to the men who asked for it?
-3. **Christ.** Jesus prayed "not as I will, but as you will" (Matthew 26:39), and He was tempted
-   "as we are, yet without sin" (Hebrews 4:15). Which line of the prayer He taught could He never
-   pray for Himself?
-4. **Already and not yet.** Jesus says "the kingdom of God has come upon you" (Matthew 12:28), yet
+3. **Christ.** In Gethsemane Jesus prayed "not as I will, but as you will" (Matthew 26:39), and He
+   was tempted "as we are, yet without sin" (Hebrews 4:15). Which lines of the prayer He taught did
+   He pray that night, and which could He never pray for Himself?
+4. **The hard part.** Jesus says "the kingdom of God has come upon you" (Matthew 12:28), yet
    He teaches you to pray "Your kingdom come" (Matthew 6:10). Where in your own week can you see a
    reign that has begun and is not yet finished?
 5. **The hard part.** Jesus teaches you to pray "lead us not into temptation" (Matthew 6:13), and
    James says God "himself tempts no one" (James 1:13). How do those two sentences fit together?
 6. **Be transformed.** Matthew repeats one petition straight after the prayer: "if you do not
    forgive others their trespasses, neither will your Father forgive your trespasses" (Matthew
-   6:15). Is there someone you are withholding forgiveness from that this prayer, prayed honestly,
-   would confront?
+   6:15). What would it take for you to pray this line honestly about the person you find hardest
+   to forgive?
 
 ## References & Recommended Reading
 
