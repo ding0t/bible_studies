@@ -6,7 +6,7 @@ tags: ["matthew", "2-corinthians", "revelation", "mark", "colossians", "philippi
 questions: ["What does it mean to be the salt of the earth?", "What does it mean that Christians are the light of the world?", "What is the aroma of Christ?"]
 draft: false
 primary_passage: "Matthew 5:13-16; 2 Corinthians 2:14-16"
-bible_references: ["Matthew 5:1-2", "Matthew 5:10-12", "Matthew 5:13-16", "Matthew 6:1", "Matthew 7:24-27", "Matthew 25:1-13", "Mark 4:21", "Mark 9:33-34", "Mark 9:49-50", "Luke 14:33-35", "Colossians 4:5-6", "Job 6:6", "Leviticus 1:9", "Leviticus 2:13", "Numbers 18:19", "2 Chronicles 13:5", "2 Kings 2:19-22", "Ezekiel 16:4", "Ezekiel 43:24", "John 1:4-5", "John 8:12", "John 9:5", "John 12:3", "Isaiah 42:6", "Isaiah 49:6", "Isaiah 60:1-3", "Acts 13:47", "2 Corinthians 4:6", "Ephesians 5:1-2", "Ephesians 5:8-9", "Philippians 2:14-16", "Philippians 4:18", "Deuteronomy 32:5", "Genesis 1:14", "1 Peter 2:9-12", "Revelation 1:12-13", "Revelation 1:20", "Revelation 2:1-5", "Revelation 2:19", "Revelation 3:1", "Revelation 3:8", "Revelation 3:15", "Revelation 4:5", "2 Corinthians 2:17", "2 Corinthians 3:5", "Colossians 2:15", "Genesis 8:21", "Ezekiel 20:41", "Romans 1:22", "1 Corinthians 1:20", "Matthew 7:28", "John 3:19-21", "Acts 13:45", "Luke 2:32", "Luke 8:16", "Luke 11:33", "Hebrews 9:2", "Revelation 11:4", "1 Corinthians 3:11-15", "Genesis 18:32", "Genesis 19:22", "2 Thessalonians 2:7"]
+bible_references: ["Matthew 5:1-2", "Matthew 5:10-12", "Matthew 5:13-16", "Matthew 6:1", "Matthew 7:24-27", "Matthew 25:1-13", "Mark 4:21", "Mark 9:33-34", "Mark 9:49-50", "Luke 14:33-35", "Colossians 4:5-6", "Job 6:6", "Leviticus 1:9", "Leviticus 2:13", "Numbers 18:19", "2 Chronicles 13:5", "2 Kings 2:19-22", "Ezekiel 16:4", "Ezekiel 43:24", "John 1:4-5", "John 8:12", "John 9:5", "John 12:3", "Isaiah 42:6", "Isaiah 49:6", "Isaiah 60:1-3", "Acts 13:47", "2 Corinthians 4:6", "Ephesians 5:1-2", "Ephesians 5:8-9", "Philippians 2:14-16", "Philippians 4:18", "Deuteronomy 32:5", "Genesis 1:14", "1 Peter 2:9-12", "Revelation 1:12-13", "Revelation 1:20", "Revelation 2:1-5", "Revelation 2:19", "Revelation 3:1", "Revelation 3:8", "Revelation 3:15", "Revelation 4:5", "2 Corinthians 2:17", "2 Corinthians 3:5", "Colossians 2:15", "Genesis 8:21", "Ezekiel 20:41", "Romans 1:22", "1 Corinthians 1:20", "Matthew 7:28", "John 3:19-21", "Acts 13:45", "Luke 2:32", "Luke 8:16", "Luke 11:33", "Hebrews 9:2", "Revelation 11:4", "1 Corinthians 3:11-15", "Genesis 18:32", "Genesis 19:22", "2 Thessalonians 2:7-8"]
 date_created: 2026-10-22
 date_modified: 2026-10-27
 ai_provider_models:
@@ -49,10 +49,10 @@ shows the world the Father, so that people see your good works and give glory to
 - **Type.** Every burnt offering rose to God as "a pleasing aroma" (Leviticus 1:9, ESV). Paul names
   what they pictured: Christ "gave himself up for us, a fragrant offering and sacrifice to God"
   (Ephesians 5:2, ESV).
-- **Type.** The fire on Sodom waited for one righteous household: "I can do nothing till you arrive
-  there" (Genesis 19:22, ESV). On this site's reading, the church is salt kept in the earth until she
-  is taken "out of the midst" (2 Thessalonians 2:7), and lawlessness is let loose (see
-  [Salt kept in the earth](#salt-kept-in-the-earth)).
+- **Type.** The fire on Sodom waited for one righteous man: "I can do nothing till you arrive
+  there" (Genesis 19:22, ESV). On this site's reading, the church is salt kept in the earth, and when
+  she is caught up the restrainer comes to be "out of the midst" (2 Thessalonians 2:7) and the
+  lawless one is revealed (2 Thessalonians 2:8) (see [Salt kept in the earth](#salt-kept-in-the-earth)).
 
 ### Lessons about Jesus
 
@@ -104,7 +104,8 @@ In Jesus' name. Amen.
 - [Who Jesus is talking to](#who-jesus-is-talking-to). The disciples, all together, and the words
   "you are."
 - [The salt of the earth](#the-salt-of-the-earth). Salt in Israel's life, salt that turns foolish,
-  salt kept in the earth until it is taken out, and salt among believers and in their speech.
+  salt that preserves while it stays, read with Sodom and the restrainer, and salt among believers
+  and in their speech.
 - [The light of the world](#the-light-of-the-world). Whose light it is, the Servant's light for the
   nations, a city and a lamp, and the good works that bring glory to the Father.
 - [Churches as lampstands](#churches-as-lampstands). Revelation 1-2: the same word, and the warning
@@ -210,7 +211,7 @@ This connection is this site's reading. Matthew 5:13 names no single use of salt
 itself says nothing of salt being taken out. The salt "thrown out" in the verse is salt that has gone
 foolish, and that warning is for disciples now.
 
-**This shows that God preserves the world through the people He has made salt.** Your faithfulness
+**This shows that God preserves the world through the people He has made salt**, as He would have spared Sodom for ten (Genesis 18:32). Your faithfulness
 where you are, at work, at home and in your church, is part of how He holds back evil until His time.
 
 ### Salt among yourselves, salt in your speech

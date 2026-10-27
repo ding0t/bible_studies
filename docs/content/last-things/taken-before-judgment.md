@@ -207,17 +207,17 @@ the whole scene: "Escape there quickly, for I can do nothing till you arrive the
 ESV). The judgment is ready, and it waits. Lot reaches Zoar, and only then: "Then the LORD rained on Sodom and Gomorrah sulfur and fire from the
 LORD out of heaven" (19:24, ESV).
 
-Genesis 19:29 sums up the rescue: God "sent Lot out of the midst of the overthrow" (ESV). The
-Septuagint reads ἐκ μέσου τῆς καταστροφῆς, and "out of the midst," ἐκ μέσου (*ek mesou*), is Paul's
-phrase for the restrainer's going: "until he is out of the way" (2 Thessalonians 2:7, ESV), literally
-"until he comes to be out of the midst." [The Restrainer](the-restrainer.md#out-of-the-midst) sets
-the two side by side.
-
 Jesus tells the same story in the same order. "On the day when Lot went out from Sodom, fire and sulfur
 rained from heaven and destroyed them all — so will it be on the day when the Son of Man is revealed"
 (Luke 17:29-30, ESV). Luke's Noah does the same: they were eating and drinking "until the day when
 Noah entered the ark, and the flood came and destroyed them all" (17:27, ESV). In both, ordinary life runs until the day the righteous move, and judgment follows: for Lot the same
 day, for Noah within the week (Genesis 7:10).
+
+Genesis 19:29 sums up the rescue: God "sent Lot out of the midst of the overthrow" (ESV). The
+Septuagint reads ἐκ μέσου τῆς καταστροφῆς, and "out of the midst," ἐκ μέσου (*ek mesou*), is Paul's
+phrase for the restrainer's going: "until he is out of the way" (2 Thessalonians 2:7, ESV), literally
+"until he comes to be out of the midst." [The Restrainer](the-restrainer.md#lot-sent-out-of-the-midst) sets
+the two side by side.
 
 ### Peter's two verbs
 

@@ -83,7 +83,8 @@ In Jesus' name. Amen.
 - [From "what" to "he"](#from-what-to-he). The neuter and masculine participles, and the Spirit.
 - [The Spirit dwells in the church](#the-spirit-dwells-in-the-church). Temple, Helper, salt and
   light.
-- [Out of the midst](#out-of-the-midst). Paul's own phrase, and the church caught up.
+- [Out of the midst](#out-of-the-midst). Paul's own phrase, Lot sent out before the fire, and the
+  church caught up.
 - [Where this falls in the seven years](#where-this-falls-in-the-seven-years). Daniel's seventieth
   week, and the temple seating at its midpoint.
 - [The Spirit in the tribulation](#the-spirit-in-the-tribulation). What ends and what does not.
@@ -197,7 +198,9 @@ debt was "set aside," literally taken "out of the midst" (ἐκ τοῦ μέσο
 church herself is called out, in words Paul takes from Isaiah 52:11: "Therefore go out from their
 midst, and be separate from them" (2 Corinthians 6:17, ESV).
 
-The nearest precedent is in Genesis. When God overthrew the cities of the valley, He "sent Lot out of
+### Lot sent out of the midst
+
+Genesis gives a precedent. When God overthrew the cities of the valley, He "sent Lot out of
 the midst of the overthrow" (Genesis 19:29, ESV). The Septuagint, the Greek Old Testament Paul
 quotes, reads ἐκ μέσου τῆς καταστροφῆς, Paul's own phrase, and the Hebrew is
 <span dir="rtl">מִתּוֹךְ</span> (*mitokh*), the word both Hebrew New Testaments use at 2
@@ -396,8 +399,8 @@ than Satan, and His presence in the church lasts through this age and ends when 
 - [The Rapture of the Church](rapture.md) — the pretribulational case, and the grammar of 2
   Thessalonians 2:7.
 - [Salt, Light and the Aroma of Christ](../christian-life/salt-light-and-aroma.md) — the church as
-  salt and light in the world (Matthew 5:13-16; Philippians 2:15), and salt kept in the earth until
-  it is taken out.
+  salt and light in the world (Matthew 5:13-16; Philippians 2:15), and salt that preserves while it
+  stays.
 - [Taken Before Judgment](taken-before-judgment.md) — Lot sent "out of the midst of the overthrow"
   before the fire (Genesis 19:22-29).
 - [Know the Truth](../christian-life/know-the-truth.md) — the strong delusion of 2 Thessalonians
