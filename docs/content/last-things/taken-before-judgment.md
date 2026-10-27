@@ -5,9 +5,9 @@ description: "Enoch, Lot and Elijah were taken out before judgment reached them,
 tags: ["rapture", "genesis", "2-kings", "isaiah", "ezekiel", "1-peter", "2-peter", "luke", "hebrews", "dispensationalism", "person/enoch", "person/noah", "person/lot", "person/elijah", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: false
 primary_passage: "Genesis 5:21-24"
-bible_references: ["Genesis 5:21-27", "Genesis 6:9", "Genesis 7:1", "Genesis 7:4-10", "Genesis 7:16", "Genesis 7:23", "Genesis 19:16", "Genesis 19:22-26", "2 Kings 2:3-11", "Psalm 49:15", "Psalm 73:24", "Isaiah 26:19-21", "Isaiah 54:9", "Ezekiel 14:14-20", "1 Peter 3:20", "Romans 5:14", "Luke 17:26-30", "Matthew 24:29", "Matthew 24:37-41", "Matthew 25:34", "1 Corinthians 15:51-52", "1 Thessalonians 1:10", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Hebrews 11:5-7", "2 Peter 2:4-9", "Jude 1:14-15", "Revelation 3:10"]
+bible_references: ["Genesis 5:21-27", "Genesis 6:9", "Genesis 7:1", "Genesis 7:4-10", "Genesis 7:16", "Genesis 7:23", "Genesis 19:16", "Genesis 19:22-26", "Genesis 19:29", "2 Thessalonians 2:7", "2 Kings 2:3-11", "Psalm 49:15", "Psalm 73:24", "Isaiah 26:19-21", "Isaiah 54:9", "Ezekiel 14:14-20", "1 Peter 3:20", "Romans 5:14", "Luke 17:26-30", "Matthew 24:29", "Matthew 24:37-41", "Matthew 25:34", "1 Corinthians 15:51-52", "1 Thessalonians 1:10", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Hebrews 11:5-7", "2 Peter 2:4-9", "Jude 1:14-15", "Revelation 3:10"]
 date_created: 2026-09-26
-date_modified: 2026-10-21
+date_modified: 2026-10-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
@@ -207,6 +207,12 @@ the whole scene: "Escape there quickly, for I can do nothing till you arrive the
 ESV). The judgment is ready, and it waits. Lot reaches Zoar, and only then: "Then the LORD rained on Sodom and Gomorrah sulfur and fire from the
 LORD out of heaven" (19:24, ESV).
 
+Genesis 19:29 sums up the rescue: God "sent Lot out of the midst of the overthrow" (ESV). The
+Septuagint reads ἐκ μέσου τῆς καταστροφῆς, and "out of the midst," ἐκ μέσου (*ek mesou*), is Paul's
+phrase for the restrainer's going: "until he is out of the way" (2 Thessalonians 2:7, ESV), literally
+"until he comes to be out of the midst." [The Restrainer](the-restrainer.md#out-of-the-midst) sets
+the two side by side.
+
 Jesus tells the same story in the same order. "On the day when Lot went out from Sodom, fire and sulfur
 rained from heaven and destroyed them all — so will it be on the day when the Son of Man is revealed"
 (Luke 17:29-30, ESV). Luke's Noah does the same: they were eating and drinking "until the day when
@@ -307,7 +313,7 @@ fear.
   accounts of men "taken," and the observation that Genesis does not say where Enoch went).
 - **NIV Biblical Theology Study Bible** (Zondervan) — notes on Genesis 5:24 and 2 Peter 2:9.
 - Original-language data from this project's `bible-text.db` — WLC Hebrew morphology for Genesis 5:24
-  and 2 Kings 2:10; Septuagint lemmas for Genesis 5:24; unfoldingWord interlinear for Hebrews 11:5,
+  and 2 Kings 2:10; Septuagint lemmas for Genesis 5:24; Brenton's Septuagint for Genesis 19:29; unfoldingWord interlinear for Hebrews 11:5,
   2 Peter 2:5, 7, 9 and 1 Thessalonians 1:10.
 
 ### On this site
