@@ -203,7 +203,7 @@ Genesis, Daniel and Proverbs already share a template, and it is close kin to
 | Memory verses | Verses worth committing, in the site's standard quote-block format |
 | Attitudes | What the book teaches us to value, and what it warns against |
 | Key Topics | The book's major themes |
-| Types | Persons, objects, or events that pattern Christ or the gospel |
+| Types | Persons, objects, or events that pattern Christ, the gospel, or God's dealings with His people |
 | Prophecies | Direct predictions the book makes or fulfils |
 | References | Sources drawn on |
 | *Chapters with linked studies* | **Generated** by `commentary_index.py` |

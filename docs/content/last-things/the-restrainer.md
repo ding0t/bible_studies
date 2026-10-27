@@ -5,7 +5,7 @@ description: "The restrainer of 2 Thessalonians 2:6-7 is the Holy Spirit dwellin
 tags: ["2-thessalonians", "1-thessalonians", "philippians", "daniel", "holy-spirit", "rapture", "tribulation", "dispensationalism", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "2 Thessalonians 2:1-12"
-bible_references: ["2 Thessalonians 2:1-9", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Philippians 2:15", "2 Corinthians 6:17", "1 Corinthians 5:2", "Colossians 2:14", "1 Corinthians 3:16", "Ephesians 2:21-22", "John 14:16-17", "John 14:26", "John 16:7-8", "John 16:13", "1 John 4:4", "Genesis 6:3", "Matthew 5:13-14", "Revelation 7:9", "Revelation 7:14", "Revelation 13:7", "Revelation 14:6", "Daniel 9:27", "Matthew 24:15", "Matthew 24:21", "Daniel 10:13", "Daniel 12:1", "Jude 9", "Revelation 12:7-8", "Romans 13:4", "Psalm 139:7", "Isaiah 52:11", "Genesis 29:35", "Genesis 18:32", "Genesis 19:22", "Genesis 19:29"]
+bible_references: ["2 Thessalonians 2:1-9", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Philippians 2:15", "2 Corinthians 6:17", "1 Corinthians 5:2", "Colossians 2:14", "1 Corinthians 3:16", "Ephesians 2:21-22", "John 14:16-17", "John 14:26", "John 16:7-8", "John 16:13", "1 John 4:4", "Genesis 6:3", "Matthew 5:13-14", "Revelation 7:9", "Revelation 7:14", "Revelation 13:7", "Revelation 14:6", "Daniel 9:27", "Matthew 24:15", "Matthew 24:21", "Daniel 10:13", "Daniel 12:1", "Jude 9", "Revelation 12:7-8", "Romans 13:4", "Psalm 139:7", "Isaiah 52:11", "Genesis 29:35", "Genesis 18:32", "Genesis 19:22", "Genesis 19:29", "Numbers 16:21", "Jeremiah 51:6"]
 date_created: 2026-09-26
 date_modified: 2026-10-27
 ai_provider_models:
@@ -212,6 +212,14 @@ then judgment, are a likeness this study notes. [Taken Before
 Judgment](taken-before-judgment.md#lot-judgment-waits-for-the-rescue) reads Lot as a type of the
 church's rescue.
 
+Two more passages follow the same order. At Korah's rebellion the LORD told Moses and Aaron, "Separate yourselves
+from among this congregation, that I may consume them in a moment" (Numbers 16:21, ESV), and the
+Septuagint reads ἐκ μέσου τῆς συναγωγῆς. Jeremiah calls God's people out of Babylon: "Flee from the
+midst of Babylon ... for this is the time of the LORD's vengeance" (Jeremiah 51:6, ESV), ἐκ μέσου
+Βαβυλῶνος in the Septuagint, which numbers the chapter 28. The Hebrew of both is
+<span dir="rtl">מִתּוֹךְ</span>, as at Genesis 19:29. In all three, God's people are brought out from the midst of
+others, and then judgment falls.
+
 ### The church in the midst now
 
 Paul also tells the church where she stands now. Believers are "children of God without blemish in the
@@ -388,7 +396,7 @@ than Satan, and His presence in the church lasts through this age and ends when 
   γίνομαι, μέσος and ἁρπάζω; unfoldingWord interlinear for 2 Thessalonians 2:6-7, John 14:26,
   Philippians 2:15, 1 Corinthians 5:2, 2 Corinthians 6:17, Colossians 2:14, 1 Thessalonians 4:17 and
   Daniel 12:1; Septuagint lemmas for Daniel 12:1; Brenton's Septuagint and the Westminster Leningrad
-  Codex for Genesis 19:29.
+  Codex for Genesis 19:29, Numbers 16:21 and Jeremiah 51:6 (Septuagint Jeremiah 28:6).
 - Hebrew translations of the New Testament — Franz Delitzsch (ebible-heb) and Salkinson–Ginsburg
   (ebible-hebsg), both nineteenth-century translations from the Greek — at 2 Thessalonians 2:6-7,
   Philippians 2:15 and 2 Corinthians 6:17.
