@@ -55,14 +55,17 @@ import re
 import book_map
 import cross_study_claims
 import research_batch
+import source_catalog
 import study_notes_query
 import twot_lookup
 
-DEFAULT_TRANSLATIONS = ["WEB"]            # public domain; safe to quote at length
+# The site's reading translation: public domain, safe to quote at length.
+DEFAULT_TRANSLATIONS = [source_catalog.reading_translation()["code"]]
 DEFAULT_STUDY_WORKS = ["esv-study-bible"]  # the quotation-verification path
 MAX_DETAIL_VERSES = 12
 MAX_TWOT_LOOKUPS = 25
-SECTIONS = ("addressing", "historical", "text", "words", "crossrefs", "variants", "notes", "studies")
+SECTIONS = ("addressing", "historical", "structure", "text", "words", "crossrefs", "variants",
+            "names", "notes", "studies")
 
 
 _OSIS_CODES = {code.lower(): code
@@ -146,6 +149,11 @@ def build_requests(book: str, chapter: int, verse_start: int, verse_end: int | N
             reqs.append({"id": f"intro:{work}", "tool": "study_intro",
                          "args": {"book": book, "work_id": work}})
 
+    if "structure" in include:
+        reqs.append({"id": "structure", "tool": "bible_section",
+                     "args": {"book": book, "chapter": chapter, "verse": verse_start,
+                              "verse_end": end}})
+
     if "text" in include:
         for name in translations:
             source, work_id = route_translation(name, study_ids)
@@ -162,6 +170,9 @@ def build_requests(book: str, chapter: int, verse_start: int, verse_end: int | N
         for v in verses:
             reqs.append({"id": f"interlinear:{v}", "tool": "bible_interlinear",
                          "args": {"book": book, "chapter": chapter, "verse": v}})
+            reqs.append({"id": f"interlinear-bsb:{v}", "tool": "bible_interlinear",
+                         "args": {"book": book, "chapter": chapter, "verse": v,
+                                  "interlinear": "bsb"}})
 
     if "crossrefs" in include:
         for v in verses:
@@ -172,6 +183,17 @@ def build_requests(book: str, chapter: int, verse_start: int, verse_end: int | N
         for v in verses:
             reqs.append({"id": f"variants:{v}", "tool": "bible_variants",
                          "args": {"book": book, "chapter": chapter, "verse": v}})
+        # The BSB's and MSB's footnotes name which Greek editions read a variant ("CT does not
+        # include ..."), and the ULT/UHB notes give Ketiv/Qere. include_notes returns every work's.
+        reqs.append({"id": "translator-notes", "tool": "bible_passage",
+                     "args": {"book": book, "chapter": chapter, "verse_start": verse_start,
+                              "verse_end": end, "translation": "berean-msb",
+                              "include_notes": True}})
+
+    if "names" in include:
+        reqs.append({"id": "names", "tool": "bible_names",
+                     "args": {"book": book, "chapter": chapter, "verse": verse_start,
+                              "verse_end": end}})
 
     if "notes" in include:
         for work in study_works:
@@ -253,9 +275,12 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
                   budget_seconds: float = 60.0) -> dict:
     """The standard evidence set for a passage, in exegesis order.
 
-    Sections: addressing (versification, always), historical (book introductions), text,
-    words (interlinear + TWOT roots for Hebrew), crossrefs, variants, notes, studies (what this
-    site's existing studies already say about the chapter).
+    Sections: addressing (versification, always), historical (book introductions), structure
+    (the BSB section the passage sits in and its parallel accounts), text, words (the ULT and BSB
+    interlinears + TWOT roots for Hebrew), crossrefs, variants (Dead Sea Scrolls, plus the
+    translators' footnotes naming which editions read what), names (every person and place the
+    passage names, disambiguated), notes, studies (what this site's existing studies already say
+    about the chapter).
     """
     translations = list(translations or DEFAULT_TRANSLATIONS)
     study_works = list(study_works or DEFAULT_STUDY_WORKS)
@@ -308,6 +333,8 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
         brief["historical_context"] = {
             work: _ok(results, f"intro:{work}") or [] for work in study_works
         }
+    if "structure" in include:
+        brief["structure"] = _ok(results, "structure")
     if "text" in include:
         text: dict = {}
         for name in translations:
@@ -321,6 +348,7 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
     if "words" in include:
         brief["words"] = {
             "interlinear": {str(v): _ok(results, f"interlinear:{v}") for v in verses},
+            "interlinear_bsb": {str(v): _ok(results, f"interlinear-bsb:{v}") for v in verses},
             "twot_roots": twot,
         }
     if "crossrefs" in include:
@@ -330,6 +358,9 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
                  if (data := _ok(results, f"variants:{v}")) and data.get("readings")}
         brief["textual_variants"] = found or {
             "note": "no Dead Sea Scroll divergence recorded for these verses"}
+        brief["translator_notes"] = (_ok(results, "translator-notes") or {}).get("notes", [])
+    if "names" in include:
+        brief["names"] = (_ok(results, "names") or {}).get("individuals", [])
     if "notes" in include:
         brief["study_notes"] = {
             work: {str(v): _ok(results, f"note:{work}:{v}") or [] for v in verses}

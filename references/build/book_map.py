@@ -154,6 +154,14 @@ _CANONICAL_ORDER = [
 ]
 BOOK_NUM_TO_OSIS = {f"{i+1:02d}": code for i, code in enumerate(_CANONICAL_ORDER)}
 
+# STEPBible's three-letter book codes ("Exo.4.14", "1Ki.4.6", "Jhn.1.1"), as TIPNR writes them.
+STEP_ABBREV_TO_OSIS = dict(zip(
+    "Gen Exo Lev Num Deu Jos Jdg Rut 1Sa 2Sa 1Ki 2Ki 1Ch 2Ch Ezr Neh Est Job Psa Pro Ecc Sng Isa "
+    "Jer Lam Ezk Dan Hos Jol Amo Oba Jon Mic Nam Hab Zep Hag Zec Mal Mat Mrk Luk Jhn Act Rom 1Co "
+    "2Co Gal Eph Php Col 1Th 2Th 1Ti 2Ti Tit Phm Heb Jas 1Pe 2Pe 1Jn 2Jn 3Jn Jud Rev".split(),
+    _CANONICAL_ORDER,
+))
+
 # CSB Ancient Faith Study Bible's "start-BookName.C.V" anchors use a THIRD
 # naming convention: underscore before numbered-book digits ("1_Samuel"), and
 # multi-word names concatenated with no separator ("SongofSongs"). Confirmed

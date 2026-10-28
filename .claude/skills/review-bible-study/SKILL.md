@@ -33,8 +33,10 @@ Every quoted verse gets re-queried from source, not read for plausibility.
 - **ESV/NIV/NKJV/CSB**: `study-notes.db`'s `verses` table (verse text, not just commentary notes) — see
   [references/README.md](../../../references/README.md#study-notesdb-commercial-study-bible-commentary-external-not-in-this-repo-at-all)
   for the access pattern; the `immutable=1` URI form is mandatory, not optional, under the sandbox.
-- **WEB/ASV/YLT/LXX/MT and other `bible-text.db` translations**: `query.py verse` or the `bible_verse`
-  MCP tool.
+- **WEB/BSB/ASV/YLT/LXX/MT and other `bible-text.db` translations**: `query.py verse` or the `bible_verse`
+  MCP tool. The BSB is `berean-bsb`, taken from its publisher's release since 2026-10-28; a BSB
+  quotation checked against the old scrollmapper copy may differ in a list verse or a revised
+  rendering (John 2:4), so re-check against `berean-bsb`.
 - **A reference is not a universal address, and getting it wrong is silent.** Hebrew Joel 3:1 is
   English Joel 2:28; LXX Psalm 22 is English Psalm 23; the Masoretic and English traditions divide
   Daniel, Joel and Malachi differently. Verifying a quotation against "the same verse" in another
@@ -166,6 +168,12 @@ rather than the one that was *written*.
 
 What to enumerate:
 
+- **Identity and family claims** — "Zechariah son of Jehoiada," "Boaz's mother Rahab," "Emmaus,
+  seven miles west." Check each against `bible_names`, which returns individuals rather than
+  spellings, their family links and every verse naming them, and a place's best identification with
+  its confidence. A link TIPNR marks (a)/(d)/(f)/(?) or a site scored low or with close rivals is
+  contested; a study stating it flat is overclaiming, and that is a finding.
+
 - **Correspondence claims** — "X answers to Y," "the same word appears in both," "these two events
   are those two events." Check the correspondence, not the things being corresponded. Both halves can
   be individually accurate and the relation between them still false.
@@ -257,8 +265,11 @@ what is left.
 Weigh the kinds differently, and do not let the tool decide for you. A **quotation** is a textual
 fact: if the study treats a passage and never mentions what it quotes, that is a real gap — *The
 Way* cites Hebrews 3 without ever naming Psalm 95, which Hebrews 3 quotes three times. A
-**hebrew-candidate** is a 19th-century translator's judgement and needs checking in Greek. A
-**crossref** is a lead and nothing more.
+**parallel** is the BSB translators' judgment that another passage tells the same story (Luke
+11:1-4 beside Matthew 6:5-15); a study of a gospel passage or of Kings/Chronicles that never names
+its parallel has usually missed something a reader will ask about, so report it unless the study
+has a reason to stay with one account. A **hebrew-candidate** is a 19th-century translator's
+judgement and needs checking in Greek. A **crossref** is a lead and nothing more.
 
 A long gap list is normal and is not a defect in the study; most entries are cross-reference noise.
 Report only what genuinely bears on the argument, and say why. A study with neither frontmatter
@@ -416,7 +427,7 @@ shape that's a genuine defect rather than a pending conversion.
 **Check the balance between prose and pop-up** against develop-bible-study Phase 7 ("The pop-up
 works alongside the prose"). There are two findings, one in each direction. A section that argues
 from a verse's wording while giving only its citation leaves the reader arguing from words they
-cannot see. Nothing pops up when the study is read aloud, and the pop-up shows the WEB, so report
+cannot see. Nothing pops up when the study is read aloud, and the pop-up shows the reading translation (the BSB), so report
 this as **Moderate**. A quotation or paraphrase the argument never uses, kept only to save a lookup,
 is **Minor**; recommend simplify-bible-study.
 

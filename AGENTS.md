@@ -23,11 +23,20 @@ hand-write those three.
 
 - Be accurate to scripture always
 - Provide references to claims
-- Use the following Bible versions: Masoretic Text, Septuagint, ESV, WEB, NASB, NIV. Default to ESV.
-  - Of these, only the Masoretic Text and Septuagint (original-language) and WEB (English) are in
-    this repo's own `references/build/bible-text.db` (open-licensed sources). ASV and YLT are also
-    in `bible-text.db` and useful for textual/translation comparison even though not in the
-    original list above.
+- Use the following Bible versions: Masoretic Text, Septuagint, ESV, WEB, BSB, NASB, NIV. Default to ESV.
+  - Of these, only the Masoretic Text and Septuagint (original-language) and WEB and BSB (English)
+    are in this repo's own `references/build/bible-text.db` (open-licensed sources). The BSB
+    (Berean Standard Bible, `berean-bsb`, from its publisher's own release with its footnotes) is
+    public domain, so it can be quoted at any length like the WEB. ASV and YLT are also in `bible-text.db` and useful for textual/translation
+    comparison even though not in the original list above.
+  - **The BSB's translators publish three companions, all in `bible-text.db` and all for checking,
+    not quoting.** The Majority Standard Bible (`berean-msb`) translates the Majority (Byzantine)
+    Greek, so it prints readings the critical text omits (Matthew 6:13's doxology) and its footnotes
+    name who omits them. The Berean Literal Bible (`berean-blb`) is a literal cross-check in the
+    role YLT plays, and upstream calls it an early draft. The Berean Interlinear (`berean-bib`) links
+    each Hebrew and Greek word to the BSB English that renders it: `bible_interlinear(...,
+    interlinear="bsb")`, a second word-level alignment beside the ULT. See
+    [references/README.md](references/README.md#berean-the-bsb-the-msb-the-literal-bible-and-the-interlinear).
   - **YLT and NKJV are comparison/verification tools, never quotation sources — Fee & Stuart (the
     methodology behind the develop-bible-study skill) name both as ones to avoid for study.** They
     single out Young's Literal Translation by name as their example of formal equivalence taken too
@@ -290,11 +299,13 @@ source is unreachable reports as **unverified**, never as failed — could-not-t
 different facts and must read differently.
 
 **Beginning work on a passage? Call `passage_brief` first** — one call returns
-versification, the book introduction, the text in each translation you name (open and
-commercial alike, each routed to the database that holds it), the interlinear, TWOT roots
-for the Hebrew, cross-references, Dead Sea Scroll divergence, study notes, and the studies on
-this site that already treat the chapter (`existing_studies`), in the order the develop skill
-works in. Its `addressing` section is always computed and flags a
+versification, the book introduction, the BSB section the passage sits in and its parallel
+accounts (`structure`), the text in each translation you name (open and commercial alike, each
+routed to the database that holds it), the ULT and BSB interlinears, TWOT roots for the Hebrew,
+cross-references, Dead Sea Scroll divergence, the translators' footnotes naming which editions read
+a variant, every person and place the passage names (`names`, one entry per individual), study
+notes, and the studies on this site that already treat the chapter (`existing_studies`), in the
+order the develop skill works in. Its `addressing` section is always computed and flags a
 reference that is numbered differently across traditions — Hebrew Joel 3:1 is English Joel
 2:28, and reading one under the other raises no error.
 
@@ -362,7 +373,8 @@ the workflow manually (`workflow_dispatch`).
   text and never linked** — a link hides a reference from the scanner. Blue Letter Bible links were
   removed site-wide on 2026-09-27; keep one only as a deliberate send-off for follow-up study.
   The pop-up works alongside the prose, never instead of it. Quote what the argument stands on,
-  since studies are read aloud and the pop-up shows the WEB, and cite what it only points to
+  since studies are read aloud and the pop-up shows the site's reading translation (the BSB,
+  set once in `references/sources.toml` `[reading_translation]`), and cite what it only points to
   (develop-bible-study Phase 7).
   **Every reference names its book** except a continuation in the same citation ("(Revelation 21:2,
   9; 22:17)"). The pop-up resolves an older bare "(5:1)" from the paragraph, a table's column header,
@@ -440,7 +452,7 @@ the workflow manually (`workflow_dispatch`).
 - **Every study with a point and discussion questions gets a printable group sheet**
   (`hooks/study_sheet.py`): four A4 pages at 12 pt, two sheets double-sided, for a 40-minute
   group, in a collapsed block under the questions (a printer icon by the title jumps to it). It is assembled from the rendered study (the `**In one sentence:**`
-  thesis, `primary_passage` in WEB, the first comic or drawn SVG, the Study outline, the
+  thesis, `primary_passage` in the reading translation, the first comic or drawn SVG, the Study outline, the
   questions, Be Transformed, the first memory verse, the prayer), so it says nothing the study
   does not. The sheet is the group's; **the study itself is the leader's notes** — one set of
   notes per study, with no separate leader's guide to drift from it. **The questions sit under the Study outline's steps** (the step whose section cites the

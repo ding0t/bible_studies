@@ -5,10 +5,14 @@ gitignored build artifact the deploy workflow cannot rebuild. Re-run by hand whe
 
 Everything written here ships to every reader's browser, so every source is `open` tier:
 
-- verses/<Book>.json   World English Bible (public domain), the whole book, plus the strongest few
+- verses/<Book>.json   the site's reading translation (sources.toml [reading_translation], the BSB
+                       since 2026-10-28), the whole book, with its footnotes and the strongest few
                        OpenBible.info cross-references per verse (CC BY). Whole books rather than
                        only the verses the site cites: a reader opening context around a cited
                        verse needs its neighbours, and a new study should not need a re-export.
+                       `t` names the translation, so nothing downstream hard-codes one; a verse
+                       the reading text omits (Matthew 17:21) comes from the fallback and is
+                       listed in `f`, so it can be labelled rather than shown as though printed.
 - words/<H|G><nn>.json  one file per hundred Strong's numbers. Transliteration, part of speech and
                        gloss from STEPBible's TBESH/TBESG (CC BY); occurrence counts, where the
                        word occurs and its commonest contextual renderings from MACULA (CC BY
@@ -34,11 +38,11 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 import query
+import source_catalog
 
 REPO = Path(__file__).resolve().parents[2]
 OUT = REPO / "docs" / "content" / "assets" / "popups"
 LEXICONS = REPO / "references" / "open-data" / "stepbible-data" / "Lexicons"
-WEB = "ebible-eng-web"
 CROSSREFS_PER_VERSE = 5
 RENDERINGS = 5
 EVERY_OCCURRENCE = 20
@@ -60,11 +64,27 @@ def dump(path: Path, data) -> None:
 
 
 def export_verses(conn) -> int:
-    books: dict[str, dict] = defaultdict(lambda: {"v": defaultdict(dict), "x": {}})
+    reading = source_catalog.reading_translation()
+    meta = {"code": reading["code"], "name": reading["name"], "licence": reading["licence"],
+            "fallback": {"code": reading["fallback_code"], "name": reading["fallback_name"],
+                         "note": reading["fallback_note"]}}
+    books: dict[str, dict] = defaultdict(lambda: {"t": meta, "v": defaultdict(dict), "f": [],
+                                                  "n": {}, "x": {}})
     for row in conn.execute(
             "SELECT book, chapter, verse, text FROM verses WHERE work_id=? ORDER BY book, chapter, verse",
-            (WEB,)):
+            (reading["work_id"],)):
         books[row["book"]]["v"][str(row["chapter"])][str(row["verse"])] = row["text"].strip()
+    for row in conn.execute(
+            "SELECT book, chapter, verse, text FROM verses WHERE work_id=? ORDER BY book, chapter, verse",
+            (reading["fallback_work_id"],)):
+        chapter = books[row["book"]]["v"][str(row["chapter"])]
+        if str(row["verse"]) not in chapter:
+            chapter[str(row["verse"])] = row["text"].strip()
+            books[row["book"]]["f"].append(f"{row['chapter']}:{row['verse']}")
+    for row in conn.execute(
+            "SELECT book, chapter, verse, text FROM notes WHERE work_id=? ORDER BY rowid",
+            (reading["work_id"],)):
+        books[row["book"]]["n"].setdefault(f"{row['chapter']}:{row['verse']}", []).append(row["text"])
 
     # The OpenBible import carries duplicate rows; DISTINCT before ranking so a doubled row does
     # not take two of the five places.

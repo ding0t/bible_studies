@@ -38,7 +38,7 @@ on vocabulary — go and get the reference instead.
 
 On this site a bare citation is also complete for the reader, because every reference opens its
 verse in a pop-up. A verse you only point to needs no paraphrase to save a lookup; that sentence
-adds no fact, so rule 1 cuts it. A verse you argue from still gets quoted. The pop-up shows the WEB
+adds no fact, so rule 1 cuts it. A verse you argue from still gets quoted. The pop-up shows the reading translation (the BSB)
 rather than the translation you argued from, and nothing pops up when the study is read aloud
 (rule 7).
 

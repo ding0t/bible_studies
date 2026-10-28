@@ -27,11 +27,13 @@ import unicodedata
 from pathlib import Path
 
 import quotations
+import source_catalog
 import versification
 from book_map import DEUTEROCANON_NAME_TO_OSIS, DEUTEROCANON_OSIS, NUM_TO_OSIS, REFERENCE_NAME_TO_NUM
 
 DB_PATH = Path(__file__).resolve().parent / "out" / "bible-text.db"
-DEFAULT_TRANSLATION_WORK_ID = "ebible-eng-web"  # WEB: public domain, full Bible, no permission caveats
+# The site's reading translation (sources.toml [reading_translation]): public domain, full Bible.
+DEFAULT_TRANSLATION_WORK_ID = source_catalog.reading_translation()["work_id"]
 _ALL_OSIS_BOOKS = set(NUM_TO_OSIS.values()) | DEUTEROCANON_OSIS
 
 
@@ -693,9 +695,17 @@ def lookup_links(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
     }
 
 
+# Each interlinear in word_alignment, and the work holding the English verse it aligns.
+INTERLINEARS = {
+    "ult": ("uw-ult", "uw-ult", "ULT, aligned to UHB/UGNT"),
+    "bsb": ("berean-bib", "berean-bsb", "BSB, Berean Interlinear: WLC/Nestle base"),
+}
+
+
 def lookup_interlinear(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
-                        from_scheme: str = "english") -> dict[str, object]:
-    """Which original-language word each English word renders, from unfoldingWord's ULT alignment.
+                        from_scheme: str = "english", interlinear: str = "ult") -> dict[str, object]:
+    """Which original-language word each English word renders: unfoldingWord's ULT alignment, or
+    with interlinear="bsb" the Berean Interlinear's BSB translation tables.
 
     The gap this fills: everything else here describes the two sides separately. `verse` gives a
     translation, `word` gives a lemma's occurrences, `syntax` gives clause roles -- but none of them
@@ -707,9 +717,16 @@ def lookup_interlinear(conn: sqlite3.Connection, book: str, chapter: int, verse:
     encloses the phrase twice. Flattening that to one row per English phrase would invent a
     precision the data does not have, so both rows come back.
 
-    Numbered in the English scheme, since ULT is an English translation; pass `from_scheme` if your
+    The two are independent translations of different base texts, so where they agree the
+    rendering does not hang on one committee's choice. The Berean rows carry no lemma; their morph
+    is the tables' own parsing code ("V-Qal-Perf-3ms"), and their strong an unpadded "H1254".
+
+    Numbered in the English scheme, since both are English translations; pass `from_scheme` if your
     reference is masoretic or lxx.
     """
+    if interlinear not in INTERLINEARS:
+        raise ValueError(f"interlinear must be one of {sorted(INTERLINEARS)}")
+    work_id, text_work, _ = INTERLINEARS[interlinear]
     reference = versification.align(book, chapter, verse, from_scheme, "english")
     if reference is None:
         return {"reference": f"{book} {chapter}:{verse}", "rows": [],
@@ -717,13 +734,125 @@ def lookup_interlinear(conn: sqlite3.Connection, book: str, chapter: int, verse:
     e_book, e_chapter, e_verse = reference
     rows = [dict(r) for r in conn.execute(
         "SELECT english, content, lemma, strong, morph, occurrence FROM word_alignment "
-        "WHERE book=? AND chapter=? AND verse=? ORDER BY rowid",
-        (e_book, e_chapter, e_verse))]
+        "WHERE work_id=? AND book=? AND chapter=? AND verse=? ORDER BY rowid",
+        (work_id, e_book, e_chapter, e_verse))]
     text = conn.execute(
-        "SELECT text FROM verses WHERE work_id='uw-ult' AND book=? AND chapter=? AND verse=?",
-        (e_book, e_chapter, e_verse)).fetchone()
+        "SELECT text FROM verses WHERE work_id=? AND book=? AND chapter=? AND verse=?",
+        (text_work, e_book, e_chapter, e_verse)).fetchone()
     return {"reference": f"{e_book} {e_chapter}:{e_verse}", "text": text[0] if text else None,
             "rows": rows}
+
+
+def _overlap_sql(prefix: str = "") -> str:
+    """Rows whose (chapter, verse)..(end_chapter, end_verse) span overlaps a range. Six params:
+    the range's end chapter twice and end verse, then its start chapter twice and start verse."""
+    c, v, ec, ev = (f"{prefix}chapter", f"{prefix}verse", f"{prefix}end_chapter", f"{prefix}end_verse")
+    return (f"({c} < ? OR ({c} = ? AND {v} <= ?)) AND ({ec} > ? OR ({ec} = ? AND {ev} >= ?))")
+
+
+def lookup_section(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
+                   verse_end: int | None = None, from_scheme: str = "english") -> dict[str, object]:
+    """Where a passage sits in its book's structure, and what else tells the same story.
+
+    `sections` are the BSB's section headings whose span overlaps the range, every level from the
+    psalter's five books down to an acrostic letter -- so a study can see at once that Matthew
+    6:9-13 sits inside "The Lord's Prayer" (6:5-15). `parallels` are the passages the BSB's
+    translators mark as parallel to those sections: Luke 11:1-4 for that one, the synoptic gospels
+    generally, Kings beside Chronicles, a psalm beside the narrative it belongs to. `parallel_to`
+    runs the other way: sections elsewhere that name this range as their parallel.
+
+    Both are editorial -- the translators' reading of where the text turns and what it echoes.
+    They are a fast first map and a check that a parallel account was not missed, never evidence
+    for a claim about the text and never to be quoted as Scripture.
+    """
+    reference = versification.align(book, chapter, verse, from_scheme, "english")
+    if reference is None:
+        return {"reference": f"{book} {chapter}:{verse}", "sections": [], "parallels": [],
+                "warning": "no English-scheme counterpart for this reference"}
+    book, chapter, verse = reference
+    end = verse_end if verse_end and verse_end >= verse else verse
+    span = (chapter, chapter, end, chapter, chapter, verse)
+    sections = [dict(r) for r in conn.execute(
+        "SELECT chapter, verse, end_chapter, end_verse, level, text FROM section_headings "
+        f"WHERE book=? AND {_overlap_sql()} ORDER BY chapter, verse, level", (book, *span))]
+    parallels = [dict(r) for r in conn.execute(
+        "SELECT heading, chapter, verse, end_chapter, end_verse, to_book, to_chapter, to_verse, "
+        f"to_end_chapter, to_end_verse FROM parallel_passages WHERE book=? AND {_overlap_sql()} "
+        "ORDER BY chapter, verse", (book, *span))]
+    parallel_to = [dict(r) for r in conn.execute(
+        "SELECT book, chapter, verse, end_chapter, end_verse, heading FROM parallel_passages "
+        f"WHERE to_book=? AND {_overlap_sql('to_')} ORDER BY book, chapter, verse", (book, *span))]
+    for row in parallels:
+        row["reference"] = (f"{row['to_book']} {row['to_chapter']}:{row['to_verse']}"
+                            + (f"-{row['to_end_verse']}" if row["to_end_chapter"] == row["to_chapter"]
+                               else f"-{row['to_end_chapter']}:{row['to_end_verse']}"))
+    return {"reference": f"{book} {chapter}:{verse}" + (f"-{end}" if end != verse else ""),
+            "sections": sections, "parallels": parallels, "parallel_to": parallel_to,
+            "source": "BSB section headings (editorial; never quote as Scripture)"}
+
+
+def _names_detail(conn: sqlite3.Connection, rows: list) -> list[dict[str, object]]:
+    detail = []
+    for row in rows:
+        entry = {k: v for k, v in dict(row).items() if v is not None and k != "work_id"}
+        refs = conn.execute(
+            "SELECT book, chapter, verse FROM name_references WHERE name_id=? "
+            "ORDER BY rowid", (row["name_id"],)).fetchall()
+        entry["verse_count"] = len(refs)
+        entry["first_verses"] = [f"{b} {c}:{v}" for b, c, v in refs[:8]]
+        if row["kind"] in ("place", "person+place"):
+            place = conn.execute(
+                "SELECT modern_name, lon, lat, score, alternatives FROM place_locations "
+                "WHERE name_id=?", (row["name_id"],)).fetchone()
+            if place:
+                entry["location"] = dict(place)
+        detail.append(entry)
+    return detail
+
+
+def lookup_names(conn: sqlite3.Connection, name: str | None = None, book: str | None = None,
+                 chapter: int | None = None, verse: int | None = None,
+                 verse_end: int | None = None) -> dict[str, object]:
+    """Who and where: every individual person and place by name, or everyone named in a passage.
+
+    From STEP's TIPNR, one row per INDIVIDUAL rather than per name -- the 29 Zechariahs come back
+    as 29 people, each with father, mother, siblings, spouses, children, tribe and every verse
+    that names them. That is the check before writing "Zechariah" in a study: which one, and is
+    the family link the study assumes one the text makes? Family links are STEP name_ids; a
+    suffix marks a looser link -- (a) ancestor rather than parent, (d) a people descended from
+    them, (f) founder, (?) STEP's judgment where the text is ambiguous.
+
+    A place also carries its location from OpenBible.info: the best-scoring modern site with
+    its confidence (0-1000) and the alternatives. Emmaus has six candidates and Qalunya leads on
+    338 -- a disputed identification, and a study should say so rather than name the site.
+
+    Pass `name` (case-insensitive, exact) or a reference; a place OpenBible knows but TIPNR does
+    not comes back under `unlinked_places`.
+    """
+    if name:
+        rows = conn.execute(
+            "SELECT * FROM proper_names WHERE name = ? COLLATE NOCASE ORDER BY name_id",
+            (name,)).fetchall()
+        unlinked = [dict(r) for r in conn.execute(
+            "SELECT name, modern_name, lon, lat, score, alternatives, verses FROM place_locations "
+            "WHERE name = ? COLLATE NOCASE AND (name_id IS NULL OR name_id NOT IN "
+            "(SELECT name_id FROM proper_names))", (name,))]
+        result: dict[str, object] = {"name": name, "individuals": _names_detail(conn, rows)}
+        if unlinked:
+            result["unlinked_places"] = unlinked
+        if not rows and not unlinked:
+            result["warning"] = ("no individual by that exact name; try the English spelling the "
+                                 "ESV uses (TIPNR follows the ESV)")
+        return result
+    if not (book and chapter and verse):
+        return {"error": "pass a name, or book, chapter and verse"}
+    end = verse_end if verse_end and verse_end >= verse else verse
+    rows = conn.execute(
+        "SELECT DISTINCT p.* FROM name_references r JOIN proper_names p ON p.name_id = r.name_id "
+        "WHERE r.book=? AND r.chapter=? AND r.verse BETWEEN ? AND ? ORDER BY p.kind, p.name",
+        (book, chapter, verse, end)).fetchall()
+    return {"reference": f"{book} {chapter}:{verse}" + (f"-{end}" if end != verse else ""),
+            "individuals": _names_detail(conn, rows)}
 
 
 def lookup_grammar(conn: sqlite3.Connection, term: str, full: bool = False) -> list[dict[str, object]]:
@@ -1151,8 +1280,8 @@ def cmd_trace(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
 
 
 def cmd_interlinear(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
-    r = lookup_interlinear(conn, args.book, args.chapter, args.verse)
-    print(f"{r['reference']} (ULT, aligned to UHB/UGNT)\n")
+    r = lookup_interlinear(conn, args.book, args.chapter, args.verse, interlinear=args.interlinear)
+    print(f"{r['reference']} ({INTERLINEARS[args.interlinear][2]})\n")
     if r.get("warning"):
         print(f"  {r['warning']}")
         return
@@ -1165,6 +1294,35 @@ def cmd_interlinear(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
         strong = row["strong"] or ""
         print(f"  {str(row['english'])[:34]:36} <- {row['content']}")
         print(f"  {'':36}    {str(row['lemma'] or ''):16} {strong:12} {row['morph'] or ''}")
+
+
+def cmd_section(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    r = lookup_section(conn, args.book, args.chapter, args.verse, args.verse_end)
+    print(f"{r['reference']} ({r.get('source', '')})\n")
+    for s in r["sections"]:
+        print(f"  [{s['level']:>2}] {s['chapter']}:{s['verse']}-{s['end_chapter']}:{s['end_verse']}  {s['text']}")
+    for p in r["parallels"]:
+        print(f"  parallel: {p['reference']}  (under \"{p['heading']}\")")
+    for p in r.get("parallel_to", []):
+        print(f"  named as parallel by: {p['book']} {p['chapter']}:{p['verse']}  \"{p['heading']}\"")
+
+
+def cmd_names(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    if args.book:
+        r = lookup_names(conn, book=args.book, chapter=args.chapter, verse=args.verse)
+    else:
+        r = lookup_names(conn, name=args.name)
+    if r.get("warning"):
+        print(f"  {r['warning']}")
+    for p in r.get("individuals", []):
+        print(f"  {p['name_id']}  [{p['kind']}] {p.get('brief') or p.get('description') or ''}")
+        for field in ("parents", "partners", "offspring", "group_or_area"):
+            if p.get(field):
+                print(f"      {field}: {p[field]}")
+        if p.get("location"):
+            loc = p["location"]
+            print(f"      location: {loc['modern_name']} ({loc['lat']}, {loc['lon']}), score {loc['score']}")
+        print(f"      {p['verse_count']} verses, from {', '.join(p['first_verses'][:4])}")
 
 
 def cmd_grammar(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
@@ -1290,7 +1448,7 @@ def main() -> None:
     p_verse.add_argument("book", help="OSIS book code, e.g. Mark")
     p_verse.add_argument("chapter", type=int)
     p_verse.add_argument("verse", type=int)
-    p_verse.add_argument("--translation", help="e.g. KJV, ASV, ebible-heb (default: WEB)")
+    p_verse.add_argument("--translation", help="e.g. KJV, ASV, ebible-heb (default: the reading translation)")
     p_verse.set_defaults(func=cmd_verse)
 
     p_syntax = sub.add_parser(
@@ -1308,7 +1466,7 @@ def main() -> None:
     p_passage.add_argument("verse_start", type=int)
     p_passage.add_argument("verse_end", type=int, help="end verse (in --end-chapter, if given, else in `chapter`)")
     p_passage.add_argument("--end-chapter", type=int, help="if the passage spans chapters (default: same as `chapter`)")
-    p_passage.add_argument("--translation", help="e.g. KJV, ASV, ebible-heb (default: WEB)")
+    p_passage.add_argument("--translation", help="e.g. KJV, ASV, ebible-heb (default: the reading translation)")
     p_passage.add_argument("--notes", action="store_true", help="include translator/study notes in range")
     p_passage.set_defaults(func=cmd_passage)
 
@@ -1331,11 +1489,26 @@ def main() -> None:
                          help="also show crowd-assembled cross-references")
     p_trace.set_defaults(func=cmd_trace)
 
-    p_inter = sub.add_parser("interlinear", help="Which original word each English word renders (ULT alignment)")
+    p_inter = sub.add_parser("interlinear", help="Which original word each English word renders (ULT or BSB)")
     p_inter.add_argument("book", help="OSIS book code, e.g. Gen")
     p_inter.add_argument("chapter", type=int)
     p_inter.add_argument("verse", type=int)
+    p_inter.add_argument("--interlinear", choices=sorted(INTERLINEARS), default="ult")
     p_inter.set_defaults(func=cmd_interlinear)
+
+    p_sec = sub.add_parser("section", help="BSB section headings and parallel passages for a verse")
+    p_sec.add_argument("book")
+    p_sec.add_argument("chapter", type=int)
+    p_sec.add_argument("verse", type=int)
+    p_sec.add_argument("verse_end", type=int, nargs="?")
+    p_sec.set_defaults(func=cmd_section)
+
+    p_names = sub.add_parser("names", help="People and places: by name, or everyone named in a verse")
+    p_names.add_argument("name", nargs="?")
+    p_names.add_argument("--book")
+    p_names.add_argument("--chapter", type=int)
+    p_names.add_argument("--verse", type=int)
+    p_names.set_defaults(func=cmd_names)
 
     p_gram = sub.add_parser("grammar", help="Hebrew grammar articles (unfoldingWord UHG)")
     p_gram.add_argument("term", help="a slug, title or phrase -- e.g. gentilic, construct, dual")
@@ -1362,7 +1535,7 @@ def main() -> None:
     p_par.add_argument("book", help="OSIS book code, e.g. Ps")
     p_par.add_argument("chapter", type=int)
     p_par.add_argument("verse", type=int)
-    p_par.add_argument("--source", help="translation the reference is given in (default: WEB)")
+    p_par.add_argument("--source", help="translation the reference is given in (default: the reading translation)")
     p_par.add_argument("--target", required=True, help="translation to find it in")
     p_par.set_defaults(func=cmd_parallel)
 

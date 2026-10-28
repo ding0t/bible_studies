@@ -10,11 +10,12 @@ Per verse:
                 a gloss, from STEPBible's TAHOT (Hebrew, the Leningrad text, Qere followed where
                 it differs) and TAGNT (Greek, the words printed in Nestle-Aland). CC BY. TAHOT
                 capitalises the stressed syllable; that becomes `stress`, so the card can mark it.
-- translations  WEB from bible-text.db (public domain) and ESV from study-notes.db. The ESV is
+- translations  the site's reading translation (sources.toml [reading_translation], keyed by its
+                code, which `reading` names) from bible-text.db and ESV from study-notes.db. The ESV is
                 quotation-only: one verse per card with the notice on every sheet is within
                 Crossway's terms, which allow 1,000 verses provided Scripture is under half the
                 work. If study-notes.db is unreachable the ESV already in the JSON is kept, never
-                recalled from memory, and a verse with none yet is printed with WEB alone.
+                recalled from memory, and a verse with none yet is printed with the reading translation alone.
 
 Usage: uv run python export_memory_verses.py
 """
@@ -27,13 +28,14 @@ from pathlib import Path
 
 import book_map
 import query
+import source_catalog
 import study_notes_query
 
 REPO = Path(__file__).resolve().parents[2]
 SOURCE = REPO / "docs" / "data" / "memory-verses.toml"
 OUT = REPO / "docs" / "data" / "memory-verses.json"
 TAGGED = REPO / "references" / "open-data" / "stepbible-data" / "Translators Amalgamated OT+NT"
-WEB = "ebible-eng-web"
+READING = source_catalog.reading_translation()
 ESV = "esv-study-bible"
 FIRST_NT_BOOK = 40
 POETIC_BOOKS = {"Job", "Ps", "Prov"}
@@ -162,12 +164,12 @@ def clean_gloss(gloss: str) -> str:
     return re.sub(r"\s+", " ", gloss).strip()
 
 
-def web_text(conn, ref: dict) -> str:
+def reading_text(conn, ref: dict) -> str:
     rows = conn.execute(
         "SELECT text FROM verses WHERE work_id=? AND book=? AND chapter=? AND verse BETWEEN ? AND ? "
-        "ORDER BY verse", (WEB, ref["osis"], ref["chapter"], ref["start"], ref["end"])).fetchall()
+        "ORDER BY verse", (READING["work_id"], ref["osis"], ref["chapter"], ref["start"], ref["end"])).fetchall()
     if len(rows) != ref["end"] - ref["start"] + 1:
-        raise LookupError(f"WEB is missing verses of {ref['osis']} {ref['chapter']}")
+        raise LookupError(f"{READING['code']} is missing verses of {ref['osis']} {ref['chapter']}")
     return " ".join(r["text"].strip() for r in rows)
 
 
@@ -203,8 +205,8 @@ def main() -> None:
 
         translations = {}
         for name in source["translations"]:
-            if name == "WEB":
-                translations["WEB"] = web_text(conn, ref)
+            if name == "reading":
+                translations[READING["code"]] = reading_text(conn, ref)
             elif name == "ESV":
                 text = esv_text(notes, ref) if notes else None
                 text = text or previous.get(entry["ref"], {}).get("translations", {}).get("ESV")
@@ -213,7 +215,7 @@ def main() -> None:
                 else:
                     print(f"ESV: no text for {entry['ref']}; card prints without it", file=sys.stderr)
             else:
-                raise ValueError(f"unsupported translation {name!r} -- ESV and WEB are wired up")
+                raise ValueError(f"unsupported translation {name!r} -- ESV and reading are wired up")
 
         verses.append({
             "ref": entry["ref"], "theme": entry.get("theme", ""), "set": entry.get("set", ""),
@@ -221,10 +223,11 @@ def main() -> None:
         })
 
     OUT.write_text(json.dumps({
+        "reading": READING["code"],
         "sources": {
             "hebrew": "STEPBible TAHOT (Translators Amalgamated Hebrew OT), CC BY, STEPBible.org",
             "greek": "STEPBible TAGNT (Translators Amalgamated Greek NT), CC BY, STEPBible.org",
-            "WEB": "World English Bible, public domain",
+            READING["code"]: f"{READING['name']}, {READING['licence']}",
             "ESV": "ESV® Bible, © 2001 by Crossway. Used by permission. All rights reserved.",
         },
         "verses": verses,

@@ -102,6 +102,26 @@ default_tier = "open"
 path = "references/restricted-data"
 default_tier = "restricted-nc"
 
+# The open translation readers see wherever the ESV's licence cannot reach: every verse pop-up, the
+# group sheets' read-aloud passage, the songbook's full words, the memory cards' second line and the
+# public connector. Change it here and re-run the exporters (export_popups.py, export_songbook.py,
+# export_memory_verses.py, export_connector.py); nothing else names it. Must be an `open` work in
+# bible-text.db with English versification. Chosen 2026-10-28: the BSB translates the critical
+# Greek text the site's studies argue from, where the WEB (the default until then) translates the
+# Majority text and prints verses those studies call later additions.
+#
+# `fallback` supplies a verse the reading text does not print -- Matthew 17:21, Acts 8:37 -- so a
+# pop-up for it shows that verse, labelled with the fallback's code, instead of an empty card.
+[reading_translation]
+work_id = "berean-bsb"
+code = "BSB"
+name = "Berean Standard Bible"
+licence = "public domain"
+fallback_work_id = "berean-msb"
+fallback_code = "MSB"
+fallback_name = "Majority Standard Bible"
+fallback_note = "not in the critical Greek text; printed here from the Majority text"
+
 # Present on disk but NOT ingested by build.py, so query.py and the MCP tools cannot see them.
 # Read them as raw files under their own sources/ tree. This list exists because their absence
 # from a query is not evidence of their absence from the repo: a study once asserted Tobit was
@@ -112,7 +132,6 @@ default_tier = "restricted-nc"
 raw_only = [
   "references/open-data/hebrew-lexicon",
   "references/open-data/scrollmapper-bible-databases-deuterocanonical",
-  "references/open-data/stepbible-data",
   "references/open-data/strongs",
   "references/restricted-data/bhsa",
   "references/restricted-data/mounce-dictionary",
@@ -362,10 +381,67 @@ kind = ["translation"]
 edition = "translation"
 era = "modern"
 language = "en"
-applies_to = ["scrollmapper-BSB"]
-purpose = "A modern, readable, CC0 translation."
+applies_to = ["berean-bsb"]
+purpose = "A modern, readable, public-domain translation, taken from its publisher's own release with footnotes and section headings."
 strengths = ["Contemporary English with no reproduction limit whatsoever (CC0), which makes it the best modern alternative to WEB for quoting at length."]
 limits = ["Recent and not widely known, so it carries no weight as a recognised rendering."]
+
+[profiles.msb]
+kind = ["translation"]
+edition = "translation"
+era = "modern"
+language = "en"
+applies_to = ["berean-msb"]
+purpose = "The BSB committee's translation of the Majority (Byzantine) Greek text: the English witness to readings the critical text omits."
+strengths = ["Prints what the BSB footnotes, e.g. Matthew 6:13's doxology, and its own footnotes name the critical text's reading ('CT does not include ...'). Pair it with scrollmapper-Byz for the Greek."]
+limits = ["A translation of one text tradition. Its reading being in the MSB says what the Majority text has, never which reading is original; weigh that with the editions the footnotes name."]
+
+[profiles.bsb-structure]
+kind = ["annotation"]
+era = "modern"
+language = "en"
+applies_to = ["berean-bsb"]
+purpose = "The BSB's section headings and parallel-passage lines: where a passage turns, and what else tells the same story (bible_section)."
+strengths = ["2,028 parallel accounts across both testaments (gospel synoptics, Kings beside Chronicles, psalms beside their narratives), and headings that place any verse in its section. review_gaps reports a parallel a study never cites."]
+limits = ["Editorial: the translators' reading of structure. A map and a completeness check, never evidence, never quoted as Scripture."]
+
+[profiles.tipnr]
+kind = ["index"]
+era = "modern"
+language = "en"
+applies_to = ["step-tipnr"]
+purpose = "Every individual person and place, disambiguated, with family links and every verse (bible_names)."
+strengths = ["One record per individual: the 29 Zechariahs are 29 people, each with parents, siblings, spouses, children, tribe and verses. An independent check on this site's genealogy (genealogy_check.py)."]
+limits = ["Family links carry STEP's own judgment where the text is ambiguous, marked (?), and (a)/(d)/(f) mark ancestors, descendants and founders rather than parents. Only the @Brief summary is kept; STEP's longer @Article prose is not. References follow the ESV."]
+
+[profiles.geocoding]
+kind = ["index"]
+era = "modern"
+language = "en"
+applies_to = ["openbible-geocoding"]
+purpose = "Where biblical places are thought to be: the best-scoring modern identification, its confidence, and the alternatives."
+strengths = ["1,342 places with coordinates, each identification scored 0-1000 with competing sites kept, so a disputed site is visible as disputed."]
+limits = ["An identification is scholarship, not Scripture. A score below about 500, or a close runner-up, means the site is contested; a study should say so rather than name one."]
+
+[profiles.blb]
+kind = ["translation"]
+edition = "translation"
+era = "modern"
+language = "en"
+applies_to = ["berean-blb"]
+purpose = "The BSB committee's literal rendering: a word-for-word cross-check beside the BSB, public domain."
+strengths = ["Formal equivalence in readable English, with supplied words in [brackets] so you can see what the translators added. Quotable at any length."]
+limits = ["Upstream calls it 'an early draft version' that 'will be updated', and 16 verses are empty. Use it as a cross-check on what a smoother translation flattens, the role YLT plays here, and quote the BSB, ESV or WEB for a verse's meaning."]
+
+[profiles.berean-interlinear]
+kind = ["translation", "annotation"]
+edition = "translation"
+era = "modern"
+language = "en"
+applies_to = ["berean-bib"]
+purpose = "The BSB translation tables: each Hebrew, Aramaic and Greek word with its Strong's number, parsing and the BSB English that renders it."
+strengths = ["A second word-level alignment, independent of the ULT, through bible_interlinear(interlinear='bsb'). Where the ULT and the BSB render a word the same way, the reading does not rest on one committee's choice."]
+limits = ["No lemma, and the parsing is the tables' own code (V-Qal-Perf-3ms), not OSHB or Robinson. Words the BSB leaves untranslated or renders inside another word's phrase have no row. The Greek is the tables' Nestle base text, not the SBLGNT the rest of this database uses."]
 
 [profiles.historic-english]
 kind = ["translation"]
@@ -414,7 +490,7 @@ era = "modern"
 language = "en"
 applies_to = ["uw-ult"]
 purpose = "unfoldingWord's literal text, and the only English here aligned word-by-word to the originals."
-strengths = ["Powers bible_interlinear -- the sole link in this database between an English word and the original it renders. The cheapest guard against building a point on a translator's choice."]
+strengths = ["Powers bible_interlinear's default -- one of two links in this database (with the Berean Interlinear) between an English word and the original it renders. The cheapest guard against building a point on a translator's choice."]
 limits = ["The alignment is many-to-many by nature: Genesis 1:1's 'the heavens' renders both אֵת and הַשָּׁמַיִם, since the object marker has no English of its own."]
 
 [profiles.translation-notes]

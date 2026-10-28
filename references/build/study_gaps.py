@@ -13,6 +13,9 @@ reports what is left. Two sources, kept apart rather than merged:
   candidate    a Hebrew New Testament matching the Hebrew Old Testament. Those are 19th-century
                translations, so this is a Hebraist's judgement -- it catches quotations the Greek
                misses, but verify each one in Greek before it carries weight.
+  parallel     the BSB translators' parallel accounts -- Luke 11:1-4 beside Matthew 6:5-15, Kings
+               beside Chronicles. Editorial, but a parallel account a study never mentions is the
+               omission a reader most often catches, so it ranks just below a quotation.
   crossref     openbible's crowd-assembled cross-references. A lead worth chasing, and no more --
                the votes are consensus from a largely covenantal readership, so a high score is
                popularity rather than evidence.
@@ -104,7 +107,8 @@ def gaps_for(conn: sqlite3.Connection,
         if (book, chapter) in chapters:
             return                      # the study already treats this chapter
         entry = found.setdefault((book, chapter), {
-            "book": book, "chapter": chapter, "quotation": 0, "candidate": 0, "crossref": 0,
+            "book": book, "chapter": chapter, "quotation": 0, "parallel": 0, "candidate": 0,
+            "crossref": 0,
             "detail": [], "from": set()})
         entry[kind] += 1
         entry["from"].add(source_ref)
@@ -152,6 +156,24 @@ def gaps_for(conn: sqlite3.Connection,
                      f"{r['from_book']} {r['from_chapter']}:{r['from_verse']} quotes {source} "
                      f"(align {r['alignment']}){mark}", source)
 
+        # a section's parallels count when the section overlaps the cited verses, in either direction
+        for r in conn.execute(
+            "SELECT verse, end_verse, end_chapter, heading, to_book, to_chapter, to_verse, "
+            "to_end_verse FROM parallel_passages WHERE book=? AND chapter=?", (book, chapter)):
+            if verses is None or any(r["verse"] <= v and (r["end_chapter"] > chapter or v <= r["end_verse"])
+                                     for v in verses):
+                note(r["to_book"], r["to_chapter"], r["to_verse"], "parallel",
+                     f"{r['to_book']} {r['to_chapter']}:{r['to_verse']}-{r['to_end_verse']} is the "
+                     f"BSB's parallel to \"{r['heading']}\"", source)
+        for r in conn.execute(
+            "SELECT book, chapter, verse, end_verse, heading, to_verse, to_end_chapter, to_end_verse "
+            "FROM parallel_passages WHERE to_book=? AND to_chapter=?", (book, chapter)):
+            if verses is None or any(r["to_verse"] <= v and (r["to_end_chapter"] > chapter or v <= r["to_end_verse"])
+                                     for v in verses):
+                note(r["book"], r["chapter"], r["verse"], "parallel",
+                     f"{r['book']} {r['chapter']}:{r['verse']} (\"{r['heading']}\") names {source} "
+                     f"as its parallel", source)
+
         for r in conn.execute(
             "SELECT DISTINCT from_verse, to_book, to_chapter, to_verse_start, votes FROM cross_references "
             "WHERE from_book=? AND from_chapter=? AND votes>=? ORDER BY votes DESC LIMIT 60",
@@ -161,7 +183,7 @@ def gaps_for(conn: sqlite3.Connection,
             note(r["to_book"], r["to_chapter"], r["to_verse_start"], "crossref", None, source)
 
     ranked = sorted(found.values(),
-                    key=lambda e: (-e["quotation"], -e["candidate"], -e["crossref"],
+                    key=lambda e: (-e["quotation"], -e["parallel"], -e["candidate"], -e["crossref"],
                                    e["book"], e["chapter"]))
     return ranked
 
@@ -179,6 +201,8 @@ def report(conn, md_file: Path, limit: int) -> int:
         kinds = []
         if entry["quotation"]:
             kinds.append(f"{entry['quotation']} quotation")
+        if entry["parallel"]:
+            kinds.append(f"{entry['parallel']} parallel")
         if entry["candidate"]:
             kinds.append(f"{entry['candidate']} hebrew-candidate")
         if entry["crossref"]:

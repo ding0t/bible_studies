@@ -90,8 +90,9 @@ catch it. Where two accounts describe one event, confirm the word separately for
 
 A word study nearly always starts from an English word, which means it starts from a translator's
 decision. `bible_interlinear <book> <chapter> <verse>` shows which original word each English word
-in ULT renders, so Step 1 can begin from the lemma actually behind the text rather than the one the
-English suggested. Where one English phrase maps to two originals — common with the Hebrew object
+in ULT renders, and `interlinear="bsb"` the same for the BSB, so Step 1 can begin from the lemma
+actually behind the text rather than the one the English suggested. Two committees agreeing on which
+word sits behind an English phrase is firmer ground than either alone. Where one English phrase maps to two originals — common with the Hebrew object
 marker — that is a real many-to-many relation, not noise to filter.
 
 Pair it with `bible_grammar` when the point turns on the *form* rather than the word: the lexicons

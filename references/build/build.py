@@ -23,7 +23,7 @@ from xml.etree import ElementTree
 
 from book_map import (
     BOS_CODE_TO_USFM, DEUTEROCANON_BOS_TO_OSIS, DEUTEROCANON_OSIS, MACULA_USFM_TO_OSIS, NUM_TO_OSIS,
-    SCROLLMAPPER_NAME_TO_OSIS,
+    SCROLLMAPPER_NAME_TO_OSIS, STEP_ABBREV_TO_OSIS,
 )
 import quotations
 import source_catalog
@@ -98,6 +98,9 @@ def scrollmapper_scope() -> dict[str, str]:
         for entry in lang_dir.iterdir():
             if entry.is_dir():
                 scope[entry.name] = lang
+    # The BSB comes from its publisher's own release instead (ingest_berean_release), with its
+    # footnotes and headings, which scrollmapper's copy drops.
+    scope.pop("BSB", None)
     return scope
 
 
@@ -130,6 +133,8 @@ def ingest_scrollmapper(conn: sqlite3.Connection) -> None:
                 src.close()
                 continue
             _, title, license_str = row
+            # Upstream titles are markdown headings ("# BSB: Berean Standard Bible").
+            title = re.sub(r"^#+\s*", "", title or "")
             tier = classify_license(license_str)
 
             work_id = f"scrollmapper-{code}"
@@ -605,6 +610,442 @@ def ingest_ult(conn: sqlite3.Connection) -> None:
     conn.commit()
     print(f"uw-ult: {len(verse_rows)} verses, {len(align_rows)} alignment rows, "
           f"{len(note_rows)} notes")
+
+
+BEREAN_LICENSE = "Public Domain (dedicated 2023-04-30, https://berean.bible/terms.htm)"
+# The Berean files spell two books differently from scrollmapper.
+BEREAN_BOOK_TO_OSIS = {**SCROLLMAPPER_NAME_TO_OSIS, "Psalm": "Ps", "Revelation": "Rev"}
+BEREAN_REF = re.compile(r"(.+) (\d+):(\d+)$")
+
+
+def _berean_file(name: str, url: str) -> tuple[Path, str]:
+    """Fetch a Berean download into the build cache, returning its path and SHA-256.
+
+    Same reasoning as ingest_ebible: the Berean sites are file hosts, not git repos. BSB-publishing
+    on GitHub re-cuts these files but drops the transliteration and parsing columns and has no BLB,
+    so the canonical downloads are taken instead. Nothing is pinned, so the hash goes into
+    source_commit -- two builds that disagree can at least tell they read different files.
+    """
+    import hashlib
+
+    path = CACHE_DIR / "berean" / name
+    if not path.exists():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        request = urllib.request.Request(
+            url, headers={"User-Agent": "Mozilla/5.0 (compatible; bible_studies build script)"})
+        with urllib.request.urlopen(request) as response:
+            path.write_bytes(response.read())
+    return path, "sha256:" + hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def ingest_berean_literal(conn: sqlite3.Connection) -> None:
+    """The Berean Literal Bible: one tab-separated "Genesis 1:1<TAB>text" line per verse.
+
+    Its own header calls it "an early draft version and will be updated". Square brackets mark
+    words the translators supplied, as in the printed BLB, and are kept.
+    """
+    path, digest = _berean_file("blb.txt", "https://literalbible.com/blb.txt")
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution, notes) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+        ("berean-blb", "BLB", "Berean Literal Bible (Draft)", "eng", "literalbible.com",
+         "https://berean.bible/downloads.htm", digest, TODAY, BEREAN_LICENSE, "open",
+         "Berean Bible Translation Committee / Bible Hub",
+         "Upstream marks this an early draft that will be updated; [brackets] are supplied words."),
+    )
+    rows = []
+    for line in path.read_text(encoding="utf-8-sig").splitlines():
+        ref, _, text = line.partition("\t")
+        match = BEREAN_REF.match(ref)
+        if match and text.strip():
+            rows.append(("berean-blb", BEREAN_BOOK_TO_OSIS[match[1]], int(match[2]), int(match[3]),
+                         re.sub(r"\s+", " ", text).strip()))
+    conn.executemany("INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", rows)
+    conn.commit()
+    print(f"berean-blb: {len(rows)} verses")
+
+
+# Placeholders in the tables' English column for an original word with no English of its own:
+# '-' untranslated, '. . .' rendered within another word's phrase, 'vvv' rendered in another verse.
+BEREAN_NO_ENGLISH = {"", "-", ". . .", "vvv"}
+
+
+def ingest_berean_interlinear(conn: sqlite3.Connection) -> None:
+    """The Berean Interlinear: the BSB translation tables, one row per Hebrew, Aramaic or Greek word
+    with its Strong's number, parsing and the BSB English that renders it.
+
+    Goes into word_alignment beside the ULT, so the same question ("which word is this English
+    rendering?") can be asked of a second, independent translation. Rows are stored in
+    original-language order. The file runs in BSB English order and names the verse only on its
+    first row, so the reference is carried forward and each verse re-sorted by Heb/Greek Sort.
+    Words whose English is a placeholder are skipped, as the ULT ingest skips frames enclosing no
+    English. Numbered in the English scheme: the references are the BSB's.
+    """
+    path, digest = _berean_file("bsb_tables.tsv", "https://bereanbible.com/bsb_tables.tsv")
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution, notes) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+        ("berean-bib", "BIB", "Berean Interlinear Bible (BSB translation tables)", "eng",
+         "bereanbible.com", "https://berean.bible/downloads.htm", digest, TODAY, BEREAN_LICENSE,
+         "open", "Berean Bible Translation Committee / Bible Hub",
+         "Hebrew is the WLC; Greek is the tables' Nestle base text. English is the BSB's. "
+         "strong carries an H/G prefix; morph is the tables' short parsing code."),
+    )
+    by_verse: dict[tuple[str, int, int], list] = collections.defaultdict(list)
+    reference = None
+    with path.open(encoding="utf-8", newline="") as f:
+        reader = csv.reader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
+        next(reader)
+        for row in reader:
+            if row[12]:
+                match = BEREAN_REF.match(row[12].strip())
+                reference = (BEREAN_BOOK_TO_OSIS[match[1]], int(match[2]), int(match[3]))
+            language, english = row[4], row[18].strip()
+            if language not in ("Hebrew", "Aramaic", "Greek") or english in BEREAN_NO_ENGLISH:
+                continue
+            greek = language == "Greek"
+            number = row[11] if greek else row[10]
+            by_verse[reference].append((
+                float(row[1] if greek else row[0]), english, row[5].strip(),
+                f"{'G' if greek else 'H'}{number}" if number else None, row[8].strip() or None,
+            ))
+    align_rows = []
+    for (book, chapter, verse), words in by_verse.items():
+        seen: collections.Counter = collections.Counter()
+        for _, english, content, strong, morph in sorted(words):
+            seen[content] += 1
+            align_rows.append(("berean-bib", book, chapter, verse, english, content, None, strong,
+                               morph, seen[content]))
+    conn.executemany(
+        "INSERT INTO word_alignment (work_id, book, chapter, verse, english, content, lemma, "
+        "strong, morph, occurrence) VALUES (?,?,?,?,?,?,?,?,?,?)", align_rows)
+    conn.commit()
+    print(f"berean-bib: {len(align_rows)} alignment rows across {len(by_verse)} verses")
+
+
+# bsb2usfm is the BSB's own publishing pipeline; a release tag pins both texts to one version.
+BEREAN_RELEASE = "v5.19"
+BEREAN_HEADING_MARKERS = {"s1", "s2", "ms", "qa", "d"}
+_USFM_FOOTNOTE = re.compile(r"\\f \+(.*?)\\f\*", re.DOTALL)
+_USFM_REF = re.compile(r"\\ref ([^|\\]*)\|([^\\]*)\\ref\*")
+_USFM_TARGET = re.compile(r"(?:(\w{3}) )?(\d+)(?::(\d+))?(?:[-–](\d+)(?::(\d+))?)?")
+SINGLE_CHAPTER_BOOKS = {"Obad", "Phlm", "2John", "3John", "Jude"}
+
+
+def _usfm_plain(raw: str) -> str:
+    """USFM to reading text. An opening marker owns the one space after it and a closing marker
+    none, so `\\add “\\add*Be` must become `“Be` -- replacing markers with spaces would split it."""
+    raw = _USFM_REF.sub(r"\1", raw)
+    raw = re.sub(r"\\fv (\S+)\s*\\fv\*", r"\1 ", raw)
+    raw = re.sub(r"\\fr \S+\s*", "", raw)
+    raw = re.sub(r"\\[a-z]+\d*\*", "", raw)
+    raw = re.sub(r"\\[a-z]+\d*\s?", "", raw)
+    # The USFM spaces em dashes ("God —"); the printed BSB closes them up, and quotations should match.
+    raw = re.sub(r"\s*—\s*", "—", raw)
+    return re.sub(r"\s+", " ", raw).strip()
+
+
+def _berean_release_usfm(edition: str) -> Path:
+    usfm_dir = CACHE_DIR / "berean" / f"{edition}_usfm_{BEREAN_RELEASE}"
+    if not any(usfm_dir.glob("*.usfm")):
+        usfm_dir.mkdir(parents=True, exist_ok=True)
+        zip_path = usfm_dir / f"{edition}_usfm.zip"
+        url = (f"https://github.com/BSB-publishing/bsb2usfm/releases/download/{BEREAN_RELEASE}/"
+               f"{edition}_usfm.zip")
+        with urllib.request.urlopen(url) as response, open(zip_path, "wb") as f:
+            f.write(response.read())
+        with zipfile.ZipFile(zip_path) as zf:
+            zf.extractall(usfm_dir)
+    return usfm_dir
+
+
+def _parse_berean_usfm(usfm_dir: Path):
+    """Verses, footnotes and headings from a bsb2usfm release, one book file at a time.
+
+    A heading's verse is the next \\v after it, so a heading before \\c 1 (Psalms' "BOOK I") still
+    lands on the right chapter. A \\d line that carries a \\v is a psalm superscription the BSB
+    numbers as verse 1 -- verse text, not a heading. A parallel-passage line (\\r) belongs to the
+    heading above it.
+    """
+    verses: dict[tuple[str, int, int], list[str]] = collections.defaultdict(list)
+    headings: list[dict] = []
+    for path in sorted(usfm_dir.glob("*.usfm")):
+        book, chapter, verse, pending = None, 0, 0, []
+        for line in path.read_text(encoding="utf-8").splitlines():
+            match = re.match(r"\\(\w+)\s?(.*)", line)
+            if not match:
+                continue
+            marker, rest = match[1], match[2]
+            if marker == "id":
+                book = MACULA_USFM_TO_OSIS[rest.split()[0]]
+            elif marker == "c":
+                chapter, verse = int(rest), 0
+            elif marker in ("h", "toc1", "toc2", "toc3", "mt1"):
+                continue
+            elif marker == "r":
+                if headings:
+                    headings[-1]["targets"] += [(m[1], m[2]) for m in _USFM_REF.finditer(rest)]
+            elif marker in BEREAN_HEADING_MARKERS and "\\v " not in rest:
+                heading = {"book": book, "level": marker, "text": _usfm_plain(rest), "targets": []}
+                headings.append(heading)
+                pending.append(heading)
+            else:
+                chunks = re.split(r"\\v (\d+)\s?", rest)
+                if verse:
+                    verses[(book, chapter, verse)].append(chunks[0])
+                for number, text in zip(chunks[1::2], chunks[2::2]):
+                    verse = int(number)
+                    for heading in pending:
+                        heading["chapter"], heading["verse"] = chapter, verse
+                    pending = []
+                    verses[(book, chapter, verse)].append(text)
+    texts, notes = {}, {}
+    for key, parts in verses.items():
+        raw = " ".join(parts)
+        notes[key] = [_usfm_plain(n) for n in _USFM_FOOTNOTE.findall(raw)]
+        texts[key] = _usfm_plain(_USFM_FOOTNOTE.sub("", raw))
+    return texts, notes, [h for h in headings if "verse" in h]
+
+
+def ingest_berean_release(conn: sqlite3.Connection) -> None:
+    """The BSB and the Majority Standard Bible from the bsb2usfm release, with their footnotes.
+
+    The footnotes are the reason to take the BSB from here rather than scrollmapper: they record
+    which Greek editions read a variant (CT, NA, SBL, WH, TR, GOC) and the translators' "Or ..."
+    alternatives. The MSB translates the Majority (Byzantine) text, so it is the English witness to
+    readings the critical text omits -- Matthew 6:13's doxology, John 7:53-8:11 -- and its notes
+    name the critical text's reading. The BSB's section headings and parallel passages go into
+    their own tables, as the translators' editorial reading of the text's structure.
+    """
+    meta = {
+        "BSB": ("berean-bsb", "Berean Standard Bible",
+                "A modern, readable translation; footnotes give variants by edition."),
+        "MSB": ("berean-msb", "Majority Standard Bible",
+                "The BSB committee's translation of the Majority (Byzantine) Greek text."),
+    }
+    for edition, (work_id, title, note) in meta.items():
+        texts, notes, headings = _parse_berean_usfm(_berean_release_usfm(edition))
+        conn.execute(
+            "INSERT INTO works (work_id, translation_code, title, language, source_id, "
+            "source_repo_url, source_commit, ingested_at, license, license_tier, attribution, notes) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+            (work_id, edition, title, "eng", "bsb2usfm",
+             "https://github.com/BSB-publishing/bsb2usfm", BEREAN_RELEASE, TODAY, BEREAN_LICENSE,
+             "open", "Berean Bible Translation Committee / Bible Hub", note),
+        )
+        conn.executemany(
+            "INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)",
+            [(work_id, b, c, v, t) for (b, c, v), t in texts.items() if t])
+        conn.executemany(
+            "INSERT INTO notes (work_id, book, chapter, verse, note_type, text) VALUES (?,?,?,?,?,?)",
+            [(work_id, b, c, v, "translator", n) for (b, c, v), ns in notes.items() for n in ns])
+        print(f"{work_id}: {sum(1 for t in texts.values() if t)} verses, "
+              f"{sum(map(len, notes.values()))} footnotes")
+        if edition == "BSB":
+            _ingest_berean_structure(conn, work_id, headings, texts)
+    conn.commit()
+
+
+def _ingest_berean_structure(conn: sqlite3.Connection, work_id: str, headings: list[dict],
+                              texts: dict) -> None:
+    order = collections.defaultdict(list)
+    for book, chapter, verse in sorted(texts, key=lambda k: (k[1], k[2])):
+        order[book].append((chapter, verse))
+    rank = {"ms": 0, "s1": 1, "d": 1, "s2": 2, "qa": 2}
+
+    def span_end(i: int) -> tuple[int, int]:
+        """The verse before the next heading of the same or a higher level in the book."""
+        heading = headings[i]
+        for later in headings[i + 1:]:
+            if later["book"] != heading["book"]:
+                break
+            if rank[later["level"]] <= rank[heading["level"]]:
+                verses = order[heading["book"]]
+                position = verses.index((later["chapter"], later["verse"]))
+                return verses[max(position - 1, 0)]
+        return order[heading["book"]][-1]
+
+    heading_rows, parallel_rows, unparsed = [], [], []
+    for i, heading in enumerate(headings):
+        end = span_end(i)
+        heading_rows.append((work_id, heading["book"], heading["chapter"], heading["verse"], *end,
+                             heading["level"], heading["text"]))
+        for display, target in heading["targets"]:
+            match = _USFM_TARGET.fullmatch(target.strip())
+            to_book = MACULA_USFM_TO_OSIS.get(match[1]) if match and match[1] else None
+            # Upstream sometimes drops the code ("Song of Solomon 1:1–17|1:1-17"); the display
+            # text still names the book.
+            if match and to_book is None:
+                to_book = SCROLLMAPPER_NAME_TO_OSIS.get(display.rsplit(" ", 1)[0])
+            if not match or to_book is None:
+                unparsed.append(target)
+                continue
+            first = int(match[2])
+            if match[3] is None and to_book in SINGLE_CHAPTER_BOOKS:  # "2JN 1-3" is verses
+                to_verse, to_end = (1, first), (1, int(match[4] or first))
+            elif match[3] is None:  # whole chapters ("PSA 18")
+                last_chapter = int(match[4] or first)
+                to_verse = (first, 1)
+                to_end = (last_chapter, max(v for c, v in order[to_book] if c == last_chapter))
+            elif match[5] is not None:  # "2CH 20:31-21:1"
+                to_verse, to_end = (first, int(match[3])), (int(match[4]), int(match[5]))
+            else:
+                to_verse, to_end = (first, int(match[3])), (first, int(match[4] or match[3]))
+            parallel_rows.append((work_id, heading["book"], heading["chapter"], heading["verse"],
+                                  *end, heading["text"], to_book, *to_verse, *to_end))
+    conn.executemany(
+        "INSERT INTO section_headings (work_id, book, chapter, verse, end_chapter, end_verse, "
+        "level, text) VALUES (?,?,?,?,?,?,?,?)", heading_rows)
+    conn.executemany(
+        "INSERT INTO parallel_passages (work_id, book, chapter, verse, end_chapter, end_verse, "
+        "heading, to_book, to_chapter, to_verse, to_end_chapter, to_end_verse) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", parallel_rows)
+    print(f"{work_id}: {len(heading_rows)} headings, {len(parallel_rows)} parallel passages"
+          + (f", {len(unparsed)} unparsed: {unparsed[:5]}" if unparsed else ""))
+
+
+TIPNR_KINDS = {"PERSON(s)": "person", "PLACE": "place", "PERSON+PLACE": "person+place",
+               "OTHER": "other"}
+# "Exo.4.14", "1Ki.12.18a" (a half-verse suffix STEP adds where a name occurs twice in a verse)
+_STEP_REF = re.compile(r"\b([1-3][A-Z][a-z]|[A-Z][a-z]{2})\.(\d+)\.(\d+)(?!\d)")
+
+
+def ingest_tipnr(conn: sqlite3.Connection) -> None:
+    """STEP's TIPNR: every individual person and place, with family links and every verse.
+
+    Records start with a `$==========` line naming their kind; the next line is the individual,
+    the `–` lines under it each give one name form (with its Strong's number and all its verses),
+    and `@` lines are STEP's prose summaries, of which only @Brief is kept. The file ends in a
+    private section after the © line, and EXCLUDED OTHER records are STEP's own rejects; both are
+    skipped. Its references follow the ESV, so the English scheme.
+    """
+    path = (OPEN_DATA / "stepbible-data" / "Proper Nouns" /
+            "TIPNR - Translators Individualised Proper Names with all References - STEPBible.org CC BY.txt")
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+        ("step-tipnr", None, "TIPNR: Translators Individualised Proper Names with all References",
+         None, "stepbible-data", "https://github.com/ding0t/STEPBible-Data",
+         submodule_commit("stepbible-data"), TODAY, "Creative Commons: BY 4.0", "open",
+         "STEP Bible (www.STEPBible.org), Tyndale House Cambridge"),
+    )
+    name_rows, ref_rows, kind, record = [], set(), None, None
+
+    def clean(value: str) -> str | None:
+        value = re.sub(r"<[^>]+>", "", value).strip().lstrip("#").strip()
+        return value if value and value not in {"+", ">"} else None
+
+    def pair(value: str) -> str | None:  # "Amram@Exo.6.18-1Ch + Jochebed@Exo.6.20-Num"
+        return ", ".join(p.strip() for p in value.split("+") if p.strip()) or None
+
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if line.startswith("©"):
+            break
+        if line.startswith("$"):
+            label = line.split("\t")[0].strip("$= ")
+            kind, record = TIPNR_KINDS.get(label), None
+            continue
+        if kind is None:
+            continue
+        fields = line.split("\t")
+        if record is None:
+            head, _, strongs = fields[0].partition("=")
+            if "@" not in head:
+                continue
+            f = (fields + [""] * 9)[:9]
+            person = kind != "place"
+            record = [
+                "step-tipnr", head.strip(), kind, head.split("@")[0], strongs.strip() or None,
+                clean(f[1]) if person else None, clean(f[8]),
+                pair(f[2]) if person else None,
+                clean(f[3]) if person else None, clean(f[4]) if person else None,
+                clean(f[5]) if person else None, clean(f[6]),
+                None if person else pair(f[2]),
+                None if person else clean(f[3]), clean(f[7]), None,
+            ]
+            name_rows.append(record)
+        elif line.startswith("– ") and not line.startswith("– Total") and len(fields) > 5:
+            strongs, _, form = fields[2].partition("=")
+            sid = strongs.split("«")[0].strip() or None
+            for abbrev, chapter, verse in _STEP_REF.findall(fields[5]):
+                if abbrev in STEP_ABBREV_TO_OSIS:
+                    ref_rows.add(("step-tipnr", record[1], STEP_ABBREV_TO_OSIS[abbrev], int(chapter),
+                                  int(verse), sid, form.strip() or None))
+        elif line.startswith("@Brief="):
+            record[15] = line.split("=", 1)[1].split("\t")[0].strip() or None
+    conn.executemany(
+        "INSERT OR IGNORE INTO proper_names (work_id, name_id, kind, name, strongs, description, type, "
+        "parents, siblings, partners, offspring, group_or_area, founder, inhabitants, summary, brief) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", name_rows)
+    conn.executemany(
+        "INSERT INTO name_references (work_id, name_id, book, chapter, verse, strongs, form) "
+        "VALUES (?,?,?,?,?,?,?)", sorted(ref_rows, key=lambda r: (r[1], r[2], r[3], r[4])))
+    conn.commit()
+    print(f"step-tipnr: {len(name_rows)} individuals, {len(ref_rows)} verse references")
+
+
+GEOCODING_COMMIT = "7eb18a5ee62f27b9b93bd6689ea272d76dd23b8f"
+
+
+def ingest_openbible_geocoding(conn: sqlite3.Connection) -> None:
+    """OpenBible.info's identifications of biblical places, pinned to one commit.
+
+    Each ancient place lists candidate modern sites with a score; the best one gives the
+    coordinates and the rest are kept as alternatives, since a disputed site is a fact a study
+    should state. A place's TIPNR name_id comes from OpenBible's own linked_data.
+    """
+    base = f"https://raw.githubusercontent.com/openbibleinfo/Bible-Geocoding-Data/{GEOCODING_COMMIT}/data"
+    paths = {}
+    for name in ("ancient", "modern"):
+        path = CACHE_DIR / "openbible-geocoding" / f"{name}.jsonl"
+        if not path.exists():
+            path.parent.mkdir(parents=True, exist_ok=True)
+            with urllib.request.urlopen(f"{base}/{name}.jsonl") as response:
+                path.write_bytes(response.read())
+        paths[name] = path
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+        ("openbible-geocoding", None, "OpenBible.info Bible Geocoding Data", None,
+         "openbible-geocoding", "https://github.com/openbibleinfo/Bible-Geocoding-Data",
+         GEOCODING_COMMIT, TODAY, "Creative Commons: BY 4.0", "open", "OpenBible.info"),
+    )
+    # OpenBible links TIPNR's name without the range suffix STEP has since added
+    # ("Capernaum@Mat.4.13" for "Capernaum@Mat.4.13-Jhn"), so join on the name and first verse.
+    tipnr = {re.sub(r"(@[^-]+)-.*$", r"\1", name_id): name_id
+             for (name_id,) in conn.execute("SELECT name_id FROM proper_names")}
+    modern = {}
+    for line in paths["modern"].read_text(encoding="utf-8").splitlines():
+        place = json.loads(line)
+        modern[place["id"]] = place
+    rows = []
+    for line in paths["ancient"].read_text(encoding="utf-8").splitlines():
+        place = json.loads(line)
+        candidates = sorted(((a.get("score", 0), mid, a["name"])
+                             for mid, a in (place.get("modern_associations") or {}).items()),
+                            reverse=True)
+        lon = lat = best_name = best_score = None
+        if candidates:
+            best_score, best_id, best_name = candidates[0]
+            lonlat = (modern.get(best_id) or {}).get("lonlat")
+            if lonlat:
+                lon, lat = (float(x) for x in lonlat.split(","))
+        linked = next((v["id"] for v in (place.get("linked_data") or {}).values()
+                       if "@" in str(v.get("id", ""))), None)
+        name_id = tipnr.get(re.sub(r"(@[^-]+)-.*$", r"\1", linked), linked) if linked else None
+        verses = ";".join(v["readable"] for v in place.get("verses", []))
+        rows.append(("openbible-geocoding", place["id"], place["friendly_id"], name_id,
+                     ",".join(place.get("types", [])), best_name, lon, lat, best_score,
+                     json.dumps([[n, s] for s, _, n in candidates[1:]], ensure_ascii=False),
+                     verses))
+    conn.executemany(
+        "INSERT INTO place_locations (work_id, place_id, name, name_id, types, modern_name, lon, lat, "
+        "score, alternatives, verses) VALUES (?,?,?,?,?,?,?,?,?,?,?)", rows)
+    conn.commit()
+    print(f"openbible-geocoding: {len(rows)} places, {sum(1 for r in rows if r[6] is not None)} "
+          f"with coordinates, {sum(1 for r in rows if r[3])} linked to TIPNR")
 
 
 def ingest_uhg(conn: sqlite3.Connection) -> None:
@@ -1842,6 +2283,11 @@ def main() -> None:
     ingest_unfoldingword_text(conn, "uw-uhb", "uw-uhb", "unfoldingWord Hebrew Bible", "hbo", "hbo_uhb")
     ingest_unfoldingword_text(conn, "uw-ugnt", "uw-ugnt", "unfoldingWord Greek New Testament", "grc", "el-x-koine_ugnt")
     ingest_ult(conn)
+    ingest_berean_release(conn)
+    ingest_berean_literal(conn)
+    ingest_berean_interlinear(conn)
+    ingest_tipnr(conn)
+    ingest_openbible_geocoding(conn)
     ingest_uw_tn_quotations(conn)
     ingest_uhg(conn)
     ingest_dss(conn)

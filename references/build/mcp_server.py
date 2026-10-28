@@ -58,12 +58,16 @@ mcp = FastMCP(
         "\n"
         "WHICH TOOL:\n"
         "1. Starting on a passage -> passage_brief. One call returns versification, book "
-        "introduction, text in each translation you name, interlinear, TWOT roots, "
-        "cross-references, variants and study notes, in exegesis order.\n"
+        "introduction, the BSB section and parallel accounts, text in each translation you name, "
+        "two interlinears (ULT and BSB), TWOT roots, cross-references, variants with the "
+        "translators' edition footnotes, every person and place named, and study notes, in "
+        "exegesis order.\n"
         "2. Several lookups that passage_brief does not cover -> research_batch_run (see "
         "research_batch_tools for what it dispatches). One connection per database instead of one "
         "per call: a measured 9x on study-notes.db across twelve lookups.\n"
-        "3. One specific fact -> the individual tool.\n"
+        "3. One specific fact -> the individual tool. Which individual a name means, and their "
+        "family -> bible_names. Where a passage sits and what tells the same story -> "
+        "bible_section.\n"
         "4. A bare frequency claim (\"basileia occurs N times\"), not the occurrence list -> "
         "bible_concordance with count_only=True. A common word's full list can exceed this "
         "tool's own output limit (G932 unrestricted is 581 rows) and, inside "
@@ -79,6 +83,10 @@ mcp = FastMCP(
         "- Read a lookup's `warning` before concluding anything from an empty result. It says "
         "whether the book code was wrong, the text is in study-notes.db, or another work holds the "
         "book (the Septuagint spans ebible-grcbrent and swete-lxx).\n"
+        "- A name is not a person: there are 29 Zechariahs. bible_names returns individuals, not "
+        "spellings.\n"
+        "- The BSB's section headings and parallel-passage lines are its translators' editorial "
+        "work. Use them as a map and a completeness check, never quote them as Scripture.\n"
         "- An unreachable source is not an answer. If a tool reports available:false, say so and "
         "stop; never substitute recalled verse text. study_status says whether study-notes.db is "
         "reachable and how to fix it if not.\n"
@@ -86,7 +94,9 @@ mcp = FastMCP(
         "QUOTING: every result carries its own license tier. 'open' may be quoted at length; "
         "'restricted-nc' briefly with attribution; 'quotation-only' is a sentence or two with "
         "attribution in a committed file, though unrestricted for lookup and verification. "
-        "bible_works and study_works list the tiers. Default translation is WEB (public domain)."
+        "bible_works and study_works list the tiers. The default translation is the site's reading "
+        "translation, the BSB (public domain, set in references/sources.toml); the WEB is also "
+        "public domain. BLB, YLT and the interlinears are for checking, not quoting."
     ),
 )
 
@@ -147,7 +157,7 @@ def bible_domain(code: str) -> list[dict]:
 @mcp.tool()
 def bible_verse(book: str, chapter: int, verse: int, translation: str | None = None) -> dict[str, object]:
     """Translation text, word-by-word morphology, and any translator/study notes for one
-    verse. translation defaults to WEB; give a code like 'KJV', 'ASV', or 'ebible-heb'.
+    verse. translation defaults to the site's reading translation (the BSB); give a code like 'KJV', 'ASV', or 'ebible-heb'.
     For a range of verses, use bible_passage instead (cheaper -- no morphology noise)."""
     conn = query.connect()
     try:
@@ -226,7 +236,7 @@ def bible_parallel(book: str, chapter: int, verse: int, target: str, source: str
     and Greek count a psalm's superscription as verse 1 and most English editions don't, and which
     a given edition does varies by edition, so it is measured between the two works you name.
     English Psalm 40:6 is LXX Psalm 39:7, the verse Hebrews 10:5 quotes; without the verse step it
-    resolves to 39:6 and returns the wrong text. `source` defaults to the WEB.
+    resolves to 39:6 and returns the wrong text. `source` defaults to the reading translation (the BSB).
     """
     conn = query.connect()
     try:
@@ -278,12 +288,14 @@ def review_gaps(study_path: str, limit: int = 10) -> dict:
     still works; prefer this name.
 
     Reads the study's own primary_passage and bible_references frontmatter, gathers quotation links
-    (derived from the Greek) and openbible cross-references against those passages, subtracts every
-    chapter the study already cites, and ranks what is left with quotations first. Use it during a
-    review pass; a study with neither frontmatter field is invisible to it and reports so.
+    (derived from the Greek), the BSB's parallel accounts and openbible cross-references against
+    those passages, subtracts every chapter the study already cites, and ranks what is left:
+    quotations, then parallel accounts, then cross-references. Use it during a review pass; a study
+    with neither frontmatter field is invisible to it and reports so.
 
-    The two kinds are not equivalent and are kept apart: a quotation at a strong run is a textual
-    fact, a cross-reference is a lead worth chasing. `study_path` is repo-relative, e.g.
+    The kinds are not equivalent and are kept apart: a quotation at a strong run is a textual
+    fact, a parallel account is the translators' judgment that two passages tell one story, a
+    cross-reference is a lead worth chasing. `study_path` is repo-relative, e.g.
     docs/content/last-things/rapture.md
     """
     import sqlite3
@@ -320,7 +332,7 @@ def study_gaps(study_path: str, limit: int = 10) -> dict:
 
 
 @mcp.tool()
-def bible_interlinear(book: str, chapter: int, verse: int) -> dict:
+def bible_interlinear(book: str, chapter: int, verse: int, interlinear: str = "ult") -> dict:
     """Which original-language word each English word renders, for one verse.
 
     Reach for this whenever a study makes something turn on an English word -- before writing "the
@@ -338,10 +350,15 @@ def bible_interlinear(book: str, chapter: int, verse: int) -> dict:
     Greek side is the UGNT, a Bunning Heuristic Prototype text rather than the SBLGNT the rest of
     this database uses: at John 1:34 they differ (υἱός against ἐκλεκτός), so check `bible_verse`
     before resting a New Testament argument on the wording here.
+
+    interlinear="bsb" asks the same of the Berean Interlinear instead: the BSB's English against
+    the WLC and the tables' Nestle-based Greek, with the tables' own parsing codes and no lemma.
+    Run both when a study rests on a rendering: two independent translations that agree are
+    worth more than either alone.
     """
     conn = query.connect()
     try:
-        return query.lookup_interlinear(conn, book, chapter, verse)
+        return query.lookup_interlinear(conn, book, chapter, verse, interlinear=interlinear)
     finally:
         conn.close()
 
@@ -419,6 +436,55 @@ def bible_trace(book: str, chapter: int, verse: int, translation: str | None = N
     conn = query.connect()
     try:
         return query.lookup_trace(conn, book, chapter, verse, translation)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
+def bible_section(book: str, chapter: int, verse: int, verse_end: int | None = None,
+                  from_scheme: str = "english") -> dict:
+    """Where a passage sits in its book, and which passages tell the same story.
+
+    Returns the BSB section headings whose span covers the range (every level: the psalter's five
+    books, a section, a sub-section, an acrostic letter), the passages the BSB's translators mark
+    as parallel to those sections, and `parallel_to` -- sections elsewhere that name this range as
+    their parallel. Matthew 6:9 sits in "The Lord's Prayer" (6:5-15), parallel Luke 11:1-4.
+
+    Run it before writing on any gospel passage, anything in Samuel-Kings-Chronicles, or a psalm
+    with a historical title: a parallel account the study never mentions is the omission a reader
+    most often catches. The headings and parallels are editorial, the translators' reading -- a
+    map and a completeness check, never evidence and never to be quoted as Scripture.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_section(conn, book, chapter, verse, verse_end, from_scheme)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
+def bible_names(name: str | None = None, book: str | None = None, chapter: int | None = None,
+                verse: int | None = None, verse_end: int | None = None) -> dict:
+    """Which individual a name means: every person and place by name, or everyone in a passage.
+
+    From STEP's TIPNR (CC BY 4.0), one entry per INDIVIDUAL, not per spelling: "Zechariah" returns
+    29 people, each with parents, siblings, spouses, children, tribe, a one-line description and
+    every verse naming them. Use it before a study writes a name -- which Zechariah, which Mary,
+    which Herod -- and before it states a family link. A link with a suffix is looser than it
+    looks: (a) ancestor rather than parent, (d) a people descended from them, (f) founder, (?)
+    STEP's judgment where the text is ambiguous; say so in the study rather than state it flat.
+
+    A place also gets its location from OpenBible.info (CC BY 4.0): the best-scoring modern site,
+    a confidence score out of 1000, and the alternatives. A low score or a close runner-up means
+    the site is disputed (Emmaus: six candidates, the best at 338), and a study should say that
+    rather than name one site as fact.
+
+    Pass `name` (exact, case-insensitive, ESV spelling), or book/chapter/verse for everyone the
+    passage names.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_names(conn, name, book, chapter, verse, verse_end)
     finally:
         conn.close()
 
@@ -621,8 +687,11 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
 
     **Start here when you begin work on a passage.** It assembles what would otherwise be a dozen
     separate calls: versification, book introduction, text in each requested translation,
-    interlinear with morphology, TWOT roots for the Hebrew, cross-references with shared wording,
-    Dead Sea Scroll divergence, study notes, and the studies on this site that already treat the
+    the BSB section the passage sits in with its parallel accounts (`structure` -- Luke 11:1-4 for
+    Matthew 6:9-13), the ULT and BSB interlinears with morphology, TWOT roots for the Hebrew,
+    cross-references with shared wording, Dead Sea Scroll divergence, the translators' footnotes
+    naming which Greek editions read a variant (`translator_notes`), every person and place the
+    passage names, disambiguated (`names`), study notes, and the studies on this site that already treat the
     chapter (`existing_studies`: role primary/cited/prose, and `overlaps_passage` when a study's
     own references cover these verses) -- link to or build on those rather than re-arguing them.
 
@@ -630,10 +699,10 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
     address and getting it wrong is silent: Hebrew Joel 3:1 is English Joel 2:28, LXX Psalm 22 is
     English Psalm 23. When the schemes disagree the brief says so explicitly.
 
-    translations accepts open-tier codes (WEB, ASV, KJV, YLT) and commercial ones (ESV, NIV, NKJV,
-    CSB, NASB, LSB, NA28) interchangeably -- each is routed to the database that actually holds it.
-    include narrows the sections: addressing, historical, text, words, crossrefs, variants, notes,
-    studies.
+    translations accepts open-tier codes (WEB, BSB, MSB, BLB, ASV, KJV, YLT) and commercial ones
+    (ESV, NIV, NKJV, CSB, NASB, LSB, NA28) interchangeably -- each is routed to the database that
+    actually holds it. include narrows the sections: addressing, historical, structure, text,
+    words, crossrefs, variants, names, notes, studies.
 
     Per-verse detail is capped at 12 verses and says when it truncated; text covers the whole
     range. An empty section where `diagnostics.unavailable_sources` names a source is a gap in the

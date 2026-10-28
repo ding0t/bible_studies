@@ -120,6 +120,13 @@ def _resolve_path(spec: str) -> Path:
     return REPO_ROOT / spec
 
 
+def reading_translation() -> dict:
+    """The open translation readers see where the ESV cannot go: work_id, code, name, licence, and
+    the fallback for verses it omits. Every exporter that writes reader-facing verse text reads
+    this, and writes it into its own output, so the hooks and the browser never name a translation."""
+    return dict(catalog()["reading_translation"])
+
+
 def source_trees() -> dict[str, dict]:
     """The open-data/ and restricted-data/ trees. The directory a source sits in IS the licence
     audit boundary -- this describes it, it does not replace it."""

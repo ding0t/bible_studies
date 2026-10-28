@@ -39,8 +39,8 @@ def test_all_unfoldingword_sources_ingested(conn):
 
 def test_alignment_covers_both_testaments(conn):
     """A regression here would most likely be a parser that silently stopped at one testament."""
-    ot = conn.execute("SELECT COUNT(*) FROM word_alignment WHERE book='Gen'").fetchone()[0]
-    nt = conn.execute("SELECT COUNT(*) FROM word_alignment WHERE book='John'").fetchone()[0]
+    ot = conn.execute("SELECT COUNT(*) FROM word_alignment WHERE work_id='uw-ult' AND book='Gen'").fetchone()[0]
+    nt = conn.execute("SELECT COUNT(*) FROM word_alignment WHERE work_id='uw-ult' AND book='John'").fetchone()[0]
     assert ot > 1000 and nt > 1000
 
 
@@ -96,7 +96,7 @@ def test_footnotes_ingested_for_all_three_texts(conn):
     which made `query.py passage --notes` a flag that silently returned nothing for every passage
     in every work. Counts are pinned exactly against a raw grep of the USFM: 949 + 22 + 326."""
     counts = dict(conn.execute(
-        "SELECT work_id, COUNT(*) FROM notes GROUP BY work_id"))
+        "SELECT work_id, COUNT(*) FROM notes WHERE work_id LIKE 'uw-%' GROUP BY work_id"))
     assert counts == {"uw-uhb": 949, "uw-ugnt": 22, "uw-ult": 326}
 
 
@@ -147,7 +147,7 @@ def test_notes_reach_the_verse_and_passage_lookups(conn):
     assert any(n["text"].startswith("Qere: ") for n in verse["notes"])
     passage = query.lookup_passage(
         conn, "Ruth", 2, 1, 3, translation="ebible-eng-web", include_notes=True)
-    assert {n["work_id"] for n in passage["notes"]} == {"uw-uhb", "uw-ult"}
+    assert {"uw-uhb", "uw-ult"} <= {n["work_id"] for n in passage["notes"]}
 
 
 def test_psalm_superscriptions_are_ingested_as_verse_zero(conn):

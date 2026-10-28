@@ -209,15 +209,18 @@ CREATE TABLE cross_references (     -- verse-to-verse, translation-independent
 CREATE INDEX idx_xref_from ON cross_references(from_book, from_chapter, from_verse);
 
 CREATE TABLE word_alignment (       -- which original-language word each English word renders,
-                                    -- from unfoldingWord's ULT. Nothing else in this database
+                                    -- from unfoldingWord's ULT and the Berean Interlinear (BSB).
+                                    -- Filter on work_id: the two are separate
+                                    -- translations. Nothing else in this database
                                     -- answers "which Hebrew word is this English word?" -- the
                                     -- morphology table describes original words, and the
                                     -- translations sit beside them unlinked.
-    work_id TEXT NOT NULL REFERENCES works(work_id),   -- the English side (uw-ult)
+    work_id TEXT NOT NULL REFERENCES works(work_id),   -- the English side: uw-ult or berean-bib
     book TEXT NOT NULL, chapter INTEGER NOT NULL, verse INTEGER NOT NULL,
     english TEXT NOT NULL,           -- the English words this alignment frame encloses
     content TEXT NOT NULL,           -- the original-language word they render
-    lemma TEXT, strong TEXT, morph TEXT,
+    lemma TEXT, strong TEXT, morph TEXT,  -- berean-bib: no lemma, strong unpadded ('H7225'),
+                                          -- morph the tables' own parsing code
     -- MANY-TO-MANY, deliberately. USFM nests alignment frames, so two original words can enclose
     -- one English phrase and one original word can enclose several English words. Each frame
     -- becomes its own row rather than being flattened: Genesis 1:1's "the heavens" is genuinely
@@ -267,3 +270,86 @@ CREATE TABLE grammar_articles (     -- unfoldingWord Hebrew Grammar, one row per
     PRIMARY KEY (work_id, slug)
 );
 CREATE INDEX idx_grammar_slug ON grammar_articles(slug);
+
+CREATE TABLE section_headings (     -- a translation's own section headings (BSB). Editorial: the
+                                    -- translators' reading of where a passage turns, never Scripture
+                                    -- and never to be quoted as it.
+    work_id TEXT NOT NULL REFERENCES works(work_id),
+    book TEXT NOT NULL,
+    chapter INTEGER NOT NULL, verse INTEGER NOT NULL,          -- first verse under the heading
+    end_chapter INTEGER NOT NULL, end_verse INTEGER NOT NULL,  -- last verse before the next heading
+                                                               -- of the same or a higher level
+    level TEXT NOT NULL,            -- 's1' section, 's2' sub-section, 'ms' major division (the five
+                                    -- books of Psalms), 'd' a heading with no verse of its own,
+                                    -- 'qa' an acrostic letter (Psalm 119)
+    text TEXT NOT NULL
+);
+CREATE INDEX idx_headings_ref ON section_headings(book, chapter, verse);
+
+CREATE TABLE parallel_passages (    -- passages the translators mark as telling the same thing:
+                                    -- the synoptic gospels, Kings beside Chronicles, a psalm beside
+                                    -- the narrative it belongs to. One row per target, from the BSB's
+                                    -- parallel-passage line under a section heading; the from-range
+                                    -- is that section.
+    work_id TEXT NOT NULL REFERENCES works(work_id),
+    book TEXT NOT NULL,
+    chapter INTEGER NOT NULL, verse INTEGER NOT NULL,
+    end_chapter INTEGER NOT NULL, end_verse INTEGER NOT NULL,
+    heading TEXT,                   -- the section heading the line sits under
+    to_book TEXT NOT NULL,
+    to_chapter INTEGER NOT NULL, to_verse INTEGER NOT NULL,
+    to_end_chapter INTEGER NOT NULL, to_end_verse INTEGER NOT NULL
+);
+CREATE INDEX idx_parallels_ref ON parallel_passages(book, chapter, verse);
+CREATE INDEX idx_parallels_to ON parallel_passages(to_book, to_chapter, to_verse);
+
+CREATE TABLE proper_names (         -- every individual person, place and named thing, from STEP's
+                                    -- TIPNR. One row per INDIVIDUAL, not per name: the eight
+                                    -- Zechariahs are eight rows, which is the point.
+    work_id TEXT NOT NULL REFERENCES works(work_id),
+    name_id TEXT NOT NULL,          -- STEP's unique name, e.g. 'Aaron@Exo.4.14-Heb' (first mention)
+    kind TEXT NOT NULL,             -- 'person' | 'place' | 'person+place' | 'other'
+    name TEXT NOT NULL,
+    strongs TEXT,                   -- STEP's disambiguated Strong's for the name ('H0175')
+    description TEXT,               -- person/other: 'High Priest living at the time of ...'
+    type TEXT,                      -- person: Male/Female; place: Place; other: Supernatural, Language ...
+    parents TEXT,                   -- these four hold name_ids, comma-separated. A suffix marks a
+    siblings TEXT,                  -- looser link: (a) ancestor rather than parent, (d) a people
+    partners TEXT,                  -- descended from them, (f) founder, (?) STEP's judgment on an
+    offspring TEXT,                 -- ambiguous text. Read those before treating a link as a fact.
+    group_or_area TEXT,             -- person: tribe or nation; place: geographical area
+    founder TEXT,                   -- place only
+    inhabitants TEXT,               -- place only
+    summary TEXT,                   -- STEP's one-paragraph summary, assembled from the fields above
+    brief TEXT                      -- STEP's '@Brief' line
+);
+CREATE INDEX idx_names_name ON proper_names(name COLLATE NOCASE);
+CREATE UNIQUE INDEX idx_names_id ON proper_names(work_id, name_id);
+
+CREATE TABLE name_references (      -- every verse naming an individual, so 'which Zechariah is in
+                                    -- this verse?' has an answer
+    work_id TEXT NOT NULL REFERENCES works(work_id),
+    name_id TEXT NOT NULL,
+    book TEXT NOT NULL, chapter INTEGER NOT NULL, verse INTEGER NOT NULL,
+    strongs TEXT,
+    form TEXT                       -- the Hebrew/Greek form named, when the source gives one
+);
+CREATE INDEX idx_namerefs_ref ON name_references(book, chapter, verse);
+CREATE INDEX idx_namerefs_id ON name_references(name_id);
+
+CREATE TABLE place_locations (      -- where a biblical place is thought to be, from OpenBible.info.
+                                    -- An identification is a scholar's judgment, often disputed:
+                                    -- score says how confident, alternatives what else is proposed.
+    work_id TEXT NOT NULL REFERENCES works(work_id),
+    place_id TEXT NOT NULL,         -- OpenBible's own id
+    name TEXT NOT NULL,
+    name_id TEXT,                   -- the TIPNR name_id OpenBible links, when it links one
+    types TEXT,                     -- comma-separated: settlement, river, mountain ...
+    modern_name TEXT,               -- the best-scoring identification
+    lon REAL, lat REAL,
+    score INTEGER,                  -- OpenBible's confidence in that identification, 0-1000
+    alternatives TEXT,              -- JSON list of [modern_name, score] for the rest
+    verses TEXT                     -- semicolon-separated 'Book C:V', as OpenBible lists them
+);
+CREATE INDEX idx_places_name ON place_locations(name COLLATE NOCASE);
+CREATE INDEX idx_places_nameid ON place_locations(name_id);

@@ -44,7 +44,7 @@ import versification
 
 REPO = Path(__file__).resolve().parents[2]
 OUT = REPO / "docs" / "content" / "assets" / "lang"
-ENGLISH = {"web": "ebible-eng-web", "bsb": "scrollmapper-BSB", "ult": "uw-ult"}
+ENGLISH = {"web": "ebible-eng-web", "bsb": "berean-bsb", "ult": "uw-ult"}
 MACULA = ("macula-greek-sblgnt", "macula-hebrew-wlc")
 RENDERINGS = 8
 WORD_FIELDS = ["surface", "strongs", "lemma", "morph", "gloss", "domain", "class", "role",
@@ -151,7 +151,7 @@ def main() -> None:
 
     renderings: dict[str, Counter] = defaultdict(Counter)
     for r in conn.execute("SELECT book, chapter, verse, english, content, lemma, strong "
-                          "FROM word_alignment ORDER BY rowid"):
+                          "FROM word_alignment WHERE work_id='uw-ult' ORDER BY rowid"):
         greek = (r["strong"] or "").lstrip("c:").startswith("G") or r["book"] not in old_testament
         sid = strongs_id(r["strong"], greek)
         verse = verse_at((r["book"], r["chapter"], r["verse"]))

@@ -76,7 +76,7 @@ Recommend moves of three kinds, each with the words it saves:
    from it can shrink to its bare citation, which keeps the citation and so fits the rule. The
    same goes for a gloss list or an occurrence list beside a word tagged with its Strong's number,
    because the word's card shows both. Keep the count or claim the argument uses and drop the list.
-   Keep every quotation the argument stands on: the pop-up shows the WEB rather than the translation
+   Keep every quotation the argument stands on: the pop-up shows the reading translation (the BSB) rather than the translation
    argued from, and a study read aloud shows nothing. Block quotes are not counted toward the
    budget, so this saves budget words only on inline quotation and paraphrase. Either way it
    saves the reader time.

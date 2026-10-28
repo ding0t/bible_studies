@@ -53,8 +53,9 @@ It reports two things. **Undocumented** (exit 1) is a directory under `open-data
 `restricted-data/` that this file never mentions — add a row. **raw-only** is a source that *is*
 documented but that `build.py` does not ingest, so `query.py` and the MCP tools cannot see it and it
 must be read as raw files; that list is currently `greek-resources`, `hebrew-lexicon`,
-`scrollmapper-bible-databases-deuterocanonical`, `stepbible-data`, `strongs`, `bhsa` and
-`mounce-dictionary`. Which ingests exist is read out of `build.py` itself, so adding one updates the
+`scrollmapper-bible-databases-deuterocanonical`, `strongs`, `bhsa` and `mounce-dictionary`.
+`stepbible-data` counts as ingested because its TIPNR proper-names file is; its lexicons and tagged
+Bibles are still read as raw files. Which ingests exist is read out of `build.py` itself, so adding one updates the
 check for free.
 
 ### The source catalog (`references/sources.toml`)
@@ -203,6 +204,59 @@ Once a source is 🟡: same fork/submodule process, but the target is `reference
 
 See the [develop-bible-study skill](https://github.com/ding0t/bible_studies/blob/main/.claude/skills/develop-bible-study/SKILL.md) for how the resulting data gets used, and keep anything not ✅ or 🟡 out of `references/` entirely — that's what makes this repo safe to make public again (or to monetize, for the 🟡 tier) without a content audit.
 
+## Berean: the BSB, the MSB, the Literal Bible and the Interlinear
+
+The BSB's translators release everything public domain (dedicated 2023-04-30,
+[berean.bible/terms.htm](https://berean.bible/terms.htm)). Added 2026-10-28 from two places, both
+fetched by `build.py` into the gitignored `build/cache/`:
+
+- **The BSB and MSB** from the [bsb2usfm](https://github.com/BSB-publishing/bsb2usfm) release
+  `BEREAN_RELEASE` (v5.19), the publisher's own pipeline. The BSB used to come from scrollmapper;
+  that copy pushed every list line into the following verse (1 Chronicles 1:29 lost Nebaioth to
+  1:30, about 2,400 verses in all) and predated the current revision (John 2:4), so it is no
+  longer ingested. Em dashes are closed up to match print.
+- **The BLB and the interlinear tables** from the berean.bible download page, which has no git
+  source. Each file's SHA-256 is its `source_commit`; delete the cache to take an update.
+
+| work_id | what | note |
+|---|---|---|
+| `berean-bsb` | Berean Standard Bible, 31,086 verses, 4,854 footnotes | quotable at any length. Footnotes give the translators' "Or ..." alternatives and textual notes |
+| `berean-msb` | Majority Standard Bible, 31,098 verses, 6,646 footnotes | the Majority (Byzantine) Greek text in English: Matthew 6:13's doxology, John 7:53-8:11. Its footnotes name the critical text's reading ("CT does not include ..."). Pair with `scrollmapper-Byz` |
+| `berean-blb` | Berean Literal Bible, 31,086 verses | upstream calls it "an early draft version"; [brackets] mark supplied words. A literal cross-check, not a quotation source |
+| `berean-bib` | Berean Interlinear: the BSB translation tables, 386,071 rows in `word_alignment` | each Hebrew, Aramaic or Greek word with its Strong's number, parsing and BSB English, in original-language order. `query.py interlinear <book> <ch> <v> --interlinear bsb`, or `bible_interlinear(..., interlinear="bsb")`. No lemma; Greek is the tables' Nestle base text |
+
+Both texts' footnotes go into `notes`, so `bible_verse` and `bible_passage --notes` return them
+with every other work's.
+
+**`section_headings` and `parallel_passages` — the BSB's structure.** 3,150 headings at five levels
+and 2,028 parallel accounts, from the BSB's `\s1`/`\r` lines. `query.py section <book> <ch> <v>`
+or `bible_section`: Matthew 6:9 sits in "The Lord's Prayer" (6:5-15), parallel Luke 11:1-4.
+`passage_brief` returns it as `structure`, and `study_gaps`/`review_gaps` report a parallel
+account a study never cites. Editorial: a map and a completeness check, never quoted as Scripture.
+Two upstream lines drop the book code ("Song of Solomon 1:1–17|1:1-17"); the display text
+supplies it.
+
+[BSB-publishing/bsb-data-output](https://github.com/BSB-publishing/bsb-data-output) re-cuts the
+same material, plus STEP and OpenBible data, without transliteration or parsing; the originals are
+used instead. The Berean Emphasized Bible is unreleased.
+
+## People and places: STEP's TIPNR and OpenBible geocoding
+
+**`proper_names` and `name_references` — who a name means.** From `open-data/stepbible-data`'s
+TIPNR (CC BY 4.0, STEP Bible / Tyndale House): 4,248 individuals (3,133 people, 1,003 places, 10
+both, 102 other) and 32,873 verse references. One row per individual, so "Zechariah" is 29
+people, each with parents, siblings, spouses, children and tribe as STEP name_ids. A suffix on a
+link is a looser relation: (a) ancestor, (d) descendant people, (f) founder, (?) STEP's judgment
+on an ambiguous text. Only the `@Brief` summary is kept. `query.py names Zechariah`, `query.py
+names --book Exod --chapter 4 --verse 14`, or `bible_names`; `passage_brief` returns `names`.
+`build/genealogy_check.py` compares this site's genealogy with it.
+
+**`place_locations` — where a place is thought to be.** OpenBible.info's
+[Bible Geocoding Data](https://github.com/openbibleinfo/Bible-Geocoding-Data) (CC BY 4.0), pinned
+to commit `7eb18a5`: 1,342 places, 1,335 with coordinates. Each keeps its best identification's
+score (0-1000) and the alternatives, because many sites are disputed: Emmaus has six candidates,
+the best at 338. 1,172 link to a TIPNR individual; `bible_names` attaches the location.
+
 ## unfoldingWord: the alignment and the grammar
 
 Four CC BY-SA 4.0 sources submoduled 2026-09-05 and wired end to end, and a fifth, the Translation Notes, added 2026-10-20 for the quotations it names. They answer two questions
@@ -211,8 +265,9 @@ nothing else here could.
 **`word_alignment` — which original word each English word renders.** 475,036 rows from ULT, whose
 USFM wraps every English word in a frame naming the Hebrew or Greek behind it. Query with
 `query.py interlinear <book> <ch> <v>` or the `bible_interlinear` MCP tool. Everything else in this
-database describes one side or the other; this is the only link between them, and it is the cheapest
-guard against a study resting a point on a translator's choice.
+database describes one side or the other; this and the Berean Interlinear (below) are the only links
+between them, and they are the cheapest guard against a study resting a point on a translator's
+choice.
 
 **It is many-to-many, and stays that way.** Genesis 1:1's "the heavens" comes back twice, rendering
 both אֵת and הַשָּׁמַיִם, because the object marker has no English of its own and the alignment
