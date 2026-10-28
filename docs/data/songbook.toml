@@ -9,16 +9,22 @@
 #   group       Which part of the page it sits in: israel | psalms | first-church | heaven | early-church
 #   sung_by     Who sang it first.
 #   occasion    What had just happened, with the verse that says so.
-#   first_line  Its opening words in the WEB (public domain), or a translation marked in `source`.
-#   source      Optional. Where first_line comes from, when it is not the WEB.
+#   first_line  Its opening words in the translation `first_line_source` names (below), or one
+#               marked in `source`.
+#   source      Optional. Where first_line comes from, when it is not `first_line_source`.
 #   tune        Optional. What the song's title says about its tune or setting, after tune_hebrew
 #               (the Hebrew words of the title). The melodies themselves are lost.
-#   words       Optional. The whole song, line by line, for a song whose words are not in the WEB.
-#               Every other song's words are exported from the WEB by
+#   words       Optional. The whole song, line by line, for a song whose words are not in Scripture.
+#               Every other song's words are exported from the site's reading translation
+#               (references/sources.toml [reading_translation]) by
 #               references/build/export_songbook.py into docs/data/songbook-words.json.
 #   sing_when   Occasions from OCCASIONS in hooks/songbook.py. An unknown one is logged at build.
 #   jesus       Optional. sang | quoted | sung-to: how Jesus is connected to the song.
 #   jesus_note  Required with `jesus`. The verse that shows it, and how sure it is.
+
+# The translation every first_line below quotes. They were written from the WEB before the site's
+# reading translation became the BSB (2026-10-28); change this when they are rewritten.
+first_line_source = "WEB"
 
 # --- Songs of Israel, outside the Psalter ----------------------------------------------------------
 

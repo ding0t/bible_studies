@@ -10,7 +10,7 @@ beside the title opens the block and jumps to it, since a leader decides to prin
 
 | Page | What is on it |
 |---|---|
-| 1 | Title, `primary_passage`; the point (the thesis); Open: the first `questions:` frontmatter entry, else "what comes to mind when you hear …"; Read it aloud: `primary_passage` in WEB; Look closer: say / meant then / means for us, to write in |
+| 1 | Title, `primary_passage`; the point (the thesis); Open: the first `questions:` frontmatter entry, else "what comes to mind when you hear …"; Read it aloud: `primary_passage` in the reading translation; Look closer: say / meant then / means for us, to write in |
 | 2 | The primary graphic, as large as the page allows (the first comic, else the first drawn SVG that is a diagram rather than a 100-unit feast emblem); the study in brief: the Study outline, beside a tall graphic, under a wide one, or with room for notes when there is no graphic |
 | 3 | The questions under the Study outline's steps, in the outline's order, each step's badge carrying its share of Discover and Wrestle's minutes (12–35, by question count); a step with no questions keeps its heading. Unmatched questions go under "Talk it over". A study with no outline of two or more steps groups them by facet under Discover 12–25 and Wrestle 25–35 instead. Each question gets the same ruled space whatever its length |
 | 4 | Be transformed 35–40: the study's Be transformed question with room to answer, then its think / attitude / do; Memory verse: the first one; Pray together: the study's prayer; notes; QR code and URL back to the full study |
@@ -21,7 +21,8 @@ is the exception: its text is drawn into the SVG for the web (bubbles at 14.5 of
 comic scaled to a page's height prints it at about 7 pt.
 
 Everything is lifted from the rendered page, so the sheet adds no claims and needs no
-verification of its own. The passage is in WEB because it is printed at length; ESV appears only
+verification of its own. The passage is in the site's reading translation (`references/sources.toml`
+`[reading_translation]`, the BSB) because it is printed at length; ESV appears only
 where the study already quotes it (questions, memory verse), under the same notice as the memory
 verse cards.
 

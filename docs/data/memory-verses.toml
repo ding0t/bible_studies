@@ -11,7 +11,8 @@
 #   set    Optional. A page shows one set with <!-- memory-verses: <set> -->, or every verse with
 #          <!-- memory-verses -->. Cards print in the order they appear here.
 
-translations = ["ESV", "WEB"]
+# "reading" is the site's reading translation, set once in references/sources.toml [reading_translation].
+translations = ["ESV", "reading"]
 
 [[verse]]
 ref = "Genesis 1:1"

@@ -3,7 +3,8 @@
 Four A4 pages, two sheets printed double-sided, for a 40-minute small group or a study with a
 friend, set at 12 pt for older eyes:
 
-- page 1  the point, an opening question, the primary passage to read aloud (WEB) and a "look
+- page 1  the point, an opening question, the primary passage to read aloud (the site's reading
+          translation, named in the pop-up verse data it comes from) and a "look
           closer" box to write in.
 - page 2  the study's primary graphic (its comic, else its first drawn diagram) as large as the
           page allows, and the Study outline as "the study in brief".
@@ -210,9 +211,11 @@ _BOOK_NAMES = "|".join(sorted(map(re.escape, _BOOKS), key=len, reverse=True))
 # A reference with or without its book ("John 4:13", "4:13"), or a whole chapter ("Matthew 24").
 _SCAN = re.compile(rf"(?:\b({_BOOK_NAMES})\s+)?(?<![\d:])(\d+)(?::(\d+)(?:[-–](\d+)(?![\d:]))?)?(?![\d:])")
 
-_NOTICE = "Scripture: WEB, public domain · ESV® © 2001 Crossway, used by permission"
-
 _verses: dict[str, dict] = {}
+
+
+def _notice(t: dict) -> str:
+    return f"Scripture: {t['code']}, {t['licence']} · ESV® © 2001 Crossway, used by permission"
 
 
 def on_config(config):
@@ -246,13 +249,16 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
     title = page.meta.get("title") or page.title
     graphic = _graphic(page, config, article)
     layout = graphic["shape"] if graphic else "none"
-    read = _read(_passages(page.meta.get("primary_passage"), config))
+    passages = _passages(page.meta.get("primary_passage"), config)
+    read = _read(passages)
+    t = _translation(config)
+    notice = _notice(t)
     url = page.canonical_url
 
     head = f'<header class="ss-head ss-head-back"><h2>{escape(title)}</h2></header>'
 
     def foot(n: int) -> str:
-        return f"""<footer class="ss-foot"><span>Page {n} of 4 · print double-sided, flip on long edge</span><span>{_NOTICE}</span></footer>"""
+        return f"""<footer class="ss-foot"><span>Page {n} of 4 · print double-sided, flip on long edge</span><span>{notice}</span></footer>"""
 
     p1 = f"""<section class="ss-sheet ss-p1" aria-label="Study sheet, page 1">
   <header class="ss-head">
@@ -263,7 +269,7 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
   <p class="ss-point"><b>The point</b> {_clean(point)}</p>
   <div class="ss-main">
     <div class="ss-open">{_badge("open")}<p>{_opener(page.meta, title)}</p></div>
-    <div class="ss-read"><span class="ss-h">{_badge("read")}Read it aloud <small>WEB</small></span>{read}</div>
+    <div class="ss-read"><span class="ss-h">{_badge("read")}Read it aloud <small>{escape(t["code"])}</small></span>{read}</div>
     <div class="ss-look"><span class="ss-h">{_badge("discover")}Look closer</span>
       <div class="ss-look-rows"><div><b>What does it say?</b><i></i></div><div><b>What did it mean to them?</b><i></i></div><div><b>What does it mean for us?</b><i></i></div></div>
     </div>
@@ -298,7 +304,7 @@ def render_sheet(page, config, article: str, point: str, questions: list[str]) -
   {foot(4)}
 </section>"""
 
-    two = _two_pages(page, article, point, plan, respond, title, qr) if plan else ""
+    two = _two_pages(page, article, point, plan, respond, title, qr, notice) if plan else ""
     option = ('<label><input type="checkbox" class="ss-opt-two"> Two pages <small>one sheet: each '
               'step of the study with its questions</small></label>') if two else ""
     return f"""
@@ -386,16 +392,28 @@ def _passages(value, config) -> list[dict]:
         if not book:
             log.warning("study_sheet: no book in %r", part)
             continue
-        verses = _range(_chapters(book, config), book, m)
+        borrowed = set(_book(book, config).get("f", []))
+        verses = [(c, v, t + (f" [{_translation(config)['fallback']['code']}]" if f"{c}:{v}" in borrowed else ""))
+                  for c, v, t in _range(_chapters(book, config), book, m)]
         out.append({"ref": part if m["book"] else f"{name} {part}", "verses": verses})
     return out
 
 
-def _chapters(book: str, config) -> dict:
+def _book(book: str, config) -> dict:
     if book not in _verses:
         path = Path(config.docs_dir) / "assets" / "popups" / "verses" / f"{book}.json"
-        _verses[book] = json.loads(path.read_text(encoding="utf-8"))["v"]
+        _verses[book] = json.loads(path.read_text(encoding="utf-8"))
     return _verses[book]
+
+
+def _chapters(book: str, config) -> dict:
+    return _book(book, config)["v"]
+
+
+def _translation(config) -> dict:
+    """The reading translation, as export_popups.py recorded it in the verse data this sheet
+    prints from -- so the label can never disagree with the text."""
+    return _book("Gen", config)["t"]
 
 
 def _range(chapters: dict, book: str, m: re.Match) -> list[tuple[int, int, str]]:
@@ -583,7 +601,8 @@ def _transform(article: str, respond: list[str], first: int, cls: str = "ss-q") 
     return qs, tad
 
 
-def _two_pages(page, article: str, point: str, plan, respond: list[str], title: str, qr: str) -> str:
+def _two_pages(page, article: str, point: str, plan, respond: list[str], title: str, qr: str,
+               notice: str) -> str:
     """One sheet that walks the Study outline, for a leader who does not know the study well: each
     step with its key verses, then straight away the questions that belong to it. The hook writes
     the blocks in order onto page 1; ssFlow carries what does not fit over to page 2."""
@@ -618,7 +637,7 @@ def _two_pages(page, article: str, point: str, plan, respond: list[str], title: 
             blocks.append(f'<div class="ss-b ss-tad">{tad}</div>')
 
     def foot(n: int) -> str:
-        return f'<footer class="ss-foot"><span>Page {n} of 2 · print double-sided, flip on long edge</span><span>{_NOTICE}</span></footer>'
+        return f'<footer class="ss-foot"><span>Page {n} of 2 · print double-sided, flip on long edge</span><span>{notice}</span></footer>'
 
     return f"""<div class="ss-set ss-two">
 <section class="ss-sheet ss-t1" aria-label="Two-page study sheet, page 1">

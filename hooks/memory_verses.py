@@ -42,9 +42,14 @@ _FONTS = ("https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wght@400;6
 _CUTS_X = (10, 105, 200)
 _CUTS_Y = (10, 77.5, 145, 212.5, 280)
 
-_NOTICE = "ESV® © 2001 Crossway, used by permission · WEB public domain · TAHOT/TAGNT STEPBible.org CC BY"
+_data: dict = {"verses": [], "sources": {}, "reading": ""}
 
-_data: dict = {"verses": [], "sources": {}}
+
+def _notice() -> str:
+    reading = _data["reading"]
+    licence = _data["sources"].get(reading, "").split(", ")[-1]
+    return (f"ESV® © 2001 Crossway, used by permission · {reading} {licence} · "
+            "TAHOT/TAGNT STEPBible.org CC BY")
 
 
 def _json_path(config) -> Path:
@@ -59,7 +64,7 @@ def on_serve(server, config, builder):  # noqa: ARG001 - hook signature
 
 def on_config(config):
     path = _json_path(config)
-    _data.update({"verses": [], "sources": {}})
+    _data.update({"verses": [], "sources": {}, "reading": ""})
     try:
         _data.update(json.loads(path.read_text(encoding="utf-8")))
     except FileNotFoundError:
@@ -107,7 +112,7 @@ def render_deck(verses: list[dict], deck_id: str) -> str:
     <fieldset>
       <legend>Show</legend>
       <label><input type="checkbox" class="mv-opt-gloss" checked> Word glosses</label>
-      <label><input type="checkbox" class="mv-opt-web" checked> WEB alongside ESV</label>
+      <label><input type="checkbox" class="mv-opt-second" checked> {escape(_data["reading"])} alongside ESV</label>
     </fieldset>
     <button type="button" class="md-button md-button--primary" onclick="window.print()">Print</button>
   </form>
@@ -146,7 +151,7 @@ def _sheet(kind: str, cards: list[str], index: int, total: int, side: str = "") 
     return f"""<section class="mv-sheet {kind}" aria-label="{label}">
   {ticks}<span class="mv-scissors" aria-hidden="true">✂</span>
   <div class="mv-grid">{''.join(cards)}</div>
-  <footer class="mv-sheet-foot"><span>{label}</span><span>{_NOTICE}</span></footer>
+  <footer class="mv-sheet-foot"><span>{label}</span><span>{_notice()}</span></footer>
 </section>"""
 
 
@@ -170,7 +175,7 @@ def _full(verse: dict | None, number: int) -> str:
 def _front(verse: dict | None, number: int) -> str:
     if verse is None:
         return _blank(number)
-    cue_source = verse["translations"].get("ESV") or verse["translations"]["WEB"]
+    cue_source = verse["translations"].get("ESV") or verse["translations"][_data["reading"]]
     incipit = verse["words"][0]
     hebrew = verse["language"] == "hebrew"
     boxes = "".join(f"<span><i></i>{d}</span>" for d in _REVIEW_DAYS)
@@ -198,12 +203,13 @@ def _translit(word: dict) -> str:
 
 
 def _english(translations: dict) -> str:
-    esv, web = translations.get("ESV"), translations.get("WEB")
-    if esv and web and _same(esv, web):
-        return f'<p class="mv-en">{escape(esv)} <cite>ESV · WEB</cite></p>'
+    code = _data["reading"]
+    esv, second = translations.get("ESV"), translations.get(code)
+    if esv and second and _same(esv, second):
+        return f'<p class="mv-en">{escape(esv)} <cite>ESV · {escape(code)}</cite></p>'
     out = f'<p class="mv-en">{escape(esv)} <cite>ESV</cite></p>' if esv else ""
-    if web:
-        out += f'<p class="mv-en{" mv-en-second" if esv else ""}">{escape(web)} <cite>WEB</cite></p>'
+    if second:
+        out += f'<p class="mv-en{" mv-en-second" if esv else ""}">{escape(second)} <cite>{escape(code)}</cite></p>'
     return out
 
 

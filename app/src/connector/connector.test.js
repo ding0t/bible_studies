@@ -42,7 +42,7 @@ test('the gospel quotes every verse it cites', async () => {
   const gospel = await call('the_gospel');
   assert.match(gospel.the_gospel, /Romans 3:23/);
   assert.ok(gospel.the_verses_it_rests_on.length >= 4);
-  for (const v of gospel.the_verses_it_rests_on) assert.ok(v.web, v.reference);
+  for (const v of gospel.the_verses_it_rests_on) assert.ok(v.text && v.translation, v.reference);
 });
 
 test("a question in a reader's words finds the study that answers it", async () => {

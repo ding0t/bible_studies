@@ -449,11 +449,12 @@ async function renderVerse(ref, withContext = false) {
   }
   // Context reaching into the neighbouring chapter is not worth the complexity; stay in-chapter.
   if (!verses.length) {
-    body.replaceChildren(el('p', { class: 'pop-muted' }, `${formatRef(ref)} is not in the World English Bible's numbering.`));
+    body.replaceChildren(el('p', { class: 'pop-muted' }, `${formatRef(ref)} is not in the ${book.t.name}'s numbering.`));
     return;
   }
 
   const shown = verses.slice(0, MAX_VERSES);
+  const fromFallback = new Set(book.f ?? []);
   const multiChapter = ref.c2 !== ref.c1;
   const text = el('div', { class: 'pop-text' });
   let chapterShown = null;
@@ -462,8 +463,13 @@ async function renderVerse(ref, withContext = false) {
       text.append(el('span', { class: 'pop-chapter' }, `Chapter ${c}`));
       chapterShown = c;
     }
-    text.append(el('span', { class: cited ? 'pop-verse' : 'pop-verse pop-around' }, el('sup', {}, String(v)), ' ', words, ' '));
+    // A verse the reading text omits is shown from the fallback, and says so.
+    const borrowed = fromFallback.has(`${c}:${v}`)
+      ? el('span', { class: 'pop-muted', title: book.t.fallback.note }, ` (${book.t.fallback.code}: ${book.t.fallback.note})`)
+      : null;
+    text.append(el('span', { class: cited ? 'pop-verse' : 'pop-verse pop-around' }, el('sup', {}, String(v)), ' ', words, borrowed, ' '));
   }
+  const footnotes = shown.filter((s) => s.cited).flatMap(({ c, v }) => (book.n?.[`${c}:${v}`] ?? []).map((n) => (shown.length > 1 ? `${v}: ${n}` : n)));
 
   const actions = el('div', { class: 'pop-actions' });
   if (ref.v1 !== undefined) {
@@ -491,6 +497,7 @@ async function renderVerse(ref, withContext = false) {
   if (chapterUrl) actions.append(el('a', { class: 'pop-link', href: chapterUrl }, `${formatRef({ ...ref, v1: undefined, c2: ref.c1 })} commentary`));
 
   const parts = [text];
+  if (footnotes.length) parts.push(el('ul', { class: 'pop-footnotes' }, footnotes.map((n) => el('li', {}, n))));
   if (verses.length > MAX_VERSES) parts.push(el('p', { class: 'pop-muted' }, `First ${MAX_VERSES} of ${verses.length} verses.`));
   parts.push(actions);
 
@@ -517,7 +524,7 @@ async function renderVerse(ref, withContext = false) {
     );
   }
 
-  parts.push(el('p', { class: 'pop-source' }, 'World English Bible (public domain). Cross-references: OpenBible.info (CC BY).'));
+  parts.push(el('p', { class: 'pop-source' }, `${book.t.name} (${book.t.licence}). Cross-references: OpenBible.info (CC BY).`));
   body.replaceChildren(...parts);
 }
 

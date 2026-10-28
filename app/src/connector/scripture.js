@@ -381,7 +381,7 @@ export async function textualNotes(data, { reference }) {
 export async function crossReferences(data, { reference }) {
   const ref = readRef(reference);
   if (!ref?.book || ref.v1 === undefined) throw new Error('Give one verse, e.g. "Romans 8:28".');
-  const book = await data.webBook(ref.book);
+  const book = await data.readingBook(ref.book);
   const list = book?.x?.[`${ref.c1}:${ref.v1}`] ?? [];
   return {
     reference: refLabel(ref.book, ref.c1, ref.v1),
@@ -389,11 +389,11 @@ export async function crossReferences(data, { reference }) {
     cross_references: await Promise.all(
       list.map(async ([b, c, v, end]) => ({
         reference: refLabel(b, c, v) + (end ? `-${end}` : ''),
-        web: (await data.webBook(b))?.v?.[c]?.[v],
+        text: (await data.readingBook(b))?.v?.[c]?.[v],
       }))
     ),
     note: 'The strongest OpenBible.info cross-references by reader votes: leads to follow, not evidence. quotation_trace gives the links found in the texts themselves.',
-    sources: [SOURCES.openbible, SOURCES.web],
+    sources: [SOURCES.openbible, book && `${book.t.name} (${book.t.licence})`].filter(Boolean),
   };
 }
 

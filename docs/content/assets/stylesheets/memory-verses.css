@@ -44,7 +44,7 @@
 .mv-deck:has(.mv-opt-flash:checked) .mv-cards { display: none; }
 .mv-deck:has(.mv-opt-flash:checked) .mv-flash { display: block; }
 .mv-deck:not(:has(.mv-opt-gloss:checked)) .mv-gloss { display: none; }
-.mv-deck:not(:has(.mv-opt-web:checked)) .mv-en-second { display: none; }
+.mv-deck:not(:has(.mv-opt-second:checked)) .mv-en-second { display: none; }
 
 /* ---- Sheet ------------------------------------------------------------------------------- */
 

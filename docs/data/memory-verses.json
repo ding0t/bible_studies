@@ -1,8 +1,9 @@
 {
+ "reading": "BSB",
  "sources": {
   "hebrew": "STEPBible TAHOT (Translators Amalgamated Hebrew OT), CC BY, STEPBible.org",
   "greek": "STEPBible TAGNT (Translators Amalgamated Greek NT), CC BY, STEPBible.org",
-  "WEB": "World English Bible, public domain",
+  "BSB": "Berean Standard Bible, public domain",
   "ESV": "ESV® Bible, © 2001 by Crossway. Used by permission. All rights reserved."
  },
  "verses": [
@@ -82,7 +83,7 @@
    ],
    "translations": {
     "ESV": "In the beginning, God created the heavens and the earth.",
-    "WEB": "In the beginning, God created the heavens and the earth."
+    "BSB": "In the beginning God created the heavens and the earth."
    }
   },
   {
@@ -230,7 +231,7 @@
    ],
    "translations": {
     "ESV": "In the beginning was the Word, and the Word was with God, and the Word was God.",
-    "WEB": "In the beginning was the Word, and the Word was with God, and the Word was God."
+    "BSB": "In the beginning was the Word, and the Word was with God, and the Word was God."
    }
   },
   {
@@ -293,7 +294,7 @@
    ],
    "translations": {
     "ESV": "And he believed the LORD, and he counted it to him as righteousness.",
-    "WEB": "He believed in Yahweh, who credited it to him for righteousness."
+    "BSB": "Abram believed the LORD, and it was credited to him as righteousness."
    }
   },
   {
@@ -481,7 +482,7 @@
    ],
    "translations": {
     "ESV": "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.",
-    "WEB": "for by grace you have been saved through faith, and that not of yourselves; it is the gift of God, not of works, that no one would boast."
+    "BSB": "For it is by grace you have been saved through faith, and this not from yourselves; it is the gift of God, not by works, so that no one can boast."
    }
   },
   {
@@ -607,7 +608,7 @@
    ],
    "translations": {
     "ESV": "But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his wounds we are healed.",
-    "WEB": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed."
+    "BSB": "But He was pierced for our transgressions, He was crushed for our iniquities; the punishment that brought us peace was upon Him, and by His stripes we are healed."
    }
   },
   {
@@ -771,7 +772,7 @@
    ],
    "translations": {
     "ESV": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.",
-    "WEB": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord."
+    "BSB": "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord."
    }
   },
   {
@@ -840,7 +841,7 @@
    ],
    "translations": {
     "ESV": "Hear, O Israel: The LORD our God, the LORD is one.",
-    "WEB": "Hear, Israel: Yahweh is our God. Yahweh is one."
+    "BSB": "Hear, O Israel: The LORD our God, the LORD is One."
    }
   },
   {
@@ -1052,7 +1053,7 @@
    ],
    "translations": {
     "ESV": "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.",
-    "WEB": "For God so loved the world, that he gave his only born Son, that whoever believes in him should not perish, but have eternal life."
+    "BSB": "For God so loved the world that He gave His one and only Son, that everyone who believes in Him shall not perish but have eternal life."
    }
   },
   {
@@ -1600,7 +1601,7 @@
    ],
    "translations": {
     "ESV": "that according to the riches of his glory he may grant you to be strengthened with power through his Spirit in your inner being, so that Christ may dwell in your hearts through faith—that you, being rooted and grounded in love, may have strength to comprehend with all the saints what is the breadth and length and height and depth, and to know the love of Christ that surpasses knowledge, that you may be filled with all the fullness of God.",
-    "WEB": "that he would grant you, according to the riches of his glory, that you may be strengthened with power through his Spirit in the inner person, that Christ may dwell in your hearts through faith, to the end that you, being rooted and grounded in love, may be strengthened to comprehend with all the saints what is the width and length and height and depth, and to know Christ’s love which surpasses knowledge, that you may be filled with all the fullness of God."
+    "BSB": "I ask that out of the riches of His glory He may strengthen you with power through His Spirit in your inner being, so that Christ may dwell in your hearts through faith. Then you, being rooted and grounded in love, will have power, together with all the saints, to comprehend the length and width and height and depth of the love of Christ, and to know this love that surpasses knowledge, that you may be filled with all the fullness of God."
    }
   }
  ]

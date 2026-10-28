@@ -5,7 +5,7 @@ description: "Set up the same open-data Bible workbench and AI agent this site i
 tags: ["getting-started", "study-method", "ai", "data"]
 draft: false
 date_created: 2026-10-19
-date_modified: 2026-10-22
+date_modified: 2026-10-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
@@ -47,7 +47,7 @@ flowchart LR
 | Level | You add | Licence tier | Cost | What you can do |
 |---|---|---|---|---|
 | 0 | Nothing. Use the [verse and word pop-ups](../references.md) and the studies | n/a | Free | Read, with every reference one click from its text and word data |
-| 1 | The open submodules and an agent | Open | Free | Full original-language word studies, cross-references, 29 English versions, syntax, the Septuagint, the church fathers |
+| 1 | The open submodules and an agent | Open | Free | Full original-language word studies, cross-references, 33 English versions, syntax, the Septuagint, the church fathers |
 | 2 | The restricted submodules | Restricted, non-commercial | Free | The Dead Sea Scrolls, the Byzantine and Textus Receptus Greek, the Samaritan Pentateuch |
 | 3 | Your own copies of commercial Bibles and commentaries | Quotation-only | Your purchases | The ESV text on tap, translators' footnotes, study-Bible notes |
 
@@ -95,7 +95,7 @@ What you now hold, by tier. Nothing here needs a licence fee:
 
 **Open** (`references/open-data/`, quote at any length): the Hebrew text (morphhb, unfoldingWord's UHB), the Greek
 New Testament (SBLGNT, UGNT), the Septuagint (Swete, Brenton), MACULA's word-by-word morphology, syntax, semantic
-domains and coreference for both testaments, Strong's numbers, 29 English versions with the WEB as default, 831,290
+domains and coreference for both testaments, Strong's numbers, 33 English versions with the BSB as default, 831,290
 cross-references, and unfoldingWord's word alignment.
 
 **Restricted, non-commercial** (`references/restricted-data/`): 262 Dead Sea Scrolls, plus BHSA and the Mounce

@@ -28,7 +28,8 @@ export function createData(fetchText) {
       json(`assets/popups/words/${bucket(id)}.json`).then((d) => d?.[id.slice(1)] ?? null),
     usage: (id) =>
       json(`assets/lang/words/${bucket(id)}.json`).then((d) => d?.[id.slice(1)] ?? null),
-    webBook: (book) => json(`assets/popups/verses/${book}.json`),
+    // The site's reading translation, as export_popups.py wrote it; `t` names which.
+    readingBook: (book) => json(`assets/popups/verses/${book}.json`),
     studiesIndex: () => json('assets/studies-index.json'),
     studiesByPassage: () => json('assets/popups/studies.json'),
     grammar: () => json('assets/lang/grammar.json'),

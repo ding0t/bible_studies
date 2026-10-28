@@ -5,7 +5,7 @@ description: "What Bible text, lexical, and commentary data backs this site, org
 tags: ["data", "sources", "licensing", "transparency"]
 draft: false
 date_created: 2026-07-27
-date_modified: 2026-10-19
+date_modified: 2026-10-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -35,7 +35,7 @@ shows how to build this data into a workbench of your own:
   own vocabulary: lemma, parsing, semantic domain, MACULA.
 - [Patristic Sources](../resources/patristic-sources.md) covers the church fathers.
 
-[![Where the data comes from. Three licence tiers across the top. Open, quoted at any length: the Hebrew and Greek texts (WLC, UHB, SBLGNT, UGNT, Brenton LXX, Tischendorf), word data from MACULA and Strong's, 29 English versions with the WEB as the default, 831,290 cross-references, and unfoldingWord's word alignment. Restricted, used and flagged non-commercial: 262 Dead Sea Scrolls, the Byzantine and Textus Receptus Greek, the Samaritan Pentateuch, a few English versions, and BHSA and Mounce held but not ingested. Quotation-only, a sentence or two with attribution: 11 study Bibles and texts, TWOT's discussion prose, and the Bible Knowledge Commentary read by hand. Open and restricted sources feed bible-text.db in the public repository, 321 works and 1,222,501 verses. Quotation-only sources feed study-notes.db on local storage, never committed. An MCP server with 33 lookup tools, and the query.py command line, read both databases. A study's language claims resolve to rows in them, and the verse and word pop-ups are built from the open tier only. The church fathers and unvetted teaching notes are held beside them and read by hand.](../assets/img/about/data-sources.svg)](../assets/img/about/data-sources.svg)
+[![Where the data comes from. Three licence tiers across the top. Open, quoted at any length: the Hebrew and Greek texts (WLC, UHB, SBLGNT, UGNT, Brenton LXX, Tischendorf), word data from MACULA and Strong's, 33 English versions with the BSB as the default, 831,503 cross-references, and unfoldingWord's word alignment. Restricted, used and flagged non-commercial: 262 Dead Sea Scrolls, the Byzantine and Textus Receptus Greek, the Samaritan Pentateuch, a few English versions, and BHSA and Mounce held but not ingested. Quotation-only, a sentence or two with attribution: 11 study Bibles and texts, TWOT's discussion prose, and the Bible Knowledge Commentary read by hand. Open and restricted sources feed bible-text.db in the public repository, 321 works and 1,222,501 verses. Quotation-only sources feed study-notes.db on local storage, never committed. An MCP server with 33 lookup tools, and the query.py command line, read both databases. A study's language claims resolve to rows in them, and the verse and word pop-ups are built from the open tier only. The church fathers and unvetted teaching notes are held beside them and read by hand.](../assets/img/about/data-sources.svg)](../assets/img/about/data-sources.svg)
 
 ## Three tiers, one rule
 
@@ -58,7 +58,7 @@ KJV is in the open tier.
 
 **Open data carries the word studies.** The Hebrew and Greek texts, morphology, lemmas, Strong's
 numbers, Louw-Nida and SDBH semantic domains, clause-level syntax and coreference, cross-references,
-and 29 English versions are all open. The WEB is the default English text in the data and the
+and 33 English versions are all open. The BSB is the default English text in the data and the
 pop-ups, the ASV and KJV are there for comparison, and Young's Literal is a word-for-word
 cross-check that a study never quotes as a verse's meaning. Studies themselves quote the ESV. [Bible Translations & Source
 Texts](../scripture/translations.md) carries a per-edition table for every English translation,

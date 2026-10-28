@@ -170,7 +170,7 @@ def data_sources(n):
     open_items = [
         ("scroll", ["Hebrew & Greek texts", "WLC, UHB, SBLGNT, UGNT,", "Brenton LXX, Tischendorf"], False),
         ("tag", ["Word data", "MACULA: parsing, syntax,", "domains; Strong's numbers"], False),
-        ("book", [f"{n['english_open']} English versions", "WEB (the default), ASV,", "YLT, BSB, KJV, JPS 1917"], False),
+        ("book", [f"{n['english_open']} English versions", "BSB (the default), WEB,", "ASV, YLT, KJV, JPS 1917"], False),
         ("link", ["Cross-references", f"{n['xrefs']:,}: OpenBible.info,", "WEB translators' notes"], False),
         ("align", ["Word alignment", "English to the original,", "unfoldingWord ULT"], False),
     ]
@@ -264,7 +264,7 @@ def data_sources(n):
         "How this site's data is organised. Three licence tiers sit across the top. Open, quoted at "
         f"any length: the Hebrew and Greek texts (WLC, SBLGNT, Brenton LXX, UHB, UGNT, Tischendorf); "
         f"word data (MACULA parsing, syntax and semantic domains, Strong's numbers, TWOT ids); "
-        f"{n['english_open']} English versions with the WEB as the default; {n['xrefs']:,} "
+        f"{n['english_open']} English versions with the BSB as the default; {n['xrefs']:,} "
         "cross-references from OpenBible.info and the WEB translators' notes; and unfoldingWord's "
         f"word alignment. Restricted, used and flagged non-commercial: {n['dss']} Dead Sea Scrolls, "
         "the Byzantine and Textus Receptus Greek, the Samaritan Pentateuch, a few English versions, "

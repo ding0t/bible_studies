@@ -9,8 +9,9 @@ Each card carries id="song-<id>", so a study links to one song as
 `../resources/songbook.md#song-<id>`. References are written as plain text so the site's verse
 pop-up finds them; the cards are not marked data-no-popups for that reason.
 
-Each card folds away the song's full words: the WEB, from docs/data/songbook-words.json (written by
-references/build/export_songbook.py), or the song's own `words` where they are not in the WEB.
+Each card folds away the song's full words: the site's reading translation, from
+docs/data/songbook-words.json (written by references/build/export_songbook.py, which records which
+translation it used), or the song's own `words` where they are not in Scripture's text.
 """
 
 from __future__ import annotations
@@ -62,6 +63,8 @@ JESUS = {
 
 _songs: list[dict] = []
 _words: dict[str, list[dict]] = {}
+# Which translation the hand-written first lines quote, and which the exported words are in.
+_sources: dict[str, str] = {"first_line": "", "words": ""}
 
 
 def _toml_path(config) -> Path:
@@ -76,11 +79,13 @@ def on_serve(server, config, builder):  # noqa: ARG001 - hook signature
 
 
 def on_config(config):
+    book = tomllib.loads(_toml_path(config).read_text(encoding="utf-8"))
+    exported = json.loads(_toml_path(config).with_name("songbook-words.json").read_text(encoding="utf-8"))
     _songs.clear()
-    _songs.extend(tomllib.loads(_toml_path(config).read_text(encoding="utf-8"))["song"])
+    _songs.extend(book["song"])
     _words.clear()
-    _words.update(json.loads(_toml_path(config).with_name("songbook-words.json")
-                             .read_text(encoding="utf-8"))["songs"])
+    _words.update(exported["songs"])
+    _sources.update(first_line=book["first_line_source"], words=exported["code"])
     for song in _songs:
         if song["group"] not in GROUPS:
             log.warning("songbook: %s has unknown group %r", song["id"], song["group"])
@@ -110,7 +115,7 @@ def _group(group: str, src: str) -> str:
 
 
 def _card(song: dict) -> str:
-    source = escape(song.get("source", "WEB"))
+    source = escape(song.get("source", _sources["first_line"]))
     occasions = "".join(f'<a class="sb-tag" href="#sing-{o}">{escape(OCCASIONS.get(o, o))}</a>'
                         for o in song["sing_when"])
     tune = ""
@@ -137,8 +142,8 @@ def _card(song: dict) -> str:
 
 
 def _full(song: dict) -> str:
-    """The whole song, folded away: verse by verse from the WEB, under a heading for each chapter
-    when it runs across several, or the song's own lines."""
+    """The whole song, folded away: verse by verse from the reading translation, under a heading
+    for each chapter when it runs across several, or the song's own lines."""
     if "words" in song:
         body = "".join(f"<p>{escape(line)}</p>" for line in song["words"])
         source = song.get("source", "")
@@ -149,7 +154,7 @@ def _full(song: dict) -> str:
             (f'<p class="sb-ch">{escape(book)} {c["chapter"]}</p>' if len(chapters) > 1 else "")
             + "".join(f"<p><sup>{v}</sup> {escape(t)}</p>" for v, t in c["verses"])
             for c in chapters)
-        source = "WEB"
+        source = _sources["words"]
     else:
         return ""
     return (f'<details class="sb-words"><summary>The words</summary>'
