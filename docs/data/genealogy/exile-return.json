@@ -142,7 +142,20 @@
       "name_hebrew": "זְרֻבָּבֶל",
       "name_transliteration": "Zerubbavel",
       "name_meaning": "Usually read as Akkadian rather than Hebrew -- 'Zeru-Babili', 'seed/offspring of Babylon' -- a name reflecting birth in exile rather than a native Hebrew etymology",
-      "gender": "male"
+      "gender": "male",
+      "discrepancies": [
+        {
+          "id": "zerubbabel-father-shealtiel-or-pedaiah",
+          "traditions_involved": [
+            "mt",
+            "lxx"
+          ],
+          "type": "uncertain",
+          "confidence": "high",
+          "description": "Eleven verses make Zerubbabel the son of Shealtiel (Ezra 3:2, 3:8, 5:2; Nehemiah 12:1; Haggai 1:1, 1:12, 1:14, 2:2, 2:23; Matthew 1:12; Luke 3:27), and this tree follows them. 1 Chronicles 3:19 lists him among 'the sons of Pedaiah', Shealtiel's brother (3:17-18), and the Masoretic text and the Septuagint both read so. How the two fit is contested: the usual proposals are a levirate marriage, Pedaiah raising a son in the name of a childless Shealtiel (Deuteronomy 25:5-6), or Shealtiel as legal father and Pedaiah as natural father. Scripture does not say which.",
+          "theological_significance": "Either way Zerubbabel stands in David's royal line through Jeconiah (1 Chronicles 3:17-19), which is what Matthew 1:12 and Haggai 2:23 rest on."
+        }
+      ]
     }
   ]
 }

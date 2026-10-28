@@ -800,7 +800,7 @@
       "spouse_id": null,
       "children": [
         "abraham",
-        "nahor",
+        "nahor_son_of_terah",
         "haran"
       ],
       "lineages": [
@@ -1072,7 +1072,7 @@
         "asher",
         "issachar",
         "zebulun",
-        "joseph",
+        "joseph_son_of_jacob",
         "benjamin"
       ],
       "lineages": [
@@ -1112,7 +1112,7 @@
       "parent_id": null,
       "spouse_id": "jacob",
       "children": [
-        "joseph",
+        "joseph_son_of_jacob",
         "benjamin"
       ],
       "lineages": [
@@ -1146,7 +1146,7 @@
       "zadok_year_died": 2383,
       "lifespan_years": 128,
       "parent_id": "jacob",
-      "spouse_id": "leah",
+      "spouse_id": "tamar",
       "children": [
         "perez",
         "zerah"
@@ -1219,7 +1219,7 @@
       "zadok_year_died": 2376,
       "lifespan_years": 80,
       "parent_id": "judah",
-      "spouse_id": "tamar",
+      "spouse_id": null,
       "children": [
         "hezron"
       ],
