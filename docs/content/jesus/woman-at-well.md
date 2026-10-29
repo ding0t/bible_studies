@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 4:1-42"
 bible_references: ["John 3:22-30", "John 7:37-39", "John 1:39", "John 1:46", "John 8:58", "Jeremiah 2:13", "Jeremiah 17:13", "Zechariah 14:8", "Isaiah 12:3", "Isaiah 44:3", "Ezekiel 47:1-6", "Genesis 24:10-27", "Genesis 29:1-12", "Exodus 2:15-21", "Deuteronomy 18:15-18", "Deuteronomy 27:4", "Deuteronomy 11:29", "2 Kings 17:24-41", "Genesis 33:18-20", "Joshua 24:32", "Exodus 3:14", "Luke 14:5", "Revelation 9:1-2", "John 3:9", "John 2:19-21", "Matthew 5:35", "Zechariah 14:16", "Revelation 21:22", "John 2:8-9", "John 8:22", "John 8:24-28", "John 9:9", "John 18:35", "Matthew 12:23", "Genesis 24:42-45", "Genesis 26:19", "Leviticus 14:6"]
 date_created: 2025-04-25
-date_modified: 2026-10-18
+date_modified: 2026-10-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -32,6 +32,9 @@ thirsty or have to come here to draw water" (4:15) — and Jesus answers by aski
 **In one sentence:** Jesus is the spring of living waters that Israel forsook for cisterns, and He gives the Holy Spirit as a free gift that wells up inside whoever asks; He moves worship off every mountain to the Father Himself, so you may come to God fully known and worship Him in spirit and truth.
 
 [![A one-minute comic in 5 panels. Panel 1 (John 4:5-7): Jesus sits tired beside the stone rim of Jacob's well; a Samaritan woman walks up carrying a water jar. Caption: "Jacob's well at Sychar, about noon. John calls it a spring, πηγή." Jesus says: "Give me a drink." Note: "Watch who says which word. John 4 splits them by speaker; elsewhere the two can overlap." Panel 2 (John 4:11): The woman, jar in hand, speaks to Jesus; above her head a thought cloud shows a deep shaft cut through rock to water far below, with a rope and a jar let down. The woman pictures a deep shaft, labelled "φρέαρ: a shaft". The woman says: "Sir, you have nothing to draw water with, and the well is deep." Panel 3 (John 4:13-14): Jesus, seated, answers; above His head a thought cloud shows water rising out of the rock on its own and running over. Jesus pictures a spring rising out of the rock, labelled "πηγή: a spring". Jesus says: "The water that I will give him will become in him a spring of water welling up to eternal life." Panel 4 (John 4:15): The woman asks for the water; the thought cloud over her head still shows the shaft. The woman pictures the deep shaft again, labelled "φρέαρ". The woman says: "Sir, give me this water, so that I will not be thirsty or have to come here to draw water." Note: "The study's reading: she still pictures the shaft." Panel 5 (John 4:26-29): Jesus sits by the well; the woman's water jar stands on the ground where she left it, and she hurries away toward the town with a question mark over her head. Caption: "She leaves her water jar and goes into the town." Jesus says: "I who speak to you am he." The woman says: "Can this be the Christ?" The point: She came to a shaft; Jesus offered a spring, the Holy Spirit welling up inside whoever asks. Ask Him, and drink (John 4:10, 14; 7:39).](../assets/img/comics/woman-at-well.svg)](../assets/img/comics/woman-at-well.svg)
+
+Teaching children or teenagers? [The Woman at the Well for young readers](../young/woman-at-well.md)
+tells this story for ages 8 to 16, with its own comic.
 
 ## Key Takeaways
 
