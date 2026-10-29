@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 51:7
+- [The Restrainer](../../last-things/the-restrainer.md) — 51:6
 <!-- commentary-index:auto-end -->

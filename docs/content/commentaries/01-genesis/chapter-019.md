@@ -14,6 +14,8 @@ draft: false
 
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 19:15-30 (primary passage)
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 19:26
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 19:22
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 19:16
 - [The Rapture of the Church](../../last-things/rapture.md) — 19:15-16
+- [The Restrainer](../../last-things/the-restrainer.md) — 19:22
 <!-- commentary-index:auto-end -->

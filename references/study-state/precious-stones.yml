@@ -1,0 +1,200 @@
+slug: "precious-stones"
+title: "Precious Stones in Scripture"
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/god/precious-stones.md" # proposed; confirm with author
+
+primary_passage: "Exodus 28:15-21; Ezekiel 1:26-28; Ezekiel 28:13; Revelation 4:2-6; Revelation 21:9-21"
+supporting_passages:
+  - "Exodus 24:10"
+  - "Exodus 28:9-12"
+  - "Ezekiel 1:16, 22"
+  - "Ezekiel 10:1, 9"
+  - "Daniel 10:6"
+  - "Isaiah 54:11-12"
+  - "Genesis 2:11-12"
+  - "Job 28:15-19"
+  - "Revelation 17:4; 18:16"
+sibling_studies:
+  - {slug: "last-things/new-jerusalem", role: primary, use: "build-on", note: "has a short section on the foundation stones and the breastpiece; this study takes it further. 2026-10-29, author approved: one-sentence link added at the end of its 'The stones on the high priest's heart' section. Must ship in the commit that sets this study draft: false (Check 24)."}
+  - {slug: "sin/pride", role: cited, use: "link", note: "Ezekiel 28 Satan reading marked contested there; link rather than re-argue. 2026-10-29, author approved: entry added to its References > On this site (LXX twelve stones vs MT nine), placed there to keep pride.md under its 4000 budget. Ships with this study's publish commit (Check 24)."}
+  - {slug: "jesus/the-heavenly-pattern/index", role: prose, use: "enrich", note: "backlog lists the high priest's garments as an optional pattern page"}
+genre: [topical, law, prophets, apocalyptic]
+
+thesis: "When the prophets saw God's glory they reached for precious stones, because a gem shows a light it does not make; so the stones that carried Israel's names on the high priest's heart become the foundations of a city lit by God and the Lamb, and God means you to shine in the same way, with His light."
+outline:
+  - {section: "Hook", says: "Ezekiel 1:26-28 stacks 'like the appearance of' until the words run out, and lands on stones and a rainbow."}
+  - {section: "Where the stones appear", says: "A map of the scenes, Eden to the city, with a drawn plate setting Exodus 28, Ezekiel 28 (MT and LXX) and Revelation 21 side by side."}
+  - {section: "What the stones were", says: "Why translations disagree; the probable ancient stone behind each name (Pliny), with photographs; sapphire is lapis, John's jasper is clear."}
+  - {section: "The language of appearance", says: "Ezekiel and John describe by likeness; Revelation 4 builds on Ezekiel 1; what the text picks out of the stones is gleam, clarity, fire and the rainbow."}
+  - {section: "A light the stone does not make", says: "The answer to the light question: gems shine by received light; Revelation 21:11, 23 say the city's radiance is God's glory; Josephus's tradition says the same of the breastpiece. This shows that God is the light His works display."}
+  - {section: "Names on the stones", says: "The tribes engraved over the priest's heart (Exodus 28:21, 29) and the apostles on the foundations (Revelation 21:14, 19); links New Jerusalem."}
+  - {section: "Stones worn and stones built", says: "The cherub of Tyre wore the breastpiece's stones (LXX) and was corrupted by his beauty (Ezekiel 28:17); Babylon wears gems (Revelation 17:4); the Bride is built of them. Links Pride for the Satan question."}
+  - {section: "So you may shine", says: "phoster in Philippians 2:15 and Revelation 21:11, Daniel 12:3, 2 Corinthians 3:18; 4:6, Zechariah 9:16: God makes His people reflect His glory now and at glorification."}
+  - {section: "Annex: correlations that do not hold", says: "Stone-to-tribe and stone-to-apostle charts, the zodiac and months (Josephus), Victorinus's water-and-fire reading, birthstones: what Scripture states and what it leaves unstated."}
+word_budget: 4200
+word_budget_reason: "Author asked (2026-10-29) for the gemmological terms (transparency, lustre, refraction, dispersion, asterism, birefringence, pleochroism) in the text so site search finds them; the terms table and inline terms add about 45 words of reference vocabulary. Raised to 4200 the same day for the author-requested John 1:7-9 / John 5:35 witness-and-lamp paragraph in So you may shine (~90 words)."
+
+stages:
+  scoping:
+    done: true
+    notes: "Author's brief (2026-10-29): gemstones in Scripture, what they represent, characteristics, images of each stone, correlations (Ezekiel, Revelation), used to describe heavenly beings and objects; can anything be inferred from gem characteristics, e.g. how they respond to light."
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Ancient gem names are not modern mineralogy. Pliny NH 37.115: iaspis "viret et saepe tralucet"
+        (green, often translucent) -- so John's jasper "clear as crystal" (Rev 21:11) is not modern opaque
+        jasper (NIV CBSB calls it opaque; BKC/Walvoord: "in verse 11 the jasper is translucent").
+        NH 37.120: sapphirus blue, gold gleams in spots, never translucent = lapis lazuli (NIV CBSB on Rev 4:3
+        agrees). NH 37.136-137: the 'iris' crystal throws rainbow colours on a wall when struck by sun; the
+        colours are not from the stone's substance. Josephus Ant. 3.7.5 (Whiston): stone order, birth order
+        claim; 3.7.7: shoulder sardonyxes = sun and moon, twelve stones = months or zodiac; 3.8.9: right
+        shoulder stone "shined out when God was present ... which splendor yet was not before natural to
+        the stone"; breastplate shone before victory; ceased 200 years before he wrote. Tradition, not text.
+        Translations disagree most on rows 1-2 of Ex 28 (odem: sardius/ruby/carnelian; nophek:
+        emerald/turquoise; bareqet: carbuncle/emerald/beryl); row 3 agrees (from LXX). BSB, CSB, NLT
+        footnote the identifications as uncertain.
+    literary_context:
+      done: true
+      notes: >-
+        Scenes: Eden (Gen 2:12 shoham; Ezek 28:13), Sinai (Ex 24:10 sappir pavement "like the very heaven
+        for clearness"), the high priest (Ex 28:9-12 shoulder onyx "stones of remembrance"; 28:17-21, 29-30
+        breastpiece names on his heart, Urim), the throne-chariot (Ezek 1:16, 22, 26-28; 10:1, 9), the man
+        of Dan 10:6, the cherub of Tyre (Ezek 28:12-16 "stones of fire" 28:14), the promised city (Isa
+        54:11-12, pinnacles lit. "suns" per CSB fn), the throne (Rev 4:3, 6), Babylon (Rev 17:4; 18:16
+        gold, precious stone, pearls), the city (Rev 21:11, 18-21). Rev 4 builds on Ezek 1: crystal expanse
+        (LXX krystallos) -> sea of glass like crystal; bow in cloud -> rainbow like emerald. Ezekiel's
+        stacked reserve: kemar'eh / ke'eyn ("like the appearance", "like the gleam") -- 1:28 "appearance of
+        the likeness of the glory of the LORD". ESV SB on Rev 4:3: imitating Ezekiel's reserve; jewels read
+        together, not individually.
+    content_word_studies:
+      done: true
+      notes: >-
+        LXX Ezek 28:13 lists twelve stones = LXX Ex 28:17-20 in the same order, with silver and gold
+        inserted after the sixth. MT Ezek 28:13 has nine = Ex 28 rows 1, 2, 4 (row 3 leshem/shevo/achlamah
+        absent; those three occur only Ex 28:19; 39:12). Rev 21:19-20 vs LXX Ex 28: eight share the Greek
+        name (iaspis, sappheiros, smaragdos, sardion, chrysolithos, beryllos/beryllion, topazion,
+        amethystos); sardonyx is a ninth by family (onyx); chalcedon, chrysoprasos, hyakinthos are new.
+        ESV masks this: sardion = "sardius" (Ex 28:17) but "carnelian" (Rev 21:20; 4:3); "agate" renders
+        achates (Ex) and chalkedon (Rev 21:19). phoster G5458 (Rev 21:11 "radiance", LSB fn "Lit luminary"):
+        NT only Phil 2:15 and Rev 21:11; LXX Gen 1:14, 16; DanOG 12:3. krystallizo G2929 hapax Rev 21:11.
+        diauges "transparent" Rev 21:21 only. chashmal H2830 only Ezek 1:4, 27; 8:2 (LXX elektron).
+        sappir H5601: Ex 24:10; 28:18; 39:11; Ezek 1:26; 10:1; 28:13; Isa 54:11; Job 28:6, 16; Lam 4:7;
+        Song 5:14. tarshish H8658: Ex 28:20; 39:13; Ezek 1:16; 10:9; 28:13; Song 5:14; Dan 10:6.
+        shoham H7718: 11x incl Gen 2:12, 1 Chr 29:2.
+      terms:
+        - {word: "סַפִּיר", language: hebrew, transliteration: "sappir", strongs_id: "H5601", gloss: "lapis lazuli (probable), trad. sapphire"}
+        - {word: "תַּרְשִׁישׁ", language: hebrew, transliteration: "tarshish", strongs_id: "H8658", gloss: "a gold/yellow-green stone; beryl/chrysolite"}
+        - {word: "שֹׁהַם", language: hebrew, transliteration: "shoham", strongs_id: "H7718", gloss: "onyx (probable)"}
+        - {word: "חַשְׁמַל", language: hebrew, transliteration: "chashmal", strongs_id: "H2830", gloss: "gleaming substance; LXX electrum"}
+        - {word: "עַיִן", language: hebrew, transliteration: "ayin", strongs_id: "H5869", gloss: "eye; gleam, sparkle (Ezek 1:16, 22, 27)"}
+        - {word: "φωστήρ", language: greek, transliteration: "phōstēr", strongs_id: "G5458", gloss: "luminary, light-giver"}
+        - {word: "ἴασπις", language: greek, transliteration: "iaspis", strongs_id: "G2393", gloss: "jasper (ancient: green, translucent)"}
+        - {word: "κρυσταλλίζω", language: greek, transliteration: "krystallizō", strongs_id: "G2929", gloss: "be clear as crystal (hapax)"}
+        - {word: "διαυγής", language: greek, transliteration: "diaugēs", strongs_id: "G1307", gloss: "transparent"}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: >-
+        Cultural: the particular stones, their names, ancient value. Transcultural: what the texts select
+        from them -- gleam, clarity, fire, rainbow (light) and permanence (foundations). No text assigns a
+        meaning to an individual stone; ESV SB and Walvoord both read them together.
+    theological_principle:
+      done: true
+      notes: >-
+        God's glory is the light; created splendour shows it and holds none of its own (Rev 21:11, 23).
+        Statement of faith (glorification: 2 Cor 3:18; Phil 3:21; Col 3:4) consistent; no conflict.
+    application_draft:
+      done: true
+      notes: "Be Transformed: borrowed light (Rev 21:11, 23), humility (Ezek 28:17), good works that show God's glory (Matt 5:16). Close: Phil 2:15 echoes OG Dan 12:3 (phaino + phoster)."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Philippians 2:15", relation: "phoster: believers shine as lights"}
+      - {ref: "Daniel 12:3", relation: "LXX OG phosteres: the wise shine"}
+      - {ref: "2 Corinthians 3:18; 4:6", relation: "reflected glory, transformation"}
+      - {ref: "Zechariah 9:16", relation: "God's people like jewels of a crown that shine"}
+      - {ref: "1 Peter 2:4-5", relation: "living stones"}
+      - {ref: "Genesis 9:13-16", relation: "the bow behind Ezek 1:28; Rev 4:3"}
+    translations_compared: ["ESV", "NIV", "NASB", "LSB", "CSB", "NLT", "BSB", "LXX (Brenton)", "Tischendorf"]
+    divergences_noted: "See content_word_studies: the ESV's English names hide the shared Greek between Ex 28 LXX and Rev 21."
+  drafting:
+    done: true
+    file: "docs/content/god/precious-stones.md"
+  review:
+    done: true # review-bible-study 2026-10-29, see review_2026-10-29
+    validated: true # npm run validate clean for this file 2026-10-29; links checked by hand (draft is dropped from mkdocs build)
+
+open_questions:
+  - "Fork candidate: the high priest's breastpiece and Urim and Thummim -- backlog's optional heavenly-pattern page."
+  - "Fork candidate: zodiac/birthstone history (Josephus, Philo, Jerome Letter 64, modern birthstone lists) -- not verified beyond Josephus."
+  - "RESOLVED 2026-10-29 (review): Pliny NH 37 Latin downloaded in full from LacusCurtius and every cited section re-read (53, 60, 62, 76, 86, 90, 92, 105, 107, 113, 115, 119-121, 125-126, 131, 136-137, 139). Translations hold. 37.131 asteria is 'proxima candicantium' (a whitish stone) -- study now says probably a pale star corundum. A second edition (Mayhoff/Teubner) was not compared."
+  - "Pearls (Rev 21:21; Matt 13:45-46) touched only as the gates."
+  - "RESOLVED 2026-10-29 (review): Bartholin, Experimenta crystalli Islandici disdiaclastici, Copenhagen (Daniel Paulli) 1669, confirmed via Mineralogical Record bio-bibliography and Wikipedia; generally credited as the first published description of double refraction."
+resources_consulted:
+  - {type: other, title: "Natural History 37.60 (adamas as engravers' point), 37.131 (asteria: light 'in a kind of pupil', moves as tilted, star against the sun)", author: "Pliny the Elder (LacusCurtius Latin)", note: "contributed 2026-10-29 at the author's request: asteria section; diamond as tool, not breastpiece stone"}
+  - {type: other, title: "Gems & Gemology Summer 2025 review of phenomenal gems; Fall 2014 pleochroism introduction; 4Cs Diamond Cut", author: "Gemological Institute of America", note: "contributed: needle inclusions cause asterism; blue sapphire 'strongly dichroic'; 'pleochroism cannot occur in singly refractive stones' (diamond, garnet); fire = dispersion"}
+  - {type: other, title: "Experimenta crystalli Islandici disdiaclastici (1669)", author: "Rasmus Bartholin", note: "first description of double refraction; cited for date only, not consulted directly; date confirmed in review 2026-10-29"}
+  - {type: other, title: "Antiquities of the Jews 3.7.5-7; 3.8.9", author: "Josephus, tr. Whiston", note: "contributed: shining stones tradition, zodiac/months, birth order"}
+  - {type: other, title: "Natural History 37.115, 119-120, 136-137", author: "Pliny the Elder (LacusCurtius Latin)", note: "contributed: ancient iaspis translucent green; sapphirus = lapis; iris stone"}
+  - {type: commentary, title: "Commentary on the Apocalypse, on 4:3", author: "Victorinus of Pettau (ANF 7)", note: "jasper = water, sardine = fire: allegory of judgments; example of individual-stone reading"}
+  - {type: commentary, title: "De Principiis 2.11.2", author: "Origen (ANF 4)", note: "against literal jewelled city"}
+  - {type: commentary, title: "Bible Knowledge Commentary, Revelation 21:17-21", author: "John F. Walvoord", note: "confirmed: language of appearance, literal city, no clue to precise interpretation; colours of each stone"}
+  - {type: commentary, title: "ESV Study Bible notes on Rev 4:3; 21:11; 21:19-21", author: "Crossway", note: "confirmed: reserve, read jewels together; breastplate and Ezek 28 link"}
+  - {type: commentary, title: "NIV Cultural Backgrounds SB notes on Rev 4:3; 21:11; 21:19-21", author: "Keener (NT)", note: "contributed: sapphire = lapis in antiquity; 'gems reflected light'; counts 9 shared stones (Ex 28 + Ezek 28)"}
+  - {type: commentary, title: "NIV Biblical Theology SB notes on Rev 4:3; 21:11; 21:19", author: "Zondervan", note: "confirmed: stones signify glory; rainbow -> Gen 9"}
+last_updated: "2026-10-29"
+
+evidence:
+  - {id: jn1-7-9-esv, what: "ESV John 1:7-9 block quote", tool: study_verse, args: {book: John, chapter: 1, verse: 8, work_id: esv-study-bible}, expect_contains: "He was not the light, but came to bear witness about the light", checked: 2026-10-29}
+  - {id: jn5-35-esv, what: "ESV John 5:35 lamp", tool: study_verse, args: {book: John, chapter: 5, verse: 35, work_id: esv-study-bible}, expect_contains: "a burning and shining lamp", checked: 2026-10-29}
+  - {id: photizo-rev-john, what: "photizo at Rev 21:23 and John 1:9", tool: bible_concordance, args: {strongs: G5461, book: Rev, work_id: macula-greek-sblgnt}, expect_contains: "21", checked: 2026-10-29}
+  - {id: phoster-nt, what: "phoster in NT only Phil 2:15 and Rev 21:11 (plus LXX)", tool: bible_concordance, args: {strongs: G5458, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "2", checked: 2026-10-29}
+  - {id: krystallizo-hapax, what: "krystallizo only Rev 21:11", tool: bible_concordance, args: {strongs: G2929, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "1", checked: 2026-10-29}
+  - {id: chashmal-count, what: "chashmal only Ezek 1:4, 27; 8:2", tool: bible_concordance, args: {strongs: H2830, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "3", checked: 2026-10-29}
+  - {id: leshem-count, what: "leshem only Exod 28:19; 39:12", tool: bible_concordance, args: {strongs: H3958, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "2", checked: 2026-10-29}
+  - {id: shevo-count, what: "shevo only Exod 28:19; 39:12", tool: bible_concordance, args: {strongs: H7618, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "2", checked: 2026-10-29}
+  - {id: achlamah-count, what: "achlamah only Exod 28:19; 39:12", tool: bible_concordance, args: {strongs: H306, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "2", checked: 2026-10-29}
+  - {id: ez28-13-lxx, what: "LXX Ezek 28:13 names all twelve breastpiece stones, silver and gold after sixth", tool: bible_verse, args: {book: Ezek, chapter: 28, verse: 13, translation: ebible-grcbrent}, expect_contains: "ἴασπιν, καὶ ἀργύριον καὶ χρυσίον, καὶ λιγύριον", checked: 2026-10-29}
+  - {id: ez1-28-esv, what: "ESV Ezek 1:28 block quote", tool: study_verse, args: {book: Ezek, chapter: 1, verse: 28, work_id: esv-study-bible}, expect_contains: "Such was the appearance of the likeness of the glory of the LORD", checked: 2026-10-29}
+  - {id: rev21-11-esv, what: "ESV Rev 21:11", tool: study_verse, args: {book: Rev, chapter: 21, verse: 11, work_id: esv-study-bible}, expect_contains: "its radiance like a most rare jewel, like a jasper, clear as crystal", checked: 2026-10-29}
+  - {id: rev21-23-esv, what: "ESV Rev 21:23 memory verse", tool: study_verse, args: {book: Rev, chapter: 21, verse: 23, work_id: esv-study-bible}, expect_contains: "for the glory of God gives it light, and its lamp is the Lamb", checked: 2026-10-29}
+  - {id: phil2-15-esv, what: "ESV Phil 2:15 memory verse", tool: study_verse, args: {book: Phil, chapter: 2, verse: 15, work_id: esv-study-bible}, expect_contains: "among whom you shine as lights in the world", checked: 2026-10-29}
+  - {id: ex28-29-esv, what: "ESV Exod 28:29 block quote", tool: study_verse, args: {book: Exod, chapter: 28, verse: 29, work_id: esv-study-bible}, expect_contains: "breastpiece of judgment on his heart, when he goes into the Holy Place", checked: 2026-10-29}
+  - {id: ex28-17-bsb-note, what: "BSB footnotes identifications uncertain", tool: bible_verse, args: {book: Exod, chapter: 28, verse: 17, translation: BSB}, expect_contains: "uncertain", checked: 2026-10-29}
+
+images:
+  plate: "docs/content/assets/img/gems/three-lists.svg -- drawn by utils/build_gems_graphics.py (relationship plate). Swatch colours from Pliny NH 37 per stone, cited in the generator's constants."
+  light_plate: "docs/content/assets/img/gems/light-in-stone.svg -- utils/build_gems_graphics.py light_plate(); five optical properties, each with its scripture and witness; double refraction dashed (no ancient witness). Added 2026-10-29 at the author's request (anisotropy and asteria discussion)."
+  photos: "docs/content/assets/img/gems/*.jpg -- 17 Wikimedia Commons photos resized to 480px via the Commons API thumbnail; author, licence and file page for each listed in the study's References > Photographs."
+
+review_2026-10-29:
+  by: "review-bible-study (agent pass; author has not yet seen the findings)"
+  checked:
+    - "Phase 1: every ESV quotation re-queried from study-notes.db (Ezek 1:4-28; 10:1, 9; 28:12-17; Exod 24:10; 28:10-29; Isa 54:11-12; 60:19; Dan 10:6; 12:3; Zech 9:16; Gen 2:12; Matt 5:16; John 8:12; 2 Cor 3:18; 4:6; Phil 2:14-15; 3:21; Heb 4:14; 7:25; 1 Pet 2:5; 1 John 1:5; Rev 4:3-6; 17:4; 18:16; 21:10-23). All verbatim. NIV, NASB 2020 Exod 28:17-20 table verified; BSB/CSB/NLT footnotes on Exod 28:17 verified; LSB footnotes Ezek 1:22 'Or ice' and Rev 21:11 'Lit luminary' verified."
+    - "Phase 2-3: Strong's ids for all tagged stone names confirmed by concordance; counts re-run (phoster NT 2 + DanOG 12:3 with phaino; krystallizo 1; diauges 1; chashmal 3; leshem/shevo/achlamah 2 each; Ezek 1:26-28 marʾeh 9, demut 4). LXX Exod 28:17-20 and Ezek 28:13 Greek lists verified (Brenton). ESV SB, NIV CBSB and BKC (EPUB on media volume) quotations verified verbatim. Josephus Ant. 3.168-169, 3.186, 3.215-218 (Whiston, via lexundria) verified; Victorinus ANF 7 on 4:3 verified; GIA articles verified (authors corrected)."
+    - "Phase 5: NLT Life Application (uncited) on Rev 21:10-27 reads the city as symbolic -- complicates the study's literal-city aside mildly; study's exegesis (Walvoord, New Jerusalem link) answers it; no change. NIV CBSB on Rev 4:3 calls jasper opaque -- the text ('clear as crystal') and Pliny 37.115 ('saepe tralucet') support the study; no change."
+  corrections_applied:
+    - "Rev 21 'one word touches price' -> qualified: 'precious stone' itself is a price word (Ezek 28:13; Rev 21:19)."
+    - "Exod 24:10 'colour of the night sky with stars' (unmarked inference) -> 'then a deep sky-blue flecked with gold', conditional on sappir = lapis."
+    - "Asteria: Pliny's stone is whitish (37.131 'proxima candicantium'); study no longer equates it with the blue star sapphire; 'turned to the sun' for 'contraria soli'."
+    - "Asterism mechanism: each needle set gives one bright line, three lines make six rays (Jin et al. 2025); was 'one arm' each."
+    - "Josephus's first breastpiece stone is a sardonyx (Ant. 3.168), so his birth order puts Reuben on a sardonyx, not the carnelian; shoulder stone also 'sardonyx' per Josephus."
+    - "LXX Ezek 28:13-14: the Greek has the king 'with the cherub', so the LXX-based sentence and Q4 now say 'king'."
+    - "Pleochroism: 'emerald, beryl, amethyst more faintly' was unsourced (emerald is moderate-strong) -> 'in varying strength'; GIA articles credited to their authors."
+    - "Smaller: table intro (rows 1, 2 and 4 differ), 'ancient jasper was often green', 'the plate's first three', Ezekiel/Pliny 'eye' marked as idiom vs picture, outline 'star stone'."
+  open_for_author:
+    - "Discussion questions: Q5 uses a non-facet label ('Looking closer.'); Q4's second half ('how far can a variant carry an argument') is a method question; several questions join two with 'and'."
+    - "Pliny 37.137 says the iris crystal's colours are not its own but struck from the walls ('nec ut ipsae habeant') -- direct ancient support for the thesis, unused in the prose."
+    - "Pliny 37.137's open-sun scattering is reported by Pliny as what 'some say' (aliqui dicunt)."
+    - "Light plate's asterism panel draws a blue dome; Pliny's asteria was whitish. Left as an illustration of the phenomenon."
+  size: "4100-budget; validate clean after fixes (net about +15 words, absorbed by trims in the same edits)."
+readability_2026-10-29:
+  by: "read-bible-study (agent pass, separate session from drafting and review; structure only)"
+  changes:
+    - "Split 'A light the stone does not make' in two. It now holds Where the city's light comes from, A tradition about the breastpiece and the bold 'This shows that God is the light His works display' landing, and follows straight on from 'The stones tell you how that place looks in the light of God.' The landing now arrives ~320 words into the section instead of after ~900 words of gemmology."
+    - "New '## What a gem does with light' follows it, holding the gemmology unchanged and in order: '### Five ways a stone returns light' (renamed from the old ### 'What a gem does with light'; plate, terms table, transparency/lustre/dispersion, diamond), The star in the stone, The colour that turns. Terms table kept intact."
+    - "Study outline: the light bullet re-annotated and a bullet added for #what-a-gem-does-with-light (descriptive only)."
+  verified: "Untracked file, so compared against a pre-pass snapshot with study_structure._prose_diff: clean, no removed or added prose lines; sorted-line diff shows only the two headings and outline bullets. npm run validate: no warnings for this file. Sections 34 -> 35, median 147, longest 315, none over 400."
+  open_for_author:
+    - "Optional prose: a one-line bridge at the top of '## What a gem does with light' tying it back to the landing (e.g. how He made the stones able to show His light) would make the turn from theology back to gemmology explicit. Not written: new prose is outside this pass."

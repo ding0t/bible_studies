@@ -14,5 +14,6 @@ draft: false
 
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 5:22-23
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 5:24
+- [Precious Stones in Scripture](../../god/precious-stones.md) — 5:35
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 5:22-29
 <!-- commentary-index:auto-end -->

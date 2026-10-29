@@ -22,6 +22,7 @@ draft: false
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 1:14
 - [Passover: When I See the Blood](../../feasts/passover.md) — 1:29
 - [Philip](../../biblical-figures/philip.md) — 1:43-46
+- [Precious Stones in Scripture](../../god/precious-stones.md) — 1:7-9
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 1:4-5
 - [Simon Peter](../../biblical-figures/peter.md) — 1:40-42

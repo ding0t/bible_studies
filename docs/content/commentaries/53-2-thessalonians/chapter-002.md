@@ -17,6 +17,8 @@ draft: false
 - [Know the Truth](../../christian-life/know-the-truth.md) — 2:10-11
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 2:6-7
 - [Pride](../../sin/pride.md) — 2:3-8
+- [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 2:7-8
+- [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 2:7
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 2:9-11
 - [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 2:3-4
 - [The Rapture of the Church](../../last-things/rapture.md) — 2:1-7

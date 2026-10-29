@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Precious Stones in Scripture](../../god/precious-stones.md) — 3:18
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 3:5
 - [Six Days of History](../../last-things/six-days-of-history.md) — 3:18
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 3:17-18

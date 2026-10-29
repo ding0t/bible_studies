@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 21:9-22:5"
 bible_references: ["Revelation 21:2", "Revelation 21:9-27", "Revelation 22:1-5", "Revelation 22:14-15", "Revelation 22:17", "Revelation 22:19", "Revelation 3:12", "Revelation 7:15", "Revelation 11:2", "Revelation 11:8", "Revelation 17:1-5", "Revelation 17:18", "Revelation 19:7-8", "Revelation 20:9", "Isaiah 66:22-23", "Psalm 86:9", "Revelation 15:4", "Revelation 5:9", "Daniel 7:14", "Genesis 22:18", "Ephesians 5:25-27", "Isaiah 54:5", "Zechariah 14:11", "Ezekiel 40:2-3", "Ezekiel 47:1-12", "Ezekiel 48:30-35", "Isaiah 52:1", "Isaiah 54:11-12", "Isaiah 60:3", "Isaiah 60:11", "Isaiah 60:19", "Genesis 12:3", "Matthew 23:37", "Exodus 25:9", "Hebrews 11:9", "2 Corinthians 11:2", "Zechariah 2:1-5", "Zechariah 14:8-11", "Genesis 2:9-10", "Genesis 3:17", "Genesis 3:22-24", "Exodus 28:17-21", "Exodus 28:29", "Exodus 33:20", "1 Kings 6:20", "Hebrews 9:7", "Hebrews 11:10", "Hebrews 11:16", "Hebrews 12:22-24", "Hebrews 13:14", "Galatians 4:25-26", "Philippians 3:20", "John 7:37-38", "John 14:2-3", "Ephesians 2:20", "Psalm 46:4"]
 date_created: 2026-09-28
-date_modified: 2026-10-17
+date_modified: 2026-10-29
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -334,7 +334,9 @@ high priest's breastpiece (*NIV Biblical Theology Study Bible*, note on Revelati
 carried the names of the tribes, "so Aaron shall bear the names of the sons of Israel in the
 breastpiece of judgment on his heart" (Exodus 28:29, ESV). Isaiah promised Jerusalem, "I will … lay
 your foundations with sapphires" (Isaiah 54:11, ESV). The stones the priest wore over his heart
-into the Holy Place become the foundations of the city.
+into the Holy Place become the foundations of the city. [Precious Stones in
+Scripture](../god/precious-stones.md) sets the two lists side by side, with what each stone was and
+what its light shows.
 
 ### Light, open gates, and nothing unclean
 

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Precious Stones in Scripture](../../god/precious-stones.md) — 21:9-21 (primary passage)
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 21:1-14 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 21:3
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 21:1-8

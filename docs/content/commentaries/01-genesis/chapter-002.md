@@ -19,6 +19,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 2:2
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:2-3
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 2:18-24
+- [Precious Stones in Scripture](../../god/precious-stones.md) — 2:12
 - [Pride](../../sin/pride.md) — 2:9
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 2:22-24
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 2:24

@@ -4,7 +4,7 @@ category: "other"
 description: "One God in three persons: the Father, His names and nature, creation, and the ways He makes Himself known."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-18
+date_modified: 2026-10-29
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -49,6 +49,14 @@ sets out what this site believes about the Trinity.
     A study of the names God gave Himself in the Old Testament, from "I AM WHO I AM" at the burning bush to the LORD our righteousness: where each was spoken, to whom, what it promised, and how all of them meet in the name of Jesus.
 
     [:octicons-arrow-right-24: Read](names-of-god.md)
+
+-   __Precious Stones in Scripture__
+
+    ---
+
+    Why Ezekiel and John describe God's throne and the New Jerusalem in gemstones: what each stone was, how the breastpiece, Ezekiel 28 and Revelation 21 share one list, and what a stone's light (lustre, dispersion, asterism, pleochroism) shows about the glory of God.
+
+    [:octicons-arrow-right-24: Read](precious-stones.md)
 
 </div>
 <!-- section-index:auto-end -->

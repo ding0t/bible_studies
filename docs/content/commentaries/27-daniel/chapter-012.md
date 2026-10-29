@@ -16,6 +16,7 @@ draft: false
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 12:1-2
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 12:1
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 12:1
+- [Precious Stones in Scripture](../../god/precious-stones.md) — 12:3
 - [The End of the Age](../../last-things/end-of-the-age.md) — 12:4
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 12:2-3
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 12:1-11

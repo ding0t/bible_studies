@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Precious Stones in Scripture](../../god/precious-stones.md) — 1:26-28 (primary passage)
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 1:13
 <!-- commentary-index:auto-end -->

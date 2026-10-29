@@ -36,6 +36,6 @@ draft: false
 - [Chapter 48](chapter-048.md) — 1 study(ies)
 - [Chapter 49](chapter-049.md) — 1 study(ies)
 - [Chapter 50](chapter-050.md) — 1 study(ies)
-- [Chapter 51](chapter-051.md) — 1 study(ies)
+- [Chapter 51](chapter-051.md) — 2 study(ies)
 - [Chapter 52](chapter-052.md) — 3 study(ies)
 <!-- commentary-index:auto-end -->
