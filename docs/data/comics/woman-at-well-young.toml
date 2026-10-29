@@ -1,0 +1,72 @@
+# One-minute comic for young readers (8-16), on the youth page docs/content/young/woman-at-well.md.
+# Drawn by: python3 utils/build_comics.py woman-at-well-young
+# The parent comic is woman-at-well.toml; this one keeps its finding (the woman pictures a shaft,
+# Jesus a spring: John 4:11, 14) and drops the rest to four beats with larger lettering. Every bubble
+# is ESV wording, cut at a clause, so --verify checks all of it. No Greek on the page: the thought
+# pictures carry the two words in plain English, and the youth page teaches πηγή as its key word.
+
+title = "The Woman at the Well"
+subtitle = "A deep hole, a spring, and the One who gives it"
+layout = [[330, 1, 1], [330, 1, 1]]
+lettering = 17
+phone = true
+note = "Each panel names its verses; every word in a bubble is the ESV's."
+point = "Jesus gives a spring that never runs dry: His Holy Spirit, inside anyone who asks Him (John 4:10, 14; 7:39)."
+
+[[panel]]
+ref = "John 4:6-7"
+scene = "plain"
+sky = "day"
+props = [ { what = "well", x = 0.36 } ]
+caption = "Noon at a well in Samaria. Jesus is tired."
+caption_w = 230
+shows = "Jesus sits tired beside the stone rim of Jacob's well; a Samaritan woman walks up carrying a water jar"
+cast = [
+  { who = "jesus", x = 0.16, face = "right", stance = "sit", pose = "fold" },
+  { who = "woman", id = "woman", name = "The woman", x = 0.80, face = "left", stance = "walk", pose = "hold", holds = "jar", tone = 2 },
+]
+say = [
+  { by = "jesus", text = "Give me a drink.", source = "esv", at = [0.36, 0.40], w = 130 },
+]
+
+[[panel]]
+ref = "John 4:11"
+scene = "plain"
+sky = "day"
+shows = "The woman, jar in hand, speaks to Jesus; above her head a thought cloud shows a deep hole cut through rock to water far below"
+cast = [
+  { who = "woman", id = "woman", name = "The woman", x = 0.74, face = "left", pose = "hold", holds = "jar", tone = 2, s = 0.82 },
+]
+say = [
+  { by = "woman", style = "thought", text = "", picture = { what = "shaft", n = 1, h = 70, s = 0.9, label = "a deep hole in the rock", caption = "a deep hole" }, at = [0.72, 0.03], w = 120 },
+  { by = "woman", text = "You have nothing to draw water with, and the *well is deep*.", source = "esv", at = [0.30, 0.56], w = 170 },
+]
+
+[[panel]]
+ref = "John 4:14"
+scene = "plain"
+sky = "day"
+burst = { on = "jesus", color = "gold" }
+shows = "Jesus, seated, answers; above His head a thought cloud shows water rising out of the rock on its own and running over"
+cast = [
+  { who = "jesus", x = 0.28, face = "right", stance = "sit", pose = "open" },
+]
+say = [
+  { by = "jesus", style = "thought", text = "", picture = { what = "spring", n = 1, h = 70, s = 0.9, label = "a spring rising out of the rock", caption = "a spring" }, at = [0.28, 0.03], w = 130 },
+  { by = "jesus", text = "The water that I will give him will become in him a *spring* of water.", source = "esv", at = [0.72, 0.50], w = 170 },
+]
+
+[[panel]]
+ref = "John 4:28-29"
+scene = "plain"
+sky = "day"
+props = [ { what = "well", x = 0.18 }, { what = "jar", x = 0.38 } ]
+caption = "She leaves her jar and runs to tell the town."
+caption_w = 230
+shows = "The woman's water jar stands on the ground by the well where she left it, and she hurries away toward the town"
+cast = [
+  { who = "woman", id = "woman", name = "The woman", x = 0.78, face = "right", stance = "walk", pose = "open", tone = 2, marks = ["question"] },
+]
+say = [
+  { by = "woman", text = "Come, see a man who told me all that I ever did. Can this be the *Christ*?", source = "esv", at = [0.42, 0.44], w = 190 },
+]

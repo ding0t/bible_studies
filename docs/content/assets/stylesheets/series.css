@@ -1,6 +1,7 @@
 /* hooks/series.py: the line under a study's title naming its series, and a series page's weeks.
    Material's own variables, so both follow the palette toggle. */
-.md-typeset .page-series {
+.md-typeset .page-series,
+.md-typeset .youth-for {
   margin-top: -0.6em;
   color: var(--md-default-fg-color--light);
   font-size: 0.8rem;
@@ -16,4 +17,24 @@
 
 .md-typeset .series-sessions small {
   color: var(--md-default-fg-color--light);
+}
+
+/* hooks/youth.py: a youth page's boxes read at body size, for young readers. */
+.md-typeset .admonition.youth {
+  font-size: 0.8rem;
+}
+
+/* A comic with a phone version (utils/build_comics.py, phone = true): the stacked one below 720px. */
+.md-typeset .comic-phone {
+  display: none;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .comic-wide {
+    display: none;
+  }
+
+  .md-typeset .comic-phone {
+    display: inline;
+  }
 }

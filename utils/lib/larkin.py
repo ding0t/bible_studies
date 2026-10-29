@@ -59,9 +59,9 @@ def svg_open(h, title, desc):
     ]
 
 
-def heading(title, subtitle, y=50):
+def heading(title, subtitle, y=50, size=26):
     return [
-        text(W / 2, y, title.upper(), 26, "middle", "bold", spacing="2"),
+        text(W / 2, y, title.upper(), size, "middle", "bold", spacing="2"),
         text(W / 2, y + 28, subtitle, 15, "middle", fill=MUTED, italic=True),
         f'<path d="M{W / 2 - 150} {y + 42} H{W / 2 + 150}" stroke="{INK}" stroke-width="0.8"/>',
         f'<circle cx="{W / 2}" cy="{y + 42}" r="3" fill="{INK}"/>',

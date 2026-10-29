@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1672" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">The Woman at the Well</title>
+<desc id="d">A one-minute comic in 4 panels. Panel 1 (John 4:6-7): Jesus sits tired beside the stone rim of Jacob's well; a Samaritan woman walks up carrying a water jar. Caption: "Noon at a well in Samaria. Jesus is tired." Jesus says: "Give me a drink." Panel 2 (John 4:11): The woman, jar in hand, speaks to Jesus; above her head a thought cloud shows a deep hole cut through rock to water far below. The woman pictures a deep hole in the rock, labelled "a deep hole". The woman says: "You have nothing to draw water with, and the well is deep." Panel 3 (John 4:14): Jesus, seated, answers; above His head a thought cloud shows water rising out of the rock on its own and running over. Jesus pictures a spring rising out of the rock, labelled "a spring". Jesus says: "The water that I will give him will become in him a spring of water." Panel 4 (John 4:28-29): The woman's water jar stands on the ground by the well where she left it, and she hurries away toward the town. Caption: "She leaves her jar and runs to tell the town." The woman says: "Come, see a man who told me all that I ever did. Can this be the Christ?" The point: Jesus gives a spring that never runs dry: His Holy Spirit, inside anyone who asks Him (John 4:10, 14; 7:39).</desc>
+<rect width="400" height="1672" fill="#faf6ec"/>
+<rect x="8" y="8" width="384" height="1656" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="372" height="1644" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<defs><radialGradient id="comic-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6e2a0" stop-opacity="0.9"/><stop offset="1" stop-color="#f6e2a0" stop-opacity="0"/></radialGradient><radialGradient id="comic-white" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient><radialGradient id="comic-fire" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6b04a" stop-opacity="0.75"/><stop offset="1" stop-color="#f6b04a" stop-opacity="0"/></radialGradient></defs>
+<text x="200.0" y="50.0" font-size="20" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE WOMAN AT THE WELL</text>
+<text x="200.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">A deep hole, a spring, and the One who gives it</text>
+<path d="M50.0 92 H350.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="200.0" cy="92" r="3" fill="#3b2f1e"/>
+<defs><clipPath id="pane0"><rect x="0" y="0" width="340.0" height="330" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 108.0)">
+<g clip-path="url(#pane0)">
+<defs><linearGradient id="sky0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdbe6"/><stop offset="1" stop-color="#f3e2bd"/></linearGradient></defs>
+<rect width="340.0" height="330" fill="url(#sky0)"/>
+<rect x="0" y="257.8" width="340.0" height="72.2" fill="#d9cba4"/>
+<path d="M0 287.8 Q170.0 277.8 340.0 289.8 V330 H0 Z" fill="#cbb98c"/>
+<g transform="translate(122.4 289.8) scale(1.430)"><path d="M-40 0 V-30 H40 V0 Z" fill="#9a8f80" stroke="#5e5547" stroke-width="1.2"/><ellipse cx="0" cy="-30" rx="40" ry="8" fill="#b5ab9b" stroke="#5e5547" stroke-width="1.2"/><ellipse cx="0" cy="-30" rx="28" ry="4.5" fill="#2e2a24"/><path d="M-40 -20 h20 M-40 -30 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M-20 -20 h20 M-20 -30 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M0 -20 h20 M0 -30 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M20 -20 h20 M20 -30 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M-30 -10 h20 M-30 -20 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M-10 -10 h20 M-10 -20 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M10 -10 h20 M10 -20 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M30 -10 h20 M30 -20 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/></g>
+<g transform="translate(54.4 289.8) scale(1.430 1.430)"><ellipse cx="0" cy="-12" rx="46" ry="70" fill="url(#comic-glow)"/><g transform="translate(0 40)"><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#b9ab8c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#c3bcac" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="-60" r="4.3" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/></g><path d="M-13 -38 Q0 -42 13 -38 Q15 -22 24 -10 Q28 -2 22 2 H-22 Q-28 -2 -24 -10 Q-15 -22 -13 -38 Z" fill="#efe6d2" stroke="#b9ab8c" stroke-width="1"/><path d="M-16 -8 Q0 -14 18 -8" fill="none" stroke="#00000030" stroke-width="1.2"/><g transform="translate(0 40)"><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><path d="M-13 -78 Q-6 -81 -2 -80 L12 -50 L5 -46 Q0 -60 -13 -70 Z" fill="#9b3b2c" stroke="#b9ab8c" stroke-width="0.8"/><rect x="-2" y="-82" width="7" height="6" fill="#b88a62"/><circle cx="2" cy="-90" r="12" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/><path d="M-10 -94 Q-6 -105 6 -103 Q13 -101 14 -95 Q5 -97 -1 -93 Q-3 -84 -6 -72 Q-12 -72 -14 -76 Q-12 -84 -10 -94 Z" fill="#3b2a1a"/><path d="M-3 -88 Q-5 -78 1 -72 Q7 -66 13 -69 Q17 -73 16 -86 Q14 -84 10 -85 Q5 -86 3 -83 Q1 -86 -3 -88 Z" fill="#3b2a1a"/><path d="M7 -86 Q11 -89 15.5 -86.5 Q15 -81 8 -82 Z" fill="#3b2a1a"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#b9ab8c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#efe6d2" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-4" cy="-58" r="4.3" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/></g></g>
+<g transform="translate(272.0 289.8) scale(-1.430 1.430)"><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#64492f" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-12" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="14" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -21 -2 Q0 3 21 -2 L21 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#7a5a3a" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#c39a72"/><circle cx="2" cy="-90" r="12" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -113 -12 -98 Q-18 -80 -20 -40 Q-21 -16 -18 -6 L-12 -8 Q-12 -40 -6 -74 Q2 -84 9 -92 Z" fill="#cdbf9e" stroke="#2a2016" stroke-width="0.9"/><path d="M7 -74 L14 -56 L20 -44" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L14 -56 L20 -44" fill="none" stroke="#7a5a3a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="-44" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><g transform="translate(20.0 -40.0) scale(0.900)"><path d="M-5 -16 H5 V-13 Q9 -10 9 -5 Q9 0 0 0 Q-9 0 -9 -5 Q-9 -10 -5 -13 Z" fill="#e8dcc0" stroke="#8d7650" stroke-width="0.9"/><rect x="-4" y="-19" width="8" height="3" fill="#8d7650"/></g></g>
+<rect x="10.0" y="10.0" width="230.0" height="53.2" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="32.5" font-size="16.5" fill="#3b2f1e" font-style="italic">Noon at a well in</text>
+<text x="20.0" y="53.1" font-size="16.5" fill="#3b2f1e" font-style="italic">Samaria. Jesus is tired.</text>
+<path d="M84.4 190.5 L76.7 199.4 L102.4 190.5 Z" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="71.4" y="132.0" width="102.0" height="60.5" rx="16" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M84.4 190.5 L102.4 190.5" stroke="#fffdf7" stroke-width="3"/>
+<text x="122.4" y="158.0" font-size="17" fill="#3b2f1e" text-anchor="middle">Give me</text>
+<text x="122.4" y="179.2" font-size="17" fill="#3b2f1e" text-anchor="middle">a drink.</text>
+<rect x="255.0" y="304.0" width="79.0" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="326.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">John 4:6-7</text>
+</g>
+<rect x="0" y="0" width="340.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="326.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">1</text>
+</g>
+<defs><clipPath id="pane1"><rect x="0" y="0" width="340.0" height="330" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 452.0)">
+<g clip-path="url(#pane1)">
+<defs><linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdbe6"/><stop offset="1" stop-color="#f3e2bd"/></linearGradient></defs>
+<rect width="340.0" height="330" fill="url(#sky1)"/>
+<rect x="0" y="257.8" width="340.0" height="72.2" fill="#d9cba4"/>
+<path d="M0 287.8 Q170.0 277.8 340.0 289.8 V330 H0 Z" fill="#cbb98c"/>
+<g transform="translate(251.6 289.8) scale(-1.173 1.173)"><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#64492f" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#7a5a3a" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#c39a72"/><circle cx="2" cy="-90" r="12" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -113 -12 -98 Q-18 -80 -20 -40 Q-21 -16 -18 -6 L-12 -8 Q-12 -40 -6 -74 Q2 -84 9 -92 Z" fill="#cdbf9e" stroke="#2a2016" stroke-width="0.9"/><path d="M7 -74 L14 -56 L20 -44" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L14 -56 L20 -44" fill="none" stroke="#7a5a3a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="20" cy="-44" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><g transform="translate(20.0 -40.0) scale(0.900)"><path d="M-5 -16 H5 V-13 Q9 -10 9 -5 Q9 0 0 0 Q-9 0 -9 -5 Q-9 -10 -5 -13 Z" fill="#e8dcc0" stroke="#8d7650" stroke-width="0.9"/><rect x="-4" y="-19" width="8" height="3" fill="#8d7650"/></g></g>
+<circle cx="187.8" cy="22.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="187.8" cy="128.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="216.3" cy="22.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="216.3" cy="128.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="244.8" cy="22.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="244.8" cy="128.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="273.3" cy="22.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="273.3" cy="128.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="301.8" cy="22.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="301.8" cy="128.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="187.8" cy="49.4" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="301.8" cy="49.4" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="187.8" cy="75.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="301.8" cy="75.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="187.8" cy="102.4" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="301.8" cy="102.4" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<rect x="187.8" y="22.9" width="114.0" height="106.0" fill="#fffdf7"/>
+<circle cx="245.7" cy="143.4" r="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="246.6" cy="151.8" r="3.6" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="247.5" cy="160.3" r="2.4" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<g transform="translate(244.8 100.9) scale(0.900)"><path d="M-44 -66 H44 V0 H-44 Z" fill="#b9a27c" stroke="#7a6446" stroke-width="1"/><path d="M-44 -46 Q-20 -42 0 -46 T44 -44 M-44 -24 Q-14 -20 8 -25 T44 -22" fill="none" stroke="#8f7a58" stroke-width="1"/><path d="M-10 -66 V-6 H10 V-66 Z" fill="#3a2f24"/><path d="M-10 -12 H10 V-6 H-10 Z" fill="#5b88a8"/><path d="M-16 -70 H-10 V-64 H-16 Z M10 -70 H16 V-64 H10 Z" fill="#9a8f80" stroke="#5e5547" stroke-width="0.8"/><path d="M0 -76 V-30" stroke="#d8c8a0" stroke-width="1.2"/><path d="M-4 -30 H4 L3 -22 H-3 Z" fill="#b5835a" stroke="#6b4a2a" stroke-width="0.7"/><path d="M-6 -76 H6" stroke="#6b4a2a" stroke-width="2.4"/></g>
+<text x="244.8" y="118.9" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-style="italic">a deep hole</text>
+<path d="M156.0 186.8 L227.4 179.7 L174.0 186.8 Z" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="17.0" y="184.8" width="170.0" height="103.0" rx="16" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M156.0 186.8 L174.0 186.8" stroke="#fffdf7" stroke-width="3"/>
+<text x="102.0" y="210.8" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>You have nothing</tspan></text>
+<text x="102.0" y="232.1" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>to draw water</tspan></text>
+<text x="102.0" y="253.3" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>with, and the</tspan></text>
+<text x="102.0" y="274.6" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan font-weight="bold" fill="#8b1e1e">well is deep</tspan><tspan>.</tspan></text>
+<rect x="261.3" y="304.0" width="72.7" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="326.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">John 4:11</text>
+</g>
+<rect x="0" y="0" width="340.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="12.0" y="319.0" font-size="12" fill="#6b5a3e" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">2</text>
+</g>
+<defs><clipPath id="pane2"><rect x="0" y="0" width="340.0" height="330" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 796.0)">
+<g clip-path="url(#pane2)">
+<defs><linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdbe6"/><stop offset="1" stop-color="#f3e2bd"/></linearGradient></defs>
+<rect width="340.0" height="330" fill="url(#sky2)"/>
+<rect x="0" y="257.8" width="340.0" height="72.2" fill="#d9cba4"/>
+<path d="M0 287.8 Q170.0 277.8 340.0 289.8 V330 H0 Z" fill="#cbb98c"/>
+<g fill="#a67c3d" opacity="0.55"><path d="M474.1 256.7 L197.1 261.2 L474.1 265.7 Z"/><path d="M471.6 304.0 L212.3 276.4 L469.9 317.5 Z"/><path d="M462.4 354.4 L224.9 295.5 L459.6 364.5 Z"/><path d="M455.4 378.3 L195.3 295.2 L450.4 392.5 Z"/><path d="M436.2 425.7 L204.4 315.1 L430.8 436.4 Z"/><path d="M410.7 470.1 L209.8 337.8 L405.6 477.5 Z"/><path d="M396.2 490.3 L181.8 328.0 L387.8 500.9 Z"/><path d="M362.4 528.7 L183.5 350.1 L354.8 536.0 Z"/><path d="M326.6 559.8 L180.6 373.7 L314.5 568.7 Z"/><path d="M303.2 576.4 L157.2 355.3 L293.0 582.8 Z"/><path d="M258.5 601.3 L151.0 377.0 L250.3 605.0 Z"/><path d="M214.4 618.8 L127.0 355.9 L201.5 622.7 Z"/><path d="M186.9 626.6 L123.7 373.5 L176.6 628.9 Z"/><path d="M140.2 634.9 L110.2 392.0 L125.2 636.3 Z"/><path d="M89.0 637.1 L93.9 364.2 L77.0 636.6 Z"/><path d="M60.4 635.3 L84.7 379.7 L51.5 634.3 Z"/><path d="M13.7 627.6 L65.3 392.6 L0.5 624.4 Z"/><path d="M-35.3 612.8 L58.7 360.8 L-45.1 608.9 Z"/><path d="M-58.3 603.2 L44.6 372.3 L-71.8 596.7 Z"/><path d="M-103.3 578.8 L21.5 377.8 L-113.3 572.2 Z"/><path d="M-144.5 548.5 L25.3 345.3 L-151.4 542.6 Z"/><path d="M-163.0 531.8 L8.0 351.3 L-172.6 522.3 Z"/><path d="M-197.3 493.9 L19.4 321.4 L-203.7 485.5 Z"/><path d="M-224.3 454.9 L-1.9 318.5 L-231.8 441.8 Z"/><path d="M-238.1 429.8 L-20.3 318.2 L-243.3 418.9 Z"/><path d="M-257.9 382.6 L0.1 293.3 L-260.7 374.0 Z"/><path d="M-270.3 336.8 L-19.2 283.1 L-272.8 323.5 Z"/><path d="M-275.0 308.5 L-36.5 276.4 L-276.2 298.1 Z"/><path d="M-278.0 261.2 L-9.0 259.1 L-277.7 246.2 Z"/><path d="M-274.5 210.1 L-23.8 242.5 L-272.7 198.2 Z"/><path d="M-269.5 181.9 L-37.9 230.2 L-267.5 173.1 Z"/><path d="M-256.6 136.3 L-6.1 222.4 L-251.9 123.6 Z"/><path d="M-236.4 89.3 L-14.4 201.4 L-231.4 80.0 Z"/><path d="M-224.3 67.5 L14.2 208.5 L-216.3 54.8 Z"/><path d="M-195.0 25.6 L9.4 187.6 L-187.3 16.3 Z"/><path d="M-160.3 -12.0 L8.9 164.6 L-153.7 -18.2 Z"/><path d="M-141.6 -28.5 L33.8 180.6 L-131.1 -37.0 Z"/><path d="M-100.1 -58.4 L36.6 159.0 L-91.1 -63.8 Z"/><path d="M-58.3 -80.8 L44.2 136.9 L-44.5 -86.8 Z"/><path d="M-31.8 -91.7 L62.7 160.1 L-20.4 -95.7 Z"/><path d="M17.3 -106.1 L73.0 140.5 L26.2 -107.9 Z"/><path d="M64.2 -113.3 L88.0 122.1 L77.7 -114.3 Z"/><path d="M92.8 -114.8 L98.1 150.1 L103.3 -114.8 Z"/><path d="M140.2 -112.5 L114.8 135.0 L155.1 -110.5 Z"/><path d="M190.5 -103.3 L123.9 165.6 L202.1 -100.1 Z"/><path d="M218.0 -95.2 L136.1 152.5 L226.5 -92.2 Z"/><path d="M261.9 -77.3 L157.4 144.0 L274.0 -71.2 Z"/><path d="M306.3 -51.9 L156.3 176.2 L315.0 -45.9 Z"/><path d="M326.6 -37.4 L172.4 168.0 L338.3 -28.0 Z"/><path d="M365.0 -3.6 L195.7 167.4 L373.4 5.0 Z"/><path d="M398.5 35.1 L184.4 197.8 L403.8 42.3 Z"/><path d="M412.8 55.4 L202.5 195.6 L420.0 66.9 Z"/><path d="M437.8 100.1 L224.9 203.2 L442.2 109.7 Z"/><path d="M455.4 144.1 L204.4 228.7 L459.8 158.5 Z"/><path d="M463.3 171.7 L222.2 232.9 L466.0 183.4 Z"/><path d="M472.1 222.1 L196.6 252.1 L472.9 231.1 Z"/></g>
+<g transform="translate(95.2 289.8) scale(1.430 1.430)"><ellipse cx="0" cy="-12" rx="46" ry="70" fill="url(#comic-glow)"/><g transform="translate(0 40)"><path d="M-5 -74 L-20 -64 L-32 -72" fill="none" stroke="#b9ab8c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-20 -64 L-32 -72" fill="none" stroke="#c3bcac" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-32" cy="-72" r="4.3" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/></g><path d="M-13 -38 Q0 -42 13 -38 Q15 -22 24 -10 Q28 -2 22 2 H-22 Q-28 -2 -24 -10 Q-15 -22 -13 -38 Z" fill="#efe6d2" stroke="#b9ab8c" stroke-width="1"/><path d="M-16 -8 Q0 -14 18 -8" fill="none" stroke="#00000030" stroke-width="1.2"/><g transform="translate(0 40)"><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><path d="M-13 -78 Q-6 -81 -2 -80 L12 -50 L5 -46 Q0 -60 -13 -70 Z" fill="#9b3b2c" stroke="#b9ab8c" stroke-width="0.8"/><rect x="-2" y="-82" width="7" height="6" fill="#b88a62"/><circle cx="2" cy="-90" r="12" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/><path d="M-10 -94 Q-6 -105 6 -103 Q13 -101 14 -95 Q5 -97 -1 -93 Q-3 -84 -6 -72 Q-12 -72 -14 -76 Q-12 -84 -10 -94 Z" fill="#3b2a1a"/><path d="M-3 -88 Q-5 -78 1 -72 Q7 -66 13 -69 Q17 -73 16 -86 Q14 -84 10 -85 Q5 -86 3 -83 Q1 -86 -3 -88 Z" fill="#3b2a1a"/><path d="M7 -86 Q11 -89 15.5 -86.5 Q15 -81 8 -82 Z" fill="#3b2a1a"/><path d="M7 -74 L22 -64 L36 -72" fill="none" stroke="#b9ab8c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L22 -64 L36 -72" fill="none" stroke="#efe6d2" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="36" cy="-72" r="4.3" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/></g></g>
+<circle cx="32.2" cy="22.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="32.2" cy="128.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="63.7" cy="22.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="63.7" cy="128.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="95.2" cy="22.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="95.2" cy="128.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="126.7" cy="22.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="126.7" cy="128.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="158.2" cy="22.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="158.2" cy="128.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="32.2" cy="49.4" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="158.2" cy="49.4" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="32.2" cy="75.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="158.2" cy="75.9" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="32.2" cy="102.4" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="158.2" cy="102.4" r="13" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<rect x="32.2" y="22.9" width="126.0" height="106.0" fill="#fffdf7"/>
+<circle cx="95.8" cy="149.9" r="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="96.3" cy="164.8" r="3.6" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="96.9" cy="179.8" r="2.4" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<g transform="translate(95.2 100.9) scale(0.900)"><path d="M-46 0 Q-40 -16 -24 -18 Q-14 -26 0 -20 Q14 -27 26 -18 Q42 -16 46 0 Z" fill="#9a8f80" stroke="#5e5547" stroke-width="1"/><path d="M-3 -20 Q-6 -46 0 -62 Q6 -46 3 -20 Z" fill="#7fb3d5" stroke="#3f7298" stroke-width="1"/><path d="M0 -58 Q-18 -60 -26 -36 Q-30 -24 -34 -14 M0 -58 Q18 -60 26 -36 Q30 -24 34 -14" fill="none" stroke="#5b9cc8" stroke-width="3" stroke-linecap="round"/><path d="M-2 -50 Q-12 -50 -16 -36 M2 -50 Q12 -50 16 -36" fill="none" stroke="#a9d1ea" stroke-width="2" stroke-linecap="round"/><path d="M-44 -4 Q-30 -10 -14 -6 Q0 -2 14 -6 Q30 -10 44 -4 L46 0 H-46 Z" fill="#7fb3d5" stroke="#3f7298" stroke-width="0.8"/><circle cx="-36" cy="-20" r="1.6" fill="#a9d1ea"/><circle cx="37" cy="-22" r="1.6" fill="#a9d1ea"/></g>
+<text x="95.2" y="118.9" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-style="italic">a spring</text>
+<path d="M166.0 219.1 L119.4 215.2 L166.0 235.1 Z" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="164.0" y="165.0" width="161.5" height="124.2" rx="16" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M166.0 219.1 L166.0 235.1" stroke="#fffdf7" stroke-width="3"/>
+<text x="244.8" y="191.0" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>The water that</tspan></text>
+<text x="244.8" y="212.2" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>I will give him</tspan></text>
+<text x="244.8" y="233.5" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>will become in</tspan></text>
+<text x="244.8" y="254.8" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>him a </tspan><tspan font-weight="bold" fill="#8b1e1e">spring</tspan></text>
+<text x="244.8" y="276.0" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>of water.</tspan></text>
+<rect x="261.3" y="304.0" width="72.7" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="326.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">John 4:14</text>
+</g>
+<rect x="0" y="0" width="340.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="12.0" y="319.0" font-size="12" fill="#6b5a3e" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">3</text>
+</g>
+<defs><clipPath id="pane3"><rect x="0" y="0" width="340.0" height="330" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 1140.0)">
+<g clip-path="url(#pane3)">
+<defs><linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfdbe6"/><stop offset="1" stop-color="#f3e2bd"/></linearGradient></defs>
+<rect width="340.0" height="330" fill="url(#sky3)"/>
+<rect x="0" y="257.8" width="340.0" height="72.2" fill="#d9cba4"/>
+<path d="M0 287.8 Q170.0 277.8 340.0 289.8 V330 H0 Z" fill="#cbb98c"/>
+<g transform="translate(61.2 289.8) scale(1.430)"><path d="M-40 0 V-30 H40 V0 Z" fill="#9a8f80" stroke="#5e5547" stroke-width="1.2"/><ellipse cx="0" cy="-30" rx="40" ry="8" fill="#b5ab9b" stroke="#5e5547" stroke-width="1.2"/><ellipse cx="0" cy="-30" rx="28" ry="4.5" fill="#2e2a24"/><path d="M-40 -20 h20 M-40 -30 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M-20 -20 h20 M-20 -30 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M0 -20 h20 M0 -30 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M20 -20 h20 M20 -30 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M-30 -10 h20 M-30 -20 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M-10 -10 h20 M-10 -20 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M10 -10 h20 M10 -20 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/><path d="M30 -10 h20 M30 -20 v10" stroke="#5e5547" stroke-width="0.8" opacity="0.7"/></g>
+<g transform="translate(129.2 289.8) scale(1.430)"><path d="M-5 -16 H5 V-13 Q9 -10 9 -5 Q9 0 0 0 Q-9 0 -9 -5 Q-9 -10 -5 -13 Z" fill="#e8dcc0" stroke="#8d7650" stroke-width="0.9"/><rect x="-4" y="-19" width="8" height="3" fill="#8d7650"/></g>
+<g transform="translate(265.2 289.8) scale(1.430 1.430)"><path d="M-5 -74 L-20 -64 L-32 -72" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-20 -64 L-32 -72" fill="none" stroke="#64492f" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-32" cy="-72" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-12" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="14" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -21 -2 Q0 3 21 -2 L21 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#7a5a3a" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><rect x="-2" y="-82" width="7" height="6" fill="#c39a72"/><circle cx="2" cy="-90" r="12" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/><path d="M13 -98 Q2 -113 -12 -98 Q-18 -80 -20 -40 Q-21 -16 -18 -6 L-12 -8 Q-12 -40 -6 -74 Q2 -84 9 -92 Z" fill="#cdbf9e" stroke="#2a2016" stroke-width="0.9"/><path d="M7 -74 L22 -64 L36 -72" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L22 -64 L36 -72" fill="none" stroke="#7a5a3a" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="36" cy="-72" r="4.3" fill="#c39a72" stroke="#2a2016" stroke-width="0.8"/></g>
+<text x="273.8" y="132.5" font-size="31.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">?</text>
+<rect x="10.0" y="10.0" width="230.0" height="53.2" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="32.5" font-size="16.5" fill="#3b2f1e" font-style="italic">She leaves her jar and</text>
+<text x="20.0" y="53.1" font-size="16.5" fill="#3b2f1e" font-style="italic">runs to tell the town.</text>
+<path d="M235.8 188.7 L255.1 170.3 L235.8 204.7 Z" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="47.8" y="145.2" width="190.0" height="103.0" rx="16" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M235.8 188.7 L235.8 204.7" stroke="#fffdf7" stroke-width="3"/>
+<text x="142.8" y="171.2" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>Come, see a man who</tspan></text>
+<text x="142.8" y="192.4" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>told me all that I</tspan></text>
+<text x="142.8" y="213.7" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>ever did. Can this</tspan></text>
+<text x="142.8" y="234.9" font-size="17" fill="#3b2f1e" text-anchor="middle"><tspan>be the </tspan><tspan font-weight="bold" fill="#8b1e1e">Christ</tspan><tspan>?</tspan></text>
+<rect x="242.4" y="304.0" width="91.6" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="326.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">John 4:28-29</text>
+</g>
+<rect x="0" y="0" width="340.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="326.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">4</text>
+</g>
+<path d="M110.0 1500 H290.0 L280.0 1513.0 L290.0 1526 H110.0 L120.0 1513.0 Z" fill="#8b1e1e"/>
+<text x="200.0" y="1518.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE POINT</text>
+<text x="200.0" y="1552.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">Jesus gives a spring that never runs</text>
+<text x="200.0" y="1572.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">dry: His Holy Spirit, inside anyone</text>
+<text x="200.0" y="1592.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">who asks Him (John 4:10, 14; 7:39).</text>
+<text x="200.0" y="1616.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Each panel names its verses; every</text>
+<text x="200.0" y="1632.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">word in a bubble is the ESV's.</text>
+<text x="376.0" y="1650.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">A one-minute comic · the-way.lewy.au</text>
+</svg>

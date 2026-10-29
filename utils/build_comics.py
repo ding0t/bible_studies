@@ -7,6 +7,8 @@
     python3 utils/build_comics.py --draft peter        # render despite layout faults, and list them
     python3 utils/build_comics.py --verify             # every source = "esv" bubble against the ESV text
 
+A comic with `phone = true` also gets <slug>-phone.svg, one panel per row (render_phone).
+
 A comic file names a layout, then lists its panels: a scene, a sky, the cast with their poses, the
 caption and the speech bubbles, and the verses the panel draws on. The drawing is all in
 utils/lib/comic.py, so a new comic is a new TOML file and nothing else. See
@@ -19,7 +21,7 @@ import tomllib
 from pathlib import Path
 
 from lib import comic as lib
-from lib.comic import cast_sheet, describe, emphasis_sheet, render
+from lib.comic import cast_sheet, describe, emphasis_sheet, render, render_phone
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "docs" / "data" / "comics"
@@ -110,8 +112,13 @@ def main(args):
     OUT.mkdir(parents=True, exist_ok=True)
     for slug in args or sorted(p.stem for p in SRC.glob("*.toml")):
         path = OUT / f"{slug}.svg"
-        path.write_text(render(load(slug)) + "\n", encoding="utf-8")
+        comic = load(slug)
+        path.write_text(render(comic) + "\n", encoding="utf-8")
         print(f"wrote {path.relative_to(ROOT)}")
+        if comic.get("phone"):
+            phone = OUT / f"{slug}-phone.svg"
+            phone.write_text(render_phone(comic) + "\n", encoding="utf-8")
+            print(f"wrote {phone.relative_to(ROOT)}")
     for msg in lib.PROBLEMS:
         print(f"  fault: {msg}")
 

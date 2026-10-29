@@ -1,0 +1,90 @@
+# Youth page for jesus/woman-at-well.md, rendered by hooks/youth.py onto docs/content/young/woman-at-well.md.
+# Says nothing the study does not: every claim below is the study's, cut down and put in plain words.
+# Bible text is the BSB (berean-bsb in bible-text.db), checked 2026-10-29; the comic's bubbles are ESV
+# and checked by `python3 utils/build_comics.py --verify woman-at-well-young`.
+
+study = "jesus/woman-at-well.md"
+comic = "woman-at-well-young"
+ages = "8–16"
+read = "John 4:5-30, 39-42"
+big_idea = "Jesus is the spring of living water. He gives His Holy Spirit as a free gift to anyone who asks, and He knows everything about you and still wants you, so you can come to God just as you are."
+
+prayer = """
+Father, thank you that your Son Jesus is the spring of living water. Thank you that He knows
+everything about me and still wants me. I ask for the living water He gives: your Holy Spirit, a
+spring inside me that never runs dry. Help me tell my friends about Jesus the way the woman told
+her town. In Jesus' name. Amen.
+"""
+
+[key_word]
+language = "Greek"
+# Jesus most likely spoke Aramaic at the well; John wrote His words down in Greek, so the page
+# credits the word to John's writing, not to Jesus' own speech.
+written = "John wrote his Gospel in Greek. The key word in this story is"
+word = "πηγή"
+translit = "pēgē"
+say = "pay-GAY"
+strongs = "G4077"
+means = "a spring: water that comes up out of the ground by itself"
+note = "It is the word for what Jesus gives in John 4:14. The Greek Old Testament uses the same word in Jeremiah 2:13, where God calls Himself \"the fountain of living water\" (BSB)."
+
+[memory_verse]
+ref = "John 4:14"
+translation = "BSB"
+text = "But whoever drinks the water I give him will never thirst. Indeed, the water I give him will become in him a fount of water springing up to eternal life."
+
+[[band]]
+ages = "8–11"
+story = """
+Jesus had walked a long way. At about noon He sat down by a well in Samaria, tired and thirsty
+(John 4:6). A woman came with a water jar, and Jesus asked her for a drink. She was surprised,
+because Jews and Samaritans kept away from each other (John 4:9).
+
+The woman thought about the well she knew: a deep hole dug down through the rock. You let a jar down
+on a rope and pull the water up, and tomorrow you come back and do it all again.
+
+Jesus talked about a different kind of water: a **spring**. A spring is water that comes up out of
+the ground all by itself. Jesus said the water He gives becomes a spring inside you (John 4:14).
+Later, John tells us what that water is: the Holy Spirit (John 7:39).
+
+Jesus knew everything about the woman, even the wrong things she had done, and He kept talking with
+her. She was so excited that she left her jar behind and ran to tell the whole town.
+"""
+questions = [
+  "**The language.** The woman pictured a deep hole you have to pull water out of. Jesus talked about a spring that comes up by itself. Which one would you rather have, and why?",
+  "**Christ.** Jesus knew all about the woman, even the bad things, and He still talked with her. What does that tell you about how Jesus treats you?",
+  "**Be transformed.** Jesus said that if she had asked Him, He would have given her living water (John 4:10). Have you asked Him? What would you like to say to Him?",
+]
+activity = "Fold a page in half. Draw a deep well on one side and a spring bubbling out of the rock on the other. Copy John 4:14 under the spring. Every time you have a drink of water this week, say thank you to Jesus for the Holy Spirit."
+
+[[band]]
+ages = "12–16"
+story = """
+John 4 uses two Greek words that English Bibles both print as "well". The woman calls Jacob's well a
+φρέαρ (*phrear*, FRAY-ar): a shaft dug down through the rock to reach water. John and Jesus call it a
+πηγή (*pēgē*, pay-GAY): a spring, water that rises by itself.
+
+She is thinking about equipment: "You have nothing to draw with and the well is deep" (John 4:11,
+BSB). Jesus is offering a spring placed inside a person, "a fount of water springing up to eternal
+life" (John 4:14, BSB), and three chapters later John says He meant the Holy Spirit (John 7:39).
+Centuries earlier God had said through Jeremiah, "They have forsaken Me, the fountain of living
+water, and they have dug their own cisterns—broken cisterns that cannot hold water" (Jeremiah 2:13,
+BSB). The spring God's people walked away from is now sitting by a well, asking for a drink.
+
+Then Jesus asks about her husband. He knows she has had five, and that the man she has now is
+not her husband (John 4:18). He names the truth about her life and keeps talking with her. She turns
+to which mountain is the right place to worship, and Jesus answers that the Father is seeking people
+who worship Him "in spirit and in truth" (John 4:23, BSB).
+
+When she says the Messiah is coming, Jesus answers, "I who speak to you am He" (John 4:26, BSB):
+the first time in John's Gospel that Jesus says "I am" (ἐγώ εἰμι, *egō eimi*) about Himself. She
+leaves her jar and runs into town, and by the end a whole Samaritan town is saying, "this man truly
+is the Savior of the world" (John 4:42, BSB).
+"""
+questions = [
+  "**The language.** The woman says φρέαρ (*phrear*), a shaft; Jesus says πηγή (*pēgē*), a spring. One you have to keep drawing from; the other keeps rising by itself. Where are you trying to draw from a shaft?",
+  "**The text in its context.** Jeremiah 2:13 names two wrongs: leaving the spring, and digging your own cisterns. What cisterns do people your age dig to try to feel full?",
+  "**The hard part.** Jesus brings up the woman's past before He talks about worship, and keeps talking with her afterwards. Why might being fully known come before real worship?",
+  "**Be transformed.** She asked for the water so she wouldn't have to keep walking to the well (John 4:15). What have you been keeping out of your conversations with God? Tell Him about it this week.",
+]
+activity = "Every time you refill a water bottle this week, pray the prayer below. By Sunday, try saying John 4:14 from memory."

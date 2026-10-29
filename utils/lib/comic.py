@@ -14,6 +14,7 @@ colour and pose, the way a reader recognises a figure in a stained-glass window.
 import math
 import re
 
+from lib import larkin
 from lib.larkin import (W, INK, MUTED, PAPER, CARD, RED, GOLD, GOLD_EDGE, GOLD_TINT, esc, text, svg_open, heading, banner,
                         cloud as larkin_cloud)
 
@@ -1798,6 +1799,9 @@ LAYOUTS = {
 }
 
 MARGIN, GUTTER = 30, 14
+# A comic's phone version (render_phone): one panel per row, on a page narrow enough that a panel
+# drawn for a two-column row keeps its size, and its lettering stays readable, on a phone screen.
+PHONE_W = 400
 
 # A layout fault stops the build; build_comics.py --draft sets this False to render anyway and list
 # the faults, so the author can see what to move.
@@ -2137,7 +2141,7 @@ def draw_panel(i, box, p):
     cap_h = 0
     if p.get("caption"):
         room = w - (20 if p.get("_no_number") else 44)
-        c, cap_h = caption(p["caption"], 10, 10, min(room, p.get("caption_w", w * 0.62)))
+        c, cap_h = caption(p["caption"], 10, 10, min(room, p.get("caption_w", w * 0.62)), p.get("_caption", 14))
         out += c
     if p.get("aside"):
         # The aside hangs under the caption, so bubbles keep clear of both as one block.
@@ -2166,9 +2170,9 @@ def draw_panel(i, box, p):
         hx, hy, hs = (b["from"][0] * w, b["from"][1] * h, base) if offstage else heads[b["by"]]
         bw = b.get("w", 200)
         pic = b.get("picture")
-        _, bh = bubble(b["text"], 0, 0, bw, None, style, picture=pic)
+        _, bh = bubble(b["text"], 0, 0, bw, None, style, p.get("_letter", 14.5), pic)
         bh += 26 if style in ("memory", "thought") else 0
-        bw = bubble_width(b["text"], bw, style, picture=pic)
+        bw = bubble_width(b["text"], bw, style, p.get("_letter", 14.5), pic)
         bx, by = b.get("at", [0.5, 0.1])[0] * w, b.get("at", [0.5, 0.1])[1] * h
         top_limit = lambda x_: cap_bottom if x_ - bw / 2 < cap_right else 8
         by = max(by, top_limit(bx))
@@ -2191,7 +2195,7 @@ def draw_panel(i, box, p):
                 problem(f"{where} overlaps another bubble; move one (at) or narrow it (w)")
         placed.append((bx, by, bw, bh))
         inset = 13 if style in ("memory", "thought") else 0
-        svg, _ = bubble(b["text"], bx, by + inset, bw - 2 * inset, (hx, hy - 6 * hs), style, picture=pic)
+        svg, _ = bubble(b["text"], bx, by + inset, bw - 2 * inset, (hx, hy - 6 * hs), style, p.get("_letter", 14.5), pic)
         out += svg
 
     badge_right = 0
@@ -2287,6 +2291,22 @@ def credit(h):
     return text(W - 24, h - 22, "A one-minute comic · the-way.lewy.au", 11, "end", fill=MUTED, italic=True)
 
 
+def render_phone(comic):
+    """The comic one panel per row at PHONE_W, each row as tall as its row in the wide layout. A
+    comic asks for it with `phone = true`; `phone_layout` overrides the stacking. Only panels drawn
+    for a two-column row fit unchanged: a full-width panel's bubbles are placed for 660px."""
+    global W
+    layout = comic.get("layout", "setting-exchange-reveal")
+    rows = LAYOUTS[layout] if isinstance(layout, str) else layout
+    stacked = comic.get("phone_layout") or [[row[0], 1] for row in rows for _ in row[1:]]
+    wide = W
+    W = larkin.W = PHONE_W
+    try:
+        return render(dict(comic, layout=stacked))
+    finally:
+        W = larkin.W = wide
+
+
 def render(comic):
     layout = comic.get("layout", "setting-exchange-reveal")
     rows = LAYOUTS[layout] if isinstance(layout, str) else layout
@@ -2296,7 +2316,7 @@ def render(comic):
     if len(boxes) != len(comic["panel"]):
         raise SystemExit(f'{comic["slug"]}: layout has {len(boxes)} panels, file has {len(comic["panel"])}')
 
-    point_rows = fit(comic.get("point", ""), 600, 16)[0] if comic.get("point") else []
+    point_rows = fit(comic.get("point", ""), min(600, W - 100), 16)[0] if comic.get("point") else []
     note = comic.get("note", "Each panel names its verses; “condensed” marks words shortened from the ESV.")
     # A long note wraps inside the frame instead of running past it; each extra line adds height.
     note_rows = fit(note, W - 120, 12)[0] or [note]
@@ -2304,7 +2324,7 @@ def render(comic):
 
     out = svg_open(h, comic["title"], describe(comic))
     out.append(DEFS)
-    out += heading(comic["title"], comic.get("subtitle", ""))
+    out += heading(comic["title"], comic.get("subtitle", ""), size=26 if W > PHONE_W else 20)
     # Column headers name what each column of panels is, when the columns run in parallel.
     for (bx, by_, bw_, _), label in zip(boxes, headers):
         out += banner(bx + bw_ / 2, by_ - 34 - (16 if subheaders else 0), min(bw_ - 40, len(label) * 9 + 20), label.upper(),
@@ -2315,7 +2335,11 @@ def render(comic):
     for i, (box, p) in enumerate(zip(boxes, comic["panel"])):
         num += p.get("kind") not in ("gap", "thread")
         # numbers = false: the columns or headers already give the reading order.
-        out += draw_panel(i, box, dict(p, _no_number=not comic.get("numbers", True), _num=num))
+        # lettering: a bubble's type size, captions half a point smaller; a comic for young readers
+        # sets it larger.
+        letter = comic.get("lettering", 14.5)
+        out += draw_panel(i, box, dict(p, _no_number=not comic.get("numbers", True), _num=num,
+                                       _letter=letter, _caption=letter - 0.5 if "lettering" in comic else 14))
 
     y = bottom + 30
     if point_rows:

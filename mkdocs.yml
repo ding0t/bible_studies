@@ -59,6 +59,8 @@ hooks:
   # Study series: the weeks on a series page, the hub at series/, and a "Week 2 of 7" line on
   # each study in one. See hooks/series.py.
   - hooks/series.py
+  # Writes a youth page (young/) from docs/data/youth/<slug>.toml. See hooks/youth.py.
+  - hooks/youth.py
   # Replaces <!-- memory-verses --> with printable A4 card sheets. See hooks/memory_verses.py.
   - hooks/memory_verses.py
   # Replaces <!-- songbook: <group> -->, <!-- songbook-occasions --> and <!-- songbook-jesus -->
