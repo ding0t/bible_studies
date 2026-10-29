@@ -31,8 +31,8 @@ outline:
   - {section: "Stones worn and stones built", says: "The cherub of Tyre wore the breastpiece's stones (LXX) and was corrupted by his beauty (Ezekiel 28:17); Babylon wears gems (Revelation 17:4); the Bride is built of them. Links Pride for the Satan question."}
   - {section: "So you may shine", says: "phoster in Philippians 2:15 and Revelation 21:11, Daniel 12:3, 2 Corinthians 3:18; 4:6, Zechariah 9:16: God makes His people reflect His glory now and at glorification."}
   - {section: "Annex: correlations that do not hold", says: "Stone-to-tribe and stone-to-apostle charts, the zodiac and months (Josephus), Victorinus's water-and-fire reading, birthstones: what Scripture states and what it leaves unstated."}
-word_budget: 4200
-word_budget_reason: "Author asked (2026-10-29) for the gemmological terms (transparency, lustre, refraction, dispersion, asterism, birefringence, pleochroism) in the text so site search finds them; the terms table and inline terms add about 45 words of reference vocabulary. Raised to 4200 the same day for the author-requested John 1:7-9 / John 5:35 witness-and-lamp paragraph in So you may shine (~90 words)."
+word_budget: 4400
+word_budget_reason: "Author asked (2026-10-29) for the gemmological terms (transparency, lustre, refraction, dispersion, asterism, birefringence, pleochroism) in the text so site search finds them; the terms table and inline terms add about 45 words of reference vocabulary. Raised to 4200 the same day for the author-requested John 1:7-9 / John 5:35 witness-and-lamp paragraph in So you may shine (~90 words). Raised to 4400 on 2026-10-30 for the author-requested ephod and names plates (Names on the stones): two short paragraphs introducing them and two sentences in the annex's stone-to-tribe bullet (~180 words)."
 
 stages:
   scoping:
@@ -132,6 +132,8 @@ open_questions:
   - "Pearls (Rev 21:21; Matt 13:45-46) touched only as the gates."
   - "RESOLVED 2026-10-29 (review): Bartholin, Experimenta crystalli Islandici disdiaclastici, Copenhagen (Daniel Paulli) 1669, confirmed via Mineralogical Record bio-bibliography and Wikipedia; generally credited as the first published description of double refraction."
 resources_consulted:
+  - {type: other, title: "Targum Pseudo-Jonathan on Exodus 28:17-21 (Etheridge 1862); Numbers Rabbah 2:7 and Exodus Rabbah 38:8 (Sefaria Midrash Rabbah 2022); Rashi on Exodus 28:6, 10, 16, 21, 30; b. Sotah 36a; b. Yoma 73b", author: "via Sefaria API, read 2026-10-30", note: "contributed to the ephod and names plates: Targum and Rashi put the tribes in birth order (Gad on leshem); Num. R. puts Leah's six first (Dan on leshem), Ex. R. swaps Naphtali and Gad; Rashi: ephod an apron behind to the heels, Urim between the folds; Sotah 36a: 25 letters each shoulder stone; Yoma 73b: patriarchs and 'tribes of Jeshurun' supply missing letters"}
+  - {type: other, title: "Antiquities of the Jews 3.162-171", author: "Josephus, tr. Whiston (lexundria)", note: "re-read 2026-10-30: ephod a short sleeved coat (3.162); shoulder sardonyxes, elder sons on the right shoulder (3.165-166); breastpiece in birth order (3.169)"}
   - {type: other, title: "Natural History 37.60 (adamas as engravers' point), 37.131 (asteria: light 'in a kind of pupil', moves as tilted, star against the sun)", author: "Pliny the Elder (LacusCurtius Latin)", note: "contributed 2026-10-29 at the author's request: asteria section; diamond as tool, not breastpiece stone"}
   - {type: other, title: "Gems & Gemology Summer 2025 review of phenomenal gems; Fall 2014 pleochroism introduction; 4Cs Diamond Cut", author: "Gemological Institute of America", note: "contributed: needle inclusions cause asterism; blue sapphire 'strongly dichroic'; 'pleochroism cannot occur in singly refractive stones' (diamond, garnet); fire = dispersion"}
   - {type: other, title: "Experimenta crystalli Islandici disdiaclastici (1669)", author: "Rasmus Bartholin", note: "first description of double refraction; cited for date only, not consulted directly; date confirmed in review 2026-10-29"}
@@ -143,9 +145,12 @@ resources_consulted:
   - {type: commentary, title: "ESV Study Bible notes on Rev 4:3; 21:11; 21:19-21", author: "Crossway", note: "confirmed: reserve, read jewels together; breastplate and Ezek 28 link"}
   - {type: commentary, title: "NIV Cultural Backgrounds SB notes on Rev 4:3; 21:11; 21:19-21", author: "Keener (NT)", note: "contributed: sapphire = lapis in antiquity; 'gems reflected light'; counts 9 shared stones (Ex 28 + Ezek 28)"}
   - {type: commentary, title: "NIV Biblical Theology SB notes on Rev 4:3; 21:11; 21:19", author: "Zondervan", note: "confirmed: stones signify glory; rainbow -> Gen 9"}
-last_updated: "2026-10-29"
+last_updated: "2026-10-30"
 
 evidence:
+  - {id: leshem-city, what: "Leshem the city only Josh 19:47 (twice), same word as the stone", tool: bible_concordance, args: {strongs: H3959, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "2", checked: 2026-10-30}
+  - {id: shoulder-stones-lxx, what: "LXX Exod 28:9 shoulder stones are smaragdos", tool: bible_verse, args: {book: Exod, chapter: 28, verse: 9, translation: ebible-grcbrent}, expect_contains: "λίθους σμαράγδου", checked: 2026-10-30}
+  - {id: josh19-47-bsb, what: "BSB Joshua 19:47 quoted on the names plate", tool: bible_verse, args: {book: Josh, chapter: 19, verse: 47, translation: berean-bsb}, expect_contains: "renamed it after their father Dan", checked: 2026-10-30}
   - {id: jn1-7-9-esv, what: "ESV John 1:7-9 block quote", tool: study_verse, args: {book: John, chapter: 1, verse: 8, work_id: esv-study-bible}, expect_contains: "He was not the light, but came to bear witness about the light", checked: 2026-10-29}
   - {id: jn5-35-esv, what: "ESV John 5:35 lamp", tool: study_verse, args: {book: John, chapter: 5, verse: 35, work_id: esv-study-bible}, expect_contains: "a burning and shining lamp", checked: 2026-10-29}
   - {id: photizo-rev-john, what: "photizo at Rev 21:23 and John 1:9", tool: bible_concordance, args: {strongs: G5461, book: Rev, work_id: macula-greek-sblgnt}, expect_contains: "21", checked: 2026-10-29}

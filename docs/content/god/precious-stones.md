@@ -5,9 +5,9 @@ description: "Why Ezekiel and John describe God's throne and the New Jerusalem i
 tags: ["exodus", "ezekiel", "revelation", "priesthood", "septuagint", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: false
 primary_passage: "Ezekiel 1:26-28; Revelation 21:9-21"
-bible_references: ["John 1:7-9", "John 5:35", "Exodus 28:17-21", "Exodus 28:29", "Exodus 24:10", "Exodus 28:9-12", "Genesis 2:12", "Ezekiel 1:4", "Ezekiel 1:16", "Ezekiel 1:22", "Ezekiel 10:1", "Ezekiel 10:9", "Ezekiel 28:12-17", "Daniel 10:6", "Daniel 12:3", "Isaiah 54:11-12", "Isaiah 60:19", "Zechariah 9:16", "Revelation 4:2-6", "Revelation 17:4", "Revelation 18:16", "Revelation 21:23", "Philippians 2:15", "2 Corinthians 3:18", "2 Corinthians 4:6", "John 8:12", "Matthew 5:14-16", "1 Peter 2:5", "1 John 1:5", "Genesis 9:13"]
+bible_references: ["John 1:7-9", "John 5:35", "Exodus 28:17-21", "Exodus 28:22-25", "Exodus 28:29", "Joshua 19:47", "Exodus 24:10", "Exodus 28:9-12", "Genesis 2:12", "Ezekiel 1:4", "Ezekiel 1:16", "Ezekiel 1:22", "Ezekiel 10:1", "Ezekiel 10:9", "Ezekiel 28:12-17", "Daniel 10:6", "Daniel 12:3", "Isaiah 54:11-12", "Isaiah 60:19", "Zechariah 9:16", "Revelation 4:2-6", "Revelation 17:4", "Revelation 18:16", "Revelation 21:23", "Philippians 2:15", "2 Corinthians 3:18", "2 Corinthians 4:6", "John 8:12", "Matthew 5:14-16", "1 Peter 2:5", "1 John 1:5", "Genesis 9:13"]
 date_created: 2026-10-29
-date_modified: 2026-10-29
+date_modified: 2026-10-30
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -444,6 +444,21 @@ in, Israel went in with him:
 > 29 So Aaron shall bear the names of the sons of Israel in the breastpiece of judgment on his heart,
 > when he goes into the Holy Place, to bring them to regular remembrance before the LORD.
 
+The two sets of stones hung together. Gold chains ran from the breastpiece's top corners to the
+settings of the shoulder stones, so the names on his heart hung from the names on his shoulders
+(Exodus 28:22-25).
+
+[![A plate of the high priest from the front, without a face, numbered in the order Leviticus 8:7-9 dresses him: the linen coat, the sash, the blue robe with pomegranates and gold bells, the ephod's shoulder pieces and woven band, the two onyx shoulder stones, the breastpiece with its twelve stones, and the turban with its gold plate. The ephod's body is dashed, since its shape is not stated. Below, the breastpiece at one span square hanging by gold chains from the shoulder-stone settings and tied with blue lace to rings above the band, and a sketch of a cloth folded double into a pocket for the Urim and Thummim, marked as a guess](../assets/img/gems/ephod.svg)](../assets/img/gems/ephod.svg)
+
+Exodus fixes the order on the shoulders and leaves it open on the breastpiece. Josephus, Targum
+Pseudo-Jonathan and Rashi put the tribes on the breastpiece in birth order; Numbers Rabbah 2:7 puts
+Leah's six sons first. All of them agree on the first four stones and the last two. Here and there a
+stone's name echoes its tribe. The seventh stone is *leshem*, and Leshem is the city Dan captured and
+renamed after himself (Joshua 19:47), though only Numbers Rabbah's order puts Dan on it. Scripture
+draws none of these links, so the plate marks each one with the order it depends on.
+
+[![A plate of the names on the stones. The two onyx shoulder stones carry six names each in birth order, twenty-five letters on each, the elder sons on his right shoulder after Josephus. Gold chains run down to the breastpiece, whose twelve stones show the tribe each tradition puts there: birth order and Numbers and Exodus Rabbah agree on stones 1 to 4 and 11 to 12 and divide over 5 to 10. Five echoes between a stone and its tribe follow, each marked with the order it needs: Dan and leshem, Joseph and the onyx of the shoulder stones, Levi and the flashing bareqet, Benjamin and jasper, Reuben and the red odem. Last, the 22 Hebrew letters, with the four the twelve names lack marked in gold](../assets/img/gems/names-on-the-stones.svg)](../assets/img/gems/names-on-the-stones.svg)
+
 In the city the stones carry names again. "The wall of the city had twelve foundations, and on them
 were the twelve names of the twelve apostles of the Lamb" (Revelation 21:14, ESV). The names of the
 twelve tribes are on the gates (Revelation 21:12). [The New
@@ -566,8 +581,10 @@ rests on.
 - **Stone to tribe.** Exodus 28:21 says each stone bears one son's name, and it does not say which.
   Exodus 28:10 sets the shoulder stones' names "in the order of their birth" (ESV). Josephus applies
   birth order to the breastpiece too (*Antiquities* 3.7.5), which in his own list
-  puts Reuben on a sardonyx.
-  That is his reading, and the text is silent.
+  puts Reuben on a sardonyx. Targum Pseudo-Jonathan and Rashi follow birth order as well, and
+  Numbers Rabbah 2:7 puts Leah's six sons first; the plate in [Names on the
+  stones](#names-on-the-stones) above sets the orders side by side. Each is a reading, and the text
+  is silent.
 - **Stone to apostle.** Revelation 21:14 puts the twelve apostles' names on the foundations and does
   not pair them with stones.
 - **Stones and the months or the zodiac.** Josephus says the twelve stones may be read as the months
@@ -592,8 +609,17 @@ Revelation 21:19-21). Read them as the prophets used them, together, as the glor
   136-137, 139, Latin text via LacusCurtius (public domain) — what each Greek stone name meant, the
   rainbow-throwing crystal. Translations in this study are its own.
 - Flavius Josephus, *Antiquities of the Jews* 3.7.5, 3.7.7 and 3.8.9, trans. William Whiston (1737,
-  public domain) — the order of the stones, their reading as months and zodiac, and the tradition
-  that they shone.
+  public domain) — the order of the stones, the elder sons on the right shoulder (3.166), their
+  reading as months and zodiac, and the tradition that they shone.
+- *Targum Pseudo-Jonathan* on Exodus 28:17-21, trans. J. W. Etheridge (1862, public domain), via
+  Sefaria — the tribes on the breastpiece in birth order.
+- *Numbers Rabbah* 2:7 and *Exodus Rabbah* 38:8, Hebrew with *The Sefaria Midrash Rabbah* (2022), via
+  Sefaria — Leah's six sons first, and each tribe's banner coloured like its stone.
+- Rashi on Exodus 28:6, 10, 16, 21 and 30, trans. M. Rosenbaum and A. M. Silbermann (1929-1934), via
+  Sefaria — the ephod as an apron worn behind, six names on each shoulder stone, the breastpiece in
+  birth order, the Urim and Thummim between its folds.
+- Babylonian Talmud *Sotah* 36a and *Yoma* 73b, William Davidson edition, via Sefaria — twenty-five
+  letters on each shoulder stone; the patriarchs and "the tribes of Jeshurun" on the breastpiece.
 - Rasmus Bartholin, *Experimenta crystalli Islandici disdiaclastici* (Copenhagen, 1669) — the first
   description of double refraction.
 - Victorinus of Pettau, *Commentary on the Apocalypse*, on 4:3, *Ante-Nicene Fathers* vol. 7 (public
