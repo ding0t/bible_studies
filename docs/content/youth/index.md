@@ -6,7 +6,8 @@ tags: ["audience/youth"]
 draft: false
 date_created: 2026-10-30
 date_modified: 2026-10-30
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # Youth
