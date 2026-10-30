@@ -449,6 +449,11 @@ the workflow manually (`workflow_dispatch`).
   six panels. A comic is data, `docs/data/comics/<slug>.toml`, drawn by `utils/build_comics.py` from
   the reusable cast, poses, scenes and layouts in `utils/lib/comic.py`; every bubble is the ESV's
   wording or marked "condensed" from the verses its panel names.
+- **Youth pages** (`.claude/skills/youth-bible-study/SKILL.md`) cut a published study down for
+  readers aged 8 to 16, under the rule **say nothing the study does not**. A youth page is data,
+  `docs/data/youth/<slug>.toml`, which `hooks/youth.py` writes onto `docs/content/young/<slug>.md`
+  in a fixed shape (big idea, a four-panel comic with a phone layout, a tab per age band, a key
+  word, a memory verse, a prayer). The full study is the leader's notes, and the page links to it.
 - **Every study with a point and discussion questions gets a printable group sheet**
   (`hooks/study_sheet.py`): four A4 pages at 12 pt, two sheets double-sided, for a 40-minute
   group, in a collapsed block under the questions (a printer icon by the title jumps to it). It is assembled from the rendered study (the `**In one sentence:**`
