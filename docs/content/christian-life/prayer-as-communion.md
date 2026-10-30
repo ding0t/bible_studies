@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 3:14-21"
 bible_references: ["Ephesians 3:14-21", "Daniel 6:10-11", "Daniel 9:2-23", "Daniel 2:17-23", "Romans 8:15-16", "Galatians 4:6-7", "Mark 3:14", "John 17:3", "John 17:20-21", "Psalm 42:1-2", "Psalm 16:11", "Matthew 6:8-13", "Luke 22:42", "Exodus 16:4", "Exodus 16:19-21", "Deuteronomy 8:3", "Matthew 4:4", "John 4:34", "Hebrews 10:19-22", "Hebrews 4:16", "Hebrews 7:25", "Hebrews 5:7", "Philippians 4:6-7", "Romans 12:1-2", "1 John 5:14", "Psalm 37:4", "John 15:7", "Psalm 66:18-19", "James 4:2-3", "Mark 1:35-37", "Luke 5:16", "Luke 6:12", "Matthew 14:23", "Daniel 6:3-5", "Daniel 6:22", "John 17:5", "2 Kings 25:9", "1 Kings 8:10-11", "Colossians 2:7", "1 Kings 8:48-49", "Jeremiah 29:10-13", "Jeremiah 25:11-12", "Ephesians 2:21-22", "Colossians 1:19", "Colossians 2:9-10", "Ephesians 3:1", "Ephesians 4:1", "Philippians 2:10", "Exodus 32:11-14", "Nehemiah 2:4-5", "Acts 4:24-31", "Ephesians 2:18", "John 16:23-24", "Acts 7:59", "2 Corinthians 12:8-9", "Romans 8:26-27", "Matthew 6:5-6", "Acts 1:14", "Acts 12:5", "1 Timothy 2:1-2", "1 Timothy 2:5-6", "Colossians 4:2", "1 Thessalonians 5:16-18", "Luke 11:5-13", "Luke 18:1-8", "Deuteronomy 6:6-7"]
 date_created: 2024-10-06
-date_modified: 2026-10-27
+date_modified: 2026-10-30
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -24,6 +24,8 @@ a prisoner bends his knees "before the Father" and asks that people he has never
 know a love too large to know (Ephesians 3:14-19).
 
 Each man is keeping company with God.
+
+Teaching children or teenagers? [Prayer: Communion with God for young readers](../youth/prayer-as-communion.md) tells this story for ages 8 to 16, with its own comic.
 
 **In one sentence:** God the Father has adopted you through His Son Jesus and given you His Spirit
 to cry "Abba! Father!", so prayer is communion with Him: you come to Him as your Father, you seek

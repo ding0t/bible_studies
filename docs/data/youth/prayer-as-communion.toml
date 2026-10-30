@@ -1,0 +1,100 @@
+# Youth page for christian-life/prayer-as-communion.md, rendered by hooks/youth.py onto docs/content/youth/prayer-as-communion.md.
+# Says nothing the study does not: every claim below is the study's, cut down and put in plain words.
+# The stories follow the study's order: Daniel at the window (its opening), then the three parts of
+# the prayer Jesus taught (Our Father, Your will be done, Give us this day). Reading Hebrews 5:7's
+# "heard" as the resurrection is the study's reading with the ESV Study Bible, so the 8-11 story leaves
+# it out and the 12-16 story names it as that.
+# Bible text is the BSB (berean-bsb in bible-text.db), checked 2026-10-30; the comic's bubbles are ESV
+# and checked by `python3 utils/build_comics.py --verify prayer-as-communion-youth`.
+
+study = "christian-life/prayer-as-communion.md"
+comic = "prayer-as-communion-youth"
+ages = "8–16"
+read = "Matthew 6:9-13; Luke 22:39-46"
+big_idea = "God the Father has made you His child through His Son Jesus, and His Spirit helps you call Him \"Father!\" (Romans 8:15). So praying is talking with your Father. Jesus showed you how: start with who He is, ask for what He wants before what you want, and ask Him for what you need today (Matthew 6:9-11)."
+
+prayer = """
+Father, thank you that you have made me your child through your Son Jesus, and given me your Spirit
+so I can call you Father. Thank you that you always hear me. Your will be done in me today, before
+anything I ask. Please give me what I need for today, and help me talk with you every day. In Jesus'
+name. Amen.
+"""
+
+[key_word]
+language = "Greek"
+# Jesus most likely taught the prayer in Aramaic; Matthew wrote it down in Greek, so the page credits
+# the word to Matthew's writing.
+written = "Matthew wrote his Gospel in Greek. The first word of the prayer Jesus taught is"
+word = "πατήρ"
+translit = "patēr"
+say = "pah-TAIR"
+strongs = "G3962"
+means = "father"
+note = "Jesus said to begin \"Our Father in heaven\" (Matthew 6:9). Paul knelt \"before the Father\" too, and his word for every *family*, πατριά (*patria*), is built on πατήρ (Ephesians 3:14-15)."
+
+[memory_verse]
+ref = "Romans 8:15"
+translation = "BSB"
+text = "For you did not receive a spirit of slavery that returns you to fear, but you received the Spirit of adoption to sonship, by whom we cry, “Abba! Father!”"
+
+[[band]]
+ages = "8–11"
+story = """
+Daniel lived far from home, in the city of Babylon. Three times a day he knelt by his open window
+and prayed to God and thanked Him. One day the king signed a law against his praying. Daniel went
+home and prayed anyway, just as he always had (Daniel 6:10).
+
+Jesus taught His friends to begin praying with "Our Father in heaven" (Matthew 6:9). God has made
+you His child through Jesus. He even gives you His Holy Spirit, who helps you call Him "Father!"
+(Romans 8:15). So you never need to be afraid to talk to Him.
+
+Next Jesus taught, "Your will be done" (Matthew 6:10). That means asking for what God wants before
+what you want. Jesus prayed that way Himself, the night before the cross: "not My will, but Yours"
+(Luke 22:42). The cross was not taken away, and three days later God raised Jesus from the dead.
+
+Then Jesus taught, "Give us this day our daily bread" (Matthew 6:11). Long ago God fed His people
+with bread from heaven every morning, and they could not save it for the next day (Exodus 16:4,
+20). God wants you to come to Him every day, like Daniel at his window.
+"""
+questions = [
+  "**The language.** Jesus told you to start with \"Our Father\". What do you like to tell someone who loves you? What could you tell your Father in heaven today?",
+  "**Christ.** Jesus is God's own Son, and He still went off alone to pray to His Father, even the night before the cross. Why do you think He wanted to?",
+  "**Be transformed.** Daniel had a window and a time to pray. Where and when could you pray each day this week?",
+]
+activity = "Draw a window and write Matthew 6:9 under it. Pick a spot to pray: your window, your bed, the back step. Each morning this week, pray three things there: \"Our Father\" (thank Him for one thing), \"Your will be done\" (ask Him to help you want what He wants), and \"Give us this day\" (ask for what you need today)."
+
+[[band]]
+ages = "12–16"
+story = """
+In Babylon an old man kneels at an open window that faces Jerusalem, a city that has lain in ruins
+for decades. The day the king signs a law against his praying, Daniel goes home, and "three times a
+day he got down on his knees, prayed, and gave thanks to his God, just as he had done before"
+(Daniel 6:10, BSB). The Aramaic describes ongoing action: he *was kneeling, praying, giving thanks*.
+He changed nothing. Daniel was keeping company with God, and that is **communion**: shared life, two
+persons being with each other.
+
+The prayer Jesus taught has a shape. Three lines about God come before you ask anything for yourself
+(Matthew 6:9-10).
+
+**Our Father.** You come as a child. "You received the Spirit of adoption to sonship, by whom we cry,
+'Abba! Father!'" (Romans 8:15, BSB). Even the willingness to pray is God's gift, and the way in was
+opened "by the blood of Jesus" (Hebrews 10:19, BSB).
+
+**Your will be done.** In Gethsemane Jesus prayed, "Father, if You are willing, take this cup from Me.
+Yet not My will, but Yours be done" (Luke 22:42, BSB). The cup was not taken away. Hebrews still says
+"He was heard because of His reverence" (Hebrews 5:7, BSB), and the *ESV Study Bible*, which the full
+study follows here, reads that answer as the resurrection. God uses your praying to bring your will
+into line with His.
+
+**Give us this day.** God fed Israel with manna, and "each day the people are to go out and gather
+enough for that day" (Exodus 16:4, BSB). Kept overnight, it went bad (Exodus 16:20). Jesus taught you
+to ask for bread "this day" (Matthew 6:11). God means to be depended on daily, so come to Him each
+morning with nothing stored.
+"""
+questions = [
+  "**The language.** Jesus' prayer opens \"Our Father\", πατήρ (*patēr*). Paul kneels before the Father from whom every family is named (Ephesians 3:14-15). How would your prayers change if you began by remembering whose child you are?",
+  "**The text in its context.** Manna could not be stored overnight (Exodus 16:20), and Jesus taught you to ask for bread \"this day\" (Matthew 6:11). What do you need to ask your Father for today?",
+  "**The hard part.** Jesus prayed \"take this cup from Me\" and the cup stayed (Luke 22:42), yet He \"was heard\" (Hebrews 5:7). How do you hold those together when a prayer of yours isn't answered the way you asked?",
+  "**Be transformed.** Daniel's prayer was \"just as he had done before\" (Daniel 6:10). Pick a time and a place to pray each day this week. What will get in the way, and what will you do about it?",
+]
+activity = "Choose one person and pray Ephesians 3:16-19 for them by name every day this week: strength from God's Spirit inside, Christ at home in their heart, and a grip on how much Christ loves them. By Sunday, try saying Romans 8:15 from memory."

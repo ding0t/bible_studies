@@ -21,6 +21,14 @@ Leading a group? Each page links to the full study it comes from. That study is 
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
 
+-   __Prayer: Communion with God__
+
+    ---
+
+    The prayer Jesus taught, for young readers aged 8-16: God's child talking with the Father, asking for His will first and for today's bread.
+
+    [:octicons-arrow-right-24: Read](prayer-as-communion.md)
+
 -   __The Woman at the Well__
 
     ---

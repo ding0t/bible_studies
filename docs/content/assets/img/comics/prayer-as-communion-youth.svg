@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 948" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">Not My Will</title>
+<desc id="d">A one-minute comic in 4 panels. Panel 1 (Luke 22:41-42): at night on the Mount of Olives Jesus kneels alone, the sleeping disciples a stone's throw off. Caption: "The night before the cross, Jesus kneels and prays." Jesus says: "Father, if you are willing, remove this cup from me." Panel 2 (Matthew 26:42): Jesus kneels again alone, praying. Caption: "Again He prays the words He taught (Matthew 6:10):". Jesus says: "If this cannot pass unless I drink it, your will be done." Panel 3 (Luke 23:33, 46): three crosses on a rise under a darkened sky. Caption: "The cup is not taken away." Jesus says: "Father, into your hands I commit my spirit!" Panel 4 (Hebrews 5:7; Luke 24:5-6): the tomb open at dawn, its stone rolled back. Caption: "“He was heard because of his reverence.” (Hebrews 5:7)". The two men at the tomb says: "He is not here, but has risen." Note: "Heard: read here, with the ESV Study Bible, as the resurrection." The point: Jesus prayed “your will be done,” and His Father heard Him. So you can pray it too, and leave the answer with Him (Matthew 26:42; Hebrews 5:7).</desc>
+<rect width="720" height="948" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="932" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="920" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<defs><radialGradient id="comic-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6e2a0" stop-opacity="0.9"/><stop offset="1" stop-color="#f6e2a0" stop-opacity="0"/></radialGradient><radialGradient id="comic-white" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient><radialGradient id="comic-fire" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f6b04a" stop-opacity="0.75"/><stop offset="1" stop-color="#f6b04a" stop-opacity="0"/></radialGradient></defs>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">NOT MY WILL</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Jesus prays the words He taught</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<defs><clipPath id="pane0"><rect x="0" y="0" width="323.0" height="330" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 108.0)">
+<g clip-path="url(#pane0)">
+<defs><linearGradient id="sky0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d2236"/><stop offset="1" stop-color="#3e4562"/></linearGradient></defs>
+<rect width="323.0" height="330" fill="url(#sky0)"/>
+<path d="M0 223.8 Q80.8 173.8 161.5 213.8 Q242.2 243.8 323.0 193.8 V330 H0 Z" fill="#c7b78f"/>
+<rect x="0" y="257.8" width="323.0" height="72.2" fill="#d9cba4"/>
+<path d="M0 287.8 Q161.5 277.8 323.0 289.8 V330 H0 Z" fill="#cbb98c"/>
+<g transform="translate(251.9 289.8) scale(-1.430 1.430)"><ellipse cx="0" cy="-28" rx="46" ry="70" fill="url(#comic-glow)"/><g transform="translate(0 24)"><path d="M-5 -74 L-20 -64 L-32 -72" fill="none" stroke="#b9ab8c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-20 -64 L-32 -72" fill="none" stroke="#c3bcac" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-32" cy="-72" r="4.3" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/></g><ellipse cx="-14" cy="-1" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -54 Q0 -59 13 -54 Q16 -30 14 -20 Q24 -16 26 -5 Q26 0 21 0 H-12 Q-19 -2 -17 -12 Q-16 -30 -13 -54 Z" fill="#efe6d2" stroke="#b9ab8c" stroke-width="1"/><path d="M-6 -40 Q-4 -24 -8 -6 M6 -44 Q10 -30 8 -18" fill="none" stroke="#00000030" stroke-width="1.2"/><g transform="translate(0 24)"><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><path d="M-13 -78 Q-6 -81 -2 -80 L12 -50 L5 -46 Q0 -60 -13 -70 Z" fill="#9b3b2c" stroke="#b9ab8c" stroke-width="0.8"/><rect x="-2" y="-82" width="7" height="6" fill="#b88a62"/><circle cx="2" cy="-90" r="12" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/><path d="M-10 -94 Q-6 -105 6 -103 Q13 -101 14 -95 Q5 -97 -1 -93 Q-3 -84 -6 -72 Q-12 -72 -14 -76 Q-12 -84 -10 -94 Z" fill="#3b2a1a"/><path d="M-3 -88 Q-5 -78 1 -72 Q7 -66 13 -69 Q17 -73 16 -86 Q14 -84 10 -85 Q5 -86 3 -83 Q1 -86 -3 -88 Z" fill="#3b2a1a"/><path d="M7 -86 Q11 -89 15.5 -86.5 Q15 -81 8 -82 Z" fill="#3b2a1a"/><path d="M7 -74 L22 -64 L36 -72" fill="none" stroke="#b9ab8c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L22 -64 L36 -72" fill="none" stroke="#efe6d2" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="36" cy="-72" r="4.3" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/></g></g>
+<g transform="translate(90.4 272.6) rotate(90) scale(1.073 1.073)"><path d="M-12 -76 Q-24 -44 -21 -8 L-13 -10 Q-14 -44 -6 -76 Z" fill="#8d7650" stroke="#2a2016" stroke-width="0.8"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#404c5b" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#4f5d70" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><path d="M-13 -78 Q-6 -81 -2 -80 L19 -28 L12 -22 Q2 -44 -13 -70 Z" fill="#8d7650" stroke="#2a2016" stroke-width="0.8"/><path d="M-6 -74 L12 -32" stroke="#00000030" stroke-width="1.2"/><rect x="-2" y="-82" width="7" height="6" fill="#b07f58"/><circle cx="2" cy="-90" r="12" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/><path d="M-10 -93 Q-6 -105 6 -103 Q13 -101 14 -95 Q5 -97 -1 -93 Q-3 -86 -7 -82 Q-11 -86 -10 -93 Z" fill="#3b2a1a"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L10 -54 L10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L10 -54 L10 -34" fill="none" stroke="#4f5d70" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="-34" r="4.3" fill="#b07f58" stroke="#2a2016" stroke-width="0.8"/></g>
+<g transform="translate(25.8 285.2) rotate(90) scale(1.008 1.008)"><path d="M-12 -76 Q-24 -44 -21 -8 L-13 -10 Q-14 -44 -6 -76 Z" fill="#8d7650" stroke="#2a2016" stroke-width="0.8"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-10 -54 L-10 -34" fill="none" stroke="#574932" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-10" cy="-34" r="4.3" fill="#9a6a45" stroke="#2a2016" stroke-width="0.8"/><ellipse cx="-7" cy="0" rx="7" ry="3" fill="#5a3d22"/><ellipse cx="9" cy="0" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -78 Q-17 -40 -19 -2 Q0 3 19 -2 L19 -2 Q17 -40 13 -78 Q0 -83 -13 -78 Z" fill="#6b5a3e" stroke="#2a2016" stroke-width="1"/><path d="M-7 -60 Q-9 -30 -10 -4 M4 -62 Q6 -30 5 -2 M12 -50 Q15 -30 15 -4" fill="none" stroke="#00000030" stroke-width="1.2"/><path d="M-2 -66 Q-1 -36 -3 -4" fill="none" stroke="#ffffff30" stroke-width="1.6"/><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><path d="M-13 -78 Q-6 -81 -2 -80 L19 -28 L12 -22 Q2 -44 -13 -70 Z" fill="#8d7650" stroke="#2a2016" stroke-width="0.8"/><path d="M-6 -74 L12 -32" stroke="#00000030" stroke-width="1.2"/><rect x="-2" y="-82" width="7" height="6" fill="#9a6a45"/><circle cx="2" cy="-90" r="12" fill="#9a6a45" stroke="#2a2016" stroke-width="0.8"/><path d="M-10 -93 Q-6 -105 6 -103 Q13 -101 14 -95 Q5 -97 -1 -93 Q-3 -86 -7 -82 Q-11 -86 -10 -93 Z" fill="#3b2a1a"/><path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="#3b2a1a"/><path d="M7 -74 L10 -54 L10 -34" fill="none" stroke="#2a2016" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L10 -54 L10 -34" fill="none" stroke="#6b5a3e" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="-34" r="4.3" fill="#9a6a45" stroke="#2a2016" stroke-width="0.8"/></g>
+<rect x="10.0" y="10.0" width="230.0" height="73.9" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="32.5" font-size="16.5" fill="#3b2f1e" font-style="italic">The night before</text>
+<text x="20.0" y="53.1" font-size="16.5" fill="#3b2f1e" font-style="italic">the cross, Jesus</text>
+<text x="20.0" y="73.8" font-size="16.5" fill="#3b2f1e" font-style="italic">kneels and prays.</text>
+<path d="M197.2 162.3 L228.1 180.2 L197.2 178.3 Z" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="46.2" y="118.8" width="153.0" height="103.0" rx="16" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M197.2 162.3 L197.2 178.3" stroke="#fffdf7" stroke-width="3"/>
+<text x="122.7" y="144.8" font-size="17" fill="#3b2f1e" text-anchor="middle">Father, if you</text>
+<text x="122.7" y="166.1" font-size="17" fill="#3b2f1e" text-anchor="middle">are willing,</text>
+<text x="122.7" y="187.3" font-size="17" fill="#3b2f1e" text-anchor="middle">remove this</text>
+<text x="122.7" y="208.6" font-size="17" fill="#3b2f1e" text-anchor="middle">cup from me.</text>
+<rect x="219.1" y="304.0" width="97.9" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Luke 22:41-42</text>
+</g>
+<rect x="0" y="0" width="323.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">1</text>
+</g>
+<defs><clipPath id="pane1"><rect x="0" y="0" width="323.0" height="330" rx="4"/></clipPath></defs>
+<g transform="translate(367.0 108.0)">
+<g clip-path="url(#pane1)">
+<defs><linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d2236"/><stop offset="1" stop-color="#3e4562"/></linearGradient></defs>
+<rect width="323.0" height="330" fill="url(#sky1)"/>
+<path d="M0 223.8 Q80.8 173.8 161.5 213.8 Q242.2 243.8 323.0 193.8 V330 H0 Z" fill="#c7b78f"/>
+<rect x="0" y="257.8" width="323.0" height="72.2" fill="#d9cba4"/>
+<path d="M0 287.8 Q161.5 277.8 323.0 289.8 V330 H0 Z" fill="#cbb98c"/>
+<g transform="translate(200.3 289.8) scale(-1.287 1.287)"><ellipse cx="0" cy="-28" rx="46" ry="70" fill="url(#comic-glow)"/><g transform="translate(0 24)"><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#b9ab8c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M-5 -74 L-12 -60 L6 -60" fill="none" stroke="#c3bcac" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6" cy="-60" r="4.3" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/></g><ellipse cx="-14" cy="-1" rx="7" ry="3" fill="#5a3d22"/><path d="M-13 -54 Q0 -59 13 -54 Q16 -30 14 -20 Q24 -16 26 -5 Q26 0 21 0 H-12 Q-19 -2 -17 -12 Q-16 -30 -13 -54 Z" fill="#efe6d2" stroke="#b9ab8c" stroke-width="1"/><path d="M-6 -40 Q-4 -24 -8 -6 M6 -44 Q10 -30 8 -18" fill="none" stroke="#00000030" stroke-width="1.2"/><g transform="translate(0 24)"><path d="M-14 -48 Q0 -44 15 -48 L15 -43 Q0 -39 -15 -43 Z" fill="#00000035"/><path d="M-13 -78 Q-6 -81 -2 -80 L12 -50 L5 -46 Q0 -60 -13 -70 Z" fill="#9b3b2c" stroke="#b9ab8c" stroke-width="0.8"/><rect x="-2" y="-82" width="7" height="6" fill="#b88a62"/><circle cx="2" cy="-90" r="12" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/><path d="M-10 -94 Q-6 -105 6 -103 Q13 -101 14 -95 Q5 -97 -1 -93 Q-3 -84 -6 -72 Q-12 -72 -14 -76 Q-12 -84 -10 -94 Z" fill="#3b2a1a"/><path d="M-3 -88 Q-5 -78 1 -72 Q7 -66 13 -69 Q17 -73 16 -86 Q14 -84 10 -85 Q5 -86 3 -83 Q1 -86 -3 -88 Z" fill="#3b2a1a"/><path d="M7 -86 Q11 -89 15.5 -86.5 Q15 -81 8 -82 Z" fill="#3b2a1a"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#b9ab8c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 -74 L12 -60 L-4 -58" fill="none" stroke="#efe6d2" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="-4" cy="-58" r="4.3" fill="#b88a62" stroke="#b9ab8c" stroke-width="0.8"/></g></g>
+<rect x="10.0" y="10.0" width="230.0" height="53.2" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="32.5" font-size="16.5" fill="#3b2f1e" font-style="italic">Again He prays the words</text>
+<text x="20.0" y="53.1" font-size="16.5" fill="#3b2f1e" font-style="italic">He taught (Matthew 6:10):</text>
+<path d="M180.3 169.4 L193.3 182.8 L198.3 169.4 Z" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="21.3" y="89.6" width="190.0" height="81.8" rx="16" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M180.3 169.4 L198.3 169.4" stroke="#fffdf7" stroke-width="3"/>
+<text x="116.3" y="115.6" font-size="17" fill="#3b2f1e" text-anchor="middle">If this cannot pass</text>
+<text x="116.3" y="136.9" font-size="17" fill="#3b2f1e" text-anchor="middle">unless I drink it,</text>
+<text x="116.3" y="158.1" font-size="17" fill="#3b2f1e" text-anchor="middle">your will be done.</text>
+<rect x="219.1" y="304.0" width="97.9" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Matthew 26:42</text>
+</g>
+<rect x="0" y="0" width="323.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">2</text>
+</g>
+<defs><clipPath id="pane2"><rect x="0" y="0" width="323.0" height="330" rx="4"/></clipPath></defs>
+<g transform="translate(30.0 452.0)">
+<g clip-path="url(#pane2)">
+<defs><linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a4652"/><stop offset="1" stop-color="#9a9290"/></linearGradient></defs>
+<rect width="323.0" height="330" fill="url(#sky2)"/>
+<path d="M0 223.8 Q80.8 173.8 161.5 213.8 Q242.2 243.8 323.0 193.8 V330 H0 Z" fill="#c7b78f"/>
+<rect x="0" y="257.8" width="323.0" height="72.2" fill="#d9cba4"/>
+<path d="M0 287.8 Q161.5 277.8 323.0 289.8 V330 H0 Z" fill="#cbb98c"/>
+<g transform="translate(161.5 289.8) scale(1.216)"><path d="M-90 0 Q-40 -34 0 -38 Q40 -34 90 0 Z" fill="#a8946a"/><rect x="-42.5" y="-100" width="5" height="70" fill="#4a3826"/><rect x="-56" y="-86" width="32" height="5" fill="#4a3826"/><rect x="-2.5" y="-122" width="5" height="92" fill="#4a3826"/><rect x="-16" y="-108" width="32" height="5" fill="#4a3826"/><rect x="37.5" y="-100" width="5" height="70" fill="#4a3826"/><rect x="24" y="-86" width="32" height="5" fill="#4a3826"/></g>
+<rect x="10.0" y="10.0" width="200.0" height="53.2" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="32.5" font-size="16.5" fill="#3b2f1e" font-style="italic">The cup is not</text>
+<text x="20.0" y="53.1" font-size="16.5" fill="#3b2f1e" font-style="italic">taken away.</text>
+<path d="M138.8 104.1 L147.7 123.0 L138.8 120.1 Z" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="136.8" y="71.2" width="178.5" height="81.8" rx="16" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M138.8 104.1 L138.8 120.1" stroke="#fffdf7" stroke-width="3"/>
+<text x="226.1" y="97.2" font-size="17" fill="#3b2f1e" text-anchor="middle">Father, into your</text>
+<text x="226.1" y="118.5" font-size="17" fill="#3b2f1e" text-anchor="middle">hands I commit my</text>
+<text x="226.1" y="139.8" font-size="17" fill="#3b2f1e" text-anchor="middle">spirit!</text>
+<rect x="212.8" y="304.0" width="104.2" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Luke 23:33, 46</text>
+</g>
+<rect x="0" y="0" width="323.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">3</text>
+</g>
+<defs><clipPath id="pane3"><rect x="0" y="0" width="323.0" height="330" rx="4"/></clipPath></defs>
+<g transform="translate(367.0 452.0)">
+<g clip-path="url(#pane3)">
+<defs><linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fa3c0"/><stop offset="1" stop-color="#f2c99a"/></linearGradient></defs>
+<rect width="323.0" height="330" fill="url(#sky3)"/>
+<path d="M0 223.8 Q80.8 173.8 161.5 213.8 Q242.2 243.8 323.0 193.8 V330 H0 Z" fill="#c7b78f"/>
+<rect x="0" y="257.8" width="323.0" height="72.2" fill="#d9cba4"/>
+<path d="M0 287.8 Q161.5 277.8 323.0 289.8 V330 H0 Z" fill="#cbb98c"/>
+<g transform="translate(116.3 289.8) scale(1.073)"><path d="M-70 0 V-60 Q-60 -96 0 -98 Q60 -96 70 -60 V0 Z" fill="#b8a888" stroke="#7d6c4e" stroke-width="1.2"/><path d="M-20 0 V-40 Q0 -58 20 -40 V0 Z" fill="#2a2016"/><circle cx="46" cy="-24" r="24" fill="#a39274" stroke="#6e5f44" stroke-width="1.4"/><circle cx="46" cy="-24" r="16" fill="none" stroke="#8a7a5e" stroke-width="1"/></g>
+<rect x="10.0" y="10.0" width="260.0" height="53.2" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="20.0" y="32.5" font-size="16.5" fill="#3b2f1e" font-style="italic">“He was heard because of his</text>
+<text x="20.0" y="53.1" font-size="16.5" fill="#3b2f1e" font-style="italic">reverence.” (Hebrews 5:7)</text>
+<rect x="10.0" y="67.2" width="260.0" height="43.2" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="20.0" y="85.8" font-size="12.5" fill="#3b2f1e" font-style="italic">Heard: read here, with the ESV</text>
+<text x="20.0" y="101.4" font-size="12.5" fill="#3b2f1e" font-style="italic">Study Bible, as the resurrection.</text>
+<path d="M162.1 151.4 L133.5 182.3 L162.1 167.4 Z" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="160.1" y="118.5" width="119.0" height="81.8" rx="16" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M162.1 151.4 L162.1 167.4" stroke="#fffdf7" stroke-width="3"/>
+<text x="219.6" y="144.5" font-size="17" fill="#3b2f1e" text-anchor="middle">He is not</text>
+<text x="219.6" y="165.8" font-size="17" fill="#3b2f1e" text-anchor="middle">here, but</text>
+<text x="219.6" y="187.0" font-size="17" fill="#3b2f1e" text-anchor="middle">has risen.</text>
+<rect x="149.8" y="304.0" width="167.2" height="20" rx="3" fill="#faf6ec" opacity="0.92"/>
+<text x="309.0" y="318.5" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Hebrews 5:7; Luke 24:5-6</text>
+</g>
+<rect x="0" y="0" width="323.0" height="330" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2.6"/>
+<text x="309.0" y="24.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="3" paint-order="stroke">4</text>
+</g>
+<path d="M270.0 812 H450.0 L440.0 825.0 L450.0 838 H270.0 L280.0 825.0 Z" fill="#8b1e1e"/>
+<text x="360.0" y="830.0" font-size="14" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE POINT</text>
+<text x="360.0" y="864.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">Jesus prayed “your will be done,” and His Father heard Him. So you can</text>
+<text x="360.0" y="884.0" font-size="16" fill="#3b2f1e" text-anchor="middle" font-weight="bold">pray it too, and leave the answer with Him (Matthew 26:42; Hebrews 5:7).</text>
+<text x="360.0" y="908.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">Each panel names its verses; every word in a bubble is the ESV's.</text>
+<text x="696.0" y="926.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">A one-minute comic · the-way.lewy.au</text>
+</svg>

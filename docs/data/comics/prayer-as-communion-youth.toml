@@ -1,0 +1,74 @@
+# One-minute comic for young readers (8-16), on the youth page docs/content/youth/prayer-as-communion.md.
+# Drawn by: python3 utils/build_comics.py prayer-as-communion-youth
+# The parent comic is not-my-will.toml; this one keeps its finding (Jesus prays "your will be done",
+# the cup stays, and Hebrews 5:7 still says He was heard) and drops the rest to four beats with larger
+# lettering. Panel 2 is Matthew 26:42, which has Jesus pray the words of Matthew 6:10. Reading Hebrews
+# 5:7's answer as the resurrection is the study's reading with the ESV Study Bible, so it stays an
+# aside. Every bubble is ESV wording, cut at a clause, so --verify checks all of it.
+
+title = "Not My Will"
+subtitle = "Jesus prays the words He taught"
+layout = [[330, 1, 1], [330, 1, 1]]
+lettering = 17
+phone = true
+note = "Each panel names its verses; every word in a bubble is the ESV's."
+point = "Jesus prayed “your will be done,” and His Father heard Him. So you can pray it too, and leave the answer with Him (Matthew 26:42; Hebrews 5:7)."
+
+[[panel]]
+ref = "Luke 22:41-42"
+scene = "hills"
+sky = "night"
+caption = "The night before the cross, Jesus kneels and prays."
+caption_w = 230
+shows = "at night on the Mount of Olives Jesus kneels alone, the sleeping disciples a stone's throw off"
+cast = [
+  { who = "jesus", x = 0.78, face = "left", stance = "kneel", pose = "open" },
+  { who = "disciple", id = "sleepers", name = "the disciples", n = 2, x = 0.08, x2 = 0.28, face = "right", stance = "lie", s = 0.75 },
+]
+say = [
+  { by = "jesus", text = "Father, if you are willing, remove this cup from me.", source = "esv", at = [0.38, 0.36], w = 180 },
+]
+
+[[panel]]
+ref = "Matthew 26:42"
+scene = "hills"
+sky = "night"
+caption = "Again He prays the words He taught (Matthew 6:10):"
+caption_w = 230
+shows = "Jesus kneels again alone, praying"
+cast = [
+  { who = "jesus", x = 0.62, face = "left", stance = "kneel", pose = "fold", s = 0.9 },
+]
+say = [
+  { by = "jesus", text = "If this cannot pass unless I drink it, your will be done.", source = "esv", at = [0.36, 0.40], w = 190 },
+]
+
+[[panel]]
+ref = "Luke 23:33, 46"
+scene = "hills"
+sky = "storm"
+caption = "The cup is not taken away."
+caption_w = 200
+shows = "three crosses on a rise under a darkened sky"
+props = [
+  { what = "crosses", x = 0.5, s = 0.85 },
+]
+say = [
+  { by = "jesus_cross", name = "Jesus", from = [0.5, 0.45], text = "Father, into your hands I commit my spirit!", source = "esv", at = [0.70, 0.12], w = 190 },
+]
+
+[[panel]]
+ref = "Hebrews 5:7; Luke 24:5-6"
+scene = "hills"
+sky = "dawn"
+caption = "“He was heard because of his reverence.” (Hebrews 5:7)"
+caption_w = 260
+aside = "Heard: read here, with the ESV Study Bible, as the resurrection."
+aside_w = 260
+shows = "the tomb open at dawn, its stone rolled back"
+props = [
+  { what = "tomb", x = 0.36, s = 0.75 },
+]
+say = [
+  { by = "angels", name = "the two men at the tomb", from = [0.36, 0.62], text = "He is not here, but has risen.", source = "esv", at = [0.68, 0.30], w = 150 },
+]
