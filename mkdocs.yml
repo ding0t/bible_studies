@@ -59,7 +59,7 @@ hooks:
   # Study series: the weeks on a series page, the hub at series/, and a "Week 2 of 7" line on
   # each study in one. See hooks/series.py.
   - hooks/series.py
-  # Writes a youth page (young/) from docs/data/youth/<slug>.toml. See hooks/youth.py.
+  # Writes a youth page (youth/) from docs/data/youth/<slug>.toml. See hooks/youth.py.
   - hooks/youth.py
   # Replaces <!-- memory-verses --> with printable A4 card sheets. See hooks/memory_verses.py.
   - hooks/memory_verses.py
@@ -500,6 +500,9 @@ plugins:
         'studies/theology/melchizedek-priesthood.md': 'jesus/melchizedek-priesthood.md'
         'studies/theology/numerology.md': 'scripture/numerology.md'
         'studies/theology/the-way.md': 'jesus/the-way.md'
+        # Young Readers became Youth on 2026-10-30, the day it was published.
+        'young/index.md': 'youth/index.md'
+        'young/woman-at-well.md': 'youth/woman-at-well.md'
 
 # There was no extra_css key at all before 2026-08, so hero-verses.css was never
 # loaded despite docs/content/index.md using its .hero-verses class.

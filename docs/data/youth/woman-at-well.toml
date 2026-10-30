@@ -1,10 +1,10 @@
-# Youth page for jesus/woman-at-well.md, rendered by hooks/youth.py onto docs/content/young/woman-at-well.md.
+# Youth page for jesus/woman-at-well.md, rendered by hooks/youth.py onto docs/content/youth/woman-at-well.md.
 # Says nothing the study does not: every claim below is the study's, cut down and put in plain words.
 # Bible text is the BSB (berean-bsb in bible-text.db), checked 2026-10-29; the comic's bubbles are ESV
-# and checked by `python3 utils/build_comics.py --verify woman-at-well-young`.
+# and checked by `python3 utils/build_comics.py --verify woman-at-well-youth`.
 
 study = "jesus/woman-at-well.md"
-comic = "woman-at-well-young"
+comic = "woman-at-well-youth"
 ages = "8–16"
 read = "John 4:5-30, 39-42"
 big_idea = "Jesus is the spring of living water. He gives His Holy Spirit as a free gift to anyone who asks, and He knows everything about you and still wants you, so you can come to God just as you are."

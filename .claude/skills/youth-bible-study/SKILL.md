@@ -1,13 +1,13 @@
 ---
 name: youth-bible-study
-description: Cuts a published study in docs/content/ down into a youth page for young readers aged 8 to 16 -- a big idea, a four-panel comic with large lettering and a phone layout, the passage to read together, a story with questions and an activity for ages 8-11 and for 12-16, a key word in the language the passage was written in, a memory verse and a prayer. Written as a TOML file in docs/data/youth/ and rendered onto docs/content/young/<slug>.md by hooks/youth.py. Use when the user asks for a youth, kids', children's, teens' or young readers' version of a study, or a study for a Sunday school, youth group or family -- as opposed to simplify-bible-study, which shortens the study itself for adult readers.
+description: Cuts a published study in docs/content/ down into a youth page for young readers aged 8 to 16 -- a big idea, a four-panel comic with large lettering and a phone layout, the passage to read together, a story with questions and an activity for ages 8-11 and for 12-16, a key word in the language the passage was written in, a memory verse and a prayer. Written as a TOML file in docs/data/youth/ and rendered onto docs/content/youth/<slug>.md by hooks/youth.py. Use when the user asks for a youth, kids', children's, teens' or young readers' version of a study, or a study for a Sunday school, youth group or family -- as opposed to simplify-bible-study, which shortens the study itself for adult readers.
 ---
 
 # A study for young readers
 
-A youth page is a full study told to children and teenagers. It lives under `young/`, and the full
+A youth page is a full study told to children and teenagers. It lives under `youth/`, and the full
 study stays its leader's notes: the page links to it and says so. The first is
-`young/woman-at-well.md` (`docs/data/youth/woman-at-well.toml`, comic `woman-at-well-young.toml`).
+`youth/woman-at-well.md` (`docs/data/youth/woman-at-well.toml`, comic `woman-at-well-youth.toml`).
 The author judged its wording level "about right", so open it beside this file and match it.
 
 ## The rule: say nothing the study does not
@@ -99,16 +99,16 @@ Use the **one-minute-comic** skill, with these settings for young readers:
   did next.
 - `lettering = 17` (larger text) and `phone = true`, which writes `<slug>-phone.svg` with one panel
   per row. The hook swaps the two by screen width.
-- Slug `<study-slug>-young`; the header names the parent comic.
+- Slug `<study-slug>-youth`; the header names the parent comic.
 - Every bubble is ESV wording, cut at a clause, `source = "esv"`, so `--verify` checks all of it. No
   Greek or Hebrew on the comic: thought pictures carry the ideas in English, and the page teaches
   the key word.
 
 ```bash
-python3 utils/build_comics.py <slug>-young
-python3 utils/build_comics.py --verify <slug>-young
-qlmanage -t -s 1400 -o <scratchpad> docs/content/assets/img/comics/<slug>-young.svg
-qlmanage -t -s 1400 -o <scratchpad> docs/content/assets/img/comics/<slug>-young-phone.svg
+python3 utils/build_comics.py <slug>-youth
+python3 utils/build_comics.py --verify <slug>-youth
+qlmanage -t -s 1400 -o <scratchpad> docs/content/assets/img/comics/<slug>-youth.svg
+qlmanage -t -s 1400 -o <scratchpad> docs/content/assets/img/comics/<slug>-youth-phone.svg
 ```
 
 Look at both renders. At 17-point lettering a bubble that fit at 14.5 can cover a head; move it
@@ -116,12 +116,12 @@ with `at`.
 
 ## 4. The page and the links
 
-`docs/content/young/<slug>.md` is frontmatter, the H1 and the marker, nothing else:
+`docs/content/youth/<slug>.md` is frontmatter, the H1 and the marker, nothing else:
 
 ```markdown
 ---
 title: "<the study's title>"
-category: "young-readers"
+category: "youth"
 description: "<passage> for young readers aged 8-16: <the big idea in a phrase>."
 tags: [<the study's topic tags>, "audience/youth"]
 draft: false
@@ -137,13 +137,13 @@ bible_references: [<the passages the youth page cites>]
 In the full study, directly after its comic (or its opening paragraph), add one line:
 
 ```markdown
-Teaching children or teenagers? [<Title> for young readers](../young/<slug>.md) tells this story for ages 8 to 16, with its own comic.
+Teaching children or teenagers? [<Title> for young readers](../youth/<slug>.md) tells this story for ages 8 to 16, with its own comic.
 ```
 
 ## 5. Check and commit
 
 ```bash
-python3 utils/build_comics.py --verify <slug>-young
+python3 utils/build_comics.py --verify <slug>-youth
 cd references/build && uv run python section_index.py && cd ../..
 python3 utils/refresh_frontmatter_provenance.py
 cd app && npm run validate && cd ..

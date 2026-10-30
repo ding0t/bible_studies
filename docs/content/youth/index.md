@@ -1,6 +1,6 @@
 ---
-title: "Young Readers"
-category: "young-readers"
+title: "Youth"
+category: "youth"
 description: "Bible studies for young readers aged 8 to 16: a big idea, a comic, a story for each age, questions, a key word in the Bible's own language, a memory verse and a prayer."
 tags: ["audience/youth"]
 draft: false
@@ -9,7 +9,7 @@ date_modified: 2026-10-30
 ai_provider_models: []
 ---
 
-# Young Readers
+# Youth
 
 Each study here is a full study on this site cut down for young readers aged 8 to 16. It has one big
 idea, a comic, the passage to read together, a story and questions for ages 8 to 11 and for 12 to 16,

@@ -30,7 +30,7 @@ nav:
   # The studies again, gathered for a group to take one a week (hooks/series.py).
   - series
   # Studies cut down for young readers, each from a full study (hooks/youth.py).
-  - young
+  - youth
   # The interactive tools: ordinary mkdocs pages with a React
   # bundle mounted into each (built by `npm run build:tools` in app/). references.md leads: it is
   # the one a reader reaches for while actually studying a passage.

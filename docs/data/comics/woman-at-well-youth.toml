@@ -1,5 +1,5 @@
-# One-minute comic for young readers (8-16), on the youth page docs/content/young/woman-at-well.md.
-# Drawn by: python3 utils/build_comics.py woman-at-well-young
+# One-minute comic for young readers (8-16), on the youth page docs/content/youth/woman-at-well.md.
+# Drawn by: python3 utils/build_comics.py woman-at-well-youth
 # The parent comic is woman-at-well.toml; this one keeps its finding (the woman pictures a shaft,
 # Jesus a spring: John 4:11, 14) and drops the rest to four beats with larger lettering. Every bubble
 # is ESV wording, cut at a clause, so --verify checks all of it. No Greek on the page: the thought

@@ -48,7 +48,7 @@ SECTION_BLURBS = {
     "blog": "The author's personal notes and testimony, kept apart from the studies.",
     "commentaries": "Verse-by-verse commentary, organized by book, with auto-linked studies (see commentary_index.py).",
     "teaching": "Teaching the Bible to others: preparing to teach, teaching material and sermon notes.",
-    "young": "Studies cut down for young readers aged 8 to 16, each drawn from a full study on the site.",
+    "youth": "Studies cut down for young readers aged 8 to 16, each drawn from a full study on the site.",
     "greek": "The Greek alphabet of the New Testament, and printable word cards of the Holy Spirit's names.",
     "hebrew": "A course in reading the Hebrew Bible, taken in order: the letters, the sounds, and the names of God.",
     "resources": "External sources, tools, and datasets this project draws on.",

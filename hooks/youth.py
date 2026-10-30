@@ -1,6 +1,6 @@
 """Youth pages: a study cut down for young readers (8-16), from docs/data/youth/<slug>.toml.
 
-A page under young/ carries `<!-- youth: <slug> -->` and the hook writes the rest in a fixed shape:
+A page under youth/ carries `<!-- youth: <slug> -->` and the hook writes the rest in a fixed shape:
 who it is for and a link to the full study (the leader's notes), the big idea, the young readers'
 comic, the passage to read, then one tab per age band (story, questions, something to do), the
 key word in the language the passage was written in, the memory verse and the prayer. The shape is fixed so a youth page cannot grow the

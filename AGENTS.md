@@ -451,7 +451,7 @@ the workflow manually (`workflow_dispatch`).
   wording or marked "condensed" from the verses its panel names.
 - **Youth pages** (`.claude/skills/youth-bible-study/SKILL.md`) cut a published study down for
   readers aged 8 to 16, under the rule **say nothing the study does not**. A youth page is data,
-  `docs/data/youth/<slug>.toml`, which `hooks/youth.py` writes onto `docs/content/young/<slug>.md`
+  `docs/data/youth/<slug>.toml`, which `hooks/youth.py` writes onto `docs/content/youth/<slug>.md`
   in a fixed shape (big idea, a four-panel comic with a phone layout, a tab per age band, a key
   word, a memory verse, a prayer). The full study is the leader's notes, and the page links to it.
 - **Every study with a point and discussion questions gets a printable group sheet**
