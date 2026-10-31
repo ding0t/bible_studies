@@ -261,6 +261,8 @@ python3 references/check_sources.py   # every source on disk documented, the thr
                                       # the patristics corpus still in agreement, and sources.toml
                                       # still matching what build.py actually ingests?
 python3 references/build/source_catalog.py   # print the catalog: tiers, locations, raw-only list
+python3 utils/check_skills.py                 # skills still match the repo: links, anchors, MCP tool names,
+                                              # paths (runs in npm test); rules in .claude/skills/README.md
 ```
 
 **`references/sources.toml` is the single authority** for where each source lives, what licence

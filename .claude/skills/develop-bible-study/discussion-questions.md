@@ -88,7 +88,7 @@ the reader's own circles routinely say.
 ## Rules, each from a specimen in this corpus
 
 - **Never about the study's own method.** The standing rule from
-  [style-guide.md](style-guide.md#a-note-on-discussion-questions). Two of `rapture.md`'s four asked
+  [style-guide.md](style-guide.md#structural-readability). Two of `rapture.md`'s four asked
   the reader to evaluate the page's even-handedness. `three-days-and-three-nights.md` had a subtler
   one — *"Why might an incidental count carry more evidential weight than a deliberate one?"* — which
   is a question about evidence-weighting technique wearing an epistemology costume. Harder to catch

@@ -136,7 +136,7 @@ now renders at 100%:
 
 | Was | Now | File |
 |---|---|---|
-| 2790 (20%) | 346 (100%) | `god/world-population-declares-gods-creation-and-biblical-truth.md` |
+| 2790 (20%) | 346 (100%) | `chronology/world-population-declares-gods-creation-and-biblical-truth.md` |
 | 2390 (24%) | 346 (100%) | `chronology/combined-timeline.md` |
 | 2190 (26%) | 552 (100%) | `last-things/rapture.md` |
 | 1990 (28%) | 276 (100%) | `last-things/prophecy-chart.md` |
