@@ -168,7 +168,7 @@ by hand after editing content. It applies 25 checks in eight groups:
 
 - **Checks 1–9, structural**: frontmatter (required fields, tag quoting, draft status), image paths,
   scripture quote blocks opening with `> ✝️ Reference (TRANSLATION)` as their first line (the
-  develop-bible-study skill's Phase 7 format), and Hebrew/Aramaic text never wrapped in markdown
+  develop-bible-study skill's formatting.md), and Hebrew/Aramaic text never wrapped in markdown
   bold (synthetic bold misplaces niqqud — use `<span dir="rtl">`).
 - **Checks 10–13, style-guide enforcement**: the `worth ___` narrating template, "virtue contrast"
   (`rather than` + a straw alternative), bullets over 100 words, and reader-reassurance address.
@@ -375,7 +375,7 @@ the workflow manually (`workflow_dispatch`).
   The pop-up works alongside the prose, never instead of it. Quote what the argument stands on,
   since studies are read aloud and the pop-up shows the site's reading translation (the BSB,
   set once in `references/sources.toml` `[reading_translation]`), and cite what it only points to
-  (develop-bible-study Phase 7).
+  (develop-bible-study formatting.md).
   **Every reference names its book** except a continuation in the same citation ("(Revelation 21:2,
   9; 22:17)"). The pop-up resolves an older bare "(5:1)" from the paragraph, a table's column header,
   the quotation, the heading, then the page's `primary_passage` (which `hooks/popups.py` writes onto

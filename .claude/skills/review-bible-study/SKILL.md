@@ -59,7 +59,7 @@ Every quoted verse gets re-queried from source, not read for plausibility.
   claimed, and reads exactly like a correct one until checked.
 - **What each reference and Strong's tag opens.** Every reference and Strong's tag on the page opens a
   pop-up, so a wrong one is a wrong citation the reader is shown. Two cases are particular to the
-  pop-up. Every reference must name its book (develop-bible-study Phase 7); a bare "(21:2)" or "v. 20"
+  pop-up. Every reference must name its book ([formatting.md](../develop-bible-study/formatting.md)); a bare "(21:2)" or "v. 20"
   outside a continuation like "(Revelation 21:2, 9)" resolves against whatever came before it and
   goes wrong silently when an edit moves that. Report each as **Minor**, or at the severity of the
   wrong citation it opens. And a word written without its
@@ -417,7 +417,7 @@ deliberate send-off for follow-up study, saying so in its link text, keeps one. 
 sentence tacked onto a verse is **Minor** as well, but flag it by name since it's the part of this
 shape that's a genuine defect rather than a pending conversion.
 
-**Check the balance between prose and pop-up** against develop-bible-study Phase 7 ("The pop-up
+**Check the balance between prose and pop-up** against [formatting.md](../develop-bible-study/formatting.md) ("The pop-up
 works alongside the prose"). There are two findings, one in each direction. A section that argues
 from a verse's wording while giving only its citation leaves the reader arguing from words they
 cannot see. Nothing pops up when the study is read aloud, and the pop-up shows the reading translation (the BSB), so report
