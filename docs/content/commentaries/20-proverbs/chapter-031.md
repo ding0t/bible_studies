@@ -14,4 +14,5 @@ draft: false
 
 - [Biblical Numerology](../../scripture/numerology.md) — 31:10-31
 - [Submission in Context](../../christian-life/submission-in-context.md) — 31:8-9
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 31:6
 <!-- commentary-index:auto-end -->

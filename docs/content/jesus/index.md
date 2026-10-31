@@ -85,6 +85,14 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
 
     [:octicons-arrow-right-24: Read](priesthood-before-sinai.md)
 
+-   __The Cups Jesus Drank__
+
+    ---
+
+    From the wine at Cana to the sour wine at Golgotha: the cup Jesus named as His death, the cup He refused on arrival at the cross and the one He received at the end, why He took the second, what the Talmud, Josephus and the early church add, and the cup still to come.
+
+    [:octicons-arrow-right-24: Read](the-cups-jesus-drank.md)
+
 -   __The Day No One Knows__
 
     ---

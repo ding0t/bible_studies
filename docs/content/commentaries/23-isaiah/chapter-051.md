@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 51:6
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 51:17-22
 <!-- commentary-index:auto-end -->

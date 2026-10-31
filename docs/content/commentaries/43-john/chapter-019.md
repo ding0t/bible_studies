@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [John son of Zebedee](../../biblical-figures/john.md) — 19:25-27 (primary passage)
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 19:28-30 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 19:28-30
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 19:23-24
 - [Faith](../../salvation/faith.md) — 19:30

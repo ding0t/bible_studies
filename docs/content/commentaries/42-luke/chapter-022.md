@@ -21,6 +21,7 @@ draft: false
 - [Submission in Context](../../christian-life/submission-in-context.md) — 22:25-27
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 22:31-32
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 22:20
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 22:42
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 22:31-32
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 22:14-20
 - [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 22:29-30

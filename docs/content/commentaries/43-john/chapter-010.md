@@ -23,6 +23,7 @@ draft: false
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 10:28-29
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 10:4-5
 - [The Appointed Times](../../feasts/feasts.md) — 10:22-23
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 10:18
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:9
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 10:9-11
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 10:34-36

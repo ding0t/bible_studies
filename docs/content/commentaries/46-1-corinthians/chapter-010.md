@@ -19,6 +19,7 @@ draft: false
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 10:13-14
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 10:13
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 10:16
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 10:16
 - [The End of the Age](../../last-things/end-of-the-age.md) — 10:11
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 10:13
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:1-4

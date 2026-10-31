@@ -17,6 +17,7 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 10:42-45
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 10:42-45
 - [Submission in Context](../../christian-life/submission-in-context.md) — 10:42-45
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 10:38-39
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 10:46-52
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 10:46-52
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 10:34

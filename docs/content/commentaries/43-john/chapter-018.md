@@ -14,5 +14,6 @@ draft: false
 
 - [Know the Truth](../../christian-life/know-the-truth.md) — 18:37-38
 - [Passover: When I See the Blood](../../feasts/passover.md) — 18:28
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 18:11
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 18:35
 <!-- commentary-index:auto-end -->

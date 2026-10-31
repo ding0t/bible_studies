@@ -19,5 +19,6 @@ draft: false
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 4:9
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:34
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 4:6
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 4:7
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 4:42
 <!-- commentary-index:auto-end -->

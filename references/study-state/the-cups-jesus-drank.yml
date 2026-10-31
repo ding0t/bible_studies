@@ -1,0 +1,200 @@
+slug: "the-cups-jesus-drank"
+title: "The Cups Jesus Drank"
+status: published # draft written 2026-10-30; review-bible-study pass 2026-10-30 (see review_2026-10-30); published 2026-10-31
+target_path: "docs/content/jesus/the-cups-jesus-drank.md"
+
+primary_passage: "Mark 15:23; John 19:28-30"
+supporting_passages:
+  - "John 2:1-11"
+  - "Mark 10:38-39"
+  - "Mark 14:25, 36"
+  - "Matthew 27:34, 48"
+  - "Luke 22:42; 23:36"
+  - "John 18:11; 19:25-27"
+  - "Psalm 69:21"
+  - "Proverbs 31:6"
+  - "Isaiah 51:17, 22"
+  - "Jeremiah 25:15"
+  - "Psalm 75:8; 116:13"
+  - "Revelation 14:10; 19:9"
+sibling_studies:
+  - {slug: "feasts/last-supper-four-cups.md", role: primary, use: link, note: "Owns the Mark 14:25 vow and already rejects the 'vow completed at the cross' reading (line 440). One paragraph + link; do not re-argue."}
+  - {slug: "feasts/lords-supper.md", role: cited, use: link, note: "The cup the church drinks; link from the closing section."}
+  - {slug: "feasts/passover.md", role: cited, use: link, note: "Hyssop / Exodus 12:22 echo at John 19:29 already made (line 226); link, don't repeat."}
+  - {slug: "jesus/psalm-118-road-to-gethsemane.md", role: primary, use: none, note: "DRAFT -- must not be linked from a published page (Check 24). Ps 116:13 'cup of salvation' sits in the same Hallel; revisit if it publishes."}
+  - {slug: "christian-life/take-up-your-cross.md", role: cited, use: link, note: "Cites Matthew 26:31-42 (Gethsemane); check its wording on the cup for consistency before drafting section 3."}
+  - {slug: "christian-life/how-god-answers-prayer.md", role: cited, use: none, note: "Uses Matthew 26:39 as an unanswered/redirected prayer; check agreement."}
+  - {slug: "biblical-figures/john.md", role: primary, use: link, note: "John 19:25-27, mother at the cross."}
+  - {slug: "israel-and-church/bride-of-christ.md", role: primary, use: link, note: "Revelation 19:9 marriage supper; closing section points there."}
+  - {slug: "israel-and-church/wife-of-the-lamb.md", role: primary, use: none, note: "Alternative link target for Rev 19:9."}
+genre: [gospel, topical]
+
+thesis: "Jesus refused the cup that would have dulled His suffering and drank to the end the cup His Father gave Him, the cup of wrath you deserved, so that the cup He hands you is salvation and the wine of a wedding still to come."
+outline: # approved by author 2026-10-30
+  - {section: "Cana: the good wine kept until now", says: "John 2 sets the hour, the mother, and Psalm 69 that the cross closes"}
+  - {section: "The cup that I drink", says: "the prophets' cup is the LORD's wrath; Jesus names His death by it"}
+  - {section: "The Supper's vow", says: "link to four-cups; the vow stays open"}
+  - {section: "Gethsemane: the cup the Father gave", says: "remove this cup / shall I not drink it"}
+  - {section: "Golgotha: the cup refused", says: "myrrh/gall wine, Prov 31:6, Talmud custom, tasted and refused to stay awake"}
+  - {section: "Golgotha: the cup received", says: "sour wine, why He took it (four reasons), reed, hyssop, two-sponges answered"}
+  - {section: "The cup still to come", says: "wrath-cup for refusers, cup of blessing, marriage supper"}
+  - {section: "Annex: how the two drinks became one", says: "Barnabas, Gospel of Peter, Irenaeus, Tertullian, Diatessaron, Byzantine Matt 27:34 merge the drinks; Origen"}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >
+      Prompted by a review of thetabernacleman.com 'two sponges' post (Mark 15:35-36), judged
+      not valid: σπόγγος occurs only Matt 27:48, Mark 15:36, John 19:29 (one event); the refused
+      drink (Mark 15:23 / Matt 27:34) has no sponge. Author asked for a study and a passion series;
+      this is the first study of the series. Backlog 2.1 lists "Passion" with no notes.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >
+        Myrrh-wine as stupefying drink: b. Sanhedrin 43a (William Davidson ed., Koren-Steinsaltz):
+        court gives the condemned "a grain of frankincense in a cup of wine ... in order to confuse
+        his mind", citing Prov 31:6; "prominent women of Jerusalem" donated it. Late (Babylonian
+        Talmud) -- cite as later witness to a custom, not as proof of who offered at Golgotha.
+        Sour wine (ὄξος / Heb חֹמֶץ) = cheap workers'/soldiers' drink: Ruth 2:14 LXX ὄξος (Boaz's
+        reapers dip bread in it); CBSB and ESVSB notes on Luke 23:36, John 19:29.
+        Sponge-on-stick (xylospongium/tersorium) real: Seneca Ep. 70.20 "lignum id quod ad
+        emundanda obscena adhaerente spongia positum est" (verified, thelatinlibrary.com). No
+        source ties it to crucifixion.
+    literary_context:
+      done: true
+      notes: >
+        Mark: refused drink at arrival, before crucifixion (15:22-24), imperfect ἐδίδουν "they were
+        offering"; subject "they" = soldiers of 15:16-24 (NIV BTSB's "sympathizers" reads in the
+        Talmud custom -- contested, give both). Sour wine after the cry of dereliction (15:34-36),
+        offered with the Elijah taunt. Matthew same order (27:34, 48). Luke 23:36 soldiers' mocking
+        offer of ὄξος, no sponge, no drinking reported. John: no refused drink at all; "I thirst"
+        (19:28) "to fulfill the Scripture", received (19:30). John's 'hour' arc: 2:4 not yet ->
+        12:23; 13:1 has come. Mother present only at Cana (2:1) and cross (19:25), "Woman" both
+        (2:4; 19:26). Cup sayings: Mark 10:38-39; 14:36 (par. Luke 22:42); John 18:11.
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "ποτήριον", language: greek, transliteration: "potērion", strongs_id: "G4221", gloss: "cup", notes: "64 NT occurrences (count_only). OT background: cup of wrath Isa 51:17,22; Jer 25:15; Ps 75:8; Hab 2:16; cup of salvation Ps 116:13; Rev 14:10."}
+        - {word: "σμυρνίζω", language: greek, transliteration: "smyrnizō", strongs_id: "G4669", gloss: "mix with myrrh", notes: "Only Mark 15:23 in NT (bible_concordance)."}
+        - {word: "χολή", language: greek, transliteration: "cholē", strongs_id: "G5521", gloss: "gall, bitter substance", notes: "NT only Matt 27:34; Acts 8:23. LXX Ps 68:22 (Eng 69:21) has χολή AND ὄξος in one verse: 'ἔδωκαν εἰς τὸ βρῶμά μου χολὴν, καὶ εἰς τὴν δίψαν μου ἐπότισάν με ὄξος' (ebible-grcbrent). Hebrew רֹאשׁ (rosh, H7219) 'poison' + חֹמֶץ (chomets, H2558)."}
+        - {word: "ὄξος", language: greek, transliteration: "oxos", strongs_id: "G3690", gloss: "sour wine, wine vinegar", notes: "NT: Matt 27:48; Mark 15:36; Luke 23:36; John 19:29 (x2), 19:30 -- 6 in SBLGNT. Majority text reads ὄξος at Matt 27:34 too (MSB footnote 'CT offered Him wine'; CSB AFSB footnote 'Other mss read sour wine'). LXX: Num 6:3 (Nazirite abstains), Ruth 2:14, Ps 68:22, Prov 32:20(LXX)."}
+        - {word: "λαμβάνω", language: greek, transliteration: "lambanō", strongs_id: "G2983", gloss: "take, receive", notes: "Mark 15:23 οὐκ ἔλαβεν 'did not take'; John 19:30 ὅτε ἔλαβεν 'when he received'. Same verb across two Gospels: a canonical observation, not one author's design -- mark it so."}
+        - {word: "τελέω", language: greek, transliteration: "teleō", strongs_id: "G5055", gloss: "finish, accomplish", notes: "τετέλεσται perfect passive at John 19:28 and 19:30; τελειόω (G5048) 'that the Scripture might be fulfilled/completed' 19:28 (LSB footnote: 'Lit Scripture would be finished')."}
+        - {word: "πίνω (οὐ μὴ πίω)", language: greek, transliteration: "pinō", strongs_id: "G4095", gloss: "drink", notes: "John 18:11 emphatic double negative in a question: 'shall I not drink it?' expects 'I certainly shall'."}
+        - {word: "γεύομαι", language: greek, transliteration: "geuomai", strongs_id: "G1089", gloss: "taste", notes: "Matt 27:34 γευσάμενος οὐκ ἠθέλησεν πιεῖν -- tasted, then refused: He identified it and chose."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Cultural: the drinks themselves (sedative wine, posca, sponge, hyssop). Transcultural: the Son's will joined to the Father's; He bore the wrath-cup consciously and fully; the cup of salvation given to us; the table still to come."
+    theological_principle:
+      done: true
+      notes: "Jesus refused the cup that would have spared Him and drank the cup the Father gave, the cup of wrath, to its end; so the cup He hands His people is the cup of blessing and the wine of the wedding supper still to come (propitiation; substitution)."
+    application_draft:
+      done: false
+      notes: "Statement-of-faith check: substitutionary atonement / wrath satisfied -- check wording at drafting."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Psalm 69:21", relation: "Matthew's χολή + ὄξος both from LXX Ps 68:22; John 19:28 'to fulfill the Scripture' (ESVSB, NIV BTSB: probably Ps 69:21; CBSB: some suggest Ps 22:15)"}
+      - {ref: "Proverbs 31:6", relation: "wine for the perishing; cited by b. Sanh. 43a for the stupefying cup"}
+      - {ref: "Isaiah 51:17, 22", relation: "cup of wrath drunk to the dregs, then taken from the people's hand"}
+      - {ref: "Mark 10:38-39", relation: "'the cup that I drink' -- His own word for His death"}
+      - {ref: "Matthew 27:30 / 27:48", relation: "same κάλαμος: the reed that struck Him lifts the sponge"}
+      - {ref: "Exodus 12:22 / John 19:29", relation: "hyssop -- already in passover.md"}
+      - {ref: "Revelation 14:10 / 19:9", relation: "the wrath-cup for those outside Christ; the supper for those invited"}
+    translations_compared: ["ESV", "BSB", "MSB", "LSB footnotes", "CSB footnotes"]
+    divergences_noted: "Matt 27:34 wine (CT) vs sour wine (Majority) -- the Majority reading assimilates to Ps 69:21 more fully; mention in one sentence."
+  drafting:
+    done: true
+    file: "docs/content/jesus/the-cups-jesus-drank.md"
+  review:
+    done: false
+    validated: true # npm run validate 2026-10-30: only provenance warnings (filled at commit); strongs_suggest clean; links checked by hand (draft is dropped from mkdocs build)
+
+open_questions:
+  - "Author applied review recommendations 1-8 on 2026-10-30: two senses of the cup (Mark 10:39), the vow vs the sour wine (m. Berakhot 6:1; Matt 26:29 'this... with you'), 'text supports four reasons', Origen line removed, Irenaeus quote trimmed, Luke wording, minor items, bible_references. Annex trimmed to two paragraphs."
+  - "Fork candidate: how the early church read the passion drinks (Barnabas, Gospel of Peter, Irenaeus, Tertullian, Diatessaron, Origen C. Cels. 2.37 / 7.13 figurative reading, Byzantine Matt 27:34) -- the material cut from the Annex."
+  - "Series placement: author chose chronological -- this study sits at the Golgotha week of 'The Passion' series (see series_candidates)."
+  - "Who offered the myrrh wine: Mark's 'they' (soldiers) vs the Talmud's women of Jerusalem. Give both."
+  - "Nazirite angle (Num 6:3 forbids ὄξος οἴνου): does receiving sour wine bear on the Mark 14:25 vow? four-cups.md already says no; leave out unless author wants it -- fork candidate at most."
+  - "Fork candidates for the series: the reed (κάλαμος) as sceptre, weapon and sponge-pole; the seven sayings; the hyssop."
+series_candidates: # 'The Passion' series, chronological; proposed 2026-10-30, not yet approved
+  - {week: "Anointed for burial", passage: "Mark 14:3-9; John 12:1-8", status: new, note: "Mary's nard; Judas' objection; 'she has anointed my body beforehand'"}
+  - {week: "Judas and the thirty pieces", passage: "Matthew 26:14-16; 27:3-10; Zechariah 11:12-13", status: "exists: biblical-figures/judas-iscariot.md"}
+  - {week: "The Last Supper and the cups", passage: "Mark 14:22-26", status: "exists: feasts/last-supper-four-cups.md + feasts/lords-supper.md"}
+  - {week: "The hymn on the road", passage: "Matthew 26:30; Psalm 118", status: "exists as DRAFT: jesus/psalm-118-road-to-gethsemane.md"}
+  - {week: "Gethsemane", passage: "Mark 14:32-42; Luke 22:39-46; Hebrews 5:7", status: new, note: "Abba; the sweat like blood (Luke 22:43-44 textual question); the sleeping disciples; arrest, 'I am' (John 18:6)"}
+  - {week: "Peter's denial and the rooster", passage: "Mark 14:66-72; John 18:15-27; John 21:15-19", status: "partly in biblical-figures/peter.md"}
+  - {week: "The trials", passage: "John 18:12-19:16; Mark 14:53-65", status: new, note: "Annas, Caiaphas, Sanhedrin legality, Pilate, Herod (Luke 23:6-12), Daniel 7:13 at Mark 14:62"}
+  - {week: "Barabbas", passage: "Mark 15:6-15", status: new, note: "'son of the father'; the guilty released, the innocent condemned"}
+  - {week: "The mock coronation", passage: "Matthew 27:27-31; John 19:1-5", status: new, note: "scourging, purple/scarlet, thorns (Genesis 3:18), the reed, 'Behold the man'"}
+  - {week: "The road to Golgotha", passage: "Luke 23:26-32; Mark 15:21", status: new, note: "Simon of Cyrene, Alexander and Rufus; daughters of Jerusalem; green and dry wood"}
+  - {week: "The cups Jesus drank", passage: "Mark 15:23; John 19:28-30", status: "this study"}
+  - {week: "The inscription, the garments and the two criminals", passage: "John 19:19-24; Luke 23:39-43; Psalm 22:18; Isaiah 53:12", status: new}
+  - {week: "The seven sayings from the cross", passage: "the four Gospels", status: new, note: "could absorb Psalm 22 'Eloi'; overlaps forgiveness.md, at-home-with-the-lord.md"}
+  - {week: "Darkness, the torn veil and the opened tombs", passage: "Matthew 27:45-54; Amos 8:9; Hebrews 10:19-20", status: new}
+  - {week: "The pierced side", passage: "John 19:31-37; Exodus 12:46; Zechariah 12:10", status: new, note: "blood and water; no bone broken; Deut 21:23 burial before sunset (Josephus War 4.5.2 confirms the custom)"}
+  - {week: "The burial", passage: "John 19:38-42; Isaiah 53:9", status: "partly in jesus/three-days-and-three-nights.md", note: "Joseph, Nicodemus, 75 lb of myrrh and aloes -- myrrh again"}
+evidence:
+  - {id: spongos-count, what: "σπόγγος 3x NT, one event", tool: bible_concordance, args: {strongs: G4699}, expect_contains: "Matt", checked: 2026-10-30}
+  - {id: smyrnizo-once, what: "σμυρνίζω only Mark 15:23", tool: bible_concordance, args: {strongs: G4669}, expect_contains: "Mark", checked: 2026-10-30}
+  - {id: lxx-ps68-22, what: "χολή and ὄξος in one LXX verse", tool: bible_verse, args: {book: Ps, chapter: 68, verse: 22, translation: ebible-grcbrent}, expect_contains: "ὄξος", checked: 2026-10-30}
+  - {id: mt27-34-msb, what: "Majority text 'sour wine' at Matt 27:34", tool: bible_verse, args: {book: Matt, chapter: 27, verse: 34, translation: MSB}, expect_contains: "CT offered Him wine", checked: 2026-10-30}
+  - {id: mk15-23-elaben, what: "οὐκ ἔλαβεν", tool: bible_interlinear, args: {book: Mark, chapter: 15, verse: 23}, expect_contains: "ἔλαβεν", checked: 2026-10-30}
+  - {id: jn19-30-elaben, what: "ἔλαβεν τὸ ὄξος; τετέλεσται", tool: bible_interlinear, args: {book: John, chapter: 19, verse: 30}, expect_contains: "τετέλεσται", checked: 2026-10-30}
+  - {id: jn19-28-tetelestai, what: "τετέλεσται also in 19:28; τελειωθῇ", tool: bible_interlinear, args: {book: John, chapter: 19, verse: 28}, expect_contains: "τελειωθῇ", checked: 2026-10-30}
+  - {id: jn18-11-esv, what: "ESV John 18:11", tool: study_verse, args: {book: John, chapter: 18, verse: 11, work_id: esv-study-bible}, expect_contains: "shall I not drink the cup that the Father has given me", checked: 2026-10-30}
+  - {id: jn19-30-esv, what: "ESV John 19:30", tool: study_verse, args: {book: John, chapter: 19, verse: 30, work_id: esv-study-bible}, expect_contains: "When Jesus had received the sour wine", checked: 2026-10-30}
+  - {id: mt27-34-esv, what: "ESV Matt 27:34", tool: study_verse, args: {book: Matt, chapter: 27, verse: 34, work_id: esv-study-bible}, expect_contains: "when he tasted it, he would not drink it", checked: 2026-10-30}
+  - {id: isa51-17-esv, what: "ESV Isa 51:17", tool: study_verse, args: {book: Isa, chapter: 51, verse: 17, work_id: esv-study-bible}, expect_contains: "the cup of his wrath", checked: 2026-10-30}
+  - {id: mt27-29-kalamos, what: "κάλαμος at Matt 27:29, 30, 48", tool: bible_concordance, args: {strongs: G2563, book: Matt}, expect_contains: "48", checked: 2026-10-30}
+  - {id: oxos-count, what: "ὄξος 6x NT (John 19:29 twice)", tool: bible_concordance, args: {strongs: G3690, work_id: macula-greek-sblgnt}, expect_contains: "Luke", checked: 2026-10-30}
+  - {id: chole-count, what: "χολή 2x NT: Matt 27:34; Acts 8:23", tool: bible_concordance, args: {strongs: G5521, work_id: macula-greek-sblgnt}, expect_contains: "Acts", checked: 2026-10-30}
+  - {id: isa51-17-kos-chamato, what: "כּוֹס חֲמָתוֹ = H3563 + H2534", tool: bible_verse, args: {book: Isa, chapter: 51, verse: 17, translation: wlc}, expect_contains: "חֲמָת", checked: 2026-10-30}
+  - {id: ruth2-14-chomets, what: "Ruth 2:14 LXX ὄξος / MT חֹמֶץ", tool: bible_verse, args: {book: Ruth, chapter: 2, verse: 14, translation: ebible-grcbrent}, expect_contains: "ὄξει", checked: 2026-10-30}
+  - {id: jn12-27-esv, what: "ESV John 12:27 inner quotation punctuation", tool: study_verse, args: {book: John, chapter: 12, verse: 27, work_id: esv-study-bible}, expect_contains: "save me from this hour’?", checked: 2026-10-30}
+  - {id: jn19-28-esv, what: "ESV John 19:28", tool: study_verse, args: {book: John, chapter: 19, verse: 28, work_id: esv-study-bible}, expect_contains: "knowing that all was now finished", checked: 2026-10-30}
+  - {id: mk15-23-cbsb, what: "CBSB Mark 15:23 'embrace the pain fully'; myrrh disputed", tool: study_note, args: {book: Mark, chapter: 15, verse: 23, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "embrace the pain fully", checked: 2026-10-30}
+  - {id: mk15-23-nivbt, what: "NIV BTSB Mark 15:23 'Probably offered by sympathizers'", tool: study_note, args: {book: Mark, chapter: 15, verse: 23, work_id: niv-biblical-theology-study-bible}, expect_contains: "Probably offered by sympathizers", checked: 2026-10-30}
+  - {id: jn19-29-nivbt, what: "NIV BTSB John 19:29 'prolong life and therefore prolong pain'", tool: study_note, args: {book: John, chapter: 19, verse: 29, work_id: niv-biblical-theology-study-bible}, expect_contains: "prolong pain", checked: 2026-10-30}
+  - {id: mt26-29-esv, what: "this fruit of the vine ... with you", tool: study_verse, args: {book: Matt, chapter: 26, verse: 29, work_id: esv-study-bible}, expect_contains: "this fruit of the vine", checked: 2026-10-30}
+  - {id: mk15-36-aphete, what: "ἄφετε in Mark 15:36", tool: bible_interlinear, args: {book: Mark, chapter: 15, verse: 36}, expect_contains: "ἄφετε", checked: 2026-10-30}
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Mark 14:36 cup = wrath (confirmed); Mark 15:23 mild numbing; John 19:28-29 Ps 69:21 + soldiers' drink distinct from myrrh-wine (confirmed)."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Mark 15:23 'probably sympathizers' (contributed the contested point); John 19:29 sour wine prolongs life and pain (contributed)."}
+  - {type: commentary, title: "NIV / NKJV Cultural Backgrounds Study Bible", author: "Keener & Walton", note: "Prov 31:6-7 painkiller; myrrh's effect disputed; posca cheap workers' drink; John 2:4 'hour' = death (confirmed)."}
+  - {type: other, title: "Babylonian Talmud, Sanhedrin 43a", author: "William Davidson Edition, Koren-Steinsaltz (Sefaria)", note: "Wine with frankincense to the condemned, Prov 31:6, women of Jerusalem."}
+  - {type: other, title: "Ante-Nicene Fathers (CCEL), $BIBLE_MEDIA_ROOT/reference/patristics/ante-nicene-fathers", author: "Roberts & Donaldson", note: "Barnabas 7 (anf01); Irenaeus AH 3.19.2, 4.33.12, 4.35.3 (anf01); Tertullian De Spect. 30 (anf03); Origen C. Cels. 2.37, 7.13 (anf04); Gospel of Peter 5, Diatessaron §51, Origen Comm. John 10.19 (anf09). All merge the drinks except Origen 7.13 / Diatessaron which keep 'tasted'."}
+  - {type: other, title: "Josephus, Jewish War 5.11.1; 4.5.2", author: "trans. Whiston (Project Gutenberg 2850)", note: "Soldiers crucify 'by way of jest'; no drink mentioned. 4.5.2: Jews took down the crucified before sunset (for the pierced-side study)."}
+  - {type: other, title: "Historia Augusta, Hadrian 10.2; Plutarch, Cato Major 1.7", author: "LacusCurtius", note: "posca as soldiers' drink; Plutarch not cited in study."}
+  - {type: other, title: "Seneca, Epistulae Morales 70.20", author: "Seneca", note: "The sponge-stick (thelatinlibrary.com Latin text)."}
+  - {type: other, title: "The Crucifixion Sponge: Adding Insult to Injury", author: "Terry Harman, thetabernacleman.com", note: "The prompting claim; rejected on textual grounds."}
+last_updated: "2026-10-30"
+
+review_2026-10-30:
+  reviewer: "review-bible-study, independent agent pass"
+  checked: >
+    All 33 ESV quotations re-queried verbatim (study_verse, esv-study-bible). Greek forms and
+    Strong's against SBLGNT/MACULA (Mark 15:23, Matt 27:34, John 18:11, 19:28, 19:30); counts
+    σπόγγος 3, σμυρνίζω 1, ὄξος 6, χολή 2, κάλαμος in Matt 27:29, 30, 48 all confirmed. Hebrew
+    Isa 51:17, Ruth 2:14, Ps 69:21 (WLC) and LXX Ps 68:22, Ruth 2:14 confirmed. Study-Bible
+    quotations (CBSB Mark 14:36, 15:23; NIV BTSB Mark 15:23, John 19:29; ESVSB John 19:28-29)
+    confirmed verbatim. b. Sanh. 43a re-fetched via sefaria.py (William Davidson Edition - English,
+    CC-BY-NC; index 84 = 43a): wording confirmed. Josephus War 5.11.1 (Gutenberg 2850, Book V ch 11
+    sec 1), Seneca Ep. 70.20 (thelatinlibrary), Historia Augusta Hadrian 10.2 (LacusCurtius Latin)
+    confirmed. ANF: Barnabas 7, Gospel of Peter (vv. 16-17, ANF's own "sec. 5"), Irenaeus AH
+    3.19.2 / 4.33.12 / 4.35.3, Tertullian De Spect. 30, Diatessaron §51, Origen C. Cels. 2.37 /
+    7.13, Comm. John 10.19 all located and wording confirmed.
+  fixed:
+    - "John 12:27 ESV inner-quote punctuation: 'Father, save me from this hour'?"
+    - "Reason 4 claimed 'in every Gospel a loud cry follows the drink' -- false for John (no loud cry) and Luke (drink hours earlier); restated per Gospel"
+    - "Irenaeus AH 4.35.3 is against Valentinians making the passion a type of the Christ above, not against docetists; restated"
+    - "Gospel of Peter: the givers 'fulfilled all things', not the drink"
+    - "Bare references: 'verse 30' -> John 19:30; 'the same psalm's verse 21' -> Psalm 69:21; 'Greek Psalm 68:22' (pops up the wrong English verse) removed from prose and References"
+    - "Added H2534 for chamato"
+    - "Two foil sentences cut (style rule): 'did not refuse the cup unrecognised'; 'Nothing in the text suggests He weighed the giver's kindness or the sponge's cleanliness' -- also brings the study back under its 4,000-word budget (was 4,003)"
+  recommended: "see agent report 2026-10-30: Mark 10:39 vs cup-as-wrath tension; vow vs receiving sour wine; 'The Gospels give four reasons' overclaims; Origen characterisation; Davidson licence; Mark 15:36 LSB footnote; John 2:12 mother; frontmatter bible_references gaps"

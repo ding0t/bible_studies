@@ -18,6 +18,7 @@ draft: false
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 5:11-14
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 5:7
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 5:4-6
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 5:7
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 5:8
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 5:5-6
 <!-- commentary-index:auto-end -->

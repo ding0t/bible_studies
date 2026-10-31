@@ -15,6 +15,7 @@ draft: false
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 3:9-23 (primary passage)
 - [Pride](../../sin/pride.md) — 3:24-27
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 3:23-26
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 3:25
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 3:23-26
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 3:2
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 3:24

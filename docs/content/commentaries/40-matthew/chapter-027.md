@@ -17,6 +17,7 @@ draft: false
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 27:3-10
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 27:45
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 27:32
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 27:34
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 27:51
 - [The Names of God](../../god/names-of-god.md) — 27:46
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 27:57

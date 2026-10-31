@@ -19,6 +19,7 @@ draft: false
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 14:3-9
 - [John son of Zebedee](../../biblical-figures/john.md) — 14:33
 - [Simon Peter](../../biblical-figures/peter.md) — 14:66-72
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 14:25
 - [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 14:62
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 14:61-64
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 14:32-42

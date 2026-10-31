@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 15:23 (primary passage)
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 15:40
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 15:40-41
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 15:33

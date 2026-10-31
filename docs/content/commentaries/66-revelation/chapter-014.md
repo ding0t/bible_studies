@@ -15,6 +15,7 @@ draft: false
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 14:4
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 14:3
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 14:10
+- [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 14:10
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 14:18
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 14:1
 - [The Restrainer](../../last-things/the-restrainer.md) — 14:6
