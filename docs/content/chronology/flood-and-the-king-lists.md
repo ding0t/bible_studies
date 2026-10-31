@@ -9,7 +9,7 @@ gregorian_year: -2303
 primary_passage: "Genesis 5:1-32; Genesis 11:10-26"
 bible_references: ["Genesis 5:3-5", "Genesis 5:24-27", "Genesis 7:6", "Genesis 7:11", "Genesis 7:23", "Genesis 11:1-9", "Genesis 11:26", "Genesis 11:32", "Genesis 12:4", "Genesis 17:17", "Genesis 21:5", "Genesis 25:7", "1 Chronicles 1:24", "Isaiah 40:8", "Luke 3:36-38", "Acts 7:4", "Acts 7:14", "Romans 3:2", "Hebrews 11:5", "1 Peter 3:20"]
 date_created: 2026-09-26
-date_modified: 2026-10-18
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -62,8 +62,9 @@ the first man, come to undo what the first man did (Romans 5:12-19).
   faith in His keeping.
 - **Attitude.** Let Scripture judge the copies of Scripture. Choose a reading because it fits
   the text, and hold it even when a longer or shorter chronology would make an argument easier.
-- **Do.** Read Genesis 5:21-27 and Genesis 7:6-23 together. Work out when Methuselah died, and
-  see for yourself why a copy that keeps him alive after the Flood cannot be the original.
+- **Do.** Read Genesis 5:21-27 and Genesis 7:6-23 together, and work out when Methuselah died. Then
+  read Isaiah 40:8 aloud and thank God that "the word of our God will stand forever" (ESV), kept
+  through every copyist who carried it to you.
 
 ### Prayer
 

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 8:1-3"
 bible_references: ["Genesis 1:27-28", "Genesis 2:18-24", "Genesis 3:16", "Exodus 15:20", "Judges 4:4-5", "2 Kings 22:14-15", "Micah 6:4", "Psalm 121:1-2", "Matthew 5:28", "Matthew 19:3-10", "Matthew 28:5-10", "Mark 10:42-45", "Mark 14:3-9", "Mark 15:40-41", "Luke 2:36-38", "Luke 7:36-50", "Luke 10:38-42", "Luke 13:10-17", "Luke 22:25-27", "Luke 24:10-11", "John 4:9", "John 4:27", "John 4:39", "John 11:25-27", "John 20:15-18", "Acts 1:14", "Acts 2:17-18", "Acts 18:26", "Acts 21:9", "Acts 22:3", "Romans 16:1-7", "Galatians 3:28", "Ephesians 5:25-29", "Philippians 4:2-3", "1 Peter 3:7", "Revelation 19:7-8", "Matthew 5:29", "Matthew 16:16", "Mark 10:11-12", "Luke 7:39", "Luke 19:9", "Galatians 3:26-29"]
 date_created: 2026-10-17
-date_modified: 2026-10-17
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -56,8 +56,9 @@ alike.
   every teaching about women against how Jesus Himself treated them in the Gospels.
 - **Attitude.** Honour the women in your church the way Jesus did: by name, as learners, as
   partners in the work, and as people whose word you believe.
-- **Do.** If you are a woman, take your place at His feet: study the Scriptures and tell what you
-  have seen. If you lead, make room for women to learn, serve and speak, and listen when they do.
+- **Do.** If you are a woman, take your place at His feet as Mary did (Luke 10:39), study the
+  Scriptures, and tell what you have seen, as Mary Magdalene did: "I have seen the Lord" (John
+  20:18, ESV). If you lead, make room for women to learn, serve and speak, and listen when they do.
 
 ### Prayer
 

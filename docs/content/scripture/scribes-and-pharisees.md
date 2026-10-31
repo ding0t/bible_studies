@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Mark 2:16"
 bible_references: ["Mark 2:16", "Luke 5:30", "Acts 23:6-9", "Acts 19:35", "1 Corinthians 1:20", "Ezra 7:6-11", "Acts 5:17", "Acts 15:5", "Acts 26:5", "Philippians 3:5", "Matthew 5:20", "Matthew 23:1-36", "Luke 11:42-52", "Mark 12:38", "Mark 1:22", "John 7:15", "Matthew 13:52", "Matthew 23:34", "Mark 7:3", "Nehemiah 8:8", "Luke 11:53", "Acts 22:3"]
 date_created: 2026-10-01
-date_modified: 2026-10-19
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -60,8 +60,9 @@ makes scribes of His own disciples and sends them out.
   Jesus is its only source.
 - **Attitude.** Sit under Jesus as a learner, whatever you already know. The scribes Jesus sends
   are the ones He has trained.
-- **Do.** This week, take one passage you know well, read it slowly with its context, and teach
-  what you learned to one other person.
+- **Do.** This week, take one passage you know well and do what Ezra did with the Law (Ezra 7:10):
+  read it slowly with its context, obey one thing it asks of you, and teach what you learned to one
+  other person.
 
 ### Prayer
 

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 90:1-17"
 bible_references: ["Psalm 90:1-17", "Psalm 89:46-52", "Psalm 92:1-14", "Psalm 106:45", "Psalm 102:27", "Exodus 32:12-14", "Exodus 34:6", "Numbers 14:29", "Numbers 14:34", "Deuteronomy 33:1", "Genesis 3:19", "Ecclesiastes 6:6", "Judges 7:19", "Hebrews 1:8-12", "Hebrews 13:8", "John 1:14", "2 Timothy 1:10", "1 Corinthians 15:58", "2 Peter 3:4", "2 Peter 3:8-9"]
 date_created: 2026-09-26
-date_modified: 2026-10-20
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -63,8 +63,9 @@ days.
   eternity is the home your short life lives in.
 - **Attitude.** Pray "How long?" out loud when it is how you feel. Moses did, and the psalm he wrote
   is Scripture.
-- **Do.** Number your days this week. Each morning, ask God to satisfy you with His steadfast love,
-  and name one piece of work you are asking Him to establish.
+- **Do.** Number your days this week (Psalm 90:12). Each morning pray Moses' words, "Satisfy us in
+  the morning with your steadfast love" (Psalm 90:14, ESV), and name one piece of work you are
+  asking Him to establish (90:17).
 
 ### Prayer
 

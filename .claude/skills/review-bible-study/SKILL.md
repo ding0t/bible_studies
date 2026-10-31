@@ -404,6 +404,12 @@ wrong until the corpus is read side by side. A 2026-09-19 audit found 6 of 29 pu
 a Be Transformed subsection had drifted this way with no stated reason — this is corpus-wide drift,
 not a rare exception, so check every study that has this subsection rather than only flagging one
 that looks obviously off. Report as **Minor**.
+Then check the content against
+[be-transformed.md](../develop-bible-study/be-transformed.md)'s per-label tests: a Think that is
+an instruction, an Attitude you could finish and tick off, or a Do that is a restatement, an inward
+review with no next step, or an action with no verse behind it. A Do the passage itself supplies
+(its command, its prayer, its model) is the target; when the passage offers one and the Do ignores
+it, name it in the finding. Report as **Minor**.
 
 **If the study has a Memory verses subsection, check it against
 [key-takeaways.md](../../../docs/content/about/key-takeaways.md#memory-verses).** The standard shape

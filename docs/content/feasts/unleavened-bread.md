@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:6-8; Exodus 12:15-20; 1 Corinthians 5:6-8"
 bible_references: ["Exodus 12:15-20", "Exodus 12:34", "Exodus 12:39", "Exodus 13:3-10", "Deuteronomy 16:3-4", "Numbers 28:17-25", "Leviticus 2:11", "Leviticus 7:13", "Leviticus 23:17", "Luke 22:1", "Acts 12:3", "Acts 20:6", "Matthew 13:33", "Luke 13:21", "Matthew 16:6-12", "Mark 8:15", "Luke 12:1", "Galatians 5:2-3", "Galatians 5:7-9", "1 Corinthians 5:1-13", "1 Corinthians 6:11", "2 Corinthians 1:12", "2 Corinthians 5:21", "1 Peter 2:22", "Hebrews 4:15", "Acts 2:27", "Psalm 16:10", "Leviticus 23:11"]
 date_created: 2026-10-02
-date_modified: 2026-10-02
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -69,8 +69,9 @@ by clearing out the old leaven of malice and evil and living in sincerity and tr
   what His sacrifice has made you.
 - **Attitude.** Take small sin seriously. "A little leaven leavens the whole lump" (Galatians 5:9,
   ESV).
-- **Do.** Israel searched the house and put the leaven out. This week, name one old habit of malice,
-  resentment or deceit, confess it to God, and remove what feeds it.
+- **Do.** Israel searched the house and put the leaven out (Exodus 12:15). This week, name one old
+  habit of malice, resentment or deceit, confess it to God, and remove what feeds it, so that you
+  keep the feast "with the unleavened bread of sincerity and truth" (1 Corinthians 5:8, ESV).
 
 ### Prayer
 

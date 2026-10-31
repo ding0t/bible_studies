@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 17:1-6"
 bible_references: ["Revelation 17:1-18", "Revelation 18:2-8", "Revelation 18:22-24", "Revelation 19:1-9", "Revelation 21:2", "Revelation 21:9-10", "Revelation 21:27", "Revelation 22:4", "Revelation 22:14-17", "Revelation 2:20", "Revelation 12:9", "Revelation 13:2", "Revelation 13:16", "Revelation 14:1", "Revelation 14:8", "Revelation 16:19", "1 Kings 16:31", "1 Kings 21:25", "2 Kings 9:22", "Proverbs 9:1-6", "Proverbs 9:13-18", "Isaiah 1:21", "Isaiah 23:15-17", "Isaiah 47:5-9", "Isaiah 52:11", "Jeremiah 25:10", "Jeremiah 51:7", "Jeremiah 51:45", "Ezekiel 16:15", "Ezekiel 16:32", "Hosea 1:2", "Hosea 2:14", "Nahum 3:4", "2 Corinthians 6:16-18", "2 Corinthians 11:2-3", "2 Corinthians 11:14", "Ephesians 5:29", "James 4:4"]
 date_created: 2026-10-17
-date_modified: 2026-10-17
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -64,7 +64,10 @@ clothes and marries, and God calls His people to come out of the one and make re
   the other (Revelation 22:17).
 - **Attitude.** Hold the world's glamour lightly. The harlot's purple and gold do not last: the beast
   that carries her will leave her "desolate and naked" (Revelation 17:16).
-- **Do.** Name one place where you share Babylon's table, and come out of it this week.
+- **Do.** Hear the voice from heaven: "Come out of her, my people, lest you take part in her sins"
+  (Revelation 18:4, ESV). Name one place where you share Babylon's table, its luxury, its flattery
+  or its secrecy, and walk away from it this week. Then answer the Spirit's "Come" (Revelation
+  22:17) in prayer.
 
 ### Prayer
 

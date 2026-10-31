@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-13"
 bible_references: ["Revelation 1:3", "James 5:7-8", "Mark 13:32-37", "Matthew 24:3-14", "Acts 1:6-11"]
 date_created: 2024-05-29
-date_modified: 2026-10-09
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -58,7 +58,7 @@ John opens Revelation by pronouncing a blessing on the reader before a single se
 
 - **Think.** Notice any pull toward fixing an exact date for Christ's return. Mark 13:32 puts that knowledge outside even the Son's stated awareness during His earthly life. Treating a calculated date as settled fact claims more certainty than Jesus Himself claimed.
 - **Attitude.** James wrote "be patient" to believers being economically exploited by the wealthy (James 5:1-6). His patience is endurance under real pressure.
-- **Do.** "Stay awake" (Mark 13:35, 37) as Jesus frames it: a servant given work to do while the master is away (Mark 13:34).
+- **Do.** Jesus left His servants "each with his work" (Mark 13:34, ESV). Name the work He has given you at home, at church or in your job, and this week do one piece of it you have been putting off, as for the Master who is coming (Mark 13:35).
 
 ### Prayer
 

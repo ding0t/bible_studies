@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 16:1-34; Leviticus 23:26-32; Hebrews 9:6-28"
 bible_references: ["Leviticus 16:1-34", "Leviticus 23:26-32", "Leviticus 25:9", "Leviticus 10:1-2", "Acts 27:9", "Psalm 103:12", "Isaiah 53:6", "Hebrews 4:16", "Hebrews 7:26-27", "Hebrews 9:5", "Hebrews 9:6-14", "Hebrews 9:24-28", "Hebrews 10:11-22", "Hebrews 13:11-13", "Matthew 27:51", "Romans 3:23-26", "1 John 2:2", "Zechariah 12:10", "Zechariah 13:1", "Romans 11:25-27", "John 19:37", "Revelation 1:7", "Jeremiah 31:34"]
 date_created: 2026-10-02
-date_modified: 2026-10-02
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -80,8 +80,9 @@ day of national mourning and cleansing the prophets foresee for Israel still wai
 - **Attitude.** Israel humbled itself on this day. Come to God with the same honesty about sin, and
   with the confidence of one whose High Priest has already gone in: "Let us then with confidence draw
 near to the throne of grace" (Hebrews 4:16, ESV).
-- **Do.** This week, confess a specific sin to God by name, and thank Him by name for the blood of
-  Jesus that has taken it away.
+- **Do.** This week, confess a specific sin to God by name. Then "draw near with a true heart in
+  full assurance of faith" (Hebrews 10:22, ESV), and thank Him by name for the blood of Jesus that
+  has taken it away.
 
 ### Prayer
 

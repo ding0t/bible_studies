@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5:21-24"
 bible_references: ["Genesis 5:21-27", "Genesis 6:9", "Genesis 7:1", "Genesis 7:4-10", "Genesis 7:16", "Genesis 7:23", "Genesis 19:16", "Genesis 19:22-26", "Genesis 19:29", "2 Thessalonians 2:7", "2 Kings 2:3-11", "Psalm 49:15", "Psalm 73:24", "Isaiah 26:19-21", "Isaiah 54:9", "Ezekiel 14:14-20", "1 Peter 3:20", "Romans 5:14", "Luke 17:26-30", "Matthew 24:29", "Matthew 24:37-41", "Matthew 25:34", "1 Corinthians 15:51-52", "1 Thessalonians 1:10", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Hebrews 11:5-7", "2 Peter 2:4-9", "Jude 1:14-15", "Revelation 3:10"]
 date_created: 2026-09-26
-date_modified: 2026-10-27
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
@@ -69,7 +69,9 @@ lives show the same God acting the same way long before.
   5:9, ESV).
 - **Attitude.** Walk with God now, the way Enoch did for three hundred years, and leave the timing of
   your going to Him.
-- **Do.** Name the thing in your own Sodom that makes you linger. Put it down this week.
+- **Do.** Lot "lingered", and the angels took him by the hand (Genesis 19:16, ESV). Name the thing
+  in your own Sodom that makes you linger, confess it to God this week, and ask one believer you
+  trust to take you by the hand on it by asking you about it next week.
 
 ### Prayer
 

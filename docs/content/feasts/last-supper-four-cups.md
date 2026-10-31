@@ -9,7 +9,7 @@ bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Cori
 zadok_year: 3991
 gregorian_year: 33
 date_created: 2026-07-19
-date_modified: 2026-10-22
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -114,7 +114,9 @@ at His table forever, and that table is set for you.
   standing announcement that he will.
 - **Attitude.** Expectancy at the table. The meal Jesus instituted is one course short by his own
   choice, and he named the company he intends to finish it with.
-- **Do.** At the next communion, name what you are waiting for, not only what you are remembering.
+- **Do.** At the next communion, read Matthew 26:29 before you drink. Thank Jesus by name for the
+  cup He will drink new with you in His Father's kingdom, and tell Him what you are waiting for as
+  well as what you are remembering (1 Corinthians 11:26).
 
 ### Prayer
 

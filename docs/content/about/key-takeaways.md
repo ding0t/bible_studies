@@ -5,7 +5,7 @@ description: "What the Key Takeaways section at the top of every study is for, t
 tags: ["study-method", "key-takeaways", "transformation"]
 draft: false
 date_created: 2026-08-02
-date_modified: 2026-10-27
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -177,6 +177,11 @@ drifted from the three-bullet shape without any such reason on record — the sa
 [discussion-questions.md](https://github.com/ding0t/bible_studies/blob/main/.claude/skills/develop-bible-study/discussion-questions.md)
 names for its own section: individually defensible, collectively inconsistent, and invisible to
 every mechanical check.
+
+What goes in each bullet, with a test for each label, is in the develop-bible-study skill's
+[be-transformed.md](https://github.com/ding0t/bible_studies/blob/main/.claude/skills/develop-bible-study/be-transformed.md).
+Its main rule is that the Do comes from the passage itself: the passage's command done once, its
+prayer prayed over a named person, or its model copied this week.
 
 ### Prayer
 

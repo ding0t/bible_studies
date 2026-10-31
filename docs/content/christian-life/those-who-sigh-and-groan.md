@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Ezekiel 9:1-11"
 bible_references: ["Ezekiel 8:1-18", "Ezekiel 6:9", "Ezekiel 11:13", "Ezekiel 11:19-20", "Ezekiel 14:14", "Ezekiel 18:23", "Ezekiel 21:6-7", "Ezekiel 24:17", "Ezekiel 33:11", "Ezekiel 36:26-27", "Ezekiel 36:31", "Genesis 6:5-6", "Exodus 2:23-25", "Exodus 12:13", "Job 31:35", "1 Samuel 13:14", "Psalm 69:9", "Psalm 78:40-41", "Psalm 95:10", "Psalm 119:136", "Psalm 119:158", "Psalm 139:21-24", "Isaiah 63:10", "Jeremiah 3:15", "Jeremiah 13:17", "Lamentations 1:4", "Lamentations 1:8", "Amos 6:6", "Ezra 9:3-4", "Matthew 5:4", "Mark 3:5", "Luke 18:11", "Luke 19:41-42", "Acts 13:22", "Romans 1:32", "Romans 8:26", "Romans 15:3", "1 Corinthians 5:2", "2 Corinthians 7:10", "Ephesians 1:13-14", "Ephesians 4:30", "2 Timothy 2:19", "Hebrews 1:9", "1 Peter 4:17", "2 Peter 2:7-9", "Revelation 7:2-3", "Revelation 9:4", "Revelation 14:1", "1 Samuel 16:1", "1 Samuel 16:7", "Psalm 78:70-72", "Psalm 89:20", "Isaiah 44:28", "Numbers 16:5", "Numbers 16:26", "Numbers 16:32", "Isaiah 52:11", "1 Kings 19:18", "Romans 11:4-6", "Romans 11:26-27", "Isaiah 4:3-4", "Malachi 3:16-18", "Ezekiel 9:10", "Ezekiel 11:21", "Ezekiel 18:31", "Ezekiel 36:22-25", "Ezekiel 37:10", "Ezekiel 37:14", "Ezekiel 37:27", "Ezekiel 39:29", "Deuteronomy 30:6", "Jeremiah 31:33", "Jeremiah 32:39", "John 3:5", "John 3:10", "John 7:38-39", "2 Corinthians 3:3", "2 Corinthians 3:6", "Exodus 31:18", "Revelation 11:11", "Revelation 21:3", "Revelation 22:4", "Psalm 51:10", "Psalm 51:17", "Psalm 45:7", "Hebrews 8:10", "Hebrews 10:16", "Isaiah 44:3", "Romans 11:4"]
 date_created: 2026-10-21
-date_modified: 2026-10-21
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -78,9 +78,10 @@ God gives that heart and seals it with His Holy Spirit, who Himself can be griev
 - **Attitude.** Let what breaks God's heart break yours, starting with your own sin: "Search me, O
   God, and know my heart!" (Psalm 139:23, ESV). Grief over sin weeps over the sinner (Psalm
   119:136) and prays for him.
-- **Do.** Name one thing your culture, your church or your own home has learned to laugh at that
-  God calls an abomination. Bring it to Him in prayer this week, with tears if they come, and ask
-  Him what He wants you to do about it.
+- **Do.** Name one thing your culture, your church or your own home has learned to laugh at that God
+  calls an abomination. Bring it to Him in prayer this week, with tears if they come, as the ones
+  God marked "sigh and groan over all the abominations" (Ezekiel 9:4, ESV), and ask Him what He
+  wants you to do about it.
 
 ### Prayer
 

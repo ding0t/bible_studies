@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 6:9-13; Deuteronomy 6:6-7"
 bible_references: ["Luke 11:1", "Deuteronomy 6:20-21", "Deuteronomy 8:3", "Luke 15:11-32", "Ezekiel 36:17-20", "John 6:22-35", "Acts 27:35", "Philippians 4:11", "Hebrews 4:15-16", "John 17:15", "1 Thessalonians 5:23-24", "Ephesians 3:20-21", "James 1:13", "Matthew 6:15", "1 Chronicles 29:11", "1 Corinthians 3:6", "Psalm 78:4", "Ephesians 6:4", "2 Timothy 3:15", "Luke 15:20", "John 1:12", "Ephesians 3:14-15", "Exodus 34:6", "Psalm 34:3", "2 Thessalonians 1:11-12", "Matthew 26:39", "Revelation 22:20", "Colossians 1:9-13", "Exodus 16:4-18", "Philippians 4:19", "Matthew 18:21-35", "Ephesians 4:32", "Colossians 1:14", "Matthew 4:1-11", "1 Corinthians 10:13", "2 Thessalonians 3:3", "2 Corinthians 1:20"]
 date_created: 2026-10-04
-date_modified: 2026-10-26
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -57,7 +57,8 @@ what each part is for.)*
   mean and the parent answers; let the prayer be familiar enough that your children ask, as Timothy
   knew the Scriptures "from childhood" (2 Timothy 3:15).
 - **Do.** Pick one fixed time this week, a meal or bedtime, and pray the Lord's Prayer aloud
-  together there every day. Then begin Week 1.
+  together there every day, so that God's words are spoken "when you sit in your house" (Deuteronomy
+  6:7, ESV). Then begin Week 1.
 
 ### Prayer
 

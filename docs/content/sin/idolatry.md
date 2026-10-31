@@ -8,7 +8,7 @@ draft: false
 primary_passage: "1 Corinthians 10:14-22"
 bible_references: ["Colossians 3:1-6", "Ephesians 5:5", "1 Corinthians 8:4-6", "Deuteronomy 32:15-21", "Deuteronomy 8:11-19", "Leviticus 17:7", "Psalm 106:19-20", "Psalm 106:35-38", "Psalm 96:5", "Psalm 115:3-8", "Isaiah 44:9-20", "Jeremiah 2:11-13", "Jeremiah 10:5", "Jeremiah 17:5-8", "Ezekiel 14:1-8", "Ezekiel 28:2", "Exodus 20:3-6", "Romans 1:21-25", "Job 31:24-28", "Habakkuk 1:11-16", "Matthew 6:24", "Luke 12:15-21", "1 Timothy 6:9-10", "1 Timothy 6:17", "1 Samuel 15:22-23", "Galatians 4:8-9", "Ephesians 2:1-3", "James 3:14-16", "James 4:1-7", "Revelation 9:20", "1 Thessalonians 1:9-10", "1 John 5:20-21", "Isaiah 43:7", "Colossians 1:16", "Revelation 4:11", "Acts 17:16-29", "Ecclesiastes 3:11", "John 4:23-24"]
 date_created: 2025-04-24
-date_modified: 2026-10-22
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -69,8 +69,9 @@ Jesus Christ, the true God.
   Matthew 6:24). Money is the one Paul names (Colossians 3:5).
 - **Attitude.** Hold everything you have as given. "It is he who gives you power to get wealth"
   (Deuteronomy 8:18, ESV).
-- **Do.** Ask the three questions in [Three questions for your heart](#three-questions-for-your-heart),
-  name the answer to God, and give away something the answer has a grip on.
+- **Do.** "Flee from idolatry" (1 Corinthians 10:14, ESV). Ask the three questions in [Three
+  questions for your heart](#three-questions-for-your-heart), name the answer to God, and give away
+  something the answer has a grip on.
 
 ### Prayer
 

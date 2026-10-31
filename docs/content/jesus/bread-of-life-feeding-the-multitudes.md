@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15; Matthew 15:32-39; Mark 8:1-10"
 bible_references: ["John 6:22-71", "Mark 8:14-21", "Matthew 16:5-12", "Exodus 16:4-21", "Numbers 11:4-9", "Numbers 11:31-34", "Deuteronomy 8:2-3", "Deuteronomy 18:15-18", "2 Kings 4:42-44", "Psalm 78:17-31", "Psalm 23:1-2", "Isaiah 25:6-9", "Isaiah 55:1-3", "Ezekiel 34:5", "Ezekiel 34:13-16", "Numbers 27:15-18", "Matthew 4:1-4", "Matthew 6:11", "Luke 11:3", "Proverbs 30:8-9", "Revelation 2:17", "Mark 14:22", "Mark 7:24-31", "Matthew 15:29-31", "1 Timothy 6:6-8", "Romans 1:16", "1 Corinthians 11:23-26", "Luke 9:16"]
 date_created: 2026-07-25
-date_modified: 2026-10-22
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -79,15 +79,16 @@ Prophet who is to come into the world!" (John 6:14, ESV). This is verbal predict
 
 ### Be Transformed
 
-- **Think.** stop sorting your prayers into "spiritual" and "practical." John 6 does not rebuke the
+- **Think.** Stop sorting your prayers into "spiritual" and "practical." John 6 does not rebuke the
   crowd for wanting bread; it rebukes them for stopping there. Ask whether the answer stops at
   the gift or moves you to the Giver.
-- **Attitude.** treat sufficiency as provision. Numbers 11 is the account
+- **Attitude.** Treat sufficiency as provision. Numbers 11 is the account
   of people who had what they needed daily and called it deprivation: "there is nothing at
   all but this manna to look at." They were judged for despising enough.
-- **Do.** identify one arrangement in your life built specifically so that you never have to ask God
-  for it again, and pray about that thing this week as though you did. The manna could not be stored
-  by design; "give us this day our daily bread" is a petition Jesus expected to be repeated.
+- **Do.** Identify one arrangement in your life built so that you never have to ask God for it
+  again, and pray about it each day this week as though you did: "Give us this day our daily bread"
+  (Matthew 6:11, ESV). The manna could not be kept overnight (Exodus 16:19-20), and Jesus made the
+  petition one to repeat.
 
 ### Prayer
 

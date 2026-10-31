@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 3:5-13"
 bible_references: ["Numbers 1:1", "Numbers 3:1-13", "Numbers 3:38-51", "Numbers 8:16", "Numbers 18:7", "Genesis 2:5", "Genesis 2:15", "Genesis 3:23-24", "Genesis 5:24", "Genesis 8:20", "Genesis 12:7-8", "Genesis 14:18", "Genesis 22:13", "Genesis 26:25", "Genesis 31:54", "Genesis 41:45", "Genesis 46:1", "Genesis 47:22", "Job 1:1", "Job 1:5", "Exodus 2:16", "Exodus 13:2", "Exodus 18:12", "Exodus 19:6", "Exodus 19:22-24", "Exodus 24:5", "Exodus 28:1", "Exodus 30:7-8", "Exodus 30:34", "Exodus 32:26-29", "Hebrews 5:4-5", "Hebrews 7:3", "Hebrews 7:11", "Hebrews 7:23-25", "Hebrews 11:5", "Hebrews 12:23", "1 Peter 2:5", "1 Peter 2:9", "Jude 14", "Revelation 1:6"]
 date_created: 2026-09-26
-date_modified: 2026-10-10
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -72,7 +72,8 @@ traces the history that study's argument assumes.
   charge perfectly.
 - **Attitude.** Draw near with confidence. Jesus "always lives to make intercession" for you
   (Hebrews 7:25, ESV).
-- **Do.** Bring one person to God in prayer by name each day this week, as a priest Jesus has made.
+- **Do.** Bring one person to God in prayer by name each day this week, as one of the "royal
+  priesthood" Jesus has made (1 Peter 2:9, ESV).
 
 ### Prayer
 

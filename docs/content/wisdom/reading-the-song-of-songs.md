@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Song of Songs 8:6-7"
 bible_references: ["Song of Songs 2:10-13", "Song of Songs 2:15", "Song of Songs 8:6-7", "Matthew 24:20", "Matthew 24:32-33", "2 Corinthians 1:22", "Ephesians 5:25", "Ephesians 5:31-32", "Song of Songs 1:1", "Song of Songs 2:7", "Song of Songs 3:5", "Song of Songs 8:4", "Song of Songs 8:5-14", "Isaiah 9:7", "Genesis 38:18", "Genesis 2:22-24", "Psalm 69:9", "John 2:17", "Zechariah 8:2"]
 date_created: 2026-09-25
-date_modified: 2026-09-27
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -55,8 +55,9 @@ Genesis 2:24, which Paul does quote.
   likely calls its fire His (8:6). Hold it as holy.
 - **Attitude.** Wait for love's time with joy: "that you not stir up or awaken love until it
   pleases" (Song of Songs 2:7, ESV).
-- **Do.** Pray this week, by name, for your own marriage or for three marriages you know, asking God
-  to keep the flame He lit.
+- **Do.** Pray this week, by name, for your own marriage or for three marriages you know, in the
+  Song's own words, "Set me as a seal upon your heart" (Song of Songs 8:6, ESV), and ask God to keep
+  the flame He lit.
 
 ### Prayer
 

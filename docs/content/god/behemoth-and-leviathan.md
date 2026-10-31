@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Job 40:15-24; Job 41:1-34"
 bible_references: ["Job 3:8", "Job 7:12", "Job 9:32-33", "Job 38:4-8", "Job 40:15-24", "Job 41:1-34", "Job 42:1-6", "Genesis 1:2", "Genesis 1:21", "Genesis 2:7", "Psalm 18:8", "Psalm 74:12-15", "Psalm 104:24-26", "Isaiah 27:1", "Ezekiel 29:3", "Romans 1:19-20", "Romans 11:33-36", "1 Timothy 2:5"]
 date_created: 2026-08-23
-date_modified: 2026-10-22
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -45,7 +45,7 @@ Job's complaint before the whirlwind was that no one could bring him and God int
 
 - **Think.** God's answer to the hardest question in the book is a tour of the animal kingdom. Notice what that assumes about you: that seeing who God is settles more than being told why he acted.
 - **Attitude.** Job's repentance in 42:6 follows no new information about his losses. Nothing in chapters 38-41 explains his children, his health or his property. What changed was the size of the God he was arguing with.
-- **Do.** Take one thing in the created order you cannot control — weather, an animal, the sea — and let it prompt the question the Lord asks Job: who made this, and on whose terms does it operate?
+- **Do.** Go this week to one thing in creation you cannot control, the sea, a storm, a large animal, and read Job 40:15-19 aloud in front of it. Then say to God what Job said once he had seen Him: "I know that you can do all things, and that no purpose of yours can be thwarted" (Job 42:2, ESV).
 
 ### Prayer
 

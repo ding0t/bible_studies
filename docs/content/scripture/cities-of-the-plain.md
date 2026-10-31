@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 19:15-30"
 bible_references: ["Genesis 10:19", "Genesis 13:10-13", "Genesis 14:1-10", "Genesis 18:14", "Genesis 18:20-32", "Genesis 19:15-30", "Deuteronomy 29:23", "Deuteronomy 34:3", "Isaiah 1:9", "Isaiah 13:19-20", "Isaiah 15:5", "Jeremiah 48:34", "Jeremiah 49:18", "Jeremiah 50:40", "Hosea 11:8", "Amos 4:11", "Zephaniah 2:9", "Matthew 11:23-24", "Luke 17:28-32", "2 Thessalonians 1:7-8", "2 Peter 2:6-9", "2 Peter 3:7", "Jude 1:7", "Revelation 14:10", "Revelation 21:8"]
 date_created: 2026-10-06
-date_modified: 2026-10-08
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -68,8 +68,9 @@ that burns with fire and sulfur" (Revelation 21:8, ESV).
   matter of record, and so is His rescue.
 - **Attitude.** Pray as Abraham prayed, boldly and for named people, trusting the Judge to do what is
   just.
-- **Do.** "Remember Lot's wife" (Luke 17:32, ESV). Name one thing you are looking back at, and turn
-  your face from it this week.
+- **Do.** The angel's command was "Do not look back" (Genesis 19:17, ESV), and Jesus' was "Remember
+  Lot's wife" (Luke 17:32, ESV). Name one thing you keep looking back at, and this week remove one
+  thing that keeps it in front of your eyes.
 
 ### Prayer
 

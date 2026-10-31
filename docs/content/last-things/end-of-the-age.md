@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 13:36-43; Matthew 24:3; Matthew 28:20"
 bible_references: ["Matthew 13:24-30", "Matthew 13:36-43", "Matthew 13:47-50", "Matthew 24:3", "Matthew 24:14-15", "Matthew 24:29-31", "Matthew 28:18-20", "Matthew 12:32", "Daniel 9:27", "Daniel 12:4", "Daniel 12:13", "Hebrews 1:2", "Hebrews 9:26-28", "1 Corinthians 10:11", "Galatians 1:4", "Romans 12:2", "Titus 2:12-13", "1 Thessalonians 4:17", "Revelation 3:10", "Revelation 7:9-14"]
 date_created: 2026-10-03
-date_modified: 2026-10-08
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -73,8 +73,9 @@ the sacrifice of himself" (Hebrews 9:26, ESV). The end Daniel waited for opened 
   when Jesus comes. You belong to the age that is coming.
 - **Attitude.** Live unhurried and unafraid. The Lord of the harvest is with you every day until He
   returns, and He sorts the field Himself.
-- **Do.** Pick one habit of this age you have taken on without thinking. Name it to God this week and
-  ask Him to change your mind about it (Romans 12:2).
+- **Do.** Each morning this week, read Jesus' promise aloud: "I am with you always, to the end of
+  the age" (Matthew 28:20, ESV). Then name to Him one habit of this age you have taken on without
+  thinking, and ask Him to renew your mind about it (Romans 12:2).
 
 ### Prayer
 

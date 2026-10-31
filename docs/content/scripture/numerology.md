@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 119; Revelation 13:18"
 bible_references: ["Genesis 1:1", "Proverbs 25:2", "Deuteronomy 29:29", "Psalm 145:13", "Lamentations 1:1-22", "Lamentations 3:1-66", "Lamentations 5:1-22", "Proverbs 31:10-31", "Daniel 5:25-28", "Matthew 1:17", "Luke 14:28", "2 Timothy 3:16-17", "Revelation 13:18", "Deuteronomy 6:4", "Deuteronomy 19:15", "Jonah 1:17", "Matthew 12:40", "1 Corinthians 15:4", "Genesis 2:10", "Revelation 4:6-8", "Genesis 1:26-31", "Genesis 2:2-3", "Leviticus 23:1-44", "Genesis 17:12", "1 Peter 3:20", "Exodus 20:1-17", "Genesis 49:1-28", "Matthew 10:2-4", "Revelation 21:12-14", "Genesis 7:12", "Numbers 14:33-34", "Matthew 4:2"]
 date_created: 2025-12-13
-date_modified: 2026-10-22
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -63,8 +63,9 @@ prophecies extracted from letter-skip sequences.
 - **Attitude.** Notice how much of Scripture's craft you have been reading past. Lamentations is an
   alphabet running out of letters: someone held grief inside a form on purpose, and God gave that
   poem to His people to pray.
-- **Do.** When a numerical argument arrives supporting what you already believed, slow down and
-  test it against the rule above.
+- **Do.** Pray Psalm 119 as its writer built it: one stanza a day for twenty-two days, eight verses
+  for each letter from <span dir="rtl">א</span> to <span dir="rtl">ת</span>, and turn each stanza into a prayer for the day. You will be reading a
+  pattern the author made, in the order he made it.
 
 ### Prayer
 

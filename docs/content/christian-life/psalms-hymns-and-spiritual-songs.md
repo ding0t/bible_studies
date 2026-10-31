@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 5:18-21; Colossians 3:16-17"
 bible_references: ["Ephesians 5:14", "Ephesians 5:18-21", "Colossians 3:16-17", "1 Corinthians 14:15", "1 Corinthians 14:26", "James 5:13", "Acts 16:25", "Matthew 26:30", "Hebrews 2:11-12", "Psalm 22:22", "Zephaniah 3:17", "Exodus 15:1-2", "Exodus 15:20-21", "Deuteronomy 31:19-22", "Deuteronomy 32:1-43", "Judges 5:3", "1 Samuel 2:1-10", "1 Chronicles 25:1-7", "2 Chronicles 29:30", "Psalm 40:3", "Psalm 72:20", "Psalm 76:1", "Psalm 96:1", "Psalm 118:14", "Psalm 145:1", "Isaiah 12:2", "Luke 1:46-55", "Luke 1:68-79", "Luke 2:13-14", "Luke 2:29-32", "Philippians 2:6-11", "Colossians 1:15-20", "1 Timothy 3:16", "Revelation 5:9-10", "Revelation 14:3", "Revelation 15:2-4", "Isaiah 26:19", "Isaiah 60:1", "2 Samuel 22:1-51", "Revelation 4:8-11", "Revelation 19:1-8"]
 date_created: 2026-10-25
-date_modified: 2026-10-26
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -57,8 +57,9 @@ another with them and thank the Father with them.
   when you have forgotten the sermon.
 - **Attitude.** Sing to two audiences at once: to the Lord Jesus with your heart, and to the person
   beside you with your voice.
-- **Do.** Learn one song of Scripture by heart this month. The [Songbook](../resources/songbook.md)
-  has a place to start.
+- **Do.** Learn one song of Scripture by heart this month, so that "the word of Christ" dwells in
+  you richly (Colossians 3:16, ESV), and sing it to someone. The
+  [Songbook](../resources/songbook.md) has a place to start.
 
 ### Prayer
 

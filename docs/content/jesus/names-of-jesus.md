@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 16:13-17"
 bible_references: ["Matthew 16:13-17", "Mark 8:29-31", "Psalm 2:2-7", "2 Samuel 7:12-16", "Daniel 9:25-26", "Deuteronomy 18:15-18", "Acts 3:22", "Matthew 17:5", "Psalm 110:1-4", "Matthew 22:41-46", "Hebrews 5:5-6", "Isaiah 9:6-7", "Isaiah 22:21", "Isaiah 11:1", "Jeremiah 23:5-6", "Zechariah 3:8", "Zechariah 6:12-13", "Numbers 24:17", "Revelation 22:16", "Ezekiel 34:23-24", "Isaiah 42:1", "Matthew 12:17-18", "Isaiah 52:13", "Isaiah 53:3", "Isaiah 6:1", "Isaiah 57:15", "Isaiah 53:5-7", "Acts 8:32-35", "John 12:37-41", "Psalm 118:22", "Matthew 21:42", "Acts 4:11-12", "Daniel 7:13-14", "Matthew 1:21-23", "Luke 1:31-33", "Luke 2:11", "Mark 14:61-64", "John 12:34", "Acts 7:56", "John 6:35", "John 8:12", "John 10:9-11", "John 11:25-26", "John 14:6", "John 15:1-5", "John 8:58", "Mark 10:46-52", "John 4:42", "Luke 23:42-43", "John 20:28", "John 20:31", "John 1:1", "John 1:14", "John 1:29", "Philippians 2:9-11", "Hebrews 4:14-16", "1 Corinthians 15:45", "Isaiah 44:6", "Revelation 1:17-18", "Revelation 22:13", "Revelation 5:5-6", "Revelation 19:11-16"]
 date_created: 2026-10-18
-date_modified: 2026-10-19
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -73,8 +73,8 @@ of the Holy Spirit](../holy-spirit/names-of-the-holy-spirit.md) is the third stu
   Anointed King of Psalm 2. When you read "Lamb", read Isaiah 53.
 - **Attitude.** Bartimaeus kept shouting when the crowd told him to be quiet (Mark 10:48). Call on
   Jesus the same way, by name and without embarrassment.
-- **Do.** Answer His question this week, in words. Write down who you say Jesus is, using the names
-  in this study, and pray them to Him.
+- **Do.** Answer His question, "But who do you say that I am?" (Matthew 16:15, ESV), in words this
+  week. Write down who you say Jesus is, using the names in this study, and pray them to Him.
 
 ### Prayer
 

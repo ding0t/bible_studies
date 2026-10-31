@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Hebrews 7:1-28"
 bible_references: ["Hebrews 1:1-3", "Hebrews 2:17-18", "Hebrews 4:14-16", "Hebrews 5:1-10", "Hebrews 6:13-20", "Hebrews 8:1-13", "Hebrews 9:6-28", "Hebrews 10:1-18", "Genesis 11:10-11", "Genesis 14:17-22", "Psalm 110:1-4", "Exodus 3:1", "Exodus 18:12", "Exodus 20:19", "Exodus 25:40", "Leviticus 8:12", "Leviticus 16:1-34", "Numbers 3:10", "Numbers 6:23-27", "Numbers 18:21", "Ezra 2:61-63", "Malachi 2:7", "2 Chronicles 26:16-21", "Zechariah 6:12-13", "Jeremiah 31:31-34", "Matthew 22:41-45", "Acts 2:34-36", "Galatians 1:12", "Galatians 3:17", "Hebrews 2:3", "Hebrews 3:7", "Psalm 2:7", "Numbers 20:25-28", "Romans 6:10", "Romans 8:34", "Colossians 2:17", "1 Peter 3:18"]
 date_created: 2026-08-02
-date_modified: 2026-10-10
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -76,8 +76,9 @@ Himself by oath to give His people this priest, and He kept His word in Jesus.
   stands on what He has done for you.
 - **Attitude.** "with confidence draw near to the throne of grace" (Hebrews 4:16, ESV). Confidence
   is the text's own word for how you come.
-- **Do.** Name one place where you are still trying to earn again what Jesus' single sacrifice
-  already secured. Bring that specific thing to God this week, through Jesus your priest.
+- **Do.** Name one place where you are still trying to earn what Jesus' sacrifice already secured.
+  Each day this week, draw near to God through Him about that one thing (Hebrews 7:25), and thank
+  Him that He offered Himself "once for all" (Hebrews 7:27, ESV).
 
 ### Prayer
 

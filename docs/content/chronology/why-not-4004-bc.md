@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Kings 15:25-28"
 bible_references: ["1 Kings 6:1", "1 Kings 14:20-21", "1 Kings 15:1-2", "1 Kings 15:9-10", "1 Kings 15:33", "1 Kings 16:8-10", "1 Kings 16:23", "1 Kings 16:29", "1 Kings 22:41-42", "1 Kings 22:51", "2 Kings 3:1", "2 Kings 1:17", "2 Kings 8:17", "2 Kings 8:25-26", "2 Kings 9:24-27", "2 Kings 15:5", "2 Kings 25:27", "Genesis 15:13-16", "Genesis 46:11", "Exodus 1:7", "Exodus 1:12", "Exodus 6:16-20", "Exodus 7:7", "Exodus 12:40-41", "Numbers 26:59", "Acts 7:6", "Galatians 3:17", "Psalm 119:160", "Galatians 4:4"]
 date_created: 2026-10-08
-date_modified: 2026-10-22
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -53,9 +53,9 @@ and Luke's Roman regnal year (see [Chronology Anchors](chronology-anchors.md)). 
   two and a half centuries because readers assumed a modern way of counting.
 - **Attitude.** Hold your own sums loosely and God's word firmly. A respected archbishop's
   arithmetic stood in Bible margins for 250 years and was still a reader's arithmetic.
-- **Do.** Next time you read a king's reign in Kings, read the synchronism beside it ("in the
-  second year of Asa") and check the two against each other. That is the whole method this study
-  uses.
+- **Do.** Next time you read a king's reign in Kings, check it against the synchronism beside it
+  ("in the second year of Asa", 1 Kings 15:25, ESV). Where the two seem not to fit, pray Psalm
+  119:160 before you decide anything: "The sum of your word is truth" (ESV).
 
 ### Prayer
 

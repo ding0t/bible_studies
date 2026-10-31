@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Kings 6:1"
 bible_references: ["Numbers 1:7", "Joshua 14:7-10", "Judges 3-16", "1 Samuel 4:18", "1 Samuel 13:1", "2 Samuel 5:4-5", "1 Kings 6:1", "1 Chronicles 6:3-15", "1 Chronicles 6:50-53", "Ezra 7:1-5", "Ruth 4:18-22", "Acts 13:19-21"]
 date_created: 2026-09-30
-date_modified: 2026-10-10
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -58,7 +58,9 @@ Jesus is the King those lawless years were waiting for.
 - **Attitude.** Trust the text's summary when the details are partial. Kings states 480 years
   plainly, and Judges never claims to be a single national timeline.
 - **Do.** Read Judges 10-16 with a map open, and mark which tribe and which region each judge
-  served.
+  served. Then thank God by name for the promise He kept through all those years: "Not one word of
+  all the good promises that the LORD had made to the house of Israel had failed" (Joshua 21:45,
+  ESV).
 
 ### Prayer
 

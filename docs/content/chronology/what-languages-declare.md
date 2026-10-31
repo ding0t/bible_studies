@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 11:1-9"
 bible_references: ["Genesis 2:19", "Genesis 5:1", "Genesis 9:1", "Genesis 10:1-32", "Genesis 10:5", "Genesis 10:10", "Genesis 10:20", "Genesis 10:22", "Genesis 10:25", "Genesis 10:31-32", "Genesis 11:1-9", "Genesis 12:2-3", "Deuteronomy 32:8", "Isaiah 19:18", "Zephaniah 3:8-10", "Acts 2:1-11", "Acts 17:26-27", "Acts 19:32", "Acts 21:27-31", "Galatians 3:8", "Galatians 3:16", "Revelation 5:9", "Revelation 7:9"]
 date_created: 2026-10-20
-date_modified: 2026-10-20
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -74,8 +74,9 @@ from headcount. This one argues from speech.
   and His mercy that sent the nations out to seek Him.
 - **Attitude.** Hold your own language loosely. The multitude before the throne speaks thousands of
   languages, and yours is one voice among them.
-- **Do.** Pray this week for one people group still without Scripture in their language. Learn its
-  name and pray for it by name.
+- **Do.** Learn the name of one people group still without Scripture in their language, and pray for
+  it by name each day this week, toward the multitude John saw "from every nation, from all tribes
+  and peoples and languages" (Revelation 7:9, ESV).
 
 ### Prayer
 

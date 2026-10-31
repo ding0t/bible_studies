@@ -1,0 +1,152 @@
+slug: be-transformed-sweep-2026-10
+title: "Bring Be Transformed Think / Attitude / Do up to be-transformed.md"
+status: do-pass-done
+started: 2026-10-31
+
+benchmark: >
+  feasts/passover.md, "### Be Transformed": each label does its own job and stands on its own
+  verse, and the Do is the text's own question (Exodus 12:26). The author's favourite Do was
+  prayer-as-communion.md's "This week, pray Ephesians 3:16-19 by name for one person, and for
+  yourself." (43dbc471; replaced 2026-10-26 by the four-step pattern in 036cfccf). Rules in
+  .claude/skills/develop-bible-study/be-transformed.md.
+
+survey: >
+  2026-10-31, published and draft pages. 133 Be Transformed sections: 115 in the three-bullet
+  shape, 18 not (below). Of the 115, 58 Do bullets cite no chapter:verse; Think 46, Attitude 36.
+  Verdicts below are from reading every bullet against be-transformed.md's per-label tests. They
+  are leads for a fix pass. Re-read the study before changing anything.
+
+pass: >
+  Touch only the Be Transformed subsection (and the Be transformed. discussion question if it
+  should follow the new Do). Find the Do in be-transformed.md's order: the passage's command,
+  its prayer, its model, the text spoken to someone. Keep a bullet that already passes. Quote ESV
+  verified with study_verse, never from memory. One commit per study.
+
+strong_do:  # scripture-shaped already; leave alone, use as specimens
+  - feasts/passover.md            # Exodus 12:26, the children's question answered
+  - feasts/weeks.md               # leave the edge of your field, Leviticus 23:22
+  - last-things/immediately-after.md   # pray Daniel 9 (add the verse ref)
+  - israel-and-church/israels-regathering-and-refining.md  # pray Zechariah 12:10 over a named friend
+  - christian-life/take-up-your-cross.md  # pray Matthew 26:42 over the costly step
+  - god/names-of-god.md           # pray the name back, Numbers 14:17-19
+  - last-things/at-home-with-the-lord.md  # 1 Thessalonians 4:18
+  - last-things/new-heaven-and-new-earth.md  # Revelation 21:1-7 read to someone grieving
+  - last-things/we-shall-all-be-changed.md   # 1 Corinthians 15:58
+  - last-things/they-were-given-white-robes.md  # Colossians 3:12
+  - last-things/the-image-and-the-kingdoms.md   # Jeremiah 29:7
+  - sin/sexual-immorality.md      # Genesis 39:12
+  - christian-life/hurt-by-the-church.md  # Matthew 18:15
+  - christian-life/how-god-answers-prayer.md  # Acts 12:13-16
+  - christian-life/true-worship.md  # Hebrews 13:15-16
+
+do_not_an_action:  # restatement or a posture in a Do's place
+  - last-things/day-is-near.md        # "Stay awake" restated
+  - last-things/rapture.md            # "Live daily with the readiness..."
+  - wisdom/index.md                   # "Ask." (James 1:5 offers the prayer; name the decision)
+  - holy-spirit/names-of-the-holy-spirit.md  # "Ask" + a promise; no when or what
+  - last-things/six-days-of-history.md  # "Let your own week preach to you"; Exodus 20:9-11 unused
+
+do_inward_no_step:  # "name one thing ... put it down / bring it" with no scripture-shaped next step
+  - israel-and-church/bride-of-christ.md
+  - jesus/as-the-snake-was-lifted.md   # John 3:14-15 / Numbers 21:8 "look and live" unused
+  - jesus/melchizedek-priesthood.md
+  - jesus/three-days-and-three-nights.md
+  - jesus/woman-with-the-issue-of-blood.md
+  - last-things/end-of-the-age.md
+  - last-things/olivet-discourse.md
+  - last-things/taken-before-judgment.md  # Genesis 19:16 / Luke 17:32 unused
+  - last-things/the-harlot-and-the-bride.md  # "come out of her" (Revelation 18:4) unused
+  - israel-and-church/wife-of-the-lamb.md
+  - spiritual-beings/those-called-gods.md
+  - scripture/cities-of-the-plain.md
+
+do_unanchored:  # concrete and good, but no verse it obeys
+  - christian-life/psalms-hymns-and-spiritual-songs.md  # Colossians 3:16 / Ephesians 5:19
+  - christian-life/run-the-race.md
+  - christian-life/salt-light-and-aroma.md  # Matthew 5:16
+  - feasts/firstfruits.md               # Proverbs 3:9 / Leviticus 23:10
+  - feasts/last-supper-four-cups.md     # 1 Corinthians 11:26
+  - feasts/unleavened-bread.md          # 1 Corinthians 5:7-8
+  - feasts/day-of-atonement.md          # 1 John 1:9
+  - jesus/you-are-gods.md               # Psalm 82:3-4
+  - jesus/jesus-and-women.md
+  - jesus/priesthood-before-sinai.md    # 1 Peter 2:9 / 1 Timothy 2:1
+  - jesus/the-heavenly-pattern/incense-altar.md  # Psalm 141:2
+  - last-things/one-taken-one-left.md
+  - last-things/two-witnesses.md
+  - last-things/the-restrainer.md
+  - sin/pride.md                        # Proverbs 12:1 / 27:6
+  - salvation/faith.md                  # Mark 9:24 quoted, not cited
+  - teaching/preparing-to-teach.md      # Ezra 7:10
+  - scripture/scribes-and-pharisees.md
+  - wisdom/reading-the-song-of-songs.md
+  - christian-life/when-love-grows-cold.md
+
+do_too_long:  # more than one action; a group will remember none
+  - last-things/olivet-discourse-parables.md
+  - christian-life/be-prepared.md
+  - last-things/day-is-a-thousand-years.md
+  - christian-life/great-commission.md  # draft
+
+do_puzzle:  # reading exercise that ends on the answer, not a response to God
+  - chronology/four-hundred-and-eighty-years.md
+  - chronology/flood-and-the-king-lists.md
+  - chronology/why-not-4004-bc.md
+  - chronology/world-population-declares-gods-creation-and-biblical-truth.md
+  - feasts/feasts.md
+  - scripture/numerology.md
+  - scripture/what-the-links-reveal.md
+  - holy-spirit/dreams-and-visions/index.md
+  - israel-and-church/hebrew-roots.md
+
+attitude_is_a_do:  # you could finish it and tick it off
+  - scripture/scribe-trained-for-the-kingdom.md  # "Read a prophet this month"
+  - last-things/a-thousand-years-in-your-sight.md  # "Pray 'How long?' out loud"
+  - scripture/cities-of-the-plain.md   # "Pray as Abraham prayed"
+  - christian-life/humility.md         # "Pray 'Give us this day...'"
+  - christian-life/teaching-the-lords-prayer-at-home.md  # "Pray before you explain"
+
+attitude_not_a_posture:  # an observation about the text, or the study's method
+  - god/behemoth-and-leviathan.md
+  - jesus/three-days-and-three-nights.md
+  - chronology/flood-and-the-king-lists.md
+  - chronology/world-population-declares-gods-creation-and-biblical-truth.md
+  - last-things/rapture.md
+  - last-things/day-is-near.md
+  - last-things/prophecy-essentials.md
+  - last-things/olivet-discourse.md
+  - feasts/last-supper-four-cups.md    # a noun phrase, no verb
+  - last-things/the-image-and-the-kingdoms.md  # a noun phrase, no verb
+
+think_is_an_instruction:
+  - christian-life/be-prepared.md      # "Say it out loud once this week"
+  - christian-life/lords-prayer.md     # "spend one sentence naming who He is"
+  - scripture/scribe-trained-for-the-kingdom.md  # "Thank Him for it by name this week"
+  - scripture/numerology.md            # a test to apply
+  - scripture/verses-often-misquoted.md
+  - scripture/verses-quoted-well.md    # "Read Genesis 1, John 3 and Hebrews 11"
+  - last-things/prophecy-essentials.md  # "check them yourself"
+  - jesus/bread-of-life-feeding-the-multitudes.md  # also lowercase after the label
+
+not_three_bullet_shape:  # the 2026-09-19 drift, still present
+  paragraph: [biblical-figures/andrew.md, biblical-figures/bartholomew.md,
+    biblical-figures/james-son-of-alphaeus.md, biblical-figures/james-son-of-zebedee.md,
+    biblical-figures/john.md, biblical-figures/judas-iscariot.md, biblical-figures/matthew.md,
+    biblical-figures/peter.md, biblical-figures/philip.md, biblical-figures/simon-the-zealot.md,
+    biblical-figures/thaddaeus.md, biblical-figures/thomas.md, sin/sorcery.md]
+  custom_labels: [biblical-figures/twelve-apostles.md]
+  colon_labels: [jesus/the-way.md, last-things/trumpet.md, salvation/assurance-of-salvation.md]
+
+do_pass: >
+  2026-10-31: every Do in the do_* lists above, plus every Do with no chapter:verse, rewritten
+  (69 studies; prayer-as-communion.md separately, as (a) Ephesians 3:16-19 and (b) the pattern).
+  Each now cites a verse from the study or its primary passage, and every ESV quotation was
+  checked with study_verse. Two were cut back to stay inside the 4,000-word budget
+  (verses-often-misquoted.md, pride.md). Uncommitted at the time of writing; the author reviews
+  the diff.
+
+todo:  # Do pass done; these remain
+  - attitude_is_a_do
+  - attitude_not_a_posture
+  - think_is_an_instruction
+  - not_three_bullet_shape

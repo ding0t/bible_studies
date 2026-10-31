@@ -9,7 +9,7 @@ bible_references: ["Mark 5:21-43", "Matthew 9:18-26", "Luke 8:40-56", "Leviticus
 zadok_year: 3990
 gregorian_year: 32
 date_created: 2026-08-23
-date_modified: 2026-10-09
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -87,8 +87,10 @@ is real; the fulfilment claim built on it is not one Scripture makes.
   first. Faith does not have to be well-formed before it is answered.
 - **Attitude.** Notice what her secrecy cost her: she nearly went home healed and unknown. The
   public naming was the better half of the gift.
-- **Do.** Name one thing you have assumed disqualifies you from asking God directly, and ask
-  directly instead.
+- **Do.** She "came in fear and trembling and fell down before him and told him the whole truth"
+  (Mark 5:33, ESV). This week, tell Jesus in prayer the whole truth about the thing you have kept
+  hidden, out loud and in plain words, and hear His word to her as His word to you: "go in peace"
+  (Mark 5:34, ESV).
 
 ### Prayer
 

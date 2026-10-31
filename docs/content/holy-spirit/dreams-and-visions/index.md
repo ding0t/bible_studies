@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 37:5-11; Genesis 40:5-41:36; Daniel 2; Deuteronomy 13:1-5; Jeremiah 23:25-32"
 bible_references: ["Genesis 20:3", "Genesis 28:12", "Genesis 31:10-11", "1 Kings 3:5-15", "Daniel 4:4-27", "Daniel 7:1", "Numbers 12:6-8", "Ecclesiastes 5:7", "Matthew 1:20-21", "Matthew 2:12-13", "Matthew 2:19-22", "Matthew 27:19", "Acts 2:17", "Acts 10:9-16", "Acts 16:9-10", "Joel 2:28-29", "Jude 1:8", "1 Thessalonians 5:19-21", "1 John 4:1"]
 date_created: 2026-08-04
-date_modified: 2026-10-22
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -49,7 +49,7 @@ The first dream recorded around Jesus's birth brings Him into Joseph's household
 
 - **Think.** A dream being vivid, emotionally overwhelming, or even coming true in some detail is not proof it came from God (Deuteronomy 13:1-2). Content and fruit are the test Scripture gives.
 - **Attitude.** Ecclesiastes 5:7 cautions, "when dreams increase and words grow many, there is vanity; but God is the one you must fear" (ESV). Hold a personal dream loosely, and keep your reverence for God Himself.
-- **Do.** Before treating any dream as a message from God, your own or someone else's, run it through the tests this study draws out below. Does it agree with what God has already said in Scripture? Does it point toward greater obedience or away from it? And does it produce humility or self-importance in the person reporting it?
+- **Do.** The next time a dream is told to you as a word from God, your own or someone else's, open Jeremiah 23:28 before you act on it: "let him who has my word speak my word faithfully. What has straw in common with wheat?" (ESV). Then ask the three questions below: does it agree with Scripture, does it lead toward obedience, and does it leave the dreamer humble?
 
 ### Prayer
 

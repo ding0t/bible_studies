@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Colossians 2:16-17"
 bible_references: ["2 Timothy 3:16-17", "2 Timothy 3:8", "Luke 24:25-27", "Luke 24:44", "Matthew 5:17-18", "Hebrews 10:1", "1 Corinthians 5:7-8", "Leviticus 23:2-4", "Genesis 2:2-3", "Psalm 119:105", "Romans 15:4", "Acts 17:11", "Galatians 5:1-4", "Acts 15:10-11", "Romans 5:14", "John 2:13", "John 7:10", "Jude 1:9", "Jude 1:14-15", "Deuteronomy 34:5-7", "Acts 24:14", "John 1:41", "John 4:22", "John 4:25", "Acts 17:2-3", "Luke 1:32-33", "Acts 1:6-11", "Acts 2:30-36", "Acts 3:18-22", "Acts 8:32-35", "Romans 9:4-5", "Romans 15:8-9", "Romans 1:3", "Galatians 3:16", "Hebrews 7:14", "Matthew 1:1", "Matthew 1:22-23", "Matthew 2:5-6", "Matthew 21:4-5", "Mark 1:2-3", "2 Corinthians 1:20", "Micah 5:2", "Isaiah 7:14", "Isaiah 53:7-8", "Zechariah 9:9", "Zechariah 14:4", "Psalm 2:2", "Psalm 16:10", "Psalm 110:1", "Daniel 9:25-26", "Leviticus 4:3", "1 Samuel 24:6"]
 date_created: 2025-05-21
-date_modified: 2026-10-10
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -88,9 +88,10 @@ fulfilled (Luke 24:27, 44).
 - **Attitude.** Read like the Bereans, who "received the word with all eagerness, examining the
   Scriptures daily to see if these things were so" (Acts 17:11). They searched the Old Testament to
   test a message about Jesus.
-- **Do.** When a New Testament writer quotes or alludes to an Old Testament text, stop and read the
-  original passage in its own setting. The point is usually sharper there than the brief citation
-  shows.
+- **Do.** This week, take one Old Testament text a New Testament writer quotes and read it in its
+  own chapter. Then pray the promise it carries over the thing you are enduring, since "whatever was
+  written in former days was written for our instruction, that through endurance and through the
+  encouragement of the Scriptures we might have hope" (Romans 15:4, ESV).
 
 ### Prayer
 

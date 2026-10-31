@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 1:1-31"
 bible_references: ["Genesis 1:1-31", "Genesis 2:1-3", "Genesis 2:7", "Genesis 2:17", "Genesis 4:26", "Genesis 5:5", "Genesis 5:23-24", "Genesis 7:11", "Genesis 7:13", "Genesis 8:2", "Genesis 12:7", "Genesis 15:5", "Genesis 22:17-18", "Exodus 12:1-28", "Exodus 14:22", "Exodus 20:11", "Leviticus 23:2-44", "Numbers 9:5", "1 Kings 6:38", "2 Chronicles 8:13", "Psalm 89:36-51", "Isaiah 46:10", "Malachi 4:2", "Matthew 4:19", "Matthew 13:47", "Acts 1:7", "Acts 6:7", "Acts 12:24", "Romans 8:29", "2 Corinthians 3:18", "Galatians 4:4", "Colossians 1:15", "Hebrews 4:9", "Revelation 13:14-18", "Revelation 17:15", "Revelation 20:4"]
 date_created: 2026-09-26
-date_modified: 2026-10-20
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -73,8 +73,9 @@ appointed time as the true image of God, and brings the week to His rest.
   (Isaiah 46:10), and the week you live in is His pattern for the whole.
 - **Attitude.** Hold the framework loosely and the Lord tightly. The shape is His gift to you; the
   date He keeps (Acts 1:7).
-- **Do.** Let your own week preach to you. Work six days as someone made in God's image, and rest
-  on the seventh looking forward to His rest.
+- **Do.** Set aside one day this week to stop your work, as God rested on the seventh day (Genesis
+  2:2-3). Spend part of it reading Genesis 1 aloud, thanking God for each day's work and for the
+  rest that remains for His people (Hebrews 4:9).
 
 ### Prayer
 

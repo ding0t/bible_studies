@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24; Mark 13; Luke 21"
 bible_references: ["Matthew 23:36-39", "Matthew 24:1-51", "Mark 13:1-37", "Mark 14:32-42", "Mark 14:50", "Luke 21:5-36", "Luke 19:41-44", "Daniel 9:24-27", "Daniel 11:31", "Daniel 12:1-11", "Zechariah 14:1-5", "Isaiah 13:9-10", "Joel 2:30-31", "Daniel 7:13-14", "Revelation 1:7", "1 Thessalonians 4:13-18", "1 Thessalonians 5:1-4", "2 Peter 3:3-13", "John 14:3", "Acts 1:9-12", "Matthew 25:19", "Exodus 22:26-27", "Matthew 10:35-36", "Micah 7:6"]
 date_created: 2026-08-29
-date_modified: 2026-10-13
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -74,9 +74,9 @@ Knows](#the-day-no-one-knows).
 - **Attitude.** Peter drew the conclusion from all of it decades later: since everything visible is
   going to burn, the question is "what sort of people ought you to be in lives of holiness and
   godliness" (2 Peter 3:11, ESV) — a settled disposition, not anxious watching for signs.
-- **Do.** Pick one of the four imperatives above and name where it currently applies to you — where
-  you are being led astray, where endurance is actually costing you something, or what you were
-  given to keep working at while you wait.
+- **Do.** Jesus' first word in the discourse is "See that no one leads you astray" (Matthew 24:4,
+  ESV). This week, before you repeat or pass on any claim about the end, a date, a sign or a
+  teacher, read Matthew 24:4-14 and test the claim against it.
 
 ### Prayer
 

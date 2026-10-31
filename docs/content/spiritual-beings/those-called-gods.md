@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 82:1-8; Deuteronomy 32:8-9"
 bible_references: ["Psalm 82:1-8", "Deuteronomy 32:8-9", "Deuteronomy 32:17", "Deuteronomy 32:43", "Deuteronomy 4:19-20", "Deuteronomy 10:17", "Exodus 4:16", "Exodus 7:1", "Exodus 12:12", "Exodus 21:6", "Exodus 22:8-9", "Exodus 22:28", "Exodus 3:15", "Genesis 1:1", "Genesis 20:13", "Genesis 35:7", "Psalm 8:5", "Hebrews 2:6-7", "Psalm 89:5-8", "Psalm 89:27", "Psalm 96:4-5", "1 Samuel 28:13", "1 Kings 22:19", "Job 1:6", "Daniel 1:7", "Daniel 10:13", "Daniel 10:20-21", "Isaiah 24:21-22", "Isaiah 42:8", "1 Corinthians 8:5-6", "1 Corinthians 10:20", "Galatians 4:8", "1 Corinthians 8:4", "Hebrews 1:4-14", "2 Corinthians 4:4", "John 12:31", "Ephesians 2:2", "Colossians 1:16", "Ephesians 1:20-22", "Ephesians 3:10", "Ephesians 6:10-13", "Colossians 2:15", "1 Peter 3:22", "1 Corinthians 15:24-25", "Romans 8:38-39", "Psalm 45:6-7", "Hebrews 1:8-9", "John 10:34-36"]
 date_created: 2026-10-11
-date_modified: 2026-10-22
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -60,8 +60,9 @@ name.
   of them holds His name.
 - **Attitude.** Fear none of them. Nothing "in all creation" can separate you from the love of God
   in Christ Jesus (Romans 8:38-39, ESV).
-- **Do.** Name one thing that has had a god's hold on you, and bring it to the Lord who disarmed the
-  powers, in prayer this week.
+- **Do.** Name one thing that has had a god's hold on you. Bring it to Jesus in prayer each day this
+  week, and pray Colossians 2:15 over it by name: He "disarmed the rulers and authorities and put
+  them to open shame, by triumphing over them in him" (ESV).
 
 ### Prayer
 

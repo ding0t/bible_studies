@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Matthew 5:13-16; 2 Corinthians 2:14-16"
 bible_references: ["Matthew 5:1-2", "Matthew 5:10-12", "Matthew 5:13-16", "Matthew 6:1", "Matthew 7:24-27", "Matthew 25:1-13", "Mark 4:21", "Mark 9:33-34", "Mark 9:49-50", "Luke 14:33-35", "Colossians 4:5-6", "Job 6:6", "Leviticus 1:9", "Leviticus 2:13", "Numbers 18:19", "2 Chronicles 13:5", "2 Kings 2:19-22", "Ezekiel 16:4", "Ezekiel 43:24", "John 1:4-5", "John 8:12", "John 9:5", "John 12:3", "Isaiah 42:6", "Isaiah 49:6", "Isaiah 60:1-3", "Acts 13:47", "2 Corinthians 4:6", "Ephesians 5:1-2", "Ephesians 5:8-9", "Philippians 2:14-16", "Philippians 4:18", "Deuteronomy 32:5", "Genesis 1:14", "1 Peter 2:9-12", "Revelation 1:12-13", "Revelation 1:20", "Revelation 2:1-5", "Revelation 2:19", "Revelation 3:1", "Revelation 3:8", "Revelation 3:15", "Revelation 4:5", "2 Corinthians 2:17", "2 Corinthians 3:5", "Colossians 2:15", "Genesis 8:21", "Ezekiel 20:41", "Romans 1:22", "1 Corinthians 1:20", "Matthew 7:28", "John 3:19-21", "Acts 13:45", "Luke 2:32", "Luke 8:16", "Luke 11:33", "Hebrews 9:2", "Revelation 11:4", "1 Corinthians 3:11-15", "Genesis 18:32", "Genesis 19:22", "2 Thessalonians 2:7-8"]
 date_created: 2026-10-22
-date_modified: 2026-10-27
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -87,7 +87,8 @@ shows the world the Father, so that people see your good works and give glory to
   taste.
 - **Do.** Choose one good work this week that someone outside your church will see: a meal, a
   repair, an hour with someone lonely. Do it in the open, and when you are thanked, name your
-  Father.
+  Father, so that they "may see your good works and give glory to your Father who is in heaven"
+  (Matthew 5:16, ESV).
 
 ### Prayer
 

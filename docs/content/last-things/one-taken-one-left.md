@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:37-41; Luke 17:26-37"
 bible_references: ["Matthew 24:3", "Matthew 24:27-28", "Matthew 24:29-31", "Matthew 24:37-42", "Luke 17:11", "Luke 17:20-37", "Genesis 7:1", "Genesis 7:23", "Genesis 19:26", "Isaiah 10:21", "Matthew 13:30", "Matthew 13:40-43", "Matthew 13:49", "Matthew 25:31-34", "Matthew 25:46", "2 Peter 2:5-9", "John 14:3", "Matthew 1:20-24", "Deuteronomy 28:26", "1 Samuel 17:44", "Psalm 79:1-2", "Ezekiel 39:17-20", "Job 39:27-30", "1 Peter 3:20", "1 Thessalonians 4:13-18", "1 Thessalonians 5:9", "2 Thessalonians 2:6-7"]
 date_created: 2026-09-26
-date_modified: 2026-10-04
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
@@ -66,8 +66,9 @@ coming of the Son of Man" (24:37, ESV). The flood took the world away; "only Noa
   Jesus framed it, with Noah.
 - **Attitude.** Rest in the Lord who "knows how to rescue the godly" (2 Peter 2:9, ESV). He does not
   confuse the two at the mill.
-- **Do.** Name one person who works beside you. Pray for them this week by name, and look for a way
-  to tell them about Jesus.
+- **Do.** Noah was "a herald of righteousness" (2 Peter 2:5, ESV) to the world that was taken away.
+  Name one person who works beside you, pray for them by name this week, and look for a way to tell
+  them about Jesus.
 
 ### Prayer
 

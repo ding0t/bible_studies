@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:45-25:46"
 bible_references: ["Matthew 24:3", "Matthew 24:45-51", "Matthew 25:1-46", "Matthew 9:15", "Matthew 10:40-42", "Matthew 12:48-50", "Matthew 13:10-17", "Matthew 13:34-35", "Matthew 15:15-16", "Matthew 18:23-35", "Matthew 20:1-16", "Psalm 78:2", "Isaiah 54:5", "Hosea 2:16", "Jeremiah 31:32", "Jeremiah 3:14", "Ezekiel 34:11-12", "Ezekiel 34:17-24", "Luke 12:35-48", "Luke 19:11-27", "John 3:29"]
 date_created: 2026-08-29
-date_modified: 2026-09-27
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -163,13 +163,10 @@ kind that happens slowly, to people who expected to pass.
   was an accurate forecast, and he treated it as permission. The delay is the test. Nothing about
   these parables asks you to predict the date, and all four ask what you are doing while it runs.
   Take the waiting itself as the assignment He left you.
-- **Do.** Two things this week, one from each of the remaining parables. First, tend what cannot be
-  lent. The wise virgins carried their own oil, and at the door the answer was "since there will not
-  be enough for us and for you" (25:9, ESV) — your own standing with Christ is not something a
-  friend, a spouse or a church can hand over at the last minute, so go and see to it now. Second,
-  feed someone. Both readings of "the least of these" agree on what the King calls evidence: real
-  action toward people in real need, done or withheld (25:44-45). Pick one name off His own list —
-  hungry, thirsty, stranger, naked, sick, in prison (25:35-36) — and do the thing before Sunday.
+- **Do.** Feed someone. Both readings of "the least of these" agree on what the King calls evidence:
+  real action toward people in real need, done or withheld (25:44-45). Pick one need off His own
+  list, hungry, thirsty, a stranger, naked, sick or in prison (25:35-36), meet it for one person
+  before Sunday, and do it for Him (25:40).
 
 ### Prayer
 

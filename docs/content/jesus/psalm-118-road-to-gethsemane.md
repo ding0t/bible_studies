@@ -7,7 +7,7 @@ draft: true
 primary_passage: "Psalm 118:17-29; Matthew 26:30"
 bible_references: ["Psalm 118:1", "Psalm 118:17", "Psalm 118:22-27", "Psalm 118:29", "Psalm 113:1", "Psalm 114:8", "Psalm 136:1", "Matthew 26:30", "Mark 14:26", "Acts 16:25", "Hebrews 2:12", "Psalm 22:22", "Matthew 21:9", "Matthew 21:42", "Matthew 23:39", "Acts 4:11", "John 18:12", "Matthew 26:29"]
 date_created: 2026-10-02
-date_modified: 2026-10-02
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -54,7 +54,8 @@ whose steadfast love endures forever kept every word of it for Him and keeps it 
   sing them when you need them.
 - **Attitude.** Thankfulness in the dark. The psalm He sang begins and ends with "Oh give thanks to
   the LORD, for he is good" (Psalm 118:1, 29, ESV).
-- **Do.** Read Psalm 118 aloud this week, slowly, as words Jesus sang that night.
+- **Do.** Read Psalm 118 aloud this week, slowly, as words Jesus sang that night (Matthew 26:30),
+  and take one line of it into the hardest day of your week.
 
 ### Prayer
 

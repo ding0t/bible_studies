@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 5:21-33"
 bible_references: ["Genesis 1:27-28", "Genesis 3:16", "Genesis 4:7", "Psalm 11:5", "Proverbs 3:25-26", "Malachi 2:16", "Matthew 18:15-17", "Matthew 19:8-9", "Mark 10:42-45", "Luke 22:25-27", "Acts 5:29", "Acts 18:26", "Romans 13:3-4", "1 Corinthians 5:11", "1 Corinthians 6:12", "1 Corinthians 7:3-5", "1 Corinthians 7:10-11", "1 Corinthians 7:15", "1 Corinthians 11:3-12", "1 Corinthians 14:29-35", "2 Corinthians 5:17", "Ephesians 5:2", "Ephesians 5:11", "Ephesians 5:18-21", "Ephesians 6:4", "Colossians 3:18-19", "1 Thessalonians 2:7", "1 Timothy 2:11-15", "1 Timothy 3:2", "1 Timothy 5:13-15", "2 Timothy 3:6-7", "Titus 2:3-5", "1 Peter 2:21-23", "1 Peter 3:1-7", "1 John 1:9", "Genesis 2:24", "Deuteronomy 19:15-18", "1 Samuel 19:11-12", "Psalm 10:17-18", "Psalm 82:3-4", "Proverbs 18:17", "Proverbs 22:3", "Proverbs 31:8-9", "Matthew 26:41", "Luke 3:8", "Luke 4:29-30", "Acts 9:23-25", "Acts 22:2", "1 Corinthians 1:27", "1 Corinthians 12:22-23", "1 Corinthians 14:40", "2 Corinthians 4:7", "Ephesians 4:2", "Ephesians 4:25", "Ephesians 4:32", "Ephesians 5:31-33", "Ephesians 6:1-9", "2 Thessalonians 3:12", "1 Timothy 1:3-7", "1 Timothy 2:2", "1 Timothy 3:4-5", "1 Timothy 4:3"]
 date_created: 2026-10-17
-date_modified: 2026-10-17
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -57,8 +57,9 @@ contested the church should say so and hold it with humility.
 - **Attitude.** Husbands, hold your authority the way Christ holds His: spent for your wife's good.
   Wives, hold your submission as service to Christ, offered freely and never extracted by fear.
 - **Do.** If anyone is being hurt in a marriage, act: make them safe, call the authorities when a
-  crime is committed, and bring the church's care and discipline to bear. Silence protects the one
-  doing harm.
+  crime is committed, and bring the church's care and discipline to bear. "Take no part in the
+  unfruitful works of darkness, but instead expose them" (Ephesians 5:11, ESV). Silence protects the
+  one doing harm.
 
 ### Prayer
 

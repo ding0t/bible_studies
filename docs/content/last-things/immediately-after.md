@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:29-31; Daniel 9:24-27"
 bible_references: ["Matthew 24:1-31", "Daniel 9:1", "Matthew 4:20", "Matthew 26:74", "Mark 13:24", "Daniel 9:2", "Daniel 9:19", "Daniel 9:24-27", "Daniel 2:44", "Luke 21:20-24", "Luke 4:16-21", "Isaiah 61:1-2", "2 Thessalonians 2:3-4", "1 Thessalonians 4:16-17", "2 Thessalonians 2:1", "1 Corinthians 15:51", "Romans 11:25-26", "Hebrews 10:1-9", "Daniel 7:13-14", "Daniel 12:1", "Revelation 7:14", "Revelation 19:11-16", "Revelation 21:1-4", "Revelation 20:1-15", "2 Peter 3:7-13", "Zechariah 14:4", "Revelation 4:1", "Revelation 6:1-12", "1 Corinthians 15:3", "Zechariah 14:1-2", "Daniel 9:25"]
 date_created: 2026-09-26
-date_modified: 2026-10-19
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -75,8 +75,8 @@ describes it from its first birth pains (Matthew 24:4-8) through the abomination
   seventieth will too, and the wait you live in has an end God has already fixed.
 - **Attitude.** Wait for Jesus with settled hope. The church age sits inside God's plan: Israel's
   hardening lasts "until the fullness of the Gentiles has come in" (Romans 11:25, ESV).
-- **Do.** Read Daniel 9 alongside Matthew 24 this week, and pray Daniel's prayer for Jerusalem and
-  for the people God has not forgotten.
+- **Do.** Read Daniel 9 alongside Matthew 24 this week, and pray Daniel's prayer (Daniel 9:4-19) for
+  Jerusalem and for the people God has not forgotten.
 
 ### Prayer
 

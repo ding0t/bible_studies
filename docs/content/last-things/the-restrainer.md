@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Thessalonians 2:1-12"
 bible_references: ["2 Thessalonians 2:1-9", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Philippians 2:15", "2 Corinthians 6:17", "1 Corinthians 5:2", "Colossians 2:14", "1 Corinthians 3:16", "Ephesians 2:21-22", "John 14:16-17", "John 14:26", "John 16:7-8", "John 16:13", "1 John 4:4", "Genesis 6:3", "Matthew 5:13-14", "Revelation 7:9", "Revelation 7:14", "Revelation 13:7", "Revelation 14:6", "Daniel 9:27", "Matthew 24:15", "Matthew 24:21", "Daniel 10:13", "Daniel 12:1", "Jude 9", "Revelation 12:7-8", "Romans 13:4", "Psalm 139:7", "Isaiah 52:11", "Genesis 29:35", "Genesis 18:32", "Genesis 19:22", "Genesis 19:29", "Numbers 16:21", "Jeremiah 51:6"]
 date_created: 2026-09-26
-date_modified: 2026-10-27
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -64,8 +64,10 @@ within Daniel's seventieth week, the seven years of the tribulation (Daniel 9:27
 - **Attitude.** Live as salt and light "in the midst of a crooked and twisted generation"
   (Philippians 2:15, ESV), unafraid of the day of wrath: "God has not destined us for wrath" (1
   Thessalonians 5:9, ESV).
-- **Do.** Name one place this week where your presence can hold back wrong — at work, online, in
-  your family — and be there as someone the Spirit lives in.
+- **Do.** Paul's own command after this passage is "stand firm and hold to the traditions that you
+  were taught by us" (2 Thessalonians 2:15, ESV). Name one place this week, at work, online or in
+  your family, where wrong is being called right, and stand there with what Scripture says, as
+  someone the Spirit lives in.
 
 ### Prayer
 

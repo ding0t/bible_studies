@@ -8,7 +8,7 @@ draft: false
 primary_passage: "1 Corinthians 3:10-15; Jude 1:22-23"
 bible_references: ["1 Corinthians 1:10-12", "1 Corinthians 1:20", "1 Corinthians 2:14-16", "1 Corinthians 3:1-4", "1 Corinthians 3:5-9", "1 Corinthians 3:16-23", "1 Corinthians 4:5", "1 Corinthians 5:5", "1 Corinthians 5:11", "1 Corinthians 6:9-11", "2 Corinthians 5:10", "Jude 1:3-4", "Jude 1:7", "Jude 1:9", "Jude 1:19-21", "Jude 1:24-25", "Zechariah 3:1-9", "Amos 4:11", "Galatians 6:1", "James 5:19-20", "John 10:28-29"]
 date_created: 2026-10-14
-date_modified: 2026-10-22
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -70,7 +70,7 @@ clothed him clean, sends you to pull drifting brothers and sisters back in mercy
   clothes for the accused, and a hatred of the stain that does not reach the person wearing it.
 - **Do.** Name one brother or sister whose beliefs have been shaped more by the world than by
   Scripture. This week, ask them one honest question about what they believe and why, and open the
-  Bible with them on that one point.
+  Bible with them on that one point, with the mercy Jude asks for (Jude 22-23).
 
 ### Prayer
 

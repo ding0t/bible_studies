@@ -8,7 +8,7 @@ draft: false
 primary_passage: "1 Corinthians 11:17-34"
 bible_references: ["1 Corinthians 11:17-34", "1 Corinthians 10:1-4", "1 Corinthians 10:14-22", "1 Corinthians 5:7-8", "1 Corinthians 12:27", "Luke 22:14-20", "Luke 22:28-30", "Matthew 26:26-29", "Luke 24:30-35", "Acts 2:42-46", "Acts 20:7", "Exodus 12:11", "Exodus 12:14", "Exodus 12:26-27", "Exodus 13:8-9", "Deuteronomy 8:11", "Deuteronomy 16:3", "Joshua 4:6-7", "Hebrews 10:3", "Hebrews 12:2", "Colossians 3:1-2", "2 Peter 1:12-13", "John 10:9", "Isaiah 25:6-8", "Revelation 19:7-9", "Revelation 1:10", "John 14:26", "Deuteronomy 32:17", "Deuteronomy 32:21", "1 Corinthians 10:20", "1 Corinthians 10:22", "Isaiah 65:11", "Malachi 1:7", "Malachi 1:12"]
 date_created: 2026-10-02
-date_modified: 2026-10-23
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -84,8 +84,9 @@ Paul's four verses on the night itself hold the remembrance, the new covenant an
   not on things that are on earth" (Colossians 3:2, ESV).
 - **Attitude.** Come examined and reconciled. "Let a person examine himself, then, and so eat"
   (1 Corinthians 11:28, ESV), and "wait for one another" (1 Corinthians 11:33, ESV).
-- **Do.** Answer the children's question. At the next Lord's Supper, tell someone, a child if you can,
-  what the bread and the cup mean and whom you are waiting for.
+- **Do.** Answer the children's question, "What do you mean by this service?" (Exodus 12:26, ESV).
+  At the next Lord's Supper, tell someone, a child if you can, what the bread and the cup mean, and
+  that each time you "proclaim the Lord's death until he comes" (1 Corinthians 11:26, ESV).
 
 ### Prayer
 

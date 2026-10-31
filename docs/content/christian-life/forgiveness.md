@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Matthew 6:14-15"
 bible_references: ["Matthew 6:12", "Mark 11:25", "Luke 17:3-4", "Matthew 18:15-17", "Matthew 18:21-35", "Matthew 5:23-24", "Matthew 5:44-45", "Matthew 4:20", "Luke 7:41-47", "Luke 23:34", "Luke 24:47", "Luke 13:3", "Acts 2:36-38", "Acts 3:17-19", "Acts 7:60", "Acts 16:37", "Ephesians 4:26", "Ephesians 4:31-32", "Colossians 2:13-14", "Colossians 3:13", "Romans 5:8-10", "Romans 12:17-21", "Romans 13:4", "2 Corinthians 2:6-11", "2 Corinthians 5:18-21", "1 John 1:8-10", "1 Peter 2:23", "1 Peter 4:3-5", "2 Timothy 4:14-16", "Exodus 34:6-7", "Deuteronomy 29:19-20", "Deuteronomy 15:1-2", "Psalm 130:3-4", "Jeremiah 31:34", "Genesis 42:21", "Genesis 50:17-21", "Matthew 10:16"]
 date_created: 2026-10-04
-date_modified: 2026-10-21
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -67,9 +67,10 @@ revenge, without bitterness, and without being made to trust again.
   anyone owes you is smaller than that (Matthew 18:24, 28).
 - **Attitude.** Hold every debt open-handed before God. You no longer keep the account; He does,
   and He judges justly (1 Peter 2:23; 4:5).
-- **Do.** Name one person who has wronged you. Today, tell God you release the debt to Him and you
-  will not repay it. If they have repented, tell them they are forgiven. If they have not, pray for
-  them, and decide what wise distance looks like.
+- **Do.** Name one person who has wronged you. Today, pray "forgive us our debts, as we also have
+  forgiven our debtors" (Matthew 6:12, ESV) with their name in it, and tell God you release the debt
+  to Him and will not repay it. If they have repented, tell them they are forgiven. If they have
+  not, pray for them, and decide what wise distance looks like.
 
 ### Prayer
 

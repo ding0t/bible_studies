@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 24:27"
 bible_references: ["Luke 24:27", "Hebrews 1:1", "Leviticus 19:18", "Psalm 110:1", "Psalm 118:22", "Psalm 118:26", "Genesis 2:24", "Jeremiah 31:31-34", "Hebrews 8:8-12", "Mark 12:30", "Deuteronomy 6:5", "Psalm 14:3", "Romans 3:10-18", "Exodus 25-31", "Exodus 35-40", "2 Kings 23:28", "2 Chronicles 36:22-23", "Ezra 1:1-3", "Micah 5:2", "Matthew 2:6", "John 10:34", "Psalm 82:6", "Mark 14:62", "Daniel 7:13", "Philippians 1:19", "Job 13:16", "1 Corinthians 15:54", "Isaiah 25:8", "Matthew 26:31", "Zechariah 13:7", "Matthew 27:46", "Psalm 22:1", "Jude 14-15", "1 Chronicles 16:8", "Psalm 105:1", "Revelation 21:19-20", "Matthew 24:15"]
 date_created: 2026-10-19
-date_modified: 2026-10-20
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -58,7 +58,9 @@ each part is for.)*
 - **Attitude.** Hold a translation with gratitude. The apostles quoted the Greek Old Testament their
   hearers read, and God used it.
 - **Do.** Pick one verse from the most-quoted list below this week, read every place that quotes it,
-  and write down what each writer used it to say about Jesus.
+  and write down what each writer used it to say about Jesus. Then pray what you wrote back to Him,
+  as the One who "interpreted to them in all the Scriptures the things concerning himself" (Luke
+  24:27, ESV).
 
 ### Prayer
 

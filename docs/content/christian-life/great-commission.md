@@ -7,7 +7,7 @@ draft: true
 primary_passage: "Matthew 28:16-20; Matthew 24:14"
 bible_references: ["Matthew 24:9-15", "Matthew 24:36", "Mark 13:10", "Revelation 14:6-7", "Colossians 1:6", "Colossians 1:23", "Acts 1:6-8", "Acts 17:31", "2 Peter 3:8-13", "Ezekiel 3:17-19", "Ezekiel 33:7-9", "Acts 20:26-27", "Matthew 16:18", "Acts 2:47", "1 Corinthians 3:5-9", "John 6:44", "Revelation 5:9", "Revelation 7:9", "Romans 10:14-15", "1 Corinthians 9:16", "3 John 5-8", "Philippians 1:3-5", "1 Thessalonians 4:11-12", "Colossians 4:5-6", "1 Peter 3:15", "Ephesians 4:11-12", "Acts 8:4", "Romans 8:1", "Matthew 11:28-30", "Matthew 13:52", "Matthew 27:57", "Acts 14:21", "1 Thessalonians 1:8-10", "Acts 9:15", "Hebrews 12:24", "Matthew 24:29", "Matthew 24:8"]
 date_created: 2026-10-02
-date_modified: 2026-10-02
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -71,9 +71,9 @@ His church; so you share the gospel gladly, as a forgiven child, with no debt of
   timetable God already holds.
 - **Attitude.** Share the gospel as someone with good news and nothing to prove. "There is therefore
   now no condemnation for those who are in Christ Jesus" (Romans 8:1, ESV).
-- **Do.** Name one person you will pray for by name this week, one missionary you will support, and
-  one conversation where you will be ready to give "a reason for the hope that is in you" (1 Peter
-  3:15, ESV).
+- **Do.** Name one person you see each week who does not know Jesus. Pray for them by name each day
+  this week, and be ready to give "a reason for the hope that is in you" (1 Peter 3:15, ESV) when
+  they ask.
 
 ### Prayer
 

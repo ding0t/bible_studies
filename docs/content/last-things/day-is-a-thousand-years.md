@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
 bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hebrews 1:2", "Hebrews 4:1-13", "Revelation 20:1-7", "Genesis 49:1", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:46", "2 Timothy 3:16", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
 date_created: 2026-08-12
-date_modified: 2026-10-08
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -98,11 +98,9 @@ Three verses in the order the argument runs — the week, the ratio, the rest.
   every vision" (12:23). Jesus put the same sentence in a servant's mouth, "My master is delayed"
   (Matthew 24:48), and Peter's scoffers say it outright (3:4). Six thousand years is long enough
   to make that thought feel reasonable. Watch for it in yourself.
-- **Do.** Readiness in Scripture means being found at your post. "Blessed is that servant whom his
-  master will find so doing when he comes" (Matthew 24:46), and Peter's own instruction is the
-  same — "be diligent to be found by him without spot or blemish" (2 Peter 3:14). And keep a
-  Sabbath: one day a week of stopping, the seventh day practised in miniature, so the rest you are
-  waiting for is not unfamiliar when it arrives.
+- **Do.** Keep a Sabbath this week: one day of stopping, as God rested on the seventh day (Genesis
+  2:2-3), so the rest you are waiting for is not unfamiliar when it arrives. Spend part of it
+  reading 2 Peter 3:8-14 aloud and asking God where He would find you at your post (2 Peter 3:14).
 
 ### Prayer
 

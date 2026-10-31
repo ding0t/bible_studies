@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 10:22-39; Psalm 82:1-8"
 bible_references: ["Psalm 82:1-8", "John 10:22-39", "John 9:22", "John 9:34-41", "John 10:32", "John 10:1", "John 8:39-41", "John 7:24", "John 5:22-23", "John 5:36", "John 9:4", "John 14:10-11", "John 15:22-24", "John 3:19-21", "Matthew 23:2-3", "Ezekiel 34:2-4", "Exodus 21:6", "Exodus 22:8-9", "Exodus 22:28", "Exodus 4:16", "Exodus 7:1", "Deuteronomy 32:8-9", "Psalm 89:5-8", "John 2:21", "1 Kings 22:19", "Job 1:6", "Isaiah 24:21-22", "Isaiah 42:8", "1 Corinthians 8:5-6"]
 date_created: 2026-10-11
-date_modified: 2026-10-12
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -63,7 +63,9 @@ not do the work it was given for.
 - **Think.** Every authority you hold, at home, at work or in a church, is given by God, and He will
   ask what you did with it for the weak (Psalm 82:3-4).
 - **Attitude.** Honour Jesus as you honour the Father (John 5:23). His works settle who He is.
-- **Do.** Name one person under your care who is weak or overlooked, and act for them this week.
+- **Do.** Name one person under your care who is weak or overlooked, and do one thing for them this
+  week that Psalm 82 asks of everyone God sets over others: "Give justice to the weak and the
+  fatherless" (Psalm 82:3, ESV).
 
 ### Prayer
 

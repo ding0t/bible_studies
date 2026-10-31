@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:9-14"
 bible_references: ["Leviticus 23:9-14", "Leviticus 23:15-16", "Leviticus 23:5-8", "Leviticus 23:43", "Leviticus 7:30", "Joshua 5:10-12", "Numbers 33:3", "Leviticus 23:14", "Exodus 12:14", "1 Corinthians 15:20-23", "Romans 8:23", "Romans 11:16", "James 1:1", "James 1:18", "Revelation 14:4", "Colossians 1:18", "Revelation 1:5", "John 12:24", "John 19:31", "Matthew 28:1", "Ruth 1:22", "Ruth 2:23", "Numbers 28:26", "Exodus 34:22", "Numbers 15:20-21"]
 date_created: 2026-09-07
-date_modified: 2026-10-08
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -78,8 +78,9 @@ each part is for.)*
 - **Attitude.** Leviticus 23:14 kept the whole harvest unopened until the first of it was given.
   Consider what you treat as yours to spend before God has had any of it: time and attention as
   readily as money.
-- **Do.** Name one thing you now give God out of what is left over, and move it to the front of your
-  week.
+- **Do.** Name one thing you now give God out of what is left over, your time, your attention or
+  your money, and move it to the front of your week, as Israel brought the first sheaf before eating
+  any of the harvest (Leviticus 23:10, 14).
 
 ### Prayer
 

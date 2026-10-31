@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ezra 7:10"
 bible_references: ["Ezra 7:6", "Ezra 7:10", "Nehemiah 8:8", "Matthew 13:52", "Matthew 23:8", "Matthew 28:19-20", "Luke 24:27", "Acts 6:4", "1 Timothy 4:16", "Acts 17:11", "Acts 18:3", "Acts 18:24-27", "Acts 20:27", "Romans 12:6-7", "1 Corinthians 2:2", "1 Corinthians 14:9", "Colossians 1:28", "Colossians 3:16", "Colossians 4:3-4", "2 Timothy 2:2", "2 Timothy 2:15", "2 Timothy 2:24-25", "2 Timothy 3:16-17", "2 Timothy 4:2-4", "Titus 1:9", "Hebrews 5:12", "James 3:1", "1 Peter 4:11", "Proverbs 3:6", "Proverbs 11:5"]
 date_created: 2026-10-19
-date_modified: 2026-10-19
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -60,8 +60,9 @@ what you said.
 - **Think.** Teaching is a weight before it is a gift. God will judge what you taught (James 3:1).
 - **Attitude.** Teach as one who has obeyed the text first. Ezra set his heart to do the Law before
   he taught it.
-- **Do.** Before your next lesson, write the passage's point in one sentence, list the verses that
-  carry it, and say where it shows you Jesus.
+- **Do.** Before your next lesson, do Ezra's three things in his order (Ezra 7:10): study the
+  passage until you can write its point in one sentence and say where it shows you Jesus, obey it
+  yourself that week, and then teach it.
 
 ### Prayer
 
