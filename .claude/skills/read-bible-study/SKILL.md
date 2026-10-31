@@ -107,8 +107,9 @@ Apply [structural-readability.md](structural-readability.md). In short:
    not a repeat of the generated TOC. Descriptive annotations only; an evaluative one is the
    author's to write, so leave the bullet plain and say so in the report.
 10. Move apparatus — source-weighting, correctives, a source serving several sections — into a
-   single `## Annex:` after the last teaching section, keeping Discussion Questions with the
-   teaching they examine.
+   single `## Annex:` placed after Discussion questions and before References, keeping the
+   questions with the teaching they examine. Placement and contents: structural-readability.md
+   rule 11, "Handling an annex".
 
 **The safe operations, exhaustively:** add a heading; split at a natural break; regroup related
 sections under a parent; move a table's surrounding context; move apparatus to an annex; add the

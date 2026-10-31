@@ -143,14 +143,36 @@ through. Left in sequence they sit between the teaching and the reader: `bride-o
 1,364 words of it between its spine and its body, and the reader crossed 48% of the page before
 reaching what the study was for.
 
-Move it to a single `## Annex:` section after the last teaching section and before Discussion
-Questions, which belong with the teaching they examine — every other study in this corpus puts its
-questions directly after its final teaching section. Three tests for whether something is apparatus:
+Three tests for whether something is apparatus:
 
 - Would a reader who trusts the study skip it and lose nothing? (Song-of-Songs source-weighting.)
 - Does it serve several sections at once, so filing it under one would strip the others?
   (Tobit witnesses to components 2, 7 and 8.)
 - Is it about what the study does *not* rest on? (The popular-teaching corrective.)
+
+**Handling an annex.** Decided 2026-10-30, when this rule and the corpus were found to disagree:
+the rule said "before Discussion Questions" while six of the nine studies with an annex put it
+after them.
+
+- **Where it goes: after Discussion questions, immediately before References & Recommended
+  Reading.** The page runs last teaching section → Discussion questions → `## Annex:` →
+  References. The questions examine the teaching and follow it directly; a group that reaches the
+  questions has finished reading. The annex is consulted, like the References beside it. The three
+  studies that still put it first (`christian-life/lords-prayer.md`,
+  `christian-life/those-who-sigh-and-groan.md`, `chronology/what-languages-declare.md`) move it when
+  next touched.
+- **One annex, named for what it holds:** `## Annex: how the two drinks became one`. Several items
+  take `###` sub-headings inside that one section.
+- **Nothing the argument rests on.** If the thesis needs it, it is teaching and stays in the body.
+  A corrective the reader arrives holding keeps a short answer in the body where the question
+  arises; only its history or full evidence moves to the annex. `jesus/the-cups-jesus-drank.md`
+  answers the two-sponges claim in the Golgotha section and keeps the patristic history of the
+  merged drinks in its annex.
+- **No discussion question is about the annex**, since the questions examine the teaching.
+- **The Study outline lists it last**, with a descriptive line.
+- **It counts toward the word budget.** Validator Check 23 excludes only References and the Study
+  outline. An annex past about 400 words, or one that has become an argument of its own, is a fork
+  candidate for the simplify-bible-study skill.
 
 **Load-bearing framing moves with its material; it is not deleted.** Dissolving a section orphans
 the paragraph that introduced it. Move it to wherever its content went, and write at most one brief
