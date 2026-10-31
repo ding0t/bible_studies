@@ -336,8 +336,9 @@ Audit the file against
 drafts to, applied backwards. Work through its three parts:
 
 - **Placement.** Is the file in the section its subject actually belongs to, or parked where a
-  *related* study lives? If it genuinely belongs in `salvation/` or `biblical-figures/` — defined but
-  not yet created — raise that as a finding rather than leaving it misfiled.
+  *related* study lives? `salvation/` and `biblical-figures/` were created late, so older studies
+  that belong there may still sit elsewhere — raise that as a finding rather than leaving it
+  misfiled.
 - **Tags**, against [docs/content/tags.md](../../../docs/content/tags.md), the live vocabulary. The
   hits to look for: tags restating the section, facets written flat (`word-study` for
   `method/word-study`), colons, uppercase/spaces, near-synonyms, and a person carrying the bare name

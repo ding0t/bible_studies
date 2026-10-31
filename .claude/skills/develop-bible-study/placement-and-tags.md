@@ -19,24 +19,30 @@ Named from the systematic-theology loci in plain English:
 | `god/` | Theology Proper (nav: *God the Father*) | Trinity, the Father, God's names and nature, creation, general revelation |
 | `jesus/` | Christology (nav: *Jesus*) | God the Son: who Christ is and what He did; OT prophecy fulfilled in Him |
 | `holy-spirit/` | Pneumatology (nav: *The Holy Spirit*) | God the Holy Spirit: His person, names and work, incl. dreams and visions |
+| `biblical-figures/` | Biography | Studies of particular people in Scripture |
 | `sin/` | Hamartiology | The nature of sin and its particular forms |
+| `salvation/` | Soteriology | Grace, redemption, assurance, death |
 | `spiritual-beings/` | Angelology & Demonology | Angels, demons, Satan, Nephilim, deliverance, discernment of spirits |
 | `israel-and-church/` | Ecclesiology + the dispensational distinction | Covenants, Israel/Church, Hebrew roots |
 | `last-things/` | Eschatology | Rapture, tribulation, millennium, judgment, ordering of events |
 | `chronology/` | *Biblical chronology* | Dating biblical history: anchors, reigns, the Exodus, the Genesis 5 and 11 numbers, the combined timeline. A study that only *uses* a date goes with its subject |
 | `feasts/` | *Appointed times* | The feasts and calendars |
 | `christian-life/` | Practical theology | Prayer, fasting, the disciplines |
+| `wisdom/` | *Wisdom literature* | The fear of the LORD, and reflections from reading the wisdom books |
 | `commentaries/<nn>-<book>/` | — | Book studies and chapter notes, filed by book |
 | `teaching/` | Homiletics | Teaching the Bible to others: preparing to teach, teaching material, sermon notes |
 | `blog/` | — | The author's personal notes and testimony (dream accounts); not studies |
 | `resources/` | — | Guides to external material |
 
-**Two sections are defined but not created**: `salvation/` (Soteriology — grace, redemption,
-assurance, death) and `biblical-figures/` (biography). A section exists when it has content. **If a
-study genuinely belongs to one of these, say so and create it** — that is the trigger the taxonomy is
-waiting for, not a reason to file the study somewhere it doesn't fit. Creating one means adding the
-directory, a line in `SUBJECT_DIRS` in `references/build/commentary_index.py`, a blurb in
-`SECTION_BLURBS` in `section_index.py`, and an entry in `docs/content/.pages`.
+Four more top-level directories are not subjects, and a study is never filed in them:
+`series/` (a page with a `series:` block pointing at studies elsewhere — `hooks/series.py`),
+`youth/` (the youth-bible-study skill's pages), and `hebrew/` and `greek/` (language courses and
+word cards).
+
+**A new section is created when a study genuinely belongs to a locus none of the above covers** —
+say so to the author rather than filing the study somewhere it doesn't fit. Creating one means
+adding the directory, a line in `SUBJECT_DIRS` in `references/build/commentary_index.py`, a blurb
+in `SECTION_BLURBS` in `section_index.py`, and an entry in `docs/content/.pages`.
 
 **When a study could sit in two sections**, file it by what it is *most about* and tag the other
 axis. Dewey's 200s are the tiebreaker — it has already adjudicated most of these (angels and demons

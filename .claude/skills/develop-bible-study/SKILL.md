@@ -256,9 +256,8 @@ drafting; changing them costs a minute at this point and a rewrite later.
       mkdocs build --strict --site-dir /tmp/mkcheck
   ```
 
-  Two things `--strict` cannot see, so check them by eye: links to `/timeline/` or `/genealogy/`
-  (they point outside `docs_dir` to the Astro-served tools, so a wrong `../` depth fails silently),
-  and image paths, which move with the file the same way links do.
+  Check image paths by eye: they move with the file the same way links do. Link the family tree
+  as the timeline's `#view=family`; `/genealogy/` is only a redirect.
 - Re-run the index generators, from `references/build/`:
   `uv run python commentary_index.py` (picks up the new `primary_passage`/`bible_references`) and
   `uv run python section_index.py` (adds the study's card to its section landing page). Both skip

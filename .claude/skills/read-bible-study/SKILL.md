@@ -71,8 +71,8 @@ Use the **`read_structure`** MCP tool with the study's path. It returns every he
 prose word count and a verdict — `ok`, `long` (over the 400-word target), `wall` (over 600, where
 validator Check 21 fires) — plus median and longest.
 
-Prefer it over `npm run validate`, which runs all 21 checks across 86 files to measure one, and
-reports only the >600 tail. **600 words is the far tail, not the target** — p96 of a corpus audit
+Prefer it over `npm run validate`, which runs every check across the whole corpus to measure one
+file, and reports only the >600 tail. **600 words is the far tail, not the target** — p96 of a corpus audit
 of 984 sections. The aspiration is 250–400 words between headings, p75–p88 of what this corpus
 already does well, and only `read_structure` reports against that.
 
@@ -103,10 +103,12 @@ Apply [structural-readability.md](structural-readability.md). In short:
 6. Never end a section on a table. Lead in with the claim, follow with what it establishes.
 7. Open a section with its topic sentence, not a citation.
 8. Serve the thirty-second reader and the word-study reader at once.
-9. At 2,500+ words and 6+ `##` sections, add a **Study outline** after Key Takeaways — a briefing,
+9. An opening spends its words on the subject, never on the study's method. (This pass can only
+   report a method-first opening; fixing it means rewriting prose.)
+10. At 2,500+ words and 6+ `##` sections, add a **Study outline** after Key Takeaways — a briefing,
    not a repeat of the generated TOC. Descriptive annotations only; an evaluative one is the
    author's to write, so leave the bullet plain and say so in the report.
-10. Move apparatus — source-weighting, correctives, a source serving several sections — into a
+11. Move apparatus — source-weighting, correctives, a source serving several sections — into a
    single `## Annex:` placed after Discussion questions and before References, keeping the
    questions with the teaching they examine. Placement and contents: structural-readability.md
    rule 11, "Handling an annex".
