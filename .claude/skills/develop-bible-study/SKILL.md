@@ -125,23 +125,11 @@ Only now, cross to application:
 
 ### Check the study against its siblings, not only against sources
 
-Everything above compares a claim to a **source**. Nothing compares it to *the other studies on this
-site*, and that is where this corpus has actually contradicted itself. `rapture.md` had Noah removed
-before the flood in one section and preserved through it in four others, while `olivet-discourse.md`
-— which it links to — had settled the question the other way with lexical evidence. `day-is-near.md`
-prayed a reading of Mark 13:32 that a sibling study exists to refute. Every one of those files passed
-review on its own.
-
-```bash
-cd references/build
-uv run python cross_study_claims.py --min-studies 4   # the shared surface, busiest first
-uv run python cross_study_claims.py "Matthew 24"      # what each study says about one chapter
-```
-
-Run it for each chapter in `sibling_studies` from Phase 1, and for any chapter the research has added
-since. The tool cannot judge —
-it lays the sentences out side by side. Where two studies disagree, the fix is usually *one* of them,
-and which one is a question for the user, not a silent edit to whichever file is open.
+Run `cross_study_claims.py "<chapter>"` for each chapter in `sibling_studies`, and for any chapter
+the research has added since. The method, the three questions to ask of each sibling and the
+corpus failures behind them are in
+[review-bible-study Phase 6](../review-bible-study/SKILL.md#check-the-study-against-its-siblings-not-only-against-sources).
+Where two studies disagree, which one to fix is the author's call.
 
 ## Phase 7 — Draft
 
@@ -297,21 +285,10 @@ Update the relevant `stages.*` block and bump `last_updated` as each phase above
 
 Source catalog and licence tiers: [references/README.md](../../../references/README.md), as AGENTS.md directs.
 
-**Before concluding a text is unavailable, check the disk, not just the catalog.** The catalog can
-lag what is actually checked out, and when it does, "not in this repo" is a confident wrong answer:
-a study went to press asserting Tobit was unavailable while Tobit sat in
-`references/open-data/scrollmapper-bible-databases-deuterocanonical/sources/en/book-of-tobit/`. Two
-habits prevent it. Run `python3 references/check_sources.py` (from the repo root) — its **raw-only**
-list is exactly the set of sources present on disk that `query.py` and the MCP tools *cannot* see,
-so a `bible_verse` miss proves nothing about them. And remember `build.py` ingests six of the
-open-data submodules and skips the rest. The English deuterocanon and pseudepigrapha (KJV
-Apocrypha, 1 Enoch, Jubilees) must be read as raw `sources/<lang>/<book>/` files; their Greek is
-queryable, as fourteen deuterocanonical books in `ebible-grcbrent` and the Odes, Psalms of Solomon
-and Psalm 151 in `swete-lxx`.
-
-**External material resolves through `$BIBLE_MEDIA_ROOT`**, not a hardcoded path — `study-notes.db`,
-the patristics corpus and the TWOT scans all live there. Use `references/build/media_root.py` rather
-than writing a `/Volumes/...` path into anything, and expect the volume to be unmounted sometimes;
-say so plainly in the state file when it is, rather than quietly skipping verification. Prefer the `bible-references` MCP tools (`bible_word`, `bible_verse`, `bible_passage`, `bible_trace`, `bible_links`, `bible_variants`, `bible_parallel`, `bible_align`, `bible_section`, `bible_names`, `bible_interlinear`, `twot_root`, …) over shelling out to `query.py`/`twot_lookup.py` — same data, no text-parse round trip; the CLI is the fallback when the server isn't connected.
-
-**A reference is not a universal address, and getting this wrong is silent.** Hebrew Joel 3:1 is English Joel 2:28 — the verse Acts 2 quotes. LXX Psalm 22 is English Psalm 23. The Masoretic and English traditions divide Daniel, Joel and Malachi differently, and the Septuagint renumbers nearly the whole psalter. Ask for a verse in one work's numbering and read it in another's and you get an unrelated verse with no error. `bible_verse` and `bible_passage` handle this internally, but a query you compose yourself does not: use `bible_parallel` to move a reference between two named works, or `bible_align` to see it as each scheme numbers it. Never assume `(book, chapter, verse)` carries across.
+Three source rules live in AGENTS.md and the `bible-references` server's own instructions, and
+apply to every phase above: **a lookup miss is not absence** (run
+`python3 references/check_sources.py` and read its raw-only list before saying a text is
+unavailable); **a reference is not a universal address** (Hebrew Joel 3:1 is English Joel 2:28 —
+use `bible_parallel` or `bible_align` for any query you compose yourself); and **external material
+resolves through `$BIBLE_MEDIA_ROOT`**, which may be unmounted — say so in the state file rather
+than skipping verification. Prefer the MCP tools over `query.py`; the CLI is the fallback.

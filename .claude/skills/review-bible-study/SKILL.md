@@ -37,12 +37,9 @@ Every quoted verse gets re-queried from source, not read for plausibility.
   MCP tool. The BSB is `berean-bsb`, taken from its publisher's release since 2026-10-28; a BSB
   quotation checked against the old scrollmapper copy may differ in a list verse or a revised
   rendering (John 2:4), so re-check against `berean-bsb`.
-- **A reference is not a universal address, and getting it wrong is silent.** Hebrew Joel 3:1 is
-  English Joel 2:28; LXX Psalm 22 is English Psalm 23; the Masoretic and English traditions divide
-  Daniel, Joel and Malachi differently. Verifying a quotation against "the same verse" in another
-  work can therefore compare two unrelated verses and report a mismatch that isn't one. Use
-  `bible_parallel` to move a reference between two named works, or `bible_align` to see it in each
-  scheme, before concluding a study has misquoted anything.
+- **A reference is not a universal address** (AGENTS.md). Checking a quotation against "the same
+  verse" in another work can compare two unrelated verses and report a false mismatch; move the
+  reference with `bible_parallel` before concluding a study has misquoted anything.
 - Check three things per quote, not just the wording: (1) the text matches verbatim, punctuation
   included; (2) the cited reference is the verse actually quoted — a right quote under a wrong
   reference is as bad as a wrong quote; (3) the translation labeled is the translation actually queried.
@@ -86,15 +83,10 @@ Every quoted verse gets re-queried from source, not read for plausibility.
   prepare herself with clothes and jewelry," which is Davidson's wording and absent from Kulp's
   ("to prepare herself for marriage"). **Wrong version and wrong words travel together.**
 - **A source that "isn't available" may just be unqueryable.** Before accepting a study's claim that
-  some text could not be checked, run `python3 references/check_sources.py` from the repo root. Its
-  **raw-only** list names sources that are on disk but that `build.py` does not ingest, so `query.py`
-  and the MCP tools cannot see them and a lookup miss proves nothing. The English deuterocanon and
-  pseudepigrapha (the KJV Apocrypha, 1 Enoch, Jubilees) are the standing example, readable only as raw
-  `sources/<lang>/<book>/` files. Their **Greek** is queryable: fourteen deuterocanonical books in
-  `ebible-grcbrent` (Tob, Jdt, Wis, Sir, Bar, EpJer, Sus, Bel, 1Macc-4Macc, 1Esd, PrMan) and the
-  Odes, Psalms of Solomon and Psalm 151 in `swete-lxx`. An **UNDOCUMENTED** result is a finding in its
-  own right: the catalog has drifted, and the fix is a row in references/README.md, not a note in the
-  study.
+  some text could not be checked, run `python3 references/check_sources.py` from the repo root and
+  read its **raw-only** list (AGENTS.md explains it; the English deuterocanon is the standing
+  example). An **UNDOCUMENTED** result is a finding in its own right: the catalog has drifted, and
+  the fix is a row in references/README.md, not a note in the study.
 - **External material resolves through `$BIBLE_MEDIA_ROOT`** (see `references/build/media_root.py`).
   If a study records that verification was skipped because the volume was offline, that limitation
   stands in the report — but check whether it is still true now before repeating it as fact.

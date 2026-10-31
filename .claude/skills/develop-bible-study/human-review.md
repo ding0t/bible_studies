@@ -47,13 +47,8 @@ to *use* — Key Takeaways, Be Transformed, the prayer, the application.
 prayer has not finished.
 
 **The split is structural, not global.** Exegesis, word studies and evidence *should* be analytical;
-that is where precision lives. It is the closing and applying sections that drift.
-
-| Drifted | Landed |
-|---|---|
-| a sentence built on a hinge | a plain imperative |
-| "the practical guard against a prayer life that silts up" | "pray as you walk, and before a meeting" |
-| "let them know you better this year than last" | "let them know you better" |
+that is where precision lives. It is the closing and applying sections that drift. Examples:
+[style-guide.md](style-guide.md#the-tell-essay-register-where-devotional-register-belongs).
 
 ## 3 · Is the theology addressed, or only described?
 
