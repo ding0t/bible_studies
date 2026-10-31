@@ -5,7 +5,7 @@ description: "The 24 letters of the Greek New Testament with their names and sou
 tags: ["lang/greek", "learning"]
 draft: false
 date_created: 2026-10-18
-date_modified: 2026-10-22
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -75,3 +75,13 @@ each word in uncial capitals beneath the modern print.
 **[The Names of the Holy Spirit: Greek Word Cards](names-of-the-holy-spirit-cards.md).** Sixteen
 printable flashcards, from πνεῦμα to "not to men but to God", in an order that brings in all 24
 letters.
+
+## Keep going: a free Greek course
+
+[Lingua Deo Gloria](https://www.linguadeogloria.org/greek) teaches Koine Greek free of charge, by
+stories, pictures and conversation, the way [Aleph with Beth](../hebrew/aleph-with-beth.md) teaches
+Hebrew. Level 1 of its [online course](https://learn.linguadeogloria.org/#/greek) assumes no Greek,
+and its [illustrated readers](https://www.linguadeogloria.org/publications), free to read, include
+*Colossians*, *Philemon*, *Jude* and *1 John* as visual readers. It also runs free live online
+classes taught mostly in Greek, and a Greek handwriting workbook is on its [resources
+page](https://www.linguadeogloria.org/resources).

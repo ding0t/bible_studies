@@ -5,7 +5,7 @@ description: "Learn to read the Hebrew Bible for free with Aleph with Beth: how 
 tags: ["lang/hebrew", "learning", "courses"]
 draft: false
 date_created: 2025-04-24
-date_modified: 2026-10-17
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -143,6 +143,59 @@ transcripts are free online, and Bethany Case has also published them in print.
     3. Watch one lesson a day, and when a lesson feels hard, watch it again the next day before
        moving on.
     4. Once the letters begin, read the lesson's transcript alongside the video.
+
+## Alongside it: Lingua Deo Gloria
+
+[Lingua Deo Gloria](https://www.linguadeogloria.org/) ("language for the glory of God") is a free,
+donation-funded ministry teaching Biblical Hebrew and Koine Greek to the church. It teaches by the
+same method as Aleph with Beth, comprehensible input through stories, pictures and conversation,
+and its own resources page sends beginners to Aleph with Beth: "Aleph with Beth's free Hebrew video
+lessons are a great place to start." Its Hebrew instructors trained in Jerusalem, at the Whole
+Word Institute and the Hebrew University.
+
+Use it when you want to read more Hebrew at your level, or to learn alongside other people:
+
+<div class="grid cards" markdown>
+
+-   :material-school:{ .lg .middle } __An online course__
+
+    ---
+
+    Biblical Hebrew in six levels so far, each a twelve-week curriculum, running in the browser
+    with nothing to install. Level 1 assumes no Hebrew.
+
+    [:octicons-arrow-right-24: Start Hebrew](https://learn.linguadeogloria.org/#/hebrew)
+
+-   :material-book-open-variant:{ .lg .middle } __Illustrated readers__
+
+    ---
+
+    Every page illustrated and every book free to read: *Ruth* and *Jonah* as visual readers,
+    *The Way: A Hebrew Story*, *Beit Av*, and *A Child's Book of Biblical Hebrew*.
+
+    [:octicons-arrow-right-24: Publications](https://www.linguadeogloria.org/publications)
+
+-   :material-account-group:{ .lg .middle } __Live online classes__
+
+    ---
+
+    Free twelve-week cohorts in small groups, taught mostly in Hebrew. Registration opens for
+    each new cohort.
+
+    [:octicons-arrow-right-24: Live instruction](https://www.linguadeogloria.org/live-instruction)
+
+-   :material-download:{ .lg .middle } __Free downloads__
+
+    ---
+
+    A Hebrew handwriting workbook, and the Lord's Prayer and the Apostles' Creed in Classical
+    Hebrew, as PDFs.
+
+    [:octicons-arrow-right-24: Resources](https://www.linguadeogloria.org/resources)
+
+</div>
+
+The same ministry teaches Koine Greek for the New Testament; see [Learn Greek](../greek/index.md).
 
 ## On this site
 
