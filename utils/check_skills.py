@@ -56,6 +56,12 @@ ABSENT_PATHS = {
     "app/dist/worker.js": "npm run build:worker output, gitignored",
     "out/bible-text.db": "build.py output, gitignored",
     "references/build/out/bible-text.db": "build.py output, gitignored",
+    "references/open-data/macula-greek/SBLGNT/tsv/macula-greek-SBLGNT.tsv": (
+        "open-data submodule content; deploy.yml checks out without submodules"
+    ),
+    "references/open-data/macula-hebrew/WLC/tsv/macula-hebrew.tsv": (
+        "open-data submodule content; deploy.yml checks out without submodules"
+    ),
     "studies/": "named as the wrapper directory the taxonomy does not have",
     "bible/": "named as the wrapper directory the taxonomy does not have",
 }
