@@ -6,9 +6,9 @@ tags: ["lords-prayer", "sermon-on-the-mount", "matthew", "luke", "jesus-teaching
 questions: ["How did Jesus teach us to pray?", "What does each line of the Lord's Prayer mean?"]
 draft: false
 primary_passage: "Matthew 6:9-13; Luke 11:2-4"
-bible_references: ["Matthew 6:5-15", "Matthew 6:25-34", "John 1:12", "Galatians 4:4-6", "Psalm 27:10", "Ecclesiastes 5:2", "Ezekiel 36:20-22", "1 Peter 3:15", "John 17:6", "John 12:28", "Matthew 4:1-4", "John 6:35", "Habakkuk 3:17-18", "Philippians 4:11-12", "Colossians 2:13-14", "Matthew 18:21-35", "Luke 23:34", "Hebrews 4:15", "John 17:15", "Luke 22:31-32", "1 Corinthians 10:13", "John 14:13", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Exodus 16:19-26", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Matthew 25:34", "Acts 1:6-7", "Matthew 26:41", "Revelation 3:10", "Ephesians 4:32", "1 Peter 5:7"]
+bible_references: ["Matthew 6:5-15", "Matthew 6:25-34", "John 1:12", "Galatians 4:4-6", "Psalm 27:10", "Ecclesiastes 5:2", "Ezekiel 36:20-22", "1 Peter 3:15", "John 17:6", "John 12:28", "Matthew 4:1-4", "John 6:35", "Habakkuk 3:17-18", "Philippians 4:11-12", "Colossians 2:13-14", "Matthew 18:21-35", "Luke 23:34", "Hebrews 4:15", "John 17:15", "Luke 22:31-32", "1 Corinthians 10:13", "John 14:13", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Exodus 16:19-26", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Matthew 25:34", "Acts 1:6-7", "Matthew 26:41", "Revelation 3:10", "Ephesians 4:32", "1 Peter 5:7", "1 Thessalonians 5:17"]
 date_created: 2026-07-22
-date_modified: 2026-10-27
+date_modified: 2026-11-01
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -63,18 +63,20 @@ something about who God is and what you may ask Him for.
 
 ### Be Transformed
 
-- **Think.** Before you ask God for anything today, spend one sentence naming who He is to you: your
-  Father, who knows what you need before you ask (Matthew 6:8). You are His child by adoption,
-  through Jesus, and that is settled before you say a word. When you pray about testing and evil,
-  trust, per James 1:13, that He is never the one who tempts you.
+- **Think.** God forgives at His own cost. The record of debt that stood against you He "set aside,
+  nailing it to the cross" (Colossians 2:14, ESV). That is the atonement, and it stands behind every
+  "forgive us" you pray. And He is never the one who tempts you (James 1:13); He is the one you ask
+  to keep you.
 - **Attitude.** Pray it as "us". Every first-person word in the prayer is plural, so even alone you
   are praying for your household, your church and the brother who wronged you. And let go of
   needing an audience or a word count: this prayer is short, and it is prayed to a Father who sees
   in secret (Matthew 6:6).
-- **Do.** Pray it together. An early church manual, probably from about AD 100, told believers to
-  pray it three times a day (*Didache* 8:3). Take one line a week at a family meal
-  ([Teaching the Lord's Prayer at Home](teaching-the-lords-prayer-at-home.md)): what it shows
-  about God, and one thing to ask Him for in its words.
+- **Do.** Pray in the moment. "Pray without ceasing" (1 Thessalonians 5:17, ESV;
+  [Prayer as Communion](prayer-as-communion.md#keep-asking-and-keep-talking) works through it),
+  and the prayer Jesus taught is short enough to pray anywhere, to a Father who already knows what you need
+  (Matthew 6:8). This week, when God puts a person or a need on your heart, pray there and then,
+  in a sentence. When you tell someone "I'll pray for you", pray for them right then: aloud with
+  them if they are willing, or silently before you walk away.
 
 ### Prayer
 
@@ -171,13 +173,9 @@ also Deuteronomy 32:6 and Malachi 2:10. What Jesus intensifies is placing that a
 prayer's very first word, before any petition follows. This shows that God is a Father before He
 is anything you ask of Him: relationship precedes request.
 
-**Who may say it.** Jesus gave this prayer to disciples, and the New Testament says how anyone
-becomes one of the children it is for. "To all who did receive him, who believed in his name, he
-gave the right to become children of God" (John 1:12, ESV). That is **adoption**: "God sent forth
-his Son… so that we might receive adoption as sons. And because you are sons, God has sent the
-Spirit of his Son into our hearts, crying, 'Abba! Father!'" (Galatians 4:4-6, ESV). The Son makes
-you a child, and the Spirit gives you the word. So the whole Trinity stands behind the first word of the
-prayer: you pray to the Father, as one adopted through the Son, with the Spirit's own cry.
+**Who may say it.** Jesus gave this prayer to disciples: "to all who did receive him, who believed
+in his name, he gave the right to become children of God" (John 1:12, ESV). That is **adoption**,
+and the Spirit of the Son gives you the word, "Abba! Father!" (Galatians 4:6).
 [Prayer as Communion](prayer-as-communion.md#a-given-willingness-the-spirits-own-cry) works this
 through, and [Assurance of Salvation](../salvation/assurance-of-salvation.md) answers how you can
 know you are His.
@@ -246,7 +244,8 @@ has not given up the earth. The King has come once, and on the dispensational re
 holds He will come again to reign on it, a future, literal kingdom; amillennial readers take the
 reign as present and spiritual. Until then, praying "your will be
 done" hands your own will over to His, as Jesus did in Gethsemane: "not as I will, but as you will"
-(Matthew 26:39, ESV).
+(Matthew 26:39, ESV). [Your will handed over](prayer-as-communion.md#your-will-handed-over) in
+Prayer as Communion follows that prayer to its answer.
 
 The fuller study of this petition, on *basileia*, "kingdom of heaven" and the grammar of the
 request, is [Your Kingdom Come](../last-things/your-kingdom-come.md).
@@ -275,10 +274,9 @@ again tomorrow, and that He means to provide.
 The same sermon goes on to read like this petition preached. A few verses on, Jesus says: "do not be
 anxious, saying, 'What shall we eat?'… your heavenly Father knows that you need them all" (Matthew
 6:31-32, ESV). The birds and the lilies of Matthew 6:25-30 make the same point.
-And Jesus lived it first: hungry after forty days, He answered the tempter that "Man shall not live
-by bread alone, but by every word that comes from the mouth of God" (Matthew 4:4, ESV), quoting what Moses said of the manna (Deuteronomy 8:3). The Father
-who feeds the body also gives the word it lives by. In John 6 Jesus feeds five
-thousand and the next day says, "I am the bread of life" (John 6:35, ESV); [Bread of
+Jesus lived it first, answering the tempter with what Moses said of the manna (Matthew 4:4;
+Deuteronomy 8:3), and the day after feeding five thousand He said, "I am the bread of life" (John
+6:35, ESV). [Prayer as Communion](prayer-as-communion.md#daily-bread) works through the manna; [Bread of
 Life](../jesus/bread-of-life-feeding-the-multitudes.md#daily-bread) traces the line from the manna
 to Him, and [In Humility](humility.md#daily-bread) shows why depending on God one day at a time is
 itself humbling.
@@ -401,7 +399,8 @@ Colossians 3:13, and confidence about provision in 1 Peter 5:7 and Philippians 4
 After the cross the same prayer is prayed in Jesus' name. "Whatever you ask in my name, this I will
 do, that the Father may be glorified in the Son" (John 14:13, ESV). You pray to the Father as His
 adopted child, through the Son who opened the way, with the Spirit who cries "Abba" in you
-(Galatians 4:6). The church kept praying it in that way from the start: the *Didache*, a church
+(Galatians 4:6); [Whom to pray to](prayer-as-communion.md#whom-to-pray-to) in Prayer as Communion
+sets out each Person's part. The church kept praying it in that way from the start: the *Didache*, a church
 manual probably from about AD 100, gives the prayer and then says, "Thrice in the day thus pray" (*Didache*
 8:3, ANF 7).
 
@@ -444,9 +443,10 @@ Either way, read each account first in its own setting before blending the two.
 2. **The text in its context.** One of the disciples, having just watched Jesus pray, asked, "Lord,
    teach us to pray, as John taught his disciples" (Luke 11:1). What would a prayer of their own
    have meant to the men who asked for it?
-3. **Christ.** In Gethsemane Jesus prayed "not as I will, but as you will" (Matthew 26:39), and He
-   was tempted "as we are, yet without sin" (Hebrews 4:15). Which lines of the prayer He taught did
-   He pray that night, and which could He never pray for Himself?
+3. **Christ.** The night before the cross Jesus asked the Father "that you keep them from the evil
+   one" (John 17:15), and told Peter, "I have prayed for you that your faith may not fail" (Luke
+   22:32). What changes when you pray "deliver us from evil" knowing He has already prayed it for
+   you?
 4. **The hard part.** Jesus says "the kingdom of God has come upon you" (Matthew 12:28), yet
    He teaches you to pray "Your kingdom come" (Matthew 6:10). Where in your own week can you see a
    reign that has begun and is not yet finished?

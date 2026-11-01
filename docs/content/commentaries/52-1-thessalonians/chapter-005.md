@@ -20,6 +20,7 @@ draft: false
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 5:9
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 5:23-24
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 5:19-22
+- [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 5:17
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 5:1-4
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:9
 - [The Restrainer](../../last-things/the-restrainer.md) — 5:9
