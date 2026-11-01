@@ -56,6 +56,7 @@ CLI examples:
     uv run python study_notes_query.py status
 """
 import argparse
+import re
 import sqlite3
 import threading
 
@@ -264,6 +265,52 @@ def lookup_verse(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
     sql += " ORDER BY work_id, verse"
     meta = _work_meta(conn)
     return [_stamp(dict(r), meta) for r in conn.execute(sql, params)]
+
+
+# How STEP counted the ESV's words: letters and apostrophes, a hyphen splitting a word. Measured
+# against all 366,199 tags, this leaves 0.57% pointing past the end of their verse (whitespace
+# splitting, 0.87%); those verses report `aligned: false` rather than a word that may be wrong.
+_ESV_WORD = re.compile(r"[\w\u2019']+")
+
+
+def lookup_esv_tags(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
+                    verse_end: int | None = None) -> list[dict]:
+    """Which ESV words render which Hebrew or Greek word, verse by verse.
+
+    STEP's TTESV tags the most significant English word for each original word ("face" for
+    H6440, not "face of"), sometimes two adjacent words ("without form", H8414) and sometimes two
+    numbers on one word ("separated", H914+H996). An original word with no English word of its
+    own is not listed, and English the ESV supplies carries no tag. Use it to see what the ESV
+    is translating where a study argues from its wording, and to find the verses where the ESV
+    renders one Hebrew or Greek word two ways -- never to quote: the words are the ESV's
+    (quotation-only), the tags Tyndale House's (CC BY-NC).
+    """
+    _require_indexed(book, chapter)
+    end = max(verse, verse_end or verse)
+    text = {r["verse"]: r["text"] for r in conn.execute(
+        "SELECT verse, text FROM verses WHERE work_id='esv-study-bible' AND book=? AND chapter=? "
+        "AND verse BETWEEN ? AND ?", (book, chapter, verse, end))}
+    tags: dict[int, list] = {}
+    for r in conn.execute(
+            "SELECT verse, word_start, word_end, strongs FROM esv_tags WHERE book=? AND chapter=? "
+            "AND verse BETWEEN ? AND ? ORDER BY verse, word_start", (book, chapter, verse, end)):
+        tags.setdefault(r["verse"], []).append(r)
+    meta = _work_meta(conn)
+    results = []
+    for v in range(verse, end + 1):
+        words = _ESV_WORD.findall(text.get(v, ""))
+        rows = tags.get(v, [])
+        aligned = bool(words) and all(r["word_end"] <= len(words) for r in rows)
+        record = {"work_id": "esv-study-bible", "reference": f"{book} {chapter}:{v}",
+                  "aligned": aligned,
+                  "tags": [{"words": " ".join(words[r["word_start"] - 1:r["word_end"]]) if aligned else None,
+                            "position": r["word_start"], "strongs": r["strongs"]} for r in rows],
+                  "tagged_by": (meta.get("step-ttesv") or {}).get("attribution")}
+        if not aligned:
+            record["warning"] = ("the tags point past this verse's words: the ESV text here differs "
+                                 "from the 2011/2016 text STEP tagged, so no word is shown")
+        results.append(_stamp(record, meta))
+    return results
 
 
 def lookup_note(conn: sqlite3.Connection, book: str, chapter: int, verse: int | None = None,

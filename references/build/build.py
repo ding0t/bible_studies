@@ -986,6 +986,160 @@ def ingest_tipnr(conn: sqlite3.Connection) -> None:
     print(f"step-tipnr: {len(name_rows)} individuals, {len(ref_rows)} verse references")
 
 
+# STEP Bible's own web app (github.com/STEPBible/step, BSD-3-Clause) carries reference lists its
+# STEPBible-Data repo does not: a harmony of the gospels, OT parallels, the names of God, NT
+# quotations of the OT, miracles, prophets and the parts of each NT letter. The repo is 525 MB,
+# so the seven JSON files are fetched at one pinned commit, the way the geocoding data is.
+STEP_APP_COMMIT = "122f45356a585106e3acf6f3d4b2cb6c3a0d2ce0"
+STEP_APP_LISTS = ("gospel_harmony", "ot_parallel", "names", "ot_in_nt_refs", "miracles",
+                  "prophets", "nt_letters")
+STEP_LETTER_PARTS = ("salutation", "thanksgiving", "blessing", "body opening", "body closing",
+                     "greetings", "signature", "closing benediction")
+_STEP_LIST_REF = re.compile(r"(?:([1-3]?[A-Z][a-z]+)\.)?(\d+)(?:[.:](\d+)[a-z]?)?"
+                            r"(?:-(\d+)(?:[.:](\d+))?[a-z]?)?")
+
+
+def fetch_step_app(name: str):
+    """One JSON file from STEP's web app at the pinned commit, by its path under html/json/."""
+    path = CACHE_DIR / "step-app" / STEP_APP_COMMIT[:12] / f"{name}.json"
+    if not path.exists():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        url = (f"https://raw.githubusercontent.com/STEPBible/step/{STEP_APP_COMMIT}/"
+               f"step-web/src/main/webapp/html/json/{name}.json")
+        with urllib.request.urlopen(url) as response:
+            path.write_bytes(response.read())
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def step_list_refs(text: str, book: str | None, last_verse: dict) -> list[tuple]:
+    """Ranges from STEP's list notation: "Gen.1:1-27", "Josh.19:28,21:30;1Chr.6:74",
+    "Exod.4:3-4,30", "1Sam.27" (a whole chapter), the harmony's "1.1-17" under a gospel column,
+    "Dan.10:8 ff" (read as the verse it starts from) and Philemon's bare "1-3" (verses). A book
+    carries forward until another is named, as a chapter does across a comma."""
+    ranges, chapter = [], None
+    for part in re.split(r"[;,]", re.sub(r"\s*ff\b|[{}?]", "", text)):
+        part = part.strip()
+        match = _STEP_LIST_REF.fullmatch(part)
+        if not part or not match:
+            continue
+        named, first, verse, to, to_verse = match.groups()
+        if named:
+            book = named if named in last_verse else STEP_ABBREV_TO_OSIS.get(named)
+            chapter = None
+        if book not in last_verse:
+            continue
+        if book in SINGLE_CHAPTER_BOOKS and verse is None:
+            ranges.append((book, 1, int(first), 1, int(to or first)))
+        elif verse is None and chapter is not None and not named:  # ",30" after "Exod.4:3-4"
+            ranges.append((book, chapter, int(first), chapter, int(to or first)))
+        elif verse is None:  # whole chapters
+            end = int(to or first)
+            ranges.append((book, int(first), 1, end, last_verse[book].get(end, 1)))
+            chapter = end
+        else:
+            chapter = int(first)
+            if to_verse is not None:
+                ranges.append((book, chapter, int(verse), int(to), int(to_verse)))
+                chapter = int(to)
+            else:
+                ranges.append((book, chapter, int(verse), chapter, int(to or verse)))
+    return ranges
+
+
+def ingest_step_lists(conn: sqlite3.Connection) -> None:
+    """STEP's reference lists into reference_lists, one row per range, and the harmony's and the
+    OT parallels' pairings into parallel_passages beside the BSB's, so bible_section and
+    review_gaps see them without a second code path.
+
+    Dropped on the way in: ot_in_nt_refs' third column, which is the ESV's wording of the
+    quotation (Crossway's text, not STEP's to license), and the HTML the lists carry for display.
+    """
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+        ("step-lists", None, "STEP Bible reference lists (harmony, parallels, names of God, ...)",
+         "en", "step-app", "https://github.com/STEPBible/step", STEP_APP_COMMIT, TODAY,
+         "BSD-3-Clause", LICENSE_MAP.get("BSD-3-Clause", "unknown"),
+         "STEP Bible (www.STEPBible.org), Tyndale House Cambridge"),
+    )
+    last_verse: dict[str, dict[int, int]] = collections.defaultdict(dict)
+    for book, chapter, verse in conn.execute(
+            "SELECT book, chapter, MAX(verse) FROM verses WHERE work_id='berean-bsb' "
+            "GROUP BY book, chapter"):
+        last_verse[book][chapter] = verse
+
+    def plain(value: str) -> str:
+        value = re.sub(r"<br\s*/?>", " ", value)
+        value = re.sub(r"<[^>]+>|-?&nbsp;?e\.g\.&nbsp;?\{[^}]*\}", "", value).replace("&nbsp", " ")
+        value = re.sub(r"\{([^}]*)\}", r"\1", value)
+        return re.sub(r"\s+", " ", value).strip(" -;")
+
+    rows, pairs, dropped = [], [], collections.Counter()
+
+    def add(list_id, entry, label, refs, role=None, section=None, detail=None, strongs=None,
+            count=None, uncertain=0, book=None):
+        found = step_list_refs(refs, book, last_verse)
+        if not found and refs.strip():
+            dropped[list_id] += 1
+        for r in found:
+            rows.append(("step-lists", list_id, entry, section, label, detail, strongs, count, role,
+                         uncertain, *r))
+        return found
+
+    for entry, (event, *gospels) in enumerate(fetch_step_app("gospel_harmony"), 1):
+        spans = [s for book, refs in zip(("Matt", "Mark", "Luke", "John"), gospels)
+                 for s in add("gospel-harmony", entry, event, refs, role=book, book=book)]
+        pairs += [(event, a, b) for i, a in enumerate(spans) for b in spans[i + 1:] if a[0] != b[0]]
+    for entry, (event, *passages) in enumerate(fetch_step_app("ot_parallel"), 1):
+        spans = [s for i, refs in enumerate(passages, 1)
+                 for s in add("ot-parallels", entry, event, refs, role=f"passage {i}")]
+        pairs += [(event, a, b) for i, a in enumerate(spans) for b in spans[i + 1:]]
+    section = "Old Testament"
+    for entry, (name, notes, count, search) in enumerate(fetch_step_app("names"), 1):
+        if not notes:  # the second table's heading row, "New Testament Name"
+            section = "New Testament"
+            continue
+        add("divine-names", entry, plain(name), ";".join(re.findall(r"\{([^}]*)\}", notes)),
+            section=section, detail=plain(notes),
+            strongs=",".join(re.findall(r"strong=([HG]\d+[A-Za-z]?)", search)),
+            count=int(count) if count.isdigit() else None)
+    for entry, (nt, ot, _esv_wording) in enumerate(fetch_step_app("ot_in_nt_refs"), 1):
+        label = nt.replace(".", " ", 1)
+        add("ot-quotations", entry, label, nt, role="quoting")
+        add("ot-quotations", entry, label, ot, role="quoted")
+    for list_id, name in (("miracles", "miracles"), ("prophets", "prophets")):
+        section = None
+        for entry, (label, *rest) in enumerate(fetch_step_app(name), 1):
+            refs = rest[-1]
+            if not refs:
+                section = plain(label).title()
+                continue
+            add(list_id, entry, plain(label), refs, section=section,
+                detail=plain(rest[0]) if len(rest) > 1 else None)
+    for entry, (book, *parts) in enumerate(fetch_step_app("nt_letters"), 1):
+        book = book.rstrip(".")
+        for part, value in zip(STEP_LETTER_PARTS, parts):
+            # "16:5-14; 16:1-14?": STEP's range, then with "?" an alternative it is less sure of
+            # -- sometimes only a verse ("1:12-14; 1:26?"), kept as written rather than guessed at.
+            for piece in value.split(";"):
+                add("letter-structure", entry, book, piece, role=part, uncertain=int("?" in piece),
+                    book=book)
+
+    conn.executemany(
+        "INSERT INTO reference_lists (work_id, list_id, entry, section, label, detail, strongs, "
+        "count, role, uncertain, book, chapter, verse, end_chapter, end_verse) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", rows)
+    conn.executemany(
+        "INSERT INTO parallel_passages (work_id, book, chapter, verse, end_chapter, end_verse, "
+        "heading, to_book, to_chapter, to_verse, to_end_chapter, to_end_verse) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+        [("step-lists", *a, event, *b) for event, a, b in pairs])
+    conn.commit()
+    lists = collections.Counter(r[1] for r in rows)
+    print(f"step-lists: {len(rows)} ranges in {len(lists)} lists ({dict(lists)}), "
+          f"{len(pairs)} parallel pairs" + (f", unparsed: {dict(dropped)}" if dropped else ""))
+
+
 GEOCODING_COMMIT = "7eb18a5ee62f27b9b93bd6689ea272d76dd23b8f"
 
 
@@ -2287,6 +2441,7 @@ def main() -> None:
     ingest_berean_literal(conn)
     ingest_berean_interlinear(conn)
     ingest_tipnr(conn)
+    ingest_step_lists(conn)      # after ingest_berean_release: reads the BSB's chapter lengths
     ingest_openbible_geocoding(conn)
     ingest_uw_tn_quotations(conn)
     ingest_uhg(conn)

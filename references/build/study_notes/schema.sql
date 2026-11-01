@@ -64,3 +64,16 @@ CREATE TABLE images (
     width INTEGER, height INTEGER
 );
 CREATE INDEX idx_images_ref ON images(book, chapter, verse);
+
+CREATE TABLE esv_tags (          -- STEP's TTESV (Tyndale House, CC BY-NC 4.0): which ESV words render
+                                 -- which Hebrew/Greek word, as word positions in the ESV 2011/2016
+                                 -- text (the edition in `verses` here). The tags carry no ESV text,
+                                 -- so the words are found by splitting the verse; see esv_words().
+    work_id TEXT NOT NULL REFERENCES works(work_id),   -- 'step-ttesv'
+    book TEXT NOT NULL, chapter INTEGER NOT NULL, verse INTEGER NOT NULL,
+    word_start INTEGER NOT NULL,  -- 1-based position of the first ESV word tagged
+    word_end INTEGER NOT NULL,    -- the last, when two adjacent words render one ("without form")
+    strongs TEXT NOT NULL         -- 'H8414', 'G2532'; '+'-joined when two words share one English
+                                  -- word ("separated" is H0914+H0996)
+);
+CREATE INDEX idx_esv_tags_ref ON esv_tags(book, chapter, verse);

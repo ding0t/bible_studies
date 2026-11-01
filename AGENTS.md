@@ -246,6 +246,11 @@ uv run python commentary_index.py  # regenerate auto cross-ref pages — run aft
 uv run python section_index.py     # regenerate category landing pages — run after adding a study or new content section
 uv run python build_study_notes.py # commercial study-Bible db, writes outside this repo — see references/README.md
 uv run python export_popups.py     # verse + word pop-up data -> docs/content/assets/popups/ (committed; re-run when bible-text.db changes)
+uv run python export_harmony.py    # STEP's harmony of the gospels -> docs/data/gospel-harmony.json (committed), the timeline's
+                                   # "Also told in"; re-run after build.py's STEP_APP_COMMIT moves
+uv run python step_chronology_check.py  # this site's dates against STEP's chronology (Hebrew_200_15); reports, never edits.
+                                        # STEP's AM is not this site's AM: it compares AM only inside Genesis
+uv run python build_study_notes.py --esv-tags  # add STEP's TTESV ESV word tags to the existing study-notes.db
 uv run python export_connector.py --publish  # the connector's Hebrew/Greek data -> docs/content/assets/lang/ (130 MB,
                                              # gitignored) and the `lang-data` release the deploy downloads
 uv run python export_memory_verses.py  # docs/data/memory-verses.toml -> .json for the printable cards (hooks/memory_verses.py);
@@ -310,6 +315,13 @@ notes, and the studies on this site that already treat the chapter (`existing_st
 order the develop skill works in. Its `addressing` section is always computed and flags a
 reference that is numbered differently across traditions — Hebrew Joel 3:1 is English Joel
 2:28, and reading one under the other raises no error.
+
+**Gospel or a passage with a parallel? `bible_lists` and `study_esv_tags`.** STEP Bible's
+curated lists (`reference_lists`, work `step-lists`): the harmony of the gospels, OT parallels, the
+names of God, NT quotations of the OT, miracles, prophets and each NT letter's parts. The harmony's
+pairs also sit in `parallel_passages`, so `bible_section` and `review_gaps` see them.
+`study_esv_tags` is an ESV interlinear (STEP's TTESV word positions over the ESV 2016 text in
+study-notes.db): which English word renders which Hebrew or Greek word, for checking, never quoting.
 
 **For other multi-lookup work, use `research_batch_run`**: it dispatches to the same library functions over one connection per
 database rather than reopening for each call (measured 9x faster across twelve
@@ -396,7 +408,10 @@ the workflow manually (`workflow_dispatch`).
   browser), and `hooks/popups.py` writes the study index from frontmatter and page text on every
   build, after `draft_pages.py`, so a draft never appears in a pop-up. Word counts match on the
   exact Strong's id, as `bible_concordance` does, so a pop-up agrees with the count a study was
-  checked against.
+  checked against. A word opened from a form on the page also gets that form's grammar in plain
+  English (`parse/` + `grammar.json`, STEP's TEGMC/TEHMC), and a name gets who it is (TIPNR's
+  individuals, family, and a link into the family tree where `genealogy_check.py` matches one) and
+  its other testament's spelling (Jesse: H3448 in the OT, G2421 in the NT).
 - **Content frontmatter is the integration point.** `app/scripts/build-events.js` reads
   `docs/content/**/*.md` frontmatter (as the first half of `build:tools`) to generate
   `docs/data/events.json`, which the timeline bundle imports at build time. `references/build/commentary_index.py` and `section_index.py` also read it to

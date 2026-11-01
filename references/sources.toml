@@ -164,6 +164,9 @@ path = "references/biblefacts"
 "Creative Commons: BY-SA 4.0" = "open"
 "Creative Commons: by-sa" = "open"
 "Creative Commons Attribution 3.0 Brazil" = "open"
+# STEP Bible's web-app repo (github.com/STEPBible/step), the source of step-lists. A permissive
+# licence: redistribution with the copyright notice kept, which the works row's attribution does.
+"BSD-3-Clause" = "open"
 
 "Creative Commons: BY-NC 4.0" = "restricted-nc"
 "Creative Commons: BY-NC-SA 4.0" = "restricted-nc"
@@ -413,6 +416,15 @@ applies_to = ["step-tipnr"]
 purpose = "Every individual person and place, disambiguated, with family links and every verse (bible_names)."
 strengths = ["One record per individual: the 29 Zechariahs are 29 people, each with parents, siblings, spouses, children, tribe and verses. An independent check on this site's genealogy (genealogy_check.py)."]
 limits = ["Family links carry STEP's own judgment where the text is ambiguous, marked (?), and (a)/(d)/(f) mark ancestors, descendants and founders rather than parents. Only the @Brief summary is kept; STEP's longer @Article prose is not. References follow the ESV."]
+
+[profiles.step-lists]
+kind = ["index"]
+era = "modern"
+language = "en"
+applies_to = ["step-lists"]
+purpose = "STEP Bible's curated reference lists: a 174-event harmony of the gospels, OT parallel accounts, the names of God, NT quotations of the OT, miracles, prophets and the parts of each NT letter (bible_lists)."
+strengths = ["The harmony orders the gospel events and pairs every account of each one, and its pairs sit in parallel_passages beside the BSB's, so bible_section and review_gaps report a gospel parallel a study never cites. The names of God carry STEP's Strong's numbers and counts."]
+limits = ["Editorial lists, one team's reading of what belongs together and in what order. The harmony's sequence is a judgment where the gospels order events differently, and a letter part STEP marks '?' is a range it is unsure of. A map and a completeness check, never evidence. References follow the ESV."]
 
 [profiles.geocoding]
 kind = ["index"]

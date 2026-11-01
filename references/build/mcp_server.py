@@ -490,6 +490,31 @@ def bible_names(name: str | None = None, book: str | None = None, chapter: int |
 
 
 @mcp.tool()
+def bible_lists(list_id: str | None = None, book: str | None = None, chapter: int | None = None,
+                verse: int | None = None, verse_end: int | None = None,
+                label: str | None = None) -> dict:
+    """STEP Bible's curated reference lists, by passage or by list.
+
+    Seven lists: `gospel-harmony` (174 events, each with every gospel's account), `ot-parallels`
+    (Kings beside Chronicles and the like), `divine-names` (the names of God with their Hebrew,
+    Strong's numbers and counts), `ot-quotations` (an NT verse and the OT text it quotes),
+    `miracles`, `prophets` and `letter-structure` (each NT letter's salutation, thanksgiving, body
+    opening and closing, greetings and benediction).
+
+    Pass book/chapter/verse for every entry touching a passage -- Matthew 26:26 returns the Last
+    Supper with Mark's, Luke's and John's accounts; Genesis 16:13 returns El Roi -- or `list_id`
+    alone for the whole list in STEP's order, with `label` to filter it. The lists are one team's
+    editorial reading: use them as a map and a completeness check, never as evidence. A range
+    marked `uncertain` is one STEP gives with a '?'.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_lists(conn, list_id, book, chapter, verse, verse_end, label)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
 def bible_align(book: str, chapter: int, verse: int, from_scheme: str = "english") -> dict:
     """One reference as each versification scheme numbers it, with the works using each scheme.
 
@@ -600,6 +625,22 @@ def study_verse(book: str, chapter: int, verse: int, work_id: str | None = None,
     compare every translation at once. Give verse_end for a range within the chapter. Verse text
     is never truncated."""
     return _study_notes(study_notes_query.lookup_verse, book, chapter, verse, work_id, verse_end)
+
+
+@mcp.tool()
+def study_esv_tags(book: str, chapter: int, verse: int, verse_end: int | None = None) -> object:
+    """Which ESV word renders which Hebrew or Greek word: an ESV interlinear, verse by verse.
+
+    From STEP's TTESV tags (Tyndale House, CC BY-NC) laid over the ESV 2016 text in
+    study-notes.db. Genesis 16:13: "God" is H410 (El), "seeing" H7210 (ro'i), "looks" H7210 again
+    -- so the ESV renders one word "seeing" and "looks", which a study arguing from the English
+    should know. Each tag is the most significant English word for one original word; an original
+    word with no English of its own, and English the ESV supplies, carry no tag. A verse whose
+    tags run past its words reports `aligned: false` and shows no words rather than wrong ones.
+
+    For checking what the ESV translates, never for quoting: the words are quotation-only.
+    """
+    return _study_notes(study_notes_query.lookup_esv_tags, book, chapter, verse, verse_end)
 
 
 @mcp.tool()

@@ -153,6 +153,9 @@ def build_requests(book: str, chapter: int, verse_start: int, verse_end: int | N
         reqs.append({"id": "structure", "tool": "bible_section",
                      "args": {"book": book, "chapter": chapter, "verse": verse_start,
                               "verse_end": end}})
+        reqs.append({"id": "lists", "tool": "bible_lists",
+                     "args": {"book": book, "chapter": chapter, "verse": verse_start,
+                              "verse_end": end}})
 
     if "text" in include:
         for name in translations:
@@ -276,7 +279,8 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
     """The standard evidence set for a passage, in exegesis order.
 
     Sections: addressing (versification, always), historical (book introductions), structure
-    (the BSB section the passage sits in and its parallel accounts), text, words (the ULT and BSB
+    (the BSB section the passage sits in, its parallel accounts from the BSB and STEP's harmony,
+    and STEP's list entries touching it: the OT text quoted, a name of God, a letter part), text, words (the ULT and BSB
     interlinears + TWOT roots for Hebrew), crossrefs, variants (Dead Sea Scrolls, plus the
     translators' footnotes naming which editions read what), names (every person and place the
     passage names, disambiguated), notes, studies (what this site's existing studies already say
@@ -335,6 +339,9 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
         }
     if "structure" in include:
         brief["structure"] = _ok(results, "structure")
+        # STEP's harmony event, the OT text quoted, the name of God, the letter part.
+        if isinstance(brief["structure"], dict):
+            brief["structure"]["lists"] = (_ok(results, "lists") or {}).get("entries", [])
     if "text" in include:
         text: dict = {}
         for name in translations:

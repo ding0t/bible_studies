@@ -170,3 +170,27 @@ def test_connect_raises_structured_error_when_absent(monkeypatch, tmp_path):
         snq.connect()
     assert e.value.as_dict()["available"] is False
     assert e.value.remedy
+
+
+# --- the ESV tags (STEP's TTESV over the ESV text) ---------------------------
+
+def test_esv_tags_align_genesis_16_13(conn):
+    """The tags count words in the ESV 2016 text; if the tokenizer or the text drifts, "God"
+    stops being El and the interlinear silently points at the wrong words."""
+    if not conn.execute("SELECT 1 FROM sqlite_master WHERE name='esv_tags'").fetchone():
+        pytest.skip("esv_tags not built -- run `uv run python build_study_notes.py --esv-tags`")
+    record = snq.lookup_esv_tags(conn, "Gen", 16, 13)[0]
+    assert record["aligned"]
+    words = {t["strongs"]: [] for t in record["tags"]}
+    for t in record["tags"]:
+        words[t["strongs"]].append(t["words"])
+    assert words["H410"] == ["God"]
+    assert words["H7210"] == ["seeing", "looks"]  # one word, rendered two ways
+    assert record["tier"] == "quotation-only"
+
+
+def test_esv_tags_two_words_one_original(conn):
+    if not conn.execute("SELECT 1 FROM sqlite_master WHERE name='esv_tags'").fetchone():
+        pytest.skip("esv_tags not built")
+    tags = snq.lookup_esv_tags(conn, "John", 6, 54)[0]["tags"]
+    assert {"words": "Whoever feeds", "position": 1, "strongs": "G5176"} in tags

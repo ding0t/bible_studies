@@ -758,7 +758,9 @@ def lookup_section(conn: sqlite3.Connection, book: str, chapter: int, verse: int
     psalter's five books down to an acrostic letter -- so a study can see at once that Matthew
     6:9-13 sits inside "The Lord's Prayer" (6:5-15). `parallels` are the passages the BSB's
     translators mark as parallel to those sections: Luke 11:1-4 for that one, the synoptic gospels
-    generally, Kings beside Chronicles, a psalm beside the narrative it belongs to. `parallel_to`
+    generally, Kings beside Chronicles, a psalm beside the narrative it belongs to. STEP Bible's
+    harmony of the gospels and its OT parallels sit beside them (work_id 'step-lists', the event
+    as the heading), so a gospel passage gets every account of the same event. `parallel_to`
     runs the other way: sections elsewhere that name this range as their parallel.
 
     Both are editorial -- the translators' reading of where the text turns and what it echoes.
@@ -776,11 +778,11 @@ def lookup_section(conn: sqlite3.Connection, book: str, chapter: int, verse: int
         "SELECT chapter, verse, end_chapter, end_verse, level, text FROM section_headings "
         f"WHERE book=? AND {_overlap_sql()} ORDER BY chapter, verse, level", (book, *span))]
     parallels = [dict(r) for r in conn.execute(
-        "SELECT heading, chapter, verse, end_chapter, end_verse, to_book, to_chapter, to_verse, "
-        f"to_end_chapter, to_end_verse FROM parallel_passages WHERE book=? AND {_overlap_sql()} "
-        "ORDER BY chapter, verse", (book, *span))]
+        "SELECT work_id, heading, chapter, verse, end_chapter, end_verse, to_book, to_chapter, "
+        "to_verse, to_end_chapter, to_end_verse FROM parallel_passages WHERE book=? AND "
+        f"{_overlap_sql()} ORDER BY chapter, verse", (book, *span))]
     parallel_to = [dict(r) for r in conn.execute(
-        "SELECT book, chapter, verse, end_chapter, end_verse, heading FROM parallel_passages "
+        "SELECT work_id, book, chapter, verse, end_chapter, end_verse, heading FROM parallel_passages "
         f"WHERE to_book=? AND {_overlap_sql('to_')} ORDER BY book, chapter, verse", (book, *span))]
     for row in parallels:
         row["reference"] = (f"{row['to_book']} {row['to_chapter']}:{row['to_verse']}"
@@ -788,7 +790,75 @@ def lookup_section(conn: sqlite3.Connection, book: str, chapter: int, verse: int
                                else f"-{row['to_end_chapter']}:{row['to_end_verse']}"))
     return {"reference": f"{book} {chapter}:{verse}" + (f"-{end}" if end != verse else ""),
             "sections": sections, "parallels": parallels, "parallel_to": parallel_to,
-            "source": "BSB section headings (editorial; never quote as Scripture)"}
+            "source": "BSB section headings and parallel lines (work_id berean-bsb); STEP Bible's "
+                      "harmony of the gospels and OT parallels (work_id step-lists). Editorial; "
+                      "never quote as Scripture"}
+
+
+REFERENCE_LISTS = ("gospel-harmony", "ot-parallels", "divine-names", "ot-quotations", "miracles",
+                   "prophets", "letter-structure")
+
+
+def lookup_lists(conn: sqlite3.Connection, list_id: str | None = None, book: str | None = None,
+                 chapter: int | None = None, verse: int | None = None,
+                 verse_end: int | None = None, label: str | None = None) -> dict[str, object]:
+    """STEP Bible's curated lists: which entries touch a passage, or a whole list in order.
+
+    Pass book/chapter (and verse) for every entry whose ranges overlap the passage -- the harmony
+    event a gospel verse belongs to with every gospel's account of it, the OT text an NT verse
+    quotes (or the NT verses quoting an OT one), the name of God first used there, the miracle,
+    the prophet, the letter part. Pass `list_id` alone for the whole list in STEP's order, or with
+    `label` for the entries whose label contains it. Each entry carries all of its ranges, so the
+    other accounts come back with the one asked about.
+    """
+    if list_id is not None and list_id not in REFERENCE_LISTS:
+        return {"entries": [], "warning": f"unknown list {list_id!r}; lists are {list(REFERENCE_LISTS)}"}
+    where, params = [], []
+    if book:
+        if chapter is None:
+            where.append("book=?")
+            params.append(book)
+        else:
+            end = verse_end if verse and verse_end and verse_end >= verse else verse
+            where.append(f"book=? AND {_overlap_sql()}")
+            params += [book, chapter, chapter, end if end else 999, chapter, chapter, verse or 1]
+    if list_id:
+        where.append("list_id=?")
+        params.append(list_id)
+    if label:
+        where.append("label LIKE ?")
+        params.append(f"%{label}%")
+    if not where:
+        return {"entries": [], "warning": "pass a passage, a list_id, or both"}
+    keys = conn.execute(
+        f"SELECT DISTINCT list_id, entry FROM reference_lists WHERE {' AND '.join(where)} "
+        "ORDER BY list_id, entry", params).fetchall()
+    entries = []
+    for list_name, entry in keys:
+        rows = conn.execute(
+            "SELECT section, label, detail, strongs, count, role, uncertain, book, chapter, verse, "
+            "end_chapter, end_verse FROM reference_lists WHERE list_id=? AND entry=? ORDER BY rowid",
+            (list_name, entry)).fetchall()
+        first = rows[0]
+        item = {"list": list_name, "entry": entry, "label": first["label"]}
+        for field in ("section", "detail", "strongs", "count"):
+            if first[field] not in (None, ""):
+                item[field] = first[field]
+        item["ranges"] = [{"role": r["role"], "reference": _range_text(r),
+                           **({"uncertain": True} if r["uncertain"] else {})} for r in rows]
+        entries.append(item)
+    return {"entries": entries,
+            "source": "STEP Bible (www.STEPBible.org), Tyndale House Cambridge: editorial lists, "
+                      "never evidence and never quoted as Scripture"}
+
+
+def _range_text(row) -> str:
+    start = f"{row['book']} {row['chapter']}:{row['verse']}"
+    if (row["end_chapter"], row["end_verse"]) == (row["chapter"], row["verse"]):
+        return start
+    if row["end_chapter"] == row["chapter"]:
+        return f"{start}-{row['end_verse']}"
+    return f"{start}-{row['end_chapter']}:{row['end_verse']}"
 
 
 def _names_detail(conn: sqlite3.Connection, rows: list) -> list[dict[str, object]]:

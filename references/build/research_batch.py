@@ -80,9 +80,11 @@ REGISTRY: dict[str, Spec] = {
     "bible_align": Spec(query.lookup_alignment, "bible-text"),
     "bible_section": Spec(query.lookup_section, "bible-text"),
     "bible_names": Spec(query.lookup_names, "bible-text"),
+    "bible_lists": Spec(query.lookup_lists, "bible-text"),
     "bible_works": Spec(query.list_works, "bible-text"),
     # study-notes.db (quotation-only; records arrive tier-stamped)
     "study_verse": Spec(study_notes_query.lookup_verse, "study-notes"),
+    "study_esv_tags": Spec(study_notes_query.lookup_esv_tags, "study-notes"),
     "study_note": Spec(study_notes_query.lookup_note, "study-notes"),
     "study_intro": Spec(study_notes_query.lookup_intro, "study-notes"),
     "study_article": Spec(study_notes_query.lookup_article, "study-notes"),

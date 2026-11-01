@@ -24,6 +24,16 @@ Everything written here ships to every reader's browser, so every source is `ope
                        (MACULA) and the LXX lemmas, keyed by form_key and sharded by first two letters,
                        mapped to its Strong's number. This is what lets ὑψωθῆναι open G5312 and a
                        quoted Hebrew sentence open word by word, with no tag in the study.
+- parse/<hex>.json     the same keys, mapped to the form's morphology code where one parsing covers
+                       nearly all its occurrences, and grammar.json, STEPBible's plain-English
+                       reading of each code (TEGMC/TEHMC, CC BY): "a male PERSON that is having
+                       something done to them". A form with two common parsings gets none, since
+                       the card cannot know which the page means.
+- A name's entry also says who it is: each individual STEPBible's TIPNR files under the number
+  (CC BY), with STEP's one-line description, parents, spouses and children, and the id of the
+  person in this site's family tree where genealogy_check.py matches one. A Greek name points at
+  its Hebrew original (TBESG's "the Greek of"), and the Hebrew name back, so Jesse's card counts
+  both testaments.
 
 Counts come from the data, never from a study's sentence, so a pop-up stays right when a study's
 claim is wrong.
@@ -37,12 +47,16 @@ import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
+import genealogy_check
 import query
 import source_catalog
 
 REPO = Path(__file__).resolve().parents[2]
 OUT = REPO / "docs" / "content" / "assets" / "popups"
 LEXICONS = REPO / "references" / "open-data" / "stepbible-data" / "Lexicons"
+MORPHOLOGY = REPO / "references" / "open-data" / "stepbible-data" / "Morphology codes"
+PEOPLE_PER_NAME = 4
+FAMILY_SHOWN = 6
 CROSSREFS_PER_VERSE = 5
 RENDERINGS = 5
 EVERY_OCCURRENCE = 20
@@ -105,6 +119,10 @@ def export_verses(conn) -> int:
     return len(books)
 
 
+# STEPBible's own ids, "H3448" or the disambiguated "H5660G": the language, then the number.
+_STEP_STRONGS = re.compile(r"([HG])(\d{1,4})")
+
+
 def read_lexicon(path: Path, prefix: str) -> dict[int, dict]:
     """First entry per Strong's number. Later rows for the same number are STEPBible's
     disambiguated sub-senses (usually proper names sharing the number); the first is the word.
@@ -127,6 +145,9 @@ def read_lexicon(path: Path, prefix: str) -> dict[int, dict]:
             "lang": LANGUAGE.get(lang, ""),
             "g": plain_gloss(cols[6]),
         }
+        # "G2421 = the Greek of  H3448": the Greek spelling of a Hebrew word, nearly always a name.
+        if "the Greek of" in cols[1] and (target := _STEP_STRONGS.match(cols[2].strip())):
+            entries[number]["e"] = f"{target[1]}{int(target[2])}"
     return entries
 
 
@@ -185,6 +206,44 @@ def spread(verses: list) -> dict:
     return {"b": [[b, n] for b, n in Counter(b for b, _, _ in verses).most_common(TOP_BOOKS)]}
 
 
+def individuals(conn) -> dict[str, list[dict]]:
+    """Each TIPNR individual under its plain Strong's number, most often named first. STEP
+    disambiguates by letter -- H5660G and H5660H are two men called Abdi -- and a page tags only
+    the number, so the card lists them all rather than pick one."""
+    in_tree = {}
+    for person_id, person in genealogy_check.site_people().items():
+        name_id, _ = genealogy_check.match(conn, person)
+        if name_id:
+            in_tree.setdefault(name_id, person_id)
+    verses = Counter(dict(conn.execute(
+        "SELECT name_id, COUNT(*) FROM name_references GROUP BY name_id").fetchall()))
+
+    def names(value: str | None) -> list[str]:
+        found = [re.sub(r"@[^(]*", "", part).replace("_", " ").strip()
+                 for part in (value or "").split(",") if part.strip()]
+        if len(found) > FAMILY_SHOWN:
+            return found[:FAMILY_SHOWN] + [f"{len(found) - FAMILY_SHOWN} more"]
+        return found
+
+    found: dict[str, list] = defaultdict(list)
+    for row in conn.execute(
+            "SELECT name_id, kind, name, strongs, description, parents, partners, offspring, "
+            "group_or_area, brief FROM proper_names WHERE strongs IS NOT NULL"):
+        parsed = _STEP_STRONGS.match(row["strongs"])
+        if not parsed:
+            continue
+        person = {"n": row["name"], "k": row["kind"],
+                  "d": row["brief"] or row["description"] or row["group_or_area"] or ""}
+        for field, key in (("parents", "pa"), ("partners", "sp"), ("offspring", "ch")):
+            if row[field] and row["kind"] != "place":
+                person[key] = names(row[field])
+        if row["name_id"] in in_tree:
+            person["id"] = in_tree[row["name_id"]]
+        found[f"{parsed[1]}{int(parsed[2])}"].append((verses[row["name_id"]], person))
+    return {number: [p for _, p in sorted(people, key=lambda x: -x[0])]
+            for number, people in found.items()}
+
+
 def export_words(conn) -> int:
     hebrew = read_lexicon(next(LEXICONS.glob("TBESH*.txt")), "H")
     greek = read_lexicon(next(LEXICONS.glob("TBESG*.txt")), "G")
@@ -192,10 +251,29 @@ def export_words(conn) -> int:
     nt, nt_glosses, nt_places = usage(conn, "macula-greek-sblgnt")
     lxx, _, _ = usage(conn, "lxx-lemmas")
 
+    greek_of = defaultdict(list)
+    for number, entry in greek.items():
+        if "e" in entry:
+            greek_of[int(entry["e"][1:])].append(number)
+    who = individuals(conn)
+
     written = 0
     for prefix, lexicon in (("H", hebrew), ("G", greek)):
         shards: dict[int, dict] = defaultdict(dict)
         for number, entry in lexicon.items():
+            # Both halves of a name's count: Jesse is 42 times in the OT as H3448, 5 in the NT as G2421.
+            if prefix == "G" and "e" in entry:
+                hebrew_number = int(entry["e"][1:])
+                entry["x"] = [{"id": entry["e"], "ot": ot[hebrew_number]}]
+                people = who.get(entry["e"], [])
+            else:
+                if prefix == "H" and greek_of.get(number):
+                    entry["x"] = [{"id": f"G{g}", "nt": nt[g]} for g in greek_of[number]]
+                people = who.get(f"{prefix}{number}", [])
+            if entry["p"] == "name" and people:
+                entry["w"] = people[:PEOPLE_PER_NAME]
+                if len(people) > PEOPLE_PER_NAME:
+                    entry["wn"] = len(people)
             if prefix == "H":
                 entry["c"] = {"ot": ot[number]}
                 renderings = ot_glosses[number]
@@ -254,21 +332,26 @@ def export_forms(conn) -> int:
         "G": set(read_lexicon(next(LEXICONS.glob("TBESG*.txt")), "G")),
     }
     attested, lexicon, septuagint = (defaultdict(Counter) for _ in range(3))
+    parsings: dict[tuple[str, str], Counter] = defaultdict(Counter)
 
-    def add(tier: dict, prefix: str, word: str | None, strongs: str | None) -> None:
+    def add(tier: dict, prefix: str, word: str | None, strongs: str | None,
+            morph: str | None = None) -> None:
         parsed = query.parse_strongs_id(strongs)
         if not word or not parsed or parsed[0] not in known[prefix]:
             return
         key = form_key(word.replace("/", ""))
         if sum(ch.isalpha() for ch in key) >= 2:
             tier[key][f"{prefix}{parsed[0]}"] += 1
+            if morph:
+                parsings[key, f"{prefix}{parsed[0]}"][morph] += 1
 
     for row in conn.execute(
-            "SELECT surface_form, strongs_id FROM morphology WHERE work_id='morphhb-wlc'"):
-        add(attested, "H", row["surface_form"], row["strongs_id"])
+            "SELECT surface_form, strongs_id, morph_code FROM morphology WHERE work_id='morphhb-wlc'"):
+        add(attested, "H", row["surface_form"], row["strongs_id"], row["morph_code"])
     for row in conn.execute(
-            "SELECT surface_form, strongs_id FROM morphology WHERE work_id='macula-greek-sblgnt'"):
-        add(attested, "G", row["surface_form"], row["strongs_id"])
+            "SELECT surface_form, strongs_id, morph_code FROM morphology "
+            "WHERE work_id='macula-greek-sblgnt'"):
+        add(attested, "G", row["surface_form"], row["strongs_id"], row["morph_code"])
     for row in conn.execute(
             "SELECT lemma, strongs_id FROM morphology WHERE work_id='lxx-lemmas'"):
         add(septuagint, "G", row["lemma"], row["strongs_id"])
@@ -287,18 +370,113 @@ def export_forms(conn) -> int:
         for key, ids in tier.items():
             forms.setdefault(key, ids)
 
+    grammar = read_grammar()
     shards: dict[str, dict] = defaultdict(dict)
+    parses: dict[str, dict] = defaultdict(dict)
+    used: dict[str, list] = {}
     for key, ids in forms.items():
         total = sum(ids.values())
         ranked = ids.most_common()
         if ranked[0][1] / total >= DOMINANT:
             value = ranked[0][0]
+            code = dominant_parsing(parsings.get((key, value)))
+            explained = code and explain(code, value[0], grammar)
+            if explained:
+                parses[shard_of(key)][key] = code
+                used.update(explained)
         else:
             value = [i for i, n in ranked[:MAX_CANDIDATES] if n / total >= 0.1]
         shards[shard_of(key)][key] = value
     for shard, data in shards.items():
         dump(OUT / "forms" / f"{shard}.json", dict(sorted(data.items())))
+    for shard, data in parses.items():
+        dump(OUT / "parse" / f"{shard}.json", dict(sorted(data.items())))
+    dump(OUT / "grammar.json", dict(sorted(used.items())))
     return len(shards)
+
+
+def dominant_parsing(codes: Counter | None) -> str | None:
+    if not codes:
+        return None
+    code, n = codes.most_common(1)[0]
+    return code if n / sum(codes.values()) >= DOMINANT else None
+
+
+def explain(code: str, prefix: str, grammar: dict) -> dict | None:
+    """The grammar entries a code needs, keyed as the browser looks them up: the Greek code
+    whole, a Hebrew one per segment with its language letter ("HC/Vqw3ms" is "HC" and "HVqw3ms").
+    None if any part has no reading, so a card never explains half a word."""
+    if prefix == "G":
+        parts = [code]
+    else:
+        language, rest = code[0], code[1:]
+        parts = [language + segment for segment in rest.split("/")]
+    found = {part: grammar.get(part) for part in parts}
+    return found if all(found.values()) else None
+
+
+def tidy(text: str) -> str:
+    """STEP's quoting and emphasis marks off, and its low comma (U+201A) made a comma."""
+    text = text.replace("\u201a", ",").replace("_", "")
+    return re.sub(r"\s+", " ", text).strip().strip('"').strip()
+
+
+def read_grammar() -> dict[str, list[str]]:
+    """STEPBible's plain-English reading of each morphology code: [label, meaning, example].
+
+    A record is a code line with its Function= fields, three indented lines, then "$". OSHB writes
+    a few codes STEP does not -- a proper noun without its gender ("HNp"), an infinitive without
+    its state ("HVqc") -- so a Hebrew code missing outright takes the label its whole family
+    shares ("Noun Proper name"), with no meaning or example, which would claim more than the
+    code says."""
+    grammar: dict[str, list[str]] = {}
+    for path in (next(MORPHOLOGY.glob("TEGMC*.txt")), next(MORPHOLOGY.glob("TEHMC*.txt"))):
+        code, lines = None, []
+        for line in path.read_text(encoding="utf-8-sig").splitlines():
+            if line.startswith("$"):
+                if code and len(lines) >= 2:
+                    clean = [tidy(l) for l in lines[:3]]
+                    if len(clean) == 3:  # 'Example: "of, from": "of, to"' gives two; keep one
+                        clean[2] = tidy(re.sub(r"^Example:\s*", "", clean[2]).split('": "')[0])
+                    grammar.setdefault(code, (clean + [""] * 3)[:3])
+                code, lines = None, []
+            elif line and not line[0].isspace() and "\tFunction=" in line:
+                code, lines = line.split("\t")[0].strip(), []
+            elif code and line.strip():
+                lines.append(line)
+    # TEHMC's suffix examples are swapped between singular and plural ("Sp1bs", my, is glossed
+    # "we, us, our"; "Sp1bp" "I, me, my"), so they are left off; the labels are right.
+    for code, entry in grammar.items():
+        if code[:2] in ("HS", "AS"):
+            entry[2] = ""
+    hebrew = [k for k in grammar if k[0] in "HA" and not k.startswith(("H:", "A:"))]
+
+    class WithFamilies(dict):
+        def get(self, key, default=None):
+            if key in self:
+                return self[key]
+            if key[0] not in "HA":
+                return default
+            # OSHB's infinitive "Vqc" is STEP's "Vqcc" (the state written twice), and OSHB's
+            # "common" gender STEP's "either" ("Sp1cs" is "Sp1bs").
+            for spelling in (key + key[-1], key[:2] + key[2:].replace("c", "b")):
+                if spelling in self:
+                    return self[spelling]
+            family = [self[k][0].split() for k in hebrew if k.startswith(key)]
+            if not family:
+                return default
+            shared = []
+            for words in zip(*family):
+                if len(set(words)) > 1:
+                    break
+                shared.append(words[0])
+            label = " ".join(shared).rstrip("(:;, ")
+            if not label:
+                return default
+            self[key] = [label, "", ""]
+            return self[key]
+
+    return WithFamilies(grammar)
 
 
 def main() -> int:

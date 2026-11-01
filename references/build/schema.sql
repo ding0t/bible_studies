@@ -303,6 +303,28 @@ CREATE TABLE parallel_passages (    -- passages the translators mark as telling 
 CREATE INDEX idx_parallels_ref ON parallel_passages(book, chapter, verse);
 CREATE INDEX idx_parallels_to ON parallel_passages(to_book, to_chapter, to_verse);
 
+CREATE TABLE reference_lists (      -- STEP Bible's curated lists, one row per range: the harmony of
+                                    -- the gospels, OT parallels, names of God, NT quotations of the
+                                    -- OT, miracles, prophets, the parts of each NT letter
+    work_id TEXT NOT NULL REFERENCES works(work_id),
+    list_id TEXT NOT NULL,          -- 'gospel-harmony' | 'ot-parallels' | 'divine-names' |
+                                    -- 'ot-quotations' | 'miracles' | 'prophets' | 'letter-structure'
+    entry INTEGER NOT NULL,         -- the entry's place in STEP's list; rows sharing it are one entry
+    section TEXT,                   -- STEP's sub-heading ('Miracles In The New Testament', 'False Prophets ...')
+    label TEXT NOT NULL,            -- the event, name, prophet, or (quotations, letters) the NT book or verse
+    detail TEXT,                    -- STEP's note: a name's Hebrew, a prophet's one line
+    strongs TEXT,                   -- divine names: the numbers STEP searches for, comma-separated
+    count INTEGER,                  -- divine names: STEP's occurrence count
+    role TEXT,                      -- which column the range came from: the gospel ('Matt'),
+                                    -- 'quoting'/'quoted', the letter part ('thanksgiving')
+    uncertain INTEGER NOT NULL DEFAULT 0,  -- 1 where STEP marks the range '?' (letter parts)
+    book TEXT NOT NULL,
+    chapter INTEGER NOT NULL, verse INTEGER NOT NULL,
+    end_chapter INTEGER NOT NULL, end_verse INTEGER NOT NULL
+);
+CREATE INDEX idx_lists_ref ON reference_lists(book, chapter, verse);
+CREATE INDEX idx_lists_entry ON reference_lists(list_id, entry);
+
 CREATE TABLE proper_names (         -- every individual person, place and named thing, from STEP's
                                     -- TIPNR. One row per INDIVIDUAL, not per name: the eight
                                     -- Zechariahs are eight rows, which is the point.

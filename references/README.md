@@ -21,6 +21,8 @@ A fifth, `references/build/section_index.py`, fixes a real site bug rather than 
 | Semantic domains (Louw-Nida / SDBH) | `open-data/macula-greek`, `open-data/macula-hebrew` | open (one field caveat — see [docs/content/resources/public-data-sources.md](../docs/content/resources/public-data-sources.md)) | Cite freely |
 | English translations (KJV, ASV, WEB, BSB, etc.) | `open-data/scrollmapper-bible-databases`, eBible.org sources (`ebible-eng-web`, `ebible-grcbrent`, `ebible-heb`, `ebible-grc-tisch`) | open | Quote freely, name the translation |
 | Cross-references | `open-data/scrollmapper-bible-databases` (OpenBible.info data), `open-data/stepbible-data` | open | Cite freely |
+| Harmony of the gospels, OT parallels, names of God, NT quotations of the OT, miracles, prophets, NT letter structure | STEP Bible's web app (`github.com/STEPBible/step`, BSD-3-Clause), fetched at a pinned commit by `build.py` into work `step-lists` — `bible_lists` | open | A map and a completeness check; cite STEP Bible by name, never as evidence |
+| Which ESV word renders which Hebrew/Greek word | `open-data/stepbible-data` TTESV (CC BY-NC), joined to the ESV in `study-notes.db` — `study_esv_tags` | tags restricted-nc, ESV words **quotation-only** | Check what the ESV translates; never quote the words beyond the ESV's allowance |
 | Dead Sea Scrolls (biblical) | `restricted-data/dss` | restricted-nc | Cite with attribution; never reproduce wholesale |
 | Clause syntax, coreference, Hebrew construct state / verb conjugation | `bible-text.db` `morphology` table (MACULA columns) — `query.py syntax` / `bible_syntax` | open | Cite freely; see the syntax section below for what the annotation does and doesn't cover |
 | Hebrew paragraph/pericope divisions (samekh/pe markers) for concordance chunking | `open-data/hebrew-vocab-tools` — ingested as work `hebrew-vocab-tools-pericopes` | open (CC BY 4.0) | Cite freely with attribution; used by [word-study-method.md](../.claude/skills/develop-bible-study/word-study-method.md) for Hebrew concordance grouping |
@@ -256,6 +258,37 @@ names --book Exod --chapter 4 --verse 14`, or `bible_names`; `passage_brief` ret
 to commit `7eb18a5`: 1,342 places, 1,335 with coordinates. Each keeps its best identification's
 score (0-1000) and the alternatives, because many sites are disputed: Emmaus has six candidates,
 the best at 338. 1,172 link to a TIPNR individual; `bible_names` attaches the location.
+
+## STEP Bible's reference lists: the harmony, parallels and names of God
+
+**`reference_lists` — STEP's curated lists, one row per range.** Seven lists from STEP Bible's own
+web app, which its STEPBible-Data repo does not carry: the **harmony of the gospels** (174 events,
+each with every gospel's account), **OT parallels** (146: Kings beside Chronicles, the Ten
+Commandments in Exodus and Deuteronomy), the **names of God** (with Hebrew, Strong's numbers and
+STEP's counts: El Ro'i at Genesis 16:13 is one occurrence), **NT quotations of the OT** (471),
+**miracles**, **prophets** (true, unnamed and false) and the **parts of each NT letter**
+(salutation, thanksgiving, body opening and closing, greetings, signature, benediction; a range STEP
+marks "?" is kept as `uncertain`). The app's repo is 525 MB, so `build.py` fetches the seven JSON
+files at one pinned commit (`STEP_APP_COMMIT`) into the build cache, as it does the geocoding data.
+`ot_in_nt_refs`' third column is the ESV's wording of the quotation and is dropped on the way in.
+
+The harmony's and the OT parallels' pairings also go into **`parallel_passages`** under work
+`step-lists`, beside the BSB's, so `bible_section`, `passage_brief`'s `structure` and `review_gaps`
+report every account of a gospel event with no second code path. `bible_lists` (or
+`query.lookup_lists`) answers "which entries touch this passage" or returns a whole list in order;
+`passage_brief` returns the entries touching its passage under `structure.lists`.
+`export_harmony.py` writes the harmony to `docs/data/gospel-harmony.json`, which the timeline reads
+to put "Also told in …" under an event citing a gospel passage.
+
+STEP's chronology (743 entries) is fetched the same way for **`step_chronology_check.py`**, which
+compares this site's dates with STEP's `Hebrew_200_15` scheme (Masoretic numbers, 215 years in
+Egypt, 15th-century Exodus, the line this site works to). STEP's AM and this site's AM are
+different years — this site's AM 0 is 3959 BC, Ussher's 4004, STEP's timeline axis 4174 — so the
+check compares AM with AM only where both are counting Genesis, compares calendar years after
+Abram's call, and converts only this site's AM, by this site's own epoch. Measured 2026-11-01: 44
+events matched, 32 to the year, 10 within five years; Malachi (430 BC here, 397 BC in STEP) is the
+one real gap. It reports and never edits. STEP's genealogy app is built from TIPNR, which
+`genealogy_check.py` already compares, so it adds nothing to check against.
 
 ## unfoldingWord: the alignment and the grammar
 
@@ -770,6 +803,18 @@ sqlite3 "file:$BIBLE_MEDIA_ROOT/local-only-build/study-notes.db?immutable=1" \
 ```
 
 `quotation-only` means: fine — expected, even — to quote a sentence or two with attribution in a study's own References section (see the skill's Phase 7). Not fine: bulk-exporting this database's contents, or reproducing a full note/article verbatim into a committed file.
+
+**`esv_tags` — an ESV interlinear.** STEP's TTESV (Tyndale House, CC BY-NC 4.0, in
+`open-data/stepbible-data/Tagged-Bibles/`) tags the most significant ESV word for each Hebrew and
+Greek word by its *position* in the verse; it carries no ESV text, because Crossway's licence does
+not let it. The ESV text is already here, so `build_study_notes.py` joins them here (run it with
+`--esv-tags` to add the table to an existing database without re-extracting the EPUBs). The
+positions count words in the ESV 2011/2016 text, which is the edition in `verses`; splitting on
+letters and apostrophes, with a hyphen splitting a word, leaves 0.57% of 366,199 tags pointing past
+their verse, and `study_esv_tags` reports those verses as `aligned: false` with no words rather
+than a word that may be wrong. A different ESV edition (the 2025 text, say) would drift wherever
+its wording changed, so keep the tags paired with the 2016 text. Genesis 16:13 shows the use: "God"
+is H410 *El* and both "seeing" and "looks" are H7210 *ro'i*, one word the ESV renders two ways.
 
 ### Two different permissions, don't conflate them
 

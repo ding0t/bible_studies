@@ -38,6 +38,8 @@ DB_PATH = Path(__file__).resolve().parent / "out" / "bible-text.db"
 REPO_ROOT = Path(__file__).resolve().parents[2]
 STRONG_ALIGNMENT = 18   # see quotations.py for the audit that set it
 MIN_VOTES = 12          # openbible's long tail is noise; this keeps the well-attested links
+# parallel_passages holds the BSB's parallel lines and STEP's harmony and OT parallels.
+PARALLEL_SOURCE = {"berean-bsb": "the BSB's", "step-lists": "STEP's harmony/OT-parallels"}
 
 
 def cited_verses(display: str) -> set[int] | None:
@@ -158,21 +160,21 @@ def gaps_for(conn: sqlite3.Connection,
 
         # a section's parallels count when the section overlaps the cited verses, in either direction
         for r in conn.execute(
-            "SELECT verse, end_verse, end_chapter, heading, to_book, to_chapter, to_verse, "
+            "SELECT work_id, verse, end_verse, end_chapter, heading, to_book, to_chapter, to_verse, "
             "to_end_verse FROM parallel_passages WHERE book=? AND chapter=?", (book, chapter)):
             if verses is None or any(r["verse"] <= v and (r["end_chapter"] > chapter or v <= r["end_verse"])
                                      for v in verses):
                 note(r["to_book"], r["to_chapter"], r["to_verse"], "parallel",
                      f"{r['to_book']} {r['to_chapter']}:{r['to_verse']}-{r['to_end_verse']} is the "
-                     f"BSB's parallel to \"{r['heading']}\"", source)
+                     f"{PARALLEL_SOURCE[r['work_id']]} parallel to \"{r['heading']}\"", source)
         for r in conn.execute(
-            "SELECT book, chapter, verse, end_verse, heading, to_verse, to_end_chapter, to_end_verse "
-            "FROM parallel_passages WHERE to_book=? AND to_chapter=?", (book, chapter)):
+            "SELECT work_id, book, chapter, verse, end_verse, heading, to_verse, to_end_chapter, "
+            "to_end_verse FROM parallel_passages WHERE to_book=? AND to_chapter=?", (book, chapter)):
             if verses is None or any(r["to_verse"] <= v and (r["to_end_chapter"] > chapter or v <= r["to_end_verse"])
                                      for v in verses):
                 note(r["book"], r["chapter"], r["verse"], "parallel",
                      f"{r['book']} {r['chapter']}:{r['verse']} (\"{r['heading']}\") names {source} "
-                     f"as its parallel", source)
+                     f"as its parallel ({PARALLEL_SOURCE[r['work_id']]})", source)
 
         for r in conn.execute(
             "SELECT DISTINCT from_verse, to_book, to_chapter, to_verse_start, votes FROM cross_references "
