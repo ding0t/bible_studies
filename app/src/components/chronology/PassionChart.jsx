@@ -3,6 +3,7 @@ import { CHRONOLOGY } from '../../utils/chronology';
 import { SHEET, packRows, placeCallouts, textWidth } from '../../utils/historyChart';
 import { chip, studyUrl, theme } from './shared';
 import { civilDay, clock, gospelHour } from './DatedSequence';
+import Harmony from './Harmony';
 
 // The printable chart for the AD 33 periods (Passion week, the betrayal, the crucifixion, the three
 // days, the resurrection, Passover to Pentecost): one A4 sheet whose axis is the period's hours,
@@ -327,6 +328,7 @@ export default function PassionChart({ period }) {
               {selected.when}
               {selected.refs && ` · ${selected.refs}`}
             </div>
+            <Harmony refs={selected.refs} theme={theme} />
             {selected.note && <p style={{ fontSize: '0.85rem', margin: '0 0 0.5rem' }}>{selected.note}</p>}
             {selected.study_ref && (
               <a href={studyUrl(selected.study_ref.split('#')[0])} style={{ fontSize: '0.85rem' }}>

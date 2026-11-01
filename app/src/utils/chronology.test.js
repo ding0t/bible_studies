@@ -14,6 +14,7 @@ import {
   eventsForPerson,
   GENEALOGY_INDEX,
   VARIANTS,
+  harmonyFor,
 } from './chronology.js';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -267,5 +268,12 @@ assert(2148 - rebekah.zadok_year_born < 30, 'Rebekah is a young woman when Isaac
 const abrahamEvents = eventsForPerson('abraham').map((e) => e.id);
 assert(abrahamEvents.includes('abram_called') && abrahamEvents.includes('isaac_born'), "Abraham's call and Isaac's birth are the Genesis markers, not copies of them");
 assert(eventsForPerson('jesus').some((e) => e.source === 'passion' && e.id === 'crucified'), "Jesus's crucifixion is the AD 33 sequence's event, not a copy");
+
+const baptism = harmonyFor('Matthew 3:13-17; Mark 1:9-11; Luke 3:21-23');
+assert(baptism.length === 1 && baptism[0].label === 'Baptism of Jesus' && baptism[0].others.join() === 'John 1:29–34',
+  "the baptism's harmony adds John's account, and not the genealogy that Luke 3:23 merely touches");
+assert(harmonyFor('Genesis 1:1').length === 0 && harmonyFor(null).length === 0, 'a passage outside the gospels has no harmony');
+const supper = harmonyFor('Mark 14:22');
+assert(supper.some((h) => h.label === 'Passover and Last Supper' && h.others.length === 3), 'one verse of Mark brings the other three accounts');
 
 console.log('\n✨ All tests passed!\n');

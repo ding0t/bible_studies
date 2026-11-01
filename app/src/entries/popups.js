@@ -413,7 +413,7 @@ async function render() {
   body.replaceChildren(el('p', { class: 'pop-muted' }, 'Loading…'));
   try {
     if (item.kind === 'ref') await renderVerse(item.value, item.context);
-    else await renderWord(item.value);
+    else await renderWord(item.value, item.form);
   } catch {
     body.replaceChildren(el('p', { class: 'pop-muted' }, 'This could not be loaded. The reference is left as written.'));
   }
@@ -591,7 +591,7 @@ async function commentaryUrl(ref) {
 // ---------------------------------------------------------------------------------------------
 // Words
 
-async function renderWord(id) {
+async function renderWord(id, form) {
   const prefix = id[0];
   const number = parseInt(id.slice(1), 10);
   title.textContent = `${prefix === 'H' ? 'Hebrew' : 'Greek'} word · ${id}`;
@@ -603,7 +603,8 @@ async function renderWord(id) {
     return;
   }
   const semitic = word.lang === 'Hebrew' || word.lang === 'Aramaic' || prefix === 'H';
-  title.textContent = `${word.lang || (semitic ? 'Hebrew' : 'Greek')} ${word.p} · ${id}`;
+  const language = word.lang && word.lang !== 'name' ? word.lang : semitic ? 'Hebrew' : 'Greek';
+  title.textContent = `${language} ${word.p} · ${id}`;
 
   const times = (n) => `${n.toLocaleString()} ${n === 1 ? 'time' : 'times'}`;
   const counts = [];
@@ -621,6 +622,21 @@ async function renderWord(id) {
     el('p', { class: 'pop-gloss' }, word.g),
     el('p', { class: 'pop-counts' }, counts.join(' \u00b7 ')),
   ];
+
+  // A name spelled in both testaments: Jesse is H3448 in the OT and G2421 in the NT.
+  for (const other of word.x ?? []) {
+    const where = other.ot !== undefined ? `${times(other.ot)} in the Old Testament` : `${times(other.nt)} in the New Testament`;
+    parts.push(
+      el('p', { class: 'pop-counts' },
+        `${other.ot !== undefined ? 'The Hebrew' : 'The Greek'} spelling, `,
+        el('button', { type: 'button', class: 'pop-link', onclick: () => navigate({ kind: 'word', value: other.id }) }, other.id),
+        `, occurs ${where}.`)
+    );
+  }
+
+  const parsed = await parseOf(form, prefix);
+  if (parsed) parts.push(parsed);
+  if (word.w?.length) parts.push(whoItIs(word));
 
   // Where the word is. A rare word lists every verse, and each opens in this card -- which is
   // also how a reader checks a study's "only here" for themselves. A common word shows where it
@@ -667,10 +683,49 @@ async function renderWord(id) {
 
   parts.push(
     el('p', { class: 'pop-source' }, semitic
-      ? 'Lexicon: STEPBible.org (CC BY). Counts, places and renderings: MACULA Hebrew (CC BY 4.0).'
-      : 'Lexicon: STEPBible.org (CC BY). Counts, places and renderings: MACULA Greek (CC BY 4.0); Septuagint count: Open Scriptures.')
+      ? 'Lexicon, grammar and names: STEPBible.org (CC BY). Counts, places and renderings: MACULA Hebrew (CC BY 4.0); parsing: OSHB.'
+      : 'Lexicon, grammar and names: STEPBible.org (CC BY). Counts, places, renderings and parsing: MACULA Greek (CC BY 4.0); Septuagint count: Open Scriptures.')
   );
   body.replaceChildren(...parts);
+}
+
+// The grammar of the form on the page, when one parsing covers it: "Noun Accusative Singular
+// Masculine Individual -- a male PERSON that is having something done to them". A Hebrew code is
+// read a segment at a time, so וַיֹּאמֶר is a conjunction, then the verb.
+async function parseOf(form, prefix) {
+  if (!form || !scriptOf(form)) return null;
+  const key = formKey(form.trim());
+  const code = (await load(`parse/${formShard(key)}.json`).catch(() => ({})))[key];
+  if (!code) return null;
+  const grammar = await load('grammar.json');
+  const parts = prefix === 'G' ? [code] : code.slice(1).split('/').map((s) => code[0] + s);
+  const readings = parts.map((p) => grammar[p]).filter(Boolean);
+  if (readings.length !== parts.length) return null;
+  return el('div', { class: 'pop-section' },
+    el('span', { class: 'pop-label' }, `This form, ${form.trim()}`),
+    readings.map(([label, meaning, example]) =>
+      el('p', { class: 'pop-grammar' },
+        el('strong', {}, label.replace(/\s+:\s+/, ' ')),
+        meaning ? ` \u2014 ${meaning.toLowerCase()}` : '',
+        example ? el('span', { class: 'pop-muted' }, ` (e.g. \u201c${example}\u201d)`) : ''))
+  );
+}
+
+// Who a name is. STEP files each individual under the number, so a name shared by several people
+// lists them all; the family tree link opens the person on the timeline when this site has them.
+function whoItIs(word) {
+  // TIPNR's own field names: a "partner" is Sarah and Hagar alike, which "married to" would not say.
+  const family = (label, names) => names?.length ? el('span', { class: 'pop-muted' }, ` ${label}: ${names.join(', ')}.`) : '';
+  const more = word.wn ? el('p', { class: 'pop-muted' }, `${word.wn - word.w.length} more individuals share this name.`) : '';
+  return el('div', { class: 'pop-section' },
+    el('span', { class: 'pop-label' }, word.w.length === 1 ? 'Who this is' : 'Who this may be'),
+    el('ul', { class: 'pop-studies' }, word.w.map((p) =>
+      el('li', {},
+        el('strong', {}, p.n), p.d ? ` \u2014 ${p.d.replace(/\.$/, '')}.` : '',
+        family('Parents', p.pa), family('Partners', p.sp), family('Children', p.ch),
+        p.id ? [' ', el('a', { href: new URL(`timeline/#view=family&person=${p.id}`, SITE).href }, 'Family tree \u2192')] : ''))),
+    more
+  );
 }
 
 async function studiesUsing(id) {
@@ -703,7 +758,9 @@ function openFrom(node, pin) {
     else pinned = pinned || pin;
     return;
   }
-  show(refs.get(node), node, pin);
+  // A word keeps the spelling the reader pointed at, so the card can parse that form.
+  const item = refs.get(node);
+  show(item.kind === 'word' ? { ...item, form: node.textContent } : item, node, pin);
 }
 
 function init() {

@@ -179,6 +179,9 @@ button.pop-chip:hover {
   font-size: 0.9rem;
   font-weight: 700;
 }
+.pop-grammar {
+  margin: 0.2rem 0 0 !important;
+}
 .pop-counts,
 .pop-muted {
   color: var(--md-default-fg-color--light);

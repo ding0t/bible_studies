@@ -17,6 +17,8 @@ import conquestJudges from '../../../docs/data/genealogy/conquest-judges.json' w
 import dividedKingdom from '../../../docs/data/genealogy/divided-kingdom.json' with { type: 'json' };
 import exileReturn from '../../../docs/data/genealogy/exile-return.json' with { type: 'json' };
 import secondTemple from '../../../docs/data/genealogy/second-temple.json' with { type: 'json' };
+import harmony from '../../../docs/data/gospel-harmony.json' with { type: 'json' };
+import { findRefs, formatRef } from './scriptureRefs.js';
 
 export const CHRONOLOGY = chronology;
 
@@ -186,4 +188,35 @@ export function mergePeopleWithVariant(people, variantId) {
 
 export function getMillennialDay(amYear) {
   return chronology.millennial_days.find((d) => amYear >= d.am_start && amYear < d.am_end) ?? null;
+}
+
+
+// STEP Bible's harmony of the gospels (docs/data/gospel-harmony.json, from export_harmony.py): for
+// an event citing a gospel passage, the same event in the gospels it does not cite. The baptism
+// cites Matthew, Mark and Luke; the harmony adds John 1:29-34. Capped, because a citation of whole
+// chapters ("Matthew 5-7") touches a dozen events and the point is the parallel, not an index.
+const MAX_HARMONY = 3;
+
+// Two ranges that only touch at one end verse are neighbours, not the same event: the baptism's
+// Luke 3:21-23 ends where the genealogy's 3:23-38 begins.
+function overlaps(a, b) {
+  if (a.book !== b.book) return false;
+  const key = (c, v) => c * 1000 + v;
+  const [a1, a2] = [key(a.c1, a.v1 ?? 0), key(a.c2 ?? a.c1, a.v2 ?? 999)];
+  const [b1, b2] = [key(b.c1, b.v1 ?? 0), key(b.c2 ?? b.c1, b.v2 ?? 999)];
+  const [from, to] = [Math.max(a1, b1), Math.min(a2, b2)];
+  return from < to || (from === to && (a1 === a2 || b1 === b2));
+}
+
+export function harmonyFor(refsText) {
+  if (!refsText) return [];
+  const cited = findRefs(refsText).map((r) => r.ref).filter((r) => r.book && r.c1 !== undefined);
+  const found = [];
+  for (const event of harmony.events) {
+    if (!event.accounts.some((a) => cited.some((c) => overlaps(a, c)))) continue;
+    const others = event.accounts.filter((a) => !cited.some((c) => overlaps(a, c)));
+    if (others.length) found.push({ label: event.label, others: others.map(formatRef) });
+    if (found.length === MAX_HARMONY) break;
+  }
+  return found;
 }

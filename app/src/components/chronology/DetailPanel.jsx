@@ -1,6 +1,7 @@
 import React from 'react';
 import { amToGregorian } from '../../utils/chronology';
 import { VARIANT_META, CERTAINTY_META, formatGregorian, studyUrl } from './shared';
+import Harmony from './Harmony';
 
 export default function DetailPanel({ selected, theme, activeEpochs, markerDate }) {
   if (!selected) return null;
@@ -46,6 +47,7 @@ export default function DetailPanel({ selected, theme, activeEpochs, markerDate 
               style={{ maxWidth: '100%', maxHeight: '12rem', borderRadius: '0.4rem', margin: '0.3rem 0' }}
             />
           )}
+          <Harmony refs={selected.scripture} theme={theme} />
           <p style={{ margin: 0 }}>{selected.evidence ?? selected.note ?? selected.description}</p>
           {(selected.study_ref || selected.url) && (
             <a
@@ -64,6 +66,7 @@ export default function DetailPanel({ selected, theme, activeEpochs, markerDate 
             {selected.when} · {selected.refs}
             {selected.timing === 'approx' ? ' · hour placed within the order the text gives' : ''}
           </div>
+          <Harmony refs={selected.refs} theme={theme} />
           <p style={{ margin: 0 }}>{selected.note}</p>
           {selected.study_ref && (
             <a

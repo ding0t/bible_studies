@@ -24,6 +24,7 @@ import {
   textWidth,
 } from '../../utils/historyChart';
 import DanielKingdoms from './DanielKingdoms';
+import Harmony from './Harmony';
 import { CORE_ONLY_SPAN, chip, sectionLabel, studyUrl, theme } from './shared';
 
 // The printable chart: the chronology as A4 sheets, drawn from the same events as the timeline.
@@ -266,6 +267,7 @@ function Detail({ item, onClose, card }) {
           {item.am != null && ` · AM ${Math.round(item.am)}`}
           {item.refs && ` · ${item.refs}`}
         </div>
+        <Harmony refs={item.refs} theme={theme} />
         {(item.note || item.description || item.evidence) && (
           <p style={{ fontSize: '0.85rem', margin: '0 0 0.5rem' }}>
             {item.note ?? item.description ?? item.evidence}
