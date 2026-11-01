@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Corinthians 6:12-20"
 bible_references: ["Genesis 2:24", "Genesis 39:9-12", "Exodus 32:6", "Leviticus 17:8-13", "Leviticus 18:24-26", "Numbers 25:1-2", "Deuteronomy 10:20", "Proverbs 6:32", "Matthew 5:27-28", "Matthew 15:19", "Matthew 19:4-6", "Mark 7:21-23", "Acts 15:20", "1 Corinthians 3:16", "1 Corinthians 5:1", "1 Corinthians 6:9-11", "1 Corinthians 7:2-4", "1 Corinthians 7:23", "1 Corinthians 10:13-14", "1 Corinthians 10:23", "2 Corinthians 11:2", "Ephesians 5:3", "Ephesians 5:31-32", "1 Thessalonians 4:3-8", "Hebrews 4:15-16", "Hebrews 13:4", "1 Peter 1:18-19", "1 John 1:9", "Revelation 5:9", "Deuteronomy 11:22", "Deuteronomy 30:20", "Joshua 23:8", "Jeremiah 3:20", "Malachi 2:14", "James 4:4", "2 Timothy 2:22"]
 date_created: 2026-01-11
-date_modified: 2026-10-17
+date_modified: 2026-11-01
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -61,14 +61,16 @@ body.
   bought with a price, and the price was Christ's blood (1 Corinthians 6:20; 1 Peter 1:18-19).
 - **Do.** Name the place, the screen, the hour or the friendship where temptation reliably meets
   you, and decide now how you will leave it. Joseph's escape took one decision made in advance and
-  a pair of legs (Genesis 39:12).
+  a pair of legs (Genesis 39:12). Then each morning this week, name that place to God and ask Him
+  for the strength to leave it, as Jesus told His disciples: "Watch and pray that you may not enter into temptation" (Matthew 26:41,
+  ESV). The flesh is weak, and God is faithful to provide the way of escape (1 Corinthians 10:13).
 
 ### Prayer
 
 Father, you made our bodies, and your Son Jesus bought them with His blood. Your Spirit lives in
 us, and you have promised to raise us as you raised Him. Teach us to treat what you own as yours.
-Where we have sinned with our bodies, wash us as you washed the Corinthians, and make us run when
-temptation comes. Thank you that such were some of us, and that we are washed, sanctified and
+Where we have sinned with our bodies, wash us as you washed the Corinthians, and give us your strength
+to run when temptation comes. Thank you that such were some of us, and that we are washed, sanctified and
 justified in His name.
 
 In Jesus' name. Amen.
@@ -419,7 +421,7 @@ with His Spirit, so you may flee immorality and glorify God in your body.
    the resurrection answer them (1 Corinthians 6:14)?
 6. **Be transformed.** Joseph decided why he would refuse before the day she caught his garment
    (Genesis 39:9, 12). What is your way of escape (1 Corinthians 10:13), and what would it take to
-   decide on it before you need it?
+   decide on it, and pray for strength to take it, before you need it (Matthew 26:41)?
 
 ## References & Recommended Reading
 
