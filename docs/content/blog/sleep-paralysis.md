@@ -3,9 +3,9 @@ title: "Dreams: Sleep Paralysis"
 category: "dreams"
 description: "Personal experience with sleep paralysis and spiritual significance"
 tags: ["dreams", "sleep-paralysis", "spiritual-warfare", "angelic-presence"]
-draft: false
+draft: true
 date_created: 2025-04-24
-date_modified: 2026-10-19
+date_modified: 2026-11-01
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
