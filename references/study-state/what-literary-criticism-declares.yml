@@ -1,0 +1,81 @@
+slug: "what-literary-criticism-declares"
+title: "What Literary Criticism Declares"
+status: review # drafted 2026-11-03 after the author approved the proposal ("go ahead as recommended") and asked for prophecy as a standalone validator
+target_path: "docs/content/scripture/what-literary-criticism-declares.md"
+series_note: "Fourth of the 'declares' studies: What Creation Declares (god/), What World Population Declares and What Languages Declare (chronology/). Shape to follow: Part one what Scripture says, Part two what the data says, a 'Where this argument is weak' section, Part three what it declares."
+
+primary_passage: "Hebrews 1:1-2"
+supporting_passages:
+  - "1 Peter 1:10-12"   # prophets searched what the Spirit indicated; served you, not themselves
+  - "2 Peter 1:20-21"   # men spoke from God carried along by the Holy Spirit
+  - "Luke 24:27, 44"    # Moses, Prophets, Psalms -> Christ
+  - "Isaiah 46:9-10"    # declaring the end from the beginning (series verb)
+  - "2 Timothy 3:16"
+  - "John 5:39, 46"
+sibling_studies:
+  - {slug: "scripture/what-the-links-reveal.md", role: cited, use: build-on, note: "already analyses scripture_links (quotation tiers, most-quoted verses, Revelation's allusive style); this study adds dates/authors and time-gap measures. Its 'What readers connect' section draws on openbible-crossrefs, which is missing Revelation (see open_questions)"}
+  - {slug: "scripture/how-to-read-the-bible.md", role: prose, use: link, note: "method"}
+  - {slug: "scripture/ancient-texts-manuscripts.md", role: prose, use: link, note: "manuscripts / DSS dates"}
+  - {slug: "god/creation-reveals-the-creator.md", role: prose, use: link, note: "series sibling"}
+  - {slug: "chronology/what-languages-declare.md", role: prose, use: link, note: "series sibling; model for 'Where this argument is weak'"}
+genre: [topical, epistle]
+
+thesis: "By literary criticism's own count the Bible is the work of many writers across more than eight centuries, and the measurements show one connected story whose prophecies were written, and survive in copies, before the events they name; that is what Scripture says of itself (Hebrews 1:1-2; Isaiah 46:10)."
+outline:
+  - {section: "Part one: what Scripture says", says: "Hebrews 1:1-2 many parts/ways, one Speaker; 1 Peter 1:10-12 prophets searched their own words; Isaiah 41-48 prediction as God's test (nagad); Luke 24:27, 44"}
+  - {section: "Part two: what literary criticism says", says: "the method, sourced from ESV SB intros; its count gives 44 writers, more than 38; span floor 856 years on critics' own stated dates"}
+  - {section: "Part three: what the measurements say", says: "authorship table; one web (72,094 links, one component, writers within 2 steps); quotation reach; Genesis 1-3 / Revelation 20-22; stylometry detects writers but does not split Isaiah; deuterocanon control 4.5 vs 1.0 per 1000"}
+  - {section: "Part four: prophecy, a test of its own", says: "three dates (traditional, latest critical, oldest witness); 13/13 messianic prophecies precede on critical dates, Greek by 132 BC, 3 in 1QIsa-a; history group honest about critical redating; Daniel 9:26 contested"}
+  - {section: "Where this argument is weak", says: "chosen quotation, canon selection, redaction, fulfilment is the NT's claim, no odds"}
+  - {section: "Part five: what literary criticism declares", says: "inspiration: one Author through many hands, about His Son; so you may read the Bible as one book and trust His word"}
+word_budget: 6000
+word_budget_reason: "Series precedent: What Languages Declare runs ~6,100 words and What World Population Declares ~7,200, because Part two carries data. Method detail goes to an Annex, which Check 23 still counts; revisit after drafting."
+
+data_findings_2026_11_03:
+  intros_available: "ESV Study Bible book introductions cover 60 of 66 books with Author/Date sections (Samuel, Kings and Chronicles are combined; Psalms, Song of Songs and Revelation are missing). The CSB Ancient Faith 'Circumstances of Writing' sections cover Psalms, Song and Revelation. The ESV SB intros also state the critical view where it differs (Genesis: final form 5th c. BC; Daniel: 2nd c. BC), which lets a dual-dating table be sourced from the study notes for the contested books."
+  openbible_revelation_bug: "cross_references (work openbible-crossrefs) holds ZERO Revelation rows. The scrollmapper cross_references_*.db shards name the book 'Revelation'; book_map.SCROLLMAPPER_NAME_TO_OSIS only has 'Revelation of John', so build.py ingest_scrollmapper_crossrefs silently drops 15,726 from-rows and 24,508 to-rows (~40k of ~871k). Fix: add 'Revelation': 'Rev' to the map and rebuild; then re-run export_popups.py and check what-the-links-reveal.md's counts."
+  connectivity_probe_pre_fix: "Book pairs linked by OpenBible cross-refs (66 books, 2,145 pairs, Revelation absent): any votes 1,972 (92%); votes>=10 1,376 (64%); votes>=50 565 (26%). Re-run after the fix."
+  deuterocanon_control_caution: "quotation-greek has 0 links into the deuterocanon, but link_lab.py excludes DEUTERO books from the LXX side by construction (lines 343, 388, 448, 752). The zero is the method's, not the text's. A control needs the method re-run with deuterocanon included."
+
+stages:
+  scoping:
+    done: false
+    notes: ""
+  exegesis:
+    historical_context: {done: false, notes: ""}
+    literary_context: {done: false, notes: ""}
+    content_word_studies:
+      done: false
+      notes: ""
+      terms:
+        - {word: "πολυμερῶς καὶ πολυτρόπως", language: greek, transliteration: "polymerōs kai polytropōs", strongs_id: "G4181, G4187", gloss: "in many parts and in many ways", notes: "Hebrews 1:1; TODO verify counts (each a NT hapax?) before any 'only here' claim"}
+  hermeneutics:
+    cultural_vs_transcultural: {done: false, notes: ""}
+    theological_principle: {done: false, notes: ""}
+    application_draft: {done: false, notes: ""}
+  cross_reference: {done: false, cross_refs: [], translations_compared: [], divergences_noted: ""}
+  drafting: {done: false, file: ""}
+  review: {done: false, validated: false}
+
+evidence:
+  - {claim: "πολυμερῶς and πολυτρόπως occur only at Hebrews 1:1 in the NT", tool: bible_concordance, args: {strongs: G4181, work_id: macula-greek-sblgnt}, expect: "1 row, Heb 1:1 (G4187 likewise)"}
+  - {claim: "Isaiah uses נגד (H5046) 32 times", tool: bible_concordance, note: "count_only without work_id returns 64 = two Hebrew works (morphhb-wlc, macula-hebrew-wlc) at 32 each; first draft said 64 -- caught on review"}
+  - {claim: "LXX Isaiah 7:14 reads παρθένος; MT הָעַלְמָה H5959", tool: bible_verse}
+  - {claim: "Psalm 22:17 MT כָּאֲרִי; LXX 21:17 ὤρυξαν; 5/6HevPs reads כרה with 5 extant words", tool: dss_variants}
+  - {claim: "Sirach prologue: αὐτὸς ὁ νόμος, καὶ αἱ προφητεῖαι, καὶ τὰ λοιπὰ τῶν βιβλίων; 38th year of Euergetes; Sirach 49:10 τῶν δώδεκα προφητῶν", tool: bible_verse, args: {book: Sir, chapter: 1, verse: 1, translation: ebible-grcbrent}}
+  - {claim: "ESV Ezekiel 36:24", tool: study_verse, args: {book: Ezek, chapter: 36, verse: 24, work_id: esv-study-bible}, expect_contains: "I will take you from the nations and gather you from all the countries and bring you into your own land", checked: 2026-11-04}
+  - {claim: "all figures in Parts two-four", tool: "references/build/unity_measures.py", expect: "docs/data/unity-measures.json"}
+
+open_questions:
+  - "132 BC for the Sirach prologue converts 'the 38th year of Euergetes' (Ptolemy VIII); the conversion is standard but not verified against a source in this repo."
+  - "Zechariah 9-14: some critics date it later than the 5th century; no source consulted gives a date, so the critical column uses the book's range. Any date before the Greek translation (by 132 BC) leaves the messianic lead intact."
+  - "Stylometry may separate Isaiah 1-39 from 40-66 and the Pastorals from Paul's other letters, the critics' own arguments. Report whatever it shows; author to decide whether the study runs it."
+  - "Critical-date column: source each entry (ESV SB states the critical view for the contested books); entries without a source stay blank rather than recalled."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible introductions", author: "Crossway", note: "Author/Date sections, 60 books"}
+  - {type: commentary, title: "CSB Ancient Faith Study Bible", author: "Holman", note: "Circumstances of Writing for Psalms, Song, Revelation"}
+resolved_2026-11-04:
+  - "Revelation cross-reference drop fixed (book_map 'Revelation'), database rebuilt, pop-ups and links re-exported (author approved)."
+  - "Graphic drawn: utils/build_criticism_graphics.py -> assets/img/what-literary-criticism-declares/one-web.svg, arcs from unity-measures.json links.<scheme>.arcs; embedded under 'One web'."
+  - "Regathering fork not needed: israel-and-church/israels-regathering-and-refining.md (published) already weighs 1948; Part four now says why it is left out of the test and links its #about-1948."
+last_updated: "2026-11-04"

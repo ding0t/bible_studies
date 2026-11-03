@@ -1,0 +1,726 @@
+# Who wrote each book of the Bible, when, where, and in what language -- under two dating schemes.
+#
+# Read by references/build/unity_measures.py (What Literary Criticism Declares). Every value is
+# sourced; nothing is recalled. Years are integers, negative for BC (-1446 = 1446 BC), and a range
+# is [earliest, latest] for when the book reached the form we have.
+#
+#   date            the traditional / conservative date, from the ESV Study Bible introduction
+#                   (book or section) unless date_source says otherwise
+#   critical        the date critical scholarship assigns, ONLY where the source itself states it
+#                   (the ESV Study Bible introductions report the critical view where it differs).
+#                   Absent means no source consulted gives a different date -- it does NOT mean
+#                   critics agree. The measures treat it as "same as traditional" and say so.
+#   author          as the source states it; "anonymous" where the book names no author and the
+#                   source does not settle one
+#   author_key      groups books by writer for counting distinct authors. Anonymous books get their
+#                   own key, so they count once each (the conservative choice: fewer authors).
+#   written_from    only where Scripture or the source places the writing; absent otherwise
+#   region          the continent of written_from; for Old Testament books with no written_from,
+#                   the land of Israel (Asia), where the source places the author. Absent where
+#                   neither Scripture nor the source places the writing (Luke, Galatians, Hebrews...)
+#   critical_author_key  the writer the critical view assigns where it denies the traditional one
+#                   (the ESV SB names the view for these books: Daniel, the Pastorals, Ephesians,
+#                   2 Thessalonians, 1 Peter). critical_parts splits Isaiah the way the critical
+#                   view does: "late eighth", "middle of the sixth" and "sometime in the fifth"
+#                   century, rendered as the ranges below.
+#   language        "hebrew", "aramaic" or "greek"; aramaic_portion lists the passages, counted
+#                   from the morphhb-wlc morphology (A-prefixed morph codes)
+#
+# Sources: ESV Study Bible (Crossway), book introductions and the section introductions to 1-2
+# Samuel, 1-2 Kings, 1-2 Chronicles, Psalms, Song of Solomon and Revelation; CSB Ancient Faith Study
+# Bible (Holman) where noted.
+
+[[book]]
+id = "Gen"
+author = "Moses"
+author_key = "moses"
+date = [-1446, -1406]
+date_note = "Moses lived in the 1500s or 1300s BC; the early-exodus date is used throughout"
+critical = [-500, -400]
+critical_note = "final form in the fifth century BC (ESV SB on the critical view of the Pentateuch)"
+written_from = "wilderness of Sinai and plains of Moab"
+region = "Asia"
+language = "hebrew"
+aramaic_portion = "Genesis 31:47 (two words)"
+genre = "narrative"
+
+[[book]]
+id = "Exod"
+author = "Moses"
+author_key = "moses"
+date = [-1446, -1406]
+critical = [-500, -400]
+critical_note = "as Genesis"
+written_from = "wilderness of Sinai"
+region = "Asia"
+language = "hebrew"
+genre = "narrative-law"
+
+[[book]]
+id = "Lev"
+author = "Moses"
+author_key = "moses"
+date = [-1446, -1406]
+critical = [-500, -400]
+critical_note = "as Genesis"
+written_from = "wilderness of Sinai"
+region = "Asia"
+language = "hebrew"
+genre = "law"
+
+[[book]]
+id = "Num"
+author = "Moses"
+author_key = "moses"
+date = [-1446, -1406]
+critical = [-500, -400]
+critical_note = "as Genesis"
+written_from = "wilderness and plains of Moab"
+region = "Asia"
+language = "hebrew"
+genre = "narrative-law"
+
+[[book]]
+id = "Deut"
+author = "Moses"
+author_key = "moses"
+date = [-1406, -1406]
+critical = [-622, -539]
+critical_note = "time of Josiah (late 7th c.) or edited in the exile (6th c.) (ESV SB)"
+written_from = "plains of Moab"
+region = "Asia"
+language = "hebrew"
+genre = "law"
+
+[[book]]
+id = "Josh"
+author = "anonymous"
+author_key = "anon-joshua"
+date = [-1400, -1050]
+date_note = "original composition 'likely much earlier' than its final editing (ESV SB); before David took Jerusalem (Joshua 15:63)"
+critical = [-587, -539]
+critical_note = "final editing possibly exilic, post-587 BC (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "narrative"
+
+[[book]]
+id = "Judg"
+author = "anonymous"
+author_key = "anon-judges"
+date = [-1050, -970]
+date_note = "after the mid-11th century, most likely by David's time (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "narrative"
+
+[[book]]
+id = "Ruth"
+author = "anonymous"
+author_key = "anon-ruth"
+date = [-1010, -930]
+date_note = "any time after 1010 BC (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "narrative"
+
+[[book]]
+id = "1Sam"
+author = "anonymous"
+author_key = "anon-samuel"
+date = [-1000, -925]
+date_note = "composed in stages; final editing late 10th century BC (ESV SB, Introduction to 1-2 Samuel)"
+region = "Asia"
+language = "hebrew"
+genre = "narrative"
+
+[[book]]
+id = "2Sam"
+author = "anonymous"
+author_key = "anon-samuel"
+date = [-1000, -925]
+date_note = "as 1 Samuel"
+region = "Asia"
+language = "hebrew"
+genre = "narrative"
+
+[[book]]
+id = "1Kgs"
+author = "anonymous"
+author_key = "anon-kings"
+date = [-561, -539]
+date_note = "after Jehoiachin's release in 561 BC (2 Kings 25:27-30); Jewish tradition names Jeremiah (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "narrative"
+
+[[book]]
+id = "2Kgs"
+author = "anonymous"
+author_key = "anon-kings"
+date = [-561, -539]
+date_note = "as 1 Kings"
+region = "Asia"
+language = "hebrew"
+genre = "narrative"
+
+[[book]]
+id = "1Chr"
+author = "anonymous (the Chronicler)"
+author_key = "chronicler"
+date = [-400, -350]
+date_note = "c. 400 BC or some decades later; Jewish tradition names Ezra (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "narrative"
+
+[[book]]
+id = "2Chr"
+author = "anonymous (the Chronicler)"
+author_key = "chronicler"
+date = [-400, -350]
+date_note = "as 1 Chronicles"
+region = "Asia"
+language = "hebrew"
+genre = "narrative"
+
+[[book]]
+id = "Ezra"
+author = "Ezra (chapters 7-10 in the first person)"
+author_key = "ezra"
+date = [-450, -400]
+date_note = "events run to Ezra's arrival in 458 BC and after (ESV SB)"
+region = "Asia"
+language = "hebrew"
+aramaic_portion = "Ezra 4:8-6:18; 7:12-26"
+genre = "narrative"
+
+[[book]]
+id = "Neh"
+author = "anonymous, using Nehemiah's records; probably the author of Ezra"
+author_key = "ezra"
+date = [-430, -400]
+date_note = "after Nehemiah's second visit, 433-423 BC (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "narrative"
+
+[[book]]
+id = "Esth"
+author = "anonymous"
+author_key = "anon-esther"
+date = [-464, -400]
+date_note = "the reign of Ahasuerus (486-464 BC) or soon after (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "narrative"
+
+[[book]]
+id = "Job"
+author = "anonymous"
+author_key = "anon-job"
+date = [-587, -400]
+date_note = "setting patriarchal; vocabulary 'may favor' an exilic or postexilic date (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "wisdom"
+
+[[book]]
+id = "Ps"
+author = "David (73 titles) with Asaph (12), the Sons of Korah (11), Solomon, Moses and others"
+author_key = "psalmists"
+date = [-1406, -450]
+date_note = "from Moses (Psalm 90) to after the exile (CSB Ancient Faith; ESV SB section introduction for the titles)"
+region = "Asia"
+language = "hebrew"
+genre = "poetry"
+
+[[book]]
+id = "Prov"
+author = "Solomon, with Agur, Lemuel, and Hezekiah's men as copyists"
+author_key = "solomon"
+date = [-971, -686]
+date_note = "Solomon reigned 971-931 BC; Hezekiah's men copied chapters 25-29 (715-686 BC) (ESV SB)"
+critical_note = "'many scholars' date most of it much later (ESV SB, no date given)"
+region = "Asia"
+language = "hebrew"
+genre = "wisdom"
+
+[[book]]
+id = "Eccl"
+author = "the Preacher, traditionally Solomon"
+author_key = "solomon"
+date = [-971, -931]
+critical_note = "language 'widely believed' to indicate a date much later than the 10th century (ESV SB, no date given)"
+region = "Asia"
+language = "hebrew"
+genre = "wisdom"
+
+[[book]]
+id = "Song"
+author = "Solomon by tradition (Song 1:1); the ESV SB notes the title may mean 'for' Solomon"
+author_key = "solomon"
+date = [-971, -931]
+region = "Asia"
+language = "hebrew"
+genre = "poetry"
+
+[[book]]
+id = "Isa"
+author = "Isaiah son of Amoz"
+author_key = "isaiah"
+date = [-740, -681]
+date_note = "call c. 740 BC; records Sennacherib's death, 681 (ESV SB)"
+critical = [-740, -450]
+critical_note = "First Isaiah (1-39) late 8th c.; Second (40-55) mid-6th c.; Third (56-66) 5th c. (ESV SB on the critical view)"
+critical_parts = [
+  { chapters = [1, 39], date = [-740, -700], author_key = "isaiah" },
+  { chapters = [40, 55], date = [-560, -540], author_key = "second-isaiah" },
+  { chapters = [56, 66], date = [-500, -400], author_key = "third-isaiah" },
+]
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Jer"
+author = "Jeremiah, with his scribe Baruch"
+author_key = "jeremiah"
+date = [-627, -550]
+date_note = "ministry from 627 BC; composed by about 550 (ESV SB)"
+written_from = "Judah, and Egypt for the last oracles (Jeremiah 43:8-44:30, at Tahpanhes)"
+region = "Asia; Africa"
+language = "hebrew"
+aramaic_portion = "Jeremiah 10:11"
+genre = "prophecy"
+
+[[book]]
+id = "Lam"
+author = "anonymous (traditionally Jeremiah)"
+author_key = "anon-lamentations"
+date = [-587, -516]
+region = "Asia"
+language = "hebrew"
+genre = "poetry"
+
+[[book]]
+id = "Ezek"
+author = "Ezekiel"
+author_key = "ezekiel"
+date = [-593, -571]
+written_from = "Babylonia, among the exiles (Ezekiel 1:1-3)"
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Dan"
+author = "Daniel"
+author_key = "daniel"
+critical_author_key = "anon-daniel-2nd-c"
+date = [-605, -536]
+critical = [-167, -164]
+critical_note = "a second-century document from the persecution of Antiochus IV (175-164 BC) (ESV SB on the critical view)"
+written_from = "Babylon and the Persian court"
+region = "Asia"
+language = "hebrew"
+aramaic_portion = "Daniel 2:4b-7:28"
+genre = "prophecy-apocalyptic"
+
+[[book]]
+id = "Hos"
+author = "Hosea son of Beeri"
+author_key = "hosea"
+date = [-755, -715]
+date_note = "latter half of the 8th century (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Joel"
+author = "Joel son of Pethuel"
+author_key = "joel"
+date = [-520, -400]
+date_note = "no consensus; most scholars date it after the exile (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Amos"
+author = "Amos of Tekoa"
+author_key = "amos"
+date = [-765, -750]
+date_note = "within 793-739 BC, 'about 760' (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Obad"
+author = "Obadiah"
+author_key = "obadiah"
+date = [-586, -550]
+date_note = "probably after the fall of Jerusalem in 586 (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Jonah"
+author = "anonymous"
+author_key = "anon-jonah"
+date = [-782, -400]
+date_note = "Jonah prophesied under Jeroboam II (782-753 BC); the book is anonymous and undated (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "narrative-prophecy"
+
+[[book]]
+id = "Mic"
+author = "Micah of Moresheth"
+author_key = "micah"
+date = [-735, -700]
+date_note = "Jotham, Ahaz and Hezekiah (750-687 BC) (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Nah"
+author = "Nahum of Elkosh"
+author_key = "nahum"
+date = [-663, -612]
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Hab"
+author = "Habakkuk"
+author_key = "habakkuk"
+date = [-620, -605]
+date_note = "probably not later than the end of Josiah's reign (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Zeph"
+author = "Zephaniah"
+author_key = "zephaniah"
+date = [-640, -609]
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Hag"
+author = "Haggai"
+author_key = "haggai"
+date = [-520, -515]
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Zech"
+author = "Zechariah son of Berechiah"
+author_key = "zechariah"
+date = [-520, -450]
+date_note = "ministry from 520 BC; chapters 9-14 possibly written by Zechariah later, in the 5th century (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "prophecy-apocalyptic"
+
+[[book]]
+id = "Mal"
+author = "Malachi"
+author_key = "malachi"
+date = [-460, -430]
+date_note = "mid-5th century, contemporary of Ezra and Nehemiah (ESV SB)"
+region = "Asia"
+language = "hebrew"
+genre = "prophecy"
+
+[[book]]
+id = "Matt"
+author = "Matthew"
+author_key = "matthew"
+date = [55, 64]
+date_note = "traditionally the late 50s or early 60s (ESV SB)"
+critical_after = 70
+critical_note = "some date it after AD 70 (ESV SB, no upper date given)"
+language = "greek"
+genre = "gospel"
+
+[[book]]
+id = "Mark"
+author = "John Mark, from Peter"
+author_key = "mark"
+date = [55, 59]
+date_note = "mid- to late 50s; some date it to the mid or late 60s (ESV SB)"
+written_from = "Rome"
+region = "Europe"
+language = "greek"
+genre = "gospel"
+
+[[book]]
+id = "Luke"
+author = "Luke"
+author_key = "luke"
+date = [58, 62]
+date_note = "before Acts, which ends c. AD 62 (ESV SB; CSB Ancient Faith 'late 50s')"
+language = "greek"
+genre = "gospel"
+
+[[book]]
+id = "John"
+author = "John son of Zebedee"
+author_key = "john"
+date = [70, 100]
+written_from = "Ephesus"
+region = "Asia"
+language = "greek"
+genre = "gospel"
+
+[[book]]
+id = "Acts"
+author = "Luke"
+author_key = "luke"
+date = [62, 63]
+critical = [70, 89]
+critical_note = "some date Acts c. AD 70, others in the 70s or 80s (ESV SB)"
+written_from = "Rome, probably (CSB Ancient Faith)"
+region = "Europe"
+language = "greek"
+genre = "narrative"
+
+[[book]]
+id = "Rom"
+author = "Paul"
+author_key = "paul"
+date = [57, 57]
+written_from = "Corinth"
+region = "Europe"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "1Cor"
+author = "Paul"
+author_key = "paul"
+date = [53, 55]
+written_from = "Ephesus"
+region = "Asia"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "2Cor"
+author = "Paul"
+author_key = "paul"
+date = [55, 56]
+written_from = "Macedonia"
+region = "Europe"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "Gal"
+author = "Paul"
+author_key = "paul"
+date = [48, 48]
+date_note = "around AD 48 on the South Galatian view (ESV SB)"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "Eph"
+author = "Paul"
+author_key = "paul"
+critical_author_key = "pseudo-paul-ephesians"
+date = [62, 62]
+critical_after = 70
+critical_note = "critics who doubt Paul's authorship date it later in the first century (ESV SB, no date given)"
+written_from = "Rome, in prison"
+region = "Europe"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "Phil"
+author = "Paul"
+author_key = "paul"
+date = [62, 62]
+written_from = "Rome, in prison"
+region = "Europe"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "Col"
+author = "Paul (with Timothy)"
+author_key = "paul"
+date = [62, 62]
+written_from = "Rome, in prison"
+region = "Europe"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "1Thess"
+author = "Paul (with Silas and Timothy)"
+author_key = "paul"
+date = [49, 51]
+written_from = "Corinth"
+region = "Europe"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "2Thess"
+author = "Paul"
+author_key = "paul"
+critical_author_key = "pseudo-paul-2thess"
+date = [49, 51]
+written_from = "Corinth"
+region = "Europe"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "1Tim"
+author = "Paul"
+author_key = "paul"
+critical_author_key = "pastor"
+date = [62, 66]
+date_note = "mid-60s, between two Roman imprisonments (ESV SB)"
+critical_note = "many today deny Paul wrote the Pastoral Letters (ESV SB, no date given)"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "2Tim"
+author = "Paul"
+author_key = "paul"
+critical_author_key = "pastor"
+date = [64, 67]
+written_from = "Rome, in prison"
+region = "Europe"
+critical_note = "as 1 Timothy"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "Titus"
+author = "Paul"
+author_key = "paul"
+critical_author_key = "pastor"
+date = [62, 66]
+critical_note = "as 1 Timothy"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "Phlm"
+author = "Paul (with Timothy)"
+author_key = "paul"
+date = [62, 62]
+written_from = "Rome, in prison"
+region = "Europe"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "Heb"
+author = "anonymous"
+author_key = "anon-hebrews"
+date = [60, 69]
+date_note = "first century, probably before AD 70 (ESV SB)"
+language = "greek"
+genre = "letter-sermon"
+
+[[book]]
+id = "Jas"
+author = "James, brother of Jesus"
+author_key = "james"
+date = [40, 47]
+date_note = "early to mid-40s (ESV SB); AD 48-52 (CSB Ancient Faith)"
+language = "greek"
+genre = "letter-wisdom"
+
+[[book]]
+id = "1Pet"
+author = "Peter"
+author_key = "peter"
+critical_author_key = "pseudo-peter"
+date = [62, 63]
+critical = [81, 117]
+critical_note = "those who reject Peter as author date it under Domitian or Trajan (ESV SB)"
+written_from = "Rome ('Babylon', 1 Peter 5:13)"
+region = "Europe"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "2Pet"
+author = "Peter"
+author_key = "peter"
+date = [64, 67]
+written_from = "Rome"
+region = "Europe"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "1John"
+author = "John"
+author_key = "john"
+date = [70, 95]
+date_note = "no later than the 90s (ESV SB)"
+written_from = "Ephesus"
+region = "Asia"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "2John"
+author = "John ('the elder')"
+author_key = "john"
+date = [85, 100]
+written_from = "near Ephesus"
+region = "Asia"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "3John"
+author = "John ('the elder')"
+author_key = "john"
+date = [75, 100]
+written_from = "around Ephesus"
+region = "Asia"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "Jude"
+author = "Jude, brother of James and Jesus"
+author_key = "jude"
+date = [62, 68]
+date_note = "mid-60s (ESV SB); AD 65-80 (CSB Ancient Faith)"
+language = "greek"
+genre = "letter"
+
+[[book]]
+id = "Rev"
+author = "John"
+author_key = "john"
+date = [95, 96]
+date_note = "mid-90s, under Domitian; some argue for Nero's reign, before AD 70 (ESV SB)"
+written_from = "Patmos (Revelation 1:9)"
+region = "Asia"
+language = "greek"
+genre = "apocalyptic-prophecy"

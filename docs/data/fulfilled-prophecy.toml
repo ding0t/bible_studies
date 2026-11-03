@@ -1,0 +1,253 @@
+# Prophecies Scripture itself says were fulfilled, with the year of the fulfilment, for the
+# prophecy validator in What Literary Criticism Declares (references/build/unity_measures.py).
+#
+# The test each entry is put through: was the prophecy written, and does a copy of it survive,
+# before the thing it predicted happened? It is run on three dates:
+#
+#   traditional   when the book was written, from docs/data/book-authorship.toml
+#   critical      the LATEST date critical scholarship assigns that book (Daniel 167-164 BC, Isaiah
+#                 40-55 the mid-6th century...), from the same table. This is the date chosen to
+#                 make the prophecy as late as possible.
+#   manuscript    the date of a surviving copy or translation, which no theory of authorship can
+#                 move: the Greek translation of "the Law, the prophecies and the rest of the books"
+#                 that the prologue to Sirach already knows of in the 38th year of Euergetes (about
+#                 132 BC); the Great Isaiah Scroll (1QIsa-a, c. 125 BC); and any Qumran copy, all
+#                 deposited before Qumran fell in AD 68. Qumran attestation is computed, not listed.
+#
+# Fields
+#   prophecy      the text, English versification
+#   masoretic     the Hebrew reference where it differs (psalm superscriptions, Micah 5)
+#   predicts      what the text says will happen, in its own terms
+#   specific      what makes it checkable: name, place, number, time, manner, sequence
+#   fulfilment    where Scripture records or claims the fulfilment
+#   event         an id in docs/data/chronology.json (anchors, anchor_table, milestones) for the
+#                 year; `year` + `year_source` only where the chronology has no entry
+#   written       a year the text itself dates the prophecy to, where the book's date would mislead
+#   standing      "stated"           Scripture says in so many words that this fulfilled it
+#                 "contested-reading" the fulfilment is stated, but what the prophecy text means
+#                                     is disputed (the case on both sides goes in the study)
+#                 "contested-reckoning" the meaning is agreed, the arithmetic is disputed
+#                 "record-after"      the only record of the prophecy is in a book completed after
+#                                     the fulfilment, so it cannot serve as evidence here. Kept to
+#                                     show the test excludes it.
+#   group         "history" (fulfilled inside the Old Testament period), "messiah" (in Jesus),
+#                 "after" (after the prophecy's New Testament or Old Testament context closes)
+
+[[prophecy]]
+id = "cyrus-named"
+prophecy = "Isaiah 44:28; 45:1"
+predicts = "a ruler named Cyrus will say of Jerusalem 'She shall be built' and of the temple 'Your foundation shall be laid'"
+specific = ["name", "manner"]
+fulfilment = "Ezra 1:1-4; 2 Chronicles 36:22-23"
+event = "anchor_15"
+standing = "stated"
+group = "history"
+
+[[prophecy]]
+id = "seventy-years"
+prophecy = "Jeremiah 25:11-12; 29:10"
+predicts = "Judah will serve the king of Babylon seventy years, then Babylon will be punished and the exiles brought back"
+specific = ["number", "time", "sequence"]
+fulfilment = "2 Chronicles 36:21-23; Daniel 9:2"
+event = "anchor_14"
+standing = "stated"
+group = "history"
+
+[[prophecy]]
+id = "medes-against-babylon"
+prophecy = "Isaiah 13:17-19; Jeremiah 51:11, 28"
+predicts = "the Medes will be stirred up against Babylon and overthrow it"
+specific = ["name"]
+fulfilment = "Daniel 5:28-31"
+event = "anchor_14"
+standing = "stated"
+group = "history"
+
+[[prophecy]]
+id = "zion-plowed"
+prophecy = "Micah 3:12"
+predicts = "Zion will be plowed as a field and Jerusalem become a heap of ruins"
+specific = ["place", "manner"]
+fulfilment = "2 Kings 25:8-10; Jeremiah 26:18 (quoting Micah a century before the fall)"
+event = "anchor_12"
+standing = "stated"
+group = "history"
+
+[[prophecy]]
+id = "greece-after-persia"
+prophecy = "Daniel 8:20-22"
+predicts = "the kingdom of Greece will break the kings of Media and Persia; its first king broken, four kingdoms rise from his nation"
+specific = ["name", "sequence", "number"]
+fulfilment = "Daniel 8:20-22 names the kingdoms itself"
+event = "anchor_22"
+written = -551
+written_source = "Daniel 8:1, 'the third year of the reign of King Belshazzar' (chronology.json daniel_8_ram_goat)"
+standing = "stated"
+group = "history"
+
+[[prophecy]]
+id = "josiah-named"
+prophecy = "1 Kings 13:2"
+predicts = "a son of David's house named Josiah will burn the bones of the priests on the altar at Bethel"
+specific = ["name", "place", "manner"]
+fulfilment = "2 Kings 23:15-16"
+event = "josiah_religious_reforms"
+standing = "record-after"
+group = "history"
+
+[[prophecy]]
+id = "bethlehem"
+prophecy = "Micah 5:2"
+masoretic = "Micah 5:1"
+predicts = "a ruler of Israel, 'whose coming forth is from of old', will come from Bethlehem Ephrathah"
+specific = ["place"]
+fulfilment = "Matthew 2:1-6"
+event = "anchor_37"
+standing = "stated"
+group = "messiah"
+
+[[prophecy]]
+id = "virgin-immanuel"
+prophecy = "Isaiah 7:14"
+predicts = "the virgin (or young woman) will conceive and bear a son called Immanuel"
+specific = ["manner"]
+fulfilment = "Matthew 1:22-23"
+event = "anchor_37"
+standing = "contested-reading"
+group = "messiah"
+
+[[prophecy]]
+id = "galilee-light"
+prophecy = "Isaiah 9:1-2"
+masoretic = "Isaiah 8:23-9:1"
+predicts = "Galilee of the nations will see a great light"
+specific = ["place"]
+fulfilment = "Matthew 4:13-16"
+event = "anchor_40"
+standing = "stated"
+group = "messiah"
+
+[[prophecy]]
+id = "messenger-before"
+prophecy = "Malachi 3:1"
+predicts = "a messenger will prepare the way, and the Lord will suddenly come to his temple"
+specific = ["sequence", "place"]
+fulfilment = "Matthew 11:10; Mark 1:2"
+event = "anchor_40"
+standing = "stated"
+group = "messiah"
+
+[[prophecy]]
+id = "king-on-donkey"
+prophecy = "Zechariah 9:9"
+predicts = "Zion's king comes humble, mounted on a donkey, on a colt the foal of a donkey"
+specific = ["manner", "place"]
+fulfilment = "Matthew 21:4-5; John 12:14-15"
+event = "anchor_41"
+standing = "stated"
+group = "messiah"
+
+[[prophecy]]
+id = "thirty-pieces"
+prophecy = "Zechariah 11:12-13"
+predicts = "the shepherd valued at thirty pieces of silver, thrown to the potter in the house of the LORD"
+specific = ["number", "manner"]
+fulfilment = "Matthew 26:15; 27:3-10 (Matthew names Jeremiah)"
+event = "anchor_41"
+standing = "stated"
+group = "messiah"
+
+[[prophecy]]
+id = "garments-divided"
+prophecy = "Psalm 22:18"
+masoretic = "Psalm 22:19"
+predicts = "they divide my garments among them, and for my clothing they cast lots"
+specific = ["manner"]
+fulfilment = "John 19:23-24"
+event = "anchor_41"
+standing = "stated"
+group = "messiah"
+
+[[prophecy]]
+id = "hands-and-feet"
+prophecy = "Psalm 22:16"
+masoretic = "Psalm 22:17"
+predicts = "they have pierced my hands and feet (Masoretic 'like a lion my hands and feet')"
+specific = ["manner"]
+fulfilment = "no New Testament text quotes this line; John 20:25-27 records the wounds"
+event = "anchor_41"
+standing = "contested-reading"
+group = "messiah"
+
+[[prophecy]]
+id = "no-bone-broken"
+prophecy = "Exodus 12:46; Psalm 34:20"
+masoretic = "Exodus 12:46; Psalm 34:21"
+predicts = "not one of his bones will be broken"
+specific = ["manner"]
+fulfilment = "John 19:36"
+event = "anchor_41"
+standing = "stated"
+group = "messiah"
+
+[[prophecy]]
+id = "pierced-one"
+prophecy = "Zechariah 12:10"
+predicts = "they will look on me, on him whom they have pierced, and mourn for him"
+specific = ["manner"]
+fulfilment = "John 19:37"
+event = "anchor_41"
+standing = "stated"
+group = "messiah"
+
+[[prophecy]]
+id = "suffering-servant"
+prophecy = "Isaiah 53:5, 9, 12"
+predicts = "the servant pierced for our transgressions, numbered with the transgressors, with a rich man in his death"
+specific = ["manner"]
+fulfilment = "Luke 22:37; Matthew 27:38, 57-60; 1 Peter 2:24"
+event = "anchor_41"
+standing = "stated"
+group = "messiah"
+
+[[prophecy]]
+id = "not-abandoned"
+prophecy = "Psalm 16:10"
+predicts = "you will not abandon my soul to Sheol, or let your holy one see corruption"
+specific = ["manner"]
+fulfilment = "Acts 2:27-31; 13:35-37"
+event = "anchor_41"
+standing = "stated"
+group = "messiah"
+
+[[prophecy]]
+id = "sixty-nine-weeks"
+prophecy = "Daniel 9:25-26"
+predicts = "from the word to restore Jerusalem to an anointed one, seven weeks and sixty-two weeks; then he is cut off, and the city and sanctuary are destroyed"
+specific = ["time", "sequence"]
+fulfilment = "no New Testament text sets out the arithmetic; Matthew 24:15 cites Daniel for the desolation"
+event = "daniel_terminus_hoehner"
+standing = "contested-reckoning"
+group = "messiah"
+
+[[prophecy]]
+id = "temple-destroyed-daniel"
+prophecy = "Daniel 9:26"
+predicts = "after the anointed one is cut off, the people of a prince to come will destroy the city and the sanctuary"
+specific = ["sequence"]
+fulfilment = "Luke 21:20-24 (Jesus applies Daniel's desolation to Jerusalem)"
+event = "temple_destroyed_70"
+standing = "contested-reading"
+standing_note = "the critical reading takes 9:26 of Onias III (171 BC) and Antiochus IV, who desecrated the temple but did not destroy city or sanctuary"
+group = "after"
+
+[[prophecy]]
+id = "temple-destroyed-jesus"
+prophecy = "Mark 13:2; Luke 19:43-44; 21:20-24"
+predicts = "not one stone of the temple left on another; Jerusalem surrounded by armies"
+specific = ["place", "manner"]
+fulfilment = "recorded by Josephus, Jewish War 6-7 (the chronology's temple_destroyed_70)"
+event = "temple_destroyed_70"
+standing = "stated"
+standing_note = "critics who date the Gospels after AD 70 do so partly because of this prophecy (ESV SB on Matthew), so it cannot count against them; it is listed for completeness"
+group = "after"
