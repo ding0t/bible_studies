@@ -10,6 +10,7 @@ history:
   - 2026-10-19 first draft against 1,114 links (surface matching only)
   - 2026-10-20 revised after the link rules changed; several absences were the method's
   - 2026-10-20 reviewed against the shipped data: genealogy allusions 35->32, deuterocanon 20->19, OpenBible verses with no derived link 2,224->2,234 (English-scheme targets), Psalm 95 "seven verses"; six claims added
+  - '2026-11-04 OpenBible verses 2,640->2,795 and no derived link 2,234->2,385 after the Revelation cross-references were restored (book_map ''Revelation''). Rule, reproduced on the old export: a key of scripture-links.json `leads` that is neither any link''s `f` nor its English-scheme target (`te` where present, else `t`). Unchanged: the most-voted pairs, 83% (formula+phrases, 20 of 24), 88% (crosslang, 42 of 48)'
 claims:
   - id: strong-total
     what: strong links of every kind
