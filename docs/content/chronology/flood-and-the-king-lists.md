@@ -9,7 +9,7 @@ gregorian_year: -2303
 primary_passage: "Genesis 5:1-32; Genesis 11:10-26"
 bible_references: ["Genesis 5:3-5", "Genesis 5:24-27", "Genesis 7:6", "Genesis 7:11", "Genesis 7:23", "Genesis 11:1-9", "Genesis 11:26", "Genesis 11:32", "Genesis 12:4", "Genesis 17:17", "Genesis 21:5", "Genesis 25:7", "1 Chronicles 1:24", "Isaiah 40:8", "Luke 3:36-38", "Acts 7:4", "Acts 7:14", "Romans 3:2", "Hebrews 11:5", "1 Peter 3:20"]
 date_created: 2026-09-26
-date_modified: 2026-10-31
+date_modified: 2026-11-03
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -241,8 +241,8 @@ and each should be read at its own level:
 - **Contested, and a separate question.** Some read "fathered" as "became the ancestor of", which
   would leave gaps and remove the chronology altogether. The *ESV Study Bible* allows it at Genesis
   5, and Steinmann calls an unbroken chain "a questionable proposition". This study reads the
-  numbers as a continuous chain, as Genealogy and Times does, because Genesis gives an exact age at
-  each birth.
+  numbers as a continuous chain, because each verse dates the birth of the man it names; the case on
+  both sides is in [Genealogy and Times](genealogy-times.md#are-there-gaps-in-genesis-5-and-11).
 - **Strong.** Terah's lifespan is 205 in the Hebrew and 145 in the Samaritan. The Samaritan figure
   reconciles Genesis 11:26 with Acts 7:4 without reinterpretation, which is what a harmonizing
   scribe would produce. Steinmann reads it that way, with Abram named first in Genesis 11:26 for

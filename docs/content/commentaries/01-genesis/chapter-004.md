@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 4:25-26
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:26
 - [Submission in Context](../../christian-life/submission-in-context.md) — 4:7
 - [The Names of God](../../god/names-of-god.md) — 4:26

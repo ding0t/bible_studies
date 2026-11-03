@@ -737,13 +737,13 @@
       "id": "anchor_19",
       "label": "Ezra returns, Artaxerxes' 7th year",
       "scripture": "Ezra 7:7-8",
-      "gregorian_year": -458,
+      "gregorian_year": -457,
       "tier": "Anchored",
       "error": "±1",
-      "zadok_year": 3501,
+      "zadok_year": 3502,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Artaxerxes I's 7th year (Ezra 7:7-8). A minority places Ezra under Artaxerxes II (398 BC)."
+      "evidence": "Artaxerxes I's 7th year (Ezra 7:7-8), Nisan to Ab 457 BC on the Tishri-to-Tishri years that Nehemiah 1:1 and 2:1 require of the same king, thirteen years before Nehemiah's 444. The ESV Study Bible's 458 counts Persian Nisan years. A minority places Ezra under Artaxerxes II (398 BC)."
     },
     {
       "n": 20,
@@ -756,7 +756,7 @@
       "zadok_year": 3515,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Elephantine papyri fix Artaxerxes I's regnal years independently. His 20th year is 445 BC on an accession-year count and 444 BC on the Tishri count that Nehemiah 1:1 (Chislev) and 2:1 (Nisan) in the same year imply; this site follows 444 (Hoehner), chosen to fit the AD 33 crucifixion -- see chronology-anchors.md entry 20."
+      "evidence": "Elephantine papyri fix Artaxerxes I's regnal years independently. His 20th year is 445 BC on an accession-year count and 444 BC on the Tishri count that Nehemiah 1:1 (Chislev) and 2:1 (Nisan) in the same year imply; this site follows 444 (Hoehner), which the text requires and which reaches the AD 33 crucifixion -- see chronology-anchors.md entry 20."
     },
     {
       "n": 21,
@@ -768,7 +768,8 @@
       "error": "460-400 BC",
       "zadok_year": 3529,
       "core": false,
-      "study_ref": "chronology/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors",
+      "evidence": "No regnal date; placed by what the book describes. The temple runs under a Persian governor (Malachi 1:7-10), and Malachi names the abuses Nehemiah finds on his return after 433 BC (Nehemiah 13:6): foreign marriages (Malachi 2:11; Nehemiah 13:23-27), the Levites' tithes withheld (Malachi 3:8-10; Nehemiah 13:10), the covenant of Levi corrupted (Malachi 2:8; Nehemiah 13:29). Its governor takes gifts, as Nehemiah would not (Nehemiah 5:15), so it fits his absence. STEP's 397 BC gives no reason and parts Malachi from the reform it describes."
     },
     {
       "n": 22,
@@ -3597,10 +3598,22 @@
       ]
     },
     {
+      "id": "hezekiah_coregency",
+      "label": "Hezekiah reigns beside Ahaz",
+      "gregorian": -729,
+      "description": "Became co-regent with his father Ahaz in Hoshea's third year (2 Kings 18:1)",
+      "people": [
+        "hezekiah",
+        "ahaz"
+      ],
+      "note": "His sixth year counted from here is the fall of Samaria (2 Kings 18:9-10); his fourteenth counted from his sole reign is Sennacherib's invasion (18:13).",
+      "refs": "2 Kings 18:1, 9-10"
+    },
+    {
       "id": "hezekiah_coronation",
       "label": "Hezekiah becomes king",
       "gregorian": -715,
-      "description": "Became king of Judah at age 25 (2 Kings 18:1-2)",
+      "description": "Became sole king of Judah at age 25, on Ahaz's death (2 Kings 16:20; 18:2)",
       "people": [
         "hezekiah"
       ]

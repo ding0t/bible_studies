@@ -1,0 +1,1940 @@
+{
+ "note": "Every verse this site dates from, with the wording that states its number (BSB, checked by references/build/tests/test_dating_texts.py), how the site reads it, the events it dates and the intervals that reading implies between their dates (checked by app/src/utils/chronology.test.js). use: 'dates' -- the event's year is computed from this number; 'places' -- the verse names the event, and its year comes from outside records (the event's evidence); 'checks' -- an independent number the dates must agree with; 'tradition' -- shown, not a source of dates; 'estimated' -- the verse names the event and its reign, and the year is the site's estimate inside it; 'unused' -- a stated number no event depends on. 'adjust' is the co-regency or overlap the site's dates assume, added to the stated years, with its reason in 'why'. An interval with a 'tension' is a known disagreement, reported rather than failed. argued_in names where the reading is argued, or null where no page argues it yet. Every dated life event from David to Zedekiah is fed by an entry.",
+ "texts": [
+  {
+   "id": "creation",
+   "ref": "Genesis 1:1, 31",
+   "use": "dates",
+   "quotes": [
+    [
+     "Genesis 1:1",
+     "In the beginning God created the heavens and the earth."
+    ],
+    [
+     "Genesis 1:31",
+     "the sixth day"
+    ]
+   ],
+   "reading": "AM 0 is the year of the creation week. Adam is made on the sixth day (Genesis 1:27, 31), so his age and the world's count together from the start.",
+   "feeds": [
+    "creation"
+   ],
+   "argued_in": "chronology/genealogy-times#where-year-0-sits"
+  },
+  {
+   "id": "genesis-5-chain",
+   "ref": "Genesis 5:3-32",
+   "use": "dates",
+   "quotes": [
+    [
+     "Genesis 5:3",
+     "When Adam was 130 years old, he had a son"
+    ],
+    [
+     "Genesis 5:5",
+     "Adam lived a total of 930 years"
+    ],
+    [
+     "Genesis 5:6",
+     "When Seth was 105 years old, he became the father of Enosh"
+    ],
+    [
+     "Genesis 5:9",
+     "When Enosh was 90 years old, he became the father of Kenan"
+    ],
+    [
+     "Genesis 5:12",
+     "When Kenan was 70 years old, he became the father of Mahalalel"
+    ],
+    [
+     "Genesis 5:15",
+     "When Mahalalel was 65 years old, he became the father of Jared"
+    ],
+    [
+     "Genesis 5:18",
+     "When Jared was 162 years old, he became the father of Enoch"
+    ],
+    [
+     "Genesis 5:21",
+     "When Enoch was 65 years old, he became the father of Methuselah"
+    ],
+    [
+     "Genesis 5:23",
+     "Enoch lived a total of 365 years"
+    ],
+    [
+     "Genesis 5:25",
+     "When Methuselah was 187 years old, he became the father of Lamech"
+    ],
+    [
+     "Genesis 5:27",
+     "Methuselah lived a total of 969 years"
+    ],
+    [
+     "Genesis 5:28",
+     "When Lamech was 182 years old, he had a son"
+    ],
+    [
+     "Genesis 5:32",
+     "After Noah was 500 years old, he became the father of Shem, Ham, and Japheth"
+    ]
+   ],
+   "reading": "Each verse gives the father's age in the year the named son was born, so the years run as one closed chain from Adam to Noah. Read 'fathered' as 'became the ancestor of' and the age still dates the named man's birth, since one becomes his ancestor the year he is born. Adam's 930 and Enoch's 365 are stated totals.",
+   "feeds": [
+    "adam_dies",
+    "enoch_taken",
+    "flood"
+   ],
+   "intervals": [
+    {
+     "from": "creation",
+     "to": "adam_dies",
+     "years": 930
+    },
+    {
+     "from": "creation",
+     "to": "enoch_taken",
+     "years": 987,
+     "why": "Enoch born AM 622 (130+105+90+70+65+162), taken at 365"
+    },
+    {
+     "from": "creation",
+     "to": "flood",
+     "years": 1656,
+     "why": "Noah born AM 1056 on the Genesis 5 ages, the Flood in his 600th year"
+    }
+   ],
+   "argued_in": "chronology/genealogy-times#are-there-gaps-in-genesis-5-and-11",
+   "contested": "William Henry Green (1890) read the age as dating the birth of an unnamed son, which would open gaps in years as well as names. The site reads the age as dating the man the verse names."
+  },
+  {
+   "id": "flood-year",
+   "ref": "Genesis 7:6, 11",
+   "use": "dates",
+   "quotes": [
+    [
+     "Genesis 7:6",
+     "Noah was 600 years old when the floodwaters came"
+    ],
+    [
+     "Genesis 7:11",
+     "In the six hundredth year of Noah’s life"
+    ]
+   ],
+   "reading": "The Flood comes in Noah's 600th year. Shem fathers Arphaxad two years after it (Genesis 11:10), when Shem is 100, so Shem was born in Noah's 502nd year and Genesis 5:32's 500 is the age at which Noah began to have sons.",
+   "feeds": [
+    "flood"
+   ],
+   "argued_in": "chronology/genealogy-times#genesis-5-adam-to-noah"
+  },
+  {
+   "id": "genesis-11-chain",
+   "ref": "Genesis 11:10-26",
+   "use": "dates",
+   "quotes": [
+    [
+     "Genesis 11:10",
+     "Two years after the flood, when Shem was 100 years old, he became the father of Arphaxad"
+    ],
+    [
+     "Genesis 11:12",
+     "When Arphaxad was 35 years old, he became the father of Shelah"
+    ],
+    [
+     "Genesis 11:14",
+     "When Shelah was 30 years old, he became the father of Eber"
+    ],
+    [
+     "Genesis 11:16",
+     "When Eber was 34 years old, he became the father of Peleg"
+    ],
+    [
+     "Genesis 11:18",
+     "When Peleg was 30 years old, he became the father of Reu"
+    ],
+    [
+     "Genesis 11:20",
+     "When Reu was 32 years old, he became the father of Serug"
+    ],
+    [
+     "Genesis 11:22",
+     "When Serug was 30 years old, he became the father of Nahor"
+    ],
+    [
+     "Genesis 11:24",
+     "When Nahor was 29 years old, he became the father of Terah"
+    ],
+    [
+     "Genesis 11:26",
+     "When Terah was 70 years old, he became the father of Abram, Nahor, and Haran"
+    ]
+   ],
+   "reading": "The same formula as Genesis 5, from Shem to Terah, with the first link dated from the Flood itself.",
+   "feeds": [
+    "babel",
+    "abram_born"
+   ],
+   "intervals": [
+    {
+     "from": "flood",
+     "to": "babel",
+     "years": 101,
+     "why": "Peleg born AM 1757: 2+35+30+34 years after the Flood"
+    },
+    {
+     "from": "flood",
+     "to": "abram_born",
+     "years": 352,
+     "why": "2+35+30+34+30+32+30+29 to Terah's birth, then Terah 130 at Abram's (see terah-130)"
+    }
+   ],
+   "argued_in": "chronology/genealogy-times#genesis-1110-26-shem-to-terah",
+   "contested": "The Septuagint and Luke 3:36 add a second Cainan between Arphaxad and Shelah. The site follows the Masoretic text, where he is absent."
+  },
+  {
+   "id": "peleg",
+   "ref": "Genesis 10:25",
+   "use": "places",
+   "quotes": [
+    [
+     "Genesis 10:25",
+     "Peleg, because in his days the earth was divided"
+    ]
+   ],
+   "reading": "\"In his days the earth was divided\" gives Babel no year, only Peleg's lifetime (AM 1757-1996). The marker sits at his birth, the earliest year the verse allows, since the name was given then.",
+   "feeds": [
+    "babel"
+   ],
+   "argued_in": "chronology/genealogy-times#word-studies-what-the-names-actually-say"
+  },
+  {
+   "id": "terah-130",
+   "ref": "Genesis 11:26, 32; 12:4; Acts 7:4",
+   "use": "dates",
+   "quotes": [
+    [
+     "Genesis 11:32",
+     "Terah lived 205 years, and he died in Haran"
+    ],
+    [
+     "Genesis 12:4",
+     "Abram was seventy-five years old when he left Haran"
+    ],
+    [
+     "Acts 7:4",
+     "After his father died, God brought him out of that place"
+    ]
+   ],
+   "reading": "Terah was 70 when his first son was born, and Abram is named first for his importance. Abram left Haran at 75 after Terah died there at 205 (Acts 7:4), so Terah was 130 at Abram's birth.",
+   "feeds": [
+    "abram_born",
+    "abram_called"
+   ],
+   "intervals": [
+    {
+     "from": "abram_born",
+     "to": "abram_called",
+     "years": 75
+    }
+   ],
+   "argued_in": "chronology/genealogy-times#terah-and-abram-a-puzzle-two-different-ways",
+   "contested": "The Samaritan Pentateuch gives Terah 145 years, which removes the puzzle; reading Abram as Terah's firstborn at 70 moves every later date 60 years."
+  },
+  {
+   "id": "abraham-99-100",
+   "ref": "Genesis 17:1; 18:10, 14; 21:5",
+   "use": "dates",
+   "quotes": [
+    [
+     "Genesis 17:1",
+     "When Abram was ninety-nine years old"
+    ],
+    [
+     "Genesis 18:14",
+     "in about a year—and Sarah will have a son"
+    ],
+    [
+     "Genesis 21:5",
+     "Abraham was a hundred years old when his son Isaac was born to him"
+    ]
+   ],
+   "reading": "Abram is 99 when the covenant is renewed and Sodom falls the same season, \"about a year\" before Isaac; Abraham is 100 at Isaac's birth.",
+   "feeds": [
+    "sodom_overthrown",
+    "isaac_born"
+   ],
+   "intervals": [
+    {
+     "from": "abram_born",
+     "to": "sodom_overthrown",
+     "years": 99
+    },
+    {
+     "from": "abram_born",
+     "to": "isaac_born",
+     "years": 100
+    }
+   ],
+   "argued_in": "chronology/genealogy-times#how-genesis-gives-this-data"
+  },
+  {
+   "id": "jacob-130",
+   "ref": "Genesis 25:26; 47:9",
+   "use": "dates",
+   "quotes": [
+    [
+     "Genesis 25:26",
+     "Isaac was sixty years old when the twins were born"
+    ],
+    [
+     "Genesis 47:9",
+     "My travels have lasted 130 years"
+    ]
+   ],
+   "reading": "Isaac is 60 at Jacob's birth and Jacob 130 when he stands before Pharaoh, so Israel enters Egypt 190 years after Isaac's birth.",
+   "feeds": [
+    "jacob_to_egypt"
+   ],
+   "intervals": [
+    {
+     "from": "isaac_born",
+     "to": "jacob_to_egypt",
+     "years": 190
+    }
+   ],
+   "argued_in": null
+  },
+  {
+   "id": "galatians-3-17",
+   "ref": "Galatians 3:17",
+   "use": "dates",
+   "quotes": [
+    [
+     "Galatians 3:17",
+     "The law that came 430 years later"
+    ]
+   ],
+   "reading": "Paul counts the 430 years from the promise to Abraham to the law at Sinai. The site counts from Abram's call at 75 (Genesis 12:1-4), the promise's first statement, to the Exodus in the same year as Sinai.",
+   "feeds": [
+    "exodus_early_date"
+   ],
+   "intervals": [
+    {
+     "from": "abram_called",
+     "to": "exodus_early_date",
+     "years": 430
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#how-long-was-israel-in-egypt"
+  },
+  {
+   "id": "exodus-12-40",
+   "ref": "Exodus 12:40-41",
+   "use": "dates",
+   "quotes": [
+    [
+     "Exodus 12:40",
+     "the duration of the Israelites’ stay in Egypt was 430 years"
+    ],
+    [
+     "Exodus 12:41",
+     "At the end of the 430 years, to the very day"
+    ]
+   ],
+   "reading": "The 430 years are read as the whole sojourn from Abram's call, in Canaan and then Egypt, as the Septuagint, the Samaritan Pentateuch and Josephus state and Galatians 3:17 counts. That leaves 215 years in Egypt.",
+   "feeds": [
+    "exodus_early_date",
+    "jacob_to_egypt"
+   ],
+   "intervals": [
+    {
+     "from": "abram_called",
+     "to": "exodus_early_date",
+     "years": 430
+    },
+    {
+     "from": "jacob_to_egypt",
+     "to": "exodus_early_date",
+     "years": 215
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#how-long-was-israel-in-egypt",
+   "contested": "The long sojourn reads the Hebrew as 430 years in Egypt itself, which moves creation to 4174 BC. Population growth favours it; the Levi-Kohath-Amram line favours the short stay."
+  },
+  {
+   "id": "levi-line",
+   "ref": "Exodus 6:16, 18, 20; 7:7; Numbers 26:59",
+   "use": "checks",
+   "quotes": [
+    [
+     "Exodus 6:18",
+     "Kohath lived 133 years"
+    ],
+    [
+     "Exodus 6:20",
+     "Amram lived 137 years"
+    ],
+    [
+     "Exodus 7:7",
+     "Moses was eighty years old"
+    ],
+    [
+     "Numbers 26:59",
+     "a daughter of Levi, born to Levi in Egypt"
+    ]
+   ],
+   "reading": "Kohath went down to Egypt with Levi (Genesis 46:11). Kohath lived 133 years, Amram 137, and Moses was 80 at the Exodus, so at most 350 years separate the move to Egypt from the Exodus, and Jochebed was Levi's own daughter born in Egypt. The short sojourn fits inside that bound; a 430-year stay needs the line to skip generations.",
+   "feeds": [],
+   "intervals": [
+    {
+     "from": "jacob_to_egypt",
+     "to": "exodus_early_date",
+     "max": 350,
+     "why": "133 + 137 + 80, with each son born in his father's last year"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#how-long-was-israel-in-egypt"
+  },
+  {
+   "id": "four-hundred-years",
+   "ref": "Genesis 15:13; Acts 7:6",
+   "use": "checks",
+   "quotes": [
+    [
+     "Genesis 15:13",
+     "your descendants will be strangers in a land that is not their own, and they will be enslaved and mistreated four hundred years"
+    ],
+    [
+     "Acts 7:6",
+     "enslaved and mistreated four hundred years"
+    ],
+    [
+     "Genesis 21:9",
+     "was mocking her son"
+    ]
+   ],
+   "reading": "On the short sojourn the 400 years of being strangers and afflicted belong to Abram's offspring, counted from Isaac: 405 years from his birth to the Exodus, about 400 from his weaning, when Ishmael mocked him (Genesis 21:8-9).",
+   "feeds": [],
+   "intervals": [
+    {
+     "from": "isaac_born",
+     "to": "exodus_early_date",
+     "years": 400,
+     "tolerance": 5,
+     "why": "a round number, counted from Isaac's weaning rather than his birth"
+    }
+   ],
+   "argued_in": null,
+   "contested": "The long sojourn reads the 400 as the time in Egypt. No page of this site yet argues the short-sojourn reading of these two verses."
+  },
+  {
+   "id": "forty-years",
+   "ref": "Numbers 14:33-34; 33:38; Deuteronomy 2:14; Joshua 4:19; 5:6",
+   "use": "dates",
+   "quotes": [
+    [
+     "Numbers 14:34",
+     "you shall bear your guilt forty years"
+    ],
+    [
+     "Numbers 33:38",
+     "in the fortieth year after the Israelites had come out of the land of Egypt"
+    ],
+    [
+     "Deuteronomy 2:14",
+     "thirty-eight years"
+    ],
+    [
+     "Joshua 4:19",
+     "On the tenth day of the first month the people went up from the Jordan"
+    ],
+    [
+     "Joshua 5:6",
+     "the Israelites had wandered in the wilderness forty years"
+    ]
+   ],
+   "reading": "Forty years from the Exodus to the crossing of the Jordan on 10 Nisan, Aaron dying in the fortieth year and 38 of the forty spent between Kadesh-barnea and the Zered.",
+   "feeds": [
+    "conquest"
+   ],
+   "intervals": [
+    {
+     "from": "exodus_early_date",
+     "to": "conquest",
+     "years": 40
+    }
+   ],
+   "argued_in": "chronology/four-hundred-and-eighty-years#the-problem-the-numbers-dont-add-up-to-480"
+  },
+  {
+   "id": "caleb-85",
+   "ref": "Joshua 14:7, 10",
+   "use": "checks",
+   "quotes": [
+    [
+     "Joshua 14:7",
+     "I was forty years old when Moses the servant of the LORD sent me from Kadesh-barnea"
+    ],
+    [
+     "Joshua 14:10",
+     "these forty-five years"
+    ],
+    [
+     "Joshua 14:10",
+     "eighty-five years old"
+    ]
+   ],
+   "reading": "Caleb was 40 at Kadesh-barnea and 85 forty-five years later. Thirty-eight of those years were the wilderness delay, leaving about seven for the conquest before the land was divided.",
+   "feeds": [],
+   "argued_in": "chronology/four-hundred-and-eighty-years#the-problem-the-numbers-dont-add-up-to-480"
+  },
+  {
+   "id": "jephthah-300",
+   "ref": "Judges 11:26",
+   "use": "checks",
+   "quotes": [
+    [
+     "Judges 11:26",
+     "For three hundred years Israel has lived in Heshbon"
+    ],
+    [
+     "Numbers 21:25",
+     "including Heshbon and all its villages"
+    ]
+   ],
+   "reading": "Israel took Heshbon in Moses' last year (Numbers 21:25), about 1407 BC on this site's dates, so Jephthah's \"three hundred years\" puts his reply to Ammon about 1100 BC, where the 480 years leave room for him. A conquest in the late 1200s, which a 13th-century Exodus needs, leaves Jephthah barely a century after it.",
+   "feeds": [],
+   "argued_in": null,
+   "contested": "Jephthah has no date on the timeline, so this check is not yet mechanical; some read the 300 as a round number in a diplomatic speech."
+  },
+  {
+   "id": "acts-13-20",
+   "ref": "Acts 13:17-21",
+   "use": "checks",
+   "quotes": [
+    [
+     "Acts 13:20",
+     "All this took about 450 years. After this, God gave them judges"
+    ],
+    [
+     "Acts 13:21",
+     "who ruled forty years"
+    ]
+   ],
+   "reading": "In the earlier Greek manuscripts, which the ESV and BSB follow, the \"about 450 years\" come before the judges and span the time from God's choosing the fathers (13:17) to the land given as an inheritance (13:19). From Isaac's birth to the crossing of the Jordan is 445 years on this site's dates. Saul's 40 years come from 13:21, since 1 Samuel 13:1's number is damaged in the Hebrew.",
+   "feeds": [],
+   "intervals": [
+    {
+     "from": "isaac_born",
+     "to": "conquest",
+     "years": 450,
+     "tolerance": 10,
+     "why": "\"about\"; the start point (Isaac's birth) is this register's reading, not a page's"
+    }
+   ],
+   "argued_in": "chronology/four-hundred-and-eighty-years#the-problem-the-numbers-dont-add-up-to-480",
+   "contested": "The later manuscripts (the KJV) put the 450 years after \"after this\", as the length of the judges, which would leave no room for 1 Kings 6:1's 480."
+  },
+  {
+   "id": "judges-sum",
+   "ref": "Judges 3:8-16:31; 1 Samuel 4:18",
+   "use": "checks",
+   "quotes": [
+    [
+     "Judges 3:11",
+     "the land had rest for forty years"
+    ],
+    [
+     "Judges 12:7",
+     "Jephthah judged Israel six years"
+    ],
+    [
+     "1 Samuel 4:18",
+     "Eli had judged Israel forty years"
+    ]
+   ],
+   "reading": "The judges' stated years total 410 in sequence, more than 1 Kings 6:1 allows; Judges itself places several of them in different regions at once, so they overlap.",
+   "feeds": [],
+   "argued_in": "chronology/four-hundred-and-eighty-years#the-texts-own-basis-for-overlap"
+  },
+  {
+   "id": "kings-1-6-1",
+   "ref": "1 Kings 6:1",
+   "use": "dates",
+   "quotes": [
+    [
+     "1 Kings 6:1",
+     "In the four hundred and eightieth year after the Israelites had come out of the land of Egypt, in the fourth year of Solomon’s reign"
+    ]
+   ],
+   "reading": "The Exodus is counted back 480 years from Solomon's fourth year, which Thiele's reign lengths, tied to the Assyrian eponym list, put in 966 BC. This is the rail the whole chronology hangs from.",
+   "feeds": [
+    "exodus_early_date",
+    "anchor_01"
+   ],
+   "intervals": [
+    {
+     "from": "exodus_early_date",
+     "to": "anchor_01",
+     "years": 480,
+     "tolerance": 1,
+     "why": "\"the 480th year\" is 479 elapsed years on a strict ordinal count; the site counts 480"
+    }
+   ],
+   "argued_in": "chronology/four-hundred-and-eighty-years#where-the-genealogies-stop",
+   "contested": "The late Exodus (c. 1270 BC) reads the 480 as twelve idealised generations of 40 years."
+  },
+  {
+   "id": "david-40",
+   "ref": "2 Samuel 5:4-5; 1 Kings 2:10-11",
+   "use": "dates",
+   "quotes": [
+    [
+     "2 Samuel 5:4",
+     "David was thirty years old when he became king, and he reigned forty years"
+    ],
+    [
+     "2 Samuel 5:5",
+     "In Hebron he reigned over Judah seven years and six months"
+    ],
+    [
+     "1 Kings 2:11",
+     "forty years—seven years in Hebron and thirty-three years in Jerusalem"
+    ]
+   ],
+   "reading": "David became king at 30 and reigned 40 years, seven and a half in Hebron and 33 in Jerusalem.",
+   "feeds": [
+    "david_born",
+    "david_coronation_as_king",
+    "david_captured_jerusalem",
+    "solomon_reigns"
+   ],
+   "intervals": [
+    {
+     "from": "david_born",
+     "to": "david_coronation_as_king",
+     "years": 30
+    },
+    {
+     "from": "david_coronation_as_king",
+     "to": "david_captured_jerusalem",
+     "years": 7,
+     "tolerance": 1,
+     "why": "seven years and six months"
+    },
+    {
+     "from": "david_coronation_as_king",
+     "to": "solomon_reigns",
+     "years": 40
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#scripture-counts-the-same-years-twice"
+  },
+  {
+   "id": "solomon-reign",
+   "ref": "1 Kings 6:1; 11:42; 14:21",
+   "use": "dates",
+   "quotes": [
+    [
+     "1 Kings 11:42",
+     "Solomon reigned in Jerusalem over all Israel was forty years"
+    ],
+    [
+     "1 Kings 14:21",
+     "He was forty-one years old when he became king, and he reigned seventeen years"
+    ]
+   ],
+   "reading": "Solomon reigned 40 years; Rehoboam was 41 at his accession, so born a year before Solomon's.",
+   "feeds": [
+    "solomon_reigns",
+    "rehoboam_birth"
+   ],
+   "intervals": [
+    {
+     "from": "solomon_reigns",
+     "to": "anchor_03",
+     "years": 40
+    },
+    {
+     "from": "rehoboam_birth",
+     "to": "anchor_03",
+     "years": 41
+    },
+    {
+     "from": "solomon_reigns",
+     "to": "anchor_01",
+     "years": 4,
+     "adjust": 1,
+     "why": "his accession year, 971/970, is year 0, so Ziv of the fourth year falls in spring 966"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#sons-beside-their-fathers"
+  },
+  {
+   "id": "rehoboam-abijah",
+   "ref": "1 Kings 14:21; 15:1-2; 2 Chronicles 13:1-2",
+   "use": "dates",
+   "quotes": [
+    [
+     "1 Kings 15:1",
+     "In the eighteenth year of the reign of Jeroboam son of Nebat, Abijam became king of Judah"
+    ],
+    [
+     "1 Kings 15:2",
+     "he reigned in Jerusalem three years"
+    ],
+    [
+     "2 Chronicles 13:2",
+     "there was war between Abijah and Jeroboam"
+    ]
+   ],
+   "reading": "Rehoboam 17 years, then Abijah 3, acceding in Jeroboam's 18th year.",
+   "feeds": [
+    "abijah_coronation",
+    "abijah_war_with_jeroboam"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_03",
+     "to": "abijah_coronation",
+     "years": 17,
+     "tolerance": 1,
+     "why": "a regnal year straddles two calendar years"
+    },
+    {
+     "from": "abijah_coronation",
+     "to": "asa_coronation",
+     "years": 3,
+     "tolerance": 1,
+     "why": "a regnal year straddles two calendar years"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#scripture-counts-the-same-years-twice"
+  },
+  {
+   "id": "asa",
+   "ref": "1 Kings 15:9-10; 2 Chronicles 14:1; 15:10; 16:12-13",
+   "use": "dates",
+   "quotes": [
+    [
+     "1 Kings 15:9",
+     "In the twentieth year of Jeroboam’s reign over Israel, Asa became king of Judah"
+    ],
+    [
+     "1 Kings 15:10",
+     "he reigned in Jerusalem forty-one years"
+    ],
+    [
+     "2 Chronicles 14:1",
+     "the land was at peace for ten years"
+    ],
+    [
+     "2 Chronicles 15:10",
+     "the fifteenth year of Asa’s reign"
+    ],
+    [
+     "2 Chronicles 16:12",
+     "In the thirty-ninth year of his reign, Asa became diseased in his feet"
+    ]
+   ],
+   "reading": "Asa acceded in Jeroboam's 20th year and reigned 41. The site, following Thiele, makes Jehoshaphat co-regent from Asa's 39th year, when Asa's disease began.",
+   "feeds": [
+    "asa_coronation",
+    "asa_religious_reforms",
+    "asa_victory_over_cushites"
+   ],
+   "intervals": [
+    {
+     "from": "asa_coronation",
+     "to": "asa_victory_over_cushites",
+     "years": 15
+    },
+    {
+     "from": "asa_coronation",
+     "to": "jehoshaphat_coronation",
+     "years": 41,
+     "adjust": -3,
+     "tolerance": 1,
+     "why": "Jehoshaphat co-regent from 873/872, Asa's 39th year (2 Chronicles 16:12); Asa dies in his 41st, 870/869"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#sons-beside-their-fathers"
+  },
+  {
+   "id": "jehoshaphat",
+   "ref": "1 Kings 22:41-42; 2 Chronicles 17:7; 2 Kings 1:17; 3:1; 8:16",
+   "use": "dates",
+   "quotes": [
+    [
+     "1 Kings 22:42",
+     "he reigned in Jerusalem twenty-five years"
+    ],
+    [
+     "2 Chronicles 17:7",
+     "In the third year of his reign, Jehoshaphat"
+    ],
+    [
+     "2 Kings 1:17",
+     "in the second year of the reign of Jehoram son of Jehoshaphat over Judah"
+    ],
+    [
+     "2 Kings 3:1",
+     "In the eighteenth year of Jehoshaphat’s reign over Judah, Jehoram son of Ahab became king of Israel"
+    ]
+   ],
+   "reading": "Jehoshaphat reigned 25 years from his co-regency. Joram of Israel acceded in Jehoshaphat's 18th year (2 Kings 3:1) and in Jehoram of Judah's 2nd (1:17), so Jehoram was already reigning beside his father, as 8:16 says.",
+   "feeds": [
+    "jehoshaphat_coronation",
+    "jehoshaphat_judicial_system"
+   ],
+   "intervals": [
+    {
+     "from": "jehoshaphat_coronation",
+     "to": "jehoshaphat_judicial_system",
+     "years": 3,
+     "tolerance": 1,
+     "why": "the third year, an ordinal count"
+    },
+    {
+     "from": "jehoshaphat_coronation",
+     "to": "jehoram_coronation",
+     "years": 25,
+     "adjust": -5,
+     "tolerance": 1,
+     "why": "Jehoram co-regent from 853, five years before Jehoshaphat's death in 848"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#sons-beside-their-fathers"
+  },
+  {
+   "id": "jehoram-ahaziah",
+   "ref": "2 Kings 8:16-17, 25-26; 9:27-29",
+   "use": "dates",
+   "quotes": [
+    [
+     "2 Kings 8:17",
+     "he reigned in Jerusalem eight years"
+    ],
+    [
+     "2 Kings 8:25",
+     "In the twelfth year of the reign of Joram son of Ahab over Israel, Ahaziah son of Jehoram became king"
+    ],
+    [
+     "2 Kings 8:26",
+     "he reigned in Jerusalem one year"
+    ]
+   ],
+   "reading": "Jehoram's eight years run from his sole reign (848); Ahaziah reigned one year and died with Joram of Israel at Jehu's hand.",
+   "feeds": [
+    "jehoram_coronation",
+    "ahaziah_coronation",
+    "ahaziah_death"
+   ],
+   "intervals": [
+    {
+     "from": "jehoram_coronation",
+     "to": "ahaziah_coronation",
+     "years": 8,
+     "adjust": 4,
+     "tolerance": 1,
+     "why": "co-regent from 853, sole king 848-841"
+    },
+    {
+     "from": "ahaziah_coronation",
+     "to": "ahaziah_death",
+     "years": 1,
+     "tolerance": 1,
+     "why": "a regnal year straddles two calendar years"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#sons-beside-their-fathers"
+  },
+  {
+   "id": "athaliah-joash",
+   "ref": "2 Kings 11:3-4; 12:1, 6",
+   "use": "dates",
+   "quotes": [
+    [
+     "2 Kings 11:3",
+     "for six years while Athaliah ruled the land"
+    ],
+    [
+     "2 Kings 11:4",
+     "Then in the seventh year, Jehoiada sent"
+    ],
+    [
+     "2 Kings 12:1",
+     "he reigned in Jerusalem forty years"
+    ],
+    [
+     "2 Kings 12:6",
+     "By the twenty-third year of the reign of Joash"
+    ]
+   ],
+   "reading": "Athaliah ruled six years; Joash was crowned in the seventh and reigned 40.",
+   "feeds": [
+    "joash_hidden_from_athaliah",
+    "joash_coronation",
+    "joash_temple_repairs"
+   ],
+   "intervals": [
+    {
+     "from": "joash_hidden_from_athaliah",
+     "to": "joash_coronation",
+     "years": 6
+    },
+    {
+     "from": "joash_coronation",
+     "to": "joash_temple_repairs",
+     "years": 23,
+     "tolerance": 1,
+     "why": "the 23rd year, an ordinal count"
+    },
+    {
+     "from": "joash_coronation",
+     "to": "amaziah_reigns",
+     "years": 40,
+     "tolerance": 1,
+     "why": "a regnal year straddles two calendar years"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#scripture-counts-the-same-years-twice"
+  },
+  {
+   "id": "amaziah-uzziah",
+   "ref": "2 Kings 14:1-2, 13, 17; 15:1-2, 5",
+   "use": "dates",
+   "quotes": [
+    [
+     "2 Kings 14:2",
+     "he reigned in Jerusalem twenty-nine years"
+    ],
+    [
+     "2 Kings 14:13",
+     "Jehoash king of Israel captured Amaziah king of Judah"
+    ],
+    [
+     "2 Kings 15:2",
+     "he reigned in Jerusalem fifty-two years"
+    ],
+    [
+     "2 Kings 15:5",
+     "his son Jotham had charge of the palace and governed the people of the land"
+    ]
+   ],
+   "reading": "Amaziah reigned 29 years. Thiele makes Uzziah co-regent from 792/791, after Jehoash of Israel captured Amaziah (14:13), and Jotham co-regent from 750, when Uzziah's leprosy put Jotham in charge of the palace (15:5).",
+   "feeds": [
+    "amaziah_reigns",
+    "uzziah_coronation"
+   ],
+   "intervals": [
+    {
+     "from": "amaziah_reigns",
+     "to": "uzziah_coronation",
+     "years": 29,
+     "adjust": -25,
+     "why": "Uzziah co-regent from 792/791, Amaziah's fifth year"
+    },
+    {
+     "from": "uzziah_coronation",
+     "to": "jotham_coronation",
+     "years": 52,
+     "adjust": -10,
+     "why": "Jotham co-regent from 750; Uzziah's 52 years end in 740/739"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#sons-beside-their-fathers"
+  },
+  {
+   "id": "jotham-ahaz",
+   "ref": "2 Kings 15:30, 32-33; 16:1-2",
+   "use": "dates",
+   "quotes": [
+    [
+     "2 Kings 15:33",
+     "he reigned in Jerusalem sixteen years"
+    ],
+    [
+     "2 Kings 15:30",
+     "In the twentieth year of Jotham son of Uzziah"
+    ],
+    [
+     "2 Kings 16:2",
+     "Ahaz was twenty years old when he became king, and he reigned in Jerusalem sixteen years"
+    ]
+   ],
+   "reading": "Jotham reigned 16 years from 750; 15:30 still counts a 20th year of Jotham, years reckoned past his own sixteen. Ahaz reigned 16 years from his sole reign (732/731) after co-regency from 735.",
+   "feeds": [
+    "jotham_coronation",
+    "ahaz_coronation"
+   ],
+   "intervals": [
+    {
+     "from": "jotham_coronation",
+     "to": "ahaz_coronation",
+     "years": 16,
+     "tolerance": 1,
+     "why": "a regnal year straddles two calendar years"
+    },
+    {
+     "from": "ahaz_coronation",
+     "to": "hezekiah_coronation",
+     "years": 16,
+     "adjust": 4,
+     "tolerance": 1,
+     "why": "co-regent from 735, sole king 732/731-716/715 (Thiele)"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#sons-beside-their-fathers",
+   "contested": "2 Kings 17:1 (Hoshea in Ahaz's 12th year) does not fit Ahaz's years counted from 735, and Ahaz would be about 15 at Hezekiah's birth (16:2; 18:2). Both point to an earlier start for Ahaz that this site has not verified; 18:1 is answered by Hezekiah's co-regency (samaria-hezekiah)."
+  },
+  {
+   "id": "hezekiah-reign",
+   "ref": "2 Kings 18:2, 13; 20:1, 6; Isaiah 36:1; 2 Chronicles 29:3",
+   "use": "dates",
+   "quotes": [
+    [
+     "2 Kings 18:2",
+     "he reigned in Jerusalem twenty-nine years"
+    ],
+    [
+     "2 Kings 18:13",
+     "In the fourteenth year of Hezekiah’s reign, Sennacherib king of Assyria attacked"
+    ],
+    [
+     "Isaiah 36:1",
+     "In the fourteenth year of Hezekiah’s reign"
+    ],
+    [
+     "2 Kings 20:1",
+     "In those days Hezekiah became mortally ill"
+    ],
+    [
+     "2 Kings 20:6",
+     "I will add fifteen years to your life"
+    ],
+    [
+     "2 Chronicles 29:3",
+     "In the first month of the first year of his reign"
+    ]
+   ],
+   "reading": "Hezekiah's 14th year is 701, Sennacherib's invasion, and in \"those days\" he is given fifteen more years: 14 + 15 is his 29-year reign. So the 29 years run 715-686, with Manasseh co-regent from 697. Hezekiah had already reigned beside Ahaz from 729 (samaria-hezekiah); 18:2's age of 25 and 29 years count his sole reign.",
+   "feeds": [
+    "hezekiah_coronation",
+    "hezekiah_religious_reforms",
+    "hezekiah_healing_and_extended_life"
+   ],
+   "intervals": [
+    {
+     "from": "hezekiah_coronation",
+     "to": "anchor_09",
+     "years": 14,
+     "why": "accession-year count: 715 is year 0"
+    },
+    {
+     "from": "hezekiah_coronation",
+     "to": "hezekiah_religious_reforms",
+     "years": 0
+    },
+    {
+     "from": "hezekiah_healing_and_extended_life",
+     "to": "manasseh_evil_reign",
+     "years": 15,
+     "tolerance": 1,
+     "why": "the fifteen years end with his death in 687/686, when Manasseh reigns alone"
+    },
+    {
+     "from": "hezekiah_coronation",
+     "to": "manasseh_coronation",
+     "years": 29,
+     "adjust": -11,
+     "why": "Manasseh co-regent from 697/696"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#what-is-still-contested"
+  },
+  {
+   "id": "manasseh-to-josiah",
+   "ref": "2 Kings 21:1, 19; 22:1, 3; 23:23, 29",
+   "use": "dates",
+   "quotes": [
+    [
+     "2 Kings 21:1",
+     "he reigned in Jerusalem fifty-five years"
+    ],
+    [
+     "2 Kings 21:19",
+     "he reigned in Jerusalem two years"
+    ],
+    [
+     "2 Kings 22:1",
+     "he reigned in Jerusalem thirty-one years"
+    ],
+    [
+     "2 Kings 22:3",
+     "in the eighteenth year of his reign, King Josiah"
+    ],
+    [
+     "2 Kings 23:23",
+     "in the eighteenth year of Josiah’s reign, this Passover was observed"
+    ],
+    [
+     "2 Kings 23:29",
+     "Neco faced him and killed him at Megiddo"
+    ]
+   ],
+   "reading": "Manasseh 55 years from his co-regency, Amon 2, Josiah 31, killed by Neco at Megiddo in 609 (dated by the Babylonian Chronicle). The book of the law is found in Josiah's 18th year.",
+   "feeds": [
+    "manasseh_coronation",
+    "manasseh_evil_reign",
+    "amon_coronation",
+    "josiah_reigns",
+    "josiah_discovery_of_law_book",
+    "josiah_religious_reforms",
+    "josiah_dies"
+   ],
+   "intervals": [
+    {
+     "from": "manasseh_coronation",
+     "to": "amon_coronation",
+     "years": 55
+    },
+    {
+     "from": "amon_coronation",
+     "to": "josiah_reigns",
+     "years": 2
+    },
+    {
+     "from": "josiah_reigns",
+     "to": "josiah_dies",
+     "years": 31
+    },
+    {
+     "from": "josiah_reigns",
+     "to": "josiah_discovery_of_law_book",
+     "years": 18
+    },
+    {
+     "from": "josiah_reigns",
+     "to": "josiah_religious_reforms",
+     "years": 18
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#scripture-counts-the-same-years-twice"
+  },
+  {
+   "id": "last-kings",
+   "ref": "2 Kings 23:31, 36; 24:8, 18",
+   "use": "dates",
+   "quotes": [
+    [
+     "2 Kings 23:31",
+     "he reigned in Jerusalem three months"
+    ],
+    [
+     "2 Kings 23:36",
+     "he reigned in Jerusalem eleven years"
+    ],
+    [
+     "2 Kings 24:8",
+     "he reigned in Jerusalem three months"
+    ],
+    [
+     "2 Kings 24:18",
+     "he reigned in Jerusalem eleven years"
+    ]
+   ],
+   "reading": "Jehoahaz three months and Jehoiakim eleven years after Josiah; Jehoiachin three months before his deportation in Adar 597; Zedekiah eleven years to the fall of Jerusalem.",
+   "feeds": [
+    "jehoiachin_reigns"
+   ],
+   "intervals": [
+    {
+     "from": "josiah_dies",
+     "to": "jehoiachin_reigns",
+     "years": 11
+    },
+    {
+     "from": "jehoiachin_reigns",
+     "to": "anchor_11",
+     "years": 0,
+     "tolerance": 1,
+     "why": "three months, December 598 to March 597"
+    },
+    {
+     "from": "anchor_11",
+     "to": "anchor_12",
+     "years": 11,
+     "why": "Zedekiah's eleven years"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#scripture-counts-the-same-years-twice"
+  },
+  {
+   "id": "estimated-in-reign",
+   "ref": "1 Samuel 16-31; 2 Samuel 7; 11-12; 1 Kings 3; 2 Chronicles 26:6-8; 33:10-13; Isaiah 7; 1 Chronicles 3:17",
+   "use": "estimated",
+   "quotes": [
+    [
+     "2 Samuel 5:4",
+     "David was thirty years old when he became king"
+    ],
+    [
+     "2 Kings 16:5",
+     "They besieged Ahaz but could not overcome him"
+    ]
+   ],
+   "reading": "Scripture names these events and the reign or life they fall in, and gives no year. The site's year is an estimate inside the span the text allows: David's anointing to his exile before he was king at 30; the covenant and Bathsheba in his Jerusalem years; Solomon's birth before Rehoboam's (1 Kings 14:21 makes Rehoboam 41 in 931); Gibeon early in Solomon's reign; Uzziah's wars; the Immanuel sign in the Syro-Ephraimite war at Ahaz's accession; Manasseh's captivity late in his reign; and Shealtiel born in exile to Jehoiachin (1 Chronicles 3:17).",
+   "feeds": [
+    "david_anointed",
+    "david_victory_over_goliath",
+    "david_friendship_with_jonathan",
+    "david_years_of_exile",
+    "david_psalms_and_prophecy",
+    "david_davidic_covenant",
+    "david_bathsheba",
+    "solomon_born",
+    "gibeon",
+    "ahaz_immanuel_prophecy",
+    "manasseh_captivity_and_repentance",
+    "uzziah_military_victories",
+    "shealtiel_birth_in_exile"
+   ],
+   "argued_in": null
+  },
+  {
+   "id": "temple-seven-years",
+   "ref": "1 Kings 6:37-38",
+   "use": "dates",
+   "quotes": [
+    [
+     "1 Kings 6:37",
+     "in the fourth year of Solomon’s reign"
+    ],
+    [
+     "1 Kings 6:38",
+     "So he built the temple in seven years"
+    ]
+   ],
+   "reading": "Founded in Solomon's fourth year, finished in his eleventh, seven years.",
+   "feeds": [
+    "anchor_02"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_01",
+     "to": "anchor_02",
+     "years": 7
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#the-anchor-table"
+  },
+  {
+   "id": "solomon-40",
+   "ref": "1 Kings 11:42-43",
+   "use": "dates",
+   "quotes": [
+    [
+     "1 Kings 11:42",
+     "Solomon reigned in Jerusalem over all Israel was forty years"
+    ]
+   ],
+   "reading": "Solomon reigned 40 years, so he died 36 years after his fourth year.",
+   "feeds": [
+    "anchor_03"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_01",
+     "to": "anchor_03",
+     "years": 36,
+     "tolerance": 1,
+     "why": "regnal years straddle two calendar years: Thiele's fourth year is 967/966 and his death 931/930"
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#the-anchor-table"
+  },
+  {
+   "id": "shishak",
+   "ref": "1 Kings 14:25",
+   "use": "dates",
+   "quotes": [
+    [
+     "1 Kings 14:25",
+     "In the fifth year of Rehoboam’s reign, Shishak king of Egypt attacked Jerusalem"
+    ]
+   ],
+   "reading": "Rehoboam's fifth year, counted from Solomon's death.",
+   "feeds": [
+    "anchor_04"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_03",
+     "to": "anchor_04",
+     "years": 5,
+     "tolerance": 1,
+     "why": "regnal years straddle two calendar years"
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#the-anchor-table"
+  },
+  {
+   "id": "samaria-hezekiah",
+   "ref": "2 Kings 17:6; 18:9-10, 13",
+   "use": "places",
+   "quotes": [
+    [
+     "2 Kings 17:6",
+     "In the ninth year of Hoshea, the king of Assyria captured Samaria"
+    ],
+    [
+     "2 Kings 18:10",
+     "Samaria was captured in the sixth year of Hezekiah, which was the ninth year of Hoshea"
+    ],
+    [
+     "2 Kings 18:13",
+     "In the fourteenth year of Hezekiah’s reign, Sennacherib king of Assyria attacked"
+    ]
+   ],
+   "reading": "Samaria falls in Hoshea's ninth year (722 BC, which Assyrian and Babylonian records date), and Sennacherib's invasion in Hezekiah's fourteenth (701 BC, Sennacherib's prism). Second Kings 18:10 also calls the fall of Samaria Hezekiah's sixth year, counted from his co-regency with Ahaz, which began in Hoshea's third year (18:1), 729 BC (McFall). Read so, every number in 2 Kings 18 stands as written.",
+   "feeds": [
+    "anchor_08",
+    "anchor_09",
+    "hezekiah_coregency"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_08",
+     "to": "anchor_09",
+     "years": 8,
+     "adjust": 13,
+     "tolerance": 1,
+     "why": "18:10 counts Hezekiah's years from his co-regency (729), 18:13 from his sole reign (716/715), as 2 Kings 15:30 counts Jotham's past his own reign"
+    },
+    {
+     "from": "hezekiah_coregency",
+     "to": "anchor_08",
+     "years": 6,
+     "tolerance": 1,
+     "why": "the sixth year of a reign begun in 729 is 724/723, and Samaria falls in 723/722"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#sons-beside-their-fathers",
+   "contested": "Thiele kept one reign from 715 and set aside 18:1 and 18:9-10 as an editor's error; others emend 18:13's fourteenth to twenty-fourth, which breaks 14 + 15 = 29 (20:6; 18:2)."
+  },
+  {
+   "id": "carchemish",
+   "ref": "Jeremiah 46:2; 25:1; Daniel 1:1",
+   "use": "places",
+   "quotes": [
+    [
+     "Jeremiah 46:2",
+     "in the fourth year of Jehoiakim"
+    ],
+    [
+     "Jeremiah 25:1",
+     "the fourth year of Jehoiakim son of Josiah king of Judah, which was the first year of Nebuchadnezzar"
+    ],
+    [
+     "Daniel 1:1",
+     "In the third year of the reign of Jehoiakim"
+    ]
+   ],
+   "reading": "Jehoiakim's fourth year in Jeremiah and his third in Daniel are the same year, 605 BC, counted with and without an accession year; Jeremiah 25:1 makes it Nebuchadnezzar's first. The Babylonian Chronicle dates Carchemish.",
+   "feeds": [
+    "anchor_10"
+   ],
+   "argued_in": "chronology/chronology-anchors#jehoiachins-deportation-and-the-accession-year-gap"
+  },
+  {
+   "id": "jehoiachin-597",
+   "ref": "2 Kings 24:12; Jeremiah 52:28",
+   "use": "places",
+   "quotes": [
+    [
+     "2 Kings 24:12",
+     "in the eighth year of his reign, the king of Babylon took him captive"
+    ],
+    [
+     "Jeremiah 52:28",
+     "in the seventh year, 3,023 Jews"
+    ]
+   ],
+   "reading": "Nebuchadnezzar's eighth year in Kings and his seventh in Jeremiah are both 597 BC, the second counting from his accession year; the Babylonian Chronicle gives 2 Adar of his seventh.",
+   "feeds": [
+    "anchor_11"
+   ],
+   "argued_in": "chronology/chronology-anchors#jehoiachins-deportation-and-the-accession-year-gap"
+  },
+  {
+   "id": "jerusalem-falls",
+   "ref": "2 Kings 25:8-9",
+   "use": "dates",
+   "quotes": [
+    [
+     "2 Kings 25:8",
+     "in the nineteenth year of Nebuchadnezzar’s reign over Babylon"
+    ]
+   ],
+   "reading": "Nebuchadnezzar's nineteenth year, eleven years after his eighth.",
+   "feeds": [
+    "anchor_12"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_11",
+     "to": "anchor_12",
+     "years": 11
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#the-anchor-table",
+   "contested": "587 or 586 BC; no Babylonian chronicle survives for the year."
+  },
+  {
+   "id": "ezekiel-40-1",
+   "ref": "Ezekiel 40:1",
+   "use": "dates",
+   "quotes": [
+    [
+     "Ezekiel 40:1",
+     "In the twenty-fifth year of our exile, at the beginning of the year"
+    ],
+    [
+     "Ezekiel 40:1",
+     "in the fourteenth year after Jerusalem had been struck down"
+    ]
+   ],
+   "reading": "The 25th year of the exile (from 597) and the 14th after the city fell (586): 573 BC, both ordinal counts.",
+   "feeds": [
+    "anchor_13"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_11",
+     "to": "anchor_13",
+     "years": 24,
+     "why": "the 25th year counts 597 as year 1"
+    },
+    {
+     "from": "anchor_12",
+     "to": "anchor_13",
+     "years": 13,
+     "why": "the 14th year counts 586 as year 1"
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#ezekiels-vision-dated-to-the-beginning-of-the-year"
+  },
+  {
+   "id": "jehoiachin-released",
+   "ref": "2 Kings 25:27",
+   "use": "places",
+   "quotes": [
+    [
+     "2 Kings 25:27",
+     "the thirty-seventh year of the exile of Judah’s King Jehoiachin, in the year Evil-merodach became king of Babylon"
+    ]
+   ],
+   "reading": "The 37th year of Jehoiachin's exile, the year Evil-merodach acceded (562/561 BC).",
+   "feeds": [
+    "jehoiachin_release"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_11",
+     "to": "jehoiachin_release",
+     "years": 36,
+     "why": "the 37th year counts 597 as year 1"
+    }
+   ],
+   "argued_in": "chronology/why-not-4004-bc#two-of-his-three-steps-still-stand"
+  },
+  {
+   "id": "babylon-falls",
+   "ref": "Daniel 5:30-31",
+   "use": "places",
+   "quotes": [
+    [
+     "Daniel 5:30",
+     "That very night Belshazzar king of the Chaldeans was slain"
+    ]
+   ],
+   "reading": "Belshazzar dies the night Babylon falls; the Nabonidus Chronicle dates it to October 539 BC.",
+   "feeds": [
+    "anchor_14"
+   ],
+   "argued_in": "chronology/chronology-anchors#the-anchor-table"
+  },
+  {
+   "id": "cyrus-first-year",
+   "ref": "Ezra 1:1; 2 Chronicles 36:22-23",
+   "use": "places",
+   "quotes": [
+    [
+     "Ezra 1:1",
+     "In the first year of Cyrus king of Persia"
+    ],
+    [
+     "2 Chronicles 36:22",
+     "In the first year of Cyrus king of Persia"
+    ]
+   ],
+   "reading": "Cyrus's first year over Babylon, 538 BC.",
+   "feeds": [
+    "anchor_15"
+   ],
+   "argued_in": "chronology/chronology-anchors#the-anchor-table"
+  },
+  {
+   "id": "temple-foundation",
+   "ref": "Ezra 3:8",
+   "use": "dates",
+   "quotes": [
+    [
+     "Ezra 3:8",
+     "In the second month of the second year after they had arrived"
+    ]
+   ],
+   "reading": "The second month of the second year after the return, which followed the decree within the year.",
+   "feeds": [
+    "anchor_16"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_15",
+     "to": "anchor_16",
+     "years": 2,
+     "tolerance": 1,
+     "why": "the return's own year (537 or 538) is not stated"
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#the-anchor-table"
+  },
+  {
+   "id": "seventy-years",
+   "ref": "Jeremiah 25:11-12; 29:10; 2 Chronicles 36:21; Daniel 9:2",
+   "use": "checks",
+   "quotes": [
+    [
+     "Jeremiah 25:11",
+     "these nations will serve the king of Babylon for seventy years"
+    ],
+    [
+     "Jeremiah 29:10",
+     "When Babylon’s seventy years are complete"
+    ],
+    [
+     "2 Chronicles 36:21",
+     "until seventy years were completed"
+    ],
+    [
+     "Daniel 9:2",
+     "the desolation of Jerusalem would last seventy years"
+    ]
+   ],
+   "reading": "Two seventy-year spans close within a year: serving Babylon from Carchemish (605) to the temple foundation (536), and the temple's desolation from 586 to 515.",
+   "feeds": [],
+   "intervals": [
+    {
+     "from": "anchor_10",
+     "to": "anchor_16",
+     "years": 70,
+     "tolerance": 1
+    },
+    {
+     "from": "anchor_12",
+     "to": "anchor_18",
+     "years": 70,
+     "tolerance": 1
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#jeremiahs-seventy-years-closed-twice"
+  },
+  {
+   "id": "darius-2-6",
+   "ref": "Ezra 4:24; Haggai 1:1; Ezra 6:15",
+   "use": "dates",
+   "quotes": [
+    [
+     "Ezra 4:24",
+     "until the second year of the reign of Darius king of Persia"
+    ],
+    [
+     "Haggai 1:1",
+     "In the second year of the reign of Darius"
+    ],
+    [
+     "Ezra 6:15",
+     "on the third day of the month of Adar, in the sixth year of the reign of King Darius"
+    ]
+   ],
+   "reading": "Work resumes in Darius I's second year (Elul 520 BC) and the temple is finished on 3 Adar of his sixth (March 515).",
+   "feeds": [
+    "anchor_17",
+    "anchor_18"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_17",
+     "to": "anchor_18",
+     "years": 4,
+     "tolerance": 1,
+     "why": "Elul of year 2 to Adar of year 6 is four and a half years, across five calendar years"
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#the-anchor-table"
+  },
+  {
+   "id": "artaxerxes-7-20",
+   "ref": "Ezra 7:7-8; Nehemiah 1:1; 2:1",
+   "use": "dates",
+   "quotes": [
+    [
+     "Ezra 7:8",
+     "in the fifth month of the seventh year of the king"
+    ],
+    [
+     "Nehemiah 1:1",
+     "In the month of Chislev, in the twentieth year"
+    ],
+    [
+     "Nehemiah 2:1",
+     "in the month of Nisan, in the twentieth year of King Artaxerxes"
+    ]
+   ],
+   "reading": "Ezra returns in Artaxerxes I's seventh year and Nehemiah's commission comes in his twentieth. Chislev and Nisan both fall in the twentieth year (Nehemiah 1:1; 2:1), so the years run from Tishri. Ezra-Nehemiah is one book in the Hebrew canon, and on the same count Ezra's Nisan-to-Ab journey (Ezra 7:8-9) falls in 457. Counting from Nisan instead gives 458 and 445 and contradicts Nehemiah 1:1.",
+   "contested": "The ESV Study Bible counts Persian Nisan years for both books (458, 445). The 444 also assumes Artaxerxes acceded after Tishri 465; an accession before it would give 458 and 445 on the same count.",
+   "feeds": [
+    "anchor_19",
+    "anchor_20"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_19",
+     "to": "anchor_20",
+     "years": 13,
+     "why": "one Tishri-to-Tishri reckoning for both books, which Nehemiah 1:1 and 2:1 require: the 7th year's Nisan is 457, the 20th's 444"
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#the-444-bc-decree-behind-daniels-sixty-nine-weeks"
+  },
+  {
+   "id": "malachi",
+   "ref": "Malachi 1:1; Nehemiah 13:6",
+   "use": "places",
+   "quotes": [
+    [
+     "Nehemiah 13:6",
+     "in the thirty-second year of his reign"
+    ]
+   ],
+   "reading": "Malachi carries no date. It is placed during Nehemiah's absence after Artaxerxes' 32nd year (433 BC), because it names the abuses Nehemiah finds on his return.",
+   "feeds": [
+    "anchor_21"
+   ],
+   "argued_in": "references/study-state/chronology-anchors.yml#malachi_date"
+  },
+  {
+   "id": "daniel-2-1",
+   "ref": "Daniel 2:1",
+   "use": "dates",
+   "quotes": [
+    [
+     "Daniel 2:1",
+     "In the second year of his reign, Nebuchadnezzar had dreams"
+    ]
+   ],
+   "reading": "Nebuchadnezzar's second year, 603/602 BC on Babylonian reckoning, two years after his accession in 605.",
+   "feeds": [
+    "daniel_2_dream"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_10",
+     "to": "daniel_2_dream",
+     "years": 2,
+     "tolerance": 1,
+     "why": "603 or 602"
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#the-anchor-table"
+  },
+  {
+   "id": "belshazzar-1-3",
+   "ref": "Daniel 7:1; 8:1",
+   "use": "dates",
+   "quotes": [
+    [
+     "Daniel 7:1",
+     "In the first year of the reign of Belshazzar over Babylon"
+    ],
+    [
+     "Daniel 8:1",
+     "In the third year of the reign of King Belshazzar"
+    ]
+   ],
+   "reading": "Belshazzar's first year counts from his regency while Nabonidus was at Tema, c. 553 BC; his third year is two years later.",
+   "feeds": [
+    "daniel_7_beasts",
+    "daniel_8_ram_goat"
+   ],
+   "intervals": [
+    {
+     "from": "daniel_7_beasts",
+     "to": "daniel_8_ram_goat",
+     "years": 2
+    }
+   ],
+   "argued_in": "references/study-state/chronology-anchors.yml#daniel_7_date"
+  },
+  {
+   "id": "seventy-weeks",
+   "ref": "Daniel 9:24-27",
+   "use": "dates",
+   "quotes": [
+    [
+     "Daniel 9:25",
+     "From the issuance of the decree to restore and rebuild Jerusalem until the Messiah, the Prince, there will be seven weeks and sixty-two weeks"
+    ],
+    [
+     "Daniel 9:26",
+     "after the sixty-two weeks the Messiah will be cut off"
+    ],
+    [
+     "Daniel 9:26",
+     "will destroy the city and the sanctuary"
+    ]
+   ],
+   "reading": "Sixty-nine weeks of years run from the decree to restore Jerusalem to the Messiah. 483 years of 360 days are 476 solar years, from 444 BC to AD 33. The city and sanctuary are destroyed after the Messiah is cut off (AD 70).",
+   "feeds": [
+    "daniel_terminus_hoehner",
+    "temple_destroyed_70"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_20",
+     "to": "daniel_terminus_hoehner",
+     "years": 476,
+     "why": "483 prophetic years of 360 days"
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#the-444-bc-decree-behind-daniels-sixty-nine-weeks",
+   "contested": "The decree could be 458/457 (Ezra 7) rather than 444; the 444 follows from the AD 33 crucifixion rather than confirming it."
+  },
+  {
+   "id": "daniel-kingdoms",
+   "ref": "Daniel 8:5-23; 11:2-4",
+   "use": "places",
+   "quotes": [
+    [
+     "Daniel 8:20",
+     "the kings of Media and Persia"
+    ],
+    [
+     "Daniel 8:21",
+     "The shaggy goat represents the king of Greece"
+    ],
+    [
+     "Daniel 8:22",
+     "four kingdoms that will rise from that nation"
+    ],
+    [
+     "Daniel 11:4",
+     "parceled out toward the four winds of heaven"
+    ]
+   ],
+   "reading": "The angel names the ram as Media and Persia and the goat as Greece, its first king broken and four kingdoms after him. The verses identify the events; their dates come from history (Gaugamela 331, Alexander's death 323, Ipsus 301, Antiochus IV's accession 175).",
+   "feeds": [
+    "anchor_22",
+    "anchor_23",
+    "anchor_24",
+    "anchor_26"
+   ],
+   "argued_in": "chronology/chronology-anchors#daniel-names-the-kingdoms-himself"
+  },
+  {
+   "id": "daniel-11-antiochus",
+   "ref": "Daniel 11:15-31; 8:11-14",
+   "use": "places",
+   "quotes": [
+    [
+     "Daniel 11:21",
+     "a despicable person will arise"
+    ],
+    [
+     "Daniel 11:31",
+     "set up the abomination of desolation"
+    ],
+    [
+     "Daniel 8:14",
+     "It will take 2,300 evenings and mornings; then the sanctuary will be properly restored"
+    ]
+   ],
+   "reading": "The kings of the north and south through Antiochus IV: the taking of Judea, the deposing of the high priest, the abomination set up and the sanctuary restored. Dated by 1 Maccabees and the Seleucid era, not by Daniel.",
+   "feeds": [
+    "anchor_25",
+    "anchor_27",
+    "anchor_28",
+    "anchor_29"
+   ],
+   "argued_in": "chronology/chronology-anchors#daniel-814s-2300-evenings-and-mornings-two-readings"
+  },
+  {
+   "id": "dedication",
+   "ref": "John 10:22",
+   "use": "places",
+   "quotes": [
+    [
+     "John 10:22",
+     "the Feast of Dedication took place in Jerusalem"
+    ]
+   ],
+   "reading": "Jesus at the Feast of Dedication, the festival of the rededication of December 164 BC.",
+   "feeds": [
+    "anchor_29"
+   ],
+   "argued_in": "chronology/chronology-anchors#two-dates-fixed-to-the-day-desecration-and-rededication"
+  },
+  {
+   "id": "nativity",
+   "ref": "Matthew 2:1, 16; Luke 2:1-2",
+   "use": "places",
+   "quotes": [
+    [
+     "Matthew 2:1",
+     "during the time of King Herod"
+    ],
+    [
+     "Matthew 2:16",
+     "two years old and under"
+    ]
+   ],
+   "reading": "Jesus is born under Herod, up to two years before Herod's order against the boys of Bethlehem, and Herod died in 4 BC.",
+   "feeds": [
+    "anchor_37"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_37",
+     "to": "anchor_38",
+     "max": 2,
+     "why": "Herod's order is for boys two and under"
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#the-nativity-bracket",
+   "contested": "Herod's death: 4 BC is the majority view; a minority argues 1 BC."
+  },
+  {
+   "id": "forty-six-years",
+   "ref": "John 2:20",
+   "use": "dates",
+   "quotes": [
+    [
+     "John 2:20",
+     "This temple took forty-six years to build"
+    ]
+   ],
+   "reading": "Forty-six years from Herod's start on the temple (20/19 BC) to Jesus's first Passover.",
+   "feeds": [
+    "anchor_39"
+   ],
+   "intervals": [
+    {
+     "from": "anchor_36",
+     "to": "anchor_39",
+     "years": 46,
+     "tolerance": 1,
+     "why": "Herod began in 20 or 19 BC"
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#john-220-neutral-between-both-years"
+  },
+  {
+   "id": "tiberius-15",
+   "ref": "Luke 3:1-2",
+   "use": "dates",
+   "quotes": [
+    [
+     "Luke 3:1",
+     "In the fifteenth year of the reign of Tiberius Caesar"
+    ]
+   ],
+   "reading": "The fifteenth year of Tiberius, counted from his accession in August AD 14, is AD 28/29.",
+   "feeds": [
+    "anchor_40",
+    "anchor_41"
+   ],
+   "argued_in": "chronology/chronology-anchors#luke-31-and-the-fifteenth-year-of-tiberius"
+  },
+  {
+   "id": "about-thirty",
+   "ref": "Luke 3:23",
+   "use": "checks",
+   "quotes": [
+    [
+     "Luke 3:23",
+     "Jesus Himself was about thirty years old when He began His ministry"
+    ]
+   ],
+   "reading": "Jesus was \"about thirty\" when He began; on a 5 BC birth and an AD 29 start He was 32 or 33.",
+   "feeds": [],
+   "intervals": [
+    {
+     "from": "anchor_37",
+     "to": "anchor_40",
+     "years": 30,
+     "tolerance": 3,
+     "why": "\"about\"; the page notes that Luke 3:23 pulls the birth later"
+    }
+   ],
+   "argued_in": "chronology/chronology-anchors#the-nativity-bracket"
+  },
+  {
+   "id": "millennial-week",
+   "ref": "Psalm 90:4; 2 Peter 3:8; Revelation 20:2-6",
+   "use": "tradition",
+   "quotes": [
+    [
+     "Psalm 90:4",
+     "a thousand years are but a day"
+    ],
+    [
+     "2 Peter 3:8",
+     "With the Lord a day is like a thousand years"
+    ],
+    [
+     "Revelation 20:2",
+     "bound him for a thousand years"
+    ],
+    [
+     "Revelation 20:6",
+     "reign with Him for a thousand years"
+    ]
+   ],
+   "reading": "The thousand-year reign is stated (Revelation 20:2-6). Placing it at AM 6000 reads the creation week as six thousand-year days, a tradition the timeline shows; 2 Peter 3:8 itself answers the scoffers of 3:4 about God's patience. The tradition assumes the genealogy's years and cannot confirm them, and AM 6000 is not a date for Christ's return (Mark 13:32; Acts 1:7).",
+   "feeds": [
+    "year_6000",
+    "millennial_reign_start"
+   ],
+   "argued_in": "chronology/genealogy-times#where-year-0-sits"
+  },
+  {
+   "id": "ezekiel-390-40",
+   "ref": "Ezekiel 4:5-6",
+   "use": "unused",
+   "quotes": [
+    [
+     "Ezekiel 4:5",
+     "I have assigned to you 390 days, according to the number of years of their iniquity"
+    ],
+    [
+     "Ezekiel 4:6",
+     "I have assigned to you 40 days, a day for each year"
+    ]
+   ],
+   "reading": "390 years for Israel and 40 for Judah, \"a day for each year\". What they count from is contested, and no event on the timeline is dated by them.",
+   "feeds": [],
+   "argued_in": null
+  }
+ ]
+}

@@ -49,8 +49,88 @@ settled_questions:
       the chosen year — contested astronomy (Schaefer vs Humphreys) plus a strained reading of
       Acts 2:20, which quotes Joel about the future rather than reporting Friday's sky.
 
+  malachi_date:
+    verdict: "c. 430 BC (bracket 460-400 BC), moderate confidence; table entry 21"
+    settled: "2026-11-02"
+    summary: >
+      Malachi carries no regnal date, so it is placed by what it describes. The temple stands and
+      offerings run (Malachi 1:7-10), under a Persian governor (1:8): after 515 BC. Its abuses are
+      the ones Nehemiah 13 finds when he comes back after Artaxerxes' 32nd year, 433 BC (13:6):
+      marriage to foreign wives (Malachi 2:11; Nehemiah 13:23-27), the Levites' portions withheld
+      (Malachi 3:8-10; Nehemiah 13:10), and a corrupted priesthood, in near-identical words --
+      "you have corrupted the covenant of Levi" (Malachi 2:8 ESV) beside "the covenant of the
+      priesthood and the Levites" (Nehemiah 13:29 ESV). Malachi's governor takes gifts (1:8), which
+      Nehemiah refused to do (Nehemiah 5:15), so the book fits Nehemiah's absence after 433 or the
+      years before 445, and 430 sits in the first. Study Bibles range from Darius I to c. 430
+      (ESV SB mid-fifth century, NLT c. 430, CSB c. 460 or c. 435); none has 397.
+    against: >
+      STEP's chronology dates "Malachi's prophecies" 397 BC under every one of its schemes, with no
+      reason given, while its own 434 BC entry for Nehemiah's return lists the same abuses. 397 is
+      the date in the traditional KJV-margin and Scofield chronology descending from Ussher (recalled,
+      not checked against a copy). Not adopted: it separates Malachi from the reform it describes.
+    verification: >
+      ESV wording of Malachi 1:8, 2:8, 2:11, 3:8-10 and Nehemiah 5:15, 13:6, 13:10, 13:29 checked
+      against study-notes.db on 2026-11-02. The study-Bible dates, the Elephantine papyri (a
+      governor Bagohi in 407 BC, so later governors are possible) and the Scofield 397 were
+      recalled, not looked up.
+    step_check: "step_chronology_check.py reports this as its one real gap (33 years); expected, not an error."
+  daniel_7_date:
+    verdict: "553 BC (error 553-550), milestone daniel_7_beasts; Daniel 8 two years later, 551"
+    settled: "2026-11-02"
+    summary: >
+      Daniel 7:1 dates the dream "in the first year of Belshazzar king of Babylon" (ESV). Belshazzar
+      reigned as regent while Nabonidus was at Tema; the Verse Account of Nabonidus has the kingship
+      entrusted to him, usually dated 553, and the Nabonidus Chronicle has the crown prince in Akkad
+      from 549 at the latest (both recalled, not checked against an edition). Daniel 5:30 ends his
+      reign in 539, so chapter 7 precedes chapter 5. ESV SB c. 552, NLT 553.
+    against: >
+      STEP dates the chapter 555 BC, apparently counting Belshazzar's first year from Nabonidus's own
+      accession (556/555), which the regency evidence does not support. A 2-year difference.
+      step_chronology_check.py once reported 15 years by matching Daniel 7 to STEP's 538 BC "Persia
+      attacks after Belshazzar's feast" (Daniel 5-7 and nine other books); fixed 2026-11-02 to read
+      STEP's chapter-year entries.
+
+  ezra_nehemiah_reckoning:
+    verdict: "Ezra 457 BC (anchor_19, was 458), Nehemiah 444 BC (anchor_20, unchanged): one Tishri-to-Tishri count of Artaxerxes I's years for both books"
+    settled: "2026-11-03"
+    summary: >
+      Nehemiah 1:1 (Chislev) and 2:1 (Nisan) both fall in the twentieth year, which is possible only on
+      a year beginning in Tishri: Tishri 445-Elul 444, so Nisan 444. Ezra-Nehemiah is one book in the
+      Hebrew canon, so Ezra 7:8-9 (Nisan to Ab of the seventh year) takes the same count: 457. The
+      text's thirteen years from the seventh to the twentieth year then hold; 458 with 444 mixed two
+      reckonings and was 14 apart (dating-texts artaxerxes-7-20, formerly a tension).
+    against: >
+      The ESV SB counts Persian Nisan years for both (458, 445), which puts the twentieth year's Nisan
+      eight months before its Chislev and the commission before the news (Neh 1:1). Rejected. The 444
+      still depends on Artaxerxes acceding after Tishri 465 (the Elephantine evidence for a late-465
+      accession is recalled, not checked against an edition); an earlier accession gives 458/445.
+    crucifixion: >
+      Unchanged. Daniel 9:25's decree is Nehemiah's (the city, Neh 2:5-8), counted from 444; Ezra 7's
+      decree concerns temple worship. Entry 20 now rests on Nehemiah's own two dates and so no longer
+      merely follows from the AD 33 choice.
+
+  hezekiah_coregency:
+    verdict: "Hezekiah co-regent with Ahaz from 729 BC (life event hezekiah_coregency), sole king 715-686 (unchanged)"
+    settled: "2026-11-03"
+    summary: >
+      2 Kings 18:10 dates Samaria's fall (722) to Hezekiah's sixth year; 18:13 and Isaiah 36:1 date
+      Sennacherib (701) to his fourteenth; 20:6's fifteen years make 14 + 15 = 29 (18:2). The sixth
+      year counts from a co-regency begun in Hoshea's third year (18:1), 729; the fourteenth from the
+      sole reign. Kings counts from a co-regency elsewhere (15:5; 15:30's 20th year of a 16-year
+      Jotham), and the site already used six co-regencies. Source: Leslie McFall, "Did Thiele Overlook
+      Hezekiah's Coregency?", BSac 146.584 (1989); McFall's chart (biblechronology.net/McFallChronology.html,
+      read 2026-11-03): Hezekiah co-regent Sept 729, sole reign c. March 715; Ahaz co-regent Sept 735,
+      sole 732/731; Hoshea 732/731-723. Horn also took 729/28-716/15 (cited in AUSS).
+    against: >
+      Thiele: one reign from 715, synchronisms 18:1, 9-10 an editor's error. Emending 18:13 to
+      "twenty-fourth" breaks 14 + 15 = 29 and Isaiah 36:1. Both rejected.
+    still_open: >
+      2 Kings 17:1 (Hoshea in Ahaz's 12th year) does not fit Ahaz from 735, and Ahaz is about 15 at
+      Hezekiah's birth (16:2 with 18:2). An Ahaz co-regency from 744/743 would answer both, but McFall's
+      chart keeps 735 and no source checked gives 744; Ahaz was NOT moved.
+
 open_questions:
-  - "Entry 20's 444 BC decree follows FROM the AD 33 choice rather than supporting it. Stated on the page so the two cannot be mistaken for independent confirmation. If the crucifixion year ever moves, this must move with it."
+  - "RESOLVED 2026-11-03: entry 20's 444 BC no longer only follows from the AD 33 choice; it rests on Nehemiah 1:1 and 2:1 (Tishri years). See settled_questions.ezra_nehemiah_reckoning. It still depends on a late-465 accession of Artaxerxes."
   - "Solomon's 4th year carries +/-5 yrs and everything above it inherits that. Small beside the genealogy uncertainties, but it does propagate to creation."
   - "RESOLVED 2026-10-01: the epoch was decided (a_prime, creation 3959 BC, Exodus 1446 BC), so the table collapsed to one Zadok column as planned. See decisions_2026-10-01."
   - "1 Maccabees is not in bible-text.db, but it is in the raw-only deuterocanonical source (references/open-data/scrollmapper-bible-databases-deuterocanonical). Every date the page takes from it was checked there on 2026-10-01 (see review_2026-10-01)."
@@ -410,7 +490,7 @@ evidence:
   - {id: acts18-12-esvsb, what: "Gallio 51-52", tool: study_note, args: {book: Acts, chapter: 18, verse: 12, work_id: esv-study-bible}, expect_contains: "Gallio served in this role A.D. 51", checked: 2026-10-01}
   - {id: 2chr36-21-esv, what: "2 Chronicles 36:21 seventy years of Sabbath rest", tool: study_verse, args: {book: 2Chr, chapter: 36, verse: 21, work_id: esv-study-bible}, expect_contains: "to fulfill seventy years", checked: 2026-10-01}
 
-last_updated: "2026-10-01"
+last_updated: "2026-11-03"
 word_budget: 5200
 word_budget_reason: >
   The "Outside witnesses" section (2026-10-08) adds about 1,300 words of reference material: one

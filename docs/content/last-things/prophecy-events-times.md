@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Daniel 9:24-27"
 bible_references: ["1 Kings 16:29", "2 Kings 4:23", "2 Kings 18:13-19:37", "2 Kings 24:10-17", "2 Kings 25:27-30", "Ezra 1:1-4", "Nehemiah 2:1-8", "Joshua 10:12-14", "Amos 8:5", "Amos 8:9", "Hosea 2:11", "Isaiah 1:13-14", "Joel 2:31", "Daniel 9:24-27", "Matthew 21:1-11", "Matthew 27:45", "Mark 15:33", "Luke 23:44-45", "Luke 19:41-44", "Acts 2:20"]
 date_created: 2024-10-20
-date_modified: 2026-10-22
+date_modified: 2026-11-03
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -260,7 +260,7 @@ is the crux of the calculation:
 | --- | --- | --- |
 | Cyrus | 538 BC | Rebuild the **temple** (Ezra 1:1-4) |
 | Darius I | 519/518 BC | Confirms/renews Cyrus's temple decree (Ezra 6:1-12) |
-| Artaxerxes I to Ezra | 458 BC | Funds temple worship and appoints judges/teachers (Ezra 7:11-26) |
+| Artaxerxes I to Ezra | 457 BC | Funds temple worship and appoints judges/teachers (Ezra 7:11-26) |
 | Artaxerxes I to Nehemiah | 445/444 BC | Rebuild **the city itself** — walls and streets (Nehemiah 2:1-8) |
 
 Daniel 9:25 specifies rebuilding *the city* ("street" and "moat," or "plaza" and "wall," depending

@@ -122,7 +122,12 @@ hand-write those three.
   person's events, and the epoch is set only in `chronology.json`. `utils/validate_genealogy.py`
   and `app/src/utils/chronology.test.js` fail on a duplicated calendar, an event list back in an
   era file, a lifespan that disagrees with its dates, or a timeline row that disagrees with
-  Chronology Anchors.
+  Chronology Anchors. **Every verse a date rests on is in `docs/data/dating-texts.json`**: the
+  BSB wording that states its number (`tests/test_dating_texts.py` checks it against the text),
+  the site's reading, the events it dates and the intervals that reading implies, which
+  `chronology.test.js` checks against the dates. It also fails on an event citing Scripture that no
+  entry dates. Add the entry with the event. A known disagreement is a `tension`, reported rather
+  than failed.
 - **The site is served from `the-way.lewy.au` at its root** — a Cloudflare Workers Custom Domain,
   not `github.io/bible_studies` (stale and orphaned since the September 2026 migration; no longer
   built, no longer the custom domain, no longer even resolving there). Site-absolute URLs therefore

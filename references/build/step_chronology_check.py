@@ -90,14 +90,33 @@ def site_verses(refs: str | None) -> set[tuple[str, int, int]]:
 
 
 def step_events() -> list[dict]:
+    entries = fetch_step_app("J_AppsJson/J_Chronology/j_chronology")["ChronologyEntries"]
     events = []
-    for entry in fetch_step_app("J_AppsJson/J_Chronology/j_chronology")["ChronologyEntries"]:
+    for entry in entries:
         date = step_date(entry.get(SCHEME, ""))
         if not date or not entry.get("bibleRefs"):
             continue
         label = re.sub(r"<[^>]+>|▼", "", entry["desc"]).strip()
-        events.append({"label": label, "date": date, "verses": step_verses(entry["bibleRefs"]),
-                       "refs": entry["bibleRefs"]})
+        events.append({"label": label, "words": words(label), "date": date,
+                       "verses": step_verses(entry["bibleRefs"]), "refs": entry["bibleRefs"]})
+    # STEP also gives a year to single chapters ("Dan.7" is 555 BC), and these are the entries a
+    # dated chapter needs: without them Daniel 7 matched "Persia attacks after Belshazzar's feast"
+    # (Dan.5-7), 538 BC. They carry dt_Modern only, which is STEP's 400-years-in-Egypt line and
+    # parts from Hebrew_200_15 by 215 years before Joseph, so a chapter is used only after the
+    # last point (on STEP's own uYear axis) where the two schemes disagree. And a chapter's year
+    # is the one its opening verse gives ("In the first year of Belshazzar", Daniel 7:1), so only
+    # an event citing that verse matches it: Daniel 8:22 is the site's 301 BC, which STEP's
+    # 553 BC for the chapter, the year of the vision, never dates.
+    parted = max(e["uYear"] for e in entries
+                 if e.get(SCHEME) and e.get("dt_Modern") and e[SCHEME] != e["dt_Modern"])
+    for entry in entries:
+        if "refs" not in entry or entry["uYear"] <= parted:
+            continue
+        chapters = "; ".join(book for book, _ in entry["refs"])
+        verses = set().union(*(step_verses(book) for book, _ in entry["refs"]))
+        events.append({"label": f"STEP's year for {chapters}", "words": set(),
+                       "date": step_date(entry["dt_Modern"]), "verses": verses,
+                       "openings": {v for v in verses if v[2] == 1}, "refs": chapters})
     return events
 
 
@@ -157,15 +176,19 @@ def match(event: dict, step: list[dict]) -> dict | None:
     # STEP dates a prophecy when it was given; the site dates the events it foretells. Daniel 11
     # is STEP's 535 BC vision and the site's 167 BC desecration, so the two never match.
     foretold = re.compile(r"vision|prophec|dream", re.I)
-    scored = [(len(words(event["label"]) & words(s["label"])),
-               len(event["verses"] & s["verses"]) / len(event["verses"]), i)
+    # A tie goes to STEP's year for the chapter: Daniel 7:1-28 sits inside both that and "Persia
+    # attacks after Belshazzar's feast" (Daniel 5-7 and nine other books), and only the first
+    # dates the chapter.
+    scored = [(len(words(event["label"]) & s["words"]),
+               len(event["verses"] & s["verses"]) / len(event["verses"]), "openings" in s, i)
               for i, s in enumerate(step) if comparable(event, s) and event["verses"] & s["verses"]
+              and event["verses"] & s.get("openings", event["verses"])
               and ("born" in event["label"] or not births.match(s["label"]))]
     # Sharing a word, or citing nothing STEP's entry does not: the event sits inside STEP's range
     # -- unless that range is a prophecy and the labels have nothing in common.
     scored = [x for x in scored
-              if x[0] or (x[1] == 1 and not foretold.search(step[x[2]]["label"]))]
-    return step[max(scored)[2]] if scored else None
+              if x[0] or (x[1] == 1 and not foretold.search(step[x[-1]]["label"]))]
+    return step[max(scored)[-1]] if scored else None
 
 
 def comparable(event: dict, step: dict) -> tuple[str, int] | None:

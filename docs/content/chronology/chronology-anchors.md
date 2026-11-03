@@ -5,9 +5,9 @@ description: "Forty-one events from Solomon's temple to the Resurrection, each w
 tags: ["genealogy", "archaeology", "method/archaeology", "status/investigation"]
 draft: false
 primary_passage: "1 Kings 6:1"
-bible_references: ["Joshua 10:12-14", "1 Kings 5:1-12", "1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Chronicles 12:2", "2 Kings 1:1", "2 Kings 3:4-5", "2 Kings 9:24-27", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20"]
+bible_references: ["Joshua 10:12-14", "1 Kings 5:1-12", "1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Chronicles 12:2", "2 Kings 1:1", "2 Kings 3:4-5", "2 Kings 9:24-27", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20", "Nehemiah 1:1", "Ezra 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-10-22
+date_modified: 2026-11-03
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -94,7 +94,7 @@ are set out in [Genealogy and Times](genealogy-times.md#where-year-0-sits).
 | 16 | Temple foundation laid | Ezra 3:8 | 536 BC | Anchored | ±2 | 3423 |
 | 17 | Work resumes, Darius's 2nd year | Ezra 4:24; Haggai 1:1 | 520 BC | Fixed | 0 | 3439 |
 | 18 | Second temple completed | Ezra 6:15 | 515 BC | Fixed | 0 | 3444 |
-| 19 | Ezra returns, Artaxerxes' 7th year | Ezra 7:7-8 | 458 BC | Anchored | ±1 | 3501 |
+| 19 | Ezra returns, Artaxerxes' 7th year | Ezra 7:7-8 | 457 BC | Anchored | ±1 | 3502 |
 | 20 | Decree to restore Jerusalem, 20th year | Nehemiah 2:1 | 444 BC | Anchored | ±1 | 3515 |
 | 21 | Malachi, the last writing prophet | Malachi 1:1 | 430 BC | Bracketed | 460-400 BC | 3529 |
 | 22 | Alexander breaks Persia at Gaugamela | Daniel 8:5-7, 20-21; 11:3 | 331 BC | Fixed | 0 | 3628 |
@@ -148,7 +148,9 @@ The verse names no month, and "the beginning of the year" is read two ways. Take
 
 ### The 444 BC decree behind Daniel's sixty-nine weeks
 
-**The decree, 444 BC (#20).** Artaxerxes I acceded in 465 BC, so his twentieth year is 445 BC on accession reckoning and 444 BC on a Tishri count. The *ESV Study Bible* dates Nehemiah 2:1 to Nisan 445 BC; Hoehner takes 444. The single year matters because Daniel 9:25's sixty-nine weeks are measured from it: 69 × 7 × 360 days is 173,880 days, or 476 solar years, which reaches AD 32 from 445 BC and AD 33 from 444 BC. The date here is chosen for consistency with entry 41 rather than on independent evidence, and that dependency is recorded rather than hidden.
+**The decree, 444 BC (#20).** Nehemiah dates two events to Artaxerxes I's twentieth year: the news from Jerusalem in Chislev, the ninth month (Nehemiah 1:1), and his commission in Nisan, the first (Nehemiah 2:1). Chislev comes before Nisan in one regnal year only when the year begins in the autumn, in Tishri, the way Judah counted its kings' years on Thiele's reconstruction. Counted so from Artaxerxes' accession late in 465 BC, the twentieth year runs from Tishri 445 to Tishri 444, and its Nisan is 444 BC, Hoehner's date. The *ESV Study Bible* counts Persian spring-to-spring years and dates Nehemiah 2:1 to Nisan 445 BC; on that count the twentieth year's Nisan falls eight months before its Chislev, and the commission would come before the news that prompted it. The single year matters because Daniel 9:25's sixty-nine weeks are measured from it: 69 × 7 × 360 days is 173,880 days, or 476 solar years, which reaches AD 32 from 445 BC and AD 33 from 444 BC. So 444 rests on Nehemiah's own two dates and reaches the year entry 41 settles on other grounds. It does depend on one outside fact, an accession after Tishri 465; an accession before it would give 445 on the same count.
+
+**Ezra's return, 457 BC (#19).** Ezra and Nehemiah are one book in the Hebrew Bible, so Ezra's dates take the same count. He set out in the first month and reached Jerusalem in the fifth, in Artaxerxes' seventh year (Ezra 7:8-9): Nisan to Ab 457 BC, thirteen years before Nehemiah's commission, as the seventh and twentieth years require. The *ESV Study Bible*'s 458 is the spring count again.
 
 ### The Nativity bracket
 

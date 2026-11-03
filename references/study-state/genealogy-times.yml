@@ -342,7 +342,7 @@ correction_2026_09_06:
     - docs/content/god/world-population-...md ("two Samaritan readings" -> "one"; the 2288 BC
       Flood date and every derived growth rate are unchanged)
     - app/src/utils/chronology.test.js
-last_updated: "2026-09-06"
+last_updated: "2026-11-02"
 
 review_2026_08_22:
   reviewer: "review-bible-study skill, full 8-phase adversarial pass"
@@ -537,3 +537,44 @@ evidence:
     path: "verses.0.text"
     expect_contains: "שלש וחמשים שנה ושש מאות שנה"
     checked: 2026-10-09
+  - {id: gen5-6-esv, what: "Gaps section: Genesis 5:6 quote", tool: study_verse, args: {book: Gen, chapter: 5, verse: 6, work_id: esv-study-bible}, expect_contains: "When Seth had lived 105 years, he fathered Enosh.", checked: 2026-11-02}
+  - {id: gen4-26-esv, what: "Gaps section: Genesis 4:26 quote", tool: study_verse, args: {book: Gen, chapter: 4, verse: 26, work_id: esv-study-bible}, expect_contains: "To Seth also a son was born, and he called his name Enosh.", checked: 2026-11-02}
+  - {id: gen11-10-esv, what: "Gaps section: two years after the flood", tool: study_verse, args: {book: Gen, chapter: 11, verse: 10, work_id: esv-study-bible}, expect_contains: "two years after the flood", checked: 2026-11-02}
+  - {id: 1pet3-20-esv, what: "Gaps section: eight persons", tool: study_verse, args: {book: 1Pet, chapter: 3, verse: 20, work_id: esv-study-bible}, expect_contains: "eight persons", checked: 2026-11-02}
+  - {id: gen11-31-esv, what: "Gaps section: Lot his grandson", tool: study_verse, args: {book: Gen, chapter: 11, verse: 31, work_id: esv-study-bible}, expect_contains: "Terah took Abram his son and Lot the son of Haran, his grandson", checked: 2026-11-02}
+  - {id: jude14-esv, what: "Gaps section: seventh from Adam", tool: study_verse, args: {book: Jude, chapter: 1, verse: 14, work_id: esv-study-bible}, expect_contains: "Enoch, the seventh from Adam", checked: 2026-11-02}
+  - {id: matt1-17-esv, what: "Gaps section: fourteen generations", tool: study_verse, args: {book: Matt, chapter: 1, verse: 17, work_id: esv-study-bible}, expect_contains: "fourteen generations", checked: 2026-11-02}
+  - {id: gen46-18-esv, what: "Gaps section: she bore to Jacob", tool: study_verse, args: {book: Gen, chapter: 46, verse: 18, work_id: esv-study-bible}, expect_contains: "she bore to Jacob", checked: 2026-11-02}
+  - {id: 2pet3-8-esv, what: "Gaps section: one day is as a thousand years", tool: study_verse, args: {book: 2Pet, chapter: 3, verse: 8, work_id: esv-study-bible}, expect_contains: "with the Lord one day is as a thousand years", checked: 2026-11-02}
+  - {id: esvsb-gen5-ancestor, what: "Gaps section: ESV SB allows gaps", tool: study_note, args: {book: Gen, chapter: 5, verse: 1, work_id: esv-study-bible}, expect_contains: "can mean “fathered an ancestor of,”", checked: 2026-11-02}
+
+gaps_section_2026-11-02:
+  added: "### Are there gaps in Genesis 5 and 11? (under Case studies), at the author's request, answering the open-genealogy reading."
+  argument: >
+    (1) The verb dates the birth of the man it names: even if wayyoled (H3205 hiphil) means 'became
+    the ancestor of', one becomes Enosh's ancestor in the year Enosh is born, so the years stay
+    continuous. Gaps in years need the age to date an UNNAMED person's birth (Green's reading).
+    CORRECTION to an earlier chat answer, which said flatly that 'a gap in names is not a gap in
+    years': that holds on this reading of the verb, not on Green's, and the section says so.
+    (2) Links closed by narrative: Gen 4:25-26; 5:28-29; 11:10 with 1 Pet 3:20; 11:31 (ben-beno
+    marks a grandson); 10:25-29. Jude 14 counts Genesis 5's names (ESV SB: 'seventh one listed'),
+    so it is first-century witness, not independent proof.
+    (3) Matt 1:8/1:17, Ruth 4:18-22, Gen 46:17-18 show 'son'/'bore' = descendant (settled), but none
+    gives ages. Exodus 6:16-20 gives lifespans only. Gen 5/11 give an age at every link.
+    (4) The gap side's best point: Genesis never states its own total (contested).
+    (5) First readers summed the chain: Jubilees, Theophilus 3.24 (2,242 to the Flood), Africanus
+    (2,262), Seder 'Olam. 2 Peter 3:8's thousand-year days assume the years and cannot confirm them.
+  commentary_changed: >
+    ESV SB on Jude 14 ('the seventh one listed') downgraded Jude 14 from independent proof to
+    early witness. ESV SB on Gen 5 offered Exodus 6:16-20 vs 1 Chr 7:20-27 as proof of omission;
+    the section answers only that Exodus 6 gives no fathering ages. An argument that both lists can
+    be complete on the 215-year sojourn was considered and dropped: Ephraim to Joshua is about ten
+    generations in under two centuries, too tight to assert.
+  unverified: >
+    Green, 'Primeval Chronology', Bibliotheca Sacra 47 (1890) 285-303, and Warfield, 'On the
+    Antiquity and the Unity of the Human Race', Princeton Theological Review 9 (1911): cited from
+    memory, not checked against copies. Jeremy Sexton (WTJ 77, 2015) argues the verb point at
+    length; recalled, so not cited. Theophilus/Africanus totals are as Flood and the King Lists
+    records them.
+  word_budget: "Study now 4,507 words against the default 4,000 (was about 3,600). Left for the author: raise word_budget with a reason, or simplify."
+  sibling_edit: "flood-and-the-king-lists.md 'Contested, and a separate question' bullet now links here."

@@ -285,9 +285,13 @@ compares this site's dates with STEP's `Hebrew_200_15` scheme (Masoretic numbers
 Egypt, 15th-century Exodus, the line this site works to). STEP's AM and this site's AM are
 different years — this site's AM 0 is 3959 BC, Ussher's 4004, STEP's timeline axis 4174 — so the
 check compares AM with AM only where both are counting Genesis, compares calendar years after
-Abram's call, and converts only this site's AM, by this site's own epoch. Measured 2026-11-01: 44
-events matched, 32 to the year, 10 within five years; Malachi (430 BC here, 397 BC in STEP) is the
-one real gap. It reports and never edits. STEP's genealogy app is built from TIPNR, which
+Abram's call, and converts only this site's AM, by this site's own epoch. It also reads STEP's
+year for single chapters (Daniel 7 is 555 BC), which carry STEP's 400-years-in-Egypt line only, so
+it uses them only after the point where that line and `Hebrew_200_15` agree, and only for an event
+citing the chapter's opening verse, the one that dates it. Measured 2026-11-02: 47 events matched,
+32 to the year, 14 within five years; Malachi (430 BC here, 397 BC in STEP) is the one real gap,
+and the reasons this site keeps 430 are in `study-state/chronology-anchors.yml`
+(`settled_questions.malachi_date`). It reports and never edits. STEP's genealogy app is built from TIPNR, which
 `genealogy_check.py` already compares, so it adds nothing to check against.
 
 ## unfoldingWord: the alignment and the grammar

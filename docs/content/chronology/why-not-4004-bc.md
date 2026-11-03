@@ -5,9 +5,9 @@ description: "Archbishop Ussher's creation date was printed in Bible margins for
 tags: ["archaeology", "method/archaeology", "1-kings", "2-kings", "lang/hebrew"]
 draft: false
 primary_passage: "1 Kings 15:25-28"
-bible_references: ["1 Kings 6:1", "1 Kings 14:20-21", "1 Kings 15:1-2", "1 Kings 15:9-10", "1 Kings 15:33", "1 Kings 16:8-10", "1 Kings 16:23", "1 Kings 16:29", "1 Kings 22:41-42", "1 Kings 22:51", "2 Kings 3:1", "2 Kings 1:17", "2 Kings 8:17", "2 Kings 8:25-26", "2 Kings 9:24-27", "2 Kings 15:5", "2 Kings 25:27", "Genesis 15:13-16", "Genesis 46:11", "Exodus 1:7", "Exodus 1:12", "Exodus 6:16-20", "Exodus 7:7", "Exodus 12:40-41", "Numbers 26:59", "Acts 7:6", "Galatians 3:17", "Psalm 119:160", "Galatians 4:4"]
+bible_references: ["1 Kings 6:1", "1 Kings 14:20-21", "1 Kings 15:1-2", "1 Kings 15:9-10", "1 Kings 15:33", "1 Kings 16:8-10", "1 Kings 16:23", "1 Kings 16:29", "1 Kings 22:41-42", "1 Kings 22:51", "2 Kings 3:1", "2 Kings 1:17", "2 Kings 8:17", "2 Kings 8:25-26", "2 Kings 9:24-27", "2 Kings 15:5", "2 Kings 25:27", "Genesis 15:13-16", "Genesis 46:11", "Exodus 1:7", "Exodus 1:12", "Exodus 6:16-20", "Exodus 7:7", "Exodus 12:40-41", "Numbers 26:59", "Acts 7:6", "Galatians 3:17", "Psalm 119:160", "Galatians 4:4", "2 Kings 18:1", "2 Kings 18:9-10", "2 Kings 18:13", "2 Kings 20:6"]
 date_created: 2026-10-08
-date_modified: 2026-10-31
+date_modified: 2026-11-03
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -179,6 +179,14 @@ was already counting years of his own reign while his father still reigned. Of U
 separate house. And Jotham the king's son was over the household, governing the people of the land"
 (2 Kings 15:5, ESV). When father and son both count those shared years, the sum double-counts them.
 
+Hezekiah's reign shows a son counting from both starts. Second Kings 18 dates the fall of Samaria
+to his sixth year (2 Kings 18:10) and Sennacherib's invasion to his fourteenth (2 Kings 18:13),
+which the Assyrian records put 21 years apart, in 722 and 701 BC. The sixth year counts from his
+co-regency with Ahaz, which began in Hoshea's third year (2 Kings 18:1), 729 BC. The fourteenth
+counts from his sole reign in 715, and the fifteen years added to his life (2 Kings 20:6) bring
+those fourteen to the twenty-nine of 2 Kings 18:2. Leslie McFall reads the chapter this way, and
+every number in it stands as written.
+
 ### Ussher's 424 years against Thiele's 380
 
 Ussher knew this. Added straight through, the kings of Judah from the temple to the fall of
@@ -256,9 +264,11 @@ widely taken as "the" Bible date, which is the confusion Lloyd's margins began.
 
 Three questions remain open, and none of them brings back 1012 BC.
 
-- **Thiele's system has loose ends.** He could not reconcile the synchronisms of Hezekiah's reign
-  in 2 Kings 18 with the rest, and later work by Leslie McFall and Rodger Young has adjusted
-  several of his dates by a year or two. Jerusalem's fall is still argued between 587 and 586 BC.
+- **Thiele's system has loose ends.** He kept Hezekiah to one reign from 715 and set aside 2 Kings
+  18:1 and 18:9-10 as an editor's error; this site follows McFall's co-regency instead (see
+  [Sons beside their fathers](#sons-beside-their-fathers) above). Hoshea's accession in Ahaz's
+  twelfth year (2 Kings 17:1) still does not fit Ahaz's years from 735, and McFall and Rodger Young
+  have adjusted several of Thiele's dates by a year or two. Jerusalem's fall is still argued between 587 and 586 BC.
   These move dates by a year or two. None moves the temple by forty.
 - **The 480 years may be schematic.** The *ESV Study Bible* reads 1 Kings 6:1 at face value as
   supporting an Exodus about 1446 BC. It also sets out the case for twelve generations of a
@@ -389,6 +399,8 @@ own way.
 - **Rodger C. Young, "Ussher Explained and Corrected"**, *Bible and Spade* 31.2 (2018), from p. 47,
   Associates for Biblical Research ([PDF](https://rcyoung.org/articles/ussher.pdf)) — Ussher's
   method followed step by step, and the correction through the divided kingdom.
+- **Leslie McFall, "Did Thiele Overlook Hezekiah's Coregency?"**, *Bibliotheca Sacra* 146.584
+  (1989) — Hezekiah co-regent with Ahaz from 729 BC, which keeps every synchronism in 2 Kings 18.
 - **Floyd Nolen Jones, *Chronology of the Old Testament: A Return to the Basics*** — a modern
   defence of 4004 BC that updates Ussher's *Annals*.
 - **Danny R. Faulkner, "Comments on Ussher's Date of Creation"**, *Answers Research Journal* 9

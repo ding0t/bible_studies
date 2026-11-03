@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 10:25-29
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 10:19
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 10:15-19
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 10:1-32

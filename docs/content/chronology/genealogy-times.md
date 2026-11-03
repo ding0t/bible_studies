@@ -5,9 +5,9 @@ description: "Tracing the covenant line from Adam to Christ through Genesis 5 an
 tags: ["genealogy", "creation", "method/word-study", "method/textual-criticism"]
 draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
-bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45"]
+bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45", "Genesis 4:25-26", "Genesis 10:25-29", "Genesis 46:17-18", "Exodus 6:16-20", "1 Chronicles 3:11-12", "Ruth 4:18-22", "1 Peter 3:20", "2 Peter 3:4-9", "Jude 1:14"]
 date_created: 2026-07-24
-date_modified: 2026-10-22
+date_modified: 2026-11-03
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -43,8 +43,8 @@ whose names themselves carry meaning.
 - **How Genesis gives this data** — the fathering-age formula of Genesis 5 and 11, and where it stops.
 - **The three witnesses** — the Masoretic, Septuagint and Samaritan numbers side by side, and the
   patterns in how they differ.
-- **Case studies** — the second Cainan, Methuselah's death and the Flood, and Terah's age at Abram's
-  departure.
+- **Case studies** — whether the lists have gaps, the second Cainan, Methuselah's death and the
+  Flood, and Terah's age at Abram's departure.
 - **Word studies** — which of the Genesis 5 names hold up in the lexicon.
 - **Toward a most probable timeline** — why the site follows the Masoretic numbers, and the dates that
   result, and what stays open.
@@ -131,6 +131,88 @@ breaks it in the direction that matters most for
 everything downstream.
 
 ## Case studies
+
+### Are there gaps in Genesis 5 and 11?
+
+Some readers hold that these lists skip generations, so that Adam lived many thousands of years
+before Abraham, far more than the numbers add up to. William Henry Green argued it at length in
+1890 and B. B. Warfield took it up. The *ESV Study Bible* allows it at Genesis 5: "fathered" in a
+genealogy "can mean 'fathered an ancestor of'", so the chapter may skip "any number of
+generations". The NLT's footnote at Genesis 11:10 offers "Or the ancestor of", and Andrew
+Steinmann, whose textual work this study follows, calls an unbroken chain "a questionable
+proposition" ([The Flood and the King Lists](flood-and-the-king-lists.md#the-recommendation-the-masoretic-numbers)).
+The text answers this on four grounds.
+
+#### What the verb dates
+
+**Each verse dates the birth of the man it names.** "When Seth had lived 105 years, he fathered
+Enosh" (Genesis 5:6, ESV). The verb is <span dir="rtl">וַיּוֹלֶד</span> (*wayyôled*, H3205), the
+causative of <span dir="rtl">יָלַד</span> (*yālad*, "to bear"). Grant that it can mean "became the
+ancestor of". A man becomes the ancestor of Enosh in the year Enosh is born, so Seth was 105 when
+Enosh was born, whether Enosh was his son or his great-grandson. The next verse counts on from
+that birth, and no year drops out. Long gaps need the age to date the birth of a man the verse
+never names, an unnamed son of Seth, with Enosh born centuries later. The verse names Enosh as the
+one fathered at 105. **Strong.** Green's reading, that the age dates the line's next birth whoever
+that was, remains the case for gaps, and it has to supply the person the verse leaves out.
+
+#### Where Scripture closes the links itself
+
+- Adam names Seth (Genesis 4:25; 5:3), and Seth names Enosh: "To Seth also a son was born, and he
+  called his name Enosh" (Genesis 4:26, ESV).
+- Lamech names Noah and gives the reason (Genesis 5:28-29).
+- Shem fathers Arphaxad "two years after the flood" (Genesis 11:10, ESV). Only "eight persons"
+  came through the Flood (1 Peter 3:20, ESV), so Shem had no living child when it ended, and a
+  grandson two years later would need a son born and grown in that time.
+- Genesis 11 marks a grandson when it means one: "Terah took Abram his son and Lot the son of
+  Haran, his grandson" (Genesis 11:31, ESV), <span dir="rtl">בֶּן־בְּנוֹ</span> (*ben-benô*, "son
+  of his son").
+- Eber's two sons are named together, and the younger's sons are listed after them (Genesis
+  10:25-29).
+
+Jude calls Enoch "the seventh from Adam" (Jude 14, ESV), ἕβδομος ἀπὸ Ἀδάμ (*hebdomos apo Adam*),
+counting Genesis 5's names with Adam as the first. The *ESV Study Bible* takes that as the seventh
+*listed*, which is fair: Jude shows that the first century read Genesis 5 as a complete line, and
+does not settle it alone. **Strong for the links the narrative closes;** the others rest on the
+verb.
+
+#### Lists that do skip, and what they lack
+
+Scripture does compress some lists, and the case for gaps rests on them. Matthew moves from Joram
+to Uzziah (Matthew 1:8) past the three kings 1 Chronicles 3:11-12 names, to reach "fourteen
+generations" three times (Matthew 1:17, ESV). His verb, ἐγέννησεν (*egennēsen*, G1080), is the one
+the Septuagint uses in Genesis 5. Ruth 4:18-22 spans some four centuries in five generations
+([Four Hundred and Eighty Years](four-hundred-and-eighty-years.md#genealogy-check-2-the-davidic-line-in-real-tension-with-480-years)).
+Genesis 46:18 counts Zilpah's grandsons, Heber and Malchiel (46:17), among those "she bore to
+Jacob" (ESV). So "son" and "bore" can mean descendant. **Settled.**
+
+None of those lists gives an age. Matthew states his structure, Ruth names a line and dates
+nothing, and Genesis 46 counts a household. Exodus 6:16-20, the *ESV Study Bible*'s other example,
+gives lifespans and no fathering ages, which is why this site uses it only as an upper bound.
+Genesis 5 and 11 attach the father's age to every link, a feature a selective list has no use for.
+
+The gap reading's best point is that Genesis never states its own total. 1 Kings 6:1 and Exodus
+12:40 give theirs; Genesis 5 and 11 leave the sum to the reader. The total is an inference, a
+careful one. **Contested** on that ground.
+
+#### The first readers did the sum
+
+The earliest readers on record added the numbers as one chain. *Jubilees* dates Adam's death by
+jubilees from creation ([A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md#jubilees-adam-died-inside-the-day)).
+Theophilus of Antioch totals 2,242 years from Adam to the Flood (*To Autolycus* 3.24) and Julius
+Africanus 2,262, both from the Greek ([The Flood and the King
+Lists](flood-and-the-king-lists.md#what-scripture-says-about-its-own-numbers)). *Seder 'Olam*
+builds the Jewish year count on the Hebrew numbers. Green's open genealogies came seventeen
+centuries after Theophilus.
+
+That is also the right use of "with the Lord one day is as a thousand years" (2 Peter 3:8, ESV).
+Read as six thousand-year days of history, the verse assumes the genealogy's years and cannot
+confirm them. What it does show is that readers from *Jubilees* to the early church took those
+years as continuous. In its own argument it answers scoffers about God's patience (2 Peter 3:4,
+9).
+
+This shows that God gave the promised line of Genesis 3:15 in counted years as well as in names.
+He set His promise in time that can be measured, so you can read the line from Adam to Abraham as
+history He kept, one birth at a time.
 
 ### The Cainan question
 
@@ -470,6 +552,12 @@ Years](four-hundred-and-eighty-years.md).
 - Andrew E. Steinmann, "Challenging the Authenticity of Cainan, Son of Arpachshad," *JETS* 60/4
   (2017): 697–711, and "A Comparison of the Text of Genesis in Three Traditions: Masoretic Text,
   Samaritan Pentateuch, Septuagint," *JETS* 64/1 (2021): 25–43
+- William Henry Green, "Primeval Chronology," *Bibliotheca Sacra* 47 (1890): 285–303, and B. B.
+  Warfield, "On the Antiquity and the Unity of the Human Race," *Princeton Theological Review* 9
+  (1911) — the case for gaps in Genesis 5 and 11
+- ***ESV Study Bible***, notes on Genesis 5:1-32 ("fathered" as "fathered an ancestor of") and
+  Jude 14 ("the seventh one listed"); ***NLT Life Application Study Bible***, footnote at Genesis
+  11:10
 - Helen R. Jacobus, on Cainan as original to the Hebrew, *Journal for the Study of the
   Pseudepigrapha* 18 (2009)
 - James C. VanderKam, *Calendars in the Dead Sea Scrolls: Measuring Time* — on the broader

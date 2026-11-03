@@ -276,4 +276,52 @@ assert(harmonyFor('Genesis 1:1').length === 0 && harmonyFor(null).length === 0, 
 const supper = harmonyFor('Mark 14:22');
 assert(supper.some((h) => h.label === 'Passover and Last Supper' && h.others.length === 3), 'one verse of Mark brings the other three accounts');
 
+console.log('\n11. Every number the chronology uses is in the dating-texts register, and the dates keep it:');
+const register = JSON.parse(fs.readFileSync(path.resolve(CONTENT, '../data/dating-texts.json'), 'utf8')).texts;
+const lifeEvents = CHRONOLOGY.life_events;
+const dated = [...CHRONOLOGY.genesis_markers, ...CHRONOLOGY.anchors, ...CHRONOLOGY.milestones,
+  ...CHRONOLOGY.anchor_table];
+const eventById = new Map([...dated, ...lifeEvents].map((e) => [e.id, e]));
+const amOf = (e) => e.am_year ?? e.am ?? gregorianToAm(e.gregorian_year ?? e.gregorian, 'genealogy');
+const fed = new Set(register.flatMap((t) => t.feeds));
+const USES = ['dates', 'places', 'checks', 'tradition', 'estimated', 'unused'];
+for (const t of register) {
+  assert(USES.includes(t.use) && t.quotes.length > 0, `${t.id}: a known use and the wording that states its number`);
+  for (const id of [...t.feeds, ...(t.intervals ?? []).flatMap((i) => [i.from, i.to])]) {
+    assert(eventById.has(id), `${t.id} names an event that exists (${id})`);
+  }
+  for (const i of t.intervals ?? []) {
+    const span = amOf(eventById.get(i.to)) - amOf(eventById.get(i.from));
+    assert(!i.adjust || i.why, `${t.id}: an adjustment to ${t.ref}'s years says why`);
+    const expected = i.years + (i.adjust ?? 0);
+    const holds = i.max !== undefined ? span <= i.max : Math.abs(span - expected) <= (i.tolerance ?? 0);
+    if (i.tension) {
+      assert(!holds, `${t.id}: ${i.from} to ${i.to} is a known tension (${span} years), still unresolved`);
+      console.log(`   ⚠️  ${i.tension}`);
+    } else {
+      assert(holds, `${t.id}: ${i.from} to ${i.to} is ${span} years, as ${t.ref} reads (${i.max !== undefined ? `at most ${i.max}` : i.years}${i.adjust ? ` ${i.adjust > 0 ? '+' : ''}${i.adjust} adjusted` : ''}${i.tolerance ? ` ±${i.tolerance}` : ''})`);
+    }
+  }
+  if (t.argued_in?.includes('#') && !t.argued_in.startsWith('references/')) {
+    const [page, anchor] = t.argued_in.split('#');
+    const slugs = fs.readFileSync(path.join(CONTENT, `${page}.md`), 'utf8').match(/^#{2,4} .+$/gm)
+      .map((h) => h.replace(/^#+ /, '').toLowerCase().replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '-'));
+    assert(slugs.includes(anchor), `${t.id}: argued in ${t.argued_in}, a heading that exists`);
+  }
+}
+// The events Scripture dates or names, as against those dated from Josephus, 1 Maccabees or
+// inscriptions alone.
+const BOOK = /\b(Genesis|Exodus|Numbers|Joshua|Judges|Samuel|Kings|Chronicles|Ezra|Nehemiah|Jeremiah|Ezekiel|Daniel|Haggai|Malachi|Matthew|Luke|John)\b/;
+for (const e of dated.filter((x) => BOOK.test(x.scripture ?? '') && !/^1 Maccabees/.test(x.scripture))) {
+  assert(fed.has(e.id), `${e.id} (${e.scripture}) is dated by a verse in the register`);
+}
+// From David to Zedekiah every dated life event cites Samuel, Kings or Chronicles; the
+// genealogy estimates around it (Ruth's line, Matthew 1:13-15's names) cite neither.
+const REIGNS = /\b(Samuel|Kings|Chronicles|Isaiah 7)\b/;
+for (const e of lifeEvents.filter((x) => x.gregorian !== undefined && REIGNS.test(`${x.refs ?? ''} ${x.description ?? ''}`))) {
+  assert(fed.has(e.id), `${e.id} (${e.label}) is dated, or marked estimated, by a register entry`);
+}
+const unargued = register.filter((t) => !t.argued_in && t.use !== 'unused').map((t) => t.ref);
+console.log(`   ℹ️  readings no page argues yet: ${unargued.join('; ')}`);
+
 console.log('\n✨ All tests passed!\n');
