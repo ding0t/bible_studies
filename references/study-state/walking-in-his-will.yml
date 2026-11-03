@@ -1,0 +1,179 @@
+slug: "walking-in-his-will"
+title: "Walking in His Will"
+status: review # draft written 2026-11-03; author approved thesis, asked for both universal and individual will, order left to agent
+target_path: "docs/content/christian-life/walking-in-his-will.md"
+
+primary_passage: "Romans 12:1-2"
+supporting_passages:
+  - "Colossians 1:9-10"      # knowledge of His will -> walk worthy
+  - "Ephesians 5:8-17"       # walk, test what pleases the Lord, understand His will
+  - "Deuteronomy 29:29"      # secret vs revealed things
+  - "Micah 6:8"              # He has told you what is good; walk humbly
+  - "1 Thessalonians 4:3; 5:18" # "this is the will of God"
+  - "Romans 6:13, 16, 19"    # paristemi: present yourselves
+  - "Luke 22:42; Matthew 26:39, 42" # Gethsemane
+  - "Matthew 6:10"           # same Greek as Matthew 26:42
+  - "John 4:34; 5:30; 6:38"  # Jesus seeks/does the Father's will
+  - "John 7:17"              # willing the will -> knowing
+  - "Psalm 143:10; Psalm 40:8; Hebrews 10:7-10"
+  - "Romans 1:28; 2:17-23"   # dokimazo arc in Romans
+  - "Philippians 1:9-10"     # approve what is excellent
+  - "James 1:5; 4:13-15"     # ask for wisdom; "if the Lord wills"
+  - "Acts 16:6-10"           # narrative illustration of guidance while moving
+  - "Hebrews 13:20-21; Philippians 2:13" # God works in us to do His will
+  - "1 John 2:17"            # whoever does the will of God abides forever
+  - "Ephesians 1:9-11"       # His sovereign purpose (the will that cannot fail)
+sibling_studies:
+  - {slug: "christian-life/prayer-as-communion.md", role: cited, use: link, note: "has 'Your will be done: you seek His will first' (Luke 22:42, 1 John 5:14); link from Submitting/Seeking rather than re-argue"}
+  - {slug: "christian-life/lords-prayer.md", role: cited, use: link, note: "'Your kingdom come, your will be done' section; link from Matthew 6:10 / 26:42 sentence"}
+  - {slug: "christian-life/true-worship.md", role: cited, use: link, note: "covers Romans 12:1 latreia as whole-life worship; one sentence + link"}
+  - {slug: "last-things/end-of-the-age.md", role: cited, use: link, note: "covers 'this age' (aion) in Romans 12:2; one sentence + link"}
+  - {slug: "christian-life/take-up-your-cross.md", role: cited, use: link, note: "deny/take up/follow; the mind set on things of man (phroneo); link from Following"}
+  - {slug: "jesus/the-cups-jesus-drank.md", role: cited, use: link, note: "Gethsemane cup; author has uncommitted edits to it -- do not touch"}
+  - {slug: "christian-life/humility.md", role: cited, use: link, note: "James 4:13-15 'if the Lord wills'"}
+  - {slug: "christian-life/test-the-spirits.md", role: prose, use: link, note: "testing (dokimazo, 1 John 4:1); link from Testing"}
+  - {slug: "sin/pride.md", role: cited, use: none, note: "James 4:16 boasting; passing"}
+genre: [epistle, gospel, topical]
+
+thesis: "God has made His will known in His word and in His Son, and as you hand Him your will, He renews your mind to test and approve it and works in you to walk in it (Romans 12:1-2; Hebrews 13:21)."
+outline:
+  - {section: "Key Takeaways / Study outline", says: "the five movements and the one sentence"}
+  - {section: "Romans 12:1-2 in its place", says: "'therefore' after Romans 1-11: the will of God is walked in by people who have received mercy; the dokimazo arc 1:28 -> 2:18 -> 12:2"}
+  - {section: "1. Knowing His will", says: "what God has revealed belongs to us (Deut 29:29); He has told you (Micah 6:8); Scripture names His will outright (1 Thess 4:3; 5:18); the sovereign purpose (Eph 1:11) is His, the revealed will is ours to do; Col 1:9 prays for the knowledge (epignosis) of it"}
+  - {section: "2. Submitting our will", says: "paristemi: present your bodies (Rom 12:1, echoing 6:13-19); Jesus in Gethsemane prays the Lord's Prayer's own words (Matt 26:42 = Matt 6:10); 'If the Lord wills' (James 4:15)"}
+  - {section: "3. Seeking His will", says: "Jesus sought the Father's will (John 5:30) and it was His food (John 4:34); ask for wisdom (James 1:5); pray it for others (Col 1:9; 4:12); 'Teach me to do your will' (Ps 143:10); Acts 16:6-10 as illustration (guided while moving), marked narrative"}
+  - {section: "4. Testing and approving His will", says: "dokimazo = test and then approve; a renewed mind (Rom 12:2) reverses the mind that refused to approve God (1:28); knowing and approving without doing (2:18-23) is the warning; Eph 5:10, Phil 1:9-10; contested: whether God has an individual 'blueprint' will for each choice -- give both sides"}
+  - {section: "5. Following His will", says: "walk (peripateo; Hebrew halak): Col 1:10, Eph 5:15-17, Micah 6:8; willing the will leads to knowing (John 7:17); God equips and works in you (Heb 13:21; Phil 2:13); whoever does the will of God abides forever (1 John 2:17)"}
+  - {section: "Discussion questions", says: "facet-labelled set"}
+  - {section: "References & Recommended Reading", says: ""}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Topical study from the author's five headings. Spine: Romans 12:1-2, which itself contains submitting (present), testing/approving (dokimazo) and the will of God; Colossians 1:9-10 and Ephesians 5:10-17 tie knowing to walking. No backlog entry for this topic (grepped about/backlog.md)."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Romans: Paul from Corinth c. AD 57 to the churches in Rome (ESV SB intro). 12:1 'therefore' turns from chs 1-11 to 12:1-15:13. Colossians: Paul writing to a church he had not met, where teachers offered knowledge/wisdom (Col 2:4, 8) -- Paul prays for knowledge of God's will that issues in a walk."
+    literary_context:
+      done: true
+      notes: "Romans 12:1-2 heads the exhortation section; 12:3-15:13 spells out the will of God concretely (humility, gifts, love, enemies, authorities, the weak). dokimazo occurs four times in Romans: 1:28 (did not approve to have God in knowledge -> adokimos mind), 2:18 (know the will and approve the excellent, yet steal/commit adultery 2:21-23), 12:2, 14:22. paristemi in Romans 6:13, 16, 19 (x2 in 13 and 19) and 12:1: 12:1 picks up chapter 6's 'present yourselves'."
+    content_word_studies:
+      done: true
+      notes: "Counts from macula-greek-sblgnt via bible_concordance."
+      terms:
+        - {word: "θέλημα", language: greek, transliteration: "thelēma", strongs_id: "G2307", gloss: "will, what is willed", notes: "62 occurrences in SBLGNT (count_only). Matt 6:10 and 26:42 identical: γενηθήτω τὸ θέλημά σου. John 7:17 ἐάν τις θέλῃ τὸ θέλημα αὐτοῦ ποιεῖν."}
+        - {word: "δοκιμάζω", language: greek, transliteration: "dokimazō", strongs_id: "G1381", gloss: "test, prove; approve after testing", notes: "23 occurrences SBLGNT; Romans 1:28, 2:18, 12:2, 14:22; Eph 5:10; Phil 1:10; 1 Thess 5:21; 1 John 4:1; 1 Cor 3:13. ESV SB: 'finding out the worth of something by putting it to use'. NIV/BSB 'test and approve'; ESV 'by testing you may discern'; LSB footnote on Eph 5:10 'Lit proving what'."}
+        - {word: "παρίστημι", language: greek, transliteration: "paristēmi", strongs_id: "G3936", gloss: "present, place at someone's disposal", notes: "Romans 6:13 (x2), 6:16, 6:19 (x2), 12:1, 14:10, 16:2."}
+        - {word: "συσχηματίζω", language: greek, transliteration: "syschēmatizō", strongs_id: "G4964", gloss: "be conformed, shaped to a pattern", notes: "Only Rom 12:2 and 1 Pet 1:14 in the NT (concordance: 2 rows)."}
+        - {word: "μεταμορφόω", language: greek, transliteration: "metamorphoō", strongs_id: "G3339", gloss: "be transformed", notes: "Four NT uses: Matt 17:2, Mark 9:2 (transfiguration), 2 Cor 3:18, Rom 12:2. Present imperative passive in Rom 12:2: an ongoing change done to you."}
+        - {word: "ἀνακαίνωσις / νοῦς", language: greek, transliteration: "anakainōsis / nous", strongs_id: "G342 / G3563", gloss: "renewal / mind", notes: "Rom 12:2 renewed nous answers Rom 1:28 adokimos nous."}
+        - {word: "ἐπίγνωσις", language: greek, transliteration: "epignōsis", strongs_id: "G1922", gloss: "knowledge, full knowledge", notes: "Col 1:9 τὴν ἐπίγνωσιν τοῦ θελήματος αὐτοῦ; LSB footnote 'Or true knowledge'. Also Rom 1:28 ἐν ἐπιγνώσει."}
+        - {word: "περιπατέω", language: greek, transliteration: "peripateō", strongs_id: "G4043", gloss: "walk, conduct one's life", notes: "Col 1:10 περιπατῆσαι ἀξίως; Eph 5:8, 15; Eph 2:10."}
+        - {word: "רָצוֹן", language: hebrew, transliteration: "ratson", strongs_id: "H7522", gloss: "will, delight, favour", notes: "Ps 143:10 לַמְּדֵנִי לַעֲשׂוֹת רְצוֹנֶךָ; Ps 40:9 (Eng 40:8) לַעֲשׂוֹת רְצוֹנְךָ, quoted Heb 10:7. TODO: verify full pointed forms and pronunciation before drafting."}
+        - {word: "הָלַךְ", language: hebrew, transliteration: "halakh", strongs_id: "H1980", gloss: "walk", notes: "Micah 6:8 הַצְנֵעַ לֶכֶת; TODO verify pointed text."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Sacrificial language (Rom 12:1) presumes temple offering; transcends as whole-life offering. Acts 16:6-10 is narrative: illustrates guidance while moving, does not establish a method (Spirit-forbidding, visions) as norm."
+    theological_principle:
+      done: true
+      notes: "God's will is revealed (word, Son) before it is discerned; discernment is the work of a mind God renews in a person who has presented himself to Him; it ends in walking, and God Himself equips the walk."
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: false
+    cross_refs: []
+    translations_compared: ["ESV", "NIV", "BSB", "LSB footnotes"]
+    divergences_noted: "Rom 12:2 dokimazo: ESV 'by testing you may discern' (splits it into two English verbs), NIV/BSB 'test and approve' (keeps both senses). aion: ESV/NIV/BSB 'world'; LSB footnote 'Or age'. teleios: LSB footnote 'Or complete'."
+  drafting:
+    done: true
+    notes: "Order changed to Submitting -> Knowing -> Seeking -> Testing -> Following (John 7:17; Romans 12:1-2 runs present -> renew -> approve). Knowing split into three circles at the author's direction: will for every person (1 Tim 2:4; 2 Pet 3:9; Matt 18:14; John 6:40), for His people (1 Thess 4:3; 5:18), for each person (Eph 2:10; Jer 1:5; Ps 139:16; Gal 1:15; 1 Cor 1:1; Rom 12:6; 1 Cor 12:11; 2 Tim 2:20-21). Romans 9:21 marked contested (ESV SB: saved/unsaved; corporate reading from Rom 9:24 and Jer 18:6-10). Individual-guidance debate given both sides with Friesen named. 1 Thess 3:1 'it seemed best' dropped: ESV reads 'we were willing'; used Acts 15:28 instead."
+    file: "docs/content/christian-life/walking-in-his-will.md"
+  review:
+    done: false
+    validated: true # npm run validate: provenance warnings only (pre-commit); link targets and anchors confirmed in built site
+
+open_questions:
+  - "Contested: is there an individual, specific will of God for each decision (traditional view) or the moral will plus freedom and wisdom within it (Garry Friesen, Decision Making and the Will of God)? Present both sides with textual reasons; Rom 12:2's will is defined by 12:3-15:13 (moral), but Acts 16 and James 4:15 show God directing particulars."
+  - "Run bible_trace on Rom 12:2 and Col 1:9 in Phase 6."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Rom intro (date/place); Rom 12:1, 12:1-2, 12:2 (dokimazo 'putting it to use', contrast 1:28 -- confirmed the arc already found in the concordance); Col 1:9; Eph 5:10"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Rom 12:2 aion list and 'depraved mind' (1:28) link; Col 1:9 'pleasing God' list"}
+  - {type: commentary, title: "NIV/NKJV Cultural Backgrounds Study Bible", author: "Zondervan / Thomas Nelson", note: "Rom 12:2: philosophers vs Paul's end-time perspective; Col 1:9 piled terms"}
+  - {type: other, title: "LSB footnotes", author: "Lockman", note: "Rom 12:2 'Or age', 'Or complete'; Eph 5:10 'Lit proving what'; Col 1:9 'Or true knowledge'"}
+last_updated: "2026-11-03"
+
+evidence:
+  - {id: dokimazo-count, what: "δοκιμάζω 23x in the NT", tool: bible_concordance, args: {strongs: G1381, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "23", checked: 2026-11-03}
+  - {id: dokimazo-romans, what: "δοκιμάζω in Romans: 1:28, 2:18, 12:2, 14:22", tool: bible_concordance, args: {strongs: G1381, work_id: macula-greek-sblgnt, book: Rom}, expect_contains: "approve", checked: 2026-11-03}
+  - {id: syschematizo-count, what: "συσχηματίζω twice (Rom 12:2; 1 Pet 1:14)", tool: bible_concordance, args: {strongs: G4964, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "2", checked: 2026-11-03}
+  - {id: metamorphoo-count, what: "μεταμορφόω 4x (Matt 17:2; Mark 9:2; Rom 12:2; 2 Cor 3:18)", tool: bible_concordance, args: {strongs: G3339, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "4", checked: 2026-11-03}
+  - {id: thelema-count, what: "θέλημα 62x in the NT", tool: bible_concordance, args: {strongs: G2307, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "62", checked: 2026-11-03}
+  - {id: paristemi-romans, what: "παρίστημι 5x in Rom 6 (6:13 x2, 6:16, 6:19 x2), then 12:1", tool: bible_concordance, args: {strongs: G3936, work_id: macula-greek-sblgnt, book: Rom}, expect_contains: "to present", checked: 2026-11-03}
+  - {id: proetoimazo-occ, what: "προετοιμάζω only Eph 2:10 and Rom 9:23", tool: bible_concordance, args: {strongs: G4282, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "2", checked: 2026-11-03}
+  - {id: rom12-2-esv, what: "ESV Rom 12:2 block quote and memory verse", tool: study_verse, args: {book: Rom, chapter: 12, verse: 2, work_id: esv-study-bible}, expect_contains: "that by testing you may discern what is the will of God", checked: 2026-11-03}
+  - {id: rom12-2-niv, what: "NIV Rom 12:2 'test and approve'", tool: study_verse, args: {book: Rom, chapter: 12, verse: 2, work_id: niv-biblical-theology-study-bible}, expect_contains: "test and approve", checked: 2026-11-03}
+  - {id: rom12-2-bsb, what: "BSB Rom 12:2 'test and approve'", tool: bible_verse, args: {book: Rom, chapter: 12, verse: 2, translation: berean-bsb}, expect_contains: "test and approve", checked: 2026-11-03}
+  - {id: matt26-42-esv, what: "ESV Matt 26:42 'your will be done'", tool: study_verse, args: {book: Matt, chapter: 26, verse: 42, work_id: esv-study-bible}, expect_contains: "your will be done", checked: 2026-11-03}
+  - {id: matt26-42-greek, what: "Matt 26:42 γενηθήτω τὸ θέλημά σου = Matt 6:10", tool: bible_verse, args: {book: Matt, chapter: 26, verse: 42, translation: sblgnt}, expect_contains: "γενηθήτω τὸ θέλημά σου", checked: 2026-11-03}
+  - {id: john7-17-esv, what: "ESV John 7:17", tool: study_verse, args: {book: John, chapter: 7, verse: 17, work_id: esv-study-bible}, expect_contains: "If anyone's will is to do God's will, he will know", checked: 2026-11-03}
+  - {id: eph2-10-esv, what: "ESV Eph 2:10 memory verse", tool: study_verse, args: {book: Eph, chapter: 2, verse: 10, work_id: esv-study-bible}, expect_contains: "which God prepared beforehand, that we should walk in them", checked: 2026-11-03}
+  - {id: 2tim2-21-esv, what: "ESV 2 Tim 2:21 block quote", tool: study_verse, args: {book: 2Tim, chapter: 2, verse: 21, work_id: esv-study-bible}, expect_contains: "ready for every good work", checked: 2026-11-03}
+  - {id: heb13-21-esv, what: "ESV Heb 13:21 block quote", tool: study_verse, args: {book: Heb, chapter: 13, verse: 21, work_id: esv-study-bible}, expect_contains: "equip you with everything good that you may do his will", checked: 2026-11-03}
+  - {id: esvsb-rom12-2, what: "ESVSB note on Rom 12:2 'by putting it to use or testing it in actual practice'", tool: study_note, args: {book: Rom, chapter: 12, verse: 2, work_id: esv-study-bible}, expect_contains: "by putting it to use or testing it in actual practice", checked: 2026-11-03}
+  - {id: esvsb-rom9-21, what: "ESVSB note on Rom 9:20-21 reads vessels as saved and unsaved", tool: study_note, args: {book: Rom, chapter: 9, verse: 21, work_id: esv-study-bible}, expect_contains: "those who are saved and unsaved", checked: 2026-11-03}
+  - {id: lsb-eph5-10, what: "LSB footnote on Eph 5:10 'Lit proving what'", tool: study_note, args: {book: Eph, chapter: 5, verse: 10, work_id: lsb-2021, note_type: footnote}, expect_contains: "Lit proving what", checked: 2026-11-03}
+  - {id: ps143-10-ratson, what: "Ps 143:10 'your will' is ratson H7522", tool: bible_interlinear, args: {book: Ps, chapter: 143, verse: 10}, expect_contains: "H7522", checked: 2026-11-03}
+  - {id: mic6-8-higgid, what: "Mic 6:8 'He has told you' is H5046", tool: bible_interlinear, args: {book: Mic, chapter: 6, verse: 8}, expect_contains: "H5046", checked: 2026-11-03}
+
+review_2026-11-03:
+  skill: review-bible-study (phases 1-8)
+  reviewer: anthropic/claude-opus-5.5 (subagent; author not in session)
+  status_at_review: "draft: true"
+  checked: >
+    All 47 ESV quotations re-pulled from study-notes.db (esv-study-bible) and compared: all match,
+    references and labels correct. NIV/BSB "test and approve" (Rom 12:2), LSB footnotes (Rom 12:1-2,
+    Eph 5:10, Col 1:9), ESVSB notes on Rom 12:2 and 9:20-21 confirmed. Counts re-run on
+    macula-greek-sblgnt: dokimazo 23 (Romans 4), syschematizo 2, metamorphoo 4, thelema 62,
+    paristemi 5 in Rom 6. Greek of Matt 6:10/26:42, John 7:17, Col 1:9, Eph 2:10, 2 Tim 2:21,
+    Acts 16:10 and Hebrew of Ps 143:10, Mic 6:8, Deut 29:28 checked against SBLGNT/OSHB.
+    review_gaps, bible_trace (Rom 12:2, Col 1:9), cross_study_claims "Romans 12", strongs_suggest,
+    npm run validate. Independent commentary: NLT Life Application (Rom 12:2, 9:21), NIVBTSB 9:22.
+  fixes_applied:
+    - "'Some of God's will is written in a sentence with \"this is the will of God\" in it' -> 'named in so many words' (1 John 2:17 has no such sentence)."
+    - "Mic 6:8 hatsnea lekhet: added H6800, H3212 and that Strong's files lekhet under H3212 (OSHB tags it 3212, not H1980)."
+  open_recommendations:
+    - "Rom 9:21 paragraph: individual reading given only as an ESVSB position, corporate reading given textual reasons in the study's voice. Give the individual reading its text (Rom 9:13-18, 22-23; 9:24 'us whom he has called'). Rom 9:23 uses proetoimazo, the same verb as Eph 2:10 -- its only other NT use -- unmentioned."
+    - "'When Scripture names no choice': 'Both views ... God has a will for each life' misstates Friesen, who denies an individual will to be found; he affirms the sovereign will. 'Neither will lead you wrong' is an unmarked pastoral claim. Romans 12:6 used for individual will while the Friesen bullet assigns 12:3-15:13 to moral will; line 106 states the moral-will reading in the study's voice. Traditional view omits Prov 3:5-6, its most-cited text. Friesen citation (with J. Robin Maxson, Multnomah, rev. 2004) consistent with known publication data; not checkable against repo sources."
+    - "Rom 12:2 imperatives: RP reads infinitives (SBLGNT apparatus); syschematizesthe is middle-or-passive (MACULA V-PEM). Spirit as agent better grounded by Titus 3:5 (anakainosis, only other NT use)."
+    - "John 7:17 widened from knowing the teaching's origin to 'God shows His will to a person who has already decided to do it'."
+    - "Discussion Q5 label 'Seeking.' is not a facet label; test-the-spirits.md (state file: link) is not linked; several glossed words lack pronunciation."
+  cross_reference_gaps: "No missed quotations or parallels. Leads that bear on the argument: Titus 3:5, Eph 4:22-24 and Col 3:10 (renewal), Rom 8:29 (conformed to the image), 1 Pet 2:15 and 4:2 (will of God named), Prov 3:5-6, Rom 9:23. Col 1:9 -> Dan 1:4 'quotation' is a 4-word shared phrase, noise."
+
+readability_2026-11-03:
+  skill: read-bible-study
+  reviewer: anthropic/claude-opus-5.5 (subagent, separate session from the drafter)
+  measurements: "before 33 headings, median 104 prose words, longest 199, 0 over 400, 0 walls; after 34 headings, median 100, longest 196, 0 over 400, 0 walls"
+  changes:
+    - "Added '#### The potter in Romans 9, a contested reading' under 'Vessels for honourable use' (rule 5: the contested reading was buried at the end of a 199-word section)."
+    - "Renamed '### When Scripture names no choice' -> 'When Scripture names no choice: two views' so the heading marks the section as contested. No inbound links; the Study outline lists only ## headings, so no anchor changed there."
+  prose_check: "Non-heading, non-frontmatter lines identical to the pre-pass copy (309 = 309); no sentence changed."
+  recommendations:
+    - "Rule 7, citation-first openings: 'The revealed things belong to you' opens with Deut 29:29 and its topic sentence ('What He has revealed is yours to know') comes last; 'Jesus sought it', 'Willing comes before knowing' and 'It lasts' also open on a quotation."
+    - "'Seek in the word, and keep walking' holds two ideas (the word as lamp; Acts 16 as narrative, marked non-normative). Too short to split now, but if the Acts 16 caution grows after review, give it its own heading."
+
+followups_2026-11-04:
+  applied_from_review:
+    - "Rom 9:21: both readings given their texts (persons 9:11-18, 9:24; peoples 9:24, 9:30-31, Jer 18:6-10); proetoimazo shared by Rom 9:23 and Eph 2:10."
+    - "Friesen stated correctly (sovereign and moral will, no third individual will); Prov 3:5-6 added to the traditional view; closing line states the study's own position."
+    - "Rom 12:2 voice: 'both passive in form' -> syschematizesthe middle-or-passive (MACULA V-PEM), metamorphousthe passive (V-PPM), SBLGNT named. Titus 3:5 grounds the Spirit's renewing."
+    - "John 7:17 sentence revised; Test the Spirits linked; pronunciations added to the ten glossed words that lacked them."
+  applied_from_readability:
+    - "Rule 7: topic sentence moved first in 'Willing comes before knowing', 'The revealed things belong to you' and 'Jesus sought it'. 'It lasts' left quote-first: it is four sentences and the verse is its point."
+  kept:
+    - "Discussion Q5 label 'Seeking.': discussion-questions.md allows a sixth question its own label when the set closes on Be transformed."
+    - "'Seek in the word, and keep walking' not split (the read pass said only if the Acts 16 caution grows)."
