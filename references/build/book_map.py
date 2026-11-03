@@ -36,6 +36,8 @@ _ARABIC_VARIANTS = {
     "2 Corinthians": "2Cor", "1 Thessalonians": "1Thess", "2 Thessalonians": "2Thess",
     "1 Timothy": "1Tim", "2 Timothy": "2Tim", "1 Peter": "1Pet", "2 Peter": "2Pet",
     "1 John": "1John", "2 John": "2John", "3 John": "3John",
+    # the cross_references shards say "Revelation"; the *_books tables say "Revelation of John"
+    "Revelation": "Rev",
 }
 SCROLLMAPPER_NAME_TO_OSIS.update(_ARABIC_VARIANTS)
 

@@ -53,6 +53,16 @@ def test_both_witnesses_present(conn):
     assert 300 < counts.get("web-crossrefs", 0) < 1_000
 
 
+def test_openbible_covers_every_book(conn):
+    """A source book name missing from book_map is dropped without an error. Revelation was, until
+    2026-11-03: the shards say "Revelation", the map only knew "Revelation of John", and ~40,000
+    rows vanished while every count still looked plausible."""
+    for side in ("from_book", "to_book"):
+        books = {r[0] for r in conn.execute(
+            f"SELECT DISTINCT {side} FROM cross_references WHERE work_id='openbible-crossrefs'")}
+        assert len(books) == 66, f"{side}: missing {66 - len(books)} books"
+
+
 def test_web_crossrefs_sit_on_new_testament_quotations(conn):
     """The WEB's footnotes earn their place by covering exactly where the derived links are scored."""
     nt = conn.execute(

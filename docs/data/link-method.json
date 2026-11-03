@@ -1,36 +1,36 @@
 {
- "generated": "2026-10-20",
- "baseline": 0.0007833058242135819,
+ "generated": "2026-11-03",
+ "baseline": 0.0008513173914589782,
  "curve": [
   {
    "from": 6,
    "pairs": 3394,
-   "confirmed": 68
+   "confirmed": 94
   },
   {
    "from": 8,
    "pairs": 648,
-   "confirmed": 62
+   "confirmed": 75
   },
   {
    "from": 10,
    "pairs": 931,
-   "confirmed": 84
+   "confirmed": 97
   },
   {
    "from": 12,
    "pairs": 178,
-   "confirmed": 69
+   "confirmed": 74
   },
   {
    "from": 14,
    "pairs": 78,
-   "confirmed": 41
+   "confirmed": 43
   },
   {
    "from": 16,
    "pairs": 37,
-   "confirmed": 19
+   "confirmed": 21
   },
   {
    "from": 18,
@@ -97,7 +97,7 @@
  "rules": {
   "greek-unique-phrases": {
    "links": 180,
-   "confirmed": 163,
+   "confirmed": 164,
    "alone": 54,
    "key": 126,
    "keyAlone": 35
@@ -123,17 +123,17 @@
    "keyAlone": 93,
    "key": 95
   },
+  "hebrew-alignment": {
+   "links": 740,
+   "confirmed": 357,
+   "key": 67
+  },
   "hebrew-lemma": {
    "links": 1549,
    "confirmed": 742,
    "alone": 830,
    "keyAlone": 51,
    "key": 116
-  },
-  "hebrew-alignment": {
-   "links": 740,
-   "confirmed": 357,
-   "key": 67
   },
   "quotation-hebrew": {
    "links": 49,
@@ -144,7 +144,7 @@
   },
   "allusion-lemma": {
    "links": 103,
-   "confirmed": 47,
+   "confirmed": 49,
    "alone": 89,
    "key": 13,
    "keyAlone": 3
@@ -163,14 +163,14 @@
     "allusion-lemma"
    ],
    "links": 89,
-   "confirmed": 35
+   "confirmed": 37
   },
   {
    "rules": [
     "greek-unique-phrases"
    ],
    "links": 54,
-   "confirmed": 43
+   "confirmed": 44
   },
   {
    "rules": [
