@@ -21,4 +21,5 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 4:4
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:4
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 4:9-10
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 4:1
 <!-- commentary-index:auto-end -->

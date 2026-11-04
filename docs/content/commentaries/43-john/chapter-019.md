@@ -25,4 +25,5 @@ draft: false
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 19:37
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 19:31
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 19:17
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 19:23-24
 <!-- commentary-index:auto-end -->

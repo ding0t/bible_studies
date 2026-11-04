@@ -15,4 +15,5 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 3:4-7
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 3:5
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 3:5
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 3:5
 <!-- commentary-index:auto-end -->

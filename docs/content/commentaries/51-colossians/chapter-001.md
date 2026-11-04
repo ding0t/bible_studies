@@ -28,6 +28,7 @@ draft: false
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 1:26
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 1:16
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 1:13
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 1:9-10
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 1:15-17
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 1:13
 <!-- commentary-index:auto-end -->

@@ -24,4 +24,5 @@ draft: false
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 3:3-13
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 3:9
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 3:16
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 3:9
 <!-- commentary-index:auto-end -->

@@ -14,4 +14,5 @@ draft: false
 
 - [Pride](../../sin/pride.md) — 16:18 (primary passage)
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 16:20
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 16:9
 <!-- commentary-index:auto-end -->

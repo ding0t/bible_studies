@@ -3,7 +3,7 @@ title: "What Literary Criticism Declares: Many Writers, One Story"
 category: "bible"
 description: "Literary criticism set out to divide the Bible into its sources, and by its own count it found more writers than the church had counted. This study reads Hebrews 1:1-2 and Isaiah 46:10, then measures the Bible as critics describe it: 38 to 44 writers over more than 850 years, one connected web of 72,000 cross-references, the same story at both ends, and prophecies written, and surviving in copies, before the events they name."
 tags: ["hebrews", "isaiah", "1-peter", "luke", "daniel", "prophecy", "messianic-prophecy", "apologetics", "cross-references", "data", "dead-sea-scrolls", "septuagint", "method/textual-criticism", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Hebrews 1:1-2"
 bible_references: ["Isaiah 46:9-10", "Isaiah 41:21-23", "Isaiah 45:21", "Isaiah 48:3-5", "Deuteronomy 18:21-22", "1 Peter 1:10-12", "2 Peter 1:19-21", "Luke 24:25-27", "Luke 24:44-45", "Genesis 2:9-10", "Genesis 3:17", "Genesis 3:22-24", "Revelation 20:2", "Revelation 22:1-3", "Isaiah 44:28", "Isaiah 45:1", "Ezra 1:1-4", "Jeremiah 25:11-12", "Jeremiah 26:18", "Micah 3:12", "Daniel 8:20-22", "Micah 5:2", "Matthew 2:1-6", "Isaiah 7:14", "Isaiah 9:1-2", "Isaiah 53:5", "Isaiah 53:9", "Isaiah 53:12", "Zechariah 9:9", "Zechariah 11:12-13", "Zechariah 12:10", "Psalm 22:16", "Psalm 22:18", "Psalm 16:10", "Psalm 34:20", "Exodus 12:46", "John 19:23-24", "John 19:36-37", "Malachi 3:1", "Daniel 9:25-26", "Luke 21:20-24", "Mark 13:2", "1 Kings 13:2", "2 Kings 23:15-16", "2 Timothy 3:16", "Jeremiah 43:8-13"]
 date_created: 2026-11-04

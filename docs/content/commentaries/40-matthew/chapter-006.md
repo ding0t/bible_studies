@@ -27,5 +27,6 @@ draft: false
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 6:10
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 6:4
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 6:16-18
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 6:10
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 6:6
 <!-- commentary-index:auto-end -->

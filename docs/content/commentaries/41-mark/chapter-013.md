@@ -21,4 +21,5 @@ draft: false
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 13:24
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 13:3
 - [The Day Is Near](../../last-things/day-is-near.md) — 13:32-37
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 13:2
 <!-- commentary-index:auto-end -->

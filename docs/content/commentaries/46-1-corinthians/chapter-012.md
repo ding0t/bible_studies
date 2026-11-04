@@ -18,4 +18,5 @@ draft: false
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 12:27
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 12:3
 - [The Way](../../jesus/the-way.md) — 12:31
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 12:11
 <!-- commentary-index:auto-end -->

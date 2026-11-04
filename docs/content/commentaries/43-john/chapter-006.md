@@ -26,4 +26,5 @@ draft: false
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 6:35
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 6:35
 - [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 6:31-35
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 6:40
 <!-- commentary-index:auto-end -->

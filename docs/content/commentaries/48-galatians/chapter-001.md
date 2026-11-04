@@ -19,4 +19,5 @@ draft: false
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 1:11-24
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 1:6-9
 - [The End of the Age](../../last-things/end-of-the-age.md) — 1:4
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 1:15-16
 <!-- commentary-index:auto-end -->

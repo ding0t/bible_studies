@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 1:1-2 (primary passage)
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 1:2
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:12
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 1:8-12

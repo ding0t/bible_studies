@@ -19,4 +19,5 @@ draft: false
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 12:10
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 12:10
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 12:10
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 12:10
 <!-- commentary-index:auto-end -->

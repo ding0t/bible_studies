@@ -3,7 +3,7 @@ title: "Walking in His Will"
 category: "spiritual-disciplines"
 description: "God has a will for every person, a will for His people and a work prepared for each of you. A study of Romans 12:1-2 in five movements: submitting your will, knowing His, seeking it, testing and approving it with a renewed mind, and walking in it."
 tags: ["romans", "colossians", "ephesians", "john", "psalms", "will-of-god", "discipleship", "prayer", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Romans 12:1-2"
 bible_references: ["Romans 1:28", "Romans 2:17-23", "Romans 6:13-19", "Romans 9:11-18", "Romans 9:20-24", "Romans 9:30-31", "Proverbs 3:5-6", "Proverbs 16:9", "Psalm 32:8", "Acts 15:28", "1 Corinthians 16:7", "Titus 3:5", "1 John 4:1", "Romans 12:3-8", "Romans 14:22", "Colossians 1:9-10", "Colossians 4:12", "Ephesians 2:10", "Ephesians 5:8-17", "Philippians 1:9-10", "Philippians 2:13", "Deuteronomy 29:29", "Micah 6:8", "1 Thessalonians 4:3", "1 Thessalonians 5:18", "1 Timothy 2:4", "2 Peter 3:9", "Matthew 18:14", "John 6:40", "1 Corinthians 1:1", "1 Corinthians 12:11", "Jeremiah 1:5", "Jeremiah 18:6-10", "Psalm 139:16", "Galatians 1:15-16", "2 Timothy 2:20-21", "Matthew 6:10", "Matthew 26:39-42", "Luke 22:42", "John 4:34", "John 5:30", "John 6:38", "John 7:17", "James 1:5", "James 4:13-15", "Psalm 143:10", "Psalm 40:8", "Hebrews 10:5-10", "Hebrews 13:20-21", "Acts 16:6-10", "1 John 2:17", "1 Peter 1:14", "2 Corinthians 3:18"]
 date_created: 2026-11-04

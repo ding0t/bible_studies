@@ -16,4 +16,5 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 5:24
 - [Precious Stones in Scripture](../../god/precious-stones.md) — 5:35
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 5:22-29
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 5:30
 <!-- commentary-index:auto-end -->

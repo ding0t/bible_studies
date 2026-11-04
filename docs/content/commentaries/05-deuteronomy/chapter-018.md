@@ -19,4 +19,5 @@ draft: false
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 18:15-18
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 18:15-18
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 18:15-18
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 18:21-22
 <!-- commentary-index:auto-end -->

@@ -23,4 +23,5 @@ draft: false
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 5:29
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 5:25-27
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 5:31
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 5:8-17
 <!-- commentary-index:auto-end -->

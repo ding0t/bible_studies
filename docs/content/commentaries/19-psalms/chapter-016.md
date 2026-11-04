@@ -16,4 +16,5 @@ draft: false
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 16:11
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 16:10
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 16:10
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 16:10
 <!-- commentary-index:auto-end -->

@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-26
+date_modified: 2026-11-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -168,6 +168,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     Worship is bowing your whole self before God because He is worthy as Creator and Redeemer. Before Jesus it came through a place, a priesthood and sacrifice; since Jesus it comes through Him, by the Holy Spirit and in truth, with your whole life; in the kingdom and the new creation every nation and creature will give it. It belongs to God alone: angels refuse it, the beast demands it, and Jesus receives it.
 
     [:octicons-arrow-right-24: Read](true-worship.md)
+
+-   __Walking in His Will__
+
+    ---
+
+    God has a will for every person, a will for His people and a work prepared for each of you. A study of Romans 12:1-2 in five movements: submitting your will, knowing His, seeking it, testing and approving it with a renewed mind, and walking in it.
+
+    [:octicons-arrow-right-24: Read](walking-in-his-will.md)
 
 -   __When Love Grows Cold: The Falling Away and the Remnant__
 

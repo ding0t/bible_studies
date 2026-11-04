@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 9:1-19"
 bible_references: ["Genesis 1:20-21", "Genesis 1:28", "Genesis 5:32", "Genesis 6:1", "Genesis 7:11", "Genesis 7:21", "Genesis 8:17", "Genesis 9:1-19", "Genesis 9:28-29", "Genesis 10:1-32", "Genesis 11:1-9", "Genesis 11:10", "Genesis 13:16", "Genesis 15:5", "Genesis 22:17", "Genesis 46:26-27", "Exodus 1:5-7", "Exodus 1:12", "Exodus 8:3", "Exodus 12:37-41", "Leviticus 11:29", "Leviticus 11:41-46", "Numbers 1:2-3", "Numbers 1:45-46", "Deuteronomy 10:22", "2 Samuel 24:9", "1 Chronicles 21:5", "Psalm 105:30", "Jeremiah 33:22", "Ezekiel 47:9", "Acts 7:14", "Acts 17:26", "Romans 1:20", "Galatians 3:16", "Galatians 3:17", "Galatians 3:29", "Hebrews 11:12", "Revelation 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-10-31
+date_modified: 2026-11-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -767,3 +767,5 @@ word. So when you look at the crowd, you are looking at a promise kept, and you 
   conventions these dates depend on, including the three Flood-date reconstructions.
 - [What Creation Declares](../god/creation-reveals-the-creator.md) — the companion study, arguing the same
   conclusion from design rather than demography.
+- [What Literary Criticism Declares](../scripture/what-literary-criticism-declares.md) — the series'
+  fourth study, on many writers across centuries and prophecy written before the event.

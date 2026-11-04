@@ -15,4 +15,5 @@ draft: false
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 1:11-12
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 1:11-12
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:5
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 1:5
 <!-- commentary-index:auto-end -->

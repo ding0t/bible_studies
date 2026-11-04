@@ -16,5 +16,6 @@ draft: false
 - [Pride](../../sin/pride.md) — 3:34
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 3:5-6
 - [Submission in Context](../../christian-life/submission-in-context.md) — 3:25-26
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 3:5-6
 - [Wisdom](../../wisdom/index.md) — 3:5-6
 <!-- commentary-index:auto-end -->

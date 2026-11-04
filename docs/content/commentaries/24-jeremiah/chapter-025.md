@@ -16,4 +16,5 @@ draft: false
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 25:11-12
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 25:15
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 25:10
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 25:11-12
 <!-- commentary-index:auto-end -->

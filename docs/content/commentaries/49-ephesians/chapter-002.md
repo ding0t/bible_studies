@@ -28,6 +28,7 @@ draft: false
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:19
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 2:8-10
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 2:2
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 2:10
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 2:14-16
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 2:10
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 2:1-5

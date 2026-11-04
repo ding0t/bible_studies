@@ -22,4 +22,5 @@ draft: false
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 4:4
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 4:4
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:7
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 4:13-15
 <!-- commentary-index:auto-end -->

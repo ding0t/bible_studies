@@ -21,4 +21,5 @@ draft: false
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 24:7
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 24:39
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 24:36-43
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 24:25-27
 <!-- commentary-index:auto-end -->

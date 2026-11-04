@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Six Days of History](../../last-things/six-days-of-history.md) — 46:10
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 46:9-10
 <!-- commentary-index:auto-end -->

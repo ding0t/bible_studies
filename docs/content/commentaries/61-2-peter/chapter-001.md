@@ -18,4 +18,5 @@ draft: false
 - [Pride](../../sin/pride.md) — 1:4
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 1:16-18
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 1:12-13
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 1:19-21
 <!-- commentary-index:auto-end -->

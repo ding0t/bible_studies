@@ -31,5 +31,6 @@ draft: false
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 20:11
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 20:13-14
 - [True Worship](../../christian-life/true-worship.md) — 20:4
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 20:2
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 20:1-6
 <!-- commentary-index:auto-end -->

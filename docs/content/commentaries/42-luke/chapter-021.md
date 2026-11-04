@@ -20,4 +20,5 @@ draft: false
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 21:34
 - [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 21:24
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 21:24
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 21:20-24
 <!-- commentary-index:auto-end -->

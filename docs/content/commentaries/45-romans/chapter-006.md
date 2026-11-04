@@ -15,5 +15,6 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 6:18
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 6:10
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 6:9
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 6:13-19
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 6:16-23
 <!-- commentary-index:auto-end -->

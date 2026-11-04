@@ -16,4 +16,5 @@ draft: false
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 139:7
 - [The Restrainer](../../last-things/the-restrainer.md) — 139:7
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 139:21-24
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 139:16
 <!-- commentary-index:auto-end -->

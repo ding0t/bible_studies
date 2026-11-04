@@ -4,7 +4,7 @@ category: "other"
 description: "The Bible about itself -- canon, manuscripts, translation, and the archaeology behind the text."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-20
+date_modified: 2026-11-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -120,6 +120,14 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
     Genesis 1:1, John 3:16 and Hebrews 11:1 keep their meaning when quoted alone, because each is its paragraph's own thesis sentence. Why they travel well, what their key words mean, and what their context adds.
 
     [:octicons-arrow-right-24: Read](verses-quoted-well.md)
+
+-   __What Literary Criticism Declares: Many Writers, One Story__
+
+    ---
+
+    Literary criticism set out to divide the Bible into its sources, and by its own count it found more writers than the church had counted. This study reads Hebrews 1:1-2 and Isaiah 46:10, then measures the Bible as critics describe it: 38 to 44 writers over more than 850 years, one connected web of 72,000 cross-references, the same story at both ends, and prophecies written, and surviving in copies, before the events they name.
+
+    [:octicons-arrow-right-24: Read](what-literary-criticism-declares.md)
 
 -   __What the Scripture Links Reveal__
 

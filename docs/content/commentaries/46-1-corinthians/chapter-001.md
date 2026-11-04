@@ -18,5 +18,6 @@ draft: false
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 1:20
 - [Submission in Context](../../christian-life/submission-in-context.md) — 1:27
 - [The Names of God](../../god/names-of-god.md) — 1:30
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 1:1
 - [Wisdom](../../wisdom/index.md) — 1:24
 <!-- commentary-index:auto-end -->

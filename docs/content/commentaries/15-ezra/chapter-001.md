@@ -14,5 +14,6 @@ draft: false
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 1:1
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 1:1-4
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 1:1-4
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 1:1-3
 <!-- commentary-index:auto-end -->

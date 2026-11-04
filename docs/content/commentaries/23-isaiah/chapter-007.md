@@ -15,5 +15,6 @@ draft: false
 - [Faith](../../salvation/faith.md) — 7:9
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 7:14
 - [The Names of God](../../god/names-of-god.md) — 7:14
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 7:14
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 7:3
 <!-- commentary-index:auto-end -->

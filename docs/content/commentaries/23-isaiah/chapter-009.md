@@ -16,4 +16,5 @@ draft: false
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 9:2
 - [The Names of God](../../god/names-of-god.md) — 9:6
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 9:6-7
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 9:1-2
 <!-- commentary-index:auto-end -->

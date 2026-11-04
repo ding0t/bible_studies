@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 11:12-13
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 11:12-13
 <!-- commentary-index:auto-end -->

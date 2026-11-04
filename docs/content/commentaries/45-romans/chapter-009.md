@@ -18,5 +18,6 @@ draft: false
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 9:22-24
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 9:11
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 9:4
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 9:11-18
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 9:27-29
 <!-- commentary-index:auto-end -->

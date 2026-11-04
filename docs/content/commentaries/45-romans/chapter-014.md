@@ -17,4 +17,5 @@ draft: false
 - [The Appointed Times](../../feasts/feasts.md) — 14:5-6
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 14:12
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 14:10-12
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 14:22
 <!-- commentary-index:auto-end -->

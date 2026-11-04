@@ -27,5 +27,6 @@ draft: false
 - [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 22:29-30
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 22:24
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 22:1
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 22:42
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 22:31-32
 <!-- commentary-index:auto-end -->

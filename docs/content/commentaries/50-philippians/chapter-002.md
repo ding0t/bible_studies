@@ -25,4 +25,5 @@ draft: false
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 2:9-11
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:15
 - [True Worship](../../christian-life/true-worship.md) — 2:9-11
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 2:13
 <!-- commentary-index:auto-end -->

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 12:1-2 (primary passage)
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 12:17-21
 - [In Humility](../../christian-life/humility.md) — 12:3
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 12:1-2

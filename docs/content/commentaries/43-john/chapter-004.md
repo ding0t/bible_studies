@@ -21,4 +21,5 @@ draft: false
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 4:6
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 4:7
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 4:42
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 4:34
 <!-- commentary-index:auto-end -->

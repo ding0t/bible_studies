@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 40:3
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 40:8
 <!-- commentary-index:auto-end -->

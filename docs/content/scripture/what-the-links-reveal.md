@@ -415,6 +415,9 @@ better guide to a theme; the derived links are the better guide to what a writer
 quoting. Where unfoldingWord's Translation Notes name a quotation the derived links do not show, the
 page shows that too, marked as the editors' judgement.
 
+[What Literary Criticism Declares](what-literary-criticism-declares.md#one-web) lays these
+cross-references out by the date each book was written.
+
 ## What the links show about God
 
 **God speaks one word through many writers.** "Long ago, at many times and in many ways, God spoke

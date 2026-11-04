@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Matthew 6:9-13; Luke 11:2-4"
 bible_references: ["Matthew 6:5-15", "Matthew 6:25-34", "John 1:12", "Galatians 4:4-6", "Psalm 27:10", "Ecclesiastes 5:2", "Ezekiel 36:20-22", "1 Peter 3:15", "John 17:6", "John 12:28", "Matthew 4:1-4", "John 6:35", "Habakkuk 3:17-18", "Philippians 4:11-12", "Colossians 2:13-14", "Matthew 18:21-35", "Luke 23:34", "Hebrews 4:15", "John 17:15", "Luke 22:31-32", "1 Corinthians 10:13", "John 14:13", "Luke 11:1-13", "Isaiah 63:16", "Isaiah 64:8", "Ezekiel 36:23", "Exodus 16:4", "Exodus 16:19-26", "Proverbs 30:8-9", "Deuteronomy 15:1-2", "James 1:13-14", "Matthew 6:33", "1 Kings 18:26-29", "Luke 5:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 12:28", "Luke 11:20", "Matthew 25:34", "Acts 1:6-7", "Matthew 26:41", "Revelation 3:10", "Ephesians 4:32", "1 Peter 5:7", "1 Thessalonians 5:17"]
 date_created: 2026-07-22
-date_modified: 2026-11-01
+date_modified: 2026-11-04
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -245,7 +245,8 @@ holds He will come again to reign on it, a future, literal kingdom; amillennial 
 reign as present and spiritual. Until then, praying "your will be
 done" hands your own will over to His, as Jesus did in Gethsemane: "not as I will, but as you will"
 (Matthew 26:39, ESV). [Your will handed over](prayer-as-communion.md#your-will-handed-over) in
-Prayer as Communion follows that prayer to its answer.
+Prayer as Communion follows that prayer to its answer, and [Walking in His Will](walking-in-his-will.md)
+follows the petition into the rest of life: submitting, knowing, seeking, testing and following.
 
 The fuller study of this petition, on *basileia*, "kingdom of heaven" and the grammar of the
 request, is [Your Kingdom Come](../last-things/your-kingdom-come.md).

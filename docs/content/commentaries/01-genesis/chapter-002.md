@@ -32,6 +32,7 @@ draft: false
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 2:16-17
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:7
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 2:19
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 2:9-10
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 2:24
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 2:9
 <!-- commentary-index:auto-end -->

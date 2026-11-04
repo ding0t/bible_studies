@@ -28,5 +28,6 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 4:17
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 4:16-17
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 4:16-17
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 4:3
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 4:16-17
 <!-- commentary-index:auto-end -->

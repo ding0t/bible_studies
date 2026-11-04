@@ -29,6 +29,7 @@ draft: false
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 10:16
 - [True Worship](../../christian-life/true-worship.md) — 10:19-22
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 10:35-39
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 10:5-10
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 10:23-25
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 10:24-25
 <!-- commentary-index:auto-end -->

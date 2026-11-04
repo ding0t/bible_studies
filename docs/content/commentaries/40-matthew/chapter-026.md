@@ -29,6 +29,7 @@ draft: false
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 26:26-29
 - [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 26:28
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 26:67
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 26:39-42
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 26:31
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 26:31-35
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 26:57

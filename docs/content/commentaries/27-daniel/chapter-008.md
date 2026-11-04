@@ -14,4 +14,5 @@ draft: false
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 8:5-14
 - [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 8:8-9
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 8:20-22
 <!-- commentary-index:auto-end -->

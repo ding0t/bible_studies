@@ -20,4 +20,5 @@ draft: false
 - [Sin and Sorcery](../../sin/sorcery.md) — 16:16-18
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 16:7
 - [The Way](../../jesus/the-way.md) — 16:17
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 16:6-10
 <!-- commentary-index:auto-end -->

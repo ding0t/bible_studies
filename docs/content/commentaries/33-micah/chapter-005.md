@@ -15,5 +15,6 @@ draft: false
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 5:2
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:2
 - [Sin and Sorcery](../../sin/sorcery.md) — 5:12
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 5:2
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 5:2
 <!-- commentary-index:auto-end -->

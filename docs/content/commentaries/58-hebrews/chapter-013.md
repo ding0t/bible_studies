@@ -20,4 +20,5 @@ draft: false
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 13:17
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 13:14
 - [True Worship](../../christian-life/true-worship.md) — 13:15-16
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 13:20-21
 <!-- commentary-index:auto-end -->

@@ -31,4 +31,5 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 9:27
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 9:27
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 9:24-27
+- [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 9:25-26
 <!-- commentary-index:auto-end -->

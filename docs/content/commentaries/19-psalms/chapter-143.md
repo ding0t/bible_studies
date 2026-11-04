@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 143:10
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 143:10
 <!-- commentary-index:auto-end -->

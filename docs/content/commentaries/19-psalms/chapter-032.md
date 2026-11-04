@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Walking in His Will](../../christian-life/walking-in-his-will.md) — 32:8
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 32:1-5
 <!-- commentary-index:auto-end -->
