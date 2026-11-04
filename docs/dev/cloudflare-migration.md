@@ -266,6 +266,10 @@ reversible. **The scary step and the site-moving step are deliberately not the s
 ### Phase 5 — Clean up (after a week's soak)
 
 11. **Enable Web Analytics** — automatic once traffic is proxied. This is the payoff.
+    In practice it is a JS beacon that the zone's automatic setup injects into every HTML
+    response (static assets included), so the site writes no snippet of its own. A hand-written
+    copy added 2026-10-26 loaded the beacon twice and stopped all reporting until it was removed
+    on 2026-11-05.
 12. **Remove the custom domain from GitHub Pages settings** and disable the Pages source. This ends
     easy rollback, hence the wait.
 13. **Update the docs:** `AGENTS.md` (Commands and Architecture both describe a GitHub Pages
