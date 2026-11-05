@@ -379,3 +379,28 @@ def test_lxx_lemmas_are_read_at_the_septuagint_number(conn):
     english = query.lookup_verse(conn, "Num", 17, 8, "WEB")
     lemmas = {m["lemma"] for m in english["morphology"] if m["work_id"] == "lxx-lemmas"}
     assert "καρυον" in lemmas or "κάρυον" in lemmas, sorted(lemmas)
+
+
+@pytest.mark.parametrize("lxx_ref, english_ref", [
+    (("1Kgs", 21, 1), ("1Kgs", 20, 1)),    # Ben-hadad besieges Samaria
+    (("1Kgs", 20, 1), ("1Kgs", 21, 1)),    # Naboth's vineyard
+    (("Mal", 3, 22), ("Mal", 4, 5)),       # Elijah
+    (("Mal", 3, 23), ("Mal", 4, 6)),       # the hearts of the fathers
+    (("Mal", 3, 24), ("Mal", 4, 4)),       # the law of Moses, last in the LXX
+])
+def test_lxx_passages_in_a_different_order_land_on_the_same_words(lxx_ref, english_ref):
+    assert align(*lxx_ref, "lxx", "english") == english_ref
+    assert align(*english_ref, "english", "lxx") == lxx_ref
+
+
+@pytest.mark.parametrize("english_ref", [("Exod", 37, 1), ("Exod", 38, 1), ("1Kgs", 4, 21), ("1Kgs", 7, 1)])
+def test_lxx_reordered_building_chapters_are_unmapped_both_ways(english_ref):
+    assert align(*english_ref, "english", "lxx") is None
+    assert align(english_ref[0], english_ref[1], english_ref[2], "lxx", "english") is None
+
+
+def test_lxx_names_in_the_swapped_kings_chapters(conn):
+    """Naboth (Ναβουθαι) opens EN 1 Kgs 21 and LXX 3 Kgdms 20."""
+    text = conn.execute("SELECT text FROM verses WHERE work_id=? AND book='1Kgs' AND chapter=? AND verse=1",
+                        (LXX, align("1Kgs", 21, 1, "english", "lxx")[1])).fetchone()[0]
+    assert "Ναβουθαὶ" in text

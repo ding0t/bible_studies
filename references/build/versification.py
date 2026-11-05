@@ -174,6 +174,21 @@ _TO_ENGLISH: dict[str, list[tuple]] = {
         *_DANIEL_FIVE_SIX,
     ],
     "lxx": [
+        # Ahead of the Hebrew chapter division, which would otherwise claim them: the LXX orders
+        # these, not merely numbers them. 3 Kingdoms 20 is Naboth's vineyard and 21 the Aramean
+        # war, the English order swapped (verse counts 29/43 against English 21/20 confirm it
+        # whole). Its Malachi closes on Moses: LXX 3:22-23 is EN 4:5-6, Elijah and the turning of
+        # hearts, and LXX 3:24 is EN 4:4. Found 2026-11-05 by reading Brenton against the BSB.
+        ("1Kgs", 20, 1, 999, 21, 0),
+        ("1Kgs", 21, 1, 999, 20, 0),
+        ("Mal", 3, 22, 23, 4, -17),
+        ("Mal", 3, 24, 24, 4, -20),
+        # The tabernacle's construction and Solomon's building chapters are moved, merged and
+        # expanded piecemeal (LXX Exod 37:1 is the curtains, EN 37:1 the ark; LXX 3 Kgdms 5:1 is
+        # Solomon's provisions, EN 5:1 Hiram's embassy). Same verse numbers, different verses, so
+        # left unmapped until a name-anchored pass maps them as Jeremiah's were.
+        *[("Exod", n, 1, 999, None, 0) for n in range(36, 40)],
+        *[("1Kgs", n, 1, 999, None, 0) for n in range(4, 8)],
         *_HEBREW_CHAPTER_DIVISION,
         *_DANIEL_FIVE_SIX,
         # Proverbs turned out to be mostly identity after all. Brenton preserves the HEBREW verse
@@ -269,16 +284,17 @@ def from_english(scheme: str, book: str, chapter: int, verse: int) -> tuple[str,
     for rule_book, rule_chapter, start, end, to_chapter, delta in _TO_ENGLISH.get(scheme, ()):
         if to_chapter is None or book != rule_book or to_chapter != chapter:
             continue
-        if start + delta <= verse <= end + delta:
+        # A rule an earlier one shadows does not apply: LXX 3 Kgdms 5 is unmapped ahead of the
+        # Hebrew chapter division's 5:1-14 = EN 4:21-34, so EN 4:21 must not reach LXX 5:1.
+        if start + delta <= verse <= end + delta and \
+                to_english(scheme, book, rule_chapter, verse - delta) == (book, chapter, verse):
             return (book, rule_chapter, verse - delta)
     # not the target of any rule -- but guard against handing back a reference this scheme
-    # renumbers away from, e.g. english Ps 30 does not exist unshifted in the lxx. Only the verses
-    # the rule actually moves: english Exodus 7:1-25 is masoretic 7:1-25 even though masoretic
-    # 7:26-29 leaves for chapter 8.
-    for rule_book, rule_chapter, start, end, to_chapter, _ in _TO_ENGLISH.get(scheme, ()):
-        if (to_chapter is not None and book == rule_book and rule_chapter == chapter
-                and start <= verse <= end):
-            return None
+    # renumbers away from or leaves unmapped, e.g. english Ps 30 does not exist unshifted in the
+    # lxx, and LXX Exodus 37:1 is not EN 37:1. Only the verses a rule actually covers: english
+    # Exodus 7:1-25 is masoretic 7:1-25 even though masoretic 7:26-29 leaves for chapter 8.
+    if to_english(scheme, book, chapter, verse) != (book, chapter, verse):
+        return None
     return (book, chapter, verse)
 
 
