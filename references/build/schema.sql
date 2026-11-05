@@ -100,6 +100,26 @@ CREATE TABLE morphology (           -- word-by-word tags on original-language ve
                                      -- 'participantref' (different column names, same idea, merged here)
 );
 CREATE INDEX idx_morph_ref ON morphology(book, chapter, verse);
+
+CREATE TABLE interlinear_words (     -- the text the BSB translates, word by word: the Berean
+                                     -- Interlinear's WLC and Nestle-base Greek (berean-wlc,
+                                     -- berean-greek). Its own table rather than more morphology rows
+                                     -- because it is the WLC a second time, and every count that sums
+                                     -- morphology across works would count the Hebrew Bible twice.
+    work_id TEXT NOT NULL REFERENCES works(work_id),
+    book TEXT NOT NULL,              -- numbered as the BSB numbers (English scheme): Psalm 3:1
+    chapter INTEGER NOT NULL,        -- holds the title, Joel 2:28 is Hebrew 3:1
+    verse INTEGER NOT NULL,
+    word_position INTEGER NOT NULL,  -- original-language order
+    surface_form TEXT NOT NULL,      -- as the tables print it: accents, maqaf and sof pasuq kept
+    strongs_id TEXT,                 -- bare number
+    morph_code TEXT,                 -- the tables' own code ("V-Qal-Perf-3ms"), not OSHB or Robinson
+    transliteration TEXT,
+    english TEXT,                    -- the BSB's English for the word; NULL where it renders none
+    english_position INTEGER         -- the tables' BSB Sort: orders the words' English as it falls
+                                     -- in the BSB verse, so a page can find each one in the sentence
+);
+CREATE INDEX idx_interlinear_ref ON interlinear_words(book, chapter, verse);
 CREATE INDEX idx_morph_strongs ON morphology(strongs_id);
 CREATE INDEX idx_morph_domain ON morphology(domain_code);
 CREATE INDEX idx_morph_node ON morphology(work_id, node_id);   -- pointer resolution for subject_ref/referent

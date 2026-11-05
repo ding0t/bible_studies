@@ -693,7 +693,21 @@ def ingest_berean_interlinear(conn: sqlite3.Connection) -> None:
          "Hebrew is the WLC; Greek is the tables' Nestle base text. English is the BSB's. "
          "strong carries an H/G prefix; morph is the tables' short parsing code."),
     )
+    for work_id, code, title, language in (
+            ("berean-wlc", "WLC", "Westminster Leningrad Codex (Berean Interlinear's base text)", "heb"),
+            ("berean-greek", "BGB", "Greek New Testament (Berean Interlinear's Nestle base text)", "grc")):
+        conn.execute(
+            "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+            "source_commit, ingested_at, license, license_tier, attribution, notes) "
+            "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
+            (work_id, code, title, language, "bereanbible.com", "https://berean.bible/downloads.htm",
+             digest, TODAY, BEREAN_LICENSE, "open", "Berean Bible Translation Committee / Bible Hub",
+             "The text the BSB translates, word by word in the BSB's verse numbering: every word, "
+             "including those the BSB leaves untranslated, with its transliteration, the tables' "
+             "parsing code, the BSB English for it and that English's place in the BSB verse. "
+             "Table interlinear_words."))
     by_verse: dict[tuple[str, int, int], list] = collections.defaultdict(list)
+    original: dict[tuple[str, int, int], list] = collections.defaultdict(list)
     reference = None
     with path.open(encoding="utf-8", newline="") as f:
         reader = csv.reader(f, delimiter="\t", quoting=csv.QUOTE_NONE)
@@ -703,10 +717,16 @@ def ingest_berean_interlinear(conn: sqlite3.Connection) -> None:
                 match = BEREAN_REF.match(row[12].strip())
                 reference = (BEREAN_BOOK_TO_OSIS[match[1]], int(match[2]), int(match[3]))
             language, english = row[4], row[18].strip()
-            if language not in ("Hebrew", "Aramaic", "Greek") or english in BEREAN_NO_ENGLISH:
+            if language not in ("Hebrew", "Aramaic", "Greek") or not row[5].strip():
                 continue
             greek = language == "Greek"
             number = row[11] if greek else row[10]
+            original[reference].append((
+                float(row[1] if greek else row[0]), row[5].strip(), number or None,
+                row[8].strip() or None, None if english in BEREAN_NO_ENGLISH else english,
+                row[7].strip() or None, int(row[2]), "berean-greek" if greek else "berean-wlc"))
+            if english in BEREAN_NO_ENGLISH:
+                continue
             by_verse[reference].append((
                 float(row[1] if greek else row[0]), english, row[5].strip(),
                 f"{'G' if greek else 'H'}{number}" if number else None, row[8].strip() or None,
@@ -721,8 +741,19 @@ def ingest_berean_interlinear(conn: sqlite3.Connection) -> None:
     conn.executemany(
         "INSERT INTO word_alignment (work_id, book, chapter, verse, english, content, lemma, "
         "strong, morph, occurrence) VALUES (?,?,?,?,?,?,?,?,?,?)", align_rows)
+    morph_rows = []
+    for (book, chapter, verse), verse_words in original.items():
+        for position, (_, form, number, code, english, translit, bsb_sort, work_id) in \
+                enumerate(sorted(verse_words), 1):
+            morph_rows.append((work_id, book, chapter, verse, position, form, number, code, english,
+                               translit, bsb_sort))
+    conn.executemany(
+        "INSERT INTO interlinear_words (work_id, book, chapter, verse, word_position, surface_form, "
+        "strongs_id, morph_code, english, transliteration, english_position) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?)", morph_rows)
     conn.commit()
-    print(f"berean-bib: {len(align_rows)} alignment rows across {len(by_verse)} verses")
+    print(f"berean-bib: {len(align_rows)} alignment rows across {len(by_verse)} verses; "
+          f"{len(morph_rows)} original-language words")
 
 
 # bsb2usfm is the BSB's own publishing pipeline; a release tag pins both texts to one version.
@@ -1301,6 +1332,29 @@ def ingest_uw_tn_quotations(conn: sqlite3.Connection) -> None:
     print(f"uw-tn-quotations: {len(rows)} New Testament verses' quotations named")
 
 
+def morphhb_words(xml_file: Path, work_id: str, book: str) -> list[tuple]:
+    """Every word and mark of each verse, read from the OSIS directly.
+
+    BibleOrgSys's getVerseDictList kept the lemma and morph only for the <w> elements on a verse's
+    first source line: a word after a line break or a <note> came back bare, so 75,283 of the WLC's
+    words had no Strong's number or parsing until 2026-11-05 (Psalm 1:1 kept three of its fifteen).
+    Direct children of <verse> only: a qere sits inside a <note>, and was never a row."""
+    ns = "{http://www.bibletechnologies.net/2003/OSIS/namespace}"
+    rows = []
+    for verse in ElementTree.parse(xml_file).getroot().iter(f"{ns}verse"):
+        _, chapter, number = verse.get("osisID").rsplit(".", 2)
+        position = 0
+        for node in verse:
+            if node.tag not in (f"{ns}w", f"{ns}seg"):
+                continue
+            position += 1
+            tagged = node.tag == f"{ns}w"
+            rows.append((work_id, book, int(chapter), int(number), position, node.text,
+                         node.get("lemma") if tagged else None, node.get("morph") if tagged else None,
+                         node.get("n") if tagged else None))
+    return rows
+
+
 def ingest_morphhb(conn: sqlite3.Connection) -> None:
     from BibleOrgSys import BibleOrgSysGlobals
     from BibleOrgSys.OriginalLanguages.HebrewWLCBible import OSISHebrewWLCBible
@@ -1337,17 +1391,7 @@ def ingest_morphhb(conn: sqlite3.Connection) -> None:
                 if verse_text:
                     verse_rows.append((work_id, osis_book_code, c, v, verse_text))
 
-                word_pos = 0
-                for entry in wlc.getVerseDataList(key) or []:
-                    if entry.getMarker() not in ("v~", "p~"):
-                        continue
-                    for wd in wlc.getVerseDictList(entry, key):
-                        word_pos += 1
-                        morph_rows.append((
-                            work_id, osis_book_code, c, v, word_pos,
-                            wd.get("word"), wd.get("strong"), wd.get("morph"),
-                            wd.get("cantillationLevel"),
-                        ))
+        morph_rows += morphhb_words(xml_file, work_id, osis_book_code)
         print(f"  morphhb {osis_book_code} (internal {bos_book_code}): {book_obj.getNumChapters()} chapters loaded")
 
     conn.executemany(

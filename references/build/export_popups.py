@@ -29,6 +29,13 @@ Everything written here ships to every reader's browser, so every source is `ope
                        reading of each code (TEGMC/TEHMC, CC BY): "a male PERSON that is having
                        something done to them". A form with two common parsings gets none, since
                        the card cannot know which the page means.
+- original/<Book>/<chapter>.json  each verse in the language it was written in, numbered as the
+                       reading translation numbers it: the Berean Interlinear's words (public domain),
+                       the text the BSB translates, each with its Strong's number, transliteration,
+                       the BSB's English for it and where that English sits in the BSB verse, plus
+                       MACULA's parsing code (CC BY 4.0) for grammar.json. An Old Testament chapter
+                       also carries Brenton's Septuagint, a New Testament one Salkinson-Ginsburg's
+                       Hebrew translation. See export_originals.
 - A name's entry also says who it is: each individual STEPBible's TIPNR files under the number
   (CC BY), with STEP's one-line description, parents, spouses and children, and the id of the
   person in this site's family tree where genealogy_check.py matches one. A Greek name points at
@@ -40,6 +47,7 @@ claim is wrong.
 
 Usage: uv run python export_popups.py
 """
+import difflib
 import json
 import re
 import shutil
@@ -50,6 +58,7 @@ from pathlib import Path
 import genealogy_check
 import query
 import source_catalog
+import versification
 
 REPO = Path(__file__).resolve().parents[2]
 OUT = REPO / "docs" / "content" / "assets" / "popups"
@@ -322,7 +331,7 @@ def shard_of(key: str) -> str:
     return "".join(f"{ord(ch):04x}" for ch in bare_key(key)[:2])
 
 
-def export_forms(conn) -> int:
+def export_forms(conn, grammar: dict, used: dict) -> int:
     """A key takes its numbers from the first source that has it: the forms attested in the Hebrew
     Bible and the Greek NT, then the lexicons' dictionary forms (so δίδωμι or שָׁבַת named with no
     number still resolves), then the bare keys of both, then the Septuagint's lemmas, which carry
@@ -370,10 +379,8 @@ def export_forms(conn) -> int:
         for key, ids in tier.items():
             forms.setdefault(key, ids)
 
-    grammar = read_grammar()
     shards: dict[str, dict] = defaultdict(dict)
     parses: dict[str, dict] = defaultdict(dict)
-    used: dict[str, list] = {}
     for key, ids in forms.items():
         total = sum(ids.values())
         ranked = ids.most_common()
@@ -391,8 +398,230 @@ def export_forms(conn) -> int:
         dump(OUT / "forms" / f"{shard}.json", dict(sorted(data.items())))
     for shard, data in parses.items():
         dump(OUT / "parse" / f"{shard}.json", dict(sorted(data.items())))
-    dump(OUT / "grammar.json", dict(sorted(used.items())))
     return len(shards)
+
+
+# OSHB morphemes that attach to a word rather than carry it: the prefixed preposition, conjunction,
+# article and interrogative, and every suffix. A word's own number is its last morpheme not in this
+# list, so וְאֵת is H853 and לְדָוִד H1732; עָלַי, all prefix and suffix, is its preposition.
+_ATTACHED = ("R", "C", "Td", "Ti", "S")
+_CRITICAL_SIGNS = re.compile("[⸀-⸅]")
+_CANTILLATION = re.compile("[֑-֯׀]")
+_STOPS = ".,;·:—()[]’'\""
+
+
+def macula_hebrew(conn, book: str, chapter: int, verse: int, aramaic: set[int]) -> list[tuple]:
+    """(number, OSHB code) for each word of a Hebrew verse, MACULA's morphemes rejoined into words
+    (a word is its node id without the last digit). The code carries its language letter
+    ("HC/To", "ANcmsd/Td"), as grammar.json is keyed."""
+    grouped: dict[str, list] = {}
+    for r in conn.execute(
+            "SELECT node_id, strongs_id, morph_code FROM morphology WHERE work_id='macula-hebrew-wlc' "
+            "AND book=? AND chapter=? AND verse=? AND node_id IS NOT NULL ORDER BY word_position",
+            (book, chapter, verse)):
+        grouped.setdefault(r["node_id"][:-1], []).append(r)
+    words = []
+    for parts in grouped.values():
+        main = next((p for p in reversed(parts) if not (p["morph_code"] or "").startswith(_ATTACHED)),
+                    parts[0])
+        parsed = query.parse_strongs_id(main["strongs_id"])
+        number = parsed[0] if parsed else None
+        codes = [p["morph_code"] for p in parts]
+        words.append((number, ("A" if number in aramaic else "H") + "/".join(codes) if all(codes) else None))
+    return words
+
+
+def hebrew_verses_of(conn, book: str) -> dict[tuple[int, int], list[tuple[int, int]]]:
+    """The Hebrew verses each English verse of a book holds. A Hebrew verse is placed by UHB's own
+    per-verse record of its number, else the scheme map; one no English verse claims -- a psalm's
+    title, which the BSB prints inside verse 1 -- goes to the English verse after it."""
+    english = [(r["chapter"], r["verse"]) for r in conn.execute(
+        "SELECT chapter, verse FROM verses WHERE work_id='berean-bsb' AND book=? ORDER BY chapter, verse",
+        (book,))]
+    claimed = {}
+    for c, v in english:
+        stated = query._stated_alt_ref(conn, book, c, v)
+        ref = ((book, stated["alt_chapter"], stated["alt_verse"]) if stated
+               else versification.align(book, c, v, "english", "masoretic"))
+        if ref and (ref[1], ref[2]) not in claimed:
+            claimed[(ref[1], ref[2])] = (c, v)
+    held: dict[tuple[int, int], list] = defaultdict(list)
+    pending = []
+    for r in conn.execute("SELECT DISTINCT chapter, verse FROM morphology WHERE work_id='macula-hebrew-wlc' "
+                          "AND book=? ORDER BY chapter, verse", (book,)):
+        hv = (r["chapter"], r["verse"])
+        if hv in claimed:
+            held[claimed[hv]] += pending + [hv]
+            pending = []
+        else:
+            pending.append(hv)
+    return held
+
+
+def english_spans(text: str, words: list[list], english_order: list[int | None]) -> list[tuple[int, int] | None]:
+    """Where each word's BSB English sits in the BSB verse. The tables list the English in the BSB's
+    own order, so the phrases are found left to right from a moving cursor: the second "that" in
+    John 3:16 is ἵνα's because ὥστε's was found first."""
+    spans: list[tuple[int, int] | None] = [None] * len(words)
+    cursor = 0
+    lowered = text.lower()
+    for i in sorted((i for i, o in enumerate(english_order) if o is not None), key=lambda i: english_order[i]):
+        phrase = re.sub(r"\s+", " ", words[i][3].replace("[", "").replace("]", "")).strip()
+        at = text.find(phrase, cursor)
+        if at < 0:
+            at = lowered.find(phrase.lower(), cursor)
+        if at >= 0:
+            spans[i] = (at, at + len(phrase))
+            cursor = at + len(phrase)
+    return spans
+
+
+def pair(numbers_a: list, numbers_b: list) -> dict[int, int]:
+    """Index in a -> index in b, matching the two Strong's sequences."""
+    matcher = difflib.SequenceMatcher(None, numbers_a, numbers_b, autojunk=False)
+    return {block.a + i: block.b + i for block in matcher.get_matching_blocks() for i in range(block.size)}
+
+
+QUOTED_PER_VERSE = 2
+SHARED_RUN = 2
+
+
+def septuagint_quoted(conn, book: str, chapter: int, verse: int, words: list[list]) -> list:
+    """The Septuagint verses a New Testament verse quotes (scripture_links 'quotation-greek', the
+    strong links only, strongest first), each with the words the two share marked: runs of at least
+    two words in the same order, so a shared article alone marks nothing. A run marks the NT word's
+    index into `words` and the Septuagint word's index into its text split on spaces.
+
+    Each entry is [English reference, Septuagint number, text, Septuagint indices]; the NT indices
+    of all of them are merged into the verse's last entry, [None, None, None, NT indices]."""
+    nt_keys = [bare_key(form_key(w[0].strip(_STOPS))) for w in words]
+    entries, nt_marked = [], set()
+    for link in conn.execute(
+            "SELECT to_book, to_chapter, to_verse, to_english_chapter, to_english_verse FROM scripture_links "
+            "WHERE link_type='quotation-greek' AND strong=1 AND from_book=? AND from_chapter=? AND "
+            "from_verse=? ORDER BY alignment DESC LIMIT ?", (book, chapter, verse, QUOTED_PER_VERSE)):
+        if link["to_english_chapter"] is None:
+            continue
+        text = conn.execute("SELECT text FROM verses WHERE work_id='ebible-grcbrent' AND book=? AND "
+                            "chapter=? AND verse=?", (link["to_book"], link["to_chapter"], link["to_verse"])).fetchone()
+        if not text:
+            continue
+        lxx_keys = [bare_key(form_key(t.strip(_STOPS))) for t in text["text"].split()]
+        lxx_marked = []
+        matcher = difflib.SequenceMatcher(None, nt_keys, lxx_keys, autojunk=False)
+        for block in matcher.get_matching_blocks():
+            if block.size >= SHARED_RUN:
+                nt_marked.update(range(block.a, block.a + block.size))
+                lxx_marked += range(block.b, block.b + block.size)
+        entries.append([f"{link['to_book']} {link['to_english_chapter']}:{link['to_english_verse']}",
+                        f"{link['to_chapter']}:{link['to_verse']}", text["text"].strip(), lxx_marked])
+    if entries:
+        entries.append([None, None, None, sorted(nt_marked)])
+    return entries
+
+
+def export_originals(conn, grammar: dict, used: dict) -> int:
+    """original/<Book>/<chapter>.json: each verse in the language it was written in, word by word,
+    for the verse card's Hebrew, Greek and word-by-word views and for linking the BSB's English to
+    the word it renders. An Old Testament chapter also carries Brenton's Septuagint (`g`), a New
+    Testament one Salkinson-Ginsburg's Hebrew translation (`s`).
+
+    The words are the Berean Interlinear's (interlinear_words): the text the BSB translates, in the
+    BSB's own numbering, so the card shows the Greek behind the English the reader is reading. Each
+    word is [form, Strong's id, grammar code, BSB English, transliteration, start, end]: the code is
+    MACULA's (OSHB or Robinson, which grammar.json reads in plain English), matched to the word by
+    Strong's sequence; start and end place the English in the BSB verse. A Hebrew verse the Hebrew
+    Bible numbers differently is split into its Hebrew verses, each labelled with its number."""
+    aramaic = {n for n, e in read_lexicon(next(LEXICONS.glob("TBESH*.txt")), "H").items()
+               if e["lang"] == "Aramaic"}
+    files = 0
+    books = [r[0] for r in conn.execute("SELECT DISTINCT book FROM interlinear_words")]
+    for book in books:
+        chapters: dict[int, dict] = defaultdict(lambda: {"v": {}})
+        greek = conn.execute("SELECT 1 FROM interlinear_words WHERE book=? AND work_id='berean-greek' LIMIT 1",
+                             (book,)).fetchone() is not None
+        held = {} if greek else hebrew_verses_of(conn, book)
+        verses = defaultdict(list)
+        for r in conn.execute("SELECT chapter, verse, surface_form, strongs_id, morph_code, transliteration, "
+                              "english, english_position FROM interlinear_words WHERE book=? "
+                              "ORDER BY chapter, verse, word_position", (book,)):
+            verses[(r["chapter"], r["verse"])].append(r)
+        bsb = {(r["chapter"], r["verse"]): r["text"].strip() for r in conn.execute(
+            "SELECT chapter, verse, text FROM verses WHERE work_id='berean-bsb' AND book=?", (book,))}
+        for (c, v), rows in verses.items():
+            numbers = [int(r["strongs_id"]) if (r["strongs_id"] or "").isdigit() else None for r in rows]
+            prefix = "G" if greek else "H"
+            words = [[_CANTILLATION.sub("", r["surface_form"]), f"{prefix}{n}" if n else 0, 0,
+                      r["english"] or 0, r["transliteration"] or 0] for r, n in zip(rows, numbers)]
+            labels: list[str | None] = [None] * len(words)
+            if greek:
+                macula = conn.execute(
+                    "SELECT surface_form, strongs_id, morph_code FROM morphology WHERE "
+                    "work_id='macula-greek-sblgnt' AND book=? AND chapter=? AND verse=? ORDER BY word_position",
+                    (book, c, v)).fetchall()
+                text = conn.execute("SELECT text FROM verses WHERE work_id='sblgnt' AND book=? AND chapter=? "
+                                    "AND verse=?", (book, c, v)).fetchone()
+                tokens = _CRITICAL_SIGNS.sub("", text["text"]).split() if text else []
+                if len(tokens) != len(macula):
+                    tokens = []
+                matched = pair(numbers, [(p[0] if (p := query.parse_strongs_id(m["strongs_id"])) else None)
+                                         for m in macula])
+                for i, j in matched.items():
+                    words[i][2] = macula[j]["morph_code"] or 0
+                    # The SBLGNT's punctuation, where the two texts have the same word here.
+                    if tokens and bare_key(form_key(tokens[j].strip(_STOPS))) == bare_key(form_key(words[i][0])):
+                        words[i][0] = words[i][0] + tokens[j][len(tokens[j].rstrip(".,;·:—")):]
+            else:
+                segments = held.get((c, v), [])
+                hebrew = [(hv, w) for hv in segments for w in macula_hebrew(conn, book, *hv, aramaic)]
+                matched = pair(numbers, [w[0] for _, w in hebrew])
+                for i, j in matched.items():
+                    words[i][2] = hebrew[j][1][1] or 0
+                    labels[i] = f"{hebrew[j][0][0]}:{hebrew[j][0][1]}"
+                # A word the match missed belongs to the Hebrew verse of the word before it.
+                for i in range(1, len(labels)):
+                    labels[i] = labels[i] or labels[i - 1]
+                first = next((lab for lab in labels if lab), None)
+                labels = [lab or first for lab in labels]
+            for i, span in enumerate(english_spans(bsb.get((c, v), ""), words,
+                                                   [r["english_position"] if r["english"] else None for r in rows])):
+                if span:
+                    words[i] += list(span)
+            for word in words:
+                if word[2] and (explained := explain(word[2], prefix, grammar)):
+                    used.update(explained)
+            distinct = list(dict.fromkeys(labels))
+            if greek or distinct == [f"{c}:{v}"] or distinct == [None]:
+                chapters[c]["v"][str(v)] = words
+            else:
+                chapters[c]["v"][str(v)] = {"p": [[label, [w for w, lab in zip(words, labels) if lab == label]]
+                                                  for label in distinct]}
+            if greek:
+                text = conn.execute("SELECT text FROM verses WHERE work_id='ebible-hebsg' AND book=? AND "
+                                    "chapter=? AND verse=?", (book, c, v)).fetchone()
+                if text:
+                    chapters[c].setdefault("s", {})[str(v)] = text["text"].strip()
+                quoted = septuagint_quoted(conn, book, c, v, words)
+                if quoted:
+                    chapters[c].setdefault("q", {})[str(v)] = quoted
+                continue
+            # Brenton numbers a psalm's title as its verse 1, as the Hebrew does, so the Septuagint is
+            # found from each Hebrew verse rather than from the English one.
+            septuagint = []
+            for hv in held.get((c, v), []):
+                ref = versification.align(book, *hv, "masoretic", "lxx")
+                text = ref and conn.execute("SELECT text FROM verses WHERE work_id='ebible-grcbrent' AND "
+                                            "book=? AND chapter=? AND verse=?", ref).fetchone()
+                if text:
+                    septuagint.append([f"{ref[1]}:{ref[2]}", text["text"].strip()])
+            if len(septuagint) == 1 and septuagint[0][0] == f"{c}:{v}":
+                chapters[c].setdefault("g", {})[str(v)] = septuagint[0][1]
+            elif septuagint:
+                chapters[c].setdefault("g", {})[str(v)] = {"p": septuagint}
+        for c, data in chapters.items():
+            dump(OUT / "original" / book / f"{c}.json", data)
+            files += 1
+    return files
 
 
 def dominant_parsing(codes: Counter | None) -> str | None:
@@ -485,9 +714,13 @@ def main() -> int:
         shutil.rmtree(OUT)
     books = export_verses(conn)
     shards = export_words(conn)
-    forms = export_forms(conn)
+    grammar, used = read_grammar(), {}
+    forms = export_forms(conn, grammar, used)
+    chapters = export_originals(conn, grammar, used)
+    dump(OUT / "grammar.json", dict(sorted(used.items())))
     size = sum(p.stat().st_size for p in OUT.rglob("*.json"))
-    print(f"wrote {books} verse files, {shards} word files and {forms} form files to "
+    print(f"wrote {books} verse files, {shards} word files, {forms} form files and {chapters} "
+          f"original-language chapters to "
           f"{OUT.relative_to(REPO)} ({size / 1_000_000:.1f} MB)")
     return 0
 

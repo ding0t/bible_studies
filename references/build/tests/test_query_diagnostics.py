@@ -114,8 +114,10 @@ def test_hebrew_strongs_matches_however_each_source_stores_it(conn):
     def count(strongs, work_id):
         return query.lookup_concordance(conn, strongs, work_id=work_id, count_only=True)[0]["count"]
 
+    # The two WLC taggings agree. This read 34 for morphhb-wlc until 2026-11-05, when the ingest
+    # stopped losing the tags of every word after a line break in the OSIS (build.morphhb_words).
     assert count("H530", "macula-hebrew-wlc") == 49
-    assert count("H530", "morphhb-wlc") == 34
+    assert count("H530", "morphhb-wlc") == 49
     first = query.lookup_concordance(conn, "H0530", work_id="macula-hebrew-wlc")
     assert ("Exod", 17, 12) in {(r["book"], r["chapter"], r["verse"]) for r in first}
 

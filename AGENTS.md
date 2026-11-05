@@ -406,6 +406,13 @@ the workflow manually (`workflow_dispatch`).
   tagged one of them, so an explicit tag always decides. Hebrew in running text is set in Noto
   Serif Hebrew at 1.2em (`hebrew.css`), and the script gives Hebrew and Greek words a `lang` so a
   screen reader voices them in the right language.
+  A verse card switches between the reading translation, the Hebrew or Greek the BSB translates
+  (the Berean Interlinear's text, table `interlinear_words`), the same word by word with a
+  transliteration and the BSB's English under each word, and Brenton's Septuagint (OT) or
+  Salkinson-Ginsburg's 1886 Hebrew (NT, labelled a translation); the reader's choice is remembered.
+  In the BSB view each English word opens the word it renders, and a NT verse that quotes the
+  Septuagint shows it with the shared words marked. Data: `assets/popups/original/<Book>/<c>.json`,
+  in the BSB's numbering; every word opens its card with that occurrence's own parsing (MACULA).
   `data-ref="…"` and `data-strongs="…"` spans mark what the text cannot say on its own. The data is
   in two halves by where it can be built: `references/build/export_popups.py` writes the Bible
   text, cross-references and lexicon from `bible-text.db` into `docs/content/assets/popups/`

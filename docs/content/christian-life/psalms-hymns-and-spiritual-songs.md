@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 5:18-21; Colossians 3:16-17"
 bible_references: ["Ephesians 5:14", "Ephesians 5:18-21", "Colossians 3:16-17", "1 Corinthians 14:15", "1 Corinthians 14:26", "James 5:13", "Acts 16:25", "Matthew 26:30", "Hebrews 2:11-12", "Psalm 22:22", "Zephaniah 3:17", "Exodus 15:1-2", "Exodus 15:20-21", "Deuteronomy 31:19-22", "Deuteronomy 32:1-43", "Judges 5:3", "1 Samuel 2:1-10", "1 Chronicles 25:1-7", "2 Chronicles 29:30", "Psalm 40:3", "Psalm 72:20", "Psalm 76:1", "Psalm 96:1", "Psalm 118:14", "Psalm 145:1", "Isaiah 12:2", "Luke 1:46-55", "Luke 1:68-79", "Luke 2:13-14", "Luke 2:29-32", "Philippians 2:6-11", "Colossians 1:15-20", "1 Timothy 3:16", "Revelation 5:9-10", "Revelation 14:3", "Revelation 15:2-4", "Isaiah 26:19", "Isaiah 60:1", "2 Samuel 22:1-51", "Revelation 4:8-11", "Revelation 19:1-8"]
 date_created: 2026-10-25
-date_modified: 2026-10-31
+date_modified: 2026-11-05
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -170,7 +170,7 @@ Each has a Hebrew word behind it, through the Greek Old Testament his churches r
 |---|---|---|---|
 | ψαλμός *psalmos* | <span dir="rtl">מִזְמוֹר</span> (*mizmor*, H4210) | a song sung to a plucked instrument | 7 times in the NT, four of them referring to the Psalms (Luke 20:42; 24:44; Acts 1:20; 13:33). *Mizmor* occurs 57 times, every one in a psalm title. |
 | ὕμνος *hymnos* | <span dir="rtl">תְּהִלָּה</span> (*tehillah*, H8416) | a song of praise addressed to God | Only Ephesians 5:19 and Colossians 3:16 in the NT. Psalm 145 is the one psalm titled *tehillah*, and the plural, *Tehillim*, is the Hebrew name of the whole book. |
-| ᾠδή *ōdē* | <span dir="rtl">שִׁיר</span> (*shir*, H7892) | song, the general word | Ephesians 5:19; Colossians 3:16; Revelation 5:9; 14:3; 15:3. *Shir* occurs in 16 books, among them Moses' song (Exodus 15:1) and the Song of Songs. |
+| ᾠδή *ōdē* | <span dir="rtl">שִׁיר</span> (*shir*, H7892) | song, the general word | Ephesians 5:19; Colossians 3:16; Revelation 5:9; 14:3; 15:3. *Shir* occurs in 17 books, among them Moses' song (Exodus 15:1) and the Song of Songs. |
 
 ### Psalm 76 carries all three
 

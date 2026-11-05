@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03",
+ "generated": "2026-11-05",
  "baseline": 0.0008513173914589782,
  "curve": [
   {
@@ -105,16 +105,16 @@
   "greek-formula": {
    "links": 80,
    "confirmed": 75,
-   "alone": 19,
+   "alone": 18,
    "key": 59,
-   "keyAlone": 13
+   "keyAlone": 12
   },
   "greek-alignment": {
    "links": 141,
    "confirmed": 118,
-   "alone": 30,
+   "alone": 31,
    "key": 84,
-   "keyAlone": 4
+   "keyAlone": 5
   },
   "hebrew-lemma-run": {
    "links": 505,
@@ -123,17 +123,17 @@
    "keyAlone": 93,
    "key": 95
   },
-  "hebrew-alignment": {
-   "links": 740,
-   "confirmed": 357,
-   "key": 67
-  },
   "hebrew-lemma": {
    "links": 1549,
    "confirmed": 742,
    "alone": 830,
    "keyAlone": 51,
    "key": 116
+  },
+  "hebrew-alignment": {
+   "links": 740,
+   "confirmed": 357,
+   "key": 67
   },
   "quotation-hebrew": {
    "links": 49,
@@ -150,10 +150,10 @@
    "keyAlone": 3
   },
   "quotation-crosslang": {
-   "links": 48,
-   "confirmed": 42,
+   "links": 59,
+   "confirmed": 52,
    "alone": 19,
-   "key": 36,
+   "key": 45,
    "keyAlone": 12
   }
  },
@@ -184,8 +184,8 @@
    "rules": [
     "greek-alignment"
    ],
-   "links": 30,
-   "confirmed": 14
+   "links": 31,
+   "confirmed": 15
   },
   {
    "rules": [
@@ -198,34 +198,17 @@
   },
   {
    "rules": [
-    "greek-formula"
-   ],
-   "links": 19,
-   "confirmed": 15
-  },
-  {
-   "rules": [
     "quotation-crosslang"
    ],
    "links": 19,
+   "confirmed": 13
+  },
+  {
+   "rules": [
+    "greek-formula"
+   ],
+   "links": 18,
    "confirmed": 14
-  },
-  {
-   "rules": [
-    "greek-formula",
-    "greek-unique-phrases"
-   ],
-   "links": 15,
-   "confirmed": 15
-  },
-  {
-   "rules": [
-    "greek-alignment",
-    "greek-formula",
-    "greek-unique-phrases"
-   ],
-   "links": 10,
-   "confirmed": 10
   },
   {
    "rules": [
@@ -234,8 +217,16 @@
     "greek-unique-phrases",
     "quotation-crosslang"
    ],
-   "links": 9,
-   "confirmed": 9
+   "links": 15,
+   "confirmed": 15
+  },
+  {
+   "rules": [
+    "greek-formula",
+    "greek-unique-phrases"
+   ],
+   "links": 14,
+   "confirmed": 14
   },
   {
    "rules": [
@@ -258,16 +249,47 @@
     "greek-unique-phrases",
     "quotation-crosslang"
    ],
-   "links": 5,
-   "confirmed": 5
+   "links": 6,
+   "confirmed": 6
   },
   {
    "rules": [
     "greek-formula",
     "quotation-crosslang"
    ],
-   "links": 3,
-   "confirmed": 3
+   "links": 4,
+   "confirmed": 4
+  },
+  {
+   "rules": [
+    "allusion-lemma",
+    "greek-alignment",
+    "greek-formula",
+    "greek-unique-phrases",
+    "quotation-crosslang"
+   ],
+   "links": 4,
+   "confirmed": 4
+  },
+  {
+   "rules": [
+    "greek-alignment",
+    "greek-formula",
+    "greek-unique-phrases",
+    "quotation-crosslang",
+    "quotation-hebrew"
+   ],
+   "links": 4,
+   "confirmed": 4
+  },
+  {
+   "rules": [
+    "greek-alignment",
+    "greek-formula",
+    "greek-unique-phrases"
+   ],
+   "links": 4,
+   "confirmed": 4
   },
   {
    "rules": [
@@ -280,40 +302,9 @@
   },
   {
    "rules": [
-    "greek-formula",
-    "greek-unique-phrases",
-    "quotation-hebrew"
-   ],
-   "links": 3,
-   "confirmed": 3
-  },
-  {
-   "rules": [
-    "allusion-lemma",
-    "greek-alignment",
-    "greek-formula",
-    "greek-unique-phrases",
-    "quotation-crosslang"
-   ],
-   "links": 3,
-   "confirmed": 3
-  },
-  {
-   "rules": [
     "allusion-lemma",
     "greek-alignment",
     "greek-unique-phrases",
-    "quotation-hebrew"
-   ],
-   "links": 3,
-   "confirmed": 3
-  },
-  {
-   "rules": [
-    "greek-alignment",
-    "greek-formula",
-    "greek-unique-phrases",
-    "quotation-crosslang",
     "quotation-hebrew"
    ],
    "links": 3,
@@ -329,13 +320,13 @@
   },
   {
    "rules": [
-    "greek-alignment",
     "greek-formula",
     "greek-unique-phrases",
+    "quotation-crosslang",
     "quotation-hebrew"
    ],
-   "links": 3,
-   "confirmed": 3
+   "links": 2,
+   "confirmed": 2
   },
   {
    "rules": [
@@ -349,10 +340,19 @@
   },
   {
    "rules": [
-    "allusion-lemma",
     "greek-alignment",
     "greek-formula",
-    "greek-unique-phrases"
+    "greek-unique-phrases",
+    "quotation-hebrew"
+   ],
+   "links": 2,
+   "confirmed": 2
+  },
+  {
+   "rules": [
+    "greek-formula",
+    "greek-unique-phrases",
+    "quotation-hebrew"
    ],
    "links": 1,
    "confirmed": 1
@@ -373,14 +373,6 @@
    ],
    "links": 1,
    "confirmed": 0
-  },
-  {
-   "rules": [
-    "greek-alignment",
-    "quotation-crosslang"
-   ],
-   "links": 1,
-   "confirmed": 1
   }
  ],
  "otOverlap": [
@@ -437,9 +429,18 @@
    },
    {
     "rules": [
+     "greek-alignment",
+     "greek-formula",
+     "greek-unique-phrases",
+     "quotation-crosslang"
+    ],
+    "n": 14
+   },
+   {
+    "rules": [
      "greek-formula"
     ],
-    "n": 13
+    "n": 12
    },
    {
     "rules": [
@@ -460,24 +461,15 @@
      "greek-formula",
      "greek-unique-phrases"
     ],
-    "n": 11
+    "n": 10
    },
    {
     "rules": [
-     "greek-alignment",
      "greek-formula",
      "greek-unique-phrases",
      "quotation-crosslang"
     ],
-    "n": 9
-   },
-   {
-    "rules": [
-     "greek-alignment",
-     "greek-formula",
-     "greek-unique-phrases"
-    ],
-    "n": 6
+    "n": 5
    },
    {
     "rules": [
@@ -487,23 +479,22 @@
    },
    {
     "rules": [
-     "greek-formula",
-     "greek-unique-phrases",
-     "quotation-crosslang"
-    ],
-    "n": 4
-   },
-   {
-    "rules": [
-     "greek-alignment",
-     "quotation-hebrew"
-    ],
-    "n": 4
-   },
-   {
-    "rules": [
      "greek-alignment"
     ],
+    "n": 5
+   },
+   {
+    "rules": [
+     "greek-alignment",
+     "quotation-hebrew"
+    ],
+    "n": 4
+   },
+   {
+    "rules": [
+     "greek-formula",
+     "quotation-crosslang"
+    ],
     "n": 4
    },
    {
@@ -511,14 +502,8 @@
      "greek-alignment",
      "greek-formula",
      "greek-unique-phrases",
+     "quotation-crosslang",
      "quotation-hebrew"
-    ],
-    "n": 3
-   },
-   {
-    "rules": [
-     "greek-formula",
-     "quotation-crosslang"
     ],
     "n": 3
    },
@@ -555,8 +540,10 @@
    },
    {
     "rules": [
+     "allusion-lemma",
      "greek-alignment",
      "greek-formula",
+     "greek-unique-phrases",
      "quotation-crosslang"
     ],
     "n": 2
@@ -566,8 +553,15 @@
      "greek-alignment",
      "greek-formula",
      "greek-unique-phrases",
-     "quotation-crosslang",
      "quotation-hebrew"
+    ],
+    "n": 2
+   },
+   {
+    "rules": [
+     "greek-alignment",
+     "greek-formula",
+     "quotation-crosslang"
     ],
     "n": 2
    },
@@ -583,23 +577,13 @@
     "rules": [
      "greek-formula",
      "greek-unique-phrases",
+     "quotation-crosslang",
      "quotation-hebrew"
     ],
     "n": 1
    },
    {
     "rules": [
-     "allusion-lemma",
-     "greek-alignment",
-     "greek-formula",
-     "greek-unique-phrases",
-     "quotation-crosslang"
-    ],
-    "n": 1
-   },
-   {
-    "rules": [
-     "allusion-lemma",
      "greek-alignment",
      "greek-formula",
      "greek-unique-phrases"
@@ -610,13 +594,6 @@
     "rules": [
      "allusion-lemma",
      "greek-alignment"
-    ],
-    "n": 1
-   },
-   {
-    "rules": [
-     "greek-alignment",
-     "quotation-crosslang"
     ],
     "n": 1
    }
@@ -1275,10 +1252,6 @@
     "1Kgs 19:18"
    ],
    [
-    "Rom 11:8",
-    "Isa 29:10"
-   ],
-   [
     "Rom 11:27",
     "Isa 27:9"
    ],
@@ -1417,6 +1390,10 @@
    [
     "2Cor 6:18",
     "2Sam 7:8"
+   ],
+   [
+    "2Cor 8:15",
+    "Exod 16:18"
    ],
    [
     "2Cor 10:17",

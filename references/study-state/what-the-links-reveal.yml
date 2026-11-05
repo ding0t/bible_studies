@@ -15,7 +15,7 @@ claims:
   - id: strong-total
     what: strong links of every kind
     sql: "SELECT COUNT(*) FROM scripture_links WHERE strong"
-    expect: 2500
+    expect: 2511
   - id: strong-greek-quotations
     what: strong Greek quotations, NT to Septuagint
     sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='quotation-greek' AND strong"
@@ -27,7 +27,7 @@ claims:
   - id: crosslang
     what: quotations read against the Hebrew
     sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='quotation-crosslang' AND strong"
-    expect: 48
+    expect: 59
   - id: weak-greek
     what: Greek matches no rule admits
     sql: "SELECT COUNT(*) FROM scripture_links WHERE link_type='quotation-greek' AND NOT strong"

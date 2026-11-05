@@ -450,10 +450,10 @@ kind = ["translation", "annotation"]
 edition = "translation"
 era = "modern"
 language = "en"
-applies_to = ["berean-bib"]
-purpose = "The BSB translation tables: each Hebrew, Aramaic and Greek word with its Strong's number, parsing and the BSB English that renders it."
+applies_to = ["berean-bib", "berean-wlc", "berean-greek"]
+purpose = "The BSB translation tables: each Hebrew, Aramaic and Greek word with its Strong's number, parsing and the BSB English that renders it. berean-bib is the alignment (word_alignment); berean-wlc and berean-greek are the same tables as original-language text (interlinear_words), every word in the BSB's verse numbering with its transliteration and the place of its English in the BSB verse."
 strengths = ["A second word-level alignment, independent of the ULT, through bible_interlinear(interlinear='bsb'). Where the ULT and the BSB render a word the same way, the reading does not rest on one committee's choice."]
-limits = ["No lemma, and the parsing is the tables' own code (V-Qal-Perf-3ms), not OSHB or Robinson. Words the BSB leaves untranslated or renders inside another word's phrase have no row. The Greek is the tables' Nestle base text, not the SBLGNT the rest of this database uses."]
+limits = ["No lemma, and the parsing is the tables' own code (V-Qal-Perf-3ms), not OSHB or Robinson. Words the BSB leaves untranslated or renders inside another word's phrase have no row in berean-bib; berean-wlc and berean-greek keep them, with no gloss. The Greek is the tables' Nestle base text, not the SBLGNT the rest of this database uses."]
 
 [profiles.historic-english]
 kind = ["translation"]

@@ -413,7 +413,7 @@ async function render() {
   body.replaceChildren(el('p', { class: 'pop-muted' }, 'Loading…'));
   try {
     if (item.kind === 'ref') await renderVerse(item.value, item.context);
-    else await renderWord(item.value, item.form);
+    else await renderWord(item.value, item.form, item.morph);
   } catch {
     body.replaceChildren(el('p', { class: 'pop-muted' }, 'This could not be loaded. The reference is left as written.'));
   }
@@ -456,18 +456,35 @@ async function renderVerse(ref, withContext = false) {
   const shown = verses.slice(0, MAX_VERSES);
   const fromFallback = new Set(book.f ?? []);
   const multiChapter = ref.c2 !== ref.c1;
+  const testament = BOOK_ORDER.indexOf(ref.book) < BOOK_ORDER.indexOf('Matt') ? 'ot' : 'nt';
+  const lens = lensFor(testament);
   const text = el('div', { class: 'pop-text' });
   let chapterShown = null;
-  for (const { c, v, text: words, cited } of shown) {
+  const chapterHeading = (c) => {
     if (multiChapter && c !== chapterShown) {
       text.append(el('span', { class: 'pop-chapter' }, `Chapter ${c}`));
       chapterShown = c;
     }
-    // A verse the reading text omits is shown from the fallback, and says so.
-    const borrowed = fromFallback.has(`${c}:${v}`)
-      ? el('span', { class: 'pop-muted', title: book.t.fallback.note }, ` (${book.t.fallback.code}: ${book.t.fallback.note})`)
-      : null;
-    text.append(el('span', { class: cited ? 'pop-verse' : 'pop-verse pop-around' }, el('sup', {}, String(v)), ' ', words, borrowed, ' '));
+  };
+  let source = `${book.t.name} (${book.t.licence}).`;
+  const chapters = new Map();
+  await Promise.all(
+    [...new Set(shown.map((s) => s.c))].map(async (c) => chapters.set(c, await load(`original/${ref.book}/${c}.json`).catch(() => null)))
+  );
+  if (lens === 'reading') {
+    for (const { c, v, text: words, cited } of shown) {
+      chapterHeading(c);
+      // A verse the reading text omits is shown from the fallback, and says so.
+      const borrowed = fromFallback.has(`${c}:${v}`)
+        ? el('span', { class: 'pop-muted', title: book.t.fallback.note }, ` (${book.t.fallback.code}: ${book.t.fallback.note})`)
+        : null;
+      const linked = borrowed ? words : englishLinked(words, chapters.get(c)?.v[v]);
+      text.append(el('span', { class: cited ? 'pop-verse' : 'pop-verse pop-around' }, el('sup', {}, String(v)), ' ', linked, borrowed, ' '));
+    }
+  } else if (chapters.size && [...chapters.values()].every(Boolean)) {
+    source = renderOriginal(text, shown, chapters, lens, testament, chapterHeading);
+  } else {
+    text.append(el('p', { class: 'pop-muted' }, 'The original-language text could not be loaded.'));
   }
   const footnotes = shown.filter((s) => s.cited).flatMap(({ c, v }) => (book.n?.[`${c}:${v}`] ?? []).map((n) => (shown.length > 1 ? `${v}: ${n}` : n)));
 
@@ -496,8 +513,16 @@ async function renderVerse(ref, withContext = false) {
   const chapterUrl = await commentaryUrl(ref);
   if (chapterUrl) actions.append(el('a', { class: 'pop-link', href: chapterUrl }, `${formatRef({ ...ref, v1: undefined, c2: ref.c1 })} commentary`));
 
-  const parts = [text];
-  if (footnotes.length) parts.push(el('ul', { class: 'pop-footnotes' }, footnotes.map((n) => el('li', {}, n))));
+  const parts = [lensSwitch(testament, lens, book.t.code), text];
+  if (lens !== 'reading') {
+    if (text.querySelector('.pop-alt')) parts.push(el('p', { class: 'pop-muted' }, `Numbers in brackets are the ${lens === 'lxx' ? 'Septuagint' : 'Hebrew Bible'}’s own, where it numbers the verse differently.`));
+    if (lens === 'lxx' || lens === 'hebrew-nt') linkForms(text);
+  }
+  if (testament === 'nt' && (lens === 'original' || lens === 'interlinear')) {
+    const quoted = septuagintQuoted(shown, chapters);
+    if (quoted) parts.push(quoted);
+  }
+  if (lens === 'reading' && footnotes.length) parts.push(el('ul', { class: 'pop-footnotes' }, footnotes.map((n) => el('li', {}, n))));
   if (verses.length > MAX_VERSES) parts.push(el('p', { class: 'pop-muted' }, `First ${MAX_VERSES} of ${verses.length} verses.`));
   parts.push(actions);
 
@@ -524,8 +549,160 @@ async function renderVerse(ref, withContext = false) {
     );
   }
 
-  parts.push(el('p', { class: 'pop-source' }, `${book.t.name} (${book.t.licence}). Cross-references: OpenBible.info (CC BY).`));
+  parts.push(el('p', { class: 'pop-source' }, `${source} Cross-references: OpenBible.info (CC BY).`));
   body.replaceChildren(...parts);
+}
+
+// The verse in the language it was written in. Four lenses on one verse: the reading translation,
+// the Hebrew or Greek, the same word by word with the BSB's English under each word, and for the
+// Old Testament the Septuagint the apostles quoted. The reader's choice holds for every card after,
+// so a reader who wants the Greek gets it without asking again.
+const LENS_KEY = 'pop-lens';
+function lensFor(testament) {
+  let lens = 'reading';
+  try {
+    lens = window.localStorage.getItem(LENS_KEY) ?? lens;
+  } catch {
+    // Storage blocked (a private window): every card opens on the reading translation.
+  }
+  if (lens === 'lxx' && testament === 'nt') return 'original';
+  if (lens === 'hebrew-nt' && testament === 'ot') return 'original';
+  return lens;
+}
+
+function lensSwitch(testament, current, readingCode) {
+  const lenses = [
+    ['reading', readingCode, `The ${readingCode}, this site's reading translation`],
+    ['original', testament === 'ot' ? 'Hebrew' : 'Greek', testament === 'ot' ? 'The Hebrew Bible (WLC)' : 'The Greek New Testament (SBLGNT)'],
+    ['interlinear', 'Word by word', `Each ${testament === 'ot' ? 'Hebrew' : 'Greek'} word with the ${readingCode}’s English for it`],
+  ];
+  if (testament === 'ot') lenses.push(['lxx', 'Septuagint', 'The Greek Old Testament the apostles quoted (Brenton)']);
+  else lenses.push(['hebrew-nt', 'Hebrew (1886)', 'Salkinson and Ginsburg’s 1886 translation of the Greek into Hebrew: a translation, not an original']);
+  return el('div', { class: 'pop-lenses', role: 'group', 'aria-label': 'Show the verse in' },
+    lenses.map(([value, label, hint]) =>
+      el('button', {
+        type: 'button',
+        class: 'pop-lens',
+        title: hint,
+        'aria-pressed': String(value === current),
+        onclick: () => {
+          try {
+            window.localStorage.setItem(LENS_KEY, value);
+          } catch {
+            // Not remembered; this card still switches.
+          }
+          pinned = true;
+          render();
+        },
+      }, label)));
+}
+
+// The BSB's own words, each opening the Hebrew or Greek word it renders. The Berean Interlinear
+// records where each word's English falls in the verse (export_popups.py english_spans), so the
+// reader can point at "one and only" and reach μονογενής.
+function englishLinked(verseText, original) {
+  const words = Array.isArray(original) ? original : original?.p.flatMap(([, ws]) => ws) ?? [];
+  const placed = words.filter((w) => w.length > 6 && w[1]).sort((a, b) => a[5] - b[5]);
+  if (!placed.length) return verseText;
+  const out = [];
+  let at = 0;
+  for (const [form, id, morph, english, translit, start, end] of placed) {
+    // The spans were measured against the same BSB text; a verse re-exported since is left plain.
+    const phrase = english.replace(/[[\]]/g, '').replace(/\s+/g, ' ').trim();
+    if (start < at || verseText.slice(start, end).toLowerCase() !== phrase.toLowerCase()) continue;
+    out.push(verseText.slice(at, start));
+    out.push(el('button', {
+      type: 'button',
+      class: 'pop-en-w',
+      title: `${form} \u00b7 ${translit}`,
+      onclick: () => navigate({ kind: 'word', value: id, form: form.replace(/[.,;·:—־׃]+$/, ''), morph: morph || undefined }),
+    }, verseText.slice(start, end)));
+    at = end;
+  }
+  out.push(verseText.slice(at));
+  return out;
+}
+
+function renderOriginal(text, shown, chapters, lens, testament, chapterHeading) {
+  const hebrew = (testament === 'ot' && lens !== 'lxx') || lens === 'hebrew-nt';
+  const lang = hebrew ? 'he' : 'grc';
+  text.classList.add('pop-orig', lens === 'interlinear' ? 'pop-interlinear' : 'pop-running');
+  text.lang = lang;
+  if (hebrew) text.dir = 'rtl';
+
+  const word = ([form, id, morph, english, translit], shared) => {
+    const [, bare, stop] = /^(.*?)([.,;·:—׃]*)$/.exec(form);
+    const shownForm = id
+      ? el('button', {
+          type: 'button',
+          class: shared ? 'pop-w pop-shared' : 'pop-w',
+          title: [translit, english].filter(Boolean).join(' \u00b7 '),
+          onclick: () => navigate({ kind: 'word', value: id, form: bare.replace(/־$/, ''), morph: morph || undefined }),
+        }, bare)
+      : el('span', {}, bare);
+    if (lens !== 'interlinear') return [shownForm, stop, /־$/.test(bare) ? '' : ' '];
+    return el('span', { class: 'pop-stack' },
+      el('span', {}, shownForm, stop),
+      el('span', { class: 'pop-tr', lang: 'en', dir: 'ltr' }, translit || ''),
+      el('span', { class: english ? 'pop-en' : 'pop-en pop-none', lang: 'en', dir: 'ltr', title: english ? null : 'Not rendered as a word of its own in the BSB' }, english || '·'));
+  };
+  const alt = (label) => el('span', { class: 'pop-alt', title: `${lens === 'lxx' ? 'Septuagint' : 'Hebrew Bible'} ${label}` }, `[${label}]`);
+
+  for (const { c, v, cited } of shown) {
+    chapterHeading(c);
+    const chapter = chapters.get(c);
+    const verse = el('span', { class: cited ? 'pop-verse' : 'pop-verse pop-around' }, el('sup', { dir: 'ltr' }, String(v)), ' ');
+    const missing = (note) => verse.append(el('span', { class: 'pop-muted', lang: 'en', dir: 'ltr' }, note));
+    if (lens === 'lxx' || lens === 'hebrew-nt') {
+      const found = (lens === 'lxx' ? chapter.g : chapter.s)?.[v];
+      if (!found) {
+        missing(lens === 'lxx'
+          ? '(No Septuagint verse is matched to this one: Brenton lacks it, or the Septuagint orders this passage differently.)'
+          : '(Not in Salkinson–Ginsburg.)');
+      }
+      for (const [label, other] of typeof found === 'string' ? [[null, found]] : found?.p ?? []) {
+        verse.append(label ? alt(label) : '', label ? ' ' : '', other, ' ');
+      }
+    } else {
+      const found = chapter.v[v];
+      const shared = new Set(cited ? chapter.q?.[v]?.at(-1)[3] : []);
+      if (!found) missing(`(Not in the ${hebrew ? 'Hebrew text' : 'Greek text'}.)`);
+      let index = 0;
+      for (const [label, words] of Array.isArray(found) ? [[null, found]] : found?.p ?? []) {
+        if (label) verse.append(alt(label), ' ');
+        verse.append(...words.flatMap((w) => word(w, shared.has(index++))));
+      }
+    }
+    text.append(verse, ' ');
+  }
+
+  if (lens === 'lxx') return 'Septuagint: Brenton’s edition (public domain), at the verse the Hebrew’s number maps to.';
+  if (lens === 'hebrew-nt') return 'Hebrew: Salkinson and Ginsburg’s New Testament (1886, public domain), a translation from the Greek. Tap a word for the Old Testament word it uses.';
+  const base = hebrew
+    ? 'Hebrew: the Westminster Leningrad Codex as the BSB translates it, from the Berean Interlinear (public domain), accents omitted.'
+    : 'Greek: the text the BSB translates, from the Berean Interlinear (public domain).';
+  return `${base} English for each word: the BSB. Parsing: MACULA (CC BY 4.0). Tap a word for its grammar.`;
+}
+
+// A New Testament verse that quotes the Old: the Septuagint verse beside it, with the words the two
+// share in order marked on both sides (export_popups.py septuagint_quoted).
+function septuagintQuoted(shown, chapters) {
+  const entries = shown.filter((s) => s.cited).flatMap(({ c, v }) => (chapters.get(c)?.q?.[v] ?? []).filter(([ref]) => ref));
+  if (!entries.length) return null;
+  return el('div', { class: 'pop-section' },
+    el('span', { class: 'pop-label' }, 'Quotes the Septuagint'),
+    entries.map(([english, number, greek, marked]) => {
+      const marks = new Set(marked);
+      const words = greek.split(' ').flatMap((w, i) => [marks.has(i) ? el('mark', { class: 'pop-shared' }, w) : w, ' ']);
+      const target = parseRef(english);
+      const passage = el('p', { class: 'pop-orig pop-running', lang: 'grc' }, words);
+      linkForms(passage);
+      return el('div', { class: 'pop-quote' },
+        el('button', { type: 'button', class: 'pop-chip', onclick: () => navigate({ kind: 'ref', value: target }) }, formatRef(target)),
+        number !== english.split(' ').at(-1) ? el('span', { class: 'pop-muted' }, ` (Septuagint ${number})`) : '',
+        passage);
+    }),
+    el('p', { class: 'pop-muted' }, 'Highlighted: words the two share in the same order.'));
 }
 
 let studyIndex = null;
@@ -591,7 +768,7 @@ async function commentaryUrl(ref) {
 // ---------------------------------------------------------------------------------------------
 // Words
 
-async function renderWord(id, form) {
+async function renderWord(id, form, morph) {
   const prefix = id[0];
   const number = parseInt(id.slice(1), 10);
   title.textContent = `${prefix === 'H' ? 'Hebrew' : 'Greek'} word · ${id}`;
@@ -634,7 +811,7 @@ async function renderWord(id, form) {
     );
   }
 
-  const parsed = await parseOf(form, prefix);
+  const parsed = await parseOf(form, prefix, morph);
   if (parsed) parts.push(parsed);
   if (word.w?.length) parts.push(whoItIs(word));
 
@@ -691,11 +868,13 @@ async function renderWord(id, form) {
 
 // The grammar of the form on the page, when one parsing covers it: "Noun Accusative Singular
 // Masculine Individual -- a male PERSON that is having something done to them". A Hebrew code is
-// read a segment at a time, so וַיֹּאמֶר is a conjunction, then the verb.
-async function parseOf(form, prefix) {
+// read a segment at a time, so וַיֹּאמֶר is a conjunction, then the verb. A word opened from a verse
+// in the original brings its own code, which is that occurrence's parsing rather than the form's
+// commonest one.
+async function parseOf(form, prefix, morph) {
   if (!form || !scriptOf(form)) return null;
   const key = formKey(form.trim());
-  const code = (await load(`parse/${formShard(key)}.json`).catch(() => ({})))[key];
+  const code = morph ?? (await load(`parse/${formShard(key)}.json`).catch(() => ({})))[key];
   if (!code) return null;
   const grammar = await load('grammar.json');
   const parts = prefix === 'G' ? [code] : code.slice(1).split('/').map((s) => code[0] + s);
@@ -760,6 +939,10 @@ function openFrom(node, pin) {
   }
   // A word keeps the spelling the reader pointed at, so the card can parse that form.
   const item = refs.get(node);
+  if (card.contains(node)) {
+    navigate(item.kind === 'word' ? { ...item, form: node.textContent } : item);
+    return;
+  }
   show(item.kind === 'word' ? { ...item, form: node.textContent } : item, node, pin);
 }
 
@@ -799,7 +982,9 @@ function init() {
   if (window.matchMedia('(hover: hover)').matches) {
     document.addEventListener('mouseover', (event) => {
       const node = targetOf(event);
-      if (node) {
+      if (node && card.contains(node)) {
+        clearTimeout(closeTimer);
+      } else if (node) {
         clearTimeout(closeTimer);
         if (pinned && !card.hidden) return;
         clearTimeout(openTimer);

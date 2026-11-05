@@ -1,20 +1,20 @@
 ---
 title: "What the Scripture Links Reveal"
 category: "bible"
-description: "What 2,500 links derived from the Hebrew and Greek texts show about how Scripture quotes Scripture: the verses the New Testament quotes most, the book that quotes most densely, the psalm that may carry Paul's words, the gaps that turned out to be the method's, and the connections that leave no trace in the wording at all."
+description: "What 2,511 links derived from the Hebrew and Greek texts show about how Scripture quotes Scripture: the verses the New Testament quotes most, the book that quotes most densely, the psalm that may carry Paul's words, the gaps that turned out to be the method's, and the connections that leave no trace in the wording at all."
 tags: ["cross-references", "septuagint", "method/textual-criticism", "data", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Luke 24:27"
 bible_references: ["Luke 24:27", "Hebrews 1:1", "Leviticus 19:18", "Psalm 110:1", "Psalm 118:22", "Psalm 118:26", "Genesis 2:24", "Jeremiah 31:31-34", "Hebrews 8:8-12", "Mark 12:30", "Deuteronomy 6:5", "Psalm 14:3", "Romans 3:10-18", "Exodus 25-31", "Exodus 35-40", "2 Kings 23:28", "2 Chronicles 36:22-23", "Ezra 1:1-3", "Micah 5:2", "Matthew 2:6", "John 10:34", "Psalm 82:6", "Mark 14:62", "Daniel 7:13", "Philippians 1:19", "Job 13:16", "1 Corinthians 15:54", "Isaiah 25:8", "Matthew 26:31", "Zechariah 13:7", "Matthew 27:46", "Psalm 22:1", "Jude 14-15", "1 Chronicles 16:8", "Psalm 105:1", "Revelation 21:19-20", "Matthew 24:15"]
 date_created: 2026-10-19
-date_modified: 2026-11-04
+date_modified: 2026-11-05
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
 
 # What the Scripture Links Reveal
 
-The [Scripture Links](../references.md) page holds 2,500 connections between verses, each one found
+The [Scripture Links](../references.md) page holds 2,511 connections between verses, each one found
 by comparing the Hebrew and Greek texts themselves. [How We Cross-Reference
 Scripture](../about/how-we-cross-reference.md) explains the method. This study reads the results as a
 whole and asks what they show: which passages the Bible returns to most, how its writers handled the
@@ -95,7 +95,7 @@ Every link belongs to one of five kinds, kept apart because they are different e
 |---|---|---|
 | Quotation (Greek) | the Greek New Testament against the Septuagint | 246 |
 | Quotation (Hebrew) | the Hebrew Old Testament against itself | 2,054 |
-| Quotation (from the Hebrew) | the Greek New Testament against the Hebrew Old Testament, through the Septuagint's own vocabulary | 48 |
+| Quotation (from the Hebrew) | the Greek New Testament against the Hebrew Old Testament, through the Septuagint's own vocabulary | 59 |
 | Allusion | rare Greek words shared by a New Testament and a Septuagint verse | 103 |
 | Candidate | a 19th-century Hebrew translation of the New Testament against the Hebrew Old Testament | 49 |
 
@@ -329,7 +329,7 @@ part of the borrowing. Of 266 verses in sixteen well-known parallels, the links 
 **Some quotations follow the Hebrew.** Where the Septuagint reads differently from the Hebrew, a
 Greek-to-Greek method cannot see a New Testament writer who translated the Hebrew afresh. A new class
 reads the Greek against the Hebrew through a vocabulary learned from the Septuagint translators' own
-choices, and only in verses that cite Scripture. It finds 48 links, 88% confirmed independently.
+choices, and only in verses that cite Scripture. It finds 59 links, 88% confirmed independently.
 Among them:
 
 > ✝️ 1 Corinthians 15:54 (ESV)
