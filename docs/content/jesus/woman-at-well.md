@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 4:1-42"
 bible_references: ["John 3:22-30", "John 7:37-39", "John 1:39", "John 1:46", "John 8:58", "Jeremiah 2:13", "Jeremiah 17:13", "Zechariah 14:8", "Isaiah 12:3", "Isaiah 44:3", "Ezekiel 47:1-6", "Genesis 24:10-27", "Genesis 29:1-12", "Exodus 2:15-21", "Deuteronomy 18:15-18", "Deuteronomy 27:4", "Deuteronomy 11:29", "2 Kings 17:24-41", "Genesis 33:18-20", "Joshua 24:32", "Exodus 3:14", "Luke 14:5", "Revelation 9:1-2", "John 3:9", "John 2:19-21", "Matthew 5:35", "Zechariah 14:16", "Revelation 21:22", "John 2:8-9", "John 8:22", "John 8:24-28", "John 9:9", "John 18:35", "Matthew 12:23", "Genesis 24:42-45", "Genesis 26:19", "Leviticus 14:6"]
 date_created: 2025-04-25
-date_modified: 2026-10-30
+date_modified: 2026-11-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -119,7 +119,7 @@ Amen.
 - [Worship: the question relocated](#worship-the-question-relocated). Gerizim and Deuteronomy 27:4, then *where* one must worship turned into *how*.
 - ["I am, the one speaking to you"](#i-am-the-one-speaking-to-you). The first ἐγώ εἰμι on Jesus's lips in John, and whether it carries Exodus 3:14.
 - [A hesitant witness, and a two-day stay](#a-hesitant-witness-and-a-two-day-stay). The water jar, her tentative question, and a town that believed.
-- [The theological principle](#the-theological-principle), what is cultural and what is not, and [discussion questions](#discussion-questions). Five questions, for a group or on your own.
+- [The theological principle](#the-theological-principle), what is cultural and what is not, and [discussion questions](#discussion-questions). Six questions, for a group or on your own.
 
 ## Where this sits in John
 
@@ -443,19 +443,25 @@ worshipped in spirit and truth wherever His people are.
 
 ## Discussion questions
 
-1. Jesus says the well water leaves you thirsty again (4:13) and she asks for His water so she will
-   not have to keep walking to the well (4:15). Where are you asking God for a shorter walk to the
-   same well?
-2. Jeremiah 2:13 names two evils: forsaking the spring, *and* cutting cisterns. Why does
-   the second one matter separately from the first?
-3. Jesus raises the woman's marital history before He says anything about worship or His own
-   identity, and keeps talking to her afterwards. What does that ordering suggest about how being known
-   relates to worship?
-4. Her testimony is a question expecting the answer *no*, and a town believed through it. What does
-   that suggest about how sure a witness has to be?
-5. Deuteronomy 27:4 reads "Ebal" in one Bible and "Gerizim" in another, and centuries of dispute
-   followed. Jesus answers by removing both mountains. What questions might we be asking that He
-   would answer the same way?
+1. **The language.** The narrator calls Jacob's well a πηγή (*pēgē*, a spring) at John 4:6, the
+   woman calls it a φρέαρ (*phrear*, a shaft) both times she speaks of it (4:11-12), and Jesus takes
+   the narrator's word for what He gives (4:14). What does an English version that prints "well" in
+   all three places lose from the conversation?
+2. **The text in its context.** Jeremiah 2:13 names two evils: forsaking the spring, *and* cutting
+   cisterns. Why does the second one matter separately from the first?
+3. **Christ.** Jesus raises the woman's marital history (John 4:16-18) before He says anything about
+   worship or His own identity (4:21-26), and keeps talking to her afterwards. What does that
+   ordering suggest about how being known relates to worship?
+4. **The hard part.** Her testimony, "Can this be the Christ?" (John 4:29, ESV), opens with μήτι
+   (*mēti*), which expects the answer *no* at John 8:22 and 18:35 but carries the crowds' amazement
+   at Matthew 12:23, and many Samaritans believed through it (John 4:39). What does that suggest
+   about how sure a witness has to be?
+5. **Be transformed.** Deuteronomy 27:4 reads "Ebal" in one Bible and "Gerizim" in another, and
+   centuries of dispute followed. Jesus answers by removing both mountains (John 4:21). What
+   questions might we be asking that He would answer the same way?
+6. **Be transformed.** Jesus says the well water leaves you thirsty again (John 4:13) and she asks
+   for His water so she will not have to keep walking to the well (4:15). Where are you asking God
+   for a shorter walk to the same well?
 
 ## References & Recommended Reading
 

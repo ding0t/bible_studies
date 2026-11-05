@@ -9,7 +9,7 @@ bible_references: ["Mark 5:21-43", "Matthew 9:18-26", "Luke 8:40-56", "Leviticus
 zadok_year: 3990
 gregorian_year: 32
 date_created: 2026-08-23
-date_modified: 2026-10-31
+date_modified: 2026-11-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -299,19 +299,25 @@ denied; what changes is which party is stronger at the point of contact.
 
 ## Discussion questions
 
-1. Mark tells the fullest version of this story and omits the fringe; Matthew and Luke compress the
-   story and keep it. What does each writer's choice suggest about what he thought the scene was
-   mainly about?
-2. Nobody in this passage says the purity law was wrong. What
-   *has* changed, then, at the moment of contact?
-3. The woman was healed the instant she touched Him, before Jesus knew who she was, and before she
-   said a word. Why does He then stop everything to find her? What would she have lost if He had let
-   her slip away healed?
-4. The *kānāp̄* wordplay between Malachi 4:2, Zechariah 8:23 and Numbers 15:38 is real, but no New
-   Testament writer uses it. How would you decide, in general, when a verbal link is a
-   deliberate echo and when it is a coincidence of vocabulary?
-5. Jesus calls her "Daughter", the only woman He addresses that way. Read that against the twelve
-   years of untouchability behind her. What is He giving her that the healing by itself did not?
+1. **The language.** Matthew 9:20 and Luke 8:44 say she touched the κράσπεδον (*kraspedon*) of His
+   garment, the word the Septuagint uses at Numbers 15:38 for the commanded tassel, צִיצִת
+   (*tsitsit*). What does a reader lose about her reach when a translation renders it "hem"?
+2. **The text in its context.** Mark tells the fullest version of this story and omits the fringe
+   (Mark 5:27); Matthew and Luke compress the story and keep it (Matthew 9:20; Luke 8:44). What does
+   each writer's choice suggest about what he thought the scene was mainly about?
+3. **Christ.** Leviticus 15:27 says "whoever touches these things shall be unclean," and nobody in
+   Mark 5 says that law was wrong. Yet at her touch "power had gone out from him" (Mark 5:30). What
+   has changed at the moment of contact?
+4. **Christ.** The bleeding stopped before Jesus turned or spoke (Mark 5:29), and then He stopped a
+   crowd to find her and called her "Daughter" (Mark 5:34). Read against the twelve years of
+   untouchability behind her, what is He giving her that the healing by itself did not?
+5. **The hard part.** The *kānāp̄* wordplay between Malachi 4:2, Zechariah 8:23 and Numbers 15:38 is
+   real, but no New Testament writer uses it, and Matthew records the fringe at 9:20 with no
+   fulfilment formula. How would you decide when a verbal link is a deliberate echo and when it is a
+   coincidence of vocabulary?
+6. **Be transformed.** She "came in fear and trembling and fell down before him and told him the
+   whole truth" (Mark 5:33). What have you kept hidden from Jesus that you need to bring to Him in
+   the same plain words?
 
 ## References & Recommended Reading
 

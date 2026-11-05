@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 90:1-17"
 bible_references: ["Psalm 90:1-17", "Psalm 89:46-52", "Psalm 92:1-14", "Psalm 106:45", "Psalm 102:27", "Exodus 32:12-14", "Exodus 34:6", "Numbers 14:29", "Numbers 14:34", "Deuteronomy 33:1", "Genesis 3:19", "Ecclesiastes 6:6", "Judges 7:19", "Hebrews 1:8-12", "Hebrews 13:8", "John 1:14", "2 Timothy 1:10", "1 Corinthians 15:58", "2 Peter 3:4", "2 Peter 3:8-9"]
 date_created: 2026-09-26
-date_modified: 2026-10-31
+date_modified: 2026-11-06
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -346,18 +346,23 @@ becomes the song of people who flourish in His house.
 
 ## Discussion Questions
 
-1. **The language.** The verb *shuv* appears in verse 3 ("You return man to dust … Return, O children of man!") and in
-   verse 13 ("Return, O LORD!"). What does Moses do by turning God's own word back to Him?
-2. **The text in its context.** Moses buried a generation in the wilderness (Numbers 14:29, 34). How does that setting change the
-   way you hear "The years of our life are seventy" (Psalm 90:10)?
-3. **Christ.** Hebrews 1:8, 10-12 says "of the Son" that "you are the same, and your years will
+1. **The language.** The verb <span dir="rtl">שׁוּב</span> (*shuv*, "turn back") appears in verse 3
+   ("You return man to dust and say, 'Return, O children of man!'") and in verse 13 ("Return, O
+   LORD!"). What does Moses do by turning God's own word back to Him?
+2. **The text in its context.** Moses buried a generation in the wilderness (Numbers 14:29, 34). How
+   does that setting change the way you hear "The years of our life are seventy" (Psalm 90:10)?
+3. **The text in its context.** Two psalms later, "A Song for the Sabbath" sings "your steadfast
+   love in the morning" and "you, O LORD, have made me glad by your work" (Psalm 92:1-2, 4). What
+   does Psalm 92 add to Moses' request in Psalm 90:14-17?
+4. **Christ.** Hebrews 1:8, 10-12 says "of the Son" that "you are the same, and your years will
    have no end." What does it mean for you that Jesus shares the eternity Psalm 90:2 confesses?
-4. **The hard part.** Psalm 90 calls God eternal and also asks Him "How long?" (90:13). How do you hold those two
-   sentences together?
-5. **Be transformed.** At the golden calf Moses prayed "turn" and "relent," and God relented (Exodus 32:12, 14). Where
-   are you praying "How long?" now, and what would it look like to pray it as Moses did?
-6. **Be transformed.** "Teach us to number our days" (90:12). What would change this week if you counted your days the
-   way Moses asks?
+5. **The hard part.** Psalm 90 calls God eternal and also asks Him "How long?" (90:13). How do you
+   hold those two sentences together?
+6. **Be transformed.** At the golden calf Moses prayed "turn" and "relent," and God relented (Exodus
+   32:12, 14). Where are you praying "How long?" now, and what would it look like to pray it as
+   Moses did?
+7. **Be transformed.** "Teach us to number our days" (Psalm 90:12). What would change this week if
+   you counted your days the way Moses asks?
 
 ## References & Recommended Reading
 

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
 bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hebrews 1:2", "Hebrews 4:1-13", "Revelation 20:1-7", "Genesis 49:1", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:48", "Mark 13:32", "Acts 1:7", "2 Timothy 3:16", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
 date_created: 2026-08-12
-date_modified: 2026-11-05
+date_modified: 2026-11-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -127,7 +127,7 @@ counted in are [The Zadok Calendar](../feasts/zadok-calendar.md).
 - [The last days are the last of the days](#the-last-days-are-the-last-of-the-days). *Acharit hayamim*, Hebrews 1:2, and the last two of the six days.
 - [Why nobody has got the date right](#why-nobody-has-got-the-date-right). Five calculated years 6000, and Scripture's refusal of a date.
 - [The Sabbath's two layers](#the-sabbaths-two-layers). The sign given to Israel, and the creation pattern that carries over.
-- [Discussion questions](#discussion-questions). Four, for a group or on your own.
+- [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## The verse, in its own argument
 
@@ -545,16 +545,23 @@ Jesus (Hebrews 4:3, 10). The One who fixed the week will finish it, so you can r
 
 ## Discussion questions
 
-1. Genesis marks the seventh day as holy before anything else in Scripture is called holy — before
-   a place, a person, or an object. What does it change about the Sabbath to notice that the first
-   sanctified thing God makes is a stretch of time?
-2. Jubilees, the Talmud and the early church all read "a day is a thousand years" and applied it to
-   the same seven days. What weight should the agreement of Jewish and Christian sources that
-   disagreed about almost everything else carry when reading 2 Peter 3:8?
-3. If "the last days" began at the incarnation rather than in some still-future crisis, what does
-   that do to the way "the last days" is normally used in preaching about current events?
-4. Every year 6000 calculated before this century has passed. Does that discredit the framework,
-   refine it, or only discredit the calculating?
+1. **The language.** God "blessed the seventh day and made it holy" (Genesis 2:3),
+   <span dir="rtl">וַיְקַדֵּשׁ</span> (*vayqaddesh*), before Scripture calls any place, person or
+   object holy. What does it change about the Sabbath that the first thing God sanctifies is a
+   stretch of time?
+2. **The language.** Hebrews 4 calls the rest κατάπαυσις (*katapausis*) five times, then at verse 9
+   says "there remains a Sabbath rest for the people of God," σαββατισμός (*sabbatismos*), a word
+   found nowhere else in the New Testament. What does the author gain by naming it a Sabbath?
+3. **The text in its context.** Against "Where is the promise of his coming?" (2 Peter 3:4), Peter
+   turns Psalm 90:4's "yesterday when it is past" into "one day" and adds the converse
+   (2 Peter 3:8). How does that answer a complaint about elapsed time?
+4. **Christ.** Jesus is "lord even of the Sabbath" (Mark 2:28), and "we who have believed enter
+   that rest" (Hebrews 4:3). What does it show about Him that God's rest is entered by faith in Him?
+5. **The hard part.** Every year 6000 calculated before this century has passed, and Jesus left
+   the day and hour with the Father (Mark 13:32; Acts 1:7). Does that record discredit the
+   framework, refine it, or only discredit the calculating?
+6. **Be transformed.** Jesus gave "My master is delayed" (Matthew 24:48) to a servant who stopped
+   living ready. Where is that sentence making your choices this week?
 
 ## References & Recommended Reading
 
