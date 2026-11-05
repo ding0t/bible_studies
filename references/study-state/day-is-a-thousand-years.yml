@@ -729,3 +729,31 @@ simplify_2026-10-04:
     - {old: "Hebrews 4 continues the author's exposition of Psalm 95 (already quoted at Hebrews 3:7-11, and again here at 4:3 and 4:7) -- \"rest\" isn't a theme imported into the chapter, it's the word Psalm 95 itself uses for what the wilderness generation forfeited by unbelief.", new: "Hebrews 4 continues the author's exposition of Psalm 95 (Hebrews 3:7-11; 4:3, 7), whose own word for what the wilderness generation forfeited by unbelief is \"rest\"."}
     - {old: "Revelation is apocalyptic, and that genre asks the reader to look for the Old Testament imagery first. So the thrones of 20:4 are read here against Daniel 7:9, and the bound dragon against Genesis 3's serpent, named \"that ancient serpent\" in the verse itself.", new: "Revelation is apocalyptic, so its Old Testament imagery comes first: the thrones of 20:4 are read against Daniel 7:9, and the bound dragon against Genesis 3's serpent, \"that ancient serpent\" in the verse itself."}
   verified: "study_structure --verify-against HEAD: added lines are the moved-in text, the shortened sentences and rewrapped lines only; validate: no warnings on this file; mkdocs build --strict clean"
+
+review_2026-11-05:
+  reviewer_note: "review-bible-study, independent session. Fixes applied only where clearly correct; judgement calls left for the author."
+  checked:
+    scripture: "All 24 ESV quotations re-queried in study-notes.db (2 Peter 3:3-9, 3:8, 3:4; Psalm 90:4; Genesis 2:1-3, 2:17; Hebrews 1:1-2, 4:3, 4:9-11, 10:25; Revelation 20:2-7, 20:6; Romans 13:12; Matthew 24:44, 24:48; Ezekiel 12:22-23; Colossians 2:16-17; Mark 2:28; Acts 1:7, 2:17; 1 Peter 1:20; Exodus 31:17; 2 Timothy 3:16): all verbatim. Greek (SBLGNT 2 Peter 3:3-8, Hebrews 1:2, Revelation 20:2-7), LXX (Brenton Genesis 49:1, Psalm 89:4) and WLC (Genesis 1, 2:1-3, Exodus 20:11) checked."
+    extra_biblical: "Jubilees 4:29-30 and 2 Enoch 33:1 verbatim (scrollmapper deuterocanonical); b. Sanhedrin 97a/97b, Avodah Zarah 9a, Rosh HaShanah 31a verbatim against cached Davidson JSON; Barnabas 15, Irenaeus AH 5.28.3, Lactantius DI 7.14, Hippolytus On Daniel fr. II (AM 5500) verbatim against ANF on the media volume; NIV CBSB note on 2 Peter 3:8 verbatim."
+    counts: "katapausis in Hebrews 4 at 1, 3(x2), 5, 10, 11 (also 3:11, 3:18); sabbatismos Hebrews 4:9 only in NT; chilia ete in each of Revelation 20:2-7; H6942 first at Genesis 2:3; H319 acharit first at Genesis 49:1; TWOT 2323 = H7673, 2323b = H7676. All as stated."
+    arithmetic: "AM 0 = 3959 BC convention: AM 6000 = AD 2042, Ussher AD 1997, Seder Olam AD 2240, Nativity AM 3954 = 5 BC, cross AM 3991 = AD 33, Flood gap 880 (3183 vs 2303 BC) all consistent. dsscalendar row inconsistent by one year (see open)."
+  fixes_applied:
+    - "Bare chapter:verse references given their book (Hebrews 1:2, Ezekiel 12:23, 2 Peter 3:4 -- which sat after Matthew 24:48 and could resolve to Matthew 3:4 -- 2 Peter 3:5-6/3:5-7, Hebrews 4:2-11 x6, Revelation 19:20-22:5 x7)."
+    - "Divine pronouns capitalised in own prose (Him, Himself, He x2, His x3)."
+    - "Hebrew table: 'Genesis 2:2-3 הַיּוֹם הַשְּׁבִיעִי' is a form the text never has (2:2 reads בַּיּוֹם, 2:3 יוֹם הַשְּׁבִיעִי); row now Genesis 2:3 י֣וֹם הַשְּׁבִיעִ֔י."
+    - "'all but a demonstrative from the phrase Hebrews uses' was false: Hebrews 1:2 has singular ἐσχάτου as well as τούτων. Reworded."
+    - "Barnabas quotation restores ANF's editorial bracket, 'coming [again]'."
+    - "References: NKJV CBSB entry no longer cites a Genesis 4:26 note the study stopped using in the 2026-10-04 simplify."
+    - "Frontmatter: Matthew 24:46 (never cited) -> 24:48 (quoted); Mark 13:32 and Acts 1:7 added."
+  open_for_author:
+    - "Moderate: 'He kept the day and hour to Himself deliberately ... the reason is that He withheld one' (Lessons about Jesus) and the prayer's 'what your Son Jesus declined to know' read Mark 13:32 as possession-and-withholding; the verse says 'nor the Son', and jesus/the-day-no-one-knows.md reads it as the Father's prerogative (Acts 1:7, exousia). The body (Scripture's own refusal of a date) already agrees with the sibling."
+    - "Minor: dsscalendar row -- 3925 BC on this site's convention gives AD 2076, not 2075 (feasts/zadok-calendar.md line 161 has the same pair). Confirm Johnson's own figure."
+    - "Minor: 'The two changes Peter made' -- Peter also changes 'in your sight' to παρὰ κυρίῳ and 'yesterday when it is past' to 'one day'; 'two' undercounts."
+    - "Minor: 'Three verbs carry it' omits וַיְבָרֶךְ (blessed, 2:3), which the Sabbath's two layers section itself names."
+    - "Minor: Davidson (CC BY-NC) quoted at length, esp. the ~170-word Rosh HaShanah 31a block; a Sefaria Community Translation of RH is cached."
+    - "Minor: Discussion questions lack facet labels and a Be transformed question (Checks 25); Q2 is a method question. Already queued in discussion-questions-sweep-2026-10."
+    - "Minor: Genesis 2:2 footnote (CSB) 'Sam, LXX, Syr read sixth' unmentioned; incidental to the argument."
+    - "Run commentary_index.py (frontmatter changed) and refresh_frontmatter_provenance.py before committing."
+  commentary_check: "ESV SB 2 Peter 3:8-9 and NIV Biblical Theology SB 3:8 read v. 8 as God's perspective/timetable: silent-to-complicating on the measure reading; the study already marks the measure/scale question as contested. NIV CBSB confirms the Jewish creation-day use."
+  siblings: "a-thousand-years-in-your-sight.md: linked both ways; its 'statement of scale' reading of Psalm 90:4 fits this study's argument that Peter's dropping the watch turns it into a correspondence. No conflict. heaven-and-earth-will-pass-away.md treats 2 Peter 3:5-7 and is not linked (suggestion)."
+  validate: "Check 25 x2 warnings only on this file; no errors; no Check 23 (under budget)."

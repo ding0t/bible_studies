@@ -14,6 +14,7 @@ draft: false
 
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 1:13 (primary passage)
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 1:13 (primary passage)
+- [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 1:7
 - [Andrew](../../biblical-figures/andrew.md) — 1:13
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 1:13
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:7
