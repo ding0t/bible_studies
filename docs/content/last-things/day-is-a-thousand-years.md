@@ -119,9 +119,9 @@ the next is [The End of the Age](end-of-the-age.md); the eighth day beyond the w
 counted in are [The Zadok Calendar](../feasts/zadok-calendar.md).
 
 - [The verse, in its own argument](#the-verse-in-its-own-argument). 2 Peter 3:3-9, the scoffers' premise, and the chiasm of verse 8.
-- [Where Peter got it](#where-peter-got-it). Psalm 90:4 and the two changes Peter made to it.
+- [Where Peter got it](#where-peter-got-it). Psalm 90:4 and the four changes Peter made to it.
 - [What Peter's readers already believed](#what-peters-readers-already-believed). Jubilees, the Talmud, the Temple psalms and 2 Enoch on the thousand-year day.
-- [The week's own grammar](#the-weeks-own-grammar). The day numerals of Genesis 1, the open seventh day, and the three verbs of Genesis 2:1-3.
+- [The week's own grammar](#the-weeks-own-grammar). The day numerals of Genesis 1, the open seventh day, and the four verbs of Genesis 2:1-3.
 - [The church took it up immediately](#the-church-took-it-up-immediately). Barnabas, Irenaeus and Lactantius.
 - [Six days of history](#six-days-of-history). Each creation day matched to a millennium, then the seventh and the eighth.
 - [The last days are the last of the days](#the-last-days-are-the-last-of-the-days). *Acharit hayamim*, Hebrews 1:2, and the last two of the six days.
@@ -176,11 +176,14 @@ Peter's source is Psalm 90:4, a prayer of Moses.
 Psalm 90's own vocabulary, its place in the Psalter, and the Sabbath psalm (Psalm 92) are traced in
 a separate study, [A Thousand Years in Your Sight](a-thousand-years-in-your-sight.md).
 
-### The two changes Peter made to the quotation
+### The four changes Peter made to the quotation
 
 The Septuagint renders the opening clause Ὅτι χίλια ἔτη ἐν ὀφθαλμοῖς σου — *chilia etē*, the exact
-phrase Peter uses and the exact phrase John uses six times in Revelation 20. Peter changes it in two
-ways, and both point the same direction: he drops the watch in the night, and he adds the converse.
+phrase Peter uses and the exact phrase John uses six times in Revelation 20. Peter changes it in four
+ways. One follows from his setting: the psalm is a prayer to God and Peter is writing to his readers,
+so "in your sight" (ἐν ὀφθαλμοῖς σου) becomes "with the Lord" (παρὰ κυρίῳ). The other three point the
+same direction: "yesterday when it is past" (ἡ ἡμέρα ἡ ἐχθές) becomes "one day" (μία ἡμέρα), a unit
+that can be counted; he drops the watch in the night; and he adds the converse.
 Moses said a long time looks short to God. Peter says that, and then says a short time can be a long
 one, which makes it a correspondence between two units.
 
@@ -262,13 +265,7 @@ expounded in the Talmud by mapping each psalm onto the corresponding day of crea
 
 > On the first day of the week, Sunday, what psalm would the Levites recite? The psalm beginning
 > with the phrase: "The earth is the Lord's, and its fullness" (Psalms 24:1), in commemoration of
-> the first day of Creation… On the second day… because on the second day of Creation He separated
-> His works, dividing between the upper waters and the lower waters… On the third day… because on
-> the third day of Creation He revealed the land in His wisdom… On the fourth day… because on the
-> fourth day of Creation He created the sun and the moon, and in the future He will punish and take
-> vengeance upon those who worship them… On the fifth day… because on the fifth day of Creation He
-> created birds and fish… On the sixth day… because on that day He completed His labor and ruled
-> over all of creation in full glory. On the seventh day of the week, Shabbat, they would recite
+> the first day of Creation… On the seventh day of the week, Shabbat, they would recite
 > the psalm beginning: "A psalm, a song for the day of Shabbat" (Psalms 92:1), as the future world
 > will be a day that is all Shabbat.
 > — b. *Rosh HaShanah* 31a, William Davidson Edition (abridged)
@@ -324,10 +321,11 @@ morning." Every other day in the week is bounded at both ends; the seventh is le
 > that he had done. 3 So God blessed the seventh day and made it holy, because on it God rested
 > from all his work that he had done in creation.
 
-Three verbs carry it: <span dir="rtl">וַיְכַל</span> (*vaykhal*, "he completed," H3615),
+Four verbs carry it: <span dir="rtl">וַיְכַל</span> (*vaykhal*, "he completed," H3615),
 <span dir="rtl">וַיִּשְׁבֹּת</span> (*vayyishbot*, "he ceased"), from
 <span dir="rtl">שָׁבַת</span> (*shavat*, H7673, TWOT root 2323), the root behind
-<span dir="rtl">שַׁבָּת</span> (*shabbat*, H7676); and <span dir="rtl">וַיְקַדֵּשׁ</span> (*vayqaddesh*,
+<span dir="rtl">שַׁבָּת</span> (*shabbat*, H7676); <span dir="rtl">וַיְבָרֶךְ</span> (*vayvarekh*,
+"he blessed," H1288); and <span dir="rtl">וַיְקַדֵּשׁ</span> (*vayqaddesh*,
 "he set apart as holy," H6942). God blesses creatures on day five and man on day six; He sanctifies
 only the seventh day. A day is the first holy thing in Scripture.
 
