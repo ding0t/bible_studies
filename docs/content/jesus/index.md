@@ -4,7 +4,7 @@ category: "other"
 description: "God the Son: who Jesus is and what He did, including Old Testament prophecy fulfilled in Him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-18
+date_modified: 2026-10-31
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
