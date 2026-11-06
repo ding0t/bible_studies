@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-10-23
+date_modified: 2026-11-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -32,7 +32,6 @@ Add new items here. They get a number and move into their section.
 | Ref | Topic | Section |
 |---|---|---|
 | [0.3](#03-key-takeaways-the-remaining-two-parts) | Key Takeaways: the remaining two parts | Site features |
-| [0.5](#05-a-blog) | A blog | Site features |
 | [0.6](#06-pop-up-follow-ups) | Pop-up follow-ups | Site features |
 | [0.7](#07-review-the-older-studies) | Review the older studies | Site features |
 | [0.9](#09-drafts-awaiting-publication) | Drafts awaiting publication | Site features |
@@ -43,7 +42,6 @@ Add new items here. They get a number and move into their section.
 | [11.1](#111-the-trinity) | The Trinity | God the Father |
 | [11.2](#112-the-nature-of-god-his-attributes) | The nature of God: His attributes | God the Father |
 | [2.1](#21-prophecy-and-jesus) | Prophecy and Jesus | Jesus |
-| [2.3](#23-jesus-attitude-toward-women) | Jesus' attitude toward women | Jesus |
 | [2.4](#24-the-feedings-and-the-hardened-hearts) | The feedings and the hardened hearts | Jesus |
 | [2.5](#25-the-heavenly-pattern) | The heavenly pattern (series) | Jesus |
 | [4.2](#42-on-death) | On death | Salvation |
@@ -56,10 +54,9 @@ Add new items here. They get a number and move into their section.
 | [5.2](#52-end-times) | End times | Last things |
 | [5.6](#56-they-were-given-white-robes) | They were given white robes | Last things |
 | [5.7](#57-heaven-and-earth-by-fire) | Heaven and earth by fire | Last things |
-| [8.1](#81-mirror-the-unfoldingword-sources) | Mirror the unfoldingWord sources | Sources & tooling |
+| [8.1](#81-unfoldingword-sources-mirror-update-and-use-more-of-them) | unfoldingWord sources: mirror, update, use more | Sources & tooling |
 | [8.2](#82-chronology-follow-ups) | Chronology follow-ups | Sources & tooling |
 | [9.1](#91-calling-good-evil-and-evil-good) | Calling good evil and evil good | Sin |
-| [9.2](#92-sexual-immorality) | Sexual immorality | Sin |
 | [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
 | [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
 
@@ -89,23 +86,6 @@ format, with a link to [Key Takeaways](key-takeaways.md) (2026-09-27, 50 studies
   [Prayer: Communion with God](../christian-life/prayer-as-communion.md), the same
   way the Key Takeaways line was normalised: one fixed wording, applied by script, relative link
   adjusted per file.
-
-### 0.5 A blog
-
-A place for shorter posts alongside the studies, built on mkdocs-material's own blog plugin.
-
-- **Setup:** the `blog` plugin is part of mkdocs-material, so no new dependency. Add it to
-  `plugins:` in `mkdocs.yml`, create `docs/content/blog/index.md` and a `posts/` folder, and give
-  it a nav entry through awesome-pages.
-- **Drafts:** the blog plugin honours `draft: true` on posts by itself. Check that
-  `hooks/draft_pages.py` does not also act on posts, or they will be handled twice.
-- **Docs to update:** AGENTS.md says "this site has no blog" in its note on draft handling; that
-  line changes when this lands.
-- **Deploy:** posts live under `docs/`, so the existing path filter already deploys them.
-- **A "New studies" feed**, left over from 0.4. `docs/data/published.json` already holds every
-  page's first-published date, so the feed needs no new git work.
-- **Decide first:** categories, authors, whether posts get the Key Takeaways shape (probably not),
-  and whether a post can be the first draft of a study.
 
 ### 0.6 Pop-up follow-ups
 
@@ -182,9 +162,9 @@ of about four, and record each review in the state file.
     this list.
 - **Priority 3: reviewed before 2026-09-24 and stable since.** The Way, The Trumpet Call of God, The Twelve, Assurance of Salvation, The Last Supper's Four Cups, Three Days
   and Three Nights, The Lord's Prayer, Prayer as Communion.
-- **Not reviews.** [Sin and Sexual Immorality](../sin/sexual-immorality.md) (28 words) and
-  [Sin and Idolatry](../sin/idolatry.md) (185 words) are stubs and need a develop pass. For the first, see
-  [9.2](#92-sexual-immorality). The pride study links to Idolatry.
+- **Not reviews.** [Sin and Sexual Immorality](../sin/sexual-immorality.md) and
+  [Sin and Idolatry](../sin/idolatry.md) were stubs; both have since been written in full
+  (about 5,400 and 5,700 words), so they belong on the review list above, not here.
 
 ### 0.9 Drafts awaiting publication
 
@@ -194,13 +174,13 @@ publish. This list names them by file path and links none, because a published p
 
 - Great Commission (`christian-life/great-commission.md`): 3,289 words.
 - Supplication: Begging, Turned Upward (`christian-life/supplication.md`): 589 words, a stub.
-- How God Answers Prayer (`christian-life/how-god-answers-prayer.md`): 1,314 words. Publishing it
-  restores the altar page's link in [2.5](#25-the-heavenly-pattern).
 - Psalm 118 on the Road to Gethsemane (`jesus/psalm-118-road-to-gethsemane.md`): 1,449 words.
 - The Rapture in the Early Church (`last-things/rapture-in-the-early-church.md`) (3,443 words) and
   Meet the Lord in the Air (`last-things/meet-the-lord-in-the-air.md`) (3,138 words).
-- Four Hundred and Eighty Years (`chronology/four-hundred-and-eighty-years.md`): 1,393 words,
-  forked from Genealogy and Times; see [8.2](#82-chronology-follow-ups).
+
+Published since this list was written, and so off it: How God Answers Prayer and Four Hundred and
+Eighty Years.
+
 ### 0.10 Cut the AI register
 
 A tidy of [Biblical Numerology](../scripture/numerology.md) on 2026-10-09 took its em-dashes from
@@ -350,15 +330,17 @@ bold (**The language.**, **The text in its context.**, **Christ.**, **The hard p
 set ends on **Be transformed.** Validator Check 25 flags the sets still to do. The format is in
 `.claude/skills/develop-bible-study/discussion-questions.md`.
 
-**Where it stands, 2026-10-12.** Nine waves of four are done: 36 of 70 sets. The 34 left are
+**Where it stands, 2026-11-06.** Ten waves of four are done: 40 of 70 sets. The 30 left are
 listed in `references/study-state/discussion-questions-sweep-2026-10.yml` under `todo:`, in order,
 with each finished wave under `done:`. The work runs about four studies a wave, the author approves
 each wave before the next, and each study gets its own commit.
 
-- **Next, wave 10:** Woman at the Well, The Woman Who Touched the Fringe, A Thousand Years in Your
-  Sight, and A Day Is a Thousand Years.
-- **After that:** the rest of Last things (21 studies, two of them drafts), then Scripture (6),
-  Spiritual beings (2) and Reading the Song of Songs.
+- **Wave 10 is done** (Woman at the Well, The Woman Who Touched the Fringe, A Thousand Years in
+  Your Sight, A Day Is a Thousand Years).
+- **Next, wave 11:** the first four under `todo:` (Day Is Near, The End of the Age, The Fig Tree
+  and This Generation, Heaven and Earth Will Pass Away).
+- **After that:** the rest of Last things (21 studies in all, two of them drafts), then Scripture
+  (6), Spiritual beings (2) and Reading the Song of Songs.
 - **Found along the way.** The sweep agents touched only the questions, so problems they noticed in
   study bodies are recorded under `found_outside_questions:` in the same file: nine misquotes or
   citation slips (Ephesians 5:32 in Bride of Christ, 2 Corinthians 5:21 and Romans 8:3 in As the
@@ -552,9 +534,9 @@ existing commentary index immediately.
   Beth](../hebrew/aleph-with-beth.md): the first week, the words, and the link to
   the videos. Make sure there is material on the basics, such as learning the alphabet.
   *Started 2026-10-17:* [Learn Hebrew](../hebrew/index.md) is now its own section, with the
-  alphabet and vowels, a pronunciation guide and a names-of-God flashcard deck. Still to come: A4
-  writing sheets for the square, Paleo-Hebrew and cursive scripts, a Three Scripts page, a Names of
-  God study in God, and the Shema read letter by letter. Plan and decisions:
+  alphabet and vowels, a pronunciation guide and a names-of-God flashcard deck. Also done by
+  2026-10-18: the A4 writing sheets, the Three Scripts page, the Shema letter by letter, and
+  on-screen card practice. Still to come: a Names of God study in God. Plan and decisions:
   `references/study-state/learn-hebrew-section.yml`.
 
 ## 11. God the Father
@@ -616,11 +598,6 @@ everywhere, His knowledge and His power, each from the passages that state it (I
 - Prophet, priest, king
 - Future
 
-### 2.3 Jesus' attitude toward women
-
-How Jesus treats women across the Gospels, against the norms of his day — not yet scoped beyond
-that.
-
 ### 2.4 The feedings and the hardened hearts
 
 Expand [The Bread of Life](../jesus/bread-of-life-feeding-the-multitudes.md) with Mark's reading
@@ -653,10 +630,12 @@ tradition that supplies them named.
 Lampstand](../jesus/the-heavenly-pattern/lampstand.md) and the series
 [index](../jesus/the-heavenly-pattern/index.md) (2026-09-28), [The Ark of the
 Covenant](../jesus/the-heavenly-pattern/ark.md) and [The Golden Altar of
-Incense](../jesus/the-heavenly-pattern/incense-altar.md) (2026-09-29). The lampstand's Revelation 11
+Incense](../jesus/the-heavenly-pattern/incense-altar.md) (2026-09-29). The
+[table](../jesus/the-heavenly-pattern/table.md) and [almond](../jesus/the-heavenly-pattern/almond.md)
+pages are published too. The lampstand's Revelation 11
 material became its own study, [The Two Witnesses](../last-things/two-witnesses.md). Still worth doing:
-a read-bible-study pass on each in a fresh session, and restoring the altar page's link to How God
-Answers Prayer once that study is published.
+a read-bible-study pass on each in a fresh session. How God Answers Prayer is now published and the
+altar page links to it.
 
 The remaining pages, in the order suggested. Figures marked *(verified)* were checked against the
 text or the concordance when the series was planned; the rest still need checking.
@@ -686,7 +665,7 @@ text or the concordance when the series was planned; the rest still need checkin
       Ezekiel's altar (Ezekiel 43:14, 17, 20) *(verified)*. Paul calls Christ the *hilastērion*
       (Romans 3:25), and Hebrews 9:5 uses the word for the mercy seat.
     - The veil: Exodus 26:31; Matthew 27:51; Hebrews 10:20.
-- **The table and the bread of the Presence.**
+- **The table and the bread of the Presence.** Published as [The Table](../jesus/the-heavenly-pattern/table.md); planning notes kept below.
     - At Sinai: 2 × 1 × 1½ cubits (Exodus 25:23). Twelve loaves, set out every Sabbath (Leviticus
       24:5-9) *(verified)*. *Ma'arakhot* can mean rows or stacks, and the plate has to flag which.
     - David eats the bread (1 Samuel 21:6), and Jesus cites it (Matthew 12:3-4).
@@ -913,34 +892,38 @@ the Olivet Discourse, published 2026-09-28) places it in two paragraphs ("Where 
 
 Not study topics — work on the material the studies rest on.
 
-### 8.1 Mirror the unfoldingWord sources
+### 8.1 unfoldingWord sources: mirror, update, and use more of them
 
-The four unfoldingWord submodules (`uw-uhb`, `uw-ugnt`, `uw-ult`, `uw-uhg`) point at
-[Door43](https://git.door43.org/unfoldingWord) directly. Every other source in
-`references/open-data/` is forked to `ding0t/*` first, so the project survives an upstream
-disappearing; these four are the exception, because GitHub auth was not working on the machine that
-added them on 2026-09-05.
+Reviewed 2026-11-06; steps 1 and 2 done. Five unfoldingWord submodules sit in
+`references/open-data/`: `uw-uhb`, `uw-ugnt`, `uw-ult`, `uw-uhg` and, since 2026-10-20, `uw-tn`
+(Translation Notes, shallow). Until 2026-11-06 they pointed at
+[Door43](https://git.door43.org/unfoldingWord) directly; they are now mirrored to `ding0t/*` like
+every other source there. All are CC BY-SA 4.0 (`uw-tn`'s `LICENSE.md` says so).
 
-Auth has since been fixed, so the only thing left is the doing. Pinned submodule commits already
-protect against upstream *changing* — the gap is Door43 going away entirely.
-
-**Licensing is not a blocker.** All four are CC BY-SA 4.0, which permits redistributing the
-unmodified work provided unfoldingWord's trademark and licence file stay intact. A verbatim mirror
-does exactly that.
-
-Per repo — `hbo_uhb`, `el-x-koine_ugnt`, `en_ult`, `en_uhg`:
-
-1. `git clone --mirror https://git.door43.org/unfoldingWord/<name>.git` — a full clone, since the
-   submodules here are `--depth 1` and cannot push complete history
-2. `gh repo create ding0t/<name> --public` — matching the visibility of the existing forks
-3. `git push --mirror https://github.com/ding0t/<name>.git`
-
-Then repoint the four URLs in `.gitmodules`, run `git submodule sync`, and correct the three places
-that currently say these are not mirrored: the permanence note on
-[Public Data Sources](../resources/public-data-sources.md), the unfoldingWord section of
-`references/README.md`, and `references/study-state/unfoldingword-wireup.yml`.
-
-Roughly 140MB in total; `en_ult` is nearly all of it and `en_uhg` is 3.6MB.
+1. **Done 2026-11-06: bumped the stale pins.** `uw-ult` is at `cdbccac` and `uw-tn` at `b37199e`.
+   `build.py` re-run: 863,985 alignment rows (was 861,106) and the ULT's footnotes are 322 (was
+   326, upstream removed four; `test_unfoldingword.py` updated).
+2. **Done 2026-11-06: mirrored all five** to `ding0t/hbo_uhb`, `el-x-koine_ugnt`, `en_ult`,
+   `en_uhg` and `en_tn`, branches and tags only (GitHub refuses Door43's `refs/pull/*`), with
+   `master` as the default. `.gitmodules` now points at the mirrors, and `references/README.md`
+   and the wire-up state file say so. To bump a pin: fetch from Door43, push to the mirror, then
+   update the submodule.
+3. **Load the full Translation Notes.** Only the 213 quotation links are loaded now. Each
+   `tn_<BOOK>.tsv` holds verse-level notes on hard phrases, with the original-language quote and
+   its occurrence number. Add them as a table, a lookup in `query.py`, an MCP tool and a section in
+   `passage_brief`. They are a checking source and never carry the exegesis (the same rule as the
+   study-Bible notes). CC BY-SA: keep them out of the browser pop-ups and the public connector
+   until the ShareAlike terms are checked.
+4. **Add the Greek grammar.** `en_ugg` (updated 2026-11-05) would give `bible_grammar` the same
+   coverage in Greek that `uw-uhg` gives in Hebrew (88 articles), where Greek grammar claims
+   now come from memory.
+5. **Compare the two English alignments.** The ULT and the Berean Interlinear each align English to
+   the Hebrew and Greek independently. A script listing where they disagree would flag verses
+   where a translator's choice may be carrying an argument. Untried.
+6. **Lower priority.** Translation Word Links (`en_twl`, per-verse links from original words to
+   Translation Words articles) and the Simplified Text (`en_ust`, skipped in 2026-09 because its
+   licence was not confirmed; its `LICENSE.md` would settle that). The lexicons `en_uhal` and
+   `en_ugl` add little over what is held.
 
 ### 8.2 Chronology follow-ups
 
@@ -950,16 +933,16 @@ Left over from moving the site's chronology to the Masoretic numbers on 2026-09-
 - **Terah's birth year.** [Genealogy and Times](../chronology/genealogy-times.md) works Terah's
   puzzle from 1876 BC; the generator (`references/build/genealogy_chronology.py`) uses 1878. Find
   which is right and make the other agree.
-- **Stale source paths.** Existing references in `docs/data/chronology.json` point at
-  `studies/prophecy/...`, which no longer exists. Repoint them at the current pages.
+- **Stale source paths.** Done: no `studies/prophecy/` path remains in `docs/data/chronology.json`.
 - **Steinmann's count.** The Flood study cites 467 secondary readings in the Septuagint
   (Steinmann, *JETS* 64/1, 2021, pp. 26, 29, 34); his own prose says 468 once (p. 33). Note the
   discrepancy in the study or confirm which figure his table supports.
 - **Genealogy and Times:** simplified, restructured and given its Study outline on 2026-09-30. The
   file is still 4,825 words, so re-run validator Check 23 and either trim further or record a
   raised `word_budget` and its reason in the state file.
-- **The Flood study skipped two passes.** It was published straight after its develop pass. Run
-  read-bible-study (in a fresh session) and review-bible-study on it.
+- **The Flood study skipped two passes.** The review-bible-study pass has since been run (state
+  file `review_2026-09-28`). Whether the read-bible-study pass has is not recorded; run it in a
+  fresh session.
 
 ### 8.3 AI-assistant friendliness
 
@@ -1006,15 +989,6 @@ Tracing the prevalent sin of calling what is good evil, and what the Bible says 
 - when someone condemns another of wrongdoing who has called out sin - such as murder
 - when sin is legalised as not only ok, but as good, and those who speak against it are in the wrong
 - when preaching Christ is considered as wrongdoing
-
-### 9.2 Sexual immorality
-
-The current study is very light.
-
-- the bible is clear what is sexual sin
-- why is it sin
-- the impact on the individual: sin against one's own body
-- defiling the image of the bride of Christ?
 
 ## 10. Christian life
 
@@ -1077,33 +1051,6 @@ back-link when it was published; the content notes are still to do.
   55a, which needs a primary source first; and the seal of God against the mark of the beast
   (Revelation 7:3; 13:16).
 
-### 10.6 True worship: in spirit and truth
-
-**Published 2026-10-22** as [True Worship](../christian-life/true-worship.md). Move to Completed when convenient.
-
-What true worship is, what Jesus taught about it, and how the Old and New Testaments describe it.
-It is the positive counterpart to [Idolatry](../sin/idolatry.md): people are made to worship
-(Isaiah 43:7; Romans 1:21-25), so the answer to an idol is the worship the idol took, given back
-to God.
-
-- **Jesus' teaching:** John 4:21-24 (where becomes how; "the Father is seeking such people");
-  Matthew 4:10 / Luke 4:8 ("You shall worship the Lord your God and him only shall you serve",
-  from Deuteronomy 6:13); Matthew 15:8-9 (lip worship, quoting Isaiah 29:13); John 9:38.
-- **Old Testament:** the words שָׁחָה (*shachah*, bow down) and עָבַד (*ʿavad*, serve), and what
-  each adds; the first "worship" in the Bible (Genesis 22:5); Psalms 95-100; worship and obedience
-  (1 Samuel 15:22; Psalm 51:16-17; Micah 6:6-8; Amos 5:21-24); the tabernacle and temple as the
-  pattern.
-- **New Testament:** προσκυνέω (*proskyneō*) and λατρεύω (*latreuō*); Romans 12:1 ("spiritual
-  worship", λογικὴν λατρείαν); Philippians 3:3 ("worship by the Spirit of God"); Hebrews 12:28;
-  13:15-16; Revelation 4-5.
-- **Settle in the exegesis:** whether "in spirit" in John 4:23-24 means the human spirit or the
-  Holy Spirit, with the case on both sides. Check what [The Woman at the Well](../jesus/woman-at-well.md)
-  already says. It treats John 4:20-24 directly, so decide first whether this is a new study or a
-  link to that one for the John 4 material.
-- **Links:** [Idolatry](../sin/idolatry.md) (both ways once published),
-  [The Woman at the Well](../jesus/woman-at-well.md), [Prayer as Communion](../christian-life/prayer-as-communion.md),
-  and 10.3 (religion and the Way).
-
 ## Completed
 
 Kept here so that an old reference like "work on 3.1" still resolves.
@@ -1121,7 +1068,7 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 0.1 | Scripture pop-up on a verse reference | Every reference on the site opens the verse, its context, cross-references and the studies that treat it, 2026-09-27. Blue Letter Bible links removed |
 | 0.2 | Word-study pop-up on an original-language word | Every Strong's tag, and the word in front of it, opens a word card: lexicon, counts, where it occurs, renderings, and the studies that discuss it, 2026-09-27. Follow-ups in [0.6](#06-pop-up-follow-ups) |
 | 0.3 (part) | Normalise the Key Takeaways opening line | Done across 50 studies, 2026-09-27 |
-| 0.4 | New studies shown apart from updated ones | [New this month](recent-updates.md#new) on Recent updates and the homepage, dated from the commit that took each page out of draft, and a "New" line under the title and icon in the nav for 30 days, 2026-09-28. The feed idea moved to [0.5](#05-a-blog) |
+| 0.4 | New studies shown apart from updated ones | [New this month](recent-updates.md#new) on Recent updates and the homepage, dated from the commit that took each page out of draft, and a "New" line under the title and icon in the nav for 30 days, 2026-09-28. The feed idea is covered by the RSS feed that `generate_recent_updates.py` writes |
 | 5.4 | The Olivet Discourse, regrouped by the disciples' questions | [The Olivet Discourse](../last-things/olivet-discourse.md) regrouped under the question each part answers, a section on which question the flight to the mountains answers (marked contested), and "one taken, one left" pointed at [One Taken, One Left](../last-things/one-taken-one-left.md) from both it and the rapture study, 2026-09-28 |
 | 5.8 | We will all be changed, raised imperishable | [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) (1 Corinthians 15:35-58), linked from At Home with the Lord (4.2); the white robes of 5.6 treated as a separate gift, 2026-09-28 |
 | 10.5 | In humility | [In Humility](../christian-life/humility.md) (Philippians 2:1-11), rooted in dependence on God; its counterpart [Pride](../sin/pride.md), with "You are gods" and the Isaiah 14 / Ezekiel 28 question marked contested, 2026-09-28 |
@@ -1138,4 +1085,8 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 5.9 | The tribulation period | [The Tribulation: Daniel's Seventieth Week, Year by Year](../last-things/tribulation.md): what the week is for, the seals, trumpets and bowls in order, the midpoint, and where the church, Israel and the tribulation saints are, with four charts, 2026-10-03 |
 | 10.8 | Fasting: a rewrite | [Fasting](../christian-life/fasting.md) rewritten so "When to fast" no longer reads as deliverance ministry (2 Corinthians 10:4's strongholds are arguments), then reviewed, 2026-10-01 |
 | new | Hurt by the Church | [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../christian-life/hurt-by-the-church.md), published with its review and a readability pass, 2026-10-04 |
+| 2.3 | Jesus' attitude toward women | [Jesus and Women](../jesus/jesus-and-women.md) |
+| 9.2 | Sexual immorality | [Sin and Sexual Immorality](../sin/sexual-immorality.md), now a full study (about 5,400 words) that takes up the body and the bride of Christ |
+| 10.6 (True worship) | True worship: in spirit and truth | [True Worship](../christian-life/true-worship.md), published 2026-10-22 |
+| 0.5 | A blog | [Blog](../blog/index.md): plain pages under `blog/`, built with the site's own hooks. mkdocs-material's blog plugin was left out on purpose: at this size it adds little and would duplicate the draft, feed and "New" handling the hooks already do. Revisit past about 20 posts |
 | 0.8 | Fixes found by reviews | [Christians and Deliverance Ministry](../spiritual-beings/deliverance/christians-and-deliverance.md) now quotes John 10:20-21 correctly (δαιμόνιον ἔχει in 10:20, the participle in 10:21) and treats κολαφίζω as suggestive rather than decisive; [As the Snake Was Lifted Up](../jesus/as-the-snake-was-lifted.md) marks the οὕτως reading contested; Paul added to the Biblical Figures sidebar, 2026-10-04 |
