@@ -74,6 +74,7 @@ REGISTRY: dict[str, Spec] = {
     "bible_parallel": Spec(query.lookup_parallel, "bible-text"),
     "bible_links": Spec(query.lookup_links, "bible-text"),
     "bible_interlinear": Spec(query.lookup_interlinear, "bible-text"),
+    "bible_alignment_diff": Spec(query.lookup_alignment_diff, "bible-text"),
     "bible_grammar": Spec(query.lookup_grammar, "bible-text"),
     "bible_translation_notes": Spec(query.lookup_translation_notes, "bible-text"),
     "bible_variants": Spec(query.lookup_variants, "bible-text"),

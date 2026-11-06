@@ -176,6 +176,9 @@ def build_requests(book: str, chapter: int, verse_start: int, verse_end: int | N
             reqs.append({"id": f"interlinear-bsb:{v}", "tool": "bible_interlinear",
                          "args": {"book": book, "chapter": chapter, "verse": v,
                                   "interlinear": "bsb"}})
+        reqs.append({"id": "alignment-diff", "tool": "bible_alignment_diff",
+                     "args": {"book": book, "chapter": chapter, "verse": verse_start,
+                              "verse_end": verses[-1] if verses else verse_start}})
 
     if "crossrefs" in include:
         for v in verses:
@@ -285,7 +288,7 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
     Sections: addressing (versification, always), historical (book introductions), structure
     (the BSB section the passage sits in, its parallel accounts from the BSB and STEP's harmony,
     and STEP's list entries touching it: the OT text quoted, a name of God, a letter part), text, words (the ULT and BSB
-    interlinears + TWOT roots for Hebrew), crossrefs, variants (Dead Sea Scrolls, plus the
+    interlinears, where the two render a word differently, + TWOT roots for Hebrew), crossrefs, variants (Dead Sea Scrolls, plus the
     translators' footnotes naming which editions read what), names (every person and place the
     passage names, disambiguated), notes, translation_notes (unfoldingWord's phrase-level notes, a
     check on the exegesis and never a source for it; at most 40), studies (what this site's existing studies already say
@@ -361,6 +364,7 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
         brief["words"] = {
             "interlinear": {str(v): _ok(results, f"interlinear:{v}") for v in verses},
             "interlinear_bsb": {str(v): _ok(results, f"interlinear-bsb:{v}") for v in verses},
+            "alignment_differences": _ok(results, "alignment-diff"),
             "twot_roots": twot,
         }
     if "crossrefs" in include:

@@ -364,6 +364,25 @@ def bible_interlinear(book: str, chapter: int, verse: int, interlinear: str = "u
 
 
 @mcp.tool()
+def bible_alignment_diff(book: str, chapter: int, verse: int, verse_end: int | None = None) -> dict:
+    """Where the ULT and the Berean Interlinear render the same Hebrew or Greek word differently.
+
+    The two are independent committees working from different base texts. A word they render alike
+    does not hang on one translator's choice; a word in `differences` is one to look at before
+    resting an argument on an English term (Romans 3:25's ἱλαστήριον is "a propitiation" in the ULT
+    and an "atoning sacrifice" in the BSB). `text_differs` lists original words only one base text
+    has: a verse boundary that falls elsewhere, or Psalm 51's title, which the Berean numbers as
+    verse 1. A difference is reported, never judged: whether it matters is the study's call.
+    Function-word and nested-frame artefacts are skipped. Give `verse_end` for a range in one chapter.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_alignment_diff(conn, book, chapter, verse, verse_end)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
 def bible_grammar(term: str, full: bool = False, language: str | None = None) -> list:
     """Biblical Hebrew and Greek grammar articles -- what a FORM does, as against what a word means.
 

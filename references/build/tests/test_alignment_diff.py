@@ -1,0 +1,69 @@
+"""The ULT-against-Berean comparison. The synthetic cases pin the logic; the real-data cases pin
+that it finds what a reader would want it to."""
+
+import pytest
+
+import alignment_diff as ad
+import query
+from query import DB_PATH
+
+
+def row(english, content, occurrence=1):
+    return {"english": english, "content": content, "occurrence": occurrence}
+
+
+def test_a_word_rendered_with_no_shared_content_word_is_a_difference():
+    result = ad.compare([[row("and empty", "וָבֹהוּ")]], [[row("and void", "וָבֹהוּ")]],
+                        [["וָבֹהוּ"]], [["וָבֹהוּ"]], [2])
+    assert [(d["ult"], d["bsb"], d["verse"]) for d in result["differences"]] == [("and empty", "and void", 2)]
+
+
+def test_inflections_of_one_word_agree():
+    result = ad.compare([[row("being justified", "δικαιούμενοι")]], [[row("[and are] justify", "δικαιούμενοι")]],
+                        [["δικαιούμενοι"]], [["δικαιούμενοι"]], [3])
+    assert result["agreed"] == 1 and not result["differences"]
+
+
+def test_english_hung_on_an_article_is_not_a_textual_difference():
+    """The ULT's nested frames put 'God' on the article τὸν; the Berean has no English there. Both
+    base texts have the word, so it is an alignment artefact and must not be reported."""
+    result = ad.compare([[row("God", "τὸν"), row("God", "Θεόν")]], [[row("God", "Θεόν")]],
+                        [["τὸν", "Θεόν"]], [["τὸν", "Θεόν"]], [1])
+    assert not result["differences"] and not result["text_differs"]
+
+
+def test_a_word_only_one_base_text_has_is_reported_as_that():
+    result = ad.compare([[]], [[row("A Psalm", "מִזְמוֹר")]], [[]], [["מִזְמוֹר"]], [1])
+    assert [(d["kind"], d["original"]) for d in result["text_differs"]] == [("Berean only", "מִזְמוֹר")]
+
+
+def test_a_word_moved_across_a_verse_boundary_cancels_over_the_range():
+    one_verse = ad.compare([[], [row("forbearance", "ἀνοχῇ")]], [[row("forbearance", "ἀνοχῇ")], []],
+                           [[], ["ἀνοχῇ"]], [["ἀνοχῇ"], []], [25, 26])
+    assert not one_verse["text_differs"] and one_verse["agreed"] == 1
+
+
+@pytest.fixture(scope="module")
+def conn():
+    if not DB_PATH.exists():
+        pytest.skip("out/bible-text.db not built")
+    c = query.connect()
+    yield c
+    c.close()
+
+
+def test_romans_3_25_propitiation_is_flagged(conn):
+    r = query.lookup_alignment_diff(conn, "Rom", 3, 21, 26)
+    flagged = {d["original"]: d for d in r["differences"]}
+    assert "ἱλαστήριον" in flagged
+    assert "propitiation" in flagged["ἱλαστήριον"]["ult"] and "atoning" in flagged["ἱλαστήριον"]["bsb"]
+    assert not r["text_differs"]
+
+
+def test_psalm_51_title_is_a_base_text_difference(conn):
+    r = query.lookup_alignment_diff(conn, "Ps", 51, 1)
+    assert any(d["kind"] == "Berean only" and "Bathsheba" in d["english"] for d in r["text_differs"])
+
+
+def test_the_result_is_the_same_every_time(conn):
+    assert query.lookup_alignment_diff(conn, "John", 1, 1, 5) == query.lookup_alignment_diff(conn, "John", 1, 1, 5)

@@ -305,7 +305,12 @@ USFM wraps every English word in a frame naming the Hebrew or Greek behind it. Q
 `query.py interlinear <book> <ch> <v>` or the `bible_interlinear` MCP tool. Everything else in this
 database describes one side or the other; this and the Berean Interlinear (below) are the only links
 between them, and they are the cheapest guard against a study resting a point on a translator's
-choice.
+choice. `query.py aligndiff <book> <ch> <v> [--verse-end N]` (the `bible_alignment_diff` tool, and
+`words.alignment_differences` in `passage_brief`) compares the two for you: the original words the
+ULT and the Berean render with no content word in common, and the words only one base text has
+(Psalm 51's title, a verse boundary that falls elsewhere). It matches on the original word itself,
+not the Strong's number, which the two write differently, and skips English that nested frames hang
+on an article. See `alignment_diff.py`.
 
 **It is many-to-many, and stays that way.** Genesis 1:1's "the heavens" comes back twice, rendering
 both אֵת and הַשָּׁמַיִם, because the object marker has no English of its own and the alignment

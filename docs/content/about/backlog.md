@@ -894,7 +894,7 @@ Not study topics — work on the material the studies rest on.
 
 ### 8.1 unfoldingWord sources: mirror, update, and use more of them
 
-Reviewed 2026-11-06; steps 1 to 4 done. Five unfoldingWord submodules sit in
+Reviewed 2026-11-06; steps 1 to 5 done. Five unfoldingWord submodules sit in
 `references/open-data/`: `uw-uhb`, `uw-ugnt`, `uw-ult`, `uw-uhg` and, since 2026-10-20, `uw-tn`
 (Translation Notes, shallow). Until 2026-11-06 they pointed at
 [Door43](https://git.door43.org/unfoldingWord) directly; they are now mirrored to `ding0t/*` like
@@ -920,9 +920,13 @@ every other source there. All are CC BY-SA 4.0 (`uw-tn`'s `LICENSE.md` says so).
    paradigms converted from HTML to plain-text tables. `bible_grammar` and `query.py grammar`
    take a `language` filter and each result names its work. The tense articles state one view of
    aspect, which is debated, so a study resting on it should mark it contested.
-5. **Compare the two English alignments.** The ULT and the Berean Interlinear each align English to
-   the Hebrew and Greek independently. A script listing where they disagree would flag verses
-   where a translator's choice may be carrying an argument. Untried.
+5. **Done 2026-11-06: compared the two English alignments.** `alignment_diff.py`, `query.py
+   aligndiff`, the `bible_alignment_diff` tool and `words.alignment_differences` in
+   `passage_brief`. Romans 3:21-26 flags five words (ἱλαστήριον, πάρεσιν, προγεγονότων among
+   them); John 1:1-5 flags ἐγένετο and γέγονεν. Psalm 51 shows the title numbered as verse 1 in the
+   Berean and not in the ULT. Still open: running it across the whole canon to rank the words the
+   two disagree on most (a list of terms a word study should always check), which needs a
+   judgement about which disagreements are only synonyms.
 6. **Lower priority.** Translation Word Links (`en_twl`, per-verse links from original words to
    Translation Words articles) and the Simplified Text (`en_ust`, skipped in 2026-09 because its
    licence was not confirmed; its `LICENSE.md` would settle that). The lexicons `en_uhal` and

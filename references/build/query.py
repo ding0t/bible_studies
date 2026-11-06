@@ -743,6 +743,58 @@ def lookup_interlinear(conn: sqlite3.Connection, book: str, chapter: int, verse:
             "rows": rows}
 
 
+def lookup_alignment_diff(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
+                          verse_end: int | None = None, from_scheme: str = "english") -> dict[str, object]:
+    """Where the ULT and the Berean Interlinear render the same original word differently.
+
+    The two are independent committees working from different base texts, so a word they render
+    alike does not hang on one translator's choice, and a word they render differently is one a
+    study should look at before resting an argument on an English term (`differences`).
+    `text_differs` lists original words one base text has and the other lacks, usually a verse
+    boundary or a psalm title numbered differently. See alignment_diff.py for how the comparison
+    is made and what it deliberately skips. A difference is reported, never judged.
+
+    Numbered in the English scheme; pass `from_scheme` if your reference is masoretic or lxx.
+    """
+    import alignment_diff
+
+    reference = versification.align(book, chapter, verse, from_scheme, "english")
+    if reference is None:
+        return {"reference": f"{book} {chapter}:{verse}", "differences": [], "text_differs": [],
+                "warning": "no English-scheme counterpart for this reference"}
+    e_book, e_chapter, e_verse = reference
+    last = verse_end if verse_end and verse_end >= verse else verse
+    numbers = list(range(e_verse, e_verse + (last - verse) + 1))
+
+    ult_text_work = "uw-uhb" if conn.execute(
+        "SELECT 1 FROM verses WHERE work_id='uw-uhb' AND book=? LIMIT 1", (e_book,)).fetchone() else "uw-ugnt"
+    bsb_text_work = "berean-wlc" if ult_text_work == "uw-uhb" else "berean-greek"
+
+    def rows(work_id: str, v: int) -> list[dict]:
+        return [dict(r) for r in conn.execute(
+            "SELECT english, content, occurrence FROM word_alignment WHERE work_id=? AND book=? "
+            "AND chapter=? AND verse=? ORDER BY rowid", (work_id, e_book, e_chapter, v))]
+
+    def ult_words(v: int) -> list[str]:
+        row = conn.execute("SELECT text FROM verses WHERE work_id=? AND book=? AND chapter=? AND verse=?",
+                           (ult_text_work, e_book, e_chapter, v)).fetchone()
+        return alignment_diff.split_words(row[0]) if row else []
+
+    def bsb_words(v: int) -> list[str]:
+        return [r[0] for r in conn.execute(
+            "SELECT surface_form FROM interlinear_words WHERE work_id=? AND book=? AND chapter=? AND verse=? "
+            "ORDER BY word_position", (bsb_text_work, e_book, e_chapter, v))]
+
+    if not any(rows("berean-bib", v) for v in numbers) or not any(rows("uw-ult", v) for v in numbers):
+        return {"reference": f"{e_book} {e_chapter}:{numbers[0]}", "differences": [], "text_differs": [],
+                "warning": "one of the two alignments has no rows here, so there is nothing to compare"}
+    result = alignment_diff.compare(
+        [rows("uw-ult", v) for v in numbers], [rows("berean-bib", v) for v in numbers],
+        [ult_words(v) for v in numbers], [bsb_words(v) for v in numbers], numbers)
+    span = f"{numbers[0]}" + (f"-{numbers[-1]}" if len(numbers) > 1 else "")
+    return {"reference": f"{e_book} {e_chapter}:{span}", **result}
+
+
 def _overlap_sql(prefix: str = "") -> str:
     """Rows whose (chapter, verse)..(end_chapter, end_verse) span overlaps a range. Six params:
     the range's end chapter twice and end verse, then its start chapter twice and start verse."""
@@ -1474,6 +1526,18 @@ def cmd_translation_notes(conn: sqlite3.Connection, args: argparse.Namespace) ->
         print(f"  {r['warning']}")
 
 
+def cmd_alignment_diff(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    r = lookup_alignment_diff(conn, args.book, args.chapter, args.verse, args.verse_end)
+    print(f"{r['reference']}: {r.get('agreed', 0)} words rendered alike, "
+          f"{len(r['differences'])} rendered differently, {len(r['text_differs'])} in one base text only\n")
+    for d in r["differences"]:
+        print(f"  {d['verse']:>3}  {d['original']}   ULT: {d['ult']}   |   BSB: {d['bsb']}")
+    for d in r["text_differs"]:
+        print(f"  {d['verse']:>3}  {d['original']}   {d['kind']}: {d['english']}")
+    if r.get("warning"):
+        print(f"  {r['warning']}")
+
+
 def cmd_variants(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
     r = lookup_variants(conn, args.book, args.chapter, args.verse)
     print(f"{r['reference']} (masoretic numbering)\n")
@@ -1662,6 +1726,13 @@ def main() -> None:
     p_tn.add_argument("--intro", action="store_true", help="include the book and chapter introductions")
     p_tn.add_argument("--limit", type=int, default=60)
     p_tn.set_defaults(func=cmd_translation_notes)
+
+    p_ad = sub.add_parser("aligndiff", help="Where the ULT and the Berean Interlinear render an original word differently")
+    p_ad.add_argument("book", help="OSIS book code, e.g. Rom")
+    p_ad.add_argument("chapter", type=int)
+    p_ad.add_argument("verse", type=int)
+    p_ad.add_argument("--verse-end", type=int)
+    p_ad.set_defaults(func=cmd_alignment_diff)
 
     p_var = sub.add_parser("variants", help="Scroll readings the Masoretic text does not carry")
     p_var.add_argument("book", help="OSIS book code, e.g. Isa")
