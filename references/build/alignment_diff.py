@@ -87,15 +87,18 @@ def words_of(rows_by_verse: list[list[dict]], offsets: list[Counter],
             if not k:
                 continue
             w = words.setdefault((k, before[k] + (r["occurrence"] or 1)),
-                                 {"content": r["content"], "english": [], "verse": verse})
+                                 {"content": r["content"], "english": [], "verse": verse, "strong": None})
             w["english"].append(r["english"])
+            w["strong"] = w["strong"] or r.get("strong")
     return words
 
 
 def compare(ult_rows: list[list[dict]], bsb_rows: list[list[dict]], ult_text: list[list[str]],
-            bsb_text: list[list[str]], verse_numbers: list[int]) -> dict[str, object]:
+            bsb_text: list[list[str]], verse_numbers: list[int], tally: list | None = None) -> dict[str, object]:
     """Each list argument holds one entry per verse of the passage, in order; `verse_numbers`
-    names them, so a finding says where it sits."""
+    names them, so a finding says where it sits. Pass a list as `tally` to have every compared
+    word appended to it as (Berean Strong's, agreed, ULT English, Berean English) -- the canon-wide
+    ranking in alignment_ranking.py totals those."""
     def before(text: list[list[str]]) -> list[Counter]:
         out, running = [], Counter()
         for words in text:
@@ -117,7 +120,10 @@ def compare(ult_rows: list[list[dict]], bsb_rows: list[list[dict]], ult_text: li
         u_words, b_words = english_content(" ".join(u["english"])), english_content(" ".join(b["english"]))
         if not (u_words and b_words):
             continue
-        if agree(u_words, b_words):
+        same = agree(u_words, b_words)
+        if tally is not None:
+            tally.append((b["strong"], same, " ".join(dict.fromkeys(u_words)), " ".join(dict.fromkeys(b_words))))
+        if same:
             agreed += 1
         else:
             differences.append({"verse": u["verse"], "original": u["content"],

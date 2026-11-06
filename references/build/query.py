@@ -744,7 +744,8 @@ def lookup_interlinear(conn: sqlite3.Connection, book: str, chapter: int, verse:
 
 
 def lookup_alignment_diff(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
-                          verse_end: int | None = None, from_scheme: str = "english") -> dict[str, object]:
+                          verse_end: int | None = None, from_scheme: str = "english",
+                          tally: list | None = None) -> dict[str, object]:
     """Where the ULT and the Berean Interlinear render the same original word differently.
 
     The two are independent committees working from different base texts, so a word they render
@@ -772,7 +773,7 @@ def lookup_alignment_diff(conn: sqlite3.Connection, book: str, chapter: int, ver
 
     def rows(work_id: str, v: int) -> list[dict]:
         return [dict(r) for r in conn.execute(
-            "SELECT english, content, occurrence FROM word_alignment WHERE work_id=? AND book=? "
+            "SELECT english, content, occurrence, strong FROM word_alignment WHERE work_id=? AND book=? "
             "AND chapter=? AND verse=? ORDER BY rowid", (work_id, e_book, e_chapter, v))]
 
     def ult_words(v: int) -> list[str]:
@@ -790,7 +791,7 @@ def lookup_alignment_diff(conn: sqlite3.Connection, book: str, chapter: int, ver
                 "warning": "one of the two alignments has no rows here, so there is nothing to compare"}
     result = alignment_diff.compare(
         [rows("uw-ult", v) for v in numbers], [rows("berean-bib", v) for v in numbers],
-        [ult_words(v) for v in numbers], [bsb_words(v) for v in numbers], numbers)
+        [ult_words(v) for v in numbers], [bsb_words(v) for v in numbers], numbers, tally)
     span = f"{numbers[0]}" + (f"-{numbers[-1]}" if len(numbers) > 1 else "")
     return {"reference": f"{e_book} {e_chapter}:{span}", **result}
 

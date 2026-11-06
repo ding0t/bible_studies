@@ -4,6 +4,7 @@ that it finds what a reader would want it to."""
 import pytest
 
 import alignment_diff as ad
+import alignment_ranking
 import query
 from query import DB_PATH
 
@@ -67,3 +68,13 @@ def test_psalm_51_title_is_a_base_text_difference(conn):
 
 def test_the_result_is_the_same_every_time(conn):
     assert query.lookup_alignment_diff(conn, "John", 1, 1, 5) == query.lookup_alignment_diff(conn, "John", 1, 1, 5)
+
+
+def test_ranking_orders_by_how_often_a_word_differs_and_drops_rare_words():
+    tally = [("H2617", False, "covenant faithfulness", "loving devotion")] * 9 + [("H2617", True, "x", "x")]
+    tally += [("H776", False, "land", "earth")] * 3 + [("H776", True, "x", "x")] * 7
+    tally += [("H1", False, "father", "dad")] * 2
+    ranked = alignment_ranking.rank(tally, minimum=5)
+    assert [r["strong"] for r in ranked] == ["H2617", "H776"]
+    assert ranked[0]["ult"].most_common(1) == [("covenant faithfulness", 9)]
+

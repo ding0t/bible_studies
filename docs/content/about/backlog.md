@@ -924,9 +924,12 @@ every other source there. All are CC BY-SA 4.0 (`uw-tn`'s `LICENSE.md` says so).
    aligndiff`, the `bible_alignment_diff` tool and `words.alignment_differences` in
    `passage_brief`. Romans 3:21-26 flags five words (ἱλαστήριον, πάρεσιν, προγεγονότων among
    them); John 1:1-5 flags ἐγένετο and γέγονεν. Psalm 51 shows the title numbered as verse 1 in the
-   Berean and not in the ULT. Still open: running it across the whole canon to rank the words the
-   two disagree on most (a list of terms a word study should always check), which needs a
-   judgement about which disagreements are only synonyms.
+   Berean and not in the ULT. `alignment_ranking.py` then ran it across the canon:
+   279,304 words compared, 29.2% with no content word in common, ranked in
+   `docs/dev/alignment-disagreements.md` with each side's commonest renderings so synonyms are
+   visible (חֶסֶד, "covenant faithfulness" against "loving devotion"; כַּפֹּרֶת, "atonement lid"
+   against "mercy seat"; צָבָא, "armies" against "hosts"). Still open: the author's read of the
+   list, to mark which disagreements are only wording.
 6. **Lower priority.** Translation Word Links (`en_twl`, per-verse links from original words to
    Translation Words articles) and the Simplified Text (`en_ust`, skipped in 2026-09 because its
    licence was not confirmed; its `LICENSE.md` would settle that). The lexicons `en_uhal` and

@@ -310,7 +310,10 @@ choice. `query.py aligndiff <book> <ch> <v> [--verse-end N]` (the `bible_alignme
 ULT and the Berean render with no content word in common, and the words only one base text has
 (Psalm 51's title, a verse boundary that falls elsewhere). It matches on the original word itself,
 not the Strong's number, which the two write differently, and skips English that nested frames hang
-on an article. See `alignment_diff.py`.
+on an article. See `alignment_diff.py`. `alignment_ranking.py` runs it over the whole canon and
+writes [docs/dev/alignment-disagreements.md](../docs/dev/alignment-disagreements.md): the words
+the two render differently most often (חֶסֶד, כַּפֹּרֶת, אַף, צָבָא…), a list a word study should
+always check. Re-run it after `build.py`.
 
 **It is many-to-many, and stays that way.** Genesis 1:1's "the heavens" comes back twice, rendering
 both אֵת and הַשָּׁמַיִם, because the object marker has no English of its own and the alignment
