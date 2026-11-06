@@ -12,6 +12,13 @@ or only in wording. Run from references/build:
 
     uv run python alignment_ranking.py            # writes the report
     uv run python alignment_ranking.py --min 30   # only words compared at least 30 times
+    uv run python alignment_ranking.py --study docs/content/<study>.md
+                                                  # the study's tagged words that are on the list
+
+Which rendering the site follows for a word is recorded in docs/data/word-renderings.toml, with
+the position behind it; the report prints it, so a decision survives regeneration. The ESV
+column comes from study-notes.db (STEP's ESV word tags); if that is unreachable the column says
+so and nothing is filled from memory.
 """
 
 from __future__ import annotations
@@ -19,12 +26,32 @@ from __future__ import annotations
 import argparse
 import re
 import sqlite3
+import tomllib
 from collections import Counter, defaultdict
 from pathlib import Path
 
 import query
 
-REPORT = Path(__file__).resolve().parents[2] / "docs" / "dev" / "alignment-disagreements.md"
+REPO = Path(__file__).resolve().parents[2]
+REPORT = REPO / "docs" / "dev" / "alignment-disagreements.md"
+DECISIONS = REPO / "docs" / "data" / "word-renderings.toml"
+
+
+def decisions() -> dict[str, dict]:
+    return tomllib.loads(DECISIONS.read_text(encoding="utf-8")) if DECISIONS.exists() else {}
+
+
+def esv() -> dict | None:
+    """The ESV's renderings per Strong's number, or None when study-notes.db is unreachable."""
+    import study_notes_query
+    try:
+        counts = study_notes_query.esv_renderings(study_notes_query.connect())
+    except study_notes_query.SourceUnavailable:
+        return None
+    # A tag landing on "the" or "and" is STEP's word position slipping, not a rendering.
+    from alignment_diff import STOP
+    return {sid: Counter({e: n for e, n in c.items() if any(w not in STOP for w in e.split())})
+            for sid, c in counts.items()}
 
 
 def lemmas(conn: sqlite3.Connection) -> dict[str, tuple[str, str]]:
@@ -71,7 +98,8 @@ def rank(tally: list[tuple], minimum: int) -> list[dict]:
     return rows
 
 
-def write(rows: list[dict], lex: dict, tally: list, minimum: int, top: int) -> str:
+def write(rows: list[dict], lex: dict, tally: list, minimum: int, top: int,
+          esv_counts: dict | None, decided: dict[str, dict]) -> str:
     compared = len(tally)
     differ = sum(1 for t in tally if not t[1])
     def renderings(c: Counter) -> str:
@@ -94,25 +122,69 @@ def write(rows: list[dict], lex: dict, tally: list, minimum: int, top: int) -> s
         "Strong's numbers are the Berean's. Word and Gloss come from MACULA; a blank means MACULA files",
         "the word under another number (it puts אוּלָם, porch, at H199 where the Berean has H197).",
         "",
-        "| Strong's | Word | Gloss | Compared | Differ | ULT's commonest when they differ | BSB's commonest when they differ |",
-        "|---|---|---|---:|---:|---|---|",
+        "**The position.** The original word decides, and the translations are witnesses. Settle a",
+        "difference from the word's own uses, then the Septuagint and the New Testament (Scripture's",
+        "own translation of it), then the ESV, the site's quotation translation; mark it contested",
+        "where it stays contested. *Kind* and *Site follows* come from `docs/data/word-renderings.toml`",
+        "(wording, convention, idiom or interpretive; *proposed* until the author confirms it). The",
+        "ESV column is the ESV's commonest renderings anywhere: words from the ESV (Crossway,",
+        "quoted a word or two at a time), located by STEP Bible's TTESV tags (Tyndale House, CC BY-NC 4.0).",
+        "",
+        *([] if esv_counts is not None else
+          ["**ESV column unavailable:** study-notes.db could not be reached when this was generated.", ""]),
+        "| Strong's | Word | Gloss | Compared | Differ | ULT's commonest when they differ | BSB's commonest when they differ | ESV | Kind | Site follows |",
+        "|---|---|---|---:|---:|---|---|---|---|---|",
     ]
     for r in rows[:top]:
         lemma, gloss = lex.get(r["strong"], ("", ""))
+        d = decided.get(r["strong"], {})
+        follows = f"{d['follow']}" + (" *(proposed)*" if d.get("status") != "decided" else "") if d else ""
+        esv_cell = renderings(esv_counts.get(r["strong"], Counter())) if esv_counts is not None else "n/a"
         lines.append(f"| {r['strong']} | {lemma} | {gloss} | {r['n']} | {r['differ'] / r['n']:.0%} | "
-                     f"{renderings(r['ult'])} | {renderings(r['bsb'])} |")
+                     f"{renderings(r['ult'])} | {renderings(r['bsb'])} | {esv_cell} | {d.get('kind', '')} | {follows} |")
+    listed = {r["strong"] for r in rows[:top]}
+    missing = sorted(set(decided) - listed)
+    if missing:
+        lines += ["", f"Decided but below the cut-off this run: {', '.join(missing)}."]
     return "\n".join(lines) + "\n"
+
+
+def study_words(path: Path, rows: list[dict], decided: dict[str, dict]) -> list[str]:
+    """The Strong's numbers a study tags that the two translations often render differently, or
+    that have a recorded decision, with what to check."""
+    import strongs_suggest
+    tagged = {n for _, n in strongs_suggest.tags_on(strongs_suggest.body_of(path))}
+    by_strong = {r["strong"]: r for r in rows}
+    out = []
+    for n in sorted(tagged, key=lambda s: (s[0], int(re.sub(r"\D", "", s)))):
+        d, r = decided.get(n), by_strong.get(n)
+        if not (d or (r and r["differ"] / r["n"] >= 0.5)):
+            continue
+        line = f"{n}"
+        if r:
+            line += f"  differs {r['differ'] / r['n']:.0%} of {r['n']}: ULT {r['ult'].most_common(1)[0][0]!r}, BSB {r['bsb'].most_common(1)[0][0]!r}"
+        if d:
+            line += f"\n      {d['kind']}; site follows {d['follow']!r} ({d.get('status', 'proposed')}): {d['why']}"
+        elif r:
+            line += "\n      no recorded decision: say which rendering the study follows and why"
+        out.append(line)
+    return out
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("--min", type=int, default=20, help="only words compared at least this often")
     parser.add_argument("--top", type=int, default=150)
+    parser.add_argument("--study", type=Path, help="list this study's tagged words that are on the list; writes nothing")
     args = parser.parse_args()
     conn = query.connect()
     tally = run(conn)
+    if args.study:
+        found = study_words(args.study.resolve(), rank(tally, 10), decisions())
+        print("\n".join(found) if found else "no tagged word in this study is on the list")
+        return 0
     rows = rank(tally, args.min)
-    REPORT.write_text(write(rows, lemmas(conn), tally, args.min, args.top), encoding="utf-8")
+    REPORT.write_text(write(rows, lemmas(conn), tally, args.min, args.top, esv(), decisions()), encoding="utf-8")
     print(f"{len(tally):,} words compared; {len(rows)} words differ at least once -> {REPORT}")
     return 0
 

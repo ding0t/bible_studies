@@ -119,6 +119,13 @@ earlier session) already wrote.
   Check against the concordance above, never against the card: the card's data is an export
   (`references/build/export_popups.py`) and lags the database until someone re-runs it. Where the two
   disagree, say which one is stale.
+- **Does the study argue from a rendering two translations disagree on?** Run
+  `uv run python alignment_ranking.py --study docs/content/<study>.md` (from `references/build`). It
+  lists every word the study tags that the ULT and the Berean render differently at least half the
+  time, with the decision recorded in `docs/data/word-renderings.toml` where there is one. For an
+  `interpretive` word the study must say which rendering it follows and why. A word with no recorded
+  decision is a finding: settle it from the word's uses, the Septuagint and the New Testament, then
+  the ESV, and propose an entry for the author.
 - **Did the translators footnote something the study never mentions?** Pull `note_type='footnote'` for
   the study's `primary_passage` as a standing step — separately from `study_note`, which is editorial
   commentary rather than the committee's own record of its decision. Read them all, not only the ones

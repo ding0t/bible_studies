@@ -313,6 +313,37 @@ def lookup_esv_tags(conn: sqlite3.Connection, book: str, chapter: int, verse: in
     return results
 
 
+def esv_renderings(conn: sqlite3.Connection) -> dict[str, "Counter[str]"]:
+    """Every Strong's number's ESV renderings across the canon, counted: {'H3727': {'mercy seat': 22}}.
+
+    A deliberate whole-table read of `esv_tags` and the ESV `verses`, for
+    alignment_ranking.py's report -- the one batch job that needs the canon at once. It is not an
+    MCP tool and must not become one: per-passage questions go through lookup_esv_tags, which uses
+    the index. Numbers are written unpadded ('H914', not 'H0914'); a tag naming two numbers counts
+    for each. Single-word renderings only leave this function: the text is the ESV's
+    (quotation-only), the tags Tyndale House's (CC BY-NC).
+    """
+    from collections import Counter
+
+    text = {(r["book"], r["chapter"], r["verse"]): r["text"] for r in conn.execute(
+        "SELECT book, chapter, verse, text FROM verses WHERE work_id='esv-study-bible'")}
+    words_of: dict = {}
+    found: dict[str, Counter] = {}
+    for r in conn.execute("SELECT book, chapter, verse, word_start, word_end, strongs FROM esv_tags"):
+        key = (r["book"], r["chapter"], r["verse"])
+        if key not in words_of:
+            words_of[key] = _ESV_WORD.findall(text.get(key, ""))
+        words = words_of[key]
+        if r["word_end"] > len(words):
+            continue
+        english = " ".join(words[r["word_start"] - 1:r["word_end"]]).lower()
+        for sid in r["strongs"].split("+"):
+            m = re.match(r"([HG])0*(\d+)", sid)
+            if m:
+                found.setdefault(m.group(1) + m.group(2), Counter())[english] += 1
+    return found
+
+
 def lookup_note(conn: sqlite3.Connection, book: str, chapter: int, verse: int | None = None,
                 work_id: str | None = None, note_type: str | None = None,
                 max_chars: int | None = NOTE_CHARS, limit: int = MAX_ROWS) -> list[dict]:

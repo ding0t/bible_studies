@@ -15,155 +15,163 @@ lexicon and its uses before arguing from the English (develop-bible-study, Phase
 Strong's numbers are the Berean's. Word and Gloss come from MACULA; a blank means MACULA files
 the word under another number (it puts אוּלָם, porch, at H199 where the Berean has H197).
 
-| Strong's | Word | Gloss | Compared | Differ | ULT's commonest when they differ | BSB's commonest when they differ |
-|---|---|---|---:|---:|---|---|
-| H3069 | יהוה | yahweh | 245 | 100% | yahweh (244); lord yahweh (1) | god (232); god lord (10); o god (3) |
-| H197 |  |  | 31 | 100% | porch (29); like porch (1); porches (1) | portico (24); hall (3); colonnade (1) |
-| H325 | אֲחַשְׁוֵרוֹשׁ | ahasuerus | 28 | 100% | ahasuerus (28) | xerxes (28) |
-| H3050 | יָהּ | yahweh | 23 | 100% | yah (23) | lord (19); o lord (2); god (1) |
-| H3727 | כַּפֹּרֶת | cover | 22 | 100% | atonement lid (21); covering (1) | mercy seat (22) |
-| H7806 | שָׁזַר | twisted | 21 | 100% | twisted (16); fine (3); twined (2) | finely spun (18); curtains finely spun (1); made finely spun (1) |
-| H3068 | יהוה | yahweh | 5509 | 99% | yahweh (5435); against yahweh (8); before yahweh (2) | lord (4830); o lord (307); lord's (87) |
-| H727 | אֲרוֹן | the ark | 179 | 98% | box (175) | ark (165); thus ark (2); while ark (2) |
-| H1478 | גָּוַע | he expired | 22 | 95% | expire (10); expired (5); exhaled (4) | die (5); breathed last (4); perish (3) |
-| H835 | אֶשֶׁר | how blessed! | 43 | 95% | happinesses (23); happiness (9); happy (8) | blessed (35); how blessed (5); blessings (1) |
-| H7761 | שׂים | it is made | 21 | 95% | set (17); made (2); placed (1) | issued (6); authorized (2); decree (2) |
-| H1481 | גּוּר | sojourn | 81 | 95% | sojourn (21); sojourning (13); one sojourning (8) | residing (8); reside (6); resides (4) |
-| H801 | אִשֶּׁה | a fire offering | 63 | 92% | gift (43); gifts (14); s gift (1) | food offering (41); food offerings (16); part food offerings (1) |
-| H6532 | פָּרֹכֶת | curtain | 24 | 92% | curtain (22) | veil (22) |
-| G1859 | ἑορτή | feast | 23 | 91% | festival (21) | feast (21) |
-| H2236 | זָרַק | he sprinkled | 33 | 91% | splash (9); sprinkled (7); splashed (6) | splattered (10); splatter (10); sprinkled (2) |
-| H2617 | חֶסֶד | loyalty | 242 | 89% | covenant faithfulness (191); kindness (9); covenant faithfulnesses (6) | loving devotion (172); kindness (12); deeds loving devotion (3) |
-| H5488 | סוּף | of reed[s] | 26 | 88% | reeds (21); sea reeds (1); rush (1) | red (21); toward red (1); rushes (1) |
-| H639 | אַף | anger | 236 | 88% | nose (176); nostrils (25); anger (3) | anger (144); facedown (14); wrath (9) |
-| H4393 | מְלֹא | the fullness | 33 | 88% | fullness (27); fulness (2) | everything (6); full (4); all fills (4) |
-| G93 | ἀδικία | unrighteousness | 24 | 88% | unrighteousness (16); unrighteous (3); injustice (1) | wickedness (10); unjust (2); iniquity (2) |
-| H8467 | תְּחִנָּה | supplication | 24 | 88% | supplication (19); favor (2) | petition (11); plea (6); pleas (2) |
-| H4931 | מִשְׁמֶרֶת | the duty | 71 | 87% | keeping (40); watch (5); keepings (3) | charge (19); duties (16); keep (3) |
-| H6635 | צָבָא | of hosts | 434 | 86% | armies (259); army (67); war (20) | hosts (257); division (20); divisions (18) |
-| H5130 | נוּף | he will wave | 36 | 86% | raise (13); raised (6); wave (2) | wave (10); waved (4); presented (3) |
-| H7381 | רֵיחַ | an odor | 56 | 86% | scent (43); smell (3); let smell (1) | aroma (38); fragrance (8); incense (2) |
-| G5506 | χιλίαρχος | commander | 21 | 86% | chiliarch (14); chiliarchs (4) | commander (14); commanders (3); military commanders (1) |
-| G4334 | προσέρχομαι | came | 83 | 86% | having approached (34); approached (19); coming (5) | came (35); came up (8); went (8) |
-| H519 | אָמָה | maidservant | 48 | 85% | female servant (20); female servants (7); female slave (4) | maidservant (23); maidservants (13); servant (2) |
-| H2513 | חֶלְקָה | the portion | 27 | 85% | portion (15); property (3); smoothness (2) | field (9); plot (2); plot ground (2) |
-| H4578 | מֵעִים | parts | 27 | 85% | belly (5); inward parts (4); bowels (3) | within (4); heart (4); own body (2) |
-| H1892 | הֶבֶל | [is] futility | 67 | 85% | vapor (39); vapors (4); vain (2) | futile (22); worthless idols (5); futility (4) |
-| H853 | אֵת | (et) | 65 | 85% | all (3); loves (3); israel (2) | given (7); along (5); well (5) |
-| H7341 | רֹחַב | breadth | 93 | 84% | width (72); breadth (4); through width (1) | wide (62); deep (3); thick (2) |
-| H2623 | חָסִיד | your faithful | 31 | 84% | faithful (19); faithful ones (6); faithful one (1) | saints (14); godly (6); godly ones (1) |
-| H3885 | לין | spend the night | 79 | 84% | lodge (21); lodged (13); murmured (7) | spend night (12); grumbled (7); spent night (5) |
-| H5980 | עֻמָּה | to | 24 | 83% | corresponding (6); beside (5); close (2) | near (2); just (2); alongside (2) |
-| H7339 | רְחֹב | the open place | 41 | 83% | open area (10); open areas (7); open place (3) | square (12); streets (8); public square (6) |
-| G4341 | προσκαλέομαι | having called to [him] | 29 | 83% | having summoned (13); summoning (3); calling (2) | called (9); jesus called (6); calling (1) |
-| H2532 | חֶמְדָּה | of preciousness | 23 | 83% | delight (10); desire (4); best (1) | precious (3); pleasant (2); highly precious (2) |
-| H3411 | יַרְכָה | the innermost parts | 28 | 82% | recesses (12); back side (2); back (2) | rear (4); ends (3); remote (2) |
-| G1127 | γρηγορέω | watch | 22 | 82% | alert (9); stay alert (2); should stay alert (1) | keep watch (9); watch (2); wake up (2) |
-| H6293 | פָּגַע | it touches | 43 | 81% | met (6); attack (5); attacked (5) | strike down (3); struck down (3); strike (2) |
-| H7503 | רָפָה | refrain | 43 | 81% | slacken (4); fail (3); abandon (2) | leave (4); abandon (3); leave alone (2) |
-| H8432 | תָּוֶךְ | the midst | 299 | 81% | midst (228); middle (11); center (2) | among (121); within (25); middle (18) |
-| G1754 | ἐνεργέω | working | 21 | 81% | working (10); works (2); worked (2) | work (8); works (2); accomplishes (1) |
-| H8581 | תַּעָב | they | 21 | 81% | abhor (3); detest (2); acted abominably (2) | despise (6); vile (2); abhorred (2) |
-| H7782 | שֹׁופָר | trumpets | 62 | 81% | shofar (35); shofars (15) | ram's horn (25); horns (9); horn (7) |
-| H6967 | קוֹמָה | height | 41 | 80% | height (30); heights (2); stature (1) | high (25); tallest (2); tall (2) |
-| H6342 | פָּחַד | they fear | 25 | 80% | fear (7); dread (3); afraid (2) | afraid (4); tremble (3); fear (2) |
-| H8219 | שְׁפֵלָה | shephelah | 20 | 80% | shephelah (7); lowland (6); lowlands (2) | foothills (15); western foothills (1) |
-| H4908 | מִשְׁכָּן | tabernacle | 128 | 80% | dwelling (95); tabernacle (2); dwellings (2) | tabernacle (90); dwelling (2); tabernacle itself (1) |
-| H5766 | עָוֶל | injustice | 52 | 79% | injustice (16); iniquity (8); unrighteousness (7) | injustice (11); iniquity (11); wrong (5) |
-| G3528 | νικάω | overcoming | 28 | 79% | one conquering (8); conquered (3); triumphed (3) | overcomes (10); overcome (5); overpowers (1) |
-| H2154 | זִמָּה | licentiousness | 28 | 79% | obscenity (13); lewdness (3); wicked plan (2) | indecency (7); lewd (3); lewdness (2) |
-| G1163 | δεῖ | it was necessary for | 88 | 78% | necessary (66); ought (2); proper (1) | must (47); should (9); ought (5) |
-| G1410 | δύναμαι | is able | 96 | 78% | able (74); power (1) | cannot (48); unable (13); how (2) |
-| G5281 | ὑπομονή | endurance | 32 | 78% | endurance (23); patience (2) | perseverance (18); persevere (2); persevering (1) |
-| G3319 | μέσος | [the] midst | 41 | 78% | midst (26); middle (5); among (1) | among (17); center (3); midnight (2) |
-| G2400 | ἰδού | behold | 159 | 78% | behold (119); see (5) | look (47); here (17); see (16) |
-| H5046 | נָגַד | he told | 356 | 78% | declare (98); declared (96); tell (15) | tell (65); told (48); reported (18) |
-| H1124 | בְּנָה | build | 22 | 77% | build (6); built (5); building (3) | rebuild (6); rebuilt (4); rebuilding (3) |
-| H753 | אֹרֶךְ | length | 91 | 77% | length (69); long (1) | long (58); longer (1); cubits (1) |
-| H3373 | יָרֵא | fearing | 65 | 77% | fearing (17); fearers (10); ones fearing (7) | fear (23); fears (6); feared (4) |
-| H2778 | חָרַף | taunt | 39 | 77% | taunt (7); reproach (5); mocked (4) | defy (6); taunted (5); defied (2) |
-| H3708 | כַּעַס | vexation | 26 | 77% | provocation (5); vexation (4); anger (4) | sorrow (5); grief (4); anger (2) |
-| H3684 | כְּסִיל | a fool | 69 | 77% | stupid one (26); stupid (12); stupid ones (10) | fool (30); fools (11); foolish (8) |
-| G4052 | περισσεύω | to abound | 38 | 76% | abound (12); abounding (6); abounds (3) | excel (4); left (3); overflow (3) |
-| H3637 | כָּלַם | you | 38 | 76% | humiliated (11); disgraced (3); dishonored (2) | humiliated (5); ashamed (5); disgraced (2) |
-| H3254 | יָסַף | he repeated | 194 | 76% | add (41); continue (33); added (24) | again (38); longer (19); severely (12) |
-| H7667 | שֶׁבֶר | destruction | 42 | 76% | breaking (21); destruction (2); collapse (2) | destruction (13); wound (3); shattered (2) |
-| H7817 | שָׁחַח | are you bowed down | 21 | 76% | bowed yourself down (3); humbled (2); bow (1) | brought low (5); downcast (3); humbled (2) |
-| H3639 | כְּלִמָּה | ignominy | 29 | 76% | humiliation (16); dishonor (1); become shame (1) | disgrace (10); shame (3); reproach (2) |
-| H7622 | שְׁבִית | the captivity | 29 | 76% | restoration (11); fortunes (5); fortune (3) | captivity (14); captive (2); captives (2) |
-| H4603 | מָעַל | they acted unfaithfully | 33 | 76% | transgressed (8); unfaithful (3); violated (3) | unfaithful (6); acts (3); acted unfaithfully (2) |
-| G2007 | ἐπιτίθημι | having laid | 37 | 76% | having laid (6); put (5); lay (4) | place (5); laid (3); lay (2) |
-| H2534 | חֵמָה | rage | 117 | 75% | heat (69); wrath (8); rage (5) | wrath (42); fury (20); furious (4) |
-| H898 | בָּגַד | [those who] act treacherously | 44 | 75% | treacherous ones (7); dealt treacherously (5); acted treacherously (2) | faithless (11); unfaithful (5); broken faith (3) |
-| H8252 | שָׁקַט | it was at peace | 40 | 75% | rested (11); quiet (7); reposing (3) | rest (7); peace (6); quiet (4) |
-| H8438 | תּוֹלָע | scarlet stuff | 36 | 75% | worm (24); worms (1); covering (1) | scarlet yarn (23); maggots (1); scarlet (1) |
-| H8433 | תּוֹכֵחָה | rebuke | 28 | 75% | rebuke (11); rebukes (5); chastisement (2) | correction (7); reproof (5); rebuke (2) |
-| G2186 | ἐφίστημι | stood by | 20 | 75% | standing (3); stood (3); coming up (1) | stood (2); came jesus (1); came up (1) |
-| H560 | אֲמַר | saying | 47 | 74% | saying (16); said (9); spoke (3) | said (7); asked (6); gave orders (3) |
-| H8435 | תּוֹלֵדוֹת | genealogies | 39 | 74% | generations (26); genealogy (1); according genealogies (1) | according records (13); account (11); genealogies (3) |
-| H2315 | חֶדֶר | a room | 35 | 74% | chamber (9); room (7); rooms (6) | room (5); bedroom (4); chambers (3) |
-| G4128 | πλῆθος | multitude | 31 | 74% | multitude (15); crowd (5); multitudes (1) | crowd (4); number (3); congregation (2) |
-| H8552 | תָּמַם | was finished | 54 | 74% | finished (8); finishing (6); complete (4) | gone (6); consumed (4); meet end (2) |
-| G2212 | ζητέω | seeking | 115 | 74% | seeking (46); seek (30); seeks (5) | looking (9); trying (8); look (8) |
-| H7673 | שָׁבַת | it will cease | 69 | 74% | make cease (10); cause cease (9); ceased (5) | put end (12); rid (3); stopped (2) |
-| G2902 | κρατέω | holding | 46 | 74% | seize (9); having seized (4); seized (4) | arrest (8); arrested (5); took (3) |
-| H3276 | יָעַל | they benefit | 23 | 74% | profit (7); benefit (7); advance (1) | profit (3); worthless (2); idols (2) |
-| H6203 | עֹרֶף | neck | 23 | 74% | neck (12); back neck (3); back (2) | necks (8); backs (4); retreat (2) |
-| H7497 | רְפָאִים | of rephaim | 23 | 74% | raphaites (17) | rephaim (16); rephaites (1) |
-| H7854 | שָׂטָן | adversary | 23 | 74% | adversary (17) | satan (14); oppose (2); enemy (1) |
-| H7523 | רָצַח | killer | 42 | 74% | one having killed (23); killed (2); killer (2) | manslayer (13); murderer (10); person (1) |
-| H8548 | תָּמִיד | continually | 95 | 74% | continually (40); continuity (18); continual (6) | always (23); regular (19); regularly (5) |
-| H5956 | עָלַם | it will be hidden | 26 | 73% | hidden (8); hide yourself (4); hiding (1) | ignore (4); even unaware (3); too difficult (2) |
-| H8597 | תִּפְאֶרֶת | splendor | 48 | 73% | splendor (18); beauty (11); glory (3) | glory (10); glorious (8); splendor (4) |
-| H6440 | פָּנֶה | before | 1584 | 73% | face (932); faces (125); before face (48) | before (593); presence (128); front (56) |
-| H8549 | תָּמִים | unblemished | 88 | 73% | perfect (47); complete (4); without blemish (2) | unblemished (26); without blemish (9); all unblemished (9) |
-| H1361 | גָּבַהּ | it was haughty | 33 | 73% | high (7); make high (3); became high (2) | proud (4); soar (2); towered (2) |
-| H2436 | חֵיק | bosom | 33 | 73% | bosom (19); lap (5) | arms (5); laps (3); inside cloak (2) |
-| H3584 | כָּחַשׁ | he will deny | 22 | 73% | cringe (3); denies (2); deny (2) | cower before (2); lied (2); cower (2) |
-| H7941 | שֵׁכָר | strong drink | 22 | 73% | beer (16) | strong drink (16) |
-| H5521 | סֻכָּה | booths | 29 | 72% | huts (11); booths (5); booth (4) | tabernacles (9); booths (4); canopy (2) |
-| H2233 | זֶרַע | offspring | 213 | 72% | seed (124); offspring (25); seed time (1) | descendants (71); offspring (18); children (6) |
-| H8641 | תְּרוּמָה | the contribution | 72 | 72% | contribution (39); contributions (6); offering (4) | offering (20); portion (8); offerings (5) |
-| H5080 | נָדַח | i | 54 | 72% | driven (8); scattered (4); drive (3) | banished (11); exiles (5); banish (3) |
-| H1995 | הָמוֹן | multitude | 79 | 72% | multitude (38); tumult (6); crowd (4) | army (9); many (6); multitude (4) |
-| G5346 | φημί | he was saying | 61 | 72% | said (21); says (10); saying (9) | replied (14); said (8); declared (3) |
-| H3474 | יָשַׁר | it was pleasing | 25 | 72% | right (10); straighten (2); smoothed (1) | pleased (4); make (3); please (2) |
-| H8003 | שָׁלֵם | complete | 25 | 72% | whole (7); complete (6); full (2) | fully devoted (5); accurate (2); uncut (2) |
-| G1014 | βούλομαι | desiring | 35 | 71% | wanting (5); intending (4); desires (3) | want (4); wanted (4); chooses (3) |
-| H4975 | מׇתְנַיִם | loins | 35 | 71% | loins (21); waist (3); hips (1) | waist (4); around waist (3); side (3) |
-| H2370 | חֲזָה | seeing | 28 | 71% | looking (13); seeing (4); seen (2) | watched (6); saw (3); watching (2) |
-| H8446 | תּוּר | spy out | 21 | 71% | explore (6); explored (4); exploring (1) | spy out (5); spied out (2); spying out (1) |
-| G3004 | λέγω | saying | 984 | 71% | says (244); say (224); saying (183) | said (191); tell (150); asked (59) |
-| G2192 | ἔχω | having | 101 | 71% | having (57); one having (4); keeping (2) | without (5); since (5); held (5) |
-| G2753 | κελεύω | he commanded | 24 | 71% | commanded (12); having commanded (3); command (1) | ordered (12); gave orders (2); directed (2) |
-| G4690 | σπέρμα | seed | 41 | 71% | seed (25); offspring (3); seeds (1) | descendants (10); offspring (9); children (4) |
-| H5352 | נָקָה | he will go unpunished | 34 | 71% | acquit (5); remain blameless (5); acquitted (4) | go unpunished (10); leave guilty unpunished (2); released (1) |
-| G3745 | ὅσος | as many as | 67 | 70% | many (26); much (8); how much (3) | all (23); whatever (8); everything (4) |
-| H2296 | חָגַר | he girded | 40 | 70% | girded (8); gird (8); wrapped (2) | put (4); armed (3); wearing (3) |
-| H4406 | מִלָּה | the | 20 | 70% | matter (6); word (5); matters (2) | command (2); words (1); requests (1) |
-| H8414 | תֹּהוּ | emptiness | 20 | 70% | emptiness (7); nothingness (4); empty place (1) | empty (3); wasteland (2); chaos (2) |
-| H4116 | מָהַר | hurry | 63 | 70% | hurried (17); hurry (9); hasten (5) | quickly (18); immediately (3); soon (2) |
-| H5999 | עָמָל | toil | 53 | 70% | toil (16); trouble (12); mischief (3) | labor (14); misery (4); trouble (3) |
-| H1197 | בָּעַר | you will remove | 92 | 70% | burning (13); remove (11); burn (9) | must purge (9); blazing (4); light (3) |
-| H2254 | חָבַל | ruin | 23 | 70% | hold pledge (2); destroy (2); labor (2) | broken (2); get collateral (2); collateral (1) |
-| H2550 | חָמַל | i will show pity | 36 | 69% | compassion (9); pity (9); spare (5) | spare (5); spared (4); pity (4) |
-| H7378 | רִיב | conduct a case | 62 | 69% | contend (9); contended (6); plead (5) | contend (5); rebuked (4); defend (3) |
-| H2009 | הִנֵּה | there! | 567 | 69% | behold (390); look (2); behold hither (1) | look (76); here (50); saw (45) |
-| H4791 | מָרוֹם | a high place | 52 | 69% | height (22); heights (3); high (3) | high (15); lofty (3); pride (2) |
-| G3588 | ὁ | the | 647 | 69% | one (106); ones (47); things (36) | son (81); whoever (56); own (25) |
-| H2603 | חָנַן | show | 70 | 69% | gracious (13); favor (9); supplicate (4) | mercy (11); merciful (7); gracious (4) |
-| H3515 | כָּבֵד | heavy | 38 | 68% | heavy (22); great (3); extremely numerous (1) | severe (6); large (4); great (3) |
-| H3709 | כַּף | palms | 174 | 68% | palm (47); palms (39); palm sized bowl (12) | hands (45); hand (23); dish (12) |
-| G5426 | φρονέω | minding | 22 | 68% | think (7); considering (2); thinking (2) | mind (3); views (1); live harmony (1) |
-| H4591 | מָעַט | who] made little | 22 | 68% | decrease (4); become few (4); make few (2) | decrease (2); less (2); some less (1) |
-| H6148 | עָרַב | he stood surety for | 22 | 68% | pledged (3); wager (2); surety (2) | puts up security (3); make bargain (2); posts security (2) |
-| H6485 | פָּקַד | their enrolled | 288 | 68% | counted ones (53); visit (36); counted (13) | punish (23); numbered (23); registered (13) |
-| H5291 | נַעֲרָה | woman | 53 | 68% | young woman (14); girl (8); young women (6) | girl (6); girl's (5); servant girls (4) |
-| G3756 | οὐ | not | 28 | 68% | certainly (11); none (4); nothing (2) | never (8); one (5); all (1) |
-| H4219 | מִזְרָק | bowls | 31 | 68% | basin (13); basins (7); bowls (1) | bowl (12); sprinkling bowls (5); bowls (2) |
-| H3046 | יְדַע | you will know | 40 | 68% | know (6); make know (6); knowing (3) | tell (4); know (3); acknowledge (3) |
-| H7130 | קֶרֶב | midst | 166 | 67% | midst (77); innards (12); within (6) | among (49); within (16); entrails (12) |
-| H5158 | נַחַל | the wadi | 132 | 67% | wadi (62); stream (8); wadis (4) | valley (32); brook (24); river (9) |
-| H3627 | כְּלִי | articles | 269 | 67% | vessels (89); vessel (27); equipment (22) | articles (51); utensils (19); furnishings (12) |
-| G3779 | οὕτω(ς) | thus | 70 | 67% | thus (31); way (7); manner (4) | how (10); way (10); like (8) |
-| H8267 | שֶׁקֶר | falsehood | 100 | 67% | falsehood (41); lie (11); deceit (5) | lying (15); lies (12); lie (7) |
+**The position.** The original word decides, and the translations are witnesses. Settle a
+difference from the word's own uses, then the Septuagint and the New Testament (Scripture's
+own translation of it), then the ESV, the site's quotation translation; mark it contested
+where it stays contested. *Kind* and *Site follows* come from `docs/data/word-renderings.toml`
+(wording, convention, idiom or interpretive; *proposed* until the author confirms it). The
+ESV column is the ESV's commonest renderings anywhere: words from the ESV (Crossway,
+quoted a word or two at a time), located by STEP Bible's TTESV tags (Tyndale House, CC BY-NC 4.0).
+
+| Strong's | Word | Gloss | Compared | Differ | ULT's commonest when they differ | BSB's commonest when they differ | ESV | Kind | Site follows |
+|---|---|---|---:|---:|---|---|---|---|---|
+| H3069 | יהוה | yahweh | 245 | 100% | yahweh (244); lord yahweh (1) | god (232); god lord (10); o god (3) | god (299); lord (3) | convention | GOD *(proposed)* |
+| H197 |  |  | 31 | 100% | porch (29); like porch (1); porches (1) | portico (24); hall (3); colonnade (1) | vestibule (26); hall (4); porch (2) |  |  |
+| H325 | אֲחַשְׁוֵרוֹשׁ | ahasuerus | 28 | 100% | ahasuerus (28) | xerxes (28) | ahasuerus (26); commanded (1); sealed (1) | convention | Ahasuerus *(proposed)* |
+| H3050 | יָהּ | yahweh | 23 | 100% | yah (23) | lord (19); o lord (2); god (1) | lord (50) | convention | LORD *(proposed)* |
+| H3727 | כַּפֹּרֶת | cover | 22 | 100% | atonement lid (21); covering (1) | mercy seat (22) | mercy seat (26); mercy (1) | interpretive | mercy seat *(proposed)* |
+| H7806 | שָׁזַר | twisted | 21 | 100% | twisted (16); fine (3); twined (2) | finely spun (18); curtains finely spun (1); made finely spun (1) | fine twined (19); twined (2); twined linen (1) |  |  |
+| H3068 | יהוה | yahweh | 5509 | 99% | yahweh (5435); against yahweh (8); before yahweh (2) | lord (4830); o lord (307); lord's (87) | lord (6135); god (12); lord's food (12) | convention | LORD *(proposed)* |
+| H727 | אֲרוֹן | the ark | 179 | 98% | box (175) | ark (165); thus ark (2); while ark (2) | ark (193); chest (5); holy place (1) | wording | ark *(proposed)* |
+| H1478 | גָּוַע | he expired | 22 | 95% | expire (10); expired (5); exhaled (4) | die (5); breathed last (4); perish (3) | die (6); last (4); perish (4) |  |  |
+| H835 | אֶשֶׁר | how blessed! | 43 | 95% | happinesses (23); happiness (9); happy (8) | blessed (35); how blessed (5); blessings (1) | blessed (34); happy (7); aleph (1) |  |  |
+| H7761 | שׂים | it is made | 21 | 95% | set (17); made (2); placed (1) | issued (6); authorized (2); decree (2) | make (8); made (7); laid (3) |  |  |
+| H1481 | גּוּר | sojourn | 81 | 95% | sojourn (21); sojourning (13); one sojourning (8) | residing (8); reside (6); resides (4) | sojourn (24); sojourns (13); sojourned (9) |  |  |
+| H801 | אִשֶּׁה | a fire offering | 63 | 92% | gift (43); gifts (14); s gift (1) | food offering (41); food offerings (16); part food offerings (1) | food offering (39); food offerings (5); offering (3) |  |  |
+| H6532 | פָּרֹכֶת | curtain | 24 | 92% | curtain (22) | veil (22) | veil (25) |  |  |
+| G1859 | ἑορτή | feast | 23 | 91% | festival (21) | feast (21) | feast (23); custom (1); festival (1) |  |  |
+| H2236 | זָרַק | he sprinkled | 33 | 91% | splash (9); sprinkled (7); splashed (6) | splattered (10); splatter (10); sprinkled (2) | threw (8); thrown (5); throw (4) |  |  |
+| H2617 | חֶסֶד | loyalty | 242 | 89% | covenant faithfulness (191); kindness (9); covenant faithfulnesses (6) | loving devotion (172); kindness (12); deeds loving devotion (3) | steadfast love (185); kindness (16); kindly (9) | interpretive | steadfast love *(proposed)* |
+| H5488 | סוּף | of reed[s] | 26 | 88% | reeds (21); sea reeds (1); rush (1) | red (21); toward red (1); rushes (1) | red (23); reeds (2); sea (1) |  |  |
+| H639 | אַף | anger | 236 | 88% | nose (176); nostrils (25); anger (3) | anger (144); facedown (14); wrath (9) | anger (177); wrath (22); face (17) | idiom | anger *(proposed)* |
+| H4393 | מְלֹא | the fullness | 33 | 88% | fullness (27); fulness (2) | everything (6); full (4); all fills (4) | full (9); fills (8); handful (3) |  |  |
+| G93 | ἀδικία | unrighteousness | 24 | 88% | unrighteousness (16); unrighteous (3); injustice (1) | wickedness (10); unjust (2); iniquity (2) | unrighteousness (9); wrongdoing (4); unrighteous (2) |  |  |
+| H8467 | תְּחִנָּה | supplication | 24 | 88% | supplication (19); favor (2) | petition (11); plea (6); pleas (2) | plea (16); plea for mercy (3); humble plea (2) |  |  |
+| H4931 | מִשְׁמֶרֶת | the duty | 71 | 87% | keeping (40); watch (5); keepings (3) | charge (19); duties (16); keep (3) | charge (22); guard (8); kept (7) |  |  |
+| H6635 | צָבָא | of hosts | 434 | 86% | armies (259); army (67); war (20) | hosts (257); division (20); divisions (18) | hosts (284); army (46); host (33) |  |  |
+| H5130 | נוּף | he will wave | 36 | 86% | raise (13); raised (6); wave (2) | wave (10); waved (4); presented (3) | wave (12); waved (4); wield (3) |  |  |
+| H7381 | רֵיחַ | an odor | 56 | 86% | scent (43); smell (3); let smell (1) | aroma (38); fragrance (8); incense (2) | aroma (28); pleasing (11); fragrance (7) |  |  |
+| G5506 | χιλίαρχος | commander | 21 | 86% | chiliarch (14); chiliarchs (4) | commander (14); commanders (3); military commanders (1) | tribune (16); military commanders (1); captain (1) |  |  |
+| G4334 | προσέρχομαι | came | 83 | 86% | having approached (34); approached (19); coming (5) | came (35); came up (8); went (8) | came (37); came up (15); went (10) |  |  |
+| H519 | אָמָה | maidservant | 48 | 85% | female servant (20); female servants (7); female slave (4) | maidservant (23); maidservants (13); servant (2) | servant (20); female (5); female servants (5) |  |  |
+| H2513 | חֶלְקָה | the portion | 27 | 85% | portion (15); property (3); smoothness (2) | field (9); plot (2); plot ground (2) | plot (5); field (3); portion (3) |  |  |
+| H4578 | מֵעִים | parts | 27 | 85% | belly (5); inward parts (4); bowels (3) | within (4); heart (4); own body (2) | bowels (5); stomach (4); body (3) |  |  |
+| H1892 | הֶבֶל | [is] futility | 67 | 85% | vapor (39); vapors (4); vain (2) | futile (22); worthless idols (5); futility (4) | vanity (32); breath (9); idols (8) |  |  |
+| H853 | אֵת | (et) | 65 | 85% | all (3); loves (3); israel (2) | given (7); along (5); well (5) |  |  |  |
+| H7341 | רֹחַב | breadth | 93 | 84% | width (72); breadth (4); through width (1) | wide (62); deep (3); thick (2) | breadth (49); broad (14); wide (6) |  |  |
+| H2623 | חָסִיד | your faithful | 31 | 84% | faithful (19); faithful ones (6); faithful one (1) | saints (14); godly (6); godly ones (1) | saints (12); godly (8); merciful (3) |  |  |
+| H3885 | לין | spend the night | 79 | 84% | lodge (21); lodged (13); murmured (7) | spend night (12); grumbled (7); spent night (5) | night (14); lodge (10); grumble (7) |  |  |
+| H5980 | עֻמָּה | to | 24 | 83% | corresponding (6); beside (5); close (2) | near (2); just (2); alongside (2) | beside (3); close to (2); corresponding (2) |  |  |
+| H7339 | רְחֹב | the open place | 41 | 83% | open area (10); open areas (7); open place (3) | square (12); streets (8); public square (6) | square (16); streets (10); squares (10) |  |  |
+| G4341 | προσκαλέομαι | having called to [him] | 29 | 83% | having summoned (13); summoning (3); calling (2) | called (9); jesus called (6); calling (1) | called (19); summoned (3); calling (2) |  |  |
+| H2532 | חֶמְדָּה | of preciousness | 23 | 83% | delight (10); desire (4); best (1) | precious (3); pleasant (2); highly precious (2) | precious (5); pleasant (5); costly (2) |  |  |
+| H3411 | יַרְכָה | the innermost parts | 28 | 82% | recesses (12); back side (2); back (2) | rear (4); ends (3); remote (2) | rear (7); farthest parts (4); uttermost parts (4) |  |  |
+| G1127 | γρηγορέω | watch | 22 | 82% | alert (9); stay alert (2); should stay alert (1) | keep watch (9); watch (2); wake up (2) | watch (7); awake (5); stay awake (4) |  |  |
+| H6293 | פָּגַע | it touches | 43 | 81% | met (6); attack (5); attacked (5) | strike down (3); struck down (3); strike (2) | touches (5); met (3); fall (3) |  |  |
+| H7503 | רָפָה | refrain | 43 | 81% | slacken (4); fail (3); abandon (2) | leave (4); abandon (3); leave alone (2) | leave (6); alone (4); idle (3) |  |  |
+| H8432 | תָּוֶךְ | the midst | 299 | 81% | midst (228); middle (11); center (2) | among (121); within (25); middle (18) | midst (152); among (113); within (17) |  |  |
+| G1754 | ἐνεργέω | working | 21 | 81% | working (10); works (2); worked (2) | work (8); works (2); accomplishes (1) | work (9); works (4); worked (3) |  |  |
+| H8581 | תַּעָב | they | 21 | 81% | abhor (3); detest (2); acted abominably (2) | despise (6); vile (2); abhorred (2) | abhor (8); abhorred (2); loathed (2) |  |  |
+| H7782 | שֹׁופָר | trumpets | 62 | 81% | shofar (35); shofars (15) | ram's horn (25); horns (9); horn (7) | trumpet (47); trumpets (17); horn (4) |  |  |
+| H6967 | קוֹמָה | height | 41 | 80% | height (30); heights (2); stature (1) | high (25); tallest (2); tall (2) | height (22); high (13); stature (3) |  |  |
+| H6342 | פָּחַד | they fear | 25 | 80% | fear (7); dread (3); afraid (2) | afraid (4); tremble (3); fear (2) | fear (8); afraid (5); dread (2) |  |  |
+| H8219 | שְׁפֵלָה | shephelah | 20 | 80% | shephelah (7); lowland (6); lowlands (2) | foothills (15); western foothills (1) | lowland (10); shephelah (10) |  |  |
+| H4908 | מִשְׁכָּן | tabernacle | 128 | 80% | dwelling (95); tabernacle (2); dwellings (2) | tabernacle (90); dwelling (2); tabernacle itself (1) | tabernacle (106); dwelling (8); dwellings (8) |  |  |
+| H5766 | עָוֶל | injustice | 52 | 79% | injustice (16); iniquity (8); unrighteousness (7) | injustice (11); iniquity (11); wrong (5) | injustice (22); wrong (8); iniquity (4) |  |  |
+| G3528 | νικάω | overcoming | 28 | 79% | one conquering (8); conquered (3); triumphed (3) | overcomes (10); overcome (5); overpowers (1) | conquers (8); overcome (7); conquered (4) |  |  |
+| H2154 | זִמָּה | licentiousness | 28 | 79% | obscenity (13); lewdness (3); wicked plan (2) | indecency (7); lewd (3); lewdness (2) | lewdness (10); depravity (3); lewd (3) |  |  |
+| G1163 | δεῖ | it was necessary for | 88 | 78% | necessary (66); ought (2); proper (1) | must (47); should (9); ought (5) | must (57); ought (25); should (4) |  |  |
+| G1410 | δύναμαι | is able | 96 | 78% | able (74); power (1) | cannot (48); unable (13); how (2) | cannot (51); able (35); unable (4) |  |  |
+| G5281 | ὑπομονή | endurance | 32 | 78% | endurance (23); patience (2) | perseverance (18); persevere (2); persevering (1) | endurance (13); steadfastness (11); patience (5) |  |  |
+| G3319 | μέσος | [the] midst | 41 | 78% | midst (26); middle (5); among (1) | among (17); center (3); midnight (2) | midst (19); among (16); between (3) |  |  |
+| G2400 | ἰδού | behold | 159 | 78% | behold (119); see (5) | look (47); here (17); see (16) | behold (137); see (16); look (13) |  |  |
+| H5046 | נָגַד | he told | 356 | 78% | declare (98); declared (96); tell (15) | tell (65); told (48); reported (18) | told (129); tell (97); declare (38) |  |  |
+| H1124 | בְּנָה | build | 22 | 77% | build (6); built (5); building (3) | rebuild (6); rebuilt (4); rebuilding (3) | rebuilt (6); built (5); rebuilding (4) |  |  |
+| H753 | אֹרֶךְ | length | 91 | 77% | length (69); long (1) | long (58); longer (1); cubits (1) | length (51); long (24); cubits (4) |  |  |
+| H3373 | יָרֵא | fearing | 65 | 77% | fearing (17); fearers (10); ones fearing (7) | fear (23); fears (6); feared (4) | fear (37); feared (8); fears (8) |  |  |
+| H2778 | חָרַף | taunt | 39 | 77% | taunt (7); reproach (5); mocked (4) | defy (6); taunted (5); defied (2) | taunted (6); mock (6); mocked (4) |  |  |
+| H3708 | כַּעַס | vexation | 26 | 77% | provocation (5); vexation (4); anger (4) | sorrow (5); grief (4); anger (2) | vexation (10); provocation (3); grief (3) |  |  |
+| H3684 | כְּסִיל | a fool | 69 | 77% | stupid one (26); stupid (12); stupid ones (10) | fool (30); fools (11); foolish (8) | fool (33); fools (24); foolish (5) |  |  |
+| G4052 | περισσεύω | to abound | 38 | 76% | abound (12); abounding (6); abounds (3) | excel (4); left (3); overflow (3) | abound (6); abundance (5); excel (3) |  |  |
+| H3637 | כָּלַם | you | 38 | 76% | humiliated (11); disgraced (3); dishonored (2) | humiliated (5); ashamed (5); disgraced (2) | ashamed (10); confounded (8); blush (3) |  |  |
+| H3254 | יָסַף | he repeated | 194 | 76% | add (41); continue (33); added (24) | again (38); longer (19); severely (12) | again (67); more (44); add (19) |  |  |
+| H7667 | שֶׁבֶר | destruction | 42 | 76% | breaking (21); destruction (2); collapse (2) | destruction (13); wound (3); shattered (2) | destruction (18); wound (4); crash (3) |  |  |
+| H7817 | שָׁחַח | are you bowed down | 21 | 76% | bowed yourself down (3); humbled (2); bow (1) | brought low (5); downcast (3); humbled (2) | humbled (4); down (3); cast (3) |  |  |
+| H3639 | כְּלִמָּה | ignominy | 29 | 76% | humiliation (16); dishonor (1); become shame (1) | disgrace (10); shame (3); reproach (2) | shame (8); dishonor (8); disgrace (7) |  |  |
+| H7622 | שְׁבִית | the captivity | 29 | 76% | restoration (11); fortunes (5); fortune (3) | captivity (14); captive (2); captives (2) | fortunes (38); captives (1); lord (1) |  |  |
+| H4603 | מָעַל | they acted unfaithfully | 33 | 76% | transgressed (8); unfaithful (3); violated (3) | unfaithful (6); acts (3); acted unfaithfully (2) | unfaithful (6); committed (4); faith (4) |  |  |
+| G2007 | ἐπιτίθημι | having laid | 37 | 76% | having laid (6); put (5); lay (4) | place (5); laid (3); lay (2) | lay (7); laid (7); put (5) |  |  |
+| H2534 | חֵמָה | rage | 117 | 75% | heat (69); wrath (8); rage (5) | wrath (42); fury (20); furious (4) | wrath (78); fury (15); venom (3) |  |  |
+| H898 | בָּגַד | [those who] act treacherously | 44 | 75% | treacherous ones (7); dealt treacherously (5); acted treacherously (2) | faithless (11); unfaithful (5); broken faith (3) | treacherous (12); traitor (5); betrayed (4) |  |  |
+| H8252 | שָׁקַט | it was at peace | 40 | 75% | rested (11); quiet (7); reposing (3) | rest (7); peace (6); quiet (4) | quiet (18); rest (12); still (2) |  |  |
+| H8438 | תּוֹלָע | scarlet stuff | 36 | 75% | worm (24); worms (1); covering (1) | scarlet yarn (23); maggots (1); scarlet (1) | scarlet (28); worm (6); yarn (5) |  |  |
+| H8433 | תּוֹכֵחָה | rebuke | 28 | 75% | rebuke (11); rebukes (5); chastisement (2) | correction (7); reproof (5); rebuke (2) | reproof (11); rebukes (4); rebuke (3) |  |  |
+| G2186 | ἐφίστημι | stood by | 20 | 75% | standing (3); stood (3); coming up (1) | stood (2); came jesus (1); came up (1) | came upon (3); stood (2); come (2) |  |  |
+| H560 | אֲמַר | saying | 47 | 74% | saying (16); said (9); spoke (3) | said (7); asked (6); gave orders (3) | said (28); commanded (9); declared (9) |  |  |
+| H8435 | תּוֹלֵדוֹת | genealogies | 39 | 74% | generations (26); genealogy (1); according genealogies (1) | according records (13); account (11); genealogies (3) | generations (33); genealogies (2); birth (2) |  |  |
+| H2315 | חֶדֶר | a room | 35 | 74% | chamber (9); room (7); rooms (6) | room (5); bedroom (4); chambers (3) | chamber (12); chambers (6); bedroom (4) |  |  |
+| G4128 | πλῆθος | multitude | 31 | 74% | multitude (15); crowd (5); multitudes (1) | crowd (4); number (3); congregation (2) | multitude (9); people (3); crowd (2) |  |  |
+| H8552 | תָּמַם | was finished | 54 | 74% | finished (8); finishing (6); complete (4) | gone (6); consumed (4); meet end (2) | consumed (10); finished (8); end (6) |  |  |
+| G2212 | ζητέω | seeking | 115 | 74% | seeking (46); seek (30); seeks (5) | looking (9); trying (8); look (8) | seek (40); seeking (35); sought (11) |  |  |
+| H7673 | שָׁבַת | it will cease | 69 | 74% | make cease (10); cause cease (9); ceased (5) | put end (12); rid (3); stopped (2) | put an end (9); cease (7); rest (7) |  |  |
+| G2902 | κρατέω | holding | 46 | 74% | seize (9); having seized (4); seized (4) | arrest (8); arrested (5); took (3) | seized (9); seize (5); hold (5) |  |  |
+| H3276 | יָעַל | they benefit | 23 | 74% | profit (7); benefit (7); advance (1) | profit (3); worthless (2); idols (2) | profit (15); good (1); promote (1) |  |  |
+| H6203 | עֹרֶף | neck | 23 | 74% | neck (12); back neck (3); back (2) | necks (8); backs (4); retreat (2) | neck (12); backs (6); stubborn (5) |  |  |
+| H7497 | רְפָאִים | of rephaim | 23 | 74% | raphaites (17) | rephaim (16); rephaites (1) | rephaim (18); giants (6) |  |  |
+| H7854 | שָׂטָן | adversary | 23 | 74% | adversary (17) | satan (14); oppose (2); enemy (1) | satan (18); adversary (6); now (1) |  |  |
+| H7523 | רָצַח | killer | 42 | 74% | one having killed (23); killed (2); killer (2) | manslayer (13); murderer (10); person (1) | manslayer (19); murderer (13); murder (6) |  |  |
+| H8548 | תָּמִיד | continually | 95 | 74% | continually (40); continuity (18); continual (6) | always (23); regular (19); regularly (5) | regular (35); continually (27); regularly (15) |  |  |
+| H5956 | עָלַם | it will be hidden | 26 | 73% | hidden (8); hide yourself (4); hiding (1) | ignore (4); even unaware (3); too difficult (2) | hidden (9); hide (3); close (2) |  |  |
+| H8597 | תִּפְאֶרֶת | splendor | 48 | 73% | splendor (18); beauty (11); glory (3) | glory (10); glorious (8); splendor (4) | glory (18); beautiful (12); beauty (7) |  |  |
+| H6440 | פָּנֶה | before | 1584 | 73% | face (932); faces (125); before face (48) | before (593); presence (128); front (56) | before (954); face (273); presence (82) |  |  |
+| H8549 | תָּמִים | unblemished | 88 | 73% | perfect (47); complete (4); without blemish (2) | unblemished (26); without blemish (9); all unblemished (9) | without blemish (31); blameless (18); blemish (18) |  |  |
+| H1361 | גָּבַהּ | it was haughty | 33 | 73% | high (7); make high (3); became high (2) | proud (4); soar (2); towered (2) | proud (5); high (5); higher (3) |  |  |
+| H2436 | חֵיק | bosom | 33 | 73% | bosom (19); lap (5) | arms (5); laps (3); inside cloak (2) | lap (5); cloak (4); bosom (4) |  |  |
+| H3584 | כָּחַשׁ | he will deny | 22 | 73% | cringe (3); denies (2); deny (2) | cower before (2); lied (2); cower (2) | lied (2); deal falsely (2); came cringing (2) |  |  |
+| H7941 | שֵׁכָר | strong drink | 22 | 73% | beer (16) | strong drink (16) | strong drink (20); drink (2); drunkards (1) |  |  |
+| H5521 | סֻכָּה | booths | 29 | 72% | huts (11); booths (5); booth (4) | tabernacles (9); booths (4); canopy (2) | booths (21); booth (4); canopy (2) |  |  |
+| H2233 | זֶרַע | offspring | 213 | 72% | seed (124); offspring (25); seed time (1) | descendants (71); offspring (18); children (6) | offspring (131); seed (36); children (11) |  |  |
+| H8641 | תְּרוּמָה | the contribution | 72 | 72% | contribution (39); contributions (6); offering (4) | offering (20); portion (8); offerings (5) | contribution (30); portion (9); contributions (8) |  |  |
+| H5080 | נָדַח | i | 54 | 72% | driven (8); scattered (4); drive (3) | banished (11); exiles (5); banish (3) | driven (13); outcasts (4); driven out (4) |  |  |
+| H1995 | הָמוֹן | multitude | 79 | 72% | multitude (38); tumult (6); crowd (4) | army (9); many (6); multitude (4) | multitude (42); tumult (6); abundance (4) |  |  |
+| G5346 | φημί | he was saying | 61 | 72% | said (21); says (10); saying (9) | replied (14); said (8); declared (3) | said (48); answered (2); saying (2) |  |  |
+| H3474 | יָשַׁר | it was pleasing | 25 | 72% | right (10); straighten (2); smoothed (1) | pleased (4); make (3); please (2) | right (7); straight (5); level (3) |  |  |
+| H8003 | שָׁלֵם | complete | 25 | 72% | whole (7); complete (6); full (2) | fully devoted (5); accurate (2); uncut (2) | whole (10); wholly true (5); full (3) |  |  |
+| G1014 | βούλομαι | desiring | 35 | 71% | wanting (5); intending (4); desires (3) | want (4); wanted (4); chooses (3) | want (5); wishing (3); wished (3) |  |  |
+| H4975 | מׇתְנַיִם | loins | 35 | 71% | loins (21); waist (3); hips (1) | waist (4); around waist (3); side (3) | waist (18); loins (6); waists (4) |  |  |
+| H2370 | חֲזָה | seeing | 28 | 71% | looking (13); seeing (4); seen (2) | watched (6); saw (3); watching (2) | saw (15); looked (6); see (3) |  |  |
+| H8446 | תּוּר | spy out | 21 | 71% | explore (6); explored (4); exploring (1) | spy out (5); spied out (2); spying out (1) | spy out (5); spied out (4); out (2) |  |  |
+| G3004 | λέγω | saying | 984 | 71% | says (244); say (224); saying (183) | said (191); tell (150); asked (59) | said (422); saying (260); say (214) |  |  |
+| G2192 | ἔχω | having | 101 | 71% | having (57); one having (4); keeping (2) | without (5); since (5); held (5) | having (24); need (9); hold (6) |  |  |
+| G2753 | κελεύω | he commanded | 24 | 71% | commanded (12); having commanded (3); command (1) | ordered (12); gave orders (2); directed (2) | ordered (11); commanded (7); gave orders (3) |  |  |
+| G4690 | σπέρμα | seed | 41 | 71% | seed (25); offspring (3); seeds (1) | descendants (10); offspring (9); children (4) | offspring (25); seed (6); seeds (2) |  |  |
+| H5352 | נָקָה | he will go unpunished | 34 | 71% | acquit (5); remain blameless (5); acquitted (4) | go unpunished (10); leave guilty unpunished (2); released (1) | go unpunished (9); innocent (5); free (4) |  |  |
+| G3745 | ὅσος | as many as | 67 | 70% | many (26); much (8); how much (3) | all (23); whatever (8); everything (4) | whatever (22); all (16); much (9) |  |  |
+| H2296 | חָגַר | he girded | 40 | 70% | girded (8); gird (8); wrapped (2) | put (4); armed (3); wearing (3) | put on (6); wearing (4); gird (3) |  |  |
+| H4406 | מִלָּה | the | 20 | 70% | matter (6); word (5); matters (2) | command (2); words (1); requests (1) | words (6); matter (6); word (3) |  |  |
+| H8414 | תֹּהוּ | emptiness | 20 | 70% | emptiness (7); nothingness (4); empty place (1) | empty (3); wasteland (2); chaos (2) | waste (3); empty (3); without form (2) |  |  |
+| H4116 | מָהַר | hurry | 63 | 70% | hurried (17); hurry (9); hasten (5) | quickly (18); immediately (3); soon (2) | quickly (20); hurried (9); hurry (6) |  |  |
+| H5999 | עָמָל | toil | 53 | 70% | toil (16); trouble (12); mischief (3) | labor (14); misery (4); trouble (3) | toil (22); trouble (9); mischief (6) |  |  |
+| H1197 | בָּעַר | you will remove | 92 | 70% | burning (13); remove (11); burn (9) | must purge (9); blazing (4); light (3) | burn (12); burning (10); burned (10) |  |  |
+| H2254 | חָבַל | ruin | 23 | 70% | hold pledge (2); destroy (2); labor (2) | broken (2); get collateral (2); collateral (1) | pledge (4); destroy (3); broken (2) |  |  |
+| H2550 | חָמַל | i will show pity | 36 | 69% | compassion (9); pity (9); spare (5) | spare (5); spared (4); pity (4) | pity (16); spare (7); compassion (4) |  |  |
+| H7378 | רִיב | conduct a case | 62 | 69% | contend (9); contended (6); plead (5) | contend (5); rebuked (4); defend (3) | contend (17); plead (10); quarreled (6) |  |  |
+| H2009 | הִנֵּה | there! | 567 | 69% | behold (390); look (2); behold hither (1) | look (76); here (50); saw (45) | behold (758); here (32); see (12) |  |  |
+| H4791 | מָרוֹם | a high place | 52 | 69% | height (22); heights (3); high (3) | high (15); lofty (3); pride (2) | high (23); heights (9); height (9) |  |  |
+| G3588 | ὁ | the | 647 | 69% | one (106); ones (47); things (36) | son (81); whoever (56); own (25) | things (11); son (6); one (6) |  |  |
+| H2603 | חָנַן | show | 70 | 69% | gracious (13); favor (9); supplicate (4) | mercy (11); merciful (7); gracious (4) | gracious (20); mercy (8); plead (6) |  |  |
+| H3515 | כָּבֵד | heavy | 38 | 68% | heavy (22); great (3); extremely numerous (1) | severe (6); large (4); great (3) | great (9); heavy (9); severe (6) |  |  |
+| H3709 | כַּף | palms | 174 | 68% | palm (47); palms (39); palm sized bowl (12) | hands (45); hand (23); dish (12) | hands (65); hand (45); sole (12) |  |  |
+| G5426 | φρονέω | minding | 22 | 68% | think (7); considering (2); thinking (2) | mind (3); views (1); live harmony (1) | mind (4); think (4); harmony (2) |  |  |
+| H4591 | מָעַט | who] made little | 22 | 68% | decrease (4); become few (4); make few (2) | decrease (2); less (2); some less (1) | few (6); small (4); less (2) |  |  |
+| H6148 | עָרַב | he stood surety for | 22 | 68% | pledged (3); wager (2); surety (2) | puts up security (3); make bargain (2); posts security (2) | pledge (3); safety (2); wager (2) |  |  |
+| H6485 | פָּקַד | their enrolled | 288 | 68% | counted ones (53); visit (36); counted (13) | punish (23); numbered (23); registered (13) | listed (75); punish (41); list (15) |  |  |
+| H5291 | נַעֲרָה | woman | 53 | 68% | young woman (14); girl (8); young women (6) | girl (6); girl's (5); servant girls (4) | young woman (26); young women (11); girl's father (5) |  |  |
+| G3756 | οὐ | not | 28 | 68% | certainly (11); none (4); nothing (2) | never (8); one (5); all (1) | cannot (51); never (34); nothing (20) |  |  |
+| H4219 | מִזְרָק | bowls | 31 | 68% | basin (13); basins (7); bowls (1) | bowl (12); sprinkling bowls (5); bowls (2) | basins (14); silver (12); bowls (2) |  |  |
+| H3046 | יְדַע | you will know | 40 | 68% | know (6); make know (6); knowing (3) | tell (4); know (3); acknowledge (3) | known (13); know (12); make known (9) |  |  |
+| H7130 | קֶרֶב | midst | 166 | 67% | midst (77); innards (12); within (6) | among (49); within (16); entrails (12) | midst (70); among (63); within (24) |  |  |
+| H5158 | נַחַל | the wadi | 132 | 67% | wadi (62); stream (8); wadis (4) | valley (32); brook (24); river (9) | brook (42); valley (38); river (13) |  |  |
+| H3627 | כְּלִי | articles | 269 | 67% | vessels (89); vessel (27); equipment (22) | articles (51); utensils (19); furnishings (12) | vessels (74); utensils (33); vessel (28) |  |  |
+| G3779 | οὕτω(ς) | thus | 70 | 67% | thus (31); way (7); manner (4) | how (10); way (10); like (8) | way (13); thus (13); such (4) |  |  |
+| H8267 | שֶׁקֶר | falsehood | 100 | 67% | falsehood (41); lie (11); deceit (5) | lying (15); lies (12); lie (7) | lying (20); lies (19); false (18) |  |  |

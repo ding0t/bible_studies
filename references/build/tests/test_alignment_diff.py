@@ -78,3 +78,17 @@ def test_ranking_orders_by_how_often_a_word_differs_and_drops_rare_words():
     assert [r["strong"] for r in ranked] == ["H2617", "H776"]
     assert ranked[0]["ult"].most_common(1) == [("covenant faithfulness", 9)]
 
+
+def test_a_study_is_told_about_a_tagged_word_the_translations_disagree_on(tmp_path):
+    from collections import Counter
+    page = tmp_path / "study.md"
+    page.write_text("---\ntitle: t\n---\nHis חֶסֶד (*chesed*, H2617) and the אֶרֶץ (*erets*, H776).\n", encoding="utf-8")
+    rows = [{"strong": "H2617", "n": 10, "differ": 9, "ult": Counter({"covenant faithfulness": 9}),
+             "bsb": Counter({"loving devotion": 9})},
+            {"strong": "H776", "n": 10, "differ": 2, "ult": Counter({"land": 2}), "bsb": Counter({"earth": 2})}]
+    found = alignment_ranking.study_words(page, rows, {})
+    assert len(found) == 1 and found[0].startswith("H2617") and "no recorded decision" in found[0]
+    decided = alignment_ranking.study_words(page, rows, {"H2617": {"kind": "interpretive", "follow": "steadfast love",
+                                                                   "why": "ESV", "status": "proposed"}})
+    assert "site follows 'steadfast love'" in decided[0]
+

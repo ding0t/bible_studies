@@ -1,0 +1,67 @@
+# Which English rendering this site follows for a word the ULT and the Berean Interlinear render
+# differently. Read by references/build/alignment_ranking.py, which writes the kind and the
+# rendering into docs/dev/alignment-disagreements.md, so a decision survives regenerating it.
+#
+# The position (2026-11-06): the original word decides, and the translations are witnesses. Where
+# they disagree, settle it from (1) the word's own uses, (2) the Septuagint and the New Testament,
+# which are Scripture's own translation of it, (3) the ESV, the site's quotation translation; and
+# mark it contested where it stays contested.
+#
+# kind:
+#   wording       synonyms; nothing turns on the choice
+#   convention    a naming or printing convention (LORD for the divine name); follow the site's
+#   idiom         one side renders the literal word, the other its meaning; a claim follows the
+#                 meaning, a word study may give the literal
+#   interpretive  the choice carries a reading; a study resting on this word says which it follows
+#                 and why
+# status: "proposed" until the author confirms it, then "decided".
+#
+# Keyed by the Berean's Strong's number, as the report prints it.
+
+[H3068]
+kind = "convention"
+follow = "LORD"
+status = "proposed"
+why = "The ESV, which the site quotes, prints the divine name as LORD (6,135 of its tagged renderings). Yahweh is the name itself; use it in prose about the name."
+
+[H3069]
+kind = "convention"
+follow = "GOD"
+status = "proposed"
+why = "The ESV prints יהוה as GOD where it follows Adonai, as in \"Lord GOD\" (299 tagged renderings)."
+
+[H3050]
+kind = "convention"
+follow = "LORD"
+status = "proposed"
+why = "The ESV renders the short form יָהּ as LORD in all 50 tagged places; the ULT transliterates it Yah."
+
+[H325]
+kind = "convention"
+follow = "Ahasuerus"
+status = "proposed"
+why = "The ESV keeps the Hebrew name; the BSB uses the Greek Xerxes. Both name the same king."
+
+[H639]
+kind = "idiom"
+follow = "anger"
+status = "proposed"
+why = "אַף is the nose, and \"burning of the nose\" is the Hebrew idiom for anger. The ESV gives anger (177) or wrath (22); the ULT's nose is the literal word for a word study, not the meaning."
+
+[H727]
+kind = "wording"
+follow = "ark"
+status = "proposed"
+why = "The ESV and the BSB say ark; the ULT says box. The same object."
+
+[H3727]
+kind = "interpretive"
+follow = "mercy seat"
+status = "proposed"
+why = "The Septuagint renders it ἱλαστήριον (Exodus 25:17), the word Hebrews 9:5 uses for it and Paul uses of Christ (Romans 3:25). \"Mercy seat\" (ESV, BSB) keeps that line; the ULT's \"atonement lid\" describes the object but loses it."
+
+[H2617]
+kind = "interpretive"
+follow = "steadfast love"
+status = "proposed"
+why = "Three committees, three renderings: covenant faithfulness (ULT), loving devotion (BSB), steadfast love (ESV, 185 tagged). Following the ESV keeps a study's wording and its quotations together; a study about חֶסֶד itself should work the word from its uses and say what each rendering keeps."
