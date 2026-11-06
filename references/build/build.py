@@ -8,6 +8,7 @@ not here.
 import collections
 import csv
 import difflib
+import html
 import json
 import math
 import re
@@ -1233,41 +1234,82 @@ def ingest_openbible_geocoding(conn: sqlite3.Connection) -> None:
           f"with coordinates, {sum(1 for r in rows if r[3])} linked to TIPNR")
 
 
-def ingest_uhg(conn: sqlite3.Connection) -> None:
-    """UHG: the Hebrew reference grammar, one row per article.
+def _html_table_text(block: str) -> str:
+    """A `.. raw:: html` block as plain text: the case-ending tables of the Greek grammar are
+    HTML, and stripping the block would throw the paradigms away. Style rules are dropped, each
+    row becomes one line and cells are separated by ' | '."""
+    block = re.sub(r"(?is)<style.*?</style>", "", block)
+    block = re.sub(r"(?i)</t[dh]>\s*", " | ", block)
+    block = re.sub(r"(?i)</tr>", "\n", block)
+    block = re.sub(r"<[^>]+>", "", block)
+    lines = [re.sub(r"(\s*\|\s*)+$", "", re.sub(r"\s+", " ", l)).strip() for l in html.unescape(block).splitlines()]
+    return "\n".join(l for l in lines if l)
 
-    Sphinx directives, cross-reference roles and include lines are stripped to leave prose --
-    `:ref:`masculine<gender_masculine>`` becomes "masculine". The articles are the point, not the
-    HTML build, so nothing here tries to resolve the includes.
-    """
-    content_dir = OPEN_DATA / "uw-uhg" / "content"
+
+def _rst_prose(raw: str) -> tuple[str, str]:
+    """(title, body) of one Sphinx article, with directives, cross-reference roles and include
+    lines reduced to prose. Includes are not resolved: the articles are the point, not the HTML build."""
+    lines = []
+    source = raw.splitlines()
+    i = 0
+    while i < len(source):
+        line = source[i]
+        raw = re.match(r"(\s*)\.\. raw::\s*html", line)
+        if raw:
+            i += 1
+            block = []
+            while i < len(source) and (not source[i].strip() or len(source[i]) - len(source[i].lstrip()) > len(raw.group(1))):
+                block.append(source[i])
+                i += 1
+            lines.extend(["", *_html_table_text("\n".join(block)).splitlines(), ""])
+            continue
+        if not line.startswith((":github_url:", ".. _", ".. include::", ".. toctree::")):
+            lines.append(line)
+        i += 1
+    title = ""
+    for k, line in enumerate(lines[:-1]):
+        if line.strip() and set(lines[k + 1].strip()) in ({"="}, {"-"}) and lines[k + 1].strip():
+            title = line.strip()
+            break
+    body = re.sub(r":ref:`([^<`]+)<[^>]+>`", r"\1", "\n".join(lines))
+    body = re.sub(r":\w+:`([^`]+)`", r"\1", body)
+    return title, body.strip()
+
+
+def ingest_grammar(conn: sqlite3.Connection, work_id: str, submodule: str, title: str, repo: str,
+                   url: str) -> None:
+    """A unfoldingWord reference grammar (UHG for Hebrew, UGG for Greek), one row per article."""
+    content_dir = OPEN_DATA / submodule / "content"
     if not content_dir.is_dir():
-        print("uw-uhg: missing -- skipped")
+        print(f"{submodule}: missing -- skipped")
         return
     conn.execute(
         "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
         "source_commit, ingested_at, license, license_tier, attribution) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
-        ("uw-uhg", None, "unfoldingWord Hebrew Grammar", "eng", "uw-uhg",
-         "https://git.door43.org/unfoldingWord/en_uhg", submodule_commit("uw-uhg"), TODAY,
-         "Creative Commons: BY-SA 4.0", "open", "unfoldingWord, https://www.unfoldingword.org/uhg"),
+        (work_id, None, title, "eng", submodule, f"https://github.com/ding0t/{repo}",
+         submodule_commit(submodule), TODAY, "Creative Commons: BY-SA 4.0", "open",
+         f"unfoldingWord, {url}"),
     )
     rows = []
     for path in sorted(content_dir.glob("*.rst")):
-        raw = path.read_text(encoding="utf-8", errors="replace")
-        lines = [l for l in raw.splitlines()
-                 if not l.startswith((":github_url:", ".. _", ".. include::", ".. toctree::"))]
-        title = ""
-        for i, line in enumerate(lines[:-1]):
-            if line.strip() and set(lines[i + 1].strip()) in ({"="}, {"-"}) and lines[i + 1].strip():
-                title = line.strip()
-                break
-        body = re.sub(r":ref:`([^<`]+)<[^>]+>`", r"\1", "\n".join(lines))
-        body = re.sub(r":\w+:`([^`]+)`", r"\1", body)
-        rows.append(("uw-uhg", path.stem, title or path.stem, body.strip()))
+        if path.stem == "conf":
+            continue
+        article_title, body = _rst_prose(path.read_text(encoding="utf-8", errors="replace"))
+        rows.append((work_id, path.stem, article_title or path.stem, body))
     conn.executemany(
         "INSERT INTO grammar_articles (work_id, slug, title, body) VALUES (?,?,?,?)", rows)
     conn.commit()
-    print(f"uw-uhg: {len(rows)} grammar articles")
+    print(f"{work_id}: {len(rows)} grammar articles")
+
+
+def ingest_uhg(conn: sqlite3.Connection) -> None:
+    ingest_grammar(conn, "uw-uhg", "uw-uhg", "unfoldingWord Hebrew Grammar", "en_uhg",
+                   "https://www.unfoldingword.org/uhg")
+
+
+def ingest_ugg(conn: sqlite3.Connection) -> None:
+    ingest_grammar(conn, "uw-ugg", "uw-ugg", "unfoldingWord Greek Grammar", "en_ugg",
+                   "https://www.unfoldingword.org/ugg")
 
 
 # USFM three-letter book code to this database's book code.
@@ -2543,6 +2585,7 @@ def main() -> None:
     ingest_uw_tn_quotations(conn)
     ingest_uw_tn_notes(conn)
     ingest_uhg(conn)
+    ingest_ugg(conn)
     ingest_dss(conn)
     ingest_lxx_lemmas(conn)
     set_versification(conn)

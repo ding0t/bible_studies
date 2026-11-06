@@ -571,6 +571,15 @@ purpose = "88 articles on what a Hebrew FORM does, as against what a word means.
 strengths = ["The only source here answering the grammar question -- gentilic adjectives, the dual, construct chains, the cohortative. Before it existed, grammar claims came from memory."]
 limits = ["88 articles is a primer, not a reference grammar. Absence of an article is not evidence about the language."]
 
+[profiles.greek-grammar]
+kind = ["grammar"]
+era = "modern"
+language = "grc"
+applies_to = ["uw-ugg"]
+purpose = "94 articles on what a Koine Greek FORM does -- case, tense, voice, mood, the article, participles -- with the ending paradigms as tables, as against what a word means."
+strengths = ["Answers the Greek grammar question the Hebrew grammar answers for the Old Testament. Each article carries examples from the New Testament with the Greek, a transliteration and a gloss.", "The case-ending and verb paradigms are kept as plain-text tables."]
+limits = ["A learner's and translator's grammar, not a reference grammar such as Wallace or BDAG-era work: a point resting on a fine grammatical distinction should be checked there too. Absence of an article is not evidence about the language.", "Aorist, perfect and the other tense articles state the grammar's own view of aspect, which is a live scholarly debate. Mark it as contested where a study depends on it."]
+
 # --- Annotation ------------------------------------------------------------
 
 [profiles.macula]

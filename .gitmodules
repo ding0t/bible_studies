@@ -59,3 +59,6 @@
 	path = references/open-data/uw-tn
 	url = https://github.com/ding0t/en_tn.git
 	shallow = true
+[submodule "references/open-data/uw-ugg"]
+	path = references/open-data/uw-ugg
+	url = https://github.com/ding0t/en_ugg.git

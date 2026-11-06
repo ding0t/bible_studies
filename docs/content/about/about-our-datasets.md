@@ -5,7 +5,7 @@ description: "What Bible text, lexical, and commentary data backs this site, org
 tags: ["data", "sources", "licensing", "transparency"]
 draft: false
 date_created: 2026-07-27
-date_modified: 2026-10-28
+date_modified: 2026-11-06
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -117,24 +117,27 @@ A claim stays checkable only while the source under it can still be reached. So 
 its own copy of each open source it uses, pinned to an exact version. If a dataset changes upstream,
 the studies do not change with it.
 
-The four unfoldingWord sources are the exception so far: the Hebrew Bible, Greek New Testament,
-Literal Text and Hebrew Grammar. They are pinned to an exact version, but the copy is still the
-publisher's own, on their server. Taking our own copies is on the list.
+The six unfoldingWord sources (the Hebrew Bible, Greek New Testament, Literal Text, the Hebrew and
+Greek Grammars and the Translation Notes) were the exception until 2026-11-06, when each was
+mirrored to this project's own GitHub account and the pins moved there. If unfoldingWord's server
+disappeared, every pinned version would still be reachable.
 
-Those four also carry a **share-alike** licence (CC BY-SA). That places no limit on quoting them.
+Those six also carry a **share-alike** licence (CC BY-SA). That places no limit on quoting them.
 It would matter only if this site published a dataset built from them.
 
-### What each of the four does here
+### What each of the six does here
 
 They are working instruments, and no study quotes from them; studies quote the ESV by default. Each
 answers a question nothing else here can:
 
 | Source | What it answers | Where it shows up |
 |---|---|---|
-| **ULT**, Literal Text | *Which original word is this English word translating?* Every word carries an alignment naming the Hebrew or Greek behind it | the 475,036 rows in `word_alignment`, and 326 translator footnotes |
+| **ULT**, Literal Text | *Which original word is this English word translating?* Every word carries an alignment naming the Hebrew or Greek behind it | the 475,036 rows in `word_alignment`, and 322 translator footnotes |
 | **UHB**, Hebrew Bible | *What did the Masoretes say to read instead?* The text the ULT's Old Testament alignment resolves against | 949 footnotes, 930 of them **Qere** readings |
 | **UGNT**, Greek New Testament | *Does a second Greek edition read this differently?* Derived from Alan Bunning's Heuristic Prototype, a text built by a computer-assisted method from the manuscripts | a fourth Greek witness in `verses`, and 22 notes on disputed passages |
-| **UHG**, Hebrew Grammar | *What does this grammatical form do,* as distinct from what the word means | the 88 rows in `grammar_articles` |
+| **UHG**, Hebrew Grammar | *What does this grammatical form do,* as distinct from what the word means | 88 of the rows in `grammar_articles` |
+| **UGG**, Greek Grammar | The same question for Greek: what a case ending, tense, voice or mood does, with the ending paradigms | 94 of the rows in `grammar_articles` |
+| **Translation Notes** | *Does a second reader take this phrase as a metaphor, an idiom, an implied subject?* Written for translators, so a check on a reading and never a source for one | the 109,675 rows in `translation_notes` |
 
 unfoldingWord state two cautions themselves.
 

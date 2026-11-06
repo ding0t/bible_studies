@@ -297,7 +297,7 @@ and the reasons this site keeps 430 are in `study-state/chronology-anchors.yml`
 
 ## unfoldingWord: the alignment and the grammar
 
-Four CC BY-SA 4.0 sources submoduled 2026-09-05 and wired end to end, and a fifth, the Translation Notes, added 2026-10-20 (for the quotations it names; its notes themselves were loaded 2026-11-06). They answer questions
+Four CC BY-SA 4.0 sources submoduled 2026-09-05 and wired end to end, a fifth, the Translation Notes, and a sixth, the Greek Grammar (2026-11-06), added 2026-10-20 (for the quotations it names; its notes themselves were loaded 2026-11-06). They answer questions
 nothing else here could.
 
 **`word_alignment` — which original word each English word renders.** 475,036 rows from ULT, whose
@@ -312,8 +312,8 @@ both אֵת and הַשָּׁמַיִם, because the object marker has no English
 frames nest. Collapsing rows that share an English phrase would throw the marker away and assert a
 one-to-one mapping the Hebrew does not have; `tests/test_unfoldingword.py` pins it.
 
-**`grammar_articles` — what a form does, as against what a word means.** 88 articles from UHG,
-searched with `query.py grammar <term>` or `bible_grammar`. The lexicons here answer "what does this
+**`grammar_articles` — what a form does, as against what a word means.** 88 articles from UHG (Hebrew) and 94 from UGG (Greek, added 2026-11-06, with its case-ending and verb paradigms turned from HTML into plain-text tables),
+searched with `query.py grammar <term> [--language hebrew|greek]` or `bible_grammar`. The lexicons here answer "what does this
 lemma mean"; until this went in, "what is a gentilic adjective doing" had to come from recall.
 
 | work_id | what | note |
@@ -322,6 +322,7 @@ lemma mean"; until this went in, "what is a gentilic adjective doing" had to com
 | `uw-uhb` | unfoldingWord Hebrew Bible, 23,145 verses | the Hebrew side, and **an alignment anchor rather than a second Hebrew text** — see the versification warning below before querying it beside `morphhb-wlc`. Its per-word morphology is deliberately **not** loaded into `morphology` — that table is MACULA's off the same WLC, and a second opinion in the same columns would silently double every count a word study makes |
 | `uw-ugnt` | unfoldingWord Greek NT, 7,958 verses | the Greek side, **and a distinct witness**: a Bunning Heuristic Prototype text, not SBLGNT. Measured over the 7,939 verses the two share: 14.7% differ once accents, SBL sigla, case and elision marks are normalised, 11.4% still differ after itacism (ει/ι) is collapsed too, and only **87 verses differ by three or more words**. So "one verse in six" is the right raw count but the wrong impression — the bulk is manuscript orthography (Δαυείδ for Δαυίδ 59×, Πειλᾶτος for Πιλᾶτος 39×, Ἡλείας for Ἡλίας 16×), not textual instability. Where it *is* substantive it is substantive at the places that matter: Mark 16:8ff, the pericope adulterae (John 8:4–11), Luke 23:34, 1 Cor 7:33–34, and John 1:34's Υἱὸς against SBLGNT's ἐκλεκτός. Treat it as a real second witness worth consulting, and confirm with `bible_verse` which text a reading came from |
 | `uw-uhg` | unfoldingWord Hebrew Grammar, 88 articles | no verses at all; it lives in `grammar_articles` |
+| `uw-ugg` | unfoldingWord Greek Grammar, 94 articles (submodule `references/open-data/uw-ugg`, shallow) | no verses; it lives in `grammar_articles`. Its examples are New Testament verses, but the table holds the articles only |
 | `uw-tn` | unfoldingWord Translation Notes (submodule `references/open-data/uw-tn`, shallow) | 109,675 rows in `translation_notes`: 108,353 phrase-level notes, 1,143 chapter and 66 book introductions, 113 chapter fronts. Each note quotes the original-language phrase, names the Translation Academy article it rests on (`figs-metaphor`, `figs-metonymy`, `figs-idiom`, `figs-activepassive`, `writing-pronouns`…) and suggests a rendering. Query with `query.py tn <book> <ch> [v]` or `bible_translation_notes` (also a `translation_notes` section of `passage_brief`). **A check on a reading, never a source for one**: written for translators into other languages, so most of it is rendering advice, and silence is not evidence. English numbering. |
 | `uw-tn-quotations` | the quotations the notes name | 213 New Testament verses with the Old Testament verse they quote, in `cross_references`. An independent answer key for the derived links (see [docs/dev/link-detection-research.md](../docs/dev/link-detection-research.md)), so it is kept out of their corroboration. CC BY-SA 4.0 |
 

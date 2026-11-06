@@ -29,7 +29,7 @@ def conn():
 def test_all_unfoldingword_sources_ingested(conn):
     works = {r["work_id"]: r for r in conn.execute(
         "SELECT work_id, license_tier, license FROM works WHERE work_id LIKE 'uw-%'")}
-    assert set(works) == {"uw-uhb", "uw-ugnt", "uw-ult", "uw-uhg", "uw-tn", "uw-tn-quotations"}
+    assert set(works) == {"uw-uhb", "uw-ugnt", "uw-ult", "uw-uhg", "uw-ugg", "uw-tn", "uw-tn-quotations"}
     # all of them are CC BY-SA, which is open for this project's purposes but is NOT plain CC BY --
     # see references/README.md before publishing a derived dataset built on them
     for work in works.values():
@@ -260,4 +260,22 @@ def test_a_verse_with_no_notes_says_silence_is_not_evidence(conn):
     bare = next(v for v in range(1, 72) if v not in covered)
     r = query.lookup_translation_notes(conn, "John", 6, bare)
     assert r["total"] == 0 and "not evidence" in r["warning"]
+
+
+def test_grammar_can_be_limited_to_one_language(conn):
+    greek = query.lookup_grammar(conn, "case", language="greek")
+    hebrew = query.lookup_grammar(conn, "construct", language="hebrew")
+    assert greek and {r["work_id"] for r in greek} == {"uw-ugg"}
+    assert hebrew and {r["work_id"] for r in hebrew} == {"uw-uhg"}
+
+
+def test_greek_case_endings_survive_as_a_text_table(conn):
+    """The paradigms are raw HTML upstream. Stripping the block would lose exactly the content a
+    grammar lookup is for, and leaving it in puts CSS in every quotation."""
+    body = str(query.lookup_grammar(conn, "case_accusative", full=True, language="greek")[0]["body"])
+    assert "Accusative Case Endings" in body
+    assert "υς | ς | α" in body
+    assert "<td" not in body and "tg-" not in body and ".. raw::" not in body
+    assert conn.execute("SELECT COUNT(*) FROM grammar_articles WHERE work_id='uw-ugg' AND "
+                        "(body LIKE '%<td%' OR body LIKE '%.. raw::%')").fetchone()[0] == 0
 

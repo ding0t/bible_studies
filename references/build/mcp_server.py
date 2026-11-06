@@ -364,22 +364,25 @@ def bible_interlinear(book: str, chapter: int, verse: int, interlinear: str = "u
 
 
 @mcp.tool()
-def bible_grammar(term: str, full: bool = False) -> list:
-    """Biblical Hebrew grammar articles -- what a FORM does, as against what a word means.
+def bible_grammar(term: str, full: bool = False, language: str | None = None) -> list:
+    """Biblical Hebrew and Greek grammar articles -- what a FORM does, as against what a word means.
 
     The lexicons reached through `bible_word` and `twot_root` say what a word means. This says what
     the morphology is doing: what a gentilic adjective is, how the dual differs from the plural,
-    what the definite article does in a construct chain. develop-bible-study's Phase 4 asks for
-    "grammar/syntax points that affect meaning" and this is where they come from -- previously they
-    came from recall, which is exactly the habit this project exists to replace.
+    what the definite article does in a construct chain, what the genitive case ending signals,
+    what the aorist tense states. develop-bible-study's Phase 4 asks for "grammar/syntax points
+    that affect meaning" and this is where they come from -- previously they came from recall,
+    which is exactly the habit this project exists to replace.
 
-    Search by slug, title or phrase: "gentilic", "construct", "dual", "cohortative". Pass
-    `full=True` for the complete article once you have found the right one; the default truncates so
-    several can be scanned at once. Source is unfoldingWord's UHG, CC BY-SA 4.0.
+    Search by slug, title or phrase: "gentilic", "construct", "dual", "cohortative", "genitive",
+    "aorist", "middle". Pass `full=True` for the complete article once you have found the right
+    one; the default truncates so several can be scanned at once. `language` ("hebrew" or "greek")
+    limits the search; each result names its work_id (uw-uhg or uw-ugg). Source is unfoldingWord's
+    UHG and UGG, CC BY-SA 4.0.
     """
     conn = query.connect()
     try:
-        return query.lookup_grammar(conn, term, full=full)
+        return query.lookup_grammar(conn, term, full=full, language=language)
     finally:
         conn.close()
 

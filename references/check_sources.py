@@ -108,6 +108,8 @@ def ingested_dirs() -> set[str]:
     # shared by UHB and UGNT and hit exactly that: both were ingested and both reported raw-only.
     # Match the call sites too rather than un-sharing the function.
     found |= set(re.findall(r'ingest_unfoldingword_text\(conn, "([a-z0-9-]+)"', source))
+    # ingest_grammar(conn, work_id, submodule, ...) is shared by UHG and UGG for the same reason.
+    found |= set(re.findall(r'ingest_grammar\(conn, "[a-z0-9-]+", "([a-z0-9-]+)"', source))
     return found
 
 

@@ -894,7 +894,7 @@ Not study topics — work on the material the studies rest on.
 
 ### 8.1 unfoldingWord sources: mirror, update, and use more of them
 
-Reviewed 2026-11-06; steps 1 to 3 done. Five unfoldingWord submodules sit in
+Reviewed 2026-11-06; steps 1 to 4 done. Five unfoldingWord submodules sit in
 `references/open-data/`: `uw-uhb`, `uw-ugnt`, `uw-ult`, `uw-uhg` and, since 2026-10-20, `uw-tn`
 (Translation Notes, shallow). Until 2026-11-06 they pointed at
 [Door43](https://git.door43.org/unfoldingWord) directly; they are now mirrored to `ding0t/*` like
@@ -915,9 +915,11 @@ every other source there. All are CC BY-SA 4.0 (`uw-tn`'s `LICENSE.md` says so).
    and never carry the exegesis. CC BY-SA: kept out of the browser pop-ups and the public
    connector until the ShareAlike terms are checked. Still open: a validator or review step that
    uses them, and deciding whether the ShareAlike terms allow quoting a note on the site.
-4. **Add the Greek grammar.** `en_ugg` (updated 2026-11-05) would give `bible_grammar` the same
-   coverage in Greek that `uw-uhg` gives in Hebrew (88 articles), where Greek grammar claims
-   now come from memory.
+4. **Done 2026-11-06: added the Greek grammar.** `en_ugg` is mirrored and submoduled as `uw-ugg`;
+   its 94 articles sit in `grammar_articles` beside UHG's 88, with the case-ending and verb
+   paradigms converted from HTML to plain-text tables. `bible_grammar` and `query.py grammar`
+   take a `language` filter and each result names its work. The tense articles state one view of
+   aspect, which is debated, so a study resting on it should mark it contested.
 5. **Compare the two English alignments.** The ULT and the Berean Interlinear each align English to
    the Hebrew and Greek independently. A script listing where they disagree would flag verses
    where a translator's choice may be carrying an argument. Untried.

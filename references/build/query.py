@@ -925,25 +925,33 @@ def lookup_names(conn: sqlite3.Connection, name: str | None = None, book: str | 
             "individuals": _names_detail(conn, rows)}
 
 
-def lookup_grammar(conn: sqlite3.Connection, term: str, full: bool = False) -> list[dict[str, object]]:
-    """Search the unfoldingWord Hebrew Grammar by slug, title or body.
+GRAMMAR_WORKS = {"hebrew": "uw-uhg", "greek": "uw-ugg"}
+
+
+def lookup_grammar(conn: sqlite3.Connection, term: str, full: bool = False,
+                   language: str | None = None) -> list[dict[str, object]]:
+    """Search the unfoldingWord reference grammars -- Hebrew (UHG) and Greek (UGG) -- by slug,
+    title or body. `language` ('hebrew' or 'greek') limits it to one.
 
     The lexicons in this database say what a word means. This says what a *form* does -- what a
-    gentilic adjective is, what the definite article does to a construct chain -- which
-    develop-bible-study's Phase 4 asks for ("grammar/syntax points that affect meaning") and which
-    nothing here could previously answer without recall.
+    gentilic adjective is, what the definite article does to a construct chain, what the genitive
+    case ending signals -- which develop-bible-study's Phase 4 asks for ("grammar/syntax points that
+    affect meaning") and which nothing here could previously answer without recall.
 
     Matched loosely on purpose: a morphology code like `Ncfsa` is not what anyone types, so slug and
     title are searched first and the body only if that finds nothing.
     """
+    works = [GRAMMAR_WORKS[language.lower()]] if language else list(GRAMMAR_WORKS.values())
+    marks = ",".join("?" * len(works))
     needle = f"%{term.lower().replace(' ', '_')}%"
     rows = [dict(r) for r in conn.execute(
-        "SELECT slug, title, body FROM grammar_articles WHERE lower(slug) LIKE ? OR lower(title) LIKE ? "
-        "ORDER BY length(slug)", (needle, f"%{term.lower()}%"))]
+        f"SELECT work_id, slug, title, body FROM grammar_articles WHERE work_id IN ({marks}) AND "
+        "(lower(slug) LIKE ? OR lower(title) LIKE ?) ORDER BY length(slug)",
+        (*works, needle, f"%{term.lower()}%"))]
     if not rows:
         rows = [dict(r) for r in conn.execute(
-            "SELECT slug, title, body FROM grammar_articles WHERE lower(body) LIKE ? ORDER BY length(slug) LIMIT 8",
-            (f"%{term.lower()}%",))]
+            f"SELECT work_id, slug, title, body FROM grammar_articles WHERE work_id IN ({marks}) AND "
+            "lower(body) LIKE ? ORDER BY length(slug) LIMIT 8", (*works, f"%{term.lower()}%"))]
     if not full:
         for r in rows:
             body = str(r["body"])
@@ -1440,12 +1448,12 @@ def cmd_names(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
 
 
 def cmd_grammar(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
-    rows = lookup_grammar(conn, args.term, full=args.full)
+    rows = lookup_grammar(conn, args.term, full=args.full, language=args.language)
     if not rows:
         print(f"no grammar article matching {args.term!r}")
         return
     for row in rows[: 1 if args.full else 6]:
-        print(f"\n  {row['title']}  ({row['slug']})")
+        print(f"\n  {row['title']}  ({row['slug']}, {row['work_id']})")
         for line in str(row["body"]).splitlines():
             if line.strip():
                 print(f"    {line}")
@@ -1639,8 +1647,9 @@ def main() -> None:
     p_names.add_argument("--verse", type=int)
     p_names.set_defaults(func=cmd_names)
 
-    p_gram = sub.add_parser("grammar", help="Hebrew grammar articles (unfoldingWord UHG)")
-    p_gram.add_argument("term", help="a slug, title or phrase -- e.g. gentilic, construct, dual")
+    p_gram = sub.add_parser("grammar", help="Hebrew and Greek grammar articles (unfoldingWord UHG, UGG)")
+    p_gram.add_argument("--language", choices=sorted(GRAMMAR_WORKS), help="limit to one language")
+    p_gram.add_argument("term", help="a slug, title or phrase -- e.g. gentilic, construct, dual, genitive, aorist")
     p_gram.add_argument("--full", action="store_true", help="print the first match in full")
     p_gram.set_defaults(func=cmd_grammar)
 
