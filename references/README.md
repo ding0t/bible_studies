@@ -414,9 +414,11 @@ The catalog's `[license_map]` (`references/sources.toml`) tiers BY-SA as `open`,
 `bible-text.db`, and unfoldingWord additionally require that a derivative state its changes and drop
 their trademark. Revisit before publishing any dataset derived from them.
 
-**Not mirrored, unlike everything else here.** Door43 is Gitea, `gh auth` failed on the machine that
-added them, so the submodules point upstream directly. Pinned commits protect against upstream
-changing, not against Door43 disappearing.
+**Mirrored to `ding0t/*` on 2026-11-06**, like everything else here: `hbo_uhb`, `el-x-koine_ugnt`,
+`en_ult`, `en_uhg` and `en_tn`, branches and tags only (GitHub refuses Door43's `refs/pull/*`), with
+`master` as the default branch to match what the submodules track. The submodules now point at the
+mirrors, so the pinned commits survive Door43 disappearing. To bump a pin, fetch from Door43, push
+the new commits to the mirror, then update the submodule.
 
 `scripture_links` holds three classes of derived link, computed at build time by `quotations.py`. Nothing upstream supplies them, so nothing upstream will fail if they degrade — `tests/test_quotations.py` is the only thing standing between a silent regression and a wrong citation.
 

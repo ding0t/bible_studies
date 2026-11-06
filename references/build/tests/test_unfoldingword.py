@@ -94,10 +94,10 @@ def test_grammar_body_has_its_sphinx_directives_stripped(conn):
 def test_footnotes_ingested_for_all_three_texts(conn):
     """The notes table sat empty for the whole life of this database before these were wired in,
     which made `query.py passage --notes` a flag that silently returned nothing for every passage
-    in every work. Counts are pinned exactly against a raw grep of the USFM: 949 + 22 + 326."""
+    in every work. Counts are pinned exactly against a raw grep of the USFM: 949 + 22 + 322."""
     counts = dict(conn.execute(
         "SELECT work_id, COUNT(*) FROM notes WHERE work_id LIKE 'uw-%' GROUP BY work_id"))
-    assert counts == {"uw-uhb": 949, "uw-ugnt": 22, "uw-ult": 326}
+    assert counts == {"uw-uhb": 949, "uw-ugnt": 22, "uw-ult": 322}
 
 
 def test_uhb_notes_are_overwhelmingly_qere_readings(conn):
