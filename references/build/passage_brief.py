@@ -65,7 +65,7 @@ DEFAULT_STUDY_WORKS = ["esv-study-bible"]  # the quotation-verification path
 MAX_DETAIL_VERSES = 12
 MAX_TWOT_LOOKUPS = 25
 SECTIONS = ("addressing", "historical", "structure", "text", "words", "crossrefs", "variants",
-            "names", "notes", "studies")
+            "names", "notes", "translation_notes", "studies")
 
 
 _OSIS_CODES = {code.lower(): code
@@ -204,6 +204,10 @@ def build_requests(book: str, chapter: int, verse_start: int, verse_end: int | N
                 reqs.append({"id": f"note:{work}:{v}", "tool": "study_note",
                              "args": {"book": book, "chapter": chapter, "verse": v,
                                       "work_id": work}})
+    if "translation_notes" in include:
+        reqs.append({"id": "translation-notes", "tool": "bible_translation_notes",
+                     "args": {"book": book, "chapter": chapter, "verse": verse_start,
+                              "verse_end": end, "limit": 40}})
     return reqs
 
 
@@ -283,7 +287,8 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
     and STEP's list entries touching it: the OT text quoted, a name of God, a letter part), text, words (the ULT and BSB
     interlinears + TWOT roots for Hebrew), crossrefs, variants (Dead Sea Scrolls, plus the
     translators' footnotes naming which editions read what), names (every person and place the
-    passage names, disambiguated), notes, studies (what this site's existing studies already say
+    passage names, disambiguated), notes, translation_notes (unfoldingWord's phrase-level notes, a
+    check on the exegesis and never a source for it; at most 40), studies (what this site's existing studies already say
     about the chapter).
     """
     translations = list(translations or DEFAULT_TRANSLATIONS)
@@ -373,6 +378,8 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
             work: {str(v): _ok(results, f"note:{work}:{v}") or [] for v in verses}
             for work in study_works
         }
+    if "translation_notes" in include:
+        brief["translation_notes"] = _ok(results, "translation-notes")
 
     if "studies" in include:
         brief["existing_studies"] = _existing_studies(book, chapter, verse_start, verse_end)

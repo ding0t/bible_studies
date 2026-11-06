@@ -894,7 +894,7 @@ Not study topics — work on the material the studies rest on.
 
 ### 8.1 unfoldingWord sources: mirror, update, and use more of them
 
-Reviewed 2026-11-06; steps 1 and 2 done. Five unfoldingWord submodules sit in
+Reviewed 2026-11-06; steps 1 to 3 done. Five unfoldingWord submodules sit in
 `references/open-data/`: `uw-uhb`, `uw-ugnt`, `uw-ult`, `uw-uhg` and, since 2026-10-20, `uw-tn`
 (Translation Notes, shallow). Until 2026-11-06 they pointed at
 [Door43](https://git.door43.org/unfoldingWord) directly; they are now mirrored to `ding0t/*` like
@@ -908,12 +908,13 @@ every other source there. All are CC BY-SA 4.0 (`uw-tn`'s `LICENSE.md` says so).
    `master` as the default. `.gitmodules` now points at the mirrors, and `references/README.md`
    and the wire-up state file say so. To bump a pin: fetch from Door43, push to the mirror, then
    update the submodule.
-3. **Load the full Translation Notes.** Only the 213 quotation links are loaded now. Each
-   `tn_<BOOK>.tsv` holds verse-level notes on hard phrases, with the original-language quote and
-   its occurrence number. Add them as a table, a lookup in `query.py`, an MCP tool and a section in
-   `passage_brief`. They are a checking source and never carry the exegesis (the same rule as the
-   study-Bible notes). CC BY-SA: keep them out of the browser pop-ups and the public connector
-   until the ShareAlike terms are checked.
+3. **Done 2026-11-06: loaded the full Translation Notes.** 109,675 rows in `translation_notes`
+   (108,353 phrase notes, 1,143 chapter and 66 book introductions, 113 chapter fronts), with
+   `query.py tn`, the `bible_translation_notes` MCP tool, a batch-registry entry and a
+   `translation_notes` section of `passage_brief` (at most 40 notes). They are a checking source
+   and never carry the exegesis. CC BY-SA: kept out of the browser pop-ups and the public
+   connector until the ShareAlike terms are checked. Still open: a validator or review step that
+   uses them, and deciding whether the ShareAlike terms allow quoting a note on the site.
 4. **Add the Greek grammar.** `en_ugg` (updated 2026-11-05) would give `bible_grammar` the same
    coverage in Greek that `uw-uhg` gives in Hebrew (88 articles), where Greek grammar claims
    now come from memory.

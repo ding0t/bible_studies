@@ -29,7 +29,7 @@ def conn():
 def test_all_unfoldingword_sources_ingested(conn):
     works = {r["work_id"]: r for r in conn.execute(
         "SELECT work_id, license_tier, license FROM works WHERE work_id LIKE 'uw-%'")}
-    assert set(works) == {"uw-uhb", "uw-ugnt", "uw-ult", "uw-uhg", "uw-tn-quotations"}
+    assert set(works) == {"uw-uhb", "uw-ugnt", "uw-ult", "uw-uhg", "uw-tn", "uw-tn-quotations"}
     # all of them are CC BY-SA, which is open for this project's purposes but is NOT plain CC BY --
     # see references/README.md before publishing a derived dataset built on them
     for work in works.values():
@@ -228,3 +228,36 @@ def test_unverified_map_rows_are_labelled(conn):
     assert sources.get("verse+unverified", 0) < 20
     # the great majority must be verified against the WLC, not left as a bare inference
     assert sources["verse+verified"] > 1800
+
+
+def test_every_translation_note_row_is_loaded(conn):
+    """Pinned against the raw files, not a remembered number: the upstream notes change with each
+    release, and a row dropped by the parser (a reference shape it did not expect) is silent."""
+    from build import OPEN_DATA
+    raw = sum(len(p.read_text(encoding="utf-8").splitlines()) - 1 for p in (OPEN_DATA / "uw-tn").glob("tn_*.tsv"))
+    assert conn.execute("SELECT COUNT(*) FROM translation_notes").fetchone()[0] == raw
+
+
+def test_a_translation_note_names_its_phrase_and_figure(conn):
+    r = query.lookup_translation_notes(conn, "John", 6, 35)
+    bread = [n for n in r["notes"] if "ἄρτος" in n["quote"]]
+    assert bread and bread[0]["support"] == "figs-exmetaphor" and "bread" in bread[0]["note"]
+    assert not any("\u2060" in n["quote"] or "\\n" in n["note"] for n in r["notes"])
+
+
+def test_a_note_spanning_verses_is_found_from_its_last_verse(conn):
+    book, chapter, first, last = conn.execute(
+        "SELECT book, chapter, verse, verse_end FROM translation_notes WHERE kind='note' AND verse_end>verse LIMIT 1"
+    ).fetchone()
+    found = query.lookup_translation_notes(conn, book, chapter, last, limit=10_000)["notes"]
+    assert any(n["verse"] == first for n in found)
+
+
+def test_a_verse_with_no_notes_says_silence_is_not_evidence(conn):
+    covered = {v for first, last in conn.execute(
+        "SELECT verse, verse_end FROM translation_notes WHERE book='John' AND chapter=6 AND kind='note'")
+        for v in range(first, last + 1)}
+    bare = next(v for v in range(1, 72) if v not in covered)
+    r = query.lookup_translation_notes(conn, "John", 6, bare)
+    assert r["total"] == 0 and "not evidence" in r["warning"]
+

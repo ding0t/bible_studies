@@ -1270,6 +1270,19 @@ def ingest_uhg(conn: sqlite3.Connection) -> None:
     print(f"uw-uhg: {len(rows)} grammar articles")
 
 
+# USFM three-letter book code to this database's book code.
+USFM_BOOKS = {"GEN": "Gen", "EXO": "Exod", "LEV": "Lev", "NUM": "Num", "DEU": "Deut", "JOS": "Josh", "JDG": "Judg",
+            "RUT": "Ruth", "1SA": "1Sam", "2SA": "2Sam", "1KI": "1Kgs", "2KI": "2Kgs", "1CH": "1Chr", "2CH": "2Chr",
+            "EZR": "Ezra", "NEH": "Neh", "EST": "Esth", "JOB": "Job", "PSA": "Ps", "PRO": "Prov", "ECC": "Eccl",
+            "SNG": "Song", "ISA": "Isa", "JER": "Jer", "LAM": "Lam", "EZK": "Ezek", "DAN": "Dan", "HOS": "Hos",
+            "JOL": "Joel", "AMO": "Amos", "OBA": "Obad", "JON": "Jonah", "MIC": "Mic", "NAM": "Nah", "HAB": "Hab",
+            "ZEP": "Zeph", "HAG": "Hag", "ZEC": "Zech", "MAL": "Mal", "MAT": "Matt", "MRK": "Mark", "LUK": "Luke",
+            "JHN": "John", "ACT": "Acts", "ROM": "Rom", "1CO": "1Cor", "2CO": "2Cor", "GAL": "Gal", "EPH": "Eph",
+            "PHP": "Phil", "COL": "Col", "1TH": "1Thess", "2TH": "2Thess", "1TI": "1Tim", "2TI": "2Tim", "TIT": "Titus",
+            "PHM": "Phlm", "HEB": "Heb", "JAS": "Jas", "1PE": "1Pet", "2PE": "2Pet", "1JN": "1John", "2JN": "2John",
+            "3JN": "3John", "JUD": "Jude", "REV": "Rev"}
+
+
 def ingest_uw_tn_quotations(conn: sqlite3.Connection) -> None:
     """unfoldingWord's Translation Notes, kept for one thing: where a note filed under the
     `writing-quotations` article names the Old Testament verse a New Testament verse quotes. That is
@@ -1287,16 +1300,7 @@ def ingest_uw_tn_quotations(conn: sqlite3.Connection) -> None:
          "https://git.door43.org/unfoldingWord/en_tn", submodule_commit("uw-tn"), TODAY,
          "Creative Commons: BY-SA 4.0", "open", "unfoldingWord, https://www.unfoldingword.org/utn"),
     )
-    usfm = {"GEN": "Gen", "EXO": "Exod", "LEV": "Lev", "NUM": "Num", "DEU": "Deut", "JOS": "Josh", "JDG": "Judg",
-            "RUT": "Ruth", "1SA": "1Sam", "2SA": "2Sam", "1KI": "1Kgs", "2KI": "2Kgs", "1CH": "1Chr", "2CH": "2Chr",
-            "EZR": "Ezra", "NEH": "Neh", "EST": "Esth", "JOB": "Job", "PSA": "Ps", "PRO": "Prov", "ECC": "Eccl",
-            "SNG": "Song", "ISA": "Isa", "JER": "Jer", "LAM": "Lam", "EZK": "Ezek", "DAN": "Dan", "HOS": "Hos",
-            "JOL": "Joel", "AMO": "Amos", "OBA": "Obad", "JON": "Jonah", "MIC": "Mic", "NAM": "Nah", "HAB": "Hab",
-            "ZEP": "Zeph", "HAG": "Hag", "ZEC": "Zech", "MAL": "Mal", "MAT": "Matt", "MRK": "Mark", "LUK": "Luke",
-            "JHN": "John", "ACT": "Acts", "ROM": "Rom", "1CO": "1Cor", "2CO": "2Cor", "GAL": "Gal", "EPH": "Eph",
-            "PHP": "Phil", "COL": "Col", "1TH": "1Thess", "2TH": "2Thess", "1TI": "1Tim", "2TI": "2Tim", "TIT": "Titus",
-            "PHM": "Phlm", "HEB": "Heb", "JAS": "Jas", "1PE": "1Pet", "2PE": "2Pet", "1JN": "1John", "2JN": "2John",
-            "3JN": "3John", "JUD": "Jude", "REV": "Rev"}
+    usfm = USFM_BOOKS
     old_testament = set(list(usfm.values())[:39])
     names = {"genesis": "Gen", "exodus": "Exod", "leviticus": "Lev", "numbers": "Num", "deuteronomy": "Deut",
              "joshua": "Josh", "judges": "Judg", "ruth": "Ruth", "1 samuel": "1Sam", "2 samuel": "2Sam",
@@ -1330,6 +1334,55 @@ def ingest_uw_tn_quotations(conn: sqlite3.Connection) -> None:
                      "to_chapter, to_verse_start, to_verse_end) VALUES (?,?,?,?,?,?,?,?)", sorted(rows))
     conn.commit()
     print(f"uw-tn-quotations: {len(rows)} New Testament verses' quotations named")
+
+
+def ingest_uw_tn_notes(conn: sqlite3.Connection) -> None:
+    """The Translation Notes themselves: about 108,000 phrase-level notes plus book and chapter
+    introductions. Kept in their own table because a note carries a quote, an occurrence and the
+    Translation Academy article it rests on, none of which fit `notes`. They are a check on the
+    exegesis (what figure is this, how might it be rendered), and a translator's note is advice for
+    a reader of another language, so most of it says nothing about the meaning that the verse does
+    not already carry. References are in the ULT's English numbering."""
+    repo = OPEN_DATA / "uw-tn"
+    if not repo.is_dir():
+        print("uw-tn: missing -- skipped")
+        return
+    conn.execute(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+        ("uw-tn", None, "unfoldingWord Translation Notes", "eng", "uw-tn",
+         "https://github.com/ding0t/en_tn", submodule_commit("uw-tn"), TODAY,
+         "Creative Commons: BY-SA 4.0", "open", "unfoldingWord, https://www.unfoldingword.org/utn"),
+    )
+    rows = []
+    for path in sorted(repo.glob("tn_*.tsv")):
+        book = USFM_BOOKS.get(path.stem[3:6])
+        if book is None:
+            continue
+        with path.open(encoding="utf-8", newline="") as fh:
+            for row in csv.reader(fh, delimiter="\t", quoting=csv.QUOTE_NONE):
+                if len(row) < 7 or row[0] == "Reference":
+                    continue
+                ref, support, quote, occurrence, note = row[0], row[3], row[4], row[5], row[6]
+                kind, chapter, verse, verse_end = "note", 0, 0, 0
+                if ref == "front:intro":
+                    kind = "book-intro"
+                elif ref.endswith(":intro") or ref.endswith(":front"):
+                    kind = "chapter-intro" if ref.endswith(":intro") else "chapter-front"
+                    chapter = int(ref.split(":")[0])
+                else:
+                    chapter_text, verses = ref.split(":", 1)
+                    numbers = [int(n) for n in re.findall(r"\d+", verses)]
+                    if not chapter_text.isdigit() or not numbers:
+                        continue
+                    chapter, verse, verse_end = int(chapter_text), numbers[0], numbers[-1]
+                rows.append(("uw-tn", book, chapter, verse, verse_end, kind, support.rsplit("/", 1)[-1],
+                             quote.replace("\u2060", ""), int(occurrence) if occurrence.isdigit() else 0,
+                             note.replace("\\n", "\n").strip()))
+    conn.executemany("INSERT INTO translation_notes (work_id, book, chapter, verse, verse_end, kind, "
+                     "support, quote, occurrence, note) VALUES (?,?,?,?,?,?,?,?,?,?)", rows)
+    conn.commit()
+    print(f"uw-tn: {len(rows)} translation notes")
 
 
 def morphhb_words(xml_file: Path, work_id: str, book: str) -> list[tuple]:
@@ -2488,6 +2541,7 @@ def main() -> None:
     ingest_step_lists(conn)      # after ingest_berean_release: reads the BSB's chapter lengths
     ingest_openbible_geocoding(conn)
     ingest_uw_tn_quotations(conn)
+    ingest_uw_tn_notes(conn)
     ingest_uhg(conn)
     ingest_dss(conn)
     ingest_lxx_lemmas(conn)

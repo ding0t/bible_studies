@@ -385,6 +385,27 @@ def bible_grammar(term: str, full: bool = False) -> list:
 
 
 @mcp.tool()
+def bible_translation_notes(book: str, chapter: int, verse: int | None = None, verse_end: int | None = None,
+                            support: str | None = None, include_intro: bool = False, limit: int = 60) -> dict:
+    """unfoldingWord Translation Notes on a verse, a range or a chapter -- a check on exegesis.
+
+    Each note names the original-language phrase, the figure or construction it is (`support`:
+    figs-metaphor, figs-metonymy, figs-idiom, figs-activepassive, figs-explicit, writing-pronouns)
+    and how a translator might render it. Use it after the exegesis, to see whether an editor
+    reads a phrase as a metaphor or an implied subject where you did, never to settle what a
+    verse means: the notes are written for translators, and silence is not evidence.
+    Numbered as the ULT is (English). CC BY-SA 4.0, so quote briefly with attribution to
+    unfoldingWord. Pass `support` to filter, `include_intro` for the book and chapter introductions.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_translation_notes(conn, book, chapter, verse, verse_end, support,
+                                              include_intro, limit)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
 def bible_variants(book: str, chapter: int, verse: int | None = None) -> dict:
     """Where the Dead Sea Scrolls read something the Masoretic text does not.
 
@@ -743,7 +764,7 @@ def passage_brief(book: str, chapter: int, verse_start: int, verse_end: int | No
     translations accepts open-tier codes (WEB, BSB, MSB, BLB, ASV, KJV, YLT) and commercial ones
     (ESV, NIV, NKJV, CSB, NASB, LSB, NA28) interchangeably -- each is routed to the database that
     actually holds it. include narrows the sections: addressing, historical, structure, text,
-    words, crossrefs, variants, names, notes, studies.
+    words, crossrefs, variants, names, notes, translation_notes, studies.
 
     Per-verse detail is capped at 12 verses and says when it truncated; text covers the whole
     range. An empty section where `diagnostics.unavailable_sources` names a source is a gap in the

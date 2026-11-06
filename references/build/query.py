@@ -951,6 +951,50 @@ def lookup_grammar(conn: sqlite3.Connection, term: str, full: bool = False) -> l
     return rows
 
 
+def lookup_translation_notes(conn: sqlite3.Connection, book: str, chapter: int, verse: int | None = None,
+                             verse_end: int | None = None, support: str | None = None,
+                             include_intro: bool = False, limit: int = 60) -> dict[str, object]:
+    """unfoldingWord Translation Notes on a verse, a range or a whole chapter.
+
+    A note names the original-language phrase (`quote`), the figure or construction it is
+    (`support`: figs-metaphor, figs-metonymy, figs-idiom, figs-activepassive, writing-pronouns ...)
+    and suggests how a translator might render it. That is a CHECK on the exegesis, never a source
+    for it: the notes are written for a translator working into another language, and where one
+    names an ambiguity the verse itself carries the evidence. References are in the ULT's English
+    numbering. CC BY-SA 4.0, so these stay out of the site's browser data.
+
+    `verse` omitted means the whole chapter; `include_intro` adds the book and chapter
+    introductions, which are the long ones. The result is cut at `limit` notes and says so.
+    """
+    start = verse if verse is not None else 1
+    end = (verse_end or verse) if verse is not None else 10_000
+    sql = ("SELECT chapter, verse, verse_end, support, quote, occurrence, note FROM translation_notes "
+           "WHERE book=? AND chapter=? AND kind='note' AND verse<=? AND verse_end>=?")
+    params: list[object] = [book, chapter, end, start]
+    if support:
+        sql += " AND support=?"
+        params.append(support)
+    rows = [dict(r) for r in conn.execute(sql + " ORDER BY verse, rowid", params)]
+    result: dict[str, object] = {
+        "reference": f"{book} {chapter}" + (f":{verse}" + (f"-{verse_end}" if verse_end and verse_end != verse else "")
+                                           if verse is not None else ""),
+        "numbering": "english (the ULT's)",
+        "license": "CC BY-SA 4.0, unfoldingWord -- a check on exegesis, not a source for it",
+        "total": len(rows),
+        "notes": rows[:limit],
+    }
+    if len(rows) > limit:
+        result["truncated"] = f"{len(rows) - limit} more; narrow the range or pass support= to filter"
+    if include_intro:
+        result["introductions"] = [dict(r) for r in conn.execute(
+            "SELECT kind, chapter, note FROM translation_notes WHERE book=? AND "
+            "((kind='book-intro') OR (kind='chapter-intro' AND chapter=?)) ORDER BY chapter", (book, chapter))]
+    if not rows:
+        result["warning"] = (f"no Translation Notes for {result['reference']}. Silence is not evidence: the notes "
+                             "cover only phrases a translator needs help with, and the book may not be covered.")
+    return result
+
+
 def lookup_variants(conn: sqlite3.Connection, book: str, chapter: int, verse: int | None = None,
                      from_scheme: str = "english") -> dict[str, object]:
     """Where the Dead Sea Scrolls read something the Masoretic text does not.
@@ -1407,6 +1451,21 @@ def cmd_grammar(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
                 print(f"    {line}")
 
 
+def cmd_translation_notes(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
+    r = lookup_translation_notes(conn, args.book, args.chapter, args.verse, args.verse_end, args.support,
+                                 include_intro=args.intro, limit=args.limit)
+    print(f"{r['reference']}  ({r['numbering']}; {r['total']} notes)\n")
+    for intro in r.get("introductions", []):
+        print(f"  [{intro['kind']}] {str(intro['note'])[:1200]}\n")
+    for n in r["notes"]:
+        print(f"  {n['chapter']}:{n['verse']}  [{n['support'] or '-'}]  {n['quote']}")
+        print(f"      {n['note']}")
+    if r.get("truncated"):
+        print(f"\n  ... {r['truncated']}")
+    if r.get("warning"):
+        print(f"  {r['warning']}")
+
+
 def cmd_variants(conn: sqlite3.Connection, args: argparse.Namespace) -> None:
     r = lookup_variants(conn, args.book, args.chapter, args.verse)
     print(f"{r['reference']} (masoretic numbering)\n")
@@ -1584,6 +1643,16 @@ def main() -> None:
     p_gram.add_argument("term", help="a slug, title or phrase -- e.g. gentilic, construct, dual")
     p_gram.add_argument("--full", action="store_true", help="print the first match in full")
     p_gram.set_defaults(func=cmd_grammar)
+
+    p_tn = sub.add_parser("tn", help="unfoldingWord Translation Notes on a passage (a check on exegesis)")
+    p_tn.add_argument("book", help="OSIS book code, e.g. Matt")
+    p_tn.add_argument("chapter", type=int)
+    p_tn.add_argument("verse", type=int, nargs="?")
+    p_tn.add_argument("--verse-end", type=int)
+    p_tn.add_argument("--support", help="only notes on one Translation Academy article, e.g. figs-metaphor")
+    p_tn.add_argument("--intro", action="store_true", help="include the book and chapter introductions")
+    p_tn.add_argument("--limit", type=int, default=60)
+    p_tn.set_defaults(func=cmd_translation_notes)
 
     p_var = sub.add_parser("variants", help="Scroll readings the Masoretic text does not carry")
     p_var.add_argument("book", help="OSIS book code, e.g. Isa")

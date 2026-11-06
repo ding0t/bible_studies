@@ -291,6 +291,24 @@ CREATE TABLE grammar_articles (     -- unfoldingWord Hebrew Grammar, one row per
 );
 CREATE INDEX idx_grammar_slug ON grammar_articles(slug);
 
+CREATE TABLE translation_notes (    -- unfoldingWord Translation Notes (en_tn): a translator's help on
+                                    -- one phrase, saying what the figure or construction is and how
+                                    -- to render it. A CHECK on exegesis, never a source for it.
+                                    -- Numbered as the ULT is (English), whatever the original uses.
+    work_id TEXT NOT NULL REFERENCES works(work_id),
+    book TEXT NOT NULL,
+    chapter INTEGER NOT NULL,        -- 0 for a book introduction
+    verse INTEGER NOT NULL,          -- 0 for a book or chapter introduction
+    verse_end INTEGER NOT NULL,      -- = verse unless the note spans verses (14:16-17)
+    kind TEXT NOT NULL,              -- 'note' | 'book-intro' | 'chapter-intro' | 'chapter-front'
+    support TEXT NOT NULL,           -- the Translation Academy article it rests on, e.g. 'figs-metaphor'; '' for none
+    quote TEXT NOT NULL,             -- the original-language words the note is about (word joiners removed)
+    occurrence INTEGER NOT NULL,     -- which occurrence of the quote in the verse; 0 for introductions
+    note TEXT NOT NULL
+);
+CREATE INDEX idx_tn_ref ON translation_notes(book, chapter, verse);
+CREATE INDEX idx_tn_support ON translation_notes(support);
+
 CREATE TABLE section_headings (     -- a translation's own section headings (BSB). Editorial: the
                                     -- translators' reading of where a passage turns, never Scripture
                                     -- and never to be quoted as it.

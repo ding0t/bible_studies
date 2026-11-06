@@ -509,10 +509,10 @@ limits = ["The alignment is many-to-many by nature: Genesis 1:1's 'the heavens' 
 kind = ["index"]
 era = "modern"
 language = "en"
-applies_to = ["uw-tn-quotations"]
-purpose = "Where unfoldingWord's Translation Notes name the Old Testament verse a New Testament verse quotes (notes filed under the writing-quotations article). The notes themselves are not loaded."
-strengths = ["An editor's explicit statement of a quotation, independent of the derived links -- the second answer key the 2026-10 link rules were tested against (docs/dev/link-detection-research.md). Kept out of the links' corroboration for that reason."]
-limits = ["213 verses: the notes name a quotation where a translator needs help with it, so silence is not evidence of no quotation.", "References are in the ULT's English numbering."]
+applies_to = ["uw-tn", "uw-tn-quotations"]
+purpose = "unfoldingWord's Translation Notes: about 108,000 phrase-level notes saying what figure or construction an original-language phrase is and how a translator might render it (table translation_notes, bible_translation_notes). Separately, uw-tn-quotations holds the Old Testament verse a New Testament note names as quoted (writing-quotations notes)."
+strengths = ["A second reader's identification of metaphor, metonymy, idiom, implied subject and passive voice, with the phrase quoted in the original -- a quick check on whether a study's reading of a figure is one an editor shares.", "The quotation notes are an editor's explicit statement, independent of the derived links -- the second answer key the 2026-10 link rules were tested against (docs/dev/link-detection-research.md). Kept out of the links' corroboration for that reason."]
+limits = ["Written for translators into other languages, so most notes are advice on rendering, not exegesis. A check on a reading, never a source for one.", "Silence is not evidence: a note exists where a translator needs help, and the 213 quotation verses are only those the notes happen to name.", "References are in the ULT's English numbering.", "CC BY-SA 4.0: keep out of the pop-up data and the public connector until the ShareAlike terms are checked."]
 
 [profiles.hebrew-nt]
 kind = ["translation"]
