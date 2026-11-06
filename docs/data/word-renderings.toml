@@ -14,7 +14,9 @@
 #                 meaning, a word study may give the literal
 #   interpretive  the choice carries a reading; a study resting on this word says which it follows
 #                 and why
-# status: "proposed" until the author confirms it, then "decided".
+# status: "proposed" until the author confirms it, then "decided". Only a decided entry reaches
+# readers: the word's pop-up card then says "This site follows ..." with the why. Re-run
+# alignment_ranking.py after editing.
 #
 # Keyed by the Berean's Strong's number, as the report prints it.
 

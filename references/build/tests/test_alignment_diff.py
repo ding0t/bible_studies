@@ -92,3 +92,16 @@ def test_a_study_is_told_about_a_tagged_word_the_translations_disagree_on(tmp_pa
                                                                    "why": "ESV", "status": "proposed"}})
     assert "site follows 'steadfast love'" in decided[0]
 
+
+def test_the_popup_shows_a_choice_only_once_the_author_has_decided_it():
+    from collections import Counter
+    rows = [{"strong": "H3727", "n": 22, "differ": 22, "ult": Counter({"atonement lid": 21}), "bsb": Counter({"mercy seat": 22})},
+            {"strong": "H776", "n": 50, "differ": 5, "ult": Counter({"land": 5}), "bsb": Counter({"earth": 5})}]
+    entry = {"kind": "interpretive", "follow": "mercy seat", "why": "LXX ἱλαστήριον"}
+    proposed = alignment_ranking.popup_data(rows, {"H3727": entry | {"status": "proposed"}})
+    assert set(proposed) == {"_license", "H3727"}          # H776 rarely differs: no line on its card
+    assert "f" not in proposed["H3727"]                     # a proposal never reaches a reader
+    assert proposed["H3727"]["u"] == [("atonement lid", 21)]
+    decided = alignment_ranking.popup_data(rows, {"H3727": entry | {"status": "decided"}})
+    assert decided["H3727"]["f"] == "mercy seat" and "CC BY-SA" in decided["_license"]
+

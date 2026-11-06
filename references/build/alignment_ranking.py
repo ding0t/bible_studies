@@ -24,6 +24,7 @@ so and nothing is filled from memory.
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sqlite3
 import tomllib
@@ -35,6 +36,7 @@ import query
 REPO = Path(__file__).resolve().parents[2]
 REPORT = REPO / "docs" / "dev" / "alignment-disagreements.md"
 DECISIONS = REPO / "docs" / "data" / "word-renderings.toml"
+POPUP = REPO / "docs" / "content" / "assets" / "popups" / "renderings.json"
 
 
 def decisions() -> dict[str, dict]:
@@ -149,6 +151,29 @@ def write(rows: list[dict], lex: dict, tally: list, minimum: int, top: int,
     return "\n".join(lines) + "\n"
 
 
+def popup_data(rows: list[dict], decided: dict[str, dict], minimum: int = 20, rate: float = 0.5) -> dict:
+    """What the word card's "Translations differ" line needs: for each word the two often render
+    differently, each side's commonest renderings when they differ, and the site's choice once the
+    author has DECIDED it (a proposal never reaches a reader).
+
+    A file of its own, never merged into words/*.json: the ULT's renderings are CC BY-SA, and
+    keeping them in a separately licensed, attributed file keeps the share-alike terms on this
+    data and off the CC BY lexicon beside it. No ESV text: it never ships to the browser."""
+    out: dict[str, object] = {"_license": "Renderings: Berean Interlinear (BSB, public domain) and "
+                              "unfoldingWord Literal Text (ULT, CC BY-SA 4.0, unfoldingWord.org); "
+                              "this file is CC BY-SA 4.0."}
+    for r in rows:
+        d = decided.get(r["strong"], {})
+        chosen = d.get("status") == "decided"
+        if not chosen and (r["n"] < minimum or r["differ"] / r["n"] < rate):
+            continue
+        entry = {"n": r["n"], "d": r["differ"], "b": r["bsb"].most_common(3), "u": r["ult"].most_common(3)}
+        if chosen:
+            entry |= {"f": d["follow"], "k": d["kind"], "w": d["why"]}
+        out[r["strong"]] = entry
+    return out
+
+
 def study_words(path: Path, rows: list[dict], decided: dict[str, dict]) -> list[str]:
     """The Strong's numbers a study tags that the two translations often render differently, or
     that have a recorded decision, with what to check."""
@@ -184,7 +209,12 @@ def main() -> int:
         print("\n".join(found) if found else "no tagged word in this study is on the list")
         return 0
     rows = rank(tally, args.min)
-    REPORT.write_text(write(rows, lemmas(conn), tally, args.min, args.top, esv(), decisions()), encoding="utf-8")
+    decided = decisions()
+    REPORT.write_text(write(rows, lemmas(conn), tally, args.min, args.top, esv(), decided), encoding="utf-8")
+    data = popup_data(rank(tally, 1), decided)
+    POPUP.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":"), sort_keys=True) + "\n",
+                     encoding="utf-8")
+    print(f"{len(data) - 1} words -> {POPUP}")
     print(f"{len(tally):,} words compared; {len(rows)} words differ at least once -> {REPORT}")
     return 0
 

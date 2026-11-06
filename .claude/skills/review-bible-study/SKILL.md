@@ -125,7 +125,8 @@ earlier session) already wrote.
   time, with the decision recorded in `docs/data/word-renderings.toml` where there is one. For an
   `interpretive` word the study must say which rendering it follows and why. A word with no recorded
   decision is a finding: settle it from the word's uses, the Septuagint and the New Testament, then
-  the ESV, and propose an entry for the author.
+  the ESV, and propose an entry for the author. A `decided` entry also shows on the word's pop-up
+  card (re-run `alignment_ranking.py` after changing the file), so readers see the same choice.
 - **Did the translators footnote something the study never mentions?** Pull `note_type='footnote'` for
   the study's `primary_passage` as a standing step — separately from `study_note`, which is editorial
   commentary rather than the committee's own record of its decision. Read them all, not only the ones

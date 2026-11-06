@@ -932,8 +932,10 @@ every other source there. All are CC BY-SA 4.0 (`uw-tn`'s `LICENSE.md` says so).
    site's position (the original word decides; settle from its uses, the Septuagint and the New
    Testament, then the ESV), with each word's kind and followed rendering recorded in
    `docs/data/word-renderings.toml`. Eight entries are *proposed* (the divine name, Ahasuerus,
-   אַף, the ark, כַּפֹּרֶת, חֶסֶד). Still open: the author confirms or changes those, and
-   classifies the rest of the list.
+   אַף, the ark, כַּפֹּרֶת, חֶסֶד). The word pop-up card now shows a "Translations differ here" line for 391 words: the
+   BSB's and the ULT's renderings (the ULT in its own CC BY-SA file, `renderings.json`) and the
+   site's choice once decided. Still open: the author confirms or changes those, and classifies
+   the rest of the list.
 6. **Lower priority.** Translation Word Links (`en_twl`, per-verse links from original words to
    Translation Words articles) and the Simplified Text (`en_ust`, skipped in 2026-09 because its
    licence was not confirmed; its `LICENSE.md` would settle that). The lexicons `en_uhal` and

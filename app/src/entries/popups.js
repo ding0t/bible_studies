@@ -848,6 +848,9 @@ async function renderWord(id, form, morph) {
     );
   }
 
+  const differs = (await load('renderings.json').catch(() => ({})))[`${prefix}${number}`];
+  if (differs) parts.push(translationsDiffer(differs));
+
   const studies = await studiesUsing(id);
   if (studies.length) {
     parts.push(
@@ -864,6 +867,23 @@ async function renderWord(id, form, morph) {
       : 'Lexicon, grammar and names: STEPBible.org (CC BY). Counts, places, renderings and parsing: MACULA Greek (CC BY 4.0); Septuagint count: Open Scriptures.')
   );
   body.replaceChildren(...parts);
+}
+
+// Where the BSB and the ULT render the word differently, both sides, and the rendering this site
+// follows once the author has decided it (alignment_ranking.py writes renderings.json). The ULT's
+// renderings are CC BY-SA, so they live in that file alone and carry their own credit line.
+function translationsDiffer(d) {
+  const side = (name, list) =>
+    el('span', { class: 'pop-chips' },
+      el('span', { class: 'pop-muted' }, `${name}: `),
+      list.map(([g, n]) => el('span', { class: 'pop-chip pop-static' }, `${g} `, el('span', { class: 'pop-muted' }, `\u00d7${n}`))));
+  return el('div', { class: 'pop-section' },
+    el('span', { class: 'pop-label' }, 'Translations differ here'),
+    el('p', { class: 'pop-muted' }, `The BSB and the ULT render it differently ${d.d} of the ${d.n} times both translate it.`),
+    side('BSB', d.b),
+    side('ULT', d.u),
+    d.f ? el('p', {}, `This site follows \u201c${d.f}\u201d (${d.k}). ${d.w}`) : null,
+    el('p', { class: 'pop-source' }, 'Renderings: Berean Interlinear (BSB, public domain); unfoldingWord ULT (CC BY-SA 4.0).'));
 }
 
 // The grammar of the form on the page, when one parsing covers it: "Noun Accusative Singular

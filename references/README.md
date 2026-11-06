@@ -317,6 +317,11 @@ always check. Re-run it after `build.py`. Its ESV column comes from study-notes.
 (`study_notes_query.esv_renderings`, a whole-table read kept out of the MCP tools), and its *Kind*
 and *Site follows* columns from `docs/data/word-renderings.toml`, the record of which rendering the
 site follows and why. `--study <path>` lists a study's tagged words that are on the list.
+It also writes `docs/content/assets/popups/renderings.json` (committed), which puts a
+"Translations differ here" line on the word card: the BSB's and the ULT's renderings, and the site's
+choice once its `status` is `decided`. **The ULT goes to the browser here, and only here**: CC BY-SA,
+so it sits in its own file under its own licence and credit line, apart from the CC BY lexicon
+data, and the ESV is never in it.
 
 **It is many-to-many, and stays that way.** Genesis 1:1's "the heavens" comes back twice, rendering
 both אֵת and הַשָּׁמַיִם, because the object marker has no English of its own and the alignment
