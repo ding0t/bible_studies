@@ -23,47 +23,47 @@
 [H3068]
 kind = "convention"
 follow = "LORD"
-status = "proposed"
-why = "The ESV, which the site quotes, prints the divine name as LORD (6,135 of its tagged renderings). Yahweh is the name itself; use it in prose about the name."
+status = "decided"
+why = "LORD in capitals stands for God's own name, יהוה (YHWH, usually pronounced Yahweh), which the Septuagint and the New Testament render Κύριος (Kyrios, \"Lord\"; Exodus 3:15). The site follows the ESV's LORD, and says the name itself wherever the name is the point."
 
 [H3069]
 kind = "convention"
 follow = "GOD"
-status = "proposed"
-why = "The ESV prints יהוה as GOD where it follows Adonai, as in \"Lord GOD\" (299 tagged renderings)."
+status = "decided"
+why = "GOD in capitals is still God's name, יהוה (YHWH, Yahweh). After אֲדֹנָי (Adonai, \"Lord\") the Masoretes pointed it יֱהוִה, with the vowels of אֱלֹהִים (Elohim, \"God\"), so it is read \"Lord God\" (Genesis 15:2); the ESV prints it Lord GOD."
 
 [H3050]
 kind = "convention"
 follow = "LORD"
-status = "proposed"
-why = "The ESV renders the short form יָהּ as LORD in all 50 tagged places; the ULT transliterates it Yah."
+status = "decided"
+why = "יָהּ (Yah) is the short form of God's name יהוה, the \"jah\" of Hallelujah, הַלְלוּ־יָהּ, \"praise Yah\" (Psalm 146:1). The ESV renders it LORD in all 50 tagged places, and the site follows it."
 
 [H325]
 kind = "convention"
 follow = "Ahasuerus"
-status = "proposed"
+status = "decided"
 why = "The ESV keeps the Hebrew name; the BSB uses the Greek Xerxes. Both name the same king."
 
 [H639]
 kind = "idiom"
 follow = "anger"
-status = "proposed"
+status = "decided"
 why = "אַף is the nose, and \"burning of the nose\" is the Hebrew idiom for anger. The ESV gives anger (177) or wrath (22); the ULT's nose is the literal word for a word study, not the meaning."
 
 [H727]
 kind = "wording"
 follow = "ark"
-status = "proposed"
+status = "decided"
 why = "The ESV and the BSB say ark; the ULT says box. The same object."
 
 [H3727]
 kind = "interpretive"
 follow = "mercy seat"
-status = "proposed"
-why = "The Septuagint renders it ἱλαστήριον (Exodus 25:17), the word Hebrews 9:5 uses for it and Paul uses of Christ (Romans 3:25). \"Mercy seat\" (ESV, BSB) keeps that line; the ULT's \"atonement lid\" describes the object but loses it."
+status = "decided"
+why = "The Septuagint renders it ἱλαστήριον (Exodus 25:17), the word Hebrews 9:5 uses for it and Paul uses of Christ (Romans 3:25). \"Mercy seat\" (ESV, BSB) keeps that line. The ULT's \"atonement lid\" keeps something too: the word comes from כָּפַר (kaphar, to atone or cover), worth a sentence in any study of the Day of Atonement."
 
 [H2617]
 kind = "interpretive"
 follow = "steadfast love"
-status = "proposed"
-why = "Three committees, three renderings: covenant faithfulness (ULT), loving devotion (BSB), steadfast love (ESV, 185 tagged). Following the ESV keeps a study's wording and its quotations together; a study about חֶסֶד itself should work the word from its uses and say what each rendering keeps."
+status = "decided"
+why = "Contested. The word's range runs from loyalty within a covenant to kindness beyond what is owed, and each English keeps part of it: covenant faithfulness (ULT) the first, loving devotion (BSB) the second, steadfast love (ESV) both in part. The site follows the ESV so a study's wording and its quotations agree; a study about חֶסֶד itself works the word from its uses."

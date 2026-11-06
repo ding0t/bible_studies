@@ -25,14 +25,14 @@ quoted a word or two at a time), located by STEP Bible's TTESV tags (Tyndale Hou
 
 | Strong's | Word | Gloss | Compared | Differ | ULT's commonest when they differ | BSB's commonest when they differ | ESV | Kind | Site follows |
 |---|---|---|---:|---:|---|---|---|---|---|
-| H3069 | יהוה | yahweh | 245 | 100% | yahweh (244); lord yahweh (1) | god (232); god lord (10); o god (3) | god (299); lord (3) | convention | GOD *(proposed)* |
+| H3069 | יהוה | yahweh | 245 | 100% | yahweh (244); lord yahweh (1) | god (232); god lord (10); o god (3) | god (299); lord (3) | convention | GOD |
 | H197 |  |  | 31 | 100% | porch (29); like porch (1); porches (1) | portico (24); hall (3); colonnade (1) | vestibule (26); hall (4); porch (2) |  |  |
-| H325 | אֲחַשְׁוֵרוֹשׁ | ahasuerus | 28 | 100% | ahasuerus (28) | xerxes (28) | ahasuerus (26); commanded (1); sealed (1) | convention | Ahasuerus *(proposed)* |
-| H3050 | יָהּ | yahweh | 23 | 100% | yah (23) | lord (19); o lord (2); god (1) | lord (50) | convention | LORD *(proposed)* |
-| H3727 | כַּפֹּרֶת | cover | 22 | 100% | atonement lid (21); covering (1) | mercy seat (22) | mercy seat (26); mercy (1) | interpretive | mercy seat *(proposed)* |
+| H325 | אֲחַשְׁוֵרוֹשׁ | ahasuerus | 28 | 100% | ahasuerus (28) | xerxes (28) | ahasuerus (26); commanded (1); sealed (1) | convention | Ahasuerus |
+| H3050 | יָהּ | yahweh | 23 | 100% | yah (23) | lord (19); o lord (2); god (1) | lord (50) | convention | LORD |
+| H3727 | כַּפֹּרֶת | cover | 22 | 100% | atonement lid (21); covering (1) | mercy seat (22) | mercy seat (26); mercy (1) | interpretive | mercy seat |
 | H7806 | שָׁזַר | twisted | 21 | 100% | twisted (16); fine (3); twined (2) | finely spun (18); curtains finely spun (1); made finely spun (1) | fine twined (19); twined (2); twined linen (1) |  |  |
-| H3068 | יהוה | yahweh | 5509 | 99% | yahweh (5435); against yahweh (8); before yahweh (2) | lord (4830); o lord (307); lord's (87) | lord (6135); god (12); lord's food (12) | convention | LORD *(proposed)* |
-| H727 | אֲרוֹן | the ark | 179 | 98% | box (175) | ark (165); thus ark (2); while ark (2) | ark (193); chest (5); holy place (1) | wording | ark *(proposed)* |
+| H3068 | יהוה | yahweh | 5509 | 99% | yahweh (5435); against yahweh (8); before yahweh (2) | lord (4830); o lord (307); lord's (87) | lord (6135); god (12); lord's food (12) | convention | LORD |
+| H727 | אֲרוֹן | the ark | 179 | 98% | box (175) | ark (165); thus ark (2); while ark (2) | ark (193); chest (5); holy place (1) | wording | ark |
 | H1478 | גָּוַע | he expired | 22 | 95% | expire (10); expired (5); exhaled (4) | die (5); breathed last (4); perish (3) | die (6); last (4); perish (4) |  |  |
 | H835 | אֶשֶׁר | how blessed! | 43 | 95% | happinesses (23); happiness (9); happy (8) | blessed (35); how blessed (5); blessings (1) | blessed (34); happy (7); aleph (1) |  |  |
 | H7761 | שׂים | it is made | 21 | 95% | set (17); made (2); placed (1) | issued (6); authorized (2); decree (2) | make (8); made (7); laid (3) |  |  |
@@ -41,9 +41,9 @@ quoted a word or two at a time), located by STEP Bible's TTESV tags (Tyndale Hou
 | H6532 | פָּרֹכֶת | curtain | 24 | 92% | curtain (22) | veil (22) | veil (25) |  |  |
 | G1859 | ἑορτή | feast | 23 | 91% | festival (21) | feast (21) | feast (23); custom (1); festival (1) |  |  |
 | H2236 | זָרַק | he sprinkled | 33 | 91% | splash (9); sprinkled (7); splashed (6) | splattered (10); splatter (10); sprinkled (2) | threw (8); thrown (5); throw (4) |  |  |
-| H2617 | חֶסֶד | loyalty | 242 | 89% | covenant faithfulness (191); kindness (9); covenant faithfulnesses (6) | loving devotion (172); kindness (12); deeds loving devotion (3) | steadfast love (185); kindness (16); kindly (9) | interpretive | steadfast love *(proposed)* |
+| H2617 | חֶסֶד | loyalty | 242 | 89% | covenant faithfulness (191); kindness (9); covenant faithfulnesses (6) | loving devotion (172); kindness (12); deeds loving devotion (3) | steadfast love (185); kindness (16); kindly (9) | interpretive | steadfast love |
 | H5488 | סוּף | of reed[s] | 26 | 88% | reeds (21); sea reeds (1); rush (1) | red (21); toward red (1); rushes (1) | red (23); reeds (2); sea (1) |  |  |
-| H639 | אַף | anger | 236 | 88% | nose (176); nostrils (25); anger (3) | anger (144); facedown (14); wrath (9) | anger (177); wrath (22); face (17) | idiom | anger *(proposed)* |
+| H639 | אַף | anger | 236 | 88% | nose (176); nostrils (25); anger (3) | anger (144); facedown (14); wrath (9) | anger (177); wrath (22); face (17) | idiom | anger |
 | H4393 | מְלֹא | the fullness | 33 | 88% | fullness (27); fulness (2) | everything (6); full (4); all fills (4) | full (9); fills (8); handful (3) |  |  |
 | G93 | ἀδικία | unrighteousness | 24 | 88% | unrighteousness (16); unrighteous (3); injustice (1) | wickedness (10); unjust (2); iniquity (2) | unrighteousness (9); wrongdoing (4); unrighteous (2) |  |  |
 | H8467 | תְּחִנָּה | supplication | 24 | 88% | supplication (19); favor (2) | petition (11); plea (6); pleas (2) | plea (16); plea for mercy (3); humble plea (2) |  |  |
