@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 17:1-13"
 bible_references: ["Numbers 17:1-13", "Numbers 16:3", "Numbers 16:5", "Numbers 16:10", "Numbers 16:46-48", "Numbers 18:1-7", "Numbers 20:8-11", "Exodus 25:31-36", "Exodus 28:36-38", "Exodus 39:30", "Leviticus 8:9", "Numbers 8:4", "Jeremiah 1:11-12", "Jeremiah 31:28", "Ecclesiastes 12:5", "Genesis 43:11", "Genesis 30:37", "Psalm 110:2", "Psalm 110:4", "1 Kings 8:9", "Romans 1:4", "Hebrews 5:4-6", "Hebrews 7:15-16", "Hebrews 9:4", "Exodus 37:17-20", "Exodus 27:21", "Numbers 16:41", "Numbers 16:49", "Hebrews 7:20-25", "Psalm 2:7", "Jeremiah 1:6-8", "2 Chronicles 5:10"]
 date_created: 2026-10-09
-date_modified: 2026-10-10
+date_modified: 2026-11-07
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -229,7 +229,7 @@ Numbers 17:8 piles up four verbs, and two of them carry their own noun. The staf
 H6731); and it "ripened almonds" (<span dir="rtl">גָּמַל</span>, *gamal*, H1580, "to bring to full
 ripeness"). The ESV smooths these into "put forth buds and produced blossoms, and it bore ripe
 almonds." The Hebrew lets the verb and its noun echo each other, as English does with "blossomed
-blossoms. The *NIV Biblical
+blossoms." The *NIV Biblical
 Theology Study Bible* observes that budding or even blossoming might happen in a night, but ripe
 fruit cannot (note on Numbers 17:8). The other staffs were taken back unchanged
 (Numbers 17:9). Only the staff with Aaron's name on it showed life.

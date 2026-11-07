@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 21:4-9; John 3:14-15"
 bible_references: ["Exodus 17:9-15", "John 3:1-21", "John 3:16", "John 8:28", "John 12:32-34", "John 20:30-31", "2 Kings 18:1-4", "Isaiah 11:10", "Isaiah 52:13", "Genesis 3:14-15", "2 Corinthians 5:21", "Romans 8:3", "Hebrews 4:15", "Numbers 11:1-3", "Numbers 16:46-48", "Numbers 14:39-45", "Exodus 16:2-5", "Numbers 20:22-29", "Numbers 21:21-35", "Deuteronomy 8:15", "Revelation 12:9", "Isaiah 6:2", "Isaiah 6:6"]
 date_created: 2026-07-22
-date_modified: 2026-10-31
+date_modified: 2026-11-07
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -286,8 +286,8 @@ merit. The bronze serpent had no venom of its own; it was shaped like the thing 
 anyone who looked at it lived.
 
 Paul states the same principle in his own vocabulary, with no reference to the serpent image: God
-made Christ, "who knew no sin, to be sin for us" (2 Corinthians 5:21, ESV), and sent his Son "in the
-likeness of sinful flesh" to "condemn sin in the flesh" (Romans 8:3, ESV). Christ bears the likeness
+"made him [Christ] to be sin who knew no sin" (2 Corinthians 5:21, ESV), and by "sending his own Son in the
+likeness of sinful flesh and for sin, he condemned sin in the flesh" (Romans 8:3, ESV). Christ bears the likeness
 of what is under judgment, "yet without sin" (Hebrews 4:15, ESV). The principle is taught explicitly
 elsewhere in Scripture, and does not rest on the serpent typology alone.
 

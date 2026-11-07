@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 90:1-17"
 bible_references: ["Psalm 90:1-17", "Psalm 89:46-52", "Psalm 92:1-14", "Psalm 106:45", "Psalm 102:27", "Exodus 32:12-14", "Exodus 34:6", "Numbers 14:29", "Numbers 14:34", "Deuteronomy 33:1", "Genesis 3:19", "Ecclesiastes 6:6", "Judges 7:19", "Hebrews 1:8-12", "Hebrews 13:8", "John 1:14", "2 Timothy 1:10", "1 Corinthians 15:58", "2 Peter 3:4", "2 Peter 3:8-9"]
 date_created: 2026-09-26
-date_modified: 2026-11-06
+date_modified: 2026-11-07
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -130,7 +130,7 @@ years is the longest life anyone in Genesis approaches, and Moses is the one who
 nobody reached it — Adam 930, Seth 912, Jared 962, Methuselah 969, and the list stops there. The
 *ESV Study Bible* reads verse 4's thousand years as human life at its "longest imaginable" (note on
 Psalm 90:3-6). Ecclesiastes reaches past it in hyperbole: "even though he should live a thousand
-years twice over" (Ecclesiastes 6:6). Setting a thousand years
+years twice over" (Ecclesiastes 6:6, ESV). Setting a thousand years
 against a single day sets the outer limit of human time against the smallest unit Genesis 1 counts
 in. And the psalm names the other end of the same scale six verses later: "The years of our life are
 seventy, or even by reason of strength eighty" (Psalm 90:10).
@@ -331,7 +331,7 @@ A psalm written for the day of rest turns out to be about the final sorting of t
 > for behold, your enemies shall perish; all evildoers shall be scattered.
 
 Then the other half: "The righteous flourish like the palm tree… They still bear fruit in old age;
-they are ever full of sap and green" (92:12, 14). Psalm 90's people were grass that withers by
+they are ever full of sap and green" (Psalm 92:12, 14, ESV). Psalm 90's people were grass that withers by
 evening. Psalm 92's wicked are the grass now (a different word, the same picture), and the righteous are palm trees that bear fruit in old
 age. Judgment on the wicked, permanence for the righteous, and God exalted forever at the centre —
 that is the seventh day's own song. The *NIV Biblical Theology Study Bible* draws a related

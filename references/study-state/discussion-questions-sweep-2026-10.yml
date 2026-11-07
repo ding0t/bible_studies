@@ -109,17 +109,19 @@ done:
 # Found in study bodies by sweep agents and left alone (out of scope). Candidates for a follow-up
 # review-bible-study pass; misquotes first.
 found_outside_questions:
+  # 2026-11-06: each entry below checked against study-notes.db (ESV) or ebible-grcbrent.
+  misquotes_resolved:
+    - "christian-life/be-prepared.md: no change; body block quote and line 398 match ESV Luke 21:14-15"
+    - "israel-and-church/bride-of-christ.md: opening now quotes 'This mystery is profound' (Ephesians 5:32, ESV)"
+    - "jesus/as-the-snake-was-lifted.md: 2 Corinthians 5:21 and Romans 8:3 now quoted as the ESV reads"
+    - "biblical-figures/paul.md: now (Galatians 1:13, ESV)"
+    - "christian-life/how-god-answers-prayer.md: no change; the block quotes 12:14-16 accurately and the text cites 12:13-16 for the knock, so the frontmatter range is right"
+    - "jesus/melchizedek-priesthood.md: Types & Prophecy (not Key Takeaways) now quotes ESV 'resembling the Son of God' and glosses ἀφωμοιωμένος (G871) as 'made like'"
+    - "jesus/the-heavenly-pattern/almond.md: quotation closed"
+    - "jesus/three-days-and-three-nights.md: now εἰς ᾅδου, as Brenton reads"
+    - "jesus/the-way.md: Acts 11:26 block now opens lowercase 'and'; Hebrews 9:8 now includes 'By this'"
+    - "last-things/a-thousand-years-in-your-sight.md: both now name ESV; bare (92:12, 14) now names Psalm"
   misquotes:
-    - "christian-life/be-prepared.md: Luke 21:14 misquoted in the body too? (question fixed in wave 2; body not checked)"
-    - "israel-and-church/bride-of-christ.md: opening attributes 'a profound mystery' to Ephesians 5:32; ESV reads 'This mystery is profound'"
-    - "jesus/as-the-snake-was-lifted.md: 2 Corinthians 5:21 quoted as 'who knew no sin, to be sin for us' (not ESV); Romans 8:3 'to condemn sin in the flesh' (ESV: 'he condemned sin in the flesh')"
-    - "biblical-figures/paul.md: '(1:13, ESV)' with no book named (line ~112)"
-    - "christian-life/how-god-answers-prayer.md: quote block says Acts 12:14-16, bible_references says 12:13-16"
-    - "jesus/melchizedek-priesthood.md: Key Takeaways quotes Hebrews 7:3 as \"made like\" with no translation named (ESV: \"resembling\")"
-    - "jesus/the-heavenly-pattern/almond.md: unclosed quotation mark, line ~232 (\"blossomed blossoms.)"
-    - "jesus/three-days-and-three-nights.md: line ~189 gives LXX Genesis 37:35 as εἰς ᾅδης; Brenton reads εἰς ᾅδου"
-    - "jesus/the-way.md: Acts 11:26 block opens 'And' (ESV lowercase, continues 11:25); Hebrews 9:8 drops 'By this' without an ellipsis"
-    - "last-things/a-thousand-years-in-your-sight.md: Ecclesiastes 6:6 and Psalm 92:12, 14 quoted with no translation named (wave 10)"
     - "jesus/woman-with-the-issue-of-blood.md: unverified exclusivity claims, 'the only woman any Gospel shows Jesus addressing individually that way' and 'the one scene in Mark where a single person touches Jesus first' (wave 10)"
   lowercase_divine_pronouns_in_own_prose:
     [sin/sorcery.md, biblical-figures/paul.md, biblical-figures/twelve-apostles.md (prayer),

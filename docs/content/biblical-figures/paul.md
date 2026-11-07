@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Acts 9:1-19; Romans 11:11-24"
 bible_references: ["Acts 9:15", "Acts 26:12-18", "Galatians 1:11-24", "Galatians 2:7-9", "Philippians 3:4-11", "1 Timothy 1:12-16", "1 Corinthians 15:8-10", "Ephesians 3:1-8", "Romans 9:22-24", "Ephesians 2:12-13"]
 date_created: 2026-08-29
-date_modified: 2026-10-22
+date_modified: 2026-11-07
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -109,7 +109,7 @@ Gamaliel (Acts 22:3), a rabbi whose reputation was respected even by the Jerusal
 That last item is the hinge. His zeal was active persecution. "I persecuted this Way to the death,
 binding and delivering to prison both men and women" (Acts 22:4, ESV). He was present at Stephen's
 stoning, holding the coats of the men who threw the stones (Acts 7:58; 8:1). Galatians is blunter
-still: "I persecuted the church of God violently and tried to destroy it" (1:13, ESV). The word
+still: "I persecuted the church of God violently and tried to destroy it" (Galatians 1:13, ESV). The word
 Scripture supplies for what Saul was, before the road, is not softened anywhere in the record -- his
 own writing keeps it as sharp as any outside witness could.
 

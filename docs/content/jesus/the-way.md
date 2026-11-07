@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 14:6; Acts 9:2"
 bible_references: ["Isaiah 40:3", "Isaiah 35:8-10", "Psalm 1:1-6", "Jeremiah 6:16", "Deuteronomy 10:12-13", "Matthew 3:3", "Mark 1:2-3", "Luke 3:4-6", "John 1:23", "Matthew 7:13-14", "Matthew 21:32", "Luke 1:76-79", "John 13:36-14:14", "Hebrews 3:10", "Hebrews 9:8", "Hebrews 10:19-20", "Acts 4:12", "Acts 9:1-2", "Acts 11:19-26", "Acts 16:17", "Acts 18:24-26", "Acts 19:9", "Acts 19:23", "Acts 22:4", "Acts 24:5", "Acts 24:14", "Acts 24:22", "Acts 26:28", "Acts 28:22", "1 Peter 4:16", "Romans 3:16-17", "Romans 11:33", "1 Corinthians 4:17", "1 Corinthians 12:31", "2 Peter 2:2", "2 Peter 2:15", "2 Peter 2:21", "Jude 1:11", "James 1:8", "James 5:20"]
 date_created: 2026-08-02
-date_modified: 2026-10-12
+date_modified: 2026-11-07
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -218,7 +218,7 @@ Bible's note on this verse traces the claim back through a set of Old Testament 
 approaching God directly. The tabernacle curtain shut everyone but the high priest out of the Most
 Holy Place (Exodus 26:33; Leviticus 16). Unauthorized approach was rejected (Leviticus 10:2). Aaron
 alone was chosen to represent Israel in God's presence (Numbers 17:5).[^esvsb-john14] Hebrews uses
-*hodos* for both the problem and its answer. The problem: "The Holy Spirit indicates that
+*hodos* for both the problem and its answer. The problem: "By this the Holy Spirit indicates that
 the way into the holy places is not yet opened as long as the first section is still standing"
 (Hebrews 9:8, ESV). Under the old covenant, the *hodos* itself doesn't yet exist for anyone but the
 high priest, once a year. The answer:
@@ -346,7 +346,7 @@ common usage appears only three times in the New Testament: twice as outsiders' 
 
 > ✝️ Acts 11:26 (ESV)
 >
-> 26 And when he had found him, he brought him to Antioch. For a whole year they met with the
+> 26 and when he had found him, he brought him to Antioch. For a whole year they met with the
 > church and taught a great many people. And in Antioch the disciples were first called
 > Christians.
 
