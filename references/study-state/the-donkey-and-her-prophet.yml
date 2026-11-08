@@ -181,3 +181,28 @@ changes_2026-11-08b:
   thesis: "Rewritten (author: 'more mechanical than it should be; something missing'): now names the reason, the LORD's love (Deut 23:5), names the Star as His Son Jesus, and lands on the reader."
   who_balaam_was: "New opening section: Pethor in Aram-naharaim, Abraham's kin country (Gen 24:10); his trade, qosem H7080 (Josh 13:22), qesamim H7081 = the fee itself (Num 22:7), nechashim H5173 omens (Num 24:1), altars (23:1-4), Deut 18:10-12; he knew the name YHWH (Num 22:8, 18) and God spoke to him (22:9-12, 20); Laban's household knew the LORD and kept idols (Gen 24:31, 50; 31:19, 30; Josh 24:2), marked as probable background; his own oracle condemns nachash and qesem (23:23)."
   she_donkey: "New sub-section: chamor H2543, aton H860, ayir H5895; wealth (Gen 12:16; Job 1:3; 42:12); mount of people of standing (Judg 5:10 atonot; 1 Sam 9:3-20 atonot; 2 Kgs 4:22-24 aton; Num 22:22, 30); the law's care (Exod 23:5) and Prov 26:3; the King's mount (Gen 49:11 beni atono; Zech 9:9 ben-atonot; Matt 21:2 onos feminine), marked as an echo the text does not draw."
+
+simplify_2026-11-08:
+  skill: "simplify-bible-study (merges and tightening only, as the author approved; no forks)"
+  point: "Balak paid for a curse on the people God had blessed; the LORD, because He loves them, turned it into Abraham's blessing and the promise of the Star, His Son Jesus, so no curse can undo a blessing God has given. Agrees with the In one sentence line."
+  words_before: 5735
+  words_after: 5489
+  budget: 5800
+  merges:
+    - "2 Pet 2:16 'the prophet': kept the full quotation in Two things the LORD opened; removed the titles sentence from Who Balaam was and the Peter clause from The she-donkey in Scripture (35 words)."
+    - "Josh 13:22 'the diviner': kept in Who Balaam was; removed from the titles sentence (above) and from The New Testament section (9)."
+    - "2 Pet 2:15 'loved the wages': kept as the motive in The donkey and as the closer of Who Balaam was; removed from Why Balak paid ('the narrator rarely comments...', 18) and trimmed the NT quotation to 'the way of Balaam son of Beor' (6)."
+    - "Num 23:23: kept in full in Who Balaam was (the nachash/qesem argument) and in Attitude; second-oracle copy shortened to 'there is no spell against Jacob' (20)."
+    - "Num 22:7 fees: quoted in Who Balaam was; Why Balak paid now cites it bare (5)."
+    - "Num 22:18 'the LORD my God': quoted in Who Balaam was; dropped from the Deir Alla annex (11)."
+    - "Num 22:35 'speak only what I tell you': quoted in Who stood in the road point 1; Two things the LORD opened cites it bare (7)."
+    - "Mic 6:5: quoted in full in The Old Testament section and in discussion question 6; Do keeps only the purpose clause (13)."
+    - "Seven altars with a bull and a ram: kept in Who Balaam was; Three oracles keeps the altars and citations (8)."
+    - "'hundreds of miles' (three times): dropped the third copy (11). 'Balak thought the power lay with the one who curses' repeats 'The curser decides' (10)."
+  tightened:
+    - "Num 24:12-13 inline quotation cut to 'I must speak whatever the LORD says' (45)."
+    - "Opening transition 'The rest of the story follows from that moment' (9); 'It is the covenant with Abraham, held.' (7); 'Israel was to help an enemy's fallen donkey.' (8); 'He had sought omens before (Numbers 24:1)' (8, 24:1 is cited in Who Balaam was); 'and they point the same way' (6); 'Moses stood on that summit later, looking over the land.' (10, repeated by the next sentence)."
+  forks: "None made (author's instruction). Candidates described to the author: The Angel of the LORD (from Who stood in the road) and Stars in Scripture (from What Scripture does with a star); both sections were the author's requests and stay."
+  verify: "study_structure --verify-against HEAD: added_unexpected holds only the shortened sentences and the lines their deletions touched; validate unchanged (0 errors, same 89 warnings corpus-wide, none for this file); mkdocs build --strict passes."
+  restored_by_author: "2026-11-08, original wording put back: 'It is the covenant with Abraham, held.' (names the doctrine); Micah 6:5's object in Do ('remember what Balak king of Moab counseled and what Balaam son of Beor answered'); 'The narrator rarely comments on Balaam; the rest of Scripture gives the verdict (Deuteronomy 23:4-5; 2 Peter 2:15).' (the narrative-genre note from review)."
+  next: "read-bible-study in a separate session if the sections need regrouping."

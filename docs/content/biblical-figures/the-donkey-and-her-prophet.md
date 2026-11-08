@@ -15,8 +15,7 @@ ai_provider_models:
 # The Donkey and Her Prophet: How God Turned a Hired Curse into a Star
 
 Balak, king of Moab, pays a famous diviner to curse Israel. On the road the diviner beats his
-donkey three times, and the donkey speaks. She has seen what the seer cannot. The rest of the
-story follows from that moment: the LORD opens her mouth, opens the seer's eyes, and fills the
+donkey three times, and the donkey speaks. She has seen what the seer cannot. The LORD opens her mouth, opens the seer's eyes, and fills the
 seer's mouth with the blessing He gave Abraham and a promise of a Star.
 
 **In one sentence:** Balak paid a famous diviner to curse the people God had blessed, and because the LORD loved His people He opened a donkey's mouth and a prophet's eyes, turned the curse into Abraham's blessing and promised the Star out of Jacob, His Son Jesus, in whom that blessing now reaches you and no curse can undo it.
@@ -119,15 +118,14 @@ alongside omens, altars and fees.
 
 His own second oracle names both words of his trade, *nachash* and *qesem*, and says neither works
 against Israel: "there is no spell against Jacob and no divination against Israel" (Numbers 23:23,
-BSB). Scripture's titles for him are "the diviner" (Joshua 13:22, BSB) and "the prophet" a donkey had
-to restrain (2 Peter 2:16, BSB). This shows that the LORD speaks to whom He chooses, even a hired
+BSB). This shows that the LORD speaks to whom He chooses, even a hired
 diviner far beyond Israel, and that hearing His voice is a different thing from belonging to Him.
 Balaam knew the name and went after the wages (2 Peter 2:15).
 
 ## Why Balak paid for a curse
 
 Israel is camped on the border of the land at the end of the wilderness years, and Moab's king is
-afraid (Numbers 22:1-3). Balak sends for Balaam, and the Moabite elders travel "with the fees for divination in hand" (Numbers 22:7, BSB). A
+afraid (Numbers 22:1-3). Balak sends for Balaam, and the Moabite elders travel with the fees (Numbers 22:7). A
 king who pays for a journey of hundreds of miles believes a curse works, and Balak says so:
 
 > ✝️ Numbers 22:6 (BSB)
@@ -142,8 +140,7 @@ Israel destroy Sihon and Og (Numbers 21:21-35; 22:2), and he has no army that ca
 
 Balak's belief belongs to his world. A diviner, magician or sorcerer was thought able to move the
 gods toward a blessing or a curse on a person or a nation, by sacrifice and incantation (*NIV
-Cultural Backgrounds Study Bible*, note on Numbers 22:6). Balaam was such a man, and his fame had
-crossed hundreds of miles to reach Balak.
+Cultural Backgrounds Study Bible*, note on Numbers 22:6). Balaam was such a man.
 
 Numbers tells this as narrative with four poems set inside it, the oracles. The narrator rarely
 comments on Balaam; the rest of Scripture gives the verdict (Deuteronomy 23:4-5; 2 Peter 2:15). What
@@ -163,13 +160,11 @@ Balaam asks God what to do, and God answers before a single curse is spoken:
 >
 > 3 I will bless those who bless you and curse those who curse you; and all the families of the earth will be blessed through you.
 
-Balak thought the power lay with the one who curses. God's word says the blessed are blessed
+God's word says the blessed are blessed
 already, and the curse falls on the one who curses them. Proverbs 26:2 states the same law in a
 proverb: "an undeserved curse does not come to rest" (BSB). Balaam says again and again that
 the word he speaks is the LORD's to give (Numbers 22:8, 18, 38; 23:3, 12, 26; 24:13). The last is
-the plainest: "Did I not already tell the messengers you sent me that even if Balak were to give me
-his house full of silver and gold, I could not do anything of my own accord, good or bad, to go
-beyond the command of the LORD? I must speak whatever the LORD says" (Numbers 24:12-13, BSB).
+the plainest: "I must speak whatever the LORD says" (Numbers 24:12-13, BSB).
 
 The second oracle reaches the root of it. "God is not a man, that He should lie, or a son of man,
 that He should change His mind. Does He speak and not act? Does He promise and not fulfill? I have
@@ -230,10 +225,8 @@ donkey", a she-donkey, to reach Elisha (2 Kings 4:24, BSB). Balaam rode his "all
 22:30, BSB), with two servants walking beside (Numbers 22:22): a man of rank on the mount of one.
 
 **The law protected her.** "If you see the donkey of one who hates you fallen under its load, do not
-leave it there; you must help him with it" (Exodus 23:5, BSB). Israel was to help an enemy's fallen
-donkey. Balaam beat his own, faithful for all her years, three times. The proverb fits the scene: "a
-bridle for the donkey, and a rod for the backs of fools" (Proverbs 26:3, BSB), and Peter says it was
-the prophet who was mad (2 Peter 2:16).
+leave it there; you must help him with it" (Exodus 23:5, BSB). Balaam beat his own, faithful for all her years, three times. The proverb fits the scene: "a
+bridle for the donkey, and a rod for the backs of fools" (Proverbs 26:3, BSB).
 
 **She carried the King.** Jacob's blessing on Judah, the tribe of the scepter, has him tie "his colt
 to the choicest branch" (Genesis 49:11, BSB), in Hebrew "the son of his she-donkey". Zechariah's King
@@ -251,7 +244,7 @@ The LORD opened the donkey's mouth, <span dir="rtl">פָּתַח</span>
 <span dir="rtl">גָּלָה</span> (*galah*, H1540, "to uncover"). That verb returns in the oracles.
 Balaam introduces two of them as the words of one "falling down with his eyes uncovered" (Numbers
 24:4, ESV; also 24:16). The title he claims uses the verb for what the LORD did to him on the road.
-He had sought omens before (Numbers 24:1), and a man who read omens for a living needed a donkey to
+A man who read omens for a living needed a donkey to
 tell him what stood in front of him.
 
 The angel adds one more fact: "If she had not turned away, then by now I would surely have killed
@@ -262,14 +255,12 @@ Peter 2:16, BSB).
 
 This shows that God speaks through whatever He chooses. He speaks through a donkey, and He gives
 sight to a man who has been paid to see. Balaam confesses "I have
-sinned" (Numbers 22:34, BSB) and offers to go home, and the angel sends him on: "speak only what I
-tell you" (Numbers 22:35, BSB). The curse is already beaten. The prophet is the one still to be turned.
+sinned" (Numbers 22:34, BSB) and offers to go home, and the angel sends him on (Numbers 22:35). The curse is already beaten. The prophet is the one still to be turned.
 
 ### Who stood in the road
 
 The angel of the LORD who stood in Balaam's road is the LORD Himself, appearing, and the New
-Testament lets us name Him: God the Son, before Bethlehem. Scripture gives five reasons, and they
-point the same way.
+Testament lets us name Him: God the Son, before Bethlehem. Scripture gives five reasons.
 
 1. **He speaks God's word as His own.** "Your way is perverse before me" (Numbers 22:32, BSB), and
    "you are to speak only what I tell you" (Numbers 22:35, BSB). Balaam then calls it "the word that
@@ -329,8 +320,7 @@ second oracle's line "The LORD their God is with them, and the shout of the King
 (Numbers 23:21, BSB) is Balaam looking toward the LORD's own presence over the Tabernacle, as Kramer
 reads it. The King of that sentence is the LORD.
 
-Pisgah is Mount Nebo (Deuteronomy 34:1). Moses stood on that summit later, looking over the land.
-Moses saw the promised land from it, and Balaam had looked down on the promised people from it. The area is the last stretch before the Jordan. The people
+Pisgah is Mount Nebo (Deuteronomy 34:1). Moses saw the promised land from it, and Balaam had looked down on the promised people from it. The area is the last stretch before the Jordan. The people
 leave it for Gilgal (Micah 6:5), and the blessing is spoken over them on its edge, before they take
 a step into the land.
 
@@ -341,7 +331,7 @@ southern case, see [Cities of the Plain](../scripture/cities-of-the-plain.md).
 
 ## Three oracles turn the curse
 
-At each of the three sites seven altars are built at Balaam's word, with a bull and a ram on each
+At each of the three sites seven altars are built at Balaam's word
 (Numbers 23:1-2, 14, 29-30). The LORD puts a message in his mouth. He returns to Balak, and Balak hears
 a blessing.
 
@@ -356,9 +346,7 @@ die the death of the righteous" (Numbers 23:10, BSB).
 
 Balak reacts: "I brought you here to curse my enemies, and behold, you have only blessed them!"
 (Numbers 23:11, BSB). The second oracle says God has blessed and Balaam cannot change it (Numbers
-23:20). It says "there is no spell against Jacob and no divination against Israel" (Numbers 23:23,
-BSB), and the
-divination that Balak paid for gets its verdict from the LORD's own word.
+23:20). It says "there is no spell against Jacob" (Numbers 23:23, BSB).
 
 ### The third oracle: Balak's verbs turned on Israel
 
@@ -516,8 +504,8 @@ in worshiping Baal of Peor, and the anger of the LORD burned against them" (Numb
 is the ridge from which the third blessing was spoken, and the same hill held the idol.
 
 Peter and Jude draw the line to the church. False teachers "left the straight way" to follow "the
-way of Balaam son of Beor, who loved the wages of wickedness" (2 Peter 2:15, BSB), and they
-"rushed for profit into the error of Balaam" (Jude 11, BSB). Joshua still calls him "the diviner" (Joshua 13:22, BSB). Paul sets Peor among Israel's warnings
+way of Balaam son of Beor" (2 Peter 2:15, BSB), and they
+"rushed for profit into the error of Balaam" (Jude 11, BSB). Paul sets Peor among Israel's warnings
 (1 Corinthians 10:8), "written down as warnings for us" (1 Corinthians 10:11, BSB). For the
 New Testament warning in full, see [Test the Spirits](../christian-life/test-the-spirits.md), and
 for his trade, [Sorcery](../sin/sorcery.md).
@@ -559,8 +547,7 @@ fragments of ink-written plaster whose first line names "Balaam the son of Beor 
 seer of the gods" (as the *ESV Study Bible* note on Numbers 22:1-6 quotes it). The writing is dated to
 the ninth or eighth century BC, and Kramer shows the piece in a Jordanian museum. It confirms the man,
 a seer the surrounding peoples remembered. The published readings of the fragments do not repeat the
-story of Numbers 22-24, and Numbers, where Balaam speaks of "the LORD my God" (Numbers 22:18, BSB),
-is what this study stands on. The full entry, with what is debated, is in
+story of Numbers 22-24, and Numbers is what this study stands on. The full entry, with what is debated, is in
 [Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md#12-the-deir-alla-inscription-c-800-bc).
 
 ## References & Recommended Reading
