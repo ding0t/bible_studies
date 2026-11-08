@@ -1,6 +1,6 @@
 slug: "the-bright-morning-star"
 title: "The Bright Morning Star: How Scripture Uses 'Star'" # working title
-status: scoping
+status: drafted
 author_2026-11-08: "Proposal approved in principle. The simplify pass's 'Stars in Scripture' fork from the Balaam study folds in here: its 'What Scripture does with a star' list moves verbatim into the first five sections, and the Balaam study keeps 'Who the Star is' and a link once this is published."
 target_path: "docs/content/jesus/the-bright-morning-star.md" # proposed: Christology, OT prophecy fulfilled in Him
 
@@ -24,7 +24,7 @@ sibling_studies:
   - {slug: "sin/sorcery", role: prose, use: link, note: "Has a section on the Magi and Elymas (the same word, magos): link for who the Magi were; this study treats only their star."}
 genre: [topical]
 
-thesis: "" # draft below; settle with the author before drafting
+thesis: "Scripture calls the stars God's creatures, the measure of Abraham's children, Jacob's sons and heaven's servants, and it names the star made into a god an idol; out of them all it promises one Star from Jacob, and Jesus takes that title, the bright Morning Star, who rises in His people's hearts, shares His dawn with those who overcome and still shines when every other star has fallen."
 thesis_draft: "Scripture calls the stars God's creatures, Abraham's countless children, Jacob's sons and heaven's servants, and it names the star made into a god an idol; out of all of them it gives one Star to a person, the King out of Jacob, and Jesus takes that title, the bright Morning Star, and shares His dawn with those who overcome."
 outline_draft:
   - {section: "Stars God made, counts and names", says: "Creatures under God (Gen 1:16; Ps 147:4), so never to be worshipped (Deut 4:19) or read for fate (Isa 47:13)"}
@@ -53,7 +53,20 @@ stages:
     theological_principle: {done: false, notes: ""}
     application_draft: {done: false, notes: ""}
   cross_reference: {done: false, cross_refs: [], translations_compared: [], divergences_noted: ""}
-  drafting: {done: false, file: ""}
+  drafting: {done: true, file: "docs/content/jesus/the-bright-morning-star.md", notes: "2026-11-08 draft: true. 59 BSB quotations checked against berean-bsb (0 mismatches). Under the 4,000 budget; the Annex table sorts all 37 kokab verses and 26 Greek verses by use (tables are not counted)."}
+  research_2026-11-08:
+    counts: "morphhb-wlc kokab H3556: 37 verses (Hebrew numbering Neh 4:15, Ps 8:4, Joel 4:15 = English Neh 4:21, Ps 8:3, Joel 3:15). macula-greek-sblgnt aster G792: 21 verses; astron G798: 4 (Luke 21:25; Acts 7:43; 27:20; Heb 11:12); phosphoros G5459: 2 Pet 1:19; proinos G4407: Rev 2:28; 22:16."
+    findings:
+      - "LXX (Brenton) Num 24:17: 'anatelei astron ex Iakob, anastesetai anthropos ex Israel' (a star will rise from Jacob, a MAN will rise up from Israel): the Greek reads the scepter line as a person."
+      - "Matt 2:2, 9 'en te anatole' (G395; BSB 'in the east', fn 'Or as it rose'); same root as LXX Num 24:17 anatelei (G393), Luke 1:78 anatole 'Dawn', 2 Pet 1:19 anateile. Marked as an echo; no quotation."
+      - "Isa 14:12 heilel H1966 (BSB fn 'Or morning star or shining one or Lucifer'); LXX Heosphoros. Kept apart from Rev 22:16 aster ho lampros ho proinos. Consistent with sin/pride (contested; links there)."
+      - "Job 38:7: parallel with 'sons of God' (heaven's court, Job 1:6; 2:1, per Nephilim); LXX reads two events ('when the stars were made, all my angels praised me'). Marked likely."
+      - "Rev 2:28: both readings given (share in rule / Christ Himself); ESVSB note on 2:26-28 'The morning star is Christ himself'; the study holds both together."
+      - "Rev 1:20 angels: contested (ESVSB, NIV BTSB list heavenly angels, messengers, personifications)."
+      - "Dan 8:10 stars = 'the holy people' (8:24). Rev 12:4 stars likely = his angels (12:7-9)."
+      - "Matt 2:9 the star went ahead and stood over the place: the study says what the text says it did, and nothing of natural explanations (ESVSB 2:2 also judges it not a natural phenomenon)."
+      - "No Latin Vulgate in bible-text.db, so the Vulgate 'lucifer' at 2 Pet 1:19 was not verified and is not used."
+  balaam_fork: "The Balaam study's five-use list became sections 1-5 here (expanded). At publish: replace that list in biblical-figures/the-donkey-and-her-prophet.md with two sentences and a link, in the same commit."
   review: {done: false, validated: false}
 
 open_questions:
