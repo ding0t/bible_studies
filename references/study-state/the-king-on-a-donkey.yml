@@ -1,6 +1,6 @@
 slug: "the-king-on-a-donkey"
 title: "The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry" # working title
-status: scoping
+status: drafted
 author_2026-11-08: "Proposal approved in principle."
 target_path: "docs/content/jesus/the-king-on-a-donkey.md" # proposed: the study lands on Zech 9:9 fulfilled (OT prophecy fulfilled in Him)
 
@@ -20,7 +20,7 @@ sibling_studies:
   - {slug: "jesus/psalm-118-road-to-gethsemane", role: cited, use: enrich, note: "DRAFT: cites Matt 21:9. Do not link while it is a draft (Check 24). Revisit when published."}
 genre: [topical, prophets, gospel]
 
-thesis: "" # draft below; settle with the author before drafting
+thesis: "In Scripture the donkey is the beast of house and road, Abraham's wealth, the mount of judges' sons and of a woman hurrying to the prophet, an animal the law protected even for an enemy and redeemed with a lamb; so when Zechariah's King comes 'humble and riding on a donkey' with the war horse cut off, He comes as the King of peace on the animal of everyday life, and Jesus rode it into Jerusalem to give Himself as the Lamb who redeems you."
 thesis_draft: "Scripture's donkey is the beast of the household and the road, Abraham's wealth and Job's, the mount of judges' sons and of a woman going to the prophet, and the law guarded it even for an enemy; so when Zechariah's King comes 'humble and riding on a donkey', with the war horse cut off, He comes as the King of peace on the animal of ordinary life, and Jesus rode into Jerusalem on a she-donkey's colt to show you that King."
 outline_draft:
   - {section: "The words", says: "chamor, aton, ayir; onos, polos, hypozygion, onarion: what each names"}
@@ -49,7 +49,19 @@ stages:
     theological_principle: {done: false, notes: ""}
     application_draft: {done: false, notes: ""}
   cross_reference: {done: false, cross_refs: [], translations_compared: [], divergences_noted: ""}
-  drafting: {done: false, file: ""}
+  drafting: {done: true, file: "docs/content/jesus/the-king-on-a-donkey.md", notes: "2026-11-08 draft: true. 45 BSB quotations checked (2 checker false alarms at 1 Sam 9:20 and 1 Kgs 13:28, both verified by hand). Under 4,000. The wealth, rank and law paragraphs are taken verbatim from the Balaam study's 'The she-donkey in Scripture' (commit dc7a2b47); at publish that section is cut to a pointer."}
+  research_2026-11-08:
+    counts: "morphhb-wlc: chamor H2543 93 verses; aton H860 28; ayir H5895 8; pered H6505 12 (1 Kgs 1:33 is pirdah H6506). macula-greek-sblgnt: onos G3688 5 (Matt 21:2, 5, 7; Luke 13:15; John 12:15); polos G4454 11, all at the entry; hypozygion G5268 2 (Matt 21:5; 2 Pet 2:16); onarion G3678 1 (John 12:14); phatne G5336 4 (Luke 2:7, 12, 16; 13:15)."
+    findings:
+      - "Zech 9:9 ani H6041 (humble/poor/afflicted); LXX and Matt 21:5 praus G4239, also Matt 11:29. 'on a donkey, and on a colt the son of she-donkeys' (chamor ... ayir ben atonot): parallelism, one animal."
+      - "ayir + aton together in three verses: Gen 32:16 (Eng 32:15), Gen 49:11 (iroh ... beni atono), Zech 9:9."
+      - "Matt 21:5's Greek ('on a donkey and on a colt, son of a beast of burden') follows the Hebrew more closely than LXX Zech 9:9 ('on a beast of burden and a young colt')."
+      - "Matt 21:2 onon dedemenen: feminine. Matt 21:7 epekathisen epano auton: nearest plural antecedent ta himatia (cloaks); ESVSB note on 21:6-7 reads 'them' as the cloaks; NIV BTSB 'probably sat only on the colt'. MSB fn: Scrivener TR 'and they set Jesus'."
+      - "Judg 10:4 ayarim used for both the donkeys and the towns (pun)."
+      - "Luke 14:5 BSB fn 'TR donkey' (critical text 'son'): not used."
+      - "Gen 22:3 / Num 22:21: both 'in the morning' + vayyachavosh H2280 + 'his donkey' + two servants; held as an echo."
+      - "Luke 2 names no animal; Matt 2:13-15 no donkey; LXX Isa 1:3 uses phatne; held as an echo the reader may hear."
+      - "NIV CBSB Zech 9:9: mule (pered) the preferred royal mount, evidence for a royal donkey meagre: the study keeps the mule apart (1 Kgs 1:33). NIV BTSB Zech 9:9 links 2 Sam 16:2 (David's household on donkeys in his flight)."
   review: {done: false, validated: false}
 
 open_questions:
