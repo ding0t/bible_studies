@@ -1,0 +1,63 @@
+slug: "the-king-on-a-donkey"
+title: "The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry" # working title
+status: scoping
+author_2026-11-08: "Proposal approved in principle."
+target_path: "docs/content/jesus/the-king-on-a-donkey.md" # proposed: the study lands on Zech 9:9 fulfilled (OT prophecy fulfilled in Him)
+
+primary_passage: "Zechariah 9:9-10; Matthew 21:1-11"
+supporting_passages:
+  - "Genesis 12:16; Job 1:3; 42:12; Genesis 42:26; 1 Samuel 25:18"          # wealth and burden
+  - "Genesis 22:3, 5"                                                      # Abraham saddles his donkey for Moriah
+  - "Judges 5:10; 10:4; 12:14; 1 Samuel 25:20; 2 Samuel 16:1-2; 2 Kings 4:22-24; Numbers 22:22, 30"  # mount of standing
+  - "Exodus 23:4-5, 12; Deuteronomy 5:14; 22:4, 10; Exodus 13:13; 34:20; Luke 13:15"  # the law's care, Sabbath rest, redemption by a lamb
+  - "Numbers 22:21-33; 2 Peter 2:16; Isaiah 1:3; Proverbs 26:3; Judges 15:15-16; 1 Kings 13:24-28"  # donkeys that teach
+  - "Genesis 49:10-11; Zechariah 9:9-10; Matthew 21:1-11; Mark 11:1-11; Luke 19:28-40; John 12:12-16"  # the King's mount
+sibling_studies:
+  - {slug: "biblical-figures/the-donkey-and-her-prophet", role: cited, use: build-on, note: "Source of the fork: 'The she-donkey in Scripture' (commit 4f697beb). Move the wealth, rank and law paragraphs verbatim; the three Hebrew words and the King's-mount paragraph stay there. Link both ways once this is published."}
+  - {slug: "christian-life/humility", role: cited, use: link, note: "Treats Zech 9:9 / Matt 21:5 as humility ('humble and mounted on a donkey'). Link for humility; this study treats the animal and the prophecy."}
+  - {slug: "israel-and-church/hebrew-roots", role: cited, use: none, note: "Cites Zech 9:9 among messianic promises."}
+  - {slug: "scripture/what-literary-criticism-declares", role: cited, use: link, note: "Its table dates Zech 9:9 c. 450 BC with the Greek text by 132 BC. Link for the prophecy's date."}
+  - {slug: "jesus/psalm-118-road-to-gethsemane", role: cited, use: enrich, note: "DRAFT: cites Matt 21:9. Do not link while it is a draft (Check 24). Revisit when published."}
+genre: [topical, prophets, gospel]
+
+thesis: "" # draft below; settle with the author before drafting
+thesis_draft: "Scripture's donkey is the beast of the household and the road, Abraham's wealth and Job's, the mount of judges' sons and of a woman going to the prophet, and the law guarded it even for an enemy; so when Zechariah's King comes 'humble and riding on a donkey', with the war horse cut off, He comes as the King of peace on the animal of ordinary life, and Jesus rode into Jerusalem on a she-donkey's colt to show you that King."
+outline_draft:
+  - {section: "The words", says: "chamor, aton, ayir; onos, polos, hypozygion, onarion: what each names"}
+  - {section: "The beast of house and road", says: "Wealth (Gen 12:16; Job 1:3; 42:12), burden (Gen 42:26), and Abraham saddling his donkey for Moriah (Gen 22:3), echoed by Balaam (Num 22:21)"}
+  - {section: "The mount of peace and standing", says: "Deborah's leaders (Judg 5:10), judges' sons (Judg 10:4; 12:14), Abigail (1 Sam 25:20), the Shunammite (2 Kgs 4:24); horses and chariots are war's animals (Zech 9:10)"}
+  - {section: "The law's care", says: "Help an enemy's donkey (Exod 23:4-5), its Sabbath rest (Deut 5:14), the firstborn redeemed by a lamb (Exod 13:13), and Jesus on untying a donkey on the Sabbath (Luke 13:15)"}
+  - {section: "Donkeys that teach", says: "Balaam's she-donkey (Num 22; 2 Pet 2:16, link the Balaam study), 'the donkey its master's manger' (Isa 1:3), the bridle and the rod (Prov 26:3)"}
+  - {section: "The King's mount", says: "Judah's colt (Gen 49:11), Zechariah's King (Zech 9:9-10), and the entry in all four Gospels (Matt 21; Mark 11; Luke 19; John 12): the she-donkey and her colt in Matthew; hypozygion only in Matt 21:5 and 2 Pet 2:16"}
+  - {section: "What the text does not say", says: "No donkey at the manger (Luke 2) or on the flight to Egypt (Matt 2:13-15): tradition, marked"}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Scoped 2026-11-08 at the author's request, as a fork of the Balaam study's she-donkey section. Word data, read 2026-11-08 (macula): chamor H2543 in 93 verses; aton H860 in 28 (11 of them Num 22:21-33); ayir H5895 in 8 (Gen 32:16; 49:11; Isa 30:6, 24; Job 11:12; Judg 10:4; 12:14; Zech 9:9); onos G3688 in 5 (Matt 21:2, 5, 7; Luke 13:15; John 12:15); polos G4454 in 11 (Matt 21; Mark 11; Luke 19; John 12:15); hypozygion G5268 in 2 (Matt 21:5; 2 Pet 2:16); onarion G3678 in 1 (John 12:14). Echo checked: Gen 22:3 and Num 22:21 share 'in the morning' + chavash H2280 'saddled' + 'his donkey', and both men take two servants (Gen 22:3; Num 22:22); the angel of the LORD meets each (Gen 22:11; Num 22:22). Zech 9:10 cuts off the chariot and the horse."
+  exegesis:
+    historical_context: {done: false, notes: "Donkeys and mules in royal use (1 Kgs 1:33 has David's mule, pered, not a donkey: keep apart)."}
+    literary_context: {done: false, notes: ""}
+    content_word_studies:
+      done: false
+      notes: "chamor H2543; aton H860; ayir H5895; onos G3688; polos G4454; hypozygion G5268; onarion G3678; pered (mule) to keep apart."
+      terms: []
+  hermeneutics:
+    cultural_vs_transcultural: {done: false, notes: ""}
+    theological_principle: {done: false, notes: ""}
+    application_draft: {done: false, notes: ""}
+  cross_reference: {done: false, cross_refs: [], translations_compared: [], divergences_noted: ""}
+  drafting: {done: false, file: ""}
+  review: {done: false, validated: false}
+
+open_questions:
+  - "Matthew 21:7 'Jesus sat on them': one animal or two? The charge that Matthew misread Zechariah's parallelism, and the answers (the colt with its mother; 'them' = the cloaks). Give both readings from the text."
+  - "Zechariah 9:9 parallelism: one animal described twice, or two? Compare Mark 11, Luke 19 and John 12, which name the colt only."
+  - "Gen 22:3 / Num 22:21 echo: shared wording verified; mark as an echo, not a type."
+  - "Sabbath and the donkey: Luke 13:15 and 14:5 (ox; some mss son). Check the variant at 14:5 before using it."
+  - "Tradition check: no donkey in Luke 2 or Matt 2. Confirm the texts are silent before saying so."
+resources_consulted:
+  - {type: other, title: "bible-references MCP: bible_word H2543, H860, H5895, G3688, G4454, G5268, G3678; bible_interlinear Gen 22:3, Num 22:21, Matt 21:2, 5; cross_study_claims for Zech 9, Matt 21, Gen 49, John 12, Exod 13", author: "", note: "2026-11-08 scoping."}
+last_updated: "2026-11-08"

@@ -1,0 +1,67 @@
+slug: "the-bright-morning-star"
+title: "The Bright Morning Star: How Scripture Uses 'Star'" # working title
+status: scoping
+author_2026-11-08: "Proposal approved in principle. The simplify pass's 'Stars in Scripture' fork from the Balaam study folds in here: its 'What Scripture does with a star' list moves verbatim into the first five sections, and the Balaam study keeps 'Who the Star is' and a link once this is published."
+target_path: "docs/content/jesus/the-bright-morning-star.md" # proposed: Christology, OT prophecy fulfilled in Him
+
+primary_passage: "Numbers 24:17; Revelation 22:16"
+supporting_passages:
+  - "Genesis 1:16; Psalm 147:4; Jeremiah 31:35; Job 9:7; 38:31-32"   # created, counted, named
+  - "Deuteronomy 4:19; Isaiah 47:13"                                  # not to be worshipped; star-gazers cannot save
+  - "Genesis 15:5; 22:17; 26:4; Exodus 32:13; Deuteronomy 1:10; 10:22; 28:62; Nehemiah 9:23; Hebrews 11:12"  # Abraham's offspring
+  - "Genesis 37:9-10; Revelation 12:1; Daniel 12:3"                   # persons: Jacob's sons, the woman's crown, the wise
+  - "Job 38:7; Judges 5:20; Daniel 8:10; Revelation 1:16, 20; 9:1; 12:4"  # heaven's servants, falling stars
+  - "Amos 5:26; Acts 7:43; Isaiah 14:12-15; Jude 13"                  # the counterfeit
+  - "Numbers 24:17; Matthew 2:2, 9-10; 2 Peter 1:19; Revelation 2:26-28; 22:16"  # the Star out of Jacob
+  - "Isaiah 13:10; Joel 2:10; Matthew 24:29; Mark 13:25; Revelation 6:13"  # stars at the end
+sibling_studies:
+  - {slug: "biblical-figures/the-donkey-and-her-prophet", role: cited, use: build-on, note: "Source of the fork: its 'What Scripture does with a star' list and 'Who the Star is' (commit 4f697beb). Move the five-use list verbatim; leave two sentences and a link there once this is published."}
+  - {slug: "jesus/names-of-jesus", role: cited, use: link, note: "'The star out of Jacob' sub-section quotes Num 24:17 and Rev 22:16 with kokhav H3556; link, do not re-argue the name."}
+  - {slug: "sin/pride", role: cited, use: link, note: "Isaiah 14 and Ezekiel 28: lays out both cases (Satan / human kings). This study's counterfeit section must stay consistent and link there for the Satan question."}
+  - {slug: "spiritual-beings/nephilim", role: cited, use: link, note: "Cites Job 38:7 for the 'sons of God'; check its reading before stating the morning stars = sons of God."}
+  - {slug: "last-things/tribulation", role: cited, use: link, note: "Rev 12:1's twelve stars recall Joseph's dream (Gen 37:9); it marks the woman as Israel (dispensational) with the other reading named. Link; do not re-argue."}
+  - {slug: "holy-spirit/dreams-and-visions/index", role: primary, use: link, note: "Primary on Genesis 37:5-11 (Joseph's dreams)."}
+  - {slug: "sin/sorcery", role: prose, use: link, note: "Has a section on the Magi and Elymas (the same word, magos): link for who the Magi were; this study treats only their star."}
+genre: [topical]
+
+thesis: "" # draft below; settle with the author before drafting
+thesis_draft: "Scripture calls the stars God's creatures, Abraham's countless children, Jacob's sons and heaven's servants, and it names the star made into a god an idol; out of all of them it gives one Star to a person, the King out of Jacob, and Jesus takes that title, the bright Morning Star, and shares His dawn with those who overcome."
+outline_draft:
+  - {section: "Stars God made, counts and names", says: "Creatures under God (Gen 1:16; Ps 147:4), so never to be worshipped (Deut 4:19) or read for fate (Isa 47:13)"}
+  - {section: "As many as the stars", says: "Abraham's offspring (Gen 15:5 onward; Heb 11:12): the stars are the promise's measure"}
+  - {section: "Stars that are persons", says: "Jacob's sons in Joseph's dream (Gen 37:9-10), the woman's crown (Rev 12:1, link Tribulation), the wise who shine (Dan 12:3)"}
+  - {section: "Heaven's servants", says: "Morning stars and sons of God (Job 38:7, check Nephilim), the stars that fought (Judg 5:20), the seven stars in Christ's hand (Rev 1:20), fallen stars (Rev 9:1; 12:4)"}
+  - {section: "The counterfeit", says: "The star made a god (Amos 5:26; Acts 7:43); the day star who climbs (Isa 14:12-15, link Pride); wandering stars (Jude 13)"}
+  - {section: "The Star out of Jacob", says: "Num 24:17 (link Balaam study); the Magi's star (Matt 2:2, 9-10), what the text says it did; the Morning Star given and held (Rev 2:28; 22:16; 2 Pet 1:19)"}
+  - {section: "When the stars fall", says: "The end-time signs (Isa 13:10; Matt 24:29; Rev 6:13), and the Star that does not"}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Scoped 2026-11-08 at the author's request, as a fork of the Balaam study's star section. Word data, read 2026-11-08: kokab H3556 in 37 OT verses; aster G792 in the NT (Matt 2:2, 7, 9, 10; Matt 24:29; Mark 13:25; 1 Cor 15:41; Jude 13; Rev 1:16, 20; 2:1, 28; 3:1; 6:13; 8:10-12; 9:1; 12:1, 4; 22:16); astron G798 in 4 (Luke 21:25; Acts 7:43; 27:20; Heb 11:12); phosphoros G5459 only 2 Pet 1:19; proinos G4407 in the NT only Rev 2:28; 22:16."
+  exegesis:
+    historical_context: {done: false, notes: "Star worship in Israel's world (Deut 4:19; 2 Kgs 23:5; Jer 8:2); who the Magi were (link Sorcery)."}
+    literary_context: {done: false, notes: ""}
+    content_word_studies:
+      done: false
+      notes: "kokab H3556; aster G792; astron G798; phosphoros G5459; heylel H1966 (Isa 14:12, keep apart from kokab); proinos G4407."
+      terms: []
+  hermeneutics:
+    cultural_vs_transcultural: {done: false, notes: "Astrology then and now (Isa 47:13)."}
+    theological_principle: {done: false, notes: ""}
+    application_draft: {done: false, notes: ""}
+  cross_reference: {done: false, cross_refs: [], translations_compared: [], divergences_noted: ""}
+  drafting: {done: false, file: ""}
+  review: {done: false, validated: false}
+
+open_questions:
+  - "Job 38:7: are the 'morning stars' the 'sons of God' (parallelism) or stars alongside them? Check Nephilim's reading first; mark confidence."
+  - "Matthew 2:9-10: the star 'went before them and stood over the place'. Say what the text says it did; any natural explanation (conjunction, comet) is outside the text and goes, at most, in an annex."
+  - "Isaiah 14:12 heylel: the LXX heosphoros and the Vulgate lucifer; how 'Lucifer' entered English. Keep consistent with Pride."
+  - "Rev 2:28 'I will give him the morning star': what is given? Christ Himself (22:16), or a share in His rule (2:26-27)? Contested; give both cases."
+  - "Rev 12:1 twelve stars: Tribulation holds Israel; keep consistent."
+resources_consulted:
+  - {type: other, title: "bible-references MCP: bible_word H3556, G792, G798, G4407, G5459; cross_study_claims for Num 24, Rev 2, Rev 22, Isa 14, Job 38, Gen 37, 2 Pet 1", author: "", note: "2026-11-08 scoping."}
+last_updated: "2026-11-08"

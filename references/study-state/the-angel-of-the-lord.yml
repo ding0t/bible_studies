@@ -1,0 +1,73 @@
+slug: "the-angel-of-the-lord"
+title: "The Angel of the LORD: God the Son Before Bethlehem" # working title
+status: drafted
+author_2026-11-08: "Title, thesis_draft and outline_draft approved; develop first (before the donkey and star studies)."
+target_path: "docs/content/jesus/the-angel-of-the-lord.md" # proposed: the study lands on the pre-incarnate Son (Christology)
+
+primary_passage: "Genesis 16:7-13; Exodus 3:1-6"
+supporting_passages:
+  - "Genesis 16:7-13; 21:17-18"                                 # Hagar: 'You are El Roi'
+  - "Genesis 22:11-18"                                          # Moriah: 'By Myself I have sworn, declares the LORD'
+  - "Genesis 31:11-13; 32:24-30; 48:15-16; Hosea 12:3-5"        # Jacob: 'I am the God of Bethel'; Peniel; the angel set beside God
+  - "Exodus 3:1-6; 14:19; 23:20-23; 32:34; 33:2"                # the bush; the pillar; 'My Name is in him'
+  - "Numbers 22:22-35"                                          # Balaam's road (link the Balaam study)
+  - "Joshua 5:13-6:2"                                           # the Commander of the LORD's army, holy ground
+  - "Judges 2:1-5; 6:11-24; 13:2-23"                            # Bochim; Gideon; Manoah: 'Wonderful', 'we have seen God'
+  - "2 Samuel 24:16-17; 1 Chronicles 21:15-30"                  # the angel over Jerusalem, distinguished from the LORD
+  - "Zechariah 1:11-13; 3:1-5; 12:8; Malachi 3:1; Isaiah 63:9"  # the angel who intercedes; 'the Messenger of the covenant'
+  - "John 1:18; 8:56-58; 12:41; 1 Corinthians 10:4, 9; Jude 5"  # the NT places the Son in Israel's story
+  - "Hebrews 1:4-14; Revelation 22:8-9; Luke 1:11, 19; 2:9; Acts 12:7, 23"  # the cautions: created angels refuse worship; NT 'an angel of the Lord' is Gabriel's kind
+sibling_studies:
+  - {slug: "biblical-figures/the-donkey-and-her-prophet", role: primary, use: build-on, note: "Source: 'Who stood in the road' (five grounds) and the angel_of_the_lord_2026-11-08 research block in its state file (commit cf711bde). Move nothing until this is drafted: the Balaam study keeps its section, shortened to two sentences and a link once this is published."}
+  - {slug: "god/names-of-god", role: cited, use: link, note: "Treats Hagar's El Roi (Gen 16:13) and Gideon (Judg 6:22-23) as names of God. Link for the names; this study treats who spoke them."}
+  - {slug: "last-things/they-were-given-white-robes", role: cited, use: enrich, note: "Calls reading the angel of Zech 3 as the LORD 'a common view, and a contested one'. If this study settles on the Son, revisit that sentence so the two agree (author's call)."}
+  - {slug: "salvation/saved-as-through-fire", role: cited, use: link, note: "Quotes Zech 3:1-5 (the brand plucked from the fire). Link for Zech 3."}
+  - {slug: "about/backlog#111-the-trinity", role: prose, use: build-on, note: "Backlog 11.1 lists 'the angel of the LORD' among the OT hints of the Trinity, 'marked by how firmly the text makes them'. This study can be that hint's full treatment, and the Trinity study links it."}
+genre: [topical, ot-narrative, prophets]
+
+thesis: "The angel of the LORD speaks as God, swears by Himself, forgives sin and is not stopped when people fall before Him, yet Scripture sets Him beside the LORD who sends Him; the New Testament names the One who makes the unseen Father known, so the likeliest reading is that He is God the Son before Bethlehem, who found Hagar at a spring and called Moses from the bush, and who came in the flesh as Jesus to find you."
+thesis_draft: "The angel of the LORD speaks as God, swears by Himself, takes worship and forgives, and Scripture still sets Him beside the LORD who sends Him; the New Testament names the One who makes the unseen Father known, so the most likely reading is that the angel is God the Son before Bethlehem, who came to Hagar at the spring and to Moses at the bush, and who later came in the flesh as Jesus to save you."
+outline_draft:
+  - {section: "Messenger: the word", says: "mal'akh H4397 and angelos G32 mean 'messenger', of men and of angels; the phrase mal'akh YHWH; 'the' and 'an' angel (Hebrew has no indefinite article: what the definite construct can and cannot carry)"}
+  - {section: "He speaks as God", says: "Hagar (Gen 16:10, 13), Moriah (Gen 22:12, 16), Bethel (Gen 31:13), the bush (Exod 3:2-6), Bochim (Judg 2:1): first-person divine speech, and the hearers say they have seen God (Gen 16:13; Judg 6:22; 13:22)"}
+  - {section: "He takes what only God takes", says: "Worship unforbidden (Josh 5:14-15; Num 22:31) against Rev 22:8-9; holy ground (Exod 3:5; Josh 5:15); 'My Name is in him' and he can pardon or not (Exod 23:21); the name pil'i, 'wonderful' (Judg 13:18; Isa 9:6)"}
+  - {section: "He is distinguished from the LORD", says: "Sent by Him (Exod 23:20), commanded by Him (1 Chr 21:15, 27), interceding with Him (Zech 1:12-13), 'the LORD rebuke you' (Zech 3:2), 'the Messenger of the covenant' (Mal 3:1), the Angel of His Presence (Isa 63:9): one who is God and is not the Father"}
+  - {section: "What the New Testament adds", says: "No one has seen God; the Son has made Him known (John 1:18); Abraham saw His day, 'before Abraham was, I am' (John 8:56-58); Isaiah saw His glory (John 12:41); the rock was Christ (1 Cor 10:4, 9); Jesus saved a people out of Egypt (Jude 5, with its variant)"}
+  - {section: "The case against, and its answers", says: "An envoy speaks in his sender's first person; the bow alone is not decisive (Gen 33:3); Heb 1 sets the Son above the angels ('angel' names His sending, not His nature); NT 'an angel of the Lord' is a created angel (Luke 1:11, 19). Mark the confidence: likely, from the pattern, not stated in one verse"}
+  - {section: "Why He came", says: "To the outcast (Hagar), the tested (Abraham), the fearful (Gideon), the barren (Manoah's wife), the guilty high priest (Zech 3:4): He came near before He came in the flesh, and He comes near to you"}
+word_budget: 4200
+word_budget_reason: "2026-11-08: body about 3,780 words; the Annex carries the phrase count and the textual apparatus (Judg 6:14 LXX, Isa 63:9 Ketiv/Qere and LXX) that the argument is checked against. Raised rather than cut, so the confidence marks stay on the page."
+
+stages:
+  scoping:
+    done: true
+    notes: "Scoped 2026-11-08 at the author's request, as a fork of the Balaam study's angel section (the simplify pass's suggestion). Counts, read 2026-11-08 from berean-bsb: 'angel of the LORD' in 51 OT verses (Judg 15, Num 10, Zech 6, Gen 5, 1 Chr 5, 2 Kgs 3, Ps 3, Exod 1, 1 Kgs 1, 2 Sam 1, Isa 1); 'angel of God' in 12 verses (incl. Gal 4:14, Acts 27:23); 'the Angel of His Presence' once (Isa 63:9). Re-count from the Hebrew (mal'akh + YHWH / Elohim) in exegesis: the BSB count is English verses."
+  exegesis:
+    historical_context: {done: true, notes: "2026-11-08. Envoy speech: 2 Kgs 18:28-29, the Rabshakeh marks his master's words with 'Hear the word of the great king ... This is what the king says'. The prophets' formula is the same (Hag 1:13 'the messenger of the LORD ... declares the LORD'). The angel uses the formula once (Gen 22:16 ne'um YHWH) and mostly speaks without it (Gen 16:10; 31:13; Judg 2:1; Zech 3:4). Earlier note: Envoy speech in the ancient Near East: a messenger speaks his master's words in the first person (cf. 2 Kgs 18:28-29). This is the main argument against, and needs a text, not a recollection."}
+    literary_context: {done: true, notes: "2026-11-08. Narrator identifications (not only a character's): Gen 16:13 'the LORD who had spoken to her'; Exod 3:4 'the LORD saw ... God called out to him from within the bush'; Judg 6:14, 16 'the LORD turned to him' (MT; LXX Brenton 'the angel of the Lord'). Character identifications: Gen 31:13 'I am the God of Bethel' (cf. Gen 28:13); Judg 6:22; 13:22 'we have seen God'; Hos 12:3-5 calls Jacob's wrestler (Gen 32:24 'a man') both 'God' and 'the angel'. Distinctions: Exod 23:20; Zech 1:12-13 (intercedes with the LORD of Hosts); Zech 3:1-2 (the LORD says 'The LORD rebukes you'; cf. Gen 19:24); Mal 3:1 (the Lord = the Messenger of the covenant, after My messenger = John, Mark 1:2). Judgment angels (2 Sam 24:16; 1 Chr 21:15, 27; 2 Kgs 19:35) left open: 'God sent an angel' and the LORD commands him; the study does not count them as evidence either way."}
+    content_word_studies:
+      done: true
+      notes: "2026-11-08 morphhb-wlc: mal'akh H4397 213x. mal'akh + YHWH 58x in 54 verses (Judg 19, Num 10, Gen 6, Zech 6, 1 Chr 5, 2 Kgs 3, Ps 3, and 1 each Exod, 1 Kgs, 2 Sam, Isa, Hag, Mal); two are men (Hag 1:13 Haggai; Mal 2:7 the priest), leaving 56 in 52 verses. Singular mal'akh (ha)Elohim of the figure: Gen 21:17; 31:11; Exod 14:19; Judg 6:20; 13:6, 9 (plus David likened to 'an angel of God', 1 Sam 29:9; 2 Sam 14:17, 20; 19:28 MT). Definiteness: uW Hebrew Grammar (state_construct): 'The absolute noun always determines whether a construct chain is definite'; so 'the angel of the LORD', but the same grammar makes Haggai 'the messenger of the LORD', so the article alone settles nothing. LXX/NT anarthrous angelos kyriou. Gen 48:16 ha-mal'akh ha-go'el (H1350) + singular yevarekh (Piel 3ms, H1288) after two lines naming 'the God'. Exod 23:21 lo yissa' (H5375) le-fish'akhem (H6588), the verb of Exod 34:7 'forgiving iniquity, transgression'; 'My Name is in him' be-qirbo. Judg 13:18 pil'i H6383; 13:19 u-mafli' H6381 participle ('one doing wonders'; BSB supplies 'the LORD'); Isa 9:6 pele H6382. Isa 63:9 Ketiv lo' 'not' / Qere lo 'to Him'; mal'akh panav; LXX (Brenton) 'not an envoy nor an angel, but He Himself saved them' (reading tsir); BSB/MSB footnote 'Or angel of His presence'; NLT follows LXX; 1QIsaa has lo' (16 extant words). Earlier list: mal'akh H4397; angelos G32; pil'i H6383 / pele H6382; panim 'presence' (Isa 63:9; Exod 33:14); sar tseva YHWH (Josh 5:14)."
+      terms: []
+  hermeneutics:
+    cultural_vs_transcultural: {done: false, notes: ""}
+    theological_principle: {done: false, notes: "Statement of faith: one God in three co-eternal persons (check 'One God in Three'). The angel read as the Son is consistent; flag if the exegesis lands elsewhere."}
+    application_draft: {done: false, notes: ""}
+  cross_reference: {done: true, cross_refs: ["Acts 7:30-38 (Stephen: 'an angel' at the bush, 'the voice of the Lord')", "Heb 1:4-6, 13-14", "Rev 22:8-9", "Mark 2:7", "Exod 34:6-7", "Gen 19:24", "Mark 1:2", "Heb 7:25"], translations_compared: ["Isa 63:9: ESV/NIV/NASB/LSB/CSB follow MT 'angel of his presence'; NLT follows LXX 'he personally rescued them'", "Jude 5: BSB, ESV, LSB, CSB, NLT 'Jesus'; NASB, NIV, NKJV 'the Lord'", "John 1:18: BSB 'the one and only Son, who is Himself God' (CT monogenes theos); BYZ/TR 'only begotten Son'"], divergences_noted: "Jude 5: NA28/SBL Iesous; NE, WH, BYZ, TR 'the Lord' (BSB fn). 1 Cor 10:9: BSB Christ; WH, NE, Tischendorf 'the Lord'. Commentary: ESVSB Gen 16:7 gives both views (preincarnate Christ / commissioned representative); NIV BTSB Gen 16:7 'more likely ... God himself' (cites v. 13, Exod 3:2-4); ESVSB Exod 23:20-22 ties the Commander of Josh 5 to the angel (contributed); NIV BTSB Zech 3:1 'represents and speaks for God yet is distinct from God'. Jude 5 (Iesous / kyrios / theos) and 1 Cor 10:9 (Christon / kyrion): name the editions."}
+  drafting: {done: true, file: "docs/content/jesus/the-angel-of-the-lord.md", notes: "2026-11-08 draft: true. 56 BSB quotations checked against berean-bsb (0 mismatches). Outline as approved, with two changes from the research: the case-against section answers Gen 22:16 (the angel uses ne'um YHWH once) and Judg 13:16 (offer it to the LORD); the angels of judgment (2 Sam 24; 1 Chr 21; 2 Kgs 19:35) are set aside as no evidence either way. Pronouns for the angel are capitalised in the study's own prose, since the study argues the identification, as the Balaam study does."}
+  review: {done: false, validated: false}
+
+open_questions:
+  - "Which appearances are 'the angel of the LORD' and which only 'an angel' or 'a man' (Gen 18; 32:24; Josh 5:13)? Gen 18's three men and Jacob's wrestler are not called mal'akh YHWH in their own chapters (Hos 12:4 calls Jacob's opponent mal'akh): keep the categories apart and say which the argument uses."
+  - "Does every 'angel of the LORD' denote the same figure? 2 Sam 24:16 and 2 Kgs 19:35 may be a created angel of judgment. Decide case by case from the text; do not claim all 51."
+  - "Gen 48:15-16: 'the angel who has redeemed me' set in parallel with 'the God', with a singular verb 'bless' (yevarekh). Verify the singular."
+  - "Exod 23:21 'he will not pardon your transgression': only God forgives (Mark 2:7). Check the Hebrew."
+  - "Gal 4:14 'as an angel of God, as Christ Jesus': does Paul equate the two? Probably not (a comparison); check before using."
+  - "Theophany vs Christophany: name the term once in plain words ('God appearing'), say which this study argues, and do not overclaim the burning bush's fire or the pillar as the Son's person."
+resources_consulted:
+  - {type: other, title: "Balaam study state file, angel_of_the_lord_2026-11-08 block (bible_interlinear, study_verse, bible_variants on Jude 5 and 1 Cor 10:9)", author: "", note: "Research reused, to re-verify in exegesis."}
+  - {type: commentary, title: "ESV Study Bible, notes on Gen 16:7; Exod 23:20-22; Zech 3:1", author: "Crossway", note: "Confirms the pattern; states both views at Gen 16:7; contributed the Josh 5 link at Exod 23."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible, notes on Gen 16:7; Zech 3:1; Mal 3:1", author: "Zondervan", note: "Gen 16:7 'more likely ... God himself'; Zech 3:1 distinct from God; Mal 3:1 'Lord' is Yahweh himself. Confirms."}
+  - {type: grammar, title: "unfoldingWord Hebrew Grammar, State Construct", author: "unfoldingWord (CC BY-SA 4.0)", note: "Definiteness of a construct chain."}
+  - {type: other, title: "berean-bsb phrase counts via bible-text.db", author: "", note: "2026-11-08 scoping."}
+last_updated: "2026-11-08"
