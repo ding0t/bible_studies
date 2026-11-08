@@ -1,10 +1,10 @@
 slug: "the-donkey-and-her-prophet"
 title: "The Donkey and Her Prophet: How God Turned a Hired Curse into a Star"
-status: review-fixed
+status: published
 renamed: "2026-11-07 from the-donkey-and-his-prophet: the donkey is female (aton, H860), so the title is The Donkey and Her Prophet (author)."
 target_path: "docs/content/biblical-figures/the-donkey-and-her-prophet.md" # proposed; author has not yet chosen vs jesus/. Title nods to C. S. Lewis's The Horse and His Boy (author's idea, 2026-11-07). 2 Pet 2:16 calls Balaam "the prophet" and the donkey his rebuker.
 
-primary_passage: "Numbers 22-24"
+primary_passage: "Numbers 22:21-35; Numbers 24:15-19" # 2026-11-08: the donkey and the Star; commentary_index cannot read a cross-chapter range, and the group sheet prints this passage. Numbers 22:1-20, 23 and 24 sit in bible_references.
 supporting_passages:
   - "Genesis 12:3"
   - "Genesis 49:9-10"
@@ -36,8 +36,8 @@ outline:
   - {section: "The Star and the Scepter", says: "Num 24:15-19: not now, not near; star/scepter as king (Gen 49:10); Kramer's god-king reading weighed (what the text supports, what it does not); Matthew 2, Rev 22:16, Bar Kokhba"}
   - {section: "What the curse could not do, the counsel did", says: "Num 25, 31:16, Rev 2:14, 2 Pet 2:15, Jude 11: Balaam's loss of the wages and his death; the warning"}
   - {section: "Be transformed", says: "Think / Attitude / Do"}
-word_budget: 4600
-word_budget_reason: "2026-11-07 (second raise, 4300 to 4600): the review fixes the author approved added the Genesis 27:29, Revelation 5:5, Psalm 110:1, 1 Corinthians 10 and she-donkey material; trimmed 120 words to offset part of it. First raise: author added two scopes after the first draft -- the Dead Sea Scroll witness (4Q175) and a census of how the whole of Scripture refers to and teaches from Balaam (Hebrew H1109: Num 22-24, 31:8,16; Deut 23:5-6 Heb (23:4-5 Eng); Josh 13:22; 24:9-10; Neh 13:2; Mic 6:5. Greek G903: 2 Pet 2:15; Jude 11; Rev 2:14). Both are the author's requests, so the budget rose by ~300; trim before raising again."
+word_budget: 5100
+word_budget_reason: "2026-11-08 (third raise, 4600 to 5100): the author asked for the angel of the LORD to be argued from Scripture, not left contested (about 420 words); the Deir Alla annex was cut to a summary linking the new catalogue entry. A simplify-bible-study pass is due before publishing. 2026-11-07 (second raise, 4300 to 4600): the review fixes the author approved added the Genesis 27:29, Revelation 5:5, Psalm 110:1, 1 Corinthians 10 and she-donkey material; trimmed 120 words to offset part of it. First raise: author added two scopes after the first draft -- the Dead Sea Scroll witness (4Q175) and a census of how the whole of Scripture refers to and teaches from Balaam (Hebrew H1109: Num 22-24, 31:8,16; Deut 23:5-6 Heb (23:4-5 Eng); Josh 13:22; 24:9-10; Neh 13:2; Mic 6:5. Greek G903: 2 Pet 2:15; Jude 11; Rev 2:14). Both are the author's requests, so the budget rose by ~300; trim before raising again."
 
 stages:
   scoping:
@@ -159,3 +159,19 @@ graphics_2026-11-07:
   chart: "docs/content/assets/img/balaam/balaam-remembered.svg (balaam_remembered): OT memory (Deut 23:4-5; Josh 24:9-10; Neh 13:1-2; Mic 6:5) beside NT warnings (2 Pet 2:15-16; Jude 11; Rev 2:14; 1 Cor 10:8, 11 dashed)."
   comic: "docs/data/comics/the-donkey-and-her-prophet.toml -> docs/content/assets/img/comics/the-donkey-and-her-prophet.svg; all 7 ESV bubbles pass --verify. New in utils/lib/comic.py: reserved figure balaam; props donkey, donkey_down, angel_sword, fieldwall."
   donkey_gender: "Female: aton H860, 14 occurrences in Num 22:21-33, feminine verbs; 2 Pet 2:16 hypozygion (G5268) is neuter. Title changed to Her Prophet."
+
+angel_of_the_lord_2026-11-08:
+  asked: "Author: investigate what the text and context support about the angel of the LORD in Num 22, and how Scripture treats such appearances (theophanies)."
+  in_numbers_22:
+    - "Speaks God's word as his own: 'your way is perverse before me' (22:32); 'speak only the word that I speak to you' (22:35, Hebrew adabber, 1st person). Balaam then calls it 'the word that God puts in my mouth' (22:38), and 'the LORD put a message in Balaam's mouth' (23:5). The angel's word is the LORD's word."
+    - "Balaam bows and prostrates himself (yiqqod, H6915; yishtachu, H7812, 22:31) and is not stopped. H7812 is also used of Jacob bowing to Esau (Gen 33:3), so the bow alone does not settle who he is; contrast Rev 22:8-9, where a created angel refuses worship: 'Worship God!'"
+    - "The drawn sword (22:23, 31) recurs with the Commander of the LORD's army (Josh 5:13-15: holy ground as at Exod 3:5; Joshua falls facedown, not stopped; then 'the LORD said to Joshua', 6:2) and with the angel of the LORD over Jerusalem (1 Chr 21:16)."
+  pattern_elsewhere: "The angel of the LORD speaks and is received as God: Hagar (Gen 16:10, 13); Abraham ('By Myself I have sworn, declares the LORD', Gen 22:12, 15-16); Jacob ('I am the God of Bethel', Gen 31:11-13; the angel set in parallel with God, Gen 48:15-16; Hos 12:4-5); Moses at the bush (Exod 3:2-6); 'My Name is in him' (Exod 23:20-21); Bochim ('I brought you up out of Egypt', Judg 2:1); Gideon (Judg 6:12-14, 22-23); Manoah: the name is pil'i H6383, 'wonderful', from the root of pele H6382, 'Wonderful Counselor' (Isa 9:6), and 'we have seen God' (Judg 13:18, 22). He is also distinguished from the LORD: the LORD commands him to withdraw (1 Chr 21:15); 'the LORD said to Satan, The LORD rebukes you' (Zech 3:1-2); 'the Lord ... the Messenger of the covenant' (Mal 3:1); 'the Angel of His Presence saved them' (Isa 63:9)."
+  new_testament: "No one has seen God; the Son has made Him known (John 1:18). Isaiah 'saw Jesus' glory' (John 12:41). The rock that followed Israel 'was Christ' (1 Cor 10:4), and the wilderness generation tested Christ (1 Cor 10:9; NA28 Christon, some mss 'the Lord'). 'Jesus ... saved a people out of the land of Egypt' (Jude 5; NA28 Iesous; BSB, ESV, LSB, CSB, NLT print Jesus; NASB, NIV print the Lord; other mss read the Lord or God). So two NT writers place the pre-incarnate Son in the exodus and the wilderness, the setting of Num 22. NT 'an angel of the Lord' (Luke 1:11; 2:9) is a created angel such as Gabriel (Luke 1:19)."
+  assessment: "Settled from the text: the angel of Num 22 speaks the LORD's word as his own and stands in the road for the LORD. Contested: whether the angel of the LORD is the pre-incarnate Son. For: he speaks and is received as God while distinguished from the LORD, the pattern of a second Person (Gen 16; 22; 31; Exod 3; Judg 6; 13; Zech 3; Mal 3:1), with John 1:18; 12:41; 1 Cor 10:4, 9; Jude 5. Against, or caution: mal'akh means messenger and an envoy can speak in his sender's first person; the bow is not decisive (Gen 33:3); Heb 1:13-14 sets the Son above the angels (if the Son, 'angel' names His role as sent, not His nature). Statement of faith: one God in three co-eternal persons; no conflict. Fork candidate: a full theophany study, or fold into the backlog's planned Trinity study (backlog lists 'the angel of the LORD' among the OT hints)."
+
+changes_2026-11-08:
+  deir_alla: "Full entry moved to docs/content/scripture/ancient-texts-manuscripts.md as #12 (entries 12-24 renumbered 13-25; ancient-texts-map pin 12 added at Tell Deir Alla; glossary link to Codex Sinaiticus updated). The Balaam study's annex is a summary linking it. When this study is published, add a link from that entry back to it (Check 24 forbids it while this is a draft)."
+  angel_of_the_lord: "Added '### Who stood in the road' under The donkey: the study holds that the angel of the LORD is the LORD appearing, God the Son before Bethlehem, on five textual grounds (Num 22:32-38 with 23:5; Gen 16:13; 22:16; 31:13; Exod 3:6; Judg 13:18-22; Exod 23:21; Mal 3:1; John 1:18; Num 22:31; Josh 5:13-15 against Rev 22:8-9; 1 Cor 10:4, 9; Jude 5), with two cautions marked (an envoy's voice and Gen 33:3; the variants at 1 Cor 10:9 and Jude 5). A Lessons about Jesus line points to it. Fork candidate remains: a full theophany study, or the backlog Trinity study."
+
+published_2026-11-08: "Author said publish. draft flipped; back-links added from names-of-jesus, sorcery, test-the-spirits and the Deir Alla entry (#12) in ancient-texts-manuscripts; commentary_index and section_index re-run. simplify-bible-study pass still recommended (5,021 words, budget 5,100)."

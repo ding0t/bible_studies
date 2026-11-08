@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 31:8
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 31:6
 <!-- commentary-index:auto-end -->

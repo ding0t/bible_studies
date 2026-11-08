@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Pride](../../sin/pride.md) — 14:11
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 14:4
 <!-- commentary-index:auto-end -->

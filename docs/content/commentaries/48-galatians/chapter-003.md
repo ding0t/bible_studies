@@ -20,6 +20,7 @@ draft: false
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 3:5
 - [Pride](../../sin/pride.md) — 3:3
 - [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 3:17
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 3:13-14
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 3:27
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 3:8
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 3:16

@@ -24,6 +24,7 @@ draft: false
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 8:28
 - [Six Days of History](../../last-things/six-days-of-history.md) — 8:29
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 8:5
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 8:31-34
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 8:1
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 8:2
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 8:15-17

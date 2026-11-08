@@ -16,6 +16,7 @@ draft: false
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 110:1
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 110:1-4
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 110:2
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 110:1
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 110:1-4
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 110:1
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 110:1

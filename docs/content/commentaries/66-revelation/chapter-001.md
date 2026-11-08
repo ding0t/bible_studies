@@ -21,6 +21,7 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:4
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:3
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 1:7
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 1:20
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 1:4
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 1:10
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 1:17-18

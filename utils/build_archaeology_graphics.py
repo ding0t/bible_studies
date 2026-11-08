@@ -787,14 +787,15 @@ def texts_map():
         "each was found. A wide panel from Italy to Mesopotamia marks Babylon, where the Cyrus Cylinder "
         "(5) and the Babylonian Chronicles (6) came from; Nineveh, the Taylor Prism (8); Amarna, the "
         "Amarna Letters (10); Thebes, the Merneptah Stele (11); St Catherine's Monastery in Sinai, "
-        "Codex Sinaiticus (16); and Rome, where Codex Vaticanus (17) is kept, drawn as a double ring "
+        "Codex Sinaiticus (17); and Rome, where Codex Vaticanus (18) is kept, drawn as a double ring "
         "because its origin is unknown. A dashed ring over the Nile valley stands for the papyri P52, "
-        "P46 and P66 (13 to 15), bought in Egypt with no recorded findspot. A panel of the land of "
+        "P46 and P66 (14 to 16), bought in Egypt with no recorded findspot. A panel of the land of "
         "Israel marks Qumran and the Dead Sea Scrolls (1), Dhiban and the Mesha Stele (3), Tel Dan (4), "
-        "Lachish and its letters (7) and Caesarea Maritima and the Pilate Stone (18). An inset of "
+        "Lachish and its letters (7), Tell Deir Alla and the Balaam inscription (12) and Caesarea "
+        "Maritima and the Pilate Stone (19). An inset of "
         "Jerusalem marks Ketef Hinnom and its silver scrolls (2), the Siloam Inscription in Hezekiah's "
-        "Tunnel (9), the bullae from the City of David and the Ophel (12), and the Peace Forest tomb of "
-        "the Caiaphas ossuary (19, dashed, placed approximately). The historians, 20 to 24, are copied "
+        "Tunnel (9), the bullae from the City of David and the Ophel (13), and the Peace Forest tomb of "
+        "the Caiaphas ossuary (20, dashed, placed approximately). The historians, 21 to 25, are copied "
         "texts with no findspot and are not mapped."
     )
     out = svg_open(h, "Ancient texts and manuscripts: where they were found", desc)
@@ -814,9 +815,9 @@ def texts_map():
         ("8", "Nineveh", 36.3594, 43.1528, "settled", "r"),
         ("10", "Amarna", 27.6597, 30.9039, "settled", "l"),
         ("11", "Thebes", 25.7248, 32.6080, "settled", "r"),
-        ("16", "St Catherine's|Monastery, Sinai", 28.5559, 33.9760, "settled", "r"),
-        ("17", "Rome|Vatican Library", 41.9045, 12.4545, "kept", "r"),
-        ("13–15", "Papyri bought in Egypt", 29.6, 30.55, "proposed", "l"),
+        ("17", "St Catherine's|Monastery, Sinai", 28.5559, 33.9760, "settled", "r"),
+        ("18", "Rome|Vatican Library", 41.9045, 12.4545, "kept", "r"),
+        ("14–16", "Papyri bought in Egypt", 29.6, 30.55, "proposed", "l"),
     ], 12.5)
     k, kh = key(world.x + 12, world.y + world.h - 101, [("settled", "Where it was found"),
                                                          ("proposed", "Findspot unrecorded or approx."),
@@ -833,7 +834,8 @@ def texts_map():
         ("3", "Dhiban|Mesha Stele", 31.4985, 35.7801, "settled", "t"),
         ("4", "Tel Dan", 33.2486, 35.6522, "settled", "l"),
         ("7", "Lachish", 31.5655, 34.8492, "settled", "r"),
-        ("18", "Caesarea|Pilate Stone", 32.4961, 34.8914, "settled", "r"),
+        ("12", "Tell Deir Alla|Balaam inscription", 32.1966, 35.62118, "settled", "l"),
+        ("19", "Caesarea|Pilate Stone", 32.4961, 34.8914, "settled", "r"),
     ], 12.5)
     out += close_panel(israel, "The land")
 
@@ -841,15 +843,15 @@ def texts_map():
     out += jerusalem(jer, [
         ("2", "Ketef Hinnom|silver scrolls", 31.7689, 35.2254, "settled", "b"),
         ("9", "Siloam|Inscription", 31.7708, 35.2353, "settled", "l"),
-        ("12", "Bullae|Ophel,|City of David", 31.7748, 35.2362, "settled", "r"),
-        ("19", "Caiaphas tomb|Peace Forest (approx.)", 31.7600, 35.2310, "proposed", "r"),
+        ("13", "Bullae|Ophel,|City of David", 31.7748, 35.2362, "settled", "r"),
+        ("20", "Caiaphas tomb|Peace Forest (approx.)", 31.7600, 35.2310, "proposed", "r"),
     ])
     out += close_panel(jer, "Jerusalem")
 
     out += footnote(israel.y + israel.h + 20, [
         "Where now: P52 Manchester; P46 Dublin and Ann Arbor; P66 Geneva (Cologny); Codex Sinaiticus mostly London.",
-        "The Baruch bulla (12) came through the antiquities market, with no findspot. Josephus, Tacitus, Pliny,",
-        "Suetonius and the Talmud (20–24) survive as copied texts, not found objects, and are not mapped.",
+        "The Baruch bulla (13) came through the antiquities market, with no findspot. Josephus, Tacitus, Pliny,",
+        "Suetonius and the Talmud (21–25) survive as copied texts, not found objects, and are not mapped.",
     ])
     out.append(map_credit(h))
     out.append(credit(h))

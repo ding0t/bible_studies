@@ -3,12 +3,13 @@ title: "The Donkey and Her Prophet: How God Turned a Hired Curse into a Star"
 category: "prophecy"
 description: "Balak paid Balaam to curse Israel. A donkey saw the angel first, the LORD opened her mouth and then Balaam's eyes, and the curse became Abraham's blessing and the promise of a Star out of Jacob."
 tags: ["person/balaam", "method/archaeology", "method/word-study", "lang/hebrew", "numbers", "old-testament", "prophecy-fulfilled"]
-draft: true
-primary_passage: "Numbers 22:1-24:25"
-bible_references: ["Genesis 12:3", "Genesis 15:5", "Genesis 22:17", "Genesis 27:29", "Genesis 28:14", "Genesis 37:9", "Genesis 49:9-10", "Numbers 2:2", "Numbers 21:21-35", "Numbers 24:20-24", "Numbers 25:1-3", "Numbers 31:8", "Numbers 31:16", "Deuteronomy 3:29", "Deuteronomy 4:19", "Deuteronomy 18:10-12", "Deuteronomy 18:18-19", "Deuteronomy 23:3-5", "Deuteronomy 33:8-11", "Deuteronomy 34:1-6", "Joshua 6:26", "Joshua 13:22", "Joshua 24:9-10", "Judges 5:20", "2 Samuel 8:2", "Nehemiah 13:1-2", "Job 38:7", "Psalm 2:9", "Psalm 110:1", "Psalm 147:4", "Proverbs 26:2", "Isaiah 9:6", "Isaiah 14:4", "Isaiah 14:12-14", "Micah 5:2", "Micah 6:5", "Amos 5:26", "Zechariah 9:9", "Matthew 2:1-2", "Matthew 22:42-45", "Acts 7:42-43", "Romans 8:31-34", "1 Corinthians 10:6-11", "Galatians 3:13-14", "Ephesians 1:3", "2 Peter 1:19", "2 Peter 2:15-16", "Jude 11", "Revelation 1:20", "Revelation 2:14", "Revelation 2:26-28", "Revelation 5:5", "Revelation 22:16"]
+draft: false
+primary_passage: "Numbers 22:21-35; Numbers 24:15-19"
+bible_references: ["Numbers 22:1-20", "Numbers 23:1-30", "Numbers 24:1-14", "Numbers 24:20-25", "Genesis 12:3", "Genesis 15:5", "Genesis 22:17", "Genesis 27:29", "Genesis 28:14", "Genesis 37:9", "Genesis 49:9-10", "Numbers 2:2", "Numbers 21:21-35", "Numbers 25:1-3", "Numbers 31:8", "Numbers 31:16", "Deuteronomy 3:29", "Deuteronomy 4:19", "Deuteronomy 18:10-12", "Deuteronomy 18:18-19", "Deuteronomy 23:3-5", "Deuteronomy 33:8-11", "Deuteronomy 34:1-6", "Joshua 6:26", "Joshua 13:22", "Joshua 24:9-10", "Judges 5:20", "2 Samuel 8:2", "Nehemiah 13:1-2", "Job 38:7", "Psalm 2:9", "Psalm 110:1", "Psalm 147:4", "Proverbs 26:2", "Isaiah 9:6", "Isaiah 14:4", "Isaiah 14:12-14", "Micah 5:2", "Micah 6:5", "Amos 5:26", "Zechariah 9:9", "Matthew 2:1-2", "Matthew 22:42-45", "Acts 7:42-43", "Romans 8:31-34", "1 Corinthians 10:6-11", "Galatians 3:13-14", "Ephesians 1:3", "2 Peter 1:19", "2 Peter 2:15-16", "Jude 11", "Revelation 1:20", "Revelation 2:14", "Revelation 2:26-28", "Revelation 5:5", "Revelation 22:16", "Genesis 16:13", "Genesis 22:16", "Genesis 31:13", "Genesis 33:3", "Exodus 3:2-6", "Exodus 23:20-21", "Joshua 5:13-15", "Judges 13:18-22", "Malachi 3:1", "John 1:18", "1 Corinthians 10:4", "Jude 5", "Revelation 22:8-9"]
 date_created: 2026-11-08
 date_modified: 2026-11-08
-ai_provider_models: []
+ai_provider_models:
+  - anthropic/claude-opus-5.5
 ---
 
 # The Donkey and Her Prophet: How God Turned a Hired Curse into a Star
@@ -42,6 +43,8 @@ rule over the nations, promised to Jesus in Psalm 2:9 and Revelation 2:27, waits
   3:13-14, BSB).
 - The Star came down. He descended out of heaven into a human family line, born in Bethlehem
   (Micah 5:2; Matthew 2:1).
+- Before Bethlehem the Son stood in Balaam's road as the angel of the LORD, the reading this study
+  holds and argues under "Who stood in the road" (Numbers 22:31-35; Jude 5).
 
 ### Memory verses
 
@@ -78,13 +81,13 @@ You give me to speak. In Jesus' name. Amen.
 
 - [Why Balak paid for a curse](#why-balak-paid-for-a-curse). Balak's fee, the ancient trade of the diviner, and the belief that the curser decides.
 - [The LORD answers first](#the-lord-answers-first). God's verdict before any curse is spoken, Balaam's repeated confession, and the ground of it in Genesis 12:3.
-- [The donkey](#the-donkey). Three blows, one verb shared with Balak, and the two things the LORD opens.
+- [The donkey](#the-donkey). Three blows, one verb shared with Balak, the two things the LORD opens, and who stood in the road.
 - [Where it happened](#where-it-happened). The plains of Moab, three high places, and Joel Kramer's walk across them.
-- [A name on a wall](#a-name-on-a-wall). The Deir Alla inscription and what it confirms.
-- [Three oracles turn the curse](#three-oracles-turn-the-curse). Balak's two verbs turned on Israel, Isaac's blessing on Jacob, and Deuteronomy 23:5.
+- [Three oracles turn the curse](#three-oracles-turn-the-curse). Balak's two verbs turned on Israel, Isaac's blessing on Jacob, and Judah's lion.
 - [The Star and the Scepter](#the-star-and-the-scepter). How Scripture uses "star" and "morning star", and who the Star is.
 - [How Scripture remembers Balaam](#how-scripture-remembers-balaam). The Old Testament's remembered blessing, the New Testament's warning, and the lesson in both.
 - [Discussion questions](#discussion-questions). Six, for a group or on your own.
+- [Annex: Balaam's name on a wall at Deir Alla](#annex-balaams-name-on-a-wall-at-deir-alla). The Deir Alla inscription and what it confirms.
 
 ## Why Balak paid for a curse
 
@@ -203,6 +206,41 @@ sight to a man who has been paid to see. Balaam confesses "I have
 sinned" (Numbers 22:34, BSB) and offers to go home, and the angel sends him on: "speak only what I
 tell you" (Numbers 22:35, BSB). The curse is already beaten. The prophet is the one still to be turned.
 
+### Who stood in the road
+
+The angel of the LORD who stood in Balaam's road is the LORD Himself, appearing, and the New
+Testament lets us name Him: God the Son, before Bethlehem. Scripture gives five reasons, and they
+point the same way.
+
+1. **He speaks God's word as His own.** "Your way is perverse before me" (Numbers 22:32, BSB), and
+   "you are to speak only what I tell you" (Numbers 22:35, BSB). Balaam then calls it "the word that
+   God puts in my mouth" (Numbers 22:38, BSB), and Numbers says "the LORD put a message in Balaam's
+   mouth" (Numbers 23:5, BSB).
+2. **Wherever the angel of the LORD speaks, people meet God.** Hagar names "the LORD who had spoken
+   to her" (Genesis 16:13, BSB). The angel swears to Abraham, "By Myself I have sworn, declares the
+   LORD" (Genesis 22:16, BSB), and tells Jacob, "I am the God of Bethel" (Genesis 31:13, BSB). From
+   the bush He says, "I am the God of your father, the God of Abraham" (Exodus 3:6, BSB). Manoah is
+   told His name is <span dir="rtl">פִּלְאִי</span> (*pil'i*, H6383, "wonderful"; BSB "beyond
+   comprehension"), from the root of Isaiah 9:6's "Wonderful Counselor", and says, "we have seen
+   God!" (Judges 13:18, 22, BSB).
+3. **He is also distinct from the LORD who sends Him.** "My Name is in him" (Exodus 23:21, BSB). The
+   Lord who comes to His temple is "the Messenger of the covenant" (Malachi 3:1, BSB). God, and sent
+   from God: the New Testament names that One the Son, who "has made Him known" (John 1:18, BSB).
+4. **He receives the honour a created angel refuses.** Balaam falls facedown (Numbers 22:31), and so
+   does Joshua before the Commander with the drawn sword, who calls the ground holy as the voice at
+   the bush did (Joshua 5:13-15). When John falls at an angel's feet, the angel stops him: "Do not do
+   that! ... Worship God!" (Revelation 22:9, BSB).
+5. **The New Testament puts the Son in this wilderness.** "That rock was Christ" (1 Corinthians
+   10:4, BSB), Israel tested Christ there (1 Corinthians 10:9), and "Jesus had delivered His people
+   out of the land of Egypt" (Jude 5, BSB).
+
+Two cautions are real. A messenger can speak in his sender's voice, and the same Hebrew bow is given
+to a brother (Genesis 33:3). Some manuscripts read "the Lord" at 1 Corinthians 10:9 and Jude 5.
+Neither answers the whole pattern, which runs from Genesis to Malachi, so this study holds the
+reading with those two marked. This shows that God the Son came out to meet His people's enemy
+before He was born. The Star that Balaam would see "not now" had already met him in the road, with a
+drawn sword, to stop a curse on the people He would come from.
+
 ## Where it happened
 
 Israel is camped in the plains of Moab, across the Jordan from Jericho (Numbers 22:1; 31:12).
@@ -219,6 +257,8 @@ the ridge above it, and the text pairs the two: Israel "stayed in the valley opp
 Peor ridge carries pottery from the Old Testament period (both as Kramer reports them).
 
 [![Relief map of the plains of Moab at the north end of the Dead Sea. Israel's camp lies along the Jordan from Beth-jeshimoth to Shittim at Tall el-Hammam. Balaam's three viewpoints sit on the plateau edge to the south-east, 1 Bamoth-baal, 2 Pisgah on Mount Nebo and 3 Peor, each with a sight line to the camp: the outskirts, not all of them, and Israel encamped tribe by tribe. An inset shows the Arnon, Tell Deir Alla and the way north to Pethor on the Euphrates.](../assets/img/balaam/plains-of-moab-map.svg)](../assets/img/balaam/plains-of-moab-map.svg)
+
+### Three heights over the camp
 
 On that ground the three viewpoints run from south to north, each nearer the camp, and the text's
 widening view fits the order. From Bamoth-baal Balaam sees only "the outskirts of the camp"
@@ -240,27 +280,13 @@ the ground where Balaam first named one. Matthew names no road, and Kramer offer
 inference. Tall el-Hammam is also the northern candidate for Sodom; for that debate and Kramer's
 southern case, see [Cities of the Plain](../scripture/cities-of-the-plain.md).
 
-## A name on a wall
-
-In 1967 excavators at Tell Deir Alla in the Jordan Valley found fragments of ink-written plaster. The
-first line names "Balaam the son of Beor ... the man who was a seer of the gods" (as the *ESV
-Study Bible* note on Numbers 22:1-6 quotes it). The writing is dated to the ninth or eighth century BC,
-and Kramer shows the piece in a Jordanian museum. The fragments are broken, and their reading,
-language and exact date are debated.
-
-The inscription confirms one thing: a seer named Balaam son of Beor was a figure other peoples
-remembered, some centuries after Numbers. His sayings were written on a wall in the Jordan Valley.
-
-The inscription records what the people of the Jordan Valley made of him, a seer of "the gods". Numbers records what
-the LORD made of his tongue, and it has Balaam speak of "the LORD my God" (Numbers 22:18, BSB). As far as the published readings of the fragments go, they do not repeat
-the story of Numbers 22-24, so nothing in them confirms the donkey or the oracles. What the wall
-gives is the man.
-
 ## Three oracles turn the curse
 
 At each of the three sites seven altars are built at Balaam's word, with a bull and a ram on each
 (Numbers 23:1-2, 14, 29-30). The LORD puts a message in his mouth. He returns to Balak, and Balak hears
 a blessing.
+
+### The first and second oracles
 
 The first oracle asks a question Balak cannot answer: "How can I curse those whom God has not
 cursed? How can I denounce those whom the LORD has not denounced?" (Numbers 23:8, BSB). It names
@@ -274,6 +300,8 @@ Balak reacts: "I brought you here to curse my enemies, and behold, you have only
 23:20). It says "there is no spell against Jacob and no divination against Israel" (Numbers 23:23,
 BSB), and the
 divination that Balak paid for gets its verdict from the LORD's own word.
+
+### The third oracle: Balak's verbs turned on Israel
 
 Before the third oracle "the Spirit of God came upon him" (Numbers 24:2, BSB). Balaam sees "How
 lovely are your tents, O Jacob" (Numbers 24:5, BSB), and ends with the blessing Isaac gave Jacob:
@@ -398,6 +426,8 @@ in two ways, and the two belong together.
 
 [![Chart of how Scripture remembers Balaam. The Old Testament remembers what the LORD did: Deuteronomy 23:4-5, Joshua 24:9-10, Nehemiah 13:1-2 and Micah 6:5. The New Testament warns what Balaam did: the way of Balaam in 2 Peter 2:15-16, the error of Balaam in Jude 11, the teaching of Balaam in Revelation 2:14, and, dashed because it names Peor only, 1 Corinthians 10:8 and 11.](../assets/img/balaam/balaam-remembered.svg)](../assets/img/balaam/balaam-remembered.svg)
 
+### The Old Testament: the blessing remembered
+
 **The Old Testament remembers what the LORD did with his mouth.** Moses tells the next generation
 that the LORD "turned the curse into a blessing" (Deuteronomy 23:5, BSB), and Nehemiah's generation
 hears it read aloud again (Nehemiah 13:1-2). Joshua gathers Israel at Shechem and speaks "what the
@@ -411,6 +441,8 @@ first person:
 Micah 6:5 gives the lesson to carry: "remember what Balak king of Moab counseled and what Balaam son
 of Beor answered. Remember your journey from Shittim to Gilgal, so that you may acknowledge the
 righteousness of the LORD" (BSB).
+
+### The New Testament: Balaam's counsel and wages
 
 **The New Testament remembers what Balaam did with his own counsel.** The mouth belonged to the
 LORD, and the counsel belonged to Balaam. After the oracles "Balaam arose and returned to his
@@ -430,6 +462,8 @@ way of Balaam son of Beor, who loved the wages of wickedness" (2 Peter 2:15, BSB
 (1 Corinthians 10:8), "written down as warnings for us" (1 Corinthians 10:11, BSB). For the
 New Testament warning in full, see [Test the Spirits](../christian-life/test-the-spirits.md), and
 for his trade, [Sorcery](../sin/sorcery.md).
+
+### The blessing and the warning together
 
 **The lesson across all of it.** God's blessing covers His people against every curse from
 outside, and He claims that victory as His own (Joshua 24:10). The blessing gives no licence to join
@@ -458,6 +492,17 @@ Jesus' names, see [Names of Jesus](../jesus/names-of-jesus.md).
 6. **Be transformed.** Micah 6:5 tells Israel to "remember what Balak king of Moab counseled and what
    Balaam son of Beor answered" (BSB). What was meant against you that the LORD has turned (Deuteronomy
    23:5), and who do you need to tell this week?
+
+## Annex: Balaam's name on a wall at Deir Alla
+
+A wall in the Jordan Valley remembers Balaam by name. In 1967 excavators at Tell Deir Alla found
+fragments of ink-written plaster whose first line names "Balaam the son of Beor ... the man who was a
+seer of the gods" (as the *ESV Study Bible* note on Numbers 22:1-6 quotes it). The writing is dated to
+the ninth or eighth century BC, and Kramer shows the piece in a Jordanian museum. It confirms the man,
+a seer the surrounding peoples remembered. The published readings of the fragments do not repeat the
+story of Numbers 22-24, and Numbers, where Balaam speaks of "the LORD my God" (Numbers 22:18, BSB),
+is what this study stands on. The full entry, with what is debated, is in
+[Ancient Texts and Manuscripts](../scripture/ancient-texts-manuscripts.md#12-the-deir-alla-inscription-c-800-bc).
 
 ## References & Recommended Reading
 

@@ -15,5 +15,6 @@ draft: false
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:2
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:7
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 2:7
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 2:9
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 2:2-7
 <!-- commentary-index:auto-end -->

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 5:3
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 5:20
 <!-- commentary-index:auto-end -->

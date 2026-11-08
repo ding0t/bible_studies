@@ -15,5 +15,6 @@ draft: false
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 9:9
 - [In Humility](../../christian-life/humility.md) — 9:9
 - [Precious Stones in Scripture](../../god/precious-stones.md) — 9:16
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 9:9
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 9:9
 <!-- commentary-index:auto-end -->

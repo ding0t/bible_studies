@@ -20,6 +20,7 @@ draft: false
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 10:13
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 10:16
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 10:16
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 10:6-11
 - [The End of the Age](../../last-things/end-of-the-age.md) — 10:11
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 10:13
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 10:1-4

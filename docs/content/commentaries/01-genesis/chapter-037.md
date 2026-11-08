@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 37:5-11 (primary passage)
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 37:9
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 37:9
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 37:35
 <!-- commentary-index:auto-end -->

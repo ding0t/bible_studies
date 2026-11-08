@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1258" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
 <title id="t">Ancient texts and manuscripts: where they were found</title>
-<desc id="d">Map locating the numbered texts, manuscripts and inscriptions of the Ancient Texts study where each was found. A wide panel from Italy to Mesopotamia marks Babylon, where the Cyrus Cylinder (5) and the Babylonian Chronicles (6) came from; Nineveh, the Taylor Prism (8); Amarna, the Amarna Letters (10); Thebes, the Merneptah Stele (11); St Catherine's Monastery in Sinai, Codex Sinaiticus (16); and Rome, where Codex Vaticanus (17) is kept, drawn as a double ring because its origin is unknown. A dashed ring over the Nile valley stands for the papyri P52, P46 and P66 (13 to 15), bought in Egypt with no recorded findspot. A panel of the land of Israel marks Qumran and the Dead Sea Scrolls (1), Dhiban and the Mesha Stele (3), Tel Dan (4), Lachish and its letters (7) and Caesarea Maritima and the Pilate Stone (18). An inset of Jerusalem marks Ketef Hinnom and its silver scrolls (2), the Siloam Inscription in Hezekiah's Tunnel (9), the bullae from the City of David and the Ophel (12), and the Peace Forest tomb of the Caiaphas ossuary (19, dashed, placed approximately). The historians, 20 to 24, are copied texts with no findspot and are not mapped.</desc>
+<desc id="d">Map locating the numbered texts, manuscripts and inscriptions of the Ancient Texts study where each was found. A wide panel from Italy to Mesopotamia marks Babylon, where the Cyrus Cylinder (5) and the Babylonian Chronicles (6) came from; Nineveh, the Taylor Prism (8); Amarna, the Amarna Letters (10); Thebes, the Merneptah Stele (11); St Catherine's Monastery in Sinai, Codex Sinaiticus (17); and Rome, where Codex Vaticanus (18) is kept, drawn as a double ring because its origin is unknown. A dashed ring over the Nile valley stands for the papyri P52, P46 and P66 (14 to 16), bought in Egypt with no recorded findspot. A panel of the land of Israel marks Qumran and the Dead Sea Scrolls (1), Dhiban and the Mesha Stele (3), Tel Dan (4), Lachish and its letters (7), Tell Deir Alla and the Balaam inscription (12) and Caesarea Maritima and the Pilate Stone (19). An inset of Jerusalem marks Ketef Hinnom and its silver scrolls (2), the Siloam Inscription in Hezekiah's Tunnel (9), the bullae from the City of David and the Ophel (13), and the Peace Forest tomb of the Caiaphas ossuary (20, dashed, placed approximately). The historians, 21 to 25, are copied texts with no findspot and are not mapped.</desc>
 <rect width="720" height="1258" fill="#faf6ec"/>
 <rect x="8" y="8" width="704" height="1242" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
 <rect x="14" y="14" width="692" height="1230" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
@@ -24,9 +24,9 @@
 <rect x="595.8" y="271.8" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="604.8" y="284.5" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">8</text>
 <rect x="383.9" y="453.3" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="392.9" y="466.0" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">10</text>
 <rect x="413.4" y="493.7" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="422.4" y="506.4" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">11</text>
-<rect x="437.1" y="434.6" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="446.1" y="447.3" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">16</text>
-<rect x="64.8" y="156.1" width="18.0" height="18" rx="9" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.6"/><rect x="61.8" y="153.1" width="24.0" height="24" rx="12" fill="none" stroke="#3b2f1e" stroke-width="1"/><text x="73.8" y="168.8" font-size="10.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">17</text>
-<rect x="368.1" y="412.8" width="37.5" height="18" rx="9" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.6" stroke-dasharray="3 2"/><text x="386.8" y="425.5" font-size="9.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">13–15</text>
+<rect x="437.1" y="434.6" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="446.1" y="447.3" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">17</text>
+<rect x="64.8" y="156.1" width="18.0" height="18" rx="9" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.6"/><rect x="61.8" y="153.1" width="24.0" height="24" rx="12" fill="none" stroke="#3b2f1e" stroke-width="1"/><text x="73.8" y="168.8" font-size="10.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">18</text>
+<rect x="368.1" y="412.8" width="37.5" height="18" rx="9" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.6" stroke-dasharray="3 2"/><text x="386.8" y="425.5" font-size="9.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">14–16</text>
 <text x="626.9" y="383.4" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Babylon</text>
 <text x="618.8" y="285.3" font-size="12.5" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Nineveh</text>
 <text x="378.9" y="466.8" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Amarna</text>
@@ -63,12 +63,15 @@
 <rect x="307.6" y="1082.0" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="316.6" y="1094.7" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">3</text>
 <rect x="277.1" y="588.2" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="286.1" y="600.9" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">4</text>
 <rect x="85.7" y="1063.1" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="94.7" y="1075.8" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">7</text>
-<rect x="95.7" y="800.5" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="104.7" y="813.2" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">18</text>
+<rect x="269.7" y="885.1" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="278.7" y="897.8" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">12</text>
+<rect x="95.7" y="800.5" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="104.7" y="813.2" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">19</text>
 <text x="254.1" y="1027.1" font-size="12.5" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Qumran</text>
 <text x="316.6" y="1062.5" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Dhiban</text>
 <text x="316.6" y="1077.0" font-size="11.0" fill="#6b5a3e" text-anchor="middle" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Mesha Stele</text>
 <text x="272.1" y="601.7" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Tel Dan</text>
 <text x="108.7" y="1076.6" font-size="12.5" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Lachish</text>
+<text x="264.7" y="898.6" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Tell Deir Alla</text>
+<text x="264.7" y="913.1" font-size="11.0" fill="#6b5a3e" text-anchor="end" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Balaam inscription</text>
 <text x="118.7" y="814.0" font-size="12.5" fill="#3b2f1e" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Caesarea</text>
 <text x="118.7" y="828.5" font-size="11.0" fill="#6b5a3e" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Pilate Stone</text>
 </g>
@@ -94,8 +97,8 @@
 <text x="463.0" y="878.2" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Hinnom Valley</text>
 <rect x="434.2" y="902.7" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="443.2" y="915.4" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">2</text>
 <rect x="556.9" y="875.0" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="565.9" y="887.7" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">9</text>
-<rect x="568.1" y="816.7" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="577.1" y="829.4" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">12</text>
-<rect x="503.6" y="1032.6" width="18.0" height="18" rx="9" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.6" stroke-dasharray="3 2"/><text x="512.6" y="1045.3" font-size="10.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">19</text>
+<rect x="568.1" y="816.7" width="18.0" height="18" rx="9" fill="#3b2f1e"/><text x="577.1" y="829.4" font-size="10.5" fill="#faf6ec" text-anchor="middle" font-weight="bold">13</text>
+<rect x="503.6" y="1032.6" width="18.0" height="18" rx="9" fill="#f1dcd4" stroke="#8b1e1e" stroke-width="1.6" stroke-dasharray="3 2"/><text x="512.6" y="1045.3" font-size="10.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">20</text>
 <text x="443.2" y="934.7" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Ketef Hinnom</text>
 <text x="443.2" y="949.2" font-size="11.0" fill="#6b5a3e" text-anchor="middle" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">silver scrolls</text>
 <text x="551.9" y="888.5" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-weight="bold" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Siloam</text>
@@ -112,8 +115,8 @@
 <path d="M602.5 1129.464639055473 V1134.464639055473 H668.0 V1129.464639055473" fill="none" stroke="#3b2f1e" stroke-width="1.5"/>
 <text x="635.2" y="1126.5" font-size="11.5" fill="#3b2f1e" text-anchor="middle" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">500 m</text>
 <text x="40.0" y="1168.5" font-size="11.5" fill="#6b5a3e" font-style="italic">Where now: P52 Manchester; P46 Dublin and Ann Arbor; P66 Geneva (Cologny); Codex Sinaiticus mostly London.</text>
-<text x="40.0" y="1183.5" font-size="11.5" fill="#6b5a3e" font-style="italic">The Baruch bulla (12) came through the antiquities market, with no findspot. Josephus, Tacitus, Pliny,</text>
-<text x="40.0" y="1198.5" font-size="11.5" fill="#6b5a3e" font-style="italic">Suetonius and the Talmud (20–24) survive as copied texts, not found objects, and are not mapped.</text>
+<text x="40.0" y="1183.5" font-size="11.5" fill="#6b5a3e" font-style="italic">The Baruch bulla (13) came through the antiquities market, with no findspot. Josephus, Tacitus, Pliny,</text>
+<text x="40.0" y="1198.5" font-size="11.5" fill="#6b5a3e" font-style="italic">Suetonius and the Talmud (21–25) survive as copied texts, not found objects, and are not mapped.</text>
 <text x="40.0" y="1236.0" font-size="10.5" fill="#6b5a3e" font-style="italic">Coastlines: Natural Earth. Jerusalem walls: © OpenStreetMap contributors.</text>
 <text x="696.0" y="1236.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
 </svg>

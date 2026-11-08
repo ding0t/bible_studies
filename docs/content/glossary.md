@@ -5,7 +5,7 @@ description: "Short definitions of the terms these studies use — interpretive 
 tags: ["glossary", "reference", "method/word-study", "method/textual-criticism"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-10-22
+date_modified: 2026-11-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -176,7 +176,7 @@ vowel points and accents — <span dir="rtl">בְּרֵאשִׁ֖ית</span> in 
 
 **Codex**{ #codex } — A book with leaves bound at a spine, as against a rolled scroll. Christians
 took it up early, which is why the oldest complete Bibles are codices.
-→ [Codex Sinaiticus](scripture/ancient-texts-manuscripts.md#16-codex-sinaiticus-c-ad-330-360)
+→ [Codex Sinaiticus](scripture/ancient-texts-manuscripts.md#17-codex-sinaiticus-c-ad-330-360)
 
 **Dead Sea Scrolls**{ #dead-sea-scrolls } — Hebrew biblical manuscripts copied c. 250 BC–AD 68 and
 found at Qumran: a thousand years older than the oldest complete Masoretic manuscripts, and the only

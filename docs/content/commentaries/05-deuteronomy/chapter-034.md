@@ -14,5 +14,6 @@ draft: false
 
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 34:5-7
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 34:3
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 34:1-6
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 34:5-6
 <!-- commentary-index:auto-end -->

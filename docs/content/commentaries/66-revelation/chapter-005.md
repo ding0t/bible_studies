@@ -17,6 +17,7 @@ draft: false
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 5:9-10
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 5:9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 5:9
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 5:5
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 5:8
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 5:6
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 5:5-6

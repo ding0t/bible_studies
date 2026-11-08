@@ -14,6 +14,7 @@ draft: false
 
 - [In Humility](../../christian-life/humility.md) — 6:8
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 6:4
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 6:5
 - [True Worship](../../christian-life/true-worship.md) — 6:6-8
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 6:8
 <!-- commentary-index:auto-end -->

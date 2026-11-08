@@ -4,7 +4,7 @@ category: "other"
 description: "Studies of particular people in Scripture."
 draft: false
 date_created: 2026-08-08
-date_modified: 2026-10-02
+date_modified: 2026-11-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -135,6 +135,14 @@ the subject, not the illustration.
     The man who persecuted the church became the one Jesus sent specifically to the Gentiles -- what Scripture actually claims about the connection between his conversion and theirs, and where it stops short of calling him a type.
 
     [:octicons-arrow-right-24: Read](paul.md)
+
+-   __The Donkey and Her Prophet: How God Turned a Hired Curse into a Star__
+
+    ---
+
+    Balak paid Balaam to curse Israel. A donkey saw the angel first, the LORD opened her mouth and then Balaam's eyes, and the curse became Abraham's blessing and the promise of a Star out of Jacob.
+
+    [:octicons-arrow-right-24: Read](the-donkey-and-her-prophet.md)
 
 </div>
 <!-- section-index:auto-end -->

@@ -16,6 +16,7 @@ draft: false
 - [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 7:4
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 7:59
 - [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 7:4
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 7:42-43
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 7:4
 - [The Heavenly Pattern](../../jesus/the-heavenly-pattern/index.md) — 7:44
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 7:56

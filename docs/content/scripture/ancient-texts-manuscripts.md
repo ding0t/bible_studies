@@ -5,7 +5,7 @@ description: "How Scripture compares to other ancient works on manuscript eviden
 tags: ["method/archaeology", "method/textual-criticism", "manuscripts", "inscriptions", "dead-sea-scrolls", "apologetics"]
 draft: false
 date_created: 2026-01-24
-date_modified: 2026-10-19
+date_modified: 2026-11-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -162,7 +162,7 @@ before. That is the claim the artifacts below are evidence for.
 Each numbered entry is placed where it was found. Codex Vaticanus is the exception: it is drawn in
 Rome, where it is kept, because where it was copied is unknown.
 
-[![Map of where each numbered text was found. The ancient Near East: Babylon (5, 6), Nineveh (8), Amarna (10), Thebes (11), St Catherine's Monastery in Sinai (16), Rome as a double ring for Codex Vaticanus (17), and a dashed ring over the Nile valley for the papyri P52, P46 and P66 (13 to 15), whose findspots are unrecorded. The land of Israel: Qumran (1), Dhiban (3), Tel Dan (4), Lachish (7) and Caesarea (18). Jerusalem inset: Ketef Hinnom (2), the Siloam Inscription (9), the bullae from the Ophel and City of David (12), and the Caiaphas tomb in the Peace Forest as a dashed ring, placed approximately (19)](../assets/img/archaeology/ancient-texts-map.svg)](../assets/img/archaeology/ancient-texts-map.svg)
+[![Map of where each numbered text was found. The ancient Near East: Babylon (5, 6), Nineveh (8), Amarna (10), Thebes (11), St Catherine's Monastery in Sinai (17), Rome as a double ring for Codex Vaticanus (18), and a dashed ring over the Nile valley for the papyri P52, P46 and P66 (14 to 16), whose findspots are unrecorded. The land of Israel: Qumran (1), Dhiban (3), Tel Dan (4), Lachish (7), Caesarea (19) and Tell Deir Alla (12). Jerusalem inset: Ketef Hinnom (2), the Siloam Inscription (9), the bullae from the Ophel and City of David (13), and the Caiaphas tomb in the Peace Forest as a dashed ring, placed approximately (20)](../assets/img/archaeology/ancient-texts-map.svg)](../assets/img/archaeology/ancient-texts-map.svg)
 
 ## Old Testament Texts and Inscriptions
 
@@ -495,9 +495,46 @@ Rome, where it is kept, because where it was copied is unknown.
 
 ---
 
+#### 12. The Deir Alla Inscription (c. 800 BC)
+
+**Location:** Tell Deir Alla, in the Jordan Valley east of the river (Succoth, on its usual
+identification)
+**Discovery Date:** 1967
+**Significance:** Names "Balaam son of Beor", the seer of Numbers 22-24, outside the Bible
+
+**Contents:**
+- Fragments of a text written in black and red ink on the white plaster of a wall, brought down by an
+  earthquake; now in Amman
+- Its first line names "Balaam the son of Beor ... the man who was a seer of the gods" (as the *ESV
+  Study Bible* note on Numbers 22:1-6 quotes it)
+- The fragments are broken and pieced together into two main groups; their reading, their language
+  (an early Aramaic or a local dialect of the region) and their exact date are debated. Estimates run
+  from the ninth to the eighth century BC.
+
+**Biblical Validation:**
+- Numbers names Balaam the same way, "Balaam son of Beor" (Numbers 22:5; 24:3; Deuteronomy 23:4;
+  2 Peter 2:15), and calls him a diviner (Joshua 13:22).
+- Some centuries after Numbers, a scribe in the Jordan Valley, the region where Balaam blessed Israel,
+  still wrote down his sayings. The Balaam of Numbers was a man the surrounding peoples remembered.
+- The inscription calls him a seer of "the gods"; Numbers has him speak of "the LORD my God"
+  (Numbers 22:18, BSB). As far as the published readings go, the fragments do not repeat the
+  story of Numbers 22-24, so they confirm the man and not the donkey or the oracles.
+
+**Scripture References:**
+- Numbers 22:5 - "he sent messengers to summon Balaam son of Beor at Pethor, which is by the
+  Euphrates in the land of his people" (BSB)
+- Joshua 13:22 - "The Israelites also killed the diviner Balaam son of Beor" (BSB)
+
+**Further study:** [The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md) works through
+Numbers 22-24.
+
+**Time Period:** Divided Kingdom (c. 880-770 BC on the usual estimates)
+
+---
+
 ### Seals and Bullae (Seal Impressions)
 
-#### 12. Bullae with Biblical Names
+#### 13. Bullae with Biblical Names
 
 ![A small clay seal impression showing a winged sun between lines of Old Hebrew letters](../assets/img/archaeology/hezekiah-bulla.jpg){ loading=lazy }
 *A seal impression of King Hezekiah, on loan to the Israel Museum from a private collection. It reads like the impression excavated on the Ophel in 2015, but this one has no recorded findspot, so the excavated piece is the stronger evidence. Photo: [Tamir Zegman](https://commons.wikimedia.org/wiki/File:%D7%98%D7%91%D7%99%D7%A2%D7%AA_%D7%97%D7%95%D7%AA%D7%9D_%D7%94%D7%9E%D7%9C%D7%9A_%D7%97%D7%96%D7%A7%D7%99%D7%94%D7%95.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
@@ -531,7 +568,7 @@ Rome, where it is kept, because where it was copied is unknown.
 
 ### Early New Testament Manuscripts
 
-#### 13. Papyrus P52 (John Rylands Fragment) (c. AD 125-150)
+#### 14. Papyrus P52 (John Rylands Fragment) (c. AD 125-150)
 
 ![A small torn scrap of papyrus with seven partial lines of Greek capitals, beside a colour calibration strip](../assets/img/archaeology/p52.jpg){ loading=lazy }
 *Papyrus 52, John Rylands Library, Manchester: John 18:31-33 on a scrap about the size of a credit card. Photo: [John Rylands Library, University of Manchester](https://commons.wikimedia.org/wiki/File:JRL19071950.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via Wikimedia Commons.*
@@ -559,7 +596,7 @@ Rome, where it is kept, because where it was copied is unknown.
 
 ---
 
-#### 14. Papyrus P46 (Chester Beatty II) (c. AD 175-225)
+#### 15. Papyrus P46 (Chester Beatty II) (c. AD 175-225)
 
 ![A papyrus leaf with ragged edges, covered in lines of Greek capitals](../assets/img/archaeology/p46.jpg){ loading=lazy }
 *A leaf of Papyrus 46 held by the University of Michigan, with 2 Corinthians 11:33-12:9, where Paul tells of being caught up into paradise. Image: [University of Michigan](https://commons.wikimedia.org/wiki/File:P46.jpg), public domain, via Wikimedia Commons.*
@@ -591,7 +628,7 @@ Rome, where it is kept, because where it was copied is unknown.
 
 ---
 
-#### 15. Papyrus P66 (Bodmer II) (c. AD 175-200)
+#### 16. Papyrus P66 (Bodmer II) (c. AD 175-200)
 
 ![A papyrus page of Greek capitals with a page number at the top](../assets/img/archaeology/p66.jpg){ loading=lazy }
 *A page of Papyrus 66, Bodmer Library, Geneva, the oldest near-complete copy of John's Gospel. Image: [Bodmer Library](https://commons.wikimedia.org/wiki/File:Papyrus66.jpg), public domain, via Wikimedia Commons.*
@@ -623,7 +660,7 @@ P52, P46, and P66 above are three of the 83 known New Testament manuscripts date
 
 ---
 
-#### 16. Codex Sinaiticus (c. AD 330-360)
+#### 17. Codex Sinaiticus (c. AD 330-360)
 
 ![A parchment page laid out in narrow columns of Greek capitals](../assets/img/archaeology/codex-sinaiticus.jpg){ loading=lazy }
 *Codex Sinaiticus at Matthew 6:4-32, including the Lord's Prayer. British Library. Image: [British Library](https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus_Matthew_6,4-32.JPG), public domain, via Wikimedia Commons.*
@@ -648,7 +685,7 @@ P52, P46, and P66 above are three of the 83 known New Testament manuscripts date
 
 ---
 
-#### 17. Codex Vaticanus (c. AD 300-325)
+#### 18. Codex Vaticanus (c. AD 300-325)
 
 ![A parchment page in three columns of Greek capitals, with a decorated headpiece and a note in the margin](../assets/img/archaeology/codex-vaticanus.jpg){ loading=lazy }
 *Codex Vaticanus at the end of 2 Thessalonians and the opening of Hebrews, Vatican Library. The note in the margin at Hebrews 1:3 is a later scribe's rebuke of one who had altered the text: "Fool and knave, leave the old reading, don't change it!" Image: [Vatican Library](https://commons.wikimedia.org/wiki/File:Codex_Vaticanus_B,_2Thess._3,11-18,_Hebr._1,1-2,2.jpg), public domain, via Wikimedia Commons.*
@@ -673,7 +710,7 @@ P52, P46, and P66 above are three of the 83 known New Testament manuscripts date
 
 ### New Testament Inscriptions
 
-#### 18. The Pontius Pilate Stone (c. AD 26-36)
+#### 19. The Pontius Pilate Stone (c. AD 26-36)
 
 ![A weathered limestone block with a partial Latin inscription](../assets/img/archaeology/pilate-stone.jpg){ loading=lazy }
 *The Pilate Stone, naming "Pontius Pilatus, prefect of Judaea." The original is in the Israel Museum; a cast stands at Caesarea Maritima, where it was found in 1961. Photo: [Marion Doss](https://commons.wikimedia.org/wiki/File:Pilate_Inscription.JPG), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/), via Wikimedia Commons.*
@@ -702,7 +739,7 @@ P52, P46, and P66 above are three of the 83 known New Testament manuscripts date
 
 ---
 
-#### 19. The Caiaphas Ossuary (c. 1st century AD)
+#### 20. The Caiaphas Ossuary (c. 1st century AD)
 
 ![An ornately carved limestone bone box decorated with rosettes, in a museum case](../assets/img/archaeology/caiaphas-ossuary.jpg){ loading=lazy }
 *The ossuary inscribed "Joseph son of Caiaphas," found in a Jerusalem burial cave in 1990 and now in the Israel Museum (Matthew 26:57; John 18:13). Photo: [Avi Deror](https://commons.wikimedia.org/wiki/File:Ossuary_of_the_high_priest_Joseph_Caiaphas_P1180839.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons.*
@@ -737,7 +774,7 @@ P52, P46, and P66 above are three of the 83 known New Testament manuscripts date
 
 ### Ancient Historians and Documents
 
-#### 20. Josephus' Antiquities (c. AD 93-94)
+#### 21. Josephus' Antiquities (c. AD 93-94)
 **Author:** Flavius Josephus (Jewish historian)
 **Significance:** Contemporary historical account mentioning Jesus, John the Baptist, James
 
@@ -768,7 +805,7 @@ References John's baptism and execution by Herod Antipas
 
 ---
 
-#### 21. Tacitus' Annals (c. AD 116)
+#### 22. Tacitus' Annals (c. AD 116)
 
 ![Three lines of medieval Latin handwriting](../assets/img/archaeology/tacitus-annals-mediceus.jpg){ loading=lazy }
 *Annals 15.44 in the eleventh-century Codex Mediceus II, Florence, the manuscript all later copies of this part of the Annals descend from. These lines name the Christians and "Christus," executed "while Tiberius was emperor, by the procurator Pontius Pilate." Image: [1902 facsimile](https://commons.wikimedia.org/wiki/File:MII_(cropped)-Tacitus-chrestianos_appellabantur.png), public domain, via Wikimedia Commons.*
@@ -794,7 +831,7 @@ References John's baptism and execution by Herod Antipas
 
 ---
 
-#### 22. Pliny the Younger's Letter (c. AD 112)
+#### 23. Pliny the Younger's Letter (c. AD 112)
 **Author:** Pliny the Younger (Roman governor)
 **Recipient:** Emperor Trajan
 **Significance:** Roman official documentation of Christian practices
@@ -819,7 +856,7 @@ References John's baptism and execution by Herod Antipas
 
 ---
 
-#### 23. Suetonius' Lives of the Twelve Caesars (c. AD 121)
+#### 24. Suetonius' Lives of the Twelve Caesars (c. AD 121)
 **Author:** Gaius Suetonius Tranquillus (Roman historian)
 **Significance:** Roman documentation of Christ and Christian disturbances
 
@@ -838,7 +875,7 @@ References John's baptism and execution by Herod Antipas
 
 ---
 
-#### 24. The Talmud References (c. AD 200-500)
+#### 25. The Talmud References (c. AD 200-500)
 **Source:** Jewish rabbinic writings
 **Significance:** Hostile witness to Jesus' existence
 

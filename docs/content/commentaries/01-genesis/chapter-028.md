@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 28:12
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 28:14
 <!-- commentary-index:auto-end -->

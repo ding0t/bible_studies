@@ -14,4 +14,5 @@ draft: false
 
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 25:8
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 25:1-2
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 25:1-3
 <!-- commentary-index:auto-end -->

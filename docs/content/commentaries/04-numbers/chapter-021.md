@@ -14,6 +14,7 @@ draft: false
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 21:4-9 (primary passage)
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 21:8-9
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 21:21-35
 - [The Names of God](../../god/names-of-god.md) — 21:8-9
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 21:8-9
 <!-- commentary-index:auto-end -->
