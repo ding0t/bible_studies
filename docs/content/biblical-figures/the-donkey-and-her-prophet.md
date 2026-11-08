@@ -5,7 +5,7 @@ description: "Balak paid Balaam to curse Israel. A donkey saw the angel first, t
 tags: ["person/balaam", "method/archaeology", "method/word-study", "lang/hebrew", "numbers", "old-testament", "prophecy-fulfilled"]
 draft: false
 primary_passage: "Numbers 22:21-35; Numbers 24:15-19"
-bible_references: ["Numbers 22:1-20", "Numbers 23:1-30", "Numbers 24:1-14", "Numbers 24:20-25", "Genesis 12:3", "Genesis 15:5", "Genesis 22:17", "Genesis 27:29", "Genesis 28:14", "Genesis 37:9", "Genesis 49:9-10", "Numbers 2:2", "Numbers 21:21-35", "Numbers 25:1-3", "Numbers 31:8", "Numbers 31:16", "Deuteronomy 3:29", "Deuteronomy 4:19", "Deuteronomy 18:10-12", "Deuteronomy 18:18-19", "Deuteronomy 23:3-5", "Deuteronomy 33:8-11", "Deuteronomy 34:1-6", "Joshua 6:26", "Joshua 13:22", "Joshua 24:9-10", "Judges 5:20", "2 Samuel 8:2", "Nehemiah 13:1-2", "Job 38:7", "Psalm 2:9", "Psalm 110:1", "Psalm 147:4", "Proverbs 26:2", "Isaiah 9:6", "Isaiah 14:4", "Isaiah 14:12-14", "Micah 5:2", "Micah 6:5", "Amos 5:26", "Zechariah 9:9", "Matthew 2:1-2", "Matthew 22:42-45", "Acts 7:42-43", "Romans 8:31-34", "1 Corinthians 10:6-11", "Galatians 3:13-14", "Ephesians 1:3", "2 Peter 1:19", "2 Peter 2:15-16", "Jude 11", "Revelation 1:20", "Revelation 2:14", "Revelation 2:26-28", "Revelation 5:5", "Revelation 22:16", "Genesis 16:13", "Genesis 22:16", "Genesis 31:13", "Genesis 33:3", "Exodus 3:2-6", "Exodus 23:20-21", "Joshua 5:13-15", "Judges 13:18-22", "Malachi 3:1", "John 1:18", "1 Corinthians 10:4", "Jude 5", "Revelation 22:8-9"]
+bible_references: ["Numbers 22:1-20", "Numbers 23:1-30", "Numbers 24:1-14", "Numbers 24:20-25", "Genesis 12:3", "Genesis 15:5", "Genesis 22:17", "Genesis 27:29", "Genesis 28:14", "Genesis 37:9", "Genesis 49:9-10", "Numbers 2:2", "Numbers 21:21-35", "Numbers 25:1-3", "Numbers 31:8", "Numbers 31:16", "Deuteronomy 3:29", "Deuteronomy 4:19", "Deuteronomy 18:10-12", "Deuteronomy 18:18-19", "Deuteronomy 23:3-5", "Deuteronomy 33:8-11", "Deuteronomy 34:1-6", "Joshua 6:26", "Joshua 13:22", "Joshua 24:9-10", "Judges 5:20", "2 Samuel 8:2", "Nehemiah 13:1-2", "Job 38:7", "Psalm 2:9", "Psalm 110:1", "Psalm 147:4", "Proverbs 26:2", "Isaiah 9:6", "Isaiah 14:4", "Isaiah 14:12-14", "Micah 5:2", "Micah 6:5", "Amos 5:26", "Zechariah 9:9", "Matthew 2:1-2", "Matthew 22:42-45", "Acts 7:42-43", "Romans 8:31-34", "1 Corinthians 10:6-11", "Galatians 3:13-14", "Ephesians 1:3", "2 Peter 1:19", "2 Peter 2:15-16", "Jude 11", "Revelation 1:20", "Revelation 2:14", "Revelation 2:26-28", "Revelation 5:5", "Revelation 22:16", "Genesis 16:13", "Genesis 22:16", "Genesis 31:13", "Genesis 33:3", "Exodus 3:2-6", "Exodus 23:20-21", "Joshua 5:13-15", "Judges 13:18-22", "Malachi 3:1", "John 1:18", "1 Corinthians 10:4", "Jude 5", "Revelation 22:8-9", "Genesis 12:16", "Genesis 24:10", "Genesis 24:31", "Genesis 24:50", "Genesis 31:19", "Genesis 31:30", "Genesis 49:11", "Exodus 23:5", "Judges 5:10", "1 Samuel 9:3-20", "2 Kings 4:22-24", "Job 1:3", "Job 42:12", "Proverbs 26:3", "Joshua 24:2", "Matthew 21:2-7"]
 date_created: 2026-11-08
 date_modified: 2026-11-08
 ai_provider_models:
@@ -19,7 +19,7 @@ donkey three times, and the donkey speaks. She has seen what the seer cannot. Th
 story follows from that moment: the LORD opens her mouth, opens the seer's eyes, and fills the
 seer's mouth with the blessing He gave Abraham and a promise of a Star.
 
-**In one sentence:** The donkey saw the angel before the seer did, and the same LORD who opened her mouth and then Balaam's eyes put His own words in the hired prophet's mouth, so the curse Balak paid for became Abraham's blessing and the promise of a Star out of Jacob, and no one can curse those God has blessed.
+**In one sentence:** Balak paid a famous diviner to curse the people God had blessed, and because the LORD loved His people He opened a donkey's mouth and a prophet's eyes, turned the curse into Abraham's blessing and promised the Star out of Jacob, His Son Jesus, in whom that blessing now reaches you and no curse can undo it.
 
 [![A one-minute comic in 5 panels. Panel 1 (Numbers 22:7, 17-18): at dawn, two princes of Moab hold out gifts to Balaam, who stands beside his saddled donkey with his staff. Caption: "Pethor, by the Euphrates. Balak, king of Moab, has sent princes with the fees for divination." A prince of Moab says: "Come, curse this people for me." Balaam says: "I could not go beyond the command of the LORD my God". Panel 2 (Numbers 22:22-25): on a narrow path between vineyards with a low stone wall, Balaam rides the donkey and raises his staff to strike her; ahead stands the angel of the LORD as light with a drawn sword. Caption: "Between the vineyards." Numbers says: "the donkey saw the angel of the LORD standing in the road, with a drawn sword in his hand." Panel 3 (Numbers 22:27-28): the donkey lying down on the path, Balaam standing over her with his staff raised; the angel's light stands ahead; the donkey speaks to him. Caption: "The third time she lies down. Then the LORD opens her mouth." The donkey says: "What have I done to you, that you have struck me these three times?" Panel 4 (Numbers 22:31-35): Balaam kneels on the road before the angel's light and drawn sword; the donkey stands behind him. Caption: "Then the LORD opens Balaam's eyes." Balaam says: "I have sinned". The angel of the LORD says: "Go with the men, but speak only the word that I tell you." Panel 5 (Numbers 23:7-8): Balaam stands on a height at dawn with his arms open, looking down toward the camp, which lies out of the picture. Caption: "On the heights above Israel's camp." Balaam says: "How can I curse whom God has not cursed?" The point: No one can curse those God has blessed. The LORD who opened a donkey's mouth and a prophet's eyes turned the curse into a blessing, because He loves His people (Deuteronomy 23:5), and in Jesus that blessing is yours (Galatians 3:14).](../assets/img/comics/the-donkey-and-her-prophet.svg)](../assets/img/comics/the-donkey-and-her-prophet.svg)
 
@@ -79,9 +79,10 @@ You give me to speak. In Jesus' name. Amen.
 
 ## Study outline
 
+- [Who Balaam was](#who-balaam-was). His home in Abraham's country, his trade as a diviner, and what he knew of the LORD.
 - [Why Balak paid for a curse](#why-balak-paid-for-a-curse). Balak's fee, the ancient trade of the diviner, and the belief that the curser decides.
 - [The LORD answers first](#the-lord-answers-first). God's verdict before any curse is spoken, Balaam's repeated confession, and the ground of it in Genesis 12:3.
-- [The donkey](#the-donkey). Three blows, one verb shared with Balak, the two things the LORD opens, and who stood in the road.
+- [The donkey](#the-donkey). Three blows, one verb shared with Balak, the she-donkey in Scripture, the two things the LORD opens, and who stood in the road.
 - [Where it happened](#where-it-happened). The plains of Moab, three high places, and Joel Kramer's walk across them.
 - [Three oracles turn the curse](#three-oracles-turn-the-curse). Balak's two verbs turned on Israel, Isaac's blessing on Jacob, and Judah's lion.
 - [The Star and the Scepter](#the-star-and-the-scepter). How Scripture uses "star" and "morning star", and who the Star is.
@@ -89,12 +90,44 @@ You give me to speak. In Jesus' name. Amen.
 - [Discussion questions](#discussion-questions). Six, for a group or on your own.
 - [Annex: Balaam's name on a wall at Deir Alla](#annex-balaams-name-on-a-wall-at-deir-alla). The Deir Alla inscription and what it confirms.
 
+## Who Balaam was
+
+Balaam son of Beor lived at Pethor in Aram-naharaim, by the Euphrates (Numbers 22:5; Deuteronomy
+23:4), hundreds of miles from Moab. (The Samaritan Pentateuch, Vulgate and Syriac read "Ammonites" at
+Numbers 22:5, per the *CSB Ancient Faith Study Bible*'s footnote.) It is the country of Abraham's own
+kin: Abraham's servant went to "Nahor's hometown in Aram-naharaim" to find a wife for Isaac (Genesis
+24:10, BSB).
+
+**His work was divination.** Joshua calls him "the diviner Balaam son of Beor" (Joshua 13:22, BSB),
+<span dir="rtl">קוֹסֵם</span> (*qosem*, H7080). Moab's elders came "with the fees for divination in
+hand" (Numbers 22:7, BSB), and the Hebrew is simply "divinations in their hand",
+<span dir="rtl">קְסָמִים</span> (*qesamim*, H7081): the fee and the service are one word. He looked for
+omens, <span dir="rtl">נְחָשִׁים</span> (*nechashim*, H5173), and only stopped "as on previous
+occasions" when he saw that the LORD meant to bless Israel (Numbers 24:1, BSB). He worked by sacrifice
+too, seven altars with a bull and a ram on each, before he went off to meet God (Numbers 23:1-4). The
+law calls that whole trade "detestable to the LORD" (Deuteronomy 18:10-12, BSB).
+
+**He knew the LORD's name.** His first answer to Moab uses it: "I will give you the answer that the
+LORD speaks to me" (Numbers 22:8, BSB), the name <span dir="rtl">יהוה</span> (YHWH). He calls Him "the
+LORD my God" (Numbers 22:18, BSB). God came to him by night and spoke with him (Numbers 22:9-12, 20).
+Numbers does not say where he learned the name, but his country had heard it. Laban, in Nahor's town,
+greeted Abraham's servant as "blessed by the LORD" and said of Rebekah's marriage, "This is from the
+LORD" (Genesis 24:31, 50, BSB). The same household kept "household idols" and called them "my gods"
+(Genesis 31:19, 30, BSB), and Joshua says Abraham's fathers beyond the Euphrates "worshiped other
+gods" (Joshua 24:2, BSB). That is probably Balaam's world: the LORD known by name, and consulted
+alongside omens, altars and fees.
+
+His own second oracle names both words of his trade, *nachash* and *qesem*, and says neither works
+against Israel: "there is no spell against Jacob and no divination against Israel" (Numbers 23:23,
+BSB). Scripture's titles for him are "the diviner" (Joshua 13:22, BSB) and "the prophet" a donkey had
+to restrain (2 Peter 2:16, BSB). This shows that the LORD speaks to whom He chooses, even a hired
+diviner far beyond Israel, and that hearing His voice is a different thing from belonging to Him.
+Balaam knew the name and went after the wages (2 Peter 2:15).
+
 ## Why Balak paid for a curse
 
 Israel is camped on the border of the land at the end of the wilderness years, and Moab's king is
-afraid (Numbers 22:1-3). Balak sends for Balaam to Pethor in Aram-naharaim, by the Euphrates
-(Numbers 22:5; Deuteronomy 23:4). (The Samaritan Pentateuch, Vulgate and Syriac read "Ammonites" at
-Numbers 22:5, per the *CSB Ancient Faith Study Bible*'s footnote.) The Moabite elders travel "with the fees for divination in hand" (Numbers 22:7, BSB). A
+afraid (Numbers 22:1-3). Balak sends for Balaam, and the Moabite elders travel "with the fees for divination in hand" (Numbers 22:7, BSB). A
 king who pays for a journey of hundreds of miles believes a curse works, and Balak says so:
 
 > ✝️ Numbers 22:6 (BSB)
@@ -109,9 +142,8 @@ Israel destroy Sihon and Og (Numbers 21:21-35; 22:2), and he has no army that ca
 
 Balak's belief belongs to his world. A diviner, magician or sorcerer was thought able to move the
 gods toward a blessing or a curse on a person or a nation, by sacrifice and incantation (*NIV
-Cultural Backgrounds Study Bible*, note on Numbers 22:6). Balaam's trade has a name in Joshua
-13:22, <span dir="rtl">קוֹסֵם</span> (*qosem*, H7080): "the diviner Balaam son of Beor" (BSB). The
-law lists that practice among what is "detestable to the LORD" (Deuteronomy 18:10-12, BSB).
+Cultural Backgrounds Study Bible*, note on Numbers 22:6). Balaam was such a man, and his fame had
+crossed hundreds of miles to reach Balak.
 
 Numbers tells this as narrative with four poems set inside it, the oracles. The narrator rarely
 comments on Balaam; the rest of Scripture gives the verdict (Deuteronomy 23:4-5; 2 Peter 2:15). What
@@ -168,11 +200,6 @@ and the donkey sees him. Balaam, the professional seer, does not. She turns into
 her. She presses against a wall and crushes his foot. He strikes her. She lies down under him. He
 strikes her with his staff.
 
-She is a she-donkey, <span dir="rtl">אָתוֹן</span> (*aton*, H860), and the Hebrew gives her
-feminine verbs throughout: she saw, she turned, she lay down. The same word returns when Zechariah's
-King comes "riding on a donkey, on a colt, the foal of a donkey" (Zechariah 9:9, BSB): in Hebrew the
-colt is the son of *atonot*, she-donkeys.
-
 The verb is <span dir="rtl">נָכָה</span> (*nakah*, H5221), the verb Balak used for what he hoped
 the curse would do to Israel (Numbers 22:6). It occurs six times in Numbers 22: Balak's hope in
 <span data-ref="Numbers 22:6">verse 6</span>, and the blows in Numbers 22:23, 25, 27, 28 and 32. English hides the
@@ -184,6 +211,38 @@ errand.
 > ✝️ Numbers 22:28-31 (BSB)
 >
 > 28 Then the LORD opened the donkey's mouth, and she said to Balaam, "What have I done to you that you have beaten me these three times?" 29 Balaam answered the donkey, "You have made a fool of me! If I had a sword in my hand, I would kill you right now!" 30 But the donkey said to Balaam, "Am I not the donkey you have ridden all your life until today? Have I ever treated you this way before?" "No," he replied. 31 Then the LORD opened Balaam's eyes, and he saw the angel of the LORD standing in the road with a drawn sword in his hand. And Balaam bowed low and fell facedown.
+
+### The she-donkey in Scripture
+
+Hebrew has three words for the animal: <span dir="rtl">חֲמוֹר</span> (*chamor*, H2543), the common
+word for a donkey; <span dir="rtl">אָתוֹן</span> (*aton*, H860), a she-donkey; and
+<span dir="rtl">עַיִר</span> (*ayir*, H5895), a young male, a colt. Balaam's is an *aton* throughout,
+and the Hebrew gives her feminine verbs: she saw, she turned, she lay down.
+
+**She was wealth.** Abram "acquired sheep and cattle, male and female donkeys" (Genesis 12:16, BSB),
+and Job's wealth is counted in she-donkeys, 500 before his trials and 1,000 after them (Job 1:3;
+42:12).
+
+**She carried people of standing.** Deborah's song calls on the leaders as "You who ride white
+donkeys" (Judges 5:10, BSB), and in Hebrew they are she-donkeys. Saul went looking for his father's
+she-donkeys and the search brought him to Samuel (1 Samuel 9:3-20). The Shunammite woman "saddled the
+donkey", a she-donkey, to reach Elisha (2 Kings 4:24, BSB). Balaam rode his "all your life" (Numbers
+22:30, BSB), with two servants walking beside (Numbers 22:22): a man of rank on the mount of one.
+
+**The law protected her.** "If you see the donkey of one who hates you fallen under its load, do not
+leave it there; you must help him with it" (Exodus 23:5, BSB). Israel was to help an enemy's fallen
+donkey. Balaam beat his own, faithful for all her years, three times. The proverb fits the scene: "a
+bridle for the donkey, and a rod for the backs of fools" (Proverbs 26:3, BSB), and Peter says it was
+the prophet who was mad (2 Peter 2:16).
+
+**She carried the King.** Jacob's blessing on Judah, the tribe of the scepter, has him tie "his colt
+to the choicest branch" (Genesis 49:11, BSB), in Hebrew "the son of his she-donkey". Zechariah's King
+comes "humble and riding on a donkey, on a colt, the foal of a donkey" (Zechariah 9:9, BSB), the colt
+of she-donkeys. When Jesus entered Jerusalem, the disciples found "a donkey tied there, with her colt
+beside her" (Matthew 21:2, BSB); the Greek donkey, ὄνος (*onos*, G3688), is female there too. The
+animal Balaam beat for turning from the sword is the animal that carried the Star into Jerusalem. The
+text draws no line between the two scenes, so read this as an echo: the humble beast of peace, used
+by a hireling to ride to a curse, used by the King to ride to the cross.
 
 ### Two things the LORD opened
 

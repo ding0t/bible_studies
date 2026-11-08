@@ -14,4 +14,5 @@ draft: false
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 4:42-44
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 4:23
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 4:22-24
 <!-- commentary-index:auto-end -->

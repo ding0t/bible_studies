@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 42:1-6
+- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 42:12
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 42:17
 <!-- commentary-index:auto-end -->
