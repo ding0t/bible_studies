@@ -3,9 +3,9 @@ title: "The Bright Morning Star: How Scripture Uses 'Star'"
 category: "theology"
 description: "Scripture calls the stars God's creatures, the measure of Abraham's children, Jacob's sons and heaven's servants, and a star made into a god an idol. Out of them all it promises one Star from Jacob, and Jesus takes the title: the bright Morning Star."
 tags: ["christology", "messianic-prophecy", "prophecy-fulfilled", "old-testament", "numbers", "revelation", "matthew", "method/word-study", "lang/hebrew", "lang/greek"]
-draft: true
+draft: false
 primary_passage: "Numbers 24:17; Revelation 22:16"
-bible_references: ["Genesis 1:14-18", "Genesis 15:5-6", "Genesis 22:17", "Genesis 37:9-10", "Deuteronomy 1:10", "Deuteronomy 4:19", "Judges 5:20", "2 Kings 23:5", "Nehemiah 9:23", "Job 9:7-9", "Job 25:5-6", "Job 38:4-7", "Job 38:31-33", "Psalm 8:3-4", "Psalm 72:10-11", "Psalm 136:9", "Psalm 147:4-5", "Psalm 148:3", "Isaiah 13:9-10", "Isaiah 14:12-15", "Isaiah 40:26", "Isaiah 47:13-14", "Isaiah 60:1-6", "Jeremiah 8:2", "Jeremiah 31:35-36", "Daniel 8:10", "Daniel 8:24", "Daniel 12:3", "Joel 2:10", "Joel 3:15-16", "Amos 5:8", "Amos 5:25-27", "Obadiah 1:3-4", "Micah 5:2", "Matthew 2:1-12", "Matthew 24:29-30", "Mark 13:24-26", "Luke 1:78-79", "Luke 10:18", "Luke 21:25-27", "Acts 7:42-43", "1 Corinthians 15:41-42", "Hebrews 1:1-2", "Hebrews 11:12", "2 Peter 1:16-19", "Jude 1:13", "Revelation 1:16", "Revelation 1:20", "Revelation 2:26-28", "Revelation 6:12-14", "Revelation 8:12", "Revelation 9:1", "Revelation 12:1-9", "Revelation 21:23", "Revelation 22:5", "Revelation 22:20"]
+bible_references: ["Genesis 1:14-18", "Genesis 15:5-6", "Genesis 22:17", "Genesis 37:9-10", "Deuteronomy 1:10", "Deuteronomy 4:19", "Judges 5:20", "2 Kings 23:5", "Nehemiah 9:23", "Job 9:7-9", "Job 25:5-6", "Job 38:4-7", "Psalm 8:3-4", "Psalm 136:9", "Psalm 147:4-5", "Psalm 148:3", "Isaiah 13:9-10", "Isaiah 14:12-15", "Isaiah 40:26", "Isaiah 47:13-14", "Isaiah 60:1-6", "Jeremiah 8:2", "Jeremiah 31:35-36", "Daniel 8:10", "Daniel 8:24", "Daniel 12:3", "Joel 2:10", "Joel 3:15-16", "Amos 5:8", "Amos 5:25-27", "Obadiah 1:3-4", "Micah 5:2", "Matthew 2:1-12", "Matthew 24:29-30", "Mark 13:24-26", "Luke 1:78-79", "Luke 21:25-27", "Acts 7:42-43", "1 Corinthians 15:41-42", "Hebrews 11:12", "2 Peter 1:16-19", "Jude 1:13", "Revelation 1:16", "Revelation 1:20", "Revelation 2:26-28", "Revelation 6:12-14", "Revelation 8:12", "Revelation 9:1", "Revelation 12:1-9", "Revelation 21:23", "Revelation 22:5", "Revelation 22:20", "Psalm 31:15", "Romans 4:16-18", "Galatians 3:8", "Galatians 3:14", "Luke 1:32", "Colossians 1:16", "Hebrews 2:6-9", "Daniel 8:11", "Revelation 12:5", "Revelation 19:15", "1 John 5:5", "Numbers 24:19", "Matthew 22:41-45", "Philippians 2:6-9", "Jeremiah 23:5", "Zechariah 3:8", "Zechariah 6:12"]
 date_created: 2026-11-08
 date_modified: 2026-11-08
 ai_provider_models:
@@ -34,13 +34,15 @@ has fallen.
 Balaam saw "a star will come forth from Jacob, and a scepter will arise from Israel" (Numbers
 24:17, BSB). The Magi came asking for the One "born King of the Jews" because they had seen "His
 star" (Matthew 2:2, BSB), and Jesus calls Himself "the bright Morning Star" (Revelation 22:16). The
-Star has risen. The Scepter, the rule over the nations that goes with it, waits for His return
-(Revelation 2:26-27).
+Star has risen. The Scepter, the rule over the nations that goes with it, waits for His return,
+when He "will rule them with an iron scepter" (Revelation 19:15, BSB; 12:5) and shares that rule
+with those who overcome (Revelation 2:26-27).
 
 ### Lessons about Jesus
 
-- **He is the Maker of the stars and a son of Jacob.** "The Root and the Offspring of David"
-  (Revelation 22:16, BSB): before David and from David, heaven's Star born into Jacob's family.
+- **He is the Maker of the stars and a son of Jacob.** All things in heaven were created through
+  Him (Colossians 1:16), and He is "the Root and the Offspring of David" (Revelation 22:16, BSB):
+  before David and from David.
 - **He holds the stars.** The seven stars are in His right hand (Revelation 1:16, 20).
 - **He gives Himself.** "I will give him the morning star" (Revelation 2:28, BSB).
 - **He outlasts the sky.** When the stars fall at His coming (Matthew 24:29-30), He is still the
@@ -59,10 +61,12 @@ Star has risen. The Scepter, the rule over the nations that goes with it, waits 
 ### Be Transformed
 
 - **Think.** The stars are creatures God counts and names. They do not decide your future, and
-  those who read fate in them "cannot deliver themselves" (Isaiah 47:13-14, BSB). Your times are in
-  the hands of the One who made them (Psalm 147:4-5).
+  those who read fate in them "cannot deliver themselves" (Isaiah 47:13-14, BSB). The One who counts the
+  stars (Psalm 147:4-5) is the One of whom you can say, "My times are in Your hands" (Psalm 31:15,
+  BSB).
 - **Attitude.** Wonder that turns into worship of the Maker. "When I behold Your heavens ... what is
-  man that You are mindful of him?" (Psalm 8:3-4, BSB). The answer is the Son He sent.
+  man that You are mindful of him" (Psalm 8:3-4, BSB). Hebrews answers with the Son He sent: "we see
+  Jesus ... crowned with glory and honor" (Hebrews 2:9, BSB).
 - **Do.** God took Abram outside and said, "look to the heavens and count the stars" (Genesis 15:5,
   BSB). On a clear night this week, go outside, look up, and thank God aloud for one promise He has
   kept to you.
@@ -85,7 +89,7 @@ Jesus' name. Amen.
 - [The Star out of Jacob](#the-star-out-of-jacob). Balaam's Star, the Magi's star, the morning star in your heart, and the Morning Star given and held.
 - [When the stars fall](#when-the-stars-fall). The signs of the Day of the LORD and the One who outlasts them.
 - [Discussion questions](#discussion-questions). Five, for a group or on your own.
-- [Annex: Every star in Scripture](#annex-every-star-in-scripture). The 37 Hebrew verses and 26 Greek, sorted by use.
+- [Annex: The star verses](#annex-the-star-verses). The 37 Hebrew verses and 26 Greek, sorted by use.
 
 ## Stars God made, counts and names
 
@@ -138,10 +142,11 @@ From then on the stars are the promise's measure. Moses tells Israel, "today you
 the stars in the sky" (Deuteronomy 1:10, BSB). The Levites pray it back after the exile: "You
 multiplied their descendants like the stars of heaven" (Nehemiah 9:23, BSB). Hebrews tells it of
 the faith that started it: "from one man, and he as good as dead, came descendants as numerous as
-the stars in the sky" (Hebrews 11:12, BSB). The promise reaches the nations through Abraham's one
-Offspring, Christ (Galatians 3:16, 29).
+the stars in the sky" (Hebrews 11:12, BSB). Paul quotes "So shall your offspring be" of all who share Abraham's
+faith (Romans 4:16-18), and the blessing reaches the nations "in Christ Jesus" (Galatians 3:8, 14,
+BSB).
 
-This shows that God keeps His word to the last child. Every star Abram could not count was a
+God keeps His word to the last child. Every star Abram could not count was a
 person God intended to bring in, and if you belong to Christ you are one of them.
 
 ## Stars that are persons
@@ -156,12 +161,14 @@ house. [Dreams and Visions](../holy-spirit/dreams-and-visions/index.md) treats J
 
 ### The wise and the holy
 
-"Those who lead many to righteousness will shine like the stars forever and ever" (Daniel 12:3,
-BSB). Paul uses the stars for the resurrection: "star differs from star in splendor. So will it be
+The wise and "those who lead many to righteousness will shine like the stars forever and ever"
+(Daniel 12:3, BSB). Paul uses the stars for the resurrection: "star differs from star in splendor. So will it be
 with the resurrection of the dead" (1 Corinthians 15:41-42, BSB). In Daniel 8 the horn "cast down
-some of the host and some of the stars to the earth and trampled them" (Daniel 8:10, BSB), and the
-angel explains it: "He will destroy the mighty men along with the holy people" (Daniel 8:24, BSB).
-God's people are His stars, and some of them suffer for it.
+some of the host and some of the stars to the earth and trampled them" (Daniel 8:10, BSB). Who the
+stars are is contested. The interpretation later says "He will destroy the mighty men along with
+the holy people" (Daniel 8:24, BSB), which suggests God's people; but the horn rises next "even to
+the Prince of the host" (Daniel 8:11, BSB), and the starry host may be heaven's, as the stars swept
+down in Revelation 12:4 most likely are.
 
 ### The woman's crown
 
@@ -177,8 +184,9 @@ this site reads the woman as Israel, with the other readings named in
 God asks Job where he was when the earth was founded, "while the morning stars sang together and
 all the sons of God shouted for joy" (Job 38:7, BSB). The two lines are parallel, and the "sons of
 God" in Job are heaven's court (Job 1:6; 2:1; see [The Nephilim](../spiritual-beings/nephilim.md)).
-The Septuagint reads the verse as two events, "when the stars were made, all my angels praised me".
-So it is likely, though not certain, that the morning stars here are the angels.
+That parallel makes it likely, though not
+certain, that the morning stars are the angels. The Septuagint reads it the other way, as two
+events: "when the stars were made, all my angels praised me with a loud voice".
 
 ### The stars that fought
 
@@ -189,9 +197,10 @@ the heavens a part in the battle.
 ### The seven stars in His hand
 
 John sees the risen Jesus: "He held in His right hand seven stars" (Revelation 1:16, BSB). Jesus
-explains: "The seven stars are the angels of the seven churches" (Revelation 1:20, BSB). Whether
-those are heavenly angels or the churches' messengers is contested, since ἄγγελος (*angelos*,
-G32) means both. Either way, the stars belong to Him and are held in His hand.
+explains: "The seven stars are the angels of the seven churches" (Revelation 1:20, BSB). Who the
+angels are is contested: heavenly angels, the churches' messengers (ἄγγελος, *angelos*, G32, means
+both), or, as the *ESV Study Bible* prefers, a way of naming each church's own identity (note on
+Revelation 1:20). Either way, the stars belong to Him and are held in His hand.
 
 ### The stars that fell
 
@@ -202,7 +211,7 @@ goes on: "the dragon and his angels fought back ... He was hurled to the earth, 
 him" (Revelation 12:7, 9, BSB). The likeliest reading is that the swept stars are the angels who
 fell with him.
 
-This shows that God commands heaven as well as earth. The stars are His host, and the Son holds
+God commands heaven as well as earth. The stars are His host, and the Son holds
 them in His hand.
 
 ## The counterfeit
@@ -210,8 +219,8 @@ them in His hand.
 ### The star Israel made a god
 
 Amos accuses Israel of carrying star gods through the wilderness: "You have taken along Sakkuth your
-king and Kaiwan your star god, the idols you made for yourselves" (Amos 5:26, BSB). Stephen quotes
-it from the Greek: "the star of your god Rephan, the idols you made to worship" (Acts 7:43, BSB),
+king and Kaiwan your star god, the idols you made for yourselves" (Amos 5:26, BSB). The ESV reads the verse as future ("you shall take up"); Stephen
+reads it as past, quoting the Greek: "the star of your god Rephan, the idols you made to worship" (Acts 7:43, BSB),
 and says God "gave them over to the worship of the host of heaven" (Acts 7:42, BSB). A star made
 into a god is, in Scripture's word, an idol "you made".
 
@@ -234,18 +243,21 @@ re-argue them.
 ### Two morning stars?
 
 Readers who know "Lucifer" meet a puzzle in Revelation 22:16: is the morning star Satan or Jesus?
-Scripture keeps them apart. Isaiah's day star is *heilel*, a king who says "I will ascend" and is
-"brought down to Sheol" (Isaiah 14:13, 15, BSB). Jesus is ὁ ἀστὴρ ὁ λαμπρὸς ὁ πρωϊνός (*ho astēr ho
-lampros ho prōinos*), "the bright Morning Star" (Revelation 22:16), a different word in a different
-language. The one climbed to make himself like the Most High and fell. The other is the Most High's
-Son, who came down to be born in Jacob's family and was raised and exalted (Philippians 2:6-9).
+The words overlap. Both pictures are the morning star, the bright planet Venus that rises before
+the sun, and the Greek of Isaiah 14:12, "the dawn-bringer, rising early", shares roots with
+Revelation's πρωϊνός (*prōinos*, G4407, "of the morning") and with the "rising" of Matthew 2.
+What keeps them apart is who each passage names. Isaiah's day star is the king of Babylon of Isaiah
+14:4, who says "I will ascend" and is "brought down to Sheol" (Isaiah 14:13, 15, BSB). The Morning
+Star of Revelation 22:16 says "I, Jesus". The one climbed to make himself like the Most High and
+fell. The other is "the Son of the Most High" (Luke 1:32, BSB), who humbled Himself and was exalted
+(Philippians 2:6-9).
 
 ### Wandering stars
 
 Jude calls the false teachers "wandering stars, for whom blackest darkness has been reserved
 forever" (Jude 13, BSB): lights that do not keep the course God set, and lead no one home.
 
-This shows that everything God made can be turned into a god, and that He judges it. A star is
+Anything God made can be turned into a god, and He judges it. A star is
 good in its place under Him. Worshipped, it is an idol, and the one who reaches for His throne is
 brought down.
 
@@ -257,11 +269,13 @@ brought down.
 >
 > 17 I see him, but not now; I behold him, but not near. A star will come forth from Jacob, and a scepter will arise from Israel. He will crush the skulls of Moab and strike down all the sons of Sheth.
 
-Set this beside the uses above. A star "from Jacob" is a man of Jacob's house (Genesis 37:9), and a
-star is also what Scripture calls the servants of heaven (Job 38:7; Revelation 1:20). The Scepter
-belongs to Judah and means a king (Genesis 49:10). So Balaam sees a King of Jacob's line who is also
-heaven's own, and he sees Him far off: "not now ... not near". The Septuagint reads the second line
-as a person outright: "a star will rise (ἀνατελεῖ, *anatelei*) from Jacob, a man will rise up from
+Set this beside the uses above. A star "from Jacob" is a man of Jacob's house (Genesis 37:9). The
+Scepter belongs to Judah and means a king (Genesis 49:10), and Numbers 24:19 sums up both lines: "A
+ruler will come from Jacob" (BSB). So Balaam sees a King of Jacob's line, and he sees Him far off:
+"not now ... not near". That this King is also God comes from the texts that name Him: His
+"origins are of old, from the days of eternity" (Micah 5:2, BSB), David calls his own son "Lord"
+(Matthew 22:41-45), and Jesus is the Root of David as well as its Offspring (Revelation 22:16). The Septuagint reads the second line
+as a person outright: "a star will rise (ἀνατελεῖ, *anatelei*, G393) from Jacob, a man will rise up from
 Israel". [The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md#the-star-and-the-scepter)
 tells how a hired diviner came to say it, and how Jews at Qumran read it as a promise of a coming
 king.
@@ -272,7 +286,7 @@ king.
 worship Him" (Matthew 2:2, BSB). "In the east" is ἐν τῇ ἀνατολῇ (*en tē anatolē*); the BSB's
 footnote gives "Or as it rose". ἀνατολή (*anatolē*, G395) is the noun of the verb the Septuagint
 uses in Numbers 24:17, so Matthew's "His star ... as it rose" echoes Balaam's "a star will rise".
-Neither quotes the other; it is an echo, and a fitting one.
+Matthew does not quote Numbers; it is an echo, and a fitting one.
 
 Matthew tells what the star did, and only that. Herod asks "the exact time the star had appeared"
 (Matthew 2:7, BSB). Then "the star they had seen in the east went ahead of them until it stood over
@@ -290,7 +304,8 @@ day dawns and the morning star rises in your hearts" (2 Peter 1:19, BSB). The wo
 (*phōsphoros*, G5459), "light-bearer", the star that rises before the sun and says the day is near.
 Zechariah sang of the same dawn over his son's cradle: "the Dawn will visit us from on high, to
 shine on those who live in darkness" (Luke 1:78-79, BSB), and Luke's word for "Dawn" is *anatolē*
-again. Until Christ comes, the Scriptures are your lamp. The morning star is most likely Christ
+again, the word the Greek Old Testament also uses for the messianic "Branch" (Jeremiah 23:5;
+Zechariah 3:8; 6:12), so Luke's line may carry both pictures. Until Christ comes, the Scriptures are your lamp. The morning star is most likely Christ
 Himself (Revelation 22:16), rising in your heart as the day of His coming dawns.
 
 ### The Morning Star given and held
@@ -301,17 +316,20 @@ will give him the morning star" (Revelation 2:26-28, BSB). The scepter and the s
 again, as in Numbers 24:17, and the One who holds both shares both.
 
 What is the morning star He gives? Some read it as a share in His rule and glory, the context of
-2:26-27, as the wise "shine like the stars" (Daniel 12:3). Others read it as Christ Himself, since
+Revelation 2:26-27, as the wise "shine like the stars" (Daniel 12:3); the *NIV Cultural Backgrounds
+Study Bible* notes that Romans tied the morning star, Venus, to victory and rule (note on
+Revelation 2:28). Others read it as Christ Himself, since
 22:16 names Him the Morning Star, and the *ESV Study Bible* takes it so (note on Revelation
 2:26-28). The two need not be set against each other: He gives Himself, and with Himself a place in
 His reign. Then, at the end of the book, He says it plainly: "I am the Root and the Offspring of
-David, the bright Morning Star" (Revelation 22:16, BSB). The Root came before David, and the
+David, the bright Morning Star" (Revelation 22:16, BSB), ὁ ἀστὴρ ὁ λαμπρὸς ὁ πρωϊνός (*ho astēr ho
+lampros ho prōinos*; λαμπρός, *lampros*, G2986, "bright"). The Root came before David, and the
 Offspring came after him; the One Micah saw born in Bethlehem has "origins ... of old, from the
 days of eternity" (Micah 5:2, BSB).
 
 This shows that God kept the promise Balaam could only see from far off. The Star came out of
 Jacob in Bethlehem, He rises in your heart through His word, and He will give Himself to everyone
-who overcomes.
+who overcomes, that is, to everyone "who believes that Jesus is the Son of God" (1 John 5:5, BSB).
 
 ## When the stars fall
 
@@ -324,9 +342,10 @@ Jesus takes up the words for His own coming:
 >
 > 29 Immediately after the tribulation of those days: 'The sun will be darkened, and the moon will not give its light; the stars will fall from the sky, and the powers of the heavens will be shaken.' 30 At that time the sign of the Son of Man will appear in heaven, and all the tribes of the earth will mourn. They will see the Son of Man coming on the clouds of heaven with power and great glory.
 
-John sees it at the sixth seal: "the stars of the sky fell to the earth like unripe figs" (Revelation
-6:13, BSB). This study reads these as signs that close the tribulation before Christ returns to
-reign, as [The Tribulation](../last-things/tribulation.md) sets out.
+Jesus places the signs "immediately after the tribulation" (Matthew 24:29), at His return to
+reign. John sees falling stars at the sixth seal too, "like unripe figs" (Revelation 6:13, BSB).
+[The Tribulation](../last-things/tribulation.md) places the seals in the first half of the week
+and notes that some readers set the sixth seal at the end, because its signs match Matthew 24:29.
 
 Every light God made to "mark the seasons and days and years" (Genesis 1:14) has a last season. The
 Morning Star does not. In the city to come there is "no need of sun or moon to shine on it, because
@@ -334,15 +353,16 @@ the glory of God illuminates the city, and the Lamb is its lamp" (Revelation 21:
 Lord God will shine on them" (Revelation 22:5, BSB). The Morning Star names Himself after that
 vision, and His last words are "Yes, I am coming soon" (Revelation 22:20, BSB).
 
-This shows that God will bring the night to an end. The stars that rule the night will fall, and
+God will bring the night to an end. The stars that rule the night will fall, and
 the Morning Star, who announces the day, will be the light of it. So watch for Him, as the morning
 star tells you the sun is near.
 
 ## Discussion questions
 
 1. **The language.** Isaiah's "day star" is <span dir="rtl">הֵילֵל</span> (*heilel*), and Jesus is
-   ὁ ἀστὴρ ὁ λαμπρὸς ὁ πρωϊνός, "the bright Morning Star" (Isaiah 14:12; Revelation 22:16). Why
-   does it matter that these are different words, and what does each figure do in his passage?
+   ὁ ἀστὴρ ὁ λαμπρὸς ὁ πρωϊνός (*ho astēr ho lampros ho prōinos*), "the bright Morning Star"
+   (Isaiah 14:12; Revelation 22:16). Both are pictures of the morning star. What does each figure
+   do in his passage, and who does each passage say he is?
 2. **The text in its context.** In Genesis 37:9-10 the stars are Jacob's sons. How does that change
    what Balaam means by "a star will come forth from Jacob" (Numbers 24:17)?
 3. **Christ.** Jesus calls Himself both "the Root and the Offspring of David" (Revelation 22:16).
@@ -353,22 +373,24 @@ star tells you the sun is near.
    Where are you tempted to look for your future apart from God, and what would it mean to let the
    morning star rise in your heart instead (2 Peter 1:19)?
 
-## Annex: Every star in Scripture
+## Annex: The star verses
 
 The 37 verses with <span dir="rtl">כּוֹכָב</span> (*kokab*) in the Hebrew (Westminster Leningrad
 Codex, OpenScriptures morphology), the 25 with ἀστήρ or ἄστρον in the Greek New Testament (SBLGNT,
-MACULA) and 2 Peter 1:19's φωσφόρος, sorted by the use each verse makes of the word. English verse numbers.
+MACULA) and 2 Peter 1:19's φωσφόρος, sorted by the use each verse makes of the word. The table
+lists the words for "star"; it leaves out *heilel* (Isaiah 14:12) and the constellations (2 Kings
+23:5; Job 38:32). English verse numbers.
 
 | Use | Old Testament | New Testament |
 |---|---|---|
-| Made, ordered, counted, named | Genesis 1:16; Psalm 8:3; 136:9; 147:4; 148:3; Jeremiah 31:35; Job 9:7; 22:12; 25:5; Nehemiah 4:21 (night falls) | 1 Corinthians 15:41 (with the resurrection); Acts 27:20 (none seen in the storm) |
+| Made, ordered, counted, named | Genesis 1:16; Psalm 8:3; 136:9; 147:4; 148:3; Jeremiah 31:35; Job 9:7; 22:12; 25:5; Nehemiah 4:21 (night falls); Nahum 3:16 (Nineveh's merchants) | 1 Corinthians 15:41 (with the resurrection); Acts 27:20 (none seen in the storm) |
 | Not to be worshipped or read | Deuteronomy 4:19; Isaiah 47:13 | |
-| The measure of Abraham's children | Genesis 15:5; 22:17; 26:4; Exodus 32:13; Deuteronomy 1:10; 10:22; 28:62; 1 Chronicles 27:23; Nehemiah 9:23; Nahum 3:16 (merchants) | Hebrews 11:12 |
+| The measure of Abraham's children | Genesis 15:5; 22:17; 26:4; Exodus 32:13; Deuteronomy 1:10; 10:22; 28:62; 1 Chronicles 27:23; Nehemiah 9:23 | Hebrews 11:12 |
 | Persons | Genesis 37:9; Daniel 8:10; 12:3 | Revelation 12:1 |
-| Heaven's servants | Judges 5:20; Job 38:7 | Revelation 1:16, 20; 2:1; 3:1; 9:1; 12:4 |
-| The counterfeit | Amos 5:26; Isaiah 14:13; Obadiah 1:4 | Acts 7:43; Jude 13 |
+| Heaven's servants | Judges 5:20; Job 38:7; Isaiah 14:13 (the stars of God) | Revelation 1:16, 20; 2:1; 3:1; 9:1; 12:4 |
+| The counterfeit | Amos 5:26; Obadiah 1:4 | Acts 7:43; Jude 13 |
 | The Star out of Jacob, the Morning Star | Numbers 24:17 | Matthew 2:2, 7, 9, 10; 2 Peter 1:19 (*phōsphoros*); Revelation 2:28; 22:16 (*prōinos*) |
-| Darkened or falling | Isaiah 13:10; Ezekiel 32:7; Joel 2:10; 3:15; Ecclesiastes 12:2 (old age); Job 3:9 | Matthew 24:29; Mark 13:25; Luke 21:25; Revelation 6:13; 8:10, 11, 12 |
+| Darkened or falling | Isaiah 13:10; Ezekiel 32:7; Joel 2:10; 3:15; Ecclesiastes 12:2 (old age); Job 3:9 (Job's curse on his birth) | Matthew 24:29; Mark 13:25; Luke 21:25; Revelation 6:13; 8:10, 11, 12 |
 
 ## References & Recommended Reading
 
@@ -376,7 +398,8 @@ MACULA) and 2 Peter 1:19's φωσφόρος, sorted by the use each verse makes 
   OpenScriptures morphology. Greek: SBLGNT with MACULA Greek; Brenton's Septuagint. Verified against
   `bible-text.db`, 2026-11-08.
 - **Commentary consulted.** *ESV Study Bible* (Crossway), notes on Matthew 2:2, 2:9 and Revelation
-  1:20, 2:26-28; *NIV Biblical Theology Study Bible* (Zondervan), notes on Matthew 2:2 and
+  1:20, 2:26-28; *NIV Cultural Backgrounds Study Bible* (Zondervan), note on Revelation 2:28; *NIV
+  Biblical Theology Study Bible* (Zondervan), notes on Matthew 2:2 and
   Revelation 1:20, 2:28.
 - **On this site.** [The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md)
   (Balaam's oracle and its reading at Qumran); [The Names of Jesus](names-of-jesus.md) (the star out

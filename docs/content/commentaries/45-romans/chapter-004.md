@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Faith](../../salvation/faith.md) — 4:16-21
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 4:16-18
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 4:4-5
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 4:6-8
 <!-- commentary-index:auto-end -->

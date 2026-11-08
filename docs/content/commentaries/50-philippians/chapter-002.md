@@ -19,6 +19,7 @@ draft: false
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 2:6-11
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 2:14-16
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 2:3-8
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 2:6-9
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 2:6-7
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 2:12-13
 - [The Names of God](../../god/names-of-god.md) — 2:9-11

@@ -14,6 +14,7 @@ draft: false
 
 - [Idolatry](../../sin/idolatry.md) — 9:20
 - [Sin and Sorcery](../../sin/sorcery.md) — 9:21
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 9:1
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 9:13
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 9:15-21
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 9:1-2

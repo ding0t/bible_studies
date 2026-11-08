@@ -14,6 +14,7 @@ draft: false
 
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 40:8
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 40:29-31
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 40:26
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 40:8
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 40:8
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 40:10

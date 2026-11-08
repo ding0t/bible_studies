@@ -21,6 +21,7 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 13:3
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 13:24
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 13:3
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 13:24-26
 - [The Day Is Near](../../last-things/day-is-near.md) — 13:32-37
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 13:2
 <!-- commentary-index:auto-end -->

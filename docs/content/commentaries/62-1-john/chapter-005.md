@@ -18,4 +18,5 @@ draft: false
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 5:3
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 5:14
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 5:3
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 5:5
 <!-- commentary-index:auto-end -->

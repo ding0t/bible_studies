@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Know the Truth](../../christian-life/know-the-truth.md) — 31:5
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 31:15
 <!-- commentary-index:auto-end -->

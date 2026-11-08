@@ -27,6 +27,7 @@ draft: false
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 1:1
 - [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 1:5
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:24
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 1:13
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 1:7
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 1:11
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 1:6-7

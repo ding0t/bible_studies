@@ -17,7 +17,7 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:16
 - [Pride](../../sin/pride.md) — 1:4
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 1:16-18
-- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 1:19
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 1:16-19
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 1:12-13
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 1:19-21
 <!-- commentary-index:auto-end -->

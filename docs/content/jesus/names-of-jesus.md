@@ -232,10 +232,11 @@ temple of the LORD and "sit and rule on his throne. And there shall be a priest 
 
 Balaam, hired to curse Israel, saw its King far off: "I see him, but not
 now; I behold him, but not near: a star shall come out of Jacob, and a scepter shall rise out of
-Israel" (Numbers 24:17, ESV). The word is <span dir="rtl">כּוֹכָב</span> (*kokhav*, H3556). In the
+Israel" (Numbers 24:17, ESV). The word is <span dir="rtl">כּוֹכָב</span> (*kokab*, H3556). In the
 last chapter of the Bible Jesus takes the name: "I am the root and the descendant of David, the
 bright morning star" (Revelation 22:16, ESV). How the hired prophet came to say it is told in
-[The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md).
+[The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md), and how Scripture
+uses "star" from Genesis to that last chapter in [The Bright Morning Star](the-bright-morning-star.md).
 
 #### The one shepherd
 

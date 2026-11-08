@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Genesis 6:1-4"
 bible_references: ["Genesis 6:1-8", "Genesis 10:15-19", "Numbers 13:25-33", "Numbers 14:36-37", "Deuteronomy 2:10-11", "Deuteronomy 2:20-21", "Deuteronomy 3:11", "Deuteronomy 9:2", "Joshua 11:21-22", "Joshua 15:13-14", "1 Samuel 17:4", "2 Samuel 21:15-22", "Job 1:6", "Job 2:1", "Job 38:7", "2 Peter 2:4-5", "Jude 1:6-7", "Jude 1:14-15", "Matthew 24:37-39", "1 Peter 3:18-20", "Amos 2:9"]
 date_created: 2026-08-04
-date_modified: 2026-10-21
+date_modified: 2026-11-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -59,7 +59,7 @@ Numbers 13:25-33 has a different, equally clear job. It is the spies' report fro
 
 ### Sons of God
 
-**Sons of God,** <span dir="rtl">בְּנֵי הָאֱלֹהִים</span> (*bene ha-elohim*). This exact construct phrase occurs in only four other places in the Hebrew Bible, and all four are in Job -- 1:6, 2:1, and 38:7 -- where it unambiguously names members of God's heavenly court presenting themselves before him, Satan among them in the first two. That is a genuine data point in favour of reading Genesis 6:2 and 6:4 the same way, as angelic beings. Three views have been argued historically, and no single one commands universal agreement:
+**Sons of God,** <span dir="rtl">בְּנֵי הָאֱלֹהִים</span> (*bene ha-elohim*). This exact construct phrase occurs in only two other places in the Hebrew Bible, both in Job (1:6; 2:1), and a near form without the article, <span dir="rtl">בְּנֵי אֱלֹהִים</span> (*bene elohim*), in Job 38:7. In all three it unambiguously names members of God's heavenly court, Satan among them in the first two. That is a genuine data point in favour of reading Genesis 6:2 and 6:4 the same way, as angelic beings. Three views have been argued historically, and no single one commands universal agreement:
 
 1. **Fallen angels.** Supported by the phrase's consistent angelic sense in Job, and by New Testament texts that pair angelic sin with the flood in the same breath — 2 Peter 2:4-5 ("God did not spare angels when they sinned... and did not spare the ancient world, but preserved Noah") and Jude 1:6-7 (angels who "did not stay within their own position of authority, but left their proper dwelling," paired immediately with Sodom's "unnatural desire," ESV).
 
@@ -67,7 +67,7 @@ Numbers 13:25-33 has a different, equally clear job. It is the spies' report fro
 2. **Tyrannical human kings.** In this view "sons of God" is an ancient Near Eastern idiom for despotic rulers claiming divine status, in the way some ANE kings styled themselves. It is drawn from Cain's ungodly line running through Lamech (Genesis 4:19-24). On this reading the kings may have acted under demonic influence without being angels themselves.
 3. **The godly line of Seth.** The most common view in later church history: Seth's descendants (the line that "called upon the name of the LORD," Genesis 4:26) intermarrying with Cain's ungodly line, blurring the distinction between the two lines the genealogies of chapters 4-5 had carefully kept separate.
 
-The Septuagint itself translates the identical Hebrew phrase two different ways within its own pages. It has **ἄγγελοι τοῦ Θεοῦ** ("angels of God") in Job 1:6 and 38:7, but literally **υἱοὶ τοῦ Θεοῦ** ("sons of God") in Genesis 6:2 and 6:4. That is a real observation about how one ancient translation handled the phrase in two different books. Old Greek Job is a notably freer, more periphrastic translation than Old Greek Genesis. It is no proof that the LXX's translators held a settled view on Genesis 6 specifically, and reading more into it would overclaim the evidence.
+The Septuagint itself translates the identical Hebrew phrase two different ways within its own pages. It has **ἄγγελοι τοῦ Θεοῦ** ("angels of God") in Job 1:6 and 2:1, and **ἄγγελοί μου** ("my angels") in 38:7, but literally **υἱοὶ τοῦ Θεοῦ** ("sons of God") in Genesis 6:2 and 6:4. That is a real observation about how one ancient translation handled the phrase in two different books. Old Greek Job is a notably freer, more periphrastic translation than Old Greek Genesis. It is no proof that the LXX's translators held a settled view on Genesis 6 specifically, and reading more into it would overclaim the evidence.
 
 ### Mighty men, men of renown
 

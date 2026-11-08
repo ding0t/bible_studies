@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Pride](../../sin/pride.md) — 1:3-4
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 1:3-4
 <!-- commentary-index:auto-end -->

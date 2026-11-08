@@ -15,7 +15,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 15:6
 - [Sin and Sorcery](../../sin/sorcery.md) — 15:16
 - [Six Days of History](../../last-things/six-days-of-history.md) — 15:5
-- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 15:5
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 15:5-6
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 15:1
 - [The Names of God](../../god/names-of-god.md) — 15:2
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 15:5

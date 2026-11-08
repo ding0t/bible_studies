@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Sin and Sorcery](../../sin/sorcery.md) — 47:9-15
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 47:13-14
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 47:5-9
 <!-- commentary-index:auto-end -->

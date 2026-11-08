@@ -210,3 +210,7 @@ changes_2026-11-08c:
   asked: "Author: make the sibling changes the angel-of-the-LORD study suggested."
   done: "'Who stood in the road' cut from five numbered reasons (459 words) to two paragraphs (138) linking jesus/the-angel-of-the-lord.md, which now carries the argument and the cautions; the Key Takeaways line points there. bible_references pruned of eight refs that only the cut list cited (Gen 16:13; 22:16; 33:3; Exod 3:2-6; Josh 5:13-15; Judg 13:18-22; Mal 3:1; John 1:18)."
   ships_with: "The publish commit of the angel study (Check 24: links to a draft until then). Uncommitted until then."
+changes_2026-11-08d:
+  asked: "Author: move what is needed from this study into jesus/the-bright-morning-star.md."
+  done: "'What Scripture does with a star' cut from the five-use list (370 words) to a two-sentence summary (83) linking the star study; 'Who the Star is' no longer points to 'use 2 / use 3'; the Revelation 2:26-28 paragraph cut to one sentence pointing there. bible_references pruned of ten refs only the list cited (Gen 15:5; 22:17; Judg 5:20; Ps 147:4; Isa 14:4, 12-14; Acts 7:42-43; 2 Pet 1:19; Rev 1:20). Kept: Kramer's reading, the settled/contested paragraph and 'Read as a king before Bethlehem' (Balaam-specific; the star study links to #the-star-and-the-scepter)."
+  ships_with: "The publish commit of the star study (Check 24 until then)."

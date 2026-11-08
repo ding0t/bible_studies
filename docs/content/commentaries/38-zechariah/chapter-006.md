@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 6:12-13
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 6:12
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 6:12-13
 <!-- commentary-index:auto-end -->

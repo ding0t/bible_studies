@@ -94,6 +94,14 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
 
     [:octicons-arrow-right-24: Read](the-angel-of-the-lord.md)
 
+-   __The Bright Morning Star: How Scripture Uses 'Star'__
+
+    ---
+
+    Scripture calls the stars God's creatures, the measure of Abraham's children, Jacob's sons and heaven's servants, and a star made into a god an idol. Out of them all it promises one Star from Jacob, and Jesus takes the title: the bright Morning Star.
+
+    [:octicons-arrow-right-24: Read](the-bright-morning-star.md)
+
 -   __The Cups Jesus Drank__
 
     ---

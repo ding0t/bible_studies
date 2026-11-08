@@ -16,6 +16,7 @@ draft: false
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 6:9-11
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 6:9-11
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 6:1-12
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 6:12-14
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 6:13
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 6:9-11
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 6:11

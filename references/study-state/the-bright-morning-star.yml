@@ -1,6 +1,6 @@
 slug: "the-bright-morning-star"
 title: "The Bright Morning Star: How Scripture Uses 'Star'" # working title
-status: drafted
+status: published
 author_2026-11-08: "Proposal approved in principle. The simplify pass's 'Stars in Scripture' fork from the Balaam study folds in here: its 'What Scripture does with a star' list moves verbatim into the first five sections, and the Balaam study keeps 'Who the Star is' and a link once this is published."
 target_path: "docs/content/jesus/the-bright-morning-star.md" # proposed: Christology, OT prophecy fulfilled in Him
 
@@ -78,3 +78,51 @@ open_questions:
 resources_consulted:
   - {type: other, title: "bible-references MCP: bible_word H3556, G792, G798, G4407, G5459; cross_study_claims for Num 24, Rev 2, Rev 22, Isa 14, Job 38, Gen 37, 2 Pet 1", author: "", note: "2026-11-08 scoping."}
 last_updated: "2026-11-08"
+review_2026-11-08:
+  by: "review-bible-study (independent pass, every claim re-derived; state file not trusted)"
+  verified:
+    - "81 BSB quotations re-queried against berean-bsb: all verbatim except Ps 8:4 (quote ends '?' where the BSB has a comma and continues) and Dan 12:3 (capital 'Those' mid-verse). References all point to the verse quoted."
+    - "Counts: kokab H3556 37 verses (morphhb-wlc, prefixed ids included); aster G792 21, astron G798 4, phosphoros G5459 2 Pet 1:19 only, proinos G4407 Rev 2:28; 22:16 (macula-greek-sblgnt). Annex: all 37 Hebrew and 26 Greek verses appear exactly once; Neh 4:15, Ps 8:4, Joel 4:15 Hebrew correctly given as 4:21, 8:3, 3:15."
+    - "LXX (ebible-grcbrent) Num 24:17 'anatelei astron ex Iakob, anastesetai anthropos ex Israel' confirmed. Job 38:7 'hote egenethesan astra, enesan me phone megale pantes angeloi mou' (study omits 'with a loud voice'). Isa 14:12 'ho heosphoros ho proi anatellon'."
+    - "Matt 2:2, 9 en te anatole (G395, SBLGNT); BSB fn on 2:2 only 'Or as it rose'. anatole/anatello cognate; anatello in LXX Num 24:17 and 2 Pet 1:19; anatole in Luke 1:78 (BSB fn 'Or the Morning Light or the Sunrise'). 'Echo' is fair as marked."
+    - "Isa 14:12 heilel H1966 only occurrence; BSB fn 'Or morning star or shining one or Lucifer'. Rev 22:16 SBLGNT 'ho aster ho lampros, ho proinos'."
+    - "Judg 4:15 hamam H2000 'confused' supports 'panic'. Mic 5:2 BSB (English numbering) 'origins are of old, from the days of eternity'. Gal 3:16, 29 say seed = Christ / believers; neither mentions the nations. Phil 2:6-9 has humbling and exaltation, not 'Most High's Son' or Jacob."
+    - "All internal links and anchors resolve; npm run validate clean for this file."
+  findings:
+    critical: []
+    moderate:
+      - "L260-263 (and L42-43): 'a King of Jacob's line who is also heaven's own' is drawn by carrying the angel sense of 'star' into Num 24:17; 24:17's parallelism and 24:19 ('A ruler will come from Jacob') make the Star a king. Ground the deity in Mic 5:2, Rev 22:16 'Root', Matt 22:41-45, as the donkey study does. 'Maker of the stars' bullet has no verse for it (Col 1:16; Heb 1:2)."
+      - "L236-241 'Two morning stars?': 'a different word in a different language' is undercut by LXX Isa 14:12 'ho heosphoros ho proi anatellon' (proi G4404, cognate of proinos G4407; anatello G393, the verb the study's own Matt 2 echo rests on); heosphoros and phosphoros are near-synonyms. Rest the distinction on Isa 14:4 and Rev 22:16 'I, Jesus' and disclose the Greek overlap; Discussion Q1 leans on the same."
+      - "L327-329: Rev 6:13 grouped with Matt 24:29 as signs that 'close the tribulation ... as The Tribulation sets out'; tribulation.md puts the seals in the first half and gives the end-of-week sixth seal only as an objection. Contradicts and mis-cites the sibling."
+      - "L177-181 Job 38:7: the LXX sentence is followed by 'So it is likely', but the LXX separates the stars (made) from the angels (who praise) and drops 'morning'; it is the counter-case. Mark it so."
+      - "L160-164 Dan 8:10 = 'the holy people' (8:24) stated flat; 8:24 does not say it explains 8:10, 8:11 names the 'Prince of the host', NIV Cultural Backgrounds SB reads the starry host as God's angelic host, and this study reads Rev 12:4 (which echoes Dan 8:10) as angels. Mark as likely, or contested."
+    minor:
+      - "L64-65 Ps 8:4 quote's '?' (BSB comma); L65 'The answer is the Son He sent' needs Heb 2:6-9."
+      - "L63 'Your times are in the hands...' cited to Ps 147:4-5; the words are Ps 31:15."
+      - "L142 Gal 3:16, 29 for 'reaches the nations': use Gal 3:8, 14, and Rom 4:16-18 (quotes Gen 15:5 at 4:18; review_gaps flags Rom 4)."
+      - "L241 Phil 2:6-9: add Luke 1:32 for 'the Most High's Son' and David's throne."
+      - "L192-194 Rev 1:20: ESVSB's preferred third view (personifications of each church) is missing from the either/or."
+      - "L37-38 the Scepter 'waits for His return' cites Rev 2:26-27 (the overcomer's share); add Rev 12:5; 19:15."
+      - "L275 'Neither quotes the other' -> Matthew does not quote Numbers. L293 Luke 1:78 anatole: LXX also uses Anatole for the messianic Branch (Jer 23:5; Zech 3:8; 6:12); one clause."
+      - "L212 Amos 5:26: ESV renders future ('You shall take up'); Acts 7:42-43 backs the study's past reading; one clause."
+      - "L314 'give Himself to everyone who overcomes': add 1 John 5:5 so the overcomer is not read as earning Christ."
+      - "Annex: title overclaims (omits heilel H1966, mazzalot 2 Kgs 23:5, Job 38:32); Nah 3:16 (Nineveh's merchants) misfiled under Abraham's children; Isa 14:13 'stars of God' fits heaven's servants better than counterfeit; Job 3:9 unannotated."
+      - "Strong's: proinos G4407, anatelei G393, lampros G2986 untagged; Q1 Greek phrase has no transliteration."
+      - "Frontmatter bible_references never treated in prose: Ps 72:10-11, Luke 10:18, Heb 1:1-2, Job 38:31-33."
+      - "Morning star = Venus never named (NIVCB: Roman Venus = victory and rule, which supports the share-in-rule reading of Rev 2:28)."
+      - "Style: six identical 'This shows that God...' section closers (human call); antithesis low (about 4 in 3,650 words)."
+  commentary_cross_check: "NIV Cultural Backgrounds Study Bible (not cited): Num 24:17 / Rev 22:16 messianic star, confirms; Rev 2:28 Christ himself + Venus/reign + Ps 2:9-Num 24:17 'scepter' keyword link, confirms; Job 38:7 stars = sons of God (Ugaritic parallel), confirms; Dan 8:10 starry host angelic, complicates; Isa 14:12 the king of Babylon, consistent with the contested marking; 2 Pet 1:19, confirms."
+  context_coverage: {genre: partial, occasion: partial, literary: covered, original_language: covered, cultural_transcultural: partial, taught_elsewhere: covered, statement_of_faith: "consistent (pretrib/premil reading of Matt 24:29 and Rev 2:26-27)"}
+  siblings:
+    - "names-of-jesus.md and the-donkey-and-her-prophet.md (uncommitted working-tree edits) link to this draft: validate Check 24 ERROR in both. Commit with the draft:false flip."
+    - "tribulation.md: contradicted on Rev 6:13 (moderate above). pride.md, sorcery.md, dreams-and-visions: consistent. nephilim.md: consistent on Job 38:7, but its own claim that the LXX has 'angeloi tou Theou' at Job 38:7 is wrong (Brenton 'pantes angeloi mou')."
+    - "prophecy-events-times.md (not linked) states the Bethlehem star 'is' a conjunction or occultation; contradicts this study and ESVSB on Matt 2:9. Suggest marking it as one view there."
+    - "Transliteration differs: names-of-jesus *kokhav*, here *kokab*."
+  size: "about 3,650 counted words of a 4,000 budget; the recommended fixes add about 90 net."
+fixes_2026-11-08:
+  approved: "Author: 'Yes go ahead' (all review findings, the three sibling corrections, publish)."
+  moderate: "Star's deity now rests on Mic 5:2, Matt 22:41-45 and the Root of Rev 22:16 (Num 24:17/19 make the Star a king); Col 1:16 for Maker; 'Two morning stars?' rewritten: the words overlap (Venus; LXX Isa 14:12 heosphoros ho proi anatellon), and the passages are kept apart by whom they name (Isa 14:4; Rev 22:16 'I, Jesus'); Q1 rewritten to match; Rev 6:13 now reported as tribulation.md has it (seals in the first half; the end-of-week view noted); Job 38:7 LXX now the case against, quotation completed; Dan 8:10 marked contested."
+  minor: "Ps 8:4 punctuation and Heb 2:9; Dan 12:3 lower-case; Ps 31:15 for 'my times'; Gal 3:8, 14 and Rom 4:16-18 for the nations; Luke 1:32; ESVSB personification view at Rev 1:20; Rev 19:15; 12:5 for Christ's scepter; 'Matthew does not quote Numbers'; anatole = Branch in LXX Jer 23:5, Zech 3:8; 6:12; ESV future at Amos 5:26; 1 John 5:5 on overcoming; annex retitled 'The star verses', Nah 3:16 and Isa 14:13 refiled, Job 3:9 noted, heilel and constellations named as left out; G393, G4407, G2986 tagged, Q1 transliterated; frontmatter pruned and extended; Venus and NIV CBSB note on Rev 2:28 added; four of six 'This shows that God' closers varied."
+  siblings_fixed: "spiritual-beings/nephilim.md: bene ha-elohim is in two other places (Job 1:6; 2:1), Job 38:7 has bene elohim without the article; LXX Job 38:7 is 'my angels'. last-things/prophecy-events-times.md: the Bethlehem star now says what Matthew 2:9 says it did, with the conjunction proposals marked as one view, linking here. jesus/names-of-jesus.md: kokhav -> kokab, and a back-link. biblical-figures/the-donkey-and-her-prophet.md: star list cut to a summary and link."
+  checks: "64 BSB quotations, 0 mismatches."
+published_2026-11-08: {note: "draft: false; siblings above in the same commit."}

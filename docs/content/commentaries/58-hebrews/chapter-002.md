@@ -17,6 +17,7 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:17-18
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 2:11-12
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 2:1
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 2:6-9
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 2:11
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 2:6-7
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 2:14-15

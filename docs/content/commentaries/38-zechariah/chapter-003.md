@@ -14,6 +14,7 @@ draft: false
 
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 3:1-9
 - [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 3:1-5
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 3:8
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:4
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 3:4
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 3:8

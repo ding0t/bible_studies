@@ -22,6 +22,7 @@ draft: false
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 1:14
 - [Submission in Context](../../christian-life/submission-in-context.md) — 1:27-28
 - [The Appointed Times](../../feasts/feasts.md) — 1:14
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 1:14-18
 - [The Names of God](../../god/names-of-god.md) — 1:1
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 1:2
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 1:14-19

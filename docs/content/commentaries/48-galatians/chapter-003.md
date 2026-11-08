@@ -19,6 +19,7 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 3:17
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 3:5
 - [Pride](../../sin/pride.md) — 3:3
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 3:8
 - [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 3:17
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 3:13-14
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 3:27

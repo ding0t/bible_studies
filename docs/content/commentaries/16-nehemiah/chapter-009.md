@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Fasting](../../christian-life/fasting.md) — 9:1-2
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 9:23
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 9:20
 - [True Worship](../../christian-life/true-worship.md) — 9:6
 <!-- commentary-index:auto-end -->

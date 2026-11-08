@@ -16,5 +16,6 @@ draft: false
 - [Precious Stones in Scripture](../../god/precious-stones.md) — 60:19
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 60:1
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 60:1-3
+- [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 60:1-6
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 60:3
 <!-- commentary-index:auto-end -->
