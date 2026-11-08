@@ -19,6 +19,7 @@ draft: false
 - [Know the Truth](../../christian-life/know-the-truth.md) — 34:6
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 34:6
 - [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 34:6-7
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 34:20
 - [The Names of God](../../god/names-of-god.md) — 34:5-7
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 34:6-7
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 34:22

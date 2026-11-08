@@ -67,3 +67,9 @@ kind = "interpretive"
 follow = "steadfast love"
 status = "decided"
 why = "Contested. The word's range runs from loyalty within a covenant to kindness beyond what is owed, and each English keeps part of it: covenant faithfulness (ULT) the first, loving devotion (BSB) the second, steadfast love (ESV) both in part. The site follows the ESV so a study's wording and its quotations agree; a study about חֶסֶד itself works the word from its uses."
+
+[H6041]
+kind = "interpretive"
+follow = "by context: poor, afflicted, or humble"
+status = "proposed"
+why = "עָנִי (ani) names the one brought low: the poor (Exodus 22:25), the afflicted, and the humble who depend on God (Zephaniah 3:12; Isaiah 66:2). The ULT leans to poor, the BSB to afflicted. At Zechariah 9:9 the Septuagint and Matthew 21:5 render it πραΰς (gentle), so the ESV's and BSB's humble keeps the New Testament's own reading there; a study resting on the word should say it also means poor and afflicted."

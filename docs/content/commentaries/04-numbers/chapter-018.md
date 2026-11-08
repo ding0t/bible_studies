@@ -16,4 +16,5 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 18:21
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 18:19
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 18:1-7
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 18:15-17
 <!-- commentary-index:auto-end -->

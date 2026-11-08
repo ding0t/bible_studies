@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 32:24-30
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 32:15
 <!-- commentary-index:auto-end -->

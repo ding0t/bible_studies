@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 1:33-38
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 1:34-39
 <!-- commentary-index:auto-end -->

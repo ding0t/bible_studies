@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 26:2
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 26:3
 <!-- commentary-index:auto-end -->

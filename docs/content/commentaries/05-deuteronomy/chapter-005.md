@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 5:14
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 5:20
 <!-- commentary-index:auto-end -->

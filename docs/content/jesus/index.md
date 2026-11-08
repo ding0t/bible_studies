@@ -4,7 +4,7 @@ category: "other"
 description: "God the Son: who Jesus is and what He did, including Old Testament prophecy fulfilled in Him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-11-08
+date_modified: 2026-11-09
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -117,6 +117,14 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
     "Nor the Son" — what Mark 13:32 and Matthew 24:36 do and do not say about Christ's knowledge. The textual variant, the two natures, the Father's prerogative, and whether Jesus was quoting a Jewish wedding idiom.
 
     [:octicons-arrow-right-24: Read](the-day-no-one-knows.md)
+
+-   __The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry__
+
+    ---
+
+    In Scripture the donkey is the beast of house and road, the mount of people of standing and an animal the law protected and redeemed with a lamb. Zechariah's King comes humble and riding on one, and Jesus rode it into Jerusalem as the King of peace.
+
+    [:octicons-arrow-right-24: Read](the-king-on-a-donkey.md)
 
 -   __The Way__
 

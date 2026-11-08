@@ -1,6 +1,6 @@
 slug: "the-king-on-a-donkey"
 title: "The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry" # working title
-status: drafted
+status: published
 author_2026-11-08: "Proposal approved in principle."
 target_path: "docs/content/jesus/the-king-on-a-donkey.md" # proposed: the study lands on Zech 9:9 fulfilled (OT prophecy fulfilled in Him)
 
@@ -73,3 +73,48 @@ open_questions:
 resources_consulted:
   - {type: other, title: "bible-references MCP: bible_word H2543, H860, H5895, G3688, G4454, G5268, G3678; bible_interlinear Gen 22:3, Num 22:21, Matt 21:2, 5; cross_study_claims for Zech 9, Matt 21, Gen 49, John 12, Exod 13", author: "", note: "2026-11-08 scoping."}
 last_updated: "2026-11-08"
+review_2026-11-08:
+  skill: review-bible-study (independent pass; state file not trusted)
+  checked: "All BSB quotations re-queried from berean-bsb (bible-text.db); counts re-run on morphhb-wlc (prefix-aware) and macula-greek-sblgnt; Hebrew of Gen 22:3, Num 22:21-22, Gen 32:16, Gen 49:11, Judg 5:10, Judg 10:4, 2 Kgs 4:22-24, Exod 13:13, Zech 9:9; LXX (ebible-grcbrent, lxx-lemmas) Zech 9:9, Isa 1:3, Gen 49:11; SBLGNT Matt 21:2, 5, 7, John 12:14-15; MACULA syntax Matt 21:7; Berean footnotes on the primary passages; study notes (ESVSB, NIV BTSB, NIV/NKJV CBSB, NLT LASB, CSB Ancient Faith); m. Bekhorot 1:3-4 (Kulp, CC-BY) and Bereshit Rabbah 55:8 (Sefaria Community Translation, CC0) via sefaria.py; review_gaps; cross_study_claims for Zech 9, Matt 21, Exod 13; strongs_suggest; alignment_ranking; npm run validate (no warnings for this file); links and anchors."
+  confirmed: "Quotations verbatim except the two noted below. Counts: chamor H2543 93 verses (96 tokens); aton H860 28 (34); ayir H5895 8 (9); ayir+aton together exactly Gen 32:16, Gen 49:11, Zech 9:9; onos G3688 5; polos G4454 11 verses, 12 tokens, all at the entry; hypozygion G5268 2; onarion G3678 1; phatne G5336 4 (Luke 2:7, 12, 16; 13:15); praus G4239 in Matt 5:5, 11:29, 21:5. Zech 9:9 ani H6041, LXX praus. Gen 49:11 iroh / beni atono. Judg 10:4 ayarim twice, both tagged H5895 in WLC. Matt 21:2 onon dedemenen feminine. LXX Isa 1:3 phatne. BSB fn Zech 9:9 'Or righteous and endowed with salvation'. ESVSB note 21:6-7 reads 'them' as the cloaks. All four links resolve to draft: false pages; outline anchors resolve."
+  findings:
+    critical: []
+    moderate:
+      - "L176-179 Exod 13:13: 'The firstborn donkey lived only because a lamb died in its place' -- the text says redeem (padah) with a seh, not that the seh is killed; Num 18:15-17 and Lev 27:27 set redemption of unclean firstborn against sacrifice; m. Bekhorot 1:4 (Kulp) gives the lamb to the priest alive and lets one lamb redeem many times. ESVSB/NIV BTSB read a sacrifice (study notes only). Reword to 'a lamb was given in its place' or mark the death as a reading; keep the 1 Pet 1:18-19 redemption link."
+      - "L257-260 Matt 21:7: 'The Greek answers it' overclaims. auton (gen. pl.) is masc/neut alike; the immediately preceding ep' auton is the animals; MACULA parses the final auton P-GPM and resolves it to the donkey and the colt. Mark as contested, give both readings (cloaks: ESVSB; animals with Jesus on the colt: NIV BTSB), and rest the answer on Mark 11:7, Luke 19:35, John 12:14."
+      - "L123-128 Gen 22:3 / Num 22:21: 'both verses have in the morning, vayyachavosh and his donkey' -- the Hebrew noun differs (chamoro vs atono, the very distinction 'The words' teaches) and so does the verb before (vayyashkem vs vayyaqom). Shared: babboqer + vayyachavosh + et- ...o, and the identical sh'nei ne'arav (Gen 22:3; Num 22:22). Bereshit Rabbah 55:8 (CC0) draws this very parallel ('let the saddling of Abraham counteract the saddling of Balaam'); cite it in place of 'the text draws no line'."
+      - "Phase 6 context: Zechariah's setting (post-exilic, Zech 9:1-8 campaign, 9:11-17) and Matt 21:8-11 are not read before harmonising; genre not named. Add two or three sentences."
+      - "L267-273 Zech 9:10 cuts off the horse; Rev 19:11 has the King on one. The study states both without noting that the horse cut off is Ephraim's and Jerusalem's own (Israel disarmed), which resolves it. One sentence."
+      - "Sibling contradiction: the-donkey-and-her-prophet.md 'She carried the King' heading vs this study's 'the colt' carried Him (Mark 11:7; Luke 19:35; John 12:14). Fix in the sibling."
+    minor:
+      - "L100 polos 'used eleven times': 12 times in 11 verses (Luke 19:33 twice)."
+      - "L131 'the mountain where God provided the lamb': God provided a ram (Gen 22:13); the lamb is Abraham's word (22:8)."
+      - "L240-243 'never been placed under a yoke' is Num 19:2's wording only; 1 Sam 6:7 BSB reads 'that have never been yoked'. Deut 21:3 ('never been yoked or used for work') is in frontmatter, unused, and fits 'common work' best."
+      - "L114 Gen 45:23 quotation truncated mid-list without an ellipsis ('...and provisions')."
+      - "L119 Kish called 'a farmer'; 1 Sam 9:1 BSB 'a powerful man'."
+      - "L142 'two servants walking beside': BSB 'his two servants were with him' (same in sibling)."
+      - "L159 'kings in flight': 2 Sam 16:2 gives the donkeys to the king's household; David's own mount is not named."
+      - "L176 'not an animal for the altar' unreferenced: cite Num 18:15, 17 (unclean firstborn redeemed; ox/sheep/goat not redeemed, sacrificed)."
+      - "L46-47 'the same word ... for Jesus' own heart': in Matt 11:29 'in heart' goes with tapeinos; praus is 'gentle' (humility.md says so)."
+      - "L67-68 Be Transformed Do: 'let it go' is Mark 11:6, not Luke 19:33-34; cite it. 'Borrowed' at L252 rests on Mark 11:3 ('will return it shortly'), uncited."
+      - "L214-218 Gen 49:10 BSB footnote 'Or until the one to whom tribute belongs' undisclosed while 'His reign' capitalises a contested referent; and 'a man ties his donkey' changes Gen 49:11's subject (the ruler)."
+      - "L224 Gen 32:15 is 32:16 in Hebrew; say so where the Hebrew count is claimed."
+      - "L246 David weeping up the Mount of Olives / Jesus weeping over the city: unmarked juxtaposition (directions opposite); mark as an echo or cut."
+      - "L272 'to make peace by His blood' has no reference (Col 1:20)."
+      - "Word tags: L216-217 order is (translit, gloss, H#) -- house shape is (translit, H#, gloss); L138 ayarim no number (H5895, the pun on H5892); L259 ta himatia no translit/G2440."
+      - "H6041 has no word-renderings.toml decision (alignment_ranking: ULT 'poor' / BSB 'afflicted', 54% differ); the study says 'humble' and notes the range -- propose an entry."
+      - "L32 '### Prophecy' should be '### Types & Prophecy' (key-takeaways.md); L73 prayer 'Your Son' -- name Him ('Your Son Jesus')."
+  commentary_cross_check: "CSB Ancient Faith has only footnotes for Zech 9, Matt 21, Exod 13 in study-notes.db: silent. NLT Life Application (uncited): confirms two animals as one event with the mother steadying an unbroken colt (Matt 21:2-5) and the two-advent reading of Zech 9 (first a servant on a colt, later ruler and judge); silent on Matt 21:7 'them' and Exod 13:13."
+  statement_of_faith: "Consistent: Zech 9:10 / Zech 14:4 / Rev 19:11 read as the visible return to reign (statement-of-faith End times, Rev 19:11-16; Acts 1:11)."
+  suggestions:
+    - "This study, Judah's colt: LXX Gen 49:11 has polos and onos (ton polon tes onou autou), the pair Matt 21 and John 12:15 (polon onou) use, while LXX Zech 9:9 has hypozygion + polon neon. A lead for 'rides into Zechariah's prophecy on Judah's colt'; mark as an echo."
+    - "This study, Luke bullet: link last-things/prophecy-events-times.md (Daniel 9 to the Triumphal Entry; Luke 19:44 'time of your visitation')."
+    - "the-donkey-and-her-prophet.md at publish: cut 'She was wealth', the non-Balaam sentences of 'She carried people of standing', and 'The law protected her' (Exod 23:5) to one line and a link here; keep the three words + feminine verbs, Num 22:30/22:22 and the Prov 26:3 line, and the King's-mount echo with its heading corrected. Note the state file disagrees with itself on this (sibling note: words and King's mount stay; drafting note: section cut to a pointer; commits 4f697beb vs dc7a2b47)."
+  size: "~3,270 words against 4,000; recommended fixes add ~120-160 net. 'Donkeys that teach' (bridle, lion, jawbone) is the cut candidate if room is needed."
+fixes_2026-11-09:
+  approved: "Author: 'Continue' after the review was relayed (apply the review's fixes, cut the Balaam section, publish)."
+  moderate: "Exod 13:13: 'a lamb was given in its place'; the law does not say the lamb died; m. Bekhorot 1:4 (Kulp, CC-BY, via sefaria.py) has it given to the priest alive and reused; 1 Pet 1:18-19 now says our Lamb was given and died. Matt 21:7: marked contested (auton same form for animals and cloaks; MACULA links both to the donkey and colt; ESVSB cloaks, NIV BTSB animals with Jesus on the colt); Mark 11:7, Luke 19:35, John 12:14 settle the colt. Gen 22:3 / Num 22:21: chamoro vs atono acknowledged; shared 'in the morning', vayyachavosh, shenei ne'arav; Genesis Rabbah 55:8 (Sefaria Community Translation, CC0) quoted. Zech 9 read in setting (Zech 1:1; 9:1, 8, 11); Matt 21:10-11 added. Zech 9:10 horse vs Rev 19:11 answered. Balaam heading corrected."
+  minor: "polos 12x in 11 verses; Gen 32:15 = Heb 32:16; Gen 45:23 ellipsis; Kish 'a powerful man' (1 Sam 9:1); ram in Isaac's place (Gen 22:13); 'with his two servants'; 'a king's household in flight'; Num 18:15, 17 for the altar; Matt 11:29 praus wording; Mark 11:3, 6; Gen 49:10 BSB footnote and lowercase 'his reign'; LXX Gen 49:11 polos + onos echo; David's weeping marked as an echo in reverse; Col 1:20; word tags reordered, ayarim H5895/H5892, ta himatia G2440; Deut 21:3 wording for the never-yoked animals; 'Types & Prophecy'; 'Your Son Jesus'; link to prophecy-events-times (Daniel 9 to the entry); NLT Life Application Study Bible added to References."
+  renderings: "H6041 proposed in docs/data/word-renderings.toml (status proposed; author to confirm)."
+  checks: "51 BSB quotations; 2 checker false alarms (1 Sam 9:20; 1 Kgs 13:28) verified by hand."
+published_2026-11-09: {note: "draft: false; the Balaam study's she-donkey section cut in the same commit."}

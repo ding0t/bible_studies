@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Passover: When I See the Blood](../../feasts/passover.md) — 31:5
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 31:1
 <!-- commentary-index:auto-end -->

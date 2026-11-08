@@ -20,6 +20,7 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 20:19
 - [Pride](../../sin/pride.md) — 20:17
 - [Six Days of History](../../last-things/six-days-of-history.md) — 20:11
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 20:17
 - [True Worship](../../christian-life/true-worship.md) — 20:3-6
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 20:17
 <!-- commentary-index:auto-end -->

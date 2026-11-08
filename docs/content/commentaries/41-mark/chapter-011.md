@@ -14,4 +14,5 @@ draft: false
 
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 11:25
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 11:12-25
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 11:1-10
 <!-- commentary-index:auto-end -->

@@ -30,6 +30,7 @@ draft: false
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 1:13
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:6-11
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 1:7
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 1:11-12
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 1:6-7
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 1:4-5
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:9-12

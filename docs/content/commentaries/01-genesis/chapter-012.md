@@ -19,6 +19,7 @@ draft: false
 - [The Combined Timeline: One Line, Two Zones](../../chronology/combined-timeline.md) — 12:4
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 12:3
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 12:4
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 12:16
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 12:3
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 12:2-3
 <!-- commentary-index:auto-end -->

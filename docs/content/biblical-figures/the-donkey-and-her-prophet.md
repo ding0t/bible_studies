@@ -5,9 +5,9 @@ description: "Balak paid Balaam to curse Israel. A donkey saw the angel first, t
 tags: ["person/balaam", "method/archaeology", "method/word-study", "lang/hebrew", "numbers", "old-testament", "prophecy-fulfilled"]
 draft: false
 primary_passage: "Numbers 22:21-35; Numbers 24:15-19"
-bible_references: ["Numbers 22:1-20", "Numbers 23:1-30", "Numbers 24:1-14", "Numbers 24:20-25", "Genesis 12:3", "Genesis 27:29", "Genesis 28:14", "Genesis 37:9", "Genesis 49:9-10", "Numbers 2:2", "Numbers 21:21-35", "Numbers 25:1-3", "Numbers 31:8", "Numbers 31:16", "Deuteronomy 3:29", "Deuteronomy 4:19", "Deuteronomy 18:10-12", "Deuteronomy 18:18-19", "Deuteronomy 23:3-5", "Deuteronomy 33:8-11", "Deuteronomy 34:1-6", "Joshua 6:26", "Joshua 13:22", "Joshua 24:9-10", "2 Samuel 8:2", "Nehemiah 13:1-2", "Job 38:7", "Psalm 2:9", "Psalm 110:1", "Proverbs 26:2", "Isaiah 9:6", "Micah 5:2", "Micah 6:5", "Amos 5:26", "Zechariah 9:9", "Matthew 2:1-2", "Matthew 22:42-45", "Romans 8:31-34", "1 Corinthians 10:6-11", "Galatians 3:13-14", "Ephesians 1:3", "2 Peter 2:15-16", "Jude 11", "Revelation 2:14", "Revelation 5:5", "Revelation 22:16", "Genesis 31:13", "Exodus 23:20-21", "1 Corinthians 10:4", "Jude 5", "Revelation 22:8-9", "Genesis 12:16", "Genesis 24:10", "Genesis 24:31", "Genesis 24:50", "Genesis 31:19", "Genesis 31:30", "Genesis 49:11", "Exodus 23:5", "Judges 5:10", "1 Samuel 9:3-20", "2 Kings 4:22-24", "Job 1:3", "Job 42:12", "Proverbs 26:3", "Joshua 24:2", "Matthew 21:2-7", "Revelation 2:26-28"]
+bible_references: ["Numbers 22:1-20", "Numbers 23:1-30", "Numbers 24:1-14", "Numbers 24:20-25", "Genesis 12:3", "Genesis 27:29", "Genesis 28:14", "Genesis 37:9", "Genesis 49:9-10", "Numbers 2:2", "Numbers 21:21-35", "Numbers 25:1-3", "Numbers 31:8", "Numbers 31:16", "Deuteronomy 3:29", "Deuteronomy 4:19", "Deuteronomy 18:10-12", "Deuteronomy 18:18-19", "Deuteronomy 23:3-5", "Deuteronomy 33:8-11", "Deuteronomy 34:1-6", "Joshua 6:26", "Joshua 13:22", "Joshua 24:9-10", "2 Samuel 8:2", "Nehemiah 13:1-2", "Job 38:7", "Psalm 2:9", "Psalm 110:1", "Proverbs 26:2", "Isaiah 9:6", "Micah 5:2", "Micah 6:5", "Amos 5:26", "Zechariah 9:9", "Matthew 2:1-2", "Matthew 22:42-45", "Romans 8:31-34", "1 Corinthians 10:6-11", "Galatians 3:13-14", "Ephesians 1:3", "2 Peter 2:15-16", "Jude 11", "Revelation 2:14", "Revelation 5:5", "Revelation 22:16", "Genesis 31:13", "Exodus 23:20-21", "1 Corinthians 10:4", "Jude 5", "Revelation 22:8-9", "Genesis 12:16", "Genesis 24:10", "Genesis 24:31", "Genesis 24:50", "Genesis 31:19", "Genesis 31:30", "Genesis 49:11", "Exodus 23:5", "Judges 5:10", "2 Kings 4:22-24", "Job 1:3", "Proverbs 26:3", "Joshua 24:2", "Matthew 21:2-7", "Revelation 2:26-28"]
 date_created: 2026-11-08
-date_modified: 2026-11-08
+date_modified: 2026-11-09
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -215,21 +215,14 @@ word for a donkey; <span dir="rtl">אָתוֹן</span> (*aton*, H860), a she-don
 <span dir="rtl">עַיִר</span> (*ayir*, H5895), a young male, a colt. Balaam's is an *aton* throughout,
 and the Hebrew gives her feminine verbs: she saw, she turned, she lay down.
 
-**She was wealth.** Abram "acquired sheep and cattle, male and female donkeys" (Genesis 12:16, BSB),
-and Job's wealth is counted in she-donkeys, 500 before his trials and 1,000 after them (Job 1:3;
-42:12).
+**She was a beast of standing.** She was wealth (Genesis 12:16; Job 1:3), the mount of leaders and
+households (Judges 5:10; 2 Kings 4:24), and an animal the law protected even for an enemy (Exodus
+23:5); [The King on a Donkey](../jesus/the-king-on-a-donkey.md) follows her through Scripture.
+Balaam rode his "all your life" (Numbers 22:30, BSB), with his two servants (Numbers 22:22): a man
+of rank on the mount of one. He beat her, faithful for all her years, three times, and the proverb
+fits the scene: "a bridle for the donkey, and a rod for the backs of fools" (Proverbs 26:3, BSB).
 
-**She carried people of standing.** Deborah's song calls on the leaders as "You who ride white
-donkeys" (Judges 5:10, BSB), and in Hebrew they are she-donkeys. Saul went looking for his father's
-she-donkeys and the search brought him to Samuel (1 Samuel 9:3-20). The Shunammite woman "saddled the
-donkey", a she-donkey, to reach Elisha (2 Kings 4:24, BSB). Balaam rode his "all your life" (Numbers
-22:30, BSB), with two servants walking beside (Numbers 22:22): a man of rank on the mount of one.
-
-**The law protected her.** "If you see the donkey of one who hates you fallen under its load, do not
-leave it there; you must help him with it" (Exodus 23:5, BSB). Balaam beat his own, faithful for all her years, three times. The proverb fits the scene: "a
-bridle for the donkey, and a rod for the backs of fools" (Proverbs 26:3, BSB).
-
-**She carried the King.** Jacob's blessing on Judah, the tribe of the scepter, has him tie "his colt
+**Her colt carried the King.** Jacob's blessing on Judah, the tribe of the scepter, has him tie "his colt
 to the choicest branch" (Genesis 49:11, BSB), in Hebrew "the son of his she-donkey". Zechariah's King
 comes "humble and riding on a donkey, on a colt, the foal of a donkey" (Zechariah 9:9, BSB), the colt
 of she-donkeys. When Jesus entered Jerusalem, the disciples found "a donkey tied there, with her colt

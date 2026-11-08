@@ -14,5 +14,6 @@ draft: false
 
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 62:5
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 62:11
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 62:11
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 62:4
 <!-- commentary-index:auto-end -->

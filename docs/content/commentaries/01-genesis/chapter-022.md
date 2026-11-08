@@ -17,6 +17,7 @@ draft: false
 - [Six Days of History](../../last-things/six-days-of-history.md) — 22:17-18
 - [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 22:11-18
 - [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 22:17
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 22:3-5
 - [The Names of God](../../god/names-of-god.md) — 22:7-14
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 22:18
 - [True Worship](../../christian-life/true-worship.md) — 22:5-8

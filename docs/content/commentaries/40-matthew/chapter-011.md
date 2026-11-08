@@ -17,5 +17,6 @@ draft: false
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 11:28-30
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 11:23-24
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 11:16
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 11:29
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 11:11
 <!-- commentary-index:auto-end -->

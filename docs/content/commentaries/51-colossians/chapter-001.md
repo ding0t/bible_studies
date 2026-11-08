@@ -26,6 +26,7 @@ draft: false
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:22
 - [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 1:16
 - [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 1:13
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 1:20
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 1:26
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 1:16
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 1:13

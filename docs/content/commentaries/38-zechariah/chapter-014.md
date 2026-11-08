@@ -19,6 +19,7 @@ draft: false
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 14:4
 - [The Appointed Times](../../feasts/feasts.md) — 14:16
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 14:7
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 14:4
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 14:11
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 14:1-5
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 14:4

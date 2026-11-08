@@ -175,3 +175,5 @@ quoted a word or two at a time), located by STEP Bible's TTESV tags (Tyndale Hou
 | H3627 | כְּלִי | articles | 269 | 67% | vessels (89); vessel (27); equipment (22) | articles (51); utensils (19); furnishings (12) | vessels (74); utensils (33); vessel (28) |  |  |
 | G3779 | οὕτω(ς) | thus | 70 | 67% | thus (31); way (7); manner (4) | how (10); way (10); like (8) | way (13); thus (13); such (4) |  |  |
 | H8267 | שֶׁקֶר | falsehood | 100 | 67% | falsehood (41); lie (11); deceit (5) | lying (15); lies (12); lie (7) | lying (20); lies (19); false (18) |  |  |
+
+Decided but below the cut-off this run: H6041.

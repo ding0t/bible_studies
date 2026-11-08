@@ -22,6 +22,7 @@ draft: false
 - [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 2:6-9
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 2:6-7
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 2:12-13
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 2:8
 - [The Names of God](../../god/names-of-god.md) — 2:9-11
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 2:9-11
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:15

@@ -20,5 +20,6 @@ draft: false
 - [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 2:9
 - [The Appointed Times](../../feasts/feasts.md) — 2:41
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 2:52
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 2:7-16
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 2:11
 <!-- commentary-index:auto-end -->

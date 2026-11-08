@@ -214,3 +214,6 @@ changes_2026-11-08d:
   asked: "Author: move what is needed from this study into jesus/the-bright-morning-star.md."
   done: "'What Scripture does with a star' cut from the five-use list (370 words) to a two-sentence summary (83) linking the star study; 'Who the Star is' no longer points to 'use 2 / use 3'; the Revelation 2:26-28 paragraph cut to one sentence pointing there. bible_references pruned of ten refs only the list cited (Gen 15:5; 22:17; Judg 5:20; Ps 147:4; Isa 14:4, 12-14; Acts 7:42-43; 2 Pet 1:19; Rev 1:20). Kept: Kramer's reading, the settled/contested paragraph and 'Read as a king before Bethlehem' (Balaam-specific; the star study links to #the-star-and-the-scepter)."
   ships_with: "The publish commit of the star study (Check 24 until then)."
+changes_2026-11-09:
+  asked: "Author: publish The King on a Donkey with the review's fixes, moving what is needed from this study."
+  done: "'The she-donkey in Scripture': the wealth, standing and law paragraphs (180 words) cut to one paragraph (101) linking jesus/the-king-on-a-donkey.md; kept the three Hebrew words and feminine verbs, Num 22:30, 22:22 and Prov 26:3. 'walking beside' corrected to 'with his two servants' (Num 22:22). Heading 'She carried the King' corrected to 'Her colt carried the King' (Mark 11:7; Luke 19:35; John 12:14). bible_references pruned of Job 42:12 and 1 Sam 9:3-20."

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 21:1-11 (primary passage)
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 21:4-5
 - [In Humility](../../christian-life/humility.md) — 21:5
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 21:1-11

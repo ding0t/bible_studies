@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 42:21
+- [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 42:26-27
 <!-- commentary-index:auto-end -->
