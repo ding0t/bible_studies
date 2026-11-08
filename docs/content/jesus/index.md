@@ -4,10 +4,11 @@ category: "other"
 description: "God the Son: who Jesus is and what He did, including Old Testament prophecy fulfilled in Him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-31
+date_modified: 2026-11-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
+  - anthropic/claude-sonnet-5.5
 ---
 
 # Jesus
@@ -84,6 +85,14 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
     Before Sinai the heads of families offered sacrifice for their households, yet Scripture calls none of them a priest. God then appointed Aaron's sons and gave the Levites in place of Israel's firstborn, because priesthood is always His appointment, and He appointed His Son Jesus, who holds His priesthood permanently.
 
     [:octicons-arrow-right-24: Read](priesthood-before-sinai.md)
+
+-   __The Angel of the LORD: God the Son Before Bethlehem__
+
+    ---
+
+    The angel of the LORD speaks as God and is set beside the LORD who sends Him. Read from Genesis to Malachi and then the New Testament, He is most likely God the Son, appearing before He was born.
+
+    [:octicons-arrow-right-24: Read](the-angel-of-the-lord.md)
 
 -   __The Cups Jesus Drank__
 

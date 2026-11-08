@@ -19,6 +19,7 @@ draft: false
 - [John son of Zebedee](../../biblical-figures/john.md) — 1:19-20
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 1:35-37
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 1:22
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 1:2
 - [The Way](../../jesus/the-way.md) — 1:2-3
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 1:40-42
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 1:35

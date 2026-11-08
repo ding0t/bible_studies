@@ -14,5 +14,5 @@ draft: false
 
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 5:10-12
 - [Passover: When I See the Blood](../../feasts/passover.md) — 5:10
-- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 5:13-15
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 5:13-15
 <!-- commentary-index:auto-end -->

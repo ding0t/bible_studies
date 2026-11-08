@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 3:13-15"
 bible_references: ["Exodus 3:11-15", "Exodus 6:2-8", "Exodus 33:18-19", "Exodus 34:5-7", "Genesis 14:18-22", "Genesis 15:2", "Genesis 15:7", "Genesis 16:13", "Genesis 17:1-2", "Genesis 22:7-14", "Exodus 15:23-26", "Exodus 17:15", "Judges 6:22-24", "1 Samuel 1:10-11", "Ruth 1:20", "Isaiah 7:14", "Isaiah 9:6", "Isaiah 10:21", "Jeremiah 23:5-6", "Jeremiah 33:16", "Numbers 13:16", "Matthew 1:21-23", "Matthew 27:46", "John 8:58", "John 17:11", "Philippians 2:9-11", "Isaiah 45:23", "Joel 2:32", "Romans 10:13", "Matthew 28:19", "Genesis 4:26", "Isaiah 42:8", "1 Samuel 1:3", "Numbers 21:8-9", "Isaiah 11:10", "John 1:29", "John 3:14", "2 Corinthians 5:21", "1 Corinthians 1:30", "Exodus 17:9-11", "Genesis 49:25", "Numbers 14:17-19", "Genesis 1:1", "Isaiah 6:1", "Judges 6:12"]
 date_created: 2026-10-18
-date_modified: 2026-10-19
+date_modified: 2026-11-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -290,7 +290,8 @@ hears". Then she named God:
 
 <span dir="rtl">אֵל רֳאִי</span> (*El Roi*, H7210) comes from <span dir="rtl">רָאָה</span>
 (*raah*, H7200), "to see". A runaway slave, with no one to protect her, found that God had been
-watching her.
+watching her. Moses calls the One who found her both "the angel of the LORD" (Genesis 16:7) and "the
+LORD" (Genesis 16:13); [The Angel of the LORD](../jesus/the-angel-of-the-lord.md) follows Him through Scripture.
 
 [![YHWH Yireh, יְהוָה יִרְאֶה, “the LORD will see to it, will provide”, in large Hebrew with its Paleo-Hebrew form. In the scene: the altar, and the wood laid in order (Genesis 22:9); a ram caught in a thicket by his horns (22:13); on the mount of the LORD (22:14). The plate quotes Genesis 22:14 (ESV).](../assets/img/names-of-god/yireh.svg)](../assets/img/names-of-god/yireh.svg)
 
@@ -365,7 +366,11 @@ expected to die:
 > it, The LORD Is Peace. To this day it still stands at Ophrah, which belongs to the Abiezrites.
 
 <span dir="rtl">יְהוָה שָׁלוֹם</span> (*YHWH shalom*, H7965). A frightened man who had seen God and
-expected to die was given peace, and he named the altar after what God had said.
+expected to die was given peace, and he named the altar after what God had said. The one who
+spoke with him is called both the angel of the LORD and "the LORD" (Judges 6:14, 22-23), and His
+first promise to Gideon is the one God made to Moses at the bush, "But I will be with you" (Judges
+6:16; Exodus 3:12, ESV), in both places <span dir="rtl">כִּי אֶהְיֶה עִמָּךְ</span> (*ki ehyeh
+immakh*). See [The Angel of the LORD](../jesus/the-angel-of-the-lord.md).
 
 ### The LORD of hosts, on Hannah's lips
 

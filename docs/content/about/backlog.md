@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-11-06
+date_modified: 2026-11-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -559,7 +559,8 @@ one at a time; nothing yet works the doctrine itself from the text. The gap show
   gives, the Spirit is sent).
 - **Each person named God.** John 1:1-3, 14; 20:28; Acts 5:3-4; Hebrews 1:8.
 - **The Old Testament hints, marked by how firmly the text makes them**, stated, echoed or read in:
-  Genesis 1:26, Isaiah 48:16, the angel of the LORD.
+  Genesis 1:26, Isaiah 48:16, the angel of the LORD. The last now has its own study,
+  [The Angel of the LORD](../jesus/the-angel-of-the-lord.md): link it and build on its case.
 - **The words the church used and why**: Trinity, person, essence, as the councils used them against
   modalism and Arianism. Name each error in a sentence; define the doctrine affirmatively.
 - **Land it in the second person**: the Father adopts you, the Son redeems you, the Spirit seals you

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 18:32
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 18:1-2
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 18:14
 - [The Restrainer](../../last-things/the-restrainer.md) — 18:32
 <!-- commentary-index:auto-end -->

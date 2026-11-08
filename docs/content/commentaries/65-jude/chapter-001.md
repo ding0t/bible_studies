@@ -25,6 +25,7 @@ draft: false
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 1:14-15
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 1:3-4
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 1:1
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 1:5
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:24
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 1:7
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 1:11

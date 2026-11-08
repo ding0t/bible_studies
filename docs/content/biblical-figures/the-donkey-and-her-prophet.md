@@ -5,7 +5,7 @@ description: "Balak paid Balaam to curse Israel. A donkey saw the angel first, t
 tags: ["person/balaam", "method/archaeology", "method/word-study", "lang/hebrew", "numbers", "old-testament", "prophecy-fulfilled"]
 draft: false
 primary_passage: "Numbers 22:21-35; Numbers 24:15-19"
-bible_references: ["Numbers 22:1-20", "Numbers 23:1-30", "Numbers 24:1-14", "Numbers 24:20-25", "Genesis 12:3", "Genesis 15:5", "Genesis 22:17", "Genesis 27:29", "Genesis 28:14", "Genesis 37:9", "Genesis 49:9-10", "Numbers 2:2", "Numbers 21:21-35", "Numbers 25:1-3", "Numbers 31:8", "Numbers 31:16", "Deuteronomy 3:29", "Deuteronomy 4:19", "Deuteronomy 18:10-12", "Deuteronomy 18:18-19", "Deuteronomy 23:3-5", "Deuteronomy 33:8-11", "Deuteronomy 34:1-6", "Joshua 6:26", "Joshua 13:22", "Joshua 24:9-10", "Judges 5:20", "2 Samuel 8:2", "Nehemiah 13:1-2", "Job 38:7", "Psalm 2:9", "Psalm 110:1", "Psalm 147:4", "Proverbs 26:2", "Isaiah 9:6", "Isaiah 14:4", "Isaiah 14:12-14", "Micah 5:2", "Micah 6:5", "Amos 5:26", "Zechariah 9:9", "Matthew 2:1-2", "Matthew 22:42-45", "Acts 7:42-43", "Romans 8:31-34", "1 Corinthians 10:6-11", "Galatians 3:13-14", "Ephesians 1:3", "2 Peter 1:19", "2 Peter 2:15-16", "Jude 11", "Revelation 1:20", "Revelation 2:14", "Revelation 2:26-28", "Revelation 5:5", "Revelation 22:16", "Genesis 16:13", "Genesis 22:16", "Genesis 31:13", "Genesis 33:3", "Exodus 3:2-6", "Exodus 23:20-21", "Joshua 5:13-15", "Judges 13:18-22", "Malachi 3:1", "John 1:18", "1 Corinthians 10:4", "Jude 5", "Revelation 22:8-9", "Genesis 12:16", "Genesis 24:10", "Genesis 24:31", "Genesis 24:50", "Genesis 31:19", "Genesis 31:30", "Genesis 49:11", "Exodus 23:5", "Judges 5:10", "1 Samuel 9:3-20", "2 Kings 4:22-24", "Job 1:3", "Job 42:12", "Proverbs 26:3", "Joshua 24:2", "Matthew 21:2-7"]
+bible_references: ["Numbers 22:1-20", "Numbers 23:1-30", "Numbers 24:1-14", "Numbers 24:20-25", "Genesis 12:3", "Genesis 15:5", "Genesis 22:17", "Genesis 27:29", "Genesis 28:14", "Genesis 37:9", "Genesis 49:9-10", "Numbers 2:2", "Numbers 21:21-35", "Numbers 25:1-3", "Numbers 31:8", "Numbers 31:16", "Deuteronomy 3:29", "Deuteronomy 4:19", "Deuteronomy 18:10-12", "Deuteronomy 18:18-19", "Deuteronomy 23:3-5", "Deuteronomy 33:8-11", "Deuteronomy 34:1-6", "Joshua 6:26", "Joshua 13:22", "Joshua 24:9-10", "Judges 5:20", "2 Samuel 8:2", "Nehemiah 13:1-2", "Job 38:7", "Psalm 2:9", "Psalm 110:1", "Psalm 147:4", "Proverbs 26:2", "Isaiah 9:6", "Isaiah 14:4", "Isaiah 14:12-14", "Micah 5:2", "Micah 6:5", "Amos 5:26", "Zechariah 9:9", "Matthew 2:1-2", "Matthew 22:42-45", "Acts 7:42-43", "Romans 8:31-34", "1 Corinthians 10:6-11", "Galatians 3:13-14", "Ephesians 1:3", "2 Peter 1:19", "2 Peter 2:15-16", "Jude 11", "Revelation 1:20", "Revelation 2:14", "Revelation 2:26-28", "Revelation 5:5", "Revelation 22:16", "Genesis 31:13", "Exodus 23:20-21", "1 Corinthians 10:4", "Jude 5", "Revelation 22:8-9", "Genesis 12:16", "Genesis 24:10", "Genesis 24:31", "Genesis 24:50", "Genesis 31:19", "Genesis 31:30", "Genesis 49:11", "Exodus 23:5", "Judges 5:10", "1 Samuel 9:3-20", "2 Kings 4:22-24", "Job 1:3", "Job 42:12", "Proverbs 26:3", "Joshua 24:2", "Matthew 21:2-7"]
 date_created: 2026-11-08
 date_modified: 2026-11-08
 ai_provider_models:
@@ -43,7 +43,8 @@ rule over the nations, promised to Jesus in Psalm 2:9 and Revelation 2:27, waits
 - The Star came down. He descended out of heaven into a human family line, born in Bethlehem
   (Micah 5:2; Matthew 2:1).
 - Before Bethlehem the Son stood in Balaam's road as the angel of the LORD, the reading this study
-  holds and argues under "Who stood in the road" (Numbers 22:31-35; Jude 5).
+  holds (Numbers 22:31-35; Jude 5) and [The Angel of the LORD](../jesus/the-angel-of-the-lord.md)
+  argues in full.
 
 ### Memory verses
 
@@ -260,36 +261,14 @@ sinned" (Numbers 22:34, BSB) and offers to go home, and the angel sends him on (
 ### Who stood in the road
 
 The angel of the LORD who stood in Balaam's road is the LORD Himself, appearing, and the New
-Testament lets us name Him: God the Son, before Bethlehem. Scripture gives five reasons.
+Testament lets us name Him: God the Son, before Bethlehem. He speaks God's word as His own: "you are
+to speak only what I tell you" (Numbers 22:35, BSB), and Balaam then calls it "the word that God
+puts in my mouth" (Numbers 22:38, BSB). [The Angel of the LORD](../jesus/the-angel-of-the-lord.md)
+follows Him from Hagar to Zechariah, weighs the case against, and holds the reading as the likeliest.
 
-1. **He speaks God's word as His own.** "Your way is perverse before me" (Numbers 22:32, BSB), and
-   "you are to speak only what I tell you" (Numbers 22:35, BSB). Balaam then calls it "the word that
-   God puts in my mouth" (Numbers 22:38, BSB), and Numbers says "the LORD put a message in Balaam's
-   mouth" (Numbers 23:5, BSB).
-2. **Wherever the angel of the LORD speaks, people meet God.** Hagar names "the LORD who had spoken
-   to her" (Genesis 16:13, BSB). The angel swears to Abraham, "By Myself I have sworn, declares the
-   LORD" (Genesis 22:16, BSB), and tells Jacob, "I am the God of Bethel" (Genesis 31:13, BSB). From
-   the bush He says, "I am the God of your father, the God of Abraham" (Exodus 3:6, BSB). Manoah is
-   told His name is <span dir="rtl">פִּלְאִי</span> (*pil'i*, H6383, "wonderful"; BSB "beyond
-   comprehension"), from the root of Isaiah 9:6's "Wonderful Counselor", and says, "we have seen
-   God!" (Judges 13:18, 22, BSB).
-3. **He is also distinct from the LORD who sends Him.** "My Name is in him" (Exodus 23:21, BSB). The
-   Lord who comes to His temple is "the Messenger of the covenant" (Malachi 3:1, BSB). God, and sent
-   from God: the New Testament names that One the Son, who "has made Him known" (John 1:18, BSB).
-4. **He receives the honour a created angel refuses.** Balaam falls facedown (Numbers 22:31), and so
-   does Joshua before the Commander with the drawn sword, who calls the ground holy as the voice at
-   the bush did (Joshua 5:13-15). When John falls at an angel's feet, the angel stops him: "Do not do
-   that! ... Worship God!" (Revelation 22:9, BSB).
-5. **The New Testament puts the Son in this wilderness.** "That rock was Christ" (1 Corinthians
-   10:4, BSB), Israel tested Christ there (1 Corinthians 10:9), and "Jesus had delivered His people
-   out of the land of Egypt" (Jude 5, BSB).
-
-Two cautions are real. A messenger can speak in his sender's voice, and the same Hebrew bow is given
-to a brother (Genesis 33:3). Some manuscripts read "the Lord" at 1 Corinthians 10:9 and Jude 5.
-Neither answers the whole pattern, which runs from Genesis to Malachi, so this study holds the
-reading with those two marked. This shows that God the Son came out to meet His people's enemy
-before He was born. The Star that Balaam would see "not now" had already met him in the road, with a
-drawn sword, to stop a curse on the people He would come from.
+This shows that God the Son came out to meet His people's enemy before He was born. The Star that
+Balaam would see "not now" had already met him in the road, with a drawn sword, to stop a curse on
+the people He would come from.
 
 ## Where it happened
 

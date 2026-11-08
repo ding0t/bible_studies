@@ -206,3 +206,7 @@ simplify_2026-11-08:
   verify: "study_structure --verify-against HEAD: added_unexpected holds only the shortened sentences and the lines their deletions touched; validate unchanged (0 errors, same 89 warnings corpus-wide, none for this file); mkdocs build --strict passes."
   restored_by_author: "2026-11-08, original wording put back: 'It is the covenant with Abraham, held.' (names the doctrine); Micah 6:5's object in Do ('remember what Balak king of Moab counseled and what Balaam son of Beor answered'); 'The narrator rarely comments on Balaam; the rest of Scripture gives the verdict (Deuteronomy 23:4-5; 2 Peter 2:15).' (the narrative-genre note from review)."
   next: "read-bible-study in a separate session if the sections need regrouping."
+changes_2026-11-08c:
+  asked: "Author: make the sibling changes the angel-of-the-LORD study suggested."
+  done: "'Who stood in the road' cut from five numbered reasons (459 words) to two paragraphs (138) linking jesus/the-angel-of-the-lord.md, which now carries the argument and the cautions; the Key Takeaways line points there. bible_references pruned of eight refs that only the cut list cited (Gen 16:13; 22:16; 33:3; Exod 3:2-6; Josh 5:13-15; Judg 13:18-22; Mal 3:1; John 1:18)."
+  ships_with: "The publish commit of the angel study (Check 24: links to a draft until then). Uncommitted until then."

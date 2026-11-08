@@ -1,6 +1,6 @@
 slug: "the-angel-of-the-lord"
 title: "The Angel of the LORD: God the Son Before Bethlehem" # working title
-status: drafted
+status: published
 author_2026-11-08: "Title, thesis_draft and outline_draft approved; develop first (before the donkey and star studies)."
 target_path: "docs/content/jesus/the-angel-of-the-lord.md" # proposed: the study lands on the pre-incarnate Son (Christology)
 
@@ -35,8 +35,8 @@ outline_draft:
   - {section: "What the New Testament adds", says: "No one has seen God; the Son has made Him known (John 1:18); Abraham saw His day, 'before Abraham was, I am' (John 8:56-58); Isaiah saw His glory (John 12:41); the rock was Christ (1 Cor 10:4, 9); Jesus saved a people out of Egypt (Jude 5, with its variant)"}
   - {section: "The case against, and its answers", says: "An envoy speaks in his sender's first person; the bow alone is not decisive (Gen 33:3); Heb 1 sets the Son above the angels ('angel' names His sending, not His nature); NT 'an angel of the Lord' is a created angel (Luke 1:11, 19). Mark the confidence: likely, from the pattern, not stated in one verse"}
   - {section: "Why He came", says: "To the outcast (Hagar), the tested (Abraham), the fearful (Gideon), the barren (Manoah's wife), the guilty high priest (Zech 3:4): He came near before He came in the flesh, and He comes near to you"}
-word_budget: 4200
-word_budget_reason: "2026-11-08: body about 3,780 words; the Annex carries the phrase count and the textual apparatus (Judg 6:14 LXX, Isa 63:9 Ketiv/Qere and LXX) that the argument is checked against. Raised rather than cut, so the confidence marks stay on the page."
+word_budget: 4600
+word_budget_reason: "2026-11-08: raised from 4,200 after review. The fixes added the Exodus 33 objection and its answer, the corrected herald-speech answer (Zech 3:7; 2 Kgs 1:3-4), the Judges 6:16 / Exodus 3:12 echo and the cultural-vs-transcultural paragraph, all asked for by the author; trimmed by 130 words elsewhere. The Annex holds the count and the textual apparatus."
 
 stages:
   scoping:
@@ -50,9 +50,9 @@ stages:
       notes: "2026-11-08 morphhb-wlc: mal'akh H4397 213x. mal'akh + YHWH 58x in 54 verses (Judg 19, Num 10, Gen 6, Zech 6, 1 Chr 5, 2 Kgs 3, Ps 3, and 1 each Exod, 1 Kgs, 2 Sam, Isa, Hag, Mal); two are men (Hag 1:13 Haggai; Mal 2:7 the priest), leaving 56 in 52 verses. Singular mal'akh (ha)Elohim of the figure: Gen 21:17; 31:11; Exod 14:19; Judg 6:20; 13:6, 9 (plus David likened to 'an angel of God', 1 Sam 29:9; 2 Sam 14:17, 20; 19:28 MT). Definiteness: uW Hebrew Grammar (state_construct): 'The absolute noun always determines whether a construct chain is definite'; so 'the angel of the LORD', but the same grammar makes Haggai 'the messenger of the LORD', so the article alone settles nothing. LXX/NT anarthrous angelos kyriou. Gen 48:16 ha-mal'akh ha-go'el (H1350) + singular yevarekh (Piel 3ms, H1288) after two lines naming 'the God'. Exod 23:21 lo yissa' (H5375) le-fish'akhem (H6588), the verb of Exod 34:7 'forgiving iniquity, transgression'; 'My Name is in him' be-qirbo. Judg 13:18 pil'i H6383; 13:19 u-mafli' H6381 participle ('one doing wonders'; BSB supplies 'the LORD'); Isa 9:6 pele H6382. Isa 63:9 Ketiv lo' 'not' / Qere lo 'to Him'; mal'akh panav; LXX (Brenton) 'not an envoy nor an angel, but He Himself saved them' (reading tsir); BSB/MSB footnote 'Or angel of His presence'; NLT follows LXX; 1QIsaa has lo' (16 extant words). Earlier list: mal'akh H4397; angelos G32; pil'i H6383 / pele H6382; panim 'presence' (Isa 63:9; Exod 33:14); sar tseva YHWH (Josh 5:14)."
       terms: []
   hermeneutics:
-    cultural_vs_transcultural: {done: false, notes: ""}
-    theological_principle: {done: false, notes: "Statement of faith: one God in three co-eternal persons (check 'One God in Three'). The angel read as the Son is consistent; flag if the exegesis lands elsewhere."}
-    application_draft: {done: false, notes: ""}
+    cultural_vs_transcultural: {done: true, notes: "Why He came: the form of the meetings (fire, a figure under an oak, an angel in the flame) belonged to their time; God has spoken in His Son (Heb 1:1-2); what carries over is who came and why."}
+    theological_principle: {done: true, notes: "God came near to the outcast and the guilty to save, and the One who came is most likely the Son. Consistent with the statement of faith. Statement of faith: one God in three co-eternal persons (check 'One God in Three'). The angel read as the Son is consistent; flag if the exegesis lands elsewhere."}
+    application_draft: {done: true, notes: "Be Transformed: Think (John 1:18), Attitude (Exod 3:5; Judg 6:23), Do (Gen 16:13; Judg 6:24: name what He did, tell one person)."}
   cross_reference: {done: true, cross_refs: ["Acts 7:30-38 (Stephen: 'an angel' at the bush, 'the voice of the Lord')", "Heb 1:4-6, 13-14", "Rev 22:8-9", "Mark 2:7", "Exod 34:6-7", "Gen 19:24", "Mark 1:2", "Heb 7:25"], translations_compared: ["Isa 63:9: ESV/NIV/NASB/LSB/CSB follow MT 'angel of his presence'; NLT follows LXX 'he personally rescued them'", "Jude 5: BSB, ESV, LSB, CSB, NLT 'Jesus'; NASB, NIV, NKJV 'the Lord'", "John 1:18: BSB 'the one and only Son, who is Himself God' (CT monogenes theos); BYZ/TR 'only begotten Son'"], divergences_noted: "Jude 5: NA28/SBL Iesous; NE, WH, BYZ, TR 'the Lord' (BSB fn). 1 Cor 10:9: BSB Christ; WH, NE, Tischendorf 'the Lord'. Commentary: ESVSB Gen 16:7 gives both views (preincarnate Christ / commissioned representative); NIV BTSB Gen 16:7 'more likely ... God himself' (cites v. 13, Exod 3:2-4); ESVSB Exod 23:20-22 ties the Commander of Josh 5 to the angel (contributed); NIV BTSB Zech 3:1 'represents and speaks for God yet is distinct from God'. Jude 5 (Iesous / kyrios / theos) and 1 Cor 10:9 (Christon / kyrion): name the editions."}
   drafting: {done: true, file: "docs/content/jesus/the-angel-of-the-lord.md", notes: "2026-11-08 draft: true. 56 BSB quotations checked against berean-bsb (0 mismatches). Outline as approved, with two changes from the research: the case-against section answers Gen 22:16 (the angel uses ne'um YHWH once) and Judg 13:16 (offer it to the LORD); the angels of judgment (2 Sam 24; 1 Chr 21; 2 Kgs 19:35) are set aside as no evidence either way. Pronouns for the angel are capitalised in the study's own prose, since the study argues the identification, as the Balaam study does."}
   review: {done: false, validated: false}
@@ -71,3 +71,51 @@ resources_consulted:
   - {type: grammar, title: "unfoldingWord Hebrew Grammar, State Construct", author: "unfoldingWord (CC BY-SA 4.0)", note: "Definiteness of a construct chain."}
   - {type: other, title: "berean-bsb phrase counts via bible-text.db", author: "", note: "2026-11-08 scoping."}
 last_updated: "2026-11-08"
+review_2026-11-08:
+  reviewer: "review-bible-study skill (independent pass, separate agent from the drafting session); state file not trusted, everything re-derived"
+  checked: "69 BSB quotations against berean-bsb (all match; four differ only in nested quote marks); mal'akh YHWH count (morphhb-wlc: 58 in 54 verses, per-book breakdown, 56/52 after Hag 1:13 and Mal 2:7, all confirmed; H4397 213x); singular mal'akh (ha)Elohim (Gen 21:17; 31:11; Exod 14:19; Judg 6:20; 13:6, 9 plus David similes 1 Sam 29:9; 2 Sam 14:17, 20; 19:28 MT, confirmed); Hebrew of Gen 48:16 (yevarekh Piel 3ms; ha-go'el), Exod 23:21 + 34:7 (nasa' + pesha' in both), Judg 13:18-19 (H6383; umafli' Hiphil ptc, MACULA subject YHWH), Isa 9:5 MT pele H6382, Mal 3:1, Isa 63:9 (Ketiv la, 1QIsaa lw' fully extant, Brenton LXX), Judg 6:14 and 6:16 LXX; uW grammar quotation verbatim; BSB/MSB footnotes on John 1:18, 1 Cor 10:9, Jude 5 (match the study); NA28 John 12:41; study_verse for Isa 63:9 and Judg 13:19 across ESV/NIV/CSB/NASB/LSB/NLT; NIV Cultural Backgrounds Study Bible on Gen 16:7, Exod 3:2, Judg 13:18 (commentary not cited by the study); review_gaps; cross_study_claims for Gen 16, Exod 3, 23, Judg 6, 13, Zech 3, Gen 48; validate (no warnings for this file); strongs_suggest; alignment_ranking."
+  critical:
+    - "Lines 330-333: 'The angel does this once, at Genesis 22:16' is false. Zech 3:6-7 'the angel of the LORD gave this charge ... This is what the LORD of Hosts says', and 3:9, 10 'declares the LORD of Hosts' twice; 2 Kgs 1:3-4 (message for Elijah, 'this is what the LORD says'); third-person LORD in Gen 16:11 and Judg 5:23. Zech 3:4, listed as unmarked speech, sits inside that same marked speech, and 3:9 puts 'I will remove the iniquity' under 'declares the LORD of Hosts', which also bears on 'The power to forgive'. Rewrite the envoy answer to rest on the narrators' naming."
+    - "Lines 307-313: 'After Bethlehem the pattern stops ... once the Son had come in the flesh, He no longer appeared as the angel'. Two of the four examples are before Bethlehem (Matt 1:20; Luke 1:11), and Luke 1:11, 19 is Gabriel bearing the title before the conception. Retitle to the NT as a whole and drop or mark the timing inference."
+  moderate:
+    - "Line 101: 'The other 56 ... are the figure this study is about' contradicts lines 367-370 (judgment angels not counted) and includes Zech 12:8 (a simile), Ps 35:5-6, 2 Kgs 1, 1 Kgs 19:7, 2 Sam 24, 2 Kgs 19:35/Isa 37:36, 1 Chr 21."
+    - "Judg 13:6 counted as 'He is called the angel of God' (lines 102, 425): kemar'eh mal'akh ha'elohim is a comparison, the same construction as the David similes the Annex sets apart."
+    - "Exod 23:20's words are applied to John the Baptist in Matt 11:10; Mark 1:2; Luke 7:27 (LXX 'apostello ton angelon mou pro prosopou sou'); review_gaps flags Matt 11:10. The study uses Exod 23:20 for the Son without saying so."
+    - "Exod 32:34; 33:2-3, 14-15 are in bible_references but never treated: 33:2-3 sets 'an angel' over against 'I will not go with you', and Moses refuses it (33:15). Answer it or drop the references."
+    - "John 12:41: the Greek (NA28) is 'his glory'; the BSB supplies 'Jesus''. Say so and let 12:37, 42 fix the referent."
+    - "Judg 6:16 LXX (Brenton): besides the angel as speaker (BSB fn 'also in verse 16'), 'I will be with you' becomes 'Kyrios estai meta sou'. The Greek turns divine first person into envoy speech; the Annex reports only 6:14."
+    - "Isa 63:9 Annex: the NLT does not follow the Greek. It keeps the Qere 'he also suffered' and its own footnote reads 'Hebrew and the angel of his presence'. ESV/NIV/NASB/LSB/CSB follow the Qere (LSB and CSB footnote the Ketiv)."
+    - "Commentary cross-check, NIV Cultural Backgrounds SB (Gen 16:7; Exod 3:2): complicates. Fully vested ANE envoys speak in the first person (Ugaritic messengers of Baal to Mot); 'When the messenger is speaking, it is the Lord speaking.' The narrator-identification answer survives (the envoy model does not explain Gen 16:13; Exod 3:4; Judg 6:14), but 'they mark the sender' should not be stated as a rule. No change to the conclusion."
+    - "Thesis 'swears by Himself' rests on Gen 22:16, the one speech the study itself says carries ne'um YHWH, which the envoy reading explains most easily (cf. Heb 6:13)."
+    - "Phase 6 Q5: the cultural-vs-transcultural line is not explicit; hermeneutics stages in this file are still done:false."
+  minor:
+    - "Line 187: 'so he is a strong likelihood' is garbled; lowercase 'he' for the Commander where the BSB itself capitalises (Josh 5:13-14); and 1 Chr 21:16 is used as evidence though line 369 says the judgment angels are not counted."
+    - "Lines 202-203: 'that name is beqirbo' reads as if the name were beqirbo."
+    - "Lines 192-194: Manoah's bow follows the angel's ascent (Judg 13:20), so 'none is told to get up' proves nothing there."
+    - "Line 212: the participle has no expressed subject. MACULA and most translations take the LORD; KJV and WEB supply 'the angel'. Say 'most translations'."
+    - "Line 210: WLC writes Ketiv/Qere pl'y; the study prints the lemma pil'i."
+    - "Line 281: Gen 16:13b is 'obscure' (CSB footnote; LSB 'Lit seen here after the one who saw me'); 'seen God and lived' fits Jacob (Gen 32:30), not Hagar."
+    - "Lines 283, 315-316, 394: 'Whenever God was seen, it was the Son' and similar sentences are flatter than the study's own 'likely' (line 376)."
+    - "Line 173: Hosea does not say 'man'; Genesis and Hosea together do."
+    - "Line 114: 'In three places the narrator says it' -- at least four on the study's own reading (Judg 6:16; 13:19)."
+    - "Gen 48:16 subsection is under 'He is distinguished from the LORD' but argues identity."
+    - "Line 270: 'distinguished from God' -- say 'from the LORD who sends Him' (statement of faith: three distinct persons)."
+    - "Line 18: Gen 16:10 promises offspring, not children."
+    - "Lines 74, 397: 'Joshua' is the high priest; the study also has Joshua son of Nun."
+    - "Line 42: John 8:58 supports pre-existence, not the appearances."
+    - "Word tags lines 213, 256 put the Hebrew inside the parentheses; beqirbo untagged (H7130). Ignore strongs_suggest's H3810 for lo (Lo-debar)."
+    - "alignment_ranking: H7812 and H5375 have no recorded decision; propose word-renderings.toml entries."
+    - "Heading '## References' vs the corpus convention '## References & Recommended Reading'."
+  verified_true: "Hagar is the first person the angel of the LORD speaks to (Gen 16:7 is the phrase's first occurrence). No NT 'angel of the Lord' (Matt 1:20, 24; 2:13, 19; 28:2; Luke 1:11; 2:9; Acts 5:19; 8:26; 12:7, 23) speaks as God or receives a bow. Stephen quotations exact (Acts 7:30 MSB: the Majority text adds 'of the Lord'). John 1:18 / 1 Cor 10:9 / Jude 5 statements match the BSB footnotes. Statement of faith 'One God in Three': consistent."
+  outside_this_file: "Uncommitted working-tree edits to five published pages (backlog, the-donkey-and-her-prophet, names-of-god, kinsman-redeemer, they-were-given-white-robes) link to this draft; validate Check 24 errors. Commit them with the draft: false flip, never before."
+  size: "Body under the 4,200 budget per validate; fixes are roughly net-neutral if the 'After Bethlehem' timing inference and the 'once' sentence are replaced rather than supplemented (est. +150 words for the Exod 33 and Exod 23/Matt 11:10 answers)."
+fixes_2026-11-08:
+  approved: "Author: 'Yes do all as recommended' (all review findings, the Judg 6:16 echo, and publish)."
+  critical: "'The angel does this once' replaced: He speaks sometimes as a herald (Gen 22:16; Zech 3:7; cf. 2 Kgs 1:3-4) and sometimes as God; the answer rests on the narrators naming Him the LORD, with the NIV CBSB's 'no confusion about the messenger's identity' as the foil. 'After Bethlehem the pattern stops' retitled 'Angels of the Lord in the New Testament'; timing inference dropped."
+  moderate: "Count sentence now says most of the 56 are the figure, with Zech 12:8 and the angels of judgment set aside; Judg 13:6 moved to a comparison (five 'angel of God' verses); Exod 23:20's words given to John in Matt 11:10 / Mark 1:2, the case resting on 23:21; new section on Exod 33:2-3, 14-15; John 12:41 'his glory' with 12:37, 42; Judg 6:16 LXX added to the Annex; NLT at Isa 63:9 corrected; NIV CBSB added to References; 'swears by Himself' dropped from the thesis; cultural-vs-transcultural paragraph added."
+  minor: "Commander sentence rewritten (drops 1 Chr 21:16); beqirbo tagged H7130 and reworded; Manoah dropped from the bow list; mafli' 'most translations take it as the LORD'; Hagar dropped from 'seen God and lived'; three firm lines softened to 'likeliest'; Hosea line; 'several times the narrator'; Gen 48:16 moved to 'He speaks as God'; 'from the LORD who sends Him'; 'descendants'; 'Joshua the high priest' (x3); John 8:58 line; Malachi word tags; References heading."
+  not_done: "Rendering decisions for H7812 and H5375 in docs/data/word-renderings.toml: none proposed (the study argues from neither rendering)."
+  added: "Judg 6:16 ki ehyeh immakh = Exod 3:12, with ehyeh the I AM of Exod 3:14; also added to names-of-god at Gideon (ESV)."
+  checks: "62 BSB quotations, 0 mismatches; validate 0 errors."
+published_2026-11-08:
+  siblings_changed_in_same_commit: "biblical-figures/the-donkey-and-her-prophet (angel section cut to two paragraphs + link), last-things/they-were-given-white-robes (Zech 3 reading aligned + link), god/names-of-god (El Roi and Gideon sentences + link; Judg 6:16 echo), jesus/kinsman-redeemer (Gen 48:16 first use of go'el + link), about/backlog 11.1 (link)."

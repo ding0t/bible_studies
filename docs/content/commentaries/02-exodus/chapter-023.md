@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 23:16
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 23:20-23
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 23:20
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 23:20-21
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 23:16

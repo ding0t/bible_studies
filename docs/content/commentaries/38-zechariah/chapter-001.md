@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 1:1
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 1:11-13
 <!-- commentary-index:auto-end -->

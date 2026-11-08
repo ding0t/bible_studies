@@ -17,6 +17,7 @@ draft: false
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 2:36-38
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 2:13-14
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 2:32
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 2:9
 - [The Appointed Times](../../feasts/feasts.md) — 2:41
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 2:52
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 2:11

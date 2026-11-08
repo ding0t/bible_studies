@@ -15,5 +15,6 @@ draft: false
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 18:1-4
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 18:4
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 18:13
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 18:28-29
 - [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 18:1
 <!-- commentary-index:auto-end -->

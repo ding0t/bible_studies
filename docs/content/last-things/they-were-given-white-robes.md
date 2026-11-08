@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 6:11; Revelation 7:9-14; Revelation 19:7-8"
 bible_references: ["Genesis 3:7-10", "Genesis 3:21", "Psalm 51:7", "Isaiah 1:18", "Isaiah 55:1", "Isaiah 61:10", "Isaiah 64:6", "Zechariah 3:3-5", "Daniel 7:9", "Daniel 12:1", "Daniel 12:10", "Matthew 17:2", "Matthew 22:11-13", "Matthew 24:21", "Matthew 28:3", "Mark 9:2-3", "Mark 16:5", "Luke 15:21-22", "John 20:12", "Acts 1:10", "Romans 5:18", "Romans 8:1", "Romans 8:4", "Galatians 3:27", "Ephesians 2:8-10", "Ephesians 4:1", "Colossians 3:12", "1 John 1:7", "Jude 1:23", "Revelation 1:14", "Revelation 3:4-5", "Revelation 3:17-18", "Revelation 4:4", "Revelation 4:10-11", "Revelation 5:9", "Revelation 6:9-11", "Revelation 7:9-17", "Revelation 12:11", "Revelation 15:4", "Revelation 16:15", "Revelation 18:16", "Revelation 19:7-8", "Revelation 19:14", "Revelation 20:11", "Revelation 21:27", "Revelation 22:14"]
 date_created: 2026-10-15
-date_modified: 2026-10-22
+date_modified: 2026-11-08
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -123,7 +123,9 @@ in Zechariah's vision Joshua the high priest stands "clothed with filthy garment
 ESV) until the angel says, "Remove the filthy garments from him," and to Joshua, "Behold, I have
 taken your iniquity away from you, and I will clothe you with pure vestments" (Zechariah 3:4, ESV).
 The speaker is the angel of the LORD (Zechariah 3:1), and the one who rebukes Satan in Zechariah 3:2
-is called "the LORD"; reading the angel as the LORD Himself is a common view, and a contested one.
+is called "the LORD". The angel who takes Joshua's iniquity away is most likely the LORD Himself,
+God the Son before His birth; [The Angel of the LORD](../jesus/the-angel-of-the-lord.md) gives the
+case.
 The iniquity goes first, then the clothes. [Saved as Through Fire](../salvation/saved-as-through-fire.md)
 reads Joshua as the brand plucked from the fire.
 

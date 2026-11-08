@@ -16,6 +16,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 22:15
 - [Sin and Sorcery](../../sin/sorcery.md) — 22:15
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 22:20
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 22:8-9
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 22:17
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 22:16
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 22:4

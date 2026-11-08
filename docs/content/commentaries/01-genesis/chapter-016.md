@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 16:13
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 16:7-13 (primary passage)
 - [The Names of God](../../god/names-of-god.md) — 16:13
 <!-- commentary-index:auto-end -->

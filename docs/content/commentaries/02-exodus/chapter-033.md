@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 33:2-3
 - [The Names of God](../../god/names-of-god.md) — 33:18-19
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 33:20
 - [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 33:14-15

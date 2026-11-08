@@ -17,6 +17,7 @@ draft: false
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:4
 - [Pride](../../sin/pride.md) — 1:51-52
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 1:46-55
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 1:11
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 1:8-13
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 1:31-33
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:17

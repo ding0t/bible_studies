@@ -28,9 +28,9 @@ draft: false
 - [Simon Peter](../../biblical-figures/peter.md) — 1:40-42
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 1:14
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 1:12
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 1:14
 - [The Appointed Times](../../feasts/feasts.md) — 1:14
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:11
-- [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 1:18
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 1:48-50
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 1:12
 - [The Names of God](../../god/names-of-god.md) — 1:29

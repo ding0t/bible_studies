@@ -19,6 +19,7 @@ draft: false
 - [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 1:1-17
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:1
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 1:20-24
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 1:20
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:18-25
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:3
 - [The Names of God](../../god/names-of-god.md) — 1:21-23

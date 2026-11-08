@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Six Days of History](../../last-things/six-days-of-history.md) — 14:22
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 14:19
 <!-- commentary-index:auto-end -->

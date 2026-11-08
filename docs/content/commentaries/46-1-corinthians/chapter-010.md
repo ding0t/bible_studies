@@ -18,6 +18,7 @@ draft: false
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 10:18
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 10:13-14
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 10:13
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 10:4
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 10:16
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 10:16
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 10:6-11

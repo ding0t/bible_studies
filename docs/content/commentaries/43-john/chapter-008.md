@@ -19,6 +19,7 @@ draft: false
 - [Precious Stones in Scripture](../../god/precious-stones.md) — 8:12
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 8:12
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 8:12
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 8:56-58
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 8:12
 - [The Names of God](../../god/names-of-god.md) — 8:58
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 8:12

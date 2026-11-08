@@ -19,6 +19,7 @@ draft: false
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 7:1-4
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 7:25
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 7:15-16
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 7:25
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 7:26-27
 - [The Golden Altar of Incense](../../jesus/the-heavenly-pattern/incense-altar.md) — 7:25
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 7:25

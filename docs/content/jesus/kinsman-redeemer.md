@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ruth 3:9-13; Ruth 4:1-17"
 bible_references: ["Ruth 1:1", "Ruth 1:16", "Ruth 1:21", "Ruth 2:1", "Ruth 2:12", "Ruth 2:20", "Ruth 3:9-13", "Ruth 4:1-22", "Judges 17:6", "Judges 21:25", "Leviticus 19:9-10", "Leviticus 25:23-25", "Leviticus 25:47-55", "Numbers 35:12", "Deuteronomy 25:5-10", "Deuteronomy 23:3", "Genesis 38:8", "Jeremiah 32:7", "Job 19:25", "Nehemiah 13:1", "Nehemiah 13:23", "Isaiah 54:5", "Isaiah 59:20", "Isaiah 56:3-7", "Romans 11:26", "Romans 3:24", "Galatians 4:4-5", "Hebrews 2:11", "Hebrews 2:17", "1 Peter 1:18-19", "Matthew 1:3", "Matthew 1:5"]
 date_created: 2026-09-21
-date_modified: 2026-10-22
+date_modified: 2026-11-08
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -126,6 +126,11 @@ and participle occur 21 times, and the noun <span dir="rtl">גְּאֻלָּה</
 "right of redemption") twice more (4:6, 7). That is the *ESV Study Bible*'s count of 23, and the
 word first appears when Naomi hears Boaz's name (2:20) and last when the women name the child
 (4:14).
+
+The word is older than the Law. Its first use in Scripture is Jacob's, blessing Joseph's sons, when
+he names God and then "the angel who has redeemed me from all evil" (Genesis 48:16, ESV), *hagoel*.
+[The Angel of the LORD](the-angel-of-the-lord.md) reads that angel as God the Son: the Redeemer was
+at work for Jacob before the office had a law.
 
 The office rests on one sentence of God's: "The land shall not be sold in perpetuity, for the land is
 mine" (Leviticus 25:23, ESV). Redemption gives God's gift back to the family He gave it to. The next

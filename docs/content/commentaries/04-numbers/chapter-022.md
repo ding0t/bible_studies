@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 22:21-35 (primary passage)
+- [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 22:22-35
 <!-- commentary-index:auto-end -->
