@@ -1,0 +1,114 @@
+# One-minute comic for docs/content/biblical-figures/the-donkey-and-her-prophet.md.
+# Drawn by: python3 utils/build_comics.py the-donkey-and-her-prophet
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-11-07.
+#
+# The study in five beats: Balak's princes bring the fees for divination and ask for a curse, and
+# Balaam says he cannot go beyond the LORD's command (Numbers 22:7, 17-18); on the road the donkey
+# sees the angel with the drawn sword and Balaam strikes her (22:22-25); she lies down, he strikes
+# her with his staff, and the LORD opens her mouth (22:27-28); the LORD opens Balaam's eyes, and the
+# angel sends him on to speak only the word he is given (22:31-35); on the heights he cannot curse
+# whom God has not cursed (23:7-8).
+# The donkey is a she-donkey, אָתוֹן (aton, H860), with feminine verbs throughout (22:23-33). She is
+# saddled because 22:21 says so. Balaam rides her because 22:22 says so; his two servants (22:22)
+# are left out to keep panel 2 clear. The vineyards and the walls are 22:24's. The angel of the LORD is drawn as
+# light with the drawn sword the text gives (22:23, 31): Numbers gives no form. Balak is named but not
+# drawn; his princes are generic men. The camp below the heights in panel 5 is not drawn; the caption
+# places it.
+
+title = "The Donkey and Her Prophet"
+subtitle = "A hired curse that God would not let him speak, in one minute"
+layout = [[300, 1], [300, 1, 1], [300, 1, 1]]
+note = "The angel of the LORD is drawn as light holding the drawn sword Numbers gives him (22:23); the text gives no form. The donkey is a she-donkey (Hebrew aton). Balak is named in the story but not drawn."
+point = "No one can curse those God has blessed. The LORD who opened a donkey's mouth and a prophet's eyes turned the curse into a blessing, because He loves His people (Deuteronomy 23:5), and in Jesus that blessing is yours (Galatians 3:14)."
+
+[[panel]]
+ref = "Numbers 22:7, 17-18"
+scene = "plain"
+sky = "dawn"
+caption = "Pethor, by the Euphrates. Balak, king of Moab, has sent princes with the fees for divination."
+caption_w = 300
+shows = "at dawn, two princes of Moab hold out gifts to Balaam, who stands beside his saddled donkey with his staff"
+props = [
+  { what = "donkey", x = 0.64, s = 1.0 },
+]
+cast = [
+  { who = "man", id = "prince", name = "a prince of Moab", n = 2, x = 0.12, x2 = 0.26, face = "right", pose = ["offer", "point"], holds = "gift", tone = 3 },
+  { who = "balaam", x = 0.44, face = "left", pose = "open", holds = "staff", tag = "Balaam" },
+]
+say = [
+  { by = "prince", text = "Come, *curse this people* for me.", source = "esv", at = [0.20, 0.36], w = 130 },
+  { by = "balaam", text = "I could not go beyond the *command of the LORD* my God", source = "esv", at = [0.62, 0.34], w = 170 },
+]
+
+[[panel]]
+ref = "Numbers 22:22-25"
+scene = "plain"
+sky = "day"
+caption = "Between the vineyards."
+caption_w = 135
+shows = "on a narrow path between vineyards with a low stone wall, Balaam rides the donkey and raises his staff to strike her; ahead stands the angel of the LORD as light with a drawn sword"
+props = [
+  { what = "vine", x = 0.12, s = 0.6, y = 0.86 },
+  { what = "fieldwall", x = 0.36, s = 0.9, y = 0.90 },
+  { what = "donkey", x = 0.36, s = 1.0 },
+  { what = "angel_sword", x = 0.88, s = 0.75 },
+]
+cast = [
+  { who = "balaam", x = 0.33, stance = "sit", dy = -0.208, face = "right", pose = "raise", holds = "staff" },
+]
+say = [
+  { by = "numbers", name = "Numbers", from = [1.05, 1.0], style = "text", text = "the donkey saw the angel of the LORD standing in the road, with a *drawn sword* in his hand.", source = "esv", at = [0.71, 0.15], w = 160 },
+]
+
+[[panel]]
+ref = "Numbers 22:27-28"
+scene = "plain"
+sky = "day"
+caption = "The third time she lies down. Then the LORD opens her mouth."
+caption_w = 230
+shows = "the donkey lying down on the path, Balaam standing over her with his staff raised; the angel's light stands ahead; the donkey speaks to him"
+spotlight = { at = [0.58, 0.74], r = 0.75 }
+props = [
+  { what = "donkey_down", x = 0.50, s = 1.0 },
+  { what = "angel_sword", x = 0.90, s = 0.9 },
+]
+cast = [
+  { who = "balaam", x = 0.22, face = "right", pose = "raise", holds = "staff" },
+]
+say = [
+  { by = "donkey", name = "the donkey", from = [0.66, 0.66], text = "What have I done to you, that you have struck me *these three times*?", source = "esv", at = [0.60, 0.36], w = 170 },
+]
+
+[[panel]]
+ref = "Numbers 22:31-35"
+scene = "plain"
+sky = "day"
+grade = "warm"
+caption = "Then the LORD opens Balaam's eyes."
+caption_w = 200
+shows = "Balaam kneels on the road before the angel's light and drawn sword; the donkey stands behind him"
+props = [
+  { what = "donkey", x = 0.16, s = 0.9, face = "right" },
+  { what = "angel_sword", x = 0.80, s = 1.05 },
+]
+cast = [
+  { who = "balaam", x = 0.50, stance = "kneel", face = "right", pose = "fold" },
+]
+say = [
+  { by = "balaam", text = "*I have sinned*", source = "esv", at = [0.20, 0.50], w = 90 },
+  { by = "angel", name = "the angel of the LORD", from = [0.80, 0.30], style = "voice", text = "Go with the men, but speak *only the word that I tell you*.", source = "esv", at = [0.70, 0.22], w = 150 },
+]
+
+[[panel]]
+ref = "Numbers 23:7-8"
+scene = "hills"
+sky = "dawn"
+caption = "On the heights above Israel's camp."
+caption_w = 200
+shows = "Balaam stands on a height at dawn with his arms open, looking down toward the camp, which lies out of the picture"
+cast = [
+  { who = "balaam", x = 0.62, face = "left", pose = "open" },
+]
+say = [
+  { by = "balaam", text = "How can I curse whom *God has not cursed*?", source = "esv", at = [0.32, 0.36], w = 150 },
+]

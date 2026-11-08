@@ -184,6 +184,7 @@ comic knows him in the next. Each is reserved once, in `FIGURES` in `utils/lib/c
 | `magdalene` | Mary Magdalene | A plum-rose robe and a pale veil, a woman of means who provided for Jesus (Luke 8:2-3) | jesus-and-women |
 | `david` | David | Burnt-orange tunic, cream mantle, auburn hair and a young man's short beard ("ruddy", 1 Samuel 16:12) | table |
 | `nebuchadnezzar` | Nebuchadnezzar | Deep indigo robe, gold belt and collar, full beard, the tall rounded cap of a Neo-Babylonian king: background, not Scripture, so the comic's `note` says so | the-image-and-the-kingdoms |
+| `balaam` | Balaam son of Beor | Charcoal tunic, ochre stole, grey hair, full beard (a fixed choice). His she-donkey is the `donkey` prop (`donkey_down` lying); a rider takes `stance = "sit"`, `dy = -0.208 * s`. The angel of the LORD is `angel_sword`, light with the drawn sword (Numbers 22:23) | the-donkey-and-her-prophet |
 
 - **Reserve only a figure the text names.** The two witnesses are unnamed in Revelation 11 and
   contested in the study, so they are the generic `witness` (sackcloth), never a reserved Moses

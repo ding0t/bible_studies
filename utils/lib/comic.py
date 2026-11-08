@@ -189,6 +189,11 @@ FIGURES = {
                            why="King of Babylon (Daniel 1:1; 2:1). Scripture gives no detail of his dress. Background, not Scripture: "
                                "the tall rounded cap and long belted robe of a Neo-Babylonian king, as Nabonidus is shown on his stelae, "
                                "with a gold collar. Deep indigo is a fixed choice, kept apart from the harlot's purple and Ezekiel's violet."),
+    "balaam": dict(name="Balaam", study="biblical-figures/the-donkey-and-her-prophet.md", robes=["#46423d"], mantle="stole",
+                   mantle_fill="#b08a4a", hair="short", hair_color=HAIR_GREY, beard="full",
+                   why="Balaam son of Beor, a diviner hired from Pethor by the Euphrates (Numbers 22:5, 7; Joshua 13:22). "
+                       "Scripture gives no detail of his dress or age: a charcoal tunic and an ochre stole are a fixed "
+                       "choice, kept apart from every other tunic colour; grey hair and a full beard are a fixed choice."),
 }
 CAST.update(FIGURES)
 
@@ -1406,12 +1411,97 @@ def prop_serpent(x, y, s):
             '<path d="M28 -45 l7 -1 m-7 1 l6 2" stroke="#a5421f" stroke-width="1" fill="none"/></g>')
 
 
+DONKEY = "#8d8478"
+DONKEY_EDGE = "#4a443c"
+DONKEY_PALE = "#d6cdbd"
+SADDLE = "#7a3a2a"
+BLADE = "#d9dde3"
+BLADE_EDGE = "#6a6f78"
+
+
+def _donkey_head(hx, hy, tilt):
+    """Head, long ears and pale muzzle of a donkey, centred on (hx, hy), tilted by tilt degrees."""
+    return (f'<g transform="rotate({tilt} {hx} {hy})">'
+            f'<ellipse cx="{hx - 6}" cy="{hy - 15}" rx="3.4" ry="11" fill="{DONKEY}" stroke="{DONKEY_EDGE}" stroke-width="0.9" transform="rotate(-18 {hx - 6} {hy - 15})"/>'
+            f'<ellipse cx="{hx - 1}" cy="{hy - 16}" rx="3.4" ry="11" fill="{DONKEY}" stroke="{DONKEY_EDGE}" stroke-width="0.9" transform="rotate(8 {hx - 1} {hy - 16})"/>'
+            f'<ellipse cx="{hx}" cy="{hy}" rx="13" ry="7.5" fill="{DONKEY}" stroke="{DONKEY_EDGE}" stroke-width="1"/>'
+            f'<ellipse cx="{hx + 9}" cy="{hy + 2}" rx="5.5" ry="5" fill="{DONKEY_PALE}" stroke="{DONKEY_EDGE}" stroke-width="0.8"/>'
+            f'<circle cx="{hx - 2}" cy="{hy - 2}" r="1.3" fill="#1d1a16"/></g>')
+
+
+def prop_donkey(x, y, s):
+    """A she-donkey (אָתוֹן, Numbers 22:21-33), standing, saddled (22:21), facing right. Her back is 48
+    units up, so a rider seated on her takes stance = "sit" and dy = -0.208 * s in a 300-high panel."""
+    legs = "".join(f'<path d="M{lx} -30 L{lx + d} -2" stroke="{DONKEY_EDGE}" stroke-width="6" stroke-linecap="round"/>'
+                   f'<path d="M{lx} -30 L{lx + d} -2" stroke="{DONKEY}" stroke-width="4" stroke-linecap="round"/>'
+                   f'<ellipse cx="{lx + d}" cy="-1" rx="3.5" ry="2" fill="#2a2520"/>'
+                   for lx, d in ((-24, -2), (-16, 2), (18, -1), (26, 3)))
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<ellipse cx="0" cy="0" rx="36" ry="4" fill="#00000022"/>' + legs +
+            f'<path d="M-33 -40 Q-40 -30 -38 -16" fill="none" stroke="{DONKEY_EDGE}" stroke-width="2.4"/>'
+            f'<path d="M-40 -18 l2 6 l3 -6 z" fill="{DONKEY_EDGE}"/>'
+            f'<ellipse cx="0" cy="-38" rx="34" ry="14" fill="{DONKEY}" stroke="{DONKEY_EDGE}" stroke-width="1.1"/>'
+            f'<ellipse cx="2" cy="-30" rx="24" ry="5" fill="{DONKEY_PALE}" opacity="0.5"/>'
+            f'<path d="M22 -46 Q34 -64 44 -66 L50 -58 Q38 -50 32 -30 Z" fill="{DONKEY}" stroke="{DONKEY_EDGE}" stroke-width="1.1"/>'
+            f'<path d="M24 -50 Q34 -66 43 -68" fill="none" stroke="#3a342d" stroke-width="2.4" stroke-linecap="round"/>'
+            + _donkey_head(50, -62, 30) +
+            f'<path d="M-16 -52 Q-2 -56 12 -52 L13 -36 Q-2 -33 -17 -36 Z" fill="{SADDLE}" stroke="#3e1d14" stroke-width="1"/>'
+            '<path d="M-16 -36 l1 4 M-11 -35 l1 4 M-6 -34 l0 4 M-1 -34 l0 4 M4 -34 l0 4 M9 -35 l0 4" stroke="#3e1d14" stroke-width="1.2"/>'
+            '</g>')
+
+
+def prop_donkey_down(x, y, s):
+    """The she-donkey lying down, legs folded under her: "she lay down under Balaam" (Numbers 22:27)."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<ellipse cx="0" cy="0" rx="40" ry="4" fill="#00000022"/>'
+            f'<ellipse cx="-22" cy="-3" rx="9" ry="3.5" fill="{DONKEY}" stroke="{DONKEY_EDGE}" stroke-width="0.9"/>'
+            f'<ellipse cx="22" cy="-3" rx="10" ry="3.5" fill="{DONKEY}" stroke="{DONKEY_EDGE}" stroke-width="0.9"/>'
+            f'<path d="M-33 -18 Q-42 -12 -40 -4" fill="none" stroke="{DONKEY_EDGE}" stroke-width="2.4"/>'
+            f'<ellipse cx="0" cy="-16" rx="34" ry="13" fill="{DONKEY}" stroke="{DONKEY_EDGE}" stroke-width="1.1"/>'
+            f'<path d="M22 -22 Q34 -38 44 -40 L50 -32 Q38 -24 32 -8 Z" fill="{DONKEY}" stroke="{DONKEY_EDGE}" stroke-width="1.1"/>'
+            + _donkey_head(50, -36, 20) +
+            f'<path d="M-16 -29 Q-2 -33 12 -29 L13 -15 Q-2 -12 -17 -15 Z" fill="{SADDLE}" stroke="#3e1d14" stroke-width="1"/>'
+            '</g>')
+
+
+def prop_angel_sword(x, y, s):
+    """The angel of the LORD "standing in the road, with a drawn sword in his hand" (Numbers 22:23).
+    Numbers gives the sword and no form, so the angel is drawn as light with the sword upright in it,
+    and a comic that uses it says so in its `note`. About 150 units tall."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<defs><radialGradient id="angel-light" cx="0.5" cy="0.5" r="0.5">'
+            f'<stop offset="0" stop-color="#fff8dc" stop-opacity="0.95"/><stop offset="0.55" stop-color="{GOLD}" stop-opacity="0.45"/>'
+            f'<stop offset="1" stop-color="{GOLD}" stop-opacity="0"/></radialGradient></defs>'
+            '<ellipse cx="0" cy="-72" rx="40" ry="82" fill="url(#angel-light)"/>'
+            '<ellipse cx="0" cy="-70" rx="11" ry="58" fill="#fffbea" opacity="0.75"/>'
+            + "".join(f'<path d="M0 -72 L{math.cos(math.radians(a)) * 52:.1f} {-72 + math.sin(math.radians(a)) * 88:.1f}" '
+                      f'stroke="{GOLD}" stroke-width="1" opacity="0.5"/>' for a in range(0, 360, 30)) +
+            f'<path d="M-2.4 -146 L0 -152 L2.4 -146 L2.4 -66 L-2.4 -66 Z" fill="{BLADE}" stroke="{BLADE_EDGE}" stroke-width="0.9"/>'
+            f'<rect x="-13" y="-67" width="26" height="4" rx="1.5" fill="{GOLD_EDGE}"/>'
+            '<rect x="-2.2" y="-63" width="4.4" height="15" fill="#5a3d22"/>'
+            f'<circle cx="0" cy="-46" r="3.4" fill="{GOLD_EDGE}"/>'
+            '</g>')
+
+
+def prop_fieldwall(x, y, s):
+    """A low wall of field stones, the kind that lined a path "between the vineyards, with a wall on
+    either side" (Numbers 22:24). 160 units long, 30 high."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           f'<path d="M-80 0 V-26 Q-40 -32 0 -28 Q40 -32 80 -26 V0 Z" fill="{STONE}" stroke="{STONE_EDGE}" stroke-width="1.1"/>']
+    for row, yy in enumerate((-8, -18)):
+        for k in range(8):
+            out.append(f'<ellipse cx="{-72 + k * 20 + (row % 2) * 10}" cy="{yy}" rx="9" ry="5" fill="#a89e8f" stroke="{STONE_EDGE}" stroke-width="0.6"/>')
+    out.append('</g>')
+    return "".join(out)
+
+
 PROPS = {"fruit_tree": prop_fruit_tree, "thicket": prop_thicket, "serpent": prop_serpent, "vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "lampstand": prop_lampstand, "golden_lampstand": prop_golden_lampstand, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne,
          "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall, "idol": prop_idol,
          "ark": prop_ark, "tower": prop_tower, "tablets": prop_tablets, "rainbow": prop_rainbow,
-         "statue": prop_statue, "stone": prop_stone, "chaff": prop_chaff, "mountain": prop_mountain, "bed": prop_bed}
+         "statue": prop_statue, "stone": prop_stone, "chaff": prop_chaff, "mountain": prop_mountain, "bed": prop_bed,
+         "donkey": prop_donkey, "donkey_down": prop_donkey_down, "angel_sword": prop_angel_sword, "fieldwall": prop_fieldwall}
 
 
 SCENES = {

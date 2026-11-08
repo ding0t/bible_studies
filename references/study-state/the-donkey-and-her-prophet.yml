@@ -1,0 +1,161 @@
+slug: "the-donkey-and-her-prophet"
+title: "The Donkey and Her Prophet: How God Turned a Hired Curse into a Star"
+status: review-fixed
+renamed: "2026-11-07 from the-donkey-and-his-prophet: the donkey is female (aton, H860), so the title is The Donkey and Her Prophet (author)."
+target_path: "docs/content/biblical-figures/the-donkey-and-her-prophet.md" # proposed; author has not yet chosen vs jesus/. Title nods to C. S. Lewis's The Horse and His Boy (author's idea, 2026-11-07). 2 Pet 2:16 calls Balaam "the prophet" and the donkey his rebuker.
+
+primary_passage: "Numbers 22-24"
+supporting_passages:
+  - "Genesis 12:3"
+  - "Genesis 49:9-10"
+  - "Numbers 25:1-3; 31:8, 16"
+  - "Deuteronomy 23:3-5"
+  - "Joshua 13:22; 24:9-10"
+  - "Micah 6:5"
+  - "2 Peter 2:15-16"
+  - "Jude 11"
+  - "Revelation 2:14; 22:16"
+  - "Matthew 2:1-2"
+sibling_studies:
+  - {slug: "scripture/cities-of-the-plain", role: prose, use: link, note: "Kramer's Tall el-Hammam = biblical Shittim (this video) sits beside that study's rejection of Hammam as Sodom; say the two do not conflict (Hammam is a Moab-plains site on the east of the Jordan, Shittim, Num 25:1) and link it"}
+  - {slug: "jesus/names-of-jesus", role: prose, use: link, note: "line ~233 cites Num 24:17"}
+  - {slug: "sin/sorcery", role: prose, use: link, note: "line ~284 Balaam as diviner"}
+  - {slug: "christian-life/test-the-spirits", role: prose, use: link, note: "line ~313, 2 Pet 2 and Jude 11, the error of Balaam"}
+  - {slug: "jesus/the-way", role: prose, use: none, note: "2 Pet 2:15 passing mention"}
+  # passage_brief existing_studies for Num 22 was empty: no primary sibling, so this is a new study.
+genre: [ot-narrative, prophets]
+
+thesis: "The donkey saw the angel before the seer did, and the same LORD who opened her mouth and then Balaam's eyes put His own words in the hired prophet's mouth, so the curse Balak paid for became Abraham's blessing and the promise of a Star out of Jacob, and no power can curse those God has blessed."
+outline:
+  - {section: "Why a curse was worth buying", says: "Balak's fee, Balaam's reputation (Num 22:5-7), the ANE belief that a diviner could move the gods (NIV Cultural Backgrounds note), and Deir Alla's 'seer of the gods'; Balak says 'he whom you curse is cursed' (22:6) and that is his belief, not the narrator's"}
+  - {section: "Whose word binds: God's sovereignty", says: "God answers before the curse is spoken: 'you shall not curse the people, for they are blessed' (22:12); Balaam's repeated 'only what the LORD says' (22:18, 38; 23:12, 26; 24:13); Gen 12:3 is the ground; 'no spell against Jacob' (23:23)"}
+  - {section: "The donkey", says: "She sees the sword (22:23-27), God opens her mouth (22:28), then uncovers the seer's eyes (22:31, galah), the same verb the seer uses of himself in 24:4, 16; 2 Pet 2:16 names the rebuke"}
+  - {section: "The ground he stood on", says: "Pethor (disputed), Bamoth-baal, Pisgah/Nebo, Peor opposite Shittim; Kramer's walk: the three viewpoints, the camp at Shittim with the tent at its centre (Num 2), the same ridge where Moses later stood (Deut 34:1)"}
+  - {section: "A name on a wall", says: "Deir Alla inscription: Balaam son of Beor, a seer of the gods, in a Jordan Valley text; what it confirms and where it differs from Numbers; Kramer's use of it"}
+  - {section: "Three oracles turn the curse", says: "Num 23:7-10, 18-24; 24:3-9 speak Gen 12:3 over Israel; Balak's 'you have only blessed them' (23:11)"}
+  - {section: "The Star and the Scepter", says: "Num 24:15-19: not now, not near; star/scepter as king (Gen 49:10); Kramer's god-king reading weighed (what the text supports, what it does not); Matthew 2, Rev 22:16, Bar Kokhba"}
+  - {section: "What the curse could not do, the counsel did", says: "Num 25, 31:16, Rev 2:14, 2 Pet 2:15, Jude 11: Balaam's loss of the wages and his death; the warning"}
+  - {section: "Be transformed", says: "Think / Attitude / Do"}
+word_budget: 4600
+word_budget_reason: "2026-11-07 (second raise, 4300 to 4600): the review fixes the author approved added the Genesis 27:29, Revelation 5:5, Psalm 110:1, 1 Corinthians 10 and she-donkey material; trimmed 120 words to offset part of it. First raise: author added two scopes after the first draft -- the Dead Sea Scroll witness (4Q175) and a census of how the whole of Scripture refers to and teaches from Balaam (Hebrew H1109: Num 22-24, 31:8,16; Deut 23:5-6 Heb (23:4-5 Eng); Josh 13:22; 24:9-10; Neh 13:2; Mic 6:5. Greek G903: 2 Pet 2:15; Jude 11; Rev 2:14). Both are the author's requests, so the budget rose by ~300; trim before raising again."
+
+stages:
+  scoping:
+    done: true
+    notes: "Author brief 2026-11-07: curse turned to blessing and prophecy of Christ; archaeology stone (Deir Alla; not in archaeological-sites.md, to be added); significance of the area; Joel Kramer's study (video supplied); the donkey; why the curse was taken seriously and that God was sovereign; title built round the donkey."
+  exegesis:
+    historical_context:
+      done: false
+      notes: "Names via bible_names 2026-11-07: Balaam son of Beor (H1109A), Balak son of Zippor, Pethor (Til Barsip, score 408, disputed), Amaw, Kiriath-huzoth (Tall Dhiban 215, disputed), Bamoth-baal, Moab Plains (Tall el-Hammam 671, 'probably'), Jericho. ESV Study Bible note on 22:1-6: Pethor is ~400 miles north of Moab near the River; Amaw probably in nonbiblical texts."
+    literary_context:
+      done: false
+      notes: "BSB sections: 'Balak Summons Balaam' 22:1-21; 'The Angel and Balaam's Donkey' 22:22-41. STEP lists: miracles #9 'Donkey speaking'; NT quotations 2 Pet 2:15-16, Jude 11. ESV Study note 22:1-24:25 reads the story as 'witty'; and says the narrator's fee remarks mark Balaam's greed (22:7, 18; 31:16). Check that against the text, do not adopt."
+    content_word_studies:
+      done: false
+      notes: "VERIFIED 2026-11-07 (bible_word H1540): galah 'uncover' occurs at Num 22:31 (LORD uncovered Balaam's eyes), 24:4 and 24:16 (gelui einayim, 'eyes uncovered'). Still to do: barak/arar/qavav (bless/curse; 22:6 uses arar), nachash/qesem (23:23), pa'am (three times), shethum ha-ayin in 24:3 (disputed: opened vs closed), kokab/shevet (24:17), pe'ot Moab (ESV 'forehead', BSB 'skulls', LSB 'corners/skull'; Samaritan reads 'skulls')."
+      terms: []
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: false
+      notes: ""
+    theological_principle:
+      done: false
+      notes: "Sovereignty: the narrator never says the curse is empty; he says God does not let it be spoken (22:12; 23:8, 20, 23). Check consistency with statement-of-faith.md."
+    application_draft:
+      done: false
+      notes: ""
+  cross_reference:
+    done: false
+    cross_refs:
+      - {ref: "Gen 12:3", relation: "Num 24:9 repeats the Abrahamic bless/curse formula; bible_trace lists it as a lead (24 votes), not a textual quotation"}
+      - {ref: "Gen 49:9-10", relation: "lion and scepter: Num 24:9 echoes Gen 49:9; lead, not quotation-tier"}
+      - {ref: "Rev 22:16", relation: "lead for Num 24:17 (15 votes); bible_trace found no quotation-tier link, say 'a lead' and cite the verse directly"}
+      - {ref: "2 Pet 2:15-16", relation: "STEP ot-quotations list: quoted Num 22:1-41; BSB 2:16 'a donkey, otherwise without speech, that spoke with a man's voice and restrained the prophet's madness'"}
+    translations_compared: ["BSB", "ESV"]
+    divergences_noted: "24:17 pe'ot Moab: ESV 'forehead', BSB 'skulls', LSB footnote 'corners' or 'skull of the head of'; CSB note: Sam reads 'skulls of'. 24:17 sons of Sheth: CSB footnote 'Or Sethites'; ESV note: probably nomads, Shutu in Egyptian texts. ESV 22:12 vs BSB 'blessed'. 24:3 ESV 'whose eye is opened' vs BSB 'whose eyes are open' (Hebrew word disputed)."
+  drafting:
+    done: true
+    file: "docs/content/biblical-figures/the-donkey-and-her-prophet.md"
+    notes: "Drafted 2026-11-07, draft: true. 4,000 words by the validator (budget 4000). Provenance fields NOT yet filled: run utils/refresh_frontmatter_provenance.py before the commit and stage its edit. Counts stated in the prose, to replay as evidence: nakah H5221 occurs 6 times in Num 22 (vv. 6, 23, 25, 27, 28, 32); kokab H3556 is in 37 OT verses; Balaam's five 'only what the LORD says' (22:18, 22:38, 23:12, 23:26, 24:13); galah H1540 at Num 22:31, 24:4, 24:16."
+  review:
+    done: false
+    validated: true # npm run validate passes; mkdocs build --strict passes (2026-11-07). No review-bible-study pass yet.
+
+kramer:
+  source: "Joel P. Kramer, Expedition Bible, 'Archaeology for \"the Star who will come from Jacob\"', YouTube Qrv1_C-I3Es, 6 Jan 2023, 22:14. Auto-captions read 2026-11-07 (transcript in session scratchpad, not committed)."
+  claims_to_engage:
+    - "Deir Alla inscription (Jordan National Museum, found 1967 in the Jordan Valley, dated by him to the 9th century BC; opening 'the sayings of Balaam son of Beor, the man who was a seer of the gods') names the same Balaam as the Bible."
+    - "Shittim (Abel-shittim) = Tell el-Hammam, opposite Jericho; Beth-peor on the ridge opposite it; Num 25:1 'Israel staying at Shittim'; Tabernacle at the centre of the camp (Num 2), so Shittim was the camp's headquarters; Joshua sent spies from there."
+    - "Balak's three viewpoints from south to north: Bamoth-baal (sees only the outskirts, 22:41; 23:13), Pisgah/Mt Nebo (23:14), Peor (23:28), the only one with a view of the whole camp 'tribe by tribe' (24:2). At Pisgah Balaam sees the glory cloud over the tabernacle: 'the shout of the King is among them' (23:21) is the LORD, not a human king."
+    - "Star/scepter: star = deity symbol (cites Amos 5:26), scepter = king; so 24:17 says the God-King will come out of Jacob. Israel had only one star besides their God, so the Star is Yahweh become an Israelite."
+    - "Magi (Matt 2:1-2) would have come by the Roman road past Beth-peor; Eusebius's Onomasticon names Beth-peor six miles above Livias; Roman milestones now at Mt Nebo."
+    - "Oldest copy of the star prophecy: Dead Sea Scrolls cave 4, 125 BC, 'not a direct quote' but Jews writing their expectation (probably 4Q175 Testimonia; NOT verified, bible_variants for Num 24:17 returned no DSS reading). Medieval Jewish reading: David; Kramer treats a Messianic reading as the oldest."
+  assessment_so_far:
+    - "LOCATION (author decision 2026-11-07): the study HOLDS Kramer's assessment and says it is Kramer's (Shittim = Tall el-Hammam; Beth-peor opposite it; Bamoth-baal, Pisgah/Nebo, Peor as the three viewpoints south to north). The argument is the text's own order: Num 22:1 (camp in the plains of Moab by the Jordan at Jericho), 25:1 (Israel staying at Shittim), 33:48-49, Deut 3:29 (valley opposite Beth-peor), Deut 34:1,6; Peor is the only viewpoint with the whole camp 'tribe by tribe' (24:2). Do NOT hedge it with mainstream or recalled rival sites, and do not take a site identification from memory; the check is text and logic. Do not write 'the consensus holds otherwise'. See memory feedback-archaeology-scripture-first."
+    - "STRONG: scepter = king (ESV Study note, Gen 49:10). Star as king is supported by Num 24:17's own parallelism, Rev 22:16 and Matt 2:2."
+    - "STAR (author correction 2026-11-07): do not weigh the NIV Cultural Backgrounds note ('hard to document a star as kingship symbol') against Kramer; Scripture first. Done below in stars_in_scripture. Result: Scripture does use 'star' for heavenly beings and for a divine claim, so Kramer's conclusion is not an import; the support is Job 38:7, Isa 14:13, Rev 1:20/9:1/12:4, Rev 22:16, not an ANE symbol table."
+    - "FLAG: Magi route is inference; Matt 2 names no road. 'about 1400 years earlier' is Kramer's chronology; use this site's own (chronology/) rather than copy it."
+    - "FLAG: 4Q175 attribution and 125 BC date unverified; do not repeat as fact."
+    - "Deir Alla date: Kramer 9th c. BC; Wikipedia c. 825 BC with range 880-770 / 750-700; ESV note 8th c. Give a range."
+
+stars_in_scripture:
+  method: "bible_word H3556 kokab (all OT hits, 37 verses incl. Num 24:17) and G792 aster, G4407 proinos (Rev 2:28; 22:16 only), G5459 phosphoros (2 Pet 1:19 only), read 2026-11-07. BSB wording."
+  findings:
+    created_and_counted: "Gen 1:16 (made); Ps 8:3-4; 136:9; 147:4 (God counts and names them); Jer 31:35 (ordinance); Job 9:7 (seals up). Creatures under God, so not for worship: Deut 4:19 forbids bowing to the sun, moon, stars. Isa 47:13 star-gazers cannot save."
+    the_covenant_seed: "Gen 15:5; 22:17; 26:4; Exod 32:13; Deut 1:10; 10:22; 28:62; 1 Chr 27:23; Neh 9:23: Abraham's offspring are the stars, and Jacob's line is the star-line."
+    persons_of_jacobs_house: "Gen 37:9-10: Joseph's eleven stars are his brothers, Jacob's sons. So 'a star out of Jacob' (Num 24:17) is by Scripture's own usage a person of Jacob's house. Dan 12:3: those who lead many to righteousness 'shine like the stars'."
+    heavenly_beings: "Job 38:7 (morning stars sang together = all the sons of God shouted, a parallel pair); Judg 5:20 (stars fought against Sisera); Rev 1:20 (seven stars = angels of the churches; in Christ's right hand, 1:16); Rev 9:1 (a star fallen from heaven, given a key); Rev 12:4 (the dragon's tail sweeps a third of the stars). Isa 14:12-13: the day star (heylel, BSB 'day star, son of the dawn') who would raise his throne 'above the stars of God' and 'make myself like the Most High'; referent contested (king of Babylon, and behind him Satan); say contested and give the text's case, per style rule."
+    false_stars: "Amos 5:26 (Sakkuth your king, Kaiwan your star god, idols you made; kokab is the word): a star made a god is the idol Israel carried. Jude 13 'wandering stars'. Scripture's own use of a star as a deity is therefore the counterfeit, and Isa 14 is the counterfeit's claim to equal the Most High by climbing."
+    morning_star: "Rev 22:16 Jesus: 'the Root and the Offspring of David, the bright Morning Star' (aster ho proinos: bright is lampros). Rev 2:26-28: to the overcomer 'authority over the nations ... rule them with an iron scepter ... I will give him the morning star' (Ps 2:8-9 behind it). The scepter and the star ride together in one promise, as in Num 24:17; the Lord who holds both (22:16) shares the star with His overcomers (2:28), so 'morning star' there is rule and dawn shared, a title the Son holds and gives. 2 Pet 1:19: the morning star (phosphoros, light-bearer) rises in your hearts. Matt 2:2: the Magi saw 'his star' at its rising and ask for the one born King of the Jews."
+  synthesis_to_test: "Scripture uses a star for (1) a created thing under God, (2) a person from Jacob's line, (3) a heavenly being, (4) the counterfeit god. Num 24:17 sets a Star 'out of Jacob' beside a Scepter 'out of Israel' and 24:19 'one from Jacob shall exercise dominion'. The pair fits (2)+(3): a ruler of Jacob's house who is also heavenly, which is Rev 22:16's Root AND Offspring of David (Matt 22:42-45 shows the same riddle). It is not (4): the true Star is not a climber like Isa 14 but the one who came down. That supports Kramer's conclusion from Scripture's own usage. The deity of the Star then stands on Rev 22:16 together with Isa 9:6 and Mic 5:2, which TODO: read in context before writing. Keep Ps 2:9 / Rev 2:27 'rule with an iron scepter' as a lead (no quotation-tier link from bible_trace)."
+  still_to_check:
+    - "Acts 7:43 (Stephen quoting Amos 5:25-27, 'the star of your god Rephan'): Greek astron G798, not in the G792 list; read it before citing."
+    - "Ps 2:9 vs Rev 2:27 and Rev 19:15 wording; Mic 5:2 'from of old'; Isa 9:6 'Mighty God'; Matt 22:42-45 (David's Son and Lord)."
+    - "Heylel H1966 is a different word from kokab; keep them apart in the prose."
+    - "shevet H7626 (scepter / staff / tribe) in Gen 49:10 and Num 24:17; Gen 49:9 lion and Num 24:9 lion."
+
+open_questions:
+  - "Excavator of Deir Alla (H. J. Franken? unverified) and a translator for Combination I (Hoftijzer & van der Kooij 1976; Hackett 1984; Context of Scripture 2.27) not verified. Wikipedia fetch was truncated and biblearchaeology.org returned 403. The ESV note quotes the opening ('Inscription of Balaam the son of Beor, the man who was a seer of the gods') and calls it 'certainly the same person' -- that is the ESV's claim; the text says only 'same name and title'. Mark confidence accordingly."
+  - "Pethor identification is disputed (Til Barsip 408); 'the River' + Amaw (22:5). Some witnesses read the land of 'his people' for Amaw: check before stating 'Euphrates' flat."
+  - "Num 22:20 'go with them' then 22:22 'God's anger was kindled because he went': settle in exegesis, do not smooth. ESV Study note blames fees/greed; text check needed."
+  - "Does the Deir Alla text confirm that Balaam's curses were thought effective (Combination I: the gods' council, darkness)? Needs a verified translation before claiming anything beyond the name and title."
+  - "Fork candidates: Balaam's counsel at Peor (Num 25, 31:16) as its own study; the talking donkey/miracles in Scripture."
+  - "Add Tell Deir Alla to docs/content/scripture/archaeological-sites.md (author said we will add it). Separate change."
+resources_consulted:
+  - {type: other, title: "Joel P. Kramer, Expedition Bible: Archaeology for the Star who will come from Jacob (YouTube Qrv1_C-I3Es)", author: "Joel Kramer", note: "2026-11-07; read from auto-captions. Contributed: the Shittim/Peor geography, the three-viewpoint walk, the Magi-route suggestion; star = deity reading not accepted as stated."}
+  - {type: commentary, title: "ESV Study Bible notes Num 22:1-6, 22:1-24:25, 24:15-19, 24:17", author: "Crossway", note: "Confirmed: Deir Alla same person; star/scepter kingship (Gen 49:10); contributed: 400-mile distance Pethor-Moab, Amaw. Reads 24:15-19 as Davidic first. Not carrying any step."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible Num 22:6, 24:17 (same in NKJV edition)", author: "Zondervan", note: "Contributed: ANE diviners' power to manipulate gods by blessing/curse (22:6); star as kingship symbol hard to document; Alexander Jannaeus coin; Akiba/Bar Kokhba. Corrects Kramer's star=deity claim."}
+  - {type: commentary, title: "NLT Life Application Study Bible, NIV Biblical Theology Study Bible notes on Num 22:4-6 and 24:17", author: "Tyndale; Zondervan", note: "Life Application: Balaam known for the effectiveness of his blessings and curses. Biblical Theology: Davidic beginning, final fulfilment in Jesus (Rev 5:5; 22:16)."}
+  - {type: other, title: "Wikipedia: Deir Alla inscription (truncated fetch, via subagent)", author: "", note: "Discovery 1967, 119 plaster fragments, Combination I opening, date range, Jordan Archaeological Museum. Secondary; verify against Hoftijzer & van der Kooij, Hackett, CoS 2.27."}
+  - {type: other, title: "bible-references MCP: passage_brief Num 22, bible_passage BSB Num 22-24, 31, 2 Pet 2:15-16, study_verse ESV Num 22:5-12, 22:31-33, 24:2-4, 24:15-19, bible_word H1540, bible_trace Num 24:9, 24:17, Gen 12:3, bible_variants Num 24:17", author: "", note: "2026-11-07."}
+last_updated: "2026-11-07"
+
+review_2026-11-07:
+  reviewer: "self (the drafting agent, at the author's request; an independent session is still recommended)"
+  checked: "81 BSB quotations re-queried from berean-bsb by script; ESV Num 24:4 re-queried; Strong's ids; nakah/galah/kokab counts; footnotes Num 22-24 (LSB, CSB-AF, NLT); NIV BT notes on 22:22 and 24:17 as the independent commentary; review_gaps; strongs_suggest; alignment_ranking; sibling passages (names-of-jesus, sorcery, test-the-spirits, cities-of-the-plain); validate; mkdocs --strict."
+  critical:
+    - "'Balaam's last oracle' (Key Takeaways; Star section): Num 24:20-24 has three more oracles (Amalek, Kenites, Cyprus/Kittim)."
+    - "'Balaam says five times': also Num 22:8 and 23:3, so at least seven."
+    - "'In 24:9 Israel is the subject': Israel is the 'you', the object; in 22:6 the 'you' was the seer. Discussion question 1 builds on it."
+    - "'The only star in Scripture that is a god is the idol' contradicts the study's own Rev 22:16 conclusion."
+    - "Misquotes: Num 24:13 ('LORD.' for 'LORD?'); Num 23:10 (truncated with an added '?'); Num 24:4 ESV (added comma)."
+    - "'The next time Numbers names him, Moses is blaming him': Num 31:8 names him first."
+  moderate:
+    - "Num 24:9 'repeats Genesis 12:3': its words are Gen 27:29 (Isaac on Jacob) with the halves reversed; Gen 12:3 uses qalal for one curse."
+    - "4Q175 date sentence: 125 BC is placed 'inside' a range stated as around the first century BC; Kramer's copy is not shown to be 4Q175."
+    - "'the text agrees with the order' (south to north): the text gives a widening view; Deut 3:29 does not name Shittim. Attribute the inference to Kramer."
+    - "nakah H5221: BSB renders 'defeat' (22:6) and 'beat' (22:23...), so the BSB quotation hides the link the study argues; say the study follows 'strike' (ULT) and why."
+    - "About 15 short quotations carry no translation label."
+    - "About 35 references omit the book (incl. discussion questions)."
+    - "Gaps: Ps 110:1 (quoted in Matt 22:44) unnamed; 1 Cor 10:6-11 (Peor as warning) unnamed; Rev 5:5 (Lion of Judah, Root of David) unnamed."
+    - "Context coverage partial: author/date, genre lens and the cultural/transcultural line are implicit."
+  minor: "Balak builds the altars at Balaam's word; perverse/'Lit reckless' footnote; galah identity stated flat; 'neighbours'; 'clearest prophecy' superlative; Rev 22:16 cited for the scepter; Job 38:7 parallelism flat; 'Gentile seers'; cities-of-the-plain link wording; patach tag shape; undisclosed footnotes 22:5, 23:28, 24:17; ESV note quote drops '[v. 5]'; Wikipedia Deir Alla source not listed; bible_references missing Josh 24:9-10, Gen 27:29 and others; provenance unfilled; Kramer named 13 times in report register; Attitude stands on Rom 8:31 where Num 23:23 is available; 'Hasmonean' unglossed; cite Num 22:2 for Sihon/Og."
+  commentary_check: "NIV Biblical Theology Study Bible (not cited): 22:22 confirms the permission/anger reading and the greed motive (v. 35; 2 Pet 2:15); 24:17 confirms the Christological reading with a Davidic first stage, which the study already marks contested. CSB Ancient Faith: silent."
+  statement_of_faith: "No conflict. The Scepter-at-His-return reading is consistent with the End times section."
+  status: "findings presented to the author; nothing fixed yet"
+
+graphics_2026-11-07:
+  map: "docs/content/assets/img/balaam/plains-of-moab-map.svg (utils/build_balaam_graphics.py plains_of_moab): SRTM relief cached in docs/data/maps/plains-of-moab-relief.json; sites from OpenBible as Kramer identifies them; camp per Numbers 33:49 (dashed outline); sight lines per Numbers 22:41; 23:13; 24:2; inset with Arnon (22:36), Tell Deir Alla, Pethor ~580 km (disputed)."
+  chart: "docs/content/assets/img/balaam/balaam-remembered.svg (balaam_remembered): OT memory (Deut 23:4-5; Josh 24:9-10; Neh 13:1-2; Mic 6:5) beside NT warnings (2 Pet 2:15-16; Jude 11; Rev 2:14; 1 Cor 10:8, 11 dashed)."
+  comic: "docs/data/comics/the-donkey-and-her-prophet.toml -> docs/content/assets/img/comics/the-donkey-and-her-prophet.svg; all 7 ESV bubbles pass --verify. New in utils/lib/comic.py: reserved figure balaam; props donkey, donkey_down, angel_sword, fieldwall."
+  donkey_gender: "Female: aton H860, 14 occurrences in Num 22:21-33, feminine verbs; 2 Pet 2:16 hypozygion (G5268) is neuter. Title changed to Her Prophet."
