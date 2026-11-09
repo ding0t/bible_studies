@@ -1429,9 +1429,21 @@ def _donkey_head(hx, hy, tilt):
             f'<circle cx="{hx - 2}" cy="{hy - 2}" r="1.3" fill="#1d1a16"/></g>')
 
 
-def prop_donkey(x, y, s):
+CLOAKS = ("#6b4f8a", "#b0763a", "#3f6a73")
+
+
+def prop_donkey(x, y, s, colt=False):
     """A she-donkey (אָתוֹן, Numbers 22:21-33), standing, saddled (22:21), facing right. Her back is 48
-    units up, so a rider seated on her takes stance = "sit" and dy = -0.208 * s in a 300-high panel."""
+    units up, so a rider seated on her takes stance = "sit" and dy = -0.208 * s in a 300-high panel.
+    colt=True draws the colt of the triumphal entry instead: no saddle, the disciples' cloaks thrown
+    over its back (Mark 11:7; Luke 19:35), three colours so they read as several garments."""
+    if colt:
+        tack = "".join(f'<path d="M{-20 + k * 6} {-53 + k} Q{-4 + k * 6} {-58 + k} {14 + k * 4} {-52 + k} L{16 + k * 3} {-28 + k * 2} '
+                       f'Q{-2 + k * 5} {-24 + k * 2} {-22 + k * 6} {-28 + k * 2} Z" fill="{c}" stroke="#2a2016" stroke-width="0.9"/>'
+                       for k, c in enumerate(CLOAKS))
+    else:
+        tack = (f'<path d="M-16 -52 Q-2 -56 12 -52 L13 -36 Q-2 -33 -17 -36 Z" fill="{SADDLE}" stroke="#3e1d14" stroke-width="1"/>'
+                '<path d="M-16 -36 l1 4 M-11 -35 l1 4 M-6 -34 l0 4 M-1 -34 l0 4 M4 -34 l0 4 M9 -35 l0 4" stroke="#3e1d14" stroke-width="1.2"/>')
     legs = "".join(f'<path d="M{lx} -30 L{lx + d} -2" stroke="{DONKEY_EDGE}" stroke-width="6" stroke-linecap="round"/>'
                    f'<path d="M{lx} -30 L{lx + d} -2" stroke="{DONKEY}" stroke-width="4" stroke-linecap="round"/>'
                    f'<ellipse cx="{lx + d}" cy="-1" rx="3.5" ry="2" fill="#2a2520"/>'
@@ -1444,10 +1456,53 @@ def prop_donkey(x, y, s):
             f'<ellipse cx="2" cy="-30" rx="24" ry="5" fill="{DONKEY_PALE}" opacity="0.5"/>'
             f'<path d="M22 -46 Q34 -64 44 -66 L50 -58 Q38 -50 32 -30 Z" fill="{DONKEY}" stroke="{DONKEY_EDGE}" stroke-width="1.1"/>'
             f'<path d="M24 -50 Q34 -66 43 -68" fill="none" stroke="#3a342d" stroke-width="2.4" stroke-linecap="round"/>'
-            + _donkey_head(50, -62, 30) +
-            f'<path d="M-16 -52 Q-2 -56 12 -52 L13 -36 Q-2 -33 -17 -36 Z" fill="{SADDLE}" stroke="#3e1d14" stroke-width="1"/>'
-            '<path d="M-16 -36 l1 4 M-11 -35 l1 4 M-6 -34 l0 4 M-1 -34 l0 4 M4 -34 l0 4 M9 -35 l0 4" stroke="#3e1d14" stroke-width="1.2"/>'
+            + _donkey_head(50, -62, 30) + tack + '</g>')
+
+
+def prop_colt(x, y, s):
+    """The colt Jesus rode, "on which no one has ever sat" (Mark 11:2), with the cloaks on its back."""
+    return prop_donkey(x, y, s, colt=True)
+
+
+HORSE = "#f4f2ec"
+HORSE_SHADE = "#dad6ca"
+HORSE_EDGE = "#7d786c"
+
+
+def prop_white_horse(x, y, s):
+    """A white horse, facing right, unsaddled: "behold, a white horse!" (Revelation 19:11, 14).
+    Revelation gives its colour and nothing else. Taller than the donkey: its back is 68 units up, so a
+    rider takes stance = "sit" and dy = -0.295 * s in a 300-high panel."""
+    legs = "".join(f'<path d="M{lx} -46 L{lx + d} -3" stroke="{HORSE_EDGE}" stroke-width="7" stroke-linecap="round"/>'
+                   f'<path d="M{lx} -46 L{lx + d} -3" stroke="{HORSE if k % 2 else HORSE_SHADE}" stroke-width="5" stroke-linecap="round"/>'
+                   f'<ellipse cx="{lx + d}" cy="-1.5" rx="4" ry="2.2" fill="#5c564c"/>'
+                   for k, (lx, d) in enumerate(((-30, -4), (-20, 3), (24, 4), (34, -3))))
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<ellipse cx="0" cy="0" rx="48" ry="4.5" fill="#00000022"/>' + legs +
+            f'<path d="M-40 -64 Q-58 -52 -54 -22 Q-48 -36 -44 -50 Q-46 -36 -40 -26 Q-40 -46 -36 -60 Z" fill="{HORSE_SHADE}" stroke="{HORSE_EDGE}" stroke-width="1"/>'
+            f'<ellipse cx="0" cy="-58" rx="44" ry="17" fill="{HORSE}" stroke="{HORSE_EDGE}" stroke-width="1.2"/>'
+            f'<ellipse cx="0" cy="-48" rx="30" ry="5" fill="{HORSE_SHADE}" opacity="0.6"/>'
+            f'<path d="M24 -68 Q34 -98 50 -108 L62 -98 Q46 -86 42 -50 Z" fill="{HORSE}" stroke="{HORSE_EDGE}" stroke-width="1.2"/>'
+            f'<path d="M26 -72 Q34 -100 49 -111" fill="none" stroke="{HORSE_SHADE}" stroke-width="5" stroke-linecap="round"/>'
+            f'<path d="M26 -72 Q34 -100 49 -111" fill="none" stroke="{HORSE_EDGE}" stroke-width="1" stroke-dasharray="3 3"/>'
+            '<g transform="rotate(38 62 -98)">'
+            f'<path d="M52 -112 l2 -9 l4 8 z M57 -111 l3 -8 l3 8 z" fill="{HORSE}" stroke="{HORSE_EDGE}" stroke-width="0.9"/>'
+            f'<ellipse cx="62" cy="-102" rx="17" ry="8" fill="{HORSE}" stroke="{HORSE_EDGE}" stroke-width="1.1"/>'
+            f'<ellipse cx="75" cy="-101" rx="5" ry="5.5" fill="{HORSE_SHADE}" stroke="{HORSE_EDGE}" stroke-width="0.8"/>'
+            '<circle cx="57" cy="-105" r="1.5" fill="#1d1a16"/></g>'
             '</g>')
+
+
+def prop_diadems(x, y, s):
+    """Many royal crowns, the διαδήματα of Revelation 19:12 ("on his head are many diadems"): a row of
+    small gold circlets, set by y on the rider's head. The στέφανος wreath is `crown`."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">']
+    for k, dx in enumerate((-9, 9, 0)):
+        dy = -4 if k == 2 else 0
+        out.append(f'<path d="M{dx - 6} {dy} L{dx - 6} {dy - 7} L{dx - 3} {dy - 4} L{dx} {dy - 9} L{dx + 3} {dy - 4} L{dx + 6} {dy - 7} '
+                   f'L{dx + 6} {dy} Z" fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="0.8"/>')
+    out.append('</g>')
+    return "".join(out)
 
 
 def prop_donkey_down(x, y, s):
@@ -1501,7 +1556,8 @@ PROPS = {"fruit_tree": prop_fruit_tree, "thicket": prop_thicket, "serpent": prop
          "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall, "idol": prop_idol,
          "ark": prop_ark, "tower": prop_tower, "tablets": prop_tablets, "rainbow": prop_rainbow,
          "statue": prop_statue, "stone": prop_stone, "chaff": prop_chaff, "mountain": prop_mountain, "bed": prop_bed,
-         "donkey": prop_donkey, "donkey_down": prop_donkey_down, "angel_sword": prop_angel_sword, "fieldwall": prop_fieldwall}
+         "donkey": prop_donkey, "donkey_down": prop_donkey_down, "angel_sword": prop_angel_sword, "fieldwall": prop_fieldwall,
+         "colt": prop_colt, "white_horse": prop_white_horse, "diadems": prop_diadems}
 
 
 SCENES = {

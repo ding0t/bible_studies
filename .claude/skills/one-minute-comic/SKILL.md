@@ -292,7 +292,10 @@ clones:
   3:14, so the `note` says so), `idol` (a faceless stone god on a plinth with a smoking altar, Deuteronomy 32:17; 1 Corinthians 10:20), `wall` (a city wall with battlements for a watchman; a figure
   on it takes `dy = -0.303 * s`) and `hand` ("a hand was stretched out to me, and behold, a scroll",
   Ezekiel 2:9: an arm reaching down from above the frame, the scroll in the hand; give it a `y` well
-  above the ground). `y` defaults to
+  above the ground). Mounts: `colt` (the donkey's colt of the triumphal entry, the disciples' cloaks
+  on its back, Mark 11:7; a rider takes `stance = "sit"`, `dy = -0.198 * s`), `white_horse`
+  (Revelation 19:11, 14, unsaddled; a rider takes `dy = -0.308 * s`) and `diadems` (Revelation
+  19:12's many crowns, set by `y` on a rider's head). `y` defaults to
   the ground line; `s` scales. **`n` with `x2` draws a counted row**, so twelve baskets are twelve;
   stack two rows for a heap that still counts.
   `face = "left"` turns a prop round, so a flock can walk toward its shepherd.

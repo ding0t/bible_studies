@@ -1,0 +1,151 @@
+# One-minute comic for docs/content/jesus/the-king-on-a-donkey.md, section "Peace now, the white
+# horse later".
+# Drawn by: python3 utils/build_comics.py the-king-comes-twice
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-11-09.
+#
+# One King, two comings, beat for beat. He comes: on the colt down the Mount of Olives (Luke
+# 19:35-38), and on a white horse out of opened heaven (Revelation 19:11). What He comes to do: weep
+# over the city that did not know "the things that make for peace" (Luke 19:41-42), and strike down
+# the nations with the armies of heaven behind Him (Revelation 19:14-15). Who He is: Jerusalem asks
+# "Who is this?" while Matthew has already quoted "your king is coming to you, humble" (Matthew 21:5,
+# 10-11), and the name on His robe is "King of kings and Lord of lords" (Revelation 19:16).
+# The word thread: βασιλεύς (G935), "king", in Matthew 21:5 and Revelation 19:16 (SBLGNT).
+# The colt has no saddle and carries the disciples' cloaks because Mark 11:7 and Luke 19:35 say so;
+# Matthew 21:7 has two animals brought, and Jesus is drawn on the colt, the one Mark, Luke and John
+# say He sat on (Mark 11:7; Luke 19:35; John 12:14). The cloaks on the road are Luke 19:36. The tears
+# are Luke 19:41 ("he wept over it"). Revelation 19 gives the horse its colour only (19:11). The
+# diadems are 19:12; the eyes like fire, the robe dipped in blood (19:13) and the sword from His
+# mouth (19:15) are left to the text, since the cast's faces stay blank and the costume is fixed.
+# The armies are in white linen (19:14), the `robed` cast. Jerusalem is not drawn; captions place it.
+
+title = "The King Comes Twice"
+subtitle = "A donkey and a white horse, in one minute"
+layout = [[300, 1, 1], [300, 1, 1], [300, 1, 1], [46, 1]]
+headers = ["He came on a donkey", "He comes on a white horse"]
+numbers = false
+note = "Jesus is drawn on the colt, which Mark, Luke and John say He sat on. The diadems are Revelation 19:12's; the eyes like fire, the robe dipped in blood and the sword from His mouth are left to the text."
+point = "One King comes twice. He came on a donkey to save the world (John 12:47) and make peace by His cross (Colossians 1:20), and He will come on a white horse to judge and reign (Revelation 19:11). Come to Him now, while He comes to you in peace."
+
+[[panel]]
+ref = "Luke 19:35-38"
+scene = "hills"
+sky = "day"
+caption = "Jesus comes down the Mount of Olives on a colt."
+caption_w = 260
+shows = "Jesus rides a donkey's colt with cloaks on its back down a hillside; disciples walk ahead raising their hands"
+props = [
+  { what = "colt", x = 0.68, s = 0.95 },
+]
+cast = [
+  { who = "jesus", x = 0.66, stance = "sit", dy = -0.198, face = "right", pose = "stand" },
+  { who = "disciple", id = "crowd", name = "the crowd of disciples", n = 2, x = 0.08, x2 = 0.24, face = "right", pose = ["praise", "raise"], s = 0.9 },
+]
+say = [
+  { by = "crowd", style = "shout", text = "Blessed is the King who comes in the name of the Lord! *Peace in heaven*", source = "esv", at = [0.30, 0.37], w = 140 },
+]
+
+[[panel]]
+ref = "Revelation 19:11-12"
+scene = "vista"
+horizon = 0.62
+sky = "day"
+grade = "warm"
+caption = "Heaven opened, and a white horse."
+caption_w = 210
+shows = "Jesus rides a white horse out of opened heaven, many crowns on His head, with gold light behind"
+burst = { on = "jesus", color = "gold" }
+props = [
+  { what = "white_horse", x = 0.30, s = 1.0 },
+  { what = "diadems", x = 0.28, y = 0.30, s = 1.2 },
+]
+cast = [
+  { who = "jesus", x = 0.27, stance = "sit", dy = -0.308, face = "right", pose = "stand" },
+]
+say = [
+  { by = "john", name = "John", from = [1.05, 0.2], style = "text", text = "in righteousness he *judges and makes war*.", source = "esv", at = [0.77, 0.44], w = 140 },
+]
+
+[[panel]]
+ref = "Luke 19:41-42"
+scene = "hills"
+sky = "dusk"
+caption = "He drew near and saw the city."
+caption_w = 200
+shows = "Jesus on the colt stops and weeps, looking toward the city out of the picture"
+props = [
+  { what = "colt", x = 0.36, s = 0.95 },
+]
+cast = [
+  { who = "jesus", x = 0.34, stance = "sit", dy = -0.198, face = "right", pose = "heart", marks = ["tears"] },
+]
+say = [
+  { by = "jesus", text = "Would that you, even you, had known on this day the things that make for *peace*!", source = "esv", at = [0.70, 0.36], w = 160 },
+]
+
+[[panel]]
+ref = "Revelation 19:14-15"
+scene = "vista"
+horizon = 0.50
+sky = "day"
+caption = "The armies of heaven follow Him."
+caption_w = 200
+shows = "Jesus on the white horse leads; behind Him riders in white linen on white horses"
+props = [
+  { what = "white_horse", x = 0.10, s = 0.6 },
+  { what = "white_horse", x = 0.30, s = 0.6 },
+  { what = "white_horse", x = 0.66, s = 1.0 },
+]
+cast = [
+  { who = "robed", id = "armies", name = "the armies of heaven, in white linen", x = 0.085, dy = -0.185, s = 0.6, stance = "sit", face = "right" },
+  { who = "robed", id = "armies2", name = "the armies of heaven, in white linen", x = 0.285, dy = -0.185, s = 0.6, stance = "sit", face = "right", tone = 1 },
+  { who = "jesus", x = 0.63, stance = "sit", dy = -0.308, face = "right", pose = "stand" },
+]
+say = [
+  { by = "john", name = "John", from = [1.05, 0.2], style = "text", text = "From his mouth comes a sharp sword with which to *strike down the nations*", source = "esv", at = [0.29, 0.21], w = 175 },
+]
+
+[[panel]]
+ref = "Matthew 21:5, 10-11"
+scene = "street"
+sky = "day"
+caption = "Jerusalem is stirred: “Who is this?”"
+caption_w = 150
+shows = "Jesus on the colt in a city street; a man in the crowd answers"
+props = [
+  { what = "colt", x = 0.34, s = 0.95 },
+]
+cast = [
+  { who = "jesus", x = 0.32, stance = "sit", dy = -0.198, face = "right", pose = "stand" },
+  { who = "man", id = "crowd", name = "a man in the crowd", x = 0.92, face = "left", pose = "point", tone = 2 },
+]
+say = [
+  { by = "matthew", name = "Matthew", from = [1.05, 0.2], style = "text", text = "Behold, your *king* is coming to you, humble", source = "esv", at = [0.74, 0.15], w = 150 },
+  { by = "crowd", text = "This is the prophet Jesus, from Nazareth of Galilee.", source = "esv", at = [0.61, 0.45], w = 140 },
+]
+
+[[panel]]
+ref = "Revelation 19:16"
+scene = "vista"
+horizon = 0.62
+sky = "day"
+grade = "warm"
+caption = "The name on His robe."
+caption_w = 160
+shot = "medium"
+camera = { on = "jesus", zoom = 1.5, at = [0.34, 0.42] }
+shows = "Jesus on the white horse, nearer, crowns on His head"
+props = [
+  { what = "white_horse", x = 0.46, s = 1.0 },
+  { what = "diadems", x = 0.44, y = 0.30, s = 1.2 },
+]
+cast = [
+  { who = "jesus", x = 0.43, stance = "sit", dy = -0.308, face = "right", pose = "stand" },
+]
+say = [
+  { by = "john", name = "John", from = [1.05, 0.2], style = "text", text = "On his robe and on his thigh he has a name written, *King of kings* and Lord of lords.", source = "esv", at = [0.76, 0.34], w = 150 },
+]
+
+[[panel]]
+kind = "thread"
+text = "βασιλεύς, “king”: the same word at both comings"
+at = [0.25, 0.75]
