@@ -196,18 +196,22 @@
   text-align: center;
 }
 .hw-cell:last-child { border-left: 0; }
-/* The glyph's baseline sits on the row's baseline (70 %): the em box is lifted by the font's
-   descent, which differs per script. */
+/* The glyph's baseline sits on the row's baseline, 70 % of the row's height down: the em box is
+   lifted by the 30 % below it less --hw-descent, where the font puts its baseline inside a
+   line-height-1 box: (descent - (ascent + descent - em) / 2) / em from its hhea table. The 30 % is of
+   the row's height, worked out from the sheet (270 mm over --rows rows), because a percentage
+   padding is a percentage of the box's width, and the model column is wider than the tracing
+   ones: written as 30 %, it set every traced letter about 3 mm lower than its model. */
 .hw-model, .hw-trace {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  padding-bottom: calc(30% - var(--hw-descent, 0.27em));
+  padding-bottom: calc(0.3 * 270 * var(--mm) / var(--rows) - var(--hw-descent, 0.27em));
 }
-.hw-square { --hw-size: 17; --hw-descent: 0.28em; }
-.hw-simple { --hw-size: 14; --hw-descent: 0.25em; }
-.hw-cursive { --hw-size: 15; --hw-descent: 0.22em; }
-.hw-paleo { --hw-size: 15; --hw-descent: 0em; }
+.hw-square { --hw-size: 17; --hw-descent: 0.197em; }
+.hw-simple { --hw-size: 14; --hw-descent: 0.195em; }
+.hw-cursive { --hw-size: 15; --hw-descent: 0.16em; }
+.hw-paleo { --hw-size: 15; --hw-descent: 0.112em; }
 .hw-trace { color: var(--hw-trace); }
 .hw-model small {
   position: absolute;
@@ -261,12 +265,15 @@
   font-family: var(--hw-font);
   font-size: calc(7 * var(--mm));
   line-height: 1;
-  padding-bottom: calc(22% - var(--hw-descent, 0.27em));
+  /* The baseline is 78 % down the line, so the word is lifted by the 22 % below it, of the line's
+     height: a name's share of the sheet (270 mm over --rows) less its 6 mm header and 1.5 mm
+     padding, over its three lines. Written as 22 % it was 22 % of the 56 mm column's width. */
+  padding-bottom: calc(0.22 * (270 * var(--mm) / var(--rows) - 7.5 * var(--mm)) / 3 - var(--hw-descent, 0.27em));
   white-space: nowrap;
 }
-.hw-line:first-of-type { --hw-descent: 0.28em; }
-.hw-line-cursive { --hw-descent: 0.22em; }
-.hw-line-paleo { --hw-descent: 0.02em; }
+.hw-line:first-of-type { --hw-descent: 0.197em; }
+.hw-line-cursive { --hw-descent: 0.16em; }
+.hw-line-paleo { --hw-descent: 0.112em; }
 .hw-model-word { align-self: stretch; display: flex; align-items: flex-end; justify-content: flex-start; }
 .hw-copy { border-right: calc(0.2 * var(--mm)) dotted var(--hw-guide); align-self: stretch; }
 
