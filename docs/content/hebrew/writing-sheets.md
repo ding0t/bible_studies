@@ -1,13 +1,13 @@
 ---
 title: "Writing Sheets"
 category: "other"
-description: "Printable A4 handwriting sheets for the Hebrew letters in square script, cursive and Paleo-Hebrew, with guide lines and letters to trace, and a sheet of the names of God to copy in all three scripts."
+description: "Printable A4 handwriting sheets for the Hebrew letters in square script, simple cursive, cursive and Paleo-Hebrew, with guide lines and letters to trace, and a sheet of the names of God to copy in all three scripts."
 tags: ["lang/hebrew", "learning", "alphabet", "printable"]
 draft: false
 primary_passage: "Deuteronomy 6:6-9"
 bible_references: ["Deuteronomy 6:6-9"]
 date_created: 2026-10-17
-date_modified: 2026-10-17
+date_modified: 2026-11-09
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -31,6 +31,11 @@ quickest way to learn to recognise it.
    down to the bottom one.
 4. **One sheet a day** is enough. Say each letter's name and sound aloud as you write it.
 
+**Which set first?** The square script is what you will read in a Hebrew Bible. To write Hebrew the
+way Israelis do, start with **Simple cursive**: the handwritten letter shapes, upright and in an
+even line, so each one is easy to copy. **Cursive** is the same hand written quickly, with a slant
+and thick and thin strokes; move on to it once the simple shapes come without thinking.
+
 The **Names of God** sheets put each name from the [word cards](names-of-god-cards.md) in square
 script, cursive and Paleo-Hebrew, with space to copy each beside its model. [Three
 Scripts](three-scripts.md) explains where each script comes from.
@@ -45,7 +50,9 @@ set you have chosen prints.
 
 ## Sources
 
-The cursive is set in [Gveret Levin](https://github.com/AlefAlefAlef/gveret-levin) by AlefAlefAlef,
+The simple cursive is set in [Playpen Sans Hebrew](https://fonts.google.com/specimen/Playpen+Sans+Hebrew)
+by TypeTogether, a typeface made for teaching handwriting; the cursive in
+[Gveret Levin](https://github.com/AlefAlefAlef/gveret-levin) by AlefAlefAlef;
 the square script in Noto Serif Hebrew and the Paleo-Hebrew in Noto Sans Phoenician, all under the
 SIL Open Font License. The names of God are those on the word cards, each checked against the
 Masoretic text (STEPBible TAHOT, CC BY).

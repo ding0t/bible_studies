@@ -1,8 +1,10 @@
 """Render A4 Hebrew handwriting sheets wherever a page carries `<!-- hebrew-writing -->`.
 
-Four sets, one shown (and printed) at a time through a radio switch, CSS only:
+Five sets, one shown (and printed) at a time through a radio switch, CSS only:
 
 - square    the printed letters of every Hebrew Bible, the 22 and their five final forms
+- simple    the cursive shapes upright in an even line, the plainest hand to copy first
+            (Playpen Sans Hebrew, SIL OFL, a typeface made for teaching handwriting)
 - cursive   the same 27 forms as Israelis write them by hand (Gveret Levin, SIL OFL)
 - paleo     the 22 letters in the script Israel wrote before the exile (Unicode Phoenician)
 - names     the names of God from docs/data/hebrew-cards.json, to copy in all three scripts
@@ -43,11 +45,13 @@ _ALPHABET = "אבגדהוזחטיכלמנסעפצקרשת"
 _PALEO = {letter: chr(0x10900 + i) for i, letter in enumerate(_ALPHABET)}
 _SETS = (
     ("square", "Square print", "the letters of every printed Hebrew Bible"),
-    ("cursive", "Cursive", "how Israelis write by hand today"),
+    ("simple", "Simple cursive", "the handwritten shapes, upright and plain: start here"),
+    ("cursive", "Cursive", "how Israelis write by hand today, slanted and quick"),
     ("paleo", "Paleo-Hebrew", "the script of Israel before the exile"),
     ("names", "Names of God", "copy each name in all three scripts"),
 )
-_NOTICE = "the-way.lewy.au/hebrew/writing-sheets · Cursive: Gveret Levin, SIL OFL · Paleo: Noto Sans Phoenician, SIL OFL"
+_NOTICE = ("the-way.lewy.au/hebrew/writing-sheets · Simple cursive: Playpen Sans Hebrew · Cursive: Gveret Levin · "
+           "Paleo: Noto Sans Phoenician · all SIL OFL")
 
 _cards: list[dict] = []
 
@@ -73,6 +77,7 @@ def on_page_content(html, page, config, files):  # noqa: ARG001 - hook signature
 def render() -> str:
     letter_rows = {
         "square": [(c, n, s) for c, n, s in _LETTERS],
+        "simple": [(c, n, s) for c, n, s in _LETTERS],
         "cursive": [(c, n, s) for c, n, s in _LETTERS],
         # Names only: Israeli sounds would be anachronistic for the pre-exile script (vav was w).
         "paleo": [(_PALEO[c], n, "") for c, n, s in _LETTERS if c in _PALEO],

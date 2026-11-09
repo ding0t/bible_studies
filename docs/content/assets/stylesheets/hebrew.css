@@ -3,7 +3,7 @@
  * Paleo-Hebrew has no font of its own on most devices. Unicode encodes it as Phoenician
  * (U+10900-1091F), the same 22-letter alphabet Israel wrote before the exile, so the Phoenician
  * font draws it. */
-@import url("https://fonts.googleapis.com/css2?family=Gveret+Levin&family=Noto+Sans+Phoenician&family=Noto+Serif+Hebrew:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gveret+Levin&family=Playpen+Sans+Hebrew&family=Noto+Sans+Phoenician&family=Noto+Serif+Hebrew:wght@400;600&display=swap");
 
 /* Hebrew in running text. The site font (Roboto) has no Hebrew, so a browser substituted whatever
  * the device had, at body size, and vowel points crowded into illegibility. Noto Serif Hebrew is
@@ -152,6 +152,7 @@
 
 .hw-set { display: none; }
 .hw-deck:has(.hw-opt-square:checked) .hw-square,
+.hw-deck:has(.hw-opt-simple:checked) .hw-simple,
 .hw-deck:has(.hw-opt-cursive:checked) .hw-cursive,
 .hw-deck:has(.hw-opt-paleo:checked) .hw-paleo,
 .hw-deck:has(.hw-opt-names:checked) .hw-names { display: block; }
@@ -162,6 +163,7 @@
   --hw-trace: #cfcac2;
 }
 .hw-square, .hw-names .hw-line:first-of-type { --hw-font: "Noto Serif Hebrew", serif; }
+.hw-simple { --hw-font: "Playpen Sans Hebrew", cursive; }
 .hw-cursive, .hw-line-cursive { --hw-font: "Gveret Levin", cursive; }
 .hw-paleo, .hw-line-paleo { --hw-font: "Noto Sans Phoenician", sans-serif; }
 
@@ -203,6 +205,7 @@
   padding-bottom: calc(30% - var(--hw-descent, 0.27em));
 }
 .hw-square { --hw-size: 17; --hw-descent: 0.28em; }
+.hw-simple { --hw-size: 14; --hw-descent: 0.25em; }
 .hw-cursive { --hw-size: 15; --hw-descent: 0.22em; }
 .hw-paleo { --hw-size: 15; --hw-descent: 0em; }
 .hw-trace { color: var(--hw-trace); }
