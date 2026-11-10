@@ -25,6 +25,7 @@ import {
   parseStrongs,
   resolveRelative,
 } from '../utils/scriptureRefs.js';
+import { canSpeak, speak } from '../utils/speech.js';
 
 const SITE = new URL('../../', import.meta.url);
 const DATA = new URL('assets/popups/', SITE);
@@ -44,6 +45,19 @@ const BLOCK = 'p, li, td, th, dd, blockquote, figcaption';
 const HEADING = /^H([2-6])$/;
 
 const cache = new Map();
+
+// The device's own Hebrew or Greek voice (utils/speech.js). Hidden where the browser has no speech.
+function hearButton(texts, lang, label) {
+  if (!canSpeak()) return null;
+  const button = el('button', {
+    type: 'button',
+    class: 'pop-link pop-hear',
+    title: `Spoken by your device's ${lang === 'he' ? 'Hebrew' : 'Greek'} voice`,
+    onclick: () => speak(texts, lang, () => { button.textContent = `No ${lang === 'he' ? 'Hebrew' : 'Greek'} voice on this device`; }),
+  }, `\u{1F50A} ${label}`);
+  return button;
+}
+
 function load(path) {
   if (!cache.has(path)) {
     cache.set(
@@ -467,6 +481,7 @@ async function renderVerse(ref, withContext = false) {
     }
   };
   let source = `${book.t.name} (${book.t.licence}).`;
+  const spoken = [];
   const chapters = new Map();
   await Promise.all(
     [...new Set(shown.map((s) => s.c))].map(async (c) => chapters.set(c, await load(`original/${ref.book}/${c}.json`).catch(() => null)))
@@ -482,13 +497,17 @@ async function renderVerse(ref, withContext = false) {
       text.append(el('span', { class: cited ? 'pop-verse' : 'pop-verse pop-around' }, el('sup', {}, String(v)), ' ', linked, borrowed, ' '));
     }
   } else if (chapters.size && [...chapters.values()].every(Boolean)) {
-    source = renderOriginal(text, shown, chapters, lens, testament, chapterHeading);
+    source = renderOriginal(text, shown, chapters, lens, testament, chapterHeading, spoken);
   } else {
     text.append(el('p', { class: 'pop-muted' }, 'The original-language text could not be loaded.'));
   }
   const footnotes = shown.filter((s) => s.cited).flatMap(({ c, v }) => (book.n?.[`${c}:${v}`] ?? []).map((n) => (shown.length > 1 ? `${v}: ${n}` : n)));
 
   const actions = el('div', { class: 'pop-actions' });
+  if (spoken.length) {
+    const hebrew = (testament === 'ot' && lens !== 'lxx') || lens === 'hebrew-nt';
+    actions.append(hearButton(spoken, hebrew ? 'he' : 'el', spoken.length > 1 ? 'Hear the verses' : 'Hear the verse') ?? '');
+  }
   if (ref.v1 !== undefined) {
     actions.append(
       el('button', {
@@ -623,7 +642,8 @@ function englishLinked(verseText, original) {
   return out;
 }
 
-function renderOriginal(text, shown, chapters, lens, testament, chapterHeading) {
+// spoken collects the cited verses' text, a verse to an entry, for "Hear the verse".
+function renderOriginal(text, shown, chapters, lens, testament, chapterHeading, spoken) {
   const hebrew = (testament === 'ot' && lens !== 'lxx') || lens === 'hebrew-nt';
   const lang = hebrew ? 'he' : 'grc';
   text.classList.add('pop-orig', lens === 'interlinear' ? 'pop-interlinear' : 'pop-running');
@@ -651,6 +671,7 @@ function renderOriginal(text, shown, chapters, lens, testament, chapterHeading) 
   for (const { c, v, cited } of shown) {
     chapterHeading(c);
     const chapter = chapters.get(c);
+    const said = [];
     const verse = el('span', { class: cited ? 'pop-verse' : 'pop-verse pop-around' }, el('sup', { dir: 'ltr' }, String(v)), ' ');
     const missing = (note) => verse.append(el('span', { class: 'pop-muted', lang: 'en', dir: 'ltr' }, note));
     if (lens === 'lxx' || lens === 'hebrew-nt') {
@@ -662,6 +683,7 @@ function renderOriginal(text, shown, chapters, lens, testament, chapterHeading) 
       }
       for (const [label, other] of typeof found === 'string' ? [[null, found]] : found?.p ?? []) {
         verse.append(label ? alt(label) : '', label ? ' ' : '', other, ' ');
+        said.push(other);
       }
     } else {
       const found = chapter.v[v];
@@ -671,9 +693,11 @@ function renderOriginal(text, shown, chapters, lens, testament, chapterHeading) 
       for (const [label, words] of Array.isArray(found) ? [[null, found]] : found?.p ?? []) {
         if (label) verse.append(alt(label), ' ');
         verse.append(...words.flatMap((w) => word(w, shared.has(index++))));
+        said.push(words.map(([form]) => form).join(' '));
       }
     }
     text.append(verse, ' ');
+    if (cited && said.length) spoken.push(said.join(' '));
   }
 
   if (lens === 'lxx') return 'Septuagint: Brenton’s edition (public domain), at the verse the Hebrew’s number maps to.';
@@ -794,7 +818,8 @@ async function renderWord(id, form, morph) {
   const parts = [
     el('div', { class: 'pop-lemma' },
       el('span', { class: 'pop-script', dir: semitic ? 'rtl' : 'ltr', lang: semitic ? 'he' : 'grc' }, word.l),
-      el('span', { class: 'pop-translit' }, word.t.replace(/\./g, '\u00b7'))
+      el('span', { class: 'pop-translit' }, word.t.replace(/\./g, '\u00b7')),
+      hearButton(word.l, semitic ? 'he' : 'el', 'Hear it')
     ),
     el('p', { class: 'pop-gloss' }, word.g),
     el('p', { class: 'pop-counts' }, counts.join(' \u00b7 ')),
@@ -901,7 +926,7 @@ async function parseOf(form, prefix, morph) {
   const readings = parts.map((p) => grammar[p]).filter(Boolean);
   if (readings.length !== parts.length) return null;
   return el('div', { class: 'pop-section' },
-    el('span', { class: 'pop-label' }, `This form, ${form.trim()}`),
+    el('span', { class: 'pop-label' }, `This form, ${form.trim()} `, hearButton(form.trim(), prefix === 'H' ? 'he' : 'el', 'Hear it')),
     readings.map(([label, meaning, example]) =>
       el('p', { class: 'pop-grammar' },
         el('strong', {}, label.replace(/\s+:\s+/, ' ')),

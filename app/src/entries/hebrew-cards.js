@@ -7,7 +7,8 @@
 //
 // Progress is a per-browser convenience, kept in localStorage: it can be missing or blocked, so
 // every read and write is guarded and the page works without it.
-import { review, sessionQueue, spokenText } from '../utils/cardReview.js';
+import { review, sessionQueue } from '../utils/cardReview.js';
+import { speak } from '../utils/speech.js';
 
 const DAY_KEY = () => new Date().toISOString().slice(0, 10);
 
@@ -25,24 +26,6 @@ function save(key, value) {
   } catch {
     // Private window or blocked storage: the session still runs, it just is not remembered.
   }
-}
-
-const { speechSynthesis, SpeechSynthesisUtterance } = globalThis;
-
-function findVoice(prefix) {
-  return speechSynthesis?.getVoices().find((v) => v.lang.toLowerCase().startsWith(prefix)) ?? null;
-}
-
-function speak(text, prefix) {
-  const voice = findVoice(prefix);
-  if (!voice) return false;
-  const utterance = new SpeechSynthesisUtterance(prefix === 'he' ? spokenText(text) : text);
-  utterance.voice = voice;
-  utterance.lang = voice.lang;
-  utterance.rate = 0.8;
-  speechSynthesis.cancel();
-  speechSynthesis.speak(utterance);
-  return true;
 }
 
 function el(tag, attrs = {}, ...children) {
@@ -110,7 +93,7 @@ function mount(deck) {
     }
     const card = cards[queue[0]];
     const hear = el('button', { type: 'button', class: 'md-button', onclick: () => {
-      if (!speak(wordOf(card), voice)) hear.textContent = `No ${lang === 'he' ? 'Hebrew' : 'Greek'} voice on this device`;
+      speak(wordOf(card), voice, () => { hear.textContent = `No ${lang === 'he' ? 'Hebrew' : 'Greek'} voice on this device`; });
     } }, 'Hear it');
     const face = el('div', { class: 'hc-screen-card', lang },
       el('p', { class: 'hc-word', dir }, wordOf(card)),
@@ -134,6 +117,4 @@ function mount(deck) {
   render();
 }
 
-// Voices load asynchronously in some browsers; asking once early makes the first "Hear it" work.
-speechSynthesis?.getVoices();
 document.querySelectorAll('.hc-deck').forEach(mount);

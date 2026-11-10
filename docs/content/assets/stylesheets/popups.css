@@ -175,6 +175,16 @@ button.pop-chip:hover {
   font-style: italic;
   font-size: 0.95rem;
 }
+.pop-hear {
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: nowrap;
+}
+.pop-lemma .pop-hear {
+  margin-left: auto;
+}
 .pop-gloss {
   font-size: 0.9rem;
   font-weight: 700;

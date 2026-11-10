@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { INTERVAL_DAYS, NEW_PER_DAY, review, sessionQueue, spokenText } from './cardReview.js';
+import { INTERVAL_DAYS, NEW_PER_DAY, review, sessionQueue } from './cardReview.js';
 
 const DAY = 24 * 60 * 60 * 1000;
 const NOW = Date.UTC(2026, 9, 18);
@@ -32,11 +32,4 @@ test('the top box holds rather than overflowing', () => {
 
 test('a miss sends the card back to box 0, due again now', () => {
   assert.deepEqual(review({ box: 4, due: NOW }, false, NOW), { box: 0, due: NOW });
-});
-
-test('the divine name is spoken as Adonai, in a phrase and alone', () => {
-  assert.equal(spokenText('יְהוָה רֹפְאֶךָ'), 'אֲדֹנָי רֹפְאֶךָ');
-  assert.equal(spokenText('יהוה'), 'אֲדֹנָי');
-  assert.equal(spokenText('אֵל שַׁדַּי'), 'אֵל שַׁדַּי');
-  assert.equal(spokenText('אֲדֹנָי יְהוִה'), 'אֲדֹנָי אֱלֹהִים');
 });

@@ -22,9 +22,3 @@ export function review(entry, correct, now) {
   const box = Math.min((entry?.box ?? 0) + 1, INTERVAL_DAYS.length - 1);
   return { box, due: now + INTERVAL_DAYS[box] * DAY };
 }
-
-/** The text to speak: the divine name is read Adonai, never sounded out, and where it is pointed
- * for Elohim (after Adonai, as in Isaiah 61:1) it is read Elohim. */
-export function spokenText(hebrew) {
-  return hebrew.replace(/יְהוִה/g, 'אֱלֹהִים').replace(/יְהוָה|יהוה/g, 'אֲדֹנָי');
-}
