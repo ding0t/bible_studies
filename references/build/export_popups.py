@@ -727,8 +727,10 @@ def read_grammar() -> dict[str, list[str]]:
 
 def main() -> int:
     conn = query.connect()
-    if OUT.exists():
-        shutil.rmtree(OUT)
+    # Clear only what this script writes. renderings.json beside them is alignment_ranking.py's and
+    # committed; wiping the whole folder deleted it, and the pop-up loads it with a silent fallback.
+    for owned in ("verses", "words", "forms", "parse", "original"):
+        shutil.rmtree(OUT / owned, ignore_errors=True)
     books = export_verses(conn)
     shards = export_words(conn)
     grammar, used = read_grammar(), {}
