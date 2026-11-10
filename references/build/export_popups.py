@@ -253,9 +253,26 @@ def individuals(conn) -> dict[str, list[dict]]:
             for number, people in found.items()}
 
 
+# STEPBible heads the divine name יְהֹוָה and transliterates it ye.ho.vah: the minority pointing (46
+# times in the WLC, against 5,677 for יְהוָה) read as though its vowels were the name's own, which
+# is how "Jehovah" was coined (docs/content/hebrew/pronunciation.md). The card prints the name as
+# the text does and says how it is read, as the word cards do.
+DIVINE_NAME = {
+    3068: {"l": "יְהוָה", "t": "Yahweh (read Adonai)"},
+    3069: {"l": "יְהוִה", "t": "Yahweh (read Elohim)"},
+}
+# STEPBible files ὕψιστος "Most High" as "the Greek of" H3068, yet its own entry says the LXX uses it
+# "chiefly for עֶלְיוֹן"; kept, the YHWH card called it "the Greek spelling" of the name.
+NOT_THE_GREEK_OF = {5310}
+
+
 def export_words(conn) -> int:
     hebrew = read_lexicon(next(LEXICONS.glob("TBESH*.txt")), "H")
     greek = read_lexicon(next(LEXICONS.glob("TBESG*.txt")), "G")
+    for number, fix in DIVINE_NAME.items():
+        hebrew[number].update(fix)
+    for number in NOT_THE_GREEK_OF:
+        greek[number].pop("e", None)
     ot, ot_glosses, ot_places = usage(conn, "macula-hebrew-wlc")
     nt, nt_glosses, nt_places = usage(conn, "macula-greek-sblgnt")
     lxx, _, _ = usage(conn, "lxx-lemmas")
