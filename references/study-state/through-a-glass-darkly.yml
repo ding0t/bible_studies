@@ -1,0 +1,139 @@
+slug: "through-a-glass-darkly"
+title: "Through a Glass, Darkly"
+status: review # drafted 2026-11-12 after author approved thesis, outline, placement and comic
+target_path: "docs/content/christian-life/through-a-glass-darkly.md"
+
+primary_passage: "1 Corinthians 13:8-13"
+supporting_passages:
+  - "Numbers 12:6-8"
+  - "Exodus 33:11, 18-23"
+  - "Deuteronomy 4:12-15"
+  - "Psalm 17:15"
+  - "2 Corinthians 3:12-4:6"
+  - "2 Corinthians 4:16-5:8"
+  - "Luke 9:28-36"
+  - "Luke 24:16, 31"
+  - "1 Corinthians 8:1-3"
+  - "Galatians 4:9"
+  - "Philippians 3:8-14"
+  - "1 John 3:1-3"
+  - "Revelation 22:3-5"
+  - "Romans 13:11-14"
+  - "Romans 11:7-10; Isaiah 29:9-12"
+  - "2 Peter 1:16-19"
+sibling_studies:
+  - slug: "last-things/we-shall-all-be-changed.md"
+    role: cited
+    use: link
+    note: "Covers the resurrection body and 1 John 3:2 'we shall be like him'. Link for what we become; this study is about what we see and know."
+  - slug: "last-things/at-home-with-the-lord.md"
+    role: cited
+    use: link
+    note: "Primary on 2 Corinthians 5:1-10 and cites 4:16-18. Link for 'walk by faith, not by sight' and the believer who dies before the rapture."
+  - slug: "holy-spirit/dreams-and-visions/index.md"
+    role: cited
+    use: enrich
+    note: "Treats Numbers 12:6-8 as God's ranking of revelation. Could gain one sentence: Paul takes 'not in riddles' (LXX ou di' ainigmaton) and applies it to every believer now (1 Cor 13:12). Offer after drafting."
+  - slug: "holy-spirit/names-of-the-holy-spirit.md"
+    role: cited
+    use: link
+    note: "Treats 2 Cor 3:16-18 (the veil removed, the Lord is the Spirit). Link rather than re-argue."
+  - slug: "god/precious-stones.md"
+    role: cited
+    use: none
+    note: "2 Cor 3:18 transformation, passing."
+  - slug: "christian-life/know-the-truth.md"
+    role: cited
+    use: link
+    note: "Cites 2 Cor 4:4 (god of this world blinds). Candidate link for the deception section; read before drafting."
+genre: [epistle, topical]
+
+thesis: "God has known you fully from the start; now He shows Himself to you in Jesus as in a mirror and in riddles, enough to love Him by while sleep and the world dull your sight; and when Christ appears you will see Him face to face and know Him as He knows you."
+outline:
+  - section: "A church that thought it saw clearly"
+    says: "Corinth prized knowledge (1:5; 4:8; 8:1-3); Paul files every gift, his own included, under 'in part', and calls this whole age childhood (13:9-11; 3:1; 14:20)."
+  - section: "A mirror and a riddle"
+    says: "esoptron and ainigma (NT hapax; LXX Num 12:8 'not in riddles'): now every believer stands where the prophets stood; 'then' outruns Moses, who saw the LORD's form (temunah) but only His back (Exod 33:20-23), while Israel at Horeb saw no form at all (Deut 4:12)."
+  - section: "The face in the mirror is Jesus"
+    says: "What we see now is the glory of God in the face of Jesus Christ (2 Cor 3:18; 4:6; John 1:18; 14:9). The glimpses are real: Luke 9:32 (heavy with sleep; fully awake, they saw His glory), Luke 24:31, 2 Kgs 6:17, 2 Pet 1:19, Job 26:14."
+  - section: "Why the glass seems darker than it is"
+    says: "Scripture names the haze: our sleep (Mark 14:40; Rom 13:11; Eph 5:14; 1 Thess 5:6), the world in front of our eyes (2 Cor 4:18; 1 John 2:15-17; Col 3:1-2), and deception (2 Cor 11:3, 14; Heb 3:13). Romans 11:8's 'spirit of stupor' is God's judgment on unbelief, marked as a warning to believers rather than a description of them; the veil comes off when one turns to the Lord (2 Cor 3:16)."
+  - section: "Fully known"
+    says: "epegnosthen, aorist passive: God knew you first and fully (1 Cor 8:3; Gal 4:9; Phil 3:12's same active/passive pattern). Your partial knowing rests on His complete knowing."
+  - section: "Face to face"
+    says: "'Then' is Christ's appearing (1 Cor 1:7; 13:10, 12): 1 John 3:2; Rev 22:4; Matt 5:8; Ps 17:15 (when I awake, satisfied with your form); Job 19:26-27; John 17:24; 1 Thess 4:17. Link the siblings for the resurrection body and the intermediate state."
+  - section: "What remains while we wait"
+    says: "Faith, hope and love abide (13:13); love is greatest because it outlasts sight and is the very relation in which God knows us (8:3). Walk by faith (2 Cor 5:7; 1 Pet 1:8; Heb 11:27), press on to know Him (Phil 3:8-14), purify yourself in hope (1 John 3:3)."
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "No existing study treats 1 Corinthians 13 (cross_study_claims). No backlog entry. Closest siblings listed above."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Paul from Ephesus, c. AD 53-55 (ESV SB intro). Corinth: wealthy, divided by arrogance of the 'knowing'. Corinthian bronze mirrors (CBSB note; ESV SB says dim; unfoldingWord tN says often good quality) -- quality is disputed, so the study rests the image on indirectness, which ainigma and Num 12:8 establish independently."
+    literary_context:
+      done: true
+      notes: "BSB section 13:1-13 'Love' inside the gifts discussion of chs 12-14. 13:8-13 explains why love outranks the gifts: gifts are 'in part' and end when 'the perfect' comes; love abides. v12 'then' = the coming of Christ (1:7 'wait for the revealing'; 4:5; 11:26; 15:23). Corinthian over-realised claims (4:8) and knowledge that puffs up (8:1-3) are the target. 'Child' (nepios) echoes 3:1 and 14:20."
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "ἔσοπτρον", language: greek, transliteration: "esoptron", strongs_id: "G2072", gloss: "mirror", notes: "NT: 1 Cor 13:12; Jas 1:23. LXX: Sir 12:11; Wis 7:26 (Wisdom 'a spotless mirror of the working of God', beside apaugasma and eikon -- words the NT gives to Christ, Heb 1:3; 2 Cor 4:4). Wisdom echo is a likelihood, mark it."}
+        - {word: "αἴνιγμα", language: greek, transliteration: "ainigma", strongs_id: "G135", gloss: "riddle, indirect saying", notes: "NT hapax (1 Cor 13:12, MACULA). LXX 9x incl. Num 12:8 'ou di' ainigmaton' for Hebrew חִידֹת (chidot). bible_trace finds no connection (silence = paraphrase/single word, not absence); CBSB notes the Num 12 Greek link independently. LSB fn 'Lit in a riddle'; CSB fn 'Lit we see indirectly'. ULT 'unclearly', BSB 'but a dim reflection'."}
+        - {word: "ἐπιγινώσκω", language: greek, transliteration: "epiginōskō", strongs_id: "G1921", gloss: "know fully, recognise", notes: "44x in SBLGNT. 13:12 moves from ginōskō (present, 'I know in part') to epignōsomai (future middle) and epegnōsthēn (aorist passive -- God the implied agent, tN). Compare 1 Cor 8:3 egnōstai hyp' autou (perfect passive); Gal 4:9 gnontes theon, mallon de gnōsthentes hypo theou; Phil 3:12 katalabō ... katelēmphthēn hypo Christou."}
+        - {word: "πρόσωπον πρὸς πρόσωπον", language: greek, transliteration: "prosōpon pros prosōpon", strongs_id: "G4383", gloss: "face to face", notes: "OT idiom of personal sight of God: Gen 32:30; Exod 33:11; Deut 34:10 (ESV SB list)."}
+        - {word: "τὸ τέλειον", language: greek, transliteration: "to teleion", strongs_id: "G5046", gloss: "the perfect, the complete", notes: "LSB fn 'Or mature'. Cessationist vs continuationist reading contested (ESV SB lays out both; v12 'then' supports return of Christ). Keep brief: annex."}
+        - {word: "תְּמוּנָה", language: hebrew, transliteration: "temunah", strongs_id: "H8544", gloss: "form, likeness", notes: "10x (MACULA). Israel saw no temunah at Horeb (Deut 4:12, 15); Moses beholds the LORD's temunah (Num 12:8); David: 'when I awake I shall be satisfied with your temunah' (Ps 17:15, ESV 'likeness'; CSB fn 'Lit form'). LXX Ps 16:15 renders it 'when your glory is seen'."}
+        - {word: "κατοπτρίζομαι", language: greek, transliteration: "katoptrizomai", strongs_id: "G2734", gloss: "behold as in a mirror / reflect", notes: "NT hapax 2 Cor 3:18. 'behold' vs 'reflect' contested (ESV SB; CSB fn 'Or are reflecting'). Same writer, same mirror image, now with unveiled face."}
+        - {word: "διαγρηγορέω", language: greek, transliteration: "diagrēgoreō", strongs_id: "G1235", gloss: "become fully awake", notes: "NT hapax Luke 9:32: 'heavy with sleep' (bebarēmenoi hypnō, CSB fn 'Lit weighed down with sleep'), 'having become fully awake they saw his glory'."}
+        - {word: "βαρέω", language: greek, transliteration: "bareō", strongs_id: "G916", gloss: "weigh down", notes: "Luke 9:32 and Matt 26:43 bebarēmenoi (same participle, same three disciples, Transfiguration and Gethsemane); Luke 21:34 barēthōsin of hearts weighed down with cares (MACULA tags it G925 there, same lemma). Mark 14:40 uses kata-barynomai."}
+        - {word: "κατάνυξις", language: greek, transliteration: "katanyxis", strongs_id: "G2659", gloss: "stupor", notes: "Rom 11:8 quoting LXX Isa 29:10 pneumati katanyxeos for Hebrew רוּחַ תַּרְדֵּמָה (ruach tardemah, 'spirit of deep sleep'). Judicial hardening of unbelieving Israel -- context guard: not the believer's state."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Mirror quality is cultural and disputed; the principle (indirect, partial knowledge of God now; direct, full knowledge then) transcends it and is taught explicitly elsewhere (1 John 3:2; 2 Cor 5:7; Rev 22:4)."
+    theological_principle:
+      done: true
+      notes: "God's knowing of His people is prior and complete; their knowing of Him is real, mediated through Christ, partial, and growing; it will be completed by sight at Christ's appearing. Consistent with statement-of-faith 'Sanctified now, glorified then' (glorification happens at sight of Him, 1 John 3:2; 2 Cor 3:18 degree by degree). No conflict found."
+    application_draft:
+      done: true
+      notes: ""
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Numbers 12:8", relation: "Source of ainigma; 'mouth to mouth, not in riddles' (shared rare word, same subject: seeing God)"}
+      - {ref: "2 Corinthians 3:18; 4:4-6", relation: "Same writer's mirror/unveiled face; glory in the face of Jesus Christ"}
+      - {ref: "1 John 3:2; Revelation 22:4; Matthew 5:8", relation: "The future sight of God"}
+      - {ref: "Psalm 17:15", relation: "Awake, satisfied with God's temunah -- links sleep/waking to sight"}
+      - {ref: "Luke 9:32", relation: "Heavy with sleep; fully awake, saw his glory"}
+      - {ref: "1 Corinthians 8:1-3; Galatians 4:9", relation: "Known by God; love and knowledge"}
+      - {ref: "Romans 11:8; Isaiah 29:10", relation: "Spirit of stupor -- the judicial counterpart, guarded"}
+    translations_compared: ["ESV", "BSB", "NASB", "NIV", "LSB fn", "CSB fn", "ULT"]
+    divergences_noted: "ainigma: ESV 'dimly', NASB 'dimly', NIV 'only a reflection', BSB 'but a dim reflection', ULT 'unclearly'; only the LSB footnote ('Lit in a riddle') and the KJV's 'darkly' (Greek 'in a riddle') keep the link to Num 12:8 visible -- worth a short note for readers. ESV 'have been fully known' vs NIV/BSB 'am fully known' for the aorist passive."
+  drafting:
+    done: true
+    file: "docs/content/christian-life/through-a-glass-darkly.md"
+    comic: "docs/data/comics/through-a-glass-darkly.toml (Luke 9:28-36 + 2 Peter 1:19; all bubbles source=esv, --verify ok)"
+  review:
+    done: false
+    validated: true # npm run validate clean for this file 2026-11-12; mkdocs build --strict ok (draft dropped, links checked by hand)
+
+open_questions:
+  - "Fork candidate: the cessation debate over 'the perfect' (13:10) -- keep to a short annex here."
+  - "Fork candidate: Romans 11's judicial hardening / 'spirit of stupor' as its own study (Israel and the church)."
+  - "Placement settled: christian-life/ (author approved 2026-11-12)."
+  - "Heb 1:3 apaugasma verified in SBLGNT; Wisdom 7:26 echo kept as 'uncertain' in prose."
+  - "Next: read-bible-study pass in a fresh session; review-bible-study before draft: false; after publishing, run commentary_index.py and section_index.py."
+  - "Enrichment to offer: holy-spirit/dreams-and-visions -- one sentence that Paul applies Numbers 12:8's 'not in riddles' (LXX ou di' ainigmaton) to every believer now (1 Cor 13:12), with a link here once published."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Intro (date, occasion); 13:8 note lays out cessationist/continuationist views; 13:12 note: bronze mirrors dim, face to face = second coming, OT face-to-face texts; 2 Cor 3:18 note on katoptrizo. Confirmed reading of 'then'; contributed OT list."}
+  - {type: commentary, title: "NIV / NKJV Cultural Backgrounds Study Bible", author: "Zondervan", note: "13:12: Corinthian bronze; Num 12:6-8 'especially in the Greek version'; Exod 33:20; Jer 31:33-34. Confirmed the Num 12 link found independently from the concordance."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "13:10 'completeness' = time after the present (cf. 15:24); 2 Cor 3:18 mirror of the gospel. Ps 17:15 'awake' = from sleep of death."}
+  - {type: other, title: "unfoldingWord Translation Notes (1 Cor 13)", author: "unfoldingWord, CC BY-SA 4.0", note: "Implied object of 'see/know' is God; divine passive; mirrors 'often relatively high quality' -- contradicts the study Bibles, so mirror quality marked disputed."}
+  - {type: lexicon, title: "MACULA Greek (SBLGNT) and MACULA Hebrew (WLC) via bible-text.db", author: "Clear Bible", note: "Counts: G135 NT 1x; G2072 NT 2x; G2734 1x; G1235 1x; G2659 3x; H8544 10x; G1921 44x."}
+  - {type: other, title: "Brenton Septuagint (ebible-grcbrent)", author: "", note: "Num 12:8; Isa 29:10; Ps 16:15 (=17:15); Wis 7:26."}
+last_updated: "2026-11-12"

@@ -1,0 +1,112 @@
+# One-minute comic for docs/content/christian-life/through-a-glass-darkly.md.
+# Drawn by: python3 utils/build_comics.py through-a-glass-darkly
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-11-12.
+#
+# The study's point: now we see Him in a mirror, in glimpses God gives; then face to face
+# (1 Corinthians 13:12). Told through the Transfiguration in Luke's telling, the one gospel that says
+# the three were "heavy with sleep" and saw His glory "when they became fully awake" (Luke 9:32;
+# διαγρηγορέω, its only New Testament use, checked with bible_concordance G1235). Then the crossing
+# to the reader: Peter, the eyewitness, sends his readers to the prophetic word "as to a lamp shining
+# in a dark place, until the day dawns" (2 Peter 1:19).
+# Moses and Elijah are named in Luke 9:30, so the reserved figures are drawn. Jesus' radiant look is
+# Luke 9:29 ("his clothing became dazzling white"). The fear mark is Luke 9:34 ("they were afraid").
+# The evening sky in panel 1 is atmosphere: Luke 9:37 has them come down "the next day".
+
+title = "Through a Glass, Darkly"
+subtitle = "Heavy with sleep, and then they saw His glory"
+layout = [[300, 1], [300, 1, 1], [300, 1, 1]]
+note = "Luke is the gospel that records the three asleep on the mountain (Luke 9:32)."
+point = "Now you see Jesus in the mirror of the gospel, and every glimpse is His gift. Wake, look to Him, and wait: then you will see Him face to face (1 Corinthians 13:12)."
+
+[[panel]]
+ref = "Luke 9:28-29, 32"
+scene = "hills"
+sky = "dusk"
+caption = "On the mountain. Jesus is praying."
+caption_w = 260
+shows = "Jesus standing in prayer on a mountain while Peter, James and John lie asleep on the ground nearby"
+cast = [
+  { who = "peter", x = 0.14, face = "right", stance = "lie", tag = "Peter" },
+  { who = "james", x = 0.32, face = "right", stance = "lie", tag = "James" },
+  { who = "john", x = 0.50, face = "right", stance = "lie", tag = "John" },
+  { who = "jesus", x = 0.80, face = "left", pose = "look_up" },
+]
+say = [
+  { by = "luke", name = "Luke", from = [0.95, -0.1], style = "text", text = "Peter and those who were with him were *heavy with sleep*", source = "esv", at = [0.42, 0.22], w = 200 },
+]
+
+[[panel]]
+ref = "Luke 9:29-32"
+scene = "hills"
+sky = "day"
+grade = "warm"
+caption = "Moses and Elijah appear in glory."
+caption_w = 230
+shows = "Jesus shining white between Moses and Elijah, with Peter, James and John kneeling, now awake, in front of Him"
+burst = { on = "jesus", color = "gold" }
+cast = [
+  { who = "moses", x = 0.48, face = "right", pose = "stand", s = 0.85 },
+  { who = "jesus", x = 0.68, face = "left", pose = "open", look = "radiant" },
+  { who = "elijah", x = 0.88, face = "left", pose = "stand", s = 0.85 },
+  { who = "peter", x = 0.07, face = "right", stance = "kneel", pose = "fold", s = 0.7 },
+  { who = "james", x = 0.17, face = "right", stance = "kneel", pose = "fold", s = 0.7 },
+  { who = "john", x = 0.27, face = "right", stance = "kneel", pose = "fold", s = 0.7 },
+]
+say = [
+  { by = "luke", name = "Luke", from = [0.05, -0.1], style = "text", text = "but when they became *fully awake* they saw his glory", source = "esv", at = [0.30, 0.30], w = 150 },
+]
+
+[[panel]]
+ref = "Luke 9:34-35"
+scene = "hills"
+sky = "storm"
+caption = "A cloud overshadows them."
+caption_w = 230
+shows = "a cloud over the mountain and the three disciples kneeling, afraid, as a voice speaks from the cloud"
+props = [
+  { what = "cloud", x = 0.55, y = 0.32, s = 1.6 },
+]
+cast = [
+  { who = "peter", x = 0.12, face = "right", stance = "kneel", pose = "fold", marks = ["shock"] },
+  { who = "james", x = 0.28, face = "right", stance = "kneel", pose = "fold" },
+  { who = "john", x = 0.44, face = "right", stance = "kneel", pose = "fold" },
+]
+say = [
+  { by = "voice", name = "a voice from the cloud", from = [0.72, 0.30], style = "voice", text = "This is my Son, my Chosen One; *listen to him!*", source = "esv", at = [0.76, 0.52], w = 130 },
+]
+
+[[panel]]
+ref = "Luke 9:36"
+scene = "hills"
+sky = "day"
+caption = "The voice falls silent."
+caption_w = 230
+shows = "Jesus standing alone on the mountain with the three disciples before Him"
+cast = [
+  { who = "peter", x = 0.15, face = "right", pose = "fold", s = 0.85 },
+  { who = "james", x = 0.30, face = "right", pose = "fold", s = 0.85 },
+  { who = "john", x = 0.45, face = "right", pose = "fold", s = 0.85 },
+  { who = "jesus", x = 0.78, face = "left", pose = "open" },
+]
+say = [
+  { by = "luke", name = "Luke", from = [0.95, -0.1], style = "text", text = "Jesus was found alone.", source = "esv", at = [0.62, 0.24], w = 120 },
+]
+
+[[panel]]
+ref = "2 Peter 1:16, 19"
+scene = "room"
+sky = "night"
+grade = "dark"
+caption = "Years later, Peter writes to you."
+caption_w = 230
+shows = "Peter, older, holding a scroll beside a burning lamp in a dark room"
+spotlight = { at = [0.80, 0.70], r = 0.7 }
+props = [
+  { what = "lampstand", x = 0.84, s = 0.7 },
+]
+cast = [
+  { who = "peter", x = 0.24, face = "right", pose = "hold", holds = "scroll" },
+]
+say = [
+  { by = "peter", text = "you will do well to pay attention as to *a lamp shining in a dark place*, until the day dawns", source = "esv", at = [0.60, 0.22], w = 180 },
+]
