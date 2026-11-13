@@ -16,6 +16,7 @@ draft: false
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 3:7
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 3:1
 - [The Way](../../jesus/the-way.md) — 3:10
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 3:13
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 3:14
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 3:12-14
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 3:13

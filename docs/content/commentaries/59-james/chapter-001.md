@@ -17,6 +17,7 @@ draft: false
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 1:12
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 1:13-14
 - [The Way](../../jesus/the-way.md) — 1:8
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 1:23
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 1:5
 - [Wisdom](../../wisdom/index.md) — 1:5
 <!-- commentary-index:auto-end -->

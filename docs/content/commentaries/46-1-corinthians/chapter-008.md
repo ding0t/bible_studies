@@ -17,4 +17,5 @@ draft: false
 - [In Humility](../../christian-life/humility.md) — 8:1
 - [Pride](../../sin/pride.md) — 8:1
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 8:5-6
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 8:1-3
 <!-- commentary-index:auto-end -->

@@ -30,5 +30,6 @@ draft: false
 - [The Way](../../jesus/the-way.md) — 11:33
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 11:26
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 11:4-6
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 11:7-8
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 11:25-29
 <!-- commentary-index:auto-end -->

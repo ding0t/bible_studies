@@ -21,5 +21,6 @@ draft: false
 - [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 21:25-27
 - [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 21:24
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 21:24
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 21:34-36
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 21:20-24
 <!-- commentary-index:auto-end -->

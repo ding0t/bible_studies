@@ -31,6 +31,7 @@ draft: false
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 22:17
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 22:14
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 22:4
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 22:3-4
 - [True Worship](../../christian-life/true-worship.md) — 22:3-4
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 22:1-3
 <!-- commentary-index:auto-end -->

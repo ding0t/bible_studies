@@ -19,6 +19,7 @@ draft: false
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 24:10-11
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 24:30-35
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 24:7
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 24:16
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 24:39
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 24:36-43
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 24:25-27

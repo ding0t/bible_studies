@@ -17,5 +17,6 @@ draft: false
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 12:8-9
 - [The Rapture of the Church](../../last-things/rapture.md) — 12:2-4
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 12:2-4
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 12:4
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 12:7
 <!-- commentary-index:auto-end -->

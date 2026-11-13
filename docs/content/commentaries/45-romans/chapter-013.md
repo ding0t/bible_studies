@@ -17,5 +17,6 @@ draft: false
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 13:3-4
 - [Submission in Context](../../christian-life/submission-in-context.md) — 13:3-4
 - [The Restrainer](../../last-things/the-restrainer.md) — 13:4
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 13:11-12
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 13:4
 <!-- commentary-index:auto-end -->

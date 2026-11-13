@@ -15,5 +15,6 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 29:29
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 29:19-20
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 29:23
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 29:4
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 29:29
 <!-- commentary-index:auto-end -->

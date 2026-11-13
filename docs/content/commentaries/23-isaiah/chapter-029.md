@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 29:13
 - [True Worship](../../christian-life/true-worship.md) — 29:13
 <!-- commentary-index:auto-end -->

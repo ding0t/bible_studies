@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-11-04
+date_modified: 2026-11-13
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -160,6 +160,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     In Ezekiel 9 God sent a scribe through Jerusalem to mark everyone who sighed and groaned over its abominations, and the marked were spared. What grieves God grieves His own, and in Christ He gives that heart and seals it with His Spirit.
 
     [:octicons-arrow-right-24: Read](those-who-sigh-and-groan.md)
+
+-   __Through a Glass, Darkly__
+
+    ---
+
+    Now we see in a mirror and in riddles; then face to face. God has known you fully from the start, shows Himself to you now in His Son Jesus, and at Christ's appearing will let you see the face of Jesus and know Him as He knows you. Why the glass seems dark, what Scripture says dims it, and the promise ahead. A study of 1 Corinthians 13:8-13.
+
+    [:octicons-arrow-right-24: Read](through-a-glass-darkly.md)
 
 -   __True Worship__
 

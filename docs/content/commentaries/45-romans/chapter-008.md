@@ -31,6 +31,7 @@ draft: false
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 8:1
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 8:38-39
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 8:26
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 8:29
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:11
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 8:11
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 8:23

@@ -23,6 +23,7 @@ draft: false
 - [The End of the Age](../../last-things/end-of-the-age.md) — 1:2
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 1:4-14
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 1:9
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 1:3
 - [True Worship](../../christian-life/true-worship.md) — 1:6
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 1:3
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 1:12

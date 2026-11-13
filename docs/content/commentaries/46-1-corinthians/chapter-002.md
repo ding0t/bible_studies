@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 2:14-16
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 2:10-12
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 2:14-15
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:14-15
 <!-- commentary-index:auto-end -->

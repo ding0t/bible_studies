@@ -19,5 +19,6 @@ draft: false
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 1:16-18
 - [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 1:16-19
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 1:12-13
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 1:16-19
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 1:19-21
 <!-- commentary-index:auto-end -->

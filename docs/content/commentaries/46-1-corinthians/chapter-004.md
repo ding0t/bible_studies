@@ -19,4 +19,5 @@ draft: false
 - [The Rapture of the Church](../../last-things/rapture.md) — 4:5
 - [The Way](../../jesus/the-way.md) — 4:17
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 4:8
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 4:5
 <!-- commentary-index:auto-end -->

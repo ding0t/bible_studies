@@ -20,6 +20,7 @@ draft: false
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 2:28
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 2:1
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 2:7-8
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 2:16-17
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 2:17
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 2:19
 <!-- commentary-index:auto-end -->

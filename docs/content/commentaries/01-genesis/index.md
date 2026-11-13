@@ -162,7 +162,7 @@ What types are seen as shadows of a truth.
 - [Chapter 29](chapter-029.md) — 3 study(ies)
 - [Chapter 30](chapter-030.md) — 2 study(ies)
 - [Chapter 31](chapter-031.md) — 4 study(ies)
-- [Chapter 32](chapter-032.md) — 2 study(ies)
+- [Chapter 32](chapter-032.md) — 3 study(ies)
 - [Chapter 33](chapter-033.md) — 2 study(ies)
 - [Chapter 35](chapter-035.md) — 1 study(ies)
 - [Chapter 37](chapter-037.md) — 5 study(ies)

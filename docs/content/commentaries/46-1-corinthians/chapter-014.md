@@ -16,4 +16,5 @@ draft: false
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 14:15
 - [Submission in Context](../../christian-life/submission-in-context.md) — 14:29-35
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 14:8
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 14:1
 <!-- commentary-index:auto-end -->

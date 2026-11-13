@@ -28,6 +28,7 @@ draft: false
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:18-19
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 1:11
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 1:4
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 1:8
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 1:3
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 1:14
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 1:10-12

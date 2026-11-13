@@ -18,4 +18,5 @@ draft: false
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 4:6
 - [Submission in Context](../../christian-life/submission-in-context.md) — 4:7
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 4:4
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 4:4-6
 <!-- commentary-index:auto-end -->

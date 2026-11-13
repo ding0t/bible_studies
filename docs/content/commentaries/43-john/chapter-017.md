@@ -18,4 +18,5 @@ draft: false
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 17:6
 - [The Names of God](../../god/names-of-god.md) — 17:11
 - [The Rapture of the Church](../../last-things/rapture.md) — 17:15
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 17:24
 <!-- commentary-index:auto-end -->

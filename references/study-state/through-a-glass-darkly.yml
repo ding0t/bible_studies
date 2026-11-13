@@ -1,6 +1,6 @@
 slug: "through-a-glass-darkly"
 title: "Through a Glass, Darkly"
-status: review # drafted 2026-11-12 after author approved thesis, outline, placement and comic
+status: published # drafted 2026-11-12; reviewed and published 2026-11-13 on author approval
 target_path: "docs/content/christian-life/through-a-glass-darkly.md"
 
 primary_passage: "1 Corinthians 13:8-13"
@@ -119,15 +119,15 @@ stages:
     file: "docs/content/christian-life/through-a-glass-darkly.md"
     comic: "docs/data/comics/through-a-glass-darkly.toml (Luke 9:28-36 + 2 Peter 1:19; all bubbles source=esv, --verify ok)"
   review:
-    done: false
-    validated: true # npm run validate clean for this file 2026-11-12; mkdocs build --strict ok (draft dropped, links checked by hand)
+    done: true
+    validated: true
+    notes: "2026-11-13: review-bible-study and read-bible-study run as subagents (report only); author approved all findings. Errors fixed: 2 Kgs 6:17 paraphrase labelled ESV now quoted exactly; 'menei is singular, so one thing' overreach dropped; 'For now we see in a mirror dimly' no longer said to render four words. Also: ESV SB katoptrizo note represented accurately (it prefers 'behold'); Exod 33 'first/second' named as vv. 11 and 20; 'this pattern three times' -> 'elsewhere'; epi- prefix argument replaced by the contrast with 'in part'; Wisdom date marked disputed; Deut 29:4 named in Rom 11:8; 1 Cor 14:1 'Pursue love' added; 'knowledge that grows' cut; three of six 'This shows that God' lines varied; glorification and sanctification named. Author's call: the face seen 'then' is the face of Jesus (2 Cor 4:6; John 14:9), stated in thesis, description, prayer and Face to face. Structure: translations sub-section moved beside Num 12; splits at Horeb table, 2 Cor 4:6 and 'Loving Him whom you have not seen'; kathos paragraph moved to Face to face; Annex added to outline. Back-links added from at-home-with-the-lord, we-shall-all-be-changed, names-of-the-holy-spirit, know-the-truth."
 
 open_questions:
   - "Fork candidate: the cessation debate over 'the perfect' (13:10) -- keep to a short annex here."
   - "Fork candidate: Romans 11's judicial hardening / 'spirit of stupor' as its own study (Israel and the church)."
   - "Placement settled: christian-life/ (author approved 2026-11-12)."
   - "Heb 1:3 apaugasma verified in SBLGNT; Wisdom 7:26 echo kept as 'uncertain' in prose."
-  - "Next: read-bible-study pass in a fresh session; review-bible-study before draft: false; after publishing, run commentary_index.py and section_index.py."
   - "Enrichment to offer: holy-spirit/dreams-and-visions -- one sentence that Paul applies Numbers 12:8's 'not in riddles' (LXX ou di' ainigmaton) to every believer now (1 Cor 13:12), with a link here once published."
 resources_consulted:
   - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Intro (date, occasion); 13:8 note lays out cessationist/continuationist views; 13:12 note: bronze mirrors dim, face to face = second coming, OT face-to-face texts; 2 Cor 3:18 note on katoptrizo. Confirmed reading of 'then'; contributed OT list."}
@@ -136,4 +136,4 @@ resources_consulted:
   - {type: other, title: "unfoldingWord Translation Notes (1 Cor 13)", author: "unfoldingWord, CC BY-SA 4.0", note: "Implied object of 'see/know' is God; divine passive; mirrors 'often relatively high quality' -- contradicts the study Bibles, so mirror quality marked disputed."}
   - {type: lexicon, title: "MACULA Greek (SBLGNT) and MACULA Hebrew (WLC) via bible-text.db", author: "Clear Bible", note: "Counts: G135 NT 1x; G2072 NT 2x; G2734 1x; G1235 1x; G2659 3x; H8544 10x; G1921 44x."}
   - {type: other, title: "Brenton Septuagint (ebible-grcbrent)", author: "", note: "Num 12:8; Isa 29:10; Ps 16:15 (=17:15); Wis 7:26."}
-last_updated: "2026-11-12"
+last_updated: "2026-11-13"

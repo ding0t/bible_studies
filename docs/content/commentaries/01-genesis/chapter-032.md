@@ -14,4 +14,5 @@ draft: false
 
 - [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 32:24-30
 - [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 32:15
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 32:30
 <!-- commentary-index:auto-end -->

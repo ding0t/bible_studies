@@ -16,4 +16,5 @@ draft: false
 - [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 4:19
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 4:19
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 4:19-20
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 4:12
 <!-- commentary-index:auto-end -->

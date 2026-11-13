@@ -15,4 +15,5 @@ draft: false
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 6:6
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 6:6
 - [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 6:6
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 6:3
 <!-- commentary-index:auto-end -->

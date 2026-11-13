@@ -24,6 +24,7 @@ draft: false
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 1:5
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 1:20-22
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 1:13-14
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 1:17-18
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 1:13-14
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 1:20
 <!-- commentary-index:auto-end -->

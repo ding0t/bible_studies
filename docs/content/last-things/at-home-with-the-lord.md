@@ -8,7 +8,7 @@ draft: false
 primary_passage: "2 Corinthians 5:1-10"
 bible_references: ["2 Corinthians 1:8-9", "2 Corinthians 1:22", "2 Corinthians 4:16-18", "2 Corinthians 5:1-10", "Philippians 1:21-24", "Philippians 3:21", "Luke 23:43", "Luke 16:19-31", "Ephesians 4:8-10", "Ephesians 1:14", "Colossians 2:15", "Genesis 38:17-20", "Leviticus 23:10", "Acts 18:3", "Revelation 6:9-11", "Revelation 20:13-14", "1 Thessalonians 4:13-18", "1 Corinthians 15:20-23", "1 Corinthians 15:51-53", "2 Peter 2:4", "Jude 6", "Jude 14-15", "Isaiah 24:21-22", "Genesis 6:1-4", "Numbers 21:8-9", "2 Kings 18:4"]
 date_created: 2026-09-26
-date_modified: 2026-10-21
+date_modified: 2026-11-13
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
@@ -472,3 +472,5 @@ picture of the conclusion, by someone who held it without the reservations recor
   the cross and the empty tomb, Sheol and Hades, and Luke 16's two conditions.
 - [We Shall All Be Changed](we-shall-all-be-changed.md) — the resurrection body itself, from
   1 Corinthians 15:35-58: what is raised, what it is like, and when.
+- [Through a Glass, Darkly](../christian-life/through-a-glass-darkly.md) — walking "by faith, not by
+  sight" (2 Corinthians 5:7) now, and seeing the face of Jesus then (1 Corinthians 13:12).

@@ -25,5 +25,6 @@ draft: false
 - [The Rapture of the Church](../../last-things/rapture.md) — 5:9
 - [The Restrainer](../../last-things/the-restrainer.md) — 5:9
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 5:9
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 5:6
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 5:18
 <!-- commentary-index:auto-end -->

@@ -30,5 +30,6 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 14:16-17
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 14:2
 - [Thomas](../../biblical-figures/thomas.md) — 14:5-6
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 14:9
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 14:13-14
 <!-- commentary-index:auto-end -->

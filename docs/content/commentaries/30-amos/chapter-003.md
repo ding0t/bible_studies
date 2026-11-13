@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 3:6
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 3:2
 <!-- commentary-index:auto-end -->

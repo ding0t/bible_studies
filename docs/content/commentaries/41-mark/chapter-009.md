@@ -21,4 +21,5 @@ draft: false
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 9:33-34
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 9:2-3
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 9:31
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 9:2-8
 <!-- commentary-index:auto-end -->

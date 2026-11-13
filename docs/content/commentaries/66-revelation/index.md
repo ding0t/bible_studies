@@ -33,5 +33,5 @@ draft: false
 - [Chapter 19](chapter-019.md) — 24 study(ies)
 - [Chapter 20](chapter-020.md) — 21 study(ies)
 - [Chapter 21](chapter-021.md) — 26 study(ies)
-- [Chapter 22](chapter-022.md) — 21 study(ies)
+- [Chapter 22](chapter-022.md) — 22 study(ies)
 <!-- commentary-index:auto-end -->

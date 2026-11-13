@@ -21,4 +21,5 @@ draft: false
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 3:16
 - [The Rapture of the Church](../../last-things/rapture.md) — 3:11-15
 - [The Restrainer](../../last-things/the-restrainer.md) — 3:16
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 3:1
 <!-- commentary-index:auto-end -->

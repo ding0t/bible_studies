@@ -24,5 +24,6 @@ draft: false
 - [The Rapture of the Church](../../last-things/rapture.md) — 11:5
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 11:5
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 11:10
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 11:27
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 11:12
 <!-- commentary-index:auto-end -->

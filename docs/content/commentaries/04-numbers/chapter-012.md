@@ -14,4 +14,5 @@ draft: false
 
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 12:6-8
 - [In Humility](../../christian-life/humility.md) — 12:1-8
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 12:6-8
 <!-- commentary-index:auto-end -->

@@ -25,6 +25,7 @@ draft: false
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 5:17-20
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 5:35
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 5:4
+- [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 5:8
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 5:33-37
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 5:3
 <!-- commentary-index:auto-end -->
