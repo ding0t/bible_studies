@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 3:5-15
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 3:7-9
 <!-- commentary-index:auto-end -->

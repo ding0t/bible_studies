@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 6:37-42 (primary passage)
 - [Simon the Zealot](../../biblical-figures/simon-the-zealot.md) — 6:15 (primary passage)
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 6:12-16 (primary passage)
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 6:14

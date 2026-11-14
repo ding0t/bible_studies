@@ -18,6 +18,7 @@ draft: false
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 1:8-10
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 1:8
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 1:9
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 1:6
 - [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 1:14
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:6
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:9

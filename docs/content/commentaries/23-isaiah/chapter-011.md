@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 11:10
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 11:2-4
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 11:11
 - [The Names of God](../../god/names-of-god.md) — 11:10
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 11:1

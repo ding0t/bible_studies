@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Faith](../../salvation/faith.md) — 12:28
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 12:24
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 12:39-40
 - [Idolatry](../../sin/idolatry.md) — 12:15-21
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 12:35-48

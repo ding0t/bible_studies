@@ -24,6 +24,9 @@ SKINS = ["#b88a62", "#a8774f", "#c39a72", "#9a6a45", "#b07f58"]
 HAIR = "#3b2a1a"
 HAIR_GREY = "#8a8178"
 SANDAL = "#5a3d22"
+WOOD = "#a67c4e"
+WOOD_EDGE = "#5a3d22"
+WOOD_GRAIN = "#7d5a34"
 STONE = "#9a8f80"
 STONE_EDGE = "#5e5547"
 FOLD = "#00000030"
@@ -194,6 +197,11 @@ FIGURES = {
                    why="Balaam son of Beor, a diviner hired from Pethor by the Euphrates (Numbers 22:5, 7; Joshua 13:22). "
                        "Scripture gives no detail of his dress or age: a charcoal tunic and an ochre stole are a fixed "
                        "choice, kept apart from every other tunic colour; grey hair and a full beard are a fixed choice."),
+    "nathan": dict(name="Nathan", study="christian-life/first-take-the-log-out.md", robes=["#7f8a34"], mantle="stole",
+                   mantle_fill="#4a3a28", hair="short", hair_color=HAIR_GREY, beard="full",
+                   why="Nathan the prophet, sent by the LORD to David (2 Samuel 12:1). Scripture gives no detail of his "
+                       "dress or age: an olive tunic and a dark brown stole are a fixed choice, kept apart from every other "
+                       "tunic colour; grey hair and a full beard are a fixed choice, so he reads older than the king."),
 }
 CAST.update(FIGURES)
 
@@ -296,8 +304,29 @@ def _prop(kind, hand):
     return ""
 
 
-def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, tone=0):
-    """One cast member. (x, y) is the feet; face 1 looks right, -1 left; tone picks a robe."""
+def _eye(kind, length=1.0):
+    """What is in a figure's eye, in figure units (the eye at (10, -93), facing right). "beam" is
+    the δοκός of Matthew 7:3-5, a roof timber jutting from the eye; `length` scales it, and at the
+    default it runs past the edge of most panels, which is the joke Jesus told. "speck" is the
+    κάρφος, a splinter too small to see, so a faint dashed ring shows where it is."""
+    if kind == "beam":
+        L = 230 * length
+        out = [f'<path d="M6 -97 L{L:.0f} -104 L{L + 2:.0f} -88 L6 -90 Z" fill="{WOOD}" stroke="{WOOD_EDGE}" stroke-width="1"/>']
+        for k, yy in enumerate((-95, -92.5)):
+            out.append(f'<path d="M{20 + k * 14} {yy} Q{L * 0.4:.0f} {yy - 2.5} {L * (0.7 + k * 0.2):.0f} {yy - 3 + k * 2}" '
+                       f'fill="none" stroke="{WOOD_GRAIN}" stroke-width="0.8"/>')
+        out.append(f'<ellipse cx="{L + 1:.0f}" cy="-96" rx="3" ry="8" fill="#c79b67" stroke="{WOOD_EDGE}" stroke-width="0.8"/>'
+                   f'<ellipse cx="{L + 1:.0f}" cy="-96" rx="1.4" ry="4" fill="none" stroke="{WOOD_GRAIN}" stroke-width="0.6"/>')
+        return "".join(out)
+    if kind == "speck":
+        return (f'<circle cx="11" cy="-93" r="5.5" fill="none" stroke="{RED}" stroke-width="0.9" stroke-dasharray="1.6 1.4"/>'
+                f'<path d="M10 -94 L12.5 -92.4" stroke="{WOOD_EDGE}" stroke-width="1.1" stroke-linecap="round"/>')
+    return ""
+
+
+def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, tone=0, eye=None, beam=1.0):
+    """One cast member. (x, y) is the feet; face 1 looks right, -1 left; tone picks a robe. `eye`
+    puts a beam or a speck in the eye (Matthew 7:3-5); `beam` scales the beam's length."""
     c = CAST[who]
     robe = c["robes"][tone % len(c["robes"])]
     edge = c.get("edge", "#2a2016")
@@ -436,6 +465,8 @@ def figure(who, x, y, s=1.0, face=1, pose="stand", stance="stand", holds=None, t
                    f'<path d="M7 -86 Q11 -89 15.5 -86.5 Q15 -81 8 -82 Z" fill="{hair}"/>')
     elif c.get("beard"):
         top.append(f'<path d="M7 -84 Q10 -81 14 -85 Q14 -77 9 -74 Q5 -75 5 -80 Z" fill="{hair}"/>')
+    if eye:
+        top.append(_eye(eye, beam))
     # Near arm, then whatever the hand holds.
     near_elbow, near_hand = p["near"]
     top.append(_arm((7, -74), near_elbow, near_hand, robe, edge, skin))
@@ -1550,7 +1581,18 @@ def prop_fieldwall(x, y, s):
     return "".join(out)
 
 
-PROPS = {"fruit_tree": prop_fruit_tree, "thicket": prop_thicket, "serpent": prop_serpent, "vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "lampstand": prop_lampstand, "golden_lampstand": prop_golden_lampstand, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
+def prop_beam(x, y, s):
+    """The beam taken out and laid down (Matthew 7:5): the same timber `eye = "beam"` draws, on the
+    ground, 170 units long."""
+    out = [f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">',
+           f'<path d="M-85 -2 L83 -4 L85 -18 L-85 -14 Z" fill="{WOOD}" stroke="{WOOD_EDGE}" stroke-width="1"/>',
+           f'<path d="M-70 -9 Q0 -12 70 -10 M-60 -6 Q10 -8 60 -7" fill="none" stroke="{WOOD_GRAIN}" stroke-width="0.8"/>',
+           f'<ellipse cx="84" cy="-11" rx="3" ry="7.5" fill="#c79b67" stroke="{WOOD_EDGE}" stroke-width="0.8"/>',
+           '</g>']
+    return "".join(out)
+
+
+PROPS = {"beam": prop_beam, "fruit_tree": prop_fruit_tree, "thicket": prop_thicket, "serpent": prop_serpent, "vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "lampstand": prop_lampstand, "golden_lampstand": prop_golden_lampstand, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
          "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne,
          "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall, "idol": prop_idol,
@@ -2100,7 +2142,7 @@ def _stage(w, h, p, key):
             fs *= max(0.06, 1 - depth)
         face = -1 if e.get("face") == "left" else 1
         svg, head = figure(e["who"], fx, fy, fs, face, e.get("pose", "stand"), e.get("stance", "stand"),
-                           e.get("holds"), e.get("tone", 0))
+                           e.get("holds"), e.get("tone", 0), e.get("eye"), e.get("beam", 1.0))
         if e.get("look"):
             svg = recolour(svg, e["look"])
         drawn.append((fy, svg, depth >= 0.35))

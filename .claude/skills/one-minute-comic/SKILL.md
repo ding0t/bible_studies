@@ -156,6 +156,13 @@ Scripture does not.
   (a ram's-horn trumpet, Ezekiel 33:3), `cup` (the golden cup, Revelation 17:4), `garment` (a cloth hanging from the fist, Genesis 39:12), and `load`, which goes on the back with the hand on its
   strap, for the heavy-laden (Matthew 11:28). Poses include `run` and `offer` (an arm held out
   with something in the hand).
+- **`eye = "beam"`** on a cast entry puts the δοκός of Matthew 7:3-5 in the figure's eye, a roof
+  timber jutting forward that runs past the frame at the default length (`beam = 1.25` lengthens it,
+  `0.8` shortens it); **`eye = "speck"`** draws the κάρφος, too small to see, inside a faint red
+  ring. Stand the beam-bearer so the timber clears the other figures' heads (a seated brother, or a
+  second figure behind him). The `beam` prop is the same timber laid on the ground (Matthew 7:5).
+  Drawn only where the panel is Jesus' picture or says it lays that picture over a story
+  (`first-take-the-log-out`, whose `note` says 2 Samuel 12 has no beam).
 - **`point`** is the closing line under THE POINT ribbon: the study's sentence, landed on the
   reader ("so you can..."), with its verse.
 
@@ -185,6 +192,7 @@ comic knows him in the next. Each is reserved once, in `FIGURES` in `utils/lib/c
 | `david` | David | Burnt-orange tunic, cream mantle, auburn hair and a young man's short beard ("ruddy", 1 Samuel 16:12) | table |
 | `nebuchadnezzar` | Nebuchadnezzar | Deep indigo robe, gold belt and collar, full beard, the tall rounded cap of a Neo-Babylonian king: background, not Scripture, so the comic's `note` says so | the-image-and-the-kingdoms |
 | `balaam` | Balaam son of Beor | Charcoal tunic, ochre stole, grey hair, full beard (a fixed choice). His she-donkey is the `donkey` prop (`donkey_down` lying); a rider takes `stance = "sit"`, `dy = -0.208 * s`. The angel of the LORD is `angel_sword`, light with the drawn sword (Numbers 22:23) | the-donkey-and-her-prophet |
+| `nathan` | Nathan the prophet | Olive tunic, dark brown stole, grey hair and full beard (a fixed choice; Scripture gives no detail), older than the king he rebukes (2 Samuel 12:1) | first-take-the-log-out |
 
 - **Reserve only a figure the text names.** The two witnesses are unnamed in Revelation 11 and
   contested in the study, so they are the generic `witness` (sackcloth), never a reserved Moses
@@ -284,7 +292,7 @@ clones:
   `throne` (a throne with the one seated on it drawn as light, since Revelation 4:2-3 and 20:11 give
   a presence and no form), `books` (opened, Revelation 20:12), `crown` (a wreath laid down), and
   `refined`, the counterpart of `burning`: gold, silver and precious stones standing whole in the
-  fire on the same foundation (1 Corinthians 3:12-14). Also `figleaves` (the sewn loincloths of
+  fire on the same foundation (1 Corinthians 3:12-14). Also `beam` (the timber of Matthew 7:5, laid down), `figleaves` (the sewn loincloths of
   Genesis 3:7, cast off on the ground), `fruit_tree` (a tree "good for food", Genesis 2:9, with
   round fruit of no species since Genesis names none; the forbidden tree is the same prop, because
   it looked like the others, 3:6), `thicket` (dense shrubs to hide in, Genesis 3:8; nobody is drawn

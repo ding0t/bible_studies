@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 4:3-5
 - [In Humility](../../christian-life/humility.md) — 4:7
 - [Pride](../../sin/pride.md) — 4:7
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 4:5

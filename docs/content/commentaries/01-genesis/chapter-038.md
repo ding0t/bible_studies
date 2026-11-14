@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 38:17-20
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 38:24-26
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 38:18
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 38:17-20
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 38:8

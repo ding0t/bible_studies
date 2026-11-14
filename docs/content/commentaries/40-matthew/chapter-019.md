@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 19:28
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 19:28
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 19:28
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 19:3-10
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 19:4-6

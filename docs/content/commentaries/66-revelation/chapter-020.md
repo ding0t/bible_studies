@@ -18,6 +18,7 @@ draft: false
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 20:13-14
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 20:1-6
 - [Charting End Times](../../last-things/prophecy-chart.md) — 20:1-6
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 20:4
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 20:4-15
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 20:1-15
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 20:4-6

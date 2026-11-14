@@ -14,6 +14,7 @@ draft: false
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 8:1-10 (primary passage)
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:34 (primary passage)
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 8:22-26
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 8:3
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 8:33
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 8:29-31

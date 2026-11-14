@@ -4,7 +4,7 @@ category: "other"
 description: "Prayer, fasting, and the disciplines of walking with Christ."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-11-13
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -32,6 +32,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
     Fasting in Scripture is humbling yourself before God: going without food to seek Him in repentance, grief, need and decision, while the Bridegroom is away. What the Bible shows fasting doing, what it never promises, and the verses most often misused about it.
 
     [:octicons-arrow-right-24: Read](fasting.md)
+
+-   __First Take the Log Out__
+
+    ---
+
+    Jesus' joke about a beam in the eye, and the point it lands on you: God alone is the Judge and measures you with your own measure, so let Him take the log out of your eye first, and then help your brother gently. When Scripture does tell believers to judge, and what makes that judging different: authority given, a lowly heart and wisdom from above. A study of Matthew 7:1-5 and Luke 6:37-42.
+
+    [:octicons-arrow-right-24: Read](first-take-the-log-out.md)
 
 -   __Forgive Us Our Debts__
 

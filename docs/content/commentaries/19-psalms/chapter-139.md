@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 139:23-24
 - [Proverbs: A Chapter a Day](../../wisdom/proverbs-reflections.md) — 139:1-12
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 139:7
 - [The Restrainer](../../last-things/the-restrainer.md) — 139:7

@@ -19,6 +19,7 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 5:17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 5:8
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:17-18
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 5:10
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 5:18-21
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 5:10
 - [Submission in Context](../../christian-life/submission-in-context.md) — 5:17

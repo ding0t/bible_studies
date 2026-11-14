@@ -6,9 +6,9 @@ tags: ["2-corinthians", "1-corinthians", "revelation", "isaiah", "judgment-seat"
 questions: ["Will Christians be judged?", "What rewards do believers receive in heaven?"]
 draft: false
 primary_passage: "2 Corinthians 5:10; 1 Corinthians 3:10-15; Revelation 20:11-15"
-bible_references: ["Genesis 14:22-24", "Genesis 15:1", "Genesis 30:28-32", "Psalm 62:12", "Isaiah 40:10", "Isaiah 45:23", "Isaiah 61:10", "Isaiah 62:11", "Daniel 12:2-3", "Ezekiel 2:1-10", "Ezekiel 3:1-27", "Ezekiel 33:4-9", "Malachi 3:16-18", "Zechariah 3:4", "Matthew 6:4", "Matthew 10:42", "Matthew 25:31-32", "Luke 14:14", "Luke 17:10", "John 3:20", "John 5:22-29", "Acts 18:6", "Acts 18:12-17", "Acts 20:26-27", "Romans 2:6-8", "Romans 4:4-5", "Romans 8:1", "Romans 9:11", "Romans 11:6", "Romans 14:10-12", "1 Corinthians 3:8", "1 Corinthians 4:1-7", "1 Corinthians 9:25", "1 Corinthians 15:10", "1 Corinthians 15:23", "2 Corinthians 5:1-11", "Ephesians 2:8-10", "Philippians 2:12-13", "Colossians 3:23-25", "1 Thessalonians 2:19", "Hebrews 13:17", "1 Peter 3:15", "2 Timothy 4:8", "James 1:12", "1 Peter 5:4", "1 John 2:28", "2 John 1:8", "Revelation 2:10", "Revelation 3:5", "Revelation 3:11", "Revelation 4:10-11", "Revelation 6:11", "Revelation 7:9-14", "Revelation 11:18", "Revelation 19:7-8", "Revelation 20:4-6", "Revelation 22:12-14"]
+bible_references: ["Genesis 14:22-24", "Genesis 15:1", "Genesis 30:28-32", "Psalm 62:12", "Isaiah 40:10", "Isaiah 45:23", "Isaiah 61:10", "Isaiah 62:11", "Daniel 12:2-3", "Ezekiel 2:1-10", "Ezekiel 3:1-27", "Ezekiel 33:4-9", "Malachi 3:16-18", "Zechariah 3:4", "Matthew 6:4", "Matthew 10:42", "Matthew 25:31-32", "Luke 14:14", "Luke 17:10", "John 3:20", "John 5:22-29", "Acts 18:6", "Acts 18:12-17", "Acts 20:26-27", "Romans 2:6-8", "Romans 4:4-5", "Romans 8:1", "Romans 9:11", "Romans 11:6", "Romans 14:10-12", "1 Corinthians 3:8", "1 Corinthians 4:1-7", "1 Corinthians 9:25", "1 Corinthians 15:10", "1 Corinthians 15:23", "2 Corinthians 5:1-11", "Ephesians 2:8-10", "Philippians 2:12-13", "Colossians 3:23-25", "1 Thessalonians 2:19", "Hebrews 13:17", "1 Peter 3:15", "2 Timothy 4:8", "James 1:12", "1 Peter 5:4", "1 John 2:28", "2 John 1:8", "Revelation 2:10", "Revelation 3:5", "Revelation 3:11", "Revelation 4:10-11", "Revelation 6:11", "Revelation 7:9-14", "Revelation 11:18", "Revelation 19:7-8", "Revelation 20:4-6", "Revelation 22:12-14", "Matthew 7:2"]
 date_created: 2026-10-15
-date_modified: 2026-10-21
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -473,6 +473,8 @@ believer's side: whoever "shares in the first resurrection" is beyond the second
 - [The Rapture](rapture.md#the-judgments): the twelve uses of βῆμα and where the judgment seat falls
   in the sequence of His coming.
 - [Saved as Through Fire](../salvation/saved-as-through-fire.md): 1 Corinthians 3:10-15 verse by verse.
+- [First Take the Log Out](../christian-life/first-take-the-log-out.md#what-you-will-be-judged-means-for-a-believer):
+  what "with the measure you use it will be measured to you" (Matthew 7:2) means for a believer.
 - [The Bride of Christ](../israel-and-church/bride-of-christ.md): the Bride made ready and granted her
   linen.
 - [They Were Given White Robes](they-were-given-white-robes.md): every white garment in Scripture,

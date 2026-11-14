@@ -15,6 +15,7 @@ draft: false
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 4:17-19
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 4:41
 - [Fasting](../../christian-life/fasting.md) — 4:1-2
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 4:20
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 4:16-21
 - [In Humility](../../christian-life/humility.md) — 4:18
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 4:18-21

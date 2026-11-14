@@ -1,0 +1,124 @@
+# One-minute comic for docs/content/christian-life/first-take-the-log-out.md.
+# Drawn by: python3 utils/build_comics.py first-take-the-log-out
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-11-15.
+#
+# The study's point: God alone judges, and measures you with your own measure; so let Him take the
+# log out of your eye first, and then you will see clearly to help your brother (Matthew 7:1-5).
+# Told in Jesus' own picture, drawn as He says it, then crossed to the Old Testament story that
+# lives it: Nathan's parable and David's "You are the man!" (2 Samuel 12:1-7), and the psalm David
+# wrote "when Nathan the prophet went to him" (Psalm 51 title), whose order is Matthew 7:5's:
+# cleanse me (51:10), then I will teach transgressors (51:13).
+#
+# Panel 1: Jesus "sat down" to teach (Matthew 5:1), so He is drawn seated.
+# The beam is δοκός, a roof timber (2 Kings 6:2, 5 LXX); the speck is κάρφος, a twig or chip
+# (Genesis 8:11 LXX). Both appear in the NT only in Matthew 7:3-5 and Luke 6:41-42 (bible_concordance
+# G1385, G2595). Luke 6:42 gives the "Brother," of panel 2.
+# The brother has no recorded words, so he says none. Panel 5's beam lays Jesus' picture over
+# David's story: 2 Samuel 12 has no beam, and the note says so.
+# David's shout is 2 Samuel 12:5 ("David's anger was greatly kindled"), so style = "shout".
+
+title = "First Take the Log Out"
+subtitle = "A carpenter's joke, and a king who did not see his own"
+layout = [[300, 1, 1], [300, 1, 1], [300, 3, 2]]
+note = "Panels 2 and 5 draw Jesus' overstatement as He says it; 2 Samuel 12 has no beam. The brother in Jesus' picture has no recorded words."
+point = "God alone judges, and He measures you with your own measure. Let Him take the log out of your eye first; then you will see clearly to help your brother, gently, as one forgiven (Matthew 7:2, 5; Psalm 51:13)."
+
+[[panel]]
+ref = "Matthew 7:3"
+scene = "hills"
+sky = "day"
+caption = "Jesus sits and teaches."
+caption_w = 190
+shows = "Jesus seated on a hillside, teaching two seated disciples"
+cast = [
+  { who = "disciple", x = 0.14, face = "right", stance = "sit", s = 0.8 },
+  { who = "disciple", x = 0.36, face = "right", stance = "sit", s = 0.8, tone = 1 },
+  { who = "jesus", x = 0.78, face = "left", stance = "sit", pose = "open" },
+]
+say = [
+  { by = "jesus", text = "Why do you see the speck that is in your brother's eye, but do not notice the *log* that is in your own eye?", source = "esv", at = [0.42, 0.33], w = 205 },
+]
+
+[[panel]]
+ref = "Luke 6:41-42"
+scene = "plain"
+sky = "day"
+caption = "The picture He paints:"
+caption_w = 190
+aside = "His own overstatement, drawn as He says it."
+shows = "a disciple with an enormous roof beam jutting from his eye and off the edge of the panel, leaning in to reach for a tiny speck in the eye of a seated brother; the beam passes over the brother's head"
+cast = [
+  { who = "disciple", id = "beam", x = 0.22, face = "right", pose = "offer", eye = "beam", beam = 1.25, tone = 2 },
+  { who = "disciple", id = "brother", x = 0.405, face = "left", stance = "sit", eye = "speck", tone = 1 },
+]
+say = [
+  { by = "beam", text = "Brother, let me take out the *speck* that is in your eye,", source = "esv", at = [0.76, 0.6], w = 140 },
+]
+
+[[panel]]
+ref = "Matthew 7:5"
+scene = "hills"
+sky = "day"
+caption = "Jesus says:"
+caption_w = 120
+shows = "Jesus, in a medium shot, speaking"
+camera = { on = "jesus", zoom = 1.5, at = [0.3, 0.5] }
+cast = [
+  { who = "jesus", x = 0.5, face = "right", pose = "point" },
+]
+say = [
+  { by = "jesus", text = "You hypocrite, *first* take the log out of your own eye,", source = "esv", at = [0.70, 0.40], w = 160 },
+]
+
+[[panel]]
+ref = "Matthew 7:5"
+scene = "plain"
+sky = "day"
+caption = "The beam set down."
+caption_w = 170
+shows = "the beam lying on the ground; the disciple kneels close to his seated brother and reaches gently for the speck in his eye"
+props = [
+  { what = "beam", x = 0.2, s = 0.6 },
+]
+cast = [
+  { who = "disciple", id = "kneel", x = 0.42, face = "right", stance = "kneel", pose = "point", tone = 2 },
+  { who = "disciple", x = 0.62, face = "left", stance = "sit", eye = "speck", tone = 1 },
+]
+say = [
+  { by = "jesus", name = "Jesus", from = [0.5, -0.1], style = "text", text = "and then you will *see clearly* to take the speck out of your brother's eye.", source = "esv", at = [0.56, 0.30], w = 200 },
+]
+
+[[panel]]
+ref = "2 Samuel 12:1-7"
+scene = "room"
+sky = "day"
+flashback = true
+caption = "Long before: Nathan's story of the stolen lamb."
+caption_w = 250
+shows = "Nathan standing behind King David, pointing at him, while David points away in anger at the man in the story, a long beam jutting from David's eye"
+cast = [
+  { who = "nathan", x = 0.12, face = "right", pose = "point", tag = "Nathan" },
+  { who = "david", x = 0.36, face = "right", pose = "point", eye = "beam", beam = 1.0, tag = "David" },
+]
+say = [
+  { by = "david", style = "shout", text = "the man who has done this *deserves to die*", source = "esv", at = [0.74, 0.66], w = 160 },
+  { by = "nathan", text = "You are the man!", source = "esv", at = [0.2, 0.3], w = 90 },
+]
+
+[[panel]]
+ref = "Psalm 51:1, 13"
+scene = "room"
+sky = "dusk"
+grade = "warm"
+caption = "David's psalm, \"when Nathan the prophet went to him.\""
+caption_w = 230
+shows = "David kneeling in prayer, the beam lying on the floor beside him"
+props = [
+  { what = "beam", x = 0.34, s = 0.55 },
+]
+cast = [
+  { who = "david", x = 0.76, face = "left", stance = "kneel", pose = "fold" },
+]
+say = [
+  { by = "david", text = "*Then* I will teach transgressors your ways", source = "esv", at = [0.38, 0.42], w = 150 },
+]

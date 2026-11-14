@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 3:1
 - [Idolatry](../../sin/idolatry.md) — 3:14-16
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 3:12
 <!-- commentary-index:auto-end -->

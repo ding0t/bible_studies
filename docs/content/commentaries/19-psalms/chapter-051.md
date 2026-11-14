@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 51:1-13
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 51:11
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 51:7
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 51:10

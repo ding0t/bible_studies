@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 14:4
 - [In Humility](../../christian-life/humility.md) — 14:11
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 14:17
 - [The Appointed Times](../../feasts/feasts.md) — 14:5-6

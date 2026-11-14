@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Fasting](../../christian-life/fasting.md) — 12:16-23
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 12:1-13
 <!-- commentary-index:auto-end -->

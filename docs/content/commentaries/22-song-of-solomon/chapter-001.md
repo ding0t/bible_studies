@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 1:17
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 1:1
 <!-- commentary-index:auto-end -->

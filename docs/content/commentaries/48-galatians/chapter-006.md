@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 6:1-4
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 6:1-2
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 6:16
 - [Pride](../../sin/pride.md) — 6:14

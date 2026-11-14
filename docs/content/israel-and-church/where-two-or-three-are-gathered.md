@@ -5,9 +5,9 @@ description: "Matthew 18:20 is often said in church as though Jesus comes, or pr
 tags: ["matthew", "prayer", "worship", "church", "church-discipline", "reconciliation", "dead-sea-scrolls", "mishnah", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: false
 primary_passage: "Matthew 18:15-20"
-bible_references: ["Matthew 18:1-14", "Matthew 18:21-35", "Leviticus 19:17", "Deuteronomy 19:15", "Deuteronomy 17:7", "Matthew 16:18-19", "John 20:23", "Matthew 1:23", "Matthew 28:19-20", "Matthew 9:9-11", "Matthew 10:3", "Matthew 22:34", "Matthew 26:57", "1 Corinthians 5:4-5", "1 Corinthians 5:11", "1 Corinthians 6:1", "1 Corinthians 6:19", "2 Corinthians 2:6-8", "Galatians 6:1", "2 Thessalonians 3:14-15", "1 Timothy 5:19-20", "Luke 17:3", "Matthew 6:6", "Matthew 14:23", "Mark 1:35", "James 5:16-18", "John 14:13-14", "Romans 8:26-27", "Hebrews 7:25", "Hebrews 10:24-25", "Acts 4:24-31", "Acts 12:5", "Romans 13:4", "Matthew 20:2"]
+bible_references: ["Matthew 18:1-14", "Matthew 18:21-35", "Leviticus 19:17", "Deuteronomy 19:15", "Deuteronomy 17:7", "Matthew 16:18-19", "John 20:23", "Matthew 1:23", "Matthew 28:19-20", "Matthew 9:9-11", "Matthew 10:3", "Matthew 22:34", "Matthew 26:57", "1 Corinthians 5:4-5", "1 Corinthians 5:11", "1 Corinthians 6:1", "1 Corinthians 6:19", "2 Corinthians 2:6-8", "Galatians 6:1", "2 Thessalonians 3:14-15", "1 Timothy 5:19-20", "Luke 17:3", "Matthew 6:6", "Matthew 14:23", "Mark 1:35", "James 5:16-18", "John 14:13-14", "Romans 8:26-27", "Hebrews 7:25", "Hebrews 10:24-25", "Acts 4:24-31", "Acts 12:5", "Romans 13:4", "Matthew 20:2", "Matthew 7:5"]
 date_created: 2026-10-01
-date_modified: 2026-10-10
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -168,6 +168,11 @@ private reproof first, so the offender could put things right without public sha
 The aim is in the last verb. "You have gained your brother": κερδαίνω (*kerdainō*, G2770), the
 merchant's word for a profit. The *ESV Study Bible* names the objective as restoration of the
 offending brother to the path of discipleship.
+
+Jesus had already said what comes before step one: "first take the log out of your own eye, and
+then you will see clearly to take the speck out of your brother's eye" (Matthew 7:5, ESV). The one
+who goes alone goes after letting God search him first. [First Take the Log
+Out](../christian-life/first-take-the-log-out.md#first-then) works through that order.
 
 **"Against you" is uncertain.** Some manuscripts read "if your brother sins" and others add "against
 you." The NA28 prints the words in brackets as doubtful. The SBL Greek New Testament keeps them, and

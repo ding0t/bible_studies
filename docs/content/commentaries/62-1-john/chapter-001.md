@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 1:9
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 1:8-10
 - [Precious Stones in Scripture](../../god/precious-stones.md) — 1:5
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 1:9

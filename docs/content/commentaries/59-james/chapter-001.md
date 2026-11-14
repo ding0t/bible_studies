@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 1:5
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 1:1
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 1:13
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 1:12

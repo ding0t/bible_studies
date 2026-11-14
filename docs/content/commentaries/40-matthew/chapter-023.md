@@ -14,6 +14,7 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 23:39
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 23:2-3
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 23:24-26
 - [In Humility](../../christian-life/humility.md) — 23:12
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 23:4
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 23:4-5

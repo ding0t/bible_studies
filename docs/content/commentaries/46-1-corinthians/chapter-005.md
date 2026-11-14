@@ -14,9 +14,11 @@ draft: false
 
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 5:6-8 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 5:7
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 5:1-13
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:7-8
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 5:11-13
 - [Passover: When I See the Blood](../../feasts/passover.md) — 5:7-8
+- [Pride](../../sin/pride.md) — 5:2
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 5:5
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 5:1
 - [Submission in Context](../../christian-life/submission-in-context.md) — 5:11

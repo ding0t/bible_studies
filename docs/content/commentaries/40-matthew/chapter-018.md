@@ -14,6 +14,7 @@ draft: false
 
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 18:20 (primary passage)
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 18:15-20 (primary passage)
+- [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 18:15-18
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 18:15-17
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 18:15
 - [In Humility](../../christian-life/humility.md) — 18:1-4
