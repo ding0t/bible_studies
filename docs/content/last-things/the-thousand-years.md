@@ -6,7 +6,7 @@ tags: ["revelation", "isaiah", "psalms", "micah", "zechariah", "daniel", "luke",
 questions: ["What is the millennium?", "What will believers do during the thousand-year reign of Christ?"]
 draft: true
 primary_passage: "Revelation 20:1-10"
-bible_references: ["Revelation 19:11-21", "Revelation 20:11-15", "Revelation 2:8", "Revelation 2:26-27", "Revelation 3:21", "Revelation 5:10", "Revelation 1:6", "Revelation 12:9", "Revelation 13:14", "Revelation 16:14", "Revelation 21:22", "Psalm 2:6-9", "Psalm 72:1-17", "Psalm 110:1-2", "Isaiah 2:2-4", "Isaiah 11:1-10", "Isaiah 24:21-23", "Isaiah 65:17-25", "Micah 4:1-5", "Zechariah 14:9", "Zechariah 14:16-19", "Daniel 7:9", "Daniel 7:18", "Daniel 7:22", "Daniel 7:27", "Ezekiel 43:10-11", "Ezekiel 43:18-21", "Ezekiel 45:15-17", "Matthew 12:29", "Matthew 13:33", "Matthew 19:28", "Matthew 25:21", "Matthew 25:31-34", "Luke 18:8", "Luke 19:15-19", "Luke 22:29-30", "John 5:25-29", "1 Corinthians 6:2-3", "1 Corinthians 15:23-25", "2 Corinthians 4:4", "Ephesians 2:6", "2 Timothy 2:12", "Hebrews 9:13", "Hebrews 10:18", "1 Peter 5:8"]
+bible_references: ["Revelation 19:11-21", "Revelation 20:11-15", "Revelation 2:8", "Revelation 2:26-27", "Revelation 3:21", "Revelation 5:10", "Revelation 1:6", "Revelation 12:9", "Revelation 13:14", "Revelation 16:14", "Revelation 21:22", "Psalm 2:6-9", "Psalm 72:1-17", "Psalm 110:1-2", "Isaiah 2:2-4", "Isaiah 11:1-10", "Isaiah 24:21-23", "Isaiah 65:17-25", "Micah 4:1-5", "Zechariah 14:9", "Zechariah 14:16-19", "Daniel 7:9", "Daniel 7:18", "Daniel 7:22", "Daniel 7:27", "Ezekiel 43:10-11", "Ezekiel 43:18-21", "Ezekiel 45:15-17", "Matthew 12:29", "Matthew 13:33", "Matthew 19:28", "Matthew 25:21", "Matthew 25:31-34", "Luke 18:8", "Luke 19:15-19", "Luke 22:29-30", "John 5:25-29", "1 Corinthians 6:2-3", "1 Corinthians 15:23-25", "2 Corinthians 4:4", "Ephesians 2:6", "2 Timothy 2:12", "Hebrews 9:13", "Hebrews 10:18", "1 Peter 5:8", "Revelation 16:19-20", "Isaiah 24:1", "Ezekiel 39:9-16", "Daniel 12:11-12", "Matthew 25:31-32", "Isaiah 61:1-4", "Luke 4:16-21", "Amos 9:11-15", "Acts 15:16", "Ezekiel 36:33-36", "Joel 2:25", "Zechariah 14:4-10", "Ezekiel 47:1-12", "Isaiah 35:1", "Acts 3:21", "Titus 3:5"]
 date_created: 2026-11-15
 date_modified: 2026-11-15
 ai_provider_models:
@@ -90,6 +90,8 @@ In Jesus' name. Amen.
   postmillennial and premillennial, with the textual case for each.
 - [What the prophets saw](#what-the-prophets-saw). Psalms 2 and 72, Isaiah, Micah and Zechariah on
   the King's reign over the nations.
+- [After the tribulation: clearing and rebuilding](#after-the-tribulation-clearing-and-rebuilding).
+  The damage, Ezekiel 39's clean-up, Daniel 12's extra days, the rebuilt ruins, and what God repairs.
 - [What the saints do](#what-the-saints-do). Each task, marked stated or inferred, and who the text
   says it of.
 - [The temple Ezekiel saw](#the-temple-ezekiel-saw). The question Ezekiel 40-48 raises and the four
@@ -318,6 +320,98 @@ Put together, these passages describe a King reigning from Jerusalem over nation
 weather, harvests, death and the freedom to refuse Him. **This shows that God is faithful to the
 world He made.** He will rule it in righteousness before He makes it new.
 
+## After the tribulation: clearing and rebuilding
+
+The King returns to a ruined world. Before the prophets' pictures of peace come true, someone has to
+clear the wreckage, bury the dead and rebuild the cities. Scripture says a good deal about that work,
+and it fits the faithful-servant pattern the parables set.
+
+### The damage left behind
+
+The last bowl leaves the world broken: "The great city was split into three parts, and the cities of
+the nations fell... And every island fled away, and no mountains were to be found" (Revelation
+16:19-20, ESV). Isaiah saw the same: "the LORD will empty the earth and make it desolate, and he
+will twist its surface and scatter its inhabitants" (Isaiah 24:1, ESV). The reign begins on an earth
+that has been judged.
+
+### Clearing the land
+
+Ezekiel describes the clean-up after God destroys the army of Gog:
+
+> ✝️ Ezekiel 39:9, 12 (ESV)
+>
+> 9 Then those who dwell in the cities of Israel will go out and make fires of the weapons and burn
+> them, shields and bucklers, bow and arrows, clubs and spears; and they will make fires of them for
+> seven years, ... 12 For seven months the house of Israel will be burying them, in order to cleanse
+> the land.
+
+The burying is organised work. "They will set apart men to travel through the land regularly and
+bury those travelers remaining on the face of the land, so as to cleanse it" (Ezekiel 39:14, ESV).
+"Cleanse" is טָהֵר (*taher*, tah-HER, H2891), the word for ritual purity: the land is made fit again
+for God's people to live in. The weapons serve as fuel, "so that they will not need to take wood out
+of the field or cut down any out of the forests" (Ezekiel 39:10, ESV).
+
+When that war happens is contested. Many dispensational writers place Ezekiel 38-39 before or early
+in the tribulation, which would carry the seven years of burning into the kingdom's first years.
+Others place it at the end of the tribulation, at the King's return. Revelation 20:8 uses the names
+"Gog and Magog" for the rebellion after the thousand years, and some read Ezekiel there. The text
+fixes what the clean-up is; it does not fix the date.
+
+### The days after the 1,260
+
+Daniel gives two numbers past the tribulation's second half of 1,260 days: "there shall be 1,290
+days," and "Blessed is he who waits and arrives at the 1,335 days" (Daniel 12:11-12, ESV). That is
+thirty days and then forty-five more. Daniel does not say what they hold. Many dispensational
+interpreters suggest a time of transition between the return and the settled reign: the judgment of
+the nations, when "the Son of Man comes in his glory... Before him will be gathered all the nations"
+(Matthew 25:31-32, ESV), and the setting in order of the land. That is an inference, and [the
+Tribulation study](tribulation.md#one-span-counted-three-ways) sets out how the three spans are
+counted.
+
+### Rebuilding the ruins
+
+The prophets promise rebuilding again and again.
+
+- **Isaiah 61:4.** "They shall build up the ancient ruins; they shall raise up the former
+  devastations; they shall repair the ruined cities, the devastations of many generations" (ESV).
+  In the synagogue at Nazareth Jesus read Isaiah 61 as far as "to proclaim the year of the Lord's
+  favor" (Luke 4:19, ESV), rolled up the scroll and said, "Today this Scripture has been fulfilled in
+  your hearing" (Luke 4:21, ESV). He stopped in the middle of Isaiah 61:2, before "the day of
+  vengeance of our God." The rebuilding of verse 4 comes after the vengeance, so on this reading it
+  waits for His return.
+- **Amos 9:11, 14.** "I will raise up the booth of David that is fallen and repair its breaches...
+  they shall rebuild the ruined cities and inhabit them; they shall plant vineyards and drink their
+  wine" (ESV). James quotes the first promise at the Jerusalem council: "After this I will return,
+  and I will rebuild the tent of David that has fallen" (Acts 15:16, ESV).
+- **Ezekiel 36:33, 35.** "The waste places shall be rebuilt," until people say, "This land that was
+  desolate has become like the garden of Eden" (ESV).
+- **Joel 2:25.** "I will restore to you the years that the swarming locust has eaten" (ESV).
+
+Who does the building? Isaiah 61:4's "they" are the people the anointed one comforts, and Amos 9:14's
+are Israel restored to the land. On the dispensational reading the mortal survivors do the labour;
+that the risen saints direct it, as servants set "over ten cities" (Luke 19:17, ESV), is inferred.
+
+### What God Himself repairs
+
+Some of the repair no human hand could do. When His feet stand on the Mount of Olives, it "shall be
+split in two from east to west by a very wide valley" (Zechariah 14:4, ESV); "living waters shall
+flow out from Jerusalem" (Zechariah 14:8, ESV); the land around becomes a plain while "Jerusalem
+shall remain aloft on its site" (Zechariah 14:10, ESV). Ezekiel's river turns the Dead Sea fresh:
+"everything will live where the river goes" (Ezekiel 47:9, ESV). "The desert shall rejoice and
+blossom like the crocus" (Isaiah 35:1, ESV).
+
+Peter names the whole work. Heaven must receive Jesus "until the time for restoring all the things
+about which God spoke by the mouth of his holy prophets long ago" (Acts 3:21, ESV). "Restoring" is
+ἀποκατάστασις (*apokatastasis*, ah-po-kah-TAH-stah-sis, G605), used only here in the New Testament.
+Jesus calls the same era "the new world" (Matthew 19:28, ESV), παλιγγενεσία (*palingenesia*,
+pah-ling-geh-neh-SEE-ah, G3824), "regeneration," a word Paul uses once more for the new birth (Titus
+3:5).
+
+**This shows that God finishes what He starts.** The earth that sin ruined and judgment broke, He
+restores, and He gives His people work to do in the restoring. So the faithfulness you show now in
+small things, mending what is broken and serving where you are set, is training for the work He has
+ready for you then (Luke 19:17).
+
 ## What the saints do
 
 The table marks each task: what Scripture states, what is inferred, and whom the text says it of.
@@ -415,7 +509,8 @@ The priesthood of Revelation 20:6 stands on its own text, whichever of these is 
 
 !!! warning "Extra-biblical sources: useful, and not Scripture"
 
-    This section quotes 1 Enoch, 2 Baruch and Irenaeus's report of Papias, and cites 2 Enoch. None
+    This section quotes 1 Enoch, 2 Baruch, Irenaeus's report of Papias, Justin Martyr and
+    Lactantius, and cites 2 Enoch. None
     of them is Scripture. "All Scripture is breathed out by God" (2 Timothy 3:16, ESV) is said of the
     canon and of nothing else — not of the pseudepigraphal books, and not of the church fathers,
     however early or however many of them agree.
@@ -483,6 +578,17 @@ allows that for converts now and applies the words to the animals as well "in th
 the just." So the figurative and the literal readings of the prophets were both alive in the second
 century.
 
+### Justin Martyr and Lactantius: a city rebuilt
+
+Justin Martyr, writing in the middle of the second century, put the rebuilding at the centre: "I and
+others, who are right-minded Christians on all points, are assured that there will be a resurrection
+of the dead, and a thousand years in Jerusalem, which will then be built, adorned, and enlarged, [as]
+the prophets Ezekiel and Isaiah and others declare" (*Dialogue with Trypho* 80, *Ante-Nicene
+Fathers* vol. 1). Early in the fourth century Lactantius had the risen "preside over the living as
+judges" through the thousand years, while "the earth will open its fruitfulness, and bring forth most
+abundant fruits of its own accord" (*Divine Institutes* 7.24, *Ante-Nicene Fathers* vol. 7). Justin
+leaned on the prophets' rebuilt city; Lactantius on a fruitfulness God gives without labour.
+
 Set beside Revelation, these sources show how restrained John is. The multiplying vine of Papias is
 close to 2 Baruch's. John gives no harvest figures at all. He gives thrones, a resurrection, priests
 and a reign with Christ.
@@ -544,6 +650,8 @@ So you may treat the "very little" in your hands now as the beginning of that tr
 - *2 Baruch* 29:3-5; 30:1, trans. R. H. Charles, public domain, same dataset.
 - *2 Enoch* 33:1, as quoted in [A Day Is a Thousand Years](day-is-a-thousand-years.md).
 - Irenaeus of Lyons, *Against Heresies* 5.33.3-4, in *Ante-Nicene Fathers* vol. 1 (public domain).
+- Justin Martyr, *Dialogue with Trypho* 80, in *Ante-Nicene Fathers* vol. 1 (public domain).
+- Lactantius, *Divine Institutes* 7.24, in *Ante-Nicene Fathers* vol. 7 (public domain).
 
 ### On this site
 

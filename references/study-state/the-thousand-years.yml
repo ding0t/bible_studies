@@ -42,8 +42,8 @@ outline:
   - {section: "The temple Ezekiel saw", says: "Names the open question and four answers; takes no position."}
   - {section: "Background: what Jews and early Christians expected", says: "1 Enoch, 2 Enoch, 2 Baruch, Papias via Irenaeus behind the warning; they show expectation, carry no claim."}
   - {section: "What the reign shows about God", says: "God keeps His word to the earth, to His Son and to His people; so you may be faithful in little."}
-word_budget: 4000
-word_budget_reason: ""
+word_budget: 5100
+word_budget_reason: "Raised 2026-11-15 at the author's request to add the section After the tribulation: clearing and rebuilding (Ezekiel 39, Daniel 12:11-12, Isaiah 61:4, Amos 9, Acts 3:21), about 1,030 words."
 
 stages:
   scoping:
@@ -131,6 +131,36 @@ resources_consulted:
 
 
 evidence:
+  - {id: ezek39-9, what: "ESV Ezek 39:9", tool: study_verse, args: {book: Ezek, chapter: 39, verse: 9, work_id: esv-study-bible}, expect_contains: "make fires of them for seven years", checked: 2026-11-15}
+  - {id: ezek39-10, what: "ESV Ezek 39:10", tool: study_verse, args: {book: Ezek, chapter: 39, verse: 10, work_id: esv-study-bible}, expect_contains: "they will make their fires of the weapons", checked: 2026-11-15}
+  - {id: ezek39-12, what: "ESV Ezek 39:12", tool: study_verse, args: {book: Ezek, chapter: 39, verse: 12, work_id: esv-study-bible}, expect_contains: "For seven months the house of Israel will be burying them, in order to cleanse the land", checked: 2026-11-15}
+  - {id: ezek39-14, what: "ESV Ezek 39:14", tool: study_verse, args: {book: Ezek, chapter: 39, verse: 14, work_id: esv-study-bible}, expect_contains: "They will set apart men to travel through the land regularly", checked: 2026-11-15}
+  - {id: rev16-19, what: "ESV Rev 16:19", tool: study_verse, args: {book: Rev, chapter: 16, verse: 19, work_id: esv-study-bible}, expect_contains: "the cities of the nations fell", checked: 2026-11-15}
+  - {id: rev16-20, what: "ESV Rev 16:20", tool: study_verse, args: {book: Rev, chapter: 16, verse: 20, work_id: esv-study-bible}, expect_contains: "And every island fled away, and no mountains were to be found", checked: 2026-11-15}
+  - {id: isa24-1, what: "ESV Isa 24:1", tool: study_verse, args: {book: Isa, chapter: 24, verse: 1, work_id: esv-study-bible}, expect_contains: "the LORD will empty the earth and make it desolate", checked: 2026-11-15}
+  - {id: dan12-11, what: "ESV Dan 12:11", tool: study_verse, args: {book: Dan, chapter: 12, verse: 11, work_id: esv-study-bible}, expect_contains: "there shall be 1,290 days", checked: 2026-11-15}
+  - {id: dan12-12, what: "ESV Dan 12:12", tool: study_verse, args: {book: Dan, chapter: 12, verse: 12, work_id: esv-study-bible}, expect_contains: "Blessed is he who waits and arrives at the 1,335 days", checked: 2026-11-15}
+  - {id: matt25-31, what: "ESV Matt 25:31", tool: study_verse, args: {book: Matt, chapter: 25, verse: 31, work_id: esv-study-bible}, expect_contains: "When the Son of Man comes in his glory", checked: 2026-11-15}
+  - {id: matt25-32, what: "ESV Matt 25:32", tool: study_verse, args: {book: Matt, chapter: 25, verse: 32, work_id: esv-study-bible}, expect_contains: "Before him will be gathered all the nations", checked: 2026-11-15}
+  - {id: isa61-4, what: "ESV Isa 61:4", tool: study_verse, args: {book: Isa, chapter: 61, verse: 4, work_id: esv-study-bible}, expect_contains: "they shall repair the ruined cities, the devastations of many generations", checked: 2026-11-15}
+  - {id: isa61-2, what: "ESV Isa 61:2", tool: study_verse, args: {book: Isa, chapter: 61, verse: 2, work_id: esv-study-bible}, expect_contains: "and the day of vengeance of our God", checked: 2026-11-15}
+  - {id: luke4-19, what: "ESV Luke 4:19", tool: study_verse, args: {book: Luke, chapter: 4, verse: 19, work_id: esv-study-bible}, expect_contains: "to proclaim the year of the Lord's favor", checked: 2026-11-15}
+  - {id: luke4-21, what: "ESV Luke 4:21", tool: study_verse, args: {book: Luke, chapter: 4, verse: 21, work_id: esv-study-bible}, expect_contains: "Today this Scripture has been fulfilled in your hearing", checked: 2026-11-15}
+  - {id: amos9-11, what: "ESV Amos 9:11", tool: study_verse, args: {book: Amos, chapter: 9, verse: 11, work_id: esv-study-bible}, expect_contains: "I will raise up the booth of David that is fallen and repair its breaches", checked: 2026-11-15}
+  - {id: amos9-14, what: "ESV Amos 9:14", tool: study_verse, args: {book: Amos, chapter: 9, verse: 14, work_id: esv-study-bible}, expect_contains: "they shall rebuild the ruined cities and inhabit them", checked: 2026-11-15}
+  - {id: acts15-16, what: "ESV Acts 15:16", tool: study_verse, args: {book: Acts, chapter: 15, verse: 16, work_id: esv-study-bible}, expect_contains: "I will rebuild the tent of David that has fallen", checked: 2026-11-15}
+  - {id: ezek36-33, what: "ESV Ezek 36:33", tool: study_verse, args: {book: Ezek, chapter: 36, verse: 33, work_id: esv-study-bible}, expect_contains: "the waste places shall be rebuilt", checked: 2026-11-15}
+  - {id: ezek36-35, what: "ESV Ezek 36:35", tool: study_verse, args: {book: Ezek, chapter: 36, verse: 35, work_id: esv-study-bible}, expect_contains: "has become like the garden of Eden", checked: 2026-11-15}
+  - {id: joel2-25, what: "ESV Joel 2:25", tool: study_verse, args: {book: Joel, chapter: 2, verse: 25, work_id: esv-study-bible}, expect_contains: "I will restore to you the years that the swarming locust has eaten", checked: 2026-11-15}
+  - {id: zech14-4, what: "ESV Zech 14:4", tool: study_verse, args: {book: Zech, chapter: 14, verse: 4, work_id: esv-study-bible}, expect_contains: "shall be split in two from east to west by a very wide valley", checked: 2026-11-15}
+  - {id: zech14-8, what: "ESV Zech 14:8", tool: study_verse, args: {book: Zech, chapter: 14, verse: 8, work_id: esv-study-bible}, expect_contains: "living waters shall flow out from Jerusalem", checked: 2026-11-15}
+  - {id: zech14-10, what: "ESV Zech 14:10", tool: study_verse, args: {book: Zech, chapter: 14, verse: 10, work_id: esv-study-bible}, expect_contains: "Jerusalem shall remain aloft on its site", checked: 2026-11-15}
+  - {id: ezek47-9, what: "ESV Ezek 47:9", tool: study_verse, args: {book: Ezek, chapter: 47, verse: 9, work_id: esv-study-bible}, expect_contains: "everything will live where the river goes", checked: 2026-11-15}
+  - {id: isa35-1, what: "ESV Isa 35:1", tool: study_verse, args: {book: Isa, chapter: 35, verse: 1, work_id: esv-study-bible}, expect_contains: "the desert shall rejoice and blossom like the crocus", checked: 2026-11-15}
+  - {id: acts3-21, what: "ESV Acts 3:21", tool: study_verse, args: {book: Acts, chapter: 3, verse: 21, work_id: esv-study-bible}, expect_contains: "until the time for restoring all the things", checked: 2026-11-15}
+  - {id: g605-count, what: "apokatastasis G605 once in the NT (Acts 3:21)", tool: bible_concordance, args: {strongs: G605}, expect_contains: "Acts", checked: 2026-11-15}
+  - {id: g3824-count, what: "palingenesia G3824 at Matt 19:28 and Titus 3:5", tool: bible_concordance, args: {strongs: G3824}, expect_contains: "Titus", checked: 2026-11-15}
+  - {id: ezek39-12-taher, what: "Ezek 39:12 cleanse is taher H2891", tool: bible_interlinear, args: {book: Ezek, chapter: 39, verse: 12}, expect_contains: "H2891", checked: 2026-11-15}
   - {id: rev20-3, what: "ESV Rev 20:3", tool: study_verse, args: {book: Rev, chapter: 20, verse: 3, work_id: esv-study-bible}, expect_contains: "so that he might not deceive the nations any longer", checked: 2026-11-15}
   - {id: rev20-4, what: "ESV Rev 20:4", tool: study_verse, args: {book: Rev, chapter: 20, verse: 4, work_id: esv-study-bible}, expect_contains: "They came to life and reigned with Christ for a thousand years", checked: 2026-11-15}
   - {id: rev20-5, what: "ESV Rev 20:5", tool: study_verse, args: {book: Rev, chapter: 20, verse: 5, work_id: esv-study-bible}, expect_contains: "The rest of the dead did not come to life until the thousand years were ended", checked: 2026-11-15}
