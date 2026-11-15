@@ -169,7 +169,7 @@ scripts/build-events.test.js`, or `node src/utils/chronology.test.js` for the `s
 
 `npm run validate` (`app/scripts/validate-content.js`, run from `app/`) is the content linter, and
 **it is not wired into CI** — the deploy workflow runs `npm test` only, so validate has to be run
-by hand after editing content. It applies 25 checks in eight groups:
+by hand after editing content. It applies 26 checks in nine groups:
 
 - **Checks 1–9, structural**: frontmatter (required fields, tag quoting, draft status), image paths,
   scripture quote blocks opening with `> ✝️ Reference (TRANSLATION)` as their first line (the
@@ -215,6 +215,13 @@ by hand after editing content. It applies 25 checks in eight groups:
   **Be transformed.**), or a set with no **Be transformed.** question. Warning; the format and the
   reference specimen (`hurt-by-the-church.md`) are in
   `.claude/skills/develop-bible-study/discussion-questions.md`.
+- **Check 26, a Bible reference without its book** — a stand-alone "(5:27)" or "at 4:16" with no
+  book in its sentence. A book named in words there counts ("both in Job (1:6; 2:1)"), as the
+  pop-up reads it, and only the first of a bare run is reported. Quotations, headings, alt text,
+  inline code, non-biblical works (1 Enoch, the Mishnah, Tobit) and table cells under a header or
+  row naming the book are skipped, each reason recorded at `bareReferences`. Warning; the fix is
+  the book chosen from what the paragraph discusses, never copied from the nearest earlier
+  reference. The 2026-11-15 sweep brought the site to zero.
 - **Checks 18–19, claims that go stale silently.** An exhaustiveness claim ("only occurrence",
   "nowhere else") sharing a line with Greek or Hebrew characters — the cheapest sentence in a study
   to write and the most expensive to verify, so routinely written unverified; one shipped saying

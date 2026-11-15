@@ -9,6 +9,7 @@ import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { findBookNames, findRefs } from '../src/utils/scriptureRefs.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -27,6 +28,93 @@ let warningCount = 0;
  * check, and it has been wrong once already in a way the corpus could not reveal (see the
  * comment at the call site). Same export-plus-isMain shape as build-events.js.
  */
+/**
+ * Check 26: a stand-alone bare reference, "(5:27)" or "at 4:16", with no book in its own
+ * citation or sentence. Returns [{ line, ref }] with line counted from the start of bodyContent.
+ *
+ * The pop-up resolves a bare reference from whatever came before it, so an edit that moves that
+ * repoints it with no error: "(21:2)" opened Isaiah 21:2 on the live site after a rewrite, and the
+ * 2026-11-15 sweep found John 4:29 resolving as Matthew and 2 Corinthians 3:17 as Hebrews. A
+ * listener to a study read aloud cannot scroll back for the book either.
+ *
+ * Counts as naming the book, the same way popups.js reads it: a reference with its book earlier in
+ * the same sentence (a continuation, "(Revelation 21:2, 9; 22:17)"), or the book
+ * named in words there ("both in Job (1:6; 2:1)"), which reads twice if repeated. Only the first
+ * bare reference of a run is reported: naming its book makes the rest continuations.
+ *
+ * Skipped, each for a reason a regex cannot see past: headings (adding a book changes the anchor,
+ * and links to it); quotations, block or inline (never edited); image lines (alt text, mostly
+ * generated from comic data); inline code; a table cell whose header or an earlier row names the
+ * book (a "Matthew | Mark | Luke" parallel table, or a column that opens "John 4:6"); a
+ * non-biblical work named in the sentence (1 Enoch, the Mishnah, Tobit, 1QS) or an italic title
+ * just before the number; a number followed by a translator or edition credit; and a time of day.
+ */
+// A non-biblical work named in the same sentence: a bare number after it is that work's own
+// section (1 Enoch 16:1, the Mishnah's Pesachim 10:1, Tobit 1:2, 1QS 5:23).
+const NON_BIBLICAL_WORK =
+  /Mishnah|Sotah|Arakhin|Shabbat|Pesachim|Zevachim|Nedarim|Sanhedrin|Rosh Hashanah|Rabbah|Josephus|Antiquities|Jubilees|Enoch|Esdras|Baruch|Sirach|Wisdom of Solomon|Maccabees|Tobit|Assumption of Moses|Didache|Hermas|Clement|Barnabas|Ignatius|Irenaeus|Victorinus|Eusebius|Philo|1QS|1Q\d+|JETS/i;
+// An italic title or a page/volume marker immediately before the number.
+const TITLE_BEFORE = /(?:\*[^*\n]+\*|pp?\.|vol\.|§)\**[\s,()\d]*$/i;
+// After the number: a translator or edition credit (that work's numbering), or a time of day.
+const CREDIT_AFTER = /^(?:[^)]{0,40}\b(?:trans\.|[Tt]ranslation|[Ee]dition)|\s*[ap]\.?m\b)/;
+
+export function bareReferences(bodyContent) {
+  const lines = bodyContent.split('\n');
+  const out = [];
+  let para = [];
+  let start = 0;
+  let inCode = false;
+  let table = null; // the rows of the current table so far, which a later row continues
+  const scan = (text, firstLine, context = '') => {
+    // Inline code is quoted markup, not a reference: blank it, keeping offsets.
+    const prose = text.replace(/`[^`\n]*`/g, (m) => ' '.repeat(m.length));
+    for (const r of findRefs(prose)) {
+      if (r.ref.book !== undefined || r.ref.c1 === undefined) continue;
+      const before = prose.slice(0, r.start);
+      const end = before.match(/[\s\S]*(?:[.!?]["”’)*]*\s|^)/);
+      const group = context + before.slice(end ? end[0].length : 0);
+      const inGroup = findRefs(group);
+      if (inGroup.some((x) => x.ref.book) || findBookNames(group).length) continue;
+      if (inGroup.some((x) => x.ref.c1 !== undefined)) continue; // a continuation of a bare lead
+      if (NON_BIBLICAL_WORK.test(group) || TITLE_BEFORE.test(before.slice(-60))) continue;
+      if (CREDIT_AFTER.test(prose.slice(r.end))) continue;
+      // Inside a quotation, which is never edited: an open double quote before it in the paragraph.
+      const straight = (before.match(/"/g) || []).length;
+      const curly = (before.match(/“/g) || []).length - (before.match(/”/g) || []).length;
+      if (straight % 2 === 1 || curly > 0) continue;
+      out.push({ line: firstLine + (before.match(/\n/g) || []).length + 1, ref: prose.slice(r.start, r.end) });
+    }
+  };
+  const flush = () => {
+    if (para.length) scan(para.join('\n'), start);
+    para = [];
+  };
+  lines.forEach((l, i) => {
+    if (/^\s*```/.test(l)) {
+      inCode = !inCode;
+      flush();
+      return;
+    }
+    const t = l.trimStart();
+    if (t.startsWith('|') && !inCode) {
+      flush();
+      if (table === null) table = [];
+      if (!/^\|[\s:|-]+\|?\s*$/.test(t)) scan(l, i, table.join(' ') + ' ');
+      table.push(l);
+      return;
+    }
+    table = null;
+    if (inCode || !t || t.startsWith('#') || t.startsWith('>') || /^\[?!\[/.test(t)) {
+      flush();
+      return;
+    }
+    if (!para.length) start = i;
+    para.push(l);
+  });
+  flush();
+  return out;
+}
+
 export function countWordsToThesis(bodyContent) {
   // Image alt text is described for a screen reader, never read on the way to the point, as in
   // Check 20. A one-minute comic under the opening carries ~300 words of it.
@@ -681,6 +769,24 @@ function validateFile(filePath) {
           'No **Be transformed.** discussion question. At least one question should land on the reader personally -- see .claude/skills/develop-bible-study/discussion-questions.md.'
         );
       }
+    }
+  }
+
+  // Check 26: a stand-alone bare reference (see bareReferences above). WARNING, not error: a
+  // regex cannot tell a verse from every other "12:30" in prose, and the fix -- choosing the book
+  // from what the paragraph discusses -- needs a reader. Generated commentary pages are skipped.
+  if (!content.includes('<!-- commentary-index:auto-start -->')) {
+    const bare = bareReferences(bodyContent);
+    if (bare.length) {
+      const shown = bare
+        .slice(0, 5)
+        .map((b) => `line ${b.line + frontmatterEnd + 1} "${b.ref}"`)
+        .join(', ');
+      log(
+        'warning',
+        filePath,
+        `${bare.length} Bible reference(s) without a book (${shown}${bare.length > 5 ? ', ...' : ''}). Name the book, chosen from what the paragraph discusses, never copied from the nearest earlier reference -- see .claude/skills/develop-bible-study/formatting.md, "Every reference names its book".`
+      );
     }
   }
 

@@ -5,7 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
-import { countWordsToThesis, isDraftFrontmatter, linksToDrafts } from './validate-content.js';
+import { bareReferences, countWordsToThesis, isDraftFrontmatter, linksToDrafts } from './validate-content.js';
 
 // Check 14 measures how long a study's opening makes a reader wait for its point, by finding
 // the first bold run. The regex IS the check, and it shipped wrong: the inner class excluded
@@ -107,4 +107,50 @@ test('isDraftFrontmatter accepts true bare or quoted, as hooks/draft_pages.py do
   assert.equal(isDraftFrontmatter('title: "x"\ndraft: true'), true);
   assert.equal(isDraftFrontmatter('draft: "true"'), true);
   assert.equal(isDraftFrontmatter('draft: false'), false);
+});
+
+// Check 26: bare references. What it must catch, and each kind of thing it must leave alone.
+const bare = (md) => bareReferences(md).map((b) => b.ref);
+
+test('flags a stand-alone bare reference', () => {
+  assert.deepEqual(bare('She touches (5:27) the fringe.'), ['5:27']);
+  assert.deepEqual(bare('The verb returns at 4:16 in the next scene.'), ['4:16']);
+});
+
+test('reports only the first of a bare run', () => {
+  assert.deepEqual(bare('He does it at 1:22, 2:15, 2:17 and 4:14.'), ['1:22']);
+});
+
+test('a continuation of a named reference is fine', () => {
+  assert.deepEqual(bare('The bride (Revelation 21:2, 9; 22:17) is ready.'), []);
+  assert.deepEqual(bare('As the hypocrites do (Matthew 6:2, ESV; 6:5, 16).'), []);
+});
+
+test('a book named in words just before is fine, as the pop-up reads it', () => {
+  assert.deepEqual(bare('The sons of God appear both in Job (1:6; 2:1).'), []);
+});
+
+test('a new sentence does not inherit the last one\'s book', () => {
+  assert.deepEqual(bare('Jesus speaks (John 4:10). Later the woman runs (4:28).'), ['4:28']);
+});
+
+test('leaves quotations, headings, alt text and inline code alone', () => {
+  assert.deepEqual(bare('> 3 Why do you see (7:3) the speck'), []);
+  assert.deepEqual(bare('## The Faithful Servant (24:45-51)'), []);
+  assert.deepEqual(bare('[![Panel 1 (5:27): she reaches](a.svg)](a.svg)'), []);
+  assert.deepEqual(bare('The note lists "the themes (90:1-2, 4)" in Book IV.'), []);
+  assert.deepEqual(bare('Never write a bare `(21:2)` in a study.'), []);
+});
+
+test('leaves non-biblical works, credits and times alone', () => {
+  assert.deepEqual(bare('R. H. Charles, trans., *The Book of Enoch* (1912), 16:1.'), []);
+  assert.deepEqual(bare("Tobit's exiles are in Nineveh (1:2)."), []);
+  assert.deepEqual(bare('"Sanctified, sanctified" (2:7, trans. Kulp).'), []);
+  assert.deepEqual(bare('The sun set at 6:20pm that day.'), []);
+});
+
+test('a table cell follows its header and the rows above it', () => {
+  assert.deepEqual(bare('| Matthew 24 | Mark 13 |\n|---|---|\n| 24:3 | 13:3 |'), []);
+  assert.deepEqual(bare('| Verse | Word |\n|---|---|\n| John 4:6 | spring |\n| 4:11 | shaft |'), []);
+  assert.deepEqual(bare('| Verse | Word |\n|---|---|\n| 4:11 | shaft |'), ['4:11']);
 });

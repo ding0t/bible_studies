@@ -101,7 +101,7 @@ What the pop-ups (0.1 and 0.2) left undone.
   bare `(21:2)`, except a continuation within the same citation (`(Revelation 21:2, 9; 22:17)`).
   912 stand-alone bare references across 46 pages were written before the rule. The pop-up resolves
   them from the nearest earlier reference, and an edit that moves that reference repoints them with
-  no error: `bride-of-christ.md`'s (21:2) opened Isaiah 21:2 after a rewrite cut the sentence naming
+  no error: `bride-of-christ.md`'s `(21:2)` opened Isaiah 21:2 after a rewrite cut the sentence naming
   Revelation 19:7. The 2026-09-27 audit caught only resolutions to a verse that does not exist or
   with another book named just before, so a wrong book with a real verse can still be hiding. The
   sweep adds the book to each, checked against its paragraph rather than taken from the resolver.
@@ -118,7 +118,8 @@ What the pop-ups (0.1 and 0.2) left undone.
   English verse so the pop-up opens the right one.
 - **A validator warning for a bare reference.** Once the sweep is done, a `validate-content.js`
   check warns on a chapter-and-verse with no book that is not a continuation in the same citation,
-  so new text cannot drift back.
+  so new text cannot drift back. *Done 2026-11-15:* Check 26, with tests in `validate-content.test.js`; the
+  site has no warnings from it.
 - **Pronunciation: prose, card, or neither.** AGENTS.md asks for "the English pronunciation of a
   word" alongside the original text, but most studies give only the transliteration, and the word
   card shows the transliteration without a pronunciation. The studies that do give one use the
@@ -428,9 +429,9 @@ single "strength" score** — that is exactly how one tradition's reading gets l
       Nehemiah is the back half of 2 Esdras inside `EZR` chapters 11–23. Both are now ingested.
     - **Daniel 9:24–27 aligns verse-for-verse with the WLC**, as do Daniel 1–2 and 5–12. Only
       chapters 3 and 4 diverge, and they are one problem seen twice: Theodotion inserts the Song of
-      the Three after 3:23, and the chapter break then lands three verses late, so Greek Daniel
+      the Three after Daniel 3:23, and the chapter break then lands three verses late, so Greek Daniel
       4:1–3 *is* WLC Daniel 3:31–33. Never compare those two chapters verse-for-verse.
-    - **Greek Esther is in too.** Its six additions ride on *lettered* sub-verses (1:1b–1s,
+    - **Greek Esther is in too.** Its six additions ride on *lettered* sub-verses (Esther 1:1b–1s,
       3:13a–g, 4:17a–x, 5:1a–2b, 8:12a–u, 10:3a–k) exactly so the numeric verses keep the Hebrew
       numbering, so ingesting the numeric verses aligns eight of ten chapters with the WLC. The
       additions themselves aren't in the database — `verses.verse` is `INTEGER` — and Esther 1
