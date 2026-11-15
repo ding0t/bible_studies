@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:35"
 bible_references: ["Matthew 24:3-44", "Matthew 24:8", "Matthew 5:18", "Mark 13:3", "Mark 13:31", "Luke 21:33", "Isaiah 40:8", "Isaiah 51:6", "Isaiah 65:17", "2 Peter 1:16", "2 Peter 3:1-14", "1 Thessalonians 4:15", "1 Thessalonians 5:1-11", "Acts 1:7", "Revelation 3:3", "Revelation 16:15", "Revelation 20:4-15", "Revelation 21:1", "Romans 8:18-25", "2 Peter 3:5-7", "2 Peter 2:4-9", "Genesis 8:22", "Genesis 9:11", "Isaiah 54:9", "Isaiah 66:16", "Zephaniah 3:8", "Luke 17:26-30", "Jude 6", "Jude 14", "Luke 12:39-40", "Luke 21:34-36", "Isaiah 13:8", "Hebrews 1:10-12", "Psalm 102:25-27", "1 Peter 1:24-25", "Luke 16:17", "1 Corinthians 15:42", "1 Corinthians 15:51", "1 Corinthians 7:31", "Matthew 19:28", "Acts 3:21", "Revelation 21:5"]
 date_created: 2026-09-26
-date_modified: 2026-10-22
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -69,8 +69,8 @@ again (2 Peter 3:5-7).
 - **Attitude.** Wait with patience of your own, because God is patient toward you: "not wishing that
   any should perish, but that all should reach repentance" (2 Peter 3:9, ESV). The years of waiting
   are His mercy at work.
-- **Do.** Live awake this week. Peter's question is "what sort of people ought you to be" (3:11), and
-  his answer is holiness, godliness and peace (3:11, 14). Name one thing you would put right if you
+- **Do.** Live awake this week. Peter's question is "what sort of people ought you to be" (2 Peter 3:11), and
+  his answer is holiness, godliness and peace (2 Peter 3:11, 14). Name one thing you would put right if you
   knew Jesus came tomorrow, and put it right today.
 
 ### Prayer
@@ -103,10 +103,10 @@ In Jesus' name. Amen.
 
 ### Where the verse sits
 
-Matthew 24:35 closes the paragraph Jesus opens with the fig tree (24:32-35). The next verse turns to
+Matthew 24:35 closes the paragraph Jesus opens with the fig tree (Matthew 24:32-35). The next verse turns to
 the timing: "But concerning that day and hour no one knows, not even the angels of heaven, nor the
-Son, but the Father only" (24:36, ESV). Verse 35 is the hinge. It guarantees everything Jesus has
-just predicted (24:4-31) before He tells the disciples they will not be given its date. The saying
+Son, but the Father only" (Matthew 24:36, ESV). Verse 35 is the hinge. It guarantees everything Jesus has
+just predicted (Matthew 24:4-31) before He tells the disciples they will not be given its date. The saying
 stands in all three Synoptic Gospels (Mark 13:31; Luke 21:33). Mark and Luke have the plural verb,
 παρελεύσονται (*pareleusontai*, G3928), the form 2 Peter 3:10 uses.
 
@@ -135,7 +135,7 @@ Both denials use οὐ μή (*ou mē*, oo MAY) with the aorist subjunctive, Gree
 ## Words that outlast creation
 
 The *ESV Study Bible* puts the claim in a sentence: Jesus here "attributes divine authority and
-permanence to his own teaching" (note on 24:35). Two earlier texts show how large it is.
+permanence to his own teaching" (note on Matthew 24:35). Two earlier texts show how large it is.
 
 **Isaiah 51:6.** God tells Israel to look up and down: "the heavens vanish like smoke, the earth will
 wear out like a garment ... but my salvation will be forever, and my righteousness will never be
@@ -169,11 +169,11 @@ universe that will still be standing at the end of it.
 
 Peter was sitting there when Jesus said it (Mark 13:3). Decades later, writing "the second letter"
 to the same readers (2 Peter 3:1), he answered teachers who mocked the return as a myth; his reply
-is that the apostles "were eyewitnesses of his majesty" (1:16, ESV). The scoffers' taunt, the
-flood, and God's patience in 3:3-9 are worked through in
+is that the apostles "were eyewitnesses of his majesty" (2 Peter 1:16, ESV). The scoffers' taunt, the
+flood, and God's patience in 2 Peter 3:3-9 are worked through in
 [A Day Is a Thousand Years](day-is-a-thousand-years.md#the-verse-in-its-own-argument). What matters
 here is where Peter's vocabulary came from. He tells his readers to "remember ... the commandment of
-the Lord and Savior through your apostles" (3:2, ESV). His first letter had already quoted Isaiah
+the Lord and Savior through your apostles" (2 Peter 3:2, ESV). His first letter had already quoted Isaiah
 40:8 and named the gospel as the word that lasts: "the word of the Lord remains forever. And this
 word is the good news that was preached to you" (1 Peter 1:25, ESV). Now he reaches for the
 discourse:
@@ -204,7 +204,7 @@ The verb is one borrowing among several. 2 Peter 3 works through the discourse p
 Peter also answers the objection the discourse leaves open. If nobody knows the day, and it has been
 a long time, has the promise failed? "The Lord is not slow to fulfill his promise as some count
 slowness, but is patient toward you, not wishing that any should perish, but that all should reach
-repentance" (3:9, ESV). The delay the scoffers read as failure is mercy, deliberately extended.
+repentance" (2 Peter 3:9, ESV). The delay the scoffers read as failure is mercy, deliberately extended.
 
 ### Water, then fire
 
@@ -265,9 +265,9 @@ after the fire.
 
 Peter draws the same conclusion Jesus did, and draws it in the second person: "Since all these
 things are thus to be dissolved, what sort of people ought you to be in lives of holiness and
-godliness, waiting for and hastening the coming of the day of God" (3:11-12, ESV). "Coming" is
+godliness, waiting for and hastening the coming of the day of God" (2 Peter 3:11-12, ESV). "Coming" is
 *parousia* again. Then: "since you are waiting for these, be diligent to be found by him without
-spot or blemish, and at peace" (3:14, ESV). The certainty of the end is the ground of a holy life
+spot or blemish, and at peace" (2 Peter 3:14, ESV). The certainty of the end is the ground of a holy life
 now.
 
 ## What passes, and what comes
@@ -280,7 +280,7 @@ English versions differ because the manuscripts do. The Greek of the SBL edition
 be exposed." Other manuscripts read "will be burned up" (the LSB and CSB footnote it), and a few
 Syriac and Coptic manuscripts read "will not be found" (CSB footnote), which is the reading the
 NA28 prints. The *ESV Study Bible* takes "will be found" as a divine passive — the earth and every
-work on it laid open before God's judgment (note on 3:10).
+work on it laid open before God's judgment (note on 2 Peter 3:10).
 
 ### Renewal or replacement
 
@@ -310,7 +310,7 @@ it "the time for restoring all the things" (Acts 3:21, ESV). And the One on the 
 making all things new" (Revelation 21:5, ESV): πάντα (*panta*, G3956), "all things," is what He makes new.
 
 The textual problem at 2 Peter 3:10 bears on this. The *ESV Study Bible* argues for renewal partly from
-"will be found" (note on 3:10), but the NA28 prints "will *not* be found," so the verse cannot carry
+"will be found" (note on 2 Peter 3:10), but the NA28 prints "will *not* be found," so the verse cannot carry
 the argument either way. The *NIV Biblical Theology Study Bible* holds both: "Rev 21 seems to suggest
 both replacement (Rev 21:1) and transformation (Rev 21:5)," and the change "involves both continuity
 and discontinuity" (note on 2 Peter 3:10). Irenaeus, writing about AD 180,
@@ -353,7 +353,7 @@ loosely and hold His promise hard.
 
 Paul wrote 1 Thessalonians around AD 49-51 from Corinth, to a young church (*ESV Study Bible*,
 introduction). He had just told them what would happen to believers who had died, and told
-them "by a word from the Lord" (4:15, ESV): Jesus will come, the dead in Christ will rise, and the
+them "by a word from the Lord" (1 Thessalonians 4:15, ESV): Jesus will come, the dead in Christ will rise, and the
 living will be caught up with them. Then he turns to the timing:
 
 > ✝️ 1 Thessalonians 5:1-6 (ESV)
@@ -374,7 +374,7 @@ by his own authority" (Acts 1:7, ESV). The Thessalonians may already have known 
 
 Paul draws on the same discourse for the same purpose, and takes two images in two consecutive
 verses: "the day of the Lord will come like a thief in the night" (1 Thessalonians 5:2), and "sudden
-destruction will come upon them as labor pains come upon a pregnant woman" (5:3). The thief,
+destruction will come upon them as labor pains come upon a pregnant woman" (1 Thessalonians 5:3). The thief,
 κλέπτης (*kleptēs*, G2812), is Jesus' own image (Matthew 24:43). Labour pain, ὠδίν (*ōdin*, G5604),
 was already a prophet's image for the day of the LORD, "like a woman in labor" (Isaiah 13:8, ESV);
 Jesus used it of the troubles that are "but the beginning of the birth pains" (Matthew 24:8, ESV),
@@ -391,19 +391,19 @@ Luke 21:34 and at 1 Thessalonians 5:3, "sudden destruction." Both verses also us
 ### Children of the day
 
 Paul adds what the discourse leaves implicit: who the thief surprises. "Sudden destruction will come
-upon *them*" (5:3); "*you* are not in darkness, brothers, for that day to surprise you like a thief"
-(5:4). Believers belong to the day already (5:5, 8). And the reason is the cross: "God has not
+upon *them*" (1 Thessalonians 5:3); "*you* are not in darkness, brothers, for that day to surprise you like a thief"
+(1 Thessalonians 5:4). Believers belong to the day already (1 Thessalonians 5:5, 8). And the reason is the cross: "God has not
 destined us for wrath, but to obtain salvation through our Lord Jesus Christ, who died for us so
-that whether we are awake or asleep we might live with him" (5:9-10, ESV).
+that whether we are awake or asleep we might live with him" (1 Thessalonians 5:9-10, ESV).
 
-A pretribulational reading, the one this site holds, takes 5:9 with 4:13-18: the church is caught up
+A pretribulational reading, the one this site holds, takes 1 Thessalonians 5:9 with 4:13-18: the church is caught up
 to meet Jesus before the day of the Lord's wrath begins (see [The Restrainer](the-restrainer.md) and
-[The Rapture of the Church](rapture.md)). Other readers take "wrath" as final judgment and the whole of 4:13-5:11
-as one event at the end of the tribulation. The point of 5:9-10 stands on either reading: God's
+[The Rapture of the Church](rapture.md)). Other readers take "wrath" as final judgment and the whole of 1 Thessalonians 4:13-5:11
+as one event at the end of the tribulation. The point of 1 Thessalonians 5:9-10 stands on either reading: God's
 purpose for you in Jesus is salvation, secured by His death.
 
 **This shows that God has already decided where you stand on that day.** Paul's instruction is
-therefore encouragement: "encourage one another and build one another up" (5:11, ESV). You watch as
+therefore encouragement: "encourage one another and build one another up" (1 Thessalonians 5:11, ESV). You watch as
 a child of the day who is expected home.
 
 ## The thief image, traced
@@ -429,7 +429,7 @@ thief" (ESV).
 The rest describe one day of the Lord in stages. The *Bible Knowledge Commentary* defines it as "end-time
 events that begin after the Rapture and culminate with the commencement of eternity" (Kenneth O.
 Gangel, on 2 Peter 3:10). It breaks on a world saying "peace and security" (1 Thessalonians 5:3), after
-the church has been caught up (4:17; 5:9). Its climax is the visible return, and the thief warning
+the church has been caught up (1 Thessalonians 4:17; 5:9). Its climax is the visible return, and the thief warning
 sounds again in the bowls, just before Armageddon (Revelation 16:15; Matthew 24:43-44). It ends when
 the heavens pass away (2 Peter 3:10). And the word attached to the image, from the first saying to
 the last, is the one Jesus gave it: "Blessed is the one who stays awake" (Revelation 16:15, ESV).

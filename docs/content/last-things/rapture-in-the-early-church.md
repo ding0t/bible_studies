@@ -7,7 +7,7 @@ draft: true
 primary_passage: "1 Thessalonians 4:13-18"
 bible_references: ["1 Thessalonians 4:13-18", "1 Thessalonians 1:10", "1 Thessalonians 5:9", "Acts 17:5-11", "Titus 2:13", "Matthew 24:21", "Revelation 6:14", "Revelation 7:14", "Revelation 15:1"]
 date_created: 2026-09-26
-date_modified: 2026-09-28
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -112,7 +112,7 @@ Church](rapture.md) weighs it.
 
 The point of the paragraph is verse 18. Paul wrote this to comfort a grieving church. **This shows
 that God binds the resurrection of believers to the resurrection of Jesus**: "since we believe that
-Jesus died and rose again, even so … God will bring with him those who have fallen asleep" (4:14).
+Jesus died and rose again, even so … God will bring with him those who have fallen asleep" (1 Thessalonians 4:14).
 Your dead in Christ are His, and your meeting with them is fixed in His plan.
 
 Paul does not date the event against the tribulation in this paragraph. The timing question is
@@ -299,7 +299,7 @@ with these words.
 
 1. In 1 Thessalonians 4:17 the verb ἁρπάζω (*harpazō*) is passive: "we … will be caught up." Who is
    acting, and what does that tell a grieving believer about whose work the resurrection is?
-2. Paul wrote 4:13-18 to a church he had been driven out of before he finished teaching it (Acts
+2. Paul wrote 1 Thessalonians 4:13-18 to a church he had been driven out of before he finished teaching it (Acts
    17:5-10). What were the Thessalonians afraid of, and how does verse 18 answer it?
 3. Irenaeus writes that the Church "shall be suddenly caught up," then calls the tribulation "the
    last contest of the righteous." How would you read those two sentences together?
@@ -326,7 +326,7 @@ with these words.
   kirchlichen Alterthums und dem Anfang des Mittelalters* (Christiania, 1890), no. XIV, pp. 208-220,
   with his discussion of manuscripts, date and authorship from p. 429. English rendering commonly cited:
   [*On the Last Times, the Antichrist, and the End of the World*](https://www.according2prophecy.org/lastimes.html).
-- *ESV Study Bible* (Crossway), introduction to 1 Thessalonians and notes on 4:13-18.
+- *ESV Study Bible* (Crossway), introduction to 1 Thessalonians and notes on 1 Thessalonians 4:13-18.
 - On this site: [The Rapture of the Church](rapture.md), [The Restrainer](the-restrainer.md), and
   [Patristic sources](../resources/patristic-sources.md) for how the site grades the fathers as
   evidence.

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ruth 3:9-13; Ruth 4:1-17"
 bible_references: ["Ruth 1:1", "Ruth 1:16", "Ruth 1:21", "Ruth 2:1", "Ruth 2:12", "Ruth 2:20", "Ruth 3:9-13", "Ruth 4:1-22", "Judges 17:6", "Judges 21:25", "Leviticus 19:9-10", "Leviticus 25:23-25", "Leviticus 25:47-55", "Numbers 35:12", "Deuteronomy 25:5-10", "Deuteronomy 23:3", "Genesis 38:8", "Jeremiah 32:7", "Job 19:25", "Nehemiah 13:1", "Nehemiah 13:23", "Isaiah 54:5", "Isaiah 59:20", "Isaiah 56:3-7", "Romans 11:26", "Romans 3:24", "Galatians 4:4-5", "Hebrews 2:11", "Hebrews 2:17", "1 Peter 1:18-19", "Matthew 1:3", "Matthew 1:5"]
 date_created: 2026-09-21
-date_modified: 2026-11-08
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -33,7 +33,7 @@ Kinsman who buys back His people with His own blood.
 ### Types & Prophecy
 
 **Boaz is a type of Christ, and the type has edges.** He is a kinsman with the right to redeem
-(Leviticus 25:25), the will to pay (Ruth 3:13; 4:9-10), and a bride he takes to himself (4:13). The
+(Leviticus 25:25), the will to pay (Ruth 3:13; 4:9-10), and a bride he takes to himself (Ruth 4:13). The
 New Testament gives Jesus both halves of the office. He shares our flesh: "he is not ashamed to call
 them brothers" (Hebrews 2:11, ESV). He redeems at a price: "the precious blood of Christ" (1 Peter
 1:19, ESV). The type stops where Boaz stops. Boaz buys back land and a name; Christ buys back people.
@@ -49,7 +49,7 @@ them brothers" (Hebrews 2:11, ESV). He redeems at a price: "the precious blood o
 - **Jesus was willing.** The nearer redeemer said, "I cannot redeem it" (Ruth 4:6, ESV). Jesus was
   "made like his brothers in every respect ... to make propitiation for the sins of the people"
   (Hebrews 2:17, ESV).
-- **Jesus is the Redeemer of the line Ruth began.** The women call Ruth's son a redeemer (4:14-15),
+- **Jesus is the Redeemer of the line Ruth began.** The women call Ruth's son a redeemer (Ruth 4:14-15),
   and Matthew traces Jesus through "Boaz the father of Obed by Ruth" (Matthew 1:5, ESV).
 
 ### Memory verses
@@ -71,7 +71,7 @@ them brothers" (Hebrews 2:11, ESV). He redeems at a price: "the precious blood o
   Your standing rests on His willingness.
 - **Attitude.** Come to Him the way Ruth came to Boaz, plainly: "Spread your wings over your servant,
   for you are a redeemer" (Ruth 3:9, ESV).
-- **Do.** Find one person this week who has come back empty (1:21) — a widow, a newcomer, someone
+- **Do.** Find one person this week who has come back empty (Ruth 1:21) — a widow, a newcomer, someone
   grieving — and do one specific, costly thing for them.
 
 ### Prayer
@@ -90,7 +90,7 @@ In Jesus' name. Amen.
 - [Two laws, one practice](#two-laws-one-practice). Land redemption and the levirate duty, with Tamar
   and the sandal.
 - [The threshing floor](#the-threshing-floor). Ruth names Boaz a redeemer and asks him to marry her.
-- [At the gate](#at-the-gate). The nearer redeemer, the reading split at 4:5, and the witnesses.
+- [At the gate](#at-the-gate). The nearer redeemer, the reading split at Ruth 4:5, and the witnesses.
 - [The Moabite question](#the-moabite-question). The case on both sides.
 - [The redeemer who is born](#the-redeemer-who-is-born). Ruth 4:13-17, and the line to David.
 - [What the type rests on, and where it stops](#what-the-type-rests-on-and-where-it-stops).
@@ -104,8 +104,8 @@ days: "In those days there was no king in Israel. Everyone did what was right in
 (Judges 21:25, ESV). Bethlehem — *beth lechem*, house of bread — has no bread.
 
 The author is unnamed. Rabbinic tradition names Samuel (*b. Baba Bathra* 14a-15b). The *ESV Study
-Bible* dates the writing after David became king, because the genealogy of 4:17-22 treats his
-kingship as established and 4:7 explains a custom of "former times in Israel" (introduction to
+Bible* dates the writing after David became king, because the genealogy of Ruth 4:17-22 treats his
+kingship as established and Ruth 4:7 explains a custom of "former times in Israel" (introduction to
 Ruth). The setting is the judges' era; the date of writing is uncertain.
 
 Three laws shape the story:
@@ -123,9 +123,9 @@ Three laws shape the story:
 <span dir="rtl">גֹּאֵל</span> (*goel*, H1350; "go-EL") is the participle of
 <span dir="rtl">גָּאַל</span> (*gaʾal*, H1350, TWOT root 300), "to redeem" or "buy back." In Ruth the verb
 and participle occur 21 times, and the noun <span dir="rtl">גְּאֻלָּה</span> (*geʾullah*, H1353,
-"right of redemption") twice more (4:6, 7). That is the *ESV Study Bible*'s count of 23, and the
-word first appears when Naomi hears Boaz's name (2:20) and last when the women name the child
-(4:14).
+"right of redemption") twice more (Ruth 4:6, 7). That is the *ESV Study Bible*'s count of 23, and the
+word first appears when Naomi hears Boaz's name (Ruth 2:20) and last when the women name the child
+(Ruth 4:14).
 
 The word is older than the Law. Its first use in Scripture is Jacob's, blessing Joseph's sons, when
 he names God and then "the angel who has redeemed me from all evil" (Genesis 48:16, ESV), *hagoel*.
@@ -135,8 +135,8 @@ at work for Jacob before the office had a law.
 The office rests on one sentence of God's: "The land shall not be sold in perpetuity, for the land is
 mine" (Leviticus 25:23, ESV). Redemption gives God's gift back to the family He gave it to. The next
 verses name who does it — "his nearest redeemer shall come and redeem what his brother has sold"
-(25:25, ESV) — and in what order: a brother, "or his uncle or his cousin ... or a close relative
-from his clan" (25:48-49, ESV). That order is why Boaz says at 3:12, "there is a redeemer nearer than
+(Leviticus 25:25, ESV) — and in what order: a brother, "or his uncle or his cousin ... or a close relative
+from his clan" (Leviticus 25:48-49, ESV). That order is why Boaz says at Ruth 3:12, "there is a redeemer nearer than
 I" (ESV).
 
 The office reached beyond land. The *NIV Cultural Backgrounds Study Bible* lists its duties: buying
@@ -153,7 +153,7 @@ has it first: "if he is not willing to redeem you, then, as the LORD lives, I wi
 ### The word in Greek
 
 The Septuagint, the Greek Old Testament, renders *goel* in Ruth as ἀγχιστεύς (*anchisteus*), "the
-one near" (3:9, 12; 4:6, 14). At Leviticus 25:25 it puts both ideas side by side: ὁ ἀγχιστεύων, the
+one near" (Ruth 3:9, 12; 4:6, 14). At Leviticus 25:25 it puts both ideas side by side: ὁ ἀγχιστεύων, the
 one who is near, <span data-strongs="G3084">λυτρώσεται</span>, shall redeem. Peter uses that second verb for you: ἐλυτρώθητε, "you
 were ransomed ... with the precious blood of Christ" (1 Peter 1:18-19, ESV). The Greek Bible holds the
 two halves of the office together — kin, and buying back — and Peter's word for your redemption is
@@ -164,12 +164,12 @@ the Levitical one.
 Ruth joins land redemption to the levirate duty. The levirate law reads: "the wife of the dead man
 shall not be married outside the family to a stranger. Her husband's brother shall go in to her and
 take her as his wife" (Deuteronomy 25:5, ESV), and "the first son whom she bears shall succeed to the
-name of his dead brother, that his name may not be blotted out of Israel" (25:6, ESV).
+name of his dead brother, that his name may not be blotted out of Israel" (Deuteronomy 25:6, ESV).
 
 The *ESV Study Bible* describes Ruth as "two legal institutions combined in one practice (which the
 Law of Moses does not require)" (introduction to Ruth). The *NIV Cultural Backgrounds Study Bible*
 adds that the legislation says nothing of taking the widow as part of redemption, though Israelites
-"sometimes understood a connection between the two" (note on 2:20). Boaz is not Mahlon's brother, so
+"sometimes understood a connection between the two" (note on Ruth 2:20). Boaz is not Mahlon's brother, so
 he acts from the wider family's duty, beyond the letter of either law.
 
 Scripture's other levirate story sits inside Ruth's own blessing. The elders pray, "may your house be
@@ -179,10 +179,10 @@ brother" (Genesis 38:8, ESV). Both women, Tamar and Ruth, are named in Matthew's
 1:3, 5).
 
 The sandal shows the two customs side by side. In Deuteronomy the widow pulls the sandal off the
-brother who refuses "and spit[s] in his face" (25:9, ESV) — a public shame. In Ruth the redeemer who
+brother who refuses "and spit[s] in his face" (Deuteronomy 25:9, ESV) — a public shame. In Ruth the redeemer who
 steps aside draws off his own sandal and hands it over, because "this was the manner of attesting in
 Israel" (Ruth 4:7, ESV). The *ESV Study Bible* calls Deuteronomy's rite "a different but related
-custom" (note on 4:7-8).
+custom" (note on Ruth 4:7-8).
 
 ## The threshing floor
 
@@ -190,12 +190,12 @@ custom" (note on 4:7-8).
 
 When Ruth comes home from Boaz's field, Naomi says, "May he be blessed by the LORD, whose kindness
 has not forsaken the living or the dead! ... The man is a close relative of ours, one of our
-redeemers" (2:20, ESV). "Kindness" is <span dir="rtl">חֶסֶד</span> (*chesed*, H2617; "KHEH-sed"),
+redeemers" (Ruth 2:20, ESV). "Kindness" is <span dir="rtl">חֶסֶד</span> (*chesed*, H2617; "KHEH-sed"),
 covenant loyalty. Whose kindness is it, the LORD's or Boaz's? The *ESV Study Bible* calls the
-ambiguity "probably intentional; that is, the answer is both" (note on 2:20); the *NIV Biblical
+ambiguity "probably intentional; that is, the answer is both" (note on Ruth 2:20); the *NIV Biblical
 Theology Study Bible* reads it as "probably" the LORD's. Either way, God's loyalty reaches Naomi
-through a man's. *Chesed* appears three times in Ruth: Naomi's blessing (1:8), this verse, and the
-threshing floor (3:10).
+through a man's. *Chesed* appears three times in Ruth: Naomi's blessing (Ruth 1:8), this verse, and the
+threshing floor (Ruth 3:10).
 
 ### Ruth names the office
 
@@ -208,17 +208,17 @@ At midnight Ruth answers Boaz:
 
 "Wings" is <span dir="rtl">כָּנָף</span> (*kanaph*, H3671), the edge of a cloak spread over a woman
 to claim her in marriage. It is the word Boaz used when he blessed her by the God "under whose wings
-you have come to take refuge" (2:12, ESV), and the *ESV Study Bible* reads 3:9 as calling that
-blessing back (note on 3:9). Ruth asks Boaz to be the answer to his own prayer. The last word of her
+you have come to take refuge" (Ruth 2:12, ESV), and the *ESV Study Bible* reads Ruth 3:9 as calling that
+blessing back (note on Ruth 3:9). Ruth asks Boaz to be the answer to his own prayer. The last word of her
 sentence is the office itself: *goel*. A Moabite widow is the first person in the book to join the
 redeemer's duty to marriage. [The Bride of Christ](../israel-and-church/bride-of-christ.md) follows
 the betrothal gesture through Ezekiel 16:8.
 
-Boaz answers with *chesed* — "You have made this last kindness greater than the first" (3:10, ESV) —
+Boaz answers with *chesed* — "You have made this last kindness greater than the first" (Ruth 3:10, ESV) —
 and with a title that matches his own. The narrator introduced him as <span dir="rtl">אִישׁ גִּבּוֹר
-חַיִל</span> (*ish gibbor chayil*), "a worthy man" (2:1, ESV); he calls her <span dir="rtl">אֵשֶׁת
-חַיִל</span> (*eshet chayil*), "a worthy woman" (3:11, ESV). Then he binds himself with an oath, "as
-the LORD lives" (3:13).
+חַיִל</span> (*ish gibbor chayil*), "a worthy man" (Ruth 2:1, ESV); he calls her <span dir="rtl">אֵשֶׁת
+חַיִל</span> (*eshet chayil*), "a worthy woman" (Ruth 3:11, ESV). Then he binds himself with an oath, "as
+the LORD lives" (Ruth 3:13).
 
 ## At the gate
 
@@ -226,13 +226,13 @@ the LORD lives" (3:13).
 
 Boaz sits at the gate, calls ten elders, and hails the nearer redeemer with
 <span dir="rtl">פְּלֹנִי אַלְמֹנִי</span> (*peloni almoni*, H6423 + H492), "a certain one." The
-ESV renders it "friend" (4:1); the CSB footnotes "Mr. So-and-so." The narrator withholds his name.
+ESV renders it "friend" (Ruth 4:1); the CSB footnotes "Mr. So-and-so." The narrator withholds his name.
 
 The man first agrees to buy the field. Then Boaz tells him what comes with it, and the Hebrew of that
 verse has two readings. The written text reads <span dir="rtl">קניתי</span>, "I acquire" — Boaz
 announcing that he himself takes Ruth. The text as read, which the ESV follows, has "you also acquire
 Ruth the Moabite, the widow of the dead, in order to perpetuate the name of the dead in his
-inheritance" (4:5, ESV), addressed to the nearer redeemer. On either reading, the field and the name
+inheritance" (Ruth 4:5, ESV), addressed to the nearer redeemer. On either reading, the field and the name
 of the dead go together. So the man withdraws:
 
 > ✝️ Ruth 4:6 (ESV)
@@ -242,7 +242,7 @@ of the dead go together. So the man withdraws:
 
 A son born to Ruth would carry Mahlon's name and inherit the land he paid for. The narrator states
 that cost only for this man. The *NIV Biblical Theology Study Bible* thinks it "an outcome that Boaz
-might also face" (note on 4:6); the text itself is silent on Boaz's cost.
+might also face" (note on Ruth 4:6); the text itself is silent on Boaz's cost.
 
 ### Two things bought, before witnesses
 
@@ -256,11 +256,11 @@ might also face" (note on 4:6); the text itself is silent on Boaz's cost.
 
 "I have bought" is <span dir="rtl">קָנִיתִי</span> (*qaniti*, H7069), from <span dir="rtl">קָנָה</span>
 (*qanah*, H7069), to acquire. The people answer, "We are witnesses," and bless the marriage by
-Rachel, Leah and Perez (4:11-12).
+Rachel, Leah and Perez (Ruth 4:11-12).
 
 ## The Moabite question
 
-Ruth is called "the Moabite" five times (1:22; 2:2, 21; 4:5, 10), and the Law says, "No Ammonite or
+Ruth is called "the Moabite" five times (Ruth 1:22; 2:2, 21; 4:5, 10), and the Law says, "No Ammonite or
 Moabite may enter the assembly of the LORD. Even to the tenth generation, none of them may enter the
 assembly of the LORD forever" (Deuteronomy 23:3, ESV). Yet Ruth marries into Judah and becomes
 David's great-grandmother. This is contested, and there is a case on both sides.
@@ -273,27 +273,27 @@ ESV). Isaiah later welcomes "the foreigners who join themselves to the LORD" (Is
 
 **The case that the ban reached women.** After the exile, Nehemiah reads Deuteronomy 23 aloud — "no
 Ammonite or Moabite should ever enter the assembly of God" (Nehemiah 13:1, ESV) — and applies it to
-Jews "who had married women of Ashdod, Ammon, and Moab" (13:23, ESV). Nehemiah read the law as
+Jews "who had married women of Ashdod, Ammon, and Moab" (Nehemiah 13:23, ESV). Nehemiah read the law as
 touching marriage to Moabite women.
 
-Ruth itself never argues the point. It calls her a Moabite at the moment of redemption (4:5, 10) and
+Ruth itself never argues the point. It calls her a Moabite at the moment of redemption (Ruth 4:5, 10) and
 lets the genealogy speak.
 
 ## The redeemer who is born
 
 "So Boaz took Ruth, and she became his wife ... and the LORD gave her conception, and she bore a son"
-(4:13, ESV). The *NIV Biblical Theology Study Bible* counts this as the second of only two direct
-acts of God in the book (the first is when "the LORD had visited his people and given them food," 1:6, ESV).
+(Ruth 4:13, ESV). The *NIV Biblical Theology Study Bible* counts this as the second of only two direct
+acts of God in the book (the first is when "the LORD had visited his people and given them food," Ruth 1:6, ESV).
 
-Then the women speak to Naomi (4:14, quoted above), and the next verse says who the redeemer is: "He
+Then the women speak to Naomi (Ruth 4:14, quoted above), and the next verse says who the redeemer is: "He
 shall be to you a restorer of life and a nourisher of your old age, for your daughter-in-law who
-loves you ... has given birth to him" (4:15, ESV). The redeemer they bless the LORD for is the baby
-on Naomi's lap (4:16). The *NIV Biblical Theology Study Bible* sees here "another gōʾēl besides
+loves you ... has given birth to him" (Ruth 4:15, ESV). The redeemer they bless the LORD for is the baby
+on Naomi's lap (Ruth 4:16). The *NIV Biblical Theology Study Bible* sees here "another gōʾēl besides
 Boaz," and reads David's line as "a lineage of guardian-redeemers," of whom "the guardian-redeemer par
-excellence is Jesus Christ" (note on 4:14).
+excellence is Jesus Christ" (note on Ruth 4:14).
 
-"They named him Obed. He was the father of Jesse, the father of David" (4:17, ESV). The book ends
-on the name: "Obed fathered Jesse, and Jesse fathered David" (4:22, ESV). Matthew carries it on:
+"They named him Obed. He was the father of Jesse, the father of David" (Ruth 4:17, ESV). The book ends
+on the name: "Obed fathered Jesse, and Jesse fathered David" (Ruth 4:22, ESV). Matthew carries it on:
 "Boaz the father of Obed by Ruth, and Obed the father of Jesse" (Matthew 1:5, ESV), in the same verse
 that names Rahab.
 
@@ -321,7 +321,7 @@ The typology rests on Scripture's own pairings:
 
 Boaz buys back a field and a family name. Christ buys back persons, and He pays with His blood. The *ESV Study Bible* keeps the two uses of the word apart: the kinsman sense of
 *gaʾal* "is separate from the way the same word is used for the Lord 'redeeming' Israel" (note on
-3:12-13). So the type rests on the pattern of the office — kin, right, willingness, price, a bride —
+Ruth 3:12-13). So the type rests on the pattern of the office — kin, right, willingness, price, a bride —
 and on the New Testament's own words, and a single Hebrew word carries none of the weight alone.
 
 **This shows that God redeems at His own cost, through a Kinsman He provides.** You "are justified by
@@ -350,7 +350,7 @@ Himself.
 ## References & Recommended Reading
 
 - **ESV Study Bible** (Crossway) — introduction to Ruth (authorship, date, the 23 occurrences, "two
-  legal institutions combined in one practice") and notes on 2:20, 3:9, 3:12-13 and 4:7-8; ESV
+  legal institutions combined in one practice") and notes on Ruth 2:20, 3:9, 3:12-13 and 4:7-8; ESV
   verse text throughout. Quoted briefly with attribution.
 - **NIV Biblical Theology Study Bible** (Zondervan) — notes on Ruth 2:20, 4:6, 4:13 and 4:14.
 - **NIV Cultural Backgrounds Study Bible** (Zondervan) — note on Ruth 2:20 (the duties of the

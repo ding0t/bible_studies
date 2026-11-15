@@ -176,7 +176,7 @@ tells Timothy to hold "the pattern of sound words" he had heard from him. Script
 word for a formal Old Testament type. That word is **τύπος** (*typos*, G5179) itself, which Paul applies to
 Adam as "a type of the one who was to come" (Romans 5:14, ESV). A *typos* points forward across
 covenants to Christ. A *hypotyposis* is a worked example held up for imitation. Paul is claiming the
-second kind of pattern for himself, and the ESV Study Bible's own section heading over 1:12-17 names
+second kind of pattern for himself, and the ESV Study Bible's own section heading over 1 Timothy 1:12-17 names
 it precisely: "Paul: An Example of the Effect of the True Gospel." The claim is about the gospel's
 power to transform *anyone*, stated in the most extreme case available -- not a claim about Gentiles
 as a category.
@@ -219,7 +219,7 @@ twice, about how each inclusion happens.
 Romans 11 supplies the technical word for how Gentiles are joined to the people of God.
 **ἐγκεντρίζω** (*enkentrizō*, en-ken-TRID-zo, G1461) means "to graft in." It is a precise
 horticultural term, occurring six times in the New Testament and nowhere outside this single passage
-(11:17, 19, 23 twice, 24 twice). It is Paul's own coinage-in-context for this argument, drawn from
+(Romans 11:17, 19, 23 twice, 24 twice). It is Paul's own coinage-in-context for this argument, drawn from
 nowhere else in his letters.
 
 > ✝️ Romans 11:24 (ESV)
@@ -239,7 +239,7 @@ your position earned this.*
 That is the same logic 1 Timothy 1:16 applies to Paul individually. Nothing in a Pharisee actively
 persecuting the church "earned" an apostleship -- if anything, his record ran as hard against the
 outcome as a wild branch runs against ending up rooted in a cultivated tree. The *NIV Biblical
-Theology Study Bible* draws exactly this parallel at 1:16, on independent grounds: "Just as God
+Theology Study Bible* draws exactly this parallel at 1 Timothy 1:16, on independent grounds: "Just as God
 chose Israel for no merit or cause on their part (Deut 9:4-5), he showed mercy to Paul despite his
 heinous error. If Paul could be saved, anyone could." Two arguments, same shape, run by the same
 author, applied once to a nation-category and once to a name -- but two arguments, not one

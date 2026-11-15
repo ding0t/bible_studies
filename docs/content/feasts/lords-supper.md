@@ -8,7 +8,7 @@ draft: false
 primary_passage: "1 Corinthians 11:17-34"
 bible_references: ["1 Corinthians 11:17-34", "1 Corinthians 10:1-4", "1 Corinthians 10:14-22", "1 Corinthians 5:7-8", "1 Corinthians 12:27", "Luke 22:14-20", "Luke 22:28-30", "Matthew 26:26-29", "Luke 24:30-35", "Acts 2:42-46", "Acts 20:7", "Exodus 12:11", "Exodus 12:14", "Exodus 12:26-27", "Exodus 13:8-9", "Deuteronomy 8:11", "Deuteronomy 16:3", "Joshua 4:6-7", "Hebrews 10:3", "Hebrews 12:2", "Colossians 3:1-2", "2 Peter 1:12-13", "John 10:9", "Isaiah 25:6-8", "Revelation 19:7-9", "Revelation 1:10", "John 14:26", "Deuteronomy 32:17", "Deuteronomy 32:21", "1 Corinthians 10:20", "1 Corinthians 10:22", "Isaiah 65:11", "Malachi 1:7", "Malachi 1:12"]
 date_created: 2026-10-02
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -381,7 +381,7 @@ time you eat this bread you say that you expect to be there.
    "reminder of sins" the old sacrifices brought every year. What is the difference between the two
    remembrances?
 2. **The text in its context.** Paul says the Corinthians' gathering "is not the Lord's supper"
-   (1 Corinthians 11:20). What exactly had they done, and what does his remedy in 11:33 tell you about
+   (1 Corinthians 11:20). What exactly had they done, and what does his remedy in 1 Corinthians 11:33 tell you about
    it?
 3. **Christ.** Read Exodus 12:14, Luke 22:19 and 1 Corinthians 11:26 together. What did Israel
    remember, what does the church remember, and what does the church announce that Israel could not?

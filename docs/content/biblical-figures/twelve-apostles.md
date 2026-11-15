@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 10:1-4; Mark 3:13-19; Luke 6:12-16; Acts 1:13"
 bible_references: ["John 1:35-51", "Matthew 4:18-22", "Luke 5:1-11", "Mark 6:7-13", "Matthew 19:28", "Revelation 21:12-14", "Ephesians 2:20", "Acts 1:15-26", "Matthew 10:5-6", "Mark 14:50", "Luke 22:24", "John 15:16", "John 12:20-22", "Titus 3:5"]
 date_created: 2026-08-08
-date_modified: 2026-10-22
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -102,8 +102,8 @@ hinge in the story.
 | Passage | Where it sits | What it is doing |
 |---|---|---|
 | **Mark 3:16-19** | The appointment on the mountain | The founding moment itself |
-| **Luke 6:14-16** | After a whole night of prayer (6:12) | The moment the name *apostles* is given |
-| **Matthew 10:2-4** | Immediately before the sending discourse (10:5) | A commissioning roster |
+| **Luke 6:14-16** | After a whole night of prayer (Luke 6:12) | The moment the name *apostles* is given |
+| **Matthew 10:2-4** | Immediately before the sending discourse (Matthew 10:5) | A commissioning roster |
 | **Acts 1:13** | The upper room, before Pentecost | The surviving eleven, waiting |
 
 Mark's is the constitutional act. Luke's is the naming. Matthew's is the deployment order. Acts' is
@@ -111,7 +111,7 @@ a roll call taken after one name has been struck off it.
 
 **Who wrote these, and for whom.** Mark is the earliest of the three Gospels here, traditionally
 associated with Peter's preaching in Rome and written for a largely Gentile audience, which is why
-he stops to translate Semitic terms like *Boanerges* (3:17). Matthew writes for readers who know the
+he stops to translate Semitic terms like *Boanerges* (Mark 3:17). Matthew writes for readers who know the
 Hebrew Scriptures, and arranges his material into five great discourses, of which the sending of the
 Twelve (chapter 10) is the second. Luke and Acts are two halves of one work addressed to Theophilus,
 written with the stated aim of an orderly account (Luke 1:3). That is why Luke alone dates the
@@ -236,7 +236,7 @@ original, then Luke 6:13 is our sole witness to the moment the name was given, a
 dating of it matters all the more. Either way the naming is Luke's contribution to the account.
 
 Matthew uses the word *apostolos* exactly once in his Gospel, at
-10:2, heading this list. Everywhere else his term is *disciples*. The word arrives when the sending
+Matthew 10:2, heading this list. Everywhere else his term is *disciples*. The word arrives when the sending
 does.
 
 ## The calling came in three stages

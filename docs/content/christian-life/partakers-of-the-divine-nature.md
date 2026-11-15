@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 1:3-11"
 bible_references: ["2 Peter 1:1-11", "2 Peter 3:18", "1 Peter 1:8", "1 Peter 2:9", "1 Peter 4:11", "Galatians 3:5", "Galatians 5:16-25", "John 15:1-11", "Matthew 7:17-18", "Psalm 1:1-3", "1 John 5:3", "Matthew 11:28-30", "Matthew 23:4", "Philippians 2:12-13", "1 Corinthians 15:10", "Colossians 1:29", "Colossians 2:19", "2 Corinthians 9:10", "James 2:17-20", "Ephesians 2:8-10", "Nehemiah 8:10", "Romans 14:17", "Hebrews 12:2", "Matthew 25:21"]
 date_created: 2026-10-15
-date_modified: 2026-10-15
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -160,7 +160,7 @@ Three of Peter's eight qualities are also in Paul's fruit of the Spirit:
 | Knowledge | γνῶσις (*gnōsis*, G1108) | Understanding of God and His ways | |
 | Self-control | ἐγκράτεια (*enkrateia*, G1466) | Mastery of desire | Yes, the last in Paul's list |
 | Steadfastness | ὑπομονή (*hypomonē*, G5281) | Endurance under pressure | |
-| Godliness | εὐσέβεια (*eusebeia*, G2150) | Devotion to God (also 1:3) | |
+| Godliness | εὐσέβεια (*eusebeia*, G2150) | Devotion to God (also 2 Peter 1:3) | |
 | Brotherly affection | φιλαδελφία (*philadelphia*, G5360) | Love for fellow believers | |
 | Love | ἀγάπη (*agapē*, G26) | Self-giving love | Yes, the first in Paul's list |
 

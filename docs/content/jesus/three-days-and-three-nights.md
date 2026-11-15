@@ -119,7 +119,7 @@ from <span dir="rtl">עָלָה</span> (*ʿalah*), the ordinary verb for going o
 the word itself carries resurrection; the burial is carried by everything around it. Jonah's three
 days are a death and a raising, described as such by the man they happened to.
 
-**And one word travels from Jonah's prayer into Jesus's sentence.** Jonah 2:3 in English (2:4 in the
+**And one word travels from Jonah's prayer into Jesus's sentence.** Jonah 2:3 in English (Jonah 2:4 in the
 Hebrew) puts him "in the heart of the seas" — <span dir="rtl">בִּלְבַב יַמִּים</span>, which the
 Septuagint renders **καρδίας θαλάσσης**. Jesus says He will be in the **καρδίᾳ τῆς γῆς**, "the heart
 of the earth." He has taken the noun out of the passage He is quoting and moved it from the sea to
@@ -205,12 +205,12 @@ Samuel, the account is specific about the state of the dead.
 > bringing me up?"
 
 **The direction is up, out of the earth.** <span dir="rtl">עָלָה</span> (*ʿalah*,
-H5927) runs five times through these eight verses (28:8, 11 twice, 13, 14, 15) — Samuel's own word
+H5927) runs five times through these eight verses (1 Samuel 28:8, 11 twice, 13, 14, 15) — Samuel's own word
 for what has been done to him is <span dir="rtl">לְהַעֲלוֹת</span>, its hiphil. It is the same verb
 Jonah uses when God "brought up my life from the pit"; both texts assume the dead are *down*.
 
 Samuel tells Saul: "tomorrow you and your sons shall be
-**with me**" (28:19). Saul is a king under judgment, about to die on Mount Gilboa by his own hand.
+**with me**" (1 Samuel 28:19). Saul is a king under judgment, about to die on Mount Gilboa by his own hand.
 Samuel is a prophet who died in honour. And they are going to the same place.
 
 That sentence is hard to fit into a straight heaven-and-hell reading of the afterlife, which would
@@ -420,7 +420,7 @@ paragraph by one author, from hostile witnesses with no stake in the convention.
 translates **προσάββατον** (*prosabbaton*, G4315, "fore-sabbath"), which occurs once in the New Testament,
 defining the day Jesus died. It anchors the *first* of the three days, the day of the crucifixion
 and burial. Luke says the same without the
-term (23:54), and **παρασκευή** (*paraskeuē*, G3904, "Preparation") is used of that day six times across
+term (Luke 23:54), and **παρασκευή** (*paraskeuē*, G3904, "Preparation") is used of that day six times across
 the four Gospels.
 
 **Luke counts from the other end.** On the road to Emmaus, on the Sunday itself, two disciples call
@@ -454,7 +454,7 @@ from the weekly one, two Sabbaths fell in that week and the extra night becomes 
 phrase is genuinely open between that and "the weekly Sabbath, made great by a feast falling on it."
 
 **The spices are the better version of the argument.** Luke has the women *prepare* spices and then
-rest on the Sabbath (23:56); Mark has them *buy* spices "when the Sabbath was past" (16:1). On a
+rest on the Sabbath (Luke 23:56); Mark has them *buy* spices "when the Sabbath was past" (Mark 16:1). On a
 single Sabbath those sit awkwardly — why buy on Saturday evening what was prepared on Friday evening,
 in a burial window measured in minutes? Two Sabbaths dissolve it: a Wednesday crucifixion gives a
 festival Sabbath on Thursday, an ordinary Friday on which the women could both buy and prepare, and

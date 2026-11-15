@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 8:1-3"
 bible_references: ["Genesis 1:27-28", "Genesis 2:18-24", "Genesis 3:16", "Exodus 15:20", "Judges 4:4-5", "2 Kings 22:14-15", "Micah 6:4", "Psalm 121:1-2", "Matthew 5:28", "Matthew 19:3-10", "Matthew 28:5-10", "Mark 10:42-45", "Mark 14:3-9", "Mark 15:40-41", "Luke 2:36-38", "Luke 7:36-50", "Luke 10:38-42", "Luke 13:10-17", "Luke 22:25-27", "Luke 24:10-11", "John 4:9", "John 4:27", "John 4:39", "John 11:25-27", "John 20:15-18", "Acts 1:14", "Acts 2:17-18", "Acts 18:26", "Acts 21:9", "Acts 22:3", "Romans 16:1-7", "Galatians 3:28", "Ephesians 5:25-29", "Philippians 4:2-3", "1 Peter 3:7", "Revelation 19:7-8", "Matthew 5:29", "Matthew 16:16", "Mark 10:11-12", "Luke 7:39", "Luke 19:9", "Galatians 3:26-29"]
 date_created: 2026-10-17
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -114,7 +114,7 @@ Women spoke for God throughout Israel's history, and Scripture names them withou
   Egypt ... and I sent before you Moses, Aaron, and Miriam" (Micah 6:4, ESV).
 - **Deborah.** "Now Deborah, a prophetess, the wife of Lappidoth, was judging Israel at that time
   ... and the people of Israel came up to her for judgment" (Judges 4:4-5, ESV). She summoned Barak
-  and gave him God's command (4:6-7).
+  and gave him God's command (Judges 4:6-7).
 - **Huldah.** When the Book of the Law was found in the temple, Josiah sent the high priest Hilkiah
   and his officials to ask the LORD. They went to "Huldah the prophetess," and she answered, "Thus
   says the LORD, the God of Israel" (2 Kings 22:14-15, ESV).
@@ -170,7 +170,7 @@ Mark uses the same verb when the women reappear at the cross: "When he was in Ga
 him and ministered to him," ἠκολούθουν αὐτῷ καὶ διηκόνουν αὐτῷ (Mark 15:41, ESV). "Followed" is
 ἀκολουθέω (*akoloutheō*, ak-oh-loo-THEH-oh, G190), the Gospels' word for discipleship: "Follow me"
 (Mark 2:14; 8:34). These women followed Jesus in the full sense, from Galilee to Golgotha. When the
-disciples "all left him and fled" (Mark 14:50, ESV), "there were also women looking on from a distance" (15:40).
+disciples "all left him and fled" (Mark 14:50, ESV), "there were also women looking on from a distance" (Mark 15:40).
 
 ### One verb for their service and His
 
@@ -204,7 +204,7 @@ of Gamaliel," παρὰ τοὺς πόδας Γαμαλιήλ (Acts 22:3, ESV). 
 τὸν λόγον αὐτοῦ, literally "was hearing his word." She took the disciple's place, and Jesus kept her
 in it.
 
-Martha's complaint uses the serving word again, διακονία and διακονεῖν (10:40). Martha was doing a
+Martha's complaint uses the serving word again, διακονία and διακονεῖν (Luke 10:40). Martha was doing a
 good thing, and Jesus did not despise it. He named "one thing" as necessary and gave it to Mary:
 "Mary has chosen the good portion." The ESV Study Bible hears the Old Testament language of the
 Lord as His people's "portion" (Psalm 16:5; 73:26). Jesus defended a woman's place as His learner,
@@ -224,9 +224,9 @@ aside.
 ### Marriage and lust
 
 **Against disposable marriage.** To the question "for any cause?" (Matthew 19:3) Jesus answered
-from creation: "from the beginning it was not so" (19:8), and "What therefore God has joined
-together, let not man separate" (19:6). He named Moses' concession as a concession to "your hardness
-of heart" (19:8). In Mark He says the man who divorces his wife and marries another "commits
+from creation: "from the beginning it was not so" (Matthew 19:8), and "What therefore God has joined
+together, let not man separate" (Matthew 19:6). He named Moses' concession as a concession to "your hardness
+of heart" (Matthew 19:8). In Mark He says the man who divorces his wife and marries another "commits
 adultery against her," μοιχᾶται ἐπ᾽ αὐτήν (Mark 10:11, ESV): the wife sent away is the one wronged.
 His disciples felt it: "If such is the case of a man with his wife, it is
 better not to marry" (Matthew 19:10, ESV).
@@ -234,14 +234,14 @@ better not to marry" (Matthew 19:10, ESV).
 **Against blaming women for men's lust.** "Everyone who looks at a woman with lustful intent has
 already committed adultery with her in his heart" (Matthew 5:28, ESV). Jesus put responsibility for
 lust on the man who looks, and the remedy He gives is the man's own: "If your right eye causes you
-to sin, tear it out and throw it away" (5:29, ESV).
+to sin, tear it out and throw it away" (Matthew 5:29, ESV).
 
 ### The overlooked and the despised
 
 **For a woman everyone overlooked.** In a synagogue on the Sabbath He saw a woman bent over for
 eighteen years, "called her over," and laid His hands on her (Luke 13:12-13). When the ruler of the
 synagogue objected, Jesus named her: "ought not this woman, a daughter of Abraham whom Satan bound
-for eighteen years, be loosed from this bond on the Sabbath day?" (13:16, ESV). "Daughter of
+for eighteen years, be loosed from this bond on the Sabbath day?" (Luke 13:16, ESV). "Daughter of
 Abraham," θυγατέρα Ἀβραάμ, names her as one of God's covenant people. Jesus gives Zacchaeus the same
 standing in the same words: "he also is a son of Abraham" (Luke 19:9, ESV). To the woman who
 touched His garment He said, "Daughter, your faith has made you well; go in peace" (Mark 5:34,
@@ -259,7 +259,7 @@ This shows that God sees the people others overlook.
 
 ## First witnesses of the resurrection
 
-The women stayed at the cross (Mark 15:40-41), watched where He was laid (15:47), and came first to
+The women stayed at the cross (Mark 15:40-41), watched where He was laid (Mark 15:47), and came first to
 the tomb. God gave them the first news of the resurrection.
 
 > ✝️ Matthew 28:5-10 (ESV)
@@ -276,8 +276,8 @@ the tomb. God gave them the first news of the resurrection.
 John tells it of Mary Magdalene alone. She did not recognise Jesus until He spoke her name: "Jesus
 said to her, 'Mary.' She turned and said to him in Aramaic, 'Rabboni!' (which means Teacher)" (John
 20:16, ESV). She called Him Teacher, the word a disciple used. Then He sent her: "go to my brothers
-and say to them, 'I am ascending to my Father and your Father, to my God and your God'" (20:17,
-ESV). "Mary Magdalene went and announced to the disciples, 'I have seen the Lord'" (20:18, ESV).
+and say to them, 'I am ascending to my Father and your Father, to my God and your God'" (John 20:17,
+ESV). "Mary Magdalene went and announced to the disciples, 'I have seen the Lord'" (John 20:18, ESV).
 "Announced" is ἀγγέλλουσα (*angellousa*, ang-GEL-loo-sah), "bringing word." In John's account she
 is the first person to see the risen Lord and the first sent to tell it.
 
@@ -330,8 +330,8 @@ is neither slave nor free, there is no male and female, for you are all one in C
 (Galatians 3:28, ESV). The first two pairs are joined by "nor," οὐδέ. The third changes the
 pattern: οὐκ ἔνι ἄρσεν καὶ θῆλυ, "there is no male *and* female." The three words ἄρσεν καὶ θῆλυ are
 the Septuagint's words in Genesis 1:27, "male and female he made them." The verse's own context says
-what the oneness is: "in Christ Jesus you are all sons of God, through faith" (3:26), and "if you are
-Christ's, then you are Abraham's offspring, heirs according to promise" (3:29). Paul is speaking of
+what the oneness is: "in Christ Jesus you are all sons of God, through faith" (Galatians 3:26), and "if you are
+Christ's, then you are Abraham's offspring, heirs according to promise" (Galatians 3:29). Paul is speaking of
 standing before God: every believer, man or woman, is a son and an heir. Peter tells husbands to show their wives honour "as the
 weaker vessel, since they are heirs with you of the grace of life" (1 Peter 3:7, ESV); the companion
 study reads that verse closely.
@@ -394,7 +394,7 @@ called them to His feet and sent them with His news, and His Spirit fills them f
   the 21 occurrences of *ʿēzer* and the single New Testament occurrence of προστάτις.
 - **Brenton's Septuagint** (eBible.org) — Genesis 1:27, ἄρσεν καὶ θῆλυ.
 - ***ESV Study Bible*** (Crossway) — consulted after the exegesis, as a check. Notes on Luke 8:1-3
-  (the range of the women, the feminine forms in 8:3), Luke 10:42 ("the good portion"), and Romans
+  (the range of the women, the feminine forms in Luke 8:3), Luke 10:42 ("the good portion"), and Romans
   16:7 (Junia).
 - ***NIV Cultural Backgrounds Study Bible*** (Zondervan), ed. John H. Walton and Craig S. Keener —
   women's testimony (on Matthew 28:7, citing Josephus, *Antiquities* 4.219); the Hillel/Shammai

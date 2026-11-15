@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 13:51-52"
 bible_references: ["Matthew 13:10-17", "Isaiah 6:9-10", "Matthew 13:35", "Matthew 13:44-53", "Matthew 9:16-17", "Matthew 12:35", "Matthew 5:17-20", "Matthew 23:34", "Matthew 28:19-20", "Matthew 8:19", "Matthew 27:57", "Matthew 12:14-50", "Matthew 13:39-40", "Ephesians 3:5-9", "Colossians 1:26", "Daniel 2:27-28", "Ezra 7:6-11", "Psalm 78:2", "2 Timothy 3:16-17", "1 John 2:7-8"]
 date_created: 2026-09-18
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -38,17 +38,17 @@ has made them.
 ### Lessons about Jesus
 
 - **Jesus makes scribes.** The participle is passive — μαθητευθείς, *"having been discipled"* —
-  and the chapter says whose work the understanding is: "to you it has been given" (13:11, ESV).
+  and the chapter says whose work the understanding is: "to you it has been given" (Matthew 13:11, ESV).
   Jesus is the one who gives it, and He gives it to people who started the day as fishermen
   and a tax collector.
 - **Jesus gives His disciples the whole of what God has said.** The storeroom holds new stock
   and old stock together. He had already put it plainly: "I have not come to abolish them but to
   fulfill them" (Matthew 5:17, ESV).
 - **Jesus puts His disciples in the master's chair.** Matthew uses οἰκοδεσπότης, "master of a
-  house," seven times. Twice the text itself makes the master Jesus: in 10:25, and in 13:27,
-  where the master is the sower Jesus names "the Son of Man" (13:37, ESV). The vineyard owner
-  of 21:33 is God by strong implication, since he sends "his son" (21:37, ESV); the owner of
-  20:1 and 20:11 is God on the usual reading, which the parable leaves to its hearers. At 13:52
+  house," seven times. Twice the text itself makes the master Jesus: in Matthew 10:25, and in 13:27,
+  where the master is the sower Jesus names "the Son of Man" (Matthew 13:37, ESV). The vineyard owner
+  of Matthew 21:33 is God by strong implication, since he sends "his son" (Matthew 21:37, ESV); the owner of
+  20:1 and 20:11 is God on the usual reading, which the parable leaves to its hearers. At Matthew 13:52
   the master of the house is the disciple.
 
 ### Memory verses
@@ -71,8 +71,8 @@ has made them.
 ### Be Transformed
 
 - **Think.** Your understanding of Scripture is something God has worked in you — take "it has
-  been given" (13:11) seriously. Thank Him for it by name this week, and go on asking Him for
-  more of it, the way the disciples kept coming back to Jesus for the explanations (13:36; 15:15).
+  been given" (Matthew 13:11) seriously. Thank Him for it by name this week, and go on asking Him for
+  more of it, the way the disciples kept coming back to Jesus for the explanations (Matthew 13:36; 15:15).
 - **Attitude.** Stop ranking the old stock below the new. If you have quietly settled into the New
   Testament and left the Old for other people, the householder in this verse has half a storeroom.
   Read a prophet this month.
@@ -117,12 +117,12 @@ The early church is unanimous that the tax collector wrote this Gospel. Papias o
 him around AD 135 and Irenaeus of Lyons around 175, and no competing tradition survives (*ESV Study
 Bible*, introduction to Matthew). That matters for this verse in particular. Matthew records the
 promise that Jesus makes scribes, and Matthew had no scribal training — Jesus called him off a tax
-booth (9:9), from the one profession in Galilee more despised than the scribes were respected.
+booth (Matthew 9:9), from the one profession in Galilee more despised than the scribes were respected.
 
 ### Written for readers who knew the Law
 
 He writes for readers who know the Law and the Prophets. He quotes the Old Testament constantly,
-opens with a genealogy running back to "the son of Abraham" (1:1, ESV), and writes "the kingdom
+opens with a genealogy running back to "the son of Abraham" (Matthew 1:1, ESV), and writes "the kingdom
 of heaven" 31 times against 4 uses of "the kingdom of God." Mark and Luke write "the kingdom of
 God" 14 and 31 times and "the kingdom of heaven" never (counts from the SBLGNT). That
 circumlocution is what a Jewish readership would expect. So when Jesus reaches for a scribe and a
@@ -135,7 +135,7 @@ the inside.
 
 Matthew 13 is the third of the five long discourses that give this Gospel its shape. The whole
 chapter is parables, and the chapter tells you why. The disciples ask Jesus outright: "Why do
-you speak to them in parables?" (13:10, ESV). His answer divides the room.
+you speak to them in parables?" (Matthew 13:10, ESV). His answer divides the room.
 
 > ✝️ Matthew 13:11 (ESV)
 >
@@ -149,7 +149,7 @@ parables sort hearers who were already sorted.
 "Secrets" translates μυστήρια (*mystēria*, G3466). The ESV Study Bible glosses these as the mysteries
 of how the kingdom of heaven would operate, revealed to the disciples and withheld from the
 unresponsive crowd. Six verses on, Jesus tells the
-Twelve that prophets and righteous people longed to see what they were seeing (13:17).
+Twelve that prophets and righteous people longed to see what they were seeing (Matthew 13:17).
 
 ### Why 13:52 follows 13:51
 
@@ -206,11 +206,11 @@ A scribe's stock was old by design. Which makes what Matthew does with the word 
 Gospel the thing to watch.
 
 γραμματεύς appears **22 times in Matthew**. They are with the chief priests when Herod hunts
-the infant Christ (2:4). They are the benchmark of an insufficient righteousness (5:20). They
-are the foil for Jesus's own authority in 7:29, the ones who say "this man is blaspheming"
-(9:3, ESV), the demanders of a sign (12:38), and the addressees of six woes in chapter 23
-(23:13, 15, 23, 25, 27, 29). Twice a scribe stands somewhere else. In 8:19 one walks up and
-says, "Teacher, I will follow you wherever you go" (ESV). And in 23:34, at the bottom of the
+the infant Christ (Matthew 2:4). They are the benchmark of an insufficient righteousness (Matthew 5:20). They
+are the foil for Jesus's own authority in Matthew 7:29, the ones who say "this man is blaspheming"
+(Matthew 9:3, ESV), the demanders of a sign (Matthew 12:38), and the addressees of six woes in chapter 23
+(Matthew 23:13, 15, 23, 25, 27, 29). Twice a scribe stands somewhere else. In Matthew 8:19 one walks up and
+says, "Teacher, I will follow you wherever you go" (ESV). And in Matthew 23:34, at the bottom of the
 woes, Jesus says this:
 
 > ✝️ Matthew 23:34 (ESV)
@@ -221,7 +221,7 @@ woes, Jesus says this:
 Jesus has scribes of His own, and He sends them. The Macula linguistic annotation of the Greek
 New Testament — an open-licensed scholarly dataset, so a considered judgement by its editors —
 assigns the semantic domain of "religious official" to twenty of Matthew's
-twenty-two occurrences, and gives 13:52 and 23:34 the domain of "teacher, scholar" instead.
+twenty-two occurrences, and gives Matthew 13:52 and 23:34 the domain of "teacher, scholar" instead.
 Those two verses are exactly the two where the scribe belongs to Jesus.
 
 ## The householder’s storeroom
@@ -231,12 +231,12 @@ Those two verses are exactly the two where the scribe belongs to Jesus.
 θησαυρός (*thēsauros*, "thay-sow-ROSS", G2344) is the word behind English *thesaurus*, and it carries
 two senses: the valuables, and the room they are kept in.
 
-Matthew uses it nine times. Seven of them mean the valuables — treasure in heaven (6:20), the
-heart's treasure (6:21), the treasure hidden in a field eight verses before ours (13:44). The
-annotation tags the magi's treasures (2:11) both as valuables and as the chests that held them.
-It puts 13:52 alone in a different semantic
+Matthew uses it nine times. Seven of them mean the valuables — treasure in heaven (Matthew 6:20), the
+heart's treasure (Matthew 6:21), the treasure hidden in a field eight verses before ours (Matthew 13:44). The
+annotation tags the magi's treasures (Matthew 2:11) both as valuables and as the chests that held them.
+It puts Matthew 13:52 alone in a different semantic
 domain, one that contains just two words: θησαυρός and ταμεῖον, "storehouse" — the word Jesus
-uses for the private room you shut the door of to pray (6:6).
+uses for the private room you shut the door of to pray (Matthew 6:6).
 
 Four translation committees reached the same conclusion independently. The NIV, CSB, NLT and
 BSB all render it **storeroom**; the ESV, NKJV, NASB, LSB, KJV, ASV, WEB and YLT keep
@@ -252,13 +252,13 @@ harvest and his own long labour of storing.
 
 ἐκβάλλει (*ekballei*, G1544) is present tense: he brings out, and goes on bringing out. It is also a
 surprisingly forceful verb. Matthew uses ἐκβάλλω 28 times, and the great majority of them are
-violent — casting out demons (8:16; 9:34; 12:28; 17:19), throwing a man into outer darkness
-(8:12; 22:13; 25:30), driving the traders from the temple (21:12), heaving the son out of the
-vineyard (21:39).
+violent — casting out demons (Matthew 8:16; 9:34; 12:28; 17:19), throwing a man into outer darkness
+(Matthew 8:12; 22:13; 25:30), driving the traders from the temple (Matthew 21:12), heaving the son out of the
+vineyard (Matthew 21:39).
 
-Five of the 28 carry a quiet sense (9:38; 12:20; 12:35 twice; 13:52), and two of them bear
+Five of the 28 carry a quiet sense (Matthew 9:38; 12:20; 12:35 twice; 13:52), and two of them bear
 directly on this verse. The first is a commission. "Pray earnestly to the Lord of the harvest to
-send out laborers into his harvest" (9:38, ESV) — *send out* is ἐκβάλῃ, and the annotation gives
+send out laborers into his harvest" (Matthew 9:38, ESV) — *send out* is ἐκβάλῃ, and the annotation gives
 it the same semantic domain it gives 12:35. The second is the sentence ours is built like:
 
 > ✝️ Matthew 12:35 (ESV)
@@ -266,13 +266,13 @@ it the same semantic domain it gives 12:35. The second is the sentence ours is b
 > 35 The good person out of his good treasure brings forth good, and the evil person out of his
 > evil treasure brings forth evil.
 
-Same verb, ἐκβάλλει. Same noun, θησαυρός. Same preposition, ἐκ. Matthew builds 13:52 out of the
+Same verb, ἐκβάλλει. Same noun, θησαυρός. Same preposition, ἐκ. Matthew builds Matthew 13:52 out of the
 same three words as 12:35, in a different order, with the kingdom's contents poured in. (The
 parallel is my own observation, offered for the reader to check in the Greek above; the
 cross-reference data does not link the two verses.)
 
 Matthew 12:35 comes with a diagnosis attached. Jesus says it while telling the Pharisees that
-"out of the abundance of the heart the mouth speaks" (12:34, ESV). What a man brings out
+"out of the abundance of the heart the mouth speaks" (Matthew 12:34, ESV). What a man brings out
 reveals what he has stored. Set 13:52 against that and the storeroom becomes an examination:
 what comes out of you when you open your mouth about God is an inventory of your shelves.
 
@@ -293,10 +293,10 @@ There the new and the old cannot be mixed. Here they sit on the same shelf. The 
 difference.
 
 παλαιός occurs **exactly three times in Matthew**: 9:16, 9:17, and 13:52 — verified against the
-SBLGNT morphology, and there are no others. καινός (*kainos*, G2537) occurs four times: 9:17, 13:52, 26:29, and
+SBLGNT morphology, and there are no others. καινός (*kainos*, G2537) occurs four times: Matthew 9:17, 13:52, 26:29, and
 27:60. Both passages use both adjectives, and the Macula annotation assigns them different
-senses in each. At 9:16-17 both carry a Louw-Nida domain of nature and kind (58) — new as a
-different kind of thing from the old. At 13:52 both carry the domain of time (67) — *of a former
+senses in each. At Matthew 9:16-17 both carry a Louw-Nida domain of nature and kind (58) — new as a
+different kind of thing from the old. At Matthew 13:52 both carry the domain of time (67) — *of a former
 period* against *of a recent one*.
 
 The wineskins are old because they have perished. The stock in the storeroom is old because it
@@ -307,7 +307,7 @@ God has ever said stays on the shelves.
 **This shows that God does not discard His own words.** He made promises to Abraham, gave the
 Law through Moses, spoke through the prophets, and every one of those is still stock. Jesus
 said it Himself in the same Gospel: "not an iota, not a dot, will pass from the Law until all
-is accomplished" (5:18, ESV). The God who speaks keeps what He has spoken.
+is accomplished" (Matthew 5:18, ESV). The God who speaks keeps what He has spoken.
 
 #### The commentaries' reading, and a merism
 
@@ -339,14 +339,14 @@ Matthew's:
 | Matthew 28:19 | μαθητεύσατε, aorist active imperative | the Eleven, commanded |
 | Acts 14:21 | μαθητεύσαντες, aorist active | Paul and Barnabas, in Derbe |
 
-Matthew's Gospel opens this word in the passive and closes it in the active. In 13:52 the
+Matthew's Gospel opens this word in the passive and closes it in the active. In Matthew 13:52 the
 disciple is made; in 28:19 the made disciple is sent to make others — "Go therefore and make
 disciples of all nations" (ESV). Everything between those two verses is the training.
 
 ### How much the passive carries
 
 How much the passive itself carries is contested. The passive of this verb can mean simply
-"became a disciple": the ESV renders the same form at 27:57 "was a disciple of Jesus," the NIV,
+"became a disciple": the ESV renders the same form at Matthew 27:57 "was a disciple of Jesus," the NIV,
 CSB and NASB render 13:52 "has become a disciple," and the Macula annotation files both verses
 with ἀκολουθέω, "follow," away from the "make disciples" of 28:19. The grammar allows the
 reading that someone did the discipling without requiring it. Verse 11 settles who did.
@@ -409,16 +409,16 @@ works out what the word means, tracing it back to the Aramaic <span dir="rtl">ר
 of Daniel 2: something God alone knows, which stays unknown until He says it, and which is then
 plain. Hidden, then disclosed. Matthew says the same thing about these parables in his own voice
 later in the chapter — Jesus "will utter what has been hidden since the foundation of the world"
-(13:35, ESV), which Matthew quotes from Psalm 78:2 and calls fulfilled.
+(Matthew 13:35, ESV), which Matthew quotes from Psalm 78:2 and calls fulfilled.
 
 ### Given on the day of the rejection
 
 Now put that beside what Matthew 12 has just finished doing. The Pharisees conspire to destroy
-Jesus (12:14). The crowds ask, "Can this be the Son of David?" and the Pharisees answer that He
-casts out demons by Beelzebul (12:23-24). He warns them about a blasphemy that will not be
-forgiven (12:31), refuses them a sign beyond Jonah's (12:39), and redefines His family around
-"whoever does the will of my Father in heaven" (12:50, ESV). Then: "That same day Jesus went out
-of the house and sat beside the sea" (13:1, ESV). Matthew dates the parable discourse to the day
+Jesus (Matthew 12:14). The crowds ask, "Can this be the Son of David?" and the Pharisees answer that He
+casts out demons by Beelzebul (Matthew 12:23-24). He warns them about a blasphemy that will not be
+forgiven (Matthew 12:31), refuses them a sign beyond Jonah's (Matthew 12:39), and redefines His family around
+"whoever does the will of my Father in heaven" (Matthew 12:50, ESV). Then: "That same day Jesus went out
+of the house and sat beside the sea" (Matthew 13:1, ESV). Matthew dates the parable discourse to the day
 of the rejection.
 
 ### The kingdom's shape in the interval
@@ -426,8 +426,8 @@ of the rejection.
 The King has been formally refused, and
 the kingdom's arrival in glory is therefore deferred. What Jesus discloses in these parables
 is the shape the kingdom takes in the interval — sown among four soils, growing with
-weeds in it until a harvest at "the end of the age" (13:39-40), netted good and bad together
-until angels do the sorting (13:47-50). An interval the Old Testament prophets had not been
+weeds in it until a harvest at "the end of the age" (Matthew 13:39-40), netted good and bad together
+until angels do the sorting (Matthew 13:47-50). An interval the Old Testament prophets had not been
 shown. Hence a mystery, and hence the "new" stock in verse 52.
 
 ### How firmly each step holds
@@ -462,7 +462,7 @@ it, on the household in front of him.
 
 Understanding is for the household. The householder in this picture does not open his storeroom to admire
 the shelves; he carries things out to be eaten. Matthew closes his Gospel with the same
-movement, now as a command: "teaching them to observe all that I have commanded you" (28:20,
+movement, now as a command: "teaching them to observe all that I have commanded you" (Matthew 28:20,
 ESV). Paul says the same to Timothy, and the whole of the storeroom is in his sentence — "All
 Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and
 for training in righteousness, that the man of God may be complete, equipped for every good
@@ -503,7 +503,7 @@ front of someone this week with something in your hands — because He put it th
    seen a church get one of them wrong?
 
 5. Jesus uses the word μυστήριον once in the Gospels, at Matthew 13:11, and Matthew dates the
-   whole discourse to "that same day" (13:1) — the day of the confrontations in chapter 12. What
+   whole discourse to "that same day" (Matthew 13:1) — the day of the confrontations in chapter 12. What
    does it commit you to if the parables were given *because* the King had just been refused?
    What changes if they were not?
 
@@ -544,13 +544,13 @@ Quoted under publishers' permission notices (see [copyright](../about/copyright.
 Each cited for a sentence or less, with attribution:
 
 - *ESV Study Bible* (Crossway, 2016) — introduction to Matthew on authorship and the early
-  testimony of Papias and Irenaeus; notes on 13:10-11 and 13:51-52.
+  testimony of Papias and Irenaeus; notes on Matthew 13:10-11 and 13:51-52.
 - *NIV Cultural Backgrounds Study Bible* and *NKJV Cultural Backgrounds Study Bible*
   (Zondervan; John H. Walton and Craig S. Keener, eds.) — notes on Matthew 5:20 (what a
   first-century scribe was), 7:29 (citing earlier authorities), and 13:52.
-- *NIV Biblical Theology Study Bible* (Zondervan) — note on 13:52.
-- *NLT Life Application Study Bible, Third Edition* (Tyndale House, 2019) — note on 13:52.
-- *CSB Ancient Faith Study Bible* (Holman) — translators' footnote at 13:52, "Or every scribe."
+- *NIV Biblical Theology Study Bible* (Zondervan) — note on Matthew 13:52.
+- *NLT Life Application Study Bible, Third Edition* (Tyndale House, 2019) — note on Matthew 13:52.
+- *CSB Ancient Faith Study Bible* (Holman) — translators' footnote at Matthew 13:52, "Or every scribe."
 - Gordon D. Fee and Douglas Stuart, *How to Read the Bible for All Its Worth* — the exegesis-
   before-hermeneutics method behind this study, and the rule for parables followed here: find
   the point the first hearers would have grasped, and leave incidental details alone. Their

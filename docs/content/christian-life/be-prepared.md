@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Peter 3:13-17"
 bible_references: ["1 Peter 3:13-17", "1 Peter 3:8-12", "1 Peter 3:18", "1 Peter 1:1", "1 Peter 1:3", "1 Peter 1:4", "1 Peter 1:5", "1 Peter 1:17", "1 Peter 1:21", "1 Peter 2:3", "1 Peter 2:11", "1 Peter 2:12", "1 Peter 2:18", "1 Peter 3:2", "1 Peter 4:3-4", "1 Peter 4:16", "Isaiah 8:12-13", "Psalm 34:12-16", "Acts 17:10-12", "Acts 21:20", "Acts 22:1", "Acts 25:16", "Colossians 4:5-6", "Luke 21:12-15", "Luke 6:15", "Titus 2:14", "Galatians 5:22-23", "Galatians 1:14", "1 Corinthians 9:3", "2 Corinthians 7:11", "Philippians 1:7", "Philippians 1:16", "2 Timothy 4:16", "Matthew 24:44", "Matthew 25:10"]
 date_created: 2024-05-24
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -72,7 +72,7 @@ to know who your Lord is, so that you have something to say when you are asked.
   optimism about your circumstances. It is a Person who came out of a grave.
 - **He is why your future is safe while your reputation is not.** Peter's readers were losing
   standing, custom and family. The inheritance is "imperishable, undefiled, and unfading, kept in
-  heaven for you" (1:4), and the salvation is "ready to be revealed in the last time" (1:5). What
+  heaven for you" (1 Peter 1:4), and the salvation is "ready to be revealed in the last time" (1 Peter 1:5). What
   they could lose was real; what they could not lose was greater.
 
 ### Memory verses
@@ -91,7 +91,7 @@ to know who your Lord is, so that you have something to say when you are asked.
 ### Be Transformed
 
 - **Think.** You already have an answer, because you already have a hope, and Peter has told you
-  what it is: God raised Jesus from the dead and keeps an inheritance for you (1:3-5, 1:21). A
+  what it is: God raised Jesus from the dead and keeps an inheritance for you (1 Peter 1:3-5, 1:21). A
   Christian who says "I wouldn't know what to say" usually means "I have never said it out loud."
   Say it out loud once this week, to yourself, in the car. Twenty seconds. That is the preparation
   this verse asks for.
@@ -130,8 +130,8 @@ to know who your Lord is, so that you have something to say when you are asked.
 Peter addresses "those who are elect exiles of the Dispersion in Pontus, Galatia, Cappadocia, Asia,
 and Bithynia" (1 Peter 1:1) — five Roman provinces across what is now Turkey. The ESV Study Bible
 dates the letter to about A.D. 62-63, written from Rome, before Nero's persecution of Christians in
-64. Most of the readers had come out of paganism: Peter speaks of their "former ignorance" (1:14)
-and "the futile ways inherited from your forefathers" (1:18).
+64. Most of the readers had come out of paganism: Peter speaks of their "former ignorance" (1 Peter 1:14)
+and "the futile ways inherited from your forefathers" (1 Peter 1:18).
 
 The pressure on them was social. The ESV Study Bible argues there was no empire-wide policy against
 Christians at this date, only "spasmodic and general outbursts." Peter's own words say the same
@@ -139,10 +139,10 @@ thing. The verb in verse 16 is καταλαλέω (*katalaleō*, G2635), to spea
 the participle beside it is ἐπηρεάζω (*epēreazō*, G1908), to abuse or threaten. Slander and insult, then —
 neighbours and relatives and masters, not yet magistrates. Peter has already told them to expect
 exactly this: "when they speak against you as evildoers, they may see your good deeds and glorify
-God" (2:12).
+God" (1 Peter 2:12).
 
 So the person asking in verse 15 is usually someone standing close enough to notice. The word
-for the answer keeps its courtroom reach, though. The *NIV Cultural Backgrounds Study Bible* notes at 3:15
+for the answer keeps its courtroom reach, though. The *NIV Cultural Backgrounds Study Bible* notes at 1 Peter 3:15
 that a defence is something Peter's readers "may eventually need even in court," pointing to 4:5-6
 and 4:15-16. Both are in view. The neighbour's question is where it starts.
 
@@ -153,8 +153,8 @@ authority. They close it by quoting Psalm 34: "For the eyes of the Lord are on t
 and his ears are open to their prayer" (1 Peter 3:12, quoting Psalm 34:15-16). In the psalm, "the
 Lord" is YHWH — the Legacy Standard Bible footnotes the verse "In OT, Yahweh, cf. Ps 34:15."
 
-Then verse 13 picks up the psalm's own language — "let him turn away from evil and do good" (3:11)
-becomes "if you are zealous for what is good" (3:13). And three verses after quoting a psalm about
+Then verse 13 picks up the psalm's own language — "let him turn away from evil and do good" (1 Peter 3:11)
+becomes "if you are zealous for what is good" (1 Peter 3:13). And three verses after quoting a psalm about
 YHWH, Peter writes κύριον δὲ τὸν Χριστόν. Inside one paragraph, the title moves from the God of
 Israel to Jesus, and Peter never pauses to defend the move.
 
@@ -204,7 +204,7 @@ where the prophet is told not to share Judah's panic about the Assyrian threat:
 > let him be your dread."
 
 Isaiah's two verses work as a pair. Stop fearing what everyone else fears — then fear this instead.
-The Hebrew verb in 8:13 is <span dir="rtl">תַקְדִּישׁוּ</span> (*taqdishu*, H6942), a hiphil of
+The Hebrew verb in Isaiah 8:13 is <span dir="rtl">תַקְדִּישׁוּ</span> (*taqdishu*, H6942), a hiphil of
 <span dir="rtl">קָדַשׁ</span> (*qadash*, H6942), "to treat as holy." The Septuagint renders the clause
 κύριον αὐτὸν ἁγιάσατε — "the Lord, Him, sanctify." The Greek
 also drops <span dir="rtl">צְבָאוֹת</span> (*tsevaʾot*, H6635,
@@ -267,12 +267,12 @@ the letter, and the first two tell you what the third means.
 > 3 Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has
 > caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead,
 
-The second is 1:21: God "raised him from the dead and gave him glory, so that your faith and hope are
+The second is 1 Peter 1:21: God "raised him from the dead and gave him glory, so that your faith and hope are
 in God." Both anchor the hope in the resurrection, and both make God the one who produced it.
 
 So the question in verse 15 has an answer Peter has already supplied. The hope is a living one, it
-came through the resurrection, it terminates on an inheritance "kept in heaven for you" (1:4), and
-it will be handed over at "a salvation ready to be revealed in the last time" (1:5). **This shows
+came through the resurrection, it terminates on an inheritance "kept in heaven for you" (1 Peter 1:4), and
+it will be handed over at "a salvation ready to be revealed in the last time" (1 Peter 1:5). **This shows
 that God has given His people a future with a date on it.** That is why a man losing his trade in
 Cappadocia could still be asked what he was so hopeful about. His hope was attached to an event
 nobody in Cappadocia could cancel.
@@ -283,12 +283,12 @@ nobody in Cappadocia could cancel.
 
 Φόβος (*phobos*, G5401, "fear") occurs five times in 1 Peter: 1:17, 2:18, 3:2, 3:14 and 3:16. Four of them
 are commended. Conduct yourselves "with fear" through your exile, because you call on a Father who
-judges impartially (1:17). Servants, submit to your masters "with all respect" (2:18). Wives, let
-husbands see "your respectful and pure conduct" (3:2). And make your defence "with gentleness and
-fear" (3:16 in the Greek; the end of 3:15 in most English Bibles), which the ESV and NIV render
-"respect". That is a fair rendering, but it hides that Peter wrote the same word he uses in 3:14.
+judges impartially (1 Peter 1:17). Servants, submit to your masters "with all respect" (1 Peter 2:18). Wives, let
+husbands see "your respectful and pure conduct" (1 Peter 3:2). And make your defence "with gentleness and
+fear" (1 Peter 3:16 in the Greek; the end of 3:15 in most English Bibles), which the ESV and NIV render
+"respect". That is a fair rendering, but it hides that Peter wrote the same word he uses in 1 Peter 3:14.
 
-The fifth is 3:14, and it is the one Peter forbids: τὸν δὲ φόβον αὐτῶν μὴ φοβηθῆτε — "do not fear
+The fifth is 1 Peter 3:14, and it is the one Peter forbids: τὸν δὲ φόβον αὐτῶν μὴ φοβηθῆτε — "do not fear
 their fear." Peter does not tell frightened people to stop being afraid. He moves the fear. Take it
 off the neighbours who are talking about you and put it where Isaiah put it, on the Lord of hosts —
 who is, in Peter's next clause, Christ.
@@ -369,7 +369,7 @@ should be God's will, than for doing evil." The conditional is Peter's own — �
 **This shows that God governs even the suffering He does not spare you from.** Peter has no category
 for a Christian whose obedience has landed him somewhere God did not intend. Later in the letter he
 says the same thing to people further in: "if anyone suffers as a Christian, let him not be ashamed,
-but let him glorify God in that name" (4:16).
+but let him glorify God in that name" (1 Peter 4:16).
 
 ### Verse 18: the righteous for the unrighteous
 
@@ -405,21 +405,21 @@ somebody else might be brought to God.
 ## References & Recommended Reading
 
 - **ESV Study Bible** (Crossway, 2016). Introduction to 1 Peter — authorship, a date of c. A.D.
-  62-63 from Rome, the five provinces of 1:1, the largely Gentile readership, and the argument that
-  no empire-wide policy against Christians existed at this date. Notes on 3:13-14 and 3:15-17.
+  62-63 from Rome, the five provinces of 1 Peter 1:1, the largely Gentile readership, and the argument that
+  no empire-wide policy against Christians existed at this date. Notes on 1 Peter 3:13-14 and 3:15-17.
 - **NIV Cultural Backgrounds Study Bible** (Zondervan, 2016). Notes on 1 Peter 3:14 and 3:15 — the
   Isaiah 8:12-13 background, the observation that Peter applies Isaiah's divine role to Christ, and
   the reminder that ἀπολογία keeps its courtroom sense.
-- **CSB Ancient Faith Study Bible** (Holman, 2019). Translators' footnotes at 3:14, 3:15 ("Other mss
+- **CSB Ancient Faith Study Bible** (Holman, 2019). Translators' footnotes at 1 Peter 3:14, 3:15 ("Other mss
   read set God") and 3:16.
-- **Legacy Standard Bible** (The Lockman Foundation, 2021). Footnote at 3:12 identifying κύριος in
+- **Legacy Standard Bible** (The Lockman Foundation, 2021). Footnote at 1 Peter 3:12 identifying κύριος in
   the Psalm 34 quotation with Yahweh; footnotes at 1 Peter 3:13 and 3:15.
 - **SBLGNT** and the **Macula Greek** morphological annotation, and the **unfoldingWord** UGNT/ULT
   interlinear, for the imperative form of ἁγιάσατε and the word counts in this study. **NA28**
-  (Deutsche Bibelgesellschaft) for the reading at 3:15.
+  (Deutsche Bibelgesellschaft) for the reading at 1 Peter 3:15.
 - **Septuagint** lemma data at Isaiah 8:13, and the **unfoldingWord Hebrew Bible** interlinear at
   Isaiah 8:12-13, for <span dir="rtl">קָדַשׁ</span> and the wording Peter reuses. The Great Isaiah
-  Scroll (1QIsa<sup>a</sup>) agrees with the Masoretic Text at 8:13.
+  Scroll (1QIsa<sup>a</sup>) agrees with the Masoretic Text at Isaiah 8:13.
 - **Gordon D. Fee and Douglas Stuart**, *How to Read the Bible for All Its Worth*. The epistle and
   Acts genre lenses used here: read the occasion first, and treat a narrative precedent as
   commended only where the narrator says so.

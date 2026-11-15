@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 14:13-21; Mark 6:30-44; Luke 9:10-17; John 6:1-15; Matthew 15:32-39; Mark 8:1-10"
 bible_references: ["John 6:22-71", "Mark 8:14-21", "Matthew 16:5-12", "Exodus 16:4-21", "Numbers 11:4-9", "Numbers 11:31-34", "Deuteronomy 8:2-3", "Deuteronomy 18:15-18", "2 Kings 4:42-44", "Psalm 78:17-31", "Psalm 23:1-2", "Isaiah 25:6-9", "Isaiah 55:1-3", "Ezekiel 34:5", "Ezekiel 34:13-16", "Numbers 27:15-18", "Matthew 4:1-4", "Matthew 6:11", "Luke 11:3", "Proverbs 30:8-9", "Revelation 2:17", "Mark 14:22", "Mark 7:24-31", "Matthew 15:29-31", "1 Timothy 6:6-8", "Romans 1:16", "1 Corinthians 11:23-26", "Luke 9:16"]
 date_created: 2026-07-25
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -37,7 +37,7 @@ portion from your Father's hand.
 heaven (Exodus 16:4; John 6:32-33). Given to people who did not work
 for it and could not have made it. Issued a day at a time and impossible to hoard (Exodus 16:19-20).
 Given *as a test* (Exodus 16:4 LXX **<span data-strongs="G3985">πειράσω</span>**; John 6:6). And sufficient, never abundant. Jesus takes each of those and applies them to Himself, then
-presses the type past where it can follow: the fathers ate manna and died (6:49), so the true bread
+presses the type past where it can follow: the fathers ate manna and died (John 6:49), so the true bread
 has to do something manna never did.
 
 A second, lesser type, Elisha's twenty barley loaves (2 Kings 4:42-44), is worked through under
@@ -53,12 +53,12 @@ Prophet who is to come into the world!" (John 6:14, ESV). This is verbal predict
   predicate nominative: **Ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς** (John 6:35). The request could only be granted by
   being refused in those terms.
 - He will not accept a crown on the crowd's terms, even from people who have just named Him
-  correctly. When they move to take Him by force and make Him king, He withdraws (6:14-15).
+  correctly. When they move to take Him by force and make Him king, He withdraws (John 6:14-15).
 - He works from what is already in someone's hands. "How many loaves do you have? Go and see"
   (Mark 6:38, ESV). Then the disciples do the distributing.
 - He is the shepherd Israel was promised. Mark acts out Ezekiel 34:15 and Psalm 23:1-2: shepherdless sheep made to recline on green grass and pastured full
   (**ἐχορτάσθησαν**, Mark 6:42).
-- He loses nothing. The verb used of the fragments gathered so that none would be wasted (6:12) is
+- He loses nothing. The verb used of the fragments gathered so that none would be wasted (John 6:12) is
   the verb used of the people the Father has given Him (John 6:39).
 - He feeds Israel and the nations from the same hands, in that order: twelve Jewish baskets, seven
   Gentile hampers, and the Gentile meal narrated in the words the church would use at its own table
@@ -124,7 +124,7 @@ Bread of Life, Jesus. In Jesus' name. Amen.*
 | Left over | 12 **κόφινοι** (*kophinoi*, G2894) | 7 **σπυρίδες** (*spyrides*) |
 | Blessing verb | εὐλόγησεν (*eulogēsen*, G2127, "blessed") | εὐχαριστήσας (*eucharistēsas*, G2168, "having given thanks") |
 | Breaking verb | κατέκλασεν (*kateklasen*, G2622, the compound — only here and Luke 9:16 in the NT) | ἔκλασεν (*eklasen*, G2806, the simple verb used at the Last Supper) |
-| Aftermath | the crowd tries to make Him king by force (John 6:15); the Bread of Life discourse follows | the Pharisees demand a sign (Mark 8:11); Jesus rebukes the disciples over the loaves (8:14-21) |
+| Aftermath | the crowd tries to make Him king by force (John 6:15); the Bread of Life discourse follows | the Pharisees demand a sign (Mark 8:11); Jesus rebukes the disciples over the loaves (Mark 8:14-21) |
 
 ## Two events, not one retold
 
@@ -169,7 +169,7 @@ the crowds: twelve Jewish provision baskets in Galilee, seven Greek hampers in t
 Before the discourse begins, John frames the miracle with two words that the crowd never hears.
 
 The first is at the start. Jesus asks Philip where they are to buy bread, and John steps in to say
-why: *"He said this to test him, for he himself knew what he would do"* (6:6, WEB), **πειράζων**
+why: *"He said this to test him, for he himself knew what he would do"* (John 6:6, WEB), **πειράζων**
 (*peirazōn*, G3985). That is the word the Greek Old Testament uses for what the manna was *for*. The
 people gather a day's portion daily, "that I may **test** them, whether they will walk in my law or
 not" (Exodus 16:4, WEB). The LXX reads ὅπως **πειράσω** αὐτούς, from the same verb, rendering Hebrew
@@ -177,11 +177,11 @@ not" (Exodus 16:4, WEB). The LXX reads ὅπως **πειράσω** αὐτού�
 examination. John 6:6 is the only undisputed occurrence of *peirazō* in his Gospel.
 
 The second is at the end. With everyone full, Jesus orders the fragments collected: *"Gather up the
-broken pieces which are left over, that nothing be lost"* (6:12, WEB), **ἀπόληται** (*apolētai*,
+broken pieces which are left over, that nothing be lost"* (John 6:12, WEB), **ἀπόληται** (*apolētai*,
 from ἀπόλλυμι, G622). So the twelve baskets exist because Jesus commanded that nothing perish. John uses the same verb
 twice more in the chapter, both times of something larger than bread. The food *"that perishes"*
-(**ἀπολλυμένην**, 6:27), which they are not to work for. And the Father's will that of all He has
-given the Son, *"I should lose nothing"* (**ἀπολέσω**, 6:39).
+(**ἀπολλυμένην**, John 6:27), which they are not to work for. And the Father's will that of all He has
+given the Son, *"I should lose nothing"* (**ἀπολέσω**, John 6:39).
 
 The care Jesus shows over barley scraps is the same care, in the same
 word, that He shows over everyone the Father gives Him.
@@ -209,7 +209,7 @@ spent <span dir="rtl">בְּלוֹא לְשָׂבְעָה</span> (*belo' lesov'a
 Isaiah used a line earlier for money spent <span dir="rtl">בְּלוֹא־לֶחֶם</span> (*belo'-leḥem*), "for not-bread."
 
 The crowd answers by quoting Scripture back: *Moses gave our fathers manna, what will you do?*
-(6:30-31), recombining both halves of LXX Psalm 77:24 (= 78:24) almost word for word. They know the
+(John 6:30-31), recombining both halves of LXX Psalm 77:24 (= Psalm 78:24) almost word for word. They know the
 text. Jesus corrects the verb tense before He corrects anything else: it was **not Moses** who gave that
 bread, and the giving is **not finished**: "my Father **gives** you the true bread from heaven,"
 present tense, happening now (John 6:32). Then:
@@ -220,7 +220,7 @@ present tense, happening now (John 6:32). Then:
 > believes in me shall never thirst."
 
 **Ἐγώ εἰμι ὁ ἄρτος τῆς ζωῆς** is the first of John's seven "I am" sayings. They'd asked for a permanent
-supply: *"Sir, give us this bread always"* (6:34, ESV; **κύριε**, *kyrie*, reads here as polite address
+supply: *"Sir, give us this bread always"* (John 6:34, ESV; **κύριε**, *kyrie*, reads here as polite address
 rather than confession; the rest of the chapter bears that out). His answer refuses the request the only
 way that could satisfy it: the bread is who He is. That claim reaches its
 own climax at 6:51: *"the bread that I will give for the life of the world is my flesh."* This shows
@@ -258,22 +258,22 @@ the shadow of the feast where a lamb dies and unleavened bread is eaten.)*
 The discourse gets more physical as the crowd's offense grows. Through verse 53 John uses
 the ordinary verb for eating, **ἐσθίω/φαγεῖν** (*esthiō/phagein*, G5315); from verse 54 he switches to
 **τρώγω** (*trōgō*, G5176, "chew, gnaw") and holds it to the end: *the one who keeps chewing my
-flesh* (6:54, 56, 57, 58). *Trōgō* is rare: six occurrences in the whole New Testament, four of them
+flesh* (John 6:54, 56, 57, 58). *Trōgō* is rare: six occurrences in the whole New Testament, four of them
 here (the others: Judas, "who ate my bread," John 13:18; the world eating and drinking before the
 flood, Matthew 24:38). By the first century the word had largely softened into an ordinary "eat," so
 it does not by itself make the language bestial. The switch is still deliberate: it arrives where
-the crowd starts objecting (6:52), and it is sustained. The ESV is the one major version that marks it
+the crowd starts objecting (John 6:52), and it is sustained. The ESV is the one major version that marks it
 consistently, rendering *esthiō* "eat" and every *trōgō* "feeds on." The crowd hears the offense
-regardless of translation: *"This is a hard saying; who can listen to it?"* (6:60). Many leave
+regardless of translation: *"This is a hard saying; who can listen to it?"* (John 6:60). Many leave
 (John 6:66).
 
 "The food that **endures** (μένω, *menō*, G3306) to eternal life"
-(6:27) is the same verb as "whoever feeds on my flesh... **abides** in me, and I in him" (6:56). Food
+(John 6:27) is the same verb as "whoever feeds on my flesh... **abides** in me, and I in him" (John 6:56). Food
 that abides, in someone who abides. No major modern version keeps both occurrences visible: the
 ESV has "endures" then "abides," the WEB "remains" then "lives."
 
 What God gives in His Son is union with Him. The food that endures abides in the one
-who feeds on it, and Jesus promises to abide in you as you abide in Him (6:56).
+who feeds on it, and Jesus promises to abide in you as you abide in Him (John 6:56).
 
 ### Daily bread
 
@@ -300,7 +300,7 @@ a thinly settled Gentile region. Mark 6:36 assumes the opposite, with villages c
 **Vocabulary follows geography.** Baskets, above, and the two verbs already tabled. At the Jewish
 feeding Jesus says the *berakhah* over bread: **εὐλόγησεν** (*eulogēsen*, "blessed"), spoken to God
 rather than over the food (Mark 6:41). At the Gentile feeding Mark has **εὐχαριστήσας**
-(*eucharistēsas*, "having given thanks," 8:6), as John already does at the first (6:11). Either verb
+(*eucharistēsas*, "having given thanks," Mark 8:6), as John already does at the first (John 6:11). Either verb
 alone would be too small to build on. Both run the same direction as the geography and the
 baskets.
 
@@ -328,7 +328,7 @@ If you are a Gentile believer, you were fed at the second meal, from the same ha
 ### Sheep without a shepherd
 
 Mark states a motive for the first feeding that has nothing to do with hunger: "he had compassion on
-them, because they were like sheep without a shepherd" (6:34, ESV). The phrase is Moses's own: he asked
+them, because they were like sheep without a shepherd" (Mark 6:34, ESV). The phrase is Moses's own: he asked
 God for a successor so that "the congregation of the LORD may not be as sheep that have no shepherd"
 (Numbers 27:17, sharing *probata/poimēn* with Mark, though not verbatim).
 
@@ -342,7 +342,7 @@ The prayer gets an answer in the very next verse, and the answer is a name:
 Joshua is <span dir="rtl">יְהוֹשֻׁעַ</span> (*Yehoshua*, H3091), which the Septuagint renders **Ἰησοῦν** (*Iēsoun*, G2424):
 "take to yourself Ἰησοῦν son of Nauē." The name God supplies when Israel needs a shepherd is the
 name of the man standing on the hillside in Mark 6. Mark writes *probata* and *poimēn* into the
-sentence and leaves the third word for the reader, because he has been using it since 1:1.
+sentence and leaves the third word for the reader, because he has been using it since Mark 1:1.
 
 Ezekiel turns the same prayer into a promise about God Himself:
 
@@ -353,18 +353,18 @@ Ezekiel turns the same prayer into a promise about God Himself:
 > bind up that which was broken, and will strengthen that which was sick; but I will destroy the fat
 > and the strong. I will feed them in justice."
 
-Mark's staging enacts that. Jesus has the crowd **recline** (**ἀνακλῖναι**, *anaklinai*, G347; "sit down" in the ESV) on **green grass** (6:39),
-arranged "by hundreds and by fifties" (6:40), the same ranks Moses used when he appointed leaders on
+Mark's staging enacts that. Jesus has the crowd **recline** (**ἀνακλῖναι**, *anaklinai*, G347; "sit down" in the ESV) on **green grass** (Mark 6:39),
+arranged "by hundreds and by fifties" (Mark 6:40), the same ranks Moses used when he appointed leaders on
 Jethro's advice (Exodus 18:25). They are **fed to the full**: **ἐχορτάσθησαν** (*echortasthēsan*,
 G5526), from **χόρτος** (*chortos*, G5528, "grass"); the verb means, at root, *to pasture*. Shepherdless
 sheep, made to recline on green grass, grazed full: Psalm 23:1-2, staged.
 
 This shows that God kept His promise to shepherd His sheep Himself, and kept it in person in Jesus.
-The doctrine is the incarnation. The Shepherd who had compassion on a shepherdless crowd (6:34) is the
+The doctrine is the incarnation. The Shepherd who had compassion on a shepherdless crowd (Mark 6:34) is the
 One who feeds you.
 
 Immediately before this scene, Herod throws
-a birthday banquet for "his nobles, the high officers, and the chief men of Galilee" (6:21), a private
+a birthday banquet for "his nobles, the high officers, and the chief men of Galilee" (Mark 6:21), a private
 feast for the powerful, ending with John the Baptist's head on a platter. Then Jesus hosts a meal on
 open grass for anyone who walked there, and everyone leaves full. Two kings, two banquets, placed back
 to back.
@@ -372,16 +372,16 @@ to back.
 ### The wrong response — echoing the wilderness
 
 The crowd responds to being fed with appetite. They track Him down the next day
-(6:22-25); they ask for the supply made permanent, "always" (6:34); some try to "take him by force to
-make him king" (6:15). Their theology is correct: the prophet like Moses, rightly
-identified (6:14). They put a right conclusion to the wrong use. That impulse has
+(John 6:22-25); they ask for the supply made permanent, "always" (John 6:34); some try to "take him by force to
+make him king" (John 6:15). Their theology is correct: the prophet like Moses, rightly
+identified (John 6:14). They put a right conclusion to the wrong use. That impulse has
 an ancestor.
 
 In Numbers 11 the people have manna and want meat: *"We remember the fish we ate in Egypt that cost
 nothing, the cucumbers, the melons, the leeks, the onions, and the garlic. But now our strength is dried
 up, and there is nothing at all but this manna to look at"* (Numbers 11:5-6, ESV). God gives them what
 they crave, in obscene quantity: quail heaped three feet deep for a day's journey in every direction
-(11:31). Then:
+(Numbers 11:31). Then:
 
 > ✝️ Numbers 11:33-34 (ESV)
 >
@@ -391,8 +391,8 @@ they crave, in obscene quantity: quail heaped three feet deep for a day's journe
 > who had the craving.
 
 <span dir="rtl">קִבְרוֹת הַתַּאֲוָה</span> (*Qivrot ha-Ta'avah*) means "the graves of craving." Psalm 78 gives the verdict on
-both wilderness stories in one breath: God "rained down on them manna to eat" (78:24) and also "gave
-them what they craved" (78:29), and the craving killed them (78:29-31). They were punished for despising
+both wilderness stories in one breath: God "rained down on them manna to eat" (Psalm 78:24) and also "gave
+them what they craved" (Psalm 78:29), and the craving killed them (Psalm 78:29-31). They were punished for despising
 sufficiency and demanding surplus.
 
 What the wilderness generation says it misses: *the fish we ate in Egypt*. On a Galilean

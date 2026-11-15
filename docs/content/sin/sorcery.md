@@ -101,8 +101,8 @@ name of Jesus, the Prophet you raised up, to whom we listen. Amen.
 
 ## Where the prohibition sits
 
-Deuteronomy 16:18-18:22 works through Israel's public offices in order: judges (16:18-17:13), the
-king (17:14-20), the priests and Levites (18:1-8), and last the prophet (18:9-22). The list of
+Deuteronomy 16:18-18:22 works through Israel's public offices in order: judges (Deuteronomy 16:18-17:13), the
+king (Deuteronomy 17:14-20), the priests and Levites (Deuteronomy 18:1-8), and last the prophet (Deuteronomy 18:9-22). The list of
 occult practices falls *inside the section on the prophetic office*. Moses is not interrupting
 himself with a miscellaneous warning; he is describing the office by first ruling out its
 counterfeits.
@@ -134,7 +134,7 @@ mark off the prophetic role from everything resembling it.
 ## Historical and cultural context
 
 Moses is addressing the generation about to cross into Canaan, and he identifies the practices as
-those of "these nations, which you are about to dispossess" (18:14). Verse 12 makes the same
+those of "these nations, which you are about to dispossess" (Deuteronomy 18:14). Verse 12 makes the same
 practices the stated ground of that dispossession. Centuries earlier God had told Abraham his
 descendants would not return for four generations, "for the iniquity of the Amorites is not yet
 complete" (Genesis 15:16) — the dispossession waits on a measure being filled, and Deuteronomy 18:12
@@ -243,7 +243,7 @@ Chronicler charges Saul under the statute, in the statute's language.
 The narrative had already set this up. Saul turned to the medium only after heaven went quiet: "when
 Saul inquired of the LORD, the LORD did not answer him, either by dreams, or by Urim, or by
 prophets" (1 Samuel 28:6). The *NIV Biblical Theology Study Bible* puts the irony sharply — Saul is
-both lawmaker and lawbreaker, since he had himself expelled the mediums from the land (28:3).
+both lawmaker and lawbreaker, since he had himself expelled the mediums from the land (1 Samuel 28:3).
 
 **Isaiah on Judah.** Isaiah 8:19 uses *dāraš* three times in a single verse, and closes on
 Deuteronomy 18:11's exact phrase, <span dir="rtl">אֶל־הַמֵּתִים</span> (*ʾel-hammētîm*, "to the
@@ -264,10 +264,10 @@ covers moaning, growling, and low unformed sound.
 Set that against what God promises about His prophet: "I will put my words in his mouth, and he
 shall speak to them all that I command him" (Deuteronomy 18:18). The contrast is between noise that
 requires an interpreter and speech that can simply be heard and obeyed. The *NIV Biblical Theology
-Study Bible* reaches the same point on 18:14-22: the divine will is not found by searching in the
+Study Bible* reaches the same point on Deuteronomy 18:14-22: the divine will is not found by searching in the
 organs of animals or in the grave, but in intelligible speech.
 
-This is also why the chapter ends with a test (18:20-22) rather than a technique. A prophet's word
+This is also why the chapter ends with a test (Deuteronomy 18:20-22) rather than a technique. A prophet's word
 either comes to pass or it does not, and Israel can check. Divination offers no such handle — an
 oracle vague enough to need interpreting is an oracle that cannot be falsified.
 
@@ -320,8 +320,8 @@ already had them in one passage.
 This resolves an apparent problem in Daniel. Nebuchadnezzar makes Daniel "chief prefect over all the
 wise men of Babylon" (Daniel 2:48), and Belshazzar's queen recalls that the king had made him "chief
 of the magicians, enchanters, Chaldeans, and astrologers" (Daniel 5:11). Daniel holds the office and
-denies that any of his colleagues' methods could have produced the revelation (2:27-28), which came
-from God in a night vision, in answer to prayer (2:17-19).
+denies that any of his colleagues' methods could have produced the revelation (Daniel 2:27-28), which came
+from God in a night vision, in answer to prayer (Daniel 2:17-19).
 
 ## Sorcery in the New Testament
 
@@ -347,7 +347,7 @@ context: sorcery there is what *deceives nations*, which is not a thing pharmace
 **Simon in Samaria** (Acts 8:9-24) had "amazed the people of Samaria, saying that he himself was
 somebody great," to the point that they called him "the power of God that is called Great." He
 believed and was baptised — and then offered the apostles money for the ability to confer the Spirit.
-Peter's answer goes to motive, not method: "your heart is not right before God" (8:21). Conversion
+Peter's answer goes to motive, not method: "your heart is not right before God" (Acts 8:21). Conversion
 had not yet reached the instinct that treats spiritual power as a purchasable capability.
 
 #### The slave girl at Philippi
@@ -386,7 +386,7 @@ Edge of Sorcery](../spiritual-beings/deliverance/deliverance-and-the-edge-of-sor
 Revelation's four occurrences fall into two groups.
 
 Two describe humanity under judgment refusing to change: those who "did not repent of their murders
-or their sorceries or their sexual immorality or their thefts" (9:21), and Babylon, of whom it is
+or their sorceries or their sexual immorality or their thefts" (Revelation 9:21), and Babylon, of whom it is
 said that "all nations were deceived by your sorcery" (Revelation 18:23).
 
 That verse is built from Old Testament material. The *NIV Cultural Backgrounds Study Bible* notes
@@ -399,10 +399,10 @@ Nahum's already was: a world power whose spiritual counterfeit deceives nations,
 brings down.
 
 The other two are exclusion lists. Sorcerers appear among those whose portion is the lake of fire
-(21:8) and among those left "outside" the city (22:15). In both, the company is consistent, and it is
+(Revelation 21:8) and among those left "outside" the city (Revelation 22:15). In both, the company is consistent, and it is
 the company sorcery keeps throughout Scripture: idolaters, the sexually immoral, murderers, liars.
 Galatians 5:20 places it in the same neighbourhood, immediately after idolatry, and warns that those
-who practise such things "will not inherit the kingdom of God" (5:21).
+who practise such things "will not inherit the kingdom of God" (Galatians 5:21).
 
 The *ESV Study Bible*'s note on Galatians 5:20 states the link between idolatry and sorcery better
 than a paraphrase would: both are attempts to reach the spiritual realm by humanly invented means,
@@ -487,7 +487,7 @@ to Him and listen.
   *qāsam* (2044), *nāḥaš* (1348), and *ʾôb* (37a), consulted via this repo's committed TWOT
   Strong's-number map. The "skin-bottle" gloss for *ʾôb* prompted the homonym caution above.
 - ***ESV Study Bible*** (Crossway, 2016) — consulted after the exegesis, as a check. Confirmed the
-  deliberate juxtaposition of 18:9-14 with 18:15-19 and the listen/listen contrast; contributed the
+  deliberate juxtaposition of Deuteronomy 18:9-14 with 18:15-19 and the listen/listen contrast; contributed the
   observation that child sacrifice belongs in a divination list because it was itself a means of
   seeking divine help (2 Kings 3:26-27), the framing of idolatry and sorcery in Galatians 5:20 as
   rejecting the revealed way of approach, and the caution that 1 Samuel 28 must not be used to

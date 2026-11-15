@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 3:14-21"
 bible_references: ["Ephesians 3:14-21", "Daniel 6:10-11", "Daniel 9:2-23", "Daniel 2:17-23", "Romans 8:15-16", "Galatians 4:6-7", "Mark 3:14", "John 17:3", "John 17:20-21", "Psalm 42:1-2", "Psalm 16:11", "Matthew 6:8-13", "Luke 22:42", "Exodus 16:4", "Exodus 16:19-21", "Deuteronomy 8:3", "Matthew 4:4", "John 4:34", "Hebrews 10:19-22", "Hebrews 4:16", "Hebrews 7:25", "Hebrews 5:7", "Philippians 4:6-7", "Romans 12:1-2", "1 John 5:14", "Psalm 37:4", "John 15:7", "Psalm 66:18-19", "James 4:2-3", "Mark 1:35-37", "Luke 5:16", "Luke 6:12", "Matthew 14:23", "Daniel 6:3-5", "Daniel 6:22", "John 17:5", "2 Kings 25:9", "1 Kings 8:10-11", "Colossians 2:7", "1 Kings 8:48-49", "Jeremiah 29:10-13", "Jeremiah 25:11-12", "Ephesians 2:21-22", "Colossians 1:19", "Colossians 2:9-10", "Ephesians 3:1", "Ephesians 4:1", "Philippians 2:10", "Exodus 32:11-14", "Nehemiah 2:4-5", "Acts 4:24-31", "Ephesians 2:18", "John 16:23-24", "Acts 7:59", "2 Corinthians 12:8-9", "Romans 8:26-27", "Matthew 6:5-6", "Acts 1:14", "Acts 12:5", "1 Timothy 2:1-2", "1 Timothy 2:5-6", "Colossians 4:2", "1 Thessalonians 5:16-18", "Luke 11:5-13", "Luke 18:1-8", "Deuteronomy 6:6-7"]
 date_created: 2024-10-06
-date_modified: 2026-11-04
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -306,7 +306,7 @@ law signed against his prayer, and:
 > in his upper chamber open toward Jerusalem. He got down on his knees three times a day and prayed
 > and gave thanks before his God, as he had done previously.
 
-The Aramaic (numbered 6:11 there) makes the habit visible. <span dir="rtl">בָּרֵךְ עַל־בִּרְכוֹהִי</span> (*bārēk ʿal
+The Aramaic (numbered <span data-ref="Daniel 6:10">Daniel 6:11</span> there) makes the habit visible. <span dir="rtl">בָּרֵךְ עַל־בִּרְכוֹהִי</span> (*bārēk ʿal
 birkōhî*, H1289 and H1291) is "kneeling on his knees", verb and noun from the same root, and
 "kneeling", "praying" and "thanking" are all participles, the form for ongoing action: he *was
 kneeling, praying, giving thanks*. "As he had done previously" is literally "just as he had been
@@ -372,14 +372,14 @@ step. Jesus said "pray *like this*" (Matthew 6:9).
 
 #### On his knees, before the Father
 
-**Where he prayed it.** "For this reason" picks up the sentence Paul broke off in 3:1, where he
+**Where he prayed it.** "For this reason" picks up the sentence Paul broke off in Ephesians 3:1, where he
 calls himself "a prisoner of Christ Jesus on behalf of you Gentiles" (Ephesians 3:1, ESV; *ESV Study
 Bible*, note on 3:14-15). He has just told them "not to lose heart over what I am suffering for you"
 (Ephesians 3:13, ESV). A prisoner prays, and he asks nothing for himself. He asks for their strength.
 
 **How he prayed it.** "I bow my knees", κάμπτω τὰ γόνατά μου (*kamptō*, G2578). Most people in
 Paul's day stood to pray (Mark 11:25; Luke 18:11, 13), so kneeling expressed deep reverence (*NIV
-Biblical Theology Study Bible*, note on 3:14-15).
+Biblical Theology Study Bible*, note on Ephesians 3:14-15).
 
 ??? note "Aside: every knee will bow"
 
@@ -390,7 +390,7 @@ Biblical Theology Study Bible*, note on 3:14-15).
 **To whom.** "The Father, from whom every family in heaven and on earth is named." *Family* is
 πατριά (*patria*, G3965), built on πατήρ (*patēr*, G3962, "father"), and the wordplay is Paul's own:
 every *fatherhood* takes its name from the Father. To name, in Scripture, is to define an identity
-(*ESV Study Bible*, note on 3:14-15). The One Paul kneels before is the Father all fatherhood is
+(*ESV Study Bible*, note on Ephesians 3:14-15). The One Paul kneels before is the Father all fatherhood is
 named from, and you are His.
 
 #### What he asks
@@ -398,27 +398,27 @@ named from, and you are His.
 Each request opens into the next, and each Person of the Trinity is in it:
 
 1. **Strength by the Spirit, inside.** "Strengthened with power through his Spirit in your inner
-   being" (3:16). The inner being is the seat of consciousness and moral being, the heart (*NIV
-   Biblical Theology Study Bible*, note on 3:16). Paul prays for what no change of circumstance can give.
-2. **Christ settling in.** "So that Christ may dwell in your hearts through faith" (3:17). The verb
+   being" (Ephesians 3:16). The inner being is the seat of consciousness and moral being, the heart (*NIV
+   Biblical Theology Study Bible*, note on Ephesians 3:16). Paul prays for what no change of circumstance can give.
+2. **Christ settling in.** "So that Christ may dwell in your hearts through faith" (Ephesians 3:17). The verb
    is κατοικέω (*katoikeō*, G2730), to dwell or take up residence. They already belong to Christ;
-   Paul prays for His indwelling "with power" (*ESV Study Bible*, note on 3:17-18), His
-   "controlling presence" as they keep trusting Him (*NIV Biblical Theology Study Bible*, note on 3:17). The chapter before has just called the church "a
+   Paul prays for His indwelling "with power" (*ESV Study Bible*, note on Ephesians 3:17-18), His
+   "controlling presence" as they keep trusting Him (*NIV Biblical Theology Study Bible*, note on Ephesians 3:17). The chapter before has just called the church "a
    dwelling place for God by the Spirit" (Ephesians 2:22, ESV), κατοικητήριον (*katoikētērion*,
    G2732), from the same root.
 3. **Rooted and grounded in love.** ῥιζόω (*rhizoō*, G4492, "root") occurs only here and in
    Colossians 2:7, and θεμελιόω (*themelioō*, G2311) is to lay a foundation. A tree and a building:
    love is the soil they grow in and the ground they are built on.
-4. **Strength to grasp it.** The breadth, length, height and depth (3:18). Paul does not say what
+4. **Strength to grasp it.** The breadth, length, height and depth (Ephesians 3:18). Paul does not say what
    the four measure, and readers differ. The *ESV Study Bible* takes them as "the immeasurable
-   dimensions of God's riches in Christ" (note on 3:17-18), and the next clause points to the love
+   dimensions of God's riches in Christ" (note on Ephesians 3:17-18), and the next clause points to the love
    of Christ. It is grasped "with all the saints": no one comprehends it alone.
-5. **To know a love beyond knowing.** "To know the love of Christ that surpasses knowledge" (3:19).
+5. **To know a love beyond knowing.** "To know the love of Christ that surpasses knowledge" (Ephesians 3:19).
    The paradox is deliberate. The love is too great ever to be fully known, and it can be truly
-   known (*NIV Biblical Theology Study Bible*, note on 3:19).
-6. **Filled with God.** "That you may be filled with all the fullness of God" (3:19). As God's glory
+   known (*NIV Biblical Theology Study Bible*, note on Ephesians 3:19).
+6. **Filled with God.** "That you may be filled with all the fullness of God" (Ephesians 3:19). As God's glory
    filled the temple (1 Kings 8:10-11), Paul prays God would fill His people with Himself (*NIV
-   Biblical Theology Study Bible*, note on 3:19).
+   Biblical Theology Study Bible*, note on Ephesians 3:19).
 
 ??? note "Aside: Christ dwelling, God's fullness"
 
@@ -432,10 +432,10 @@ Each request opens into the next, and each Person of the Trinity is in it:
 #### More than we ask
 
 Paul ends in praise. "Now to him who is able to do far more abundantly than
-all that we ask or think" (3:20): Paul has just asked for the fullness of God, and he closes by
+all that we ask or think" (Ephesians 3:20): Paul has just asked for the fullness of God, and he closes by
 praising a God whose ability runs beyond all that anyone asks. The power is already "at work within us." The glory goes to God "in the church and in
-Christ Jesus" (3:21). The *NIV Biblical Theology Study Bible* sees the shape: address, appeals,
-adoration (note on 3:14-21).
+Christ Jesus" (Ephesians 3:21). The *NIV Biblical Theology Study Bible* sees the shape: address, appeals,
+adoration (note on Ephesians 3:14-21).
 
 **This shows that God the Father wants His children strong within, indwelt by His Son, rooted in His
 love and filled with Himself, and that He is able to do far more than anyone dares to ask.** So

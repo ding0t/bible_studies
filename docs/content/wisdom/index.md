@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Proverbs 9:10"
 bible_references: ["Proverbs 1:7", "Proverbs 3:5-6", "Proverbs 9:10", "Proverbs 8:35-36", "1 Corinthians 1:24", "1 Corinthians 1:30", "Colossians 2:3", "Matthew 12:42", "James 1:5"]
 date_created: 2026-09-20
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -42,14 +42,14 @@ book holds out — life, favour, a straight path, an understanding heart — is 
 
 **The fear of the LORD is where wisdom starts, and it is knowledge of a Person.** Proverbs states it
 twice, at the head of the book and at the hinge of its first half: the fear of the LORD is the
-beginning of knowledge (1:7) and the beginning of wisdom, "and the knowledge of the Holy One is
-insight" (9:10, ESV). The second line of 9:10 defines the first. This reverence is not dread of an
+beginning of knowledge (Proverbs 1:7) and the beginning of wisdom, "and the knowledge of the Holy One is
+insight" (Proverbs 9:10, ESV). The second line of Proverbs 9:10 defines the first. This reverence is not dread of an
 unknown power; it is what knowing the Holy One produces in a creature who has understood who He is.
 So wisdom begins where relationship begins, and no amount of accumulated cleverness substitutes for
 it.
 
 **God gives it to those who ask.** Wisdom in Proverbs is never withheld from those who seek it —
-she calls in the street (1:20-21) — and James says the same thing without a figure of speech: "If
+she calls in the street (Proverbs 1:20-21) — and James says the same thing without a figure of speech: "If
 any of you lacks wisdom, let him ask God, who gives generously to all without reproach, and it will
 be given him" (James 1:5, ESV). So you are not left to generate wisdom out of your own experience.
 You may ask for it, and you will be given it.
@@ -71,7 +71,7 @@ You may ask for it, and you will be given it.
   reveres Him is the foundation every practical decision rests on. Build there first.
 - **Attitude.** Receive reproof. Proverbs ties correction to life so often that the willingness to
   be told you are wrong becomes the working test of whether you are on the road at all
-  (10:17, 15:31).
+  (Proverbs 10:17, 15:31).
 - **Do.** Name the next real decision in front of you. Before you make it, ask God for wisdom in
   James's words: "If any of you lacks wisdom, let him ask God, who gives generously to all without
   reproach, and it will be given him" (James 1:5, ESV).

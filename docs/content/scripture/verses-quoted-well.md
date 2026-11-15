@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 1:1; John 3:16; Hebrews 11:1"
 bible_references: ["Genesis 1:1-3", "John 1:1-3", "Psalm 33:6", "Hebrews 11:3", "Revelation 4:11", "John 3:14-19", "John 1:14", "John 1:18", "1 John 4:9-10", "Romans 5:8", "Hebrews 10:35-39", "Hebrews 11:1-6", "Hebrews 11:39-40", "Hebrews 12:2", "Hebrews 1:3", "Hebrews 3:14", "Hebrews 10:38", "Habakkuk 2:4", "Hebrews 11:40", "John 1:10", "Exodus 34:6-7", "Numbers 21:8-9"]
 date_created: 2026-10-01
-date_modified: 2026-10-01
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -193,7 +193,7 @@ opening phrase, as the chapter does with "by faith."
 
 **The words.**
 
-- ὑπόστασις (*hypostasis*, G5287, "assurance"). Hebrews uses it twice before this. At 1:3 it is
+- ὑπόστασις (*hypostasis*, G5287, "assurance"). Hebrews uses it twice before this. At Hebrews 1:3 it is
   God's own being, of which the Son is "the exact imprint" (Hebrews 1:3, ESV); at 3:14 it is the
   believer's "original confidence" held "firm to the end" (Hebrews 3:14, ESV). Translations divide
   the same way here: the ESV reads "assurance", and the LSB footnotes "Or substance." Either way,

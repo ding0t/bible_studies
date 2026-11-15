@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Kings 6:1"
 bible_references: ["Joshua 10:12-14", "1 Kings 5:1-12", "1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Chronicles 12:2", "2 Kings 1:1", "2 Kings 3:4-5", "2 Kings 9:24-27", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20", "Nehemiah 1:1", "Ezra 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-11-03
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -392,17 +392,17 @@ and the year does not need John 2:20 to carry weight it cannot.
 ### The Passovers in John
 
 **The Passovers in John make AD 30 hard to hold.** John marks at least three Passovers across the
-ministry (2:13; 6:4; 11:55), possibly four if the unnamed feast at 5:1 is one. Take the earliest
+ministry (John 2:13; 6:4; 11:55), possibly four if the unnamed feast at 5:1 is one. Take the earliest
 start Luke 3:1 allows, late AD 28: the first of those Passovers falls in AD 29, the second in AD 30,
-the third no earlier than AD 31 — so the crucifixion cannot be at the second. Reaching AD 33 from a start in late AD 29 takes four Passovers (AD 30, 31, 32 and 33), so that date also needs the unnamed feast of 5:1 to be a Passover, or one Passover to pass unmentioned. The *ESV Study Bible*
+the third no earlier than AD 31 — so the crucifixion cannot be at the second. Reaching AD 33 from a start in late AD 29 takes four Passovers (AD 30, 31, 32 and 33), so that date also needs the unnamed feast of John 5:1 to be a Passover, or one Passover to pass unmentioned. The *ESV Study Bible*
 runs the same count and reaches AD 33 by it, and treats it as the argument that makes AD 30
 difficult rather than merely less likely.
 
 The escape from that is to say John records only two Passovers, on the view that his temple cleansing
-(2:13-22) is the Synoptics' one at the end of the ministry, moved forward for thematic reasons. That
+(John 2:13-22) is the Synoptics' one at the end of the ministry, moved forward for thematic reasons. That
 is a real position, and it is the load-bearing assumption under most AD 30 reconstructions, so the crucifixion year and the number of temple cleansings are the same
 question wearing two hats. John's own time markers resist it: "after this" He went to Capernaum "for
-a few days," and *then* "the Passover of the Jews was at hand" (2:12-13).
+a few days," and *then* "the Passover of the Jews was at hand" (John 2:12-13).
 
 ### Sejanus's fall and the "friend of Caesar" charge
 

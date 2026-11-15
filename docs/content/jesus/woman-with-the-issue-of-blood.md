@@ -123,7 +123,7 @@ ordinary things holy by contact, but a corpse-defiled person defiles everything 
 story overturns that asymmetry.
 
 Mark says she "had suffered many things by many physicians, and
-had spent all that she had, and was no better, but rather grew worse" (5:26, WEB): twelve years of
+had spent all that she had, and was no better, but rather grew worse" (Mark 5:26, WEB): twelve years of
 chronic illness and medical expense in an economy with no safety net. Background commentary adds
 that because such long-term bleeding barred marital relations, she was likely divorced or never
 married, and correspondingly isolated and destitute (*NIV Cultural Backgrounds Study Bible*,
@@ -135,10 +135,10 @@ crowd would have transmitted her uncleanness to many people without their knowle
 Mark sets this miracle inside a larger unit, Mark 5:21-43, built
 in his characteristic sandwich pattern (a story opened, interrupted by a second story, then closed):
 
-1. **5:21-24** — Jairus, a synagogue ruler, begs Jesus to come and heal his dying twelve-year-old
+1. **Mark 5:21-24** — Jairus, a synagogue ruler, begs Jesus to come and heal his dying twelve-year-old
    daughter.
-2. **5:25-34** — *The interruption*: the woman with the twelve-year discharge.
-3. **5:35-43** — The frame closes: the girl has died, and Jesus raises her.
+2. **Mark 5:25-34** — *The interruption*: the woman with the twelve-year discharge.
+3. **Mark 5:35-43** — The frame closes: the girl has died, and Jesus raises her.
 
 Mark uses this structure so the two halves comment on each other.
 Twelve years of illness meets a girl twelve years old. Both are hopeless by ordinary means. Both
@@ -238,10 +238,10 @@ Jew because God is with him, a near-picture of what this woman does.
    Testament's own use of the sunrise image. None of the commentaries consulted connects Malachi 4:2
    to this healing at all.
 2. **No Gospel writer makes the link.** Matthew is the evangelist
-   most given to saying "this happened to fulfil what the prophet spoke". He does it at 1:22, 2:15,
-   2:17, 2:23, 4:14, 8:17, 12:17, 13:35, 21:4 and 27:9. He records the fringe detail at 9:20 and
+   most given to saying "this happened to fulfil what the prophet spoke". He does it at Matthew 1:22, 2:15,
+   2:17, 2:23, 4:14, 8:17, 12:17, 13:35, 21:4 and 27:9. He records the fringe detail at Matthew 9:20 and
    attaches no formula to it.
-3. **Matthew supplies a different prophecy for the same subject.** At 8:17 he does what the
+3. **Matthew supplies a different prophecy for the same subject.** At Matthew 8:17 he does what the
    popular reading wants him to do here: quotes Isaiah, by name, with a fulfilment formula, about
    Jesus's healings: "He took our infirmities and bore our diseases" (Isaiah 53:4).
 
@@ -253,27 +253,27 @@ echo a first-century reader might catch. It is not a prediction being ticked off
 ## Word study
 
 - **κράσπεδον** (*kraspedon*, G2899, Louw-Nida domain 6.180) — "tassel, fringe." In Matthew 9:20 and
-  Luke 8:44; absent from Mark 5:27, though Mark uses it at 6:56 (as Matthew does at 14:36) for
+  Luke 8:44; absent from Mark 5:27, though Mark uses it at 6:56 (as Matthew does at Matthew 14:36) for
   the sick who touch the fringe. Its Septuagint use at Numbers 15:38 for *tsitsit* is what ties
   the Gospel detail to the commandment.
-- **ἅπτω** (*haptō*, G680) — "touch." She touches (5:27), plans to touch (5:28), and Jesus asks who
-  touched Him (5:30-31). In Mark's other occurrences Jesus does the touching (1:41 the leper; 7:33;
-  8:22; 10:13), or a summary has crowds of the sick pressing in to touch Him (3:10; 6:56). Of the
+- **ἅπτω** (*haptō*, G680) — "touch." She touches (Mark 5:27), plans to touch (Mark 5:28), and Jesus asks who
+  touched Him (Mark 5:30-31). In Mark's other occurrences Jesus does the touching (Mark 1:41 the leper; 7:33;
+  8:22; 10:13), or a summary has crowds of the sick pressing in to touch Him (Mark 3:10; 6:56). Of the
   verb's eleven occurrences in Mark, this is the one scene where a single person touches Jesus first.
   She does it from behind, unseen, because Leviticus 15:27 makes that contact defiling in the wrong
   direction.
 - **δύναμις** (*dynamis*, G1411) — "power." Jesus "perceiv[ed] in himself that the power had gone out
-  from him" (5:30, WEB). The healing registers as an outward transfer, and it happens at her touch,
+  from him" (Mark 5:30, WEB). The healing registers as an outward transfer, and it happens at her touch,
   before He has said or done anything toward her.
 - **σῴζω** (*sōzō*, G4982) — "save, heal, make whole." She says "I will be made well" (σωθήσομαι,
-  5:28); Jesus says "your faith has made you well" (σέσωκέν, 5:34). This is the ordinary New
+  Mark 5:28); Jesus says "your faith has made you well" (σέσωκέν, Mark 5:34). This is the ordinary New
   Testament verb for salvation, which invites over-reading. MACULA's
   Louw-Nida tagging in this project's `bible-text.db` puts both occurrences in domain **23.136**,
   physical healing, the same domain as ἰάομαι (*iaomai*, G2390), the unambiguously physical healing verb
-  Mark uses two verses earlier at 5:29. Physical healing is the controlling sense here. That said,
+  Mark uses two verses earlier at Mark 5:29. Physical healing is the controlling sense here. That said,
   the exact phrase "your faith has made you well" (ἡ πίστις σου σέσωκέν σε) recurs word for word at
   Mark 10:52 to blind Bartimaeus, so Mark is at least linking his faith-and-healing scenes
-  deliberately, and the word's wider currency in the same Gospel (8:35; 10:26; 13:13) stays audible
+  deliberately, and the word's wider currency in the same Gospel (Mark 8:35; 10:26; 13:13) stays audible
   without the text making the larger claim outright.
 - **θυγάτηρ** (*thygatēr*, G2364) — "daughter." She is the only woman Jesus addresses individually
   with this word, in all three accounts of the scene (Mark 5:34; Matthew 9:22; Luke 8:48). Luke 23:28
@@ -283,7 +283,7 @@ echo a first-century reader might catch. It is not a prediction being ticked off
 
 Under the law, holiness could not be transmitted by contact but uncleanness could. Jesus reverses the
 direction of travel: what flows at the point of contact is His power into her. Mark shows the same
-pattern at 1:40-42, where Jesus touches a leper the law kept at a prescribed distance. The law's diagnosis of uncleanness is never
+pattern at Mark 1:40-42, where Jesus touches a leper the law kept at a prescribed distance. The law's diagnosis of uncleanness is never
 denied; what changes is which party is stronger at the point of contact.
 
 ## Application

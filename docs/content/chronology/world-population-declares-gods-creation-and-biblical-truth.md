@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 9:1-19"
 bible_references: ["Genesis 1:20-21", "Genesis 1:28", "Genesis 5:32", "Genesis 6:1", "Genesis 7:11", "Genesis 7:21", "Genesis 8:17", "Genesis 9:1-19", "Genesis 9:28-29", "Genesis 10:1-32", "Genesis 11:1-9", "Genesis 11:10", "Genesis 13:16", "Genesis 15:5", "Genesis 22:17", "Genesis 46:26-27", "Exodus 1:5-7", "Exodus 1:12", "Exodus 8:3", "Exodus 12:37-41", "Leviticus 11:29", "Leviticus 11:41-46", "Numbers 1:2-3", "Numbers 1:45-46", "Deuteronomy 10:22", "2 Samuel 24:9", "1 Chronicles 21:5", "Psalm 105:30", "Jeremiah 33:22", "Ezekiel 47:9", "Acts 7:14", "Acts 17:26", "Romans 1:20", "Galatians 3:16", "Galatians 3:17", "Galatians 3:29", "Hebrews 11:12", "Revelation 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-11-04
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -187,7 +187,7 @@ life, and He records Himself answered in the same word. You are part of that abu
 Genesis 11:1-9 has humanity refusing the third verb. "Come, let us build ourselves a city and a
 tower with its top in the heavens, and let us make a name for ourselves, lest we be dispersed over
 the face of the whole earth" (Genesis 11:4, ESV) — the stated motive is to avoid dispersal. God
-disperses them anyway (11:8-9).
+disperses them anyway (Genesis 11:8-9).
 
 Genesis 10, placed before it, lists the resulting nations out of sequence; the *NIV Biblical Theology
 Study Bible* notes at 10:32 that the spreading out "does not happen until after the tower of Babel
@@ -336,7 +336,7 @@ The mandate and the census sit on opposite sides of the then-and-now line, and t
 each differently.
 
 **Genesis 9:1 reaches everyone.** It is addressed to the only human beings alive, grounded in the
-image of God rather than in a covenant with one nation (9:6), issued before Israel exists, and never
+image of God rather than in a covenant with one nation (Genesis 9:6), issued before Israel exists, and never
 rescinded.
 
 **Numbers 1 does not.** That census musters men "from twenty years old and upward, all in Israel who
@@ -484,8 +484,8 @@ and an earth filled with violence, which fits a populous world.
 #### The front end: Genesis 10's grandsons imply a 5.6%/yr rate
 
 **The front end, and why it must be fast.** Genesis supplies its own evidence here. Genesis 10 names
-sixteen grandsons of Noah across three couples: seven from Japheth (10:2), four from Ham (10:6),
-five from Shem (10:22).
+sixteen grandsons of Noah across three couples: seven from Japheth (Genesis 10:2), four from Ham (Genesis 10:6),
+five from Shem (Genesis 10:22).
 
 ```text
     16 grandsons / 3 couples = 5.3 sons per couple

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 6:11; Revelation 7:9-14; Revelation 19:7-8"
 bible_references: ["Genesis 3:7-10", "Genesis 3:21", "Psalm 51:7", "Isaiah 1:18", "Isaiah 55:1", "Isaiah 61:10", "Isaiah 64:6", "Zechariah 3:3-5", "Daniel 7:9", "Daniel 12:1", "Daniel 12:10", "Matthew 17:2", "Matthew 22:11-13", "Matthew 24:21", "Matthew 28:3", "Mark 9:2-3", "Mark 16:5", "Luke 15:21-22", "John 20:12", "Acts 1:10", "Romans 5:18", "Romans 8:1", "Romans 8:4", "Galatians 3:27", "Ephesians 2:8-10", "Ephesians 4:1", "Colossians 3:12", "1 John 1:7", "Jude 1:23", "Revelation 1:14", "Revelation 3:4-5", "Revelation 3:17-18", "Revelation 4:4", "Revelation 4:10-11", "Revelation 5:9", "Revelation 6:9-11", "Revelation 7:9-17", "Revelation 12:11", "Revelation 15:4", "Revelation 16:15", "Revelation 18:16", "Revelation 19:7-8", "Revelation 19:14", "Revelation 20:11", "Revelation 21:27", "Revelation 22:14"]
 date_created: 2026-10-15
-date_modified: 2026-11-08
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -416,7 +416,7 @@ and linen He grants.
 - Greek: SBL Greek New Testament, with the Textus Receptus, the Byzantine Textform and Tischendorf
   compared at Revelation 22:14; word counts from the MACULA Greek SBLGNT morphology.
 - Septuagint: Brenton's edition (Codex Vaticanus; its Daniel is Theodotion's) for Genesis 3:21,
-  Psalm 50:9 (51:7 in English Bibles), Isaiah 1:18, 61:10, 64:5 and Daniel 12:1, 10.
+  Psalm 50:9 (Psalm 51:7 in English Bibles), Isaiah 1:18, 61:10, 64:5 and Daniel 12:1, 10.
 - Hebrew: Westminster Leningrad Codex with the MACULA Hebrew morphology and the unfoldingWord ULT
   interlinear for Genesis 3:21, Isaiah 1:18, 61:10, 64:6 and Zechariah 3:4.
 

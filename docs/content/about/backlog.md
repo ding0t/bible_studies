@@ -105,6 +105,17 @@ What the pop-ups (0.1 and 0.2) left undone.
   Revelation 19:7. The 2026-09-27 audit caught only resolutions to a verse that does not exist or
   with another book named just before, so a wrong book with a real verse can still be hiding. The
   sweep adds the book to each, checked against its paragraph rather than taken from the resolver.
+  *Done 2026-11-15:* 1,106 book names added across 79 pages, each chosen from what its paragraph
+  discusses (several nearest-reference guesses were the wrong book: John 4:29 opening as Matthew,
+  2 Corinthians 3:17 as Hebrews, Zechariah 13:8-9 as Matthew), and a token check proved nothing
+  else changed. Left bare on purpose: a book named just before the citation ("in Job (1:6; 2:1)"),
+  which the pop-up already resolves and which reads twice if repeated; table cells under a column
+  header naming the book; quotations; non-biblical works (1 Enoch, Jubilees, the Mishnah, Tobit);
+  headings, where adding a book would change the anchor (Olivet Discourse Parables' "(24:45-51)",
+  What Creation Declares' "Where 1:19-23 sits"); and image alt text (Names of God, Names of the
+  Holy Spirit, Lord's Prayer and others, mostly from comic data). Three references numbered by the
+  Hebrew or Aramaic text (Daniel 6:11, Deuteronomy 13:4, Psalm 7:8-9) now carry a `data-ref` to the
+  English verse so the pop-up opens the right one.
 - **A validator warning for a bare reference.** Once the sweep is done, a `validate-content.js`
   check warns on a chapter-and-verse with no book that is not a continuation in the same citation,
   so new text cannot drift back.

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:37-41; Luke 17:26-37"
 bible_references: ["Matthew 24:3", "Matthew 24:27-28", "Matthew 24:29-31", "Matthew 24:37-42", "Luke 17:11", "Luke 17:20-37", "Genesis 7:1", "Genesis 7:23", "Genesis 19:26", "Isaiah 10:21", "Matthew 13:30", "Matthew 13:40-43", "Matthew 13:49", "Matthew 25:31-34", "Matthew 25:46", "2 Peter 2:5-9", "John 14:3", "Matthew 1:20-24", "Deuteronomy 28:26", "1 Samuel 17:44", "Psalm 79:1-2", "Ezekiel 39:17-20", "Job 39:27-30", "1 Peter 3:20", "1 Thessalonians 4:13-18", "1 Thessalonians 5:9", "2 Thessalonians 2:6-7"]
 date_created: 2026-09-26
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
@@ -33,10 +33,10 @@ caught up to Jesus rests on other texts.
 
 **Prophecy.** Jesus predicts a separation at His coming "immediately after the tribulation of those
 days" (Matthew 24:29, ESV): the wicked removed, the righteous left to enter the kingdom (Matthew
-25:34). Matthew's harvest parables predict the same order: "Gather the weeds first" (13:30, ESV).
+25:34). Matthew's harvest parables predict the same order: "Gather the weeds first" (Matthew 13:30, ESV).
 
 **Type.** The flood is the pattern Jesus Himself chose: "As were the days of Noah, so will be the
-coming of the Son of Man" (24:37, ESV). The flood took the world away; "only Noah was left"
+coming of the Son of Man" (Matthew 24:37, ESV). The flood took the world away; "only Noah was left"
 (Genesis 7:23, ESV).
 
 ### Lessons about Jesus
@@ -101,19 +101,19 @@ Matthew and Luke place the saying on two different occasions.
 **Matthew.** Jesus sits on the Mount of Olives and the disciples ask Him privately, "what will be the
 sign of your coming and of the end of the age?" (Matthew 24:3, ESV). His answer runs through the
 tribulation to its end: "Immediately after the tribulation of those days" the heavens are shaken
-(24:29), the nations "see the Son of Man coming on the clouds of heaven with power and great glory"
-(24:30), and the angels "gather his elect from the four winds" (24:31, ESV). Then Jesus turns from
-the events to the timing. No one knows the day (24:36). It will come the way the flood came (24:37-39).
-Two will be in the field (24:40-41). "Therefore, stay awake" (24:42, ESV).
+(Matthew 24:29), the nations "see the Son of Man coming on the clouds of heaven with power and great glory"
+(Matthew 24:30), and the angels "gather his elect from the four winds" (Matthew 24:31, ESV). Then Jesus turns from
+the events to the timing. No one knows the day (Matthew 24:36). It will come the way the flood came (Matthew 24:37-39).
+Two will be in the field (Matthew 24:40-41). "Therefore, stay awake" (Matthew 24:42, ESV).
 
 So in Matthew the saying sits between the flood and the command to watch, and ten verses after the
-coming in glory (24:30) that ends the tribulation. The parent study, [The Olivet Discourse](olivet-discourse.md),
+coming in glory (Matthew 24:30) that ends the tribulation. The parent study, [The Olivet Discourse](olivet-discourse.md),
 works through that whole sequence.
 
 **Luke.** Earlier, "on the way to Jerusalem" between Samaria and Galilee (Luke 17:11, ESV), the
-Pharisees ask when the kingdom of God will come (17:20). Jesus then turns to the disciples and speaks
-of "the days of the Son of Man" (17:22). Luke gives two illustrations: Noah, and Lot. Then comes the
-saying, in a bed and at the grinding (17:34-35). And Luke alone records the question the disciples
+Pharisees ask when the kingdom of God will come (Luke 17:20). Jesus then turns to the disciples and speaks
+of "the days of the Son of Man" (Luke 17:22). Luke gives two illustrations: Noah, and Lot. Then comes the
+saying, in a bed and at the grinding (Luke 17:34-35). And Luke alone records the question the disciples
 ask next.
 
 Luke 17:36, "two men will be in the field," appears in the King James Version. The Legacy Standard
@@ -136,13 +136,13 @@ welcome into one's company* sense that domain 34 (Association) covers, sharing i
 προσδέχομαι (G4327) and προσλαμβάνομαι (G4355). The two occurrences at Matthew 24:40-41 are coded **15.168**, physical
 movement, the sense of taking someone along with oneself.
 
-Joseph is told "do not fear to take Mary as your wife" (Matthew 1:20) and then "took his wife" (1:24),
+Joseph is told "do not fear to take Mary as your wife" (Matthew 1:20) and then "took his wife" (Matthew 1:24),
 both παραλαμβάνω, both 34.53. The sense John 14:3 draws on is the one used of a man receiving his
 bride. The sense at Matthew 24:40-41 is take-along, and Matthew uses it of
-companions and captors alike: Joseph takes the child and his mother to Egypt (2:13-14), Jesus takes
-Peter, James and John up the mountain (17:1) and into Gethsemane (26:37), and the soldiers take Jesus
-(27:27). The lexicographers coded the two senses apart without reference to anyone's eschatology.
-The data shows that the verb at 24:40-41 is the take-along verb and not the welcome-into-company
+companions and captors alike: Joseph takes the child and his mother to Egypt (Matthew 2:13-14), Jesus takes
+Peter, James and John up the mountain (Matthew 17:1) and into Gethsemane (Matthew 26:37), and the soldiers take Jesus
+(Matthew 27:27). The lexicographers coded the two senses apart without reference to anyone's eschatology.
+The data shows that the verb at Matthew 24:40-41 is the take-along verb and not the welcome-into-company
 verb of John 14:3, and leaves the direction of the taking to the context. That marital sense at John 14:3 belongs to a much larger pattern, worked
 out in [The Bride of Christ](../israel-and-church/bride-of-christ.md).
 
@@ -150,7 +150,7 @@ out in [The Bride of Christ](../israel-and-church/bride-of-christ.md).
 
 The context is the illustration these two verses complete. "As were the days of Noah, so will be the
 coming of the Son of Man... they were unaware until the flood came and swept them all away, so will be
-the coming of the Son of Man" (24:37-39, ESV). In that picture the ones removed are the wicked, swept
+the coming of the Son of Man" (Matthew 24:37-39, ESV). In that picture the ones removed are the wicked, swept
 off by the flood. The man left on the earth, preserved through the judgment, is Noah.
 
 Genesis says so in one word. After the flood, "They were blotted out from the earth. Only Noah was
@@ -171,22 +171,22 @@ God chose Noah before the rain: "I have seen that you are righteous before me in
 ### Matthew's own order: the weeds first
 
 Matthew has already told this story twice. In the parable of the weeds the master says, "Gather the
-weeds first and bind them in bundles to be burned, but gather the wheat into my barn" (13:30, ESV).
+weeds first and bind them in bundles to be burned, but gather the wheat into my barn" (Matthew 13:30, ESV).
 Jesus explains it: "The Son of Man will send his angels, and they will gather out of his kingdom all
-causes of sin and all law-breakers" (13:41, ESV), and then "the righteous will shine like the sun in
-the kingdom of their Father" (13:43, ESV). The parable of the net says the same: "The angels will come
-out and separate the evil from the righteous" (13:49, ESV).
+causes of sin and all law-breakers" (Matthew 13:41, ESV), and then "the righteous will shine like the sun in
+the kingdom of their Father" (Matthew 13:43, ESV). The parable of the net says the same: "The angels will come
+out and separate the evil from the righteous" (Matthew 13:49, ESV).
 
 At the end of the age in Matthew, the wicked are removed from among the righteous, and the wheat is
-gathered into the barn, the kingdom of their Father (13:30, 43). The weeds are gathered out of the
+gathered into the barn, the kingdom of their Father (Matthew 13:30, 43). The weeds are gathered out of the
 kingdom and the wheat into it. The sheep and goats close the discourse the same way. The King says to those
-on His right, "inherit the kingdom prepared for you from the foundation of the world" (25:34, ESV),
-and the others "go away into eternal punishment" (25:46, ESV). This shows that God judges as a
+on His right, "inherit the kingdom prepared for you from the foundation of the world" (Matthew 25:34, ESV),
+and the others "go away into eternal punishment" (Matthew 25:46, ESV). This shows that God judges as a
 shepherd who knows His own. He parts people who stood side by side, and He makes no mistakes.
 
 ## Luke's answer to "where?"
 
-Luke uses the same verb pair at 17:34-35, and there the disciples ask the question Matthew does not
+Luke uses the same verb pair at Luke 17:34-35, and there the disciples ask the question Matthew does not
 record: "Where, Lord?" Jesus answers, "Where the corpse is, there the vultures will gather" (Luke
 17:37, ESV).
 
@@ -194,7 +194,7 @@ Carrion birds over a corpse are battlefield imagery, standard in both Greco-Roma
 Scripture for the aftermath of slaughter: "birds of the air" (Deuteronomy 28:26, ESV), "birds of
 every sort" (Ezekiel 39:17, ESV), and the same picture at 1 Samuel 17:44 and Psalm 79:1-2. The Greek
 is ἀετός (*aetos*, G105), "eagle," and the *Legacy Standard Bible* footnotes "Or eagles"; Job
-39:27-30 describes the eagle in the same terms, "where the slain are, there is he" (39:30, ESV), so
+39:27-30 describes the eagle in the same terms, "where the slain are, there is he" (Job 39:30, ESV), so
 the carrion sense holds on either rendering. The
 *NIV Cultural Backgrounds Study Bible* makes the same observation from ancient sources (note on Luke
 17:37). And Luke's verb for the vultures gathering is ἐπισυναχθήσονται, from ἐπισυνάγω (*episynagō*,
@@ -203,7 +203,7 @@ children at Luke 13:34), so it ties the two gatherings to one coming and leaves 
 
 The same proverb stands in Matthew, in a different place: "Wherever the corpse is, there the vultures
 will gather" (Matthew 24:28, ESV). It follows "as the lightning comes from the east and shines as far
-as the west, so will be the coming of the Son of Man" (24:27, ESV) and comes before the tribulation
+as the west, so will be the coming of the Son of Man" (Matthew 24:27, ESV) and comes before the tribulation
 ends at 24:29. The *NIV Biblical Theology Study Bible* reads the proverb as the public nature of the
 coming, each verse reinforcing the other (note on Luke 17:37). In Luke it answers "Where?" and in
 Matthew it stands beside the lightning. It works in both as a picture of a judgment that no one can
@@ -223,14 +223,14 @@ is caught up to be with Christ. The *NIV Biblical Theology Study Bible* calls th
 leans toward salvation (note on Luke 17:34). Their case rests on three things.
 
 **The flood's verb is different.** Matthew 24:39 says the flood "swept them all away" with αἴρω
-(*airō*, G142). The verb for "taken" in 24:40 changes to *paralambanō*, the verb of John 14:3. On this
+(*airō*, G142). The verb for "taken" in Matthew 24:40 changes to *paralambanō*, the verb of John 14:3. On this
 view the change marks a different kind of taking.
 
 **Luke's righteous leave before the fire.** Luke's Noah "entered the ark" before the flood came
-(17:27), and "on the day when Lot went out from Sodom, fire and sulfur rained from heaven and destroyed
-them all" (17:29, ESV). In both, the righteous are removed first.
+(Luke 17:27), and "on the day when Lot went out from Sodom, fire and sulfur rained from heaven and destroyed
+them all" (Luke 17:29, ESV). In both, the righteous are removed first.
 
-**The gathering of 24:31 is close by.** The angels have just gathered the elect, so the taken ones may
+**The gathering of Matthew 24:31 is close by.** The angels have just gathered the elect, so the taken ones may
 be the gathered ones.
 
 **The verb.** The switch from *airō* to *paralambanō* is real. The domain data above puts Matthew's
@@ -243,12 +243,12 @@ the earth: Noah is "left" (Genesis 7:23), "preserved" (2 Peter 2:5) and "brought
 water" (1 Peter 3:20). In both stories the righteous move to safety on the earth and the judgment then
 takes everyone else: "the flood came and swept them all away" (Matthew 24:39, ESV), "fire and sulfur
 rained from heaven and destroyed them all" (Luke 17:29, ESV). On that pattern the ones taken are the
-ones the judgment takes. Luke follows Lot's departure with a warning, "Remember Lot's wife" (17:32,
+ones the judgment takes. Luke follows Lot's departure with a warning, "Remember Lot's wife" (Luke 17:32,
 ESV), who looked back and became a pillar of salt (Genesis 19:26).
 
-**The gathering.** The elect are gathered at 24:31, and nine verses later one is taken and one left.
-This study reads the gathered of 24:31 and the left of 24:40-41 as the same righteous, seen from two
-sides: gathered to the King and left in the land to enter the kingdom (25:34). The *ESV Study Bible*'s
+**The gathering.** The elect are gathered at Matthew 24:31, and nine verses later one is taken and one left.
+This study reads the gathered of Matthew 24:31 and the left of 24:40-41 as the same righteous, seen from two
+sides: gathered to the King and left in the land to enter the kingdom (Matthew 25:34). The *ESV Study Bible*'s
 second option reads the taken as the gathered, and the neutral verb does not decide between them.
 
 The question "where?" is the disciples' own, and Jesus answers it with a corpse and vultures. This
@@ -265,8 +265,8 @@ equals rescued, left equals abandoned. That reading runs against the Noah illust
 and against Luke's own answer to "where?"
 
 The dispensational reading places the saying at the end of the tribulation, where Matthew places it
-(24:29-31). The wicked are taken in judgment. The righteous who survive the tribulation are left, and
-they enter the kingdom alive (25:34). The church is already with the Lord by then.
+(Matthew 24:29-31). The wicked are taken in judgment. The righteous who survive the tribulation are left, and
+they enter the kingdom alive (Matthew 25:34). The church is already with the Lord by then.
 
 The case for a pretribulational rapture rests on other texts: 1 Thessalonians 4:13-18, John 14:1-4,
 and the restrainer of 2 Thessalonians 2:6-7. It is made at length in [The Rapture of the
@@ -284,12 +284,12 @@ you can hear this saying without fear, and let it send you to the person at the 
 
 1. Genesis 7:23 says "only Noah was left," and the Hebrew verb gives the prophets their word for the
    remnant. How does that change the way you hear "one left" in Matthew 24:40?
-2. Matthew places this saying after "Immediately after the tribulation of those days" (24:29). What
+2. Matthew places this saying after "Immediately after the tribulation of those days" (Matthew 24:29). What
    does that placement tell you about who is in the field?
 3. In the parable of the weeds the master says, "Gather the weeds first" (Matthew 13:30). Where else
    in Matthew does the end of the age remove the wicked from among the righteous?
 4. Luke's Lot leaves Sodom before the fire falls (Luke 17:29), yet Luke's disciples are answered with
-   vultures (17:37). How do you hold those two verses together?
+   vultures (Luke 17:37). How do you hold those two verses together?
 5. John 14:3 promises "I will come again and will take you to myself." What does that promise give you
    that Matthew 24:40-41 does not?
 6. Two women at one millstone were parted by the Lord's coming. Who works beside you, and what would

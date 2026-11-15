@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Acts 16:16-18"
 bible_references: ["Acts 16:14", "Acts 16:19", "Acts 16:31", "Acts 4:2", "Acts 19:13-20", "Deuteronomy 18:10-11", "Deuteronomy 18:15", "Deuteronomy 13:1-5", "1 Samuel 28:8", "1 Chronicles 10:13-14", "Isaiah 8:19", "Mark 1:24-25", "Mark 1:32-34", "Luke 4:41", "Mark 5:7-9", "Luke 10:17-20", "1 John 4:1-4", "1 Corinthians 6:19", "Colossians 1:13", "Colossians 2:15", "Hebrews 2:14", "James 4:7", "Ephesians 6:11-12", "1 Peter 5:8", "James 2:19", "1 Timothy 4:1", "2 Corinthians 11:14-15", "Mark 9:17-27", "Luke 8:29", "Jude 8-10", "2 Peter 2:10-11", "Matthew 8:29", "1 Corinthians 10:20-21", "Matthew 12:43"]
 date_created: 2026-09-26
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -17,7 +17,7 @@ ai_provider_models:
 At Philippi a slave girl followed Paul through the streets for days, shouting words that were true in a formal sense: "These
 men are servants of the Most High God, who proclaim to you the way of salvation" (Acts 16:17, ESV).
 Her owners made money from the spirit that spoke through her. Paul finally turned and spoke to the
-spirit, once, in the name of Jesus Christ, and it left her "that very hour" (16:18, ESV).
+spirit, once, in the name of Jesus Christ, and it left her "that very hour" (Acts 16:18, ESV).
 
 That one scene answers a question deliverance ministry raises today. Believers sometimes manifest in
 deliverance sessions, and some of what is practised there — questioning a spirit for its name, its
@@ -109,13 +109,13 @@ In Jesus' name. Amen.
 
 Philippi was the first city in Macedonia where Paul preached, and Luke tells the visit in four
 movements: Lydia's conversion, the arrest of Paul and Silas, the jailer's conversion, and the
-magistrates' release (ESV Study Bible, note on 16:11-40). The "we" places the narrator, by early tradition Luke, in the street.
+magistrates' release (ESV Study Bible, note on Acts 16:11-40). The "we" places the narrator, by early tradition Luke, in the street.
 
 The girl stands between two conversions. Before her, "the Lord opened [Lydia's] heart to pay
-attention to what was said by Paul" (16:14, ESV). After her, a jailer hears "Believe in the Lord
-Jesus, and you will be saved, you and your household" (16:31, ESV). Luke sets a voice that speaks
+attention to what was said by Paul" (Acts 16:14, ESV). After her, a jailer hears "Believe in the Lord
+Jesus, and you will be saved, you and your household" (Acts 16:31, ESV). Luke sets a voice that speaks
 about salvation between two people who receive it. The cost falls on the owners: "when her owners saw
-that their hope of gain was gone, they seized Paul and Silas" (16:19, ESV).
+that their hope of gain was gone, they seized Paul and Silas" (Acts 16:19, ESV).
 
 ### The girl's craft, in the Septuagint's word
 
@@ -125,7 +125,7 @@ fortune-telling is μαντευομένη, from μαντεύομαι (*manteuoma
 divine." That verb occurs once in the New Testament and twelve times in the Septuagint, and two of
 those twelve are the ones that matter here. Deuteronomy 18:10 LXX uses it for "anyone who practices
 divination." In 1 Samuel 28:8 LXX it is Saul's own request to the medium at En-dor: "Divine for me by
-a spirit" (ESV). The ESV Study Bible draws the same line (note on 16:16). A Greek-reading Christian
+a spirit" (ESV). The ESV Study Bible draws the same line (note on Acts 16:16). A Greek-reading Christian
 who knew the Scriptures would hear in Luke's verb the practice the Law forbade.
 
 ### What Paul did, and the question of why
@@ -141,7 +141,7 @@ it more simply, that the spirit was irritating and disrupting the mission. Both 
 What Paul *did* is stated. He turned, addressed the spirit, commanded it in the name of Jesus Christ,
 and asked it nothing. The NIV Cultural Backgrounds Study Bible notes that exorcists of the day
 invoked more powerful spirits to drive out lesser ones; Paul spoke on Jesus' delegated authority
-alone (note on 16:18).
+alone (note on Acts 16:18).
 
 ### Narrative, and whether it binds
 
@@ -163,11 +163,11 @@ salvation, and a spirit of divination is not one of them, even when its words ar
 not permit the demons to speak, because they knew him" (Mark 1:34, ESV); Luke, that "he rebuked them
 and would not allow them to speak, because they knew that he was the Christ" (Luke 4:41, ESV). The
 demons were right, and they were silenced anyway. Paul does the same at Philippi with a spirit whose
-statement about him was, in the ESV Study Bible's words, "true in a formal sense" (note on 16:18).
+statement about him was, in the ESV Study Bible's words, "true in a formal sense" (note on Acts 16:18).
 How true is contested. The Greek has no article, ὁδὸν σωτηρίας (*hodon sōtērias*), "a way of
 salvation" (so the WEB, and the LSB's footnote "Lit a way"), and Gentiles called Zeus "the Most High
 God," so the NIV Cultural Backgrounds Study Bible suggests the cry may have made Paul's God simply
-the greatest in a pantheon (note on 16:17). Paul silenced it anyway (Acts 16:18), and that is the
+the greatest in a pantheon (note on Acts 16:17). Paul silenced it anyway (Acts 16:18), and that is the
 point: the test holds on either reading, since the spirit Jesus silenced in Mark 1:24 was exact in
 every word. The apostolic pattern includes no interview
 with an unclean spirit for information.
@@ -189,7 +189,7 @@ your name?" "My name is Legion, for we are many" (Mark 5:9, ESV).
 **The case for reading it as a model.** Jesus asked, and the spirit answered. The NIV Cultural
 Backgrounds Study Bible notes that magicians tried to control a spirit by using its name, and reads
 Jesus' demand for the name as the reverse of the spirits' failed attempt to control Him in verse 7
-(note on 5:9). On that reading, asking a name can be an act of authority.
+(note on Mark 5:9). On that reading, asking a name can be an act of authority.
 
 **The case against.** It is a single occurrence in a narrative, and narrative reports without
 necessarily prescribing. The answer yields no hidden knowledge: "Legion" means "many," which the
@@ -206,7 +206,7 @@ relied on at Philippi was Jesus'.
 
 **Technique fails.** The sons of Sceva had the correct name and the correct formula and no
 relationship — "Jesus I know, and Paul I recognize, but who are you?" (Acts 19:15, ESV). Their
-formula was "I adjure you by the Jesus whom Paul proclaims" (19:13, ESV), the name used as a borrowed
+formula was "I adjure you by the Jesus whom Paul proclaims" (Acts 19:13, ESV), the name used as a borrowed
 incantation. Luke's placement is pointed: the episode immediately precedes the book-burning, where
 converts "who had practiced magic arts brought their books together and burned them" (Acts 19:19, ESV; see
 [Sin and Sorcery](../../sin/sorcery.md#ephesus)). A ministry whose confidence rests on method is the
@@ -232,7 +232,7 @@ confesses about His Son, and you can apply it with an open Bible.
 
 **The measure is grace.** "Do not rejoice in this, that the spirits are subject to you, but rejoice
 that your names are written in heaven" (Luke 10:20, ESV). Jesus said this to disciples who had just
-succeeded — they came back saying "even the demons are subject to us in your name!" (10:17, ESV) —
+succeeded — they came back saying "even the demons are subject to us in your name!" (Luke 10:17, ESV) —
 and He did not deny the success. He moved their joy to their salvation.
 
 This shows that God wants your joy anchored in what He has done for you. Your name in His book is a
@@ -294,7 +294,7 @@ Holy Spirit within you, the name of Jesus to stand in, and your name written in 
    18:10's diviner and for Saul's request at En-dor (1 Samuel 28:8). What would a reader who knew
    those passages hear in Acts 16:16?
 2. Paul let the girl follow the missionaries "for many days" before acting (Acts 16:18). What in the
-   passage, including the owners' reaction in 16:19, helps explain both the delay and the moment he
+   passage, including the owners' reaction in Acts 16:19, helps explain both the delay and the moment he
    finally turned?
 3. Jesus silenced demons "because they knew him" (Mark 1:34). What is lost when a true statement
    about Jesus comes from the wrong source?

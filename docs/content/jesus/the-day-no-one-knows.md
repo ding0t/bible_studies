@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Matthew 24:36; Mark 13:32"
 bible_references: ["Matthew 24:36", "Mark 13:32", "Acts 1:7", "John 2:24-25", "John 21:17", "John 16:30", "Luke 2:52", "Hebrews 5:8", "Philippians 2:6-7", "Zechariah 14:7", "Matthew 25:1-13", "Matthew 24:42", "Matthew 24:45-46", "Matthew 25:19", "Matthew 25:40", "Romans 14:12"]
 date_created: 2026-09-04
-date_modified: 2026-10-21
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -38,7 +38,7 @@ Olivet Discourse](../last-things/olivet-discourse.md) and the parables that clos
 ### Types & Prophecy
 
 Zechariah says the same of the day itself: "there shall be a unique day, which is known to the LORD"
-(14:7, ESV). The timing of the end has always been held by the LORD alone.
+(Zechariah 14:7, ESV). The timing of the end has always been held by the LORD alone.
 
 ### Lessons about Jesus
 
@@ -108,7 +108,7 @@ same way, and names the reason:
 
 Authority (ἐξουσία, *exousia*), not information. The day is the Father's to set and the Father's to
 disclose, and He has not disclosed it. Zechariah says the same of the day itself: "there shall be a
-unique day, which is known to the LORD" (14:7, ESV). The *NIV Cultural Backgrounds Study
+unique day, which is known to the LORD" (Zechariah 14:7, ESV). The *NIV Cultural Backgrounds Study
 Bible* cites it at this point (note on Matthew 24:36).
 
 That note also supplies the setting Jesus is speaking into: "Jewish teachers disagreed among
@@ -134,7 +134,7 @@ itself is the problem, on three counts:
 - **The scholarly cultural commentary explains the delay differently.** On the ten virgins, the *NIV
   Cultural Backgrounds Study Bible* attributes the unpredictable timing to "the many preparations
   (and the bride's relatives haggling over the value of the gifts given them)" (note on Matthew
-  25:1), with the ceremony held at the groom's parents' home (note on 25:10). The father-approval gate does not appear.
+  25:1), with the ceremony held at the groom's parents' home (note on Matthew 25:10). The father-approval gate does not appear.
 - **The "idiom" mirrors the verse too closely.** It is usually quoted as *"I don't know, the angels
   don't know, only my father knows"*, which reproduces Matthew 24:36's own three-part structure of
   no one, nor the angels, nor the Son, but the Father. A saying that tracks a verse that closely is

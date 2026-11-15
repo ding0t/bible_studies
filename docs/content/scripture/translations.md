@@ -6,7 +6,7 @@ tags: ["translations", "versions", "lang/hebrew", "lang/greek", "septuagint", "m
 questions: ["Which Bible translation should I use?", "Why not use the KJV for study?"]
 draft: false
 date_created: 2025-06-07
-date_modified: 2026-10-28
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -178,7 +178,7 @@ that the question is live.**
 ### New Testament — John 6:54, and a verb most translations flatten
 
 Through John 6 Jesus uses the ordinary verb for eating, ἐσθίω (*esthiō*, G5315), eleven times: the
-crowd ate the loaves, the fathers ate manna, "unless you eat the flesh of the Son of Man" (6:53). At
+crowd ate the loaves, the fathers ate manna, "unless you eat the flesh of the Son of Man" (John 6:53). At
 verse 54 He switches to τρώγω (*trōgō*, G5176) and stays with it for the rest of the discourse. The
 lexicon separates them: Louw-Nida puts ἐσθίω at 23.1 and τρώγω at 23.3, alongside γεύομαι ("taste", G1089)
 and βιβρώσκω, the chewing-and-consuming end of the range. Verse 58 uses both in one sentence: the

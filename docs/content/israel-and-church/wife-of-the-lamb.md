@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 19:7-9; Revelation 21:1-14"
 bible_references: ["Revelation 19:7", "Revelation 21:2", "Revelation 21:9", "Revelation 22:17", "Revelation 18:23", "Revelation 20:6", "Revelation 22:3-5", "Hosea 2:16", "Isaiah 54:5", "Hebrews 4:9-11", "2 Timothy 2:12", "1 Corinthians 4:8", "Ephesians 1:5", "Ephesians 1:11", "Ephesians 1:14", "Ephesians 1:18", "Ephesians 2:19", "Ephesians 3:15", "Ephesians 5:31", "1 Peter 1:4", "1 Peter 2:9", "Malachi 3:17", "Romans 8:15-17", "Romans 8:23", "Romans 9:4", "Galatians 4:5", "1 Corinthians 6:17", "Hosea 2:14-23", "Isaiah 54:7", "Isaiah 62:4", "Romans 9:25", "Romans 11:26", "2 Corinthians 11:2", "Revelation 19:11", "Zechariah 12:10", "John 3:29", "Matthew 11:11", "Revelation 21:3", "Revelation 21:12-14", "Revelation 21:24", "Ephesians 2:20", "1 Corinthians 10:32", "Hebrews 12:22-23", "Hebrews 11:10", "Hebrews 11:16", "John 14:2", "Revelation 5:10", "Hosea 2:17", "Genesis 2:24", "Leviticus 26:12", "Ezekiel 37:27", "Revelation 12:6", "Romans 11:17", "Romans 11:24", "Galatians 4:24", "Galatians 4:26-28", "Galatians 4:31", "Isaiah 54:1"]
 date_created: 2026-09-25
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -97,10 +97,10 @@ Revelation** — 18:23, 21:2, 21:9, 22:17. Paul never uses the noun of the churc
 
 Set Revelation's four side by side:
 
-- **18:23** — over Babylon: "the voice of bridegroom and bride will be heard in you no more" (ESV).
-- **21:2** — the new Jerusalem, "prepared as a bride adorned for her husband."
-- **21:9** — "Come, I will show you the Bride, the wife of the Lamb."
-- **22:17** — "The Spirit and the Bride say, 'Come.'"
+- **Revelation 18:23** — over Babylon: "the voice of bridegroom and bride will be heard in you no more" (ESV).
+- **Revelation 21:2** — the new Jerusalem, "prepared as a bride adorned for her husband."
+- **Revelation 21:9** — "Come, I will show you the Bride, the wife of the Lamb."
+- **Revelation 22:17** — "The Spirit and the Bride say, 'Come.'"
 
 ### Revelation 19:7 prints "Bride" for a word that means wife
 
@@ -108,11 +108,11 @@ At Revelation 19:7 the ESV prints "his Bride has made
 herself ready," and the Greek behind "Bride" is **ἡ γυνὴ αὐτοῦ** (*hē gynē autou*) — *his wife*. There is no νύμφη in
 that verse. Two chapters later the angel says "the Bride, the wife of the Lamb," and there the Greek
 has both nouns in one phrase: τὴν νύμφην τὴν γυναῖκα τοῦ Ἀρνίου (*tēn nymphēn tēn gynaika tou
-Arniou*, 21:9). The *Legacy Standard Bible* footnotes the word at 19:7 in two words: "Lit wife."
+Arniou*, Revelation 21:9). The *Legacy Standard Bible* footnotes the word at Revelation 19:7 in two words: "Lit wife."
 
 **So Scripture gives her a second title, and gives it at the point the marriage comes.**
 Revelation 19:7 announces that the γάμος (*gamos*, G1062) has come and calls her His wife in the same
-sentence. From there both names are hers — νύμφη at 21:2 and 22:17, γυνή at 19:7, and 21:9 setting
+sentence. From there both names are hers — νύμφη at Revelation 21:2 and 22:17, γυνή at 19:7, and 21:9 setting
 the two side by side in one phrase. She keeps the bridal name the way a bridegroom keeps it, with a
 wife's standing under it. **This shows that God means His people to belong to Him the way a wife
 belongs to her husband: by covenant, in love, for good.**
@@ -127,7 +127,7 @@ name there.
 Israel was God's wife long before the church existed. "Your Maker is your husband" (Isaiah 54:5,
 ESV). She was unfaithful, and the prophets call that adultery. God's answer is to court her again:
 "I will allure her, and bring her into the wilderness, and speak tenderly to her" (Hosea 2:14, ESV).
-He makes "the Valley of Achor a door of hope" (2:15, ESV). Isaiah promises the same: "For a brief
+He makes "the Valley of Achor a door of hope" (Hosea 2:15, ESV). Isaiah promises the same: "For a brief
 moment I deserted you, but with great compassion I will gather you" (Isaiah 54:7, ESV). Her land
 gets a new name: "Married" (Isaiah 62:4, ESV).
 
@@ -146,8 +146,8 @@ since Israel had fused the two (note on Hosea 2:16-17). The CSB footnotes "My Ma
 person. On both readings Israel will call God "My Husband," and He seeks faithful communion with
 His people.
 
-Hosea sets this "in that day" (2:16), beside a covenant in which God will "abolish the bow, the
-sword, and war from the land" (2:18, ESV). A dispensational reading puts that day at Israel's
+Hosea sets this "in that day" (Hosea 2:16), beside a covenant in which God will "abolish the bow, the
+sword, and war from the land" (Hosea 2:18, ESV). A dispensational reading puts that day at Israel's
 national turning, when Christ returns and "all Israel will be saved" (Romans 11:26, ESV). The *ESV
 Study Bible* takes "in that day" as describing what Israel's return will be like, with no time fixed
 (note on Hosea 2:16-17). On either reading the one addressed is Israel, and the promise is hers.
@@ -162,7 +162,7 @@ He applies Hosea's pattern to you and leaves Hosea's promise with Israel.
 
 The church is a second company, betrothed in this age: "I betrothed you to one husband, to present
 you as a pure virgin to Christ" (2 Corinthians 11:2, ESV). Her marriage is announced in heaven at
-Revelation 19:7. Only after that does heaven open for the rider on the white horse (19:11). On the
+Revelation 19:7. Only after that does heaven open for the rider on the white horse (Revelation 19:11). On the
 pretribulational reading this site holds, the church is already with Christ when the marriage is
 announced. Israel's turning comes when He rides out, when "they look on me, on him whom they have
 pierced" (Zechariah 12:10, ESV). Two events, in that order, each with its own people.
@@ -178,10 +178,10 @@ Revelation 21:9-14 as a single bride instead.
 The angel promises "the Bride, the wife of the Lamb" and shows John a city (Revelation 21:9-10).
 Three companies appear on it and around it:
 
-- **On the gates**, "the names of the twelve tribes of the sons of Israel" (21:12, ESV).
-- **On the foundations**, "the twelve names of the twelve apostles of the Lamb" (21:14, ESV) — the
+- **On the gates**, "the names of the twelve tribes of the sons of Israel" (Revelation 21:12, ESV).
+- **On the foundations**, "the twelve names of the twelve apostles of the Lamb" (Revelation 21:14, ESV) — the
   apostles the church is "built on" (Ephesians 2:20, ESV).
-- **Around it**, the nations: "By its light will the nations walk" (21:24, ESV).
+- **Around it**, the nations: "By its light will the nations walk" (Revelation 21:24, ESV).
 
 Israel, the church and the nations carry the same three names Paul uses in 1 Corinthians 10:32:
 "Give no offense to Jews or to Greeks or to the church of God" (ESV). In Paul's verse the Jews and
@@ -192,24 +192,24 @@ The voice from the throne quotes the covenant promise, "you shall be my people" 
 Ezekiel 37:27, ESV), and changes one word. The Greek of Revelation 21:3 in the SBL Greek New
 Testament reads λαοὶ αὐτοῦ (*laoi autou*), "his peoples", plural. The CSB prints "his peoples"; the
 ESV prints "his people", and the CSB footnotes that other manuscripts have the singular. On the
-plural reading, the nations of 21:24 belong to God as fully as Israel does, and every people in the
+plural reading, the nations of Revelation 21:24 belong to God as fully as Israel does, and every people in the
 city is His.
 
 Hebrews names who lives in "the city of the living God, the heavenly Jerusalem" (Hebrews 12:22,
 ESV): "the assembly of the firstborn who are enrolled in heaven" and "the spirits of the righteous
-made perfect" (12:23, ESV). Many dispensational readers take those as two companies, the church and the
+made perfect" (Hebrews 12:23, ESV). Many dispensational readers take those as two companies, the church and the
 Old Testament saints. The *NIV Biblical Theology Study Bible* takes them as one group (note on
-12:23), so this is contested. Abraham is in the city on either reading. He "was looking forward to
+Hebrews 12:23), so this is contested. Abraham is in the city on either reading. He "was looking forward to
 the city that has foundations, whose designer and builder is God" (Hebrews 11:10, ESV).
 
 ### Grafted in, and the Jerusalem above
 
 Paul draws the same picture as a tree. Gentile believers are "a wild olive shoot ... grafted in among
 the others" who "now share in the nourishing root of the olive tree" (Romans 11:17, ESV), and the
-natural branches will be "grafted back into their own olive tree" (11:24, ESV). One tree, two kinds
+natural branches will be "grafted back into their own olive tree" (Romans 11:24, ESV). One tree, two kinds
 of branch, each kept distinct: the same shape as the city whose gates carry Israel's names and whose
 foundations carry the apostles'. Paul says where the tree is heading: "all Israel will be saved"
-(11:26, ESV). [Israel and the Church](israel-and-the-church.md#the-olive-tree-of-romans-11) works
+(Romans 11:26, ESV). [Israel and the Church](israel-and-the-church.md#the-olive-tree-of-romans-11) works
 through the olive tree in full.
 
 Paul also names the city. "The Jerusalem above is free, and she is our mother" (Galatians 4:26, ESV).
@@ -221,10 +221,10 @@ he applies Hosea at Romans 9:25. Israel keeps her own promise in the same chapte
 compassion I will gather you" (Isaiah 54:7, ESV).
 
 Read Galatians 4 on its own terms. Of Hagar and Sarah Paul says, "these women are two covenants. One
-is from Mount Sinai, bearing children for slavery" (4:24, ESV). The contrast is law and promise, and
+is from Mount Sinai, bearing children for slavery" (Galatians 4:24, ESV). The contrast is law and promise, and
 it runs through both peoples: Paul, a Jew, writes "we are not children of the slave but of the free
-woman" (4:31, ESV), and "you, brothers, like Isaac, are children of promise" (4:28, ESV). The *ESV
-Study Bible* reads 4:26-27 as making all believers "the true Israel" (note on 4:26-27). That is the
+woman" (Galatians 4:31, ESV), and "you, brothers, like Isaac, are children of promise" (Galatians 4:28, ESV). The *ESV
+Study Bible* reads Galatians 4:26-27 as making all believers "the true Israel" (note on Galatians 4:26-27). That is the
 reading of those who hold one people of God. This site reads Israel in Romans 11 as the nation, as
 [Israel and the Church](israel-and-the-church.md#the-case-for-reading-the-church-as-israel) argues.
 
@@ -236,17 +236,17 @@ Jerusalem above for a mother, and Israel's own branches are waiting to be grafte
 Revelation 21:2 answers with a simile: it comes down
 "prepared as a bride adorned for her husband" (ESV). On the dispensational reading the church is the
 bride, the city is her home, and she shares it with Israel and the nations. The *ESV Study Bible*
-reads the tribes and apostles as "the unity of OT and NT believers" (note on 21:12-14). Both readings
+reads the tribes and apostles as "the unity of OT and NT believers" (note on Revelation 21:12-14). Both readings
 put every redeemed person in one city, with one God and one Lamb. They differ over whether the names
-on the gates still mark distinct peoples, and the plural of 21:3 fits the reading that says they do.
+on the gates still mark distinct peoples, and the plural of Revelation 21:3 fits the reading that says they do.
 
 One verb runs through the preparations. Jesus said, "I go to prepare a place for you" (John 14:2,
-ESV). Hebrews says God "has prepared for them a city" (11:16, ESV), of Abraham and the patriarchs.
+ESV). Hebrews says God "has prepared for them a city" (Hebrews 11:16, ESV), of Abraham and the patriarchs.
 The city comes down "prepared as a bride" (Revelation 21:2). The bride "has made herself ready"
-(19:7). All four use ἑτοιμάζω (*hetoimazō*, G2090). Three of them prepare the home, and the fourth
+(Revelation 19:7). All four use ἑτοιμάζω (*hetoimazō*, G2090). Three of them prepare the home, and the fourth
 prepares the bride who will live in it. Reading John 14:2's "place" as this city is the dispensational
 reading, and an inference. The same verb gives Israel her own refuge in the tribulation, "a place
-prepared by God" for the woman in the wilderness (12:6, ESV). It is a common verb, forty times in the
+prepared by God" for the woman in the wilderness (Revelation 12:6, ESV). It is a common verb, forty times in the
 New Testament, so the link is in what God prepares: a place for each people He has promised to keep.
 
 **This shows that God keeps every promise He made, to every people He made it to.** Israel gets back
@@ -261,7 +261,7 @@ the reign, the service, the sight of His face. What is hers is to receive it as 
 ### The rest that is left over
 
 Hebrews 4 argues through a chapter on rest using κατάπαυσις (*katapausis*, G2663), and switches once. "So then, there
-remains a Sabbath rest for the people of God" (4:9, ESV) is **σαββατισμός** (*sabbatismos*, G4520),
+remains a Sabbath rest for the people of God" (Hebrews 4:9, ESV) is **σαββατισμός** (*sabbatismos*, G4520),
 a word that occurs nowhere else in the New Testament and nowhere in the Greek Old Testament. One
 occurrence, in the whole Bible, and the author spends a chapter getting to it. [A Day Is as a
 Thousand Years](../last-things/day-is-a-thousand-years.md) works the word and its Sabbath-millennium
@@ -269,11 +269,11 @@ reading through in full.
 
 A bride's twelve months were
 occupied (*m. Ketubot* 5:2); the marriage is where the preparing stops. Hebrews says the same of
-you: "whoever has entered God's rest has also rested from his works as God did from his" (4:10,
+you: "whoever has entered God's rest has also rested from his works as God did from his" (Hebrews 4:10,
 ESV).
 
 And then the instruction: "Let us
-therefore strive to enter that rest" (4:11, ESV). The striving is to get in, and what you get in to
+therefore strive to enter that rest" (Hebrews 4:11, ESV). The striving is to get in, and what you get in to
 is the end of striving. God calls you to enter His rest and live with Him free from striving.
 
 ### Reigning with Him
@@ -286,8 +286,8 @@ the reigning had already started.
 
 Revelation puts the reign
 where Paul does, in the future: "they will be priests of God and of Christ, and they will reign
-with him for a thousand years" (20:6, ESV), and past that, "they will reign forever and ever"
-(22:5, ESV). The song in heaven has it in the future too — "they shall reign on the earth" (5:10,
+with him for a thousand years" (Revelation 20:6, ESV), and past that, "they will reign forever and ever"
+(Revelation 22:5, ESV). The song in heaven has it in the future too — "they shall reign on the earth" (Revelation 5:10,
 ESV), in the Greek text the ESV follows; the SBL Greek New Testament reads the present, "they reign".
 
 A wife shares her husband's house, his name and his standing; that
@@ -298,14 +298,14 @@ until that reign.
 ### The inheritance, and whose it is
 
 Ephesians 1 says it three times and turns it round once. "In him we have obtained an inheritance"
-(1:11). The Spirit is "the guarantee of our inheritance until we acquire possession of it" (1:14).
-And then: "what are the riches of his glorious inheritance **in the saints**" (1:18, ESV) — where
+(Ephesians 1:11). The Spirit is "the guarantee of our inheritance until we acquire possession of it" (Ephesians 1:14).
+And then: "what are the riches of his glorious inheritance **in the saints**" (Ephesians 1:18, ESV) — where
 the inheritance is His, and you are it.
 
 Ephesians 1:14's "possession" is περιποίησις (*peripoiēsis*, G4047), five New Testament
 occurrences, and Peter uses it of you: "a people for his own possession" (1 Peter 2:9, ESV). The
 Greek Old Testament has it three times, and one of them is Malachi: "They shall be mine, says the
-LORD of hosts, in the day when I make up my treasured possession" (3:17, ESV).
+LORD of hosts, in the day when I make up my treasured possession" (Malachi 3:17, ESV).
 
 So the inheritance runs both directions. She receives his estate; he receives her. Peter states your side plainly — "an inheritance
 that is imperishable, undefiled, and unfading, kept in heaven for you" (1 Peter 1:4, ESV) — and Paul
@@ -327,7 +327,7 @@ You are betrothed; you are waiting for your wedding.
 
 **Household and family.** "You are fellow citizens with the saints and members of the household of
 God" (Ephesians 2:19, ESV), and God is the one "from whom every family in heaven and on earth is
-named" (3:15, ESV). "Family" there is πατριά (*patria*, G3965), built on πατήρ (*patēr*, G3962) — a word the Greek
+named" (Ephesians 3:15, ESV). "Family" there is πατριά (*patria*, G3965), built on πατήρ (*patēr*, G3962) — a word the Greek
 Old Testament uses 174 times of a clan traced to its father, and which appears only three times in
 the New Testament.
 
@@ -343,9 +343,9 @@ loved as a bride, and placed in His house as a child and an heir.**
 
 Revelation ends by naming all of it at once: the throne of God and of the Lamb is there, "his
 servants will worship him. They will see his face, and his name will
-be on their foreheads" (22:3-4, ESV). Bought, betrothed, married, homed, resting, reigning,
+be on their foreheads" (Revelation 22:3-4, ESV). Bought, betrothed, married, homed, resting, reigning,
 inheriting, and looking at His face — and the last invitation in the Bible is hers to give: "The
-Spirit and the Bride say, 'Come'" (22:17, ESV).
+Spirit and the Bride say, 'Come'" (Revelation 22:17, ESV).
 
 ```mermaid
 flowchart TD

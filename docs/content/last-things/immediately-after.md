@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:29-31; Daniel 9:24-27"
 bible_references: ["Matthew 24:1-31", "Daniel 9:1", "Matthew 4:20", "Matthew 26:74", "Mark 13:24", "Daniel 9:2", "Daniel 9:19", "Daniel 9:24-27", "Daniel 2:44", "Luke 21:20-24", "Luke 4:16-21", "Isaiah 61:1-2", "2 Thessalonians 2:3-4", "1 Thessalonians 4:16-17", "2 Thessalonians 2:1", "1 Corinthians 15:51", "Romans 11:25-26", "Hebrews 10:1-9", "Daniel 7:13-14", "Daniel 12:1", "Revelation 7:14", "Revelation 19:11-16", "Revelation 21:1-4", "Revelation 20:1-15", "2 Peter 3:7-13", "Zechariah 14:4", "Revelation 4:1", "Revelation 6:1-12", "1 Corinthians 15:3", "Zechariah 14:1-2", "Daniel 9:25"]
 date_created: 2026-09-26
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -16,7 +16,7 @@ ai_provider_models:
 
 In 539 BC Daniel was reading Jeremiah and counting. He "perceived in the books the number of years
 that... must pass before the end of the desolations of Jerusalem, namely, seventy years" (Daniel 9:2,
-ESV), and he prayed for his city: "O Lord, hear; O Lord, forgive... Delay not" (9:19, ESV). God
+ESV), and he prayed for his city: "O Lord, hear; O Lord, forgive... Delay not" (Daniel 9:19, ESV). God
 answered with a longer count, seventy sevens. Nearly six centuries later His disciples sat with Jesus
 on the Mount of Olives and asked the same kind of question: "Tell us, when will these things be, and
 what will be the sign of your coming and of the end of the age?" (Matthew 24:3, ESV). Jesus answered
@@ -40,11 +40,11 @@ sixty-nine weeks to the letter will keep the seventieth and send His Son at once
 
 ### Types & Prophecy
 
-Daniel 9:24-27 is direct prophecy. Sixty-nine sevens run "to the coming of an anointed one" (9:25),
-who is then "cut off" (9:26), fulfilled at the cross. The city and sanctuary fall to "the people of
-the prince who is to come" (9:26), fulfilled in AD 70. The seventieth week (9:27) is still ahead: Jesus
+Daniel 9:24-27 is direct prophecy. Sixty-nine sevens run "to the coming of an anointed one" (Daniel 9:25),
+who is then "cut off" (Daniel 9:26), fulfilled at the cross. The city and sanctuary fall to "the people of
+the prince who is to come" (Daniel 9:26), fulfilled in AD 70. The seventieth week (Daniel 9:27) is still ahead: Jesus
 describes it from its first birth pains (Matthew 24:4-8) through the abomination at its midpoint
-(24:15), and places the end of that distress immediately before His own coming (24:29-30).
+(Matthew 24:15), and places the end of that distress immediately before His own coming (Matthew 24:29-30).
 
 ### Lessons about Jesus
 
@@ -96,7 +96,7 @@ In Jesus' name. Amen.
 - [Two mountain peaks](#two-mountain-peaks). Near and far fulfilment in one sentence, from Isaiah 61
   and Larkin's chart.
 - [Where the gap does sit](#where-the-gap-does-sit). Daniel's three events in order, the contested
-  "he" of 9:27, and Larkin's seventy-weeks chart.
+  "he" of Daniel 9:27, and Larkin's seventy-weeks chart.
 - [The church age, the ruler, and the times of the Gentiles](#the-church-age-the-ruler-and-the-times-of-the-gentiles).
   What fills the gap and who ends it, with the whole sequence drawn out.
 - [What this shows about God](#what-this-shows-about-god). A God who keeps His calendar, limits the
@@ -107,12 +107,12 @@ In Jesus' name. Amen.
 
 ### Daniel's prayer and Gabriel's answer
 
-Daniel 9 is dated to "the first year of Darius" (9:1), 539 BC on the *ESV Study Bible*'s reckoning
-(note on 9:1-27), when Daniel was an old man in Babylon. Jeremiah's seventy years were nearly up, and
-Daniel confessed Israel's sin and asked God to restore the city "called by your name" (9:19, ESV).
+Daniel 9 is dated to "the first year of Darius" (Daniel 9:1), 539 BC on the *ESV Study Bible*'s reckoning
+(note on Daniel 9:1-27), when Daniel was an old man in Babylon. Jeremiah's seventy years were nearly up, and
+Daniel confessed Israel's sin and asked God to restore the city "called by your name" (Daniel 9:19, ESV).
 
 Gabriel answered with a count in <span dir="rtl">שָׁבֻעִים</span> (*shavu'im*, H7620, "sevens" or "weeks"). The seventy sevens are
-"decreed about your people and your holy city" (9:24, ESV), and they carry six purposes: to finish the
+"decreed about your people and your holy city" (Daniel 9:24, ESV), and they carry six purposes: to finish the
 transgression, to put an end to sin, "to atone for iniquity," to bring in everlasting righteousness,
 to seal vision and prophet, and to anoint a most holy place. "To atone" is <span dir="rtl">כַפֵּר</span> (*kapper*, H3722), the verb
 of the Day of Atonement. Daniel asked for his city to be rebuilt; God answered with the whole plan for
@@ -120,8 +120,8 @@ dealing with Israel's sin.
 
 ### The question on the Mount of Olives
 
-Matthew 24 opens with Jesus predicting the temple's fall (24:1-2) and the disciples asking when, and
-what sign would mark His coming and the end of the age (24:3). Jesus answers both, and the two
+Matthew 24 opens with Jesus predicting the temple's fall (Matthew 24:1-2) and the disciples asking when, and
+what sign would mark His coming and the end of the age (Matthew 24:3). Jesus answers both, and the two
 answers share one pattern.
 
 **The near answer is AD 70.** Luke records it in plain siege terms: "when you see Jerusalem
@@ -131,30 +131,30 @@ Louis Barbieri notes that "Matthew did not record Jesus' answer to the first que
 (Luke 21:20)" (*Bible Knowledge Commentary*, on Matthew 24:3).
 
 **The far answer is Daniel's seventieth week, from its first verse.** Matthew and Mark give the
-birth pains (Matthew 24:4-14), the abomination "standing in the holy place" (24:15, ESV), a distress
-"such as has not been from the beginning of the world until now, no, and never will be" (24:21,
-ESV), and the coming "immediately" after it (24:29). The features of 24:4-14 match the first seals of
+birth pains (Matthew 24:4-14), the abomination "standing in the holy place" (Matthew 24:15, ESV), a distress
+"such as has not been from the beginning of the world until now, no, and never will be" (Matthew 24:21,
+ESV), and the coming "immediately" after it (Matthew 24:29). The features of Matthew 24:4-14 match the first seals of
 Revelation 6: a conqueror, war, famine, death and martyrs, then a great earthquake with the sun and
 moon darkened. John wrote those seals around AD 95 (*CSB Ancient Faith Study Bible*, introduction to
 Revelation) as "what must take place after this" (Revelation 4:1, ESV), still future after AD 70.
 Barbieri places Matthew 24:4-8 in "the first half of the seven-year period preceding His second
-coming" and sees the seals as corresponding "somewhat" (on 24:4-8).
+coming" and sees the seals as corresponding "somewhat" (on Matthew 24:4-8).
 
 **The same features also mark the age.** False messiahs, wars and famines came before AD 70 (*NIV
-Biblical Theology Study Bible*, note on 24:4-8, citing Josephus and Acts), and the *ESV Study Bible*
-calls them conditions that "in some sense characterize the entire age" (note on 24:1-14). Jesus says
-of them, "the end is not yet" (24:6, ESV), and calls them "but the beginning of the birth pains"
-(24:8, ESV). Birth pains come before the labour, and these come to their full form when the week
+Biblical Theology Study Bible*, note on Matthew 24:4-8, citing Josephus and Acts), and the *ESV Study Bible*
+calls them conditions that "in some sense characterize the entire age" (note on Matthew 24:1-14). Jesus says
+of them, "the end is not yet" (Matthew 24:6, ESV), and calls them "but the beginning of the birth pains"
+(Matthew 24:8, ESV). Birth pains come before the labour, and these come to their full form when the week
 opens. The full walk-through of the discourse is in [The Olivet Discourse](olivet-discourse.md).
 
 ## Where the gap cannot sit
 
 ### What "immediately" means for the timeline
 
-"Immediately after the tribulation of those days the sun will be darkened" (24:29, ESV). εὐθέως
+"Immediately after the tribulation of those days the sun will be darkened" (Matthew 24:29, ESV). εὐθέως
 (*eutheōs*, G2112) is *immediately*, and Matthew uses it thirteen times. It is the word for the fishermen who
-"immediately... left their nets" (4:20, ESV) and for the rooster that crowed "immediately" after
-Peter's third denial (26:74, ESV). Each time, the second event follows the first at once.
+"immediately... left their nets" (Matthew 4:20, ESV) and for the rooster that crowed "immediately" after
+Peter's third denial (Matthew 26:74, ESV). Each time, the second event follows the first at once.
 
 That rules out a long gap **here**, between the distress of verses 15-28 and the coming of verses
 29-31. Whatever that distress is, the Son of Man follows it at once. Mark's parallel has no
@@ -174,7 +174,7 @@ end.
 This is a contested verse, and the *NIV Biblical Theology Study Bible* names the two ways through it:
 either "the distress of those days... in some sense continues all the way until Jesus' second coming",
 or the abomination "will be reenacted on a more awful scale just before Christ's return" (note on
-24:29-51). The first reading keeps AD 70 as the distress and stretches it across the whole age. This
+Matthew 24:29-51). The first reading keeps AD 70 as the distress and stretches it across the whole age. This
 study takes the second, which lets "immediately" mean what it means everywhere else in Matthew: the
 distress verse 29 follows is the future one, the coming does follow it at once, and AD 70 stands
 behind it as the foreshadowing verse 15 allows.
@@ -216,7 +216,7 @@ flowchart TD
 ```
 
 The long interval is real, and it sits **earlier**, before the week opens at verse 4. AD 70 falls
-inside it, as Daniel's own order requires (9:26): the temple prophecy of 24:1-2 was kept in full, on a
+inside it, as Daniel's own order requires (Daniel 9:26): the temple prophecy of Matthew 24:1-2 was kept in full, on a
 dated calendar, by an eyewitness record (see [The Olivet
 Discourse](olivet-discourse.md#ad-70-question-one-answered-and-documented)).
 
@@ -236,13 +236,13 @@ week and the seventieth, as the next section works out.
 
 Daniel's sequence, read in its own order, generates the gap. Sixty-nine weeks, sevens of years, run
 "from the going out of the word to restore and build Jerusalem to the coming of an anointed one"
-(9:25). "After the sixty-two weeks," that is, after all sixty-nine, "an anointed one shall be cut off
-and shall have nothing" (9:26): the crucifixion. The anointed one is <span dir="rtl">מָשִׁיחַ</span> (*mashiach*, H4899), the word
+(Daniel 9:25). "After the sixty-two weeks," that is, after all sixty-nine, "an anointed one shall be cut off
+and shall have nothing" (Daniel 9:26): the crucifixion. The anointed one is <span dir="rtl">מָשִׁיחַ</span> (*mashiach*, H4899), the word
 behind "Messiah." *Then* the text turns to "the people of the prince who is to come," who "destroy the
-city and the sanctuary" (9:26): AD 70, the Roman armies under Titus. Only after all of that does the
+city and the sanctuary" (Daniel 9:26): AD 70, the Roman armies under Titus. Only after all of that does the
 seventieth week appear, and it is tied to a third event, still future: "he shall make a strong
 covenant with many for one week, and for half of the week he shall put an end to sacrifice and
-offering. And on the wing of abominations shall come one who makes desolate" (9:27, ESV).
+offering. And on the wing of abominations shall come one who makes desolate" (Daniel 9:27, ESV).
 
 Daniel's sentence sets no clock between AD 70 and that covenant. Three events, in sequence,
 separately timed; two have happened. How the sixty-nine weeks are dated to the cross is worked out in
@@ -250,7 +250,7 @@ separately timed; two have happened. How the sixty-nine weeks are dated to the c
 
 ### Whose covenant? The contested "he" of 9:27
 
-Who "he" is in 9:27 is contested, and the *ESV Study Bible* sets out three readings (note on 9:27).
+Who "he" is in Daniel 9:27 is contested, and the *ESV Study Bible* sets out three readings (note on Daniel 9:27).
 One takes "he" as the Messiah: His death ended the atoning sacrifices (Hebrews 10:1-9 is its support),
 and the covenant is the new covenant. A second takes "he" as a hostile ruler whose armies destroy the
 temple in AD 70. The third, the dispensational reading this study holds, takes "he" as a future ruler
@@ -261,10 +261,10 @@ The nearest person named before "he" is "the prince who is to come" (<span dir="
 הַבָּא</span>, *'am nagid habba*, "the people of the coming prince"), whose people destroy the city.
 That favours a ruler, which the second and third readings share. What decides between those two is
 Jesus: He takes the "abomination of desolation spoken of by the prophet Daniel" (Matthew 24:15, ESV)
-and has the Son of Man appear "immediately after" the distress it opens (24:29). The first reading
-has the cross in its favour, and 9:25 on its side, where the Messiah is called <span dir="rtl">נָגִיד</span>
+and has the Son of Man appear "immediately after" the distress it opens (Matthew 24:29). The first reading
+has the cross in its favour, and Daniel 9:25 on its side, where the Messiah is called <span dir="rtl">נָגִיד</span>
 (*nagid*, H5057), "an anointed one, a prince"; careful readers hold it. The dispensational reading
-answers from what the covenant-maker does: he stops sacrifice "for half of the week" (9:27), and Jesus
+answers from what the covenant-maker does: he stops sacrifice "for half of the week" (Daniel 9:27), and Jesus
 places that abomination still ahead in His own day (Matthew 24:15).
 
 Larkin charted the dispensational reading and labelled the space between the weeks:
@@ -290,7 +290,7 @@ Times](prophecy-events-times.md#the-flagship-calculation-daniels-seventy-weeks-t
 ### What fills the gap
 
 The church age sits in that gap. It is real, and it lies outside Daniel's count, which is a count of
-weeks "decreed about your people and your holy city" (9:24, ESV): Israel and Jerusalem. The church
+weeks "decreed about your people and your holy city" (Daniel 9:24, ESV): Israel and Jerusalem. The church
 has its own calling in God's plan, and Israel keeps hers. This is the structural reason a
 dispensational reading keeps Israel and the church distinct; see [Israel and the
 Church](../israel-and-church/israel-and-the-church.md). Paul describes the same interval from the
@@ -304,13 +304,13 @@ Jerusalem. Paul names the same figure without Daniel's title, and opens the pass
 discourse's own warning: "Let no one deceive you in any way" (2 Thessalonians 2:3, ESV), before
 describing "the man of lawlessness... who opposes and exalts himself against every so-called god or
 object of worship, so that he takes his seat in the temple of God, proclaiming himself to be God"
-(2:3-4, ESV). That is Daniel's abomination, personal and future, at the covenant's midpoint where 9:27
+(2 Thessalonians 2:3-4, ESV). That is Daniel's abomination, personal and future, at the covenant's midpoint where Daniel 9:27
 puts it. What holds him back until then is the subject of [The Restrainer](the-restrainer.md).
 
 ### The times of the Gentiles
 
 Luke's phrase names the whole period of Gentile rule over Jerusalem. "Jerusalem will be trampled underfoot by the Gentiles,
-until the times of the Gentiles are fulfilled" (21:24, ESV) names a period with a stated end
+until the times of the Gentiles are fulfilled" (Luke 21:24, ESV) names a period with a stated end
 condition, and Daniel supplies the frame: the four Gentile empires of Daniel 2 and 7, ending when "the
 God of heaven will set up a kingdom that shall never be destroyed... It shall break in pieces all these
 kingdoms and bring them to an end, and it shall stand forever" (Daniel 2:44, ESV). [The Image and the
@@ -351,8 +351,8 @@ that point in its caption. The full argument is in [The Rapture of the Church](r
 
 God counted sixty-nine weeks to the coming of His anointed one, and the Messiah came and was cut off.
 He said the city and sanctuary would fall, and in AD 70 they fell. Twice in two verses the angel says
-the outcome is fixed: "Desolations are decreed" (9:26, ESV), and the covenant-breaker's end is "the
-decreed end... poured out on the desolator" (9:27, ESV). This shows that God rules history by His own
+the outcome is fixed: "Desolations are decreed" (Daniel 9:26, ESV), and the covenant-breaker's end is "the
+decreed end... poured out on the desolator" (Daniel 9:27, ESV). This shows that God rules history by His own
 word, and that the seventieth week and the return of Jesus are as certain as the cross. So you may
 wait without anxiety: the length of the gap is in His hands, and its end is written.
 
@@ -361,7 +361,7 @@ wait without anxiety: the length of the gap is in His hands, and its end is writ
 The week is a real judgment, and God bounds it. "If those days had not been cut short, no human being
 would be saved. But for the sake of the elect those days will be cut short" (Matthew 24:22, ESV). Then
 comes "immediately." God has measured the worst days to their end, and He sends His Son the moment
-the distress is done, and Jesus sends His angels to "gather his elect from the four winds" (24:31, ESV).
+the distress is done, and Jesus sends His angels to "gather his elect from the four winds" (Matthew 24:31, ESV).
 This shows God's faithfulness to His covenant people, Israel first among them. So you may trust Him
 with suffering you cannot see the end of: He has already measured it.
 
@@ -378,13 +378,13 @@ began at the cross. So you, who are saved by that same atonement now, may look f
 1. Daniel 9:24 promises "to atone for iniquity" using <span dir="rtl">כַפֵּר</span> (*kapper*), the Day of Atonement verb.
    What does it tell you about God's plan that Daniel's request to rebuild a city was answered with a
    promise about sin?
-2. Daniel prayed "Delay not" (9:19), and God answered with a count of 490 years. How does Gabriel's
+2. Daniel prayed "Delay not" (Daniel 9:19), and God answered with a count of 490 years. How does Gabriel's
    answer reshape what the disciples were asking in Matthew 24:3?
 3. Jesus stopped reading Isaiah 61 before "the day of vengeance" (Luke 4:16-21). Where else in the
    Gospels do you see the first and second comings joined in one sentence?
-4. The "he" of Daniel 9:27 could be the Messiah or a future ruler. What in 9:26-27 and in Matthew
+4. The "he" of Daniel 9:27 could be the Messiah or a future ruler. What in Daniel 9:26-27 and in Matthew
    24:15 bears on the choice?
-5. Matthew uses εὐθέως for Peter's rooster and for the Son of Man's coming (26:74; 24:29). What
+5. Matthew uses εὐθέως for Peter's rooster and for the Son of Man's coming (Matthew 26:74; 24:29). What
    would have to be true of verses 15-28 if all of it happened in AD 70?
 6. "For the sake of the elect those days will be cut short" (Matthew 24:22). What distress are you
    carrying now that you need to hand to a God who measures its length?

@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Romans 11:1-29; Ephesians 2:11-22"
 bible_references: ["Romans 9:1-6", "Romans 11:1-5", "Romans 11:17-24", "Romans 10:1", "Isaiah 59:20", "Hebrews 8:8-10", "Jeremiah 9:25-26", "Genesis 17:5", "Acts 18:2", "1 Corinthians 10:18", "1 Corinthians 10:32", "Ephesians 3:1-9", "Colossians 1:25-27", "Daniel 2:27-30", "Revelation 7:1-9", "Zechariah 12:10", "Galatians 6:16", "Galatians 3:29", "Romans 2:28-29", "1 Peter 2:9", "Amos 9:11-15", "Romans 15:8-12", "Isaiah 49:6", "Genesis 12:3"]
 date_created: 2026-07-24
-date_modified: 2026-10-21
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -44,7 +44,7 @@ poured out, and "when they look on me, on him whom they have pierced, they shall
 **Type.** The olive tree of Romans 11:17-24 is an illustration rather than a type in the strict
 sense. Paul builds it himself to make one point about arrogance, and he keeps the branches
 distinguishable throughout: natural branches broken off, a wild shoot grafted in, and natural
-branches grafted back "into their own olive tree" (11:24).
+branches grafted back "into their own olive tree" (Romans 11:24).
 
 ### Lessons about Jesus
 
@@ -115,8 +115,8 @@ them.
 
 The *ESV Study Bible* lists among the five questions Romans exists to settle: "What does the
 salvation of Gentiles indicate about the future of Israel as God's people?" It assigns that question to
-9:1-11:36. Romans 9-11 is one of the things the letter is
-for, written to a mainly Gentile readership (1:5-6, 13; 11:13) at risk of concluding that they had
+Romans 9:1-11:36. Romans 9-11 is one of the things the letter is
+for, written to a mainly Gentile readership (Romans 1:5-6, 13; 11:13) at risk of concluding that they had
 replaced the people whose seats they were sitting in.
 
 ## Paul's question, and his answer
@@ -148,7 +148,7 @@ Two chapters later he puts the question directly.
 
 His first evidence is himself, a Jew who believes. His second is Elijah, who also thought the
 nation was finished and was also wrong. The shape of the answer is a remnant: "so too at the present
-time there is a remnant, chosen by grace" (11:5). Israel has not been swapped for the Church; a
+time there is a remnant, chosen by grace" (Romans 11:5). Israel has not been swapped for the Church; a
 believing remnant inside Israel proves the root is alive, and Paul is exhibit one.
 
 This is election by grace. God keeps a people for Himself in every generation, and He is keeping
@@ -167,7 +167,7 @@ one in Israel now.
 > he spare you.
 
 Paul never lets the two kinds of branch merge. Natural branches are broken off; a wild shoot is
-grafted in "among the others"; and at 11:24 the natural branches are grafted back "into **their own**
+grafted in "among the others"; and at Romans 11:24 the natural branches are grafted back "into **their own**
 olive tree." A graft joins two living things without dissolving either into the other, and Paul
 tracks which is which for eight verses.
 
@@ -232,7 +232,7 @@ overlap: Paul's "new man" is καινός at Ephesians 4:24 and νέος at Colo
 Something is brought into being at the cross that was not there before. Israel continuing under a
 new name would require no creating.
 
-Jesus Himself is that peace (2:14). In His body on the cross He reconciled Jew and Gentile to God
+Jesus Himself is that peace (Ephesians 2:14). In His body on the cross He reconciled Jew and Gentile to God
 together, and if you believe, you belong to the new people He made there.
 
 Paul then says what the new thing consists of, and has to stretch the language to do it:
@@ -309,7 +309,7 @@ proselyte in Isaiah's day could be blessed. They could not be σύσσωμος.
 Paul has a word for the arrangement under which this now runs. Ephesians 3:9 calls it **ἡ οἰκονομία
 τοῦ μυστηρίου** (*oikonomia*, G3622): "the plan of the mystery," the household-management of it,
 the administration. The word appears nine times in the New Testament; three are in Ephesians and all
-three belong to this argument (1:10; 3:2, 9), with a fourth at Colossians 1:25. It is the word from
+three belong to this argument (Ephesians 1:10; 3:2, 9), with a fourth at Colossians 1:25. It is the word from
 which *dispensation* comes, and it gives the framework this site works within its name: an age with
 its own terms, opened at the cross and disclosed to the apostles.
 
@@ -332,7 +332,7 @@ them the same name.
 
 Return to Ephesians 2, which has been building toward a name for what Gentiles have
 become. Paul had already used "Israel" seven verses earlier, of what they were excluded from:
-"alienated from the commonwealth of Israel and strangers to the covenants of promise" (2:12). Here
+"alienated from the commonwealth of Israel and strangers to the covenants of promise" (Ephesians 2:12). Here
 is where he lands:
 
 > ✝️ Ephesians 2:19 (ESV)
@@ -437,7 +437,7 @@ Revelation is apocalyptic, and its images are meant to be read as images. That m
 weakest section of the case argued here.
 
 Chapter 7 is an interlude. The sixth seal has been opened, the earth has asked "who can stand?"
-(6:17), and before the seventh seal is broken the narrative stops to show who belongs to God. Both
+(Revelation 6:17), and before the seventh seal is broken the narrative stops to show who belongs to God. Both
 the *ESV Study Bible* and the *NLT Life Application Study Bible* label the section that way.
 
 > ✝️ Revelation 7:4 (ESV)

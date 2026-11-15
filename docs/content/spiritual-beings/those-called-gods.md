@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 82:1-8; Deuteronomy 32:8-9"
 bible_references: ["Psalm 82:1-8", "Deuteronomy 32:8-9", "Deuteronomy 32:17", "Deuteronomy 32:43", "Deuteronomy 4:19-20", "Deuteronomy 10:17", "Exodus 4:16", "Exodus 7:1", "Exodus 12:12", "Exodus 21:6", "Exodus 22:8-9", "Exodus 22:28", "Exodus 3:15", "Genesis 1:1", "Genesis 20:13", "Genesis 35:7", "Psalm 8:5", "Hebrews 2:6-7", "Psalm 89:5-8", "Psalm 89:27", "Psalm 96:4-5", "1 Samuel 28:13", "1 Kings 22:19", "Job 1:6", "Daniel 1:7", "Daniel 10:13", "Daniel 10:20-21", "Isaiah 24:21-22", "Isaiah 42:8", "1 Corinthians 8:5-6", "1 Corinthians 10:20", "Galatians 4:8", "1 Corinthians 8:4", "Hebrews 1:4-14", "2 Corinthians 4:4", "John 12:31", "Ephesians 2:2", "Colossians 1:16", "Ephesians 1:20-22", "Ephesians 3:10", "Ephesians 6:10-13", "Colossians 2:15", "1 Peter 3:22", "1 Corinthians 15:24-25", "Romans 8:38-39", "Psalm 45:6-7", "Hebrews 1:8-9", "John 10:34-36"]
 date_created: 2026-10-11
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -124,7 +124,7 @@ The first *ʾĕlōhîm* takes a singular participle, <span dir="rtl">נִצָּ�
 taken his place"), and a singular verb, <span dir="rtl">יִשְׁפֹּט</span> (*yishpot*, H8199, "he
 judges"). The second is the crowd He stands among. The assembly itself is <span dir="rtl">עֲדַת
 אֵל</span> (*ʿadat ʾEl*, "the assembly of God"), with the singular <span dir="rtl">אֵל</span> (*ʾEl*,
-H410). The LSB footnotes it, "Heb El; the one true God." The Septuagint reads 82:1 as "the assembly
+H410). The LSB footnotes it, "Heb El; the one true God." The Septuagint reads Psalm 82:1 as "the assembly
 of gods" (*synagōgē theōn*), plural, where the Hebrew has "the assembly of God."
 
 **The rule is general, and it has exceptions.** In Genesis a plural verb sometimes goes with
@@ -136,14 +136,14 @@ grammar usually agrees with it.
 ### Who are the gods of Psalm 82?
 
 **What the psalm meant when it was first sung is contested, and good readers hold each of three
-views.** The translators record the fork themselves: the CSB footnotes the gods of 82:1, "Or the
+views.** The translators record the fork themselves: the CSB footnotes the gods of Psalm 82:1, "Or the
 heavenly beings, or the earthly rulers," and the LSB, "Or rulers."
 
 - **Human judges.** These gods "judge" (Psalm 82:2), their work is justice for the weak (Psalm
   82:3-4), and they "die like men" (Psalm 82:7). Exodus 22:8-9 uses *ʾĕlōhîm* of Israel's judges.
   Jesus' own gloss points this way: "he called them gods to whom the word of God came" (John 10:35,
   ESV).
-- **Heavenly powers.** The ESV renders 82:1 "the divine council," and Psalm 89:5-7, 1 Kings 22:19 and
+- **Heavenly powers.** The ESV renders Psalm 82:1 "the divine council," and Psalm 89:5-7, 1 Kings 22:19 and
   Job 1:6 show God among heavenly beings. "Like men you shall die" can be read as a sentence on beings
   who would otherwise not die. Verse 8's "all the nations" fits Deuteronomy 32:8, where the ESV,
   following the Septuagint and a Dead Sea Scroll, has the nations divided "according to the number of the sons of

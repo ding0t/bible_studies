@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 8:31-47"
 bible_references: ["John 18:37-38", "John 1:14", "John 1:17", "John 14:6", "John 16:13", "John 17:17", "Exodus 34:6", "Psalm 31:5", "Psalm 119:160", "Isaiah 65:16", "Revelation 3:14", "Hebrews 6:18", "Luke 1:4", "Luke 23:46", "1 John 2:21", "1 John 4:6", "1 John 5:20", "Genesis 3:1", "Genesis 3:4", "2 Corinthians 4:4", "2 Corinthians 11:3", "2 Corinthians 11:14", "Revelation 12:9", "2 Thessalonians 2:10-11", "Romans 1:25", "Romans 11:1", "Romans 11:29", "John 1:12", "2 Thessalonians 2:7", "Ephesians 4:14-15", "Ephesians 6:14", "1 Timothy 3:15", "2 Timothy 3:7"]
 date_created: 2026-09-25
-date_modified: 2026-11-13
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -17,7 +17,7 @@ ai_provider_models:
 On the morning Jesus was condemned, the Roman governor asked Him a question and did not wait for the
 answer: "What is truth?" (John 18:38, ESV). Jesus had just told him, "For this purpose I was born and
 for this purpose I have come into the world — to bear witness to the truth. Everyone who is of the
-truth listens to my voice" (18:37, ESV). Pilate walked back outside with the answer still standing
+truth listens to my voice" (John 18:37, ESV). Pilate walked back outside with the answer still standing
 in the room.
 
 **In one sentence:** Truth in Scripture is God's own firmness — He cannot lie, His word is truth, and
@@ -32,7 +32,7 @@ was to make God's word doubtful.
 ### Lessons about Jesus
 
 - **Jesus is the truth in person.** "I am the way, and the truth, and the life" (John 14:6, ESV). He
-  came "full of grace and truth" (1:14, ESV).
+  came "full of grace and truth" (John 1:14, ESV).
 - **Jesus is the Amen.** Isaiah calls the LORD "the God of truth," literally the God of *amen* (Isaiah
   65:16). Revelation most likely draws on that verse when it calls Jesus "the Amen, the faithful and
   true witness" (Revelation 3:14, ESV).
@@ -52,8 +52,8 @@ was to make God's word doubtful.
 ### Be Transformed
 
 - **Think.** Truth is real, it is outside you, and it can be known: God's word is truth (John 17:17),
-  and Jesus is the truth (14:6). Your feelings and your culture do not set it.
-- **Attitude.** Stay. Knowing comes to those who abide in Jesus' word (8:31-32), the way roots come to
+  and Jesus is the truth (John 14:6). Your feelings and your culture do not set it.
+- **Attitude.** Stay. Knowing comes to those who abide in Jesus' word (John 8:31-32), the way roots come to
   a tree that stays planted.
 - **Do.** When a thought makes God's word sound doubtful — "Did God actually say?" (Genesis 3:1) —
   open the Bible to what He did say, read it aloud, and answer the thought with it this week.
@@ -111,9 +111,9 @@ of them are in John's Gospel, with 9 more in 1 John. John also uses the adjectiv
 (*alēthinos*), "true," and Revelation 3:14's "true witness" is that adjective.
 
 John opens his Gospel by joining the two words' worlds. The Word "became flesh and dwelt among us ...
-full of grace and truth" (John 1:14, ESV), and "grace and truth came through Jesus Christ" (1:17,
+full of grace and truth" (John 1:14, ESV), and "grace and truth came through Jesus Christ" (John 1:17,
 ESV). The *ESV Study Bible* says the pairing "most likely recalls" Exodus 34:6's *chesed* and *emet* (note
-on 1:16-17). John does not quote the verse, so hold it as a likely echo. Either way, the faithfulness God proclaimed of Himself walked among us in His Son Jesus.
+on John 1:16-17). John does not quote the verse, so hold it as a likely echo. Either way, the faithfulness God proclaimed of Himself walked among us in His Son Jesus.
 
 ## Where truth comes from
 
@@ -141,16 +141,16 @@ and in a Person.
 > 31 So Jesus said to the Jews who had believed him, "If you abide in my word, you are truly my
 > disciples, 32 and you will know the truth, and the truth will set you free."
 
-Jesus is in Jerusalem for the Feast of Booths (7:2), teaching in the temple (8:20), and some of His
-hearers have "believed him" (8:31). He sets
+Jesus is in Jerusalem for the Feast of Booths (John 7:2), teaching in the temple (John 8:20), and some of His
+hearers have "believed him" (John 8:31). He sets
 out an order. First, abide in His word. Then you are "truly" His disciples — ἀληθῶς (*alēthōs*, G230), the adverb formed from the truth word. Then you will know the
 truth. Then the truth will set you free.
 
-"Abide" is μένω (*menō*, G3306), to stay, remain, continue. The *ESV Study Bible* says 8:32 "is frequently
+"Abide" is μένω (*menō*, G3306), to stay, remain, continue. The *ESV Study Bible* says John 8:32 "is frequently
 quoted out of context," and the context is this condition: the truth Jesus promises is known
-by continuing to believe and obey His word (note on 8:32). The *NIV Cultural Backgrounds Study Bible*
+by continuing to believe and obey His word (note on John 8:32). The *NIV Cultural Backgrounds Study Bible*
 adds that ancient schools and Jewish movements took the same view: joining without persevering in the
-teaching was pointless (note on 8:31).
+teaching was pointless (note on John 8:31).
 
 "You will know" is γνώσεσθε (*gnōsesthe*, G1097), the future of γινώσκω (*ginōskō*, G1097). Jesus promises knowledge
 as a certain result. Luke and John say the same. Luke wrote his Gospel "that
@@ -164,20 +164,20 @@ can follow.
 
 ### Those who would not hear
 
-The same crowd shows how knowing fails. By 8:59 they are picking up stones. Jesus names the cause:
-"Why do you not understand what I say? It is because you cannot bear to hear my word" (8:43, ESV).
+The same crowd shows how knowing fails. By John 8:59 they are picking up stones. Jesus names the cause:
+"Why do you not understand what I say? It is because you cannot bear to hear my word" (John 8:43, ESV).
 "Whoever is of God hears the words of God. The reason why you do not hear them is that you are not of
-God" (8:47, ESV). The state of their own hearts decided how they responded (*ESV Study Bible*, note on
-8:37).
+God" (John 8:47, ESV). The state of their own hearts decided how they responded (*ESV Study Bible*, note on
+John 8:37).
 
 ## What the truth sets you free from
 
 ### From slavery to sin
 
 The crowd bristles at "free": "We are offspring of Abraham and have never been enslaved to anyone"
-(8:33, ESV). The *NIV Cultural Backgrounds Study Bible* notes that "slave" was an insult to free men,
+(John 8:33, ESV). The *NIV Cultural Backgrounds Study Bible* notes that "slave" was an insult to free men,
 and that Jewish tradition counted Israel as having served Babylon, Persia, Greece and now Rome (note
-on 8:33). Jesus answers with the slavery He means:
+on John 8:33). Jesus answers with the slavery He means:
 
 > ✝️ John 8:34-36 (ESV)
 >
@@ -186,22 +186,22 @@ on 8:33). Jesus answers with the slavery He means:
 > you free, you will be free indeed.
 
 The freedom Jesus means is freedom from sin. The *NIV Biblical Theology Study Bible* puts it in four
-words: "From sin, not ignorance" (note on 8:32). The slave has no lasting place in the house; the Son
-remains forever, and He is the one who sets you free (8:35-36). To everyone who receives Him, He
+words: "From sin, not ignorance" (note on John 8:32). The slave has no lasting place in the house; the Son
+remains forever, and He is the one who sets you free (John 8:35-36). To everyone who receives Him, He
 gives "the right to become children of God" (John 1:12, ESV).
 
-**This shows that God frees you through His Son.** The verb is the same in 8:32 and 8:36,
+**This shows that God frees you through His Son.** The verb is the same in John 8:32 and 8:36,
 ἐλευθερόω (*eleutheroō*, G1659): "the truth will set you free," "if the Son sets you free." The truth that
 sets you free is Jesus Himself,
 and the freedom is the one only He can give: forgiveness for what you have done and power over what
-you were doing (*ESV Study Bible*, note on 8:36).
+you were doing (*ESV Study Bible*, note on John 8:36).
 
 ### From being tossed about
 
 Paul describes believers who have not grown: "tossed to and fro by the waves and carried about by
 every wind of doctrine, by human cunning, by craftiness in deceitful schemes" (Ephesians 4:14, ESV).
 Paul gives the cure: "Rather, speaking the truth in love, we are to grow up in every way into
-him who is the head, into Christ" (4:15, ESV). Truth gives you somewhere to stand when the wind
+him who is the head, into Christ" (Ephesians 4:15, ESV). Truth gives you somewhere to stand when the wind
 changes.
 
 ## The father of lies
@@ -220,32 +220,32 @@ tōn idiōn*), literally "from his own things," as the CSB footnote renders it.
 
 ### Who Jesus was speaking to
 
-Jesus said this to one crowd, in one argument: people who had "believed him" (8:31), who were
-seeking to kill Him (8:37), and who by the end picked up stones (8:59). The *ESV Study Bible* reads
+Jesus said this to one crowd, in one argument: people who had "believed him" (John 8:31), who were
+seeking to kill Him (John 8:37), and who by the end picked up stones (John 8:59). The *ESV Study Bible* reads
 them as the same people, whose "belief" is shown to be false in the course of the story (note on
-8:31). He named what they were
-doing — "you do what you have heard from your father" (8:38, ESV). Jesus, His disciples and the man
-who wrote this Gospel were Jews, and 8:44 is a verdict on that crowd's deeds. It gives no licence to
+John 8:31). He named what they were
+doing — "you do what you have heard from your father" (John 8:38, ESV). Jesus, His disciples and the man
+who wrote this Gospel were Jews, and John 8:44 is a verdict on that crowd's deeds. It gives no licence to
 turn it on the Jewish people. Paul, an Israelite himself, asks the question: "has God
 rejected his people? By no means!" (Romans 11:1, ESV). "The gifts and the calling of God are
-irrevocable" (11:29, ESV). [Israel and the Church](../israel-and-church/israel-and-the-church.md#what-romans-11-says-is-still-ahead-for-israel)
+irrevocable" (Romans 11:29, ESV). [Israel and the Church](../israel-and-church/israel-and-the-church.md#what-romans-11-says-is-still-ahead-for-israel)
 sets out what is still ahead for Israel. The warning of John 8:44 reaches anyone, of any nation, who hears
 the truth and will not have it.
 
 ### The first lie was about God's word
 
 The *ESV Study Bible* and the *NIV Biblical Theology Study Bible* both trace "father of lies" to
-Eden (notes on 8:44). The serpent opened with a question: "Did God actually say, 'You shall not eat
-of any tree in the garden'?" (Genesis 3:1, ESV). Then a flat denial: "You will not surely die" (3:4,
+Eden (notes on John 8:44). The serpent opened with a question: "Did God actually say, 'You shall not eat
+of any tree in the garden'?" (Genesis 3:1, ESV). Then a flat denial: "You will not surely die" (Genesis 3:4,
 ESV). First doubt what God said, then deny it.
 
 The New Testament names the serpent and keeps him at the same work. He is "that ancient serpent, who
 is called the devil and Satan, the deceiver of the whole world" (Revelation 12:9, ESV). Paul fears
 for a church "that as the serpent deceived Eve by his cunning, your thoughts will be led astray from a
 sincere and pure devotion to Christ" (2 Corinthians 11:3, ESV). He warns that "even Satan disguises
-himself as an angel of light" (11:14, ESV). And he says what the deceiver does to unbelievers: "the
+himself as an angel of light" (2 Corinthians 11:14, ESV). And he says what the deceiver does to unbelievers: "the
 god of this world has blinded the minds of the unbelievers, to keep them from seeing the light of the
-gospel of the glory of Christ" (4:4, ESV).
+gospel of the glory of Christ" (2 Corinthians 4:4, ESV).
 
 ### What deception feeds on
 
@@ -254,7 +254,7 @@ Paul describes people who "exchanged the truth about God for a lie" (Romans
 are perishing, because they refused to love the truth and so be saved. Therefore God sends them a
 strong delusion, so that they may believe what is false" (2 Thessalonians 2:10-11, ESV). That passage
 belongs to the end of this age. The lawless one is revealed once "he who now restrains it" is "out of
-the way" (2:7, ESV). This site reads the restrainer as the Holy Spirit dwelling in the church, the
+the way" (2 Thessalonians 2:7, ESV). This site reads the restrainer as the Holy Spirit dwelling in the church, the
 body of believers: when the church is caught up, His restraining presence in her comes to be out of
 the midst (see [The Rapture of the Church](../last-things/rapture.md#the-restrainer-and-his-going)).
 So the strong delusion falls after the church is gone. The principle in it holds now. Truth refused leaves room for a lie. Truth loved closes the door.
@@ -271,7 +271,7 @@ Scripture gives the believer four ways to keep hold of the truth.
   belt comes first in Paul's list.
 - **Test what you hear.** "By this we know the Spirit of truth and the spirit of error" (1 John 4:6,
   ESV). "Us" is the apostles; the *ESV Study Bible* says those who are not true believers "resist sound
-  doctrine" (note on 4:6).
+  doctrine" (note on 1 John 4:6).
 - **Stay with the church.** Paul calls the church "a pillar and buttress of the truth" (1 Timothy 3:15,
   ESV). Truth is held together.
 

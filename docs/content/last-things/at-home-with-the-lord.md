@@ -8,7 +8,7 @@ draft: false
 primary_passage: "2 Corinthians 5:1-10"
 bible_references: ["2 Corinthians 1:8-9", "2 Corinthians 1:22", "2 Corinthians 4:16-18", "2 Corinthians 5:1-10", "Philippians 1:21-24", "Philippians 3:21", "Luke 23:43", "Luke 16:19-31", "Ephesians 4:8-10", "Ephesians 1:14", "Colossians 2:15", "Genesis 38:17-20", "Leviticus 23:10", "Acts 18:3", "Revelation 6:9-11", "Revelation 20:13-14", "1 Thessalonians 4:13-18", "1 Corinthians 15:20-23", "1 Corinthians 15:51-53", "2 Peter 2:4", "Jude 6", "Jude 14-15", "Isaiah 24:21-22", "Genesis 6:1-4", "Numbers 21:8-9", "2 Kings 18:4"]
 date_created: 2026-09-26
-date_modified: 2026-11-13
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
@@ -128,17 +128,17 @@ Paul wrote 2 Corinthians from Macedonia around AD 55/56 (*ESV Study Bible*, intr
 his fourth letter to a church he had planted. Opponents there said he suffered too much to be a
 Spirit-filled apostle. He answers that his weakness is where God's power shows. He had just come
 close to death: "we felt that we had received the sentence of death. But that was to make us rely
-not on ourselves but on God who raises the dead" (1:9, ESV).
+not on ourselves but on God who raises the dead" (2 Corinthians 1:9, ESV).
 
 Paul made tents at Corinth (Acts 18:3), and a Corinthian reader knew what it was to strike one.
 
 ### The paragraph
 
-The unit runs from 4:16 to 5:10. It opens, "So we do not lose heart. Though our outer self is
-wasting away, our inner self is being renewed day by day" (4:16, ESV). It closes at "the judgment
-seat of Christ" (5:10). Between them Paul answers one question: how can a body that is wasting away
-face death with courage? His answer has three parts. God has a building ready (5:1). God has given
-the Spirit as His pledge (5:5). And death takes the believer home to the Lord (5:8).
+The unit runs from 2 Corinthians 4:16 to 5:10. It opens, "So we do not lose heart. Though our outer self is
+wasting away, our inner self is being renewed day by day" (2 Corinthians 4:16, ESV). It closes at "the judgment
+seat of Christ" (2 Corinthians 5:10). Between them Paul answers one question: how can a body that is wasting away
+face death with courage? His answer has three parts. God has a building ready (2 Corinthians 5:1). God has given
+the Spirit as His pledge (2 Corinthians 5:5). And death takes the believer home to the Lord (2 Corinthians 5:8).
 
 ## Two verbs for home
 
@@ -151,16 +151,16 @@ The pair turns over between verse 6 and verse 8:
 
 | | at home (ἐνδημέω) | away (ἐκδημέω) |
 |---|---|---|
-| **5:6, now** | "in the body" | "from the Lord" |
-| **5:8, at death** | "with the Lord" | "from the body" |
+| **2 Corinthians 5:6, now** | "in the body" | "from the Lord" |
+| **2 Corinthians 5:8, at death** | "with the Lord" | "from the body" |
 
 Death swaps the two. The believer leaves one home and arrives at the other. The preposition in
 verse 8 is πρὸς τὸν κύριον, "with the Lord": the language of a person in someone's company. Verse 9
 then uses the pair once more, "whether we are at home or away," and draws the duty from both: "we
-make it our aim to please him" (5:9, ESV).
+make it our aim to please him" (2 Corinthians 5:9, ESV).
 
 **The Holy Spirit is the pledge that it will happen.** "He who has prepared us for this very thing is
-God, who has given us the Spirit as a guarantee" (5:5, ESV). The word is **ἀρραβών** (*arrabōn*,
+God, who has given us the Spirit as a guarantee" (2 Corinthians 5:5, ESV). The word is **ἀρραβών** (*arrabōn*,
 ar-rah-BONE, G728), a pledge or down payment. It occurs three times in the New Testament, and in every one
 the pledge is the Spirit (2 Corinthians 1:22; 5:5; Ephesians 1:14). The Greek Old Testament uses it
 for the pledge Judah left with Tamar, his signet, cord and staff, held until the payment came
@@ -170,7 +170,7 @@ God has bound Himself. The Spirit living in you now is His guarantee that He wil
 began.
 
 This shows that God Himself prepares His people for death. He has "prepared us for this very
-thing" (5:5), and He has put His own Spirit down as security.
+thing" (2 Corinthians 5:5), and He has put His own Spirit down as security.
 
 ## Away from the body, at home with the Lord
 
@@ -199,7 +199,7 @@ better still.
 
 ### "Naked" in verse 3: a contested word
 
-**What Paul means by being "found naked" (5:3) and "unclothed" (5:4) is disputed.**
+**What Paul means by being "found naked" (2 Corinthians 5:3) and "unclothed" (2 Corinthians 5:4) is disputed.**
 
 - **The intermediate state.** The *ESV Study Bible* reads nakedness as the state "in which
   believers' spirits are with God but they do not yet enjoy their resurrected bodies." Paul shrinks
@@ -236,9 +236,9 @@ is a body: "this perishable body must put on the imperishable, and this mortal b
 immortality" (1 Corinthians 15:53, ESV).
 
 Notice the order in 1 Thessalonians 4:14. God will "bring *with* him those who have fallen asleep"
-(ESV), and then, in 4:16, the dead rise. The person comes with Christ. The body comes out of the
+(ESV), and then, in 1 Thessalonians 4:16, the dead rise. The person comes with Christ. The body comes out of the
 ground. Some read "bring with him" as the raising itself; this study reads it with the sequence
-that 4:16 then spells out.
+that 1 Thessalonians 4:16 then spells out.
 
 [![Detail of the redrawn chart: Christ rises from the tomb as the first fruits; on the right the souls of the righteous come down for their bodies (1 Thessalonians 4:14) and the righteous dead rise out of the grave as the Harvest, 'the dead in Christ shall rise first' (1 Thessalonians 4:15-17; 1 Corinthians 15:51-53), with the Gleanings seven years later](../assets/img/last-things/larkin-underworld-resurrection.svg)](../assets/img/last-things/larkin-underworld-resurrection.svg)
 
@@ -440,7 +440,7 @@ picture of the conclusion, by someone who held it without the reservations recor
 1. **The language.** Paul uses the same two verbs in 2 Corinthians 5:6 and 5:8, with "the body" and
    "the Lord" swapped. What does that swap say about which of the two is really home?
 2. **The text in its context.** Paul had "despaired of life itself" in Asia (2 Corinthians 1:8).
-   How might that experience shape the way he writes about the tent coming down in 5:1-8?
+   How might that experience shape the way he writes about the tent coming down in 2 Corinthians 5:1-8?
 3. **Christ.** Jesus rose as "the firstfruits" (1 Corinthians 15:23). What does His empty tomb
    promise about the graves of believers you have known?
 4. **The hard part.** Paul calls being with Christ "far better" (Philippians 1:23), and in the same
@@ -454,7 +454,7 @@ picture of the conclusion, by someone who held it without the reservations recor
 - **ESV Study Bible** (Crossway) — introduction to 2 Corinthians; notes on 2 Corinthians 5:1-10 and
   5:8, and on Ephesians 4:8-9.
 - **NIV Biblical Theology Study Bible** (Zondervan) — notes on 2 Corinthians 5:1-10 (including
-  ἀρραβών at 5:5 and "naked" at 5:3-4) and on Ephesians 4:8-9.
+  ἀρραβών at 2 Corinthians 5:5 and "naked" at 5:3-4) and on Ephesians 4:8-9.
 - **CSB Ancient Faith Study Bible** (Holman) — translator footnote at Ephesians 4:9.
 - **Macula Greek (SBLGNT)** — lemma, gloss and occurrence data for ἐνδημέω, ἐκδημέω and ἀρραβών.
 - **Clarence Larkin**, "The Underworld," from *Dispensational Truth, or God's Plan and Purpose in

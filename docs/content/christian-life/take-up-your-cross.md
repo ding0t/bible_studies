@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 16:21-28; Mark 8:31-9:1; Luke 9:22-27"
 bible_references: ["Matthew 3:11", "Matthew 4:8-10", "Matthew 4:17-19", "Matthew 6:10", "Matthew 10:26-39", "Matthew 14:30", "Matthew 16:16-18", "Matthew 17:1-9", "Matthew 20:28", "Matthew 26:31-42", "Matthew 26:54", "Matthew 26:58", "Matthew 26:69-75", "Matthew 27:32", "Matthew 27:40-42", "Mark 8:33", "John 12:25-27", "John 6:38", "John 21:15-19", "Luke 9:23", "Luke 22:31-32", "Luke 22:61-62", "Galatians 2:12", "Genesis 2:7", "Leviticus 17:11", "Psalm 49:7-8", "Psalm 62:12", "Isaiah 53:10-12", "Ephesians 2:8-9", "Romans 8:5", "Romans 11:20", "Romans 12:3", "Romans 12:16", "Philippians 2:3-8", "Philippians 3:18-19", "Colossians 3:2", "2 Corinthians 5:10", "1 Peter 1:11", "1 Peter 2:21", "1 Peter 4:1", "1 Peter 5:5-6", "2 Peter 1:16-18"]
 date_created: 2026-10-10
-date_modified: 2026-10-10
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -573,11 +573,11 @@ checked against NA28; Septuagint text is Brenton's edition. Word counts are from
 (SBLGNT) morphology, and semantic domains from Louw and Nida as tagged in MACULA.
 
 - **ESV Study Bible** (Crossway). Notes on Matthew 16:21-28 (the four passion predictions, the three
-  "for" clauses, the six views of 16:28), 16:22 and 10:38.
+  "for" clauses, the six views of Matthew 16:28), 16:22 and 10:38.
 - **NIV Biblical Theology Study Bible** (Zondervan). Notes on Matthew 16:21-28: 4:17 and 16:21 as
   section markers, "Get behind me" as "Get away from me", and rock to stumbling block.
 - **NIV Cultural Backgrounds Study Bible** (Zondervan). Notes on Matthew 16:22-28: the
-  teacher-disciple relationship, Peter in Satan's role (4:8-10; 27:42-43), the *patibulum*, and
+  teacher-disciple relationship, Peter in Satan's role (Matthew 4:8-10; 27:42-43), the *patibulum*, and
   Simon of Cyrene.
 - **LSB and CSB footnotes** on Matthew 16:22: "(God be) merciful to You."
 - **Louw, J. P., and E. A. Nida**, *Greek-English Lexicon of the New Testament Based on Semantic

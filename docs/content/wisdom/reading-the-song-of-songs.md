@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Song of Songs 8:6-7"
 bible_references: ["Song of Songs 2:10-13", "Song of Songs 2:15", "Song of Songs 8:6-7", "Matthew 24:20", "Matthew 24:32-33", "2 Corinthians 1:22", "Ephesians 5:25", "Ephesians 5:31-32", "Song of Songs 1:1", "Song of Songs 2:7", "Song of Songs 3:5", "Song of Songs 8:4", "Song of Songs 8:5-14", "Isaiah 9:7", "Genesis 38:18", "Genesis 2:22-24", "Psalm 69:9", "John 2:17", "Zechariah 8:2"]
 date_created: 2026-09-25
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -52,7 +52,7 @@ Genesis 2:24, which Paul does quote.
 ### Be Transformed
 
 - **Think.** Married love is God's gift from the beginning (Genesis 2:22-24), and the Song most
-  likely calls its fire His (8:6). Hold it as holy.
+  likely calls its fire His (Song of Songs 8:6). Hold it as holy.
 - **Attitude.** Wait for love's time with joy: "that you not stir up or awaken love until it
   pleases" (Song of Songs 2:7, ESV).
 - **Do.** Pray this week, by name, for your own marriage or for three marriages you know, in the
@@ -70,13 +70,13 @@ In Jesus' name. Amen.
 
 ## What the Song is
 
-The Song is a sequence of love poems between a man and a woman, "which is Solomon's" (1:1, ESV).
+The Song is a sequence of love poems between a man and a woman, "which is Solomon's" (Song of Songs 1:1, ESV).
 The church long took that title at face value, and modern critics dispute it (*CSB Ancient Faith
 Study Bible*, introduction to the Song).
 Three times the woman charges her friends "that you not stir up or awaken love until it pleases"
-(2:7; 3:5; 8:4, ESV). Love has a time, and the Song waits for it. By chapter 8 the waiting is over:
-the *ESV Study Bible* heads 8:5-14 "The Lovers Join in Marriage," the anxious waiting giving way to
-relaxed enjoyment (note on 8:5-14).
+(Song of Songs 2:7; 3:5; 8:4, ESV). Love has a time, and the Song waits for it. By chapter 8 the waiting is over:
+the *ESV Study Bible* heads Song of Songs 8:5-14 "The Lovers Join in Marriage," the anxious waiting giving way to
+relaxed enjoyment (note on Song of Songs 8:5-14).
 
 Contemporary evangelical scholarship reads the Song as what it appears to be — love poetry
 celebrating marriage between a man and a woman, with the couple "apparently betrothed" (*ESV Study
@@ -121,13 +121,13 @@ love as His own. That is a stronger warrant for reading the book theologically t
 its individual images.
 
 The *ESV Study Bible* draws the same conclusion from the name: "both love and a jealousy to protect
-marriage are given by God" (note on 8:6).
+marriage are given by God" (note on Song of Songs 8:6).
 
 ### Jealousy, and the seal
 
 The poem defines the jealousy by pairing it with love, line for line: "love is strong as death,
 jealousy is fierce as the grave." That parallelism makes it resolute devotion, which is how the
-*ESV Study Bible* reads it (note on 8:6). The word is <span dir="rtl">קִנְאָה</span> (*qinʾah*,
+*ESV Study Bible* reads it (note on Song of Songs 8:6). The word is <span dir="rtl">קִנְאָה</span> (*qinʾah*,
 H7068). It is used of a husband's jealousy (Proverbs 6:34), and it is also the word Scripture uses
 for the LORD's own zeal: "I am jealous for Zion with great jealousy" (Zechariah 8:2, ESV); "The zeal
 of the LORD of hosts will do this" (Isaiah 9:7, ESV).
@@ -139,12 +139,12 @@ his seal on us and given us his Spirit in our hearts as a guarantee" (2 Corinthi
 direction is reversed and the mark of belonging is the same.
 
 **This shows that God is the author of married love, and He guards it with His own zeal.** He
-made it at the beginning (Genesis 2:24), and many waters cannot put it out (8:7).
+made it at the beginning (Genesis 2:24), and many waters cannot put it out (Song of Songs 8:7).
 
 ## Reading it toward Christ
 
 Reading the Song toward Christ needs a discipline. The *NIV Cultural Backgrounds Study Bible* warns, on
-the foxes of 2:15, that the image "has given rise to an enormous number of speculative
+the foxes of Song of Songs 2:15, that the image "has given rise to an enormous number of speculative
 interpretations" and "is not meant to be grist for imaginative interpreters." A book read
 allegorically line-by-line will yield whatever the reader brought to it, which is why the
 identification in Ephesians 5:32 carries weight the Song cannot supply on its own.
@@ -177,7 +177,7 @@ of inference: the season tells you the time.
 
 1. If <span dir="rtl">שַׁלְהֶבֶתְיָה</span> (*shalhevetyah*) in Song of Songs 8:6 does name God, what
    does it mean that the book's only mention of Him identifies the fire in human love as His?
-2. Three times the Song says "that you not stir up or awaken love until it pleases" (2:7; 3:5; 8:4,
+2. Three times the Song says "that you not stir up or awaken love until it pleases" (Song of Songs 2:7; 3:5; 8:4,
    ESV). Why
    would a book of love poetry keep telling its readers to wait?
 3. Paul says marriage "refers to Christ and the church" (Ephesians 5:32). What changes when you read
@@ -185,7 +185,7 @@ of inference: the season tells you the time.
 4. Origen wrote ten books on the Song; a modern study Bible warns that its foxes are "not meant to be
    grist for imaginative interpreters." Where is the line between reading the Song toward Christ and
    decoding it?
-5. "Many waters cannot quench love" (8:7). Where do you need to believe that about Christ's love for
+5. "Many waters cannot quench love" (Song of Songs 8:7). Where do you need to believe that about Christ's love for
    you this week?
 
 ## References & Recommended Reading

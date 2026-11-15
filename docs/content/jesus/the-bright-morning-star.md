@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 24:17; Revelation 22:16"
 bible_references: ["Genesis 1:14-18", "Genesis 15:5-6", "Genesis 22:17", "Genesis 37:9-10", "Deuteronomy 1:10", "Deuteronomy 4:19", "Judges 5:20", "2 Kings 23:5", "Nehemiah 9:23", "Job 9:7-9", "Job 25:5-6", "Job 38:4-7", "Psalm 8:3-4", "Psalm 136:9", "Psalm 147:4-5", "Psalm 148:3", "Isaiah 13:9-10", "Isaiah 14:12-15", "Isaiah 40:26", "Isaiah 47:13-14", "Isaiah 60:1-6", "Jeremiah 8:2", "Jeremiah 31:35-36", "Daniel 8:10", "Daniel 8:24", "Daniel 12:3", "Joel 2:10", "Joel 3:15-16", "Amos 5:8", "Amos 5:25-27", "Obadiah 1:3-4", "Micah 5:2", "Matthew 2:1-12", "Matthew 24:29-30", "Mark 13:24-26", "Luke 1:78-79", "Luke 21:25-27", "Acts 7:42-43", "1 Corinthians 15:41-42", "Hebrews 11:12", "2 Peter 1:16-19", "Jude 1:13", "Revelation 1:16", "Revelation 1:20", "Revelation 2:26-28", "Revelation 6:12-14", "Revelation 8:12", "Revelation 9:1", "Revelation 12:1-9", "Revelation 21:23", "Revelation 22:5", "Revelation 22:20", "Psalm 31:15", "Romans 4:16-18", "Galatians 3:8", "Galatians 3:14", "Luke 1:32", "Colossians 1:16", "Hebrews 2:6-9", "Daniel 8:11", "Revelation 12:5", "Revelation 19:15", "1 John 5:5", "Numbers 24:19", "Matthew 22:41-45", "Philippians 2:6-9", "Jeremiah 23:5", "Zechariah 3:8", "Zechariah 6:12"]
 date_created: 2026-11-08
-date_modified: 2026-11-08
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -319,7 +319,7 @@ What is the morning star He gives? Some read it as a share in His rule and glory
 Revelation 2:26-27, as the wise "shine like the stars" (Daniel 12:3); the *NIV Cultural Backgrounds
 Study Bible* notes that Romans tied the morning star, Venus, to victory and rule (note on
 Revelation 2:28). Others read it as Christ Himself, since
-22:16 names Him the Morning Star, and the *ESV Study Bible* takes it so (note on Revelation
+Revelation 22:16 names Him the Morning Star, and the *ESV Study Bible* takes it so (note on Revelation
 2:26-28). The two need not be set against each other: He gives Himself, and with Himself a place in
 His reign. Then, at the end of the book, He says it plainly: "I am the Root and the Offspring of
 David, the bright Morning Star" (Revelation 22:16, BSB), ὁ ἀστὴρ ὁ λαμπρὸς ὁ πρωϊνός (*ho astēr ho
@@ -368,7 +368,7 @@ star tells you the sun is near.
 3. **Christ.** Jesus calls Himself both "the Root and the Offspring of David" (Revelation 22:16).
    How can He be both, and what do Micah 5:2 and Matthew 22:41-45 add?
 4. **The hard part.** Revelation 2:28 promises the overcomer "the morning star". Is that Christ
-   Himself, a share in His rule, or both? What in 2:26-28 and 22:16 decides it for you?
+   Himself, a share in His rule, or both? What in Revelation 2:26-28 and 22:16 decides it for you?
 5. **Be transformed.** Isaiah 47:13 mocks those who "monthly predict your fate" from the stars.
    Where are you tempted to look for your future apart from God, and what would it mean to let the
    morning star rise in your heart instead (2 Peter 1:19)?

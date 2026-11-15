@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Matthew 6:16-18"
 bible_references: ["Leviticus 16:29-31", "Isaiah 58:1-12", "Psalm 35:13", "Ezra 8:21-23", "1 Kings 21:27-29", "Daniel 9:3", "Daniel 10:2-14", "Joel 2:12-13", "Jonah 3:5-10", "1 Samuel 7:6", "2 Samuel 12:16-23", "2 Chronicles 20:3-4", "Esther 4:16", "Nehemiah 1:4", "Nehemiah 9:1-2", "Judges 20:26-28", "Zechariah 7:5", "Zechariah 8:19", "Exodus 34:28", "Deuteronomy 8:2-3", "Deuteronomy 9:18", "Matthew 4:1-4", "Luke 4:1-2", "Matthew 9:14-15", "Mark 2:18-20", "Luke 5:33-35", "Luke 2:37", "Luke 18:9-14", "Acts 13:1-3", "Acts 14:23", "Acts 27:9", "Mark 9:14-29", "Matthew 17:14-21", "1 Corinthians 7:5", "Acts 10:30", "2 Corinthians 10:3-5", "James 4:7-10", "1 Peter 5:8-9", "Ephesians 6:10-18", "Hebrews 9:11-12", "Revelation 19:7-9"]
 date_created: 2026-01-24
-date_modified: 2026-10-21
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -197,8 +197,8 @@ toward people who humble themselves before Him.
 
 Isaiah 58 answers the complaint in the opening of this study. The people fasted and oppressed "all
 your workers" on the same day (Isaiah 58:3, ESV). They fasted "only to quarrel and to fight"
-(58:4). Bowing the head and lying in sackcloth did not make it "a day acceptable to the LORD"
-(58:5, ESV).
+(Isaiah 58:4). Bowing the head and lying in sackcloth did not make it "a day acceptable to the LORD"
+(Isaiah 58:5, ESV).
 
 Then God defines the fast He chooses:
 
@@ -211,12 +211,12 @@ Then God defines the fast He chooses:
 
 The bonds and yokes are the ones the fasters had fastened on their own workers. The *ESV Study
 Bible* reads "every yoke" as "every form of oppression" (note on Isaiah 58:6-7). The promise that
-follows is prayer heard: "Then you shall call, and the LORD will answer" (58:9, ESV).
+follows is prayer heard: "Then you shall call, and the LORD will answer" (Isaiah 58:9, ESV).
 
 Zechariah asked the same question after the exile. Judah had fasted in the fifth and seventh
 months for seventy years, mourning Jerusalem's fall, and God asked, "was it for me that you fasted?"
 (Zechariah 7:5, ESV). Jeremiah heard God say of a people who "have loved to wander" (Jeremiah 14:10, ESV), "Though
-they fast, I will not hear their cry" (14:12, ESV).
+they fast, I will not hear their cry" (Jeremiah 14:12, ESV).
 
 The rabbis kept the same lesson. The Mishnah says the Day of Atonement atones for sins against God,
 "but for transgressions between man and his fellow Yom HaKippurim does not effect atonement, until
@@ -228,7 +228,7 @@ he has pacified his fellow" (m. Yoma 8:9, Kulp translation, CC-BY).
 
 "Jesus was led up by the Spirit into the wilderness to be tempted by the devil. And after fasting
 forty days and forty nights, he was hungry" (Matthew 4:1-2, ESV). The Holy Spirit led Him there. The
-devil came to Him when He was hungry and told Him to make bread (4:3).
+devil came to Him when He was hungry and told Him to make bread (Matthew 4:3).
 
 Jesus answered from Deuteronomy 8:3: "Man shall not live by bread alone, but by every word that
 comes from the mouth of God" (Matthew 4:4, ESV). In Deuteronomy those words explain why God let
@@ -242,16 +242,16 @@ Father. What the fast showed was that dependence.
 
 Jesus assumed His disciples would fast. "When you fast," He said, three times (Matthew 6:16-18).
 The hypocrites "disfigure their faces that their fasting may be seen by others," and "they have
-received their reward" (6:16, ESV). The *ESV Study Bible* explains the disfigured face as leaving
+received their reward" (Matthew 6:16, ESV). The *ESV Study Bible* explains the disfigured face as leaving
 it unwashed and sprinkled with ashes to publicise the hardship (note on Matthew 6:16-18).
 
 Jesus told His disciples to do the opposite: "anoint your head and wash your face, that your
-fasting may not be seen by others but by your Father who is in secret" (6:17-18, ESV). A fast is
+fasting may not be seen by others but by your Father who is in secret" (Matthew 6:17-18, ESV). A fast is
 between you and your Father. He sees it, and He rewards it.
 
 Luke shows the danger in a parable. The Pharisee prayed, "I fast twice a week" (Luke 18:12, ESV),
 and went home unjustified. The tax collector who beat his breast went home justified, "For everyone
-who exalts himself will be humbled, but the one who humbles himself will be exalted" (18:14, ESV).
+who exalts himself will be humbled, but the one who humbles himself will be exalted" (Luke 18:14, ESV).
 The Pharisee turned a practice of humbling into a reason to exalt himself.
 
 ### The Bridegroom
@@ -290,7 +290,7 @@ church, "with prayer and fasting they committed them to the Lord in whom they ha
 
 Anna "did not depart from the temple, worshiping with fasting and prayer night and day" (Luke 2:37,
 ESV). For her, fasting was part of a life of worship, and she spoke of Jesus "to all who were waiting
-for the redemption of Jerusalem" (2:38, ESV).
+for the redemption of Jerusalem" (Luke 2:38, ESV).
 
 An early church manual, the *Didache* (usually dated late first or early second century), shows the practice continuing. It tells Christians to "fast for those who persecute you"
 (Didache 1.3), to fast before baptism (7.4), and to keep their own fast days: "Do not let your
@@ -347,7 +347,7 @@ emphasis on fasting. That motive is an inference. The pattern itself is in the m
 Read the story, and it points away from fasting as a technique even if the longer reading were
 original. The disciples could not help the boy, and Jesus called the whole scene a "faithless
 generation" (Mark 9:19, ESV). To the father He said, "All things are possible for one who
-believes" (9:23, ESV), and the father cried, "I believe; help my unbelief!" (9:24, ESV). Matthew
+believes" (Mark 9:23, ESV), and the father cried, "I believe; help my unbelief!" (Mark 9:24, ESV). Matthew
 gives Jesus' answer to the disciples directly: "Because of your little faith" (Matthew 17:20, ESV).
 Jesus then drove out the spirit with a word (Mark 9:25). The lesson is dependence on God, and
 prayer is what dependence looks like.
@@ -356,7 +356,7 @@ prayer is what dependence looks like.
 
 This verse is often read as fasting that breaks spiritual bondage. In context the bonds and yokes
 belong to the oppressed workers of the people who were fasting (Isaiah 58:3). The fast God chooses
-is freeing them, feeding the hungry and housing the poor (58:6-7). See [The fast God
+is freeing them, feeding the hungry and housing the poor (Isaiah 58:6-7). See [The fast God
 chooses](#the-fast-god-chooses) above.
 
 ### 2 Corinthians 10:4: "strongholds"
@@ -365,18 +365,18 @@ chooses](#the-fast-god-chooses) above.
 Corinthians 10:4, ESV). The word is ὀχύρωμα (*ochyrōma*, oh-KHOO-ro-mah, G3794), a fortress, used
 only here in the New Testament. Paul defines it in the next verse: "We destroy arguments and every
 lofty opinion raised against the knowledge of God, and take every thought captive to obey Christ"
-(10:5, ESV). The strongholds are arguments. Paul was answering people in Corinth who rejected his
+(2 Corinthians 10:5, ESV). The strongholds are arguments. Paul was answering people in Corinth who rejected his
 gospel and his authority. The passage never mentions fasting.
 
 ### Daniel 10: the prince of Persia
 
 Daniel mourned three weeks, eating "no delicacies, no meat or wine" (Daniel 10:2-3, ESV). An angel
 then told him that "the prince of the kingdom of Persia withstood me twenty-one days" until Michael
-came to help (10:13, ESV). This is sometimes taught as fasting that fights powers in the heavens.
+came to help (Daniel 10:13, ESV). This is sometimes taught as fasting that fights powers in the heavens.
 
 The angel says two things about Daniel. His words were heard "from the first day," and what God
-heard was that Daniel "humbled yourself before your God" (10:12, ESV). The heavenly conflict is real
-in the text (10:13, 20). The text never connects Daniel's fast to that conflict. Daniel was heard on
+heard was that Daniel "humbled yourself before your God" (Daniel 10:12, ESV). The heavenly conflict is real
+in the text (Daniel 10:13, 20). The text never connects Daniel's fast to that conflict. Daniel was heard on
 the first day of three weeks.
 
 ### What the New Testament does say about the devil
@@ -384,7 +384,7 @@ the first day of three weeks.
 *Nēsteuō* and *nēsteia* occur 25 times in the text modern translations follow. The only one near
 the devil is Jesus' temptation, where He answered the devil with Scripture. The letters tell you how to resist him: "Submit yourselves therefore to God. Resist
 the devil, and he will flee from you" (James 4:7, ESV). "Resist him, firm in your faith" (1 Peter
-5:9, ESV). Paul's armour of God ends in "praying at all times in the Spirit" (Ephesians 6:18, ESV). James goes on, "Humble yourselves before the Lord, and he will exalt you" (4:10, ESV).
+5:9, ESV). Paul's armour of God ends in "praying at all times in the Spirit" (Ephesians 6:18, ESV). James goes on, "Humble yourselves before the Lord, and he will exalt you" (James 4:10, ESV).
 Humbling yourself is the part fasting has always expressed. For more on where deliverance practice
 goes beyond Scripture, see [Deliverance and the Edge of
 Sorcery](../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md).

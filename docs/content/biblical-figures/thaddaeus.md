@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 14:22-24"
 bible_references: ["Matthew 10:3", "Mark 3:18", "Luke 6:16", "Acts 1:13", "Jude 1:1"]
 date_created: 2026-08-08
-date_modified: 2026-10-09
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -61,7 +61,7 @@ Some manuscripts of Matthew 10:3 read **Lebbaeus** here, and some conflate the t
 was also called Thaddaeus": the reading behind the KJV). The earliest text has simply *Thaddaeus*.
 
 **Judas son of James** (<span lang="grc">Ἰούδας Ἰακώβου</span>) is what Luke calls him in both his
-Gospel (6:16) and Acts (1:13). *Judas* is <span dir="rtl">יְהוּדָה</span> (*Yehudah*, H3063), "praised."
+Gospel (Luke 6:16) and Acts (1:13). *Judas* is <span dir="rtl">יְהוּדָה</span> (*Yehudah*, H3063), "praised."
 
 Two names for one man is the straightforward reading: Matthew and Mark have Thaddaeus at position
 ten, Luke and Acts have Judas son of James in the same group of four, and the lists are otherwise

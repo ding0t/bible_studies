@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 5:21-33"
 bible_references: ["Genesis 1:27-28", "Genesis 3:16", "Genesis 4:7", "Psalm 11:5", "Proverbs 3:25-26", "Malachi 2:16", "Matthew 18:15-17", "Matthew 19:8-9", "Mark 10:42-45", "Luke 22:25-27", "Acts 5:29", "Acts 18:26", "Romans 13:3-4", "1 Corinthians 5:11", "1 Corinthians 6:12", "1 Corinthians 7:3-5", "1 Corinthians 7:10-11", "1 Corinthians 7:15", "1 Corinthians 11:3-12", "1 Corinthians 14:29-35", "2 Corinthians 5:17", "Ephesians 5:2", "Ephesians 5:11", "Ephesians 5:18-21", "Ephesians 6:4", "Colossians 3:18-19", "1 Thessalonians 2:7", "1 Timothy 2:11-15", "1 Timothy 3:2", "1 Timothy 5:13-15", "2 Timothy 3:6-7", "Titus 2:3-5", "1 Peter 2:21-23", "1 Peter 3:1-7", "1 John 1:9", "Genesis 2:24", "Deuteronomy 19:15-18", "1 Samuel 19:11-12", "Psalm 10:17-18", "Psalm 82:3-4", "Proverbs 18:17", "Proverbs 22:3", "Proverbs 31:8-9", "Matthew 26:41", "Luke 3:8", "Luke 4:29-30", "Acts 9:23-25", "Acts 22:2", "1 Corinthians 1:27", "1 Corinthians 12:22-23", "1 Corinthians 14:40", "2 Corinthians 4:7", "Ephesians 4:2", "Ephesians 4:25", "Ephesians 4:32", "Ephesians 5:31-33", "Ephesians 6:1-9", "2 Thessalonians 3:12", "1 Timothy 1:3-7", "1 Timothy 2:2", "1 Timothy 3:4-5", "1 Timothy 4:3"]
 date_created: 2026-10-17
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -100,7 +100,7 @@ treated women. Every reading of these texts has to fit with Him.
 
 Before the fall God gave dominion to "them," male and female together (Genesis 1:27-28). Rule of a
 husband over his wife first appears here, after sin, in the same speech as pain in childbirth and
-the ground cursed with thorns (3:17-18). God is describing what sin will do.
+the ground cursed with thorns (Genesis 3:17-18). God is describing what sin will do.
 
 "Desire" is <span dir="rtl">תְּשׁוּקָה</span> (*tᵉšûqâ*, teh-shoo-KAH, H8669), and "rule" is
 <span dir="rtl">מָשַׁל</span> (*māšal*, mah-SHAL, H4910). The same two words meet again in the next
@@ -111,9 +111,9 @@ have desire for your husband." Either way, the verse describes a marriage bent b
 contest, with the husband ruling.
 
 No one reads "in pain you shall bring forth children" as a command to withhold pain relief, or
-"thorns and thistles" as a ban on weeding. The rule of 3:16 is the same kind of statement: part of
-the sentence on sin, spoken beside the cursed ground (3:17). Readers who find an order of husband
-and wife already in Genesis 2 (the reading the ESV Study Bible takes) agree on this much: what 3:16
+"thorns and thistles" as a ban on weeding. The rule of Genesis 3:16 is the same kind of statement: part of
+the sentence on sin, spoken beside the cursed ground (Genesis 3:17). Readers who find an order of husband
+and wife already in Genesis 2 (the reading the ESV Study Bible takes) agree on this much: what Genesis 3:16
 adds is rule bent by sin into domination. "If anyone is in Christ, he is a new creation" (2
 Corinthians 5:17, ESV). The church's calling is to live as the new creation, and a husband who rules
 his wife by force is living out the fall.
@@ -123,29 +123,29 @@ his wife by force is living out the fall.
 ### Submitting to one another
 
 Paul's household instructions begin with a command to the whole church: "be filled with the
-Spirit" (Ephesians 5:18, ESV). Five participles follow (5:19-21); the last is "submitting to one
-another out of reverence for Christ." In Greek, 5:21 reads ὑποτασσόμενοι ἀλλήλοις ἐν φόβῳ Χριστοῦ.
+Spirit" (Ephesians 5:18, ESV). Five participles follow (Ephesians 5:19-21); the last is "submitting to one
+another out of reverence for Christ." In Greek, Ephesians 5:21 reads ὑποτασσόμενοι ἀλλήλοις ἐν φόβῳ Χριστοῦ.
 "Submitting" is ὑποτάσσω (*hypotassō*, hoo-poh-TAS-soh, G5293), and "to one another" is
 ἀλλήλοις (*allēlois*, G240).
 
 How far "one another" reaches is contested. Every other time Ephesians uses ἀλλήλοις it runs both
-ways: "bearing with one another in love" (4:2), "we are members one of another" (4:25), "be kind to
-one another" (4:32). On that reading every believer submits to every other. The ESV Study Bible
+ways: "bearing with one another in love" (Ephesians 4:2), "we are members one of another" (Ephesians 4:25), "be kind to
+one another" (Ephesians 4:32). On that reading every believer submits to every other. The ESV Study Bible
 reads it as submission "according to the authority and order established by God," because the
 examples that follow run one way: wives to husbands, children to parents, bondservants to masters
-(5:22-6:9). Both readings agree on what matters for this study: the household instructions grow out
-of a Spirit-filled church (5:18), and the wife's submission is one form of a submission asked of
+(Ephesians 5:22-6:9). Both readings agree on what matters for this study: the household instructions grow out
+of a Spirit-filled church (Ephesians 5:18), and the wife's submission is one form of a submission asked of
 every believer.
 
-Then comes 5:22, and in the Greek it has no verb of its own:
+Then comes Ephesians 5:22, and in the Greek it has no verb of its own:
 
 > αἱ γυναῖκες τοῖς ἰδίοις ἀνδράσιν ὡς τῷ κυρίῳ
 > "wives, to your own husbands, as to the Lord" (Ephesians 5:22, NA28; this study's translation)
 
-The verb is supplied from 5:21. The CSB footnotes it: "Other mss omit *submit*." Paul then states
+The verb is supplied from Ephesians 5:21. The CSB footnotes it: "Other mss omit *submit*." Paul then states
 it in full: "as the church submits to Christ, so also wives should submit in everything to their
-husbands" (5:24, ESV). "In everything" is the text's own word and is not to be softened. Its limit
-is in the same sentence: as the church submits *to Christ*, and "as to the Lord" (5:22). A wife
+husbands" (Ephesians 5:24, ESV). "In everything" is the text's own word and is not to be softened. Its limit
+is in the same sentence: as the church submits *to Christ*, and "as to the Lord" (Ephesians 5:22). A wife
 submits as service to Christ, so nothing Christ forbids can be part of it (see
 [Where submission ends](#where-submission-ends)). Paul addresses the wife herself, as one who gives
 her submission. He gives husbands no instruction to make their wives submit, and no text in the New
@@ -153,7 +153,7 @@ Testament does.
 
 ### Headship measured by the cross
 
-The husbands' instruction is longer (5:25-29, 33, against 5:22-24, 33), and it is measured by
+The husbands' instruction is longer (Ephesians 5:25-29, 33, against 5:22-24, 33), and it is measured by
 the cross:
 
 > ✝️ Ephesians 5:25-29 (ESV)
@@ -166,7 +166,7 @@ the cross:
 > nourishes and cherishes it, just as Christ does the church,
 
 "The husband is the head of the wife even as Christ is the head of the church, his body, and is
-himself its Savior" (5:23, ESV). "Head" is κεφαλή (*kephalē*, keh-fah-LAY, G2776). Paul shows what
+himself its Savior" (Ephesians 5:23, ESV). "Head" is κεφαλή (*kephalē*, keh-fah-LAY, G2776). Paul shows what
 Christ's headship does in the verses that follow: He saved, loved, gave Himself up, cleansed,
 nourished and cherished. "Nourishes and cherishes," ἐκτρέφει καὶ θάλπει, are words for bringing up
 a child (Ephesians 6:4) and a nursing mother's care (1 Thessalonians 2:7). Every instruction Paul
@@ -185,11 +185,11 @@ that it refers to Christ and the church" (Ephesians 5:31-32, ESV). Two things fo
 First, Paul builds marriage on Genesis 2, before the fall. The pattern for a Christian marriage
 is the one God made, and Genesis 3:16 is the pattern it is rescued from.
 
-Second, "one flesh" is why a husband's love is the love of his own body (5:28-29). A man who harms his wife harms his
+Second, "one flesh" is why a husband's love is the love of his own body (Ephesians 5:28-29). A man who harms his wife harms his
 own flesh. And because the marriage "refers to Christ and the church," a husband's conduct preaches
 something about Christ to everyone who sees it. Paul's last word holds both callings together: "let
 each one of you love his wife as himself, and let the wife see that she respects her husband"
-(5:33, ESV).
+(Ephesians 5:33, ESV).
 
 ### Christ's love made visible
 
@@ -218,7 +218,7 @@ halves with ὁμοίως (*homoiōs*, G3668), "likewise." Verse 5 says "one ano
 
 Each gives his or her body to the other.
 The verse describes a gift each has made, and it gives neither a right to seize. A husband who
-demands sex against his wife's will reads 7:4 in one direction only: he claims her body, ignores
+demands sex against his wife's will reads 1 Corinthians 7:4 in one direction only: he claims her body, ignores
 her authority over his, and sets aside the "agreement" of 7:5.
 
 ἐξουσιάζω occurs four times in the New Testament: here twice; in 1 Corinthians 6:12, "I will not be
@@ -241,7 +241,7 @@ Peter writes to wives whose husbands "do not obey the word" (1 Peter 3:1, ESV): 
 married to unbelievers. His aim is
 evangelistic: "they may be won without a word by the conduct of their wives." He sets their
 conduct inside the example of Christ, who "when he suffered, he did not threaten, but continued
-entrusting himself to him who judges justly" (2:23, ESV); 3:1 begins "Likewise," Ὁμοίως.
+entrusting himself to him who judges justly" (1 Peter 2:23, ESV); 3:1 begins "Likewise," Ὁμοίως.
 
 > ✝️ 1 Peter 3:6-7 (ESV)
 >
@@ -309,27 +309,27 @@ what the readings share.
 > husbands at home. For it is shameful for a woman to speak in church.
 
 Three chapters earlier Paul assumes that women pray and prophesy aloud in the assembly: "every wife
-who prays or prophesies with her head uncovered dishonors her head" (11:5, ESV). Whatever 14:34
+who prays or prophesies with her head uncovered dishonors her head" (1 Corinthians 11:5, ESV). Whatever 1 Corinthians 14:34
 forbids, it cannot be all speech.
 
 The chapter itself shows what kind of silence Paul means. "Keep silent" is σιγάω (*sigaō*,
 see-GAH-oh, G4601), and it occurs three times in 1 Corinthians, all in this paragraph. A tongue-speaker
-with no interpreter is to "keep silent in church" (14:28); a prophet is to "be silent" when a
-revelation comes to another (14:30); and the women are to "keep silent in the churches" (14:34). The
+with no interpreter is to "keep silent in church" (1 Corinthians 14:28); a prophet is to "be silent" when a
+revelation comes to another (1 Corinthians 14:30); and the women are to "keep silent in the churches" (1 Corinthians 14:34). The
 first two silences are limited to a circumstance, and both serve the rule that closes the chapter:
-"all things should be done decently and in order" (14:40, ESV). The readings differ over the
+"all things should be done decently and in order" (1 Corinthians 14:40, ESV). The readings differ over the
 circumstance of the third.
 
 - **The first reading** takes it from the verses just before, where the church is to "weigh what is
-  said" by the prophets (14:29). The verb of 14:34, "should be in submission," ὑποτασσέσθωσαν, is the
+  said" by the prophets (1 Corinthians 14:29). The verb of 1 Corinthians 14:34, "should be in submission," ὑποτασσέσθωσαν, is the
   verb of 14:32, "the spirits of prophets are subject to prophets." On this reading wives are not to
   join the public weighing of prophecies, which could mean judging their own husbands.
 - **The second reading** takes it from the verse just after: "If there is anything they desire to
-  learn, let them ask their husbands at home" (14:35). "Learn," μαθεῖν, echoes 14:31, where prophecy
+  learn, let them ask their husbands at home" (1 Corinthians 14:35). "Learn," μαθεῖν, echoes 1 Corinthians 14:31, where prophecy
   is given "so that all may learn." On this reading the women's questions during the gathering were
   the disorder, and Paul answers it: learn, and ask at home.
 
-One textual fact bears on both. Some manuscripts place 14:34-35 after 14:40 (NLT footnote). Every
+One textual fact bears on both. Some manuscripts place 1 Corinthians 14:34-35 after 14:40 (NLT footnote). Every
 surviving manuscript contains the verses; some scholars read the displacement as a sign that they
 began as a marginal note, and others hold them to be Paul's in either position.
 
@@ -358,7 +358,7 @@ Four things in the text are settled.
   as "usurp their authority." The word alone cannot settle the question, so each reading rests its
   case on the context.
 - **Paul gives reasons**, introduced by "for," γάρ: Adam was formed first, and the woman was deceived
-  (2:13-14). Any reading has to explain why these are the reasons he gives.
+  (1 Timothy 2:13-14). Any reading has to explain why these are the reasons he gives.
 
 #### The two readings
 
@@ -367,15 +367,15 @@ The two readings:
 - **The first reading** holds that Paul reserves the teaching and governing office of elder to
   qualified men. Its case: the first reason is from creation, before the fall, which no change of
   culture undoes; the two verbs "teach" and "exercise authority" describe the overseer's work, who
-  must be "able to teach" (3:2) and who will "care for God's church" (3:5); and the same paragraph
-  calls the overseer "the husband of one wife" (3:2). On this reading women teach women and children (Titus
+  must be "able to teach" (1 Timothy 3:2) and who will "care for God's church" (1 Timothy 3:5); and the same paragraph
+  calls the overseer "the husband of one wife" (1 Timothy 3:2). On this reading women teach women and children (Titus
   2:3-5; 2 Timothy 1:5), pray and prophesy, and serve in every ministry outside the elder's office.
 - **The second reading** holds that Paul is answering a problem in Ephesus. Its case: the letter
-  opens with false teachers (1:3-7); they "forbid marriage" (4:3), and 2:15's "saved through
+  opens with false teachers (1 Timothy 1:3-7); they "forbid marriage" (1 Timothy 4:3), and 2:15's "saved through
   childbearing" answers them; younger widows were "saying what they should not," and "some have
-  already strayed after Satan" (5:13, 15, ESV); and in the same church false teachers "capture weak
+  already strayed after Satan" (1 Timothy 5:13, 15, ESV); and in the same church false teachers "capture weak
   women ... always learning" (2 Timothy 3:6-7, ESV). On this reading the remedy is verse 11, teach the women, and
-  Eve's deception (2:14) illustrates what happens to the untaught. Priscilla, who with Aquila
+  Eve's deception (1 Timothy 2:14) illustrates what happens to the untaught. Priscilla, who with Aquila
   "explained to him the way of God more accurately" (Acts 18:26, ESV) to Apollos, shows what taught
   women may do.
 
@@ -459,14 +459,14 @@ has given His church the duty to protect those He loves.
 ## Discussion questions
 
 1. **The language.** In the Greek, Ephesians 5:22 has no verb and borrows "submitting" from 5:21,
-   "submitting to one another." How does reading the two verses together change how 5:22 sounds?
+   "submitting to one another." How does reading the two verses together change how Ephesians 5:22 sounds?
 2. **The text in its context.** Genesis 3:16 and 4:7 use the same pair of words, "desire" and
    "rule." What does the comparison suggest about what the fall did to marriage?
 3. **Christ.** Paul defines the husband's headship by what Christ did for His church (Ephesians
    5:23-29). List the verbs. What would it look like for a husband to do each one this week?
 4. **The language.** ἐξουσιάζω, "to have authority over," occurs in 1 Corinthians 7:4 in both
    directions and in Luke 22:25 of the Gentile rulers Jesus told His disciples not to imitate. What
-   kind of authority does 7:4 give a husband or a wife?
+   kind of authority does 1 Corinthians 7:4 give a husband or a wife?
 5. **The hard part.** 1 Corinthians 14:34 and 1 Timothy 2:12 restrict women's speech, while 1
    Corinthians 11:5 and Acts 18:26 show women praying, prophesying and teaching. Which reading of
    the restrictions do you find more persuasive from the text, and what do both readings share?
@@ -492,7 +492,7 @@ has given His church the duty to protect those He loves.
   the New Testament).
 - **CSB, LSB and NLT footnotes** — Ephesians 5:22 ("Other mss omit *submit*"), Ephesians 5:21 ("Lit
   *being subject*"), Genesis 3:16 (NLT, "though you will have desire for your husband"),
-  1 Corinthians 14:35 (NLT, verses 34-35 placed after 14:40 in some manuscripts) and
+  1 Corinthians 14:35 (NLT, verses 34-35 placed after 1 Corinthians 14:40 in some manuscripts) and
   1 Timothy 2:12 (NLT, "usurp their authority"). Malachi 2:16 is compared in the ESV, NASB, LSB, CSB
   and NIV.
 

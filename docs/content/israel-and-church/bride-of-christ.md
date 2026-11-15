@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ephesians 5:22-33; Revelation 19:6-9; John 14:1-3"
 bible_references: ["Ephesians 5:22-33", "2 Corinthians 11:2", "John 3:29", "John 14:1-3", "John 14:23", "John 1:11", "Revelation 19:6-9", "Hosea 2:19-20", "Isaiah 54:5", "Matthew 9:15", "Jeremiah 3:14", "Isaiah 62:5", "Jeremiah 2:2", "Ezekiel 16:8-14", "Matthew 1:18-25", "Matthew 25:1-13", "Matthew 26:29", "Genesis 2:24", "Genesis 29:27", "Judges 14:10-12", "Ruth 2:12", "Ruth 3:9", "Ruth 4:6", "Ruth 4:9-10", "Ruth 4:14", "Tobit 7:13-16", "Exodus 23:20", "Deuteronomy 1:33", "Exodus 15:17", "Revelation 22:17", "Ephesians 3:1", "Ephesians 5:18", "Ephesians 6:20", "Revelation 1:4", "Revelation 21:1-9", "Isaiah 61:10", "Isaiah 25:6-8", "Jeremiah 31:32", "Tobit 8:19-20", "1 Thessalonians 4:16-18", "Ephesians 5:25-27", "Ephesians 1:13-14", "Ephesians 4:30", "Ephesians 3:3-6", "2 Corinthians 1:22", "2 Corinthians 5:5", "Genesis 38:17-20", "Genesis 38:25", "Colossians 1:22", "1 Peter 1:19", "Hebrews 9:14", "Jude 24", "Titus 3:5", "Luke 22:20", "1 Corinthians 6:20", "Romans 6:9", "Philippians 1:6", "Matthew 25:6", "Acts 28:15", "Revelation 19:9", "Revelation 21:9", "Revelation 22:3-5", "Revelation 22:17", "Revelation 5:9", "Revelation 19:11", "Revelation 20:1-6", "Revelation 20:11-15", "Revelation 21:1", "Ezekiel 16:8-9", "1 Corinthians 6:11", "Revelation 21:24", "Revelation 22:3-5", "1 Peter 1:18-19", "Isaiah 25:6", "Matthew 22:1-14", "Exodus 6:7", "John 1:14", "Revelation 7:15", "1 Corinthians 10:16"]
 date_created: 2026-09-01
-date_modified: 2026-11-07
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -39,8 +39,8 @@ forever" (Hosea 2:19), "your Maker is your husband" (Isaiah 54:5), and "as the b
 over the bride, so shall your God rejoice over you" (Isaiah 62:5). The New Testament carries this
 image forward and identifies the bridegroom. The bride appears in both closing chapters:
 the new Jerusalem is "prepared as a bride adorned for her husband" (Revelation 21:2), and the angel names her
-"the Bride, the wife of the Lamb" (21:9). The Bible's final invitation is hers to give: "The Spirit
-and the Bride say, 'Come'" (22:17, ESV).
+"the Bride, the wife of the Lamb" (Revelation 21:9). The Bible's final invitation is hers to give: "The Spirit
+and the Bride say, 'Come'" (Revelation 22:17, ESV).
 
 ### Lessons about Jesus
 
@@ -110,13 +110,13 @@ In Jesus' name. Amen.
 ### Two letters, and the circumstances they were written in
 
 **Paul wrote Ephesians from prison.** "I, Paul, a prisoner of Christ Jesus on behalf of you
-Gentiles" (3:1). "An ambassador in chains" (6:20). And the marriage passage sits inside a long
-section on Spirit-filled conduct, which opens "be filled with the Spirit" (5:18). So the
+Gentiles" (Ephesians 3:1). "An ambassador in chains" (Ephesians 6:20). And the marriage passage sits inside a long
+section on Spirit-filled conduct, which opens "be filled with the Spirit" (Ephesians 5:18). So the
 husband-and-wife material is an application of that. It is not a treatise on marriage.
 
 **Revelation** is written to seven
-named congregations in Asia (1:4) by a man in exile on Patmos "on account of the word of God and the
-testimony of Jesus" (1:9). Its wedding is announced to churches under pressure.
+named congregations in Asia (Revelation 1:4) by a man in exile on Patmos "on account of the word of God and the
+testimony of Jesus" (Revelation 1:9). Its wedding is announced to churches under pressure.
 
 ### Where an author states it outright
 
@@ -135,9 +135,9 @@ honored for honoring the groom, not for seeking his own honor" (*NIV Cultural Ba
 Bible*, note on John 3:29). John is describing his own job.
 
 **Revelation, the end times.** "The marriage of the Lamb has come, and his Bride has made herself
-ready" (19:7); "Blessed are those who are invited to the marriage supper of the Lamb" (19:9); the new
-Jerusalem "prepared as a bride adorned for her husband" (21:2); "Come, I will show you the Bride, the
-wife of the Lamb" (21:9).
+ready" (Revelation 19:7); "Blessed are those who are invited to the marriage supper of the Lamb" (Revelation 19:9); the new
+Jerusalem "prepared as a bride adorned for her husband" (Revelation 21:2); "Come, I will show you the Bride, the
+wife of the Lamb" (Revelation 21:9).
 
 **The Old Testament spine underneath.** God as husband to His people runs through the prophets —
 Hosea 2:19-20, Isaiah 54:5, 62:5, Jeremiah 2:2 and 31:32, Ezekiel 16. The imagery
@@ -197,22 +197,22 @@ Christ who bought you, and you are betrothed to Him.**
 
 ### Why this belongs to the church, and why now
 
-Ephesians uses μυστήριον (*mystērion*, G3466) six times — 1:9, 3:3, 3:4, 3:9, 5:32 and 6:19 — and
+Ephesians uses μυστήριον (*mystērion*, G3466) six times — Ephesians 1:9, 3:3, 3:4, 3:9, 5:32 and 6:19 — and
 defines the word in the middle of them. The mystery "was not made known to the sons of men in other
-generations as it has now been revealed to his holy apostles and prophets by the Spirit" (3:5, ESV).
+generations as it has now been revealed to his holy apostles and prophets by the Spirit" (Ephesians 3:5, ESV).
 Kept back, then announced. [Israel and the
 Church](israel-and-the-church.md#what-scripture-means-by-a-mystery) traces that sense to Daniel's
 <span dir="rtl">רָז</span> (*raz*, H7328).
 
 Paul then lays that same word on the marriage: "This mystery is profound, and I am saying that it
-refers to Christ and the church" (5:32, ESV). The bridal relation therefore stands on the disclosed
+refers to Christ and the church" (Ephesians 5:32, ESV). The bridal relation therefore stands on the disclosed
 side of Ephesians' own then-and-now line — a relation announced in this age, to the body Ephesians
 3:6 describes as Jew and Gentile made joint-heirs in one. The word choice establishes the period,
-and that is all it establishes: Paul does not say at 5:32 that this is the same mystery as 3:6, and
+and that is all it establishes: Paul does not say at Ephesians 5:32 that this is the same mystery as 3:6, and
 the word alone leaves the question of the church's distinctness from Israel open.
 
 Israel's betrothal is not cancelled by it. "I will betroth you to me forever" is still future when
-Hosea writes it (2:19), and the prophets keep God's marriage to Israel in view to the end of the
+Hosea writes it (Hosea 2:19), and the prophets keep God's marriage to Israel in view to the end of the
 canon. The dispensational reading holds both at once: Israel remains the wife of the LORD, restored
 on His oath, and the church is the bride of Christ, betrothed in this present age. That is one
 Husband with two covenanted peoples: the Son is the LORD who married Israel, and the distinction lies
@@ -236,7 +236,7 @@ things already done to the church.
 | 4 | **[Set apart](#4-set-apart-already-yours)** | Betrothal as "the sanctification of the bride" (*NIV Cultural Backgrounds Study Bible*, note on Ephesians 5:26) | "Then I bathed you with water… and anointed you with oil" (Ezekiel 16:9) | "you were washed, you were sanctified" (1 Corinthians 6:11); "having cleansed her by the washing of water with the word" (Ephesians 5:26) |
 | 5 | **[Preparing](#5-preparing-where-you-are-now)** | [Twelve months, and the groom prepares through the same twelve](#the-after-betrothal-interval-is-a-time-of-preparation) (*m. Ketubot* 5:2) | — | "I go to prepare a place for you" (John 14:2); "that he might [present the church to himself in splendor](#he-presents-her-holy-and-he-is-the-one-who-makes-her-so)" (Ephesians 5:27); "his Bride has made herself ready" (Revelation 19:7) |
 | 6 | **[Fetched](#6-fetched-still-ahead)** | The groom comes, usually after dark, at a time his family's preparations decide (CBSB, note on Matthew 25:1) | — | "Come out to meet him" (Matthew 25:6); "caught up… to meet the Lord in the air" (1 Thessalonians 4:17) |
-| 7 | **[Married, and feasting](#7-married-and-feasting-still-ahead)** | [Seven days](#the-feast) (Genesis 29:27; Judges 14:12), fourteen in Tobit (8:19-20) | "a feast of rich food… for all peoples" (Isaiah 25:6) | "the marriage of the Lamb has come" (Revelation 19:7); "the marriage supper of the Lamb" (19:9) |
+| 7 | **[Married, and feasting](#7-married-and-feasting-still-ahead)** | [Seven days](#the-feast) (Genesis 29:27; Judges 14:12), fourteen in Tobit (8:19-20) | "a feast of rich food… for all peoples" (Isaiah 25:6) | "the marriage of the Lamb has come" (Revelation 19:7); "the marriage supper of the Lamb" (Revelation 19:9) |
 | 8 | **[Homed](#8-homed-still-ahead)** | [The couple live at the groom's father's house](#the-couple-lived-at-the-grooms-fathers-house) (CBSB, note on Matthew 25:10; Tobit 7:13) | "the place, O LORD, which you have made for your abode" (Exodus 15:17) | "In my Father's house are many rooms" (John 14:2); "the dwelling place of God is with man" (Revelation 21:3) |
 
 All quotations ESV. Components 1-4 are complete for every believer; 5 is the one you are standing
@@ -306,15 +306,15 @@ witnesses this day."
 So Ruth joins two laws in one practice: the near kinsman's redemption of the land, and the levirate
 marriage that raises up the dead man's name. The *ESV Study Bible* calls them "two legal institutions
 combined in one practice (which the Law of Moses does not require)" (introduction to Ruth). The
-Hebrew of 4:5 shows the join. The written text reads <span dir="rtl">קניתי</span>, "I acquire", with
+Hebrew of Ruth 4:5 shows the join. The written text reads <span dir="rtl">קניתי</span>, "I acquire", with
 Boaz speaking of himself; the text as read, and the ESV, have "you also acquire Ruth", said to the
 nearer redeemer. On either reading the field and the widow go to one man, at one gate, before the
 same witnesses, and the woman acquired is called a Moabite at the moment it happens — a foreigner,
 named as one, brought inside.
 
 The women of Bethlehem say what has been done: "Blessed be the LORD, who has not left you this day
-without a redeemer" (Ruth 4:14, ESV). The redeemer they mean is the child on Naomi's lap (4:16), "a restorer
-of life" (4:15, ESV), and his line runs to David (4:17). God keeps a redeemer in the family line until
+without a redeemer" (Ruth 4:14, ESV). The redeemer they mean is the child on Naomi's lap (Ruth 4:16), "a restorer
+of life" (Ruth 4:15, ESV), and his line runs to David (Ruth 4:17). God keeps a redeemer in the family line until
 He sends His Son. Christ gives His blood to redeem His bride: He is her kinsman, redeemer, and
 bridegroom.
 
@@ -433,7 +433,7 @@ staff" (Genesis 38:25, WEB).
 Paul puts those same two things in a single clause. God "has also put his seal on us and given us
 his Spirit in our hearts as a guarantee" (2 Corinthians 1:22, ESV) — sealed and deposited, the pair
 the Judah scene already holds. Ephesians says it again: you "were sealed with the promised Holy
-Spirit" (1:13, ESV), who is then "the guarantee of our inheritance" (1:14, ESV).
+Spirit" (Ephesians 1:13, ESV), who is then "the guarantee of our inheritance" (Ephesians 1:14, ESV).
 
 The Spirit is God's seal and pledge to you until Christ comes.
 
@@ -454,8 +454,8 @@ Salvation](../salvation/assurance-of-salvation.md) works that through on its own
 > 9 "'"Then I washed you with water. Yes, I thoroughly washed away your blood from you, and I
 > anointed you with oil.
 
-Washed, then anointed, then clothed — Ezekiel goes on to "fine linen" and "silk" (16:10, WEB), the
-wardrobe Revelation hands back to the Bride at 19:8. Every verb in the sequence has God as its
+Washed, then anointed, then clothed — Ezekiel goes on to "fine linen" and "silk" (Ezekiel 16:10, WEB), the
+wardrobe Revelation hands back to the Bride at Revelation 19:8. Every verb in the sequence has God as its
 subject; the foundling does nothing to herself.
 
 Paul says the same of the church in three aorists stacked together: "you were washed, you were
@@ -500,7 +500,7 @@ sanctification is. On that usage the betrothal is itself the sanctifying act, wh
 can be addressed as holy now and still be told to become so.
 
 Revelation's two clauses then sit together without strain. The Bride "has made herself ready," and
-"it was granted her to clothe herself with fine linen, bright and pure" (19:7-8, ESV). The readiness
+"it was granted her to clothe herself with fine linen, bright and pure" (Revelation 19:7-8, ESV). The readiness
 is hers; the cloth is issued to her. God grants the bride the clothing and readiness she needs. Paul
 states the same promise without the wedding image: "he who began a good work in you will
 bring it to completion at the day of Jesus Christ" (Philippians 1:6, ESV).
@@ -589,9 +589,9 @@ escorts Christ down to earth (note on 1 Thessalonians 4:17). That conclusion is 
 Rapture of the Church](../last-things/rapture.md) sets out the case under the *apantēsis* objection.
 The permanence is Paul's point.
 
-Then comes his instruction: "Therefore encourage one another with these words" (4:18). The occasion
+Then comes his instruction: "Therefore encourage one another with these words" (1 Thessalonians 4:18). The occasion
 was grief — the Thessalonians had buried believers and did not know what had become of them (*ESV
-Study Bible*, note on 4:13-18). Paul gives this teaching to comfort grieving believers. When you sit with someone
+Study Bible*, note on 1 Thessalonians 4:13-18). Paul gives this teaching to comfort grieving believers. When you sit with someone
 who has just buried a Christian, this is the passage you were given for it, and "always" is the word
 in it to say out loud.
 
@@ -608,7 +608,7 @@ Revelation's marriage supper was not a fresh metaphor to its first
 readers. "The wedding banquet was a frequent Jewish figure for the coming Messianic era, based on a
 promised future banquet (Isa 25:6) when God would destroy death and remove the tears and shame of his
 people (Isa 25:8)" (*NIV Cultural Backgrounds Study Bible*, note on Revelation 19:7). Revelation
-19:8's fine linen "may recall the bridal array of righteousness in Isa 61:10" (note on 19:8).
+19:8's fine linen "may recall the bridal array of righteousness in Isa 61:10" (note on Revelation 19:8).
 
 ### The cup He promised to finish
 
@@ -630,7 +630,7 @@ Exodus attaches to the fourth.
 invited to the marriage supper of the Lamb" (Revelation 19:9, ESV): dispensational writers usually
 read those guests as a company distinct from the bride, with Old Testament and tribulation saints
 among them, while the *ESV Study Bible* reads the invited as believers who belong to the bride
-herself (note on 19:9-10). Revelation says which blessing they receive and never says which company
+herself (note on Revelation 19:9-10). Revelation says which blessing they receive and never says which company
 they are.
 
 ### Where the thousand years falls
@@ -751,7 +751,7 @@ word's range, and holding the two together is the point: the bride is occupied, 
 is priestly.
 
 The second is **sight**: "They will see his face, and his name will be on their foreheads"
-(Revelation 22:4, ESV). The third is **rule**: "and they will reign forever and ever" (22:5, ESV),
+(Revelation 22:4, ESV). The third is **rule**: "and they will reign forever and ever" (Revelation 22:5, ESV),
 which runs on past the thousand years. And the house has traffic through it — "By its light will the
 nations walk, and the kings of the earth will bring their glory into it" (Revelation 21:24, ESV).
 

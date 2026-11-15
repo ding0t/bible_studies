@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Ezekiel 1:26-28; Revelation 21:9-21"
 bible_references: ["John 1:7-9", "John 5:35", "Exodus 28:17-21", "Exodus 28:22-25", "Exodus 28:29", "Joshua 19:47", "Exodus 24:10", "Exodus 28:9-12", "Genesis 2:12", "Ezekiel 1:4", "Ezekiel 1:16", "Ezekiel 1:22", "Ezekiel 10:1", "Ezekiel 10:9", "Ezekiel 28:12-17", "Daniel 10:6", "Daniel 12:3", "Isaiah 54:11-12", "Isaiah 60:19", "Zechariah 9:16", "Revelation 4:2-6", "Revelation 17:4", "Revelation 18:16", "Revelation 21:23", "Philippians 2:15", "2 Corinthians 3:18", "2 Corinthians 4:6", "John 8:12", "Matthew 5:14-16", "1 Peter 2:5", "1 John 1:5", "Genesis 9:13"]
 date_created: 2026-10-29
-date_modified: 2026-10-30
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -489,7 +489,7 @@ The Hebrew names nine stones, all from the breastpiece. The Septuagint names all
 τοπάζιον, σμάραγδος, ἄνθραξ, σάπφειρος, ἴασπις, then λιγύριον, ἀχάτης, ἀμέθυστος, χρυσόλιθος,
 βηρύλλιον, ὀνύχιον, in exactly the breastpiece's order, with silver and gold after the sixth. In
 that text the king wears every stone of the high priest's breastpiece, and no tribe is named on
-them. (The Septuagint also places him "with the cherub" in 28:14, where the Hebrew calls him one.) Then: "Your heart was
+them. (The Septuagint also places him "with the cherub" in Ezekiel 28:14, where the Hebrew calls him one.) Then: "Your heart was
 proud because of your beauty; you corrupted your wisdom for the sake of your splendor" (Ezekiel
 28:17, ESV).
 

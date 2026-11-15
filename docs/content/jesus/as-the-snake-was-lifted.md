@@ -113,9 +113,9 @@ application.
 
 **Numbers.** Old Testament narrative inside a covenant history. It reports what happened and lets
 placement and outcome carry the verdict, without stopping to tell the reader what to conclude — so
-where an episode sits in the book is part of what it means. The events of 21:4-9 fall near the end
+where an episode sits in the book is part of what it means. The events of Numbers 21:4-9 fall near the end
 of the forty years, shortly after Aaron's death (Numbers 20:22-29) and Edom's refusal of passage,
-which forced the detour "by the way to the Red Sea" (21:4). Authorship is traditionally Mosaic. The
+which forced the detour "by the way to the Red Sea" (Numbers 21:4). Authorship is traditionally Mosaic. The
 book's arc runs from a first generation that dies in the wilderness to a second standing at the edge
 of Canaan, and it is the second generation the finished book addresses.
 
@@ -128,15 +128,15 @@ narrated.
 ### The last murmuring episode
 
 **The complaint and the judgment.** The grievance is specific — "there is no food and no water, and
-we loathe this worthless food" (21:5) — and it is aimed at God's own provision, the manna. The
-serpents of 21:6 answer rebellion against that provision with an immediate, visible consequence.
+we loathe this worthless food" (Numbers 21:5) — and it is aimed at God's own provision, the manna. The
+serpents of Numbers 21:6 answer rebellion against that provision with an immediate, visible consequence.
 
 This is the last of the wilderness generation's murmuring episodes, and Numbers 11:1-3 is its
 closest match: the people complain, fire falls, they cry to Moses, Moses prays, the fire abates.
 Numbers 16 runs the same course, ending with Aaron's censer between the dead and the living
-(16:46-48). The form is not universal. Exodus 16's grumbling draws provision with no judgment at
-all (16:2-5), and Numbers 14's confession comes after sentence has been passed and is answered with
-defeat at Hormah (14:39-45).
+(Numbers 16:46-48). The form is not universal. Exodus 16's grumbling draws provision with no judgment at
+all (Exodus 16:2-5), and Numbers 14's confession comes after sentence has been passed and is answered with
+defeat at Hormah (Numbers 14:39-45).
 
 ### The serpent image, from Egypt to Hezekiah
 
@@ -159,15 +159,15 @@ the same list as an Asherah pole.
 ### Where each passage sits
 
 **Numbers 21:4-9** is the final murmuring-and-judgment unit of the wilderness period, sitting where
-the book turns from wandering to conquest: itinerary notices follow (21:10-20), then the defeats of
-Sihon and Og (21:21-35). Inside the unit, the point is that trusting God's provided remedy turns
+the book turns from wandering to conquest: itinerary notices follow (Numbers 21:10-20), then the defeats of
+Sihon and Og (Numbers 21:21-35). Inside the unit, the point is that trusting God's provided remedy turns
 judgment into life — for the generation whose entire history has been unbelief.
 
 **John 3:14-15** sits inside Jesus's night conversation with Nicodemus (John 3:1-21), after Jesus
-asks "the teacher of Israel" why he does not understand these things (3:10), implying the Hebrew
+asks "the teacher of Israel" why he does not understand these things (John 3:10), implying the Hebrew
 Scriptures Nicodemus taught should already have prepared him. Three verses intervene before the
 serpent, and the last of them sets the title: no one has ascended into heaven except the Son of Man
-who came down from it (3:13). That same Son of Man is the one who "must be lifted up" in 3:14.
+who came down from it (John 3:13). That same Son of Man is the one who "must be lifted up" in John 3:14.
 
 ### John 3:16 continues the sentence
 
@@ -181,10 +181,10 @@ manner reading of **οὕτως** (G3779, "in this way": God loved the world by 
 the serpent), the most quoted verse in the Bible is the explanation of the bronze serpent. That
 reading is contested. The CSB and LSB footnote "in this way", and the NLT footnotes "so much", which
 hears the size of the love. Both readings put the giving of the Son at the centre, and the
-connection to 3:14-15 holds on either, because 3:16 opens with "for". See [Verses Quoted
+connection to John 3:14-15 holds on either, because 3:16 opens with "for". See [Verses Quoted
 Well](../scripture/verses-quoted-well.md) for the two readings side by side.
 
-**A textual note on 3:15.** Translations diverge here because the manuscripts do. The ASV reads
+**A textual note on John 3:15.** Translations diverge here because the manuscripts do. The ASV reads
 "that whosoever believeth may in him have eternal life" (John 3:15, ASV); the WEB reads "that
 whoever believes in him should not perish, but have eternal life" (John 3:15, WEB), carrying a
 longer reading assimilated to 3:16 in the later Greek text. The ESV quoted above follows the shorter
@@ -192,10 +192,10 @@ one. Nothing in the typology turns on the difference.
 
 ### "Lifted up" across John
 
-**"Lifted up" is John's word for the cross.** The verb returns at 8:28 — "When you have lifted up
+**"Lifted up" is John's word for the cross.** The verb returns at John 8:28 — "When you have lifted up
 the Son of Man, then you will know that I am he" (John 8:28, WEB) — and at 12:32: "And I, if I am
 lifted up from the earth, will draw all people to myself" (John 12:32, WEB), where John adds his own
-gloss for the reader, "But he said this, signifying by what kind of death he should die" (12:33,
+gloss for the reader, "But he said this, signifying by what kind of death he should die" (John 12:33,
 WEB). Every one of these is spoken before the crucifixion happens; the Nicodemus conversation is
 chapter 3 of 21. The word predicts the cross without naming it.
 
@@ -235,7 +235,7 @@ full.
 
 **ὑψόω** (*hypsoō*, "to lift up, exalt," G5312) — the load-bearing term. John uses it twice in one
 sentence at 3:14: Moses **ὕψωσεν** the serpent, and the Son of Man must **ὑψωθῆναι**. John's own
-gloss at 12:33 fixes what he means by it — the manner of Jesus's death.
+gloss at John 12:33 fixes what he means by it — the manner of Jesus's death.
 
 Where else the verb appears is what gives the choice its weight. The Septuagint opens Isaiah's fourth
 Servant Song with it: **Ἰδοὺ συνήσει ὁ παῖς μου, καὶ ὑψωθήσεται καὶ δοξασθήσεται σφόδρα** (Isaiah
@@ -246,7 +246,7 @@ and <span dir="rtl">וְגָבַהּ</span> (*vegavah*, H1361): "he will be high
 and greatly exalted."
 
 John's vocabulary then splits along a clean line. Every saying about Jesus's death spoken *before* it
-happens uses *hypsoō*: twice at 3:14, again at 8:28, and twice more at 12:32 and 12:34. Once the
+happens uses *hypsoō*: twice at John 3:14, again at 8:28, and twice more at 12:32 and 12:34. Once the
 narrative reaches the event, John writes **σταυρόω** (*stauroō*, "crucify," G4717) eleven times in
 chapter 19, and never uses *hypsoō* again. The veiled word carries the prediction; the plain word
 reports the execution. And the veiled word is Isaiah's word for the Servant's glory — which is why,
@@ -254,7 +254,7 @@ in John, the cross is the humiliation and the enthronement at once.
 
 ### ὄφις: the serpent from Genesis to Revelation
 
-**ὄφις** (*ophis*, "serpent," G3789). The word John uses of the bronze serpent at 3:14
+**ὄφις** (*ophis*, "serpent," G3789). The word John uses of the bronze serpent at John 3:14
 (**τὸν ὄφιν**) is the word Revelation uses of Satan: **ὁ ὄφις ὁ ἀρχαῖος**, "the old serpent, he who
 is called the devil and Satan" (Revelation 12:9, WEB). The chain runs the length of Scripture:
 
@@ -319,7 +319,7 @@ elsewhere in Scripture, and does not rest on the serpent typology alone.
 - ESV Bible (Crossway) — the two block quotations above and the short quotations marked (ESV).
 - World English Bible (WEB) and American Standard Version (ASV, 1901) — quoted where marked, and
   used for translation comparison. The two diverge at John 3:15: ASV carries the shorter reading of
-  the critical text, WEB the longer reading assimilated to 3:16 in the later Greek text. Numbers
+  the critical text, WEB the longer reading assimilated to John 3:16 in the later Greek text. Numbers
   21:4-9 is textually stable across both.
 - MACULA Greek Linguistic Datasets (SBLGNT), MACULA Hebrew Linguistic Datasets (WLC), the Westminster
   Leningrad Codex, and the Brenton Septuagint, queried via this repo's

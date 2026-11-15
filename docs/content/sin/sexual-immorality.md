@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Corinthians 6:12-20"
 bible_references: ["Genesis 2:24", "Genesis 39:9-12", "Exodus 32:6", "Leviticus 17:8-13", "Leviticus 18:24-26", "Numbers 25:1-2", "Deuteronomy 10:20", "Proverbs 6:32", "Matthew 5:27-28", "Matthew 15:19", "Matthew 19:4-6", "Mark 7:21-23", "Acts 15:20", "1 Corinthians 3:16", "1 Corinthians 5:1", "1 Corinthians 6:9-11", "1 Corinthians 7:2-4", "1 Corinthians 7:23", "1 Corinthians 10:13-14", "1 Corinthians 10:23", "2 Corinthians 11:2", "Ephesians 5:3", "Ephesians 5:31-32", "1 Thessalonians 4:3-8", "Hebrews 4:15-16", "Hebrews 13:4", "1 Peter 1:18-19", "1 John 1:9", "Revelation 5:9", "Deuteronomy 11:22", "Deuteronomy 30:20", "Joshua 23:8", "Jeremiah 3:20", "Malachi 2:14", "James 4:4", "2 Timothy 2:22"]
 date_created: 2026-01-11
-date_modified: 2026-11-01
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -152,7 +152,7 @@ one block about bodies and sex: a man living with his stepmother (1 Corinthians 
 (1 Corinthians 6:12-20), and then marriage, "because of the temptation to sexual immorality" (1 Corinthians 7:2, ESV). Five of
 Paul's ten uses of πορνεία are in these three chapters.
 
-The ESV Study Bible reads 6:12-20 as a response to Corinthian believers who were using prostitutes,
+The ESV Study Bible reads 1 Corinthians 6:12-20 as a response to Corinthian believers who were using prostitutes,
 and Paul's argument requires it: "Shall I then take the members of Christ and make them members of
 a prostitute?" (1 Corinthians 6:15, ESV). Here is the whole passage.
 
@@ -220,7 +220,7 @@ Paul's next step turns on a single verb.
 > to a prostitute becomes one body with her? For, as it is written, "The two will become one
 > flesh." 17 But he who is joined to the Lord becomes one spirit with him.
 
-"Joined" in 6:16 and 6:17 translates the same participle, κολλώμενος, from κολλάω (*kollaō*,
+"Joined" in 1 Corinthians 6:16 and 6:17 translates the same participle, κολλώμενος, from κολλάω (*kollaō*,
 kol-LAH-oh, G2853), "to join, to cling, to hold fast." It is the verb Jesus uses when He quotes
 Genesis 2:24: the man "will be joined" (κολληθήσεται) to his wife (Matthew 19:5; the Septuagint of
 Genesis has the compound προσκολλάω). Behind both stands the Hebrew <span dir="rtl">דָּבַק</span>
@@ -367,7 +367,7 @@ who lives in the temple of 1 Corinthians 6:19.
 
 ### Such were some of you
 
-Paul's argument in 6:12-20 stands on the verses just before it. After the list of those who will
+Paul's argument in 1 Corinthians 6:12-20 stands on the verses just before it. After the list of those who will
 not inherit the kingdom, headed by "the sexually immoral," he writes:
 
 > ✝️ 1 Corinthians 6:11 (ESV)
@@ -377,7 +377,7 @@ not inherit the kingdom, headed by "the sexually immoral," he writes:
 
 Some of the Corinthians had been exactly what the list names. Three verbs describe what God had done for them: washed, sanctified, justified, each in the past
 tense, each done "in the name of the Lord Jesus Christ and by the Spirit of our God." The command to flee is
-addressed to people already washed. Purity in 6:12-20 is the life of the justified, and the call is
+addressed to people already washed. Purity in 1 Corinthians 6:12-20 is the life of the justified, and the call is
 to live as what God has already made you.
 
 For a believer who has fallen, the same God remains faithful: "If we confess our sins, he is
@@ -436,8 +436,8 @@ with His Spirit, so you may flee immorality and glorify God in your body.
   1 Corinthians 6:13-20, Genesis 2:24, Deuteronomy 10:20 and Proverbs 6:32.
 - **Brenton's Septuagint** (eBible.org) — Genesis 2:24 (προσκολλάω) and Deuteronomy 10:20 (κολλάω).
 - ***ESV Study Bible*** (Crossway) — consulted after the exegesis, as a check. Introduction to 1
-  Corinthians for date and place; notes on 6:12-20 (believers using prostitutes) and 6:16-18 (sin
-  against Christ and the body; the "flee" of 10:14); and on Acts 15:19-21 (the ban on sexual
+  Corinthians for date and place; notes on 1 Corinthians 6:12-20 (believers using prostitutes) and 6:16-18 (sin
+  against Christ and the body; the "flee" of 1 Corinthians 10:14); and on Acts 15:19-21 (the ban on sexual
   immorality as lasting moral law).
 - ***NIV Biblical Theology Study Bible*** (Zondervan), gen. ed. D. A. Carson — 1 Corinthians 6:18
   (the union of two bodies); Acts 15:20 (the parallels with Leviticus 17-18).

@@ -6,7 +6,7 @@ tags: ["status/investigation", "demons", "spiritual-warfare", "ministry", "metho
 draft: false
 bible_references: ["Matthew 12:43-44", "Matthew 12:28", "Ephesians 1:14", "1 Peter 2:9", "1 Corinthians 3:23", "1 John 4:4", "2 Corinthians 5:17-18", "Colossians 1:12-13", "1 Corinthians 6:19-20", "1 Corinthians 6:17", "Mark 5:12", "1 Corinthians 12:1-11", "John 10:20-21", "2 Corinthians 12:7", "James 4:7"]
 date_created: 2024-04-23
-date_modified: 2026-10-09
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-4.8
   - anthropic/claude-opus-5
@@ -74,7 +74,7 @@ itself uses it.
 
 The one instance outside the healing narratives comes in John 10. At John 10:20 a hostile
 crowd says of Jesus Himself, "He has a demon, and is insane; why listen to him?" (ESV; the Greek is
-δαιμόνιον ἔχει, "has a demon"). Others reply in 10:21, "These are not the words of one who is
+δαιμόνιον ἔχει, "has a demon"). Others reply in John 10:21, "These are not the words of one who is
 oppressed by a demon. Can a demon open the eyes of the blind?" (ESV). The verb δαιμονίζομαι is in
 that reply, as a participle (δαιμονιζομένου). The crowd's accusation is false. It shows that the
 term serves as a claim about someone's state, made by an onlooker, and carries no fixed clinical

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 8:6-9:21; 11:15-19"
 bible_references: ["Numbers 10:1-10", "Numbers 31:6", "Exodus 19:16-19", "Leviticus 23:23-25", "Leviticus 25:8-12", "Joshua 6:4-5", "Judges 7:16-22", "1 Kings 1:34-39", "Amos 3:6", "Joel 2:1-11", "Zephaniah 1:14-16", "Isaiah 18:3", "Isaiah 27:12-13", "Matthew 24:29-31", "1 Corinthians 14:8", "1 Corinthians 15:51-53", "1 Thessalonians 4:16-17", "Revelation 4:1", "Revelation 10:7", "Revelation 19:11-16"]
 date_created: 2025-05-21
-date_modified: 2026-10-09
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -122,15 +122,15 @@ The New Testament's Greek draws no such distinction: **σάλπιγξ (*salpigx*
 
 Five purposes recur across the Old Testament, each with its own text:
 
-- **To gather the assembly.** "You shall use them for summoning the congregation" (Numbers 10:2-3, ESV). Both trumpets blown in long notes called everyone (10:3, 7); blowing just one trumpet called only the tribal leaders (10:4).
+- **To gather the assembly.** "You shall use them for summoning the congregation" (Numbers 10:2-3, ESV). Both trumpets blown in long notes called everyone (Numbers 10:3, 7); blowing just one trumpet called only the tribal leaders (Numbers 10:4).
 - **To move the camp.** A different pattern, short staccato blasts sounding an *alarm*, signaled each tribal division in turn to break camp and march (Numbers 10:5-6).
 - **To sound a war alarm.** "And when you go to war in your land against the adversary who oppresses you, then you shall sound an alarm with the trumpets, that you may be remembered before the LORD your God, and you shall be saved from your enemies" (Numbers 10:9, ESV).
 
     Here the trumpet works as a prayer as well as a signal: a plea attached to the sound itself.[^esvsb-num10] Gideon's three hundred each carried one into battle against Midian (Judges 7:16-22), and Joshua's seven priests carried rams' horns around Jericho for seven days before the city's wall fell at the sound (Joshua 6:4-5).
 - **To mark sacred time.** "At your appointed feasts... you shall blow the trumpets... they shall be a reminder of you before your God" (Numbers 10:10, ESV); the ram's horn specifically announced the Day of Atonement and, every fifty years, the start of Jubilee: "you shall sound the loud trumpet... and proclaim liberty throughout the land" (Leviticus 25:9-10, ESV).
-- **To announce a king.** When Solomon was anointed, the command was explicit: "Then blow the trumpet and say, 'Long live King Solomon!'" (1 Kings 1:34, ESV). When it happened, "they blew the trumpet, and all the people said, 'Long live King Solomon!'" (1:39, ESV). A trumpet blast was, in ancient Israel, the sound of a coronation.
+- **To announce a king.** When Solomon was anointed, the command was explicit: "Then blow the trumpet and say, 'Long live King Solomon!'" (1 Kings 1:34, ESV). When it happened, "they blew the trumpet, and all the people said, 'Long live King Solomon!'" (1 Kings 1:39, ESV). A trumpet blast was, in ancient Israel, the sound of a coronation.
 
-The purpose the prophets return to most is the warning: "Is a trumpet blown in a city, and the people are not afraid?" (Amos 3:6, ESV). Zephaniah names an entire coming day by its trumpet: "a day of trumpet blast and battle cry" (Zephaniah 1:16, ESV). Joel opens his description of the Day of the LORD the same way: "Blow a trumpet in Zion; sound an alarm on my holy mountain" (Joel 2:1, ESV). He then describes an invading army "like the appearance of horses," advancing in unbroken ranks, darkening the sun and moon (2:4-10). That image (locust-like, horse-shaped, unstoppable, sun-darkening) resurfaces almost unchanged under Revelation's fifth trumpet.
+The purpose the prophets return to most is the warning: "Is a trumpet blown in a city, and the people are not afraid?" (Amos 3:6, ESV). Zephaniah names an entire coming day by its trumpet: "a day of trumpet blast and battle cry" (Zephaniah 1:16, ESV). Joel opens his description of the Day of the LORD the same way: "Blow a trumpet in Zion; sound an alarm on my holy mountain" (Joel 2:1, ESV). He then describes an invading army "like the appearance of horses," advancing in unbroken ranks, darkening the sun and moon (Joel 2:4-10). That image (locust-like, horse-shaped, unstoppable, sun-darkening) resurfaces almost unchanged under Revelation's fifth trumpet.
 
 ## The trumpet as theophany: Sinai
 
@@ -146,7 +146,7 @@ signify the LORD's presence... a continual reminder to Israel that the LORD had 
 Moses."[^esvsb-exod19]
 
 Here the trumpet is part of what God's presence
-sounds like, growing "louder and louder" as the mountain shakes (19:19).
+sounds like, growing "louder and louder" as the mountain shakes (Exodus 19:19).
 
 Every later trumpet in Israel's worship inherits that first association: gathering the
 congregation, marking a feast, sounding Atonement. The sound itself means *the LORD is here*.
@@ -241,9 +241,9 @@ scene concerns believers already united to Christ.
 ### Matthew 24: Israel's regathering after tribulation
 
 **Matthew 24:29-31** is different in every one of those respects. It comes explicitly "immediately
-after the tribulation of those days" (24:29, ESV), a stated chronological marker neither
+after the tribulation of those days" (Matthew 24:29, ESV), a stated chronological marker neither
 Corinthians nor Thessalonians carries. And it describes Christ's visible appearing "with power and
-great glory," at which His angels "will gather his elect from the four winds" (24:30-31).
+great glory," at which His angels "will gather his elect from the four winds" (Matthew 24:30-31).
 
 The *Cultural Backgrounds Study Bible* traces this trumpet image to Jewish end-time expectation
 rooted in Isaiah 27:12-13, a passage naming Israel specifically. Exiled Israelites "lost in the land
@@ -256,7 +256,7 @@ air".
 
 ### Revelation 11: a kingdom announcement and judgment
 
-**Revelation 11:15-19**, the seventh trumpet studied above, differs from both: it is the last of a numbered judgment sequence falling on "those who dwell on the earth" (8:13), and its content is a kingdom announcement and a reckoning: "the time for the dead to be judged, and for rewarding your servants, the prophets and saints, and those who fear your name, both small and great, and for destroying the destroyers of the earth" (11:18, ESV). It describes no resurrection of the righteous dead in Christ.
+**Revelation 11:15-19**, the seventh trumpet studied above, differs from both: it is the last of a numbered judgment sequence falling on "those who dwell on the earth" (Revelation 8:13), and its content is a kingdom announcement and a reckoning: "the time for the dead to be judged, and for rewarding your servants, the prophets and saints, and those who fear your name, both small and great, and for destroying the destroyers of the earth" (Revelation 11:18, ESV). It describes no resurrection of the righteous dead in Christ.
 
 ### A counter-reading, and this study's timing distinction
 

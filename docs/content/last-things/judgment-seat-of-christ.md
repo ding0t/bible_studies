@@ -411,7 +411,7 @@ and unbelievers together. The case is in the text:
   well-doing seek for glory and honor and immortality, he will give eternal life" (ESV).
 - The book of life is opened at the great white throne (Revelation 20:12, 15), which would be pointless
   if no name in it were present. The *ESV Study Bible* reads "the dead, great and small" as including
-  the saints of Revelation 11:18 and 19:5 (note on 20:12).
+  the saints of Revelation 11:18 and 19:5 (note on Revelation 20:12).
 
 ### The case for two judgments
 
@@ -422,7 +422,7 @@ Paul ties the believer's commendation to the Lord's coming (1 Corinthians 4:5). 
 read on this view as the judgment of the nations living at His return, a third scene. The "hour" of
 John 5:28 can span an age, as the hour that "is now here" in John 5:25 (ESV) has. Revelation 11:18 is read as compressing the end, and
 the *ESV Study Bible* notes that many futurists take the verse to skip forward beyond the millennium
-to the final judgment (note on 11:15-18).
+to the final judgment (note on Revelation 11:15-18).
 
 ### What stays open
 

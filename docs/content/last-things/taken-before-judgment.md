@@ -103,7 +103,7 @@ recognisable pattern.
 
 This study's claim is modest. The New Testament writers name Enoch, Noah and Lot,
 and Jesus names Noah and Lot in the same breath as His coming (Luke 17:26-30). No New Testament writer
-sets Enoch beside the rapture in so many words. Hebrews uses Enoch for faith (11:5-6). Jude uses him
+sets Enoch beside the rapture in so many words. Hebrews uses Enoch for faith (Hebrews 11:5-6). Jude uses him
 for his prophecy (14-15). Reading Enoch as a picture of the rapture is an inference from pattern, and
 it is only as strong as the direct texts it illustrates. Those texts are strong, and they are
 collected in [The Rapture of the Church](rapture.md).
@@ -112,15 +112,15 @@ collected in [The Rapture of the Church](rapture.md).
 
 "Enoch walked with God, and he was not, for God took him" (Genesis 5:24, ESV). Genesis 5 is a
 genealogy with a refrain. Each man lives, fathers a son, lives on, "and he died." Enoch's entry breaks
-the refrain twice. Where the others simply live, "Enoch walked with God" (5:22, ESV). Where the others
-die, "he was not, for God took him." He was 365 years old (5:23).
+the refrain twice. Where the others simply live, "Enoch walked with God" (Genesis 5:22, ESV). Where the others
+die, "he was not, for God took him." He was 365 years old (Genesis 5:23).
 
 ### What the Hebrew says
 
 Two details in the Hebrew sharpen this. "Walked" is <span dir="rtl">וַיִּתְהַלֵּךְ</span>
 (*wayyithallēkh*), from <span dir="rtl">הָלַךְ</span> (*hālakh*, H1980), a Hithpael, the stem
 that carries iterative or habitual action. It describes a sustained manner of life, "walked about with
-God," and Genesis uses the same form twice (5:22, 5:24) to frame the three hundred years between. The *ESV Study Bible* notes the same stem for Noah (6:9). The stem marks the intimacy, and what God did with each man was His own choice. The
+God," and Genesis uses the same form twice (Genesis 5:22, 5:24) to frame the three hundred years between. The *ESV Study Bible* notes the same stem for Noah (Genesis 6:9). The stem marks the intimacy, and what God did with each man was His own choice. The
 Septuagint renders it with εὐαρεστέω (*euaresteō*, yoo-ah-res-TEH-oh, G2100), "pleased" God, and Hebrews
 picks up that verb: "before he
 was taken he was commended as having pleased God" (Hebrews 11:5, ESV).
@@ -139,8 +139,8 @@ thousands of his holy ones, to execute judgment on all" (Jude 14-15, ESV). The m
 judgment was taken before it came.
 
 On the Masoretic numbers, Enoch fathered Methuselah at 65 (Genesis 5:21) and was taken at 365, when Methuselah was 300. Methuselah fathered Lamech at 187, Lamech fathered Noah at 182, and
-Noah was 600 when the flood came (5:25, 28; 7:6). That puts the flood in the 969th year of
-Methuselah's life, the year he died (5:27), and 669 years after Enoch was taken. The Septuagint's numbers differ, and [The Flood and the King Lists](../chronology/flood-and-the-king-lists.md) explains why this site works from the Masoretic. On the Masoretic numbers, Genesis does not time Enoch's removal to the flood. What it records is a man who walked with God, was taken alive, and
+Noah was 600 when the flood came (Genesis 5:25, 28; 7:6). That puts the flood in the 969th year of
+Methuselah's life, the year he died (Genesis 5:27), and 669 years after Enoch was taken. The Septuagint's numbers differ, and [The Flood and the King Lists](../chronology/flood-and-the-king-lists.md) explains why this site works from the Masoretic. On the Masoretic numbers, Genesis does not time Enoch's removal to the flood. What it records is a man who walked with God, was taken alive, and
 was not on the earth when the judgment he had announced fell on it. This shows that God keeps company
 with those who walk with Him, and that death does not get the last word over them.
 
@@ -170,13 +170,13 @@ days" (Matthew 24:29, ESV).
 | **Lot** | <span dir="rtl">וַיֹּצִאֻהוּ</span>, "brought him out" (Genesis 19:16) | ἐρρύσατο, "rescued" (2 Peter 2:7) |
 | **Noah** | <span dir="rtl">וַיִּשָּׁאֶר</span> (*wayyishshā'er*, H7604), "was left" (Genesis 7:23) | ἐφύλαξεν, "preserved" (2 Peter 2:5); διεσώθησαν δι' ὕδατος, "were brought safely through water" (1 Peter 3:20) |
 
-Genesis puts Noah inside the ark in 7:7, and "after seven days the waters of the flood came upon the
-earth" (7:10, ESV). The Hebrew of 7:16 is <span dir="rtl">וַיִּסְגֹּר יְהוָה בַּעֲדוֹ</span>
+Genesis puts Noah inside the ark in Genesis 7:7, and "after seven days the waters of the flood came upon the
+earth" (Genesis 7:10, ESV). The Hebrew of Genesis 7:16 is <span dir="rtl">וַיִּסְגֹּר יְהוָה בַּעֲדוֹ</span>
 (*wayyisgōr YHWH ba'ădô*, the verb <span dir="rtl">סָגַר</span>, H5462), "the LORD shut him in" (ESV).
-The chapter closes: "Only Noah was left, and those who were with him in the ark" (7:23, ESV).
+The chapter closes: "Only Noah was left, and those who were with him in the ark" (Genesis 7:23, ESV).
 
 The New Testament names Noah eight times: Matthew 24:37-38, Luke 3:36 and 17:26-27, Hebrews 11:7,
-1 Peter 3:20 and 2 Peter 2:5. Hebrews says he built the ark "for the saving of his household" (11:7,
+1 Peter 3:20 and 2 Peter 2:5. Hebrews says he built the ark "for the saving of his household" (Hebrews 11:7,
 ESV). Peter says "a few, that is, eight persons, were brought safely through water" (1 Peter 3:20,
 ESV). None of these has Noah leave the earth. Luke and Matthew give his entry into the ark as the
 end of ordinary life (Luke 17:27; Matthew 24:38), and Genesis 7:13 repeats the entry on the day the
@@ -185,13 +185,13 @@ fountains of the deep burst. Either way he was inside when the water came.
 **The prophets use Noah three ways.** Isaiah 54:9 has God say, "This is like the days of Noah to me:
 as I swore that the waters of Noah should no more go over the earth, so I have sworn that I will not
 be angry with you" (ESV), the flood as the pattern of an oath to Israel. Ezekiel 14:14 and 20 name
-Noah, Daniel and Job as men who "would deliver but their own lives by their righteousness" (14:14,
+Noah, Daniel and Job as men who "would deliver but their own lives by their righteousness" (Ezekiel 14:14,
 ESV), a righteous man kept alive while judgment falls on the land. And Isaiah 26:20 takes Noah's
 words without naming him: "Come, my people, enter your chambers, and shut your doors behind you;
 hide yourselves for a little while until the fury has passed by" (ESV). The Hebrew
 <span dir="rtl">סְגֹר ... בַּעֲדֶךָ</span> is the verb and preposition of Genesis 7:16, and the
 *ESV Study Bible* notes that "Isaiah alludes to Gen. 7:16." The people in Isaiah's picture are
-sheltered on the earth while the fury passes. Which period that describes is debated, and 26:19,
+sheltered on the earth while the fury passes. Which period that describes is debated, and Isaiah 26:19,
 "Your dead shall live; their bodies shall rise" (ESV), stands just before it.
 
 So in the dispensational reading Noah pictures the people God preserves *through* the tribulation:
@@ -207,12 +207,12 @@ hesitated: "But he lingered. So the men seized him and his wife and his two daug
 LORD being merciful to him, and they brought him out and set him outside the city" (Genesis 19:16, ESV). Then the angel says something that governs
 the whole scene: "Escape there quickly, for I can do nothing till you arrive there" (Genesis 19:22,
 ESV). The judgment is ready, and it waits. Lot reaches Zoar, and only then: "Then the LORD rained on Sodom and Gomorrah sulfur and fire from the
-LORD out of heaven" (19:24, ESV).
+LORD out of heaven" (Genesis 19:24, ESV).
 
 Jesus tells the same story in the same order. "On the day when Lot went out from Sodom, fire and sulfur
 rained from heaven and destroyed them all — so will it be on the day when the Son of Man is revealed"
 (Luke 17:29-30, ESV). Luke's Noah does the same: they were eating and drinking "until the day when
-Noah entered the ark, and the flood came and destroyed them all" (17:27, ESV). In both, ordinary life runs until the day the righteous move, and judgment follows: for Lot the same
+Noah entered the ark, and the flood came and destroyed them all" (Luke 17:27, ESV). In both, ordinary life runs until the day the righteous move, and judgment follows: for Lot the same
 day, for Noah within the week (Genesis 7:10).
 
 Genesis 19:29 sums up the rescue: God "sent Lot out of the midst of the overthrow" (ESV). The
@@ -230,8 +230,8 @@ they are few. The conclusion is general: "the Lord knows how
 to rescue the godly from trials, and to keep the unrighteous under punishment until the day of
 judgment" (2 Peter 2:9, ESV).
 
-Peter uses two verbs. God "preserved" Noah (φυλάσσω, 2:5) and "rescued" Lot (ῥύομαι, *rhyomai*,
-HROO-oh-my, G4506, 2:7). The rescuing verb is the one Paul uses of Jesus: "Jesus who delivers us from
+Peter uses two verbs. God "preserved" Noah (φυλάσσω, 2 Peter 2:5) and "rescued" Lot (ῥύομαι, *rhyomai*,
+HROO-oh-my, G4506, 2 Peter 2:7). The rescuing verb is the one Paul uses of Jesus: "Jesus who delivers us from
 the wrath to come" (1 Thessalonians 1:10, ESV), ῥυόμενον (*rhyomenon*, G4506). This shows that God rescues as a settled
 part of His character. He had mercy on a lingering, compromised man, and He held back His own
 judgment until that man was safe.
@@ -252,7 +252,7 @@ favour.
 Where Enoch's departure is quiet, Elijah's is public: "as they still went on and talked, behold,
 chariots of fire and horses of fire separated the two of them. And Elijah went up by a whirlwind into
 heaven" (2 Kings 2:11, ESV), in full view of
-Elisha. Elisha had been told the condition: "If you see me as I am being taken from you" (2:10, ESV),
+Elisha. Elisha had been told the condition: "If you see me as I am being taken from you" (2 Kings 2:10, ESV),
 <span dir="rtl">לֻקָּח</span>, the passive of <span dir="rtl">לָקַח</span>.
 
 Elijah is taken up alive, without dying. That is the shape 1 Corinthians 15:51-52 gives for believers
@@ -273,12 +273,12 @@ reader takes Noah as the type of the church: God keeps His people in the ark whi
 around them. On that view Revelation 3:10, "I will keep you from the hour of trial" (ESV), is a
 promise of protection within the hour, and Enoch stands alone as an exception.
 
-The answer begins with where Matthew puts the saying. The Noah illustration (24:37-39) follows
-"immediately after the tribulation of those days" (24:29), so it describes the return in glory, and
+The answer begins with where Matthew puts the saying. The Noah illustration (Matthew 24:37-39) follows
+"immediately after the tribulation of those days" (Matthew 24:29), so it describes the return in glory, and
 Noah fits the people left on the earth then, as [One Taken, One Left](one-taken-one-left.md) reads
 it. The words Scripture uses of Noah, set out above, are "left," "preserved" and "brought safely
 through." Luke's parallel gives the timing of both stories: ordinary life runs until the day Noah enters the
-ark and the day Lot goes out of Sodom, and the judgment follows (17:27, 29). For Lot, Genesis 19:22 gives the
+ark and the day Lot goes out of Sodom, and the judgment follows (Luke 17:27, 29). For Lot, Genesis 19:22 gives the
 pattern in God's own words: "I can do nothing till you arrive there."
 
 The types alone cannot settle this. Both sides read the same four lives and weight them differently.

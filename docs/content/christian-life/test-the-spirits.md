@@ -212,7 +212,7 @@ half: a prophet whose word "does not come to pass" has spoken presumptuously (De
 ESV). A failed prediction disqualifies a prophet. A fulfilled one does not qualify him. What he
 teaches about God decides it.
 
-"Testing" in Deuteronomy 13:3 (13:4 in the Hebrew numbering) is <span dir="rtl">נָסָה</span>
+"Testing" in Deuteronomy 13:3 (<span data-ref="Deuteronomy 13:3">Deuteronomy 13:4</span> in the Hebrew numbering) is <span dir="rtl">נָסָה</span>
 (*nasah*, H5254), the verb Genesis uses when "God tested Abraham" (Genesis 22:1, ESV). The Hebrew is
 a participle: the LORD "is testing" you. God lets the counterfeit appear, and it shows whether His
 people love Him "with all your heart and with all your soul". **When a false teacher appears, God is

@@ -7,7 +7,7 @@ draft: true
 primary_passage: "1 Timothy 2:1"
 bible_references: ["1 Timothy 2:1", "2 Corinthians 10:2", "Galatians 4:12", "Acts 8:34", "Acts 21:39", "Acts 26:3", "Luke 9:38", "2 Corinthians 8:4", "Luke 1:13", "Romans 10:1", "1 Timothy 5:5", "Hebrews 5:7", "Ephesians 6:18", "Philippians 4:6"]
 date_created: 2026-09-26
-date_modified: 2026-09-29
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -40,7 +40,7 @@ word is now archaic enough to hide what it means. The sense is in the verb it co
 **δέομαι** (*deomai*, G1189) is not a religious word at all: of its twelve New Testament occurrences, most
 are people begging other people. Paul implores the Corinthians (2 Corinthians 10:2) and the
 Galatians (4:12); the Ethiopian eunuch asks it of Philip (Acts 8:34); Paul uses it on a Roman
-tribune (Acts 21:39) and on Agrippa (26:3); the father of the demonised boy uses it on Jesus
+tribune (Acts 21:39) and on Agrippa (Acts 26:3); the father of the demonised boy uses it on Jesus
 (Luke 9:38); and the Macedonians use it on Paul, begging for the *privilege of giving*
 (2 Corinthians 8:4).
 

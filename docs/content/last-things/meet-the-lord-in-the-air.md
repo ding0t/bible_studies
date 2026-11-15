@@ -7,7 +7,7 @@ draft: true
 primary_passage: "1 Thessalonians 4:13-18"
 bible_references: ["1 Thessalonians 4:13-18", "1 Thessalonians 1:10", "1 Thessalonians 2:19", "1 Thessalonians 5:9", "Matthew 8:34", "Matthew 25:1", "Matthew 25:6", "Matthew 25:10", "John 12:12-13", "John 14:2-3", "Acts 17:5-10", "Acts 28:15-16", "Exodus 19:16-17", "1 Samuel 4:1", "1 Samuel 13:10", "2 Samuel 6:20", "Jeremiah 41:6-7", "Revelation 19:14"]
 date_created: 2026-09-26
-date_modified: 2026-10-03
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -37,7 +37,7 @@ back with Him at the end of the tribulation.
 - **Jesus keeps His promise to take you where He is.** "I will come again and will take you to
   myself, that where I am you may be also" (John 14:3, ESV).
 - **Jesus is the Bridegroom His people go out to meet.** "Here is the bridegroom! Come out to meet
-  him" (Matthew 25:6, ESV), and those ready "went in with him to the marriage feast" (25:10, ESV).
+  him" (Matthew 25:6, ESV), and those ready "went in with him to the marriage feast" (Matthew 25:10, ESV).
 
 ### Memory verses
 
@@ -56,8 +56,8 @@ back with Him at the end of the tribulation.
 - **Think.** The rapture is a meeting with a Person. Its centre is Jesus, and the promise it carries
   is "always with the Lord" (1 Thessalonians 4:17, ESV).
 - **Attitude.** Grieve your Christian dead with hope. Paul wrote these verses "that you may not
-  grieve as others do who have no hope" (4:13, ESV).
-- **Do.** Paul ends, "Therefore encourage one another with these words" (4:18, ESV). Read 1
+  grieve as others do who have no hope" (1 Thessalonians 4:13, ESV).
+- **Do.** Paul ends, "Therefore encourage one another with these words" (1 Thessalonians 4:18, ESV). Read 1
   Thessalonians 4:13-18 this week with someone who is grieving.
 
 ### Prayer
@@ -104,8 +104,8 @@ became of them at the Lord's coming, and they were grieving.
 The point of the paragraph is verse 18: comfort. Paul answers one question, whether the dead miss
 out, and he answers it with an order. The Lord descends, the dead rise first, the living are caught
 up with them, and all of them meet Him together. The paragraph opens a longer section on the Lord's
-coming that runs to 5:11 and ends on the same note: "God has not destined us for wrath, but to obtain
-salvation through our Lord Jesus Christ" (5:9, ESV).
+coming that runs to 1 Thessalonians 5:11 and ends on the same note: "God has not destined us for wrath, but to obtain
+salvation through our Lord Jesus Christ" (1 Thessalonians 5:9, ESV).
 
 Two words in the paragraph carry the objection. Verse 15 calls the event the Lord's **παρουσία**
 (*parousia*, par-oo-SEE-ah, G3952), "coming, arrival." Verse 17 says the saints are caught up **εἰς
@@ -131,9 +131,9 @@ for a tribulation between them.
 Two of this site's own reference works state it. The *ESV Study Bible* says the word is often used
 of a city's inhabitants who come out to welcome an honoured guest and "then accompany him into the
 city," and that it "may indicate" the saints' subsequent movement is downward, toward the earth (note
-on 4:16-17). The *NIV Biblical Theology Study Bible* is firmer: "Paul's word choice, therefore,
+on 1 Thessalonians 4:16-17). The *NIV Biblical Theology Study Bible* is firmer: "Paul's word choice, therefore,
 implies that the church, once it has been 'raptured' to Christ in the air, escorts him to earth"
-(note on 4:17).
+(note on 1 Thessalonians 4:17).
 
 When Michael Cosby challenged Peterson in 1994, Robert Gundry answered that the parallels between 1
 Thessalonians 4:15-17 and the Hellenistic receptions are closer than Cosby allowed, and that Paul's
@@ -146,7 +146,7 @@ The objection's strongest evidence is the New Testament itself. *Apantēsis* app
 New Testament three times, and both of the others fit the civic shape:
 
 - **Acts 28:15-16.** The believers in Rome "came as far as the Forum of Appius and Three Taverns to
-  meet us" (ESV), εἰς ἀπάντησιν. Then "we came into Rome" (28:16, ESV). They went out, met Paul, and
+  meet us" (ESV), εἰς ἀπάντησιν. Then "we came into Rome" (Acts 28:16, ESV). They went out, met Paul, and
   came back with him.
 - **Matthew 25:6.** "Here is the bridegroom! Come out to meet him" (ESV), εἰς ἀπάντησιν αὐτοῦ.
 
@@ -198,7 +198,7 @@ brought the people out of the camp to meet God" (Exodus 19:16-17, ESV). The Gree
 different noun, εἰς συνάντησιν τοῦ θεοῦ, so this is an allusion and a contested one. But Paul's
 passage has the same three elements: the Lord comes down, a trumpet sounds, and His people go out to
 meet Him. The *ESV Study Bible* lists Exodus 19:16 among the trumpets that "proclaimed the Lord's
-presence" (note on 4:16-17). At Sinai nobody escorted God anywhere. The people met Him, and He spoke.
+presence" (note on 1 Thessalonians 4:16-17). At Sinai nobody escorted God anywhere. The people met Him, and He spoke.
 
 **This shows that God sets the terms of His own coming.** The meeting in 1 Thessalonians 4:17 takes
 its shape from the Lord who comes and from what He has promised, and a civic custom cannot overrule
@@ -230,14 +230,14 @@ ride out with him?](rapture.md#does-the-church-ride-out-with-him) in The Rapture
 out that case. On that reading the civic pattern is completed, with an interval inside it.
 
 Paul's own letter already has the Lord coming with His people. "God will bring with him those who
-have fallen asleep" (4:14, ESV).
+have fallen asleep" (1 Thessalonians 4:14, ESV).
 
 ### The wedding that is also a meeting
 
 Matthew 25 makes the interval concrete, because it is the one *apantēsis* text that is also a
 wedding. The virgins "went to meet the bridegroom" (Matthew 25:1, ESV) and at midnight hear "Come out
-to meet him" (25:6, ESV). Then "those who were ready went in with him to the marriage feast, and the
-door was shut" (25:10, ESV). Meeting, then feast, then everything after.
+to meet him" (Matthew 25:6, ESV). Then "those who were ready went in with him to the marriage feast, and the
+door was shut" (Matthew 25:10, ESV). Meeting, then feast, then everything after.
 
 That is the order [The Rapture of the Church](rapture.md) sets out: caught up, assessed at the
 judgment seat of Christ, married, and returning. Matthew 25:6 is usually cited against the pretribulational reading. On that
@@ -279,14 +279,14 @@ objection than it is usually made to carry, and the Septuagint is where that sho
 
 1. In the Septuagint, people go out εἰς ἀπάντησιν to greet, to fight, to rebuke and to kill. What
    in 1 Thessalonians 4:13-18 tells you what kind of meeting this one is?
-2. The Thessalonians were grieving believers who had died (4:13). How does the order in verses
+2. The Thessalonians were grieving believers who had died (1 Thessalonians 4:13). How does the order in verses
    15-17 answer their fear?
 3. John 12:13 has a crowd going out to meet Jesus and escorting Him into Jerusalem. John 14:3 has
    Jesus taking His own to where He is. Which of the two does 1 Thessalonians 4:17 sound more like to
    you?
 4. Matthew 25:6-10 has the virgins meet the bridegroom and then go in to the marriage feast. What
    does the feast between the meeting and the return tell you about Jesus?
-5. Paul ends, "Therefore encourage one another with these words" (4:18). Who do you know who needs
+5. Paul ends, "Therefore encourage one another with these words" (1 Thessalonians 4:18). Who do you know who needs
    these words this week?
 
 ## References & Recommended Reading

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-13"
 bible_references: ["Revelation 1:3", "James 5:7-8", "Mark 13:32-37", "Matthew 24:3-14", "Acts 1:6-11"]
 date_created: 2024-05-29
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -34,7 +34,7 @@ John opens Revelation by pronouncing a blessing on the reader before a single se
 
 - He did not name the day when He was asked: "concerning that day or that hour, no one knows... nor the Son, but only the Father" (Mark 13:32, ESV). The weight of that sentence falls on whose prerogative the date is rather than on what the Son lacked. Asked the same question again after the resurrection, He answered the same way and gave the reason: "the Father has fixed" them "by his own authority" (Acts 1:7, ESV). What the verse does and does not say about Christ's knowledge is worked out in [The Day No One Knows](../jesus/the-day-no-one-knows.md).
 - His return will match His ascension in kind: bodily, visible, "in the same way" (Acts 1:11). It is not merely spiritual or figurative.
-- He delays because He is patient: 2 Peter's letter calls Him "our Lord and Savior Jesus Christ" throughout (1:11; 3:18), and it is that same Lord who "is patient... not wishing that any should perish, but that all should reach repentance" (2 Peter 3:9, ESV).
+- He delays because He is patient: 2 Peter's letter calls Him "our Lord and Savior Jesus Christ" throughout (2 Peter 1:11; 3:18), and it is that same Lord who "is patient... not wishing that any should perish, but that all should reach repentance" (2 Peter 3:9, ESV).
 
 ### Memory verses
 
@@ -71,12 +71,12 @@ Father, the times and seasons are fixed by your own authority, and not even your
 > 7 Be patient, therefore, brothers, until the coming of the Lord. See how the farmer waits for the precious fruit of the earth, being patient about it, until it receives the early and the late rains.
 
 James writes this to believers under real economic pressure. The paragraph immediately before it
-(5:1-6) condemns wealthy landowners who have cheated their labourers of wages, and 5:7 opens with
+(James 5:1-6) condemns wealthy landowners who have cheated their labourers of wages, and 5:7 opens with
 "therefore", which ties patience to that injustice.
 
 **Be patient** translates **μακροθυμήσατε** (*makrothymēsate*, from **μακροθυμέω**, *makrothymeō*,
 G3114), literally "long-tempered". It is a patience aimed at people and circumstances. Greek keeps a separate word for endurance under suffering, *hypomonē*, and James uses both in
-this passage: *makrothymeō* again at 5:8, and *hypomonē* at 5:11.
+this passage: *makrothymeō* again at James 5:8, and *hypomonē* at 5:11.
 
 The farmer cannot make rain fall or grain ripen faster by wanting it. That
 is disciplined, active waiting for something whose timing he does not control.
@@ -95,13 +95,13 @@ This closes the Olivet Discourse (see [Signs of the end of the age](#signs-of-th
 >
 > 2 that you should remember the predictions of the holy prophets and the commandment of the Lord and Savior through your apostles, 3 knowing this first of all, that scoffers will come in the last days with scoffing, following their own sinful desires. 4 They will say, "Where is the promise of his coming? For ever since the fathers fell asleep, all things are continuing as they were from the beginning of creation." 5 For they deliberately overlook this fact, that the heavens existed long ago, and the earth was formed out of water and through water by the word of God, 6 and that by means of these the world that then existed was deluged with water and perished. 7 But by the same word the heavens and earth that now exist are stored up for fire, being kept until the day of judgment and destruction of the ungodly. 8 But do not overlook this one fact, beloved, that with the Lord one day is as a thousand years, and a thousand years as one day.
 
-Peter is answering a specific objection. **Scoffers** (**ἐμπαῖκται**, *empaiktai*, G1703, from **ἐμπαιγμονή**, *empaigmonē*, "scoffing," G1701) argue from apparent delay to disbelief: if the fathers died and "all things are continuing as they were" (3:4), the promise must be empty. Peter's rebuttal in 3:5-7 is that this ignores precedent. The created order has already been catastrophically remade once, by water, and Scripture says it will be again, by fire. Continuity is an assumption the scoffers haven't earned.
+Peter is answering a specific objection. **Scoffers** (**ἐμπαῖκται**, *empaiktai*, G1703, from **ἐμπαιγμονή**, *empaigmonē*, "scoffing," G1701) argue from apparent delay to disbelief: if the fathers died and "all things are continuing as they were" (2 Peter 3:4), the promise must be empty. Peter's rebuttal in 2 Peter 3:5-7 is that this ignores precedent. The created order has already been catastrophically remade once, by water, and Scripture says it will be again, by fire. Continuity is an assumption the scoffers haven't earned.
 
 Verse 8 is the answer this site builds its six-then-seventh reading of history on. Where Peter took it from, what his readers already believed about it, and the pattern it carries, from the Sabbath and Hebrews 4's rest to Revelation 20's thousand years and the year 6000, are worked out in [A Day Is a Thousand Years](day-is-a-thousand-years.md). Peter himself moves from the ratio in verse 8 to patience in verse 9 and holy conduct in verse 11, and never to a calculation.
 
 ## Signs of the end of the age
 
-The disciples asked, "what will be the sign of your coming and of the end of the age?" (Matthew 24:3, ESV). Jesus answered with a sequence: false messiahs, wars, famines and earthquakes as "the beginning of the birth pains" (24:8), then persecution, and the gospel of the kingdom proclaimed to all nations (24:14). This site reads that sequence in its final form as the opening of Daniel's seventieth week, after the church is caught up, with AD 70 as its near fulfilment. [The Olivet Discourse](olivet-discourse.md) works through the passage, [Immediately After](immediately-after.md#the-question-on-the-mount-of-olives) sets out the case for that reading, and [The End of the Age](end-of-the-age.md) follows the gospel to the nations through those seven years.
+The disciples asked, "what will be the sign of your coming and of the end of the age?" (Matthew 24:3, ESV). Jesus answered with a sequence: false messiahs, wars, famines and earthquakes as "the beginning of the birth pains" (Matthew 24:8), then persecution, and the gospel of the kingdom proclaimed to all nations (Matthew 24:14). This site reads that sequence in its final form as the opening of Daniel's seventieth week, after the church is caught up, with AD 70 as its near fulfilment. [The Olivet Discourse](olivet-discourse.md) works through the passage, [Immediately After](immediately-after.md#the-question-on-the-mount-of-olives) sets out the case for that reading, and [The End of the Age](end-of-the-age.md) follows the gospel to the nations through those seven years.
 
 ## In the same way
 
@@ -114,7 +114,7 @@ The disciples asked, "what will be the sign of your coming and of the end of the
 
 ## Discussion questions
 
-1. James commands believers to have the same patience (*makrothymeō*) 2 Peter says God Himself already has (3:9). Does it change how "be patient" lands, to know God holds Himself to the standard He sets you?
+1. James commands believers to have the same patience (*makrothymeō*) 2 Peter says God Himself already has (2 Peter 3:9). Does it change how "be patient" lands, to know God holds Himself to the standard He sets you?
 2. Mark 13:32 names the Father alone as knowing the day and hour. How do you hold that together with everything else Scripture says about who Jesus is?
 
 ## References & Recommended Reading

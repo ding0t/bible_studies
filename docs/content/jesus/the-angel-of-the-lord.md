@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 16:7-13; Exodus 3:1-6"
 bible_references: ["Genesis 18:1-2", "Genesis 19:24", "Genesis 21:17-18", "Genesis 22:11-18", "Genesis 28:13", "Genesis 31:11-13", "Genesis 32:24-30", "Genesis 33:3", "Genesis 48:15-16", "Exodus 14:19", "Exodus 23:20-23", "Exodus 32:34", "Exodus 33:2-3", "Exodus 33:14-15", "Exodus 33:20", "Exodus 34:6-7", "Numbers 22:22-35", "Joshua 5:13-15", "Joshua 6:2", "Judges 2:1-4", "Judges 6:11-24", "Judges 13:2-23", "2 Samuel 24:16-17", "2 Kings 18:28-29", "2 Kings 19:35", "1 Chronicles 21:15-30", "Isaiah 6:1", "Isaiah 9:6", "Isaiah 63:9", "Hosea 12:3-5", "Haggai 1:13", "Zechariah 1:11-13", "Zechariah 3:1-5", "Zechariah 12:8", "Malachi 2:7", "Malachi 3:1", "Matthew 1:20", "Mark 1:2", "Mark 2:7", "Luke 1:11", "Luke 1:19", "Luke 2:9", "John 1:14", "John 1:18", "John 8:56-58", "John 12:41", "Acts 7:30-38", "Acts 12:7", "1 Corinthians 10:4", "1 Corinthians 10:9", "Hebrews 1:4-14", "Hebrews 7:25", "Jude 1:5", "Revelation 22:8-9"]
 date_created: 2026-11-08
-date_modified: 2026-11-08
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -241,7 +241,7 @@ LORD, as a second who is sent, who speaks to the LORD and of the LORD.
 ### Sent
 
 "Behold, I am sending an angel before you ... My angel will go before you" (Exodus 23:20,
-23, BSB). The One who sends and the One sent are two. The Gospels give the first words of 23:20 to
+23, BSB). The One who sends and the One sent are two. The Gospels give the first words of Exodus 23:20 to
 John the Baptist, joined to Malachi 3:1 (Matthew 11:10; Mark 1:2), so the study rests nothing on
 them; what marks this angel out is the next verse, "My Name is in him".
 
@@ -375,9 +375,9 @@ After the golden calf, God says, "I will send an angel before you ... But I will
 (Exodus 33:2-3, BSB). Here an angel is plainly less than God's own going, and Moses refuses him:
 "If Your Presence does not go with us ... do not lead us up from here" (Exodus 33:15, BSB). God answers,
 "My Presence will go with you" (Exodus 33:14, BSB). So not every angel God sends is God in person,
-and Exodus marks the difference: the angel of 33:2 carries no word about God's Name, and the
+and Exodus marks the difference: the angel of Exodus 33:2 carries no word about God's Name, and the
 Presence that goes with Moses is God Himself. The study therefore rests on what each passage says
-the angel does, and sets the angel of 23:21, with God's Name in him, beside the Presence of 33:14.
+the angel does, and sets the angel of Exodus 23:21, with God's Name in him, beside the Presence of 33:14.
 
 ### Is every "angel of the LORD" the same one?
 
@@ -458,7 +458,7 @@ that use the phrase.
 **Where the texts differ.**
 
 - **Judges 6:14, 16.** The Hebrew reads "the LORD turned to him"; the Septuagint (Brenton's text)
-  reads "the angel of the Lord turned to him". At 6:16 the Hebrew has "Surely I will be with you,"
+  reads "the angel of the Lord turned to him". At Judges 6:16 the Hebrew has "Surely I will be with you,"
   the LORD replied, and the Greek has the angel of the Lord say, "The Lord will be with you". The
   Greek keeps the angel where the Hebrew names the LORD, and turns His first person into a herald's.
 - **Isaiah 63:9.** The Hebrew is written <span dir="rtl">לא</span> ("not") and read

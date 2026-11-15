@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24; Mark 13; Luke 21"
 bible_references: ["Matthew 23:36-39", "Matthew 24:1-51", "Mark 13:1-37", "Mark 14:32-42", "Mark 14:50", "Luke 21:5-36", "Luke 19:41-44", "Daniel 9:24-27", "Daniel 11:31", "Daniel 12:1-11", "Zechariah 14:1-5", "Isaiah 13:9-10", "Joel 2:30-31", "Daniel 7:13-14", "Revelation 1:7", "1 Thessalonians 4:13-18", "1 Thessalonians 5:1-4", "2 Peter 3:3-13", "John 14:3", "Acts 1:9-12", "Matthew 25:19", "Exodus 22:26-27", "Matthew 10:35-36", "Micah 7:6"]
 date_created: 2026-08-29
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -42,9 +42,9 @@ about to live in, the distress that ends it, and the arrival no one will need po
 ### Types & Prophecy
 
 Daniel supplies the discourse's central term, the abomination of desolation, in three settings:
-Antiochus IV Epiphanes' desecration of the altar in 167 BC (11:31), a coming ruler's desecration in
-a final seven-year period (9:27), and a desolation measured in exact days still future to Daniel
-(12:11). Jesus cites the term without saying which he means. Daniel's seventieth week (9:27) remains
+Antiochus IV Epiphanes' desecration of the altar in 167 BC (Daniel 11:31), a coming ruler's desecration in
+a final seven-year period (Daniel 9:27), and a desolation measured in exact days still future to Daniel
+(12:11). Jesus cites the term without saying which he means. Daniel's seventieth week (Daniel 9:27) remains
 unstarted, and the distress of Matthew 24:15-28 sits inside it.
 
 ### Lessons about Jesus
@@ -69,8 +69,8 @@ Knows](#the-day-no-one-knows).
 
 - **Think.** Not one of the discourse's imperatives asks you to calculate anything. Jesus gives his
   disciples something to do about the future, and arithmetic is not on the list — stay awake
-  (Mark 13:37), do not be led astray (Matthew 24:4), endure (24:13), keep working at what you were
-  given (24:45-46). Every imperative is about conduct in the meantime.
+  (Mark 13:37), do not be led astray (Matthew 24:4), endure (Matthew 24:13), keep working at what you were
+  given (Matthew 24:45-46). Every imperative is about conduct in the meantime.
 - **Attitude.** Peter drew the conclusion from all of it decades later: since everything visible is
   going to burn, the question is "what sort of people ought you to be in lives of holiness and
   godliness" (2 Peter 3:11, ESV) — a settled disposition, not anxious watching for signs.
@@ -88,10 +88,10 @@ Amen.
 ## Study outline
 
 - [The question behind the question](#the-question-behind-the-question). The three questions of Matthew 24:3, and one conversation recorded by Matthew, Mark and Luke.
-- [Question one: the temple](#ad-70-question-one-answered-and-documented). Answered before it was asked (24:2), fulfilled in AD 70: Josephus on the temple's fall, Eusebius on the flight to Pella.
+- [Question one: the temple](#ad-70-question-one-answered-and-documented). Answered before it was asked (Matthew 24:2), fulfilled in AD 70: Josephus on the temple's fall, Eusebius on the flight to Pella.
 - [Question three: the close of the age](#question-three-the-close-of-the-age-matthew-244-28). Matthew 24:4-28 — the Jewish lists of woes and the birth pangs, the four warnings against deception, then Daniel's abomination of desolation, the instructions to flee, and which question the flight answers.
 - [Question two: the sign of His coming](#question-two-the-one-sign-matthew-2429-31). Matthew 24:29-31 — the Son of Man on the clouds, the gathering of the elect, and the mountain He sat on.
-- [The day no one knows](#the-day-no-one-knows). The "when?" behind all three — whose the date is, what "ready" means in the parables, the contested saying of 24:40-41, and Mark's four night watches ending in Gethsemane.
+- [The day no one knows](#the-day-no-one-knows). The "when?" behind all three — whose the date is, what "ready" means in the parables, the contested saying of Matthew 24:40-41, and Mark's four night watches ending in Gethsemane.
 - [Discussion questions](#discussion-questions). Four, for a group or on your own.
 
 ## The Question Behind the Question
@@ -101,7 +101,7 @@ Amen.
 Jesus has just left the temple. A disciple points out the stonework — "Look, Teacher, what wonderful
 stones and what wonderful buildings!" (Mark 13:1, ESV) — and Jesus answers with a demolition notice:
 "Do you see these great buildings? There will not be left here one stone upon another that will not
-be thrown down" (13:2, ESV). They cross the valley, climb the Mount of Olives, sit down opposite the
+be thrown down" (Mark 13:2, ESV). They cross the valley, climb the Mount of Olives, sit down opposite the
 temple, and four of them ask him about it privately. Mark alone names them: "Peter and James and John
 and Andrew" (Mark 13:3, ESV). Keep those names; they matter at the end of this study.
 
@@ -146,7 +146,7 @@ flowchart LR
 ### One conversation, three records
 
 Matthew's disciples asked about the παρουσία
-(*parousia*, G3952) by name — the word appears at 24:3, 27, 37 and 39, and nowhere
+(*parousia*, G3952) by name — the word appears at Matthew 24:3, 27, 37 and 39, and nowhere
 in Mark's or Luke's version — and Matthew's account is correspondingly the one that runs on into
 chapter 25's parables.
 
@@ -167,7 +167,7 @@ order. What differs is what each writer's readers needed:
 ## AD 70: Question One, Answered and Documented
 
 The first of the three questions can be closed here, because its answer is history. Jesus predicted *this* temple's destruction before they asked
-anything — "there will not be left here one stone upon another" (24:2) — and Luke had recorded the
+anything — "there will not be left here one stone upon another" (Matthew 24:2) — and Luke had recorded the
 same prophecy in plainer terms days earlier, weeping as he approached the city: "the days will come upon you, when your enemies will set up a barricade around you and surround
 you and hem you in on every side and tear you down to the ground, you and your children within you.
 And they will not leave one stone upon another in you" (Luke 19:43-44, ESV).
@@ -196,7 +196,7 @@ sources do not make it for us.
 
 #### The list Jesus inherited
 
-The list Jesus gives in 24:4-8 is not original to him. The *NIV Cultural Backgrounds Study Bible*
+The list Jesus gives in Matthew 24:4-8 is not original to him. The *NIV Cultural Backgrounds Study Bible*
 notes that "many Jewish thinkers offered lists of sufferings, which they sometimes called the 'birth
 pangs' of the Messiah or of the new world; these sufferings would precede the end of the age" (note
 on Matthew 24:6-14). Wars, international conflict, famine, earthquake, apostasy — the list would have
@@ -236,7 +236,7 @@ show how fixed the habit of listing was:
 
 Two details earn their place. *2 Baruch*'s order — commotions, famine,
 earthquakes — is Matthew 24:6-7's order. And the Mishnah's closing quotation is Micah 7:6, the verse
-behind Matthew 24:10's mutual betrayal, which Jesus had already turned on himself at 10:35-36.
+behind Matthew 24:10's mutual betrayal, which Jesus had already turned on himself at Matthew 10:35-36.
 
 #### To the disciples, in the second person
 
@@ -251,11 +251,11 @@ What follows the list in Matthew is addressed directly to the disciples, in the 
 
 The question was "when." The answer, so far, is: you will be hated, you will be betrayed by each
 other, love will cool, and your job is to endure. Mark makes the same turn even more sharply at
-13:9 — "be on your guard. For they will deliver you over to councils, and you will be beaten in
+Mark 13:9 — "be on your guard. For they will deliver you over to councils, and you will be beaten in
 synagogues, and you will stand before governors and kings for my sake, to bear witness before them"
 (ESV). The disciples asked about the calendar and Jesus answered about their own coming suffering.
 
-He said it to four men Mark names (13:3), and two days after hearing (Matthew 26:1-2; Mark 14:1) "the one who endures to the
+He said it to four men Mark names (Mark 13:3), and two days after hearing (Matthew 26:1-2; Mark 14:1) "the one who endures to the
 end will be saved," those same men "all left him and fled" (Mark 14:50, ESV). Whatever endurance
 they later showed was not native to them. It was the grace of God, and the endurance Jesus commands
 of you is the endurance He supplies.
@@ -268,13 +268,13 @@ The first words out of Jesus's mouth in reply are a warning about deception, the
 repeated note.
 
 πλανάω (*planaō*, "lead astray, deceive," G4105) occurs eight times in Matthew's Gospel. Four of the
-eight are in this discourse — 24:4, 24:5, 24:11 and 24:24 — and those four are the only Matthean uses
+eight are in this discourse — Matthew 24:4, 24:5, 24:11 and 24:24 — and those four are the only Matthean uses
 carrying the sense of misleading somebody (Louw-Nida domain 31.8).
 Every time Matthew's Jesus warns about someone deceiving others, he is on the Mount of Olives.
 
-The four warnings escalate. First a general caution: "See that no one leads you astray" (24:4). Then
+The four warnings escalate. First a general caution: "See that no one leads you astray" (Matthew 24:4). Then
 the mechanism: "many will come in my name, saying, 'I am the Christ,' and they will lead many astray"
-(24:5). Then the professionals: "many false prophets will arise and lead many astray" (24:11). Then
+(Matthew 24:5). Then the professionals: "many false prophets will arise and lead many astray" (Matthew 24:11). Then
 the worst case:
 
 > ✝️ Matthew 24:23-26 (ESV)
@@ -292,7 +292,7 @@ gone there on that principle, and Josephus records more than one wilderness mess
 decades before the war. "Inner rooms" is the opposite error: a private, insider revelation available
 to those in the know. Jesus rules out both the public movement and the secret one, and he rules them
 out on a single ground, given in the next verse: "For as the lightning comes from the east and shines
-as far as the west, so will be the coming of the Son of Man" (24:27, ESV).
+as far as the west, so will be the coming of the Son of Man" (Matthew 24:27, ESV).
 
 That is the answer to question two. Nobody has to point lightning out to you. If someone has to tell
 you the Messiah has come, that fact alone disproves the claim. This shows that God has made His Son's
@@ -302,9 +302,9 @@ revelation stands between you and Him, and none of them is owed your belief.
 #### Mark's structural spine: watch
 
 Mark builds his whole account on this. βλέπετε (*blepete*, "watch out, be on guard," G991) is Mark's
-structural spine, and it lands at 13:5, 13:9, 13:23 and 13:33 — all four coded by Louw-Nida as
+structural spine, and it lands at Mark 13:5, 13:9, 13:23 and 13:33 — all four coded by Louw-Nida as
 *beware* (27.58) rather than ordinary seeing. Mark sets it up with a play on the same verb: the
-discourse opens with Jesus asking "Do you *see* (βλέπεις) these great buildings?" (13:2). You see the
+discourse opens with Jesus asking "Do you *see* (βλέπεις) these great buildings?" (Mark 13:2). You see the
 buildings. Now watch out.
 
 ```mermaid
@@ -326,11 +326,11 @@ timing of end-time events, all disciples are to be vigilant" (note on Mark 13:33
 #### The abomination of desolation
 
 Verse 15 turns a corner inside the answer. Deception, war, famine, persecution and endurance
-(24:4-14) marked the first century and have marked the age since, and the *ESV Study Bible* reads
+(Matthew 24:4-14) marked the first century and have marked the age since, and the *ESV Study Bible* reads
 them that way: "Jesus moves from the general characteristics of this age to describe the 'great
 tribulation' (vv. 15-28) that will precede the coming of the Son of Man (vv. 29-31)" (note on
-24:15-31). This site reads 24:4-14 as more than that. They are "the beginning of the birth pains"
-(24:8), and in their final form they open Daniel's seventieth week, as the first seals of
+Matthew 24:15-31). This site reads Matthew 24:4-14 as more than that. They are "the beginning of the birth pains"
+(Matthew 24:8), and in their final form they open Daniel's seventieth week, as the first seals of
 Revelation 6 do; verse 15 is the week's midpoint. AD 70 was the near fulfilment, and a pattern of the
 far one. [Immediately After](immediately-after.md#the-question-on-the-mount-of-olives) sets out the
 case.
@@ -338,13 +338,13 @@ case.
 The signal is Daniel's: "when you see the abomination of desolation spoken of by the prophet Daniel,
 standing in the holy place" (Matthew 24:15, ESV; near-identical at Mark 13:14). Daniel uses the image
 (Hebrew <span dir="rtl">שִׁקּוּץ מְשׁוֹמֵם</span>, *shiqqutz meshomem*, "an abomination that
-appals") in three settings — Antiochus's historical desecration of 167 BC (11:31), a future ruler's
-desecration at the midpoint of a seven-year covenant (9:27), and a desolation measured at 1,290 days
-(12:11).
+appals") in three settings — Antiochus's historical desecration of 167 BC (Daniel 11:31), a future ruler's
+desecration at the midpoint of a seven-year covenant (Daniel 9:27), and a desolation measured at 1,290 days
+(Daniel 12:11).
 
 Jesus names the term without saying which he means, and the *ESV Study Bible* reads the citation as
 reaching to more than one: the complete fulfilment "will be found in (1) the Roman destruction of the
-temple in A.D. 70 and (2) the image of the Antichrist being set up in the last days" (note on 24:15).
+temple in A.D. 70 and (2) the image of the Antichrist being set up in the last days" (note on Matthew 24:15).
 This study follows that reading, near and far: Rome in AD 70, as Antiochus had been in 167 BC, and a
 final fulfilment still ahead. The weight falls on the second, since verse 29 has the Son of Man
 arriving *immediately after* the distress this section describes, and that did not happen in 70.
@@ -353,7 +353,7 @@ Luke is the reason the first fulfilment can be held with any confidence, because
 Daniel's coded phrase at all. Where Matthew and Mark have the abomination, Luke has the literal
 referent: "when you see Jerusalem surrounded by armies, then know that its desolation has come near"
 (Luke 21:20, ESV), followed by the city falling "by the edge of the sword" and its people "led
-captive among all nations" (21:24). That is a plain description of AD 70, and it was fulfilled.
+captive among all nations" (Luke 21:24). That is a plain description of AD 70, and it was fulfilled.
 
 #### Flee — practical instructions
 
@@ -371,20 +371,20 @@ Each line is culturally loaded, and the *NIV Cultural Backgrounds Study Bible* u
 
 - **"Flee to the mountains" is counterintuitive advice.** "During invasions, people usually crowded
   into walled cities for protection, but Jesus warns against that measure in this case" (note on
-  24:16). The instinct of every Judean under attack was to get inside Jerusalem's walls. Jesus tells
+  Matthew 24:16). The instinct of every Judean under attack was to get inside Jerusalem's walls. Jesus tells
   them the walls are the trap.
 - **The housetop.** Roofs were flat and lived on — drying vegetables, praying, talking to neighbours —
-  and reached by an external stair, so going down *into* the house costs a detour (note on 24:17).
+  and reached by an external stair, so going down *into* the house costs a detour (note on Matthew 24:17).
   Do not take it.
 - **The cloak.** Field workers left the outer garment at the edge of the field as the day warmed.
   That garment "was so important that it was the one item that a creditor could not seize from a
-  debtor overnight" (note on 24:18) — the law itself protects it: "for that is his only covering, and
+  debtor overnight" (note on Matthew 24:18) — the law itself protects it: "for that is his only covering, and
   it is his cloak for his body; in what else shall he sleep?" (Exodus 22:27, ESV). It is the last
   possession the Torah guarantees a poor man. Jesus says leave it in the field.
 - **Winter and Sabbath.** Judean winter is the rainy season; dry wadis flood, roads turn to mud, and
   the Jordan rises. Josephus records Judean fugitives in AD 68 trapped by the flooded Jordan and
   killed by their pursuers (*Wars* 4.433). On a Sabbath, Jerusalem's gates would be shut (note on
-  24:20).
+  Matthew 24:20).
 
 #### First-century furniture, timeless substance
 
@@ -404,7 +404,7 @@ possession the law says nobody can take from you — transfers to any flight fro
 is contested.** Luke ties the order to Jerusalem "surrounded by armies" (Luke 21:20-21, ESV), the
 Roman advance of AD 66-70. Matthew and Mark tie it to Daniel's abomination, and Matthew follows it
 with "great tribulation, such as has not been from the beginning of the world until now, no, and
-never will be" (Matthew 24:21, ESV), which the Son of Man ends "immediately" (24:29). AD 70 ended
+never will be" (Matthew 24:21, ESV), which the Son of Man ends "immediately" (Matthew 24:29). AD 70 ended
 with the Son of Man still in heaven, so this study places Matthew's and Mark's flight in the future
 distress of Daniel's seventieth week, with the flight from Rome as its first instance. The *ESV
 Study Bible* calls AD 70 "a pattern or a 'type'" of the destruction at the end of the age (note on
@@ -422,24 +422,24 @@ After](immediately-after.md).
 
 Cosmic signs, and then the sign. The vocabulary is the Old Testament's for the day of the LORD:
 "the sun will be darkened, and the moon will not give its light, and the stars will fall from heaven"
-(24:29) tracks Isaiah's oracle against Babylon almost word for word (Isaiah 13:10) and Joel's "the sun
+(Matthew 24:29) tracks Isaiah's oracle against Babylon almost word for word (Isaiah 13:10) and Joel's "the sun
 shall be turned to darkness, and the moon to blood, before the great and awesome day of the LORD
 comes" (Joel 2:31), the passage Peter quoted at Pentecost (Acts 2:20).
 
 Then: "they will see the Son of Man coming on the clouds of heaven with power and great glory"
-(24:30, ESV), which draws on Daniel's throne room — "with the clouds of heaven there came one like a
+(Matthew 24:30, ESV), which draws on Daniel's throne room — "with the clouds of heaven there came one like a
 son of man... and to him was given dominion and glory and a kingdom" (Daniel 7:13-14, ESV). The title
 Jesus has used of himself throughout the discourse comes from that verse.
 
 Revelation opens by quoting the same sentence back: "he is coming with the clouds, and every eye will
 see him... and all tribes of the earth will wail on account of him" (Revelation 1:7, ESV) against
 Matthew's "all the tribes of the earth will mourn, and they will see the Son of Man coming on the
-clouds of heaven" (24:30). Clouds, universal visibility, mourning tribes, in that order.
+clouds of heaven" (Matthew 24:30). Clouds, universal visibility, mourning tribes, in that order.
 
 ### The gathering Jerusalem refused
 
 One verb ties the return back to the lament Matthew placed one chapter earlier. At the return, the
-angels "will gather his elect from the four winds" (24:31) — ἐπισυνάγω (*episynagō*, "gather
+angels "will gather his elect from the four winds" (Matthew 24:31) — ἐπισυνάγω (*episynagō*, "gather
 together," G1996). Jesus had used that same verb, twice in one sentence, weeping over the city a day
 or two before:
 
@@ -448,8 +448,8 @@ or two before:
 > How often would I have gathered your children together as a hen gathers her brood under her wings,
 > and you were not willing!"
 
-Twice in Matthew: what he wanted to do for Jerusalem and was refused (23:37), and what he will do at
-his return (24:31). The gathering he was not permitted to give the city, he performs from the four
+Twice in Matthew: what he wanted to do for Jerusalem and was refused (Matthew 23:37), and what he will do at
+his return (Matthew 24:31). The gathering he was not permitted to give the city, he performs from the four
 winds. This shows the heart of God in Jesus: the Son of Man who comes with power and great glory is
 the same Jesus who wept over Jerusalem, and His return is an act of gathering. You can long for the
 One who is coming, because He has longed to gather His people all along.
@@ -460,18 +460,18 @@ Jesus delivers all of this sitting on the Mount of Olives, "opposite the temple"
 hillside Zechariah names for the LORD's return: "on that day his feet shall stand on the Mount of
 Olives that lies before Jerusalem on the east... Then the LORD my God will come, and all the holy ones
 with him" (Zechariah 14:4-5, ESV), on a day when the LORD "will go out and fight against those
-nations" (14:3). Jesus does not quote Zechariah 14 here; the link is geographic. He describes his
+nations" (Zechariah 14:3). Jesus does not quote Zechariah 14 here; the link is geographic. He describes his
 return while sitting on the ground it lands on.
 
 Luke, the one writer who carries both this discourse and its sequel, closes the loop. Acts records
-the ascension from "the mount called Olivet" (1:12), with two angels attaching the promise: "this
+the ascension from "the mount called Olivet" (Acts 1:12), with two angels attaching the promise: "this
 Jesus, who was taken up from you into heaven, will come in the same way as you saw him go into
 heaven" (Acts 1:11, ESV). Same author, same mountain, three times over: the discourse, the departure,
 and the promise of the return.
 
 ## The Day No One Knows
 
-The fig tree (24:32-33) and "this generation" (24:34) are worked through in [The Fig Tree and This
+The fig tree (Matthew 24:32-33) and "this generation" (Matthew 24:34) are worked through in [The Fig Tree and This
 Generation](fig-tree-and-this-generation.md).
 
 ### "Concerning that day and hour"
@@ -498,19 +498,19 @@ Him and give your attention to what He has given you to do.
 
 Jesus draws the conclusion himself. He follows this verse with Noah, with the two in the field, and then with the imperative the
 whole chapter has been building toward: "therefore, stay awake, for you do not know on what day your
-Lord is coming" (24:42, ESV). The unknown date is the reason the church is told to be
+Lord is coming" (Matthew 24:42, ESV). The unknown date is the reason the church is told to be
 ready.
 
 ### What "ready" actually means
 
 **"Ready" is easily heard as watchfulness for an arrival, and that is not mainly what the parables
-measure.** Ἕτοιμος (*hetoimos*, G2092, "ready") turns up at 24:44 and again of the virgins who "were ready" at 25:10 — and only that
+measure.** Ἕτοιμος (*hetoimos*, G2092, "ready") turns up at Matthew 24:44 and again of the virgins who "were ready" at 25:10 — and only that
 second parable is about anticipating the moment. The other three are about being answerable. The
-faithful servant is "set over his household, to give them their food at the proper time" (24:45), and
-is blessed if the master "will find so doing when he comes" (24:46) — found *doing the job*, not
+faithful servant is "set over his household, to give them their food at the proper time" (Matthew 24:45), and
+is blessed if the master "will find so doing when he comes" (Matthew 24:46) — found *doing the job*, not
 found looking out of a window. The master of the talents "came and settled accounts with them"
-(25:19). The nations are separated on what they did and failed to do for "the least of these my
-brothers" (25:40). In three of the four, readiness is a record, not a posture, and it is made of
+(Matthew 25:19). The nations are separated on what they did and failed to do for "the least of these my
+brothers" (Matthew 25:40). In three of the four, readiness is a record, not a posture, and it is made of
 conduct toward other people. So you get ready for Jesus' return the way the faithful servant did, by
 feeding the household He has put in your care.
 
@@ -521,7 +521,7 @@ Parables of the Olivet Discourse](olivet-discourse-parables.md).
 
 Matthew's Noah illustration ends in the discourse's most contested sentence: "Then two men will be in
 the field; one will be taken and one left. Two women will be grinding at the mill; one will be taken
-and one left" (24:40-41, ESV).
+and one left" (Matthew 24:40-41, ESV).
 
 This saying is routinely quoted in popular teaching as proof of a pretribulational rapture — taken
 equals rescued, left equals abandoned. That reading runs against the Noah illustration it completes
@@ -587,7 +587,7 @@ command is put to the test by name.
 #### The same command, tested that same night
 
 γρηγορέω (*grēgoreō*, "stay awake," G1127) occurs six times in Mark. Three of them are the end of the
-discourse (13:34, 35, 37). The other three are Gethsemane:
+discourse (Mark 13:34, 35, 37). The other three are Gethsemane:
 
 > ✝️ Mark 14:34, 37-38 (ESV)
 > 34 And he said to them, "My soul is very sorrowful, even to death. Remain here and watch."...
@@ -601,7 +601,7 @@ test happen on the same hill, one at the top and one at the foot. Same men: Mark
 James, John and Andrew as the ones who asked the
 question, and Mark 14:33 takes Peter, James and John into the garden. Hours, not years, separate the
 command from the failure. Jesus said "lest he come suddenly and find you asleep" (Mark 13:36); Mark writes
-"he came and found them sleeping" (14:37), and then twice more.
+"he came and found them sleeping" (Mark 14:37), and then twice more.
 
 Mark is showing his readers what the command costs,
 using the only three men who had the chance to obey it that same night, and failed while their Lord
@@ -612,11 +612,11 @@ and it is yours on the same terms: stay awake, and when you find you have slept,
 and keep watching.
 
 The discourse's answer to "when?" is therefore not a date, and not really an argument. It is a job.
-Matthew makes the same turn by following 24:44 with four parables of servants who were and were not
+Matthew makes the same turn by following Matthew 24:44 with four parables of servants who were and were not
 ready when the master arrived; those are treated in [The Parables of the Olivet
 Discourse](olivet-discourse-parables.md). Luke states the posture in a sentence: "when these things
 begin to take place, straighten up and raise your heads, because your redemption is drawing near"
-(21:28, ESV).
+(Luke 21:28, ESV).
 
 Peter and Paul carried this discourse's verbs and images into 2 Peter 3 and 1 Thessalonians 5; that
 trail is followed in [Heaven and Earth Will Pass Away](heaven-and-earth-will-pass-away.md).
@@ -627,7 +627,7 @@ trail is followed in [Heaven and Earth Will Pass Away](heaven-and-earth-will-pas
    list to "the beginning of the birth pains" and gave one sign — his own arrival. What does that do
    to the way end-times signs are commonly discussed today?
 2. Four times Jesus warns about being led astray, and the most dangerous deceivers are the ones
-   performing "great signs and wonders" (24:24). Why would convincing signs be the mark of a false
+   performing "great signs and wonders" (Matthew 24:24). Why would convincing signs be the mark of a false
    messiah rather than a true one, in a discourse where the true sign needs no interpreter?
 3. Read Matthew 24:16-20 alongside the cultural notes above. Jesus tells a man not to go back for the
    one possession the law guarantees him. What does the urgency of these instructions suggest about

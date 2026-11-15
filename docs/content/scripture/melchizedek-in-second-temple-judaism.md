@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 110:4"
 bible_references: ["Genesis 14:17-20", "Psalm 76:2", "Psalm 110:1-4", "Leviticus 25:8-13", "Deuteronomy 15:2", "Isaiah 61:1-2", "Luke 4:18-21", "Psalm 82:1-8", "Psalm 7:7-8", "John 10:34-36", "Isaiah 52:7", "Daniel 9:24-27", "John 1:14", "Hebrews 1:5", "Hebrews 1:13", "Hebrews 5:11-14", "Hebrews 6:19-20", "Hebrews 7:1-4", "Hebrews 7:14-16", "Hebrews 7:21-27", "Hebrews 10:12-13", "Revelation 19:11-16", "Revelation 20:4-6"]
 date_created: 2026-09-26
-date_modified: 2026-10-22
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -115,7 +115,7 @@ the Old Testament, Genesis 14:18 and Psalm 110:4. The second is an oath:
 > 4 The LORD has sworn and will not change his mind, "You are a priest forever after the order of
 > Melchizedek."
 
-The psalm's king sits at the LORD's right hand (110:1) and rules from Zion (110:2). Psalm 76:2 puts
+The psalm's king sits at the LORD's right hand (Psalm 110:1) and rules from Zion (Psalm 110:2). Psalm 76:2 puts
 God's dwelling "in Salem", parallel to "Zion", so a Jewish reader heard Jerusalem in the name. The
 parent study, [Jesus, Priest in the Order of Melchizedek](../jesus/melchizedek-priesthood.md),
 works through both passages verse by verse.
@@ -176,7 +176,7 @@ songs of David, who said, '*Elohim* [st]ands in the assem[bly of God]; in the mi
 judges'" (II 10). "Him" is Melchizedek, named in the line before. So the scroll reads the psalm's
 first *elohim* as Melchizedek himself and the second as the heavenly beings he judges.
 
-It adds Psalm 7:7-8 (7:8-9 in the Hebrew numbering), "return on high; God will judge the peoples,"
+It adds Psalm 7:7-8 (<span data-ref="Psalm 7:7-8">Psalm 7:8-9</span> in the Hebrew numbering), "return on high; God will judge the peoples,"
 with <span dir="rtl">אל</span> (*ʾēl*, "God") where the Masoretic Text has the LORD. Then it quotes Psalm 82:2, whose
 interpretation "concerns Belial and the spirits of his lot" (II 12). "And Melchizedek will exact
 the vengeance of the judgments of G[od]" (II 13).
@@ -207,7 +207,7 @@ attached by Psalm 110:4 to a future priest-king, and built an *elohim*-tier rede
 
 Some interpreters go further and read 11Q13's heavenly Melchizedek as a direct identification of
 Jesus as God in the flesh. That is a real position, and the scroll's own vocabulary does not
-require it. Psalm 82 itself shows why: its *elohim* are told "like men you shall die" (82:7), and
+require it. Psalm 82 itself shows why: its *elohim* are told "like men you shall die" (Psalm 82:7), and
 Jesus reads them as those "to whom the word of God came" (John 10:35, ESV). Whether those *elohim*
 are human judges or spiritual beings is itself contested. Either way, the title does not by itself
 make its bearer divine.
@@ -310,7 +310,7 @@ Scripture's own design:
 
 The ESV Study Bible's note takes this as the silence of the record: Genesis gives no parents and no
 death, and Melchizedek stays an ordinary man who is a type of Christ.[^esvsb] Hebrews keeps him on
-earth, king of an earthly Salem, blessing a real Abraham (7:1-2). And the word ἀφωμοιωμένος, "made like," puts the Son first. God shaped the
+earth, king of an earthly Salem, blessing a real Abraham (Hebrews 7:1-2). And the word ἀφωμοιωμένος, "made like," puts the Son first. God shaped the
 Genesis account so that a priest with no recorded beginning or end would stand in Scripture as a
 likeness of His eternal Son.
 
@@ -319,9 +319,9 @@ likeness of His eternal Son.
 The centre of Hebrews 7 is the oath of Psalm 110:4. The Levitical priests took office without one,
 "but this one was made a priest with an oath by the one who said to him: 'The Lord has sworn and
 will not change his mind, "You are a priest forever"'" (Hebrews 7:21, ESV). "This makes Jesus the
-guarantor of a better covenant" (7:22, ESV). He became a priest "by the power of an indestructible
-life" (7:16, ESV), and He offered a sacrifice once: "he did this once for all when he offered up
-himself" (7:27, ESV).
+guarantor of a better covenant" (Hebrews 7:22, ESV). He became a priest "by the power of an indestructible
+life" (Hebrews 7:16, ESV), and He offered a sacrifice once: "he did this once for all when he offered up
+himself" (Hebrews 7:27, ESV).
 
 > ✝️ Hebrews 7:24-25 (ESV)
 >
@@ -331,8 +331,8 @@ himself" (7:27, ESV).
 
 This shows that God keeps His oath, and keeps it in a person. The priest-king every reader above
 was waiting for is Jesus, God's Son, and His priesthood is the reason you can come to God at all.
-The doctrine is Christ's high priesthood: He made atonement by offering Himself once (7:27), and He
-lives now to intercede for you (7:25).
+The doctrine is Christ's high priesthood: He made atonement by offering Himself once (Hebrews 7:27), and He
+lives now to intercede for you (Hebrews 7:25).
 
 ### What the readers were reaching for
 
@@ -348,7 +348,7 @@ Jesus.
   Word entered "the inner place behind the curtain" as "a high priest forever after the order of
   Melchizedek" (Hebrews 6:19-20, ESV).
 - **Josephus and the Hasmoneans wanted a righteous priest-king in Jerusalem.** Melchizedek's titles,
-  "king of righteousness" and "king of peace" (Hebrews 7:2, ESV), are Jesus' in fact. He is descended from Judah (7:14), and
+  "king of righteousness" and "king of peace" (Hebrews 7:2, ESV), are Jesus' in fact. He is descended from Judah (Hebrews 7:14), and
   appointed by an oath that has no expiry clause.
 
 ### Did Hebrews know this conversation?

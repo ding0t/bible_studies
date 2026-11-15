@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 37:5-11; Genesis 40:5-41:36; Daniel 2; Deuteronomy 13:1-5; Jeremiah 23:25-32"
 bible_references: ["Genesis 20:3", "Genesis 28:12", "Genesis 31:10-11", "1 Kings 3:5-15", "Daniel 4:4-27", "Daniel 7:1", "Numbers 12:6-8", "Ecclesiastes 5:7", "Matthew 1:20-21", "Matthew 2:12-13", "Matthew 2:19-22", "Matthew 27:19", "Acts 2:17", "Acts 10:9-16", "Acts 16:9-10", "Joel 2:28-29", "Jude 1:8", "1 Thessalonians 5:19-21", "1 John 4:1"]
 date_created: 2026-08-04
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -68,7 +68,7 @@ Lord, you are the God who reveals what no one else can. You spoke to Joseph, to 
 
 ## Historical and cultural context
 
-Across the ancient Near East, dreams carried omens of the future, a king's above all. Failing to interpret one correctly could be read as a sign of a kingdom's coming ruin. This is the world Daniel 2 assumes. Nebuchadnezzar demands that his interpreters reproduce the dream's content itself as well as its interpretation, to prove whether they were in contact with the divine or only guessing (per the **ESV Study Bible**'s note on Daniel 2:1). Egypt shared the same assumption. Pharaoh's officials and priests are stumped by his dream in Genesis 41:8 for the same reason Nebuchadnezzar's are in Daniel 2. Both stories deliberately set a pagan court's professional dream-interpreters against a captive Hebrew who has no standing to succeed where they failed, and who doesn't succeed on his own account (Genesis 41:16; Daniel 2:30). Scripture grants that dreams *can* carry real meaning in this world, and contests who can unlock one. Within Genesis specifically, the **ESV Study Bible**'s note on 37:4-5 observes that dreams are consistently tied to divine revelation throughout the book. Abimelech (Genesis 20:3), Jacob at Bethel (Genesis 28:12) and again regarding his flocks (Genesis 31:10-11), the cupbearer and baker (Genesis 40:5-8), and Pharaoh (Genesis 41:1) all receive dreams Genesis treats as meaningful, before Joseph's own dreams in chapter 37 are ever narrated.
+Across the ancient Near East, dreams carried omens of the future, a king's above all. Failing to interpret one correctly could be read as a sign of a kingdom's coming ruin. This is the world Daniel 2 assumes. Nebuchadnezzar demands that his interpreters reproduce the dream's content itself as well as its interpretation, to prove whether they were in contact with the divine or only guessing (per the **ESV Study Bible**'s note on Daniel 2:1). Egypt shared the same assumption. Pharaoh's officials and priests are stumped by his dream in Genesis 41:8 for the same reason Nebuchadnezzar's are in Daniel 2. Both stories deliberately set a pagan court's professional dream-interpreters against a captive Hebrew who has no standing to succeed where they failed, and who doesn't succeed on his own account (Genesis 41:16; Daniel 2:30). Scripture grants that dreams *can* carry real meaning in this world, and contests who can unlock one. Within Genesis specifically, the **ESV Study Bible**'s note on Genesis 37:4-5 observes that dreams are consistently tied to divine revelation throughout the book. Abimelech (Genesis 20:3), Jacob at Bethel (Genesis 28:12) and again regarding his flocks (Genesis 31:10-11), the cupbearer and baker (Genesis 40:5-8), and Pharaoh (Genesis 41:1) all receive dreams Genesis treats as meaningful, before Joseph's own dreams in chapter 37 are ever narrated.
 
 ## Word studies: what the Bible calls a "dream" and a "vision"
 
@@ -82,7 +82,7 @@ Across the ancient Near East, dreams carried omens of the future, a king's above
 
 ### Greek: *onar*, *horama* and *enypnion*
 
-**Greek ὄναρ** (*onar*, "dream," G3677). All six of its New Testament occurrences are in Matthew, five of them clustered in the birth narrative alone (1:20; 2:12; 2:13; 2:19; 2:22), plus Pilate's wife at 27:19. This Gospel, more than any other, tells the story of Jesus's early life through a repeated pattern of warning-by-dream.
+**Greek ὄναρ** (*onar*, "dream," G3677). All six of its New Testament occurrences are in Matthew, five of them clustered in the birth narrative alone (Matthew 1:20; 2:12; 2:13; 2:19; 2:22), plus Pilate's wife at 27:19. This Gospel, more than any other, tells the story of Jesus's early life through a repeated pattern of warning-by-dream.
 
 **Greek ὅραμα / ὅρασις** (*horama* / *horasis*, "vision," G3705 / G3706, from *horaō*, "to see"). *Horama* is Luke's term for what Peter (Acts 10:17, 19) and Paul (Acts 16:9-10) each receive while awake, in a trance or in the night, which the text itself distinguishes from ordinary sleep-dreaming. *Horasis* appears in Acts 2:17's quotation of Joel: "your young men shall see visions" (ESV).
 

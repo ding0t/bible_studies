@@ -9,7 +9,7 @@ bible_references: ["Matthew 26:26-29", "Mark 14:22-26", "Luke 22:14-20", "1 Cori
 zadok_year: 3991
 gregorian_year: 33
 date_created: 2026-07-19
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -183,7 +183,7 @@ from Mark twice over: he adds **μεθ' ὑμῶν** (*meth' hymōn*, G5216, "wi
 kingdom of God" Matthew has "my Father's kingdom." Both differences point the vow at a named
 company and a named place.
 
-**Luke (22:14-20)** narrates **two**. The first (22:17-18, quoted above) comes before the bread, and
+**Luke (22:14-20)** narrates **two**. The first (Luke 22:17-18, quoted above) comes before the bread, and
 carries the vow. The second comes after:
 
 > ✝️ Luke 22:20 (WEB)

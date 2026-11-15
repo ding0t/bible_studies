@@ -5,7 +5,7 @@ description: "What the Key Takeaways section at the top of every study is for, t
 tags: ["study-method", "key-takeaways", "transformation"]
 draft: false
 date_created: 2026-08-02
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -75,7 +75,7 @@ because both are God telling readers what to expect before it happens:
   as a **τύπος** (*typos*, G5179) — a pattern or foreshadowing — of Christ, the gospel, or what God
   does for and with His people under it, and what exactly the type shows. Paul calls Israel's
   wilderness years τύποι, "examples for us" (1 Corinthians 10:6, ESV), "written down for our
-  instruction, on whom the end of the ages has come" (10:11, ESV); in the same way Lot, brought out
+  instruction, on whom the end of the ages has come" (1 Corinthians 10:11, ESV); in the same way Lot, brought out
   before the fire, patterns the church's rescue before the wrath to come. "Melchizedek was a type of Christ's priesthood, because..." is the shape; the
   "because" is the part worth keeping, not just the label. A type isn't a verbal prediction — it's
   a real historical person, object, or event that patterns a later reality without saying so.

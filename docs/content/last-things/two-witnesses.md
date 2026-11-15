@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Revelation 11:1-14"
 bible_references: ["Revelation 11:1-14", "Revelation 10:8-11", "Revelation 11:15", "Revelation 1:5", "Revelation 2:13", "Revelation 3:14", "Revelation 4:1", "Revelation 12:6", "Revelation 12:11", "Revelation 12:14", "Revelation 13:5-7", "Revelation 17:6", "Zechariah 2:1-2", "Zechariah 4:3", "Zechariah 4:6", "Zechariah 4:14", "Ezekiel 37:5-10", "Ezekiel 40:3", "Daniel 7:21", "Daniel 7:25", "Daniel 9:27", "Daniel 12:7", "Malachi 4:4-5", "Deuteronomy 19:15", "Deuteronomy 34:5-6", "Exodus 7:17-20", "Exodus 24:12-18", "1 Kings 17:1", "1 Kings 19:8", "1 Kings 19:18", "2 Kings 1:8-10", "2 Kings 2:11", "Genesis 5:24", "Hebrews 11:5", "Hebrews 9:27", "Jeremiah 1:5", "Jeremiah 5:14", "Esther 9:22", "Luke 4:25", "James 5:17", "Luke 9:28-33", "Matthew 17:10-13", "Luke 1:17", "Luke 21:24", "Matthew 24:15", "2 Thessalonians 2:4", "Acts 1:9", "John 11:43-44", "Deuteronomy 18:15-18", "Acts 3:22", "Jude 1:14-15", "1 Kings 18:1", "1 Corinthians 15:51", "2 Kings 3:14", "Jeremiah 15:19", "Revelation 1:6", "Revelation 5:10", "Revelation 17:18"]
 date_created: 2026-09-29
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -179,7 +179,7 @@ prophetic year.
 - **The first half.** The witnesses finish their testimony before the beast "rises from the bottomless
   pit" to kill them (Revelation 11:7, ESV), and the beast's own forty-two months come in chapter 13.
   Victorinus of Pettau, an early commentator on Revelation, read it this way: "their preaching is three years and
-  six months, and the kingdom of Antichrist as much again" (*Commentary on the Apocalypse* on 11:3).
+  six months, and the kingdom of Antichrist as much again" (*Commentary on the Apocalypse* on Revelation 11:3).
 - **The second half.** The witnesses' 1,260 days run alongside the trampling of the city (Revelation
   11:2-3), which follows the abomination at the midpoint, and their death is followed directly by the
   seventh trumpet and the kingdom (Revelation 11:14-15).
@@ -278,7 +278,7 @@ their 1,260 days are "the half of the week whereof Daniel spake" (*Treatise on C
 
 Victorinus knew another answer. After listing the view that the second witness is "Elisha, or Moses,"
 he objects that "both of these died," and says "all our ancients" held that Elijah's companion was
-Jeremiah (*Commentary on the Apocalypse* on 11:5). His reasons are that Scripture records no death
+Jeremiah (*Commentary on the Apocalypse* on Revelation 11:5). His reasons are that Scripture records no death
 for Jeremiah (the English of the *Ante-Nicene Fathers* reads "Elijah" at that point, apparently a
 slip), and that God had appointed Jeremiah "a prophet unto the nations" (Jeremiah 1:5, as Victorinus
 quotes it), which he had not yet been. Jeremiah also carries the fire image: God made His "words in
@@ -467,7 +467,7 @@ these two will raise you.
 - ***NIV Cultural Backgrounds Study Bible*** (Zondervan, 2016), eds. Craig S. Keener and John H.
   Walton — notes on Revelation 11:3-6, 11:5, 11:8, 11:10 and 11:13.
 - **Tertullian**, *A Treatise on the Soul* 50; **Hippolytus**, *Treatise on Christ and Antichrist*
-  43-44; **Victorinus of Pettau**, *Commentary on the Apocalypse* on 11:3-5 — in *Ante-Nicene Fathers*
+  43-44; **Victorinus of Pettau**, *Commentary on the Apocalypse* on Revelation 11:3-5 — in *Ante-Nicene Fathers*
   vols. 3, 5 and 7, eds. Alexander Roberts and James Donaldson (1885-86, public domain).
 - ***2 Esdras*** (4 Ezra) 6:26, King James Version Apocrypha (public domain). Extra-biblical; cited as
   Jewish tradition, never as Scripture.

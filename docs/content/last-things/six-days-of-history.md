@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 1:1-31"
 bible_references: ["Genesis 1:1-31", "Genesis 2:1-3", "Genesis 2:7", "Genesis 2:17", "Genesis 4:26", "Genesis 5:5", "Genesis 5:23-24", "Genesis 7:11", "Genesis 7:13", "Genesis 8:2", "Genesis 12:7", "Genesis 15:5", "Genesis 22:17-18", "Exodus 12:1-28", "Exodus 14:22", "Exodus 20:11", "Leviticus 23:2-44", "Numbers 9:5", "1 Kings 6:38", "2 Chronicles 8:13", "Psalm 89:36-51", "Isaiah 46:10", "Malachi 4:2", "Matthew 4:19", "Matthew 13:47", "Acts 1:7", "Acts 6:7", "Acts 12:24", "Romans 8:29", "2 Corinthians 3:18", "Galatians 4:4", "Colossians 1:15", "Hebrews 4:9", "Revelation 13:14-18", "Revelation 17:15", "Revelation 20:4"]
 date_created: 2026-09-26
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -108,13 +108,13 @@ were Israel, the people God brought out of Egypt and gave a Sabbath. They heard 
 account of the God who had just delivered them.
 
 The unit is Genesis 1:1-2:3. The *ESV Study Bible* describes it as seven sections marked by set
-phrases (note on 1:1-2:3). Each working day opens "And God said" and closes "And there was evening
+phrases (note on Genesis 1:1-2:3). Each working day opens "And God said" and closes "And there was evening
 and there was morning," followed by the day's number. Then comes the seventh day, which has no
 evening at all. The sixth day is the longest section by far, which the *ESV Study Bible* reads as
-marking it the peak of the passage (note on 1:24-31).
+marking it the peak of the passage (note on Genesis 1:24-31).
 
 The chapter's own point is God. He speaks and the world comes into being. He separates and names
-and fills. He sees that it is good, six times, and at the end "very good" (1:31). **This shows that
+and fills. He sees that it is good, six times, and at the end "very good" (Genesis 1:31). **This shows that
 God is the sovereign Creator who orders everything by His word, and that the world He made answers
 to His purpose.** Israel's week preached that every seventh day (Exodus 20:11).
 
@@ -192,8 +192,8 @@ same thousand years.
 ### Day two — the waters divided
 
 Day two is the only working day God does not call good. The Hebrew of Genesis 1:8 has no
-<span dir="rtl">כִּי־טוֹב</span> (*ki tov*, "that it was good"); day three has it twice (1:10,
-1:12). The Septuagint supplies it at 1:8 (εἶδεν ὁ Θεὸς ὅτι καλόν), and this study follows the
+<span dir="rtl">כִּי־טוֹב</span> (*ki tov*, "that it was good"); day three has it twice (Genesis 1:10,
+1:12). The Septuagint supplies it at Genesis 1:8 (εἶδεν ὁ Θεὸς ὅτι καλόν), and this study follows the
 Hebrew. What day two makes is a separation — an expanse holding waters above apart from waters
 below.
 
@@ -232,7 +232,7 @@ walked His people onto dry ground to receive them.
 > night. And let them be for signs and for seasons, and for days and years,
 
 "Seasons" is <span dir="rtl">מוֹעֲדִים</span> (*mo'adim*, H4150), *appointed times*, the word
-Leviticus 23 uses six times across four verses for the feasts of the LORD (23:2, 4, 37, 44). Day
+Leviticus 23 uses six times across four verses for the feasts of the LORD (Leviticus 23:2, 4, 37, 44). Day
 four is when God installs the machinery the festival calendar runs on. The
 [Appointed Times](../feasts/feasts.md) study follows that calendar through the year.
 

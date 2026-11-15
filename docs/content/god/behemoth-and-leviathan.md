@@ -44,7 +44,7 @@ Job's complaint before the whirlwind was that no one could bring him and God int
 ### Be Transformed
 
 - **Think.** God's answer to the hardest question in the book is a tour of the animal kingdom. Notice what that assumes about you: that seeing who God is settles more than being told why He acted.
-- **Attitude.** Job's repentance in 42:6 follows no new information about his losses. Nothing in chapters 38-41 explains his children, his health or his property. What changed was the size of the God he was arguing with.
+- **Attitude.** Job's repentance in Job 42:6 follows no new information about his losses. Nothing in chapters 38-41 explains his children, his health or his property. What changed was the size of the God he was arguing with.
 - **Do.** Go this week to one thing in creation you cannot control, the sea, a storm, a large animal, and read Job 40:15-19 aloud in front of it. Then say to God what Job said once he had seen Him: "I know that you can do all things, and that no purpose of yours can be thwarted" (Job 42:2, ESV).
 
 ### Prayer
@@ -54,10 +54,10 @@ Lord, you answered a suffering man by showing him what you had made, and he stop
 ## Study outline
 
 - [Historical and literary context](#historical-and-literary-context). Where Job 40-41 sits in the whirlwind speech, and the Hebrew chapter numbering.
-- [Two real creatures](#two-real-creatures). The Hebrew of 40:15 and 41:9, 33, and why the Lord's questions assume living animals.
-- [Behemoth](#behemoth). The beast of beasts, four details set against the hippopotamus, and his river habitat in 40:23.
+- [Two real creatures](#two-real-creatures). The Hebrew of Job 40:15 and 41:9, 33, and why the Lord's questions assume living animals.
+- [Behemoth](#behemoth). The beast of beasts, four details set against the hippopotamus, and his river habitat in Job 40:23.
 - [Leviathan](#leviathan). The twisting one, four features set against the crocodile, and Isaiah's and the Septuagint's "dragon".
-- [The fire](#the-fire). The six unmarked clauses of 41:18-21, the Septuagint and Psalm 18:8, and the bombardier beetle.
+- [The fire](#the-fire). The six unmarked clauses of Job 41:18-21, the Septuagint and Psalm 18:8, and the bombardier beetle.
 - [Leviathan's other four appearances](#leviathans-other-four-appearances). Job 3:8, Psalm 104:26, Psalm 74:14 and Isaiah 27:1.
 - [Where they might be attested](#where-they-might-be-attested). Fossil candidates, the Ugaritic Lotan, and the limits of the dragon-legend argument.
 - [What the two exhibits are for](#what-the-two-exhibits-are-for). From creature to Creator, Job 41:11 in Romans 11, and God's sovereignty.
@@ -67,7 +67,7 @@ Lord, you answered a suffering man by showing him what you had made, and he stop
 
 **Job's setting.** Job is patriarchal-era wisdom literature — undated, but set before the Mosaic law, among a wealth and lifespan pattern that fits the patriarchal age. The book runs three cycles of speeches between Job and his friends, then Elihu, then the Lord's own speech from the whirlwind (Job 38:1-42:6).
 
-**Where 40:15-41:34 sits.** The whirlwind speech never answers Job's demand for an explanation of his suffering. It reorients him around the created order he did not make and cannot command: the cosmos (ch. 38), the animal kingdom (ch. 39), and finally two named creatures, Behemoth (40:15-24) and Leviathan (41:1-34).
+**Where Job 40:15-41:34 sits.** The whirlwind speech never answers Job's demand for an explanation of his suffering. It reorients him around the created order he did not make and cannot command: the cosmos (ch. 38), the animal kingdom (ch. 39), and finally two named creatures, Behemoth (Job 40:15-24) and Leviathan (Job 41:1-34).
 
 > ✝️ Job 38:4-7 (ESV)
 >
@@ -75,7 +75,7 @@ Lord, you answered a suffering man by showing him what you had made, and he stop
 
 The two exhibits end that interrogation, and Job answers: "I know that you can do all things, and that no purpose of yours can be thwarted" (Job 42:2, ESV).
 
-**A numbering note.** Hebrew and English divide these chapters differently. The Leviathan section begins at Hebrew 40:25, which English Bibles number 41:1. References below follow the English numbering, with the Hebrew given where the Hebrew text is under discussion.
+**A numbering note.** Hebrew and English divide these chapters differently. The Leviathan section begins at Hebrew 40:25, which English Bibles number Job 41:1. References below follow the English numbering, with the Hebrew given where the Hebrew text is under discussion.
 
 ## Two real creatures
 
@@ -85,7 +85,7 @@ The Lord introduces Behemoth with a pointing gesture. <span dir="rtl">הִנֵּ
 
 ### The argument in Job 41
 
-Job 41 presses the assumption harder, because its argument is a run of questions to which Job already knows the answers. Can you hook him, put a leash on him for your daughters, sell him to merchants, fill his hide with harpoons (41:1-7)? Those are the ordinary things men do to large animals. Verse 9 says a man is undone <span dir="rtl">אֶל־מַרְאָיו</span> (*el-mar'av*), "at the sight of him," from <span dir="rtl">מַרְאֶה</span> (*mar'eh*, H4758), "appearance". Men have looked at this creature.
+Job 41 presses the assumption harder, because its argument is a run of questions to which Job already knows the answers. Can you hook him, put a leash on him for your daughters, sell him to merchants, fill his hide with harpoons (Job 41:1-7)? Those are the ordinary things men do to large animals. Verse 9 says a man is undone <span dir="rtl">אֶל־מַרְאָיו</span> (*el-mar'av*), "at the sight of him," from <span dir="rtl">מַרְאֶה</span> (*mar'eh*, H4758), "appearance". Men have looked at this creature.
 
 Verse 33 is then a comparison: <span dir="rtl">אֵין־עַל־עָפָר מָשְׁלוֹ</span>, "there is not on the dust his likeness" (*moshel*, H4915, TWOT 1258c). <span dir="rtl">עַל־עָפָר</span> (*al-afar*, "on the dust") is where animals walk. The verse ranks Leviathan against everything else on the ground and finds no equal — and a thing that does not exist cannot be ranked.
 
@@ -93,7 +93,7 @@ This shows that God rules creatures as real as Job himself, and He rules you.
 
 ### A catalogue of real animals
 
-Mart-Jan Paul sets out the same case in *Journal of Creation* and adds two observations from the surrounding text. Job 39 has just catalogued ordinary animals — the wild donkey, the ostrich, the horse, the hawk — so the two that follow arrive in a sequence of real ones. And the Lord describes appearance and habits, not primordial combat: Behemoth is a grass-eater lying in the shade of river plants (40:15, 21-22), which is not how the creation myths of Israel's neighbours describe their monsters. Paul concludes: "to call them 'mythological' creatures is to do violence to the text and context of Job; therefore, we affirm that these were actual creatures of which Job had knowledge."
+Mart-Jan Paul sets out the same case in *Journal of Creation* and adds two observations from the surrounding text. Job 39 has just catalogued ordinary animals — the wild donkey, the ostrich, the horse, the hawk — so the two that follow arrive in a sequence of real ones. And the Lord describes appearance and habits, not primordial combat: Behemoth is a grass-eater lying in the shade of river plants (Job 40:15, 21-22), which is not how the creation myths of Israel's neighbours describe their monsters. Paul concludes: "to call them 'mythological' creatures is to do violence to the text and context of Job; therefore, we affirm that these were actual creatures of which Job had knowledge."
 
 ### Real, but gone from the earth
 
@@ -109,7 +109,7 @@ Behemoth transliterates Hebrew <span dir="rtl">בְּהֵמוֹת</span> (*behem
 
 ### Why not the hippopotamus
 
-The traditional identification is the hippopotamus, which the *ESV Study Bible*'s note on 40:15 reports as "almost universally so interpreted," reading verses 16-18 as "poetical extravagance." Four details in the passage work against it.
+The traditional identification is the hippopotamus, which the *ESV Study Bible*'s note on Job 40:15 reports as "almost universally so interpreted," reading verses 16-18 as "poetical extravagance." Four details in the passage work against it.
 
 #### The tail
 
@@ -149,7 +149,7 @@ So the picture is a creature lying in moving water, a named river driving agains
 
 Leviathan is <span dir="rtl">לִוְיָתָן</span> (*livyatan*, H3882, TWOT root 1089b), from a root meaning to twine or coil — the twisted one. TWOT glosses it simply "serpent."
 
-The *ESV Study Bible*'s note on 41:1 suggests the animal "may be the crocodile," adding that the focus is on "whatever powerful creature is being referred to." Biblical Hebrew has no word for crocodile at all, though the animal lived in Canaan — Greek and Latin place names in the region record it — so the identification is a guess about *livyatan*, not a translation of it. Four features in the chapter rule it out.
+The *ESV Study Bible*'s note on Job 41:1 suggests the animal "may be the crocodile," adding that the focus is on "whatever powerful creature is being referred to." Biblical Hebrew has no word for crocodile at all, though the animal lived in Canaan — Greek and Latin place names in the region record it — so the identification is a guess about *livyatan*, not a translation of it. Four features in the chapter rule it out.
 
 ### Four features against the crocodile
 
@@ -203,7 +203,7 @@ Commentaries routinely file this under hyperbole. The Hebrew makes that harder: 
 
 ### Six unmarked clauses
 
-Six clauses across these four verses (Hebrew 41:10-13) are plain indicatives with no comparative particle: sneezings flash light, torches go from his mouth, sparks leap out, smoke comes from his nostrils, his breath kindles coals, a flame comes from his mouth. Two clauses in the same span *do* carry <span dir="rtl">כְּ</span> (*ke*, "like") — "eyes **like** the eyelids of the dawn" and smoke "**as** from a boiling pot and burning rushes" — and both compare *appearance*, not existence. The smoke is asserted flatly; only how it looks is likened to a boiling pot. The writer does the same thing three verses later with a heart "hard as a stone, hard as the lower millstone" (41:24) and again at 41:31, where the deep boils "like a pot." He knows how to signal a simile and does not signal one for the fire itself.
+Six clauses across these four verses (Hebrew 41:10-13) are plain indicatives with no comparative particle: sneezings flash light, torches go from his mouth, sparks leap out, smoke comes from his nostrils, his breath kindles coals, a flame comes from his mouth. Two clauses in the same span *do* carry <span dir="rtl">כְּ</span> (*ke*, "like") — "eyes **like** the eyelids of the dawn" and smoke "**as** from a boiling pot and burning rushes" — and both compare *appearance*, not existence. The smoke is asserted flatly; only how it looks is likened to a boiling pot. The writer does the same thing three verses later with a heart "hard as a stone, hard as the lower millstone" (Job 41:24) and again at 41:31, where the deep boils "like a pot." He knows how to signal a simile and does not signal one for the fire itself.
 
 The setting reinforces it. These verses sit inside an inventory of the creature's body: jaws, teeth, scales, neck, folds of flesh, heart, underside.
 
@@ -217,7 +217,7 @@ Psalm 18:8 describes God in nearly the same words — "smoke went up from his no
 
 ### Nothing alive matches him
 
-The objection everyone raises is that no known animal does this. Verse 33 grants it in advance: "there is not on the dust his likeness." The Lord Himself says so, in the middle of a chapter daring Job to lay a hand on the animal (41:8).
+The objection everyone raises is that no known animal does this. Verse 33 grants it in advance: "there is not on the dust his likeness." The Lord Himself says so, in the middle of a chapter daring Job to lay a hand on the animal (Job 41:8).
 
 One animal alive today does produce fire chemically. The bombardier beetle (*Brachinus*) stores hydroquinone and hydrogen peroxide in separate reservoirs and combines them in a reaction chamber with catalytic enzymes, firing the result out of its abdomen at around 100°C. Paul cites it as a working demonstration that a body can generate a violent exothermic reaction on purpose, without proposing it as a mechanism for Leviathan. Neither does the text, and neither does this study: Job 41 supplies a report.
 
@@ -225,7 +225,7 @@ One animal alive today does produce fire chemically. The bombardier beetle (*Bra
 
 The name occurs five times in the Old Testament, and Job 41 is the longest treatment.
 
-**Job 3:8** — Job's own earlier use, in his opening curse on the day of his birth: "Let those curse it who curse the day, who are ready to rouse up Leviathan" (ESV). Job invokes the creature as the last thing anyone would want roused. The Lord picks the name back up in chapter 41 and asks Job whether he could rouse it himself (41:10).
+**Job 3:8** — Job's own earlier use, in his opening curse on the day of his birth: "Let those curse it who curse the day, who are ready to rouse up Leviathan" (ESV). Job invokes the creature as the last thing anyone would want roused. The Lord picks the name back up in chapter 41 and asks Job whether he could rouse it himself (Job 41:10).
 
 **Psalm 104:26** — a creation psalm, cataloguing the fifth day.
 
@@ -253,7 +253,7 @@ Two lines of external evidence bear on creatures the Bible describes and no one 
 
 ### The fossil record
 
-**The fossil record.** Young-earth researchers have proposed candidates for both. Allan Steel argued in *Journal of Creation* (2001) that Behemoth was a sauropod, on the strength of the cedar tail and the elimination of every living alternative; Paul, working the same passage, names the apatosaur, brachiosaur and ultrasaur as fitting the size and the tail, and *Nigersaurus* as fitting the grass-eating of 40:15 in particular. For Leviathan, Peter Brooker proposed *Sarcosuchus imperator* (*Journal of Creation*, 2005) — a twelve-metre armoured crocodilian with an unusual bulbous cavity at the end of the snout — and Simon Turpin's 2020 survey for Answers in Genesis runs through *Kronosaurus*, *Liopleurodon*, *Sarcosuchus*, *Mosasaurus* and *Plesiosaurus* and settles on none, concluding that Leviathan "may be an extinct creature we currently do not know about."
+**The fossil record.** Young-earth researchers have proposed candidates for both. Allan Steel argued in *Journal of Creation* (2001) that Behemoth was a sauropod, on the strength of the cedar tail and the elimination of every living alternative; Paul, working the same passage, names the apatosaur, brachiosaur and ultrasaur as fitting the size and the tail, and *Nigersaurus* as fitting the grass-eating of Job 40:15 in particular. For Leviathan, Peter Brooker proposed *Sarcosuchus imperator* (*Journal of Creation*, 2005) — a twelve-metre armoured crocodilian with an unusual bulbous cavity at the end of the snout — and Simon Turpin's 2020 survey for Answers in Genesis runs through *Kronosaurus*, *Liopleurodon*, *Sarcosuchus*, *Mosasaurus* and *Plesiosaurus* and settles on none, concluding that Leviathan "may be an extinct creature we currently do not know about."
 
 Each declines to close the case, and Paul gives the reason: new extinct kinds keep being found, and Job 40-41 is not a scientific description. Mainstream paleontology dates all of these animals to the Mesozoic and places no human alongside them — the dispute over that dating is the same one the [companion study](creation-reveals-the-creator.md) lays out on both sides, and nothing in Job 40-41 settles it.
 

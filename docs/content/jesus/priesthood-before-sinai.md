@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 3:5-13"
 bible_references: ["Numbers 1:1", "Numbers 3:1-13", "Numbers 3:38-51", "Numbers 8:16", "Numbers 18:7", "Genesis 2:5", "Genesis 2:15", "Genesis 3:23-24", "Genesis 5:24", "Genesis 8:20", "Genesis 12:7-8", "Genesis 14:18", "Genesis 22:13", "Genesis 26:25", "Genesis 31:54", "Genesis 41:45", "Genesis 46:1", "Genesis 47:22", "Job 1:1", "Job 1:5", "Exodus 2:16", "Exodus 13:2", "Exodus 18:12", "Exodus 19:6", "Exodus 19:22-24", "Exodus 24:5", "Exodus 28:1", "Exodus 30:7-8", "Exodus 30:34", "Exodus 32:26-29", "Hebrews 5:4-5", "Hebrews 7:3", "Hebrews 7:11", "Hebrews 7:23-25", "Hebrews 11:5", "Hebrews 12:23", "1 Peter 2:5", "1 Peter 2:9", "Jude 14", "Revelation 1:6"]
 date_created: 2026-09-26
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -171,7 +171,7 @@ Who were these priests? The text does not say, and interpreters divide.
 
 - **Already serving.** The *NIV Biblical Theology Study Bible* allows that they were "arguably" men
   who already functioned as priests before God instituted the Aaronic priesthood, and links them to
-  the young men of 24:5.[^nivbtsb-exod19] The Mishnah assigns all sacrificial service before the
+  the young men of Exodus 24:5.[^nivbtsb-exod19] The Mishnah assigns all sacrificial service before the
   tabernacle to the firstborn (see [What later tradition added](#what-later-tradition-added)).
 - **Anticipating Aaron's sons.** The same note judges it "more likely" that the verse looks ahead to
   Aaron and his sons, and to Nadab and Abihu in particular.[^nivbtsb-exod19] The *ESV Study Bible*
@@ -249,7 +249,7 @@ and the *NIV Cultural Backgrounds Study Bible* reads Genesis 2 as assigning the 
 priestly terms.[^nivcbsb-eden]
 
 The case against is also textual. Genesis never calls Adam a priest, and Eden has no altar and no
-sacrifice. Inside Genesis, *avad* frames 2:15 on both sides with farming: before the garden "there was
+sacrifice. Inside Genesis, *avad* frames Genesis 2:15 on both sides with farming: before the garden "there was
 no man to work the ground" (Genesis 2:5, ESV), and afterward God sent him out "to work the ground from
 which he was taken" (Genesis 3:23, ESV). The priestly sense arrives only when Numbers is read back
 into Genesis. The verbal link is real, and the cherubim at the east make it hard to dismiss; calling

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 14:6; Acts 9:2"
 bible_references: ["Isaiah 40:3", "Isaiah 35:8-10", "Psalm 1:1-6", "Jeremiah 6:16", "Deuteronomy 10:12-13", "Matthew 3:3", "Mark 1:2-3", "Luke 3:4-6", "John 1:23", "Matthew 7:13-14", "Matthew 21:32", "Luke 1:76-79", "John 13:36-14:14", "Hebrews 3:10", "Hebrews 9:8", "Hebrews 10:19-20", "Acts 4:12", "Acts 9:1-2", "Acts 11:19-26", "Acts 16:17", "Acts 18:24-26", "Acts 19:9", "Acts 19:23", "Acts 22:4", "Acts 24:5", "Acts 24:14", "Acts 24:22", "Acts 26:28", "Acts 28:22", "1 Peter 4:16", "Romans 3:16-17", "Romans 11:33", "1 Corinthians 4:17", "1 Corinthians 12:31", "2 Peter 2:2", "2 Peter 2:15", "2 Peter 2:21", "Jude 1:11", "James 1:8", "James 5:20"]
 date_created: 2026-08-02
-date_modified: 2026-11-07
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -108,18 +108,18 @@ ever did.
 ### John's Gospel: Thomas's question in the Upper Room
 
 **John's Gospel.** Chapters 13-14 sit inside the Upper Room Discourse, Jesus's farewell speech to
-the Twelve on the night of His arrest. Judas has just left to betray Him (13:30); Jesus has just
-told Peter he will deny Him three times before dawn (13:38). "Let not your hearts be troubled"
-(14:1) speaks to that trouble. Thomas's confused question, "Lord, we do not know where you are
-going. How can we know the way?" (14:5, ESV), draws out 14:6.
+the Twelve on the night of His arrest. Judas has just left to betray Him (John 13:30); Jesus has just
+told Peter he will deny Him three times before dawn (John 13:38). "Let not your hearts be troubled"
+(John 14:1) speaks to that trouble. Thomas's confused question, "Lord, we do not know where you are
+going. How can we know the way?" (John 14:5, ESV), draws out 14:6.
 
 ### Acts: from persecutor to prisoner
 
 **Acts.** Luke's second volume narrates the gospel's spread from Jerusalem to Rome, and "the Way"
 threads through nearly the whole of it: from Saul's mouth as persecutor (Acts 9:2) to Paul's own as
-a prisoner defending himself before the Roman governor Felix (24:14, 22). In between, it
-names the movement at a synagogue argument in Ephesus (19:9) and a riot there over lost silver trade
-(19:23).
+a prisoner defending himself before the Roman governor Felix (Acts 24:14, 22). In between, it
+names the movement at a synagogue argument in Ephesus (Acts 19:9) and a riot there over lost silver trade
+(Acts 19:23).
 
 ## The Hebrew and Greek word: derek and hodos
 
@@ -203,11 +203,11 @@ The grammar makes an exclusivity claim before the following sentence states one 
 
 ### The way as destination
 
-**The way is a destination.** Thomas asked "how can we know the way" (14:5), wanting a route, the
+**The way is a destination.** Thomas asked "how can we know the way" (John 14:5), wanting a route, the
 kind of information a map gives. Jesus answers with a person, and to know Him is to know the
 destination: "If you had known me, you would have known my Father also. From now on you do know
-him and have seen him" (14:7, ESV). When Philip still asks to be shown the Father, Jesus answers
-plainly: "Whoever has seen me has seen the Father" (14:9, ESV). This shows that God
+him and have seen him" (John 14:7, ESV). When Philip still asks to be shown the Father, Jesus answers
+plainly: "Whoever has seen me has seen the Father" (John 14:9, ESV). This shows that God
 has made Himself known in the face of His Son: to know Jesus is to know the Father. So everything
 you need in order to reach God is found in knowing Jesus.
 
@@ -270,8 +270,8 @@ Testament's "way of life" idiom:
 
 - **A way that false teachers corrupt or abandon.** Peter warns that some "will follow their
   sensuality, and because of them the way of truth will be blasphemed" (2 Peter 2:2, ESV); that
-  others, "forsaking the right way," have "followed the way of Balaam" (2:15, ESV); that it would
-  be better never to have known "the way of righteousness" than to know it and turn back (2:21,
+  others, "forsaking the right way," have "followed the way of Balaam" (2 Peter 2:15, ESV); that it would
+  be better never to have known "the way of righteousness" than to know it and turn back (2 Peter 2:21,
   ESV). That exact phrase — **ὁδὸς δικαιοσύνης**, "the way of righteousness" — is the same one
   Jesus uses of John the Baptist: "John came to you in the way of righteousness, and you did not
   believe him" (Matthew 21:32, ESV). Peter's false teachers abandon the very way John walked in
@@ -316,7 +316,7 @@ Six times, always with the definite article — **ἡ ὁδός**, *the* Way —
 | Acts 24:22 | Felix, "having a rather accurate knowledge of the Way," defers Paul's case |
 
 The name spans Paul's career inside the narrative, from persecutor before his conversion (Acts 9:2,
-and his own later confession at 22:4) to prisoner defending himself at the end of it (24:14, 22).
+and his own later confession at 22:4) to prisoner defending himself at the end of it (Acts 24:14, 22).
 Luke never introduces or explains the term; he uses it as a name his readers already know.
 
 ### Qumran's own use of "the Way"
@@ -331,10 +331,10 @@ person whose coming Isaiah 40:3 announced.
 
 **Insiders' name against outsiders' name.** Acts records both sides of the naming at once. Paul's own word before Felix is "the Way", and in the same sentence he reports what
 his accusers call it: "according to the Way, **which they call a sect**"
-(24:14, ESV). *Sect* translates **αἵρεσις** (*hairesis*, G139). Tertullus, the prosecutor, had
-already used it moments earlier: "a ringleader of the sect of the Nazarenes" (24:5, ESV). The Jewish
+(Acts 24:14, ESV). *Sect* translates **αἵρεσις** (*hairesis*, G139). Tertullus, the prosecutor, had
+already used it moments earlier: "a ringleader of the sect of the Nazarenes" (Acts 24:5, ESV). The Jewish
 community leaders in Rome use the same word of Paul years later: "with regard to **this sect** we
-know that everywhere it is spoken against" (28:22, ESV). Every occurrence of *hairesis* applied to
+know that everywhere it is spoken against" (Acts 28:22, ESV). Every occurrence of *hairesis* applied to
 the church in Acts comes from a hostile or outside speaker. "The Way" is the movement's word for
 itself, or a narrator's or official's neutral report of it.
 

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Psalm 90:1-17"
 bible_references: ["Psalm 90:1-17", "Psalm 89:46-52", "Psalm 92:1-14", "Psalm 106:45", "Psalm 102:27", "Exodus 32:12-14", "Exodus 34:6", "Numbers 14:29", "Numbers 14:34", "Deuteronomy 33:1", "Genesis 3:19", "Ecclesiastes 6:6", "Judges 7:19", "Hebrews 1:8-12", "Hebrews 13:8", "John 1:14", "2 Timothy 1:10", "1 Corinthians 15:58", "2 Peter 3:4", "2 Peter 3:8-9"]
 date_created: 2026-09-26
-date_modified: 2026-11-07
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -65,7 +65,7 @@ days.
   is Scripture.
 - **Do.** Number your days this week (Psalm 90:12). Each morning pray Moses' words, "Satisfy us in
   the morning with your steadfast love" (Psalm 90:14, ESV), and name one piece of work you are
-  asking Him to establish (90:17).
+  asking Him to establish (Psalm 90:17).
 
 ### Prayer
 
@@ -117,7 +117,7 @@ the psalm is about both halves.
 
 Moses opens with a word for a home: <span dir="rtl">מָעוֹן</span> (*ma'on*, H4583, TWOT 1581a,
 "dwelling"). The *Legacy Standard Bible* footnotes it "hiding place, help," and the *ESV Study Bible*
-glosses it "the home and refuge" of God's people (note on 90:1-2). The Israelites Moses prayed for
+glosses it "the home and refuge" of God's people (note on Psalm 90:1-2). The Israelites Moses prayed for
 had no home for forty years. He tells them they always had one. **This shows that God Himself is the
 permanent address of a people with no fixed place: the generations change, and He does not.**
 A few Hebrew manuscripts and the Septuagint read "refuge" here (CSB footnote on Psalm 90:1; the
@@ -154,8 +154,8 @@ The psalm's own word for God's eternity is <span dir="rtl">עוֹלָם</span> (
 in verse 2 — <span dir="rtl">מֵעוֹלָם עַד־עוֹלָם</span> (*me'olam ad-olam*), which the MACULA gloss
 renders "from antiquity to perpetuity" and TWOT defines as "long duration" (root 1631a). It is a
 word for the *extent* of time. And the psalm keeps addressing God inside time after verse 4: "Return,
-O LORD! How long?" (90:13); "for as many days as you have afflicted us, and for as many years as
-we have seen evil" (90:15). The *NIV Biblical Theology Study Bible* reads verse 4 the same way, as
+O LORD! How long?" (Psalm 90:13); "for as many days as you have afflicted us, and for as many years as
+we have seen evil" (Psalm 90:15). The *NIV Biblical Theology Study Bible* reads verse 4 the same way, as
 marking "the difference between the Lord's and humankind's existence in time," and says God
 "does not account for time in the same way that humans do."
 
@@ -173,8 +173,8 @@ situation, and never gone when your generation is.**
 
 ## Our days under His wrath
 
-The second half of the comparison is us. God "return[s] man to dust" (90:3), and we are "like grass
-that is renewed in the morning … in the evening it fades and withers" (90:5-6, ESV). The verb in
+The second half of the comparison is us. God "return[s] man to dust" (Psalm 90:3), and we are "like grass
+that is renewed in the morning … in the evening it fades and withers" (Psalm 90:5-6, ESV). The verb in
 verse 3 is <span dir="rtl">שׁוּב</span> (*shuv*, H7725, TWOT 2340, "turn back"), the verb of God's
 sentence on Adam: "to dust you shall return" (Genesis 3:19, ESV). The *ESV Study Bible* notes that
 Moses' word for dust differs from Genesis but that "return" joined to loose soil makes the allusion
@@ -215,8 +215,8 @@ time. Wisdom begins with counting what God has already counted.
 ### The same verb, turned back to God
 
 "Return" in verse 13 is *shuv* again. God returns man to dust and says "Return, O children of man!"
-(90:3); Moses answers "Return, O LORD!" The *NIV Biblical Theology Study Bible* notes the link and
-reads verse 13 as a prayer that the Lord would reverse the curse of death (note on 90:13).
+(Psalm 90:3); Moses answers "Return, O LORD!" The *NIV Biblical Theology Study Bible* notes the link and
+reads verse 13 as a prayer that the Lord would reverse the curse of death (note on Psalm 90:13).
 
 ### Moses has prayed this before
 
@@ -231,7 +231,7 @@ on his people" (Exodus 32:14, ESV). Moses prays Psalm 90 as a man who has seen G
 ### Steadfast love, and the work of our hands
 
 What Moses asks for is <span dir="rtl">חֶסֶד</span> (*chesed*, H2617, TWOT 698a), "your steadfast
-love" (90:14). Moses had heard the Lord proclaim His own name with that word after the golden
+love" (Psalm 90:14). Moses had heard the Lord proclaim His own name with that word after the golden
 calf: "a God merciful and gracious, slow to anger, and abounding in steadfast love and faithfulness"
 (Exodus 34:6, ESV). He asks for it "in the morning," for gladness equal to the years of trouble,
 and then twice for one thing:
@@ -254,19 +254,19 @@ Lord your labor is not in vain" (1 Corinthians 15:58, ESV).
 ### The seam after Psalm 89
 
 Psalm 90 opens Book IV, immediately after Book III closes on the bleakest note in the Psalter — "How
-long, O LORD? Will you hide yourself forever?" (89:46), "Lord, where is your steadfast love of old,
-which by your faithfulness you swore to David?" (89:49), and enemies who "mock the footsteps of your
-anointed" (89:51). Each of the first four books closes with a doxology and an "Amen" (Psalms 41:13;
+long, O LORD? Will you hide yourself forever?" (Psalm 89:46), "Lord, where is your steadfast love of old,
+which by your faithfulness you swore to David?" (Psalm 89:49), and enemies who "mock the footsteps of your
+anointed" (Psalm 89:51). Each of the first four books closes with a doxology and an "Amen" (Psalms 41:13;
 72:19; 89:52; 106:48), so the seam between Book III and Book IV is marked in the text. The
 *NIV Biblical Theology Study Bible* treats that placement as deliberate, "significant, especially in
 the light of the downbeat ending of Book III," and names "an eternal hope grounded in an eternal God
 (90:1-2, 4)" among Book IV's governing themes.
 
 Psalm 89 asks where God's steadfast love has gone. Psalm 90 answers with the God who is from
-everlasting, and asks for that same steadfast love (90:14). And Book IV closes on the answer to
+everlasting, and asks for that same steadfast love (Psalm 90:14). And Book IV closes on the answer to
 Moses' prayer, in his own verb: "For their sake he remembered his covenant, and relented according
 to the abundance of his steadfast love" (Psalm 106:45, ESV). The *NIV Biblical Theology Study Bible*
-draws that line from 90:13 to 106:45 (note on 90:13).
+draws that line from Psalm 90:13 to 106:45 (note on Psalm 90:13).
 
 ### The verse Peter reached for
 
@@ -313,9 +313,9 @@ other weekdays (Psalms 24, 48, 93 and 94 in English numbering).
 ### It sings back what Psalm 90 asked for
 
 Moses asked, "Satisfy us in the morning with your steadfast love … make us glad … let your work be
-shown … establish the work of our hands" (90:14-17). The Sabbath psalm answers in the same words:
+shown … establish the work of our hands" (Psalm 90:14-17). The Sabbath psalm answers in the same words:
 "to declare your steadfast love in the morning, and your faithfulness by night," and "you, O LORD,
-have made me glad by your work; at the works of your hands I sing for joy" (92:2, 4, ESV). *Chesed*,
+have made me glad by your work; at the works of your hands I sing for joy" (Psalm 92:2, 4, ESV). *Chesed*,
 *boqer* ("morning"), *samach* ("glad"), *po'al* ("work"), *ranan* ("sing for joy") and *ma'aseh
 yadayim* ("work of hands") all reappear. Moses asked God to establish the work of *our* hands; the
 Sabbath singer rejoices in the works of *His*.
@@ -341,7 +341,7 @@ The Levites sang this psalm in the Temple every seventh day (b. *Rosh HaShanah* 
 read its title as naming an age: "a day … that is entirely Shabbat" (b. *Sanhedrin* 97a, William
 Davidson Edition), a day the surrounding baraita makes a thousand years from Psalm 90:4. [A Day Is a Thousand Years](day-is-a-thousand-years.md#what-peters-readers-already-believed)
 follows that reading into the millennium. Psalm 92's own verses already look to the end: the God of
-Psalm 90 who is from everlasting is "on high forever" (92:8), and the prayer of a dying generation
+Psalm 90 who is from everlasting is "on high forever" (Psalm 92:8), and the prayer of a dying generation
 becomes the song of people who flourish in His house.
 
 ## Discussion Questions
@@ -356,7 +356,7 @@ becomes the song of people who flourish in His house.
    does Psalm 92 add to Moses' request in Psalm 90:14-17?
 4. **Christ.** Hebrews 1:8, 10-12 says "of the Son" that "you are the same, and your years will
    have no end." What does it mean for you that Jesus shares the eternity Psalm 90:2 confesses?
-5. **The hard part.** Psalm 90 calls God eternal and also asks Him "How long?" (90:13). How do you
+5. **The hard part.** Psalm 90 calls God eternal and also asks Him "How long?" (Psalm 90:13). How do you
    hold those two sentences together?
 6. **Be transformed.** At the golden calf Moses prayed "turn" and "relent," and God relented (Exodus
    32:12, 14). Where are you praying "How long?" now, and what would it look like to pray it as
@@ -370,7 +370,7 @@ becomes the song of people who flourish in His house.
   the time words, the Genesis 3 allusion at 90:3). ESV verse text throughout. Quoted briefly with
   attribution.
 - **NIV Biblical Theology Study Bible** (Zondervan) — notes on Psalm 90:4 and 90:13 (existence "in
-  time"; *shuv* in 90:3 and 90:13; the answer at 106:45), on the Book IV placement, and on the title
+  time"; *shuv* in Psalm 90:3 and 90:13; the answer at 106:45), on the Book IV placement, and on the title
   of Psalm 92.
 - **NIV Cultural Backgrounds Study Bible** (Zondervan) — note on the title of Psalm 92.
 - **Legacy Standard Bible** (Lockman Foundation / Three Sixteen) and **CSB Ancient Faith Study

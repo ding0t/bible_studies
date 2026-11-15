@@ -18,7 +18,7 @@ In the twelfth year of the exile a fugitive reached Ezekiel in Babylon with four
 city has been struck down" (Ezekiel 33:21, ESV). Jerusalem had fallen. The exiles said what anyone
 would say: "Our bones are dried up, and our hope is lost; we are indeed cut off" (Ezekiel 37:11, ESV). God
 answered them: "I will open your graves and raise you from your graves, O my people. And I will bring
-you into the land of Israel" (37:12, ESV).
+you into the land of Israel" (Ezekiel 37:12, ESV).
 
 **In one sentence:** For His name's sake God gathers Israel to her land, then refines a remnant
 through the time of distress for Jacob until they mourn for Jesus, the one they pierced, and are
@@ -46,7 +46,7 @@ cleansed.
 - **Jesus is the one Israel will look on.** The mourning of Zechariah 12:10 is grief for Him, "as one
   mourns for an only child" (ESV).
 - **Jesus is most likely the Deliverer from Zion** who banishes ungodliness from Jacob (Romans
-  11:26). The *ESV Study Bible* says the phrase "probably refers to Christ" (note on 11:26).
+  11:26). The *ESV Study Bible* says the phrase "probably refers to Christ" (note on Romans 11:26).
 
 ### Memory verses
 
@@ -103,14 +103,14 @@ In Jesus' name. Amen.
 Ezekiel was a priest living among the Judean exiles in Babylon. His oracles are dated from the summer
 of 593 BC to April 571 BC, and the book turns on the destruction of Jerusalem in 586 BC: chapters
 1-25 come before the fall, chapters 33-48 after it (*ESV Study Bible*, introduction to Ezekiel). The
-news reaches him in 33:21, and the promises of restoration follow.
+news reaches him in Ezekiel 33:21, and the promises of restoration follow.
 
 So Ezekiel 36 was spoken to people with no city, no temple and no reason in themselves to expect
 either back. God says so plainly: "It is not for your sake, O house of Israel, that I am about to
 act, but for the sake of my holy name, which you have profaned among the nations to which you came"
-(Ezekiel 36:22, ESV). He repeats it at the far end of the passage (36:32). The purpose is stated
+(Ezekiel 36:22, ESV). He repeats it at the far end of the passage (Ezekiel 36:32). The purpose is stated
 between them: "the nations will know that I am the LORD ... when through you I vindicate my holiness
-before their eyes" (36:23, ESV).
+before their eyes" (Ezekiel 36:23, ESV).
 
 **This shows that God restores Israel by grace.** He acts for His own name, and so the restoration
 rests on His character.
@@ -123,10 +123,10 @@ introduction to Zechariah). Chapters 9-14 may come from later in his life, perha
 BC.
 
 Zechariah prophesies after a return has already happened, and he still promises a gathering: "I will bring them home from the land of Egypt, and gather them from
-Assyria" (10:10, ESV; see 10:8). He names "the house of Joseph" and Ephraim (10:6-7, ESV), the
+Assyria" (Zechariah 10:10, ESV; see 10:8). He names "the house of Joseph" and Ephraim (Zechariah 10:6-7, ESV), the
 northern tribes, whom the return from Babylon did not bring home; Ezra's later journey was also from
 Babylonia (Ezra 7:6). The return from Babylon did not exhaust the promise, and the *ESV Study Bible*
-says the same of Ezekiel 36 (note on 36:22-32).
+says the same of Ezekiel 36 (note on Ezekiel 36:22-32).
 
 ## The prophets, and the order they give
 
@@ -168,7 +168,7 @@ Ezekiel says what the regathering is *for*, and it is national.
 > shall be king over them all, and they shall be no longer two nations, and no longer divided into
 > two kingdoms.
 
-One nation, in the land, under one king. The two sticks of 37:15-20 become one in God's hand, and
+One nation, in the land, under one king. The two sticks of Ezekiel 37:15-20 become one in God's hand, and
 the wound healed is the division between Ephraim and Judah, the northern and southern kingdoms. The
 passage keeps Israel as Israel, a people with a land and a king.
 
@@ -244,12 +244,12 @@ Wordbook of the Old Testament* glosses "smelt" (TWOT 1972). A smelter heats ore 
 of it, and he does it to metal he intends to keep. The covenant formula closes the verse, *they are
 my people*, *the LORD is my God*, spoken over the refined remnant of Israel itself.
 
-**When the refining happens is contested.** Jesus applied 13:7 to His own arrest (Matthew 26:31), so
-some readers place the scattering and refining of 13:8-9 in the first century, in the years leading
-to AD 70. Others, this study among them, read 13:8-9 with Jeremiah 30:7 and Daniel 12:1 as the time of
+**When the refining happens is contested.** Jesus applied Zechariah 13:7 to His own arrest (Matthew 26:31), so
+some readers place the scattering and refining of Zechariah 13:8-9 in the first century, in the years leading
+to AD 70. Others, this study among them, read Zechariah 13:8-9 with Jeremiah 30:7 and Daniel 12:1 as the time of
 distress for Jacob still ahead, in Daniel's seventieth week. Two things favour the second reading:
 the covenant formula spoken over a whole refined remnant, and chapter 14's setting in "the day of the
-Lord" (*ESV Study Bible*, note on 12:1-14:21). F. Duane Lindsey holds both, near and far: the passage
+Lord" (*ESV Study Bible*, note on Zechariah 12:1-14:21). F. Duane Lindsey holds both, near and far: the passage
 "probably will see its final and complete fulfillment in Israel's dispersion in the Tribulation"
 (*Bible Knowledge Commentary*, on Zechariah 13:8-9). All the readings agree on what the refining is
 for.
@@ -272,7 +272,7 @@ spear (Numbers 25:8; 1 Samuel 31:4; Zechariah 13:3).
 The speaker is the LORD, and the Hebrew reads "they will look to me" (<span dir="rtl">אֵלַי</span>,
 *elay*), then "they will mourn over him." The identity of the pierced one is
 "difficult to discern"; if "on me" is defined by "whom they have pierced," the reference is to God
-Himself, perhaps as the shepherd struck in 13:7 (*ESV Study Bible*, note on 12:10-14). John settles it
+Himself, perhaps as the shepherd struck in Zechariah 13:7 (*ESV Study Bible*, note on Zechariah 12:10-14). John settles it
 for the reader of the New Testament. He records the spear going into Jesus' side and an eyewitness to
 it (John 19:34-35), and writes, "They will look on him whom they have pierced" (John 19:37, ESV). Revelation places the
 looking at Jesus' return: "every eye will see him, even those who pierced him" (Revelation 1:7, ESV).
@@ -355,11 +355,11 @@ Ezekiel 36:26-27 describes, the new heart and the Spirit within.
 
 **Who "all Israel" is, is contested.** The *ESV Study Bible* sets out three readings: the church of
 Jews and Gentiles through history; a remnant of Jews through history; or the Jewish people at the
-end of history. It judges the first unlikely, because Israel in 11:25 is ethnic Israel and "they"
+end of history. It judges the first unlikely, because Israel in Romans 11:25 is ethnic Israel and "they"
 in 11:28 still stands apart from the Gentiles, judges the third most likely, and takes "all Israel" to mean a very large number
-of Jews, not every individual (note on 11:26). The *NIV Cultural Backgrounds Study Bible* adds that a
+of Jews, not every individual (note on Romans 11:26). The *NIV Cultural Backgrounds Study Bible* adds that a
 significant line of Jewish tradition expected the future salvation of all Israel, meaning Israel as a
-whole (note on 11:26, citing Mishnah Sanhedrin 10:1). This study reads it the same way, with the prophets
+whole (note on Romans 11:26, citing Mishnah Sanhedrin 10:1). This study reads it the same way, with the prophets
 above supplying how: a refined remnant, turned by the Spirit to the one they pierced.
 
 **This shows that God finishes what He starts with Israel.** "The gifts and the calling of God are

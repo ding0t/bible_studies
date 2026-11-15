@@ -8,7 +8,7 @@ draft: false
 primary_passage: "1 John 5:11-13"
 bible_references: ["Acts 4:9-12", "Ephesians 1:13-14", "Ephesians 2:1-10", "John 3:16-18", "John 5:24", "John 6:37-40", "John 10:27-29", "Romans 8:1", "Romans 8:15-17", "Romans 8:31-39", "Romans 10:9-13", "Joel 2:32", "2 Corinthians 5:17", "Philippians 1:6", "Titus 3:4-7", "Hebrews 7:25", "2 Timothy 1:12", "1 Peter 1:3-5", "2 Peter 1:5-11", "Matthew 1:21"]
 date_created: 2026-08-24
-date_modified: 2026-10-22
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -97,7 +97,7 @@ does. In Jesus' name. Amen.
 ## Study outline
 
 - ["No other name," "not a result of works"](#no-other-name-not-a-result-of-works). Acts 4:12's *sōzō* pun before the Sanhedrin, and the grammar of Ephesians 2:8-9.
-- ["That you may know"](#that-you-may-know-1-john-511-13-in-its-letter). 1 John's occasion, chapter 5's three witnesses, the two verbs for "know", and the longer reading of 5:13.
+- ["That you may know"](#that-you-may-know-1-john-511-13-in-its-letter). 1 John's occasion, chapter 5's three witnesses, the two verbs for "know", and the longer reading of 1 John 5:13.
 - [Objective ground, subjective confirmation](#objective-ground-subjective-confirmation). Christ's finished work as the ground, the Spirit's witness and growing godliness as confirmation, and someone who walks away.
 - [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
@@ -113,10 +113,10 @@ collapses the moment either question is pressed.
 
 **Acts 4:12.** Peter says this to the Sanhedrin the morning after healing a man lame from birth at
 the temple gate (Acts 3:1-10), the same council that had condemned Jesus weeks earlier, at the
-preceding Passover (Acts 4:5-6; Mark 14:53-64). Asked "by what power or by what name did you do this?" (4:7, ESV),
+preceding Passover (Acts 4:5-6; Mark 14:53-64). Asked "by what power or by what name did you do this?" (Acts 4:7, ESV),
 Peter answers with a pun the Greek makes plain. The lame man "has been healed" (*sesōstai*, a form
-of *sōzō*, 4:9) by the name of Jesus. And "there is salvation (*sōtēria*) in no one else... by which
-we must be saved (*sōthēnai*, again *sōzō*)" (4:12, ESV). One verb covers both the physical healing
+of *sōzō*, Acts 4:9) by the name of Jesus. And "there is salvation (*sōtēria*) in no one else... by which
+we must be saved (*sōthēnai*, again *sōzō*)" (Acts 4:12, ESV). One verb covers both the physical healing
 everyone in the room had just seen and the spiritual salvation Peter is now claiming. The miracle
 functions as the sermon's own exhibit. "Name" here carries the weight it does throughout Scripture:
 the person and authority behind the label, a way of speaking native to the ancient Near East.
@@ -131,10 +131,10 @@ ESV).
 **Ephesians 2:8-9.** Unlike most of Paul's letters, Ephesians answers no specific crisis; it is
 general instruction, probably meant to circulate among several churches in the Roman province of
 Asia. Ephesus's own reputation for magic and the occult (Acts 19:19) sits behind the letter's
-recurring emphasis on Christ's authority over every power. 2:1-10 opens by describing the readers'
+recurring emphasis on Christ's authority over every power. Ephesians 2:1-10 opens by describing the readers'
 former state under those powers. They were "dead in the trespasses and sins," walking
-"following the prince of the power of the air" (2:1-2, ESV). Then "But God" (2:4, ESV) reverses it.
-Verses 8-9 restate 2:5's claim ("by grace you have been saved") for emphasis, inside what is, in the
+"following the prince of the power of the air" (Ephesians 2:1-2, ESV). Then "But God" (Ephesians 2:4, ESV) reverses it.
+Verses 8-9 restate Ephesians 2:5's claim ("by grace you have been saved") for emphasis, inside what is, in the
 Greek, one long sentence running from 2:1 to 2:10. The verb *sesōsmenoi* ("have been saved," v. 8)
 is a perfect passive participle: grammatically, a completed action with a result that stands. "This is not your own
 doing" (Greek *touto*, neuter) cannot grammatically be pointing at "faith" alone, since *pistis*
@@ -142,7 +142,7 @@ doing" (Greek *touto*, neuter) cannot grammatically be pointing at "faith" alone
 to the whole preceding clause, "you have been saved." Paul's neuter pronoun sweeps up the entire
 transaction (grace, faith and all) as God's gift. And the very next verse
 refuses to let that be misread as license: "we are his workmanship, created in Christ Jesus for good
-works, which God prepared beforehand, that we should walk in them" (2:10, ESV). Not saved *by*
+works, which God prepared beforehand, that we should walk in them" (Ephesians 2:10, ESV). Not saved *by*
 works; created *for* them.
 
 ## "That you may know" — 1 John 5:11-13 in its letter
@@ -161,7 +161,7 @@ for other believers.
 Chapter 5 is where "believing" concentrates: six of the letter's nine uses of the verb fall here.
 Verses 6-10 build a legal case for who Jesus is, using the two-or-three-witness standard of
 Deuteronomy 17:6 and 19:15. The witnesses are "the Spirit and the water and the blood; and these
-three agree" (5:8, ESV). That is John's own gloss on Jesus' baptism, His atoning death, and the
+three agree" (1 John 5:8, ESV). That is John's own gloss on Jesus' baptism, His atoning death, and the
 Spirit's ongoing inward testimony. Verses 11-12 state the content of that testimony as plainly as
 anything in the letter: "God gave us eternal life, and this life is in his Son. Whoever has the Son
 has life; whoever does not have the Son of God does not have life" (ESV). Verse 13 is John stepping
@@ -175,7 +175,7 @@ The Gospel states its purpose as being written "so that you may *believe* that J
 (John 20:31, ESV). That is an evangelistic aim, addressed to those not yet convinced, if the aorist
 *pisteusēte* ("come to believe") is original; the manuscripts divide, NA28 brackets the σ, and SBLGNT
 prints the present *pisteuēte* ("go on believing"), which the NLT renders "continue to believe". The letter's
-purpose in 5:13 is addressed to "you who believe" already, so that they may *know* what they have.
+purpose in 1 John 5:13 is addressed to "you who believe" already, so that they may *know* what they have.
 
 
 ### The longer reading of 5:13 in some versions
@@ -198,7 +198,7 @@ in this track depends on how the week has gone.
 
 **The subjective confirmation is what the Spirit and a changed life supply**, and Scripture is
 careful to keep these in the right order. "The Spirit himself bears witness with our spirit that we
-are children of God" (Romans 8:16, ESV). Paul's readers cry "Abba! Father!" (8:15, ESV), the same
+are children of God" (Romans 8:16, ESV). Paul's readers cry "Abba! Father!" (Romans 8:15, ESV), the same
 Aramaic word, left untranslated in the Greek text, that Jesus Himself used addressing God in
 Gethsemane (Mark 14:36). The Spirit given at belief is described in commercial, legal language as a
 down payment. Believers are "sealed with the promised Holy Spirit, who is the guarantee of our
@@ -219,7 +219,7 @@ walked away, the way John's own readers had just watched happen (1 John 2:19)? T
 here answer with security for those who are Christ's, not a guarantee that every profession was
 genuine. "My sheep hear my voice, and I know them, and they follow me. I give them eternal life, and
 they will never perish, and no one will snatch them out of my hand" (John 10:27-28, ESV). Jesus says
-it of those who are His, and the Father backs it a second time (10:29). Paul's list in Romans
+it of those who are His, and the Father backs it a second time (John 10:29). Paul's list in Romans
 8:38-39 is exhaustive on purpose. "Neither death nor life, nor angels nor rulers, nor things present
 nor things to come, nor powers, nor height nor depth, nor anything else in all creation, will be
 able to separate us from the love of God in Christ Jesus our Lord" (ESV). The list omits the

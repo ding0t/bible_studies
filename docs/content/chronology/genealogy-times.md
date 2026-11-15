@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45", "Genesis 4:25-26", "Genesis 10:25-29", "Genesis 46:17-18", "Exodus 6:16-20", "1 Chronicles 3:11-12", "Ruth 4:18-22", "1 Peter 3:20", "2 Peter 3:4-9", "Jude 1:14"]
 date_created: 2026-07-24
-date_modified: 2026-11-03
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -182,7 +182,7 @@ to Uzziah (Matthew 1:8) past the three kings 1 Chronicles 3:11-12 names, to reac
 generations" three times (Matthew 1:17, ESV). His verb, ἐγέννησεν (*egennēsen*, G1080), is the one
 the Septuagint uses in Genesis 5. Ruth 4:18-22 spans some four centuries in five generations
 ([Four Hundred and Eighty Years](four-hundred-and-eighty-years.md#genealogy-check-2-the-davidic-line-in-real-tension-with-480-years)).
-Genesis 46:18 counts Zilpah's grandsons, Heber and Malchiel (46:17), among those "she bore to
+Genesis 46:18 counts Zilpah's grandsons, Heber and Malchiel (Genesis 46:17), among those "she bore to
 Jacob" (ESV). So "son" and "bore" can mean descendant. **Settled.**
 
 None of those lists gives an age. Matthew states his structure, Ruth names a line and dates
@@ -248,7 +248,7 @@ with the name swapped.
 
 **And the insertion has a trigger.** Luke 3:37 names the antediluvian Cainan one line
 below. A copyist's eye skipping from *Shelah* to a line ending in *Cainan* inserts the name at
-3:36 without effort. No comparable mechanism explains an accidental deletion from 𝔓⁷⁵ and Bezae.
+Luke 3:36 without effort. No comparable mechanism explains an accidental deletion from 𝔓⁷⁵ and Bezae.
 
 #### The contested counter, and the working position
 

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Hebrews 7:1-28"
 bible_references: ["Hebrews 1:1-3", "Hebrews 2:17-18", "Hebrews 4:14-16", "Hebrews 5:1-10", "Hebrews 6:13-20", "Hebrews 8:1-13", "Hebrews 9:6-28", "Hebrews 10:1-18", "Genesis 11:10-11", "Genesis 14:17-22", "Psalm 110:1-4", "Exodus 3:1", "Exodus 18:12", "Exodus 20:19", "Exodus 25:40", "Leviticus 8:12", "Leviticus 16:1-34", "Numbers 3:10", "Numbers 6:23-27", "Numbers 18:21", "Ezra 2:61-63", "Malachi 2:7", "2 Chronicles 26:16-21", "Zechariah 6:12-13", "Jeremiah 31:31-34", "Matthew 22:41-45", "Acts 2:34-36", "Galatians 1:12", "Galatians 3:17", "Hebrews 2:3", "Hebrews 3:7", "Psalm 2:7", "Numbers 20:25-28", "Romans 6:10", "Romans 8:34", "Colossians 2:17", "1 Peter 3:18"]
 date_created: 2026-08-02
-date_modified: 2026-11-07
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -92,7 +92,7 @@ before the need is even named. In Jesus' name. Amen.
 
 ## Study outline
 
-1. [What a priest is](#what-a-priest-is) — prophet, priest and king in Hebrews 1:1-3; Hebrews' own definition of a priest (5:1-4); the seven things the first readers already knew; and why Jesus, from Judah, could not be a priest under the Law.
+1. [What a priest is](#what-a-priest-is) — prophet, priest and king in Hebrews 1:1-3; Hebrews' own definition of a priest (Hebrews 5:1-4); the seven things the first readers already knew; and why Jesus, from Judah, could not be a priest under the Law.
 2. [What "the order of Melchizedek" means](#what-the-order-of-melchizedek-means) — an order as the basis of a priesthood, its two marks (no inherited claim, no end), and Melchizedek made like the Son.
 3. [The two texts Hebrews reads](#the-two-texts-hebrews-reads) — where every claim in Hebrews 7 comes from, then Genesis 14 and Psalm 110, read for what Hebrews uses.
 4. [Hebrews' argument, traced](#hebrews-argument-traced) — chapters 2-6, then chapter 7 in three parts (the man, with whether he is still a priest; the order; the oath), and the true sanctuary and one sacrifice of chapters 8-10, with the Greek words explained where they occur.
@@ -476,7 +476,7 @@ Levitical priest was ever sworn in by God. This one was, and God cannot lie (Heb
 
 **Guarantor.** **ἔγγυος (*engyos*, G1450)** occurs only in Hebrews 7:22 in the New Testament. It is
 a legal and commercial word for someone who stakes himself on another party's obligation. Hebrews
-uses a different word, μεσίτης (*mesitēs*, G3316, "mediator"), at 8:6, 9:15 and 12:24 for the one
+uses a different word, μεσίτης (*mesitēs*, G3316, "mediator"), at Hebrews 8:6, 9:15 and 12:24 for the one
 who brokers the covenant. A guarantor pays if the obligation fails. Jesus has pledged His own life
 for the new covenant, and that life cannot fail. Your standing in the covenant rests on Him.
 
@@ -491,7 +491,7 @@ the end.
 sinners, and exalted above the heavens" (Hebrews 7:26, ESV). "He has no need, like those high
 priests, to offer sacrifices daily, first for his own sins and then for those of the people, since
 he did this once for all when he offered up himself" (Hebrews 7:27, ESV). **ἐφάπαξ (*ephapax*,
-G2178, "once for all")** strengthens ἅπαξ (*hapax*, G530, "once"); Hebrews uses it at 7:27, 9:12
+G2178, "once for all")** strengthens ἅπαξ (*hapax*, G530, "once"); Hebrews uses it at Hebrews 7:27, 9:12
 and 10:10. The daily repetition was itself the evidence, Hebrews argues, that those sacrifices never
 removed sin (Hebrews 10:1-4).
 

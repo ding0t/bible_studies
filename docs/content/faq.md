@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-10-21
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -244,7 +244,7 @@ six-thousand-year history needs no special pleading, and stops short of calling 
 ### When was Jesus crucified?
 
 **Friday, 3 April AD 33.** The day of the week is the firm part: Mark calls it "the day of
-Preparation, that is, the day before the Sabbath" (15:42), and Luke and John say the same. Only two
+Preparation, that is, the day before the Sabbath" (Mark 15:42), and Luke and John say the same. Only two
 years in the plausible range put Passover on a Friday — AD 30 (7 April) and AD 33 (3 April).
 
 The year rests mainly on Luke 3:1 read naturally, with Sejanus's fall behind the pressure on Pilate

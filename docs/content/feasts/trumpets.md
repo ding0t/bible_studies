@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:23-25"
 bible_references: ["Leviticus 23:23-25", "Numbers 29:1-6", "Numbers 10:1-10", "Leviticus 25:9", "Psalm 81:3", "Ezekiel 40:1", "Exodus 2:24", "Exodus 19:16-20", "Exodus 24:12", "Numbers 23:21", "Psalm 47:5-7", "Psalm 89:15", "Proverbs 30:27", "Daniel 12:1-2", "Jude 9", "Isaiah 27:13", "1 Corinthians 15:51-53", "1 Thessalonians 4:16-17", "Revelation 1:10-13", "Revelation 4:1", "Revelation 11:12-15", "Matthew 24:30-31", "Matthew 24:36", "Matthew 24:42-44", "Joel 2:1", "Joel 2:15"]
 date_created: 2025-08-10
-date_modified: 2026-10-22
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -310,7 +310,7 @@ sounds, and God calls His servant up to Him.
   "heard a loud voice from heaven saying to them, 'Come up here!' And they went up to heaven in a
   cloud" (Revelation 11:12, ESV). Ἀνάβατε ὧδε is the plural of the command to John. Three verses on,
   "the seventh angel blew his trumpet," and heaven proclaims "The kingdom of the world has become the
-  kingdom of our Lord and of his Christ" (Revelation 11:15, ESV). The voice of 11:12 is called loud
+  kingdom of our Lord and of his Christ" (Revelation 11:15, ESV). The voice of Revelation 11:12 is called loud
   and is not likened to a trumpet; here the trumpet follows the summons.
 
 Twice, then, Revelation joins a voice from heaven, a call upward and a trumpet, in the order Sinai

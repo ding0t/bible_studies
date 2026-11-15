@@ -371,7 +371,7 @@ them interchangeably.
   the same elsewhere. The LORD's words to Isaiah (Isaiah 6:8-9) are what "the Holy Spirit was right
   in saying to your fathers through Isaiah the prophet" (Acts 28:25, ESV), and Psalm 95, where the
   LORD speaks of "your fathers" who "put me to the test", is what "the Holy Spirit says"
-  (Hebrews 3:7, ESV). Some take "the Lord" in 3:17 as Christ, since the veil is lifted "only through
+  (Hebrews 3:7, ESV). Some take "the Lord" in 2 Corinthians 3:17 as Christ, since the veil is lifted "only through
   Christ" (2 Corinthians 3:14, ESV). The words Paul borrows from Exodus favour the LORD of Sinai.
 - **God.** Ananias kept back part of the price of his land and claimed to give it all. Peter said
   to him, "why has Satan filled your heart to lie to the Holy Spirit?", and then, "You have not lied

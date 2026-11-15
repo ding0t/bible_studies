@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 20:24-29"
 bible_references: ["John 11:7-16", "John 14:5-6", "John 21:2", "Matthew 10:3", "Mark 3:18", "Luke 6:15", "Acts 1:13"]
 date_created: 2026-08-08
-date_modified: 2026-10-09
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -96,7 +96,7 @@ John does not say Thomas ever touched Him.
 
 "My Lord and my God" (<span lang="grc">ὁ κύριός μου καὶ ὁ θεός μου</span>) is the climactic
 confession of John's Gospel. It is addressed directly to Jesus, and Jesus accepts it. John opened
-with "the Word was God" (1:1) and closes the narrative with a man saying the same thing to Jesus'
+with "the Word was God" (John 1:1) and closes the narrative with a man saying the same thing to Jesus'
 face. The doubter supplies the Gospel's final and highest Christological statement.
 
 Jesus' reply looks past Thomas to everyone reading: "Blessed are those who have not seen and yet

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:32-35; Mark 13:28-31; Luke 21:29-33"
 bible_references: ["Matthew 24:2-3", "Matthew 24:15", "Matthew 24:21", "Matthew 24:4-36", "Matthew 24:42-44", "Matthew 26:2", "Mark 13:3", "Mark 13:28-30", "Luke 21:20-32", "Luke 13:6-9", "Jeremiah 24:5-8", "Jeremiah 8:13", "Hosea 9:10", "Micah 7:1", "Matthew 21:18-22", "Mark 11:12-25", "Matthew 12:39-42", "Matthew 23:36", "John 1:48-50", "James 3:12", "James 5:8-9", "Revelation 6:13", "Isaiah 40:8", "Hosea 9:16-17", "Hosea 14:5-7", "Jeremiah 24:6-7", "Ezekiel 36:24-26", "Ezekiel 37:8", "Amos 9:15", "Matthew 23:38-39", "Matthew 24:16", "Matthew 24:20", "Mark 11:20-21", "Luke 21:24", "Matthew 11:16", "Matthew 12:45", "Mark 13:30", "Luke 21:32", "Jeremiah 31:35-36", "Luke 13:6-7"]
 date_created: 2026-09-26
-date_modified: 2026-10-08
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -18,7 +18,7 @@ Two days before the Passover at which He would be crucified (Matthew 26:2), Jesu
 of Olives with four of His disciples (Mark 13:3). They had asked Him, "Tell us, when will these
 things be, and what will be the sign of your coming and of the end of the age?" (Matthew 24:3, ESV).
 He had described the distress to come and His own return "on the clouds of heaven with power and
-great glory" (24:30, ESV). Then He pointed at a tree:
+great glory" (Matthew 24:30, ESV). Then He pointed at a tree:
 
 > ✝️ Matthew 24:32-35 (ESV)
 >
@@ -38,8 +38,8 @@ begin, and the date belongs to the Father alone.
 ### Types & Prophecy
 
 Jesus prophesies that the events of Matthew 24:4-25, from the first birth pains through the
-abomination of desolation and the "great tribulation" (24:21), will run to completion within the
-lifetime of the generation that sees them begin, and that His coming follows "immediately" (24:29).
+abomination of desolation and the "great tribulation" (Matthew 24:21), will run to completion within the
+lifetime of the generation that sees them begin, and that His coming follows "immediately" (Matthew 24:29).
 This site reads that sequence as Daniel's seventieth week, still future, after the church is caught
 up. The fig tree teaches reading the season from its signs. Its budding also echoes the prophets'
 promise that Israel will be planted in her land again (Jeremiah 24:6; Hosea 14:5), a promise God
@@ -47,12 +47,12 @@ has made certain and has not dated.
 
 ### Lessons about Jesus
 
-- **Jesus speaks with the authority of God.** "My words will not pass away" (24:35) claims for His
+- **Jesus speaks with the authority of God.** "My words will not pass away" (Matthew 24:35) claims for His
   own sayings what Isaiah claimed for "the word of our God," which "will stand forever" (Isaiah
   40:8, ESV).
-- **Jesus is the One who is near.** The signs point to a Person "at the very gates" (24:33).
+- **Jesus is the One who is near.** The signs point to a Person "at the very gates" (Matthew 24:33).
 - **Jesus entrusts the date to His Father.** "Concerning that day and hour no one knows ... but the
-  Father only" (24:36, ESV).
+  Father only" (Matthew 24:36, ESV).
 
 ### Memory verses
 
@@ -71,7 +71,7 @@ has made certain and has not dated.
 - **Attitude.** Be calm about the calendar and eager for the King. The Father has fixed the day;
   your part is to be found ready.
 - **Do.** When someone offers you a date for Christ's return, open Matthew 24:36 with them. Then
-  spend the conversation on what He asks you to do while you wait (24:42-44).
+  spend the conversation on what He asks you to do while you wait (Matthew 24:42-44).
 
 ### Prayer
 
@@ -97,12 +97,12 @@ In Jesus' name. Amen.
 
 ### Where the saying falls
 
-The discourse answers the disciples' question of 24:3, and Jesus has just given the answer's climax:
-"Immediately after the tribulation of those days the sun will be darkened" (24:29, ESV), and then
-"they will see the Son of Man coming on the clouds of heaven" (24:30, ESV). The fig tree comes next,
+The discourse answers the disciples' question of Matthew 24:3, and Jesus has just given the answer's climax:
+"Immediately after the tribulation of those days the sun will be darkened" (Matthew 24:29, ESV), and then
+"they will see the Son of Man coming on the clouds of heaven" (Matthew 24:30, ESV). The fig tree comes next,
 and "this generation" after it. At verse 36 Jesus turns: "But concerning that day and hour no one
 knows" (ESV). So verses 32-35 sit on a hinge. Behind them is the sequence of events; ahead of them is
-the command to "stay awake, for you do not know on what day your Lord is coming" (24:42, ESV). The
+the command to "stay awake, for you do not know on what day your Lord is coming" (Matthew 24:42, ESV). The
 fig tree tells the disciples what the sequence is for, and verse 34 tells them how long it runs.
 
 All three Synoptic Gospels carry the saying in the same order: fig tree, then "this generation"
@@ -141,7 +141,7 @@ people as a failed fig harvest, and Jesus Himself told of a fruitless fig tree g
 **The disciples had seen a fig tree withered that morning.** On the Monday Jesus found a fig tree in
 leaf with no fruit and said, "May no one ever eat fruit from you again" (Mark 11:14, ESV). On the
 Tuesday morning, the day of this discourse, they passed it "withered away to its roots" (Mark 11:20,
-ESV), and Peter said, "Rabbi, look! The fig tree that you cursed has withered" (11:21, ESV). Mark
+ESV), and Peter said, "Rabbi, look! The fig tree that you cursed has withered" (Mark 11:21, ESV). Mark
 wraps that tree around the clearing of the temple (tree cursed, Mark 11:12-14; temple cleared,
 11:15-19; withered tree found, 11:20-25), and the *ESV Study Bible* is plain about its meaning: "The
 specific reference, though, is to Israel, since in the OT the fig tree often serves as a metaphor for
@@ -150,8 +150,8 @@ its lesson" that evening.
 
 **The curse repeats Hosea's sentence on Ephraim.** Hosea sets Israel's beginnings under a fig: "Like
 the first fruit on the fig tree in its first season, I saw your fathers" (Hosea 9:10, ESV). Six
-verses later comes the sentence, "their root is dried up; they shall bear no fruit" (9:16, ESV), and
-then exile: "they shall be wanderers among the nations" (9:17, ESV). The Septuagint of 9:16 reads
+verses later comes the sentence, "their root is dried up; they shall bear no fruit" (Hosea 9:16, ESV), and
+then exile: "they shall be wanderers among the nations" (Hosea 9:17, ESV). The Septuagint of Hosea 9:16 reads
 "his roots are dried up; he shall bear no more fruit" (this study's translation), and Jesus' tree is
 cursed never again to bear fruit and found ἐξηραμμένην ἐκ ῥιζῶν (*exērammenēn ek rhizōn*, Mark
 11:20), "withered from the roots": the same verb, ξηραίνω (*xērainō*, G3583, "dry up"), and the
@@ -164,7 +164,7 @@ dwell beneath my shadow" (Hosea 14:5, 7, ESV).
 **Jeremiah's figs go back to the land.** In Jeremiah's vision the good figs are the exiles from Judah
 (Jeremiah 24:5), and the promise attached to them is a return: "I will bring them back to this land.
 I will build them up, and not tear them down; I will plant them, and not pluck them up. I will give
-them a heart to know that I am the LORD" (24:6-7, ESV).
+them a heart to know that I am the LORD" (Jeremiah 24:6-7, ESV).
 
 **The discourse opens on an "until".** Jesus' last words in the temple were "See, your house is left
 to you desolate. For I tell you, you will not see me again, until you say, 'Blessed is he who comes
@@ -172,8 +172,8 @@ in the name of the Lord'" (Matthew 23:38-39, ESV). The judgment has a stated end
 Israel welcoming her Messiah.
 
 **The signs require a Jewish people in the land.** The sequence the fig tree points to has people "in
-Judea" fleeing (Matthew 24:16, ESV), a "holy place" where the abomination stands (24:15), and a
-prayer that the flight not fall "on a Sabbath" (24:20, ESV). However those verses are read, a Jewish
+Judea" fleeing (Matthew 24:16, ESV), a "holy place" where the abomination stands (Matthew 24:15), and a
+prayer that the flight not fall "on a Sabbath" (Matthew 24:20, ESV). However those verses are read, a Jewish
 people must be living in Judea for them to happen.
 
 ### What the text settles, and what stays contested
@@ -218,20 +218,20 @@ times of the Gentiles](immediately-after.md#the-times-of-the-gentiles) in *Immed
 
 ### Two questions in one sentence
 
-"Truly, I say to you, this generation will not pass away until all these things take place" (24:34,
+"Truly, I say to you, this generation will not pass away until all these things take place" (Matthew 24:34,
 ESV). The *ESV Study Bible* calls this "this difficult passage" and sets out five readings of it
-(note on 24:34). Two questions sit inside the sentence and have to be taken separately: **what are "all these things",
+(note on Matthew 24:34). Two questions sit inside the sentence and have to be taken separately: **what are "all these things",
 and whose is "this generation"?**
 
 ### "All these things": what the Greek settles
 
 **The first question the Greek does answer.** πάντα ταῦτα (*panta tauta*, "all these things") appears
-twice in consecutive verses: at 24:33, "when you see all these things, you know that he is near, at
+twice in consecutive verses: at Matthew 24:33, "when you see all these things, you know that he is near, at
 the very gates", and again at 24:34. Whatever it
 means at 33 it means at 34, and at 33 it means *the signs that indicate His nearness*, the things you
 see **before** He arrives. The *NIV Biblical Theology Study Bible* puts it without hedging: "all these
 things. Must refer to the same events as 'all these things' in v. 33, which occur before the second
-coming" (note on 24:34). So "all these things" are the events of verses 4-25, up to the coming
+coming" (note on Matthew 24:34). So "all these things" are the events of verses 4-25, up to the coming
 itself.
 
 ### Whose generation? Where the readings divide
@@ -239,17 +239,17 @@ itself.
 **The second question is where the readings divide.** Matthew uses γενεά (*genea*, G1074) eight
 times outside the genealogy of chapter 1, five of them as "this generation" (γενεά αὕτη, *genea
 hautē*: Matthew 11:16; 12:41, 42, 45; 23:36), and every one means his own contemporaries: "an evil
-and adulterous generation" (Matthew 12:39), the generation judged alongside Nineveh (12:41-42), and one paragraph before
-this discourse opens, "all these things will come upon this generation" (23:36), said of the men just
+and adulterous generation" (Matthew 12:39), the generation judged alongside Nineveh (Matthew 12:41-42), and one paragraph before
+this discourse opens, "all these things will come upon this generation" (Matthew 23:36), said of the men just
 charged with killing the prophets. Louw-Nida codes γενεά here under both a group sense (10.4, 11.4)
 and a time sense (67.144) at once, so the lexicon will not decide it either.
 
 That consistent record is the strongest argument for the first reading, **Jesus'
 contemporaries**. The *NIV Biblical Theology Study Bible*, having tied "all these things" to the
 events before the coming, concludes that Jesus is promising "all of the preliminary events,
-including the destruction of Jerusalem" within about forty years (note on 24:34), and the *NIV
+including the destruction of Jerusalem" within about forty years (note on Matthew 24:34), and the *NIV
 Cultural Backgrounds Study Bible* observes that the temple fell about forty years after He spoke
-(note on 24:34). On that reading Matthew's usage holds without exception, and AD 70 is the
+(note on Matthew 24:34). On that reading Matthew's usage holds without exception, and AD 70 is the
 fulfilment.
 
 Matthew's usage also answers a reading some dispensational writers lean on. The LSB footnotes "Or
@@ -269,7 +269,7 @@ living at one time, and it leaves verse 29's "immediately" doing honest work.
 
 The contemporaries reading has to carry the tribulation of verse 21, "such as has not been from the
 beginning of the world until now, no, and never will be" (ESV), and the coming that follows it
-"immediately" (24:29), inside AD 70. If "all these things" were completed in AD 70,
+"immediately" (Matthew 24:29), inside AD 70. If "all these things" were completed in AD 70,
 the coming that verse 29 says follows them "immediately" has now waited nineteen centuries. The
 fifth reading pays its own price, and it should be named: it gives "this generation" a referent in
 the future where Matthew's other uses point at the men in front of Jesus. This study judges
@@ -311,11 +311,11 @@ Away](heaven-and-earth-will-pass-away.md#words-that-outlast-creation) works the 
 ### The date the Father keeps
 
 Then, in the next breath, Jesus puts the date out of reach: "But concerning that day and hour no one
-knows, not even the angels of heaven, nor the Son, but the Father only" (24:36, ESV). [The Day No One Knows](../jesus/the-day-no-one-knows.md)
+knows, not even the angels of heaven, nor the Son, but the Father only" (Matthew 24:36, ESV). [The Day No One Knows](../jesus/the-day-no-one-knows.md)
 works through what verse 36 says about the Son's knowledge.
 
 **This shows that God is sovereign over time itself.** The Father has fixed the day; the Son has
-told you the order; and the one command that follows is "therefore, stay awake" (24:42, ESV). On
+told you the order; and the one command that follows is "therefore, stay awake" (Matthew 24:42, ESV). On
 this site's reading the church is caught up before the seventieth week begins, so you are not
 watching for the abomination of desolation. You are watching for your Lord. The generation that sees
 the fig tree leaf will know He is at the doors. You already know He is coming, and that His word

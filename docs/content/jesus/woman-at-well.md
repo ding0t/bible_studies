@@ -7,7 +7,7 @@ draft: false
 primary_passage: "John 4:1-42"
 bible_references: ["John 3:22-30", "John 7:37-39", "John 1:39", "John 1:46", "John 8:58", "Jeremiah 2:13", "Jeremiah 17:13", "Zechariah 14:8", "Isaiah 12:3", "Isaiah 44:3", "Ezekiel 47:1-6", "Genesis 24:10-27", "Genesis 29:1-12", "Exodus 2:15-21", "Deuteronomy 18:15-18", "Deuteronomy 27:4", "Deuteronomy 11:29", "2 Kings 17:24-41", "Genesis 33:18-20", "Joshua 24:32", "Exodus 3:14", "Luke 14:5", "Revelation 9:1-2", "John 3:9", "John 2:19-21", "Matthew 5:35", "Zechariah 14:16", "Revelation 21:22", "John 2:8-9", "John 8:22", "John 8:24-28", "John 9:9", "John 18:35", "Matthew 12:23", "Genesis 24:42-45", "Genesis 26:19", "Leviticus 14:6"]
 date_created: 2025-04-25
-date_modified: 2026-11-06
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -27,7 +27,7 @@ water people dig for themselves, and named the trade as Israel's sin: "they have
 spring of living waters, and cut out cisterns for themselves" (Jeremiah 2:13, WEB).**
 
 She asks for it anyway as a labour-saving device — "give me this water, so that I will not be
-thirsty or have to come here to draw water" (4:15) — and Jesus answers by asking about her husband.
+thirsty or have to come here to draw water" (John 4:15) — and Jesus answers by asking about her husband.
 
 **In one sentence:** Jesus is the spring of living waters that Israel forsook for cisterns, and He gives the Holy Spirit as a free gift that wells up inside whoever asks; He moves worship off every mountain to the Father Himself, so you may come to God fully known and worship Him in spirit and truth.
 
@@ -44,38 +44,38 @@ tells this story for ages 8 to 16, with its own comic.
 
 **Type.** A man sits at a well in a foreign country, a woman comes to draw water, and a betrothal
 follows. That is the shape of Genesis 24 (Abraham's servant and Rebekah, where a drink is requested
-too, 24:17), Genesis 29 (Jacob and Rachel) and Exodus 2 (Moses and Zipporah) — and John has just had the Baptist
+too, Genesis 24:17), Genesis 29 (Jacob and Rachel) and Exodus 2 (Moses and Zipporah) — and John has just had the Baptist
 call Jesus "the bridegroom" who "has the bride" (John 3:29), two paragraphs earlier. Jesus steps
 into the scene and redirects it: the bride He leaves with is a village. Nobody in the text names the
 pattern, unlike the bronze serpent, where [Jesus names it Himself](as-the-snake-was-lifted.md) (John
 3:14) — the resemblance here is in the staging.
 
 **Prophecy.** The Samaritans held only the Torah, and looked for the prophet like Moses of
-Deuteronomy 18:15-18 rather than a son of David. The woman's "I know that Messiah is coming" (4:25)
-is that expectation, and Jesus answers it directly. Jesus makes a prediction of His own in 4:21 — an
+Deuteronomy 18:15-18 rather than a son of David. The woman's "I know that Messiah is coming" (John 4:25)
+is that expectation, and Jesus answers it directly. Jesus makes a prediction of His own in John 4:21 — an
 hour when the Father is worshipped neither on Gerizim nor in Jerusalem.
 
 ### Lessons about Jesus
 
 - **He is the spring itself.** Jeremiah's indictment names God as "the spring of
   living waters" (Jeremiah 2:13; 17:13), and the Septuagint renders it with πηγή — the noun John
-  puts in Jesus's mouth at 4:14. The woman argues about which ancestors dug the right hole and
+  puts in Jesus's mouth at John 4:14. The woman argues about which ancestors dug the right hole and
   worshipped on the right hill while the spring her nation forsook sits on the wall asking her for a
   drink.
 - **What He gives renews itself.** "Everyone who drinks of this water will be thirsty
-  again" (4:13) — that is what a shaft delivers. What He gives "will become in him a spring of water
-  welling up to eternal life" (4:14). John names the gift three chapters later: the Spirit (7:39).
+  again" (John 4:13) — that is what a shaft delivers. What He gives "will become in him a spring of water
+  welling up to eternal life" (John 4:14). John names the gift three chapters later: the Spirit (John 7:39).
 - **He hands it over as a gift, and the only prerequisite He names is asking.** τὴν δωρεὰν τοῦ θεοῦ,
-  "the gift of God" (4:10) — "you would have asked him, and he would have given you living water."
+  "the gift of God" (John 4:10) — "you would have asked him, and he would have given you living water."
   She has no bucket either, and it stops being the problem.
-- **He exposes her sin, and keeps talking to her.** The order in 4:16-26 is disclosure, then
+- **He exposes her sin, and keeps talking to her.** The order in John 4:16-26 is disclosure, then
   worship, then His own identity. The sin is named first, and the offer of living water stands with
   it on the table.
 - **John 4:26 is the first ἐγώ εἰμι on Jesus's lips in the Gospel.** John records the phrase 23
   more times, 22 of them Jesus's own, and the seven sayings with a predicate (the bread, the light,
-  the door, the shepherd, the resurrection, the way, the vine) begin at 6:35. The first goes to a
+  the door, the shepherd, the resurrection, the way, the vine) begin at John 6:35. The first goes to a
   woman standing alone at a well.
-- **John uses the noun "Saviour" exactly once**, at 4:42, and it is Samaritans who say it: "this is
+- **John uses the noun "Saviour" exactly once**, at John 4:42, and it is Samaritans who say it: "this is
   indeed the Savior of the world."
 
 ### Memory verses
@@ -92,14 +92,14 @@ hour when the Father is worshipped neither on Gerizim nor in Jerusalem.
 
 ### Be Transformed
 
-- **Think.** Jeremiah names two evils: forsaking the spring, *and* cutting cisterns (2:13). The
+- **Think.** Jeremiah names two evils: forsaking the spring, *and* cutting cisterns (Jeremiah 2:13). The
   second is the industrious one, and it is the one that looks like devotion. Any arrangement you keep
   up to stay supplied — the routine, the place, the practice — has become a cistern the moment it
   stands in for the source.
-- **Attitude.** She asked *where* (4:20); He answered *how* (4:24), using the same Greek word in
+- **Attitude.** She asked *where* (John 4:20); He answered *how* (John 4:24), using the same Greek word in
   both. Take your own questions about approaching God — the right building, the right posture, the
   right form of words — and ask which of them Jesus would answer and which He would replace.
-- **Do.** She asked for the water so she would not have to come back (4:15), and His reply was "Go,
+- **Do.** She asked for the water so she would not have to come back (John 4:15), and His reply was "Go,
   call your husband." Name the sin you have kept outside your conversation with God, confess it to
   Him, and keep talking. For her, being known was the way into worship.
 
@@ -125,7 +125,7 @@ Amen.
 
 John 4 is the second of a pair. In chapter 3 a man comes to Jesus: Nicodemus, a Pharisee and teacher
 of Israel, who arrives at night, is told he must be born again, and is last heard asking "How can
-these things be?" (3:9). In chapter 4 Jesus comes to a woman: a Samaritan, unnamed, probably at
+these things be?" (John 3:9). In chapter 4 Jesus comes to a woman: a Samaritan, unnamed, probably at
 midday, with no religious standing at all, who ends up bringing her town to Him. The contrast runs
 through sex, nation, standing and who comes to whom, and the hour sharpens it if "the sixth hour" is
 noon (see below).
@@ -146,29 +146,29 @@ goes and sits at a well.
 "He had to" is **ἔδει** (*edei*, G1163, "it was necessary"). The road itself was the ordinary one:
 Josephus has Galileans crossing Samaria as the usual three-day route to Judea (*Antiquities* 20.118;
 *Wars* 2.232; *Life* 269), and the ESV Study Bible says Jesus "had to pass this way because of
-geography" (note on 4:4). The same note adds that the word may also mark God's plan, and John's
-usage supports that. **δεῖ** occurs ten times in this Gospel (3:7, 3:14, 3:30, 4:4, 4:20, 4:24, 9:4,
+geography" (note on John 4:4). The same note adds that the word may also mark God's plan, and John's
+usage supports that. **δεῖ** occurs ten times in this Gospel (John 3:7, 3:14, 3:30, 4:4, 4:20, 4:24, 9:4,
 10:16, 12:34, 20:9), and seven of them mark what must happen because God has determined it: you
 *must* be born again, the Son of Man *must* be lifted up, He *must* increase, the Son of Man *must*
-rise. The other three are in this chapter: 4:4, and the woman's *must* at 4:20 with Jesus's answer
-at 4:24 ([below](#the-same-word-a-different-question)). Both senses can stand at 4:4: the shortest
+rise. The other three are in this chapter: John 4:4, and the woman's *must* at 4:20 with Jesus's answer
+at 4:24 ([below](#the-same-word-a-different-question)). Both senses can stand at John 4:4: the shortest
 road, and the road God had set. (The word's pop-up counts only this past-tense form, because the
 underlying data files the present δεῖ separately, so it shows fewer uses than these ten.)
 
 Sychar is usually identified with Askar, about a mile from the well on the slope of Mount Ebal; the
-well is still there, and still over thirty metres deep — which is her objection in 4:11. The hour is
+well is still there, and still over thirty metres deep — which is her objection in John 4:11. The hour is
 disputed. "The sixth hour" is noon on Jewish reckoning, the hottest part of the day, and since women
 normally drew together, a woman drawing alone at noon is usually read as one unwelcome in the group.
-The Legacy Standard Bible's footnote at 4:6 allows "Perhaps 6 p.m. Roman time or noon Jewish time",
+The Legacy Standard Bible's footnote at John 4:6 allows "Perhaps 6 p.m. Roman time or noon Jewish time",
 and the solitary-woman inference stands or falls with noon.
 
 ### A Jew asking a Samaritan for a drink
 
 She is startled before any word about water is spoken: "How is it that you, a Jew, ask for a drink
-from me, a woman of Samaria?" (4:9, ESV). John's aside, "Jews have no dealings with Samaritans", uses
+from me, a woman of Samaria?" (John 4:9, ESV). John's aside, "Jews have no dealings with Samaritans", uses
 **<span data-strongs="G4798">συγχρῶνται</span>**, which can mean more narrowly "share use of"; the
 CSB footnotes "Or do not share vessels with". Many Jews held Samaritans to be continually unclean, so
-drinking from her jar would defile Him (ESV Study Bible, note on 4:9). Jesus asks for it anyway.
+drinking from her jar would defile Him (ESV Study Bible, note on John 4:9). Jesus asks for it anyway.
 (Some manuscripts omit the aside, as the CSB and NLT note.)
 
 ## The two words English calls "well"
@@ -178,42 +178,42 @@ different nouns, and they divide by who is speaking.
 
 | Verse | Speaker | Greek | What it means |
 |---|---|---|---|
-| 4:6 (×2) | the narrator | **πηγή** (*pēgē*, G4077) | a spring — water that rises on its own |
+| John 4:6 (×2) | the narrator | **πηγή** (*pēgē*, G4077) | a spring — water that rises on its own |
 | 4:11 | the woman | **φρέαρ** (*phrear*, G5421) | a shaft sunk to reach water |
 | 4:12 | the woman | **φρέαρ** | the same |
 | 4:14 | Jesus | **πηγή** | a spring |
 
 The narrator calls it Jacob's *spring*. The woman, both times she speaks of it, calls it a *shaft* —
-in this study's own rendering, "you have nothing to draw with, and the shaft is deep" (4:11), "are
-you greater than our father Jacob, who gave us the shaft?" (4:12). φρέαρ is rare in the New
+in this study's own rendering, "you have nothing to draw with, and the shaft is deep" (John 4:11), "are
+you greater than our father Jacob, who gave us the shaft?" (John 4:12). φρέαρ is rare in the New
 Testament: outside these two verses it appears only at Luke 14:5 and, four times, of the shaft of the
 abyss in Revelation 9:1-2.
 
 Then Jesus takes the narrator's word and moves it: the water He gives "will become in him a **πηγή**
-of water welling up to eternal life" (4:14). A spring, relocated inside the person.
+of water welling up to eternal life" (John 4:14). A spring, relocated inside the person.
 
 The difference between the words should not be pressed further than John's use of them. The
-Septuagint of Genesis 24 calls Rebekah's one water source both πηγή (24:13, 16, 42-45) and φρέαρ
-(24:11, 20), and Isaac's servants dig a φρέαρ of "living water" (Genesis 26:19). What is firm is the
-split by speaker in John 4 and the word Jesus chooses at 4:14. The spring-against-shaft contrast is
+Septuagint of Genesis 24 calls Rebekah's one water source both πηγή (Genesis 24:13, 16, 42-45) and φρέαρ
+(Genesis 24:11, 20), and Isaac's servants dig a φρέαρ of "living water" (Genesis 26:19). What is firm is the
+split by speaker in John 4 and the word Jesus chooses at John 4:14. The spring-against-shaft contrast is
 John's staging, carried by who says which word.
 
 ### What the English versions do with it
 
-At 4:6 and 4:11, ESV, NIV, CSB, LSB, WEB, ASV and BSB all print "well" for both nouns, so an English
-reader cannot see that the narrator and the woman are using different words. At 4:14 — the promise,
+At John 4:6 and 4:11, ESV, NIV, CSB, LSB, WEB, ASV and BSB all print "well" for both nouns, so an English
+reader cannot see that the narrator and the woman are using different words. At John 4:14 — the promise,
 where it costs the most — the versions split:
 
-| Renders πηγή at 4:14 as a spring | Renders it "well" |
+| Renders πηγή at John 4:14 as a spring | Renders it "well" |
 |---|---|
 | ESV, NIV — "a spring of water welling up" | WEB, ASV, LSB — "a well of water springing up" |
 | BSB — "a fount of water" | CSB — "a well, of water springing up" |
 
-The CSB's own footnote at 4:14 offers "Or spring", so its translators saw the choice. Where a
+The CSB's own footnote at John 4:14 offers "Or spring", so its translators saw the choice. Where a
 version prints "well" here, the promise reads as Jesus giving her *her own well* — an improvement in
 convenience, which is precisely the thing she asks for in the next verse and does not get. Read the
-ESV or NIV at 4:14. At 4:6 and 4:11 none of the common modern versions will help; J. N. Darby's
-nineteenth-century translation is one that prints "fountain" at 4:6 and "well" at 4:11.
+ESV or NIV at John 4:14. At John 4:6 and 4:11 none of the common modern versions will help; J. N. Darby's
+nineteenth-century translation is one that prints "fountain" at John 4:6 and "well" at 4:11.
 
 ### Jeremiah's two evils
 
@@ -241,7 +241,7 @@ and the spring of living water is sitting on the wall asking her for a drink.
 **ὕδωρ ζῶν** (*hydōr zōn*, "living water") was ordinary language for running water as opposed to
 standing water in a cistern — the sense it carries at Genesis 26:19 and Leviticus 14:6. That is what
 the woman hears, and her reply is practical: you have no bucket, so where would you get flowing
-water (4:11)?
+water (John 4:11)?
 
 John explains what Jesus meant three chapters later:
 
@@ -273,8 +273,8 @@ spring delivers. Her verse 15 keeps the shaft-shaped life entire and asks only f
 removed — no thirst, no trip.
 
 The verb she uses for that trip is **ἀντλέω** (*antleō*, G501, "to draw"), which occurs four times in the
-New Testament and all four are in John: twice of the servants drawing water at Cana (2:8-9), and
-twice here — she *came* to draw (4:7), and she asks never to have to draw again (4:15). It is also
+New Testament and all four are in John: twice of the servants drawing water at Cana (John 2:8-9), and
+twice here — she *came* to draw (John 4:7), and she asks never to have to draw again (John 4:15). It is also
 the Septuagint's verb for the women at the wells of Genesis 24 and Exodus 2, and for Isaiah's
 promise: "with joy you will draw water out of the wells of salvation" (Isaiah 12:3, WEB), where the
 Hebrew is <span dir="rtl">מִמַּעַיְנֵי</span> (*mimma'ayĕnê*, "from the springs") and the Septuagint
@@ -294,7 +294,7 @@ brought to the well.
 A reading that circulates takes the five husbands allegorically, as the five foreign populations
 Assyria resettled in Samaria — 2 Kings 17:24 names Babylon, Cuthah, Avva, Hamath and Sepharvaim,
 five of them — with the sixth, illegitimate partner standing for Samaritan worship. Five verses
-later the same chapter names the gods those populations made, and there are seven (17:29-31). John
+later the same chapter names the gods those populations made, and there are seven (2 Kings 17:29-31). John
 gives no signal to read the number as anything but a count of marriages: Jesus states it, she
 confirms it, and what she draws from it is that He has knowledge she did not give Him — "I perceive
 that you are a prophet".
@@ -302,7 +302,7 @@ that you are a prophet".
 Her "I have no husband" is true and closes the topic. Jesus reopens it, agrees with her twice ("you
 are right", "what you have said is true"), and fills in the rest. What He exposes is sin: "the one
 you now have is not your husband" means the present relationship is not a marriage (ESV Study Bible,
-note on 4:18). She does not deny it. He names it and keeps talking, and the conversation goes on to
+note on John 4:18). She does not deny it. He names it and keeps talking, and the conversation goes on to
 worship, water and His own identity with the sin on the table. That is conviction, and the Jesus who
 exposes the sin is the one offering the sinner living water. The next thing she does is start asking
 Him theology.
@@ -347,7 +347,7 @@ Verse 21 removes both mountains, and verse 22 still awards the
 Jewish claim outright — "you worship what you do not know; we worship what we know, for salvation is
 from the Jews", where the "you" is plural, addressed to Samaritans generally rather than to her. The
 Samaritan claim is wrong, and the Jerusalem claim is right about the past: salvation came through
-the Jews. What changes is the ground of access. From "now" (4:23) the Father is reached through the
+the Jews. What changes is the ground of access. From "now" (John 4:23) the Father is reached through the
 Son, whose body is the temple (John 2:21), and not by standing on the right mountain. That does not
 end Jerusalem's future. Jesus still calls it "the city of the great King" (Matthew 5:35), and the
 prophets see the nations going up there to worship the King in person (Zechariah 14:16). The place
@@ -356,7 +356,7 @@ the Lamb" (Revelation 21:22).
 
 "God is spirit" (**πνεῦμα ὁ θεός**) grounds it: God is present wherever He is sought, so worship goes
 wherever His worshippers are. Whether "in spirit and truth" means the human spirit or the Holy Spirit is left
-open by the Greek — the LSB footnotes "Or Spirit" at 4:24 and the CSB "Or in spirit and truth" at
+open by the Greek — the LSB footnotes "Or Spirit" at John 4:24 and the CSB "Or in spirit and truth" at
 4:23, and the NIV and CSB print "Spirit" in their text — and John 7:39's identification of the living water as the Spirit makes the second reading the
 more natural one in this Gospel.
 
@@ -372,15 +372,15 @@ Deuteronomy 18:15-18 — one who would "tell us all things". Jesus answers in th
 
 The Greek is **Ἐγώ εἰμι, ὁ λαλῶν σοι** — "I am, the one speaking to you." **This is the first
 ἐγώ εἰμι on Jesus's lips in John's Gospel.** John records the phrase 23 more times, 22 of them
-Jesus's own (the other is the healed blind man, 9:9): the bread, the light, the door, the shepherd,
+Jesus's own (the other is the healed blind man, John 9:9): the bread, the light, the door, the shepherd,
 the resurrection, the way, the vine, and the bare "before Abraham was, I am" at 8:58. This one, first,
 is spoken to a lone Samaritan woman with no one else present.
 
 Whether it carries the weight of Exodus 3:14 is unsettled. In context it answers her sentence about
-the Messiah, so "I am he" is the natural sense — but the NLT's footnote at 4:26 offers "The 'I AM'
+the Messiah, so "I am he" is the natural sense — but the NLT's footnote at John 4:26 offers "The 'I AM'
 is here" and "I am the LORD", and cross-references Exodus 3:14, so the divine-name reading is a live
 translator's option as well as a commentator's. The absolute use, with no predicate at all, comes at
-8:24 and 8:28 and is unmistakable at 8:58; what 4:26 establishes is that the formula starts here. [The Names of
+John 8:24 and 8:28 and is unmistakable at 8:58; what John 4:26 establishes is that the formula starts here. [The Names of
 God](../god/names-of-god.md#i-will-be) sets out Exodus 3:14 itself.
 
 ## A hesitant witness, and a two-day stay
@@ -390,15 +390,15 @@ God](../god/names-of-god.md#i-will-be) sets out Exodus 3:14 itself.
 > 28 So the woman left her water jar and went away into town and said to the people, 29 "Come, see a
 > man who told me all that I ever did. Can this be the Christ?"
 
-She asked in 4:15 never to have to come back and draw. Thirteen verses later she walks back to town
+She asked in John 4:15 never to have to come back and draw. Thirteen verses later she walks back to town
 and the **ὑδρία**, the water jar, stays at the well. John does not say why she left it. He does say
 she came for water and left without it, and the verb is **ἀφίημι** (*aphiēmi*, G863) — the same one that opened the
-chapter when Jesus "left" Judea (4:3).
+chapter when Jesus "left" Judea (John 4:3).
 
 Her question is framed with **μήτι** (*mēti*, G3385), a particle that normally expects the answer
-*no*. John uses it twice more — the crowd asking "will he kill himself?" (8:22) and Pilate's "am I a
-Jew?" (18:35) — both expecting a denial. But Matthew uses the same form for amazed crowds wondering
-whether Jesus might be the Son of David (Matthew 12:23), and the ESV and NIV print 4:29 as an open
+*no*. John uses it twice more — the crowd asking "will he kill himself?" (John 8:22) and Pilate's "am I a
+Jew?" (John 18:35) — both expecting a denial. But Matthew uses the same form for amazed crowds wondering
+whether Jesus might be the Son of David (Matthew 12:23), and the ESV and NIV print John 4:29 as an open
 question. So her testimony reads either as *"this couldn't be the Christ, could it?"* or as a
 hesitant hope. On both readings it is tentative, and it worked anyway:
 
@@ -411,13 +411,13 @@ hesitant hope. On both readings it is tentative, and it worked anyway:
 > and we know that this is indeed the Savior of the world."
 
 Her "Come, see" (**Δεῦτε ἴδετε**) uses the same verb as Jesus's "Come and you will see" to the
-first disciples (1:39, where it is future, ὄψεσθε), and the same imperative Philip used to Nathanael,
-"Come and see" (1:46), with a different verb for "come". She is
+first disciples (John 1:39, where it is future, ὄψεσθε), and the same imperative Philip used to Nathanael,
+"Come and see" (John 1:46), with a different verb for "come". She is
 doing what the disciples did, on the strength of one conversation and a question she was not sure of
 the answer to.
 
 Two details close the account. Jesus, who arrived **κεκοπιακώς** — "wearied" from the journey
-(4:6) — tells the disciples that "Others have labored, and you have entered into their labor" (4:38). All
+(John 4:6) — tells the disciples that "Others have labored, and you have entered into their labor" (John 4:38). All
 three occurrences of **κοπιάω** in John are in this chapter, and they run from His tiredness at the well to the harvest it produced. And the Samaritans' verdict uses **σωτήρ**,
 "Saviour", the only time the noun appears in John's Gospel.
 
@@ -428,7 +428,7 @@ the sin of the one He is giving it to, and keeps giving; and He relocates worshi
 Father Himself, so that access depends on Him alone.
 
 None of this rests on the narrative alone. John identifies the living water as the Spirit Himself
-(7:39); the gift language is the passage's own (4:10) and is taught explicitly at Ephesians 2:8-9;
+(John 7:39); the gift language is the passage's own (John 4:10) and is taught explicitly at Ephesians 2:8-9;
 and the relocation of worship is developed across the epistles, where the people themselves become
 the temple the Spirit indwells (1 Corinthians 3:16-17; Ephesians 2:19-22).
 
@@ -444,13 +444,13 @@ worshipped in spirit and truth wherever His people are.
 ## Discussion questions
 
 1. **The language.** The narrator calls Jacob's well a πηγή (*pēgē*, a spring) at John 4:6, the
-   woman calls it a φρέαρ (*phrear*, a shaft) both times she speaks of it (4:11-12), and Jesus takes
-   the narrator's word for what He gives (4:14). What does an English version that prints "well" in
+   woman calls it a φρέαρ (*phrear*, a shaft) both times she speaks of it (John 4:11-12), and Jesus takes
+   the narrator's word for what He gives (John 4:14). What does an English version that prints "well" in
    all three places lose from the conversation?
 2. **The text in its context.** Jeremiah 2:13 names two evils: forsaking the spring, *and* cutting
    cisterns. Why does the second one matter separately from the first?
 3. **Christ.** Jesus raises the woman's marital history (John 4:16-18) before He says anything about
-   worship or His own identity (4:21-26), and keeps talking to her afterwards. What does that
+   worship or His own identity (John 4:21-26), and keeps talking to her afterwards. What does that
    ordering suggest about how being known relates to worship?
 4. **The hard part.** Her testimony, "Can this be the Christ?" (John 4:29, ESV), opens with μήτι
    (*mēti*), which expects the answer *no* at John 8:22 and 18:35 but carries the crowds' amazement
@@ -460,7 +460,7 @@ worshipped in spirit and truth wherever His people are.
    centuries of dispute followed. Jesus answers by removing both mountains (John 4:21). What
    questions might we be asking that He would answer the same way?
 6. **Be transformed.** Jesus says the well water leaves you thirsty again (John 4:13) and she asks
-   for His water so she will not have to keep walking to the well (4:15). Where are you asking God
+   for His water so she will not have to keep walking to the well (John 4:15). Where are you asking God
    for a shorter walk to the same well?
 
 ## References & Recommended Reading
@@ -494,11 +494,11 @@ not a marriage), 4:20-24.
   for the Samaria route), 4:6 (the hour and the woman drawing alone), 4:16 (the well betrothal scenes), 4:19 and
   4:25 (Samaritan messianic expectation).
 - **CSB Ancient Faith Study Bible** (Holman) and **Legacy Standard Bible** (Three Sixteen
-  Publishing) — translators' footnotes at 4:6, 4:9, 4:14, 4:23 and 4:24, which is where the
+  Publishing) — translators' footnotes at John 4:6, 4:9, 4:14, 4:23 and 4:24, which is where the
   disputed hour and the "Or spring" alternative came from.
-- **NLT Life Application Study Bible** (Tyndale) — the translators' footnote at 4:26 offering "The
+- **NLT Life Application Study Bible** (Tyndale) — the translators' footnote at John 4:26 offering "The
   'I AM' is here" and cross-referencing Exodus 3:14.
-- **J. N. Darby's translation** — "fountain" at 4:6 and "well" at 4:11.
+- **J. N. Darby's translation** — "fountain" at John 4:6 and "well" at 4:11.
 - **Josephus**, *Antiquities* 20.118; *Wars of the Jews* 2.232; *Life* 269 — cited via the Cultural
   Backgrounds note above for the ordinary Judea-to-Galilee route through Samaria.
 - **Gordon D. Fee and Douglas Stuart**, *How to Read the Bible for All Its Worth* — the
