@@ -2,11 +2,11 @@
 title: "The Thousand Years: What the Saints Do When Christ Reigns"
 category: "prophecy"
 description: "Revelation 20:1-10 read in its order, the Old Testament pictures of the King's reign on an earth not yet made new, the three Christian readings of the millennium with the case for each, and what Scripture says Christ's people will do in it: reign and judge, govern, serve as priests, worship, teach, build and plant."
-tags: ["revelation", "isaiah", "psalms", "micah", "zechariah", "daniel", "luke", "millennium", "kingdom-of-god", "resurrection", "reward", "dispensationalism", "enoch", "church-fathers", "method/word-study", "lang/greek", "lang/hebrew"]
+tags: ["revelation", "isaiah", "psalms", "micah", "zechariah", "daniel", "luke", "ezekiel", "millennium", "kingdom-of-god", "resurrection", "reward", "dispensationalism", "enoch", "church-fathers", "method/word-study", "lang/greek", "lang/hebrew"]
 questions: ["What is the millennium?", "What will believers do during the thousand-year reign of Christ?"]
 draft: true
 primary_passage: "Revelation 20:1-10"
-bible_references: ["Revelation 19:11-21", "Revelation 20:11-15", "Revelation 2:8", "Revelation 2:26-27", "Revelation 3:21", "Revelation 5:10", "Revelation 1:6", "Revelation 12:9", "Revelation 13:14", "Revelation 16:14", "Revelation 21:22", "Psalm 2:6-9", "Psalm 72:1-17", "Psalm 110:1-2", "Isaiah 2:2-4", "Isaiah 11:1-10", "Isaiah 24:21-23", "Isaiah 65:17-25", "Micah 4:1-5", "Zechariah 14:9", "Zechariah 14:16-19", "Daniel 7:9", "Daniel 7:18", "Daniel 7:22", "Daniel 7:27", "Ezekiel 43:10-11", "Ezekiel 43:18-21", "Ezekiel 45:15-17", "Matthew 12:29", "Matthew 13:33", "Matthew 19:28", "Matthew 25:21", "Matthew 25:31-34", "Luke 18:8", "Luke 19:15-19", "Luke 22:29-30", "John 5:25-29", "1 Corinthians 6:2-3", "1 Corinthians 15:23-25", "2 Corinthians 4:4", "Ephesians 2:6", "2 Timothy 2:12", "Hebrews 9:13", "Hebrews 10:18", "1 Peter 5:8", "Revelation 16:19-20", "Isaiah 24:1", "Ezekiel 39:9-16", "Daniel 12:11-12", "Matthew 25:31-32", "Isaiah 61:1-4", "Luke 4:16-21", "Amos 9:11-15", "Acts 15:16", "Ezekiel 36:33-36", "Joel 2:25", "Zechariah 14:4-10", "Ezekiel 47:1-12", "Isaiah 35:1", "Acts 3:21", "Titus 3:5"]
+bible_references: ["Revelation 19:11-21", "Revelation 20:11-15", "Revelation 2:8", "Revelation 2:26-27", "Revelation 3:21", "Revelation 5:10", "Revelation 1:6", "Revelation 12:9", "Revelation 13:14", "Revelation 16:14", "Revelation 21:22", "Psalm 2:6-9", "Psalm 72:1-17", "Psalm 110:1-2", "Isaiah 2:2-4", "Isaiah 11:1-10", "Isaiah 24:21-23", "Isaiah 65:17-25", "Micah 4:1-5", "Zechariah 14:9", "Zechariah 14:16-19", "Daniel 7:9", "Daniel 7:18", "Daniel 7:22", "Daniel 7:27", "Ezekiel 43:10-11", "Ezekiel 43:18-21", "Ezekiel 45:15-17", "Matthew 12:29", "Matthew 13:33", "Matthew 19:28", "Matthew 25:21", "Matthew 25:31-34", "Luke 18:8", "Luke 19:15-19", "Luke 22:29-30", "John 5:25-29", "1 Corinthians 6:2-3", "1 Corinthians 15:23-25", "2 Corinthians 4:4", "Ephesians 2:6", "2 Timothy 2:12", "Acts 4:25-27", "Acts 13:33", "Romans 15:12", "Acts 1:6", "Joel 1:4", "Acts 15:14", "Hebrews 9:13", "Hebrews 10:18", "1 Peter 5:8", "Revelation 16:19-20", "Isaiah 24:1", "Ezekiel 39:9-16", "Daniel 12:11-12", "Matthew 25:31-32", "Isaiah 61:1-4", "Luke 4:16-21", "Amos 9:11-15", "Acts 15:16", "Ezekiel 36:33-36", "Joel 2:25", "Zechariah 14:4-10", "Ezekiel 47:1-12", "Isaiah 35:1", "Acts 3:21", "Titus 3:5"]
 date_created: 2026-11-15
 date_modified: 2026-11-15
 ai_provider_models:
@@ -97,7 +97,7 @@ In Jesus' name. Amen.
 - [The temple Ezekiel saw](#the-temple-ezekiel-saw). The question Ezekiel 40-48 raises and the four
   main answers.
 - [Background: what Jews and early Christians expected](#background-what-jews-and-early-christians-expected).
-  1 Enoch, 2 Baruch, 2 Enoch and Papias, behind the site's warning.
+  1 Enoch, 2 Baruch, 2 Enoch, Papias, Justin and Lactantius, behind the site's warning.
 - [What the reign shows about God](#what-the-reign-shows-about-god). His faithfulness to the earth, to
   His Son and to you.
 
@@ -231,20 +231,18 @@ the site's position ([statement of faith](../about/statement-of-faith.md#end-tim
   refuse Him (Isaiah 65:20; Zechariah 14:17). That is an earth between His return and the new
   creation.
 
-The premillennial reading has its own question to answer. If "the rest were slain" at the return
-(Revelation 19:21), who are the nations Satan can no longer deceive? The answer this site gives is
-that "the rest" are the armies gathered against the Lord (Revelation 19:19), and survivors of those
+If "the rest were slain" at the return (Revelation 19:21), who are the nations Satan can no longer
+deceive? This site's answer is that "the rest" are the armies gathered against the Lord (Revelation 19:19), and survivors of those
 nations live on into the kingdom: "everyone who survives of all the nations that have come against
 Jerusalem shall go up year after year to worship the King" (Zechariah 14:16, ESV).
 
 ### Where this study stands
 
-**The order of events is the firmest ground, and on it this study is premillennial with the site.**
-Revelation 20:10's backward glance to Revelation 19:20, the five verbs of the binding and the repeated
-ἔζησαν are in the text. Revelation does repeat itself, and the amillennial case rests on that, which
-is why the question stays open between faithful readers. The exact length is the site's reading: it
-counts Revelation's other periods (1,260 days, forty-two months) as real lengths, and the thousand
-years the same way.
+**Christ returns, then reigns on the earth, then the dead are judged: Revelation 20 gives that
+order, and this site holds it.** Revelation 20:10 looks back to Revelation 19:20, the binding takes
+five verbs, and ἔζησαν comes twice in two verses. Revelation does repeat itself, and the amillennial
+case rests on that, so faithful readers still differ here. The site reads the thousand years as a
+literal length, as it reads Revelation's other periods (1,260 days, forty-two months).
 
 ## What the prophets saw
 
@@ -313,7 +311,7 @@ works through the chapter.
 
 Isaiah saw the shape of Revelation 20 in miniature. The LORD will punish "the host of heaven, in
 heaven, and the kings of the earth, on the earth. They will be gathered together as prisoners in a
-pit; they will be shut up in a prison, and after many days they will be punished," for "the LORD of
+pit; they will be shut up in a prison, and after many days they will be punished," and "the LORD of
 hosts reigns on Mount Zion" (Isaiah 24:21-23, ESV). Revelation gives the "many days" their number.
 
 Put together, these passages describe a King reigning from Jerusalem over nations that still have
@@ -323,16 +321,14 @@ world He made.** He will rule it in righteousness before He makes it new.
 ## After the tribulation: clearing and rebuilding
 
 The King returns to a ruined world. Before the prophets' pictures of peace come true, someone has to
-clear the wreckage, bury the dead and rebuild the cities. Scripture says a good deal about that work,
-and it fits the faithful-servant pattern the parables set.
+clear the wreckage, bury the dead and rebuild the cities.
 
 ### The damage left behind
 
 The last bowl leaves the world broken: "The great city was split into three parts, and the cities of
 the nations fell... And every island fled away, and no mountains were to be found" (Revelation
 16:19-20, ESV). Isaiah saw the same: "the LORD will empty the earth and make it desolate, and he
-will twist its surface and scatter its inhabitants" (Isaiah 24:1, ESV). The reign begins on an earth
-that has been judged.
+will twist its surface and scatter its inhabitants" (Isaiah 24:1, ESV).
 
 ### Clearing the land
 
@@ -351,18 +347,20 @@ bury those travelers remaining on the face of the land, so as to cleanse it" (Ez
 for God's people to live in. The weapons serve as fuel, "so that they will not need to take wood out
 of the field or cut down any out of the forests" (Ezekiel 39:10, ESV).
 
-When that war happens is contested. Many dispensational writers place Ezekiel 38-39 before or early
-in the tribulation, which would carry the seven years of burning into the kingdom's first years.
-Others place it at the end of the tribulation, at the King's return. Revelation 20:8 uses the names
-"Gog and Magog" for the rebellion after the thousand years, and some read Ezekiel there. The text
-fixes what the clean-up is; it does not fix the date.
+When that war happens is contested. Many dispensational writers place Ezekiel 38-39 before the
+tribulation or early in it, which puts most or all of the seven years of burning before the King
+returns. Others place it in the middle of the tribulation or
+at its end, at His return, which carries the burning into the kingdom's first years. Revelation 20:8
+uses the names "Gog and Magog" for the rebellion after the thousand years, and some read Ezekiel
+there.
 
 ### The days after the 1,260
 
-Daniel gives two numbers past the tribulation's second half of 1,260 days: "there shall be 1,290
-days," and "Blessed is he who waits and arrives at the 1,335 days" (Daniel 12:11-12, ESV). That is
-thirty days and then forty-five more. Daniel does not say what they hold. Many dispensational
-interpreters suggest a time of transition between the return and the settled reign: the judgment of
+Daniel counts from the day "the abomination that makes desolate is set up": "there shall be 1,290
+days," and "Blessed is he who waits and arrives at the 1,335 days" (Daniel 12:11-12, ESV). Set
+against the 1,260 days of the tribulation's second half, and with the 1,335 counted from the same
+day, that is thirty days past the end and then forty-five more. Daniel does not say what they hold.
+Many dispensational interpreters suggest a time of transition between the return and the settled reign: the judgment of
 the nations, when "the Son of Man comes in his glory... Before him will be gathered all the nations"
 (Matthew 25:31-32, ESV), and the setting in order of the land. That is an inference, and [the
 Tribulation study](tribulation.md#one-span-counted-three-ways) sets out how the three spans are
@@ -370,22 +368,25 @@ counted.
 
 ### Rebuilding the ruins
 
-The prophets promise rebuilding again and again.
-
 - **Isaiah 61:4.** "They shall build up the ancient ruins; they shall raise up the former
   devastations; they shall repair the ruined cities, the devastations of many generations" (ESV).
   In the synagogue at Nazareth Jesus read Isaiah 61 as far as "to proclaim the year of the Lord's
   favor" (Luke 4:19, ESV), rolled up the scroll and said, "Today this Scripture has been fulfilled in
   your hearing" (Luke 4:21, ESV). He stopped in the middle of Isaiah 61:2, before "the day of
-  vengeance of our God." The rebuilding of verse 4 comes after the vengeance, so on this reading it
-  waits for His return.
+  vengeance of our God." The rebuilding of Isaiah 61:4 follows the vengeance in Isaiah's order, so on
+  this reading it waits for His return.
 - **Amos 9:11, 14.** "I will raise up the booth of David that is fallen and repair its breaches...
   they shall rebuild the ruined cities and inhabit them; they shall plant vineyards and drink their
-  wine" (ESV). James quotes the first promise at the Jerusalem council: "After this I will return,
-  and I will rebuild the tent of David that has fallen" (Acts 15:16, ESV).
-- **Ezekiel 36:33, 35.** "The waste places shall be rebuilt," until people say, "This land that was
-  desolate has become like the garden of Eden" (ESV).
-- **Joel 2:25.** "I will restore to you the years that the swarming locust has eaten" (ESV).
+  wine" (ESV). James quotes the first promise at the Jerusalem council, of the Gentiles now being
+  called (Acts 15:14): "After this I will return, and I will rebuild the tent of David that has
+  fallen" (Acts 15:16, ESV). Whether the rebuilding is that calling or follows Christ's return is
+  contested, and [Israel's Regathering and
+  Refining](../israel-and-church/israels-regathering-and-refining.md#after-this-james-at-the-jerusalem-council)
+  sets out the readings.
+- **Ezekiel 36:33, 35.** "The waste places shall be rebuilt," and people will say, "This land that
+  was desolate has become like the garden of Eden" (ESV).
+- **Joel 2:25.** "I will restore to you the years that the swarming locust has eaten" (ESV), said
+  first of the locust plague of Joel's own day (Joel 1:4).
 
 Who does the building? Isaiah 61:4's "they" are the people the anointed one comforts, and Amos 9:14's
 are Israel restored to the land. On the dispensational reading the mortal survivors do the labour;
@@ -397,15 +398,19 @@ Some of the repair no human hand could do. When His feet stand on the Mount of O
 split in two from east to west by a very wide valley" (Zechariah 14:4, ESV); "living waters shall
 flow out from Jerusalem" (Zechariah 14:8, ESV); the land around becomes a plain while "Jerusalem
 shall remain aloft on its site" (Zechariah 14:10, ESV). Ezekiel's river turns the Dead Sea fresh:
-"everything will live where the river goes" (Ezekiel 47:9, ESV). "The desert shall rejoice and
-blossom like the crocus" (Isaiah 35:1, ESV).
+"everything will live where the river goes" (Ezekiel 47:9, ESV); the river flows from his temple, so
+when it flows belongs to the question [the temple Ezekiel saw](#the-temple-ezekiel-saw) leaves open.
+"The desert shall rejoice and blossom like the crocus" (Isaiah 35:1, ESV).
 
 Peter names the whole work. Heaven must receive Jesus "until the time for restoring all the things
 about which God spoke by the mouth of his holy prophets long ago" (Acts 3:21, ESV). "Restoring" is
-ἀποκατάστασις (*apokatastasis*, ah-po-kah-TAH-stah-sis, G605), used only here in the New Testament.
-Jesus calls the same era "the new world" (Matthew 19:28, ESV), παλιγγενεσία (*palingenesia*,
-pah-ling-geh-neh-SEE-ah, G3824), "regeneration," a word Paul uses once more for the new birth (Titus
-3:5).
+ἀποκατάστασις (*apokatastasis*, ah-po-kah-TAH-stah-sis, G605), used only here in the New Testament;
+its verb is the disciples' "will you at this time restore the kingdom to Israel?" (Acts 1:6, ESV).
+Jesus' "new world" (Matthew 19:28, ESV) is παλιγγενεσία (*palingenesia*, pah-ling-geh-neh-SEE-ah,
+G3824), "regeneration," a word Paul uses once more for the new birth (Titus 3:5). Dispensational
+readers take both of the thousand years, when the Twelve judge Israel's tribes; [Heaven and Earth
+Will Pass Away](heaven-and-earth-will-pass-away.md) reads them of the renewed creation, and the
+question is open.
 
 **This shows that God finishes what He starts.** The earth that sin ruined and judgment broke, He
 restores, and He gives His people work to do in the restoring. So the faithfulness you show now in
@@ -449,8 +454,8 @@ In the parable of the minas a nobleman goes away "to receive for himself a kingd
 (Luke 19:15, ESV). The first hears, "Well done, good servant! Because you have been faithful in a
 very little, you shall have authority over ten cities," and the second is put "over five cities" (Luke 19:17, 19, ESV).
 
-The parable's point is that the King rewards faithfulness with responsibility, in proportion to what
-each did with what he was given; "I will set you over much" (Matthew 25:21, ESV) says the same. That
+**The King rewards faithfulness with responsibility,** in proportion to what each did with what he
+was given; "I will set you over much" (Matthew 25:21, ESV) says the same. That
 the cities belong to the thousand years is inferred from the timing: the reward comes when the King
 returns with His kingdom. It is handed out at [the judgment seat of Christ](judgment-seat-of-christ.md).
 
@@ -460,7 +465,7 @@ returns with His kingdom. It is handed out at [the judgment seat of Christ](judg
 resurrection. Israel was called to be "a kingdom of priests" (Exodus 19:6, ESV), and Jesus "made us a
 kingdom, priests to his God and Father" (Revelation 1:6, ESV). Zechariah states that the nations will
 come up to worship the King (Zechariah 14:16). That His risen people worship with them is inferred; a
-multitude "from every nation" already worships before the throne in Revelation 7:9-10.
+multitude "from every nation" already worships before the throne (Revelation 7:9-10, ESV).
 
 ### Teach, build and plant
 
@@ -478,7 +483,7 @@ the risen saints' share in the building is an inference.
 
 On the dispensational reading the kingdom has two kinds of people. The risen and the raptured reign,
 judge and serve as priests with Christ, and the second death "has no power" over them (Revelation
-20:6). Mortal survivors of the tribulation, from Israel and the nations, enter the kingdom (Matthew
+20:6, ESV). Mortal survivors of the tribulation, from Israel and the nations, enter the kingdom (Matthew
 25:31-34; Zechariah 14:16), bear children, plant and die. That is why Isaiah 65 promises long life,
 and why Satan finds a multitude to deceive when he is released. No single passage sets this out; it
 is how this reading fits the texts together.
@@ -498,8 +503,8 @@ study takes no position on it. Four answers are held:
    worshippers and the place where the LORD dwells among them, the "purification of the flesh"
    Hebrews 9:13 (ESV) assigns to the old offerings, with forgiveness resting on the cross alone.
 3. **Fulfilled in Christ.** A vision drawn in the terms of Ezekiel's own worship and fulfilled in
-   Christ, His people and the city where John "saw no temple, for its temple is the Lord God the
-   Almighty and the Lamb" (Revelation 21:22, ESV).
+   Christ, His people and the new Jerusalem: "I saw no temple in the city, for its temple is the Lord
+   God the Almighty and the Lamb" (Revelation 21:22, ESV).
 4. **A conditional plan.** A design offered to the returning exiles "if they are ashamed of all that
    they have done" (Ezekiel 43:11, ESV), which they never built.
 
@@ -516,7 +521,7 @@ The priesthood of Revelation 20:6 stands on its own text, whichever of these is 
     however early or however many of them agree.
 
     What these sources establish is what people believed, and when. That 1 Enoch expected the
-    righteous to judge sinners and build houses in an eighth "week" is a fact about Judaism before
+    righteous to judge sinners and acquire houses in an eighth "week" is a fact about Judaism before
     Christ, and it bears on how John's first readers heard Revelation 20. It is not evidence of what
     the thousand years will be.
 
@@ -586,8 +591,7 @@ of the dead, and a thousand years in Jerusalem, which will then be built, adorne
 the prophets Ezekiel and Isaiah and others declare" (*Dialogue with Trypho* 80, *Ante-Nicene
 Fathers* vol. 1). Early in the fourth century Lactantius had the risen "preside over the living as
 judges" through the thousand years, while "the earth will open its fruitfulness, and bring forth most
-abundant fruits of its own accord" (*Divine Institutes* 7.24, *Ante-Nicene Fathers* vol. 7). Justin
-leaned on the prophets' rebuilt city; Lactantius on a fruitfulness God gives without labour.
+abundant fruits of its own accord" (*Divine Institutes* 7.24, *Ante-Nicene Fathers* vol. 7).
 
 Set beside Revelation, these sources show how restrained John is. The multiplying vine of Papias is
 close to 2 Baruch's. John gives no harvest figures at all. He gives thrones, a resurrection, priests
@@ -607,20 +611,20 @@ So you may treat the "very little" in your hands now as the beginning of that tr
 
 ## Discussion questions
 
-1. **The language.** Revelation 2:27 follows the Septuagint's "shepherd them" (ποιμανεῖ) where the
-   Hebrew of Psalm 2:9 reads "break them" (<span dir="rtl">תְּרֹעֵם</span>). What does each verb say
+1. **The language.** Revelation 2:27's "he will rule them" (ESV) is ποιμανεῖ, the Septuagint's verb
+   "shepherd," where the Hebrew of Psalm 2:9 reads "break them" (<span dir="rtl">תְּרֹעֵם</span>). What does each verb say
    about how Jesus will rule the nations?
 2. **The text in its context.** John uses ἔζησαν, "came to life," in Revelation 20:4 and again in
    Revelation 20:5. How does reading the two side by side shape what you think the first resurrection
    is?
 3. **Christ.** Jesus says, "I will grant him to sit with me on my throne, as I also conquered and sat
-   down with my Father on his throne" (Revelation 3:21). What does it tell you about Him that He
+   down with my Father on his throne" (Revelation 3:21, ESV). What does it tell you about Him that He
    shares His throne?
 4. **The hard part.** Jesus speaks of binding the strong man (Matthew 12:29), Revelation 20:3 binds
-   Satan "so that he might not deceive the nations any longer," and Peter says he "prowls around like
-   a roaring lion" (1 Peter 5:8). How do you hold those three texts together?
+   Satan "so that he might not deceive the nations any longer" (ESV), and Peter says he "prowls around
+   like a roaring lion" (1 Peter 5:8, ESV). How do you hold those three texts together?
 5. **Be transformed.** The nobleman gives cities to the servant who was "faithful in a very little"
-   (Luke 19:17). What is the very little in your hands this week, and what would faithfulness with it
+   (Luke 19:17, ESV). What is the very little in your hands this week, and what would faithfulness with it
    look like?
 
 ## References & Recommended Reading
