@@ -110,6 +110,8 @@ stages:
     human_review_note: "Of the three human-review items, the draft is likely weakest on #2 (essay register): the word-study sections ('From chen to charis', the Romans 5:15-17 gift-word count, 'Grace raises children') lean analytical. The prayer and Be Transformed were written for speaking."
 
 evidence:
+  - {id: exod19-5, what: "ESV Exod 19:5", tool: study_verse, args: {book: Exod, chapter: 19, verse: 5, work_id: esv-study-bible}, expect_contains: "you shall be my treasured possession among all peoples", checked: 2026-11-15}
+  - {id: g4041-nt-once, what: "periousios G4041 only at Titus 2:14 in the NT (and LXX Exod 19:5)", tool: bible_concordance, args: {strongs: G4041}, expect_contains: "Titus", checked: 2026-11-15}
   - {id: gen6-8-esv, what: "Noah found favor", tool: study_verse, args: {book: Gen, chapter: 6, verse: 8, work_id: esv-study-bible}, expect_contains: "But Noah found favor in the eyes of the LORD", checked: 2026-11-15}
   - {id: exod33-19-esv, what: "I will be gracious", tool: study_verse, args: {book: Exod, chapter: 33, verse: 19, work_id: esv-study-bible}, expect_contains: "I will be gracious to whom I will be gracious", checked: 2026-11-15}
   - {id: exod34-6-esv, what: "merciful and gracious", tool: study_verse, args: {book: Exod, chapter: 34, verse: 6, work_id: esv-study-bible}, expect_contains: "a God merciful and gracious", checked: 2026-11-15}
@@ -215,3 +217,10 @@ review_2026-11-15:
     - "Back-link proposals (apply at publish, Check 24): add biblical-figures/paul.md (at 1 Timothy 1:16 'pattern' or its On this site list) to proposed_back_links."
   size: "Check 23 measure 3,158 -> 3,213 words (+55), budget 4,000. Whole file 4,922 words."
 last_updated: "2026-11-15"
+decisions_2026-11-15:
+  # The author delegated the open recommendations ("investigate deeper and apply as you see fit").
+  types_and_prophecy: "Swapped: Exodus 19:5's laos periousios to Titus 2:14 (periousios's only NT use) is now the Types & Prophecy bullet; the two appearings (Titus 2:11, 13) moved to Lessons about Jesus, replacing the bullet that repeated Titus 2:14."
+  charis_count: "Kept 155/101, the count in the SBLGNT the site uses (it prints Romans 16:24 within variant markers), with a parenthesis that editions omitting Romans 16:24 have one fewer."
+  titus_2_12: "The self / others / God reading is now introduced as a traditional reading."
+  discussion_question_5: "Now uses both quotations: grace working through you (1 Corinthians 15:10) toward the ungrateful (Luke 6:35)."
+  renderings: "H2603 decided in docs/data/word-renderings.toml: be gracious, with the Septuagint's and Paul's mercy named where a study rests on it."

@@ -38,10 +38,11 @@ the same grace trains you to live for God and works in you as you serve Him.
 
 ### Types & Prophecy
 
-- **Grace has appeared, and glory will appear.** Paul uses one word family for both comings of
-  Jesus. "The grace of God has appeared" (Titus 2:11, ESV) is ἐπεφάνη, and the "blessed hope" you
-  wait for is "the appearing of the glory of our great God and Savior Jesus Christ" (Titus 2:13,
-  ESV), ἐπιφάνεια. Titus 2 sets your life between the two.
+- **Israel at Sinai, a picture of the people grace makes.** God told Israel, "you shall be my
+  treasured possession among all peoples" (Exodus 19:5, ESV), which the Greek Old Testament renders
+  λαὸς περιούσιος (*laos periousios*). Titus 2:14 gives the phrase to the people Jesus redeems, "a
+  people for his own possession" (ESV), the only New Testament use of περιούσιος. What Sinai
+  promised a nation, grace gives you.
 
 ### Lessons about Jesus
 
@@ -50,8 +51,10 @@ the same grace trains you to live for God and works in you as you serve Him.
   came "full of grace and truth" (John 1:14, ESV).
 - **Jesus became poor to make you rich.** "Though he was rich, yet for your sake he became poor, so
   that you by his poverty might become rich" (2 Corinthians 8:9, ESV).
-- **Jesus gave Himself to make a people His own.** He "gave himself for us to redeem us from all
-  lawlessness and to purify for himself a people for his own possession" (Titus 2:14, ESV).
+- **Jesus has appeared in grace and will appear in glory.** "The grace of God has appeared"
+  (Titus 2:11, ESV) is ἐπεφάνη, and the "blessed hope" you wait for is "the appearing of the glory of
+  our great God and Savior Jesus Christ" (Titus 2:13, ESV), ἐπιφάνεια. Titus 2 sets your life between
+  the two.
 
 ### Memory verses
 
@@ -165,7 +168,8 @@ God's attributes will start from it ([backlog
 When Jewish scholars translated the Old Testament into Greek, they rendered every *chen* in Exodus
 with χάρις (*charis*, KHAH-rees, G5485, "grace, favour"). Noah "found *charis*" in the Greek
 (Genesis 6:8), and the angel used the same words to Mary: "you have found favor with God" (Luke
-1:30, ESV). *Charis* occurs 155 times in the New Testament, and 101 of them are in Paul's letters.
+1:30, ESV). *Charis* occurs 155 times in the New Testament, and 101 of them are in Paul's letters (one fewer
+in each for editions that omit Romans 16:24).
 
 Luke's Gospel shows how wide the word was:
 
@@ -363,8 +367,9 @@ Jesus came. Glory will appear when He comes again. You live between the two appe
 child. Stephen uses it of Moses, who "was instructed in all the wisdom of the Egyptians" (Acts 7:22,
 ESV), and Hebrews of the Father: "the Lord disciplines the one he loves, and chastises every son
 whom he receives" (Hebrews 12:6, ESV). The LSB footnotes Titus 2:12 "Or disciplining". The grace
-that saved you sets about raising you. It teaches you to say no ("renounce") and to live:
-self-controlled toward yourself, upright toward others, godly toward God.
+that saved you sets about raising you. It teaches you to say no ("renounce") and to live. A
+traditional reading takes the three words as self-controlled toward yourself, upright toward others,
+godly toward God.
 
 Titus 2:14 takes Israel's words. "Redeem us from all lawlessness" echoes the Septuagint of Psalm
 130:8, "he will redeem Israel from all his iniquities" (Psalm 130:8, ESV), and "a people for his own
@@ -447,7 +452,7 @@ with me" (1 Corinthians 15:10, ESV).
    you hold out grace that large without making sin seem small?
 5. **Be transformed.** Paul said of his work, "it was not I, but the grace of God that is with me"
    (1 Corinthians 15:10), and Jesus said God "is kind to the ungrateful and the evil" (Luke 6:35).
-   Who is the person you could show that kindness to this week, and what would it cost you?
+   Who is the ungrateful person grace could reach through you this week, and what would it cost you?
 
 ## References & Recommended Reading
 
