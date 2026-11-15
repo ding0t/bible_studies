@@ -5,7 +5,7 @@ description: "Bible studies for young readers aged 8 to 16: a big idea, a comic,
 tags: ["audience/youth"]
 draft: false
 date_created: 2026-10-30
-date_modified: 2026-10-30
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -20,6 +20,14 @@ Leading a group? Each page links to the full study it comes from. That study is 
 
 <!-- section-index:auto-start -->
 <div class="grid cards" markdown>
+
+-   __First Take the Log Out__
+
+    ---
+
+    Matthew 7:1-5 for young readers aged 8-16: a beam in your own eye, a speck in your friend's, and the order Jesus gives: let God take yours out first, then help gently.
+
+    [:octicons-arrow-right-24: Read](first-take-the-log-out.md)
 
 -   __Prayer: Communion with God__
 

@@ -1,0 +1,79 @@
+# One-minute comic for young readers (8-16), on the youth page docs/content/youth/first-take-the-log-out.md.
+# Drawn by: python3 utils/build_comics.py first-take-the-log-out-youth
+# The parent comic is first-take-the-log-out.toml; this one keeps its finding (Jesus' own picture,
+# drawn as He says it: a roof beam in one eye, a speck in the other, and the order "first... then",
+# Matthew 7:3-5) and drops the Nathan and David flashback to the page's 12-16 story. Four beats with
+# larger lettering. Every bubble is ESV wording, cut at a clause, so --verify checks all of it. No
+# Greek on the comic: the youth page teaches δοκός as its key word.
+
+title = "First Take the Log Out"
+subtitle = "A beam in one eye, a speck in the other"
+layout = [[330, 1, 1], [330, 1, 1]]
+lettering = 17
+phone = true
+note = "Panel 2 draws Jesus' overstatement as He says it. Each panel names its verses; every word in a bubble is the ESV's."
+point = "Let God take the log out of your own eye first: tell Him, and He forgives you. Then you will see clearly to help your friend, gently (Matthew 7:5)."
+
+[[panel]]
+ref = "Matthew 7:3"
+scene = "hills"
+sky = "day"
+caption = "Jesus sits and teaches."
+caption_w = 200
+shows = "Jesus seated on a hillside, teaching two seated disciples"
+cast = [
+  { who = "disciple", x = 0.12, face = "right", stance = "sit", s = 0.8 },
+  { who = "disciple", x = 0.32, face = "right", stance = "sit", s = 0.8, tone = 1 },
+  { who = "jesus", x = 0.80, face = "left", stance = "sit", pose = "open" },
+]
+say = [
+  { by = "jesus", text = "Why do you see the speck that is in your brother's eye, but do not notice the *log* that is in your own eye?", source = "esv", at = [0.42, 0.21], w = 230 },
+]
+
+[[panel]]
+ref = "Luke 6:41-42"
+scene = "plain"
+sky = "day"
+caption = "The picture He paints:"
+caption_w = 200
+shows = "a disciple with an enormous roof beam jutting from his eye and off the edge of the panel, leaning in to reach for a tiny speck in the eye of a seated brother; the beam passes over the brother's head"
+cast = [
+  { who = "disciple", id = "beam", x = 0.22, face = "right", pose = "offer", eye = "beam", beam = 1.25, tone = 2 },
+  { who = "disciple", id = "brother", x = 0.405, face = "left", stance = "sit", eye = "speck", tone = 1 },
+]
+say = [
+  { by = "beam", text = "Brother, let me take out the *speck* that is in your eye,", source = "esv", at = [0.75, 0.55], w = 150 },
+]
+
+[[panel]]
+ref = "Matthew 7:5"
+scene = "hills"
+sky = "day"
+caption = "Jesus says:"
+caption_w = 130
+shows = "Jesus, in a medium shot, speaking"
+camera = { on = "jesus", zoom = 1.5, at = [0.3, 0.5] }
+cast = [
+  { who = "jesus", x = 0.5, face = "right", pose = "point" },
+]
+say = [
+  { by = "jesus", text = "You hypocrite, *first* take the log out of your own eye,", source = "esv", at = [0.70, 0.40], w = 170 },
+]
+
+[[panel]]
+ref = "Matthew 7:5"
+scene = "plain"
+sky = "day"
+caption = "The beam set down."
+caption_w = 180
+shows = "the beam lying on the ground; the disciple kneels close to his seated brother and reaches gently for the speck in his eye"
+props = [
+  { what = "beam", x = 0.2, s = 0.6 },
+]
+cast = [
+  { who = "disciple", id = "kneel", x = 0.42, face = "right", stance = "kneel", pose = "point", tone = 2 },
+  { who = "disciple", x = 0.62, face = "left", stance = "sit", eye = "speck", tone = 1 },
+]
+say = [
+  { by = "jesus", name = "Jesus", from = [0.5, -0.1], style = "text", text = "and then you will *see clearly* to take the speck out of your brother's eye.", source = "esv", at = [0.56, 0.24], w = 220 },
+]

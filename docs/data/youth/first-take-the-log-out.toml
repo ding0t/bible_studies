@@ -1,0 +1,103 @@
+# Youth page for christian-life/first-take-the-log-out.md, rendered by hooks/youth.py onto docs/content/youth/first-take-the-log-out.md.
+# Says nothing the study does not: every claim below is the study's, cut down and put in plain words.
+# The stories follow the study's order: Jesus' picture of the speck and the beam (Matthew 7:3-5), why
+# you cannot see your own beam, David and Nathan (2 Samuel 12), then "first... then" and the gentle
+# hands of Galatians 6:1. What "you will be judged" means for a believer is contested in the study,
+# so neither story touches it. That Jesus took the picture from the workshop is "likely" in the study
+# (the ESV Study Bible's "may have"), so the 12-16 story says "may well have".
+# The study's section on when Scripture tells believers to judge is left to the 12-16 band's "The
+# hard part" question (Matthew 7:1 beside John 7:24); the full study is the leader's notes for it.
+# Bible text is the BSB (berean-bsb in bible-text.db), checked 2026-11-15; the comic's bubbles are ESV
+# and checked by `python3 utils/build_comics.py --verify first-take-the-log-out-youth`.
+
+study = "christian-life/first-take-the-log-out.md"
+comic = "first-take-the-log-out-youth"
+ages = "8–16"
+read = "Matthew 7:1-5; 2 Samuel 12:1-7, 13"
+big_idea = "It is easy to spot a tiny speck in someone else's eye and miss the big beam in your own. God is the only true Judge, and He uses on you the same measure you use on others (Matthew 7:2). So let Him take your beam out first: tell Him, and He forgives you because of Jesus. Then you will see clearly to help your friend, gently (Matthew 7:5)."
+
+prayer = """
+Father, you are the Judge of all the earth, and you see me as I really am. I see other people's
+wrongs so quickly and my own so slowly. Please search me and show me the beam in my own eye. I'm
+sorry for it. Thank you that your Son Jesus took my judgment on the cross, so you forgive me. Help
+me be gentle when I help a friend. In Jesus' name. Amen.
+"""
+
+[key_word]
+language = "Greek"
+# Jesus most likely taught the sermon in Aramaic; Matthew wrote it down in Greek, so the page credits
+# the word to Matthew's writing.
+written = "Matthew wrote his Gospel in Greek. The key word in Jesus' picture is"
+word = "δοκός"
+translit = "dokos"
+say = "doh-KOSS"
+strongs = "G1385"
+means = "a beam: a big timber that holds up a roof, something it takes two people to carry"
+note = "In the New Testament it is used only in this saying (Matthew 7:3-5; Luke 6:41-42). The Greek Old Testament uses it for the timber the prophets went to cut for a house, where an axe head flew off into the river (2 Kings 6:5)."
+
+[memory_verse]
+ref = "Matthew 7:5"
+translation = "BSB"
+text = "You hypocrite! First take the beam out of your own eye, and then you will see clearly to remove the speck from your brother's eye."
+
+[[band]]
+ages = "8–11"
+story = """
+Jesus sat on a hillside and taught His friends (Matthew 5:1). He gave them a funny picture. A man
+has a huge **beam** sticking out of his eye: a big timber that holds up a roof (some Bibles call it
+a log). He leans close to his brother and says, "Let me take that tiny speck out of
+your eye!" (Luke 6:42).
+
+Jesus said, "You hypocrite! **First** take the beam out of your own eye" (Matthew 7:5). A hypocrite
+is an actor, someone pretending. Jesus didn't say "never help". He said "first", and **then** you
+will see clearly to help.
+
+Why can't the man see his beam? Your eye can't look at itself. King David had done something
+terribly wrong (2 Samuel 11). The prophet Nathan told him a story about a rich man who stole a poor man's only
+little lamb. David was furious: "That man deserves to die!" Nathan said, "You are that man!"
+(2 Samuel 12:5-7).
+
+David said, "I have sinned," and God took his sin away (2 Samuel 12:13). God does the same for you
+when you tell Him (1 John 1:9). Then you can help a friend gently, as someone God has helped.
+"""
+questions = [
+  "**The language.** Jesus put a tiny speck in one eye and a whole roof beam in the other. Why do you think it is easier to see what other people do wrong than what you do wrong?",
+  "**Christ.** Jesus took the judgment for our wrongs on the cross, so God forgives everyone who belongs to Him (Romans 8:1). How could that change the way you treat a friend who gets something wrong?",
+  "**Be transformed.** David needed Nathan to show him his wrong (2 Samuel 12:7). Who helps you see your wrongs? How could you listen to them this week?",
+]
+activity = "Hold a big book flat in front of your face and try to pick a crumb off a friend's sleeve. Hard, isn't it? Put the book down and try again. This week, before you tell someone off, stop and pray, \"Search me, O God\" (Psalm 139:23)."
+
+[[band]]
+ages = "12–16"
+story = """
+Partway through the Sermon on the Mount, Jesus says, "Do not judge, or you will be judged" (Matthew
+7:1, BSB). Luke's version pairs it with "Do not condemn" (Luke 6:37, BSB): what Jesus forbids is passing a verdict on a brother from a bench
+you set up for yourself. Elsewhere He says, "start judging justly" (John 7:24, BSB).
+
+Then comes the joke. The speck is a κάρφος (*karphos*, KAR-foss), a twig or chip. The beam is a
+δοκός, a roof timber. People called Jesus "the carpenter" (Mark 6:3, BSB), and He may well have
+taken the picture from the workshop. Then He names the man: "You hypocrite!" ὑποκριτής
+(*hypokritēs*, hoo-po-kree-TAYS) was the word for a stage actor. In chapter 6 "the hypocrites" were
+other people (Matthew 6:2). Here it is singular, spoken to the listener.
+
+Why can't you see your own beam? David shows it. He had taken another man's wife and arranged that
+man's death. Nathan told him about a rich man who took a poor man's only lamb, and David snapped,
+"As surely as the LORD lives, the man who did this deserves to die!" Nathan answered, "You are that
+man!" (2 Samuel 12:5, 7, BSB). The wrong David spotted fastest was a small copy of his own.
+
+Jesus keeps the speck-removal; He just puts it second: "First take the beam out of your own eye, and
+then you will see clearly" (Matthew 7:5, BSB). David lived that order. After Nathan, he prayed,
+"Create in me a clean heart, O God," and only then promised, "Then I will teach transgressors Your
+ways" (Psalm 51:10, 13, BSB).
+
+God takes the beam out at the cost of His Son: "there is now no condemnation for those who are in
+Christ Jesus" (Romans 8:1, BSB). So you never correct a friend from the bench. You come as someone
+already helped, "with a spirit of gentleness" (Galatians 6:1, BSB).
+"""
+questions = [
+  "**The language.** At Matthew 7:5 Jesus says \"You hypocrite\" to one listener, where chapter 6's \"hypocrites\" were other people (Matthew 6:2). What changes for you when the word turns from \"them\" to \"you\"?",
+  "**The hard part.** Jesus says \"Do not judge\" (Matthew 7:1) and also \"start judging justly\" (John 7:24). With a real friend, how would you tell which one you are being asked to do?",
+  "**Christ.** Jesus said He judges \"only as I hear\", seeking the will of the One who sent Him (John 5:30). How could seeking God's will first change the way you correct a friend?",
+  "**Be transformed.** David condemned the rich man in one sentence and needed Nathan to show him his own sin (2 Samuel 12:5-7). Who has God given you to be your Nathan? What would help you listen?",
+]
+activity = "This week, each time you catch yourself noticing someone else's fault, pray Psalm 139:23-24 over yourself first, and tell God what He shows you (1 John 1:9). By Sunday, try saying Matthew 7:5 from memory."
