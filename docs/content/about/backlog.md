@@ -53,6 +53,9 @@ Add new items here. They get a number and move into their section.
 | [5.1](#51-tribulation-perspectives) | Tribulation perspectives | Last things |
 | [5.2](#52-end-times) | End times | Last things |
 | [5.7](#57-heaven-and-earth-by-fire) | Heaven and earth by fire | Last things |
+| [5.10](#510-the-millennium-the-thousand-years-and-what-the-saints-do-in-them) | The millennium | Last things |
+| [5.11](#511-a-prophetic-chart-for-the-future) | A prophetic chart for the future | Last things |
+| [5.12](#512-the-creation-week-drawn-and-taught) | The creation week: drawn and taught | Last things |
 | [8.1](#81-unfoldingword-sources-mirror-update-and-use-more-of-them) | unfoldingWord sources: mirror, update, use more | Sources & tooling |
 | [8.2](#82-chronology-follow-ups) | Chronology follow-ups | Sources & tooling |
 | [8.3](#83-ai-assistant-friendliness) | AI-assistant friendliness | Sources & tooling |
@@ -897,6 +900,65 @@ the Olivet Discourse, published 2026-09-28) places it in two paragraphs ("Where 
 - **Links:** [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) (2 Peter 3:7,
   the seventh day and the eighth), [The Wife of the Lamb](../israel-and-church/wife-of-the-lamb.md)
   (Revelation 21), and [The End of the Age](../last-things/end-of-the-age.md) (5.5, completed).
+
+### 5.10 The millennium: the thousand years and what the saints do in them
+
+No study works through the thousand years themselves. [Your Kingdom Come](../last-things/your-kingdom-come.md)
+treats the kingdom already and not yet, [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md)
+the seventh day, and [Heaven and Earth Will Pass Away](../last-things/heaven-and-earth-will-pass-away.md)
+what comes after. This one asks what the reign is and what Christ's people do in it.
+
+- **Texts:** Revelation 20:1-10 first, then the Old Testament pictures it fulfils: Psalm 2 and 72;
+  Isaiah 2:2-4; 11:1-10; 65:17-25 (death still present at 65:20, which places it before the new
+  creation); Micah 4:1-5; Zechariah 14:9, 16-19 (the nations come up for Tabernacles). Verify every
+  ESV wording before quoting.
+- **What the saints do:** reign and judge (Revelation 20:4, 6; 5:10; 2:26-27; 3:21; 2 Timothy 2:12;
+  1 Corinthians 6:2-3; Matthew 19:28), govern cities (Luke 19:17-19), worship and keep the feast
+  (Zechariah 14:16), teach the nations (Isaiah 2:3), build and plant (Isaiah 65:21-22). Mark which
+  are stated and which inferred. Link [First Take the Log Out](../christian-life/first-take-the-log-out.md#the-saints-who-will-judge-the-world-and-angels)
+  and [The Judgment Seat of Christ](../last-things/judgment-seat-of-christ.md).
+- **Contested, and say so:** premillennial, amillennial and postmillennial readings of Revelation 20,
+  with the textual case for each; the site's position is premillennial
+  ([statement of faith](statement-of-faith.md#end-times)).
+- **Settle first (shared with 2.5):** Ezekiel 40-48's temple and sacrifices. The author decides what
+  they are before the study treats them; until then it names the question and the main answers.
+- **Extra-biblical sources, behind the standard warning** ("Extra-biblical sources: useful, and not
+  Scripture", as in A Day Is a Thousand Years): 1 Enoch 10:17-22 and the Apocalypse of Weeks (1 Enoch
+  93; 91:12-17), 2 Enoch 33 on the eighth day, 2 Baruch 29, and Papias as Irenaeus reports him
+  (*Against Heresies* 5.33). They show what Jews and early Christians expected; they never carry a
+  claim about what the reign will be.
+- A drawn plate of the reign's sequence (Satan bound, the reign, the release, the final rebellion,
+  the great white throne) would sit well beside the seven-thousand-years plate.
+
+### 5.11 A prophetic chart for the future
+
+[Charting End Times](../last-things/prophecy-chart.md) reproduces Larkin's three charts and redraws
+two; it has no `primary_passage`, no thesis and 1,280 words. The timeline already holds the future
+in order on an undated axis (`future_sequence` in `docs/data/chronology.json`).
+
+- **A printable future sheet:** let the timeline's Chart view print the undated sequence as its own
+  A4 sheet: the rapture, Daniel's seventieth week by halves, the return, Daniel 12's 1,290 and 1,335
+  days, the thousand years, the release and the great white throne, the new creation. Lengths from
+  Scripture, no calendar years.
+- **Bring Charting End Times up to a study:** a thesis, a primary passage (Daniel 9:24-27 with
+  Revelation 20), Key Takeaways, and links into the Tribulation, Rapture and 5.10 studies, keeping the
+  Larkin plates as its illustrations.
+- **Check:** the timeline lists "Millennial reign begins" at AD 2042 / AM 6000, and its note gives no
+  caveat; the "Year 6000" event beside it says this is a consequence of the chronology and no date
+  for the return (Mark 13:32). The author decides whether the reign's start carries the same caveat
+  or is shown only on the undated axis.
+
+### 5.12 The creation week: drawn and taught
+
+[Six Days of History](../last-things/six-days-of-history.md) reads the creation week as a framework
+for the millennia, and A Day Is a Thousand Years carries the seven-thousand-years and six-days
+plates, so a new study would repeat them. What is missing is the week drawn as creation itself:
+
+- **A plate of Genesis 1:1-2:3:** days 1-3 forming the realms (light, sky and sea, land) and days 4-6
+  filling them (lights, birds and fish, beasts and man), each pair facing its partner, with the
+  seventh day standing alone and having no "evening and morning". Each day's refrain verified in
+  the Hebrew. Placed in Six Days of History.
+- **A one-minute comic and a youth page** for Six Days of History, which has neither.
 
 ## 8. Sources & tooling
 
