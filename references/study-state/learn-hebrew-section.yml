@@ -62,6 +62,6 @@ done:
   - 2026-10-17 The Shema page, letter by letter, with the verbless-clause translation question
     marked open (footnote alternatives from CSB/NLT/LSB) and 1 Corinthians 8:6.
 
-todo:
-  - Names of God study in /god/ via develop-bible-study -- research done, thesis and outline
-    awaiting the author (references/study-state/names-of-god.yml)
+todo: []
+# 2026-11-15: the Names of God study was published 2026-10-18 (god/names-of-god.md; state file
+# names-of-god.yml, status published), so the last item is done.

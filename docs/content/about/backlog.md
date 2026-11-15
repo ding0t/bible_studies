@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-11-08
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -52,13 +52,14 @@ Add new items here. They get a number and move into their section.
 | [4.8](#48-made-holy) | Made holy | Salvation |
 | [5.1](#51-tribulation-perspectives) | Tribulation perspectives | Last things |
 | [5.2](#52-end-times) | End times | Last things |
-| [5.6](#56-they-were-given-white-robes) | They were given white robes | Last things |
 | [5.7](#57-heaven-and-earth-by-fire) | Heaven and earth by fire | Last things |
 | [8.1](#81-unfoldingword-sources-mirror-update-and-use-more-of-them) | unfoldingWord sources: mirror, update, use more | Sources & tooling |
 | [8.2](#82-chronology-follow-ups) | Chronology follow-ups | Sources & tooling |
+| [8.3](#83-ai-assistant-friendliness) | AI-assistant friendliness | Sources & tooling |
 | [9.1](#91-calling-good-evil-and-evil-good) | Calling good evil and evil good | Sin |
 | [10.3](#103-religion-and-the-way) | Religion and the Way | Christian life |
 | [10.4](#104-i-stand-at-the-door-and-knock) | "I stand at the door and knock" | Christian life |
+| [10.5](#105-follow-ups-from-those-who-sigh-and-groan) | Follow-ups from Those Who Sigh and Groan | Christian life |
 
 Finished items move to [Completed](#completed) at the foot of the page and keep their numbers, so
 an old reference still points at the right thing.
@@ -158,13 +159,24 @@ of about four, and record each review in the state file.
   - [The Woman Who Touched the Fringe](../jesus/woman-with-the-issue-of-blood.md).
     [The Woman at the Well](../jesus/woman-at-well.md) was reviewed 2026-09-28.
   - [Paul](../biblical-figures/paul.md) and the ten short apostle pages.
+  - [Sin and Idolatry](../sin/idolatry.md): once a stub, now about 5,700 words, with no review
+    recorded.
   - [Fasting](../christian-life/fasting.md) was rewritten and reviewed 2026-10-01, so it drops off
     this list.
-- **Priority 3: reviewed before 2026-09-24 and stable since.** The Way, The Trumpet Call of God, The Twelve, Assurance of Salvation, The Last Supper's Four Cups, Three Days
-  and Three Nights, The Lord's Prayer, Prayer as Communion.
-- **Not reviews.** [Sin and Sexual Immorality](../sin/sexual-immorality.md) and
-  [Sin and Idolatry](../sin/idolatry.md) were stubs; both have since been written in full
-  (about 5,400 and 5,700 words), so they belong on the review list above, not here.
+- **Priority 2b: published since 2026-10-10 with no review recorded in the state file** (checked
+  2026-11-15): [Take Up Your Cross](../christian-life/take-up-your-cross.md),
+  [When Love Grows Cold](../christian-life/when-love-grows-cold.md),
+  [Saved as Through Fire](../salvation/saved-as-through-fire.md),
+  [What the Scripture Links Reveal](../scripture/what-the-links-reveal.md),
+  [Psalms, Hymns and Spiritual Songs](../christian-life/psalms-hymns-and-spiritual-songs.md),
+  [What Literary Criticism Declares](../scripture/what-literary-criticism-declares.md),
+  [Through a Glass, Darkly](../christian-life/through-a-glass-darkly.md) and
+  [First Take the Log Out](../christian-life/first-take-the-log-out.md). Every other study
+  published since then has a dated `review_` block.
+- **Priority 3: reviewed before 2026-09-24 and stable since.** The Way, The Trumpet Call of God,
+  The Twelve, Assurance of Salvation and Three Days and Three Nights. The Last Supper's Four Cups
+  (2026-10-01), The Lord's Prayer (2026-10-27), Prayer as Communion (2026-09-29) and Sin and Sexual
+  Immorality (2026-10-17) have been reviewed since, so they drop off.
 
 ### 0.9 Drafts awaiting publication
 
@@ -179,7 +191,9 @@ publish. This list names them by file path and links none, because a published p
   Meet the Lord in the Air (`last-things/meet-the-lord-in-the-air.md`) (3,138 words).
 
 Published since this list was written, and so off it: How God Answers Prayer and Four Hundred and
-Eighty Years.
+Eighty Years. Three blog posts (`blog/monster-in-man.md`, `blog/sleep-paralysis.md`,
+`blog/the-deceiver.md`, the dream accounts) were taken back to draft on purpose on 2026-11-01 and
+are not waiting on a pass. (List checked 2026-11-15.)
 
 ### 0.10 Cut the AI register
 
@@ -244,7 +258,8 @@ files. The fixes included the "Daughter" and Mark 6:56 claims, 2 Timothy 1:12, L
 the Song 8:6 word count, the "never speak" count on The Twelve, and the Hebrew New Testament
 anchor. The same pass capitalised pronouns for God and Jesus in the studies' own prose and closed
 prayers "In Jesus' name. Amen." What follows is what remains: decisions and new wording that are
-the author's.
+the author's. Checked 2026-11-15: none of the pages below has been edited for these since, and each
+item still stands as written.
 
 #### Check against a source not held locally
 
@@ -342,11 +357,12 @@ each wave before the next, and each study gets its own commit.
 - **After that:** the rest of Last things (21 studies in all, two of them drafts), then Scripture
   (6), Spiritual beings (2) and Reading the Song of Songs.
 - **Found along the way.** The sweep agents touched only the questions, so problems they noticed in
-  study bodies are recorded under `found_outside_questions:` in the same file: nine misquotes or
-  citation slips (Ephesians 5:32 in Bride of Christ, 2 Corinthians 5:21 and Romans 8:3 in As the
-  Snake Was Lifted, LXX Genesis 37:35 in Three Days and Three Nights, Hebrews 9:8 in The Way, and
-  others), lowercase divine pronouns in five studies, and three formatting slips. A
-  review-bible-study pass should take these up, misquotes first.
+  study bodies are recorded under `found_outside_questions:` in the same file. The nine misquotes
+  and citation slips were checked and fixed on 2026-11-07. Still open (checked 2026-11-15): two
+  unverified "only" claims in The Woman Who Touched the Fringe; lowercase divine pronouns in the
+  studies' own prose in Sorcery, Paul, The Twelve (its prayer), Behemoth and Leviathan, As the Snake
+  Was Lifted and Three Days and Three Nights; the Abijah/Samuel order in the lampstand page; and the
+  broken line-wrapping in Where Two or Three Are Gathered.
 
 ## 1. Scripture
 
@@ -510,12 +526,21 @@ because it indexes words rather than references.
 - **Licence constraint:** any verse text rendered in the browser must be WEB or another `open` work.
   ESV/NIV/NKJV/CSB live in `study-notes.db` under `quotation-only` and never ship to the client.
 
+#### Where it stands, 2026-11-15
+
+Deliverables 1 and 4 are built. The gap detector is `study_gaps.py` / `review_gaps`, and
+`bible_trace` gives the typed edges with their tiers. The reader-facing lookup is
+[Scripture Links](../references.md): look up a verse and see what it quotes, what quotes it and what
+it echoes, with the shared wording, and every reference on the site pops up its links and studies
+(0.1). [What the Scripture Links Reveal](../scripture/what-the-links-reveal.md) is the test on real
+studies (deliverable 2). Still open: deliverable 3, a "Related by passage" block on each study, and
+a lemmatised LXX for cross-testament allusion.
+
 #### Prerequisite
 
-75 of 134 hand-written pages now carry `primary_passage` and 80 carry `bible_references` (up from
-46 and 49 of 102; counted 2026-09-27). Every step
-above is bounded by that coverage, so filling it in is the cheapest first move — and it improves the
-existing commentary index immediately.
+173 of 209 hand-written pages now carry `primary_passage` and 165 carry `bible_references` (up from
+75 and 80 of 134 on 2026-09-27; counted 2026-11-15, section indexes and about pages included). The
+pages still missing them bound deliverable 3.
 
 #### Explicitly not doing
 
@@ -536,8 +561,10 @@ existing commentary index immediately.
   *Started 2026-10-17:* [Learn Hebrew](../hebrew/index.md) is now its own section, with the
   alphabet and vowels, a pronunciation guide and a names-of-God flashcard deck. Also done by
   2026-10-18: the A4 writing sheets, the Three Scripts page, the Shema letter by letter, and
-  on-screen card practice. Still to come: a Names of God study in God. Plan and decisions:
-  `references/study-state/learn-hebrew-section.yml`.
+  on-screen card practice. The Names of God study it was waiting on is published
+  ([The Names of God](../god/names-of-god.md), 2026-10-18), alongside the Names of Jesus and the Holy
+  Spirit with their word cards. Plan and decisions: `references/study-state/learn-hebrew-section.yml`,
+  whose `todo:` is now empty. Still to do from 1.3: the Hebrew memory verses above.
 
 ## 11. God the Father
 
@@ -740,8 +767,10 @@ Notes to work through:
 
 **In progress:** [At Home with the Lord](../last-things/at-home-with-the-lord.md) is published
 (2 Corinthians 5:1-8, the believer with Christ between death and resurrection), and the body that
-follows is [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) (5.8). Still to fold in
-from the notes above: the thief on the cross, Moses and Elijah at the Transfiguration, and Luke 16.
+follows is [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) (5.8). The thief on
+the cross (Luke 23:43) and the rich man and Lazarus (Luke 16:19-31) are now worked in At Home with
+the Lord (checked 2026-11-15). Still to fold in: Moses and Elijah at the Transfiguration, which the
+study does not mention.
 
 ### 4.4 Grace
 
@@ -829,41 +858,6 @@ life.
 - Objective is the plundering of Israel
 - Who —
 
-### 5.6 They were given white robes
-
-White garments on God's people run through Scripture, explicitly and significantly, and Revelation
-returns to them repeatedly. The study should gather every occurrence and ask what the robes mean,
-who wears them, and whether they are God's gift.
-
-- **Where they appear:** Revelation 3:4-5 and 3:18 (the promise to those who conquer, and the
-  counsel to Laodicea); 6:11 (the martyrs under the altar); 7:9 and 7:13-14 (the great multitude,
-  who "washed their robes and made them white in the blood of the Lamb"); 19:8 and 19:14 (the
-  Bride's fine linen, and the armies of heaven). Behind them: Isaiah 1:18, Zechariah 3:3-5 (Joshua's
-  filthy garments taken away and clean ones given), Daniel 7:9 and 12:10, and Isaiah 61:10
-  ("garments of salvation").
-- **The Transfiguration parallel:** Jesus' clothes became white as light (Matthew 17:2, Mark 9:3,
-  Luke 9:29), and the angels at the tomb and the Ascension are dressed in white (Mark 16:5,
-  Acts 1:10). Ask whether the saints' robes share in His glory.
-- **Who wears them:** the martyrs of 6:11, the multitude "out of the great tribulation" (7:14) and
-  the Bride of 19:8 may be different groups. That matters for this site's reading of the
-  tribulation and the Church, so mark which identifications are contested.
-- **Gift or deeds?** The robes are *given* (6:11, the verb ἐδόθη, a divine passive), *washed* in
-  the Lamb's blood (7:14), and the Bride's linen is *granted* her yet is "the righteous deeds of the
-  saints" (19:8). Hold the three together: imputed righteousness (Zechariah 3, Isaiah 61:10) and the
-  fruit it produces. Name the doctrines.
-- **Words:** στολή (*stolē*, "robe"), λευκός (*leukos*, "white"), λευκαίνω (*leukainō*, "make
-  white", 7:14) and βύσσινος (*byssinos*, "fine linen", 19:8). Count occurrences with the
-  concordance before claiming any.
-- **Does it tie in with [The Wife of the Lamb](../israel-and-church/wife-of-the-lamb.md)?** Almost
-  certainly at 19:7-8, where the Bride is clothed in fine linen at the marriage of the Lamb. Test
-  whether the white robes of 3:5, 6:11 and 7:14 are the same clothing, and say how far the link holds.
-- **Other links:** [The Bride of Christ](../israel-and-church/bride-of-christ.md), and
-  [The Rapture of the Church](../last-things/rapture.md), which places the Bema and the linen.
-- **Not the resurrection body.** [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md#the-white-robes-are-a-different-gift)
-  notes that the robes of 6:11 are given to souls not yet raised, so they cannot be the body of
-  1 Corinthians 15. Both are clothing (ἐνδύω, "put on", 1 Corinthians 15:53-54) and both are God's
-  gift; this study says what the robes are.
-
 ### 5.7 Heaven and earth by fire
 
 What happens after the thousand years: Satan's release, the fire from heaven, the great white
@@ -949,14 +943,16 @@ Left over from moving the site's chronology to the Masoretic numbers on 2026-09-
 
 - **Terah's birth year.** [Genealogy and Times](../chronology/genealogy-times.md) works Terah's
   puzzle from 1876 BC; the generator (`references/build/genealogy_chronology.py`) uses 1878. Find
-  which is right and make the other agree.
-- **Stale source paths.** Done: no `studies/prophecy/` path remains in `docs/data/chronology.json`.
+  which is right and make the other agree. *Checked 2026-11-15:* the study now runs the puzzle from
+  Terah "born zadok year 1878", and 1876 BC appears only as Abram's birth (AM 2083) in its table, so
+  the two may simply have been different calendars. Confirm against the generator's output and
+  close.
 - **Steinmann's count.** The Flood study cites 467 secondary readings in the Septuagint
   (Steinmann, *JETS* 64/1, 2021, pp. 26, 29, 34); his own prose says 468 once (p. 33). Note the
   discrepancy in the study or confirm which figure his table supports.
 - **Genealogy and Times:** simplified, restructured and given its Study outline on 2026-09-30. The
-  file is still 4,825 words, so re-run validator Check 23 and either trim further or record a
-  raised `word_budget` and its reason in the state file.
+  state file records it at 4,507 words against the default 4,000, with the choice left to the
+  author: raise `word_budget` with a reason, or simplify.
 - **The Flood study skipped two passes.** The review-bible-study pass has since been run (state
   file `review_2026-09-28`). Whether the read-bible-study pass has is not recorded; run it in a
   fresh session.
@@ -977,7 +973,8 @@ scripture is related to this?" or "what is this site about?". Done on 2026-10-21
 Still to do:
 
 - **Questions for the rest.** Write `questions:` for the remaining studies, starting with the ones
-  readers search for. The author should check the first 24, which were drafted by AI.
+  readers search for. The author should check the first 24, which were drafted by AI. 31 pages
+  carry the field (counted 2026-11-15).
 - **One small file per Bible chapter.** The studies that treat it, its cross-references and the
   quotations in and out, as JSON. The commentary chapter pages hold this as HTML, kept out of
   search engines.
@@ -1050,7 +1047,8 @@ heart that opens the door.
 The review of [Those Who Sigh and Groan](../christian-life/those-who-sigh-and-groan.md) on
 2026-10-21 found things for other studies. It was published the same day without a
 read-bible-study pass; run one in a fresh session. Each sibling below got an "On this site"
-back-link when it was published; the content notes are still to do.
+back-link when it was published; the content notes are still to do (checked 2026-11-15: none of
+the four is in its study yet).
 
 - **[Taken Before Judgment](../last-things/taken-before-judgment.md):** add that 2 Peter 2:8's
   ἐβασάνιζεν (*ebasanizen*, G928) is imperfect. Lot "was tormenting his righteous soul" day after
@@ -1107,3 +1105,4 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 10.6 (True worship) | True worship: in spirit and truth | [True Worship](../christian-life/true-worship.md), published 2026-10-22 |
 | 0.5 | A blog | [Blog](../blog/index.md): plain pages under `blog/`, built with the site's own hooks. mkdocs-material's blog plugin was left out on purpose: at this size it adds little and would duplicate the draft, feed and "New" handling the hooks already do. Revisit past about 20 posts |
 | 0.8 | Fixes found by reviews | [Christians and Deliverance Ministry](../spiritual-beings/deliverance/christians-and-deliverance.md) now quotes John 10:20-21 correctly (δαιμόνιον ἔχει in 10:20, the participle in 10:21) and treats κολαφίζω as suggestive rather than decisive; [As the Snake Was Lifted Up](../jesus/as-the-snake-was-lifted.md) marks the οὕτως reading contested; Paul added to the Biblical Figures sidebar, 2026-10-04 |
+| 5.6 | They were given white robes | [They Were Given White Robes](../last-things/they-were-given-white-robes.md) (Revelation 6:11; 7:9-14; 19:7-8), reviewed and read 2026-10-15 |
