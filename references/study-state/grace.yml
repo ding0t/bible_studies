@@ -1,0 +1,166 @@
+slug: "grace"
+title: "Grace"
+status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+target_path: "docs/content/salvation/grace.md"
+
+primary_passage: "Ephesians 2:4-9"
+supporting_passages: ["Exodus 33:12-34:9", "Genesis 6:8", "John 1:14-17", "Luke 6:32-35", "Romans 3:24", "Romans 4:4", "Romans 5:15-21", "Romans 6:1-2, 14", "Romans 11:5-6", "Titus 2:11-14", "1 Corinthians 15:8-10", "Ephesians 3:2, 7-8", "1 Timothy 1:13-15"]
+# Phase 1: cross_study_claims.py run 2026-11-15 for Ephesians 2, Romans 3, Romans 5, Titus 2,
+# Romans 11, 1 Corinthians 15, Exodus 34, John 1, Titus 3, 2 Corinthians 12.
+sibling_studies:
+  - {slug: "series/saved.md", role: primary, use: build-on, note: "This is week two (planned: Grace). Do NOT add it to the series while draft (Check 24); the author adds it at publish."}
+  - {slug: "sin/why-we-need-saving.md", role: cited, use: build-on, note: "Week one. Already quotes Eph 2:4-5, Rom 5:6-8, 6:23 and Rom 5:12-19 (the Adam side), and ends naming charisma < charis. This study picks up at Romans 5:8 and takes Romans 5:15-21 from the 'much more' side only; one link back, no re-argument of Adam."}
+  - {slug: "salvation/faith.md", role: cited, use: link, note: "Week three. Already quotes Romans 4:4-5, 4:16 and 11:6 ('Wages and gifts') and treats Eph 2:8 'through faith'. This study adds only the Greek behind Romans 4:4 ('according to grace' vs 'according to debt') and points forward."}
+  - {slug: "salvation/assurance-of-salvation.md", role: cited, use: link, note: "Owns the grammar of Ephesians 2:8-9 (neuter touto, perfect sesosmenoi). Link, do not repeat."}
+  - {slug: "god/names-of-god.md", role: cited, use: link, note: "Quotes Exodus 34:5-7 and glosses rachum/chanun/chesed/emet, and makes the golden-calf setting point. Link for the proclamation; this study adds Moses' chen sequence (Exod 33:12-34:9) and chanan in 33:19."}
+  - {slug: "about/backlog.md (11.2 attributes)", role: none, use: link, note: "Backlog 11.2 will start from Exodus 34:6-7. Brief: link, do not build the attributes study. Linked to the backlog entry (published page)."}
+  - {slug: "christian-life/when-love-grows-cold.md", role: primary, use: link, note: "Primary on Romans 11:1-6 (the remnant chosen by grace, Elijah's 7,000). Link for the context."}
+  - {slug: "christian-life/those-who-sigh-and-groan.md", role: cited, use: none, note: "Quotes Romans 11:5-6; passing."}
+  - {slug: "jesus/kinsman-redeemer.md", role: cited, use: link, note: "Romans 3:24 'redemption'; link for apolytrosis rather than explaining redemption here."}
+  - {slug: "sin/pride.md", role: cited, use: none, note: "Romans 3:24-27 boasting excluded; 'fallen away from grace' (Gal 5:4) marked contested there. No overlap needing a link beyond Eph 2:9 'no one may boast'."}
+  - {slug: "israel-and-church/israel-and-the-church.md", role: cited, use: link, note: "Treats oikonomia (G3622) in Ephesians 1:10; 3:2, 9 as the word behind 'dispensation'. This study names Ephesians 3:2 'stewardship of God's grace' (KJV 'dispensation') and links there rather than re-arguing the framework."}
+  - {slug: "last-things/end-of-the-age.md", role: cited, use: none, note: "Quotes Titus 2:12-13 'the present age'. Passing."}
+  - {slug: "last-things/rapture.md", role: cited, use: none, note: "Cites Titus 2:13 blessed hope. Not linked: this study does not argue the timing."}
+  - {slug: "christian-life/forgiveness.md", role: cited, use: enrich, note: "Treats charizomai < charis (Eph 4:32). Possible back-link: grace received is the ground of forgiving."}
+  - {slug: "holy-spirit/names-of-the-holy-spirit.md", role: prose, use: none, note: "ruach chen, Zechariah 12:10."}
+  - {slug: "christian-life/know-the-truth.md", role: cited, use: none, note: "John 1:14, 17 'truth' side; this study takes the grace side."}
+genre: [topical, epistle, ot-narrative, law, gospel]
+
+thesis: "Grace is God's favour given freely, in His Son Jesus, to people who had earned the opposite: it saves you apart from anything you bring, it overflows wherever sin has spread, and the same grace trains you to live for God and works in you as you serve Him."
+outline:
+  - {section: "Hook", says: "Saul the persecutor (Acts 8:3; 1 Timothy 1:13-15): the man who had earned God's judgment received God's favour."}
+  - {section: "Favour in the eyes of the LORD", says: "chen (H2580) first at Genesis 6:8; Moses asks on the ground of chen six times (Exodus 33:12-34:9), God answers 'I will be gracious' (chanan, 33:19) and proclaims Himself chanun (34:6); first chanun is the poor man's cry (Exodus 22:27). Link names-of-god and backlog 11.2."}
+  - {section: "The word the apostles used", says: "charis (G5485): LXX renders every chen in Exodus with charis; range in Luke (favour, gracious words, credit, thanks); 155 NT, 101 in Paul. Luke 6:32-35: God is kind to the acharistoi. Benefaction and thanks (charis = 'thanks', 1 Cor 15:57). Mercy and grace in Eph 2:4-5."}
+  - {section: "Grace and truth came through Jesus Christ", says: "John 1:14-17 echoes Exodus 33-34 (glory seen, tent, Moses, no one has seen God), 'grace and truth' most likely for chesed ve'emet. The gracious God of Sinai came in person. 2 Corinthians 8:9."}
+  - {section: "By grace you have been saved", says: "Ephesians 2:4-9: charis three times, riches of grace shown in the coming ages, saved through faith, no boasting; link faith and assurance. Romans 3:24 dorean = John 15:25 'without a cause', Galatians 2:21."}
+  - {section: "Otherwise grace would no longer be grace", says: "Romans 11:5-6 in its Elijah context and Romans 4:4 (kata charin vs kata opheilema): grace is defined by being unearned; adding works unmakes it. Link when-love-grows-cold and faith."}
+  - {section: "Where sin increased", says: "Romans 5:15-21 from the 'much more' side: five gift words, hyperperisseuo (2x NT), grace reigns; Romans 6:1-2, 14 answers the objection."}
+  - {section: "The grace that trains", says: "Titus 2:11-14: grace appeared (epiphaino) and glory will appear (epiphaneia); paideuo is child-training (Heb 12:6); Exodus 19:5 / Psalm 130:8 behind 2:14. 'All people' contested, both cases."}
+  - {section: "The grace that works", says: "1 Corinthians 15:8-10 (kenos 15:10, 14, 58), Ephesians 3:2, 7-8 (stewardship of grace; link israel-and-the-church), 2 Corinthians 12:9."}
+  - {section: "Discussion questions / References", says: "five facet-labelled questions ending on Be transformed."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Backlog 4.4; week two of Saved. Placement salvation/ (Soteriology: 'Grace, redemption, assurance, death' in placement-and-tags.md). No existing study treats grace as its subject; siblings use it in passing."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Ephesians: Paul, prison letter, probably circulated in Asia (ESV intro; assurance-of-salvation already sets this). Titus: Paul to Titus on Crete; 2:1-10 household instructions (older men, women, young men, slaves) grounded by 'For' in 2:11. 1 Corinthians 15: resurrection witness list, Paul last (15:8). Greco-Roman benefaction: recipients repaid benefactors with honour and gratitude (NIV Cultural Backgrounds notes on 2 Cor 8:14, 8:19)."
+    literary_context:
+      done: true
+      notes: "Eph 2:1-10 one sentence (ESV SB); 2:1-3 dead, 2:4-10 But God. Romans 5:12-21 Adam/Christ; 5:20-21 law and grace; 6:1 objection. Romans 11:1-6 remnant, Elijah. Titus 2:11-14 is the ground ('For') of 2:1-10 and is followed by 3:4-7 (second epiphaino). Exodus 33:12-34:9 Moses' intercession after the calf, built on chen."
+    content_word_studies:
+      done: true
+      notes: "See terms and evidence."
+      terms:
+        - {word: "חֵן", language: hebrew, transliteration: "chen", strongs_id: "H2580", gloss: "favour, grace", range_of_meanings: ["favour found in another's eyes (Gen 6:8; Exod 33:12-17)", "favour granted (Exod 3:21; 11:3; 12:36)", "charm, graciousness (Eccl 10:12)"], notes: "69x (macula-hebrew-wlc). First use Gen 6:8. Six in Moses' intercession: Exod 33:12, 13 (x2), 16, 17; 34:9. TWOT 694a. LXX renders every chen in Exodus with charis (lxx-lemmas)."}
+        - {word: "חָנַן", language: hebrew, transliteration: "chanan", strongs_id: "H2603", gloss: "show favour, be gracious", range_of_meanings: [], notes: "76x. Exodus 33:19 twice ('I will be gracious to whom I will be gracious'); Numbers 6:25. TWOT 694. LXX Exod 33:19 renders with eleeo."}
+        - {word: "חַנּוּן", language: hebrew, transliteration: "chanun", strongs_id: "H2587", gloss: "gracious", range_of_meanings: [], notes: "13x; twelve of God; Psalm 112:4 most likely the man who fears the LORD. First use Exodus 22:27 (Heb 22:26), the poor man's cloak, ESV 'compassionate'. Exodus 34:6 'gracious'. LXX Exod 34:6 renders eleemon, not charis. TWOT 694d."}
+        - {word: "χάρις", language: greek, transliteration: "charis", strongs_id: "G5485", gloss: "grace, favour, thanks", range_of_meanings: ["favour (Luke 1:30; 2:52)", "graciousness (Luke 4:22)", "credit (Luke 6:32-34)", "thanks (Luke 17:9; Rom 6:17; 1 Cor 15:57)", "gift (1 Cor 16:3)", "God's saving favour (Rom 3:24; Eph 2:5, 8)", "grace that empowers (1 Cor 15:10; 2 Cor 12:9)"], notes: "155 NT (SBLGNT), 101 in Paul's thirteen letters, 25 in Romans, 12 Ephesians. None in Matthew or Mark; John's Gospel only 1:14, 16 (x2), 17. 161 in lxx-lemmas."}
+        - {word: "δωρεάν", language: greek, transliteration: "dorean", strongs_id: "G1432", gloss: "as a gift, freely, without cause", range_of_meanings: ["freely (Matt 10:8; Rom 3:24; Rev 21:6; 22:17)", "without cause (John 15:25)", "for nothing / in vain (Gal 2:21)", "without payment (2 Thess 3:8)"], notes: "9x NT."}
+        - {word: "ὑπερπερισσεύω", language: greek, transliteration: "hyperperisseuo", strongs_id: "G5248", gloss: "overflow beyond measure", range_of_meanings: [], notes: "2x NT: Rom 5:20; 2 Cor 7:4."}
+        - {word: "παιδεύω", language: greek, transliteration: "paideuo", strongs_id: "G3811", gloss: "train, bring up, discipline", range_of_meanings: ["educate (Acts 7:22; 22:3)", "discipline as a father (Heb 12:6, 7, 10; Rev 3:19)", "punish (Luke 23:16, 22)"], notes: "13x NT. LSB footnote at Titus 2:12 'Or disciplining'."}
+        - {word: "ἐπιφαίνω / ἐπιφάνεια", language: greek, transliteration: "epiphaino / epiphaneia", strongs_id: "G2014 / G2015", gloss: "appear / appearing", range_of_meanings: [], notes: "epiphaino 4x (Luke 1:79; Acts 27:20; Titus 2:11; 3:4). epiphaneia 6x, all Paul (2 Thess 2:8; 1 Tim 6:14; 2 Tim 1:10; 4:1, 8; Titus 2:13); 2 Tim 1:10 of the first coming."}
+        - {word: "κενός", language: greek, transliteration: "kenos", strongs_id: "G2756", gloss: "empty, in vain", range_of_meanings: [], notes: "1 Corinthians 15:10, 14 (x2), 58."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Benefaction culture expected the client to repay with honour; Paul keeps the response (thanks, good works, labour) and removes the repayment: grace is received kata charin, never kata opheilema (Romans 4:4). Transcultural."
+    theological_principle:
+      done: true
+      notes: "God is gracious by His own proclaimed character (Exodus 34:6), and in His Son Jesus He gives His favour to people who earned wrath; grace saves apart from works, outruns sin, trains the saved, and empowers service."
+    application_draft:
+      done: true
+      notes: "Think: you stand in grace (Rom 5:2; Eph 2:8). Attitude: 'not I, but the grace of God' (1 Cor 15:10). Do: Luke 6:35, do good to someone who cannot repay."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Exodus 33:18-34:7 -> John 1:14-18", relation: "allusion, probable: glory seen, tabernacling, Moses and the law, no one has seen God (Exod 33:20); 'grace and truth' most likely the Hebrew chesed ve'emet (ESV SB John 1:16-17; NIV BTSB John 1:14; NIV CBSB chart John 1:14-18). The LXX of Exod 34:6 reads polyeleos kai alethinos, so the link runs through the Hebrew, not shared Greek wording."}
+      - {ref: "Psalm 130:8 LXX -> Titus 2:14", relation: "shared lytroo + pas + anomia (lxx-lemmas Ps 129:8); bible_trace found no derived connection, i.e. the method is silent, the wording is there. ESV SB notes the resemblance."}
+      - {ref: "Exodus 19:5; Deuteronomy 14:2 LXX -> Titus 2:14", relation: "laos periousios, shared phrase (lxx-lemmas)."}
+      - {ref: "Genesis 6:8 LXX -> Luke 1:30", relation: "heuriskein charin, the Septuagint idiom for matsa chen."}
+    translations_compared: ["ESV", "BSB", "KJV", "MSB", "LSB (footnotes)", "CSB (footnotes)"]
+    divergences_noted: "Exodus 22:27 ESV renders chanun 'compassionate', 34:6 'gracious'. Ephesians 3:2 oikonomia: ESV 'stewardship', KJV 'dispensation'. Romans 11:6: the Majority text (KJV, MSB) adds the converse clause; CSB footnote 'Other mss add'. Titus 2:11: CSB footnote 'Or appeared with saving power'; LSB 'Or to all men, bringing'. Titus 2:12 LSB 'Or disciplining'."
+  drafting:
+    done: true
+    file: "docs/content/salvation/grace.md"
+    notes: "Drafted 2026-11-15 as draft: true. 3,130 words by validator Check 23's measure (block quotes excluded; 4,151 with them), budget 4,000. Outline section required by Check 22 and present. All 60 ESV quotations checked against study-notes.db esv-study-bible by script (0 misses); one casing fix (Luke 17:9 'Does'). Antithesis count: 0 in own prose (the one ', not ' is inside the CBSB quotation)."
+  review:
+    done: false
+    validated: true # npm run validate 2026-11-15: only the three provenance warnings (author runs refresh_frontmatter_provenance.py at commit); mkdocs build --strict clean; all internal links and anchors checked by script
+    statement_of_faith_check: "Salvation ('grace of God alone, through faith alone, in Christ alone'; Eph 2:8-9; Titus 3:5): consistent. Justification ('justified by his grace as a gift', Rom 3:24): consistent, and pointed forward to week five. Sanctification ('The house God is building', 'Reward for the believer: grace crowning what grace produced'): consistent with Titus 2:11-14 and 1 Cor 15:10. No tension found. The statement is silent on the extent of Titus 2:11's 'all people'; the draft marks it contested and says so."
+    contested_points_marked:
+      - "Titus 2:11 'for all people': every person (no limit stated; 1 Tim 2:4; ESV SB) vs every kind of person (follows the 2:1-10 household list; 'For'). Both given; shared ground stated; statement of faith silent."
+      - "John 1:14-17 echoing Exodus 33-34 and 'grace and truth' = chesed ve'emet: marked 'very likely' / 'probable', on four shared features; noted that the LXX of Exod 34:6 has different Greek."
+      - "Psalm 112:4 chanun: 'most likely' the man who fears the LORD."
+      - "Romans 11:6 longer reading: stated as a manuscript addition followed by the KJV."
+    proposed_back_links: # do NOT apply while this study is draft (Check 24); apply in the publish commit
+      - {slug: "series/saved.md", where: "sessions: replace `- planned: \"Grace\"` with `- study: salvation/grace.md` and a why line", note: "author does this at publish"}
+      - {slug: "sin/why-we-need-saving.md", where: "last paragraph of 'But God' ('Grace is where this series goes next.')", note: "link 'Grace' to ../salvation/grace.md; and the On this site list"}
+      - {slug: "salvation/faith.md", where: "'Wages and gifts' after the Romans 11:6 quotation, or On this site", note: "one sentence: what 'grace' means is week two, Grace"}
+      - {slug: "god/names-of-god.md", where: "after the Exodus 34:5-7 gloss of chanun", note: "link for chanun/chen/chanan and Moses' chen sequence in Exodus 33:12-34:9"}
+      - {slug: "christian-life/when-love-grows-cold.md", where: "at the Romans 11:5 quotation", note: "link for 'chosen by grace' and Romans 11:6"}
+      - {slug: "christian-life/forgiveness.md", where: "the charizomai < charis paragraph (Ephesians 4:32)", note: "enrich: link the grace study for charis; forgiving as you were graced"}
+      - {slug: "salvation/assurance-of-salvation.md", where: "'The grammar of not your own doing' or On this site", note: "link the grace study for charis and Ephesians 2:4-7"}
+      - {slug: "jesus/kinsman-redeemer.md", where: "at the Romans 3:24 quotation", note: "optional: link for 'justified by his grace as a gift' (dorean)"}
+    human_review_note: "Of the three human-review items, the draft is likely weakest on #2 (essay register): the word-study sections ('From chen to charis', the Romans 5:15-17 gift-word count, 'Grace raises children') lean analytical. The prayer and Be Transformed were written for speaking."
+
+evidence:
+  - {id: gen6-8-esv, what: "Noah found favor", tool: study_verse, args: {book: Gen, chapter: 6, verse: 8, work_id: esv-study-bible}, expect_contains: "But Noah found favor in the eyes of the LORD", checked: 2026-11-15}
+  - {id: exod33-19-esv, what: "I will be gracious", tool: study_verse, args: {book: Exod, chapter: 33, verse: 19, work_id: esv-study-bible}, expect_contains: "I will be gracious to whom I will be gracious", checked: 2026-11-15}
+  - {id: exod34-6-esv, what: "merciful and gracious", tool: study_verse, args: {book: Exod, chapter: 34, verse: 6, work_id: esv-study-bible}, expect_contains: "a God merciful and gracious", checked: 2026-11-15}
+  - {id: exod34-9-esv, what: "stiff-necked, pardon", tool: study_verse, args: {book: Exod, chapter: 34, verse: 9, work_id: esv-study-bible}, expect_contains: "it is a stiff-necked people, and pardon our iniquity and our sin", checked: 2026-11-15}
+  - {id: exod22-27-esv, what: "chanun rendered compassionate", tool: study_verse, args: {book: Exod, chapter: 22, verse: 27, work_id: esv-study-bible}, expect_contains: "for I am compassionate", checked: 2026-11-15}
+  - {id: luke6-35-esv, what: "kind to the ungrateful", tool: study_verse, args: {book: Luke, chapter: 6, verse: 35, work_id: esv-study-bible}, expect_contains: "for he is kind to the ungrateful and the evil", checked: 2026-11-15}
+  - {id: luke17-9-esv, what: "thank the servant", tool: study_verse, args: {book: Luke, chapter: 17, verse: 9, work_id: esv-study-bible}, expect_contains: "Does he thank the servant because he did what was commanded", checked: 2026-11-15}
+  - {id: john1-17-esv, what: "grace and truth came", tool: study_verse, args: {book: John, chapter: 1, verse: 17, work_id: esv-study-bible}, expect_contains: "grace and truth came through Jesus Christ", checked: 2026-11-15}
+  - {id: rom3-24-esv, what: "justified by his grace as a gift", tool: study_verse, args: {book: Rom, chapter: 3, verse: 24, work_id: esv-study-bible}, expect_contains: "justified by his grace as a gift", checked: 2026-11-15}
+  - {id: john15-25-esv, what: "without a cause", tool: study_verse, args: {book: John, chapter: 15, verse: 25, work_id: esv-study-bible}, expect_contains: "They hated me without a cause", checked: 2026-11-15}
+  - {id: gal2-21-esv, what: "died for no purpose", tool: study_verse, args: {book: Gal, chapter: 2, verse: 21, work_id: esv-study-bible}, expect_contains: "then Christ died for no purpose", checked: 2026-11-15}
+  - {id: rom4-4-esv, what: "not as a gift but as his due", tool: study_verse, args: {book: Rom, chapter: 4, verse: 4, work_id: esv-study-bible}, expect_contains: "not counted as a gift but as his due", checked: 2026-11-15}
+  - {id: rom11-6-esv, what: "grace no longer grace", tool: study_verse, args: {book: Rom, chapter: 11, verse: 6, work_id: esv-study-bible}, expect_contains: "otherwise grace would no longer be grace", checked: 2026-11-15}
+  - {id: rom5-20-esv, what: "grace abounded all the more", tool: study_verse, args: {book: Rom, chapter: 5, verse: 20, work_id: esv-study-bible}, expect_contains: "where sin increased, grace abounded all the more", checked: 2026-11-15}
+  - {id: rom6-14-esv, what: "under grace", tool: study_verse, args: {book: Rom, chapter: 6, verse: 14, work_id: esv-study-bible}, expect_contains: "you are not under law but under grace", checked: 2026-11-15}
+  - {id: eph2-8-esv, what: "by grace through faith", tool: study_verse, args: {book: Eph, chapter: 2, verse: 8, work_id: esv-study-bible}, expect_contains: "For by grace you have been saved through faith", checked: 2026-11-15}
+  - {id: eph3-2-esv, what: "stewardship of God's grace", tool: study_verse, args: {book: Eph, chapter: 3, verse: 2, work_id: esv-study-bible}, expect_contains: "stewardship of God's grace", checked: 2026-11-15}
+  - {id: titus2-11-esv, what: "grace appeared for all people", tool: study_verse, args: {book: Titus, chapter: 2, verse: 11, work_id: esv-study-bible}, expect_contains: "bringing salvation for all people", checked: 2026-11-15}
+  - {id: titus2-12-esv, what: "training us", tool: study_verse, args: {book: Titus, chapter: 2, verse: 12, work_id: esv-study-bible}, expect_contains: "training us to renounce ungodliness", checked: 2026-11-15}
+  - {id: 1cor15-10-esv, what: "not I but the grace of God", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 10, work_id: esv-study-bible}, expect_contains: "though it was not I, but the grace of God that is with me", checked: 2026-11-15}
+  - {id: 2cor12-9-esv, what: "my grace is sufficient", tool: study_verse, args: {book: 2Cor, chapter: 12, verse: 9, work_id: esv-study-bible}, expect_contains: "My grace is sufficient for you", checked: 2026-11-15}
+  - {id: 1tim1-14-esv, what: "grace overflowed", tool: study_verse, args: {book: 1Tim, chapter: 1, verse: 14, work_id: esv-study-bible}, expect_contains: "the grace of our Lord overflowed for me", checked: 2026-11-15}
+  - {id: charis-nt-155, what: "charis 155x NT", tool: bible_concordance, args: {strongs: G5485, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "155", checked: 2026-11-15}
+  - {id: charis-rom-25, what: "charis 25x Romans", tool: bible_concordance, args: {strongs: G5485, book: Rom, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "25", checked: 2026-11-15}
+  - {id: charis-john-4, what: "charis in John only 1:14-17 (4x)", tool: bible_concordance, args: {strongs: G5485, book: John, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "4", checked: 2026-11-15}
+  - {id: charis-matt-0, what: "no charis in Matthew", tool: bible_concordance, args: {strongs: G5485, book: Matt, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "0", checked: 2026-11-15}
+  - {id: charis-mark-0, what: "no charis in Mark", tool: bible_concordance, args: {strongs: G5485, book: Mark, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "0", checked: 2026-11-15}
+  - {id: chen-69, what: "chen 69x", tool: bible_concordance, args: {strongs: H2580, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "69", checked: 2026-11-15}
+  - {id: chen-exod-intercession, what: "chen in Moses intercession incl. 34:9", tool: bible_concordance, args: {strongs: H2580, book: Exod, work_id: macula-hebrew-wlc}, expect_contains: "\"chapter\": 34, \"verse\": 9", checked: 2026-11-15}
+  - {id: chanun-13, what: "chanun 13x", tool: bible_concordance, args: {strongs: H2587, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "13", checked: 2026-11-15}
+  - {id: chanun-exod22, what: "first chanun at Exod 22:26 (Heb) = 22:27 (Eng)", tool: bible_concordance, args: {strongs: H2587, book: Exod, work_id: macula-hebrew-wlc}, expect_contains: "\"chapter\": 22, \"verse\": 26, \"gloss\": \"[am].gracious\"", checked: 2026-11-15}
+  - {id: chanan-exod33-19, what: "chanan twice at Exod 33:19", tool: bible_concordance, args: {strongs: H2603, book: Exod, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "2", checked: 2026-11-15}
+  - {id: dorean-9, what: "dorean 9x", tool: bible_concordance, args: {strongs: G1432, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "9", checked: 2026-11-15}
+  - {id: hyperperisseuo-2, what: "hyperperisseuo 2x (Rom 5:20; 2 Cor 7:4)", tool: bible_concordance, args: {strongs: G5248, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "2", checked: 2026-11-15}
+  - {id: paideuo-13, what: "paideuo 13x", tool: bible_concordance, args: {strongs: G3811, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "13", checked: 2026-11-15}
+  - {id: epiphaino-4, what: "epiphaino 4x incl. Titus 2:11, 3:4", tool: bible_concordance, args: {strongs: G2014, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "4", checked: 2026-11-15}
+  - {id: epiphaneia-6, what: "epiphaneia 6x", tool: bible_concordance, args: {strongs: G2015, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "6", checked: 2026-11-15}
+  - {id: kenos-1cor-4, what: "kenos 4x in 1 Corinthians, all ch. 15", tool: bible_concordance, args: {strongs: G2756, book: 1Cor, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "4", checked: 2026-11-15}
+  - {id: acharistos-luke6, what: "acharistos at Luke 6:35", tool: bible_concordance, args: {strongs: G884, work_id: macula-greek-sblgnt}, expect_contains: "\"chapter\": 6, \"verse\": 35", checked: 2026-11-15}
+  - {id: charis-lxx-exod, what: "LXX renders every Exodus chen with charis (34:9 present)", tool: bible_concordance, args: {strongs: G5485, book: Exod, work_id: lxx-lemmas}, expect_contains: "\"chapter\": 34, \"verse\": 9", checked: 2026-11-15}
+
+open_questions:
+  - "Fork candidate: John 1:16 charin anti charitos -- 'grace upon grace' (accumulation) or 'grace in place of grace' (law replaced by Christ, NIV BTSB). Not treated here."
+  - "Fork candidate: Exodus 33:19 in Romans 9:15 and election. Paul quotes the mercy/compassion half (LXX eleeo), not the chanan half; not treated."
+  - "Titus 2:13 'great God and Savior Jesus Christ' (one person, Granville Sharp) vs LSB footnote 'the great God and our Savior'. Not treated; the study only says 'the appearing of the glory'."
+  - "Backlog 11.2 (attributes) will treat Exodus 34:6-7 fully; this study gives chanun one paragraph and links the backlog entry."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Eph 2:1-10 one sentence (confirmed); Eph 2:8 neuter 'this' (confirmed assurance study); Rom 5:20 Mishnah Avot 2:7 background (not used); Titus 2:11 'offered to all people (including all ethnic groups)' (one side of the contested reading); Titus 2:14 Ps 130:8 and Exod 19:5 echoes (confirmed lxx-lemmas finding); John 1:16-17 'grace and truth' recalls hesed and emet of Exod 34:6 (contributed); 1 Cor 15:10 grace prompted hard work (confirmed)."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "John 1:14 alludes to Exod 33:12-34:28 (confirmed); Rom 3:24 grace a thread through Romans and believers 'stand' in grace (5:2) (contributed Rom 5:2); Titus 2:11 grace in the Pastorals (confirmed); 1 Cor 15:10."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan (Keener)", note: "2 Cor 8:14, 8:19: benefactions repaid with honour (contributed background); John 1:14-18 Exodus 33-34 chart (confirmed); Titus 2:11 Jewish expectations of who would be saved (contributed); Eph 2:8 redeemed before instructed, Exod 20:2 (confirmed)."}
+  - {type: other, title: "NLT Christian Basics Bible, articles 'Grace' and 'Mercy'", author: "Tyndale", note: "mercy withholds what we deserve, grace gives what we do not deserve (the standard distinction; used once, attributed)."}
+  - {type: lexicon, title: "TWOT", author: "Harris, Archer, Waltke", note: "root 694 chanan; 694a chen; 694d chanun (twot_lookup)."}
+  - {type: other, title: "Macula Hebrew (WLC), Macula Greek (SBLGNT), Septuagint lemmas (OSSP)", author: "Clear Bible / Open Scriptures", note: "all counts and lemmas."}
+  - {type: other, title: "LSB and CSB translators' footnotes", author: "", note: "Titus 2:11, 2:12; Romans 11:6."}
+last_updated: "2026-11-15"
