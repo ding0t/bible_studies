@@ -129,7 +129,7 @@ quoted a word or two at a time), located by STEP Bible's TTESV tags (Tyndale Hou
 | H2436 | חֵיק | bosom | 33 | 73% | bosom (19); lap (5) | arms (5); laps (3); inside cloak (2) | lap (5); cloak (4); bosom (4) |  |  |
 | H3584 | כָּחַשׁ | he will deny | 22 | 73% | cringe (3); denies (2); deny (2) | cower before (2); lied (2); cower (2) | lied (2); deal falsely (2); came cringing (2) |  |  |
 | H7941 | שֵׁכָר | strong drink | 22 | 73% | beer (16) | strong drink (16) | strong drink (20); drink (2); drunkards (1) |  |  |
-| H5521 | סֻכָּה | booths | 29 | 72% | huts (11); booths (5); booth (4) | tabernacles (9); booths (4); canopy (2) | booths (21); booth (4); canopy (2) |  |  |
+| H5521 | סֻכָּה | booths | 29 | 72% | huts (11); booths (5); booth (4) | tabernacles (9); booths (4); canopy (2) | booths (21); booth (4); canopy (2) | wording | booth(s) |
 | H2233 | זֶרַע | offspring | 213 | 72% | seed (124); offspring (25); seed time (1) | descendants (71); offspring (18); children (6) | offspring (131); seed (36); children (11) |  |  |
 | H8641 | תְּרוּמָה | the contribution | 72 | 72% | contribution (39); contributions (6); offering (4) | offering (20); portion (8); offerings (5) | contribution (30); portion (9); contributions (8) |  |  |
 | H5080 | נָדַח | i | 54 | 72% | driven (8); scattered (4); drive (3) | banished (11); exiles (5); banish (3) | driven (13); outcasts (4); driven out (4) |  |  |
@@ -159,7 +159,7 @@ quoted a word or two at a time), located by STEP Bible's TTESV tags (Tyndale Hou
 | H2009 | הִנֵּה | there! | 567 | 69% | behold (390); look (2); behold hither (1) | look (76); here (50); saw (45) | behold (758); here (32); see (12) |  |  |
 | H4791 | מָרוֹם | a high place | 52 | 69% | height (22); heights (3); high (3) | high (15); lofty (3); pride (2) | high (23); heights (9); height (9) |  |  |
 | G3588 | ὁ | the | 647 | 69% | one (106); ones (47); things (36) | son (81); whoever (56); own (25) | things (11); son (6); one (6) |  |  |
-| H2603 | חָנַן | show | 70 | 69% | gracious (13); favor (9); supplicate (4) | mercy (11); merciful (7); gracious (4) | gracious (20); mercy (8); plead (6) |  |  |
+| H2603 | חָנַן | show | 70 | 69% | gracious (13); favor (9); supplicate (4) | mercy (11); merciful (7); gracious (4) | gracious (20); mercy (8); plead (6) | interpretive | be gracious, show favour |
 | H3515 | כָּבֵד | heavy | 38 | 68% | heavy (22); great (3); extremely numerous (1) | severe (6); large (4); great (3) | great (9); heavy (9); severe (6) |  |  |
 | H3709 | כַּף | palms | 174 | 68% | palm (47); palms (39); palm sized bowl (12) | hands (45); hand (23); dish (12) | hands (65); hand (45); sole (12) |  |  |
 | G5426 | φρονέω | minding | 22 | 68% | think (7); considering (2); thinking (2) | mind (3); views (1); live harmony (1) | mind (4); think (4); harmony (2) |  |  |

@@ -73,3 +73,15 @@ kind = "interpretive"
 follow = "by context: poor, afflicted, or humble"
 status = "decided"
 why = "עָנִי (ani) names the one brought low: the poor (Exodus 22:25), the afflicted, and the humble who depend on God (Zephaniah 3:12; Isaiah 66:2). The ULT leans to poor, the BSB to afflicted. At Zechariah 9:9 the Septuagint and Matthew 21:5 render it πραΰς (gentle), so the ESV's and BSB's humble keeps the New Testament's own reading there; a study resting on the word should say it also means poor and afflicted."
+
+[H2603]
+kind = "interpretive"
+follow = "be gracious, show favour"
+status = "decided"
+why = "חָנַן (chanan) is the verb of חֵן (chen, favour) and חַנּוּן (chanun, gracious), so the ESV's gracious keeps the family together (Exodus 33:19; 34:6). The Septuagint renders it ἐλεέω (eleeō, have mercy) at Exodus 33:19, and Paul quotes that Greek in Romans 9:15, which is why the BSB reads mercy there. Mercy and grace overlap in this root; a study resting on the word follows gracious and says the Septuagint and Paul read mercy."
+
+[H5521]
+kind = "wording"
+follow = "booth(s)"
+status = "decided"
+why = "סֻכָּה (sukkah) is a shelter of branches, put up for the feast (Leviticus 23:42-43; Nehemiah 8:15-16). The ULT's huts, the BSB's tabernacles and the ESV's booths name the same thing. The Septuagint's ἑορτὴ σκηνῶν (Leviticus 23:34) and John's σκηνοπηγία (John 7:2) are where the feast's other name, Tabernacles, comes from; the site quotes the ESV's Booths and uses Tabernacles as the feast's common name."
