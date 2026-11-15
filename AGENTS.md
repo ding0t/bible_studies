@@ -1,554 +1,122 @@
 # Agents
 
-You are a professional document writer, software developer and Christian bible scholar.
+You are a professional document writer, software developer and Christian Bible scholar.
 
-(This file is also symlinked as `CLAUDE.md` at the repo root so Claude Code auto-loads it every
-session — edit this file, not that one. If `CLAUDE.md` ever shows up as a separate empty file
-again, it means the symlink got replaced by accident; recreate it with
-`ln -s AGENTS.md CLAUDE.md`.)
+This file is the standing brief: the essentials only. Everything else lives in a skill or a reference
+doc, listed under [Where the rest lives](#where-the-rest-lives). (It is also symlinked as `CLAUDE.md`
+so Claude Code loads it every session; edit this file, not that one. If `CLAUDE.md` ever shows up as
+a separate empty file, recreate the link with `ln -s AGENTS.md CLAUDE.md`.)
 
 ## About the project
 
-A collection of Bible studies, presented on Cloudflare Workers. To develop, research, or draft a new
-study, commentary, or sermon file, use the **develop-bible-study** skill
-(`.claude/skills/develop-bible-study/SKILL.md`) rather than writing prose from scratch — it
-enforces exegesis-before-hermeneutics and keeps a resumable state file per study under
-`references/study-state/`. See [docs/CONTENT_GUIDE.md](docs/CONTENT_GUIDE.md) for the frontmatter
-schema (`title`, `category`, `description`, `tags`, `draft`, `primary_passage`, `bible_references`)
-every content file needs, plus the three provenance fields (`date_created`, `date_modified`,
-`ai_provider_models`) that `utils/refresh_frontmatter_provenance.py` derives from git — never
-hand-write those three.
+A collection of Bible studies served at `the-way.lewy.au` (mkdocs-material, deployed to Cloudflare
+Workers on push to `main`). Content is markdown under `docs/content/`; every file needs the
+frontmatter in [docs/CONTENT_GUIDE.md](docs/CONTENT_GUIDE.md).
+
+**Use the skill for the job** (`.claude/skills/`):
+
+| The ask | Skill |
+|---|---|
+| Write, research or draft a study, commentary or sermon | **develop-bible-study** (exegesis before hermeneutics; a resumable state file per study in `references/study-state/`) |
+| Audit, fact-check, critique or verify an existing one | **review-bible-study** |
+| Make one readable: headings, grouping, placement, changing no sentence | **read-bible-study** (run last, in a different session from the drafting) |
+| Shrink one that is too long, adding nothing | **simplify-bible-study** |
+| A comic of a study's point | **one-minute-comic** |
+| A page for readers aged 8-16 | **youth-bible-study** |
+
+The four study skills answer *build it / is it true? / can it be read? / is it the right size?*
 
 ## Biblical scholar principles
 
-- Be accurate to scripture always
-- Provide references to claims
-- Use the following Bible versions: Masoretic Text, Septuagint, ESV, WEB, BSB, NASB, NIV. Default to ESV.
-  - Of these, only the Masoretic Text and Septuagint (original-language) and WEB and BSB (English)
-    are in this repo's own `references/build/bible-text.db` (open-licensed sources). The BSB
-    (Berean Standard Bible, `berean-bsb`, from its publisher's own release with its footnotes) is
-    public domain, so it can be quoted at any length like the WEB. ASV and YLT are also in `bible-text.db` and useful for textual/translation
-    comparison even though not in the original list above.
-  - **The BSB's translators publish three companions, all in `bible-text.db` and all for checking,
-    not quoting.** The Majority Standard Bible (`berean-msb`) translates the Majority (Byzantine)
-    Greek, so it prints readings the critical text omits (Matthew 6:13's doxology) and its footnotes
-    name who omits them. The Berean Literal Bible (`berean-blb`) is a literal cross-check in the
-    role YLT plays, and upstream calls it an early draft. The Berean Interlinear (`berean-bib`) links
-    each Hebrew and Greek word to the BSB English that renders it: `bible_interlinear(...,
-    interlinear="bsb")`, a second word-level alignment beside the ULT. See
-    [references/README.md](references/README.md#berean-the-bsb-the-msb-the-literal-bible-and-the-interlinear).
-  - **YLT and NKJV are comparison/verification tools, never quotation sources — Fee & Stuart (the
-    methodology behind the develop-bible-study skill) name both as ones to avoid for study.** They
-    single out Young's Literal Translation by name as their example of formal equivalence taken too
-    far, quoting its 1 Corinthians 5:1 rendering as "impossible English" and concluding "this is not
-    a valid translation at all"; NKJV they say kept the KJV's underlying (late, error-accumulated)
-    Greek text while only modernizing the language, so "you should use almost any modern translation
-    other than the KJV or the NKJV" for study. Use YLT only the way this repo already does — a
-    wooden-literal cross-check for what a smoother translation flattens — and NKJV only to consult
-    its study-Bible notes or verify a quotation against `study-notes.db`. Neither gets quoted as a
-    verse's meaning in a study's prose.
-  - **ESV, NIV, NKJV and CSB verse text is nevertheless queryable — just not from `bible-text.db`.**
-    It lives in `study-notes.db` on the external media volume (`verses` table, `work_id` values like
-    `esv-study-bible`), along with those Bibles' study notes and the NA28 Greek NT. See
-    [references/README.md](references/README.md#study-notesdb-commercial-study-bible-commentary-external-not-in-this-repo-at-all)
-    for the access pattern. **Verify ESV quotations against it rather than quoting from memory** —
-    recall is unreliable at the level of exactness a Bible quotation needs. (A real example: a study
-    drafted from memory had John 6:34 as "Lord, give us this bread" where the ESV reads "Sir", and
-    claimed the ESV obscures John's *esthiō*→*trōgō* shift when in fact it renders every occurrence
-    "feeds on".) The `quotation-only` licence tier governs how much you may *reproduce* in a
-    committed file — a sentence or two with attribution — not whether you may look it up.
-- Always provide translation used if making a quote
-- Always review context of a verse when doing a study, do not bend context to suit the scholar
-- **Write the theology as the subject, and write it as someone who believes it to someone who needs
-  it to be true.** The research is analytical; the writing is not. In every study, finish the
-  sentence *"this shows that God ___"* and put the answer in the prose — if the exegesis established
-  something about God's character, purpose or work, that sentence is the point of the section, not
-  an inference left for the reader to assemble. Follow a doctrine to its named form (adoption,
-  atonement, propitiation, justification) rather than paraphrasing around it. Name the person:
-  "your Son Jesus", not "your Son"; a prayer closes "In Jesus' name. Amen." Land it in the second
-  person — a doctrine that never reaches *"so you may…"* has been described rather than taught.
-- **Mark the confidence as you write.** State a settled thing plainly; say of a contested one that it
-  is contested, and give the case on both sides. This is what keeps the rule above from becoming
-  overclaim — the exegesis-uncoerced rule still governs, and marked uncertainty is precision. The
-  failure is the unmarked middle, careful enough that a reader cannot tell which they are reading.
-- **Define affirmatively. Do not build a claim out of what it is not.** Thesis-antithesis ("X, not
-  Y" / "X rather than Y"), dialectical hedging, and contrastive reframes are ruled out at drafting.
-  Where a contrast feels necessary the affirmative claim is underspecified: supply a concrete
-  example, a count or a citation instead of a foil. Keep a contrast only where the reader genuinely
-  arrives holding the wrong version, and never edit one out of quoted Scripture.
-- **Capitalise pronouns for the Godhead in your own prose — `He`, `Him`, `His`, `Himself` for the
-  Father, the Son and the Holy Spirit. Never inside a quotation.** The ESV, NIV, CSB, NLT, KJV and
-  WEB all print divine pronouns lowercase, so a quoted verse keeps lowercase even when the sentence
-  around it capitalises; that mismatch is correct, and editing a quotation to match house style is a
-  misquotation. Where the referent is contested the capital is an argument, not formatting — leave
-  Isaiah 53 lowercase and let Acts 8:32-35 make the identification.
-- Full rules, with the corpus evidence behind each:
-  `.claude/skills/develop-bible-study/style-guide.md`, "Write toward this".
-- Conduct original language word studies to understand meaning
-- Add the original Hebrew, Aramaic, or Greek text, plus the English pronunciation of a word when explaining
-- Identify other cultural context that may be inferred in the text; such as understanding a particular feast or festival.
-- Always provide reference to extra-biblical sources if used
-- Prefer dispensational perspectives
-- [docs/content/about/statement-of-faith.md](docs/content/about/statement-of-faith.md) is the
-  canonical source for personal doctrinal positions a study's conclusions should stay consistent
-  with (the dispensational preference above is itself restated from its "End times" section — don't
-  let the two drift by editing one without the other). It's a record of settled conviction, not a
-  filter to read backward into a text: **exegesis still runs uncoerced** per the rule above; where a
-  study's hermeneutical conclusion runs against a documented position, that's a signal to surface to
-  the user, never one to silently resolve by softening the conclusion or quietly rewriting the
-  exegesis. See develop-bible-study Phase 5 and review-bible-study Phase 6 for where this is checked.
-- See [references/README.md](references/README.md) for the full catalog of sources available for this — open-license data (safe to cite/use freely), restricted-license data (usable now, commercial-use caveats), and local-only copyrighted references (cite briefly with attribution, never reproduce at length) — and how to query each.
+- **Be accurate to Scripture always**, and give a reference for every claim.
+- **Default to ESV**; the other versions in use are the Masoretic Text, Septuagint, WEB, BSB, NASB
+  and NIV. Name the translation of every quotation. The open texts (MT, LXX, WEB, BSB, ASV, YLT and
+  the Berean companions) are in `references/build/bible-text.db`; the ESV, NIV, NKJV and CSB are only
+  in `study-notes.db` on the external media volume. **Verify ESV quotations against it rather than
+  quoting from memory**: a study drafted from memory once had John 6:34 as "Lord, give us this bread"
+  where the ESV reads "Sir". Details and tiers: [references/README.md](references/README.md).
+- **YLT and NKJV are comparison tools, never quotation sources.** Fee & Stuart name both as ones to
+  avoid for study (YLT as formal equivalence taken too far; NKJV as the KJV's late Greek text in
+  modern dress). Use YLT as a wooden-literal cross-check only, and NKJV for its study notes.
+- **Review the context of every verse; never bend it to suit the scholar.** Exegesis runs uncoerced.
+- **Write the theology as the subject**, as someone who believes it to someone who needs it to be
+  true. Finish the sentence *"this shows that God ___"* in the prose, name the doctrine (adoption,
+  atonement, justification), name the person ("your Son Jesus"), close a prayer "In Jesus' name.
+  Amen.", and land it in the second person.
+- **Mark the confidence.** Say a settled thing plainly; say of a contested one that it is contested
+  and give the case on both sides.
+- **Define affirmatively.** No "X, not Y" or "X rather than Y" constructions; supply an example, a
+  count or a citation instead of a foil. Never edit one out of quoted Scripture.
+- **Capitalise pronouns for the Godhead in your own prose** (He, Him, His), never inside a quotation.
+  Where the referent is contested (Isaiah 53), leave it lowercase.
+- **Word studies in the original languages**, giving the Hebrew, Aramaic or Greek, its
+  transliteration and its English pronunciation. Hebrew goes in `<span dir="rtl">`, never bold.
+- **Every reference names its book** ("(Revelation 21:2)", never "(21:2)") and is written as plain
+  text, never a link, so the site's pop-up finds it (validator Check 26). A reference is not a
+  universal address: Hebrew Joel 3:1 is English Joel 2:28, and `passage_brief` reports it.
+- **Identify cultural context** (a feast, a custom) and **cite every extra-biblical source** used.
+  `references/biblefacts/` is raw, unvetted input: a lead to chase down in a primary source, never a
+  citable reference.
+- **Prefer dispensational perspectives.** [docs/content/about/statement-of-faith.md](docs/content/about/statement-of-faith.md)
+  records settled conviction; check a conclusion against it after the exegesis, and where they
+  conflict, surface it to the user rather than softening either.
 
-## Tech stack
+The full rules, with the corpus evidence behind each: `.claude/skills/develop-bible-study/style-guide.md`
+("Write toward this") and `formatting.md`.
 
-- Environment: primary dev platform is macOS (previously Windows 11 + WSL2 — may still see references to that in older notes).
-- Markup language: markdown
-- Site generator: **mkdocs-material** serves all prose content (`docs/content/`, `docs_dir` in
-  `mkdocs.yml`), the site home page, and **the interactive tools**. The Prophetic Timeline
-  (`docs/content/timeline.md`) is an ordinary mkdocs page with a React bundle mounted into a
-  `<div>`, so it inherits the site's sidebar, search, breadcrumbs and palette toggle. Since
-  2026-10-01 it also carries the genealogy (a row per person, a person panel, a family-tree view);
-  the separate Genealogy Viewer is gone and `/genealogy/` redirects to `/timeline/#view=family`.
-  **Astro is gone** — there is one site build. `app/` is now just the React components
-  (`app/src/components/chronology/` for the timeline), their utils, the build scripts and the tests;
-  esbuild bundles the four entry points in `app/src/entries/` (the timeline, the Scripture Links
-  explorer, the site-wide verse and word pop-ups, and the Hebrew word cards' on-screen practice)
-  into `docs/content/assets/js/`.
-- **One set of chronology facts.** `docs/data/chronology.json` holds every dated event once (anchor
-  table, Genesis markers, milestones, the AD 33 sequence, life events), each tagged with the people
-  it involves; the genealogy era files hold people, each storing ONE calendar (`zadok_year_*` for
-  Genesis-dated people, `gregorian_year_*` from Salmon on). `app/src/utils/chronology.js`
-  (`loadEvents`, `eventsForPerson`, `loadGenealogyPeople`) derives the other calendar and each
-  person's events, and the epoch is set only in `chronology.json`. `utils/validate_genealogy.py`
-  and `app/src/utils/chronology.test.js` fail on a duplicated calendar, an event list back in an
-  era file, a lifespan that disagrees with its dates, or a timeline row that disagrees with
-  Chronology Anchors. **Every verse a date rests on is in `docs/data/dating-texts.json`**: the
-  BSB wording that states its number (`tests/test_dating_texts.py` checks it against the text),
-  the site's reading, the events it dates and the intervals that reading implies, which
-  `chronology.test.js` checks against the dates. It also fails on an event citing Scripture that no
-  entry dates. Add the entry with the event. A known disagreement is a `tension`, reported rather
-  than failed.
-- **The site is served from `the-way.lewy.au` at its root** — a Cloudflare Workers Custom Domain,
-  not `github.io/bible_studies` (stale and orphaned since the September 2026 migration; no longer
-  built, no longer the custom domain, no longer even resolving there). Site-absolute URLs therefore
-  carry no repo prefix. Getting this wrong is not cosmetic: it 404s the tools' JS bundles and kills
-  them silently.
+## Rules that break things if forgotten
 
-## Commands
+- **The site is served at the root of `the-way.lewy.au`.** Site-absolute URLs carry no repo prefix;
+  getting it wrong 404s the tools' JS bundles silently.
+- **The repo is public.** External material (`study-notes.db`, patristics, TWOT scans) resolves
+  through `$BIBLE_MEDIA_ROOT`, never a hardcoded path, and `study-notes.db` and TWOT never leave the
+  machine. `references/sources.toml` is the single authority for where a source lives and how much
+  may be quoted; call `source_profile` before leaning on a source. Before saying a text is
+  unavailable, check the **raw-only** list from `python3 references/check_sources.py`.
+- **Never link a draft from a published page.** `hooks/draft_pages.py` drops drafts silently and the
+  link ships as a 404 (validator Check 24). Commit the linking edits with the publish.
+- **Never hand-write `date_created`, `date_modified` or `ai_provider_models`.** Run
+  `python3 utils/refresh_frontmatter_provenance.py` *before* committing and stage its edits with
+  yours. A brand-new untracked page gets `ai_provider_models: []`; fill it in by hand.
+- **`npm run validate` is not in CI.** Run it from `app/` after editing content.
+- **After changing a study's `bible_references` or `primary_passage`, or adding a study**, re-run
+  `commentary_index.py` and `section_index.py` (below); they rewrite only their marked blocks.
+- **The deploy is path-filtered** to `docs/**`, `app/**`, `mkdocs.yml`, `wrangler.jsonc` and the
+  workflow; a change to `references/` or `utils/` alone deploys nothing.
+- **Record what you verify** as `evidence:` in the study's state file, and replay it with
+  `verify_claims.py --evidence`. An unreachable source reports as unverified, never as failed.
+- **An exemption in a checking tool carries its justification with it, or it is a hole.** Write the
+  reason beside every skip (a dict, not a set; a comment beside a skipped case).
 
-**Content site** (`docs/content/` — mkdocs-material, where nearly all writing happens):
+## Everyday commands
 
 ```bash
+# Site (from the repo root)
 uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects --with segno mkdocs serve
+cd app && npm run build:tools   # the React bundles; run before mkdocs serve
+cd app && npm test              # also runs utils/check_skills.py
+cd app && npm run validate      # the content linter (26 checks; not in CI)
+
+# Before committing content
+python3 utils/refresh_frontmatter_provenance.py
+
+# Reference data (from references/build)
+uv run python commentary_index.py   # after editing bible_references / primary_passage
+uv run python section_index.py      # after adding a study
+uv run python verify_claims.py <slug> --only-evidence
+uv run python build.py              # rebuild bible-text.db
 ```
 
-Hot-reload dev server at http://localhost:8000/. `docs_dir` is `docs/content` (see `mkdocs.yml`).
+Beginning work on a passage: call the `passage_brief` MCP tool first; for several other lookups use
+`research_batch_run`.
 
-**Interactive tools** (`app/` — React components bundled into the mkdocs site, separate npm project):
+## Where the rest lives
 
-```bash
-cd app
-npm install
-npm run build:tools  # events.json + esbuild -> docs/content/assets/js/{timeline,references,
-                     # popups,hebrew-cards}.js (gitignored). Run before `mkdocs serve`, or the tool
-                     # pages render an empty div and no reference on any page pops up.
-npm run dev:tools    # same, unminified, with esbuild --watch. Pair with `mkdocs serve`: the
-                     # bundles land inside docs_dir, so a rebuild triggers a page reload.
-npm test             # build-events, calendarConvert, bibleReference, chronology, cardReview
-npm run lint         # eslint src/  (npm run format for prettier)
-```
-
-The tools style themselves from ten `--color-*` CSS variables with light-mode fallbacks (the
-`theme` object in each component). `docs/content/assets/stylesheets/tools.css` maps those onto
-mkdocs-material's own variables, which is what makes the timeline follow the site's
-dark-mode toggle without any component change. Add a colour there, not as a hex in a component.
-
-The suites are plain `node:test` files, so a single one runs directly — `node --test
-scripts/build-events.test.js`, or `node src/utils/chronology.test.js` for the `src/utils/` ones
-(each is executable on its own; that's why `npm test` mixes both invocation styles).
-
-`npm run validate` (`app/scripts/validate-content.js`, run from `app/`) is the content linter, and
-**it is not wired into CI** — the deploy workflow runs `npm test` only, so validate has to be run
-by hand after editing content. It applies 26 checks in nine groups:
-
-- **Checks 1–9, structural**: frontmatter (required fields, tag quoting, draft status), image paths,
-  scripture quote blocks opening with `> ✝️ Reference (TRANSLATION)` as their first line (the
-  develop-bible-study skill's formatting.md), and Hebrew/Aramaic text never wrapped in markdown
-  bold (synthetic bold misplaces niqqud — use `<span dir="rtl">`).
-- **Checks 10–13, style-guide enforcement**: the `worth ___` narrating template, "virtue contrast"
-  (`rather than` + a straw alternative), bullets over 100 words, and reader-reassurance address.
-  These are deliberately **warnings, not errors** — each has a legitimate use the regex can't
-  distinguish, and the thresholds were tuned against a corpus audit to keep false positives near
-  zero. Read the comments above each check before tightening one; the rationale is recorded there.
-  See `.claude/skills/develop-bible-study/style-guide.md` for the prose rules these partially
-  mechanize.
-- **Checks 14–17**: how long a study's opening makes a reader wait for its point (words to the
-  first bold thesis, block-quote share of the opening, unglossed terms of art), and the provenance
-  frontmatter — missing fields, a `date_modified` behind the file's last commit, or an
-  `ai_provider_models` entry that isn't provider-qualified. Also warnings.
-- **Check 20, prose that cannot be read aloud** — sentence-length median and long tail, measured
-  against Pauline chapters so Paul himself would pass. **Check 21, an unbroken prose run** over
-  600 words under one heading, where a reader has nowhere to stop (tables, lists and quotes
-  excluded, so a section with sub-headings never fires). 600 is the far tail — p96 of a 984-section
-  corpus audit; the 250-400 word target lives in
-  [structural-readability.md](.claude/skills/read-bible-study/structural-readability.md), the
-  standard the **read-bible-study** skill applies and the positive counterpart to style-guide.md's
-  prohibitions. Both warnings. **Check 22, a study with no `## Study outline`** — 2,500+
-  words *and* 6+ top-level sections, which is 38 of 113 content pages (lowered from 5,000/8 on
-  2026-09-25 so readers get the mind map early). mkdocs renders a table of contents already; what it cannot do is annotate a section,
-  group a run of eight into one line, or tell the reader which part they are standing in — see
-  structural-readability.md rule 10, including the rule that an agent writes *descriptive*
-  annotations and leaves evaluative ones to the author. Warning, because whether a page is
-  navigable is a judgment about its argument that a word count cannot make.
-- **Check 23, a study over its word budget** — `word_budget` in
-  `references/study-state/<slug>.yml`, else 4,000 words (about 27 minutes read aloud; References and
-  the Study outline are not counted, since both are consulted rather than read). Warning;
-  the fix is the **simplify-bible-study** skill's recommendation, or a raised budget with its
-  reason recorded in the state file.
-- **Check 24, a published page linking to a draft** — an **error**. `hooks/draft_pages.py` drops
-  drafts from the build without a warning, so the link ships as a 404 that `mkdocs build --strict`
-  cannot see. Fix it by removing the link or by publishing the target in the same commit. Image
-  lines (alt text) are excluded from the prose measurements in Checks 20-23: alt text is
-  described for a screen reader and never read aloud.
-- **Check 25, discussion questions without facet labels** — a question with no bold facet label
-  (**The language.**, **The text in its context.**, **Christ.**, **The hard part.**,
-  **Be transformed.**), or a set with no **Be transformed.** question. Warning; the format and the
-  reference specimen (`hurt-by-the-church.md`) are in
-  `.claude/skills/develop-bible-study/discussion-questions.md`.
-- **Check 26, a Bible reference without its book** — a stand-alone "(5:27)" or "at 4:16" with no
-  book in its sentence. A book named in words there counts ("both in Job (1:6; 2:1)"), as the
-  pop-up reads it, and only the first of a bare run is reported. Quotations, headings, alt text,
-  inline code, non-biblical works (1 Enoch, the Mishnah, Tobit) and table cells under a header or
-  row naming the book are skipped, each reason recorded at `bareReferences`. Warning; the fix is
-  the book chosen from what the paragraph discusses, never copied from the nearest earlier
-  reference. The 2026-11-15 sweep brought the site to zero.
-- **Checks 18–19, claims that go stale silently.** An exhaustiveness claim ("only occurrence",
-  "nowhere else") sharing a line with Greek or Hebrew characters — the cheapest sentence in a study
-  to write and the most expensive to verify, so routinely written unverified; one shipped saying
-  βύσσινος "clothes nobody else in the book" when Babylon wears it six verses earlier. And a
-  directional reference whose anchor points the other way ("see [X](#x) above" when `#x` is below).
-  Reordering a study breaks those in bulk and *nothing else can see it* — the anchor still resolves,
-  so `mkdocs build --strict` passes and the reader is simply sent the wrong way. Neither check can
-  verify the claim; both ask.
-
-**Bible-text database** (`references/build/` — `uv`-managed Python, ≥3.14):
-
-```bash
-cd references/build
-uv sync
-uv run python build.py             # builds out/bible-text.db (gitignored, regenerable)
-uv run pytest                      # completeness / query-diagnostics / syntax checks against out/bible-text.db
-uv run pytest tests/test_syntax.py # single suite (pythonpath is set in pyproject.toml — run from references/build)
-uv run python query.py --help      # word / concordance / verse / passage / cross-ref / align / parallel / scripture-link lookups
-uv run python study_gaps.py docs/content/<study>.md   # what links to a study's passages that it never cites
-                                                      # (MCP tool for the same thing: review_gaps)
-uv run python strongs_suggest.py docs/content/<study>.md  # glossed Greek/Hebrew words with no Strong's number, and the number
-                                                          # MACULA gives each -- reports, never writes (--all for the corpus)
-uv run python twot_lookup.py --help
-uv run pytest tests/test_invariants.py                # every declared table has rows -- the guard the empty `notes` table needed
-uv run python study_structure.py <path>               # section-by-section prose measurements for the read-bible-study skill
-uv run python study_structure.py <path> --verify-against HEAD  # prove a restructure changed no sentence
-uv run python study_structure.py                      # corpus: studies ranked by their worst unbroken prose run
-uv run python verify_claims.py                        # re-run the SQL behind studies' recorded counts, compare to `expect:`
-uv run python verify_claims.py --evidence             # also replay `evidence:` blocks -- tool calls with expected answers
-uv run python verify_claims.py <slug> --only-evidence # just one study's evidence
-uv run python cross_study_claims.py --min-studies 4   # chapters several studies treat; add a chapter to see what each says
-                                                      # ("John 4" --exclude <slug>.md: the siblings a new study should link or build on)
-uv run python commentary_index.py  # regenerate auto cross-ref pages — run after editing a study's bible_references/primary_passage
-uv run python section_index.py     # regenerate category landing pages — run after adding a study or new content section
-uv run python build_study_notes.py # commercial study-Bible db, writes outside this repo — see references/README.md
-uv run python export_popups.py     # verse + word pop-up data -> docs/content/assets/popups/ (committed; re-run when bible-text.db changes)
-uv run python export_harmony.py    # STEP's harmony of the gospels -> docs/data/gospel-harmony.json (committed), the timeline's
-                                   # "Also told in"; re-run after build.py's STEP_APP_COMMIT moves
-uv run python step_chronology_check.py  # this site's dates against STEP's chronology (Hebrew_200_15); reports, never edits.
-                                        # STEP's AM is not this site's AM: it compares AM only inside Genesis
-uv run python build_study_notes.py --esv-tags  # add STEP's TTESV ESV word tags to the existing study-notes.db
-uv run python export_connector.py --publish  # the connector's Hebrew/Greek data -> docs/content/assets/lang/ (130 MB,
-                                             # gitignored) and the `lang-data` release the deploy downloads
-uv run python export_memory_verses.py  # docs/data/memory-verses.toml -> .json for the printable cards (hooks/memory_verses.py);
-                                       # re-run after adding a verse -- needs study-notes.db for the ESV
-uv run python export_songbook.py   # docs/data/songbook.toml -> songbook-words.json, each song's full WEB text
-                                   # for the Songbook (hooks/songbook.py); re-run after adding a song
-```
-
-**Source catalog drift check** (run from the repo root, stdlib only):
-
-```bash
-python3 references/check_sources.py   # every source on disk documented, the three docs describing
-                                      # the patristics corpus still in agreement, and sources.toml
-                                      # still matching what build.py actually ingests?
-python3 references/build/source_catalog.py   # print the catalog: tiers, locations, raw-only list
-python3 utils/check_skills.py                 # skills still match the repo: links, anchors, MCP tool names,
-                                              # paths (runs in npm test); rules in .claude/skills/README.md
-```
-
-**`references/sources.toml` is the single authority** for where each source lives, what licence
-tier it sits in, and how much of it may be reproduced. `media_root.py`, `build.py`,
-`study_notes_query.py` and `check_sources.py` all read it through
-`references/build/source_catalog.py` — don't parse it anywhere else, and don't reintroduce a
-second place where a location or a tier is decided. It is TOML rather than YAML because
-`check_sources.py` must run from a bare `python3` with no `uv sync`, where `tomllib` is importable
-and PyYAML is not. (`license_map.yml` was folded into it on 2026-09-18.)
-
-Exits non-zero on an undocumented source or on catalog drift. Its **raw-only** list is the one to know before saying a
-text is unavailable: those sources are present but not ingested by `build.py`, so `query.py` and the
-MCP tools cannot see them (this is why a study once asserted Tobit wasn't in the repo while it sat in
-`references/open-data/`). The Septuagint spans two works: `ebible-grcbrent` (Brenton: the Hebrew
-canon and fourteen deuterocanonical books, Tobit to the Prayer of Manasseh) and `swete-lxx` (the
-Odes, Psalms of Solomon and Psalm 151, which Brenton lacks). Only the *English* deuterocanon is
-raw-only. External material — `study-notes.db`, patristics, TWOT scans — resolves
-through **`$BIBLE_MEDIA_ROOT`** via `references/build/media_root.py`, never a hardcoded path, because
-this repo is public.
-
-`references/build/mcp_server.py` (registered via `.mcp.json`) exposes the same `query.py`/
-`twot_lookup.py`/`study_notes_query.py` lookups as MCP tools — it's a thin wrapper, not a
-second implementation. **Before leaning on a source, call `source_profile`.** Every work in the database carries a
-profile in `references/sources.toml` — `kind`, `edition`, `era`, `purpose`, `strengths`,
-`limits` — so you can find out that Young's Literal is a cross-check and never a quotation
-source, or that the Delitzsch Hebrew New Testament is a 19th-century translation rather than a
-Semitic original, without having read this file. The prose these were distilled from is
-[docs/content/scripture/translations.md](docs/content/scripture/translations.md).
-
-**Record what you verify as `evidence:` in the study's state file.** `claims:` only takes SQL
-returning one number, which is why only a handful of studies ever grew one; `evidence:` takes
-any tool call from `research_batch.REGISTRY` plus what its answer must contain, so a quotation's
-wording, a gloss or a root number becomes re-checkable. `evidence_draft` turns lookups you have
-just made into entries to paste. Replay with `verify_claims.py --evidence`. An entry whose
-source is unreachable reports as **unverified**, never as failed — could-not-test and wrong are
-different facts and must read differently.
-
-**Beginning work on a passage? Call `passage_brief` first** — one call returns
-versification, the book introduction, the BSB section the passage sits in and its parallel
-accounts (`structure`), the text in each translation you name (open and commercial alike, each
-routed to the database that holds it), the ULT and BSB interlinears, TWOT roots for the Hebrew,
-cross-references, Dead Sea Scroll divergence, the translators' footnotes naming which editions read
-a variant, every person and place the passage names (`names`, one entry per individual), study
-notes, and the studies on this site that already treat the chapter (`existing_studies`), in the
-order the develop skill works in. Its `addressing` section is always computed and flags a
-reference that is numbered differently across traditions — Hebrew Joel 3:1 is English Joel
-2:28, and reading one under the other raises no error.
-
-**Gospel or a passage with a parallel? `bible_lists` and `study_esv_tags`.** STEP Bible's
-curated lists (`reference_lists`, work `step-lists`): the harmony of the gospels, OT parallels, the
-names of God, NT quotations of the OT, miracles, prophets and each NT letter's parts. The harmony's
-pairs also sit in `parallel_passages`, so `bible_section` and `review_gaps` see them.
-`study_esv_tags` is an ESV interlinear (STEP's TTESV word positions over the ESV 2016 text in
-study-notes.db): which English word renders which Hebrew or Greek word, for checking, never quoting.
-
-**For other multi-lookup work, use `research_batch_run`**: it dispatches to the same library functions over one connection per
-database rather than reopening for each call (measured 9x faster across twelve
-study-notes.db lookups), enforces a wall-clock budget that can actually interrupt a slow
-query, and reports each request's status separately — one unreachable source never fails
-the batch. An `unavailable` result says how to fix it; it is never licence to answer from
-memory.
-
-**Genealogy data** (`utils/` — stdlib-only, run from repo root):
-
-```bash
-python3 utils/validate_genealogy.py       # run after hand-editing docs/data/genealogy/*.json. Exits
-                                          # non-zero only on a missing REQUIRED field; dangling
-                                          # child ids, optional-field gaps and per-variant year
-                                          # coverage are reported as warnings, because that
-                                          # non-uniformity is legitimate content the components
-                                          # must guard against rather than a data error.
-python3 utils/generate_recent_updates.py  # regenerate New this month / Recently Updated (page + homepage), docs/data/published.json and the RSS feed docs/content/feed.xml from git log; runs automatically in CI, so a manual run is only needed to preview locally
-python3 utils/refresh_frontmatter_provenance.py  # fill date_created/date_modified/ai_provider_models on hand-written pages from git history -- run BEFORE committing a new or revised page and stage its edit with yours (--check reports drift without writing)
-```
-
-**Deploy**: `.github/workflows/deploy.yml` runs `utils/generate_recent_updates.py`, then `npm ci`
-+ `npm test` + `npm run build:tools` in `app/` (**before** the mkdocs build — `build:tools` writes
-the React bundle into `docs/content/assets/js/`, which mkdocs then copies like any other asset),
-then `mkdocs build --site-dir site`, and deploys to **Cloudflare Workers** (`wrangler deploy`, via
-`cloudflare/wrangler-action@v3` — pinned to `wranglerVersion: '4'`, since the action's unpinned
-default silently installs an old Wrangler that can't read an assets-only `wrangler.jsonc`) on push
-to `main`. One build produces the whole site; there is no stitch step. This replaced a GitHub Pages
-deploy in September 2026 — same domain, same build, only the last step changed. See
-[docs/dev/cloudflare-migration.md](docs/dev/cloudflare-migration.md) for the full migration record.
-It is **path-filtered to `docs/**`, `app/**`, `mkdocs.yml`, `wrangler.jsonc`, and the workflow
-file** — a commit touching only `references/` or `utils/` deploys nothing. If such a change needs
-to reach the live site (e.g. re-running `commentary_index.py` wrote into `docs/content/`, or you
-want a fresh recent-updates page), either include the `docs/` edit in the same commit or trigger
-the workflow manually (`workflow_dispatch`).
-
-## Architecture
-
-- **One site build.** esbuild writes both tool bundles into `docs/content/assets/js/` before the
-  mkdocs build, so mkdocs treats them as ordinary assets and a single pass produces every page.
-  This replaced a two-project split (mkdocs + Astro, stitched at deploy time) that let the halves
-  disagree about the site root and silently 404 every tool asset in 2026-08. Keep it that way: a
-  second build system is how that class of bug comes back.
-- **The site is readable by AI assistants, and the gospel comes first.** `hooks/llms.py` writes
-  `llms.txt` (opening with the home page's gospel section), a markdown copy of every page at its URL
-  plus `index.md`, the FAQ's question list from each study's `questions:` frontmatter, and the study
-  skills at `/skills/`. The **public connector** is an MCP server at `/mcp` (Streamable HTTP,
-  stateless, read-only): `app/src/connector/`, bundled by `npm run build:worker` into
-  `app/dist/worker.js`, the site Worker's `main`, which `wrangler.jsonc` runs only for `/mcp`. It
-  reads the site's own built files through the ASSETS binding: `assets/lang/` from
-  `export_connector.py`, the pop-up data, `assets/studies-index.json` and `assets/gospel.json` from
-  the hook, `assets/search/` (the site search's index re-cut by the hook into per-word files, so
-  `search_studies` reads the full text of every section a few words at a time), and the chronology bundled from `app/src/utils/chronology.js`. So it is never staler
-  than the deploy, except the language data, which changes only when re-exported and published.
-  `npm run test:connector` (CONNECTOR_SITE=<built site>) runs in CI after the mkdocs build. Serve
-  open-tier data and the CC BY-NC scrolls only; study-notes.db and TWOT never leave this machine.
-  [For AI Assistants](docs/content/about/for-ai-assistants.md) is the human-readable side.
-- **Every Bible reference and Strong's tag on a page pops up.** `app/src/entries/popups.js`, loaded
-  site-wide through `extra_javascript`, scans the rendered page (not the markdown) with
-  `app/src/utils/scriptureRefs.js` and opens a card: the verse (WEB), its context, OpenBible
-  cross-references and the studies that treat it; or, for a word, its lexicon entry, counts, every
-  place a rare word occurs, and the studies that discuss it. So **references are written as plain
-  text and never linked** — a link hides a reference from the scanner. Blue Letter Bible links were
-  removed site-wide on 2026-09-27; keep one only as a deliberate send-off for follow-up study.
-  The pop-up works alongside the prose, never instead of it. Quote what the argument stands on,
-  since studies are read aloud and the pop-up shows the site's reading translation (the BSB,
-  set once in `references/sources.toml` `[reading_translation]`), and cite what it only points to
-  (develop-bible-study formatting.md).
-  **Every reference names its book** except a continuation in the same citation ("(Revelation 21:2,
-  9; 22:17)"). The pop-up resolves an older bare "(5:1)" from the paragraph, a table's column header,
-  the quotation, the heading, then the page's `primary_passage` (which `hooks/popups.py` writes onto
-  the page), but an edit that moves the reference before it repoints it silently. A
-  Strong's tag also opens from the word in front of it and from that word's later mentions.
-  Every other Greek or Hebrew word on the page, inflected forms and quoted sentences included,
-  opens through the form index (`assets/popups/forms/`, every form in OSHB, MACULA Greek and the
-  LXX lemmas mapped to its number). A form that belongs to two words links only when the page has
-  tagged one of them, so an explicit tag always decides. Hebrew in running text is set in Noto
-  Serif Hebrew at 1.2em (`hebrew.css`), and the script gives Hebrew and Greek words a `lang` so a
-  screen reader voices them in the right language.
-  A verse card switches between the reading translation, the Hebrew or Greek the BSB translates
-  (the Berean Interlinear's text, table `interlinear_words`), the same word by word with a
-  transliteration and the BSB's English under each word, and Brenton's Septuagint (OT) or
-  Salkinson-Ginsburg's 1886 Hebrew (NT, labelled a translation); the reader's choice is remembered.
-  In the BSB view each English word opens the word it renders, and a NT verse that quotes the
-  Septuagint shows it with the shared words marked. Data: `assets/popups/original/<Book>/<c>.json`,
-  in the BSB's numbering; every word opens its card with that occurrence's own parsing (MACULA).
-  `data-ref="…"` and `data-strongs="…"` spans mark what the text cannot say on its own. The data is
-  in two halves by where it can be built: `references/build/export_popups.py` writes the Bible
-  text, cross-references and lexicon from `bible-text.db` into `docs/content/assets/popups/`
-  (committed, since CI cannot rebuild the database; open-tier sources only, because it ships to the
-  browser), and `hooks/popups.py` writes the study index from frontmatter and page text on every
-  build, after `draft_pages.py`, so a draft never appears in a pop-up. Word counts match on the
-  exact Strong's id, as `bible_concordance` does, so a pop-up agrees with the count a study was
-  checked against. A word opened from a form on the page also gets that form's grammar in plain
-  English (`parse/` + `grammar.json`, STEP's TEGMC/TEHMC), and a name gets who it is (TIPNR's
-  individuals, family, and a link into the family tree where `genealogy_check.py` matches one) and
-  its other testament's spelling (Jesse: H3448 in the OT, G2421 in the NT).
-- **Content frontmatter is the integration point.** `app/scripts/build-events.js` reads
-  `docs/content/**/*.md` frontmatter (as the first half of `build:tools`) to generate
-  `docs/data/events.json`, which the timeline bundle imports at build time. `references/build/commentary_index.py` and `section_index.py` also read it to
-  regenerate auto-sections of *other* committed markdown files, bounded by
-  `<!-- *-index:auto-start/end -->` markers — hand-written prose outside those markers is preserved,
-  so it's safe to re-run them after editing content.
-- **`draft: true` is enforced by `hooks/draft_pages.py`, not by mkdocs.** MkDocs has no native
-  draft support for ordinary pages (mkdocs-material's is blog-plugin only, and this site has no
-  blog), so for a long time the flag was honoured *only* by this repo's own scripts —
-  `section_index.py`, `commentary_index.py` and `generate_recent_updates.py` all hid drafts from
-  their generated lists, while mkdocs went on building, publishing, nav-linking and search-indexing
-  the page itself. Drafts therefore looked unpublished while being fully reachable; three were live
-  on `the-way.lewy.au` that way before it was spotted (2026-09-01). The hook drops draft pages at
-  `on_files` during `mkdocs build`/`gh-deploy` and keeps them under `mkdocs serve`, so local preview
-  still works. Two consequences: a published page that links to a draft **builds clean under
-  `mkdocs build --strict` and ships a dead link** — the draft is dropped, no warning is raised, and
-  the link renders as a raw `href="<draft>.md"` that 404s on the live site (verified 2026-10-03 with
-  `end-of-the-age.md`). Nothing catches it, so never link a draft from a published page: commit the
-  linking edits in the same commit that flips the draft to `draft: false`. And a draft `index.md`
-  takes its directory's landing page down with it, so finish a section index rather than drafting
-  it. `build-events.js` still does **not** filter drafts, so a
-  `draft: true` study with `gregorian_year` frontmatter can still plant a timeline entry.
-- **Two SQLite pipelines under `references/`, deliberately isolated by trust tier**:
-  `bible-text.db` (open/restricted-nc sources; gitignored but built *inside* the repo tree) vs.
-  `study-notes.db` (commercial study-Bible commentary, `quotation-only`; built entirely *outside*
-  the repo tree, on an external volume). Both are queried through the same `lookup_*` function
-  pattern that `mcp_server.py` re-exposes — see [references/README.md](references/README.md) before
-  adding a new source or query.
-- **`references/open-data/` vs `references/restricted-data/` submodules partition by license
-  tier** — the directory a source lives in *is* the license audit boundary; never move a source
-  between them.
-- **Four content skills:** new content goes through **develop-bible-study**
-  (`.claude/skills/develop-bible-study/SKILL.md`), which tracks resumable per-study progress in
-  `references/study-state/<slug>.yml`; an already-drafted or already-published file goes through
-  **review-bible-study** (`.claude/skills/review-bible-study/SKILL.md`), which re-verifies quotes,
-  citations, and word studies against source. Reach for review, not develop, when the ask is
-  "audit / fact-check / critique" rather than "write". A third, **read-bible-study**
-  (`.claude/skills/read-bible-study/SKILL.md`), answers the question neither of those does —
-  *can it be read?* It restructures an existing file (headings, grouping, placement) under one
-  governing rule, **change no sentence**, which is why its output needs no re-verification and
-  why it cannot live inside review, whose whole job is to change what is wrong. Run it last, and
-  in a different session from the one that drafted the file: judging your own composition order
-  as a reader is the one thing the author cannot do. A fourth, **simplify-bible-study**
-  (`.claude/skills/simplify-bible-study/SKILL.md`), shrinks a study under the rule **add
-  nothing**: it names what the study is trying to say, maps every section against that, and
-  recommends forking tangents into new studies, merging repeated points and tightening wordy
-  passages, then applies what the author approves. It exists because every other pass adds words
-  (`bride-of-christ.md` went from 4,362 to 14,393 in three weeks). Validator Check 23 warns when a
-  study passes its `word_budget` (state file, default 4,000). The four answer *build it / is it
-  true? / can it be read? / is it the right size?*
-- **One-minute comics** (`.claude/skills/one-minute-comic/SKILL.md`) tell a study's point in three to
-  six panels. A comic is data, `docs/data/comics/<slug>.toml`, drawn by `utils/build_comics.py` from
-  the reusable cast, poses, scenes and layouts in `utils/lib/comic.py`; every bubble is the ESV's
-  wording or marked "condensed" from the verses its panel names.
-- **Youth pages** (`.claude/skills/youth-bible-study/SKILL.md`) cut a published study down for
-  readers aged 8 to 16, under the rule **say nothing the study does not**. A youth page is data,
-  `docs/data/youth/<slug>.toml`, which `hooks/youth.py` writes onto `docs/content/youth/<slug>.md`
-  in a fixed shape (big idea, a four-panel comic with a phone layout, a tab per age band, a key
-  word, a memory verse, a prayer). The full study is the leader's notes, and the page links to it.
-- **Every study with a point and discussion questions gets a printable group sheet**
-  (`hooks/study_sheet.py`): four A4 pages at 12 pt, two sheets double-sided, for a 40-minute
-  group, in a collapsed block under the questions (a printer icon by the title jumps to it). It is assembled from the rendered study (the `**In one sentence:**`
-  thesis, `primary_passage` in the reading translation, the first comic or drawn SVG, the Study outline, the
-  questions, Be Transformed, the first memory verse, the prayer), so it says nothing the study
-  does not. The sheet is the group's; **the study itself is the leader's notes** — one set of
-  notes per study, with no separate leader's guide to drift from it. **The questions sit under the Study outline's steps** (the step whose section cites the
-  same verses), and **the facet labels mark Be transformed**, which closes the sheet, and place the
-  rest on the clock when a study has no outline (language and context → Discover, Christ and the
-  hard part → Wrestle): two more reasons a study should carry an outline and its question set
-  facet labels (Checks 22, 25). A **Two pages** option pours Open, the passage, each step with its
-  questions, Be transformed and the point across one double-sided sheet. A study needs no change to get a sheet; a
-  weak sheet is a sign of a missing thesis, outline or facet label. See
-  [docs/dev/study-sheets.md](docs/dev/study-sheets.md).
-- **A study series is a page with a `series:` frontmatter block** (`hooks/series.py`), listing
-  studies from any section in the order a group takes them, one a week. A study keeps its one home
-  in the taxonomy and only gets pointed at, so it can sit in several series; never move or copy a
-  study into `series/`. The hook writes the weeks, the hub at `/series/` grouped by `cut`, and a
-  "Week 2 of 7" line on each member study. A `planned` week, or a draft study, shows as *coming*
-  and is never linked, which keeps Check 24's rule for links a hook writes. A series' `why` lines
-  are descriptive; whether a series is worth running is the author's call. Field reference:
-  [docs/CONTENT_GUIDE.md](docs/CONTENT_GUIDE.md#series).
-- **An exemption in a checking tool carries its justification with it, or it is a hole.** Two of this
-  repo's checks were defeated by an unrecorded exemption rather than by a missing check. The diagram
-  sweep skipped `timeline` blocks because they "size themselves" — they do not, and five stayed
-  unreadable through the pass built to catch exactly that. The `notes` table was empty in every
-  build for months because nothing asserted a declared table has rows. So: `MAY_BE_EMPTY` in
-  `references/build/tests/test_invariants.py` is a dict, not a set, and the value is the reason;
-  a skipped case in `validate-content.js` gets a comment saying why. A reader who cannot see the
-  reason cannot tell an exemption from an oversight, and neither can the next sweep.
-- **`references/biblefacts/` is raw, unvetted input** — transcripts and notes captured from
-  third-party teaching (currently Dead Sea Scrolls material). It is not part of either SQLite
-  pipeline and is not covered by `references/README.md`'s license tiers. Treat it as a lead to
-  chase down in a primary source, never as a citable reference in a study.
-- **`utils/generate_recent_updates.py` derives "recently updated" purely from git log** (no
-  hand-maintained date frontmatter field) and writes into four marker pairs: "New this month" and
-  "Recently updated" on `docs/content/about/recent-updates.md`, and a teaser of each on the homepage
-  (`docs/content/index.md`). It runs automatically in CI right before `mkdocs build`, so the page
-  is fresh on every deploy without anyone needing to remember to regenerate it — unlike
-  `commentary_index.py`/`section_index.py`, which are manual, this one isn't. **"New" means first
-  published**: the commit that set `draft: false` (or the first commit, if the page was never a
-  draft), never `date_created`, which would date a study drafted for weeks from its first draft.
-  It also writes those dates to `docs/data/published.json` (committed), and `hooks/new_pages.py`
-  reads that file to put a "New" line under a new page's title and material's `status: new` icon
-  beside it in the nav, for the same 30-day window. The hook reads the file, never git, so
-  `mkdocs serve` stays fast; run the script to refresh the badges locally.
-- **`utils/refresh_frontmatter_provenance.py` is the other git-derived writer**, and unlike
-  `generate_recent_updates.py` it is *manual* — it writes into the frontmatter of the ~168
-  hand-written pages (`date_created`, `date_modified`, `ai_provider_models`), so running it in CI
-  would mean CI rewriting committed source. `validate-content.js` check 17 closes the gap instead,
-  warning when a page's `date_modified` has fallen behind its last commit. Scope is defined by the
-  absence of `commentary-index:auto-start`: the ~789 generated cross-reference pages (724 of them
-  `commentaries/<book>/chapter-NNN.md`, which `docs/overrides/` marks `noindex` and leaves out of
-  `sitemap.xml`) are exempt,
-  since a provenance record on a file a script writes on demand records the script run, not
-  authorship. **It runs before a commit, not after** — a dirty file gets today's date, so staging
-  its edit with the content edit makes the two agree; run after committing and it can never
-  converge, because writing the dates is itself a change to every page.
-
-## Standards
-
-- Use UTF-8 encoding in scripts
+| For | Read |
+|---|---|
+| Every command, the validator's 26 checks, the bible-references tools | [docs/dev/commands.md](docs/dev/commands.md) |
+| How the site is built: one build, the timeline's chronology facts, pop-ups, drafts, the connector, generated pages, sheets, series, youth pages | [docs/dev/architecture.md](docs/dev/architecture.md) |
+| Sources, licence tiers, how to query each database | [references/README.md](references/README.md) |
+| Frontmatter, series and tags | [docs/CONTENT_GUIDE.md](docs/CONTENT_GUIDE.md) |
+| Prose rules and their evidence | `.claude/skills/develop-bible-study/style-guide.md` |
+| How the skills are kept in step with the repo | `.claude/skills/README.md` |

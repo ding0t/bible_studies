@@ -16,10 +16,11 @@ the documents it points to, and those win where the two differ.
   and the verse and word pop-ups that run on every page.
 - **Chronology data** lives in `docs/data/`: `chronology.json` holds every dated event once, and
   `genealogy/` holds the people. Each fact is stored once and the other calendar is derived; see
-  the "One set of chronology facts" note in [`AGENTS.md`](../../AGENTS.md) before editing either.
+  the "One set of chronology facts" note in [architecture.md](architecture.md) before editing either.
 
-[`AGENTS.md`](../../AGENTS.md) (also loaded as `CLAUDE.md`) is the full description of the site,
-its commands and its architecture.
+[`AGENTS.md`](../../AGENTS.md) (also loaded as `CLAUDE.md`) is the standing brief: the essentials and
+where the rest lives. The full commands are in [commands.md](commands.md) and the architecture in
+[architecture.md](architecture.md).
 
 ## Writing a study
 
