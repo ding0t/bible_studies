@@ -1,0 +1,216 @@
+slug: "the-thousand-years"
+title: "The Thousand Years: What the Saints Do When Christ Reigns"
+status: review
+target_path: "docs/content/last-things/the-thousand-years.md"
+backlog: "5.10 The millennium: the thousand years and what the saints do in them"
+
+primary_passage: "Revelation 20:1-10"
+supporting_passages:
+  - "Psalm 2:6-9"
+  - "Psalm 72:1-17"
+  - "Isaiah 2:2-4"
+  - "Isaiah 11:1-10"
+  - "Isaiah 24:21-23"
+  - "Isaiah 65:17-25"
+  - "Micah 4:1-5"
+  - "Zechariah 14:9, 16-19"
+  - "Daniel 7:9, 18, 22, 27"
+  - "Revelation 2:26-27; 3:21; 5:10; 19:11-21"
+  - "Luke 19:15-19"
+  - "Matthew 19:28; Luke 22:29-30"
+  - "1 Corinthians 6:2-3; 2 Timothy 2:12"
+sibling_studies:
+  - {slug: "last-things/day-is-a-thousand-years.md", role: cited, use: link, note: "Already quotes Revelation 20:2-7 and makes the six-fold chilia ete / bounded-period case against the amillennial reading (#revelation-20-the-rest-counted-in-thousands); also quotes 2 Enoch 33:1. Link for the seventh-day frame and 2 Enoch rather than re-quote."}
+  - {slug: "last-things/new-heaven-and-new-earth.md", role: primary, use: link, note: "Covers Revelation 20:7-21:8, the order after the thousand years (#after-the-thousand-years), Isaiah 65:20 telescoping (#isaiah-6520-and-the-telescope), Booths and the eighth day. Link for what follows the release and for Isaiah 65:17-20."}
+  - {slug: "last-things/your-kingdom-come.md", role: cited, use: build-on, note: "Argues Jesus reigns now from the Father's throne and takes David's throne at His return (#at-his-return-davids-throne). This study builds on it: what that reign on David's throne looks like and who shares it."}
+  - {slug: "christian-life/first-take-the-log-out.md", role: cited, use: link, note: "Treats 1 Corinthians 6:2-3, Matthew 19:28, Daniel 7:22 and the krima edothe of Revelation 20:4 (#the-saints-who-will-judge-the-world-and-angels). Link, one sentence."}
+  - {slug: "last-things/judgment-seat-of-christ.md", role: primary, use: link, note: "Rewards given at the judgment seat; crowns named. Link for where the assignments of Luke 19:17-19 are handed out."}
+  - {slug: "feasts/tabernacles.md", role: cited, use: link, note: "Treats Zechariah 14:16-19 at length (#zechariah-14). NB it states 'Ezekiel's temple vision, which this site also reads of the kingdom' -- see open_questions on Ezekiel 40-48."}
+  - {slug: "last-things/tribulation.md", role: cited, use: link, note: "The week that ends at Revelation 19; the tribulation saints of Revelation 20:4."}
+  - {slug: "christian-life/true-worship.md", role: cited, use: none, note: "Mentions Zechariah 14 and Isaiah 2 worship in the kingdom; also says dispensational readers 'this site among them' place Ezekiel 40-48 in the thousand years -- see open_questions."}
+  - {slug: "last-things/olivet-discourse-parables.md", role: cited, use: none, note: "Talents (Matthew 25:21) and the minas cousin; passing."}
+  - {slug: "last-things/rapture-in-the-early-church.md", role: prose, use: enrich, note: "DRAFT. Has 'A kingdom on earth' (Papias via Eusebius, Justin, Irenaeus, Tertullian). Not linked because it is a draft (Check 24). Link both ways when it is published."}
+  - {slug: "last-things/heaven-and-earth-will-pass-away.md", role: cited, use: none, note: "Quotes 1 Enoch's Apocalypse of Weeks 93:4 and 91:15-17 for the new heaven; this study quotes 91:12-13 (the eighth week) instead, so no repetition."}
+genre: [apocalyptic, prophets, psalm, topical]
+
+thesis: "When Jesus returns He will reign on this earth for a thousand years, with Satan bound and His people raised to reign beside Him, so that every promise God made about this world is kept on this world; the faithfulness He asks of you now is the first part of the work He will give you then."
+outline:
+  - {section: "Revelation 20, in its order", says: "The chapter follows the return of Revelation 19: Satan bound, thrones, the first resurrection, a reign, a release and a last rebellion. Word studies on ezesan and anastasis."}
+  - {section: "Three readings of the thousand years", says: "Amillennial, postmillennial and premillennial readings each with their textual case; where the study lands and how firmly."}
+  - {section: "What the prophets saw", says: "Psalm 2 and 72, Isaiah 2/Micah 4, Isaiah 11, Isaiah 24, Isaiah 65 and Zechariah 14 picture a King reigning over an earth not yet made new."}
+  - {section: "What the saints do", says: "Reign and judge, govern, serve as priests, worship, teach, build and plant -- each marked stated or inferred, and who it is stated of."}
+  - {section: "The temple Ezekiel saw", says: "Names the open question and four answers; takes no position."}
+  - {section: "Background: what Jews and early Christians expected", says: "1 Enoch, 2 Enoch, 2 Baruch, Papias via Irenaeus behind the warning; they show expectation, carry no claim."}
+  - {section: "What the reign shows about God", says: "God keeps His word to the earth, to His Son and to His people; so you may be faithful in little."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "Backlog 5.10 is the brief. No primary sibling on Revelation 20:1-10 (judgment-seat-of-christ is primary on 20:11-15; new-heaven-and-new-earth on 20:7-21:8), so a new study rather than a revision."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Revelation: John on Patmos to seven churches of Asia (Revelation 1:4, 9), under pressure; apocalyptic, steeped in Daniel 7 and Ezekiel 38-39. Psalm 72 is titled 'Of Solomon', a royal prayer whose scope (72:8, 11, 17) exceeds Solomon's reign. Isaiah 2:2-4 / Micah 4:1-5 are shared oracles of 'the latter days'. Zechariah 14 is post-exilic, set on the day the LORD returns."
+    literary_context:
+      done: true
+      notes: "BSB sections: 20:1-6 'Satan Bound', 20:7-10 'Satan Cast into the Lake of Fire' (editorial). Unit 19:11-20:15: rider on the white horse; beast and false prophet into the lake (19:20); dragon bound (20:1-3); thrones and reign (20:4-6); release and Gog/Magog (20:7-9); devil into the lake 'where the beast and the false prophet were' (20:10); great white throne (20:11-15). Amillennial recapitulation case: 'the battle' (eis ton polemon) in 16:14, 19:19 and 20:8, and Ezekiel 38-39 imagery in both 19:17-21 and 20:8."
+    content_word_studies:
+      done: true
+      notes: "See terms."
+      terms:
+        - {word: "ἔζησαν", language: greek, transliteration: "ezēsan", strongs_id: "G2198", gloss: "they came to life / lived", notes: "Aorist indicative of zaō in both 20:4 and 20:5. Aorist of zaō in Revelation: 2:8 (Christ, 'died and came to life'), 13:14 (the beast, 'yet lived'), 20:4, 20:5. ULT 'they lived', BSB 'they came to life'. John 5:25 uses future zēsousin of spiritual life -- the amillennial parallel."}
+        - {word: "ἀνάστασις", language: greek, transliteration: "anastasis", strongs_id: "G386", gloss: "resurrection", notes: "42x NT (MACULA SBLGNT); Revelation only 20:5-6. Of the other 40, all but Luke 2:34 ('fall and rising of many') name a rising from death."}
+        - {word: "χίλια ἔτη", language: greek, transliteration: "chilia etē", strongs_id: "G5507", gloss: "a thousand years", notes: "chilioi in Revelation 20:2,3,4,5,6,7 -- six times; covered by day-is-a-thousand-years."}
+        - {word: "κρίμα", language: greek, transliteration: "krima", strongs_id: "G2917", gloss: "judgment / authority to judge", notes: "krima edothē autois (20:4), echoing Daniel 7:22; ULT 'judgment', BSB 'authority to judge'. Covered by first-take-the-log-out."}
+        - {word: "ποιμαίνω", language: greek, transliteration: "poimainō", strongs_id: "G4165", gloss: "shepherd, rule", notes: "Rev 2:27; 12:5; 19:15 quote Psalm 2:9 with LXX Poimaneis; 7:17 'will shepherd'. MT tero'em from ra'a' (H7489, TWOT 2192 'break'); same consonants can be read from ra'ah (H7462, TWOT 2185 'pasture'), which is how the LXX read them."}
+        - {word: "תּוֹרָה", language: hebrew, transliteration: "torah", strongs_id: "H8451", gloss: "instruction, law", notes: "Isaiah 2:3 / Micah 4:2: 'that he may teach us' is yorenu, Hiphil of yarah (H3384), and torah is TWOT 910d under the same root 910. The LORD is the teacher."}
+        - {word: "סֻכּוֹת", language: hebrew, transliteration: "sukkot", strongs_id: "H5521", gloss: "booths", notes: "Zechariah 14:16, 18, 19."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Revelation's numbers: the site reads Revelation's time-spans as real lengths (tribulation.md). The sequence (return, then reign, then release) is the firmer exegetical ground; the exact length is held as the site's reading."
+    theological_principle:
+      done: true
+      notes: "God keeps His promises about this earth on this earth: to His Son (Psalm 2:8), to Israel and the nations (Isaiah 2; Zechariah 14), and to His servants, whose faithfulness now is rewarded with a share in the reign (Luke 19:17; 2 Timothy 2:12)."
+    application_draft:
+      done: true
+      notes: "Faithfulness in little (Luke 19:17); pray 'your kingdom come' as a request for His return; endure (2 Timothy 2:12)."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Daniel 7:9, 22", relation: "thrones; judgment given for the saints (allusion, Revelation 20:4)"}
+      - {ref: "Isaiah 24:21-23", relation: "rulers shut in a pit and punished 'after many days' -- OT pattern of an imprisonment and a later judgment"}
+      - {ref: "Matthew 12:29", relation: "binding the strong man -- amillennial reading of 20:2"}
+      - {ref: "Revelation 12:9; 1 Peter 5:8; 2 Corinthians 4:4", relation: "Satan active and deceiving now -- premillennial reply"}
+      - {ref: "John 5:25-29", relation: "spiritual life then bodily resurrection -- amillennial parallel; anastasis used only of the bodily (5:29)"}
+      - {ref: "1 Corinthians 15:23-24", relation: "each in his own order -- premillennial support, contested"}
+      - {ref: "Psalm 110:1-2; Matthew 13:33; Luke 18:8", relation: "postmillennial case and reply"}
+    translations_compared: ["ESV", "BSB", "ULT", "NA28", "SBLGNT", "LXX (Brenton)"]
+    divergences_noted: "Revelation 5:10: NA28 basileusousin 'they shall reign' (ESV); SBLGNT/WH basileuousin 'they reign'; TR 'we will reign' (BSB/MSB footnotes). Revelation 20:4 ezesan: ULT 'they lived', BSB/ESV 'came to life'."
+  drafting:
+    done: true
+    file: "docs/content/last-things/the-thousand-years.md"
+  review:
+    done: false
+    validated: true # 2026-11-15: npm run validate clean on this file except Check 17's provenance warning (ai_provider_models: [] -- written by a provenance run while the file is uncommitted; resolves when refresh_frontmatter_provenance.py runs before the commit). 3,989 readable words against 4,000. mkdocs build --strict passes (the draft is excluded from the build, so the eight cross-page anchors were checked against the built sibling pages by hand: all resolve). verify_claims --evidence: 81/81 ok.
+    notes: "Self-check only. Before draft: false, run review-bible-study in an independent session, then read-bible-study in another."
+
+proposed_backlinks: # do not edit siblings in this session; offer to the author
+  - {to: "last-things/day-is-a-thousand-years.md", where: "end of 'Revelation 20: the rest counted in thousands'", add: "One sentence: what happens in the thousand years and what the saints do in them is worked through in The Thousand Years."}
+  - {to: "last-things/new-heaven-and-new-earth.md", where: "'After the thousand years' opening, or 'Where the thousand years fits'", add: "Link back for the reign itself."}
+  - {to: "last-things/your-kingdom-come.md", where: "'At His return: David's throne'", add: "Link to this study for what the reign on David's throne looks like and who shares it."}
+  - {to: "christian-life/first-take-the-log-out.md", where: "'The saints who will judge the world and angels'", add: "Link for the full list of the saints' tasks with stated/inferred marking."}
+  - {to: "last-things/judgment-seat-of-christ.md", where: "'The crowns named' or 'What changes at the judgment seat'", add: "Luke 19:17-19's cities as the reward exercised in the reign; link here."}
+  - {to: "feasts/tabernacles.md", where: "'Zechariah 14'", add: "Link back. Also its sentence 'Ezekiel's temple vision, which this site also reads of the kingdom' pre-empts the open Ezekiel 40-48 decision."}
+  - {to: "last-things/tribulation.md", where: "'The tribulation saints'", add: "The martyrs of Revelation 20:4 reign; link here."}
+  - {to: "last-things/prophecy-chart.md", where: "backlog 5.11 rework", add: "Link into this study as backlog 5.11 already plans."}
+  - {to: "last-things/rapture-in-the-early-church.md (draft)", where: "'A kingdom on earth'", add: "Link both ways when that draft is published; this study quotes Irenaeus 5.33.3-4 directly and does not link it because it is a draft."}
+  - {to: "christian-life/true-worship.md", where: "Ezekiel 40-48 paragraph", add: "Its 'this site among them' places Ezekiel's temple in the thousand years, which the open decision has not settled."}
+
+open_questions:
+  - "Romans 15:12 quotes Isaiah 11:10 of the present Gentile mission; the study gives it one sentence (already/not yet). A reviewer may want more."
+  - "Statement-of-faith nuance (not a conflict): the statement says 'a literal thousand years'. The exegesis establishes the order (return, reign, release, judgment) firmly; the exact length is held as the site's reading, by analogy with Revelation's other periods. The study says so in 'Where this study stands'."
+  - "1 Enoch verse numbers follow the open-data file, which folds some of Charles's verses together (no 10:7, 14, 16, 22; Charles's 10:22 text sits in its 10:21). The study cites 10:12, 10:18-19, 10:21 as the file numbers them."
+  - "AUTHOR DECISION (shared with backlog 2.5): Ezekiel 40-48's temple and sacrifices. The study names the question and four answers and takes no position. NB two published pages already take one: feasts/tabernacles.md ('Ezekiel's temple vision, which this site also reads of the kingdom') and christian-life/true-worship.md ('dispensational readers, this site among them, place it in the thousand years'). Once decided, either this study's section or those two sentences need to change."
+  - "Who reigns: the resurrected saints of Revelation 20:4-6 (church, OT saints, tribulation martyrs on the dispensational reading) versus mortal survivors who populate the kingdom (Zechariah 14:16; Matthew 25:31-34). The study states this as the dispensational reading, marked; Walvoord (BKC on 20:4) holds the throne-sitters unidentified."
+  - "Fork candidate: the nations' Feast of Booths and the eighth day are already covered (tabernacles.md, new-heaven-and-new-earth.md); no fork needed. Fork candidate: a full exegesis of Gog and Magog (Ezekiel 38-39 vs Revelation 20:8) -- left out."
+  - "Drawn plate of the reign's sequence (backlog 5.10 last bullet) -- not drawn in this pass by instruction."
+  - "1 Enoch translator: the open-data file carries no translator metadata; its text and Charles's transposition of 91:12-17 after 93 match R. H. Charles (1917). Attributed as Charles; confirm against a Charles edition when convenient."
+
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway, 2008", note: "Notes on Revelation 20:1-6 and 20:4-5: the three views stated; premillennial appeal to the aorist of zao. Confirmed the study's framing; contributed the 'kai hoitines' point (and whoever) -- not used."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan, 2018", note: "Note on Revelation 20:4: thrones heavenly in Revelation (4:4; 11:16) for the amillennial case; zao in 2:8 and 13:14 for the premillennial. Contributed the 4:4/11:16 throne point used in the amillennial case."}
+  - {type: commentary, title: "The Bible Knowledge Commentary, Revelation", author: "John F. Walvoord", note: "On 20:4: martyrs are tribulation saints; the throne-sitters are not identified by John. Checked, not quoted."}
+  - {type: other, title: "1 Enoch 10:17-21; 91:12-13; 93:3-10", author: "trans. R. H. Charles (1917), via open-data/scrollmapper-bible-databases-deuterocanonical", note: "Quoted in the background section."}
+  - {type: other, title: "2 Baruch 29:5; 30:1", author: "trans. R. H. Charles (1896), same dataset", note: "Quoted."}
+  - {type: other, title: "2 Enoch 33:1", author: "same dataset", note: "Cited; quoted in day-is-a-thousand-years."}
+  - {type: other, title: "Irenaeus, Against Heresies 5.33.3-4", author: "Ante-Nicene Fathers vol. 1, $BIBLE_MEDIA_ROOT/reference/patristics/ante-nicene-fathers/anf01.txt", note: "Quoted: the elders who saw John; Papias book 4; and the figurative reading of Isaiah 11 some already held."}
+  - {type: lexicon, title: "TWOT", author: "Harris, Archer, Waltke", note: "Root numbers 910/910d (yarah/torah), 2192 (ra'a' break), 2185 (ra'ah pasture), via twot_strongs."}
+
+
+evidence:
+  - {id: rev20-3, what: "ESV Rev 20:3", tool: study_verse, args: {book: Rev, chapter: 20, verse: 3, work_id: esv-study-bible}, expect_contains: "so that he might not deceive the nations any longer", checked: 2026-11-15}
+  - {id: rev20-4, what: "ESV Rev 20:4", tool: study_verse, args: {book: Rev, chapter: 20, verse: 4, work_id: esv-study-bible}, expect_contains: "They came to life and reigned with Christ for a thousand years", checked: 2026-11-15}
+  - {id: rev20-5, what: "ESV Rev 20:5", tool: study_verse, args: {book: Rev, chapter: 20, verse: 5, work_id: esv-study-bible}, expect_contains: "The rest of the dead did not come to life until the thousand years were ended", checked: 2026-11-15}
+  - {id: rev20-6, what: "ESV Rev 20:6", tool: study_verse, args: {book: Rev, chapter: 20, verse: 6, work_id: esv-study-bible}, expect_contains: "they will be priests of God and of Christ", checked: 2026-11-15}
+  - {id: rev20-8, what: "ESV Rev 20:8", tool: study_verse, args: {book: Rev, chapter: 20, verse: 8, work_id: esv-study-bible}, expect_contains: "their number is like the sand of the sea", checked: 2026-11-15}
+  - {id: rev20-9, what: "ESV Rev 20:9", tool: study_verse, args: {book: Rev, chapter: 20, verse: 9, work_id: esv-study-bible}, expect_contains: "fire came down from heaven and consumed them", checked: 2026-11-15}
+  - {id: rev20-10, what: "ESV Rev 20:10", tool: study_verse, args: {book: Rev, chapter: 20, verse: 10, work_id: esv-study-bible}, expect_contains: "where the beast and the false prophet were", checked: 2026-11-15}
+  - {id: rev19-20, what: "ESV Rev 19:20", tool: study_verse, args: {book: Rev, chapter: 19, verse: 20, work_id: esv-study-bible}, expect_contains: "These two were thrown alive into the lake of fire", checked: 2026-11-15}
+  - {id: rev19-21, what: "ESV Rev 19:21", tool: study_verse, args: {book: Rev, chapter: 19, verse: 21, work_id: esv-study-bible}, expect_contains: "And the rest were slain by the sword that came from the mouth of him who was sitting on the horse", checked: 2026-11-15}
+  - {id: rev2-8, what: "ESV Rev 2:8", tool: study_verse, args: {book: Rev, chapter: 2, verse: 8, work_id: esv-study-bible}, expect_contains: "who died and came to life", checked: 2026-11-15}
+  - {id: rev13-14, what: "ESV Rev 13:14", tool: study_verse, args: {book: Rev, chapter: 13, verse: 14, work_id: esv-study-bible}, expect_contains: "and yet lived", checked: 2026-11-15}
+  - {id: rev3-21, what: "ESV Rev 3:21", tool: study_verse, args: {book: Rev, chapter: 3, verse: 21, work_id: esv-study-bible}, expect_contains: "I will grant him to sit with me on my throne", checked: 2026-11-15}
+  - {id: rev5-10, what: "ESV Rev 5:10", tool: study_verse, args: {book: Rev, chapter: 5, verse: 10, work_id: esv-study-bible}, expect_contains: "and they shall reign on the earth", checked: 2026-11-15}
+  - {id: rev2-26, what: "ESV Rev 2:26", tool: study_verse, args: {book: Rev, chapter: 2, verse: 26, work_id: esv-study-bible}, expect_contains: "to him I will give authority over the nations", checked: 2026-11-15}
+  - {id: rev12-9, what: "ESV Rev 12:9", tool: study_verse, args: {book: Rev, chapter: 12, verse: 9, work_id: esv-study-bible}, expect_contains: "the deceiver of the whole world", checked: 2026-11-15}
+  - {id: rev1-6, what: "ESV Rev 1:6", tool: study_verse, args: {book: Rev, chapter: 1, verse: 6, work_id: esv-study-bible}, expect_contains: "and made us a kingdom, priests to his God and Father", checked: 2026-11-15}
+  - {id: rev21-22, what: "ESV Rev 21:22", tool: study_verse, args: {book: Rev, chapter: 21, verse: 22, work_id: esv-study-bible}, expect_contains: "And I saw no temple in the city, for its temple is the Lord God the Almighty and the Lamb", checked: 2026-11-15}
+  - {id: ps2-8, what: "ESV Ps 2:8", tool: study_verse, args: {book: Ps, chapter: 2, verse: 8, work_id: esv-study-bible}, expect_contains: "Ask of me, and I will make the nations your heritage", checked: 2026-11-15}
+  - {id: ps2-9, what: "ESV Ps 2:9", tool: study_verse, args: {book: Ps, chapter: 2, verse: 9, work_id: esv-study-bible}, expect_contains: "You shall break them with a rod of iron", checked: 2026-11-15}
+  - {id: ps72-8, what: "ESV Ps 72:8", tool: study_verse, args: {book: Ps, chapter: 72, verse: 8, work_id: esv-study-bible}, expect_contains: "May he have dominion from sea to sea", checked: 2026-11-15}
+  - {id: ps72-12, what: "ESV Ps 72:12", tool: study_verse, args: {book: Ps, chapter: 72, verse: 12, work_id: esv-study-bible}, expect_contains: "For he delivers the needy when he calls", checked: 2026-11-15}
+  - {id: ps72-14, what: "ESV Ps 72:14", tool: study_verse, args: {book: Ps, chapter: 72, verse: 14, work_id: esv-study-bible}, expect_contains: "and precious is their blood in his sight", checked: 2026-11-15}
+  - {id: ps72-17, what: "ESV Ps 72:17", tool: study_verse, args: {book: Ps, chapter: 72, verse: 17, work_id: esv-study-bible}, expect_contains: "all nations call him blessed", checked: 2026-11-15}
+  - {id: ps110-2, what: "ESV Ps 110:2", tool: study_verse, args: {book: Ps, chapter: 110, verse: 2, work_id: esv-study-bible}, expect_contains: "Rule in the midst of your enemies", checked: 2026-11-15}
+  - {id: isa2-3, what: "ESV Isa 2:3", tool: study_verse, args: {book: Isa, chapter: 2, verse: 3, work_id: esv-study-bible}, expect_contains: "that he may teach us his ways and that we may walk in his paths", checked: 2026-11-15}
+  - {id: isa2-4, what: "ESV Isa 2:4", tool: study_verse, args: {book: Isa, chapter: 2, verse: 4, work_id: esv-study-bible}, expect_contains: "they shall beat their swords into plowshares", checked: 2026-11-15}
+  - {id: isa11-9, what: "ESV Isa 11:9", tool: study_verse, args: {book: Isa, chapter: 11, verse: 9, work_id: esv-study-bible}, expect_contains: "for the earth shall be full of the knowledge of the LORD as the waters cover the sea", checked: 2026-11-15}
+  - {id: isa24-22, what: "ESV Isa 24:22", tool: study_verse, args: {book: Isa, chapter: 24, verse: 22, work_id: esv-study-bible}, expect_contains: "they will be shut up in a prison, and after many days they will be punished", checked: 2026-11-15}
+  - {id: isa65-20, what: "ESV Isa 65:20", tool: study_verse, args: {book: Isa, chapter: 65, verse: 20, work_id: esv-study-bible}, expect_contains: "the young man shall die a hundred years old", checked: 2026-11-15}
+  - {id: isa65-21, what: "ESV Isa 65:21", tool: study_verse, args: {book: Isa, chapter: 65, verse: 21, work_id: esv-study-bible}, expect_contains: "They shall build houses and inhabit them", checked: 2026-11-15}
+  - {id: isa65-22, what: "ESV Isa 65:22", tool: study_verse, args: {book: Isa, chapter: 65, verse: 22, work_id: esv-study-bible}, expect_contains: "my chosen shall long enjoy the work of their hands", checked: 2026-11-15}
+  - {id: mic4-4, what: "ESV Mic 4:4", tool: study_verse, args: {book: Mic, chapter: 4, verse: 4, work_id: esv-study-bible}, expect_contains: "but they shall sit every man under his vine and under his fig tree", checked: 2026-11-15}
+  - {id: zech14-9, what: "ESV Zech 14:9", tool: study_verse, args: {book: Zech, chapter: 14, verse: 9, work_id: esv-study-bible}, expect_contains: "And the LORD will be king over all the earth", checked: 2026-11-15}
+  - {id: zech14-16, what: "ESV Zech 14:16", tool: study_verse, args: {book: Zech, chapter: 14, verse: 16, work_id: esv-study-bible}, expect_contains: "everyone who survives of all the nations that have come against Jerusalem shall go up year after year to worship the King", checked: 2026-11-15}
+  - {id: zech14-17, what: "ESV Zech 14:17", tool: study_verse, args: {book: Zech, chapter: 14, verse: 17, work_id: esv-study-bible}, expect_contains: "there will be no rain on them", checked: 2026-11-15}
+  - {id: dan7-9, what: "ESV Dan 7:9", tool: study_verse, args: {book: Dan, chapter: 7, verse: 9, work_id: esv-study-bible}, expect_contains: "thrones were placed", checked: 2026-11-15}
+  - {id: dan7-22, what: "ESV Dan 7:22", tool: study_verse, args: {book: Dan, chapter: 7, verse: 22, work_id: esv-study-bible}, expect_contains: "judgment was given for the saints of the Most High", checked: 2026-11-15}
+  - {id: luke19-12, what: "ESV Luke 19:12", tool: study_verse, args: {book: Luke, chapter: 19, verse: 12, work_id: esv-study-bible}, expect_contains: "to receive for himself a kingdom and then return", checked: 2026-11-15}
+  - {id: luke19-13, what: "ESV Luke 19:13", tool: study_verse, args: {book: Luke, chapter: 19, verse: 13, work_id: esv-study-bible}, expect_contains: "Engage in business until I come", checked: 2026-11-15}
+  - {id: luke19-15, what: "ESV Luke 19:15", tool: study_verse, args: {book: Luke, chapter: 19, verse: 15, work_id: esv-study-bible}, expect_contains: "When he returned, having received the kingdom", checked: 2026-11-15}
+  - {id: luke19-17, what: "ESV Luke 19:17", tool: study_verse, args: {book: Luke, chapter: 19, verse: 17, work_id: esv-study-bible}, expect_contains: "you shall have authority over ten cities", checked: 2026-11-15}
+  - {id: luke2-34, what: "ESV Luke 2:34", tool: study_verse, args: {book: Luke, chapter: 2, verse: 34, work_id: esv-study-bible}, expect_contains: "the fall and rising of many in Israel", checked: 2026-11-15}
+  - {id: matt19-28, what: "ESV Matt 19:28", tool: study_verse, args: {book: Matt, chapter: 19, verse: 28, work_id: esv-study-bible}, expect_contains: "you who have followed me will also sit on twelve thrones, judging the twelve tribes of Israel", checked: 2026-11-15}
+  - {id: matt12-29, what: "ESV Matt 12:29", tool: study_verse, args: {book: Matt, chapter: 12, verse: 29, work_id: esv-study-bible}, expect_contains: "unless he first binds the strong man", checked: 2026-11-15}
+  - {id: matt13-33, what: "ESV Matt 13:33", tool: study_verse, args: {book: Matt, chapter: 13, verse: 33, work_id: esv-study-bible}, expect_contains: "till it was all leavened", checked: 2026-11-15}
+  - {id: matt25-21, what: "ESV Matt 25:21", tool: study_verse, args: {book: Matt, chapter: 25, verse: 21, work_id: esv-study-bible}, expect_contains: "I will set you over much", checked: 2026-11-15}
+  - {id: john5-25, what: "ESV John 5:25", tool: study_verse, args: {book: John, chapter: 5, verse: 25, work_id: esv-study-bible}, expect_contains: "and is now here, when the dead will hear the voice of the Son of God", checked: 2026-11-15}
+  - {id: eph2-6, what: "ESV Eph 2:6", tool: study_verse, args: {book: Eph, chapter: 2, verse: 6, work_id: esv-study-bible}, expect_contains: "and raised us up with him and seated us with him in the heavenly places", checked: 2026-11-15}
+  - {id: 1cor6-2, what: "ESV 1Cor 6:2", tool: study_verse, args: {book: 1Cor, chapter: 6, verse: 2, work_id: esv-study-bible}, expect_contains: "the saints will judge the world", checked: 2026-11-15}
+  - {id: 1cor15-25, what: "ESV 1Cor 15:25", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 25, work_id: esv-study-bible}, expect_contains: "For he must reign until he has put all his enemies under his feet", checked: 2026-11-15}
+  - {id: 1cor15-58, what: "ESV 1Cor 15:58", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 58, work_id: esv-study-bible}, expect_contains: "knowing that in the Lord your labor is not in vain", checked: 2026-11-15}
+  - {id: 2tim2-12, what: "ESV 2Tim 2:12", tool: study_verse, args: {book: 2Tim, chapter: 2, verse: 12, work_id: esv-study-bible}, expect_contains: "if we endure, we will also reign with him", checked: 2026-11-15}
+  - {id: 1pet5-8, what: "ESV 1Pet 5:8", tool: study_verse, args: {book: 1Pet, chapter: 5, verse: 8, work_id: esv-study-bible}, expect_contains: "prowls around like a roaring lion", checked: 2026-11-15}
+  - {id: 2cor4-4, what: "ESV 2Cor 4:4", tool: study_verse, args: {book: 2Cor, chapter: 4, verse: 4, work_id: esv-study-bible}, expect_contains: "has blinded the minds of the unbelievers", checked: 2026-11-15}
+  - {id: ezek43-11, what: "ESV Ezek 43:11", tool: study_verse, args: {book: Ezek, chapter: 43, verse: 11, work_id: esv-study-bible}, expect_contains: "if they are ashamed of all that they have done", checked: 2026-11-15}
+  - {id: ezek43-20, what: "ESV Ezek 43:20", tool: study_verse, args: {book: Ezek, chapter: 43, verse: 20, work_id: esv-study-bible}, expect_contains: "Thus you shall purify the altar and make atonement for it", checked: 2026-11-15}
+  - {id: ezek45-17, what: "ESV Ezek 45:17", tool: study_verse, args: {book: Ezek, chapter: 45, verse: 17, work_id: esv-study-bible}, expect_contains: "to make atonement on behalf of the house of Israel", checked: 2026-11-15}
+  - {id: heb10-18, what: "ESV Heb 10:18", tool: study_verse, args: {book: Heb, chapter: 10, verse: 18, work_id: esv-study-bible}, expect_contains: "there is no longer any offering for sin", checked: 2026-11-15}
+  - {id: heb9-13, what: "ESV Heb 9:13", tool: study_verse, args: {book: Heb, chapter: 9, verse: 13, work_id: esv-study-bible}, expect_contains: "for the purification of the flesh", checked: 2026-11-15}
+  - {id: exod19-6, what: "ESV Exod 19:6", tool: study_verse, args: {book: Exod, chapter: 19, verse: 6, work_id: esv-study-bible}, expect_contains: "a kingdom of priests", checked: 2026-11-15}
+  - {id: mal2-7, what: "ESV Mal 2:7", tool: study_verse, args: {book: Mal, chapter: 2, verse: 7, work_id: esv-study-bible}, expect_contains: "people should seek instruction from his mouth", checked: 2026-11-15}
+  - {id: rev7-9, what: "ESV Rev 7:9", tool: study_verse, args: {book: Rev, chapter: 7, verse: 9, work_id: esv-study-bible}, expect_contains: "from every nation", checked: 2026-11-15}
+  - {id: matt6-10, what: "ESV Matt 6:10", tool: study_verse, args: {book: Matt, chapter: 6, verse: 10, work_id: esv-study-bible}, expect_contains: "on earth as it is in heaven", checked: 2026-11-15}
+  - {id: 2tim3-16, what: "ESV 2Tim 3:16", tool: study_verse, args: {book: 2Tim, chapter: 3, verse: 16, work_id: esv-study-bible}, expect_contains: "All Scripture is breathed out by God", checked: 2026-11-15}
+  - {id: anastasis-nt, what: "anastasis 42x NT", tool: bible_concordance, args: {strongs: G386, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 42", checked: 2026-11-15}
+  - {id: anastasis-rev, what: "anastasis 2x Revelation (20:5, 6)", tool: bible_concordance, args: {strongs: G386, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 2", checked: 2026-11-15}
+  - {id: abyssos-rev, what: "abyssos 7x Revelation", tool: bible_concordance, args: {strongs: G12, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 7", checked: 2026-11-15}
+  - {id: chilioi-rev, what: "chilioi 9x Revelation, six of them 20:2-7 (11:3, 12:6, 14:20 the others)", tool: bible_concordance, args: {strongs: G5507, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 9", checked: 2026-11-15}
+  - {id: zao-rev2-8, what: "zao aorist of Christ at Rev 2:8", tool: study_verse, args: {book: Rev, chapter: 2, verse: 8, work_id: na28-greek-nt}, expect_contains: "ἔζησεν", checked: 2026-11-15}
+  - {id: zao-rev20-4, what: "ezesan in Rev 20:4 and 20:5 (NA28)", tool: study_verse, args: {book: Rev, chapter: 20, verse: 4, work_id: na28-greek-nt}, expect_contains: "καὶ ἔζησαν καὶ ἐβασίλευσαν", checked: 2026-11-15}
+  - {id: zao-rev20-5, what: "ouk ezesan Rev 20:5 (NA28)", tool: study_verse, args: {book: Rev, chapter: 20, verse: 5, work_id: na28-greek-nt}, expect_contains: "οὐκ ἔζησαν", checked: 2026-11-15}
+  - {id: rev5-10-na28, what: "NA28 Rev 5:10 future basileusousin", tool: study_verse, args: {book: Rev, chapter: 5, verse: 10, work_id: na28-greek-nt}, expect_contains: "βασιλεύσουσιν", checked: 2026-11-15}
+  - {id: rev5-10-sblgnt, what: "SBLGNT Rev 5:10 present basileuousin, and BSB footnote naming WH", tool: bible_verse, args: {book: Rev, chapter: 5, verse: 10}, expect_contains: "WH they reign upon", checked: 2026-11-15}
+  - {id: rev20-3-na28, what: "purpose clause hina me planese eti ta ethne", tool: study_verse, args: {book: Rev, chapter: 20, verse: 3, work_id: na28-greek-nt}, expect_contains: "ἵνα μὴ πλανήσῃ ἔτι τὰ ἔθνη", checked: 2026-11-15}
+  - {id: rev20-8-battle, what: "eis ton polemon at Rev 20:8 (also 16:14)", tool: study_verse, args: {book: Rev, chapter: 20, verse: 8, work_id: na28-greek-nt}, expect_contains: "συναγαγεῖν αὐτοὺς εἰς τὸν πόλεμον", checked: 2026-11-15}
+  - {id: rev16-14-battle, what: "eis ton polemon at Rev 16:14", tool: study_verse, args: {book: Rev, chapter: 16, verse: 14, work_id: na28-greek-nt}, expect_contains: "συναγαγεῖν αὐτοὺς εἰς τὸν πόλεμον", checked: 2026-11-15}
+  - {id: ps2-9-lxx, what: "LXX Ps 2:9 Poimaneis", tool: bible_verse, args: {book: Ps, chapter: 2, verse: 9, translation: ebible-grcbrent}, expect_contains: "Ποιμανεῖς αὐτοὺς ἐν ῥάβδῳ σιδηρᾷ", checked: 2026-11-15}
+  - {id: poimaino-rev2-27, what: "poimaino at Rev 2:27 (also 7:17, 12:5, 19:15)", tool: bible_concordance, args: {strongs: G4165, book: Rev, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 4", checked: 2026-11-15}
+  - {id: torah-twot, what: "torah is TWOT 910d, under yarah 910", tool: twot_strongs, args: {strongs_id: H8451}, expect_contains: "910d", checked: 2026-11-15}
+  - {id: raa-twot, what: "ra'a' break is TWOT 2192", tool: twot_strongs, args: {strongs_id: H7489}, expect_contains: "2192", checked: 2026-11-15}
+  - {id: raah-twot, what: "ra'ah pasture is TWOT 2185", tool: twot_strongs, args: {strongs_id: H7462}, expect_contains: "2185", checked: 2026-11-15}
+
+last_updated: "2026-11-15"
