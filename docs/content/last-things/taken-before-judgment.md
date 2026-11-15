@@ -5,9 +5,9 @@ description: "Enoch, Lot and Elijah were taken out before judgment reached them,
 tags: ["rapture", "genesis", "2-kings", "isaiah", "ezekiel", "1-peter", "2-peter", "luke", "hebrews", "dispensationalism", "person/enoch", "person/noah", "person/lot", "person/elijah", "method/typology", "method/word-study", "lang/hebrew", "lang/greek"]
 draft: false
 primary_passage: "Genesis 5:21-24"
-bible_references: ["Genesis 5:21-27", "Genesis 6:9", "Genesis 7:1", "Genesis 7:4-10", "Genesis 7:16", "Genesis 7:23", "Genesis 19:16", "Genesis 19:22-26", "Genesis 19:29", "2 Thessalonians 2:7", "2 Kings 2:3-11", "Psalm 49:15", "Psalm 73:24", "Isaiah 26:19-21", "Isaiah 54:9", "Ezekiel 14:14-20", "1 Peter 3:20", "Romans 5:14", "Luke 17:26-30", "Matthew 24:29", "Matthew 24:37-41", "Matthew 25:34", "1 Corinthians 15:51-52", "1 Thessalonians 1:10", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Hebrews 11:5-7", "2 Peter 2:4-9", "Jude 1:14-15", "Revelation 3:10"]
+bible_references: ["Genesis 5:21-27", "Genesis 6:9", "Genesis 7:1", "Genesis 7:4-10", "Genesis 7:16", "Genesis 7:23", "Genesis 19:16", "Genesis 19:22-26", "Genesis 19:29", "2 Thessalonians 2:7", "2 Kings 2:3-11", "Psalm 49:15", "Psalm 73:24", "Isaiah 26:19-21", "Isaiah 54:9", "Ezekiel 14:14-20", "1 Peter 3:20", "Romans 5:14", "Luke 17:26-30", "Matthew 24:29", "Matthew 24:37-41", "Matthew 25:34", "1 Corinthians 15:51-52", "1 Thessalonians 1:10", "1 Thessalonians 4:17", "1 Thessalonians 5:9", "Hebrews 11:5-7", "2 Peter 2:4-9", "Ezekiel 9:4", "Jude 1:14-15", "Revelation 3:10"]
 date_created: 2026-09-26
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
@@ -235,6 +235,13 @@ HROO-oh-my, G4506, 2:7). The rescuing verb is the one Paul uses of Jesus: "Jesus
 the wrath to come" (1 Thessalonians 1:10, ESV), ῥυόμενον (*rhyomenon*, G4506). This shows that God rescues as a settled
 part of His character. He had mercy on a lingering, compromised man, and He held back His own
 judgment until that man was safe.
+
+Peter also says what Sodom cost Lot: "as that righteous man lived among them day after day, he was
+tormenting his righteous soul over their lawless deeds that he saw and heard" (2 Peter 2:8, ESV).
+The verb ἐβασάνιζεν (*ebasanizen*, eh-ba-SAH-nee-zen, G928) is imperfect, so the torment went on
+day after day. It is the continuing grief that the participles of Ezekiel 9:4 describe in the men
+God marked before Jerusalem's judgment ([Those Who Sigh and
+Groan](../christian-life/those-who-sigh-and-groan.md)).
 
 Lot's rescue is also untidy. He is seized by the hand because he is slow to leave what he is about to
 lose, and his wife looks back (Genesis 19:26). The type pictures God's mercy. It says little in Lot's

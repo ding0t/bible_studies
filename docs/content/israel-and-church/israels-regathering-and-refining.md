@@ -5,9 +5,9 @@ description: "God gathers Israel to the land for His holy name's sake, then clea
 tags: ["dispensationalism", "tribulation", "ezekiel", "zechariah", "romans", "lang/hebrew", "lang/greek"]
 draft: false
 primary_passage: "Ezekiel 36:22-28; Zechariah 12:10-13:9"
-bible_references: ["Ezekiel 33:21", "Ezekiel 36:22-28", "Ezekiel 36:32", "Ezekiel 37:11-12", "Ezekiel 37:15-22", "Ezekiel 20:34-37", "Zechariah 1:1", "Zechariah 10:8-10", "Zechariah 10:6-7", "Ezekiel 38:8", "Ezekiel 20:38", "Ezra 7:6", "Romans 9:24", "Amos 9:11", "Isaiah 27:9", "John 19:35", "Zechariah 12:10", "Zechariah 13:1", "Zechariah 13:3", "Zechariah 13:7-9", "Amos 9:15", "Isaiah 11:11", "Isaiah 59:20", "Psalm 14:7", "Hosea 1:9-10", "Hosea 5:15", "Deuteronomy 4:30-31", "Jeremiah 30:7", "Daniel 12:1", "Numbers 25:8", "1 Samuel 31:4", "Matthew 24:15-20", "Matthew 26:31", "John 19:37", "Acts 1:6-7", "Acts 15:14-16", "Romans 9:25-26", "Romans 11:26-27", "Romans 11:29", "John 19:34", "Revelation 1:7"]
+bible_references: ["Ezekiel 33:21", "Ezekiel 36:22-28", "Ezekiel 36:31-32", "Ezekiel 37:11-12", "Ezekiel 37:15-22", "Ezekiel 20:34-37", "Zechariah 1:1", "Zechariah 10:8-10", "Zechariah 10:6-7", "Ezekiel 38:8", "Ezekiel 20:38", "Ezra 7:6", "Romans 9:24", "Amos 9:11", "Isaiah 27:9", "John 19:35", "Zechariah 12:10", "Zechariah 13:1", "Zechariah 13:3", "Zechariah 13:7-9", "Amos 9:15", "Isaiah 11:11", "Isaiah 59:20", "Psalm 14:7", "Hosea 1:9-10", "Hosea 5:15", "Deuteronomy 4:30-31", "Jeremiah 30:7", "Daniel 12:1", "Numbers 25:8", "1 Samuel 31:4", "Matthew 24:15-20", "Matthew 26:31", "John 19:37", "Acts 1:6-7", "Acts 15:14-16", "Romans 9:25-26", "Romans 11:26-27", "Romans 11:29", "John 19:34", "Revelation 1:7"]
 date_created: 2026-09-26
-date_modified: 2026-10-21
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -147,6 +147,11 @@ The regathering promises are specific, and one of them states a sequence.
 Gathering comes first (v. 24). Cleansing, the new heart and the Spirit come after (vv. 25-27). So a
 return to the land before national cleansing fits this prophecy's order. The new heart of verse 26 is
 regeneration, and God names Himself as the one who does it.
+
+Inside the cleansing the chapter gives a second order. The new heart and the Spirit come first
+(Ezekiel 36:26-27); then "you will loathe yourselves for your iniquities and your abominations"
+(Ezekiel 36:31, ESV). The grief follows the gift: God gives the heart, and the heart He gives
+grieves over sin ([Those Who Sigh and Groan](../christian-life/those-who-sigh-and-groan.md)).
 
 Amos promises a final planting from which Israel is "never again" uprooted (Amos 9:15, ESV), and
 Isaiah a recovery "a second time" (Isaiah 11:11, ESV).

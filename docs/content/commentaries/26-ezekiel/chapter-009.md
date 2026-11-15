@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 9:1-11 (primary passage)
+- [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 9:4
 <!-- commentary-index:auto-end -->
