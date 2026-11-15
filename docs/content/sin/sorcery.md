@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Deuteronomy 18:9-22"
 bible_references: ["Genesis 15:16", "Exodus 7:8-13", "Exodus 22:18", "Leviticus 19:31", "Leviticus 20:6", "Leviticus 20:27", "Numbers 23:23", "Deuteronomy 13:1-5", "1 Samuel 28:3-25", "1 Chronicles 10:13-14", "2 Kings 21:6", "2 Kings 23:24", "Isaiah 8:19-20", "Isaiah 44:24-26", "Isaiah 47:9-15", "Daniel 2:27-28", "Micah 5:12", "Nahum 3:4", "Malachi 3:5", "Matthew 2:1-12", "Acts 3:22-23", "Acts 8:9-24", "Acts 13:4-12", "Acts 16:16-18", "Acts 19:11-20", "Galatians 5:19-21", "Revelation 9:21", "Revelation 18:23", "Revelation 21:8", "Revelation 22:15"]
 date_created: 2024-04-24
-date_modified: 2026-11-08
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -44,7 +44,7 @@ His people to hear from Him — finally, through His Son Jesus.
 
 - He is the Prophet Deuteronomy 18:15 promised, the appointed alternative to every form of
   divination (Acts 3:22-26; 7:37).
-- Where his word advances, the magic books burn (Acts 19:19-20). Luke reports the two as one
+- Where His word advances, the magic books burn (Acts 19:19-20). Luke reports the two as one
   movement.
 
 ### Memory verses
@@ -204,7 +204,7 @@ Two are the legal texts themselves (Exodus 22:18; Deuteronomy 18:10). Of the rem
 one attaches to a foreign power or to an Israelite importing foreign religion: Egypt's court
 magicians (Exodus 7:11), Jezebel of Sidon (2 Kings 9:22), Manasseh (2 Chronicles 33:6), Babylon
 (Isaiah 47:9, 12; Daniel 2:2), and Nineveh, twice in one verse (Nahum 3:4). The last two are Micah
-5:12, where God promises to cut sorceries *out of* Israel, and Malachi 3:5, where he comes as a
+5:12, where God promises to cut sorceries *out of* Israel, and Malachi 3:5, where He comes as a
 swift witness against sorcerers in judgment.
 
 Kings' account of Manasseh uses four of Deuteronomy 18's other terms (2 Kings 21:6); only the
@@ -261,7 +261,7 @@ Isaiah adds a description of the practitioners that is easy to skim past. He cal
 (*mahgîm*, H1897) — ESV's "chirp and mutter." The first verb is used elsewhere of birds; the second
 covers moaning, growling, and low unformed sound.
 
-Set that against what God promises about his prophet: "I will put my words in his mouth, and he
+Set that against what God promises about His prophet: "I will put my words in his mouth, and he
 shall speak to them all that I command him" (Deuteronomy 18:18). The contrast is between noise that
 requires an interpreter and speech that can simply be heard and obeyed. The *NIV Biblical Theology
 Study Bible* reaches the same point on 18:14-22: the divine will is not found by searching in the
@@ -291,7 +291,7 @@ cannot recover a dream, and Daniel says so before interpreting it:
 > to the king the mystery that the king has asked, 28 but there is a God in heaven who reveals
 > mysteries, and he has made known to King Nebuchadnezzar what will be in the latter days. …
 
-Isaiah generalises it into a statement about God's character: he is the one "who frustrates the signs
+Isaiah generalises it into a statement about God's character: He is the one "who frustrates the signs
 of liars and makes fools of diviners… who confirms the word of his servant and fulfills the counsel
 of his messengers" (Isaiah 44:25-26). The two halves of that sentence are the two halves of
 Deuteronomy 18. Isaiah then turns it on Babylon directly, inviting her to try: "Stand fast in your
@@ -406,7 +406,7 @@ who practise such things "will not inherit the kingdom of God" (5:21).
 
 The *ESV Study Bible*'s note on Galatians 5:20 states the link between idolatry and sorcery better
 than a paraphrase would: both are attempts to reach the spiritual realm by humanly invented means,
-which have God as their supposed object while rejecting the way he has revealed for approaching him.
+which have God as their supposed object while rejecting the way He has revealed for approaching Him.
 That is Deuteronomy 18 restated for the church.
 
 ## What binds then, and what binds now
@@ -438,7 +438,7 @@ change of covenant; the penalty was never the church's to carry.
 ## Theological principle
 
 Sorcery is condemned in Scripture as a rival route: an attempt to obtain knowledge or power from a source other than the
-one God has appointed, and so a refusal of the way he has revealed for approaching him.
+one God has appointed, and so a refusal of the way He has revealed for approaching Him.
 
 Deuteronomy 18 states this in its own structure. The nations listen to fortune-tellers; Israel is to
 listen to the Prophet God will raise up. God's answer to divination was, and is, Christ — the Prophet

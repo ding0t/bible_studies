@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Job 40:15-24; Job 41:1-34"
 bible_references: ["Job 3:8", "Job 7:12", "Job 9:32-33", "Job 38:4-8", "Job 40:15-24", "Job 41:1-34", "Job 42:1-6", "Genesis 1:2", "Genesis 1:21", "Genesis 2:7", "Psalm 18:8", "Psalm 74:12-15", "Psalm 104:24-26", "Isaiah 27:1", "Ezekiel 29:3", "Romans 1:19-20", "Romans 11:33-36", "1 Timothy 2:5"]
 date_created: 2026-08-23
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -16,11 +16,11 @@ ai_provider_models:
 
 # Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41
 
-When God finally answers Job, he never mentions Job's suffering. He asks questions for four chapters, and he spends the last two of them on two animals — more words on these two than on the sea, the stars and the storehouses of snow combined.
+When God finally answers Job, He never mentions Job's suffering. He asks questions for four chapters, and He spends the last two of them on two animals — more words on these two than on the sea, the stars and the storehouses of snow combined.
 
 **In one sentence:** God shows Job two real creatures He made and Job cannot master, to show that He is sovereign over all He made and owes no one an account — so you can rest in who He is when He does not tell you why.
 
-**Behemoth and Leviathan were real animals.** The Lord points at them, says he made them, and asks Job whether he could hook one or put a leash on it — an argument that means nothing if the creatures are figures of speech. This study works through both chapters: what the Hebrew says about Behemoth's habitat, why the crocodile fails as Leviathan, Scripture's other four Leviathan texts, where the creatures may be attested outside the Bible, and what the Lord was doing by putting two animals where an explanation should have gone.
+**Behemoth and Leviathan were real animals.** The Lord points at them, says He made them, and asks Job whether he could hook one or put a leash on it — an argument that means nothing if the creatures are figures of speech. This study works through both chapters: what the Hebrew says about Behemoth's habitat, why the crocodile fails as Leviathan, Scripture's other four Leviathan texts, where the creatures may be attested outside the Bible, and what the Lord was doing by putting two animals where an explanation should have gone.
 
 ## Key Takeaways
 
@@ -43,7 +43,7 @@ Job's complaint before the whirlwind was that no one could bring him and God int
 
 ### Be Transformed
 
-- **Think.** God's answer to the hardest question in the book is a tour of the animal kingdom. Notice what that assumes about you: that seeing who God is settles more than being told why he acted.
+- **Think.** God's answer to the hardest question in the book is a tour of the animal kingdom. Notice what that assumes about you: that seeing who God is settles more than being told why He acted.
 - **Attitude.** Job's repentance in 42:6 follows no new information about his losses. Nothing in chapters 38-41 explains his children, his health or his property. What changed was the size of the God he was arguing with.
 - **Do.** Go this week to one thing in creation you cannot control, the sea, a storm, a large animal, and read Job 40:15-19 aloud in front of it. Then say to God what Job said once he had seen Him: "I know that you can do all things, and that no purpose of yours can be thwarted" (Job 42:2, ESV).
 
@@ -81,7 +81,7 @@ The two exhibits end that interrogation, and Job answers: "I know that you can d
 
 ### Made in the same world as Job
 
-The Lord introduces Behemoth with a pointing gesture. <span dir="rtl">הִנֵּה־נָא</span> (*hinneh-na*, "look now") is the presentative particle plus the particle of entreaty — the Hebrew for directing someone's attention to something in front of them. Then he places the creature: <span dir="rtl">אֲשֶׁר־עָשִׂיתִי עִמָּךְ</span>, "which I made *immak*" (H5973). English versions split on that preposition. The KJV, the JPS and Young read it "which I made **with** thee"; the ESV, WEB and ASV take it comparatively, "as I made you" / "as well as you." Both senses are available to *im*, and both put Behemoth and Job in the same relation to God as things he made. The "with thee" reading adds contemporaneity — made in the same act, in the same world Job was standing in.
+The Lord introduces Behemoth with a pointing gesture. <span dir="rtl">הִנֵּה־נָא</span> (*hinneh-na*, "look now") is the presentative particle plus the particle of entreaty — the Hebrew for directing someone's attention to something in front of them. Then He places the creature: <span dir="rtl">אֲשֶׁר־עָשִׂיתִי עִמָּךְ</span>, "which I made *immak*" (H5973). English versions split on that preposition. The KJV, the JPS and Young read it "which I made **with** thee"; the ESV, WEB and ASV take it comparatively, "as I made you" / "as well as you." Both senses are available to *im*, and both put Behemoth and Job in the same relation to God as things He made. The "with thee" reading adds contemporaneity — made in the same act, in the same world Job was standing in.
 
 ### The argument in Job 41
 

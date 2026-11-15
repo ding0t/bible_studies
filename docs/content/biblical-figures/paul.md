@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Acts 9:1-19; Romans 11:11-24"
 bible_references: ["Acts 9:15", "Acts 26:12-18", "Galatians 1:11-24", "Galatians 2:7-9", "Philippians 3:4-11", "1 Timothy 1:12-16", "1 Corinthians 15:8-10", "Ephesians 3:1-8", "Romans 9:22-24", "Ephesians 2:12-13"]
 date_created: 2026-08-29
-date_modified: 2026-11-07
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -35,7 +35,7 @@ Romans 5:14) of the Gentiles being grafted in. It calls him something narrower. 
 **ὑποτύπωσις** (*hypotyposis*), a "pattern" or working sketch, of how grace reaches "the foremost of
 sinners" (1 Timothy 1:15-16). That is a statement about the gospel's power to save anyone, made
 about sinners rather than about Gentile inclusion. What *is* stated outright, repeatedly, is his
-personal commission. The risen Christ himself names him apostle to the Gentiles (Acts 9:15; 26:17).
+personal commission. The risen Christ Himself names him apostle to the Gentiles (Acts 9:15; 26:17).
 The Jerusalem apostles later ratify that commission as a distinct assignment alongside Peter's to
 the circumcised (Galatians 2:7-9). The two facts sit side by side in Paul's own biography and share
 a common grammar: grace to someone with no natural claim. The text still keeps them as two claims.
@@ -43,8 +43,8 @@ a common grammar: grace to someone with no natural claim. The text still keeps t
 ### Lessons about Jesus
 
 - **He named the persecution personal before anything else.** "Saul, Saul, why are you
-  persecuting *me*?" (Acts 9:4) -- not "my church" or "my people." Jesus identifies himself with
-  the body he had not yet named the church.
+  persecuting *me*?" (Acts 9:4) -- not "my church" or "my people." Jesus identifies Himself with
+  the body He had not yet named the church.
 - **He chose the instrument before the instrument had done anything to deserve it.** The word to
   Ananias is not a description of Saul's character but a decision already made: "he is a chosen
   instrument of mine" (Acts 9:15, ESV).
@@ -126,7 +126,7 @@ each time shaped to a different audience: before a Jerusalem mob (Acts 22), and 
 Jesus does not say "why are you persecuting my church" or "my people." The verb is direct:
 **με διώκεις** (*me diōkeis*), "you are persecuting *me*." Saul had never laid a hand on Jesus of
 Nazareth, who had already died, risen, and ascended years earlier. The identification of the
-risen Christ with the body he had not yet called the church is total enough that an attack on one
+risen Christ with the body He had not yet called the church is total enough that an attack on one
 is an attack on the other. Paul makes the point once, here, and does not return to it elsewhere.
 
 ### A chosen vessel: σκεῦος ἐκλογῆς
@@ -255,7 +255,7 @@ apostles:
 **ἔκτρωμα** (*ektroma*, ek-TRO-mah, G1626) is a hard word -- "a miscarriage, a stillbirth," used in
 the Septuagint of a child born dead (Numbers 12:12, Job 3:16, Ecclesiastes 6:3). It is the only time
 the word appears in the New Testament, and Paul aims it at himself. He did not arrive at apostleship
-on the normal schedule, by walking with Jesus through his earthly ministry as the Eleven had. He
+on the normal schedule, by walking with Jesus through His earthly ministry as the Eleven had. He
 arrived out of sequence, out of season, by an appearance of the risen Christ years after the others
 had already received theirs. Grafted contrary to nature. Born at the wrong time. Mercy shown to the
 foremost of sinners. Three images, three passages, one recurring shape. God includes someone, or a

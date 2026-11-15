@@ -1,7 +1,7 @@
 ---
 title: "Three Days and Three Nights"
 category: "theology"
-description: "The sign of Jonah, and what Jonah said it was: the belly of Sheol, the heart of the seas, brought up from the pit. Where the New Testament says Christ was between the cross and the empty tomb — Sheol, Hades, Abraham's side, paradise — what it says he achieved there, and, in its proper proportion, whether a Friday allows three nights."
+description: "The sign of Jonah, and what Jonah said it was: the belly of Sheol, the heart of the seas, brought up from the pit. Where the New Testament says Christ was between the cross and the empty tomb — Sheol, Hades, Abraham's side, paradise — what it says He achieved there, and, in its proper proportion, whether a Friday allows three nights."
 tags: ["matthew", "mark", "luke", "john", "jonah", "leviticus", "psalms", "1-samuel", "crucifixion", "resurrection", "chronology", "method/typology", "method/word-study", "lang/greek", "lang/hebrew"]
 questions: ["How was Jesus three days and three nights in the grave?", "Where did Jesus go between His death and resurrection?"]
 draft: false
@@ -17,10 +17,10 @@ ai_provider_models:
 
 # Three Days and Three Nights
 
-Asked for a sign that he was the Messiah, Jesus refused the request and answered it in the same
+Asked for a sign that He was the Messiah, Jesus refused the request and answered it in the same
 breath: no sign except Jonah. "Three days and three nights in the heart of the earth" is a
 quotation, and Jonah's own account of those days calls the place Sheol and the pit. The sentence is
-about where he was going and who would bring him back.
+about where He was going and who would bring Him back.
 
 **In one sentence:** In the sign of Jonah God shows that He raises His Son: Jesus went down into
 Sheol as Jonah did, and God brought Him up holding the keys of Death and Hades, the firstfruits of a
@@ -33,7 +33,7 @@ three days before a Sunday resurrection.
 
 ### Types & Prophecy
 
-**Type.** Jonah in the fish is the pattern Jesus names for himself (Matthew 12:40, quoting Jonah 2:1
+**Type.** Jonah in the fish is the pattern Jesus names for Himself (Matthew 12:40, quoting Jonah 2:1
 word for word as the Greek Old Testament has it), and what it carries is burial and emergence: the
 fish's belly is "the belly of Sheol," and God *brings him up* (Jonah 2:2-6).
 
@@ -43,10 +43,10 @@ not abandoned to Hades, nor did his flesh see corruption" (Acts 2:31).
 
 ### Lessons about Jesus
 
-- He answered a demand for proof by pointing at his own burial. The sign he gave was the one thing
-  his questioners could not have asked for.
-- He named the place he was going before he went there, and he named it from Scripture.
-- He came back holding what had held him: "I have the keys of Death and Hades" (Revelation 1:18).
+- He answered a demand for proof by pointing at His own burial. The sign He gave was the one thing
+  His questioners could not have asked for.
+- He named the place He was going before He went there, and He named it from Scripture.
+- He came back holding what had held Him: "I have the keys of Death and Hades" (Revelation 1:18).
 - God raised Him as He brought Jonah up from the pit. The resurrection is the Father's own answer to
   the demand for a sign, and He has given it to you.
 
@@ -121,8 +121,8 @@ days are a death and a raising, described as such by the man they happened to.
 
 **And one word travels from Jonah's prayer into Jesus's sentence.** Jonah 2:3 in English (2:4 in the
 Hebrew) puts him "in the heart of the seas" — <span dir="rtl">בִּלְבַב יַמִּים</span>, which the
-Septuagint renders **καρδίας θαλάσσης**. Jesus says he will be in the **καρδίᾳ τῆς γῆς**, "the heart
-of the earth." He has taken the noun out of the passage he is quoting and moved it from the sea to
+Septuagint renders **καρδίας θαλάσσης**. Jesus says He will be in the **καρδίᾳ τῆς γῆς**, "the heart
+of the earth." He has taken the noun out of the passage He is quoting and moved it from the sea to
 the ground.
 
 Jesus calls it the *only* sign this generation will get (Matthew 12:39) and adds that
@@ -325,10 +325,10 @@ Two readings follow.
 - **Paradise was in Hades, and moved.** On the two-compartment reading, Christ went on the Friday to
   where the righteous dead were held, which is what Luke 23:43 promises the thief; the ascension then
   relocated paradise upward, which is why Paul and John find it in the third heaven. John 20:17 is
-  straightforwardly true on this reading: he had been to paradise and had not yet been to the Father.
+  straightforwardly true on this reading: He had been to paradise and had not yet been to the Father.
 - **Paradise is the Father's presence, and did not move.** The *ESV Study Bible* takes this line, and
   reads John 20:17 as denying only the *bodily* ascension: Christ's spirit went to the Father at the
-  moment of death, while his body rose on the Sunday and ascended forty days later. On this reading
+  moment of death, while His body rose on the Sunday and ascended forty days later. On this reading
   Luke 23:43 and Revelation 2:7 name the same place throughout.
 
 [![Detail of Clarence Larkin's chart of the underworld, redrawn: from the hill of the three crosses the soul of the penitent thief (Luke 23:43) and the soul of Christ go down to Paradise, Christ's soul returns to His body, and the righteous souls rise from Paradise with Christ](../assets/img/last-things/larkin-underworld-with-christ.svg)](../assets/img/last-things/larkin-underworld-with-christ.svg)
@@ -336,7 +336,7 @@ Two readings follow.
 *From Larkin's chart, redrawn: the first reading, drawn. The thief and Christ go down to Paradise on the Friday, and the righteous rise with Him.*
 
 This study holds the first, on the strength of the section above, and John 20:17 fits both. What
-neither reading permits is the popular third one, that Jesus was somehow untouchable until he had
+neither reading permits is the popular third one, that Jesus was somehow untouchable until He had
 been to heaven. Matthew 28:9 rules it out in the same twenty-four hours.
 
 Whichever reading holds, the promise to the thief shows that God receives a dying man who trusts
@@ -350,7 +350,7 @@ were subject to lifelong slavery" (Hebrews 2:14-15). The mechanism is *through d
 
 **The authority changed hands.** "I died, and behold I am alive forevermore, and I have the keys of
 Death and Hades" (Revelation 1:18). Keys are held by whoever opens and shuts; the sentence reports a
-transfer. And the transfer has a terminus: the Hades whose keys he holds is the Hades that
+transfer. And the transfer has a terminus: the Hades whose keys He holds is the Hades that
 Revelation 20:14 destroys.
 
 **And the resurrection is the first of a harvest.** That is the force of the
@@ -436,7 +436,7 @@ carries its night at the front.
 
 [![A one-minute comic in 7 panels. Three columns side by side: The Preparation, The Sabbath and The first day, row for row. Panel 1 (Mark 14:17-72): evening indoors by lamplight, Jesus seated with His disciples. Caption: "The Passover meal, the arrest, the trials." Counted: Alive. Panel 2 (Mark 15:46): the tomb at night, its stone rolled across the entrance. Caption: "In the tomb, the stone rolled against it." Counted: Night 1. Panel 3 (Mark 16:1): three women in a street at night, each carrying a jar of spices. Caption: "“When the Sabbath was past,” the women buy spices." Counted: Night 2. Panel 4 (Mark 15:33-46): three crosses on a rise under a darkened sky. Caption: "“The day before the Sabbath”: crucified, buried before evening." Counted: Day 1 · part. Panel 5 (Luke 23:56): the women seated at rest indoors, their jars beside them. Caption: "“On the Sabbath they rested according to the commandment.”" Counted: Day 2 · all. Panel 6 (Mark 16:2; Luke 24:13-21): two disciples walk the road to Emmaus with Jesus, whom they do not recognise. Caption: "Sunrise: the tomb is empty. Later, on the road to Emmaus:". Cleopas says: "It is now the third day since these things happened." Counted: Day 3 · part. Panel 7 (Matthew 12:40). Caption: "Three days touched. Two nights. The third night is the cost the Friday reading carries." The count: alive, Day 1 part, Night 1, Day 2 all, Night 2, Day 3 part, Night 3. "Three days touched. Two nights. The third night is the cost the Friday reading carries." The point: Mark names the day He died, “the day before the Sabbath,” and Luke counts that Sunday “the third day.” The Friday reading keeps both, and owes one night.](../assets/img/comics/three-days.svg)](../assets/img/comics/three-days.svg)
 
-The night of the Preparation is the one he was
+The night of the Preparation is the one He was
 *alive* for, so it never counts, whichever day the crucifixion is placed on. And the Sabbath is the
 only complete day in the tomb, which is why every reckoning of this has to lean on the two partial
 days at either end.
@@ -471,8 +471,8 @@ between them, principally from Luke 3:1 and the Passovers John records, and reac
 
 ## Where that leaves it
 
-The sign Jesus gave was his burial and his return from it, and the New Testament spends its words on
-where he went and what he brought back — Sheol emptied of its hold on him, the keys of Death and
+The sign Jesus gave was His burial and His return from it, and the New Testament spends its words on
+where He went and what He brought back — Sheol emptied of its hold on Him, the keys of Death and
 Hades in the hands of someone who died, a firstfruits sheaf waved because a harvest is coming. That
 is what the three days are for, and none of it depends on the arithmetic.
 

@@ -1,13 +1,13 @@
 ---
 title: "As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man"
 category: "prophecy"
-description: "An exegetical study of Numbers 21:4-9 and John 3:14-15: how Jesus applies the bronze serpent to his own crucifixion, with word studies tracing 'lifted up' back to Isaiah's Suffering Servant."
+description: "An exegetical study of Numbers 21:4-9 and John 3:14-15: how Jesus applies the bronze serpent to His own crucifixion, with word studies tracing 'lifted up' back to Isaiah's Suffering Servant."
 tags: ["method/typology", "numbers", "john", "crucifixion", "method/word-study", "lang/hebrew", "lang/greek", "old-testament", "prophecy-fulfilled"]
 draft: false
 primary_passage: "Numbers 21:4-9; John 3:14-15"
 bible_references: ["Exodus 17:9-15", "John 3:1-21", "John 3:16", "John 8:28", "John 12:32-34", "John 20:30-31", "2 Kings 18:1-4", "Isaiah 11:10", "Isaiah 52:13", "Genesis 3:14-15", "2 Corinthians 5:21", "Romans 8:3", "Hebrews 4:15", "Numbers 11:1-3", "Numbers 16:46-48", "Numbers 14:39-45", "Exodus 16:2-5", "Numbers 20:22-29", "Numbers 21:21-35", "Deuteronomy 8:15", "Revelation 12:9", "Isaiah 6:2", "Isaiah 6:6"]
 date_created: 2026-07-22
-date_modified: 2026-11-07
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -20,7 +20,7 @@ ai_provider_models:
 Israel is dying of snakebite, and God's remedy is a snake. Not an antidote and not a sacrifice — a
 bronze copy of the thing killing them, raised on a pole, healing anyone who looks at it. Centuries
 later, in a night conversation with a Pharisee, Jesus points back at that pole and says it was
-about him.
+about Him.
 
 **In one sentence:** Jesus names the bronze serpent Moses lifted up in the wilderness as the picture of His own cross: God's Son made in the likeness of the sin that is killing us, lifted up where everyone can see, so that you, bitten and dying, may look to Him in faith and live.
 
@@ -35,7 +35,7 @@ it (John 3:14) — a type the reader is not left to spot. Point for point: the o
 likeness of the thing killing the people, yet carries none of its venom; it is raised on a pole
 where the whole camp can see it; it heals by being looked at, with no offering, payment, or ritual
 attached; and it is God's provision given after confession and intercession, not a cure Israel
-devised. Jesus applies each of those to his own death.
+devised. Jesus applies each of those to His own death.
 
 **Prophecy.** Genesis 3:15 states in words what the pole shows in pattern: the woman's offspring
 will take a wound to the heel and crush the serpent's head. The type argues from resemblance; the
@@ -43,14 +43,14 @@ prophecy argues from a stated prediction coming true. Both land on the same cros
 
 ### Lessons about Jesus
 
-- Jesus read his own death out of Numbers 21 before it happened, and read it as something that
+- Jesus read His own death out of Numbers 21 before it happened, and read it as something that
   *had* to happen — **δεῖ**, "it is necessary" (John 3:14).
 - He took the likeness of what stood under judgment without taking its guilt: made "to be sin for
   us" (2 Corinthians 5:21, ESV), sent "in the likeness of sinful flesh" (Romans 8:3, ESV), "yet
   without sin" (Hebrews 4:15, ESV).
-- In John's vocabulary his crucifixion *is* his exaltation. The verb for being raised on the cross
+- In John's vocabulary His crucifixion *is* His exaltation. The verb for being raised on the cross
   is the verb the Septuagint uses for the Servant's glory (Isaiah 52:13).
-- What he asks of the dying is a look. "Whoever believes in him" (John 3:15, ESV) is the same shape
+- What He asks of the dying is a look. "Whoever believes in him" (John 3:15, ESV) is the same shape
   of response as "everyone who is bitten, when he sees it, shall live" (Numbers 21:8, ESV).
 
 ### Memory verses
@@ -79,7 +79,7 @@ prophecy argues from a stated prediction coming true. Both land on the same cros
 ### Prayer
 
 Father, you did not deal with our dying from a distance. You sent your Son into the likeness of the
-thing that is killing us, and lifted him up where everyone could see. You are the God who provides
+thing that is killing us, and lifted Him up where everyone could see. You are the God who provides
 the remedy and then asks only that we look at it. Teach us to stop bringing you what you never asked
 for. Turn our eyes to your Son, and let us live.
 
@@ -103,7 +103,7 @@ for. Turn our eyes to your Son, and let us live.
 >
 > 14 And as Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up, 15 that whoever believes in him may have eternal life. 16 For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.
 
-Jesus makes the connection himself (John 3:14), so the link between the two passages is given
+Jesus makes the connection Himself (John 3:14), so the link between the two passages is given
 rather than proposed. What remains is each passage on its own terms, and then the exact shape of the
 application.
 
@@ -151,7 +151,7 @@ incense to it. Hezekiah "broke in pieces the bronze serpent that Moses had made.
 Nehushtan" (2 Kings 18:4, WEB), destroying it alongside the high places, the pillars, and the
 Asherah. The Hebrew names it with the same construct phrase as Numbers 21:9 — <span dir="rtl">נְחַשׁ
 הַנְּחֹשֶׁת</span> — and then reduces it to <span dir="rtl">נְחֻשְׁתָּן</span>, *nechushtan*, "the
-bronze thing" (H5180). An object God himself commanded, kept in service past its purpose, ended on
+bronze thing" (H5180). An object God Himself commanded, kept in service past its purpose, ended on
 the same list as an Asherah pole.
 
 ## Literary context
@@ -176,7 +176,7 @@ what was just said — and it reuses the frame of 3:15: **ἵνα πᾶς ὁ π
 "that everyone believing... may have eternal life." The two are not identical. John 3:15 has
 **πιστεύων ἐν αὐτῷ**, the Gospel's only instance of *pisteuō* with **ἐν**; 3:16 has John's usual
 **πιστεύων εἰς αὐτόν** and inserts **μὴ ἀπόληται ἀλλά**, "should not perish but." What 3:16 supplies
-is the motive and the cost behind the lifting up: God loved the world, and gave his Son. On the
+is the motive and the cost behind the lifting up: God loved the world, and gave His Son. On the
 manner reading of **οὕτως** (G3779, "in this way": God loved the world by giving His Son as Moses lifted
 the serpent), the most quoted verse in the Bible is the explanation of the bronze serpent. That
 reading is contested. The CSB and LSB footnote "in this way", and the NLT footnotes "so much", which
@@ -273,9 +273,9 @@ once, for one generation bitten by actual snakes at a locatable point on the roa
 was never a repeatable rite, and Israel's attempt to keep it in service ended under Hezekiah's
 hammer.
 
-What carries forward is the pattern Jesus himself carries forward — a remedy God provides, shaped
+What carries forward is the pattern Jesus Himself carries forward — a remedy God provides, shaped
 like the thing under judgment, free of the fault that brought the judgment, lifted up in public, and
-received by looking. Jesus applies each of those to his own crucifixion in John 3:14-15, which is
+received by looking. Jesus applies each of those to His own crucifixion in John 3:14-15, which is
 the warrant for reading them as more than a single episode in Israel's history.
 
 ## Theological principle
