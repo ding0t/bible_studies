@@ -763,10 +763,12 @@ text or the concordance when the series was planned; the rest still need checkin
   foundations (Exodus 28:17-21; Revelation 21:19-20). *Podērēs*, the robe of Revelation 1:13, is
   already worked out on the lampstand page.
 
-**Settle first.** Ezekiel's temple has sacrifices (Ezekiel 43:18-27). A dispensational reading has
-to say what they are in a future temple, and the [statement of faith](statement-of-faith.md) is
-silent. The author needs to decide before the Ezekiel sections of the altar and house pages are
-written.
+**Settled 2026-11-15.** The site reads Ezekiel 40-48 of the thousand years, as Tabernacles, True
+Worship and The New Jerusalem already said. What the offerings mean beside the cross stays open
+between a memorial and a ceremonial-cleansing reading, with a marked lean to cleansing: Ezekiel's
+"make atonement" is said of the altar (Ezekiel 43:20) and the house (Ezekiel 45:20). The
+[statement of faith](statement-of-faith.md) is silent. The altar and house pages can follow the
+draft study `last-things/the-thousand-years.md` ("The temple Ezekiel saw").
 
 ## 4. Salvation
 
@@ -799,6 +801,10 @@ given to those who have earned the opposite.
   11.2 also starts from: link the two, do not repeat.
 - Ephesians 2:4-9; Romans 3:24; 5:15-21; Titus 2:11-14 (grace that saves also trains).
 - Grace and works in Romans 11:6, and grace as the power for service (1 Corinthians 15:10).
+
+**Drafted 2026-11-15** as `salvation/grace.md` (draft, not yet linked) and reviewed the same day. Still to
+do: a read-bible-study pass, the author's read, then publishing with Saved's week two and the
+sibling back-links listed in its state file.
 
 ### 4.5 Repentance
 
@@ -920,8 +926,12 @@ what comes after. This one asks what the reign is and what Christ's people do in
 - **Contested, and say so:** premillennial, amillennial and postmillennial readings of Revelation 20,
   with the textual case for each; the site's position is premillennial
   ([statement of faith](statement-of-faith.md#end-times)).
-- **Settle first (shared with 2.5):** Ezekiel 40-48's temple and sacrifices. The author decides what
-  they are before the study treats them; until then it names the question and the main answers.
+- **Ezekiel 40-48:** settled 2026-11-15 (see 2.5).
+
+**Drafted 2026-11-15** as `last-things/the-thousand-years.md` (draft, not yet linked), reviewed the
+same day, with a section on clearing and rebuilding after the tribulation (Ezekiel 39, Daniel 12,
+Isaiah 61:4). Still to do: a read-bible-study pass, the author's read, then publishing with the
+sibling back-links listed in its state file.
 - **Extra-biblical sources, behind the standard warning** ("Extra-biblical sources: useful, and not
   Scripture", as in A Day Is a Thousand Years): 1 Enoch 10:17-22 and the Apocalypse of Weeks (1 Enoch
   93; 91:12-17), 2 Enoch 33 on the eighth day, 2 Baruch 29, and Papias as Irenaeus reports him
