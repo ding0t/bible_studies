@@ -6,7 +6,7 @@ tags: ["revelation", "isaiah", "psalms", "micah", "zechariah", "daniel", "luke",
 questions: ["What is the millennium?", "What will believers do during the thousand-year reign of Christ?"]
 draft: true
 primary_passage: "Revelation 20:1-10"
-bible_references: ["Revelation 19:11-21", "Revelation 20:11-15", "Revelation 2:8", "Revelation 2:26-27", "Revelation 3:21", "Revelation 5:10", "Revelation 1:6", "Revelation 12:9", "Revelation 13:14", "Revelation 16:14", "Revelation 21:22", "Psalm 2:6-9", "Psalm 72:1-17", "Psalm 110:1-2", "Isaiah 2:2-4", "Isaiah 11:1-10", "Isaiah 24:21-23", "Isaiah 65:17-25", "Micah 4:1-5", "Zechariah 14:9", "Zechariah 14:16-19", "Daniel 7:9", "Daniel 7:18", "Daniel 7:22", "Daniel 7:27", "Ezekiel 43:10-11", "Ezekiel 43:18-21", "Ezekiel 45:15-17", "Matthew 12:29", "Matthew 13:33", "Matthew 19:28", "Matthew 25:21", "Matthew 25:31-34", "Luke 18:8", "Luke 19:15-19", "Luke 22:29-30", "John 5:25-29", "1 Corinthians 6:2-3", "1 Corinthians 15:23-25", "2 Corinthians 4:4", "Ephesians 2:6", "2 Timothy 2:12", "Acts 4:25-27", "Acts 13:33", "Romans 15:12", "Acts 1:6", "Joel 1:4", "Acts 15:14", "Hebrews 9:13", "Hebrews 10:18", "1 Peter 5:8", "Revelation 16:19-20", "Isaiah 24:1", "Ezekiel 39:9-16", "Daniel 12:11-12", "Matthew 25:31-32", "Isaiah 61:1-4", "Luke 4:16-21", "Amos 9:11-15", "Acts 15:16", "Ezekiel 36:33-36", "Joel 2:25", "Zechariah 14:4-10", "Ezekiel 47:1-12", "Isaiah 35:1", "Acts 3:21", "Titus 3:5"]
+bible_references: ["Revelation 19:11-21", "Revelation 20:11-15", "Revelation 2:8", "Revelation 2:26-27", "Revelation 3:21", "Revelation 5:10", "Revelation 1:6", "Revelation 12:9", "Revelation 13:14", "Revelation 16:14", "Revelation 21:22", "Psalm 2:6-9", "Psalm 72:1-17", "Psalm 110:1-2", "Isaiah 2:2-4", "Isaiah 11:1-10", "Isaiah 24:21-23", "Isaiah 65:17-25", "Micah 4:1-5", "Zechariah 14:9", "Zechariah 14:16-19", "Daniel 7:9", "Daniel 7:18", "Daniel 7:22", "Daniel 7:27", "Ezekiel 43:10-11", "Ezekiel 43:18-21", "Ezekiel 45:15-17", "Matthew 12:29", "Matthew 13:33", "Matthew 19:28", "Matthew 25:21", "Matthew 25:31-34", "Luke 18:8", "Luke 19:15-19", "Luke 22:29-30", "John 5:25-29", "1 Corinthians 6:2-3", "1 Corinthians 15:23-25", "2 Corinthians 4:4", "Ephesians 2:6", "2 Timothy 2:12", "Acts 4:25-27", "Acts 13:33", "Romans 15:12", "Acts 1:6", "Joel 1:4", "Acts 15:14", "Hebrews 9:13", "Hebrews 10:18", "1 Peter 5:8", "Revelation 16:19-20", "Isaiah 24:1", "Ezekiel 39:9-16", "Daniel 12:11-12", "Matthew 25:31-32", "Isaiah 61:1-4", "Luke 4:16-21", "Amos 9:11-15", "Acts 15:16", "Ezekiel 36:33-36", "Joel 2:25", "Zechariah 14:4-10", "Ezekiel 47:1-12", "Isaiah 35:1", "Acts 3:21", "Titus 3:5", "Ezekiel 45:20", "Acts 3:20", "Revelation 21:5", "John 5:28-29", "Matthew 25:31-46"]
 date_created: 2026-11-15
 date_modified: 2026-11-15
 ai_provider_models:
@@ -200,6 +200,8 @@ The thousand years are the present age, from Christ's first coming to His second
 - **Scripture pairs a spiritual and a bodily rising.** "The dead will hear the voice of the Son of
   God, and those who hear will live" is "now here" (John 5:25, ESV); the tombs open later
   (John 5:28-29). Believers are already "raised... with him and seated" with Him (Ephesians 2:6, ESV).
+- **No other passage names an interim reign.** Outside Revelation 20 the New Testament sets the
+  resurrection and the judgment at the one return (John 5:28-29; Matthew 25:31-46).
 
 ### The postmillennial reading
 
@@ -243,6 +245,11 @@ order, and this site holds it.** Revelation 20:10 looks back to Revelation 19:20
 five verbs, and ἔζησαν comes twice in two verses. Revelation does repeat itself, and the amillennial
 case rests on that, so faithful readers still differ here. The site reads the thousand years as a
 literal length, as it reads Revelation's other periods (1,260 days, forty-two months).
+
+Paul's own order leaves room for the reign: "Christ the firstfruits, then at his coming those who
+belong to Christ. Then comes the end, when he delivers the kingdom to God the Father," for "he must
+reign until he has put all his enemies under his feet" (1 Corinthians 15:23-25, ESV). [Your Kingdom
+Come](your-kingdom-come.md) sets out how that kingdom is already here and not yet complete.
 
 ## What the prophets saw
 
@@ -398,8 +405,8 @@ Some of the repair no human hand could do. When His feet stand on the Mount of O
 split in two from east to west by a very wide valley" (Zechariah 14:4, ESV); "living waters shall
 flow out from Jerusalem" (Zechariah 14:8, ESV); the land around becomes a plain while "Jerusalem
 shall remain aloft on its site" (Zechariah 14:10, ESV). Ezekiel's river turns the Dead Sea fresh:
-"everything will live where the river goes" (Ezekiel 47:9, ESV); the river flows from his temple, so
-when it flows belongs to the question [the temple Ezekiel saw](#the-temple-ezekiel-saw) leaves open.
+"everything will live where the river goes" (Ezekiel 47:9, ESV); the river flows from his temple, which this site places in the
+thousand years ([the temple Ezekiel saw](#the-temple-ezekiel-saw)).
 "The desert shall rejoice and blossom like the crocus" (Isaiah 35:1, ESV).
 
 Peter names the whole work. Heaven must receive Jesus "until the time for restoring all the things
@@ -407,10 +414,12 @@ about which God spoke by the mouth of his holy prophets long ago" (Acts 3:21, ES
 ἀποκατάστασις (*apokatastasis*, ah-po-kah-TAH-stah-sis, G605), used only here in the New Testament;
 its verb is the disciples' "will you at this time restore the kingdom to Israel?" (Acts 1:6, ESV).
 Jesus' "new world" (Matthew 19:28, ESV) is παλιγγενεσία (*palingenesia*, pah-ling-geh-neh-SEE-ah,
-G3824), "regeneration," a word Paul uses once more for the new birth (Titus 3:5). Dispensational
-readers take both of the thousand years, when the Twelve judge Israel's tribes; [Heaven and Earth
-Will Pass Away](heaven-and-earth-will-pass-away.md) reads them of the renewed creation, and the
-question is open.
+G3824), "regeneration," a word Paul uses once more for the new birth (Titus 3:5). Peter ties the
+restoring to the time God will "send the Christ appointed for you" (Acts 3:20, ESV), and Jesus dates
+the new world to His throne and the Twelve judging Israel's tribes. So both begin at His return, in
+the thousand years, and are completed when He says, "Behold, I am making all things new" (Revelation
+21:5, ESV); [Heaven and Earth Will Pass Away](heaven-and-earth-will-pass-away.md) follows them to that
+completion.
 
 **This shows that God finishes what He starts.** The earth that sin ruined and judgment broke, He
 restores, and He gives His people work to do in the restoring. So the faithfulness you show now in
@@ -494,8 +503,10 @@ Ezekiel 40-48 describes a temple, a prince, Zadokite priests and offerings. The 
 with a sin offering: "Thus you shall purify the altar and make atonement for it" (Ezekiel 43:20, ESV).
 The prince provides offerings "to make atonement on behalf of the house of Israel" (Ezekiel 45:17,
 ESV). Hebrews says, "Where there is forgiveness of these, there is no longer any offering for sin"
-(Hebrews 10:18, ESV). How these stand together is a question this site has not yet settled, and this
-study takes no position on it. Four answers are held:
+(Hebrews 10:18, ESV). This site reads Ezekiel 40-48 of the thousand years, as
+[Tabernacles](../feasts/tabernacles.md), [True Worship](../christian-life/true-worship.md) and [The New
+Jerusalem](new-jerusalem.md) do. What the offerings mean beside the cross is the open part. Four
+answers are held:
 
 1. **Memorials.** A temple built in the thousand years, whose offerings look back to the cross as the
    Lord's Supper does now. This answer has to account for "make atonement."
@@ -507,6 +518,11 @@ study takes no position on it. Four answers are held:
    God the Almighty and the Lamb" (Revelation 21:22, ESV).
 4. **A conditional plan.** A design offered to the returning exiles "if they are ashamed of all that
    they have done" (Ezekiel 43:11, ESV), which they never built.
+
+The first two belong to this site's reading, and the text leans to the second. Ezekiel's "make
+atonement" (כָּפַר, *kaphar*, kah-FAR, H3722) is said of the altar (Ezekiel 43:20) and of the house,
+"for anyone who has sinned through error or ignorance" (Ezekiel 45:20, ESV): a cleansing of the place
+where the LORD dwells among mortal people. That is a lean, and a memorial reading remains open.
 
 The priesthood of Revelation 20:6 stands on its own text, whichever of these is right.
 

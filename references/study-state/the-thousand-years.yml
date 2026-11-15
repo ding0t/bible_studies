@@ -42,8 +42,8 @@ outline:
   - {section: "The temple Ezekiel saw", says: "Names the open question and four answers; takes no position."}
   - {section: "Background: what Jews and early Christians expected", says: "1 Enoch, 2 Enoch, 2 Baruch, Papias via Irenaeus behind the warning; they show expectation, carry no claim."}
   - {section: "What the reign shows about God", says: "God keeps His word to the earth, to His Son and to His people; so you may be faithful in little."}
-word_budget: 5100
-word_budget_reason: "Raised 2026-11-15 at the author's request to add the section After the tribulation: clearing and rebuilding (Ezekiel 39, Daniel 12:11-12, Isaiah 61:4, Amos 9, Acts 3:21), about 1,030 words."
+word_budget: 5300
+word_budget_reason: "Raised 2026-11-15 at the author's request to add the section After the tribulation: clearing and rebuilding (Ezekiel 39, Daniel 12:11-12, Isaiah 61:4, Amos 9, Acts 3:21), about 1,030 words. Raised again to 5,300 the same day for the author-delegated decisions: the site's Ezekiel 40-48 position, the Acts 3:21 / Matthew 19:28 reading, and the amillennial interim argument with 1 Corinthians 15:23-25 (about 200 words)."
 
 stages:
   scoping:
@@ -131,6 +131,13 @@ resources_consulted:
 
 
 evidence:
+  - {id: acts3-20, what: "ESV Acts 3:20", tool: study_verse, args: {book: Acts, chapter: 3, verse: 20, work_id: esv-study-bible}, expect_contains: "that he may send the Christ appointed for you", checked: 2026-11-15}
+  - {id: rev21-5, what: "ESV Rev 21:5", tool: study_verse, args: {book: Rev, chapter: 21, verse: 5, work_id: esv-study-bible}, expect_contains: "Behold, I am making all things new", checked: 2026-11-15}
+  - {id: 1cor15-23, what: "ESV 1Cor 15:23", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 23, work_id: esv-study-bible}, expect_contains: "then at his coming those who belong to Christ", checked: 2026-11-15}
+  - {id: 1cor15-24, what: "ESV 1Cor 15:24", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 24, work_id: esv-study-bible}, expect_contains: "Then comes the end, when he delivers the kingdom to God the Father", checked: 2026-11-15}
+  - {id: 1cor15-25, what: "ESV 1Cor 15:25", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 25, work_id: esv-study-bible}, expect_contains: "For he must reign until he has put all his enemies under his feet", checked: 2026-11-15}
+  - {id: ezek45-20, what: "ESV Ezek 45:20", tool: study_verse, args: {book: Ezek, chapter: 45, verse: 20, work_id: esv-study-bible}, expect_contains: "for anyone who has sinned through error or ignorance; so you shall make atonement for the temple", checked: 2026-11-15}
+  - {id: ezek45-20-kaphar, what: "Ezek 45:20 make atonement is kaphar H3722", tool: bible_interlinear, args: {book: Ezek, chapter: 45, verse: 20}, expect_contains: "H3722", checked: 2026-11-15}
   - {id: ezek39-9, what: "ESV Ezek 39:9", tool: study_verse, args: {book: Ezek, chapter: 39, verse: 9, work_id: esv-study-bible}, expect_contains: "make fires of them for seven years", checked: 2026-11-15}
   - {id: ezek39-10, what: "ESV Ezek 39:10", tool: study_verse, args: {book: Ezek, chapter: 39, verse: 10, work_id: esv-study-bible}, expect_contains: "they will make their fires of the weapons", checked: 2026-11-15}
   - {id: ezek39-12, what: "ESV Ezek 39:12", tool: study_verse, args: {book: Ezek, chapter: 39, verse: 12, work_id: esv-study-bible}, expect_contains: "For seven months the house of Israel will be burying them, in order to cleanse the land", checked: 2026-11-15}
@@ -298,3 +305,10 @@ review_2026-11-15:
   validate: "npm run validate: no warning or error on this file (95 corpus-wide warnings, unchanged). verify_claims --only-evidence: 127/127 ok, 0 unverified."
 
 last_updated: "2026-11-15"
+decisions_2026-11-15:
+  # The author delegated the open recommendations ("investigate deeper and apply as you see fit").
+  ezekiel_40_48: "Resolved to the site's existing position: Tabernacles, True Worship and The New Jerusalem already read Ezekiel 40-48 of the thousand years, and the study now says so. The offerings' meaning stays open between memorial and ceremonial cleansing; the study leans, marked as a lean, to ceremonial cleansing because kaphar is said of the altar (Ezekiel 43:20) and the house for unintentional sin (Ezekiel 45:20)."
+  acts_3_21_matthew_19_28: "Begin at the return, in the thousand years, completed in the new creation (Acts 3:20's sending; Matthew 19:28's throne and tribes; Revelation 21:5). Consistent with Your Kingdom Come and New Heaven and New Earth, which date the age to come from the return, and with Heaven and Earth Will Pass Away, which follows the words to their completion. No sibling edit needed."
+  amillennial_interim_argument: "Added to the amillennial case, with Paul's order (1 Corinthians 15:23-25) as the premillennial reply in Where this study stands."
+  your_kingdom_come_link: "Linked in the prose of Where this study stands."
+  renderings: "H5521 (booths) and H2603 (be gracious) decided in docs/data/word-renderings.toml. H7489 is not on the ULT/BSB disagreement list; the break/shepherd difference is the Septuagint's and the prose covers it."
