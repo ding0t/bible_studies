@@ -786,6 +786,16 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
   }
 
   // --- title, locator, footer ----------------------------------------------------------------
+  // "The Millennial Week" names the whole seven days. On a sheet showing only part of them it read
+  // as the millennium over Adam and Noah, so a partial sheet is titled by its days and ages instead.
+  const heading = (() => {
+    if (a <= 0 && b >= 7000) return 'The Millennial Week';
+    const on = days.filter((d) => d.am0 < b && d.am1 > a).map((d) => d.n);
+    const dayText = on.length === 1 ? `Day ${on[0]}` : `Days ${on[0]}–${on[on.length - 1]}`;
+    const ageNames = data.ages.filter((g) => g.am < b && Math.min(g.amEnd, 1e6) > a).map((g) => g.label);
+    const ageText = ageNames.length <= 2 ? ageNames.join(', ') : `${ageNames[0]} to ${ageNames[ageNames.length - 1]}`;
+    return ageText ? `${dayText} · ${ageText}` : dayText;
+  })();
   const ga = formatYear(amToGregorian(Math.round(a), EPOCH));
   // Past today the chart gives the week's AM count and no calendar year.
   const gb = b > data.now ? 'the years not yet dated' : formatYear(amToGregorian(Math.round(b), EPOCH));
@@ -810,12 +820,12 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
         viewBox={`0 0 ${W} ${H}`}
         style={{ width: '100%', height: 'auto', display: 'block', background: PAPER, boxShadow: '0 1px 6px #0003', fontFamily: SERIF }}
         role="img"
-        aria-label={`History chart, ${title}, sheet ${index + 1} of ${total}`}
+        aria-label={`History chart, ${heading}, ${title}, sheet ${index + 1} of ${total}`}
       >
         <Patterns mono={mono} />
         <rect x="0" y="0" width={W} height={H} fill={PAPER} />
         <rect x={M - 3} y={M - 3} width={W - 2 * M + 6} height={H - 2 * M + 6} fill="none" stroke={INK} strokeWidth="0.5" />
-        <text x={M} y={M + 5} fontSize="5.4" fontWeight="bold" fill={INK}>The Millennial Week</text>
+        <text x={M} y={M + 5} fontSize="5.4" fontWeight="bold" fill={INK}>{heading}</text>
         <text x={M} y={M + 10} fontSize="2.7" fill={INK}>
           {`${title}${total > 1 ? ` · sheet ${index + 1} of ${total}` : ''} · AM ${Math.round(a)}–${Math.round(Math.min(b, 1e6))} · ${ga} to ${gb}`}
         </text>
