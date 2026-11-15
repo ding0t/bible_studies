@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Exodus 25:31-40"
 bible_references: ["Exodus 25:31-40", "Exodus 26:35", "Exodus 27:20-21", "Exodus 28:4", "Exodus 37:17-24", "Exodus 40:24-25", "Leviticus 24:1-4", "Leviticus 26:12", "Numbers 8:1-4", "Numbers 17:8", "Numbers 17:10", "1 Samuel 3:3", "1 Kings 7:49", "1 Chronicles 28:15", "1 Chronicles 28:19", "2 Chronicles 4:7", "2 Chronicles 13:11", "Jeremiah 1:11-12", "Jeremiah 52:19", "Zechariah 3:4", "Zechariah 4:1-14", "Daniel 10:5", "Matthew 5:14-16", "John 8:12", "2 Corinthians 6:16", "Hebrews 8:5", "Hebrews 9:2", "Revelation 1:4", "Revelation 1:12-20", "Revelation 2:1-7", "Revelation 4:5", "Revelation 5:6", "Revelation 11:3-8", "Revelation 21:22-23", "Revelation 22:5", "Revelation 1:10", "Exodus 30:7", "Ezekiel 1:13", "Isaiah 22:21", "Zechariah 4:9", "Revelation 11:2", "Luke 9:28-33", "Malachi 4:4-5"]
 date_created: 2026-09-28
-date_modified: 2026-10-31
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -245,11 +245,12 @@ the text; that the light was aimed at the bread is a sound inference from it.
 
 ### Keeping the lamp was keeping faith
 
-Abijah makes the lamp a measure of Israel's faithfulness. The night God called Samuel, "the lamp of
-God had not yet gone out" (1 Samuel 3:3, ESV), which tells the hour, before dawn; many readers also
-hear in it the dimming of Eli's house, and that is a reading of the verse. Centuries later King Abijah stood on a mountain and told the northern tribes that Judah
-still cared "for the golden lampstand that its lamps may burn every evening. For we keep the charge of
-the LORD our God, but you have forsaken him" (2 Chronicles 13:11, ESV).
+The night God called Samuel, "the lamp of God had not yet gone out" (1 Samuel 3:3, ESV), which
+tells the hour, before dawn; many readers also hear in it the dimming of Eli's house, and that is a
+reading of the verse. Centuries later King Abijah made the lamp a measure of Israel's faithfulness.
+He stood on a mountain and told the northern tribes that Judah still cared "for the golden lampstand
+that its lamps may burn every evening. For we keep the charge of the LORD our God, but you have
+forsaken him" (2 Chronicles 13:11, ESV).
 
 This shows that God wanted His house lit before Him every night, and that He gave the whole people a
 share in keeping it lit. The priest trimmed the lamps; the people's olives filled them.

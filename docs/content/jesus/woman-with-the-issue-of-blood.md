@@ -9,7 +9,7 @@ bible_references: ["Mark 5:21-43", "Matthew 9:18-26", "Luke 8:40-56", "Leviticus
 zadok_year: 3990
 gregorian_year: 32
 date_created: 2026-08-23
-date_modified: 2026-11-06
+date_modified: 2026-11-15
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -258,9 +258,10 @@ echo a first-century reader might catch. It is not a prediction being ticked off
   the Gospel detail to the commandment.
 - **ἅπτω** (*haptō*, G680) — "touch." She touches (5:27), plans to touch (5:28), and Jesus asks who
   touched Him (5:30-31). In Mark's other occurrences Jesus does the touching (1:41 the leper; 7:33;
-  8:22; 10:13), or a summary has crowds of the sick pressing in to touch Him (3:10; 6:56). This is
-  the one scene in Mark where a single person touches Jesus first. She does it from behind, unseen, because
-  Leviticus 15:27 makes that contact defiling in the wrong direction.
+  8:22; 10:13), or a summary has crowds of the sick pressing in to touch Him (3:10; 6:56). Of the
+  verb's eleven occurrences in Mark, this is the one scene where a single person touches Jesus first.
+  She does it from behind, unseen, because Leviticus 15:27 makes that contact defiling in the wrong
+  direction.
 - **δύναμις** (*dynamis*, G1411) — "power." Jesus "perceiv[ed] in himself that the power had gone out
   from him" (5:30, WEB). The healing registers as an outward transfer, and it happens at her touch,
   before He has said or done anything toward her.
