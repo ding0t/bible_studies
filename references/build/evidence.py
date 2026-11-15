@@ -46,6 +46,32 @@ import pathlib
 
 import research_batch
 
+
+def _run_chunked(requests: list[dict], budget_seconds: float) -> dict:
+    """run_batch refuses more than MAX_REQUESTS at once and returns an error with no results, so a
+    state file past that many entries crashed the replay. Run it in chunks and merge the results."""
+    size = research_batch.MAX_REQUESTS
+    batches = []
+    for start in range(0, len(requests), size):
+        batch = research_batch.run_batch(requests[start:start + size], budget_seconds=budget_seconds)
+        if "results" not in batch:
+            raise RuntimeError(batch.get("error", "research_batch.run_batch returned no results"))
+        batches.append(batch)
+    if len(batches) == 1:
+        return batches[0]
+    summary: dict = {}
+    for batch in batches:
+        for key, value in batch.get("summary", {}).items():
+            if isinstance(value, dict):
+                merged = summary.setdefault(key, {})
+                for k, v in value.items():
+                    merged[k] = merged.get(k, 0) + v
+            elif isinstance(value, (int, float)) and key != "budget_seconds":
+                summary[key] = summary.get(key, 0) + value
+            else:
+                summary[key] = value
+    return {"results": {k: v for b in batches for k, v in b["results"].items()}, "summary": summary}
+
 REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent.parent
 STATE_DIR = REPO_ROOT / "references" / "study-state"
 
@@ -168,7 +194,7 @@ def check_entries(entries: list[dict], budget_seconds: float = 60.0) -> list[dic
         index[rid] = (eid, entry)
 
     if requests:
-        batch = research_batch.run_batch(requests, budget_seconds=budget_seconds)
+        batch = _run_chunked(requests, budget_seconds)
         for rid, (eid, entry) in index.items():
             outcome = batch["results"].get(rid, {})
             status = outcome.get("status")
@@ -199,7 +225,7 @@ def draft_entries(requests: list[dict], budget_seconds: float = 30.0) -> dict:
     made should cost nothing. Each drafted entry carries a conservative `expect_contains` drawn
     from the actual answer, for the author to tighten or replace.
     """
-    batch = research_batch.run_batch(requests, budget_seconds=budget_seconds)
+    batch = _run_chunked(requests, budget_seconds)
     drafted = []
     for request in requests:
         rid = str(request.get("id"))
