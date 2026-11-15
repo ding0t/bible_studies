@@ -2,11 +2,11 @@
 title: "Grace"
 category: "theology"
 description: "Grace is God's favour given freely, in His Son Jesus, to people who had earned the opposite. It saves you apart from anything you bring, it overflows wherever sin has spread, and the same grace trains you to live for God and works in you as you serve Him."
-tags: ["ephesians", "romans", "titus", "exodus", "john", "1-corinthians", "grace", "gospel", "method/word-study", "lang/hebrew", "lang/greek"]
+tags: ["ephesians", "romans", "titus", "exodus", "john", "luke", "1-corinthians", "grace", "gospel", "method/word-study", "lang/hebrew", "lang/greek"]
 questions: ["What is grace?", "If I am saved by grace, does it matter how I live?", "What is the difference between grace and mercy?"]
 draft: true
 primary_passage: "Ephesians 2:4-9"
-bible_references: ["1 Timothy 1:13-15", "Acts 8:3", "Genesis 6:5-8", "Exodus 22:26-27", "Exodus 33:12-19", "Exodus 34:6-9", "Exodus 33:20", "Luke 1:30", "Luke 4:22", "Luke 6:32-35", "Matthew 5:46", "Luke 17:9", "1 Corinthians 15:57", "John 1:14-18", "2 Corinthians 8:9", "Romans 3:24", "John 15:25", "Galatians 2:21", "Romans 4:4-5", "Romans 11:2-6", "Romans 5:2", "Romans 5:8", "Romans 5:15-21", "Romans 6:1-2", "Romans 6:14", "Titus 2:1-14", "Titus 3:4-7", "Hebrews 12:6", "Exodus 19:5", "Psalm 130:8", "1 Corinthians 15:8-10", "1 Corinthians 15:58", "Ephesians 3:2", "Ephesians 3:7-8", "2 Corinthians 12:9", "Ephesians 2:10", "Ephesians 2:3", "Exodus 24:18", "Exodus 32:1", "Exodus 33:18", "Luke 2:52", "Acts 7:22", "Acts 9:3-6", "1 Timothy 2:4", "Deuteronomy 14:2", "2 Corinthians 7:4", "1 Corinthians 15:14"]
+bible_references: ["1 Timothy 1:13-15", "Acts 8:3", "Genesis 6:5-8", "Exodus 22:26-27", "Exodus 33:12-19", "Exodus 34:6-9", "Exodus 33:20", "Luke 1:30", "Luke 4:22", "Luke 6:32-35", "Matthew 5:46", "Luke 17:9", "1 Corinthians 15:57", "John 1:14-18", "2 Corinthians 8:9", "Romans 3:24", "John 15:25", "Galatians 2:21", "Romans 4:4-5", "Romans 11:2-6", "Romans 5:2", "Romans 5:8", "Romans 5:15-21", "Romans 6:1-2", "Romans 6:14", "Titus 2:1-14", "Titus 3:4-7", "Hebrews 12:6", "Exodus 19:5", "Psalm 130:8", "1 Corinthians 15:8-10", "1 Corinthians 15:58", "Ephesians 3:2", "Ephesians 3:7-8", "2 Corinthians 12:9", "Ephesians 2:10", "Ephesians 2:3", "Exodus 24:18", "Exodus 32:1", "Exodus 33:18", "Luke 2:52", "Acts 7:22", "Acts 9:3-6", "1 Timothy 2:4", "Deuteronomy 14:2", "2 Corinthians 7:4", "1 Corinthians 15:14", "Exodus 32:30-32", "Romans 9:15", "Psalm 112:4", "1 Timothy 1:16"]
 date_created: 2026-11-15
 date_modified: 2026-11-15
 ai_provider_models:
@@ -123,13 +123,13 @@ another person's eyes. It lives in the one who gives it.
 ### Moses on the mountain
 
 The word's fullest scene comes after the golden calf. Israel had broken the covenant while Moses was
-still on the mountain receiving it (Exodus 24:18; 32:1), and Moses went back up to plead for them.
-He built the whole plea on *chen*. "You have said, 'I know you by name, and you have also found
-favor in my sight'" (Exodus 33:12, ESV). "If I have found favor in your sight, please show me now
-your ways, that I may know you in order to find favor in your sight" (Exodus 33:13, ESV). The word
-comes six times in his intercession (Exodus 33:12, 13, 16, 17; 34:9), and the last is a request for
-people who had earned the opposite: "it is a stiff-necked people, and pardon our iniquity and our
-sin" (Exodus 34:9, ESV).
+still on the mountain receiving it (Exodus 24:18; 32:1), and Moses went back up to plead for them
+(Exodus 32:30-32). When he pleaded again, he built the plea on *chen*. "You have said, 'I know you
+by name, and you have also found favor in my sight'" (Exodus 33:12, ESV). "If I have found favor in
+your sight, please show me now your ways, that I may know you in order to find favor in your sight"
+(Exodus 33:13, ESV). The word comes six times between Moses and the LORD (Exodus 33:12, 13, 16, 17;
+34:9), and the last is a request for people who had earned the opposite: "it is a stiff-necked
+people, and pardon our iniquity and our sin" (Exodus 34:9, ESV).
 
 God answered with the verb, <span dir="rtl">חָנַן</span> (*chanan*, khah-NAHN, H2603, "show
 favour"):
@@ -139,6 +139,10 @@ favour"):
 > 19 And he said, "I will make all my goodness pass before you and will proclaim before you my name
 > 'The LORD.' And I will be gracious to whom I will be gracious, and will show mercy on whom I will
 > show mercy.
+
+The Septuagint renders *chanan* here with ἐλεέω (*eleeō*, G1653, "have mercy"), and Paul quotes
+that Greek in Romans 9:15, so the BSB reads "I will have mercy on whom I have mercy" (Exodus 33:19,
+BSB).
 
 Grace is God's to give. He gives it because He chooses to, and nothing in the one who receives it
 obliges Him. Then He passed by and proclaimed His name: "The LORD, the LORD, a God merciful and
@@ -242,9 +246,10 @@ trespasses, "by nature children of wrath" (Ephesians 2:3, ESV). Paul goes on:
 > Christ Jesus. 8 For by grace you have been saved through faith. And this is not your own doing; it
 > is the gift of God, 9 not a result of works, so that no one may boast.
 
-*Charis* comes three times in five verses. Every verb belongs to God: He made alive, raised and
-seated. The dead contribute nothing to being made alive. Paul breaks into his own sentence to say it
-("by grace you have been saved"), and then says it again in Ephesians 2:8.
+*Charis* comes three times in these six verses (Ephesians 2:5, 7, 8). God is the subject of every
+main verb: He made alive, raised and seated. The dead contribute nothing to being made alive. Paul
+breaks into his own sentence to say it ("by grace you have been saved"), and then says it again in
+Ephesians 2:8.
 
 Ephesians 2:7 gives the reason God saves this way. He means to "show the immeasurable riches of his
 grace" in the ages to come, and the people He saved are the display. Your salvation will be on show
@@ -265,9 +270,9 @@ reason in you for His favour. He justifies you *dōrean*.
 
 Paul uses the word a third way: "if righteousness were through the law, then Christ died for no
 purpose" (Galatians 2:21, ESV), *dōrean* again. If you could earn it, the cross was for nothing.
-What it means to be justified, and what the "redemption" in Romans 3:24 paid, are weeks of their own
-in this series; [The Kinsman Redeemer](../jesus/kinsman-redeemer.md) follows the redeemer's price
-through Ruth.
+What it means to be justified is a week of its own in this series. For the "redemption" in Romans
+3:24, [The Kinsman Redeemer](../jesus/kinsman-redeemer.md) follows the redeemer's price through
+Ruth.
 
 ## Otherwise grace would no longer be grace
 
@@ -279,8 +284,7 @@ same is true of Israel in his own day:
 > 5 So too at the present time there is a remnant, chosen by grace. 6 But if it is by grace, it is
 > no longer on the basis of works; otherwise grace would no longer be grace.
 
-Paul defines grace by what it excludes. Favour that is earned is a wage. Add works to grace as its
-ground and you have something other than grace. [When Love Grows
+Paul defines grace by what it excludes. Favour that is earned is a wage. [When Love Grows
 Cold](../christian-life/when-love-grows-cold.md) treats Elijah's seven thousand and the remnant in
 Romans 11:1-6. Some Greek manuscripts, followed by the KJV, add the converse: "But if it be of
 works, then is it no more grace: otherwise work is no more work" (Romans 11:6, KJV).
@@ -299,18 +303,21 @@ opheilēma*, G3783), "according to debt". A wage is owed. Grace is never owed.
 Week one followed Romans 5:12-19 from Adam's side: one man's trespass, and death reigning over all.
 Paul's "much more" falls on the other side, twice:
 
-> ✝️ Romans 5:15, 17 (ESV)
+> ✝️ Romans 5:15-17 (ESV)
 >
 > 15 But the free gift is not like the trespass. For if many died through one man's trespass, much
 > more have the grace of God and the free gift by the grace of that one man Jesus Christ abounded
-> for many. ... 17 For if, because of one man's trespass, death reigned through that one man, much
+> for many. 16 And the free gift is not like the result of that one man's sin. For the judgment
+> following one trespass brought condemnation, but the free gift following many trespasses brought
+> justification. 17 For if, because of one man's trespass, death reigned through that one man, much
 > more will those who receive the abundance of grace and the free gift of righteousness reign in
 > life through the one man Jesus Christ.
 
 In Romans 5:15-17 Paul uses four Greek words of giving, eight times between them: *charis*, χάρισμα
-(*charisma*, G5486), δωρεά (*dōrea*, G1431) and δώρημα (*dōrēma*, G1434). He piles them up because
-the gift is greater than the trespass. Adam's one act brought death to many. Jesus' one act brings
-"the abundance of grace" to everyone who receives it.
+(*charisma*, G5486), δωρεά (*dōrea*, G1431) and δώρημα (*dōrēma*, G1434). The ESV renders the last
+three "free gift", five times in three verses. Paul piles them up because the gift is greater than
+the trespass. Adam's one act brought death to many. Jesus' one act brings "the abundance of grace"
+to everyone who receives it.
 
 ### Grace reigns
 
@@ -320,14 +327,15 @@ the gift is greater than the trespass. Adam's one act brought death to many. Jes
 > more, 21 so that, as sin reigned in death, grace also might reign through righteousness leading to
 > eternal life through Jesus Christ our Lord.
 
-"Abounded all the more" is ὑπερεπερίσσευσεν (*hyperperisseuō*, hoo-per-per-is-SYOO-oh, G5248), to
-overflow past overflowing. Paul uses it only here and in 2 Corinthians 7:4. However far sin has run
-in a life, grace has run further. And grace is a king: it "reigns", where sin used to reign.
+"Abounded all the more" is ὑπερεπερίσσευσεν, from ὑπερπερισσεύω (*hyperperisseuō*,
+hoo-per-per-is-SYOO-oh, G5248), to overflow past overflowing. Paul uses it only here and in
+2 Corinthians 7:4. However far sin has run in a life, grace has run further. And grace is a king:
+it "reigns", where sin used to reign.
 
 Paul's next sentence raises the objection to grace that large: "Are we to continue in sin that grace
-may abound? By no means! How can we who died to sin still live in it?" (Romans 6:1-2, ESV). A king
-rules. "Sin will have no dominion over you, since you are not under law but under grace" (Romans
-6:14, ESV). The grace that forgives you also takes the throne.
+may abound? By no means! How can we who died to sin still live in it?" (Romans 6:1-2, ESV). "Sin
+will have no dominion over you, since you are not under law but under grace" (Romans 6:14, ESV).
+The grace that forgives you also takes the throne.
 
 ## The grace that trains
 
@@ -353,12 +361,12 @@ Jesus came. Glory will appear when He comes again. You live between the two appe
 
 "Training" is παιδεύουσα, from παιδεύω (*paideuō*, pie-DYOO-oh, G3811), the verb of bringing up a
 child. Stephen uses it of Moses, who "was instructed in all the wisdom of the Egyptians" (Acts 7:22,
-ESV), and Hebrews of the Father: "the Lord disciplines the one he loves" (Hebrews 12:6, ESV). The
-LSB footnotes Titus 2:12 "Or disciplining". The grace that saved you sets about raising you. It
-teaches you to say no ("renounce") and to live: self-controlled toward yourself, upright toward
-others, godly toward God.
+ESV), and Hebrews of the Father: "the Lord disciplines the one he loves, and chastises every son
+whom he receives" (Hebrews 12:6, ESV). The LSB footnotes Titus 2:12 "Or disciplining". The grace
+that saved you sets about raising you. It teaches you to say no ("renounce") and to live:
+self-controlled toward yourself, upright toward others, godly toward God.
 
-Titus 2:14 takes Israel's words. "Redeem us from all lawlessness" follows the Septuagint of Psalm
+Titus 2:14 takes Israel's words. "Redeem us from all lawlessness" echoes the Septuagint of Psalm
 130:8, "he will redeem Israel from all his iniquities" (Psalm 130:8, ESV), and "a people for his own
 possession" is the phrase of Exodus 19:5 and Deuteronomy 14:2, λαὸς περιούσιος (*laos periousios*,
 G2992, G4041). The God who took Israel as His treasured possession at Sinai takes for Himself, in
@@ -425,9 +433,9 @@ with me" (1 Corinthians 15:10, ESV).
 
 ## Discussion questions
 
-1. **The language.** In Greek one word, *charis*, means both God's favour and our thanks (Luke 17:9;
-   1 Corinthians 15:57). What does it say about the Christian life that the gift and the response
-   share a name?
+1. **The language.** In Greek one word, χάρις (*charis*), means both God's favour and our thanks
+   (Luke 17:9; 1 Corinthians 15:57). What does it say about the Christian life that the gift and
+   the response share a name?
 2. **The text in its context.** Paul grounds his instructions to old and young, men and women and
    slaves on "For the grace of God has appeared" (Titus 2:11). How does grace that "trains" (Titus
    2:12) change the way those instructions are heard?
@@ -465,6 +473,8 @@ with me" (1 Corinthians 15:10, ESV).
 
 - [Saved: Salvation Foundations](../series/saved.md) — the series this study belongs to.
 - [Why We Need Saving](../sin/why-we-need-saving.md) — week one: sin, and God's love for sinners.
+- [Paul: Apostle to the Gentiles](../biblical-figures/paul.md) — the persecutor saved as a pattern of
+  grace (1 Timothy 1:16).
 - [Faith](faith.md) — leaning your whole weight on God and on what He has finished in Jesus.
 - [Assurance of Salvation](assurance-of-salvation.md) — the grammar of Ephesians 2:8-9.
 - [The Names of God](../god/names-of-god.md) — the proclamation of Exodus 34:6-7.
