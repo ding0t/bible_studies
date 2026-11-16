@@ -19,6 +19,7 @@ draft: false
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 12:9
 - [The Rapture of the Church](../../last-things/rapture.md) — 12:5
 - [The Restrainer](../../last-things/the-restrainer.md) — 12:7-8
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 12:9
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 12:6-14
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 12:6
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 12:6

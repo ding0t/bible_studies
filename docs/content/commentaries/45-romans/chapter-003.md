@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 3:9-23 (primary passage)
+- [Grace](../../salvation/grace.md) — 3:24
 - [Pride](../../sin/pride.md) — 3:24-27
 - [The Ark of the Covenant](../../jesus/the-heavenly-pattern/ark.md) — 3:23-26
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 3:25

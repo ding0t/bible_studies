@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-11-15
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -45,7 +45,6 @@ Add new items here. They get a number and move into their section.
 | [2.4](#24-the-feedings-and-the-hardened-hearts) | The feedings and the hardened hearts | Jesus |
 | [2.5](#25-the-heavenly-pattern) | The heavenly pattern (series) | Jesus |
 | [4.2](#42-on-death) | On death | Salvation |
-| [4.4](#44-grace) | Grace | Salvation |
 | [4.5](#45-repentance) | Repentance | Salvation |
 | [4.6](#46-justified) | Justified | Salvation |
 | [4.7](#47-adopted) | Adopted | Salvation |
@@ -53,7 +52,6 @@ Add new items here. They get a number and move into their section.
 | [5.1](#51-tribulation-perspectives) | Tribulation perspectives | Last things |
 | [5.2](#52-end-times) | End times | Last things |
 | [5.7](#57-heaven-and-earth-by-fire) | Heaven and earth by fire | Last things |
-| [5.10](#510-the-millennium-the-thousand-years-and-what-the-saints-do-in-them) | The millennium | Last things |
 | [5.11](#511-a-prophetic-chart-for-the-future) | A prophetic chart for the future | Last things |
 | [5.12](#512-the-creation-week-drawn-and-taught) | The creation week: drawn and taught | Last things |
 | [8.1](#81-unfoldingword-sources-mirror-update-and-use-more-of-them) | unfoldingWord sources: mirror, update, use more | Sources & tooling |
@@ -768,7 +766,7 @@ Worship and The New Jerusalem already said. What the offerings mean beside the c
 between a memorial and a ceremonial-cleansing reading, with a marked lean to cleansing: Ezekiel's
 "make atonement" is said of the altar (Ezekiel 43:20) and the house (Ezekiel 45:20). The
 [statement of faith](statement-of-faith.md) is silent. The altar and house pages can follow the
-draft study `last-things/the-thousand-years.md` ("The temple Ezekiel saw").
+[The Thousand Years](../last-things/the-thousand-years.md#the-temple-ezekiel-saw).
 
 ## 4. Salvation
 
@@ -791,20 +789,6 @@ follows is [We Shall All Be Changed](../last-things/we-shall-all-be-changed.md) 
 the cross (Luke 23:43) and the rich man and Lazarus (Luke 16:19-31) are now worked in At Home with
 the Lord (checked 2026-11-15). Still to fold in: Moses and Elijah at the Transfiguration, which the
 study does not mention.
-
-### 4.4 Grace
-
-The coming week two of [Saved](../series/saved.md), after [Why We Need Saving](../sin/why-we-need-saving.md). God's favour
-given to those who have earned the opposite.
-
-- χάρις (*charis*, G5485) and חֵן (*chen*, H2580), with the LORD "gracious" in Exodus 34:6, which
-  11.2 also starts from: link the two, do not repeat.
-- Ephesians 2:4-9; Romans 3:24; 5:15-21; Titus 2:11-14 (grace that saves also trains).
-- Grace and works in Romans 11:6, and grace as the power for service (1 Corinthians 15:10).
-
-**Drafted 2026-11-15** as `salvation/grace.md` (draft, not yet linked) and reviewed the same day. Still to
-do: a read-bible-study pass, the author's read, then publishing with Saved's week two and the
-sibling back-links listed in its state file.
 
 ### 4.5 Repentance
 
@@ -906,39 +890,6 @@ the Olivet Discourse, published 2026-09-28) places it in two paragraphs ("Where 
 - **Links:** [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) (2 Peter 3:7,
   the seventh day and the eighth), [The Wife of the Lamb](../israel-and-church/wife-of-the-lamb.md)
   (Revelation 21), and [The End of the Age](../last-things/end-of-the-age.md) (5.5, completed).
-
-### 5.10 The millennium: the thousand years and what the saints do in them
-
-No study works through the thousand years themselves. [Your Kingdom Come](../last-things/your-kingdom-come.md)
-treats the kingdom already and not yet, [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md)
-the seventh day, and [Heaven and Earth Will Pass Away](../last-things/heaven-and-earth-will-pass-away.md)
-what comes after. This one asks what the reign is and what Christ's people do in it.
-
-- **Texts:** Revelation 20:1-10 first, then the Old Testament pictures it fulfils: Psalm 2 and 72;
-  Isaiah 2:2-4; 11:1-10; 65:17-25 (death still present at 65:20, which places it before the new
-  creation); Micah 4:1-5; Zechariah 14:9, 16-19 (the nations come up for Tabernacles). Verify every
-  ESV wording before quoting.
-- **What the saints do:** reign and judge (Revelation 20:4, 6; 5:10; 2:26-27; 3:21; 2 Timothy 2:12;
-  1 Corinthians 6:2-3; Matthew 19:28), govern cities (Luke 19:17-19), worship and keep the feast
-  (Zechariah 14:16), teach the nations (Isaiah 2:3), build and plant (Isaiah 65:21-22). Mark which
-  are stated and which inferred. Link [First Take the Log Out](../christian-life/first-take-the-log-out.md#the-saints-who-will-judge-the-world-and-angels)
-  and [The Judgment Seat of Christ](../last-things/judgment-seat-of-christ.md).
-- **Contested, and say so:** premillennial, amillennial and postmillennial readings of Revelation 20,
-  with the textual case for each; the site's position is premillennial
-  ([statement of faith](statement-of-faith.md#end-times)).
-- **Ezekiel 40-48:** settled 2026-11-15 (see 2.5).
-
-**Drafted 2026-11-15** as `last-things/the-thousand-years.md` (draft, not yet linked), reviewed the
-same day, with a section on clearing and rebuilding after the tribulation (Ezekiel 39, Daniel 12,
-Isaiah 61:4). Still to do: a read-bible-study pass, the author's read, then publishing with the
-sibling back-links listed in its state file.
-- **Extra-biblical sources, behind the standard warning** ("Extra-biblical sources: useful, and not
-  Scripture", as in A Day Is a Thousand Years): 1 Enoch 10:17-22 and the Apocalypse of Weeks (1 Enoch
-  93; 91:12-17), 2 Enoch 33 on the eighth day, 2 Baruch 29, and Papias as Irenaeus reports him
-  (*Against Heresies* 5.33). They show what Jews and early Christians expected; they never carry a
-  claim about what the reign will be.
-- A drawn plate of the reign's sequence (Satan bound, the reign, the release, the final rebellion,
-  the great white throne) would sit well beside the seven-thousand-years plate.
 
 ### 5.11 A prophetic chart for the future
 
@@ -1178,3 +1129,5 @@ Kept here so that an old reference like "work on 3.1" still resolves.
 | 0.8 | Fixes found by reviews | [Christians and Deliverance Ministry](../spiritual-beings/deliverance/christians-and-deliverance.md) now quotes John 10:20-21 correctly (δαιμόνιον ἔχει in 10:20, the participle in 10:21) and treats κολαφίζω as suggestive rather than decisive; [As the Snake Was Lifted Up](../jesus/as-the-snake-was-lifted.md) marks the οὕτως reading contested; Paul added to the Biblical Figures sidebar, 2026-10-04 |
 | 5.6 | They were given white robes | [They Were Given White Robes](../last-things/they-were-given-white-robes.md) (Revelation 6:11; 7:9-14; 19:7-8), reviewed and read 2026-10-15 |
 | 10.5 (follow-ups) | Follow-ups from Those Who Sigh and Groan | The four content notes added, 2026-11-15: 2 Peter 2:8's imperfect ἐβασάνιζεν in [Taken Before Judgment](../last-things/taken-before-judgment.md), Ezekiel 36's gift-then-grief order in [Israel's Regathering and Refining](../israel-and-church/israels-regathering-and-refining.md), and links from the Romans 11:4 remnant in [When Love Grows Cold](../christian-life/when-love-grows-cold.md) and Ephesians 4:30 in [The Names of the Holy Spirit](../holy-spirit/names-of-the-holy-spirit.md). What is left moved to [0.7](#07-review-the-older-studies) (its read pass) and [10.9](#109-forks-from-those-who-sigh-and-groan) |
+| 4.4 | Grace | [Grace](../salvation/grace.md), week two of [Saved](../series/saved.md): <span dir="rtl">חֵן</span> (*chen*) from Noah and Moses on the mountain, χάρις (*charis*) in Luke and Paul, Ephesians 2:4-9, Romans 11:6 and 5:15-21, the grace that trains (Titus 2:11-14) and works (1 Corinthians 15:10), published 2026-11-16 |
+| 5.10 | The millennium | [The Thousand Years: What the Saints Do When Christ Reigns](../last-things/the-thousand-years.md): Revelation 20 in its order, the three readings with the case for each, the prophets' pictures, clearing and rebuilding after the tribulation, what the saints do (stated or inferred), Ezekiel's temple (settled in 2.5), and Jewish and early-church expectation behind the extra-biblical warning, published 2026-11-16 |

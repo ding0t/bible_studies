@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 6:10"
 bible_references: ["Matthew 6:9-10", "Luke 11:2", "Matthew 4:17", "Matthew 5:3", "Matthew 6:33", "Daniel 2:44", "1 Chronicles 29:11", "Matthew 19:23-24", "Luke 15:18", "Matthew 12:28", "Luke 11:20", "Exodus 8:19", "Luke 17:20-21", "Matthew 25:34", "Acts 1:6-7", "Revelation 11:15", "Revelation 19:11-16", "Revelation 20:1-6", "Matthew 13:11", "Luke 12:32", "Luke 1:32-33", "Luke 19:11-12", "Matthew 25:31", "Matthew 19:28", "Revelation 3:21", "Acts 3:19-21", "Matthew 23:39", "Matthew 10:5-7", "Colossians 1:13", "Ephesians 1:20", "Matthew 28:18", "Acts 2:30-35", "Romans 11:25-29", "Matthew 13:41"]
 date_created: 2026-09-29
-date_modified: 2026-10-02
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -292,7 +292,8 @@ which God spoke by the mouth of his holy prophets long ago" (Acts 3:21, ESV). *R
 ἀποκατάστασις (*apokatastasis*, G605), the noun of the verb the apostles used in Acts 1:6. Jesus
 told the story of a nobleman who "went into a far country to receive for himself a kingdom and then
 return" (Luke 19:12, ESV): the kingdom is given where He has gone, and exercised where He comes
-back.
+back. [The Thousand Years](the-thousand-years.md#what-the-saints-do) works through what that reign looks
+like and who shares it.
 
 #### Offered to Israel, and waiting for Israel
 

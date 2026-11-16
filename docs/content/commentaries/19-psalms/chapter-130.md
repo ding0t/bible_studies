@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 130:3-4
+- [Grace](../../salvation/grace.md) — 130:8
 <!-- commentary-index:auto-end -->

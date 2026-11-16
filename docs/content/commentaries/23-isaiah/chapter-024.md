@@ -14,5 +14,6 @@ draft: false
 
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 24:21-22
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 24:21-22
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 24:21-23
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 24:21-22
 <!-- commentary-index:auto-end -->

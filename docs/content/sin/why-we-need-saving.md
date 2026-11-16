@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Romans 3:9-23"
 bible_references: ["Genesis 1:31", "Genesis 2:9", "Genesis 2:16-17", "Genesis 3:1-24", "Genesis 4:7", "Genesis 4:13", "Deuteronomy 6:24", "Deuteronomy 10:12-13", "Deuteronomy 30:15-20", "Psalm 119:68", "Psalm 84:11", "Isaiah 30:21", "Isaiah 5:20", "Hebrews 3:13", "Romans 7:11-13", "2 Corinthians 11:3", "Judges 20:16", "Lamentations 3:9", "2 Kings 8:20", "1 Kings 12:19", "Exodus 34:6-7", "Psalm 32:1-5", "Psalm 51:1-5", "1 John 3:4", "Isaiah 53:6", "Proverbs 14:12", "Jeremiah 6:16", "Romans 1:21-23", "Romans 8:30", "Romans 5:12-19", "Ephesians 2:1-5", "Isaiah 59:1-2", "Isaiah 59:16-20", "Romans 6:16-23", "Luke 3:14", "Romans 3:20", "Romans 5:6-8", "Luke 19:10", "John 10:10-11", "Acts 8:32-35", "Psalm 8:5", "Romans 1:18", "Romans 2:21-24", "1 Corinthians 15:22", "Exodus 20:17", "Joshua 7:21", "Romans 4:6-8"]
 date_created: 2026-10-23
-date_modified: 2026-10-23
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -414,7 +414,7 @@ And Romans 5 says when God's love reached us:
 This shows that God loves sinners as sinners. He came onto the road where you strayed and asked, "Where are you?" Then His Son Jesus died
 for you there, while you were weak, ungodly and still a sinner. The wages of sin is death, "but the
 free gift of God is eternal life in Christ Jesus our Lord" (Romans 6:23, ESV). The word for gift is
-χάρισμα (*charisma*, G5486), from χάρις (*charis*, G5485), grace. Grace is where this series goes next.
+χάρισμα (*charisma*, G5486), from χάρις (*charis*, G5485), grace. [Grace](../salvation/grace.md) is where this series goes next.
 
 ## Discussion questions
 
@@ -454,6 +454,8 @@ free gift of God is eternal life in Christ Jesus our Lord" (Romans 6:23, ESV). T
 ### On this site
 
 - [Saved: Salvation Foundations](../series/saved.md) — the series this study opens.
+- [Grace](../salvation/grace.md) — week two: God's favour given freely to people who had earned the
+  opposite.
 - [Pride](pride.md) — "you will be like God", and pride through Scripture.
 - [Sin and Idolatry](idolatry.md) — the heart that sets up something in God's place.
 - [Forgive Us Our Debts](../christian-life/forgiveness.md) — Romans 5:8-10 and the forgiveness that

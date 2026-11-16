@@ -19,6 +19,7 @@ draft: false
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 7:13-14
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 7:14
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 7:13-14
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 7:9
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 7:25
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 7:21
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 7:9

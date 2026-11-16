@@ -14,6 +14,7 @@ draft: false
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 2:1-7
 - [Fasting](../../christian-life/fasting.md) — 2:37
+- [Grace](../../salvation/grace.md) — 2:52
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 2:36-38
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 2:13-14
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 2:32

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:33-43; John 7:37-39; Zechariah 14:16-19"
 bible_references: ["Colossians 2:16-17", "Zechariah 14:9", "Leviticus 23:33-43", "Exodus 23:16", "Isaiah 9:2", "Numbers 29:12-38", "Deuteronomy 16:13-15", "Deuteronomy 31:10-13", "Hosea 12:9", "1 Kings 8:2", "Ezra 3:4", "Nehemiah 8:14-18", "John 1:14", "John 7:2-14", "John 7:37-39", "John 8:12", "John 8:20", "Isaiah 12:3", "Zechariah 14:8-9", "Zechariah 14:16-19", "Revelation 7:9-17", "Revelation 21:3", "Revelation 20:1-6", "Matthew 4:14-16", "Ezekiel 45:21-25"]
 date_created: 2026-10-02
-date_modified: 2026-10-02
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -227,7 +227,8 @@ no rain, that a picture does not need, and he sets it on the day "the LORD will 
 earth" (Zechariah 14:9, ESV).
 Tabernacles is the one feast Scripture names the nations keeping in that age. Ezekiel's temple
 vision, which this site also reads of the kingdom, keeps Passover and the seventh-month feast there
-too (Ezekiel 45:21-25). What their offerings will mean then is a question this study leaves open.
+too (Ezekiel 45:21-25). What their offerings will mean then is a question this study leaves open; [The Thousand
+Years](../last-things/the-thousand-years.md#the-temple-ezekiel-saw) sets out the four answers held.
 
 ### Revelation
 
@@ -284,3 +285,5 @@ with [Trumpets](trumpets.md) and the [Day of Atonement](day-of-atonement.md).
 - [Feast of Trumpets](trumpets.md) and [The Day of Atonement](day-of-atonement.md) — the other fall
   feasts.
 - [New Jerusalem](../last-things/new-jerusalem.md) — God's dwelling with man.
+- [The Thousand Years](../last-things/the-thousand-years.md) — the reign in which the nations keep
+  Booths.

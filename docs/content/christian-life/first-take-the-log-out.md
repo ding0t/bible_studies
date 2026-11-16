@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Matthew 7:1-5; Luke 6:37-42"
 bible_references: ["Matthew 5:1-4", "Matthew 5:23-24", "Matthew 6:2-16", "Matthew 6:22-23", "Matthew 7:6", "Matthew 7:15-23", "Matthew 13:55", "Matthew 18:15-18", "Matthew 18:33-35", "Matthew 19:28", "Matthew 23:24-26", "Mark 6:3", "Mark 8:22-26", "Luke 4:20", "Luke 6:20-49", "Luke 12:24", "John 5:22-30", "John 7:24", "Genesis 8:11", "Genesis 38:24-26", "Deuteronomy 1:16-17", "2 Samuel 11:1-27", "2 Samuel 12:1-13", "1 Kings 3:7-9", "1 Kings 3:28", "2 Kings 6:1-7", "2 Chronicles 19:6-7", "Psalm 19:12", "Psalm 51:1-13", "Psalm 139:23-24", "Song of Songs 1:17", "Isaiah 11:2-4", "Daniel 7:22", "Romans 2:1-4", "Romans 2:21", "Romans 8:1", "Romans 14:4", "Romans 14:10-13", "1 Corinthians 4:3-5", "1 Corinthians 5:1-13", "1 Corinthians 6:1-7", "1 Corinthians 11:31-32", "2 Corinthians 5:10", "2 Corinthians 5:21", "Galatians 6:1-4", "1 Thessalonians 5:21", "2 Timothy 2:24-26", "James 1:5", "James 1:22-25", "James 2:13", "James 3:1", "James 3:13-18", "James 4:11-12", "1 John 1:9", "1 John 4:1", "2 Peter 2:4", "Jude 1:6", "Revelation 20:4"]
 date_created: 2026-11-15
-date_modified: 2026-11-15
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -392,7 +392,9 @@ glorious throne, you who have followed me will also sit on twelve thrones, judgi
 of Israel" (Matthew 19:28, ESV). John saw "thrones, and seated on them were those to whom the
 authority to judge was committed" (Revelation 20:4, ESV), and they "reigned with Christ for a
 thousand years". This site reads that as Christ's reign on the earth after His return; [Your Kingdom
-Come](../last-things/your-kingdom-come.md#not-yet-complete) sets out the case.
+Come](../last-things/your-kingdom-come.md#not-yet-complete) sets out the case, and [The Thousand
+Years](../last-things/the-thousand-years.md#what-the-saints-do) lists every task Scripture gives the
+saints in that reign, marking which are stated and which inferred.
 
 Paul does not say which angels. The fallen angels whom God is keeping "until the judgment" (2 Peter
 2:4, ESV; Jude 6) are the likeliest reading, and the text leaves it there.
@@ -546,3 +548,4 @@ you?" (Matthew 18:33, ESV).
 - [Hurt by the Church](hurt-by-the-church.md) — wrongs between believers, and the road back.
 - [Pride](../sin/pride.md) — the words for pride, φυσιόω among them.
 - [Your Kingdom Come](../last-things/your-kingdom-come.md) — the kingdom now and the reign to come.
+- [The Thousand Years](../last-things/the-thousand-years.md) — what the saints do when Christ reigns.

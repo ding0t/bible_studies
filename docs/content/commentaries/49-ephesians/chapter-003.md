@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 3:14-21 (primary passage)
+- [Grace](../../salvation/grace.md) — 3:2
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 3:1-9
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 3:1-8
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 3:20-21

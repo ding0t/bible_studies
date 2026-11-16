@@ -18,6 +18,7 @@ draft: false
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 11:33-36
 - [Faith](../../salvation/faith.md) — 11:6
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 11:16
+- [Grace](../../salvation/grace.md) — 11:2-6
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 11:25-26
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 11:26-27
 - [Know the Truth](../../christian-life/know-the-truth.md) — 11:1

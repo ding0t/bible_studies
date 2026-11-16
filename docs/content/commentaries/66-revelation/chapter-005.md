@@ -22,6 +22,7 @@ draft: false
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 5:6
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 5:5-6
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 5:9
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 5:10
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 5:5-9
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 5:10
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 5:10

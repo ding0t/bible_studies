@@ -32,6 +32,7 @@ draft: false
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 19:11-16
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 19:7-8
 - [The Rapture of the Church](../../last-things/rapture.md) — 19:11-16
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 19:11-21
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 19:7-16
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 19:11-16
 - [True Worship](../../christian-life/true-worship.md) — 19:10

@@ -14,5 +14,6 @@ draft: false
 
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 15:4
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 15:8-12
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 15:12
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 15:3
 <!-- commentary-index:auto-end -->

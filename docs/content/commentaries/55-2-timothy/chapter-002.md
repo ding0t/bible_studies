@@ -16,6 +16,7 @@ draft: false
 - [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 2:24-26
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 2:22
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 2:24-26
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 2:12
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:12
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 2:19
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 2:20-21

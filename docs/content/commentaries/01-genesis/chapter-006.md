@@ -14,6 +14,7 @@ draft: false
 
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 6:1-4 (primary passage)
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 6:1-4
+- [Grace](../../salvation/grace.md) — 6:5-8
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 6:9
 - [The Restrainer](../../last-things/the-restrainer.md) — 6:3
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 6:5-6

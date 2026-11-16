@@ -17,6 +17,7 @@ draft: false
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 6:12-16 (primary passage)
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 6:14
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 6:15
+- [Grace](../../salvation/grace.md) — 6:32-35
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 6:15
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 6:16
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 6:15

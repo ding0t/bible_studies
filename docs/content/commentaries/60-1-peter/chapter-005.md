@@ -23,5 +23,6 @@ draft: false
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 5:5-6
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 5:4
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 5:7
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 5:8
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 5:9
 <!-- commentary-index:auto-end -->

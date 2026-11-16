@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Grace](../../salvation/grace.md) — 1:13-15
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 1:12-16
 - [Submission in Context](../../christian-life/submission-in-context.md) — 1:3-7
 <!-- commentary-index:auto-end -->

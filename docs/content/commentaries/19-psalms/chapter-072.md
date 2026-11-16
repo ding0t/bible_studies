@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 72:20
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 72:1-17
 <!-- commentary-index:auto-end -->

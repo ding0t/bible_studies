@@ -21,6 +21,7 @@ draft: false
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 15:51-53
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 15:20-23
 - [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 15:22
+- [Grace](../../salvation/grace.md) — 15:57
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 15:42
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 15:51
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 15:10
@@ -31,6 +32,7 @@ draft: false
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 15:10
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 15:45
 - [The Rapture of the Church](../../last-things/rapture.md) — 15:51-53
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 15:23-25
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 15:51-53
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 15:51
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 15:24-25

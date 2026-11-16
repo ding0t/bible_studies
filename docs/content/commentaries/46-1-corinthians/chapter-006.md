@@ -20,6 +20,7 @@ draft: false
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 6:9-11
 - [Submission in Context](../../christian-life/submission-in-context.md) — 6:12
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 6:20
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 6:2-3
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 6:17
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 6:11
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 6:1

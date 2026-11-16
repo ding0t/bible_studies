@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Grace](../../salvation/grace.md) — 2:4-9 (primary passage)
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:11-22 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 2:7
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 2:1-10
@@ -24,6 +25,7 @@ draft: false
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 2:8-10
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 2:20
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:21-22
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 2:6
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 2:20
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 2:19
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 2:8-10

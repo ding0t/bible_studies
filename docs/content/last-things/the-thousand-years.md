@@ -4,11 +4,11 @@ category: "prophecy"
 description: "Revelation 20:1-10 read in its order, the Old Testament pictures of the King's reign on an earth not yet made new, the three Christian readings of the millennium with the case for each, and what Scripture says Christ's people will do in it: reign and judge, govern, serve as priests, worship, teach, build and plant."
 tags: ["revelation", "isaiah", "psalms", "micah", "zechariah", "daniel", "luke", "ezekiel", "millennium", "kingdom-of-god", "resurrection", "reward", "dispensationalism", "enoch", "church-fathers", "method/word-study", "lang/greek", "lang/hebrew"]
 questions: ["What is the millennium?", "What will believers do during the thousand-year reign of Christ?"]
-draft: true
+draft: false
 primary_passage: "Revelation 20:1-10"
 bible_references: ["Revelation 19:11-21", "Revelation 20:11-15", "Revelation 2:8", "Revelation 2:26-27", "Revelation 3:21", "Revelation 5:10", "Revelation 1:6", "Revelation 12:9", "Revelation 13:14", "Revelation 16:14", "Revelation 21:22", "Psalm 2:6-9", "Psalm 72:1-17", "Psalm 110:1-2", "Isaiah 2:2-4", "Isaiah 11:1-10", "Isaiah 24:21-23", "Isaiah 65:17-25", "Micah 4:1-5", "Zechariah 14:9", "Zechariah 14:16-19", "Daniel 7:9", "Daniel 7:18", "Daniel 7:22", "Daniel 7:27", "Ezekiel 43:10-11", "Ezekiel 43:18-21", "Ezekiel 45:15-17", "Matthew 12:29", "Matthew 13:33", "Matthew 19:28", "Matthew 25:21", "Matthew 25:31-34", "Luke 18:8", "Luke 19:15-19", "Luke 22:29-30", "John 5:25-29", "1 Corinthians 6:2-3", "1 Corinthians 15:23-25", "2 Corinthians 4:4", "Ephesians 2:6", "2 Timothy 2:12", "Acts 4:25-27", "Acts 13:33", "Romans 15:12", "Acts 1:6", "Joel 1:4", "Acts 15:14", "Hebrews 9:13", "Hebrews 10:18", "1 Peter 5:8", "Revelation 16:19-20", "Isaiah 24:1", "Ezekiel 39:9-16", "Daniel 12:11-12", "Matthew 25:31-32", "Isaiah 61:1-4", "Luke 4:16-21", "Amos 9:11-15", "Acts 15:16", "Ezekiel 36:33-36", "Joel 2:25", "Zechariah 14:4-10", "Ezekiel 47:1-12", "Isaiah 35:1", "Acts 3:21", "Titus 3:5", "Ezekiel 45:20", "Acts 3:20", "Revelation 21:5", "John 5:28-29", "Matthew 25:31-46"]
 date_created: 2026-11-15
-date_modified: 2026-11-15
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

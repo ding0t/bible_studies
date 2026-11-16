@@ -1,6 +1,6 @@
 slug: "the-thousand-years"
 title: "The Thousand Years: What the Saints Do When Christ Reigns"
-status: review
+status: published
 target_path: "docs/content/last-things/the-thousand-years.md"
 backlog: "5.10 The millennium: the thousand years and what the saints do in them"
 
@@ -312,3 +312,5 @@ decisions_2026-11-15:
   amillennial_interim_argument: "Added to the amillennial case, with Paul's order (1 Corinthians 15:23-25) as the premillennial reply in Where this study stands."
   your_kingdom_come_link: "Linked in the prose of Where this study stands."
   renderings: "H5521 (booths) and H2603 (be gracious) decided in docs/data/word-renderings.toml. H7489 is not on the ULT/BSB disagreement list; the break/shepherd difference is the Septuagint's and the prose covers it."
+
+published_2026-11-16: "draft: false at the author's request (\"publish\"), skipping the separate read-bible-study pass. Back-links from the proposed list applied in the same commit; rapture-in-the-early-church.md still draft, so not linked; judgment-seat-of-christ.md link put in On this site to stay inside its word budget."

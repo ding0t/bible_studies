@@ -14,6 +14,7 @@ draft: false
 
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 32:12-14
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 32:26-29
+- [Grace](../../salvation/grace.md) — 32:1
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 32:11-14
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 32:6
 - [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 32:34

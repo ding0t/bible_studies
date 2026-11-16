@@ -8,7 +8,7 @@ draft: false
 primary_passage: "John 4:21-24"
 bible_references: ["Genesis 22:5-8", "Exodus 20:3-6", "Exodus 25:8-9", "Deuteronomy 6:13", "Deuteronomy 32:43", "Nehemiah 9:6", "Psalm 29:2", "Psalm 51:16-17", "Psalm 95:6-7", "Isaiah 2:2-3", "Isaiah 6:1-5", "Isaiah 29:13", "Isaiah 42:8", "Isaiah 66:23", "Micah 6:6-8", "Zechariah 14:9", "Zechariah 14:16", "Daniel 3:17-18", "Daniel 4:30-34", "Ezekiel 45:15-17", "Matthew 4:8-10", "Matthew 14:33", "Matthew 15:8-9", "Matthew 28:9", "Matthew 28:17", "John 2:19-21", "John 9:38", "John 20:28", "Acts 2:42", "Acts 10:25-26", "Acts 12:21-23", "Acts 14:11-15", "Acts 20:7", "Romans 12:1", "Philippians 2:9-11", "Philippians 3:3", "Colossians 2:18", "Colossians 3:16", "2 Thessalonians 2:4", "Hebrews 1:6", "Hebrews 10:19-22", "Hebrews 12:28-29", "Hebrews 13:15-16", "1 Peter 2:5", "Revelation 4:8-11", "Revelation 5:8-14", "Revelation 7:9-12", "Revelation 13:4", "Revelation 13:8", "Revelation 13:15", "Revelation 14:6-11", "Revelation 20:4", "Revelation 15:4", "Revelation 19:10", "Revelation 21:22", "Revelation 22:3-4", "Revelation 22:8-9"]
 date_created: 2026-10-22
-date_modified: 2026-10-22
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -409,7 +409,8 @@ the house of Israel" (Ezekiel 45:17, ESV), stand beside the once-for-all sacrifi
 debated among them: some read them as memorials looking back to the cross, others as offerings for
 ceremonial cleansing in a kingdom where mortal people still live. Scripture is clear that the nations
 will worship the King in Jerusalem; what Ezekiel's offerings will mean then is the part that stays
-open.
+open. [The Thousand Years](../last-things/the-thousand-years.md#the-temple-ezekiel-saw) sets out the four
+answers held and where the text leans.
 
 ### The new creation
 
@@ -459,6 +460,8 @@ The Father is seeking worshippers, and through His Son Jesus and by the Holy Spi
 
 ### On this site
 
+- [The Thousand Years](../last-things/the-thousand-years.md) — the reign in which the nations worship
+  the King in Jerusalem.
 - [The Woman at the Well](../jesus/woman-at-well.md) — John 4 in full, and worship in spirit and truth.
 - [Idolatry](../sin/idolatry.md) — what happens when worship goes to something God made.
 - [Pride](../sin/pride.md) — the men who claimed to be gods, and how each ended.

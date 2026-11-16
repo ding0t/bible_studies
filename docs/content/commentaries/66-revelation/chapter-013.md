@@ -18,6 +18,7 @@ draft: false
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 13:2
 - [The Image and the Kingdoms: Daniel 2 and 7 Through History](../../last-things/the-image-and-the-kingdoms.md) — 13:1-7
 - [The Restrainer](../../last-things/the-restrainer.md) — 13:7
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 13:14
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 13:5-8
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 13:5-7
 - [True Worship](../../christian-life/true-worship.md) — 13:4

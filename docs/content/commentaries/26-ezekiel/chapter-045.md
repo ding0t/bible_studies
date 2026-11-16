@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 45:21-25
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 45:15-17
 - [True Worship](../../christian-life/true-worship.md) — 45:15-17
 <!-- commentary-index:auto-end -->

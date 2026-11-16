@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 20:11-15 (primary passage)
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 20:1-10 (primary passage)
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 20:1-7
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 20:7-15
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 20:13-14

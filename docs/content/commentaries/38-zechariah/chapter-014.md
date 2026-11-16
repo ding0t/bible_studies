@@ -22,6 +22,7 @@ draft: false
 - [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 14:4
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 14:11
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 14:1-5
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 14:9
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 14:4
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 14:8
 - [True Worship](../../christian-life/true-worship.md) — 14:9

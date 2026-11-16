@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Pride](../../sin/pride.md) — 2:10-12
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 2:2-4
 - [True Worship](../../christian-life/true-worship.md) — 2:2-3
 <!-- commentary-index:auto-end -->

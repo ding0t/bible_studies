@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Matthew 6:14-15"
 bible_references: ["Matthew 6:12", "Mark 11:25", "Luke 17:3-4", "Matthew 18:15-17", "Matthew 18:21-35", "Matthew 5:23-24", "Matthew 5:44-45", "Matthew 4:20", "Luke 7:41-47", "Luke 23:34", "Luke 24:47", "Luke 13:3", "Acts 2:36-38", "Acts 3:17-19", "Acts 7:60", "Acts 16:37", "Ephesians 4:26", "Ephesians 4:31-32", "Colossians 2:13-14", "Colossians 3:13", "Romans 5:8-10", "Romans 12:17-21", "Romans 13:4", "2 Corinthians 2:6-11", "2 Corinthians 5:18-21", "1 John 1:8-10", "1 Peter 2:23", "1 Peter 4:3-5", "2 Timothy 4:14-16", "Exodus 34:6-7", "Deuteronomy 29:19-20", "Deuteronomy 15:1-2", "Psalm 130:3-4", "Jeremiah 31:34", "Genesis 42:21", "Genesis 50:17-21", "Matthew 10:16"]
 date_created: 2026-10-04
-date_modified: 2026-10-31
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -153,7 +153,8 @@ Paul uses a third word, χαρίζομαι (*charizomai*, khah-REED-zoh-my, G548
 (*charis*, G5485, "grace"). Paul uses it twice in Ephesians 4:32: "forgiving (<span data-strongs="G5483">χαριζόμενοι</span>) one another, as
 God in Christ forgave (<span data-strongs="G5483">ἐχαρίσατο</span>) you" (ESV). Luke uses the same verb for the moneylender whose two
 debtors "could not pay," so "he cancelled the debt of both" (Luke 7:42, ESV). Forgiveness is a
-gift, given to someone who cannot pay.
+gift, given to someone who cannot pay. [Grace](../salvation/grace.md) traces *charis* itself, from the
+Septuagint's rendering of Hebrew *chen* to Paul.
 
 ### A Hebrew verb kept for God
 

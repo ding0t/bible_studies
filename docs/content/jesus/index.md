@@ -4,7 +4,7 @@ category: "other"
 description: "God the Son: who Jesus is and what He did, including Old Testament prophecy fulfilled in Him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-11-09
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -34,7 +34,7 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
 
     ---
 
-    An exegetical study of Numbers 21:4-9 and John 3:14-15: how Jesus applies the bronze serpent to his own crucifixion, with word studies tracing 'lifted up' back to Isaiah's Suffering Servant.
+    An exegetical study of Numbers 21:4-9 and John 3:14-15: how Jesus applies the bronze serpent to His own crucifixion, with word studies tracing 'lifted up' back to Isaiah's Suffering Servant.
 
     [:octicons-arrow-right-24: Read](as-the-snake-was-lifted.md)
 
@@ -138,7 +138,7 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
 
     ---
 
-    The sign of Jonah, and what Jonah said it was: the belly of Sheol, the heart of the seas, brought up from the pit. Where the New Testament says Christ was between the cross and the empty tomb — Sheol, Hades, Abraham's side, paradise — what it says he achieved there, and, in its proper proportion, whether a Friday allows three nights.
+    The sign of Jonah, and what Jonah said it was: the belly of Sheol, the heart of the seas, brought up from the pit. Where the New Testament says Christ was between the cross and the empty tomb — Sheol, Hades, Abraham's side, paradise — what it says He achieved there, and, in its proper proportion, whether a Friday allows three nights.
 
     [:octicons-arrow-right-24: Read](three-days-and-three-nights.md)
 

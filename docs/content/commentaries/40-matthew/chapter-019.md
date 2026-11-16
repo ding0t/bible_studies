@@ -18,6 +18,7 @@ draft: false
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 19:3-10
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 19:4-6
 - [Submission in Context](../../christian-life/submission-in-context.md) — 19:8-9
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 19:28
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 19:28
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 19:23-24
 <!-- commentary-index:auto-end -->

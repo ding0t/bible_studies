@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Acts 9:1-19; Romans 11:11-24"
 bible_references: ["Acts 9:15", "Acts 26:12-18", "Galatians 1:11-24", "Galatians 2:7-9", "Philippians 3:4-11", "1 Timothy 1:12-16", "1 Corinthians 15:8-10", "Ephesians 3:1-8", "Romans 9:22-24", "Ephesians 2:12-13"]
 date_created: 2026-08-29
-date_modified: 2026-11-15
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -249,6 +249,9 @@ apostles:
 > ✝️ 1 Corinthians 15:8-10 (ESV)
 >
 > 8 Last of all, as to one untimely born, he appeared also to me. 9 For I am the least of the apostles, unworthy to be called an apostle, because I persecuted the church of God. 10 But by the grace of God I am what I am, and his grace toward me was not in vain.
+
+[Grace](../salvation/grace.md) opens with Saul's record (Acts 8:3; 1 Timothy 1:13-15) and comes back to
+these verses in its last section.
 
 ### Untimely born: ἔκτρωμα
 

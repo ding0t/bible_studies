@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Grace](../../salvation/grace.md) — 2:21
 - [John son of Zebedee](../../biblical-figures/john.md) — 2:9
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 2:7-9
 - [Simon Peter](../../biblical-figures/peter.md) — 2:11-14

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 6:18
+- [Grace](../../salvation/grace.md) — 6:1-2
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 6:10
 - [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 6:9
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 6:13-19

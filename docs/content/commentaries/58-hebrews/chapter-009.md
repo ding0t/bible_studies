@@ -29,6 +29,7 @@ draft: false
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 9:14
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 9:7
 - [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 9:2
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 9:13
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 9:27
 - [The Way](../../jesus/the-way.md) — 9:8
 <!-- commentary-index:auto-end -->

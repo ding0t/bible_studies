@@ -6,7 +6,7 @@ tags: ["chart", "timeline", "dispensationalism", "larkin"]
 draft: false
 bible_references: ["Genesis 1:1-2:3", "Exodus 20:11", "Colossians 2:16-17", "Hebrews 4:9", "Daniel 9:27", "1 Thessalonians 4:16-17", "Revelation 19:7-9", "Revelation 20:1-6", "Zechariah 14:4-5", "Luke 16:19-31", "Luke 23:43", "2 Corinthians 5:8", "Philippians 1:23", "Ephesians 4:8-10"]
 date_created: 2024-05-29
-date_modified: 2026-10-08
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -118,6 +118,8 @@ adds, in blue, the verses At Home with the Lord rests each point on.
   underworld chart set beside the argument section by section.
 - [The Rapture of the Church](rapture.md) -- the tribulation, the judgments, and the millennium,
   argued in full.
+- [The Thousand Years](the-thousand-years.md) -- the millennium on these charts: Revelation 20 in its
+  order, and what the saints do in the reign.
 - [A Day Is a Thousand Years](day-is-a-thousand-years.md) -- the six-then-seventh chronological pattern behind the "seven
   thousand years" chart.
 - [The Zadok Calendar](../feasts/zadok-calendar.md) and [Bible Chronology & Genealogical

@@ -21,6 +21,7 @@ draft: false
 - [The Names of God](../../god/names-of-god.md) — 2:32
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 2:28-29
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 2:30-31
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 2:25
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 2:11
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 2:1-11
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 2:28-32

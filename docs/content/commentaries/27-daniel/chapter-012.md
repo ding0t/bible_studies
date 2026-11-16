@@ -22,6 +22,7 @@ draft: false
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 12:2-3
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 12:1-11
 - [The Restrainer](../../last-things/the-restrainer.md) — 12:1
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 12:11-12
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 12:1-12
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 12:7
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 12:1

@@ -18,6 +18,7 @@ draft: false
 - [John son of Zebedee](../../biblical-figures/john.md) — 3:1-11
 - [Sin and Sorcery](../../sin/sorcery.md) — 3:22-23
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 3:22
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 3:21
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 3:22
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 3:19-21
 <!-- commentary-index:auto-end -->

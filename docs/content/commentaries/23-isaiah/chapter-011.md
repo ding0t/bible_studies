@@ -18,4 +18,5 @@ draft: false
 - [The Names of God](../../god/names-of-god.md) — 11:10
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 11:1
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 11:1-3
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 11:1-10
 <!-- commentary-index:auto-end -->

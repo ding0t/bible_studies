@@ -7,7 +7,7 @@ draft: false
 primary_passage: "2 Peter 3:3-9; Genesis 2:1-3"
 bible_references: ["Psalm 90:4", "Genesis 1:1-31", "Genesis 2:17", "Exodus 20:8-11", "Hebrews 1:2", "Hebrews 4:1-13", "Revelation 20:1-7", "Genesis 49:1", "Matthew 24:44", "Romans 13:12", "Hebrews 10:25", "Ezekiel 12:22", "Matthew 24:48", "Mark 13:32", "Acts 1:7", "2 Timothy 3:16", "2 Peter 3:14", "Exodus 31:13", "Colossians 2:16"]
 date_created: 2026-08-12
-date_modified: 2026-11-06
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -440,6 +440,9 @@ Amillennial readers take the thousand years as the present church age; the featu
 study's case against that. On the reading argued here, this shows that God will give His Son Jesus
 the kingdom the whole week has been moving toward. Jesus reigns, and those who belong to Him reign
 with Him (Revelation 20:4, 6). If you are His, "blessed and holy" (Revelation 20:6) is spoken over you.
+
+What the saints do in those thousand years, and what the prophets saw of the reign, is worked
+through in [The Thousand Years](the-thousand-years.md).
 
 ### And the eighth
 

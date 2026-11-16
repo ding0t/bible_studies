@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 47:1-12
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 47:1-12
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 47:1-6
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 47:9
 <!-- commentary-index:auto-end -->

@@ -18,6 +18,7 @@ draft: false
 - [The Almond](../../jesus/the-heavenly-pattern/almond.md) — 110:2
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 110:1
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 110:1-4
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 110:1-2
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 110:1
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 110:1
 <!-- commentary-index:auto-end -->

@@ -32,6 +32,7 @@ draft: false
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 21:22-23
 - [The New Jerusalem](../../last-things/new-jerusalem.md) — 21:2
 - [The Rapture of the Church](../../last-things/rapture.md) — 21:1-4
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 21:22
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 21:12-14
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 21:22
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 21:27

@@ -4,7 +4,7 @@ category: "other"
 description: "End-times prophecy, read dispensationally."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-10-19
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -200,6 +200,14 @@ End-times prophecy, read dispensationally.
     The restrainer of 2 Thessalonians 2:6-7 is the Holy Spirit dwelling in the church. While the church stands in the midst of the world, lawlessness is held back; when she is caught up, the lawless one is revealed.
 
     [:octicons-arrow-right-24: Read](the-restrainer.md)
+
+-   __The Thousand Years: What the Saints Do When Christ Reigns__
+
+    ---
+
+    Revelation 20:1-10 read in its order, the Old Testament pictures of the King's reign on an earth not yet made new, the three Christian readings of the millennium with the case for each, and what Scripture says Christ's people will do in it: reign and judge, govern, serve as priests, worship, teach, build and plant.
+
+    [:octicons-arrow-right-24: Read](the-thousand-years.md)
 
 -   __They Were Given White Robes__
 

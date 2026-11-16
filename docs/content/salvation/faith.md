@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Habakkuk 2:4; Hebrews 11:1-40"
 bible_references: ["2 Chronicles 20:1-22", "Genesis 15:6", "Exodus 17:12", "Isaiah 7:9", "Deuteronomy 32:4", "Romans 1:17", "Galatians 3:11", "Hebrews 10:38-39", "Habakkuk 1:6", "Habakkuk 2:3", "Hebrews 6:12", "Hebrews 13:7", "Hebrews 12:1-2", "Romans 4:16-21", "Genesis 17:17", "Hebrews 11:11", "Hebrews 11:17-19", "1 Samuel 17:45-47", "Daniel 3:17-18", "Daniel 6:23", "Matthew 8:5-13", "Luke 7:1-10", "Matthew 15:21-28", "Mark 7:24-30", "Matthew 17:20", "Matthew 14:28-31", "Mark 9:22-24", "Ephesians 2:8-9", "Psalm 95:7-11", "Hebrews 3:7-8", "Hebrews 3:19", "Hebrews 4:9-10", "Genesis 2:2", "John 19:30", "Romans 4:4-5", "Romans 11:6", "2 Corinthians 1:8-9", "Luke 18:13-14", "John 6:28-29", "James 2:22", "Genesis 22:2", "1 Samuel 17:48", "Hebrews 11:35-39", "Matthew 7:6", "Luke 16:21", "Philippians 3:2", "2 Peter 2:22", "Revelation 22:15", "Revelation 3:14-22", "Isaiah 55:1", "Lamentations 3:22-23", "Matthew 6:11", "2 Timothy 2:13", "Matthew 6:30", "Matthew 8:26", "Matthew 16:8-10", "Luke 12:28", "1 Peter 5:7", "Hebrews 10:14"]
 date_created: 2026-09-29
-date_modified: 2026-10-31
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -472,6 +472,7 @@ Work earns wages, and wages are owed. Faith receives a gift. God "justifies the 
 people He declares righteous had nothing to bring. "That is why it depends on faith, in order that
 the promise may rest on grace" (Romans 4:16, ESV). And grace stays grace: "if it is by grace, it is
 no longer on the basis of works; otherwise grace would no longer be grace" (Romans 11:6, ESV).
+[Grace](grace.md) follows that word from Noah's *chen* to Paul's *charis*.
 
 Paul learned this in the worst season of his ministry. In Asia he "despaired of life itself" (2
 Corinthians 1:8, ESV). "But that was to make us rely not on ourselves but on God who raises the dead"
@@ -572,6 +573,7 @@ nothing, and it is enough because it rests on Him.
 
 ### On this site
 
+- [Grace](grace.md) — God's favour given freely, the gift that faith receives.
 - [In Humility](../christian-life/humility.md) — living before God as someone who depends on Him for
   everything.
 - [Pride](../sin/pride.md) — self-sufficiency, and the pride that tries to earn what God gives.

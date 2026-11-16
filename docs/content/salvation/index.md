@@ -4,7 +4,7 @@ category: "other"
 description: "Grace, redemption, assurance, and what happens at death."
 draft: false
 date_created: 2026-08-24
-date_modified: 2026-10-14
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
@@ -32,6 +32,14 @@ Grace, redemption, assurance, and what happens at death.
     Faith is leaning your whole weight on God and on what He has finished in Jesus. Scripture surrounds you with people who did it, weak in themselves and made strong by the One they trusted, and tells you to imitate their faith.
 
     [:octicons-arrow-right-24: Read](faith.md)
+
+-   __Grace__
+
+    ---
+
+    Grace is God's favour given freely, in His Son Jesus, to people who had earned the opposite. It saves you apart from anything you bring, it overflows wherever sin has spread, and the same grace trains you to live for God and works in you as you serve Him.
+
+    [:octicons-arrow-right-24: Read](grace.md)
 
 -   __Saved as Through Fire__
 

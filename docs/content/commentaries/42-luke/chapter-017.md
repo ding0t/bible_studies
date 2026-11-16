@@ -15,6 +15,7 @@ draft: false
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 17:26-37 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 17:30
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 17:3-4
+- [Grace](../../salvation/grace.md) — 17:9
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 17:26-30
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 17:3-4
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 17:26-30

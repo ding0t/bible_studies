@@ -1,6 +1,6 @@
 slug: "grace"
 title: "Grace"
-status: review # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
+status: published # scoping | exegesis | hermeneutics | cross-reference | drafting | review | published
 target_path: "docs/content/salvation/grace.md"
 
 primary_passage: "Ephesians 2:4-9"
@@ -224,3 +224,5 @@ decisions_2026-11-15:
   titus_2_12: "The self / others / God reading is now introduced as a traditional reading."
   discussion_question_5: "Now uses both quotations: grace working through you (1 Corinthians 15:10) toward the ungrateful (Luke 6:35)."
   renderings: "H2603 decided in docs/data/word-renderings.toml: be gracious, with the Septuagint's and Paul's mercy named where a study rests on it."
+
+published_2026-11-16: "draft: false at the author's request (\"publish\"), skipping the separate read-bible-study pass. Back-links from the proposed list applied in the same commit; kinsman-redeemer.md (optional) not linked."

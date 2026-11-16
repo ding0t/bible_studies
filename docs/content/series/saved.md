@@ -10,7 +10,8 @@ series:
   sessions:
     - study: sin/why-we-need-saving.md
       why: "God's commands are for your good; every one of us went our own way, and God came looking: while we were still sinners, Christ died for us."
-    - planned: "Grace"
+    - study: salvation/grace.md
+      why: "God's favour given freely to people who had earned the opposite: it saves you apart from anything you bring, and it trains you to live for Him."
     - study: salvation/faith.md
       why: "Leaning your whole weight on God and on what He has finished in Jesus, with Hebrews 11's witnesses around you."
     - planned: "Repentance"
@@ -22,7 +23,7 @@ series:
     - study: salvation/saved-as-through-fire.md
       why: "Saved, though only as through fire: what a believer's building is tested for, and snatching the drifting out of the flames."
 date_created: 2026-10-22
-date_modified: 2026-10-23
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

@@ -4,11 +4,11 @@ category: "theology"
 description: "Grace is God's favour given freely, in His Son Jesus, to people who had earned the opposite. It saves you apart from anything you bring, it overflows wherever sin has spread, and the same grace trains you to live for God and works in you as you serve Him."
 tags: ["ephesians", "romans", "titus", "exodus", "john", "luke", "1-corinthians", "grace", "gospel", "method/word-study", "lang/hebrew", "lang/greek"]
 questions: ["What is grace?", "If I am saved by grace, does it matter how I live?", "What is the difference between grace and mercy?"]
-draft: true
+draft: false
 primary_passage: "Ephesians 2:4-9"
 bible_references: ["1 Timothy 1:13-15", "Acts 8:3", "Genesis 6:5-8", "Exodus 22:26-27", "Exodus 33:12-19", "Exodus 34:6-9", "Exodus 33:20", "Luke 1:30", "Luke 4:22", "Luke 6:32-35", "Matthew 5:46", "Luke 17:9", "1 Corinthians 15:57", "John 1:14-18", "2 Corinthians 8:9", "Romans 3:24", "John 15:25", "Galatians 2:21", "Romans 4:4-5", "Romans 11:2-6", "Romans 5:2", "Romans 5:8", "Romans 5:15-21", "Romans 6:1-2", "Romans 6:14", "Titus 2:1-14", "Titus 3:4-7", "Hebrews 12:6", "Exodus 19:5", "Psalm 130:8", "1 Corinthians 15:8-10", "1 Corinthians 15:58", "Ephesians 3:2", "Ephesians 3:7-8", "2 Corinthians 12:9", "Ephesians 2:10", "Ephesians 2:3", "Exodus 24:18", "Exodus 32:1", "Exodus 33:18", "Luke 2:52", "Acts 7:22", "Acts 9:3-6", "1 Timothy 2:4", "Deuteronomy 14:2", "2 Corinthians 7:4", "1 Corinthians 15:14", "Exodus 32:30-32", "Romans 9:15", "Psalm 112:4", "1 Timothy 1:16"]
 date_created: 2026-11-15
-date_modified: 2026-11-15
+date_modified: 2026-11-16
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---

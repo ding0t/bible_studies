@@ -18,5 +18,5 @@ draft: false
 - [Chapter 5](chapter-005.md) — 2 study(ies)
 - [Chapter 6](chapter-006.md) — 1 study(ies)
 - [Chapter 8](chapter-008.md) — 1 study(ies)
-- [Chapter 9](chapter-009.md) — 3 study(ies)
+- [Chapter 9](chapter-009.md) — 4 study(ies)
 <!-- commentary-index:auto-end -->

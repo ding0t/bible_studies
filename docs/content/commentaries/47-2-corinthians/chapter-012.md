@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 12:7
+- [Grace](../../salvation/grace.md) — 12:9
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 12:8-9
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 12:8-9
 - [The Rapture of the Church](../../last-things/rapture.md) — 12:2-4

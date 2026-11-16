@@ -16,6 +16,7 @@ draft: false
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 12:26-28
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 12:23
 - [Faith](../../salvation/faith.md) — 12:1-2
+- [Grace](../../salvation/grace.md) — 12:6
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 12:14-15
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 12:2
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 12:2

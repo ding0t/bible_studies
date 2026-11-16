@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 7:11
+- [Grace](../../salvation/grace.md) — 7:4
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 7:10
 <!-- commentary-index:auto-end -->

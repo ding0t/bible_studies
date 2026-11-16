@@ -16,6 +16,7 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 34:28
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 34:22
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 34:6-7
+- [Grace](../../salvation/grace.md) — 34:6-9
 - [Know the Truth](../../christian-life/know-the-truth.md) — 34:6
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 34:6
 - [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 34:6-7

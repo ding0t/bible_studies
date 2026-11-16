@@ -20,6 +20,7 @@ draft: false
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 2:20
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 2:10
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 2:1-7
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 2:8
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 2:21
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 2:13
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 2:7

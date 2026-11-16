@@ -28,6 +28,7 @@ draft: false
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 1:4-5
 - [The Olivet Discourse](../../last-things/olivet-discourse.md) — 1:7
 - [The Rapture of the Church](../../last-things/rapture.md) — 1:7
+- [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 1:6
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 1:3
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 1:5
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 1:14
