@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Ephesians 2:4-9"
 bible_references: ["1 Timothy 1:13-15", "Acts 8:3", "Genesis 6:5-8", "Exodus 22:26-27", "Exodus 33:12-19", "Exodus 34:6-9", "Exodus 33:20", "Luke 1:30", "Luke 4:22", "Luke 6:32-35", "Matthew 5:46", "Luke 17:9", "1 Corinthians 15:57", "John 1:14-18", "2 Corinthians 8:9", "Romans 3:24", "John 15:25", "Galatians 2:21", "Romans 4:4-5", "Romans 11:2-6", "Romans 5:2", "Romans 5:8", "Romans 5:15-21", "Romans 6:1-2", "Romans 6:14", "Titus 2:1-14", "Titus 3:4-7", "Hebrews 12:6", "Exodus 19:5", "Psalm 130:8", "1 Corinthians 15:8-10", "1 Corinthians 15:58", "Ephesians 3:2", "Ephesians 3:7-8", "2 Corinthians 12:9", "Ephesians 2:10", "Ephesians 2:3", "Exodus 24:18", "Exodus 32:1", "Exodus 33:18", "Luke 2:52", "Acts 7:22", "Acts 9:3-6", "1 Timothy 2:4", "Deuteronomy 14:2", "2 Corinthians 7:4", "1 Corinthians 15:14", "Exodus 32:30-32", "Romans 9:15", "Psalm 112:4", "1 Timothy 1:16"]
 date_created: 2026-11-15
-date_modified: 2026-11-16
+date_modified: 2026-11-17
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -202,8 +202,11 @@ have?" (Matthew 5:46, ESV); Luke records the question with *charis*. Love that r
 exchange. "The ungrateful" is ἀχαρίστους (*acharistous*, G884), the people with no *charis* to give
 back. God is kind to them.
 
-That is the shape of grace: favour given to people who have not earned it and cannot repay it. Mercy
-withholds the punishment you deserve; grace gives the favour you do not deserve, as the *NLT
+That is the shape of grace: favour given to people who have not earned it and cannot repay it.
+
+### Grace and mercy
+
+Mercy withholds the punishment you deserve; grace gives the favour you do not deserve, as the *NLT
 Christian Basics Bible* puts the standard distinction. Ephesians 2 names both: "But God, being rich
 in mercy... by grace you have been saved" (Ephesians 2:4-5, ESV).
 
@@ -371,6 +374,8 @@ that saved you sets about raising you. It teaches you to say no ("renounce") and
 traditional reading takes the three words as self-controlled toward yourself, upright toward others,
 godly toward God.
 
+### A people for God's own possession
+
 Titus 2:14 takes Israel's words. "Redeem us from all lawlessness" echoes the Septuagint of Psalm
 130:8, "he will redeem Israel from all his iniquities" (Psalm 130:8, ESV), and "a people for his own
 possession" is the phrase of Exodus 19:5 and Deuteronomy 14:2, λαὸς περιούσιος (*laos periousios*,
@@ -426,6 +431,8 @@ Church](../israel-and-church/israel-and-the-church.md#what-scripture-means-by-a-
 through what Ephesians 3 says was entrusted to him. Paul said how he received it: "To me, though I
 am the very least of all the saints, this grace was given, to preach to the Gentiles the
 unsearchable riches of Christ" (Ephesians 3:8, ESV). Grace given to Paul was meant for others.
+
+### Power made perfect in weakness
 
 When Paul begged three times for his thorn to be taken away, the Lord answered with grace: "My grace
 is sufficient for you, for my power is made perfect in weakness" (2 Corinthians 12:9, ESV). Grace is

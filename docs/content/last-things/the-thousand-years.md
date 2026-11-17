@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Revelation 20:1-10"
 bible_references: ["Revelation 19:11-21", "Revelation 20:11-15", "Revelation 2:8", "Revelation 2:26-27", "Revelation 3:21", "Revelation 5:10", "Revelation 1:6", "Revelation 12:9", "Revelation 13:14", "Revelation 16:14", "Revelation 21:22", "Psalm 2:6-9", "Psalm 72:1-17", "Psalm 110:1-2", "Isaiah 2:2-4", "Isaiah 11:1-10", "Isaiah 24:21-23", "Isaiah 65:17-25", "Micah 4:1-5", "Zechariah 14:9", "Zechariah 14:16-19", "Daniel 7:9", "Daniel 7:18", "Daniel 7:22", "Daniel 7:27", "Ezekiel 43:10-11", "Ezekiel 43:18-21", "Ezekiel 45:15-17", "Matthew 12:29", "Matthew 13:33", "Matthew 19:28", "Matthew 25:21", "Matthew 25:31-34", "Luke 18:8", "Luke 19:15-19", "Luke 22:29-30", "John 5:25-29", "1 Corinthians 6:2-3", "1 Corinthians 15:23-25", "2 Corinthians 4:4", "Ephesians 2:6", "2 Timothy 2:12", "Acts 4:25-27", "Acts 13:33", "Romans 15:12", "Acts 1:6", "Joel 1:4", "Acts 15:14", "Hebrews 9:13", "Hebrews 10:18", "1 Peter 5:8", "Revelation 16:19-20", "Isaiah 24:1", "Ezekiel 39:9-16", "Daniel 12:11-12", "Matthew 25:31-32", "Isaiah 61:1-4", "Luke 4:16-21", "Amos 9:11-15", "Acts 15:16", "Ezekiel 36:33-36", "Joel 2:25", "Zechariah 14:4-10", "Ezekiel 47:1-12", "Isaiah 35:1", "Acts 3:21", "Titus 3:5", "Ezekiel 45:20", "Acts 3:20", "Revelation 21:5", "John 5:28-29", "Matthew 25:31-46"]
 date_created: 2026-11-15
-date_modified: 2026-11-16
+date_modified: 2026-11-17
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -96,10 +96,10 @@ In Jesus' name. Amen.
   says it of.
 - [The temple Ezekiel saw](#the-temple-ezekiel-saw). The question Ezekiel 40-48 raises and the four
   main answers.
-- [Background: what Jews and early Christians expected](#background-what-jews-and-early-christians-expected).
-  1 Enoch, 2 Baruch, 2 Enoch, Papias, Justin and Lactantius, behind the site's warning.
 - [What the reign shows about God](#what-the-reign-shows-about-god). His faithfulness to the earth, to
   His Son and to you.
+- [Annex: what Jews and early Christians expected](#annex-what-jews-and-early-christians-expected).
+  1 Enoch, 2 Baruch, 2 Enoch, Papias, Justin and Lactantius, behind the site's warning.
 
 ## Revelation 20, in its order
 
@@ -271,6 +271,8 @@ dir="rtl">רָעָה</span> (*ra'ah*, H7462), and the Septuagint read them so: �
 G4165), "shepherd," in the hand of the Messiah (Revelation 12:5; 19:15) and of the one who conquers
 (Revelation 2:27). The rod breaks rebellion and shepherds the nations that remain.
 
+### Psalm 72: dominion from sea to sea
+
 Psalm 72 is a prayer "Of Solomon" (Psalm 72:1, ESV) that asks for more than Solomon ever ruled:
 "dominion from sea to sea" (Psalm 72:8, ESV), "all nations serve him" (Psalm 72:11, ESV), "all
 nations call him blessed" (Psalm 72:17, ESV). It asks for a King who "delivers the needy when he
@@ -409,6 +411,8 @@ shall remain aloft on its site" (Zechariah 14:10, ESV). Ezekiel's river turns th
 thousand years ([the temple Ezekiel saw](#the-temple-ezekiel-saw)).
 "The desert shall rejoice and blossom like the crocus" (Isaiah 35:1, ESV).
 
+### The restoring of all things and the new world
+
 Peter names the whole work. Heaven must receive Jesus "until the time for restoring all the things
 about which God spoke by the mouth of his holy prophets long ago" (Acts 3:21, ESV). "Restoring" is
 ἀποκατάστασις (*apokatastasis*, ah-po-kah-TAH-stah-sis, G605), used only here in the New Testament;
@@ -526,7 +530,37 @@ where the LORD dwells among mortal people. That is a lean, and a memorial readin
 
 The priesthood of Revelation 20:6 stands on its own text, whichever of these is right.
 
-## Background: what Jews and early Christians expected
+## What the reign shows about God
+
+**God keeps His word to the earth.** He promised His Son the nations as His heritage (Psalm 2:8), and
+the earth that crucified Jesus will see Him reign over it. **God keeps His word to Israel and the
+nations.** The law goes out from Zion, the swords are beaten into plowshares, and the nations come up
+to worship the King (Isaiah 2:3-4; Zechariah 14:16). **God keeps His word to you.** The One who
+conquered sat down with His Father on His throne, and He will grant you to sit with Him on His
+(Revelation 3:21).
+
+So you may treat the "very little" in your hands now as the beginning of that trust (Luke 19:17),
+"knowing that in the Lord your labor is not in vain" (1 Corinthians 15:58, ESV).
+
+## Discussion questions
+
+1. **The language.** Revelation 2:27's "he will rule them" (ESV) is ποιμανεῖ, the Septuagint's verb
+   "shepherd," where the Hebrew of Psalm 2:9 reads "break them" (<span dir="rtl">תְּרֹעֵם</span>). What does each verb say
+   about how Jesus will rule the nations?
+2. **The text in its context.** John uses ἔζησαν, "came to life," in Revelation 20:4 and again in
+   Revelation 20:5. How does reading the two side by side shape what you think the first resurrection
+   is?
+3. **Christ.** Jesus says, "I will grant him to sit with me on my throne, as I also conquered and sat
+   down with my Father on his throne" (Revelation 3:21, ESV). What does it tell you about Him that He
+   shares His throne?
+4. **The hard part.** Jesus speaks of binding the strong man (Matthew 12:29), Revelation 20:3 binds
+   Satan "so that he might not deceive the nations any longer" (ESV), and Peter says he "prowls around
+   like a roaring lion" (1 Peter 5:8, ESV). How do you hold those three texts together?
+5. **Be transformed.** The nobleman gives cities to the servant who was "faithful in a very little"
+   (Luke 19:17, ESV). What is the very little in your hands this week, and what would faithfulness with it
+   look like?
+
+## Annex: what Jews and early Christians expected
 
 !!! warning "Extra-biblical sources: useful, and not Scripture"
 
@@ -612,36 +646,6 @@ abundant fruits of its own accord" (*Divine Institutes* 7.24, *Ante-Nicene Fathe
 Set beside Revelation, these sources show how restrained John is. The multiplying vine of Papias is
 close to 2 Baruch's. John gives no harvest figures at all. He gives thrones, a resurrection, priests
 and a reign with Christ.
-
-## What the reign shows about God
-
-**God keeps His word to the earth.** He promised His Son the nations as His heritage (Psalm 2:8), and
-the earth that crucified Jesus will see Him reign over it. **God keeps His word to Israel and the
-nations.** The law goes out from Zion, the swords are beaten into plowshares, and the nations come up
-to worship the King (Isaiah 2:3-4; Zechariah 14:16). **God keeps His word to you.** The One who
-conquered sat down with His Father on His throne, and He will grant you to sit with Him on His
-(Revelation 3:21).
-
-So you may treat the "very little" in your hands now as the beginning of that trust (Luke 19:17),
-"knowing that in the Lord your labor is not in vain" (1 Corinthians 15:58, ESV).
-
-## Discussion questions
-
-1. **The language.** Revelation 2:27's "he will rule them" (ESV) is ποιμανεῖ, the Septuagint's verb
-   "shepherd," where the Hebrew of Psalm 2:9 reads "break them" (<span dir="rtl">תְּרֹעֵם</span>). What does each verb say
-   about how Jesus will rule the nations?
-2. **The text in its context.** John uses ἔζησαν, "came to life," in Revelation 20:4 and again in
-   Revelation 20:5. How does reading the two side by side shape what you think the first resurrection
-   is?
-3. **Christ.** Jesus says, "I will grant him to sit with me on my throne, as I also conquered and sat
-   down with my Father on his throne" (Revelation 3:21, ESV). What does it tell you about Him that He
-   shares His throne?
-4. **The hard part.** Jesus speaks of binding the strong man (Matthew 12:29), Revelation 20:3 binds
-   Satan "so that he might not deceive the nations any longer" (ESV), and Peter says he "prowls around
-   like a roaring lion" (1 Peter 5:8, ESV). How do you hold those three texts together?
-5. **Be transformed.** The nobleman gives cities to the servant who was "faithful in a very little"
-   (Luke 19:17, ESV). What is the very little in your hands this week, and what would faithfulness with it
-   look like?
 
 ## References & Recommended Reading
 

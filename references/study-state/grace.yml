@@ -226,3 +226,22 @@ decisions_2026-11-15:
   renderings: "H2603 decided in docs/data/word-renderings.toml: be gracious, with the Septuagint's and Paul's mercy named where a study rests on it."
 
 published_2026-11-16: "draft: false at the author's request (\"publish\"), skipping the separate read-bible-study pass. Back-links from the proposed list applied in the same commit; kinsman-redeemer.md (optional) not linked."
+read_2026-11-17:
+  scope: "read-bible-study structure pass (stranger reader, separate session from the drafting); no sentence changed. Not a verification: this pass checks no quotation, count or doctrine (review_2026-11-15 covered those before publish)."
+  changes:
+    - "'Kind to the ungrateful': split the closing paragraph after its first sentence and added '### Grace and mercy' before 'Mercy withholds...', so the answer to the frontmatter question 'What is the difference between grace and mercy?' has a heading."
+    - "'Grace raises children': added '### A people for God's own possession' before 'Titus 2:14 takes Israel's words', giving the laos periousios material behind the Types & Prophecy takeaway its own heading."
+    - "'Given for others': added '### Power made perfect in weakness' before the 2 Corinthians 12:9 thorn paragraph, which the old heading did not name; the closing 'This shows that God...' paragraph stays at the end of The grace that works."
+  sections: "31 -> 34"
+  median_section_words: "127 -> 114"
+  sections_over_400: "0 -> 0"
+  longest_section_words: 346 # Moses on the mountain, left whole
+  thesis_and_outline: "In-one-sentence line and Study outline already present; outline lists ## sections only, so no anchor changed. No heading renamed or removed."
+  verify: "study_structure.py --verify-against HEAD: clean false, solely from re-wrapping the one split paragraph (the 'That is the shape of grace... Mercy' line ended at 'repay it.'); whitespace-token diff of all non-heading text against the original: identical, 4,818 tokens."
+  validate: "npm run validate: no findings for grace.md"
+  findings_not_fixed_prose:
+    - "'Ephesians 2:4-9' sub-heading names a reference, where its sibling 'Freely, for no reason in you' names content; a content heading (e.g. 'Made alive together with Christ') is the author's call."
+    - "'Ephesians 2:4-9' and 'Much more' open on a series callback ('Week one...') rather than a topic sentence (structural-readability rule 7); fixing it means rewriting the first sentence."
+    - "'Otherwise grace would no longer be grace': the cross-link to When Love Grows Cold and the Romans 11:6 KJV-variant sentence sit between 'Favour that is earned is a wage' and the Romans 4:4 paragraph that continues that thought; reordering sentences is editing."
+    - "The two translation notes (Exodus 33:19 LXX eleeo / BSB 'mercy'; Romans 11:6 longer reading) are apparatus by rule 11's tests, but at about 70 words together an annex would be thinner than the material; left in place."
+    - "'Moses on the mountain' (346 words, three Hebrew words) could split at 'God answered with the verb'; within the 250-400 target and reads as one scene, so left whole."
