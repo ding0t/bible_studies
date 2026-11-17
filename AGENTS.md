@@ -78,7 +78,8 @@ The full rules, with the corpus evidence behind each: `.claude/skills/develop-bi
 - **Never hand-write `date_created`, `date_modified` or `ai_provider_models`.** Run
   `python3 utils/refresh_frontmatter_provenance.py` *before* committing and stage its edits with
   yours. A brand-new untracked page gets `ai_provider_models: []`; fill it in by hand.
-- **`npm run validate` is not in CI.** Run it from `app/` after editing content.
+- **Run `npm run validate` from `app/` after editing content.** The deploy runs it too, and an error
+  stops the deploy; warnings are advisory.
 - **After changing a study's `bible_references` or `primary_passage`, or adding a study**, re-run
   `commentary_index.py` and `section_index.py` (below); they rewrite only their marked blocks.
 - **The deploy is path-filtered** to `docs/**`, `app/**`, `mkdocs.yml`, `wrangler.jsonc` and the
@@ -95,7 +96,7 @@ The full rules, with the corpus evidence behind each: `.claude/skills/develop-bi
 uvx --with mkdocs-material --with mkdocs-awesome-pages-plugin --with mkdocs-git-revision-date-localized-plugin --with mkdocs-redirects --with segno mkdocs serve
 cd app && npm run build:tools   # the React bundles; run before mkdocs serve
 cd app && npm test              # also runs utils/check_skills.py
-cd app && npm run validate      # the content linter (26 checks; not in CI)
+cd app && npm run validate      # the content linter (26 checks; an error fails the deploy)
 
 # Before committing content
 python3 utils/refresh_frontmatter_provenance.py
