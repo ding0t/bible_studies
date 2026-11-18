@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Ephesians 2:4-9"
 bible_references: ["1 Timothy 1:13-15", "Acts 8:3", "Genesis 6:5-8", "Exodus 22:26-27", "Exodus 33:12-19", "Exodus 34:6-9", "Exodus 33:20", "Luke 1:30", "Luke 4:22", "Luke 6:32-35", "Matthew 5:46", "Luke 17:9", "1 Corinthians 15:57", "John 1:14-18", "2 Corinthians 8:9", "Romans 3:24", "John 15:25", "Galatians 2:21", "Romans 4:4-5", "Romans 11:2-6", "Romans 5:2", "Romans 5:8", "Romans 5:15-21", "Romans 6:1-2", "Romans 6:14", "Titus 2:1-14", "Titus 3:4-7", "Hebrews 12:6", "Exodus 19:5", "Psalm 130:8", "1 Corinthians 15:8-10", "1 Corinthians 15:58", "Ephesians 3:2", "Ephesians 3:7-8", "2 Corinthians 12:9", "Ephesians 2:10", "Ephesians 2:3", "Exodus 24:18", "Exodus 32:1", "Exodus 33:18", "Luke 2:52", "Acts 7:22", "Acts 9:3-6", "1 Timothy 2:4", "Deuteronomy 14:2", "2 Corinthians 7:4", "1 Corinthians 15:14", "Exodus 32:30-32", "Romans 9:15", "Psalm 112:4", "1 Timothy 1:16"]
 date_created: 2026-11-15
-date_modified: 2026-11-17
+date_modified: 2026-11-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -238,11 +238,12 @@ that you by his poverty might become rich" (2 Corinthians 8:9, ESV).
 
 ## By grace you have been saved
 
-### Ephesians 2:4-9
+### Made alive together with Christ
 
-Week one of this series landed on Romans 5:8: "while we were still sinners, Christ died for us"
-(Romans 5:8, ESV). [Why We Need Saving](../sin/why-we-need-saving.md) showed what we were: dead in
-trespasses, "by nature children of wrath" (Ephesians 2:3, ESV). Paul goes on:
+In Ephesians 2:4-9 God does all the saving, and grace is Paul's word for it. Week one of this
+series, [Why We Need Saving](../sin/why-we-need-saving.md), showed what we were: dead in trespasses,
+"by nature children of wrath" (Ephesians 2:3, ESV), and still sinners when "Christ died for us"
+(Romans 5:8, ESV). Paul goes on:
 
 > ✝️ Ephesians 2:4-9 (ESV)
 >
@@ -291,24 +292,25 @@ same is true of Israel in his own day:
 > 5 So too at the present time there is a remnant, chosen by grace. 6 But if it is by grace, it is
 > no longer on the basis of works; otherwise grace would no longer be grace.
 
-Paul defines grace by what it excludes. Favour that is earned is a wage. [When Love Grows
-Cold](../christian-life/when-love-grows-cold.md) treats Elijah's seven thousand and the remnant in
-Romans 11:1-6. Some Greek manuscripts, followed by the KJV, add the converse: "But if it be of
-works, then is it no more grace: otherwise work is no more work" (Romans 11:6, KJV).
-
-Romans 4:4 makes the same distinction in Greek that the ESV puts into English: "to the one who
+Paul defines grace by what it excludes. Favour that is earned is a wage. Romans 4:4 makes the same
+distinction in Greek that the ESV puts into English: "to the one who
 works, his wages are not counted as a gift but as his due" (Romans 4:4, ESV). "As a gift" is κατὰ
 χάριν (*kata charin*, G2596, G5485), "according to grace", and "as his due" is κατὰ ὀφείλημα (*kata
 opheilēma*, G3783), "according to debt". A wage is owed. Grace is never owed.
 [Faith](faith.md#wages-and-gifts) follows the next verse, where God "justifies the ungodly" (Romans
 4:5, ESV).
 
+Some Greek manuscripts, followed by the KJV, add the converse to Romans 11:6: "But if it be of
+works, then is it no more grace: otherwise work is no more work" (Romans 11:6, KJV). [When Love
+Grows Cold](../christian-life/when-love-grows-cold.md) treats Elijah's seven thousand and the remnant
+in Romans 11:1-6.
+
 ## Where sin increased
 
 ### Much more
 
-Week one followed Romans 5:12-19 from Adam's side: one man's trespass, and death reigning over all.
-Paul's "much more" falls on the other side, twice:
+Where sin spread, grace spread further. Week one followed Romans 5:12-19 from Adam's side: one
+man's trespass, and death reigning over all. Paul's "much more" falls on the other side, twice:
 
 > ✝️ Romans 5:15-17 (ESV)
 >

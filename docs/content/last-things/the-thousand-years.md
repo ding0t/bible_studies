@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Revelation 20:1-10"
 bible_references: ["Revelation 19:11-21", "Revelation 20:11-15", "Revelation 2:8", "Revelation 2:26-27", "Revelation 3:21", "Revelation 5:10", "Revelation 1:6", "Revelation 12:9", "Revelation 13:14", "Revelation 16:14", "Revelation 21:22", "Psalm 2:6-9", "Psalm 72:1-17", "Psalm 110:1-2", "Isaiah 2:2-4", "Isaiah 11:1-10", "Isaiah 24:21-23", "Isaiah 65:17-25", "Micah 4:1-5", "Zechariah 14:9", "Zechariah 14:16-19", "Daniel 7:9", "Daniel 7:18", "Daniel 7:22", "Daniel 7:27", "Ezekiel 43:10-11", "Ezekiel 43:18-21", "Ezekiel 45:15-17", "Matthew 12:29", "Matthew 13:33", "Matthew 19:28", "Matthew 25:21", "Matthew 25:31-34", "Luke 18:8", "Luke 19:15-19", "Luke 22:29-30", "John 5:25-29", "1 Corinthians 6:2-3", "1 Corinthians 15:23-25", "2 Corinthians 4:4", "Ephesians 2:6", "2 Timothy 2:12", "Acts 4:25-27", "Acts 13:33", "Romans 15:12", "Acts 1:6", "Joel 1:4", "Acts 15:14", "Hebrews 9:13", "Hebrews 10:18", "1 Peter 5:8", "Revelation 16:19-20", "Isaiah 24:1", "Ezekiel 39:9-16", "Daniel 12:11-12", "Matthew 25:31-32", "Isaiah 61:1-4", "Luke 4:16-21", "Amos 9:11-15", "Acts 15:16", "Ezekiel 36:33-36", "Joel 2:25", "Zechariah 14:4-10", "Ezekiel 47:1-12", "Isaiah 35:1", "Acts 3:21", "Titus 3:5", "Ezekiel 45:20", "Acts 3:20", "Revelation 21:5", "John 5:28-29", "Matthew 25:31-46"]
 date_created: 2026-11-15
-date_modified: 2026-11-17
+date_modified: 2026-11-19
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -87,7 +87,8 @@ In Jesus' name. Amen.
 - [Revelation 20, in its order](#revelation-20-in-its-order). The chapter verse by verse: Satan bound,
   thrones, the first resurrection, the release and the last rebellion.
 - [Three readings of the thousand years](#three-readings-of-the-thousand-years). Amillennial,
-  postmillennial and premillennial, with the textual case for each.
+  postmillennial and premillennial, with the textual case for each, and who lives in the kingdom on
+  this site's reading.
 - [What the prophets saw](#what-the-prophets-saw). Psalms 2 and 72, Isaiah, Micah and Zechariah on
   the King's reign over the nations.
 - [After the tribulation: clearing and rebuilding](#after-the-tribulation-clearing-and-rebuilding).
@@ -111,8 +112,8 @@ Christ rides out of heaven (Revelation 19:11). The beast and the false prophet
 sword that came from the mouth of him who was sitting on the horse" (Revelation 19:21, ESV). Revelation
 20 deals with the third enemy, the dragon. [A Day Is a Thousand
 Years](day-is-a-thousand-years.md#revelation-20-the-rest-counted-in-thousands) quotes Revelation
-20:2-7 in full and counts the six "thousand years"; this study reads the chapter for what happens in
-them.
+20:2-7 in full and counts the six "thousand years". Its three movements follow: the dragon bound, the
+thrones, and the release.
 
 ### The dragon bound
 
@@ -251,6 +252,15 @@ belong to Christ. Then comes the end, when he delivers the kingdom to God the Fa
 reign until he has put all his enemies under his feet" (1 Corinthians 15:23-25, ESV). [Your Kingdom
 Come](your-kingdom-come.md) sets out how that kingdom is already here and not yet complete.
 
+### Who lives in the kingdom
+
+On the dispensational reading the kingdom has two kinds of people. The risen and the raptured reign,
+judge and serve as priests with Christ, and the second death "has no power" over them (Revelation
+20:6, ESV). Mortal survivors of the tribulation, from Israel and the nations, enter the kingdom (Matthew
+25:31-34; Zechariah 14:16), bear children, plant and die. That is why Isaiah 65 promises long life,
+and why Satan finds a multitude to deceive when he is released. No single passage sets this out; it
+is how this reading fits the texts together.
+
 ## What the prophets saw
 
 John gave a length to a kingdom on the earth that the prophets had already promised.
@@ -377,25 +387,27 @@ counted.
 
 ### Rebuilding the ruins
 
-- **Isaiah 61:4.** "They shall build up the ancient ruins; they shall raise up the former
-  devastations; they shall repair the ruined cities, the devastations of many generations" (ESV).
-  In the synagogue at Nazareth Jesus read Isaiah 61 as far as "to proclaim the year of the Lord's
-  favor" (Luke 4:19, ESV), rolled up the scroll and said, "Today this Scripture has been fulfilled in
-  your hearing" (Luke 4:21, ESV). He stopped in the middle of Isaiah 61:2, before "the day of
-  vengeance of our God." The rebuilding of Isaiah 61:4 follows the vengeance in Isaiah's order, so on
-  this reading it waits for His return.
-- **Amos 9:11, 14.** "I will raise up the booth of David that is fallen and repair its breaches...
-  they shall rebuild the ruined cities and inhabit them; they shall plant vineyards and drink their
-  wine" (ESV). James quotes the first promise at the Jerusalem council, of the Gentiles now being
-  called (Acts 15:14): "After this I will return, and I will rebuild the tent of David that has
-  fallen" (Acts 15:16, ESV). Whether the rebuilding is that calling or follows Christ's return is
-  contested, and [Israel's Regathering and
-  Refining](../israel-and-church/israels-regathering-and-refining.md#after-this-james-at-the-jerusalem-council)
-  sets out the readings.
-- **Ezekiel 36:33, 35.** "The waste places shall be rebuilt," and people will say, "This land that
-  was desolate has become like the garden of Eden" (ESV).
-- **Joel 2:25.** "I will restore to you the years that the swarming locust has eaten" (ESV), said
-  first of the locust plague of Joel's own day (Joel 1:4).
+Isaiah promises the ruins rebuilt: "They shall build up the ancient ruins; they shall raise up the
+former devastations; they shall repair the ruined cities, the devastations of many generations"
+(Isaiah 61:4, ESV). In the synagogue at Nazareth Jesus read Isaiah 61 as far as "to proclaim the
+year of the Lord's favor" (Luke 4:19, ESV), rolled up the scroll and said, "Today this Scripture has
+been fulfilled in your hearing" (Luke 4:21, ESV). He stopped in the middle of Isaiah 61:2, before
+"the day of vengeance of our God." The rebuilding of Isaiah 61:4 follows the vengeance in Isaiah's
+order, so on this reading it waits for His return.
+
+Amos promises the same: "I will raise up the booth of David that is fallen and repair its
+breaches... they shall rebuild the ruined cities and inhabit them; they shall plant vineyards and
+drink their wine" (Amos 9:11, 14, ESV). James quotes the first promise at the Jerusalem council, of
+the Gentiles now being called (Acts 15:14): "After this I will return, and I will rebuild the tent
+of David that has fallen" (Acts 15:16, ESV). Whether the rebuilding is that calling or follows
+Christ's return is contested, and [Israel's Regathering and
+Refining](../israel-and-church/israels-regathering-and-refining.md#after-this-james-at-the-jerusalem-council)
+sets out the readings.
+
+Ezekiel and Joel add the land itself. "The waste places shall be rebuilt," and people will say,
+"This land that was desolate has become like the garden of Eden" (Ezekiel 36:33, 35, ESV). "I will
+restore to you the years that the swarming locust has eaten" (Joel 2:25, ESV) was said first of the
+locust plague of Joel's own day (Joel 1:4).
 
 Who does the building? Isaiah 61:4's "they" are the people the anointed one comforts, and Amos 9:14's
 are Israel restored to the land. On the dispensational reading the mortal survivors do the labour;
@@ -445,6 +457,9 @@ The table marks each task: what Scripture states, what is inferred, and whom the
 | Teach the nations | Isaiah 2:3 | The LORD teaches, stated; the saints sharing it, inferred | The LORD |
 | Build and plant | Isaiah 65:21-22 | Stated of "my people" in a world where death remains; of the risen saints, inferred | Israel in the land |
 
+Four tasks are stated of Christ's people in the reign: they reign, judge, rule the nations and serve
+as priests. The other four are inferred.
+
 ### Reign and judge
 
 The elders and the living creatures sing it to the Lamb: "you have made them a kingdom and priests to our God, and
@@ -491,15 +506,6 @@ eat their fruit... my chosen shall long enjoy the work of their hands" (ESV). Th
 people" in a passage where they still bear children (Isaiah 65:23) and death still comes
 (Isaiah 65:20). On the dispensational reading these are Israel's mortal survivors in the land, and
 the risen saints' share in the building is an inference.
-
-### Who lives in the kingdom
-
-On the dispensational reading the kingdom has two kinds of people. The risen and the raptured reign,
-judge and serve as priests with Christ, and the second death "has no power" over them (Revelation
-20:6, ESV). Mortal survivors of the tribulation, from Israel and the nations, enter the kingdom (Matthew
-25:31-34; Zechariah 14:16), bear children, plant and die. That is why Isaiah 65 promises long life,
-and why Satan finds a multitude to deceive when he is released. No single passage sets this out; it
-is how this reading fits the texts together.
 
 ## The temple Ezekiel saw
 
