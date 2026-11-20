@@ -1,4 +1,7 @@
 {
+  "enabledPlugins": {
+    "cloudflare@cloudflare": true
+  },
   "sandbox": {
     "enabled": true,
     "failIfUnavailable": true,
