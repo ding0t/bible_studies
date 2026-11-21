@@ -298,6 +298,13 @@ def _prop(kind, hand):
         return (f'<path d="M{hx - 7} {hy - 18} H{hx + 9} Q{hx + 8} {hy - 6} {hx + 1} {hy - 4} Q{hx - 6} {hy - 6} {hx - 7} {hy - 18} Z" '
                 f'fill="{GOLD}" stroke="{GOLD_EDGE}" stroke-width="0.9"/>'
                 f'<path d="M{hx + 1} {hy - 4} V{hy + 3} M{hx - 4} {hy + 3} H{hx + 6}" stroke="{GOLD_EDGE}" stroke-width="1.6"/>')
+    if kind == "supper_cup":
+        # The cup of the Last Supper (Luke 22:20). The Gospels do not describe it, so it is plain
+        # fired clay, distinct from the harlot's golden cup.
+        return (f'<path d="M{hx - 7} {hy - 17} H{hx + 9} Q{hx + 8} {hy - 5} {hx + 1} {hy - 3} Q{hx - 6} {hy - 5} {hx - 7} {hy - 17} Z" '
+                f'fill="#a8714a" stroke="#6b4a2a" stroke-width="0.9"/>'
+                f'<path d="M{hx - 6} {hy - 15} H{hx + 8}" stroke="#7a2e2a" stroke-width="2"/>'
+                f'<path d="M{hx + 1} {hy - 3} V{hy + 2} M{hx - 4} {hy + 2} H{hx + 6}" stroke="#6b4a2a" stroke-width="1.8"/>')
     if kind == "lamp":
         return (f'<path d="M{hx - 8} {hy - 4} Q{hx} {hy + 4} {hx + 10} {hy - 4} Z" fill="#b5835a" stroke="#6b4a2a" stroke-width="0.8"/>'
                 f'<path d="M{hx + 9} {hy - 5} q2 -8 -1 -12 q-1 6 -3 8 z" fill="{GOLD}"/>')

@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1078" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">The bride through Scripture</title>
+<desc id="d">A chart of the bride through Scripture in two lanes, the Husband on the left and the Bride on the right, joined in each era. The prophets: the LORD, your Maker, is your husband (Isaiah 54:5; Jeremiah 31:32), and Israel is betrothed to Him, I will betroth you to me forever (Hosea 2:19-20; Jeremiah 2:2; Ezekiel 16:8). A red arrow marks the title passing to Jesus. The Gospels: Jesus is the bridegroom, the one who has the bride (John 3:29; Matthew 9:15; 25:1), and He promises, I will come again and will take you to myself (John 14:2-3). The Epistles: Christ loved the church and gave himself up for her (Ephesians 5:25), and the church is betrothed to one husband (2 Corinthians 11:2; Ephesians 5:31-32). Revelation: the marriage of the Lamb has come, and his Bride has made herself ready, the Bride, the wife of the Lamb (Revelation 19:7-8; 21:2, 9). Israel's lane does not run into the church's. A dashed note gives this site's reading, one Husband with two covenanted peoples, since Hosea 2:19's betrothal is still future, and names the one-bride reading of Revelation 21:9-14. It closes on Revelation 22:17, The Spirit and the Bride say, Come.</desc>
+<rect width="720" height="1078" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1062" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1050" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE BRIDE THROUGH SCRIPTURE</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">The Husband God called Himself, and the Bridegroom who took the title</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<text x="185.0" y="128.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE HUSBAND</text>
+<text x="535.0" y="128.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE BRIDE</text>
+<path d="M275.0 152 H445.0 L435.0 165.0 L445.0 178 H275.0 L285.0 165.0 Z" fill="#3b2f1e"/>
+<text x="360.0" y="169.5" font-size="12.5" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE PROPHETS</text>
+<rect x="40.0" y="192.0" width="290.0" height="70" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="50.0" y="215.0" font-size="15" fill="#3b2f1e" font-weight="bold">The LORD, your Maker</text>
+<text x="50.0" y="233.0" font-size="13.5" fill="#3b2f1e" font-style="italic">“your Maker is your husband”</text>
+<text x="50.0" y="251.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Isaiah 54:5 · Jeremiah 31:32</text>
+<rect x="390.0" y="192.0" width="290.0" height="70" rx="5" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.4"/>
+<text x="400.0" y="215.0" font-size="15" fill="#3b2f1e" font-weight="bold">Israel, betrothed to Him</text>
+<text x="400.0" y="233.0" font-size="13.5" fill="#3b2f1e" font-style="italic">“I will betroth you to me forever”</text>
+<text x="400.0" y="251.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Hosea 2:19-20 · Jeremiah 2:2 · Ezekiel 16:8</text>
+<path d="M332 227.0 H388" stroke="#a67c3d" stroke-width="2"/>
+<circle cx="353.0" cy="227.0" r="7" fill="none" stroke="#a67c3d" stroke-width="2"/>
+<circle cx="367.0" cy="227.0" r="7" fill="none" stroke="#a67c3d" stroke-width="2"/>
+<path d="M275.0 288 H445.0 L435.0 301.0 L445.0 314 H275.0 L285.0 301.0 Z" fill="#3b2f1e"/>
+<text x="360.0" y="305.5" font-size="12.5" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE GOSPELS</text>
+<path d="M66 266 V318" stroke="#8b1e1e" stroke-width="2.4"/>
+<path d="M66.0 324.0 L62.1 315.9 L69.9 315.9 Z" fill="#8b1e1e"/>
+<text x="76.0" y="286.0" font-size="12.5" fill="#8b1e1e" font-style="italic">the title</text>
+<text x="76.0" y="301.0" font-size="12.5" fill="#8b1e1e" font-style="italic">passes to Jesus</text>
+<rect x="40.0" y="328.0" width="290.0" height="88" rx="5" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.4"/>
+<text x="50.0" y="351.0" font-size="15" fill="#3b2f1e" font-weight="bold">Jesus, the bridegroom</text>
+<text x="50.0" y="369.0" font-size="13.5" fill="#3b2f1e" font-style="italic">“The one who has the bride</text>
+<text x="50.0" y="387.0" font-size="13.5" fill="#3b2f1e" font-style="italic">is the bridegroom”</text>
+<text x="50.0" y="405.0" font-size="12.5" fill="#6b5a3e" font-style="italic">John 3:29 · Matthew 9:15 · Matthew 25:1</text>
+<rect x="390.0" y="328.0" width="290.0" height="88" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="400.0" y="351.0" font-size="15" fill="#3b2f1e" font-weight="bold">A place promised</text>
+<text x="400.0" y="369.0" font-size="13.5" fill="#3b2f1e" font-style="italic">“I will come again and will</text>
+<text x="400.0" y="387.0" font-size="13.5" fill="#3b2f1e" font-style="italic">take you to myself”</text>
+<text x="400.0" y="405.0" font-size="12.5" fill="#6b5a3e" font-style="italic">John 14:2-3</text>
+<path d="M332 372.0 H388" stroke="#a67c3d" stroke-width="2"/>
+<circle cx="353.0" cy="372.0" r="7" fill="none" stroke="#a67c3d" stroke-width="2"/>
+<circle cx="367.0" cy="372.0" r="7" fill="none" stroke="#a67c3d" stroke-width="2"/>
+<path d="M275.0 442 H445.0 L435.0 455.0 L445.0 468 H275.0 L285.0 455.0 Z" fill="#3b2f1e"/>
+<text x="360.0" y="459.5" font-size="12.5" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">THE EPISTLES</text>
+<path d="M66 420 V472" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M66.0 478.0 L62.1 469.9 L69.9 469.9 Z" fill="#3b2f1e"/>
+<path d="M654 420 V472" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M654.0 478.0 L650.1 469.9 L657.9 469.9 Z" fill="#3b2f1e"/>
+<rect x="40.0" y="482.0" width="290.0" height="88" rx="5" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.4"/>
+<text x="50.0" y="505.0" font-size="15" fill="#3b2f1e" font-weight="bold">Christ, who gave Himself</text>
+<text x="50.0" y="523.0" font-size="13.5" fill="#3b2f1e" font-style="italic">“Christ loved the church and</text>
+<text x="50.0" y="541.0" font-size="13.5" fill="#3b2f1e" font-style="italic">gave himself up for her”</text>
+<text x="50.0" y="559.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Ephesians 5:25</text>
+<rect x="390.0" y="482.0" width="290.0" height="88" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="400.0" y="505.0" font-size="15" fill="#3b2f1e" font-weight="bold">The church, betrothed</text>
+<text x="400.0" y="523.0" font-size="13.5" fill="#3b2f1e" font-style="italic">“I betrothed you to one husband”</text>
+<text x="400.0" y="541.0" font-size="12.5" fill="#6b5a3e" font-style="italic">2 Corinthians 11:2</text>
+<text x="400.0" y="559.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Ephesians 5:31-32</text>
+<path d="M332 526.0 H388" stroke="#a67c3d" stroke-width="2"/>
+<circle cx="353.0" cy="526.0" r="7" fill="none" stroke="#a67c3d" stroke-width="2"/>
+<circle cx="367.0" cy="526.0" r="7" fill="none" stroke="#a67c3d" stroke-width="2"/>
+<path d="M275.0 596 H445.0 L435.0 609.0 L445.0 622 H275.0 L285.0 609.0 Z" fill="#3b2f1e"/>
+<text x="360.0" y="613.5" font-size="12.5" fill="#faf6ec" text-anchor="middle" font-weight="bold" letter-spacing="1.5">REVELATION</text>
+<path d="M66 574 V626" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M66.0 632.0 L62.1 623.9 L69.9 623.9 Z" fill="#3b2f1e"/>
+<path d="M654 574 V626" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M654.0 632.0 L650.1 623.9 L657.9 623.9 Z" fill="#3b2f1e"/>
+<rect x="40.0" y="636.0" width="290.0" height="88" rx="5" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.4"/>
+<text x="50.0" y="659.0" font-size="15" fill="#3b2f1e" font-weight="bold">The Lamb</text>
+<text x="50.0" y="677.0" font-size="13.5" fill="#3b2f1e" font-style="italic">“the marriage of the Lamb</text>
+<text x="50.0" y="695.0" font-size="13.5" fill="#3b2f1e" font-style="italic">has come”</text>
+<text x="50.0" y="713.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Revelation 19:7</text>
+<rect x="390.0" y="636.0" width="290.0" height="70" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="400.0" y="659.0" font-size="15" fill="#3b2f1e" font-weight="bold">The Bride, the wife of the Lamb</text>
+<text x="400.0" y="677.0" font-size="13.5" fill="#3b2f1e" font-style="italic">“his Bride has made herself ready”</text>
+<text x="400.0" y="695.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Revelation 19:7-8 · 21:2, 9</text>
+<path d="M332 671.0 H388" stroke="#a67c3d" stroke-width="2"/>
+<circle cx="353.0" cy="671.0" r="7" fill="none" stroke="#a67c3d" stroke-width="2"/>
+<circle cx="367.0" cy="671.0" r="7" fill="none" stroke="#a67c3d" stroke-width="2"/>
+<rect x="40.0" y="756.0" width="640.0" height="130" rx="5" fill="#fffdf7" stroke="#2f4f7f" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="50.0" y="779.7" font-size="13.5" fill="#3b2f1e" font-weight="bold">One Husband, two covenanted peoples (this site’s reading).</text>
+<text x="50.0" y="798.7" font-size="13" fill="#3b2f1e">Israel’s betrothal is not cancelled: “I will betroth you to me forever” is</text>
+<text x="50.0" y="817.7" font-size="13" fill="#3b2f1e">still future when Hosea writes it (Hosea 2:19). Israel remains the wife of</text>
+<text x="50.0" y="836.7" font-size="13" fill="#3b2f1e">the LORD; the church is the bride of Christ, betrothed in this present age;</text>
+<text x="50.0" y="855.7" font-size="13" fill="#3b2f1e">and the Son is the LORD who married Israel. Readers who hold one people</text>
+<text x="50.0" y="874.7" font-size="13" fill="#3b2f1e">of God read Revelation 21:9-14 as a single bride instead.</text>
+<rect x="40.0" y="912.0" width="200.0" height="27" rx="5" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<text x="48.0" y="930.5" font-size="13" fill="#3b2f1e" font-weight="bold">Scripture states it</text>
+<rect x="256.0" y="912.0" width="150.0" height="27" rx="5" fill="#fffdf7" stroke="#2f4f7f" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="264.0" y="930.5" font-size="13" fill="#3b2f1e" font-weight="bold">A reading</text>
+<path d="M432 926 H466" stroke="#8b1e1e" stroke-width="2.4"/>
+<path d="M470.0 926.0 L461.9 929.9 L461.9 922.1 Z" fill="#8b1e1e"/>
+<text x="478.0" y="931.0" font-size="13" fill="#3b2f1e">the title God kept, taken by Jesus</text>
+<path d="M210.0 982 H510.0" stroke="#e8c46a" stroke-width="1"/>
+<text x="360.0" y="1004.0" font-size="17" fill="#3b2f1e" text-anchor="middle" font-style="italic">“The Spirit and the Bride say, ‘Come.’”</text>
+<text x="360.0" y="1026.0" font-size="13" fill="#6b5a3e" text-anchor="middle" font-style="italic">Revelation 22:17 (ESV)</text>
+<text x="696.0" y="1056.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

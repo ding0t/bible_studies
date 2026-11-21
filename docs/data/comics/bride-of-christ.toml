@@ -1,0 +1,112 @@
+# One-minute comic for docs/content/israel-and-church/bride-of-christ.md.
+# Drawn by: python3 utils/build_comics.py bride-of-christ
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-11-21.
+#
+# The study's thesis is "X done, then Y ahead", so the comic is a sequence: the betrothal paid for
+# and made, then the groom coming for her.
+# Panel 1, purchased: the cup "poured out for you is the new covenant in my blood" (Luke 22:20),
+# the covenant and its price (component 1). The cup is the plain `supper_cup`: the Gospels do not
+# describe it. "The night He was betrayed" is Luke 22:21's setting.
+# Panel 2, preparing: the promise of John 14:2-3. The aside is the study's word data: παραλαμβάνω at
+# John 14:3 sits at Louw-Nida 34.53 with Matthew 1:24's "took his wife".
+# Panel 3, betrothed: Paul, "I betrothed you to one husband" (2 Corinthians 11:2), ἡρμοσάμην, aorist.
+# 2 Corinthians was not written from prison, so Paul sits in a plain room.
+# Panel 4, fetched: 1 Thessalonians 4:16-17. The Lord descends (4:16) and is drawn in a cloud as in
+# the ascension panels; the dead in Christ rise first (4:16), drawn as the open tomb; the living are
+# caught up "in the clouds" (4:17). The trumpet and the archangel's voice are left to the text.
+# Panel 5, married: Revelation 19:6-7, the voice of a great multitude. Jesus is drawn as the Lamb
+# whose marriage it is (Revelation 5:6-9 makes the identification); the Bride is John's picture
+# (19:7-8), the `bride` cast.
+
+title = "The Bride of Christ"
+subtitle = "Paid for and promised, then fetched"
+layout = [[300, 1], [300, 1, 1], [320, 3, 2]]
+note = "The Bride is John’s picture of the church (Revelation 19:7-8). The Gospels do not describe the cup, so it is drawn plain."
+point = "Christ has paid for His bride and betrothed her to Himself, and He has gone to prepare her place. He will come and take her to Himself, so wait as one already spoken for (2 Corinthians 11:2; John 14:3)."
+
+[[panel]]
+ref = "Luke 22:20-21"
+scene = "room"
+sky = "night"
+caption = "At supper, the night He was betrayed."
+caption_w = 260
+shows = "Jesus seated at supper holding up a plain cup, Peter and John and another disciple seated with Him"
+cast = [
+  { who = "jesus", x = 0.42, face = "right", stance = "sit", pose = "raise", holds = "supper_cup" },
+  { who = "peter", x = 0.62, face = "left", stance = "sit", pose = "fold", tag = "Peter" },
+  { who = "john", x = 0.76, face = "left", stance = "sit", pose = "heart", tag = "John" },
+  { who = "disciple", id = "d", name = "a disciple", x = 0.18, face = "right", stance = "sit", pose = "fold" },
+]
+say = [
+  { by = "jesus", text = "This cup that is poured out for you is the *new covenant* in my blood.", source = "esv", at = [0.62, 0.26], w = 230 },
+]
+
+[[panel]]
+ref = "John 14:2-3"
+scene = "room"
+sky = "night"
+caption = "The same night: “I go to prepare a place for you.”"
+caption_w = 230
+aside = "“Take”: the verb for Joseph taking Mary as his wife (Matthew 1:24)."
+aside_w = 200
+shows = "Jesus standing, speaking to two seated disciples"
+cast = [
+  { who = "jesus", x = 0.18, face = "right", pose = "open" },
+  { who = "disciple", id = "d1", name = "a disciple", x = 0.78, face = "left", stance = "sit", pose = "fold", s = 0.8 },
+  { who = "disciple", id = "d2", name = "a disciple", x = 0.92, face = "left", stance = "sit", pose = "heart", s = 0.8, tone = 1 },
+]
+say = [
+  { by = "jesus", text = "I will come again and will *take you to myself*", source = "esv", at = [0.60, 0.52], w = 160 },
+]
+
+[[panel]]
+ref = "2 Corinthians 11:2"
+scene = "room"
+sky = "day"
+caption = "Paul writes to the church at Corinth."
+caption_w = 200
+shows = "Paul seated with a scroll on his knee, writing"
+cast = [
+  { who = "paul", x = 0.20, face = "right", stance = "sit", pose = "hold", holds = "scroll", tag = "Paul" },
+]
+say = [
+  { by = "paul", text = "I betrothed you to *one husband*, to present you as a pure virgin to Christ.", source = "esv", at = [0.66, 0.42], w = 160 },
+]
+
+[[panel]]
+ref = "1 Thessalonians 4:16-17"
+scene = "hills"
+sky = "dawn"
+caption = "Still ahead: He comes for her."
+caption_w = 220
+burst = { on = "jesus", color = "gold" }
+shows = "the Lord descending in a cloud; below, an open tomb, and believers lifted up in clouds to meet Him"
+props = [
+  { what = "tomb", x = 0.10, s = 0.6 },
+]
+cast = [
+  { who = "jesus", x = 0.40, face = "left", pose = "open", s = 0.55, dy = -0.44, in_cloud = true, look = "radiant" },
+  { who = "robed", id = "risen", name = "the dead in Christ, risen", x = 0.20, face = "right", pose = "praise", s = 0.6, dy = -0.2, in_cloud = true },
+  { who = "woman", id = "w", name = "a believer caught up", x = 0.57, face = "left", pose = "look_up", s = 0.6, dy = -0.1, in_cloud = true, tone = 2 },
+  { who = "man", id = "m", name = "a believer caught up", x = 0.72, face = "left", pose = "praise", s = 0.6, dy = -0.04, in_cloud = true, tone = 1 },
+]
+say = [
+  { by = "paul", name = "Paul", from = [1.05, 0.2], style = "text", text = "and so we will *always be with the Lord*", source = "esv", at = [0.83, 0.32], w = 120 },
+]
+
+[[panel]]
+ref = "Revelation 19:6-8"
+scene = "vista"
+horizon = 0.66
+sky = "dawn"
+grade = "warm"
+caption = "Then the wedding."
+caption_w = 150
+shows = "the risen Jesus in light beside the Bride in bright white linen"
+cast = [
+  { who = "jesus", x = 0.14, face = "right", pose = "open", look = "radiant" },
+  { who = "bride", x = 0.38, face = "left", pose = "praise" },
+]
+say = [
+  { by = "multitude", name = "a great multitude", from = [0.70, -0.2], style = "voice", text = "The marriage of the Lamb has come, and his Bride has *made herself ready*", source = "esv", at = [0.74, 0.38], w = 118 },
+]

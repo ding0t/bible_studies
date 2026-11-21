@@ -1215,3 +1215,94 @@ fix_2026-09-25_from_sibling_reviews:
   verified: "ESV Isa 54:5, 43:14; Ruth 3:9, 4:5, 4:14-17; ESV SB Ruth introduction ('two legal institutions combined in one practice'); morphhb Kethiv and UHB Qere at Ruth 4:5; uW ULT note."
 
 publish_forks_2026-09-25: "Both forks published; pending_links resolved -- wife-of-the-lamb linked from the end of component 8 and On this site; reading-the-song-of-songs from On this site (the seal material it was to hang from moved with the fork)."
+
+simplify_2026-11-21:
+  skill: simplify-bible-study
+  baseline: "HEAD c7d25e09"
+  thesis_check: "Cold one-sentence thesis matched the file's In one sentence line; no stop."
+  words: "6,849 -> 6,290 by Check 23's count (budget 7,000). No forks; all six recommendations approved by the author."
+  merged_into_siblings: >-
+    Ruth 4:6 and the Ruth 4:5 Kethiv/Qere paragraph cut to the ESV SB citation and a pointer to
+    kinsman-redeemer.md#at-the-gate (author approved cutting text from the 2026-09-25 fix); Revelation
+    22:4-5 sight and reign cut to a citation (wife-of-the-lamb.md carries both); the apantesis
+    civic-welcome paragraph cut to one sentence and the rapture.md link.
+  merged_within: >-
+    Key Takeaways husband quotations cut to citations, and "The Old Testament spine underneath" cut
+    (The title He takes and the new bride-through-scripture plate carry it); component 1's m. Kiddushin
+    sentence cut and its Luke 22:20 sentence moved to the end of "The price" (heading "The covenant, and
+    the cup it was sealed in" removed); 2 Corinthians 1:22's second quotation cut to a citation; the
+    groom's twelve months no longer restated in component 5's second section.
+  cut_tangents: >-
+    Revelation 21:3 "as their God" variant paragraph; TWOT index detail on makon (kept as TWOT 964c);
+    occurrence lists for amomos, skenoo and mysterion (counts kept). "Ruth 4:6" dropped from
+    bible_references; commentary_index and section_index re-run.
+  style: "Seven X-not-Y foils deleted (Be Transformed x2, Ephesians context, shoshbin, betrothal, wedding feast, John 14:2 ESV SB)."
+  graphics: >-
+    The four mermaid diagrams replaced by drawn plates from utils/build_israel_church_graphics.py:
+    bride-through-scripture, wedding-pattern, bride-and-the-ages, type-stands-on. The one-minute comic
+    docs/data/comics/bride-of-christ.toml embedded after the thesis (supper_cup prop added to comic.py).
+  verify: "study_structure --verify-against HEAD: added_unexpected holds only the shortened sentences, the kinsman-redeemer pointer and the five image embeds. npm run validate and mkdocs build --strict pass."
+  status: "Applied; not committed. read-bible-study pass follows."
+
+read_2026-11-21:
+  skill: read-bible-study
+  trigger: "Run in a fresh subagent after simplify_2026-11-21; author pre-approved applying the pass."
+  baseline: >-
+    HEAD c7d25e09, with the simplify edits uncommitted in the working tree. verify_against HEAD was
+    run before and after this pass and the two results compared, since the simplify diff appears in
+    both.
+  measurements: >-
+    Sections 57 -> 57; median prose per section 139 -> 139; longest 448 -> 448; over the 400-word
+    target 1 -> 1; walls 0 -> 0. The one "long" section, "Where an author states it outright", is 245
+    words of prose plus about 203 words of the bride-through-scripture plate's alt text, which the
+    counter includes; read as prose it is inside target, so it was left whole.
+  prose_identity_check: >-
+    study_structure --verify-against HEAD before and after: removed 64 -> 64, added_unexpected
+    41 -> 41, added_allowed 0 -> 0, with identical line sets (nothing new, nothing gone). Every line
+    in both lists is the simplify pass's. This pass added no prose line.
+  operations: >-
+    (1) Moved the paragraph "Jesus uses that custom as the shape of the promise..." (John 14:2) from
+    the head of "The Father's house, and the God who moves in" to the end of "The couple lived at the
+    groom's father's house", the custom it names; it had been separated from it by the whole of "The
+    bridal chamber" section. That section's opening, on "many rooms", now follows the John 14:2
+    quotation directly, and "Israel sang about that place" follows the exodus "place" verses.
+    (2) "### The feast" renamed "### A seven-day wedding feast"; the pattern table's #the-feast link
+    updated. (3) "## Annex: Sources, Word Studies and Cautions" renamed "## Annex: Sources and
+    Cautions" (the annex now holds Tobit and the popular-teaching corrective, no word studies; the
+    Study outline already used that label); the outline's anchor updated. (4) Blank line restored
+    before the References sub-headings "Study Bibles, translations and text data" and "On this site"
+    (absent at HEAD too). The five image embeds stay where simplify put them. Only inbound link from
+    another page is olivet-discourse-parables.md -> #the-title-he-takes, unchanged.
+  validation: >-
+    npm run validate: passed, zero findings for this file. mkdocs build --strict: built. Every
+    href="#..." on the built page resolves to an id.
+  handed_back_not_fixed:
+    - >-
+      "What Popular Teaching Adds, and Why It Is Not Needed" still builds its second half on a
+      negative; read_2026-09-20 recorded it as an author call, so it is left. A candidate drawn from
+      the section's own close and the type-stands-on plate: "What Popular Teaching Adds, and What the
+      Type Stands On".
+    - >-
+      The opening paragraph closes on method: "This study follows that pattern in Scripture and
+      examines the historical sources behind later wedding customs." Rule 9 placement fault; a
+      sentence edit, so left for the author.
+    - >-
+      "The cup He promised to finish" opens "From the same evening, having given the cup" -- the
+      Last Supper was last named at the end of component 5, two components back, and the cup not
+      since Luke 22:20 in component 1. The referent needs words, so left for review or the author.
+    - >-
+      Table row 2 links Hosea 2:19 to #1-purchased-already-yours; the Hosea 2:19-20 discussion sits
+      in "The two ways out, and why neither is open" (#the-two-ways-out-and-why-neither-is-open).
+      Retargeting a working link is outside this pass's operations.
+  verifies_nothing: >-
+    This pass checked no quotation, count, citation or doctrinal claim. The simplify edits have not
+    been through review-bible-study since review_2026-09-23_readability_language.
+  status: "Applied; not committed; provenance refresh not run."
+
+fix_2026-11-21_read_followups:
+  source: "Author decisions on the four items read_2026-11-21 left open."
+  fixed:
+    - "Popular-teaching heading renamed 'What Popular Teaching Adds, and What the Type Stands On' (affirmative; no inbound anchors)."
+    - "Opening's closing method sentence deleted; the paragraph now ends on 'the New Testament calls Christ the bridegroom.'"
+    - "'From the same evening' -> 'At the Last Supper' in 'The cup He promised to finish'."
+    - "Pattern table row 2: Hosea 2:19 link retargeted to #the-two-ways-out-and-why-neither-is-open, where Hosea 2:19-20 is discussed."

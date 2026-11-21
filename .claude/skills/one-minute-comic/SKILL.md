@@ -153,7 +153,7 @@ Scripture does not.
 - **`holds`** on a cast entry puts a prop in the near hand: `staff`, `scroll`, `stone`, `spear`,
   `jar`, `gift`, `loaf`, `lamp`, `yoke`, `robe` (a white robe held out, folded over the hand),
   `crown` (a gold victor's wreath, the στέφανος), `palm` (a palm branch, Revelation 7:9), `shofar`
-  (a ram's-horn trumpet, Ezekiel 33:3), `cup` (the golden cup, Revelation 17:4), `garment` (a cloth hanging from the fist, Genesis 39:12), and `load`, which goes on the back with the hand on its
+  (a ram's-horn trumpet, Ezekiel 33:3), `cup` (the golden cup, Revelation 17:4), `supper_cup` (plain clay, the Last Supper's cup, Luke 22:20), `garment` (a cloth hanging from the fist, Genesis 39:12), and `load`, which goes on the back with the hand on its
   strap, for the heavy-laden (Matthew 11:28). Poses include `run` and `offer` (an arm held out
   with something in the hand).
 - **`eye = "beam"`** on a cast entry puts the δοκός of Matthew 7:3-5 in the figure's eye, a roof
