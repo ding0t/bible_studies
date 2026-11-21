@@ -34,9 +34,7 @@ Every quoted verse gets re-queried from source, not read for plausibility.
   [references/README.md](../../../references/README.md#study-notesdb-commercial-study-bible-commentary-external-not-in-this-repo-at-all)
   for the access pattern; the `immutable=1` URI form is mandatory, not optional, under the sandbox.
 - **WEB/BSB/ASV/YLT/LXX/MT and other `bible-text.db` translations**: `query.py verse` or the `bible_verse`
-  MCP tool. The BSB is `berean-bsb`, taken from its publisher's release since 2026-10-28; a BSB
-  quotation checked against the old scrollmapper copy may differ in a list verse or a revised
-  rendering (John 2:4), so re-check against `berean-bsb`.
+  MCP tool. The BSB is `berean-bsb`; check a BSB quotation against it.
 - **A reference is not a universal address** (AGENTS.md). Checking a quotation against "the same
   verse" in another work can compare two unrelated verses and report a false mismatch; move the
   reference with `bible_parallel` before concluding a study has misquoted anything.
@@ -94,9 +92,8 @@ Every quoted verse gets re-queried from source, not read for plausibility.
   `Hebrew/Aramaic text is wrapped in markdown bold` error as a Critical finding, not a style nit —
   see [style-guide.md's "Hebrew/RTL text and markdown bold"](../develop-bible-study/style-guide.md#hebrewrtl-text-and-markdown-bold)
   for why this actually breaks rendering (synthetic bold misplaces Hebrew vowel points) rather than
-  just reading oddly. The source markdown looks completely ordinary — re-reading the file, even
-  carefully, will not catch this; only the automated check (or viewing the built page) will. This
-  bug has shipped to `draft: false` studies before.
+  just reading oddly. The source markdown looks ordinary, so only the automated check (or the built
+  page) catches it.
 
 ## Phase 3 — Word studies, critically
 
@@ -109,10 +106,8 @@ earlier session) already wrote.
   study states are what the corpus actually returns right now. A miscounted or stale "only N
   occurrences" claim undermines exactly the kind of argument (*trōgō*, *kophinos*/*spyris*) this site's
   strongest studies are built on. **When the claim being checked is only a frequency number** ("basileia
-  occurs N times"), pass `count_only=True` (`--count-only` on the CLI) rather than pulling every
-  occurrence — a common word's full list can exceed the tool's own output limit (G932 unrestricted is
-  581 rows) and, inside `research_batch_run`, can blow the whole batch's output budget by itself. Only
-  drop the flag when you actually need the reference list, e.g. to spot-check specific verses.
+  occurs N times"), pass `count_only=True` (`--count-only` on the CLI), as the bible-references
+  server's instructions explain, and drop it only when you need the reference list.
 - **The page now shows the reader the count too.** Each tagged word's pop-up carries its occurrence
   count, matched on the exact Strong's id as `bible_concordance` matches, and for a rare word every
   verse it occurs in. A stated count or "only here" that disagrees is contradicted on the same page.
@@ -136,8 +131,7 @@ earlier session) already wrote.
   the text is genuinely ambiguous there. **A study that argues from one reading while the translation it
   quotes offers another in a note has a hole in it** — not necessarily a wrong conclusion, but an
   undisclosed fork the reader deserves. Raise it as Moderate when the study's argument turns on the
-  rendering, Minor when it is incidental. The corpus is ~22,000 footnotes and nothing in either skill
-  pointed at it before 2026-09, so older studies are the likeliest to have missed one.
+  rendering, Minor when it is incidental. Older studies are the likeliest to have missed one.
 - **Root-fallacy check.** Flag any claim resting on "the word literally/originally means X" to establish
   present-tense usage in the passage, instead of on synchronic (contemporary) usage.
 - Check the gloss, Strong's number, and semantic-domain code against `bible_word`/`bible_domain`
@@ -216,8 +210,8 @@ parts and no phase checked its claim. It was eventually caught while cutting the
   study Bible reads it differently.
 - Report the reverse case too: **any exegetical step that rests on a study note alone** (the study
   cites a note as the reason for a conclusion, with no verse, word or context behind it). Recommend
-  grounding it in the text or dropping it. See develop-bible-study Phase 6, "A study note checks the
-  exegesis".
+  grounding it in the text or dropping it. The rules are in
+  [cross-references.md](../develop-bible-study/cross-references.md#commentaries-and-study-notes).
 
 ## Phase 6 — Context coverage
 
@@ -246,11 +240,9 @@ separately rather than folding it in:
    "here's a tension to look at," never a suggested rewrite of either the study or the statement.
 
 Then run the mechanical half, which finds omissions that reading cannot. Use the **`review_gaps`**
-MCP tool with the study's path (called `study_gaps` before 2026-09-18; that alias still works —
-note the rename: the `study_*` tools are about study **Bibles**, not about this repo's study
-files). Prefer it over the CLI form: the result stays structured MCP data in the conversation
-rather than raw stdout text, which matters because the next step is to weigh and report the
-gap kinds separately, not just skim a printout.
+MCP tool with the study's path (the `study_*` tools are about study **Bibles**, not about this
+repo's study files). Prefer it over the CLI: its structured result is what the next step weighs
+kind by kind.
 
 CLI fallback when the server is not connected:
 
@@ -390,63 +382,10 @@ instead of naming it. An agent can count the first and should; the second and th
 calls a reviewer who also drafted the file is the worst-placed person to make. Report what you find
 and hand the page to the user.
 
-**Check the discussion questions against
-[discussion-questions.md](../develop-bible-study/discussion-questions.md)**, not only against
-style-guide.md's prohibition. Two different findings live here. The prohibition catches a question
-about the study's own method — including the disguised form, a question about evidence-weighting
-technique rather than about the text. The facet table catches the commoner defect: a set that is
-individually fine and collectively stale, because the study was restructured and the questions were
-not re-read. Ask which facets the study now has — language, context, Christ, the hard part,
-transformed — that no question touches, and whether the set's proportions match the study's own. A
-study whose smallest section gets most of its questions has a set left over from an earlier draft.
-Report as **Minor**, or **Moderate** where the questions no longer reflect what the study argues.
-
-**If the study has a Key Takeaways → Be Transformed subsection, check it against
-[key-takeaways.md](../../../docs/content/about/key-takeaways.md#be-transformed).** The default
-shape is three labeled bullets — `**Think.**`, `**Attitude.**`, `**Do.**` — and a study that instead
-has a prose paragraph, an unlabeled list, a different bullet count, or custom labels has drifted from
-the site's convention unless the study genuinely can't be split three ways. A bullet with no
-Scripture reference is Minor: each names the verse it stands on. This is the same failure
-class as the discussion-questions check above: each shape is individually readable, so nothing looks
-wrong until the corpus is read side by side. A 2026-09-19 audit found 6 of 29 published studies with
-a Be Transformed subsection had drifted this way with no stated reason — this is corpus-wide drift,
-not a rare exception, so check every study that has this subsection rather than only flagging one
-that looks obviously off. Report as **Minor**.
-Then check the content against
-[be-transformed.md](../develop-bible-study/be-transformed.md)'s per-label tests: a Think that is
-an instruction, an Attitude you could finish and tick off, or a Do that is a restatement, an inward
-review with no next step, or an action with no verse behind it. A Do the passage itself supplies
-(its command, its prayer, its model) is the target; when the passage offers one and the Do ignores
-it, name it in the finding. Report as **Minor**.
-
-**If the study has a Memory verses subsection, check it against
-[key-takeaways.md](../../../docs/content/about/key-takeaways.md#memory-verses).** The standard shape
-is a block quote with the reference written plainly, and no explanatory sentence after the verse
-(a bare "See [section]" locator in a study with several parallel sections is the one exception).
-The corpus still mixes shapes -- some studies use a bulleted `**Reference** -- "quote"` line, and a
-few fold the citation into a paragraph -- so report a different shape as **Minor** (known corpus
-cleanup). A reference linked to Blue Letter Bible or another Bible site is also **Minor**: the
-site's pop-up opens every plain reference in place, and the links were removed on 2026-09-27; only a
-deliberate send-off for follow-up study, saying so in its link text, keeps one. An explanatory
-sentence tacked onto a verse is **Minor** as well, but flag it by name since it's the part of this
-shape that's a genuine defect rather than a pending conversion.
-
-**Check the balance between prose and pop-up** against [formatting.md](../develop-bible-study/formatting.md) ("The pop-up
-works alongside the prose"). There are two findings, one in each direction. A section that argues
-from a verse's wording while giving only its citation leaves the reader arguing from words they
-cannot see. Nothing pops up when the study is read aloud, and the pop-up shows the reading translation (the BSB), so report
-this as **Moderate**. A quotation or paraphrase the argument never uses, kept only to save a lookup,
-is **Minor**; recommend simplify-bible-study.
-
-**Measure any mermaid diagram in the file** against
-[diagrams.md](../develop-bible-study/diagrams.md). A diagram wider than ~560px is scaled down whole
-by the browser, labels with it, and the defect is invisible in the markdown — the source of a 3725px
-diagram reads exactly like the source of a 400px one, so this is a finding no amount of careful
-reading produces. Render it (`npx mmdc -i d.mmd -o d.svg` and read the `viewBox`) rather than
-estimating from node count. The corpus was measured and cleared on 2026-09-04, so a diagram under
-50% now is a regression rather than inherited debt.
-Report as **Minor**, or **Moderate** under ~35%, where the labels are no longer legible at all and
-the diagram is decoration.
+**Then run the format checks in [format-checks.md](format-checks.md)**, each one that applies: the
+discussion-question facets, the Be Transformed and Memory verses shapes, the balance between prose
+and pop-up, and the width of any mermaid diagram. Each is invisible to a reading pass for the same
+reason: every instance looks fine alone, and the defect shows only against the convention.
 
 Findings here are **Minor** one at a time; a style issue is never as severe as a wrong Bible quote.
 Raise it as **Moderate** when the register is *pervasive* rather than local — style-guide.md exists
