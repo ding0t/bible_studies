@@ -1,4 +1,8 @@
+# Content signals (https://contentsignals.org): the studies are CC BY 4.0 and written to be found,
+# quoted and learned from. search = index and link; ai-input = use a page to answer a question;
+# ai-train = use it to train a model.
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 Sitemap: https://the-way.lewy.au/sitemap.xml
