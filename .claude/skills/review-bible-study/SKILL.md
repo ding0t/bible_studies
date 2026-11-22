@@ -387,6 +387,9 @@ discussion-question facets, the Be Transformed and Memory verses shapes, the bal
 and pop-up, and the width of any mermaid diagram. Each is invisible to a reading pass for the same
 reason: every instance looks fine alone, and the defect shows only against the convention.
 
+**If the study has a comic or drawn plates, run [graphics-checks.md](graphics-checks.md).** A
+quotation can be word-perfect while the pose, label or legend around it is wrong.
+
 Findings here are **Minor** one at a time; a style issue is never as severe as a wrong Bible quote.
 Raise it as **Moderate** when the register is *pervasive* rather than local — style-guide.md exists
 because prose that reads as machine-generated "undercuts the reader's trust in the research
