@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 5; Genesis 11:10-32"
 bible_references: ["Genesis 3:15", "Genesis 5:1-32", "Genesis 11:10-32", "Genesis 12:4", "Luke 3:23-38", "Matthew 1:1-17", "Acts 7:4", "Romans 5:12-21", "1 Corinthians 15:22", "1 Corinthians 15:45", "Genesis 4:25-26", "Genesis 10:25-29", "Genesis 46:17-18", "Exodus 6:16-20", "1 Chronicles 3:11-12", "Ruth 4:18-22", "1 Peter 3:20", "2 Peter 3:4-9", "Jude 1:14"]
 date_created: 2026-07-24
-date_modified: 2026-11-15
+date_modified: 2026-11-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -67,7 +67,7 @@ apply past Terah, because Genesis stops giving one.
 
 ## The three witnesses
 
-- **The Masoretic Text (MT)** — the one this site's own `zadok_year` numbering already assumes (see
+- **The Masoretic Text (MT)** — the one this site's own AM numbering already assumes (see
   [The Zadok Calendar](../feasts/zadok-calendar.md) for the calendar side of that convention).
 - **The Septuagint (LXX)**, in the Brenton edition, whose Genesis 5 and 11 numbers diverge from
   MT's in a patterned way (below).
@@ -322,7 +322,7 @@ structurally different ways.
 Genesis 11:26 states Terah was 70 when he fathered Abram (named first, alongside Nahor and Haran;
 birth order not stated). But Genesis 12:4 has Abram leaving Haran at 75, and Acts 7:4
 is explicit that this happened *after* Terah's
-death. Under MT/LXX's stated 205-year total for Terah (born zadok year 1878 on MT's own numbers),
+death. Under MT/LXX's stated 205-year total for Terah (born AM 1878 on MT's own numbers),
 the plain "70 at Abram" reading puts Abram's departure at 1948+75=2023, a full 60 years *before*
 Terah dies in 2083. That is a real contradiction with Acts 7:4. It is why the standard
 harmonization reinterprets Genesis 11:26: Abram is listed first for his covenant importance and
@@ -400,7 +400,7 @@ In brief:
 
 ### Deriving the Gregorian dates
 
-Zadok year 0 is Adam's creation, so each variant is anchored on one downstream point, the Exodus,
+AM 0 is Adam's creation, so each variant is anchored on one downstream point, the Exodus,
 and its creation date falls out of its own chain length.
 
 Computed results (`references/build/genealogy_chronology.py`, anchored on the Exodus at 1446 BC,
@@ -426,7 +426,7 @@ from Terah forward; they diverge only above him.
 ### Where year 0 sits
 
 **Scripture supplies the intervals for a creation epoch without supplying the epoch itself.**
-Converting a Zadok year to BC/AD therefore takes a choice, and five candidates have been weighed on
+Converting an AM year to BC/AD therefore takes a choice, and five candidates have been weighed on
 this site. They span 84 years:
 
 | Reading | Exodus anchor | Nahor | Creation | AD 2026 | Year 6000 |

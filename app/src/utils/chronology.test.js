@@ -117,19 +117,32 @@ assert(
   tableRows.length === CHRONOLOGY.anchor_table.length,
   `anchor_table has one entry per table row (${tableRows.length})`
 );
-for (const [n, , , date, tier, err, zadok] of tableRows) {
+for (const [n, , , date, tier, err, am] of tableRows) {
   const e = CHRONOLOGY.anchor_table.find((a) => a.n === Number(n));
-  const same =
-    e &&
-    e.gregorian_year === parseYear(date) &&
-    e.tier === tier &&
-    e.error === err &&
-    e.zadok_year === Number(zadok);
+  const same = e && e.gregorian_year === parseYear(date) && e.tier === tier && e.error === err;
   assert(same, `row ${n} (${date}) matches the page`);
   assert(
-    gregorianToAm(e.gregorian_year, 'genealogy') === e.zadok_year,
-    `row ${n}'s Zadok year is its date on the site's epoch`
+    gregorianToAm(e.gregorian_year, 'genealogy') === Number(am),
+    `row ${n}'s AM year on the page is its date on the site's epoch`
   );
+}
+const byN = [...CHRONOLOGY.anchor_table].sort((a, b) => a.n - b.n);
+assert(
+  byN.every((e, i) => i === 0 || e.gregorian_year >= byN[i - 1].gregorian_year),
+  'the anchor rows are numbered in date order'
+);
+// What each row is dated by, and the outside records that bear on it, as the page argues them.
+const roots = new Set(CHRONOLOGY.dating_roots.map((r) => r.id));
+const recordIds = new Set([...CHRONOLOGY.artifacts, ...CHRONOLOGY.anchors].map((a) => a.id));
+const JOBS = ['fix', 'check', 'confirm', 'limit', 'rival'];
+for (const e of CHRONOLOGY.anchor_table) {
+  assert(roots.has(e.dated_by), `row ${e.n} is dated by a known root (${e.dated_by})`);
+  for (const w of e.witnesses ?? []) {
+    assert(recordIds.has(w.id) && JOBS.includes(w.job), `row ${e.n}'s witness ${w.id} exists and has a job (${w.job})`);
+  }
+}
+for (const r of CHRONOLOGY.dating_roots) {
+  assert(r.witnesses.every((id) => recordIds.has(id)), `root ${r.id} names records that exist`);
 }
 
 console.log('\n7. Every timeline link opens a published study:');

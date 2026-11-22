@@ -53,6 +53,10 @@ const THREAD_STYLE = {
   seed: { color: RED, dash: null },
   temple: { color: '#2f4f7f', dash: '2.2 1' },
   seventy_weeks: { color: '#a67c3d', dash: '0.7 0.9' },
+  seventy_years_exile: { color: '#5b3a6e', dash: null },
+  seventy_years_temple: { color: '#5b3a6e', dash: '2.2 1' },
+  daniel_8_14_days: { color: '#a67c3d', dash: '1.2 1' },
+  sabbatical_cycle: { color: '#2f6f5f', dash: '0.7 0.9' },
 };
 const KIND_LABEL = {
   manuscript: 'Copy of Scripture',
@@ -593,17 +597,21 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
 
     // --- threads: a ribbon through events, an arc over a counted prophecy ----------------------
     if (lanes.threads) {
-      data.threads.forEach((t, k) => {
+      // Ribbons stack one per line thread; arcs that share a sheet rise to different heights so
+      // their labels (the seventy years twice over, Daniel 8:14's two spans) do not overprint.
+      const lineIds = data.threads.filter((t) => t.kind !== 'arc').map((t) => t.id);
+      let arcsDrawn = 0;
+      data.threads.forEach((t) => {
         const st = THREAD_STYLE[t.id] ?? { color: INK, dash: null };
         const color = mono ? INK : st.color;
-        const ty = base + 2.2 + k * 1.7;
+        const ty = base + 2.2 + lineIds.indexOf(t.id) * 1.7;
         const visible = t.points.filter((p) => inRange(p.am));
         if (t.kind === 'arc') {
           const [p0, p1] = [t.points[0], t.points[t.points.length - 1]];
           if (!inRange(p0.am, p1.am)) return;
           const ax0 = x(p0.am);
           const ax1 = x(p1.am);
-          const top = base - 14;
+          const top = base - 14 - (arcsDrawn++ % 3) * 4;
           els.push(
             <g key={`thread-${t.id}`} onClick={() => onSelect({ ...t, am: p0.am, amEnd: p1.am })} style={{ cursor: 'pointer' }}>
               <path d={`M${ax0} ${base} Q${(ax0 + ax1) / 2} ${top} ${ax1} ${base}`} fill="none" stroke={color} strokeWidth="0.55" strokeDasharray={st.dash ?? undefined} />
@@ -861,15 +869,32 @@ function Sheet({ range, index, total, title, data, lanes, mono, scaleMode, vigne
           <Arrow x={M + 164} y={H - M - 3.4} out={false} mono={mono} />
           <text x={M + 166} y={H - M - 1.6}>Return</text>
           {lanes.threads &&
-            data.threads.map((t, i) => {
-              const st = THREAD_STYLE[t.id] ?? { color: INK, dash: null };
-              return (
-                <g key={`leg-${t.id}`}>
-                  <line x1={M + 180 + i * 27} x2={M + 185 + i * 27} y1={H - M - 2.3} y2={H - M - 2.3} stroke={mono ? INK : st.color} strokeWidth="0.6" strokeDasharray={st.dash ?? undefined} />
-                  <text x={M + 186 + i * 27} y={H - M - 1.6}>{t.label}</text>
-                </g>
-              );
-            })}
+            (() => {
+              // Only the threads this sheet draws, laid end to end by their width, so a sheet with
+              // many threads keeps its key inside the frame.
+              // A second row runs under the first, clear of the page address at the right.
+              let lx0 = M + 180;
+              let row = 0;
+              return data.threads
+                .filter((t) => t.points.length && inRange(t.points[0].am, t.points[t.points.length - 1].am))
+                .map((t) => {
+                  const st = THREAD_STYLE[t.id] ?? { color: INK, dash: null };
+                  const w = 7 + textWidth(t.label, 1.9) + 3;
+                  if (lx0 + w > (row ? X1 - 45 : X1) && lx0 > M + 180) {
+                    row += 1;
+                    lx0 = M + 180;
+                  }
+                  const x0 = lx0;
+                  const dy = row * 3.2;
+                  lx0 += w;
+                  return (
+                    <g key={`leg-${t.id}`}>
+                      <line x1={x0} x2={x0 + 5} y1={H - M - 2.3 + dy} y2={H - M - 2.3 + dy} stroke={mono ? INK : st.color} strokeWidth="0.6" strokeDasharray={st.dash ?? undefined} />
+                      <text x={x0 + 6} y={H - M - 1.6 + dy}>{t.label}</text>
+                    </g>
+                  );
+                });
+            })()}
           <text x={X1} y={H - M + 1.6} fontSize="1.7" textAnchor="end" fill={MUTED}>
             {`${PAGE_URL}${window.location.hash}`}
           </text>

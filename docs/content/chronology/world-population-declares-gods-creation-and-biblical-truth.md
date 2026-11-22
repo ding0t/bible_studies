@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Genesis 9:1-19"
 bible_references: ["Genesis 1:20-21", "Genesis 1:28", "Genesis 5:32", "Genesis 6:1", "Genesis 7:11", "Genesis 7:21", "Genesis 8:17", "Genesis 9:1-19", "Genesis 9:28-29", "Genesis 10:1-32", "Genesis 11:1-9", "Genesis 11:10", "Genesis 13:16", "Genesis 15:5", "Genesis 22:17", "Genesis 46:26-27", "Exodus 1:5-7", "Exodus 1:12", "Exodus 8:3", "Exodus 12:37-41", "Leviticus 11:29", "Leviticus 11:41-46", "Numbers 1:2-3", "Numbers 1:45-46", "Deuteronomy 10:22", "2 Samuel 24:9", "1 Chronicles 21:5", "Psalm 105:30", "Jeremiah 33:22", "Ezekiel 47:9", "Acts 7:14", "Acts 17:26", "Romans 1:20", "Galatians 3:16", "Galatians 3:17", "Galatians 3:29", "Hebrews 11:12", "Revelation 7:9"]
 date_created: 2026-08-22
-date_modified: 2026-11-15
+date_modified: 2026-11-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -375,13 +375,13 @@ The headline number falls straight out of the first:
 
 ### The chronology
 
-Dates use this site's Zadok-year convention — year 0 is Adam's creation, and
-Zadok year 0 is 3959 BC (the Masoretic chain on a 1446 BC Exodus), so the Flood at Zadok 1656 is 2303 BC. See
+Dates use this site's AM (*anno mundi*) convention — year 0 is Adam's creation, and
+AM 0 is 3959 BC (the Masoretic chain on a 1446 BC Exodus), so the Flood at AM 1656 is 2303 BC. See
 [The Zadok Calendar](../feasts/zadok-calendar.md) for the calendar and
 [Genealogy and Times](genealogy-times.md) for how the Genesis 5 and 11 figures were
 read out of the Masoretic Text, Septuagint and Samaritan Pentateuch and turned into these years.
 
-Population anchors, each given as a Zadok year (AM, from creation) beside its Gregorian date.
+Population anchors, each given as an AM year (from creation) beside its Gregorian date.
 
 ```mermaid
 flowchart TD
@@ -534,7 +534,7 @@ them away.
 
 Post-Flood benchmarks, each rate computed over the span since the previous row:
 
-| Anchor | Zadok / Gregorian | Population | Rate over preceding span |
+| Anchor | AM / Gregorian | Population | Rate over preceding span |
 |---|---|---|---|
 | Flood | 1656 / 2303 BC | 6 | — |
 | Babel | ~1856 / ~2103 BC | 10,000 | 3.71%/yr |

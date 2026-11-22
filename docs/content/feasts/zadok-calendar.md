@@ -1,12 +1,12 @@
 ---
 title: "The Zadok Calendar"
 category: "prophecy"
-description: "The 364-day priestly calendar behind this site's Zadok years: its year, sabbaticals, jubilees and ages, its roots in the Zadokite priesthood and the Dead Sea Scrolls, and why I use it"
+description: "The 364-day priestly calendar behind this site's count of years from creation: its year, sabbaticals, jubilees and ages, its roots in the Zadokite priesthood and the Dead Sea Scrolls, and why I use it"
 tags: ["zadok", "calendar", "dead-sea-scrolls", "enoch", "jubilees", "chronology", "prophecy"]
 draft: false
 bible_references: ["Genesis 1:14-19", "Exodus 12:2", "Leviticus 23:4", "Leviticus 25:8-13", "2 Samuel 8:17", "1 Kings 2:35", "Ezekiel 44:15", "Daniel 9:24-27"]
 date_created: 2026-07-19
-date_modified: 2026-10-22
+date_modified: 2026-11-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -19,10 +19,11 @@ ai_provider_models:
 sabbaticals, jubilees and ages of history are the units this site uses when it counts the years
 from creation.
 
-Dates on this site carry a *Zadok year* beside the BC/AD one: an *anno mundi* ("year of the world")
-count of the years since creation. It takes its name from the Zadokite priests' 364-day calendar,
-which the Dead Sea Scrolls community kept. I follow it over the rabbinic (lunisolar) Hebrew
-calendar. Primary source for the structure below:
+Dates on this site carry an *anno mundi* ("year of the world") year, AM, beside the BC/AD one: a
+count of the years since creation, in ordinary solar years. Until November 2026 the site called it a
+*Zadok year*, after the Zadokite priests' 364-day calendar, which the Dead Sea Scrolls community
+kept and whose sabbaticals and jubilees the site counts in. I follow that calendar over the
+rabbinic (lunisolar) Hebrew calendar. Primary source for the structure below:
 [dsscalendar.org](https://dsscalendar.org), the work of Dr. Ken Johnson, Th.D. (BibleFacts
 Ministries).
 
@@ -139,7 +140,7 @@ choice, since Scripture does not settle it.
 
 ## Why I use it
 
-A few reasons this calendar is the one behind this site's Zadok years:
+A few reasons this calendar is the one behind this site's count of years:
 
 - **It's priestly, and the calendar was a priestly responsibility.** Israel's priests kept the sacred calendar, and the priestly courses of 1 Chronicles 24 need a fixed rotation. The Qumran calendar scrolls track those same courses against the 364-day year; the Chronicler himself names no calendar. And it's the Zadokite line Scripture names as the one that stayed faithful.
 - **It matches Israel's "appointed times."** The feasts of Leviticus 23 are called *moedim*, fixed appointed times, and under this calendar every feast falls on the same weekday every year.
@@ -153,8 +154,8 @@ dating and the [Prophetic Timeline](../../timeline/) tool are already built on i
 
 ## Counting the years from creation
 
-The calendar's structure says nothing about *when* the count starts. **A Zadok year is a count of
-the years elapsed since creation, with creation's own year as year 0, and this site puts year 0 at
+The calendar's structure says nothing about *when* the count starts. **An AM year is a count of
+the solar years elapsed since creation, with creation's own year as AM 0, and this site puts AM 0 at
 3959 BC.** That epoch is derived: the Masoretic numbers of Genesis 5 and 11, counted forward to an
 Exodus in 1446 BC. That date is 1 Kings 6:1's 480 years counted back from Solomon's fourth year,
 966 BC on Edwin Thiele's chronology of the kings. On it AD 2026 is AM 5984, and the six-thousandth year

@@ -1770,7 +1770,7 @@
      "It will take 2,300 evenings and mornings; then the sanctuary will be properly restored"
     ]
    ],
-   "reading": "The kings of the north and south through Antiochus IV: the taking of Judea, the deposing of the high priest, the abomination set up and the sanctuary restored. Dated by 1 Maccabees and the Seleucid era, not by Daniel.",
+   "reading": "The kings of the north and south through Antiochus IV: the taking of Judea, the murder of the high priest Onias III, the abomination set up and the sanctuary restored. Dated by 1 Maccabees and the Seleucid era, not by Daniel.",
    "feeds": [
     "anchor_25",
     "anchor_27",
@@ -1834,17 +1834,17 @@
      "This temple took forty-six years to build"
     ]
    ],
-   "reading": "Forty-six years from Herod's start on the temple (20/19 BC) to Jesus's first Passover.",
+   "reading": "Forty-six years to Jesus's first Passover. This site reads 'this sanctuary was built forty-six years ago', counted from its completion in 18/17 BC, a year and a half after Herod began it (20/19 BC): AD 29/30. The BSB's 'took forty-six years to build' counts from the start instead, AD 27/28.",
    "feeds": [
-    "anchor_39"
+    "anchor_40"
    ],
    "intervals": [
     {
      "from": "anchor_36",
-     "to": "anchor_39",
-     "years": 46,
+     "to": "anchor_40",
+     "years": 48,
      "tolerance": 1,
-     "why": "Herod began in 20 or 19 BC"
+     "why": "forty-six years after the sanctuary's completion, which came about two years after Herod's start in 20/19 BC"
     }
    ],
    "argued_in": "chronology/chronology-anchors#john-220-neutral-between-both-years"
@@ -1861,7 +1861,7 @@
    ],
    "reading": "The fifteenth year of Tiberius, counted from his accession in August AD 14, is AD 28/29.",
    "feeds": [
-    "anchor_40",
+    "anchor_39",
     "anchor_41"
    ],
    "argued_in": "chronology/chronology-anchors#luke-31-and-the-fifteenth-year-of-tiberius"
@@ -1881,7 +1881,7 @@
    "intervals": [
     {
      "from": "anchor_37",
-     "to": "anchor_40",
+     "to": "anchor_39",
      "years": 30,
      "tolerance": 3,
      "why": "\"about\"; the page notes that Luke 3:23 pulls the birth later"

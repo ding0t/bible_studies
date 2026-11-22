@@ -1,0 +1,325 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1866.75" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">The rail</title>
+<desc id="d">A line of time from 1000 BC at the top to AD 40 at the bottom, 1.25 units a year, with every row of the anchor table on it: 41 rows, each drawn as Fixed (solid), Anchored (hollow) or Bracketed (dashed range), with its error bar to scale. 31 rows carry a year or less. Bands mark the five outside records that date each stretch: Assyria, Babylon, Persia, The Greeks, Rome. Red bars beside the line are the spans Scripture counts: Jeremiah's seventy years (605 BC to 536 BC); Seventy years of indignation (586 BC to 515 BC); Daniel's 69 weeks (444 BC to AD 33); 2,300 evenings and mornings (171 BC to 164 BC). Above the line, dashed, the Exodus in 1446 BC and creation in 3959 BC, counted back from row 1.</desc>
+<rect width="720" height="1866.75" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1850.75" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1838.75" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE RAIL</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Forty-one anchors from Solomon's temple to the cross, to scale</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<rect x="22" y="250.0" width="676" height="487.8" fill="#e3e9f2" opacity="0.75"/>
+<text x="32.0" y="270.0" font-size="12.5" fill="#3b2f1e" font-weight="bold" letter-spacing="1.5">ASSYRIA</text>
+<rect x="22" y="737.8" width="676" height="83.8" fill="#efe4d0" opacity="0.75"/>
+<text x="32.0" y="757.8" font-size="12.5" fill="#3b2f1e" font-weight="bold" letter-spacing="1.5">BABYLON</text>
+<rect x="22" y="821.5" width="676" height="258.8" fill="#f6ecd0" opacity="0.75"/>
+<text x="32.0" y="841.5" font-size="12.5" fill="#3b2f1e" font-weight="bold" letter-spacing="1.5">PERSIA</text>
+<rect x="22" y="1080.2" width="676" height="335.0" fill="#f1dcd4" opacity="0.75"/>
+<text x="32.0" y="1100.2" font-size="12.5" fill="#3b2f1e" font-weight="bold" letter-spacing="1.5">THE GREEKS</text>
+<rect x="22" y="1415.2" width="676" height="133.5" fill="#e4ece1" opacity="0.75"/>
+<text x="32.0" y="1435.2" font-size="12.5" fill="#3b2f1e" font-weight="bold" letter-spacing="1.5">ROME</text>
+<path d="M228 250.0 H236" stroke="#3b2f1e" stroke-width="1"/>
+<text x="224.0" y="254.0" font-size="11" fill="#6b5a3e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">1000 BC</text>
+<path d="M228 375.0 H236" stroke="#3b2f1e" stroke-width="1"/>
+<text x="224.0" y="379.0" font-size="11" fill="#6b5a3e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">900 BC</text>
+<path d="M228 500.0 H236" stroke="#3b2f1e" stroke-width="1"/>
+<text x="224.0" y="504.0" font-size="11" fill="#6b5a3e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">800 BC</text>
+<path d="M228 625.0 H236" stroke="#3b2f1e" stroke-width="1"/>
+<text x="224.0" y="629.0" font-size="11" fill="#6b5a3e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">700 BC</text>
+<path d="M228 750.0 H236" stroke="#3b2f1e" stroke-width="1"/>
+<text x="224.0" y="754.0" font-size="11" fill="#6b5a3e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">600 BC</text>
+<path d="M228 875.0 H236" stroke="#3b2f1e" stroke-width="1"/>
+<text x="224.0" y="879.0" font-size="11" fill="#6b5a3e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">500 BC</text>
+<path d="M228 1000.0 H236" stroke="#3b2f1e" stroke-width="1"/>
+<text x="224.0" y="1004.0" font-size="11" fill="#6b5a3e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">400 BC</text>
+<path d="M228 1125.0 H236" stroke="#3b2f1e" stroke-width="1"/>
+<text x="224.0" y="1129.0" font-size="11" fill="#6b5a3e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">300 BC</text>
+<path d="M228 1250.0 H236" stroke="#3b2f1e" stroke-width="1"/>
+<text x="224.0" y="1254.0" font-size="11" fill="#6b5a3e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">200 BC</text>
+<path d="M228 1375.0 H236" stroke="#3b2f1e" stroke-width="1"/>
+<text x="224.0" y="1379.0" font-size="11" fill="#6b5a3e" text-anchor="end" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">100 BC</text>
+<path d="M236 250.0 V1548.8" stroke="#3b2f1e" stroke-width="2"/>
+<path d="M176 743.8 V830.0" stroke="#8b1e1e" stroke-width="3"/>
+<path d="M171 743.8 H181 M171 830.0 H181" stroke="#8b1e1e" stroke-width="1.5"/>
+<circle cx="162.0" cy="751.8" r="7" fill="#faf6ec" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="162.0" y="755.8" font-size="10.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">1</text>
+<path d="M196 767.5 V856.2" stroke="#8b1e1e" stroke-width="3" stroke-dasharray="6 3"/>
+<path d="M191 767.5 H201 M191 856.2 H201" stroke="#8b1e1e" stroke-width="1.5"/>
+<circle cx="182.0" cy="775.5" r="7" fill="#faf6ec" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="182.0" y="779.5" font-size="10.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">2</text>
+<path d="M176 945.0 V1540.0" stroke="#8b1e1e" stroke-width="3" stroke-dasharray="6 3"/>
+<path d="M171 945.0 H181 M171 1540.0 H181" stroke="#8b1e1e" stroke-width="1.5"/>
+<circle cx="162.0" cy="953.0" r="7" fill="#faf6ec" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="162.0" y="957.0" font-size="10.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">3</text>
+<path d="M196 1286.2 V1295.0" stroke="#8b1e1e" stroke-width="3" stroke-dasharray="6 3"/>
+<path d="M191 1286.2 H201 M191 1295.0 H201" stroke="#8b1e1e" stroke-width="1.5"/>
+<circle cx="182.0" cy="1294.2" r="7" fill="#faf6ec" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="182.0" y="1298.2" font-size="10.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">4</text>
+<path d="M236 286.2 V298.8" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="292.5" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 292.5 L260 292.5 L276 288.5" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="292.5" font-size="11" fill="#6b5a3e" text-anchor="end">1</text>
+<text x="284.0" y="292.5" font-size="12.5" fill="#3b2f1e" font-weight="bold">966 BC</text>
+<text x="346.0" y="292.5" font-size="12.5" fill="#3b2f1e">Temple begun, Solomon's 4th year  ±5</text>
+<path d="M236 295.0 V307.5" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="301.2" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 301.2 L260 301.2 L276 304.5" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="308.5" font-size="11" fill="#6b5a3e" text-anchor="end">2</text>
+<text x="284.0" y="308.5" font-size="12.5" fill="#3b2f1e" font-weight="bold">959 BC</text>
+<text x="346.0" y="308.5" font-size="12.5" fill="#3b2f1e">Temple completed, 11th year  ±5</text>
+<path d="M236 330.0 V342.5" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="336.2" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 336.2 L260 336.2 L276 332.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="336.2" font-size="11" fill="#6b5a3e" text-anchor="end">3</text>
+<text x="284.0" y="336.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">931 BC</text>
+<text x="346.0" y="336.2" font-size="12.5" fill="#3b2f1e">Solomon dies; kingdom divides  ±5</text>
+<path d="M236 337.5 V350.0" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="343.8" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 343.8 L260 343.8 L276 348.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="352.2" font-size="11" fill="#6b5a3e" text-anchor="end">4</text>
+<text x="284.0" y="352.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">925 BC</text>
+<text x="346.0" y="352.2" font-size="12.5" fill="#3b2f1e">Shishak invades, Rehoboam's 5th year  ±5</text>
+<path d="M236 432.5 V435.0" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="433.8" r="3.6" fill="#3b2f1e"/>
+<path d="M242 433.8 L260 433.8 L276 429.8" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="433.8" font-size="11" fill="#6b5a3e" text-anchor="end">5</text>
+<text x="284.0" y="433.8" font-size="12.5" fill="#3b2f1e" font-weight="bold">853 BC</text>
+<text x="346.0" y="433.8" font-size="12.5" fill="#3b2f1e">Ahab at Qarqar  ±1</text>
+<path d="M236 447.5 V450.0" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="448.8" r="3.6" fill="#3b2f1e"/>
+<path d="M242 448.8 L260 448.8 L276 445.8" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="449.8" font-size="11" fill="#6b5a3e" text-anchor="end">6</text>
+<text x="284.0" y="449.8" font-size="12.5" fill="#3b2f1e" font-weight="bold">841 BC</text>
+<text x="346.0" y="449.8" font-size="12.5" fill="#3b2f1e">Jehu pays tribute to Shalmaneser III  ±1</text>
+<circle cx="236.0" cy="546.2" r="3.6" fill="#3b2f1e"/>
+<path d="M242 546.2 L260 546.2 L276 542.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="546.2" font-size="11" fill="#6b5a3e" text-anchor="end">7</text>
+<text x="284.0" y="546.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">763 BC</text>
+<text x="346.0" y="546.2" font-size="12.5" fill="#3b2f1e">Bur-Sagale eclipse  ±0</text>
+<path d="M236 596.2 V598.8" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="597.5" r="3.6" fill="#3b2f1e"/>
+<path d="M242 597.5 L260 597.5 L276 593.5" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="597.5" font-size="11" fill="#6b5a3e" text-anchor="end">8</text>
+<text x="284.0" y="597.5" font-size="12.5" fill="#3b2f1e" font-weight="bold">722 BC</text>
+<text x="346.0" y="597.5" font-size="12.5" fill="#3b2f1e">Samaria falls, Hoshea's 9th year  ±1</text>
+<path d="M236 622.5 V625.0" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="623.8" r="3.6" fill="#3b2f1e"/>
+<path d="M242 623.8 L260 623.8 L276 619.8" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="623.8" font-size="11" fill="#6b5a3e" text-anchor="end">9</text>
+<text x="284.0" y="623.8" font-size="12.5" fill="#3b2f1e" font-weight="bold">701 BC</text>
+<text x="346.0" y="623.8" font-size="12.5" fill="#3b2f1e">Sennacherib besieges Jerusalem  ±1</text>
+<path d="M236 742.5 V745.0" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="743.8" r="3.6" fill="#3b2f1e"/>
+<path d="M242 743.8 L260 743.8 L276 739.8" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="743.8" font-size="11" fill="#6b5a3e" text-anchor="end">10</text>
+<text x="284.0" y="743.8" font-size="12.5" fill="#3b2f1e" font-weight="bold">605 BC</text>
+<text x="346.0" y="743.8" font-size="12.5" fill="#3b2f1e">Carchemish; Nebuchadnezzar accedes  ±1</text>
+<circle cx="236.0" cy="753.8" r="3.6" fill="#3b2f1e"/>
+<path d="M242 753.8 L260 753.8 L276 755.8" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="759.8" font-size="11" fill="#6b5a3e" text-anchor="end">11</text>
+<text x="284.0" y="759.8" font-size="12.5" fill="#3b2f1e" font-weight="bold">597 BC</text>
+<text x="346.0" y="759.8" font-size="12.5" fill="#3b2f1e">Jehoiachin deported  ±0</text>
+<path d="M236 766.2 V768.8" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="767.5" r="3.6" fill="#3b2f1e"/>
+<path d="M242 767.5 L260 767.5 L276 771.8" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="775.8" font-size="11" fill="#6b5a3e" text-anchor="end">12</text>
+<text x="284.0" y="775.8" font-size="12.5" fill="#3b2f1e" font-weight="bold">586 BC</text>
+<text x="346.0" y="775.8" font-size="12.5" fill="#3b2f1e">Jerusalem falls; temple burned  ±1</text>
+<path d="M236 782.5 V785.0" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="783.8" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 783.8 L260 783.8 L276 787.8" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="791.8" font-size="11" fill="#6b5a3e" text-anchor="end">13</text>
+<text x="284.0" y="791.8" font-size="12.5" fill="#3b2f1e" font-weight="bold">573 BC</text>
+<text x="346.0" y="791.8" font-size="12.5" fill="#3b2f1e">Ezekiel's temple vision  ±1</text>
+<circle cx="236.0" cy="826.2" r="3.6" fill="#3b2f1e"/>
+<path d="M242 826.2 L260 826.2 L276 822.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="826.2" font-size="11" fill="#6b5a3e" text-anchor="end">14</text>
+<text x="284.0" y="826.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">539 BC</text>
+<text x="346.0" y="826.2" font-size="12.5" fill="#3b2f1e">Babylon falls to Cyrus  ±0</text>
+<path d="M236 826.2 V828.8" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="827.5" r="3.6" fill="#3b2f1e"/>
+<path d="M242 827.5 L260 827.5 L276 838.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="842.2" font-size="11" fill="#6b5a3e" text-anchor="end">15</text>
+<text x="284.0" y="842.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">538 BC</text>
+<text x="346.0" y="842.2" font-size="12.5" fill="#3b2f1e">Cyrus's decree  ±1</text>
+<path d="M236 827.5 V832.5" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="830.0" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 830.0 L260 830.0 L276 854.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="858.2" font-size="11" fill="#6b5a3e" text-anchor="end">16</text>
+<text x="284.0" y="858.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">536 BC</text>
+<text x="346.0" y="858.2" font-size="12.5" fill="#3b2f1e">Temple foundation laid  ±2</text>
+<circle cx="236.0" cy="850.0" r="3.6" fill="#3b2f1e"/>
+<path d="M242 850.0 L260 850.0 L276 870.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="874.2" font-size="11" fill="#6b5a3e" text-anchor="end">17</text>
+<text x="284.0" y="874.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">520 BC</text>
+<text x="346.0" y="874.2" font-size="12.5" fill="#3b2f1e">Work resumes, Darius's 2nd year  ±0</text>
+<circle cx="236.0" cy="856.2" r="3.6" fill="#3b2f1e"/>
+<path d="M242 856.2 L260 856.2 L276 886.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="890.2" font-size="11" fill="#6b5a3e" text-anchor="end">18</text>
+<text x="284.0" y="890.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">515 BC</text>
+<text x="346.0" y="890.2" font-size="12.5" fill="#3b2f1e">Second temple completed  ±0</text>
+<path d="M236 927.5 V930.0" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="928.8" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 928.8 L260 928.8 L276 924.8" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="928.8" font-size="11" fill="#6b5a3e" text-anchor="end">19</text>
+<text x="284.0" y="928.8" font-size="12.5" fill="#3b2f1e" font-weight="bold">457 BC</text>
+<text x="346.0" y="928.8" font-size="12.5" fill="#3b2f1e">Ezra returns, Artaxerxes' 7th year  ±1</text>
+<path d="M236 943.8 V946.2" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="945.0" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 945.0 L260 945.0 L276 941.0" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="945.0" font-size="11" fill="#6b5a3e" text-anchor="end">20</text>
+<text x="284.0" y="945.0" font-size="12.5" fill="#3b2f1e" font-weight="bold">444 BC</text>
+<text x="346.0" y="945.0" font-size="12.5" fill="#3b2f1e">Decree to restore Jerusalem, 20th year  ±1</text>
+<path d="M236 925.0 V1000.0" stroke="#a67c3d" stroke-width="7" stroke-dasharray="3 2" opacity="0.9"/>
+<rect x="232.4" y="958.9" width="7.2" height="7.2" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="2.5 2"/>
+<path d="M242 962.5 L260 962.5 L276 958.5" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="962.5" font-size="11" fill="#6b5a3e" text-anchor="end">21</text>
+<text x="284.0" y="962.5" font-size="12.5" fill="#3b2f1e" font-weight="bold">430 BC</text>
+<text x="346.0" y="962.5" font-size="12.5" fill="#3b2f1e">Malachi, the last writing prophet  460-400 BC</text>
+<circle cx="236.0" cy="1086.2" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1086.2 L260 1086.2 L276 1082.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1086.2" font-size="11" fill="#6b5a3e" text-anchor="end">22</text>
+<text x="284.0" y="1086.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">331 BC</text>
+<text x="346.0" y="1086.2" font-size="12.5" fill="#3b2f1e">Alexander breaks Persia at Gaugamela  ±0</text>
+<circle cx="236.0" cy="1096.2" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1096.2 L260 1096.2 L276 1098.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1102.2" font-size="11" fill="#6b5a3e" text-anchor="end">23</text>
+<text x="284.0" y="1102.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">323 BC</text>
+<text x="346.0" y="1102.2" font-size="12.5" fill="#3b2f1e">Alexander dies; the horn is broken  ±0</text>
+<path d="M236 1122.5 V1125.0" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="1123.8" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1123.8 L260 1123.8 L276 1119.8" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1123.8" font-size="11" fill="#6b5a3e" text-anchor="end">24</text>
+<text x="284.0" y="1123.8" font-size="12.5" fill="#3b2f1e" font-weight="bold">301 BC</text>
+<text x="346.0" y="1123.8" font-size="12.5" fill="#3b2f1e">Four kingdoms settled at Ipsus  ±1</text>
+<path d="M236 1247.5 V1252.5" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="1250.0" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1250.0 L260 1250.0 L276 1246.0" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1250.0" font-size="11" fill="#6b5a3e" text-anchor="end">25</text>
+<text x="284.0" y="1250.0" font-size="12.5" fill="#3b2f1e" font-weight="bold">200 BC</text>
+<text x="346.0" y="1250.0" font-size="12.5" fill="#3b2f1e">Antiochus III takes Judea at Panium  ±2</text>
+<circle cx="236.0" cy="1281.2" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1281.2 L260 1281.2 L276 1277.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1281.2" font-size="11" fill="#6b5a3e" text-anchor="end">26</text>
+<text x="284.0" y="1281.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">175 BC</text>
+<text x="346.0" y="1281.2" font-size="12.5" fill="#3b2f1e">Antiochus IV Epiphanes accedes  ±0</text>
+<path d="M236 1285.0 V1287.5" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="1286.2" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 1286.2 L260 1286.2 L276 1293.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1297.2" font-size="11" fill="#6b5a3e" text-anchor="end">27</text>
+<text x="284.0" y="1297.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">171 BC</text>
+<text x="346.0" y="1297.2" font-size="12.5" fill="#3b2f1e">Onias III murdered; Menelaus high priest  ±1</text>
+<circle cx="236.0" cy="1291.2" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1291.2 L260 1291.2 L276 1309.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1313.2" font-size="11" fill="#6b5a3e" text-anchor="end">28</text>
+<text x="284.0" y="1313.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">167 BC</text>
+<text x="346.0" y="1313.2" font-size="12.5" fill="#3b2f1e">Temple desecrated; the abomination set up  ±0</text>
+<circle cx="236.0" cy="1295.0" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1295.0 L260 1295.0 L276 1325.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1329.2" font-size="11" fill="#6b5a3e" text-anchor="end">29</text>
+<text x="284.0" y="1329.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">164 BC</text>
+<text x="346.0" y="1329.2" font-size="12.5" fill="#3b2f1e">Temple rededicated — Hanukkah  ±0</text>
+<path d="M236 1295.0 V1297.5" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="1296.2" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1296.2 L260 1296.2 L276 1341.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1345.2" font-size="11" fill="#6b5a3e" text-anchor="end">30</text>
+<text x="284.0" y="1345.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">163 BC</text>
+<text x="346.0" y="1345.2" font-size="12.5" fill="#3b2f1e">Sabbatical year — siege of Beth-zur  ±1</text>
+<path d="M236 1321.2 V1323.8" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="1322.5" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1322.5 L260 1322.5 L276 1357.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1361.2" font-size="11" fill="#6b5a3e" text-anchor="end">31</text>
+<text x="284.0" y="1361.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">142 BC</text>
+<text x="346.0" y="1361.2" font-size="12.5" fill="#3b2f1e">Hasmonean independence under Simon  ±1</text>
+<path d="M236 1330.0 V1332.5" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="1331.2" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1331.2 L260 1331.2 L276 1373.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1377.2" font-size="11" fill="#6b5a3e" text-anchor="end">32</text>
+<text x="284.0" y="1377.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">135 BC</text>
+<text x="346.0" y="1377.2" font-size="12.5" fill="#3b2f1e">Sabbatical year — Hyrcanus besieges Ptolemy  ±1</text>
+<circle cx="236.0" cy="1421.2" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1421.2 L260 1421.2 L276 1417.2" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1421.2" font-size="11" fill="#6b5a3e" text-anchor="end">33</text>
+<text x="284.0" y="1421.2" font-size="12.5" fill="#3b2f1e" font-weight="bold">63 BC</text>
+<text x="346.0" y="1421.2" font-size="12.5" fill="#3b2f1e">Pompey takes Jerusalem; Rome rules Judea  ±0</text>
+<path d="M236 1448.8 V1451.2" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="1450.0" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1450.0 L260 1450.0 L276 1446.0" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1450.0" font-size="11" fill="#6b5a3e" text-anchor="end">34</text>
+<text x="284.0" y="1450.0" font-size="12.5" fill="#3b2f1e" font-weight="bold">40 BC</text>
+<text x="346.0" y="1450.0" font-size="12.5" fill="#3b2f1e">Herod appointed king by Rome  ±1</text>
+<path d="M236 1452.5 V1455.0" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="1453.8" r="3.6" fill="#3b2f1e"/>
+<path d="M242 1453.8 L260 1453.8 L276 1462.0" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1466.0" font-size="11" fill="#6b5a3e" text-anchor="end">35</text>
+<text x="284.0" y="1466.0" font-size="12.5" fill="#3b2f1e" font-weight="bold">37 BC</text>
+<text x="346.0" y="1466.0" font-size="12.5" fill="#3b2f1e">Sabbatical year — Herod takes Jerusalem  ±1</text>
+<path d="M236 1475.0 V1480.0" stroke="#a67c3d" stroke-width="7" stroke-dasharray="3 2" opacity="0.9"/>
+<rect x="232.4" y="1471.4" width="7.2" height="7.2" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="2.5 2"/>
+<path d="M242 1475.0 L260 1475.0 L276 1478.0" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1482.0" font-size="11" fill="#6b5a3e" text-anchor="end">36</text>
+<text x="284.0" y="1482.0" font-size="12.5" fill="#3b2f1e" font-weight="bold">20 BC</text>
+<text x="346.0" y="1482.0" font-size="12.5" fill="#3b2f1e">Herod begins the temple  20-16 BC</text>
+<path d="M236 1492.5 V1495.0" stroke="#a67c3d" stroke-width="7" stroke-dasharray="3 2" opacity="0.9"/>
+<rect x="232.4" y="1490.2" width="7.2" height="7.2" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="2.5 2"/>
+<path d="M242 1493.8 L260 1493.8 L276 1494.0" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1498.0" font-size="11" fill="#6b5a3e" text-anchor="end">37</text>
+<text x="284.0" y="1498.0" font-size="12.5" fill="#3b2f1e" font-weight="bold">5 BC</text>
+<text x="346.0" y="1498.0" font-size="12.5" fill="#3b2f1e">Nativity  6-4 BC</text>
+<path d="M236 1493.8 V1496.2" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="1495.0" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 1495.0 L260 1495.0 L276 1510.0" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1514.0" font-size="11" fill="#6b5a3e" text-anchor="end">38</text>
+<text x="284.0" y="1514.0" font-size="12.5" fill="#3b2f1e" font-weight="bold">4 BC</text>
+<text x="346.0" y="1514.0" font-size="12.5" fill="#3b2f1e">Herod dies  ±1</text>
+<path d="M236 1533.8 V1536.2" stroke="#a67c3d" stroke-width="7" opacity="0.9"/>
+<circle cx="236.0" cy="1535.0" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 1535.0 L260 1535.0 L276 1531.0" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1535.0" font-size="11" fill="#6b5a3e" text-anchor="end">39</text>
+<text x="284.0" y="1535.0" font-size="12.5" fill="#3b2f1e" font-weight="bold">AD 29</text>
+<text x="346.0" y="1535.0" font-size="12.5" fill="#3b2f1e">John's ministry begins  ±1</text>
+<path d="M236 1532.5 V1536.2" stroke="#a67c3d" stroke-width="7" stroke-dasharray="3 2" opacity="0.9"/>
+<rect x="232.4" y="1532.7" width="7.2" height="7.2" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="2.5 2"/>
+<path d="M242 1536.2 L260 1536.2 L276 1547.0" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1551.0" font-size="11" fill="#6b5a3e" text-anchor="end">40</text>
+<text x="284.0" y="1551.0" font-size="12.5" fill="#3b2f1e" font-weight="bold">AD 30</text>
+<text x="346.0" y="1551.0" font-size="12.5" fill="#3b2f1e">Temple "forty-six years" Passover  AD 27-30</text>
+<circle cx="236.0" cy="1540.0" r="3.6" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<path d="M242 1540.0 L260 1540.0 L276 1563.0" fill="none" stroke="#6b5a3e" stroke-width="0.6"/>
+<text x="280.0" y="1567.0" font-size="11" fill="#6b5a3e" text-anchor="end">41</text>
+<text x="284.0" y="1567.0" font-size="12.5" fill="#3b2f1e" font-weight="bold">AD 33</text>
+<text x="346.0" y="1567.0" font-size="12.5" fill="#3b2f1e">Crucifixion and Resurrection  ±0</text>
+<rect x="40" y="134" width="640" height="62" rx="6" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.3" stroke-dasharray="6 4"/>
+<text x="360.0" y="158.0" font-size="13.5" fill="#3b2f1e" text-anchor="middle" font-weight="bold">Above the rail: the Exodus, 1446 BC, 480 years before row 1 (1 Kings 6:1)</text>
+<text x="360.0" y="178.0" font-size="13" fill="#6b5a3e" text-anchor="middle" font-style="italic">and creation, 3959 BC, AM 0, counted back through Genesis 5 and 11</text>
+<path d="M236 246.0 V202" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="4 3"/>
+<path d="M236.0 202.0 L239.9 210.1 L232.1 210.1 Z" fill="#3b2f1e"/>
+<circle cx="45.0" cy="1618.8" r="4.2" fill="#3b2f1e"/>
+<text x="58.0" y="1622.8" font-size="13" fill="#3b2f1e">Fixed: computable, or a record naming the event</text>
+<circle cx="45.0" cy="1638.8" r="4.2" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.6"/>
+<text x="58.0" y="1642.8" font-size="13" fill="#3b2f1e">Anchored: a stated interval from a fixed point</text>
+<rect x="40.8" y="1654.5" width="8.4" height="8.4" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.4" stroke-dasharray="2.5 2"/>
+<text x="58.0" y="1662.8" font-size="13" fill="#3b2f1e">Bracketed: held between two dated points</text>
+<text x="40.0" y="1684.8" font-size="13" fill="#3b2f1e" font-weight="bold">The spans Scripture counts, beside the line:</text>
+<circle cx="48.0" cy="1702.8" r="7" fill="#faf6ec" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="48.0" y="1706.8" font-size="10.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">1</text>
+<text x="62.0" y="1706.8" font-size="12.5" fill="#3b2f1e">Jeremiah's seventy years, 605 BC to 536 BC: counted inclusively (Jeremiah 25:11-12; Daniel</text>
+<text x="62.0" y="1722.8" font-size="12.5" fill="#3b2f1e">9:2; 2 Chronicles 36:21)</text>
+<circle cx="48.0" cy="1740.8" r="7" fill="#faf6ec" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="48.0" y="1744.8" font-size="10.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">2</text>
+<text x="62.0" y="1744.8" font-size="12.5" fill="#3b2f1e">Seventy years of indignation, 586 BC to 515 BC (Zechariah 1:12; 7:5)</text>
+<circle cx="48.0" cy="1762.8" r="7" fill="#faf6ec" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="48.0" y="1766.8" font-size="10.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">3</text>
+<text x="62.0" y="1766.8" font-size="12.5" fill="#3b2f1e">Daniel's 69 weeks, 444 BC to AD 33: 483 years of 360 days (476 of ours) (Daniel 9:25-26;</text>
+<text x="62.0" y="1782.8" font-size="12.5" fill="#3b2f1e">Nehemiah 2:1-8)</text>
+<circle cx="48.0" cy="1800.8" r="7" fill="#faf6ec" stroke="#8b1e1e" stroke-width="1.2"/>
+<text x="48.0" y="1804.8" font-size="10.5" fill="#8b1e1e" text-anchor="middle" font-weight="bold">4</text>
+<text x="62.0" y="1804.8" font-size="12.5" fill="#3b2f1e">2,300 evenings and mornings, 171 BC to 164 BC: as days, on one reading (Daniel 8:14)</text>
+<path d="M420 1612.75 V1628.75" stroke="#a67c3d" stroke-width="7"/>
+<text x="434.0" y="1622.8" font-size="13" fill="#3b2f1e">Error bar, to scale</text>
+<path d="M420 1634.75 V1650.75" stroke="#8b1e1e" stroke-width="3"/>
+<text x="434.0" y="1646.8" font-size="13" fill="#3b2f1e">A span the text counts</text>
+<path d="M420 1656.75 V1672.75" stroke="#8b1e1e" stroke-width="3" stroke-dasharray="6 3"/>
+<text x="434.0" y="1668.8" font-size="13" fill="#3b2f1e">Dashed: this site's reading, or contested</text>
+<text x="696.0" y="1844.8" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

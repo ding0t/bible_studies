@@ -1,7 +1,39 @@
 import React from 'react';
-import { amToGregorian } from '../../utils/chronology';
+import { amToGregorian, CHRONOLOGY } from '../../utils/chronology';
 import { VARIANT_META, CERTAINTY_META, formatGregorian, studyUrl } from './shared';
 import Harmony from './Harmony';
+
+const RECORDS = new Map([...CHRONOLOGY.artifacts, ...CHRONOLOGY.anchors].map((a) => [a.id, a]));
+const ROOTS = new Map(CHRONOLOGY.dating_roots.map((r) => [r.id, r]));
+const JOB_LABEL = { fix: 'fixes the year', check: 'checks it', confirm: 'confirms the event', limit: 'sets a limit', rival: 'a rival date' };
+
+// An anchor row names the outside record its year rests on and the witnesses that bear on it.
+function DatedBy({ selected, theme }) {
+  const root = ROOTS.get(selected.dated_by);
+  const witnesses = (selected.witnesses ?? []).filter((w) => RECORDS.has(w.id));
+  if (!root && !witnesses.length) return null;
+  return (
+    <div style={{ fontSize: '0.85rem', color: theme.textMuted, margin: '0.4rem 0' }}>
+      {root && (
+        <div>
+          Dated by {root.label}: {root.record}
+          {root.sky ? ` · ${root.sky}` : ''}
+        </div>
+      )}
+      {witnesses.length > 0 && (
+        <div>
+          Witnesses:{' '}
+          {witnesses.map((w, i) => (
+            <span key={w.id}>
+              {i ? '; ' : ''}
+              {RECORDS.get(w.id).label} ({JOB_LABEL[w.job]})
+            </span>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function DetailPanel({ selected, theme, activeEpochs, markerDate }) {
   if (!selected) return null;
@@ -38,8 +70,10 @@ export default function DetailPanel({ selected, theme, activeEpochs, markerDate 
           <div style={{ fontSize: '0.85rem', color: theme.textMuted, marginBottom: '0.5rem' }}>
             {markerDate(selected)} · AM {Math.round(selected.am)}
             {selected.tier && ` · ${selected.tier}`}
+            {selected.tier && selected.error && ` ${selected.error}`}
             {selected.scripture && ` · ${selected.scripture}`}
           </div>
+          <DatedBy selected={selected} theme={theme} />
           {selected.image && (
             <img
               src={selected.image}

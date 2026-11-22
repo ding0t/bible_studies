@@ -4,7 +4,7 @@ category: "other"
 description: "Dating biblical history -- what can be fixed to a year, how the numbers in Scripture add up, and the one timeline this site works to."
 draft: false
 date_created: 2026-10-08
-date_modified: 2026-10-20
+date_modified: 2026-11-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -26,8 +26,8 @@ Other studies use these dates for their own subjects:
   [Six Days of History](../last-things/six-days-of-history.md) and
   [A Day Is a Thousand Years](../last-things/day-is-a-thousand-years.md) read the timeline as a
   week of thousand-year days.
-- [The Zadok Calendar](../feasts/zadok-calendar.md) is the 364-day priestly calendar behind the
-  site's Zadok years.
+- [The Zadok Calendar](../feasts/zadok-calendar.md) is the 364-day priestly calendar whose
+  sabbaticals and jubilees the site counts in.
 - [Firstfruits](../feasts/firstfruits.md) and
   [Three Days and Three Nights](../jesus/three-days-and-three-nights.md) build on the crucifixion
   year settled in Chronology Anchors.
@@ -41,7 +41,7 @@ Other studies use these dates for their own subjects:
 
     ---
 
-    Forty-one events from Solomon's temple to the Resurrection, each with the evidence that dates it, an error bar, and its Zadok year. The fixed rail the rest of the biblical timeline hangs from.
+    Forty-one events from Solomon's temple to the Resurrection, each with the outside record that dates it, an error bar, and its year from creation (AM). The fixed rail the rest of the biblical timeline hangs from.
 
     [:octicons-arrow-right-24: Read](chronology-anchors.md)
 

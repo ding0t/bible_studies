@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 7:5
 - [Fasting](../../christian-life/fasting.md) — 7:5
 <!-- commentary-index:auto-end -->

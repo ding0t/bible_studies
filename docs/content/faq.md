@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-11-15
+date_modified: 2026-11-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -194,7 +194,7 @@ works the disputed cases rather than asserting that there are none.
 ### What year does the site count from?
 
 **Creation in 3959 BC, which the site calls AM 0** (*Anno Mundi*, "year of the world"). Every AM
-and Zadok year on the site counts from it: AD 1 is AM 3959, the cross in AD 33 is AM 3991, and the
+year on the site counts from it: AD 1 is AM 3959, the cross in AD 33 is AM 3991, and the
 year 6000 falls in AD 2042. That last figure is where the arithmetic lands. Jesus kept the day and
 hour of His return hidden (Mark 13:32).
 

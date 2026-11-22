@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Hebrews 1:1-2"
 bible_references: ["Isaiah 46:9-10", "Isaiah 41:21-23", "Isaiah 45:21", "Isaiah 48:3-5", "Deuteronomy 18:21-22", "1 Peter 1:10-12", "2 Peter 1:19-21", "Luke 24:25-27", "Luke 24:44-45", "Genesis 2:9-10", "Genesis 3:17", "Genesis 3:22-24", "Revelation 20:2", "Revelation 22:1-3", "Isaiah 44:28", "Isaiah 45:1", "Ezra 1:1-4", "Jeremiah 25:11-12", "Jeremiah 26:18", "Micah 3:12", "Daniel 8:20-22", "Micah 5:2", "Matthew 2:1-6", "Isaiah 7:14", "Isaiah 9:1-2", "Isaiah 53:5", "Isaiah 53:9", "Isaiah 53:12", "Zechariah 9:9", "Zechariah 11:12-13", "Zechariah 12:10", "Psalm 22:16", "Psalm 22:18", "Psalm 16:10", "Psalm 34:20", "Exodus 12:46", "John 19:23-24", "John 19:36-37", "Malachi 3:1", "Daniel 9:25-26", "Luke 21:20-24", "Mark 13:2", "1 Kings 13:2", "2 Kings 23:15-16", "2 Timothy 3:16", "Jeremiah 43:8-13"]
 date_created: 2026-11-04
-date_modified: 2026-11-04
+date_modified: 2026-11-22
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -402,7 +402,7 @@ leaves room to date this oracle later.
 Daniel 9:26 says that after the anointed one is cut off, "the people of the prince who is to come
 shall destroy the city and the sanctuary" (ESV). On the critics' own date of 164 BC that is 234
 years before Rome burned the temple in AD 70. The reading is contested: critics take the verse of
-the high priest Onias III, deposed in 171 BC and later killed (2 Maccabees 4:33-34), and of
+the high priest Onias III, deposed in 175 BC and killed about 171 BC (2 Maccabees 4:7-10, 33-34), and of
 Antiochus IV. Antiochus desecrated the temple;
 he destroyed neither the city nor the sanctuary. Jesus applied Daniel's desolation to Jerusalem's
 coming fall (Luke 21:20-24; Matthew 24:15).

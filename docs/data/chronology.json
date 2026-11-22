@@ -471,7 +471,7 @@
       "note": "\"In the third year of the reign of King Belshazzar\" (Daniel 8:1): two years after the vision of chapter 7."
     }
   ],
-  "anchor_table_note": "Mirrors the table in docs/content/chronology/chronology-anchors.md row for row (number, date, tier, error bar, Zadok year). app/src/utils/chronology.test.js fails if the two disagree. 'core' rows show on the whole-week view; the rest appear when the view narrows.",
+  "anchor_table_note": "Mirrors the table in docs/content/chronology/chronology-anchors.md row for row (number, date, tier, error bar; the page's AM column is derived from the date on the site's epoch). app/src/utils/chronology.test.js fails if the two disagree. 'core' rows show on the whole-week view; the rest appear when the view narrows. dated_by names the outside record, in dating_roots, that the row's year finally rests on. witnesses lists the records that bear on the row, each with the job the page gives it: fix (dates it on its own), check (reaches it another way), confirm (the people and events, no year), limit, or rival.",
   "anchor_table": [
     {
       "n": 1,
@@ -481,12 +481,18 @@
       "gregorian_year": -966,
       "tier": "Anchored",
       "error": "±5",
-      "zadok_year": 2993,
       "core": true,
       "study_ref": "chronology/chronology-anchors",
       "evidence": "1 Kings 6:1's fourth year of Solomon, reached through Thiele's reconstruction of the regnal years from the Assyrian synchronisms. The Exodus 480 years earlier (1446 BC) anchors this site's creation epoch.",
       "people": [
         "solomon"
+      ],
+      "dated_by": "assyria",
+      "witnesses": [
+        {
+          "id": "josephus_apion",
+          "job": "check"
+        }
       ]
     },
     {
@@ -497,12 +503,12 @@
       "gregorian_year": -959,
       "tier": "Anchored",
       "error": "±5",
-      "zadok_year": 3000,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
       "people": [
         "solomon"
-      ]
+      ],
+      "dated_by": "assyria"
     },
     {
       "n": 3,
@@ -512,13 +518,13 @@
       "gregorian_year": -931,
       "tier": "Anchored",
       "error": "±5",
-      "zadok_year": 3028,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
       "people": [
         "solomon",
         "rehoboam"
-      ]
+      ],
+      "dated_by": "assyria"
     },
     {
       "n": 4,
@@ -527,11 +533,17 @@
       "scripture": "1 Kings 14:25-26",
       "gregorian_year": -925,
       "tier": "Anchored",
-      "error": "±3",
-      "zadok_year": 3034,
+      "error": "±5",
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Dated by 1 Kings 14:25 counted from Solomon's death in 931 BC; the identification of Shishak with Shoshenq I is widely held, and the Bubastite Portal at Karnak lists the campaign's towns without a date."
+      "evidence": "Dated by 1 Kings 14:25 counted from Solomon's death in 931 BC, so it carries that date's ±5; the identification of Shishak with Shoshenq I is widely held, and the Bubastite Portal lists the campaign's towns without a year.",
+      "dated_by": "assyria",
+      "witnesses": [
+        {
+          "id": "bubastite_portal",
+          "job": "check"
+        }
+      ]
     },
     {
       "n": 5,
@@ -541,10 +553,20 @@
       "gregorian_year": -853,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3106,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Kurkh Monolith (Shalmaneser III), synchronized via the Assyrian Eponym Canon's Bur-Sagale eclipse (763 BC). Ahab is named as 'Ahab the Israelite'."
+      "evidence": "Kurkh Monolith (Shalmaneser III), synchronized via the Assyrian Eponym Canon's Bur-Sagale eclipse (763 BC). Ahab is named as 'Ahab the Israelite'.",
+      "dated_by": "assyria",
+      "witnesses": [
+        {
+          "id": "kurkh_monolith",
+          "job": "fix"
+        },
+        {
+          "id": "mesha_stele",
+          "job": "confirm"
+        }
+      ]
     },
     {
       "n": 6,
@@ -554,10 +576,20 @@
       "gregorian_year": -841,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3118,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Black Obelisk of Shalmaneser III, his 18th year: 'Jehu son of Omri' pays tribute."
+      "evidence": "Black Obelisk of Shalmaneser III, his 18th year: 'Jehu son of Omri' pays tribute.",
+      "dated_by": "assyria",
+      "witnesses": [
+        {
+          "id": "black_obelisk",
+          "job": "fix"
+        },
+        {
+          "id": "tel_dan",
+          "job": "confirm"
+        }
+      ]
     },
     {
       "n": 7,
@@ -567,10 +599,16 @@
       "gregorian_year": -763,
       "tier": "Fixed",
       "error": "0",
-      "zadok_year": 3196,
       "core": true,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "A solar eclipse in the Assyrian eponym list, computable to the day (15 June 763 BC). It turns the eponym list into an absolute chronology, and every Assyrian-Israelite synchronism inherits its precision."
+      "evidence": "A solar eclipse in the Assyrian eponym list, computable to the day (15 June 763 BC). It turns the eponym list into an absolute chronology, and every Assyrian-Israelite synchronism inherits its precision.",
+      "dated_by": "assyria",
+      "witnesses": [
+        {
+          "id": "eponym_list",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 8,
@@ -580,10 +618,16 @@
       "gregorian_year": -722,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3237,
       "core": true,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "2 Kings 17:6 and the Babylonian Chronicle credit Shalmaneser V; Sargon II claims the capture in his own inscriptions."
+      "evidence": "2 Kings 17:6 and the Babylonian Chronicle credit Shalmaneser V; Sargon II claims the capture in his own inscriptions.",
+      "dated_by": "assyria",
+      "witnesses": [
+        {
+          "id": "babylonian_chronicles",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 9,
@@ -593,12 +637,18 @@
       "gregorian_year": -701,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3258,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
       "evidence": "Sennacherib's Prism (Taylor Prism) and the Lachish reliefs, British Museum. Sennacherib names Hezekiah.",
       "people": [
         "hezekiah"
+      ],
+      "dated_by": "assyria",
+      "witnesses": [
+        {
+          "id": "taylor_prism",
+          "job": "fix"
+        }
       ]
     },
     {
@@ -609,12 +659,18 @@
       "gregorian_year": -605,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3354,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
       "evidence": "Babylonian Chronicle BM 21946 (ABC 5): Nebuchadnezzar defeats Egypt at Carchemish and accedes the same year.",
       "people": [
         "jehoiakim"
+      ],
+      "dated_by": "babylon",
+      "witnesses": [
+        {
+          "id": "babylonian_chronicles",
+          "job": "fix"
+        }
       ]
     },
     {
@@ -625,12 +681,18 @@
       "gregorian_year": -597,
       "tier": "Fixed",
       "error": "0",
-      "zadok_year": 3362,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
       "evidence": "Babylonian Chronicle ABC 5 (\"Jerusalem Chronicle\"), BM 21946: captured 2 Adar, Nebuchadnezzar's 7th year (16 March 597 BC). 2 Kings 24:12 counts it as his 8th, Jeremiah 52:28 as his 7th.",
       "people": [
         "jehoiachin"
+      ],
+      "dated_by": "babylon",
+      "witnesses": [
+        {
+          "id": "babylonian_chronicles",
+          "job": "fix"
+        }
       ]
     },
     {
@@ -641,10 +703,20 @@
       "gregorian_year": -586,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3373,
       "core": true,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "587 or 586 BC. No Babylonian chronicle survives for the year, so it is argued from biblical synchronisms; this site follows Thiele's 586."
+      "evidence": "587 or 586 BC. No Babylonian chronicle survives for the year, so it is argued from biblical synchronisms; this site follows Thiele's 586.",
+      "dated_by": "babylon",
+      "witnesses": [
+        {
+          "id": "vat_4956",
+          "job": "fix"
+        },
+        {
+          "id": "lachish_letters",
+          "job": "confirm"
+        }
+      ]
     },
     {
       "n": 13,
@@ -654,10 +726,10 @@
       "gregorian_year": -573,
       "tier": "Anchored",
       "error": "±1",
-      "zadok_year": 3386,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Ezekiel 40:1, the 25th year of the exile, 'at the beginning of the year'. Whether that is 10 Nisan or 10 Tishri (the Day of Atonement) is contested."
+      "evidence": "Ezekiel 40:1, the 25th year of the exile, 'at the beginning of the year' (rosh hashanah, the phrase's only occurrence in Scripture), on the tenth day. The Septuagint ('in the first month') and the ESV Study Bible read Nisan, April 573 BC; the Talmud (b. Arakhin 12a) reads the tenth of Tishri, the Day of Atonement that opens a jubilee (Leviticus 25:9), and Rodger Young dates that reading to 10 Tishri 574 BC.",
+      "dated_by": "babylon"
     },
     {
       "n": 14,
@@ -667,10 +739,16 @@
       "gregorian_year": -539,
       "tier": "Fixed",
       "error": "0",
-      "zadok_year": 3420,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Nabonidus Chronicle: Babylon entered 16 Tishri (12 October) 539 BC."
+      "evidence": "Nabonidus Chronicle: Babylon entered 16 Tishri (12 October) 539 BC.",
+      "dated_by": "babylon",
+      "witnesses": [
+        {
+          "id": "babylonian_chronicles",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 15,
@@ -680,12 +758,18 @@
       "gregorian_year": -538,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3421,
       "core": true,
       "study_ref": "chronology/chronology-anchors",
       "evidence": "Cyrus Cylinder; fall of Babylon dated by the Nabonidus Chronicle (539 BC). Ezra 1:1, Cyrus's first year.",
       "people": [
         "zerubbabel"
+      ],
+      "dated_by": "persia",
+      "witnesses": [
+        {
+          "id": "cyrus_cylinder",
+          "job": "confirm"
+        }
       ]
     },
     {
@@ -696,12 +780,12 @@
       "gregorian_year": -536,
       "tier": "Anchored",
       "error": "±2",
-      "zadok_year": 3423,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
       "people": [
         "zerubbabel"
-      ]
+      ],
+      "dated_by": "persia"
     },
     {
       "n": 17,
@@ -711,10 +795,16 @@
       "gregorian_year": -520,
       "tier": "Fixed",
       "error": "0",
-      "zadok_year": 3439,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Haggai 1:1: 1 Elul in Darius's 2nd year, 29 August 520 BC."
+      "evidence": "Haggai 1:1: 1 Elul in Darius's 2nd year, 29 August 520 BC.",
+      "dated_by": "persia",
+      "witnesses": [
+        {
+          "id": "ptolemys_canon",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 18,
@@ -724,12 +814,18 @@
       "gregorian_year": -515,
       "tier": "Fixed",
       "error": "0",
-      "zadok_year": 3444,
       "core": true,
       "study_ref": "chronology/chronology-anchors",
       "evidence": "Ezra 6:15: 3 Adar in Darius's 6th year, March 515 BC.",
       "people": [
         "zerubbabel"
+      ],
+      "dated_by": "persia",
+      "witnesses": [
+        {
+          "id": "ptolemys_canon",
+          "job": "fix"
+        }
       ]
     },
     {
@@ -740,10 +836,20 @@
       "gregorian_year": -457,
       "tier": "Anchored",
       "error": "±1",
-      "zadok_year": 3502,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Artaxerxes I's 7th year (Ezra 7:7-8), Nisan to Ab 457 BC on the Tishri-to-Tishri years that Nehemiah 1:1 and 2:1 require of the same king, thirteen years before Nehemiah's 444. The ESV Study Bible's 458 counts Persian Nisan years. A minority places Ezra under Artaxerxes II (398 BC)."
+      "evidence": "Artaxerxes I's 7th year (Ezra 7:7-8), Nisan to Ab 457 BC on the Tishri-to-Tishri years that Nehemiah 1:1 and 2:1 require of the same king, thirteen years before Nehemiah's 444. The ESV Study Bible's 458 counts Persian Nisan years. A minority places Ezra under Artaxerxes II (398 BC).",
+      "dated_by": "persia",
+      "witnesses": [
+        {
+          "id": "ptolemys_canon",
+          "job": "fix"
+        },
+        {
+          "id": "elephantine_papyri",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 20,
@@ -753,10 +859,20 @@
       "gregorian_year": -444,
       "tier": "Anchored",
       "error": "±1",
-      "zadok_year": 3515,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Elephantine papyri fix Artaxerxes I's regnal years independently. His 20th year is 445 BC on an accession-year count and 444 BC on the Tishri count that Nehemiah 1:1 (Chislev) and 2:1 (Nisan) in the same year imply; this site follows 444 (Hoehner), which the text requires and which reaches the AD 33 crucifixion -- see chronology-anchors.md entry 20."
+      "evidence": "Elephantine papyri fix Artaxerxes I's regnal years independently. His 20th year is 445 BC on an accession-year count and 444 BC on the Tishri count that Nehemiah 1:1 (Chislev) and 2:1 (Nisan) in the same year imply; this site follows 444 (Hoehner), which the text requires and which reaches the AD 33 crucifixion -- see chronology-anchors.md entry 20.",
+      "dated_by": "persia",
+      "witnesses": [
+        {
+          "id": "ptolemys_canon",
+          "job": "fix"
+        },
+        {
+          "id": "elephantine_papyri",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 21,
@@ -766,10 +882,10 @@
       "gregorian_year": -430,
       "tier": "Bracketed",
       "error": "460-400 BC",
-      "zadok_year": 3529,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "No regnal date; placed by what the book describes. The temple runs under a Persian governor (Malachi 1:7-10), and Malachi names the abuses Nehemiah finds on his return after 433 BC (Nehemiah 13:6): foreign marriages (Malachi 2:11; Nehemiah 13:23-27), the Levites' tithes withheld (Malachi 3:8-10; Nehemiah 13:10), the covenant of Levi corrupted (Malachi 2:8; Nehemiah 13:29). Its governor takes gifts, as Nehemiah would not (Nehemiah 5:15), so it fits his absence. STEP's 397 BC gives no reason and parts Malachi from the reform it describes."
+      "evidence": "No regnal date; placed by what the book describes. The temple runs under a Persian governor (Malachi 1:7-10), and Malachi names the abuses Nehemiah finds on his return after 433 BC (Nehemiah 13:6): foreign marriages (Malachi 2:11; Nehemiah 13:23-27), the Levites' tithes withheld (Malachi 3:8-10; Nehemiah 13:10), the covenant of Levi corrupted (Malachi 2:8; Nehemiah 13:29). Its governor takes gifts, as Nehemiah would not (Nehemiah 5:15), so it fits his absence. STEP's 397 BC gives no reason and parts Malachi from the reform it describes.",
+      "dated_by": "persia"
     },
     {
       "n": 22,
@@ -779,10 +895,16 @@
       "gregorian_year": -331,
       "tier": "Fixed",
       "error": "0",
-      "zadok_year": 3628,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Battle of Gaugamela, 1 October 331 BC. Daniel 8:20-21 names the ram as Media and Persia and the goat as Greece."
+      "evidence": "Battle of Gaugamela, 1 October 331 BC. Daniel 8:20-21 names the ram as Media and Persia and the goat as Greece.",
+      "dated_by": "greece",
+      "witnesses": [
+        {
+          "id": "astronomical_diaries",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 23,
@@ -792,10 +914,16 @@
       "gregorian_year": -323,
       "tier": "Fixed",
       "error": "0",
-      "zadok_year": 3636,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Alexander dies at Babylon in June 323 BC, aged 32: the great horn broken (Daniel 8:8)."
+      "evidence": "Alexander dies at Babylon in June 323 BC, aged 32: the great horn broken (Daniel 8:8).",
+      "dated_by": "greece",
+      "witnesses": [
+        {
+          "id": "astronomical_diaries",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 24,
@@ -805,10 +933,10 @@
       "gregorian_year": -301,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3658,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Battle of Ipsus settles the four kingdoms of Alexander's successors (Daniel 8:22; 11:4)."
+      "evidence": "Battle of Ipsus settles the four kingdoms of Alexander's successors (Daniel 8:22; 11:4).",
+      "dated_by": "greece"
     },
     {
       "n": 25,
@@ -818,9 +946,9 @@
       "gregorian_year": -200,
       "tier": "Fixed",
       "error": "±2",
-      "zadok_year": 3759,
       "core": false,
-      "study_ref": "chronology/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors",
+      "dated_by": "greece"
     },
     {
       "n": 26,
@@ -830,21 +958,28 @@
       "gregorian_year": -175,
       "tier": "Fixed",
       "error": "0",
-      "zadok_year": 3784,
       "core": false,
-      "study_ref": "chronology/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors",
+      "dated_by": "greece"
     },
     {
       "n": 27,
       "id": "anchor_27",
-      "label": "Onias III deposed; priesthood sold",
+      "label": "Onias III murdered; Menelaus high priest",
       "scripture": "Daniel 11:22",
       "gregorian_year": -171,
       "tier": "Anchored",
       "error": "±1",
-      "zadok_year": 3788,
       "core": false,
-      "study_ref": "chronology/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors",
+      "evidence": "2 Maccabees 4:7-10: Jason buys the high priesthood when Antiochus IV takes the throne (175/174 BC), displacing his brother Onias III. 4:23-34: three years later Menelaus outbids Jason and has Onias killed at Daphne, 171/170 BC. Daniel 11:22's 'prince of the covenant' is usually read of Onias. 2,300 days before the rededication is August 170 BC.",
+      "dated_by": "greece",
+      "witnesses": [
+        {
+          "id": "second_maccabees",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 28,
@@ -854,10 +989,16 @@
       "gregorian_year": -167,
       "tier": "Fixed",
       "error": "0",
-      "zadok_year": 3792,
       "core": true,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "1 Maccabees 1:54, 59: 15 and 25 Kislev in the 145th Seleucid year (December 167 BC)."
+      "evidence": "1 Maccabees 1:54, 59: 15 and 25 Kislev in the 145th Seleucid year (December 167 BC).",
+      "dated_by": "greece",
+      "witnesses": [
+        {
+          "id": "first_maccabees",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 29,
@@ -867,10 +1008,16 @@
       "gregorian_year": -164,
       "tier": "Fixed",
       "error": "0",
-      "zadok_year": 3795,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "1 Maccabees 4:52-54: 25 Kislev, 148th year (December 164 BC), 'at the very season and on the very day'. The Feast of Dedication of John 10:22."
+      "evidence": "1 Maccabees 4:52-54: 25 Kislev, 148th year (December 164 BC), 'at the very season and on the very day'. The Feast of Dedication of John 10:22.",
+      "dated_by": "greece",
+      "witnesses": [
+        {
+          "id": "first_maccabees",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 30,
@@ -880,35 +1027,53 @@
       "gregorian_year": -163,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3796,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "1 Maccabees 6:49, 53: Beth-zur surrenders for want of food in a sabbatical year."
+      "evidence": "1 Maccabees 6:49, 53: Beth-zur surrenders for want of food in a sabbatical year.",
+      "dated_by": "greece",
+      "witnesses": [
+        {
+          "id": "first_maccabees",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 31,
       "id": "anchor_31",
       "label": "Hasmonean independence under Simon",
-      "scripture": null,
+      "scripture": "1 Maccabees 13:41-42",
       "gregorian_year": -142,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3817,
       "core": false,
-      "study_ref": "chronology/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors",
+      "dated_by": "greece",
+      "witnesses": [
+        {
+          "id": "first_maccabees",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 32,
       "id": "anchor_32",
-      "label": "Sabbatical year — Antiochus VII's siege",
+      "label": "Sabbatical year — Hyrcanus besieges Ptolemy",
       "scripture": "Josephus, *Ant.* 13.234",
       "gregorian_year": -135,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3824,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Josephus, Antiquities 13.234: the siege eased by a sabbatical year."
+      "evidence": "Josephus, Antiquities 13.228-235: John Hyrcanus besieges Ptolemy, the murderer of his father Simon, at the fortress of Dagon near Jericho, and the siege lapses when 'the year on which the Jews are accustomed to rest' comes on (13.234): 135/134 BC on Wacholder's cycle.",
+      "dated_by": "greece",
+      "witnesses": [
+        {
+          "id": "josephus",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 33,
@@ -918,9 +1083,9 @@
       "gregorian_year": -63,
       "tier": "Fixed",
       "error": "0",
-      "zadok_year": 3896,
       "core": false,
-      "study_ref": "chronology/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors",
+      "dated_by": "rome"
     },
     {
       "n": 34,
@@ -930,9 +1095,9 @@
       "gregorian_year": -40,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3919,
       "core": false,
-      "study_ref": "chronology/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors",
+      "dated_by": "rome"
     },
     {
       "n": 35,
@@ -942,10 +1107,16 @@
       "gregorian_year": -37,
       "tier": "Fixed",
       "error": "±1",
-      "zadok_year": 3922,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Josephus, Antiquities 14.475: Herod takes Jerusalem in a sabbatical year."
+      "evidence": "Josephus, Antiquities 14.475: Herod and Sossius take Jerusalem in a sabbatical year, 37/36 BC on Wacholder's cycle (38/37 on Zuckermann's).",
+      "dated_by": "rome",
+      "witnesses": [
+        {
+          "id": "josephus",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 36,
@@ -955,19 +1126,24 @@
       "gregorian_year": -20,
       "tier": "Bracketed",
       "error": "20-16 BC",
-      "zadok_year": 3939,
       "core": false,
-      "study_ref": "chronology/chronology-anchors"
+      "study_ref": "chronology/chronology-anchors",
+      "dated_by": "rome",
+      "witnesses": [
+        {
+          "id": "josephus",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 37,
       "id": "anchor_37",
       "label": "Nativity",
-      "scripture": "Matthew 2:1; Luke 2",
+      "scripture": "Matthew 2:1, 16; Luke 2:1-2",
       "gregorian_year": -5,
       "tier": "Bracketed",
       "error": "6-4 BC",
-      "zadok_year": 3954,
       "core": true,
       "study_ref": "chronology/chronology-anchors",
       "evidence": "Matthew 2:1 and 2:16 against Herod's death; Luke 3:23 pulls later. The bracket holds both.",
@@ -975,46 +1151,63 @@
         "joseph",
         "mary",
         "jesus"
-      ]
+      ],
+      "dated_by": "rome"
     },
     {
       "n": 38,
       "id": "anchor_38",
       "label": "Herod dies",
-      "scripture": "Josephus",
+      "scripture": "Josephus, *Ant.* 17.167, 191",
       "gregorian_year": -4,
       "tier": "Anchored",
       "error": "±1",
-      "zadok_year": 3955,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Josephus's eclipse and Passover markers for Herod's death; 4 BC is the majority view, and a minority argues for 1 BC."
+      "evidence": "Josephus, Antiquities 17.167: a lunar eclipse shortly before Herod's death, usually the eclipse of 13 March 4 BC; 17.191: he reigned 34 years from Antigonus's death (37 BC) and 37 from his appointment (40 BC). 4 BC is the majority view; a minority argues 1 BC from the eclipse of 10 January 1 BC.",
+      "dated_by": "rome",
+      "witnesses": [
+        {
+          "id": "josephus",
+          "job": "fix"
+        }
+      ]
     },
     {
       "n": 39,
       "id": "anchor_39",
-      "label": "Temple \"forty-six years\" Passover",
-      "scripture": "John 2:20",
-      "gregorian_year": 28,
-      "tier": "Bracketed",
-      "error": "AD 27-30",
-      "zadok_year": 3986,
-      "core": false,
-      "study_ref": "chronology/chronology-anchors",
-      "evidence": "John 2:20's 'forty-six years', counted from Herod's start (20/19 BC) or from the sanctuary's completion (18/17 BC)."
-    },
-    {
-      "n": 40,
-      "id": "anchor_40",
       "label": "John's ministry begins",
       "scripture": "Luke 3:1-2",
       "gregorian_year": 29,
       "tier": "Anchored",
       "error": "±1",
-      "zadok_year": 3987,
       "core": false,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Luke 3:1-2: the fifteenth year of Tiberius, August AD 28 to August AD 29 counted from his accession in AD 14."
+      "evidence": "Luke 3:1-2: the fifteenth year of Tiberius, August AD 28 to August AD 29 counted from his accession in AD 14.",
+      "dated_by": "rome",
+      "witnesses": [
+        {
+          "id": "pilate_stone",
+          "job": "confirm"
+        },
+        {
+          "id": "caiaphas_ossuary",
+          "job": "confirm"
+        }
+      ]
+    },
+    {
+      "n": 40,
+      "id": "anchor_40",
+      "label": "Temple \"forty-six years\" Passover",
+      "scripture": "John 2:13, 20",
+      "gregorian_year": 30,
+      "tier": "Bracketed",
+      "error": "AD 27-30",
+      "core": false,
+      "study_ref": "chronology/chronology-anchors",
+      "evidence": "John 2:13, 20: the first Passover of the ministry, after John's begins (Luke 3:1). Read as 'this sanctuary was built forty-six years ago', counted from its completion in 18/17 BC (Josephus, Antiquities 15.421), it is AD 29/30, the year this site's AD 33 needs; counted from Herod's start in 20/19 BC, AD 27/28.",
+      "dated_by": "rome"
     },
     {
       "n": 41,
@@ -1024,10 +1217,78 @@
       "gregorian_year": 33,
       "tier": "Anchored",
       "error": "0",
-      "zadok_year": 3991,
       "core": true,
       "study_ref": "chronology/chronology-anchors",
-      "evidence": "Friday 3 April AD 33, this site's date. Only two Fridays in Pilate's prefecture carry Nisan 14 -- 7 April AD 30 and 3 April AD 33 -- and the year rests on Luke 3:1 read naturally, supported by Sejanus and by Daniel 9, which excludes AD 30 on either reckoning of the decree. AD 30 stays defensible if Tiberius's fifteenth year is counted from AD 13."
+      "evidence": "Friday 3 April AD 33, this site's date. Only two Fridays in Pilate's prefecture carry Nisan 14 -- 7 April AD 30 and 3 April AD 33 -- and the year rests on Luke 3:1 read naturally, supported by Sejanus and by Daniel 9, which excludes AD 30 on either reckoning of the decree. AD 30 stays defensible if Tiberius's fifteenth year is counted from AD 13.",
+      "dated_by": "rome",
+      "witnesses": [
+        {
+          "id": "pilate_stone",
+          "job": "confirm"
+        }
+      ]
+    }
+  ],
+  "dating_roots_note": "The outside records the anchor table finally rests on, one per stretch of history, each fixed by something in the sky or by an unbroken year-by-year list. Drawn by utils/build_chronology_graphics.py; argued in chronology/chronology-anchors#outside-witnesses.",
+  "dating_roots": [
+    {
+      "id": "assyria",
+      "label": "Assyria",
+      "record": "The Assyrian eponym list",
+      "sky": "Solar eclipse, 15 June 763 BC (Bur-Sagale)",
+      "gregorian_year": -763,
+      "witnesses": [
+        "eponym_list"
+      ],
+      "carries": "Qarqar and Jehu fix the divided kingdom; the kings' reigns, counted back, reach Solomon's temple, and 1 Kings 6:1 the Exodus."
+    },
+    {
+      "id": "babylon",
+      "label": "Babylon",
+      "record": "The Babylonian Chronicle",
+      "sky": "VAT 4956: about thirty moon and planet positions, 568/567 BC",
+      "gregorian_year": -568,
+      "witnesses": [
+        "babylonian_chronicles",
+        "vat_4956"
+      ],
+      "carries": "Nebuchadnezzar's years: Carchemish, Jehoiachin, the temple burned, Ezekiel and the seventy years."
+    },
+    {
+      "id": "persia",
+      "label": "Persia",
+      "record": "Ptolemy's Canon and the Elephantine papyri",
+      "sky": "Lunar eclipses Ptolemy dates by Persian kings' years (Cambyses 7, Darius I 20 and 31)",
+      "gregorian_year": -523,
+      "witnesses": [
+        "ptolemys_canon",
+        "elephantine_papyri"
+      ],
+      "carries": "Cyrus, Darius and Artaxerxes: the second temple, Ezra and Nehemiah, and Daniel 9's starting year."
+    },
+    {
+      "id": "greece",
+      "label": "The Greeks",
+      "record": "The Babylonian astronomical diaries and the Seleucid era",
+      "sky": "Lunar eclipse, 20 September 331 BC, eleven days before Gaugamela",
+      "gregorian_year": -331,
+      "witnesses": [
+        "astronomical_diaries",
+        "first_maccabees"
+      ],
+      "carries": "Alexander, the four kingdoms and Antiochus IV: Daniel 8 and 11, the desecration and Hanukkah."
+    },
+    {
+      "id": "rome",
+      "label": "Rome",
+      "record": "The consuls' and emperors' years",
+      "sky": null,
+      "gregorian_year": -63,
+      "witnesses": [
+        "josephus",
+        "pilate_stone"
+      ],
+      "carries": "Pompey, Herod and Tiberius's fifteenth year: the Nativity bracket, John's ministry and the cross."
     }
   ],
   "genesis_markers_note": "Placed by Anno Mundi on the Masoretic chain, so their Gregorian year follows the epoch (creation 3959 BC). Derived from docs/data/genealogy/generated/mt.json and the Genesis intervals shown.",
@@ -4026,7 +4287,7 @@
       ]
     }
   ],
-  "artifacts_note": "Texts and archaeology against the biblical history: the dated entries of the catalogue in Ancient Texts and Manuscripts (scripture/ancient-texts-manuscripts.md), with that study's dates. Each stores ONE calendar (gregorian_year, plus gregorian_end for a date range). The Merneptah Stele is in `anchors` and the bullae are undated, so neither is repeated here. kind: manuscript (a copy of Scripture), inscription (stone, clay or metal), historian (an ancient writer naming Jesus or the church).",
+  "artifacts_note": "Texts and archaeology against the biblical history: the dated entries of the catalogue in Ancient Texts and Manuscripts (scripture/ancient-texts-manuscripts.md), with that study's dates. Each stores ONE calendar (gregorian_year, plus gregorian_end for a date range). The Merneptah Stele is in `anchors` and the bullae are undated, so neither is repeated here. kind: manuscript (a copy of Scripture), inscription (stone, clay or metal), historian (an ancient writer), archaeology (a dated document on papyrus). The entries with study_ref chronology/chronology-anchors are the outside witnesses that page cites; anchor_table rows name them in witnesses.",
   "artifacts": [
     {
       "id": "amarna_letters",
@@ -4037,6 +4298,36 @@
       "refs": "Joshua 10:1-5; Judges 1:21",
       "image": "/assets/img/archaeology/amarna-letter-gezer.jpg",
       "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "bubastite_portal",
+      "label": "The Bubastite Portal (Shoshenq I)",
+      "kind": "inscription",
+      "gregorian_year": -925,
+      "refs": "1 Kings 14:25-26; 2 Chronicles 12:2-9",
+      "image": "/assets/img/archaeology/bubastite-portal.jpg",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "Shoshenq I's list of conquered towns at Karnak, including towns of Judah and Israel. It carries no year; Egyptologists refine its date from the biblical synchronism."
+    },
+    {
+      "id": "eponym_list",
+      "label": "The Assyrian eponym list (Bur-Sagale eclipse)",
+      "kind": "inscription",
+      "gregorian_year": -910,
+      "gregorian_end": -649,
+      "refs": "2 Kings 15:19; 16:7; 17:3; 18:13",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "One official's name for each year, unbroken from 910 to 649 BC. The entry for Bur-Sagale's year records a solar eclipse, computable to 15 June 763 BC, which turns the whole list into BC dates."
+    },
+    {
+      "id": "kurkh_monolith",
+      "label": "The Kurkh Monolith: \"Ahab the Israelite\"",
+      "kind": "inscription",
+      "gregorian_year": -853,
+      "refs": "1 Kings 16:29; 22:1",
+      "image": "/assets/img/archaeology/kurkh-monolith.jpg",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "Shalmaneser III's account of Qarqar, his sixth year, 853 BC on the eponym list."
     },
     {
       "id": "tel_dan",
@@ -4057,6 +4348,16 @@
       "study_ref": "scripture/ancient-texts-manuscripts"
     },
     {
+      "id": "black_obelisk",
+      "label": "The Black Obelisk: \"Jehu son of Omri\"",
+      "kind": "inscription",
+      "gregorian_year": -827,
+      "refs": "2 Kings 9-10",
+      "image": "/assets/img/archaeology/black-obelisk-jehu.jpg",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "Shalmaneser III's monument shows Jehu, or his envoy, bowing with tribute in Shalmaneser's 18th year, 841 BC."
+    },
+    {
       "id": "siloam_inscription",
       "label": "The Siloam Inscription",
       "kind": "inscription",
@@ -4073,6 +4374,16 @@
       "refs": "2 Kings 18:13-16; 19:35-36",
       "image": "/assets/img/archaeology/taylor-prism.jpg",
       "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "astronomical_diaries",
+      "label": "The Babylonian astronomical diaries",
+      "kind": "inscription",
+      "gregorian_year": -652,
+      "gregorian_end": -61,
+      "refs": "Daniel 8:5-8, 21-22",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "Night-by-night records of the sky with the news of the day. The diary for 331 BC records a lunar eclipse eleven days before Darius's defeat at Gaugamela; the diary for 323 BC, 'the king died' on 29 Aiaru, 11 June."
     },
     {
       "id": "babylonian_chronicles",
@@ -4104,6 +4415,15 @@
       "study_ref": "scripture/ancient-texts-manuscripts"
     },
     {
+      "id": "vat_4956",
+      "label": "VAT 4956 (Nebuchadnezzar's 37th year)",
+      "kind": "inscription",
+      "gregorian_year": -568,
+      "refs": "2 Kings 25:8; Jeremiah 52:12",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "An astronomical diary, dated here by the year it records: about thirty positions of the moon and planets that fit 568/567 BC and no other year, putting Nebuchadnezzar's accession in 605 BC."
+    },
+    {
       "id": "cyrus_cylinder",
       "label": "The Cyrus Cylinder",
       "kind": "inscription",
@@ -4111,6 +4431,16 @@
       "refs": "Isaiah 44:28; 45:1-4; Ezra 1:1-4",
       "image": "/assets/img/archaeology/cyrus-cylinder.jpg",
       "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "elephantine_papyri",
+      "label": "The Elephantine papyri",
+      "kind": "archaeology",
+      "gregorian_year": -495,
+      "gregorian_end": -399,
+      "refs": "Ezra 7:7-8; Nehemiah 2:1, 10",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "Letters and contracts of a Jewish garrison in Egypt, some dated in both the Egyptian and the Jewish calendars, which fix Artaxerxes I's regnal years and name Sanballat's sons in 407 BC."
     },
     {
       "id": "dead_sea_scrolls",
@@ -4121,6 +4451,24 @@
       "refs": "Isaiah 53; Daniel 9:24-27; Psalm 22",
       "image": "/assets/img/archaeology/dead-sea-scrolls-isaiah-53.jpg",
       "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "second_maccabees",
+      "label": "2 Maccabees",
+      "kind": "historian",
+      "gregorian_year": -124,
+      "refs": "Daniel 11:22",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "The sale of the high priesthood to Jason (175/174 BC) and to Menelaus three years later, and the murder of Onias III at Daphne (4:7-34)."
+    },
+    {
+      "id": "first_maccabees",
+      "label": "1 Maccabees (Seleucid-era dates)",
+      "kind": "historian",
+      "gregorian_year": -100,
+      "refs": "Daniel 8:11-14; 11:31",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "Dates the desecration (year 145, December 167 BC), the rededication (year 148, December 164 BC), the siege of Beth-zur in a sabbatical year and Simon's independence (year 170) by the Seleucid era, which begins in 312/311 BC."
     },
     {
       "id": "caiaphas_ossuary",
@@ -4143,6 +4491,15 @@
       "study_ref": "scripture/ancient-texts-manuscripts"
     },
     {
+      "id": "gallio_inscription",
+      "label": "The Gallio inscription (Delphi)",
+      "kind": "inscription",
+      "gregorian_year": 52,
+      "refs": "Acts 18:12",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "A letter of Claudius naming Gallio proconsul of Achaia, dated by Claudius's 26th acclamation as emperor, AD 52: Gallio's year is 51/52."
+    },
+    {
       "id": "josephus",
       "label": "Josephus, Antiquities",
       "kind": "historian",
@@ -4150,6 +4507,16 @@
       "gregorian_end": 94,
       "refs": "Matthew 14:1-12; Galatians 1:19",
       "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "josephus_apion",
+      "label": "Josephus, Against Apion (Tyre's annals)",
+      "kind": "historian",
+      "gregorian_year": 94,
+      "gregorian_end": 100,
+      "refs": "1 Kings 5:1-12",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "Quotes Menander's Tyrian annals: Solomon's temple begun in Hiram's twelfth year, 143 years and eight months before Carthage was founded (1.17-18)."
     },
     {
       "id": "pliny",
@@ -4185,6 +4552,15 @@
       "refs": "John 18:31-33, 37-38",
       "image": "/assets/img/archaeology/p52.jpg",
       "study_ref": "scripture/ancient-texts-manuscripts"
+    },
+    {
+      "id": "ptolemys_canon",
+      "label": "Ptolemy's Canon of kings",
+      "kind": "historian",
+      "gregorian_year": 150,
+      "refs": "Ezra 4:24; 7:7; Nehemiah 2:1",
+      "study_ref": "chronology/chronology-anchors",
+      "note": "The astronomer Claudius Ptolemy's list of reigns from Nabonassar (747 BC) through Babylon, Persia, Alexander and the Ptolemies to Rome, tied to eclipses he dates by the kings' years."
     },
     {
       "id": "p66",
@@ -4266,7 +4642,7 @@
         "anchor_28",
         "anchor_29",
         "anchor_36",
-        "anchor_39"
+        "anchor_40"
       ],
       "refs": "1 Kings 6:1; 2 Kings 25:9; Ezra 3:10; 6:15; Daniel 11:31; John 2:19-21",
       "note": "Built, burned, rebuilt, defiled, cleansed and rebuilt again; Jesus spoke of the temple of His body (John 2:21)."
@@ -4283,6 +4659,57 @@
       "refs": "Daniel 9:25-26; Nehemiah 2:1-8",
       "note": "From the decree to restore Jerusalem to the Anointed One cut off, counted in years of 360 days (Hoehner).",
       "span_label": "483 years of 360 days (476 of ours)"
+    },
+    {
+      "id": "sabbatical_cycle",
+      "label": "The sabbatical cycle",
+      "kind": "line",
+      "certainty": "site-reading",
+      "events": [
+        "anchor_30",
+        "anchor_32",
+        "anchor_35"
+      ],
+      "refs": "Leviticus 25:1-7; 1 Maccabees 6:49, 53",
+      "note": "Three sieges eased by a fallow year, 28 and 98 years apart: one unbroken seven-year cycle. The years are Wacholder's; Zuckermann's fall a year earlier."
+    },
+    {
+      "id": "seventy_years_exile",
+      "label": "Jeremiah's seventy years",
+      "kind": "arc",
+      "certainty": "stated",
+      "events": [
+        "anchor_10",
+        "anchor_16"
+      ],
+      "refs": "Jeremiah 25:11-12; Daniel 9:2; 2 Chronicles 36:21",
+      "note": "From the first deportation (605 BC) to the return and the temple's foundation (536 BC), counted inclusively.",
+      "span_label": "counted inclusively"
+    },
+    {
+      "id": "seventy_years_temple",
+      "label": "Seventy years of indignation",
+      "kind": "arc",
+      "certainty": "site-reading",
+      "events": [
+        "anchor_12",
+        "anchor_18"
+      ],
+      "refs": "Zechariah 1:12; 7:5",
+      "note": "From the temple burned (586 BC) to the temple finished (515 BC). Zechariah, in 519 and 518 BC, already calls the indignation 'these seventy years'."
+    },
+    {
+      "id": "daniel_8_14_days",
+      "label": "2,300 evenings and mornings",
+      "kind": "arc",
+      "certainty": "contested",
+      "events": [
+        "anchor_27",
+        "anchor_29"
+      ],
+      "refs": "Daniel 8:14",
+      "note": "Read as 2,300 days, the span runs back from the rededication to August 170 BC, near Onias III's murder. Read as 2,300 evening and morning sacrifices it is 1,150 days, back to October 167 BC.",
+      "span_label": "as days, on one reading"
     }
   ]
 }

@@ -16,6 +16,7 @@ draft: false
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 19:28-30 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 19:28-30
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 19:23-24
+- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 19:12
 - [Faith](../../salvation/faith.md) — 19:30
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 19:31
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 19:35

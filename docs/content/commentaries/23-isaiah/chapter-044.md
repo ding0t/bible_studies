@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 44:28
 - [Idolatry](../../sin/idolatry.md) — 44:9-20
 - [Sin and Sorcery](../../sin/sorcery.md) — 44:24-26
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 44:6

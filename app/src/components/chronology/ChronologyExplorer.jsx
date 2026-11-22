@@ -48,7 +48,7 @@ const VIEWS = [
 // Timeline. A link that names a period or a person was shared from the Timeline before the Chart
 // existed, and still opens there.
 function defaultView(fromHash) {
-  if (fromHash.period || fromHash.person) return 'timeline';
+  if (fromHash.period || fromHash.person || fromHash.event) return 'timeline';
   if (typeof window === 'undefined' || !window.matchMedia) return 'timeline';
   return window.matchMedia('(min-width: 900px)').matches ? 'chart' : 'timeline';
 }
@@ -270,6 +270,16 @@ export default function ChronologyExplorer({
       note: e.note ?? e.description,
     });
   };
+
+  // #event=<id> opens one event's panel, so a study can link a row of its table to the timeline.
+  // Without a period in the link, the view centres on the event.
+  useEffect(() => {
+    const e = fromHash.event && loadEvents().find((x) => x.id === fromHash.event);
+    if (!e || e.am == null) return;
+    if (!fromHash.period) showRange(e.am - 40, e.am + 40);
+    selectEvent(e);
+    // Once, on arrival: the hash is read a single time, like the period and person.
+  }, []);
 
   const input = {
     width: '7rem',

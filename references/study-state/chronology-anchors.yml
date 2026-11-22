@@ -451,6 +451,23 @@ chronology_audit_2026-10-08:
     - "Salmon -> Boaz (258 years) and Zerubbabel -> Abiud: telescoped genealogies, documented in four-hundred-and-eighty-years.md and on the events."
 
 evidence:
+  - {id: ez40-1-lxx, what: "Brenton LXX Ezekiel 40:1 reads 'ἐν τῷ πρώτῳ μηνὶ, δεκάτῃ τοῦ μηνὸς' (the Nisan reading)", tool: bible_verse, args: {book: Ezek, chapter: 40, verse: 1, translation: ebible-grcbrent}, expect_contains: "πρώτῳ μηνὶ", checked: 2026-11-22}
+  - {id: rosh-hashanah-once, what: "רֹאשׁ followed within two words by שָׁנָה occurs only at Ezekiel 40:1 in macula-hebrew-wlc (out/bible-text.db, morphology self-join on 7218 and 8141)", tool: manual, checked: 2026-11-22}
+  - {id: arakhin-12, what: "b. Arakhin 12a reads Ezekiel 40:1's 'beginning of the year, tenth of the month' as the jubilee beginning on Yom Kippur; 12b cites seventeen jubilees from entry to the first destruction, counted from fourteen years after entry", tool: manual, args: {source: "references/build/sefaria.py, Talmud/Bavli/Seder Kodashim, Arakhin, English, William Davidson Edition - English (CC-BY-NC, paraphrased only)"}, checked: 2026-11-22}
+  - {id: 2macc-onias, what: "2 Maccabees 4:7-8 Jason buys the priesthood at Antiochus IV's accession; 4:23-24 Menelaus three years later; 4:33-34 Onias killed at Daphne; 10:3 'after two years'; 10:5 same day of Casleu", tool: manual, args: {source: "references/open-data/scrollmapper-bible-databases-deuterocanonical/sources/en/2-maccabees/2-maccabees.md"}, checked: 2026-11-22}
+  - {id: ant-13-234, what: "Josephus Ant. 13.234 is Hyrcanus's siege of Ptolemy at Dagon, lapsing in the sabbatical year; Antiochus VII's siege follows at 13.236", tool: manual, args: {source: "lexundria.com Whiston text of Ant. 13.230-253"}, checked: 2026-11-22}
+  - {id: young-jets-2024, what: "Young, JETS 67.3-4 (2024): Ezekiel 40:1 = 10 Tishri 574 BC, seventeenth jubilee from a 1406 BC entry", tool: manual, args: {source: "galaxie.com abstracts and rcyoung.org, via web search; the articles themselves not read"}, checked: 2026-11-22}
+  - {id: wacholder-zuckermann, what: "Herod's siege sabbatical 37/36 BC (Wacholder) or 38/37 (Zuckermann); pre-AD 70 sabbatical 69/70 (Wacholder) or 68/69 (Zuckermann)", tool: manual, args: {source: "en.wikipedia.org/wiki/Historical_Sabbatical_Years (redirects to Shmita), read in summary only; original publications not read"}, checked: 2026-11-22}
+  - {id: lk2-2-esvsb, what: "ESV SB on Luke 2:2: Quirinius's census AD 6 (Acts 5:37); solutions: prōtos as 'before' (ESV footnote), administrator, two terms (no confirming evidence)", tool: study_note, args: {book: Luke, chapter: 2, verse: 2, work_id: esv-study-bible}, expect_contains: "grammatically possible", checked: 2026-11-22}
+  - {id: gal1-18-esvsb, what: "ESV SB Galatians 1:18: conversion A.D. 33 'an approximate date', visit c. A.D. 36", tool: study_note, args: {book: Gal, chapter: 1, verse: 18, work_id: esv-study-bible}, expect_contains: "an approximate date", checked: 2026-11-22}
+  - {id: zech1-12-esv, what: "Zechariah 1:12 'these seventy years'", tool: study_verse, args: {book: Zech, chapter: 1, verse: 12, work_id: esv-study-bible}, expect_contains: "angry these seventy years", checked: 2026-11-22}
+  - {id: zech7-5-esv, what: "Zechariah 7:5 'for these seventy years'", tool: study_verse, args: {book: Zech, chapter: 7, verse: 5, work_id: esv-study-bible}, expect_contains: "for these seventy years", checked: 2026-11-22}
+  - {id: jer52-29-esv, what: "Jeremiah 52:29 'eighteenth year'", tool: study_verse, args: {book: Jer, chapter: 52, verse: 29, work_id: esv-study-bible}, expect_contains: "in the eighteenth year of Nebuchadnezzar", checked: 2026-11-22}
+  - {id: dan1-1-esv, what: "Daniel 1:1 'third year of the reign of Jehoiakim'", tool: study_verse, args: {book: Dan, chapter: 1, verse: 1, work_id: esv-study-bible}, expect_contains: "In the third year of the reign of Jehoiakim", checked: 2026-11-22}
+  - {id: neh2-8-esv, what: "Nehemiah 2:8 timber for the gates and the wall", tool: study_verse, args: {book: Neh, chapter: 2, verse: 8, work_id: esv-study-bible}, expect_contains: "for the gates of the fortress of the temple, and for the wall of the city", checked: 2026-11-22}
+  - {id: dan9-27-esv, what: "Daniel 9:27 'for half of the week'", tool: study_verse, args: {book: Dan, chapter: 9, verse: 27, work_id: esv-study-bible}, expect_contains: "for half of the week he shall put an end to sacrifice and offering", checked: 2026-11-22}
+  - {id: isa44-28-esv, what: "Isaiah 44:28 Cyrus my shepherd", tool: study_verse, args: {book: Isa, chapter: 44, verse: 28, work_id: esv-study-bible}, expect_contains: "He is my shepherd, and he shall fulfill all my purpose", checked: 2026-11-22}
+  - {id: jer34-7-esv, what: "Jeremiah 34:7 Lachish and Azekah", tool: study_verse, args: {book: Jer, chapter: 34, verse: 7, work_id: esv-study-bible}, expect_contains: "for these were the only fortified cities of Judah that remained", checked: 2026-11-22}
   - {id: ez40-1-esv, what: "Ezekiel 40:1 block quote; 'beginning of the year', no month named", tool: study_verse, args: {book: Ezek, chapter: 40, verse: 1, work_id: esv-study-bible}, expect_contains: "In the twenty-fifth year of our exile, at the beginning of the year, on the tenth day of the month", checked: 2026-10-01}
   - {id: ez40-1-esvsb, what: "ESV SB dates Ezekiel 40:1 to April 573 (Nisan, not the Day of Atonement)", tool: study_note, args: {book: Ezek, chapter: 40, verse: 1, work_id: esv-study-bible}, expect_contains: "April 573 B.C.", checked: 2026-10-01}
   - {id: dan8-20-esv, what: "Daniel 8:20 block quote", tool: study_verse, args: {book: Dan, chapter: 8, verse: 20, work_id: esv-study-bible}, expect_contains: "these are the kings of Media and Persia", checked: 2026-10-01}
@@ -490,9 +507,13 @@ evidence:
   - {id: acts18-12-esvsb, what: "Gallio 51-52", tool: study_note, args: {book: Acts, chapter: 18, verse: 12, work_id: esv-study-bible}, expect_contains: "Gallio served in this role A.D. 51", checked: 2026-10-01}
   - {id: 2chr36-21-esv, what: "2 Chronicles 36:21 seventy years of Sabbath rest", tool: study_verse, args: {book: 2Chr, chapter: 36, verse: 21, work_id: esv-study-bible}, expect_contains: "to fulfill seventy years", checked: 2026-10-01}
 
-last_updated: "2026-11-03"
-word_budget: 5200
+last_updated: "2026-11-22"
+word_budget: 7400
 word_budget_reason: >
+  Raised 2026-11-22 at the author's direction ("no need to reduce words on this one - it is about
+  accuracy"): the review's fact additions (Ezekiel 40:1's jubilee reading, Quirinius, Herod's eclipse,
+  the 457 BC decree route, the accession convention inside Scripture, the seventy years in Zechariah,
+  and outside witnesses from 586 BC to AD 52) were kept whole. Before that:
   The "Outside witnesses" section (2026-10-08) adds about 1,300 words of reference material: one
   short entry per inscription, most with a picture. It is consulted entry by entry more than read
   straight through, and splitting it off would separate each record from the table row it supports.
@@ -511,3 +532,50 @@ outside_witnesses_2026-10-08:
     CC BY-SA 3.0). The rest are reused from scripture/ancient-texts-manuscripts.md, which carries
     their credits.
 
+review_2026-11-22:
+  reviewer: "review-bible-study skill, full pass; findings presented to the author before any fix"
+  checked: >
+    Evidence replay 38/38 ok. ESV re-queried: 1 Kgs 14:25, 2 Kgs 1:1, 18:13, Dan 1:1, Jer 46:2,
+    52:12, 52:29, Zech 1:7, 1:12, 7:1, 7:5, Lev 26:34, Luke 2:2, 3:1. Zadok years recomputed for all
+    41 rows (no mismatch). Julian weekdays: 7 Apr AD 30 Fri, 3 Apr AD 33 Fri, 6 Apr AD 32 Sun,
+    30 Mar AD 33 Mon; spans 173,882 (Anderson) and 173,884 (Hoehner), matching prophecy-events-times.
+    2 Maccabees 4:7-8, 4:23-24, 4:33-34, 10:3, 10:5 and 1 Maccabees 1:54, 1:59, 4:52, 4:54, 6:20,
+    6:49, 6:53, 13:41-42 read in the scrollmapper deuterocanonical source. Validator clean for this file.
+  critical:
+    - "Entry 39 (first Passover, AD 28) sits before entry 40 (John's ministry, AD 29): impossible order, and against the page's own Passover count (first Passover AD 30 on the AD 33 verdict). Also in chronology.json anchor_39."
+    - "Entry 32: Josephus Ant. 13.234 is Hyrcanus's siege of Ptolemy at Dagon, not Antiochus VII's siege of Jerusalem (web: lexundria/CCEL Whiston text). Also chronology.json anchor_32."
+    - "Entry 27 and the 2,300-day paragraph: Onias III was deposed in 175/174 (Jason, 2 Macc 4:7-10); 171/170 is Menelaus and Onias's murder (4:23-34). 2,300 days back from 25 Kislev 164 lands in Aug 170 BC. Sibling what-literary-criticism-declares.md:405 repeats the error."
+    - "Anderson's 6 April AD 32 was, for him, the Triumphal Entry itself (a Sunday), not 'days before' it; prophecy-events-times.md says so."
+  moderate:
+    - "Key Takeaways and Verdict still say 444 BC follows from the AD 33 choice; superseded by the 2026-11-03 decision (444 rests on Nehemiah 1:1 and 2:1)."
+    - "'Two candidate decrees' is one decree at two dates; the 457 BC Ezra 7 route (+483 solar years = AD 27) is undisclosed, so 'Daniel 9 excludes AD 30' holds only on Nehemiah's decree and 360-day years."
+    - "Ezekiel 40:1: b. Arakhin 12a reads it as the start of a jubilee; Rodger C. Young (JETS 67.3 and 67.4, 2024) dates it 10 Tishri 574 BC and counts 17 jubilees back to 1406 (Exodus 1446). Contested, advocacy source; not yet on the page."
+    - "Luke 2:2 Quirinius never discussed though Luke 2 is cited for the Nativity bracket."
+    - "Sabbatical cycle: the page's 135/134 and 37/36 BC and its AD 27/34 are Wacholder's; Zuckermann's are a year earlier (136/135, 38/37). Beth-zur's placement differs between sources. From web summaries, not the original publications."
+    - "Outside witnesses stop at 586 BC; none shown for the 539-37 BC Fixed entries (Nabonidus Chronicle, Cyrus Cylinder, Ptolemy's Canon, the 331 BC eclipse diary, Alexander's death diary, Seleucid era, Herod's eclipse Ant. 17.167, Pilate Stone)."
+  minor: "Shishak +/-3 tighter than its +/-5 source; 'three years to the day' is not 1,095 days on a lunisolar calendar, and 2 Macc 10:3 says two years; '120 cycles' is creation to today; Zech 1:12, 7:5 and Lev 26:34 missing from the seventy years; Dan 1:1 vs Jer 46:2 accession case missing; 'its width of this bracket'; two H3s misplaced under the crucifixion section; ESV SB Gal 1:18 gives conversion c. AD 33, visit c. 36."
+  size: "7,401 raw words against word_budget 5,200. Recommended fork candidate: 'Settling the crucifixion year' (simplify-bible-study)."
+  status: "applied 2026-11-22 (author: go ahead with your suggestion, no need to reduce words)"
+  applied:
+    - "All four Critical and all six Moderate findings fixed on the page and in docs/data/chronology.json together. Rows 39 and 40 swapped ids everywhere (dating-texts.json, fulfilled-prophecy.toml, the temple thread) so the numbers run in date order: 39 John's ministry AD 29, 40 the first Passover AD 30."
+    - "Minor findings fixed: Shishak now +/-5; the lunisolar three years (about 1,063 or 1,092 days) and 2 Maccabees 10:3's 'two years'; the cycle drift now about 80 years by the cross and 120 by today; Zechariah 1:12, 7:5 and Leviticus 26:34; Daniel 1:1 with Jeremiah 46:2 and Jeremiah 52:12 with 52:29; the ±5 and sabbatical sections moved under a new H2 'What the rail cannot do'; ESV SB Galatians 1:18 dates aligned to its note."
+    - "Not forked: the author chose accuracy over length; word_budget raised to 7400."
+  am_not_zadok: >
+    The page's column and the site's prose now say AM (anno mundi), as the Prophetic Timeline already
+    printed. Reason given to the author: the count is ordinary solar years from 3959 BC, while 'Zadok'
+    names a 364-day calendar, whose years the count is not made of. Changed on chronology-anchors,
+    genealogy-times, world-population, faq, chronology/index and zadok-calendar (which now says the
+    site called it a Zadok year until November 2026). The internal field names zadok_year_* in the
+    genealogy data and code were left alone (442 occurrences, never shown to a reader).
+  structured_data: >
+    anchor_table rows lost the redundant zadok_year (derived from gregorian_year; the test now checks
+    the page's AM column against the derivation) and gained dated_by (one of five dating_roots) and
+    witnesses [{id, job}] with the page's five jobs. Twelve outside witnesses added to artifacts with
+    study_ref chronology/chronology-anchors. Four threads added (sabbatical_cycle, seventy_years_exile,
+    seventy_years_temple, daniel_8_14_days). An ezekiel_jubilee arc (1406 BC to Ezekiel 40:1) was
+    drawn and dropped: on the chart it crossed a whole sheet of the Scripture lane, and the reading is
+    contested; the page argues it in prose. chronology.test.js checks rows in date
+    order, every dated_by and witness id, and every root's records. The timeline's panel shows an
+    anchor's error bar, what dates it and its witnesses; #event=<id> opens one event's panel, and
+    every row of the page's table links there. utils/build_chronology_graphics.py draws
+    what-dates-what.svg and the-rail.svg from the same data.
