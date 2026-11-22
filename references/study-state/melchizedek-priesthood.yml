@@ -988,4 +988,5 @@ graphics_review_fixes_2026-11-22:
     - "study sentence: 'Hebrews introduces Jesus as high priest at Hebrews 2:17 and argues His priesthood through Hebrews 10:18.'"
     - "all four alt texts regenerated to match the plates and --alt."
   verified: "ESV via study_verse: Genesis 15:1, 18; 49:10; Exodus 12:40-41; 28:1; 2 Chronicles 26:16-19. build_comics --verify: 5 ok. All comics rebuilt: only this comic's SVG changed. validate: no warning for this study (4,9xx words under 4,950). mkdocs build --strict passes."
-  open: "Key Takeaways still says 'The Greek ἀφωμοιωμένος ... is passive' -- same middle/passive point as the plate; left for the author."
+  open_closed_2026-11-22: "Key Takeaways now reads 'usually read as passive', matching the plate (author approved)."
+  checklist: "The review's comic and diagram checks are saved as .claude/skills/review-bible-study/graphics-checks.md."

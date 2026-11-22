@@ -34,7 +34,7 @@ death notice. No father, no mother, no tribe.
 
 **Type.** Melchizedek is a **τύπος** (*typos*, G5179) of Christ's priesthood. Hebrews 7:3 says he
 is "resembling the Son of God" (ESV). The Greek **ἀφωμοιωμένος** (*aphōmoiōmenos*, G871) is
-passive: he was "made like" the Son. The likeness has two marks: he holds his
+usually read as passive: he was "made like" the Son. The likeness has two marks: he holds his
 priesthood with no inherited claim to it, and Scripture records no end to it. The likeness runs
 from the Son back to Melchizedek. The Son is the original, and Genesis drew His outline first.
 
