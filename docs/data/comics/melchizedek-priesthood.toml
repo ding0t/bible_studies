@@ -1,0 +1,115 @@
+# One-minute comic for docs/content/jesus/melchizedek-priesthood.md.
+# Drawn by: python3 utils/build_comics.py melchizedek-priesthood
+# ESV wording verified against study-notes.db (esv-study-bible), 2026-11-22.
+#
+# The study's thesis is an oath and its keeping: God swore Jesus a priest forever in Melchizedek's
+# order, and Jesus holds that priesthood now, so you can draw near. Hebrews 7 argues it in the order
+# of the texts, so the comic is a sequence: before the Law, under it, later than it (Hebrews 7:28),
+# fulfilled, and you.
+# Panel 1, before the Law: Genesis 14:18-20. "The King's Valley" (14:17) is drawn as hills. The
+# bread and wine are the loaves and the plain cup (14:18), held out at the waist: Genesis gives
+# no gesture, and Hebrews 7 draws nothing from the bread and wine. The tenth of everything (14:20) is two
+# bundles of the recovered spoil (14:16) set down before him. Abram has no recorded words to
+# Melchizedek, so he has none. The aside is what Genesis leaves out, which Hebrews 7:3 builds on.
+# Panel 2, under the Law: Hebrews 7:23. Priests in the generic white; the first is faded, the one
+# "prevented by death". The temple scene is atmosphere for the Levitical priesthood; Hebrews argues
+# from the tent (8:5; 9:1-8), and the priests served at both.
+# Panel 3, later than the Law: Psalm 110:4, a psalm of David (110:1 superscription; Matthew 22:43).
+# The caption's "later than the Law" is Hebrews 7:28; the oath is the LORD's (110:4; Hebrews 7:21),
+# so David writes it down and reports it.
+# Panel 4, fulfilled: Hebrews 7:24 and 8:1. Jesus seated at the throne's height, on the `seat` prop
+# at its right hand, "at the right hand of the throne of the Majesty in heaven" (Hebrews 8:1);
+# "risen" is the "indestructible life" of 7:16. 7:25 and 7:27 are in the closing point.
+# Panel 5, you: Hebrews 4:16, the study's Be Transformed attitude.
+
+title = "A Priest Forever"
+subtitle = "Melchizedek, the oath, and the priest who never dies"
+layout = [[300, 1], [300, 1, 1], [300, 3, 2]]
+note = "Genesis does not describe Melchizedek's dress, so his colours are a fixed choice. It records no words of Abram to him, so the comic gives him none."
+point = "God swore that Jesus would be a priest forever, and He is: risen, seated in heaven, His one sacrifice finished. So draw near to God through Him with confidence (Hebrews 7:27, 25; 4:16)."
+
+[[panel]]
+ref = "Genesis 14:18-20"
+scene = "hills"
+sky = "day"
+caption = "Abram returns from battle. Melchizedek, king of Salem and priest of God Most High, meets him."
+caption_w = 300
+aside = "Genesis records no father, mother, birth or death for him."
+aside_w = 230
+shows = "Melchizedek, in a wine-coloured tunic, holding out a cup of wine with loaves beside him as he blesses Abram; two bundles of spoil set down between them"
+props = [
+  { what = "loaf", x = 0.76, x2 = 0.82, n = 2, s = 1.0 },
+  { what = "load", x = 0.50, x2 = 0.56, n = 2, s = 0.8 },
+]
+cast = [
+  { who = "abram", x = 0.34, face = "right", pose = "fold", tag = "Abram" },
+  { who = "melchizedek", x = 0.66, face = "left", pose = "offer", holds = "supper_cup", tag = "Melchizedek" },
+]
+say = [
+  { by = "melchizedek", text = "Blessed be Abram by *God Most High*, Possessor of heaven and earth;", source = "esv", at = [0.84, 0.36], w = 190 },
+]
+
+[[panel]]
+ref = "Hebrews 7:23"
+scene = "temple"
+sky = "day"
+caption = "Then the Law: priests from Levi, one after another."
+caption_w = 170
+shows = "a line of priests in white; the first is fading away"
+cast = [
+  { who = "priest", id = "gone", name = "a priest who has died", x = 0.10, face = "right", pose = "fold", look = "faded", s = 0.8 },
+  { who = "priest", id = "priests", name = "the priests who followed", n = 3, x = 0.24, x2 = 0.44, face = "right", pose = ["fold", "hold", "stand"], s = 0.8 },
+]
+say = [
+  { by = "hebrews", name = "Hebrews", from = [1.05, 1.0], style = "text", text = "The former priests were many in number, because they were *prevented by death* from continuing in office,", source = "esv", at = [0.75, 0.38], w = 160 },
+]
+
+[[panel]]
+ref = "Psalm 110:1-4"
+scene = "room"
+sky = "day"
+caption = "Later than the Law, David writes down God’s oath."
+caption_w = 220
+shows = "David seated with a scroll on his knee, writing"
+cast = [
+  { who = "david", x = 0.20, face = "right", stance = "sit", pose = "hold", holds = "scroll", tag = "David" },
+]
+say = [
+  { by = "david", text = "The LORD has sworn and will not change his mind, “You are *a priest forever* after the order of Melchizedek.”", source = "esv", at = [0.66, 0.42], w = 180 },
+]
+
+[[panel]]
+ref = "Hebrews 7:24; 8:1"
+scene = "vista"
+horizon = 0.66
+sky = "dawn"
+grade = "warm"
+caption = "Jesus, risen, seated at God’s right hand."
+caption_w = 230
+burst = { on = "jesus", color = "gold" }
+shows = "the risen Jesus seated at the right hand of a throne of light, at its height, gold light streaming toward Him"
+props = [
+  { what = "throne", x = 0.82, s = 1.0 },
+  { what = "seat", x = 0.56, s = 1.0 },
+]
+cast = [
+  { who = "jesus", x = 0.56, face = "left", stance = "sit", pose = "open", dy = -0.156 },
+]
+say = [
+  { by = "hebrews", name = "Hebrews", from = [1.05, 1.0], style = "text", text = "he holds his priesthood permanently, because he *continues forever*.", source = "esv", at = [0.21, 0.42], w = 160 },
+]
+
+[[panel]]
+ref = "Hebrews 4:16"
+scene = "room"
+sky = "night"
+caption = "So you can come to God through Him."
+caption_w = 200
+shows = "a woman and a man kneeling in prayer at night"
+cast = [
+  { who = "woman", id = "w", name = "a believer praying", x = 0.18, face = "right", stance = "kneel", pose = "fold", tone = 1 },
+  { who = "man", id = "m", name = "a believer praying", x = 0.38, face = "right", stance = "kneel", pose = "look_up", tone = 2 },
+]
+say = [
+  { by = "hebrews", name = "Hebrews", from = [1.05, 1.0], style = "text", text = "Let us then *with confidence* draw near to the throne of grace,", source = "esv", at = [0.72, 0.42], w = 124 },
+]

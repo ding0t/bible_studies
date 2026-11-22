@@ -665,7 +665,7 @@ review_2026-08-02_fixes:
     before these fixes (proverbs commentary page, homepage frontmatter) -- nothing new introduced.
   status: fixes applied, not yet committed -- awaiting user instruction on committing this round.
 
-word_budget: 4900  # raised 2026-10-02 -- see simplify_2026-10-02.budget_reason
+word_budget: 4950  # raised 2026-10-02 (4900) and 2026-11-22 -- see simplify_2026-10-02.budget_reason and fixes_2026-11-22
 
 simplify_2026-09-26:
   words_before: 6672
@@ -861,3 +861,131 @@ simplify_2026-10-02:
     - old: '2. He was the Son of God appearing before the incarnation. ... the one he resembles. Hebrews 7:4 calls him "this man."'
       new: "(final sentence deleted; reading 3 keeps Hebrews 7:4)"
   verify: "Sentence diff against the pre-simplify copy (HEAD is the pre-rewrite text, so --verify-against HEAD is not meaningful here): added sentences are only the shortened ones above, plus two splitter artefacts where deleted paragraphs joined neighbours. validate: no warning for this file (4861 <= 4900). mkdocs build --strict passes."
+
+graphics_2026-11-22:
+  why: "Author: review like bride-of-christ; a comic and diagrams for complex topics, then a read pass. Study within budget (no Check 23 warning; simplified 2026-10-02), so no simplify pass."
+  comic: "docs/data/comics/melchizedek-priesthood.toml -> assets/img/comics/melchizedek-priesthood.svg, embedded after the thesis. Five beats: Genesis 14:18-20 (before the Law), Hebrews 7:23 (under it), Psalm 110:4 (after it), Hebrews 7:24 (fulfilled), Hebrews 4:16 (you). Every bubble passes build_comics.py --verify against the ESV. New reserved figures melchizedek and abram in utils/lib/comic.py FIGURES and cast.md."
+  plates:
+    - "two-orders.svg (relationship): Levi's altar / Judah's throne (Numbers 3:10; Hebrews 7:14; 2 Chronicles 26:16-21; Hebrews 8:4), God's oath (Psalm 110:4), then six rows Aaron vs Melchizedek in Hebrews' words (7:11, 16, 20-24, 27; 8:2, 5; 7:22). Embedded at the end of 'An order is the basis of a priesthood'."
+    - "oath-came-later.svg (sequence): Genesis 14 + Levi in Abraham's loins (Hebrews 7:7, 9-10; Exodus 6:16-20), Galatians 3:17's 430 years as the only counted span, Sinai, Psalm 110 (Hebrews 7:28), Jesus (Hebrews 6:20; 8:1; 7:24). Marked not to scale. Embedded after 'The oath came later'."
+    - "made-like.svg (relationship): sanctuary column (Hebrews 8:2, 5; 9:24; Exodus 25:40) beside priest column (Hebrews 1:2; 7:3, 15); the die/coin reading of Melchizedek dashed as the study's reading; Hebrews 2:17 footer; Colossians 2:17. Embedded after 'Struck from the die'."
+  generator: "utils/build_melchizedek_graphics.py"
+  verified: "ESV via study_verse: Genesis 14:13-20; 12:4; 13:2-3; 21:3; 25:26; 29:34; Exodus 6:16-20; 25:40; Numbers 3:10; Judges 8:26; Ezra 2:62; Psalm 110:1-4; Galatians 3:17; Colossians 2:17; Hebrews 1:2; 2:17; 4:14-16; 6:20; 7:1-28; 8:1-5; 9:24. validate: no warning for this study."
+
+read_2026-11-22:
+  scope: "Stranger-reader pass after graphics_2026-11-22 (comic + three plates embedded). Headings and placement only; no sentence changed."
+  sections: "41 -> 43"
+  median_section_words: "171 -> 163"
+  sections_over_400: "2 -> 1 (7:20-28 at 588 and 9:24-10:18 at 425 -> the sanctuary section at 529). Image alt text counts as prose in study_structure.py and Check 21: the 7:20-28 section was 588 measured (about 380 of real prose) once oath-came-later.svg went in, 12 words short of the deploy-failing error."
+  renamed:
+    - old: "### Hebrews 8:1-5: the true sanctuary"
+      new: "### Hebrews 8:1-9:24: the true sanctuary and its copies"
+    - old: "### Hebrews 9:24-10:18: one sacrifice, once for all"
+      new: "### Hebrews 9:25-10:18: one sacrifice, once for all"
+  added_headings:
+    - "#### Hebrews 7:20-25: sworn in, and permanent (under the unchanged ### Hebrews 7:20-28; holds Sworn in, the 7:22-25 quote, Guarantor, Permanent)"
+    - "#### Hebrews 7:26-28: once for all, and the oath came later (holds Once for all, The oath came later and oath-came-later.svg). #### keeps chapter 7's three-part ### shape (man, order, oath) that the Study outline describes."
+  moved:
+    - "'Struck from the die' paragraph (antitypos, Hebrews 9:24) and made-like.svg, from the head of the 9:24-10:18 section to the end of the sanctuary section, after 'Copy and shadow'. The three copy words (hypodeigma, skia, antitypos) now sit together, and the chart closes the sanctuary-and-likeness thread before the sacrifice section begins."
+  images_kept_in_place:
+    - "Comic after the thesis: matches the corpus convention (first-take-the-log-out, through-a-glass-darkly)."
+    - "two-orders.svg at the end of 'An order is the basis of a priesthood': its rows answer the section's two questions (what makes him a priest, how long he serves), at the point where the order is defined."
+    - "oath-came-later.svg after 'The oath came later' (Hebrews 7:28), the chapter's close; now ends the 7:26-28 sub-section."
+    - "made-like.svg after 'Struck from the die', the one point where both its columns (sanctuary, priest) have been read; moved with the paragraph."
+  outline: "Unchanged; all seven entries still describe their sections."
+  verify: "study_structure.py --verify-against HEAD: removed empty, added_allowed empty, added_unexpected only the four image embeds of graphics_2026-11-22. validate: no warning for this study. mkdocs build --strict passes; all Study outline anchors and names-of-god.md's #genesis-14-a-priest-without-a-genealogy resolve in the built HTML."
+  left_for_author:
+    - "'What the first readers already knew' ends on its table; the reading of it ('Put the second row beside the sixth...') opens the next section. A sentence after the table would need new words."
+    - "Alt text counts toward Check 21 and study_structure.py word counts. The sanctuary section measures 529 (about 295 of prose); about 70 more words there would fail the deploy. Decide whether the counters should skip image lines (a tool change outside this pass)."
+    - "'This study is about the middle office.' (end of 'Prophet, priest and king') is the study speaking of itself; mild, but a word change."
+  not_reviewed: "This pass verifies nothing; the last review-bible-study pass was review_and_read_2026-10-02, before the graphics."
+
+fixes_2026-11-22:
+  author_requests: "After the read pass the author asked for: (1) study_structure.py to skip image lines; (2) a closing sentence after the 'What the first readers already knew' table; (3) a fix for 'This study is about the middle office.'"
+  tooling: "references/build/study_structure.py _prose_lines now skips image lines (^\\[?!\\[), matching validate-content.js Check 21; test_tables_lists_quotes_code_and_images_are_not_prose covers it. The read pass's 7:20-28 split was made on the old count (588 incl. alt text; ~380 of prose), so the split was not required; kept, author informed."
+  sentences:
+    - old: "This study is about the middle office."
+      new: "Hebrews sets out the middle office from Hebrews 2:17 to 10:18."
+    - added_after_table: "Together the rows show a priesthood God fenced in by tribe, register and Law (Numbers 3:10; Ezra 2:62; Hebrews 7:11-12)."
+  budget: "4900 -> 4950: the two requested sentences took the count to 4916 after tightening; author to confirm or ask for cuts."
+
+graphics_review_2026-11-22:
+  scope: "Fact-check of the comic (docs/data/comics/melchizedek-priesthood.toml / .svg), the reserved figures melchizedek and abram (utils/lib/comic.py FIGURES, cast.md), the three plates (two-orders, oath-came-later, made-like; utils/build_melchizedek_graphics.py) and the two sentences of fixes_2026-11-22. Report only; nothing edited."
+  method: "Rendered all four with qlmanage (comic also at 2800px, panels cropped). build_comics.py --verify: 5/5 ESV bubbles ok. --alt output == the study's embed. Each SVG on disk == its generator output. Every quotation on the plates checked word for word against study_verse esv-study-bible."
+  verified_esv: "Genesis 12:4; 13:2-3; 14:13-20; Exodus 6:16-20; 12:40-41; 25:40; 28:1; Numbers 3:10; 16:10; 18:7; Judges 8:26; 1 Kings 6:1; 2 Chronicles 26:16-21; Ezra 2:61-63; Psalm 110:1-4; Galatians 3:15-17, 19; Colossians 2:17; Hebrews 1:2; 2:17; 3:1; 4:15-16; 5:6; 6:20; 7:1-28; 8:1-5; 9:10, 24; 10:11-21; 13:20; Revelation 3:21; 17:4. Morphology: Hebrews 7:3 ἀφωμοιωμένος V-RPM/P (BSB interlinear); Hebrews 9:24 ἀντίτυπα."
+  quotations: "Every quoted line on the three plates and every comic bubble matches the ESV of the reference given. The Numbers 3:10 ellipsis is honest."
+  errors:
+    - where: "oath-came-later.svg, red span and footnote"
+      issue: "The solid red 'span the text counts' starts at the Genesis 14 station, but Galatians 3:17 counts from 'a covenant previously ratified by God' (Galatians 3:16-17), which Genesis 15 ratifies after Genesis 14 ('After these things', Genesis 15:1); where the count starts is contested (Exodus 12:40-41 counts 430 years in Egypt). The plate's own label says 'counted from God's covenant with Abraham', so the bar contradicts it. The footnote 'the only span the text counts is Galatians 3:17's 430 years' is false: 1 Kings 6:1 counts 480 years from the exodus to Solomon's fourth year."
+      fix: "Start the span at its own tick, 'God's covenant with Abraham (Genesis 15:18)', below the Genesis 14 card, with the start dashed. Reword the footnote: 'Not drawn to scale. The one span drawn is Galatians 3:17's 430 years.'"
+    - where: "oath-came-later.svg, banner AFTER THE LAW (also in desc, alt text, TOML header comment)"
+      issue: "As an era label beside BEFORE THE LAW and UNDER THE LAW it puts David outside the Law's era. The Law stood 'until the offspring should come' (Galatians 3:19; Hebrews 9:10), Aaron's priests served on through David's reign, and the study's own dispensational section has the Aaronic priesthood serving Israel 'under the Law'. Hebrews 7:28 says the oath 'came later than the law' (μετὰ τὸν νόμον, after the giving of it)."
+      fix: "Banner 'LATER THAN THE LAW' (Hebrews 7:28's words), or draw UNDER THE LAW as a bracket covering both the Sinai and Psalm 110 stations, with Psalm 110 marked 'later than the law'."
+    - where: "Comic panel 1: melchizedek pose = raise, holds = supper_cup"
+      issue: "Melchizedek lifts the cup high above his head while blessing: an elevation gesture the text does not give ('brought out bread and wine', Genesis 14:18). With the Last Supper's cup prop it suggests the eucharistic-offering reading of Genesis 14:18, which Hebrews 7 never makes; Hebrews uses nothing from the bread and wine, and the study's 'Where Hebrews gets all this' table leaves them out."
+      fix: "Put the cup with the loaves (a jar or cup prop on the ground by Melchizedek), or holds the cup at the waist with pose = 'offer' toward Abram, and give the blessing an open or raised empty hand."
+  should_fix:
+    - where: "Comic panel 4: Jesus stance = sit beside the throne prop"
+      issue: "He sits cross-legged on the ground below the throne seat, the posture of one at someone's feet. The text has Him seated 'at the right hand of the throne' (Hebrews 8:1), 'with my Father on his throne' (Revelation 3:21); Psalm 110:1 is an enthronement. His side of the throne (its right, the viewer's left) is correct."
+      fix: "Seat Him at the throne's height: on a second, smaller throne or a seat with dy raised, or on the throne's step at seat level."
+    - where: "two-orders.svg, gold column title THE ORDER OF MELCHIZEDEK and legend"
+      issue: "Rows 2-6 are said of Jesus only: 'this one was made a priest with an oath' (Hebrews 7:21), 'he holds his priesthood permanently' (7:24), 'offered up himself' (7:27), 'the true tent' (8:2), 'guarantor' (7:22). Under the bare title the plate reads as if Melchizedek was sworn in, offered himself and served in heaven."
+      fix: "Title the column 'JESUS, AFTER THE ORDER OF MELCHIZEDEK' (Hebrews 6:20) and the legend 'Jesus, in Melchizedek's order'."
+    - where: "oath-came-later.svg, legend card 'The text dates it'"
+      issue: "The text dates nothing on the plate; it gives the order (Hebrews 7:28; Galatians 3:17). The plate has no dashed element, though the span's start and the era framing are inferences."
+      fix: "'The text gives the order (Hebrews 7:28; Galatians 3:17)', plus a dashed key item for the inferred span start."
+    - where: "Comic panel 3 caption 'Later than the Law, David writes an oath.'"
+      issue: "The oath is the LORD's ('The LORD has sworn', Psalm 110:4; 'by the one who said to him', Hebrews 7:21); David records it. Read plainly, the caption makes it David's oath."
+      fix: "'Later than the Law, David writes down God's oath.' The speech bubble from David is fine: he is the psalmist reporting it (Psalm 110:1 superscription; Matthew 22:43)."
+    - where: "utils/lib/comic.py FIGURES melchizedek (#7a3a9a, gold belt), cast.md row; comic note"
+      issue: "cast.md calls his tunic 'Royal purple', the same words as the generic harlot ('Royal purple', gold girdle; Revelation 17:4 'arrayed in purple and scarlet, and adorned with gold'). SKILL.md section 3 says no generic role wears a reserved figure's colour. Purple with gold on a type of Christ echoes Babylon for a reader who has seen that comic. The note 'background, not Scripture' is an X-not-Y foil (style-guide.md line 49) and calls Judges 8:26 'not Scripture'."
+      fix: "Choose and name a colour clear of the harlot's (or keep the purple and rename it in cast.md, dropping the gold belt). Note: 'Scripture does not describe Melchizedek's dress; the purple is what kings wore (Judges 8:26).' Same wording change in the FIGURES why."
+    - where: "utils/lib/comic.py FIGURES abram (band = '#3a7a3a', hood); comic panel 1"
+      issue: "Abram's pale head cloth with a coloured band is the shape of the generic priest's blue-banded head cloth in panel 2, while Melchizedek, the priest of the panel, is bare-headed by design. A reader can take Abram for the priest. His green (#3a7a3a, 'Deep green') sits close to James (#2d4f2d, 'Deep forest-green') and Joseph (#3a8a7a)."
+      fix: "Drop the band (plain head cloth) or change its shape; move the green toward olive or a lighter shade and describe it apart from James's in cast.md."
+    - where: "Study, after the table in 'What the first readers already knew': 'Together the rows show a priesthood God fenced in by tribe, register and Law (Numbers 3:10; Ezra 2:62; Hebrews 7:11-12).'"
+      issue: "(1) Numbers 3:10 limits the priesthood to a family, Aaron's sons, narrower than a tribe; Levites who sought it were rebuked (Numbers 16:10; 18:7). (2) Only rows 2, 6 and 7 are about the limit; rows 1, 3, 4 and 5 are about access, daily service, the Day of Atonement and tithes, so 'Together the rows' overclaims. (3) The register was how Israel checked descent (Ezra 2:62-63), not a limit God set."
+      fix: "'The second, sixth and seventh rows show a priesthood God limited to Aaron's sons (Numbers 3:10), checked by written register (Ezra 2:62) and bound to the Law (Hebrews 7:11-12).'"
+    - where: "made-like.svg, priest column 'The outline: Melchizedek' (solid) and the dashed note"
+      issue: "'Outline' is the study's word; Hebrews says 'resembling' (7:3). It sits in a solid card under the legend 'Hebrews states it'. The dashed note's grammar gives the coin-and-die picture to Hebrews ('Hebrews calls the earthly holy places ἀντίτυπα, struck from a τύπος like a coin from a die'); Hebrews 9:24 says only 'copies of the true things'."
+      fix: "Card title 'Made like the Son: Melchizedek'; keep 'outline' in the dashed note. Note: 'Hebrews calls the earthly holy places ἀντίτυπα, copies (Hebrews 9:24). This study reads the word as a coin struck from a die (τύπος)...'"
+  minor:
+    - "Comic point: 'His one sacrifice finished' cites Hebrews 7:25; 4:16, neither of which says it. Add Hebrews 7:27. It is also the one part of the study's one-sentence point no panel carries."
+    - "Comic panel 4 ref 'Hebrews 7:24': the caption rests on Hebrews 8:1 (seated) and 7:16 or 13:20 (risen). Widen the ref to 'Hebrews 7:24; 8:1'. Heaven drawn as a dawn vista with grass tufts is atmosphere only."
+    - "Comic panel 2: the third figure of the n = 3 priests (x2 = 0.62) is hidden behind the text box, so 'many in number' shows two plus one faded. Set x2 near 0.5. The text box also touches the ref tag."
+    - "Comic panel 2: the temple scene is atmosphere, but Hebrews argues from the tent (Hebrews 8:5; 9:1-8). Consider a plainer court."
+    - "Comic panel 1 aside: 'Genesis records no father...' would match the study's 'on record' more closely than 'gives him no'."
+    - "oath-came-later lineage: cites only Exodus 6:16-20 (Levi to Aaron). Add Genesis 21:3; 25:26; 29:34 for Abraham to Levi (verified in graphics_2026-11-22, missing from the plate). The Levi card's red outline has no meaning in the legend."
+    - "oath-came-later: Aaron's appointment at Sinai is Exodus 28:1 (Leviticus 8); add it beside Numbers 3:10. 'risen' on the FULFILLED card rests on neither Hebrews 6:20 nor 8:1; add 7:16 or 13:20."
+    - "two-orders: 'So under the Law, Jesus would not be a priest at all' gives Hebrews 8:4's quotation a different condition from the verse's 'if he were on earth'. Use 'On earth, Jesus “would not be a priest at all” (Hebrews 8:4)'."
+    - "two-orders: 'JUDAH: THE THRONE' rests on no cited verse (Hebrews 7:14 gives no throne); add Genesis 49:10 or 2 Samuel 7:16. Uzziah 'burned incense': 2 Chronicles 26:16, 19 say he went in 'to burn incense' with 'a censer in his hand'. The study's table has the same wording."
+    - "made-like: 'passive' is stated flatly; ἀφωμοιωμένος is perfect middle/passive in form (V-RPM/P), and passive is the usual reading. 'fulfilled in Christ' is not Hebrews' word for 9:24, which contrasts the copies with heaven itself."
+    - "Study: 'Hebrews sets out the middle office from Hebrews 2:17 to 10:18.' The range holds: 2:17 is the first 'high priest' and 10:18 closes the sacrifice argument before 10:19's 'Therefore'. But 'middle office' is a label, not plain words, and the theme also runs on in 10:21 and 13:10-12. Suggest 'Hebrews introduces Jesus as high priest at Hebrews 2:17 and argues that office through Hebrews 10:18.'"
+    - "Alt text for oath-came-later leaves out 'counted from God's covenant with Abraham', which the plate and desc carry. Otherwise the three alt texts and descs match their plates. All carry the AFTER THE LAW wording and will need the same fix."
+  placement: "Comic after the thesis: right. oath-came-later after 'The oath came later' (Hebrews 7:28): right. made-like after 'Struck from the die': right, since both its columns have been read by then. two-orders at the end of 'An order is the basis of a priesthood': acceptable. Its top half is the previous section's problem, and rows 4-6 (Hebrews 7:22-8:5) come before the study reaches them."
+  carries_the_point: "Mostly. The oath (panel 3), the priest forever (panel 4), seated in heaven (panel 4) and draw near with confidence (panel 5) are drawn; the single sacrifice is only in the point. The sequence follows Hebrews 7:28's order, which suits the study."
+
+graphics_review_fixes_2026-11-22:
+  scope: "Every finding of graphics_review_2026-11-22 applied, author's instruction 'fix as recommended'."
+  errors_fixed:
+    - "oath-came-later: the 430-year span now starts at its own tick, God's covenant with Abraham (Genesis 15:18), after the Genesis 14 meeting (15:1), dashed at the start; a note gives Exodus 12:40's other count; footnote now 'The one span drawn is Galatians 3:17's 430 years.'"
+    - "oath-came-later: 'AFTER THE LAW' -> 'LATER THAN THE LAW' (Hebrews 7:28); desc, alt and comic TOML header to match."
+    - "comic panel 1: Melchizedek holds the cup out at the waist (pose offer); no raised cup."
+  should_fix_fixed:
+    - "comic panel 4: new `seat` prop in utils/lib/comic.py at the throne's height; Jesus seated on it at the throne's right (Hebrews 8:1); ref widened to Hebrews 7:24; 8:1."
+    - "two-orders: columns headed AARON'S SONS (after the order of Aaron, Hebrews 7:11) and JESUS (after the order of Melchizedek, Hebrews 6:20); legend to match."
+    - "oath-came-later legend: 'The text gives the order', a red span, a dashed 'Where its count starts, inferred', 'Fulfilled in Jesus'."
+    - "comic panel 3 caption: 'Later than the Law, David writes down God's oath.'"
+    - "melchizedek figure: deep wine tunic #7a2040, no gold belt, why rewritten; cast.md row; comic note now 'Genesis does not describe Melchizedek's dress, so his colours are a fixed choice.'"
+    - "abram figure: sage green #6a8a5a, plain head cloth (band = cloth colour); cast.md row."
+    - "study sentence after the table: 'The second, sixth and seventh rows show a priesthood God limited to Aaron's sons (Numbers 3:10), checked by written register (Ezra 2:62) and bound to the Law (Hebrews 7:11-12).'"
+    - "made-like: card 'Made like the Son: Melchizedek'; dashed note now attributes the coin-and-die reading of antitypa to this study."
+  minor_fixed:
+    - "comic point cites Hebrews 7:27, 25; 4:16; aside 'Genesis records no father, mother, birth or death for him.'; panel 2 priests narrowed so none is hidden."
+    - "oath-came-later refs: lineage + Genesis 21:3; 25:26; 29:34; Sinai + Exodus 28:1; Fulfilled + Hebrews 7:16; Levi card outline now ink."
+    - "two-orders: Hebrews 8:4 quoted with its condition ('if he were on earth'); Judah + Genesis 49:10; Uzziah 'entered the temple to burn incense' (2 Chronicles 26:16, 19), also in the study's table row."
+    - "made-like: 'usually read as passive' (V-RPM/P); sanctuary arrow 'in Christ'."
+    - "study sentence: 'Hebrews introduces Jesus as high priest at Hebrews 2:17 and argues His priesthood through Hebrews 10:18.'"
+    - "all four alt texts regenerated to match the plates and --alt."
+  verified: "ESV via study_verse: Genesis 15:1, 18; 49:10; Exodus 12:40-41; 28:1; 2 Chronicles 26:16-19. build_comics --verify: 5 ok. All comics rebuilt: only this comic's SVG changed. validate: no warning for this study (4,9xx words under 4,950). mkdocs build --strict passes."
+  open: "Key Takeaways still says 'The Greek ἀφωμοιωμένος ... is passive' -- same middle/passive point as the plate; left for the author."

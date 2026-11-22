@@ -29,6 +29,8 @@ Each is reserved once, in `FIGURES` in `utils/lib/comic.py`, and drawn the same 
 | `nebuchadnezzar` | Nebuchadnezzar | Deep indigo robe, gold belt and collar, full beard, the tall rounded cap of a Neo-Babylonian king: background, not Scripture, so the comic's `note` says so | the-image-and-the-kingdoms |
 | `balaam` | Balaam son of Beor | Charcoal tunic, ochre stole, grey hair, full beard (a fixed choice). His she-donkey is the `donkey` prop (`donkey_down` lying); a rider takes `stance = "sit"`, `dy = -0.208 * s`. The angel of the LORD is `angel_sword`, light with the drawn sword (Numbers 22:23) | the-donkey-and-her-prophet |
 | `nathan` | Nathan the prophet | Olive tunic, dark brown stole, grey hair and full beard (a fixed choice; Scripture gives no detail), older than the king he rebukes (2 Samuel 12:1) | first-take-the-log-out |
+| `melchizedek` | Melchizedek, king of Salem | Deep wine tunic, cream stole, grey hair and full beard, short hair (a fixed choice; Scripture does not describe his dress); no priest's head cloth, since his priesthood is not Levi's (Hebrews 7:6) | melchizedek-priesthood |
+| `abram` | Abram | Sage green tunic, plain pale head cloth with no band (so it never reads as the priest's), grey hair and full beard (past seventy-five, Genesis 12:4); Abraham from Genesis 17:5, so tag him with the name the passage uses | melchizedek-priesthood |
 
 ## Generic roles
 
@@ -107,7 +109,7 @@ The roles anyone may fill, varied by `tone` so a crowd is not clones:
   `x` to `x2` and takes `front = true` so it is drawn over the people standing in it. For judgment
   scenes: `bema` (a raised stone tribunal with steps; a figure on it takes `dy = -0.156 * s`),
   `throne` (a throne with the one seated on it drawn as light, since Revelation 4:2-3 and 20:11 give
-  a presence and no form), `books` (opened, Revelation 20:12), `crown` (a wreath laid down), and
+  a presence and no form), `seat` (a seat at the throne's height in its white stone, for one seated "at the right hand of the throne", Hebrews 8:1; a figure on it takes `dy = -0.156 * s`), `books` (opened, Revelation 20:12), `crown` (a wreath laid down), and
   `refined`, the counterpart of `burning`: gold, silver and precious stones standing whole in the
   fire on the same foundation (1 Corinthians 3:12-14). Also `beam` (the timber of Matthew 7:5, laid down), `figleaves` (the sewn loincloths of
   Genesis 3:7, cast off on the ground), `fruit_tree` (a tree "good for food", Genesis 2:9, with

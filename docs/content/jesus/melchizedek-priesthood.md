@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Hebrews 7:1-28"
 bible_references: ["Hebrews 1:1-3", "Hebrews 2:17-18", "Hebrews 4:14-16", "Hebrews 5:1-10", "Hebrews 6:13-20", "Hebrews 8:1-13", "Hebrews 9:6-28", "Hebrews 10:1-18", "Genesis 11:10-11", "Genesis 14:17-22", "Psalm 110:1-4", "Exodus 3:1", "Exodus 18:12", "Exodus 20:19", "Exodus 25:40", "Leviticus 8:12", "Leviticus 16:1-34", "Numbers 3:10", "Numbers 6:23-27", "Numbers 18:21", "Ezra 2:61-63", "Malachi 2:7", "2 Chronicles 26:16-21", "Zechariah 6:12-13", "Jeremiah 31:31-34", "Matthew 22:41-45", "Acts 2:34-36", "Galatians 1:12", "Galatians 3:17", "Hebrews 2:3", "Hebrews 3:7", "Psalm 2:7", "Numbers 20:25-28", "Romans 6:10", "Romans 8:34", "Colossians 2:17", "1 Peter 3:18"]
 date_created: 2026-08-02
-date_modified: 2026-11-15
+date_modified: 2026-11-22
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -23,6 +23,8 @@ only long enough to bless Abram, receive a tenth of the spoils, and vanish. No b
 death notice. No father, no mother, no tribe.
 
 **In one sentence:** God swore an oath that Jesus would be a priest forever in the order of Melchizedek, and Jesus holds that priesthood now — by an indestructible life, in the true heavenly sanctuary, through a single sacrifice that never has to be repeated — so you can draw near to God through Him with confidence.
+
+[![A one-minute comic in 5 panels. Panel 1 (Genesis 14:18-20): Melchizedek, in a wine-coloured tunic, holding out a cup of wine with loaves beside him as he blesses Abram; two bundles of spoil set down between them. Caption: "Abram returns from battle. Melchizedek, king of Salem and priest of God Most High, meets him." Melchizedek says: "Blessed be Abram by God Most High, Possessor of heaven and earth;". Note: "Genesis records no father, mother, birth or death for him." Panel 2 (Hebrews 7:23): a line of priests in white; the first is fading away. Caption: "Then the Law: priests from Levi, one after another." Hebrews says: "The former priests were many in number, because they were prevented by death from continuing in office,". Panel 3 (Psalm 110:1-4): David seated with a scroll on his knee, writing. Caption: "Later than the Law, David writes down God’s oath." David says: "The LORD has sworn and will not change his mind, “You are a priest forever after the order of Melchizedek.”" Panel 4 (Hebrews 7:24; 8:1): the risen Jesus seated at the right hand of a throne of light, at its height, gold light streaming toward Him. Caption: "Jesus, risen, seated at God’s right hand." Hebrews says: "he holds his priesthood permanently, because he continues forever." Panel 5 (Hebrews 4:16): a woman and a man kneeling in prayer at night. Caption: "So you can come to God through Him." Hebrews says: "Let us then with confidence draw near to the throne of grace,". The point: God swore that Jesus would be a priest forever, and He is: risen, seated in heaven, His one sacrifice finished. So draw near to God through Him with confidence (Hebrews 7:27, 25; 4:16).](../assets/img/comics/melchizedek-priesthood.svg)](../assets/img/comics/melchizedek-priesthood.svg)
 
 ## Key Takeaways
 
@@ -127,7 +129,8 @@ three offices. Eusebius made the point in the early fourth century: Israel's ano
 Christs" and its anointed prophets "Christs in type," and all of them pointed to the one "who is the only high priest of all, and the
 only King of every creature, and the Father's only supreme prophet of prophets."[^eusebius-1-3]
 
-This study is about the middle office.
+Hebrews introduces Jesus as high priest at Hebrews 2:17 and argues His priesthood through Hebrews
+10:18.
 
 ### Hebrews' own definition
 
@@ -167,8 +170,11 @@ things they took for granted.
 | Priests offered sacrifices every day, blessed the people in God's name, and taught the Law. | Exodus 29:38-42; Numbers 6:23-27; Malachi 2:7 | Hebrews 7:27 |
 | Once a year the high priest alone entered the Most Holy Place, "and not without taking blood." | Leviticus 16; Hebrews 9:7 | Hebrews 9:6-12, 25 |
 | Israel paid its tithes to the tribe of Levi. | Numbers 18:21 | Hebrews 7:5-9 |
-| Kings came from Judah and priests from Levi. King Uzziah burned incense in the temple and was struck with leprosy. | 2 Chronicles 26:16-21 | Hebrews 7:13-14 |
+| Kings came from Judah and priests from Levi. King Uzziah entered the temple to burn incense and was struck with leprosy. | 2 Chronicles 26:16-21 | Hebrews 7:13-14 |
 | The priesthood and the Law stood together: "under it the people received the law." | Exodus 28-29; Leviticus 8 | Hebrews 7:11-12 |
+
+The second, sixth and seventh rows show a priesthood God limited to Aaron's sons (Numbers 3:10),
+checked by written register (Ezra 2:62) and bound to the Law (Hebrews 7:11-12).
 
 ### The problem: a priest from Judah
 
@@ -201,6 +207,8 @@ his garments and put them on Eleazar (Numbers 20:25-28).
 
 Melchizedek's order answers the same two questions with God's appointment and an endless life.
 God makes the priest, and the priest serves forever.
+
+[![A chart of the two orders of priests in Hebrews 7. At the top, the problem: Levi held the altar, and any outsider who came near was to be put to death (Numbers 3:10); Judah held the throne, and Moses said nothing about priests from that tribe (Hebrews 7:14; Genesis 49:10). A red wall stands between them; King Uzziah of Judah entered the temple to burn incense and was struck with leprosy (2 Chronicles 26:16-21). If he were on earth, he would not be a priest at all (Hebrews 8:4). An arrow leads to God's oath, You are a priest forever after the order of Melchizedek (Psalm 110:4). Below, Aaron's sons, after the order of Aaron (Hebrews 7:11), and Jesus, after the order of Melchizedek (Hebrews 6:20), side by side in Hebrews' words. What makes him a priest: a legal requirement concerning bodily descent, or the power of an indestructible life (Hebrews 7:16). How he is installed: without an oath, or with an oath (Hebrews 7:20-21). How long he serves: many, prevented by death, or permanently (Hebrews 7:23-24). His sacrifice: daily, first for his own sins, or once for all when he offered up himself (Hebrews 7:27). Where he serves: a copy and shadow, or the true tent that the Lord set up (Hebrews 8:2, 5). The covenant: the law, or a better covenant with Jesus as its guarantor (Hebrews 7:11, 22). It closes on Hebrews 7:25, he always lives to make intercession for them.](../assets/img/melchizedek/two-orders.svg)](../assets/img/melchizedek/two-orders.svg)
 
 ### The order's two marks: no inherited claim, no end
 
@@ -461,6 +469,8 @@ the lesser to the greater.
 
 ### Hebrews 7:20-28: the oath, and a priest forever
 
+#### Hebrews 7:20-25: sworn in, and permanent
+
 **Sworn in.** "And it was not without an oath. For those who formerly became priests were made such
 without an oath, but this one was made a priest with an oath by the one who said to him: 'The Lord
 has sworn and will not change his mind, "You are a priest forever"'" (Hebrews 7:20-21, ESV). No
@@ -487,6 +497,8 @@ successor." Both senses land on the
 point of Hebrews 7:23-24. The One who intercedes for you today is the One who will intercede for you at
 the end.
 
+#### Hebrews 7:26-28: once for all, and the oath came later
+
 **Once for all.** The chapter closes on a priest who is "holy, innocent, unstained, separated from
 sinners, and exalted above the heavens" (Hebrews 7:26, ESV). "He has no need, like those high
 priests, to offer sacrifices daily, first for his own sins and then for those of the people, since
@@ -499,7 +511,9 @@ removed sin (Hebrews 10:1-4).
 of the oath, which came later than the law, appoints a Son who has been made perfect forever"
 (Hebrews 7:28, ESV). Psalm 110 was sworn after Sinai, so God's last word on priesthood is the oath.
 
-### Hebrews 8:1-5: the true sanctuary
+[![A timeline of the priesthood in Hebrews 7, running down the page. Before the Law: in Genesis 14 Melchizedek blesses Abram and receives a tenth, and the inferior is blessed by the superior (Genesis 14:18-20; Hebrews 7:1-2, 7); beside it, Levi in Abraham's loins, the line Abraham, Isaac, Jacob, Levi, Kohath, Amram, Aaron, since Levi paid tithes through Abraham (Hebrews 7:9-10; Genesis 21:3; 25:26; 29:34; Exodus 6:16-20). After this meeting comes God's covenant with Abraham (Genesis 15:18), where a red span begins, dashed at its start: the law, which came 430 years afterward (Galatians 3:17); where the count starts is read two ways, since Exodus 12:40 counts 430 years in Egypt. Under the Law: at Sinai Aaron and his sons are appointed, and under it the people received the law (Exodus 28:1; Numbers 3:10; Hebrews 7:11); beside it, priests by descent, many, prevented by death (Hebrews 7:16, 23). Later than the Law: in David's psalm God swears, You are a priest forever after the order of Melchizedek (Psalm 110:1, 4); beside it, the word of the oath, which came later than the law, appoints a Son (Hebrews 7:28). Fulfilled: Jesus, risen and seated in heaven, a high priest forever after the order of Melchizedek (Hebrews 6:20; 7:16; 8:1); beside it, he holds his priesthood permanently, because he continues forever (Hebrews 7:24). The line runs on, marked forever. Not drawn to scale; the one span drawn is Galatians 3:17's 430 years. It closes on Psalm 110:4, The LORD has sworn and will not change his mind.](../assets/img/melchizedek/oath-came-later.svg)](../assets/img/melchizedek/oath-came-later.svg)
+
+### Hebrews 8:1-9:24: the true sanctuary and its copies
 
 **The point.** Chapter 8 names where the argument has been heading. "Now the point in what we are
 saying is this: we have such a high priest, one who is seated at the right hand of the throne of the
@@ -517,14 +531,16 @@ times in the New Testament, twice in Hebrews (8:5; 10:1). Colossians 2:17 uses i
 problem: "These are a shadow of the things to come, but the substance belongs to Christ" (ESV).
 **ὑπόδειγμα (*hypodeigma*, G5262, "copy")** carries this sense at Hebrews 8:5 and 9:23.
 
-### Hebrews 9:24-10:18: one sacrifice, once for all
-
 **Struck from the die.** Christ "has entered, not into holy places made with hands, which are
 copies of the true things, but into heaven itself" (Hebrews 9:24, ESV). "Copies" there is
 **ἀντίτυπος (*antitypos*, G499)**, one of two New Testament occurrences (the other is 1 Peter 3:21).
 It joins ἀντί (*anti*, G473, "corresponding to") and τύπος (*typos*, "die, pattern"): an *antitypos* is
 what is struck from a *typos*, the way a coin is struck from a die. The earthly tabernacle is the
 coin, and heaven is the die. Melchizedek works the same way (Hebrews 7:3).
+
+[![A chart of which way the likeness runs in Hebrews, in two columns. The sanctuary: the original is heaven itself, the true tent that the Lord set up (Hebrews 8:2; 9:24); a red arrow, the pattern shown on the mountain (Hebrews 8:5), leads down to the copy, the tabernacle, a copy and shadow of the heavenly things (Exodus 25:40; Hebrews 8:5; 9:24); a gold arrow, in Christ, leads to Christ entering heaven itself on our behalf (Hebrews 9:24). The priest: the original is the Son of God, through whom God created the world (Hebrews 1:2); a red arrow, made like, usually read as passive (Hebrews 7:3), leads down to Melchizedek, made like the Son, resembling the Son of God (Genesis 14:18-20; Hebrews 7:3); a gold arrow, fulfilled in Christ, leads to Jesus arising in the likeness of Melchizedek (Hebrews 7:15). A side arrow marks the copy and Melchizedek as earlier in time. A dashed note gives this study's reading: Hebrews 9:24 calls the earthly holy places copies of the true things, and this study reads the word as a coin struck from a die, and Melchizedek the same way, the Son the die and Genesis 14 the outline drawn first. Below, the Son was made like His brothers to become a merciful and faithful high priest (Hebrews 2:17; 4:15). It closes on Colossians 2:17, these are a shadow of the things to come, but the substance belongs to Christ.](../assets/img/melchizedek/made-like.svg)](../assets/img/melchizedek/made-like.svg)
+
+### Hebrews 9:25-10:18: one sacrifice, once for all
 
 **One sacrifice.** Because Christ's priesthood is Melchizedek's, He serves in the true sanctuary.
 Because the sanctuary is the true one, the covenant made there is better: Jeremiah's new covenant,

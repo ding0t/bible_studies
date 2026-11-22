@@ -202,6 +202,20 @@ FIGURES = {
                    why="Nathan the prophet, sent by the LORD to David (2 Samuel 12:1). Scripture gives no detail of his "
                        "dress or age: an olive tunic and a dark brown stole are a fixed choice, kept apart from every other "
                        "tunic colour; grey hair and a full beard are a fixed choice, so he reads older than the king."),
+    "melchizedek": dict(name="Melchizedek", study="jesus/melchizedek-priesthood.md", robes=["#7a2040"], mantle="stole",
+                        mantle_fill="#e8d9b0", hair="short", hair_color=HAIR_GREY, beard="full",
+                        why="King of Salem and priest of God Most High (Genesis 14:18). Scripture does not describe his "
+                            "dress or age, so a deep wine tunic and a cream stole are a fixed choice, kept apart from every "
+                            "other tunic colour and from the harlot's purple and gold (Revelation 17:4). No priest's head "
+                            "cloth, since his priesthood is not Levi's (Hebrews 7:6). Grey hair and a full beard are a fixed "
+                            "choice; short hair, so he never reads as Jesus, whom he is made like and is not (Hebrews 7:3)."),
+    "abram": dict(name="Abram", study="jesus/melchizedek-priesthood.md", robes=["#6a8a5a"], mantle="hood",
+                  mantle_fill="#e2d6b8", band="#e2d6b8", hair_color=HAIR_GREY, beard="full",
+                  why="Abram the Hebrew (Genesis 14:13), past seventy-five (Genesis 12:4), so grey-haired and "
+                      "full-bearded; a herdsman \"very rich in livestock\" who lived in tents (Genesis 13:2-3). A sage "
+                      "green tunic and a plain pale head cloth are a fixed choice: the band is left off, so the cloth "
+                      "never reads as the priest's blue-banded one. Abraham from Genesis 17:5: tag him with the name "
+                      "the passage uses."),
 }
 CAST.update(FIGURES)
 
@@ -966,6 +980,15 @@ def prop_throne(x, y, s):
             '<ellipse cx="0" cy="-84" rx="18" ry="30" fill="#fffbe6"/></g>')
 
 
+def prop_seat(x, y, s):
+    """A seat at the throne's height, in the throne's white stone and with no light of its own, for one
+    seated "at the right hand of the throne" (Hebrews 8:1; Revelation 3:21). Its top is 36 units up, as
+    the throne's seat and the bema's are, so a figure seated on it takes dy = -0.156 * s."""
+    return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
+            '<rect x="-46" y="-18" width="92" height="18" fill="#f2efe8" stroke="#a9a090" stroke-width="1.2"/>'
+            '<rect x="-38" y="-36" width="76" height="18" fill="#f7f5f0" stroke="#a9a090" stroke-width="1.2"/></g>')
+
+
 def prop_books(x, y, s):
     """An opened book on the ground (Revelation 20:12: "books were opened")."""
     return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s:.3f})">'
@@ -1601,7 +1624,7 @@ def prop_beam(x, y, s):
 
 PROPS = {"beam": prop_beam, "fruit_tree": prop_fruit_tree, "thicket": prop_thicket, "serpent": prop_serpent, "vine": prop_vine, "sheep": prop_sheep, "load": prop_load, "shaft": prop_shaft, "spring": prop_spring, "yoke": prop_yoke, "well": prop_well, "tomb_sealed": prop_tomb_sealed, "jar": prop_jar, "lampstand": prop_lampstand, "golden_lampstand": prop_golden_lampstand, "gift": prop_gift, "crosses": prop_crosses, "tomb": prop_tomb, "cloud": prop_cloud,
          "ruin": prop_ruin, "breath": prop_breath, "fire": prop_fire, "burning": prop_burning, "rooster": prop_rooster, "kophinos": prop_kophinos, "spyris": prop_spyris,
-         "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne,
+         "hull": prop_hull, "loaf": prop_loaf, "refined": prop_refined, "bema": prop_bema, "throne": prop_throne, "seat": prop_seat,
          "books": prop_books, "crown": prop_crown, "figleaves": prop_figleaves, "hand": prop_hand, "wall": prop_wall, "idol": prop_idol,
          "ark": prop_ark, "tower": prop_tower, "tablets": prop_tablets, "rainbow": prop_rainbow,
          "statue": prop_statue, "stone": prop_stone, "chaff": prop_chaff, "mountain": prop_mountain, "bed": prop_bed,
