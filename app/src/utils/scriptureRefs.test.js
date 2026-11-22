@@ -12,6 +12,7 @@ import {
   formatRef,
   lemmaBefore,
   namedWork,
+  otherWork,
   parseRef,
   resolveRelative,
   wordKey,
@@ -156,4 +157,14 @@ test('a book named in words, and a work the book list does not know', () => {
   assert.equal(namedWork('the Community Rule (1QS '), true);
   assert.equal(namedWork('four in Revelation \u2014 '), false);
   assert.equal(namedWork('Job himself uses it at '), false);
+});
+
+test('a bare number after a non-biblical work is that work\'s, unless a Bible book is named nearer', () => {
+  assert.equal(otherWork('(Genesis 29:27; Judges 14:12), fourteen in Tobit ('), true);
+  assert.equal(otherWork("Tobit's exiles are in Nineveh ("), true);
+  assert.equal(otherWork('Tobit 7:14 has the document, as Ruth ('), false);
+  assert.equal(otherWork('Tobit has the document. Then Ruth ('), false);
+  assert.equal(otherWork('"Sanctified, sanctified" (', '2:7, trans. Kulp).'.slice(3)), true);
+  assert.equal(otherWork('The sun set at ', 'pm that day.'), true);
+  assert.equal(otherWork('Paul says it again ('), false);
 });

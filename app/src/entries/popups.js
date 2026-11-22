@@ -20,7 +20,7 @@ import {
   formShard,
   bareKey,
   lemmaBefore,
-  namedWork,
+  otherWork,
   parseRef,
   parseStrongs,
   resolveRelative,
@@ -161,7 +161,7 @@ function scan(root) {
       }
       let resolved = ref;
       if (!ref.book) {
-        if (ref.c1 !== undefined && namedWork(before + node.data.slice(0, start))) continue;
+        if (ref.c1 !== undefined && otherWork(before + node.data.slice(0, start), node.data.slice(end))) continue;
         // A numbered reference in the same paragraph or cell comes first; a book only named in words
         // there yields to a table's column header, which names the book for the whole column.
         const nearest = block && lastInBlock.get(block);

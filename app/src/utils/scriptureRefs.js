@@ -149,6 +149,30 @@ export function findBookNames(text) {
   return out;
 }
 
+// A non-biblical work named in the same sentence, with no Bible book named after it: a bare number
+// that follows is that work's own section -- "fourteen in Tobit (8:19-20)", "Tobit's exiles are in
+// Nineveh (1:2)", the Mishnah's Pesachim 10:1. The nearest name wins, so "Judges 14:12), fourteen
+// in Tobit (8:19-20)" is Tobit's, and "Tobit 7:14, as in Ruth (4:10)" is Ruth's.
+const NON_BIBLICAL_WORK =
+  /Mishnah|Sotah|Arakhin|Shabbat|Pesachim|Zevachim|Nedarim|Sanhedrin|Rosh Hashanah|Rabbah|Josephus|Antiquities|Jubilees|Enoch|Esdras|Baruch|Sirach|Wisdom of Solomon|Maccabees|Tobit|Assumption of Moses|Didache|Hermas|Clement|Barnabas|Ignatius|Irenaeus|Victorinus|Eusebius|Philo|1QS|1Q\d+|JETS/gi;
+// After the number: a translator or edition credit (that work's numbering), or a time of day.
+const CREDIT_AFTER = /^(?:[^)]{0,40}\b(?:trans\.|[Tt]ranslation|[Ee]dition)|\s*[ap]\.?m\b)/;
+const TO_SENTENCE_START = /[\s\S]*(?:[.!?]["”’)*]*\s|^)/;
+
+// Whether a bare chapter and verse between `before` and `after` belongs to something other than a
+// Bible book. The validator's Check 26 and the pop-up both ask this one function, so a number the
+// check lets stand as another work's is one the pop-up leaves alone; when they asked different
+// questions, "fourteen in Tobit (8:19-20)" passed the check and opened Judges 8:19-20.
+export function otherWork(before, after = '') {
+  if (namedWork(before) || CREDIT_AFTER.test(after)) return true;
+  const sentence = before.slice(before.match(TO_SENTENCE_START)[0].length);
+  let work = -1;
+  for (const m of sentence.matchAll(NON_BIBLICAL_WORK)) work = m.index;
+  if (work < 0) return false;
+  const books = [...findRefs(sentence).filter((r) => r.ref.book), ...findBookNames(sentence)];
+  return books.every((r) => r.start < work);
+}
+
 const int = (s) => (s === undefined ? undefined : parseInt(s, 10));
 
 function make(osis, c1, v1, c2, v2) {

@@ -9,7 +9,7 @@ import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { findBookNames, findRefs } from '../src/utils/scriptureRefs.js';
+import { findBookNames, findRefs, otherWork } from '../src/utils/scriptureRefs.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -46,17 +46,13 @@ let warningCount = 0;
  * and links to it); quotations, block or inline (never edited); image lines (alt text, mostly
  * generated from comic data); inline code; a table cell whose header or an earlier row names the
  * book (a "Matthew | Mark | Luke" parallel table, or a column that opens "John 4:6"); a
- * non-biblical work named in the sentence (1 Enoch, the Mishnah, Tobit, 1QS) or an italic title
- * just before the number; a number followed by a translator or edition credit; and a time of day.
+ * non-biblical work named in the sentence after any Bible book (1 Enoch, the Mishnah, Tobit, 1QS), a
+ * number followed by a translator or edition credit, and a time of day -- all three by otherWork(), the
+ * pop-up's own test, so the two cannot disagree -- and an italic title just before the number.
  */
-// A non-biblical work named in the same sentence: a bare number after it is that work's own
-// section (1 Enoch 16:1, the Mishnah's Pesachim 10:1, Tobit 1:2, 1QS 5:23).
-const NON_BIBLICAL_WORK =
-  /Mishnah|Sotah|Arakhin|Shabbat|Pesachim|Zevachim|Nedarim|Sanhedrin|Rosh Hashanah|Rabbah|Josephus|Antiquities|Jubilees|Enoch|Esdras|Baruch|Sirach|Wisdom of Solomon|Maccabees|Tobit|Assumption of Moses|Didache|Hermas|Clement|Barnabas|Ignatius|Irenaeus|Victorinus|Eusebius|Philo|1QS|1Q\d+|JETS/i;
-// An italic title or a page/volume marker immediately before the number.
+// An italic title or a page/volume marker immediately before the number. The pop-up reads the
+// rendered "m. Kiddushin 1:1", where namedWork sees the title; the markdown's asterisks hide it.
 const TITLE_BEFORE = /(?:\*[^*\n]+\*|pp?\.|vol\.|§)\**[\s,()\d]*$/i;
-// After the number: a translator or edition credit (that work's numbering), or a time of day.
-const CREDIT_AFTER = /^(?:[^)]{0,40}\b(?:trans\.|[Tt]ranslation|[Ee]dition)|\s*[ap]\.?m\b)/;
 
 export function bareReferences(bodyContent) {
   const lines = bodyContent.split('\n');
@@ -76,8 +72,8 @@ export function bareReferences(bodyContent) {
       const inGroup = findRefs(group);
       if (inGroup.some((x) => x.ref.book) || findBookNames(group).length) continue;
       if (inGroup.some((x) => x.ref.c1 !== undefined)) continue; // a continuation of a bare lead
-      if (NON_BIBLICAL_WORK.test(group) || TITLE_BEFORE.test(before.slice(-60))) continue;
-      if (CREDIT_AFTER.test(prose.slice(r.end))) continue;
+      // Another work's numbering, asked of the same function the pop-up asks (scriptureRefs.js).
+      if (otherWork(context + before, prose.slice(r.end)) || TITLE_BEFORE.test(before.slice(-60))) continue;
       // Inside a quotation, which is never edited: an open double quote before it in the paragraph.
       const straight = (before.match(/"/g) || []).length;
       const curly = (before.match(/“/g) || []).length - (before.match(/”/g) || []).length;
