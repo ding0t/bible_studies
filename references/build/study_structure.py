@@ -32,6 +32,9 @@ WARN_AT = 600                       # validator Check 21; p96, the far tail
 
 _HEADING = re.compile(r"^(#{2,4})\s+(.*)$")
 _LIST_ITEM = re.compile(r"^([-*+]\s|\d+\.\s)")
+# An image, linked or not. Its alt text describes the picture; it is not prose the reader travels
+# through, and Check 21 skips it too.
+_IMAGE = re.compile(r"^\[?!\[")
 
 
 def _strip_frontmatter(text: str) -> str:
@@ -46,7 +49,8 @@ def _prose_lines(lines: list[str]) -> list[str]:
     """Only lines a reader reads as continuous prose.
 
     Tables, lists and block quotes are already visually broken -- a long reference table is not a
-    wall -- and fenced code is not prose at all. Same rule as validate-content.js Check 21.
+    wall -- and fenced code and image alt text are not prose at all. Same rule as
+    validate-content.js Check 21.
 
     A list item's wrapped, indented continuation lines belong to the item. Counting them as prose
     made a reworded Study outline bullet read as a changed sentence in prose_identity.
@@ -65,7 +69,7 @@ def _prose_lines(lines: list[str]) -> list[str]:
         if in_list and line[:1].isspace():
             continue
         in_list = False
-        if s.startswith("|") or s.startswith(">"):
+        if s.startswith("|") or s.startswith(">") or _IMAGE.match(s):
             continue
         out.append(s)
     return out

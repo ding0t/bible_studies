@@ -23,7 +23,7 @@ def _text_at(ref: str, path: str = SCRIBE) -> str:
 
 # --- what counts as prose --------------------------------------------------
 
-def test_tables_lists_quotes_and_code_are_not_prose():
+def test_tables_lists_quotes_code_and_images_are_not_prose():
     """Must match validate-content.js Check 21 exactly, or the tool and the check disagree about
     what a 600-word section is."""
     lines = [
@@ -32,6 +32,8 @@ def test_tables_lists_quotes_and_code_are_not_prose():
         "> a block quote",
         "- a list item", "1. a numbered item",
         "```", "code = 1", "```",
+        "![a chart of the two orders](two-orders.svg)",
+        "[![a comic in five panels](comic.svg)](comic.svg)",
         "More real prose.",
     ]
     assert ss._prose_lines(lines) == ["Real prose here.", "More real prose."]
