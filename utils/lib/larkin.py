@@ -119,17 +119,21 @@ def card(x, y, w, lines, ref, dashed=False, stroke=INK, fill=CARD, size=14):
     return out, h
 
 
-def legend_row(x, y, span=True):
+def legend_row(x, y, span=True, dashed="Placed by its order"):
+    # `dashed` names what a dashed card means on this plate: one that also places a thing by
+    # inference (the rapture before the week) has to say so.
     out = []
     c, _ = card(x, y, 150, ["The text dates it"], "", size=13)
     out += c
-    c, _ = card(x + 175, y, 210, ["Placed by its order"], "", dashed=True, size=13)
+    w = max(210, 7 * len(dashed) + 16)
+    c, _ = card(x + 175, y, w, [dashed], "", dashed=True, size=13)
     out += c
     if not span:
         return out
-    out.append(f'<path d="M{x + 412} {y + 2} V{y + 26}" stroke="{RED}" stroke-width="3"/>')
-    out.append(f'<path d="M{x + 406} {y + 2} H{x + 418} M{x + 406} {y + 26} H{x + 418}" stroke="{RED}" stroke-width="1.5"/>')
-    out.append(text(x + 426, y + 19, "A span the text counts", 13))
+    bx = x + 175 + w + 27
+    out.append(f'<path d="M{bx} {y + 2} V{y + 26}" stroke="{RED}" stroke-width="3"/>')
+    out.append(f'<path d="M{bx - 6} {y + 2} H{bx + 6} M{bx - 6} {y + 26} H{bx + 6}" stroke="{RED}" stroke-width="1.5"/>')
+    out.append(text(bx + 14, y + 19, "A span the text counts", 13))
     return out
 
 

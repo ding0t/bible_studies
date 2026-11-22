@@ -1306,3 +1306,142 @@ fix_2026-11-21_read_followups:
     - "Opening's closing method sentence deleted; the paragraph now ends on 'the New Testament calls Christ the bridegroom.'"
     - "'From the same evening' -> 'At the Last Supper' in 'The cup He promised to finish'."
     - "Pattern table row 2: Hosea 2:19 link retargeted to #the-two-ways-out-and-why-neither-is-open, where Hosea 2:19-20 is discussed."
+
+review_2026-11-21:
+  skill: review-bible-study
+  scope: >-
+    Full pass (Phases 1-8) after simplify_2026-11-21 / read_2026-11-21 / fix_2026-11-21_read_followups
+    (commit eaadef68), priority on the sentences that pass shortened, plus the four new plates
+    (utils/build_israel_church_graphics.py data) and the comic (docs/data/comics/bride-of-christ.toml).
+    Run as a subagent; nothing in the study, plates or comic was edited.
+  verified_clean: >-
+    Every ESV quotation re-queried in study-notes.db (60 verses) and every WEB quotation in
+    bible-text.db (9) -- all verbatim except the Isaiah 25:6 table cell below. Shortened sentences:
+    Key Takeaways husband citations (Isa 54:5; Jer 31:32; Hos 2:16 all say husband); Ephesians from
+    prison (Eph 3:1 "prisoner", 6:20 "ambassador in chains"); ESV SB Ruth introduction ("two legal
+    institutions combined in one practice ... property redemption by a near kinsman and the levirate
+    marriage"); kinsman-redeemer.md#at-the-gate exists and gives both readings of Ruth 4:5; 2 Cor 1:22
+    has seal and guarantee in one clause; m. Ketubot 5:2 and m. Kiddushin 1:1 re-fetched from Kulp
+    (CC-BY) via sefaria.py, verbatim; TWOT 964c = makon under kun 964; skenoo 5x, 4 in Revelation
+    (7:15; 12:12; 13:6; 21:3); amomos 8x, 6 of people (Eph 1:4; 5:27; Col 1:22; Phil 2:15; Jude 24;
+    Rev 14:5), 2 of Christ (1 Pet 1:19; Heb 9:14); apantesis 3x, all LN 15.78; "At the Last Supper"
+    correct for Matt 26:29 (26:17-29). Also mysterion 6x in Ephesians, harmozo 1x (LN 34.74),
+    arrabon 3x NT + 3x LXX all Gen 38, mone 2x, loutron 2x. Wedding-pattern aorists confirmed against
+    the Berean tables: egorasthete V-AIP-2P, hermosamen V-AIM-1S, esphragisthete V-AIP-2P,
+    hegiasthete V-AIP-2P. Plate and comic quotations all ESV-exact. Notes quoted from CBSB (John 3:29,
+    Matt 1:19, 25:10, Eph 1:14, 5:26, Rev 19:7, 19:8) and ESV SB (Ezek 16:8, John 14:2-3, Eph 5:26-27,
+    1 Thess 4:13-18, Rev 19:9-10) say what is claimed. Tobit 7:13-16 matches the raw scrollmapper KJV
+    Apocrypha. Statement of faith: pretribulational rapture, seven-year week, return, thousand years,
+    great white throne, new creation -- the bride-and-the-ages plate and "Where the thousand years
+    falls" agree with it; no conflict. Validator clean for this file; 6,274 words by Check 23 (budget
+    7,000).
+  findings_error:
+    - "Isaiah 25:6 in the pattern table (row 7) is quoted 'a feast of rich food… for all peoples'; the ESV order is 'make for all peoples a feast of rich food'. The ellipsis reverses the verse."
+    - "1 Thessalonians 4:17 apantesis sentence (shortened in eaadef68): '(NIV Biblical Theology Study Bible, note on 1 Thessalonians 4:17)' now sits on 'is contested'. The note does not call anything contested; it argues the escort-to-earth reading. The citation should attach to the escort reading."
+    - "Paralambano: 'Those are all four of the verb's 34.53 occurrences.' MACULA also tags Colossians 2:6 ('as you received Christ Jesus the Lord') 34.53, dual with 27.13 -- known in review_2026-09-21, never disclosed in the prose. Five occurrences carry 34.53."
+  findings_should_fix:
+    - "m. Ketubot sentence (shortened): 'The church can say what a betrothed bride could say of her twelve months' no longer says what she could say (that the groom prepares through the same months)."
+    - "Pattern table row 6: 'at a time his family's preparations decide (CBSB, note on Matthew 25:1)'. The note blames unpredictability on 'the many preparations (and the bride's relatives haggling over the value of the gifts)'; it names no groom's family."
+    - "Wrong pop-ups: 'fourteen in Tobit (8:19-20)' (table row 7) resolves to Judges 8:19-20 from the cell's Judges 14:12; 'Nineveh (1:2)' and 'Media (3:7)' have no book in reach and resolve from the page. Check 26 exempts them (Tobit in the sentence) but popups.js namedWork() does not, because '(' breaks the NAMED pattern. Validator/pop-up disagreement worth a separate fix."
+    - "Tobit 1:2 (KJV) names Thisbe and Naphtali, not Nineveh; Nineveh is 1:3 (and 1:10)."
+    - "bride-and-the-ages legend reads 'Placed by its order', but component 6 (the rapture before the week) is placed by pretribulational inference, which no text's order gives; the code comment says 'placed by inference'. Legend (shared larkin.legend_row) and alt text should say 'placed by its order, or inferred'."
+    - "'The second is sight and the third is rule (Revelation 22:4-5)' after 'Three verbs carry it': two of the three verbs are now neither quoted nor named (prose/pop-up balance, format-checks)."
+  findings_minor:
+    - "Matthew 24:40-41 row: 'one is taken' -- ESV reads 'one will be taken'."
+    - "Jeremiah 3:14: NASB reads 'I am a master to you', not 'I am your master' (ESV and CSB do)."
+    - "'Boaz takes it up in public' -- after the Ruth 4:6 cut, 'it' has lost its referent (the right of redemption)."
+    - "Key Takeaways 'He then refuses the cup' (after John 14:3): the Matthew 26:29 vow comes at the cup, before the John 14 discourse; 'then' reverses the order."
+    - "'That is an inference from a rabbinic legal fact and two New Testament statements' -- only Romans 6:9 is given."
+    - "Isaiah 54:5 Hebrew written with dagesh in References (בֹּעֲלַיִךְ), without it in the body (WLC: בֹעֲלַיִךְ)."
+    - "Undisclosed footnote: Revelation 19:7 'his Bride' is γυνή (LSB 'Lit wife'). wife-of-the-lamb.md carries it; one clause here would fit Matthew 1:20/24, where betrothed Mary is also γυνή."
+    - "bible_references: Revelation 7:15, Jude 24 and Matthew 22:1-14 no longer appear in the prose (occurrence lists cut); Hosea 2:16, Acts 1:7, Revelation 1:9, Ruth 4:15-17 are cited but not listed; Revelation 22:17 and 22:3-5 listed twice."
+    - "Tags: 2-corinthians, ruth and ezekiel carry real weight here and are absent; romans, hebrews and 1-peter are single-verse citations."
+    - "Primary siblings submission-in-context.md (Ephesians 5:21-33) and they-were-given-white-robes.md (Revelation 19:7-8) both link here; this study links neither back."
+    - "Discussion question 5 is labelled 'Comfort.', outside the facet set."
+    - "No word-renderings.toml decision for G3880 (ULT/BSB differ 51%) or H2368 (62%); the study states its own reading of both."
+    - "Style: 'Where else that domain appears is the point:' (announcement); 'Paul gives this teaching to comfort grieving believers.' (restates); the John 14:2 section runs three negatives in a row ('is not, by itself', 'not nuptial at all', 'not rivals'); 'in a story rather than a legal ruling -- the customs performed instead of codified' (double foil). Antithesis density about 1 per 450 words, inside the 1-per-210 drift line."
+  commentary_cross_check: >-
+    NLT Life Application Study Bible (not cited): confirms Eph 5:32 (marriage as a picture of Christ
+    and the church) and Rev 19:7-8 (bride = church; the clothing reflects Christ's work); complicates
+    the two-peoples reading ("the church consists of all faithful believers from all time"), which
+    the study already names as the alternative. No change recommended.
+  context_coverage: >-
+    Genre partial (apocalyptic lens named, little applied); occasion covered for Ephesians,
+    Revelation, 1 Thessalonians, thin for 2 Corinthians; literary context covered; original language
+    covered; cultural/transcultural covered (annex tiers); principle taught elsewhere covered;
+    statement of faith consistent.
+  human_review_needed: "Register of Key Takeaways, prayer and application; whether the theology is named or written around."
+  status: "Reported; nothing fixed."
+
+fix_2026-11-22_review:
+  scope: "Every finding of review_2026-11-21 (errors, should-fix, minor), plus the Check 26 / pop-up disagreement it reported."
+  errors_fixed: >-
+    Pattern table row 7 now quotes Isaiah 25:6 in the ESV's order ("will make for all peoples a
+    feast of rich food"). The apantesis sentence now credits the NIV BTSB with the escort reading
+    and calls that reading contested, pointing to rapture.md for the case. The paralambano table
+    gains Colossians 2:6 (34.53 with 27.13, ESV "as you received Christ Jesus the Lord"); the
+    "all four" claim is gone, and John 1:11 and Colossians 2:6 together carry the guard.
+  should_fix_fixed: >-
+    m. Ketubot sentence restores what the bride could say (the groom preparing through the same
+    months). Row 6 now says the many preparations made the timing unpredictable (CBSB Matt 25:1).
+    Tobit references name the book: "Tobit 8:19-20" in row 7, "(Tobit 1:3)" for Nineveh (KJV
+    Apocrypha 1:3, not 1:2), "(Tobit 3:7)" for Ecbatane. Ages plate legend and alt text read
+    "placed by its order, or inferred" (larkin.legend_row gained a `dashed` label; other plates'
+    output unchanged), and component 6's alt says it is placed by inference. Sight and rule now
+    quote their verbs (Revelation 22:4, 22:5 ESV).
+  minor_fixed: >-
+    "one will be taken" (ESV Matt 24:40); NASB "I am a master to you" (Jer 3:14); "Boaz takes up
+    the right of redemption"; Key Takeaways "The same night He refuses the cup"; "a New Testament
+    statement"; Isaiah 54:5 Hebrew in References without dagesh (WLC); gyne clause added under
+    "Betrothal was marriage in law" (Matt 1:20, 24; Rev 19:7 he gyne autou); bible_references
+    drops Rev 7:15, Jude 24, Matt 22:1-14 and the duplicate Rev 22:17 / 22:3-5, adds Hos 2:16,
+    Acts 1:7, Rev 1:9, Ruth 4:15-17, Col 2:6, Matt 24:40-41; tags add 2-corinthians, ruth,
+    ezekiel and drop romans, hebrews, 1-peter; back-links to submission-in-context.md and
+    they-were-given-white-robes.md; question 5 relabelled "Be transformed."; style: the table
+    announcement, the restating comfort sentence, the three negatives in the John 14:2 section
+    and the Tobit double foil rewritten.
+  renderings: >-
+    docs/data/word-renderings.toml gains G3880 (interpretive, follow the ESV per verse) and H2368
+    (wording, signet), both status "proposed" for the author to confirm.
+  tooling: >-
+    Check 26 exempted a bare number anywhere in a sentence naming a non-biblical work, but the
+    pop-up skipped one only straight after the name, so "fourteen in Tobit (8:19-20)" passed and
+    opened Judges 8:19-20. The rule now lives once, as otherWork() in app/src/utils/scriptureRefs.js
+    (nearest name wins: a work named after any Bible book in the sentence owns the number; credits
+    and times of day too), and both validate-content.js and popups.js call it. Validator output
+    across the corpus is unchanged; the pop-up now leaves such numbers unlinked instead of
+    guessing a Bible book.
+  verified: "npm test, npm run validate (no warning for this file), mkdocs build --strict."
+  open_questions:
+    - "Confirm or change the two proposed word-renderings entries (G3880, H2368)."
+
+evidence:
+  - {id: isa25-6-esv-order, what: "ESV Isaiah 25:6 puts 'for all peoples' before 'a feast of rich food'", tool: study_verse, args: {book: Isa, chapter: 25, verse: 6, work_id: esv-study-bible}, expect_contains: "make for all peoples a feast of rich food", checked: 2026-11-21}
+  - {id: jn14-3-esv, what: "John 14:3 ESV 'take you to myself'", tool: study_verse, args: {book: John, chapter: 14, verse: 3, work_id: esv-study-bible}, expect_contains: "I will come again and will take you to myself", checked: 2026-11-21}
+  - {id: 2co11-2-esv, what: "2 Corinthians 11:2 ESV", tool: study_verse, args: {book: 2Cor, chapter: 11, verse: 2, work_id: esv-study-bible}, expect_contains: "I betrothed you to one husband, to present you as a pure virgin to Christ", checked: 2026-11-21}
+  - {id: 2co1-22-esv, what: "2 Corinthians 1:22 has seal and guarantee in one clause", tool: study_verse, args: {book: 2Cor, chapter: 1, verse: 22, work_id: esv-study-bible}, expect_contains: "put his seal on us and given us his Spirit in our hearts as a guarantee", checked: 2026-11-21}
+  - {id: rev19-7-esv, what: "Revelation 19:7 ESV memory verse", tool: study_verse, args: {book: Rev, chapter: 19, verse: 7, work_id: esv-study-bible}, expect_contains: "the marriage of the Lamb has come, and his Bride has made herself ready", checked: 2026-11-21}
+  - {id: eph5-32-esv, what: "Ephesians 5:32 ESV memory verse", tool: study_verse, args: {book: Eph, chapter: 5, verse: 32, work_id: esv-study-bible}, expect_contains: "This mystery is profound, and I am saying that it refers to Christ and the church", checked: 2026-11-21}
+  - {id: mt24-40-esv, what: "Matthew 24:40 ESV reads 'will be taken'", tool: study_verse, args: {book: Matt, chapter: 24, verse: 40, work_id: esv-study-bible}, expect_contains: "one will be taken and one left", checked: 2026-11-21}
+  - {id: jer3-14-nasb, what: "NASB 1995 Jeremiah 3:14 reads 'a master to you'", tool: study_verse, args: {book: Jer, chapter: 3, verse: 14, work_id: nasb-1995}, expect_contains: "For I am a master to you", checked: 2026-11-21}
+  - {id: skenoo-five, what: "skenoo G4637 occurs 5 times in the NT, 4 in Revelation", tool: bible_concordance, args: {strongs: G4637, work_id: macula-greek-sblgnt}, expect_count: 5, checked: 2026-11-21}
+  - {id: amomos-eight, what: "amomos G299 occurs 8 times in the NT", tool: bible_concordance, args: {strongs: G299, work_id: macula-greek-sblgnt}, expect_count: 8, checked: 2026-11-21}
+  - {id: apantesis-three, what: "apantesis G529 occurs 3 times (Matt 25:6; Acts 28:15; 1 Thess 4:17)", tool: bible_concordance, args: {strongs: G529, work_id: macula-greek-sblgnt}, expect_count: 3, checked: 2026-11-21}
+  - {id: arrabon-six, what: "arrabon G728: 3 NT + 3 LXX (Gen 38:17, 18, 20)", tool: bible_concordance, args: {strongs: G728}, expect_count: 6, checked: 2026-11-21}
+  - {id: harmozo-once, what: "harmozo G718 occurs once in the NT (2 Cor 11:2)", tool: bible_concordance, args: {strongs: G718, work_id: macula-greek-sblgnt}, expect_count: 1, checked: 2026-11-21}
+  - {id: mysterion-eph-six, what: "mysterion G3466 six times in Ephesians", tool: bible_concordance, args: {strongs: G3466, work_id: macula-greek-sblgnt, book: Eph}, expect_count: 6, checked: 2026-11-21}
+  - {id: mone-two, what: "mone G3438 twice (John 14:2, 23)", tool: bible_concordance, args: {strongs: G3438, work_id: macula-greek-sblgnt}, expect_count: 2, checked: 2026-11-21}
+  - {id: loutron-two, what: "loutron G3067 twice (Eph 5:26; Titus 3:5)", tool: bible_concordance, args: {strongs: G3067, work_id: macula-greek-sblgnt}, expect_count: 2, checked: 2026-11-21}
+  - {id: makon-twot, what: "makon H4349 is TWOT 964c", tool: twot_strongs, args: {strongs_id: H4349}, expect_contains: "964c", checked: 2026-11-21}
+  - {id: btsb-1th4-17-escort, what: "NIV BTSB argues the escort reading at 1 Thess 4:17 (it does not call it contested)", tool: study_note, args: {book: 1Thess, chapter: 4, verse: 17, work_id: niv-biblical-theology-study-bible, note_type: study_note}, expect_contains: "escorts him to earth", checked: 2026-11-21}
+  - {id: cbsb-mt25-1-timing, what: "CBSB on Matt 25:1 attributes the timing to preparations and the bride's relatives' haggling", tool: study_note, args: {book: Matt, chapter: 25, verse: 1, work_id: niv-cultural-backgrounds-study-bible, note_type: study_note}, expect_contains: "the bride’s relatives haggling", checked: 2026-11-21}
+  - {id: esvsb-eph5-26-27, what: "ESV SB Eph 5:26-27 'derived from the consecrating sacrifice'", tool: study_note, args: {book: Eph, chapter: 5, verse: 26, work_id: esv-study-bible, note_type: study_note}, expect_contains: "is derived from the consecrating sacrifice of Christ on the cross", checked: 2026-11-21}
+  - {id: esvsb-ezek16-8, what: "ESV SB Ezek 16:8 'The bonds are formed before the cleansing'", tool: study_note, args: {book: Ezek, chapter: 16, verse: 8, work_id: esv-study-bible, note_type: study_note}, expect_contains: "The bonds are formed before the cleansing of Ezek. 16:9", checked: 2026-11-21}
+  - {id: hermosamen-aorist, what: "hermosamen at 2 Cor 11:2 is aorist middle indicative", tool: bible_interlinear, args: {book: 2Cor, chapter: 11, verse: 2, interlinear: bsb}, expect_contains: "V-AIM-1S", checked: 2026-11-21}
+  - {id: esphragisthete-aorist, what: "esphragisthete at Eph 1:13 is aorist passive indicative", tool: bible_interlinear, args: {book: Eph, chapter: 1, verse: 13, interlinear: bsb}, expect_contains: "V-AIP-2P", checked: 2026-11-21}
+  - {id: col2-6-esv, what: "Colossians 2:6 ESV 'as you received Christ Jesus the Lord'", tool: study_verse, args: {book: Col, chapter: 2, verse: 6, work_id: esv-study-bible}, expect_contains: "as you received Christ Jesus the Lord", checked: 2026-11-22}
+  - {id: rev22-4-esv, what: "Revelation 22:4 ESV 'They will see his face'", tool: study_verse, args: {book: Rev, chapter: 22, verse: 4, work_id: esv-study-bible}, expect_contains: "They will see his face", checked: 2026-11-22}
+  - {id: rev22-5-esv, what: "Revelation 22:5 ESV 'they will reign forever and ever'", tool: study_verse, args: {book: Rev, chapter: 22, verse: 5, work_id: esv-study-bible}, expect_contains: "they will reign forever and ever", checked: 2026-11-22}
+  - {id: rev19-7-gyne, what: "Revelation 19:7 'his Bride' is gyne", tool: bible_interlinear, args: {book: Rev, chapter: 19, verse: 7}, expect_contains: "γυνὴ", checked: 2026-11-22}
+  - {id: mt1-24-gyne, what: "Matthew 1:24 'his wife' is gyne", tool: bible_interlinear, args: {book: Matt, chapter: 1, verse: 24}, expect_contains: "γυναῖκα", checked: 2026-11-22}
+  - {id: gen38-18-signet-esv, what: "Genesis 38:18 ESV 'Your signet'", tool: study_verse, args: {book: Gen, chapter: 38, verse: 18, work_id: esv-study-bible}, expect_contains: "Your signet and your cord", checked: 2026-11-22}

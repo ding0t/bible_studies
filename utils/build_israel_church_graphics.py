@@ -500,7 +500,7 @@ def bride_and_the_ages():
     out += c
 
     y += 140
-    out += legend_row(36, y)
+    out += legend_row(36, y, dashed="Placed by its order, or inferred")
     y += 90
     out += closing_verse(y, "“that where I am you may be also”", "John 14:3 (ESV)")
     h = y + 74
@@ -511,14 +511,14 @@ def bride_and_the_ages():
         "thousand years (Revelation 20:1-6, a span the text counts) to the new heaven and new "
         "earth. Components 1 to 5, purchased, betrothed, pledged, set apart and preparing, fall in "
         "the church age, marked you are here. Component 6, fetched, caught up to meet the Lord in "
-        "the air (1 Thessalonians 4:17), is a dashed arrow up from the end of the church age to a "
+        "the air (1 Thessalonians 4:17), is a dashed arrow, placed by inference, up from the end of the church age to a "
         "cloud labelled in heaven, where component 7, married and feasting, the marriage of the "
         "Lamb (Revelation 19:7-9), is placed by its order. A solid arrow brings Christ back in "
         "power at the end of the week (Revelation 19:11; Matthew 24:29). The great white throne (Revelation "
         "20:11-15) stands between the thousand years and the new creation. A red bracket marks "
         "the age between components 7 and 8: the return, the reign and the judgment. Component 8, "
         "homed, God dwells with them (Revelation 21:3), is in the new heaven and new earth. Solid "
-        "is dated by the text; dashed is placed by its order. It closes on John 14:3, that where I "
+        "is dated by the text; dashed is placed by its order, or inferred. It closes on John 14:3, that where I "
         "am you may be also."
     )
     return "\n".join(svg_open(h, "From the supper to the house", desc) + out + ["</svg>"]) + "\n"

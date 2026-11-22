@@ -28,6 +28,7 @@ draft: false
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 2:15
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 2:16-17
 - [The Appointed Times](../../feasts/feasts.md) — 2:16-17
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 2:6
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 2:13-14
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:14
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 2:15

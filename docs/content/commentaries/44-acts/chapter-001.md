@@ -28,6 +28,7 @@ draft: false
 - [Simon the Zealot](../../biblical-figures/simon-the-zealot.md) — 1:13
 - [Six Days of History](../../last-things/six-days-of-history.md) — 1:7
 - [Thaddaeus (Judas son of James)](../../biblical-figures/thaddaeus.md) — 1:13
+- [The Bride of Christ](../../israel-and-church/bride-of-christ.md) — 1:7
 - [The Day Is Near](../../last-things/day-is-near.md) — 1:6-11
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 1:7
 - [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 1:11-12

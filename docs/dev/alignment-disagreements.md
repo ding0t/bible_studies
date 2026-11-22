@@ -176,4 +176,4 @@ quoted a word or two at a time), located by STEP Bible's TTESV tags (Tyndale Hou
 | G3779 | οὕτω(ς) | thus | 70 | 67% | thus (31); way (7); manner (4) | how (10); way (10); like (8) | way (13); thus (13); such (4) |  |  |
 | H8267 | שֶׁקֶר | falsehood | 100 | 67% | falsehood (41); lie (11); deceit (5) | lying (15); lies (12); lie (7) | lying (20); lies (19); false (18) |  |  |
 
-Decided but below the cut-off this run: H6041.
+Decided but below the cut-off this run: G3880, H2368, H6041.

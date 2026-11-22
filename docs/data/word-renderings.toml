@@ -85,3 +85,15 @@ kind = "wording"
 follow = "booth(s)"
 status = "decided"
 why = "סֻכָּה (sukkah) is a shelter of branches, put up for the feast (Leviticus 23:42-43; Nehemiah 8:15-16). The ULT's huts, the BSB's tabernacles and the ESV's booths name the same thing. The Septuagint's ἑορτὴ σκηνῶν (Leviticus 23:34) and John's σκηνοπηγία (John 7:2) are where the feast's other name, Tabernacles, comes from; the site quotes the ESV's Booths and uses Tabernacles as the feast's common name."
+
+[G3880]
+kind = "interpretive"
+follow = "the ESV's rendering in each verse"
+status = "proposed"
+why = "παραλαμβάνω (paralambanō) carries senses Louw-Nida separates: receiving someone into one's company (34.53), as Joseph \"took his wife\" (Matthew 1:24) and Jesus will \"take you to myself\" (John 14:3); taking away, \"one will be taken\" (Matthew 24:40, 15.168); and receiving what is handed on, \"as you received Christ Jesus the Lord\" (Colossians 2:6). The ULT's \"takes along\" and the BSB's \"took\" each fit some of these. The context names the sense, and the ESV's wording follows it."
+
+[H2368]
+kind = "wording"
+follow = "signet"
+status = "proposed"
+why = "חוֹתָם (chotam) is a seal, the stamp a man pressed into clay to mark a thing as his own. Carried on a cord, as Judah's was, it is a signet (Genesis 38:18, ESV). The ULT's signet and the BSB's seal name the same object."
