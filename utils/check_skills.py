@@ -34,7 +34,8 @@ ROOT = Path(__file__).resolve().parent.parent
 SKILLS = ROOT / ".claude" / "skills"
 MCP_SERVER = ROOT / "references" / "build" / "mcp_server.py"
 
-WORD_BUDGET = 5000
+# Lowered from 5,000 on 2026-11-23, when every SKILL.md was trimmed to under 2,300 words.
+WORD_BUDGET = 2500
 
 TOOL_SHAPE = re.compile(
     r"^(bible|twot|study|passage|research_batch|review|read|evidence|source)_[a-z_]+$"

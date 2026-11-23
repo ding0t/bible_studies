@@ -1,147 +1,87 @@
 # Style guide: writing that doesn't sound AI-generated
 
-Phase 7 of [SKILL.md](SKILL.md) links here. This isn't about content — the exegesis-before-hermeneutics
-method, the word studies, the citation discipline all stay exactly as demanding as the rest of this
-skill requires. It's about the surface of the prose: the tics that make a well-researched study *read*
-like an LLM wrote it, which undercuts the reader's trust in the research underneath.
+This page governs the surface of the prose, the tics that make a well-researched study read as
+machine-written and so cost the reader's trust in the research. The method itself is in
+[SKILL.md](SKILL.md). The corpus evidence behind each rule is in
+[why-the-rules.md](../why-the-rules.md#style-guide).
 
 ## Write toward this
 
-**Eight rules, and they are the whole guide.** Everything after this section is diagnostic — the
-specific shapes prose takes when it drifts off them, with corpus evidence behind each. Write toward
-the eight and the drift mostly doesn't happen; check against the tells and you only catch instances,
-one at a time, forever. Use these from the first sentence of the first draft, not as a
-pass at the end.
+**Eight rules, and they are the whole guide.** Everything after this section diagnoses drift off
+them. Use them from the first sentence of the first draft: a tell list only ever removes instances,
+one at a time.
 
-**1. Every sentence adds a fact, a citation, or a step in the argument.** This single rule subsumes
-most of the page. An announcement adds none of the three. A restated conclusion adds none. A straw
-contrast adds a fact about nobody. A grader adjective adds emphasis where evidence should go. If a
-sentence carries only rhythm, it is already the defect — you never have to work out *which* tell it
-is.
+**1. Every sentence adds a fact, a citation, or a step in the argument.** An announcement adds none.
+A restated conclusion adds none. A straw contrast adds a fact about nobody. A grader adjective adds
+emphasis where evidence should go. A sentence that carries only rhythm is the defect, whichever tell
+it is.
 
 **2. Name the actor and show the mechanism.** *"Jubilees is doing exegesis here. It has a problem in
 Genesis 2:17 — a sentence saying Adam will die in a day, and a narrative in which he lives 930 years
-— and it solves the problem by taking the thousand-year day as the text's plain sense."* Not *"this
-is an exegetical solution, not a mystical flourish."* Mechanisms are what you supply; categories are
-what the reader concludes. When you find yourself asserting what kind of thing something is, show
-how it works instead and delete the assertion.
+— and it solves the problem by taking the thousand-year day as the text's plain sense."* Supply the
+mechanism and let the reader conclude the category. Where you catch yourself asserting what kind of
+thing something is, show how it works and delete the assertion.
 
-**3. Lead with the fact.** Put the load-bearing thing in the first clause of the first sentence.
-*"The Temple ran on it."* Whatever would have introduced it — how clear the evidence is, how
-significant, what it demonstrates, that it is about to be demonstrated — is either unnecessary or
-belongs after the fact rather than in front of it.
+**3. Lead with the fact.** Put the load-bearing thing in the first clause. *"The Temple ran on it."*
+Anything that would introduce it (how clear, how significant, that it is about to be shown) is
+unnecessary or goes after it.
 
-**4. Let the citation carry the emphasis.** A verse reference, a daf number, an occurrence count, a
-manuscript variant and a date are each stronger than any adjective available to you. Reaching for
-*decisive*, *striking* or *remarkable* is usually a sign of being short on evidence rather than short
-on vocabulary — go and get the reference instead.
+**4. Let the citation carry the emphasis.** A reference, a daf number, a count, a variant or a date
+is stronger than any adjective. Reaching for *decisive*, *striking* or *remarkable* usually means
+you are short on evidence: go and get the reference. Every reference on the site opens its verse in
+a pop-up, so a verse you only point to needs no paraphrase. A verse you argue from is still quoted:
+the pop-up shows the BSB, and nothing pops up when the study is read aloud (rule 7).
 
-On this site a bare citation is also complete for the reader, because every reference opens its
-verse in a pop-up. A verse you only point to needs no paraphrase to save a lookup; that sentence
-adds no fact, so rule 1 cuts it. A verse you argue from still gets quoted. The pop-up shows the reading translation (the BSB)
-rather than the translation you argued from, and nothing pops up when the study is read aloud
-(rule 7).
+**5. Define affirmatively.** Applied before the first sentence is written. Three shapes are ruled
+out:
 
-**5. Define affirmatively. Do not build a claim out of what it is not.** This is a structural
-prohibition and it applies before the first sentence is written, not as a cleanup pass. Three named
-shapes are ruled out:
+- **Thesis-antithesis**: "X, not Y" / "X — not Y" / "X rather than Y" / "not only X but Y".
+- **Dialectical hedging**: advancing a claim by staging and dismissing its opposite.
+- **Contrastive reframes**: "it is not *A*; it is *B*", where no reader proposed *A*.
 
-- **Thesis-antithesis** — "X, not Y" / "X — not Y" / "X rather than Y" / "not only X but Y".
-- **Dialectical hedging** — advancing a claim by staging and then dismissing its opposite.
-- **Contrastive reframes** — "it is not a *A*; it is a *B*", where the reader never proposed *A*.
+Say what the thing is, then give the evidence. A contrast that feels necessary signals an
+underspecified claim, and the fix is an example, a count or a citation. *"He would withdraw to
+desolate places and pray"*, with the periphrastic imperfect and five occurrences of ἔρημος, does
+what *"prayer is a practice kept, not a mood caught"* reached for.
 
-**Say what the thing is, then give the evidence.** Where a contrast feels necessary, that is almost
-always a signal that the affirmative claim is underspecified — the fix is a concrete example, a
-count, or a citation, not a foil. *"He would withdraw to desolate places and pray"* plus the
-periphrastic imperfect and five occurrences of ἔρημος does the work that *"prayer is a practice
-kept, not a mood caught"* was reaching for, and does it with evidence instead of a discarded
-alternative.
+**The narrow exception**: keep a contrast where the reader arrives holding the wrong version and the
+study's job is to remove it (*"an argument from silence rather than a prohibition"*). Quoted
+Scripture is exempt: "not my will, but yours" is not yours to edit. This shape gets a prohibition
+because detection fails on it: counts went up between revisions.
 
-**The narrow exception, and it is narrow.** Keep a contrast only where the reader genuinely arrives
-holding the wrong version and the study's job is to remove it — *"an argument from silence rather
-than a prohibition"* is doing that. Quoted Scripture is exempt; "not my will, but yours" is not
-yours to edit. Everything else goes.
+**6. Write the theology as the subject.** The author rates this rule highest, and it governs what a
+paragraph is *for*, so hold it while drafting. Write as someone who believes this, explaining it to
+someone who needs it to be true. The research is done in the analytical voice; the writing is not.
 
-**Why prohibit rather than diagnose.** Because this one does not respond to detection.
-`prayer-as-communion.md` carried 38 instances after two full adversarial reviews and a clean
-validate, and the count went *up* between revisions — the same agent that had just cut them wrote
-more within the hour. A rule applied at drafting stops them being generated; a tell list only ever
-removes instances, one at a time, forever.
+- **State what the passage shows about God, in the study's own voice.** Finish *"this shows that God
+  ___"* in the prose. That sentence is the point of the section.
+- **Follow the doctrine to its named form**: adoption, the atonement, justification. The tradition's
+  nouns are shorter than the paraphrase that avoids them.
+- **Name the person**: "your Son Jesus", "the Holy Spirit". A prayer closes "In Jesus' name. Amen."
+- **Land it in the second person.** A doctrine that never reaches *"so you may…"* has been described.
+  Key Takeaways, Be Transformed and the prayer are where to check.
 
-**6. Write the theology as the subject. Say what is true about God, name it, and say what it means
-for the reader.** This is the rule the site's author rates highest, and it is compositional: it
-governs what a paragraph is *for*, so it has to be held while drafting rather than checked
-afterwards.
+**Mark the confidence as you go.** Say a settled thing plainly; say of a contested one that it is
+contested, with the case on both sides (as this corpus does for 1 Peter 3:19 and John 19:31's "high
+day"). Marked uncertainty is precision. The failure is the unmarked middle, where a reader cannot
+tell which they are reading. There is no hedging vocabulary to grep for: every real instance was an
+accurate sentence with the name missing, so this is fixed only before the sentence is written.
 
-**The voice to write in:** someone who believes this, explaining it to someone who needs it to be
-true. Not a scholar reporting what a text has been taken to mean. The research is done in the
-analytical voice; the writing is not.
+**7. Write it to be read aloud.** These studies are read to families, taught from and quoted in
+sermons, as the New Testament letters were read to a gathered church. Average sentence length is not
+the problem; the corpus averages within a word of Ephesians 5. Four things are:
 
-Four positive moves:
+- **The median.** Paul writes mostly short and occasionally long: Romans 12 averages 20 words with a
+  median of **10**. "Let love be without hypocrisy." Uniform mid-length prose has nothing that lands.
+  This is the biggest cause of "a lot of words without much substance".
+- **Sentences of 35+ words**: 7–17% in Paul, a quarter in the worst study. A reader aloud runs out of
+  air.
+- **Nominalisation**: "the identification", "the preparation". Turn abstract nouns back into verbs.
+- **Address**: Paul talks *to someone*, 32–49 "you" per thousand words in Romans 12 and Philippians 4.
 
-- **State what the passage shows about God, in the study's own voice.** Finish the sentence *"this
-  shows that God ___"* and put the answer in the prose. If the exegesis established something about
-  God's character, purpose or work, that sentence is the point of the section — not an inference
-  left for the reader to assemble.
-- **Follow the doctrine to its named form.** Where a passage turns on adoption, write adoption.
-  Where it rests on the atonement, write the atonement and say why it bears here. The tradition's
-  nouns are load-bearing, and shorter than the paraphrase that avoids them.
-- **Name the person.** "Your Son Jesus", not "your Son". "The Holy Spirit", not "the Spirit's role".
-  A prayer closes "In Jesus' name. Amen."
-- **Land it in the second person.** A doctrine that never reaches *"so you may…"* has been described
-  rather than taught. Key Takeaways, Be Transformed and the prayer are where this is checked.
-
-**Mark the confidence as you go.** State the settled thing plainly; say of a contested one that it is
-contested, and give the case on both sides. Doing this *while drafting* is what stops the rule
-becoming licence to overclaim — AGENTS.md requires exegesis run uncoerced, and this corpus holds
-1 Peter 3:19, John 19:31's "high day" and the two-compartment reading of Hades with their costs
-stated. Marked uncertainty is precision. The failure is the unmarked middle, where the prose is
-careful enough that a reader cannot tell which they are reading.
-
-**Why this is a drafting rule and not a check.** Searching for the symptom does not work, because
-there is no symptom to search for. Measured across this corpus the hedging vocabulary you would
-think to ban — *in some sense*, *can be seen as*, *points toward*, *arguably* — appears in single
-figures across ~90 files. Every real instance was a sentence that was accurate, unhedged, and simply
-missing the name. Nothing greps for an absence. The only place this can be fixed is before the
-sentence is written.
-
-**7. Write it to be read aloud.** These studies are read to families, taught from, and quoted in
-sermons. The New Testament letters were written for exactly that — read to a gathered church by
-someone standing up — which is why they are easy to say and this corpus is not. A reader tried
-reading `bride-of-christ.md` to his wife and stopped: "it sounds too vague and sparse… a sentence
-that has a lot of words but didn't have much substance."
-
-**Average sentence length is not the problem, and chasing it will waste your time.** Measured:
-
-| | avg | **median** | **≥35 words** | nominalisations | "you" |
-|---|---|---|---|---|---|
-| `bride-of-christ.md` | 25.0 | **22** | **24.8%** | 25.6/1k | 9.2/1k |
-| Ephesians 5 (WEB) | 23.4 | 20 | 16.7% | 21.4/1k | 17.8/1k |
-| Romans 12 (WEB) | 20.2 | **10** | 15.0% | 19.8/1k | 32.1/1k |
-| Philippians 4 (WEB) | 17.4 | 15 | 7.4% | 14.8/1k | 48.6/1k |
-| 1 Corinthians 13 (WEB) | 18.0 | 13 | 6.7% | **3.6/1k** | 0 |
-
-The study's average is *within one word of Ephesians 5*. Four things separate them:
-
-- **Paul's median sits far below his mean; the corpus's sits near it.** Romans 12 averages 20 words
-  and has a median of **10** — half its sentences are ten words or shorter. "Let love be without
-  hypocrisy." "Abhor that which is evil." He writes mostly short and occasionally long, so a point
-  *lands* and then gets developed. Uniform mid-length prose has no rhythm, nowhere to breathe, and
-  nothing that lands. **This is the single biggest cause of "a lot of words without much substance."**
-- **A quarter of the study's sentences are ≥35 words**, against 7–17% of Paul's. At 35 words a reader
-  aloud runs out of air.
-- **Nominalisation.** "The identification", "the preparation", "reconstructing first-century wedding
-  practice." Abstract nouns where verbs belong. 1 Corinthians 13 runs at 3.6 per thousand and is the
-  most quoted chapter Paul wrote.
-- **Address.** Paul is talking *to someone* — 32 and 49 "you" per thousand in Romans 12 and
-  Philippians 4. The corpus describes something to nobody. (1 Corinthians 13 has none, deliberately;
-  that is a chosen effect, not a default.)
-
-**How to fix a paragraph:** find the longest sentence and break it where the "and", the semicolon or
-the dash is. Put the point in a short sentence of its own. Turn one abstract noun back into a verb.
-Then read the paragraph out loud, and if you run out of breath, break it again.
-
-Worked example. Sixty-three words, one sentence:
+**To fix a paragraph:** break the longest sentence at its "and", semicolon or dash; give the point a
+short sentence of its own; turn one abstract noun into a verb; read it aloud, and break it again if
+you run out of breath.
 
 > Ephesians is written by a prisoner — "I, Paul, a prisoner of Christ Jesus on behalf of you
 > Gentiles" (3:1), "an ambassador in chains" (6:20) — and the marriage passage sits inside a long
@@ -156,197 +96,86 @@ Same content, six sentences, median 9:
 > Spirit-filled conduct, and that section opens "be filled with the Spirit" (5:18). So the
 > husband-and-wife material is an application. Paul is not writing a treatise on marriage.
 
-**Two tests, both cheap.** *Deletion*: cut the sentence, re-read the paragraph, and see whether any
-fact, citation or step went with it. *Skim*: read the draft and notice what your eye slides past to
-get to the content — that reflex **is** the finding, and it is exactly what the reader will do.
-
-**8. Capitalise pronouns for the Godhead in the site's own prose. Never inside a quotation.**
-House style, set by the site's author: `He`, `Him`, `His`, `Himself` when the referent is the
-Father, the Son, or the Holy Spirit. Lowercase for everyone else — Moses, Paul, Pharaoh, Melchizedek,
-Satan.
-
-**The quotation rule is absolute and it is the half that gets broken.** The ESV is this site's
-default and the ESV does not capitalise divine pronouns; neither do the NIV, CSB, NLT, KJV, WEB, ASV
-or LEB. So a quoted verse keeps lowercase *even when the sentence around it capitalises*, and that
-visible mismatch is correct:
+**8. Capitalise pronouns for the Godhead in the site's own prose, never inside a quotation.** `He`,
+`Him`, `His`, `Himself` for the Father, the Son and the Holy Spirit; lowercase for everyone else.
+The ESV and most translations don't capitalise, so a quoted verse stays lowercase even when the
+sentence around it capitalises, and that mismatch is correct:
 
 > He had already told them what He came to do. "The Son of Man came not to be served but to serve,
 > and to give his life as a ransom for many" (Mark 10:45, ESV).
 
-Altering a quotation to match house style is a misquotation, and this repo has shipped that class of
-error before (an ESV "honored" anglicised to "honoured"). The same applies to a quoted commentary,
-a footnote citation, and a translation-comparison table — those print what the source prints.
-
-**Where the referent is contested, the capital is an argument, so make it deliberately.** This is
-not a formatting decision. Isaiah 53:5 is the clean case: NKJV, NASB, LSB and BSB print "**He** was
-pierced for our transgressions"; ESV, NIV, CSB, NLT, KJV and WEB print "**he**". The capital
-pre-commits the reader to identifying the Servant as Christ before the text has argued it. Acts
-8:32-35 makes that identification explicitly, so the conclusion is right — but let the New Testament
-do the work rather than a capital letter. **In a study's own prose, capitalise where the study has
-established the referent, and leave lowercase where the identification is the thing under
-discussion.** YLT and JPS both do exactly this, from opposite theologies: both capitalise at Psalm
-23:3 ("for **His** name's sake") where the referent is unambiguously YHWH, and both drop to
-lowercase through Isaiah 53.
-
-**Measured, so the convention is checkable.** Across Psalms, Isaiah, John, Romans and Hebrews, the
-share of `He`/`Him`/`His` against all third-person masculine singular pronouns runs 63% in NKJV,
-NASB, LSB and BSB; 52% in JPS and 39% in YLT; and 1-4% in every translation that does not capitalise
-at all — that floor being ordinary sentence-initial capitals, not policy. Hebrew and Greek have no
-capital letters, so nothing in the source text settles it either way.
+Altering a quotation to house style is a misquotation; the same goes for a quoted commentary, a
+footnote and a comparison table. **Where the referent is contested, the capital is an argument.**
+Isaiah 53:5 is "He" in the NKJV, NASB, LSB and BSB and "he" in the ESV, NIV, CSB and WEB; the
+capital decides the Servant before the text has argued it. Capitalise where the study has
+established the referent, and leave lowercase where the identification is under discussion (YLT and
+JPS both capitalise Psalm 23:3 and drop to lowercase through Isaiah 53).
 
 ## The tell: words that assert confidence instead of earning it
 
-Bare intensifiers — **genuinely, truly, actually, really, certainly, indeed, undeniably, exactly,
-honestly** — let a
-sentence claim something while also pre-empting the reader's doubt about it, without adding any
-information. "God's provision is genuinely abundant" claims nothing "God's provision is abundant"
-doesn't; the extra word is there to sound more sure, not to be more sure. Cut it — don't swap in a
-synonym, just delete it and read the sentence again. It's almost always stronger bare.
+**Bare intensifiers** (genuinely, truly, actually, really, certainly, indeed, undeniably, exactly,
+honestly) claim certainty without adding information. "God's provision is genuinely abundant" says
+nothing "God's provision is abundant" doesn't. Delete the word; don't swap in a synonym. *Actually*
+correcting a stated alternative earns its place.
 
-(This is not the same as *actually* used for real contrast — "it wasn't Moses who gave it; it was, in
-fact, the Father, present tense" earns its emphasis because it's correcting a stated alternative. The
-tell is the word doing work no contrast requires.)
-
-Same instinct, different target — watch for grader adjectives applied to nearly everything: **decisive,
-crucial, profound, striking, remarkable, powerful, rich, compelling.** If every claim in a study is
-"decisive," none of them are. State the fact and let it carry its own weight; reserve a strong adjective
-for the one place in the study that actually earns it by comparison to everything around it.
+**Grader adjectives** (decisive, crucial, profound, striking, remarkable, powerful, rich,
+compelling): if every claim is decisive, none is. Reserve a strong adjective for the one place that
+earns it by comparison.
 
 ## The tell: narrating the argument instead of making it
 
-**This is a template with an open slot, exactly like `worth ___` below, and it has to be learned the
-same way — by shape, not by specimen.**
+A template with an open slot, learned by shape:
 
 > ⟨announcement that a point is arriving⟩ + ⟨the point⟩
 
-The announcing half fills endlessly: *"Note what this is,"* *"Notice that…,"* *"What's happening
-here is…,"* *"What it contains is…,"* *"What comes bundled with it is…,"* *"The thing to notice
-is…,"* *"That matters, because…,"* *"This is precisely…,"* *"Credit where due,"* *"Against
-overreading."* Cut the announcement and keep the point; it stands on its own. Say the observation,
-don't narrate that an observation is arriving.
+The slot fills endlessly: *"Note what this is,"* *"Notice that…,"* *"What's happening here is…,"*
+*"The thing to notice is…,"* *"That matters, because…,"* *"This is precisely…,"* *"Credit where
+due."* Cut the announcement and keep the point.
 
-**It travels with a straw alternative.** Announcing a point opens a slot for a contrast, and the
-contrast is generally against something nobody proposed:
+**It travels with a straw alternative:** ⟨announcement⟩. It is not ⟨straw⟩; it is ⟨the real thing⟩.
+*"Note what this is. It is not a mystical flourish; it is an exegetical solution."* Replace the
+construction with the demonstration (rule 2).
 
-> ⟨announcement⟩. It is not ⟨straw⟩; it is ⟨the real thing⟩.
-
-*"Note what this is. It is not a mystical flourish; it is an exegetical solution."* Both halves are
-overhead — no reader had suggested a mystical flourish, and the sentences that follow were going to
-demonstrate the exegesis anyway. Replace the construction with the demonstration: show the mechanism
-and the category takes care of itself. (*"Jubilees is doing exegesis here. It has a problem in
-Genesis 2:17 — a sentence saying Adam will die in a day, and a narrative in which he lives 930
-years — and it solves the problem by…"*)
-
-**Where this is actually produced is revision, not first drafting.** The rule near the bottom of this
-page — that throat-clearing gets added while tightening the transition around a sentence, "which is
-exactly backwards" — bites hardest here. On `last-things/day-is-a-thousand-years.md`, four instances
-were cut in one pass and **three more appeared in the next two revisions of the same paragraphs**,
-each written within an hour of the cut, by a writer who had just finished removing them. Re-run this
-section after every substantive rewrite, not only before `draft: false`.
-
-**`npm run validate` will not catch any of it.** Its four style checks are `worth ___`, the "rather
-than" virtue contrast, bullet length, and reader-reassurance address. Every announcement listed above
-passes them clean, which is why a green validate run is not evidence this section was done.
+**It comes back in revision**, while the transition around a sentence is being tightened. Re-run
+this section after every substantive rewrite. `npm run validate` catches none of it.
 
 ### `worth ___` is a template, not a phrase
 
-This one gets its own heading because it is the single tell that keeps getting through, and the
-reason is worth understanding: **it is not a fixed phrase, it is a template with an open slot.**
+> it is/it's **worth** ⟨being clear / noting / stating / asking / flagging / remembering / a mention⟩ **that**…
 
-> it is/it's **worth** ⟨being clear / noting / stating / saying / asking / flagging / remembering /
-> pointing out / bearing in mind / a mention⟩ **that**…
+The commonest tell in the corpus, because it generates endlessly: a writer avoiding three listed
+specimens still writes *"it is worth being clear that."* *"Matthew's word for Judas' response is
+worth noting. He 'changed his mind'…"* → *"Matthew's word for Judas' response: he 'changed his
+mind'…"*
 
-Every other tell on this page is a near-fixed string, so knowing the string is enough to avoid it.
-This one generates endlessly. An audit of `docs/content/` found the other eight families at 0-3
-instances each and this one at **48** (`npm run validate` reports the live count) — not because the
-rule was missing, but because the guide used to list three specimens ("Worth noting," "It's worth
-asking whether," "One further point worth making") and a writer avoiding those three will still
-happily produce *"it is worth being clear that."* Learn the shape, not the examples.
+**Check for a doubled claim underneath.** *"Scripture never explains this, and it is worth being
+clear that no verse comments on it"* is one claim in two coats: *"Scripture never explains this."*
 
-The cost is exactly what it looks like: the slot-filler verb is doing no work. *"Matthew's word for
-Judas' response is worth noting. He 'changed his mind'…"* → *"Matthew's word for Judas' response:
-he 'changed his mind'…"*
-
-**Check for a doubled claim underneath it.** This construction attracts the *restated conclusion*
-tell from the section below, because announcing a point and then making it invites saying it twice.
-From a published study:
-
-> Scripture never explains this, and it is worth being clear that no verse comments on it.
-
-"Scripture never explains this" and "no verse comments on it" are one claim wearing two coats.
-Fourteen words doing four words of work: *"Scripture never explains this."* When you cut a `worth
-___`, re-read what's left on both sides of it — the redundancy is usually still sitting there.
-
-**Where it earns its place.** Not every instance is filler, which is why the validator flags this at
-warning level rather than as an error. *"Each proposal is worth stating and declining"*
-(`biblical-figures/james-son-of-alphaeus.md`) tells the reader the shape of the next four paragraphs
-— state each theory, then reject each — and deleting it loses that. The test is the same as
-everywhere else on this page: **delete it and re-read.** If the paragraph still says everything it
-said, it was filler. Roughly a third of the corpus instances survive that test; two thirds don't.
+**Where it earns its place**: *"Each proposal is worth stating and declining"* tells the reader the
+shape of the next four paragraphs. Delete and re-read; if nothing is lost, it was filler. About a
+third of corpus instances survive. Validator Check 10 flags it as a warning.
 
 ## The tell: narrating your own editorial virtue
 
-The root of the section above, stated generally, because it generates more than one surface form:
-**do the honest thing; don't also tell the reader you're doing it.** Disclosing a dependency, naming
-a weakness in your own argument, admitting a text is difficult — all good. Commenting on the fact
-that you disclosed it is the writer awarding himself marks. The disclosure already *is* the
-disclosure.
+**Do the honest thing; don't also tell the reader you're doing it.** Three shapes:
 
-Three shapes, all from published studies on this site:
+- **The virtue contrast**: ⟨did the honest thing⟩ **rather than** ⟨smoothing it over / hiding it⟩.
+  *"That's worth saying plainly rather than smoothing over."* The trailing clause names an
+  alternative nobody proposed. The connective varies (`not by`, `not from`, `instead of`, a bare
+  `not X — Y`), and Check 11 sees only `rather than`. The contrast is usually the whole sentence, so
+  delete it.
+- **The disclosure announcement**: *"One dependency to state plainly."* → *"One dependency."*
+- **The reader-benefit tail**: *"…and a reader should know that rather than discover it."* Delete it.
 
-**The virtue contrast** — the commonest, and the easiest to spot once named:
-
-> ⟨did the honest thing⟩ **rather than** ⟨smoothing it over / letting it stand / hiding one /
-> burying it / discovering it⟩
-
-*"That's worth saying plainly rather than smoothing over."* / *"This site's own position, stated
-plainly rather than smoothed into Larkin's chart."* / *"a textual difficulty rather than hiding
-one."* The trailing clause names an alternative nobody proposed and the writer was never going to
-take, so an ordinary act of reporting gets dressed up as courage. Cut the contrast, keep the fact:
-*"That's worth saying plainly"* → *"Say it: …"*, then say it.
-
-**The connective varies, and `rather than` is only the commonest one.** `not by`, `not from`,
-`instead of` and a bare `not X — Y` build the same shape, and Check 11's regex sees none of them.
-*"Every cut-off here was set by measurement, not by taste"* stood in `how-we-cross-reference.md`
-through a full review and a green validate run: *not by taste* charges an alternative nobody
-proposed, and the sentence carried no fact the corroboration table directly beneath it did not
-already show. It was deleted rather than rewritten — usually the right move, because the contrast
-tends to be the whole sentence. This is the `worth ___` lesson again: learn the shape, not the
-specimens.
-
-**The disclosure announcement** — a heading or lead-in advertising candour before delivering it:
-*"One dependency to state plainly."* / *"I'll say plainly:"* / *"One honest complication belongs
-here."* Name the thing, not your posture toward it. *"One dependency to state plainly."* → *"One
-dependency."*
-
-**The reader-benefit tail** — explaining what the reader gains from your having been forthcoming:
-
-> The structural claim rests on it, **and a reader should know that rather than discover it.**
-
-Fourteen words asserting that the preceding sentence was useful. Delete it; the sentence was already
-useful. (This one stacks all three shapes at once — an announcement opening the paragraph, a virtue
-contrast closing it, and a reader-benefit clause carrying the contrast. That is the usual way these
-arrive: not singly, but reinforcing each other around a fact that needed none of them.)
-
-**The test, and the real exception.** Instructions *to the reader* are not this tell. Rapture.md's
-*"Note anything that doesn't fit cleanly, rather than smoothing it over"* tells the reader what to do
-with their own study — the contrast is doing real work, because smoothing over is exactly the thing
-they might otherwise do. The tell is when the subject of the virtue is **you, the writer**. Ask: *am
-I telling the reader what to do, or telling them how well I did?*
-
-`npm run validate` flags the virtue contrast at warning level (Check 11); the other two shapes are
-too varied to detect mechanically, so they are on you.
+They usually arrive together, around a fact that needed none of them. **The exception**: an
+instruction *to the reader* ("Note anything that doesn't fit cleanly, rather than smoothing it
+over") is real work. Ask: am I telling the reader what to do, or how well I did?
 
 ## The tell: grading your own evidence instead of giving it
 
-Distinct from the two above, and it survives them both. Here the sentence is not announcing a point
-or advertising candour — it is telling the reader **how strong the evidence is**, usually by
-comparison to an unnamed class of other evidence. The reader is being handed a verdict on the proof
-before the proof.
-
-> ⟨this kind of claim usually has to be argued for⟩. ⟨This one does not.⟩
-
-From `bride-of-christ.md`, cut by the site's author:
+A sentence whose subject is *the argument* instead of *the thing*: "Most X have to be argued for",
+"this is the firmest ground", "the evidence here is unusually direct". From `bride-of-christ.md`, cut
+by the author:
 
 > That matters. Most Old Testament pictures of Christ have to be argued for — you notice the pattern
 > and make the case that it was intended. This one does not. Paul states it outright. John the
@@ -357,244 +186,103 @@ Replaced with:
 > This is an undeniable type throughout Scripture. Paul states it outright. John the Baptist states
 > it. Revelation states it twice in its closing chapters.
 
-Three named witnesses follow in both versions, and they were always the argument. The deleted
-sentences graded them — *unusually strong, compared to the ones that have to be argued for* — and a
-grade is not evidence. Note what the replacement does: it asserts the strength **once, flatly**, and
-then spends its words on Paul, John and Revelation. Confidence stated once and demonstrated beats
-confidence argued for by comparison.
-
-**The diagnostic:** a sentence whose subject is *the argument* rather than *the thing*. "Most X have
-to be argued for," "this is the firmest ground," "there are more of them than is often realised,"
-"the evidence here is unusually direct." Cut it and put the citation in the space.
-
-**Its close relative: negating the author's mental act rather than the claim.** *"He is not reaching
-for an illustration"* became *"He is not using marriage as an illustration."* "Reaching for" is a
-metaphor about what was going on in Paul's head, which nobody can check; "using marriage as an
-illustration" is the proposition actually being denied. Where rule 5's narrow exception licenses a
-contrast, negate **the thing**, not the writer's imagined process.
+State the strength once, flatly, and spend the words on the witnesses. **Its relative**: negate the
+claim, never the author's mental act. *"He is not reaching for an illustration"* →
+*"He is not using marriage as an illustration."*
 
 ## The tell: hedging as a reflex
 
-The most damaging version of everything above, because it hides inside a real virtue. A study that
-names its own weaknesses is doing exactly what this site asks. But once the habit sets in, every
-caveat starts arriving pre-wrapped in an announcement that a caveat is coming, and the page becomes
-a performance of honesty rather than a piece of honest work.
-
-**The rule that matters: keep the caveat, cut the frame.** These are two separable things and only
-one of them is the problem:
+**Keep the caveat, cut the frame.**
 
 | | |
 |---|---|
-| **Caveat** — keep | "standard commentary treats ἐκ τῆς ὥρας as genuinely ambiguous between 'keep you from undergoing' and 'keep you through'" |
-| **Frame** — cut | "but it's worth being direct about how contested the underlying Greek actually is" |
+| **Caveat**: keep | "standard commentary treats ἐκ τῆς ὥρας as ambiguous between 'keep you from undergoing' and 'keep you through'" |
+| **Frame**: cut | "but it's worth being direct about how contested the underlying Greek actually is" |
 
-Do not fix this by deleting the honesty. The specific, checkable admission is the valuable part of
-the sentence; the sentence announcing that an admission is imminent is pure overhead. Cutting the
-wrong one makes the study worse.
+Cutting the wrong one makes the study worse. Four shapes:
 
-Four shapes, all from `last-things/rapture.md`, which at review time carried **29** instances of
-"rather than" and 16 disclosure frames in 283 lines:
-
-**The disclosure wrapper.** *"Worth being direct about the sourcing here…"* / *"A counter-argument
-worth engaging, not skipping past."* / *"A claim worth naming, and being direct about what can and
-can't be checked."* Delete the sentence; start at the caveat.
-
-**The trailing maxim** — an abstract general principle bolted onto a concrete choice to justify it:
-
-> …naming real, live counter-arguments rather than hiding them, **because a conclusion that can't
-> survive its own best objections isn't as strong as one that's been tested against them.**
-
-The clause is unfalsifiable, true of all arguments everywhere, and tells the reader nothing about
-the rapture. Related to the *vague hedge-tail* below, but worse: that one commits to nothing, this
-one commits to a platitude.
-
-**The repeated caveat.** Say a limitation once, where it applies. Rapture.md states "this is
-typology, not proof" four separate times (lines 25, 100, 110, 128). Repetition doesn't make a
-qualification more honest; after the second time it reads as anxiety, and a reader starts skimming
-for where the actual claim resumes.
-
-**The caveat cross-reference** — a caveat that cites another caveat elsewhere in the document to
-establish a track record of caveating: *"the same way this study flags its patristic evidence below
-rather than overclaiming it"* / *"per the caveat given there"* / *"Same verification limit as the
-Pseudo-Ephraem citation above."* State the limit; don't build a citation network out of your own
-modesty.
+- **The disclosure wrapper**: *"Worth being direct about the sourcing here…"* Start at the caveat.
+- **The trailing maxim**: a platitude bolted on to justify a choice (*"because a conclusion that
+  can't survive its own best objections isn't as strong…"*). It says nothing about the subject.
+- **The repeated caveat**: say a limitation once, where it applies. After the second time it reads
+  as anxiety.
+- **The caveat cross-reference**: *"per the caveat given there"*. State the limit; don't cite your
+  own modesty.
 
 ## Structural readability
 
-Everything below is a prohibition. **[structural-readability.md](../read-bible-study/structural-readability.md) is the
-positive counterpart**, and the **read-bible-study** skill is the pass that applies it — how to structure a study so it can be read, rather than how not to
-structure one. It exists because a draft cleared every check on this page and every check in the
-validator while still arriving as a wall of 400-word sections: avoiding each listed failure is not
-the same as serving a reader.
+The prohibitions here have a positive counterpart,
+[structural-readability.md](../read-bible-study/structural-readability.md), applied by the
+**read-bible-study** skill: a draft can clear every check on this page and still be a wall of
+400-word sections. Four failures no grep finds:
 
-Three failures that aren't about word choice at all, and that no grep will find.
-
-**Bullets that are essays.** A bullet is a promise of brevity — breaking it is worse than never
-having used one. Rapture.md has a single bullet of **344 words** (2 Thessalonians 2:6-7, the
-restrainer) and another of 257. Anything past roughly 60 words wants to be a paragraph, a
-sub-heading, or three bullets. If the content genuinely needs 300 words, it needs a heading.
-
-**The study talking about itself.** *"This study argues…," "This site reads…," "this study flags…,"
-"what this study can verify."* Rapture.md does this **19 times**. Occasional use is fine and
-sometimes necessary — distinguishing this site's position from a source's is real work. As a habit
-it turns a study about Scripture into a study about the study. Prefer stating the conclusion: *"This
-site reads that as a promise to be kept from the hour itself"* → *"That reads best as a promise to be
-kept from the hour itself."*
-
-**The section recap.** The sentence-level *restated conclusion* below has a section-level twin: a
-closing paragraph that re-lists what the preceding paragraphs just established. Rapture.md's "Taken
-together: three men removed bodily…" recaps four paragraphs the reader has just finished. End on the
-last real point.
-
-**A note on discussion questions.** They are for the reader to think about *the subject*, never about
-the study's own method. Two of rapture.md's four ask the reader to evaluate the page's handling of
-itself — *"Did seeing those objections named change how persuasive the conclusion felt to you?"* /
-*"Did that distinction change how you weighed that section…?"* — which solicits credit for the
-caveats rather than provoking thought about Scripture. Ask about Enoch and Noah, not about your
-own even-handedness.
-
-That is the prohibition; **[discussion-questions.md](discussion-questions.md) is the positive
-counterpart** — which facets a set should cover, and why a set that passes this rule can still be
-wrong for the study it sits under.
+- **Bullets that are essays.** Past about 60 words a bullet wants to be a paragraph, a heading or
+  three bullets.
+- **The study talking about itself**: *"This study argues…"*. Occasionally needed to separate the
+  site's position from a source's; as a habit it makes a study about the study. *"This site reads
+  that as a promise…"* → *"That reads best as a promise…"*
+- **The section recap**: a closing paragraph re-listing what the reader just read. End on the last
+  real point.
+- **Discussion questions about the study's method** (*"Did seeing those objections named change how
+  persuasive the conclusion felt?"*) solicit credit. Ask about the subject;
+  [discussion-questions.md](discussion-questions.md) gives the positive rules.
 
 ## The tell: the apologia posture
 
-Every other rule on this page works at the sentence. This one works at the whole document, which is
-why it survives a careful line-by-line pass — `about/why-ai-assisted-study.md` triggered **zero**
-validator warnings while being, from top to bottom, a defence against an accusation nobody had made.
+This one works at the whole document, so it survives a line-by-line pass. **Defending against an
+implied deception implies there is one.** A page that reassures the reader it is honest reads less
+trustworthy than one that states its method.
 
-**The governing principle: defending against an implied deception implies there is one.** A page that
-works to reassure the reader that it is honest reads less trustworthy than one that simply states its
-method, because the reassurance is evidence the author expected to be doubted. Disclosure already
-made does not need to be re-earned in every paragraph.
+- **Reader reassurance**: *"You deserve to know that…"*, *"rest assured"*, *"let me be clear"*. Cut
+  the clause; the disclosure was already complete.
+- **The oath register**: *"one non-negotiable"*, *"That gate does not move"*. "A human reads every
+  line against the text before it is published" states the policy and asks for no credit.
+- **Sections built of denials**: retitle *"What this is not"* to what it establishes (*"Where it
+  stops"*).
 
-**The reader-reassurance address** is the surface form, and it is unmistakable once named:
-
-> I use AI to help research and draft the studies on this site. **You deserve to know that**, and to
-> know exactly what that does and doesn't mean — so here it is in one page.
-
-*"You deserve to know," "rest assured," "you can trust that," "I want to be clear with you," "let me
-be clear."* All of them tell the reader how to feel about the disclosure instead of making it. Cut
-the clause; the disclosure was the first sentence and it was already complete.
-
-**The oath register.** Watch for promises escalated past the weight of the fact: *"one
-non-negotiable,"* *"That gate does not move,"* *"Volume is not the goal and never has been,"*
-*"Errors here are mine. Not the tool's."* Emphasis substituting for information. "A human reads every
-line against the text before it is published" states the same policy and asks for no credit.
-
-**Sections built out of denials.** A heading like *"What this is not,"* followed by four paragraphs
-each beginning "It is not…," is the posture made structural. Denial concedes the accusation's frame.
-Retitle to what the section actually establishes — *"Where it stops"* — and the same four paragraphs
-become a statement of scope.
-
-**The fix is a change of genre, not of wording: apologia → specification.** Ask what a methods
-section in a paper would say. It would state what was done, what the known failure modes are, and
-what controls were applied — with no sentence anywhere about the author's sincerity. Every fact on
-the page survives that translation; only the posture doesn't.
-
-**This is not an argument against disclosure or against caveats.** Say the true and awkward thing.
-The rule is that saying it is sufficient — it does not also need defending, justifying, or
-emotionally framed for the reader.
+**The fix is a change of genre, apologia → specification**: what was done, the known failure modes,
+the controls. Say the true and awkward thing; saying it is sufficient.
 
 ## The reading test that catches all of this
 
-When reviewing a draft, notice what you **skim**. If your eye slides past a sentence to get to the
-content, that sentence was overhead — and the reflex to skip it is better evidence than any rule on
-this page, because it is the same thing the reader will do. Anything you find yourself discarding as
-irrelevant while reading is a readability defect, not a neutral observation about your attention.
-
-On rapture.md, an honest pass discarded: the whole five-step *Approach* section (process narration
-that belongs in the study-state YAML — see the genre exception below, and note that it tells the
-reader nothing about the rapture), the "Taken together" recap, *"and for good reason,"* every
-disclosure wrapper, and two of the four discussion questions. That is the review, and it took one
-read-through with attention paid to skipping.
+When reviewing, notice what you **skim**. A sentence your eye slides past to reach the content was
+overhead, and the reflex is better evidence than any rule here, because the reader does the same.
+One attentive read of `rapture.md` discarded its process-narration *Approach* section, a recap, every
+disclosure wrapper and two of four discussion questions.
 
 ### The genre exception
 
-This is a genre distinction, not a blanket rule: the study-state YAML files under
-`references/study-state/` are exactly the right place for process narration ("checked and deliberately
-NOT added," "the honest result is mixed") — that's the research trail the state-tracking system exists
-to keep. It just shouldn't leak into the reader-facing markdown file.
+Process narration ("checked and deliberately NOT added", "the honest result is mixed") belongs in
+the state file under `references/study-state/`, never in the reader-facing page.
 
 ## The tell: sentences that don't survive being deleted
 
-This is the brevity problem, and it's distinct from the word- and phrase-level tics above — a sentence
-can be free of every banned word and still be waffle. The test: delete the sentence and read the
-paragraph again. If nothing is lost — no fact, no citation, no step in the argument — it wasn't carrying
-weight; it was carrying rhythm. Cut it.
+Delete the sentence and re-read the paragraph. If no fact, citation or step went with it, cut it.
 
-Four recurring shapes this takes, all pulled from actual drafts of this study:
+- **The pure signpost**: *"One more verified detail."* Start with the detail.
+- **The restated conclusion**: *"Four Gospel writers, two feedings, ten occurrences, not a single
+  crossover. **Whatever else the accounts do, they are not confused about which meal they
+  describe.**"*
+- **The vague hedge-tail**: *"…which says something about how central the early church took it to
+  be."* State what it says, or stop at the fact.
+- **The redundant triple**: one idea said three ways. Keep the strongest.
 
-**The pure signpost**, announcing a section instead of starting it: *"Three more Old Testament threads
-run straight into these accounts."* / *"One more verified detail."* / *"Two more explicit threads, both
-outside John 6 but pointed at by it."* The heading or the next sentence already does this job — delete
-the announcement and start with the content.
-
-**The restated conclusion**, saying what the previous sentence just said, in vaguer words: *"Four
-Gospel writers, two feedings, ten occurrences, not a single crossover in either direction. **Whatever
-else the accounts do, they are not confused about which meal they describe.**"* The second sentence adds
-nothing the first didn't already establish more precisely.
-
-**The vague hedge-tail**, bolted onto a real fact to make it sound like it means more than it says:
-*"The feeding of the 5,000 is the only miracle in all four Gospels — **which says something about how
-central the early church took it to be.**"* "Says something about" commits to nothing; either state
-what it says, or stop at the fact.
-
-**The redundant triple**, saying one idea three times as if repetition were evidence: *"None of this is
-stated in Scripture, **none of it is anything Mark or John does with the numbers**, and **no doctrine
-here depends on it**."* Pick the strongest phrasing and cut the other two.
-
-Watch for these especially in your own second and third drafts of a paragraph — the first pass usually
-has the real sentence; the throat-clearing gets added while tightening the transition around it, which
-is exactly backwards.
+The first draft usually has the real sentence; the padding arrives while tightening around it.
 
 ## The tell: rhetorical rhythm on autopilot
 
-**The antithesis construction, in all its forms.** The prevention is
-[rule 5](#write-toward-this); this entry is for catching what got through. It is the most persistent
-tic in the corpus and
-the rule was too narrow: it named only the dashed form, so the commoner variants went uncounted.
-Count all of them together —
-
-- `X — not Y` (the dashed form)
-- `X, not Y` ("a practice kept, not a mood caught")
-- `X rather than Y`
-- `not only X but Y`
-
-`christian-life/prayer-as-communion.md` measured **18 `, not ` plus 20 `rather than` in 8,000
-words**, one every 210 words, in a file that had already passed two full reviews. None of them
-tripped a validator and none read badly alone.
-
-**Why it matters more than it looks.** The author of that study put it exactly: it *"adds fluff,
-destroys confidence."* An antithesis defines a thing by what it is not, which means the reader
-receives the wrong version first and has to discard it. Done once for a real contrast, that is
-useful. Done every third sentence it reads as a writer reaching for shape instead of saying the
-thing, and the cumulative effect is a loss of authority — the prose sounds like it is arguing with
-someone rather than telling you what is true.
-
-**The test:** delete the negative half and read what is left. If the positive half still says
-everything, the contrast was rhythm and should go. Keep it only where the wrong version is one a
-reader genuinely arrives holding.
-
-**Em-dash density.** One em-dash aside per sentence reads as controlled. Two pairs in one sentence, or
-one pair in almost every sentence of a paragraph, reads as scaffolding holding up thoughts that were
-never fully connected into prose. Try a period or a comma before reaching for another dash.
-
-**Rule-of-three padding.** Lists of exactly three adjectives or examples, reached for out of rhythm
-rather than because three is actually how many there are. If two examples make the point, stop at two;
-if there's a fourth that actually adds something, keep it — don't trim a real fourth just to hit three.
-
-**Summarizing what the paragraph you just wrote already said.** *"So, to sum up…"* / *"In short…"* right
-after making the point. Trust the reader to have read the paragraph; end the section on the last real
-point, not a recap of it.
+- **The antithesis construction** that got past rule 5. Count all forms together (`X — not Y`,
+  `X, not Y`, `X rather than Y`, `not only X but Y`); one every 210 words is the observed drift. The
+  test: delete the negative half, and if the positive half says everything, the contrast goes. The
+  author's verdict: it *"adds fluff, destroys confidence."*
+- **Em-dash density**: two pairs in a sentence, or a pair in nearly every sentence, is scaffolding.
+  Try a period or a comma.
+- **Rule-of-three padding**: if two examples make the point, stop at two; keep a real fourth.
+- **The recap**: *"So, to sum up…"* right after the point. End on the point.
 
 ## The tell: essay register where devotional register belongs
 
-A study is not an essay about a subject; it is written for someone who will act on it. Those want
-different voices, and the drift is always in the same direction — toward the analytical, because
-that is the register in which the research was done.
-
-The symptoms are recognisable once named:
+The drift is always toward the analytical, the register the research was done in.
 
 | Essay register | Devotional register |
 |---|---|
@@ -603,24 +291,13 @@ The symptoms are recognisable once named:
 | a clever comparative ("let them know you better this year than last") | the plain request ("let them know you better") |
 | observing what a reader might do | telling the reader what to do |
 
-**Both registers belong in most studies, and the split is usually structural.** The exegesis, word
-studies and evidence want the analytical voice — that is where precision lives. **Key Takeaways, Be
-Transformed, the prayer, and the application sections want the devotional one.** A study that keeps
-the essayist's voice all the way into its prayer has not finished the job; the reader can feel the
-author still performing for a marker.
-
-The reliable signal, from the corpus: **when a human author edits an agent-drafted study, the edits
-are overwhelmingly in this direction** — cutting the constructions, adding the plain imperative,
-naming the concrete occasion. Treat that as the drift being corrected, not as a difference of taste.
+The split is structural: exegesis, word studies and evidence want the analytical voice; **Key
+Takeaways, Be Transformed, the prayer and the application want the devotional one.** When the author
+edits an agent's draft, the edits run overwhelmingly this way: treat that as the drift corrected.
 
 ## The tell: writing around the theology instead of naming it
 
-The prevention is [rule 6](#write-toward-this); this entry is for catching what got through. It is
-the most consequential of the three and the least visible, because nothing in the sentence is wrong.
-It is what is *absent*.
-
-An agent drafting Christian content tends to describe theological realities at one remove — the
-accurate paraphrase in place of the name, the mechanism in place of the person:
+What got past rule 6. Nothing in the sentence is wrong; the name is absent.
 
 | Written around it | Named |
 |---|---|
@@ -629,69 +306,32 @@ accurate paraphrase in place of the name, the mechanism in place of the person:
 | a prayer ending "Amen" | "In Jesus' name. Amen." |
 | "the way to you is open" | "the way to you is open because it cost your Son to open it" |
 
-Each left-hand version is defensible and none is an error, which is why this survives review. But a
-study for Christian readers that consistently declines to name what it means reads as evasive, and
-the cumulative effect is a document that sounds like it is describing a faith rather than holding
-one. The site's own AGENTS.md asks for accuracy to Scripture and for dispensational conviction where
-the text supports it; hedged theology is not neutrality, it is a different position quietly adopted.
-
-**The check:** at every point where the study states a theological reality, ask whether a plainer,
-more explicit version exists and whether anything but reticence is stopping you writing it. Where a
-conclusion is genuinely contested, say so and say why — the studies in this corpus do that well.
-What to avoid is the *unmarked* hedge, where nothing signals to the reader that a stronger claim was
-available and passed over.
+Each left-hand version is defensible, which is why it survives review; consistently, it sounds like
+describing a faith from outside it. **The check**: wherever a theological reality is stated, is
+there a plainer version, and is anything but reticence stopping you? A contested conclusion is
+marked as contested; the target is the unmarked hedge.
 
 ## Hebrew/RTL text and markdown bold
 
-Never wrap Hebrew or Aramaic text in markdown bold (`**...**`) — not even with a transliteration
-nested inside as italics. It renders broken: browsers fake ("synthetic") a bold weight for scripts
-the font stack has no real bold glyphs for, which is true of Hebrew niqqud (vowel points) in most
-web font stacks, and synthetic bold reliably misplaces or drops combining marks. This has hit
-published studies more than once — `**דֶּרֶךְ (*derek*, H1870...)**`-style spans are the recurring
-shape of the mistake, and by the time it's caught the file is already `draft: false`.
-
-The fix, already established elsewhere on this site
-([why-ai-assisted-study.md](../../../docs/content/about/why-ai-assisted-study.md)'s
-`<span dir="rtl">חֶסֶד</span>` example): wrap the Hebrew glyphs themselves in
-`<span dir="rtl">...</span>`, left unbolded, and keep any bold on the surrounding English lead-in
-text instead — `**Name and city.** Melchizedek — Hebrew מַלְכִּי־צֶדֶק (*malkî-ṣedeq*)...` (from
-[melchizedek-priesthood.md](../../../docs/content/jesus/melchizedek-priesthood.md)) is
-the working pattern: bold the English label, leave the Hebrew itself plain (a `dir="rtl"` span adds
-correct directional isolation on top of that, worth adding whenever the Hebrew sits inline next to
-Latin punctuation like a following parenthesis). Greek doesn't have this problem — bold-wrapping
-Greek (`**ὁδός**`) is safe and common throughout this site's studies; this rule is specific to
-Hebrew/Aramaic's RTL script and its combining vowel points.
-
-`npm run validate` catches this automatically (Check 9 in `app/scripts/validate-content.js`, an
-**error**-level finding) — run it before flipping `draft: false` rather than relying on a visual
-re-read, since the broken markdown/HTML source looks completely unremarkable and the breakage only
-shows up in the rendered page.
+**Never wrap Hebrew or Aramaic in markdown bold**, even with a transliteration inside. Browsers fake
+a bold weight for Hebrew, and synthetic bold misplaces or drops the vowel points. Wrap the Hebrew in
+`<span dir="rtl">...</span>`, unbolded, and put any bold on the English lead-in:
+`**Name and city.** Melchizedek — Hebrew מַלְכִּי־צֶדֶק (*malkî-ṣedeq*)...`
+([melchizedek-priesthood.md](../../../docs/content/jesus/melchizedek-priesthood.md)). Greek in bold
+is safe. Validator Check 9 reports it as an **error**; the source looks ordinary, so don't rely on
+a visual re-read.
 
 ## A pre-publish check
 
-Before a draft goes to `draft: false`, grep it for: `genuinely, truly, actually, really, certainly,
-indeed, exactly, honest, honestly, crucial, profound, compelling, delve, tapestry, boundless, unwavering,
-testament to, underscores, highlights, notably, importantly, that said`. None of these are banned
-outright — the test for each hit is "does this word add information, or just add volume?" Delete the
-ones that fail that test; leave the ones that pass it. *Exactly* passes when it states a measured
-fact ("exactly 490 years") and fails as emphasis ("this is exactly what Paul means"); a 2026-10-09
-tidy of `numerology.md` cut it from 8 to 1. *Honest* almost always fails: it vouches for the writer.
-
-Grep separately for `worth` — as a template with an open slot it can't be caught by a word list, and
-it is the tell most likely to still be in the draft. `npm run validate` also flags it (warning level,
-Check 10), so a clean validate run is the faster way to find every instance.
+Grep the draft for: `genuinely, truly, actually, really, certainly, indeed, exactly, honest,
+honestly, crucial, profound, compelling, delve, tapestry, boundless, unwavering, testament to,
+underscores, highlights, notably, importantly, that said`. None is banned outright: keep a hit that
+adds information and delete one that adds volume. *Exactly* passes for a measured fact ("exactly 490
+years") and fails as emphasis. *Honest* almost always fails: it vouches for the writer. For
+`worth`, run `npm run validate` (Check 10).
 
 ## If you only remember one thing
 
-Not the tell list — the eight rules in [Write toward this](#write-toward-this). Every diagnostic on
-this page exists because prose drifted off one of them, and the list will always lag the drift: each
-new variant needs a new entry, which is why `worth ___` reached 48 instances in a corpus where the
-rule was already written down. Writing toward "every sentence adds a fact, a citation, or a step"
-makes the variants stop being generated in the first place.
-
-## Why this is worth a pass of its own
-
-AGENTS.md asks this project to read as careful, sourced, human scholarship — a study a reader can check
-against the text and the citations, not prose to be taken on faith. Rhetorical padding doesn't make an
-argument more rigorous; it just adds friction between the reader and the evidence already doing the
-work. The fix is almost always subtraction, not rewriting: say the true thing once, plainly, and stop.
+The eight rules in [Write toward this](#write-toward-this). The tell list always lags the drift,
+since each new variant needs a new entry; writing toward "every sentence adds a fact, a citation, or
+a step" stops the variants being generated. Say the true thing once, plainly, and stop.

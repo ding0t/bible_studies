@@ -19,20 +19,13 @@ accepted without re-running a verification pass. The moment you start rewriting 
 doing review-bible-study's job with none of its checks, and the result needs a full audit before it
 can ship.
 
-## Why this is not a phase of the other two skills
+## Why this is its own pass
 
-**It cannot be the author's own pass.** A study is composed in the order its argument develops —
-for a one-verse study, usually the order of the words in the verse. That order is right for
-composing and feels inevitable to whoever composed it. Judging whether it serves a *reader* means
-arriving at the page as a stranger, which the author cannot do. Run this in a session that did not
-write the draft wherever possible; that asymmetry is the whole mechanism.
-
-**It cannot be review-bible-study's pass either.** That skill's posture is adversarial: find what
-is wrong and change it. This one's safety is that it changes nothing. One skill cannot hold both
-rules, and bundling them is how a structural pass acquires an editing licence it should not have.
-
-**The cost is different.** review-bible-study re-queries every quotation against source. This pass
-needs no source lookups at all. Bundled, you cannot fix a heading without paying for a full audit.
+- **The author can't do it.** A study is composed in the order its argument develops, which feels
+  inevitable to whoever composed it. Judging it for a reader means arriving as a stranger, so run
+  this in a session that did not write the draft wherever possible.
+- **review-bible-study can't either.** Its posture is to find what is wrong and change it; this
+  pass is safe because it changes nothing, and it needs no source lookups.
 
 ## What this pass does NOT do
 
@@ -202,15 +195,8 @@ change in the noise.
 
 A live file (`draft: false`) that a reader is currently meeting outranks a draft.
 
-## When to use this vs. the other two
+## Where it sits
 
-- **develop-bible-study** — writing a new study. Its Phase 7 points here for the structure pass.
-- **review-bible-study** — is the content true? Quotes, citations, word studies, claims, doctrine.
-- **read-bible-study** (this skill) — can it be read? Structure only, no sentence changed, verifies
-  nothing.
-- **simplify-bible-study** — is it the right size? Forks, merges and cuts; adds nothing. If Phase 1
-  shows the study is too long rather than badly arranged, recommend that skill instead of this one.
-
-A new study normally wants develop, then review, then this one: develop writes it, review checks
-it, this makes it readable. Put simplify between review and this one when the study is over budget.
-Run this one last, and in a different session from the one that drafted it.
+A new study goes develop → review → (simplify, if over budget) → this one, last and in a different
+session. If Phase 1 shows the study is too long rather than badly arranged, recommend
+**simplify-bible-study** instead.

@@ -5,7 +5,7 @@ rules keep them true to the repo and small enough to load.
 
 `python3 utils/check_skills.py` checks the mechanical half on every `npm test`: frontmatter, links
 and anchors, MCP tool names against `references/build/mcp_server.py`, and repo paths against the
-disk. It also warns when a SKILL.md passes 5,000 words.
+disk. It also warns when a SKILL.md passes 2,500 words.
 
 ## Rules for writing a skill
 
@@ -14,8 +14,9 @@ disk. It also warns when a SKILL.md passes 5,000 words.
    Copies drift: the sibling-study check and the versification rule were each in three or four
    places, and the copies had started to disagree in detail.
 2. **State the rule; keep the history elsewhere.** "Until 2026-09-05 nothing answered this" belongs
-   in a commit message or `references/README.md`. Keep one example from this corpus where it shows
-   why the rule exists, and no more.
+   in a commit message or `references/README.md`. Keep at most a clause of the corpus case in the
+   skill; the full case (the file, the counts, the before and after) goes in
+   [why-the-rules.md](why-the-rules.md), under the skill's heading.
 3. **SKILL.md is the workflow; detail goes in a companion file.** SKILL.md is loaded whole whenever
    the skill runs. Reference tables, specimens and format rules live beside it
    (`develop-bible-study/formatting.md`, `style-guide.md`) and are linked, one level deep.

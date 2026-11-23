@@ -116,59 +116,18 @@ Two environment traps, both hit on first use: mermaid-cli downloads Chromium fro
 `bootstrap_check_in ... Permission denied`). Run the install and the render with
 `dangerouslyDisableSandbox`. There is no Chrome in `/Applications` to borrow.
 
-## The corpus is clean — keep it that way
+## Keep the corpus clean
 
-Measured on 2026-09-04 across 29 mermaid blocks in 15 files. Twelve rendered under 50%; **all twelve
-were rewritten the same day.** The widest diagram on the site went 3725px → 1178px.
+- **Do not use `timeline`.** Mermaid lays its sections out horizontally with nothing constraining the
+  width, and it writes per-section text colours into the SVG, which ignores the dark-mode toggle. Use
+  `flowchart TD`, and move a timeline's `title` into a lead-in sentence above the block.
+- **Width is a constraint, not the goal.** When the only way under budget is a diagram that says
+  something untrue, stop and take the shrink: `about/about-our-datasets.md` stays at 48% because
+  every narrower form merged the trust tiers the page exists to separate.
+- Fix the diagram in front of you when a study brings you to its file, and don't add a new wide one.
+  `npm run validate` cannot measure width, so nothing catches this but you.
 
-**`timeline` blocks were excluded from that pass on the grounds that they "size themselves". They do
-not, and the exemption is how five diagrams stayed unreadable through a sweep that was checking for
-exactly that.** Mermaid lays timeline *sections* out
-horizontally, so the width grows with the number of sections and nothing constrains it: the five on
-this site measured 1390–2790px, rendering at 20–41%. Worse, the timeline renderer writes per-section
-text colours straight into the SVG — `.section-0 text{fill:black}`, `.section-2 text{fill:#ffffff}`,
-picked by section index — which bypasses mkdocs-material's palette variables and so ignores the
-dark-mode toggle. That is why the corpus's other diagrams need no `classDef` and a timeline alone
-came out with black text on a dark background.
-
-**So: do not use `timeline`.** All five were converted to `flowchart TD` on 2026-09-06 and every one
-now renders at 100%:
-
-| Was | Now | File |
-|---|---|---|
-| 2790 (20%) | 346 (100%) | `chronology/world-population-declares-gods-creation-and-biblical-truth.md` |
-| 2390 (24%) | 346 (100%) | `chronology/combined-timeline.md` |
-| 2190 (26%) | 552 (100%) | `last-things/rapture.md` |
-| 1990 (28%) | 276 (100%) | `last-things/prophecy-chart.md` |
-| 1390 (41%) | 249 (100%) | `last-things/day-is-near.md` |
-
-A timeline's `title` has no `flowchart` equivalent worth using — move it into a lead-in sentence
-above the block, since it usually carries information the nodes don't (which era scheme the years
-are in, whose framework the chart follows).
-
-The 2026-09-04 table, for the twelve fixed then:
-
-| Was | Now | File |
-|---|---|---|
-| 3725 (15%) | 1178 (48%) | `about/about-our-datasets.md` |
-| 3265 (17%) | 276 (100%) | `last-things/olivet-discourse.md` |
-| 2084 (27%) | 558 (100%) | `about/site-architecture.md` |
-| 1975 (29%) | 826 (68%) | `chronology/combined-timeline.md` |
-| 1910 (29%) | 518 (100%) | `last-things/prophecy-chart.md` |
-| 1638 (34%) | 269 (100%) | `israel-and-church/bride-of-christ.md` |
-| 1407 (40%) | 276 (100%) | `last-things/rapture.md` |
-| 1162 (48%) | 857 (66%) | `feasts/last-supper-four-cups.md` |
-
-`about-our-datasets.md` is the one that stops short of the budget, and the reason is worth keeping:
-its narrow forms all cost meaning. Collapsing the two databases into one cluster reached 952px but
-erased the trust-tier isolation the page exists to state, and moved TWOT into the restricted tier —
-which the page's own "TWOT: one source, split across two tiers" section contradicts. **Width is a
-constraint, not the goal**; when the only way under it is to make the diagram say something untrue,
-stop and take the 48%.
-
-None of this is a reason to open a diagram-fixing project. Fix the one in front of you when a study
-brings you to its file, and don't add a thirteenth. `npm run validate` does **not** check diagram
-width — it cannot without a browser — so nothing catches this but you.
+The 2026 width sweeps, file by file: [why-the-rules.md](../why-the-rules.md#diagrams).
 
 ## Drawn graphics
 

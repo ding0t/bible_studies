@@ -55,8 +55,21 @@ The roles anyone may fill, varied by `tone` so a crowd is not clones:
 ## Poses, panels and props
 
 - `pose`: stand, point, open, praise, raise, shout, hold, grope, beg, fold, turn, heart, look_up.
-  `stance`: stand, walk, kneel, sit, lie (laid on the ground, head toward `face`). `face`: "left" or "right". `holds`: stone, staff, scroll, spear,
-  lamp.
+  `stance`: stand, walk, kneel, sit, lie (laid on the ground, head toward `face`). `face`: "left" or "right". Poses also include `run` and `offer` (an arm held out
+  with something in the hand).
+- **`holds`** puts a prop in the near hand: `staff`, `scroll`, `stone`, `spear`, `jar`, `gift`,
+  `loaf`, `lamp`, `yoke`, `robe` (a white robe held out, folded over the hand), `crown` (a gold
+  victor's wreath, the στέφανος), `palm` (a palm branch, Revelation 7:9), `shofar` (a ram's-horn
+  trumpet, Ezekiel 33:3), `cup` (the golden cup, Revelation 17:4), `supper_cup` (plain clay, the
+  Last Supper's cup, Luke 22:20), `garment` (a cloth hanging from the fist, Genesis 39:12), and
+  `load`, which goes on the back with the hand on its strap, for the heavy-laden (Matthew 11:28).
+- **`eye = "beam"`** puts the δοκός of Matthew 7:3-5 in the figure's eye, a roof timber jutting
+  forward past the frame (`beam = 1.25` lengthens it, `0.8` shortens it); **`eye = "speck"`** draws
+  the κάρφος, too small to see, inside a faint red ring. Stand the beam-bearer so the timber clears
+  the other figures' heads. Drawn only where the panel is Jesus' picture or says it lays that
+  picture over a story (`first-take-the-log-out`, whose `note` says 2 Samuel 12 has no beam).
+- `tag = "Peter"` is a nameplate under the feet; set a tagged figure on the left, since bottom-right
+  collides with the reference tag. `name = "Simon"` overrides how the alt text names them.
 - **A crowd is one entry**: `n = 3, x = 0.6, x2 = 0.9` spreads three figures, cycles a list of
   poses, varies their robes and staggers their depth. Give it an `id` for its bubbles.
 - `x` and bubble `at = [x, y]` are fractions of the panel, so a comic survives a layout change.
@@ -91,7 +104,7 @@ The roles anyone may fill, varied by `tone` so a crowd is not clones:
   boat), courtyard (walled, a lit doorway), street, grassland (spring grass above the lake), decapolis
   (dry ground, a Greek city on the ridge), hall (inside a synagogue), lake (open water; put people
   in a boat with the `hull` prop). vista (open land to a horizon the panel sets with `horizon`; the
-  ground for `depth`, SKILL.md section 3a), cave (bare rock and a cave mouth, for Horeb, 1 Kings 19:9), eden
+  ground for `depth`, [Emphasis tools](#emphasis-tools)), cave (bare rock and a cave mouth, for Horeb, 1 Kings 19:9), eden
   (the garden: far trees, the river of Genesis 2:10, green ground; put the near trees in as
   `fruit_tree` props). `sky`: day, dawn, winter, dusk, night, storm.
 - `in_cloud = true` on a cast entry sets a cloud at the figure's waist, for one taken up
@@ -130,3 +143,61 @@ The roles anyone may fill, varied by `tone` so a crowd is not clones:
   sits in the background, behind the speakers.
 - `s = 0.8` on cast entries draws them smaller, which buys bubble room in a half-width panel under a
   two-line caption. `flashback = true` tints the panel sepia and rounds its corners.
+
+## Layouts and page devices
+
+- **Inline layout**: `layout = [[300, 1], [300, 2, 1]]`, each row its height and then the relative
+  width of each panel. Add a named layout to `LAYOUTS` only when a second comic needs the same shape.
+- **`headers = ["Their Lord", "His two witnesses"]`** puts a ribbon over each column of the first
+  row, and `subheaders` a small italic line under each (the span of each day, in three-days).
+  `first_column_past = true` colours the first column sepia, to match `flashback = true` on its
+  panels.
+- **A time gap** is a panel with `kind = "gap"`, `text` and `ref`, on its own short row (`[46, 1]`):
+  no frame, a dotted rule across the page and the span on a ribbon. It is not counted or numbered.
+- **A word thread** is a panel with `kind = "thread"`, `text` and `at` (fractions of the page width),
+  on its own short row under a row of panels: a gold strip naming the word the panels above share,
+  with a tick up to each.
+
+## Bubble options
+
+- **A voice with no figure** (heaven, an angel) takes `from = [x, y]` in place of a cast member;
+  `style = "voice"` makes it gold and bold. A tail from above the frame is a straight line from the
+  bubble to `from`; where the caption is in the way, narrow it (`caption_w`) and move `from` toward
+  the panel's centre until the line clears the caption's edge (`why-we-need-saving` panels 1 and 3).
+- **`style = "shout"`** for a crowd or an accusation, `"whisper"` for an aside; speech is the default.
+  **`style = "text"`** is a square box with no tail, for a writer's words when no speaker stands in
+  the panel (Hebrews 12:1-2 in `run-the-race`); it still takes `from` and is verified. Set text
+  boxes in the upper half: low down they run into the reference tag and are clipped.
+- **`*Starred words*`** are set bold and red. The stars are dropped for `--verify` and the alt text.
+- **`fire`**: `style = "fire"` with `to = <cast id>` draws fire from a mouth (Revelation 11:5); an
+  empty bubble with `picture = { what = "gift", n = 3 }` draws presents with no words.
+
+## Emphasis tools
+
+`python3 utils/build_comics.py --cast` also writes `emphasis.svg`: each tool below in one panel,
+captioned with its TOML. `when-love-grows-cold` uses most of them.
+
+| Tool | TOML | What it does | Use it for |
+|---|---|---|---|
+| Close shot | `shot = "close"` (`"medium"`, `"extreme"`), or `camera = { on = "<id>", zoom = 2.0, at = [x, y] }` | Moves in on one figure's head and shoulders; `at` is where the head lands | The one line a face would carry: Elijah's "I only am left". Frame the speaker off-centre with room on the side they face, and put the bubble there |
+| Inset | `inset = { on = "<id>", zoom = 2.4, corner = "br", size = 0.38, marks = ["sigh"] }` | A close-up in a corner of a wide panel, ruled to the figure it enlarges | Where someone stands *and* what it does to them; the inset's `marks` show only in the close-up |
+| Horizon and depth | Panel `scene = "vista"`, `horizon = 0.4`; cast `depth = 0..1` | Deeper figures stand nearer the horizon and shrink, with a haze between | A crowd larger than the panel. A low horizon gives a lone figure the sky |
+| Pull back | A close shot, then a wide `vista` with the close-shot figure in front, `look = "silhouette"`, `s = 1.5` | The reader sees what the figure sees | The answer to a lonely line |
+| Spotlight | `spotlight = "<id>"`, or `spotlight = { at = [x, y], r = 0.7 }` | Darkens the frame away from a figure, or a place where someone undrawn is | Someone alone; the thicket the man hides in |
+| Focus lines | `burst = { on = "<id>", color = "gold" }` | Lines converging on a figure | The arrival or word the comic turns on. Gold for glory, ink for alarm |
+| Grade | `grade = "warm"`, `"cold"`, `"dark"` | A colour over the whole panel | Night, dawn, a cold heart, when the text gives it |
+| Look | cast `look = "cold"`, `"warm"`, `"radiant"`, `"silhouette"`, `"faded"` | Recolours one figure | Radiant for the Transfiguration (Matthew 17:2), faded for one leaving the story |
+| Marks | cast `marks = ["sweat", "tears", "shock", "sigh", "question", "exclaim", "heart", "cold", "warm", "ember"]` | The marks cartoonists draw round a head | What a blank face cannot show |
+
+The camera and inset move everything in the frame except bubbles, which are placed in the panel's
+own coordinates, so `at` means the same with or without a shot.
+
+## Extending the system
+
+- **A new character, pose, scene or prop** goes into `utils/lib/comic.py` (`CAST`, `POSES`,
+  `SCENES`, `_prop`) as data or one function, with its line here; `--cast` regenerates the sheet.
+  **A new emphasis tool** goes in that file's emphasis section with a panel in `emphasis_sheet()`.
+  Colours are named constants at the top of the file, never a stray hex in one comic.
+- **A figure is drawn in its own units**, feet at (0, 0), facing right, about 105 units tall. A pose
+  is the (elbow, hand) of the near and far arm in those units.
+- Keep it stdlib-only, like every generator in `utils/`.

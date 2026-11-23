@@ -11,20 +11,10 @@ Nothing there says how to structure *well*. This page is that counterpart, the w
 [discussion-questions.md](../develop-bible-study/discussion-questions.md) is the counterpart to the prohibition on
 method-questions.
 
-## Why a separate page was needed
-
-`scribe-trained-for-the-kingdom.md` passed **all twenty validator checks with zero findings** and
-arrived as a wall: 17 sections, median 278 words, four of them over 400, the longest 669. A pass
-that changed **no prose at all** — one summary line, eighteen sub-headings, one regrouping — took it
-to 28 sections with a median of 180 words and one section over 400.
-
-That is the whole lesson. A guide made of prohibitions produces prose that is *defensible* rather
-than *readable*, because avoiding every listed failure is not the same as serving a reader. The
-draft had nothing wrong with it. It was simply hard to read, and nothing in the toolchain could say
-so.
-
-Corpus audit behind the numbers below: 984 sections across 86 published files — p50 116 words, p75
-225, p90 423, p95 545.
+`scribe-trained-for-the-kingdom.md` passed every validator check and arrived as a wall; a pass that
+changed no prose took it from a median section of 278 words to 180
+([why-the-rules.md](../why-the-rules.md#read)). Corpus audit behind the numbers below: 984 sections
+across 86 published files — p50 116 words, p75 225, p90 423, p95 545.
 
 ## The rules
 
@@ -181,17 +171,8 @@ because a structural pass that quietly writes paragraphs is no longer a structur
 
 ## Do this as a separate pass, not while drafting
 
-This is the pass a drafting model is worst placed to do, and the reason is structural rather than
-about effort.
-
-A study is composed in the order its argument develops — for a one-verse study, usually the order
-of the words in the verse. That order is correct *for composing* and it feels inevitable to whoever
-composed it. Judging whether it is right *for reading* means arriving at the page as a stranger,
-which the author cannot do and a second reader does for free.
-
-So run it as a distinct step, after the draft is complete, asking only: where would a reader stop,
-and can they find their way back in? Do not mix it with editing the prose. The pass that fixed
-`scribe-trained-for-the-kingdom.md` changed zero sentences, which is exactly why it was safe.
+Run it after the draft is complete, in a session that did not write it, asking only: where would a
+reader stop, and can they find their way back in? [SKILL.md](SKILL.md) gives the reason.
 
 ## What this does not license
 

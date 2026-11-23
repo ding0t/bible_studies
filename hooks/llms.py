@@ -335,6 +335,9 @@ def on_post_build(config):
             out = site_dir / "skills" / name / source.name
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_text(source.read_text(encoding="utf-8"), encoding="utf-8")
+    # The skills link their corpus cases here, one level up.
+    (site_dir / "skills" / "why-the-rules.md").write_text(
+        (skills / "why-the-rules.md").read_text(encoding="utf-8"), encoding="utf-8")
     gospel = _gospel(config)
     if gospel:
         (site_dir / "assets" / "gospel.json").write_text(

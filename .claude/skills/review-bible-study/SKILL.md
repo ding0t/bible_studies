@@ -5,436 +5,261 @@ description: Critically audits an existing study, commentary, or sermon file in 
 
 # Review a Bible Study
 
-**develop-bible-study** builds a study forward, phase by phase, ending in the author's own light
-validate pass (Phase 8). This skill does the opposite motion: it goes back over a file that already
-exists and treats every claim in it as unverified until re-derived from source — not a re-read for
-typos, an independent re-check. The two skills are complementary, not overlapping: use develop-bible-study
-to write something new, this one to find out whether something already written actually holds up.
+This skill goes back over a file that already exists and treats every claim in it as unverified
+until it is re-derived from source. develop-bible-study builds a study; this one finds out whether
+it holds up.
 
-**The discipline that makes this worth doing separately from Phase 8:** don't fix issues inline as you
-find them. A reviewer who edits as they go stops scrutinizing the sections already "fixed" as hard as
-the sections still ahead — exactly the bias a second, independent pass exists to avoid. Record every
-finding (see **Reporting** below), and only fix once the user has seen the complete list.
+**Don't fix anything while reviewing.** A reviewer who edits as they go stops scrutinising the
+sections already fixed. Record every finding (see **Reporting**) and fix only after the user has
+seen the whole list.
 
 ## Before starting
 
-Get the target file (path or slug) from the user, or ask. Note whether it's `draft: true` or already
-live (`draft: false`) — a live file failing this review is a higher-priority finding than a draft one.
+Get the target file from the user. Note whether it is `draft: true` or live (`draft: false`): a live
+file failing review is the higher priority.
 
-Look for a companion state file at `references/study-state/<slug>.yml`. If it exists, this review adds
-to its research trail, not replaces it. If it doesn't — most likely a study written before this skill
-or the develop-bible-study skill existed — say so in the report; don't backfill a research trail for
-phases that were never actually tracked as they happened.
+Look for `references/study-state/<slug>.yml`. If it exists, this review adds to its trail. If it
+doesn't, say so in the report, and don't backfill a trail for phases nobody tracked.
 
 ## Phase 1 — Scripture accuracy
 
-Every quoted verse gets re-queried from source, not read for plausibility.
+Re-query every quoted verse from source.
 
-- **ESV/NIV/NKJV/CSB**: `study-notes.db`'s `verses` table (verse text, not just commentary notes) — see
+- **ESV/NIV/NKJV/CSB**: `study-notes.db`'s `verses` table, via `study_verse` or the access pattern in
   [references/README.md](../../../references/README.md#study-notesdb-commercial-study-bible-commentary-external-not-in-this-repo-at-all)
-  for the access pattern; the `immutable=1` URI form is mandatory, not optional, under the sandbox.
-- **WEB/BSB/ASV/YLT/LXX/MT and other `bible-text.db` translations**: `query.py verse` or the `bible_verse`
-  MCP tool. The BSB is `berean-bsb`; check a BSB quotation against it.
-- **A reference is not a universal address** (AGENTS.md). Checking a quotation against "the same
-  verse" in another work can compare two unrelated verses and report a false mismatch; move the
-  reference with `bible_parallel` before concluding a study has misquoted anything.
-- Check three things per quote, not just the wording: (1) the text matches verbatim, punctuation
-  included; (2) the cited reference is the verse actually quoted — a right quote under a wrong
-  reference is as bad as a wrong quote; (3) the translation labeled is the translation actually queried.
-  A real example this repo has already hit: a study drafted from memory had John 6:34 as "Lord, give us
-  this bread" where the ESV reads "Sir" — see AGENTS.md's own note on this.
-- For claims that cite a verse without quoting it, spot-check a sample: pull the verse and confirm it
-  actually says what's claimed, not just that a legitimate-looking reference was attached to the claim.
+  (the `immutable=1` URI form is mandatory under the sandbox).
+- **WEB/BSB/ASV/YLT/LXX/MT** and the other `bible-text.db` translations: `bible_verse` or
+  `query.py verse`. The BSB is `berean-bsb`.
+- **A reference is not a universal address** (AGENTS.md): move it with `bible_parallel` before
+  calling a quotation wrong against another work's "same verse".
+- Check three things per quote: the text matches verbatim, punctuation included; the reference is
+  the verse actually quoted; the translation labelled is the one queried. (John 6:34's "Lord" for
+  the ESV's "Sir" is the standing example.)
+- For verses cited without quotation, spot-check a sample: does the verse say what is claimed?
 
 ## Phase 2 — Reference & citation accuracy
 
-- **Cross-references.** For each "see also" link between two passages, briefly verify the linked
-  passage actually supports the stated relation. A plausible-sounding cross-reference that doesn't say
-  what's claimed is a common failure mode, not a rare one.
-- **Extra-biblical citations** — TWOT root numbers, Strong's numbers, lexicon glosses, named
-  commentaries. Spot-check against the source directly: `twot_root`/`twot_strongs` for TWOT, `bible_word`
-  for Strong's id and gloss. A wrong TWOT root number is a citation to something that doesn't say what's
-  claimed, and reads exactly like a correct one until checked.
-- **What each reference and Strong's tag opens.** Every reference and Strong's tag on the page opens a
-  pop-up, so a wrong one is a wrong citation the reader is shown. Two cases are particular to the
-  pop-up. Every reference must name its book ([formatting.md](../develop-bible-study/formatting.md)); a bare "(21:2)" or "v. 20"
-  outside a continuation like "(Revelation 21:2, 9)" resolves against whatever came before it and
-  goes wrong silently when an edit moves that. Report each as **Minor**, or at the severity of the
-  wrong citation it opens. And a word written without its
-  Strong's number gets no card; `references/build/strongs_suggest.py <file>` lists those. Report a misresolving reference or a wrong number under the severity
-  of the citation it amounts to, and a missing number as **Minor**.
-- **Internal links.** Confirm every relative markdown link's target file and anchor actually exist on
-  disk. A link to a renamed file or a heading that's since moved fails silently for the reader — there's
-  no build error anywhere in this pipeline that would catch it.
-- **Copyright/quotation-length.** Rough-tally how much of the file is quoted Scripture from any one
-  restricted-percentage translation against the caps in
+- **Cross-references.** Check that each linked passage supports the stated relation. A
+  plausible-sounding one that doesn't is common.
+- **Extra-biblical citations.** Spot-check TWOT roots (`twot_root`, `twot_strongs`), Strong's ids and
+  glosses (`bible_word`) and named commentaries against the source. A wrong number reads exactly
+  like a right one.
+- **What each reference and Strong's tag opens.** Each opens a pop-up, so a wrong one is a wrong
+  citation shown to the reader. A reference without its book ("(21:2)", "v. 20" outside a
+  continuation like "(Revelation 21:2, 9)") resolves against whatever precedes it
+  ([formatting.md](../develop-bible-study/formatting.md)). A word with no Strong's number gets no
+  card; `references/build/strongs_suggest.py <file>` lists them. Report a misresolving reference or
+  wrong number at the severity of the citation it amounts to, and a missing number as **Minor**.
+- **Internal links.** Confirm every relative link's file and anchor exist. Nothing in the build
+  catches a moved heading.
+- **Quotation length.** Tally quoted Scripture per restricted translation against the caps in
   [references/README.md](../../../references/README.md#two-different-permissions-dont-conflate-them)
-  (NIV 25%, ESV/CSB/NKJV 50%, of the quoting work), and confirm commentary quotations stay at a sentence
-  or two rather than a full note.
-- **Named version, for anything whose translations differ in licence.** A citation to "the Mishnah" or
-  "Sefaria" is not checkable and may not be quotable. Sefaria's default English for the Mishnah is the
-  **CC-BY-NC William Davidson Edition**, which `references/build/sefaria.py` and
-  [references/README.md](../../../references/README.md) both say to avoid in favour of a CC0/CC-BY
-  version — so a study that fetched from the web API instead of the script has probably quoted the
-  wrong one. Re-fetch through the script with an explicitly named version and compare. This is not a
-  licensing nicety: doing it on `bride-of-christ.md` found the study quoting *m. Ketubot* 5:2 as "to
-  prepare herself with clothes and jewelry," which is Davidson's wording and absent from Kulp's
-  ("to prepare herself for marriage"). **Wrong version and wrong words travel together.**
-- **A source that "isn't available" may just be unqueryable.** Before accepting a study's claim that
-  some text could not be checked, run `python3 references/check_sources.py` from the repo root and
-  read its **raw-only** list (AGENTS.md explains it; the English deuterocanon is the standing
-  example). An **UNDOCUMENTED** result is a finding in its own right: the catalog has drifted, and
-  the fix is a row in references/README.md, not a note in the study.
-- **External material resolves through `$BIBLE_MEDIA_ROOT`** (see `references/build/media_root.py`).
-  If a study records that verification was skipped because the volume was offline, that limitation
-  stands in the report — but check whether it is still true now before repeating it as fact.
-- **Hebrew/Aramaic wrapped in markdown bold.** Run `npm run validate` (from `app/`) and treat any
-  `Hebrew/Aramaic text is wrapped in markdown bold` error as a Critical finding, not a style nit —
-  see [style-guide.md's "Hebrew/RTL text and markdown bold"](../develop-bible-study/style-guide.md#hebrewrtl-text-and-markdown-bold)
-  for why this actually breaks rendering (synthetic bold misplaces Hebrew vowel points) rather than
-  just reading oddly. The source markdown looks ordinary, so only the automated check (or the built
-  page) catches it.
+  (NIV 25%, ESV/CSB/NKJV 50% of the quoting work), and keep commentary quotations to a sentence or two.
+- **Named version.** "The Mishnah" or "Sefaria" is not checkable. Sefaria's default Mishnah English
+  is the CC-BY-NC William Davidson Edition, which `references/build/sefaria.py` and
+  [references/README.md](../../../references/README.md) avoid; re-fetch through the script with a
+  named version and compare. Wrong version and wrong words travel together.
+- **"Not available" may mean unqueryable.** Before accepting that a text could not be checked, run
+  `python3 references/check_sources.py` and read its **raw-only** list. An **UNDOCUMENTED** result is
+  a finding: the fix is a row in references/README.md.
+- **External material resolves through `$BIBLE_MEDIA_ROOT`** (`references/build/media_root.py`). If a
+  study says verification was skipped because the volume was offline, check whether that is still
+  true before repeating it.
+- **Hebrew/Aramaic in markdown bold** is **Critical**: it misplaces the vowel points
+  ([style-guide.md](../develop-bible-study/style-guide.md#hebrewrtl-text-and-markdown-bold)).
+  `npm run validate` (from `app/`) reports it.
 
 ## Phase 3 — Word studies, critically
 
-Re-derive, don't re-read. This is the same rigor [word-study-method.md](../develop-bible-study/word-study-method.md)
-demands when a word study is first built — reapplied adversarially to one someone (possibly you, in an
-earlier session) already wrote.
+Re-derive, don't re-read: [word-study-method.md](../develop-bible-study/word-study-method.md),
+applied adversarially.
 
-- For every original-language term the study leans real weight on, re-run the concordance
-  (`bible_concordance` / `query.py concordance`) and confirm the occurrence count and reference list the
-  study states are what the corpus actually returns right now. A miscounted or stale "only N
-  occurrences" claim undermines exactly the kind of argument (*trōgō*, *kophinos*/*spyris*) this site's
-  strongest studies are built on. **When the claim being checked is only a frequency number** ("basileia
-  occurs N times"), pass `count_only=True` (`--count-only` on the CLI), as the bible-references
-  server's instructions explain, and drop it only when you need the reference list.
-- **The page now shows the reader the count too.** Each tagged word's pop-up carries its occurrence
-  count, matched on the exact Strong's id as `bible_concordance` matches, and for a rare word every
-  verse it occurs in. A stated count or "only here" that disagrees is contradicted on the same page.
-  Check against the concordance above, never against the card: the card's data is an export
-  (`references/build/export_popups.py`) and lags the database until someone re-runs it. Where the two
-  disagree, say which one is stale.
-- **Does the study argue from a rendering two translations disagree on?** Run
-  `uv run python alignment_ranking.py --study docs/content/<study>.md` (from `references/build`). It
-  lists every word the study tags that the ULT and the Berean render differently at least half the
-  time, with the decision recorded in `docs/data/word-renderings.toml` where there is one. For an
-  `interpretive` word the study must say which rendering it follows and why. A word with no recorded
-  decision is a finding: settle it from the word's uses, the Septuagint and the New Testament, then
-  the ESV, and propose an entry for the author. A `decided` entry also shows on the word's pop-up
-  card (re-run `alignment_ranking.py` after changing the file), so readers see the same choice.
-- **Did the translators footnote something the study never mentions?** Pull `note_type='footnote'` for
-  the study's `primary_passage` as a standing step — separately from `study_note`, which is editorial
-  commentary rather than the committee's own record of its decision. Read them all, not only the ones
-  attached to words the study already treats as contested: a footnote can supply a literal gloss, a
-  manuscript variant or a measurement conversion that bears on an argument the study made without
-  realising the question was live. A footnote reading *"Or X"*, *"Lit Y"* or *"Some mss omit Z"* is the translators saying
-  the text is genuinely ambiguous there. **A study that argues from one reading while the translation it
-  quotes offers another in a note has a hole in it** — not necessarily a wrong conclusion, but an
-  undisclosed fork the reader deserves. Raise it as Moderate when the study's argument turns on the
-  rendering, Minor when it is incidental. Older studies are the likeliest to have missed one.
-- **Root-fallacy check.** Flag any claim resting on "the word literally/originally means X" to establish
-  present-tense usage in the passage, instead of on synchronic (contemporary) usage.
-- Check the gloss, Strong's number, and semantic-domain code against `bible_word`/`bible_domain`
-  directly, rather than trusting the study's own citation of them.
-- Where the study claims "no English translation preserves this" or similar, spot-check at least two of
-  the translations it names. A specific-sounding claim isn't the same as a checked one.
-- **Syntax/coreference claims get re-run, not re-read.** If a study leans on an implicit-subject
-  resolution, a pronoun disambiguation, an emphatic-pronoun reading, or a Hebrew construct-chain claim —
-  the kind of finding the MACULA clause-syntax/coreference annotation in `bible-text.db` produces (see
-  [references/README.md](../../../references/README.md#clause-syntax-and-coreference-macula)) — re-query
-  it with `query.py syntax` / `bible_syntax` rather than trusting the study's transcription of what the
-  annotation said. Remember a `NULL` there means *not annotated*, never *no such role* — don't flag a
-  claim as unsupported just because a fresh query returns nothing; confirm whether the verse is covered
-  at all before treating silence as contradiction.
+- **Counts.** Re-run `bible_concordance` for every term the study leans on and confirm the stated
+  count and list. For a bare frequency, pass `count_only=True`. Each tagged word's pop-up shows its
+  count too, so a wrong one is contradicted on the page; check against the concordance, never the
+  card, which is an export (`references/build/export_popups.py`) that can lag. Say which is stale.
+- **Disputed renderings.** Run `uv run python alignment_ranking.py --study docs/content/<study>.md`
+  (from `references/build`). For an `interpretive` word the study must say which rendering it follows
+  and why. A word with no entry in `docs/data/word-renderings.toml` is a finding: settle it from the
+  word's uses, the Septuagint and the New Testament, then the ESV, and propose an entry.
+  A `decided` entry shows on the word's card; re-run `alignment_ranking.py` after editing the file.
+- **Translators' footnotes.** Pull `note_type='footnote'` for the `primary_passage` and read them
+  all. An *"Or X"*, *"Lit Y"* or *"Some mss omit Z"* the study never mentions, where it argues from
+  the other reading, is an undisclosed fork: **Moderate** if the argument turns on it, **Minor** if
+  incidental.
+- **Root fallacy.** Flag "literally/originally means X" used to set the meaning in the passage.
+- **Glosses and domains.** Check against `bible_word` and `bible_domain` directly.
+- **"No translation preserves this."** Spot-check at least two of the translations named.
+- **Syntax and coreference.** Re-query an implicit subject, pronoun antecedent or construct chain
+  with `bible_syntax`. A `NULL` means not annotated; confirm the verse is covered before treating
+  silence as contradiction.
 
 ## Phase 4 — The study's own claims
 
-Phases 1–3 all check a claim against a **source**. This phase checks the claims that have no source:
-the ones the study constructs itself, on top of correctly-quoted verses and correctly-derived word
-studies. For any study whose distinctive contribution is a typological mapping, a chronology, or a
-pattern argument, this is most of what the reader came for, and nothing above covers it.
+Phases 1–3 check claims against a source. This phase checks the claims the study constructs itself:
+for a typology, chronology or pattern argument, most of what the reader came for.
 
-**Extract them into a list, away from the prose, before checking any of them.** Two things make this
-phase hard, and both defeat reading. A synthetic claim is usually the most rhetorically polished
-sentence in its paragraph — it is where the writer landed the point — and polish reads as confidence.
-And where the reviewer is also the author, re-reading supplies the relation that was *intended*
-rather than the one that was *written*.
+**Extract them into a list, away from the prose, before checking any.** A synthetic claim is usually
+the most polished sentence in its paragraph, and an author re-reading supplies the relation intended
+in place of the one written.
 
-What to enumerate:
+- **Identity and family** ("Zechariah son of Jehoiada", "Emmaus, seven miles west"): check against
+  `bible_names`. A link TIPNR marks (a)/(d)/(f)/(?), or a site scored low or with close rivals, is
+  contested; stated flat, it is overclaimed.
+- **Correspondence** ("X answers to Y"): check the relation. Both halves can be accurate and the
+  relation false.
+- **Ordering** ("in order", "first … then"): lay the two sequences side by side and compare positions.
+- **Quantity** ("four times", "the only place"): re-run the count, for English words, books, events
+  and people as well as original-language terms.
+- **Arithmetic** (dates, spans, era conversions): recompute.
+- **Uniqueness** ("the only", "no other", "every"): usually written unverified.
 
-- **Identity and family claims** — "Zechariah son of Jehoiada," "Boaz's mother Rahab," "Emmaus,
-  seven miles west." Check each against `bible_names`, which returns individuals rather than
-  spellings, their family links and every verse naming them, and a place's best identification with
-  its confidence. A link TIPNR marks (a)/(d)/(f)/(?) or a site scored low or with close rivals is
-  contested; a study stating it flat is overclaiming, and that is a finding.
-
-- **Correspondence claims** — "X answers to Y," "the same word appears in both," "these two events
-  are those two events." Check the correspondence, not the things being corresponded. Both halves can
-  be individually accurate and the relation between them still false.
-- **Ordering and sequence claims** — "in order," "in the same order," "first … then." These fail
-  silently, because a reader assumes anyone who wrote "in order" counted. Lay the two sequences out
-  side by side and compare positions.
-- **Quantity and frequency claims** — "six times in six verses," "four times," "the only place in
-  Scripture," "never elsewhere." Re-run the count. Phase 3 covers this for original-language terms;
-  the identical claim made about English words, books, events or people is not covered there.
-- **Arithmetic** — dates, spans, totals, era conversions. Recompute; a wrong sum looks exactly like a
-  right one.
-- **Uniqueness and exhaustiveness** — "the only," "no other," "every," "always." Cheapest to write,
-  most expensive to verify, and therefore usually written unverified.
-
-**A false synthetic claim is Critical**, level with a misquoted verse. The study asserts it in its own
-voice, so there is no source to carry the blame and nothing external for a reader to check it against.
-
-**This is not hypothetical.** `last-things/day-is-a-thousand-years.md` asserted "Day three's two
-events, in order, are the third millennium's two events, in order." Both lexical links underneath it
-(*yabbashah*, *zera*) were verified in Phase 1 and re-derived in Phase 3, and both were correct. The
-ordering was not: Genesis day three runs land (1:9-10) then seed (1:11-12), while the millennium it
-was matched to has the promise of both together at Genesis 12:7 and reaches dry ground only at the
-Exodus, centuries later. The sentence survived a complete review because every phase checked its
-parts and no phase checked its claim. It was eventually caught while cutting the sentence for
-*style* — which is luck, not method, and is why this phase exists.
+**A false synthetic claim is Critical**: the study asserts it in its own voice, with no source to
+check it against. `day-is-a-thousand-years.md`'s "day three's two events, in order" survived a full
+review because every phase checked its parts and none its claim
+([why-the-rules.md](../why-the-rules.md#review-phase-4)).
 
 ## Phase 5 — Commentary cross-check
 
-- From the study's `primary_passage`, query `study-notes.db` for a commentary the study's own
-  **References & Recommended Reading** section does *not* already cite for that passage, if one covering
-  it exists. The point is an independent check, not confirmation from a source the study already leaned
-  on to reach its own conclusions.
-- Compare the study's central claims — the stated theological principle, and the load-bearing
-  exegetical moves it depends on — against what that commentary says. Report one of three outcomes per
-  claim checked: **confirms**, **silent** (neither supports nor contradicts), or **complicates/contradicts**.
-- A contradiction against a central claim sends you back to the text, not to the commentary's
-  conclusion. Weigh the commentary's *reasons* against the passage and its book context. If the text
-  supports the objection, it is a **Critical** finding. If the study's exegesis answers it, report the
-  disagreement and recommend no change. Never recommend marking a claim "contested" only because a
-  study Bible reads it differently.
-- Report the reverse case too: **any exegetical step that rests on a study note alone** (the study
-  cites a note as the reason for a conclusion, with no verse, word or context behind it). Recommend
-  grounding it in the text or dropping it. The rules are in
-  [cross-references.md](../develop-bible-study/cross-references.md#commentaries-and-study-notes).
+- Query `study-notes.db` for a commentary on the `primary_passage` that the study's References do
+  not already cite.
+- Compare the central claims (the principle and the exegetical moves under it) and report each as
+  **confirms**, **silent** or **complicates/contradicts**.
+- A contradiction sends you back to the text. Weigh the commentary's reasons against the passage: if
+  the text supports the objection, it is **Critical**; if the study's exegesis answers it, report
+  the disagreement and recommend no change. Never recommend "contested" only because a study Bible
+  reads it differently.
+- Report any exegetical step that rests on a study note alone, and recommend grounding it in the text
+  or dropping it ([cross-references.md](../develop-bible-study/cross-references.md#commentaries-and-study-notes)).
 
 ## Phase 6 — Context coverage
 
-Run the file against the six questions on
-[how-to-read-the-bible.md](../../../docs/content/scripture/how-to-read-the-bible.md), one at a time, marking
-each **covered**, **partial**, or **missing**:
+Mark each of the six questions on
+[how-to-read-the-bible.md](../../../docs/content/scripture/how-to-read-the-bible.md) **covered**,
+**partial** or **missing**:
 
-1. Genre identified, and the genre-appropriate lens actually applied (not just named in passing)?
-2. Historical occasion — author, audience, date, circumstance — present?
-3. Literary context — immediate before/after, the unit of thought — addressed?
-4. Original-language check present wherever a word is doing real theological work? (Overlaps Phase 3
-   above; the question here is *coverage*, Phase 3's is *correctness*.)
-5. Cultural-vs-transcultural line drawn *explicitly*, not just assumed?
-6. Is the theological principle stated or taught elsewhere in Scripture, rather than resting on one
-   narrative detail or incidental remark alone?
+1. Genre identified, and its lens applied?
+2. Historical occasion (author, audience, date, circumstance)?
+3. Literary context (before and after, the unit of thought)?
+4. Original-language check wherever a word does theological work? (Coverage; Phase 3 is correctness.)
+5. Cultural-vs-transcultural line drawn explicitly?
+6. The principle taught elsewhere in Scripture, beyond one narrative detail?
 
-A seventh question, sourced from a different document — not one of the six above, so mark it
-separately rather than folding it in:
+Mark a seventh separately:
 
-7. **Statement-of-faith consistency.** Where the study's stated theological principle intersects a
-   position in [statement-of-faith.md](../../../docs/content/about/statement-of-faith.md), is it
-   consistent with it? Most studies won't intersect it at all — the statement covers core doctrine,
-   not every debated secondary topic — and **missing** is the expected, unremarkable result, not a
-   gap to chase. Report a genuine conflict, don't resolve it: this is the author's own settled,
-   Scripture-derived conviction, not a rule to enforce backward into the exegesis, so the finding is
-   "here's a tension to look at," never a suggested rewrite of either the study or the statement.
+7. **Statement-of-faith consistency.** Where the principle meets a position in
+   [statement-of-faith.md](../../../docs/content/about/statement-of-faith.md), is it consistent?
+   **Missing** is the usual result. Report a conflict as a tension for the author; never suggest
+   rewriting the study or the statement.
 
-Then run the mechanical half, which finds omissions that reading cannot. Use the **`review_gaps`**
-MCP tool with the study's path (the `study_*` tools are about study **Bibles**, not about this
-repo's study files). Prefer it over the CLI: its structured result is what the next step weighs
-kind by kind.
+A study can pass Phases 1–5 and fail here by skipping straight to application. Don't skip this phase
+because the sourcing checked out.
 
-CLI fallback when the server is not connected:
+**Then the mechanical half.** Run the `review_gaps` MCP tool with the study's path (the `study_*`
+tools are about study Bibles). CLI fallback: `cd references/build && uv run python study_gaps.py
+<path>`. Weigh its kinds differently:
 
-```bash
-cd references/build && uv run python study_gaps.py <path to the study>
-```
+- **quotation**: a textual fact. A study that treats a passage and never names what it quotes has a
+  gap (Hebrews 3 without Psalm 95).
+- **parallel**: the BSB translators' judgment that another passage tells the same story. Report an
+  unnamed parallel unless the study has a reason to stay with one account.
+- **hebrew-candidate**: a 19th-century translator's judgment; check it in Greek.
+- **crossref**: a lead only.
 
-It reads the study's own `primary_passage`/`bible_references`, gathers derived scripture links and
-cross-references against those passages, subtracts every chapter the study already cites, and ranks
-what is left.
-
-Weigh the kinds differently, and do not let the tool decide for you. A **quotation** is a textual
-fact: if the study treats a passage and never mentions what it quotes, that is a real gap — *The
-Way* cites Hebrews 3 without ever naming Psalm 95, which Hebrews 3 quotes three times. A
-**parallel** is the BSB translators' judgment that another passage tells the same story (Luke
-11:1-4 beside Matthew 6:5-15); a study of a gospel passage or of Kings/Chronicles that never names
-its parallel has usually missed something a reader will ask about, so report it unless the study
-has a reason to stay with one account. A **hebrew-candidate** is a 19th-century translator's
-judgement and needs checking in Greek. A **crossref** is a lead and nothing more.
-
-A long gap list is normal and is not a defect in the study; most entries are cross-reference noise.
-Report only what genuinely bears on the argument, and say why. A study with neither frontmatter
-field is invisible to this check and reports so — flag that as its own finding, since it also means
-the study is missing from the generated commentary index.
-
-A study can pass every check in Phases 1–5 — every quote and citation accurate — and still fail this
-phase by skipping straight to application. That is precisely the failure mode
-[how-to-read-the-bible.md](../../../docs/content/scripture/how-to-read-the-bible.md) and SKILL.md's "one
-rule that governs everything" exist to catch, so don't skip this phase because the sourcing already
-checked out clean.
+A long gap list is normal. Report what bears on the argument, and say why. A study with neither
+`primary_passage` nor `bible_references` is invisible to this check and to the commentary index;
+that is its own finding.
 
 ### Check the study against its siblings, not only against sources
 
-Everything above compares a claim to a **source**. Nothing compares it to *the other studies on this
-site*, and that is where this corpus has actually contradicted itself. `rapture.md` had Noah removed
-before the flood in one section and preserved through it in four others, while `olivet-discourse.md`
-— which it links to — had settled the question the other way with lexical evidence. `day-is-near.md`
-prayed a reading of Mark 13:32 that a sibling study exists to refute. Every one of those files passed
-review on its own.
+Every check above compares a claim to a source; this one compares it to the site's other studies,
+where the corpus has contradicted itself while each file passed review alone
+([why-the-rules.md](../why-the-rules.md#review-siblings)).
 
 ```bash
 cd references/build
-uv run python cross_study_claims.py --min-studies 4   # the shared surface, busiest first
-uv run python cross_study_claims.py "Matthew 24"      # what each study says about one chapter
+uv run python cross_study_claims.py --min-studies 4                         # the shared surface
+uv run python cross_study_claims.py "John 4" --exclude jesus/woman-at-well.md  # one chapter's siblings
 ```
 
-Run it for each chapter this study leans on that other studies also treat. The tool cannot judge —
-it lays the sentences out side by side. Where two studies disagree, the fix is usually *one* of them,
-and which one is a question for the user, not a silent edit to whichever file is open.
+Run it for each chapter the study leans on. Each sibling has a role: **primary** (its
+`primary_passage`), **cited** (its `bible_references`) or **prose**. Start with the primary ones and
+ask:
 
-To list the siblings for the study's own passage, pass the chapter with the file left out:
+1. **Do they agree?** Where they don't, which to fix is the user's call.
+2. **Does this study re-argue a sibling's ground without linking it?** That should be one sentence
+   and a link. A primary sibling on the same verses that is never mentioned is a finding.
+3. **Could either enrich the other?** Report both directions as suggestions, and never edit the
+   sibling in this review.
 
-```bash
-uv run python cross_study_claims.py "John 4" --exclude jesus/woman-at-well.md
-```
-
-Each sibling is reported with a role: **primary** (its `primary_passage`), **cited** (its
-`bible_references`) or **prose** (named only in its prose). Start with the primary ones. Then ask
-three questions of each:
-
-1. **Do they agree?** This is the consistency check above.
-2. **Does this study re-argue what a sibling has already settled, without linking to it?** A
-   paragraph that covers ground a primary sibling covers in depth should be one sentence and a
-   link. Re-arguing it costs words, and two versions of one argument can drift apart. Check
-   whether the study links the siblings that treat its own passage. A study that never mentions a
-   primary sibling on the same verses is a finding.
-3. **Could either study enrich the other?** A sibling may hold a word study, a cultural detail or a
-   correction this study needs. This study may have found something a sibling lacks. Report both
-   directions as suggestions. Recommend changes to another study and never make them in this
-   review: that study needs its own review.
-
-If the state file has `sibling_studies` from develop-bible-study Phase 1, check that each one marked
-`link` or `build-on` is linked in the prose, and that no link points to a `draft: true` sibling
-(validator Check 24).
+If the state file has `sibling_studies`, check that each marked `link` or `build-on` is linked, and
+that no link points to a `draft: true` page (validator Check 24).
 
 ## Phase 7 — Placement, frontmatter & tags
 
-Cheap to check, and the failures are invisible from the page itself — they show up as a study missing
-from an index, or a wrong entry on someone else's page.
+Audit against [placement-and-tags.md](../develop-bible-study/placement-and-tags.md):
 
-Audit the file against
-[placement-and-tags.md](../develop-bible-study/placement-and-tags.md) — the same rules develop-bible-study
-drafts to, applied backwards. Work through its three parts:
-
-- **Placement.** Is the file in the section its subject actually belongs to, or parked where a
-  *related* study lives? `salvation/` and `biblical-figures/` were created late, so older studies
-  that belong there may still sit elsewhere — raise that as a finding rather than leaving it
-  misfiled.
-- **Tags**, against [docs/content/tags.md](../../../docs/content/tags.md), the live vocabulary. The
-  hits to look for: tags restating the section, facets written flat (`word-study` for
-  `method/word-study`), colons, uppercase/spaces, near-synonyms, and a person carrying the bare name
-  of a book.
+- **Placement.** Is the file in its subject's section, or parked beside a related study? Older
+  studies may predate `salvation/` and `biblical-figures/`.
+- **Tags**, against [docs/content/tags.md](../../../docs/content/tags.md): a tag restating the
+  section, a flat facet (`word-study` for `method/word-study`), colons, uppercase or spaces,
+  near-synonyms, a person tagged with a book's bare name.
 - **Frontmatter**, per that file's "Frontmatter failures worth checking" and "The provenance
-  fields." The provenance trio is derived, never typed — if `date_created`, `date_modified` or
-  `ai_provider_models` is missing or stale, the finding is "run
-  `python3 utils/refresh_frontmatter_provenance.py`", not a hand-edit. Don't invent a date or a
-  model to fill a gap; git is the only source for those values.
+  fields". A missing or stale provenance field is fixed by running
+  `python3 utils/refresh_frontmatter_provenance.py`, never by hand.
 
-**Severity.** These are **Minor** by default, with two exceptions that are **Major** because they
-corrupt a generated page elsewhere on the site: a missing `primary_passage`/`bible_references` (the
-study goes silently under-reported in `commentary_index.py`'s cross-references), and a surviving
-`gregorian_year: -4004` placeholder (plants a false entry on the prophetic timeline — and
-`build-events.js` does not filter drafts, so `draft: true` will not contain it).
+**Minor** by default. Two are **Major** because they corrupt a page elsewhere: a missing
+`primary_passage`/`bible_references` (the commentary index under-reports it), and a surviving
+`gregorian_year: -4004` placeholder (a false timeline entry, which `build-events.js` plants even for
+a draft).
 
 ## Phase 8 — Style guide pass
 
-Run [style-guide.md](../develop-bible-study/style-guide.md) against the file: bare intensifiers, grader
-adjectives, narrated-argument phrases, overused contrast rhythm, em-dash density, rule-of-three padding,
-and — the brevity check — sentences that don't survive being deleted. Also confirm the section order
-from develop-bible-study's Phase 7 (short hook → **Key Takeaways** → detail → … → References & Recommended
-Reading).
+**Do the reading test first, before any grep.** Read the prose start to finish and mark every
+sentence your eye slides past ([style-guide.md](../develop-bible-study/style-guide.md#the-reading-test-that-catches-all-of-this)).
+Then run the guide's tells: bare intensifiers, grader adjectives, narrated argument, contrast rhythm,
+em-dash density, rule-of-three padding, and sentences that don't survive deletion. Confirm the
+section order in develop-bible-study Phase 7.
 
-**Do the reading test, and do it before any grep.** style-guide.md's own instruction — notice what you
-**skim** — is the check that catches this entire category, and it cannot be run from a terminal. Read
-the prose start to finish and mark every sentence your eye slides past to get to the content. That
-reflex *is* the finding; it is the same thing the reader will do.
+**A clean `npm run validate` is not a pass.** Its style checks are four narrow regexes (Checks 10–13),
+and the narrated argument, the apologia posture and the straw alternative match none of them. **Learn
+the shape, not the specimens**: *"Notice that…"* is listed and *"Note what this is"* is not, and they
+are the same sentence ([why-the-rules.md](../why-the-rules.md#review-phase-8)).
 
-**A clean `npm run validate` does not mean the file passed this phase.** Its style checks are four
-narrow regexes — Check 10 `worth ___`, Check 11 the "rather than" virtue contrast, Check 12 bullet
-length, Check 13 reader-reassurance address. The narrated-argument family, the apologia posture, the
-restated conclusion and the straw-alternative contrast match none of them, and style-guide.md says so
-outright: the shapes it cannot detect mechanically "are on you." Treating a green validate run as
-coverage is exactly how *"Note what this is. It is not a mystical flourish; it is an exegetical
-solution"* — an announcement stacked on a straw alternative, two tells in one sentence — passed a
-full review of the file it was sitting in.
+**Three tells need a human** ([human-review.md](../develop-bible-study/human-review.md)): the
+antithesis construction (count it; one every 210 words is the observed drift), essay register in
+Key Takeaways, prayer and application, and writing around the theology. Count the first, report the
+other two, and hand the page to the user.
 
-**Learn the shape, not the examples.** style-guide.md makes this point about `worth ___` and it
-generalises to every tell on that page: a reviewer grepping the guide's literal specimens will miss
-every variant of them. *"Notice that…"* is listed there; *"Note what this is"* is not, and they are
-the same sentence.
+**Then the format checks** in [format-checks.md](format-checks.md) that apply, and
+[graphics-checks.md](graphics-checks.md) if the study has a comic or drawn plates.
 
-**Three tells need a human, and the review should say so rather than pretend to have covered them.**
-[human-review.md](../develop-bible-study/human-review.md) names them: the antithesis construction
-(`X, not Y` / `rather than` — count it, one every 210 words is the observed drift), essay register
-surviving into Key Takeaways, the prayer and the application, and writing around the theology
-instead of naming it. An agent can count the first and should; the second and third are judgement
-calls a reviewer who also drafted the file is the worst-placed person to make. Report what you find
-and hand the page to the user.
-
-**Then run the format checks in [format-checks.md](format-checks.md)**, each one that applies: the
-discussion-question facets, the Be Transformed and Memory verses shapes, the balance between prose
-and pop-up, and the width of any mermaid diagram. Each is invisible to a reading pass for the same
-reason: every instance looks fine alone, and the defect shows only against the convention.
-
-**If the study has a comic or drawn plates, run [graphics-checks.md](graphics-checks.md).** A
-quotation can be word-perfect while the pose, label or legend around it is wrong.
-
-Findings here are **Minor** one at a time; a style issue is never as severe as a wrong Bible quote.
-Raise it as **Moderate** when the register is *pervasive* rather than local — style-guide.md exists
-because prose that reads as machine-generated "undercuts the reader's trust in the research
-underneath," and that damage scales with density, not with any single hit.
+Style findings are **Minor** one at a time, and **Moderate** when the register is pervasive.
 
 ## Reporting
 
 Findings, most severe first:
 
-- **Critical** — wrong scripture text, a citation that doesn't say what's claimed, a broken translation
-  label, a false synthetic claim the study makes in its own voice (Phase 4), a commentary that
-  contradicts a central claim, Hebrew/Aramaic text broken by markdown bold (see Phase 2), or a
-  conflict with one of statement-of-faith.md's own marked-essential sections — Scripture's authority,
-  the Trinity, or salvation/justification (Phase 6, question 7). These block `draft: false` (or, for
-  an already-live file, warrant fixing promptly).
-- **Moderate** — a Phase 6 context gap (e.g., cultural-vs-transcultural never made explicit), a
-  statement-of-faith conflict outside those marked-essential sections, a stale word-count claim
-  that's directionally still true but numerically off, a cross-reference that's weaker than stated,
-  a conclusion that contradicts a sibling study (Phase 6), or a pervasive style-register problem
-  (Phase 8).
-- **Minor** — style-guide hits, padding, structural nits, a sibling's ground re-argued without a
-  link to it, or a primary sibling on the same passage that is never linked.
+- **Critical**: wrong Scripture text, a citation that doesn't say what's claimed, a wrong translation
+  label, a false synthetic claim (Phase 4), a commentary contradicting a central claim that the text
+  supports, Hebrew broken by bold, or a conflict with a marked-essential section of the statement of
+  faith (Scripture's authority, the Trinity, salvation/justification). These block `draft: false`, or
+  need a prompt fix on a live page.
+- **Moderate**: a Phase 6 context gap, a statement-of-faith conflict outside those sections, a count
+  that is directionally right but numerically off, a cross-reference weaker than stated, a conclusion
+  contradicting a sibling, pervasive style register.
+- **Minor**: style hits, padding, structural nits, a sibling's ground re-argued without a link, a
+  primary sibling never linked.
 
-**Suggestions for other studies** go in their own list after the findings: what a sibling could
-take from this study, or this study from a sibling (Phase 6, sibling question 3). Name each study
-and the section the addition would go in.
+**Suggestions for other studies** go in their own list after the findings, naming each study and the
+section the addition would go in.
 
-**Report the size.** Give the study's word count, its budget (`word_budget` in the state file, or
-4,000), and the net words your recommended fixes would add. A review only ever finds things to add,
-so when a fix would push the study over budget, add a matching cut to the recommendation, or name
-the section as a fork candidate and recommend **simplify-bible-study**.
+**Report the size**: the study's word count, its budget (`word_budget` in the state file, or 4,000),
+and the net words the fixes would add. Where a fix pushes it over budget, pair it with a cut or name
+a fork candidate for **simplify-bible-study**.
 
-Present the list to the user before fixing anything. Once they've seen it and said which to act on,
-either fix directly or hand back to develop-bible-study's drafting phase for anything substantial enough
-to need re-drafting rather than a line edit.
+Present the list before fixing anything. Once the user has chosen, fix directly, or hand anything
+needing a redraft to develop-bible-study.
 
-**Record the review.** Append a dated `review_<YYYY-MM-DD>` block to the study's state file
-(`references/study-state/<slug>.yml`) summarizing what was checked and what was found — the same pattern
-this repo already uses for post-publish revision entries. This makes the review itself a resumable,
-citable event instead of a chat transcript that evaporates. If no state file exists, say so in the
-report rather than fabricating a research trail for phases that were never actually tracked live.
-
-## When to use this vs. develop-bible-study
-
-- **develop-bible-study** — building a new study, from scoping through drafting to first publish.
-- **review-bible-study** (this skill) — auditing a study that already exists, whether freshly drafted,
-  long-published, or flagged by the user for a second look, with the same rigor but adversarial rather
-  than generative.
+**Record the review**: append a dated `review_<YYYY-MM-DD>` block to the state file, saying what was
+checked and found. With no state file, say so rather than fabricate a trail.
