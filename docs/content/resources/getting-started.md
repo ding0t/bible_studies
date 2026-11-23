@@ -5,7 +5,7 @@ description: "Set up the same open-data Bible workbench and AI agent this site i
 tags: ["getting-started", "study-method", "ai", "data"]
 draft: false
 date_created: 2026-10-19
-date_modified: 2026-10-28
+date_modified: 2026-11-23
 ai_provider_models:
   - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5.5
@@ -20,7 +20,8 @@ resolves to a row you can check, without buying a single commercial Bible resour
 This guide is for the enthusiast who reads the Bible seriously, is not a trained Hebrew or Greek scholar, and
 wants the tools this site's studies are built with. [AI in These Studies](../about/why-ai-assisted-study.md)
 explains why the method exists and [Our Data Sources](../about/about-our-datasets.md) names every dataset. This page
-is the hands-on companion: what to install, what to paste, and what to expect.
+is the hands-on companion: what to install, what to paste, and what to expect. Using an ordinary chat assistant
+without the workbench? [Guiding AI in Bible Study](guiding-ai-in-bible-study.md) gives the habits and a prompt card.
 
 ## Study outline
 

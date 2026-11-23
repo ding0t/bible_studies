@@ -45,6 +45,8 @@ theme:
     - navigation.prune
     - navigation.top
     - navigation.indexes
+    # A copy button on code blocks, for the prompts readers paste (resources/guiding-ai-in-bible-study.md).
+    - content.code.copy
 
 # `draft: true` frontmatter keeps a page out of `mkdocs build` (and so out of the deployed site,
 # its sidebar nav and the search index) while leaving it visible under `mkdocs serve`. MkDocs has

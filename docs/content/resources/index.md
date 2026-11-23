@@ -27,6 +27,14 @@ External sources, tools, and datasets this project draws on.
 
     [:octicons-arrow-right-24: Read](getting-started.md)
 
+-   __Guiding AI in Bible Study__
+
+    ---
+
+    Seven habits for studying the Bible with an AI chat assistant, each learned from a mistake the AI behind this site actually made, and a prompt card to paste at the start of a conversation.
+
+    [:octicons-arrow-right-24: Read](guiding-ai-in-bible-study.md)
+
 -   __Jewish Literature & Primary Sources__
 
     ---

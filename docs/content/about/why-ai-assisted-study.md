@@ -5,7 +5,7 @@ description: "How AI is used to research and draft the studies on this site: wha
 tags: ["ai", "study-method", "transparency"]
 draft: false
 date_created: 2026-07-25
-date_modified: 2026-10-22
+date_modified: 2026-11-23
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -25,6 +25,8 @@ the tool does, the failure modes it brings with it, and where its usefulness end
     line against Scripture before it is published.
 
 Want the same setup for your own study? [Getting Started](../resources/getting-started.md) walks through it.
+Using an ordinary chat assistant? [Guiding AI in Bible Study](../resources/guiding-ai-in-bible-study.md) gives
+seven habits, each from a mistake made here, and a prompt to paste.
 
 ---
 
