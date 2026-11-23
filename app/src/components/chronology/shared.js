@@ -148,6 +148,7 @@ export const sectionLabel = {
 const GENEALOGY_TIMES_URL = '/chronology/genealogy-times/';
 const CHRONOLOGY_ANCHORS_URL = '/chronology/chronology-anchors/';
 const FOUR_EIGHTY_URL = '/chronology/four-hundred-and-eighty-years/';
+const DATING_THE_CROSS_URL = '/chronology/dating-the-cross/';
 const PRIESTLY_LINE = {
   url: `${FOUR_EIGHTY_URL}#genealogy-check-1-the-priestly-line-broadly-consistent-with-480-years`,
   label: 'Four Hundred and Eighty Years: the priestly line from Aaron',
@@ -174,8 +175,8 @@ const STUDY_LINKS = {
   joshua: CONQUEST,
   caleb: CONQUEST,
   jesus: {
-    url: `${CHRONOLOGY_ANCHORS_URL}#settling-the-crucifixion-year`,
-    label: 'Settling the crucifixion year',
+    url: `${DATING_THE_CROSS_URL}#settling-the-crucifixion-year`,
+    label: 'Dating the Cross: settling the crucifixion year',
   },
 };
 export function studyLinkFor(person) {

@@ -20,7 +20,7 @@ ai_provider_models:
 
 This is the reference table the genealogy work depends on, and the [Prophetic Timeline](/timeline/#kingdom-exile) draws from the same data: every row below opens its own panel there, with the records that date it. For the elastic stretch before Abraham, and for the manuscript variants that stretch it, see [Genealogy and Times](genealogy-times.md). For the priestly calendar whose sabbaticals and jubilees the site counts in, see [The Zadok Calendar](../feasts/zadok-calendar.md).
 
-**In one sentence:** Solomon's temple, an Assyrian eclipse, Daniel's own prophetic arithmetic, and Luke's Roman regnal dates lock forty-one events to a Gregorian calendar tightly enough to place the crucifixion on Friday, 3 April AD 33.
+**In one sentence:** Solomon's temple, an Assyrian eclipse, Daniel's own prophetic arithmetic, and Luke's Roman regnal dates lock forty-one events to a Gregorian calendar, closing with the crucifixion, which [Dating the Cross](dating-the-cross.md) places on Friday, 3 April AD 33.
 
 ## Key Takeaways
 
@@ -41,13 +41,11 @@ Lord of the times and seasons, you set the eclipse in the sky that dates the rei
   Bracketed, and drawn to scale on [the rail](#the-rail-drawn-to-scale).
 - **[The entries that carry the rest](#the-entries-that-carry-the-rest).** The Bur-Sagale eclipse,
   Jehoiachin's deportation, Ezekiel's vision, Jeremiah's seventy years, the 444 BC decree, and the
-  Nativity and Passover brackets.
+  Nativity and Passover brackets, with row 41 argued in [Dating the Cross](dating-the-cross.md).
 - **[Outside witnesses](#outside-witnesses).** The five records the whole rail rests on, and the
   monuments and tablets behind each date, from Merneptah to the Pilate Stone.
 - **[The four hundred silent years](#the-four-hundred-silent-years).** Daniel's kingdoms, the
   desecration and rededication, the 2,300 evenings and mornings, and the sabbatical cycle.
-- **[Settling the crucifixion year](#settling-the-crucifixion-year).** Row 41, argued in its own
-  study, [Dating the Cross](dating-the-cross.md).
 - **[What the rail cannot do](#what-the-rail-cannot-do).** How its error carries back to creation,
   and why sabbatical cycles cannot be counted from creation.
 
@@ -191,7 +189,9 @@ The bracket does not depend on which answer is right, because Matthew 2:1 alread
 
 ### The "forty-six years" Passover bracket
 
-**"Forty-six years," AD 27-30 (#40).** Josephus puts Herod's start on the temple in his eighteenth year (*Antiquities* 15.380), which is 20/19 BC counting his reign from 37 BC; *Jewish War* 1.401 gives the fifteenth year instead. Adding the forty-six years of John 2:20 to that start gives a first Passover in AD 27 or 28. Counting instead from the sanctuary's completion in 18/17 BC gives AD 29/30 ([Dating the Cross](dating-the-cross.md#john-220-neutral-between-both-years)). The bracket spans both readings, and its width is what leaves the ministry's length open between roughly three and five years. The table sets the row at AD 30, the year this page's verdict needs, and after John's ministry begins (#39), since Jesus came to that Passover after His baptism (John 1:29-34; 2:13).
+**"Forty-six years," AD 27-30 (#40).** Josephus puts Herod's start on the temple in his eighteenth year (*Antiquities* 15.380), which is 20/19 BC counting his reign from 37 BC; *Jewish War* 1.401 gives the fifteenth year instead. Adding the forty-six years of John 2:20 to that start gives a first Passover in AD 27 or 28. Counting instead from the sanctuary's completion in 18/17 BC gives AD 29/30 ([Dating the Cross](dating-the-cross.md#john-220-neutral-between-both-years)). The bracket spans both readings, and its width is what leaves the ministry's length open between roughly three and five years. The table sets the row at AD 30, the year the verdict in Dating the Cross needs, and after John's ministry begins (#39), since Jesus came to that Passover after His baptism (John 1:29-34; 2:13).
+
+Row 41's year has its own study. [Friday, 3 April AD 33: Dating the Cross](dating-the-cross.md) narrows Pilate's eleven Passovers to two Fridays, AD 30 and AD 33, and weighs Luke 3:1, the Passovers in John, Sejanus, Daniel 9:25 and Paul's chronology between them.
 
 ## Outside witnesses
 
@@ -463,10 +463,6 @@ Two readings are defensible and they land in different places. Taken as 2,300 ev
 The intervals are 28 years and 98 years — both exact multiples of seven, as is the 126 years spanning the outer pair. Three independent incidental notices sit on one unbroken cycle. That is what makes sabbatical and jubilee reckoning usable for the historical era at all, and counting forward from 37 BC on the same cycle gives sabbatical years at 2 BC, AD 6, 13, 20, 27, 34.
 
 One caution on those figures. The two standard reconstructions of the cycle differ by a single year. The years above, and the forward count, are Ben Zion Wacholder's (1973); Benedict Zuckermann's (1857) put each a year earlier, Herod's siege in 38/37 BC and the year before the temple's fall in AD 68/69 where Wacholder has 69/70. So the absolute placement carries ±1 even though the internal spacing is exact. The cycle is anchored; which of two adjacent years each falls in is not quite settled. The three sieges are joined on the [Prophetic Timeline](/timeline/#between) as one thread.
-
-## Settling the crucifixion year
-
-Row 41's year has its own study. [Friday, 3 April AD 33: Dating the Cross](dating-the-cross.md) narrows Pilate's eleven Passovers to two Fridays, AD 30 and AD 33, and weighs Luke 3:1, the Passovers in John, Sejanus, Daniel 9:25 and Paul's chronology between them.
 
 ## What the rail cannot do
 
