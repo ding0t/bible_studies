@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 11:25
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 11:15-17
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 11:12-25
 - [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 11:1-10
 <!-- commentary-index:auto-end -->

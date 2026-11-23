@@ -901,3 +901,7 @@ read_2026-10-05:
     - >-
       Material added since the 2026-09-07 review (the two Larkin figures and their captions, commit
       e604b509 and before) has had no review-bible-study pass.
+simplify_2026-11-23:
+  forked: "Can the crucifixion be dated? (the phrase counts, prosabbaton, Luke 24:21, the Hebrew week with the comic, the counter-case) and the Friday/Wednesday half of Where that leaves it moved verbatim to chronology/dating-the-cross.md. Does this fix the year? dropped: the new study opens its year section with the same two dates."
+  changed_here: "Can the crucifixion be dated? is now a three-sentence pointer; Where that leaves it keeps its first paragraph; description drops the Friday clause; Be Transformed's Attitude loses 'and in this study they do not, at two points' (one of the two points left); outline lines; the Related link to Chronology Anchors re-pointed to the new study; bible_references lost the moved section's references. The comic three-days.svg now sits on the new page."
+  budget: "4,771 words before, about 3,650 after, against 4,000."

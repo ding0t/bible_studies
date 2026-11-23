@@ -5,9 +5,9 @@ description: "Forty-one events from Solomon's temple to the Resurrection, each w
 tags: ["genealogy", "archaeology", "method/archaeology", "status/investigation"]
 draft: false
 primary_passage: "1 Kings 6:1"
-bible_references: ["Joshua 10:12-14", "1 Kings 5:1-12", "1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Chronicles 12:2", "2 Kings 1:1", "2 Kings 3:4-5", "2 Kings 9:24-27", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20", "Nehemiah 1:1", "Ezra 7:9", "Nehemiah 2:5-8", "Ezra 7:11-27", "Isaiah 36:1", "Isaiah 44:28", "2 Kings 18:10", "Jeremiah 52:12", "Jeremiah 52:29", "Jeremiah 34:7", "Leviticus 26:34-35", "Zechariah 1:12", "Zechariah 7:5", "Luke 2:2", "Acts 5:37", "John 2:13", "John 19:12", "Mark 15:42", "Acts 18:12", "Galatians 1:18"]
+bible_references: ["Joshua 10:12-14", "1 Kings 5:1-12", "1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Chronicles 12:2", "2 Kings 1:1", "2 Kings 3:4-5", "2 Kings 9:24-27", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20", "Nehemiah 1:1", "Ezra 7:9", "Ezra 7:11-27", "Isaiah 36:1", "Isaiah 44:28", "2 Kings 18:10", "Jeremiah 52:12", "Jeremiah 52:29", "Jeremiah 34:7", "Leviticus 26:34-35", "Zechariah 1:12", "Zechariah 7:5", "Luke 2:2", "Acts 5:37", "John 2:13", "Acts 18:12"]
 date_created: 2026-08-22
-date_modified: 2026-11-22
+date_modified: 2026-11-23
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -46,8 +46,8 @@ Lord of the times and seasons, you set the eclipse in the sky that dates the rei
   monuments and tablets behind each date, from Merneptah to the Pilate Stone.
 - **[The four hundred silent years](#the-four-hundred-silent-years).** Daniel's kingdoms, the
   desecration and rededication, the 2,300 evenings and mornings, and the sabbatical cycle.
-- **[Settling the crucifixion year](#settling-the-crucifixion-year).** AD 30 against AD 33, test by
-  test, ending at Friday 3 April AD 33.
+- **[Settling the crucifixion year](#settling-the-crucifixion-year).** Row 41, argued in its own
+  study, [Dating the Cross](dating-the-cross.md).
 - **[What the rail cannot do](#what-the-rail-cannot-do).** How its error carries back to creation,
   and why sabbatical cycles cannot be counted from creation.
 
@@ -191,7 +191,7 @@ The bracket does not depend on which answer is right, because Matthew 2:1 alread
 
 ### The "forty-six years" Passover bracket
 
-**"Forty-six years," AD 27-30 (#40).** Josephus puts Herod's start on the temple in his eighteenth year (*Antiquities* 15.380), which is 20/19 BC counting his reign from 37 BC; *Jewish War* 1.401 gives the fifteenth year instead. Adding the forty-six years of John 2:20 to that start gives a first Passover in AD 27 or 28. Counting instead from the sanctuary's completion in 18/17 BC gives AD 29/30 ([below](#john-220-neutral-between-both-years)). The bracket spans both readings, and its width is what leaves the ministry's length open between roughly three and five years. The table sets the row at AD 30, the year this page's verdict needs, and after John's ministry begins (#39), since Jesus came to that Passover after His baptism (John 1:29-34; 2:13).
+**"Forty-six years," AD 27-30 (#40).** Josephus puts Herod's start on the temple in his eighteenth year (*Antiquities* 15.380), which is 20/19 BC counting his reign from 37 BC; *Jewish War* 1.401 gives the fifteenth year instead. Adding the forty-six years of John 2:20 to that start gives a first Passover in AD 27 or 28. Counting instead from the sanctuary's completion in 18/17 BC gives AD 29/30 ([Dating the Cross](dating-the-cross.md#john-220-neutral-between-both-years)). The bracket spans both readings, and its width is what leaves the ministry's length open between roughly three and five years. The table sets the row at AD 30, the year this page's verdict needs, and after John's ministry begins (#39), since Jesus came to that Passover after His baptism (John 1:29-34; 2:13).
 
 ## Outside witnesses
 
@@ -396,7 +396,7 @@ it (*Antiquities* 17.167; row 38). The Pilate Stone, a dedication to Tiberius fo
 fifteenth year (Luke 3:1). It confirms the man and his title, and gives no year. The **Gallio
 inscription** at Delphi, a letter of the emperor Claudius dated by his twenty-sixth acclamation, AD 52,
 names Gallio proconsul of Achaia, which dates Paul's hearing before him (Acts 18:12) to AD 51/52 and
-gives the one fixed point in Paul's chronology ([below](#pauls-chronology-which-cuts-both-ways)).
+gives the one fixed point in Paul's chronology ([Dating the Cross](dating-the-cross.md#pauls-chronology-which-cuts-both-ways)).
 
 | Witness | Date | Job |
 |---|---|---|
@@ -466,95 +466,7 @@ One caution on those figures. The two standard reconstructions of the cycle diff
 
 ## Settling the crucifixion year
 
-Two dates satisfy the Gospels' own constraints, and only two. The crucifixion was on a Friday — "the day of Preparation, that is, the day before the Sabbath" (Mark 15:42, ESV; so also Luke 23:54, John 19:31) — at Passover, under Pilate, who was prefect from AD 26 to 36. Reconstructing the first-century Jewish calendar from the first visibility of the lunar crescent, Nisan 14 fell on a Friday in that window twice:
-
-| Candidate | Date |
-|---|---|
-| **AD 30** | Friday 7 April |
-| **AD 33** | Friday 3 April |
-
-Both are Nisan 14, so the long-standing question of whether the Synoptics and John place the crucifixion on Nisan 14 or 15 does not decide between them. Four other lines do.
-
-### The astronomical filter, and why AD 32 persists
-
-**Why the other nine years drop out, and why AD 32 keeps coming back.** The filter is a single
-astronomical fact, and it carries a stated assumption: on the Pharisaic-Rabbinic lunar-solar
-calendar in common Jewish use at the time, Nisan 14 landed on a Friday only twice in Pilate's
-eleven-year prefecture. The *ESV Study Bible*'s own article on the question puts it the same way —
-"the only plausible years for such a Friday corresponding to Nisan 14 are A.D. 30 or 33."
-Every other year in the window fails on the weekday alone, before any of the historical arguments
-below are reached, which is why a candidate list is always short and never includes AD 31, AD 34, or
-any of the rest.
-
-**AD 32 is the one that keeps being proposed anyway.** It is a genuine candidate on *chronological*
-grounds and not on astronomical ones. Sir Robert Anderson's
-reckoning of Daniel's sixty-nine weeks (*The Coming Prince*, 1894) runs 173,880 days from 14 March
-445 BC to 10 Nisan, which he calculated as Sunday 6 April AD 32 and identified as the Triumphal Entry
-itself, and that calculation is the reason the year circulates. Harold Hoehner reworked it and moved
-the terminus a year later for exactly this reason: on Anderson's own numbers an AD 32 crucifixion
-falls on the wrong day of the week for a Friday Passover. A date that satisfies the arithmetic of
-Daniel 9 but puts the crucifixion on a weekday the Gospels exclude needs correcting, and Hoehner
-corrected it, counting from Nehemiah's Nisan in 444 BC to 10 Nisan, Monday 30 March AD 33. See
-[Prophecy: Events and Times](../last-things/prophecy-events-times.md#the-arithmetic) for both versions of that sum
-and the two-to-four-day slack in each.
-
-### Luke 3:1 and the fifteenth year of Tiberius
-
-**Luke 3:1 is the primary evidence, and it favours AD 33.** Tiberius succeeded Augustus on 19 August AD 14, so his fifteenth year runs from August AD 28 to August AD 29. The *ESV Study Bible* puts it at "probably A.D. 29 (plus or minus a year)" and the *NIV Biblical Theology Study Bible* at AD 28-29. John's ministry begins there, Jesus is baptised after it, and the Passovers John records carry the ministry across three and a half years to AD 33 — set out below. Reaching AD 30 instead requires counting Tiberius's fifteenth year from AD 13, when he gained authority alongside Augustus. The *Cultural Backgrounds* volumes report that scholars often date the fifteenth year that way, to AD 27-28, so the reckoning has real support; it sits awkwardly beside Luke's evident care in naming five officials with their exact titles.
-
-### John 2:20: neutral between both years
-
-**John 2:20 turns out to be neutral.** The Greek reads *Τεσσεράκοντα καὶ ἓξ ἔτεσιν οἰκοδομήθη ὁ ναὸς οὗτος* — an aorist, οἰκοδομήθη ("was built", G3618), and ναός (*naos*, G3485), the sanctuary proper rather than the whole ἱερόν (*hieron*, G2411) complex. Josephus has Herod building the naos in eighteen months from his eighteenth year, finishing around 18/17 BC, while the wider precinct was unfinished until the AD 60s. So the dative ἔτεσιν (*etesin*, G2094) carries two defensible senses, and each pairs with one candidate to give a ministry of about three years:
-
-| Reading | Counts from | First Passover | Fits |
-|---|---|---|---|
-| "has taken forty-six years to build" | Herod's start, 20/19 BC | AD 27 | AD 30 |
-| "was built forty-six years ago" | the naos completed, 18/17 BC | AD 29/30 | AD 33 |
-
-The verse is compatible with either year and selects neither. The *ESV Study Bible* goes further and
-calls the second reading "much more likely," on the same grammatical grounds set out
-above. This page stops short of that: the grammar leans that way without settling it,
-and the year does not need John 2:20 to carry weight it cannot.
-
-### The Passovers in John
-
-**The Passovers in John make AD 30 hard to hold.** John marks at least three Passovers across the
-ministry (John 2:13; 6:4; 11:55), possibly four if the unnamed feast at 5:1 is one. Take the earliest
-start Luke 3:1 allows, late AD 28: the first of those Passovers falls in AD 29, the second in AD 30,
-the third no earlier than AD 31 — so the crucifixion cannot be at the second. Reaching AD 33 from a start in late AD 29 takes four Passovers (AD 30, 31, 32 and 33), so that date also needs the unnamed feast of John 5:1 to be a Passover, or one Passover to pass unmentioned. The *ESV Study Bible*
-runs the same count and reaches AD 33 by it, and treats it as the argument that makes AD 30
-difficult rather than merely less likely.
-
-The escape from that is to say John records only two Passovers, on the view that his temple cleansing
-(John 2:13-22) is the Synoptics' one at the end of the ministry, moved forward for thematic reasons. That
-is a real position, and it is the load-bearing assumption under most AD 30 reconstructions, so the crucifixion year and the number of temple cleansings are the same
-question wearing two hats. John's own time markers resist it: "after this" He went to Capernaum "for
-a few days," and *then* "the Passover of the Jews was at hand" (John 2:12-13).
-
-### Sejanus's fall and the "friend of Caesar" charge
-
-**Sejanus favours AD 33.** "If you release this man, you are not Caesar's friend" (John 19:12, ESV) uses the language of *amicus Caesaris*, and it lands on Pilate with real force only after his patron Sejanus fell in October AD 31 and association with him became dangerous. A Pilate who caves to that threat fits AD 33 better than AD 30.
-
-### Daniel 9:25 and the decree it counts from
-
-**Daniel 9:25 excludes AD 30 on the reckoning this site follows, and that reckoning makes two choices.** The count runs "from the going out of the word to restore and build Jerusalem" (Daniel 9:25, ESV), and four Persian decrees touch Jerusalem: Cyrus's (538 BC), Darius's (about 520), Artaxerxes' to Ezra in his seventh year (457) and Artaxerxes' to Nehemiah in his twentieth (444); [Prophecy: Events and Times](../last-things/prophecy-events-times.md#which-decree) tabulates them.
-
-- **The decree is Nehemiah's.** Nehemiah asks to be sent "to the city of my fathers' graves, that I may rebuild it" (Nehemiah 2:5, ESV) and is given timber "for the gates of the fortress of the temple, and for the wall of the city" (Nehemiah 2:8, ESV). Ezra's commission funds the temple's worship, and Ezra blesses God for putting it in the king's heart "to beautify the house of the LORD that is in Jerusalem" (Ezra 7:27, ESV). Daniel 9:25 is about the city, built again "with squares and moat".
-- **The years are 360 days long**, as Revelation 11:2-3 counts them ([How the tiers work](#how-the-tiers-work)). Sixty-nine weeks of them is 69 × 7 × 360 = 173,880 days, or 476 solar years. From Artaxerxes' twentieth year that reaches AD 32 counting the decree at 445 BC, and AD 33 counting it at 444 BC.
-
-Neither route produces AD 30. The other classic reckoning does. Counting 483 solar years from Ezra's decree in 457 BC reaches AD 27, which its advocates take for Jesus' baptism, with the cross three and a half years later, reading "for half of the week he shall put an end to sacrifice and offering" (Daniel 9:27, ESV) of it, in AD 30 or 31. That reading has to treat Ezra 7's temple decree as the word to rebuild the city, and Daniel's years as ordinary ones. This page holds Nehemiah's decree and the 360-day year for the reasons above, and marks both as readings.
-
-### Paul's chronology, which cuts both ways
-
-**Paul's chronology cuts both ways.** The Gallio inscription puts his proconsulship of Achaia (Acts 18:12) at AD 51/52, and Galatians 1:18 and 2:1 give three years and then fourteen after Paul's conversion. Where that lands depends on which Jerusalem visit Galatians 2:1 describes, and on whether the two spans overlap. The *ESV Study Bible* puts the conversion about AD 33, "an approximate date", and the Galatians 1:18 visit about AD 36, which leaves little room after an AD 33 crucifixion for the events of Acts 1-8; advocates of AD 30 press exactly that point. Other reconstructions place the conversion a year or two later. This line is contested, and the verdict below does not lean on it.
-
-### The Humphreys-Waddington eclipse argument
-
-**This page does not use the eclipse argument.** Humphreys and Waddington proposed that the partial lunar eclipse rising over Jerusalem on 3 April AD 33 lies behind Peter's "the moon to blood" (Acts 2:20). It fails on two counts. Bradley Schaefer has argued the eclipsed portion would not have been detectable to the naked eye at moonrise, and Humphreys' reply has not settled it. More importantly, Peter is quoting Joel 2:31 about what *will* happen before the day of the LORD, so reading it as a report of the previous Friday's sky asks the sermon for something it is not doing. An argument that needs both a contested observation and a strained citation should not be load-bearing.
-
-### Verdict: Friday, 3 April AD 33
-
-**Verdict: Friday 3 April AD 33.** The date itself is astronomically exact once the year is chosen; the year rests on Luke 3:1 read naturally, supported by Sejanus and by Daniel 9, which excludes AD 30 on either date for Nehemiah's decree. AD 30 stays defensible for anyone who takes Tiberius's fifteenth year from the co-regency, or counts Daniel's weeks from Ezra in solar years, and this study records both as the strongest case against. Entry 20's 444 BC rests on Nehemiah's own two dates (Nehemiah 1:1; 2:1), so Daniel 9 reaches AD 33 from a starting year fixed on its own grounds.
+Row 41's year has its own study. [Friday, 3 April AD 33: Dating the Cross](dating-the-cross.md) narrows Pilate's eleven Passovers to two Fridays, AD 30 and AD 33, and weighs Luke 3:1, the Passovers in John, Sejanus, Daniel 9:25 and Paul's chronology between them.
 
 ## What the rail cannot do
 
@@ -569,11 +481,6 @@ Sabbatical and jubilee cycles are used on this page only where Scripture attache
 ## References & Recommended Reading
 
 - **ESV Bible** (Crossway) — all scripture verified against `study-notes.db`.
-- ***ESV Study Bible*** (Crossway), "The Date of Jesus' Crucifixion" — the article this section was
-  checked against. It runs the same two-candidate filter and reaches the same verdict by a partly
-  different route: it rests more weight on John 2:20 than this page does, does not use Sejanus,
-  Daniel 9 or Paul's chronology, and closes by noting that AD 30 "is held by a number of respected
-  NT scholars," so both dates appear in its own chronologies.
 - **Edwin R. Thiele, *The Mysterious Numbers of the Hebrew Kings*** — the regnal reconstruction behind entries 1-9, and the accession-year convention.
 - **Babylonian Chronicle series**, principally BM 21946 — entries 10 and 11; the 2 Adar date for Jehoiachin's deportation. The chronicle runs 605-594 BC and does not reach the fall of Jerusalem (entry 12).
 - **Nabonidus Chronicle** — the fall of Babylon, 16 Tishri (12 October) 539 BC.

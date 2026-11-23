@@ -186,3 +186,7 @@ chronology_alignment_2026-10-01: >
 evidence:
   - {id: luke-23-45-na28, what: "NA28 reads ἐκλιπόντος (the 'eclipse' verb) at Luke 23:45", tool: study_verse, args: {book: Luke, chapter: 23, verse: 45, work_id: na28-greek-nt}, path: "0.text", expect_contains: "ἐκλιπ", checked: 2026-10-09}
   - {id: luke-23-45-kjv, what: "Byzantine/TR reading behind the KJV: 'the sun was darkened'", tool: bible_verse, args: {book: Luke, chapter: 23, verse: 45, translation: KJV}, path: "text", expect_contains: "the sun was darkened", checked: 2026-10-09}
+simplify_2026-11-23:
+  forked: "The crucifixion darkness could not have been a solar eclipse, and A separate, real event that same evening (the 3 April AD 33 lunar eclipse), moved verbatim to chronology/dating-the-cross.md#the-sky-that-day, with a one-line pointer here."
+  merged: "Its 'Three days and three nights' subsection is now a two-sentence pointer to the new study's weekday section. The removed text said the New Testament states 'on the third day' eight times; the count, in three-days-and-three-nights and now dating-the-cross, is nine."
+  changed_here: "Joshua's 'crucifixion-eclipse work below' now reads 'the 1983 crucifixion-eclipse calculation'; Humphreys-Waddington 1983 and Schaefer 1990 moved to the new study's references; bible_references lost Joel 2:31, Matthew 27:45, Mark 15:33, Luke 23:44-45, Acts 2:20."

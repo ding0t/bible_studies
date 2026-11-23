@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 3:1-2
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 3:1-2
 - [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 3:23-38
 - [Submission in Context](../../christian-life/submission-in-context.md) — 3:8
 - [The Flood and the King Lists: Which Genesis Numbers to Trust](../../chronology/flood-and-the-king-lists.md) — 3:36-38

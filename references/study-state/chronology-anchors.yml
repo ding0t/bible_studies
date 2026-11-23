@@ -579,3 +579,8 @@ review_2026-11-22:
     anchor's error bar, what dates it and its witnesses; #event=<id> opens one event's panel, and
     every row of the page's table links there. utils/build_chronology_graphics.py draws
     what-dates-what.svg and the-rail.svg from the same data.
+simplify_2026-11-23:
+  words_before: "about 7,200 (validator count)"
+  forked: "Settling the crucifixion year (all ten subsections, about 1,640 words) moved verbatim to chronology/dating-the-cross.md; the H2 stays with a one-line pointer so old links to #settling-the-crucifixion-year still land. The Humphreys-Waddington subsection merged into the fuller eclipse section from prophecy-events-times there."
+  changed_here: "Outline line for the section; two in-page 'below' links (John 2:20, Paul) re-pointed to the new study; the ESV SB crucifixion article moved to its references; bible_references lost Nehemiah 2:5-8, John 19:12, Mark 15:42, Galatians 1:18. Row 41's study_ref in chronology.json now names the new study, and dating-texts.json's Luke 3:1 and John 2:20 argued_in moved with their sections."
+  word_budget_note: "The 7400 budget was set for the page with the crucifixion section; it is now well under it."

@@ -14,6 +14,7 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 14:22-26 (primary passage)
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 14:22
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 14:58
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 14:50
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 14:33
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 14:3-9

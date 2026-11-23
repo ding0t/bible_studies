@@ -1,0 +1,87 @@
+slug: dating-the-cross
+title: "Friday, 3 April AD 33: Dating the Cross"
+status: published
+target_path: docs/content/chronology/dating-the-cross.md
+
+primary_passage: "Mark 15:42"
+supporting_passages: ["Luke 3:1-2", "Luke 24:21", "Matthew 12:40", "John 2:13", "John 2:20", "John 6:4", "John 11:55", "John 19:12", "John 19:14", "Daniel 9:25-26", "Galatians 1:18", "Acts 2:20"]
+sibling_studies:
+  - {slug: chronology/chronology-anchors, role: cited, use: link, note: "Row 41's date; the year argument moved out of it here. Rows 39 and 40 (Luke 3:1, the forty-six years) stay there and link here."}
+  - {slug: jesus/three-days-and-three-nights, role: cited, use: link, note: "The weekday argument moved out of it here; it keeps the sign of Jonah and the intermediate state, and a pointer."}
+  - {slug: last-things/prophecy-events-times, role: cited, use: link, note: "The two crucifixion-eclipse sections moved out of it here; it keeps the seventy-weeks arithmetic, which this study links."}
+  - {slug: feasts/passover, role: prose, use: link, note: "Links here for the year."}
+  - {slug: feasts/firstfruits, role: prose, use: link, note: "Links here for the year and the high-day Sabbath."}
+genre: [gospel, topical]
+origin: >
+  Forked 2026-11-23 by simplify-bible-study, at the author's direction ("use chronology - and go ahead as
+  recommended - use diagrams as logical"). The text was moved verbatim from three studies at commit ba3f1ff0:
+  chronology-anchors.md "Settling the crucifixion year" (all of it, Humphreys-Waddington merged into the
+  fuller copy below); three-days-and-three-nights.md "Can the crucifixion be dated?" (from the Matthew
+  12:40 block quote to the counter-case) and the second half of "Where that leaves it" (now "Friday, and
+  what it costs"); prophecy-events-times.md "The crucifixion darkness could not have been a solar eclipse"
+  and "A separate, real event that same evening". Its "Three days and three nights" objection (which said
+  "on the third day" eight times where the Greek count is nine) was replaced by a pointer here. Those
+  sections' word studies and quotations were verified where they came from (see each study's state file).
+
+thesis: >
+  God sent His Son to the cross at the time He had set, and the Gospels' own details, a Friday Passover
+  under Pilate, Luke's fifteenth year of Tiberius and the Passovers John records, place it on Friday,
+  3 April AD 33, with AD 30 the one serious rival.
+outline:
+  - {section: "The day: a Friday", says: "Twelve statements of the interval against one quotation, Mark's prosabbaton and Luke 24:21 put the cross on a Friday; the cost is one night."}
+  - {section: "Settling the crucifixion year", says: "A Friday 14 Nisan under Pilate leaves AD 30 and AD 33; Luke 3:1 and John's Passovers decide for AD 33, with Sejanus and Daniel 9:25 in support."}
+  - {section: "The sky that day", says: "The darkness was no eclipse, and the lunar eclipse that evening is left out of the case."}
+  - {section: "Verdict", says: "Friday 3 April AD 33, and the strongest case against it."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping: {done: true, notes: "Fork; see origin."}
+  drafting:
+    done: true
+    file: docs/content/chronology/dating-the-cross.md
+    notes: >
+      New in this pass: the opening, In one sentence, Key Takeaways (Types & Prophecy, Lessons about
+      Jesus, Memory verses, Prayer), the outline, the sky-section lead line, discussion questions,
+      references, the year-of-the-cross chart, and one paragraph reporting this site's own Passover
+      computation. Changed in moved text: the astronomical filter now excepts AD 26 ("once the year
+      before John began to preach is set aside"; "every other year from AD 27"), because the
+      computation found a Friday 14 Nisan in AD 26; links re-pointed for the new location.
+  review: {done: true, validated: true, notes: "review-bible-study and read-bible-study run by subagents 2026-11-23; findings applied the same day (see review_2026-11-23)."}
+
+open_questions:
+  - "The visibility test in utils/compute_nisan_14.py is a rough age-and-lag rule, run at three thresholds (early, usual, late). A proper crescent-visibility criterion (Yallop or Odeh) would firm up which marginal years (AD 26, 27, 30) could have fallen either side; AD 33's crescent (29 h, 79 min lag) is clear on any criterion."
+  - "AD 26's Friday 22 March sits the day before an equinox Passover; whether a calendar court would have added a second Adar that year (giving Sunday 21 April) is unknown. The page sets the year aside on Luke 3:1 alone, which holds either way."
+  - "RESOLVED 2026-11-23: Pilate's AD 26-36 now cites the ESV SB note on Luke 3:1."
+
+evidence:
+  - {id: gal4-4-5-esv, what: "Galatians 4:4 (ESV) in the opening and memory verse", tool: study_verse, args: {book: Gal, chapter: 4, verse: 4, work_id: esv-study-bible}, expect_contains: "But when the fullness of time had come, God sent forth his Son, born of woman, born under the law", checked: 2026-11-23}
+  - {id: gal4-5-esv, what: "Galatians 4:5 (ESV)", tool: study_verse, args: {book: Gal, chapter: 4, verse: 5, work_id: esv-study-bible}, expect_contains: "to redeem those who were under the law, so that we might receive adoption as sons", checked: 2026-11-23}
+  - {id: lk3-1-esv, what: "Luke 3:1 (ESV) in the opening", tool: study_verse, args: {book: Luke, chapter: 3, verse: 1, work_id: esv-study-bible}, expect_contains: "In the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judea", checked: 2026-11-23}
+  - {id: mk15-42-esv, what: "Mark 15:42 (ESV) memory verse", tool: study_verse, args: {book: Mark, chapter: 15, verse: 42, work_id: esv-study-bible}, expect_contains: "since it was the day of Preparation, that is, the day before the Sabbath", checked: 2026-11-23}
+  - {id: jn19-14-esv, what: "John 19:14 (ESV) 'the day of Preparation of the Passover'", tool: study_verse, args: {book: John, chapter: 19, verse: 14, work_id: esv-study-bible}, expect_contains: "Now it was the day of Preparation of the Passover.", checked: 2026-11-23}
+  - {id: 1co5-7-esv, what: "1 Corinthians 5:7 (ESV)", tool: study_verse, args: {book: 1Cor, chapter: 5, verse: 7, work_id: esv-study-bible}, expect_contains: "For Christ, our Passover lamb, has been sacrificed.", checked: 2026-11-23}
+  - {id: nisan14-computed, what: "14 Nisan on a Friday in AD 30 (Thursday 6 April on an early crescent) and AD 33 (on every threshold); AD 26 (Friday 22 March, Saturday on a late crescent) and AD 27 (Thursday 10 April, Friday 11 April on a late crescent) on marginal crescents; no other year AD 26-36", tool: manual, args: {source: "uvx --with ephem python utils/compute_nisan_14.py (early/usual/late thresholds); output in docs/data/chronology.json crucifixion_year.nisan_14"}, checked: 2026-11-23}
+  - {id: rom5-6-esv, what: "Romans 5:6 (ESV) in the opening and memory verse", tool: study_verse, args: {book: Rom, chapter: 5, verse: 6, work_id: esv-study-bible}, expect_contains: "at the right time Christ died for the ungodly", checked: 2026-11-23}
+  - {id: jn13-1-esv, what: "John 13:1 (ESV) in the opening and memory verse", tool: study_verse, args: {book: John, chapter: 13, verse: 1, work_id: esv-study-bible}, expect_contains: "when Jesus knew that his hour had come to depart out of this world to the Father", checked: 2026-11-23}
+  - {id: dan9-26-esv, what: "Daniel 9:26 (ESV) 'an anointed one shall be cut off'", tool: study_verse, args: {book: Dan, chapter: 9, verse: 26, work_id: esv-study-bible}, expect_contains: "an anointed one shall be cut off", checked: 2026-11-23}
+  - {id: lk3-1-esvsb-pilate, what: "ESV SB on Luke 3:1: Pilate over Judea A.D. 26-36", tool: study_note, args: {book: Luke, chapter: 3, verse: 1, work_id: esv-study-bible}, expect_contains: "Pilate reigned over Judea A.D. 26–36", checked: 2026-11-23}
+  - {id: dan9-esvsb-458, what: "ESV SB on Daniel 9:24-27 counts from Ezra's decree in 458 BC to AD 26, allowing for Jesus' death in A.D. 30 or 33", tool: manual, args: {source: "study-notes.db, esv-study-bible note on Daniel 9:24-27, read in full via sqlite (the study_note tool truncates it before this passage): 'This understanding of the verse allows for Jesus' death in either A.D. 30 or 33.'"}, checked: 2026-11-23}
+  - {id: three-day-phrasings, what: "SBLGNT: on the third day 9 (Matthew 16:21; 17:23; 20:19; Luke 9:22; 18:33; 24:7, 46; Acts 10:40; 1 Corinthians 15:4); after three days 4 (Mark 8:31; 9:31; 10:34; Matthew 27:63; Acts 25:1 is not about the resurrection); in three days of the temple 6 (John 2:19, 20; Matthew 26:61; 27:40; Mark 14:58; 15:29)", tool: manual, args: {source: "references/build/out/bible-text.db, work sblgnt, accent-stripped phrase search"}, checked: 2026-11-23}
+  - {id: g4315-g3904, what: "prosabbaton G4315 once in the NT (Mark 15:42; twice more in the LXX); paraskeue G3904 six times in the Gospels", tool: bible_concordance, args: {strongs: G4315}, checked: 2026-11-23}
+
+review_2026-11-23:
+  status: applied 2026-11-23
+  critical:
+    - "Weekday filter tested only an early crescent; utils/compute_nisan_14.py now tests early and late. AD 27 can be Friday 11 April on a late crescent (before Luke 3:1, like AD 26). Text, chart and data updated."
+    - "The interval table missed Matthew 27:63 ('after three days', now 4) and the six 'in three days' temple sayings; heading now 'nineteen other times'. The error came from three-days-and-three-nights (the table moved here). The FAQ's 'eight times' corrected to nine."
+  moderate:
+    - "'only two' left after the AD 26 edit: intro, filter and outline now set the years before John's preaching aside."
+    - "Types & Prophecy misread Daniel 9:25 (the weeks run to 'the coming of an anointed one'; the cutting off follows, 9:26) and dropped the 444 BC condition; rewritten."
+    - "Verdict and sky section left out John's Passovers, which the thesis and chart rest on; added, and the one-cleansing view added to the case for AD 30."
+    - "Chart: AD 33's own cost on the Passovers card; Paul moved to the centre (cuts both ways); Sejanus given what AD 30 needs; alt text updated."
+    - "Galatians 4:4 is about the incarnation; the timing of the cross now rests on Romans 5:6 and John 13:1 (opening, memory verses, prayer, Q5). Galatians 4:4-5 kept for the sending."
+    - "Budget: the reviewer's ~4,900 counted tables and quotations; Check 23's count is 3,897 against 4,000. No change."
+  minor: "AD 26 'on the eve of the equinox'; Pilate cited to ESV SB; Mark 15:42 memory verse replaced; 'genuinely' and 'rather than merely less likely' cut; Ezra 457 noted as 458 on a spring count with the ESV SB's AD 30-or-33 allowance; Jonah 1:17 and Mark 11:15-17 / Luke 19:45-46 cited."
+  readability: "Applied: the filter split (AD 32 as H4), a parent H3 for the six lines with the chart under it, the four deciding lines first, Schaefer's reply as H4, the two sky headings renamed (no inbound links), the outline updated, a thesis line opening the day section, the year intro's repeated Friday argument and the verdict's repeated heading cut, 'page' made 'study'. Not applied: moving the sunset-reckoning paragraph (optional)."
+last_updated: "2026-11-23"

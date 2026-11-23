@@ -16,6 +16,7 @@ draft: false
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 1:45-51 (primary passage)
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 1:14
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 1:14
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 1:29-34
 - [Grace](../../salvation/grace.md) — 1:14-18
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:41
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 1:11

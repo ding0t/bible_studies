@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:9-14"
 bible_references: ["Leviticus 23:9-14", "Leviticus 23:15-16", "Leviticus 23:5-8", "Leviticus 23:43", "Leviticus 7:30", "Joshua 5:10-12", "Numbers 33:3", "Leviticus 23:14", "Exodus 12:14", "1 Corinthians 15:20-23", "Romans 8:23", "Romans 11:16", "James 1:1", "James 1:18", "Revelation 14:4", "Colossians 1:18", "Revelation 1:5", "John 12:24", "John 19:31", "Matthew 28:1", "Ruth 1:22", "Ruth 2:23", "Numbers 28:26", "Exodus 34:22", "Numbers 15:20-21"]
 date_created: 2026-09-07
-date_modified: 2026-10-31
+date_modified: 2026-11-23
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -225,7 +225,7 @@ shows the typology does not need it.
 
 ## Why the dispute did not matter in AD 33
 
-On the reconstruction [Chronology Anchors](../chronology/chronology-anchors.md#settling-the-crucifixion-year)
+On the reconstruction [Dating the Cross](../chronology/dating-the-cross.md#settling-the-crucifixion-year)
 reaches, Nisan 14 in the year of the crucifixion was **Friday 3 April AD 33**. Lay the two readings
 side by side on that week:
 
@@ -245,7 +245,7 @@ Nisan 15 fell on the weekly Sabbath that year. So the two readings collapse into
 part company and the calendar has to choose. In that year it did not have to, because the festival
 rest day and the weekly Sabbath were the same day. That also fits John's note that "that Sabbath was
 a high day" (John 19:31, ESV): a feast day fell on the weekly Sabbath. That is the usual reading of
-John's phrase; [Three Days and Three Nights](../jesus/three-days-and-three-nights.md#the-counter-case-at-its-strongest)
+John's phrase; [Dating the Cross](../chronology/dating-the-cross.md#the-counter-case-at-its-strongest)
 weighs the case for a separate festival Sabbath.
 
 This is the study's central observation, and it has limits. It does not prove the crucifixion was in
@@ -382,7 +382,7 @@ for it, with the sheaf and the harvest set out on Larkin's chart of the underwor
   receives, from 1 Corinthians 15:35-58.
 - [At Home with the Lord](../last-things/at-home-with-the-lord.md) — where the believing dead wait
   between death and the harvest.
-- [Chronology Anchors](../chronology/chronology-anchors.md#settling-the-crucifixion-year) — where
+- [Dating the Cross](../chronology/dating-the-cross.md#settling-the-crucifixion-year) — where
   the AD 33 reconstruction used above is argued.
 - [The Zadok Calendar](zadok-calendar.md) — the 364-day priestly calendar, on which every appointed
   time falls on the same weekday every year, so the ambiguity above is settled by construction

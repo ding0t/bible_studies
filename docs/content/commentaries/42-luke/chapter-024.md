@@ -15,10 +15,11 @@ draft: false
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 24:27 (primary passage)
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 24:27 (primary passage)
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 24:47
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 24:21
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 24:25-27
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 24:10-11
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 24:30-35
-- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 24:7
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 24:21
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 24:16
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 24:39
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 24:36-43

@@ -16,6 +16,7 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 12:40
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 12:43-44
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 12:43
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 12:40
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 12:20
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 12:1-7
 - [The End of the Age](../../last-things/end-of-the-age.md) — 12:32

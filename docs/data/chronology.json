@@ -1218,7 +1218,7 @@
       "tier": "Anchored",
       "error": "0",
       "core": true,
-      "study_ref": "chronology/chronology-anchors",
+      "study_ref": "chronology/dating-the-cross",
       "evidence": "Friday 3 April AD 33, this site's date. Only two Fridays in Pilate's prefecture carry Nisan 14 -- 7 April AD 30 and 3 April AD 33 -- and the year rests on Luke 3:1 read naturally, supported by Sejanus and by Daniel 9, which excludes AD 30 on either reckoning of the decree. AD 30 stays defensible if Tiberius's fifteenth year is counted from AD 13.",
       "dated_by": "rome",
       "witnesses": [
@@ -1291,6 +1291,289 @@
       "carries": "Pompey, Herod and Tiberius's fifteenth year: the Nativity bracket, John's ministry and the cross."
     }
   ],
+  "crucifixion_year_note": "The year of the cross, argued in chronology/dating-the-cross.md: 14 Nisan for every Passover of Pilate's prefecture (computed, never hand-edited), and the lines of evidence weighed between the two Fridays that survive. favours is ad30, ad33, both or neither; weight is rests (the verdict stands on it), supports, neutral or 'not used' (weighed and set aside). argued_in is a heading on that page. Row 41 of anchor_table carries the date; utils/build_chronology_graphics.py draws the-year-of-the-cross.svg from this block.",
+  "crucifixion_year": {
+    "study_ref": "chronology/dating-the-cross",
+    "window": {
+      "from": 26,
+      "to": 36,
+      "label": "Pontius Pilate, prefect of Judea"
+    },
+    "computed_by": "utils/compute_nisan_14.py (PyEphem): the month from the first crescent seen at Jerusalem, Nisan as the first month whose 15th day falls on or after the spring equinox. early_crescent and late_crescent are the dates if a marginal crescent was seen a night sooner or a night later; second_adar is the date if that year was lengthened by a month. The visibility test is approximate, which is why both are kept.",
+    "nisan_14": [
+      {
+        "year": 26,
+        "date": "22 March",
+        "weekday": "Friday",
+        "early_crescent": null,
+        "late_crescent": {
+          "date": "23 March",
+          "weekday": "Saturday"
+        },
+        "second_adar": {
+          "date": "21 April",
+          "weekday": "Sunday",
+          "early_crescent": null,
+          "late_crescent": null
+        },
+        "friday": true,
+        "days_after_equinox": 0
+      },
+      {
+        "year": 27,
+        "date": "10 April",
+        "weekday": "Thursday",
+        "early_crescent": null,
+        "late_crescent": {
+          "date": "11 April",
+          "weekday": "Friday"
+        },
+        "second_adar": {
+          "date": "10 May",
+          "weekday": "Saturday",
+          "early_crescent": null,
+          "late_crescent": null
+        },
+        "friday": true,
+        "days_after_equinox": 19
+      },
+      {
+        "year": 28,
+        "date": "30 March",
+        "weekday": "Tuesday",
+        "early_crescent": null,
+        "late_crescent": null,
+        "second_adar": {
+          "date": "28 April",
+          "weekday": "Wednesday",
+          "early_crescent": null,
+          "late_crescent": {
+            "date": "29 April",
+            "weekday": "Thursday"
+          }
+        },
+        "friday": false,
+        "days_after_equinox": 9
+      },
+      {
+        "year": 29,
+        "date": "18 April",
+        "weekday": "Monday",
+        "early_crescent": {
+          "date": "17 April",
+          "weekday": "Sunday"
+        },
+        "late_crescent": null,
+        "second_adar": {
+          "date": "17 May",
+          "weekday": "Tuesday",
+          "early_crescent": null,
+          "late_crescent": null
+        },
+        "friday": false,
+        "days_after_equinox": 27
+      },
+      {
+        "year": 30,
+        "date": "7 April",
+        "weekday": "Friday",
+        "early_crescent": {
+          "date": "6 April",
+          "weekday": "Thursday"
+        },
+        "late_crescent": null,
+        "second_adar": {
+          "date": "6 May",
+          "weekday": "Saturday",
+          "early_crescent": null,
+          "late_crescent": null
+        },
+        "friday": true,
+        "days_after_equinox": 16
+      },
+      {
+        "year": 31,
+        "date": "27 March",
+        "weekday": "Tuesday",
+        "early_crescent": {
+          "date": "26 March",
+          "weekday": "Monday"
+        },
+        "late_crescent": null,
+        "second_adar": {
+          "date": "25 April",
+          "weekday": "Wednesday",
+          "early_crescent": null,
+          "late_crescent": null
+        },
+        "friday": false,
+        "days_after_equinox": 5
+      },
+      {
+        "year": 32,
+        "date": "14 April",
+        "weekday": "Monday",
+        "early_crescent": {
+          "date": "13 April",
+          "weekday": "Sunday"
+        },
+        "late_crescent": null,
+        "second_adar": {
+          "date": "13 May",
+          "weekday": "Tuesday",
+          "early_crescent": null,
+          "late_crescent": null
+        },
+        "friday": false,
+        "days_after_equinox": 24
+      },
+      {
+        "year": 33,
+        "date": "3 April",
+        "weekday": "Friday",
+        "early_crescent": null,
+        "late_crescent": null,
+        "second_adar": {
+          "date": "2 May",
+          "weekday": "Saturday",
+          "early_crescent": null,
+          "late_crescent": {
+            "date": "3 May",
+            "weekday": "Sunday"
+          }
+        },
+        "friday": true,
+        "days_after_equinox": 12
+      },
+      {
+        "year": 34,
+        "date": "24 March",
+        "weekday": "Wednesday",
+        "early_crescent": null,
+        "late_crescent": null,
+        "second_adar": {
+          "date": "22 April",
+          "weekday": "Thursday",
+          "early_crescent": null,
+          "late_crescent": null
+        },
+        "friday": false,
+        "days_after_equinox": 2
+      },
+      {
+        "year": 35,
+        "date": "12 April",
+        "weekday": "Tuesday",
+        "early_crescent": null,
+        "late_crescent": null,
+        "second_adar": {
+          "date": "11 May",
+          "weekday": "Wednesday",
+          "early_crescent": null,
+          "late_crescent": null
+        },
+        "friday": false,
+        "days_after_equinox": 21
+      },
+      {
+        "year": 36,
+        "date": "31 March",
+        "weekday": "Saturday",
+        "early_crescent": null,
+        "late_crescent": {
+          "date": "1 April",
+          "weekday": "Sunday"
+        },
+        "second_adar": {
+          "date": "30 April",
+          "weekday": "Monday",
+          "early_crescent": null,
+          "late_crescent": null
+        },
+        "friday": false,
+        "days_after_equinox": 10
+      }
+    ],
+    "lines": [
+      {
+        "id": "weekday",
+        "label": "A Friday Passover",
+        "refs": "Mark 15:42; John 19:14, 31",
+        "favours": "both",
+        "weight": "rests",
+        "note": "Leaves AD 30 and AD 33 once John is preaching",
+        "argued_in": "#the-day-a-friday"
+      },
+      {
+        "id": "luke_3_1",
+        "label": "The fifteenth year of Tiberius",
+        "refs": "Luke 3:1",
+        "favours": "ad33",
+        "weight": "rests",
+        "rival_needs": "Tiberius's years counted from AD 13",
+        "argued_in": "#luke-31-and-the-fifteenth-year-of-tiberius"
+      },
+      {
+        "id": "johns_passovers",
+        "label": "The Passovers in John",
+        "refs": "John 2:13; 6:4; 11:55",
+        "favours": "ad33",
+        "weight": "rests",
+        "rival_needs": "one temple cleansing, moved forward by John",
+        "argued_in": "#the-passovers-in-john",
+        "note": "AD 33 needs John 5:1 to be a Passover, or one unmentioned"
+      },
+      {
+        "id": "sejanus",
+        "label": "Not Caesar's friend",
+        "refs": "John 19:12",
+        "favours": "ad33",
+        "weight": "supports",
+        "rival_needs": "the charge to bite before Sejanus fell in AD 31",
+        "argued_in": "#sejanuss-fall-and-the-friend-of-caesar-charge"
+      },
+      {
+        "id": "daniel_9_25",
+        "label": "Sixty-nine weeks",
+        "refs": "Daniel 9:25",
+        "favours": "ad33",
+        "weight": "supports",
+        "rival_needs": "Ezra's decree, and solar years",
+        "argued_in": "#daniel-925-and-the-decree-it-counts-from"
+      },
+      {
+        "id": "john_2_20",
+        "label": "Forty-six years building",
+        "refs": "John 2:20",
+        "favours": "neither",
+        "weight": "neutral",
+        "note": "Each reading fits one year",
+        "argued_in": "#john-220-neutral-between-both-years"
+      },
+      {
+        "id": "paul",
+        "label": "Paul's three and fourteen years",
+        "refs": "Galatians 1:18; 2:1",
+        "favours": "neither",
+        "weight": "not used",
+        "note": "Cuts both ways: which visit, and do the spans overlap?",
+        "argued_in": "#pauls-chronology-which-cuts-both-ways"
+      },
+      {
+        "id": "eclipse",
+        "label": "The moon to blood",
+        "refs": "Acts 2:20",
+        "favours": "ad33",
+        "weight": "not used",
+        "note": "Barely visible, and Joel's words are future",
+        "argued_in": "#schaefers-reply-and-acts-220"
+      }
+    ],
+    "verdict": {
+      "year": 33,
+      "date": "Friday 3 April"
+    }
+  },
   "genesis_markers_note": "Placed by Anno Mundi on the Masoretic chain, so their Gregorian year follows the epoch (creation 3959 BC). Derived from docs/data/genealogy/generated/mt.json and the Genesis intervals shown.",
   "genesis_markers": [
     {

@@ -19,6 +19,7 @@ draft: false
 - [Charting End Times](../../last-things/prophecy-chart.md) — 9:27
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 9:2
 - [Fasting](../../christian-life/fasting.md) — 9:3
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 9:25-27
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 9:25-26
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 9:20-23
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 9:24-27

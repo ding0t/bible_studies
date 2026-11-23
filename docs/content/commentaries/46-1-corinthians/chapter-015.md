@@ -20,6 +20,7 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 15:4
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 15:51-53
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 15:20-23
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 15:4
 - [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 15:22
 - [Grace](../../salvation/grace.md) — 15:57
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 15:42
@@ -36,7 +37,7 @@ draft: false
 - [The Trumpet Call of God](../../last-things/trumpet.md) — 15:51-53
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 15:51
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 15:24-25
-- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 15:4
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 15:20-23
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 15:23
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 15:54
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 15:22

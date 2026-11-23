@@ -14,6 +14,7 @@ draft: false
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 7:24-31
 - [Faith](../../salvation/faith.md) — 7:24-30
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 7:3-4
 - [In Humility](../../christian-life/humility.md) — 7:21-23
 - [Pride](../../sin/pride.md) — 7:21-23
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 7:3

@@ -14,11 +14,11 @@ draft: false
 
 - [Faith](../../salvation/faith.md) — 18:13-14
 - [Fasting](../../christian-life/fasting.md) — 18:9-14
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 18:33
 - [In Humility](../../christian-life/humility.md) — 18:14
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 18:1-8
 - [Pride](../../sin/pride.md) — 18:9-14
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 18:12-14
 - [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 18:8
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 18:11
-- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 18:33
 <!-- commentary-index:auto-end -->

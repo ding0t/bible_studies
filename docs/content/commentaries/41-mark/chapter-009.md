@@ -16,10 +16,10 @@ draft: false
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 9:17-27
 - [Faith](../../salvation/faith.md) — 9:22-24
 - [Fasting](../../christian-life/fasting.md) — 9:14-29
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 9:31
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 9:2-8
 - [John son of Zebedee](../../biblical-figures/john.md) — 9:2-8
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 9:33-34
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 9:2-3
-- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 9:31
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 9:2-8
 <!-- commentary-index:auto-end -->

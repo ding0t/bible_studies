@@ -5,9 +5,9 @@ description: "Anchoring Bible chronology to independently-dated history, pivotin
 tags: ["timeline", "calendar", "chronology", "method/archaeology", "daniel", "eclipses"]
 draft: false
 primary_passage: "Daniel 9:24-27"
-bible_references: ["1 Kings 16:29", "2 Kings 4:23", "2 Kings 18:13-19:37", "2 Kings 24:10-17", "2 Kings 25:27-30", "Ezra 1:1-4", "Nehemiah 2:1-8", "Joshua 10:12-14", "Amos 8:5", "Amos 8:9", "Hosea 2:11", "Isaiah 1:13-14", "Joel 2:31", "Daniel 9:24-27", "Matthew 21:1-11", "Matthew 27:45", "Mark 15:33", "Luke 23:44-45", "Luke 19:41-44", "Acts 2:20"]
+bible_references: ["1 Kings 16:29", "2 Kings 4:23", "2 Kings 18:13-19:37", "2 Kings 24:10-17", "2 Kings 25:27-30", "Ezra 1:1-4", "Nehemiah 2:1-8", "Joshua 10:12-14", "Amos 8:5", "Amos 8:9", "Hosea 2:11", "Isaiah 1:13-14", "Daniel 9:24-27", "Matthew 21:1-11", "Luke 19:41-44"]
 date_created: 2024-10-20
-date_modified: 2026-11-22
+date_modified: 2026-11-23
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -316,12 +316,8 @@ see the arithmetic behind it.
 
 ### "Three days and three nights"
 
-Hoehner's correction lands the crucifixion on a Friday, and a Friday afternoon death with a Sunday
-dawn resurrection gives two nights, against the three in Jesus's own "three days and three nights" at
-Matthew 12:40. That is the strongest objection against the date this section reaches. [Three Days
-and Three Nights](../jesus/three-days-and-three-nights.md) works it through separately. The phrase
-occurs once. The New Testament describes the interval "on the third day" eight times. And Mark calls
-the crucifixion day the **προσάββατον** (*prosabbaton*, G4315), the day before the Sabbath.
+Hoehner's correction lands the crucifixion on a Friday, against the three nights of Matthew 12:40.
+[Friday, 3 April AD 33: Dating the Cross](../chronology/dating-the-cross.md#the-day-a-friday) weighs that objection.
 
 ## Celestial corroboration: eclipses and the biblical record
 
@@ -343,7 +339,7 @@ specific eclipse at all. It is a live possibility.
 
 ### Joshua's long day at Gibeon, reinterpreted as an eclipse (contested)
 
-Colin Humphreys and Graeme Waddington, the same pair behind the crucifixion-eclipse work below,
+Colin Humphreys and Graeme Waddington, the same pair behind the 1983 crucifixion-eclipse calculation,
 proposed in a 2017 peer-reviewed paper (*Astronomy & Geophysics*) that Joshua
 10:12-14 describes an annular solar eclipse at
 Gibeon on 30 October 1207 BC, not a literal halting of the sun and moon's motion. Their argument
@@ -355,54 +351,7 @@ no day like it before or since" (v. 14). An eclipse, annular or otherwise, *dark
 few minutes; it doesn't lengthen the day. Reading the text as an eclipse account requires reading
 past that stated effect. The theory doesn't obviously fit the very verse it's built from.
 
-### The crucifixion darkness could not have been a solar eclipse
-
-The darkness at the crucifixion (Matthew 27:45;
-Mark 15:33;
-Luke 23:44-45) is popularly called an eclipse. That is
-astronomically impossible: a solar eclipse requires the moon to sit between the earth and sun, which only happens
-at new moon, and the crucifixion took place at Passover, which by definition falls at **full**
-moon (14 Nisan, the middle of the lunar month). Whatever caused three hours of midday darkness that
-Friday, the moon could not have been the cause. The Gospels themselves don't call it an eclipse.
-They narrate it as a supernatural sign accompanying Jesus's death, alongside the temple veil tearing
-and an earthquake (Matthew 27:51). The critical Greek text of Luke 23:45 (NA28) does use a verb
-(*eklipontos*) related to our word "eclipse," which fed the popular confusion; the later Byzantine
-text behind the KJV reads "the sun was darkened" instead. The astronomy
-rules it out regardless of that wording.
-
-### A separate, real event that same evening: the lunar eclipse of 3 April AD 33
-
-An independently computable eclipse *is* connected to this week, on the evening of the crucifixion. Colin Humphreys and Graeme Waddington calculated every lunar eclipse
-visible from Jerusalem at Passover across every candidate crucifixion year, AD 26-36 (*Nature*,
-1983). They found exactly one: **Friday, 3 April AD 33**.
-
-A partial lunar eclipse was already in progress as the moon rose over the Mount of Olives around
-6:20pm, hours *after* the daytime darkness of the crucifixion, at the moment 14 Nisan was ending
-and 15 Nisan, the Sabbath, was beginning.
-
-They connected this to Peter's Pentecost sermon, which quotes Joel 2:31
-(ESV) ("the sun shall be turned to darkness, and the
-moon to blood") as Acts 2:20 (ESV). Their proposal
-is that Peter's audience had this very eclipse, seven weeks earlier, in living memory.
-
-**That claim has been directly challenged.** Bradley Schaefer replied in the *Quarterly Journal of
-the Royal Astronomical Society* (1990). He recalculated how much of the moon's disc would actually
-have been shadowed as it cleared the horizon and became visible to the naked eye.
-
-The answer was small. By his estimate, at most a partial dimming of a fraction of the disc, with the
-eclipsed portion largely gone by the time the moon was high enough to see clearly against the
-twilight sky. His comparison: trying to spot an eight-watt red bulb next to a searchlight.
-
-So a "blood moon" vivid enough to be *remarked on* seven weeks later overstates what was visible.
-
-The eclipse is a hard astronomical fact. It bears on the crucifixion year only through Acts 2:20: if Peter was
-pointing at that eclipse, it favours AD 33. That link is the contested part. Schaefer's critique
-leaves the eclipse standing and the vivid "blood moon" doubtful, and Peter is quoting Joel about
-what *will* happen before the day of the Lord.
-
-So this site does not count the eclipse as evidence for the year.
-[Chronology Anchors](../chronology/chronology-anchors.md#settling-the-crucifixion-year) settles AD 33 on Luke 3:1,
-with Sejanus and Daniel 9 in support, and leaves the eclipse out of the case.
+The darkness at the crucifixion and the lunar eclipse of 3 April AD 33 are weighed in [Friday, 3 April AD 33: Dating the Cross](../chronology/dating-the-cross.md#the-sky-that-day).
 
 ### The Star of Bethlehem (noted, not pursued here)
 
@@ -464,11 +413,6 @@ have to be extrapolated, and the further back the extrapolation runs the weaker 
 - James C. VanderKam, *Calendars in the Dead Sea Scrolls: Measuring Time* — on 1 Enoch's
   Astronomical Book (c. 3rd century BC) and Jubilees' (mid-2nd century BC) development of the
   364-day calendar, and Jubilees' own framing of it as a restoration against a lunar "corruption"
-- Colin J. Humphreys and W. G. Waddington, "Dating the Crucifixion," *Nature* 306 (1983) — the
-  3 April AD 33 lunar eclipse calculation
-- Bradley E. Schaefer, "Lunar Visibility and the Crucifixion," *Quarterly Journal of the Royal
-  Astronomical Society* 31 (1990) — the peer-reviewed rebuttal on how little of that eclipse would
-  actually have been visible
 - Colin J. Humphreys and W. G. Waddington, "Solar eclipse of 1207 BC helps to date pharaohs,"
   *Astronomy & Geophysics* 58 (2017) — the Joshua 10 / Gibeon eclipse reinterpretation
 - Michael R. Molnar, *The Star of Bethlehem: The Legacy of the Magi* (Rutgers University Press,

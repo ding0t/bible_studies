@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 11:55
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 11:41-42
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 11:25-27
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 11:25-26

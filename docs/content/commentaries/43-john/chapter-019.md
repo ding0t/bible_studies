@@ -16,15 +16,15 @@ draft: false
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 19:28-30 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 19:28-30
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 19:23-24
-- [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 19:12
 - [Faith](../../salvation/faith.md) — 19:30
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 19:31
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 19:14
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 19:35
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 19:25
 - [Passover: When I See the Blood](../../feasts/passover.md) — 19:14
 - [The Appointed Times](../../feasts/feasts.md) — 19:36
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 19:37
-- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 19:31
+- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 19:14
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 19:17
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 19:23-24
 <!-- commentary-index:auto-end -->

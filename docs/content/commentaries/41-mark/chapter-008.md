@@ -15,9 +15,9 @@ draft: false
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 8:1-10 (primary passage)
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:34 (primary passage)
 - [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 8:22-26
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 8:31
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 8:3
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 8:33
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 8:29-31
-- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 8:31
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 8:15
 <!-- commentary-index:auto-end -->

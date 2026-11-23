@@ -1,14 +1,14 @@
 ---
 title: "Three Days and Three Nights"
 category: "theology"
-description: "The sign of Jonah, and what Jonah said it was: the belly of Sheol, the heart of the seas, brought up from the pit. Where the New Testament says Christ was between the cross and the empty tomb — Sheol, Hades, Abraham's side, paradise — what it says He achieved there, and, in its proper proportion, whether a Friday allows three nights."
+description: "The sign of Jonah, and what Jonah said it was: the belly of Sheol, the heart of the seas, brought up from the pit. Where the New Testament says Christ was between the cross and the empty tomb — Sheol, Hades, Abraham's side, paradise — what it says He achieved there."
 tags: ["matthew", "mark", "luke", "john", "jonah", "leviticus", "psalms", "1-samuel", "crucifixion", "resurrection", "chronology", "method/typology", "method/word-study", "lang/greek", "lang/hebrew"]
 questions: ["How was Jesus three days and three nights in the grave?", "Where did Jesus go between His death and resurrection?"]
 draft: false
 primary_passage: "Matthew 12:40"
-bible_references: ["Matthew 12:40", "Jonah 1:17", "Matthew 16:21", "Matthew 17:23", "Matthew 20:19", "Luke 9:22", "Luke 18:33", "Luke 24:7", "Luke 24:21", "Luke 24:46", "Acts 10:40", "1 Corinthians 15:4", "Mark 8:31", "Mark 9:31", "Mark 10:34", "Mark 15:42", "Luke 23:54", "John 19:31", "John 19:14", "John 19:42", "Matthew 27:62", "Genesis 1:5", "Leviticus 23:32", "Mark 16:1-2", "Matthew 28:1", "John 20:1", "Matthew 27:62-64", "Mark 15:42-46", "Luke 23:50-56", "John 19:38-42", "Jonah 2:2-6", "Matthew 12:39-41", "Leviticus 23:5-11", "1 Corinthians 5:7", "1 Corinthians 15:20-23", "Psalm 16:10", "Acts 2:27", "Acts 2:29-31", "Luke 23:43", "Luke 16:19-31", "Genesis 37:35", "2 Corinthians 12:2-4", "Revelation 2:7", "John 20:17", "Matthew 28:9", "1 Peter 3:18-19", "Hebrews 2:14-15", "Revelation 1:18", "Revelation 20:13-14", "1 Samuel 28:13-19"]
+bible_references: ["Matthew 12:40", "Jonah 1:17", "Luke 24:21", "Mark 15:42", "John 19:14", "John 19:42", "Matthew 28:1", "John 20:1", "Mark 15:42-46", "Luke 23:50-56", "John 19:38-42", "Jonah 2:2-6", "Matthew 12:39-41", "Leviticus 23:5-11", "1 Corinthians 5:7", "1 Corinthians 15:20-23", "Psalm 16:10", "Acts 2:27", "Acts 2:29-31", "Luke 23:43", "Luke 16:19-31", "Genesis 37:35", "2 Corinthians 12:2-4", "Revelation 2:7", "John 20:17", "Matthew 28:9", "1 Peter 3:18-19", "Hebrews 2:14-15", "Revelation 1:18", "Revelation 20:13-14", "1 Samuel 28:13-19"]
 date_created: 2026-09-06
-date_modified: 2026-11-15
+date_modified: 2026-11-23
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -67,8 +67,7 @@ not abandoned to Hades, nor did his flesh see corruption" (Acts 2:31).
 - **Think.** The scribes had the sign of Jonah in their own Scriptures and asked for a different
   one. The request "show me something" is usually a wish for evidence of a kind that costs
   nothing to accept.
-- **Attitude.** Where the pieces do not sit flat — and in this study they do not, at two points —
-  the honest move is to say which reading you hold and what it costs you.
+- **Attitude.** Where the pieces do not sit flat, the honest move is to say which reading you hold and what it costs you.
 - **Do.** The men of Nineveh "repented at the preaching of Jonah" (Matthew 12:41, ESV), with a
   smaller sign than the one you have been given. Name one thing you already know God is asking of
   you and have put off until you are surer, and do it this week.
@@ -91,8 +90,8 @@ In Jesus' name. Amen.
 - [Sheol and Hades](#sheol-and-hades-one-place-two-languages). One realm of the dead, holding the righteous and the unrighteous, and temporary.
 - **Abraham's side and paradise** — [Luke 16's two conditions](#abrahams-side-paradise-and-the-great-chasm), and [where Jesus and the thief were on the Friday](#which-paradise-did-jesus-and-the-thief-go-to).
 - [What those days achieved](#what-those-days-achieved). Death's holder destroyed, the keys changing hands, the first of a harvest.
-- [Can the crucifixion be dated?](#can-the-crucifixion-be-dated) The three phrasings, προσάββατον, Luke 24:21, the Wednesday case at its strongest, and the year.
-- [Where that leaves it](#where-that-leaves-it). The Wednesday and Friday readings set side by side, with what each has to absorb.
+- [Can the crucifixion be dated?](#can-the-crucifixion-be-dated) The weekday and the year, argued in their own study.
+- [Where that leaves it](#where-that-leaves-it). What the three days are for.
 - [Discussion questions](#discussion-questions). Six, for a group or on your own.
 
 ## The sign, and what Jonah said it was
@@ -378,96 +377,10 @@ the underworld beside its argument.
 
 ## Can the crucifixion be dated?
 
-Everything above holds whichever day of the week the cross fell on. What follows is the question
-the phrase "three days and three nights" is usually raised to ask.
-
-> ✝️ Matthew 12:40 (ESV)
->
-> 40 For just as Jonah was three days and three nights in the belly of the great fish, so will the
-> Son of Man be three days and three nights in the heart of the earth.
-
-Read as a measurement, that requires roughly seventy-two hours. A crucifixion on Friday afternoon
-and an empty tomb at dawn on Sunday spans two periods of darkness and parts of three days. The gap
-is one night, and it is the whole of the case for moving the crucifixion to a Wednesday or a
-Thursday.
-
-### The phrase is quoted once; the interval is stated twelve other times
-
-"Three days and three nights" appears in exactly one New Testament verse, and there Jesus is quoting
-Jonah rather than stating a duration. Counted from the Greek text:
-
-| Phrasing | Occurrences | Where |
-|---|---|---|
-| "on the third day" | **9** | Matthew 16:21; 17:23; 20:19; Luke 9:22; 18:33; 24:7; 24:46; Acts 10:40; 1 Corinthians 15:4 |
-| "after three days" | **3** | Mark 8:31; 9:31; 10:34 |
-| "three days and three nights" | **1** | Matthew 12:40 |
-
-**The two phrasings are used of the same prediction.** Mark 8:31 has "after three days rise again"
-where Matthew 16:21 has "on the third day be raised" — one occasion, both following Peter's
-confession. That is only possible if part of a day counts as a day, since "after three days" read
-strictly would put the resurrection on the fourth. The convention has a name: the *ESV Study Bible* states it at Matthew 12:40 as "inclusive" reckoning, "the
-combination of any part of three separate days."
-
-**The chief priests use both phrasings one sentence apart** (Matthew 27:63-64), quoting Jesus as
-saying "after three days I will rise" and then asking for a guard "until the third day." If "after
-three days" meant seventy-two hours, a guard expiring on the third day would lapse before the moment
-they were guarding against. That is the sharpest form of the argument, because it sits inside one
-paragraph by one author, from hostile witnesses with no stake in the convention.
-
-### Two statements about which day
-
-**Mark names it.** "The day of Preparation, that is, the day before the Sabbath" (Mark 15:42)
-translates **προσάββατον** (*prosabbaton*, G4315, "fore-sabbath"), which occurs once in the New Testament,
-defining the day Jesus died. It anchors the *first* of the three days, the day of the crucifixion
-and burial. Luke says the same without the
-term (Luke 23:54), and **παρασκευή** (*paraskeuē*, G3904, "Preparation") is used of that day six times across
-the four Gospels.
-
-**Luke counts from the other end.** On the road to Emmaus, on the Sunday itself, two disciples call
-that day "the third day since these things happened" (Luke 24:21). Counting inclusively from a
-Friday: Friday one, Saturday two, Sunday three. From a Wednesday, that Sunday is the fifth day. It is two
-ordinary people counting, in passing, on the day in question.
-
-### The week as the Hebrew calendar counts it
-
-The Hebrew day runs evening to evening — "there was evening and there was morning, the first day"
-(Genesis 1:5), and "from evening to evening shall you keep your Sabbath" (Leviticus 23:32). Each day
-carries its night at the front.
-
-[![A one-minute comic in 7 panels. Three columns side by side: The Preparation, The Sabbath and The first day, row for row. Panel 1 (Mark 14:17-72): evening indoors by lamplight, Jesus seated with His disciples. Caption: "The Passover meal, the arrest, the trials." Counted: Alive. Panel 2 (Mark 15:46): the tomb at night, its stone rolled across the entrance. Caption: "In the tomb, the stone rolled against it." Counted: Night 1. Panel 3 (Mark 16:1): three women in a street at night, each carrying a jar of spices. Caption: "“When the Sabbath was past,” the women buy spices." Counted: Night 2. Panel 4 (Mark 15:33-46): three crosses on a rise under a darkened sky. Caption: "“The day before the Sabbath”: crucified, buried before evening." Counted: Day 1 · part. Panel 5 (Luke 23:56): the women seated at rest indoors, their jars beside them. Caption: "“On the Sabbath they rested according to the commandment.”" Counted: Day 2 · all. Panel 6 (Mark 16:2; Luke 24:13-21): two disciples walk the road to Emmaus with Jesus, whom they do not recognise. Caption: "Sunrise: the tomb is empty. Later, on the road to Emmaus:". Cleopas says: "It is now the third day since these things happened." Counted: Day 3 · part. Panel 7 (Matthew 12:40). Caption: "Three days touched. Two nights. The third night is the cost the Friday reading carries." The count: alive, Day 1 part, Night 1, Day 2 all, Night 2, Day 3 part, Night 3. "Three days touched. Two nights. The third night is the cost the Friday reading carries." The point: Mark names the day He died, “the day before the Sabbath,” and Luke counts that Sunday “the third day.” The Friday reading keeps both, and owes one night.](../assets/img/comics/three-days.svg)](../assets/img/comics/three-days.svg)
-
-The night of the Preparation is the one He was
-*alive* for, so it never counts, whichever day the crucifixion is placed on. And the Sabbath is the
-only complete day in the tomb, which is why every reckoning of this has to lean on the two partial
-days at either end.
-
-**Sunset reckoning does not add a night to the Friday view.** It does strengthen the other side: on
-sunset reckoning a
-Wednesday crucifixion with the resurrection at the end of the Sabbath gives a literal three nights
-and three days, and since the Gospels never narrate the moment of the resurrection — only the
-discovery of an empty tomb at dawn — that placement is not excluded by the texts. What it does not escape is Luke 24:21.
-
-### The counter-case, at its strongest
-
-John 19:31 calls that Sabbath "a high day," **μεγάλη**. If that names a *festival* Sabbath distinct
-from the weekly one, two Sabbaths fell in that week and the extra night becomes available. The
-phrase is genuinely open between that and "the weekly Sabbath, made great by a feast falling on it."
-
-**The spices are the better version of the argument.** Luke has the women *prepare* spices and then
-rest on the Sabbath (Luke 23:56); Mark has them *buy* spices "when the Sabbath was past" (Mark 16:1). On a
-single Sabbath those sit awkwardly — why buy on Saturday evening what was prepared on Friday evening,
-in a burial window measured in minutes? Two Sabbaths dissolve it: a Wednesday crucifixion gives a
-festival Sabbath on Thursday, an ordinary Friday on which the women could both buy and prepare, and
-the weekly Sabbath to rest. The single-Sabbath answer is that Greek aorists do not order these
-events as sharply as an English reader hears them. That is a real reading, and a
-harmonisation.
-
-### Does this fix the year?
-
-The *weekday* narrows it. Under Pilate, prefect from AD 26 to 36, Nisan 14 fell on a Friday twice:
-**Friday 7 April AD 30** and **Friday 3 April AD 33**.
-[Chronology Anchors](../chronology/chronology-anchors.md#settling-the-crucifixion-year) chooses
-between them, principally from Luke 3:1 and the Passovers John records, and reaches AD 33.
+Everything above holds whichever day of the week the cross fell on. Read as a measurement, Matthew 12:40
+requires roughly seventy-two hours, and that is the whole of the case for moving the crucifixion to a
+Wednesday or a Thursday. [Friday, 3 April AD 33: Dating the Cross](../chronology/dating-the-cross.md#the-day-a-friday)
+weighs it, from Mark's **προσάββατον** (*prosabbaton*, G4315) and Luke 24:21, and holds Friday.
 
 ## Where that leaves it
 
@@ -475,20 +388,6 @@ The sign Jesus gave was His burial and His return from it, and the New Testament
 where He went and what He brought back — Sheol emptied of its hold on Him, the keys of Death and
 Hades in the hands of someone who died, a firstfruits sheaf waved because a harvest is coming. That
 is what the three days are for, and none of it depends on the arithmetic.
-
-The arithmetic still has an answer, and the weight is with a Friday. The Friday reading buys Matthew 12:40 on credit: it needs
-inclusive reckoning to absorb the missing night. What keeps that from being special pleading is that
-the convention is visible independently, in Matthew 27:63-64, used by people with no stake in
-defending it.
-
-| | Takes at face value | Has to absorb |
-|---|---|---|
-| **Wednesday** | Matthew 12:40 — and on sunset reckoning it does deliver three nights; the Luke/Mark spice sequence, without harmonising | Mark's **προσάββατον**; the nine "on the third day" statements; a Sunday its own count makes the fifth day (Luke 24:21) |
-| **Friday** | προσάββατον; Luke 24:21; the chief priests using both phrasings a sentence apart | one missing night; a harmonisation of Luke's "prepared" against Mark's "bought" |
-
-This study holds Friday, because προσάββατον and Luke 24:21 are explicit statements about *which
-day* while both costs on the Friday side are about *how to count*. Anyone holding the date should be
-able to name both entries in their own column.
 
 ## Discussion questions
 
@@ -549,9 +448,8 @@ with this study's conclusion as well as where they support it.
 
 **Related on this site.**
 
-- [Chronology Anchors](../chronology/chronology-anchors.md#settling-the-crucifixion-year) — where
-  the year is settled, and where the same Mark 15:42 argument for a Friday is made independently of
-  this study.
+- [Friday, 3 April AD 33: Dating the Cross](../chronology/dating-the-cross.md) — the weekday and
+  the year: Mark 15:42 and Luke 24:21 for a Friday, and AD 33 over AD 30.
 - [Prophecy: Events and Times](../last-things/prophecy-events-times.md) — Daniel's seventy weeks
   worked through to the same week.
 - [The Day No One Knows](the-day-no-one-knows.md) — the other place a single sentence of Jesus about

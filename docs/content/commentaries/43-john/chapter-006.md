@@ -18,6 +18,7 @@ draft: false
 - [Andrew](../../biblical-figures/andrew.md) — 6:8-9
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 6:37-40
 - [Faith](../../salvation/faith.md) — 6:28-29
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 6:4
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 6:66-68
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 6:70-71
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 6:35-37

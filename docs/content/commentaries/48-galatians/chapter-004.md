@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 4:4-5
 - [Idolatry](../../sin/idolatry.md) — 4:8-9
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:6-7
 - [Six Days of History](../../last-things/six-days-of-history.md) — 4:4

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 13:1
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 13:18
 - [In Humility](../../christian-life/humility.md) — 13:1-17
 - [John son of Zebedee](../../biblical-figures/john.md) — 13:23

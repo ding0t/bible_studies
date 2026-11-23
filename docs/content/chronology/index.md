@@ -4,7 +4,7 @@ category: "other"
 description: "Dating biblical history -- what can be fixed to a year, how the numbers in Scripture add up, and the one timeline this site works to."
 draft: false
 date_created: 2026-10-08
-date_modified: 2026-11-22
+date_modified: 2026-11-23
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -44,6 +44,14 @@ Other studies use these dates for their own subjects:
     Forty-one events from Solomon's temple to the Resurrection, each with the outside record that dates it, an error bar, and its year from creation (AM). The fixed rail the rest of the biblical timeline hangs from.
 
     [:octicons-arrow-right-24: Read](chronology-anchors.md)
+
+-   __Friday, 3 April AD 33: Dating the Cross__
+
+    ---
+
+    Which day and which year Jesus was crucified. Mark 15:42 and Luke 24:21 give a Friday, Pilate's Passovers give two Fridays, AD 30 and AD 33, and Luke 3:1, John's Passovers, Sejanus and Daniel 9:25 decide between them.
+
+    [:octicons-arrow-right-24: Read](dating-the-cross.md)
 
 -   __Four Hundred and Eighty Years: From the Exodus to Solomon's Temple__
 

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 5:8-10
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 5:6
 - [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 5:12-21
 - [Grace](../../salvation/grace.md) — 5:2
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:14

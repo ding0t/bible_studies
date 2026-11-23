@@ -11,6 +11,9 @@ the same file, so the page, the charts and the timeline cannot drift apart.
   rows it dates and the witnesses that bear on them.
 - the-rail.svg (sequence): every row on one line of time at a constant scale, with its error bar,
   and the spans Scripture counts across it.
+- the-year-of-the-cross.svg (relationship), for chronology/dating-the-cross.md: every Passover of
+  Pilate's prefecture with the weekday of 14 Nisan (crucifixion_year.nisan_14, computed by
+  utils/compute_nisan_14.py), and each line of evidence placed under the year it favours.
 """
 
 import json
@@ -18,7 +21,7 @@ import re
 from pathlib import Path
 
 from lib.larkin import (W, INK, MUTED, PAPER, CARD, RED, BLUE_TINT, EARTH_TINT, GOLD_TINT, RED_TINT,
-                        GOLD_EDGE, HALO, text, svg_open, heading, credit, arrow_head, esc)
+                        GOLD_EDGE, HALO, text, svg_open, heading, credit, arrow_head, esc, banner, card)
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "content" / "assets" / "img" / "chronology"
@@ -336,9 +339,111 @@ def span_key(x, y, k):
             text(x, y + 4, str(k), 10.5, "middle", "bold", fill=RED)]
 
 
+# --- the year of the cross -----------------------------------------------------------------------
+
+def the_year_of_the_cross():
+    cy = DATA["crucifixion_year"]
+    years = cy["nisan_14"]
+    lines_ = [ln for ln in cy["lines"] if ln["id"] != "weekday"]
+    sieve = next(ln for ln in cy["lines"] if ln["id"] == "weekday")
+    by_year = {r["year"]: r for r in years}
+    ministry = event_year("anchor_39")  # Luke 3:1: no Passover before John began to preach counts
+    col = {"ad30": 200, "ad33": 520, "neither": 360}
+    cand = {"ad30": 30, "ad33": 33}
+    width = {ln["id"]: 300 if ln["favours"] == "neither" else 280 for ln in lines_}
+    body = {ln["id"]: [ln["label"]] + (wrap(ln["note"], 13, width[ln["id"]] - 20) if ln.get("note") else [])
+            for ln in lines_}
+    rows_h = sum(10 + 17 * (len(body[ln["id"]]) + 1) + 16 for ln in lines_)
+    h = 340 + rows_h + 150
+    out = svg_open(h, "The year of the cross",
+                   "The eleven Passovers of Pilate's prefecture with the weekday of 14 Nisan, the two "
+                   "Fridays that remain, and each line of evidence under the year it favours.")
+    out += heading("The year of the cross", "Every Passover of Pilate's prefecture, sifted")
+
+    # The eleven Passovers.
+    x0, cw, top = 40, 640 / len(years), 130
+    for i, r in enumerate(years):
+        x = x0 + i * cw
+        live = r["friday"] and r["year"] > ministry - 1
+        early_out = r["friday"] and not live
+        fill = GOLD_TINT if live else (EARTH_TINT if early_out else CARD)
+        dash = ' stroke-dasharray="4 3"' if early_out else ""
+        ink = INK if r["friday"] else MUTED
+        out.append(f'<rect x="{x + 2:.1f}" y="{top}" width="{cw - 4:.1f}" height="66" rx="4" fill="{fill}" '
+                   f'stroke="{INK if r["friday"] else MUTED}" stroke-width="{1.8 if live else 1}"{dash}/>')
+        out.append(text(x + cw / 2, top + 18, f"AD {r['year']}", 13, "middle", "bold", fill=ink))
+        out.append(text(x + cw / 2, top + 35, r["weekday"][:3], 12.5, "middle", "bold" if r["friday"] else None, fill=ink))
+        out.append(text(x + cw / 2, top + 50, " ".join(r["date"].split()[:1] + [r["date"].split()[1][:3]]), 11.5, "middle", fill=ink))
+        # A marginal crescent can move the feast a day; show it wherever that touches a Friday.
+        alts = [r[k] for k in ("early_crescent", "late_crescent") if r[k]]
+        if r["friday"] and alts:
+            out.append(text(x + cw / 2, top + 62, " · ".join(f"or {a['weekday'][:3]} {a['date'].split()[0]}" for a in alts),
+                            9.5, "middle", fill=MUTED, italic=True))
+        if early_out:
+            out.append(text(x + cw / 2, top + 82, "before", 10, "middle", fill=RED, italic=True))
+            out.append(text(x + cw / 2, top + 94, "Luke 3:1", 10, "middle", fill=RED, italic=True))
+    out.append(text(W / 2, top - 10, "14 Nisan in each year, from the first crescent seen at Jerusalem; \u201cor\u201d: a crescent seen a night early or late", 11.5,
+                    "middle", fill=MUTED, italic=True))
+
+    # The first sieve, and the two Fridays that come through it.
+    sy = top + 112
+    out.append(f'<path d="M40 {sy} H680" stroke="{INK}" stroke-width="1" stroke-dasharray="1 4" stroke-linecap="round"/>')
+    out += banner(W / 2, sy - 13, 250, sieve["label"].upper(), size=12.5)
+    out.append(text(680, sy + 20, sieve["refs"], 12, "end", fill=MUTED, italic=True))
+    head_y = sy + 48
+    for key, yr in cand.items():
+        i = next(k for k, r in enumerate(years) if r["year"] == yr)
+        fx = x0 + i * cw + cw / 2
+        out.append(f'<path d="M{fx:.1f} {top + 66} V{sy - 16} M{fx:.1f} {sy + 12} C{fx:.1f} {head_y - 10} {col[key]} {head_y - 24} {col[key]} {head_y - 4}" '
+                   f'fill="none" stroke="{GOLD_EDGE}" stroke-width="1.6"/>')
+        out.append(arrow_head(col[key], head_y, 90, fill=GOLD_EDGE))
+        r = by_year[yr]
+        out += banner(col[key], head_y + 2, 200, f"AD {yr} · {r['weekday'].upper()} {r['date'].upper()}", size=12)
+
+    # Each line of evidence, under the year it favours; AD 30's answer beside it.
+    y = head_y + 52
+    for x in (col["ad30"], col["ad33"]):
+        out.append(f'<path d="M{x} {y - 14} V{y + rows_h - 16}" stroke="{MUTED}" stroke-width="0.8" stroke-dasharray="2 4"/>')
+    for ln in lines_:
+        fav = ln["favours"]
+        w = width[ln["id"]]
+        cx = col[fav]
+        c, ch = card(cx - w / 2, y, w, body[ln["id"]], ln["refs"], dashed=ln["weight"] == "not used", size=13)
+        out += c
+        if ln["weight"] in ("rests", "supports"):
+            out.append(f'<circle cx="{cx - w / 2 - 12:.1f}" cy="{y + 13}" r="5" '
+                       f'fill="{INK if ln["weight"] == "rests" else PAPER}" stroke="{INK}" stroke-width="1.4"/>')
+        if ln.get("rival_needs"):
+            other = col["ad30"] if fav == "ad33" else col["ad33"]
+            for k, row in enumerate(wrap(f"AD 30 needs {ln['rival_needs']}", 12.5, 250)):
+                out.append(text(other, y + 20 + k * 16, row, 12.5, "middle", fill=MUTED, italic=True))
+        y += ch + 16
+
+    # The verdict, and what stands against it.
+    v = cy["verdict"]
+    out += banner(col["ad33"], y + 6, 230, f"{v['date'].upper()} AD {v['year']}", fill=RED, size=13)
+    out.append(text(col["ad33"], y + 52, "the verdict", 12.5, "middle", fill=RED, italic=True))
+    out.append(text(col["ad30"], y + 24, "the strongest case against", 13, "middle", fill=MUTED, italic=True))
+
+    # Key.
+    ky = y + 84
+    out.append(f'<circle cx="50" cy="{ky - 4}" r="5" fill="{INK}" stroke="{INK}" stroke-width="1.4"/>')
+    out.append(text(62, ky, "the verdict rests on it", 13))
+    out.append(f'<circle cx="230" cy="{ky - 4}" r="5" fill="{PAPER}" stroke="{INK}" stroke-width="1.4"/>')
+    out.append(text(242, ky, "supports it", 13))
+    out.append(f'<rect x="350" y="{ky - 14}" width="34" height="18" rx="3" fill="{CARD}" stroke="{INK}" stroke-width="1.2" stroke-dasharray="5 4"/>')
+    out.append(text(392, ky, "weighed, and not used", 13))
+    out.append(text(40, ky + 26, "Dates computed by utils/compute_nisan_14.py; see crucifixion_year in chronology.json.",
+                    11, fill=MUTED, italic=True))
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
-    for name, fn in (("what-dates-what.svg", what_dates_what), ("the-rail.svg", the_rail)):
+    for name, fn in (("what-dates-what.svg", what_dates_what), ("the-rail.svg", the_rail),
+                     ("the-year-of-the-cross.svg", the_year_of_the_cross)):
         (OUT / name).write_text(fn(), encoding="utf-8")
         print("wrote", OUT / name)
 

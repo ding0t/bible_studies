@@ -14,4 +14,5 @@ draft: false
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 1:1
 - [Fasting](../../christian-life/fasting.md) — 1:4
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 1:1
 <!-- commentary-index:auto-end -->

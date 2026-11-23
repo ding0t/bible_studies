@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 19:41-44
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 19:45-46
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 19:9
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 19:41-44
 - [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 19:29-41

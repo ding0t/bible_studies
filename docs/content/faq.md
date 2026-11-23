@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-11-22
+date_modified: 2026-11-23
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -248,21 +248,20 @@ Preparation, that is, the day before the Sabbath" (Mark 15:42), and Luke and Joh
 years in the plausible range put Passover on a Friday — AD 30 (7 April) and AD 33 (3 April).
 
 The year rests mainly on Luke 3:1 read naturally, with Sejanus's fall behind the pressure on Pilate
-at John 19:12, Daniel 9 and Paul's chronology all leaning the same way. AD 30 stays defensible for
+at John 19:12 and Daniel 9 leaning the same way; Paul's chronology cuts both ways and is set aside. AD 30 stays defensible for
 anyone who dates Tiberius's fifteenth year from the co-regency. The lunar-eclipse argument that
 often accompanies this date is **not** used here — it needs both a contested observation and a
 strained reading of Peter's Joel quotation.
-→ [Chronology Anchors](chronology/chronology-anchors.md#settling-the-crucifixion-year)
+→ [Dating the Cross](chronology/dating-the-cross.md#settling-the-crucifixion-year)
 
 ### Doesn't "three days and three nights" rule out a Friday?
 
 It is the strongest objection to it. Friday afternoon to Sunday dawn gives two nights, not three.
 The short answer has three parts. The phrase occurs once (Matthew 12:40, quoting Jonah). The New
-Testament describes the same interval "on the third day" eight times. And Mark and Matthew report
+Testament describes the same interval "on the third day" nine times. And Mark and Matthew report
 one prediction with "after three days" and "on the third day" respectively. So the Gospels treat the
 two as equivalent, which only works if part of a day counts as a day. The Friday reading is the
-stronger one and still spends that verse on credit. → [Three Days and Three Nights](jesus/three-
-days-and-three-nights.md)
+stronger one and still spends that verse on credit. → [Dating the Cross](chronology/dating-the-cross.md#the-day-a-friday)
 
 ## How the studies are made
 

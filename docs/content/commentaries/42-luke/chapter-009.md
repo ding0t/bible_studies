@@ -14,12 +14,12 @@ draft: false
 
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 9:10-17 (primary passage)
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 9:22-27 (primary passage)
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 9:22
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 9:51-56
 - [John son of Zebedee](../../biblical-figures/john.md) — 9:54
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 9:51
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 9:28-33
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 9:28-33
-- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 9:22
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 9:29
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 9:23-24
 <!-- commentary-index:auto-end -->

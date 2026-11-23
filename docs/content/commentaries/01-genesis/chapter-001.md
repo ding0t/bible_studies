@@ -17,6 +17,7 @@ draft: false
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 1:1-31
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 1:2
 - [Biblical Numerology](../../scripture/numerology.md) — 1:1
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 1:5
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 1:27-28
 - [Reading the Original-Language Data](../../scripture/original-language-data.md) — 1:1
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 1:14
@@ -27,7 +28,6 @@ draft: false
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 1:2
 - [The Zadok Calendar](../../feasts/zadok-calendar.md) — 1:14-19
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 1:1
-- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 1:5
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 1:20-21
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 1:31
 <!-- commentary-index:auto-end -->

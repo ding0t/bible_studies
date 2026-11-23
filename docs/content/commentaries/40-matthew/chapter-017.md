@@ -14,11 +14,11 @@ draft: false
 
 - [Faith](../../salvation/faith.md) — 17:20
 - [Fasting](../../christian-life/fasting.md) — 17:14-21
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 17:23
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 17:1-9
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 17:5
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 17:10-13
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 17:2
-- [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 17:23
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 17:1-8
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 17:20
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 17:2

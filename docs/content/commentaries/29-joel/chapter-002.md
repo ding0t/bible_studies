@@ -16,7 +16,7 @@ draft: false
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 2:28-29
 - [Fasting](../../christian-life/fasting.md) — 2:12-13
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 2:1
-- [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 2:31
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 2:31
 - [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 2:10
 - [The Names of God](../../god/names-of-god.md) — 2:32
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 2:28-29

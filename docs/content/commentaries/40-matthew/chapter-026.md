@@ -14,6 +14,7 @@ draft: false
 
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 26:26-29 (primary passage)
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 26:14-16 (primary passage)
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 26:61
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 26:39
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 26:74
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 26:31
