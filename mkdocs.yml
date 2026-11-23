@@ -81,6 +81,9 @@ hooks:
   # A printable one-sheet group study under every study's discussion questions. Needs segno (QR
   # code), so the mkdocs commands carry --with segno. See hooks/study_sheet.py.
   - hooks/study_sheet.py
+  # A collapsed "How this study was checked" panel from each study's state file, before its
+  # References. See hooks/study_checks.py.
+  - hooks/study_checks.py
   # llms.txt, a markdown copy of every page, and the FAQ's list of questions the studies answer,
   # for AI assistants a reader points at the site. See hooks/llms.py.
   - hooks/llms.py

@@ -172,6 +172,13 @@ short. `AGENTS.md` keeps the rules that break things if forgotten.
   questions, Be transformed and the point across one double-sided sheet. A study needs no change to get a sheet; a
   weak sheet is a sign of a missing thesis, outline or facet label. See
   [docs/dev/study-sheets.md](study-sheets.md).
+- **Every study with a state file gets a "How this study was checked" panel**
+  (`hooks/study_checks.py`), collapsed, before its References. It shows only what
+  `references/study-state/<slug>.yml` records: dated review, read and simplify passes, the
+  corrections and author questions the reviews list, and every `evidence:` entry by kind and in
+  full. The build has no Bible databases, so nothing is replayed and the panel never says
+  "verified". **Recording evidence and dating each pass's block is what the reader sees**, so a
+  check left out of the state file is a check the page does not show.
 - **A study series is a page with a `series:` frontmatter block** (`hooks/series.py`), listing
   studies from any section in the order a group takes them, one a week. A study keeps its one home
   in the taxonomy and only gets pointed at, so it can sit in several series; never move or copy a
