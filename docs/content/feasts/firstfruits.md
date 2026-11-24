@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Leviticus 23:9-14"
 bible_references: ["Leviticus 23:9-14", "Leviticus 23:15-16", "Leviticus 23:5-8", "Leviticus 23:43", "Leviticus 7:30", "Joshua 5:10-12", "Numbers 33:3", "Leviticus 23:14", "Exodus 12:14", "1 Corinthians 15:20-23", "Romans 8:23", "Romans 11:16", "James 1:1", "James 1:18", "Revelation 14:4", "Colossians 1:18", "Revelation 1:5", "John 12:24", "John 19:31", "Matthew 28:1", "Ruth 1:22", "Ruth 2:23", "Numbers 28:26", "Exodus 34:22", "Numbers 15:20-21"]
 date_created: 2026-09-07
-date_modified: 2026-11-23
+date_modified: 2026-11-24
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -245,7 +245,7 @@ Nisan 15 fell on the weekly Sabbath that year. So the two readings collapse into
 part company and the calendar has to choose. In that year it did not have to, because the festival
 rest day and the weekly Sabbath were the same day. That also fits John's note that "that Sabbath was
 a high day" (John 19:31, ESV): a feast day fell on the weekly Sabbath. That is the usual reading of
-John's phrase; [Dating the Cross](../chronology/dating-the-cross.md#the-counter-case-at-its-strongest)
+John's phrase; [Dating the Cross](../chronology/dating-the-cross.md#the-case-for-a-wednesday)
 weighs the case for a separate festival Sabbath.
 
 This is the study's central observation, and it has limits. It does not prove the crucifixion was in

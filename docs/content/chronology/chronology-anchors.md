@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Kings 6:1"
 bible_references: ["Joshua 10:12-14", "1 Kings 5:1-12", "1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Chronicles 12:2", "2 Kings 1:1", "2 Kings 3:4-5", "2 Kings 9:24-27", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20", "Nehemiah 1:1", "Ezra 7:9", "Ezra 7:11-27", "Isaiah 36:1", "Isaiah 44:28", "2 Kings 18:10", "Jeremiah 52:12", "Jeremiah 52:29", "Jeremiah 34:7", "Leviticus 26:34-35", "Zechariah 1:12", "Zechariah 7:5", "Luke 2:2", "Acts 5:37", "John 2:13", "Acts 18:12"]
 date_created: 2026-08-22
-date_modified: 2026-11-23
+date_modified: 2026-11-24
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -189,7 +189,7 @@ The bracket does not depend on which answer is right, because Matthew 2:1 alread
 
 ### The "forty-six years" Passover bracket
 
-**"Forty-six years," AD 27-30 (#40).** Josephus puts Herod's start on the temple in his eighteenth year (*Antiquities* 15.380), which is 20/19 BC counting his reign from 37 BC; *Jewish War* 1.401 gives the fifteenth year instead. Adding the forty-six years of John 2:20 to that start gives a first Passover in AD 27 or 28. Counting instead from the sanctuary's completion in 18/17 BC gives AD 29/30 ([Dating the Cross](dating-the-cross.md#john-220-neutral-between-both-years)). The bracket spans both readings, and its width is what leaves the ministry's length open between roughly three and five years. The table sets the row at AD 30, the year the verdict in Dating the Cross needs, and after John's ministry begins (#39), since Jesus came to that Passover after His baptism (John 1:29-34; 2:13).
+**"Forty-six years," AD 27-30 (#40).** Josephus puts Herod's start on the temple in his eighteenth year (*Antiquities* 15.380), which is 20/19 BC counting his reign from 37 BC; *Jewish War* 1.401 gives the fifteenth year instead. Adding the forty-six years of John 2:20 to that start gives a first Passover in AD 27 or 28. Counting instead from the sanctuary's completion in 18/17 BC gives AD 29/30 ([Dating the Cross](dating-the-cross.md#john-220-and-the-forty-six-years)). The bracket spans both readings, and its width is what leaves the ministry's length open between roughly three and five years. The table sets the row at AD 30, the year the verdict in Dating the Cross needs, and after John's ministry begins (#39), since Jesus came to that Passover after His baptism (John 1:29-34; 2:13).
 
 Row 41's year has its own study. [Friday, 3 April AD 33: Dating the Cross](dating-the-cross.md) narrows Pilate's eleven Passovers to two Fridays, AD 30 and AD 33, and weighs Luke 3:1, the Passovers in John, Sejanus, Daniel 9:25 and Paul's chronology between them.
 
@@ -396,7 +396,7 @@ it (*Antiquities* 17.167; row 38). The Pilate Stone, a dedication to Tiberius fo
 fifteenth year (Luke 3:1). It confirms the man and his title, and gives no year. The **Gallio
 inscription** at Delphi, a letter of the emperor Claudius dated by his twenty-sixth acclamation, AD 52,
 names Gallio proconsul of Achaia, which dates Paul's hearing before him (Acts 18:12) to AD 51/52 and
-gives the one fixed point in Paul's chronology ([Dating the Cross](dating-the-cross.md#pauls-chronology-which-cuts-both-ways)).
+gives the one fixed point in Paul's chronology ([Dating the Cross](dating-the-cross.md#pauls-three-years-and-fourteen-years)).
 
 | Witness | Date | Job |
 |---|---|---|

@@ -24,13 +24,13 @@ origin: >
   sections' word studies and quotations were verified where they came from (see each study's state file).
 
 thesis: >
-  God sent His Son to the cross at the time He had set, and the Gospels' own details, a Friday Passover
-  under Pilate, Luke's fifteenth year of Tiberius and the Passovers John records, place it on Friday,
-  3 April AD 33, with AD 30 the one serious rival.
+  God sent His Son to the cross at the time He had set, and when each Passover under Pilate is
+  reckoned by the Law's rules, the Gospels' details place it on Friday, 3 April AD 33, with AD 30 the
+  one serious rival.
 outline:
-  - {section: "The day: a Friday", says: "Twelve statements of the interval against one quotation, Mark's prosabbaton and Luke 24:21 put the cross on a Friday; the cost is one night."}
-  - {section: "Settling the crucifixion year", says: "A Friday 14 Nisan under Pilate leaves AD 30 and AD 33; Luke 3:1 and John's Passovers decide for AD 33, with Sejanus and Daniel 9:25 in support."}
-  - {section: "The sky that day", says: "The darkness was no eclipse, and the lunar eclipse that evening is left out of the case."}
+  - {section: "How the Passover is dated", says: "The Law fixes 14 Nisan; four calendar rules (sunset day, first crescent, equinox, John's 14 Nisan) give its weekday in each year AD 26-36; four years can give a Friday."}
+  - {section: "The facts that bear on the date", says: "Each fact as the text or record gives it: the weekday statements, the three-day phrasings, the Wednesday case, Luke 3:1, John's Passovers, Sejanus, Daniel 9:25, John 2:20, Paul, the sky; then one table."}
+  - {section: "Weighing the evidence", says: "The day is a Friday; the year is AD 33, on Luke 3:1 and John's Passovers, with Sejanus and Daniel 9:25 in support."}
   - {section: "Verdict", says: "Friday 3 April AD 33, and the strongest case against it."}
 word_budget: 4000
 word_budget_reason: ""
@@ -69,6 +69,11 @@ evidence:
   - {id: dan9-esvsb-458, what: "ESV SB on Daniel 9:24-27 counts from Ezra's decree in 458 BC to AD 26, allowing for Jesus' death in A.D. 30 or 33", tool: manual, args: {source: "study-notes.db, esv-study-bible note on Daniel 9:24-27, read in full via sqlite (the study_note tool truncates it before this passage): 'This understanding of the verse allows for Jesus' death in either A.D. 30 or 33.'"}, checked: 2026-11-23}
   - {id: three-day-phrasings, what: "SBLGNT: on the third day 9 (Matthew 16:21; 17:23; 20:19; Luke 9:22; 18:33; 24:7, 46; Acts 10:40; 1 Corinthians 15:4); after three days 4 (Mark 8:31; 9:31; 10:34; Matthew 27:63; Acts 25:1 is not about the resurrection); in three days of the temple 6 (John 2:19, 20; Matthew 26:61; 27:40; Mark 14:58; 15:29)", tool: manual, args: {source: "references/build/out/bible-text.db, work sblgnt, accent-stripped phrase search"}, checked: 2026-11-23}
   - {id: g4315-g3904, what: "prosabbaton G4315 once in the NT (Mark 15:42; twice more in the LXX); paraskeue G3904 six times in the Gospels", tool: bible_concordance, args: {strongs: G4315}, checked: 2026-11-23}
+  - {id: ex12-2-esv, what: "Exodus 12:2 (ESV) in 'What the Law fixes'", tool: study_verse, args: {book: Exod, chapter: 12, verse: 2, work_id: esv-study-bible}, expect_contains: "This month shall be for you the beginning of months. It shall be the first month of the year for you", checked: 2026-11-24}
+  - {id: ex12-6-esv, what: "Exodus 12:6 (ESV) in 'What the Law fixes'", tool: study_verse, args: {book: Exod, chapter: 12, verse: 6, work_id: esv-study-bible}, expect_contains: "until the fourteenth day of this month, when the whole assembly of the congregation of Israel shall kill their lambs at twilight", checked: 2026-11-24}
+  - {id: ps104-19-esv, what: "Psalm 104:19 (ESV) 'to mark the seasons'", tool: study_verse, args: {book: Ps, chapter: 104, verse: 19, work_id: esv-study-bible}, expect_contains: "He made the moon to mark the seasons", checked: 2026-11-24}
+  - {id: neh2-1-esv, what: "Nehemiah 2:1 (ESV) names the month Nisan", tool: study_verse, args: {book: Neh, chapter: 2, verse: 1, work_id: esv-study-bible}, expect_contains: "In the month of Nisan", checked: 2026-11-24}
+  - {id: jn19-31-esv, what: "John 19:31 (ESV) 'that Sabbath was a high day'", tool: study_verse, args: {book: John, chapter: 19, verse: 31, work_id: esv-study-bible}, expect_contains: "for that Sabbath was a high day", checked: 2026-11-24}
 
 review_2026-11-23:
   status: applied 2026-11-23
@@ -84,4 +89,10 @@ review_2026-11-23:
     - "Budget: the reviewer's ~4,900 counted tables and quotations; Check 23's count is 3,897 against 4,000. No change."
   minor: "AD 26 'on the eve of the equinox'; Pilate cited to ESV SB; Mark 15:42 memory verse replaced; 'genuinely' and 'rather than merely less likely' cut; Ezra 457 noted as 458 on a spring count with the ESV SB's AD 30-or-33 allowance; Jonah 1:17 and Mark 11:15-17 / Luke 19:45-46 cited."
   readability: "Applied: the filter split (AD 32 as H4), a parent H3 for the six lines with the chart under it, the four deciding lines first, Schaefer's reply as H4, the two sky headings renamed (no inbound links), the outline updated, a thesis line opening the day section, the year intro's repeated Friday argument and the verdict's repeated heading cut, 'page' made 'study'. Not applied: moving the sunset-reckoning paragraph (optional)."
-last_updated: "2026-11-23"
+rewrite_2026-11-24:
+  by: author's direction ("open with a section on the passover, the rules that form our assumption of its calculation, and then the candidate dates by those rules ... then the next facts ... then drawing the logical assessment"; and "more Pauline sounding")
+  structure: "Rebuilt as How the Passover is dated (the Law, four rules, an eleven-year table from docs/data/chronology.json) -> The facts that bear on the date (ten H3s and a summary table) -> Weighing the evidence (the day, the year) -> Verdict."
+  prose: "Every prose paragraph rewritten to read aloud (style-guide rule 7): median sentence 22 -> 15 words, 35+ share 16% -> 2%. Clipped headline lines and dramatic headings removed. No fact, count or citation changed; new quotations Exodus 12:2, 12:6, Psalm 104:19 verified (evidence above), Leviticus 23:5-6 and Deuteronomy 16:1 cited without quotation."
+  anchors: "Renamed: the-counter-case-at-its-strongest -> the-case-for-a-wednesday (firstfruits.md); john-220-neutral-between-both-years -> john-220-and-the-forty-six-years (chronology-anchors.md, dating-texts.json, chronology.json); pauls-chronology-which-cuts-both-ways -> pauls-three-years-and-fourteen-years; schaefers-reply-and-acts-220 -> the-sky-that-day (chronology.json). Kept: the-day-a-friday, settling-the-crucifixion-year, the-sky-that-day, verdict-friday-3-april-ad-33, and the Luke 3:1, John's Passovers, Sejanus and Daniel 9:25 headings."
+  for_review: "Rule 4's handling of the 14/15 Nisan question is stated, not argued; a reviewer may want a sentence on why both candidate years survive either way, or a pointer to where the site treats it."
+last_updated: "2026-11-24"

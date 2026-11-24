@@ -1548,7 +1548,7 @@
         "favours": "neither",
         "weight": "neutral",
         "note": "Each reading fits one year",
-        "argued_in": "#john-220-neutral-between-both-years"
+        "argued_in": "#john-220-and-the-forty-six-years"
       },
       {
         "id": "paul",
@@ -1557,7 +1557,7 @@
         "favours": "neither",
         "weight": "not used",
         "note": "Cuts both ways: which visit, and do the spans overlap?",
-        "argued_in": "#pauls-chronology-which-cuts-both-ways"
+        "argued_in": "#pauls-three-years-and-fourteen-years"
       },
       {
         "id": "eclipse",
@@ -1566,7 +1566,7 @@
         "favours": "ad33",
         "weight": "not used",
         "note": "Barely visible, and Joel's words are future",
-        "argued_in": "#schaefers-reply-and-acts-220"
+        "argued_in": "#the-sky-that-day"
       }
     ],
     "verdict": {
