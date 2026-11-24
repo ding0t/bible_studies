@@ -91,5 +91,13 @@ External sources, tools, and datasets this project draws on.
 
     [:octicons-arrow-right-24: Read](spot-the-mistake.md)
 
+-   __The Study Skills__
+
+    ---
+
+    The written instructions the AI behind this site follows to build, check, structure and shorten a study, explained in plain words, with links to the full text of each.
+
+    [:octicons-arrow-right-24: Read](study-skills.md)
+
 </div>
 <!-- section-index:auto-end -->

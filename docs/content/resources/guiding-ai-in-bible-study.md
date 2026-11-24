@@ -176,11 +176,8 @@ see if these things were so" (Acts 17:11, ESV).
 - **[Getting Started](getting-started.md)** sets up the workbench this site is built with: the
   Hebrew and Greek texts in a database an assistant can query, so a quotation or a count comes from
   a row you can see.
-- **The skills** are the full instructions the site's assistant follows, served as plain text:
-  [develop](https://the-way.lewy.au/skills/develop-bible-study/SKILL.md) a study,
-  [review](https://the-way.lewy.au/skills/review-bible-study/SKILL.md) one,
-  [read](https://the-way.lewy.au/skills/read-bible-study/SKILL.md) one for structure, and
-  [simplify](https://the-way.lewy.au/skills/simplify-bible-study/SKILL.md) one.
+- **[The Study Skills](study-skills.md)** explains the full instructions the site's assistant
+  follows to build, review, shorten and arrange a study, with a link to the text of each.
   [Why the rules exist](https://the-way.lewy.au/skills/why-the-rules.md) holds every mistake behind
   them, including the ones on this page.
 - **[For AI Assistants](../about/for-ai-assistants.md)** is what this site tells an assistant a
