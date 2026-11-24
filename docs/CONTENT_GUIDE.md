@@ -110,6 +110,19 @@ primary_passage: "Matthew 26:26-29; Mark 14:22-26; Luke 22:14-20"
 questions: ["How can I be sure I am saved?", "Can I lose my salvation?"]
 ```
 
+### llms and search (rare)
+
+- For a page that states false things on purpose, such as an exercise: `llms: false` keeps it out of
+  everything `hooks/llms.py` writes (its markdown copy, `llms.txt`, the connector's indexes), and
+  Material's `search: {exclude: true}` keeps it out of site search
+- An assistant or a search result could otherwise quote the false sentence without the page around it
+
+```yaml
+llms: false
+search:
+  exclude: true
+```
+
 ### series
 
 - Makes the page a **study series**: studies from anywhere on the site in the order a group takes

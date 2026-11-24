@@ -36,7 +36,7 @@
 
   {#- The page's markdown source, with absolute links, for an AI assistant reading the page; and the
       site map written for them. Both are written by hooks/llms.py. -#}
-  {%- if page %}
+  {%- if page and page.meta.llms != false %}
   <link rel="alternate" type="text/markdown" href="{{ page.canonical_url }}index.md">
   {%- endif %}
   <link rel="help" type="text/plain" href="{{ config.site_url }}llms.txt">

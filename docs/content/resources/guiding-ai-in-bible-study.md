@@ -5,7 +5,7 @@ description: "Seven habits for studying the Bible with an AI chat assistant, eac
 tags: ["ai", "study-method", "getting-started"]
 draft: false
 date_created: 2026-11-23
-date_modified: 2026-11-23
+date_modified: 2026-11-24
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -171,6 +171,8 @@ see if these things were so" (Acts 17:11, ESV).
 
 ## Going further
 
+- **[Spot the Mistake](spot-the-mistake.md)** gives eight answers to practise on, each with one
+  wrong sentence and the habit that catches it.
 - **[Getting Started](getting-started.md)** sets up the workbench this site is built with: the
   Hebrew and Greek texts in a database an assistant can query, so a quotation or a count comes from
   a row you can see.

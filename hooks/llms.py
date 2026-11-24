@@ -30,6 +30,8 @@ Seven outputs, all from the pages draft_pages.py kept, so a draft never reaches 
   question asked in a reader's own words ("how can I be sure I am saved?") appears on the site in
   those words and points at the study.
 
+A page whose frontmatter sets `llms: false` is left out of all seven.
+
 The thesis is the paragraph a study opens with "**In one sentence:**" (the Key Takeaways format),
 falling back to the frontmatter description. Questions are the optional `questions:` frontmatter
 list, which the author writes; see docs/CONTENT_GUIDE.md.
@@ -93,6 +95,10 @@ def on_files(files, config):  # noqa: ARG001 - hook signature
         except (AttributeError, OSError, UnicodeDecodeError, yaml.YAMLError):
             continue
         if not isinstance(meta, dict):
+            continue
+        # `llms: false` keeps a page out of every output here. resources/spot-the-mistake.md sets
+        # it: its practice answers are false on purpose, and an assistant must never quote one.
+        if meta.get("llms") is False:
             continue
         thesis = _THESIS.search(text)
         _pages.append({

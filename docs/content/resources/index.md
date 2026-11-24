@@ -4,7 +4,7 @@ category: "other"
 description: "External sources, tools, and datasets this project draws on."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-10-26
+date_modified: 2026-11-24
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -82,6 +82,14 @@ External sources, tools, and datasets this project draws on.
     A body of psalms, hymns and spiritual songs to remember: the songs of Scripture, the songs Jesus sang and quoted, and the earliest Christian songs, with who first sang each and when to sing it.
 
     [:octicons-arrow-right-24: Read](songbook.md)
+
+-   __Spot the Mistake__
+
+    ---
+
+    Eight answers of the kind an AI assistant gives about the Bible, each with one sentence that is wrong. Find it, then see the check that would have caught it.
+
+    [:octicons-arrow-right-24: Read](spot-the-mistake.md)
 
 </div>
 <!-- section-index:auto-end -->

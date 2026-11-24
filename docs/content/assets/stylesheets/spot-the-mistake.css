@@ -1,0 +1,59 @@
+/* The exercise on resources/spot-the-mistake.md (app/src/entries/spot-the-mistake.js). */
+
+.md-typeset .spot-answer {
+  border-left: 4px solid var(--md-accent-fg-color);
+  background: var(--md-code-bg-color);
+  border-radius: 0.2rem;
+  padding: 0.2rem 1rem;
+  margin: 1rem 0;
+}
+
+.md-typeset .spot-live .spot-s {
+  cursor: pointer;
+  border-radius: 0.2rem;
+  padding: 0.05rem 0.1rem;
+  transition: background-color 0.15s;
+}
+
+.md-typeset .spot-live .spot-s:hover,
+.md-typeset .spot-live .spot-s:focus-visible {
+  background: rgba(127, 127, 127, 0.18);
+  outline: none;
+}
+
+.md-typeset .spot-live .spot-s.spot-miss {
+  cursor: default;
+  background: rgba(0, 150, 80, 0.14);
+}
+
+.md-typeset .spot-live .spot-s.spot-right {
+  cursor: default;
+  background: rgba(220, 40, 40, 0.18);
+  text-decoration: underline wavy rgba(220, 40, 40, 0.8);
+  text-underline-offset: 0.2em;
+}
+
+.md-typeset .spot-feedback {
+  font-size: 0.85em;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.2rem;
+}
+
+.md-typeset .spot-feedback:empty {
+  display: none;
+}
+
+.md-typeset .spot-hint {
+  font-size: 0.85em;
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .spot-score {
+  font-weight: 600;
+  position: sticky;
+  top: 3rem;
+  z-index: 1;
+  background: var(--md-default-bg-color);
+  padding: 0.4rem 0;
+}

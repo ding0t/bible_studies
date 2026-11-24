@@ -528,6 +528,7 @@ extra_css:
   - assets/stylesheets/memory-verses.css
   - assets/stylesheets/songbook.css
   - assets/stylesheets/history-chart.css
+  - assets/stylesheets/spot-the-mistake.css
   - assets/stylesheets/hebrew.css
   - assets/stylesheets/greek.css
   - assets/stylesheets/home.css
