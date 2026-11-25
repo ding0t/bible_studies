@@ -169,22 +169,26 @@ standing = "stated"
 
 [[prophecy]]
 id = "messenger-before"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "forerunner"
 prophecy = "Malachi 3:1"
 predicts = "a messenger will prepare the way, and the Lord will suddenly come to his temple"
 specific = ["sequence", "place"]
 uses = [
-  { ref = "Matthew 11:10", kind = "fulfilment" },
-  { ref = "Mark 1:2", kind = "fulfilment" },
-  { ref = "Luke 7:27", kind = "fulfilment" },
+  { ref = "Matthew 11:10", kind = "fulfilment", text = "neither", note = "'before your face' (πρὸ προσώπου σου) from Exodus 23:20 LXX, and 'prepare your way' (κατασκευάσει τὴν ὁδόν σου) nearer the Hebrew פִּנָּה־דֶרֶךְ (pinnah derekh, 'clear the way') than the Septuagint's 'look upon'" },
+  { ref = "Mark 1:2", kind = "fulfilment", text = "neither", note = "under Isaiah's name, joined to Isaiah 40:3" },
+  { ref = "Luke 7:27", kind = "fulfilment", text = "neither" },
 ]
 status = "partly"
+control = "divine"
+recognition = "unassessed"
 event = "anchor_39"
+future_event = "second_coming"
+split = { first = "Malachi 3:1 (the messenger, and the Lord coming to His temple)", rest = "Malachi 3:2-5 ('who can endure the day of His coming?'; the refiner)", at = "Matthew 11:10 with Matthew 3:11-12", signal = "lead: 3:1 is a coming to the temple; 3:2-5 is judgement on Levi and the land" }
 yhwh_text = true
 standing = "stated"
-notes = "lead: split with Malachi 3:2-5 ('who can endure the day of his coming?'), prophecy-method.md section 5. 'Before me' becomes 'before you' in the Gospels: the LORD's way is Jesus' way."
+notes = "In Malachi the messenger prepares the way 'before Me' (לְפָנָי, lefanai), the LORD speaking. In the Gospels it is 'before You': the LORD's coming is Jesus' coming. The Lord 'will suddenly come to His temple' (Malachi 3:1, BSB): He came to it (John 2:13-17)."
 
 [[prophecy]]
 id = "king-on-donkey"
@@ -380,198 +384,256 @@ notes = "lead: the standing example of a join (prophecy-method.md section 5): 'c
 
 [[prophecy]]
 id = "my-son-today"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "nature"
 prophecy = "Psalm 2:7"
+predicts = "the LORD's decree to His king: 'You are My Son; today I have become Your Father'"
+specific = ["person"]
 uses = [
-  { ref = "Acts 13:33", kind = "fulfilment", note = "of the resurrection" },
-  { ref = "Hebrews 1:5", kind = "fulfilment" },
-  { ref = "Hebrews 5:5", kind = "fulfilment" },
-  { ref = "Mark 1:11", kind = "allusion" },
+  { ref = "Acts 13:32-33", kind = "fulfilment", text = "both", note = "'He has fulfilled for us… by raising up Jesus' (BSB): Paul places the 'today' at the resurrection" },
+  { ref = "Hebrews 1:5", kind = "fulfilment", text = "both", note = "the Son set above the angels" },
+  { ref = "Hebrews 5:5", kind = "fulfilment", text = "both", note = "the call to the high priesthood" },
+  { ref = "Mark 1:11", kind = "allusion", note = "'You are My beloved Son' at the baptism" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
+event = "anchor_41"
 offices = ["king"]
-notes = "lead: 4QFlorilegium (4Q174) reads Psalm 2 with 2 Samuel 7: known-before evidence to check."
+notes = "All three quotations are the Septuagint word for word, which renders the Hebrew closely. The New Testament hears the decree at three moments: the baptism (allusion), the resurrection (Acts 13:33) and the priesthood (Hebrews 5:5). lead: 4QFlorilegium (4Q174) quotes Psalm 2:1 beside 2 Samuel 7 before Christ; verify in session 8."
 
 [[prophecy]]
 id = "throne-forever-o-god"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "nature"
 prophecy = "Psalm 45:6-7"
 masoretic = "Psalm 45:7-8"
+predicts = "the king addressed as God, whose throne endures forever, anointed by God, his God, above his companions"
+specific = ["person"]
 uses = [
-  { ref = "Hebrews 1:8-9", kind = "fulfilment" },
+  { ref = "Hebrews 1:8-9", kind = "fulfilment", text = "both", note = "'But about the Son He says: Your throne, O God, endures forever and ever' (BSB)" },
 ]
-status = "fulfilled"
+status = "partly"
+control = "divine"
+recognition = "unassessed"
+future_event = "millennium"
 near = "lead: a king of David's line at his wedding (Psalm 45:1)"
 offices = ["king"]
+notes = "The king is addressed as אֱלֹהִים (elohim, 'God') and is anointed by 'God, your God' (Psalm 45:6-7): God and God, the second the God of the first. Hebrews reads the address of the Son. The reading 'your throne is God's throne' is the alternative; give it. Status partly: the throne forever (Luke 1:33)."
 
 [[prophecy]]
 id = "you-laid-the-foundation"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "nature"
 prophecy = "Psalm 102:25-27"
 masoretic = "Psalm 102:26-28"
+predicts = "the Lord who laid the earth's foundations remains when the heavens wear out like a garment and are changed"
+specific = ["person"]
 uses = [
-  { ref = "Hebrews 1:10-12", kind = "fulfilment" },
+  { ref = "Hebrews 1:10-12", kind = "fulfilment", text = "lxx", note = "the Septuagint (Psalm 101:26-28 LXX), including the address 'O Lord' (Κύριε), which the Hebrew lacks in this verse" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 yhwh_text = true
-notes = "lead: the Septuagint's reading of Psalm 102:23-24 supplies the address 'Lord' that Hebrews follows."
+notes = "A psalm addressed to the LORD (Psalm 102:1, 12) is said 'about the Son' (Hebrews 1:8, 10): the Son is the Creator. lead: the Septuagint of 102:23-24 makes God answer the psalmist, which may be why Hebrews hears God addressing the Son; check the Greek of 101:24-25 LXX."
 
 [[prophecy]]
 id = "let-the-angels-worship"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "nature"
 prophecy = "Deuteronomy 32:43"
+predicts = "let all God's angels worship Him"
+specific = ["person"]
 uses = [
-  { ref = "Hebrews 1:6", kind = "fulfilment" },
+  { ref = "Hebrews 1:6", kind = "fulfilment", text = "lxx", note = "Deuteronomy 32:43 LXX word for word: προσκυνησάτωσαν αὐτῷ πάντες ἄγγελοι θεοῦ" },
 ]
 status = "fulfilled"
-notes = "lead: the line is in the Septuagint and 4QDeut-q, absent from the Masoretic; Psalm 97:7 is the other candidate source. the use's text likely 'lxx'."
+control = "divine"
+recognition = "unassessed"
+notes = "The line is absent from the Masoretic. The Qumran Deuteronomy scroll 4Q44 (4QDeut-q) has a Hebrew text here with 'worship' (חוה), 'sons' (בן) and 'God' (אלהים), 18 words extant (bible_variants): a Hebrew witness before Christ (lead: date the scroll) to the line Hebrews quotes. The BSB brackets the words. Psalm 97:7 ('Worship Him, all you gods!', BSB) is the other candidate source."
 
 [[prophecy]]
 id = "a-body-prepared"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "nature"
 prophecy = "Psalm 40:6-8"
 masoretic = "Psalm 40:7-9"
 speaker = "messiah"
+predicts = "sacrifice and offering You did not desire, but a body You prepared for me; 'I have come to do Your will'"
+specific = ["manner"]
 uses = [
-  { ref = "Hebrews 10:5-10", kind = "fulfilment" },
+  { ref = "Hebrews 10:5-10", kind = "fulfilment", text = "lxx", note = "'σῶμα δὲ κατηρτίσω μοι', 'a body You prepared for Me' (Psalm 39:7 LXX); the Hebrew has 'my ears You have opened' (BSB)" },
 ]
 status = "fulfilled"
-notes = "lead: Masoretic 'ears you have dug'; Septuagint 'a body you have prepared'. The incarnation reading turns on the Greek. Psalm 40:7: 'it is written about me in the scroll' (BSB), quoted at Hebrews 10:7."
+control = "chosen"
+recognition = "unassessed"
+event = "anchor_37"
+notes = "Hebrews puts the psalm in Christ's mouth 'when Christ came into the world' (Hebrews 10:5, BSB) and builds on the Septuagint's 'body': 'we have been sanctified through the sacrifice of the body of Jesus Christ once for all' (Hebrews 10:10, BSB). The Hebrew's opened ears are obedience; the Greek's body is the obedience embodied. Psalm 40:7: 'it is written about me in the scroll' (BSB)."
 
 [[prophecy]]
 id = "first-and-last"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "nature"
 prophecy = "Isaiah 44:6; 41:4; 48:12"
+predicts = "the LORD, the King and Redeemer of Israel: 'I am the first and I am the last, and there is no God but Me'"
+specific = ["person", "name"]
 uses = [
-  { ref = "Revelation 1:17", kind = "application" },
-  { ref = "Revelation 2:8", kind = "application" },
-  { ref = "Revelation 22:13", kind = "application" },
+  { ref = "Revelation 1:17-18", kind = "application", text = "mt", note = "'ὁ πρῶτος καὶ ὁ ἔσχατος', 'the last' as the Hebrew אַחֲרוֹן (acharon); the Septuagint has 'I am after these things' (44:6) and 'forever' (48:12)" },
+  { ref = "Revelation 2:8", kind = "application", text = "mt", note = "'the First and the Last, who died and returned to life' (BSB)" },
+  { ref = "Revelation 22:13", kind = "application", text = "mt" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 yhwh_text = true
+notes = "The title the LORD claims beside 'there is no God but Me' (Isaiah 44:6) is the title of the one who died and lives (Revelation 1:17-18; 2:8). Revelation renders the Hebrew where the Septuagint obscured 'last'."
 
 [[prophecy]]
 id = "every-knee-shall-bow"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "nature"
 prophecy = "Isaiah 45:23"
+predicts = "by Himself the LORD has sworn: every knee will bow to Him and every tongue swear allegiance"
+specific = ["person", "manner"]
 uses = [
-  { ref = "Philippians 2:10-11", kind = "application" },
-  { ref = "Romans 14:11", kind = "application" },
+  { ref = "Philippians 2:9-11", kind = "application", text = "lxx", note = "'every knee should bow… every tongue confess that Jesus Christ is Lord' (πᾶν γόνυ κάμψῃ… ἐξομολογήσηται), the Septuagint's wording, applied to Jesus" },
+  { ref = "Romans 14:10-11", kind = "application", text = "lxx", note = "applied to God's judgement seat" },
 ]
 status = "partly"
+control = "divine"
+recognition = "unassessed"
+future_event = "second_coming"
 yhwh_text = true
+notes = "Isaiah 45:21-23 sets the oath beside 'There is no other God but Me' (Isaiah 45:21, BSB). Paul gives the homage sworn to the LORD alone to Jesus, 'to the glory of God the Father' (Philippians 2:11). The bowing of every knee is still to come."
 
 [[prophecy]]
 id = "call-on-the-name"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "nature"
 prophecy = "Joel 2:32"
 masoretic = "Joel 3:5"
+predicts = "everyone who calls on the name of the LORD will be saved"
+specific = ["name"]
 uses = [
-  { ref = "Romans 10:9-13", kind = "application" },
-  { ref = "Acts 2:21", kind = "fulfilment" },
+  { ref = "Romans 10:9-13", kind = "application", text = "both", note = "'Πᾶς γὰρ ὃς ἂν ἐπικαλέσηται τὸ ὄνομα κυρίου σωθήσεται' (10:13) follows 'confess with your mouth, Jesus is Lord' (10:9): the LORD called on is Jesus" },
+  { ref = "Acts 2:21", kind = "fulfilment", text = "both", note = "the close of Peter's Joel quotation; then 'God has made this Jesus, whom you crucified, both Lord and Christ' (Acts 2:36, BSB)" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
+event = "anchor_41"
 yhwh_text = true
+notes = "Joel 2:32 is Hebrew Joel 3:5 and Septuagint Joel 3:5; both Greek uses follow the Septuagint, which renders the Hebrew closely. Joel's 'LORD' is יהוה (YHWH)."
 
 [[prophecy]]
 id = "lord-of-hosts-holy"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "nature"
 prophecy = "Isaiah 8:12-13"
+predicts = "do not fear what this people fears; the LORD of Hosts is the One to regard as holy"
+specific = ["person"]
 uses = [
-  { ref = "1 Peter 3:14-15", kind = "application", note = "'honour Christ the Lord as holy'" },
+  { ref = "1 Peter 3:14-15", kind = "application", text = "lxx", note = "Isaiah 8:12-13 LXX ('Κύριον αὐτὸν ἁγιάσατε'), with 'the Christ' (τὸν Χριστόν) written where Isaiah has 'Himself': 'sanctify Christ as Lord in your hearts'" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 yhwh_text = true
+notes = "Peter substitutes Christ for the LORD of Hosts inside the quotation. Isaiah 8:14 goes on to the stone of stumbling, which is the LORD: see stone-of-stumbling."
 
 [[prophecy]]
 id = "isaiah-saw-his-glory"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "nature"
 prophecy = "Isaiah 6:1-10"
+predicts = "Isaiah sees the Lord on a throne, high and lifted up, the LORD of Hosts whose glory fills the earth, and is sent to a people who will hear and not understand"
+specific = ["person"]
 uses = [
-  { ref = "John 12:39-41", kind = "fulfilment", note = "'Isaiah said these things because he saw his glory and spoke of him'" },
-  { ref = "Matthew 13:14-15", kind = "fulfilment" },
-  { ref = "Acts 28:25-27", kind = "application" },
+  { ref = "John 12:37-41", kind = "fulfilment", text = "neither", note = "John's own rendering of Isaiah 6:10 ('He has blinded their eyes'); 'Isaiah said these things because he saw His glory and spoke about Him' (12:41; the BSB has 'Jesus' glory' for αὐτοῦ, 'his')" },
+  { ref = "Matthew 13:13-15", kind = "fulfilment", text = "lxx", note = "'ἀναπληροῦται', 'is fulfilled', with Isaiah 6:9-10 LXX word for word" },
+  { ref = "Acts 28:25-27", kind = "application", text = "lxx" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 yhwh_text = true
-notes = "lead: also the hardening that met His ministry (category ministry). Decide whether one entry or two."
+notes = "John says the glory Isaiah saw in the temple vision was the Son's. The Septuagint of 6:1 says 'the house was full of His glory' where the Hebrew has the train of His robe filling the temple; John's 'saw His glory' may draw on it (lead; the Targum's 'the glory of the LORD' is later, date it). Also the hardening that met His ministry."
 
 [[prophecy]]
 id = "his-name-wonderful"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "nature"
 prophecy = "Isaiah 9:6"
 masoretic = "Isaiah 9:5"
+predicts = "a child born, a son given; the government on his shoulders; called Wonderful Counsellor, Mighty God, Everlasting Father, Prince of Peace; no end to his government on David's throne"
+specific = ["person", "name", "lineage"]
 uses = [
   { ref = "Luke 1:32-33", kind = "allusion" },
 ]
-status = "fulfilled"
-notes = "lead: אֵל גִּבּוֹר ('Mighty God') is the LORD's title in Isaiah 10:21. The Septuagint renders the names 'Messenger of great counsel'."
+status = "partly"
+control = "divine"
+recognition = "unassessed"
+future_event = "millennium"
+notes = "'Mighty God', אֵל גִּבּוֹר (el gibbor), is the LORD's title in Isaiah 10:21 ('A remnant will return… to the Mighty God', BSB). The Septuagint renders the names 'Messenger of great counsel' (Μεγάλης βουλῆς ἄγγελος). 9:7 'on the throne of David… forevermore' is echoed at Luke 1:32-33 (allusion). Born and given (fulfilled); the government without end (still to come)."
 
 [[prophecy]]
 id = "ancient-of-days-features"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "nature"
 prophecy = "Daniel 7:9; 10:5-6"
+predicts = "the Ancient of Days with clothing white as snow and hair like pure wool; the man in linen with eyes like torches and arms and legs like bronze"
+specific = ["person"]
 uses = [
-  { ref = "Revelation 1:13-16", kind = "imagery", note = "the hair 'white like wool' of the Ancient of Days (Daniel 7:9) on 'one like a son of man'" },
+  { ref = "Revelation 1:13-16", kind = "imagery", note = "'His head and hair were white like wool, as white as snow' (Daniel 7:9's Ancient of Days) on 'one like a son of man' (Daniel 7:13), with Daniel 10:6's eyes, bronze and voice" },
 ]
 status = "fulfilled"
-notes = "lead: Revelation gives the Son of Man the Ancient of Days' features. Compare the Septuagint of Daniel 7:13 ('came as the Ancient of Days'), with its textual question."
+control = "divine"
+recognition = "unassessed"
+notes = "Revelation gives the Son of Man the Ancient of Days' features. The Theodotion Greek in bible-text.db (Brenton) has the Son of Man come 'to the Ancient of Days'; the Old Greek's 'came as the Ancient of Days' is not in the database (lead: check Rahlfs or Göttingen)."
 
 [[prophecy]]
 id = "womb-of-the-dawn"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "nature"
 prophecy = "Psalm 110:3"
+predicts = "the king-priest's people volunteer on his day of battle; from the womb of the dawn is the dew of his youth (Septuagint: 'from the womb, before the morning star, I begot you')"
+specific = ["person"]
 uses = []
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 offices = ["king"]
 notes = "The Septuagint (Psalm 109:3 LXX) reads ἐκ γαστρὸς πρὸ Ἑωσφόρου ἐγέννησά σε, 'from the womb, before the morning star, I begot you': a pre-Christian translation that puts a begetting before the dawn in the psalm Jesus claimed (Psalm 110:1). The Hebrew is obscure: 'from the womb of the dawn, to You belongs the dew of Your youth' (BSB). lead: weigh the two texts; the vowel pointing of יְלִדְתִּיךָ (yelidtikha, 'I have begotten you') against the Masoretic יַלְדֻתֶךָ (yaldutekha, 'your youth')."
 
 [[prophecy]]
 id = "kiss-the-son"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "nature"
 prophecy = "Psalm 2:12"
+predicts = "kings and judges of the earth are told to kiss the Son, lest He be angry; blessed are all who take refuge in Him"
+specific = ["person"]
 uses = []
-status = "partly"
+status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
+future_event = "millennium"
 offices = ["king"]
 notes = "'Kiss the Son' (BSB) renders בַּר (bar), the Aramaic word for son, where Psalm 2:7 has the Hebrew בֵּן (ben). The Septuagint reads 'take hold of instruction' (δράξασθε παιδείας). Contested; give the case on both sides. 'Blessed are all who take refuge in Him' (BSB): refuge in the Son."
-
-[[prophecy]]
-id = "what-is-his-sons-name"
-research = "candidate"
-tier = 3
-category = "nature"
-prophecy = "Proverbs 30:4"
-uses = []
-status = "fulfilled"
-notes = "lead: a question with no prediction in it; weigh whether it belongs (John 3:13 asks who has ascended)."
 
 # ---- lineage -----------------------------------------------------------------------------------
 
@@ -859,35 +921,52 @@ notes = "'I have become a stranger to my brothers and a foreigner to my mother's
 
 [[prophecy]]
 id = "voice-in-the-wilderness"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "forerunner"
 prophecy = "Isaiah 40:3-5"
+predicts = "a voice calls: prepare the way of the LORD in the wilderness, make straight a highway for our God; the glory of the LORD revealed and all flesh seeing it"
+specific = ["place", "sequence"]
 uses = [
-  { ref = "Matthew 3:3", kind = "fulfilment" },
-  { ref = "Mark 1:3", kind = "fulfilment" },
-  { ref = "Luke 3:4-6", kind = "fulfilment" },
-  { ref = "John 1:23", kind = "fulfilment" },
+  { ref = "Matthew 3:1-3", kind = "fulfilment", text = "lxx", note = "the Septuagint, which joins 'in the wilderness' to the voice, with 'His paths' (τὰς τρίβους αὐτοῦ) for 'the paths of our God'" },
+  { ref = "Mark 1:3", kind = "fulfilment", text = "lxx" },
+  { ref = "Luke 3:4-6", kind = "fulfilment", text = "lxx", note = "including the Septuagint's 'all flesh will see the salvation of God' (40:5)" },
+  { ref = "John 1:23", kind = "fulfilment", text = "neither", note = "John the Baptist applies it to himself: 'I am a voice'" },
 ]
 status = "fulfilled"
+control = "chosen"
+recognition = "partly"
 event = "anchor_39"
 yhwh_text = true
-notes = "lead: the Gospels follow the Septuagint's punctuation ('a voice crying in the wilderness'); 1QS 8:12-16 applies the same verse to the Qumran community: a reading before Christ."
+recognition_evidence = [
+  { note = "lead: the Qumran community applies Isaiah 40:3 to its own withdrawal to prepare the LORD's way, an end-time reading before Christ; verify the column and date", source = "1QS 8:12-16 (Community Rule)", year = -100 },
+]
+notes = "John the Baptist took the text for himself (John 1:23): control 'chosen'. The Gospels write 'His paths' for 'the paths of our God' (Isaiah 40:3), and the LORD (יהוה) whose way is prepared is Jesus. Recognition 'partly': an end-time reading is attested before Christ, and the messianic identification is the Gospels'."
 
 [[prophecy]]
 id = "elijah-before-the-day"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "forerunner"
 prophecy = "Malachi 4:5-6"
 masoretic = "Malachi 3:23-24"
+predicts = "the LORD sends Elijah the prophet before the great and awesome day of the LORD, to turn the hearts of fathers to their children"
+specific = ["person", "sequence"]
 uses = [
-  { ref = "Luke 1:17", kind = "fulfilment" },
-  { ref = "Matthew 11:14", kind = "fulfilment" },
-  { ref = "Matthew 17:10-13", kind = "split", note = "'Elijah does come, and he will restore all things'" },
+  { ref = "Luke 1:16-17", kind = "fulfilment", text = "mt", note = "'to turn the hearts of the fathers to their children' as the Hebrew; the Septuagint has 'the heart of a man to his neighbour' in the second line. John goes 'in the spirit and power of Elijah'" },
+  { ref = "Matthew 11:13-14", kind = "fulfilment", text = "none", note = "'if you are willing to accept it, he is the Elijah who was to come' (BSB)" },
+  { ref = "Matthew 17:10-13", kind = "split", text = "lxx", note = "'Elijah does come and will restore all things' (ἀποκαταστήσει, the Septuagint's verb), 'but Elijah has already come'" },
 ]
 status = "partly"
-notes = "lead: John denies being Elijah (John 1:21) and Jesus says he is, 'if you are willing to accept it' (Matthew 11:14). Revelation 11:6 with 1 Kings 17:1. Contested."
+control = "divine"
+recognition = "known-before"
+future_event = "two_witnesses"
+split = { first = "Malachi 4:5-6 fulfilled in John, 'in the spirit and power of Elijah' (Luke 1:17)", rest = "Malachi 4:5 'before the great and awesome Day of the LORD' (BSB)", at = "Matthew 17:11-12", signal = "Jesus states both halves in one answer: Elijah 'comes and will restore' and 'has already come'" }
+recognition_evidence = [
+  { note = "'Why then do the scribes say that Elijah must come first?': the expectation was the scribes' before Jesus", source = "Matthew 17:10", year = 32 },
+  { note = "the priests and Levites ask John, 'Are you Elijah?'", source = "John 1:21", year = 29 },
+]
+notes = "John denied being Elijah (John 1:21), and Jesus said he was, for those willing to accept it (Matthew 11:14): John came in Elijah's spirit and power. The future_event (the two witnesses, Revelation 11:6 with 1 Kings 17:1) is this site's reading and is contested; mark it so."
 
 # ---- ministry ----------------------------------------------------------------------------------
 

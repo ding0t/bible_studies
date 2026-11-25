@@ -94,7 +94,15 @@ sessions:
       known-before evidence for Bethlehem and David's line. Romans 15:12 moved off branch-of-jesse
       (it quotes Isaiah 11:10).
   - n: 4
-    plan: "nature (the yhwh_text entries together) and forerunner"
+    date: 2026-11-26
+    done: >-
+      Nature and forerunner: 17 entries drafted (58 drafted of 116); what-is-his-sons-name moved
+      to excluded. Found: the New Testament writes Christ into the LORD's texts (1 Peter 3:15
+      puts 'the Christ' where Isaiah 8:13 has 'Himself'; Malachi 3:1's 'before Me' becomes
+      'before You'; Isaiah 40:3's 'our God' becomes 'His'); Revelation's 'the Last' renders the
+      Hebrew where the Septuagint lost it (Isaiah 44:6); 4Q44 gives Hebrews 1:6's line a Hebrew
+      witness at Deuteronomy 32:43; Malachi 4:5 is split by Jesus in one answer (Matthew
+      17:11-12, 'comes' and 'has already come').
   - n: 5
     plan: "ministry and office"
   - n: 6
@@ -152,6 +160,7 @@ excluded: # read through all 471 STEP ot-quotations entries; left out, with the 
     items:
       - {ref: "Galatians 3:13 (Deuteronomy 21:22-23)", reason: "a law about the hanged; Paul applies its curse to the cross and the text makes no prediction. Moved out of the ledger 2026-11-26; belongs in a redemption study"}
       - {ref: "Hebrews 1:7 (Psalm 104:4)", reason: "about the angels, set against the Son"}
+      - {ref: "Proverbs 30:4", reason: "Agur's riddle ('What is His name, and what is the name of His Son?', BSB) has no prediction in it, and no New Testament text cites it; the son may be Israel (Exodus 4:22). Removed 2026-11-26"}
       - {ref: "Psalm 71:5-6, 17", reason: "VERDICT out of context: the speaker is an old man ('Even when I am old and gray', 71:18, BSB), and nothing in the New Testament points here. Listed as a candidate 2026-11-26, removed the same day"}
       - {ref: "Matthew 10:35-36 (Micah 7:6)", reason: "the division His coming brings; about households"}
       - {ref: "John 6:45 (Isaiah 54:13)", reason: "about those taught by God"}
@@ -164,6 +173,7 @@ open:
   - "the NT-original table: fields, and whether Jesus' passion predictions (Mark 8:31; 9:31; 10:33-34) go there"
   - "suffering-servant groups Isaiah 53:5, 9, 12 for the validator; splitting it changes What Literary Criticism Declares' counts"
   - "sources to add: Edersheim, The Life and Times of Jesus the Messiah (1883), Appendix IX, public domain; the Targums (Sefaria; check each licence); the Qumran texts named in the notes (4Q174, 4Q175, 4Q252, 4Q521, 11Q13, 1QS) through the dss works in bible-text.db"
+  - "hub-page theme: God argues from fulfilled prediction Himself: 'Who foretold this long ago? Who announced it from ancient times? Was it not I, the LORD?' (Isaiah 45:21, BSB); with Isaiah 41:21-23; 44:7; 46:9-10; 48:3-5 (verify each). Open the reference with God's own claim, then the measures."
   - "Spot the Mistake leads: the devil's Psalm 91; the popular-list claims that fail"
   - "the 'more than the first person' test and the omission at John 13:18 are features for prophecy-method.md (session 10)"
   - "TOOL BUG, found 2026-11-26, FIXED the same day at the author's request (query._move, used by every verse-level lookup; tests in test_versification.py): bible_verse (query.lookup_verse) fetches Hebrew and Greek morphology through versification.align(), which ignores psalm superscriptions, so in every psalm with a title the words come from the verse before. English Psalm 22:18 returns the morphology of Hebrew 22:18 ('I count all my bones'), while the same result's stated_hebrew_reference correctly says 22:19. The LXX pairing is off the same way (21:18 for 21:19). It reached bible_align (so passage_brief's addressing), crossref, links, interlinear, alignment_diff, section, variants and trace, and export_connector's own numbering: the published language connector showed Psalm 22:18 with the Hebrew of 22:17 ('I count all my bones'). Regenerated locally 2026-11-26 (82 psalm chapters, 9 NT chapters quoting them, 17,334 psalm occurrences in the word files; nothing outside the Psalms moved). It goes live only after `uv run python export_connector.py --publish`, which the author runs or approves. passage_brief still fetches each translation's text at the reference as given and warns when the schemes disagree; read a psalm's Hebrew or Greek through bible_verse or bible_parallel."
@@ -202,4 +212,15 @@ evidence:
   - {id: heb1-5-father, what: "Hebrews 1:5 quotes 2 Samuel 7:14a", tool: bible_verse, args: {book: Heb, chapter: 1, verse: 5, translation: sblgnt}, expect_contains: "Ἐγὼ ἔσομαι αὐτῷ εἰς πατέρα", checked: 2026-11-26}
   - {id: 2sam7-14-wrong, what: "2 Samuel 7:14b, which Hebrews leaves out", tool: bible_verse, args: {book: 2Sam, chapter: 7, verse: 14, translation: BSB}, expect_contains: "When he does wrong, I will discipline him", checked: 2026-11-26}
   - {id: jer23-6-name, what: "the Branch's name", tool: bible_verse, args: {book: Jer, chapter: 23, verse: 6, translation: BSB}, expect_contains: "The LORD Our Righteousness", checked: 2026-11-26}
+  - {id: 1pet3-15-christ, what: "1 Peter 3:15 puts 'the Christ' into Isaiah 8:13", tool: bible_verse, args: {book: 1Pet, chapter: 3, verse: 15, translation: sblgnt}, expect_contains: "κύριον δὲ τὸν", checked: 2026-11-26}
+  - {id: isa8-13-lxx, what: "the Septuagint of Isaiah 8:13 has 'sanctify the Lord himself'", tool: bible_verse, args: {book: Isa, chapter: 8, verse: 13, translation: ebible-grcbrent}, expect_contains: "Κύριον αὐτὸν ἁγιάσατε", checked: 2026-11-26}
+  - {id: rev1-17-last, what: "Revelation 1:17 has 'the first and the last'", tool: bible_verse, args: {book: Rev, chapter: 1, verse: 17, translation: sblgnt}, expect_contains: "ὁ πρῶτος καὶ ὁ ἔσχατος", checked: 2026-11-26}
+  - {id: isa44-6-lxx, what: "the Septuagint of Isaiah 44:6 has 'I am after these things'", tool: bible_verse, args: {book: Isa, chapter: 44, verse: 6, translation: ebible-grcbrent}, expect_contains: "ἐγὼ μετὰ ταῦτα", checked: 2026-11-26}
+  - {id: deut32-43-4q44, what: "4Q44 has 'worship' at Deuteronomy 32:43", tool: bible_variants, args: {book: Deut, chapter: 32, verse: 43}, expect_contains: "חוה", checked: 2026-11-26}
+  - {id: heb1-6-lxx, what: "Hebrews 1:6 is Deuteronomy 32:43 LXX", tool: bible_verse, args: {book: Heb, chapter: 1, verse: 6, translation: sblgnt}, expect_contains: "προσκυνησάτωσαν αὐτῷ πάντες ἄγγελοι θεοῦ", checked: 2026-11-26}
+  - {id: heb1-10-lord, what: "Hebrews 1:10 has 'O Lord' as the Septuagint", tool: bible_verse, args: {book: Ps, chapter: 101, verse: 26, translation: ebible-grcbrent}, expect_contains: "σὺ Κύριε", checked: 2026-11-26}
+  - {id: mal3-1-before-me, what: "the Hebrew of Malachi 3:1 has 'before Me'", tool: bible_verse, args: {book: Mal, chapter: 3, verse: 1, translation: scrollmapper-WLC}, expect_contains: "לְפָנָ֑י", checked: 2026-11-26}
+  - {id: matt11-10-before-you, what: "Matthew 11:10 has 'before your face'", tool: bible_verse, args: {book: Matt, chapter: 11, verse: 10, translation: sblgnt}, expect_contains: "πρὸ προσώπου σου", checked: 2026-11-26}
+  - {id: matt3-3-his-paths, what: "Matthew 3:3 has 'His paths' for 'of our God'", tool: bible_verse, args: {book: Matt, chapter: 3, verse: 3, translation: sblgnt}, expect_contains: "τὰς τρίβους αὐτοῦ", checked: 2026-11-26}
+  - {id: isa45-21-foretold, what: "the LORD argues from foretelling", tool: bible_verse, args: {book: Isa, chapter: 45, verse: 21, translation: BSB}, expect_contains: "Who foretold this long ago?", checked: 2026-11-26}
   - {id: ps110-3-lxx, what: "the Septuagint of Psalm 110:3 (109:3) has 'before the morning star I begot you'", tool: bible_verse, args: {book: Ps, chapter: 109, verse: 3, translation: ebible-grcbrent}, expect_contains: "πρὸ Ἑωσφόρου ἐγέννησά σε", checked: 2026-11-26}
