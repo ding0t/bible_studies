@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1560" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">Ezekiel's river</title>
+<desc id="d">An illustrated plate of Ezekiel 47:1-12. Above, a scene from the temple on its mountain down to the Dead Sea, with numbered callouts: 1, water issues from below the threshold toward the east (Ezekiel 47:1); 2 to 5, at each thousand cubits the river is ankle-deep, knee-deep, waist-deep, and then deep enough to swim in, a river that cannot be crossed (Ezekiel 47:3-5); 6, very many trees on both banks, with fruit every month and leaves for healing (Ezekiel 47:7, 12); 7, the river goes down into the Arabah and the sea becomes fresh (Ezekiel 47:8); 8, fishermen spread nets from Engedi to Eneglaim (Ezekiel 47:10); 9, the swamps and marshes are left for salt (Ezekiel 47:11). A dashed note says the river's course is not mapped and Eneglaim's site is not known. Below, a strip shows the four depths on a standing figure at 1,000, 2,000, 3,000 and 4,000 cubits. Beside it, Revelation 22:1-2: the river of the water of life from the throne of God and of the Lamb, the tree of life on either side, and no sea (Revelation 21:1). The plate closes with Ezekiel 47:9: everything will live where the river goes.</desc>
+<rect width="720" height="1560" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1544" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1532" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<defs><linearGradient id="er-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6d995"/><stop offset="0.55" stop-color="#fbeccb"/><stop offset="1" stop-color="#fbf3df"/></linearGradient><linearGradient id="er-water" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8fb3d1"/><stop offset="1" stop-color="#2f557f"/></linearGradient><linearGradient id="er-sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fa3b8"/><stop offset="1" stop-color="#2f557f"/></linearGradient><radialGradient id="er-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff8dc" stop-opacity="1"/><stop offset="1" stop-color="#e8c46a" stop-opacity="0"/></radialGradient><clipPath id="er-scene"><rect x="30" y="130" width="660" height="520" rx="4"/></clipPath></defs>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">EZEKIEL’S RIVER</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Ezekiel 47:1-12, from the threshold to the sea</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<g clip-path="url(#er-scene)">
+<rect x="30" y="130" width="660" height="520" fill="url(#er-sky)"/>
+<path d="M30 300 Q110 230 200 250 Q300 280 380 380 Q470 470 560 500 Q630 520 690 520 V650 H30 Z" fill="#d9c59b" stroke="#b9a173" stroke-width="1.5"/>
+<path d="M30 360 Q160 330 260 380 Q360 440 460 520 Q540 570 690 580 V650 H30 Z" fill="#b9a173" opacity="0.45"/>
+<circle cx="150" cy="210" r="90" fill="url(#er-glow)"/>
+<rect x="108.0" y="206.0" width="74.0" height="46.0" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.6"/>
+<rect x="182.0" y="218.9" width="14.0" height="33.1" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<path d="M104.0 206.0 H186.0" stroke="#3b2f1e" stroke-width="2"/>
+<path d="M470 560 Q560 528 690 530 V650 H440 Q440 600 470 560 Z" fill="url(#er-sea)"/>
+<path d="M520.0 560.0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.45"/>
+<path d="M470.0 580.0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.45"/>
+<path d="M470.0 602.0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.45"/>
+<path d="M470.0 624.0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.45"/>
+<path d="M440 650 Q450 615 476 600 Q470 630 500 650 Z" fill="#f4f1e6" stroke="#d8d0b8" stroke-width="1"/>
+<circle cx="452" cy="636" r="1.6" fill="#c9bfa4"/>
+<circle cx="466" cy="624" r="1.6" fill="#c9bfa4"/>
+<circle cx="480" cy="642" r="1.6" fill="#c9bfa4"/>
+<circle cx="458" cy="646" r="1.6" fill="#c9bfa4"/>
+<path d="M190 250 Q227.0 260.0 240 290" stroke="url(#er-water)" stroke-width="4.0" stroke-linecap="round" fill="none"/>
+<path d="M240 290 Q282.0 307.5 300 345" stroke="url(#er-water)" stroke-width="9.0" stroke-linecap="round" fill="none"/>
+<path d="M300 345 Q342.0 362.5 360 400" stroke="url(#er-water)" stroke-width="16.0" stroke-linecap="round" fill="none"/>
+<path d="M360 400 Q402.0 425.0 420 470" stroke="url(#er-water)" stroke-width="26.0" stroke-linecap="round" fill="none"/>
+<path d="M420 470 Q462.0 499.0 480 548" stroke="url(#er-water)" stroke-width="38.0" stroke-linecap="round" fill="none"/>
+<path d="M304.0 368.5 q3.0 -2 6.0 0 t6.0 0 q3.0 -2 6.0 0 t6.0 0 q3.0 -2 6.0 0 t6.0 0 q3.0 -2 6.0 0 t6.0 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.5"/>
+<path d="M364.0 431.0 q3.0 -2 6.0 0 t6.0 0 q3.0 -2 6.0 0 t6.0 0 q3.0 -2 6.0 0 t6.0 0 q3.0 -2 6.0 0 t6.0 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.5"/>
+<path d="M424.0 505.0 q3.0 -2 6.0 0 t6.0 0 q3.0 -2 6.0 0 t6.0 0 q3.0 -2 6.0 0 t6.0 0 q3.0 -2 6.0 0 t6.0 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.5"/>
+<path d="M250 268 V254.5" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="250" cy="249.4" r="9.0" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="245.2" cy="253.0" r="6.0" fill="#5f7d3a"/><circle cx="255.1" cy="252.4" r="6.3" fill="#5f7d3a"/><circle cx="253.0" cy="248.2" r="2.2" fill="#c4471c"/><circle cx="244.0" cy="251.5" r="2.2" fill="#c4471c"/>
+<path d="M232 318 V304.5" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="232" cy="299.4" r="9.0" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="227.2" cy="303.0" r="6.0" fill="#5f7d3a"/><circle cx="237.1" cy="302.4" r="6.3" fill="#5f7d3a"/><circle cx="235.0" cy="298.2" r="2.2" fill="#c4471c"/><circle cx="226.0" cy="301.5" r="2.2" fill="#c4471c"/>
+<path d="M318 322 V308.5" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="318" cy="303.4" r="9.0" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="313.2" cy="307.0" r="6.0" fill="#5f7d3a"/><circle cx="323.1" cy="306.4" r="6.3" fill="#5f7d3a"/><circle cx="321.0" cy="302.2" r="2.2" fill="#c4471c"/><circle cx="312.0" cy="305.5" r="2.2" fill="#c4471c"/>
+<path d="M290 372 V358.5" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="290" cy="353.4" r="9.0" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="285.2" cy="357.0" r="6.0" fill="#5f7d3a"/><circle cx="295.1" cy="356.4" r="6.3" fill="#5f7d3a"/><circle cx="293.0" cy="352.2" r="2.2" fill="#c4471c"/><circle cx="284.0" cy="355.5" r="2.2" fill="#c4471c"/>
+<path d="M372 378 V364.5" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="372" cy="359.4" r="9.0" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="367.2" cy="363.0" r="6.0" fill="#5f7d3a"/><circle cx="377.1" cy="362.4" r="6.3" fill="#5f7d3a"/><circle cx="375.0" cy="358.2" r="2.2" fill="#c4471c"/><circle cx="366.0" cy="361.5" r="2.2" fill="#c4471c"/>
+<path d="M350 428 V414.5" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="350" cy="409.4" r="9.0" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="345.2" cy="413.0" r="6.0" fill="#5f7d3a"/><circle cx="355.1" cy="412.4" r="6.3" fill="#5f7d3a"/><circle cx="353.0" cy="408.2" r="2.2" fill="#c4471c"/><circle cx="344.0" cy="411.5" r="2.2" fill="#c4471c"/>
+<path d="M432 444 V430.5" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="432" cy="425.4" r="9.0" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="427.2" cy="429.0" r="6.0" fill="#5f7d3a"/><circle cx="437.1" cy="428.4" r="6.3" fill="#5f7d3a"/><circle cx="435.0" cy="424.2" r="2.2" fill="#c4471c"/><circle cx="426.0" cy="427.5" r="2.2" fill="#c4471c"/>
+<path d="M400 492 V478.5" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="400" cy="473.4" r="9.0" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="395.2" cy="477.0" r="6.0" fill="#5f7d3a"/><circle cx="405.1" cy="476.4" r="6.3" fill="#5f7d3a"/><circle cx="403.0" cy="472.2" r="2.2" fill="#c4471c"/><circle cx="394.0" cy="475.5" r="2.2" fill="#c4471c"/>
+<path d="M500 520 V506.5" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="500" cy="501.4" r="9.0" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="495.2" cy="505.0" r="6.0" fill="#5f7d3a"/><circle cx="505.1" cy="504.4" r="6.3" fill="#5f7d3a"/><circle cx="503.0" cy="500.2" r="2.2" fill="#c4471c"/><circle cx="494.0" cy="503.5" r="2.2" fill="#c4471c"/>
+<path d="M446 520 V506.5" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="446" cy="501.4" r="9.0" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="441.2" cy="505.0" r="6.0" fill="#5f7d3a"/><circle cx="451.1" cy="504.4" r="6.3" fill="#5f7d3a"/><circle cx="449.0" cy="500.2" r="2.2" fill="#c4471c"/><circle cx="440.0" cy="503.5" r="2.2" fill="#c4471c"/>
+<g stroke="#3b2f1e" stroke-width="1.6" fill="none" stroke-linecap="round"><circle cx="560" cy="511.2" r="4.0" fill="#3b2f1e"/><path d="M560 515.2 V524.8 M554.4 518.4 H565.6 M560 524.8 L556.0 532 M560 524.8 L564.0 532"/></g>
+<path d="M566 520 l14 14 M566 520 l-2 18" stroke="#3b2f1e" stroke-width="1.2"/>
+<g stroke="#3b2f1e" stroke-width="1.6" fill="none" stroke-linecap="round"><circle cx="612" cy="511.2" r="4.0" fill="#3b2f1e"/><path d="M612 515.2 V524.8 M606.4 518.4 H617.6 M612 524.8 L608.0 532 M612 524.8 L616.0 532"/></g>
+<path d="M618 520 l14 14 M618 520 l-2 18" stroke="#3b2f1e" stroke-width="1.2"/>
+<g stroke="#3b2f1e" stroke-width="1.6" fill="none" stroke-linecap="round"><circle cx="664" cy="511.2" r="4.0" fill="#3b2f1e"/><path d="M664 515.2 V524.8 M658.4 518.4 H669.6 M664 524.8 L660.0 532 M664 524.8 L668.0 532"/></g>
+<path d="M670 520 l14 14 M670 520 l-2 18" stroke="#3b2f1e" stroke-width="1.2"/>
+<path d="M572 538 q20 18 40 0 M624 538 q20 18 40 0" fill="none" stroke="#3b2f1e" stroke-width="1" stroke-dasharray="2 2"/>
+<path d="M540 600 q8 -5 16 0 q-8 5 -16 0 Z M556 600 l6 -4 v8 Z" fill="#e6eef4"/>
+<path d="M600 590 q8 -5 16 0 q-8 5 -16 0 Z M616 590 l6 -4 v8 Z" fill="#e6eef4"/>
+<path d="M650 612 q8 -5 16 0 q-8 5 -16 0 Z M666 612 l6 -4 v8 Z" fill="#e6eef4"/>
+<path d="M510 622 q8 -5 16 0 q-8 5 -16 0 Z M526 622 l6 -4 v8 Z" fill="#e6eef4"/>
+<text x="612.0" y="494.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle" font-style="italic" stroke="#faf6ec" stroke-width="5" stroke-linejoin="round" paint-order="stroke">Engedi … Eneglaim</text>
+<text x="560.0" y="642.0" font-size="12" fill="#faf6ec" text-anchor="middle" font-style="italic">the sea</text>
+</g>
+<rect x="30" y="130" width="660" height="520" rx="4" fill="none" stroke="#3b2f1e" stroke-width="2"/>
+<circle cx="196.0" cy="226.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="196.0" y="230.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="248.0" cy="270.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="248.0" y="274.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="312.0" cy="324.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="312.0" y="328.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">3</text>
+<circle cx="378.0" cy="384.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="378.0" y="388.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">4</text>
+<circle cx="452.0" cy="448.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="452.0" y="452.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">5</text>
+<circle cx="214.0" cy="330.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="214.0" y="334.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">6</text>
+<circle cx="520.0" cy="494.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="520.0" y="498.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">7</text>
+<circle cx="540.0" cy="470.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="540.0" y="474.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">8</text>
+<circle cx="470.0" cy="600.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="470.0" y="604.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">9</text>
+<circle cx="44.0" cy="678.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="681.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">1</text>
+<text x="62.0" y="682.0" font-size="12.5" fill="#3b2f1e">“water was issuing from below the threshold of the temple toward the east”</text>
+<text x="690.0" y="682.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 47:1</text>
+<circle cx="44.0" cy="701.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="704.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">2</text>
+<text x="62.0" y="705.0" font-size="12.5" fill="#3b2f1e">A thousand cubits: “it was ankle-deep”</text>
+<text x="690.0" y="705.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 47:3</text>
+<circle cx="44.0" cy="724.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="727.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">3</text>
+<text x="62.0" y="728.0" font-size="12.5" fill="#3b2f1e">Two thousand: “it was knee-deep”</text>
+<text x="690.0" y="728.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 47:4</text>
+<circle cx="44.0" cy="747.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="750.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">4</text>
+<text x="62.0" y="751.0" font-size="12.5" fill="#3b2f1e">Three thousand: “it was waist-deep”</text>
+<text x="690.0" y="751.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 47:4</text>
+<circle cx="44.0" cy="770.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="773.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">5</text>
+<text x="62.0" y="774.0" font-size="12.5" fill="#3b2f1e">Four thousand: “deep enough to swim in, a river that could not be passed through”</text>
+<text x="690.0" y="774.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 47:5</text>
+<circle cx="44.0" cy="793.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="796.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">6</text>
+<text x="62.0" y="797.0" font-size="12.5" fill="#3b2f1e">“very many trees on the one side and on the other” · “their leaves for healing”</text>
+<text x="690.0" y="797.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 47:7, 12</text>
+<circle cx="44.0" cy="816.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="819.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">7</text>
+<text x="62.0" y="820.0" font-size="12.5" fill="#3b2f1e">“goes down into the Arabah, and enters the sea… the water will become fresh”</text>
+<text x="690.0" y="820.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 47:8</text>
+<circle cx="44.0" cy="839.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="842.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">8</text>
+<text x="62.0" y="843.0" font-size="12.5" fill="#3b2f1e">“Fishermen will stand beside the sea. From Engedi to Eneglaim”</text>
+<text x="690.0" y="843.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 47:10</text>
+<circle cx="44.0" cy="862.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="865.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">9</text>
+<text x="62.0" y="866.0" font-size="12.5" fill="#3b2f1e">“its swamps and marshes will not become fresh; they are to be left for salt”</text>
+<text x="690.0" y="866.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 47:11</text>
+<path d="M34 887 h22" stroke="#3b2f1e" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="62.0" y="891.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Not stated: the river's course between the house and the Arabah. Eneglaim's site is</text>
+<text x="62.0" y="908.0" font-size="12.5" fill="#6b5a3e" font-style="italic">not known (the best proposed site scores 120 of 1000 in OpenBible.info).</text>
+<text x="30.0" y="945.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.5">THE RISE · A THOUSAND CUBITS AT A TIME</text>
+<rect x="30" y="957" width="165" height="150" fill="#fbf3df" stroke="#3b2f1e" stroke-width="1.2"/>
+<rect x="31" y="1079.9" width="163" height="26.1" fill="#5b7fa6" opacity="0.55"/>
+<path d="M36.0 1079.9 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.8"/>
+<g stroke="#3b2f1e" stroke-width="4.8" fill="none" stroke-linecap="round"><circle cx="112.5" cy="1022.6" r="12.0" fill="#3b2f1e"/><path d="M112.5 1034.6 V1063.4 M95.7 1044.2 H129.3 M112.5 1063.4 L100.5 1085 M112.5 1063.4 L124.5 1085"/></g>
+<text x="112.5" y="975.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">1,000 cubits</text>
+<text x="112.5" y="1125.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">ankle-deep</text>
+<text x="112.5" y="1141.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">Ezekiel 47:3</text>
+<rect x="195" y="957" width="165" height="150" fill="#fbf3df" stroke="#3b2f1e" stroke-width="1.2"/>
+<rect x="196" y="1065.8" width="163" height="40.2" fill="#5b7fa6" opacity="0.55"/>
+<path d="M201.0 1065.8 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.8"/>
+<g stroke="#3b2f1e" stroke-width="4.8" fill="none" stroke-linecap="round"><circle cx="277.5" cy="1022.6" r="12.0" fill="#3b2f1e"/><path d="M277.5 1034.6 V1063.4 M260.7 1044.2 H294.3 M277.5 1063.4 L265.5 1085 M277.5 1063.4 L289.5 1085"/></g>
+<text x="277.5" y="975.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">2,000 cubits</text>
+<text x="277.5" y="1125.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">knee-deep</text>
+<text x="277.5" y="1141.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">Ezekiel 47:4</text>
+<rect x="360" y="957" width="165" height="150" fill="#fbf3df" stroke="#3b2f1e" stroke-width="1.2"/>
+<rect x="361" y="1049.8" width="163" height="56.2" fill="#5b7fa6" opacity="0.55"/>
+<path d="M366.0 1049.8 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.8"/>
+<g stroke="#3b2f1e" stroke-width="4.8" fill="none" stroke-linecap="round"><circle cx="442.5" cy="1022.6" r="12.0" fill="#3b2f1e"/><path d="M442.5 1034.6 V1063.4 M425.7 1044.2 H459.3 M442.5 1063.4 L430.5 1085 M442.5 1063.4 L454.5 1085"/></g>
+<text x="442.5" y="975.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">3,000 cubits</text>
+<text x="442.5" y="1125.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">waist-deep</text>
+<text x="442.5" y="1141.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">Ezekiel 47:4</text>
+<rect x="525" y="957" width="165" height="150" fill="#fbf3df" stroke="#3b2f1e" stroke-width="1.2"/>
+<rect x="526" y="1019.0" width="163" height="87.0" fill="#5b7fa6" opacity="0.55"/>
+<path d="M531.0 1019.0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0 q4.0 -3 8.0 0 t8.0 0" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.8"/>
+<g transform="rotate(-80 607.5 1033.0)"><g stroke="#3b2f1e" stroke-width="4.0" fill="none" stroke-linecap="round"><circle cx="607.5" cy="1007.0" r="10.0" fill="#3b2f1e"/><path d="M607.5 1017.0 V1041.0 M593.5 1025.0 H621.5 M607.5 1041.0 L597.5 1059 M607.5 1041.0 L617.5 1059"/></g></g>
+<text x="607.5" y="975.0" font-size="13" fill="#3b2f1e" text-anchor="middle" font-weight="bold">4,000 cubits</text>
+<text x="607.5" y="1125.0" font-size="12.5" fill="#3b2f1e" text-anchor="middle">deep enough to swim in</text>
+<text x="607.5" y="1141.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">Ezekiel 47:5</text>
+<text x="360.0" y="1163.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">No tributary is named. The water rises from the threshold alone.</text>
+<text x="30.0" y="1195.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.5">THE SECOND WITNESS · REVELATION 22:1-2</text>
+<rect x="30" y="1207" width="660" height="190" rx="4" fill="#f6ecd0" stroke="#3b2f1e" stroke-width="1.8"/>
+<circle cx="160" cy="1257" r="46" fill="url(#er-glow)"/>
+<path d="M138 1273 V1237 Q160 1223 182 1237 V1273 Z" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.6"/>
+<path d="M160 1273 Q166 1327 160 1393" stroke="#a9cbe6" stroke-width="14" fill="none"/>
+<path d="M126 1357 V1336.3" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="126" cy="1328.5" r="13.8" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="118.6" cy="1334.0" r="9.2" fill="#5f7d3a"/><circle cx="133.8" cy="1333.1" r="9.7" fill="#5f7d3a"/><circle cx="129.0" cy="1326.6" r="2.2" fill="#c4471c"/><circle cx="120.0" cy="1331.7" r="2.2" fill="#c4471c"/>
+<path d="M196 1357 V1336.3" stroke="#6b4a2a" stroke-width="2.4"/><circle cx="196" cy="1328.5" r="13.8" fill="#5f7d3a" stroke="#3f5a24" stroke-width="1"/><circle cx="188.6" cy="1334.0" r="9.2" fill="#5f7d3a"/><circle cx="203.8" cy="1333.1" r="9.7" fill="#5f7d3a"/><circle cx="199.0" cy="1326.6" r="2.2" fill="#c4471c"/><circle cx="190.0" cy="1331.7" r="2.2" fill="#c4471c"/>
+<text x="260.0" y="1241.0" font-size="13" fill="#3b2f1e" font-style="italic">“the river of the water of life, bright as crystal,</text>
+<text x="260.0" y="1258.0" font-size="13" fill="#3b2f1e" font-style="italic">flowing from the throne of God and of the Lamb”</text>
+<text x="260.0" y="1279.0" font-size="12" fill="#6b5a3e" font-style="italic">Revelation 22:1</text>
+<text x="260.0" y="1309.0" font-size="13" fill="#3b2f1e" font-style="italic">“on either side of the river, the tree of life… The leaves</text>
+<text x="260.0" y="1326.0" font-size="13" fill="#3b2f1e" font-style="italic">of the tree were for the healing of the nations”</text>
+<text x="260.0" y="1347.0" font-size="12" fill="#6b5a3e" font-style="italic">Revelation 22:2</text>
+<text x="260.0" y="1377.0" font-size="12.5" fill="#3b2f1e">No sea is drawn: “the sea was no more” (Revelation 21:1).</text>
+<path d="M210.0 1427 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="1453.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">“And wherever the river goes, every living creature that swarms will live…</text>
+<text x="360.0" y="1473.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">so everything will live where the river goes.”</text>
+<text x="360.0" y="1499.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">Ezekiel 47:9, ESV</text>
+<text x="696.0" y="1538.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

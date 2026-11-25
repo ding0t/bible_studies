@@ -1,0 +1,141 @@
+slug: "ezekiels-temple"
+title: "Ezekiel's Temple"
+status: drafting
+target_path: "docs/content/last-things/ezekiels-temple.md"
+
+primary_passage: "Ezekiel 40:1-48:35"
+supporting_passages:
+  - "Ezekiel 8:1-11:25"   # the glory departs
+  - "Ezekiel 20:40-44"    # offerings accepted on the holy mountain
+  - "Ezekiel 37:24-28"    # sanctuary in their midst forevermore
+  - "Ezekiel 38:1-39:29"  # Gog, then "I will not hide my face"
+  - "Revelation 19:17-22:5"
+  - "Hebrews 9:9-10:18"
+  - "Acts 21:23-26"
+  - "Luke 4:16-21"        # the gap in Isaiah 61:1-2
+sibling_studies:
+  - {slug: "last-things/the-thousand-years", role: cited, use: build-on, note: "Its 'The temple Ezekiel saw' section is the site's settled position (backlog, 2026-11-15): Ezekiel 40-48 in the thousand years, lean to ceremonial cleansing. This study does the full working and the section can then point here."}
+  - {slug: "last-things/new-jerusalem", role: cited, use: link, note: "Ezekiel's city vs John's city; no temple (Revelation 21:22)."}
+  - {slug: "christian-life/true-worship", role: prose, use: link, note: "States the hard part: Hebrews 10 vs Ezekiel's offerings."}
+  - {slug: "feasts/tabernacles", role: cited, use: link, note: "Ezekiel 45:21-25 feasts; Zechariah 14:16."}
+  - {slug: "israel-and-church/israels-regathering-and-refining", role: cited, use: link, note: "Ezekiel 36-38 order: gathered, cleansed, Gog."}
+  - {slug: "feasts/zadok-calendar", role: cited, use: none, note: "Ezekiel 44:15 sons of Zadok."}
+  - {slug: "jesus/the-heavenly-pattern/*", role: cited, use: enrich, note: "Ark absent in Ezekiel; table 41:22; altar 43:13-17; no basin, a river. Backlog notes the altar and house pages will follow this study."}
+genre: [prophets, apocalyptic]
+
+thesis: "Ezekiel's temple is God's promise that the glory which left Jerusalem will come back to stay: no building yet raised matches it, and its own details (death, marriage, a sea with fishermen, twelve tribes on the land, a prince with sons) place it in the kingdom Christ will reign over on this earth, where its offerings cleanse the place He dwells, before the city whose temple is God and the Lamb."
+outline:
+  - {section: "Key Takeaways", says: "Types & Prophecy kept apart; Lessons about Jesus (the voice of many waters, the glory in person); memory verses Ezekiel 43:7, 48:35, Revelation 21:3; Be Transformed from 43:10-11 and 2 Corinthians 6:16-7:1; prayer."}
+  - {section: "Study outline", says: "Mind map."}
+  - {section: "A vision for people with no temple", says: "573 BC, 25th year of exile, 14 years after the fall (Ezekiel 40:1); 'a sanctuary for a little while' (Ezekiel 11:16)."}
+  - {section: "The glory leaves, the glory returns", says: "The book's frame: 8-11 against 43:1-9, east gate both ways; then 33-39 build to 37:26-28 and 39:29, and 40-48 shows that sanctuary. Graphic: the route of the glory."}
+  - {section: "The tour, chapter by chapter", says: "40-42 measured house; 43 glory and altar; 44 shut gate, prince, Zadokites; 45-46 land, offerings, feasts; 47 river; 47:13-48:35 land and city, YHWH shammah. Graphic: the river ankle to swimming."}
+  - {section: "Has it been fulfilled? The ledger", says: "Particulars against second temple, Christ and the church, the thousand years, the new Jerusalem. Ezra 6:18; Haggai 2:3; Yoma 21b; Ezekiel 39:28."}
+  - {section: "How the New Testament reads it", says: "Uses classified: Revelation 21-22 reuses and changes; 2 Corinthians 6:16 applies 37:27; Revelation 11:1-2 measures; Revelation 1:15 voice; John 7:38 contested. Revelation 20-22 follows Ezekiel 37-48."}
+  - {section: "Near, far and the join", says: "Luke 4:19 (link Two mountain peaks); the conditional offer of 43:10-11 to the exiles beside the unconditional 'I will' of 36-37; Tobit 14:5 expected two temples; the tribulation temple (2 Thessalonians 2:4; Revelation 11:1-2) is a different house."}
+  - {section: "The offerings", says: "Six kaphar in Ezekiel, the first God's own (16:63); what Ezekiel omits (high priest, ark, mercy seat, veil, Day of Atonement); what Hebrews closes (10:18) and grants (9:13); Acts 21:26 purification; the cleansing lean with the memorial meaning; Luke 22:16 Passover fulfilled in the kingdom. Build on The Thousand Years, don't restate."}
+  - {section: "The LORD is there", says: "The presence from tabernacle to city: Exodus 40:34; 2 Chronicles 7:1; Ezekiel 10-11; John 1:14; Matthew 23:38; 1 Corinthians 3:16; Ezekiel 43:7; 48:35; Revelation 21:3, 22; 22:4."}
+  - {section: "What this shows about God", says: "Faithful to His word and His name (36:22); He atones (16:63); He comes back."}
+  - {section: "Discussion questions", says: "Facets mirroring Key Takeaways."}
+  - {section: "Annex: Ezekiel's ordinances beside Moses', and the older readers", says: "Table of differences (Menachot 45a's two); Justin Dialogue 80, Irenaeus 5.34-35, Barnabas 16, Shabbat 13b."}
+  - {section: "References & Recommended Reading", says: ""}
+word_budget: 6000
+word_budget_reason: "Nine chapters, the site's one open question on the offerings, the ledger that answers the author's 'fulfilled or yet to be', and the prince section the author asked for on 2026-11-25. The older-reader material is in the annex."
+
+stages:
+  scoping:
+    done: true
+    notes: "Filed in last-things/. Backlog 2026-11-15 settled the millennial reading; the offerings question is open with a lean to cleansing."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Ezekiel 40:1: 25th year of the exile (Jehoiachin's, 597 BC), beginning of the year, 10th day, 14th year after the city fell: 573 BC (chronology-anchors anchor 13; ESV SB note). 'Rosh hashanah' occurs only here (feasts/trumpets.md); Arakhin 12a-b reads it as a jubilee (contested, chronology-anchors). The exiles had no temple; God 'a sanctuary for a little while' (Ezekiel 11:16). The second temple was ordered by Cyrus's dimensions (Ezra 6:3) and 'as it is written in the Book of Moses' (Ezra 6:18); old men wept (Ezra 3:12); 'as nothing in your eyes' (Haggai 2:3). No record of the glory filling it (contrast Exodus 40:34-35; 2 Chronicles 7:1-2)."
+    literary_context:
+      done: true
+      notes: "Frame: glory at the north gate (8:3-4), to the threshold (9:3; 10:4), east gate (10:18-19), mountain east of the city (11:22-23). Return from the east (43:1-5), 'the place of my throne... I will dwell in the midst of the people of Israel forever' (43:7, 9); east gate shut because the LORD entered (44:1-2). Lead-in: 34:23-24 David prince; 36:22-28 gathered then cleansed; 37:24-28 sanctuary in their midst forevermore; 38-39 Gog; 39:28 'none of them remaining among the nations'; 39:29 'I will not hide my face anymore'. 20:40-41 offerings accepted on the holy mountain after the gathering. Ends 48:35 YHWH shammah. Revelation 19:17-18 draws Ezekiel 39:17-20; Revelation 20:8 names Gog and Magog after the thousand years; Revelation 21-22 reuses 40-48. Treat Gog placement by linking the-thousand-years, not re-arguing."
+    content_word_studies:
+      done: true
+      notes: "Concordance (morphhb-wlc): H3722 kaphar 6x in Ezekiel: 16:63 (God atones for you), 43:20, 43:26 (the altar), 45:15, 45:17 (for them / on behalf of the house of Israel), 45:20 (the house). H5387 nasi 37x in Ezekiel; in 40-48 at 44:3; 45:7-9, 16-17, 22; 46:2-18; 48:21-22. H727 ark, H4501 lampstand, H6532 veil, H3727 mercy seat: 0 in Ezekiel. H3725 kippurim: 0. No 'ha-kohen ha-gadol' in Ezekiel. H7620 shavuot only at 45:21, where 'weeks of days' is the MT reading of the Passover week (ESV 'seven days'); no Feast of Weeks prescribed. LXX Ezekiel 43:2 reads 'voice of the camp, as the voice of many doubling', so Revelation 1:15's 'voice of many waters' matches the Hebrew of 43:2 and LXX Ezekiel 1:24."
+      terms:
+        - {word: "כָּפַר", language: hebrew, transliteration: "kaphar", strongs_id: "H3722", gloss: "make atonement, purge", notes: "Object is a place at 43:20, 26 and 45:20; people at 45:15, 17; God the subject at 16:63."}
+        - {word: "חִטֵּא", language: hebrew, transliteration: "chitte", strongs_id: "H2398", gloss: "purify (de-sin), piel", notes: "43:20, 22, 23; 45:18. Menachot 45a puzzles over 'vechitteita' at 45:18."}
+        - {word: "נָשִׂיא", language: hebrew, transliteration: "nasi", strongs_id: "H5387", gloss: "prince, leader", notes: "Offers a sin offering for himself (45:22), has sons (46:16-18): not Christ. Identity contested: David raised (34:24; 37:25; Jeremiah 30:9; Hosea 3:5) or a Davidic regent."}
+        - {word: "מִקְדָּשׁ מְעַט", language: hebrew, transliteration: "miqdash me'at", strongs_id: "H4720", gloss: "a sanctuary for a little while / a little sanctuary", notes: "11:16; ambiguous between time and size."}
+        - {word: "יְהוָה שָׁמָּה", language: hebrew, transliteration: "YHWH shammah", strongs_id: "H3068 H8033", gloss: "the LORD is there", notes: "48:35."}
+        - {word: "מִשְׁכָּן", language: hebrew, transliteration: "mishkan", strongs_id: "H4908", gloss: "dwelling place, tabernacle", notes: "37:27; quoted at 2 Corinthians 6:16 (corroborated quotation-greek); behind Revelation 21:3."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Tied to its setting: the specific ordinances given to Israel in the land under the prince. Transcends it: God's presence demands holiness and separation of holy and common (42:20; 44:23), applied by Paul from Ezekiel 37:27 to the church (2 Corinthians 6:16-7:1)."
+    theological_principle:
+      done: true
+      notes: "God keeps His word to Israel for His name's sake (36:22); the forgiveness is His own act (16:63); His presence is the goal of every temple and reaches its final form when God and the Lamb are the temple (Revelation 21:22). Statement of faith: silent on the temple; consistent with its literal thousand years (Revelation 20:1-6). No conflict."
+    application_draft:
+      done: false
+      notes: "Think: 43:7 the point is the presence. Attitude: shame that grace produces (43:10-11; 16:63). Do: cleanse ourselves (2 Corinthians 7:1 from Ezekiel 37:27)."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Revelation 21:10; 21:12; 21:15; 22:1-2", relation: "imagery reused from Ezekiel 40:2-3; 48:31; 47:1-12 (step-lists ot-quotations 459, 460, 462), with changes: no temple 21:22, no sea 21:1, no death 21:4"}
+      - {ref: "Revelation 11:1-2", relation: "measuring the temple, Ezekiel 40:3 (step-lists 418); a tribulation-period temple"}
+      - {ref: "2 Corinthians 6:16", relation: "applies Ezekiel 37:27 to the church (quotation-greek, corroborated)"}
+      - {ref: "Revelation 1:15", relation: "'voice like many waters', Ezekiel 43:2 Hebrew (lead, 17 votes) and Daniel 10:6 (quotation-greek)"}
+      - {ref: "John 7:38-39", relation: "'as the Scripture has said'; Ezekiel 47:1 a lead (47 votes) among Isaiah 58:11, 44:3, Zechariah 14:8: source contested"}
+      - {ref: "Revelation 3:12", relation: "name of the city of my God; Ezekiel 48:35 (quotation-greek, corroborated)"}
+      - {ref: "Hebrews 9:3-7, 13; 10:1-4, 11-14, 18; 8:13", relation: "the objection, read in context"}
+      - {ref: "Acts 21:23-26; Numbers 6:13-14", relation: "post-cross purification offerings, with a sin offering if a Nazirite vow (shaving, 21:24; Numbers 6:18)"}
+      - {ref: "Isaiah 56:6-7 / Mark 11:17; Isaiah 60:7; 66:20-23; Jeremiah 33:17-18; Zechariah 14:16-21; Malachi 3:1-4", relation: "other prophets' offerings in the coming kingdom"}
+      - {ref: "Matthew 23:38-24:3; Acts 1:11-12; Zechariah 14:4", relation: "pattern only: Jesus leaves the temple for Olivet, ascends from it, returns to it. No NT writer links it to Ezekiel 11:23 / 43:2."}
+      - {ref: "Luke 22:15-18", relation: "Passover 'fulfilled in the kingdom of God'; Ezekiel 45:21 keeps Passover"}
+    translations_compared: ["ESV", "MT", "LXX (Brenton)"]
+    divergences_noted: "LXX Ezekiel 43:2 lacks 'many waters'. MT 45:21 'feast of weeks of days'."
+  drafting: {done: true, file: "docs/content/last-things/ezekiels-temple.md", notes: "Drafted 2026-11-25, draft: true. Graphics: utils/build_ezekiel_temple_graphics.py (route-of-the-glory, ezekiels-river), rendered and checked by eye."}
+  review: {done: false, validated: false}
+
+prophecy_ledger:
+  candidates: [second-temple, christ-and-church, thousand-years, new-jerusalem]
+  rows:
+    - {particular: "Built to Ezekiel's plan", ref: "Ezekiel 43:10-11", marks: {second-temple: fails, christ-and-church: fails, thousand-years: meets, new-jerusalem: fails}, evidence: "Ezra 6:3, 18 (Moses' book, Cyrus's measures); Revelation 21:22 no temple"}
+    - {particular: "The glory enters and fills it", ref: "Ezekiel 43:2-5", marks: {second-temple: fails, christ-and-church: partly, thousand-years: meets, new-jerusalem: meets}, evidence: "Yoma 21b (Shekhinah lacking); John 1:14; Matthew 23:38; Revelation 21:11"}
+    - {particular: "Very high mountain", ref: "Ezekiel 40:2", marks: {second-temple: fails, christ-and-church: fails, thousand-years: meets, new-jerusalem: meets}, evidence: "Isaiah 2:2; Zechariah 14:10; Revelation 21:10"}
+    - {particular: "None left among the nations", ref: "Ezekiel 39:28", marks: {second-temple: fails, christ-and-church: fails, thousand-years: meets, new-jerusalem: meets}, evidence: "Most stayed in Babylon (Esther; Ezra 1-2 a remnant)"}
+    - {particular: "River freshens the Dead Sea; fishermen; marshes left for salt", ref: "Ezekiel 47:1-12", marks: {second-temple: fails, christ-and-church: partly, thousand-years: meets, new-jerusalem: fails}, evidence: "John 7:38 (contested); Revelation 21:1 'the sea was no more'"}
+    - {particular: "Priests marry, mourn their dead", ref: "Ezekiel 44:22, 25", marks: {second-temple: meets, christ-and-church: fails, thousand-years: meets, new-jerusalem: fails}, evidence: "Revelation 21:4; Luke 20:35-36"}
+    - {particular: "Offerings for those who sin by error", ref: "Ezekiel 45:20", marks: {second-temple: meets, christ-and-church: fails, thousand-years: meets, new-jerusalem: fails}, evidence: "Revelation 21:27; 22:3"}
+    - {particular: "Prince with sons and inheritance", ref: "Ezekiel 46:16-18", marks: {second-temple: fails, christ-and-church: fails, thousand-years: meets, new-jerusalem: fails}, evidence: "No Davidic prince after Zerubbabel"}
+    - {particular: "Twelve tribes in east-west strips, sojourners inherit", ref: "Ezekiel 47:13-48:29", marks: {second-temple: fails, christ-and-church: fails, thousand-years: meets, new-jerusalem: partly}, evidence: "Revelation 21:12 tribes' names on gates only"}
+    - {particular: "The LORD dwells there forever", ref: "Ezekiel 43:7; 48:35", marks: {second-temple: fails, christ-and-church: partly, thousand-years: meets, new-jerusalem: meets}, evidence: "2 Corinthians 6:16; Revelation 21:3 — the 'forever' runs on into the city"}
+
+open_questions:
+  - "SETTLED by author 2026-11-25 (investigate more): the prince. nasi 37x in Ezekiel (MACULA): Zedekiah 12:10, Gog 38:2, David 34:24; 37:25, and 20x in 44-48. In 44-48 never named David, never king; melek in 40-48 only 43:7, 9 (dead kings); the only throne is the LORD's (43:7). 45:22 ba'ado (for himself), 46:16-18 sons, 45:8-9 'my princes' warned, 46:2 threshold. Christ is called prince with other words: sar shalom Isaiah 9:6; mashiach nagid Daniel 9:25; sar sarim Daniel 8:25; archegos Acts 3:15; 5:31 (KJV Prince); archon Revelation 1:5 (KJV prince). Never nasi outside Ezekiel 34/37. Ezekiel 34 two shepherds (34:15 LORD, 34:23 David) -> John 10:11, 16; Luke 19:10 / Ezekiel 34:16 (lead tier, 123 votes); ESV SB note on 34:23-24 confirms. BKC (Dyer) holds resurrected David as prince; against: Luke 20:35-36 (sons), Jeremiah 30:9 aqim = appoint (Deuteronomy 18:15; Judges 2:16). Study marks identity contested, leans to a mortal ruler under Christ; Zechariah 6:12-13 Branch builds the temple, priest on his throne."
+  - "SETTLED by author 2026-11-25: Ezekiel 40-48 = the millennial temple; the new Jerusalem = the new creation. 'Forever': olam 18x in Ezekiel incl. 26:20 'people of old', 36:2 'ancient heights', 46:14 'perpetual statute' of the daily offering; Leviticus 16:34; Hebrews 8:13. TWOT 1631a 'long duration'. Dwelling outlasts building: Ezekiel 37:27 -> Revelation 21:3 (leads tier, 32 votes); 43:7 throne -> Revelation 22:3. Irenaeus 5.35.2 holds the two stages."
+  - "SETTLED by author 2026-11-25 (agree, follow through): the glory's route. Ezekiel 11:23 and Zechariah 14:4 share amad, al ha-har, miqqedem (WLC); bible_trace Zechariah 14:4 lists Ezekiel 11:23 as a lead (10 votes). Jesus: Luke 19:37, 41-44; Matthew 23:38-24:3; Acts 1:9-12; Hosea 5:15 'until' with Matthew 23:39. Rosh Hashanah 31a (Davidson, CC-BY-NC) has the ten journeys to the mountain of 11:23 (the 'i.e., the Mount of Olives' there is the translator's gloss, not the Gemara); Lamentations Rabbah Petichta 25 (Sefaria Midrash Rabbah 2022, CC-BY; compiled c. AD 500 per Sefaria index) has the Presence on the Mount of Olives 3.5 years waiting for repentance. Marked as a pattern in the study and dashed on the plate."
+  - "SETTLED by author 2026-11-25: graphics agreed, drawn."
+  - "Ezekiel 46:17 'year of liberty' (deror, H1865) = Isaiah 61:1's word read in Luke 4:18; used in the near/far section."
+  - "Enrich back (offer at publish): lampstand.md 'Ezekiel's temple' promises the series will take up the lampstand's absence; this study does (43:2; Revelation 21:23). the-thousand-years 'The temple Ezekiel saw' can point here."
+  - "Whether the memorial and cleansing readings combine. The text's function words are cleansing (kaphar of places; Acts 21:26 hagnismos); a meaning that looks back to the cross is compatible. Plan: keep the site's lean, show they need not compete."
+  - "Fork candidates: Ezekiel's ordinances compared with Moses' in full (annex only); the Golden Gate legend (leave out)."
+  - "Enrich back: the-thousand-years 'The temple Ezekiel saw' to link here; heavenly-pattern altar/house pages (backlog) can cite the ledger."
+resources_consulted:
+  - {type: other, title: "Babylonian Talmud, Shabbat 13b; Menachot 45a; Yoma 21b", author: "William Davidson Edition (Sefaria), CC-BY-NC", note: "Hananiah ben Hezekiah reconciled Ezekiel with Torah; 'Elijah will interpret it'; R. Yosei reads 45:18 of Ezra's inauguration; five things lacking in the second temple incl. the Divine Presence. Quote briefly."}
+  - {type: other, title: "Tobit 14:5", author: "KJV Apocrypha (scrollmapper deuterocanonical, raw)", note: "a temple 'not like to the first, until the time of that age be fulfilled', then 'the house of God shall be built in it for ever... as the prophets have spoken'"}
+  - {type: other, title: "Justin Martyr, Dialogue with Trypho 80", author: "ANF vol. 1", note: "a thousand years in Jerusalem 'built, adorned, and enlarged, [as] the prophets Ezekiel and Isaiah and others declare'"}
+  - {type: other, title: "Irenaeus, Against Heresies 5.34-35", author: "ANF vol. 1", note: "cites Ezekiel 37:12-14 and 28:25-26 of the kingdom; 5.35.1 against allegorising; 5.35.2 Jerusalem rebuilt in the kingdom, then the new Jerusalem after it"}
+  - {type: other, title: "Epistle of Barnabas 16", author: "ANF vol. 1", note: "the spiritual temple in the believer; calls the Jews 'wretched'"}
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "40:1-48:35 frame with 8-11 (confirmed); 45:13-17 'provision for sin offerings persists' (confirmed); contributed nothing that changed the reading"}
+  - {type: commentary, title: "The Bible Knowledge Commentary, Ezekiel", author: "Charles H. Dyer", note: "memorial view, from Acts 21:26; but Acts 21:26 says purification. 'The Lord's Supper will be eliminated' sits awkwardly with Luke 22:16. Contributed the list of other prophets' kingdom offerings, all verified."}
+evidence:
+  - {id: nasi-ezek-count, what: "nasi occurs 37 times in Ezekiel", tool: bible_concordance, args: {strongs: H5387, book: Ezek, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "37", checked: 2026-11-25}
+  - {id: olam-ezek-count, what: "olam occurs 18 times in Ezekiel", tool: bible_concordance, args: {strongs: H5769, book: Ezek, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "18", checked: 2026-11-25}
+  - {id: kaphar-ezek-count, what: "kaphar occurs 6 times in Ezekiel", tool: bible_concordance, args: {strongs: H3722, book: Ezek, work_id: macula-hebrew-wlc, count_only: true}, expect_contains: "6", checked: 2026-11-25}
+  - {id: twot-nasi, what: "nasi 'one lifted up' TWOT 1421b", tool: twot_strongs, args: {strongs_id: H5387}, expect_contains: "1421b", checked: 2026-11-25}
+  - {id: twot-olam, what: "olam 'long duration' TWOT 1631a", tool: twot_strongs, args: {strongs_id: H5769}, expect_contains: "1631a", checked: 2026-11-25}
+  - {id: ezek45-22-esv, what: "prince's sin offering for himself", tool: study_verse, args: {book: Ezek, chapter: 45, verse: 22, work_id: esv-study-bible}, expect_contains: "provide for himself", checked: 2026-11-25}
+  - {id: ezek46-16-esv, what: "prince's sons inherit", tool: study_verse, args: {book: Ezek, chapter: 46, verse: 16, work_id: esv-study-bible}, expect_contains: "any of his sons", checked: 2026-11-25}
+  - {id: ezek43-7-esv, what: "place of my throne... forever", tool: study_verse, args: {book: Ezek, chapter: 43, verse: 7, work_id: esv-study-bible}, expect_contains: "the place of my throne", checked: 2026-11-25}
+  - {id: ezek46-14-esv, what: "perpetual statute", tool: study_verse, args: {book: Ezek, chapter: 46, verse: 14, work_id: esv-study-bible}, expect_contains: "perpetual statute", checked: 2026-11-25}
+  - {id: ezek11-16-esv, what: "a sanctuary to them for a while", tool: study_verse, args: {book: Ezek, chapter: 11, verse: 16, work_id: esv-study-bible}, expect_contains: "sanctuary to them for a while", checked: 2026-11-25}
+  - {id: acts21-26-esv, what: "Paul's purification offering", tool: study_verse, args: {book: Acts, chapter: 21, verse: 26, work_id: esv-study-bible}, expect_contains: "days of purification", checked: 2026-11-25}
+  - {id: rev1-15-esv, what: "voice like the roar of many waters", tool: study_verse, args: {book: Rev, chapter: 1, verse: 15, work_id: esv-study-bible}, expect_contains: "roar of many waters", checked: 2026-11-25}
+  - {id: acts5-31-kjv, what: "KJV 'a Prince and a Saviour'", tool: bible_verse, args: {book: Acts, chapter: 5, verse: 31, translation: KJV}, expect_contains: "Prince", checked: 2026-11-25}
+last_updated: "2026-11-25"

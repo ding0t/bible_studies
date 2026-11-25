@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1500" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">The route of the glory</title>
+<desc id="d">A plate in three parts on one west-to-east profile of the temple, its east gate, the city wall, the Kidron valley and the mountain east of the city. Above, Ezekiel 8-11, drawn solid: the glory goes from the cherub to the threshold (Ezekiel 9:3; 10:4), out to the east gate (Ezekiel 10:18-19), and stands on the mountain east of the city (Ezekiel 11:22-23). In the middle, Ezekiel 43-44, drawn solid: the glory comes from the east with a sound like many waters (Ezekiel 43:2), enters by the east gate (Ezekiel 43:4), fills the house, the place of the LORD's throne (Ezekiel 43:5-7), and the east gate is shut because the LORD has entered by it (Ezekiel 44:1-2). Zechariah 14:4 names the mountain: the Mount of Olives. Below, in a dashed frame because no New Testament writer draws the link, the road Jesus walked: down the Mount of Olives weeping over the city (Luke 19:37, 41-44), 'your house is left to you desolate' (Matthew 23:38-39), out of the temple to the Mount of Olives (Matthew 24:1-3), taken up from Olivet (Acts 1:9-12), and his feet standing on the Mount of Olives (Zechariah 14:4). The plate closes with Ezekiel 43:7.</desc>
+<rect width="720" height="1500" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1484" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1472" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<defs><linearGradient id="rg-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3e6c4"/><stop offset="1" stop-color="#fbf3df"/></linearGradient><radialGradient id="rg-glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff6d0" stop-opacity="1"/><stop offset="0.5" stop-color="#e8c46a" stop-opacity="0.75"/><stop offset="1" stop-color="#e8c46a" stop-opacity="0"/></radialGradient></defs>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">THE ROUTE OF THE GLORY</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">Ezekiel 8-11 and 43-44, and the road Jesus walked</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<text x="30.0" y="120.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.5">EZEKIEL 8-11 · THE GLORY GOES OUT (592 BC)</text>
+<rect x="30" y="130" width="660" height="250" rx="4" fill="url(#rg-sky)" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M30 330 H330 Q370 330 400 356.0 Q430 370.0 460 356.0 Q520 260.0 570 248.0 Q630 254.0 690 300.0 V390.0 H30 Z" fill="#d9c59b" stroke="#b9a173" stroke-width="1.4"/>
+<circle cx="486" cy="300.2" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="510" cy="287.3" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="534" cy="274.4" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="558" cy="261.5" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="582" cy="261.5" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="606" cy="274.4" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="630" cy="287.3" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="654" cy="300.2" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="678" cy="313.2" r="5" fill="#8a9a5b" opacity="0.8"/>
+<rect x="113.0" y="284.0" width="74.0" height="46.0" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.6"/>
+<rect x="187.0" y="296.9" width="14.0" height="33.1" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<path d="M109.0 284.0 H191.0" stroke="#3b2f1e" stroke-width="2"/>
+<rect x="248.0" y="290.0" width="34.0" height="40.0" fill="#efe4d0" stroke="#3b2f1e" stroke-width="1.5"/>
+<path d="M255.0 330 V306.0 a10.0 10.0 0 0 1 20.0 0 V330" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2"/>
+<rect x="322" y="300" width="14" height="30" fill="#efe4d0" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="150.0" y="352.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">the house</text>
+<text x="265.0" y="352.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">east gate</text>
+<text x="329.0" y="352.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">city wall</text>
+<text x="430.0" y="386.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">Kidron</text>
+<text x="468.0" y="278.0" font-size="12" fill="#3b2f1e" text-anchor="end" font-style="italic">the mountain east of the city</text>
+<text x="468.0" y="293.0" font-size="11.5" fill="#6b5a3e" text-anchor="end" font-style="italic">named in Zechariah 14:4:</text>
+<text x="468.0" y="307.0" font-size="11.5" fill="#6b5a3e" text-anchor="end" font-style="italic">the Mount of Olives</text>
+<text x="40.0" y="378.0" font-size="11" fill="#6b5a3e" font-weight="bold" letter-spacing="2">WEST</text>
+<text x="680.0" y="378.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-weight="bold" letter-spacing="2">EAST</text>
+<path d="M150 260 Q205 210 265 250 Q420 155 560 180" fill="none" stroke="#a67c3d" stroke-width="3.5"/>
+<path d="M560.0 180.0 L550.0 186.7 L548.6 176.3 Z" fill="#a67c3d"/>
+<circle cx="150" cy="260" r="18" fill="url(#rg-glow)"/>
+<circle cx="150.0" cy="236.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="150.0" y="240.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">1</text>
+<circle cx="265" cy="250" r="18" fill="url(#rg-glow)"/>
+<circle cx="265.0" cy="226.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="265.0" y="230.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">2</text>
+<circle cx="560" cy="180" r="18" fill="url(#rg-glow)"/>
+<circle cx="560.0" cy="156.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="560.0" y="160.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">3</text>
+<text x="30.0" y="420.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.5">EZEKIEL 43-44 · THE GLORY COMES BACK (573 BC)</text>
+<rect x="30" y="430" width="660" height="250" rx="4" fill="url(#rg-sky)" stroke="#3b2f1e" stroke-width="1.8"/>
+<path d="M30 630 H330 Q370 630 400 656.0 Q430 670.0 460 656.0 Q520 560.0 570 548.0 Q630 554.0 690 600.0 V690.0 H30 Z" fill="#d9c59b" stroke="#b9a173" stroke-width="1.4"/>
+<circle cx="486" cy="600.2" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="510" cy="587.3" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="534" cy="574.4" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="558" cy="561.5" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="582" cy="561.5" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="606" cy="574.4" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="630" cy="587.3" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="654" cy="600.2" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="678" cy="613.2" r="5" fill="#8a9a5b" opacity="0.8"/>
+<rect x="113.0" y="584.0" width="74.0" height="46.0" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.6"/>
+<rect x="187.0" y="596.9" width="14.0" height="33.1" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<path d="M109.0 584.0 H191.0" stroke="#3b2f1e" stroke-width="2"/>
+<rect x="248.0" y="590.0" width="34.0" height="40.0" fill="#efe4d0" stroke="#3b2f1e" stroke-width="1.5"/>
+<path d="M255.0 630 V606.0 a10.0 10.0 0 0 1 20.0 0 V630" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2"/>
+<rect x="322" y="600" width="14" height="30" fill="#efe4d0" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="150.0" y="652.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">the house</text>
+<text x="265.0" y="652.0" font-size="12" fill="#6b5a3e" text-anchor="middle" font-style="italic">east gate</text>
+<text x="329.0" y="652.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">city wall</text>
+<text x="430.0" y="686.0" font-size="11.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">Kidron</text>
+<text x="468.0" y="578.0" font-size="12" fill="#3b2f1e" text-anchor="end" font-style="italic">the mountain east of the city</text>
+<text x="468.0" y="593.0" font-size="11.5" fill="#6b5a3e" text-anchor="end" font-style="italic">named in Zechariah 14:4:</text>
+<text x="468.0" y="607.0" font-size="11.5" fill="#6b5a3e" text-anchor="end" font-style="italic">the Mount of Olives</text>
+<text x="40.0" y="678.0" font-size="11" fill="#6b5a3e" font-weight="bold" letter-spacing="2">WEST</text>
+<text x="680.0" y="678.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-weight="bold" letter-spacing="2">EAST</text>
+<path d="M680 480 Q600 440 470 500 Q360 548 285 558" fill="none" stroke="#a67c3d" stroke-width="3.5"/>
+<path d="M245 564 Q205 566 170 570" fill="none" stroke="#a67c3d" stroke-width="3.5"/>
+<path d="M170.0 570.0 L180.8 564.8 L180.8 575.2 Z" fill="#a67c3d"/>
+<path d="M652 448 q-8 10 0 20" fill="none" stroke="#2f4f7f" stroke-width="1.4" opacity="0.8"/>
+<path d="M642 454 q-8 10 0 20" fill="none" stroke="#2f4f7f" stroke-width="1.4" opacity="0.6"/>
+<path d="M632 460 q-8 10 0 20" fill="none" stroke="#2f4f7f" stroke-width="1.4" opacity="0.4"/>
+<rect x="113" y="584" width="88" height="46" fill="#e8c46a" opacity="0.35"/>
+<circle cx="150" cy="570" r="34" fill="url(#rg-glow)"/>
+<rect x="248.0" y="590.0" width="34.0" height="40.0" fill="#efe4d0" stroke="#3b2f1e" stroke-width="1.5"/>
+<path d="M255.0 630 V606.0 a10.0 10.0 0 0 1 20.0 0 V630" fill="#3b2f1e" stroke="#3b2f1e" stroke-width="1.2"/>
+<path d="M257.0 618.0 H273.0" stroke="#e8c46a" stroke-width="2.5"/>
+<circle cx="655.0" cy="456.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="655.0" y="460.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">4</text>
+<circle cx="265.0" cy="528.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="265.0" y="532.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">5</text>
+<circle cx="150.0" cy="546.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="150.0" y="550.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">6</text>
+<circle cx="287.0" cy="598.0" r="11" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="287.0" y="602.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">7</text>
+<circle cx="44.0" cy="712.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="715.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">1</text>
+<text x="62.0" y="716.0" font-size="13" fill="#3b2f1e">From the cherub to the threshold</text>
+<text x="690.0" y="716.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 9:3; 10:4</text>
+<circle cx="44.0" cy="735.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="738.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">2</text>
+<text x="62.0" y="739.0" font-size="13" fill="#3b2f1e">Out to the east gate</text>
+<text x="690.0" y="739.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 10:18-19</text>
+<circle cx="44.0" cy="758.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="761.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">3</text>
+<text x="62.0" y="762.0" font-size="13" fill="#3b2f1e">Stood on the mountain east of the city</text>
+<text x="690.0" y="762.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 11:22-23</text>
+<circle cx="44.0" cy="781.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="784.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">4</text>
+<text x="62.0" y="785.0" font-size="13" fill="#3b2f1e">Comes from the east, “like the sound of many waters”</text>
+<text x="690.0" y="785.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 43:2</text>
+<circle cx="44.0" cy="804.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="807.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">5</text>
+<text x="62.0" y="808.0" font-size="13" fill="#3b2f1e">Enters by the gate facing east</text>
+<text x="690.0" y="808.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 43:4</text>
+<circle cx="44.0" cy="827.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="830.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">6</text>
+<text x="62.0" y="831.0" font-size="13" fill="#3b2f1e">Fills the house: “the place of my throne”</text>
+<text x="690.0" y="831.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 43:5-7</text>
+<circle cx="44.0" cy="850.0" r="9" fill="#3b2f1e" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="853.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">7</text>
+<text x="62.0" y="854.0" font-size="13" fill="#3b2f1e">The east gate shut: “the LORD… has entered by it”</text>
+<text x="690.0" y="854.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Ezekiel 44:1-2</text>
+<text x="30.0" y="913.0" font-size="13" fill="#6b5a3e" font-weight="bold" letter-spacing="1.5">A PATTERN · THE ROAD JESUS WALKED</text>
+<rect x="30" y="923" width="660" height="240" rx="4" fill="url(#rg-sky)" stroke="#3b2f1e" stroke-width="1.8" stroke-dasharray="7 5"/>
+<path d="M30 1113 H330 Q370 1113 400 1133.8 Q430 1145.0 460 1133.8 Q520 1057.0 570 1047.4 Q630 1052.2 690 1089.0 V1161.0 H30 Z" fill="#d9c59b" stroke="#b9a173" stroke-width="1.4"/>
+<circle cx="486" cy="1088.2" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="510" cy="1077.8" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="534" cy="1067.5" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="558" cy="1057.2" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="582" cy="1057.2" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="606" cy="1067.5" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="630" cy="1077.8" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="654" cy="1088.2" r="5" fill="#8a9a5b" opacity="0.8"/>
+<circle cx="678" cy="1098.5" r="5" fill="#8a9a5b" opacity="0.8"/>
+<rect x="113.0" y="1067.0" width="74.0" height="46.0" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.6"/>
+<rect x="187.0" y="1079.9" width="14.0" height="33.1" fill="#fffdf7" stroke="#3b2f1e" stroke-width="1.4"/>
+<path d="M109.0 1067.0 H191.0" stroke="#3b2f1e" stroke-width="2"/>
+<rect x="248.0" y="1073.0" width="34.0" height="40.0" fill="#efe4d0" stroke="#3b2f1e" stroke-width="1.5"/>
+<path d="M255.0 1113 V1089.0 a10.0 10.0 0 0 1 20.0 0 V1113" fill="#faf6ec" stroke="#3b2f1e" stroke-width="1.2"/>
+<rect x="322" y="1083" width="14" height="30" fill="#efe4d0" stroke="#3b2f1e" stroke-width="1.2"/>
+<text x="40.0" y="1151.4" font-size="11" fill="#6b5a3e" font-weight="bold" letter-spacing="2">WEST</text>
+<text x="680.0" y="1151.4" font-size="11" fill="#6b5a3e" text-anchor="end" font-weight="bold" letter-spacing="2">EAST</text>
+<path d="M505 1079 Q330 1003 165 1055" fill="none" stroke="#2f4f7f" stroke-width="2.4" stroke-dasharray="6 4"/>
+<path d="M165.0 1055.0 L173.1 1049.2 L174.6 1057.7 Z" fill="#2f4f7f"/>
+<path d="M190 1043 Q380 943 542 1045" fill="none" stroke="#2f4f7f" stroke-width="2.4" stroke-dasharray="6 4"/>
+<path d="M542.0 1045.0 L532.6 1041.7 L538.7 1035.6 Z" fill="#2f4f7f"/>
+<path d="M558 1039 L600 963" stroke="#2f4f7f" stroke-width="2.4" stroke-dasharray="6 4"/>
+<path d="M600.0 963.0 L601.0 972.9 L592.8 970.0 Z" fill="#2f4f7f"/>
+<path d="M614 959 Q650 993 614 1043" fill="none" stroke="#2f4f7f" stroke-width="2.4" stroke-dasharray="2 5"/>
+<path d="M614.0 1043.0 L613.0 1033.1 L621.2 1036.0 Z" fill="#2f4f7f"/>
+<circle cx="505.0" cy="1061.0" r="11" fill="#2f4f7f" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="505.0" y="1065.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">A</text>
+<circle cx="165.0" cy="1037.0" r="11" fill="#2f4f7f" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="165.0" y="1041.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">B</text>
+<circle cx="564.0" cy="1033.0" r="11" fill="#2f4f7f" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="564.0" y="1037.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">C</text>
+<circle cx="600.0" cy="935.0" r="11" fill="#2f4f7f" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="600.0" y="939.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">D</text>
+<circle cx="628.0" cy="1031.0" r="11" fill="#2f4f7f" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="628.0" y="1035.6" font-size="12.649999999999999" fill="#faf6ec" text-anchor="middle" font-weight="bold">E</text>
+<circle cx="44.0" cy="1187.0" r="9" fill="#2f4f7f" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="1190.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">A</text>
+<text x="62.0" y="1191.0" font-size="13" fill="#3b2f1e">Comes down the Mount of Olives and weeps over the city</text>
+<text x="690.0" y="1191.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Luke 19:37, 41-44</text>
+<circle cx="44.0" cy="1210.0" r="9" fill="#2f4f7f" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="1213.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">B</text>
+<text x="62.0" y="1214.0" font-size="13" fill="#3b2f1e">“Your house is left to you desolate… until you say…”</text>
+<text x="690.0" y="1214.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Matthew 23:38-39</text>
+<circle cx="44.0" cy="1233.0" r="9" fill="#2f4f7f" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="1236.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">C</text>
+<text x="62.0" y="1237.0" font-size="13" fill="#3b2f1e">Leaves the temple and sits on the Mount of Olives</text>
+<text x="690.0" y="1237.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Matthew 24:1-3</text>
+<circle cx="44.0" cy="1256.0" r="9" fill="#2f4f7f" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="1259.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">D</text>
+<text x="62.0" y="1260.0" font-size="13" fill="#3b2f1e">Taken up from “the mount called Olivet”</text>
+<text x="690.0" y="1260.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Acts 1:9-12</text>
+<circle cx="44.0" cy="1279.0" r="9" fill="#2f4f7f" stroke="#faf6ec" stroke-width="1.5"/>
+<text x="44.0" y="1282.8" font-size="10.35" fill="#faf6ec" text-anchor="middle" font-weight="bold">E</text>
+<text x="62.0" y="1283.0" font-size="13" fill="#3b2f1e">“His feet shall stand on the Mount of Olives”</text>
+<text x="690.0" y="1283.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">Zechariah 14:4</text>
+<path d="M34 1308 h22" stroke="#3b2f1e" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="62.0" y="1312.0" font-size="12.5" fill="#6b5a3e" font-style="italic">Dashed: the events are stated; their link to Ezekiel 11:23 and 43:2 is a pattern no</text>
+<text x="62.0" y="1329.0" font-size="12.5" fill="#6b5a3e" font-style="italic">New Testament writer draws. E is still to come.</text>
+<path d="M210.0 1348 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="1374.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">“This is the place of my throne and the place of the soles of my feet,</text>
+<text x="360.0" y="1394.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">where I will dwell in the midst of the people of Israel forever.”</text>
+<text x="360.0" y="1420.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">Ezekiel 43:7, ESV</text>
+<text x="696.0" y="1478.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>
