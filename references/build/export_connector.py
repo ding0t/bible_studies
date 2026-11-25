@@ -29,6 +29,7 @@ Usage: uv run python export_connector.py [--publish]
 --publish packs the output as lang.tgz and uploads it to the `lang-data` GitHub release, which the
 deploy workflow downloads before the site build. Run it after a re-export that should go live.
 """
+import functools
 import json
 import re
 import shutil
@@ -70,8 +71,11 @@ def strongs_id(raw: str | None, greek: bool) -> str | None:
     return f"{prefix}{int(digits)}"
 
 
-def english_ref(book, chapter, verse, scheme) -> tuple[str, int, int]:
-    return versification.align(book, chapter, verse, scheme, "english") or (book, chapter, verse)
+@functools.cache
+def english_ref(conn, book, chapter, verse, scheme) -> tuple[str, int, int]:
+    # query._move, not versification.align: align() leaves a psalm's verse where the Hebrew title
+    # put it, which hung every psalm's Hebrew words on the English verse before
+    return query._move(conn, book, chapter, verse, scheme, "english") or (book, chapter, verse)
 
 
 def ref_text(ref) -> str:
@@ -105,7 +109,7 @@ def main() -> None:
     for work, scheme, field in (("sblgnt", "english", "orig"), ("morphhb-wlc", "masoretic", "orig"),
                                 ("ebible-grcbrent", "lxx", "lxx")):
         for row in conn.execute("SELECT book, chapter, verse, text FROM verses WHERE work_id=?", (work,)):
-            ref = english_ref(row["book"], row["chapter"], row["verse"], scheme)
+            ref = english_ref(conn, row["book"], row["chapter"], row["verse"], scheme)
             verse = verse_at(ref)
             if verse is None:
                 continue
@@ -124,7 +128,7 @@ def main() -> None:
             ORDER BY work_id, book, chapter, verse, word_position""", MACULA).fetchall()
     for r in rows:
         greek = r["work_id"].startswith("macula-greek")
-        ref = english_ref(r["book"], r["chapter"], r["verse"], "english" if greek else "masoretic")
+        ref = english_ref(conn, r["book"], r["chapter"], r["verse"], "english" if greek else "masoretic")
         nodes[re.sub(r"\D", "", r["node_id"] or "")] = (r["surface_form"], r["gloss"], ref_text(ref))
 
     def resolve(pointers: str | None):
@@ -136,7 +140,7 @@ def main() -> None:
     occurrences: dict[str, list[str]] = defaultdict(list)
     for r in rows:
         greek = r["work_id"].startswith("macula-greek")
-        ref = english_ref(r["book"], r["chapter"], r["verse"], "english" if greek else "masoretic")
+        ref = english_ref(conn, r["book"], r["chapter"], r["verse"], "english" if greek else "masoretic")
         verse = verse_at(ref)
         sid = strongs_id(r["strongs_id"], greek)
         if sid and (not occurrences[sid] or occurrences[sid][-1] != ref_text(ref)):
@@ -162,12 +166,12 @@ def main() -> None:
 
     for r in conn.execute("SELECT work_id, book, chapter, verse, note_type, text FROM notes"):
         scheme = versification.scheme_for_work(r["work_id"])
-        verse = verse_at(english_ref(r["book"], r["chapter"], r["verse"], scheme))
+        verse = verse_at(english_ref(conn, r["book"], r["chapter"], r["verse"], scheme))
         if verse is not None:
             verse.setdefault("notes", []).append([r["work_id"], r["note_type"], r["text"]])
 
     for r in conn.execute("SELECT work_id, book, chapter, verse, lemma, extant_words FROM dss_variants"):
-        verse = verse_at(english_ref(r["book"], r["chapter"], r["verse"], "masoretic"))
+        verse = verse_at(english_ref(conn, r["book"], r["chapter"], r["verse"], "masoretic"))
         if verse is not None:
             verse.setdefault("scrolls", []).append([r["work_id"].removeprefix("dss-"), r["lemma"],
                                                     r["extant_words"]])
@@ -178,7 +182,7 @@ def main() -> None:
                           "to_english_chapter, to_english_verse FROM scripture_links"):
         from_scheme = "english" if r["link_type"] in ("quotation-greek", "allusion-lemma",
                                                       "quotation-crosslang") else "masoretic"
-        linked.add(english_ref(r["from_book"], r["from_chapter"], r["from_verse"], from_scheme))
+        linked.add(english_ref(conn, r["from_book"], r["from_chapter"], r["from_verse"], from_scheme))
         if r["to_english_chapter"]:
             linked.add((r["to_book"], r["to_english_chapter"], r["to_english_verse"]))
     for ref in sorted(linked):
@@ -186,7 +190,7 @@ def main() -> None:
         if verse is None:
             continue
         if ref[0] in old_testament:
-            masoretic = versification.align(*ref, "english", "masoretic") or ref
+            masoretic = query._move(conn, *ref, "english", "masoretic") or ref
             trace = query.lookup_trace(conn, *masoretic, translation="morphhb-wlc")
         else:
             trace = query.lookup_trace(conn, *ref)

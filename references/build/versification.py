@@ -19,6 +19,9 @@ psalm's superscription as verse 1 and most English editions don't, but that is a
 choice: scrollmapper-KJV counts them (differing from ebible-eng-web in 116 psalms) while WEB does
 not. Encoding a single "english" rule for that would be confidently wrong for half the English
 works in the database. Use psalm_superscription_risk() to detect it per work-pair instead.
+
+So align() alone is wrong for a verse in any psalm with a title. Verse-level lookups go through
+query._move, which adds the title from UHB's stated numbers or the two works' verse counts.
 """
 
 SCHEMES = ("masoretic", "lxx", "english")

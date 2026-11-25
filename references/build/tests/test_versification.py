@@ -343,6 +343,54 @@ def test_align_agrees_with_every_verified_stated_hebrew_reference(conn):
     assert not wrong, f"{len(wrong)} disagree, e.g. {wrong[:5]}"
 
 
+# --- psalm titles in the verse-level lookups --------------------------------------------------
+# Until 2026-11-26 every lookup that moved a verse between schemes used align() alone, so in every
+# psalm with a title it read the verse before: bible_verse on English Psalm 22:18 attached the
+# Hebrew of 22:17, "I count all my bones", to "They divide my garments". query._move adds the title.
+
+def test_every_verified_psalm_verse_moves_to_the_hebrew_number_uhb_states(conn):
+    rows = conn.execute(
+        "SELECT chapter, verse, alt_chapter, alt_verse FROM versification_map WHERE book='Ps' "
+        "AND verse > 0 AND source IN ('explicit', 'verse+verified')").fetchall()
+    assert len(rows) > 900
+    wrong = [f"EN {r['chapter']}:{r['verse']} -> {got}, UHB says {r['alt_chapter']}:{r['alt_verse']}"
+             for r in rows
+             if (got := query._move(conn, "Ps", r["chapter"], r["verse"], "english", "masoretic"))
+             != ("Ps", r["alt_chapter"], r["alt_verse"])]
+    assert not wrong, f"{len(wrong)} disagree, e.g. {wrong[:5]}"
+
+
+def test_verse_lookup_attaches_the_hebrew_of_the_same_psalm_verse(conn):
+    result = query.lookup_verse(conn, "Ps", 22, 18, "BSB")
+    assert result["aligned_references"] == {"masoretic": "Ps 22:19", "lxx": "Ps 21:19"}
+    hebrew = [m["strongs_id"] for m in result["morphology"] if m["work_id"] == WLC]
+    assert hebrew[0].startswith("2505"), "the first Hebrew word should be chalaq, 'divide'"
+
+
+@pytest.mark.parametrize("english,lxx", [
+    ((51, 1), (50, 3)),    # a two-verse title
+    ((10, 1), (9, 22)),    # the lxx joins Psalms 9 and 10; Psalm 10 has no title
+    ((1, 1), (1, 1)),      # no title, no renumbering
+])
+def test_lxx_psalm_verse_counts_the_title_as_the_hebrew_does(conn, english, lxx):
+    assert query.lookup_alignment(conn, "Ps", *english)["schemes"]["lxx"]["reference"] == \
+        f"Ps {lxx[0]}:{lxx[1]}"
+
+
+def test_a_work_that_counts_titles_its_own_way_is_measured_not_mapped(conn):
+    """scrollmapper-KJV numbers some psalms differently from the BSB, so UHB's English numbers
+    cannot be applied to it; its garments verse still has to reach Hebrew 22:19."""
+    verse = conn.execute("SELECT verse FROM verses WHERE work_id='scrollmapper-KJV' AND book='Ps' "
+                         "AND chapter=22 AND text LIKE '%garments%'").fetchone()[0]
+    assert query._move(conn, "Ps", 22, verse, "english", "masoretic", "scrollmapper-KJV") == \
+        ("Ps", 22, 19)
+
+
+def test_trace_and_variants_read_the_hebrew_at_the_english_psalm_verse(conn):
+    assert "בְגָדַ" in query.lookup_trace(conn, "Ps", 22, 18)["original"]
+    assert query.lookup_variants(conn, "Ps", 22, 16)["reference"] == "Ps 22:17"
+
+
 @pytest.mark.parametrize("scheme", ["masoretic", "lxx"])
 def test_aarons_almonds_are_hebrew_numbers_seventeen_twenty_three(conn, scheme):
     """The reference that surfaced the missing rules: align() called Numbers 17:8 'agreeing'."""

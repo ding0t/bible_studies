@@ -133,7 +133,7 @@ def _empty_result_reason(conn: sqlite3.Connection, work_id: str, book: str,
                         f"{book} {chapter}:{verse} is {book} {stated['alt_chapter']}:"
                         f"{stated['alt_verse']} in Hebrew numbering -- ask for that reference.")
         if target_scheme != from_scheme:
-            ref = versification.align(book, chapter, verse, from_scheme, target_scheme)
+            ref = _move(conn, book, chapter, verse, from_scheme, target_scheme)
             if ref is not None:
                 a_book, a_chapter, a_verse = ref
                 exists = conn.execute(
@@ -144,9 +144,7 @@ def _empty_result_reason(conn: sqlite3.Connection, work_id: str, book: str,
                     return (f"{work_id} uses {target_scheme} versification, where "
                             f"{book} {chapter}:{verse} ({from_scheme}) is "
                             f"{a_book} {a_chapter}:{a_verse}. Ask for that reference, or use "
-                            f"`query.py parallel` -- it resolves work-to-work and also applies "
-                            f"the psalm-superscription offset, which `align` (scheme-to-scheme) "
-                            f"does not.")
+                            f"`query.py parallel` to resolve it work to work.")
     return f"{book} exists in {work_id}, but not at the chapter/verse given -- check the reference."
 
 # Strong's numbers are stored bare (schema.sql explains why), so G1242 and H1242 are the same
@@ -417,14 +415,70 @@ def _work_scheme(conn: sqlite3.Connection, work_id: str) -> str:
     return row["versification"] if row else "english"
 
 
+# The work whose verse counts stand for a scheme when the caller names no work.
+_SCHEME_WORK = {"english": "berean-bsb", "masoretic": "morphhb-wlc", "lxx": "ebible-grcbrent"}
+
+
+def _move(conn: sqlite3.Connection, book: str, chapter: int, verse: int, from_scheme: str,
+          to_scheme: str, from_work: str | None = None) -> tuple[str, int, int] | None:
+    """One verse moved between schemes, psalm titles included. None means no counterpart.
+
+    versification.align() moves the chapter and deliberately not the verse (see its SCOPE note), so
+    on its own it put English Psalm 22:18 at Hebrew 22:18 -- "I count all my bones" -- when the
+    garments verse is Hebrew 22:19, and every verse-level lookup that trusted it read the verse
+    before in every psalm with a title. The shift is measured between two works' verse counts, as
+    lookup_parallel does, because which English editions count the title is per digitisation.
+    It sits between english and masoretic only: the lxx numbers a psalm's verses as the Hebrew
+    does, so an lxx move goes through masoretic and changes the chapter alone.
+    """
+    if from_scheme == to_scheme:
+        return (book, chapter, verse)
+    if book != "Ps":
+        return versification.align(book, chapter, verse, from_scheme, to_scheme)
+    if from_scheme == "lxx":
+        hebrew = versification.align(book, chapter, verse, "lxx", "masoretic")
+        if hebrew is None or to_scheme == "masoretic":
+            return hebrew
+        return _move(conn, *hebrew, "masoretic", to_scheme)
+    if to_scheme == "lxx":
+        hebrew = _move(conn, book, chapter, verse, from_scheme, "masoretic", from_work)
+        return hebrew and versification.align(*hebrew, "masoretic", "lxx")
+    # UHB states the Hebrew number per verse (versification_map), which also catches the chapters a
+    # count cannot: Psalm 13 has six verses in both, yet English 13:5-6 is Hebrew 13:6. Its numbers
+    # are the standard English ones, so they hold only for a work that counts the chapter that way.
+    standard = from_work is None or from_scheme != "english" or (
+        _chapter_verse_count(conn, from_work, book, chapter)
+        == _chapter_verse_count(conn, _SCHEME_WORK["english"], book, chapter))
+    if standard:
+        stated = conn.execute(
+            "SELECT book, alt_chapter, alt_verse FROM versification_map WHERE book=? AND chapter=? "
+            "AND verse=? AND source IN ('explicit', 'verse+verified') LIMIT 1"
+            if from_scheme == "english" else
+            "SELECT book, chapter, verse FROM versification_map WHERE book=? AND alt_chapter=? "
+            "AND alt_verse=? AND verse > 0 AND source IN ('explicit', 'verse+verified') "
+            "ORDER BY chapter, verse LIMIT 1",
+            (book, chapter, verse)).fetchone()
+        if stated:
+            return tuple(stated)
+    ref = versification.align(book, chapter, verse, from_scheme, to_scheme)
+    if ref is None:
+        return None
+    offset = versification.superscription_offset(
+        _chapter_verse_count(conn, from_work or _SCHEME_WORK[from_scheme], book, chapter),
+        _chapter_verse_count(conn, _SCHEME_WORK[to_scheme], ref[0], ref[1]))
+    # a Hebrew title verse (Psalm 51:1-2) has no English verse of its own
+    return (ref[0], ref[1], ref[2] - offset) if ref[2] - offset >= 1 else None
+
+
 def _aligned_refs(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
-                   from_scheme: str) -> dict[str, tuple[str, int, int]]:
+                   from_scheme: str, from_work: str | None = None) -> dict[str, tuple[str, int, int]]:
     """This reference expressed in every versification scheme present in the database. A scheme is
-    absent from the result when it has no counterpart for the verse (LXX Psalm 151, say)."""
+    absent from the result when it has no counterpart for the verse (LXX Psalm 151, say). Pass the
+    work the reference was read from, so a psalm's title is counted the way that work counts it."""
     schemes = [r[0] for r in conn.execute("SELECT DISTINCT versification FROM works")]
     resolved = {}
     for scheme in schemes:
-        ref = versification.align(book, chapter, verse, from_scheme, scheme)
+        ref = _move(conn, book, chapter, verse, from_scheme, scheme, from_work)
         if ref is not None:
             resolved[scheme] = ref
     return resolved
@@ -472,7 +526,7 @@ def lookup_verse(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
     # numbers silently pairs an English verse with a different Hebrew one: ask for Joel 3:1 in an
     # English work and the unaligned query returns the morphology of Hebrew Joel 3:1, which is
     # English Joel 2:28 -- the Acts 2 verse, not the one asked for.
-    aligned = _aligned_refs(conn, book, chapter, verse, scheme)
+    aligned = _aligned_refs(conn, book, chapter, verse, scheme, work_id)
     morph_rows, notes = [], []
     for other_scheme, (a_book, a_chapter, a_verse) in aligned.items():
         morph_rows += conn.execute(
@@ -555,7 +609,7 @@ def lookup_crossref(conn: sqlite3.Connection, book: str, chapter: int, verse: in
     or Septuagint text has to be aligned first: pass from_scheme='masoretic' for Joel 3:1 out of
     the WLC and you get the links for english Joel 2:28, which is the verse it actually is.
     """
-    aligned = versification.align(book, chapter, verse, from_scheme, "english")
+    aligned = _move(conn, book, chapter, verse, from_scheme, "english")
     if aligned is None:
         return []
     book, chapter, verse = aligned
@@ -666,15 +720,19 @@ def lookup_links(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
     aligned_as: dict[str, str] = {}
 
     for kind in wanted:
+        # inner-biblical links run Hebrew to Hebrew, so their quoting verse is numbered masoretic;
+        # every other kind quotes from the New Testament
+        source = _move(conn, book, chapter, verse, from_scheme,
+                       "masoretic" if kind == "inner-biblical" else "english")
         out[kind] = [dict(r) for r in conn.execute(
             "SELECT to_book, to_chapter, to_verse, to_english_chapter, to_english_verse, "
             "shared_ngrams, containment, longest_run, alignment, idf_overlap, corroborated "
             "FROM scripture_links "
             "WHERE link_type=? AND from_book=? AND from_chapter=? AND from_verse=? AND longest_run>=? "
             "ORDER BY alignment DESC, idf_overlap DESC, to_book, to_chapter, to_verse",
-            (kind, book, chapter, verse, min_run))]
+            (kind, *source, min_run))] if source else []
 
-        target = versification.align(book, chapter, verse, from_scheme, LINK_TARGET_SCHEME[kind])
+        target = _move(conn, book, chapter, verse, from_scheme, LINK_TARGET_SCHEME[kind])
         if target is None:
             into[kind] = []
             continue
@@ -727,7 +785,7 @@ def lookup_interlinear(conn: sqlite3.Connection, book: str, chapter: int, verse:
     if interlinear not in INTERLINEARS:
         raise ValueError(f"interlinear must be one of {sorted(INTERLINEARS)}")
     work_id, text_work, _ = INTERLINEARS[interlinear]
-    reference = versification.align(book, chapter, verse, from_scheme, "english")
+    reference = _move(conn, book, chapter, verse, from_scheme, "english")
     if reference is None:
         return {"reference": f"{book} {chapter}:{verse}", "rows": [],
                 "warning": "no English-scheme counterpart for this reference"}
@@ -759,7 +817,7 @@ def lookup_alignment_diff(conn: sqlite3.Connection, book: str, chapter: int, ver
     """
     import alignment_diff
 
-    reference = versification.align(book, chapter, verse, from_scheme, "english")
+    reference = _move(conn, book, chapter, verse, from_scheme, "english")
     if reference is None:
         return {"reference": f"{book} {chapter}:{verse}", "differences": [], "text_differs": [],
                 "warning": "no English-scheme counterpart for this reference"}
@@ -820,7 +878,7 @@ def lookup_section(conn: sqlite3.Connection, book: str, chapter: int, verse: int
     They are a fast first map and a check that a parallel account was not missed, never evidence
     for a claim about the text and never to be quoted as Scripture.
     """
-    reference = versification.align(book, chapter, verse, from_scheme, "english")
+    reference = _move(conn, book, chapter, verse, from_scheme, "english")
     if reference is None:
         return {"reference": f"{book} {chapter}:{verse}", "sections": [], "parallels": [],
                 "warning": "no English-scheme counterpart for this reference"}
@@ -1074,7 +1132,7 @@ def lookup_variants(conn: sqlite3.Connection, book: str, chapter: int, verse: in
     any single row. A reading from a verse where six words survive carries less than one from
     twenty.
     """
-    reference = versification.align(book, chapter, verse or 1, from_scheme, "masoretic")
+    reference = _move(conn, book, chapter, verse or 1, from_scheme, "masoretic")
     if reference is None:
         return {"reference": f"{book} {chapter}", "readings": [],
                 "warning": "no Masoretic counterpart for this reference"}
@@ -1160,7 +1218,7 @@ def lookup_trace(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
     New Testament writer quoted is textually disputed.
     """
     scheme = _work_scheme(conn, _resolve_work_id(conn, translation))
-    english_ref = versification.align(book, chapter, verse, scheme, "english") or (book, chapter, verse)
+    english_ref = _move(conn, book, chapter, verse, scheme, "english") or (book, chapter, verse)
     result: dict[str, object] = {
         "reference": f"{book} {chapter}:{verse}",
         "english": _verse_text(conn, ENGLISH_WORK, *english_ref),
@@ -1168,7 +1226,8 @@ def lookup_trace(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
         "leads": [],
     }
     for work in ("sblgnt", "morphhb-wlc"):
-        original = _verse_text(conn, work, book, chapter, verse)
+        own = _move(conn, book, chapter, verse, scheme, _work_scheme(conn, work))
+        original = _verse_text(conn, work, *own) if own else None
         if original:
             result["original"] = original
             result["original_work"] = work
@@ -1195,7 +1254,7 @@ def lookup_trace(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
                     stored_english = None
                 greek = target_scheme in ("lxx", "english")
                 original = _verse_text(conn, ORIGINAL_WORK[target_scheme], *target)
-                to_english = stored_english or versification.align(*target, target_scheme, "english")
+                to_english = stored_english or _move(conn, *target, target_scheme, "english")
                 entry = {
                     "method": kind,
                     "direction": direction,
@@ -1209,7 +1268,7 @@ def lookup_trace(conn: sqlite3.Connection, book: str, chapter: int, verse: int,
                     "corroborated": bool(row["corroborated"]),
                 }
                 if to_english and target_scheme in ("lxx", "masoretic"):
-                    masoretic = versification.align(*to_english, "english", "masoretic")
+                    masoretic = _move(conn, *to_english, "english", "masoretic")
                     if masoretic:
                         entry["scroll_readings"] = [dict(r) for r in conn.execute(
                             "SELECT work_id, lemma, extant_words FROM dss_variants "
