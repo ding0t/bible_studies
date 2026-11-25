@@ -91,10 +91,10 @@ completes.
   | Gospels | Which Gospel, with what emphasis and audience? Read it on its own terms before harmonising. Where does it sit on the kingdom's already/not yet? |
   | Parables | The one or few points the first hearers grasped, and who Jesus is needling. Don't allegorise incidental details. |
   | Law | Moral, civil or ceremonial? What does it reveal of God's character where the rule doesn't carry over? |
-  | Prophets | Covenant enforcement in the prophet's own setting first, before reading forward. |
+  | Prophets | Covenant enforcement in the prophet's own setting first, before reading forward. For any prediction, work [prophecy-method.md](prophecy-method.md): New Testament uses classified, a fulfilment ledger, the join, the oldest readers. |
   | Psalms | Which type? A psalm is often prayer addressed to God; let form shape expectation. |
   | Wisdom | Proverbs observe what is generally true. Hold them against Job and Ecclesiastes. |
-  | Revelation / apocalyptic | Ground the OT imagery and the pastoral purpose to seven real churches first; then lean dispensational (AGENTS.md). |
+  | Revelation / apocalyptic | Ground the OT imagery and the pastoral purpose to seven real churches first; then lean dispensational (AGENTS.md), by [prophecy-method.md](prophecy-method.md). |
 
 ## Phase 5 — Hermeneutics: then-and-now bridge
 
@@ -228,6 +228,7 @@ here ([why-the-rules.md](../why-the-rules.md#develop-state-file)).
 
 - [placement-and-tags.md](placement-and-tags.md) — sections, tags, frontmatter traps (before drafting)
 - [word-study-method.md](word-study-method.md) — diachronic → synchronic → conclusion (Phase 4)
+- [prophecy-method.md](prophecy-method.md) — reading a prediction forward: NT uses, the fulfilment ledger, near and far (Phase 4)
 - [cross-references.md](cross-references.md) — cross-references, variants, translations, commentaries (Phase 6)
 - [formatting.md](formatting.md), [style-guide.md](style-guide.md),
   [discussion-questions.md](discussion-questions.md), [be-transformed.md](be-transformed.md),

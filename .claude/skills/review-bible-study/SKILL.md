@@ -138,7 +138,8 @@ Mark each of the six questions on
 [how-to-read-the-bible.md](../../../docs/content/scripture/how-to-read-the-bible.md) **covered**,
 **partial** or **missing**:
 
-1. Genre identified, and its lens applied?
+1. Genre identified, and its lens applied? For a prediction, check each fulfilment claim against
+   [prophecy-method.md](../develop-bible-study/prophecy-method.md): the New Testament use labelled, and every ledger cell sourced.
 2. Historical occasion (author, audience, date, circumstance)?
 3. Literary context (before and after, the unit of thought)?
 4. Original-language check wherever a word does theological work? (Coverage; Phase 3 is correctness.)

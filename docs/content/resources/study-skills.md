@@ -5,7 +5,7 @@ description: "The written instructions the AI behind this site follows to build,
 tags: ["ai", "study-method", "getting-started"]
 draft: false
 date_created: 2026-11-24
-date_modified: 2026-11-24
+date_modified: 2026-11-25
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -54,8 +54,9 @@ A working file beside each study records every step, so the work can be picked u
 shows that record in a "How this study was checked" panel above its references.
 
 [Read the Develop skill](https://the-way.lewy.au/skills/develop-bible-study/SKILL.md) · its
-[style guide](https://the-way.lewy.au/skills/develop-bible-study/style-guide.md) and
-[word-study method](https://the-way.lewy.au/skills/develop-bible-study/word-study-method.md)
+[style guide](https://the-way.lewy.au/skills/develop-bible-study/style-guide.md),
+[word-study method](https://the-way.lewy.au/skills/develop-bible-study/word-study-method.md) and,
+for prophecy, [reading a prophecy forward](https://the-way.lewy.au/skills/develop-bible-study/prophecy-method.md)
 
 ### Review: is it true?
 

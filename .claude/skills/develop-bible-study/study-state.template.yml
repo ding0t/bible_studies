@@ -58,6 +58,8 @@ stages:
     done: false
     validated: false # npm run validate passed
 
+# Prophecy only (prophecy-method.md section 3): one row per checkable particular, a mark per candidate.
+prophecy_ledger: [] # [{particular: "", ref: "", marks: {<candidate>: meets|fails|partly}, evidence: ""}]
 open_questions: []
 resources_consulted: [] # [{type: dictionary|lexicon|commentary|other, title: "", author: "", note: ""}]
 last_updated: "" # ISO date, set by the agent/user at each update
