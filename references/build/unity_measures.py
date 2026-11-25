@@ -14,7 +14,8 @@ The measures, and what each can and cannot show:
   network      whether every book and every writer is joined to the others
   bookends     rare words Genesis 1-3 and Revelation 20-22 share, across the whole span
   prophecy     OT texts the NT quotes, how long before, and whether a Qumran scroll holds them
-  validator    fulfilled prophecies (docs/data/fulfilled-prophecy.toml): written, and surviving in
+  validator    fulfilled prophecies (docs/data/fulfilled-prophecy.toml, and the entries with a
+               `standing` in prophecies-of-christ.toml): written, and surviving in
                a copy, before the event -- on the latest date any critic gives the prophecy
   style        whether the writers write differently (function-word profiles, Burrows' Delta)
   control      the same quotation test run against books of the same era outside the canon
@@ -42,6 +43,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DB = Path(__file__).resolve().parent / "out" / "bible-text.db"
 AUTHORSHIP = ROOT / "docs" / "data" / "book-authorship.toml"
 PROPHECY = ROOT / "docs" / "data" / "fulfilled-prophecy.toml"
+CHRIST_PROPHECY = ROOT / "docs" / "data" / "prophecies-of-christ.toml"
 CHRONOLOGY = ROOT / "docs" / "data" / "chronology.json"
 OUT = ROOT / "docs" / "data" / "unity-measures.json"
 
@@ -571,6 +573,10 @@ def chronology_years() -> dict[str, int]:
 def measure_validator(conn, books) -> dict:
     with open(PROPHECY, "rb") as f:
         entries = tomllib.load(f)["prophecy"]
+    # the messianic entries moved to their own file; only those with a validator standing join
+    with open(CHRIST_PROPHECY, "rb") as f:
+        entries += [{**e, "group": "messiah"} for e in tomllib.load(f)["prophecy"] if "standing" in e]
+    entries.sort(key=lambda e: ("history", "messiah", "after").index(e["group"]))
     years = chronology_years()
     qumran = defaultdict(set)
     for work, b, c, v in conn.execute("SELECT DISTINCT work_id, book, chapter, verse FROM morphology "

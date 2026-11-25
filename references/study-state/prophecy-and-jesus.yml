@@ -1,0 +1,205 @@
+# Prophecy and Jesus (backlog 2.1): a reference of the Old Testament's prophecies of Christ, and the
+# studies built on it. A multi-session project; this file is where each session starts.
+#
+# The ledger itself is docs/data/prophecies-of-christ.toml (schema at its head), checked by
+# utils/check_prophecies.py in `npm test`. This file holds the plan, the decisions, what was left
+# out and why, and the evidence once entries are researched.
+
+slug: prophecy-and-jesus
+title: "Prophecy and Jesus"
+status: scoping
+started: 2026-11-25
+
+decisions: # agreed with the author 2026-11-25
+  - scope: >-
+      Three tiers. 1: the New Testament says the text was fulfilled in Jesus or spoke of Him.
+      2: it applies the words to Him or reads a type. 3: tradition reads it of Christ and the New
+      Testament at most alludes; marked lower confidence. A popular-list claim that fails the
+      method gets an explicit "out of context" verdict (feedback: backlog item is the brief).
+      No limit on the count.
+  - data: >-
+      docs/data/prophecies-of-christ.toml is the authority for messianic entries. The 13 messiah
+      entries moved from fulfilled-prophecy.toml with ids unchanged; unity_measures.py reads the
+      ones with `standing`. Verified 2026-11-25: the validator section of unity-measures.json is
+      identical before and after the move.
+  - nt_original: >-
+      Predictions that start in the New Testament (Jesus' own of His death and return, Revelation's
+      own) go in a separate, smaller table on the same page. Not yet designed; see open.
+  - placement: >-
+      A series under docs/content/jesus/, with the generated reference page as its hub.
+
+# What the data has to answer, so the fields serve the page and the charts (the author asked to
+# "visualise and categorise the miracle of prophecy fulfilled in Christ"):
+measures:
+  - {question: "How far ahead was it written?", from: "book-authorship.toml (both schemes) + event year", field: computed}
+  - {question: "Did a copy exist before the event?", from: "Qumran / Great Isaiah Scroll / Septuagint dates", field: computed}
+  - {question: "How checkable is it?", field: specific}
+  - {question: "Could anyone have arranged it?", field: control}
+  - {question: "Was it read of the Messiah before Jesus?", field: recognition, with: recognition_evidence}
+  - {question: "Did the disciples understand it only afterwards?", field: understood_after}
+  - {question: "Does the New Testament follow the Hebrew or the Greek?", field: text_followed}
+  - {question: "Does the LORD's text become Jesus' text?", field: yhwh_text}
+  - {question: "What did it first mean, and where do the words outrun that?", field: [near, exceeds]}
+  - {question: "Where does one sentence hold two comings?", field: split}
+  - {question: "Fulfilled, partly, or still to come?", field: [status, event, future_event]}
+
+proposed: # Claude's proposals, for the author to accept or change
+  - no_odds: >-
+      ACCEPTED by author 2026-11-26 for single prophecies: no probability figure per prophecy
+      (Stoner-style). The odds for each particular are guesses; one bad number discredits the true
+      ones.
+  - combined_floor: >-
+      PROPOSED 2026-11-26, in answer to the author's "calculate odds of all being fulfilled": a
+      floor the reader sets, never an estimate. (1) Count only entries that pass every filter:
+      drafted or verified, tier 1, control divine / opponents / unwitting (never chosen or
+      followers, which a critic says could be arranged), written before the event on the critics'
+      own dates or attested in a manuscript before it. (2) Count each act once: several entries
+      fulfilled by one act (the spear: pierced-one; the soldiers' choice: no-bone-broken) are one
+      trial, which needs an `act` field grouping them (design in session 11). (3) The reader sets
+      one chance for every prophecy with a slider, default a deliberately generous 1 in 2, and the
+      page shows the product with the count and the filters beside it. At 1 in 2 the floor for n
+      independent acts is 1 in 2^n. The page says what the number assumes: independence, and that
+      the fulfilment record is the Gospels' (answered by the opponents' agency and, where it
+      exists, a witness from outside, e.g. Tacitus, Annals 15.44, for the crucifixion under
+      Pilate).
+
+sessions:
+  - n: 1
+    date: 2026-11-25
+    done: >-
+      Schema; the 13 entries moved; the candidate inventory (108 entries: tier 1 55, tier 2 36,
+      tier 3 17); utils/check_prophecies.py in npm test; this file.
+  - n: 2
+    date: 2026-11-26
+    done: >-
+      Passion: 25 entries drafted from side-by-side Greek (SBLGNT, Brenton LXX), BSB and WLC in
+      bible-text.db; every quotation in the notes re-checked against the BSB. Schema: text_followed
+      moved onto each use as `text` (Isaiah 53's uses follow different texts), and control gained
+      "followers". cursed-on-a-tree moved to excluded. Psalms sweep (the author: "psalms has a lot
+      of prophecy of Christ, including his childhood"): every strong NT link into the Psalms was
+      already listed; 11 Psalms candidates added from psalms the New Testament puts in His mouth,
+      three of them childhood (22:9-10, 69:8, 71:5-6, 17). 118 entries; 41 open on a psalm. The
+      validator section of unity-measures.json re-checked identical.
+  - n: 3
+    date: 2026-11-26
+    done: >-
+      Birth, lineage and childhood: 16 entries drafted (41 drafted of 117). taught-from-my-youth
+      moved to excluded with an out-of-context verdict. Fixed first, at the author's request: the
+      psalm-title alignment bug in query.py and export_connector.py (see open). Found: Micah 5:3
+      states the interval inside the Bethlehem prophecy ('until she who is in labor has given
+      birth'); Balaam marks the distance himself (Numbers 24:17, 'not now… not near'); Hebrews 1:5
+      leaves out 2 Samuel 7:14's 'When he does wrong', the second omission after John 13:18; the
+      Septuagint, before Christ, reads a person in Genesis 3:15 (autos), Genesis 49:10 ('the
+      expectation of nations') and Numbers 24:17 ('a man'); Matthew 2:4-6 and John 7:42 are
+      known-before evidence for Bethlehem and David's line. Romans 15:12 moved off branch-of-jesse
+      (it quotes Isaiah 11:10).
+  - n: 4
+    plan: "nature (the yhwh_text entries together) and forerunner"
+  - n: 5
+    plan: "ministry and office"
+  - n: 6
+    plan: "resurrection and redemption"
+  - n: 7
+    plan: "future, with the NT-original table designed"
+  - n: 8
+    plan: "add Edersheim (Appendix IX) and the Targums as sources, dated; the recognition pass over every entry"
+  - n: 9
+    plan: "study: Where Jesus Stopped Reading (Isaiah 61:1-2 at Luke 4:16-21), via develop-bible-study"
+  - n: 10
+    plan: "study: Known Before, Seen After; the counted features written into prophecy-method.md"
+  - n: 11
+    plan: "generator hook and reference page, the span chart (prophet's view / history's view), the series hub"
+  - n: 12
+    plan: "review-bible-study, then read-bible-study in a separate session"
+
+# Each entry, candidate -> drafted. One call to passage_brief per prophecy, research_batch_run for
+# the rest. Record what is checked under evidence: below.
+procedure:
+  - "passage_brief on the Old Testament text: context, versification, the MT and LXX side by side"
+  - "bible_trace on each New Testament use: confirm the kind, and text_followed from the wording"
+  - "the near referent and what it fails (prophecy-method.md section 4); fill near / exceeds"
+  - "a fulfilment ledger in prophecy_ledger below wherever a candidate is contested (section 3)"
+  - "control, specific, predicts, status; event or future_event"
+  - "recognition: the oldest witness, dated (section 6); unassessed until session 8 if none is in hand"
+  - "tier and kind re-checked against the definitions; then research = drafted"
+
+excluded: # read through all 471 STEP ot-quotations entries; left out, with the reason
+  - group: "commandments and law cited for conduct"
+    examples: "Matthew 5:21-43; 19:18-19; 22:37-39; Romans 13:9; James 2:8-11; 1 Peter 1:16"
+    reason: "the text is applied to the reader's life; no claim about Christ"
+  - group: "Israel's history retold"
+    examples: "Acts 7:2-50; Acts 13:17-22; Hebrews 11; 1 Corinthians 10:1-10; Jude 1:5-11"
+    reason: "narrative summary; the types inside them (the rock, the manna) have their own entries"
+  - group: "Jesus arguing from Scripture"
+    examples: "Matthew 12:3-7 (1 Samuel 21:6; Hosea 6:6); Matthew 19:4-7; 22:24-32; John 10:34 (Psalm 82:6)"
+    reason: "He uses the text to make a point; the text is not about Him"
+  - group: "the temptation"
+    examples: "Matthew 4:4-10; Luke 4:4-12 (Deuteronomy 8:3; 6:13, 16; Psalm 91:11-12)"
+    reason: "Jesus answers from Deuteronomy; Psalm 91 is the devil's misuse. Lead for Spot the Mistake"
+  - group: "Paul's arguments on faith, Israel and the nations"
+    examples: "Romans 3:10-18; 4:3-18; 9:7-29; 10:5-21; 11:1-10; Galatians 3:6-12; 4:22-30"
+    reason: "about righteousness by faith and Israel's place; Galatians 3:16 and Romans 15:12 kept"
+  - group: "end-time events with no Christ figure"
+    examples: "Matthew 24:15, 21, 29 (Daniel's abomination; Jeremiah 30:7; the signs); Revelation 6-18's judgements, beast and Babylon"
+    reason: "the subject of the end-times studies; the Christ texts in Revelation are kept"
+  - group: "wisdom and exhortation"
+    examples: "Hebrews 12:5-6; James 4:6; 1 Peter 3:10-12; 5:5-7; Romans 12:16-20"
+    reason: "counsel to believers"
+  - group: "judgement on the hearers"
+    examples: "Matthew 15:8-9 (Isaiah 29:13); Acts 13:41 (Habakkuk 1:5); Matthew 21:13 (Isaiah 56:7; Jeremiah 7:11)"
+    reason: "about the people's response or the temple's use; Isaiah 6:9-10 kept because John 12:41 ties it to His glory"
+  - group: "single texts weighed and left out"
+    items:
+      - {ref: "Galatians 3:13 (Deuteronomy 21:22-23)", reason: "a law about the hanged; Paul applies its curse to the cross and the text makes no prediction. Moved out of the ledger 2026-11-26; belongs in a redemption study"}
+      - {ref: "Hebrews 1:7 (Psalm 104:4)", reason: "about the angels, set against the Son"}
+      - {ref: "Psalm 71:5-6, 17", reason: "VERDICT out of context: the speaker is an old man ('Even when I am old and gray', 71:18, BSB), and nothing in the New Testament points here. Listed as a candidate 2026-11-26, removed the same day"}
+      - {ref: "Matthew 10:35-36 (Micah 7:6)", reason: "the division His coming brings; about households"}
+      - {ref: "John 6:45 (Isaiah 54:13)", reason: "about those taught by God"}
+      - {ref: "Ephesians 2:17 (Isaiah 57:19)", reason: "applied to the gospel's reach; revisit under redemption if needed"}
+      - {ref: "2 Corinthians 6:16-18", reason: "applied to the church (prophecy-method.md section 2's example)"}
+      - {ref: "Hebrews 12:26 (Haggai 2:6)", reason: "kept as desire-of-all-nations, tier 3"}
+      - {ref: "Revelation 21-22 (Ezekiel 40-48; Isaiah 60; 65)", reason: "the new creation's imagery: Ezekiel's Temple covers it; link"}
+
+open:
+  - "the NT-original table: fields, and whether Jesus' passion predictions (Mark 8:31; 9:31; 10:33-34) go there"
+  - "suffering-servant groups Isaiah 53:5, 9, 12 for the validator; splitting it changes What Literary Criticism Declares' counts"
+  - "sources to add: Edersheim, The Life and Times of Jesus the Messiah (1883), Appendix IX, public domain; the Targums (Sefaria; check each licence); the Qumran texts named in the notes (4Q174, 4Q175, 4Q252, 4Q521, 11Q13, 1QS) through the dss works in bible-text.db"
+  - "Spot the Mistake leads: the devil's Psalm 91; the popular-list claims that fail"
+  - "the 'more than the first person' test and the omission at John 13:18 are features for prophecy-method.md (session 10)"
+  - "TOOL BUG, found 2026-11-26, FIXED the same day at the author's request (query._move, used by every verse-level lookup; tests in test_versification.py): bible_verse (query.lookup_verse) fetches Hebrew and Greek morphology through versification.align(), which ignores psalm superscriptions, so in every psalm with a title the words come from the verse before. English Psalm 22:18 returns the morphology of Hebrew 22:18 ('I count all my bones'), while the same result's stated_hebrew_reference correctly says 22:19. The LXX pairing is off the same way (21:18 for 21:19). It reached bible_align (so passage_brief's addressing), crossref, links, interlinear, alignment_diff, section, variants and trace, and export_connector's own numbering: the published language connector showed Psalm 22:18 with the Hebrew of 22:17 ('I count all my bones'). Regenerated locally 2026-11-26 (82 psalm chapters, 9 NT chapters quoting them, 17,334 psalm occurrences in the word files; nothing outside the Psalms moved). It goes live only after `uv run python export_connector.py --publish`, which the author runs or approves. passage_brief still fetches each translation's text at the reference as given and warns when the schemes disagree; read a psalm's Hebrew or Greek through bible_verse or bible_parallel."
+  - "features seen in the passion entries, for session 10: His opponents fulfil most of them (control, counted 2026-11-26: opponents 14 of 25, chosen 6, divine 3, followers 2); of the uses with a text, the Hebrew rendered afresh 8, the Septuagint 6, both agreeing 6, neither 3; the New Testament renders the Hebrew afresh where the Septuagint misses the point (John 19:37 'pierced', Matthew 27:10 'potter', John 13:18 'heel', Luke 22:37 'with'); two omissions that respect the near referent (John 13:18 drops 'whom I trusted'; Luke 23:46 stops before 'You have redeemed me', an observation only); a change of person that names the agent (Matthew 26:31 'I will strike')"
+
+prophecy_ledger: []
+evidence:
+  - {id: ps22-18-lxx, what: "Psalm 22:18 in the Septuagint (21:19) is the wording John 19:24 quotes", tool: bible_verse, args: {book: Ps, chapter: 21, verse: 19, translation: ebible-grcbrent}, expect_contains: "Διεμερίσαντο τὰ ἱμάτιά μου ἑαυτοῖς", checked: 2026-11-26}
+  - {id: john19-24-quote, what: "John 19:24 quotes it word for word", tool: bible_verse, args: {book: John, chapter: 19, verse: 24, translation: sblgnt}, expect_contains: "Διεμερίσαντο τὰ ἱμάτιά μου ἑαυτοῖς", checked: 2026-11-26}
+  - {id: ps22-17-hever, what: "the Nahal Hever psalms scroll has karah ('dig') at English Psalm 22:16 (Hebrew 22:17)", tool: bible_variants, args: {book: Ps, chapter: 22, verse: 16}, expect_contains: "כרה", checked: 2026-11-26}
+  - {id: ps22-17-mt, what: "the Masoretic reads ka'ari ('like a lion')", tool: bible_verse, args: {book: Ps, chapter: 22, verse: 17, translation: scrollmapper-WLC}, expect_contains: "כָּ֝אֲרִ֗י", checked: 2026-11-26}
+  - {id: zech12-10-lxx, what: "the Septuagint has 'danced in triumph' for 'pierced'", tool: bible_verse, args: {book: Zech, chapter: 12, verse: 10, translation: ebible-grcbrent}, expect_contains: "κατωρχήσαντο", checked: 2026-11-26}
+  - {id: john19-37-pierced, what: "John 19:37 has 'pierced', the Hebrew's sense", tool: bible_verse, args: {book: John, chapter: 19, verse: 37, translation: sblgnt}, expect_contains: "ἐξεκέντησαν", checked: 2026-11-26}
+  - {id: zech13-7-lxx, what: "the Septuagint has 'strike the shepherds' (plural, imperative)", tool: bible_verse, args: {book: Zech, chapter: 13, verse: 7, translation: ebible-grcbrent}, expect_contains: "πατάξατε τοὺς ποιμένας", checked: 2026-11-26}
+  - {id: matt26-31-strike, what: "Matthew 26:31 has 'I will strike the shepherd'", tool: bible_verse, args: {book: Matt, chapter: 26, verse: 31, translation: sblgnt}, expect_contains: "Πατάξω τὸν ποιμένα", checked: 2026-11-26}
+  - {id: ps41-9-lxx, what: "the Septuagint of Psalm 41:9 (40:10) has 'tripping'", tool: bible_verse, args: {book: Ps, chapter: 40, verse: 10, translation: ebible-grcbrent}, expect_contains: "πτερνισμόν", checked: 2026-11-26}
+  - {id: john13-18-heel, what: "John 13:18 has 'heel', the Hebrew's aqev", tool: bible_verse, args: {book: John, chapter: 13, verse: 18, translation: sblgnt}, expect_contains: "τὴν πτέρναν αὐτοῦ", checked: 2026-11-26}
+  - {id: luke22-37-with, what: "Luke 22:37 has 'with the lawless'", tool: bible_verse, args: {book: Luke, chapter: 22, verse: 37, translation: sblgnt}, expect_contains: "μετὰ ἀνόμων ἐλογίσθη", checked: 2026-11-26}
+  - {id: isa53-12-lxx, what: "the Septuagint has 'among the lawless'", tool: bible_verse, args: {book: Isa, chapter: 53, verse: 12, translation: ebible-grcbrent}, expect_contains: "ἐν τοῖς ἀνόμοις ἐλογίσθη", checked: 2026-11-26}
+  - {id: isa53-9-lxx, what: "the Septuagint of Isaiah 53:9 lacks 'with a rich man in His death'", tool: bible_verse, args: {book: Isa, chapter: 53, verse: 9, translation: ebible-grcbrent}, expect_contains: "τοὺς πλουσίους ἀντὶ τοῦ θανάτου αὐτοῦ", checked: 2026-11-26}
+  - {id: zech11-13-lxx, what: "the Septuagint has 'furnace' for 'potter'", tool: bible_verse, args: {book: Zech, chapter: 11, verse: 13, translation: ebible-grcbrent}, expect_contains: "χωνευτήριον", checked: 2026-11-26}
+  - {id: matt27-10-potter, what: "Matthew 27:10 has 'the potter's field'", tool: bible_verse, args: {book: Matt, chapter: 27, verse: 10, translation: sblgnt}, expect_contains: "τὸν ἀγρὸν τοῦ κεραμέως", checked: 2026-11-26}
+  - {id: ps31-5-lxx, what: "Luke 23:46 follows Psalm 31:5 in the Septuagint (30:6)", tool: bible_verse, args: {book: Ps, chapter: 30, verse: 6, translation: ebible-grcbrent}, expect_contains: "Εἰς χεῖράς σου παραθήσομαι τὸ πνεῦμά μου", checked: 2026-11-26}
+  - {id: matt27-57-disciple, what: "Joseph of Arimathea was rich and a disciple", tool: bible_verse, args: {book: Matt, chapter: 27, verse: 57, translation: BSB}, expect_contains: "a rich man from Arimathea named Joseph, who himself was a disciple of Jesus", checked: 2026-11-26}
+  - {id: matt2-6-least, what: "Matthew 2:6 has 'by no means least'", tool: bible_verse, args: {book: Matt, chapter: 2, verse: 6, translation: sblgnt}, expect_contains: "οὐδαμῶς ἐλαχίστη", checked: 2026-11-26}
+  - {id: mic5-2-lxx-small, what: "the Septuagint of Micah 5:2 (5:1) has 'few, small'", tool: bible_verse, args: {book: Mic, chapter: 5, verse: 1, translation: ebible-grcbrent}, expect_contains: "ὀλιγοστὸς", checked: 2026-11-26}
+  - {id: mic5-2-mt-clans, what: "the Hebrew of Micah 5:2 (5:1) has be'alphei, 'among the clans'", tool: bible_verse, args: {book: Mic, chapter: 5, verse: 1, translation: scrollmapper-WLC}, expect_contains: "בְּאַלְפֵ", checked: 2026-11-26}
+  - {id: mic5-3-until, what: "Micah 5:3 (Hebrew 5:2) has 'until the time'", tool: bible_verse, args: {book: Mic, chapter: 5, verse: 2, translation: scrollmapper-WLC}, expect_contains: "עַד־עֵ", checked: 2026-11-26}
+  - {id: matt1-23-parthenos, what: "Matthew 1:23 has 'the virgin' as the Septuagint", tool: bible_verse, args: {book: Matt, chapter: 1, verse: 23, translation: sblgnt}, expect_contains: "ἡ παρθένος", checked: 2026-11-26}
+  - {id: hos11-1-lxx-children, what: "the Septuagint of Hosea 11:1 has 'his children'", tool: bible_verse, args: {book: Hos, chapter: 11, verse: 1, translation: ebible-grcbrent}, expect_contains: "τὰ τέκνα αὐτοῦ", checked: 2026-11-26}
+  - {id: matt2-15-son, what: "Matthew 2:15 has 'my son' as the Hebrew", tool: bible_verse, args: {book: Matt, chapter: 2, verse: 15, translation: sblgnt}, expect_contains: "ἐκάλεσα τὸν υἱόν μου", checked: 2026-11-26}
+  - {id: gen3-15-lxx-autos, what: "the Septuagint of Genesis 3:15 has the masculine 'he'", tool: bible_verse, args: {book: Gen, chapter: 3, verse: 15, translation: ebible-grcbrent}, expect_contains: "αὐτός σοῦ τηρήσει κεφαλὴν", checked: 2026-11-26}
+  - {id: gen49-10-lxx, what: "the Septuagint of Genesis 49:10 has 'the expectation of nations'", tool: bible_verse, args: {book: Gen, chapter: 49, verse: 10, translation: ebible-grcbrent}, expect_contains: "προσδοκία ἐθνῶν", checked: 2026-11-26}
+  - {id: num24-17-lxx-man, what: "the Septuagint of Numbers 24:17 has 'a man shall rise'", tool: bible_verse, args: {book: Num, chapter: 24, verse: 17, translation: ebible-grcbrent}, expect_contains: "ἀναστήσεται ἄνθρωπος ἐξ Ἰσραήλ", checked: 2026-11-26}
+  - {id: num24-17-not-now, what: "Balaam: 'not now… not near'", tool: bible_verse, args: {book: Num, chapter: 24, verse: 17, translation: BSB}, expect_contains: "I see him, but not now; I behold him, but not near", checked: 2026-11-26}
+  - {id: heb1-5-father, what: "Hebrews 1:5 quotes 2 Samuel 7:14a", tool: bible_verse, args: {book: Heb, chapter: 1, verse: 5, translation: sblgnt}, expect_contains: "Ἐγὼ ἔσομαι αὐτῷ εἰς πατέρα", checked: 2026-11-26}
+  - {id: 2sam7-14-wrong, what: "2 Samuel 7:14b, which Hebrews leaves out", tool: bible_verse, args: {book: 2Sam, chapter: 7, verse: 14, translation: BSB}, expect_contains: "When he does wrong, I will discipline him", checked: 2026-11-26}
+  - {id: jer23-6-name, what: "the Branch's name", tool: bible_verse, args: {book: Jer, chapter: 23, verse: 6, translation: BSB}, expect_contains: "The LORD Our Righteousness", checked: 2026-11-26}
+  - {id: ps110-3-lxx, what: "the Septuagint of Psalm 110:3 (109:3) has 'before the morning star I begot you'", tool: bible_verse, args: {book: Ps, chapter: 109, verse: 3, translation: ebible-grcbrent}, expect_contains: "πρὸ Ἑωσφόρου ἐγέννησά σε", checked: 2026-11-26}

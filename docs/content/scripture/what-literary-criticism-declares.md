@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Hebrews 1:1-2"
 bible_references: ["Isaiah 46:9-10", "Isaiah 41:21-23", "Isaiah 45:21", "Isaiah 48:3-5", "Deuteronomy 18:21-22", "1 Peter 1:10-12", "2 Peter 1:19-21", "Luke 24:25-27", "Luke 24:44-45", "Genesis 2:9-10", "Genesis 3:17", "Genesis 3:22-24", "Revelation 20:2", "Revelation 22:1-3", "Isaiah 44:28", "Isaiah 45:1", "Ezra 1:1-4", "Jeremiah 25:11-12", "Jeremiah 26:18", "Micah 3:12", "Daniel 8:20-22", "Micah 5:2", "Matthew 2:1-6", "Isaiah 7:14", "Isaiah 9:1-2", "Isaiah 53:5", "Isaiah 53:9", "Isaiah 53:12", "Zechariah 9:9", "Zechariah 11:12-13", "Zechariah 12:10", "Psalm 22:16", "Psalm 22:18", "Psalm 16:10", "Psalm 34:20", "Exodus 12:46", "John 19:23-24", "John 19:36-37", "Malachi 3:1", "Daniel 9:25-26", "Luke 21:20-24", "Mark 13:2", "1 Kings 13:2", "2 Kings 23:15-16", "2 Timothy 3:16", "Jeremiah 43:8-13"]
 date_created: 2026-11-04
-date_modified: 2026-11-22
+date_modified: 2026-11-26
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -507,7 +507,8 @@ declared the end from the beginning, and He has never yet failed to do what He s
 - **Control.** Five-lemma runs with three or more content words, NT against the Septuagint, canon and
   non-canon scored by the same rule. Duplicate recensions (Old Greek Daniel, Tobit's second text)
   are left out.
-- **Prophecy.** `docs/data/fulfilled-prophecy.toml`; fulfilment years from the site's chronology
+- **Prophecy.** `docs/data/fulfilled-prophecy.toml`, with the messianic entries in
+  `docs/data/prophecies-of-christ.toml`; fulfilment years from the site's chronology
   (`docs/data/chronology.json`); Qumran copies from the Dead Sea Scrolls morphology (caves 1-11
   only). The Great Isaiah Scroll's date, about 125 BC, is the one recorded on
   [Ancient Texts and Manuscripts](ancient-texts-manuscripts.md).

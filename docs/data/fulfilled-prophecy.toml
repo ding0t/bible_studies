@@ -30,8 +30,10 @@
 #                 "record-after"      the only record of the prophecy is in a book completed after
 #                                     the fulfilment, so it cannot serve as evidence here. Kept to
 #                                     show the test excludes it.
-#   group         "history" (fulfilled inside the Old Testament period), "messiah" (in Jesus),
-#                 "after" (after the prophecy's New Testament or Old Testament context closes)
+#   group         "history" (fulfilled inside the Old Testament period), "after" (after the
+#                 prophecy's New Testament or Old Testament context closes). The "messiah" group
+#                 lives in docs/data/prophecies-of-christ.toml: the validator reads every entry
+#                 there that carries a `standing`.
 
 [[prophecy]]
 id = "cyrus-named"
@@ -94,141 +96,6 @@ fulfilment = "2 Kings 23:15-16"
 event = "josiah_religious_reforms"
 standing = "record-after"
 group = "history"
-
-[[prophecy]]
-id = "bethlehem"
-prophecy = "Micah 5:2"
-masoretic = "Micah 5:1"
-predicts = "a ruler of Israel, 'whose coming forth is from of old', will come from Bethlehem Ephrathah"
-specific = ["place"]
-fulfilment = "Matthew 2:1-6"
-event = "anchor_37"
-standing = "stated"
-group = "messiah"
-
-[[prophecy]]
-id = "virgin-immanuel"
-prophecy = "Isaiah 7:14"
-predicts = "the virgin (or young woman) will conceive and bear a son called Immanuel"
-specific = ["manner"]
-fulfilment = "Matthew 1:22-23"
-event = "anchor_37"
-standing = "contested-reading"
-group = "messiah"
-
-[[prophecy]]
-id = "galilee-light"
-prophecy = "Isaiah 9:1-2"
-masoretic = "Isaiah 8:23-9:1"
-predicts = "Galilee of the nations will see a great light"
-specific = ["place"]
-fulfilment = "Matthew 4:13-16"
-event = "anchor_39"
-standing = "stated"
-group = "messiah"
-
-[[prophecy]]
-id = "messenger-before"
-prophecy = "Malachi 3:1"
-predicts = "a messenger will prepare the way, and the Lord will suddenly come to his temple"
-specific = ["sequence", "place"]
-fulfilment = "Matthew 11:10; Mark 1:2"
-event = "anchor_39"
-standing = "stated"
-group = "messiah"
-
-[[prophecy]]
-id = "king-on-donkey"
-prophecy = "Zechariah 9:9"
-predicts = "Zion's king comes humble, mounted on a donkey, on a colt the foal of a donkey"
-specific = ["manner", "place"]
-fulfilment = "Matthew 21:4-5; John 12:14-15"
-event = "anchor_41"
-standing = "stated"
-group = "messiah"
-
-[[prophecy]]
-id = "thirty-pieces"
-prophecy = "Zechariah 11:12-13"
-predicts = "the shepherd valued at thirty pieces of silver, thrown to the potter in the house of the LORD"
-specific = ["number", "manner"]
-fulfilment = "Matthew 26:15; 27:3-10 (Matthew names Jeremiah)"
-event = "anchor_41"
-standing = "stated"
-group = "messiah"
-
-[[prophecy]]
-id = "garments-divided"
-prophecy = "Psalm 22:18"
-masoretic = "Psalm 22:19"
-predicts = "they divide my garments among them, and for my clothing they cast lots"
-specific = ["manner"]
-fulfilment = "John 19:23-24"
-event = "anchor_41"
-standing = "stated"
-group = "messiah"
-
-[[prophecy]]
-id = "hands-and-feet"
-prophecy = "Psalm 22:16"
-masoretic = "Psalm 22:17"
-predicts = "they have pierced my hands and feet (Masoretic 'like a lion my hands and feet')"
-specific = ["manner"]
-fulfilment = "no New Testament text quotes this line; John 20:25-27 records the wounds"
-event = "anchor_41"
-standing = "contested-reading"
-group = "messiah"
-
-[[prophecy]]
-id = "no-bone-broken"
-prophecy = "Exodus 12:46; Psalm 34:20"
-masoretic = "Exodus 12:46; Psalm 34:21"
-predicts = "not one of his bones will be broken"
-specific = ["manner"]
-fulfilment = "John 19:36"
-event = "anchor_41"
-standing = "stated"
-group = "messiah"
-
-[[prophecy]]
-id = "pierced-one"
-prophecy = "Zechariah 12:10"
-predicts = "they will look on me, on him whom they have pierced, and mourn for him"
-specific = ["manner"]
-fulfilment = "John 19:37"
-event = "anchor_41"
-standing = "stated"
-group = "messiah"
-
-[[prophecy]]
-id = "suffering-servant"
-prophecy = "Isaiah 53:5, 9, 12"
-predicts = "the servant pierced for our transgressions, numbered with the transgressors, with a rich man in his death"
-specific = ["manner"]
-fulfilment = "Luke 22:37; Matthew 27:38, 57-60; 1 Peter 2:24"
-event = "anchor_41"
-standing = "stated"
-group = "messiah"
-
-[[prophecy]]
-id = "not-abandoned"
-prophecy = "Psalm 16:10"
-predicts = "you will not abandon my soul to Sheol, or let your holy one see corruption"
-specific = ["manner"]
-fulfilment = "Acts 2:27-31; 13:35-37"
-event = "anchor_41"
-standing = "stated"
-group = "messiah"
-
-[[prophecy]]
-id = "sixty-nine-weeks"
-prophecy = "Daniel 9:25-26"
-predicts = "from the word to restore Jerusalem to an anointed one, seven weeks and sixty-two weeks; then he is cut off, and the city and sanctuary are destroyed"
-specific = ["time", "sequence"]
-fulfilment = "no New Testament text sets out the arithmetic; Matthew 24:15 cites Daniel for the desolation"
-event = "daniel_terminus_hoehner"
-standing = "contested-reckoning"
-group = "messiah"
 
 [[prophecy]]
 id = "temple-destroyed-daniel"

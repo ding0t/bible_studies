@@ -5,7 +5,7 @@ description: "A public working list of study topics and research items still to 
 tags: ["backlog", "planning", "research", "development"]
 draft: false
 date_created: 2026-08-25
-date_modified: 2026-11-16
+date_modified: 2026-11-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -632,6 +632,10 @@ everywhere, His knowledge and His power, each from the passages that state it (I
 ## 2. Jesus
 
 ### 2.1 Prophecy and Jesus
+
+In progress since 2026-11-25. The ledger is `docs/data/prophecies-of-christ.toml`, and the plan,
+session by session, is `references/study-state/prophecy-and-jesus.yml`. The headings below are
+the ledger's categories.
 
 - Nature
 - Birth and lineage
