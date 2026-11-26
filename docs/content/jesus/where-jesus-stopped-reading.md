@@ -80,8 +80,8 @@ In Jesus' name. Amen.
 
 - [A Sabbath in Nazareth](#a-sabbath-in-nazareth). How a synagogue read the Prophets, and the rule that allowed a skip.
 - [Isaiah 61 in Isaiah](#isaiah-61-in-isaiah). The anointed speaker, the Jubilee's release, and a day and a year that Isaiah sets together.
-- [What Jesus read](#what-jesus-read). The cut, the splice and the stop, set out from the Greek.
-- [Today: why He stopped](#today-why-he-stopped). The same cut for John, the same division across prophecy, and the case on the other side.
+- [What Jesus read](#what-jesus-read). The cut, the splice and the stop, set out from the Greek, and the word He proclaimed.
+- [Today: why He stopped](#today-why-he-stopped). A similar cut for John, the same division across prophecy, when the vengeance comes, and the case on both sides.
 - [No one had divided the sentence](#no-one-had-divided-the-sentence). Two Dead Sea Scrolls and the Targum read Isaiah 61 before and after.
 - [Why Nazareth turned](#why-nazareth-turned). A word English hides, and the widow and the commander.
 - [The year of the Lord's favour, now](#the-year-of-the-lords-favour-now). What the stop shows about God.
@@ -252,6 +252,10 @@ show. Read
 against that pattern, a stop in the middle of Isaiah 61:2, followed by "today", divides the sentence
 the same way.
 
+[Immediately After](../last-things/immediately-after.md) uses this stop as its first example of a
+gap inside one sentence. [The Thousand Years](../last-things/the-thousand-years.md) follows Isaiah
+61:4's rebuilt cities to the far side of the vengeance.
+
 ### When the vengeance comes
 
 The New Testament puts God's vengeance at Christ's return. Paul promised the persecuted church
@@ -272,7 +276,7 @@ Hosea 9:7 in the Septuagint sets "the days of vengeance" beside "the days of you
 the two texts show is where God's vengeance falls in time after the year of favour began: a judgment
 on Jerusalem in AD 70, and the full day at His revealing.
 
-### The case on the other side
+### Emphasis or interval: the case on both sides
 
 Some read the stop as the emphasis of a sermon. On that reading Jesus chose to end on grace and
 made no claim about time. Isaiah's own pairing supports them: Isaiah 34:8 and 63:4 set the day and
@@ -289,10 +293,6 @@ it divides other prophecies the same way, often with "until". Commentators of mo
 read it so: the *Bible Knowledge Commentary* (John A. Martin) sees "two advents", and the *ESV Study
 Bible* says the display of His wrath "awaits Christ's second coming". Isaiah's sentence names one act
 of God. The Son who fulfils it divides it between His two comings.
-
-[Immediately After](../last-things/immediately-after.md) uses this stop as its first example of a
-gap inside one sentence. [The Thousand Years](../last-things/the-thousand-years.md) follows Isaiah
-61:4's rebuilt cities to the far side of the vengeance.
 
 ## No one had divided the sentence
 
