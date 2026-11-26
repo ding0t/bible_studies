@@ -1,9 +1,10 @@
 """Fetch/cache helper for Sefaria texts (Mishnah, Talmud, and other Jewish literature) via the
 Sefaria-Export GCS bucket (https://github.com/Sefaria/Sefaria-Export) -- no API key needed.
 
-Deliberately NOT wired into bible-text.db: Mishnah/Talmud addressing (chapter + mishnah/daf, no
-verse) doesn't map onto that schema's book/chapter/verse columns, which assume the canonical
-Bible's structure. This is a standalone cache + lookup, not a new ingest_* in build.py.
+Mishnah/Talmud addressing (chapter + mishnah/daf, no verse) doesn't map onto bible-text.db's
+book/chapter/verse columns, so for those this is a standalone cache + lookup. The Targums do map
+-- an Aramaic rendering verse by verse -- and build.py's ingest_targums fetches them through this
+same cache into bible-text.db.
 
 Every version of a Sefaria text carries its own license -- check `license_tier` before quoting.
 Prefer a CC0/CC-BY/public-domain version over the CC-BY-NC "William Davidson Edition" that shows
@@ -28,7 +29,16 @@ _TAG_PATTERN = re.compile(r"<[^>]+>")
 
 def fetch_text(category: str, title: str, language: str, version_title: str) -> dict:
     """category e.g. 'Mishnah/Seder Moed'; title e.g. 'Mishnah Pesachim'; language 'English' or
-    'Hebrew'; version_title exactly as Sefaria names it, e.g. 'Sefaria Community Translation'."""
+    'Hebrew'; version_title exactly as Sefaria names it, e.g. 'Sefaria Community Translation'.
+
+    The export names a version's file after its title with some punctuation dropped -- London
+    "Chaldee Paraphrase," 1871 is filed as London Chaldee Paraphrase, 1871 -- so pass the name the
+    bucket listing shows where the two differ."""
+    return json.loads(fetch_path(category, title, language, version_title).read_text(encoding="utf-8"))
+
+
+def fetch_path(category: str, title: str, language: str, version_title: str) -> Path:
+    """The cached file behind fetch_text, fetched on first use; build.py hashes it."""
     cache_key = f"{category}__{title}__{language}__{version_title}".replace("/", "_")
     cache_path = CACHE_DIR / f"{cache_key}.json"
     if not cache_path.exists():
@@ -38,7 +48,7 @@ def fetch_text(category: str, title: str, language: str, version_title: str) -> 
         request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (compatible; bible_studies build script)"})
         with urllib.request.urlopen(request) as response:
             cache_path.write_bytes(response.read())
-    return json.loads(cache_path.read_text(encoding="utf-8"))
+    return cache_path
 
 
 def get_section(data: dict, chapter: int, section: int) -> str | None:

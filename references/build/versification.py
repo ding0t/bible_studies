@@ -42,7 +42,8 @@ _LXX_WORKS = frozenset({"ebible-grcbrent", "swete-lxx", "lxx-lemmas"})
 def scheme_for_work(work_id: str) -> str:
     # Every Dead Sea Scroll work: Abegg's editors assigned the references against the Hebrew Bible,
     # so they follow the Masoretic division rather than an English one.
-    if work_id.startswith("dss-") or work_id in _MASORETIC_WORKS:
+    # Every Targum and every translation of one: Sefaria aligns them to the Hebrew verse rendered.
+    if work_id.startswith(("dss-", "targum-")) or work_id in _MASORETIC_WORKS:
         return "masoretic"
     if work_id in _LXX_WORKS:
         return "lxx"

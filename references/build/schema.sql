@@ -168,6 +168,28 @@ CREATE TABLE dss_variants (         -- where a Dead Sea Scroll reads something t
 );
 CREATE INDEX idx_dssvar_ref ON dss_variants(book, chapter, verse);
 
+CREATE TABLE dss_lines (            -- every line of every scroll, addressed as scholars cite them
+                                    -- (4Q174 1-2 i 11; 1QS ix 11; CD vii 18), because the sectarian
+                                    -- texts -- the Florilegium, the Testimonia, the Rule -- carry no
+                                    -- Bible reference and so are absent from `verses`. They are the
+                                    -- witnesses for what was read of the Messiah before Christ.
+    scroll TEXT NOT NULL,            -- Abegg's siglum: '4Q174', '1QS', 'CD', '1Qisaa'
+    fragment TEXT NOT NULL,          -- Abegg's label: a bare number is a column ('9' = col. ix);
+                                     -- 'f' + digits a fragment, '_' joining fragments and a trailing
+                                     -- roman numeral the column ('f1_2i' = frags 1-2, col. i)
+    line TEXT NOT NULL,              -- the line label as the edition prints it (usually a number)
+    seq INTEGER NOT NULL,            -- line order within the scroll, for ranges
+    text TEXT NOT NULL,              -- the `full` transcription: [ ] reconstruction, # damaged,
+                                     -- ? uncertain, ε a gap, ׳ a morpheme break. Kept, because a
+                                     -- reconstructed word is an editor's guess, not evidence
+    glyph TEXT NOT NULL,             -- consonants only, marks and breaks removed, for searching
+    words INTEGER NOT NULL,
+    extant_words INTEGER NOT NULL,   -- words with no reconstructed or uncertain letter
+    biblical INTEGER NOT NULL,       -- 1 when the line's words are a biblical text
+    PRIMARY KEY (scroll, seq)
+);
+CREATE INDEX idx_dsslines_frag ON dss_lines(scroll, fragment);
+
 CREATE TABLE scripture_links (      -- derived here rather than ingested: see quotations.py for
                                     -- the method and the audits that set each threshold.
     -- The classes are NOT equivalent evidence and must never be merged into one score:

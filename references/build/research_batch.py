@@ -43,6 +43,7 @@ import sqlite3
 import time
 from dataclasses import dataclass, field
 
+import edersheim
 import query
 import study_notes_query
 import twot_lookup
@@ -78,6 +79,7 @@ REGISTRY: dict[str, Spec] = {
     "bible_grammar": Spec(query.lookup_grammar, "bible-text"),
     "bible_translation_notes": Spec(query.lookup_translation_notes, "bible-text"),
     "bible_variants": Spec(query.lookup_variants, "bible-text"),
+    "dss_text": Spec(query.lookup_dss_text, "bible-text"),
     "bible_trace": Spec(query.lookup_trace, "bible-text"),
     "bible_align": Spec(query.lookup_alignment, "bible-text"),
     "bible_section": Spec(query.lookup_section, "bible-text"),
@@ -95,6 +97,8 @@ REGISTRY: dict[str, Spec] = {
     "twot_root": Spec(twot_lookup.lookup_root, "none"),
     "twot_strongs": Spec(twot_lookup.lookup_strongs, "none"),
     "twot_lemma": Spec(twot_lookup.lookup_lemma, "none"),
+    # Edersheim, Appendix IX -- a text file on the media volume, no connection
+    "edersheim_messianic": Spec(edersheim.lookup_edersheim, "none"),
 }
 
 

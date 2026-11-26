@@ -185,6 +185,12 @@ def profile_for(work_id: str) -> dict | None:
     return best
 
 
+def profile_location(work_id: str) -> Path | None:
+    """Where a raw-file source lives on disk (its profile's `location`), resolved; None if it has none."""
+    profile = profile_for(work_id)
+    return _resolve_path(profile["location"]) if profile and profile.get("location") else None
+
+
 def profiles_by_kind(kind: str) -> dict[str, dict]:
     """Every profile of one kind -- 'what do I have for word study?'."""
     return {pid: p for pid, p in profiles().items() if kind in p.get("kind", [])}

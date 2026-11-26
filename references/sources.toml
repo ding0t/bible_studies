@@ -275,8 +275,10 @@ applies_to = ["dss-*"]
 purpose = "Hebrew manuscripts a thousand years older than the Masoretic Text, showing where the text was still fluid."
 strengths = [
   "The earliest Hebrew witnesses we have, and sometimes they agree with the Septuagint against the Masoretic -- evidence the LXX translators had a different Hebrew text, not that they paraphrased.",
+  "The sectarian scrolls are in dss_lines (dss_text tool), cited by siglum, column or fragment, and line: the only Jewish witnesses that are certainly before Christ to how a text was read of the Messiah (4Q174 1-2 i 10-13; 4Q175; 1QS ix 11; CD vii 18-21; 11Q13 ii). Copies date by palaeography, mostly the first century BC.",
 ]
 limits = [
+  "A sectarian reading is one community's, and the Qumran Messiahs are two (of Aaron and of Israel, 1QS ix 11). Report what the scroll says it reads, not what a Christian reader would.",
   "Fragmentary. ALWAYS quote `extant_words` alongside a reading: Deuteronomy 32:8's 'sons of God' is legible but only two words of that verse survive, and a study should say so rather than cite it flat.",
   "A scroll is one manuscript, not a tradition. A single scroll reading is a datum, not a correction to the Masoretic Text.",
 ]
@@ -633,6 +635,43 @@ limits = [
   "quotation-only: a sentence or two with attribution in a committed file. Unrestricted for lookup.",
   "A study note is one scholar's compressed judgement with the argument omitted. Never let a modern note outrank Scripture's own terms plus the ancient reading.",
   "NKJV notes are usable, but its verse text rests on the KJV's late Greek -- consult the notes, do not quote the text for study.",
+]
+
+[profiles.targums]
+kind = ["translation"]
+edition = "translation"
+era = "ancient"
+language = "arc"
+applies_to = ["targum-*"]
+purpose = "The synagogue's Aramaic renderings of the Hebrew Bible, and open English translations of them -- the oldest rabbinic witness, verse by verse, to which texts were read of the Messiah."
+strengths = [
+  "Where a Targum writes 'the Messiah' into a verse -- 'Behold, my servant the Messiah shall prosper' (Isaiah 52:13), 'from you shall the Messiah go forth' (Micah 5:1), 'until the Messiah comes' (Onkelos, Genesis 49:10) -- it is a Jewish reading made with no interest in supporting the church's.",
+  "Verse-aligned in Masoretic numbering, so bible_verse(translation='targum-jonathan') sits beside the WLC with no versification step.",
+  "Shows the turn as well as the reading: Targum Isaiah 53 gives the servant's glory to the Messiah and his sufferings to Israel and the nations, which is exactly 'partly' in the ledger's recognition scale.",
+]
+limits = [
+  "Every Targum is later than the New Testament in its written form. It dates a reading's RECEPTION, never its existence before Christ; record the year of the Targum, not of the tradition it may preserve.",
+  "Dates (W. Bacher, 'Targum', Jewish Encyclopedia vol. 12, 1906, pp. 57-63): Onkelos composed in Palestine in the second century and redacted in Babylonia, written down 'as early as the third century' (record 250). Jonathan on the Prophets Palestinian, recognised in Babylonia in the third century and cited as of 'ancient authority' by the early fourth (record 300). Pseudo-Jonathan 'not earlier than the seventh century' -- it names Muhammad's wife and daughter as Ishmael's wives (record 650). The Fragment Targum mostly older than Pseudo-Jonathan, not all of one date, with medieval additions (record 650). Psalms composed before the fall of Rome in 476 (record 450). The Megillot and Chronicles show the Babylonian Talmud's influence (record 600). Edersheim (Life and Times, Book I ch. 1) agrees on Onkelos and Jonathan: Palestinian in origin, sanctioned before AD 200, Babylonian in their present form.",
+  "b. Megillah 3a names Onkelos and Jonathan ben Uzziel (a pupil of Hillel). An attribution, not a date: Bacher calls the Onkelos ascription post-Talmudic.",
+  "Aramaic from Sefaria's Mikraot Gedolot (public domain); English only where the file is Public Domain or CC0: Etheridge 1862 (Pseudo-Jonathan, Fragment), Pauli 1871 (Isaiah) and Sefaria's Community Translation (CC0, partial). Most of the Prophets and Writings have no open English here -- translate from the Aramaic and say so. Cook's Psalms Targum (licence unknown), the Brill Targum of Samuel (CC BY-NC) and Neofiti (unknown) are left out; read them on sefaria.org.",
+]
+
+[profiles.edersheim]
+kind = ["commentary", "index"]
+era = "modern"
+language = "en"
+applies_to = ["edersheim"]
+tier = "open"
+location = "${media.reference}/edersheim/life-and-times-of-jesus-the-messiah.txt"   # CCEL text, public domain, not ingested
+purpose = "Alfred Edersheim, The Life and Times of Jesus the Messiah (1883). Appendix IX lists 456 Old Testament passages applied to the Messiah or to Messianic times in the Targums, the Talmuds and the older Midrashim, with the reference for each."
+strengths = [
+  "The finding list for the rabbinic witness: which Targum, tractate or midrash applies a verse to the Messiah, and where. edersheim.py (and the edersheim_messianic tool) indexes it by English reference.",
+  "Edersheim was a Jewish believer and a rabbinics scholar; he says he checked every quotation against the work it came from and rejected some his predecessors (Schöttgen) had cited.",
+]
+limits = [
+  "A finding list, not the witness. Cite the Targum or midrash itself, read in bible-text.db (the Targums) or on Sefaria, and date it by its compilation. Most of what he lists is later than the New Testament, and he quotes Yalkut (13th century) freely as a collection of older works.",
+  "1883 scholarship: his datings and some readings are dated. His text on CCEL drops the Hebrew he printed ({hebrew}), and its OCR has slips ('Is. lxviii. 22' for another reference).",
+  "Raw file on the media volume, not in either database; references are in the Authorised Version's numbering with the Hebrew in brackets.",
 ]
 
 [profiles.patristics]

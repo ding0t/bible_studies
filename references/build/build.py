@@ -16,6 +16,7 @@ import sqlite3
 import subprocess
 import sys
 import unicodedata
+import urllib.error
 import urllib.request
 import zipfile
 from datetime import date, timezone
@@ -1985,6 +1986,202 @@ def ingest_dss(conn: sqlite3.Connection) -> None:
     whole = sum(1 for r in morph_rows if r[8])
     print(f"dss: {len(scrolls)} scrolls, {len(verse_rows)} verses, {len(morph_rows)} words, "
           f"{whole} fully extant ({100*whole//len(morph_rows)}%)")
+    _ingest_dss_lines(conn, api)
+
+
+def _ingest_dss_lines(conn: sqlite3.Connection, api) -> None:
+    """Every line of every scroll into dss_lines, the sectarian texts included.
+
+    ingest_dss keeps only words with a Bible reference, which leaves out exactly the scrolls that
+    say how Scripture was read before Christ: 4Q174 reads 2 Samuel 7 and Amos 9:11 of 'the Branch of
+    David', 4Q175 strings Deuteronomy 18 and Numbers 24 together, 1QS ix 11 waits for 'the
+    Messiahs of Aaron and Israel'. Same corpus, same licence, so it is loaded from the same
+    Text-Fabric api rather than a second time.
+    """
+    F, L = api.F, api.L
+    rows, seqs = [], collections.Counter()
+    # A siglum can label more than one scroll node (a scroll's biblical and non-biblical parts), so
+    # line order is counted per siglum.
+    for scroll_node in F.otype.s("scroll"):
+        scroll = F.scroll.v(scroll_node)
+        for fragment_node in L.d(scroll_node, otype="fragment"):
+            fragment = F.fragment.v(fragment_node) or ""
+            for line_node in L.d(fragment_node, otype="line"):
+                words = L.d(line_node, otype="word")
+                if not words:
+                    continue
+                text = "".join((F.full.v(w) or "") + (F.after.v(w) or "") for w in words).strip()
+                glyph = " ".join(g for g in ((F.glyph.v(w) or "").replace("׳", "") for w in words) if g)
+                extant = sum(1 for w in words
+                             if not any(F.rec.v(s) or F.unc.v(s) for s in L.d(w, otype="sign")))
+                seqs[scroll] += 1
+                rows.append((scroll, fragment, str(F.line.v(line_node) or ""), seqs[scroll], text, glyph,
+                             len(words), extant, 1 if F.biblical.v(words[0]) else 0))
+    conn.executemany(
+        "INSERT INTO dss_lines (scroll, fragment, line, seq, text, glyph, words, extant_words, "
+        "biblical) VALUES (?,?,?,?,?,?,?,?,?)", rows)
+    conn.commit()
+    sectarian = sum(1 for r in rows if not r[8])
+    print(f"dss lines: {len(rows)} lines, {sectarian} non-biblical")
+
+
+_SEFARIA_BOOKS = {
+    "Gen": "Genesis", "Exod": "Exodus", "Lev": "Leviticus", "Num": "Numbers", "Deut": "Deuteronomy",
+    "Josh": "Joshua", "Judg": "Judges", "1Sam": "I Samuel", "2Sam": "II Samuel", "1Kgs": "I Kings",
+    "2Kgs": "II Kings", "Isa": "Isaiah", "Jer": "Jeremiah", "Ezek": "Ezekiel", "Hos": "Hosea",
+    "Joel": "Joel", "Amos": "Amos", "Obad": "Obadiah", "Jonah": "Jonah", "Mic": "Micah",
+    "Nah": "Nahum", "Hab": "Habakkuk", "Zeph": "Zephaniah", "Hag": "Haggai", "Zech": "Zechariah",
+    "Mal": "Malachi", "Ps": "Psalms", "Job": "Job", "Prov": "Proverbs", "Song": "Song of Songs",
+    "Ruth": "Ruth", "Lam": "Lamentations", "Eccl": "Ecclesiastes", "Esth": "Esther",
+    "1Chr": "I Chronicles", "2Chr": "II Chronicles",
+}
+_TORAH = ("Gen", "Exod", "Lev", "Num", "Deut")
+_PROPHETS = ("Josh", "Judg", "1Sam", "2Sam", "1Kgs", "2Kgs", "Isa", "Jer", "Ezek", "Hos", "Joel",
+             "Amos", "Obad", "Jonah", "Mic", "Nah", "Hab", "Zeph", "Hag", "Zech", "Mal")
+_WRITINGS = ("Ps", "Job", "Prov", "Song", "Ruth", "Lam", "Eccl", "Esth")
+_TG = "Tanakh/Targum"
+_ETHERIDGE_PJ = "The Targum of Jonathan ben Uzziel, trans. J. W. Etheridge, London, 1862"
+_SEFARIA_CC0 = "Sefaria Community Translation"
+
+
+def _targum_files(work_id: str) -> list[tuple[str, str, str, str, str | None]]:
+    """(osis book, category, title, language, version file) for each book of a Targum work.
+
+    One work per Targum, because they are not one text and they are not one date: Onkelos is the
+    official Babylonian Targum of the Torah, Pseudo-Jonathan a later Palestinian one that names
+    Muhammad's wife and daughter (Genesis 21:21), and the Targum of the Writings was made book by
+    book. A file the export lacks for a book is skipped when fetched, not invented.
+    """
+    if work_id == "targum-onkelos":
+        return [(b, f"{_TG}/Onkelos/Torah", f"Onkelos {_SEFARIA_BOOKS[b]}", "Hebrew",
+                 f"Onkelos {_SEFARIA_BOOKS[b]}") for b in _TORAH]
+    if work_id == "targum-pseudo-jonathan":
+        return [(b, f"{_TG}/Targum Jonathan/Torah", f"Targum Jonathan on {_SEFARIA_BOOKS[b]}", "Hebrew",
+                 f"Targum Jonathan on {_SEFARIA_BOOKS[b]}") for b in _TORAH]
+    if work_id == "targum-pseudo-jonathan-en":
+        return [(b, f"{_TG}/Targum Jonathan/Torah", f"Targum Jonathan on {_SEFARIA_BOOKS[b]}", "English",
+                 _ETHERIDGE_PJ) for b in _TORAH]
+    if work_id == "targum-fragment":
+        return [(None, f"{_TG}/Targum Jerusalem", "Targum Jerusalem", "Hebrew", "Targum Jerusalem on Torah")]
+    if work_id == "targum-fragment-en":
+        return [(None, f"{_TG}/Targum Jerusalem", "Targum Jerusalem", "English",
+                 "Targum Jerusalem, trans. J. W. Etheridge, London, 1862")]
+    if work_id == "targum-jonathan":
+        return [(b, f"{_TG}/Targum Jonathan/Prophets", f"Targum Jonathan on {_SEFARIA_BOOKS[b]}", "Hebrew",
+                 "Mikraot Gedolot") for b in _PROPHETS]
+    if work_id == "targum-jonathan-en":
+        files = [("Isa", f"{_TG}/Targum Jonathan/Prophets", "Targum Jonathan on Isaiah", "English",
+                  "London Chaldee Paraphrase, 1871")]
+        return files + [(b, f"{_TG}/Targum Jonathan/Prophets", f"Targum Jonathan on {_SEFARIA_BOOKS[b]}",
+                         "English", _SEFARIA_CC0) for b in _PROPHETS if b != "Isa"]
+    if work_id == "targum-writings":
+        files = [(b, f"{_TG}/Aramaic Targum/Writings", f"Aramaic Targum to {_SEFARIA_BOOKS[b]}", "Hebrew",
+                  "Mikraot Gedolot") for b in _WRITINGS]
+        return files + [(b, f"{_TG}/Targum Jerusalem", f"Targum of {_SEFARIA_BOOKS[b]}", "Hebrew",
+                         "Wikisource Aramaic Targum to Chronicles") for b in ("1Chr", "2Chr")]
+    if work_id == "targum-writings-en":
+        files = [(b, f"{_TG}/Aramaic Targum/Writings", f"Aramaic Targum to {_SEFARIA_BOOKS[b]}", "English",
+                  _SEFARIA_CC0) for b in _WRITINGS]
+        return files + [("1Chr", f"{_TG}/Targum Jerusalem", "Targum of I Chronicles", "English", _SEFARIA_CC0)]
+    raise ValueError(work_id)
+
+
+# work_id -> (code, title, language, attribution). Every one is in masoretic versification
+# (versification.scheme_for_work): Sefaria aligns each Targum, and each translation of one, to the
+# Hebrew verse it renders -- Targum Psalm 22 has the Hebrew's 32 verses, Micah's Bethlehem verse is 5:1.
+TARGUM_WORKS = {
+    "targum-onkelos": ("Tg-Onkelos", "Targum Onkelos (Aramaic)", "arc", "Sefaria, from the printed editions"),
+    "targum-pseudo-jonathan": ("Tg-PsJ", "Targum Pseudo-Jonathan on the Torah (Aramaic)", "arc",
+                               "Sefaria ('Targum Jonathan on Genesis' and so on)"),
+    "targum-pseudo-jonathan-en": ("Tg-PsJ-Etheridge", "Targum Pseudo-Jonathan, trans. J. W. Etheridge (1862)",
+                                  "en", "J. W. Etheridge, The Targums of Onkelos and Jonathan ben Uzziel on the "
+                                  "Pentateuch (London, 1862-65), via Sefaria"),
+    "targum-fragment": ("Tg-Frag", "Fragment (Jerusalem) Targum on the Torah (Aramaic)", "arc",
+                        "Sefaria ('Targum Jerusalem')"),
+    "targum-fragment-en": ("Tg-Frag-Etheridge", "Fragment (Jerusalem) Targum, trans. J. W. Etheridge (1862)",
+                           "en", "J. W. Etheridge (London, 1862-65), via Sefaria"),
+    "targum-jonathan": ("Tg-Jon", "Targum Jonathan on the Prophets (Aramaic)", "arc",
+                        "Sefaria, Mikraot Gedolot"),
+    "targum-jonathan-en": ("Tg-Jon-en", "Targum Jonathan on the Prophets in English (Pauli 1871 for Isaiah; "
+                           "Sefaria Community Translation, CC0, elsewhere)", "en",
+                           "C. W. H. Pauli, The Chaldee Paraphrase on the Prophet Isaiah (London, 1871); "
+                           "Sefaria Community Translation"),
+    "targum-writings": ("Tg-Writ", "Targum of the Writings (Aramaic): Psalms, Job, Proverbs, the Megillot, "
+                        "Chronicles", "arc", "Sefaria, Mikraot Gedolot; Chronicles from Wikisource"),
+    "targum-writings-en": ("Tg-Writ-en", "Targum of the Writings in English (Sefaria Community Translation, CC0)",
+                           "en", "Sefaria Community Translation"),
+}
+_OPEN_SEFARIA_LICENCES = {"Public Domain": "open", "CC0": "open"}
+_FOOTNOTE = re.compile(r'<sup class="footnote-marker">.*?</sup>\s*<i class="footnote">.*?</i>', re.S)
+_TAG = re.compile(r"<[^>]+>")
+
+
+def _targum_clean(raw: str) -> str:
+    return html.unescape(_TAG.sub("", _FOOTNOTE.sub("", raw))).replace("\xa0", " ").strip()
+
+
+def ingest_targums(conn: sqlite3.Connection) -> None:
+    """The Aramaic Targums and the open English translations of them, from Sefaria's export.
+
+    A Targum is the synagogue's Aramaic rendering, and where it adds 'the Messiah' to a verse --
+    'Behold, my servant the Messiah shall prosper' (Isaiah 52:13) -- it is a Jewish witness to a
+    messianic reading made with no interest in supporting the church's. Every Targum is later than
+    the New Testament in its written form, so it dates a reading's reception, never its origin
+    before Christ; the dates and the case for older roots are in sources.toml [profiles.targums].
+
+    Fail-closed on licence: a file is taken only when its own `license` field is Public Domain or
+    CC0. That leaves out Cook's Psalms Targum and the Brill Targum of Samuel (unknown, CC BY-NC)
+    and Neofiti (unknown) -- read those on sefaria.org. Each work's source_commit hashes the files
+    it was built from, as _berean_file does, because the export bucket is not pinned.
+    """
+    import hashlib
+    import sefaria
+
+    verse_rows, works = [], []
+    for work_id, (code, title, language, attribution) in TARGUM_WORKS.items():
+        digest, licences, count = hashlib.sha256(), set(), 0
+        for book, category, sefaria_title, sefaria_language, version in _targum_files(work_id):
+            try:
+                path = sefaria.fetch_path(category, sefaria_title, sefaria_language, version)
+            except urllib.error.HTTPError as error:
+                if error.code == 404:
+                    continue  # no such version of this book in the export
+                raise
+            data = json.loads(path.read_text(encoding="utf-8"))
+            licence = data.get("license") or "unknown"
+            if licence not in _OPEN_SEFARIA_LICENCES:
+                print(f"{work_id}: {sefaria_title} ({version}) is {licence!r}, skipped")
+                continue
+            digest.update(path.read_bytes())
+            licences.add(licence)
+            text = data["text"]
+            books = ({code: text[name] for code, name in _SEFARIA_BOOKS.items() if name in text}
+                     if isinstance(text, dict) else {book: text})
+            for osis, chapters in books.items():
+                for c, verses in enumerate(chapters, start=1):
+                    for v, raw in enumerate(verses or [], start=1):
+                        if isinstance(raw, list):
+                            raw = " ".join(x for x in raw if isinstance(x, str))
+                        clean = _targum_clean(raw) if raw else ""
+                        if clean:
+                            verse_rows.append((work_id, osis, c, v, clean))
+                            count += 1
+        if not count:
+            print(f"{work_id}: no open files, skipped")
+            continue
+        works.append((work_id, code, title, language, "sefaria-export",
+                      "https://github.com/Sefaria/Sefaria-Export", "sha256:" + digest.hexdigest(), TODAY,
+                      " + ".join(sorted(licences)), "open", attribution,
+                      "Masoretic verse numbering. A Targum dates a reading's reception, not its origin: "
+                      "see sources.toml [profiles.targums] for each one's date."))
+        print(f"{work_id}: {count} verses")
+    conn.executemany(
+        "INSERT INTO works (work_id, translation_code, title, language, source_id, source_repo_url, "
+        "source_commit, ingested_at, license, license_tier, attribution, notes) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", works)
+    conn.executemany(
+        "INSERT INTO verses (work_id, book, chapter, verse, text) VALUES (?,?,?,?,?)", verse_rows)
+    conn.commit()
 
 
 
@@ -2587,6 +2784,7 @@ def main() -> None:
     ingest_uhg(conn)
     ingest_ugg(conn)
     ingest_dss(conn)
+    ingest_targums(conn)
     ingest_lxx_lemmas(conn)
     set_versification(conn)
     derive_scripture_links(conn)

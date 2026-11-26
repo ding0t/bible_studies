@@ -30,13 +30,14 @@ needs_study_notes = pytest.mark.skipif(
 def test_every_registry_entry_is_a_library_function():
     """Nothing in the registry may be defined in research_batch itself.
 
-    The registry is a dispatch table over query.py / study_notes_query.py / twot_lookup.py. A
+    The registry is a dispatch table over query.py / study_notes_query.py / twot_lookup.py /
+    edersheim.py (a text file on the media volume, indexed by reference, like the TWOT map). A
     callable defined here would be a second implementation of a lookup, which is precisely what
     the CLI/MCP split is built to prevent.
     """
     for name, spec in rb.REGISTRY.items():
         module = getattr(spec.fn, "__module__", "")
-        assert module in {"query", "study_notes_query", "twot_lookup"}, \
+        assert module in {"query", "study_notes_query", "twot_lookup", "edersheim"}, \
             f"{name} dispatches to {module}, not a library module"
 
 

@@ -1152,6 +1152,103 @@ def lookup_variants(conn: sqlite3.Connection, book: str, chapter: int, verse: in
     }
 
 
+# The names the scrolls are cited by in the literature, for the sigla Abegg's data uses.
+DSS_ALIASES = {
+    "4qflor": "4Q174", "4qflorilegium": "4Q174", "4qtest": "4Q175", "4qtestimonia": "4Q175",
+    "4qcommgena": "4Q252", "4qpgena": "4Q252", "11qmelch": "11Q13", "11qmelchizedek": "11Q13",
+    "4qmessap": "4Q521", "4qpisaa": "4Q161", "4qsm": "4Q285", "4qaramaicapocalypse": "4Q246",
+    "1qisaa": "1Qisaa", "1qisa-a": "1Qisaa", "1qh": "1QHa", "1qsa": "1QSa", "1qsb": "1QSb",
+    "1qser": "1QS", "cd": "CD", "damascus": "CD",
+}
+_ROMAN = {"i": 1, "ii": 2, "iii": 3, "iv": 4, "v": 5, "vi": 6, "vii": 7, "viii": 8, "ix": 9, "x": 10,
+          "xi": 11, "xii": 12, "xiii": 13, "xiv": 14, "xv": 15, "xvi": 16, "xvii": 17, "xviii": 18,
+          "xix": 19, "xx": 20}
+DSS_MARKS = ("[ ] an editor's reconstruction, not evidence; # a damaged letter; ? an uncertain one; "
+             "ε a gap; ׳ a morpheme break (the scrolls write some suffixes apart)")
+
+
+def _dss_fragment_label(fragment: str) -> str:
+    """'1-2 i' / 'frags 1-2 col. i' -> 'f1_2i'; 'ix' / 'col. 9' -> '9'; Abegg's own label unchanged."""
+    raw = fragment.strip().lower().replace("frags", "").replace("frag", "").replace("col.", " ").strip()
+    if raw in _ROMAN:
+        return str(_ROMAN[raw])
+    m = re.fullmatch(r"(\d+(?:[-_+]\d+)*)\s*([ivx]+)?", raw)
+    if m and (m.group(2) or not m.group(1).isdigit()):
+        return "f" + re.sub(r"-", "_", m.group(1)) + (m.group(2) or "")
+    return fragment.strip()
+
+
+def _dss_consonants(text: str) -> str:
+    stripped = "".join(c for c in unicodedata.normalize("NFD", text) if not unicodedata.combining(c))
+    return re.sub(r"[^א-ת]", "", stripped)
+
+
+def lookup_dss_text(conn: sqlite3.Connection, scroll: str | None = None, fragment: str | None = None,
+                    line: int | str | None = None, line_end: int | str | None = None,
+                    search: str | None = None, limit: int = 40) -> dict[str, object]:
+    """A Dead Sea Scroll by column or fragment and line, the sectarian texts included.
+
+    `scroll` is the siglum (4Q174, 1QS, CD) or the name it is cited by (4QFlor, 11QMelch).
+    `fragment` takes Abegg's label or the printed form: '1-2 i' (fragments 1-2, column i), 'ix'
+    (column ix). With a scroll alone, the fragments are listed; add `fragment` for its lines and
+    `line`/`line_end` for a range. `search` finds lines whose consonants contain the given Hebrew,
+    spacing ignored (משיח, צמח דויד), in one scroll or all.
+
+    Every row keeps the editors' marks, and `extant_words` says how many words survive whole.
+    A reading inside [ ] is the editor's reconstruction: say so, or leave it out.
+    """
+    resolved = None
+    if scroll:
+        resolved = DSS_ALIASES.get(re.sub(r"\s+", "", scroll.lower()), scroll)
+        known = conn.execute("SELECT scroll FROM dss_lines WHERE scroll = ? COLLATE NOCASE LIMIT 1",
+                             (resolved,)).fetchone()
+        if known is None:
+            return {"scroll": scroll, "lines": [],
+                    "warning": f"no scroll {scroll!r} in dss_lines; sigla are Abegg's (4Q174, 1QS, CD, "
+                               f"1Qisaa); 1QH is 1QHa"}
+        resolved = known["scroll"]
+    base = {"license_tier": "restricted-nc", "license": "Creative Commons: BY-NC 4.0",
+            "attribution": "Martin G. Abegg Jr., James E. Bowley and Edward M. Cook (ETCBC Text-Fabric)",
+            "marks": DSS_MARKS}
+    if search:
+        needle = _dss_consonants(search)
+        sql = ("SELECT scroll, fragment, line, text, words, extant_words, biblical FROM dss_lines "
+               "WHERE replace(glyph, ' ', '') LIKE ?")
+        params: list = [f"%{needle}%"]
+        if resolved:
+            sql += " AND scroll = ?"
+            params.append(resolved)
+        sql += " ORDER BY biblical, scroll, seq LIMIT ?"
+        params.append(limit)
+        rows = [dict(r) for r in conn.execute(sql, params)]
+        return {**base, "search": search, "consonants": needle, "scroll": resolved, "lines": rows,
+                "truncated": len(rows) == limit}
+    if resolved is None:
+        return {"lines": [], "warning": "give a scroll, or a search"}
+    if fragment is None:
+        frags = [dict(r) for r in conn.execute(
+            "SELECT fragment, COUNT(*) AS lines, SUM(words) AS words, SUM(extant_words) AS extant_words "
+            "FROM dss_lines WHERE scroll = ? GROUP BY fragment ORDER BY MIN(seq)", (resolved,))]
+        return {**base, "scroll": resolved, "fragments": frags}
+    label = _dss_fragment_label(fragment)
+    sql = ("SELECT fragment, line, text, words, extant_words, biblical FROM dss_lines "
+           "WHERE scroll = ? AND fragment = ?")
+    rows = [dict(r) for r in conn.execute(sql + " ORDER BY seq", (resolved, label))]
+    if not rows:
+        frags = [r["fragment"] for r in conn.execute(
+            "SELECT DISTINCT fragment FROM dss_lines WHERE scroll = ? ORDER BY seq", (resolved,))]
+        return {**base, "scroll": resolved, "fragment": label, "lines": [],
+                "warning": f"no fragment {label!r} in {resolved}; it has {frags[:30]}"}
+    if line is not None:
+        lines = [r["line"] for r in rows]
+        start, end = str(line), str(line_end if line_end is not None else line)
+        if start not in lines or end not in lines:
+            return {**base, "scroll": resolved, "fragment": label, "lines": [],
+                    "warning": f"{resolved} {label} has lines {lines[0]}-{lines[-1]}"}
+        rows = rows[lines.index(start):lines.index(end) + 1]
+    return {**base, "scroll": resolved, "fragment": label, "lines": rows}
+
+
 # The witness to quote for each scheme when showing a link's original-language text.
 ORIGINAL_WORK = {"lxx": "ebible-grcbrent", "masoretic": "morphhb-wlc", "english": "sblgnt"}
 ENGLISH_WORK = "ebible-eng-web"

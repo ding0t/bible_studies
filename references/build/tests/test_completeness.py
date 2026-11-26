@@ -23,6 +23,7 @@ DB_PATH = Path(__file__).parent.parent / "out" / "bible-text.db"
 OT_BOOKS = {NUM_TO_OSIS[i] for i in range(1, 40)}
 NT_BOOKS = {NUM_TO_OSIS[i] for i in range(40, 67)}
 ALL_BOOKS = OT_BOOKS | NT_BOOKS
+TORAH = {"Gen", "Exod", "Lev", "Num", "Deut"}
 KNOWN_BOOKS = ALL_BOOKS | DEUTEROCANON_OSIS
 
 # work_id -> exact book set expected, for sources that are legitimately not full-Bible.
@@ -70,6 +71,16 @@ PARTIAL_COVERAGE = {
     "ebible-grcbrent": OT_BOOKS | (DEUTEROCANON_OSIS - SWETE_ONLY_OSIS),
     # Swete supplies only what Brenton lacks: the Odes, the Psalms of Solomon and Psalm 151.
     "swete-lxx": SWETE_ONLY_OSIS | {"Ps"},
+    # The Targums: each covers one part of the Hebrew Bible, and none exists for Daniel or
+    # Ezra-Nehemiah (whose Aramaic chapters needed none). The English sets are the books that have
+    # a Public Domain or CC0 translation on Sefaria; the rest are licensed otherwise and left out.
+    **{w: TORAH for w in ("targum-onkelos", "targum-pseudo-jonathan", "targum-pseudo-jonathan-en",
+                          "targum-fragment", "targum-fragment-en")},
+    "targum-jonathan": {"Josh", "Judg", "1Sam", "2Sam", "1Kgs", "2Kgs", "Isa", "Jer", "Ezek", "Hos",
+                        "Joel", "Amos", "Obad", "Jonah", "Mic", "Nah", "Hab", "Zeph", "Hag", "Zech", "Mal"},
+    "targum-jonathan-en": {"Isa", "Jer", "Ezek", "Jonah", "Obad", "Zech", "Mal"},
+    "targum-writings": {"Ps", "Job", "Prov", "Song", "Ruth", "Lam", "Eccl", "Esth", "1Chr", "2Chr"},
+    "targum-writings-en": {"Ps", "Job", "Prov", "Eccl", "Esth", "1Chr"},
 }
 
 

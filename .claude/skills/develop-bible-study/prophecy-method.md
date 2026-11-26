@@ -115,7 +115,16 @@ Gather the witnesses in this order and **date each one**:
 2. **Second Temple Jewish.** Tobit 14:5 (deuterocanonical, raw files only; see
    [references/README.md](../../../references/README.md)) expects a lesser temple after the exile and
    a glorious one later "as the prophets have spoken".
-3. **Rabbinic**, via `references/build/sefaria.py`. Check each version's licence before quoting,
+   The Qumran scrolls are the Jewish witnesses certainly older than Jesus: `dss_text` reads them by
+   siglum, column and line, or searches the Hebrew (4Q252 v 3 reads Genesis 49:10 as "the Messiah
+   of righteousness, the Branch of David"). Weigh `extant_words`; a restored word is not evidence.
+   The Psalms of Solomon (`bible_verse`, `PsSol`, `swete-lxx`; after 48 BC by 2:30-31) and the
+   Septuagint's renderings belong here too.
+3. **Rabbinic.** The Targums are in `bible_verse` (`targum-onkelos`, `targum-jonathan`,
+   `targum-writings`, ...; Hebrew numbering), dated in sources.toml [profiles.targums]: all later
+   than the New Testament, so they show a reading's reception, never its age. `edersheim_messianic`
+   is the finding list for the rest (Edersheim's Appendix IX). Read midrash and Talmud via
+   `references/build/sefaria.py`. Check each version's licence before quoting,
    and date a midrash by its compilation, not by the rabbi it names. *Lamentations Rabbah*,
    Petichta 25 (Sefaria's title is "Eikhah Rabbah") traces the Presence from Ezekiel 9-11 to the
    Mount of Olives, where it waited three and a half years for Israel to repent. Any parallel with

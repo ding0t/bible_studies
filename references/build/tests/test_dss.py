@@ -157,3 +157,40 @@ def test_variants_are_reported_one_direction_only(conn):
             "SELECT COUNT(*) n FROM morphology WHERE work_id=? AND book=? AND chapter=? AND verse=? "
             "AND extant=1", (row["work_id"], row["book"], row["chapter"], row["verse"])).fetchone()["n"]
         assert present > 0, "a variant was recorded from a verse with nothing extant"
+
+
+# --- dss_lines: the sectarian scrolls, by column or fragment and line --------------------------
+
+def test_sectarian_scrolls_are_addressable_as_cited(conn):
+    """4Q174 1-2 i 11 is how the Florilegium is cited. It carries no Bible reference, so before
+    dss_lines it was invisible: the verses table only admits words the editors assigned to a book."""
+    result = query.lookup_dss_text(conn, "4QFlor", "1-2 i", 11)
+    assert result["scroll"] == "4Q174" and result["fragment"] == "f1_2i"
+    assert "צמח דויד" in result["lines"][0]["text"]
+    assert result["license_tier"] == "restricted-nc"
+
+
+def test_a_column_range_reads_in_order(conn):
+    lines = query.lookup_dss_text(conn, "CD", "vii", 18, 20)["lines"]
+    assert [line["line"] for line in lines] == ["18", "19", "20"]
+    assert "כוכב" in consonants(lines[1]["text"])
+
+
+def test_reconstruction_is_counted_against_the_line(conn):
+    """11Q13 ii 18 names 'the anointed of the Spirit' with most of the line restored by editors.
+    A line's extant count is what stops a reconstruction being cited as manuscript evidence."""
+    line = query.lookup_dss_text(conn, "11Q13", "2", 18)["lines"][0]
+    assert "[" in line["text"]
+    assert line["extant_words"] < line["words"] / 2
+
+
+def test_search_finds_the_messiahs_of_aaron_and_israel(conn):
+    rows = query.lookup_dss_text(conn, search="משיחי אהרון", limit=100)["lines"]
+    assert any(r["scroll"] == "1QS" and r["fragment"] == "9" and r["line"] == "11" for r in rows)
+
+
+def test_a_siglum_split_across_scroll_nodes_keeps_one_line_order(conn):
+    """11Q5 carries psalms and non-biblical compositions as separate nodes under one siglum; the
+    line order is per siglum, so the primary key holds and no line is lost."""
+    total = conn.execute("SELECT COUNT(*) n, MAX(seq) m FROM dss_lines WHERE scroll='11Q5'").fetchone()
+    assert total["n"] == total["m"] > 0

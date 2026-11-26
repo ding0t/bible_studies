@@ -35,6 +35,7 @@ import research_batch
 import source_catalog
 import study_notes_query
 import study_structure
+import edersheim
 import twot_lookup
 
 def _version() -> str:
@@ -453,6 +454,30 @@ def bible_variants(book: str, chapter: int, verse: int | None = None) -> dict:
 
 
 @mcp.tool()
+def dss_text(scroll: str | None = None, fragment: str | None = None, line: str | None = None,
+             line_end: str | None = None, search: str | None = None, limit: int = 40) -> dict:
+    """A Dead Sea Scroll by column or fragment and line -- the sectarian scrolls too, which carry no
+    Bible reference and so are invisible to bible_verse and bible_variants.
+
+    Use it for what was read of the Messiah before Christ: 4Q174 (4QFlorilegium) 1-2 i 10-13 reads
+    2 Samuel 7:11-14 and Amos 9:11 of 'the Branch of David'; 4Q175 (Testimonia) strings Deuteronomy
+    18:18 and Numbers 24:17 together; 1QS ix 11 waits for 'the Messiahs of Aaron and Israel'; CD
+    vii 18-21 reads Numbers 24:17's star. Cite a scroll as scholars do: siglum, fragment or column,
+    line.
+
+    `scroll` alone lists its fragments; add `fragment` ('1-2 i', 'ix', or Abegg's 'f1_2i') for its
+    lines and `line`/`line_end` for a range. `search` finds Hebrew in one scroll or all (משיח; צמח
+    דויד), by consonants. CC BY-NC: quote briefly. Read `marks`: a word inside [ ] is a modern
+    editor's reconstruction, not manuscript evidence -- check `extant_words` before leaning on a line.
+    """
+    conn = query.connect()
+    try:
+        return query.lookup_dss_text(conn, scroll, fragment, line, line_end, search, limit)
+    finally:
+        conn.close()
+
+
+@mcp.tool()
 def bible_trace(book: str, chapter: int, verse: int, translation: str | None = None) -> dict:
     """Everything the corpus knows about one verse, with the evidence for each connection shown.
 
@@ -616,6 +641,20 @@ def twot_lemma(lemma: str) -> list[dict]:
     -- from bible_word or bible_interlinear -- use twot_strongs instead; it normalises MACULA's
     prefixed and zero-padded spellings (b:H7225, H0430) and is much harder to miss with."""
     return twot_lookup.lookup_lemma(lemma)
+
+
+@mcp.tool()
+def edersheim_messianic(book: str, chapter: int, verse: int | None = None) -> dict:
+    """Where the ancient synagogue read an Old Testament verse of the Messiah: Edersheim's
+    Appendix IX (The Life and Times of Jesus the Messiah, 1883), 456 passages with the Targum,
+    Talmud or Midrash that applies each one. English (Authorised Version) numbering.
+
+    A finding list, never the witness: follow it to the source -- the Targums are in bible_verse
+    (translation 'targum-onkelos', 'targum-jonathan', 'targum-writings', ...) -- and date the
+    source by its compilation, which is nearly always after the New Testament. `mentioned_in`
+    lists the paragraphs that cite the verse in passing. Public domain; read from the media volume.
+    """
+    return edersheim.lookup_edersheim(book, chapter, verse)
 
 
 # ---------------------------------------------------------------------------
