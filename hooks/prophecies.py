@@ -13,8 +13,9 @@ stale, so the counts here are the ledger's. Every count on the page is written h
 
 Each card carries id="prophecy-<id>", so a study links to one entry as
 `../jesus/prophecies-of-christ.md#prophecy-<id>`. References are plain text so the verse pop-up
-finds them. A note's research leads (from "lead:" on) are the ledger's working notes, unchecked,
-and are left off the page. The styles are in assets/stylesheets/prophecies.css.
+finds them. An entry's `notes` are the ledger's working notes (leads, questions for a later session)
+and never reach the page; every field that does is kept free of working language by
+utils/check_prophecies.py. The styles are in assets/stylesheets/prophecies.css.
 """
 
 from __future__ import annotations
@@ -38,13 +39,13 @@ CATEGORIES = {
     "future": "Future",
 }
 TIERS = {
-    1: "The New Testament says it was fulfilled in Him",
+    1: "The New Testament says it was fulfilled in Him or spoke of Him",
     2: "The New Testament applies it to Him",
     3: "A reading of tradition; the New Testament at most alludes",
 }
 STATUS = {"fulfilled": "Fulfilled", "partly": "Partly fulfilled", "future": "Still to come"}
 USE_KINDS = {
-    "fulfilment": "fulfilled", "split": "fulfilled in part", "type": "a type",
+    "fulfilment": "fulfilled", "split": "part now, part still to come", "type": "a type",
     "application": "applied", "imagery": "its imagery", "allusion": "an allusion",
 }
 USE_TEXTS = {
@@ -53,9 +54,9 @@ USE_TEXTS = {
 }
 RECOGNITION = {
     "known-before": "Read of the Messiah before Jesus",
-    "partly": "Read of the Messiah in part before Jesus",
+    "partly": "Read of the Messiah before Jesus, but not of the part He fulfilled",
     "read-after": "Read of the Messiah only in a later Jewish source",
-    "veiled": "Read of the Messiah by no one, before Jesus or since",
+    "veiled": "Read of the Messiah in no Jewish source, before Jesus or since",
     "unassessed": "Not yet assessed",
 }
 CONTROL = {
@@ -133,22 +134,16 @@ def year_label(y: int) -> str:
     return f"{-y} BC" if y < 0 else f"AD {y}"
 
 
-def _public(note: str) -> str:
-    """The ledger's checked observations; a research lead, from "lead:" on, is not yet checked."""
-    return note.split("lead:")[0].strip()
-
-
 def _years(row: dict) -> str:
     if row.get("fulfilled") is None:
         return ""
     trad, crit = row["written_traditional"], row["written_critical"]
-    written = f"Written by {year_label(trad)}"
-    if crit != trad:
-        written += f" ({year_label(crit)} on the critics' dates)"
-    ahead = f"{row['years_ahead_traditional']:,} years ahead"
-    if crit != trad:
-        ahead += f", {row['years_ahead_critical']:,} on theirs"
-    return f"{written}; came to pass {year_label(row['fulfilled'])}: {ahead}."
+    line = (f"Written by {year_label(trad)}; came to pass {year_label(row['fulfilled'])}: "
+            f"{row['years_ahead_traditional']:,} years ahead")
+    # The critics' date matters only where it is later; an earlier one (Isaiah 7) moves nothing.
+    if crit is not None and crit > trad:
+        line += f", or {row['years_ahead_critical']:,} on the latest date critics give it ({year_label(crit)})"
+    return line + "."
 
 
 def _copy(row: dict) -> str:
@@ -165,7 +160,7 @@ def _use(use: dict) -> str:
     parts = [USE_KINDS.get(use["kind"], use["kind"])]
     if USE_TEXTS.get(use.get("text", "none")):
         parts.append(USE_TEXTS[use["text"]])
-    note = f'<span class="pc-use-note">{_text(_public(use["note"]))}</span>' if use.get("note") and _public(use["note"]) else ""
+    note = f'<span class="pc-use-note">{_text(use["note"])}</span>' if use.get("note") else ""
     return f'<li><b>{escape(use["ref"])}</b> <span class="pc-kind">{escape("; ".join(parts))}</span> {note}</li>'
 
 
@@ -185,8 +180,6 @@ def _card(e: dict) -> str:
         s = e["split"]
         split = (f'<p class="pc-split"><b>Two comings in one text</b> Fulfilled: {_text(s["first"])}. '
                  f'Still to come: {_text(s["rest"])}. Divided at {escape(s["at"])}.</p>')
-    notes = _public(e.get("notes", ""))
-    notes = f'<details class="pc-notes"><summary>Notes</summary><p>{_text(notes)}</p></details>' if notes else ""
     form = ' <span class="pc-form">a type</span>' if e.get("form") == "type" else ""
     return f"""<article class="pc-entry pc-{escape(e['status'])}" id="prophecy-{escape(e['id'])}">
   <header class="pc-head"><b class="pc-ref">{escape(e['prophecy'])}</b>{form}
@@ -196,15 +189,12 @@ def _card(e: dict) -> str:
   <ul class="pc-uses">{uses}</ul>
   {first}{split}
   <ul class="pc-meta">{"".join(f"<li>{escape(m)}</li>" for m in meta)}</ul>
-  {notes}
 </article>"""
 
 
 def _nt_card(e: dict) -> str:
     meta = [m for m in (RECORDED.get(e.get("recorded", ""), ""), CONTROL.get(e.get("control", ""), "")) if m]
     fulfilment = f'<p class="pc-says"><b>Fulfilled</b> {escape(e["fulfilment"])}</p>' if e.get("fulfilment") else ""
-    notes = _public(e.get("notes", ""))
-    notes = f'<details class="pc-notes"><summary>Notes</summary><p>{_text(notes)}</p></details>' if notes else ""
     return f"""<article class="pc-entry pc-{escape(e['status'])}" id="prophecy-{escape(e['id'])}">
   <header class="pc-head"><b class="pc-ref">{escape(e['prophecy'])}</b>
     <span class="pc-speaker">{escape(SPEAKERS[e['speaker']])}</span>
@@ -212,7 +202,6 @@ def _nt_card(e: dict) -> str:
   <p class="pc-says">{_text(e['predicts'])}</p>
   {fulfilment}
   <ul class="pc-meta">{"".join(f"<li>{escape(m)}</li>" for m in meta)}</ul>
-  {notes}
 </article>"""
 
 
@@ -233,13 +222,14 @@ def _measures() -> str:
 
 def _dated() -> str:
     rows = [r for r in _computed.values() if r.get("fulfilled") is not None]
-    before_crit = sum(r["years_ahead_critical"] > 0 for r in rows)
-    translated = sum(r["translated_before"] for r in rows)
+    before = sum(r["years_ahead_traditional"] > 0 for r in rows)
+    critical = [r for r in rows if r["written_critical"] is not None]
+    before_crit = sum(r["years_ahead_critical"] > 0 for r in critical)
     manuscript = sum(r["manuscript_before"] and "1Qisaa" in r["qumran"] for r in rows)
     qumran = sum(bool(r["qumran"]) for r in _computed.values())
     return (f'<p class="pc-dated">{len(rows)} of the {len(_ledger)} prophecies are tied to an event this '
-            f"site's chronology dates. {before_crit} of the {len(rows)} were written before it, even on "
-            f"the latest date critical scholarship gives them, and {translated} were already read in "
-            f"Greek by about 132 BC, on the witness of Sirach's prologue. {manuscript} survive in the "
-            f"Great Isaiah Scroll, a manuscript you can see that is older than the event. The Hebrew of "
-            f"{qumran} of all {len(_ledger)} is among the Dead Sea Scrolls.</p>")
+            f"site's chronology dates, and {before} of them were written before it on the traditional dates. "
+            f"For {len(critical)} of them this site records the date critical scholarship gives the text, "
+            f"and {before_crit} of those were written before the event on that date too. {manuscript} survive in the "
+            f"Great Isaiah Scroll, a manuscript older than the event. At least part of the Hebrew of "
+            f"{qumran} of all {len(_ledger)} is among the Dead Sea Scrolls, copied before AD 68.</p>")

@@ -21,7 +21,7 @@ from pathlib import Path
 
 from unity_measures import (
     AUTHORSHIP, CHRIST_PROPHECY, CHRONOLOGY, DB, GREAT_ISAIAH_SCROLL, QUMRAN, QUMRAN_FALLS, ROOT,
-    SIRACH_PROLOGUE, chronology_years, date_range, load_authorship, parse_refs,
+    chronology_years, date_range, load_authorship, parse_refs,
 )
 
 OUT = ROOT / "docs" / "data" / "prophecies-of-christ.json"
@@ -34,6 +34,12 @@ def inputs_hash() -> str:
     for path in INPUTS:
         digest.update(path.read_bytes())
     return digest.hexdigest()
+
+
+def has_critical_date(book: dict, chapter: int) -> bool:
+    if any(lo <= chapter <= hi for lo, hi in (part["chapters"] for part in book.get("critical_parts", []))):
+        return True
+    return "critical" in book or "critical_after" in book
 
 
 def crucifixion_year() -> int:
@@ -57,6 +63,11 @@ def entry_row(e: dict, books: dict, years: dict[str, int], passion: set[str], sc
     written = {s: min(date_range(books[b], s, c)[1] for b, c, _ in refs) for s in ("traditional", "critical")}
     if "written" in e:
         written["traditional"] = e["written"]
+    # date_range falls back to the traditional date where the authorship table records no critical
+    # one (the Psalms, Zechariah), which would read as the critics agreeing. Keep a critical date
+    # only where every text's book has one of its own.
+    if not all(has_critical_date(books[b], c) for b, c, _ in refs):
+        written["critical"] = None
     event = e.get("event")
     fulfilled = (crucifixion_year() if event in passion else years.get(event)) if event else e.get("year")
     scrolls = sorted(set().union(*(scrolls_at.get(r, set()) for r in hebrew)))
@@ -68,11 +79,8 @@ def entry_row(e: dict, books: dict, years: dict[str, int], passion: set[str], sc
         "written_critical": written["critical"],
         "fulfilled": fulfilled,
         "years_ahead_traditional": fulfilled - written["traditional"] if dated else None,
-        "years_ahead_critical": fulfilled - written["critical"] if dated else None,
+        "years_ahead_critical": fulfilled - written["critical"] if dated and written["critical"] is not None else None,
         "qumran": scrolls,
-        # Sirach's prologue (about 132 BC) says the Law, the Prophets and the rest were already
-        # read in Greek: a translation existed, though no copy of that age survives.
-        "translated_before": dated and SIRACH_PROLOGUE < fulfilled,
         # A manuscript you can hold, older than the event: the Great Isaiah Scroll (about 125 BC),
         # or any Qumran copy of a prophecy fulfilled after the site fell. A Qumran copy of one
         # fulfilled in Jesus' lifetime counts only by its own palaeographic date, which this file

@@ -37,9 +37,16 @@ def test_critical_isaiah_dates_the_servant_by_its_chapter(rows):
     assert servant["written_critical"] == -540 and servant["years_ahead_critical"] == 573
 
 
+def test_no_critical_date_is_claimed_where_the_table_records_none(rows):
+    """The authorship table gives the Psalms no critical date; showing the traditional one under the
+    critics' name would make them agree with it."""
+    assert rows["hands-and-feet"]["written_critical"] is None
+    assert rows["hands-and-feet"]["years_ahead_critical"] is None
+
+
 def test_an_undated_prophecy_claims_nothing(rows):
     future = [r for r in rows.values() if r["fulfilled"] is None]
-    assert future and not any(r["manuscript_before"] or r["translated_before"] for r in future)
+    assert future and not any(r["manuscript_before"] for r in future)
     assert all(r["years_ahead_traditional"] is None for r in future)
 
 

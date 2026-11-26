@@ -85,7 +85,7 @@ His disciples' minds, to understand the Scriptures and to see Him in them. In Je
 - [Why God hid it](#why-god-hid-it). The hidden wisdom, and [the glory still to come](#the-glory-still-to-come): the prophecies still ahead.
 - [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
-[![Known before, seen after: a chart of the 118 prophecies of Christ in this site's ledger by subject and by who fulfilled them, showing for each how many were read of the Messiah before Jesus, in part, only in a later Jewish source, or by no one. Lineage 6 of 8 known before; passion 0 of 26; prophecies fulfilled by His opponents 0 of 19](../assets/img/jesus/known-before-seen-after.svg)](../assets/img/jesus/known-before-seen-after.svg)
+[![Known before, seen after: a chart of the 118 prophecies of Christ in this site's ledger by subject and by who fulfilled them, showing for each how many were read of the Messiah before Jesus, in part, only in a later Jewish source, or in no Jewish source. Lineage 6 of 8 known before; passion 0 of 26; prophecies fulfilled by His opponents 0 of 19](../assets/img/jesus/known-before-seen-after.svg)](../assets/img/jesus/known-before-seen-after.svg)
 
 ## What "known before" means
 
@@ -109,8 +109,8 @@ different question, and [What Literary Criticism Declares](../scripture/what-lit
 answers it.
 
 Each of the 118 prophecies falls into one of four groups: read of the Messiah before Jesus (20),
-read of Him in part (6), read of Him only in a later Jewish source (12), and read of Him by no one,
-before Jesus or since (80). The chart above sets them out by subject and by who brought each
+read of Him in part (6), read of Him only in a later Jewish source (12), and read of Him in no Jewish
+source, before Jesus or since (80). The chart above sets them out by subject and by who brought each
 fulfilment about.
 
 ## Known before: the line and the throne

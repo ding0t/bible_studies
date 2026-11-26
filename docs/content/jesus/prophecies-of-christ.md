@@ -1,7 +1,7 @@
 ---
 title: "The Prophecies of Christ: What the Old Testament Foretold, and When It Came to Pass"
 category: "prophecy"
-description: "Every Old Testament prophecy the New Testament reads of Jesus, with what each foretold, where it was fulfilled or is still to come, how far ahead it was written, whether anyone read it of the Messiah beforehand, and who brought it about."
+description: "Every Old Testament prophecy the New Testament reads of Jesus, and those tradition reads of Him, with what each foretold, where it was fulfilled or is still to come, how far ahead it was written, whether anyone read it of the Messiah beforehand, and who brought it about."
 tags: ["messianic-prophecy", "prophecy-fulfilled", "isaiah", "luke", "dead-sea-scrolls"]
 draft: true
 primary_passage: "Isaiah 45:21; Luke 24:44"
@@ -16,7 +16,7 @@ series:
     - study: jesus/the-king-on-a-donkey.md
       why: "Zechariah 9:9, a prophecy Jesus fulfilled knowingly, and what the donkey meant."
     - study: jesus/the-cups-jesus-drank.md
-      why: "\"To fulfill the Scripture, Jesus said, 'I am thirsty'\" (John 19:28): the cup He refused and the cup He drank."
+      why: "\"To fulfill the Scripture, Jesus said, 'I am thirsty'\" (John 19:28, BSB): the cup He refused and the cup He drank."
     - study: jesus/three-days-and-three-nights.md
       why: "The sign of Jonah: the one sign Jesus gave of His resurrection."
     - study: jesus/melchizedek-priesthood.md
@@ -33,7 +33,7 @@ ai_provider_models:
 
 **In one sentence:** God staked His name on telling what was still to come (Isaiah 45:21; 46:9-10),
 and in His Son Jesus He kept His word: this page sets out every Old Testament prophecy the New
-Testament reads of Him, so you can test each one and see that God does what He says.
+Testament reads of Him, and those tradition reads of Him, so you can test each one and see that God does what He says.
 
 ## God's own argument
 
@@ -52,10 +52,10 @@ BSB).
 
 Jesus made the LORD's argument His own. On the night He was betrayed He told His disciples, "I am
 telling you now before it happens, so that when it comes to pass, you will believe that I am He"
-(John 13:19, BSB). The Greek of His closing words, ἵνα πιστεύσητε... ὅτι ἐγώ εἰμι (*hina
-pisteusēte... hoti egō eimi*, "so that you may believe that I am He"), is the Septuagint's at Isaiah
-43:10, where the LORD says Israel is His witness "so that you may consider and believe Me and
-understand that I am He" (Isaiah 43:10, BSB). After the resurrection He showed them how far it
+(John 13:19, BSB). His closing words, ἵνα πιστεύσητε... ὅτι ἐγώ εἰμι (*hina pisteusēte... hoti
+egō eimi*, "so that you may believe that I am He"), take up the Septuagint's words at Isaiah 43:10,
+ἵνα γνῶτε καὶ πιστεύσητε καὶ συνῆτε ὅτι ἐγώ εἰμι, where the LORD says Israel is His witness "so that
+you may consider and believe Me and understand that I am He" (Isaiah 43:10, BSB). After the resurrection He showed them how far it
 reached: "Everything must be fulfilled that is written about Me in the Law of Moses, the Prophets,
 and the Psalms" (Luke 24:44, BSB).
 
@@ -71,7 +71,7 @@ and every count on this page is drawn from it when the site is built.
 **Which prophecies.** A prophecy is listed when the New Testament reads it of Jesus, and its card
 says how firmly:
 
-- **The New Testament says it was fulfilled in Him.** A fulfilment formula ("this took place to
+- **The New Testament says it was fulfilled in Him or spoke of Him.** A fulfilment formula ("this took place to
   fulfill"), or a writer saying the text spoke of Him (Acts 2:31).
 - **The New Testament applies it to Him.** The words used of Jesus, or a person, event or
   institution read as a type of Him, without a claim that the text spoke of Him.
@@ -81,21 +81,23 @@ says how firmly:
 **What each card measures.**
 
 - **How far ahead it was written.** The latest year each text could have been written on the
-  traditional dates, and on the latest date critical scholarship gives it, against the year it came
-  to pass. Both schemes and their sources are in [What Literary Criticism
+  traditional dates, against the year it came to pass, and the critics' date too where they date the
+  text later and this site's authorship table records it. Both schemes and their sources are in [What Literary Criticism
   Declares](../scripture/what-literary-criticism-declares.md).
-- **A copy older than the event.** Whether a manuscript survives from before the fulfilment (the
-  Great Isaiah Scroll, about 125 BC), or the Hebrew is among the Dead Sea Scrolls.
+- **A copy older than the event.** Whether a manuscript survives from before the fulfilment: the
+  Great Isaiah Scroll, about 125 BC. Separately, whether the Hebrew is among the Dead Sea Scrolls,
+  all copied before AD 68.
 - **Whether it was read of the Messiah before Jesus.** Read so by a witness older than Jesus (Qumran,
-  the Psalms of Solomon, the Septuagint, or the New Testament reporting settled belief); in part;
-  only in a later Jewish source; or by no one.
+  the Psalms of Solomon, the Septuagint, or the New Testament reporting settled belief); before
+  Jesus, but not of the part He fulfilled; only in a later Jewish source; or in no Jewish source at
+  all.
 - **Who brought it about.** God alone, His opponents, someone with no thought of the prophecy, His
   followers, or Jesus Himself, knowingly. This is the measure of whether it could have been
   arranged.
 - **Which text the New Testament follows.** The Hebrew rendered afresh, the Septuagint's wording, or
   both where they agree.
-- **Two comings in one text.** Where one prophecy holds His first coming and His return, the card
-  names the part fulfilled, the part still to come, and the New Testament text that divides them.
+- **Two comings in one text.** Where the New Testament divides one prophecy between His first
+  coming and His return, the card names the part fulfilled, the part still to come, and the New Testament text that divides them.
 
 This page gives no odds. A probability for each prophecy would be a guess, and one bad guess would
 discredit the true fulfilments beside it. The measures above can each be checked.
@@ -180,7 +182,7 @@ before or after the event.
 - **Dead Sea Scrolls.** Martin G. Abegg Jr., James E. Bowley and Edward M. Cook's transcriptions in
   the ETCBC Text-Fabric edition (CC BY-NC 4.0).
 - **Later Jewish readings.** The Targums (dated by W. Bacher, "Targum", *Jewish Encyclopedia*,
-  1906) and the Babylonian Talmud, via the Sefaria export.
+  1906) and the Babylonian Talmud (Wikisource Talmud Bavli, CC BY-SA), via the Sefaria export.
 - **On this site.** [What Literary Criticism Declares](../scripture/what-literary-criticism-declares.md)
   (the dates, and prophecies written and copied before the events); [Two mountain
   peaks](../last-things/immediately-after.md#two-mountain-peaks) (near and far in one sentence).

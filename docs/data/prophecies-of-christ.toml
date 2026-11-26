@@ -116,7 +116,7 @@ tier = 1
 category = "birth"
 prophecy = "Micah 5:2"
 masoretic = "Micah 5:1"
-predicts = "a ruler of Israel, 'whose coming forth is from of old', will come from Bethlehem Ephrathah"
+predicts = "a ruler over Israel, 'One whose origins are of old' (BSB), will come forth from Bethlehem Ephrathah"
 specific = ["place"]
 uses = [
   { ref = "Matthew 2:1-6", kind = "split", text = "neither", note = "'by no means least' (οὐδαμῶς ἐλαχίστη) turns Micah's 'small' (צָעִיר, tsa'ir; LXX ὀλιγοστός) around; 'rulers' (ἡγεμόσιν) reads the consonants of בְּאַלְפֵי (be'alphei, 'among the clans') as אַלֻּפֵי (alluphei, 'chiefs'); 'who will be the shepherd of My people Israel' comes from 2 Samuel 5:2. Matthew stops at Micah 5:2" },
@@ -127,7 +127,7 @@ control = "unwitting"
 recognition = "known-before"
 event = "anchor_37"
 future_event = "millennium"
-split = { first = "Micah 5:2 (the ruler from Bethlehem, whose origins are of old)", rest = "Micah 5:3-4 (he stands and shepherds; 'His greatness will extend to the ends of the earth', BSB)", at = "Matthew 2:6", signal = "Micah 5:3: 'Israel will be abandoned until she who is in labor has given birth' (BSB), עַד־עֵת יוֹלֵדָה יָלָדָה (ad-et yoledah yaladah): an interval stated inside the prophecy, between the birth and the shepherding" }
+split = { first = "Micah 5:2 (the ruler from Bethlehem, whose origins are of old)", rest = "Micah 5:3-4 (Israel abandoned until she who is in labor has given birth, then the rest of His brothers return; 'His greatness will extend to the ends of the earth', BSB). Contested: Matthew 2:6's 'who will be the shepherd of My people Israel' (BSB) takes up the shepherding of 5:4 with 2 Samuel 5:2, so some put 5:4's shepherding on the fulfilled side", at = "Matthew 2:6", signal = "Micah 5:3: 'Israel will be abandoned until she who is in labor has given birth' (BSB), עַד־עֵת יוֹלֵדָה יָלָדָה (ad-et yoledah yaladah): an interval stated inside the prophecy, between the birth and the shepherding" }
 recognition_evidence = [
   { note = "the chief priests and scribes answer Herod from Micah 5:2 before the magi find the child: the reading was held in Jerusalem", source = "Matthew 2:4-6", year = -5 },
   { note = "the crowd at the Feast of Booths: the Christ comes from Bethlehem", source = "John 7:41-42", year = 32 },
@@ -152,7 +152,7 @@ control = "divine"
 recognition = "veiled"
 event = "anchor_37"
 near = "a sign to Ahaz: before the boy knows good from evil, the land of the two kings is laid waste (Isaiah 7:15-16)"
-exceeds = "lead: the child's name Immanuel, 'God with us' (Matthew 1:23), the land called 'your entire land, O Immanuel' (Isaiah 8:8, BSB), and the child of Isaiah 9:6 called 'Mighty God' (BSB): weigh whether a child born in Ahaz's day bears these"
+exceeds = "the child's name Immanuel, 'God with us' (Matthew 1:23), the land called 'your entire land, O Immanuel' (Isaiah 8:8, BSB), and the child of Isaiah 9:6 called 'Mighty God' (BSB). Contested: if the sign is one child throughout, no child born in Ahaz's day bears these names; if Isaiah 7:16 dates a sign child in Ahaz's own day, Matthew reads a fuller fulfilment"
 standing = "contested-reading"
 notes = "Contested reading: almah is a young woman of marriageable age; the Septuagint, translated before Christ, chose parthenos. Give the case on both sides, including Isaiah 8:3-4 (Maher-shalal-hash-baz) as the near sign. Joseph 'had no union with her until she gave birth to a Son' (Matthew 1:25, BSB)."
 
@@ -275,7 +275,7 @@ category = "passion"
 prophecy = "Psalm 22:16"
 masoretic = "Psalm 22:17"
 speaker = "messiah"
-predicts = "they have pierced my hands and feet (Masoretic 'like a lion my hands and feet')"
+predicts = "my hands and feet, 'pierced' (BSB, with the Septuagint's ὤρυξαν, 'they dug', and the Nahal Hever psalms scroll) or 'like a lion' (the Masoretic Text): the reading is contested"
 specific = ["manner"]
 uses = [
   { ref = "John 20:25-27", kind = "allusion", note = "no New Testament text quotes this line; John records the nail wounds in His hands, and Luke 24:39-40 the hands and feet" },
@@ -314,7 +314,7 @@ research = "drafted"
 tier = 1
 category = "passion"
 prophecy = "Zechariah 12:10"
-predicts = "they will look on me, on him whom they have pierced, and mourn for him"
+predicts = "'they will look on Me, the One they have pierced', and mourn for Him (BSB)"
 specific = ["manner"]
 uses = [
   { ref = "John 19:34-37", kind = "fulfilment", text = "mt", note = "ἐξεκέντησαν (exekentēsan, 'they pierced') renders the Hebrew דָּקָרוּ (daqaru); the Septuagint has κατωρχήσαντο (katōrchēsanto, 'they danced in triumph')" },
@@ -390,7 +390,7 @@ predicts = "from the word to restore Jerusalem to an anointed one, seven weeks a
 specific = ["time", "sequence"]
 uses = [
   { ref = "Matthew 24:15", kind = "allusion", note = "cites Daniel for the desolation; no New Testament text sets out the arithmetic" },
-  { ref = "Luke 19:42-44", kind = "allusion", note = "lead: 'the time of your visitation'" },
+  { ref = "Luke 19:42-44", kind = "allusion", note = "'the time of your visitation from God' (Luke 19:44, BSB)" },
 ]
 status = "partly"
 control = "divine"
@@ -454,7 +454,7 @@ recognition_evidence = [
   { note = "'your beauty, O King Messiah, surpasses the sons of men'", source = "Targum of the Psalms, Psalm 45:3 (Hebrew)", year = 450 },
 ]
 future_event = "millennium"
-near = "lead: a king of David's line at his wedding (Psalm 45:1)"
+near = "a king of David's line at his wedding (Psalm 45:1)"
 offices = ["king"]
 notes = "The king is addressed as אֱלֹהִים (elohim, 'God') and is anointed by 'God, your God' (Psalm 45:6-7): God and God, the second the God of the first. Hebrews reads the address of the Son. The reading 'your throne is God's throne' is the alternative; give it. Status partly: the throne forever (Luke 1:33)."
 
@@ -1310,7 +1310,7 @@ control = "opponents"
 recognition = "veiled"
 event = "anchor_41"
 near = "David, betrayed (Psalm 41:4 confesses 'I have sinned against you')"
-exceeds = "lead: the omission fits the near referent's limits: Psalm 41:4 confesses 'I have sinned against You' (BSB), and 'Jesus had known from the beginning… who would betray Him' (John 6:64, BSB), so 'whom I trusted' could not stand"
+exceeds = "the omission fits the near referent's limits: Psalm 41:4 confesses 'I have sinned against You' (BSB), and 'Jesus had known from the beginning… who would betray Him' (John 6:64, BSB), so 'whom I trusted' could not stand"
 notes = "Jesus quotes the half of the verse that fits, and says He knows whom He has chosen (John 13:18). An omission that respects the near referent: a feature for prophecy-method.md."
 
 [[prophecy]]
@@ -1347,7 +1347,7 @@ status = "fulfilled"
 control = "opponents"
 recognition = "veiled"
 event = "anchor_41"
-near = "lead: David betrayed by Ahithophel, his counsellor (2 Samuel 15:12, 31)"
+near = "David betrayed by Ahithophel, his counsellor (2 Samuel 15:12, 31)"
 notes = "'It is you, a man like myself, my companion and close friend. We shared sweet fellowship together; we walked with the crowd into the house of God' (Psalm 55:13-14, BSB). lead: Ahithophel hanged himself (2 Samuel 17:23), as Judas did (Matthew 27:5): a pattern the New Testament does not draw, so a pattern only (prophecy-method.md section 5). Psalm 41:9 is the betrayal text Jesus cites."
 
 [[prophecy]]
@@ -1665,7 +1665,7 @@ prophecy = "Isaiah 53:12b"
 predicts = "he bore the sin of many and made intercession for the transgressors"
 specific = ["manner"]
 uses = [
-  { ref = "Luke 23:34", kind = "allusion", note = "'Father, forgive them': absent from some early manuscripts (lead: list them from the tools)" },
+  { ref = "Luke 23:34", kind = "allusion", note = "'Father, forgive them': some manuscripts do not include it (the BSB's note)" },
   { ref = "Hebrews 7:25", kind = "allusion", note = "'He always lives to intercede for them' (BSB)" },
 ]
 status = "fulfilled"
@@ -1821,7 +1821,7 @@ prophecy = "Psalm 110:1"
 predicts = "the LORD says to David's Lord: sit at My right hand until I make Your enemies a footstool for Your feet"
 specific = ["person", "sequence"]
 uses = [
-  { ref = "Matthew 22:41-46", kind = "fulfilment", text = "both", note = "Psalm 109:1 LXX word for word, which renders the Hebrew closely" },
+  { ref = "Matthew 22:41-46", kind = "fulfilment", text = "both", note = "Psalm 109:1 LXX, which renders the Hebrew closely, with ὑποκάτω ('under') for its ὑποπόδιον ('footstool') in the SBLGNT, as in Mark 12:36; the Textus Receptus has the Septuagint's word" },
   { ref = "Mark 12:35-37", kind = "fulfilment", text = "both", note = "'under Your feet' (ὑποκάτω) from Psalm 8:6 for 'a footstool'" },
   { ref = "Luke 20:41-44", kind = "fulfilment", text = "both" },
   { ref = "Acts 2:34-36", kind = "fulfilment", text = "both", note = "'For David did not ascend into heaven' (BSB)" },
@@ -2318,7 +2318,7 @@ prophecy = "Zechariah 14:3-9"
 predicts = "the LORD goes out to fight the nations; on that day His feet stand on the Mount of Olives, which splits in two; the LORD becomes King over all the earth"
 specific = ["place", "manner"]
 uses = [
-  { ref = "Acts 1:9-12", kind = "allusion", note = "'in the same way as you saw him go'; from the mount called Olivet" },
+  { ref = "Acts 1:9-12", kind = "allusion", note = "'will come back in the same way you have seen Him go into heaven' (Acts 1:11, BSB); from the mount called Olivet" },
   { ref = "Revelation 11:15", kind = "allusion" },
 ]
 status = "future"

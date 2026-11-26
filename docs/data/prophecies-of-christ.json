@@ -1,19 +1,18 @@
 {
- "inputs_sha256": "9bff6d3bfc22038a12eeff58183313152eaf905dac47f34736b7f643db6c6eac",
+ "inputs_sha256": "61c20b12d57854d080eb0dc6c35c427b3b3746be693e24deed5a681a6bbbdb7d",
  "note": "Written by references/build/export_prophecies.py; do not edit by hand.",
  "prophecies": [
   {
    "id": "bethlehem",
    "prophecy": "Micah 5:2",
    "written_traditional": -700,
-   "written_critical": -700,
+   "written_critical": null,
    "fulfilled": -5,
    "years_ahead_traditional": 695,
-   "years_ahead_critical": 695,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q81"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -28,7 +27,6 @@
     "1Qisaa",
     "4Q65"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
@@ -42,81 +40,75 @@
    "qumran": [
     "1Qisaa"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "messenger-before",
    "prophecy": "Malachi 3:1",
    "written_traditional": -430,
-   "written_critical": -430,
+   "written_critical": null,
    "fulfilled": 29,
    "years_ahead_traditional": 459,
-   "years_ahead_critical": 459,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q76"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "king-on-donkey",
    "prophecy": "Zechariah 9:9",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "thirty-pieces",
    "prophecy": "Zechariah 11:12-13",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "garments-divided",
    "prophecy": "Psalm 22:18",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "hands-and-feet",
    "prophecy": "Psalm 22:16",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q88"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "no-bone-broken",
    "prophecy": "Exodus 12:46; Psalm 34:20",
    "written_traditional": -1406,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 1439,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q11",
     "4Q128",
@@ -127,21 +119,19 @@
     "4Q83",
     "8Q3"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "pierced-one",
    "prophecy": "Zechariah 12:10",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q80"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -158,21 +148,19 @@
     "4Q56",
     "4Q58"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "not-abandoned",
    "prophecy": "Psalm 16:10",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q85"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -184,43 +172,40 @@
    "years_ahead_traditional": 569,
    "years_ahead_critical": 197,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "my-son-today",
    "prophecy": "Psalm 2:7",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [
     "11Q7",
     "3Q2"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "throne-forever-o-god",
    "prophecy": "Psalm 45:6-7",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [
     "11Q8"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "you-laid-the-foundation",
    "prophecy": "Psalm 102:25-27",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
@@ -228,7 +213,6 @@
     "11Q5",
     "4Q84"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -242,19 +226,17 @@
    "qumran": [
     "4Q44"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "a-body-prepared",
    "prophecy": "Psalm 40:6-8",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": -5,
    "years_ahead_traditional": 445,
-   "years_ahead_critical": 445,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -271,7 +253,6 @@
     "4Q57",
     "4Q58"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -286,19 +267,17 @@
     "1Qisaa",
     "4Q56"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "call-on-the-name",
    "prophecy": "Joel 2:32",
    "written_traditional": -400,
-   "written_critical": -400,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 433,
-   "years_ahead_critical": 433,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -314,7 +293,6 @@
     "4Q59",
     "4Q65"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -328,7 +306,6 @@
    "qumran": [
     "1Qisaa"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -343,7 +320,6 @@
     "1Qisaa",
     "4Q57"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -357,31 +333,28 @@
    "qumran": [
     "4Q114"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "womb-of-the-dawn",
    "prophecy": "Psalm 110:3",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "kiss-the-son",
    "prophecy": "Psalm 2:12",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -393,7 +366,6 @@
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -405,7 +377,6 @@
    "years_ahead_traditional": 1439,
    "years_ahead_critical": 433,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -417,7 +388,6 @@
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -429,33 +399,30 @@
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "son-of-david-throne",
    "prophecy": "2 Samuel 7:12-16",
    "written_traditional": -925,
-   "written_critical": -925,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "fruit-of-davids-body",
    "prophecy": "Psalm 132:11; 89:3-4",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [
     "11Q5"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -469,14 +436,13 @@
    "qumran": [
     "1Qisaa"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "the-branch",
    "prophecy": "Jeremiah 23:5-6; 33:15-16; Zechariah 3:8; 6:12-13; Isaiah 4:2",
    "written_traditional": -681,
-   "written_critical": -700,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
@@ -484,14 +450,13 @@
     "1Qisaa",
     "4Q80"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "gold-and-frankincense",
    "prophecy": "Isaiah 60:3-6; Psalm 72:10-11",
    "written_traditional": -681,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
@@ -499,33 +464,30 @@
     "1Q8",
     "1Qisaa"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "out-of-egypt",
    "prophecy": "Hosea 11:1",
    "written_traditional": -715,
-   "written_critical": -715,
+   "written_critical": null,
    "fulfilled": -5,
    "years_ahead_traditional": 710,
-   "years_ahead_critical": 710,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q82"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "rachel-weeping",
    "prophecy": "Jeremiah 31:15",
    "written_traditional": -550,
-   "written_critical": -550,
+   "written_critical": null,
    "fulfilled": -5,
    "years_ahead_traditional": 545,
-   "years_ahead_critical": 545,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -539,33 +501,30 @@
    "qumran": [
     "1Qisaa"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "from-the-womb-my-god",
    "prophecy": "Psalm 22:9-10",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": -5,
    "years_ahead_traditional": 445,
-   "years_ahead_critical": 445,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "stranger-to-my-brothers",
    "prophecy": "Psalm 69:8",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [
     "4Q83"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -581,21 +540,19 @@
     "1Qisaa",
     "4Q56"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "elijah-before-the-day",
    "prophecy": "Malachi 4:5-6",
    "written_traditional": -430,
-   "written_critical": -430,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [
     "4Q76"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -612,7 +569,6 @@
     "4Q56",
     "4Q66"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
@@ -626,7 +582,6 @@
    "qumran": [
     "1Qisaa"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
@@ -641,7 +596,6 @@
     "1Q8",
     "1Qisaa"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
@@ -656,45 +610,41 @@
     "1Q8",
     "1Qisaa"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "open-my-mouth-in-parables",
    "prophecy": "Psalm 78:2",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 32,
    "years_ahead_traditional": 482,
-   "years_ahead_critical": 482,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "zeal-for-your-house",
    "prophecy": "Psalm 69:9",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 30,
    "years_ahead_traditional": 480,
-   "years_ahead_critical": 480,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q83"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "out-of-the-mouth-of-infants",
    "prophecy": "Psalm 8:2",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -710,22 +660,20 @@
     "1Qisaa",
     "4Q57"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "hated-without-cause",
    "prophecy": "Psalm 69:4; 35:19",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q83",
     "4Q98"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -743,7 +691,6 @@
     "4Q60",
     "4Q65"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
@@ -755,72 +702,66 @@
    "years_ahead_traditional": 1435,
    "years_ahead_critical": 568,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "my-own-familiar-friend",
    "prophecy": "Psalm 41:9",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "let-another-take-his-office",
    "prophecy": "Psalm 69:25; 109:8",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [
     "4Q87"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "companion-who-betrays",
    "prophecy": "Psalm 55:12-14",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "strike-the-shepherd",
    "prophecy": "Zechariah 13:7",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "false-witnesses",
    "prophecy": "Psalm 35:11; 27:12",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q85",
     "4Q98"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -834,19 +775,17 @@
    "qumran": [
     "1Qisaa"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "strike-the-judge-on-the-cheek",
    "prophecy": "Micah 5:1",
    "written_traditional": -700,
-   "written_critical": -700,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 733,
-   "years_ahead_critical": 733,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -862,21 +801,19 @@
     "1Qisaa",
     "4Q57"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "rulers-take-counsel",
    "prophecy": "Psalm 2:1-2",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [
     "11Q7"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -888,7 +825,6 @@
    "years_ahead_traditional": 1439,
    "years_ahead_critical": 433,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -902,7 +838,6 @@
    "qumran": [
     "4Q11"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -914,81 +849,74 @@
    "years_ahead_traditional": 1439,
    "years_ahead_critical": 433,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "mocked-shake-their-heads",
    "prophecy": "Psalm 22:7-8",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "why-have-you-forsaken-me",
    "prophecy": "Psalm 22:1",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "vinegar-to-drink",
    "prophecy": "Psalm 69:21",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "into-your-hand",
    "prophecy": "Psalm 31:5",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "darkness-at-noon",
    "prophecy": "Amos 8:9",
    "written_traditional": -750,
-   "written_critical": -750,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 783,
-   "years_ahead_critical": 783,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "friends-stand-far-off",
    "prophecy": "Psalm 38:11",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q83"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -1005,58 +933,53 @@
     "4Q56",
     "4Q58"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "all-that-he-has-done",
    "prophecy": "Psalm 22:30-31",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "the-rejected-stone",
    "prophecy": "Psalm 118:22-23",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "three-days-in-the-fish",
    "prophecy": "Jonah 1:17",
    "written_traditional": -400,
-   "written_critical": -400,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 433,
-   "years_ahead_critical": 433,
+   "years_ahead_critical": null,
    "qumran": [
     "4Q76",
     "4Q81"
    ],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "on-the-third-day",
    "prophecy": "Hosea 6:2",
    "written_traditional": -715,
-   "written_critical": -715,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 748,
-   "years_ahead_critical": 748,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -1072,7 +995,6 @@
     "1Qisaa",
     "4Q58"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
@@ -1088,55 +1010,50 @@
     "1Qisaa",
     "4Q57"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "ascended-on-high",
    "prophecy": "Psalm 68:18",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "sit-at-my-right-hand",
    "prophecy": "Psalm 110:1",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "all-things-under-his-feet",
    "prophecy": "Psalm 8:4-6",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "i-will-tell-of-your-name",
    "prophecy": "Psalm 22:22",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -1150,71 +1067,65 @@
    "qumran": [
     "1Qisaa"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "king-of-glory",
    "prophecy": "Psalm 24:7-10",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "i-will-not-die-but-live",
    "prophecy": "Psalm 118:17-18",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "a-new-covenant",
    "prophecy": "Jeremiah 31:31-34",
    "written_traditional": -550,
-   "written_critical": -550,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 583,
-   "years_ahead_critical": 583,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "i-will-pour-out-my-spirit",
    "prophecy": "Joel 2:28-32",
    "written_traditional": -400,
-   "written_critical": -400,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 433,
-   "years_ahead_critical": 433,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "rivers-of-living-water",
    "prophecy": "Zechariah 14:8; Isaiah 44:3; 55:1; 58:11; Ezekiel 47:1-12",
    "written_traditional": -681,
-   "written_critical": -571,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 714,
-   "years_ahead_critical": 604,
+   "years_ahead_critical": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
     "4Q57"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
@@ -1232,7 +1143,6 @@
     "4Q58",
     "4Q62"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
@@ -1248,7 +1158,6 @@
     "1Qisaa",
     "4Q58"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
@@ -1263,57 +1172,52 @@
     "1Qisaa",
     "4Q57"
    ],
-   "translated_before": true,
    "manuscript_before": true
   },
   {
    "id": "booth-of-david-rebuilt",
    "prophecy": "Amos 9:11-12",
    "written_traditional": -750,
-   "written_critical": -750,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "priest-forever-melchizedek",
    "prophecy": "Psalm 110:4",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
    "id": "firstborn-highest-of-kings",
    "prophecy": "Psalm 89:26-27",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [
     "4Q98g"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "son-of-man-at-your-right-hand",
    "prophecy": "Psalm 80:17",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": 33,
    "years_ahead_traditional": 483,
-   "years_ahead_critical": 483,
+   "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": true,
    "manuscript_before": false
   },
   {
@@ -1330,19 +1234,17 @@
     "4Q57",
     "4Q60"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "david-my-servant-shepherd",
    "prophecy": "Ezekiel 34:23-24; 37:24-25",
    "written_traditional": -571,
-   "written_critical": -571,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -1354,7 +1256,6 @@
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -1370,14 +1271,13 @@
     "4Q14",
     "4Q22"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "bread-from-heaven",
    "prophecy": "Exodus 16:4, 15; Psalm 78:24",
    "written_traditional": -1406,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
@@ -1386,7 +1286,6 @@
     "4Q11",
     "4Q22"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -1400,7 +1299,6 @@
    "qumran": [
     "11Q1"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -1412,14 +1310,13 @@
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "blessed-is-he-who-comes",
    "prophecy": "Psalm 118:26",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
@@ -1427,33 +1324,30 @@
     "11Q5",
     "4Q84"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "feet-on-the-mount-of-olives",
    "prophecy": "Zechariah 14:3-9",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "rule-with-a-rod-of-iron",
    "prophecy": "Psalm 2:8-9",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [
     "11Q7"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -1468,19 +1362,17 @@
     "1Qisaa",
     "4Q57"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "rule-in-the-midst-and-the-day-of-wrath",
    "prophecy": "Psalm 110:2, 5-7",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -1495,14 +1387,13 @@
     "1Q8",
     "1Qisaa"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "israel-seeks-david-their-king",
    "prophecy": "Hosea 3:4-5; 5:15-6:1; Jeremiah 30:7-9; Deuteronomy 4:30",
    "written_traditional": -1406,
-   "written_critical": -715,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
@@ -1512,7 +1403,6 @@
     "4Q78",
     "4Q82"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -1527,7 +1417,6 @@
     "1Q8",
     "1Qisaa"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -1541,19 +1430,17 @@
    "qumran": [
     "4Q112"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "the-coming-one-will-not-delay",
    "prophecy": "Habakkuk 2:3-4",
    "written_traditional": -605,
-   "written_critical": -605,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
@@ -1568,14 +1455,13 @@
     "1Q8",
     "1Qisaa"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "death-swallowed-up",
    "prophecy": "Isaiah 25:8; Hosea 13:14",
    "written_traditional": -715,
-   "written_critical": -715,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
@@ -1584,14 +1470,13 @@
     "1Qisaa",
     "4Q57"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "nations-stream-to-zion",
    "prophecy": "Isaiah 2:2-4; Micah 4:1-4",
    "written_traditional": -700,
-   "written_critical": -700,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
@@ -1601,31 +1486,28 @@
     "4Q60",
     "4Q82"
    ],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "king-over-all-the-earth",
    "prophecy": "Psalm 72:8-17",
    "written_traditional": -450,
-   "written_critical": -450,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   },
   {
    "id": "desire-of-all-nations",
    "prophecy": "Haggai 2:6-9",
    "written_traditional": -515,
-   "written_critical": -515,
+   "written_critical": null,
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
    "qumran": [],
-   "translated_before": false,
    "manuscript_before": false
   }
  ]

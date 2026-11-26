@@ -184,7 +184,7 @@ RECOGNITION = [
     ("known-before", "read of the Messiah before Jesus", GOLD, GOLD_EDGE, False),
     ("partly", "read of Him in part", GOLD_TINT, GOLD_EDGE, False),
     ("read-after", "read of Him only in a later Jewish source", BLUE_TINT, BLUE, True),
-    ("veiled", "read of Him by no one, before Jesus or since", CARD, GREY, False),
+    ("veiled", "read of Him in no Jewish source, before Jesus or since", CARD, GREY, False),
 ]
 CATEGORY_ROWS = [("lineage", "Lineage"), ("birth", "Birth"), ("childhood", "Childhood"),
                  ("forerunner", "Forerunner"), ("nature", "Nature"), ("ministry", "Ministry"),
@@ -284,7 +284,8 @@ def prophets_view_historys_view():
     dated = [r for r in rows if r["fulfilled"] is not None]
     splits = [e for e in entries.values() if "split" in e]
     ahead = statistics.median(r["years_ahead_traditional"] for r in dated)
-    ahead_crit = statistics.median(r["years_ahead_critical"] for r in dated)
+    # Only where the authorship table records a critical date of the book's own, and it is later.
+    later = [r for r in dated if r["written_critical"] is not None and r["written_critical"] > r["written_traditional"]]
     earliest = min(dated, key=lambda r: r["written_traditional"])
     partly = [r for r in dated if entries[r["id"]]["status"] == "partly"]
 
@@ -303,12 +304,14 @@ def prophets_view_historys_view():
     top_h = 400
     h = 150 + top_h + 120 + chart_h + 190
     desc = (f"Two views of the {len(entries)} prophecies of Christ in this site's ledger. The prophet's view: "
-            f"{len(splits)} of them hold His first coming and His coming in glory in one text, like two "
+            f"{len(splits)} of them the New Testament divides between His first coming and His coming in "
+            "glory, one text holding both like two "
             "mountain peaks lined up, the valley between them hidden (1 Peter 1:11, the sufferings of "
             f"Christ and the glories to follow). History's view: the {len(dated)} prophecies tied to a "
             "dated event, each drawn from the year it was written to the year it came to pass. The median "
-            f"is {ahead:,.0f} years ahead on the traditional dates and {ahead_crit:,.0f} on the latest dates "
-            f"critical scholarship gives; the earliest is {earliest['prophecy']}. {len(partly)} were fulfilled "
+            f"is {ahead:,.0f} years ahead on the traditional dates; {len(later)} are in texts critical "
+            f"scholarship dates later, {sum(r['years_ahead_critical'] > 0 for r in later)} of them still before the event. The earliest is "
+            f"{earliest['prophecy']}. {len(partly)} were fulfilled "
             "in part, and the rest of each waits beyond the valley, at His return.")
     out = svg_open(h, "The prophet's view and history's view", desc)
     out += heading("The Prophet's View, History's View", "the prophecies of Christ, as they were seen and as they came to pass")
@@ -333,7 +336,7 @@ def prophets_view_historys_view():
     out.append(text(near_x, base - 40, "the sufferings", 13, "middle", "bold", fill=RED))
     out.append(text(far_x + 60, base - 70, "the glories", 13, "middle", "bold", fill=GOLD_EDGE))
     out.append(text(far_x + 60, base - 54, "to follow", 13, "middle", "bold", fill=GOLD_EDGE))
-    out.append(text(W / 2, base + 42, f"{len(splits)} prophecies in the ledger hold both comings in one text", 13.5,
+    out.append(text(W / 2, base + 42, f"{len(splits)} prophecies the New Testament divides between His two comings", 13.5,
                     "middle", "bold"))
     refs = sorted((e["prophecy"].split(";")[0] for e in splits), key=str)
     cols = 3
@@ -353,7 +356,7 @@ def prophets_view_historys_view():
     out.append(f'<circle cx="{left + 26}" cy="{y}" r="3.2" fill="{INK}"/>')
     out.append(text(left + 36, y + 4, "written by (the traditional date)", 12))
     out.append(f'<circle cx="{left + 240}" cy="{y}" r="3.2" fill="{PAPER_}" stroke="{BLUE}" stroke-width="1.3"/>')
-    out.append(text(left + 250, y + 4, "by the critics' latest date", 12))
+    out.append(text(left + 250, y + 4, "by the critics' later date", 12))
     out.append(f'<path d="M{left + 420} {y} H{left + 446}" stroke="{GREY}" stroke-width="1.3" stroke-dasharray="3 3"/>')
     out.append(text(left + 454, y + 4, "still to come in part", 12))
     y += 44
@@ -362,12 +365,13 @@ def prophets_view_historys_view():
         out.append(text(x0 - 12, y + len(band) * step / 2 + 4, label, 12.5, "end", "bold"))
         for r in band:
             yy = y + step / 2
-            wt, wc, ff = x(r["written_traditional"]), x(r["written_critical"]), x(r["fulfilled"])
+            wt, ff = x(r["written_traditional"]), x(r["fulfilled"])
             out.append(f'<path d="M{wt:.1f} {yy:.1f} H{ff:.1f}" stroke="{INK}" stroke-width="1"/>')
             if entries[r["id"]]["status"] == "partly":
                 out.append(f'<path d="M{ff:.1f} {yy:.1f} H{far:.1f}" stroke="{GREY}" stroke-width="1" '
                            f'stroke-dasharray="3 3"/>')
-            if wc != wt:
+            if r in later:
+                wc = x(r["written_critical"])
                 out.append(f'<circle cx="{wc:.1f}" cy="{yy:.1f}" r="2.2" fill="{PAPER_}" stroke="{BLUE}" stroke-width="1"/>')
             out.append(f'<circle cx="{wt:.1f}" cy="{yy:.1f}" r="2.4" fill="{INK}"/>')
             y += step
@@ -391,7 +395,8 @@ def prophets_view_historys_view():
 
     y = axis_y + 70
     out += lines_at(W / 2, y, [
-        f"Median {ahead:,.0f} years ahead on the traditional dates, {ahead_crit:,.0f} on the critics' latest.",
+        f"Median {ahead:,.0f} years ahead on the traditional dates; {len(later)} are dated later by critics, "
+        f"{sum(r['years_ahead_critical'] > 0 for r in later)} of them still before the event.",
         f"The earliest: {earliest['prophecy']}, written by {year_label(earliest['written_traditional'])}."],
         13, anchor="middle")
     out.append(text(W / 2, y + 52, "“the sufferings of Christ and the glories to follow”", 15, "middle", italic=True))

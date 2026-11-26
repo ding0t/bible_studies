@@ -85,11 +85,6 @@
   font-size: 0.9em;
 }
 
-.md-typeset .pc-notes {
-  margin: 0.4rem 0 0;
-  font-size: 0.9em;
-}
-
 /* Seven columns of counts: let the table scroll inside itself on a phone, never the page. */
 .md-typeset .pc-measures {
   display: block;

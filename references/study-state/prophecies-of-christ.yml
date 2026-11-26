@@ -26,6 +26,10 @@ open_questions:
   - "31 fulfilled or partly-fulfilled entries carry no `event` (the nature entries, most of lineage, the types), so they are off the span chart's history panel; giving each a dated event is ledger research"
   - "the series' membership and order are a proposal for the author: Known Before, Seen After; Where Jesus Stopped Reading; The King on a Donkey; The Cups Jesus Drank; Three Days and Three Nights; Melchizedek Priesthood; The Bright Morning Star"
   - "publish with the two draft studies, which this page lists as coming until they are published"
+  - "FOR THE AUTHOR (review 2026-11-26): the-passover-lamb, the-bronze-serpent and three-days-in-the-fish are tier 1 with only type or allusion uses; the schema puts a type at tier 2. 1 Corinthians 5:7 ('Christ, our Passover lamb, has been sacrificed') and John 3:14's 'must' may carry tier 1; check_prophecies.py allows a type to close tier 1. Re-tier or keep, and say which rule"
+  - "lead (review 2026-11-26): b. Megillah 3a may tie Daniel to 'the end of the Messiah', which would make sixty-nine-weeks read-after; read it at source (Sefaria export) before changing the ledger"
+  - "critical dates are recorded for 26 of the 71 dated prophecies; the Psalms, Zechariah 9-14, Micah, Hosea, Joel, Jonah and Jeremiah have none in docs/data/book-authorship.toml, so their cards show only the traditional date. Adding sourced critical dates (critical_parts for Zechariah 9-14) would widen the test"
+  - "the span chart labels a multi-reference split by its first reference (Hosea 3:4-5 for a four-reference entry)"
 resources_consulted: []
 last_updated: "2026-11-26"
 evidence:
@@ -39,3 +43,13 @@ evidence:
   - {id: john13-19-bsb, what: "John 13:19: I am telling you now before it happens", tool: bible_verse, args: {book: John, chapter: 13, verse: 19, translation: BSB}, expect_contains: "I am telling you now before it happens, so that when it comes to pass, you will believe that I am He", checked: 2026-11-26}
   - {id: luke24-44-everything, what: "Luke 24:44: Everything must be fulfilled", tool: bible_verse, args: {book: Luke, chapter: 24, verse: 44, translation: BSB}, expect_contains: "Everything must be fulfilled that is written about Me in the Law of Moses, the Prophets, and the Psalms", checked: 2026-11-26}
   - {id: 1pet1-11-glories, what: "1 Peter 1:11: the sufferings of Christ and the glories to follow", tool: bible_verse, args: {book: 1Pet, chapter: 1, verse: 11, translation: BSB}, expect_contains: "the sufferings of Christ and the glories to follow", checked: 2026-11-26}
+review_2026_11_26:
+  by: "review subagent, then verified and applied in the main session"
+  applied:
+    - "the ledger's working notes (`notes`) no longer render; six rendered fields that carried 'lead:' cleaned; check_prophecies.py rule 10 fails on working language in any rendered field"
+    - "veiled label: 'in no Jewish source, before Jesus or since' (the church and the New Testament do read them of Him); the same fix in Known Before, Seen After and its chart"
+    - "critical dates: shown only where book-authorship.toml records one and it is later; the dated sentence and the chart no longer present the traditional date as the critics'"
+    - "Sirach's prologue no longer counted per prophecy (it speaks of the books generally, and was written after 132 BC)"
+    - "labels: tier 1 'or spoke of Him'; split use 'part now, part still to come'; partly 'but not of the part He fulfilled'; '17 the New Testament divides'"
+    - "ledger: Matthew 22:44 has ὑποκάτω (SBLGNT), not the LXX word for word; Psalm 22:16's predicts marked contested; Bethlehem's split marks Matthew 2:6's shepherding as contested; ESV wording in three predicts replaced with BSB; virgin-immanuel's exceeds gives both cases"
+    - "page: Isaiah 43:10 'takes up' with the LXX line shown; the copy bullet keeps a manuscript before the event apart from Qumran; tradition's readings named in the thesis; Talmud version named"

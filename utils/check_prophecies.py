@@ -30,6 +30,10 @@ Errors (exit non-zero):
    renders, was written from this ledger, the authorship table and the chronology as they are now
    (references/build/export_prophecies.py records their hash). A stale file would put old counts on
    the page with no error anywhere.
+10. **What the page shows is written for a reader.** hooks/prophecies.py renders predicts, near,
+   exceeds, fulfilment, each use's note and the split's first, rest and at; `notes` stays in the
+   ledger. Those fields carry no research lead, session number, file, tool or field name: 49 cards
+   once showed "lead for recognition: ... (session 8)" and the like to readers.
 
 Prints a progress summary (entries by research level, tier and category). Run from the repo root:
 python3 utils/check_prophecies.py
@@ -212,6 +216,27 @@ def check_nt(entries: list[dict], known_ids: set[str], dated: set[str], future: 
     return errors
 
 
+# Working language that has no place on the reader's page. "lead:" with its colon, since "lead him"
+# (John 21:18) is Scripture.
+WORKING = re.compile(r"\blead:|\blead for\b|\bsession \d|state file|\.(?:db|md|py|toml)\b|\bbible_\w+|"
+                     r"\bfuture_event\b|\bprophecy_ledger\b|\bgive the case\b|\bcheck before\b|"
+                     r"[Rr]esearched 20\d\d|\bTODO\b", re.I)
+RENDERED = ("predicts", "near", "exceeds", "fulfilment")
+
+
+def check_rendered(entries: list[dict]) -> list[str]:
+    errors = []
+    for e in entries:
+        texts = [(k, e[k]) for k in RENDERED if e.get(k)]
+        texts += [(f"use {u['ref']}", u["note"]) for u in e.get("uses", []) if u.get("note")]
+        texts += [(f"split.{k}", e["split"][k]) for k in ("first", "rest", "at") if e.get("split", {}).get(k)]
+        for field, value in texts:
+            if m := WORKING.search(value):
+                errors.append(f"{e['id']}: {field} shows the reader working language ({m.group(0)!r}); "
+                              "move it to notes")
+    return errors
+
+
 def check_computed() -> list[str]:
     """The same three inputs, in the same order, as export_prophecies.inputs_hash()."""
     digest = hashlib.sha256()
@@ -232,6 +257,7 @@ def main() -> int:
     errors = check(entries, other_ids, dated, future)
     errors += check_nt(nt_entries, other_ids | {e["id"] for e in entries}, dated, future)
     errors += check_computed()
+    errors += check_rendered(entries + nt_entries)
     for line in errors:
         print(f"ERROR prophecies-of-christ.toml {line}")
     research = Counter(e.get("research") for e in entries)
