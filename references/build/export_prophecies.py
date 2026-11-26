@@ -14,11 +14,13 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import sqlite3
 import tomllib
 from collections import defaultdict
 from pathlib import Path
 
+from book_map import NUM_TO_OSIS, REFERENCE_NAME_TO_NUM
 from unity_measures import (
     AUTHORSHIP, CHRIST_PROPHECY, CHRONOLOGY, DB, GREAT_ISAIAH_SCROLL, QUMRAN, QUMRAN_FALLS, ROOT,
     chronology_years, date_range, load_authorship, parse_refs,
@@ -42,9 +44,59 @@ def has_critical_date(book: dict, chapter: int) -> bool:
     return "critical" in book or "critical_after" in book
 
 
+_BOOKED = re.compile(r"^((?:[1-3] )?[A-Z][a-z]+(?: of [A-Z][a-z]+)?) (\d+):(\d+)[ab]?(?:-(?:(\d+):)?(\d+)[ab]?)?$")
+_CHAPTERED = re.compile(r"^(\d+):(\d+)[ab]?(?:-(?:(\d+):)?(\d+)[ab]?)?$")
+_VERSES = re.compile(r"^(\d+)[ab]?(?:-(\d+)[ab]?)?$")
+
+
+def verse_keys(text: str, chapter_lengths) -> list[str]:
+    """'Hebrews 9:6-14, 24-28' -> ['Heb 9:6', ..., 'Heb 9:28'], in the pop-up's own key form (OSIS
+    book, English numbering). A bare 'c:v' or 'v' continues the book and chapter before it; a part
+    after '(' is commentary, and anything that is not a reference (Josephus) gives nothing."""
+    keys, book, chapter = [], None, None
+    for part in re.split(r"[;,]", text.split("(")[0]):
+        part = part.strip()
+        if m := _BOOKED.match(part):
+            name = "Psalms" if m[1] == "Psalm" else m[1]
+            if name not in REFERENCE_NAME_TO_NUM:
+                book = None
+                continue
+            book = NUM_TO_OSIS[REFERENCE_NAME_TO_NUM[name]]
+            c1, v1, c2, v2 = int(m[2]), int(m[3]), m[4], m[5]
+        elif book and (m := _CHAPTERED.match(part)):
+            c1, v1, c2, v2 = int(m[1]), int(m[2]), m[3], m[4]
+        elif book and chapter and (m := _VERSES.match(part)):
+            c1, v1, c2, v2 = chapter, int(m[1]), None, m[2]
+        else:
+            continue
+        c2 = int(c2) if c2 else c1
+        v2 = int(v2) if v2 else (v1 if c2 == c1 else None)
+        for c in range(c1, c2 + 1):
+            first = v1 if c == c1 else 1
+            last = v2 if c == c2 and v2 else chapter_lengths(book, c)
+            keys += [f"{book} {c}:{v}" for v in range(first, last + 1)]
+        chapter = c2
+    return keys
+
+
+OSIS_TO_NUM = {osis: num for num, osis in NUM_TO_OSIS.items()}
+
+
+def chapters_of(keys: list[str]) -> list[list[int]]:
+    """['Isa 53:5', 'Isa 53:9'] -> [[23, 53]]: book number and chapter, the commentary pages' address."""
+    return sorted({(OSIS_TO_NUM[k.split(" ")[0]], int(k.split(" ")[1].split(":")[0])) for k in keys})
+
+
 def crucifixion_year() -> int:
     """passion_sequence events carry days, not years: they fall in the crucifixion's year."""
     return chronology_years()["anchor_41"]
+
+
+def chapter_length_lookup(conn: sqlite3.Connection):
+    """The last verse of each chapter in the reading translation, for ranges that cross a chapter."""
+    lengths = {(b, c): n for b, c, n in conn.execute(
+        "SELECT book, chapter, MAX(verse) FROM verses WHERE work_id = 'berean-bsb' GROUP BY book, chapter")}
+    return lambda book, chapter: lengths.get((book, chapter), 0)
 
 
 def qumran_index(conn: sqlite3.Connection) -> dict[tuple[str, int, int], set[str]]:
@@ -56,7 +108,8 @@ def qumran_index(conn: sqlite3.Connection) -> dict[tuple[str, int, int], set[str
     return index
 
 
-def entry_row(e: dict, books: dict, years: dict[str, int], passion: set[str], scrolls_at) -> dict:
+def entry_row(e: dict, books: dict, years: dict[str, int], passion: set[str], scrolls_at,
+              chapter_lengths=lambda b, c: 0) -> dict:
     refs = parse_refs(e["prophecy"])
     hebrew = parse_refs(e.get("masoretic", e["prophecy"]))
     # The latest year the earliest of its texts could have been written: the end of its range.
@@ -85,6 +138,15 @@ def entry_row(e: dict, books: dict, years: dict[str, int], passion: set[str], sc
         "fulfilled": fulfilled,
         "years_ahead_traditional": fulfilled - written["traditional"] if dated else None,
         "years_ahead_critical": fulfilled - written["critical"] if dated and written["critical"] is not None else None,
+        # For the verse pop-up (hooks/prophecies.py writes assets/popups/prophecies.json): the
+        # prophecy's own verses, and each New Testament use's, so a reader meets the entry from
+        # either end.
+        "verses": verse_keys(e["prophecy"], chapter_lengths),
+        "uses": [{"ref": u["ref"], "kind": u["kind"], "verses": verse_keys(u["ref"], chapter_lengths)}
+                 for u in e.get("uses", [])],
+        "chapters": {"prophecy": [list(c) for c in chapters_of(verse_keys(e["prophecy"], chapter_lengths))],
+                     "uses": [list(c) for c in chapters_of([k for u in e.get("uses", [])
+                                                             for k in verse_keys(u["ref"], chapter_lengths)])]},
         "existed_by": existed_by,
         "years_ahead_at_least": fulfilled - existed_by if dated and existed_by is not None else None,
         "qumran": scrolls,
@@ -105,10 +167,17 @@ def main() -> int:
         entries = tomllib.load(f)["prophecy"]
     conn = sqlite3.connect(f"file:{DB}?immutable=1", uri=True)
     scrolls_at = qumran_index(conn)
+    chapter_lengths = chapter_length_lookup(conn)
+
+    with open(CHRIST_PROPHECY, "rb") as f:
+        nt = tomllib.load(f).get("nt_prophecy", [])
     result = {
         "inputs_sha256": inputs_hash(),
         "note": "Written by references/build/export_prophecies.py; do not edit by hand.",
-        "prophecies": [entry_row(e, books, years, passion, scrolls_at) for e in entries],
+        "prophecies": [entry_row(e, books, years, passion, scrolls_at, chapter_lengths) for e in entries],
+        "nt_prophecies": [{"id": e["id"], "verses": verse_keys(e["prophecy"], chapter_lengths),
+                           "fulfilment_verses": verse_keys(e.get("fulfilment", ""), chapter_lengths)}
+                          for e in nt],
     }
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"wrote {OUT.relative_to(ROOT)}: {len(entries)} prophecies")

@@ -558,6 +558,9 @@ async function renderVerse(ref, withContext = false) {
     );
   }
 
+  const prophecies = await propheciesAt(ref, shown.filter((s) => s.cited));
+  if (prophecies) parts.push(prophecies);
+
   const studies = await studiesOn(ref);
   if (studies.length) {
     parts.push(
@@ -758,6 +761,36 @@ async function scriptureLinksAt(key) {
   } catch {
     return null;
   }
+}
+
+// assets/popups/prophecies.json is written by hooks/prophecies.py from the ledger of the prophecies
+// of Christ: for each verse, the entries it belongs to, as the prophecy's own text (p), a New
+// Testament use of one (u), or a prediction that begins in the New Testament (n). The card on the
+// reference page carries id="prophecy-<id>".
+async function propheciesAt(ref, cited) {
+  let index;
+  try {
+    index = await load('prophecies.json');
+  } catch {
+    return null;
+  }
+  const seen = new Map();
+  for (const { c, v } of cited) {
+    for (const [id, prophecy, role, detail] of index.v[`${ref.book} ${c}:${v}`] ?? []) {
+      if (!seen.has(`${id}:${role}`)) seen.set(`${id}:${role}`, { id, prophecy, role, detail });
+    }
+  }
+  if (!seen.size) return null;
+  const page = new URL(index.u, SITE).href;
+  const items = [...seen.values()].slice(0, MAX_STUDIES).map(({ id, prophecy, role, detail }) => {
+    const link = el('a', { href: `${page}#prophecy-${id}` }, prophecy);
+    if (role === 'p') return el('li', {}, link, detail ? el('span', { class: 'pop-muted' }, ` · in the New Testament: ${detail}`) : null);
+    if (role === 'u') return el('li', {}, el('span', { class: 'pop-muted' }, `${detail}: `), link);
+    return el('li', {}, link, el('span', { class: 'pop-muted' }, detail ? ` · fulfilled: ${detail}` : ' · still to come'));
+  });
+  const roles = new Set([...seen.values()].map((p) => p.role));
+  const label = roles.has('p') ? 'A prophecy of Christ' : roles.has('u') ? 'Uses a prophecy of Christ' : 'A prophecy of Christ, in the New Testament';
+  return el('div', { class: 'pop-section' }, el('span', { class: 'pop-label' }, label), el('ul', { class: 'pop-studies' }, items));
 }
 
 async function studiesOn(ref) {

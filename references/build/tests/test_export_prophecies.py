@@ -19,7 +19,8 @@ def rows():
     conn = sqlite3.connect(f"file:{DB}?immutable=1", uri=True)
     scrolls = ep.qumran_index(conn)
     books, years = load_authorship(), chronology_years()
-    return {i: ep.entry_row(e, books, years, passion, scrolls) for i, e in entries.items()}
+    lengths = ep.chapter_length_lookup(conn)
+    return {i: ep.entry_row(e, books, years, passion, scrolls, lengths) for i, e in entries.items()}
 
 
 def test_a_copy_at_qumran_is_not_older_than_an_event_in_jesus_lifetime(rows):
@@ -64,3 +65,19 @@ def test_the_committed_file_is_this_ledgers(rows):
     written = json.loads(ep.OUT.read_text(encoding="utf-8"))
     assert written["inputs_sha256"] == ep.inputs_hash()
     assert {r["id"]: r for r in written["prophecies"]} == rows
+
+
+def lengths(book, chapter):
+    return {("Mark", 14): 72, ("Mark", 15): 47, ("Heb", 7): 28}.get((book, chapter), 0)
+
+
+def test_references_expand_to_the_verses_the_popup_reads():
+    """A bare verse continues its chapter, a bare chapter:verse its book, a range may cross a
+    chapter, and commentary after '(' or a source that is not Scripture gives nothing."""
+    assert ep.verse_keys("Isaiah 53:5, 9, 12", lengths) == ["Isa 53:5", "Isa 53:9", "Isa 53:12"]
+    assert ep.verse_keys("Psalm 69:25; 109:8", lengths) == ["Ps 69:25", "Ps 109:8"]
+    assert ep.verse_keys("Isaiah 53:12b", lengths) == ["Isa 53:12"]
+    crossing = ep.verse_keys("Mark 14:70-15:2", lengths)
+    assert crossing == ["Mark 14:70", "Mark 14:71", "Mark 14:72", "Mark 15:1", "Mark 15:2"]
+    assert ep.verse_keys("Josephus, Jewish War 6-7 (the trampling begun)", lengths) == []
+    assert ep.verse_keys("Colossians 1:6, 23 (begun)", lengths) == ["Col 1:6", "Col 1:23"]

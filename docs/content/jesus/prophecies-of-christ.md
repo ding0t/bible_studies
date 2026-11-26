@@ -131,6 +131,12 @@ behind us, and the second is still ahead.
 
 ## The prophecies, by subject
 
+Narrow the cards by any of their measures: the passion prophecies His opponents fulfilled, say, or
+every text where the LORD's words are said of Jesus. Each choice shows how many cards it leaves, and
+the page's address keeps it, so you can share what you found.
+
+<!-- prophecies-of-christ: filter -->
+
 ### Nature
 
 <!-- prophecies-of-christ: category nature -->

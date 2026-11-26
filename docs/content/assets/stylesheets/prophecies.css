@@ -96,3 +96,70 @@
 .md-typeset .pc-measures th:not(:first-child) {
   text-align: right;
 }
+
+/* The filter bar (app/src/entries/prophecy-filter.js). The grid rule above would override the
+ * hidden attribute, so it is restated. */
+.pc-group[hidden],
+.pc-entry[hidden],
+.pc-filter[hidden],
+.md-typeset h3[hidden] {
+  display: none;
+}
+
+.pc-filter {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+  padding: 0.5rem 0.8rem 0.7rem;
+  margin: 1rem 0 1.4rem;
+  font-size: 0.85em;
+}
+
+.md-typeset .pc-shown {
+  margin: 0.2rem 0 0.5rem;
+  font-weight: 600;
+}
+
+.pc-facet {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: baseline;
+  margin: 0.35rem 0;
+}
+
+.pc-facet-name {
+  min-width: 9.5em;
+  color: var(--md-default-fg-color--light);
+  font-weight: 600;
+}
+
+.pc-chip,
+.pc-clear {
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 1rem;
+  padding: 0.1rem 0.6rem;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+
+.pc-chip[aria-pressed="true"] {
+  background: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+}
+
+.pc-chip:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.pc-n {
+  font-size: 0.85em;
+  opacity: 0.75;
+}
+
+.pc-clear {
+  margin-top: 0.4rem;
+}

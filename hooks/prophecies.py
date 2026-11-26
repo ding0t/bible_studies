@@ -5,6 +5,15 @@
                                                    and how many were written and copied before it
 - `<!-- prophecies-of-christ: category <name> -->` the entries of one category, as cards
 - `<!-- prophecies-of-christ: nt -->`              the prophecies that begin in the New Testament
+- `<!-- prophecies-of-christ: filter -->`          a bar of filters over the cards: pick any values
+                                                   in any facets (or within a facet, and across
+                                                   them), with a live count on every chip. The
+                                                   labels are written here; the behaviour is
+                                                   app/src/entries/prophecy-filter.js, and without
+                                                   it the bar stays hidden and every card shows.
+
+It also writes assets/popups/prophecies.json, so the verse pop-up on any page can say that a verse
+is a prophecy of Christ, or a New Testament use of one, and link to its card.
 
 The ledger is docs/data/prophecies-of-christ.toml. What needs a Bible database (the Qumran copies)
 or the authorship table and the chronology (the years) comes from docs/data/prophecies-of-christ.json,
@@ -29,7 +38,7 @@ from pathlib import Path
 
 log = logging.getLogger("mkdocs.hooks.prophecies")
 
-_MARKER = re.compile(r"<!--\s*prophecies-of-christ:\s*(measures|dated|nt|category\s+[\w-]+)\s*-->")
+_MARKER = re.compile(r"<!--\s*prophecies-of-christ:\s*(measures|dated|nt|filter|category\s+[\w-]+)\s*-->")
 
 # The labels utils/build_jesus_graphics.py's chart uses, so the page and the chart agree.
 CATEGORIES = {
@@ -78,6 +87,8 @@ RECORDED = {
 _HEBREW = re.compile(r"[\u0590-\u05FF\uFB1D-\uFB4F]+(?:\s+[\u0590-\u05FF\uFB1D-\uFB4F]+)*")
 
 _ledger: list[dict] = []
+# The page the markers are on, for the pop-up's links; set when it renders.
+_page_url: list[str] = []
 _nt: list[dict] = []
 _computed: dict[str, dict] = {}
 
@@ -94,6 +105,7 @@ def on_serve(server, config, builder):  # noqa: ARG001 - hook signature
 
 
 def on_config(config):
+    _page_url.clear()
     ledger = tomllib.loads((_data(config) / "prophecies-of-christ.toml").read_text(encoding="utf-8"))
     computed = json.loads((_data(config) / "prophecies-of-christ.json").read_text(encoding="utf-8"))
     _ledger[:] = ledger["prophecy"]
@@ -107,7 +119,14 @@ def on_config(config):
     return config
 
 
+_COMMENTARY = re.compile(r"^commentaries/(\d{2})-[^/]+/chapter-(\d{3})\.md$")
+
+
 def on_page_content(html, page, config, files):  # noqa: ARG001 - hook signature
+    if "<!-- prophecies-of-christ: category" in html and not _page_url:
+        _page_url.append(page.url)
+    if m := _COMMENTARY.match(page.file.src_uri):
+        html += _chapter_section(int(m[1]), int(m[2]), files)
     return _MARKER.sub(lambda m: _render(m[1], page.file.src_uri), html)
 
 
@@ -116,13 +135,15 @@ def _render(what: str, src: str) -> str:
         return _measures()
     if what == "dated":
         return _dated()
+    if what == "filter":
+        return _filter()
     if what == "nt":
         return f'<div class="pc-group">{"".join(_nt_card(e) for e in _nt)}</div>'
     category = what.split()[1]
     entries = [e for e in _ledger if e["category"] == category]
     if not entries:
         log.warning("prophecies: %s asks for category %r, which has no entries", src, category)
-    return f'<div class="pc-group">{"".join(_card(e) for e in entries)}</div>'
+    return f'<div class="pc-group" data-category="{escape(category)}">{"".join(_card(e) for e in entries)}</div>'
 
 
 def _text(s: str) -> str:
@@ -184,7 +205,8 @@ def _card(e: dict) -> str:
         split = (f'<p class="pc-split"><b>Two comings in one text</b> Fulfilled: {_text(s["first"])}. '
                  f'Still to come: {_text(s["rest"])}. Divided at {escape(s["at"])}.</p>')
     form = ' <span class="pc-form">a type</span>' if e.get("form") == "type" else ""
-    return f"""<article class="pc-entry pc-{escape(e['status'])}" id="prophecy-{escape(e['id'])}">
+    facets = " ".join(f'data-{k}="{escape(" ".join(v))}"' for k, v in _facets(e).items())
+    return f"""<article class="pc-entry pc-{escape(e['status'])}" id="prophecy-{escape(e['id'])}" {facets}>
   <header class="pc-head"><b class="pc-ref">{escape(e['prophecy'])}</b>{form}
     <span class="pc-status">{escape(STATUS[e['status']])}</span></header>
   <p class="pc-says">{_text(e.get('predicts', ''))}</p>
@@ -242,3 +264,113 @@ def _dated() -> str:
             f"carry only the traditional date here. {manuscript} survive in the "
             f"Great Isaiah Scroll, a manuscript older than the event. At least part of the Hebrew of "
             f"{qumran} of all {len(_ledger)} is among the Dead Sea Scrolls, copied before AD 68.</p>")
+
+
+# The filter bar's facets: (data attribute, heading, [(value, chip label)]). The values are the
+# ledger's own; the labels are the cards' wording, shortened to fit a chip.
+FACETS = [
+    ("category", "Subject", list(CATEGORIES.items())),
+    ("status", "Fulfilled", [("fulfilled", "Fulfilled"), ("partly", "In part"), ("future", "Still to come")]),
+    ("control", "Brought about by", [("divine", "God alone"), ("opponents", "His opponents"),
+                                     ("unwitting", "Someone unaware"), ("followers", "His followers"),
+                                     ("chosen", "Jesus, knowingly")]),
+    ("recognition", "Read of the Messiah", [("known-before", "Before Jesus"), ("partly", "In part, before Jesus"),
+                                            ("read-after", "Only in a later Jewish source"),
+                                            ("veiled", "In no Jewish source")]),
+    ("tier", "The New Testament", [("1", "Says it was fulfilled in Him"), ("2", "Applies it to Him"),
+                                   ("3", "At most alludes (tradition)")]),
+    ("text", "Its wording follows", [("mt", "The Hebrew, afresh"), ("lxx", "The Septuagint"),
+                                     ("both", "Both, where they agree"), ("neither", "Neither")]),
+    ("feature", "Features", [("split", "Two comings in one text"), ("yhwh", "The LORD's words, said of Jesus"),
+                             ("type", "A type"), ("messiah", "Spoken in His voice"),
+                             ("manuscript", "A copy older than the event"),
+                             ("after", "Understood only afterwards")]),
+]
+
+
+def _facets(e: dict) -> dict[str, list[str]]:
+    row = _computed.get(e["id"], {})
+    features = [name for name, present in (
+        ("split", "split" in e), ("yhwh", e.get("yhwh_text")), ("type", e.get("form") == "type"),
+        ("messiah", e.get("speaker") == "messiah"), ("manuscript", row.get("manuscript_before")),
+        ("after", e.get("understood_after"))) if present]
+    return {
+        "category": [e["category"]], "status": [e["status"]], "control": [e.get("control", "")],
+        "recognition": [e.get("recognition", "unassessed")], "tier": [str(e["tier"])],
+        "text": sorted({u["text"] for u in e.get("uses", []) if u.get("text") and u["text"] != "none"}),
+        "feature": features,
+    }
+
+
+def _filter() -> str:
+    groups = []
+    for key, heading, values in FACETS:
+        chips = "".join(f'<button type="button" class="pc-chip" data-facet="{key}" data-value="{escape(value)}" '
+                        f'aria-pressed="false">{escape(label)} <span class="pc-n"></span></button>'
+                        for value, label in values)
+        groups.append(f'<div class="pc-facet" role="group" aria-label="{escape(heading)}">'
+                      f'<span class="pc-facet-name">{escape(heading)}</span>{chips}</div>')
+    return (f'<div class="pc-filter" hidden><p class="pc-shown" aria-live="polite"></p>{"".join(groups)}'
+            f'<button type="button" class="pc-clear">Clear the filters</button></div>'
+            f'<script type="module" src="/assets/js/prophecy-filter.js"></script>')
+
+
+def on_post_build(config):
+    """assets/popups/prophecies.json: for each verse key ("Ps 22:18", English numbering, as the
+    pop-up reads it), the entries it belongs to. `p` marks the prophecy's own text, `u` a New
+    Testament use of it with the use's kind, `n` a prediction that begins in the New Testament."""
+    if not _page_url:
+        return
+    rows = {r["id"]: r for r in json.loads((_data(config) / "prophecies-of-christ.json").read_text(encoding="utf-8"))["prophecies"]}
+    nt_rows = {r["id"]: r for r in json.loads((_data(config) / "prophecies-of-christ.json").read_text(encoding="utf-8")).get("nt_prophecies", [])}
+    verses: dict[str, list] = {}
+    for e in _ledger:
+        row = rows.get(e["id"])
+        if not row:
+            continue
+        fulfilled_in = [u["ref"] for u in e.get("uses", []) if u["kind"] in ("fulfilment", "split", "type")]
+        for key in row["verses"]:
+            verses.setdefault(key, []).append([e["id"], e["prophecy"], "p", "; ".join(fulfilled_in)])
+        for use in row["uses"]:
+            for key in use["verses"]:
+                verses.setdefault(key, []).append([e["id"], e["prophecy"], "u", USE_KINDS.get(use["kind"], use["kind"])])
+    for e in _nt:
+        for key in nt_rows.get(e["id"], {}).get("verses", []):
+            verses.setdefault(key, []).append([e["id"], e["prophecy"], "n", e.get("fulfilment", "")])
+    out = Path(config["site_dir"]) / "assets" / "popups" / "prophecies.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps({"u": _page_url[0], "v": verses}, ensure_ascii=False, separators=(",", ":")),
+                   encoding="utf-8")
+
+
+def _chapter_section(book: int, chapter: int, files) -> str:
+    """On a generated commentary chapter page: the prophecies of Christ whose text is in this chapter,
+    and those the chapter's verses fulfil or use. Linked to their cards on the reference page."""
+    hub = files.get_file_from_path("jesus/prophecies-of-christ.md")
+    if hub is None:
+        return ""
+    # The site is served at the root of its domain, so a site-absolute address needs no prefix.
+    url = "/" + hub.url
+    by_id = {e["id"]: e for e in _ledger}
+    said, used = [], []
+    for row in _computed.values():
+        e = by_id.get(row["id"])
+        if not e or "chapters" not in row:
+            continue
+        if [book, chapter] in row["chapters"]["prophecy"]:
+            said.append(e)
+        if [book, chapter] in row["chapters"]["uses"]:
+            used.append(e)
+    if not said and not used:
+        return ""
+
+    def item(e: dict) -> str:
+        return (f'<li><a href="{url}#prophecy-{escape(e["id"])}">{escape(e["prophecy"])}</a> '
+                f'{_text(e.get("predicts", ""))}</li>')
+
+    out = ['<h2 id="prophecies-of-christ">Prophecies of Christ</h2>']
+    if said:
+        out.append(f"<p>Foretold in this chapter:</p><ul>{''.join(item(e) for e in said)}</ul>")
+    if used:
+        out.append(f"<p>Fulfilled or taken up in this chapter:</p><ul>{''.join(item(e) for e in used)}</ul>")
+    return "\n".join(out)
