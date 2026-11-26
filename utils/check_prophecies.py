@@ -19,7 +19,8 @@ Errors (exit non-zero):
    a drafted entry needs a `split` block.
 6. **Drafted means filled in.** A drafted or verified entry has predicts, specific, control and
    recognition, and a `text` on every fulfilment, split and application use; a verified one has
-   recognition other than "unassessed".
+   recognition other than "unassessed". Recognition "read-after" carries a witness dated after
+   the New Testament (a Targum, a midrash), or the label has nothing under it.
 7. **Validator entries are dated.** An entry with `standing` has an `event` or a `year`.
 8. **The New Testament table** (`[[nt_prophecy]]`): ids unique across both tables; speaker,
    recorded and the shared vocabulary as documented; `prophecy` a New Testament reference; `see`
@@ -52,7 +53,7 @@ VOCAB = {
                  "resurrection", "redemption", "office", "future"},
     "status": {"fulfilled", "partly", "future"},
     "control": {"divine", "opponents", "unwitting", "followers", "chosen", "unfulfilled"},
-    "recognition": {"known-before", "partly", "veiled", "unassessed"},
+    "recognition": {"known-before", "partly", "read-after", "veiled", "unassessed"},
     "form": {"prediction", "type"},
     "speaker": {"messiah"},
     "standing": {"stated", "contested-reading", "contested-reckoning", "record-after"},
@@ -150,10 +151,18 @@ def check(entries: list[dict], other_ids: set[str], dated: set[str], future: set
                 err("a split use needs a split block")
         if e.get("research") == "verified" and e.get("recognition") == "unassessed":
             err("verified with recognition still unassessed")
+        if e.get("recognition") == "read-after" and not any(
+                isinstance(w.get("year"), int) and w["year"] > NT_WRITTEN_BY
+                for w in e.get("recognition_evidence", [])):
+            err(f"recognition 'read-after' needs a recognition_evidence witness dated after AD {NT_WRITTEN_BY}")
         if "standing" in e and "event" not in e and "year" not in e:
             err("a validator entry (standing) needs an event or a year")
     return errors
 
+
+# 'read-after' means a Jewish reading of the Messiah made after the church's own: every Targum and
+# midrash is later than the New Testament's last book.
+NT_WRITTEN_BY = 100
 
 NT_VOCAB = {"speaker": {"jesus", "angel", "apostle", "revelation"},
             "recorded": {"before", "after", "contested"}}

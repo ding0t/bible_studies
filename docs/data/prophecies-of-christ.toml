@@ -68,7 +68,11 @@
 #                                already believed: Matthew 2:4-6; John 1:21; 7:42)
 #                 "partly"       read of the Messiah, but not of the part Jesus fulfilled
 #                                (a Messiah who reigns, where Jesus fulfilled the one who suffers)
-#                 "veiled"       no witness reads it so before the fulfilment
+#                 "read-after"   no witness reads it so before Jesus, but a Jewish one does later (a
+#                                Targum, a midrash): a messianic reading the synagogue reached without
+#                                the church, and usually against it. Needs a recognition_evidence
+#                                witness dated after the New Testament
+#                 "veiled"       no witness reads it so, before Jesus or in the Jewish sources since
 #                 "unassessed"   not yet looked at
 #
 # Optional
@@ -127,6 +131,7 @@ split = { first = "Micah 5:2 (the ruler from Bethlehem, whose origins are of old
 recognition_evidence = [
   { note = "the chief priests and scribes answer Herod from Micah 5:2 before the magi find the child: the reading was held in Jerusalem", source = "Matthew 2:4-6", year = -5 },
   { note = "the crowd at the Feast of Booths: the Christ comes from Bethlehem", source = "John 7:41-42", year = 32 },
+  { note = "'from you shall the Messiah (מְשִׁיחָא, meshicha) go forth before Me'", source = "Targum Jonathan, Micah 5:1 (Hebrew)", year = 300 },
 ]
 standing = "stated"
 notes = "Augustus's census brought Joseph from Nazareth to Bethlehem (Luke 2:1-4): control 'unwitting'. 'One whose origins are of old, from the days of eternity' (Micah 5:2, BSB), מִקֶּדֶם מִימֵי עוֹלָם (miqqedem mimei olam): a lead for category nature. The Targum of the Prophets names the Messiah at Micah 5:1 (Hebrew); date it before citing it (session 8)."
@@ -144,7 +149,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_37"
 near = "a sign to Ahaz: before the boy knows good from evil, the land of the two kings is laid waste (Isaiah 7:15-16)"
 exceeds = "lead: the child's name Immanuel, 'God with us' (Matthew 1:23), the land called 'your entire land, O Immanuel' (Isaiah 8:8, BSB), and the child of Isaiah 9:6 called 'Mighty God' (BSB): weigh whether a child born in Ahaz's day bears these"
@@ -165,7 +170,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_39"
 standing = "stated"
 notes = "Jesus left Nazareth and settled in Capernaum, in the territory of Zebulun and Naphtali (Matthew 4:13): control 'chosen'. The land first humbled by Assyria (2 Kings 15:29) sees the light first."
@@ -185,7 +190,10 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "partly"
+recognition_evidence = [
+  { note = "Elijah 'appointed for the times' to turn the father's heart to the son (Malachi 4:5-6): a forerunner awaited, though not yet Malachi 3:1's 'Lord who comes to His temple'", source = "Sirach 48:10", year = -180 },
+]
 event = "anchor_39"
 future_event = "second_coming"
 split = { first = "Malachi 3:1 (the messenger, and the Lord coming to His temple)", rest = "Malachi 3:2-5 ('who can endure the day of His coming?'; the refiner)", at = "Matthew 11:10 with Matthew 3:11-12", signal = "lead: 3:1 is a coming to the temple; 3:2-5 is judgement on Levi and the land" }
@@ -207,7 +215,7 @@ uses = [
 ]
 status = "partly"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 future_event = "millennium"
 split = { first = "Zechariah 9:9 (the king comes humble, on a donkey)", rest = "Zechariah 9:10 (chariots cut off; peace to the nations; dominion from sea to sea)", at = "Matthew 21:5 and John 12:15", signal = "lead: both Gospels leave out 9:9's 'righteous and victorious' (צַדִּיק וְנוֹשָׁע, tsaddiq venosha) and stop before 9:10" }
@@ -230,7 +238,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 standing = "stated"
 notes = "The chief priests fixed the price and bought the field (Matthew 27:6-7): the fulfilment was done by those who rejected Him. Zechariah's shepherd says 'this magnificent price at which they valued me' (Zechariah 11:13, BSB), and the LORD is the one valued. Why Matthew names Jeremiah is contested; give the case for Jeremiah 19 and 32 as the field and the potter's house."
@@ -253,7 +261,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 near = "David, the psalm's author (Psalm 22:1 superscription)"
 standing = "stated"
@@ -275,7 +283,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 standing = "contested-reading"
 notes = "The Masoretic reads כָּאֲרִי (ka'ari, 'like a lion') my hands and feet. The Septuagint reads ὤρυξαν (ōryxan, 'they dug'), a pre-Christian translation. The Nahal Hever psalms scroll (5/6HevPs, dss-5/6hev1b in bible-text.db) has a form of כרה (karah, 'dig') in this verse (Hebrew Psalm 22:17). Date the scroll before leaning on it (lead: Herodian, 1st century AD). Tier 3: the New Testament never cites the line."
@@ -295,7 +303,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 standing = "stated"
 notes = "The soldiers broke the legs of the two men crucified with Him and, finding Him already dead, did not break His (John 19:32-33). Exodus 12:46 and Numbers 9:12 are the Passover lamb's rule (form type); Psalm 34:20 the righteous sufferer's protection. John's wording draws on both."
@@ -314,7 +322,7 @@ uses = [
 ]
 status = "partly"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 future_event = "look_pierced"
 split = { first = "Zechariah 12:10b ('the One they have pierced')", rest = "Zechariah 12:10c-14 (the mourning of the house of David and the clans)", at = "John 19:37 with Revelation 1:7", signal = "lead: the mourning follows a pouring out of 'a spirit of grace and prayer' on the house of David (Zechariah 12:10a), which Pentecost does not exhaust" }
@@ -338,7 +346,10 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "'my servant the Messiah shall prosper' (52:13), but the wounds are turned away: 'He shall build the sanctuary, which has been profaned on account of our sins' (53:5, Pauli 1871)", source = "Targum Jonathan, Isaiah 52:13; 53:5", year = 300 },
+]
 event = "anchor_41"
 standing = "stated"
 notes = "'With a rich man in His death' (Isaiah 53:9, BSB) stands in the Hebrew; the Septuagint reads 'the rich for his death'. Joseph of Arimathea's tomb (Matthew 27:57-60) matches the Hebrew, and Joseph was a disciple (Matthew 27:57): that one particular was done by a follower. The rest was done by the authorities. lead for recognition: the Great Isaiah Scroll reads מָשַׁחְתִּי (mashachti, 'I anointed') at Isaiah 52:14, where the Masoretic has מִשְׁחַת (mishchat, 'marred')."
@@ -380,7 +391,7 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "daniel_terminus_hoehner"
 future_event = "covenant"
 standing = "contested-reckoning"
@@ -411,7 +422,12 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "the psalm's king is the son of David: Psalm 2:9's rod of iron is his (17:23, 26)", source = "Psalms of Solomon 17:26 (Swete)", year = -40 },
+  { note = "'he will be called son of God, and they will call him son of the Most High' (fully extant; contested whether a messiah or a usurper)", source = "4Q246 (Aramaic Apocalypse) ii 1", year = -25 },
+  { note = "contested: 'when [God] begets (יולי?ד) the Messiah' rests on one uncertain letter; some read 'leads'", source = "1QSa (Rule of the Congregation) ii 11-12", year = -75 },
+]
 event = "anchor_41"
 offices = ["king"]
 notes = "All three quotations are the Septuagint word for word, which renders the Hebrew closely. The New Testament hears the decree at three moments: the baptism (allusion), the resurrection (Acts 13:33) and the priesthood (Hebrews 5:5). lead: 4QFlorilegium (4Q174) quotes Psalm 2:1 beside 2 Samuel 7 before Christ; verify in session 8."
@@ -430,7 +446,10 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "'your beauty, O King Messiah, surpasses the sons of men'", source = "Targum of the Psalms, Psalm 45:3 (Hebrew)", year = 450 },
+]
 future_event = "millennium"
 near = "lead: a king of David's line at his wedding (Psalm 45:1)"
 offices = ["king"]
@@ -450,7 +469,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 yhwh_text = true
 notes = "A psalm addressed to the LORD (Psalm 102:1, 12) is said 'about the Son' (Hebrews 1:8, 10): the Son is the Creator. lead: the Septuagint of 102:23-24 makes God answer the psalmist, which may be why Hebrews hears God addressing the Son; check the Greek of 101:24-25 LXX."
 
@@ -467,7 +486,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 notes = "The line is absent from the Masoretic. The Qumran Deuteronomy scroll 4Q44 (4QDeut-q) has a Hebrew text here with 'worship' (חוה), 'sons' (בן) and 'God' (אלהים), 18 words extant (bible_variants): a Hebrew witness before Christ (lead: date the scroll) to the line Hebrews quotes. The BSB brackets the words. Psalm 97:7 ('Worship Him, all you gods!', BSB) is the other candidate source."
 
 [[prophecy]]
@@ -485,7 +504,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_37"
 notes = "Hebrews puts the psalm in Christ's mouth 'when Christ came into the world' (Hebrews 10:5, BSB) and builds on the Septuagint's 'body': 'we have been sanctified through the sacrifice of the body of Jesus Christ once for all' (Hebrews 10:10, BSB). The Hebrew's opened ears are obedience; the Greek's body is the obedience embodied. Psalm 40:7: 'it is written about me in the scroll' (BSB)."
 
@@ -504,7 +523,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 yhwh_text = true
 notes = "The title the LORD claims beside 'there is no God but Me' (Isaiah 44:6) is the title of the one who died and lives (Revelation 1:17-18; 2:8). Revelation renders the Hebrew where the Septuagint obscured 'last'."
 
@@ -522,7 +541,7 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "second_coming"
 yhwh_text = true
 notes = "Isaiah 45:21-23 sets the oath beside 'There is no other God but Me' (Isaiah 45:21, BSB). Paul gives the homage sworn to the LORD alone to Jesus, 'to the glory of God the Father' (Philippians 2:11). The bowing of every knee is still to come."
@@ -542,7 +561,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 yhwh_text = true
 notes = "Joel 2:32 is Hebrew Joel 3:5 and Septuagint Joel 3:5; both Greek uses follow the Septuagint, which renders the Hebrew closely. Joel's 'LORD' is יהוה (YHWH)."
@@ -560,7 +579,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 yhwh_text = true
 notes = "Peter substitutes Christ for the LORD of Hosts inside the quotation. Isaiah 8:14 goes on to the stone of stumbling, which is the LORD: see stone-of-stumbling."
 
@@ -579,7 +598,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 yhwh_text = true
 notes = "John says the glory Isaiah saw in the temple vision was the Son's. The Septuagint of 6:1 says 'the house was full of His glory' where the Hebrew has the train of His robe filling the temple; John's 'saw His glory' may draw on it (lead; the Targum's 'the glory of the LORD' is later, date it). Also the hardening that met His ministry."
 
@@ -597,7 +616,10 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "the names end in 'the Messiah in whose days peace shall increase upon us'", source = "Targum Jonathan, Isaiah 9:5 (Hebrew)", year = 300 },
+]
 future_event = "millennium"
 notes = "'Mighty God', אֵל גִּבּוֹר (el gibbor), is the LORD's title in Isaiah 10:21 ('A remnant will return… to the Mighty God', BSB). The Septuagint renders the names 'Messenger of great counsel' (Μεγάλης βουλῆς ἄγγελος). 9:7 'on the throne of David… forevermore' is echoed at Luke 1:32-33 (allusion). Born and given (fulfilled); the government without end (still to come)."
 
@@ -614,7 +636,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 notes = "Revelation gives the Son of Man the Ancient of Days' features. The Theodotion Greek in bible-text.db (Brenton) has the Son of Man come 'to the Ancient of Days'; the Old Greek's 'came as the Ancient of Days' is not in the database (lead: check Rahlfs or Göttingen)."
 
 [[prophecy]]
@@ -628,7 +650,10 @@ specific = ["person"]
 uses = []
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
+recognition_evidence = [
+  { note = "'from the womb, before the morning star, I begot you' (ἐγέννησά σε): a begetting, not named", source = "Septuagint, Psalm 109:3", year = -132 },
+]
 offices = ["king"]
 notes = "The Septuagint (Psalm 109:3 LXX) reads ἐκ γαστρὸς πρὸ Ἑωσφόρου ἐγέννησά σε, 'from the womb, before the morning star, I begot you': a pre-Christian translation that puts a begetting before the dawn in the psalm Jesus claimed (Psalm 110:1). The Hebrew is obscure: 'from the womb of the dawn, to You belongs the dew of Your youth' (BSB). lead: weigh the two texts; the vowel pointing of יְלִדְתִּיךָ (yelidtikha, 'I have begotten you') against the Masoretic יַלְדֻתֶךָ (yaldutekha, 'your youth')."
 
@@ -643,7 +668,7 @@ specific = ["person"]
 uses = []
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "millennium"
 offices = ["king"]
 notes = "'Kiss the Son' (BSB) renders בַּר (bar), the Aramaic word for son, where Psalm 2:7 has the Hebrew בֵּן (ben). The Septuagint reads 'take hold of instruction' (δράξασθε παιδείας). Contested; give the case on both sides. 'Blessed are all who take refuge in Him' (BSB): refuge in the Son."
@@ -665,7 +690,11 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "a single male 'he' (αὐτός) against the neuter 'seed': one person, not named", source = "Septuagint, Genesis 3:15", year = -250 },
+  { note = "'a remedy for the heel in the days of the King Messiah' (Etheridge)", source = "Targum Pseudo-Jonathan and Fragment Targum, Genesis 3:15", year = 650 },
+]
 future_event = "satan_released"
 notes = "The Septuagint, translated before Christ, writes αὐτός (autos, 'he') where the antecedent σπέρμα (sperma, 'seed') is neuter: the translators read an individual. It also has τηρήσει (tērēsei, 'watch for') where the Hebrew has שׁוּף (shuph, 'crush, strike'). Satan's final defeat comes after his release (Revelation 20:7-10); the future_event marks that point. The early church's reading (Irenaeus, Against Heresies 3.23.7) is a witness after Christ; date it in session 8."
 
@@ -684,7 +713,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 near = "Isaac and the nation from him (Genesis 21:12; 22:17)"
 notes = "Contested on one point: Paul argues from the singular 'offspring' (Galatians 3:16), and זֶרַע (zera) is a collective noun; Paul knows it, for he goes on 'you are Abraham's seed' (Galatians 3:29, BSB). The case on both sides belongs in the study. The blessing came 'to the Gentiles in Christ Jesus' (Galatians 3:14, BSB)."
@@ -703,7 +732,12 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "'until the coming of the Messiah of righteousness, the Branch of David' (9 of 12 words extant; copy dated by its hand)", source = "4Q252 (Commentary on Genesis A) v 3", year = -25 },
+  { note = "'he is the expectation of nations' (προσδοκία ἐθνῶν): a person awaited", source = "Septuagint, Genesis 49:10", year = -250 },
+  { note = "'until the Messiah comes, whose is the kingdom'", source = "Targum Onkelos, Genesis 49:10", year = 250 },
+]
 future_event = "millennium"
 offices = ["king"]
 notes = "The Septuagint, before Christ, reads Genesis 49:10 of a person: 'until the things stored up for him come, and he is the expectation of nations' (ἕως ἐὰν ἔλθῃ τὰ ἀποκείμενα αὐτῷ· καὶ αὐτὸς προσδοκία ἐθνῶν). 'Shiloh' (שִׁילֹה) is contested: a name, or 'he whose it is' (Ezekiel 21:27). lead: 4Q252 (Commentary on Genesis A) reads 49:10 of the Messiah of righteousness, the Branch of David, before Christ; verify in session 8."
@@ -723,7 +757,13 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "Numbers 24:15-17 set beside Deuteronomy 18:18-19 in a list of the figures awaited (fully extant)", source = "4Q175 (Testimonia) 9-13", year = -75 },
+  { note = "the star is the Interpreter of the Law, the sceptre 'the prince of the whole congregation' (date of composition; the Cairo copy is medieval)", source = "Damascus Document (CD) vii 18-21", year = -100 },
+  { note = "quotes Numbers 24:17-19 'as You declared to us from of old' for the final battle (fully extant)", source = "1QM (War Scroll) xi 6-7", year = -25 },
+  { note = "'a king shall arise from Jacob and the Messiah be anointed from Israel'", source = "Targum Onkelos, Numbers 24:17", year = 250 },
+]
 future_event = "second_coming"
 near = "David, who struck Moab (2 Samuel 8:2)"
 offices = ["king"]
@@ -754,6 +794,8 @@ offices = ["king"]
 recognition_evidence = [
   { note = "'the Christ will come from the line of David' (BSB): the crowd's settled expectation", source = "John 7:42", year = 32 },
   { note = "the Pharisees answer 'The son of David' when asked whose son the Christ is", source = "Matthew 22:41-42", year = 33 },
+  { note = "2 Samuel 7:11-14 read of 'the Branch of David who will stand with the Interpreter of the Law' (22 of 25 words extant on line 11)", source = "4Q174 (Florilegium) 1-2 i 10-11", year = -25 },
+  { note = "'raise up for them their king, the son of David' (written after Pompey's death, 48 BC: 2:30-31)", source = "Psalms of Solomon 17:23 (Swete)", year = -40 },
 ]
 notes = "Hebrews quotes the half of 2 Samuel 7:14 that fits Him and leaves out the near referent's sin: the second such omission after John 13:18. lead: 4QFlorilegium (4Q174) reads 2 Samuel 7:11-14 of the Branch of David before Christ; verify in session 8."
 
@@ -777,6 +819,7 @@ future_event = "millennium"
 offices = ["king"]
 recognition_evidence = [
   { note = "the Christ from David's line", source = "John 7:42", year = 32 },
+  { note = "the king awaited is 'the son of David'", source = "Psalms of Solomon 17:23 (Swete)", year = -40 },
 ]
 notes = "Peter places the oath's fulfilment at the resurrection and the session at God's right hand (Acts 2:30-36). Whether that is the throne of David itself, or the session before the reign over the house of Jacob (Luke 1:33; Acts 1:6; 15:16), is contested among dispensational readers too. Check the conclusion against the statement of faith after the exegesis; surface any conflict to the author."
 
@@ -795,7 +838,13 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "quotes Isaiah 11:1 ('a shoot shall come out from the stump of Jesse') of 'the Branch of David', 'the prince of the congregation'", source = "4Q285 (Sefer ha-Milhamah) 7 2-4", year = -1 },
+  { note = "Isaiah 11:4 spoken to 'the prince of the congregation': 'with the breath of your lips you shall slay the wicked'", source = "1QSb (Rule of Blessings) v 24-25", year = -75 },
+  { note = "the son of David made 'mighty in the Holy Spirit and wise in counsel' (Isaiah 11:2)", source = "Psalms of Solomon 17:42 (Swete)", year = -40 },
+  { note = "'a king shall come forth from the sons of Jesse, and the Messiah be anointed from his sons' sons'", source = "Targum Jonathan, Isaiah 11:1", year = 300 },
+]
 event = "anchor_37"
 offices = ["king"]
 notes = "A stump: the tree of Jesse's line is felled before the shoot appears. No son of David reigned after Zedekiah (2 Kings 25:7). lead: weigh whether 'stump' (גֵּזַע, geza) marks the line's fall before the shoot, a feature for the join. Romans 15:12 quotes 11:10, the gentiles-hope-root-of-jesse entry."
@@ -813,7 +862,12 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "'the Messiah of righteousness, the Branch of David': Jeremiah 23:5 and 33:15's 'righteous Branch' as a title", source = "4Q252 v 3-4", year = -25 },
+  { note = "'the Branch of David'", source = "4Q174 1-2 i 11", year = -25 },
+  { note = "'I will raise up for David the Messiah of righteousness'; Zechariah 3:8 'My servant the Messiah'; 6:12 'the man whose name is Messiah'", source = "Targum Jonathan, Jeremiah 23:5; 33:15; Zechariah 3:8; 6:12; Isaiah 4:2", year = 300 },
+]
 future_event = "millennium"
 offices = ["king", "priest"]
 yhwh_text = true
@@ -834,7 +888,11 @@ uses = [
 ]
 status = "partly"
 control = "unwitting"
-recognition = "unassessed"
+recognition = "partly"
+recognition_evidence = [
+  { note = "nations come 'from the ends of the earth to see his glory, bearing gifts' to the son of David: the reign, not the child Matthew 2 records", source = "Psalms of Solomon 17:34 (Swete)", year = -40 },
+  { note = "'give the rules of Your justice to the King Messiah'", source = "Targum of the Psalms, Psalm 72:1", year = 450 },
+]
 future_event = "millennium"
 near = "Zion restored, with the nations' wealth flowing in (Isaiah 60:1-14); Solomon's reign (Psalm 72:1, 20)"
 notes = "Matthew adds myrrh, which neither text has, and which returns at His burial (John 19:39). Isaiah 60 belongs to Zion's restoration ('the LORD will be your everlasting light', Isaiah 60:19, BSB): the magi are at most a first fruit. Status partly."
@@ -853,7 +911,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "flight"
 near = "Israel at the exodus ('When Israel was a child, I loved him')"
 notes = "Joseph took the child to Egypt on the angel's warning and stayed until Herod's death (Matthew 2:13-15): control 'divine'. Matthew applies to the Son what Hosea said of Israel the son (Exodus 4:22-23): form type, with a fulfilment formula. Matthew had to follow the Hebrew, because the Septuagint's 'his children' would not carry the point. lead for recognition: no reading of Hosea 11:1 as messianic before Matthew is known to me; check before marking 'veiled' (session 8)."
@@ -872,7 +930,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "flight"
 near = "the exiles taken through Ramah (Jeremiah 40:1)"
 notes = "Herod's killing of the boys of Bethlehem (Matthew 2:16): control 'opponents'. Matthew writes 'then' (τότε) here and at the death of Judas (Matthew 27:9), the two fulfilments that come through evil men, where elsewhere he writes 'so that' (ἵνα): lead, count the formulas in session 10. Jeremiah 31:16-17 goes on: 'your children will return from the land of the enemy… So there is hope for your future' (BSB): grief with a promise."
@@ -890,7 +948,11 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "Isaiah 11:1, the text of the נֵצֶר (netser, 'branch'), read of the Branch of David; Matthew's wordplay is his own", source = "4Q285 7 2-3", year = -1 },
+  { note = "the branch is 'the Messiah'", source = "Targum Jonathan, Isaiah 11:1", year = 300 },
+]
 event = "nazareth"
 notes = "Joseph settled in Nazareth on a warning in a dream (Matthew 2:22-23): control 'divine'. Three readings, all contested: (1) נֵצֶר (netser, 'branch') of Isaiah 11:1, the Davidic shoot; (2) נָזִיר (nazir) of Judges 13:5; (3) the despised one of Isaiah 53:2-3, with 'Can anything good come from Nazareth?' (John 1:46, BSB). The plural 'prophets' favours a theme across several texts. The prophecy field holds Isaiah 11:1 as the likeliest."
 
@@ -909,7 +971,7 @@ specific = ["person"]
 uses = []
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_37"
 notes = "The psalm Jesus prayed on the cross (Psalm 22:1) goes back to His birth: 'Yet You brought me forth from the womb; You made me secure at my mother's breast. From birth I was cast upon You; from my mother's womb You have been my God' (Psalm 22:9-10, BSB). It follows the mockers' words that Matthew 27:43 puts in the chief priests' mouths. lead: the verses name a mother and no father; Psalm 71:6 does the same of an ordinary man, so this is no evidence of the virgin birth by itself."
 
@@ -929,7 +991,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "unwitting"
-recognition = "unassessed"
+recognition = "veiled"
 notes = "'I have become a stranger to my brothers and a foreigner to my mother's sons' (Psalm 69:8, BSB). The next verse, 'zeal for Your house', is applied to Jesus at John 2:17, and 69:21's vinegar at John 19:28-29. lead: 'my mother's sons' fits half-brothers, but it is also ordinary Hebrew parallelism (Genesis 43:29; Psalm 50:20). Weigh it; never claim it."
 
 [[prophecy]]
@@ -978,6 +1040,7 @@ split = { first = "Malachi 4:5-6 fulfilled in John, 'in the spirit and power of 
 recognition_evidence = [
   { note = "'Why then do the scribes say that Elijah must come first?': the expectation was the scribes' before Jesus", source = "Matthew 17:10", year = 32 },
   { note = "the priests and Levites ask John, 'Are you Elijah?'", source = "John 1:21", year = 29 },
+  { note = "Elijah 'appointed for the times… to restore the tribes of Jacob' (Malachi 4:6)", source = "Sirach 48:10", year = -180 },
 ]
 notes = "John denied being Elijah (John 1:21), and Jesus said he was, for those willing to accept it (Matthew 11:14): John came in Elijah's spirit and power. The future_event (the two witnesses, Revelation 11:6 with 1 Kings 17:1) is this site's reading and is contested; mark it so."
 
@@ -999,7 +1062,11 @@ uses = [
 ]
 status = "partly"
 control = "chosen"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "'heaven and earth will listen to His Messiah'; the Lord will free captives, give sight to the blind, revive the dead and 'bring good news to the poor' (Isaiah 61:1). Contested whether the Messiah or the Lord does the works", source = "4Q521 (Messianic Apocalypse) 2 ii 1, 8, 12", year = -80 },
+  { note = "Isaiah 61:1-2 read of the last days: release (דרור, deror) and 'the year of Melchizedek's favour', with his 'vengeance of God's judgments' (13); 'the herald is the anointed of the Spirit' (18, mostly restored)", source = "11Q13 (Melchizedek) ii 4-9, 13, 18", year = -50 },
+]
 event = "anchor_39"
 future_event = "second_coming"
 split = { first = "Isaiah 61:1-2a ('to proclaim the year of the LORD's favor', BSB)", rest = "Isaiah 61:2b-3 ('and the day of our God's vengeance, to comfort all who mourn', BSB)", at = "Luke 4:19-21", signal = "Contested, give both sides. For the join: 'year' of favour beside 'day' of vengeance; the servant who suffers before he is exalted (Isaiah 52:13-53:12); Psalm 110:1's 'until'. Against reading 'year' and 'day' as two eras: Isaiah 34:8 ('a day of vengeance, a year of recompense', BSB) and 63:4 ('the day of vengeance… the year of My redemption', BSB) pair them on one side of God's act" }
@@ -1018,7 +1085,10 @@ uses = [
 ]
 status = "partly"
 control = "chosen"
-recognition = "unassessed"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "'behold My servant the Messiah'", source = "Targum Jonathan, Isaiah 42:1", year = 300 },
+]
 event = "jesus_miracles_and_healings"
 future_event = "millennium"
 notes = "Matthew applies it to Jesus withdrawing and telling those He healed not to make Him known (Matthew 12:15-16): control 'chosen'. Status partly: 'until He has established justice on the earth' (Isaiah 42:4, BSB) and 'till He leads justice to victory' (Matthew 12:20, BSB) look ahead."
@@ -1037,7 +1107,10 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "in the days of 'His Messiah' the blind see and the dead live: the healings Matthew 11:5 lists (the Lord as agent; contested)", source = "4Q521 2 ii 1, 8, 12", year = -80 },
+]
 event = "jesus_miracles_and_healings"
 future_event = "second_coming"
 split = { first = "Isaiah 35:5-6 (the healings)", rest = "Isaiah 35:4 ('your God will come with vengeance', BSB)", at = "Matthew 11:5", signal = "the vengeance comes first in the Old Testament text; Jesus answers John with the healings only and ends on Isaiah 61:1's good news to the poor, the same cut as Luke 4:19" }
@@ -1056,7 +1129,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 event = "jesus_miracles_and_healings"
 notes = "Matthew applies the verse to the healings at Capernaum; 1 Peter 2:24 applies the passage to the cross. Matthew needed the Hebrew: the Septuagint's 'sins' would not have carried his point."
 
@@ -1073,7 +1146,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 event = "jesus_teaching_on_kingdom"
 near = "Asaph, telling Israel's history (Psalm 78:1-4)"
 notes = "Matthew calls the psalmist 'the prophet': Asaph is 'the seer' in 2 Chronicles 29:30 (BSB). The psalm retells Israel's history (Psalm 78:3-4); the 'hidden things' are the meaning of that history, which the parables open."
@@ -1113,7 +1186,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "unwitting"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "The children shout 'Hosanna to the Son of David' in the temple (Matthew 21:15), and the chief priests object. Jesus answers with a psalm whose subject is God's praise: Hebrews 2:6-8 reads the same psalm of Him (all-things-under-his-feet)."
 
@@ -1131,7 +1204,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "'Although Jesus had performed so many signs in their presence, they still did not believe in Him' (John 12:37, BSB)."
 
@@ -1150,7 +1223,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "Jesus calls the Psalms 'their Law' (John 15:25), the whole of Scripture. Psalm 69 is the psalm the New Testament draws on most for the passion: 69:4, 9, 21, 25."
 
@@ -1170,7 +1243,10 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "the stone becomes 'a king, a mighty king' set in Zion; not named Messiah", source = "Targum Jonathan, Isaiah 28:16", year = 300 },
+]
 event = "anchor_41"
 yhwh_text = true
 notes = "Paul and Peter make the same joining of Isaiah 8:14 and 28:16, and both follow the Hebrew of 8:14 where the Septuagint denies the stumbling: lead, a shared collection of testimonies before either letter. In Isaiah 8:13-14 the stone is the LORD of Hosts."
@@ -1199,6 +1275,8 @@ offices = ["prophet"]
 recognition_evidence = [
   { note = "'Are you the Prophet?' (BSB): the priests and Levites ask John", source = "John 1:21", year = 29 },
   { note = "the crowds: 'Truly this is the Prophet'", source = "John 6:14; 7:40", year = 32 },
+  { note = "Deuteronomy 18:18-19 heads the list of figures awaited (fully extant)", source = "4Q175 1-8", year = -75 },
+  { note = "'until the coming of a prophet and the Messiahs of Aaron and Israel' (fully extant)", source = "1QS (Community Rule) ix 11", year = -75 },
 ]
 notes = "lead: 4QTestimonia (4Q175) quotes Deuteronomy 18:18-19 among its end-time texts before Christ; verify in session 8."
 
@@ -1221,7 +1299,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 near = "David, betrayed (Psalm 41:4 confesses 'I have sinned against you')"
 exceeds = "lead: the omission fits the near referent's limits: Psalm 41:4 confesses 'I have sinned against You' (BSB), and 'Jesus had known from the beginning… who would betray Him' (John 6:64, BSB), so 'whom I trusted' could not stand"
@@ -1241,7 +1319,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "followers"
-recognition = "unassessed"
+recognition = "veiled"
 near = "David's enemies, cursed in the plural (Psalm 69:22-28); one accuser in Psalm 109:6-19"
 notes = "Judas's death and his field fulfil the desolation (Acts 1:18-20); the apostles then fill his office knowingly, by lot (Acts 1:21-26): control 'followers'. Acts 1:16 states the dual authorship: 'the Scripture had to be fulfilled that the Holy Spirit foretold through the mouth of David concerning Judas' (BSB)."
 
@@ -1259,7 +1337,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 near = "lead: David betrayed by Ahithophel, his counsellor (2 Samuel 15:12, 31)"
 notes = "'It is you, a man like myself, my companion and close friend. We shared sweet fellowship together; we walked with the crowd into the house of God' (Psalm 55:13-14, BSB). lead: Ahithophel hanged himself (2 Samuel 17:23), as Judas did (Matthew 27:5): a pattern the New Testament does not draw, so a pattern only (prophecy-method.md section 5). Psalm 41:9 is the betrayal text Jesus cites."
@@ -1279,7 +1357,10 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "partly"
+recognition_evidence = [
+  { note = "Zechariah 13:7 read of the final visitation: 'the poor of the flock' escape, the rest are given to the sword 'when the Messiah of Aaron and Israel comes'. The struck shepherd is not the Messiah (composition date; the Cairo copy is medieval)", source = "Damascus Document (CD) xix 7-11", year = -100 },
+]
 event = "anchor_41"
 notes = "'I will strike' makes God the one who strikes, which is Isaiah 53:10 ('it was the LORD’s will to crush Him', BSB) and Acts 2:23. The shepherd is 'the man who is My Companion' (Zechariah 13:7, BSB), the LORD's equal. Jesus foretold the scattering the same night, and it happened within hours (Matthew 26:56)."
 
@@ -1297,7 +1378,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 near = "David, the psalms' author"
 notes = "No New Testament text cites either psalm for the trial, so tier 3. Psalm 35:19 ('hate me without cause') is cited, at John 15:25 (hated-without-cause)."
@@ -1339,7 +1420,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 near = "Judah's ruler under siege (Micah 5:1, 'a siege is laid against us', BSB)"
 notes = "lead: no New Testament text cites it. The next verse is Bethlehem (Micah 5:2), so the rod on the cheek is followed by the ruler from of old; weigh whether Micah sets the humiliated judge and the coming ruler side by side."
@@ -1360,7 +1441,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "Jesus' silence before the high priest, Pilate and Herod (Matthew 26:63; 27:14; Luke 23:9) was His own: control 'chosen'. The eunuch's question, 'who is the prophet talking about, himself or someone else?' (Acts 8:34, BSB), is the near-referent question asked in Scripture, and 'Philip began with this very Scripture and told him the good news about Jesus' (Acts 8:35, BSB)."
 
@@ -1377,7 +1458,11 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "partly"
+recognition_evidence = [
+  { note = "Psalm 2:1-2 read of the nations against 'the chosen ones of Israel in the last days'; 'His anointed' is restored by the editors", source = "4Q174 1-2 i 18-19", year = -25 },
+  { note = "Psalm 2 read of the son of David's reign (verse 9)", source = "Psalms of Solomon 17:26 (Swete)", year = -40 },
+]
 event = "anchor_41"
 offices = ["king"]
 notes = "Acts 4:27 names each party: Herod and Pontius Pilate 'conspired with the Gentiles and the people of Israel against Your holy servant Jesus, whom You anointed' (BSB). Acts 4:28: 'They carried out what Your hand and will had decided beforehand would happen' (BSB). Psalm 2 runs on to the Son's enthronement (2:6-9): see my-son-today and rule-with-a-rod-of-iron."
@@ -1397,7 +1482,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "See The Bronze Serpent Lifted Up (state file bronze-serpent-lifted-up.yml)."
 
@@ -1418,7 +1503,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "The council planned to act 'not during the feast… or there may be a riot among the people' (Matthew 26:5, BSB), and He died at Passover: the timing came against their plan, so control 'divine'. The date is worked out in Dating the Cross."
 
@@ -1438,7 +1523,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "lead: Moriah is the temple mount (2 Chronicles 3:1). Hebrews places the type at the resurrection, so recheck category in the resurrection session."
 
@@ -1459,7 +1544,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "The mockers quote the text they are fulfilling. lead: the next verse, 'Yet You brought me forth from the womb' (Psalm 22:9, BSB), is a Psalms childhood text (see the womb entry)."
 
@@ -1479,7 +1564,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "He prays the psalm's first line on the cross. Whether citing the first line claims the whole psalm, which turns to vindication and praise (Psalm 22:21-31), is contested; give both cases. lead: the Targum of Psalms has שבקתני at 22:2; check and date it."
 
@@ -1500,7 +1585,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "John says Jesus spoke 'I am thirsty' (BSB) 'knowing that everything had now been accomplished', to fulfil the Scripture (John 19:28): control 'chosen' for the words (Διψῶ, dipsō), with the drink given by the soldiers. Psalm 22:15 ('my tongue sticks to my jaws') is the other candidate text."
 
@@ -1518,7 +1603,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 near = "David in distress, trusting God (Psalm 31:1-5)"
 notes = "A prayer He took up as He died; Luke makes no claim of fulfilment. He ends where the psalm's next words are 'You have redeemed me': lead, an observation to weigh beside John 13:18's omission, never a claim."
@@ -1538,7 +1623,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 near = "the day of judgement on the northern kingdom (Amos 8:1-10)"
 notes = "No Gospel cites Amos. Amos 8:10 goes on: 'I will make it like a time of mourning for an only son' (BSB). Shared words: noon, darkness, mourning for an only son. Pattern only (prophecy-method.md section 5): tier 3."
@@ -1558,7 +1643,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "followers"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 near = "David confessing his sin (Psalm 38:3-4, 18)"
 notes = "The psalm is a confession of sin, which the speaker owns (38:18), so it cannot be His prayer. Keep as an echo in the reference, labelled so, or move to excluded; decide in review."
@@ -1577,7 +1662,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "The verse's first half, 'numbered with the transgressors', is in suffering-servant. The intercession was done on the cross (Luke 23:34) and continues (Hebrews 7:25; Romans 8:34)."
 
@@ -1596,7 +1681,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "VERDICT 2026-11-26: the link to 'It is finished' (John 19:30) is a sermon parallel only. The words are not shared: τετέλεσται (tetelestai, 'it is finished') against the Hebrew כִּי עָשָׂה (ki asah, 'that He has done it'); the Septuagint reads further from it again, 'a people to be born, whom the Lord made' (λαῷ τῷ τεχθησομένῳ, ὃν ἐποίησεν ὁ Κύριος, Psalm 21:32 LXX). The psalm's close does belong to the praise that follows the suffering (Psalm 22:22-31), so the theme is fair; the claim of fulfilment is not. A lead for Spot the Mistake."
 
@@ -1617,7 +1702,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "opponents"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "Jesus applies it to Himself at the end of the parable of the tenants (Matthew 21:33-42), and Peter to the crucifixion and resurrection: 'whom you crucified but whom God raised from the dead… This Jesus is the stone you builders rejected' (Acts 4:10-11, BSB). The rejection is the passion; becoming the cornerstone is the resurrection."
 
@@ -1640,7 +1725,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "The only sign Jesus offered that generation. The count of the days is worked out in Three Days and Three Nights."
 
@@ -1677,7 +1762,10 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "'that they might see the kingdom of their Messiah' (Pauli 1871): the remnant, not the servant, sees", source = "Targum Jonathan, Isaiah 53:10", year = 300 },
+]
 event = "anchor_41"
 notes = "The servant is 'cut off from the land of the living' and given a grave (Isaiah 53:8-9), then 'will prolong His days' (53:10, BSB): life after death in the text. At 53:11 the Great Isaiah Scroll (1QIsa-a, 14 words extant) and 1Q8 (8 words extant) read 'light' (אור, or), with the Septuagint (δεῖξαι αὐτῷ φῶς), where the Masoretic lacks it; the BSB follows them ('He will see the light of life'). Two Hebrew copies made before Christ carry it. No New Testament text cites 53:10-11 for the resurrection: tier 3."
 
@@ -1694,7 +1782,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "Paul argues from the word: the 'holy things' promised to David are given through the 'Holy One' who did not see decay. The link works in Greek (ὅσια / ὅσιος); the Hebrew has חַסְדֵי (chasdei, loving devotions) and חֲסִידְךָ (chasidkha, Your faithful one), the same root, so it works in Hebrew too."
 
@@ -1712,7 +1800,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "jesus_reign_at_god_s_right_hand"
 notes = "Paul turns receiving into giving: the conqueror who receives tribute distributes it (Ephesians 4:11). lead: the Targum of Psalms reads 'you gave gifts' here; date it before saying Paul shares a reading (session 8). In the psalm the one who ascends is God, 'that the LORD God may dwell there' (68:18, BSB)."
 
@@ -1762,7 +1850,7 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "millennium"
 split = { first = "Psalm 8:5 (made lower for a little while, then crowned with glory and honour)", rest = "Psalm 8:6 (all things under His feet)", at = "Hebrews 2:8-9", signal = "Hebrews reads the crowning as done and the subjection as not yet: \"we do not yet see\" (οὔπω ὁρῶμεν)" }
 near = "humankind (Psalm 8:4; Genesis 1:26-28)"
@@ -1784,7 +1872,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "The psalm turns at verse 22 from suffering to praise. The risen Jesus first calls the disciples 'brothers' (John 20:17; Matthew 28:10)."
 
@@ -1801,7 +1889,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 near = "Isaiah and his sons as signs (Isaiah 8:3, 18)"
 notes = "Hebrews hears Christ in Isaiah's words, with the children God gave Him as the 'sons' brought to glory (Hebrews 2:10). Isaiah's own children were signs by their names (Isaiah 7:3; 8:3)."
 
@@ -1820,7 +1908,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "jesus_reign_at_god_s_right_hand"
 yhwh_text = true
 notes = "'Who is He, this King of Glory? The LORD of Hosts—He is the King of Glory' (Psalm 24:10, BSB). lead: Justin Martyr reads it of the ascension (Dialogue with Trypho 36, about AD 155); the near setting is the ark brought up to Zion (2 Samuel 6)."
@@ -1836,7 +1924,7 @@ specific = ["manner"]
 uses = []
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "'I will not die, but I will live and proclaim what the LORD has done' (Psalm 118:17, BSB), five verses before the rejected stone (118:22), which Jesus applies to Himself. lead: the psalm's speaker is the king entering in victory (118:19-26); weigh the whole psalm before claiming the verse."
 
@@ -1856,7 +1944,7 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 future_event = "second_coming"
 split = { first = "Jeremiah 31:31-34 inaugurated in His blood (Luke 22:20; Hebrews 8:6-13)", rest = "Jeremiah 31:31, 34 for the house of Israel and the house of Judah, all knowing the LORD", at = "Romans 11:26-27", signal = "lead: the covenant is named for both houses, and Jeremiah 31:35-37 ties Israel's survival as a nation to it" }
@@ -1878,7 +1966,7 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "pentecost_spirit"
 future_event = "seal6"
 split = { first = "Joel 2:28-29", rest = "Joel 2:30-31", at = "Acts 2:16-21" }
@@ -1919,7 +2007,7 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_37"
 future_event = "millennium"
 notes = "The servant is called 'Israel' (Isaiah 49:3) and restores Israel (49:5-6): one who is the nation's true representative and its restorer. Status partly: Israel's tribes raised up is still to come."
@@ -1937,7 +2025,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "anchor_41"
 notes = "For the Isaiah 61 study: Paul's 'time of favor' (καιρῷ δεκτῷ; 'favorable', εὐπρόσδεκτος) shares Isaiah 61:2's word for 'favour' (δεκτός), and he says it is now. The favour Jesus proclaimed at Nazareth runs through the present age."
 
@@ -1954,7 +2042,11 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "nations come 'from the ends of the earth to see his glory' to the son of David", source = "Psalms of Solomon 17:34 (Swete)", year = -40 },
+  { note = "Isaiah 11 read of the Branch of David", source = "4Q285 7 2-4", year = -1 },
+]
 event = "anchor_41"
 future_event = "millennium"
 notes = "Isaiah 11:11-16 goes straight on to the regathering of Israel's remnant 'a second time' (11:11), 'from the four corners of the earth' (11:12, BSB): the nations' hope now (Romans 15:12) and Israel's return to come, in one chapter."
@@ -1972,7 +2064,10 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "'the booth of David that is fallen… who will arise to save Israel' (Amos 9:11 of the Branch). Contested at Qumran itself: CD vii 15-16 reads the booth as 'the books of the Law'", source = "4Q174 1-2 i 12-13", year = -25 },
+]
 future_event = "millennium"
 split = { first = "Amos 9:12, the nations 'that bear My name' seeking the Lord (happening: 'the Gentiles who are turning to God', Acts 15:19, BSB)", rest = "Amos 9:11, 13-15, David's tent rebuilt 'as in the days of old' and Israel planted in the land 'never again to be uprooted' (9:15, BSB)", at = "Acts 15:16-18, which stops at 9:12", signal = "James's own opening, 'After this I will return', from Hosea 3:4-5: Israel 'many days without king', then 'afterward' seeking David their king 'in the last days'" }
 offices = ["king"]
@@ -1994,7 +2089,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 event = "jesus_reign_at_god_s_right_hand"
 offices = ["priest", "king"]
 notes = "One person holds both offices, the thing the Law kept apart (Hebrews 7:13-14, Judah and not Levi). Genesis 14:18-20 is the type. lead: 11QMelchizedek (11Q13) makes Melchizedek a heavenly deliverer before Christ. See Melchizedek Priesthood and Melchizedek in Second Temple Judaism."
@@ -2015,7 +2110,7 @@ uses = [
 ]
 status = "partly"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "millennium"
 near = "David and his line (Psalm 89:3-4, 20, 29)"
 offices = ["king"]
@@ -2033,7 +2128,10 @@ specific = ["person"]
 uses = []
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "'the son You made strong for Yourself' becomes 'the King Messiah'; the parallel 'son of man' (80:17) stays", source = "Targum of the Psalms, Psalm 80:16 (Hebrew; English 80:15)", year = 450 },
+]
 event = "jesus_reign_at_god_s_right_hand"
 near = "Israel, the vine (Psalm 80:8-16), or its king"
 offices = ["king"]
@@ -2053,7 +2151,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 near = "Eliakim, Hezekiah's steward (Isaiah 22:20-25), whose peg 'will give way'"
 exceeds = "'the peg driven into a firm place will give way; it will be sheared off and fall' (Isaiah 22:25, BSB): Eliakim's office failed, and the one in Revelation 3:7 is 'the Holy One, the True One'"
 offices = ["king"]
@@ -2072,7 +2170,10 @@ uses = [
 ]
 status = "partly"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "the son of David 'shepherding the Lord's flock in faith and righteousness' (Ezekiel 34:23)", source = "Psalms of Solomon 17:45 (Swete)", year = -40 },
+]
 future_event = "millennium"
 offices = ["king"]
 notes = "Ezekiel 34 has two shepherds, the LORD (34:15) and David (34:23), and Jesus claims both roles (John 10:11; prophecy-method.md section 4). Whether 'David' is Christ or a risen David under Him is contested; Ezekiel's Temple treats it. Ezekiel 37:24-25 sets the shepherd-king in the land with the tribes reunited: still to come."
@@ -2091,7 +2192,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 notes = "A vision Jacob saw, with no prediction in it; kept as a type because Jesus draws it on Himself. lead: Genesis Rabbah 68:12 debates whether the angels went up and down on the ladder or on Jacob (after Christ; date the compilation)."
 
 [[prophecy]]
@@ -2108,7 +2209,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 notes = "Paul says the rock was Christ and calls the events examples (τύποι, 1 Corinthians 10:6, 11). lead: the tradition of a rock that followed Israel (Tosefta Sukkah 3:11, after Christ; date it)."
 
 [[prophecy]]
@@ -2126,7 +2227,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "divine"
-recognition = "unassessed"
+recognition = "veiled"
 notes = "See The Bread of Life."
 
 [[prophecy]]
@@ -2144,7 +2245,7 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "unassessed"
+recognition = "veiled"
 offices = ["priest"]
 notes = "See Day of Atonement and The Heavenly Pattern. The tabernacle's types are many; this ledger lists the Day of Atonement and links the series for the rest."
 
@@ -2168,7 +2269,10 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "veiled"
+recognition_evidence = [
+  { note = "the one called 'son of God' with an everlasting kingdom (Daniel 7:14, 27, echoed, not quoted; contested)", source = "4Q246 ii 1-5", year = -25 },
+]
 future_event = "second_coming"
 split = { first = "Psalm 110:1, the session at the right hand (Acts 7:56)", rest = "Daniel 7:13-14, the coming with the clouds and the kingdom", at = "Mark 14:62", signal = "Jesus joins the two texts and the two times himself, with 'you will see… sitting… and coming'" }
 offices = ["king"]
@@ -2211,7 +2315,7 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "second_coming"
 yhwh_text = true
 notes = "In Zechariah 14:3-4 the feet are the LORD's. Acts 1:11-12 places the ascension on Olivet and promises a return 'in the same way you have seen Him go into heaven' (BSB): a place shared with Zechariah and never joined to it by any New Testament writer, so a pattern only (prophecy-method.md section 5). Zechariah 14:9 'the LORD will become King over all the earth' (BSB) is echoed at Revelation 11:15 (lead)."
@@ -2231,7 +2335,10 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "the son of David will 'shatter all their substance with a rod of iron' (Psalm 2:9)", source = "Psalms of Solomon 17:26 (Swete)", year = -40 },
+]
 future_event = "millennium"
 offices = ["king"]
 notes = "Revelation follows the Septuagint's ποιμανεῖς (poimaneis, 'you will shepherd'), which read the Hebrew consonants as רעה (ra'ah, shepherd); the Masoretic points תְּרֹעֵם (tero'em, 'you will break'). The child caught up to God's throne (Revelation 12:5) is the one who will rule."
@@ -2250,7 +2357,11 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "to the prince of the congregation: 'with the breath of your lips you shall slay the wicked' (14 of 18 words extant)", source = "1QSb v 24-25", year = -75 },
+  { note = "'to destroy the lawless nations by the word of his mouth'", source = "Psalms of Solomon 17:27 (Swete)", year = -40 },
+]
 future_event = "second_coming"
 offices = ["king"]
 notes = "Isaiah 11:1-5 runs from the shoot of Jesse (fulfilled at His birth) to the slaying of the wicked (still to come) in five verses, with no sign of the interval: the mountain-peaks view in one paragraph."
@@ -2269,7 +2380,10 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "known-before"
+recognition_evidence = [
+  { note = "the Pharisees cannot answer Psalm 110:1: the psalm's lord was already taken to be the Christ", source = "Matthew 22:41-46", year = 33 },
+]
 future_event = "armageddon"
 offices = ["king", "priest"]
 notes = "Split out of Psalm 110 on 2026-11-26 while researching 1 Corinthians 15:25: verse 1 (the session) is fulfilled, and verses 2 and 5-7 are the reign among enemies and the day of wrath, still to come. Verse 4 (the priesthood) is fulfilled and continues (priest-forever-melchizedek). One psalm, three times. Tier 3: the New Testament alludes to these verses and never cites them."
@@ -2288,7 +2402,7 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "armageddon"
 notes = "Isaiah 63:4 pairs 'the day of vengeance' with 'the year of My redemption' (BSB), the pairing Jesus divided at Luke 4:19; here both fall on the one day of His return. Revelation clothes the returning Word in the garments of Isaiah 63:1-3."
 
@@ -2307,7 +2421,10 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "'they will obey the Messiah, the son of David, their king'", source = "Targum Jonathan, Hosea 3:5; Jeremiah 30:9", year = 300 },
+]
 future_event = "distress"
 split = { first = "Hosea 3:4 ('many days without king or prince', BSB) and Hosea 5:15a ('I will return to My place', BSB)", rest = "Hosea 3:5 and 5:15b-6:1: Israel seeking the LORD and David their king 'in the last days', 'in their affliction'", at = "Acts 15:16; Matthew 23:39", signal = "the interval is stated with 'until' (עַד, ad) in Hosea 5:15: 'until they admit their guilt and seek My face'" }
 offices = ["king"]
@@ -2326,7 +2443,7 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "second_coming"
 notes = "'And so all Israel will be saved' (Romans 11:26, BSB), after 'the full number of the Gentiles has come in' (11:25): a sequence. Paul's 'from Zion' may draw on Psalm 14:7 or 110:2 ('from Zion'); lead."
 
@@ -2344,7 +2461,7 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "second_coming"
 offices = ["king"]
 notes = "'In the days of those kings, the God of heaven will set up a kingdom that will never be destroyed' (Daniel 2:44, BSB). Jesus joins Daniel's crushing stone to the rejected stone (Psalm 118:22) and the stumbling stone (Isaiah 8:14): one stone rejected, stumbled over, and crushing."
@@ -2363,7 +2480,10 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "veiled"
+recognition_evidence = [
+  { note = "the vision becomes a person: 'wait for him, for the coming one will come' (ἐρχόμενος ἥξει)", source = "Septuagint, Habakkuk 2:3", year = -132 },
+]
 future_event = "second_coming"
 notes = "The Hebrew speaks of the vision coming (בֹּא יָבֹא, bo yavo, 'it will surely come'); the Septuagint and Hebrews read a person. Larkin's point in the text itself: 'Though it lingers, wait for it' (Habakkuk 2:3, BSB)."
 
@@ -2380,7 +2500,7 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "second_coming"
 yhwh_text = true
 notes = "Isaiah 40:9-10 announces 'Here is your God!' (BSB) and then the Lord GOD coming with His reward; in Revelation 22:12-13 the one coming with it is 'the Alpha and the Omega'."
@@ -2399,7 +2519,7 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "rapture"
 split = { first = "Isaiah 25:8 at the resurrection of those who are Christ's (1 Corinthians 15:54)", rest = "Death destroyed, the last enemy (1 Corinthians 15:26; Revelation 20:14), and tears wiped away in the new creation (Revelation 21:4)", at = "1 Corinthians 15:54 with 15:26", signal = "Paul says the saying 'will come to pass' at the believers' resurrection, and that death is the last enemy destroyed at the end" }
 notes = "Paul's 'then' (τότε) dates the fulfilment to the resurrection of the believers; the rapture is this site's placement of it (future_event). Contested: Hosea 13:14 may be a threat in its context ('Compassion is hidden from My eyes', BSB); give both readings. Tier moved to 1: 1 Corinthians 15:54 says the saying 'will come to pass'."
@@ -2415,7 +2535,7 @@ specific = ["place", "manner"]
 uses = []
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "millennium"
 offices = ["king"]
 notes = "'They will beat their swords into plowshares… nor train anymore for war' (Isaiah 2:4, BSB). No New Testament text applies it to Christ; listed for the millennium studies. In scope as a future prophecy of His reign from Zion."
@@ -2433,7 +2553,10 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "'give the rules of Your justice to the King Messiah'", source = "Targum of the Psalms, Psalm 72:1", year = 450 },
+]
 future_event = "millennium"
 offices = ["king"]
 notes = "A psalm 'of Solomon' (72:1) that prays beyond Solomon: 'May his name endure forever… In him may all nations be blessed' (72:17, BSB), the Abrahamic blessing (Genesis 22:18). lead: the Targum names the king Messiah at 72:1; date it (session 8)."
@@ -2451,7 +2574,7 @@ uses = [
 ]
 status = "future"
 control = "unfulfilled"
-recognition = "unassessed"
+recognition = "veiled"
 future_event = "new_creation"
 notes = "VERDICT 2026-11-26 on the traditional reading: 'the desire of all nations' (KJV) as a title of Christ rests on the singular. The noun חֶמְדַּת (chemdat) takes a plural verb (וּבָאוּ, uva'u, 'they will come'), and the BSB renders 'they will come with all their treasures' (Haggai 2:7). The reading of Christ is weak, though the glory filling this house (2:7, 9) was fulfilled when the Lord came to it (Malachi 3:1; John 2:13-22): a pattern to weigh."
 

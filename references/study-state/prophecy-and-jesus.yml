@@ -35,6 +35,10 @@ decisions: # agreed with the author 2026-11-25
       now; the regathering of the Jews to their Messiah, David their king, is future and driven by
       the tribulation (Hosea 5:15 'in their affliction'; Jeremiah 30:7 'the time of Jacob's
       distress').
+  - recognition_read_after: >-
+      SETTLED by the author 2026-11-26 ("add another value to capture the intent of the reading vs
+      veiled"): 'read-after' marks a messianic reading the synagogue reached after the church and
+      without it (a Targum, a midrash), so the chart can show it apart from 'veiled'.
   - one_corinthians_15_25: >-
       Researched 2026-11-26 at the author's request ("look more at the context and for the
       splits"). Lean: the reign that subdues enemies runs from His coming through the thousand
@@ -154,7 +158,30 @@ sessions:
       the Septuagint and Hebrews 10:37; Luke 21:24's 'until the times of the Gentiles'. Verdicts:
       all-that-he-has-done (a sermon parallel only) and desire-of-all-nations (the plural verb).
   - n: 8
-    plan: "add Edersheim (Appendix IX) and the Targums as sources, dated; the recognition pass over every entry"
+    date: 2026-11-26
+    done: >-
+      Sources, at the author's word ("bring in the other sources as needed"; "download a copy";
+      "if you can find DSS to use, do that"). The Targums are in bible-text.db (ingest_targums:
+      Onkelos, Pseudo-Jonathan, the Fragment Targum, Jonathan on the Prophets, the Writings; Aramaic
+      public domain, English Public Domain or CC0 only), dated in sources.toml [profiles.targums]
+      from W. Bacher, 'Targum', Jewish Encyclopedia (1906). Every line of every scroll, the
+      sectarian texts included, is in dss_lines (the dss_text tool). Edersheim's Life and Times
+      (CCEL, public domain) is on the media volume, Appendix IX indexed by reference
+      (edersheim.py, the edersheim_messianic tool). Recognition pass over all 118 entries: 20
+      known-before, 6 partly, 92 veiled (then 10 of those read-after, by the author's decision). Rule used: known-before needs a witness from before Jesus
+      reading the text of the Messiah or a messianic figure (the Branch of David, the prince of the
+      congregation, the son of David, the prophet, Elijah); a Targum or midrash, always later than
+      the New Testament, goes into recognition_evidence with its year and leaves the value as it
+      was. Found: 4Q252 v 3 reads Genesis 49:10 as 'the Messiah of righteousness, the Branch of
+      David'; 4Q174 reads 2 Samuel 7 and Amos 9:11 of the Branch, while CD vii 15-16 reads the same
+      booth as 'the books of the Law'; 11Q13 ii gives Isaiah 61:2's 'year of favour' and the
+      vengeance to one end-time figure (for session 9: a reading before Christ that keeps the two
+      together); CD xix 7-11 reads Zechariah 13:7 of the final visitation 'when the Messiah of
+      Aaron and Israel comes'; 1QM xi 6 quotes Numbers 24:17 'as You declared to us from of old'
+      (the hub page's theme); the Psalms of Solomon (after Pompey's death, 48 BC: 2:30-31) give the
+      son of David Psalm 2:9's rod of iron, Isaiah 11:2 and 11:4, and Ezekiel 34's shepherding;
+      the Targum of Isaiah 53 gives the servant's exaltation to the Messiah and turns the wounds
+      to the temple 'profaned on account of our sins' (53:5).
   - n: 9
     plan: "study: Where Jesus Stopped Reading (Isaiah 61:1-2 at Luke 4:16-21), via develop-bible-study"
   - n: 10
@@ -217,7 +244,11 @@ open:
   - "SETTLED 2026-11-26 (decisions.acts_15_amos_9; prophecy_ledger above). Original task: Acts 15:13-18 and Amos 9:11-12. Questions: what 'After this' (Μετὰ ταῦτα) attaches to (Jeremiah 12:15 LXX? Hosea 3:5?); what 'first visited' (πρῶτον, 15:14) orders; whether James claims fulfilment or agreement ('the words of the prophets agree', 15:15); Amos 9:13-15 (the land, planted never to be uprooted) beside 9:11-12; the Septuagint's reading against the Hebrew's Edom; the oldest readers (4QFlorilegium on Amos 9:11, before Christ; Justin, Irenaeus). Run as a fulfilment ledger (prophecy-method.md section 3). Schedule: after session 7, before the studies."
   - "the NT-original table: fields, and whether Jesus' passion predictions (Mark 8:31; 9:31; 10:33-34) go there"
   - "suffering-servant groups Isaiah 53:5, 9, 12 for the validator; splitting it changes What Literary Criticism Declares' counts"
-  - "sources to add: Edersheim, The Life and Times of Jesus the Messiah (1883), Appendix IX, public domain; the Targums (Sefaria; check each licence); the Qumran texts named in the notes (4Q174, 4Q175, 4Q252, 4Q521, 11Q13, 1QS) through the dss works in bible-text.db"
+  - "DONE 2026-11-26 (session 8): Edersheim, the Targums and the sectarian scrolls are in; see sessions.8"
+  - "SETTLED by the author 2026-11-26: a fifth recognition value, 'read-after', for a messianic reading found only in a Jewish source later than the New Testament (10 entries, among them Isaiah 9:6; 42:1; 52:13; Psalm 45; 72; 80; Hosea 3:5). 'veiled' now means no such reading at all. check_prophecies.py requires a read-after entry to carry a witness dated after AD 100. The 4 veiled entries with a pre-Christian reading of an unnamed person (the Septuagint at Genesis 3:15, Psalm 110:3, Habakkuk 2:3; 4Q246) stay veiled"
+  - "verify the palaeographic dates given to each scroll (4Q174 -25, 4Q175 -75, 4Q252 -25, 4Q285 -1, 1QS/1QSa/1QSb -75, 1QM -25, 4Q521 -80, 11Q13 -50, 4Q246 -25; CD by composition, -100) against the DJD editions or a handbook before a study prints a year; they are approximate. 4Q285 and 4Q252 are in late hands: say 'before AD 68' if the edition puts them after the turn of the era"
+  - "rabbinic leads from Edersheim, not yet read at source or dated (Sefaria; date each by compilation): b. Sukkah 52a (Zechariah 12:10, Messiah son of Joseph slain); b. Sanhedrin 98a (Daniel 7:13 against Zechariah 9:9); b. Sanhedrin 98b (Isaiah 53's 'leper'); Pesikta Rabbati 36-37 (Psalm 22:7 of the suffering Messiah Ephraim); Ecclesiastes Rabbah 1:9 (the latter redeemer brings down manna, for bread-from-heaven); Pirqe de Rabbi Eliezer 30 (Isaiah 63); Hagigah 14a (Daniel 7:9, Akiba's two thrones)"
+  - "Edersheim's pointer for Psalm 80 is a verse off: the Targum's 'King Messiah' is at Hebrew 80:16 (English 80:15), and 80:17's 'son of man' stays. The Targum of Psalm 118:22 reads the rejected stone as David ('the youth… among the sons of Jesse'): the near referent, for the-rejected-stone. The Targum of Ezekiel 34:23 has 'one leader' and no David in the Aramaic"
   - "hub-page theme: God argues from fulfilled prediction Himself: 'Who foretold this long ago? Who announced it from ancient times? Was it not I, the LORD?' (Isaiah 45:21, BSB); with Isaiah 41:21-23; 44:7; 46:9-10; 48:3-5 (verify each). Open the reference with God's own claim, then the measures."
   - "Spot the Mistake leads: the devil's Psalm 91; the popular-list claims that fail"
   - "the 'more than the first person' test and the omission at John 13:18 are features for prophecy-method.md (session 10)"
@@ -321,3 +352,37 @@ evidence:
   - {id: jer30-7-distress, what: "Jeremiah 30:7: the time of Jacob's distress", tool: bible_verse, args: {book: Jer, chapter: 30, verse: 7, translation: BSB}, expect_contains: "It is the time of Jacob’s distress, but he will be saved out of it", checked: 2026-11-26}
   - {id: deut4-30-distress, what: "Deuteronomy 4:30: in distress, in later days", tool: bible_verse, args: {book: Deut, chapter: 4, verse: 30, translation: BSB}, expect_contains: "When you are in distress", checked: 2026-11-26}
   - {id: ps110-3-lxx, what: "the Septuagint of Psalm 110:3 (109:3) has 'before the morning star I begot you'", tool: bible_verse, args: {book: Ps, chapter: 109, verse: 3, translation: ebible-grcbrent}, expect_contains: "πρὸ Ἑωσφόρου ἐγέννησά σε", checked: 2026-11-26}
+  - {id: 4q174-branch, what: "4Q174 1-2 i 11 reads 2 Samuel 7:11-14 of the Branch of David", tool: dss_text, args: {scroll: "4Q174", fragment: "1-2 i", line: "11"}, expect_contains: "הואה צמח דויד העומד עם דורש התורה", checked: 2026-11-26}
+  - {id: 4q174-booth, what: "4Q174 1-2 i 12 reads Amos 9:11 of the same figure", tool: dss_text, args: {scroll: "4Q174", fragment: "1-2 i", line: "12"}, expect_contains: "והקימותי את סוכת דויד הנופלת", checked: 2026-11-26}
+  - {id: cd7-booth-law, what: "CD vii 15 reads Amos 9:11's booth as the books of the Law", tool: dss_text, args: {scroll: "CD", fragment: "vii", line: "15"}, expect_contains: "ספרי התורה הם סוכת", checked: 2026-11-26}
+  - {id: 4q252-messiah-righteousness, what: "4Q252 v 3: until the Messiah of righteousness comes (Genesis 49:10)", tool: dss_text, args: {scroll: "4Q252", fragment: "5", line: "3"}, expect_contains: "עד בוא משיח הצדק צמח", checked: 2026-11-26}
+  - {id: 4q175-star, what: "4Q175 12 quotes Numbers 24:17", tool: dss_text, args: {scroll: "4Q175", fragment: "1", line: "12"}, expect_contains: "דרך כוכב מיעקוב", checked: 2026-11-26}
+  - {id: 4q175-prophet, what: "4Q175 5 quotes Deuteronomy 18:18", tool: dss_text, args: {scroll: "4Q175", fragment: "1", line: "5"}, expect_contains: "נבי אקים", checked: 2026-11-26}
+  - {id: cd7-star, what: "CD vii 19 quotes Numbers 24:17 of the Interpreter and the prince", tool: dss_text, args: {scroll: "CD", fragment: "vii", line: "19"}, expect_contains: "דרך כוכב מיעקב וקם שבט", checked: 2026-11-26}
+  - {id: 1qm11-star, what: "1QM xi 6 quotes Numbers 24:17 for the final battle", tool: dss_text, args: {scroll: "1QM", fragment: "xi", line: "6"}, expect_contains: "דרך כוכב מיעקוב קם שבט מישראל", checked: 2026-11-26}
+  - {id: 1qs9-messiahs, what: "1QS ix 11: a prophet and the Messiahs of Aaron and Israel", tool: dss_text, args: {scroll: "1QS", fragment: "ix", line: "11"}, expect_contains: "ומשיחי אהרון וישראל", checked: 2026-11-26}
+  - {id: cd19-shepherd, what: "CD xix 7 quotes Zechariah 13:7", tool: dss_text, args: {scroll: "CD", fragment: "19", line: "7"}, expect_contains: "חרב עורי על", checked: 2026-11-26}
+  - {id: cd19-messiah, what: "CD xix 10: when the Messiah of Aaron and Israel comes", tool: dss_text, args: {scroll: "CD", fragment: "19", line: "10"}, expect_contains: "בבוא משיח", checked: 2026-11-26}
+  - {id: 4q521-messiah, what: "4Q521 2 ii 1: heaven and earth will listen to His Messiah", tool: dss_text, args: {scroll: "4Q521", fragment: "f2ii+4", line: "1"}, expect_contains: "והארץ ישמעו למשיח׳ו", checked: 2026-11-26}
+  - {id: 4q521-good-news, what: "4Q521 2 ii 12: revive the dead, bring good news to the poor", tool: dss_text, args: {scroll: "4Q521", fragment: "f2ii+4", line: "12"}, expect_contains: "ומתים יחיה ענוים יבשר", checked: 2026-11-26}
+  - {id: 11q13-year-of-favour, what: "11Q13 ii 9: the year of Melchizedek's favour", tool: dss_text, args: {scroll: "11Q13", fragment: "2", line: "9"}, expect_contains: "הרצון למלכי", checked: 2026-11-26}
+  - {id: 4q246-son-of-god, what: "4Q246 ii 1: son of God, son of the Most High", tool: dss_text, args: {scroll: "4Q246", fragment: "f1ii", line: "1"}, expect_contains: "ובר עליון", checked: 2026-11-26}
+  - {id: 1qsb5-breath, what: "1QSb v 25: Isaiah 11:4 spoken to the prince", tool: dss_text, args: {scroll: "1QSb", fragment: "5", line: "25"}, expect_contains: "תמית רשע", checked: 2026-11-26}
+  - {id: 4q285-shoot, what: "4Q285 7 2 quotes Isaiah 11:1", tool: dss_text, args: {scroll: "4Q285", fragment: "f7", line: "2"}, expect_contains: "ויצא חוטר מגזע ישי", checked: 2026-11-26}
+  - {id: tg-mic5-messiah, what: "Targum Jonathan, Micah 5:1 (Hebrew): the Messiah goes forth", tool: bible_verse, args: {book: "Mic", chapter: 5, verse: 1, translation: "targum-jonathan"}, expect_contains: "יִפּוֹק מְשִׁיחָא", checked: 2026-11-26}
+  - {id: tg-isa52-13, what: "Targum Jonathan, Isaiah 52:13: my servant the Messiah", tool: bible_verse, args: {book: "Isa", chapter: 52, verse: 13, translation: "targum-jonathan"}, expect_contains: "עַבְדִי מְשִׁיחָא", checked: 2026-11-26}
+  - {id: tg-gen49-10, what: "Targum Onkelos, Genesis 49:10: until the Messiah comes", tool: bible_verse, args: {book: "Gen", chapter: 49, verse: 10, translation: "targum-onkelos"}, expect_contains: "עַד דְיֵיתֵי מְשִׁיחָא", checked: 2026-11-26}
+  - {id: tg-num24-17, what: "Targum Onkelos, Numbers 24:17: the Messiah anointed from Israel", tool: bible_verse, args: {book: "Num", chapter: 24, verse: 17, translation: "targum-onkelos"}, expect_contains: "וְיִתְרַבָּא מְשִׁיחָא מִיִשְׂרָאֵל", checked: 2026-11-26}
+  - {id: tg-isa11-1, what: "Targum Jonathan, Isaiah 11:1", tool: bible_verse, args: {book: "Isa", chapter: 11, verse: 1, translation: "targum-jonathan"}, expect_contains: "וּמְשִׁיחָא מִבְּנֵי בְנוֹהִי", checked: 2026-11-26}
+  - {id: tg-ps45-3, what: "Targum of the Psalms 45:3 (Hebrew): O King Messiah", tool: bible_verse, args: {book: "Ps", chapter: 45, verse: 3, translation: "targum-writings"}, expect_contains: "מַלְכָּא מְשִׁיחָא", checked: 2026-11-26}
+  - {id: tg-ps72-1, what: "Targum of the Psalms 72:1: to the King Messiah", tool: bible_verse, args: {book: "Ps", chapter: 72, verse: 1, translation: "targum-writings"}, expect_contains: "לְמַלְכָּא מְשִׁיחָא", checked: 2026-11-26}
+  - {id: tg-ps80-16, what: "Targum of the Psalms 80:16 (Hebrew): the King Messiah", tool: bible_verse, args: {book: "Ps", chapter: 80, verse: 16, translation: "targum-writings"}, expect_contains: "מַלְכָּא מְשִׁיחָא", checked: 2026-11-26}
+  - {id: tg-hos3-5, what: "Targum Jonathan, Hosea 3:5: the Messiah, son of David", tool: bible_verse, args: {book: "Hos", chapter: 3, verse: 5, translation: "targum-jonathan"}, expect_contains: "לִמְשִׁיחָא בַּר דָוִד", checked: 2026-11-26}
+  - {id: tg-isa42-1, what: "Targum Jonathan, Isaiah 42:1: my servant the Messiah", tool: bible_verse, args: {book: "Isa", chapter: 42, verse: 1, translation: "targum-jonathan"}, expect_contains: "עַבְדִי מְשִׁיחָא", checked: 2026-11-26}
+  - {id: tg-jer23-5, what: "Targum Jonathan, Jeremiah 23:5: the Messiah of righteousness", tool: bible_verse, args: {book: "Jer", chapter: 23, verse: 5, translation: "targum-jonathan"}, expect_contains: "מְשִׁיחַ דְצַדִיקַיָא", checked: 2026-11-26}
+  - {id: psssol17-son-of-david, what: "Psalms of Solomon 17:23 (Swete): the son of David", tool: bible_verse, args: {book: "PsSol", chapter: 17, verse: 23, translation: "swete-lxx"}, expect_contains: "υἱὸν Δαυίδ", checked: 2026-11-26}
+  - {id: psssol17-rod, what: "Psalms of Solomon 17:26: a rod of iron", tool: bible_verse, args: {book: "PsSol", chapter: 17, verse: 26, translation: "swete-lxx"}, expect_contains: "σιδηρῷ", checked: 2026-11-26}
+  - {id: psssol17-christ-lord, what: "Psalms of Solomon 17:36: their king the Lord Messiah", tool: bible_verse, args: {book: "PsSol", chapter: 17, verse: 36, translation: "swete-lxx"}, expect_contains: "χριστὸς κύριος", checked: 2026-11-26}
+  - {id: psssol2-pompey, what: "Psalms of Solomon 2:30: pierced on the mountains of Egypt (Pompey, 48 BC)", tool: bible_verse, args: {book: "PsSol", chapter: 2, verse: 30, translation: "swete-lxx"}, expect_contains: "Αἰγύπτου", checked: 2026-11-26}
+  - {id: sir48-10-elijah, what: "Sirach 48:10: Elijah to restore the tribes of Jacob", tool: bible_verse, args: {book: "Sir", chapter: 48, verse: 10, translation: "ebible-grcbrent"}, expect_contains: "καταστῆσαι φυλὰς Ἰακώβ", checked: 2026-11-26}
+  - {id: edersheim-mic5, what: "Edersheim, Appendix IX: Micah 5:2 'admittedly Messianic'", tool: edersheim_messianic, args: {book: "Mic", chapter: 5, verse: 2}, expect_contains: "admittedly Messianic", checked: 2026-11-26}
