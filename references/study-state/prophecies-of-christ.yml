@@ -1,0 +1,41 @@
+# The reference page of the Prophecy and Jesus project (references/study-state/prophecy-and-jesus.yml,
+# session 11). The entries are rendered from docs/data/prophecies-of-christ.toml by hooks/prophecies.py;
+# this file holds what the page's own prose claims, and its evidence.
+
+slug: "prophecies-of-christ"
+title: "The Prophecies of Christ"
+status: drafting
+target_path: "docs/content/jesus/prophecies-of-christ.md"
+
+primary_passage: "Isaiah 45:21; Luke 24:44"
+genre: [topical, prophets]
+thesis: >-
+  God staked His name on telling what was still to come (Isaiah 45:21; 46:9-10), and in His Son
+  Jesus He kept His word: the page sets out every Old Testament prophecy the New Testament reads of
+  Him, so you can test each one.
+outline:
+  - {section: "God's own argument", says: "Isaiah 45:21; 41:23; 48:5; 46:10; Jesus takes the LORD's words, John 13:19 = Isaiah 43:10 LXX (hina pisteusete ... hoti ego eimi); Luke 24:44"}
+  - {section: "How to read the ledger", says: "the three tiers; the six measures; no odds (decision no_odds)"}
+  - {section: "measures table, dated sentence, the span chart", says: "generated; 1 Peter 1:11"}
+  - {section: "The studies, a week at a time", says: "series-sessions"}
+  - {section: "one section per category, then the New Testament's own predictions", says: "generated cards"}
+word_budget: 4000
+word_budget_reason: "the hand-written prose only; the cards are generated"
+
+open_questions:
+  - "31 fulfilled or partly-fulfilled entries carry no `event` (the nature entries, most of lineage, the types), so they are off the span chart's history panel; giving each a dated event is ledger research"
+  - "the series' membership and order are a proposal for the author: Known Before, Seen After; Where Jesus Stopped Reading; The King on a Donkey; The Cups Jesus Drank; Three Days and Three Nights; Melchizedek Priesthood; The Bright Morning Star"
+  - "publish with the two draft studies, which this page lists as coming until they are published"
+resources_consulted: []
+last_updated: "2026-11-26"
+evidence:
+  - {id: isa45-21-foretold, what: "Isaiah 45:21: Who foretold this long ago?", tool: bible_verse, args: {book: Isa, chapter: 45, verse: 21, translation: BSB}, expect_contains: "Who foretold this long ago? Who announced it from ancient times? Was it not I, the LORD?", checked: 2026-11-26}
+  - {id: isa41-23-tell-us, what: "Isaiah 41:23: Tell us the things that are to come", tool: bible_verse, args: {book: Isa, chapter: 41, verse: 23, translation: BSB}, expect_contains: "Tell us the things that are to come, so that we may know that you are gods", checked: 2026-11-26}
+  - {id: isa48-5-my-idol, what: "Isaiah 48:5: so that you could not claim, My idol has done this", tool: bible_verse, args: {book: Isa, chapter: 48, verse: 5, translation: BSB}, expect_contains: "I announced it before it came to pass, so that you could not claim, ‘My idol has done this", checked: 2026-11-26}
+  - {id: isa46-10-end, what: "Isaiah 46:10: I declare the end from the beginning", tool: bible_verse, args: {book: Isa, chapter: 46, verse: 10, translation: BSB}, expect_contains: "I declare the end from the beginning, and from ancient times what is still to come", checked: 2026-11-26}
+  - {id: isa43-10-lxx-ego-eimi, what: "Isaiah 43:10 LXX: hina ... pisteusete ... hoti ego eimi", tool: bible_verse, args: {book: Isa, chapter: 43, verse: 10, translation: ebible-grcbrent}, expect_contains: "ἵνα γνῶτε καὶ πιστεύσητε, καὶ συνῆτε ὅτι ἐγώ εἰμι", checked: 2026-11-26}
+  - {id: isa43-10-bsb, what: "Isaiah 43:10: that I am He", tool: bible_verse, args: {book: Isa, chapter: 43, verse: 10, translation: BSB}, expect_contains: "so that you may consider and believe Me and understand that I am He", checked: 2026-11-26}
+  - {id: john13-19-greek, what: "John 13:19: hina pisteusete ... hoti ego eimi", tool: bible_verse, args: {book: John, chapter: 13, verse: 19, translation: sblgnt}, expect_contains: "ὅτι ἐγώ εἰμι", checked: 2026-11-26}
+  - {id: john13-19-bsb, what: "John 13:19: I am telling you now before it happens", tool: bible_verse, args: {book: John, chapter: 13, verse: 19, translation: BSB}, expect_contains: "I am telling you now before it happens, so that when it comes to pass, you will believe that I am He", checked: 2026-11-26}
+  - {id: luke24-44-everything, what: "Luke 24:44: Everything must be fulfilled", tool: bible_verse, args: {book: Luke, chapter: 24, verse: 44, translation: BSB}, expect_contains: "Everything must be fulfilled that is written about Me in the Law of Moses, the Prophets, and the Psalms", checked: 2026-11-26}
+  - {id: 1pet1-11-glories, what: "1 Peter 1:11: the sufferings of Christ and the glories to follow", tool: bible_verse, args: {book: 1Pet, chapter: 1, verse: 11, translation: BSB}, expect_contains: "the sufferings of Christ and the glories to follow", checked: 2026-11-26}

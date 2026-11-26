@@ -24,7 +24,8 @@ decisions: # agreed with the author 2026-11-25
       identical before and after the move.
   - nt_original: >-
       Predictions that start in the New Testament (Jesus' own of His death and return, Revelation's
-      own) go in a separate, smaller table on the same page. Not yet designed; see open.
+      own) go in a separate, smaller table on the same page. Designed in session 7 ([[nt_prophecy]]);
+      rendered on the page in session 11.
   - placement: >-
       A series under docs/content/jesus/, with the generated reference page as its hub.
   - new_covenant: >-
@@ -197,7 +198,21 @@ sessions:
       the disciples (9:45) and the rulers (Acts 13:27); διανοίγω three times in Luke 24. State:
       references/study-state/known-before-seen-after.yml. Next: review and read passes.
   - n: 11
-    plan: "generator hook and reference page, the span chart (prophet's view / history's view), the series hub"
+    date: 2026-11-26
+    done: >-
+      The reference page docs/content/jesus/prophecies-of-christ.md (draft), rendered from the ledger by
+      hooks/prophecies.py (markers: measures, dated, category <name>, nt; cards id="prophecy-<id>";
+      "lead:" notes left off; Hebrew in rtl spans). references/build/export_prophecies.py writes
+      docs/data/prophecies-of-christ.json (years written on both schemes, year fulfilled, Qumran copies,
+      a manuscript older than the event); check_prophecies.py fails while it is stale (hash of the
+      ledger, authorship table and chronology). The span chart prophets-view-historys-view.svg: the
+      17 two-comings texts as two peaks lined up, and the 71 dated prophecies from written to
+      fulfilled. The page is the series hub (series: cut topic, seven weeks, two of them the drafts).
+      Found: all 71 dated prophecies were written before the event on the critics' latest dates;
+      21 survive in the Great Isaiah Scroll, a manuscript older than the event; a Qumran copy of a
+      prophecy fulfilled in His lifetime counts only by its own palaeographic date (open). Fixed:
+      hooks/series.py reported a draft study as "not a page" under `mkdocs build` (draft_pages.py
+      drops it first), failing --strict. State: references/study-state/prophecies-of-christ.yml.
   - n: 12
     plan: "review-bible-study, then read-bible-study in a separate session"
 

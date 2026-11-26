@@ -73,12 +73,15 @@ def _read(path: Path) -> tuple[dict, str] | None:
     return meta, text[match.end():]
 
 
-def _session(entry: dict, files, series_src: str) -> dict | None:
+def _session(entry: dict, files, series_src: str, docs_dir: Path) -> dict | None:
     if "planned" in entry:
         return {"title": entry["planned"], "why": entry.get("why"), "src": None}
     src = entry.get("study")
     file = files.get_file_from_path(src) if src else None
-    read = _read(Path(file.abs_src_path)) if file else None
+    # draft_pages.py runs first and drops drafts from `files` under `mkdocs build`, so a draft study
+    # is found on disk instead; without this it was reported missing and failed --strict.
+    path = Path(file.abs_src_path) if file else (docs_dir / src if src else None)
+    read = _read(path) if path and path.is_file() else None
     if read is None:
         log.warning("series: %s lists %r, which is not a page", series_src, src)
         return None
@@ -98,7 +101,7 @@ def _session(entry: dict, files, series_src: str) -> dict | None:
     }
 
 
-def on_files(files, config):  # noqa: ARG001 - `config` is part of the signature
+def on_files(files, config):
     _series.clear()
     _memberships.clear()
     for file in sorted(files.documentation_pages(), key=lambda f: f.src_uri):
@@ -112,7 +115,7 @@ def on_files(files, config):  # noqa: ARG001 - `config` is part of the signature
         if spec.get("cut") not in _CUTS:
             log.warning("series: %s has cut %r; use one of %s", file.src_uri, spec.get("cut"), ", ".join(_CUTS))
             continue
-        sessions = [s for e in spec.get("sessions") or [] if (s := _session(e, files, file.src_uri))]
+        sessions = [s for e in spec.get("sessions") or [] if (s := _session(e, files, file.src_uri, Path(config["docs_dir"])))]
         index = len(_series)
         _series.append({
             "src": file.src_uri,

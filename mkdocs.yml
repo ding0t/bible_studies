@@ -74,6 +74,9 @@ hooks:
   - hooks/greek_cards.py
   # Replaces <!-- hebrew-writing --> with A4 handwriting sheets. See hooks/hebrew_writing.py.
   - hooks/hebrew_writing.py
+  # Replaces <!-- prophecies-of-christ: ... --> with the ledger of the prophecies of Christ, from
+  # docs/data/prophecies-of-christ.toml and .json. See hooks/prophecies.py.
+  - hooks/prophecies.py
   # Replaces <!-- subject-wheel --> with the home page's wheel of studies per section.
   - hooks/subject_wheel.py
   # A strip of the drawn plates each section's studies embed, on its landing page.
@@ -536,6 +539,7 @@ extra_css:
   - assets/stylesheets/home.css
   - assets/stylesheets/study-sheet.css
   - assets/stylesheets/series.css
+  - assets/stylesheets/prophecies.css
 
 # Verse and word pop-ups on every page. The bundle is built by `npm run build:tools` (app/) and
 # its data lives in assets/popups/ -- see app/src/entries/popups.js.

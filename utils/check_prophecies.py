@@ -26,10 +26,16 @@ Errors (exit non-zero):
    recorded and the shared vocabulary as documented; `prophecy` a New Testament reference; `see`
    an id that exists in either file; a `fulfilment` unless the status is "future".
 
+9. **The computed file is current.** docs/data/prophecies-of-christ.json, which the reference page
+   renders, was written from this ledger, the authorship table and the chronology as they are now
+   (references/build/export_prophecies.py records their hash). A stale file would put old counts on
+   the page with no error anywhere.
+
 Prints a progress summary (entries by research level, tier and category). Run from the repo root:
 python3 utils/check_prophecies.py
 """
 
+import hashlib
 import json
 import re
 import sys
@@ -45,6 +51,8 @@ DATA = ROOT / "docs" / "data"
 CHRIST = DATA / "prophecies-of-christ.toml"
 OTHER = DATA / "fulfilled-prophecy.toml"
 CHRONOLOGY = DATA / "chronology.json"
+AUTHORSHIP = DATA / "book-authorship.toml"
+COMPUTED = DATA / "prophecies-of-christ.json"
 
 VOCAB = {
     "research": {"candidate", "drafted", "verified"},
@@ -204,6 +212,18 @@ def check_nt(entries: list[dict], known_ids: set[str], dated: set[str], future: 
     return errors
 
 
+def check_computed() -> list[str]:
+    """The same three inputs, in the same order, as export_prophecies.inputs_hash()."""
+    digest = hashlib.sha256()
+    for path in (CHRIST, AUTHORSHIP, CHRONOLOGY):
+        digest.update(path.read_bytes())
+    if not COMPUTED.exists():
+        return [f"{COMPUTED.name} is missing: run `uv run python export_prophecies.py` in references/build"]
+    if json.loads(COMPUTED.read_text(encoding="utf-8")).get("inputs_sha256") != digest.hexdigest():
+        return [f"{COMPUTED.name} is stale: run `uv run python export_prophecies.py` in references/build"]
+    return []
+
+
 def main() -> int:
     data = tomllib.loads(CHRIST.read_text(encoding="utf-8"))
     entries, nt_entries = data["prophecy"], data.get("nt_prophecy", [])
@@ -211,6 +231,7 @@ def main() -> int:
     dated, future = chronology_ids()
     errors = check(entries, other_ids, dated, future)
     errors += check_nt(nt_entries, other_ids | {e["id"] for e in entries}, dated, future)
+    errors += check_computed()
     for line in errors:
         print(f"ERROR prophecies-of-christ.toml {line}")
     research = Counter(e.get("research") for e in entries)

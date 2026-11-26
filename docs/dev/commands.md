@@ -136,6 +136,9 @@ uv run python export_memory_verses.py  # docs/data/memory-verses.toml -> .json f
                                        # re-run after adding a verse -- needs study-notes.db for the ESV
 uv run python export_songbook.py   # docs/data/songbook.toml -> songbook-words.json, each song's full WEB text
                                    # for the Songbook (hooks/songbook.py); re-run after adding a song
+uv run python export_prophecies.py # prophecies-of-christ.toml -> .json: years written and fulfilled, Qumran
+                                   # copies, for the reference page (hooks/prophecies.py) and the jesus/
+                                   # charts; re-run after editing the ledger (check_prophecies.py fails if stale)
 ```
 
 **Source catalog drift check** (run from the repo root, stdlib only):

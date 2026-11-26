@@ -187,6 +187,16 @@ short. `AGENTS.md` keeps the rules that break things if forgotten.
   and is never linked, which keeps Check 24's rule for links a hook writes. A series' `why` lines
   are descriptive; whether a series is worth running is the author's call. Field reference:
   [docs/CONTENT_GUIDE.md](../CONTENT_GUIDE.md#series).
+- **The prophecies of Christ are a ledger rendered as a page** (`hooks/prophecies.py`).
+  `docs/data/prophecies-of-christ.toml` is the authority; `references/build/export_prophecies.py`
+  computes what needs the Bible databases or the dating tables (years written on both schemes,
+  the year fulfilled, the Qumran copies) into `prophecies-of-christ.json`, and
+  `utils/check_prophecies.py` fails `npm test` while that file is stale, so no count on
+  `jesus/prophecies-of-christ.md` is typed by hand. Markers on the page place the measures table,
+  each category's cards (`id="prophecy-<id>"`) and the New Testament's own predictions. A ledger
+  note's research leads ("lead:" on) are left off the page. The page is also the hub of the
+  Prophecy and Jesus series (a `series:` block), and its charts are drawn from the same two files
+  by `utils/build_jesus_graphics.py`.
 - **An exemption in a checking tool carries its justification with it, or it is a hole.** Two of this
   repo's checks were defeated by an unrecorded exemption rather than by a missing check. The diagram
   sweep skipped `timeline` blocks because they "size themselves" — they do not, and five stayed

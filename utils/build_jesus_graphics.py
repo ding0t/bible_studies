@@ -6,20 +6,27 @@ one is inference or a span the text does not count. Run from the repo root:
     python3 utils/build_jesus_graphics.py                    # all of them
     python3 utils/build_jesus_graphics.py where-jesus-stopped-reading
 
+prophets_view_historys_view() reads every row from the ledger and its computed years
+(docs/data/prophecies-of-christ.json); re-run references/build/export_prophecies.py first.
+
 where_jesus_stopped_reading() reads its "same pattern" rows from docs/data/prophecies-of-christ.toml
 (each entry's `prophecy` and `split.at`), so the plate follows the ledger.
 """
 
+import json
+import statistics
 import sys
 import tomllib
 from pathlib import Path
 
-from lib.larkin import (W, INK, MUTED, CARD, RED, RED_TINT, GOLD, GOLD_EDGE, GOLD_TINT, BLUE,
+from lib.larkin import (W, INK, MUTED, PAPER as PAPER_, CARD, RED, RED_TINT, GOLD, GOLD_EDGE, GOLD_TINT, BLUE,
                         BLUE_TINT, EARTH_TINT, HALO, text, svg_open, heading, arrow_head, credit)
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "docs" / "content" / "assets" / "img" / "jesus"
 LEDGER = ROOT / "docs" / "data" / "prophecies-of-christ.toml"
+# The years each prophecy was written and fulfilled, from references/build/export_prophecies.py.
+COMPUTED = ROOT / "docs" / "data" / "prophecies-of-christ.json"
 GREY = "#9a8b72"
 
 
@@ -263,8 +270,140 @@ def known_before_seen_after():
     return "\n".join(out)
 
 
+def year_label(y):
+    return f"{-y} BC" if y < 0 else f"AD {y}"
+
+
+def prophets_view_historys_view():
+    """Larkin's two mountain peaks (immediately-after.md#two-mountain-peaks), drawn from the ledger.
+    Above, what a prophet saw: the sufferings and the glory as two peaks lined up, one text holding
+    both. Below, what history shows: every dated prophecy as a line from the year it was written to
+    the year it came to pass, and the ones fulfilled in part carried on across the valley."""
+    entries = {e["id"]: e for e in tomllib.loads(LEDGER.read_text(encoding="utf-8"))["prophecy"]}
+    rows = json.loads(COMPUTED.read_text(encoding="utf-8"))["prophecies"]
+    dated = [r for r in rows if r["fulfilled"] is not None]
+    splits = [e for e in entries.values() if "split" in e]
+    ahead = statistics.median(r["years_ahead_traditional"] for r in dated)
+    ahead_crit = statistics.median(r["years_ahead_critical"] for r in dated)
+    earliest = min(dated, key=lambda r: r["written_traditional"])
+    partly = [r for r in dated if entries[r["id"]]["status"] == "partly"]
+
+    left, x0, x1, far = 36, 190, 590, 668
+    lo, hi = -1500, 100
+
+    def x(year):
+        return x0 + (max(year, lo) - lo) * (x1 - x0) / (hi - lo)
+
+    bands = [(key, label, sorted((r for r in dated if entries[r["id"]]["category"] == key),
+                                 key=lambda r: r["written_traditional"]))
+             for key, label in CATEGORY_ROWS]
+    bands = [b for b in bands if b[2]]
+    step, gap = 6, 16
+    chart_h = sum(len(b[2]) * step + gap for b in bands)
+    top_h = 400
+    h = 150 + top_h + 120 + chart_h + 190
+    desc = (f"Two views of the {len(entries)} prophecies of Christ in this site's ledger. The prophet's view: "
+            f"{len(splits)} of them hold His first coming and His coming in glory in one text, like two "
+            "mountain peaks lined up, the valley between them hidden (1 Peter 1:11, the sufferings of "
+            f"Christ and the glories to follow). History's view: the {len(dated)} prophecies tied to a "
+            "dated event, each drawn from the year it was written to the year it came to pass. The median "
+            f"is {ahead:,.0f} years ahead on the traditional dates and {ahead_crit:,.0f} on the latest dates "
+            f"critical scholarship gives; the earliest is {earliest['prophecy']}. {len(partly)} were fulfilled "
+            "in part, and the rest of each waits beyond the valley, at His return.")
+    out = svg_open(h, "The prophet's view and history's view", desc)
+    out += heading("The Prophet's View, History's View", "the prophecies of Christ, as they were seen and as they came to pass")
+
+    # --- the prophet's view ---------------------------------------------------------------------
+    y = 140
+    out.append(text(W / 2, y, "THE PROPHET'S VIEW", 15, "middle", "bold", spacing="2"))
+    out.append(text(W / 2, y + 20, "one text, two comings: the valley between them out of sight", 12.5,
+                    "middle", fill=MUTED, italic=True))
+    base = y + 190
+    eye_x, near_x, far_x = 70, 330, 520
+    out.append(f'<path d="M{left} {base} H{W - left}" stroke="{INK}" stroke-width="1"/>')
+    out.append(f'<path d="M{far_x - 150} {base} L{far_x} {base - 140} L{far_x + 150} {base} Z" '
+               f'fill="{GOLD_TINT}" stroke="{GOLD_EDGE}" stroke-width="1.4"/>')
+    out.append(f'<path d="M{near_x - 110} {base} L{near_x} {base - 95} L{near_x + 110} {base} Z" '
+               f'fill="{RED_TINT}" stroke="{RED}" stroke-width="1.4"/>')
+    out.append(f'<circle cx="{eye_x}" cy="{base - 60}" r="6" fill="{INK}"/>')
+    out.append(f'<path d="M{eye_x} {base - 54} V{base}" stroke="{INK}" stroke-width="2"/>')
+    out.append(f'<path d="M{eye_x + 8} {base - 62} L{far_x} {base - 142}" stroke="{MUTED}" '
+               f'stroke-width="1" stroke-dasharray="4 4"/>')
+    out.append(text(eye_x, base + 18, "the prophet", 12.5, "middle", italic=True))
+    out.append(text(near_x, base - 40, "the sufferings", 13, "middle", "bold", fill=RED))
+    out.append(text(far_x + 60, base - 70, "the glories", 13, "middle", "bold", fill=GOLD_EDGE))
+    out.append(text(far_x + 60, base - 54, "to follow", 13, "middle", "bold", fill=GOLD_EDGE))
+    out.append(text(W / 2, base + 42, f"{len(splits)} prophecies in the ledger hold both comings in one text", 13.5,
+                    "middle", "bold"))
+    refs = sorted((e["prophecy"].split(";")[0] for e in splits), key=str)
+    cols = 3
+    per = -(-len(refs) // cols)
+    for i, ref in enumerate(refs):
+        cx = left + 24 + (i // per) * ((W - 2 * left - 24) / cols)
+        out.append(text(cx, base + 66 + (i % per) * 16, ref, 12))
+
+    # --- history's view -------------------------------------------------------------------------
+    y = 150 + top_h + 14
+    out.append(f'<path d="M{W / 2 - 150} {y - 30} H{W / 2 + 150}" stroke="{INK}" stroke-width="0.8"/>')
+    out.append(text(W / 2, y, "HISTORY'S VIEW", 15, "middle", "bold", spacing="2"))
+    out.append(text(W / 2, y + 20, f"the {len(dated)} prophecies tied to a dated event: written, then fulfilled",
+                    12.5, "middle", fill=MUTED, italic=True))
+    y += 48
+    # legend
+    out.append(f'<circle cx="{left + 26}" cy="{y}" r="3.2" fill="{INK}"/>')
+    out.append(text(left + 36, y + 4, "written by (the traditional date)", 12))
+    out.append(f'<circle cx="{left + 240}" cy="{y}" r="3.2" fill="{PAPER_}" stroke="{BLUE}" stroke-width="1.3"/>')
+    out.append(text(left + 250, y + 4, "by the critics' latest date", 12))
+    out.append(f'<path d="M{left + 420} {y} H{left + 446}" stroke="{GREY}" stroke-width="1.3" stroke-dasharray="3 3"/>')
+    out.append(text(left + 454, y + 4, "still to come in part", 12))
+    y += 44
+    axis_top = y
+    for key, label, band in bands:
+        out.append(text(x0 - 12, y + len(band) * step / 2 + 4, label, 12.5, "end", "bold"))
+        for r in band:
+            yy = y + step / 2
+            wt, wc, ff = x(r["written_traditional"]), x(r["written_critical"]), x(r["fulfilled"])
+            out.append(f'<path d="M{wt:.1f} {yy:.1f} H{ff:.1f}" stroke="{INK}" stroke-width="1"/>')
+            if entries[r["id"]]["status"] == "partly":
+                out.append(f'<path d="M{ff:.1f} {yy:.1f} H{far:.1f}" stroke="{GREY}" stroke-width="1" '
+                           f'stroke-dasharray="3 3"/>')
+            if wc != wt:
+                out.append(f'<circle cx="{wc:.1f}" cy="{yy:.1f}" r="2.2" fill="{PAPER_}" stroke="{BLUE}" stroke-width="1"/>')
+            out.append(f'<circle cx="{wt:.1f}" cy="{yy:.1f}" r="2.4" fill="{INK}"/>')
+            y += step
+        y += gap
+    axis_y = y
+    out.append(f'<path d="M{x0} {axis_y} H{x1}" stroke="{INK}" stroke-width="1"/>')
+    for year in (-1500, -1000, -500, 1):
+        out.append(f'<path d="M{x(year):.1f} {axis_y} V{axis_y + 5}" stroke="{INK}"/>')
+        out.append(text(x(year), axis_y + 19, year_label(year), 11.5, "middle"))
+    # the life of Christ, and the valley beyond it
+    out.append(f'<rect x="{x(-5):.1f}" y="{axis_top - 8}" width="{x(33) - x(-5):.1f}" height="{axis_y - axis_top + 8}" '
+               f'fill="{RED_TINT}" opacity="0.55"/>')
+    out.append(text(x(33) + 2, axis_top - 14, "His first coming", 11.5, "end", "bold", fill=RED))
+    out.append(f'<path d="M{x1 + 14} {axis_top - 8} V{axis_y}" stroke="{INK}" stroke-width="0.8"/>')
+    out.append(f'<path d="M{x1 + 20} {axis_top - 8} V{axis_y}" stroke="{INK}" stroke-width="0.8"/>')
+    out.append(f'<rect x="{far - 22}" y="{axis_top - 8}" width="44" height="{axis_y - axis_top + 8}" fill="{GOLD_TINT}" '
+               f'stroke="{GOLD_EDGE}" stroke-width="1"/>')
+    out.append(text(far, axis_y + 19, "His return", 11.5, "middle", "bold", fill=GOLD_EDGE))
+    out.append(text(far + 22, axis_y + 36, "the valley between: the church age, which no text counts", 11.5,
+                    "end", italic=True, fill=MUTED))
+
+    y = axis_y + 70
+    out += lines_at(W / 2, y, [
+        f"Median {ahead:,.0f} years ahead on the traditional dates, {ahead_crit:,.0f} on the critics' latest.",
+        f"The earliest: {earliest['prophecy']}, written by {year_label(earliest['written_traditional'])}."],
+        13, anchor="middle")
+    out.append(text(W / 2, y + 52, "“the sufferings of Christ and the glories to follow”", 15, "middle", italic=True))
+    out.append(text(W / 2, y + 72, "1 Peter 1:11 (BSB)", 12.5, "middle", fill=MUTED))
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 CHARTS = {"where-jesus-stopped-reading": where_jesus_stopped_reading,
-          "known-before-seen-after": known_before_seen_after}
+          "known-before-seen-after": known_before_seen_after,
+          "prophets-view-historys-view": prophets_view_historys_view}
 
 
 def main():

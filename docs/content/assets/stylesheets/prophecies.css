@@ -1,0 +1,103 @@
+/* The reference of the prophecies of Christ (hooks/prophecies.py). Colours come from material's
+ * own variables, so the cards follow the site's palette and dark-mode toggle. The left border marks
+ * the status: accent for fulfilled, dashed for still to come. */
+
+.pc-group {
+  display: grid;
+  gap: 0.8rem;
+  margin: 1rem 0 1.6rem;
+}
+
+.pc-entry {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid var(--md-accent-fg-color);
+  border-radius: 0.2rem;
+  padding: 0.6rem 0.9rem;
+  scroll-margin-top: 4rem;
+}
+
+.pc-entry.pc-partly {
+  border-left-style: double;
+  border-left-width: 4px;
+}
+
+.pc-entry.pc-future {
+  border-left: 3px dashed var(--md-default-fg-color--light);
+}
+
+.pc-entry:target {
+  background: var(--md-accent-fg-color--transparent);
+}
+
+.pc-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.8rem;
+  align-items: baseline;
+}
+
+.pc-ref {
+  font-size: 1.05em;
+}
+
+.pc-status,
+.pc-speaker,
+.pc-form,
+.pc-tier,
+.pc-kind {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.85em;
+}
+
+.pc-status {
+  margin-left: auto;
+}
+
+.md-typeset .pc-says,
+.md-typeset .pc-tier,
+.md-typeset .pc-near,
+.md-typeset .pc-split {
+  margin: 0.3rem 0;
+}
+
+.md-typeset .pc-says {
+  font-style: italic;
+}
+
+.md-typeset .pc-uses,
+.md-typeset .pc-meta {
+  margin: 0.3rem 0;
+  padding-left: 1.1rem;
+}
+
+.md-typeset .pc-uses li,
+.md-typeset .pc-meta li {
+  margin: 0.1rem 0;
+}
+
+.pc-use-note {
+  display: block;
+  font-size: 0.9em;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .pc-meta {
+  font-size: 0.9em;
+}
+
+.md-typeset .pc-notes {
+  margin: 0.4rem 0 0;
+  font-size: 0.9em;
+}
+
+/* Seven columns of counts: let the table scroll inside itself on a phone, never the page. */
+.md-typeset .pc-measures {
+  display: block;
+  overflow-x: auto;
+  font-size: 0.85em;
+}
+
+.md-typeset .pc-measures td:not(:first-child),
+.md-typeset .pc-measures th:not(:first-child) {
+  text-align: right;
+}
