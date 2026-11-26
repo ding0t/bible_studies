@@ -5,7 +5,7 @@ description: "At Nazareth Jesus read Isaiah 61 as His own commission, cut it and
 tags: ["messianic-prophecy", "prophecy-fulfilled", "isaiah", "luke", "forgiveness", "jubilee", "dead-sea-scrolls", "method/word-study", "lang/greek", "lang/hebrew"]
 draft: true
 primary_passage: "Isaiah 61:1-3; Luke 4:16-30"
-bible_references: ["Isaiah 61:1-3", "Isaiah 61:4-6", "Luke 4:16-30", "Isaiah 58:6", "Isaiah 35:4-6", "Matthew 11:2-6", "Luke 7:18-23", "Luke 3:7-17", "Isaiah 34:8", "Isaiah 63:4", "Isaiah 11:2", "Isaiah 42:1", "Isaiah 48:16", "Leviticus 25:10", "2 Corinthians 6:2", "2 Thessalonians 1:7-8", "Luke 21:22-27", "Luke 24:47", "Acts 13:15", "2 Peter 3:9", "Micah 5:2-3", "Hosea 5:15", "Matthew 23:39", "Mark 14:62", "Matthew 17:11-12", "1 Kings 17:9", "2 Kings 5:14", "Acts 2:38", "Luke 1:77"]
+bible_references: ["Isaiah 61:1-3", "Isaiah 61:4-6", "Luke 4:16-30", "Isaiah 58:6", "Isaiah 35:4-6", "Matthew 11:2-6", "Luke 7:18-23", "Luke 3:7-17", "Isaiah 34:8", "Isaiah 63:4", "Isaiah 11:2", "Isaiah 42:1", "Isaiah 48:16", "Leviticus 25:10", "2 Corinthians 6:2", "2 Thessalonians 1:7-8", "Luke 21:22-27", "Luke 24:47", "Acts 13:15", "2 Peter 3:9", "Micah 5:2-3", "Matthew 23:39", "Matthew 17:11-12", "1 Kings 17:9", "2 Kings 5:14", "Acts 2:38", "Luke 1:77", "Isaiah 26:19", "Isaiah 49:8", "Psalm 110:1", "Hebrews 10:12-13", "Psalm 118:26", "Malachi 4:5", "Matthew 13:53-58", "Mark 6:1-6", "Hosea 9:7", "Micah 5:4"]
 date_created: 2026-11-26
 date_modified: 2026-11-26
 ai_provider_models:
@@ -16,13 +16,13 @@ ai_provider_models:
 
 On a Sabbath in Nazareth Jesus stood up to read. He was handed the scroll of Isaiah, found the
 place, read two verses, and stopped in the middle of a sentence. "Then He rolled up the scroll,
-returned it to the attendant, and sat down" (Luke 4:20, BSB). Every eye in the room was on Him.
+returned it to the attendant, and sat down" (Luke 4:20, BSB). Every eye in the room was fixed on Him (Luke 4:20).
 The words He left unread were "and the day of our God's vengeance" (Isaiah 61:2, BSB).
 
-**In one sentence:** At Nazareth Jesus read Isaiah 61 as His own commission, shaped the reading to
-say what began that day, release, the word Luke uses for the forgiveness of sins, proclaimed to the
-poor and, as the synagogue heard with rage, to the Gentiles, and He closed the scroll before "the
-day of vengeance", which waits for His return; the year of the Lord's favour is now.
+**In one sentence:** At Nazareth Jesus read Isaiah 61 as His own commission and shaped the reading
+to say what began that day: release, Luke's word for the forgiveness of sins, proclaimed to the poor
+and, as the synagogue heard with rage, to the Gentiles. He closed the scroll before "the day of
+vengeance", which waits for His return, so the year of the Lord's favour is now.
 
 ## Key Takeaways
 
@@ -32,8 +32,8 @@ day of vengeance", which waits for His return; the year of the Lord's favour is 
 
 Isaiah 61:1-2 is a prophecy, and Jesus said so: "Today this Scripture is fulfilled in your hearing"
 (Luke 4:21, BSB). He claimed the first half of one sentence. The second half, "the day of our God's
-vengeance" and the comfort of Zion's mourners, the New Testament places at His revealing from
-heaven (2 Thessalonians 1:7-8). Isaiah 61 is one of many prophecies the New Testament divides
+vengeance", the New Testament places at His revealing from heaven (2 Thessalonians 1:7-8), and
+Isaiah's sentence carries the comfort of Zion's mourners with it. Isaiah 61 is one of many prophecies the New Testament divides
 between His two comings; Micah 5:2-3, Malachi 4:5 and Psalm 118:26 are divided the same way.
 
 ### Lessons about Jesus
@@ -44,8 +44,8 @@ between His two comings; Micah 5:2-3, Malachi 4:5 and Psalm 118:26 are divided t
   out one line and brings in another from Isaiah 58:6.
 - **He came first to release.** The word He proclaimed, ἄφεσις (*aphesis*, G859), is Luke's word
   for the forgiveness of sins.
-- **He holds back the vengeance.** He stopped before it at Nazareth and again when He answered John
-  (Matthew 11:5).
+- **He holds back the vengeance.** He stopped before it at Nazareth, and He left it out again when He
+  answered John (Matthew 11:5; Luke 7:22).
 - **His grace reaches the nations.** He told Nazareth about a widow of Sidon and a Syrian
   commander (Luke 4:25-27).
 
@@ -107,7 +107,9 @@ is later than Jesus, and it writes down a practice, so it tells you what the roo
 have accepted without surprise.
 
 The scroll "was handed to Him" (Luke 4:17, BSB). Then "He found the place". Luke does not say
-whether Isaiah was the day's set reading. He says Jesus chose the passage within it.
+whether Isaiah was the day's set reading. "Found" suggests He chose the passage within it. Matthew
+13:53-58 and Mark 6:1-6 also tell of Nazareth rejecting Him, without the reading; Luke alone gives
+what He read.
 
 ## Isaiah 61 in Isaiah
 
@@ -121,12 +123,14 @@ that "they will rebuild the ancient ruins" (Isaiah 61:4, BSB). The speaker says:
 ### The speaker
 
 The Targum, the synagogue's own Aramaic, opens the chapter "The prophet said" (Targum Jonathan on
-Isaiah 61:1, trans. Pauli, 1871). Isaiah is the near referent. The words outrun him. The Spirit rests
-on this speaker as on the Branch from Jesse (Isaiah 11:2) and the Servant: "I will put My Spirit on
+Isaiah 61:1, trans. Pauli, 1871). Isaiah is the near referent, and the words outrun him. The Spirit rests
+on this speaker as on the one the Lord GOD has sent "accompanied by His Spirit" (Isaiah 48:16, BSB),
+the Branch from Jesse (Isaiah 11:2) and the Servant: "I will put My Spirit on
 Him, and He will bring justice to the nations" (Isaiah 42:1, BSB). He proclaims a year of favour and
 a day of vengeance, and in Isaiah those belong to God Himself: "For the day of vengeance was in My
 heart, and the year of My redemption had come" (Isaiah 63:4, BSB). A prophet can announce God's
-year. This speaker is sent to bring it. "Anointed" here is <span dir="rtl">מָשַׁח</span> (*mashach*,
+year. This speaker is also sent "to give them a crown of beauty for ashes, the oil of joy for
+mourning" (Isaiah 61:3, BSB), the gifts the year brings. "Anointed" here is <span dir="rtl">מָשַׁח</span> (*mashach*,
 H4886), the verb behind the title Messiah.
 
 ### The Jubilee's release
@@ -145,13 +149,13 @@ Leviticus, Isaiah and a Dead Sea Scroll.
 <span dir="rtl">יוֹם נָקָם</span> (*yom naqam*, H5359). Isaiah pairs the two words twice more, and
 both times they name one act of God: "For the LORD has a day of vengeance, a year of recompense for
 the cause of Zion" (Isaiah 34:8, BSB), and Isaiah 63:4 above. In Isaiah's poetry the day and the year
-are one time. Isaiah 61:2 read alone gives no gap between them. Hold that, because the gap comes
-from somewhere else.
+are one time. Isaiah 61:2 read alone gives no gap between them. If there is a gap, the New
+Testament has to show it.
 
 ## What Jesus read
 
 Luke gives the reading in Greek, and his wording follows the Septuagint, the Greek translation of
-the Old Testament the synagogues of the dispersion used. Set side by side, three changes show.
+the Old Testament the synagogues of the dispersion used. Set side by side, four changes show.
 
 | Isaiah 61:1-2 (Septuagint) | Luke 4:18-19 |
 |---|---|
@@ -162,10 +166,11 @@ the Old Testament the synagogues of the dispersion used. Set side by side, three
 | to call the acceptable year of the Lord | to proclaim the year of the Lord's favor |
 | and the day of recompense, to comfort all who mourn | *(He rolled up the scroll)* |
 
-*The Septuagint column is our own rendering of Brenton's Greek (`ebible-grcbrent`); Luke's column is the BSB.*
+*The Septuagint column is our own rendering of Brenton's Septuagint; Luke's column is the BSB.*
 
 **The cut.** "To heal the brokenhearted" (ἰάσασθαι τοὺς συντετριμμένους τὴν καρδίαν) is in the
-Septuagint and missing from Luke.
+Septuagint and missing from the earliest manuscripts of Luke. Later manuscripts add it, and the King
+James Version follows them; the critical text the BSB translates leaves it out.
 
 **The splice.** "To release the oppressed" (ἀποστεῖλαι τεθραυσμένους ἐν ἀφέσει) comes from Isaiah
 58:6, where the Septuagint has the command form, "send the crushed away in release". In Isaiah 58
@@ -179,9 +184,13 @@ words with the line already joined. Luke presents it as what was read: "He found
 was written" (Luke 4:17, BSB). Either way the line is in the text Luke gives you, and it says what
 the release is for.
 
+**The verb and the blind.** Where the Septuagint has "to call (καλέσαι) the acceptable year", Luke has
+"to proclaim (κηρύξαι)", the verb of the line before. And one line follows the Septuagint against the
+Hebrew: for "freedom to the prisoners", both have "recovery of sight to the blind".
+
 **The stop.** Luke's reading ends at "to proclaim the year of the Lord's favor" (Luke 4:19, BSB).
 The Greek is κηρύξαι ἐνιαυτὸν κυρίου δεκτόν, and Isaiah's sentence continues "and the day of
-recompense". Jesus closed the scroll there.
+recompense", ἀνταπόδοσις (*antapodosis*, G469). Jesus closed the scroll there.
 
 ### The word He proclaimed
 
@@ -202,9 +211,9 @@ sin itself.
 read: the anointed speaker, the good news, the release, the year of favour. It does not claim the
 day of vengeance, because He did not read it.
 
-### The same cut for John
+### A similar cut for John
 
-He made the same cut a second time. John the Baptist had preached the axe and the fire: "The axe
+He made a similar cut a second time, in Matthew's account and in Luke's (Luke 7:22). John the Baptist had preached the axe and the fire: "The axe
 lies ready at the root of the trees" (Luke 3:9, BSB), and "He will burn up the chaff with
 unquenchable fire" (Luke 3:17, BSB). From prison John sent to ask, "Are You the One who was to come,
 or should we look for someone else?" (Matthew 11:3, BSB). Jesus answered from Isaiah:
@@ -213,7 +222,8 @@ or should we look for someone else?" (Matthew 11:3, BSB). Jesus answered from Is
 >
 > 4 Jesus replied, "Go back and report to John what you hear and see: 5 The blind receive sight, the lame walk, the lepers are cleansed, the deaf hear, the dead are raised, and the good news is preached to the poor. 6 Blessed is the one who does not fall away on account of Me."
 
-The healings are Isaiah 35:5-6, and the good news to the poor is Isaiah 61:1. The verse before the
+The blind, the lame and the deaf are Isaiah 35:5-6; the dead raised recall Isaiah 26:19; the good
+news to the poor is Isaiah 61:1. The verse before the
 healings in Isaiah reads: "Behold, your God will come with vengeance. With divine retribution He
 will come to save you" (Isaiah 35:4, BSB). Jesus left that line out for John, as He left out Isaiah
 61:2's at Nazareth. Then He blessed the man who would not stumble over a Messiah who heals now and
@@ -226,19 +236,19 @@ comings, and the New Testament divides it, often with a word that marks time.
 
 - **Micah 5:2-3.** The ruler comes from Bethlehem (Matthew 2:6). Then "Israel will be abandoned
   until she who is in labor has given birth" (Micah 5:3, BSB), and only after that does He shepherd
-  with greatness "to the ends of the earth".
+  with greatness "to the ends of the earth" (Micah 5:4, BSB). Matthew quotes Micah 5:2 alone.
 - **Malachi 4:5.** Jesus said both halves in one answer: "Elijah does indeed come, and he will
   restore all things. But I tell you that Elijah has already come" (Matthew 17:11-12, BSB).
-- **Psalm 110:1 and Daniel 7:13.** Before the high priest He joined them in one sentence: "you will
-  see the Son of Man sitting at the right hand of Power and coming with the clouds of heaven" (Mark
-  14:62, BSB). The sitting began at the ascension; the coming is still ahead.
+- **Psalm 110:1.** "Sit at My right hand until I make Your enemies a footstool for Your feet" (Psalm
+  110:1, BSB). Hebrews reads the "until" as the present age: Christ "sat down at the right hand of
+  God. Since that time, He waits for His enemies to be made a footstool for His feet" (Hebrews
+  10:12-13, BSB).
 - **Psalm 118:26.** The crowds sang it at the entry, and Jesus told Jerusalem, "you will not see Me
-  again until you say, 'Blessed is He who comes in the name of the Lord'" (Matthew 23:39, BSB).
-- **Hosea 5:15.** "Then I will return to My place until they admit their guilt and seek My face"
-  (Hosea 5:15, BSB).
+  again until you say, 'Blessed is He who comes in the name of the Lord.'" (Matthew 23:39, BSB).
 
-The plate above lists eight of these from this site's ledger of the prophecies of Christ. In each,
-"until" or "not yet" or "already" opens an interval the prophet's sentence did not show. Read
+The plate above lists eight of these from this site's ledger of the prophecies of Christ. In most, a word
+that marks time ("until", "not yet", "already") opens an interval the prophet's sentence did not
+show. Read
 against that pattern, a stop in the middle of Isaiah 61:2, followed by "today", divides the sentence
 the same way.
 
@@ -247,29 +257,38 @@ the same way.
 The New Testament puts God's vengeance at Christ's return. Paul promised the persecuted church
 relief "when the Lord Jesus is revealed from heaven with His mighty angels in blazing fire,
 inflicting vengeance on those who do not know God and do not obey the gospel of our Lord Jesus" (2
-Thessalonians 1:7-8, BSB). And Paul put the year of favour in the present. Quoting Isaiah 49:8's
-"time of favor", with the same Greek word δεκτός as Luke 4:19, he wrote: "Behold, now is the time of
-favor; now is the day of salvation!" (2 Corinthians 6:2, BSB).
+Thessalonians 1:7-8, BSB). And Paul put the year of favour in the present. He quotes Isaiah 49:8's
+"time of favor", καιρῷ δεκτῷ, with Luke 4:19's word, and answers it with a stronger form of the same
+word, εὐπρόσδεκτος: "Behold, now is the time of favor; now is the day of salvation!" (2 Corinthians
+6:2, BSB).
 
 Luke's own Gospel has vengeance after the cross. Jesus said of Jerusalem's fall, "For these are the
-days of vengeance, to fulfill all that is written" (Luke 21:22, BSB). Jerusalem fell in AD 70. His
-word is ἐκδικήσεως, the word of Hosea 9:7 and Deuteronomy 32:35 in the Septuagint; the Septuagint of
-Isaiah 61:2 has a different one, ἀνταποδόσεως. So Luke 21:22 is not a quotation of Isaiah 61. It
-shows a judgment on Jerusalem after the year of favour began, with "the times of the Gentiles"
-running on (Luke 21:24) and the Son of Man's coming after them (Luke 21:27).
+days of vengeance, to fulfill all that is written" (Luke 21:22, BSB). Jerusalem fell in AD 70, and
+"the times of the Gentiles" run on after it (Luke 21:24) until the Son of Man comes (Luke 21:27).
+
+Neither text quotes Isaiah 61:2. Luke 21:22 and 2 Thessalonians 1:8 use ἐκδίκησις, "vengeance",
+where the Septuagint of Isaiah 61:2 has ἀνταπόδοσις, "recompense". The two words name one thing:
+Hosea 9:7 in the Septuagint sets "the days of vengeance" beside "the days of your recompense". What
+the two texts show is where God's vengeance falls in time after the year of favour began: a judgment
+on Jerusalem in AD 70, and the full day at His revealing.
 
 ### The case on the other side
 
 Some read the stop as the emphasis of a sermon. On that reading Jesus chose to end on grace and
 made no claim about time. Isaiah's own pairing supports them: Isaiah 34:8 and 63:4 set the day and
-the year together as one act of God, and nothing in Isaiah's grammar opens a gap.
+the year together as one act of God, and nothing in Isaiah's grammar opens a gap. Their strongest
+point is the cut. Jesus also left out "to heal the brokenhearted", and no one reads a claim about
+time into that. Why read one into the stop? And Luke never comments on the stop.
 
-The case for an interval is stronger, and it rests on the New Testament, which carries more weight
-than any one verse of Isaiah. "Today" attaches to the year of favour alone. The same cut is made for
-John. The New Testament places the vengeance at Christ's revealing and the favour in the present
-(2 Thessalonians 1:7-8; 2 Corinthians 6:2). And it divides other prophecies the same way, often with
-"until". Isaiah's sentence names one act of God. The Son who fulfils it divides it between His two
-comings.
+The case for an interval answers from where the stop falls. The cut removes one line from inside the
+list of what the anointed one does. The stop falls at the seam between favour and vengeance, and
+"today" follows at once and claims the year alone. The cut for John falls at the same seam, before
+Isaiah 35:4's vengeance. Then the New Testament interprets Isaiah's sentence: it places the vengeance
+at Christ's revealing and the favour in the present (2 Thessalonians 1:7-8; 2 Corinthians 6:2), and
+it divides other prophecies the same way, often with "until". Commentators of more than one school
+read it so: the *Bible Knowledge Commentary* (John A. Martin) sees "two advents", and the *ESV Study
+Bible* says the display of His wrath "awaits Christ's second coming". Isaiah's sentence names one act
+of God. The Son who fulfils it divides it between His two comings.
 
 [Immediately After](../last-things/immediately-after.md) uses this stop as its first example of a
 gap inside one sentence. [The Thousand Years](../last-things/the-thousand-years.md) follows Isaiah
@@ -289,10 +308,12 @@ figure's single act. [Melchizedek in Second Temple
 Judaism](../scripture/melchizedek-in-second-temple-judaism.md) gives the column line by line.
 
 **4Q521 (the Messianic Apocalypse).** A Hebrew scroll from Cave 4, copied in the first century BC, opens
-a column "heaven and earth will listen to His Messiah" (4Q521 2 ii 1). It promises that the Lord
+a column "heaven and earth will listen to His Messiah" (4Q521 2 ii 1; six of the line's nine words
+survive whole, and "heaven" is mostly restored). It promises that the Lord
 will free captives and give sight to the blind (4Q521 2 ii 8), then "He will heal the wounded,
-revive the dead, and bring good news to the poor" (4Q521 2 ii 12). That is Matthew 11:5's list,
-the raised dead included, written down before Jesus sent it to John. Whether the Lord does these
+revive the dead, and bring good news to the poor" (4Q521 2 ii 12). Three of Matthew 11:5's six
+works stand in it, the blind, the raised dead and the good news to the poor, in a scroll written
+down before Jesus sent His answer to John. Whether the Lord does these
 things through His Messiah or Himself is contested: the scroll names the Lord as the one who acts.
 
 **The Targum.** The Aramaic gives the chapter to "the prophet" and reads Isaiah 61:2 whole: "To
@@ -308,7 +329,7 @@ Jesus is the first reader on record to stop in the middle of the verse.
 ### A word English hides
 
 "All spoke well of Him and marveled at the gracious words that came from His lips" (Luke 4:22,
-BSB). Within minutes the same people tried to throw Him off a cliff (Luke 4:29).
+BSB). Then the same people tried to throw Him off a cliff (Luke 4:29).
 
 Two verses use the same Greek word, and English translations render it two ways. Jesus proclaimed
 "the year of the Lord's favor", ἐνιαυτὸν κυρίου δεκτόν (Luke 4:19). Then He said, "no prophet is
@@ -394,8 +415,10 @@ there. And carry it, as He did, to the people Nazareth would have passed over.
   `references/build/sefaria.py`.
 - **Background.** Alfred Edersheim, *The Life and Times of Jesus the Messiah* (1883), Book I,
   chapters 1 and 8, on the Targumim and the Mishnah (public domain).
-- **Commentary consulted.** *The Bible Knowledge Commentary* (Walvoord and Zuck, eds.), on Isaiah
-  61:1-3 and Luke 4:16-30, which reads the stop as dividing "two advents"; *NIV Biblical Theology
+- **Commentary consulted.** *The Bible Knowledge Commentary* (Walvoord and Zuck, eds.), John A.
+  Martin on Isaiah 61:1-3 and Luke 4:16-30, which reads the stop as dividing "two advents"; *ESV
+  Study Bible* (Crossway), note on Isaiah 61:1-3 (the speaker of 48:16; the wrath "awaits Christ's
+  second coming"); *NIV Biblical Theology
   Study Bible* (Zondervan), note on Luke 4:19 (*dekton* and *dektos*); *ESV Study Bible* (Crossway),
   note on Luke 4:18-19 ("liberty" as forgiveness in Luke-Acts).
 - **On this site.** [Melchizedek in Second Temple

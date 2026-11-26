@@ -34,7 +34,7 @@ SCROLL = [
     ("61:1", "The Spirit of the Lord GOD is on Me,", "read", "read", None),
     ("61:1", "because the LORD has anointed Me", "read", "read", None),
     ("", "to preach good news to the poor.", "read", "read", None),
-    ("61:1", "He has sent Me to bind up the brokenhearted,", "out", "not in Luke 4:18", None),
+    ("61:1", "He has sent Me to bind up the brokenhearted,", "out", "not in Luke 4:18’s", "earliest manuscripts"),
     ("61:1", "to proclaim liberty to the captives", "read", "read", None),
     ("61:1", "and freedom to the prisoners,", "changed", "read as the Septuagint has it:",
      "“and recovery of sight to the blind”"),
@@ -54,10 +54,10 @@ PATTERN = [
     ("bethlehem", "“until she who is in labor has given birth” (Micah 5:3)"),
     ("eyes-of-the-blind", "the healings, without “your God will come with vengeance”"),
     ("elijah-before-the-day", "Elijah “has already come” and “will restore”"),
-    ("son-of-man-on-the-clouds", "“sitting at the right hand… and coming with the clouds”"),
+    ("sit-at-my-right-hand", "seated now; “He waits for His enemies to be made a footstool” (Heb 10:13)"),
     ("blessed-is-he-who-comes", "“you will not see Me again until you say…”"),
     ("booth-of-david-rebuilt", "the nations now; David’s tent and the land after"),
-    ("israel-seeks-david-their-king", "“until they admit their guilt and seek My face” (Hosea 5:15)"),
+    ("israel-seeks-david-their-king", "“many days without king”, then “afterward”, David their king (Hosea 3:4-5)"),
     ("all-things-under-his-feet", "crowned now; “at present we do not see everything subject to him”"),
 ]
 
@@ -76,14 +76,15 @@ def where_jesus_stopped_reading():
         "Me to preach good news to the poor, and to proclaim liberty to the captives. He left out 'to "
         "bind up the brokenhearted'. For 'freedom to the prisoners' He read, as the Septuagint has it, "
         "'recovery of sight to the blind', and He brought in 'to release the oppressed' from Isaiah "
-        "58:6, joined on the Greek word aphesis, release. He read 'to proclaim the year of the LORD's "
+        "58:6, joined on the Greek word aphesis, release; the line He left out is missing from the earliest manuscripts of Luke. He read 'to proclaim the year of the LORD's "
         "favor' and said 'Today this Scripture is fulfilled' (Luke 4:21). Then He rolled up the scroll "
         "(Luke 4:20), before 'and the day of our God's vengeance, to comfort all who mourn, to console "
         "the mourners in Zion'. Below, a line of time runs from His first coming, 'today', through the "
         "year of favor, 'now' (2 Corinthians 6:2), drawn dashed because Scripture does not count its "
         "length, to His revealing from heaven with vengeance (2 Thessalonians 1:7-8). A table lists "
         "eight other prophecies the New Testament divides between His two comings, each with the text "
-        "that divides it.",
+        "that divides it: Micah 5:2, Isaiah 35:5-6, Malachi 4:5-6, Psalm 110:1, Psalm 118:26, Amos 9:11-12, "
+        "Hosea 3:4-5 and Psalm 8:4-6.",
     )
     out += heading("Where Jesus Stopped Reading", "Isaiah 61:1-3, as Luke 4:16-21 records it")
 

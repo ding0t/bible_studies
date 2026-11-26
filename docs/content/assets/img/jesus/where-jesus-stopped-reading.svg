@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1450" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
 <title id="t">Where Jesus stopped reading</title>
-<desc id="d">Isaiah 61:1-3 set out clause by clause as Jesus read it in the synagogue at Nazareth (Luke 4:16-21). He read that the Spirit of the Lord GOD is on Me, that the LORD has anointed Me to preach good news to the poor, and to proclaim liberty to the captives. He left out 'to bind up the brokenhearted'. For 'freedom to the prisoners' He read, as the Septuagint has it, 'recovery of sight to the blind', and He brought in 'to release the oppressed' from Isaiah 58:6, joined on the Greek word aphesis, release. He read 'to proclaim the year of the LORD's favor' and said 'Today this Scripture is fulfilled' (Luke 4:21). Then He rolled up the scroll (Luke 4:20), before 'and the day of our God's vengeance, to comfort all who mourn, to console the mourners in Zion'. Below, a line of time runs from His first coming, 'today', through the year of favor, 'now' (2 Corinthians 6:2), drawn dashed because Scripture does not count its length, to His revealing from heaven with vengeance (2 Thessalonians 1:7-8). A table lists eight other prophecies the New Testament divides between His two comings, each with the text that divides it.</desc>
+<desc id="d">Isaiah 61:1-3 set out clause by clause as Jesus read it in the synagogue at Nazareth (Luke 4:16-21). He read that the Spirit of the Lord GOD is on Me, that the LORD has anointed Me to preach good news to the poor, and to proclaim liberty to the captives. He left out 'to bind up the brokenhearted'. For 'freedom to the prisoners' He read, as the Septuagint has it, 'recovery of sight to the blind', and He brought in 'to release the oppressed' from Isaiah 58:6, joined on the Greek word aphesis, release; the line He left out is missing from the earliest manuscripts of Luke. He read 'to proclaim the year of the LORD's favor' and said 'Today this Scripture is fulfilled' (Luke 4:21). Then He rolled up the scroll (Luke 4:20), before 'and the day of our God's vengeance, to comfort all who mourn, to console the mourners in Zion'. Below, a line of time runs from His first coming, 'today', through the year of favor, 'now' (2 Corinthians 6:2), drawn dashed because Scripture does not count its length, to His revealing from heaven with vengeance (2 Thessalonians 1:7-8). A table lists eight other prophecies the New Testament divides between His two comings, each with the text that divides it: Micah 5:2, Isaiah 35:5-6, Malachi 4:5-6, Psalm 110:1, Psalm 118:26, Amos 9:11-12, Hosea 3:4-5 and Psalm 8:4-6.</desc>
 <rect width="720" height="1450" fill="#faf6ec"/>
 <rect x="8" y="8" width="704" height="1434" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
 <rect x="14" y="14" width="692" height="1422" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
@@ -24,7 +24,8 @@
 <text x="84.0" y="294.0" font-size="12" fill="#6b5a3e" font-style="italic">61:1</text>
 <text x="128.0" y="294.0" font-size="14.5" fill="#9a8b72">He has sent Me to bind up the brokenhearted,</text>
 <path d="M126 289 h286" stroke="#8b1e1e" stroke-width="1.3" stroke-dasharray="6 3"/>
-<text x="642.0" y="294.0" font-size="11.5" fill="#8b1e1e" text-anchor="end" font-style="italic">not in Luke 4:18</text>
+<text x="642.0" y="288.0" font-size="11.5" fill="#8b1e1e" text-anchor="end" font-style="italic">not in Luke 4:18’s</text>
+<text x="642.0" y="302.0" font-size="11.5" fill="#8b1e1e" text-anchor="end" font-style="italic">earliest manuscripts</text>
 <text x="84.0" y="332.0" font-size="12" fill="#6b5a3e" font-style="italic">61:1</text>
 <text x="128.0" y="332.0" font-size="14.5" fill="#3b2f1e">to proclaim liberty to the captives</text>
 <text x="642.0" y="332.0" font-size="11.5" fill="#a67c3d" text-anchor="end" font-style="italic">read</text>
@@ -85,9 +86,9 @@
 <text x="48.0" y="1042.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Malachi 4:5-6</text>
 <text x="672.0" y="1042.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">divided at Matthew 17:11-12</text>
 <text x="48.0" y="1059.0" font-size="12.5" fill="#3b2f1e">Elijah “has already come” and “will restore”</text>
-<text x="48.0" y="1088.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Daniel 7:13-14</text>
-<text x="672.0" y="1088.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">divided at Mark 14:62</text>
-<text x="48.0" y="1105.0" font-size="12.5" fill="#3b2f1e">“sitting at the right hand… and coming with the clouds”</text>
+<text x="48.0" y="1088.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Psalm 110:1</text>
+<text x="672.0" y="1088.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">divided at Hebrews 10:12-13</text>
+<text x="48.0" y="1105.0" font-size="12.5" fill="#3b2f1e">seated now; “He waits for His enemies to be made a footstool” (Heb 10:13)</text>
 <rect x="36" y="1112" width="648" height="46" fill="#efe4d0" opacity="0.6"/>
 <text x="48.0" y="1134.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Psalm 118:26</text>
 <text x="672.0" y="1134.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">divided at Matthew 23:39</text>
@@ -98,7 +99,7 @@
 <rect x="36" y="1204" width="648" height="46" fill="#efe4d0" opacity="0.6"/>
 <text x="48.0" y="1226.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Hosea 3:4-5</text>
 <text x="672.0" y="1226.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">divided at Acts 15:16</text>
-<text x="48.0" y="1243.0" font-size="12.5" fill="#3b2f1e">“until they admit their guilt and seek My face” (Hosea 5:15)</text>
+<text x="48.0" y="1243.0" font-size="12.5" fill="#3b2f1e">“many days without king”, then “afterward”, David their king (Hosea 3:4-5)</text>
 <text x="48.0" y="1272.0" font-size="13.5" fill="#3b2f1e" font-weight="bold">Psalm 8:4-6</text>
 <text x="672.0" y="1272.0" font-size="12" fill="#6b5a3e" text-anchor="end" font-style="italic">divided at Hebrews 2:8-9</text>
 <text x="48.0" y="1289.0" font-size="12.5" fill="#3b2f1e">crowned now; “at present we do not see everything subject to him”</text>

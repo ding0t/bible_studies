@@ -60,7 +60,7 @@ stages:
       notes: >-
         Isaiah 61:1-11 (BSB section 'The Year of the LORD's Favor'; editorial). The speaker carries
         the Spirit as 11:2, 42:1 and 48:16; 61:4-9 is Zion rebuilt with foreigners serving (61:5).
-        Isaiah 34:8 and 63:4 pair day and year as one time (LXX ἀνταπόδοσις). Luke 4:16-30 is
+        Isaiah 34:8 and 63:4 pair day and year as one time (LXX ἀνταπόδοσις on 61:2's and 63:4's day; 34:8 has κρίσεως for the day and ἀνταποδόσεως for the year). Luke 4:16-30 is
         Luke's programmatic opening (parallels Matthew 13:53-58; Mark 6:1-6). Matthew 11:2-6 / Luke
         7:18-23 answers John with Isaiah 35:5-6 and 61:1 cut before 35:4; John had preached the axe
         and fire (Luke 3:9, 17).
@@ -71,7 +71,7 @@ stages:
         - {word: "ἄφεσις", language: greek, transliteration: "aphesis", strongs_id: "G859", gloss: "release, forgiveness", notes: "Luke 4:18 twice (Isaiah 61:1 LXX; 58:6 LXX); Lev 25:10 LXX the Jubilee 'release'; Luke 1:77; 3:3; 24:47; Acts 2:38 forgiveness of sins"}
         - {word: "δεκτός", language: greek, transliteration: "dektos", strongs_id: "G1184", gloss: "acceptable, favourable", notes: "Luke 4:19 the year; 4:24 no prophet is dektos; 2 Corinthians 6:2 (Isaiah 49:8 LXX)"}
         - {word: "רָצוֹן", language: hebrew, transliteration: "ratson", strongs_id: "H7522", gloss: "favour, goodwill", notes: "Isaiah 61:2 'year of favour'"}
-        - {word: "נָקָם", language: hebrew, transliteration: "naqam", strongs_id: "H5359", gloss: "vengeance", notes: "Isaiah 61:2; 34:8; 63:4; LXX ἀνταπόδοσις in all three"}
+        - {word: "נָקָם", language: hebrew, transliteration: "naqam", strongs_id: "H5359", gloss: "vengeance", notes: "Isaiah 61:2; 34:8; 63:4. LXX ἀνταπόδοσις (G469) at 61:2 and 63:4; at 34:8 the day is κρίσεως"}
         - {word: "דְּרוֹר", language: hebrew, transliteration: "derôr", strongs_id: "H1865", gloss: "liberty, release", notes: "covered by the Melchizedek study; link"}
   hermeneutics:
     cultural_vs_transcultural: {done: false, notes: ""}
@@ -83,7 +83,16 @@ stages:
     translations_compared: []
     divergences_noted: ""
   drafting: {done: true, file: "docs/content/jesus/where-jesus-stopped-reading.md"}  # 2026-11-26; plate utils/build_jesus_graphics.py. Next: word budget (about 4,600 words against 4,000), ledger near/exceeds, read-bible-study in a new session
-  review: {done: false, validated: false}
+  review:
+    done: true
+    validated: true
+    notes: >-
+      review-bible-study 2026-11-26 (subagent): 7 errors, 8 warnings, notes; all errors and the
+      warnings applied (4Q521 shares three of Matthew 11:5's works; Isaiah 35:5-6's list; 2 Corinthians
+      6:2's εὐπρόσδεκτος; Hosea 5:15 and Mark 14:62 out of the pattern list; Psalm 110:1 with Hebrews
+      10:12-13 in; Luke 4:18's manuscript fork; the other reading given its strongest point; the
+      ἐκδίκησις word test applied to both texts). Kept: the plate's Amos 9 row, the author's settled
+      Acts 15 reading. Next: read-bible-study
 
 prophecy_ledger: []
 open_questions:
