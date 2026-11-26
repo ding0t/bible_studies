@@ -1,5 +1,5 @@
 {
- "inputs_sha256": "b8017620cbd7ae3b96bb93d814e974bf53115b603c28dc40bfad272525ef8629",
+ "inputs_sha256": "7ec42d117e1bb4a1df930c4916054595c49ec19b085f9732a1f306235fe36d49",
  "note": "Written by references/build/export_prophecies.py; do not edit by hand.",
  "prophecies": [
   {
@@ -1806,8 +1806,8 @@
    "prophecy": "Psalm 132:11; 89:3-4",
    "written_traditional": -450,
    "written_critical": null,
-   "fulfilled": null,
-   "years_ahead_traditional": null,
+   "fulfilled": 33,
+   "years_ahead_traditional": 483,
    "years_ahead_critical": null,
    "verses": [
     "Ps 132:11",
@@ -1999,8 +1999,8 @@
    "prophecy": "Isaiah 60:3-6; Psalm 72:10-11",
    "written_traditional": -681,
    "written_critical": null,
-   "fulfilled": null,
-   "years_ahead_traditional": null,
+   "fulfilled": -5,
+   "years_ahead_traditional": 676,
    "years_ahead_critical": null,
    "verses": [
     "Isa 60:3",
@@ -2053,7 +2053,7 @@
     "1Q8",
     "1Qisaa"
    ],
-   "manuscript_before": false
+   "manuscript_before": true
   },
   {
    "id": "out-of-egypt",
@@ -2349,8 +2349,8 @@
    "prophecy": "Malachi 4:5-6",
    "written_traditional": -430,
    "written_critical": null,
-   "fulfilled": null,
-   "years_ahead_traditional": null,
+   "fulfilled": 29,
+   "years_ahead_traditional": 459,
    "years_ahead_critical": null,
    "verses": [
     "Mal 4:5",
@@ -2407,7 +2407,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": null,
+   "years_ahead_at_least": 161,
    "qumran": [
     "4Q76"
    ],
@@ -3131,8 +3131,8 @@
    "prophecy": "Psalm 69:25; 109:8",
    "written_traditional": -450,
    "written_critical": null,
-   "fulfilled": null,
-   "years_ahead_traditional": null,
+   "fulfilled": 33,
+   "years_ahead_traditional": 483,
    "years_ahead_critical": null,
    "verses": [
     "Ps 69:25",
@@ -4702,8 +4702,8 @@
    "prophecy": "Psalm 8:4-6",
    "written_traditional": -450,
    "written_critical": null,
-   "fulfilled": null,
-   "years_ahead_traditional": null,
+   "fulfilled": 33,
+   "years_ahead_traditional": 483,
    "years_ahead_critical": null,
    "verses": [
     "Ps 8:4",
@@ -5796,9 +5796,9 @@
    "prophecy": "Leviticus 16:1-34",
    "written_traditional": -1406,
    "written_critical": -400,
-   "fulfilled": null,
-   "years_ahead_traditional": null,
-   "years_ahead_critical": null,
+   "fulfilled": 33,
+   "years_ahead_traditional": 1439,
+   "years_ahead_critical": 433,
    "verses": [
     "Lev 16:1",
     "Lev 16:2",
@@ -5993,8 +5993,8 @@
    "prophecy": "Psalm 118:26",
    "written_traditional": -450,
    "written_critical": null,
-   "fulfilled": null,
-   "years_ahead_traditional": null,
+   "fulfilled": 33,
+   "years_ahead_traditional": 483,
    "years_ahead_critical": null,
    "verses": [
     "Ps 118:26"

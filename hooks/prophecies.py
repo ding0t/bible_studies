@@ -5,6 +5,9 @@
                                                    and how many were written and copied before it
 - `<!-- prophecies-of-christ: category <name> -->` the entries of one category, as cards
 - `<!-- prophecies-of-christ: nt -->`              the prophecies that begin in the New Testament
+- `<!-- prophecies-of-christ: floor -->`           the chance floor a reader sets: the prophecies no
+                                                   one could have arranged, one trial per moment,
+                                                   and a slider for the chance given each
 - `<!-- prophecies-of-christ: filter -->`          a bar of filters over the cards: pick any values
                                                    in any facets (or within a facet, and across
                                                    them), with a live count on every chip. The
@@ -38,7 +41,7 @@ from pathlib import Path
 
 log = logging.getLogger("mkdocs.hooks.prophecies")
 
-_MARKER = re.compile(r"<!--\s*prophecies-of-christ:\s*(measures|dated|nt|filter|category\s+[\w-]+)\s*-->")
+_MARKER = re.compile(r"<!--\s*prophecies-of-christ:\s*(measures|dated|nt|filter|floor|category\s+[\w-]+)\s*-->")
 
 # The labels utils/build_jesus_graphics.py's chart uses, so the page and the chart agree.
 CATEGORIES = {
@@ -137,6 +140,8 @@ def _render(what: str, src: str) -> str:
         return _dated()
     if what == "filter":
         return _filter()
+    if what == "floor":
+        return _floor()
     if what == "nt":
         return f'<div class="pc-group">{"".join(_nt_card(e) for e in _nt)}</div>'
     category = what.split()[1]
@@ -374,3 +379,48 @@ def _chapter_section(book: int, chapter: int, files) -> str:
     if used:
         out.append(f"<p>Fulfilled or taken up in this chapter:</p><ul>{''.join(item(e) for e in used)}</ul>")
     return "\n".join(out)
+
+
+# Fulfilments no witness on earth could see. They are real on the New Testament's word, but a chance
+# floor counts events in public history, so each is left out of it, with its reason.
+UNSEEN = {
+    "sit-at-my-right-hand": "the session at God's right hand is in heaven (Acts 2:34-35; Hebrews 10:12)",
+    "priest-forever-melchizedek": "the priesthood is exercised in the heavenly sanctuary (Hebrews 8:1-2)",
+    "a-new-covenant": "the covenant is written on the heart (Jeremiah 31:33); the supper's words are its sign",
+}
+# Who brought it about, among the values that rule out arranging it: His followers and His own
+# knowing acts are left out, since a critic says those could be staged.
+UNARRANGED = {"divine", "opponents", "unwitting"}
+
+
+def floor_moments() -> list[tuple[str, list[dict]]]:
+    """The tier 1 prophecies fulfilled, at least in part, at a dated event, by no one who could have
+    arranged it, grouped by that event: one trial per moment, so the prophecies one act fulfils are
+    counted once. The chronology's anchor for the years of His death and resurrection groups the
+    fulfilments it does not place more finely, which counts them once too."""
+    moments: dict[str, list[dict]] = {}
+    for e in _ledger:
+        row = _computed.get(e["id"], {})
+        if (e["tier"] == 1 and e["status"] in ("fulfilled", "partly") and e.get("control") in UNARRANGED
+                and row.get("fulfilled") is not None and (row.get("years_ahead_traditional") or 0) > 0
+                and e["id"] not in UNSEEN):
+            moments.setdefault(e["event"], []).append(e)
+    return sorted(moments.items(), key=lambda kv: _computed[kv[1][0]["id"]]["fulfilled"])
+
+
+def _floor() -> str:
+    moments = floor_moments()
+    n = len(moments)
+    items = "".join(
+        f'<li>{", ".join(f"<a href=\"#prophecy-{escape(e["id"])}\">{escape(e["prophecy"])}</a>" for e in group)}</li>'
+        for _, group in moments)
+    left_out = "".join(f"<li>{escape(i)}: {escape(r)}</li>" for i, r in UNSEEN.items())
+    return f"""<div class="pc-floor" data-n="{n}">
+<p><label for="pc-k">Give each moment a chance of one in <output class="pc-k-out">2</output>:</label>
+<input id="pc-k" class="pc-k" type="range" min="2" max="10" step="1" value="2"></p>
+<p class="pc-floor-result">With {n} independent moments at one chance in 2 each, the chance that all came to
+pass is one in 2<sup>{n}</sup>, that is one in {2 ** n:,}.</p>
+<details><summary>The {n} moments</summary><ol>{items}</ol></details>
+<details><summary>Left out, because no witness could see them</summary><ul>{left_out}</ul></details>
+</div>
+<script type="module" src="/assets/js/prophecy-filter.js"></script>"""

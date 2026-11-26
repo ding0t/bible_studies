@@ -196,7 +196,10 @@ short. `AGENTS.md` keeps the rules that break things if forgotten.
   each category's cards (`id="prophecy-<id>"`) and the New Testament's own predictions. A ledger
   note's research leads ("lead:" on) are left off the page. The page is also the hub of the
   Prophecy and Jesus series (a `series:` block), and its charts are drawn from the same two files
-  by `utils/build_jesus_graphics.py`.
+  by `utils/build_jesus_graphics.py`. The same hook writes the page's filter bar (behaviour in
+  `app/src/entries/prophecy-filter.js`) and its chance floor, adds "Prophecies of Christ" to each
+  generated commentary chapter page, and writes `assets/popups/prophecies.json`, which the verse
+  pop-up reads to say a verse is a prophecy of Christ or a New Testament use of one.
 - **An exemption in a checking tool carries its justification with it, or it is a hole.** Two of this
   repo's checks were defeated by an unrecorded exemption rather than by a missing check. The diagram
   sweep skipped `timeline` blocks because they "size themselves" — they do not, and five stayed

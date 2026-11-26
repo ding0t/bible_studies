@@ -110,8 +110,9 @@ says how firmly:
 - **Two comings in one text.** Where the New Testament divides one prophecy between His first
   coming and His return, the card names the part fulfilled, the part still to come, and the New Testament text that divides them.
 
-This page gives no odds. A probability for each prophecy would be a guess, and one bad guess would
-discredit the true fulfilments beside it. The measures above can each be checked.
+This page puts no odds on any single prophecy. A probability for each one would be a guess, and one
+bad guess would discredit the true fulfilments beside it. The measures above can each be checked,
+and under [How unlikely by chance?](#how-unlikely-by-chance) you set the chance yourself.
 
 ## The ledger in numbers
 
@@ -127,7 +128,49 @@ The chart draws both halves of that sentence. From where a prophet stood, the su
 glory lined up like two peaks, one in front of the other. From where we stand, the first peak lies
 behind us, and the second is still ahead.
 
-[![The prophet's view and history's view: above, the sufferings and the glories to follow as two mountain peaks lined up before the prophet, with the seventeen prophecies in the ledger that hold both comings in one text; below, every prophecy tied to a dated event drawn from the year it was written to the year it came to pass, with those fulfilled in part carried across the valley of the church age to His return](../assets/img/jesus/prophets-view-historys-view.svg)](../assets/img/jesus/prophets-view-historys-view.svg)
+[![The prophet's view and history's view: above, the sufferings and the glories to follow as two mountain peaks lined up before the prophet, with the prophecies the New Testament divides between His two comings; below, every prophecy tied to a dated event drawn from the year it was written to the year it came to pass, with those fulfilled in part carried across the valley of the church age to His return](../assets/img/jesus/prophets-view-historys-view.svg)](../assets/img/jesus/prophets-view-historys-view.svg)
+
+## How unlikely by chance?
+
+Suppose the fulfilments were chance. Count only what no one could have arranged: prophecies the New
+Testament says were fulfilled, at an event this site dates, by God alone, by His enemies, or by
+someone with no thought of the prophecy. Leave out what Jesus did knowingly and what His followers
+did, since a critic says those could be staged, and what no witness could see. Count each moment
+once, however many prophecies it fulfilled, so that the prophecies fulfilled when He was crucified at
+the third hour are one trial and not three. Then give each moment a chance, as generous as you like.
+
+<!-- prophecies-of-christ: floor -->
+
+The figure assumes two things, and says so. It treats the moments as independent, though a critic may
+say one led to another. And the record of each fulfilment is the Gospels', which His opponents' own
+part in it supports: they had no reason to fulfil the texts of a Messiah they rejected. The figure is
+a floor, set by you: every choice above makes the number smaller.
+
+## Patterns in the prophecies
+
+### Passion Week, day by day
+
+Most of the prophecies fulfilled in His last week fall on one Hebrew day, 14 Nisan, which ran from
+the supper on Thursday evening to the burial on Friday before sunset: the day the Passover lambs
+were slain.
+
+[![The prophecies of Passion Week: each prophecy fulfilled in the last week, on the day and hour this site's chronology gives each event, AD 33, with 14 Nisan, from the Last Supper to the burial, holding most of them](../assets/img/jesus/passion-week.svg)](../assets/img/jesus/passion-week.svg)
+
+### The LORD's words, said of Jesus
+
+Again and again the apostles take a text about the LORD (<span dir="rtl">יהוה</span>, *YHWH*) and
+say it of Jesus: the first and the last, the One before whom every knee bows, the One on whom they
+look whom they pierced.
+
+[![The LORD's words, said of Jesus: Old Testament texts that speak of the LORD set beside the New Testament texts that say the same words of Jesus, from Isaiah 44:6 and Revelation 1:17 to Psalm 102:25 and Hebrews 1:10](../assets/img/jesus/the-lords-words.svg)](../assets/img/jesus/the-lords-words.svg)
+
+### Hebrew or Greek?
+
+The apostles quote the Septuagint most often, and Luke and Hebrews keep closest to it. Where the
+Greek misses the point they render the Hebrew afresh, and Revelation, Matthew and Mark do so most
+often.
+
+[![Hebrew or Greek: for each New Testament writer, how many of their uses of the prophecies of Christ follow the Hebrew rendered afresh, the Septuagint, both where they agree, or neither](../assets/img/jesus/which-text.svg)](../assets/img/jesus/which-text.svg)
 
 ## The prophecies, by subject
 

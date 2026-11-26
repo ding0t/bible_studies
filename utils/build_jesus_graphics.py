@@ -14,6 +14,7 @@ where_jesus_stopped_reading() reads its "same pattern" rows from docs/data/proph
 """
 
 import json
+import re
 import statistics
 import sys
 import tomllib
@@ -411,9 +412,261 @@ def prophets_view_historys_view():
     return "\n".join(out)
 
 
+CHRONOLOGY = ROOT / "docs" / "data" / "chronology.json"
+
+
+def clock(at):
+    """Hours from midnight at the start of Saturday 28 March (the chronology's count) as a clock time.
+    A fractional hour in the chronology orders events within the hour; it is no clock reading, so
+    those show as "about" the nearest hour."""
+    about = at != int(at)
+    hour = int(round(at)) % 24
+    suffix = "am" if hour < 12 else "pm"
+    return f"{'about ' if about else ''}{hour % 12 or 12} {suffix}"
+
+
+def passion_week():
+    """Each prophecy fulfilled in the last week, hung on its day and hour. The days and hours are the
+    chronology's (passion_sequence); which prophecy belongs to which moment is the ledger's `event`.
+    The Hebrew day runs from evening to evening, so 14 Nisan holds the supper, the arrest, the trials,
+    the cross and the burial."""
+    entries = tomllib.loads(LEDGER.read_text(encoding="utf-8"))["prophecy"]
+    seq = json.loads(CHRONOLOGY.read_text(encoding="utf-8"))["passion_sequence"]
+    events = {e["id"]: e for e in seq["events"]}
+    days = [d for d in seq["days"] if 10 <= d["k"] <= 16]
+    hung = {}
+    for e in entries:
+        if e.get("event") in events:
+            hung.setdefault(e["event"], []).append(e)
+    rows = []
+    for d in days:
+        here = sorted((events[i] for i in hung if d["start"] <= events[i]["at"] < d["end"]), key=lambda x: x["at"])
+        rows.append((d, here))
+    count = sum(len(v) for v in hung.values())
+    on_14 = sum(len(hung[ev["id"]]) for d, here in rows if d["k"] == 14 for ev in here)
+
+    left, x0, right = 36, 190, W - 36
+    char = 6.6
+
+    def chip_rows(refs, width):
+        lines, line, used = [], [], 0
+        for ref in refs:
+            w = len(ref) * char + 16
+            if line and used + w > width:
+                lines.append(line)
+                line, used = [], 0
+            line.append((ref, w))
+            used += w + 6
+        if line:
+            lines.append(line)
+        return lines
+
+    # measure first, then draw
+    layout, y = [], 150
+    for d, here in rows:
+        top = y
+        blocks = []
+        y += 8
+        for ev in here:
+            refs = [e["prophecy"].split(";")[0] for e in hung[ev["id"]]]
+            lines = chip_rows(refs, right - x0 - 10)
+            blocks.append((ev, lines, y))
+            y += 22 + len(lines) * 24
+        if not here:
+            y += 60 if d.get("sabbath") else 44
+        layout.append((d, top, y, blocks))
+        y += 10
+    h = y + 120
+    desc = (f"The {count} prophecies of Christ in this site's ledger that were fulfilled in His last week, on "
+            "the day and hour the site's chronology gives each event (AD 33, the Hebrew day running from "
+            f"evening to evening). {on_14} of them fall on one day, 14 Nisan, from the Last Supper on Thursday "
+            "evening to the burial before sunset on Friday. " +
+            "; ".join(f"{d['hebrew']}: " + ", ".join(f"{ev['label']} ({', '.join(e['prophecy'] for e in hung[ev['id']])})"
+                                                    for ev in here) for d, here in rows if here))
+    out = svg_open(h, "Passion Week: the prophecies, day by day", desc)
+    out += heading("The Prophecies of Passion Week", "each fulfilled prophecy on its day and hour, AD 33")
+    out.append(text(W / 2, 128, "the Hebrew day runs from sunset to sunset", 12.5, "middle", fill=MUTED, italic=True))
+    for d, top, bottom, blocks in layout:
+        key = d["k"] == 14
+        out.append(f'<rect x="{left}" y="{top}" width="{W - 2 * left}" height="{bottom - top}" rx="4" '
+                   f'fill="{RED_TINT if key else (EARTH_TINT if d.get("sabbath") else CARD)}" stroke="{RED if key else GREY}" '
+                   f'stroke-width="{1.6 if key else 0.8}"/>')
+        out.append(text(left + 12, top + 24, d["hebrew"], 15, weight="bold", fill=RED if key else INK))
+        weekday = d["daylight"].split(" ")[0]
+        out.append(text(left + 12, top + 42, weekday, 12.5, fill=MUTED, italic=True))
+        if key:
+            out.append(text(left + 12, top + 58, "from Thursday's", 12, fill=MUTED, italic=True))
+            out.append(text(left + 12, top + 73, "sunset", 12, fill=MUTED, italic=True))
+        if d.get("sabbath"):
+            out.append(text(left + 12, top + 58, "Sabbath", 12.5, fill=MUTED, italic=True))
+        if not blocks:
+            out.append(text(x0, top + 26, "no prophecy in the ledger is fulfilled on this day", 12, fill=MUTED, italic=True))
+        for ev, lines, by in blocks:
+            out.append(text(x0, by + 12, f"{clock(ev['at'])} · {ev['label']}", 12.5, weight="bold"))
+            cy = by + 20
+            for line in lines:
+                cx = x0
+                for ref, w in line:
+                    out.append(f'<rect x="{cx:.1f}" y="{cy}" width="{w:.1f}" height="19" rx="9.5" fill="{GOLD_TINT}" '
+                               f'stroke="{GOLD_EDGE}" stroke-width="0.9"/>')
+                    out.append(text(cx + w / 2, cy + 13.5, ref, 11.5, "middle"))
+                    cx += w + 6
+                cy += 24
+    y = h - 100
+    out.append(text(W / 2, y, f"{on_14} of the {count} fall on 14 Nisan, the day the Passover lambs were slain.", 13.5,
+                    "middle", "bold"))
+    out.append(text(W / 2, y + 30, "“For Christ, our Passover lamb, has been sacrificed.”", 15, "middle", italic=True))
+    out.append(text(W / 2, y + 50, "1 Corinthians 5:7 (BSB)", 12.5, "middle", fill=MUTED))
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+# The LORD's words said of Jesus: one row per ledger entry with yhwh_text, in canonical order of the
+# Old Testament text. The phrases are the BSB's, checked against bible-text.db 2026-11-26; the entry
+# id ties each row to the ledger, and the plate fails to build if an id is missing or unmarked.
+YHWH_PAIRS = [
+    ("first-and-last", "Isaiah 44:6", "“I am the first and I am the last”", "Revelation 1:17", "“I am the First and the Last”"),
+    ("isaiah-saw-his-glory", "Isaiah 6:5", "“my eyes have seen the King, the LORD of Hosts”", "John 12:41", "“he saw Jesus’ glory and spoke about Him”"),
+    ("lord-of-hosts-holy", "Isaiah 8:13", "“The LORD of Hosts is the One you shall regard as holy”", "1 Peter 3:15", "“in your hearts sanctify Christ as Lord”"),
+    ("stone-of-stumbling", "Isaiah 8:14", "the LORD of Hosts “a stone of stumbling and a rock of offense”", "Romans 9:33", "the stone; “the one who believes in Him”"),
+    ("voice-in-the-wilderness", "Isaiah 40:3", "“Prepare the way for the LORD”", "Mark 1:3", "“Prepare the way for the Lord”: John, before Jesus"),
+    ("his-reward-is-with-him", "Isaiah 40:10", "the Lord GOD: “His reward is with Him”", "Revelation 22:12", "“My reward is with Me”"),
+    ("every-knee-shall-bow", "Isaiah 45:23", "“Every knee will bow before Me”", "Philippians 2:10", "“at the name of Jesus every knee should bow”"),
+    ("the-branch", "Jeremiah 23:6", "“The LORD Our Righteousness”", "1 Corinthians 1:30", "“Christ Jesus, who has become for us… our righteousness”"),
+    ("call-on-the-name", "Joel 2:32", "“everyone who calls on the name of the LORD will be saved”", "Romans 10:9, 13", "“Jesus is Lord”… “the name of the Lord”"),
+    ("pierced-one", "Zechariah 12:10", "the LORD: “they will look on Me, the One they have pierced”", "John 19:37", "“They will look on the One they have pierced”"),
+    ("feet-on-the-mount-of-olives", "Zechariah 14:4", "the LORD: “His feet will stand on the Mount of Olives”", "Acts 1:11-12", "“This same Jesus… will come back”, from Olivet"),
+    ("messenger-before", "Malachi 3:1", "“prepare the way before Me”", "Matthew 11:10", "“prepare Your way before You”"),
+    ("king-of-glory", "Psalm 24:10", "“The LORD of Hosts—He is the King of Glory”", "1 Corinthians 2:8", "“they… crucified the Lord of glory”"),
+    ("you-laid-the-foundation", "Psalm 102:25", "“You laid the foundations of the earth”", "Hebrews 1:10", "said “about the Son” (1:8): “O Lord, You laid…”"),
+]
+
+
+def wrap(s, width_chars):
+    words, lines, line = s.split(), [], ""
+    for w in words:
+        if line and len(line) + 1 + len(w) > width_chars:
+            lines.append(line)
+            line = w
+        else:
+            line = f"{line} {w}".strip()
+    return lines + [line] if line else lines
+
+
+def the_lords_words():
+    entries = {e["id"]: e for e in tomllib.loads(LEDGER.read_text(encoding="utf-8"))["prophecy"]}
+    marked = {i for i, e in entries.items() if e.get("yhwh_text")}
+    rows = [r for r in YHWH_PAIRS if r[0] in entries]
+    missing = marked - {r[0] for r in rows}
+    if missing or len(rows) != len(YHWH_PAIRS) or any(r[0] not in marked for r in rows):
+        raise SystemExit(f"the-lords-words: the pairs and the ledger's yhwh_text entries differ ({sorted(missing)})")
+    left, mid, cw = 30, W / 2, 300
+    out_rows, y = [], 168
+    for _, ot_ref, ot, nt_ref, nt in rows:
+        a, b = wrap(ot, 44), wrap(nt, 44)
+        hgt = 26 + 16 * max(len(a), len(b))
+        out_rows.append((ot_ref, a, nt_ref, b, y, hgt))
+        y += hgt + 10
+    h = y + 110
+    desc = (f"{len(rows)} Old Testament texts that speak of the LORD (יהוה, YHWH), each set beside the New "
+            "Testament text that says the same words of Jesus. " +
+            "; ".join(f"{o} ({ot_ref}) is said of Jesus in {n_ref}: {n}" for _, ot_ref, o, n_ref, n in rows))
+    out = svg_open(h, "The LORD's words, said of Jesus", desc)
+    out += heading("The LORD’s Words, Said of Jesus", "what the prophets said of the LORD, the apostles say of Him")
+    out.append(text(left + cw / 2, 146, "OF THE LORD (יהוה)", 13, "middle", "bold", fill=GOLD_EDGE, spacing="1.5"))
+    out.append(text(W - left - cw / 2, 146, "OF JESUS", 13, "middle", "bold", fill=RED, spacing="1.5"))
+    for ot_ref, a, nt_ref, b, ry, hgt in out_rows:
+        out.append(f'<rect x="{left}" y="{ry}" width="{cw}" height="{hgt}" rx="5" fill="{GOLD_TINT}" stroke="{GOLD_EDGE}" stroke-width="1.1"/>')
+        out.append(f'<rect x="{W - left - cw}" y="{ry}" width="{cw}" height="{hgt}" rx="5" fill="{RED_TINT}" stroke="{RED}" stroke-width="1.1"/>')
+        out.append(text(left + 10, ry + 17, ot_ref, 12.5, weight="bold"))
+        out.append(text(W - left - cw + 10, ry + 17, nt_ref, 12.5, weight="bold"))
+        out += lines_at(left + 10, ry + 34, a, 12, step=16)
+        out += lines_at(W - left - cw + 10, ry + 34, b, 12, step=16)
+        ay = ry + hgt / 2
+        out.append(f'<path d="M{left + cw + 6} {ay} H{W - left - cw - 10}" stroke="{INK}" stroke-width="1.3"/>')
+        out.append(arrow_head(W - left - cw - 4, ay, 0, 8))
+    y = h - 84
+    out += lines_at(W / 2, y, ["“so that you may consider and believe Me and understand that I am He”"], 14,
+                    anchor="middle", italic=True)
+    out.append(text(W / 2, y + 20, "Isaiah 43:10 (BSB); “so that… you will believe that I am He” (John 13:19)", 12, "middle", fill=MUTED))
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+# Which text each New Testament writer's wording follows, over the ledger's uses that quote words
+# (`text` on each use). Writers grouped as the New Testament groups them; the order runs from the
+# Gospels to Revelation.
+WRITERS = [("Matthew", ("Matthew",)), ("Mark", ("Mark",)), ("Luke and Acts", ("Luke", "Acts")),
+           ("John", ("John",)), ("Paul", ("Romans", "1 Corinthians", "2 Corinthians", "Galatians",
+                                          "Ephesians", "Philippians", "Colossians", "1 Thessalonians",
+                                          "2 Thessalonians", "1 Timothy", "2 Timothy", "Titus")),
+           ("Hebrews", ("Hebrews",)), ("Peter", ("1 Peter", "2 Peter")), ("Revelation", ("Revelation",))]
+TEXTS = [("mt", "the Hebrew, rendered afresh", RED_TINT, RED), ("both", "both, where they agree", GOLD_TINT, GOLD_EDGE),
+         ("lxx", "the Septuagint's wording", BLUE_TINT, BLUE), ("neither", "neither", CARD, GREY)]
+
+
+def which_text():
+    entries = tomllib.loads(LEDGER.read_text(encoding="utf-8"))["prophecy"]
+    counts = {name: {k: 0 for k, *_ in TEXTS} for name, _ in WRITERS}
+    for e in entries:
+        for u in e.get("uses", []):
+            if u.get("text") in (None, "none"):
+                continue
+            book = re.match(r"((?:[12] )?[A-Z][a-z]+)", u["ref"])[1]
+            for name, books in WRITERS:
+                if book in books:
+                    counts[name][u["text"]] += 1
+    total = {name: sum(c.values()) for name, c in counts.items()}
+    all_uses = sum(total.values())
+    left, bar_x, bar_w, row = 36, 190, 420, 40
+    h = 150 + 70 + row * len(WRITERS) + 150
+    desc = (f"For the {all_uses} New Testament uses of the prophecies of Christ in this site's ledger that quote "
+            "words, which text each writer's wording follows: the Hebrew rendered afresh, the Septuagint, both "
+            "where they agree, or neither. " +
+            "; ".join(f"{name}: " + ", ".join(f"{counts[name][k]} {label}" for k, label, *_ in TEXTS)
+                      for name, _ in WRITERS))
+    out = svg_open(h, "Which text the New Testament follows", desc)
+    out += heading("Hebrew or Greek?", "which text each writer's wording follows, in the prophecies of Christ")
+    y = 140
+    for i, (k, label, fill, edge) in enumerate(TEXTS):
+        lx = left + 30 + (i % 2) * 330
+        ly = y + (i // 2) * 24
+        out.append(f'<rect x="{lx}" y="{ly - 12}" width="22" height="15" fill="{fill}" stroke="{edge}"/>')
+        out.append(text(lx + 30, ly, label, 12.5))
+    y += 76
+    for name, _ in WRITERS:
+        n = total[name]
+        out.append(text(bar_x - 12, y + 5, name, 14, "end", "bold"))
+        x = bar_x
+        for k, label, fill, edge in TEXTS:
+            c = counts[name][k]
+            if not c:
+                continue
+            w = bar_w * c / n
+            out.append(f'<rect x="{x:.1f}" y="{y - 12}" width="{w:.1f}" height="22" fill="{fill}" stroke="{edge}" stroke-width="1"/>')
+            if w >= 16:
+                out.append(text(x + w / 2, y + 4, str(c), 12, "middle", "bold"))
+            x += w
+        out.append(text(bar_x + bar_w + 10, y + 4, f"{n} uses", 12, fill=MUTED, italic=True))
+        y += row
+    y += 30
+    out += lines_at(W / 2, y, [
+        "Each bar is one writer's share; the figures count uses, and the ledger's are a sample of the",
+        "New Testament's quotations. Where the Greek misses the point, the apostles render the Hebrew",
+        "afresh: “pierced” (John 19:37), “the potter” (Matthew 27:10), “heel” (John 13:18)."], 12.5, anchor="middle")
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 CHARTS = {"where-jesus-stopped-reading": where_jesus_stopped_reading,
           "known-before-seen-after": known_before_seen_after,
-          "prophets-view-historys-view": prophets_view_historys_view}
+          "prophets-view-historys-view": prophets_view_historys_view,
+          "passion-week": passion_week,
+          "the-lords-words": the_lords_words,
+          "which-text": which_text}
 
 
 def main():

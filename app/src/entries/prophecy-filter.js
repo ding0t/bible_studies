@@ -74,3 +74,22 @@ if (bar && cards.length) {
   bar.hidden = false;
   update();
 }
+
+// The chance floor (hooks/prophecies.py, <!-- prophecies-of-christ: floor -->): the reader sets one
+// chance in k for each moment, and the page multiplies them. The hook counts the moments; this only
+// does the arithmetic, exactly, since k to the fourteenth overflows a float's exact range.
+const floor = document.querySelector('.pc-floor');
+if (floor) {
+  const n = Number(floor.dataset.n);
+  const slider = floor.querySelector('.pc-k');
+  const show = () => {
+    const k = Number(slider.value);
+    const odds = BigInt(k) ** BigInt(n);
+    floor.querySelector('.pc-k-out').textContent = String(k);
+    floor.querySelector('.pc-floor-result').textContent =
+      `With ${n} independent moments at one chance in ${k} each, the chance that all came to pass is ` +
+      `one in ${k}^${n}, that is one in ${odds.toLocaleString('en')}.`;
+  };
+  slider.addEventListener('input', show);
+  show();
+}

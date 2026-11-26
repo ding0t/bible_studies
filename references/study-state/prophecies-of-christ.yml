@@ -65,3 +65,13 @@ read_pass:
   recommended:
     - "the measures table opens its section with no lead-in claim; the dated sentence could precede it (moving a marker), or the author could write one line"
     - "a Study outline is below Check 22's bar (1,540 source words) and would repeat the grouped TOC; add one only if phone readers need a jump line to the subjects"
+innovations_2026_11_26:
+  asked: "the author: 'Start with 1 and 2 then commit push and do the others. 6. The probability. Use what makes logical sense. Yes seek the date data if we can find it'"
+  done:
+    - "1. a filter bar over the cards (app/src/entries/prophecy-filter.js; facets and labels in hooks/prophecies.py FACETS); checked in WebKit at phone width"
+    - "2. the verse pop-up shows a verse's prophecy of Christ and links its card (assets/popups/prophecies.json from the hook); each commentary chapter page lists the prophecies foretold and fulfilled in it"
+    - "3. passion-week.svg: every prophecy fulfilled that week on its day and hour; 35 passion-week entries given a passion_sequence event by reading the narrative (verse matching was a lead only)"
+    - "4. the-lords-words.svg: the 14 yhwh_text entries, BSB phrases verified; the plate fails to build if the pairs and the ledger disagree"
+    - "5. which-text.svg: Hebrew, Septuagint, both or neither, by New Testament writer"
+    - "6. the chance floor (hooks/prophecies.py floor_moments, UNSEEN with reasons): tier 1, fulfilled at least in part, dated, brought about by God, His opponents or the unaware, seen by witnesses; one trial per moment; the reader sets one chance in k for each"
+    - "dates: seven more entries dated from the New Testament's own words (elijah-before-the-day, let-another-take-his-office, blessed-is-he-who-comes, fruit-of-davids-body, all-things-under-his-feet, the-day-of-atonement, gold-and-frankincense); left undated, as about who He is or as allusions that fix no moment: the nature entries, lion-of-judah, star-out-of-jacob, the-branch, son-of-david-throne, seed-of-the-woman, his-name-wonderful, firstborn-highest-of-kings, key-of-david, david-my-servant-shepherd, jacobs-ladder, the-rock-was-christ, bread-from-heaven, stranger-to-my-brothers, i-and-the-children, booth-of-david-rebuilt (no event for the Jerusalem council in the chronology)"
