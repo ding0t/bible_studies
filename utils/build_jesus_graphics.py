@@ -171,7 +171,100 @@ def where_jesus_stopped_reading():
     return "\n".join(out)
 
 
-CHARTS = {"where-jesus-stopped-reading": where_jesus_stopped_reading}
+# Recognition, in the ledger's own words, with the fill each is drawn in. Known before is the solid
+# gold the larkin hand uses for what the text states; veiled is the paper the bar is drawn on.
+RECOGNITION = [
+    ("known-before", "read of the Messiah before Jesus", GOLD, GOLD_EDGE, False),
+    ("partly", "read of Him in part", GOLD_TINT, GOLD_EDGE, False),
+    ("read-after", "read of Him only in a later Jewish source", BLUE_TINT, BLUE, True),
+    ("veiled", "read of Him by no one, before Jesus or since", CARD, GREY, False),
+]
+CATEGORY_ROWS = [("lineage", "Lineage"), ("birth", "Birth"), ("childhood", "Childhood"),
+                 ("forerunner", "Forerunner"), ("nature", "Nature"), ("ministry", "Ministry"),
+                 ("office", "Prophet, priest, king"), ("passion", "Passion"),
+                 ("resurrection", "Resurrection"), ("redemption", "Redemption"), ("future", "Future")]
+CONTROL_ROWS = [("opponents", "His opponents"), ("unwitting", "Unwitting agents"),
+                ("followers", "His followers"), ("chosen", "Jesus, knowingly"),
+                ("divine", "God alone"), ("unfulfilled", "Still to come")]
+
+
+def known_before_seen_after():
+    entries = tomllib.loads(LEDGER.read_text(encoding="utf-8"))["prophecy"]
+
+    def counts(field, key):
+        mine = [e for e in entries if e.get(field) == key]
+        return [sum(1 for e in mine if e["recognition"] == r[0]) for r in RECOGNITION]
+
+    cat = [(label, counts("category", key)) for key, label in CATEGORY_ROWS]
+    ctl = [(label, counts("control", key)) for key, label in CONTROL_ROWS]
+    total = len(entries)
+    known = sum(1 for e in entries if e["recognition"] == "known-before")
+    h = 1110
+    desc = ("A chart of the " + str(total) + " Old Testament prophecies of Christ in this site's ledger, "
+            "by whether anyone read each one of the Messiah before Jesus. By subject: " +
+            "; ".join(f"{label}: {c[0]} of {sum(c)} known before, {c[1]} in part, {c[2]} read only "
+                      f"later, {c[3]} veiled" for label, c in cat) +
+            ". By who brought the fulfilment about: " +
+            "; ".join(f"{label}: {c[0]} of {sum(c)} known before" for label, c in ctl) +
+            ". The prophecies of His line and reign were known; the prophecies of His suffering, and "
+            "every prophecy His opponents fulfilled, were not. Luke 24:45: Then He opened their minds "
+            "to understand the Scriptures.")
+    out = svg_open(h, "Known before, seen after", desc)
+    out += heading("Known Before, Seen After", f"{total} prophecies of Christ: who read them of the Messiah, and when")
+
+    left, bar_x, bar_w, row = 36, 230, 380, 34
+    unit = bar_w / max(sum(c) for _, c in cat + ctl)
+
+    def bars(y, rows, title, note):
+        parts = [text(W / 2, y, title, 15, "middle", "bold", spacing="2"),
+                 text(W / 2, y + 20, note, 12.5, "middle", fill=MUTED, italic=True)]
+        y += 52
+        for label, c in rows:
+            parts.append(text(bar_x - 12, y + 5, label, 14, "end", "bold"))
+            x = bar_x
+            for n, (_, _, fill, edge, dashed) in zip(c, RECOGNITION):
+                if not n:
+                    continue
+                w = n * unit
+                dash = ' stroke-dasharray="4 3"' if dashed else ""
+                parts.append(f'<rect x="{x:.1f}" y="{y - 12}" width="{w:.1f}" height="22" fill="{fill}" '
+                             f'stroke="{edge}" stroke-width="1.1"{dash}/>')
+                if w >= 16:
+                    parts.append(text(x + w / 2, y + 4, str(n), 12, "middle", "bold",
+                                      fill=INK if fill != CARD else GREY))
+                x += w
+            parts.append(text(x + 8, y + 4, f"{c[0]} of {sum(c)}", 12, fill=GOLD_EDGE if c[0] else RED,
+                              italic=True))
+            y += row
+        return parts, y
+
+    y = 118
+    for i, (_, label, fill, edge, dashed) in enumerate(RECOGNITION):
+        lx, ly = (left + 20, y + i // 2 * 26) if i % 2 == 0 else (W / 2 + 10, y + i // 2 * 26)
+        dash = ' stroke-dasharray="4 3"' if dashed else ""
+        out.append(f'<rect x="{lx}" y="{ly - 12}" width="22" height="16" fill="{fill}" stroke="{edge}"{dash}/>')
+        out.append(text(lx + 30, ly + 1, label, 12.5))
+    parts, y = bars(y + 80, cat, "BY SUBJECT", "the right-hand figure counts the prophecies known before")
+    out += parts
+    parts, y = bars(y + 34, ctl, "BY WHO FULFILLED IT", "those who brought each fulfilment about")
+    out += parts
+
+    y += 22
+    out.append(f'<path d="M{W / 2 - 150} {y} H{W / 2 + 150}" stroke="{INK}" stroke-width="0.8"/>')
+    out += lines_at(W / 2, y + 34, ["“The people of Jerusalem and their rulers did not recognize Jesus, yet",
+                                    "in condemning Him they fulfilled the words of the prophets”"],
+                    14, anchor="middle", italic=True)
+    out.append(text(W / 2, y + 76, "Acts 13:27 (BSB)", 12.5, "middle", fill=MUTED))
+    out.append(text(W / 2, y + 110, "“Then He opened their minds to understand the Scriptures.”", 15,
+                    "middle", italic=True))
+    out.append(text(W / 2, y + 130, "Luke 24:45 (BSB)", 12.5, "middle", fill=MUTED))
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
+CHARTS = {"where-jesus-stopped-reading": where_jesus_stopped_reading,
+          "known-before-seen-after": known_before_seen_after}
 
 
 def main():

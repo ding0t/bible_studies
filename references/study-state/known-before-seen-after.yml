@@ -1,0 +1,81 @@
+# Session 10 of Prophecy and Jesus (references/study-state/prophecy-and-jesus.yml). The data is
+# docs/data/prophecies-of-christ.toml: recognition, recognition_evidence, control, understood_after.
+
+slug: "known-before-seen-after"
+title: "Known Before, Seen After"
+status: drafting
+target_path: "docs/content/jesus/known-before-seen-after.md"
+
+primary_passage: "Luke 24:25-27, 44-46; Acts 13:27"
+supporting_passages: ["John 12:34", "Matthew 16:21-22", "Luke 18:34", "Acts 3:17-18", "1 Corinthians 2:7-8", "1 Peter 1:10-12", "John 2:22", "John 12:16", "John 20:9", "Matthew 2:4-6", "John 7:42", "John 1:21", "Acts 2:23", "Acts 4:27-28"]
+sibling_studies:
+  - {slug: "scripture/what-literary-criticism-declares", role: cited, use: link, note: "covers 1 Peter 1:10-11 (writers who did not see the whole) and prophecies written and copied before the events; cover in a sentence and link"}
+  - {slug: "series/the-gospel-in-the-old-testament", role: primary, use: link, note: "Luke 24:25-27 as the series' text; the types it treats are veiled entries here"}
+  - {slug: "jesus/where-jesus-stopped-reading", role: cited, use: link, note: "draft: link only once it is published (Check 24)"}
+genre: [topical, gospel]
+
+thesis: >-
+  Before Jesus came, Israel read the prophecies of the Messiah's line and reign as His, and read
+  none of the prophecies of His suffering so; His opponents fulfilled the hidden ones without knowing
+  it (Acts 13:27), and the risen Christ opened the Scriptures to show that the sufferings came first
+  and then the glory (Luke 24:26, 45). So the cross was not staged, and you can read the whole of it
+  now.
+outline:
+  - {section: "hook", says: "John 12:34: the crowd knew 'the Christ will remain forever' and could not fit 'lifted up'"}
+  - {section: "Key Takeaways", says: ""}
+  - {section: "What 'known before' means", says: "read of the Messiah by a witness older than Jesus: Qumran, the Psalms of Solomon, the Septuagint, the New Testament reporting settled belief; the Targums dated and counted apart; 'written before' is What Literary Criticism Declares' question, linked"}
+  - {section: "Known before: the line and the reign", says: "Bethlehem (Matthew 2:4-6), the son of David (John 7:42), the Branch (4Q174; 4Q252), the Prophet (John 1:21; 4Q175), Elijah (Mark 9:11; Sirach 48:10): lineage 6 of 8"}
+  - {section: "Hidden: the suffering", says: "passion 0 of 26 known before; Peter's 'Far be it from You' (Matthew 16:22); 'the meaning was hidden from them' (Luke 18:34); even the later Targum turns Isaiah 53's wounds away"}
+  - {section: "Done by those who did not know", says: "of 19 fulfilled by His opponents, none known before; Acts 13:27; 3:17-18; 1 Corinthians 2:8. What that says to 'it was staged', and the honest exceptions He chose knowingly (the donkey; John 19:28)"}
+  - {section: "Seen after", says: "the six texts that say so (John 2:22; 12:16; 20:9; Luke 18:34; 24:45; John 7:39); 'He opened their minds' (Luke 24:45); the order: suffer, then glory (Luke 24:26; 1 Peter 1:11)"}
+  - {section: "Why God hid it", says: "the hidden wisdom destined for our glory (1 Corinthians 2:7-8); His set purpose working through ignorance (Acts 2:23; 4:27-28); and the prophecies still ahead, known before and read now with opened minds"}
+  - {section: "Discussion questions; References", says: ""}
+word_budget: 4000
+word_budget_reason: ""
+
+graphic: >-
+  A relationship chart drawn from the ledger (utils/build_jesus_graphics.py): for each category, the
+  entries known before, partly, read after and veiled, so the lineage row and the passion row are
+  seen side by side; and a second panel, control against recognition (opponents: none known before).
+
+method_doc: >-
+  Session 10's other task: write the counted features into prophecy-method.md (the opponents fulfil
+  most of the passion; the Hebrew rendered afresh where the Septuagint misses the point; omissions
+  that respect the near referent, John 13:18 and Hebrews 1:5; the change of person at Matthew 26:31;
+  the 'more than the first person' test; and the recognition pattern this study counts).
+
+stages:
+  scoping: {done: true, notes: "data cross-tabulated 2026-11-26 from the ledger after session 8's recognition pass"}
+  exegesis:
+    historical_context: {done: true, notes: "the witnesses and their dates are in the project state file (sessions 8) and sources.toml"}
+    literary_context: {done: true, notes: "Luke 24 frames Luke-Acts' reading of the prophets: Luke 24:25-27, 44-46 -> Acts 3:17-18; 13:27"}
+    content_word_studies: {done: false, notes: "candidates: παρακεκαλυμμένον (Luke 18:34 'hidden'), διήνοιξεν (Luke 24:45 'opened'), ἀγνοέω/ἄγνοια (Acts 3:17; 13:27)", terms: []}
+  hermeneutics:
+    cultural_vs_transcultural: {done: false, notes: ""}
+    theological_principle: {done: false, notes: ""}
+    application_draft: {done: false, notes: ""}
+  cross_reference: {done: false, cross_refs: [], translations_compared: [], divergences_noted: ""}
+  drafting: {done: true, file: "docs/content/jesus/known-before-seen-after.md"}
+  review: {done: false, validated: false}
+
+data:  # computed 2026-11-26 from docs/data/prophecies-of-christ.toml; recompute before drafting
+  by_category: {lineage: "6 known-before of 8", passion: "0 known-before of 26 (2 partly, 1 read-after, 23 veiled)", future: "3 of 16", nature: "1 of 14", ministry: "2 of 13", resurrection: "1 of 13"}
+  by_control: {opponents: "0 known-before of 19", divine: "14 of 58", chosen: "1 of 18"}
+  understood_after: ["king-on-donkey: John 12:16", "not-abandoned: John 20:9", "zeal-for-your-house: John 2:17, 22", "gave-my-back-to-those-who-strike: Luke 18:34", "on-the-third-day: Luke 24:45-46", "rivers-of-living-water: John 7:39"]
+
+open_questions:
+  - "a chosen known-before entry exists (1): check which, and say how it fits the 'chosen' exceptions"
+  - "the counts move whenever the ledger changes: the chart reads the ledger, and the prose should cite counts the chart shows"
+resources_consulted: []
+last_updated: "2026-11-26"
+evidence:
+  - {id: acts13-27-agnoeo, what: "Acts 13:27: the rulers 'did not recognize' (agnoeo) and fulfilled the prophets", tool: bible_verse, args: {book: Acts, chapter: 13, verse: 27, translation: sblgnt}, expect_contains: "τοῦτον ἀγνοήσαντες", checked: 2026-11-26}
+  - {id: luke9-45-agnoeo, what: "Luke 9:45: the disciples 'did not understand' (agnoeo); veiled 'so that' (hina me)", tool: bible_verse, args: {book: Luke, chapter: 9, verse: 45, translation: sblgnt}, expect_contains: "ἵνα μὴ αἴσθωνται", checked: 2026-11-26}
+  - {id: luke18-34-hidden, what: "Luke 18:34: the meaning was hidden", tool: bible_verse, args: {book: Luke, chapter: 18, verse: 34, translation: BSB}, expect_contains: "The meaning was hidden from them", checked: 2026-11-26}
+  - {id: luke24-45-opened, what: "Luke 24:45: He opened (dianoigo) their minds", tool: bible_verse, args: {book: Luke, chapter: 24, verse: 45, translation: sblgnt}, expect_contains: "διήνοιξεν αὐτῶν τὸν νοῦν", checked: 2026-11-26}
+  - {id: luke24-32-opened-scriptures, what: "Luke 24:32: He opened the Scriptures", tool: bible_verse, args: {book: Luke, chapter: 24, verse: 32, translation: sblgnt}, expect_contains: "διήνοιγεν ἡμῖν τὰς γραφάς", checked: 2026-11-26}
+  - {id: john12-34-remain, what: "John 12:34: the Christ will remain forever", tool: bible_verse, args: {book: John, chapter: 12, verse: 34, translation: BSB}, expect_contains: "the Christ will remain forever", checked: 2026-11-26}
+  - {id: 1cor2-8-rulers, what: "1 Corinthians 2:8: none of the rulers understood", tool: bible_verse, args: {book: 1Cor, chapter: 2, verse: 8, translation: BSB}, expect_contains: "None of the rulers of this age understood it", checked: 2026-11-26}
+  - {id: acts17-3-explaining, what: "Acts 17:3: the Christ had to suffer", tool: bible_verse, args: {book: Acts, chapter: 17, verse: 3, translation: BSB}, expect_contains: "the Christ had to suffer and rise from the dead", checked: 2026-11-26}
+  - {id: 4q252-gen49, what: "4Q252 v 3 (Genesis 49:10)", tool: dss_text, args: {scroll: "4Q252", fragment: "5", line: "3"}, expect_contains: "עד בוא משיח הצדק צמח", checked: 2026-11-26}
+  - {id: psssol17-26-rod, what: "Psalms of Solomon 17:26: rod of iron", tool: bible_verse, args: {book: PsSol, chapter: 17, verse: 26, translation: swete-lxx}, expect_contains: "σιδηρῷ", checked: 2026-11-26}

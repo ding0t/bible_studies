@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1110" font-family="Georgia, 'Times New Roman', serif" role="img" aria-labelledby="t d">
+<title id="t">Known before, seen after</title>
+<desc id="d">A chart of the 118 Old Testament prophecies of Christ in this site's ledger, by whether anyone read each one of the Messiah before Jesus. By subject: Lineage: 6 of 8 known before, 0 in part, 1 read only later, 1 veiled; Birth: 1 of 3 known before, 1 in part, 0 read only later, 1 veiled; Childhood: 1 of 5 known before, 0 in part, 0 read only later, 4 veiled; Forerunner: 1 of 3 known before, 2 in part, 0 read only later, 0 veiled; Nature: 1 of 14 known before, 0 in part, 2 read only later, 11 veiled; Ministry: 2 of 13 known before, 0 in part, 2 read only later, 9 veiled; Prophet, priest, king: 2 of 10 known before, 0 in part, 1 read only later, 7 veiled; Passion: 0 of 26 known before, 2 in part, 1 read only later, 23 veiled; Resurrection: 1 of 13 known before, 0 in part, 1 read only later, 11 veiled; Redemption: 2 of 7 known before, 0 in part, 0 read only later, 5 veiled; Future: 3 of 16 known before, 1 in part, 2 read only later, 10 veiled. By who brought the fulfilment about: His opponents: 0 of 19 known before; Unwitting agents: 1 of 4 known before; His followers: 0 of 2 known before; Jesus, knowingly: 1 of 18 known before; God alone: 14 of 58 known before; Still to come: 4 of 17 known before. The prophecies of His line and reign were known; the prophecies of His suffering, and every prophecy His opponents fulfilled, were not. Luke 24:45: Then He opened their minds to understand the Scriptures.</desc>
+<rect width="720" height="1110" fill="#faf6ec"/>
+<rect x="8" y="8" width="704" height="1094" fill="none" stroke="#3b2f1e" stroke-width="2.5"/>
+<rect x="14" y="14" width="692" height="1082" fill="none" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="50.0" font-size="26" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">KNOWN BEFORE, SEEN AFTER</text>
+<text x="360.0" y="78.0" font-size="15" fill="#6b5a3e" text-anchor="middle" font-style="italic">118 prophecies of Christ: who read them of the Messiah, and when</text>
+<path d="M210.0 92 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<circle cx="360.0" cy="92" r="3" fill="#3b2f1e"/>
+<rect x="56" y="106" width="22" height="16" fill="#e8c46a" stroke="#a67c3d"/>
+<text x="86.0" y="119.0" font-size="12.5" fill="#3b2f1e">read of the Messiah before Jesus</text>
+<rect x="370.0" y="106" width="22" height="16" fill="#f6ecd0" stroke="#a67c3d"/>
+<text x="400.0" y="119.0" font-size="12.5" fill="#3b2f1e">read of Him in part</text>
+<rect x="56" y="132" width="22" height="16" fill="#e3e9f2" stroke="#2f4f7f" stroke-dasharray="4 3"/>
+<text x="86.0" y="145.0" font-size="12.5" fill="#3b2f1e">read of Him only in a later Jewish source</text>
+<rect x="370.0" y="132" width="22" height="16" fill="#fffdf7" stroke="#9a8b72"/>
+<text x="400.0" y="145.0" font-size="12.5" fill="#3b2f1e">read of Him by no one, before Jesus or since</text>
+<text x="360.0" y="198.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">BY SUBJECT</text>
+<text x="360.0" y="218.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">the right-hand figure counts the prophecies known before</text>
+<text x="218.0" y="255.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Lineage</text>
+<rect x="230.0" y="238" width="39.3" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<text x="249.7" y="254.0" font-size="12" fill="#3b2f1e" text-anchor="middle" font-weight="bold">6</text>
+<rect x="269.3" y="238" width="6.6" height="22" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="275.9" y="238" width="6.6" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="290.4" y="254.0" font-size="12" fill="#a67c3d" font-style="italic">6 of 8</text>
+<text x="218.0" y="289.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Birth</text>
+<rect x="230.0" y="272" width="6.6" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="236.6" y="272" width="6.6" height="22" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="243.1" y="272" width="6.6" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="257.7" y="288.0" font-size="12" fill="#a67c3d" font-style="italic">1 of 3</text>
+<text x="218.0" y="323.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Childhood</text>
+<rect x="230.0" y="306" width="6.6" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="236.6" y="306" width="26.2" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="249.7" y="322.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">4</text>
+<text x="270.8" y="322.0" font-size="12" fill="#a67c3d" font-style="italic">1 of 5</text>
+<text x="218.0" y="357.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Forerunner</text>
+<rect x="230.0" y="340" width="6.6" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="236.6" y="340" width="13.1" height="22" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.1"/>
+<text x="257.7" y="356.0" font-size="12" fill="#a67c3d" font-style="italic">1 of 3</text>
+<text x="218.0" y="391.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Nature</text>
+<rect x="230.0" y="374" width="6.6" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="236.6" y="374" width="13.1" height="22" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="249.7" y="374" width="72.1" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="285.7" y="390.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">11</text>
+<text x="329.7" y="390.0" font-size="12" fill="#a67c3d" font-style="italic">1 of 14</text>
+<text x="218.0" y="425.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Ministry</text>
+<rect x="230.0" y="408" width="13.1" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="243.1" y="408" width="13.1" height="22" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="256.2" y="408" width="59.0" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="285.7" y="424.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">9</text>
+<text x="323.2" y="424.0" font-size="12" fill="#a67c3d" font-style="italic">2 of 13</text>
+<text x="218.0" y="459.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Prophet, priest, king</text>
+<rect x="230.0" y="442" width="13.1" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="243.1" y="442" width="6.6" height="22" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="249.7" y="442" width="45.9" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="272.6" y="458.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">7</text>
+<text x="303.5" y="458.0" font-size="12" fill="#a67c3d" font-style="italic">2 of 10</text>
+<text x="218.0" y="493.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Passion</text>
+<rect x="230.0" y="476" width="13.1" height="22" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="243.1" y="476" width="6.6" height="22" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="249.7" y="476" width="150.7" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="325.0" y="492.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">23</text>
+<text x="408.3" y="492.0" font-size="12" fill="#8b1e1e" font-style="italic">0 of 26</text>
+<text x="218.0" y="527.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Resurrection</text>
+<rect x="230.0" y="510" width="6.6" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="236.6" y="510" width="6.6" height="22" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="243.1" y="510" width="72.1" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="279.1" y="526.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">11</text>
+<text x="323.2" y="526.0" font-size="12" fill="#a67c3d" font-style="italic">1 of 13</text>
+<text x="218.0" y="561.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Redemption</text>
+<rect x="230.0" y="544" width="13.1" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="243.1" y="544" width="32.8" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="259.5" y="560.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">5</text>
+<text x="283.9" y="560.0" font-size="12" fill="#a67c3d" font-style="italic">2 of 7</text>
+<text x="218.0" y="595.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Future</text>
+<rect x="230.0" y="578" width="19.7" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<text x="239.8" y="594.0" font-size="12" fill="#3b2f1e" text-anchor="middle" font-weight="bold">3</text>
+<rect x="249.7" y="578" width="6.6" height="22" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="256.2" y="578" width="13.1" height="22" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="269.3" y="578" width="65.5" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="302.1" y="594.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">10</text>
+<text x="342.8" y="594.0" font-size="12" fill="#a67c3d" font-style="italic">3 of 16</text>
+<text x="360.0" y="658.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-weight="bold" letter-spacing="2">BY WHO FULFILLED IT</text>
+<text x="360.0" y="678.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle" font-style="italic">those who brought each fulfilment about</text>
+<text x="218.0" y="715.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">His opponents</text>
+<rect x="230.0" y="698" width="13.1" height="22" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="243.1" y="698" width="13.1" height="22" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="256.2" y="698" width="98.3" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="305.3" y="714.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">15</text>
+<text x="362.5" y="714.0" font-size="12" fill="#8b1e1e" font-style="italic">0 of 19</text>
+<text x="218.0" y="749.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Unwitting agents</text>
+<rect x="230.0" y="732" width="6.6" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="236.6" y="732" width="6.6" height="22" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="243.1" y="732" width="13.1" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="264.2" y="748.0" font-size="12" fill="#a67c3d" font-style="italic">1 of 4</text>
+<text x="218.0" y="783.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">His followers</text>
+<rect x="230.0" y="766" width="13.1" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="251.1" y="782.0" font-size="12" fill="#8b1e1e" font-style="italic">0 of 2</text>
+<text x="218.0" y="817.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Jesus, knowingly</text>
+<rect x="230.0" y="800" width="6.6" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="236.6" y="800" width="13.1" height="22" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="249.7" y="800" width="6.6" height="22" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="256.2" y="800" width="91.7" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="302.1" y="816.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">14</text>
+<text x="355.9" y="816.0" font-size="12" fill="#a67c3d" font-style="italic">1 of 18</text>
+<text x="218.0" y="851.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">God alone</text>
+<rect x="230.0" y="834" width="91.7" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<text x="275.9" y="850.0" font-size="12" fill="#3b2f1e" text-anchor="middle" font-weight="bold">14</text>
+<rect x="321.7" y="834" width="6.6" height="22" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1.1"/>
+<rect x="328.3" y="834" width="32.8" height="22" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.1" stroke-dasharray="4 3"/>
+<text x="344.7" y="850.0" font-size="12" fill="#3b2f1e" text-anchor="middle" font-weight="bold">5</text>
+<rect x="361.0" y="834" width="249.0" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="485.5" y="850.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">38</text>
+<text x="618.0" y="850.0" font-size="12" fill="#a67c3d" font-style="italic">14 of 58</text>
+<text x="218.0" y="885.0" font-size="14" fill="#3b2f1e" text-anchor="end" font-weight="bold">Still to come</text>
+<rect x="230.0" y="868" width="26.2" height="22" fill="#e8c46a" stroke="#a67c3d" stroke-width="1.1"/>
+<text x="243.1" y="884.0" font-size="12" fill="#3b2f1e" text-anchor="middle" font-weight="bold">4</text>
+<rect x="256.2" y="868" width="13.1" height="22" fill="#e3e9f2" stroke="#2f4f7f" stroke-width="1.1" stroke-dasharray="4 3"/>
+<rect x="269.3" y="868" width="72.1" height="22" fill="#fffdf7" stroke="#9a8b72" stroke-width="1.1"/>
+<text x="305.3" y="884.0" font-size="12" fill="#9a8b72" text-anchor="middle" font-weight="bold">11</text>
+<text x="349.4" y="884.0" font-size="12" fill="#a67c3d" font-style="italic">4 of 17</text>
+<path d="M210.0 936 H510.0" stroke="#3b2f1e" stroke-width="0.8"/>
+<text x="360.0" y="970.0" font-size="14" fill="#3b2f1e" text-anchor="middle" font-style="italic">“The people of Jerusalem and their rulers did not recognize Jesus, yet</text>
+<text x="360.0" y="988.2" font-size="14" fill="#3b2f1e" text-anchor="middle" font-style="italic">in condemning Him they fulfilled the words of the prophets”</text>
+<text x="360.0" y="1012.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">Acts 13:27 (BSB)</text>
+<text x="360.0" y="1046.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">“Then He opened their minds to understand the Scriptures.”</text>
+<text x="360.0" y="1066.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">Luke 24:45 (BSB)</text>
+<text x="696.0" y="1088.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
+</svg>

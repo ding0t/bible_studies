@@ -159,3 +159,33 @@ Use one of five labels and say which one applies:
 
 Check the conclusion against [statement-of-faith.md](../../../docs/content/about/statement-of-faith.md)
 only after the ledger is done (SKILL.md Phase 5).
+
+## 9. What the ledger has shown: features to look for
+
+The ledger of the Old Testament's prophecies of Christ (`docs/data/prophecies-of-christ.toml`, 118
+entries) turned up features that recur. Look for each when reading a prophecy. The counts are as of
+2026-11-26; recount from the ledger before a study prints one.
+
+- **Who fulfilled it.** His opponents fulfilled 15 of the 26 passion prophecies (`control`), and none
+  of the 19 prophecies His opponents fulfilled was read of the Messiah before Jesus: "in condemning
+  Him they fulfilled the words of the prophets" (Acts 13:27, BSB). An act done by people who did not
+  know the text could not be arranged by them.
+- **What was known, and what was hidden.** The line and the reign were read of the Messiah before
+  Jesus (lineage, 6 of 8 known before); the suffering was not (passion, 0 of 26). Six entries carry
+  a New Testament text saying it was understood only afterwards (John 2:22; 12:16; 20:9; Luke
+  18:34; 24:45). Fill `recognition` and `understood_after` from section 6's witnesses.
+- **Which text the quotation follows.** Of 120 quoting uses, 50 follow the Septuagint, 29 agree with
+  both texts, 17 render the Hebrew afresh and 24 follow neither. The fresh renderings cluster where
+  the Septuagint misses the point: "pierced" (John 19:37), "the potter" (Matthew 27:10), "heel"
+  (John 13:18), "with the lawless" (Luke 22:37). Compare every quotation with both.
+- **The omission that respects the near referent.** John 13:18 leaves out "whom I trusted" (Psalm
+  41:9), and Hebrews 1:5 leaves out "When he does wrong" (2 Samuel 7:14). The quotation keeps the
+  part that outruns the first speaker: test each quoted line for what is more than the first person
+  could say of himself (section 4).
+- **A change of person.** Zechariah 13:7 commands "Strike the shepherd"; Matthew 26:31 has "I will
+  strike", naming God as the agent.
+- **The LORD's text becomes Jesus' text.** Fourteen entries (`yhwh_text`): Isaiah 8:13 at 1 Peter
+  3:15, Malachi 3:1's "before Me" as "before You", Isaiah 40:3's "our God" as "His".
+- **The split.** Seventeen entries hold both comings in one prophecy. The divider is often "until"
+  (Micah 5:3; Hosea 5:15; Psalm 110:1 with Hebrews 10:12-13; Matthew 23:39), or Jesus stopping
+  short (Luke 4:19; Matthew 11:5). Fill `split.signal` with the word that shows the join (section 5).

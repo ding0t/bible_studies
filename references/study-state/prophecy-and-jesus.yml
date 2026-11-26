@@ -183,9 +183,19 @@ sessions:
       the Targum of Isaiah 53 gives the servant's exaltation to the Messiah and turns the wounds
       to the temple 'profaned on account of our sins' (53:5).
   - n: 9
-    plan: "study: Where Jesus Stopped Reading (Isaiah 61:1-2 at Luke 4:16-21), via develop-bible-study"
+    date: 2026-11-26
+    done: >-
+      Where Jesus Stopped Reading drafted (docs/content/jesus/where-jesus-stopped-reading.md, draft),
+      with a plate (utils/build_jesus_graphics.py); reviewed and read by subagents; three commits.
+      State: references/study-state/where-jesus-stopped-reading.yml. Waits on the author's read.
   - n: 10
-    plan: "study: Known Before, Seen After; the counted features written into prophecy-method.md"
+    date: 2026-11-26
+    done: >-
+      Known Before, Seen After drafted (docs/content/jesus/known-before-seen-after.md, draft), with a
+      chart drawn from the ledger; the counted features written into prophecy-method.md section 9.
+      Found: passion 0 of 26 known before, lineage 6 of 8, opponents 0 of 19; Luke uses ἀγνοέω for
+      the disciples (9:45) and the rulers (Acts 13:27); διανοίγω three times in Luke 24. State:
+      references/study-state/known-before-seen-after.yml. Next: review and read passes.
   - n: 11
     plan: "generator hook and reference page, the span chart (prophet's view / history's view), the series hub"
   - n: 12
