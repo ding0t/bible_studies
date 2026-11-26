@@ -1070,7 +1070,9 @@ recognition_evidence = [
 event = "anchor_39"
 future_event = "second_coming"
 split = { first = "Isaiah 61:1-2a ('to proclaim the year of the LORD's favor', BSB)", rest = "Isaiah 61:2b-3 ('and the day of our God's vengeance, to comfort all who mourn', BSB)", at = "Luke 4:19-21", signal = "Contested, give both sides. For the join: 'year' of favour beside 'day' of vengeance; the servant who suffers before he is exalted (Isaiah 52:13-53:12); Psalm 110:1's 'until'. Against reading 'year' and 'day' as two eras: Isaiah 34:8 ('a day of vengeance, a year of recompense', BSB) and 63:4 ('the day of vengeance… the year of My redemption', BSB) pair them on one side of God's act" }
-notes = "Jesus found the place (Luke 4:17), shaped the reading (one line left out, one line from Isaiah 58:6 brought in), and stopped mid-verse: control 'chosen'. The stop is part of a deliberate edit. Anchor of the study 'Where Jesus Stopped Reading' (session 9). lead: 11QMelchizedek (11Q13) reads Isaiah 61 with the jubilee and Daniel's weeks before Christ."
+near = "the prophet himself, sent to comfort the mourners of Zion after the ruin (Isaiah 61:3-4); the Targum opens the chapter 'The prophet said'"
+exceeds = "the speaker brings the year of favour and the day of vengeance, which Isaiah gives to God alone ('the day of vengeance was in My heart, and the year of My redemption had come', Isaiah 63:4, BSB), and he carries the Spirit as the Branch (Isaiah 11:2) and the Servant (Isaiah 42:1)"
+notes = "Jesus found the place (Luke 4:17), shaped the reading (one line left out, one line from Isaiah 58:6 brought in), and stopped mid-verse: control 'chosen'. The stop is part of a deliberate edit. Anchor of the study 'Where Jesus Stopped Reading' (session 9). 11Q13 ii (before Christ) reads Isaiah 61's year of favour and its vengeance as one act of Melchizedek (II 9, 13); 4Q521 2 ii has Matthew 11:5's list; checked in session 8."
 
 [[prophecy]]
 id = "my-servant-whom-i-uphold"

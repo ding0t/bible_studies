@@ -1,0 +1,115 @@
+# Session 9 of Prophecy and Jesus (references/study-state/prophecy-and-jesus.yml). The ledger
+# entry is spirit-of-the-lord-on-me in docs/data/prophecies-of-christ.toml.
+
+slug: "where-jesus-stopped-reading"
+title: "Where Jesus Stopped Reading"
+status: drafting
+target_path: "docs/content/jesus/where-jesus-stopped-reading.md"
+
+primary_passage: "Isaiah 61:1-3; Luke 4:16-30"
+supporting_passages: ["Isaiah 58:6", "Isaiah 35:4-6", "Matthew 11:2-6", "Luke 7:18-23", "Isaiah 34:8", "Isaiah 63:4", "Luke 3:7-17", "2 Corinthians 6:2", "Revelation 6:17"]
+sibling_studies:
+  - {slug: "scripture/melchizedek-in-second-temple-judaism", role: cited, use: link, note: "covers 11Q13 ii in depth (liberty, the year of favour for Melchizedek, the vengeance at II 13, DJD 23 line numbers). Cover the scroll in two sentences and link; this study adds that the scroll keeps favour and vengeance in one act"}
+  - {slug: "last-things/immediately-after", role: cited, use: link, note: "uses the stop as its example of a gap inside one sentence; this study is the full treatment"}
+  - {slug: "last-things/the-thousand-years", role: cited, use: link, note: "Isaiah 61:4's rebuilding follows the vengeance in Isaiah's order"}
+  - {slug: "last-things/ezekiels-temple", role: cited, use: none, note: "draft: never link it from a published page (Check 24)"}
+  - {slug: "scripture/verses-often-misquoted", role: cited, use: enrich, note: "Isaiah 58:6 in context: the bonds are the fasters' own workers. Luke 4:18 splices that line in; offer the back-link"}
+  - {slug: "holy-spirit/names-of-the-holy-spirit", role: cited, use: none, note: "quotes Luke 4:18 for the Spirit's anointing only"}
+  - {slug: "christian-life/fasting", role: cited, use: none, note: "Isaiah 58 for fasting"}
+genre: [prophets, gospel]
+
+thesis: >-
+  At Nazareth Jesus read Isaiah 61 as His own commission, shaped it to say what began that day
+  (release, Luke's word for the forgiveness of sins, proclaimed to the poor and, as the synagogue
+  heard with rage, to the Gentiles) and closed the scroll before "the day of vengeance", which waits
+  for His return; the year of the Lord's favour is now.
+outline:
+  - {section: "hook", says: "the scroll rolled up in the middle of a sentence"}
+  - {section: "Key Takeaways", says: "types and prophecy, lessons about Jesus, memory verses, Be Transformed, prayer"}
+  - {section: "A Sabbath in Nazareth", says: "stand to read, sit to teach; the Law and the Prophets (Acts 13:15); the Mishnah allows a skip in the Prophets (Megillah 4:4); the interpreter's Aramaic is the Targum"}
+  - {section: "Isaiah 61 in Isaiah", says: "the Spirit-anointed speaker (11:2; 42:1; 48:16) whom the Targum gives to the prophet; the Jubilee's derôr (link Melchizedek); in Isaiah's poetry the year and the day are one time (34:8; 63:4)"}
+  - {section: "What Jesus read", says: "the Septuagint and Luke side by side: the cut (heal the brokenhearted), the splice joined on aphesis (Isaiah 58:6 LXX), the stop; aphesis is the forgiveness of sins in its other 8 uses in Luke-Acts (10 in all, 2 of them here)"}
+  - {section: "Today: why He stopped", says: "the year fulfilled, the day kept back; the same cut for John, who had preached the axe and the fire (Matthew 11:2-6; Isaiah 35:4; Luke 3:9, 17); vengeance at His revealing (2 Thessalonians 1:7-8); now is the time of favour (2 Corinthians 6:2); the objection from Isaiah's pairing, with the confidence marked"}
+  - {section: "No one had divided the sentence", says: "11Q13 keeps favour and vengeance in one figure's act; 4Q521 has Matthew 11:5's list, the dead raised included; the Targum gives the chapter to Isaiah"}
+  - {section: "Why Nazareth turned", says: "'words of grace' (4:22); dektos twice, the year 'acceptable' and the prophet not (4:19, 24); Elijah and Elisha sent to Gentiles (4:25-27); Luke 24:47 closes the Gospel with the same proclamation to all nations"}
+  - {section: "The year of the Lord's favour, now", says: "the doctrine: forgiveness of sins proclaimed while judgment waits; God's patience (2 Peter 3:9); the comfort for Zion still to come; application"}
+  - {section: "Discussion questions; References", says: "facets mirroring Key Takeaways"}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: >-
+      Findings carried from the project state file (re-query, never re-read): Luke 4:18 leaves out
+      'to heal the brokenhearted' and splices in Isaiah 58:6 LXX ('to send the oppressed away in
+      release'); Matthew 11:5 makes the same cut on Isaiah 35:4-6; Isaiah 34:8 and 63:4 pair 'day'
+      and 'year' on one side; 11Q13 ii and 4Q521 2 ii read Isaiah 61 of the last days before Christ;
+      2 Corinthians 6:2 puts Isaiah 49:8's 'time of favour' (dektos) in the present.
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Synagogue reading of the Law and the Prophets (Acts 13:15); stand to read, sit to teach
+        (Luke 4:16, 20). Mishnah Megillah 4:4 (Sefaria Community Translation, CC0): 'Passages may
+        be skipped over in the reading of the Prophets, but not in that of the Holy Law', while the
+        meturgeman has not finished; the Mishnah is later than Jesus (date it in the study).
+        Targum Jonathan, Isaiah 61:1 opens 'The prophet said' (Pauli 1871).
+    literary_context:
+      done: true
+      notes: >-
+        Isaiah 61:1-11 (BSB section 'The Year of the LORD's Favor'; editorial). The speaker carries
+        the Spirit as 11:2, 42:1 and 48:16; 61:4-9 is Zion rebuilt with foreigners serving (61:5).
+        Isaiah 34:8 and 63:4 pair day and year as one time (LXX ἀνταπόδοσις). Luke 4:16-30 is
+        Luke's programmatic opening (parallels Matthew 13:53-58; Mark 6:1-6). Matthew 11:2-6 / Luke
+        7:18-23 answers John with Isaiah 35:5-6 and 61:1 cut before 35:4; John had preached the axe
+        and fire (Luke 3:9, 17).
+    content_word_studies:
+      done: true
+      notes: "aphesis: 17 in the NT (macula-greek-sblgnt, G859), 10 in Luke-Acts; glossed forgiveness everywhere but Luke 4:18 (twice, release)"
+      terms:
+        - {word: "ἄφεσις", language: greek, transliteration: "aphesis", strongs_id: "G859", gloss: "release, forgiveness", notes: "Luke 4:18 twice (Isaiah 61:1 LXX; 58:6 LXX); Lev 25:10 LXX the Jubilee 'release'; Luke 1:77; 3:3; 24:47; Acts 2:38 forgiveness of sins"}
+        - {word: "δεκτός", language: greek, transliteration: "dektos", strongs_id: "G1184", gloss: "acceptable, favourable", notes: "Luke 4:19 the year; 4:24 no prophet is dektos; 2 Corinthians 6:2 (Isaiah 49:8 LXX)"}
+        - {word: "רָצוֹן", language: hebrew, transliteration: "ratson", strongs_id: "H7522", gloss: "favour, goodwill", notes: "Isaiah 61:2 'year of favour'"}
+        - {word: "נָקָם", language: hebrew, transliteration: "naqam", strongs_id: "H5359", gloss: "vengeance", notes: "Isaiah 61:2; 34:8; 63:4; LXX ἀνταπόδοσις in all three"}
+        - {word: "דְּרוֹר", language: hebrew, transliteration: "derôr", strongs_id: "H1865", gloss: "liberty, release", notes: "covered by the Melchizedek study; link"}
+  hermeneutics:
+    cultural_vs_transcultural: {done: false, notes: ""}
+    theological_principle: {done: false, notes: ""}
+    application_draft: {done: false, notes: ""}
+  cross_reference:
+    done: false
+    cross_refs: []
+    translations_compared: []
+    divergences_noted: ""
+  drafting: {done: true, file: "docs/content/jesus/where-jesus-stopped-reading.md"}  # 2026-11-26; plate utils/build_jesus_graphics.py. Next: word budget (about 4,600 words against 4,000), ledger near/exceeds, read-bible-study in a new session
+  review: {done: false, validated: false}
+
+prophecy_ledger: []
+open_questions:
+  - "contested: whether Jesus joined Isaiah 58:6 by a skip (Mishnah Megillah 4:4) or Luke's Greek gives the reading that way; say both"
+  - "contested: whether the stop marks an interval (the BKC; this site) or only the emphasis of a sermon on grace; the case for the interval is the New Testament's placing of the vengeance (2 Thessalonians 1:7-8), not Isaiah's grammar"
+  - "Luke 21:22's 'days of vengeance' shares Hosea 9:7 and Deuteronomy 32:35 LXX's ἐκδίκησις, not Isaiah 61:2 LXX's ἀνταπόδοσις: mention with that limit, or leave out"
+  - "graphic: a drawn sequence plate of Isaiah 61:1-3 with the stop marked (fulfilled 'today' / at His return), drawn-graphics.md; a one-minute comic once the thesis is settled"
+  - "fork candidate: Isaiah 61:4-11, Zion rebuilt and the priests of the LORD (61:6; 1 Peter 2:9 applies the priesthood to the church): link The Thousand Years instead"
+resources_consulted:
+  - {type: other, title: "Mishnah Megillah 4:4", author: "Sefaria Community Translation (CC0)", note: "skipping in the Prophets"}
+  - {type: other, title: "Targum Jonathan on Isaiah 61:1-3", author: "C. W. H. Pauli, The Chaldee Paraphrase on the Prophet Isaiah (1871)", note: "'The prophet said'"}
+  - {type: other, title: "11Q13 ii; 4Q521 2 ii", author: "Abegg, Bowley and Cook (ETCBC), via dss_text", note: "see the project state file's evidence"}
+  - {type: commentary, title: "The Bible Knowledge Commentary, on Isaiah 61:1-3 and Luke 4:16-30", author: "Walvoord and Zuck, eds.; contributor to confirm at drafting", note: "the stop divides 'two advents'"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible, note on Luke 4:19", author: "Zondervan", note: "dekton/dektos link"}
+  - {type: commentary, title: "ESV Study Bible, note on Luke 4:18-19", author: "Crossway", note: "liberty as forgiveness in Luke-Acts"}
+last_updated: "2026-11-26"
+evidence:
+  - {id: luke4-19-dektos, what: "Luke 4:19: the year of the Lord's favour is dektos", tool: bible_verse, args: {book: Luke, chapter: 4, verse: 19, translation: sblgnt}, expect_contains: "ἐνιαυτὸν κυρίου δεκτόν", checked: 2026-11-26}
+  - {id: luke4-24-dektos, what: "Luke 4:24: no prophet is dektos in his hometown", tool: bible_verse, args: {book: Luke, chapter: 4, verse: 24, translation: sblgnt}, expect_contains: "οὐδεὶς προφήτης δεκτός", checked: 2026-11-26}
+  - {id: luke4-18-splice, what: "Luke 4:18 carries Isaiah 58:6 LXX's line", tool: bible_verse, args: {book: Luke, chapter: 4, verse: 18, translation: sblgnt}, expect_contains: "ἀποστεῖλαι τεθραυσμένους ἐν ἀφέσει", checked: 2026-11-26}
+  - {id: isa61-1-lxx-heal, what: "the Septuagint of Isaiah 61:1 has 'to heal the brokenhearted', which Luke leaves out", tool: bible_verse, args: {book: Isa, chapter: 61, verse: 1, translation: ebible-grcbrent}, expect_contains: "ἰάσασθαι τοὺς συντετριμμένους τὴν καρδίαν", checked: 2026-11-26}
+  - {id: isa61-2-lxx-recompense, what: "the Septuagint of Isaiah 61:2 has 'day of recompense' (ἀνταποδόσεως)", tool: bible_verse, args: {book: Isa, chapter: 61, verse: 2, translation: ebible-grcbrent}, expect_contains: "ἡμέραν ἀνταποδόσεως", checked: 2026-11-26}
+  - {id: luke21-22-ekdikesis, what: "Luke 21:22 has ἐκδικήσεως, a different word", tool: bible_verse, args: {book: Luke, chapter: 21, verse: 22, translation: sblgnt}, expect_contains: "ἡμέραι ἐκδικήσεως", checked: 2026-11-26}
+  - {id: lev25-10-aphesis, what: "Leviticus 25:10 LXX renders the Jubilee's liberty ἄφεσις", tool: bible_verse, args: {book: Lev, chapter: 25, verse: 10, translation: ebible-grcbrent}, expect_contains: "διαβοήσετε ἄφεσιν", checked: 2026-11-26}
+  - {id: luke24-47-nations, what: "Luke 24:47: forgiveness proclaimed to all nations", tool: bible_verse, args: {book: Luke, chapter: 24, verse: 47, translation: sblgnt}, expect_contains: "ἄφεσιν ἁμαρτιῶν εἰς πάντα τὰ ἔθνη", checked: 2026-11-26}
+  - {id: isa35-4-vengeance, what: "Isaiah 35:4 before the healings", tool: bible_verse, args: {book: Isa, chapter: 35, verse: 4, translation: BSB}, expect_contains: "your God will come with vengeance", checked: 2026-11-26}
+  - {id: tg-isa61-2-whole, what: "the Targum reads Isaiah 61:2 whole (Pauli)", tool: bible_verse, args: {book: Isa, chapter: 61, verse: 2, translation: targum-jonathan-en}, expect_contains: "the day of vengeance of our God", checked: 2026-11-26}
+  - {id: 11q13-favour, what: "11Q13 ii 9: the year of favour for Melchizedek", tool: dss_text, args: {scroll: "11Q13", fragment: "2", line: "9"}, expect_contains: "הרצון למלכי", checked: 2026-11-26}
+  - {id: 4q521-good-news, what: "4Q521 2 ii 12: revive the dead, good news to the poor", tool: dss_text, args: {scroll: "4Q521", fragment: "f2ii+4", line: "12"}, expect_contains: "ומתים יחיה ענוים יבשר", checked: 2026-11-26}
