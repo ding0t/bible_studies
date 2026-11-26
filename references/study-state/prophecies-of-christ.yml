@@ -53,3 +53,15 @@ review_2026_11_26:
     - "labels: tier 1 'or spoke of Him'; split use 'part now, part still to come'; partly 'but not of the part He fulfilled'; '17 the New Testament divides'"
     - "ledger: Matthew 22:44 has ὑποκάτω (SBLGNT), not the LXX word for word; Psalm 22:16's predicts marked contested; Bethlehem's split marks Matthew 2:6's shepherding as contested; ESV wording in three predicts replaced with BSB; virgin-immanuel's exceeds gives both cases"
     - "page: Isaiah 43:10 'takes up' with the LXX line shown; the copy bullet keeps a manuscript before the event apart from Qumran; tradition's readings named in the thesis; Talmud version named"
+read_pass:
+  date: "2026-11-26"
+  by: "read-bible-study, fresh session (did not draft)"
+  prose_identity: "clean against HEAD 75fb332d: no sentence changed"
+  applied:
+    - "series section moved up, directly after God's own argument, so the key, the numbers and the cards run unbroken"
+    - "new '## The ledger in numbers' holds the measures and dated markers, split from 'How to read the ledger' (which stays first: it defines the table's columns)"
+    - "chart given '### The prophet's view and history's view', with the 1 Peter 1:11 paragraph moved above the image"
+    - "eleven categories grouped under '## The prophecies, by subject' as ### headings, each marker still directly under its heading"
+  recommended:
+    - "the measures table opens its section with no lead-in claim; the dated sentence could precede it (moving a marker), or the author could write one line"
+    - "a Study outline is below Check 22's bar (1,540 source words) and would repeat the grouped TOC; add one only if phone readers need a jump line to the subjects"

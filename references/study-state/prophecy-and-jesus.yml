@@ -214,7 +214,15 @@ sessions:
       hooks/series.py reported a draft study as "not a page" under `mkdocs build` (draft_pages.py
       drops it first), failing --strict. State: references/study-state/prophecies-of-christ.yml.
   - n: 12
-    plan: "review-bible-study, then read-bible-study in a separate session"
+    date: 2026-11-26
+    done: >-
+      The reference page reviewed (subagent; fixes verified and applied, 75fb332d) and read
+      (subagent): working notes off the page with a check in check_prophecies.py, the veiled label
+      corrected site-wide, critical dates shown only where recorded, Sirach no longer counted per
+      prophecy, ledger fixes (Matthew 22:44, Psalm 22:16, Bethlehem's split, BSB wording). Open for
+      the author in references/study-state/prophecies-of-christ.yml: the tier of the three types, the
+      b. Megillah 3a lead, critical dates for the Psalms and the Minor Prophets, the series weeks.
+      Next: the author reads the page and the two studies; publish the three together.
 
 # Each entry, candidate -> drafted. One call to passage_brief per prophecy, research_batch_run for
 # the rest. Record what is checked under evidence: below.

@@ -63,6 +63,12 @@ This shows that God is the Lord of history, who binds Himself to His word in pub
 and that the Jesus who fulfilled it is the "I am He" of Isaiah. A promise He made centuries before He
 kept it is one you can rest your life on.
 
+## The studies, a week at a time
+
+These studies take the prophecies one theme at a time, for a group or on your own.
+
+<!-- series-sessions -->
+
 ## How to read the ledger
 
 Each prophecy below comes from this site's ledger of them (`docs/data/prophecies-of-christ.toml`),
@@ -102,11 +108,13 @@ says how firmly:
 This page gives no odds. A probability for each prophecy would be a guess, and one bad guess would
 discredit the true fulfilments beside it. The measures above can each be checked.
 
-<!-- prophecies-of-christ: measures -->
+## The ledger in numbers
 
 <!-- prophecies-of-christ: dated -->
 
-[![The prophet's view and history's view: above, the sufferings and the glories to follow as two mountain peaks lined up before the prophet, with the seventeen prophecies in the ledger that hold both comings in one text; below, every prophecy tied to a dated event drawn from the year it was written to the year it came to pass, with those fulfilled in part carried across the valley of the church age to His return](../assets/img/jesus/prophets-view-historys-view.svg)](../assets/img/jesus/prophets-view-historys-view.svg)
+<!-- prophecies-of-christ: measures -->
+
+### The prophet's view and history's view
 
 Peter says the prophets searched "the time and setting to which the Spirit of Christ in them was
 pointing when He predicted the sufferings of Christ and the glories to follow" (1 Peter 1:11, BSB).
@@ -114,53 +122,51 @@ The chart draws both halves of that sentence. From where a prophet stood, the su
 glory lined up like two peaks, one in front of the other. From where we stand, the first peak lies
 behind us, and the second is still ahead.
 
-## The studies, a week at a time
+[![The prophet's view and history's view: above, the sufferings and the glories to follow as two mountain peaks lined up before the prophet, with the seventeen prophecies in the ledger that hold both comings in one text; below, every prophecy tied to a dated event drawn from the year it was written to the year it came to pass, with those fulfilled in part carried across the valley of the church age to His return](../assets/img/jesus/prophets-view-historys-view.svg)](../assets/img/jesus/prophets-view-historys-view.svg)
 
-These studies take the prophecies one theme at a time, for a group or on your own.
+## The prophecies, by subject
 
-<!-- series-sessions -->
-
-## Nature
+### Nature
 
 <!-- prophecies-of-christ: category nature -->
 
-## Lineage
+### Lineage
 
 <!-- prophecies-of-christ: category lineage -->
 
-## Birth
+### Birth
 
 <!-- prophecies-of-christ: category birth -->
 
-## Childhood
+### Childhood
 
 <!-- prophecies-of-christ: category childhood -->
 
-## Forerunner
+### Forerunner
 
 <!-- prophecies-of-christ: category forerunner -->
 
-## Ministry
+### Ministry
 
 <!-- prophecies-of-christ: category ministry -->
 
-## Passion
+### Passion
 
 <!-- prophecies-of-christ: category passion -->
 
-## Resurrection
+### Resurrection
 
 <!-- prophecies-of-christ: category resurrection -->
 
-## Redemption
+### Redemption
 
 <!-- prophecies-of-christ: category redemption -->
 
-## Prophet, priest, king
+### Prophet, priest, king
 
 <!-- prophecies-of-christ: category office -->
 
-## Future
+### Future
 
 <!-- prophecies-of-christ: category future -->
 
