@@ -16,4 +16,5 @@ draft: false
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 4:4-5
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 4:4-5
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 4:2
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 4:5
 <!-- commentary-index:auto-end -->

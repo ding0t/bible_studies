@@ -21,6 +21,7 @@ draft: false
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 19:14
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 19:35
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 19:25
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 19:28
 - [Passover: When I See the Blood](../../feasts/passover.md) — 19:14
 - [The Appointed Times](../../feasts/feasts.md) — 19:36
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 19:37

@@ -18,4 +18,5 @@ draft: false
 - [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 118:25-26
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 118:22
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 118:22
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 118:26
 <!-- commentary-index:auto-end -->

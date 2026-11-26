@@ -16,4 +16,5 @@ draft: false
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 1:11-12
 - [The Cities of the Plain](../../scripture/cities-of-the-plain.md) — 1:7-8
 - [The Rapture of the Church](../../last-things/rapture.md) — 1:6-10
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 1:7-8
 <!-- commentary-index:auto-end -->

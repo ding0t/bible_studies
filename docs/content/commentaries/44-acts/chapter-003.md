@@ -16,6 +16,7 @@ draft: false
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 3:21
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 3:18-22
 - [John son of Zebedee](../../biblical-figures/john.md) — 3:1-11
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 3:17-18
 - [Sin and Sorcery](../../sin/sorcery.md) — 3:22-23
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 3:22
 - [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 3:21

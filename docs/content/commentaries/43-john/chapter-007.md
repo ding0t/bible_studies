@@ -17,6 +17,7 @@ draft: false
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 7:37-38
 - [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 7:24
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 7:10
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 7:39
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 7:15
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 7:24
 - [The Appointed Times](../../feasts/feasts.md) — 7:2

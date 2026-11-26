@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Matthew 24:29-31; Daniel 9:24-27"
 bible_references: ["Matthew 24:1-31", "Daniel 9:1", "Matthew 4:20", "Matthew 26:74", "Mark 13:24", "Daniel 9:2", "Daniel 9:19", "Daniel 9:24-27", "Daniel 2:44", "Luke 21:20-24", "Luke 4:16-21", "Isaiah 61:1-2", "2 Thessalonians 2:3-4", "1 Thessalonians 4:16-17", "2 Thessalonians 2:1", "1 Corinthians 15:51", "Romans 11:25-26", "Hebrews 10:1-9", "Daniel 7:13-14", "Daniel 12:1", "Revelation 7:14", "Revelation 19:11-16", "Revelation 21:1-4", "Revelation 20:1-15", "2 Peter 3:7-13", "Zechariah 14:4", "Revelation 4:1", "Revelation 6:1-12", "1 Corinthians 15:3", "Zechariah 14:1-2", "Daniel 9:25"]
 date_created: 2026-09-26
-date_modified: 2026-11-15
+date_modified: 2026-11-26
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -185,7 +185,9 @@ Jesus telescopes near and far into one description without marking the join, and
 before. In the Nazareth synagogue He read Isaiah 61:1-2 aloud and stopped mid-sentence, before "the
 day of vengeance of our God," then said "today this Scripture has been fulfilled in your hearing"
 (Luke 4:21). Isaiah's own sentence runs the near and far together. Jesus read as far as the part then
-being fulfilled and closed the scroll.
+being fulfilled and closed the scroll. [Where Jesus Stopped Reading](../jesus/where-jesus-stopped-reading.md)
+treats the stop in full, and [The Prophecies of Christ](../jesus/prophecies-of-christ.md) draws the
+peaks for every prophecy the New Testament divides between His two comings.
 
 Clarence Larkin (1850-1924), a Baptist pastor who drew prophecy charts for *Dispensational Truth*
 (1918; expanded 1920), pictured the effect as a landscape. His charts are a historical witness to how

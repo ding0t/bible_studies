@@ -22,6 +22,7 @@ draft: false
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 1:6-7
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 1:14
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 1:15-20
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 1:20
 - [Matthew (Levi)](../../biblical-figures/matthew.md) — 1:13
 - [Philip](../../biblical-figures/philip.md) — 1:13
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 1:14

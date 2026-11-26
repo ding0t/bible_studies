@@ -23,4 +23,5 @@ draft: false
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 21:24
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 21:34-36
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 21:20-24
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 21:22-27
 <!-- commentary-index:auto-end -->

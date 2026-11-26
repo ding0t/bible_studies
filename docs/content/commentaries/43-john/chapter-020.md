@@ -15,6 +15,7 @@ draft: false
 - [Thomas](../../biblical-figures/thomas.md) — 20:24-29 (primary passage)
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 20:30-31
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 20:15-18
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 20:9
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 20:28
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 20:22
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 20:12

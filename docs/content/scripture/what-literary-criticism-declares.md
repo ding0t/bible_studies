@@ -508,7 +508,8 @@ declared the end from the beginning, and He has never yet failed to do what He s
   non-canon scored by the same rule. Duplicate recensions (Old Greek Daniel, Tobit's second text)
   are left out.
 - **Prophecy.** `docs/data/fulfilled-prophecy.toml`, with the messianic entries in
-  `docs/data/prophecies-of-christ.toml`; fulfilment years from the site's chronology
+  `docs/data/prophecies-of-christ.toml`, set out in full on [The Prophecies of
+  Christ](../jesus/prophecies-of-christ.md); fulfilment years from the site's chronology
   (`docs/data/chronology.json`); Qumran copies from the Dead Sea Scrolls morphology (caves 1-11
   only). The Great Isaiah Scroll's date, about 125 BC, is the one recorded on
   [Ancient Texts and Manuscripts](ancient-texts-manuscripts.md).

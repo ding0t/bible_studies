@@ -15,4 +15,5 @@ draft: false
 - [Faith](../../salvation/faith.md) — 7:1-10
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 7:41-47
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 7:36-50
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 7:18-23
 <!-- commentary-index:auto-end -->

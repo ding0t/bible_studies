@@ -19,4 +19,5 @@ draft: false
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 5:2
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 5:2
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 5:2
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 5:2-3
 <!-- commentary-index:auto-end -->

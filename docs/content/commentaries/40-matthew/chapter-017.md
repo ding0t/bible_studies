@@ -22,4 +22,5 @@ draft: false
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 17:1-8
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 17:20
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 17:2
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 17:11-12
 <!-- commentary-index:auto-end -->

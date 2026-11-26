@@ -14,4 +14,5 @@ draft: false
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 43:19
 - [Idolatry](../../sin/idolatry.md) — 43:7
+- [The Prophecies of Christ: What the Old Testament Foretold, and When It Came to Pass](../../jesus/prophecies-of-christ.md) — 43:10
 <!-- commentary-index:auto-end -->

@@ -19,6 +19,7 @@ draft: false
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 9:31
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 9:2-8
 - [John son of Zebedee](../../biblical-figures/john.md) — 9:2-8
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 9:32
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 9:33-34
 - [They Were Given White Robes](../../last-things/they-were-given-white-robes.md) — 9:2-3
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 9:2-8

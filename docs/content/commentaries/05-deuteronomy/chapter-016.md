@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 16:1
 - [Passover: When I See the Blood](../../feasts/passover.md) — 16:1-7
 - [Tabernacles: God Dwelling with His People](../../feasts/tabernacles.md) — 16:13-15
 - [The Appointed Times](../../feasts/feasts.md) — 16:16

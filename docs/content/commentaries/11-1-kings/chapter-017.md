@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 17:1
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 17:9
 <!-- commentary-index:auto-end -->

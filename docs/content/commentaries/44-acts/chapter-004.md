@@ -15,6 +15,7 @@ draft: false
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 4:9-12
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 4:2
 - [John son of Zebedee](../../biblical-figures/john.md) — 4:13
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 4:27-28
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:24-31
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 4:11-12
 - [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 4:25-27

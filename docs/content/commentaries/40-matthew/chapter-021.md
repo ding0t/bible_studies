@@ -15,6 +15,7 @@ draft: false
 - [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 21:1-11 (primary passage)
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 21:4-5
 - [In Humility](../../christian-life/humility.md) — 21:5
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 21:2-5
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 21:1-11
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 21:2-7
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 21:18-22

@@ -20,4 +20,5 @@ draft: false
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 42:8
 - [True Worship](../../christian-life/true-worship.md) — 42:8
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 42:3
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 42:1
 <!-- commentary-index:auto-end -->

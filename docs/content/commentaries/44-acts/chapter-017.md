@@ -15,6 +15,7 @@ draft: false
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 17:10-12
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 17:11
 - [Idolatry](../../sin/idolatry.md) — 17:16-29
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 17:3
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 17:11
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 17:24-28
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 17:26-27

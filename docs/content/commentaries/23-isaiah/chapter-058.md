@@ -14,4 +14,5 @@ draft: false
 
 - [Fasting](../../christian-life/fasting.md) — 58:1-12
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 58:3-7
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 58:6
 <!-- commentary-index:auto-end -->

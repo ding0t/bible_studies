@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 22:16-18
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 22:18
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 22:22
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 22:15
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 22:16

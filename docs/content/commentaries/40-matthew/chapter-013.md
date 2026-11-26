@@ -23,5 +23,6 @@ draft: false
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 13:10-17
 - [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 13:33
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 13:33
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 13:53-58
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 13:11
 <!-- commentary-index:auto-end -->

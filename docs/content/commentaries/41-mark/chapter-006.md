@@ -16,4 +16,5 @@ draft: false
 - [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 6:3
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 6:7-13
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 6:56
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 6:1-6
 <!-- commentary-index:auto-end -->

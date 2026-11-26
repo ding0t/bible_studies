@@ -16,6 +16,7 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 18:9-14
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 18:33
 - [In Humility](../../christian-life/humility.md) — 18:14
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 18:34
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 18:1-8
 - [Pride](../../sin/pride.md) — 18:9-14
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 18:12-14

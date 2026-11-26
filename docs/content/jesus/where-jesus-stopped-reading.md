@@ -3,7 +3,7 @@ title: "Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth"
 category: "prophecy"
 description: "At Nazareth Jesus read Isaiah 61 as His own commission, cut it and joined a line from Isaiah 58 to say what began that day, and rolled up the scroll before the day of vengeance. The year of the Lord's favour is now; the vengeance waits for His return."
 tags: ["messianic-prophecy", "prophecy-fulfilled", "isaiah", "luke", "forgiveness", "jubilee", "dead-sea-scrolls", "method/word-study", "lang/greek", "lang/hebrew"]
-draft: true
+draft: false
 primary_passage: "Isaiah 61:1-3; Luke 4:16-30"
 bible_references: ["Isaiah 61:1-3", "Isaiah 61:4-6", "Luke 4:16-30", "Isaiah 58:6", "Isaiah 35:4-6", "Matthew 11:2-6", "Luke 7:18-23", "Luke 3:7-17", "Isaiah 34:8", "Isaiah 63:4", "Isaiah 11:2", "Isaiah 42:1", "Isaiah 48:16", "Leviticus 25:10", "2 Corinthians 6:2", "2 Thessalonians 1:7-8", "Luke 21:22-27", "Luke 24:47", "Acts 13:15", "2 Peter 3:9", "Micah 5:2-3", "Matthew 23:39", "Matthew 17:11-12", "1 Kings 17:9", "2 Kings 5:14", "Acts 2:38", "Luke 1:77", "Isaiah 26:19", "Isaiah 49:8", "Psalm 110:1", "Hebrews 10:12-13", "Psalm 118:26", "Malachi 4:5", "Matthew 13:53-58", "Mark 6:1-6", "Hosea 9:7", "Micah 5:4"]
 date_created: 2026-11-26
@@ -421,7 +421,8 @@ there. And carry it, as He did, to the people Nazareth would have passed over.
   second coming"); *NIV Biblical Theology
   Study Bible* (Zondervan), note on Luke 4:19 (*dekton* and *dektos*); *ESV Study Bible* (Crossway),
   note on Luke 4:18-19 ("liberty" as forgiveness in Luke-Acts).
-- **On this site.** [Melchizedek in Second Temple
+- **On this site.** [The Prophecies of Christ](prophecies-of-christ.md) (the ledger the plate's
+  rows come from); [Melchizedek in Second Temple
   Judaism](../scripture/melchizedek-in-second-temple-judaism.md) (11Q13 and the Jubilee);
   [Immediately After](../last-things/immediately-after.md) (a gap inside one sentence);
   [The Thousand Years](../last-things/the-thousand-years.md) (Isaiah 61:4's rebuilding).

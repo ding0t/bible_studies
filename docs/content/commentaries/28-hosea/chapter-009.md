@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 9:10
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 9:7
 <!-- commentary-index:auto-end -->

@@ -15,6 +15,7 @@ draft: false
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 89:5-8
 - [A Thousand Years in Your Sight](../../last-things/a-thousand-years-in-your-sight.md) — 89:46-52
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 89:15
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 89:36-37
 - [Six Days of History](../../last-things/six-days-of-history.md) — 89:36-51
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 89:5-8
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 89:20

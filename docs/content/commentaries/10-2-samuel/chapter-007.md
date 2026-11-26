@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 7:14
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 7:12-16
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 7:12-16
 <!-- commentary-index:auto-end -->

@@ -4,7 +4,7 @@ category: "other"
 description: "God the Son: who Jesus is and what He did, including Old Testament prophecy fulfilled in Him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-11-23
+date_modified: 2026-11-26
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -62,6 +62,14 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
 
     [:octicons-arrow-right-24: Read](kinsman-redeemer.md)
 
+-   __Known Before, Seen After: Which Prophecies of Christ Were Understood, and When__
+
+    ---
+
+    Before Jesus came, Israel read the prophecies of the Messiah's line and throne as His, and none of the prophecies of His suffering. His opponents fulfilled the hidden ones without knowing it, and the risen Christ opened His disciples' minds to see the sufferings first and then the glory.
+
+    [:octicons-arrow-right-24: Read](known-before-seen-after.md)
+
 -   __Jesus, Priest in the Order of Melchizedek__
 
     ---
@@ -85,6 +93,14 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
     Before Sinai the heads of families offered sacrifice for their households, yet Scripture calls none of them a priest. God then appointed Aaron's sons and gave the Levites in place of Israel's firstborn, because priesthood is always His appointment, and He appointed His Son Jesus, who holds His priesthood permanently.
 
     [:octicons-arrow-right-24: Read](priesthood-before-sinai.md)
+
+-   __The Prophecies of Christ: What the Old Testament Foretold, and When It Came to Pass__
+
+    ---
+
+    Every Old Testament prophecy the New Testament reads of Jesus, and those tradition reads of Him, with what each foretold, where it was fulfilled or is still to come, how far ahead it was written, whether anyone read it of the Messiah beforehand, and who brought it about.
+
+    [:octicons-arrow-right-24: Read](prophecies-of-christ.md)
 
 -   __The Angel of the LORD: God the Son Before Bethlehem__
 
@@ -141,6 +157,14 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
     The sign of Jonah, and what Jonah said it was: the belly of Sheol, the heart of the seas, brought up from the pit. Where the New Testament says Christ was between the cross and the empty tomb — Sheol, Hades, Abraham's side, paradise — what it says He achieved there.
 
     [:octicons-arrow-right-24: Read](three-days-and-three-nights.md)
+
+-   __Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth__
+
+    ---
+
+    At Nazareth Jesus read Isaiah 61 as His own commission, cut it and joined a line from Isaiah 58 to say what began that day, and rolled up the scroll before the day of vengeance. The year of the Lord's favour is now; the vengeance waits for His return.
+
+    [:octicons-arrow-right-24: Read](where-jesus-stopped-reading.md)
 
 -   __The Woman at the Well__
 

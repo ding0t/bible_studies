@@ -3,7 +3,7 @@ title: "The Prophecies of Christ: What the Old Testament Foretold, and When It C
 category: "prophecy"
 description: "Every Old Testament prophecy the New Testament reads of Jesus, and those tradition reads of Him, with what each foretold, where it was fulfilled or is still to come, how far ahead it was written, whether anyone read it of the Messiah beforehand, and who brought it about."
 tags: ["messianic-prophecy", "prophecy-fulfilled", "isaiah", "luke", "dead-sea-scrolls"]
-draft: true
+draft: false
 primary_passage: "Isaiah 45:21; Luke 24:44"
 bible_references: ["Isaiah 45:21", "Isaiah 41:21-23", "Isaiah 43:10", "Isaiah 46:9-10", "Isaiah 48:3-5", "John 13:19", "Luke 24:44", "1 Peter 1:10-11"]
 series:

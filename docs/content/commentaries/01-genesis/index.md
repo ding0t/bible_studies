@@ -175,6 +175,6 @@ What types are seen as shadows of a truth.
 - [Chapter 46](chapter-046.md) — 4 study(ies)
 - [Chapter 47](chapter-047.md) — 1 study(ies)
 - [Chapter 48](chapter-048.md) — 1 study(ies)
-- [Chapter 49](chapter-049.md) — 5 study(ies)
+- [Chapter 49](chapter-049.md) — 6 study(ies)
 - [Chapter 50](chapter-050.md) — 2 study(ies)
 <!-- commentary-index:auto-end -->

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 13:1
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 13:7
 - [The Appointed Times](../../feasts/feasts.md) — 13:1
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 13:1
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 13:8-9

@@ -4,7 +4,7 @@ category: "other"
 description: "Dating biblical history -- what can be fixed to a year, how the numbers in Scripture add up, and the one timeline this site works to."
 draft: false
 date_created: 2026-10-08
-date_modified: 2026-11-23
+date_modified: 2026-11-26
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -49,7 +49,7 @@ Other studies use these dates for their own subjects:
 
     ---
 
-    Which day and which year Jesus was crucified. Mark 15:42 and Luke 24:21 give a Friday, Pilate's Passovers give two Fridays, AD 30 and AD 33, and Luke 3:1, John's Passovers, Sejanus and Daniel 9:25 decide between them.
+    Which day and which year Jesus was crucified. The Law fixes the Passover on 14 Nisan, the calendar of the time gives its weekday in every year of Pilate's rule, and the Gospels' facts, a Friday, Luke 3:1, John's Passovers, Sejanus and Daniel 9:25, decide between AD 30 and AD 33.
 
     [:octicons-arrow-right-24: Read](dating-the-cross.md)
 

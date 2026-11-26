@@ -16,6 +16,7 @@ draft: false
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 2:20
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 2:12-13
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:13
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 2:22
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 2:17
 - [The Appointed Times](../../feasts/feasts.md) — 2:13
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 2:1-11

@@ -21,4 +21,5 @@ draft: false
 - [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 110:1-2
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 110:1
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 110:1
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 110:1
 <!-- commentary-index:auto-end -->

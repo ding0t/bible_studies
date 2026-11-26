@@ -25,4 +25,5 @@ draft: false
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 3:9
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 3:16
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 3:9
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 3:9
 <!-- commentary-index:auto-end -->

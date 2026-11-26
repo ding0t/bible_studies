@@ -14,6 +14,7 @@ draft: false
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 53:5
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 53:7-8
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 53:5
 - [Passover: When I See the Blood](../../feasts/passover.md) — 53:7
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 53:10-12
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 53:6

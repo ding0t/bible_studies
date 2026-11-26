@@ -13,6 +13,8 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 24:27 (primary passage)
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 24:44-46 (primary passage)
+- [The Prophecies of Christ: What the Old Testament Foretold, and When It Came to Pass](../../jesus/prophecies-of-christ.md) — 24:44 (primary passage)
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 24:27 (primary passage)
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 24:47
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 24:21
@@ -24,4 +26,5 @@ draft: false
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 24:39
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 24:36-43
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 24:25-27
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 24:47
 <!-- commentary-index:auto-end -->

@@ -19,6 +19,7 @@ draft: false
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:30-36
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 2:17-18
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 2:34-36
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 2:23
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 2:42
 - [Simon Peter](../../biblical-figures/peter.md) — 2:14-41
 - [The Appointed Times](../../feasts/feasts.md) — 2:1
@@ -29,5 +30,6 @@ draft: false
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 2:27
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:27
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 2:1-11
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 2:38
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 2:30-35
 <!-- commentary-index:auto-end -->

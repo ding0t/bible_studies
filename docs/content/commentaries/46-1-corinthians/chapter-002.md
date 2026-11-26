@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 2:7-8
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 2:14-16
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 2:10-12
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 2:14-15

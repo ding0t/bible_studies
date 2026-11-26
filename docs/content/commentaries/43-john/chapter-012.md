@@ -17,6 +17,7 @@ draft: false
 - [As the Snake Was Lifted Up: The Bronze Serpent and the Son of Man](../../jesus/as-the-snake-was-lifted.md) — 12:32-34
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 12:24
 - [How God Answers Prayer](../../christian-life/how-god-answers-prayer.md) — 12:28-30
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 12:34
 - [Passover: When I See the Blood](../../feasts/passover.md) — 12:1
 - [Philip](../../biblical-figures/philip.md) — 12:20-22
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 12:3

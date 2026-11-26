@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Behemoth and Leviathan: The Lord's Two Exhibits in Job 40-41](../../god/behemoth-and-leviathan.md) — 104:24-26
+- [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 104:19
 <!-- commentary-index:auto-end -->

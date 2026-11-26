@@ -15,4 +15,5 @@ draft: false
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 6:16-18
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 6:16
 - [The Restrainer](../../last-things/the-restrainer.md) — 6:17
+- [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 6:2
 <!-- commentary-index:auto-end -->

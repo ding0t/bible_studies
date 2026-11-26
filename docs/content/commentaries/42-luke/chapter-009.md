@@ -17,6 +17,7 @@ draft: false
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 9:22
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 9:51-56
 - [John son of Zebedee](../../biblical-figures/john.md) — 9:54
+- [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 9:45
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 9:51
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 9:28-33
 - [The Two Witnesses](../../last-things/two-witnesses.md) — 9:28-33
