@@ -1247,15 +1247,19 @@ notes = "Judas's death and his field fulfil the desolation (Acts 1:18-20); the a
 
 [[prophecy]]
 id = "companion-who-betrays"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "passion"
 prophecy = "Psalm 55:12-14"
 masoretic = "Psalm 55:13-15"
+predicts = "the one who reproaches the sufferer is no enemy but his companion and close friend, with whom he walked to the house of God"
+specific = ["person"]
 uses = [
   { ref = "Matthew 26:49-50", kind = "allusion", note = "'Friend,' Jesus replied, 'do what you came for' (BSB)" },
 ]
 status = "fulfilled"
+control = "opponents"
+recognition = "unassessed"
 event = "anchor_41"
 near = "lead: David betrayed by Ahithophel, his counsellor (2 Samuel 15:12, 31)"
 notes = "'It is you, a man like myself, my companion and close friend. We shared sweet fellowship together; we walked with the crowd into the house of God' (Psalm 55:13-14, BSB). lead: Ahithophel hanged himself (2 Samuel 17:23), as Judas did (Matthew 27:5): a pattern the New Testament does not draw, so a pattern only (prophecy-method.md section 5). Psalm 41:9 is the betrayal text Jesus cites."
@@ -1579,18 +1583,22 @@ notes = "The verse's first half, 'numbered with the transgressors', is in suffer
 
 [[prophecy]]
 id = "all-that-he-has-done"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "passion"
 prophecy = "Psalm 22:30-31"
 masoretic = "Psalm 22:31-32"
 speaker = "messiah"
+predicts = "a people yet unborn will be told of the LORD's righteousness: that He has done it"
+specific = ["sequence"]
 uses = [
   { ref = "John 19:30", kind = "allusion", note = "'It is finished' (τετέλεσται) is often linked; the words are not shared" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 event = "anchor_41"
-notes = "'They will come and proclaim His righteousness to a people yet unborn—all that He has done' (Psalm 22:31, BSB). The sermon link to 'It is finished' (John 19:30) is popular. lead: test it, and record a verdict; the psalm's close does belong to the praise that follows the suffering (Psalm 22:22-31)."
+notes = "VERDICT 2026-11-26: the link to 'It is finished' (John 19:30) is a sermon parallel only. The words are not shared: τετέλεσται (tetelestai, 'it is finished') against the Hebrew כִּי עָשָׂה (ki asah, 'that He has done it'); the Septuagint reads further from it again, 'a people to be born, whom the Lord made' (λαῷ τῷ τεχθησομένῳ, ὃν ἐποίησεν ὁ Κύριος, Psalm 21:32 LXX). The psalm's close does belong to the praise that follows the suffering (Psalm 22:22-31), so the theme is fair; the claim of fulfilment is not. A lead for Spot the Mistake."
 
 [[prophecy]]
 id = "the-rejected-stone"
@@ -1736,7 +1744,7 @@ offices = ["king"]
 recognition_evidence = [
   { note = "Jesus' question assumes the Pharisees read the psalm of the Christ: they answer that the Christ is David's son, and cannot say how David calls him Lord", source = "Matthew 22:41-46", year = 33 },
 ]
-notes = "'The LORD said to my Lord': יְהוָה (YHWH) to אֲדֹנִי (adoni). The session at the right hand is fulfilled (Acts 2:33-34); the enemies made a footstool are still to come. The 'until' (עַד, ad) states the interval inside the verse. Whether the 'reign' of 1 Corinthians 15:25 is the present session or the thousand years is contested; check against the statement of faith."
+notes = "'The LORD said to my Lord': יְהוָה (YHWH) to אֲדֹנִי (adoni). The session at the right hand is fulfilled (Acts 2:33-34); the enemies made a footstool are still to come. The 'until' (עַד, ad) states the interval inside the verse. 1 Corinthians 15:25, researched 2026-11-26 at the author's request: Paul gives an order with gaps, 'Christ the firstfruits; then (ἔπειτα) at His coming, those who belong to Him. Then (εἶτα) the end' (15:23-24, BSB), and the first 'then' has already lasted two thousand years. The reign 'until He has put all His enemies under His feet' explains what comes before the end (γάρ, 15:25), with death the last enemy (15:26); Revelation 20 has the same order, a thousand-year reign after His coming (20:4-6) and Death thrown into the lake of fire after it (20:14). Psalm 110 itself splits: 'Sit at My right hand' (110:1, fulfilled; He 'waits', Hebrews 10:13), 'Rule in the midst of Your enemies' (110:2, a reign while enemies remain), and 'He will crush kings in the day of His wrath' (110:5, BSB; Revelation 6:17; 19:15). Revelation 3:21 keeps the thrones apart: 'sit with Me on My throne, just as I… sat down with My Father on His throne' (BSB). Lean: the subduing reign runs from His coming through the thousand years. On the other side: Ephesians 1:20-22 ('put everything under His feet', said of the ascension), Acts 2:36 and Colossians 2:15 speak of His rule as already won. Contested; mark it so in the study."
 
 [[prophecy]]
 id = "all-things-under-his-feet"
@@ -1853,7 +1861,7 @@ event = "anchor_41"
 future_event = "second_coming"
 split = { first = "Jeremiah 31:31-34 inaugurated in His blood (Luke 22:20; Hebrews 8:6-13)", rest = "Jeremiah 31:31, 34 for the house of Israel and the house of Judah, all knowing the LORD", at = "Romans 11:26-27", signal = "lead: the covenant is named for both houses, and Jeremiah 31:35-37 ties Israel's survival as a nation to it" }
 offices = ["priest"]
-notes = "Made by the cup and the blood (Luke 22:20) and in force now (Hebrews 8:6-13; 10:15-18), and made 'with the house of Israel and the house of Judah' (Jeremiah 31:31), whose salvation Romans 11:26-27 still awaits. How the church shares in it, and what is kept for Israel, is contested among dispensational readers; check the conclusion against the statement of faith and surface it to the author."
+notes = "Made by the cup and the blood (Luke 22:20) and in force now (Hebrews 8:6-13; 10:15-18), and made 'with the house of Israel and the house of Judah' (Jeremiah 31:31), whose salvation Romans 11:26-27 still awaits. SETTLED by the author 2026-11-26: the new covenant is righteousness through Christ by faith, open to Jew and Gentile alike. Romans 11:26-27 is then the same covenant received by Israel when 'all Israel will be saved'; the split records that timing, and never a second covenant."
 
 [[prophecy]]
 id = "i-will-pour-out-my-spirit"
@@ -1967,7 +1975,7 @@ control = "divine"
 recognition = "unassessed"
 future_event = "millennium"
 offices = ["king"]
-notes = "Contested, and central to the dispensational reading. James's 'After this I will return and rebuild' (Acts 15:16, BSB) follows 'God first visited the Gentiles to take from them a people to be His own' (15:14, BSB): read one way, the sequence is the Gentile people first and David's tent after; read another, the tent is being rebuilt now in the Gentile mission. Give both cases with their textual reasons and check against the statement of faith."
+notes = "Contested, and central to the dispensational reading. James's 'After this I will return and rebuild' (Acts 15:16, BSB) follows 'God first visited the Gentiles to take from them a people to be His own' (15:14, BSB): read one way, the sequence is the Gentile people first and David's tent after; read another, the tent is being rebuilt now in the Gentile mission. Give both cases with their textual reasons and check against the statement of faith. The author is undecided (2026-11-26) and asks for more research: see the state file's open list."
 
 # ---- office: prophet, priest, king -------------------------------------------------------------
 
@@ -2143,201 +2151,521 @@ notes = "See Day of Atonement and The Heavenly Pattern. The tabernacle's types a
 
 [[prophecy]]
 id = "son-of-man-on-the-clouds"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "future"
 prophecy = "Daniel 7:13-14"
+predicts = "one like a son of man comes with the clouds of heaven to the Ancient of Days and is given dominion, glory and a kingdom that all peoples serve and that will not pass away"
+specific = ["person", "manner"]
 uses = [
-  { ref = "Mark 14:61-62", kind = "fulfilment" },
-  { ref = "Matthew 24:30", kind = "fulfilment" },
-  { ref = "Revelation 1:7", kind = "fulfilment" },
+  { ref = "Mark 14:61-64", kind = "split", text = "both", note = "'coming with the clouds of heaven' (μετὰ τῶν νεφελῶν), as the Hebrew עִם (im, 'with') and Theodotion, joined to Psalm 110:1's 'sitting at the right hand of Power': the session fulfilled and the coming still to come, in one sentence" },
+  { ref = "Matthew 24:30", kind = "fulfilment", text = "neither", note = "'on the clouds' (ἐπὶ τῶν νεφελῶν), with Zechariah 12:10's mourning tribes" },
+  { ref = "Revelation 1:7", kind = "fulfilment", text = "both", note = "'He is coming with the clouds', joined to Zechariah 12:10" },
   { ref = "Revelation 14:14", kind = "imagery" },
-  { ref = "Matthew 28:18", kind = "allusion", note = "'all authority' (Daniel 7:14)" },
+  { ref = "Matthew 28:18", kind = "allusion", note = "'All authority' (Daniel 7:14)" },
   { ref = "Acts 7:56", kind = "allusion" },
 ]
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
 future_event = "second_coming"
+split = { first = "Psalm 110:1, the session at the right hand (Acts 7:56)", rest = "Daniel 7:13-14, the coming with the clouds and the kingdom", at = "Mark 14:62", signal = "Jesus joins the two texts and the two times himself, with 'you will see… sitting… and coming'" }
 offices = ["king"]
-notes = "lead: the high priest tore his robes at the claim (Mark 14:63): the reading was understood. 1 Enoch's Similitudes (date contested) and 4 Ezra 13 (after AD 70) read it of a heavenly figure."
+notes = "The high priest tore his clothes and called it blasphemy (Mark 14:63-64): he took the claim as a claim to share God's throne. lead for recognition: 1 Enoch's Similitudes (37-71) read Daniel 7 of a pre-existent heavenly figure, date contested (before or after Christ); 4 Ezra 13 after AD 70. The Old Greek's 'came as the Ancient of Days' is not in bible-text.db."
 
 [[prophecy]]
 id = "blessed-is-he-who-comes"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "future"
 prophecy = "Psalm 118:26"
+predicts = "blessed is he who comes in the name of the LORD"
+specific = ["person", "sequence"]
 uses = [
-  { ref = "Matthew 21:9", kind = "fulfilment" },
-  { ref = "Matthew 23:37-39", kind = "split", note = "'you will not see me again, until you say, Blessed is he…'" },
-  { ref = "Luke 13:35", kind = "split" },
+  { ref = "Matthew 21:9", kind = "fulfilment", text = "both", note = "the crowds at the entry, with 'Hosanna to the Son of David'" },
+  { ref = "Matthew 23:37-39", kind = "split", text = "both", note = "'you will not see Me again until you say, Blessed is He who comes in the name of the Lord' (BSB)" },
+  { ref = "Luke 13:35", kind = "split", text = "both" },
 ]
 status = "partly"
+control = "chosen"
+recognition = "partly"
 future_event = "second_coming"
-notes = "lead: said at the entry and kept back for Israel's welcome: one verse, two comings, joined by Jesus' 'until'."
+split = { first = "Psalm 118:26 sung by the crowds at the entry (Matthew 21:9)", rest = "Psalm 118:26 said by Jerusalem when it sees Him again", at = "Matthew 23:39", signal = "Jesus' 'until' (ἕως ἄν) sets an interval between the two uses of one verse" }
+recognition_evidence = [
+  { note = "the crowds apply the Hallel psalm to Him as 'the Son of David' and 'the King of Israel' at the entry: a messianic use already at hand", source = "Matthew 21:9; John 12:13", year = 33 },
+]
+notes = "Psalm 118 is part of the Hallel sung at the feasts (lead, verify the custom and its date). Said once in welcome by the crowds, and kept back for Jerusalem's welcome at His return."
 
 [[prophecy]]
 id = "feet-on-the-mount-of-olives"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "future"
 prophecy = "Zechariah 14:3-9"
+predicts = "the LORD goes out to fight the nations; on that day His feet stand on the Mount of Olives, which splits in two; the LORD becomes King over all the earth"
+specific = ["place", "manner"]
 uses = [
   { ref = "Acts 1:9-12", kind = "allusion", note = "'in the same way as you saw him go'; from the mount called Olivet" },
   { ref = "Revelation 11:15", kind = "allusion" },
 ]
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
 future_event = "second_coming"
 yhwh_text = true
-notes = "lead: in Zechariah 14:3-4 the LORD's feet stand on the mountain. prophecy-method.md section 5 warns against calling Ezekiel 11:23 a type; the same caution applies here."
+notes = "In Zechariah 14:3-4 the feet are the LORD's. Acts 1:11-12 places the ascension on Olivet and promises a return 'in the same way you have seen Him go into heaven' (BSB): a place shared with Zechariah and never joined to it by any New Testament writer, so a pattern only (prophecy-method.md section 5). Zechariah 14:9 'the LORD will become King over all the earth' (BSB) is echoed at Revelation 11:15 (lead)."
 
 [[prophecy]]
 id = "rule-with-a-rod-of-iron"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "future"
 prophecy = "Psalm 2:8-9"
+predicts = "the Son is given the nations as his inheritance and rules them with an iron sceptre, breaking them like pottery"
+specific = ["manner"]
 uses = [
-  { ref = "Revelation 12:5", kind = "fulfilment" },
-  { ref = "Revelation 19:15", kind = "fulfilment" },
-  { ref = "Revelation 2:26-27", kind = "application", note = "shared with the overcomer" },
+  { ref = "Revelation 12:5", kind = "fulfilment", text = "lxx", note = "'who will rule all the nations with an iron scepter' (BSB)" },
+  { ref = "Revelation 19:15", kind = "fulfilment", text = "lxx", note = "'He will rule (ποιμανεῖ, shepherd) them with an iron scepter' (BSB)" },
+  { ref = "Revelation 2:26-27", kind = "application", text = "lxx", note = "shared with the one who overcomes" },
 ]
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
 future_event = "millennium"
 offices = ["king"]
-notes = "lead: the Septuagint's ποιμανεῖς (poimaneis, 'shepherd') for the Hebrew 'break'; Revelation follows the Greek."
+notes = "Revelation follows the Septuagint's ποιμανεῖς (poimaneis, 'you will shepherd'), which read the Hebrew consonants as רעה (ra'ah, shepherd); the Masoretic points תְּרֹעֵם (tero'em, 'you will break'). The child caught up to God's throne (Revelation 12:5) is the one who will rule."
 
 [[prophecy]]
 id = "slays-the-wicked-with-his-breath"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "future"
 prophecy = "Isaiah 11:4"
+predicts = "the shoot of Jesse strikes the earth with the rod of his mouth and slays the wicked with the breath of his lips"
+specific = ["manner"]
 uses = [
-  { ref = "2 Thessalonians 2:8", kind = "application" },
-  { ref = "Revelation 19:15", kind = "imagery" },
+  { ref = "2 Thessalonians 2:8", kind = "application", text = "lxx", note = "'the Lord Jesus will slay with the breath of His mouth' (ἀνελεῖ τῷ πνεύματι τοῦ στόματος), the Septuagint's verb; Isaiah's singular 'the wicked' (רָשָׁע, rasha; LXX ἀσεβῆ) becomes 'the lawless one'" },
+  { ref = "Revelation 19:15", kind = "imagery", note = "the sword from His mouth" },
 ]
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
 future_event = "second_coming"
 offices = ["king"]
-notes = "lead: Isaiah 11:1-5 joins the shoot of Jesse (fulfilled) to the judgement (future): a join inside five verses."
+notes = "Isaiah 11:1-5 runs from the shoot of Jesse (fulfilled at His birth) to the slaying of the wicked (still to come) in five verses, with no sign of the interval: the mountain-peaks view in one paragraph."
+
+[[prophecy]]
+id = "rule-in-the-midst-and-the-day-of-wrath"
+research = "drafted"
+tier = 3
+category = "future"
+prophecy = "Psalm 110:2, 5-7"
+predicts = "the LORD extends the king's sceptre from Zion to rule in the midst of his enemies; the Lord at his right hand crushes kings in the day of His wrath and judges the nations"
+specific = ["sequence", "place", "manner"]
+uses = [
+  { ref = "Revelation 6:15-17", kind = "allusion", note = "'the kings of the earth'… 'the great day of Their wrath has come' (BSB)" },
+  { ref = "Revelation 19:15-19", kind = "imagery", note = "the nations struck, the kings of the earth gathered" },
+]
+status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
+future_event = "armageddon"
+offices = ["king", "priest"]
+notes = "Split out of Psalm 110 on 2026-11-26 while researching 1 Corinthians 15:25: verse 1 (the session) is fulfilled, and verses 2 and 5-7 are the reign among enemies and the day of wrath, still to come. Verse 4 (the priesthood) is fulfilled and continues (priest-forever-melchizedek). One psalm, three times. Tier 3: the New Testament alludes to these verses and never cites them."
 
 [[prophecy]]
 id = "the-winepress-trodden"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "future"
 prophecy = "Isaiah 63:1-6"
+predicts = "one comes from Edom in crimson garments, having trodden the winepress alone in His anger, for the day of vengeance was in His heart and the year of His redemption had come"
+specific = ["manner", "place"]
 uses = [
-  { ref = "Revelation 19:13-15", kind = "imagery" },
+  { ref = "Revelation 19:13-15", kind = "imagery", note = "'a robe dipped in blood'; 'He treads the winepress of the fury of the wrath of God' (BSB)" },
   { ref = "Revelation 14:19-20", kind = "imagery" },
 ]
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
 future_event = "armageddon"
-notes = "lead: Isaiah 63:4 pairs 'the day of vengeance' with 'my year of redemption': the same pairing Jesus divided in Luke 4:19."
+notes = "Isaiah 63:4 pairs 'the day of vengeance' with 'the year of My redemption' (BSB), the pairing Jesus divided at Luke 4:19; here both fall on the one day of His return. Revelation clothes the returning Word in the garments of Isaiah 63:1-3."
 
 [[prophecy]]
 id = "the-deliverer-from-zion"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "future"
 prophecy = "Isaiah 59:20-21"
+predicts = "the Redeemer comes to Zion, to those in Jacob who turn from transgression; God's Spirit and words remain with them forever"
+specific = ["person", "place"]
 uses = [
-  { ref = "Romans 11:25-27", kind = "fulfilment" },
+  { ref = "Romans 11:25-27", kind = "fulfilment", text = "neither", note = "'The Deliverer will come from Zion' (ἐκ Σιών), where the Hebrew has 'to Zion' (לְצִיּוֹן) and the Septuagint 'for Zion's sake' (ἕνεκεν Σιών); 'He will remove godlessness from Jacob' as the Septuagint" },
 ]
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
 future_event = "second_coming"
-notes = "lead: Paul has 'from Zion' where the Hebrew and the Septuagint have 'to Zion' and 'for Zion's sake'."
+notes = "'And so all Israel will be saved' (Romans 11:26, BSB), after 'the full number of the Gentiles has come in' (11:25): a sequence. Paul's 'from Zion' may draw on Psalm 14:7 or 110:2 ('from Zion'); lead."
 
 [[prophecy]]
 id = "the-stone-cut-without-hands"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "future"
 prophecy = "Daniel 2:34-35, 44-45"
+predicts = "a stone cut without hands strikes the image on its feet and becomes a great mountain filling the earth: God sets up a kingdom that will never be destroyed"
+specific = ["sequence", "manner"]
 uses = [
-  { ref = "Luke 20:18", kind = "allusion" },
+  { ref = "Luke 20:17-18", kind = "allusion", note = "'Everyone who falls on this stone will be broken to pieces, but he on whom it falls will be crushed' (BSB), after Psalm 118:22" },
   { ref = "Matthew 21:44", kind = "allusion", note = "absent from some manuscripts" },
 ]
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
 future_event = "second_coming"
 offices = ["king"]
+notes = "'In the days of those kings, the God of heaven will set up a kingdom that will never be destroyed' (Daniel 2:44, BSB). Jesus joins Daniel's crushing stone to the rejected stone (Psalm 118:22) and the stumbling stone (Isaiah 8:14): one stone rejected, stumbled over, and crushing."
 
 [[prophecy]]
 id = "the-coming-one-will-not-delay"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "future"
 prophecy = "Habakkuk 2:3-4"
+predicts = "the vision awaits its appointed time and will surely come; though it lingers, wait for it; the righteous will live by faith"
+specific = ["time"]
 uses = [
-  { ref = "Hebrews 10:37-38", kind = "fulfilment" },
+  { ref = "Hebrews 10:36-39", kind = "fulfilment", text = "lxx", note = "the Septuagint, which reads 'wait for him… the one coming will come' (ὑπόμεινον αὐτόν… ἐρχόμενος ἥξει), with Hebrews adding the article ('the coming one', ὁ ἐρχόμενος) and Isaiah 26:20's 'a little while' (μικρὸν ὅσον ὅσον)" },
   { ref = "Revelation 22:20", kind = "allusion" },
 ]
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
 future_event = "second_coming"
-notes = "lead: the Septuagint turns the vision ('it will surely come') into a person (ὁ ἐρχόμενος, ho erchomenos); Hebrews adds the article. the use's text 'lxx'."
+notes = "The Hebrew speaks of the vision coming (בֹּא יָבֹא, bo yavo, 'it will surely come'); the Septuagint and Hebrews read a person. Larkin's point in the text itself: 'Though it lingers, wait for it' (Habakkuk 2:3, BSB)."
 
 [[prophecy]]
 id = "his-reward-is-with-him"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "future"
 prophecy = "Isaiah 40:10; 62:11"
+predicts = "the Lord GOD comes with might; His reward is with Him and His recompense before Him"
+specific = ["person", "manner"]
 uses = [
-  { ref = "Revelation 22:12", kind = "application" },
+  { ref = "Revelation 22:12", kind = "application", text = "lxx", note = "'My reward is with Me' (ὁ μισθός μου μετʼ ἐμοῦ) for the Septuagint's 'His reward is with Him': Jesus speaks the LORD's line in the first person" },
 ]
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
 future_event = "second_coming"
 yhwh_text = true
+notes = "Isaiah 40:9-10 announces 'Here is your God!' (BSB) and then the Lord GOD coming with His reward; in Revelation 22:12-13 the one coming with it is 'the Alpha and the Omega'."
 
 [[prophecy]]
 id = "death-swallowed-up"
-research = "candidate"
-tier = 2
+research = "drafted"
+tier = 1
 category = "future"
 prophecy = "Isaiah 25:8; Hosea 13:14"
+predicts = "on this mountain the LORD swallows up death forever and wipes away the tears from every face; He ransoms them from Sheol: 'Where, O Death, are your plagues?'"
+specific = ["manner"]
 uses = [
-  { ref = "1 Corinthians 15:54-57", kind = "fulfilment", note = "'then shall come to pass the saying'" },
-  { ref = "Revelation 21:4", kind = "imagery" },
+  { ref = "1 Corinthians 15:54-57", kind = "fulfilment", text = "mt", note = "'Death has been swallowed up in victory' (Κατεπόθη ὁ θάνατος εἰς νῖκος) renders the Hebrew לָנֶצַח (lanetsach, 'forever', in Aramaic usage 'victory') where the Septuagint differs; 'then the saying… will come to pass' at the resurrection of the believers; Hosea 13:14 after the Septuagint ('Where, O Death, is your sting?', κέντρον)" },
+  { ref = "Revelation 21:4", kind = "imagery", note = "every tear wiped away in the new creation" },
 ]
 status = "future"
-future_event = "new_creation"
-notes = "lead: 1 Corinthians 15:54 places the fulfilment at the resurrection of the dead; tier 1 if the saying is applied to Christ's victory (15:57)."
+control = "unfulfilled"
+recognition = "unassessed"
+future_event = "rapture"
+split = { first = "Isaiah 25:8 at the resurrection of those who are Christ's (1 Corinthians 15:54)", rest = "Death destroyed, the last enemy (1 Corinthians 15:26; Revelation 20:14), and tears wiped away in the new creation (Revelation 21:4)", at = "1 Corinthians 15:54 with 15:26", signal = "Paul says the saying 'will come to pass' at the believers' resurrection, and that death is the last enemy destroyed at the end" }
+notes = "Paul's 'then' (τότε) dates the fulfilment to the resurrection of the believers; the rapture is this site's placement of it (future_event). Contested: Hosea 13:14 may be a threat in its context ('Compassion is hidden from My eyes', BSB); give both readings. Tier moved to 1: 1 Corinthians 15:54 says the saying 'will come to pass'."
 
 [[prophecy]]
 id = "nations-stream-to-zion"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "future"
 prophecy = "Isaiah 2:2-4; Micah 4:1-4"
+predicts = "in the last days the mountain of the LORD's house is raised above the hills, the nations stream to it, He judges between nations, and they beat swords into ploughshares"
+specific = ["place", "manner"]
 uses = []
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
 future_event = "millennium"
 offices = ["king"]
-notes = "lead: no New Testament text applies it to Christ; in scope only if the millennium studies lean on it."
+notes = "'They will beat their swords into plowshares… nor train anymore for war' (Isaiah 2:4, BSB). No New Testament text applies it to Christ; listed for the millennium studies. In scope as a future prophecy of His reign from Zion."
 
 [[prophecy]]
 id = "king-over-all-the-earth"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "future"
 prophecy = "Psalm 72:8-17"
+predicts = "the king's dominion runs from sea to sea; kings bring tribute and all nations serve him; his name endures forever and all nations are blessed in him"
+specific = ["person", "manner"]
 uses = [
   { ref = "Revelation 11:15", kind = "allusion" },
 ]
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
 future_event = "millennium"
 offices = ["king"]
-notes = "lead: a psalm 'of Solomon' (72:1, 20); the Targum of Psalms names the king Messiah at 72:1 (date the Targum)."
+notes = "A psalm 'of Solomon' (72:1) that prays beyond Solomon: 'May his name endure forever… In him may all nations be blessed' (72:17, BSB), the Abrahamic blessing (Genesis 22:18). lead: the Targum names the king Messiah at 72:1; date it (session 8)."
 
 [[prophecy]]
 id = "desire-of-all-nations"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "future"
 prophecy = "Haggai 2:6-9"
+predicts = "once more God shakes the heavens, the earth and all nations; they come with their treasures, and He fills this house with glory, greater than the former"
+specific = ["manner", "place"]
 uses = [
-  { ref = "Hebrews 12:26-28", kind = "application", note = "the shaking; Hebrews does not cite 2:7" },
+  { ref = "Hebrews 12:26-28", kind = "application", text = "lxx", note = "Haggai 2:6 LXX ('Yet once more I will shake', ἔτι ἅπαξ ἐγὼ σείσω), rearranged 'not only the earth but also the heavens', with the argument from 'once more' (12:27)" },
 ]
 status = "future"
+control = "unfulfilled"
+recognition = "unassessed"
+future_event = "new_creation"
+notes = "VERDICT 2026-11-26 on the traditional reading: 'the desire of all nations' (KJV) as a title of Christ rests on the singular. The noun חֶמְדַּת (chemdat) takes a plural verb (וּבָאוּ, uva'u, 'they will come'), and the BSB renders 'they will come with all their treasures' (Haggai 2:7). The reading of Christ is weak, though the glory filling this house (2:7, 9) was fulfilled when the Lord came to it (Malachi 3:1; John 2:13-22): a pattern to weigh."
+
+# ================================================================================================
+# Prophecies that begin in the New Testament (decided 2026-11-25: a separate, smaller table).
+# Christ's own predictions, and the apostles' and Revelation's predictions of Him. Added
+# 2026-11-26 as candidates.
+#
+# Fields: id, research, category, status, notes as for [[prophecy]], plus
+#   speaker       "jesus" | "angel" | "apostle" | "revelation"
+#   prophecy      the New Testament text that predicts
+#   predicts      what it says will happen
+#   fulfilment    where the fulfilment is recorded: Scripture refs, or an outside source named
+#                 ("Josephus, Jewish War 6"); absent while status is "future"
+#   recorded      whether the written record is older than the fulfilment: "before" | "after" |
+#                 "contested" (the Gospels' dates against AD 70)
+#   see           an id in fulfilled-prophecy.toml or above that treats the same text
+#   event, future_event, control, specific as above
+# ================================================================================================
+
+[[nt_prophecy]]
+id = "nt-passion-foretold"
+research = "candidate"
+speaker = "jesus"
+category = "passion"
+prophecy = "Mark 8:31; 9:31; 10:32-34"
+predicts = "the Son of Man will be delivered to the chief priests and scribes, condemned, handed to the Gentiles, mocked, spat on, flogged and killed, and after three days rise"
+specific = ["sequence", "manner", "time", "person"]
+fulfilment = "Mark 14:43-16:7"
+status = "fulfilled"
+event = "anchor_41"
+control = "opponents"
+recorded = "after"
+notes = "Three predictions, each fuller than the last; Mark 10:33-34 names the Gentiles, the mocking, the spitting and the flogging. The disciples 'did not understand this statement, and they were afraid to ask Him about it' (Mark 9:32, BSB): veiled to the hearers."
+
+[[nt_prophecy]]
+id = "nt-temple-raised-in-three-days"
+research = "candidate"
+speaker = "jesus"
+category = "resurrection"
+prophecy = "John 2:19-22"
+predicts = "destroy this temple, and in three days He will raise it up"
+specific = ["time", "manner"]
+fulfilment = "John 2:21-22; Matthew 26:61; 27:40"
+status = "fulfilled"
+event = "anchor_41"
+control = "divine"
+recorded = "after"
+notes = "Misheard as the building and quoted against Him at the trial (Matthew 26:61) and the cross (27:40). 'After He was raised from the dead, His disciples remembered that He had said this' (John 2:22, BSB): understood afterwards."
+
+[[nt_prophecy]]
+id = "nt-one-of-you-will-betray"
+research = "candidate"
+speaker = "jesus"
+category = "passion"
+prophecy = "John 13:18-27; Mark 14:18-21"
+predicts = "one of the Twelve, eating with Him, will betray Him"
+specific = ["person"]
+fulfilment = "Mark 14:43-46"
+status = "fulfilled"
+event = "anchor_41"
+control = "opponents"
+recorded = "after"
+see = "my-own-familiar-friend"
+
+[[nt_prophecy]]
+id = "nt-peter-denies-three-times"
+research = "candidate"
+speaker = "jesus"
+category = "passion"
+prophecy = "Mark 14:29-31"
+predicts = "before the rooster crows twice, Peter will deny Him three times, that very night"
+specific = ["number", "time", "person"]
+fulfilment = "Mark 14:66-72"
+status = "fulfilled"
+event = "anchor_41"
+control = "unwitting"
+recorded = "after"
+notes = "Peter insisted he would not (Mark 14:31) and did: a prediction fulfilled against the will of the one it named."
+
+[[nt_prophecy]]
+id = "nt-the-spirit-sent"
+research = "candidate"
+speaker = "jesus"
+category = "redemption"
+prophecy = "John 14:16-17, 26; 16:7; Acts 1:4-8"
+predicts = "the Father will give another Helper, the Spirit of truth, sent by the Son after He goes away, and the disciples will be baptised with the Holy Spirit not many days from now"
+specific = ["time", "sequence"]
+fulfilment = "Acts 2:1-4, 33"
+status = "fulfilled"
+event = "pentecost_spirit"
+control = "divine"
+recorded = "after"
+see = "i-will-pour-out-my-spirit"
+
+[[nt_prophecy]]
+id = "nt-i-will-build-my-church"
+research = "candidate"
+speaker = "jesus"
+category = "redemption"
+prophecy = "Matthew 16:18"
+predicts = "He will build His church, and the gates of Hades will not prevail against it"
+specific = ["manner"]
+fulfilment = "Acts 2:41-47"
+status = "partly"
+event = "pentecost_spirit"
+control = "divine"
+recorded = "after"
+
+[[nt_prophecy]]
+id = "nt-gospel-to-all-nations"
+research = "candidate"
+speaker = "jesus"
+category = "redemption"
+prophecy = "Matthew 24:14; Mark 13:10; Acts 1:8"
+predicts = "the gospel of the kingdom will be preached in the whole world as a testimony to all nations, and then the end will come"
+specific = ["place", "sequence"]
+fulfilment = "Acts 2:5-11; 28:28-31; Colossians 1:6, 23 (begun)"
+status = "partly"
 future_event = "second_coming"
-notes = "lead: 'the desire of all nations' (KJV) against 'the treasures of all nations' (ESV): the Hebrew חֶמְדַּת (chemdat) with a plural verb. Contested; the traditional reading of Christ rests on the singular."
+control = "followers"
+recorded = "before"
+notes = "Being fulfilled through the apostles and after: 'All over the world this gospel is bearing fruit and growing' (Colossians 1:6, BSB): control 'followers' with the whole history of missions after. Matthew 24:14 sets 'then the end will come' after it."
+
+[[nt_prophecy]]
+id = "nt-temple-not-one-stone"
+research = "candidate"
+speaker = "jesus"
+category = "future"
+prophecy = "Mark 13:1-2; Luke 19:41-44; 21:20-24"
+predicts = "not one stone of the temple left on another; Jerusalem surrounded by armies, its people fallen by the sword and led captive"
+specific = ["place", "manner"]
+fulfilment = "Josephus, Jewish War 6-7"
+status = "fulfilled"
+event = "temple_destroyed_70"
+control = "unwitting"
+recorded = "contested"
+see = "temple-destroyed-jesus"
+notes = "In fulfilled-prophecy.toml as temple-destroyed-jesus for the validator. Titus's armies had no thought of the prophecy: control 'unwitting'. The Gospels' dates decide 'recorded': before AD 70 on the traditional dates, after it on most critical ones, partly because of this prophecy."
+
+[[nt_prophecy]]
+id = "nt-jerusalem-trampled-until"
+research = "candidate"
+speaker = "jesus"
+category = "future"
+prophecy = "Luke 21:24"
+predicts = "Jerusalem will be trampled by the Gentiles until the times of the Gentiles are fulfilled"
+specific = ["place", "time", "sequence"]
+fulfilment = "Josephus, Jewish War 6-7 (the trampling begun)"
+status = "partly"
+event = "temple_destroyed_70"
+future_event = "second_coming"
+control = "unwitting"
+recorded = "contested"
+notes = "A split inside one sentence of Jesus: the trampling began in AD 70, and 'until' (ἄχρι οὗ) sets an end to it. Compare Romans 11:25, 'until the full number of the Gentiles has come in'."
+
+[[nt_prophecy]]
+id = "nt-peters-death"
+research = "candidate"
+speaker = "jesus"
+category = "future"
+prophecy = "John 21:18-19"
+predicts = "when Peter is old he will stretch out his hands and another will lead him where he does not want to go: the death by which he will glorify God"
+specific = ["person", "manner"]
+fulfilment = "1 Clement 5:4 (Peter's martyrdom; the manner is later tradition)"
+status = "fulfilled"
+control = "opponents"
+recorded = "after"
+notes = "John writes after the fulfilment and says so ('to indicate the kind of death', 21:19). The fulfilment is outside Scripture; cite 1 Clement and the later tradition of crucifixion (Tertullian, Eusebius) with their dates."
+
+[[nt_prophecy]]
+id = "nt-i-will-come-again"
+research = "candidate"
+speaker = "jesus"
+category = "future"
+prophecy = "John 14:2-3; Acts 1:11"
+predicts = "He goes to prepare a place and will come again to take His own to Himself; this same Jesus will come back in the same way as He was seen going into heaven"
+specific = ["person", "manner"]
+status = "future"
+future_event = "rapture"
+control = "unfulfilled"
+recorded = "before"
+notes = "Acts 1:11 is spoken by the two men in white. The rapture placement for John 14:3 is this site's reading; Acts 1:11's 'in the same way' belongs with the return to the Mount of Olives (Zechariah 14:4, a pattern only)."
+
+[[nt_prophecy]]
+id = "nt-caught-up-together"
+research = "candidate"
+speaker = "apostle"
+category = "future"
+prophecy = "1 Thessalonians 4:16-17; 1 Corinthians 15:51-52"
+predicts = "the Lord descends from heaven with a shout; the dead in Christ rise first, then the living are caught up together with them to meet the Lord in the air, changed in a moment"
+specific = ["sequence", "manner"]
+status = "future"
+future_event = "rapture"
+control = "unfulfilled"
+recorded = "before"
+see = "death-swallowed-up"
+
+[[nt_prophecy]]
+id = "nt-rider-on-the-white-horse"
+research = "candidate"
+speaker = "revelation"
+category = "future"
+prophecy = "Revelation 19:11-21"
+predicts = "heaven opens, and the Faithful and True rides out on a white horse, the Word of God, King of kings, to strike the nations and defeat the beast and its armies"
+specific = ["person", "manner", "name"]
+status = "future"
+future_event = "second_coming"
+control = "unfulfilled"
+recorded = "before"
+see = "the-winepress-trodden"
+
+[[nt_prophecy]]
+id = "nt-reign-a-thousand-years"
+research = "candidate"
+speaker = "revelation"
+category = "future"
+prophecy = "Revelation 20:1-6"
+predicts = "Satan bound a thousand years; those who share the first resurrection reign with Christ a thousand years"
+specific = ["number", "time", "sequence"]
+status = "future"
+future_event = "millennium"
+control = "unfulfilled"
+recorded = "before"
+see = "sit-at-my-right-hand"
+
+[[nt_prophecy]]
+id = "nt-all-things-new"
+research = "candidate"
+speaker = "revelation"
+category = "future"
+prophecy = "Revelation 21:1-7; 22:3-5"
+predicts = "a new heaven and a new earth; the holy city comes down; God dwells with His people; no more death, mourning or pain; the throne of God and of the Lamb in the city"
+specific = ["place", "manner"]
+status = "future"
+future_event = "new_creation"
+control = "unfulfilled"
+recorded = "before"
+see = "death-swallowed-up"

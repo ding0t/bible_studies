@@ -21,6 +21,9 @@ Errors (exit non-zero):
    recognition, and a `text` on every fulfilment, split and application use; a verified one has
    recognition other than "unassessed".
 7. **Validator entries are dated.** An entry with `standing` has an `event` or a `year`.
+8. **The New Testament table** (`[[nt_prophecy]]`): ids unique across both tables; speaker,
+   recorded and the shared vocabulary as documented; `prophecy` a New Testament reference; `see`
+   an id that exists in either file; a `fulfilment` unless the status is "future".
 
 Prints a progress summary (entries by research level, tier and category). Run from the repo root:
 python3 utils/check_prophecies.py
@@ -75,7 +78,7 @@ def book_of(ref: str) -> str | None:
 
 def chronology_ids() -> tuple[set[str], set[str]]:
     data = json.loads(CHRONOLOGY.read_text(encoding="utf-8"))
-    dated = {e["id"] for key in ("anchor_table", "milestones", "life_events") for e in data[key]
+    dated = {e["id"] for key in ("anchors", "anchor_table", "milestones", "life_events") for e in data[key]
              if e.get("gregorian_year", e.get("gregorian")) is not None}
     dated |= {e["id"] for e in data["passion_sequence"]["events"]}
     future = {e["id"] for e in data["future_sequence"]["events"]}
@@ -152,18 +155,61 @@ def check(entries: list[dict], other_ids: set[str], dated: set[str], future: set
     return errors
 
 
+NT_VOCAB = {"speaker": {"jesus", "angel", "apostle", "revelation"},
+            "recorded": {"before", "after", "contested"}}
+
+
+def check_nt(entries: list[dict], known_ids: set[str], dated: set[str], future: set[str]) -> list[str]:
+    errors = []
+    seen = set()
+    for e in entries:
+        pid = e.get("id", "?")
+
+        def err(msg: str) -> None:
+            errors.append(f"nt_prophecy {pid}: {msg}")
+
+        if not ID.match(pid) or pid in seen or pid in known_ids:
+            err("id is not kebab-case, or is already used")
+        seen.add(pid)
+        for field in ("research", "speaker", "category", "prophecy", "predicts", "status", "recorded"):
+            if field not in e:
+                err(f"missing {field}")
+        for field, allowed in {**{k: VOCAB[k] for k in ("research", "category", "status", "control")},
+                               **NT_VOCAB}.items():
+            if field in e and e[field] not in allowed:
+                err(f"{field} {e[field]!r} is not one of {sorted(allowed)}")
+        for value in e.get("specific", []):
+            if value not in LIST_VOCAB["specific"]:
+                err(f"specific value {value!r} is not one of {sorted(LIST_VOCAB['specific'])}")
+        book = book_of(e.get("prophecy", "").split(";")[0])
+        if book is None or book in OT_BOOKS:
+            err(f"prophecy {e.get('prophecy')!r} is not a New Testament book and chapter:verse")
+        if e.get("status") != "future" and "fulfilment" not in e:
+            err("a fulfilled or partly fulfilled prophecy needs a fulfilment")
+        if "see" in e and e["see"] not in known_ids:
+            err(f"see {e['see']!r} is not an id in either prophecy file")
+        if "event" in e and e["event"] not in dated:
+            err(f"event {e['event']!r} is not a dated chronology.json id")
+        if "future_event" in e and e["future_event"] not in future:
+            err(f"future_event {e['future_event']!r} is not in future_sequence")
+    return errors
+
+
 def main() -> int:
-    entries = tomllib.loads(CHRIST.read_text(encoding="utf-8"))["prophecy"]
+    data = tomllib.loads(CHRIST.read_text(encoding="utf-8"))
+    entries, nt_entries = data["prophecy"], data.get("nt_prophecy", [])
     other_ids = {e["id"] for e in tomllib.loads(OTHER.read_text(encoding="utf-8"))["prophecy"]}
     dated, future = chronology_ids()
     errors = check(entries, other_ids, dated, future)
+    errors += check_nt(nt_entries, other_ids | {e["id"] for e in entries}, dated, future)
     for line in errors:
         print(f"ERROR prophecies-of-christ.toml {line}")
     research = Counter(e.get("research") for e in entries)
     tiers = Counter(e.get("tier") for e in entries)
     print(f"check_prophecies: {len(entries)} entries "
           f"({', '.join(f'{n} {k}' for k, n in sorted(research.items()))}; "
-          f"tier {', '.join(f'{k}: {n}' for k, n in sorted(tiers.items()))}); {len(errors)} errors")
+          f"tier {', '.join(f'{k}: {n}' for k, n in sorted(tiers.items()))}), "
+          f"{len(nt_entries)} New Testament; {len(errors)} errors")
     return 1 if errors else 0
 
 

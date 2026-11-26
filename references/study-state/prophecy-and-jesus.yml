@@ -27,6 +27,15 @@ decisions: # agreed with the author 2026-11-25
       own) go in a separate, smaller table on the same page. Not yet designed; see open.
   - placement: >-
       A series under docs/content/jesus/, with the generated reference page as its hub.
+  - new_covenant: >-
+      SETTLED by the author 2026-11-26: the new covenant is righteousness through Christ by faith,
+      open to Jew and Gentile. Romans 11:26-27 is Israel receiving that same covenant.
+  - one_corinthians_15_25: >-
+      Researched 2026-11-26 at the author's request ("look more at the context and for the
+      splits"). Lean: the reign that subdues enemies runs from His coming through the thousand
+      years (1 Corinthians 15:23-26 order with gaps; Revelation 20:4-6, 14; Psalm 110 split three
+      ways; Revelation 3:21's two thrones). Contested: Ephesians 1:20-22; Acts 2:36; Colossians
+      2:15. Recorded on sit-at-my-right-hand; Psalm 110:2, 5-7 given its own entry.
 
 # What the data has to answer, so the fields serve the page and the charts (the author asked to
 # "visualise and categorise the miracle of prophecy fulfilled in Christ"):
@@ -128,7 +137,17 @@ sessions:
       1 Corinthians 15:25's reign (session or millennium) likewise; the statement of faith does
       not settle them.
   - n: 7
-    plan: "future, with the NT-original table designed"
+    date: 2026-11-26
+    done: >-
+      Future: 14 entries drafted, plus the two Psalms candidates left from session 2 and a new
+      Psalm 110:2, 5-7 entry; every one of the 117 entries is now drafted. The New Testament table
+      designed ([[nt_prophecy]] in the same file: speaker, fulfilment, recorded before or after,
+      see) and seeded with 15 candidates; check_prophecies.py checks it (and now reads the
+      chronology's anchors). Found: Mark 14:62 joins Psalm 110:1 (fulfilled) and Daniel 7:13
+      (future) in one sentence; 1 Corinthians 15:54 dates Isaiah 25:8 to the believers'
+      resurrection and 15:26 the end of death after it; Habakkuk 2:3's vision becomes a person in
+      the Septuagint and Hebrews 10:37; Luke 21:24's 'until the times of the Gentiles'. Verdicts:
+      all-that-he-has-done (a sermon parallel only) and desire-of-all-nations (the plural verb).
   - n: 8
     plan: "add Edersheim (Appendix IX) and the Targums as sources, dated; the recognition pass over every entry"
   - n: 9
@@ -190,6 +209,7 @@ excluded: # read through all 471 STEP ot-quotations entries; left out, with the 
       - {ref: "Revelation 21-22 (Ezekiel 40-48; Isaiah 60; 65)", reason: "the new creation's imagery: Ezekiel's Temple covers it; link"}
 
 open:
+  - "RESEARCH, author undecided 2026-11-26: Acts 15:13-18 and Amos 9:11-12. Questions: what 'After this' (Μετὰ ταῦτα) attaches to (Jeremiah 12:15 LXX? Hosea 3:5?); what 'first visited' (πρῶτον, 15:14) orders; whether James claims fulfilment or agreement ('the words of the prophets agree', 15:15); Amos 9:13-15 (the land, planted never to be uprooted) beside 9:11-12; the Septuagint's reading against the Hebrew's Edom; the oldest readers (4QFlorilegium on Amos 9:11, before Christ; Justin, Irenaeus). Run as a fulfilment ledger (prophecy-method.md section 3). Schedule: after session 7, before the studies."
   - "the NT-original table: fields, and whether Jesus' passion predictions (Mark 8:31; 9:31; 10:33-34) go there"
   - "suffering-servant groups Isaiah 53:5, 9, 12 for the validator; splitting it changes What Literary Criticism Declares' counts"
   - "sources to add: Edersheim, The Life and Times of Jesus the Messiah (1883), Appendix IX, public domain; the Targums (Sefaria; check each licence); the Qumran texts named in the notes (4Q174, 4Q175, 4Q252, 4Q521, 11Q13, 1QS) through the dss works in bible-text.db"
@@ -266,4 +286,14 @@ evidence:
   - {id: heb2-8-not-yet, what: "Hebrews 2:8: not yet do we see", tool: bible_verse, args: {book: Heb, chapter: 2, verse: 8, translation: sblgnt}, expect_contains: "οὔπω ὁρῶμεν", checked: 2026-11-26}
   - {id: mark12-36-under, what: "Mark 12:36 has 'under your feet'", tool: bible_verse, args: {book: Mark, chapter: 12, verse: 36, translation: sblgnt}, expect_contains: "ὑποκάτω τῶν ποδῶν σου", checked: 2026-11-26}
   - {id: heb8-9-disregarded, what: "Hebrews 8:9 has 'I disregarded them' as the Septuagint", tool: bible_verse, args: {book: Heb, chapter: 8, verse: 9, translation: sblgnt}, expect_contains: "ἠμέλησα αὐτῶν", checked: 2026-11-26}
+  - {id: mark14-62-with-clouds, what: "Mark 14:62 joins Psalm 110:1 and Daniel 7:13", tool: bible_verse, args: {book: Mark, chapter: 14, verse: 62, translation: sblgnt}, expect_contains: "ἐκ δεξιῶν καθήμενον τῆς δυνάμεως καὶ ἐρχόμενον μετὰ τῶν νεφελῶν", checked: 2026-11-26}
+  - {id: 1cor15-54-victory, what: "1 Corinthians 15:54 has 'swallowed up in victory'", tool: bible_verse, args: {book: 1Cor, chapter: 15, verse: 54, translation: sblgnt}, expect_contains: "Κατεπόθη ὁ θάνατος εἰς νῖκος", checked: 2026-11-26}
+  - {id: isa25-8-lxx, what: "the Septuagint of Isaiah 25:8 differs", tool: bible_verse, args: {book: Isa, chapter: 25, verse: 8, translation: ebible-grcbrent}, expect_contains: "Κατέπιεν ὁ θάνατος ἰσχύσας", checked: 2026-11-26}
+  - {id: 1cor15-24-then-the-end, what: "1 Corinthians 15:23-24's order", tool: bible_verse, args: {book: 1Cor, chapter: 15, verse: 24, translation: sblgnt}, expect_contains: "εἶτα τὸ τέλος", checked: 2026-11-26}
+  - {id: rev3-21-two-thrones, what: "Revelation 3:21 keeps two thrones", tool: bible_verse, args: {book: Rev, chapter: 3, verse: 21, translation: BSB}, expect_contains: "sit with Me on My throne, just as I overcame and sat down with My Father on His throne", checked: 2026-11-26}
+  - {id: ps110-2-midst, what: "Psalm 110:2: rule in the midst of enemies", tool: bible_verse, args: {book: Ps, chapter: 110, verse: 2, translation: BSB}, expect_contains: "Rule in the midst of Your enemies", checked: 2026-11-26}
+  - {id: hab2-3-lxx-him, what: "the Septuagint of Habakkuk 2:3 reads a person", tool: bible_verse, args: {book: Hab, chapter: 2, verse: 3, translation: ebible-grcbrent}, expect_contains: "ὑπὸμεινον αὐτὸν, ὅτι ἐρχόμενος ἥξει", checked: 2026-11-26}
+  - {id: rom11-26-from-zion, what: "Romans 11:26 has 'from Zion'", tool: bible_verse, args: {book: Rom, chapter: 11, verse: 26, translation: sblgnt}, expect_contains: "Ἥξει ἐκ Σιὼν", checked: 2026-11-26}
+  - {id: hag2-7-treasures, what: "Haggai 2:7 in the BSB", tool: bible_verse, args: {book: Hag, chapter: 2, verse: 7, translation: BSB}, expect_contains: "they will come with all their treasures", checked: 2026-11-26}
+  - {id: ps2-9-lxx-shepherd, what: "the Septuagint of Psalm 2:9 has 'shepherd'", tool: bible_verse, args: {book: Ps, chapter: 2, verse: 9, translation: ebible-grcbrent}, expect_contains: "Ποιμανεῖς αὐτοὺς ἐν ῥάβδῳ σιδηρᾷ", checked: 2026-11-26}
   - {id: ps110-3-lxx, what: "the Septuagint of Psalm 110:3 (109:3) has 'before the morning star I begot you'", tool: bible_verse, args: {book: Ps, chapter: 109, verse: 3, translation: ebible-grcbrent}, expect_contains: "πρὸ Ἑωσφόρου ἐγέννησά σε", checked: 2026-11-26}
