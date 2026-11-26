@@ -77,10 +77,13 @@ and every count on this page is drawn from it when the site is built.
 **Which prophecies.** A prophecy is listed when the New Testament reads it of Jesus, and its card
 says how firmly:
 
-- **The New Testament says it was fulfilled in Him or spoke of Him.** A fulfilment formula ("this took place to
-  fulfill"), or a writer saying the text spoke of Him (Acts 2:31).
-- **The New Testament applies it to Him.** The words used of Jesus, or a person, event or
-  institution read as a type of Him, without a claim that the text spoke of Him.
+- **The New Testament says it was fulfilled in Him or spoke of Him.** A fulfilment formula ("this
+  took place to fulfill"), a writer saying the text spoke of Him (Acts 2:31), or a type: a person,
+  event or institution God shaped to point to Him. A type is prophecy by design. "Christ, our
+  Passover lamb, has been sacrificed" (1 Corinthians 5:7, BSB), and of the tabernacle, "By this
+  arrangement the Holy Spirit was showing..." (Hebrews 9:8, BSB).
+- **The New Testament applies it to Him.** The words used of Jesus, or a likeness drawn to Him,
+  where the text does not say the original pointed to Him (John 1:51).
 - **A reading of tradition.** The church has read it of Christ, and the New Testament at most
   alludes to it. These are the weakest, and they are marked.
 
@@ -88,7 +91,9 @@ says how firmly:
 
 - **How far ahead it was written.** The latest year each text could have been written on the
   traditional dates, against the year it came to pass, and the critics' date too where they date the
-  text later and this site's authorship table records it. Both schemes and their sources are in [What Literary Criticism
+  text later and this site's authorship table records it. Where no critical date is recorded, a
+  witness brackets it: Sirach names Jeremiah, Ezekiel and "the twelve prophets" (Sirach 49:6-10),
+  and its translator wrote after 132 BC, so on any dating those books existed by then. Both schemes and their sources are in [What Literary Criticism
   Declares](../scripture/what-literary-criticism-declares.md).
 - **A copy older than the event.** Whether a manuscript survives from before the fulfilment: the
   Great Isaiah Scroll, about 125 BC. Separately, whether the Hebrew is among the Dead Sea Scrolls,

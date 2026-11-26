@@ -10,6 +10,14 @@
 #                   (the ESV Study Bible introductions report the critical view where it differs).
 #                   Absent means no source consulted gives a different date -- it does NOT mean
 #                   critics agree. The measures treat it as "same as traditional" and say so.
+#   existed_by      a bracket where no critical date is recorded: the latest year the book can
+#                   have been written on ANY dating, fixed by a dated witness that names it.
+#                   existed_by_note gives the witness. Jeremiah, Ezekiel and the Twelve: Sirach
+#                   49:6-10 names Jeremiah (echoing Jeremiah 1:5, 10), Ezekiel's chariot vision and
+#                   "the twelve prophets", and the author's grandson translated it after 132 BC (its
+#                   prologue: "the thirty-eighth year of King Euergetes"). The ESV SB dates Jonah by
+#                   the same witness. Read by references/build/export_prophecies.py; the unity
+#                   measures do not use it.
 #   author          as the source states it; "anonymous" where the book names no author and the
 #                   source does not settle one
 #   author_key      groups books by writer for counting distinct authors. Anonymous books get their
@@ -287,6 +295,8 @@ id = "Jer"
 author = "Jeremiah, with his scribe Baruch"
 author_key = "jeremiah"
 date = [-627, -550]
+existed_by = -132
+existed_by_note = "Sirach 49:6-7 names Jeremiah and echoes Jeremiah 1:5, 10; the grandson translated Sirach after 132 BC (prologue)"
 date_note = "ministry from 627 BC; composed by about 550 (ESV SB)"
 written_from = "Judah, and Egypt for the last oracles (Jeremiah 43:8-44:30, at Tahpanhes)"
 region = "Asia; Africa"
@@ -308,6 +318,8 @@ id = "Ezek"
 author = "Ezekiel"
 author_key = "ezekiel"
 date = [-593, -571]
+existed_by = -132
+existed_by_note = "Sirach 49:8 names Ezekiel and his vision on the chariot of the cherubim; the grandson translated Sirach after 132 BC (prologue)"
 written_from = "Babylonia, among the exiles (Ezekiel 1:1-3)"
 region = "Asia"
 language = "hebrew"
@@ -332,6 +344,8 @@ id = "Hos"
 author = "Hosea son of Beeri"
 author_key = "hosea"
 date = [-755, -715]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 date_note = "latter half of the 8th century (ESV SB)"
 region = "Asia"
 language = "hebrew"
@@ -342,6 +356,8 @@ id = "Joel"
 author = "Joel son of Pethuel"
 author_key = "joel"
 date = [-520, -400]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 date_note = "no consensus; most scholars date it after the exile (ESV SB)"
 region = "Asia"
 language = "hebrew"
@@ -352,6 +368,8 @@ id = "Amos"
 author = "Amos of Tekoa"
 author_key = "amos"
 date = [-765, -750]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 date_note = "within 793-739 BC, 'about 760' (ESV SB)"
 region = "Asia"
 language = "hebrew"
@@ -362,6 +380,8 @@ id = "Obad"
 author = "Obadiah"
 author_key = "obadiah"
 date = [-586, -550]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 date_note = "probably after the fall of Jerusalem in 586 (ESV SB)"
 region = "Asia"
 language = "hebrew"
@@ -372,6 +392,8 @@ id = "Jonah"
 author = "anonymous"
 author_key = "anon-jonah"
 date = [-782, -400]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 date_note = "Jonah prophesied under Jeroboam II (782-753 BC); the book is anonymous and undated (ESV SB)"
 region = "Asia"
 language = "hebrew"
@@ -382,6 +404,8 @@ id = "Mic"
 author = "Micah of Moresheth"
 author_key = "micah"
 date = [-735, -700]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 date_note = "Jotham, Ahaz and Hezekiah (750-687 BC) (ESV SB)"
 region = "Asia"
 language = "hebrew"
@@ -392,6 +416,8 @@ id = "Nah"
 author = "Nahum of Elkosh"
 author_key = "nahum"
 date = [-663, -612]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 region = "Asia"
 language = "hebrew"
 genre = "prophecy"
@@ -401,6 +427,8 @@ id = "Hab"
 author = "Habakkuk"
 author_key = "habakkuk"
 date = [-620, -605]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 date_note = "probably not later than the end of Josiah's reign (ESV SB)"
 region = "Asia"
 language = "hebrew"
@@ -411,6 +439,8 @@ id = "Zeph"
 author = "Zephaniah"
 author_key = "zephaniah"
 date = [-640, -609]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 region = "Asia"
 language = "hebrew"
 genre = "prophecy"
@@ -420,6 +450,8 @@ id = "Hag"
 author = "Haggai"
 author_key = "haggai"
 date = [-520, -515]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 region = "Asia"
 language = "hebrew"
 genre = "prophecy"
@@ -429,6 +461,8 @@ id = "Zech"
 author = "Zechariah son of Berechiah"
 author_key = "zechariah"
 date = [-520, -450]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 date_note = "ministry from 520 BC; chapters 9-14 possibly written by Zechariah later, in the 5th century (ESV SB)"
 region = "Asia"
 language = "hebrew"
@@ -439,6 +473,8 @@ id = "Mal"
 author = "Malachi"
 author_key = "malachi"
 date = [-460, -430]
+existed_by = -132
+existed_by_note = "Sirach 49:10 names 'the twelve prophets' (τῶν δώδεκα προφητῶν); the ESV SB dates Jonah by it; the grandson translated Sirach after 132 BC (prologue)"
 date_note = "mid-5th century, contemporary of Ezra and Nehemiah (ESV SB)"
 region = "Asia"
 language = "hebrew"

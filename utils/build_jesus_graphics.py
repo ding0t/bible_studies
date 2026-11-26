@@ -286,6 +286,11 @@ def prophets_view_historys_view():
     ahead = statistics.median(r["years_ahead_traditional"] for r in dated)
     # Only where the authorship table records a critical date of the book's own, and it is later.
     later = [r for r in dated if r["written_critical"] is not None and r["written_critical"] > r["written_traditional"]]
+    # The bracket where no critical date is recorded: the book existed by then on any dating.
+    bracket = [r for r in dated if r["written_critical"] is None and r["existed_by"] is not None]
+
+    def latest(r):
+        return r["written_critical"] if r in later else r["existed_by"]
     earliest = min(dated, key=lambda r: r["written_traditional"])
     partly = [r for r in dated if entries[r["id"]]["status"] == "partly"]
 
@@ -356,7 +361,7 @@ def prophets_view_historys_view():
     out.append(f'<circle cx="{left + 26}" cy="{y}" r="3.2" fill="{INK}"/>')
     out.append(text(left + 36, y + 4, "written by (the traditional date)", 12))
     out.append(f'<circle cx="{left + 240}" cy="{y}" r="3.2" fill="{PAPER_}" stroke="{BLUE}" stroke-width="1.3"/>')
-    out.append(text(left + 250, y + 4, "by the critics' later date", 12))
+    out.append(text(left + 250, y + 4, "by the latest any dating allows", 12))
     out.append(f'<path d="M{left + 420} {y} H{left + 446}" stroke="{GREY}" stroke-width="1.3" stroke-dasharray="3 3"/>')
     out.append(text(left + 454, y + 4, "still to come in part", 12))
     y += 44
@@ -370,8 +375,8 @@ def prophets_view_historys_view():
             if entries[r["id"]]["status"] == "partly":
                 out.append(f'<path d="M{ff:.1f} {yy:.1f} H{far:.1f}" stroke="{GREY}" stroke-width="1" '
                            f'stroke-dasharray="3 3"/>')
-            if r in later:
-                wc = x(r["written_critical"])
+            if r in later or r in bracket:
+                wc = x(latest(r))
                 out.append(f'<circle cx="{wc:.1f}" cy="{yy:.1f}" r="2.2" fill="{PAPER_}" stroke="{BLUE}" stroke-width="1"/>')
             out.append(f'<circle cx="{wt:.1f}" cy="{yy:.1f}" r="2.4" fill="{INK}"/>')
             y += step
@@ -395,12 +400,12 @@ def prophets_view_historys_view():
 
     y = axis_y + 70
     out += lines_at(W / 2, y, [
-        f"Median {ahead:,.0f} years ahead on the traditional dates; {len(later)} are dated later by critics, "
-        f"{sum(r['years_ahead_critical'] > 0 for r in later)} of them still before the event.",
+        f"Median {ahead:,.0f} years ahead on the traditional dates. On the latest date any dating allows,",
+        f"{sum(latest(r) < r['fulfilled'] for r in later + bracket)} of the {len(later + bracket)} shown still came before the event.",
         f"The earliest: {earliest['prophecy']}, written by {year_label(earliest['written_traditional'])}."],
         13, anchor="middle")
-    out.append(text(W / 2, y + 52, "“the sufferings of Christ and the glories to follow”", 15, "middle", italic=True))
-    out.append(text(W / 2, y + 72, "1 Peter 1:11 (BSB)", 12.5, "middle", fill=MUTED))
+    out.append(text(W / 2, y + 70, "“the sufferings of Christ and the glories to follow”", 15, "middle", italic=True))
+    out.append(text(W / 2, y + 90, "1 Peter 1:11 (BSB)", 12.5, "middle", fill=MUTED))
     out.append(credit(h))
     out.append("</svg>")
     return "\n".join(out)

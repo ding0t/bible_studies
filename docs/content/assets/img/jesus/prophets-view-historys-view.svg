@@ -44,7 +44,7 @@
 <circle cx="62" cy="612" r="3.2" fill="#3b2f1e"/>
 <text x="72.0" y="616.0" font-size="12" fill="#3b2f1e">written by (the traditional date)</text>
 <circle cx="276" cy="612" r="3.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1.3"/>
-<text x="286.0" y="616.0" font-size="12" fill="#3b2f1e">by the critics' later date</text>
+<text x="286.0" y="616.0" font-size="12" fill="#3b2f1e">by the latest any dating allows</text>
 <path d="M456 612 H482" stroke="#9a8b72" stroke-width="1.3" stroke-dasharray="3 3"/>
 <text x="490.0" y="616.0" font-size="12" fill="#3b2f1e">still to come in part</text>
 <text x="178.0" y="666.0" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-weight="bold">Lineage</text>
@@ -56,15 +56,18 @@
 <text x="178.0" y="694.0" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-weight="bold">Birth</text>
 <path d="M390.0 687.0 H563.8" stroke="#3b2f1e" stroke-width="1"/>
 <path d="M563.8 687.0 H668.0" stroke="#9a8b72" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="532.0" cy="687.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="390.0" cy="687.0" r="2.4" fill="#3b2f1e"/>
 <path d="M394.8 693.0 H563.8" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="394.8" cy="693.0" r="2.4" fill="#3b2f1e"/>
 <text x="178.0" y="728.0" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-weight="bold">Childhood</text>
 <path d="M386.2 715.0 H563.8" stroke="#3b2f1e" stroke-width="1"/>
+<circle cx="532.0" cy="715.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="386.2" cy="715.0" r="2.4" fill="#3b2f1e"/>
 <path d="M394.8 721.0 H564.0" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="394.8" cy="721.0" r="2.4" fill="#3b2f1e"/>
 <path d="M427.5 727.0 H563.8" stroke="#3b2f1e" stroke-width="1"/>
+<circle cx="532.0" cy="727.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="427.5" cy="727.0" r="2.4" fill="#3b2f1e"/>
 <path d="M452.5 733.0 H563.8" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="452.5" cy="733.0" r="2.4" fill="#3b2f1e"/>
@@ -74,6 +77,7 @@
 <circle cx="394.8" cy="755.0" r="2.4" fill="#3b2f1e"/>
 <path d="M457.5 761.0 H572.2" stroke="#3b2f1e" stroke-width="1"/>
 <path d="M572.2 761.0 H668.0" stroke="#9a8b72" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="532.0" cy="761.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="457.5" cy="761.0" r="2.4" fill="#3b2f1e"/>
 <text x="178.0" y="793.0" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-weight="bold">Nature</text>
 <path d="M452.5 783.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
@@ -81,6 +85,7 @@
 <path d="M452.5 789.0 H563.8" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="452.5" cy="789.0" r="2.4" fill="#3b2f1e"/>
 <path d="M465.0 795.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
+<circle cx="532.0" cy="795.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="465.0" cy="795.0" r="2.4" fill="#3b2f1e"/>
 <text x="178.0" y="857.0" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-weight="bold">Ministry</text>
 <path d="M394.8 817.0 H572.2" stroke="#3b2f1e" stroke-width="1"/>
@@ -110,6 +115,7 @@
 <circle cx="431.0" cy="859.0" r="2.4" fill="#3b2f1e"/>
 <path d="M452.5 865.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
 <path d="M573.2 865.0 H668.0" stroke="#9a8b72" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="532.0" cy="865.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="452.5" cy="865.0" r="2.4" fill="#3b2f1e"/>
 <path d="M452.5 871.0 H573.0" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="452.5" cy="871.0" r="2.4" fill="#3b2f1e"/>
@@ -137,8 +143,10 @@
 <circle cx="465.0" cy="957.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="213.5" cy="957.0" r="2.4" fill="#3b2f1e"/>
 <path d="M377.5 963.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
+<circle cx="532.0" cy="963.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="377.5" cy="963.0" r="2.4" fill="#3b2f1e"/>
 <path d="M390.0 969.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
+<circle cx="532.0" cy="969.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="390.0" cy="969.0" r="2.4" fill="#3b2f1e"/>
 <path d="M394.8 975.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="430.0" cy="975.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
@@ -153,6 +161,7 @@
 <circle cx="430.0" cy="993.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="394.8" cy="993.0" r="2.4" fill="#3b2f1e"/>
 <path d="M452.5 999.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
+<circle cx="532.0" cy="999.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="452.5" cy="999.0" r="2.4" fill="#3b2f1e"/>
 <path d="M452.5 1005.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="452.5" cy="1005.0" r="2.4" fill="#3b2f1e"/>
@@ -160,12 +169,14 @@
 <circle cx="452.5" cy="1011.0" r="2.4" fill="#3b2f1e"/>
 <path d="M452.5 1017.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
 <path d="M573.2 1017.0 H668.0" stroke="#9a8b72" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="532.0" cy="1017.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="452.5" cy="1017.0" r="2.4" fill="#3b2f1e"/>
 <path d="M452.5 1023.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="452.5" cy="1023.0" r="2.4" fill="#3b2f1e"/>
 <path d="M452.5 1029.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="452.5" cy="1029.0" r="2.4" fill="#3b2f1e"/>
 <path d="M452.5 1035.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
+<circle cx="532.0" cy="1035.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="452.5" cy="1035.0" r="2.4" fill="#3b2f1e"/>
 <path d="M452.5 1041.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="452.5" cy="1041.0" r="2.4" fill="#3b2f1e"/>
@@ -190,6 +201,7 @@
 <circle cx="465.0" cy="1111.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="213.5" cy="1111.0" r="2.4" fill="#3b2f1e"/>
 <path d="M386.2 1117.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
+<circle cx="532.0" cy="1117.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="386.2" cy="1117.0" r="2.4" fill="#3b2f1e"/>
 <path d="M394.8 1123.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="430.0" cy="1123.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
@@ -211,6 +223,7 @@
 <path d="M452.5 1165.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
 <circle cx="452.5" cy="1165.0" r="2.4" fill="#3b2f1e"/>
 <path d="M465.0 1171.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
+<circle cx="532.0" cy="1171.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="465.0" cy="1171.0" r="2.4" fill="#3b2f1e"/>
 <text x="178.0" y="1212.0" font-size="12.5" fill="#3b2f1e" text-anchor="end" font-weight="bold">Redemption</text>
 <path d="M394.8 1193.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
@@ -228,9 +241,11 @@
 <circle cx="394.8" cy="1211.0" r="2.4" fill="#3b2f1e"/>
 <path d="M427.5 1217.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
 <path d="M573.2 1217.0 H668.0" stroke="#9a8b72" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="532.0" cy="1217.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="427.5" cy="1217.0" r="2.4" fill="#3b2f1e"/>
 <path d="M465.0 1223.0 H573.2" stroke="#3b2f1e" stroke-width="1"/>
 <path d="M573.2 1223.0 H668.0" stroke="#9a8b72" stroke-width="1" stroke-dasharray="3 3"/>
+<circle cx="532.0" cy="1223.0" r="2.2" fill="#faf6ec" stroke="#2f4f7f" stroke-width="1"/>
 <circle cx="465.0" cy="1223.0" r="2.4" fill="#3b2f1e"/>
 <path d="M190 1242 H590" stroke="#3b2f1e" stroke-width="1"/>
 <path d="M190.0 1242 V1247" stroke="#3b2f1e"/>
@@ -248,9 +263,10 @@
 <rect x="646" y="648" width="44" height="594" fill="#f6ecd0" stroke="#a67c3d" stroke-width="1"/>
 <text x="668.0" y="1261.0" font-size="11.5" fill="#a67c3d" text-anchor="middle" font-weight="bold">His return</text>
 <text x="690.0" y="1278.0" font-size="11.5" fill="#6b5a3e" text-anchor="end" font-style="italic">the valley between: the church age, which no text counts</text>
-<text x="360.0" y="1312.0" font-size="13" fill="#3b2f1e" text-anchor="middle">Median 483 years ahead on the traditional dates; 19 are dated later by critics, 19 of them still before the event.</text>
-<text x="360.0" y="1328.9" font-size="13" fill="#3b2f1e" text-anchor="middle">The earliest: Exodus 12:46; Psalm 34:20, written by 1406 BC.</text>
-<text x="360.0" y="1364.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">“the sufferings of Christ and the glories to follow”</text>
-<text x="360.0" y="1384.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">1 Peter 1:11 (BSB)</text>
+<text x="360.0" y="1312.0" font-size="13" fill="#3b2f1e" text-anchor="middle">Median 483 years ahead on the traditional dates. On the latest date any dating allows,</text>
+<text x="360.0" y="1328.9" font-size="13" fill="#3b2f1e" text-anchor="middle">34 of the 34 shown still came before the event.</text>
+<text x="360.0" y="1345.8" font-size="13" fill="#3b2f1e" text-anchor="middle">The earliest: Exodus 12:46; Psalm 34:20, written by 1406 BC.</text>
+<text x="360.0" y="1382.0" font-size="15" fill="#3b2f1e" text-anchor="middle" font-style="italic">“the sufferings of Christ and the glories to follow”</text>
+<text x="360.0" y="1402.0" font-size="12.5" fill="#6b5a3e" text-anchor="middle">1 Peter 1:11 (BSB)</text>
 <text x="696.0" y="1424.0" font-size="11" fill="#6b5a3e" text-anchor="end" font-style="italic">After the manner of Clarence Larkin · the-way.lewy.au</text>
 </svg>

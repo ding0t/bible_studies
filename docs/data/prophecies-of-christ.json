@@ -1,5 +1,5 @@
 {
- "inputs_sha256": "61c20b12d57854d080eb0dc6c35c427b3b3746be693e24deed5a681a6bbbdb7d",
+ "inputs_sha256": "b8017620cbd7ae3b96bb93d814e974bf53115b603c28dc40bfad272525ef8629",
  "note": "Written by references/build/export_prophecies.py; do not edit by hand.",
  "prophecies": [
   {
@@ -10,6 +10,8 @@
    "fulfilled": -5,
    "years_ahead_traditional": 695,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 127,
    "qumran": [
     "4Q81"
    ],
@@ -23,6 +25,8 @@
    "fulfilled": -5,
    "years_ahead_traditional": 676,
    "years_ahead_critical": 695,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa",
     "4Q65"
@@ -37,6 +41,8 @@
    "fulfilled": 29,
    "years_ahead_traditional": 710,
    "years_ahead_critical": 729,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa"
    ],
@@ -50,6 +56,8 @@
    "fulfilled": 29,
    "years_ahead_traditional": 459,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 161,
    "qumran": [
     "4Q76"
    ],
@@ -63,6 +71,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 165,
    "qumran": [],
    "manuscript_before": false
   },
@@ -74,6 +84,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 165,
    "qumran": [],
    "manuscript_before": false
   },
@@ -85,6 +97,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -96,6 +110,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q88"
    ],
@@ -109,6 +125,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 1439,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q11",
     "4Q128",
@@ -129,6 +147,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 165,
    "qumran": [
     "4Q80"
    ],
@@ -142,6 +162,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 714,
    "years_ahead_critical": 573,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -158,6 +180,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q85"
    ],
@@ -171,6 +195,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 569,
    "years_ahead_critical": 197,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -182,6 +208,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "11Q7",
     "3Q2"
@@ -196,6 +224,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "11Q8"
    ],
@@ -209,6 +239,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "11Q5",
     "4Q84"
@@ -223,6 +255,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q44"
    ],
@@ -236,6 +270,8 @@
    "fulfilled": -5,
    "years_ahead_traditional": 445,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -247,6 +283,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -263,6 +301,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa",
     "4Q56"
@@ -277,6 +317,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 433,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 165,
    "qumran": [],
    "manuscript_before": false
   },
@@ -288,6 +330,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa",
     "4Q59",
@@ -303,6 +347,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa"
    ],
@@ -316,6 +362,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa",
     "4Q57"
@@ -330,6 +378,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q114"
    ],
@@ -343,6 +393,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -354,6 +406,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -365,6 +419,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -376,6 +432,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 1439,
    "years_ahead_critical": 433,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -387,6 +445,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -398,6 +458,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -409,6 +471,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -420,6 +484,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "11Q5"
    ],
@@ -433,6 +499,8 @@
    "fulfilled": -5,
    "years_ahead_traditional": 676,
    "years_ahead_critical": 695,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa"
    ],
@@ -446,6 +514,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa",
     "4Q80"
@@ -460,6 +530,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa"
@@ -474,6 +546,8 @@
    "fulfilled": -5,
    "years_ahead_traditional": 710,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 127,
    "qumran": [
     "4Q82"
    ],
@@ -487,6 +561,8 @@
    "fulfilled": -5,
    "years_ahead_traditional": 545,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 127,
    "qumran": [],
    "manuscript_before": false
   },
@@ -498,6 +574,8 @@
    "fulfilled": -4,
    "years_ahead_traditional": 677,
    "years_ahead_critical": 696,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa"
    ],
@@ -511,6 +589,8 @@
    "fulfilled": -5,
    "years_ahead_traditional": 445,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -522,6 +602,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q83"
    ],
@@ -535,6 +617,8 @@
    "fulfilled": 29,
    "years_ahead_traditional": 710,
    "years_ahead_critical": 569,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -550,6 +634,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q76"
    ],
@@ -563,6 +649,8 @@
    "fulfilled": 29,
    "years_ahead_traditional": 710,
    "years_ahead_critical": 429,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -579,6 +667,8 @@
    "fulfilled": 30,
    "years_ahead_traditional": 711,
    "years_ahead_critical": 570,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa"
    ],
@@ -592,6 +682,8 @@
    "fulfilled": 30,
    "years_ahead_traditional": 711,
    "years_ahead_critical": 730,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa"
@@ -606,6 +698,8 @@
    "fulfilled": 30,
    "years_ahead_traditional": 711,
    "years_ahead_critical": 570,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa"
@@ -620,6 +714,8 @@
    "fulfilled": 32,
    "years_ahead_traditional": 482,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -631,6 +727,8 @@
    "fulfilled": 30,
    "years_ahead_traditional": 480,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q83"
    ],
@@ -644,6 +742,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -655,6 +755,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 714,
    "years_ahead_critical": 573,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -670,6 +772,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q83",
     "4Q98"
@@ -684,6 +788,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 714,
    "years_ahead_critical": 733,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -701,6 +807,8 @@
    "fulfilled": 29,
    "years_ahead_traditional": 1435,
    "years_ahead_critical": 568,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -712,6 +820,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -723,6 +833,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q87"
    ],
@@ -736,6 +848,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -747,6 +861,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 165,
    "qumran": [],
    "manuscript_before": false
   },
@@ -758,6 +874,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q85",
     "4Q98"
@@ -772,6 +890,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 714,
    "years_ahead_critical": 573,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa"
    ],
@@ -785,6 +905,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 733,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 165,
    "qumran": [],
    "manuscript_before": false
   },
@@ -796,6 +918,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 714,
    "years_ahead_critical": 573,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -811,6 +935,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "11Q7"
    ],
@@ -824,6 +950,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 1439,
    "years_ahead_critical": 433,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -835,6 +963,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 1439,
    "years_ahead_critical": 433,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q11"
    ],
@@ -848,6 +978,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 1439,
    "years_ahead_critical": 433,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -859,6 +991,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -870,6 +1004,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -881,6 +1017,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -892,6 +1030,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -903,6 +1043,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 783,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 165,
    "qumran": [],
    "manuscript_before": false
   },
@@ -914,6 +1056,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q83"
    ],
@@ -927,6 +1071,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 714,
    "years_ahead_critical": 573,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -943,6 +1089,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -954,6 +1102,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -965,6 +1115,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 433,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 165,
    "qumran": [
     "4Q76",
     "4Q81"
@@ -979,6 +1131,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 748,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 165,
    "qumran": [],
    "manuscript_before": false
   },
@@ -990,6 +1144,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 714,
    "years_ahead_critical": 573,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -1005,6 +1161,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 714,
    "years_ahead_critical": 573,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -1020,6 +1178,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1031,6 +1191,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1042,6 +1204,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1053,6 +1217,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1064,6 +1230,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa"
    ],
@@ -1077,6 +1245,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1088,6 +1258,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1099,6 +1271,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 583,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 165,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1110,6 +1284,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 433,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": 165,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1121,6 +1297,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 714,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -1136,6 +1314,8 @@
    "fulfilled": -5,
    "years_ahead_traditional": 676,
    "years_ahead_critical": 535,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -1153,6 +1333,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 714,
    "years_ahead_critical": 573,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -1168,6 +1350,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 714,
    "years_ahead_critical": 733,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa",
     "4Q57"
@@ -1182,6 +1366,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1193,6 +1379,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1204,6 +1392,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q98g"
    ],
@@ -1217,6 +1407,8 @@
    "fulfilled": 33,
    "years_ahead_traditional": 483,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1228,6 +1420,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa",
     "4Q55",
@@ -1244,6 +1438,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1255,6 +1451,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1266,6 +1464,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q11",
     "4Q14",
@@ -1281,6 +1481,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q2",
     "4Q11",
@@ -1296,6 +1498,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "11Q1"
    ],
@@ -1309,6 +1513,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1320,6 +1526,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "11Q5",
     "4Q84"
@@ -1334,6 +1542,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1345,6 +1555,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "11Q7"
    ],
@@ -1358,6 +1570,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa",
     "4Q57"
@@ -1372,6 +1586,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1383,6 +1599,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa"
@@ -1397,6 +1615,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q42",
     "4Q72",
@@ -1413,6 +1633,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa"
@@ -1427,6 +1649,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "4Q112"
    ],
@@ -1440,6 +1664,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1451,6 +1677,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa"
@@ -1465,6 +1693,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Q8",
     "1Qisaa",
@@ -1480,6 +1710,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa",
     "4Q59",
@@ -1496,6 +1728,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": null,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1507,6 +1741,8 @@
    "fulfilled": null,
    "years_ahead_traditional": null,
    "years_ahead_critical": null,
+   "existed_by": -132,
+   "years_ahead_at_least": null,
    "qumran": [],
    "manuscript_before": false
   }

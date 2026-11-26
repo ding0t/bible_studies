@@ -24,9 +24,13 @@
 #                 "drafted"    researched; the fields below filled in from the tools
 #                 "verified"   every claim checked and recorded as evidence in the state file
 #   tier          1  the New Testament says the text was fulfilled in Jesus or spoke of Him
-#                    (a fulfilment formula, "this is", "he foresaw and spoke", Acts 2:31)
-#                 2  the New Testament applies the words to Jesus, or reads the text as a type,
-#                    without saying it spoke of Him
+#                    (a fulfilment formula, "this is", "he foresaw and spoke", Acts 2:31), or says
+#                    God shaped a person, event or institution to point to Him: a type is prophecy
+#                    by design (decided by the author 2026-11-26; "Christ, our Passover lamb",
+#                    1 Corinthians 5:7; "the Holy Spirit was showing", Hebrews 9:8; "that rock was
+#                    Christ", 1 Corinthians 10:4)
+#                 2  the New Testament applies the words to Jesus, or draws a likeness to Him,
+#                    without saying the original pointed to Him (Jacob's ladder, John 1:51)
 #                 3  a reading of Christ held by tradition; the New Testament at most alludes
 #   category      what the prophecy is about, the backlog's headings (about/backlog.md 2.1):
 #                 nature | lineage | birth | childhood | forerunner | ministry | passion |
@@ -395,6 +399,10 @@ uses = [
 status = "partly"
 control = "divine"
 recognition = "veiled"
+recognition_evidence = [
+  { note = "Jonathan ben Uzziel was stopped from translating the Writings 'because it has in it the end of the Messiah' (קץ משיח). The Talmud names no book and no verse; read 2026-11-26 (Wikisource Talmud Bavli, CC-BY-SA). Not a reading of Daniel 9:25-26 of the Messiah", source = "Babylonian Talmud, Megillah 3a", year = 500 },
+  { note = "Rashi on Megillah 3a: 'the end of the Messiah: in the book of Daniel'. Rashi on Daniel 9:25 reads 'until an anointed one, a prince' as Cyrus ('to His anointed, to Cyrus', Isaiah 45:1), and on 9:26 the anointed one cut off as Agrippa, king of Judah at the destruction: 'messiah is only a word for a prince and great man' (Vilna and Vocalized editions, public domain / CC0). The later synagogue turns the verses away from the Messiah", source = "Rashi on Megillah 3a and on Daniel 9:25-26", year = 1100 },
+]
 event = "daniel_terminus_hoehner"
 future_event = "covenant"
 standing = "contested-reckoning"
@@ -2206,7 +2214,7 @@ notes = "A vision Jacob saw, with no prediction in it; kept as a type because Je
 [[prophecy]]
 id = "the-rock-was-christ"
 research = "drafted"
-tier = 2
+tier = 1
 category = "office"
 prophecy = "Exodus 17:6; Numbers 20:11"
 form = "type"
@@ -2223,7 +2231,7 @@ notes = "Paul says the rock was Christ and calls the events examples (τύποι
 [[prophecy]]
 id = "bread-from-heaven"
 research = "drafted"
-tier = 2
+tier = 1
 category = "office"
 prophecy = "Exodus 16:4, 15; Psalm 78:24"
 form = "type"
@@ -2241,7 +2249,7 @@ notes = "See The Bread of Life."
 [[prophecy]]
 id = "the-day-of-atonement"
 research = "drafted"
-tier = 2
+tier = 1
 category = "office"
 prophecy = "Leviticus 16:1-34"
 form = "type"

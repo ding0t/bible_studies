@@ -66,8 +66,13 @@ def entry_row(e: dict, books: dict, years: dict[str, int], passion: set[str], sc
     # date_range falls back to the traditional date where the authorship table records no critical
     # one (the Psalms, Zechariah), which would read as the critics agreeing. Keep a critical date
     # only where every text's book has one of its own.
+    existed_by = None
     if not all(has_critical_date(books[b], c) for b, c, _ in refs):
         written["critical"] = None
+        # The bracket instead: the latest year any dating allows, fixed by a witness that names
+        # the book (Sirach 49 for Jeremiah, Ezekiel and the Twelve). Only where every text has one.
+        if all("existed_by" in books[b] for b, _, _ in refs):
+            existed_by = min(books[b]["existed_by"] for b, _, _ in refs)
     event = e.get("event")
     fulfilled = (crucifixion_year() if event in passion else years.get(event)) if event else e.get("year")
     scrolls = sorted(set().union(*(scrolls_at.get(r, set()) for r in hebrew)))
@@ -80,6 +85,8 @@ def entry_row(e: dict, books: dict, years: dict[str, int], passion: set[str], sc
         "fulfilled": fulfilled,
         "years_ahead_traditional": fulfilled - written["traditional"] if dated else None,
         "years_ahead_critical": fulfilled - written["critical"] if dated and written["critical"] is not None else None,
+        "existed_by": existed_by,
+        "years_ahead_at_least": fulfilled - existed_by if dated and existed_by is not None else None,
         "qumran": scrolls,
         # A manuscript you can hold, older than the event: the Great Isaiah Scroll (about 125 BC),
         # or any Qumran copy of a prophecy fulfilled after the site fell. A Qumran copy of one

@@ -39,7 +39,7 @@ CATEGORIES = {
     "future": "Future",
 }
 TIERS = {
-    1: "The New Testament says it was fulfilled in Him or spoke of Him",
+    1: "The New Testament says it was fulfilled in Him, spoke of Him, or was shaped to point to Him",
     2: "The New Testament applies it to Him",
     3: "A reading of tradition; the New Testament at most alludes",
 }
@@ -143,6 +143,9 @@ def _years(row: dict) -> str:
     # The critics' date matters only where it is later; an earlier one (Isaiah 7) moves nothing.
     if crit is not None and crit > trad:
         line += f", or {row['years_ahead_critical']:,} on the latest date critics give it ({year_label(crit)})"
+    elif crit is None and row.get("existed_by") is not None:
+        line += (f"; on any dating it existed by {year_label(row['existed_by'])}, when Sirach names the book: "
+                 f"{row['years_ahead_at_least']:,} years ahead at the least")
     return line + "."
 
 
@@ -225,11 +228,17 @@ def _dated() -> str:
     before = sum(r["years_ahead_traditional"] > 0 for r in rows)
     critical = [r for r in rows if r["written_critical"] is not None]
     before_crit = sum(r["years_ahead_critical"] > 0 for r in critical)
+    bracketed = [r for r in rows if r["written_critical"] is None and r.get("existed_by") is not None]
+    before_bracket = sum(r["years_ahead_at_least"] > 0 for r in bracketed)
+    open_ = len(rows) - len(critical) - len(bracketed)
     manuscript = sum(r["manuscript_before"] and "1Qisaa" in r["qumran"] for r in rows)
     qumran = sum(bool(r["qumran"]) for r in _computed.values())
     return (f'<p class="pc-dated">{len(rows)} of the {len(_ledger)} prophecies are tied to an event this '
             f"site's chronology dates, and {before} of them were written before it on the traditional dates. "
             f"For {len(critical)} of them this site records the date critical scholarship gives the text, "
-            f"and {before_crit} of those were written before the event on that date too. {manuscript} survive in the "
+            f"and {before_crit} of those were written before the event on that date too. For {len(bracketed)} more, "
+            f"in Jeremiah, Ezekiel and the Twelve, Sirach names the book, so on any dating it existed by 132 BC: "
+            f"{before_bracket} of those came before the event. The other {open_}, most of them in the Psalms, "
+            f"carry only the traditional date here. {manuscript} survive in the "
             f"Great Isaiah Scroll, a manuscript older than the event. At least part of the Hebrew of "
             f"{qumran} of all {len(_ledger)} is among the Dead Sea Scrolls, copied before AD 68.</p>")

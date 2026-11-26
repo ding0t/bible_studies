@@ -24,11 +24,11 @@ word_budget_reason: "the hand-written prose only; the cards are generated"
 
 open_questions:
   - "31 fulfilled or partly-fulfilled entries carry no `event` (the nature entries, most of lineage, the types), so they are off the span chart's history panel; giving each a dated event is ledger research"
-  - "the series' membership and order are a proposal for the author: Known Before, Seen After; Where Jesus Stopped Reading; The King on a Donkey; The Cups Jesus Drank; Three Days and Three Nights; Melchizedek Priesthood; The Bright Morning Star"
+  - "CONFIRMED by the author 2026-11-26: the seven weeks and their order"
   - "publish with the two draft studies, which this page lists as coming until they are published"
-  - "FOR THE AUTHOR (review 2026-11-26): the-passover-lamb, the-bronze-serpent and three-days-in-the-fish are tier 1 with only type or allusion uses; the schema puts a type at tier 2. 1 Corinthians 5:7 ('Christ, our Passover lamb, has been sacrificed') and John 3:14's 'must' may carry tier 1; check_prophecies.py allows a type to close tier 1. Re-tier or keep, and say which rule"
-  - "lead (review 2026-11-26): b. Megillah 3a may tie Daniel to 'the end of the Messiah', which would make sixty-nine-weeks read-after; read it at source (Sefaria export) before changing the ledger"
-  - "critical dates are recorded for 26 of the 71 dated prophecies; the Psalms, Zechariah 9-14, Micah, Hosea, Joel, Jonah and Jeremiah have none in docs/data/book-authorship.toml, so their cards show only the traditional date. Adding sourced critical dates (critical_parts for Zechariah 9-14) would widen the test"
+  - "SETTLED by the author 2026-11-26 ('types... were directly aimed at deliberately pointing to Christ as prophecy'): a type the NT says God shaped to point to Him is tier 1. The three stay; the-day-of-atonement, the-rock-was-christ and bread-from-heaven moved up by the same rule (prophecy-and-jesus.yml decisions.types_are_prophecy)"
+  - "READ 2026-11-26 at the author's request: b. Megillah 3a says only that the Writings hold 'the end of the Messiah' (קץ משיח), naming no book; Rashi there says 'in the book of Daniel', and Rashi on Daniel 9:25-26 reads the anointed ones as Cyrus and Agrippa. sixty-nine-weeks stays veiled, with both witnesses in recognition_evidence. The William Davidson English adds 'in the book of Daniel' to the Talmud's sentence from Rashi"
+  - "BRACKETED 2026-11-26 at the author's word ('we can probably bracket the dating'): book-authorship.toml existed_by = -132 for Jeremiah, Ezekiel and the Twelve (Sirach 49:6-10 names them; the translator's prologue is after 132 BC; the ESV SB dates Jonah by the same witness). 26 dated prophecies carry a critical date, 15 the bracket, 30 (most in the Psalms) neither: the Psalms wait on the Qumran palaeographic dates (prophecy-and-jesus.yml open)"
   - "the span chart labels a multi-reference split by its first reference (Hosea 3:4-5 for a four-reference entry)"
 resources_consulted: []
 last_updated: "2026-11-26"

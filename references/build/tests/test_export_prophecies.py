@@ -42,6 +42,15 @@ def test_no_critical_date_is_claimed_where_the_table_records_none(rows):
     critics' name would make them agree with it."""
     assert rows["hands-and-feet"]["written_critical"] is None
     assert rows["hands-and-feet"]["years_ahead_critical"] is None
+    assert rows["hands-and-feet"]["existed_by"] is None  # the Psalms have no bracket yet
+
+
+def test_zechariah_is_bracketed_by_sirach(rows):
+    """Zechariah 9-14 has no critical date in the table, but Sirach 49:10 names the Twelve and its
+    translator wrote after 132 BC: on any dating the prophecy existed by then."""
+    pierced = rows["pierced-one"]
+    assert pierced["written_critical"] is None
+    assert pierced["existed_by"] == -132 and pierced["years_ahead_at_least"] == 165
 
 
 def test_an_undated_prophecy_claims_nothing(rows):
