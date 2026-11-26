@@ -79,10 +79,10 @@ His disciples' minds, to understand the Scriptures and to see Him in them. In Je
 
 - [What "known before" means](#what-known-before-means). The witnesses older than Jesus, and how the prophecies were counted.
 - [Known before: the line and the throne](#known-before-the-line-and-the-throne). What Israel expected, and the texts that show it.
-- [Hidden: the suffering](#hidden-the-suffering). The disciples, the crowd and the later synagogue.
-- [Done by those who did not know](#done-by-those-who-did-not-know). His opponents, and the answer to "it was staged".
-- [Seen after](#seen-after). The road to Emmaus and the opened minds.
-- [Why God hid it](#why-god-hid-it). The hidden wisdom, and the prophecies still ahead.
+- [Hidden: the suffering](#hidden-the-suffering). Four witnesses: the scrolls offered as exceptions, the disciples, the crowd and the later synagogue.
+- [Done by those who did not know](#done-by-those-who-did-not-know). His opponents, the word ἀγνοέω (*agnoeō*), and who brought each fulfilment about: the answer to "it was staged".
+- [Seen after](#seen-after). The road to Emmaus, the opened minds, and the Old Testament pictures seen afterwards.
+- [Why God hid it](#why-god-hid-it). The hidden wisdom, and [the glory still to come](#the-glory-still-to-come): the prophecies still ahead.
 - [Discussion questions](#discussion-questions). Five, for a group or on your own.
 
 [![Known before, seen after: a chart of the 118 prophecies of Christ in this site's ledger by subject and by who fulfilled them, showing for each how many were read of the Messiah before Jesus, in part, only in a later Jewish source, or by no one. Lineage 6 of 8 known before; passion 0 of 26; prophecies fulfilled by His opponents 0 of 19](../assets/img/jesus/known-before-seen-after.svg)](../assets/img/jesus/known-before-seen-after.svg)
@@ -144,8 +144,11 @@ and he was not alone.
 ## Hidden: the suffering
 
 None of the 26 prophecies of His suffering was read of the Messiah before Jesus. No surviving
-witness reads Isaiah 53, Psalm 22 or Zechariah 12:10 of the Christ before the cross. Three texts are
-offered as exceptions, and each falls short for a reason in its own words:
+witness reads Isaiah 53, Psalm 22 or Zechariah 12:10 of the Christ before the cross.
+
+### The scrolls before the cross
+
+Three texts are offered as exceptions, and each falls short for a reason in its own words:
 
 - **The Great Isaiah Scroll** reads <span dir="rtl">משחתי</span> (*mashachti*, "I anointed") at
   Isaiah 52:14 where the Masoretic Text has <span dir="rtl">מִשְׁחַת</span> (*mishchat*, "marring").
@@ -220,14 +223,14 @@ did not recognize Jesus, yet in condemning Him they fulfilled the words of the p
 every Sabbath" (Acts 13:27, BSB). And to Corinth: "None of the rulers of this age understood it. For
 if they had, they would not have crucified the Lord of glory" (1 Corinthians 2:8, BSB).
 
-### The same word for both
+### ἀγνοέω, used of the rulers and the disciples
 
 "Did not recognize" in Acts 13:27 is ἀγνοήσαντες, from ἀγνοέω (*agnoeō*, G50), "not to know". Luke
 used the same verb of the disciples in Luke 9:45: "they did not understand (ἠγνόουν) this statement".
 The rulers and the disciples shared the same ignorance of the suffering. What separated them came
 after: the disciples' minds were opened.
 
-### What this answers
+### Who brought each fulfilment about
 
 Some say the fulfilments were staged: that Jesus, or His followers, arranged events to match the
 texts. The ledger records who brought each fulfilment about, and the record answers the charge. The
@@ -280,6 +283,10 @@ which the Spirit of Christ in them was pointing when He predicted the sufferings
 glories to follow" (1 Peter 1:10-11, BSB). The glories were read. The sufferings came first, and
 they were seen after.
 
+The Old Testament pictures of the gospel that were seen only afterwards, the Passover lamb, the
+bronze serpent and the Day of Atonement among them, are the subject of [The Gospel in the Old
+Testament](../series/the-gospel-in-the-old-testament.md).
+
 ## Why God hid it
 
 Paul calls it "the mysterious and hidden wisdom of God, which He destined for our glory before time
@@ -297,15 +304,13 @@ back, so that your sins may be wiped away" (Acts 3:19, BSB). And God's hiding di
 disciples' slowness. Jesus called them "slow of heart to believe all", because they had believed the
 glory and passed over the suffering in the same Scriptures (Luke 24:25).
 
+### The glory still to come
+
 The pattern also teaches you how to read what is still ahead. Three of the sixteen prophecies the ledger files
 as still to come were read of the Messiah before He came, among them Psalm 2's rod of iron (Psalms of
 Solomon 17:26, Swete). The disciples read the glory and missed the cross. Do not read the cross and miss
 the glory still to come. Ask Him, as they had to, to open your mind to all that the prophets have
 spoken.
-
-The Old Testament pictures of the gospel that were seen only afterwards, the Passover lamb, the
-bronze serpent and the Day of Atonement among them, are the subject of [The Gospel in the Old
-Testament](../series/the-gospel-in-the-old-testament.md).
 
 ## Discussion questions
 

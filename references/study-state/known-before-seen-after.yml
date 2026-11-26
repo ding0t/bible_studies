@@ -94,3 +94,19 @@ review_2026_11_26:
     - "the three offered exceptions given their case: 1QIsa-a 52:14, 4Q285 7, 4Q541 9 i"
     - "CD xix's Geniza copy; hina as majority purpose reading with reasons; Qumran's Aramaic Job and Leviticus; Acts 3:17-18 for ignorance; Isaiah 61 as the chosen known-before entry; nits (4Q252 v 3-4, Swete numbering, Psalm 109:8, Matthew 27:9 Jeremiah, 'still to come')"
   tool_fix: "dss_text: a bare number falls back to Abegg's fragment label (4Q285 7 -> f7) when no column has it"
+read_pass:
+  date: 2026-11-26
+  by: "read-bible-study, fresh-reader subagent"
+  measures: "sections 22 -> 24; median 138 -> 105 words; longest 329 -> 325; over 400: 0 -> 0"
+  prose_identity: "one re-wrap only: the Hidden lead line split after 'before the cross.' so a heading could sit between the thesis and 'Three texts are offered...'; words identical, verifier lists it as 2 removed / 2 added lines"
+  applied:
+    - "new '### The scrolls before the cross' over the three offered exceptions and the CD xix / 4Q174 paragraph, parallel to The disciples / The crowd / The later synagogue (before, during, after)"
+    - "'### The same word for both' -> '### ἀγνοέω, used of the rulers and the disciples'"
+    - "'### What this answers' -> '### Who brought each fulfilment about'"
+    - "Gospel-in-the-OT cross-reference paragraph moved from the end of Why God hid it to the end of Seen after (Sufferings, then glories), so the teaching ends on the application"
+    - "new '### The glory still to come' over the prophecies-still-ahead paragraph in Why God hid it"
+    - "Study outline lines for Hidden, Done by, Seen after and Why God hid it updated; link added to #the-glory-still-to-come"
+  recommended_not_applied:
+    - "The disciples: the hina / parakekalymmenon note quotes Luke 18:34 before the 'After the third' sentence quotes it; move the note after the Luke 18:34 quote (mid-paragraph sentence move, author's call). Same source line is also very long."
+    - "The later synagogue (212 words, Targum + Talmud) reads fine; no heading needed"
+    - "Outline anchors checked with the markdown toc slugify; draft pages are dropped from the build, so not checked against a built page"
