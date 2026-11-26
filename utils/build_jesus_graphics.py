@@ -206,7 +206,7 @@ def known_before_seen_after():
                       f"later, {c[3]} veiled" for label, c in cat) +
             ". By who brought the fulfilment about: " +
             "; ".join(f"{label}: {c[0]} of {sum(c)} known before" for label, c in ctl) +
-            ". The prophecies of His line and reign were known; the prophecies of His suffering, and "
+            ". The prophecies of His line and throne were known; the prophecies of His suffering, and "
             "every prophecy His opponents fulfilled, were not. Luke 24:45: Then He opened their minds "
             "to understand the Scriptures.")
     out = svg_open(h, "Known before, seen after", desc)

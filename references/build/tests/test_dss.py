@@ -194,3 +194,11 @@ def test_a_siglum_split_across_scroll_nodes_keeps_one_line_order(conn):
     line order is per siglum, so the primary key holds and no line is lost."""
     total = conn.execute("SELECT COUNT(*) n, MAX(seq) m FROM dss_lines WHERE scroll='11Q5'").fetchone()
     assert total["n"] == total["m"] > 0
+
+
+def test_a_bare_number_finds_a_fragment_where_there_is_no_such_column(conn):
+    """4Q285 7 is a fragment (Abegg's f7), 4Q252 5 a column ('5'): the same bare number addresses
+    both. Before the fallback, 4Q285 7 returned no lines and looked like a missing text."""
+    pierced = query.lookup_dss_text(conn, "4Q285", "7", 4)
+    assert pierced["fragment"] == "f7" and "נשיא העדה" in pierced["lines"][0]["text"]
+    assert query.lookup_dss_text(conn, "4Q252", "5", 3)["fragment"] == "5"

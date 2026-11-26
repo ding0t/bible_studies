@@ -322,7 +322,10 @@ uses = [
 ]
 status = "partly"
 control = "opponents"
-recognition = "veiled"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "one of two views: 'the Messiah son of Joseph, who was killed', of whom it is written 'they shall look upon me whom they have pierced' (Wikisource Talmud Bavli, CC-BY-SA); the other view reads it of the evil inclination", source = "Babylonian Talmud, Sukkah 52a", year = 500 },
+]
 event = "anchor_41"
 future_event = "look_pierced"
 split = { first = "Zechariah 12:10b ('the One they have pierced')", rest = "Zechariah 12:10c-14 (the mourning of the house of David and the clans)", at = "John 19:37 with Revelation 1:7", signal = "lead: the mourning follows a pouring out of 'a spirit of grace and prayer' on the house of David (Zechariah 12:10a), which Pentecost does not exhaust" }
@@ -1131,7 +1134,10 @@ uses = [
 ]
 status = "fulfilled"
 control = "chosen"
-recognition = "veiled"
+recognition = "read-after"
+recognition_evidence = [
+  { note = "'the Rabbis say: the leper of the house of Rabbi is his name', citing 'Surely he has borne our sicknesses' (Isaiah 53:4), among the names of the Messiah (Wikisource Talmud Bavli, CC-BY-SA)", source = "Babylonian Talmud, Sanhedrin 98b", year = 500 },
+]
 event = "jesus_miracles_and_healings"
 notes = "Matthew applies the verse to the healings at Capernaum; 1 Peter 2:24 applies the passage to the cross. Matthew needed the Hebrew: the Septuagint's 'sins' would not have carried his point."
 

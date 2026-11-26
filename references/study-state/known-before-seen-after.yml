@@ -15,7 +15,7 @@ sibling_studies:
 genre: [topical, gospel]
 
 thesis: >-
-  Before Jesus came, Israel read the prophecies of the Messiah's line and reign as His, and read
+  Before Jesus came, Israel read the prophecies of the Messiah's line and throne as His, and read
   none of the prophecies of His suffering so; His opponents fulfilled the hidden ones without knowing
   it (Acts 13:27), and the risen Christ opened the Scriptures to show that the sufferings came first
   and then the glory (Luke 24:26, 45). So the cross was not staged, and you can read the whole of it
@@ -24,7 +24,7 @@ outline:
   - {section: "hook", says: "John 12:34: the crowd knew 'the Christ will remain forever' and could not fit 'lifted up'"}
   - {section: "Key Takeaways", says: ""}
   - {section: "What 'known before' means", says: "read of the Messiah by a witness older than Jesus: Qumran, the Psalms of Solomon, the Septuagint, the New Testament reporting settled belief; the Targums dated and counted apart; 'written before' is What Literary Criticism Declares' question, linked"}
-  - {section: "Known before: the line and the reign", says: "Bethlehem (Matthew 2:4-6), the son of David (John 7:42), the Branch (4Q174; 4Q252), the Prophet (John 1:21; 4Q175), Elijah (Mark 9:11; Sirach 48:10): lineage 6 of 8"}
+  - {section: "Known before: the line and the throne", says: "Bethlehem (Matthew 2:4-6), the son of David (John 7:42), the Branch (4Q174; 4Q252), the Prophet (John 1:21; 4Q175), Elijah (Mark 9:11; Sirach 48:10): lineage 6 of 8"}
   - {section: "Hidden: the suffering", says: "passion 0 of 26 known before; Peter's 'Far be it from You' (Matthew 16:22); 'the meaning was hidden from them' (Luke 18:34); even the later Targum turns Isaiah 53's wounds away"}
   - {section: "Done by those who did not know", says: "of 19 fulfilled by His opponents, none known before; Acts 13:27; 3:17-18; 1 Corinthians 2:8. What that says to 'it was staged', and the honest exceptions He chose knowingly (the donkey; John 19:28)"}
   - {section: "Seen after", says: "the six texts that say so (John 2:22; 12:16; 20:9; Luke 18:34; 24:45; John 7:39); 'He opened their minds' (Luke 24:45); the order: suffer, then glory (Luke 24:26; 1 Peter 1:11)"}
@@ -56,7 +56,7 @@ stages:
     application_draft: {done: false, notes: ""}
   cross_reference: {done: false, cross_refs: [], translations_compared: [], divergences_noted: ""}
   drafting: {done: true, file: "docs/content/jesus/known-before-seen-after.md"}
-  review: {done: false, validated: false}
+  review: {done: true, validated: true}
 
 data:  # computed 2026-11-26 from docs/data/prophecies-of-christ.toml; recompute before drafting
   by_category: {lineage: "6 known-before of 8", passion: "0 known-before of 26 (2 partly, 1 read-after, 23 veiled)", future: "3 of 16", nature: "1 of 14", ministry: "2 of 13", resurrection: "1 of 13"}
@@ -64,9 +64,9 @@ data:  # computed 2026-11-26 from docs/data/prophecies-of-christ.toml; recompute
   understood_after: ["king-on-donkey: John 12:16", "not-abandoned: John 20:9", "zeal-for-your-house: John 2:17, 22", "gave-my-back-to-those-who-strike: Luke 18:34", "on-the-third-day: Luke 24:45-46", "rivers-of-living-water: John 7:39"]
 
 open_questions:
-  - "a chosen known-before entry exists (1): check which, and say how it fits the 'chosen' exceptions"
   - "the counts move whenever the ledger changes: the chart reads the ledger, and the prose should cite counts the chart shows"
-resources_consulted: []
+resources_consulted:
+  - "Babylonian Talmud, Sukkah 52a and Sanhedrin 98b: Wikisource Talmud Bavli (CC-BY-SA) and the William Davidson Edition (CC-BY-NC, checked only), from the Sefaria export via references/build/sefaria.py, 2026-11-26"
 last_updated: "2026-11-26"
 evidence:
   - {id: acts13-27-agnoeo, what: "Acts 13:27: the rulers 'did not recognize' (agnoeo) and fulfilled the prophets", tool: bible_verse, args: {book: Acts, chapter: 13, verse: 27, translation: sblgnt}, expect_contains: "τοῦτον ἀγνοήσαντες", checked: 2026-11-26}
@@ -79,3 +79,18 @@ evidence:
   - {id: acts17-3-explaining, what: "Acts 17:3: the Christ had to suffer", tool: bible_verse, args: {book: Acts, chapter: 17, verse: 3, translation: BSB}, expect_contains: "the Christ had to suffer and rise from the dead", checked: 2026-11-26}
   - {id: 4q252-gen49, what: "4Q252 v 3 (Genesis 49:10)", tool: dss_text, args: {scroll: "4Q252", fragment: "5", line: "3"}, expect_contains: "עד בוא משיח הצדק צמח", checked: 2026-11-26}
   - {id: psssol17-26-rod, what: "Psalms of Solomon 17:26: rod of iron", tool: bible_verse, args: {book: PsSol, chapter: 17, verse: 26, translation: swete-lxx}, expect_contains: "σιδηρῷ", checked: 2026-11-26}
+  - {id: 4q285-he-will-kill, what: "4Q285 7 4: and the Prince of the Congregation, the Branch, will kill him", tool: dss_text, args: {scroll: "4Q285", fragment: "7", line: "4"}, expect_contains: "והמית׳ו נשיא העדה", checked: 2026-11-26}
+  - {id: 4q541-atone, what: "4Q541 9 i 2: he will atone for all the sons of his generation", tool: dss_text, args: {scroll: "4Q541", fragment: "9 i", line: "2"}, expect_contains: "ויכפר על כול בני דר׳ה", checked: 2026-11-26}
+  - {id: 1qisaa-52-14-anointed, what: "1QIsa-a Isaiah 52:14 reads mashachti", tool: bible_verse, args: {book: Isa, chapter: 52, verse: 14, translation: dss-1Qisaa}, expect_contains: "משחתי", checked: 2026-11-26}
+  - {id: sir48-10-greek, what: "Sirach 48:10: written down for the times", tool: bible_verse, args: {book: Sir, chapter: 48, verse: 10, translation: ebible-grcbrent}, expect_contains: "ὁ καταγραφεὶς ἐν ἐλεγμοῖς εἰς καιροὺς", checked: 2026-11-26}
+review_2026_11_26:
+  by: "review subagent, then verified and applied in the main session"
+  applied:
+    - "G1272: 7 of the SBLGNT's 8 uses are in Luke-Acts (was 'six')"
+    - "Talmud read at source (Sefaria export): Sukkah 52a (one view: Zechariah 12:10 of Messiah son of Joseph, killed) and Sanhedrin 98b (Isaiah 53:4, 'the leper'); ledger pierced-one and he-took-our-illnesses moved veiled -> read-after (year 500); counts now 20/6/12/80; chart redrawn"
+    - "veiled defined as the ledger does: by no one, before Jesus or since"
+    - "Sirach 48:10 now our translation of the Greek (Brenton's English is not in bible-text.db)"
+    - "thesis 'line and reign' -> 'line and throne': the known-before entries sit in the lineage row and the throne promises; future is 3 of 16"
+    - "the three offered exceptions given their case: 1QIsa-a 52:14, 4Q285 7, 4Q541 9 i"
+    - "CD xix's Geniza copy; hina as majority purpose reading with reasons; Qumran's Aramaic Job and Leviticus; Acts 3:17-18 for ignorance; Isaiah 61 as the chosen known-before entry; nits (4Q252 v 3-4, Swete numbering, Psalm 109:8, Matthew 27:9 Jeremiah, 'still to come')"
+  tool_fix: "dss_text: a bare number falls back to Abegg's fragment label (4Q285 7 -> f7) when no column has it"

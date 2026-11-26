@@ -1234,6 +1234,10 @@ def lookup_dss_text(conn: sqlite3.Connection, scroll: str | None = None, fragmen
     sql = ("SELECT fragment, line, text, words, extant_words, biblical FROM dss_lines "
            "WHERE scroll = ? AND fragment = ?")
     rows = [dict(r) for r in conn.execute(sql + " ORDER BY seq", (resolved, label))]
+    if not rows and label.isdigit():
+        # A bare number is a column in a scroll (1QS 5) but a fragment in a cave-4 copy (4Q285 f7).
+        label = "f" + label
+        rows = [dict(r) for r in conn.execute(sql + " ORDER BY seq", (resolved, label))]
     if not rows:
         frags = [r["fragment"] for r in conn.execute(
             "SELECT DISTINCT fragment FROM dss_lines WHERE scroll = ? ORDER BY seq", (resolved,))]
