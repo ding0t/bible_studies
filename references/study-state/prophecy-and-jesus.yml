@@ -104,7 +104,16 @@ sessions:
       witness at Deuteronomy 32:43; Malachi 4:5 is split by Jesus in one answer (Matthew
       17:11-12, 'comes' and 'has already come').
   - n: 5
-    plan: "ministry and office"
+    date: 2026-11-26
+    done: >-
+      Ministry and office: 23 entries drafted (81 drafted of 116). Found for the Isaiah 61 study:
+      Jesus shaped the reading (Luke 4:18 leaves out 'to heal the brokenhearted' and splices in
+      Isaiah 58:6 LXX), so the stop belongs to a deliberate edit; Matthew 11:5 makes the same cut
+      on Isaiah 35:4-6 (the healings without 'your God will come with vengeance'); against the
+      two-era reading, Isaiah 34:8 and 63:4 pair 'day' and 'year' on one side. Also: Zechariah 9:9's
+      'righteous and victorious' left out by both Gospels; Paul and Peter follow the Hebrew of
+      Isaiah 8:14 against the Septuagint's denial; Revelation 1:5 takes three phrases from Psalm
+      88 LXX; John 2:17 makes Psalm 69:9's verb future.
   - n: 6
     plan: "resurrection and redemption"
   - n: 7
@@ -223,4 +232,16 @@ evidence:
   - {id: matt11-10-before-you, what: "Matthew 11:10 has 'before your face'", tool: bible_verse, args: {book: Matt, chapter: 11, verse: 10, translation: sblgnt}, expect_contains: "πρὸ προσώπου σου", checked: 2026-11-26}
   - {id: matt3-3-his-paths, what: "Matthew 3:3 has 'His paths' for 'of our God'", tool: bible_verse, args: {book: Matt, chapter: 3, verse: 3, translation: sblgnt}, expect_contains: "τὰς τρίβους αὐτοῦ", checked: 2026-11-26}
   - {id: isa45-21-foretold, what: "the LORD argues from foretelling", tool: bible_verse, args: {book: Isa, chapter: 45, verse: 21, translation: BSB}, expect_contains: "Who foretold this long ago?", checked: 2026-11-26}
+  - {id: luke4-18-isa58, what: "Luke 4:18 splices in Isaiah 58:6 LXX", tool: bible_verse, args: {book: Luke, chapter: 4, verse: 18, translation: sblgnt}, expect_contains: "ἀποστεῖλαι τεθραυσμένους ἐν ἀφέσει", checked: 2026-11-26}
+  - {id: isa58-6-lxx, what: "the line in Isaiah 58:6 LXX", tool: bible_verse, args: {book: Isa, chapter: 58, verse: 6, translation: ebible-grcbrent}, expect_contains: "τεθραυσμένους ἐν ἀφέσει", checked: 2026-11-26}
+  - {id: luke4-19-stop, what: "Luke 4:19 ends at the year of favour", tool: bible_verse, args: {book: Luke, chapter: 4, verse: 19, translation: sblgnt}, expect_contains: "κηρύξαι ἐνιαυτὸν κυρίου δεκτόν.", checked: 2026-11-26}
+  - {id: isa63-4-day-year, what: "Isaiah 63:4 pairs day and year", tool: bible_verse, args: {book: Isa, chapter: 63, verse: 4, translation: BSB}, expect_contains: "the day of vengeance was in My heart, and the year of My redemption", checked: 2026-11-26}
+  - {id: isa35-4-vengeance, what: "Isaiah 35:4 before the healings", tool: bible_verse, args: {book: Isa, chapter: 35, verse: 4, translation: BSB}, expect_contains: "your God will come with vengeance", checked: 2026-11-26}
+  - {id: isa8-14-lxx-not, what: "the Septuagint of Isaiah 8:14 denies the stumbling", tool: bible_verse, args: {book: Isa, chapter: 8, verse: 14, translation: ebible-grcbrent}, expect_contains: "οὐχ ὡς λίθου προσκόμματι", checked: 2026-11-26}
+  - {id: rom9-33-stumbling, what: "Romans 9:33 has 'a stone of stumbling'", tool: bible_verse, args: {book: Rom, chapter: 9, verse: 33, translation: sblgnt}, expect_contains: "λίθον προσκόμματος καὶ πέτραν σκανδάλου", checked: 2026-11-26}
+  - {id: matt8-17-sicknesses, what: "Matthew 8:17 renders 'infirmities'", tool: bible_verse, args: {book: Matt, chapter: 8, verse: 17, translation: sblgnt}, expect_contains: "τὰς ἀσθενείας ἡμῶν ἔλαβεν", checked: 2026-11-26}
+  - {id: isa53-4-lxx-sins, what: "the Septuagint of Isaiah 53:4 has 'our sins'", tool: bible_verse, args: {book: Isa, chapter: 53, verse: 4, translation: ebible-grcbrent}, expect_contains: "τὰς ἁμαρτίας ἡμῶν φέρει", checked: 2026-11-26}
+  - {id: john2-17-future, what: "John 2:17 makes the verb future", tool: bible_verse, args: {book: John, chapter: 2, verse: 17, translation: sblgnt}, expect_contains: "καταφάγεταί με", checked: 2026-11-26}
+  - {id: rev1-5-witness, what: "Revelation 1:5 has 'the faithful witness'", tool: bible_verse, args: {book: Rev, chapter: 1, verse: 5, translation: sblgnt}, expect_contains: "ὁ μάρτυς ὁ πιστός", checked: 2026-11-26}
+  - {id: ps89-37-lxx-witness, what: "Psalm 89:37 LXX (88:38) has 'the faithful witness'", tool: bible_verse, args: {book: Ps, chapter: 88, verse: 38, translation: ebible-grcbrent}, expect_contains: "ὁ μάρτυς ἐν οὐρανῷ πιστός", checked: 2026-11-26}
   - {id: ps110-3-lxx, what: "the Septuagint of Psalm 110:3 (109:3) has 'before the morning star I begot you'", tool: bible_verse, args: {book: Ps, chapter: 109, verse: 3, translation: ebible-grcbrent}, expect_contains: "πρὸ Ἑωσφόρου ἐγέννησά σε", checked: 2026-11-26}

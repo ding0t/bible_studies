@@ -153,7 +153,7 @@ notes = "Contested reading: almah is a young woman of marriageable age; the Sept
 
 [[prophecy]]
 id = "galilee-light"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "ministry"
 prophecy = "Isaiah 9:1-2"
@@ -161,11 +161,14 @@ masoretic = "Isaiah 8:23-9:1"
 predicts = "Galilee of the nations will see a great light"
 specific = ["place"]
 uses = [
-  { ref = "Matthew 4:13-16", kind = "fulfilment" },
+  { ref = "Matthew 4:12-16", kind = "fulfilment", text = "neither", note = "Matthew's own rendering: 'sitting in darkness' (καθήμενος) where the Hebrew and Septuagint have 'walking'; the Septuagint of 8:23 is unrecognisable ('drink this first')" },
 ]
 status = "fulfilled"
+control = "chosen"
+recognition = "unassessed"
 event = "anchor_39"
 standing = "stated"
+notes = "Jesus left Nazareth and settled in Capernaum, in the territory of Zebulun and Naphtali (Matthew 4:13): control 'chosen'. The land first humbled by Assyria (2 Kings 15:29) sees the light first."
 
 [[prophecy]]
 id = "messenger-before"
@@ -192,22 +195,26 @@ notes = "In Malachi the messenger prepares the way 'before Me' (לְפָנָי, 
 
 [[prophecy]]
 id = "king-on-donkey"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "ministry"
 prophecy = "Zechariah 9:9"
 predicts = "Zion's king comes humble, mounted on a donkey, on a colt the foal of a donkey"
 specific = ["manner", "place"]
 uses = [
-  { ref = "Matthew 21:4-5", kind = "fulfilment" },
-  { ref = "John 12:14-16", kind = "fulfilment" },
+  { ref = "Matthew 21:1-5", kind = "split", text = "mt", note = "'a donkey, and a colt, the foal of a beast of burden', the Hebrew's donkey and colt (the Septuagint has 'a beast of burden and a young colt'). Matthew leaves out 'righteous and victorious'" },
+  { ref = "John 12:12-16", kind = "split", text = "neither", note = "'Do not be afraid' for 'Rejoice greatly'; also without 'righteous and victorious'" },
 ]
 status = "partly"
+control = "chosen"
+recognition = "unassessed"
 event = "anchor_41"
+future_event = "millennium"
+split = { first = "Zechariah 9:9 (the king comes humble, on a donkey)", rest = "Zechariah 9:10 (chariots cut off; peace to the nations; dominion from sea to sea)", at = "Matthew 21:5 and John 12:15", signal = "lead: both Gospels leave out 9:9's 'righteous and victorious' (צַדִּיק וְנוֹשָׁע, tsaddiq venosha) and stop before 9:10" }
 offices = ["king"]
 understood_after = "John 12:16"
 standing = "stated"
-notes = "lead: split with Zechariah 9:10 (dominion 'from sea to sea'). Matthew 21:5 conflates Isaiah 62:11. Jesus chose the animal (Matthew 21:2-3): control 'chosen'. See The King on a Donkey."
+notes = "Jesus sent for the animals (Matthew 21:2-3): control 'chosen'. 'At first His disciples did not understand these things, but after Jesus was glorified they remembered' (John 12:16, BSB). See The King on a Donkey."
 
 [[prophecy]]
 id = "thirty-pieces"
@@ -358,7 +365,7 @@ standing = "stated"
 
 [[prophecy]]
 id = "sixty-nine-weeks"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "ministry"
 prophecy = "Daniel 9:25-26"
@@ -369,9 +376,12 @@ uses = [
   { ref = "Luke 19:42-44", kind = "allusion", note = "lead: 'the time of your visitation'" },
 ]
 status = "partly"
+control = "divine"
+recognition = "unassessed"
 event = "daniel_terminus_hoehner"
+future_event = "covenant"
 standing = "contested-reckoning"
-notes = "lead: the standing example of a join (prophecy-method.md section 5): 'cut off' (9:26) before the seventieth week (9:27). Tier 3 because no New Testament text applies 9:25-26 to Jesus by name; decide in research."
+notes = "The standing example of a join (prophecy-method.md section 5): the anointed one 'cut off' after the sixty-nine weeks (Daniel 9:26), and the seventieth week (9:27) still to come (future_event, the covenant that begins it). Tier 3: no New Testament text applies 9:25-26 to Jesus by name; the reckoning is contested (standing). lead: Josephus's reading of Daniel (Antiquities 10.276) and the Second Temple chronologies of the weeks; session 8."
 
 # ================================================================================================
 # Candidates (2026-11-25). Listed from STEP's ot-quotations list (471 New Testament quotations,
@@ -972,155 +982,222 @@ notes = "John denied being Elijah (John 1:21), and Jesus said he was, for those 
 
 [[prophecy]]
 id = "spirit-of-the-lord-on-me"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "ministry"
 prophecy = "Isaiah 61:1-2"
 speaker = "messiah"
+predicts = "the anointed one, on whom the Spirit of the Lord GOD rests, preaches good news to the poor, proclaims liberty to captives, and proclaims the year of the LORD's favour and the day of our God's vengeance"
+specific = ["manner", "sequence"]
 uses = [
-  { ref = "Luke 4:16-21", kind = "split", note = "stops before 'and the day of vengeance of our God'" },
+  { ref = "Luke 4:16-21", kind = "split", text = "lxx", note = "Isaiah 61:1-2a in the Septuagint's wording, without 'to heal the brokenhearted', with Isaiah 58:6 LXX spliced in ('to set the oppressed free', ἀποστεῖλαι τεθραυσμένους ἐν ἀφέσει), and stopping at 'to proclaim the year of the Lord's favor' (BSB). Then: 'Today this Scripture is fulfilled in your hearing' (Luke 4:21, BSB)" },
+  { ref = "Luke 7:20-23", kind = "allusion" },
+  { ref = "Matthew 11:5", kind = "allusion", note = "'the good news is preached to the poor' (BSB)" },
 ]
 status = "partly"
+control = "chosen"
+recognition = "unassessed"
 event = "anchor_39"
-split = { first = "Isaiah 61:1-2a", rest = "Isaiah 61:2b-3", at = "Luke 4:19-21" }
-notes = "The anchor of the 'Where Jesus Stopped Reading' study. lead: 11QMelchizedek (11Q13) reads Isaiah 61 with the jubilee and Daniel's weeks, before Christ. Luke 7:22 answers John with the same text."
+future_event = "second_coming"
+split = { first = "Isaiah 61:1-2a ('to proclaim the year of the LORD's favor', BSB)", rest = "Isaiah 61:2b-3 ('and the day of our God's vengeance, to comfort all who mourn', BSB)", at = "Luke 4:19-21", signal = "Contested, give both sides. For the join: 'year' of favour beside 'day' of vengeance; the servant who suffers before he is exalted (Isaiah 52:13-53:12); Psalm 110:1's 'until'. Against reading 'year' and 'day' as two eras: Isaiah 34:8 ('a day of vengeance, a year of recompense', BSB) and 63:4 ('the day of vengeance… the year of My redemption', BSB) pair them on one side of God's act" }
+notes = "Jesus found the place (Luke 4:17), shaped the reading (one line left out, one line from Isaiah 58:6 brought in), and stopped mid-verse: control 'chosen'. The stop is part of a deliberate edit. Anchor of the study 'Where Jesus Stopped Reading' (session 9). lead: 11QMelchizedek (11Q13) reads Isaiah 61 with the jubilee and Daniel's weeks before Christ."
 
 [[prophecy]]
 id = "my-servant-whom-i-uphold"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "ministry"
 prophecy = "Isaiah 42:1-4"
+predicts = "the LORD's servant, on whom He puts His Spirit, brings justice to the nations without crying out, does not break a bruised reed, and does not grow faint until justice is established on earth"
+specific = ["manner"]
 uses = [
-  { ref = "Matthew 12:15-21", kind = "fulfilment" },
-  { ref = "Matthew 3:17", kind = "allusion" },
+  { ref = "Matthew 12:15-21", kind = "fulfilment", text = "neither", note = "'Here is My Servant, whom I have chosen, My beloved' (BSB), the baptism's words (Matthew 3:17); the Septuagint names the servant 'Jacob… Israel' and Matthew does not; 'In His name the nations will put their hope' (BSB) is the Septuagint's line for the Hebrew 'in His law the islands'" },
 ]
 status = "partly"
-notes = "lead: 'till he brings justice to victory' and 'in his name the Gentiles will hope': what is still to come? Matthew's text differs from both the Masoretic and the Septuagint."
+control = "chosen"
+recognition = "unassessed"
+event = "jesus_miracles_and_healings"
+future_event = "millennium"
+notes = "Matthew applies it to Jesus withdrawing and telling those He healed not to make Him known (Matthew 12:15-16): control 'chosen'. Status partly: 'until He has established justice on the earth' (Isaiah 42:4, BSB) and 'till He leads justice to victory' (Matthew 12:20, BSB) look ahead."
 
 [[prophecy]]
 id = "eyes-of-the-blind"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "ministry"
 prophecy = "Isaiah 35:5-6; 29:18"
+predicts = "when God comes, the eyes of the blind are opened, the ears of the deaf unstopped, the lame leap and the mute sing"
+specific = ["manner"]
 uses = [
-  { ref = "Matthew 11:2-6", kind = "application" },
-  { ref = "Luke 7:20-23", kind = "application" },
+  { ref = "Matthew 11:2-6", kind = "application", text = "none", note = "Jesus answers John with a list drawn from Isaiah 35:5-6, 26:19 and 61:1, without a quotation" },
+  { ref = "Luke 7:20-23", kind = "application", text = "none" },
 ]
 status = "partly"
-notes = "lead: Isaiah 35:4 ('your God will come with vengeance') sits beside the healings: another join. 4Q521 (the 'Messianic Apocalypse') links the healings and the dead raised to God's anointed, before Christ."
+control = "divine"
+recognition = "unassessed"
+event = "jesus_miracles_and_healings"
+future_event = "second_coming"
+split = { first = "Isaiah 35:5-6 (the healings)", rest = "Isaiah 35:4 ('your God will come with vengeance', BSB)", at = "Matthew 11:5", signal = "the vengeance comes first in the Old Testament text; Jesus answers John with the healings only and ends on Isaiah 61:1's good news to the poor, the same cut as Luke 4:19" }
+notes = "lead: 4Q521 (the 'Messianic Apocalypse') joins healing the blind, raising the dead and good news to the poor under God's anointed, before Christ; verify in session 8. Jesus ends 'Blessed is the one who does not fall away on account of Me' (Matthew 11:6, BSB)."
 
 [[prophecy]]
 id = "he-took-our-illnesses"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "ministry"
 prophecy = "Isaiah 53:4"
+predicts = "the servant takes up our infirmities and carries our sorrows"
+specific = ["manner"]
 uses = [
-  { ref = "Matthew 8:16-17", kind = "fulfilment" },
+  { ref = "Matthew 8:16-17", kind = "fulfilment", text = "mt", note = "'He took our infirmities and carried our diseases' renders the Hebrew חֳלָיֵנוּ (choloyenu, sicknesses); the Septuagint has 'our sins'" },
 ]
 status = "fulfilled"
-notes = "lead: Matthew applies the verse to healing; 1 Peter 2:24 to the cross. Matthew's Greek is closer to the Hebrew than to the Septuagint's 'our sins'."
+control = "chosen"
+recognition = "unassessed"
+event = "jesus_miracles_and_healings"
+notes = "Matthew applies the verse to the healings at Capernaum; 1 Peter 2:24 applies the passage to the cross. Matthew needed the Hebrew: the Septuagint's 'sins' would not have carried his point."
 
 [[prophecy]]
 id = "open-my-mouth-in-parables"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "ministry"
 prophecy = "Psalm 78:2"
+predicts = "the speaker opens his mouth in parables and utters things hidden from of old"
+specific = ["manner"]
 uses = [
-  { ref = "Matthew 13:34-35", kind = "fulfilment" },
+  { ref = "Matthew 13:34-35", kind = "fulfilment", text = "neither", note = "the first line as the Septuagint; the second ('I will pour forth things hidden since the foundation', ἐρεύξομαι κεκρυμμένα) Matthew's own, nearer the Hebrew than the Septuagint's 'problems from the beginning'" },
 ]
 status = "fulfilled"
+control = "chosen"
+recognition = "unassessed"
+event = "jesus_teaching_on_kingdom"
 near = "Asaph, telling Israel's history (Psalm 78:1-4)"
+notes = "Matthew calls the psalmist 'the prophet': Asaph is 'the seer' in 2 Chronicles 29:30 (BSB). The psalm retells Israel's history (Psalm 78:3-4); the 'hidden things' are the meaning of that history, which the parables open."
 
 [[prophecy]]
 id = "zeal-for-your-house"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "ministry"
 prophecy = "Psalm 69:9"
 masoretic = "Psalm 69:10"
 speaker = "messiah"
+predicts = "zeal for God's house consumes the sufferer, and the insults aimed at God fall on him"
+specific = ["manner"]
 uses = [
-  { ref = "John 2:17", kind = "application" },
-  { ref = "Romans 15:3", kind = "application" },
+  { ref = "John 2:13-17", kind = "application", text = "lxx", note = "Psalm 68:10 LXX with the verb made future: 'will consume me' (καταφάγεταί) for 'consumed' (κατέφαγε)" },
+  { ref = "Romans 15:3", kind = "application", text = "both", note = "the second line, word for word as the Septuagint, which renders the Hebrew closely" },
 ]
 status = "fulfilled"
+control = "chosen"
+recognition = "veiled"
+event = "anchor_40"
 understood_after = "John 2:17, 22"
+notes = "'His disciples remembered that it is written' (John 2:17, BSB), and after the resurrection they remembered His words about the temple (John 2:22): understood afterwards, so recognition 'veiled'. The future 'will consume' points past the temple cleansing (AD 30, anchor_40) to the cross."
 
 [[prophecy]]
 id = "out-of-the-mouth-of-infants"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "ministry"
 prophecy = "Psalm 8:2"
 masoretic = "Psalm 8:3"
+predicts = "from the mouths of children and infants God ordains praise, to silence the enemy"
+specific = ["person", "manner"]
 uses = [
-  { ref = "Matthew 21:15-16", kind = "application" },
+  { ref = "Matthew 21:15-16", kind = "application", text = "lxx", note = "'You have prepared praise' (κατηρτίσω αἶνον) as the Septuagint; the Hebrew has 'strength' (עֹז, oz)" },
 ]
 status = "fulfilled"
+control = "unwitting"
+recognition = "unassessed"
 event = "anchor_41"
-notes = "lead: Jesus quotes the Septuagint's 'you have prepared praise'; the Hebrew has 'strength'."
+notes = "The children shout 'Hosanna to the Son of David' in the temple (Matthew 21:15), and the chief priests object. Jesus answers with a psalm whose subject is God's praise: Hebrews 2:6-8 reads the same psalm of Him (all-things-under-his-feet)."
 
 [[prophecy]]
 id = "rejected-by-his-own"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "ministry"
 prophecy = "Isaiah 53:1-3"
+predicts = "Lord, who has believed our report? To whom has the arm of the LORD been revealed? The servant grows up despised and rejected"
+specific = ["manner"]
 uses = [
-  { ref = "John 12:37-38", kind = "fulfilment" },
-  { ref = "Romans 10:16", kind = "fulfilment" },
+  { ref = "John 12:37-38", kind = "fulfilment", text = "lxx", note = "Isaiah 53:1 LXX word for word, with the Septuagint's added address 'Lord' (Κύριε)" },
+  { ref = "Romans 10:16", kind = "fulfilment", text = "lxx" },
 ]
 status = "fulfilled"
+control = "opponents"
+recognition = "unassessed"
+event = "anchor_41"
+notes = "'Although Jesus had performed so many signs in their presence, they still did not believe in Him' (John 12:37, BSB)."
 
 [[prophecy]]
 id = "hated-without-cause"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "ministry"
 prophecy = "Psalm 69:4; 35:19"
 masoretic = "Psalm 69:5; 35:19"
 speaker = "messiah"
+predicts = "those who hate the sufferer without cause are more than the hairs of his head"
+specific = ["manner"]
 uses = [
-  { ref = "John 15:25", kind = "fulfilment" },
+  { ref = "John 15:25", kind = "fulfilment", text = "lxx", note = "'Ἐμίσησάν με δωρεάν', the Septuagint's 'those who hate me without cause' (Psalm 34:19; 68:5 LXX) made a sentence" },
 ]
 status = "fulfilled"
+control = "opponents"
+recognition = "unassessed"
+event = "anchor_41"
+notes = "Jesus calls the Psalms 'their Law' (John 15:25), the whole of Scripture. Psalm 69 is the psalm the New Testament draws on most for the passion: 69:4, 9, 21, 25."
 
 [[prophecy]]
 id = "stone-of-stumbling"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "ministry"
 prophecy = "Isaiah 8:14; 28:16"
+predicts = "the LORD of Hosts is a sanctuary, and a stone of stumbling and rock of offense to both houses of Israel; God lays in Zion a tested, precious cornerstone, and the one who believes will not be shaken"
+specific = ["person", "manner"]
 uses = [
-  { ref = "Romans 9:32-33", kind = "fulfilment" },
-  { ref = "1 Peter 2:6-8", kind = "fulfilment" },
+  { ref = "Romans 9:32-33", kind = "fulfilment", text = "neither", note = "Isaiah 28:16 and 8:14 joined: 'a stone of stumbling and a rock of offense' as the Hebrew, against the Septuagint, which says 'you will not meet Him as a stone of stumbling'; 'will not be put to shame' as the Septuagint's 28:16" },
+  { ref = "1 Peter 2:6-8", kind = "fulfilment", text = "neither", note = "2:6 the Septuagint's Isaiah 28:16 with 'in Him' (ἐπʼ αὐτῷ) added; 2:8 Isaiah 8:14 as the Hebrew" },
   { ref = "Luke 2:34", kind = "allusion" },
-  { ref = "Romans 10:11", kind = "application" },
+  { ref = "Romans 10:11", kind = "application", text = "lxx" },
 ]
 status = "fulfilled"
+control = "opponents"
+recognition = "unassessed"
+event = "anchor_41"
 yhwh_text = true
-notes = "lead: in Isaiah 8:13-14 the stone of stumbling is the LORD of hosts."
+notes = "Paul and Peter make the same joining of Isaiah 8:14 and 28:16, and both follow the Hebrew of 8:14 where the Septuagint denies the stumbling: lead, a shared collection of testimonies before either letter. In Isaiah 8:13-14 the stone is the LORD of Hosts."
 
 [[prophecy]]
 id = "the-prophet-like-moses"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "office"
 prophecy = "Deuteronomy 18:15-19"
+predicts = "the LORD raises up a prophet like Moses from among his brothers, puts His words in his mouth, and requires everyone to listen to him"
+specific = ["person"]
 uses = [
-  { ref = "Acts 3:22-23", kind = "fulfilment" },
-  { ref = "Acts 7:37", kind = "fulfilment" },
-  { ref = "John 6:14", kind = "allusion" },
-  { ref = "John 1:21", kind = "allusion", note = "'Are you the Prophet?': the expectation already held" },
+  { ref = "Acts 3:22-26", kind = "fulfilment", text = "lxx", note = "Deuteronomy 18:15 LXX, with 18:18-19 folded in ('in everything He tells you')" },
+  { ref = "Acts 7:37", kind = "fulfilment", text = "lxx" },
+  { ref = "John 6:14", kind = "allusion", note = "'Truly this is the Prophet who is to come into the world' (BSB)" },
+  { ref = "John 1:21", kind = "allusion" },
   { ref = "John 12:49-50", kind = "allusion" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "known-before"
+event = "anchor_39"
+exceeds = "'Since that time, no prophet has risen in Israel like Moses, whom the LORD knew face to face' (Deuteronomy 34:10, BSB): none of the prophets filled it"
 offices = ["prophet"]
-notes = "lead: known-before. 4QTestimonia (4Q175) quotes Deuteronomy 18:18-19; John 1:21 and 7:40 report the expectation. Deuteronomy 34:10 says none had arisen."
+recognition_evidence = [
+  { note = "'Are you the Prophet?' (BSB): the priests and Levites ask John", source = "John 1:21", year = 29 },
+  { note = "the crowds: 'Truly this is the Prophet'", source = "John 6:14; 7:40", year = 32 },
+]
+notes = "lead: 4QTestimonia (4Q175) quotes Deuteronomy 18:18-19 among its end-time texts before Christ; verify in session 8."
 
 # ---- passion -----------------------------------------------------------------------------------
 
@@ -1802,45 +1879,58 @@ notes = "lead: James follows the Septuagint ('the remnant of mankind may seek th
 
 [[prophecy]]
 id = "priest-forever-melchizedek"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "office"
 prophecy = "Psalm 110:4"
+predicts = "the LORD has sworn and will not change His mind: the king at His right hand is a priest forever in the order of Melchizedek"
+specific = ["person", "manner"]
 uses = [
-  { ref = "Hebrews 5:5-10", kind = "fulfilment" },
-  { ref = "Hebrews 6:20-7:28", kind = "fulfilment" },
+  { ref = "Hebrews 5:5-10", kind = "fulfilment", text = "both", note = "Psalm 109:4 LXX word for word, which renders the Hebrew closely" },
+  { ref = "Hebrews 6:20-7:28", kind = "fulfilment", text = "both", note = "'For it is testified: You are a priest forever' (7:17, BSB)" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 event = "jesus_reign_at_god_s_right_hand"
 offices = ["priest", "king"]
-notes = "See Melchizedek Priesthood and Melchizedek in Second Temple Judaism (11QMelchizedek). Genesis 14:18-20 is the type."
+notes = "One person holds both offices, the thing the Law kept apart (Hebrews 7:13-14, Judah and not Levi). Genesis 14:18-20 is the type. lead: 11QMelchizedek (11Q13) makes Melchizedek a heavenly deliverer before Christ. See Melchizedek Priesthood and Melchizedek in Second Temple Judaism."
 
 [[prophecy]]
 id = "firstborn-highest-of-kings"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "office"
 prophecy = "Psalm 89:26-27"
 masoretic = "Psalm 89:27-28"
+predicts = "God appoints David's line as His firstborn, the highest of the kings of the earth, and establishes his throne like the sun and the moon, the faithful witness in the sky"
+specific = ["person", "lineage"]
 uses = [
-  { ref = "Revelation 1:5", kind = "application", note = "'the firstborn from the dead, and the ruler of the kings of the earth' (BSB)" },
-  { ref = "Hebrews 1:6", kind = "allusion", note = "'the firstborn' (πρωτότοκον, as Psalm 88:28 LXX)" },
+  { ref = "Revelation 1:5", kind = "application", text = "lxx", note = "three phrases of Psalm 88 LXX: 'the faithful witness' (ὁ μάρτυς… πιστός, 88:38), 'the firstborn' (πρωτότοκον, 88:28) and 'ruler of the kings of the earth' (88:28)" },
+  { ref = "Hebrews 1:6", kind = "allusion" },
   { ref = "Colossians 1:15, 18", kind = "allusion" },
 ]
 status = "partly"
+control = "divine"
+recognition = "unassessed"
+future_event = "millennium"
 near = "David and his line (Psalm 89:3-4, 20, 29)"
 offices = ["king"]
 notes = "'I will indeed appoint him as My firstborn, the highest of the kings of the earth' (Psalm 89:27, BSB). The psalm ends in lament that the covenant seems broken (89:38-51): weigh how Revelation 1:5 answers it."
 
 [[prophecy]]
 id = "son-of-man-at-your-right-hand"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "office"
 prophecy = "Psalm 80:17"
 masoretic = "Psalm 80:18"
+predicts = "the psalmist asks God to put His hand on the man at His right hand, the son of man He raised up for Himself, so Israel will not turn back"
+specific = ["person"]
 uses = []
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 event = "jesus_reign_at_god_s_right_hand"
 near = "Israel, the vine (Psalm 80:8-16), or its king"
 offices = ["king"]
@@ -1848,84 +1938,112 @@ notes = "'Let Your hand be upon the man at Your right hand, on the son of man Yo
 
 [[prophecy]]
 id = "key-of-david"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "office"
 prophecy = "Isaiah 22:22"
 form = "type"
+predicts = "the LORD lays the key of the house of David on Eliakim's shoulder: what he opens no one shuts, what he shuts no one opens"
+specific = ["person"]
 uses = [
-  { ref = "Revelation 3:7", kind = "application" },
+  { ref = "Revelation 3:7", kind = "application", text = "both", note = "'the key of David', shortened from 'the key of the house of David', with the opening and shutting as Isaiah 22:22" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 near = "Eliakim, Hezekiah's steward (Isaiah 22:20-25), whose peg 'will give way'"
+exceeds = "'the peg driven into a firm place will give way; it will be sheared off and fall' (Isaiah 22:25, BSB): Eliakim's office failed, and the one in Revelation 3:7 is 'the Holy One, the True One'"
 offices = ["king"]
+notes = "A type: the steward of the king's house, whose authority is the king's. Revelation gives the key to the one who holds it without failing."
 
 [[prophecy]]
 id = "david-my-servant-shepherd"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "office"
 prophecy = "Ezekiel 34:23-24; 37:24-25"
+predicts = "the LORD appoints one shepherd, His servant David, to feed His flock; David will be king over them, one shepherd for all"
+specific = ["person", "name"]
 uses = [
-  { ref = "John 10:11-16", kind = "allusion" },
+  { ref = "John 10:11-16", kind = "allusion", note = "'one flock and one shepherd' (John 10:16, BSB) beside Ezekiel's 'one shepherd' (Ezekiel 34:23; 37:24)" },
 ]
 status = "partly"
+control = "unfulfilled"
+recognition = "unassessed"
+future_event = "millennium"
 offices = ["king"]
-notes = "lead: prophecy-method.md section 4 already treats the two shepherds of Ezekiel 34. 'One shepherd' (Ezekiel 37:24) with 'one flock, one shepherd' (John 10:16)."
+notes = "Ezekiel 34 has two shepherds, the LORD (34:15) and David (34:23), and Jesus claims both roles (John 10:11; prophecy-method.md section 4). Whether 'David' is Christ or a risen David under Him is contested; Ezekiel's Temple treats it. Ezekiel 37:24-25 sets the shepherd-king in the land with the tribes reunited: still to come."
 
 [[prophecy]]
 id = "jacobs-ladder"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "office"
 prophecy = "Genesis 28:12"
 form = "type"
+predicts = "a stairway set on the earth reaching to heaven, with God's angels ascending and descending on it"
+specific = ["manner"]
 uses = [
-  { ref = "John 1:51", kind = "type" },
+  { ref = "John 1:51", kind = "type", note = "'the angels of God ascending and descending on the Son of Man': the Septuagint has 'on it' (ἐπʼ αὐτῇ, the ladder); the Hebrew בּוֹ (bo) can be 'on it' or 'on him'" },
 ]
 status = "fulfilled"
-notes = "lead: a vision Jacob saw, with no prediction in it. Keep it only if types stay in scope."
+control = "divine"
+recognition = "unassessed"
+notes = "A vision Jacob saw, with no prediction in it; kept as a type because Jesus draws it on Himself. lead: Genesis Rabbah 68:12 debates whether the angels went up and down on the ladder or on Jacob (after Christ; date the compilation)."
 
 [[prophecy]]
 id = "the-rock-was-christ"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "office"
 prophecy = "Exodus 17:6; Numbers 20:11"
 form = "type"
+predicts = "the LORD stands on the rock at Horeb; Moses strikes it and water comes out for the people"
+specific = ["manner"]
 uses = [
-  { ref = "1 Corinthians 10:4", kind = "type" },
+  { ref = "1 Corinthians 10:1-4", kind = "type", note = "'they drank from the spiritual rock that accompanied them, and that rock was Christ' (1 Corinthians 10:4, BSB)" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
+notes = "Paul says the rock was Christ and calls the events examples (τύποι, 1 Corinthians 10:6, 11). lead: the tradition of a rock that followed Israel (Tosefta Sukkah 3:11, after Christ; date it)."
 
 [[prophecy]]
 id = "bread-from-heaven"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "office"
 prophecy = "Exodus 16:4, 15; Psalm 78:24"
 form = "type"
+predicts = "God rains bread from heaven for the people to eat in the wilderness"
+specific = ["manner"]
 uses = [
-  { ref = "John 6:31-35", kind = "type" },
-  { ref = "John 6:49-51", kind = "type" },
+  { ref = "John 6:30-35", kind = "type", note = "the crowd quotes 'He gave them bread from heaven to eat' (Psalm 77:24 LXX with Exodus 16:4); Jesus: 'I am the bread of life'" },
+  { ref = "John 6:48-51", kind = "type" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 notes = "See The Bread of Life."
 
 [[prophecy]]
 id = "the-day-of-atonement"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "office"
 prophecy = "Leviticus 16:1-34"
 form = "type"
+predicts = "once a year the high priest enters the Most Holy Place with blood to make atonement for himself and for the people"
+specific = ["manner", "time"]
 uses = [
-  { ref = "Hebrews 9:6-14, 24-28", kind = "type" },
-  { ref = "Hebrews 13:11-12", kind = "type" },
+  { ref = "Hebrews 9:6-14, 24-28", kind = "type", note = "'Christ did not enter a man-made copy of the true sanctuary, but He entered heaven itself' (Hebrews 9:24, BSB)" },
+  { ref = "Hebrews 13:11-12", kind = "type", note = "the bodies burned outside the camp; Jesus suffered outside the gate" },
 ]
 status = "fulfilled"
+control = "chosen"
+recognition = "unassessed"
 offices = ["priest"]
-notes = "See Day of Atonement and The Heavenly Pattern series. The tabernacle types are many: decide in research whether the series covers them and this list links there."
+notes = "See Day of Atonement and The Heavenly Pattern. The tabernacle's types are many; this ledger lists the Day of Atonement and links the series for the rest."
 
 # ---- future ------------------------------------------------------------------------------------
 
