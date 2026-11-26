@@ -345,7 +345,7 @@ notes = "'With a rich man in His death' (Isaiah 53:9, BSB) stands in the Hebrew;
 
 [[prophecy]]
 id = "not-abandoned"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "resurrection"
 prophecy = "Psalm 16:10"
@@ -353,15 +353,18 @@ speaker = "messiah"
 predicts = "you will not abandon my soul to Sheol, or let your holy one see corruption"
 specific = ["manner"]
 uses = [
-  { ref = "Acts 2:25-31", kind = "fulfilment" },
-  { ref = "Acts 13:35-37", kind = "fulfilment" },
+  { ref = "Acts 2:25-31", kind = "fulfilment", text = "lxx", note = "Psalm 15:8-11 LXX word for word; 'decay' (διαφθορά, diaphthora) is the Septuagint's rendering of the Hebrew שַׁחַת (shachat, the pit, corruption)" },
+  { ref = "Acts 13:34-37", kind = "fulfilment", text = "lxx", note = "'David… fell asleep… and saw decay. But the One whom God raised up did not see decay' (13:36-37)" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "veiled"
 event = "anchor_41"
 near = "David, the psalm's author"
 exceeds = "David 'died and was buried, and his tomb is with us to this day' (Acts 2:29); 'David… saw corruption' (Acts 13:36)"
 understood_after = "John 20:9"
 standing = "stated"
+notes = "'Foreseeing this, David spoke about the resurrection of the Christ' (Acts 2:31, BSB): Peter's argument is the near-referent test, made from David's tomb (2:29). John 20:9: 'they still did not understand from the Scripture that Jesus had to rise from the dead' (BSB): recognition 'veiled'. Contested on one word: shachat can be 'the pit' (Psalm 30:9) as well as 'corruption'; the argument holds either way, because David went to both."
 
 [[prophecy]]
 id = "sixty-nine-weeks"
@@ -1419,7 +1422,7 @@ notes = "The council planned to act 'not during the feast… or there may be a r
 id = "the-binding-of-isaac"
 research = "drafted"
 tier = 2
-category = "passion"
+category = "resurrection"
 prophecy = "Genesis 22:1-14"
 form = "type"
 predicts = "Abraham offers his only son on a mountain of Moriah; God provides the lamb; 'on the mount of the LORD it will be provided'"
@@ -1614,266 +1617,357 @@ notes = "Jesus applies it to Himself at the end of the parable of the tenants (M
 
 [[prophecy]]
 id = "three-days-in-the-fish"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "resurrection"
 prophecy = "Jonah 1:17"
 masoretic = "Jonah 2:1"
 form = "type"
+predicts = "Jonah is three days and three nights in the belly of the great fish, and is brought up alive"
+specific = ["time", "number", "manner"]
 uses = [
-  { ref = "Matthew 12:39-40", kind = "type" },
+  { ref = "Matthew 12:38-41", kind = "type", text = "lxx", note = "Jonah 2:1 LXX word for word ('three days and three nights in the belly of the sea creature'), then 'so the Son of Man will be three days and three nights in the heart of the earth'" },
   { ref = "Matthew 16:4", kind = "type" },
-  { ref = "Luke 11:29-30", kind = "type" },
+  { ref = "Luke 11:29-30", kind = "type", note = "Jonah a sign to the Ninevites" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 event = "anchor_41"
-notes = "See Three Days and Three Nights."
+notes = "The only sign Jesus offered that generation. The count of the days is worked out in Three Days and Three Nights."
 
 [[prophecy]]
 id = "on-the-third-day"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "resurrection"
 prophecy = "Hosea 6:2"
+predicts = "after two days God revives His people; on the third day He raises them up to live before Him"
+specific = ["time", "number"]
 uses = [
-  { ref = "1 Corinthians 15:4", kind = "allusion", note = "'raised on the third day in accordance with the Scriptures' names no text" },
-  { ref = "Luke 24:46", kind = "allusion" },
+  { ref = "1 Corinthians 15:3-4", kind = "allusion", note = "'raised on the third day according to the Scriptures' (BSB) names no text" },
+  { ref = "Luke 24:44-46", kind = "allusion", note = "'This is what is written: The Christ will suffer and rise from the dead on the third day' (BSB) names no text" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "veiled"
 event = "anchor_41"
 near = "Israel's restoration after judgement (Hosea 6:1-3)"
 understood_after = "Luke 24:45-46"
-notes = "lead: candidates for 'the Scriptures' of 1 Corinthians 15:4 are Hosea 6:2, Jonah 1:17 and the third-day pattern (Genesis 22:4; Exodus 19:11). Contested."
+notes = "The New Testament says the third day is written, and never says where. Hosea 6:2 is the one Old Testament text with 'the third day' and 'raise up' together (BSB: 'on the third day He will raise us up'), spoken of Israel; Jonah 1:17 is the other candidate. Contested. Jesus 'opened their minds to understand the Scriptures' (Luke 24:45, BSB) before naming it: recognition 'veiled'."
 
 [[prophecy]]
 id = "he-shall-see-his-offspring"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "resurrection"
 prophecy = "Isaiah 53:10-11"
+predicts = "after the servant's soul is made a guilt offering, he sees his offspring, prolongs his days, and after the anguish of his soul sees light and is satisfied"
+specific = ["manner", "sequence"]
 uses = [
   { ref = "1 Corinthians 15:3-4", kind = "allusion" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 event = "anchor_41"
-notes = "lead: the servant, 'cut off' and buried (53:8-9), 'shall prolong his days'. The Great Isaiah Scroll and the Septuagint add 'light' in 53:11 ('he shall see light')."
+notes = "The servant is 'cut off from the land of the living' and given a grave (Isaiah 53:8-9), then 'will prolong His days' (53:10, BSB): life after death in the text. At 53:11 the Great Isaiah Scroll (1QIsa-a, 14 words extant) and 1Q8 (8 words extant) read 'light' (אור, or), with the Septuagint (δεῖξαι αὐτῷ φῶς), where the Masoretic lacks it; the BSB follows them ('He will see the light of life'). Two Hebrew copies made before Christ carry it. No New Testament text cites 53:10-11 for the resurrection: tier 3."
 
 [[prophecy]]
 id = "sure-mercies-of-david"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "resurrection"
 prophecy = "Isaiah 55:3"
+predicts = "God makes an everlasting covenant: the faithful mercies promised to David"
+specific = ["lineage"]
 uses = [
-  { ref = "Acts 13:34", kind = "fulfilment" },
+  { ref = "Acts 13:34", kind = "fulfilment", text = "lxx", note = "'the holy and sure things of David' (τὰ ὅσια Δαυὶδ τὰ πιστά) as Isaiah 55:3 LXX, joined to Psalm 16:10's 'Your Holy One' (τὸν ὅσιόν) in the next verse by the shared word" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 event = "anchor_41"
-notes = "lead: Acts quotes the Septuagint's τὰ ὅσια (ta hosia), tying it to 'your Holy One' (τὸν ὅσιόν, Psalm 16:10) in the next verse."
+notes = "Paul argues from the word: the 'holy things' promised to David are given through the 'Holy One' who did not see decay. The link works in Greek (ὅσια / ὅσιος); the Hebrew has חַסְדֵי (chasdei, loving devotions) and חֲסִידְךָ (chasidkha, Your faithful one), the same root, so it works in Hebrew too."
 
 [[prophecy]]
 id = "ascended-on-high"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "resurrection"
 prophecy = "Psalm 68:18"
 masoretic = "Psalm 68:19"
+predicts = "God ascends on high, leads captives, and receives gifts among men, that He may dwell there"
+specific = ["manner"]
 uses = [
-  { ref = "Ephesians 4:7-10", kind = "application" },
+  { ref = "Ephesians 4:7-10", kind = "application", text = "neither", note = "'He gave gifts to men' (ἔδωκεν δόματα τοῖς ἀνθρώποις), where the Hebrew and Septuagint have 'You received'; and 'He ascended' for 'You ascended'" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 event = "jesus_reign_at_god_s_right_hand"
-notes = "lead: the Masoretic and the Septuagint have 'received gifts'; Ephesians has 'gave gifts', as the Targum of Psalms does. the use's text likely 'neither'."
+notes = "Paul turns receiving into giving: the conqueror who receives tribute distributes it (Ephesians 4:11). lead: the Targum of Psalms reads 'you gave gifts' here; date it before saying Paul shares a reading (session 8). In the psalm the one who ascends is God, 'that the LORD God may dwell there' (68:18, BSB)."
 
 [[prophecy]]
 id = "sit-at-my-right-hand"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "resurrection"
 prophecy = "Psalm 110:1"
+predicts = "the LORD says to David's Lord: sit at My right hand until I make Your enemies a footstool for Your feet"
+specific = ["person", "sequence"]
 uses = [
-  { ref = "Matthew 22:41-46", kind = "fulfilment" },
-  { ref = "Mark 12:35-37", kind = "fulfilment" },
-  { ref = "Luke 20:41-44", kind = "fulfilment" },
-  { ref = "Acts 2:34-36", kind = "fulfilment" },
-  { ref = "Hebrews 1:13", kind = "fulfilment" },
-  { ref = "Hebrews 10:12-13", kind = "split", note = "seated now, 'waiting from that time until his enemies should be made a footstool'" },
-  { ref = "1 Corinthians 15:25", kind = "split" },
+  { ref = "Matthew 22:41-46", kind = "fulfilment", text = "both", note = "Psalm 109:1 LXX word for word, which renders the Hebrew closely" },
+  { ref = "Mark 12:35-37", kind = "fulfilment", text = "both", note = "'under Your feet' (ὑποκάτω) from Psalm 8:6 for 'a footstool'" },
+  { ref = "Luke 20:41-44", kind = "fulfilment", text = "both" },
+  { ref = "Acts 2:34-36", kind = "fulfilment", text = "both", note = "'For David did not ascend into heaven' (BSB)" },
+  { ref = "Hebrews 1:13", kind = "fulfilment", text = "both" },
+  { ref = "Hebrews 10:12-13", kind = "split", text = "neither", note = "seated: 'Since that time, He waits for His enemies to be made a footstool for His feet' (BSB)" },
+  { ref = "1 Corinthians 15:25", kind = "split", text = "neither", note = "'He must reign until He has put all His enemies under His feet' (BSB)" },
   { ref = "Mark 14:62", kind = "allusion" },
 ]
 status = "partly"
+control = "divine"
+recognition = "known-before"
 event = "jesus_reign_at_god_s_right_hand"
+future_event = "second_coming"
 split = { first = "Psalm 110:1a", rest = "Psalm 110:1b", at = "Hebrews 10:12-13", signal = "lead: 'until' (עַד, ad) states an interval inside the verse" }
 offices = ["king"]
-notes = "The New Testament's most-quoted Old Testament text. Jesus' question (Matthew 22:41-46) assumes the Pharisees already read it of the Christ: known-before evidence from the New Testament itself."
+recognition_evidence = [
+  { note = "Jesus' question assumes the Pharisees read the psalm of the Christ: they answer that the Christ is David's son, and cannot say how David calls him Lord", source = "Matthew 22:41-46", year = 33 },
+]
+notes = "'The LORD said to my Lord': יְהוָה (YHWH) to אֲדֹנִי (adoni). The session at the right hand is fulfilled (Acts 2:33-34); the enemies made a footstool are still to come. The 'until' (עַד, ad) states the interval inside the verse. Whether the 'reign' of 1 Corinthians 15:25 is the present session or the thousand years is contested; check against the statement of faith."
 
 [[prophecy]]
 id = "all-things-under-his-feet"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "resurrection"
 prophecy = "Psalm 8:4-6"
 masoretic = "Psalm 8:5-7"
+predicts = "God makes the son of man a little lower than the angels (or God), crowns him with glory and honour, and puts all things under his feet"
+specific = ["person", "sequence"]
 uses = [
-  { ref = "Hebrews 2:6-9", kind = "split", note = "'at present, we do not yet see everything in subjection to him. But we see… Jesus'" },
-  { ref = "1 Corinthians 15:27", kind = "fulfilment" },
+  { ref = "Hebrews 2:5-9", kind = "split", text = "lxx", note = "Psalm 8:5-7 LXX ('a little lower than the angels', παρʼ ἀγγέλους; the Hebrew מֵאֱלֹהִים, me'elohim); 'Yet at present we do not see everything subject to him. But we see Jesus… now crowned with glory and honor because He suffered death' (Hebrews 2:8-9, BSB)" },
+  { ref = "1 Corinthians 15:27", kind = "fulfilment", text = "lxx" },
   { ref = "Ephesians 1:22", kind = "allusion" },
 ]
 status = "partly"
+control = "divine"
+recognition = "unassessed"
+future_event = "millennium"
+split = { first = "Psalm 8:5 (made lower for a little while, then crowned with glory and honour)", rest = "Psalm 8:6 (all things under His feet)", at = "Hebrews 2:8-9", signal = "Hebrews reads the crowning as done and the subjection as not yet: \"we do not yet see\" (οὔπω ὁρῶμεν)" }
 near = "humankind (Psalm 8:4; Genesis 1:26-28)"
-notes = "lead: Hebrews follows the Septuagint's 'a little lower than the angels'; the Hebrew has אֱלֹהִים (elohim)."
+notes = "Hebrews may read βραχύ τι ('a little') as time, 'for a little while', as several translations render Hebrews 2:7, 9 (the BSB has 'a little lower'): lead, weigh it. A psalm about humankind's dominion (Genesis 1:26-28) is fulfilled in the one man who has it, and in Him for the rest (Hebrews 2:10)."
 
 [[prophecy]]
 id = "i-will-tell-of-your-name"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "resurrection"
 prophecy = "Psalm 22:22"
 masoretic = "Psalm 22:23"
 speaker = "messiah"
+predicts = "the sufferer, delivered, proclaims God's name to his brothers and praises Him in the assembly"
+specific = ["person"]
 uses = [
-  { ref = "Hebrews 2:11-12", kind = "application" },
-  { ref = "John 20:17", kind = "allusion", note = "'go to my brothers'" },
+  { ref = "Hebrews 2:11-12", kind = "application", text = "neither", note = "the Septuagint's line with 'I will proclaim' (ἀπαγγελῶ) for 'I will recount' (διηγήσομαι)" },
+  { ref = "John 20:17", kind = "allusion", note = "'go and tell My brothers'" },
 ]
 status = "fulfilled"
-notes = "lead: the psalm turns from suffering (22:1-21) to praise in the congregation (22:22-31): the two-part shape inside one psalm."
+control = "chosen"
+recognition = "unassessed"
+event = "anchor_41"
+notes = "The psalm turns at verse 22 from suffering to praise. The risen Jesus first calls the disciples 'brothers' (John 20:17; Matthew 28:10)."
 
 [[prophecy]]
 id = "i-and-the-children"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "resurrection"
 prophecy = "Isaiah 8:17-18"
+predicts = "the prophet waits for the LORD and trusts Him; he and the children the LORD has given him are signs in Israel"
+specific = ["person"]
 uses = [
-  { ref = "Hebrews 2:13", kind = "application" },
+  { ref = "Hebrews 2:13", kind = "application", text = "lxx", note = "Isaiah 8:17 LXX ('I will put my trust in Him') and 8:18 LXX word for word, as two sayings" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 near = "Isaiah and his sons as signs (Isaiah 8:3, 18)"
+notes = "Hebrews hears Christ in Isaiah's words, with the children God gave Him as the 'sons' brought to glory (Hebrews 2:10). Isaiah's own children were signs by their names (Isaiah 7:3; 8:3)."
 
 # ---- redemption: covenant, Spirit, nations ----------------------------------------------------
 
 [[prophecy]]
 id = "king-of-glory"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "resurrection"
 prophecy = "Psalm 24:7-10"
+predicts = "the ancient gates lift up their heads for the King of glory to enter: the LORD of Hosts, strong and mighty in battle"
+specific = ["person"]
 uses = [
   { ref = "1 Corinthians 2:8", kind = "allusion", note = "'the Lord of glory' (BSB)" },
 ]
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 event = "jesus_reign_at_god_s_right_hand"
 yhwh_text = true
 notes = "'Who is He, this King of Glory? The LORD of Hosts—He is the King of Glory' (Psalm 24:10, BSB). lead: Justin Martyr reads it of the ascension (Dialogue with Trypho 36, about AD 155); the near setting is the ark brought up to Zion (2 Samuel 6)."
 
 [[prophecy]]
 id = "i-will-not-die-but-live"
-research = "candidate"
+research = "drafted"
 tier = 3
 category = "resurrection"
 prophecy = "Psalm 118:17-18"
+predicts = "the king will not die but live, to proclaim what the LORD has done; the LORD disciplined him severely but did not give him over to death"
+specific = ["manner"]
 uses = []
 status = "fulfilled"
+control = "divine"
+recognition = "unassessed"
 event = "anchor_41"
 notes = "'I will not die, but I will live and proclaim what the LORD has done' (Psalm 118:17, BSB), five verses before the rejected stone (118:22), which Jesus applies to Himself. lead: the psalm's speaker is the king entering in victory (118:19-26); weigh the whole psalm before claiming the verse."
 
 [[prophecy]]
 id = "a-new-covenant"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "redemption"
 prophecy = "Jeremiah 31:31-34"
+predicts = "the LORD makes a new covenant with the house of Israel and the house of Judah: His law written on their hearts, all of them knowing Him, their sins remembered no more"
+specific = ["person", "manner"]
 uses = [
-  { ref = "Hebrews 8:6-13", kind = "fulfilment" },
-  { ref = "Hebrews 10:15-18", kind = "fulfilment" },
-  { ref = "Luke 22:20", kind = "allusion" },
-  { ref = "Romans 11:27", kind = "split" },
+  { ref = "Hebrews 8:6-13", kind = "fulfilment", text = "lxx", note = "Jeremiah 38:31-34 LXX, including 'I disregarded them' (ἠμέλησα αὐτῶν) where the Hebrew has 'though I was a husband to them' (בָּעַלְתִּי, ba'alti)" },
+  { ref = "Hebrews 10:15-18", kind = "fulfilment", text = "lxx" },
+  { ref = "Luke 22:20", kind = "allusion", note = "'This cup is the new covenant in My blood' (BSB)" },
+  { ref = "Romans 11:26-27", kind = "split", text = "neither", note = "Isaiah 59:21 and 27:9 joined, of Israel's salvation still to come" },
 ]
 status = "partly"
+control = "divine"
+recognition = "unassessed"
+event = "anchor_41"
+future_event = "second_coming"
+split = { first = "Jeremiah 31:31-34 inaugurated in His blood (Luke 22:20; Hebrews 8:6-13)", rest = "Jeremiah 31:31, 34 for the house of Israel and the house of Judah, all knowing the LORD", at = "Romans 11:26-27", signal = "lead: the covenant is named for both houses, and Jeremiah 31:35-37 ties Israel's survival as a nation to it" }
 offices = ["priest"]
-notes = "lead: made 'with the house of Israel and the house of Judah' (31:31); how Hebrews applies it and what Romans 11:26-27 keeps for Israel. Check against the statement of faith after the exegesis."
+notes = "Made by the cup and the blood (Luke 22:20) and in force now (Hebrews 8:6-13; 10:15-18), and made 'with the house of Israel and the house of Judah' (Jeremiah 31:31), whose salvation Romans 11:26-27 still awaits. How the church shares in it, and what is kept for Israel, is contested among dispensational readers; check the conclusion against the statement of faith and surface it to the author."
 
 [[prophecy]]
 id = "i-will-pour-out-my-spirit"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "redemption"
 prophecy = "Joel 2:28-32"
 masoretic = "Joel 3:1-5"
+predicts = "afterward God pours out His Spirit on all flesh, sons and daughters prophesy; wonders in heaven and earth, the sun turned to darkness and the moon to blood, before the great day of the LORD; whoever calls on the LORD's name is saved"
+specific = ["sequence", "manner"]
 uses = [
-  { ref = "Acts 2:16-21", kind = "split", note = "'this is what was uttered'; the sun and moon signs did not occur at Pentecost" },
-  { ref = "Acts 2:33", kind = "fulfilment", note = "the exalted Jesus 'has poured out this'" },
+  { ref = "Acts 2:16-21", kind = "split", text = "lxx", note = "Joel 3:1-5 LXX, with Peter's changes: 'in the last days' (ἐν ταῖς ἐσχάταις ἡμέραις) for 'afterward' (μετὰ ταῦτα), 'and they will prophesy' added, and 'above… signs… below' added to the wonders" },
+  { ref = "Acts 2:33", kind = "fulfilment", text = "none", note = "the exalted Jesus 'has poured out this'" },
 ]
 status = "partly"
+control = "divine"
+recognition = "unassessed"
 event = "pentecost_spirit"
 future_event = "seal6"
 split = { first = "Joel 2:28-29", rest = "Joel 2:30-31", at = "Acts 2:16-21" }
-notes = "lead: Peter quotes the whole and the context shows which part came. prophecy-method.md section 5."
+notes = "Peter quotes the whole and says 'this is what was spoken' (Acts 2:16); the Spirit came, and the sun and moon did not change. He also writes the time as 'the last days', so the whole stretch from Pentecost to the day of the LORD is one period. Revelation 6:12 has the sun black and the moon like blood (future_event, the sixth seal)."
 
 [[prophecy]]
 id = "rivers-of-living-water"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "redemption"
 prophecy = "Zechariah 14:8; Isaiah 44:3; 55:1; 58:11; Ezekiel 47:1-12"
+predicts = "living waters flow out from Jerusalem; God pours water on the thirsty land and His Spirit on Jacob's offspring"
+specific = ["manner", "place"]
 uses = [
-  { ref = "John 7:37-39", kind = "application", note = "'as the Scripture has said': no single text" },
+  { ref = "John 7:37-39", kind = "application", text = "none", note = "'as the Scripture has said': no single text" },
   { ref = "Revelation 22:1", kind = "imagery" },
 ]
 status = "partly"
+control = "divine"
+recognition = "veiled"
+event = "pentecost_spirit"
+future_event = "millennium"
 understood_after = "John 7:39"
-notes = "lead: the Feast of Booths' water rite (John 7:2, 37). See Feasts."
+notes = "'He was speaking about the Spirit, whom those who believed in Him were later to receive. For the Spirit had not yet been given, because Jesus had not yet been glorified' (John 7:39, BSB): John marks it as understood afterwards, so recognition 'veiled'. Said on the last day of the Feast of Booths (John 7:37), with its water rite (lead, see Feasts). The river from the temple (Ezekiel 47; Zechariah 14:8) is still to come."
 
 [[prophecy]]
 id = "light-to-the-nations"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "redemption"
 prophecy = "Isaiah 49:6; 42:6"
+predicts = "the servant raises up the tribes of Jacob and is also made a light for the nations, so God's salvation reaches the ends of the earth"
+specific = ["person", "place"]
 uses = [
-  { ref = "Luke 2:30-32", kind = "fulfilment" },
-  { ref = "Acts 13:46-47", kind = "application", note = "applied to Paul and Barnabas" },
-  { ref = "Acts 26:23", kind = "fulfilment" },
+  { ref = "Luke 2:30-32", kind = "fulfilment", text = "none", note = "Simeon over the child: 'a light for revelation to the Gentiles, and for glory to Your people Israel' (BSB)" },
+  { ref = "Acts 13:46-47", kind = "application", text = "lxx", note = "Isaiah 49:6 LXX, applied to Paul and Barnabas: the servant's mission carried by His messengers" },
+  { ref = "Acts 26:23", kind = "fulfilment", text = "none" },
 ]
 status = "partly"
-notes = "lead: the servant is called 'Israel' in Isaiah 49:3 and restores Israel in 49:5-6: the servant who is and is not the nation."
+control = "divine"
+recognition = "unassessed"
+event = "anchor_37"
+future_event = "millennium"
+notes = "The servant is called 'Israel' (Isaiah 49:3) and restores Israel (49:5-6): one who is the nation's true representative and its restorer. Status partly: Israel's tribes raised up is still to come."
 
 [[prophecy]]
 id = "the-day-of-salvation"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "redemption"
 prophecy = "Isaiah 49:8"
+predicts = "in a time of favour the LORD answers His servant, in a day of salvation helps him, and makes him a covenant for the people"
+specific = ["time"]
 uses = [
-  { ref = "2 Corinthians 6:2", kind = "application", note = "'now is the favourable time'" },
+  { ref = "2 Corinthians 6:1-2", kind = "application", text = "both", note = "Isaiah 49:8 LXX word for word, then 'Behold, now is the time of favor; now is the day of salvation!' (BSB)" },
 ]
 status = "fulfilled"
-notes = "lead: the same 'favour' (רָצוֹן, ratson) as Isaiah 61:2a."
+control = "divine"
+recognition = "unassessed"
+event = "anchor_41"
+notes = "For the Isaiah 61 study: Paul's 'time of favor' (καιρῷ δεκτῷ; 'favorable', εὐπρόσδεκτος) shares Isaiah 61:2's word for 'favour' (δεκτός), and he says it is now. The favour Jesus proclaimed at Nazareth runs through the present age."
 
 [[prophecy]]
 id = "gentiles-hope-root-of-jesse"
-research = "candidate"
+research = "drafted"
 tier = 1
 category = "redemption"
 prophecy = "Isaiah 11:10"
+predicts = "in that day the Root of Jesse stands as a banner for the peoples; the nations seek Him, and His resting place is glorious"
+specific = ["person", "lineage"]
 uses = [
-  { ref = "Romans 15:8-12", kind = "fulfilment" },
+  { ref = "Romans 15:8-12", kind = "fulfilment", text = "lxx", note = "Isaiah 11:10 LXX: 'the one who rises (ὁ ἀνιστάμενος) to rule the nations; in Him the nations will hope', where the Hebrew has 'stands as a banner… the nations will seek Him'" },
 ]
 status = "partly"
-notes = "lead: Paul follows the Septuagint ('he who arises to rule the Gentiles'). Isaiah 11:11-16 goes straight on to Israel's regathering: a join."
+control = "divine"
+recognition = "unassessed"
+event = "anchor_41"
+future_event = "millennium"
+notes = "Isaiah 11:11-16 goes straight on to the regathering of Israel's remnant 'a second time' (11:11), 'from the four corners of the earth' (11:12, BSB): the nations' hope now (Romans 15:12) and Israel's return to come, in one chapter."
 
 [[prophecy]]
 id = "booth-of-david-rebuilt"
-research = "candidate"
+research = "drafted"
 tier = 2
 category = "redemption"
 prophecy = "Amos 9:11-12"
+predicts = "in that day God raises up the fallen tent of David and rebuilds it as in days of old, so that the remnant possesses Edom and all the nations called by His name"
+specific = ["lineage", "sequence"]
 uses = [
-  { ref = "Acts 15:13-18", kind = "application" },
+  { ref = "Acts 15:13-18", kind = "application", text = "lxx", note = "Amos 9:11-12 LXX: 'that the remnant of mankind may seek the Lord' (the Septuagint read אָדָם, adam, for אֱדוֹם, Edom, and יִדְרְשׁוּ, 'seek', for יִירְשׁוּ, 'possess'); and James opens with 'After this I will return' (Μετὰ ταῦτα ἀναστρέψω) for 'In that day'" },
 ]
 status = "partly"
+control = "divine"
+recognition = "unassessed"
+future_event = "millennium"
 offices = ["king"]
-notes = "lead: James follows the Septuagint ('the remnant of mankind may seek the Lord'); the Hebrew has 'possess the remnant of Edom'. 4QFlorilegium reads Amos 9:11 of the Branch of David. Contested for the dispensational reading: what does 'after this I will return' (Acts 15:16) order?"
+notes = "Contested, and central to the dispensational reading. James's 'After this I will return and rebuild' (Acts 15:16, BSB) follows 'God first visited the Gentiles to take from them a people to be His own' (15:14, BSB): read one way, the sequence is the Gentile people first and David's tent after; read another, the tent is being rebuilt now in the Gentile mission. Give both cases with their textual reasons and check against the statement of faith."
 
 # ---- office: prophet, priest, king -------------------------------------------------------------
 

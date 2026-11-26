@@ -115,7 +115,18 @@ sessions:
       Isaiah 8:14 against the Septuagint's denial; Revelation 1:5 takes three phrases from Psalm
       88 LXX; John 2:17 makes Psalm 69:9's verb future.
   - n: 6
-    plan: "resurrection and redemption"
+    date: 2026-11-26
+    done: >-
+      Resurrection and redemption: 19 entries drafted (100 drafted of 116); the-binding-of-isaac
+      moved to category resurrection (Hebrews 11:19 draws the type at the return from death).
+      Found: two Hebrew copies before Christ (1QIsa-a, 1Q8) read 'light' at Isaiah 53:11, life
+      after the servant's death; Ephesians 4:8 'gave' against both texts' 'received'; Mark 12:36
+      blends Psalm 8:6 into 110:1; Peter writes 'in the last days' for Joel's 'afterward'; James
+      writes 'After this I will return' for Amos's 'In that day'; 2 Corinthians 6:2 puts Isaiah
+      49:8's 'time of favor' (dektos, Isaiah 61:2's word) in the present. For the author:
+      a-new-covenant and booth-of-david-rebuilt are contested inside dispensational reading, and
+      1 Corinthians 15:25's reign (session or millennium) likewise; the statement of faith does
+      not settle them.
   - n: 7
     plan: "future, with the NT-original table designed"
   - n: 8
@@ -244,4 +255,15 @@ evidence:
   - {id: john2-17-future, what: "John 2:17 makes the verb future", tool: bible_verse, args: {book: John, chapter: 2, verse: 17, translation: sblgnt}, expect_contains: "καταφάγεταί με", checked: 2026-11-26}
   - {id: rev1-5-witness, what: "Revelation 1:5 has 'the faithful witness'", tool: bible_verse, args: {book: Rev, chapter: 1, verse: 5, translation: sblgnt}, expect_contains: "ὁ μάρτυς ὁ πιστός", checked: 2026-11-26}
   - {id: ps89-37-lxx-witness, what: "Psalm 89:37 LXX (88:38) has 'the faithful witness'", tool: bible_verse, args: {book: Ps, chapter: 88, verse: 38, translation: ebible-grcbrent}, expect_contains: "ὁ μάρτυς ἐν οὐρανῷ πιστός", checked: 2026-11-26}
+  - {id: isa53-11-1qisaa-light, what: "1QIsa-a and 1Q8 read 'light' at Isaiah 53:11", tool: bible_variants, args: {book: Isa, chapter: 53, verse: 11}, expect_contains: "אור", checked: 2026-11-26}
+  - {id: eph4-8-gave, what: "Ephesians 4:8 has 'gave gifts'", tool: bible_verse, args: {book: Eph, chapter: 4, verse: 8, translation: sblgnt}, expect_contains: "ἔδωκεν δόματα τοῖς ἀνθρώποις", checked: 2026-11-26}
+  - {id: ps68-18-lxx-received, what: "the Septuagint of Psalm 68:18 (67:19) has 'received gifts'", tool: bible_verse, args: {book: Ps, chapter: 67, verse: 19, translation: ebible-grcbrent}, expect_contains: "ἔλαβες δόματα", checked: 2026-11-26}
+  - {id: acts2-17-last-days, what: "Acts 2:17 has 'in the last days'", tool: bible_verse, args: {book: Acts, chapter: 2, verse: 17, translation: sblgnt}, expect_contains: "ἐν ταῖς ἐσχάταις ἡμέραις", checked: 2026-11-26}
+  - {id: joel2-28-lxx-afterward, what: "the Septuagint of Joel 2:28 (3:1) has 'after these things'", tool: bible_verse, args: {book: Joel, chapter: 3, verse: 1, translation: ebible-grcbrent}, expect_contains: "μετὰ ταῦτα", checked: 2026-11-26}
+  - {id: acts15-16-after-this, what: "Acts 15:16 opens 'After this I will return'", tool: bible_verse, args: {book: Acts, chapter: 15, verse: 16, translation: sblgnt}, expect_contains: "Μετὰ ταῦτα ἀναστρέψω", checked: 2026-11-26}
+  - {id: amos9-11-lxx-that-day, what: "the Septuagint of Amos 9:11 has 'in that day'", tool: bible_verse, args: {book: Amos, chapter: 9, verse: 11, translation: ebible-grcbrent}, expect_contains: "Ἐν τῇ ἡμέρᾳ ἐκείνῃ", checked: 2026-11-26}
+  - {id: 2cor6-2-now, what: "2 Corinthians 6:2: now is the time of favour", tool: bible_verse, args: {book: 2Cor, chapter: 6, verse: 2, translation: sblgnt}, expect_contains: "ἰδοὺ νῦν καιρὸς εὐπρόσδεκτος", checked: 2026-11-26}
+  - {id: heb2-8-not-yet, what: "Hebrews 2:8: not yet do we see", tool: bible_verse, args: {book: Heb, chapter: 2, verse: 8, translation: sblgnt}, expect_contains: "οὔπω ὁρῶμεν", checked: 2026-11-26}
+  - {id: mark12-36-under, what: "Mark 12:36 has 'under your feet'", tool: bible_verse, args: {book: Mark, chapter: 12, verse: 36, translation: sblgnt}, expect_contains: "ὑποκάτω τῶν ποδῶν σου", checked: 2026-11-26}
+  - {id: heb8-9-disregarded, what: "Hebrews 8:9 has 'I disregarded them' as the Septuagint", tool: bible_verse, args: {book: Heb, chapter: 8, verse: 9, translation: sblgnt}, expect_contains: "ἠμέλησα αὐτῶν", checked: 2026-11-26}
   - {id: ps110-3-lxx, what: "the Septuagint of Psalm 110:3 (109:3) has 'before the morning star I begot you'", tool: bible_verse, args: {book: Ps, chapter: 109, verse: 3, translation: ebible-grcbrent}, expect_contains: "πρὸ Ἑωσφόρου ἐγέννησά σε", checked: 2026-11-26}
