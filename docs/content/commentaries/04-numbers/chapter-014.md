@@ -18,4 +18,5 @@ draft: false
 - [Pride](../../sin/pride.md) — 14:1-4
 - [The Names of God](../../god/names-of-god.md) — 14:17-19
 - [The Nephilim: Sons of God and the Giants of Genesis](../../spiritual-beings/nephilim.md) — 14:36-37
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 14:31-33
 <!-- commentary-index:auto-end -->

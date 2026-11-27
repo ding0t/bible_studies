@@ -22,6 +22,7 @@ draft: false
 - [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 34:6-7
 - [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 34:20
 - [The Names of God](../../god/names-of-god.md) — 34:5-7
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 34:7
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 34:6-7
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 34:22
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 34:6-7

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 18:23
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 18:2
 <!-- commentary-index:auto-end -->

@@ -31,8 +31,8 @@ outline:
   - {section: "Promises made smaller", says: "1 Pet 3:15, Matt 18:20, John 8:32, 1 Cor 15:44 -- each slogan promises less than the verse"}
   - {section: "Burdens added", says: "Mark 9:29 (fasting), Mark 5:15 (demonized) -- slogans that bind the conscience"}
   - {section: "Discussion questions", says: "language, context, Christ, the hard part, the reader"}
-word_budget: 4000
-word_budget_reason: ""
+word_budget: 5000
+word_budget_reason: "A collection page: each entry (~400 words) stands alone, and nine entries plus the Eden frame exceed 4,000. Raised 2026-11-27 when Exodus 20:5 was added."
 
 stages:
   scoping:
@@ -120,3 +120,19 @@ revisions:
       Psalm 91 at the temple; omission argument deliberately not made (Luke 4:10 keeps "to guard
       you"). Trimmed to 4,000 words.
 last_updated: "2026-10-01"
+
+evidence:
+  # Exodus 20:5 entry, added 2026-11-27
+  - {id: exod-20-5-esv, what: "Exodus 20:5 as quoted", tool: study_verse, args: {book: Exod, chapter: 20, verse: 5, work_id: esv-study-bible}, path: "0.text", expect_contains: "visiting the iniquity of the fathers on the children to the third and the fourth generation of those who hate me", checked: 2026-11-27}
+  - {id: deut-7-9-esv, what: "to a thousand generations", tool: study_verse, args: {book: Deut, chapter: 7, verse: 9, work_id: esv-study-bible}, path: "0.text", expect_contains: "to a thousand generations", checked: 2026-11-27}
+  - {id: deut-24-16-esv, what: "each for his own sin", tool: study_verse, args: {book: Deut, chapter: 24, verse: 16, work_id: esv-study-bible}, path: "0.text", expect_contains: "Each one shall be put to death for his own sin", checked: 2026-11-27}
+  - {id: 2kgs-14-6-esv, what: "Amaziah obeys Deut 24:16", tool: study_verse, args: {book: 2Kgs, chapter: 14, verse: 6, work_id: esv-study-bible}, path: "0.text", expect_contains: "he did not put to death the children of the murderers", checked: 2026-11-27}
+  - {id: ezek-18-2-esv, what: "sour grapes", tool: study_verse, args: {book: Ezek, chapter: 18, verse: 2, work_id: esv-study-bible}, path: "0.text", expect_contains: "The fathers have eaten sour grapes, and the children's teeth are set on edge", checked: 2026-11-27}
+  - {id: ezek-18-17-esv, what: "he shall surely live", tool: study_verse, args: {book: Ezek, chapter: 18, verse: 17, work_id: esv-study-bible}, path: "0.text", expect_contains: "he shall not die for his father's iniquity; he shall surely live", checked: 2026-11-27}
+  - {id: ezek-18-20-esv, what: "son shall not suffer", tool: study_verse, args: {book: Ezek, chapter: 18, verse: 20, work_id: esv-study-bible}, path: "0.text", expect_contains: "The son shall not suffer for the iniquity of the father", checked: 2026-11-27}
+  - {id: num-14-33-esv, what: "shepherds forty years", tool: study_verse, args: {book: Num, chapter: 14, verse: 33, work_id: esv-study-bible}, path: "0.text", expect_contains: "shepherds in the wilderness forty years", checked: 2026-11-27}
+  - {id: num-14-31-esv, what: "little ones brought in", tool: study_verse, args: {book: Num, chapter: 14, verse: 31, work_id: esv-study-bible}, path: "0.text", expect_contains: "I will bring in", checked: 2026-11-27}
+  - {id: exod-34-7-esv, what: "forgiving iniquity", tool: study_verse, args: {book: Exod, chapter: 34, verse: 7, work_id: esv-study-bible}, path: "0.text", expect_contains: "forgiving iniquity and transgression and sin", checked: 2026-11-27}
+  - {id: gal-3-13-esv, what: "became a curse", tool: study_verse, args: {book: Gal, chapter: 3, verse: 13, work_id: esv-study-bible}, path: "0.text", expect_contains: "Christ redeemed us from the curse of the law by becoming a curse for us", checked: 2026-11-27}
+  - {id: 2cor-5-17-esv, what: "new creation", tool: study_verse, args: {book: 2Cor, chapter: 5, verse: 17, work_id: esv-study-bible}, path: "0.text", expect_contains: "he is a new creation", checked: 2026-11-27}
+  - {id: onkelos-exod-20-5, what: "Onkelos reads rebellious children; the verse ends: when the children go on sinning after their fathers", tool: bible_verse, args: {book: Exod, chapter: 20, verse: 5, translation: targum-onkelos}, path: "text", expect_contains: "בְּנִין מָרָדִין", checked: 2026-11-27}

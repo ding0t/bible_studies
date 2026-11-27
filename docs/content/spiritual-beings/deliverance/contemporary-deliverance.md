@@ -160,13 +160,17 @@ describes a spiritual channel that a prayer must sever.
 
 ### "Generational curses"
 
-The text behind the term is Exodus 20:5. God visits "the iniquity of the fathers on the children to
-the third and the fourth generation of those who hate me" (ESV). The verse names the generations it
-means: "those who hate me". The next verse sets the scale beside it: "steadfast love to thousands of
-those who love me" (Exodus 20:6, ESV). When the exiles turned the idea into a proverb about sour
-grapes (Ezekiel 18:2), God answered, "The son shall not suffer for the iniquity of the father"
-(Ezekiel 18:20, ESV). And the curse has a named end: "Christ redeemed us from the curse of the law by
-becoming a curse for us" (Galatians 3:13, ESV).
+Exodus 20:5 is a warning to families that go on hating God, and it is no curse on a child who turns
+to Him. God visits "the iniquity of the fathers on the children to the third and the fourth
+generation of those who hate me" (ESV), and the oldest Jewish reading, Targum Onkelos, adds "when
+the children go on sinning after their fathers". The Law forbids punishing children for their
+fathers (Deuteronomy 24:16), and God says plainly, "The son shall not suffer for the iniquity of the
+father" (Ezekiel 18:20, ESV). Children can suffer the consequences of a parent's sin: Israel's
+children wandered forty years for their parents' faithlessness, and God brought those same children
+into the land (Numbers 14:31-33). For you in Christ the curse has a named end: "Christ redeemed us
+from the curse of the law by becoming a curse for us" (Galatians 3:13, ESV).
+[Verses Often Misquoted](../../scripture/verses-often-misquoted.md#exodus-205-generational-curses)
+works through the verse.
 
 ### "Word curses"
 

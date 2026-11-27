@@ -31,5 +31,6 @@ draft: false
 - [The Tribulation: Daniel's Seventieth Week, Year by Year](../../last-things/tribulation.md) — 5:10
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 5:7-8
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 5:21
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 5:17
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 5:1-4
 <!-- commentary-index:auto-end -->

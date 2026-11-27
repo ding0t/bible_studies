@@ -1,13 +1,13 @@
 ---
 title: "Verses Often Misquoted"
 category: "bible"
-description: "Eight well-known church sayings read back into their paragraphs: how each is usually quoted, what it says in context, and where to read more. The pattern goes back to Eden's \"Did God actually say?\" Read where they stand, each verse gives you more of Jesus than its slogan does."
+description: "Nine well-known church sayings read back into their paragraphs: how each is usually quoted, what it says in context, and where to read more. The pattern goes back to Eden's \"Did God actually say?\" Read where they stand, each verse gives you more of Jesus than its slogan does."
 tags: ["hermeneutics", "study-method", "1-peter", "matthew", "john", "1-corinthians", "mark", "genesis", "exodus", "discipleship", "lang/hebrew", "fasting", "deliverance", "resurrection", "lang/greek"]
 draft: false
-primary_passage: "Exodus 20:7; 1 Peter 3:15; Matthew 18:20; John 8:32; 1 Corinthians 15:44; Mark 8:34; Mark 9:29; Mark 5:15"
-bible_references: ["1 Peter 3:13-17", "Isaiah 8:13", "1 Peter 1:3", "1 Peter 4:4", "Matthew 18:15-20", "Deuteronomy 19:15", "1 Corinthians 5:4", "1 Corinthians 6:1", "Matthew 28:20", "Matthew 18:21-35", "John 8:31-36", "1 Corinthians 15:42-45", "Luke 24:39", "Romans 8:11", "Philippians 3:21", "Mark 9:14-29", "Matthew 17:20", "Isaiah 58:3-7", "Mark 5:1-20", "John 10:21", "2 Corinthians 12:7", "Matthew 26:67", "Colossians 1:13", "1 Corinthians 6:19", "1 John 4:4", "Matthew 23:4", "Matthew 6:16-18", "Daniel 10:12", "James 4:7", "1 Peter 5:9", "1 Corinthians 2:14-15", "Galatians 4:7", "Matthew 14:23", "Isaiah 8:12", "1 Peter 3:14", "Genesis 2:16-17", "Genesis 3:1-5", "Matthew 3:17", "Matthew 4:1-11", "Deuteronomy 8:3", "Deuteronomy 6:13", "Deuteronomy 6:16", "Psalm 91:1", "Psalm 91:11-12", "2 Peter 3:16", "Mark 8:31-35", "Luke 9:23-24", "Luke 14:27", "John 19:17", "Galatians 2:20", "Exodus 20:7", "Leviticus 19:12", "Numbers 6:27", "Deuteronomy 5:20", "Psalm 24:4", "Jeremiah 14:14", "Matthew 5:33-37", "James 2:7", "Romans 2:24", "Isaiah 52:5", "Ephesians 4:29"]
+primary_passage: "Exodus 20:7; 1 Peter 3:15; Matthew 18:20; John 8:32; 1 Corinthians 15:44; Mark 8:34; Mark 9:29; Mark 5:15; Exodus 20:5"
+bible_references: ["1 Peter 3:13-17", "Isaiah 8:13", "1 Peter 1:3", "1 Peter 4:4", "Matthew 18:15-20", "Deuteronomy 19:15", "1 Corinthians 5:4", "1 Corinthians 6:1", "Matthew 28:20", "Matthew 18:21-35", "John 8:31-36", "1 Corinthians 15:42-45", "Luke 24:39", "Romans 8:11", "Philippians 3:21", "Mark 9:14-29", "Matthew 17:20", "Isaiah 58:3-7", "Mark 5:1-20", "John 10:21", "2 Corinthians 12:7", "Matthew 26:67", "Colossians 1:13", "1 Corinthians 6:19", "1 John 4:4", "Matthew 23:4", "Matthew 6:16-18", "Daniel 10:12", "James 4:7", "1 Peter 5:9", "1 Corinthians 2:14-15", "Galatians 4:7", "Matthew 14:23", "Isaiah 8:12", "1 Peter 3:14", "Genesis 2:16-17", "Genesis 3:1-5", "Matthew 3:17", "Matthew 4:1-11", "Deuteronomy 8:3", "Deuteronomy 6:13", "Deuteronomy 6:16", "Psalm 91:1", "Psalm 91:11-12", "2 Peter 3:16", "Mark 8:31-35", "Luke 9:23-24", "Luke 14:27", "John 19:17", "Galatians 2:20", "Exodus 20:7", "Leviticus 19:12", "Numbers 6:27", "Deuteronomy 5:20", "Psalm 24:4", "Jeremiah 14:14", "Matthew 5:33-37", "James 2:7", "Romans 2:24", "Isaiah 52:5", "Ephesians 4:29", "Exodus 20:4-6", "Exodus 34:7", "Deuteronomy 7:9", "Deuteronomy 24:16", "2 Kings 14:6", "Ezekiel 18:2", "Ezekiel 18:14-20", "Numbers 14:31-33", "Galatians 3:13", "2 Corinthians 5:17"]
 date_created: 2026-10-01
-date_modified: 2026-11-26
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -25,11 +25,11 @@ may still be demonized. Jesus said of the scribes and Pharisees, "They tie up he
 bear, and lay them on people's shoulders" (Matthew 23:4, ESV). A verse misquoted to bind a believer's
 conscience does that in Jesus' own name, and it is spiritual abuse.
 
-**In one sentence:** Each of these eight verses means what it meant in its own paragraph, and read
+**In one sentence:** Each of these nine verses means what it meant in its own paragraph, and read
 there every one gives you more of Jesus than its slogan does — the Lord enthroned in your heart, the
 Lord present with His church when it deals with sin, the Son who frees, the Spirit who will raise
 your body, the God whose name you carry, the Master who calls you to follow Him with your cross and promises you life — and the
-two slogans that bind believers are burdens He lifts.
+three slogans that bind believers are burdens He lifts.
 
 ## Key Takeaways
 
@@ -51,6 +51,8 @@ two slogans that bind believers are burdens He lifts.
   (Philippians 3:21).
 - **Jesus drove out the spirit the disciples could not, with a word** (Mark 9:25). His people are
   "delivered ... from the domain of darkness" (Colossians 1:13, ESV) already.
+- **Jesus became a curse for you.** "Christ redeemed us from the curse of the law by becoming a curse
+  for us" (Galatians 3:13, ESV), so no curse from your family line rests on you.
 
 ### Memory verses
 
@@ -67,7 +69,7 @@ two slogans that bind believers are burdens He lifts.
 ### Be Transformed
 
 - **Think.** Before you quote a verse, read the paragraph it sits in and ask what it meant there.
-  The eight below each changed when read that way.
+  The nine below each changed when read that way.
 - **Attitude.** Hold a slogan loosely and the verse tightly. Where a teaching makes you carry
   something the paragraph never gave you, put it down.
 - **Do.** Read the chapter of a verse you often quote, then pray it as its paragraph means it (John
@@ -91,8 +93,8 @@ Amen.
   kinds of misuse.
 - [Verses made smaller](#verses-made-smaller). 1 Peter 3:15, Matthew 18:20, John 8:32,
   1 Corinthians 15:44, Mark 8:34 and Exodus 20:7: six verses whose slogans say less than the text.
-- [Burdens added](#burdens-added). Mark 9:29 on fasting and Mark 5:15 on "demonized": two slogans
-  that bind a believer's conscience.
+- [Burdens added](#burdens-added). Mark 9:29 on fasting, Mark 5:15 on "demonized" and Exodus 20:5
+  on "generational curses": three slogans that bind a believer's conscience.
 - [Discussion questions](#discussion-questions).
 
 ## "Did God actually say?"
@@ -153,7 +155,7 @@ on [How to Read the Bible](how-to-read-the-bible.md): what a text meant to its f
 before what it means now, and the paragraph is the unit of meaning.
 
 The misuses fall into two groups. Six verses are quoted in a way that **makes them smaller**: the
-slogan is true enough, and the verse says something larger. Two are quoted in a way that **adds a
+slogan is true enough, and the verse says something larger. Three are quoted in a way that **adds a
 burden**: the slogan tells a believer to do or fear something the text does not ask. The second group
 is the one that does harm.
 
@@ -439,6 +441,69 @@ indwelling of the Holy Spirit, the kingdom of the Son, spiritual warfare, resist
 
 **Full study:** [Christians and Deliverance Ministry](../spiritual-beings/deliverance/christians-and-deliverance.md#the-key-term-demonized).
 
+### Exodus 20:5: "Generational curses"
+
+> ✝️ Exodus 20:5-6 (ESV)
+>
+> 5 You shall not bow down to them or serve them, for I the LORD your God am a jealous God, visiting
+> the iniquity of the fathers on the children to the third and the fourth generation of those who
+> hate me, 6 but showing steadfast love to thousands of those who love me and keep my commandments.
+
+**How it is used.** As proof that a curse runs down a family line. A grandparent's idolatry, occult
+practice or besetting sin is said to rest on a believing grandchild until it is found and broken,
+often in a deliverance session. A family pattern of illness, divorce or addiction is read as the
+evidence.
+
+**What it says.** The verse gives the reason for the second commandment: do not make images or bow
+down to them (Exodus 20:4-5). The Hebrew is
+<span dir="rtl">פֹּקֵד עֲוֺן אָבֹת עַל־בָּנִים עַל־שִׁלֵּשִׁים וְעַל־רִבֵּעִים לְשֹׂנְאָי</span>
+(*pōqēd ʿăwōn ʾābōt ʿal-bānîm ʿal-šillēšîm wəʿal-ribbēʿîm ləśōnʾāy*), "visiting the iniquity of
+fathers on sons, on the thirds and on the fourths, of those who hate me". Three things in the verse
+fix its meaning.
+
+- **It names whom it means: "those who hate me".** In covenant language, to hate the King is to be
+  disloyal to Him (NIV Biblical Theology Study Bible, note on Exodus 20:5). The love in the next verse
+  falls on "those who love me and keep my commandments". The children in view are children who go
+  on hating.
+- **It is weighted toward mercy.** Judgment reaches "the thirds and the fourths"; love reaches
+  "thousands", which Moses spells out as "to a thousand generations" (Deuteronomy 7:9, ESV).
+- **The Law limits it.** "Fathers shall not be put to death because of their children, nor shall
+  children be put to death because of their fathers. Each one shall be put to death for his own sin"
+  (Deuteronomy 24:16, ESV). King Amaziah obeyed it when he spared the sons of his father's murderers
+  (2 Kings 14:6).
+
+The oldest Jewish reading says the same. Targum Onkelos, the Aramaic rendering read in the
+synagogues and written down by about the third century, has "visiting the sins of the fathers on
+rebellious children ... of those who hate me, when the children go on sinning after their fathers"
+(Exodus 20:5; translated from the Aramaic). When the exiles made a proverb of it, "The fathers have
+eaten sour grapes, and the children's teeth are set on edge" (Ezekiel 18:2, ESV), God answered with a
+son who sees his father's sins "and does not do likewise ... he shall not die for his father's
+iniquity; he shall surely live" (Ezekiel 18:14, 17, ESV).
+
+**What is settled and what is argued.** Settled: Exodus 20:5 warns families that go on hating God,
+and a child who turns to Him does not carry a parent's guilt (Ezekiel 18:20). Also settled: children
+can suffer the consequences of a parent's sin. Israel's children were "shepherds in the wilderness
+forty years" for their parents' faithlessness (Numbers 14:33, ESV), and God brought those same
+children into the land (Numbers 14:31). Argued: whether "the third and the fourth" describes one
+household, since four generations could live under one roof (NIV Cultural Backgrounds Study Bible,
+note on Exodus 20:5), or the farthest reach of one person's influence (NIV Biblical Theology Study
+Bible). Either way the reach is short and the condition is stated.
+
+**What the burden costs.** A believer is told that a curse they did nothing to earn sits on them
+until a ministry finds it. Scripture says where the iniquity goes. The LORD is the God
+<span dir="rtl">נֹשֵׂא עָוֺן</span> (*nōśēʾ ʿāwōn*), "forgiving iniquity" (Exodus 34:7, ESV),
+literally "bearing" it. Ezekiel uses the same verb, <span dir="rtl">נָשָׂא</span> (*nāśāʾ*, H5375), for
+the son who "shall not suffer for the iniquity of the father" (Ezekiel 18:20, ESV). And "Christ
+redeemed us from the curse of the law by becoming a curse for us" (Galatians 3:13, ESV). If you are
+in Christ, you are "a new creation" (2 Corinthians 5:17, ESV). Your family's sins are a history to
+grieve and a pattern to refuse. Christ has borne the curse.
+
+**Keywords.** As used: generational curses, bloodline, family patterns, breaking curses. In context:
+the second commandment, covenant loyalty, each for his own sin, the curse Christ bore.
+
+**See also:** [Contemporary Deliverance in Christianity](../spiritual-beings/deliverance/contemporary-deliverance.md#generational-curses),
+where the term is weighed beside "soul ties" and "word curses".
+
 ## Discussion questions
 
 1. **Language.** In 1 Peter 3:15 the one command is "sanctify." How does reading "be prepared" as a
@@ -454,7 +519,7 @@ indwelling of the Holy Spirit, the kingdom of the Son, spiritual warfare, resist
 5. **The hard part.** Matthew 18:19-20 may also carry a broader promise about prayer. How would you
    hold the discipline setting and the broader promise together without letting one erase the other?
 6. **You.** Is there a burden you have carried because of a verse quoted to you — fasting, a fear of
-   demons, or something else? Read its paragraph. What does the text actually ask of you?
+   demons, a curse on your family, or something else? Read its paragraph. What does the text actually ask of you?
 
 ## References & Recommended Reading
 
