@@ -7,7 +7,7 @@ draft: false
 primary_passage: "1 Kings 6:1"
 bible_references: ["Joshua 10:12-14", "1 Kings 5:1-12", "1 Kings 6:1", "1 Kings 6:38", "1 Kings 11:42-43", "1 Kings 14:25-26", "2 Chronicles 12:2", "2 Kings 1:1", "2 Kings 3:4-5", "2 Kings 9:24-27", "2 Kings 17:6", "2 Kings 18:13", "2 Kings 24:12", "2 Kings 25:8-9", "2 Chronicles 36:21-23", "Ezra 1:1", "Ezra 3:8", "Ezra 4:24", "Ezra 6:15", "Ezra 7:7-8", "Nehemiah 2:1", "Jeremiah 25:11-12", "Jeremiah 46:2", "Jeremiah 52:28", "Ezekiel 40:1", "Exodus 12:2-3", "Daniel 1:1", "Daniel 5:30-31", "Daniel 9:2", "Daniel 9:24-25", "Haggai 1:1", "Leviticus 25:8-10", "Daniel 8:5-14", "Daniel 8:20-25", "Daniel 11:2-4", "Daniel 11:15-16", "Daniel 11:21-22", "Daniel 11:31", "Malachi 1:1", "John 10:22", "Matthew 2:1", "Luke 2:1-7", "Luke 3:1-2", "Luke 3:23", "John 2:20", "Nehemiah 1:1", "Ezra 7:9", "Ezra 7:11-27", "Isaiah 36:1", "Isaiah 44:28", "2 Kings 18:10", "Jeremiah 52:12", "Jeremiah 52:29", "Jeremiah 34:7", "Leviticus 26:34-35", "Zechariah 1:12", "Zechariah 7:5", "Luke 2:2", "Acts 5:37", "John 2:13", "Acts 18:12"]
 date_created: 2026-08-22
-date_modified: 2026-11-24
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -18,7 +18,7 @@ ai_provider_models:
 
 **Forty-one events between Solomon's temple and the Resurrection can be placed on a Gregorian calendar, and thirty-one of them carry an error bar of a year or less.** That rail is the fixed part of biblical chronology. Everything upstream of Abraham — the genealogies of Genesis 5 and 11, the Flood, creation itself — is measured *backward* from it, which is why the anchors deserve their own page.
 
-This is the reference table the genealogy work depends on, and the [Prophetic Timeline](/timeline/#kingdom-exile) draws from the same data: every row below opens its own panel there, with the records that date it. For the elastic stretch before Abraham, and for the manuscript variants that stretch it, see [Genealogy and Times](genealogy-times.md). For the priestly calendar whose sabbaticals and jubilees the site counts in, see [The Zadok Calendar](../feasts/zadok-calendar.md).
+This is the reference table the genealogy work depends on, and the [Prophetic Timeline](/timeline/#kingdom-exile) draws from the same data: each row's name below opens its description on this page, and its *timeline* link opens its panel there, with the records that date it. For the elastic stretch before Abraham, and for the manuscript variants that stretch it, see [Genealogy and Times](genealogy-times.md). For the priestly calendar whose sabbaticals and jubilees the site counts in, see [The Zadok Calendar](../feasts/zadok-calendar.md).
 
 **In one sentence:** Solomon's temple, an Assyrian eclipse, Daniel's own prophetic arithmetic, and Luke's Roman regnal dates lock forty-one events to a Gregorian calendar, closing with the crucifixion, which [Dating the Cross](dating-the-cross.md) places on Friday, 3 April AD 33.
 
@@ -77,57 +77,58 @@ are set out in [Genealogy and Times](genealogy-times.md#where-year-0-sits).
 
 | # | Event | Scripture | Date | Tier | ± | AM |
 |---|---|---|---|---|---|---|
-| 1 | [Temple begun, Solomon's 4th year](/timeline/#event=anchor_01) | 1 Kings 6:1 | 966 BC | Anchored | ±5 | 2993 |
-| 2 | [Temple completed, 11th year](/timeline/#event=anchor_02) | 1 Kings 6:38 | 959 BC | Anchored | ±5 | 3000 |
-| 3 | [Solomon dies; kingdom divides](/timeline/#event=anchor_03) | 1 Kings 11:42-43 | 931 BC | Anchored | ±5 | 3028 |
-| 4 | [Shishak invades, Rehoboam's 5th year](/timeline/#event=anchor_04) | 1 Kings 14:25-26 | 925 BC | Anchored | ±5 | 3034 |
-| 5 | [Ahab at Qarqar](/timeline/#event=anchor_05) | — | 853 BC | Fixed | ±1 | 3106 |
-| 6 | [Jehu pays tribute to Shalmaneser III](/timeline/#event=anchor_06) | — | 841 BC | Fixed | ±1 | 3118 |
-| 7 | [**Bur-Sagale eclipse**](/timeline/#event=anchor_07) | — | **763 BC** | **Fixed** | **0** | 3196 |
-| 8 | [Samaria falls, Hoshea's 9th year](/timeline/#event=anchor_08) | 2 Kings 17:6 | 722 BC | Fixed | ±1 | 3237 |
-| 9 | [Sennacherib besieges Jerusalem](/timeline/#event=anchor_09) | 2 Kings 18:13 | 701 BC | Fixed | ±1 | 3258 |
-| 10 | [Carchemish; Nebuchadnezzar accedes](/timeline/#event=anchor_10) | Jeremiah 46:2; Daniel 1:1 | 605 BC | Fixed | ±1 | 3354 |
-| 11 | [Jehoiachin deported](/timeline/#event=anchor_11) | 2 Kings 24:12 | 597 BC | Fixed | 0 | 3362 |
-| 12 | [Jerusalem falls; temple burned](/timeline/#event=anchor_12) | 2 Kings 25:8-9 | 586 BC | Fixed | ±1 | 3373 |
-| 13 | [Ezekiel's temple vision](/timeline/#event=anchor_13) | Ezekiel 40:1 | 573 BC | Anchored | ±1 | 3386 |
-| 14 | [Babylon falls to Cyrus](/timeline/#event=anchor_14) | Daniel 5:30-31 | 539 BC | Fixed | 0 | 3420 |
-| 15 | [Cyrus's decree](/timeline/#event=anchor_15) | Ezra 1:1; 2 Chronicles 36:22-23 | 538 BC | Fixed | ±1 | 3421 |
-| 16 | [Temple foundation laid](/timeline/#event=anchor_16) | Ezra 3:8 | 536 BC | Anchored | ±2 | 3423 |
-| 17 | [Work resumes, Darius's 2nd year](/timeline/#event=anchor_17) | Ezra 4:24; Haggai 1:1 | 520 BC | Fixed | 0 | 3439 |
-| 18 | [Second temple completed](/timeline/#event=anchor_18) | Ezra 6:15 | 515 BC | Fixed | 0 | 3444 |
-| 19 | [Ezra returns, Artaxerxes' 7th year](/timeline/#event=anchor_19) | Ezra 7:7-8 | 457 BC | Anchored | ±1 | 3502 |
-| 20 | [Decree to restore Jerusalem, 20th year](/timeline/#event=anchor_20) | Nehemiah 2:1 | 444 BC | Anchored | ±1 | 3515 |
-| 21 | [Malachi, the last writing prophet](/timeline/#event=anchor_21) | Malachi 1:1 | 430 BC | Bracketed | 460-400 BC | 3529 |
-| 22 | [Alexander breaks Persia at Gaugamela](/timeline/#event=anchor_22) | Daniel 8:5-7, 20-21; 11:3 | 331 BC | Fixed | 0 | 3628 |
-| 23 | [Alexander dies; the horn is broken](/timeline/#event=anchor_23) | Daniel 8:8, 22; 11:4 | 323 BC | Fixed | 0 | 3636 |
-| 24 | [Four kingdoms settled at Ipsus](/timeline/#event=anchor_24) | Daniel 8:22; 11:4 | 301 BC | Fixed | ±1 | 3658 |
-| 25 | [Antiochus III takes Judea at Panium](/timeline/#event=anchor_25) | Daniel 11:15-16 | 200 BC | Fixed | ±2 | 3759 |
-| 26 | [Antiochus IV Epiphanes accedes](/timeline/#event=anchor_26) | Daniel 8:9, 23; 11:21 | 175 BC | Fixed | 0 | 3784 |
-| 27 | [Onias III murdered; Menelaus high priest](/timeline/#event=anchor_27) | Daniel 11:22 | 171 BC | Anchored | ±1 | 3788 |
-| 28 | [**Temple desecrated; the abomination set up**](/timeline/#event=anchor_28) | Daniel 11:31; 8:11-13 | **167 BC** | **Fixed** | **0** | 3792 |
-| 29 | [**Temple rededicated — Hanukkah**](/timeline/#event=anchor_29) | Daniel 8:14; John 10:22 | **164 BC** | **Fixed** | **0** | 3795 |
-| 30 | [Sabbatical year — siege of Beth-zur](/timeline/#event=anchor_30) | 1 Maccabees 6:49, 53 | 163 BC | Fixed | ±1 | 3796 |
-| 31 | [Hasmonean independence under Simon](/timeline/#event=anchor_31) | 1 Maccabees 13:41-42 | 142 BC | Fixed | ±1 | 3817 |
-| 32 | [Sabbatical year — Hyrcanus besieges Ptolemy](/timeline/#event=anchor_32) | Josephus, *Ant.* 13.234 | 135 BC | Fixed | ±1 | 3824 |
-| 33 | [Pompey takes Jerusalem; Rome rules Judea](/timeline/#event=anchor_33) | — | 63 BC | Fixed | 0 | 3896 |
-| 34 | [Herod appointed king by Rome](/timeline/#event=anchor_34) | — | 40 BC | Fixed | ±1 | 3919 |
-| 35 | [Sabbatical year — Herod takes Jerusalem](/timeline/#event=anchor_35) | Josephus, *Ant.* 14.475 | 37 BC | Fixed | ±1 | 3922 |
-| 36 | [Herod begins the temple](/timeline/#event=anchor_36) | Josephus, *Ant.* 15.380 | 20 BC | Bracketed | 20-16 BC | 3939 |
-| 37 | [Nativity](/timeline/#event=anchor_37) | Matthew 2:1, 16; Luke 2:1-2 | 5 BC | Bracketed | 6-4 BC | 3954 |
-| 38 | [Herod dies](/timeline/#event=anchor_38) | Josephus, *Ant.* 17.167, 191 | 4 BC | Anchored | ±1 | 3955 |
-| 39 | [John's ministry begins](/timeline/#event=anchor_39) | Luke 3:1-2 | AD 29 | Anchored | ±1 | 3987 |
-| 40 | [Temple "forty-six years" Passover](/timeline/#event=anchor_40) | John 2:13, 20 | AD 30 | Bracketed | AD 27-30 | 3988 |
-| 41 | [**Crucifixion and Resurrection**](/timeline/#event=anchor_41) | the Gospels | **AD 33** | **Anchored** | **0** | 3991 |
+| 1 | [Temple begun, Solomon's 4th year](#tyres-king-list-solomons-temple-from-a-second-direction-check) · [timeline](/timeline/#event=anchor_01) | 1 Kings 6:1 | 966 BC | Anchored | ±5 | 2993 |
+| 2 | [Temple completed, 11th year](#the-5-year-uncertainty-and-what-it-propagates-to) · [timeline](/timeline/#event=anchor_02) | 1 Kings 6:38 | 959 BC | Anchored | ±5 | 3000 |
+| 3 | [Solomon dies; kingdom divides](#the-5-year-uncertainty-and-what-it-propagates-to) · [timeline](/timeline/#event=anchor_03) | 1 Kings 11:42-43 | 931 BC | Anchored | ±5 | 3028 |
+| 4 | [Shishak invades, Rehoboam's 5th year](#shishaks-campaign-list-check) · [timeline](/timeline/#event=anchor_04) | 1 Kings 14:25-26 | 925 BC | Anchored | ±5 | 3034 |
+| 5 | [Ahab at Qarqar](#qarqar-and-jehu-the-assyrian-synchronisms-fix) · [timeline](/timeline/#event=anchor_05) | — | 853 BC | Fixed | ±1 | 3106 |
+| 6 | [Jehu pays tribute to Shalmaneser III](#qarqar-and-jehu-the-assyrian-synchronisms-fix) · [timeline](/timeline/#event=anchor_06) | — | 841 BC | Fixed | ±1 | 3118 |
+| 7 | [**Bur-Sagale eclipse**](#the-bur-sagale-eclipse) · [timeline](/timeline/#event=anchor_07) | — | **763 BC** | **Fixed** | **0** | 3196 |
+| 8 | [Samaria falls, Hoshea's 9th year](#where-the-date-is-disputed) · [timeline](/timeline/#event=anchor_08) | 2 Kings 17:6 | 722 BC | Fixed | ±1 | 3237 |
+| 9 | [Sennacherib besieges Jerusalem](#sennacheribs-prism-fix) · [timeline](/timeline/#event=anchor_09) | 2 Kings 18:13 | 701 BC | Fixed | ±1 | 3258 |
+| 10 | [Carchemish; Nebuchadnezzar accedes](#nebuchadnezzars-years-the-chronicle-and-vat-4956-fix) · [timeline](/timeline/#event=anchor_10) | Jeremiah 46:2; Daniel 1:1 | 605 BC | Fixed | ±1 | 3354 |
+| 11 | [Jehoiachin deported](#jehoiachins-deportation-and-the-accession-year-gap) · [timeline](/timeline/#event=anchor_11) | 2 Kings 24:12 | 597 BC | Fixed | 0 | 3362 |
+| 12 | [Jerusalem falls; temple burned](#nebuchadnezzars-years-the-chronicle-and-vat-4956-fix) · [timeline](/timeline/#event=anchor_12) | 2 Kings 25:8-9 | 586 BC | Fixed | ±1 | 3373 |
+| 13 | [Ezekiel's temple vision](#ezekiels-vision-dated-to-the-beginning-of-the-year) · [timeline](/timeline/#event=anchor_13) | Ezekiel 40:1 | 573 BC | Anchored | ±1 | 3386 |
+| 14 | [Babylon falls to Cyrus](#babylon-falls-and-cyrus-sends-the-peoples-home-fix-confirm) · [timeline](/timeline/#event=anchor_14) | Daniel 5:30-31 | 539 BC | Fixed | 0 | 3420 |
+| 15 | [Cyrus's decree](#babylon-falls-and-cyrus-sends-the-peoples-home-fix-confirm) · [timeline](/timeline/#event=anchor_15) | Ezra 1:1; 2 Chronicles 36:22-23 | 538 BC | Fixed | ±1 | 3421 |
+| 16 | [Temple foundation laid](#jeremiahs-seventy-years-closed-twice) · [timeline](/timeline/#event=anchor_16) | Ezra 3:8 | 536 BC | Anchored | ±2 | 3423 |
+| 17 | [Work resumes, Darius's 2nd year](#the-persian-kings-years-ptolemys-canon-and-elephantine-fix) · [timeline](/timeline/#event=anchor_17) | Ezra 4:24; Haggai 1:1 | 520 BC | Fixed | 0 | 3439 |
+| 18 | [Second temple completed](#the-persian-kings-years-ptolemys-canon-and-elephantine-fix) · [timeline](/timeline/#event=anchor_18) | Ezra 6:15 | 515 BC | Fixed | 0 | 3444 |
+| 19 | [Ezra returns, Artaxerxes' 7th year](#the-persian-kings-years-ptolemys-canon-and-elephantine-fix) · [timeline](/timeline/#event=anchor_19) | Ezra 7:7-8 | 457 BC | Anchored | ±1 | 3502 |
+| 20 | [Decree to restore Jerusalem, 20th year](#the-444-bc-decree-behind-daniels-sixty-nine-weeks) · [timeline](/timeline/#event=anchor_20) | Nehemiah 2:1 | 444 BC | Anchored | ±1 | 3515 |
+| 21 | [Malachi, the last writing prophet](#the-four-hundred-silent-years) · [timeline](/timeline/#event=anchor_21) | Malachi 1:1 | 430 BC | Bracketed | 460-400 BC | 3529 |
+| 22 | [Alexander breaks Persia at Gaugamela](#alexander-by-the-sky-the-astronomical-diaries-fix) · [timeline](/timeline/#event=anchor_22) | Daniel 8:5-7, 20-21; 11:3 | 331 BC | Fixed | 0 | 3628 |
+| 23 | [Alexander dies; the horn is broken](#alexander-by-the-sky-the-astronomical-diaries-fix) · [timeline](/timeline/#event=anchor_23) | Daniel 8:8, 22; 11:4 | 323 BC | Fixed | 0 | 3636 |
+| 24 | [Four kingdoms settled at Ipsus](#daniel-names-the-kingdoms-himself) · [timeline](/timeline/#event=anchor_24) | Daniel 8:22; 11:4 | 301 BC | Fixed | ±1 | 3658 |
+| 25 | [Antiochus III takes Judea at Panium](#the-four-hundred-silent-years) · [timeline](/timeline/#event=anchor_25) | Daniel 11:15-16 | 200 BC | Fixed | ±2 | 3759 |
+| 26 | [Antiochus IV Epiphanes accedes](#two-dates-fixed-to-the-day-desecration-and-rededication) · [timeline](/timeline/#event=anchor_26) | Daniel 8:9, 23; 11:21 | 175 BC | Fixed | 0 | 3784 |
+| 27 | [Onias III murdered; Menelaus high priest](#daniel-814s-2300-evenings-and-mornings-two-readings) · [timeline](/timeline/#event=anchor_27) | Daniel 11:22 | 171 BC | Anchored | ±1 | 3788 |
+| 28 | [**Temple desecrated; the abomination set up**](#two-dates-fixed-to-the-day-desecration-and-rededication) · [timeline](/timeline/#event=anchor_28) | Daniel 11:31; 8:11-13 | **167 BC** | **Fixed** | **0** | 3792 |
+| 29 | [**Temple rededicated — Hanukkah**](#two-dates-fixed-to-the-day-desecration-and-rededication) · [timeline](/timeline/#event=anchor_29) | Daniel 8:14; John 10:22 | **164 BC** | **Fixed** | **0** | 3795 |
+| 30 | [Sabbatical year — siege of Beth-zur](#the-sabbatical-cycle-anchored-by-three-sieges) · [timeline](/timeline/#event=anchor_30) | 1 Maccabees 6:49, 53 | 163 BC | Fixed | ±1 | 3796 |
+| 31 | [Hasmonean independence under Simon](#the-seleucid-era-how-1-maccabees-counts-fix) · [timeline](/timeline/#event=anchor_31) | 1 Maccabees 13:41-42 | 142 BC | Fixed | ±1 | 3817 |
+| 32 | [Sabbatical year — Hyrcanus besieges Ptolemy](#the-sabbatical-cycle-anchored-by-three-sieges) · [timeline](/timeline/#event=anchor_32) | Josephus, *Ant.* 13.234 | 135 BC | Fixed | ±1 | 3824 |
+| 33 | [Pompey takes Jerusalem; Rome rules Judea](#rome-herods-eclipse-pilate-and-gallio-fix-confirm) · [timeline](/timeline/#event=anchor_33) | — | 63 BC | Fixed | 0 | 3896 |
+| 34 | [Herod appointed king by Rome](#rome-herods-eclipse-pilate-and-gallio-fix-confirm) · [timeline](/timeline/#event=anchor_34) | — | 40 BC | Fixed | ±1 | 3919 |
+| 35 | [Sabbatical year — Herod takes Jerusalem](#the-sabbatical-cycle-anchored-by-three-sieges) · [timeline](/timeline/#event=anchor_35) | Josephus, *Ant.* 14.475 | 37 BC | Fixed | ±1 | 3922 |
+| 36 | [Herod begins the temple](#the-forty-six-years-passover-bracket) · [timeline](/timeline/#event=anchor_36) | Josephus, *Ant.* 15.380 | 20 BC | Bracketed | 20-16 BC | 3939 |
+| 37 | [Nativity](#the-nativity-bracket) · [timeline](/timeline/#event=anchor_37) | Matthew 2:1, 16; Luke 2:1-2 | 5 BC | Bracketed | 6-4 BC | 3954 |
+| 38 | [Herod dies](#rome-herods-eclipse-pilate-and-gallio-fix-confirm) · [timeline](/timeline/#event=anchor_38) | Josephus, *Ant.* 17.167, 191 | 4 BC | Anchored | ±1 | 3955 |
+| 39 | [John's ministry begins](#rome-herods-eclipse-pilate-and-gallio-fix-confirm) · [timeline](/timeline/#event=anchor_39) | Luke 3:1-2 | AD 29 | Anchored | ±1 | 3987 |
+| 40 | [Temple "forty-six years" Passover](#the-forty-six-years-passover-bracket) · [timeline](/timeline/#event=anchor_40) | John 2:13, 20 | AD 30 | Bracketed | AD 27-30 | 3988 |
+| 41 | [**Crucifixion and Resurrection**](dating-the-cross.md) · [timeline](/timeline/#event=anchor_41) | the Gospels | **AD 33** | **Anchored** | **0** | 3991 |
 
 Twenty-five Fixed, twelve Anchored, four Bracketed. Tier and precision are not the same axis: thirty-one entries carry an error bar of a year or less, which includes seven Anchored entries at ±1 or better and excludes one Fixed entry at ±2.
 
 **Where the date itself is disputed.** Seven entries rest on a question scholars still argue, and the ± column is sized to hold it. Samaria (#8): 2 Kings 17:6 and the Babylonian Chronicle credit Shalmaneser V, and Sargon II claims the capture for himself. Jerusalem's fall (#12): 587 or 586 BC. No Babylonian chronicle survives for that year, so the date is argued from biblical synchronisms; this page follows Thiele's 586, and the *ESV Study Bible* uses 587. Ezekiel's vision (#13) moves with it: 573 BC on the Nisan reading, 574 on the jubilee reading set out below. Nehemiah 2:1 (#20): 445 or 444 BC, taken up below. Herod's death (#38): 4 BC is the majority view, and a minority argues for 1 BC. The crucifixion (#41): AD 30 or AD 33, argued out below. Shishak (#4) depends on identifying him with Shoshenq I, which is widely held; its year comes from 1 Kings 14:25 counted from Thiele's 931 BC, so it carries that date's ±5, since the Bubastite Portal lists the campaign's towns and carries no date.
+{ #where-the-date-is-disputed }
 
 ### The rail, drawn to scale
 
 [![The rail. A line of time from 1000 BC at the top to AD 40 at the bottom, at a constant scale, with all forty-one rows of the anchor table on it, each drawn as Fixed (solid dot), Anchored (hollow dot) or Bracketed (dashed range) with its error bar to scale. Shaded bands mark the five outside records that date each stretch: Assyria, Babylon, Persia, the Greeks and Rome. Four red bars beside the line are the spans Scripture counts: Jeremiah's seventy years from 605 to 536 BC; the seventy years of indignation from 586 to 515 BC, dashed as this site's reading; Daniel's sixty-nine weeks from 444 BC to AD 33, dashed; and Daniel 8:14's 2,300 evenings and mornings from 171 to 164 BC, dashed as contested. Above the line, dashed, the Exodus in 1446 BC and creation in 3959 BC, counted back from row 1.](../assets/img/chronology/the-rail.svg)](../assets/img/chronology/the-rail.svg)
 
-Drawn to scale, the rail shows what the table only lists. The error bars are widest at the top, where Solomon's reign is counted back from Assyria, and shrink to nothing at the eclipses. The rows crowd where Daniel's prophecies are fulfilled, 175 to 164 BC, and thin out across the Persian centuries Scripture passes over. Each row's link above opens it on the [Prophetic Timeline](/timeline/#kingdom-exile), with the records that date it.
+Drawn to scale, the rail shows what the table only lists. The error bars are widest at the top, where Solomon's reign is counted back from Assyria, and shrink to nothing at the eclipses. The rows crowd where Daniel's prophecies are fulfilled, 175 to 164 BC, and thin out across the Persian centuries Scripture passes over. Each row's *timeline* link above opens it on the [Prophetic Timeline](/timeline/#kingdom-exile), with the records that date it.
 
 ## The entries that carry the rest
 

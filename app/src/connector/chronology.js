@@ -14,6 +14,11 @@ import {
 } from '../utils/chronology.js';
 import { SITE } from './studies.js';
 
+const studyLink = (ref) => {
+  const [page, section] = ref.split('#');
+  return `${SITE}${page}/${section ? `#${section}` : ''}`;
+};
+
 const EPOCH = 'genealogy';
 const MAX_EVENTS = 60;
 
@@ -50,7 +55,7 @@ function describeEvent(e) {
     note: e.note ?? e.description ?? e.evidence,
     certainty: e.certainty ?? e.tier,
     error_bar: e.error,
-    study: e.study_ref ? `${SITE}${e.study_ref}/` : undefined,
+    study: e.study_ref ? studyLink(e.study_ref) : undefined,
   };
 }
 
@@ -216,7 +221,7 @@ export function propheticOutline({ topic }) {
           scripture: e.refs,
           certainty: e.certainty,
           note: e.note,
-          study: e.study_ref ? `${SITE}${e.study_ref}/` : undefined,
+          study: e.study_ref ? studyLink(e.study_ref) : undefined,
         })),
     },
     daniels_kingdoms: CHRONOLOGY.kingdoms

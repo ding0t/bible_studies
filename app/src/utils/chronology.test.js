@@ -160,12 +160,20 @@ const refs = new Set(
     .filter(Boolean)
 );
 for (const ref of refs) {
-  const file = path.join(CONTENT, `${ref}.md`);
-  const exists = fs.existsSync(file);
-  assert(
-    exists && !/^draft: true$/m.test(fs.readFileSync(file, 'utf8')),
-    `${ref} exists and is published`
-  );
+  const [page, section] = ref.split('#');
+  const file = path.join(CONTENT, `${page}.md`);
+  const text = fs.existsSync(file) ? fs.readFileSync(file, 'utf8') : '';
+  assert(text && !/^draft: true$/m.test(text), `${page} exists and is published`);
+  if (section) {
+    // The ids mkdocs gives headings, plus any set by hand with attr_list ("{ #id }").
+    const ids = [
+      ...(text.match(/^#{2,4} .+$/gm) ?? []).map((h) =>
+        h.replace(/^#+ /, '').toLowerCase().replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '-')
+      ),
+      ...[...text.matchAll(/\{ ?#([\w-]+)/g)].map((m) => m[1]),
+    ];
+    assert(ids.includes(section), `${ref} names a section that exists`);
+  }
 }
 
 console.log('\n8. The undated future sequence keeps its stated lengths:');

@@ -84,8 +84,10 @@ export function parseGregorian(text) {
   return n === 0 ? null : n;
 }
 
+// A study_ref may name a section of the study ("chronology/chronology-anchors#the-bur-sagale-eclipse").
 export function studyUrl(studyRef) {
-  return `/${studyRef}/`;
+  const [page, section] = studyRef.split('#');
+  return section ? `/${page}/#${section}` : `/${page}/`;
 }
 
 export function niceStep(span, targetTicks = 14) {
