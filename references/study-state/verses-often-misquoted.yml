@@ -31,8 +31,8 @@ outline:
   - {section: "Promises made smaller", says: "1 Pet 3:15, Matt 18:20, John 8:32, 1 Cor 15:44 -- each slogan promises less than the verse"}
   - {section: "Burdens added", says: "Mark 9:29 (fasting), Mark 5:15 (demonized) -- slogans that bind the conscience"}
   - {section: "Discussion questions", says: "language, context, Christ, the hard part, the reader"}
-word_budget: 5000
-word_budget_reason: "A collection page: each entry (~400 words) stands alone, and nine entries plus the Eden frame exceed 4,000. Raised 2026-11-27 when Exodus 20:5 was added."
+word_budget: 5500
+word_budget_reason: "A collection page: each entry (~400 words) stands alone, and ten entries plus the Eden frame exceed 4,000. Raised to 5,000 2026-11-27 for Exodus 20:5, and to 5,500 the same day for Matthew 18:34."
 
 stages:
   scoping:
@@ -136,3 +136,14 @@ evidence:
   - {id: gal-3-13-esv, what: "became a curse", tool: study_verse, args: {book: Gal, chapter: 3, verse: 13, work_id: esv-study-bible}, path: "0.text", expect_contains: "Christ redeemed us from the curse of the law by becoming a curse for us", checked: 2026-11-27}
   - {id: 2cor-5-17-esv, what: "new creation", tool: study_verse, args: {book: 2Cor, chapter: 5, verse: 17, work_id: esv-study-bible}, path: "0.text", expect_contains: "he is a new creation", checked: 2026-11-27}
   - {id: onkelos-exod-20-5, what: "Onkelos reads rebellious children; the verse ends: when the children go on sinning after their fathers", tool: bible_verse, args: {book: Exod, chapter: 20, verse: 5, translation: targum-onkelos}, path: "text", expect_contains: "בְּנִין מָרָדִין", checked: 2026-11-27}
+  # Matthew 18:34 entry, added 2026-11-27
+  - {id: matt-18-34-esv, what: "jailers", tool: study_verse, args: {book: Matt, chapter: 18, verse: 34, work_id: esv-study-bible}, path: "0.text", expect_contains: "delivered him to the jailers, until he should pay all his debt", checked: 2026-11-27}
+  - {id: matt-18-35-esv, what: "forgive from your heart", tool: study_verse, args: {book: Matt, chapter: 18, verse: 35, work_id: esv-study-bible}, path: "0.text", expect_contains: "if you do not forgive your brother from your heart", checked: 2026-11-27}
+  - {id: matt-18-24-esv, what: "ten thousand talents", tool: study_verse, args: {book: Matt, chapter: 18, verse: 24, work_id: esv-study-bible}, path: "0.text", expect_contains: "ten thousand talents", checked: 2026-11-27}
+  - {id: matt-18-28-esv, what: "a hundred denarii", tool: study_verse, args: {book: Matt, chapter: 18, verse: 28, work_id: esv-study-bible}, path: "0.text", expect_contains: "a hundred denarii", checked: 2026-11-27}
+  - {id: matt-20-2-esv, what: "a denarius a day", tool: study_verse, args: {book: Matt, chapter: 20, verse: 2, work_id: esv-study-bible}, path: "0.text", expect_contains: "a denarius a day", checked: 2026-11-27}
+  - {id: rom-8-1-esv, what: "no condemnation", tool: study_verse, args: {book: Rom, chapter: 8, verse: 1, work_id: esv-study-bible}, path: "0.text", expect_contains: "There is therefore now no condemnation for those who are in Christ Jesus", checked: 2026-11-27}
+  - {id: col-2-14-esv, what: "record of debt", tool: study_verse, args: {book: Col, chapter: 2, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "canceling the record of debt that stood against us", checked: 2026-11-27}
+  - {id: eph-4-32-esv, what: "as God in Christ forgave you", tool: study_verse, args: {book: Eph, chapter: 4, verse: 32, work_id: esv-study-bible}, path: "0.text", expect_contains: "as God in Christ forgave you", checked: 2026-11-27}
+  - {id: matt-18-34-kjv, what: "KJV tormentors", tool: bible_verse, args: {book: Matt, chapter: 18, verse: 34, translation: kjv}, path: "text", expect_contains: "delivered him to the tormentors", checked: 2026-11-27}
+  - {id: basanistes-count, what: "βασανιστής once in the NT", tool: bible_concordance, args: {strongs: G930}, expect_count: 1, checked: 2026-11-27}

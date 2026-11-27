@@ -1,11 +1,11 @@
 ---
 title: "Verses Often Misquoted"
 category: "bible"
-description: "Nine well-known church sayings read back into their paragraphs: how each is usually quoted, what it says in context, and where to read more. The pattern goes back to Eden's \"Did God actually say?\" Read where they stand, each verse gives you more of Jesus than its slogan does."
+description: "Ten well-known church sayings read back into their paragraphs: how each is usually quoted, what it says in context, and where to read more. The pattern goes back to Eden's \"Did God actually say?\" Read where they stand, each verse gives you more of Jesus than its slogan does."
 tags: ["hermeneutics", "study-method", "1-peter", "matthew", "john", "1-corinthians", "mark", "genesis", "exodus", "discipleship", "lang/hebrew", "fasting", "deliverance", "resurrection", "lang/greek"]
 draft: false
-primary_passage: "Exodus 20:7; 1 Peter 3:15; Matthew 18:20; John 8:32; 1 Corinthians 15:44; Mark 8:34; Mark 9:29; Mark 5:15; Exodus 20:5"
-bible_references: ["1 Peter 3:13-17", "Isaiah 8:13", "1 Peter 1:3", "1 Peter 4:4", "Matthew 18:15-20", "Deuteronomy 19:15", "1 Corinthians 5:4", "1 Corinthians 6:1", "Matthew 28:20", "Matthew 18:21-35", "John 8:31-36", "1 Corinthians 15:42-45", "Luke 24:39", "Romans 8:11", "Philippians 3:21", "Mark 9:14-29", "Matthew 17:20", "Isaiah 58:3-7", "Mark 5:1-20", "John 10:21", "2 Corinthians 12:7", "Matthew 26:67", "Colossians 1:13", "1 Corinthians 6:19", "1 John 4:4", "Matthew 23:4", "Matthew 6:16-18", "Daniel 10:12", "James 4:7", "1 Peter 5:9", "1 Corinthians 2:14-15", "Galatians 4:7", "Matthew 14:23", "Isaiah 8:12", "1 Peter 3:14", "Genesis 2:16-17", "Genesis 3:1-5", "Matthew 3:17", "Matthew 4:1-11", "Deuteronomy 8:3", "Deuteronomy 6:13", "Deuteronomy 6:16", "Psalm 91:1", "Psalm 91:11-12", "2 Peter 3:16", "Mark 8:31-35", "Luke 9:23-24", "Luke 14:27", "John 19:17", "Galatians 2:20", "Exodus 20:7", "Leviticus 19:12", "Numbers 6:27", "Deuteronomy 5:20", "Psalm 24:4", "Jeremiah 14:14", "Matthew 5:33-37", "James 2:7", "Romans 2:24", "Isaiah 52:5", "Ephesians 4:29", "Exodus 20:4-6", "Exodus 34:7", "Deuteronomy 7:9", "Deuteronomy 24:16", "2 Kings 14:6", "Ezekiel 18:2", "Ezekiel 18:14-20", "Numbers 14:31-33", "Galatians 3:13", "2 Corinthians 5:17"]
+primary_passage: "Exodus 20:7; 1 Peter 3:15; Matthew 18:20; John 8:32; 1 Corinthians 15:44; Mark 8:34; Mark 9:29; Mark 5:15; Exodus 20:5; Matthew 18:34"
+bible_references: ["1 Peter 3:13-17", "Isaiah 8:13", "1 Peter 1:3", "1 Peter 4:4", "Matthew 18:15-20", "Deuteronomy 19:15", "1 Corinthians 5:4", "1 Corinthians 6:1", "Matthew 28:20", "Matthew 18:21-35", "John 8:31-36", "1 Corinthians 15:42-45", "Luke 24:39", "Romans 8:11", "Philippians 3:21", "Mark 9:14-29", "Matthew 17:20", "Isaiah 58:3-7", "Mark 5:1-20", "John 10:21", "2 Corinthians 12:7", "Matthew 26:67", "Colossians 1:13", "1 Corinthians 6:19", "1 John 4:4", "Matthew 23:4", "Matthew 6:16-18", "Daniel 10:12", "James 4:7", "1 Peter 5:9", "1 Corinthians 2:14-15", "Galatians 4:7", "Matthew 14:23", "Isaiah 8:12", "1 Peter 3:14", "Genesis 2:16-17", "Genesis 3:1-5", "Matthew 3:17", "Matthew 4:1-11", "Deuteronomy 8:3", "Deuteronomy 6:13", "Deuteronomy 6:16", "Psalm 91:1", "Psalm 91:11-12", "2 Peter 3:16", "Mark 8:31-35", "Luke 9:23-24", "Luke 14:27", "John 19:17", "Galatians 2:20", "Exodus 20:7", "Leviticus 19:12", "Numbers 6:27", "Deuteronomy 5:20", "Psalm 24:4", "Jeremiah 14:14", "Matthew 5:33-37", "James 2:7", "Romans 2:24", "Isaiah 52:5", "Ephesians 4:29", "Exodus 20:4-6", "Exodus 34:7", "Deuteronomy 7:9", "Deuteronomy 24:16", "2 Kings 14:6", "Ezekiel 18:2", "Ezekiel 18:14-20", "Numbers 14:31-33", "Galatians 3:13", "2 Corinthians 5:17", "Matthew 18:24-35", "Matthew 20:2", "Romans 8:1", "Colossians 2:14", "Ephesians 4:32"]
 date_created: 2026-10-01
 date_modified: 2026-11-27
 ai_provider_models:
@@ -25,11 +25,11 @@ may still be demonized. Jesus said of the scribes and Pharisees, "They tie up he
 bear, and lay them on people's shoulders" (Matthew 23:4, ESV). A verse misquoted to bind a believer's
 conscience does that in Jesus' own name, and it is spiritual abuse.
 
-**In one sentence:** Each of these nine verses means what it meant in its own paragraph, and read
+**In one sentence:** Each of these ten verses means what it meant in its own paragraph, and read
 there every one gives you more of Jesus than its slogan does — the Lord enthroned in your heart, the
 Lord present with His church when it deals with sin, the Son who frees, the Spirit who will raise
 your body, the God whose name you carry, the Master who calls you to follow Him with your cross and promises you life — and the
-three slogans that bind believers are burdens He lifts.
+four slogans that bind believers are burdens He lifts.
 
 ## Key Takeaways
 
@@ -69,7 +69,7 @@ three slogans that bind believers are burdens He lifts.
 ### Be Transformed
 
 - **Think.** Before you quote a verse, read the paragraph it sits in and ask what it meant there.
-  The nine below each changed when read that way.
+  The ten below each changed when read that way.
 - **Attitude.** Hold a slogan loosely and the verse tightly. Where a teaching makes you carry
   something the paragraph never gave you, put it down.
 - **Do.** Read the chapter of a verse you often quote, then pray it as its paragraph means it (John
@@ -93,8 +93,9 @@ Amen.
   kinds of misuse.
 - [Verses made smaller](#verses-made-smaller). 1 Peter 3:15, Matthew 18:20, John 8:32,
   1 Corinthians 15:44, Mark 8:34 and Exodus 20:7: six verses whose slogans say less than the text.
-- [Burdens added](#burdens-added). Mark 9:29 on fasting, Mark 5:15 on "demonized" and Exodus 20:5
-  on "generational curses": three slogans that bind a believer's conscience.
+- [Burdens added](#burdens-added). Mark 9:29 on fasting, Mark 5:15 on "demonized", Exodus 20:5 on
+  "generational curses" and Matthew 18:34 on "the tormentors": four slogans that bind a believer's
+  conscience.
 - [Discussion questions](#discussion-questions).
 
 ## "Did God actually say?"
@@ -155,7 +156,7 @@ on [How to Read the Bible](how-to-read-the-bible.md): what a text meant to its f
 before what it means now, and the paragraph is the unit of meaning.
 
 The misuses fall into two groups. Six verses are quoted in a way that **makes them smaller**: the
-slogan is true enough, and the verse says something larger. Three are quoted in a way that **adds a
+slogan is true enough, and the verse says something larger. Four are quoted in a way that **adds a
 burden**: the slogan tells a believer to do or fear something the text does not ask. The second group
 is the one that does harm.
 
@@ -501,8 +502,50 @@ grieve and a pattern to refuse. Christ has borne the curse.
 **Keywords.** As used: generational curses, bloodline, family patterns, breaking curses. In context:
 the second commandment, covenant loyalty, each for his own sin, the curse Christ bore.
 
-**See also:** [Contemporary Deliverance in Christianity](../spiritual-beings/deliverance/contemporary-deliverance.md#generational-curses),
-where the term is weighed beside "soul ties" and "word curses".
+### Matthew 18:34: "Delivered to the tormentors"
+
+> ✝️ Matthew 18:34-35 (ESV)
+>
+> 34 And in anger his master delivered him to the jailers, until he should pay all his debt. 35 So
+> also my heavenly Father will do to every one of you, if you do not forgive your brother from your
+> heart.
+
+**How it is used.** In the King James wording, "delivered him to the tormentors" (Matthew 18:34,
+KJV). The tormentors are taken to be demons, and the verse becomes a rule: a Christian who will not
+forgive is handed over to demonic torment, which lasts until he forgives, often in a deliverance
+session. Illness, anxiety or depression is read as the evidence.
+
+**What it says.** The verse ends a parable, and a parable makes its point to its first hearers.
+Peter had asked how often he must forgive (Matthew 18:21). Jesus answered with a king who forgives a
+servant "ten thousand talents" (Matthew 18:24, ESV), a debt beyond counting at about twenty years'
+wages a talent (ESV Study Bible, note on Matthew 18:24). The same servant then chokes a fellow
+servant over "a hundred denarii" (Matthew 18:28, ESV), about a hundred days' wages (Matthew 20:2).
+
+"Tormentors" is βασανισταῖς, from βασανιστής (*basanistēs*, bah-sah-nis-TAYS, G930), its only use in
+the New Testament. They are the king's jailers, and in Gentile courts jailers tortured a debtor to
+extract payment (NIV Cultural Backgrounds Study Bible, note on Matthew 18:34). They serve the king
+and carry out his sentence. "Until he should pay all his debt" means never, since the debt could not
+be paid (NIV Biblical Theology Study Bible, note on Matthew 18:34). Jesus states the point Himself:
+"So also my heavenly Father will do to every one of you, if you do not forgive your brother from your
+heart" (Matthew 18:35, ESV). The parable is about the judgment of God on an unforgiving heart.
+
+**What is settled and what is argued.** Settled: the jailers belong to the story, and the sentence
+is final. Argued: whom the servant stands for. One reading takes him as a forgiven believer. The
+other fits "There is therefore now no condemnation for those who are in Christ Jesus" (Romans 8:1,
+ESV): a man who does not forgive "shows that his own heart has not experienced God's forgiveness"
+(ESV Study Bible, note on Matthew 18:35). Neither reading makes the sentence a season of torment that
+a session can end.
+
+**What the burden costs.** A believer in pain is told the pain is a demon with a right to be there.
+The parable points to the king instead. He forgave first, out of pity, a debt no one could pay
+(Matthew 18:27). God has done that for you in Christ, "canceling the record of debt that stood
+against us" (Colossians 2:14, ESV). So forgive, "as God in Christ forgave you" (Ephesians 4:32, ESV).
+You forgive because you have been forgiven a debt you could never pay.
+
+**Keywords.** As used: tormentors, unforgiveness, legal right, demonic access. In context: parable,
+the king's mercy, the unpayable debt, forgiving from the heart.
+
+**Full study:** [Forgive Us Our Debts](../christian-life/forgiveness.md#reading-two-an-unforgiving-heart-shows-an-unforgiven-one).
 
 ## Discussion questions
 

@@ -7,7 +7,7 @@ primary_passage: ""
 supporting_passages: ["Matthew 12:22-45", "Colossians 1:12-14; 2:9-15", "1 John 4:4; 5:18", "Ephesians 4:26-27; 6:10-13", "James 4:7", "1 Peter 5:8-9"]
 sibling_studies:
   - {slug: "spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery", role: cited, use: link, note: "manifestation explanations; linked both ways"}
-  - {slug: "spiritual-beings/deliverance/contemporary-deliverance", role: cited, use: link, note: "the survey of ministries; its vocabulary section weighs the terms"}
+  - {slug: "spiritual-beings/deliverance/contemporary-deliverance (retired 2026-11-27)", role: cited, use: none, note: "the survey of ministries; its vocabulary section weighs the terms"}
 genre: [topical, gospel, epistle]
 
 thesis: >

@@ -4,7 +4,7 @@ category: "other"
 description: "The biblical basis for and practice of deliverance ministry."
 draft: false
 date_created: 2026-07-19
-date_modified: 2026-09-28
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -23,14 +23,6 @@ ai_provider_models:
     Examining the biblical basis and practical approach to deliverance ministry
 
     [:octicons-arrow-right-24: Read](christians-and-deliverance.md)
-
--   __Contemporary Deliverance in Christianity__
-
-    ---
-
-    A survey of contemporary deliverance ministries and how they teach that a believer can be 'demonized'
-
-    [:octicons-arrow-right-24: Read](contemporary-deliverance.md)
 
 -   __Deliverance and the Edge of Sorcery__
 

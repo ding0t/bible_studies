@@ -267,9 +267,7 @@ gift of grace, and it holds on the days nothing visible happens.
 ### Indwelling: ruled out for a believer
 
 Whether a believer can be indwelt by a demon is the question underneath every deliverance session.
-Much contemporary deliverance teaching says a Christian can be "demonized"
-([Contemporary Deliverance in Christianity](contemporary-deliverance.md) collects examples). The
-answer, argued from the word itself in
+Much contemporary deliverance teaching says a Christian can be "demonized". The answer, argued from the word itself in
 [Christians and Deliverance Ministry](christians-and-deliverance.md#the-key-term-demonized), is no.
 The New Testament never uses δαιμονίζομαι (*daimonizomai*, G1139, "to be demonized") of a Christian. It says the believer's body is a temple of
 the Holy Spirit (1 Corinthians 6:19), that God "has delivered us from the domain of darkness and
@@ -365,6 +363,4 @@ house.
 - [Sin and Sorcery](../../sin/sorcery.md) — Deuteronomy 18:9-22, the inquiry verbs, and the three
   sorcery episodes in Acts; this study was drawn from it.
 - [Christians and Deliverance Ministry](christians-and-deliverance.md) — the δαιμονίζομαι word study.
-- [Contemporary Deliverance in Christianity](contemporary-deliverance.md) — a survey of specific
-  ministries.
 - [Test the Spirits](../../christian-life/test-the-spirits.md) — discerning false teaching.

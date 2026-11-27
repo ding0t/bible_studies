@@ -12,7 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 18:20 (primary passage)
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 18:34 (primary passage)
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 18:15-20 (primary passage)
 - [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 18:15-18
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 18:15-17

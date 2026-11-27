@@ -405,7 +405,5 @@ who is in Christ.
 - Amy Bradley, [Why I Don't "Do" Deliverance Ministry Anymore (Part 1)](https://lifelibertyandlove.com/item/40-why-i-don-t-do-deliverance-ministry-anymore-part-1),
   *Life, Liberty and Love*, 16 August 2019: the stages before a session, and why she gave
   deliverance sessions up.
-- [Contemporary Deliverance in Christianity](contemporary-deliverance.md): a survey of specific
-  contemporary deliverance ministries and their teachings.
 - [Deliverance and the Edge of Sorcery](deliverance-and-the-edge-of-sorcery.md): where deliverance
   practice crosses into the inquiry Deuteronomy 18 forbids (Acts 16:16-18).

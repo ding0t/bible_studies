@@ -17,5 +17,6 @@ draft: false
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 20:20-23
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 20:28
 - [The Parables of the Olivet Discourse](../../last-things/olivet-discourse-parables.md) — 20:1-16
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 20:2
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 20:2
 <!-- commentary-index:auto-end -->

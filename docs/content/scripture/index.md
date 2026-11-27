@@ -109,7 +109,7 @@ The Bible about itself -- canon, manuscripts, translation, and the archaeology b
 
     ---
 
-    Nine well-known church sayings read back into their paragraphs: how each is usually quoted, what it says in context, and where to read more. The pattern goes back to Eden's "Did God actually say?" Read where they stand, each verse gives you more of Jesus than its slogan does.
+    Ten well-known church sayings read back into their paragraphs: how each is usually quoted, what it says in context, and where to read more. The pattern goes back to Eden's "Did God actually say?" Read where they stand, each verse gives you more of Jesus than its slogan does.
 
     [:octicons-arrow-right-24: Read](verses-often-misquoted.md)
 

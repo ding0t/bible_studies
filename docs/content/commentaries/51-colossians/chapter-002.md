@@ -34,5 +34,6 @@ draft: false
 - [The Restrainer](../../last-things/the-restrainer.md) — 2:14
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 2:15
 - [True Worship](../../christian-life/true-worship.md) — 2:18
+- [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 2:14
 - [Wisdom](../../wisdom/index.md) — 2:3
 <!-- commentary-index:auto-end -->

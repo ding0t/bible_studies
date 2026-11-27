@@ -117,6 +117,9 @@ plugins:
         # and the author's dream accounts to the Blog, kept apart from the studies. The dream
         # accounts were unpublished on 2026-10-31, so their old URLs land on the Blog index.
         'god/world-population-declares-gods-creation-and-biblical-truth.md': 'chronology/world-population-declares-gods-creation-and-biblical-truth.md'
+        # The survey of contemporary deliverance ministries was retired on 2026-11-27: the site
+        # answers false teaching by teaching the truth, so its old URLs land on the study.
+        'spiritual-beings/deliverance/contemporary-deliverance.md': 'spiritual-beings/deliverance/christians-and-deliverance.md'
         'god/dreams-and-visions/index.md': 'holy-spirit/dreams-and-visions/index.md'
         'god/dreams-and-visions/personal-examples/index.md': 'blog/index.md'
         'god/dreams-and-visions/personal-examples/monster-in-man.md': 'blog/index.md'
@@ -447,7 +450,7 @@ plugins:
         'hebrew-studies/index.md': 'hebrew/index.md'
         'hebrew-studies/resources.md': 'hebrew/aleph-with-beth.md'
         'investigation/deliverance/christians-and-deliverance.md': 'spiritual-beings/deliverance/christians-and-deliverance.md'
-        'investigation/deliverance/contemporary-deliverance.md': 'spiritual-beings/deliverance/contemporary-deliverance.md'
+        'investigation/deliverance/contemporary-deliverance.md': 'spiritual-beings/deliverance/christians-and-deliverance.md'
         'investigation/deliverance/index.md': 'spiritual-beings/deliverance/index.md'
         'investigation/index.md': 'spiritual-beings/deliverance/index.md'
         'resources/early-new-testament-manuscripts.md': 'scripture/early-new-testament-manuscripts.md'
