@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 11:3-4
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 11:14-15
 - [Know the Truth](../../christian-life/know-the-truth.md) — 11:3
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 11:32

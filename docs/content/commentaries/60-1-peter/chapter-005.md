@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:8-9
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 5:8
 - [Faith](../../salvation/faith.md) — 5:7
 - [Fasting](../../christian-life/fasting.md) — 5:8-9

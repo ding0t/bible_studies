@@ -1,0 +1,95 @@
+slug: "christians-and-deliverance"
+title: "Christians and Deliverance Ministry"
+status: published # 2024-04-23; deepened 2026-11-26 (author to review the diff before commit)
+target_path: "docs/content/spiritual-beings/deliverance/christians-and-deliverance.md"
+
+primary_passage: ""
+supporting_passages: ["Matthew 12:22-45", "Colossians 1:12-14; 2:9-15", "1 John 4:4; 5:18", "Ephesians 4:26-27; 6:10-13", "James 4:7", "1 Peter 5:8-9"]
+sibling_studies:
+  - {slug: "spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery", role: cited, use: link, note: "manifestation explanations; linked both ways"}
+  - {slug: "spiritual-beings/deliverance/contemporary-deliverance", role: cited, use: link, note: "the survey of ministries; its vocabulary section weighs the terms"}
+genre: [topical, gospel, epistle]
+
+thesis: >
+  God delivered you from the domain of darkness when He brought you into the kingdom of His Son
+  Jesus, and the Holy Spirit lives in you, so no demon can indwell you; it can attack you from
+  outside, and you answer it by submitting to God and resisting the devil.
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: |
+      2026-11-26: language/structure pass, then a deepening pass at the author's request ("or deeper
+      insight"). No state file existed before; this one records the 2026-11-26 work only.
+  exegesis:
+    literary_context:
+      done: true
+      notes: |
+        Matthew 12:43-45 read inside 12:22-45: the house divided (12:25), the strong man bound and
+        his house plundered (12:29), the empty house (12:44), applied to "this evil generation"
+        (12:45). Gives the house three states; resolves backlog decision "what the empty-house
+        danger is to a believer the Spirit indwells" (danger falls on the unbeliever swept and not
+        filled; for the believer, the self-emptying itself, against 1 Peter 5:8, Romans 12:2,
+        2 Corinthians 11:3).
+    content_word_studies:
+      done: true
+      notes: |
+        daimonizomai 13x, all Gospels; Luke's one use (8:36) pairs it with esothe (sozo).
+        rhyomai: 15 NT verses, none an exorcism; aorist Col 1:13, present ptc 1 Thess 1:10, future
+        2 Tim 4:18, all three in 2 Cor 1:10. Resolves backlog decision "at conversion or at the
+        cross": won at the cross (Col 2:14-15), received at conversion (Col 1:13), prayed (Matt
+        6:13), completed (2 Tim 4:18).
+        anthistemi: James 4:7, 1 Peter 5:9, Ephesians 6:13 (three apostles, one verb); Gal 2:11.
+        topos idiom: Eph 4:27 = Rom 12:19 (dote topon), Acts 25:16, Heb 12:17.
+        pleroo + kardia: Acts 5:3 and John 16:6.
+        1 John 5:18: variant auton/heauton noted (CSB footnote); promise stands on either.
+  hermeneutics:
+    notes: |
+      Objection texts given the case on both sides: Eph 4:27, Acts 5:3 (Ananias's status marked
+      contested), Luke 13:16 (pre-Pentecost, John 7:39), Matt 16:23, 2 Cor 11:4. Consistent with
+      statement-of-faith (indwelling Spirit; dispensational reading of pre-Pentecost Luke 13).
+
+evidence:
+  - {id: daimonizomai-count, what: "δαιμονίζομαι 13x in the NT", tool: bible_concordance, args: {strongs: G1139}, expect_count: 13, checked: 2026-11-26}
+  - {id: kolaphizo-count, what: "κολαφίζω 5x in the NT", tool: bible_concordance, args: {strongs: G2852}, expect_count: 5, checked: 2026-11-26}
+  - {id: luke-8-36-esv, what: "Luke 8:36 as quoted", tool: study_verse, args: {book: Luke, chapter: 8, verse: 36, work_id: esv-study-bible}, path: "0.text", expect_contains: "how the demon-possessed man had been healed", checked: 2026-11-26}
+  - {id: luke-8-36-na28, what: "Luke 8:36 esōthē with daimonistheis", tool: study_verse, args: {book: Luke, chapter: 8, verse: 36, work_id: na28-greek-nt}, path: "0.text", expect_contains: "ἐσώθη ὁ δαιμονισθείς", checked: 2026-11-26}
+  - {id: matt-12-45-esv, what: "Matthew 12:45 applied to the generation", tool: study_verse, args: {book: Matt, chapter: 12, verse: 45, work_id: esv-study-bible}, path: "0.text", expect_contains: "So also will it be with this evil generation", checked: 2026-11-26}
+  - {id: matt-12-29-esv, what: "strong man bound", tool: study_verse, args: {book: Matt, chapter: 12, verse: 29, work_id: esv-study-bible}, path: "0.text", expect_contains: "unless he first binds the strong man", checked: 2026-11-26}
+  - {id: matt-12-25-esv, what: "house divided", tool: study_verse, args: {book: Matt, chapter: 12, verse: 25, work_id: esv-study-bible}, path: "0.text", expect_contains: "no city or house divided against itself will stand", checked: 2026-11-26}
+  - {id: 1john-5-18-esv, what: "1 John 5:18 as quoted", tool: study_verse, args: {book: 1John, chapter: 5, verse: 18, work_id: esv-study-bible}, path: "0.text", expect_contains: "the evil one does not touch him", checked: 2026-11-26}
+  - {id: col-1-13-na28, what: "aorist errysato", tool: study_verse, args: {book: Col, chapter: 1, verse: 13, work_id: na28-greek-nt}, path: "0.text", expect_contains: "ἐρρύσατο", checked: 2026-11-26}
+  - {id: 1thess-1-10-na28, what: "present participle rhyomenon", tool: study_verse, args: {book: 1Thess, chapter: 1, verse: 10, work_id: na28-greek-nt}, path: "0.text", expect_contains: "ῥυόμενον", checked: 2026-11-26}
+  - {id: 2tim-4-18-na28, what: "future rhysetai", tool: study_verse, args: {book: 2Tim, chapter: 4, verse: 18, work_id: na28-greek-nt}, path: "0.text", expect_contains: "ῥύσεταί", checked: 2026-11-26}
+  - {id: 2cor-1-10-esv, what: "three tenses in one verse", tool: study_verse, args: {book: 2Cor, chapter: 1, verse: 10, work_id: esv-study-bible}, path: "0.text", expect_contains: "he will deliver us again", checked: 2026-11-26}
+  - {id: col-2-14-esv, what: "legal demands", tool: study_verse, args: {book: Col, chapter: 2, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "canceling the record of debt that stood against us with its legal demands", checked: 2026-11-26}
+  - {id: eph-4-27-na28, what: "didote topon", tool: study_verse, args: {book: Eph, chapter: 4, verse: 27, work_id: na28-greek-nt}, path: "0.text", expect_contains: "δίδοτε τόπον", checked: 2026-11-26}
+  - {id: rom-12-19-na28, what: "dote topon te orge", tool: study_verse, args: {book: Rom, chapter: 12, verse: 19, work_id: na28-greek-nt}, path: "0.text", expect_contains: "δότε τόπον τῇ ὀργῇ", checked: 2026-11-26}
+  - {id: acts-25-16-esv, what: "topos = opportunity", tool: study_verse, args: {book: Acts, chapter: 25, verse: 16, work_id: esv-study-bible}, path: "0.text", expect_contains: "had opportunity to make his defense", checked: 2026-11-26}
+  - {id: heb-12-17-esv, what: "topos = chance", tool: study_verse, args: {book: Heb, chapter: 12, verse: 17, work_id: esv-study-bible}, path: "0.text", expect_contains: "he found no chance to repent", checked: 2026-11-26}
+  - {id: acts-5-3-esv, what: "Acts 5:3 as quoted", tool: study_verse, args: {book: Acts, chapter: 5, verse: 3, work_id: esv-study-bible}, path: "0.text", expect_contains: "why has Satan filled your heart to lie to the Holy Spirit", checked: 2026-11-26}
+  - {id: acts-5-4-esv, what: "Acts 5:4 as quoted", tool: study_verse, args: {book: Acts, chapter: 5, verse: 4, work_id: esv-study-bible}, path: "0.text", expect_contains: "Why is it that you have contrived this deed in your heart?", checked: 2026-11-26}
+  - {id: john-16-6-na28, what: "pleroo + kardia", tool: study_verse, args: {book: John, chapter: 16, verse: 6, work_id: na28-greek-nt}, path: "0.text", expect_contains: "πεπλήρωκεν ὑμῶν τὴν καρδίαν", checked: 2026-11-26}
+  - {id: john-7-39-esv, what: "Spirit not yet given", tool: study_verse, args: {book: John, chapter: 7, verse: 39, work_id: esv-study-bible}, path: "0.text", expect_contains: "as yet the Spirit had not been given, because Jesus was not yet glorified", checked: 2026-11-26}
+  - {id: luke-13-12-esv, what: "bent woman freed", tool: study_verse, args: {book: Luke, chapter: 13, verse: 12, work_id: esv-study-bible}, path: "0.text", expect_contains: "Woman, you are freed from your disability", checked: 2026-11-26}
+  - {id: matt-16-23-esv, what: "Peter rebuked", tool: study_verse, args: {book: Matt, chapter: 16, verse: 23, work_id: esv-study-bible}, path: "0.text", expect_contains: "you are not setting your mind on the things of God, but on the things of man", checked: 2026-11-26}
+  - {id: john-6-70-esv, what: "one of you is a devil", tool: study_verse, args: {book: John, chapter: 6, verse: 70, work_id: esv-study-bible}, path: "0.text", expect_contains: "one of you is a devil", checked: 2026-11-26}
+  - {id: 2cor-11-3-esv, what: "thoughts led astray", tool: study_verse, args: {book: 2Cor, chapter: 11, verse: 3, work_id: esv-study-bible}, path: "0.text", expect_contains: "your thoughts will be led astray from a sincere and pure devotion to Christ", checked: 2026-11-26}
+  - {id: jas-4-7-na28, what: "antistete", tool: study_verse, args: {book: Jas, chapter: 4, verse: 7, work_id: na28-greek-nt}, path: "0.text", expect_contains: "ἀντίστητε δὲ τῷ διαβόλῳ", checked: 2026-11-26}
+  - {id: 1pet-5-9-na28, what: "antistete", tool: study_verse, args: {book: 1Pet, chapter: 5, verse: 9, work_id: na28-greek-nt}, path: "0.text", expect_contains: "ἀντίστητε", checked: 2026-11-26}
+  - {id: eph-6-13-na28, what: "antistenai", tool: study_verse, args: {book: Eph, chapter: 6, verse: 13, work_id: na28-greek-nt}, path: "0.text", expect_contains: "ἀντιστῆναι", checked: 2026-11-26}
+  - {id: gal-2-11-esv, what: "opposed him to his face", tool: study_verse, args: {book: Gal, chapter: 2, verse: 11, work_id: esv-study-bible}, path: "0.text", expect_contains: "I opposed him to his face", checked: 2026-11-26}
+  - {id: 1pet-5-8-esv, what: "sober-minded", tool: study_verse, args: {book: 1Pet, chapter: 5, verse: 8, work_id: esv-study-bible}, path: "0.text", expect_contains: "Be sober-minded; be watchful", checked: 2026-11-26}
+
+open_questions:
+  - "Whether the block quote opening 'The preparation' is quoted or the site's own words (backlog decision; left verbatim)."
+  - "Summary claim that manifesting believers have usually been led through self-emptying first has no source on the page."
+  - "No Key Takeaways or discussion questions yet (backlog 'new wording only the author can write')."
+
+resources_consulted:
+  - "ESV Study Bible notes on 1 John 5:18; NIV Biblical Theology Study Bible on 1 John 5:18; CSB footnote on 1 John 5:18"
+  - "NA28 text for Luke 8:36, Col 1:13, 1 Thess 1:10, 2 Tim 4:18, Eph 4:27, Rom 12:19, John 16:6, Jas 4:7, 1 Pet 5:9, Eph 6:13"
+
+last_updated: "2026-11-26"

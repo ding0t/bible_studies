@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 5:3-4
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 5:37
 - [Scribes and Pharisees: a Trade and a School](../../scripture/scribes-and-pharisees.md) — 5:17
 - [Submission in Context](../../christian-life/submission-in-context.md) — 5:29

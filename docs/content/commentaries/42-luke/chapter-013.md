@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 13:10-17
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 13:3
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 13:10-17
 - [The Fig Tree and This Generation](../../last-things/fig-tree-and-this-generation.md) — 13:6-9

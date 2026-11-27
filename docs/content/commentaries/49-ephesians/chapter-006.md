@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 6:13
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 6:11-12
 - [Fasting](../../christian-life/fasting.md) — 6:10-18
 - [Know the Truth](../../christian-life/know-the-truth.md) — 6:14

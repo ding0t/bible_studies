@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 1:8-9
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 1:10
 - [Faith](../../salvation/faith.md) — 1:8-9
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:20
 - [Reading the Song of Songs](../../wisdom/reading-the-song-of-songs.md) — 1:22

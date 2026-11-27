@@ -5,9 +5,9 @@ description: "At Philippi Paul silenced a spirit whose words were true in a form
 tags: ["status/investigation", "acts", "demons", "spiritual-warfare", "ministry", "sorcery", "divination", "discernment", "lang/greek"]
 draft: false
 primary_passage: "Acts 16:16-18"
-bible_references: ["Acts 16:14", "Acts 16:19", "Acts 16:31", "Acts 4:2", "Acts 19:13-20", "Deuteronomy 18:10-11", "Deuteronomy 18:15", "Deuteronomy 13:1-5", "1 Samuel 28:8", "1 Chronicles 10:13-14", "Isaiah 8:19", "Mark 1:24-25", "Mark 1:32-34", "Luke 4:41", "Mark 5:7-9", "Luke 10:17-20", "1 John 4:1-4", "1 Corinthians 6:19", "Colossians 1:13", "Colossians 2:15", "Hebrews 2:14", "James 4:7", "Ephesians 6:11-12", "1 Peter 5:8", "James 2:19", "1 Timothy 4:1", "2 Corinthians 11:14-15", "Mark 9:17-27", "Luke 8:29", "Jude 8-10", "2 Peter 2:10-11", "Matthew 8:29", "1 Corinthians 10:20-21", "Matthew 12:43"]
+bible_references: ["Acts 16:14", "Acts 16:19", "Acts 16:31", "Acts 4:2", "Acts 19:13-20", "Deuteronomy 18:10-11", "Deuteronomy 18:15", "Deuteronomy 13:1-5", "1 Samuel 28:8", "1 Chronicles 10:13-14", "Isaiah 8:19", "Mark 1:24-25", "Mark 1:32-34", "Luke 4:41", "Mark 5:7-9", "Luke 10:17-20", "1 John 4:1-4", "1 Corinthians 6:19", "Colossians 1:13", "Colossians 2:15", "Hebrews 2:14", "James 4:7", "Ephesians 6:11-12", "1 Peter 5:8", "James 2:19", "1 Timothy 4:1", "2 Corinthians 11:14-15", "Mark 9:17-27", "Luke 8:29", "Jude 8-10", "2 Peter 2:10-11", "Matthew 8:29", "1 Corinthians 10:20-21", "Matthew 12:43", "Luke 8:28-37", "Acts 16:39"]
 date_created: 2026-09-26
-date_modified: 2026-11-15
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -20,16 +20,16 @@ Her owners made money from the spirit that spoke through her. Paul finally turne
 spirit, once, in the name of Jesus Christ, and it left her "that very hour" (Acts 16:18, ESV).
 
 That one scene answers a question deliverance ministry raises today. Believers sometimes manifest in
-deliverance sessions, and some of what is practised there — questioning a spirit for its name, its
-legal right, the history that admitted it — resembles the crafts Deuteronomy 18 forbids. Does it
-cross the line? Scripture does not adjudicate individual cases, and neither can a study. It does
-supply tests, and anyone can apply them to any ministry, their own included.
+deliverance sessions. Some of what is practised there resembles the crafts Deuteronomy 18 forbids: a
+spirit is questioned for its name, its legal right and the history that admitted it. Does that cross
+the line? Scripture rules on no individual session. It does supply tests, and you can apply them to
+any ministry, your own included.
 
-**In one sentence:** God has given His people His Son to listen to and His Son's name to act in, so
-the apostolic pattern commands an unclean spirit to leave in the name of Jesus and never questions it
-for knowledge — seeking knowledge from a spirit is the inquiry Deuteronomy 18 forbids — and the tests
-Scripture supplies (silence the spirit, rest on Jesus, weigh confession, rejoice in your name written
-in heaven) let you judge any ministry, beginning with your own.
+**In one sentence:** God has given you His Son to listen to and His Son's name to act in, so you
+command an unclean spirit to leave in the name of Jesus and ask it nothing, because seeking knowledge
+from a spirit is the inquiry Deuteronomy 18 forbids; and four tests from Scripture (silence the
+spirit, rest on Jesus, weigh confession, rejoice that your name is written in heaven) let you judge
+any ministry, beginning with your own.
 
 ## Key Takeaways
 
@@ -84,7 +84,8 @@ In Jesus' name. Amen.
 ## Study outline
 
 - [Philippi: the passage in its setting](#philippi-the-passage-in-its-setting). Where Acts 16:16-18
-  sits, the verb Luke uses for the girl's fortune-telling, and what Paul did.
+  sits, the verb Luke uses for the girl's fortune-telling, what Paul did, and how Luke tells it as
+  he told Gerasa.
 - [Four tests](#four-tests). Silence the spirit; rest on Jesus; weigh confession; rejoice in your
   name written in heaven. Includes the Gerasene counter-example.
 - [When a believer manifests](#when-a-believer-manifests). Indwelling, oppression, and suggestion.
@@ -143,6 +144,23 @@ and asked it nothing. The NIV Cultural Backgrounds Study Bible notes that exorci
 invoked more powerful spirits to drive out lesser ones; Paul spoke on Jesus' delegated authority
 alone (note on Acts 16:18).
 
+### Luke tells Philippi as he told Gerasa
+
+Luke's readers had met this scene before, in his first volume. Only two spirits in Luke-Acts name
+"the Most High God", θεοῦ τοῦ ὑψίστου (*theou tou hypsistou*). Legion cried, "Jesus, Son of the Most
+High God" (Luke 8:28, ESV), and the girl's spirit, "servants of the Most High God" (Acts 16:17, ESV).
+In both scenes the deliverance costs the locals money: the herd "rushed down the steep bank into the
+lake and drowned" (Luke 8:33, ESV), and the owners saw "that their hope of gain was gone" (Acts
+16:19, ESV). In both, the locals ask the deliverer to go. The Gerasenes "asked him to depart from
+them" (Luke 8:37, ESV), and the magistrates "asked them to leave the city" (Acts 16:39, ESV), with
+the same two verbs each time, ἐρωτάω and ἀπέρχομαι.
+
+The difference is the authority. Jesus "had commanded the unclean spirit to come out of the man"
+(Luke 8:29, ESV) on His own word. Paul commanded "in the name of Jesus Christ" (Acts 16:18). The links
+are verbal, and whether Luke meant them as an echo is a judgment. A reader of both volumes still
+hears Gerasa at Philippi: the apostle does what his Lord did, by his Lord's name, and is sent away as
+his Lord was.
+
 ### Narrative, and whether it binds
 
 Acts is narrative, and narrative records what happened without always prescribing it. One scene in
@@ -164,24 +182,28 @@ not permit the demons to speak, because they knew him" (Mark 1:34, ESV); Luke, t
 and would not allow them to speak, because they knew that he was the Christ" (Luke 4:41, ESV). The
 demons were right, and they were silenced anyway. Paul does the same at Philippi with a spirit whose
 statement about him was, in the ESV Study Bible's words, "true in a formal sense" (note on Acts 16:18).
+The apostolic pattern includes no interview with an unclean spirit for information.
+
+#### How true was the cry?
+
 How true is contested. The Greek has no article, ὁδὸν σωτηρίας (*hodon sōtērias*), "a way of
 salvation" (so the WEB, and the LSB's footnote "Lit a way"), and Gentiles called Zeus "the Most High
 God," so the NIV Cultural Backgrounds Study Bible suggests the cry may have made Paul's God simply
-the greatest in a pantheon (note on Acts 16:17). Paul silenced it anyway (Acts 16:18), and that is the
-point: the test holds on either reading, since the spirit Jesus silenced in Mark 1:24 was exact in
-every word. The apostolic pattern includes no interview
-with an unclean spirit for information.
+the greatest in a pantheon (note on Acts 16:17). The test holds on either reading. Paul silenced the
+spirit (Acts 16:18), and the spirit Jesus silenced in Mark 1:24 was exact in every word.
 
-This is where the line falls most clearly. Commanding a spirit to leave in the name of Jesus is
-apostolic practice, plainly attested. Questioning a spirit to obtain knowledge — its name, its legal
-right, the history that admitted it — is inquiry directed at a source other than God. That is what
+#### Where the line falls
+
+Commanding a spirit to leave in the name of Jesus is apostolic practice, plainly attested.
+Questioning a spirit to obtain knowledge (its name, its legal right, the history that admitted it) is
+inquiry directed at a source other than God. That is what
 Deuteronomy 18:11 names, "one who inquires of the dead" (ESV), and what 1 Chronicles 10:13-14
 condemns in Saul, who "consulted a medium, seeking guidance" and "did not seek guidance from the LORD"
 (ESV). Such information might even prove useful. Isaiah's question still applies: "should not a
 people inquire of their God?" (Isaiah 8:19, ESV). [Sin and Sorcery](../../sin/sorcery.md#the-word-that-carries-the-argument-inquiry)
 traces the two Hebrew verbs of inquiry behind these verses.
 
-### The Gerasene counter-example
+#### The Gerasene counter-example
 
 The one apparent counter-example is Jesus asking the Gerasene demoniac's spirit its name: "What is
 your name?" "My name is Legion, for we are many" (Mark 5:9, ESV).
@@ -197,20 +219,21 @@ study Bibles agree on and the herd of "about two thousand" pigs in verse 13 goes
 then does. Against it stand the explicit refusals of Mark 1:34 and Luke 4:41, each with a reason
 given.
 
-The weight falls on the second side. Building a standard practice of interrogation on Mark 5:9 inverts
-the weight of the evidence. And the note on name-magic cuts the other way for the practitioner: the
+The weight falls on the second side: one question in Mark 5:9 cannot carry a standard practice of
+interrogation against two refusals with their reasons given. And the note on name-magic cuts the other way for the practitioner: the
 belief that knowing a spirit's name gives leverage over it is the magicians' belief. The name Paul
 relied on at Philippi was Jesus'.
 
 ### 2. Rest on Jesus; technique fails
 
-**Technique fails.** The sons of Sceva had the correct name and the correct formula and no
-relationship — "Jesus I know, and Paul I recognize, but who are you?" (Acts 19:15, ESV). Their
+**A borrowed name fails.** The sons of Sceva had the correct name and the correct formula and no
+relationship. The spirit answered, "Jesus I know, and Paul I recognize, but who are you?" (Acts 19:15,
+ESV). Their
 formula was "I adjure you by the Jesus whom Paul proclaims" (Acts 19:13, ESV), the name used as a borrowed
 incantation. Luke's placement is pointed: the episode immediately precedes the book-burning, where
 converts "who had practiced magic arts brought their books together and burned them" (Acts 19:19, ESV; see
-[Sin and Sorcery](../../sin/sorcery.md#ephesus)). A ministry whose confidence rests on method is the
-thing Acts 19 was written to warn about.
+[Sin and Sorcery](../../sin/sorcery.md#ephesus)). Acts 19 warns any ministry whose confidence rests
+on method.
 
 This shows that God's power is personal. It comes through union with Jesus, the Lord who knows His
 own, and no procedure can reproduce it.
@@ -232,7 +255,7 @@ confesses about His Son, and you can apply it with an open Bible.
 
 **The measure is grace.** "Do not rejoice in this, that the spirits are subject to you, but rejoice
 that your names are written in heaven" (Luke 10:20, ESV). Jesus said this to disciples who had just
-succeeded — they came back saying "even the demons are subject to us in your name!" (Luke 10:17, ESV) —
+succeeded. They came back saying, "even the demons are subject to us in your name!" (Luke 10:17, ESV),
 and He did not deny the success. He moved their joy to their salvation.
 
 This shows that God wants your joy anchored in what He has done for you. Your name in His book is a
@@ -240,37 +263,31 @@ gift of grace, and it holds on the days nothing visible happens.
 
 ## When a believer manifests
 
-### Indwelling and oppression
+### Indwelling: ruled out for a believer
 
 Whether a believer can be indwelt by a demon is the question underneath every deliverance session.
 Much contemporary deliverance teaching says a Christian can be "demonized"
 ([Contemporary Deliverance in Christianity](contemporary-deliverance.md) collects examples). The
-answer this site holds, argued from the word itself in
+answer, argued from the word itself in
 [Christians and Deliverance Ministry](christians-and-deliverance.md#the-key-term-demonized), is no.
 The New Testament never uses δαιμονίζομαι (*daimonizomai*, G1139, "to be demonized") of a Christian. It says the believer's body is a temple of
 the Holy Spirit (1 Corinthians 6:19), that God "has delivered us from the domain of darkness and
 transferred us to the kingdom of his beloved Son" (Colossians 1:13, ESV), and that "he who is in you
 is greater than he who is in the world" (1 John 4:4, ESV).
 
-Oppression, temptation and harassment are a different matter, and the New Testament assumes them
-everywhere (Ephesians 6:11-12; 1 Peter 5:8). The answer it gives is resistance: "Submit yourselves
-therefore to God. Resist the devil, and he will flee from you" (James 4:7, ESV).
-
-### More than two explanations
+### What remains: oppression and suggestion
 
 A believer's distress in a deliverance session is usually given one of two explanations: a demon
-indwells them, or the session has crossed into sorcery. The section above rules out the first for a
-Christian. Holding indwelling and oppression apart opens two further explanations, and both are
-real:
+indwells them, or the session has crossed into sorcery. Indwelling is ruled out above. Two other
+explanations remain, and neither requires sorcery:
 
-- **Demonic oppression short of indwelling**, the harassment the New Testament assumes everywhere
-  (Ephesians 6:11-12; 1 Peter 5:8).
+- **Demonic oppression from outside.** The New Testament assumes temptation and harassment
+  everywhere (Ephesians 6:11-12; 1 Peter 5:8), and its answer is resistance: "Submit yourselves
+  therefore to God. Resist the devil, and he will flee from you" (James 4:7, ESV).
 - **Ordinary suggestion** under emotional and social pressure.
 
-Neither requires sorcery to explain it.
-
-The four tests above can be applied by anyone to any
-ministry, including their own, without needing to settle what is happening in someone else's room.
+You can apply the four tests to any ministry without settling what is happening in someone else's
+room.
 
 ## What this shows about God
 
@@ -290,17 +307,17 @@ Holy Spirit within you, the name of Jesus to stand in, and your name written in 
 
 ## Discussion questions
 
-1. Luke describes the girl's fortune-telling with μαντεύομαι, the Septuagint's verb for Deuteronomy
+1. **The language.** Luke describes the girl's fortune-telling with μαντεύομαι, the Septuagint's verb for Deuteronomy
    18:10's diviner and for Saul's request at En-dor (1 Samuel 28:8). What would a reader who knew
    those passages hear in Acts 16:16?
-2. Paul let the girl follow the missionaries "for many days" before acting (Acts 16:18). What in the
+2. **The text in its context.** Paul let the girl follow the missionaries "for many days" before acting (Acts 16:18). What in the
    passage, including the owners' reaction in Acts 16:19, helps explain both the delay and the moment he
    finally turned?
-3. Jesus silenced demons "because they knew him" (Mark 1:34). What is lost when a true statement
+3. **Christ.** Jesus silenced demons "because they knew him" (Mark 1:34). What is lost when a true statement
    about Jesus comes from the wrong source?
-4. In Mark 5:9 Jesus asks a spirit its name; in Mark 1:34 and Luke 4:41 He refuses to let spirits
+4. **The hard part.** In Mark 5:9 Jesus asks a spirit its name; in Mark 1:34 and Luke 4:41 He refuses to let spirits
    speak. How do you hold those texts together?
-5. Jesus told successful disciples to rejoice that their names are written in heaven (Luke 10:20).
+5. **Be transformed.** Jesus told successful disciples to rejoice that their names are written in heaven (Luke 10:20).
    What do you, or your church, tend to rejoice in when ministry goes well?
 
 ## Annex: what Scripture says about demons

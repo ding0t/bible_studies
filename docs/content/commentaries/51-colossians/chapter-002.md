@@ -18,6 +18,7 @@ draft: false
 - [At Home with the Lord](../../last-things/at-home-with-the-lord.md) — 2:15
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 2:16-17
 - [Charting End Times](../../last-things/prophecy-chart.md) — 2:16-17
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 2:14-15
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 2:15
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 2:13-14
 - [In Humility](../../christian-life/humility.md) — 2:16-23

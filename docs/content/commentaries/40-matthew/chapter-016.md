@@ -16,6 +16,7 @@ draft: false
 - [Take Up Your Cross](../../christian-life/take-up-your-cross.md) — 16:21-28 (primary passage)
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 16:13-17 (primary passage)
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 16:5-12
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 16:23
 - [Faith](../../salvation/faith.md) — 16:8-10
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 16:21
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 16:16

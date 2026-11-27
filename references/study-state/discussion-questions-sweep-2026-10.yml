@@ -50,7 +50,6 @@ todo:
   - scripture/scribe-trained-for-the-kingdom.md
   - scripture/verses-often-misquoted.md
   - scripture/verses-quoted-well.md
-  - spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md
   - spiritual-beings/nephilim.md
   - wisdom/reading-the-song-of-songs.md
 
@@ -105,6 +104,10 @@ done:
     - jesus/woman-with-the-issue-of-blood.md
     - last-things/a-thousand-years-in-your-sight.md
     - last-things/day-is-a-thousand-years.md
+  outside_waves:
+    # 2026-11-26, during a language and structure pass on the three deliverance studies. The set
+    # already followed the facet order its state file planned; only the labels were added.
+    - spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md
 
 # Found in study bodies by sweep agents and left alone (out of scope). Candidates for a follow-up
 # review-bible-study pass; misquotes first.

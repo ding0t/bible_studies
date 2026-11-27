@@ -1,0 +1,35 @@
+slug: "contemporary-deliverance"
+title: "Contemporary Deliverance in Christianity"
+status: published # 2024-04-24; restructured and given 'The vocabulary, weighed' 2026-11-26
+target_path: "docs/content/spiritual-beings/deliverance/contemporary-deliverance.md"
+genre: [topical]
+word_budget: 4000
+word_budget_reason: ""
+
+evidence:
+  - {id: matt-18-34-esv, what: "jailers, not tormentors, in the ESV", tool: study_verse, args: {book: Matt, chapter: 18, verse: 34, work_id: esv-study-bible}, path: "0.text", expect_contains: "his master delivered him to the jailers", checked: 2026-11-26}
+  - {id: matt-18-34-na28, what: "basanistais", tool: study_verse, args: {book: Matt, chapter: 18, verse: 34, work_id: na28-greek-nt}, path: "0.text", expect_contains: "βασανισταῖς", checked: 2026-11-26}
+  - {id: 1sam-18-1-esv, what: "soul knit", tool: study_verse, args: {book: 1Sam, chapter: 18, verse: 1, work_id: esv-study-bible}, path: "0.text", expect_contains: "the soul of Jonathan was knit to the soul of David", checked: 2026-11-26}
+  - {id: 1sam-18-3-esv, what: "covenant", tool: study_verse, args: {book: 1Sam, chapter: 18, verse: 3, work_id: esv-study-bible}, path: "0.text", expect_contains: "Jonathan made a covenant with David", checked: 2026-11-26}
+  - {id: 1cor-6-16-esv, what: "one body", tool: study_verse, args: {book: 1Cor, chapter: 6, verse: 16, work_id: esv-study-bible}, path: "0.text", expect_contains: "he who is joined to a prostitute becomes one body with her", checked: 2026-11-26}
+  - {id: 1cor-6-18-esv, what: "flee", tool: study_verse, args: {book: 1Cor, chapter: 6, verse: 18, work_id: esv-study-bible}, path: "0.text", expect_contains: "Flee from sexual immorality", checked: 2026-11-26}
+  - {id: exod-20-5-esv, what: "of those who hate me", tool: study_verse, args: {book: Exod, chapter: 20, verse: 5, work_id: esv-study-bible}, path: "0.text", expect_contains: "to the third and the fourth generation of those who hate me", checked: 2026-11-26}
+  - {id: exod-20-6-esv, what: "to thousands", tool: study_verse, args: {book: Exod, chapter: 20, verse: 6, work_id: esv-study-bible}, path: "0.text", expect_contains: "steadfast love to thousands of those who love me", checked: 2026-11-26}
+  - {id: ezek-18-2-esv, what: "sour grapes", tool: study_verse, args: {book: Ezek, chapter: 18, verse: 2, work_id: esv-study-bible}, path: "0.text", expect_contains: "The fathers have eaten sour grapes", checked: 2026-11-26}
+  - {id: ezek-18-20-esv, what: "son shall not suffer", tool: study_verse, args: {book: Ezek, chapter: 18, verse: 20, work_id: esv-study-bible}, path: "0.text", expect_contains: "The son shall not suffer for the iniquity of the father", checked: 2026-11-26}
+  - {id: gal-3-13-esv, what: "became a curse", tool: study_verse, args: {book: Gal, chapter: 3, verse: 13, work_id: esv-study-bible}, path: "0.text", expect_contains: "Christ redeemed us from the curse of the law by becoming a curse for us", checked: 2026-11-26}
+  - {id: prov-26-2-esv, what: "causeless curse", tool: study_verse, args: {book: Prov, chapter: 26, verse: 2, work_id: esv-study-bible}, path: "0.text", expect_contains: "a curse that is causeless does not alight", checked: 2026-11-26}
+  - {id: num-23-11-esv, what: "nothing but bless", tool: study_verse, args: {book: Num, chapter: 23, verse: 11, work_id: esv-study-bible}, path: "0.text", expect_contains: "you have done nothing but bless them", checked: 2026-11-26}
+  - {id: num-23-23-esv, what: "no enchantment", tool: study_verse, args: {book: Num, chapter: 23, verse: 23, work_id: esv-study-bible}, path: "0.text", expect_contains: "there is no enchantment against Jacob, no divination against Israel", checked: 2026-11-26}
+  - {id: col-2-14-esv, what: "legal demands", tool: study_verse, args: {book: Col, chapter: 2, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "canceling the record of debt that stood against us with its legal demands", checked: 2026-11-26}
+  - {id: col-2-15-esv, what: "disarmed", tool: study_verse, args: {book: Col, chapter: 2, verse: 15, work_id: esv-study-bible}, path: "0.text", expect_contains: "He disarmed the rulers and authorities", checked: 2026-11-26}
+  - {id: luke-10-19-na28, what: "dedoka", tool: study_verse, args: {book: Luke, chapter: 10, verse: 19, work_id: na28-greek-nt}, path: "0.text", expect_contains: "δέδωκα", checked: 2026-11-26}
+  - {id: luke-10-19-esv, what: "I have given you authority", tool: study_verse, args: {book: Luke, chapter: 10, verse: 19, work_id: esv-study-bible}, path: "0.text", expect_contains: "Behold, I have given you authority to tread on serpents and scorpions", checked: 2026-11-26}
+  - {id: matt-28-18-esv, what: "all authority", tool: study_verse, args: {book: Matt, chapter: 28, verse: 18, work_id: esv-study-bible}, path: "0.text", expect_contains: "All authority in heaven and on earth has been given to me", checked: 2026-11-26}
+  - {id: col-2-10-na28, what: "peplēromenoi", tool: study_verse, args: {book: Col, chapter: 2, verse: 10, work_id: na28-greek-nt}, path: "0.text", expect_contains: "πεπληρωμένοι", checked: 2026-11-26}
+  - {id: col-2-8-esv, what: "not according to Christ", tool: study_verse, args: {book: Col, chapter: 2, verse: 8, work_id: esv-study-bible}, path: "0.text", expect_contains: "See to it that no one takes you captive by philosophy and empty deceit", checked: 2026-11-26}
+
+open_questions:
+  - "Virkler date: page says Prayers That Heal the Heart (2021) with Reimer 'published somewhat later'; recalled (unverified) as 2001 and Soul Care 2016. Author to check."
+
+last_updated: "2026-11-26"

@@ -18,6 +18,7 @@ draft: false
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 6:9-13 (primary passage)
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 6:10 (primary passage)
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 6:11
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 6:13
 - [Faith](../../salvation/faith.md) — 6:11
 - [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 6:2-16
 - [Idolatry](../../sin/idolatry.md) — 6:24

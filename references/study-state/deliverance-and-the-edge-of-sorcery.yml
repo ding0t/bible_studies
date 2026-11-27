@@ -129,7 +129,7 @@ evidence:
   - {id: col-1-13-esv, what: "Col 1:13", tool: study_verse, args: {book: Col, chapter: 1, verse: 13, work_id: esv-study-bible}, path: "0.text", expect_contains: "He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son", checked: 2026-09-26}
   - {id: col-2-15-esv, what: "Col 2:15", tool: study_verse, args: {book: Col, chapter: 2, verse: 15, work_id: esv-study-bible}, path: "0.text", expect_contains: "He disarmed the rulers and authorities and put them to open shame, by triumphing over them in him", checked: 2026-09-26}
   - {id: heb-2-14-esv, what: "Heb 2:14", tool: study_verse, args: {book: Heb, chapter: 2, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "that through death he might destroy the one who has the power of death, that is, the devil", checked: 2026-09-26}
-  - {id: acts-16-17-anarthrous, what: "hodon soterias has no article (Acts 16:17)", tool: bible_verse, args: {book: Acts, chapter: 16, verse: 17}, expect_contains: "a way of salvation", checked: 2026-09-28}
+  - {id: acts-16-17-anarthrous, what: "hodon soterias has no article (Acts 16:17)", tool: bible_verse, args: {book: Acts, chapter: 16, verse: 17, translation: ebible-eng-web}, expect_contains: "a way of salvation", checked: 2026-11-26} # pinned to the WEB: the default became the BSB in Oct 2026
   - {id: mark-1-24-esv, what: "I know who you are -- the Holy One of God", tool: study_verse, args: {book: Mark, chapter: 1, verse: 24, work_id: esv-study-bible}, path: "0.text", expect_contains: "I know who you are— the Holy One of God", checked: 2026-09-28}
   - {id: 2cor-11-14-esv, what: "2 Cor 11:14", tool: study_verse, args: {book: 2Cor, chapter: 11, verse: 14, work_id: esv-study-bible}, path: "0.text", expect_contains: "even Satan disguises himself as an angel of light", checked: 2026-09-28}
   - {id: python-g4436, what: "puthon once in NT", tool: bible_concordance, args: {strongs: G4436}, expect_count: 1, checked: 2026-09-28}
@@ -137,6 +137,14 @@ evidence:
   - {id: 2pet-2-10-esv, what: "blaspheme the glorious ones", tool: study_verse, args: {book: 2Pet, chapter: 2, verse: 10, work_id: esv-study-bible}, path: "0.text", expect_contains: "blaspheme the glorious ones", checked: 2026-09-28}
   - {id: 2pet-2-11-esv, what: "angels do not pronounce a blasphemous judgment", tool: study_verse, args: {book: 2Pet, chapter: 2, verse: 11, work_id: esv-study-bible}, path: "0.text", expect_contains: "do not pronounce a blasphemous judgment against them before the Lord", checked: 2026-09-28}
   - {id: jas-4-7-esv, what: "James 4:7", tool: study_verse, args: {book: Jas, chapter: 4, verse: 7, work_id: esv-study-bible}, path: "0.text", expect_contains: "Submit yourselves therefore to God. Resist the devil, and he will flee from you", checked: 2026-09-26}
+  - {id: luke-8-28-na28, what: "Most High God on Legion's lips", tool: study_verse, args: {book: Luke, chapter: 8, verse: 28, work_id: na28-greek-nt}, path: "0.text", expect_contains: "υἱὲ τοῦ θεοῦ τοῦ ὑψίστου", checked: 2026-11-26}
+  - {id: acts-16-17-na28, what: "Most High God on the girl's spirit", tool: study_verse, args: {book: Acts, chapter: 16, verse: 17, work_id: na28-greek-nt}, path: "0.text", expect_contains: "δοῦλοι τοῦ θεοῦ τοῦ ὑψίστου", checked: 2026-11-26}
+  - {id: luke-8-33-esv, what: "herd drowned", tool: study_verse, args: {book: Luke, chapter: 8, verse: 33, work_id: esv-study-bible}, path: "0.text", expect_contains: "the herd rushed down the steep bank into the lake and drowned", checked: 2026-11-26}
+  - {id: luke-8-37-na28, what: "erotao + aperchomai", tool: study_verse, args: {book: Luke, chapter: 8, verse: 37, work_id: na28-greek-nt}, path: "0.text", expect_contains: "ἠρώτησεν αὐτὸν", checked: 2026-11-26}
+  - {id: acts-16-39-na28, what: "erotao + aperchomai", tool: study_verse, args: {book: Acts, chapter: 16, verse: 39, work_id: na28-greek-nt}, path: "0.text", expect_contains: "ἠρώτων ἀπελθεῖν", checked: 2026-11-26}
+  - {id: luke-8-37-esv, what: "asked him to depart", tool: study_verse, args: {book: Luke, chapter: 8, verse: 37, work_id: esv-study-bible}, path: "0.text", expect_contains: "asked him to depart from them", checked: 2026-11-26}
+  - {id: acts-16-39-esv, what: "asked them to leave", tool: study_verse, args: {book: Acts, chapter: 16, verse: 39, work_id: esv-study-bible}, path: "0.text", expect_contains: "asked them to leave the city", checked: 2026-11-26}
+  - {id: luke-8-29-esv, what: "Jesus commanded on His own word", tool: study_verse, args: {book: Luke, chapter: 8, verse: 29, work_id: esv-study-bible}, path: "0.text", expect_contains: "For he had commanded the unclean spirit to come out of the man", checked: 2026-11-26}
 
 open_questions:
   - "Merge with christians-and-deliverance.md? Decided against for now: that page owns the indwelling/daimonizomai argument, this one the Deuteronomy 18 inquiry line; this study summarises and links. christians-and-deliverance.md's 'outward signs' section links to sin/sorcery.md -- once this is published, the author may want it to point here instead (not edited, per brief)."
@@ -151,7 +159,7 @@ resources_consulted:
   - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Acts 16:18 (irritation/disruption motive); Mark 5:9 (Legion = sizable host)."}
   - {type: other, title: "NLT Life Application Study Bible", author: "Tyndale", note: "Consulted on Acts 16:14-34 and 19:13-16; nothing cited."}
   - {type: lexicon, title: "Macula Greek SBLGNT / unfoldingWord interlinear; LXX lemmas", author: "", note: "manteuomai and diaponeo occurrences."}
-last_updated: "2026-09-28"
+last_updated: "2026-11-26" # Gerasa-Philippi section added; test 1 sub-headed; manifest sections merged
 
 review_2026-09-28:
   reviewer: "review-bible-study skill (agent), first review pass"

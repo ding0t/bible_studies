@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 4:16
+- [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 4:18
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 4:14-16
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 4:10-17
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 4:10-17
