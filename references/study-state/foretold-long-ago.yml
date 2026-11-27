@@ -13,27 +13,43 @@ status: published
 target_path: "docs/content/jesus/foretold-long-ago.md"
 ledger_page: "docs/content/prophecies-of-christ.md"
 next: >-
-  Develop it into a full study (develop-bible-study): Key Takeaways, outline, discussion questions,
-  prayer, in the shape of Known Before, Seen After, from the exegesis already recorded here (Isaiah's
-  trial of the idols; John 13:19 taking up Isaiah 43:10 LXX; the apostles' method in Acts 17:2-3 and
-  18:28; 1 Peter 1:10-11). Then read-bible-study in a different session. Author settled 2026-11-27:
-  the title; the chance floor is the study's closing argument; the study is week 1 of the series.
+  Published 2026-11-27 as a full study. Next: read-bible-study in a fresh session; the human-review
+  tells to read hardest are theology stated outright in "Former things, new things" and "The prophet's
+  view and history's view" (no "this shows that God" line), then register in the third-assumption
+  paragraph. Open offer: What Literary Criticism Declares' "neither holds" line against the floor's
+  three assumptions (author's call).
 
 primary_passage: "Isaiah 45:21; Luke 24:44"
+supporting_passages: ["Isaiah 41:21-29", "Isaiah 42:1-9", "Isaiah 43:8-13", "Isaiah 44:6-8", "Isaiah 44:24-28", "Isaiah 45:18-25", "Isaiah 46:8-11", "Isaiah 48:3-12", "Deuteronomy 18:21-22", "John 13:18-19", "John 14:29", "John 8:28", "Luke 24:25-27", "Luke 24:44-48", "Luke 16:29-31", "Acts 17:2-3", "Acts 17:11", "Acts 18:24-28", "Acts 1:8", "1 Peter 1:10-12", "2 Peter 1:16-21", "Matthew 2:4-6", "Matthew 12:17-18", "Matthew 16:1-4", "Romans 16:25-26", "1 Corinthians 15:3-4", "Acts 17:31", "Philippians 2:9-11"]
 genre: [topical, prophets]
+sibling_studies:
+  - {slug: scripture/what-literary-criticism-declares, role: cited, use: link, note: "Isaiah 41-48 as God's test, nagad (32x in Isaiah), Deuteronomy 18:22, the three-date test, 1 Peter 1:10-11. Link for nagad and the dated test; do not repeat. TENSION: its 'Where this argument is weak' says multiplied probabilities assume independence and 'that only fulfilled ones were counted, and neither holds'; this study's floor names independence but not selection. Raised with the author 2026-11-27."}
+  - {slug: last-things/prophecy-essentials, role: primary, use: link, note: "Luke 24:27 as the test Jesus pointed to; birthplace, passion, Daniel 9 checked. Link once for the worked examples."}
+  - {slug: jesus/known-before-seen-after, role: primary, use: link, note: "week 2. Owns Luke 24's dianoigo x3, Matthew 2:4-6, Acts 17:3, which prophecies were read before. This study adds Acts 17:3 as Paul doing what Jesus did, and hands the selection question to week 2 in one sentence."}
+  - {slug: jesus/the-bright-morning-star, role: cited, use: link, note: "2 Peter 1:19 the lamp and the morning star"}
+  - {slug: christian-life/humility, role: cited, use: none, note: "Isaiah 45:23 applied to Jesus; covered here by the LORD's words plate"}
+  - {slug: god/names-of-god, role: cited, use: link, note: "Isaiah 45:23 and Philippians 2:10-11: the LORD's name given to Jesus"}
+  - {slug: israel-and-church/hebrew-roots, role: cited, use: none, note: "Acts 17:2-3 quoted in passing"}
+  - {slug: sin/sorcery, role: primary, use: none, note: "Deuteronomy 18:9-22 as the prophet against divination; this study uses only 18:21-22's test"}
+  - {slug: jesus/three-days-and-three-nights, role: cited, use: link, note: "week 6; the sign of Jonah, Matthew 16:4"}
 thesis: >-
   More than a hundred prophecies, written centuries before Jesus was born, have come to pass in
   Him, and that alone proves He is the Christ: Apollos was "proving from the Scriptures that Jesus is
   the Christ" (Acts 18:28, BSB). Author's wording, 2026-11-27. Ledger: 102 of 118 fulfilled or in
   part (80 of them applied to Jesus by the New Testament itself); every dated one written before its
   event, at least 127 years ahead on any dating.
-outline:
-  - {section: "God's own argument", says: "Isaiah 45:21; 41:23; 48:5; 46:10; Jesus takes the LORD's words, John 13:19 = Isaiah 43:10 LXX (hina pisteusete ... hoti ego eimi); Luke 24:44"}
-  - {section: "The prophet's view and history's view", says: "1 Peter 1:11; the span chart; the dated sentence (generated)"}
-  - {section: "The LORD's words, said of Jesus", says: "the yhwh_text plate"}
-  - {section: "How unlikely by chance?", says: "no odds per prophecy (decision no_odds); the reader-set floor (generated); its two assumptions"}
-  - {section: "The studies, a week at a time", says: "series-sessions; this study is week 1"}
-
+outline: # PROPOSED 2026-11-27, for the author before drafting
+  - {section: "Key Takeaways, then Study outline", says: "Types & Prophecy; Lessons about Jesus; Memory verses (Isaiah 46:10, John 13:19); Be Transformed; Prayer"}
+  - {section: "God's own argument", says: "Isaiah 40-48 in its setting: exiles among Babylon's gods; the trial speeches; Cyrus the evidence then (44:28; 45:1; Ezra 1:1-4); tsaddiq, the verdict 'He was right' (41:26) that the LORD alone earns (45:21); the law's test (Deuteronomy 18:22); the critics' date, and why the argument for Christ survives it"}
+  - {section: "Former things, new things", says: "the Servant set beside 'before they spring forth I proclaim them' (42:1-9; Matthew 12:17-18); hidden things now made known (48:6-7; Romans 16:25-26): the argument reaches past Cyrus to the Christ"}
+  - {section: "I am He", says: "Jesus foretells as the LORD foretold (John 13:19; 14:29; 8:28); ani hu / ego eimi (Isaiah 43:10; 48:12); in the same speech as 45:21, every knee bows (45:23), and Paul says to Jesus (Philippians 2:10-11); the LORD's words plate"}
+  - {section: "Proving from the Scriptures", says: "how the apostles argued: Luke 24:44-48 (and 'you are witnesses'); Acts 17:2-3 opening and setting before; the Bereans (17:11); Apollos showing (18:28; the sign demanded, Matthew 16:1-4); Luke 16:31; 2 Peter 1:19-21 (contested comparative, both sides); the resurrection inside the prophecies (1 Corinthians 15:3-4; Acts 17:31)"}
+  - {section: "The prophet's view and history's view", says: "1 Peter 1:10-12; the span chart and the dated sentence; link Where Jesus Stopped Reading"}
+  - {section: "How unlikely by chance?", says: "the closing argument: no odds per prophecy; the rules; the reader-set floor; three assumptions named (independence; the Gospels' record; the texts were chosen after, answered in part by texts chosen before, Matthew 2:4-6, week 2); then 'this shows that God ___'"}
+  - {section: "The studies, a week at a time", says: "series list; this is week 1"}
+  - {section: "Discussion questions", says: "facets mirroring Key Takeaways"}
+word_budget: 4000
+word_budget_reason: 
 open_questions:
   - "31 fulfilled or partly-fulfilled entries carry no `event` (the nature entries, most of lineage, the types), so they are off the span chart's history panel; giving each a dated event is ledger research"
   - "CONFIRMED by the author 2026-11-26: the seven weeks and their order"
@@ -42,8 +58,67 @@ open_questions:
   - "READ 2026-11-26 at the author's request: b. Megillah 3a says only that the Writings hold 'the end of the Messiah' (קץ משיח), naming no book; Rashi there says 'in the book of Daniel', and Rashi on Daniel 9:25-26 reads the anointed ones as Cyrus and Agrippa. sixty-nine-weeks stays veiled, with both witnesses in recognition_evidence. The William Davidson English adds 'in the book of Daniel' to the Talmud's sentence from Rashi"
   - "BRACKETED 2026-11-26 at the author's word ('we can probably bracket the dating'): book-authorship.toml existed_by = -132 for Jeremiah, Ezekiel and the Twelve (Sirach 49:6-10 names them; the translator's prologue is after 132 BC; the ESV SB dates Jonah by the same witness). 26 dated prophecies carry a critical date, 15 the bracket, 30 (most in the Psalms) neither: the Psalms wait on the Qumran palaeographic dates (prophecy-and-jesus.yml open)"
   - "the span chart labels a multi-reference split by its first reference (Hosea 3:4-5 for a four-reference entry)"
-resources_consulted: []
-last_updated: "2026-11-26"
+stages:
+  scoping: {done: true, notes: "2026-11-27: siblings by cross_study_claims.py for Isaiah 41, 43, 45, 46, 48, John 13, Luke 24, Acts 17, 18, 1 Peter 1, Deuteronomy 18, 2 Peter 1"}
+  exegesis:
+    historical_context:
+      done: true
+      notes: >-
+        Isaiah 40-48 addresses Judah's exiles in Babylon, among Babylon's gods (Bel and Nebo, 46:1).
+        Traditional date: Isaiah son of Amoz, c. 740-681 BC (book-authorship.toml, ESV SB); critics: chapters
+        40-55 c. 560-540 BC, Cyrus's own day. In its setting the trial's evidence is Cyrus: named 44:28;
+        45:1; 'a bird of prey from the east' 46:11; fulfilled 539/538 BC (2 Chronicles 36:22-23; Ezra 1:1-4).
+        ESV SB on 45:21: 'this' = Cyrus's conquest and the release (cf. 46:8-11). The argument for Christ
+        survives the critics' date: Isaiah 53 stands centuries before the cross on any date, and the Great
+        Isaiah Scroll is c. 125 BC.
+    literary_context:
+      done: true
+      notes: >-
+        Trial speeches: 41:21-29; 43:8-13; 44:6-8; 45:18-25; 46:8-11; 48:3-8. The first Servant Song (42:1-4)
+        sits beside 'the former things have happened, and now I declare new things' (42:9); Matthew 12:17-18
+        says Jesus fulfilled 42:1-4. 45:21's challenge leads straight into 45:22-23 (turn and be saved, every
+        knee), which Paul applies to Jesus (Philippians 2:10-11): the passage itself joins the argument from
+        prediction to the confession of Jesus. 48:6-7 'new things, hidden things' ~ Romans 16:25-26 (the
+        mystery made known through the prophetic writings). Luke 24:44-48: fulfilled Scripture, then 'You are
+        witnesses'; Acts 1:8 ends with Isaiah 49:6 LXX's ἕως ἐσχάτου τῆς γῆς word for word (Acts 13:47 quotes
+        49:6). bible_trace finds no Isaiah 43:10 link for Acts 1:8: the shared word μάρτυρες is an echo, marked so.
+    content_word_studies:
+      done: true
+      notes: "1QIsaa at 41:26 reads a lemma of the same root, צדק, where the MT has צַדִּיק (19 extant words); 45:21's scroll reading is זה for זאת (25 extant). Neither moves the sense."
+      terms:
+        - {word: "צַדִּיק", language: hebrew, transliteration: "tsaddiq", strongs_id: H6662, gloss: "right, righteous", notes: "Isaiah 41:26 'so that we may say: He was right' (no idol earns it); 45:21 'a righteous God' (אֵל צַדִּיק). LXX ἀληθῆ (41:26), δίκαιος (45:21). 28x in Isaiah."}
+        - {word: "אֲנִי הוּא", language: hebrew, transliteration: "ani hu", gloss: "I am He", notes: "Isaiah 43:10, 13; 48:12; LXX ἐγώ εἰμι at 43:10, which John 13:19 takes up"}
+        - {word: "παρατίθημι", language: greek, transliteration: "paratithemi", strongs_id: G3908, gloss: "set before", notes: "Acts 17:3 'proving' (BSB). 19x SBLGNT: food set before people (Luke 9:16; Mark 8:6), a parable put before them (Matthew 13:24, 31), commit (Luke 23:46). Gloss 'set before', never the prefix's 'beside'."}
+        - {word: "διανοίγω", language: greek, transliteration: "dianoigo", strongs_id: G1272, gloss: "open", notes: "8x SBLGNT, 7 in Luke-Acts; Luke 24:31, 32, 45 (week 2 owns these) and Acts 17:3"}
+        - {word: "ἐπιδείκνυμι", language: greek, transliteration: "epideiknymi", strongs_id: G1925, gloss: "show, demonstrate", notes: "Acts 18:28 'proving'; Matthew 16:1, the Pharisees ask Him 'to show them a sign', and are given the sign of Jonah (16:4)"}
+        - {word: "βεβαιότερον", language: greek, transliteration: "bebaioteron", strongs_id: G949, gloss: "more sure", notes: "2 Peter 1:19. CONTESTED with textual reasons both ways: the comparative names no comparand, so 'surer than the voice we heard' (v. 18) or 'made surer by it'. ESV SB gives both. On either, the prophetic word is the lamp to heed."}
+  hermeneutics:
+    cultural_vs_transcultural: {done: true, notes: "Then: proof to exiles that the LORD alone is God, against Babylon's gods. Transcends: God proves Himself by foretelling and fulfilling (Deuteronomy 18:22; Isaiah 46:10); the test is applied to Jesus by Jesus (John 13:19) and the apostles (Acts 17:2-3; 18:28)."}
+    theological_principle: {done: true, notes: "The God who alone foretells foretold the Christ, and Jesus fulfilled it and foretold as only the LORD does: so He is the Christ, and the 'I am He'. Taught explicitly: Luke 24:44; John 13:19; Acts 18:28; 2 Peter 1:19-21. Statement of faith: consistent (Scripture's authority, 2 Peter 1:20-21). Its 'Scripture judges my reasoning' is kept: the test is Scripture's own invitation (Isaiah 41:21; Deuteronomy 18:22; Acts 17:11)."}
+    application_draft: {done: true, notes: "Think: Isaiah 46:10; Attitude: the Bereans, Acts 17:11; Do: read Isaiah 53:3-6 with one person and show where it came to pass, as a witness (Luke 24:48) and as Apollos did (Acts 18:28)"}
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Luke 16:31", relation: "Moses and the Prophets persuade where one risen from the dead will not: supports 'alone'"}
+      - {ref: "Acts 17:31; 1 Corinthians 15:3-4", relation: "the resurrection is also proof, and was itself foretold ('according to the Scriptures'): it sits inside the argument"}
+      - {ref: "Matthew 2:4-6", relation: "a text chosen before the event, by others: answers the selection objection in part; week 2 owns it"}
+    translations_compared: ["BSB", "ESV", "NASB", "NIV", "CSB", "LSB", "NKJV"]
+    divergences_noted: "2 Peter 1:19: 'confirmed beyond doubt' (BSB), 'more fully confirmed' (ESV), 'made more sure' (NASB), 'as more sure' (LSB), 'completely reliable' (NIV): the comparand question."
+drafting:
+  done: true
+  file: "docs/content/jesus/foretold-long-ago.md"
+  notes: >-
+    2026-11-27, at the author's approval of the thesis, outline and the three proposals: drafted in
+    full; the courtroom plate (utils/build_jesus_graphics.py the_lords_courtroom, reading the
+    chronology and the computed ledger) drawn and rendered; the floor's third assumption (selection)
+    added. Validate clean, mkdocs --strict clean, 49 evidence entries replayed. Next: read-bible-study
+    in a fresh session; then offer What Literary Criticism Declares the selection point (its 'neither
+    holds' line), the author's call.
+review_pending: true
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Isaiah introduction; notes on Isaiah 45:21, 45:23-25; 2 Peter 1:19, 1:19-21 (read after the exegesis, as a check)"}
+  - {type: other, title: "Great Isaiah Scroll (1QIsaa)", author: "Abegg, Bowley and Cook, ETCBC Text-Fabric (CC BY-NC 4.0)", note: "Isaiah 41:26; 45:21 via bible_variants"}
+last_updated: "2026-11-27"
 evidence:
   - {id: isa45-21-foretold, what: "Isaiah 45:21: Who foretold this long ago?", tool: bible_verse, args: {book: Isa, chapter: 45, verse: 21, translation: BSB}, expect_contains: "Who foretold this long ago? Who announced it from ancient times? Was it not I, the LORD?", checked: 2026-11-26}
   - {id: isa41-23-tell-us, what: "Isaiah 41:23: Tell us the things that are to come", tool: bible_verse, args: {book: Isa, chapter: 41, verse: 23, translation: BSB}, expect_contains: "Tell us the things that are to come, so that we may know that you are gods", checked: 2026-11-26}
@@ -55,6 +130,45 @@ evidence:
   - {id: john13-19-bsb, what: "John 13:19: I am telling you now before it happens", tool: bible_verse, args: {book: John, chapter: 13, verse: 19, translation: BSB}, expect_contains: "I am telling you now before it happens, so that when it comes to pass, you will believe that I am He", checked: 2026-11-26}
   - {id: luke24-44-everything, what: "Luke 24:44: Everything must be fulfilled", tool: bible_verse, args: {book: Luke, chapter: 24, verse: 44, translation: BSB}, expect_contains: "Everything must be fulfilled that is written about Me in the Law of Moses, the Prophets, and the Psalms", checked: 2026-11-26}
   - {id: 1pet1-11-glories, what: "1 Peter 1:11: the sufferings of Christ and the glories to follow", tool: bible_verse, args: {book: 1Pet, chapter: 1, verse: 11, translation: BSB}, expect_contains: "the sufferings of Christ and the glories to follow", checked: 2026-11-26}
+  - {id: isa41-21-present, what: "Isaiah 41:21: Present your case", tool: bible_verse, args: {book: Isa, chapter: 41, verse: 21, translation: BSB}, expect_contains: "“Present your case,” says the LORD.", checked: 2026-11-27}
+  - {id: isa41-26-he-was-right, what: "Isaiah 41:26: so that we may say: He was right", tool: bible_verse, args: {book: Isa, chapter: 41, verse: 26, translation: BSB}, expect_contains: "so that we may say: ‘He was right’?", checked: 2026-11-27}
+  - {id: isa41-26-tsaddiq, what: "Isaiah 41:26 Right = tsaddiq H6662", tool: bible_interlinear, args: {book: Isa, chapter: 41, verse: 26}, expect_contains: "H6662", checked: 2026-11-27}
+  - {id: isa45-21-tsaddiq, what: "Isaiah 45:21 righteous God = el tsaddiq H6662", tool: bible_interlinear, args: {book: Isa, chapter: 45, verse: 21}, expect_contains: "H6662", checked: 2026-11-27}
+  - {id: dt25-1-tsaddiq, what: "Deuteronomy 25:1 the innocent = ha-tsaddiq", tool: bible_interlinear, args: {book: Deut, chapter: 25, verse: 1}, expect_contains: "H6662", checked: 2026-11-27}
+  - {id: dt25-1-acquitted, what: "Deuteronomy 25:1: so that the innocent may be acquitted", tool: bible_verse, args: {book: Deut, chapter: 25, verse: 1, translation: BSB}, expect_contains: "so that the innocent may be acquitted", checked: 2026-11-27}
+  - {id: isa41-26-lxx-alethe, what: "Isaiah 41:26 LXX: ἀληθῆ", tool: bible_verse, args: {book: Isa, chapter: 41, verse: 26, translation: ebible-grcbrent}, expect_contains: "ἀληθῆ", checked: 2026-11-27}
+  - {id: isa45-21-lxx-dikaios, what: "Isaiah 45:21 LXX: δίκαιος καὶ σωτὴρ", tool: bible_verse, args: {book: Isa, chapter: 45, verse: 21, translation: ebible-grcbrent}, expect_contains: "δίκαιος καὶ σωτὴρ", checked: 2026-11-27}
+  - {id: isa46-1-bel, what: "Isaiah 46:1: Bel crouches; Nebo cowers", tool: bible_verse, args: {book: Isa, chapter: 46, verse: 1, translation: BSB}, expect_contains: "Bel crouches; Nebo cowers. Their idols weigh down beasts and cattle.", checked: 2026-11-27}
+  - {id: isa44-28-cyrus, what: "Isaiah 44:28: who says of Cyrus", tool: bible_verse, args: {book: Isa, chapter: 44, verse: 28, translation: BSB}, expect_contains: "who says of Cyrus, ‘My shepherd will fulfill all that I desire,’", checked: 2026-11-27}
+  - {id: isa42-9-new-things, what: "Isaiah 42:9: Before they spring forth", tool: bible_verse, args: {book: Isa, chapter: 42, verse: 9, translation: BSB}, expect_contains: "Before they spring forth I proclaim them to you.", checked: 2026-11-27}
+  - {id: isa48-6-hidden, what: "Isaiah 48:6: hidden things", tool: bible_verse, args: {book: Isa, chapter: 48, verse: 6, translation: BSB}, expect_contains: "From now on I will tell you of new things, hidden things unknown to you.", checked: 2026-11-27}
+  - {id: isa48-12-i-am-he, what: "Isaiah 48:12: I am He; first and last", tool: bible_verse, args: {book: Isa, chapter: 48, verse: 12, translation: BSB}, expect_contains: "I am He; I am the first, and I am the last.", checked: 2026-11-27}
+  - {id: ezra1-1-cyrus, what: "Ezra 1:1: first year of Cyrus", tool: bible_verse, args: {book: Ezra, chapter: 1, verse: 1, translation: BSB}, expect_contains: "to fulfill the word of the LORD spoken through Jeremiah", checked: 2026-11-27}
+  - {id: dt18-22-test, what: "Deuteronomy 18:22: the prophet's test", tool: bible_verse, args: {book: Deut, chapter: 18, verse: 22, translation: BSB}, expect_contains: "that is a message the LORD has not spoken", checked: 2026-11-27}
+  - {id: isa53-5-pierced, what: "Isaiah 53:5: pierced for our transgressions", tool: bible_verse, args: {book: Isa, chapter: 53, verse: 5, translation: BSB}, expect_contains: "But He was pierced for our transgressions", checked: 2026-11-27}
+  - {id: jn14-29-before, what: "John 14:29: told you before it happens", tool: bible_verse, args: {book: John, chapter: 14, verse: 29, translation: BSB}, expect_contains: "And now I have told you before it happens", checked: 2026-11-27}
+  - {id: jn8-28-lifted, what: "John 8:28: then you will know that I am He", tool: bible_verse, args: {book: John, chapter: 8, verse: 28, translation: BSB}, expect_contains: "then you will know that I am He", checked: 2026-11-27}
+  - {id: lk24-48-witnesses, what: "Luke 24:48: You are witnesses", tool: bible_verse, args: {book: Luke, chapter: 24, verse: 48, translation: BSB}, expect_contains: "You are witnesses of these things.", checked: 2026-11-27}
+  - {id: lk16-31-persuaded, what: "Luke 16:31: not persuaded even if someone rises", tool: bible_verse, args: {book: Luke, chapter: 16, verse: 31, translation: BSB}, expect_contains: "they will not be persuaded even if someone rises from the dead", checked: 2026-11-27}
+  - {id: ac17-3-greek, what: "Acts 17:3: διανοίγων καὶ παρατιθέμενος", tool: bible_verse, args: {book: Acts, chapter: 17, verse: 3, translation: sblgnt}, expect_contains: "διανοίγων καὶ παρατιθέμενος", checked: 2026-11-27}
+  - {id: ac17-11-bereans, what: "Acts 17:11: the Bereans", tool: bible_verse, args: {book: Acts, chapter: 17, verse: 11, translation: BSB}, expect_contains: "examined the Scriptures every day to see if these teachings were true", checked: 2026-11-27}
+  - {id: ac18-28-greek, what: "Acts 18:28: ἐπιδεικνὺς διὰ τῶν γραφῶν", tool: bible_verse, args: {book: Acts, chapter: 18, verse: 28, translation: sblgnt}, expect_contains: "ἐπιδεικνὺς διὰ τῶν γραφῶν", checked: 2026-11-27}
+  - {id: ac18-28-bsb, what: "Acts 18:28: proving from the Scriptures", tool: bible_verse, args: {book: Acts, chapter: 18, verse: 28, translation: BSB}, expect_contains: "proving from the Scriptures that Jesus is the Christ", checked: 2026-11-27}
+  - {id: mt16-1-greek, what: "Matthew 16:1: σημεῖον ... ἐπιδεῖξαι", tool: bible_verse, args: {book: Matt, chapter: 16, verse: 1, translation: sblgnt}, expect_contains: "ἐπιδεῖξαι", checked: 2026-11-27}
+  - {id: ac1-8-greek, what: "Acts 1:8: ἕως ἐσχάτου τῆς γῆς", tool: bible_verse, args: {book: Acts, chapter: 1, verse: 8, translation: sblgnt}, expect_contains: "ἕως ἐσχάτου τῆς γῆς", checked: 2026-11-27}
+  - {id: isa49-6-lxx, what: "Isaiah 49:6 LXX: ἕως ἐσχάτου τῆς γῆς", tool: bible_verse, args: {book: Isa, chapter: 49, verse: 6, translation: ebible-grcbrent}, expect_contains: "ἕως ἐσχάτου τῆς γῆς", checked: 2026-11-27}
+  - {id: 2pe1-19-greek, what: "2 Peter 1:19: βεβαιότερον", tool: bible_verse, args: {book: 2Pet, chapter: 1, verse: 19, translation: sblgnt}, expect_contains: "βεβαιότερον", checked: 2026-11-27}
+  - {id: 2pe1-19-kjv, what: "2 Peter 1:19 KJV: a more sure word of prophecy", tool: bible_verse, args: {book: 2Pet, chapter: 1, verse: 19, translation: KJV}, expect_contains: "We have also a more sure word of prophecy", checked: 2026-11-27}
+  - {id: 2pe1-19-esv, what: "2 Peter 1:19 ESV: more fully confirmed", tool: study_verse, args: {book: 2Pet, chapter: 1, verse: 19, work_id: esv-study-bible}, expect_contains: "we have the prophetic word more fully confirmed", checked: 2026-11-27}
+  - {id: 2pe1-19-bsb, what: "2 Peter 1:19 BSB: confirmed beyond doubt", tool: bible_verse, args: {book: 2Pet, chapter: 1, verse: 19, translation: BSB}, expect_contains: "We also have the word of the prophets as confirmed beyond doubt.", checked: 2026-11-27}
+  - {id: 1co15-4, what: "1 Corinthians 15:4: according to the Scriptures", tool: bible_verse, args: {book: 1Cor, chapter: 15, verse: 4, translation: BSB}, expect_contains: "raised on the third day according to the Scriptures", checked: 2026-11-27}
+  - {id: ac2-31, what: "Acts 2:31: Foreseeing this, David spoke", tool: bible_verse, args: {book: Acts, chapter: 2, verse: 31, translation: BSB}, expect_contains: "Foreseeing this, David spoke about the resurrection of the Christ", checked: 2026-11-27}
+  - {id: ac17-31-proof, what: "Acts 17:31: He has given proof", tool: bible_verse, args: {book: Acts, chapter: 17, verse: 31, translation: BSB}, expect_contains: "He has given proof of this to everyone by raising Him from the dead.", checked: 2026-11-27}
+  - {id: ph2-10, what: "Philippians 2:10: at the name of Jesus every knee", tool: bible_verse, args: {book: Phil, chapter: 2, verse: 10, translation: BSB}, expect_contains: "that at the name of Jesus every knee should bow", checked: 2026-11-27}
+  - {id: rev1-17, what: "Revelation 1:17: I am the First and the Last", tool: bible_verse, args: {book: Rev, chapter: 1, verse: 17, translation: BSB}, expect_contains: "I am the First and the Last", checked: 2026-11-27}
+  - {id: mt12-17, what: "Matthew 12:17: to fulfill what was spoken through Isaiah", tool: bible_verse, args: {book: Matt, chapter: 12, verse: 17, translation: BSB}, expect_contains: "This was to fulfill what was spoken through the prophet Isaiah", checked: 2026-11-27}
+  - {id: rom16-26, what: "Romans 16:26: made known through the writings of the prophets", tool: bible_verse, args: {book: Rom, chapter: 16, verse: 26, translation: BSB}, expect_contains: "made known through the writings of the prophets", checked: 2026-11-27}
+  - {id: paratithemi-uses, what: "παρατίθημι G3908: set before (Luke 9:16; Mark 8:6; Matthew 13:24) and Acts 17:3", tool: bible_concordance, args: {strongs: G3908, work_id: macula-greek-sblgnt}, expect_contains: "Acts", checked: 2026-11-27}
 review_2026_11_26:
   by: "review subagent, then verified and applied in the main session"
   applied:

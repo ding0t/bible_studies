@@ -18,6 +18,7 @@ draft: false
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 16:5-12
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 16:23
 - [Faith](../../salvation/faith.md) — 16:8-10
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 16:1-4
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 16:21
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 16:16
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 16:21-22

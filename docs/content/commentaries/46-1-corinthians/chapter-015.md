@@ -20,6 +20,7 @@ draft: false
 - [Biblical Numerology](../../scripture/numerology.md) — 15:4
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 15:51-53
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 15:20-23
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 15:3-4
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 15:4
 - [Genealogy and Times: From Creation to Christ](../../chronology/genealogy-times.md) — 15:22
 - [Grace](../../salvation/grace.md) — 15:57

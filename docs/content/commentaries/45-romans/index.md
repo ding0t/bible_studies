@@ -27,5 +27,5 @@ draft: false
 - [Chapter 13](chapter-013.md) — 7 study(ies)
 - [Chapter 14](chapter-014.md) — 7 study(ies)
 - [Chapter 15](chapter-015.md) — 4 study(ies)
-- [Chapter 16](chapter-016.md) — 3 study(ies)
+- [Chapter 16](chapter-016.md) — 4 study(ies)
 <!-- commentary-index:auto-end -->

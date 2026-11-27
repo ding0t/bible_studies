@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 1:1
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 1:1-2
 - [Prophecy Events and Times](../../last-things/prophecy-events-times.md) — 1:1-4
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 1:1-4
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 1:1-3

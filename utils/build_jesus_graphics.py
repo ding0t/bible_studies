@@ -9,6 +9,9 @@ one is inference or a span the text does not count. Run from the repo root:
 prophets_view_historys_view() reads every row from the ledger and its computed years
 (docs/data/prophecies-of-christ.json); re-run references/build/export_prophecies.py first.
 
+the_lords_courtroom() reads Cyrus's decree from docs/data/chronology.json and the Servant's years
+from the computed ledger.
+
 where_jesus_stopped_reading() reads its "same pattern" rows from docs/data/prophecies-of-christ.toml
 (each entry's `prophecy` and `split.at`), so the plate follows the ledger.
 """
@@ -661,12 +664,167 @@ def which_text():
     return "\n".join(out)
 
 
+# The LORD's courtroom (Isaiah 41-48), for jesus/foretold-long-ago.md. Every quotation is the BSB,
+# verified in references/study-state/foretold-long-ago.yml; the years come from the chronology
+# (Cyrus's decree) and the ledger's computed years (the Servant), never typed here.
+CHRONOLOGY = ROOT / "docs" / "data" / "chronology.json"
+
+
+def the_lords_courtroom():
+    anchors = {a["id"]: a for a in json.loads(CHRONOLOGY.read_text(encoding="utf-8"))["anchor_table"]}
+    decree = anchors["anchor_15"]["gregorian_year"]
+    rows = {r["id"]: r for r in json.loads(COMPUTED.read_text(encoding="utf-8"))["prophecies"]}
+    servant = rows["my-servant-whom-i-uphold"]
+    # Isaiah's traditional latest date, the same for chapters 44 and 42 (book-authorship.toml via
+    # the ledger's computed row).
+    written = servant["written_traditional"]
+    cyrus_ahead = decree - written
+
+    desc = ("The LORD's courtroom in Isaiah 41-48. The parties: the LORD, 'Was it not I, the LORD?' "
+            "(Isaiah 45:21), and the idols of Babylon, 'Bel crouches; Nebo cowers' (Isaiah 46:1); "
+            "Israel His witnesses (Isaiah 43:10). The test: 'Tell us the things that are to come, so "
+            "that we may know that you are gods' (Isaiah 41:23). The idols: 'No one announced it' "
+            "(Isaiah 41:26). The LORD: 'I announced it before it came to pass' (Isaiah 48:5). The "
+            f"evidence near: Cyrus named (Isaiah 44:28; 45:1), his decree {year_label(decree)} (Ezra 1:1-2), "
+            f"{cyrus_ahead} years after the traditional date, in his own day on the critics' date. The "
+            "evidence far: the Servant (Isaiah 42:1, 9), fulfilled in Jesus (Matthew 12:17-18), "
+            f"{servant['years_ahead_traditional']} years ahead, {servant['years_ahead_critical']} on the "
+            "critics' date. The verdict: tsaddiq, 'He was right' (Isaiah 41:26), the LORD 'a righteous "
+            "God and Savior' (Isaiah 45:21). The case taken up: Jesus' 'I am He' (John 13:19, from "
+            "Isaiah 43:10 in the Septuagint); every knee bows (Isaiah 45:23; Philippians 2:10); the "
+            "apostles as witnesses (Luke 24:48), an echo, dashed. Closing: Isaiah 45:22.")
+    # The height follows the content, so the body is drawn first and framed at the end.
+    out = heading("The LORD's Courtroom", "Isaiah 41-48: the trial of the gods, and its verdict")
+
+    def section(y, label):
+        return [text(W / 2, y, label, 15, "middle", "bold", spacing="2"),
+                f'<path d="M{W / 2 - 60} {y + 9} H{W / 2 + 60}" stroke="{INK}" stroke-width="0.6"/>']
+
+    def box(x, y, w, lines, ref, dashed=False, fill=CARD, stroke=INK, size=13.5):
+        step = size * 1.3
+        bh = 12 + step * len(lines) + (step if ref else 0)
+        dash = ' stroke-dasharray="5 4"' if dashed else ""
+        o = [f'<rect x="{x}" y="{y}" width="{w}" height="{bh:.0f}" rx="5" fill="{fill}" stroke="{stroke}" '
+             f'stroke-width="1.4"{dash}/>']
+        ty = y + 6 + step * 0.85
+        for i, ln in enumerate(lines):
+            o.append(text(x + w / 2, ty, ln, size, "middle", "bold" if i == 0 else None))
+            ty += step
+        if ref:
+            o.append(text(x + w / 2, ty, ref, size - 1.5, "middle", fill=MUTED, italic=True))
+        return o, bh
+
+    left, right, cw = 40, 390, 290
+
+    y = 128
+    out += section(y, "THE PARTIES")
+    b, bh = box(left, y + 22, cw, ["The LORD", "“Was it not I, the LORD?”", "“the King of Jacob”"],
+                "Isaiah 45:21; 41:21", fill=GOLD_TINT, stroke=GOLD_EDGE)
+    out += b
+    b, _ = box(right, y + 22, cw, ["The idols of Babylon", "“Bel crouches; Nebo cowers.”", "“you are nothing”"],
+               "Isaiah 46:1; 41:24", fill=EARTH_TINT)
+    out += b
+    wy = y + 22 + bh + 18
+    b, wh = box(W / 2 - 170, wy, 340, ["His witnesses: Israel", "“You are My witnesses,” declares the LORD"],
+                "Isaiah 43:10", fill=BLUE_TINT, stroke=BLUE)
+    out += b
+
+    y = wy + wh + 46
+    out += section(y, "THE TEST")
+    out.append(text(W / 2, y + 32, "“Tell us the things that are to come,", 15, "middle", italic=True))
+    out.append(text(W / 2, y + 52, "so that we may know that you are gods.”", 15, "middle", italic=True))
+    out.append(text(W / 2, y + 71, "Isaiah 41:23", 12.5, "middle", fill=MUTED))
+    b, ah = box(left, y + 88, cw, ["The LORD answers", "“I announced it before it came to pass”"],
+                "Isaiah 48:5", fill=GOLD_TINT, stroke=GOLD_EDGE)
+    out += b
+    b, _ = box(right, y + 88, cw, ["The idols are silent", "“No one announced it, no one foretold it”"],
+               "Isaiah 41:26", fill=EARTH_TINT)
+    out += b
+
+    y = y + 88 + ah + 48
+    out += section(y, "THE EVIDENCE")
+    out.append(text(left + cw / 2, y + 30, "FORETOLD", 12, "middle", "bold", fill=MUTED, spacing="1.5"))
+    out.append(text(right + cw / 2, y + 30, "CAME TO PASS", 12, "middle", "bold", fill=MUTED, spacing="1.5"))
+    evidence = [
+        (["Near: Cyrus, by name", "“who says of Cyrus, ‘My shepherd", "will fulfill all that I desire’”"],
+         "Isaiah 44:28; 45:1",
+         [f"Cyrus’s decree, {year_label(decree)}", "“has appointed me to build a house", "for Him at Jerusalem”"],
+         "Ezra 1:1-2",
+         f"{cyrus_ahead} years ahead on the traditional date; in Cyrus’s own day on the critics’"),
+        (["Far: the Servant", "“Here is My Servant, whom I uphold”", "“Before they spring forth",
+          "I proclaim them”"],
+         "Isaiah 42:1, 9",
+         [f"In Jesus, {year_label(servant['fulfilled'])}", "“This was to fulfill what was spoken",
+          "through the prophet Isaiah”"],
+         "Matthew 12:17-18",
+         f"{servant['years_ahead_traditional']} years ahead on the traditional date; "
+         f"{servant['years_ahead_critical']} on the critics’ latest"),
+    ]
+    ey = y + 44
+    for said, said_ref, done, done_ref, gap in evidence:
+        b, bh1 = box(left, ey, cw, said, said_ref)
+        out += b
+        b, bh2 = box(right, ey, cw, done, done_ref)
+        out += b
+        mid = ey + max(bh1, bh2) / 2
+        out.append(f'<path d="M{left + cw + 6} {mid:.0f} H{right - 10}" stroke="{RED}" stroke-width="2"/>')
+        out.append(arrow_head(right - 6, mid, 0, 8, RED))
+        out.append(text(W / 2, ey + max(bh1, bh2) + 20, gap, 12, "middle", fill=MUTED, italic=True))
+        ey += max(bh1, bh2) + 44
+
+    y = ey + 22
+    out += section(y, "THE VERDICT")
+    out.append(text(W / 2, y + 62, "צַדִּיק", 40, "middle", fill=RED, extra='direction="rtl"'))
+    out.append(text(W / 2, y + 88, "tsaddiq, “right, righteous”: the party the court finds in the right",
+                    13, "middle", fill=MUTED, italic=True))
+    out.append(text(W / 2, y + 116, "Of the idols: none can say “He was right” (Isaiah 41:26).", 14.5, "middle"))
+    out.append(text(W / 2, y + 138, "Of the LORD: “a righteous God and Savior” (Isaiah 45:21).", 14.5, "middle",
+                    "bold"))
+
+    y = y + 186
+    out += section(y, "THE CASE TAKEN UP")
+    tw, gap = 206, 11
+    xs = [40 + i * (tw + gap) for i in range(3)]
+    cases = [
+        (["“I am He”", "“so that when it comes", "to pass, you will believe", "that I am He”"],
+         "John 13:19; Isaiah 43:10", False),
+        (["Every knee bows", "sworn by the LORD,", "said of Jesus:", "“at the name of Jesus”"],
+         "Isaiah 45:23; Philippians 2:10", False),
+        (["Witnesses again", "“You are My witnesses”", "Isaiah 43:10, and", "“You are witnesses”"],
+         "Luke 24:48: an echo", True),
+    ]
+    ch = 0
+    for x, (lines, ref, dashed) in zip(xs, cases):
+        b, bh = box(x, y + 24, tw, lines, ref, dashed=dashed, size=13)
+        out += b
+        ch = max(ch, bh)
+
+    ly = y + 24 + ch + 26
+    out.append(f'<rect x="{W / 2 - 250}" y="{ly}" width="110" height="20" rx="4" fill="{CARD}" stroke="{INK}" stroke-width="1.2"/>')
+    out.append(text(W / 2 - 130, ly + 15, "the text states or quotes it", 12.5))
+    out.append(f'<rect x="{W / 2 + 40}" y="{ly}" width="110" height="20" rx="4" fill="{CARD}" stroke="{INK}" '
+               f'stroke-width="1.2" stroke-dasharray="5 4"/>')
+    out.append(text(W / 2 + 160, ly + 15, "an echo it does not quote", 12.5))
+
+    cy = ly + 70
+    out.append(f'<path d="M{W / 2 - 150} {cy - 26} H{W / 2 + 150}" stroke="{INK}" stroke-width="0.8"/>')
+    out.append(text(W / 2, cy, "“Turn to Me and be saved, all the ends of the earth;", 15.5, "middle", italic=True))
+    out.append(text(W / 2, cy + 22, "for I am God, and there is no other.”", 15.5, "middle", italic=True))
+    out.append(text(W / 2, cy + 42, "Isaiah 45:22 (BSB)", 12.5, "middle", fill=MUTED))
+    h = int(cy + 92)
+    out = svg_open(h, "The LORD's courtroom", desc) + out
+    out.append(credit(h))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 CHARTS = {"where-jesus-stopped-reading": where_jesus_stopped_reading,
           "known-before-seen-after": known_before_seen_after,
           "prophets-view-historys-view": prophets_view_historys_view,
           "passion-week": passion_week,
           "the-lords-words": the_lords_words,
-          "which-text": which_text}
+          "which-text": which_text,
+          "the-lords-courtroom": the_lords_courtroom}
 
 
 def main():

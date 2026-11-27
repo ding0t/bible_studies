@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 53:5
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 53:5
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 53:7-8
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 53:5
 - [Passover: When I See the Blood](../../feasts/passover.md) — 53:7

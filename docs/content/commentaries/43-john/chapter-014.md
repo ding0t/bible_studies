@@ -19,6 +19,7 @@ draft: false
 - [The Way](../../jesus/the-way.md) — 14:6 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 14:1-3
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 14:10-11
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 14:29
 - [Know the Truth](../../christian-life/know-the-truth.md) — 14:6
 - [One Taken, One Left](../../last-things/one-taken-one-left.md) — 14:3
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 14:13

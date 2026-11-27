@@ -15,6 +15,7 @@ draft: false
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 1:6
 - [Feast of Trumpets: Yom Teruah](../../feasts/trumpets.md) — 1:10-13
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 1:5
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 1:17
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 1:7
 - [John son of Zebedee](../../biblical-figures/john.md) — 1:9
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 1:12-13

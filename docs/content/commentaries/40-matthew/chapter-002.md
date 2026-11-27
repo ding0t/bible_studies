@@ -15,6 +15,7 @@ draft: false
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 2:1-6
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 2:1
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 2:12-13
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 2:4-6
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:5-6
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 2:4-6
 - [Sin and Sorcery](../../sin/sorcery.md) — 2:1-12

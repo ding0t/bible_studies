@@ -12,6 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 41:21-23
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 41:21-29
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 41:21-23
 <!-- commentary-index:auto-end -->

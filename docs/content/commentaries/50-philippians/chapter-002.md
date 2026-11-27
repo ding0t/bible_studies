@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [In Humility](../../christian-life/humility.md) — 2:1-11 (primary passage)
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 2:9-11
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 2:12-13
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 2:10
 - [Precious Stones in Scripture](../../god/precious-stones.md) — 2:15

@@ -17,6 +17,7 @@ draft: false
 - [A Day Is a Thousand Years](../../last-things/day-is-a-thousand-years.md) — 1:7
 - [Andrew](../../biblical-figures/andrew.md) — 1:13
 - [Bartholomew (Nathanael)](../../biblical-figures/bartholomew.md) — 1:13
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 1:8
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:7
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:6-11
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 1:6-7

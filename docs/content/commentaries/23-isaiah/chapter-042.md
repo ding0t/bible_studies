@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 42:8
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 42:1-9
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 42:3
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 42:6
 - [The Names of God](../../god/names-of-god.md) — 42:8

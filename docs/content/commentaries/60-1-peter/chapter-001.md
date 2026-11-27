@@ -15,7 +15,7 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 1:18-19
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:3-5
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 1:1
-- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 1:10-11
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 1:10-12
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:24-25
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 1:10-12
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 1:8

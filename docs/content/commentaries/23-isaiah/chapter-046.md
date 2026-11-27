@@ -12,7 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
-- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 46:9-10
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 46:1-11
 - [Six Days of History](../../last-things/six-days-of-history.md) — 46:10
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 46:9-10
 <!-- commentary-index:auto-end -->

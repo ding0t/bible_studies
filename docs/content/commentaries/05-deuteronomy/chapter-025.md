@@ -12,5 +12,6 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 25:1
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 25:5-10
 <!-- commentary-index:auto-end -->

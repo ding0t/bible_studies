@@ -50,7 +50,7 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
 
     ---
 
-    God rests His claim to be God on what He foretold, and Jesus made the same claim His own: more than a hundred prophecies, written centuries before Him, came to pass in Him, and you can set for yourself how unlikely that is by chance.
+    In Isaiah the LORD takes the idols to court and rests His claim to be God on what He foretold. Jesus made the same claim His own, and the apostles proved from the Scriptures that He is the Christ: more than a hundred prophecies, written centuries before Him, came to pass in Him, and you can set for yourself how unlikely that is by chance.
 
     [:octicons-arrow-right-24: Read](foretold-long-ago.md)
 

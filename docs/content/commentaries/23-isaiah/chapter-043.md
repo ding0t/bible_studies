@@ -13,6 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [A New Heaven and a New Earth](../../last-things/new-heaven-and-new-earth.md) — 43:19
-- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 43:10
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 43:8-13
 - [Idolatry](../../sin/idolatry.md) — 43:7
 <!-- commentary-index:auto-end -->

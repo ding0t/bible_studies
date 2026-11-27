@@ -15,6 +15,7 @@ draft: false
 - [Sin and Sorcery](../../sin/sorcery.md) — 18:9-22 (primary passage)
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 18:15-18
 - [Deliverance and the Edge of Sorcery](../../spiritual-beings/deliverance/deliverance-and-the-edge-of-sorcery.md) — 18:10-11
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 18:21-22
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 18:15-19
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 18:20-22
 - [The Donkey and Her Prophet: How God Turned a Hired Curse into a Star](../../biblical-figures/the-donkey-and-her-prophet.md) — 18:10-12

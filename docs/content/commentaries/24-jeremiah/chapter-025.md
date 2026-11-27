@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 25:11-12
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 25:11-12
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 25:11-12
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 25:15
 - [The Harlot and the Bride](../../last-things/the-harlot-and-the-bride.md) — 25:10

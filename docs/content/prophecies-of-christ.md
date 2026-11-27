@@ -4,7 +4,7 @@ category: "other"
 description: "Every Old Testament prophecy the New Testament reads of Jesus, and those tradition reads of Him, with what each foretold, where it was fulfilled or is still to come, how far ahead it was written, whether anyone read it of the Messiah beforehand, and who brought it about."
 tags: ["messianic-prophecy", "prophecy-fulfilled", "dead-sea-scrolls", "tools"]
 draft: false
-date_created: 2026-11-27
+date_created: 2026-11-26
 date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5.5

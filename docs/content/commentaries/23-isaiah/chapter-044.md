@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 44:28
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 44:6-8
 - [Idolatry](../../sin/idolatry.md) — 44:9-20
 - [Sin and Sorcery](../../sin/sorcery.md) — 44:24-26
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 44:6
