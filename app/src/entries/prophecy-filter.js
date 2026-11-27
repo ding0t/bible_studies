@@ -5,16 +5,114 @@
 // chip counts the cards it would show beside the other facets' choices, so a reader can see where a
 // pivot leads before taking it. The choice lives in the address (?category=passion&control=opponents),
 // so a filtered view can be shared. Without this script the bar stays hidden and every card shows.
+//
+// The explorer above the bar (<!-- prophecies-of-christ: explorer -->) is three pictures of the same
+// cards, and each book, subject, writer or cell in them is a choice. A choice the bar has a chip for
+// presses that chip; one it has none for (a book, a division, a New Testament writer) is kept in
+// `extra` and shown in the bar as a button that removes it. Each mark's `data-units` names the
+// entries it stands for ("<id>", or "<id>@<nt book>" for one New Testament use), so the pictures dim
+// and recount from the cards left showing.
 
 const bar = document.querySelector('.pc-filter');
 const cards = [...document.querySelectorAll('.pc-group[data-category] .pc-entry')];
+const explorer = document.querySelector('.px');
+const extra = {};
 
 function chosen() {
   const picks = {};
   for (const chip of bar.querySelectorAll('.pc-chip[aria-pressed="true"]')) {
     (picks[chip.dataset.facet] ??= new Set()).add(chip.dataset.value);
   }
+  for (const [facet, values] of Object.entries(extra)) {
+    for (const value of values) (picks[facet] ??= new Set()).add(value);
+  }
   return picks;
+}
+
+const chipFor = (facet, value) => bar.querySelector(`.pc-chip[data-facet="${facet}"][data-value="${value}"]`);
+
+function isPicked(facet, value) {
+  const chip = chipFor(facet, value);
+  return chip ? chip.getAttribute('aria-pressed') === 'true' : Boolean(extra[facet]?.has(value));
+}
+
+function setPick(facet, value, on) {
+  const chip = chipFor(facet, value);
+  if (chip) {
+    chip.setAttribute('aria-pressed', String(on));
+    return;
+  }
+  const values = (extra[facet] ??= new Set());
+  if (on) values.add(value);
+  else values.delete(value);
+  if (!values.size) delete extra[facet];
+}
+
+const pairsOf = (mark) => mark.dataset.pick.split(' ').map((pair) => pair.split(':'));
+
+// A grid cell is two choices at once; clicking it again lifts both.
+function togglePick(mark) {
+  const pairs = pairsOf(mark);
+  const on = !pairs.every(([facet, value]) => isPicked(facet, value));
+  for (const [facet, value] of pairs) setPick(facet, value, on);
+  update();
+}
+
+function paintExplorer(picks) {
+  const shownIds = new Set(cards.filter((c) => !c.hidden).map((c) => c.id.replace(/^prophecy-/, '')));
+  const any = Object.keys(picks).length > 0;
+  const hot = (el) => {
+    const units = el.dataset.units.split(' ');
+    const n = units.filter((u) => {
+      const [id, nt] = u.split('@');
+      return shownIds.has(id) && (!nt || !picks.nt || picks.nt.has(nt));
+    }).length;
+    return [n, units.length];
+  };
+  for (const band of explorer.querySelectorAll('.px-band')) {
+    const [h, n] = hot(band);
+    band.style.opacity = any ? String(h ? 0.2 + (0.55 * h) / n : 0.06) : '';
+  }
+  for (const mark of explorer.querySelectorAll('.px-pick')) {
+    const [h, n] = hot(mark);
+    mark.classList.toggle('px-dim', any && h === 0);
+    mark.setAttribute('aria-pressed', String(pairsOf(mark).every(([facet, value]) => isPicked(facet, value))));
+    const count = mark.querySelector('.px-n');
+    if (count) count.textContent = any && h !== n ? `${h} of ${n}` : String(n);
+    const fill = mark.querySelector('.px-fill');
+    if (fill) fill.setAttribute('r', String(h ? 4 + 24 * Math.sqrt(h / Number(fill.dataset.most)) : 0));
+  }
+  for (const total of explorer.querySelectorAll('.px-total')) {
+    const [h, n] = hot(total);
+    total.textContent = String(h);
+    total.nextElementSibling.textContent = h === n ? 'prophecies' : `of ${n}`;
+  }
+}
+
+function showExtra() {
+  let box = bar.querySelector('.pc-picked');
+  if (!box) {
+    box = document.createElement('p');
+    box.className = 'pc-picked';
+    bar.querySelector('.pc-shown').after(box);
+  }
+  box.replaceChildren();
+  for (const [facet, values] of Object.entries(extra)) {
+    for (const value of values) {
+      const mark = explorer?.querySelector(`.px-pick[data-pick~="${facet}:${value}"]`);
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'pc-unpick';
+      button.setAttribute('aria-pressed', 'true');
+      button.textContent = `${(mark?.dataset.label ?? value).replace(/[:;].*$/, '')} ✕`;
+      button.addEventListener('click', () => {
+        setPick(facet, value, false);
+        update();
+      });
+      box.append(button);
+    }
+  }
+  box.hidden = !box.childElementCount;
 }
 
 function matches(card, picks, except) {
@@ -50,6 +148,8 @@ function update() {
     ? `Showing ${shown} of the ${cards.length} prophecies below.`
     : `All ${cards.length} prophecies below. Choose any values to narrow them; choices within a group are alternatives.`;
   bar.querySelector('.pc-clear').hidden = !any;
+  showExtra();
+  if (explorer) paintExplorer(picks);
 
   const params = new window.URLSearchParams();
   for (const [facet, values] of Object.entries(picks)) params.set(facet, [...values].join(','));
@@ -67,10 +167,34 @@ if (bar && cards.length) {
       update();
     });
   }
+  for (const [facet, value] of params) {
+    for (const v of value.split(',')) if (v && !chipFor(facet, v)) setPick(facet, v, true);
+  }
   bar.querySelector('.pc-clear').addEventListener('click', () => {
     for (const chip of bar.querySelectorAll('.pc-chip')) chip.setAttribute('aria-pressed', 'false');
+    for (const facet of Object.keys(extra)) delete extra[facet];
     update();
   });
+  if (explorer) {
+    for (const mark of explorer.querySelectorAll('.px-pick')) {
+      mark.addEventListener('click', () => togglePick(mark));
+      mark.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          togglePick(mark);
+        }
+      });
+    }
+    // Without this script all three pictures stand one under another; with it, one at a time.
+    const tabs = explorer.querySelector('.px-tabs');
+    const show = (view) => {
+      for (const tab of tabs.querySelectorAll('.px-tab')) tab.setAttribute('aria-selected', String(tab.dataset.view === view));
+      for (const figure of explorer.querySelectorAll('.px-view')) figure.hidden = figure.dataset.view !== view;
+    };
+    for (const tab of tabs.querySelectorAll('.px-tab')) tab.addEventListener('click', () => show(tab.dataset.view));
+    tabs.hidden = false;
+    show('flow');
+  }
   bar.hidden = false;
   update();
 }

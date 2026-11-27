@@ -134,6 +134,7 @@
 }
 
 .pc-chip,
+.pc-unpick,
 .pc-clear {
   border: 1px solid var(--md-default-fg-color--lighter);
   border-radius: 1rem;
@@ -144,7 +145,8 @@
   cursor: pointer;
 }
 
-.pc-chip[aria-pressed="true"] {
+.pc-chip[aria-pressed="true"],
+.pc-unpick {
   background: var(--md-accent-fg-color);
   border-color: var(--md-accent-fg-color);
   color: var(--md-accent-bg-color);
@@ -162,4 +164,152 @@
 
 .pc-clear {
   margin-top: 0.4rem;
+}
+
+/* The explorer (hooks/prophecies.py _explorer): three parchment plates, each mark a filter. */
+.px {
+  margin: 1rem 0 1.5rem;
+}
+
+.px-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  margin-bottom: 0.6rem;
+}
+
+.px-tabs[hidden],
+.px-view[hidden],
+.pc-picked[hidden] {
+  display: none;
+}
+
+.px-tab {
+  font: inherit;
+  background: none;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  color: var(--md-default-fg-color--light);
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+}
+
+.px-tab[aria-selected="true"] {
+  color: var(--md-default-fg-color);
+  border-bottom-color: #e8c46a;
+}
+
+.md-typeset .px-view {
+  margin: 0 0 1.2rem;
+  width: 100%;
+}
+
+.md-typeset .px-view figcaption {
+  max-width: none;
+  margin: 0 0 0.5rem;
+  text-align: left;
+  font-style: normal;
+}
+
+.px-name {
+  display: block;
+  font-size: 1.1em;
+}
+
+.px-keys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+  margin-top: 0.3rem;
+  font-size: 0.85em;
+}
+
+.px-key i {
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  margin-right: 0.35em;
+  border: 1px solid #a67c3d;
+  vertical-align: -0.05em;
+}
+
+/* The flow is too wide for a phone; it scrolls inside its own frame and never widens the page. */
+.px-frame {
+  overflow-x: auto;
+  border: 1px solid #d9ccb0;
+  border-radius: 0.2rem;
+  background: #fffdf7;
+}
+
+.px-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.px-flow {
+  min-width: 720px;
+}
+
+.px-grid {
+  min-width: 560px;
+  max-width: 760px;
+}
+
+.px-wheel {
+  max-width: 720px;
+}
+
+.px-label {
+  fill: #3b2f1e;
+  paint-order: stroke;
+  stroke: #fffdf7;
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+
+.px-band {
+  opacity: 0.45;
+  transition: opacity 0.2s ease;
+}
+
+.px-pick {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.px-pick:focus {
+  outline: none;
+}
+
+.px-pick:hover .px-label,
+.px-pick:focus-visible .px-label,
+.px-pick[aria-pressed="true"] .px-label {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.px-pick[aria-pressed="true"] .px-mark {
+  stroke: #3b2f1e;
+  stroke-width: 2px;
+}
+
+.px-dim {
+  opacity: 0.3;
+}
+
+.pc-picked {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0 0 0.4rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .px-band,
+  .px-pick {
+    transition: none;
+  }
 }

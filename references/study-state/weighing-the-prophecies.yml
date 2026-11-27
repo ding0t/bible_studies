@@ -1,0 +1,35 @@
+# An extra to the Prophecy and Jesus series (references/study-state/prophecy-and-jesus.yml), outside
+# its weeks: the in-depth analysis of the ledger. On 2026-11-27 the author asked that the ledger page
+# (docs/content/prophecies-of-christ.md, under Explore) become the browser alone ("the explore
+# prophecy of jesus page is the central browser and needs to focus on that") and that its front matter
+# go to a study under jesus/ "as its own study on the data as an extension ... a more in depth
+# analysis". The page's sections "How to read the ledger", "The ledger in numbers" and "Patterns in
+# the prophecies" moved here verbatim (links rebased); the ledger page kept a collapsed card key and
+# gained the explorer (hooks/prophecies.py _explorer).
+
+slug: "weighing-the-prophecies"
+title: "Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth"
+status: scaffold
+target_path: "docs/content/jesus/weighing-the-prophecies.md"
+ledger_page: "docs/content/prophecies-of-christ.md"
+next: >-
+  Develop with develop-bible-study. The moved prose is a starting point, not a study: it has no
+  thesis, Key Takeaways, theology stated outright or discussion questions. Name the one sentence
+  first. Candidate spine: how the New Testament reads the Old (fulfilment, type, application,
+  allusion: prophecy-method.md section 2), then what each measure weighs and why, then what the
+  ledger shows that no single card does (the explorer's three pictures as findings: the Psalms
+  supply more uses than Isaiah; Passion is the widest stream; most fulfilments were brought about
+  by God, His opponents or people unaware). Not in the series' weeks: link it from Foretold Long
+  Ago and the ledger page only once it is published (never link a draft).
+
+overlap:
+  - {slug: jesus/foretold-long-ago, note: "owns the span chart, the LORD's words and the chance floor. Cover briefly and link; do not repeat."}
+  - {slug: jesus/known-before-seen-after, note: "owns recognition (read before / veiled) and who fulfilled it. Cover briefly and link."}
+  - {slug: scripture/what-literary-criticism-declares, note: "owns the dates and the Sirach bracket."}
+
+owns:
+  - the tiers and why a type is prophecy by design (1 Corinthians 5:7; Hebrews 9:8)
+  - the measures on a card and why no card carries odds
+  - Hebrew or Greek (which-text.svg)
+  - Passion Week day by day (passion-week.svg)
+  - the ledger in numbers (the measures table and the dated sentence)

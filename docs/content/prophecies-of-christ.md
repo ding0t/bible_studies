@@ -13,93 +13,33 @@ ai_provider_models:
 # The Prophecies of Christ
 
 Every Old Testament prophecy the New Testament reads of Jesus, and those tradition reads of Him, in
-one ledger you can filter. Why they prove He is the Christ, and how unlikely it is that they came to
-pass by chance, is the study [Foretold Long Ago](jesus/foretold-long-ago.md), the first week of a
-series on the prophecies.
+one ledger. Choose a book, a subject, a writer or a cell in any of the three pictures below, and the
+cards beneath narrow to match. Why the prophecies prove He is the Christ, and how unlikely it is that
+they came to pass by chance, is the study [Foretold Long Ago](jesus/foretold-long-ago.md).
 
-## How to read the ledger
+<!-- prophecies-of-christ: explorer -->
 
-Each prophecy below comes from this site's ledger of them (`docs/data/prophecies-of-christ.toml`),
-and every count on this page is drawn from it when the site is built.
+??? info "How to read a card"
 
-**Which prophecies.** A prophecy is listed when the New Testament reads it of Jesus, and its card
-says how firmly:
+    - **How firmly the New Testament reads it of Him.** It says the text was fulfilled in Him or spoke
+      of Him, or that God shaped a person, event or institution to point to Him (a type, as "Christ,
+      our Passover lamb", 1 Corinthians 5:7, BSB); it applies the words to Him; or the church has read
+      it of Him and the New Testament at most alludes to it. That last is the weakest, and marked.
+    - **How far ahead it was written.** The latest year the text could have been written on the
+      traditional dates, against the year it came to pass, with the critics' later date where this
+      site records one. The dates and their sources are in [What Literary Criticism
+      Declares](scripture/what-literary-criticism-declares.md).
+    - **A copy older than the event.** Whether a manuscript survives from before the fulfilment, and
+      whether the Hebrew is among the Dead Sea Scrolls, all copied before AD 68.
+    - **Whether it was read of the Messiah before Jesus**, by a witness older than Him; before Him,
+      but not of the part He fulfilled; only in a later Jewish source; or in no Jewish source at all.
+    - **Who brought it about.** God alone, His opponents, someone with no thought of the prophecy, His
+      followers, or Jesus Himself, knowingly: the measure of whether it could have been arranged.
+    - **Which text the New Testament follows**, and, where it divides one prophecy between His first
+      coming and His return, the part fulfilled and the part still to come.
 
-- **The New Testament says it was fulfilled in Him or spoke of Him.** A fulfilment formula ("this
-  took place to fulfill"), a writer saying the text spoke of Him (Acts 2:31), or a type: a person,
-  event or institution God shaped to point to Him. A type is prophecy by design. "Christ, our
-  Passover lamb, has been sacrificed" (1 Corinthians 5:7, BSB), and of the tabernacle, "By this
-  arrangement the Holy Spirit was showing..." (Hebrews 9:8, BSB).
-- **The New Testament applies it to Him.** The words used of Jesus, or a likeness drawn to Him,
-  where the text does not say the original pointed to Him (John 1:51).
-- **A reading of tradition.** The church has read it of Christ, and the New Testament at most
-  alludes to it. These are the weakest, and they are marked.
-
-**What each card measures.**
-
-- **How far ahead it was written.** The latest year each text could have been written on the
-  traditional dates, against the year it came to pass, and the critics' date too where they date the
-  text later and this site's authorship table records it. Where no critical date is recorded, a
-  witness brackets it: Sirach names Jeremiah, Ezekiel and "the twelve prophets" (Sirach 49:6-10),
-  and its translator wrote after 132 BC, so on any dating those books existed by then. Both schemes and their sources are in [What Literary Criticism
-  Declares](scripture/what-literary-criticism-declares.md).
-- **A copy older than the event.** Whether a manuscript survives from before the fulfilment: the
-  Great Isaiah Scroll, about 125 BC. Separately, whether the Hebrew is among the Dead Sea Scrolls,
-  all copied before AD 68.
-- **Whether it was read of the Messiah before Jesus.** Read so by a witness older than Jesus (Qumran,
-  the Psalms of Solomon, the Septuagint, or the New Testament reporting settled belief); before
-  Jesus, but not of the part He fulfilled; only in a later Jewish source; or in no Jewish source at
-  all.
-- **Who brought it about.** God alone, His opponents, someone with no thought of the prophecy, His
-  followers, or Jesus Himself, knowingly. This is the measure of whether it could have been
-  arranged.
-- **Which text the New Testament follows.** The Hebrew rendered afresh, the Septuagint's wording, or
-  both where they agree.
-- **Two comings in one text.** Where the New Testament divides one prophecy between His first
-  coming and His return, the card names the part fulfilled, the part still to come, and the New Testament text that divides them.
-
-The ledger puts no odds on any single prophecy. A probability for each one would be a guess, and one
-bad guess would discredit the true fulfilments beside it. The measures above can each be checked,
-and in [How unlikely by chance?](jesus/foretold-long-ago.md#how-unlikely-by-chance) you set the
-chance yourself.
-
-## The ledger in numbers
-
-<!-- prophecies-of-christ: dated -->
-
-<!-- prophecies-of-christ: measures -->
-
-## Patterns in the prophecies
-
-### Passion Week, day by day
-
-Most of the prophecies fulfilled in His last week fall on one Hebrew day, 14 Nisan, which ran from
-the supper on Thursday evening to the burial on Friday before sunset: the day the Passover lambs
-were slain.
-
-[![The prophecies of Passion Week: each prophecy fulfilled in the last week, on the day and hour this site's chronology gives each event, AD 33, with 14 Nisan, from the Last Supper to the burial, holding most of them](assets/img/jesus/passion-week.svg)](assets/img/jesus/passion-week.svg)
-
-### The LORD's words, said of Jesus
-
-Again and again the apostles take a text about the LORD (<span dir="rtl">יהוה</span>, *YHWH*) and
-say it of Jesus: the first and the last, the One before whom every knee bows, the One on whom they
-look whom they pierced.
-
-[![The LORD's words, said of Jesus: Old Testament texts that speak of the LORD set beside the New Testament texts that say the same words of Jesus, from Isaiah 44:6 and Revelation 1:17 to Psalm 102:25 and Hebrews 1:10](assets/img/jesus/the-lords-words.svg)](assets/img/jesus/the-lords-words.svg)
-
-### Hebrew or Greek?
-
-The apostles quote the Septuagint most often, and Luke and Hebrews keep closest to it. Where the
-Greek misses the point they render the Hebrew afresh, and Revelation, Matthew and Mark do so most
-often.
-
-[![Hebrew or Greek: for each New Testament writer, how many of their uses of the prophecies of Christ follow the Hebrew rendered afresh, the Septuagint, both where they agree, or neither](assets/img/jesus/which-text.svg)](assets/img/jesus/which-text.svg)
-
-### Written before, fulfilled after
-
-The span of every dated prophecy, from the year it was written to the year it came to pass, is
-drawn in [The prophet's view and history's
-view](jesus/foretold-long-ago.md#the-prophets-view-and-historys-view).
+    No card puts odds on its prophecy. In [How unlikely by
+    chance?](jesus/foretold-long-ago.md#how-unlikely-by-chance) you set the chance yourself.
 
 ## The prophecies, by subject
 

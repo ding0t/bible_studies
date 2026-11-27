@@ -8,6 +8,10 @@
 - `<!-- prophecies-of-christ: floor -->`           the chance floor a reader sets: the prophecies no
                                                    one could have arranged, one trial per moment,
                                                    and a slider for the chance given each
+- `<!-- prophecies-of-christ: explorer -->`        three pictures of the ledger (a Sankey from the Law,
+                                                   the Prophets and the Psalms to the New Testament, a
+                                                   wheel of subjects, a grid of who could have arranged
+                                                   each), every mark a filter over the cards
 - `<!-- prophecies-of-christ: filter -->`          a bar of filters over the cards: pick any values
                                                    in any facets (or within a facet, and across
                                                    them), with a live count on every chip. The
@@ -35,6 +39,7 @@ from __future__ import annotations
 
 import json
 import logging
+import math
 import re
 import tomllib
 from html import escape
@@ -42,7 +47,7 @@ from pathlib import Path
 
 log = logging.getLogger("mkdocs.hooks.prophecies")
 
-_MARKER = re.compile(r"<!--\s*prophecies-of-christ:\s*(measures|dated|nt|filter|floor|category\s+[\w-]+)\s*-->")
+_MARKER = re.compile(r"<!--\s*prophecies-of-christ:\s*(measures|explorer|dated|nt|filter|floor|category\s+[\w-]+)\s*-->")
 
 # The labels utils/build_jesus_graphics.py's chart uses, so the page and the chart agree.
 CATEGORIES = {
@@ -147,6 +152,8 @@ def _render(what: str, src: str, ledger_url: str) -> str:
         return _dated()
     if what == "filter":
         return _filter()
+    if what == "explorer":
+        return _explorer()
     if what == "floor":
         return _floor(ledger_url)
     if what == "nt":
@@ -311,6 +318,11 @@ def _facets(e: dict) -> dict[str, list[str]]:
         "recognition": [e.get("recognition", "unassessed")], "tier": [str(e["tier"])],
         "text": sorted({u["text"] for u in e.get("uses", []) if u.get("text") and u["text"] != "none"}),
         "feature": features,
+        # The explorer's facets, which have no chips in the bar: a book, a division or a writer is
+        # chosen by clicking it in a picture.
+        "division": [_DIVISION.get(book_of(e["prophecy"]), "")],
+        "book": [book_slug(book_of(e["prophecy"]))],
+        "nt": sorted({book_slug(book_of(u["ref"])) for u in e.get("uses", [])}) or [NO_USE],
     }
 
 
@@ -326,6 +338,351 @@ def _filter() -> str:
             f'<button type="button" class="pc-clear">Clear the filters</button></div>'
             f'<script type="module" src="/assets/js/prophecy-filter.js"></script>')
 
+
+# ---- The explorer: three pictures of the ledger over its cards ---------------------------------
+# Drawn here, so every count is the ledger's and the plates show without JavaScript. In the Larkin
+# hand of the site's other plates (parchment and ink, the same in light and dark). prophecy-filter.js
+# makes each book, subject, writer and cell a filter, and dims what a choice leaves out: every
+# clickable mark carries `data-pick` ("facet:value", two for a grid cell) and `data-units`, the
+# entries it stands for ("<id>", or "<id>@<nt book>" for a New Testament use).
+
+# Luke 24:44's three divisions, "the Law of Moses, the Prophets, and the Psalms" (BSB), each in English
+# order. Daniel stands with the Prophets, as Jesus names him (Matthew 24:15), though the Hebrew canon
+# sets him among the Writings, which "the Psalms" heads.
+DIVISIONS = (
+    ("law", "The Law", ("Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy")),
+    ("prophets", "The Prophets", (
+        "Joshua", "Judges", "1 Samuel", "2 Samuel", "1 Kings", "2 Kings", "Isaiah", "Jeremiah", "Ezekiel",
+        "Daniel", "Hosea", "Joel", "Amos", "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah",
+        "Haggai", "Zechariah", "Malachi")),
+    ("writings", "The Psalms", (
+        "Psalm", "Job", "Proverbs", "Ruth", "Song of Songs", "Ecclesiastes", "Lamentations", "Esther",
+        "Ezra", "Nehemiah", "1 Chronicles", "2 Chronicles")),
+)
+NT_GROUPS = (
+    ("Gospels", ("Matthew", "Mark", "Luke", "John")),
+    ("Acts", ("Acts",)),
+    ("Letters", (
+        "Romans", "1 Corinthians", "2 Corinthians", "Galatians", "Ephesians", "Philippians", "Colossians",
+        "1 Thessalonians", "2 Thessalonians", "1 Timothy", "2 Timothy", "Titus", "Philemon", "Hebrews",
+        "James", "1 Peter", "2 Peter", "1 John", "2 John", "3 John", "Jude")),
+    ("Revelation", ("Revelation",)),
+)
+# The nt facet's value for a reading of tradition the New Testament never uses.
+NO_USE = "none"
+_DIVISION = {book: key for key, _, books in DIVISIONS for book in books}
+_BOOK = re.compile(r"^((?:[1-3] )?[A-Z][A-Za-z ]*?) \d")
+
+# The grid's rows and columns, in the cards' words shortened to fit.
+GRID_ROWS = (("divine", "Beyond any human agent"), ("opponents", "His opponents"),
+             ("unwitting", "Someone with no thought of it"), ("followers", "His followers"),
+             ("chosen", "Jesus, knowingly"), ("unfulfilled", "Still to come"))
+GRID_COLS = (("known-before", "Read of the Messiah before Jesus"),
+             ("partly", "Before, but not the part He fulfilled"),
+             ("read-after", "Only in a later Jewish source"), ("veiled", "In no Jewish source"))
+
+SERIF = "Georgia, 'Times New Roman', serif"
+X_INK, X_MUTED, X_CARD, X_RULE = "#3b2f1e", "#6b5a3e", "#fffdf7", "#d9ccb0"
+X_GOLD, X_GOLD_EDGE, X_GOLD_TINT = "#e8c46a", "#a67c3d", "#f6ecd0"
+STREAM = {"law": "#8b1e1e", "prophets": "#2f4f7f", "writings": "#a67c3d", NO_USE: "#9c8f78"}
+TIER_FILL = {1: X_GOLD, 2: "#f2dfa6", 3: X_GOLD_TINT}
+
+
+def book_of(ref: str) -> str:
+    m = _BOOK.match(ref)
+    return m[1] if m else ref
+
+
+def book_slug(book: str) -> str:
+    return book.lower().replace(" ", "-")
+
+
+def book_label(book: str) -> str:
+    return "Psalms" if book == "Psalm" else book
+
+
+def _label(x: float, y: float, text: str, n: int | None = None, size: float = 12.5,
+           anchor: str = "start", extra: str = "") -> str:
+    count = f' <tspan class="px-n" data-n="{n}">{n}</tspan>' if n is not None else ""
+    return (f'<text class="px-label" x="{x:.1f}" y="{y:.1f}" font-size="{size}" text-anchor="{anchor}" '
+            f'{extra}>{escape(text)}{count}</text>')
+
+
+def _pick(pairs: str, units: list[str], label: str, inner: str) -> str:
+    return (f'<g class="px-pick" data-pick="{escape(pairs)}" data-units="{" ".join(units)}" '
+            f'data-label="{escape(label)}" tabindex="0" role="button" aria-pressed="false" '
+            f'aria-label="{escape(label)}">{inner}<title>{escape(label)}</title></g>')
+
+
+def _svg(w: float, h: float, title: str, body: str, cls: str) -> str:
+    return (f'<svg class="px-svg {cls}" viewBox="0 0 {w:.0f} {h:.0f}" role="img" font-family="{SERIF}" '
+            f'aria-label="{escape(title)}">{body}</svg>')
+
+
+
+def _flow() -> str:
+    """Each New Testament use, from the Old Testament book through its subject to the New Testament
+    book, as a Sankey. A reading of tradition with no use flows to a last node of its own."""
+    units = []
+    for e in _ledger:
+        ot = book_of(e["prophecy"])
+        if ot not in _DIVISION:
+            log.warning("prophecies: %s is in no division of the explorer", e["prophecy"])
+        for nt in [book_of(u["ref"]) for u in e.get("uses", [])] or [NO_USE]:
+            units.append({"e": e, "ot": ot, "div": _DIVISION.get(ot, "prophets"), "cat": e["category"],
+                          "nt": nt, "tok": f'{e["id"]}@{book_slug(nt)}'})
+    have = {c: {u[c] for u in units} for c in ("ot", "cat", "nt")}
+    cols = {
+        "ot": [[b for b in books if b in have["ot"]] for _, _, books in DIVISIONS],
+        "cat": [[c for c in CATEGORIES if c in have["cat"]]],
+        "nt": [[b for b in books if b in have["nt"]] for _, books in NT_GROUPS] + [[NO_USE] if NO_USE in have["nt"] else []],
+    }
+    cols = {c: [g for g in groups if g] for c, groups in cols.items()}
+    W, TOP, AVAIL, NW, PAD, GAP, SLOT = 980, 48, 700, 12, 4, 14, 13
+    X = {"ot": 190, "cat": 480, "nt": 790}
+    val = {c: {} for c in cols}
+    toks = {c: {} for c in cols}
+    for u in units:
+        for c in cols:
+            val[c][u[c]] = val[c].get(u[c], 0) + 1
+            toks[c].setdefault(u[c], []).append(u["tok"])
+    total = len(units)
+    pads = {c: (sum(map(len, g)) - 1) * PAD + (len(g) - 1) * (GAP - PAD) for c, g in cols.items()}
+    k = min((AVAIL - p) / total for p in pads.values())
+    pos, bottom = {c: {} for c in cols}, 0.0
+    for c, groups in cols.items():
+        y = TOP + (AVAIL - pads[c] - total * k) / 2
+        for gi, keys in enumerate(groups):
+            y += (GAP - PAD) if gi else 0
+            for key in keys:
+                h = val[c][key] * k
+                pos[c][key] = {"y": y, "h": h, "out": y, "in": y}
+                y += max(h, SLOT) + PAD
+        bottom = max(bottom, y)
+    order = {c: {key: i for i, key in enumerate(k_ for g in cols[c] for k_ in g)} for c in cols}
+    div_order = {key: i for i, (key, _, _) in enumerate(DIVISIONS)} | {NO_USE: len(DIVISIONS)}
+
+    def band(sc, s, tc, t, n, colour, tokens, title):
+        w = n * k
+        ys, yt = pos[sc][s]["out"] + w / 2, pos[tc][t]["in"] + w / 2
+        pos[sc][s]["out"] += w
+        pos[tc][t]["in"] += w
+        sx, tx = X[sc] + NW, X[tc]
+        xm = (sx + tx) / 2
+        return (f'<path class="px-band" d="M{sx} {ys:.1f} C{xm} {ys:.1f} {xm} {yt:.1f} {tx} {yt:.1f}" '
+                f'fill="none" stroke="{colour}" stroke-width="{max(w, 0.8):.2f}" data-units="{" ".join(tokens)}">'
+                f'<title>{escape(title)}: {n} use{"s" if n > 1 else ""}</title></path>')
+
+    left, right = {}, {}
+    for u in units:
+        left.setdefault((u["ot"], u["cat"]), []).append(u)
+        right.setdefault((u["cat"], u["nt"], NO_USE if u["nt"] == NO_USE else u["div"]), []).append(u)
+    bands = []
+    for (ot, cat), us in sorted(left.items(), key=lambda i: (order["ot"][i[0][0]], order["cat"][i[0][1]])):
+        bands.append(band("ot", ot, "cat", cat, len(us), STREAM[us[0]["div"]], [u["tok"] for u in us],
+                          f"{book_label(ot)} to {CATEGORIES[cat]}"))
+    for (cat, nt, div), us in sorted(right.items(), key=lambda i: (order["cat"][i[0][0]], order["nt"][i[0][1]],
+                                                                   div_order[i[0][2]])):
+        where = "no New Testament use" if nt == NO_USE else nt
+        bands.append(band("cat", cat, "nt", nt, len(us), STREAM[div], [u["tok"] for u in us],
+                          f"{CATEGORIES[cat]} to {where}"))
+
+    nodes = []
+
+    def node(c, key, text, pair, colour, side):
+        p, n = pos[c][key], val[c][key]
+        h = max(p["h"], 1.5)
+        tx = X[c] - 8 if side == "left" else X[c] + NW + 8
+        hit_x = tx - 160 if side == "left" else X[c]
+        inner = (f'<rect x="{X[c]}" y="{p["y"]:.1f}" width="{NW}" height="{h:.1f}" fill="{colour}" class="px-mark"/>'
+                 + _label(tx, p["y"] + h / 2 + 4, text, n, 14 if c == "cat" else 12.5,
+                          "end" if side == "left" else "start")
+                 + f'<rect x="{hit_x:.1f}" y="{p["y"] - 2:.1f}" width="{160 + NW + 8}" height="{max(h + 4, SLOT + 1):.1f}" fill="transparent"/>')
+        nodes.append(_pick(pair, toks[c][key], f"{text}: {n} use{'s' if n > 1 else ''}", inner))
+
+    for key, _, books in DIVISIONS:
+        for b in books:
+            if b in pos["ot"]:
+                node("ot", b, book_label(b), f"book:{book_slug(b)}", STREAM[key], "left")
+    for c in cols["cat"][0]:
+        node("cat", c, CATEGORIES[c], f"category:{c}", X_GOLD, "right")
+    for group in cols["nt"]:
+        for b in group:
+            node("nt", b, "Tradition only" if b == NO_USE else b, f"nt:{book_slug(b)}",
+                 STREAM[NO_USE] if b == NO_USE else X_INK, "right")
+
+    marks = []
+    for key, name, books in DIVISIONS:
+        present = [b for b in books if b in pos["ot"]]
+        if not present:
+            continue
+        y0, y1 = pos["ot"][present[0]]["y"], pos["ot"][present[-1]]["y"] + pos["ot"][present[-1]]["h"]
+        ym = (y0 + y1) / 2
+        inner = (f'<path d="M40 {y0:.1f} h-6 V{y1:.1f} h6" fill="none" stroke="{STREAM[key]}" stroke-width="2"/>'
+                 f'<text x="22" y="{ym:.1f}" font-size="13" font-style="italic" fill="{STREAM[key]}" '
+                 f'text-anchor="middle" transform="rotate(-90 22 {ym:.1f})">{escape(name)}</text>'
+                 f'<rect x="4" y="{y0:.1f}" width="40" height="{y1 - y0:.1f}" fill="transparent"/>')
+        marks.append(_pick(f"division:{key}", [t for b in present for t in toks["ot"][b]], name, inner))
+    for name, books in NT_GROUPS:
+        present = [b for b in books if b in pos["nt"]]
+        if len(present) < 2:
+            continue
+        y0, y1 = pos["nt"][present[0]]["y"], pos["nt"][present[-1]]["y"] + pos["nt"][present[-1]]["h"]
+        ym = (y0 + y1) / 2
+        marks.append(f'<path d="M{W - 40} {y0:.1f} h6 V{y1:.1f} h-6" fill="none" stroke="{X_MUTED}" stroke-width="1.5"/>'
+                     f'<text x="{W - 22}" y="{ym:.1f}" font-size="13" font-style="italic" fill="{X_MUTED}" '
+                     f'text-anchor="middle" transform="rotate(90 {W - 22} {ym:.1f})">{escape(name)}</text>')
+    heads = "".join(
+        f'<text x="{x}" y="24" font-size="11" fill="{X_MUTED}" text-anchor="{a}" letter-spacing="1.5">{t}</text>'
+        for x, t, a in ((X["ot"] + NW, "OLD TESTAMENT", "end"), (X["cat"], "WHAT IT FORETOLD", "start"),
+                        (X["nt"], "NEW TESTAMENT", "start")))
+    body = (f'<rect width="{W}" height="{bottom + 16:.0f}" fill="{X_CARD}"/>{heads}<g class="px-bands">{"".join(bands)}</g>'
+            + "".join(marks) + "".join(nodes))
+    return _svg(W, bottom + 16, "Each New Testament use of a prophecy, from its Old Testament book through its "
+                "subject to the New Testament book that uses it", body, "px-flow")
+
+
+def _wheel() -> str:
+    """The subjects clockwise through His life, as the home page's wheel: equal angles, each wedge's
+    area its number of prophecies, its rings the tiers from the centre out."""
+    W, H, CX, CY, HUB, R = 780, 560, 390, 280, 48, 200
+    cats = [c for c in CATEGORIES if any(e["category"] == c for e in _ledger)]
+    by = {c: [e for e in _ledger if e["category"] == c] for c in cats}
+    most = max(len(v) for v in by.values())
+    step, gap = 2 * math.pi / len(cats), 0.02
+
+    def pt(a, r):
+        return CX + r * math.sin(a), CY - r * math.cos(a)
+
+    def wedge(a0, a1, r0, r1):
+        (x0, y0), (x1, y1), (x2, y2), (x3, y3) = pt(a0, r0), pt(a1, r0), pt(a1, r1), pt(a0, r1)
+        return (f"M{x0:.1f} {y0:.1f} A{r0:.1f} {r0:.1f} 0 0 1 {x1:.1f} {y1:.1f} L{x2:.1f} {y2:.1f} "
+                f"A{r1:.1f} {r1:.1f} 0 0 0 {x3:.1f} {y3:.1f}Z")
+
+    def radius(count):
+        return math.sqrt(HUB * HUB + (R * R - HUB * HUB) * count / most)
+
+    out = [f'<rect width="{W}" height="{H}" fill="{X_CARD}"/>',
+           f'<circle cx="{CX}" cy="{CY}" r="{R}" fill="none" stroke="{X_RULE}" stroke-dasharray="2 4"/>']
+    for i, c in enumerate(cats):
+        entries = by[c]
+        a0, a1 = i * step - step / 2 + gap, (i + 1) * step - step / 2 - gap
+        rings, cum, r0 = [], 0, HUB
+        for tier in (1, 2, 3):
+            n = sum(e["tier"] == tier for e in entries)
+            if not n:
+                continue
+            cum += n
+            r1 = radius(cum)
+            rings.append(f'<path class="px-mark" d="{wedge(a0, a1, r0, r1)}" fill="{TIER_FILL[tier]}" '
+                         f'stroke="{X_GOLD_EDGE}"/>')
+            r0 = r1
+        mid = (a0 + a1) / 2
+        lx, ly = pt(mid, R + 26)
+        anchor = "middle" if abs(math.sin(mid)) < 0.2 else ("start" if math.sin(mid) > 0 else "end")
+        inner = ("".join(rings) + _label(lx, ly, CATEGORIES[c], None, 14, anchor)
+                 + f'<text class="px-label" x="{lx:.1f}" y="{ly + 16:.1f}" font-size="12" fill="{X_MUTED}" '
+                   f'text-anchor="{anchor}"><tspan class="px-n" data-n="{len(entries)}">{len(entries)}</tspan></text>'
+                 + f'<path d="{wedge(a0, a1, HUB, R + 10)}" fill="transparent"/>')
+        tiers = ", ".join(f"{sum(e['tier'] == t for e in entries)} {w}" for t, w in
+                          ((1, "fulfilled in Him or spoke of Him"), (2, "applied to Him"), (3, "tradition")))
+        out.append(_pick(f"category:{c}", [e["id"] for e in entries],
+                         f"{CATEGORIES[c]}: {len(entries)} prophecies ({tiers})", inner))
+    ids = " ".join(e["id"] for e in _ledger)
+    out.append(f'<circle cx="{CX}" cy="{CY}" r="{HUB - 6}" fill="{X_CARD}" stroke="{X_GOLD_EDGE}"/>'
+               f'<text class="px-total" data-units="{ids}" x="{CX}" y="{CY + 4}" font-size="26" fill="{X_INK}" '
+               f'text-anchor="middle">{len(_ledger)}</text>'
+               f'<text class="px-total-of" x="{CX}" y="{CY + 22}" font-size="11" fill="{X_MUTED}" '
+               f'text-anchor="middle" data-all="prophecies" data-total="{len(_ledger)}">prophecies</text>')
+    return _svg(W, H, "The prophecies by subject, clockwise through His life", "".join(out), "px-wheel")
+
+
+def _grid() -> str:
+    """Who brought each prophecy about, against whether it was read of the Messiah before Him."""
+    L, T, CW, CH = 220, 96, 124, 64
+    W, H = L + CW * len(GRID_COLS) + 56, T + CH * len(GRID_ROWS) + 20
+    cells = {}
+    for e in _ledger:
+        cells.setdefault((e.get("control"), e.get("recognition")), []).append(e["id"])
+    most = max(len(v) for v in cells.values())
+    out = [f'<rect width="{W}" height="{H}" fill="{X_CARD}"/>',
+           f'<rect x="{L}" y="{T}" width="{CW * len(GRID_COLS)}" height="{CH * 3}" fill="{X_GOLD_TINT}" opacity="0.6"/>']
+    for j, (_, name) in enumerate(GRID_COLS):
+        lines, line = [], ""
+        for word in name.split():
+            if len(f"{line} {word}".strip()) > 16:
+                lines.append(line)
+                line = word
+            else:
+                line = f"{line} {word}".strip()
+        lines.append(line)
+        for i, s in enumerate(lines):
+            out.append(f'<text x="{L + CW * j + CW / 2:.0f}" y="{T - 12 - (len(lines) - 1 - i) * 15}" '
+                       f'font-size="12.5" fill="{X_INK}" text-anchor="middle">{escape(s)}</text>')
+    for i, (control, row) in enumerate(GRID_ROWS):
+        y = T + CH * i
+        out.append(f'<text x="{L - 12}" y="{y + CH / 2 + 4:.0f}" font-size="13.5" fill="{X_INK}" text-anchor="end">{escape(row)}</text>'
+                   f'<line x1="{L}" x2="{L + CW * len(GRID_COLS)}" y1="{y}" y2="{y}" stroke="{X_RULE}"/>')
+        for j, (recognition, col) in enumerate(GRID_COLS):
+            ids = cells.get((control, recognition), [])
+            if not ids:
+                continue
+            cx, cy = L + CW * j + CW / 2, y + CH / 2
+            r = 4 + 24 * (len(ids) / most) ** 0.5
+            inner = (f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="{r:.1f}" fill="{X_CARD}" stroke="{X_GOLD_EDGE}"/>'
+                     f'<circle class="px-fill" cx="{cx:.0f}" cy="{cy:.0f}" r="{r:.1f}" fill="{X_GOLD}" '
+                     f'stroke="{X_GOLD_EDGE}" data-most="{most}"/>'
+                     f'<text class="px-label" x="{cx + r + 6:.1f}" y="{cy + 4:.0f}" font-size="12.5" fill="{X_MUTED}">'
+                     f'<tspan class="px-n" data-n="{len(ids)}">{len(ids)}</tspan></text>'
+                     f'<rect x="{L + CW * j}" y="{y}" width="{CW}" height="{CH}" fill="transparent"/>')
+            out.append(_pick(f"control:{control} recognition:{recognition}", ids,
+                             f"{row}; {col.lower()}: {len(ids)}", inner))
+    bottom = T + CH * len(GRID_ROWS)
+    out.append(f'<line x1="{L}" x2="{L + CW * len(GRID_COLS)}" y1="{bottom}" y2="{bottom}" stroke="{X_RULE}"/>'
+               f'<text x="{L + CW * len(GRID_COLS) - 6}" y="{T + CH * 3 - 6}" font-size="11.5" font-style="italic" '
+               f'fill="{X_MUTED}" text-anchor="end">no follower of His could have arranged these</text>')
+    return _svg(W, H, "Who brought each prophecy about, against whether it was read of the Messiah before Him",
+                "".join(out), "px-grid")
+
+
+def _swatch(colour: str, text: str) -> str:
+    return f'<span class="px-key"><i style="background:{colour}"></i>{escape(text)}</span>'
+
+
+def _explorer() -> str:
+    uses = sum(len(e.get("uses", [])) for e in _ledger)
+    unused = sum(not e.get("uses") for e in _ledger)
+    views = (
+        ("flow", "Law, Prophets, Psalms",
+         f"&ldquo;Everything must be fulfilled that is written about Me in the Law of Moses, the Prophets, and "
+         f"the Psalms&rdquo; (Luke 24:44, BSB). Each of the {uses} New Testament uses of a prophecy, traced from "
+         f"its Old Testament book, through what it foretold of Him, to the New Testament book that uses it; "
+         f"the band's width is the number of uses. The {unused} readings of tradition the New Testament never "
+         f"uses run to a last node of their own.",
+         [_swatch(STREAM["law"], "The Law"), _swatch(STREAM["prophets"], "The Prophets"),
+          _swatch(STREAM["writings"], "The Psalms and the Writings"),
+          _swatch(STREAM[NO_USE], "Tradition only")], _flow()),
+        ("wheel", "His life, in a circle",
+         f"The {len(_ledger)} prophecies by subject, clockwise through His life, from His nature before the world "
+         f"at the top round to His return beside it. Each wedge's area is its number of prophecies, its rings "
+         f"how firmly the New Testament reads them of Him.",
+         [_swatch(TIER_FILL[1], "Fulfilled in Him or spoke of Him"), _swatch(TIER_FILL[2], "Applied to Him"),
+          _swatch(TIER_FILL[3], "A reading of tradition")], _wheel()),
+        ("grid", "Could it be arranged?",
+         "Who brought each prophecy about, against whether anyone read it of the Messiah before Him. The top "
+         "three rows are the prophecies no follower of His could have brought about; the right-hand column, "
+         "those no one was looking for.", [], _grid()),
+    )
+    tabs = "".join(f'<button type="button" role="tab" class="px-tab" data-view="{key}" '
+                   f'aria-selected="{"true" if i == 0 else "false"}">{escape(name)}</button>'
+                   for i, (key, name, *_rest) in enumerate(views))
+    figures = []
+    for key, name, caption, keys, svg in views:
+        legend = f'<span class="px-keys">{"".join(keys)}</span>' if keys else ""
+        figures.append(f'<figure class="px-view" data-view="{key}"><figcaption><b class="px-name">{escape(name)}</b> '
+                       f'{caption}{legend}</figcaption><div class="px-frame">{svg}</div></figure>')
+    return (f'<div class="px"><div class="px-tabs" role="tablist" aria-label="Pictures of the ledger" hidden>{tabs}</div>'
+            f'{"".join(figures)}</div>')
 
 def on_post_build(config):
     """assets/popups/prophecies.json: for each verse key ("Ps 22:18", English numbering, as the

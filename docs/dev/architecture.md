@@ -198,8 +198,12 @@ short. `AGENTS.md` keeps the rules that break things if forgotten.
   category's cards (`id="prophecy-<id>"`) and the New Testament's own predictions. A ledger
   note's research leads ("lead:" on) are left off the page. The study is week 1 and the hub of the
   Prophecy and Jesus series (a `series:` block), and the charts are drawn from the same two files
-  by `utils/build_jesus_graphics.py`. The same hook writes the ledger's filter bar (behaviour in
-  `app/src/entries/prophecy-filter.js`) and the study's chance floor (its moments link to the
+  by `utils/build_jesus_graphics.py`. The same hook writes the ledger's explorer (three plates drawn
+  at build time: a Sankey from Luke 24:44's Law, Prophets and Psalms through each subject to the New
+  Testament book; a wheel of subjects; a grid of who brought each about against whether it was read
+  beforehand), its filter bar (behaviour for both in `app/src/entries/prophecy-filter.js`, where each
+  mark in a plate is a choice and the plates dim to the cards left showing) and the study's chance
+  floor (its moments link to the
   ledger's cards), adds "Prophecies of Christ" to each
   generated commentary chapter page, and writes `assets/popups/prophecies.json`, which the verse
   pop-up reads to say a verse is a prophecy of Christ or a New Testament use of one.

@@ -243,6 +243,18 @@ sessions:
       span chart, the LORD's words and the chance floor as its closing argument. hooks/prophecies.py
       LEDGER_PAGE: the floor's moments and each commentary chapter link to the ledger's cards. State:
       references/study-state/foretold-long-ago.yml (renamed). Next: develop the study, then read it.
+  - n: 14
+    date: 2026-11-27
+    done: >-
+      At the author's word, the ledger page became the browser alone. It gained the explorer
+      (hooks/prophecies.py _explorer): three build-time plates (Law, Prophets, Psalms as a flow of
+      book, subject and New Testament book; the subjects as a wheel; control against recognition as
+      a grid, "could it be arranged?"), every mark a filter choice kept in the address. Daniel counts
+      with the Prophets (author's choice). The key, the numbers and the patterns moved verbatim to a
+      draft extra outside the weeks, docs/content/jesus/weighing-the-prophecies.md (state:
+      references/study-state/weighing-the-prophecies.yml); the ledger keeps a collapsed card key.
+      While it is a draft the Passion Week and Hebrew-or-Greek plates are off the live site. Next:
+      develop the extra in a fresh session, then link it from the ledger and Foretold Long Ago.
 
 # Each entry, candidate -> drafted. One call to passage_brief per prophecy, research_batch_run for
 # the rest. Record what is checked under evidence: below.
