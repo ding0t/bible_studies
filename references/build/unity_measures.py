@@ -67,6 +67,24 @@ LXX_CANON_ALIAS = {"JoshB": "Josh", "JudgB": "Judg"}
 # Masada (AD 73), Murabba'at and Nahal Hever (to AD 135) and unprovenanced fragments are excluded.
 QUMRAN = re.compile(r"^dss-(\d{1,2}Q|1Qisa)")
 
+
+def qumran_copies(conn: sqlite3.Connection) -> dict[tuple[str, int, int], set[str]]:
+    """For each verse, the Qumran scrolls that hold at least one word of it whole. A word with any
+    reconstructed or uncertain letter is not counted: 46% of signs in this corpus are an editor's
+    restoration, and 4Q82's line for Hosea 11:1 is restored entire. The scribe's verse divider is
+    stored as a word with no letters, and does not count either."""
+    copies = defaultdict(set)
+    for work, b, c, v in conn.execute("SELECT DISTINCT work_id, book, chapter, verse FROM morphology "
+                                      "WHERE work_id LIKE 'dss-%' AND extant = 1 AND surface_form <> ''"):
+        if QUMRAN.match(work):
+            copies[(b, c, v)].add(work.removeprefix("dss-"))
+    return copies
+
+
+def years_between(earlier: int, later: int) -> int:
+    """Years from one signed year to another, BC negative, with no year zero: 540 BC to AD 33 is 572."""
+    return later - earlier - (1 if earlier < 0 < later else 0)
+
 # Witnesses whose date no theory of authorship moves. The prologue to Sirach, written in "the
 # thirty-eighth year of King Euergetes" (about 132 BC), says "the law itself, and the prophecies,
 # and the rest of the books" were already read in Greek. The Great Isaiah Scroll is c. 125 BC.
@@ -362,11 +380,7 @@ def measure_prophecy(conn, books) -> dict:
     for entry, role, b, c, v in conn.execute(
             "SELECT entry, role, book, chapter, verse FROM reference_lists WHERE list_id='ot-quotations'"):
         entries[entry].setdefault(role, (b, c, v))
-    qumran = defaultdict(set)
-    for work, b, c, v in conn.execute("SELECT DISTINCT work_id, book, chapter, verse FROM morphology "
-                                      "WHERE work_id LIKE 'dss-%'"):
-        if QUMRAN.match(work):
-            qumran[(b, c, v)].add(work.removeprefix("dss-"))
+    qumran = qumran_copies(conn)
     fulfil = {(b, c, v) for b, c, v in conn.execute(
         "SELECT book, chapter, verse FROM morphology WHERE work_id='macula-greek-sblgnt' "
         "AND lemma IN ('πληρόω','τελέω')")}
@@ -567,6 +581,9 @@ def chronology_years() -> dict[str, int]:
             year = e.get("gregorian_year", e.get("gregorian"))
             if year is not None:
                 years[e["id"]] = year
+    # passion_sequence events carry days, not years: they fall in the crucifixion's year.
+    for e in data.get("passion_sequence", {}).get("events", []):
+        years.setdefault(e["id"], years["anchor_41"])
     return years
 
 
@@ -578,11 +595,7 @@ def measure_validator(conn, books) -> dict:
         entries += [{**e, "group": "messiah"} for e in tomllib.load(f)["prophecy"] if "standing" in e]
     entries.sort(key=lambda e: ("history", "messiah", "after").index(e["group"]))
     years = chronology_years()
-    qumran = defaultdict(set)
-    for work, b, c, v in conn.execute("SELECT DISTINCT work_id, book, chapter, verse FROM morphology "
-                                      "WHERE work_id LIKE 'dss-%'"):
-        if QUMRAN.match(work):
-            qumran[(b, c, v)].add(work.removeprefix("dss-"))
+    qumran = qumran_copies(conn)
     rows = []
     for e in entries:
         refs = parse_refs(e["prophecy"])
@@ -606,11 +619,11 @@ def measure_validator(conn, books) -> dict:
             "id": e["id"], "prophecy": e["prophecy"], "group": e["group"], "standing": e["standing"],
             "specific": e["specific"], "fulfilled": fulfilled,
             "written_traditional": written["traditional"], "written_critical": written["critical"],
-            "years_ahead_traditional": fulfilled - written["traditional"],
-            "years_ahead_critical": fulfilled - written["critical"],
+            "years_ahead_traditional": years_between(written["traditional"], fulfilled),
+            "years_ahead_critical": years_between(written["critical"], fulfilled),
             "qumran": scrolls,
             "earliest_copy": earliest_copy[0] if earliest_copy else None,
-            "years_ahead_of_copy": fulfilled - earliest_copy[1] if earliest_copy else None,
+            "years_ahead_of_copy": years_between(earliest_copy[1], fulfilled) if earliest_copy else None,
             # a manuscript you can hold, dated before the event: the Great Isaiah Scroll, or any
             # Qumran copy of a prophecy fulfilled after the site fell
             "manuscript_before": ("1Qisaa" in scrolls and fulfilled > GREAT_ISAIAH_SCROLL)

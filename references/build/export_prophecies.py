@@ -17,13 +17,12 @@ import json
 import re
 import sqlite3
 import tomllib
-from collections import defaultdict
 from pathlib import Path
 
 from book_map import NUM_TO_OSIS, REFERENCE_NAME_TO_NUM
 from unity_measures import (
-    AUTHORSHIP, CHRIST_PROPHECY, CHRONOLOGY, DB, GREAT_ISAIAH_SCROLL, QUMRAN, QUMRAN_FALLS, ROOT,
-    chronology_years, date_range, load_authorship, parse_refs,
+    AUTHORSHIP, CHRIST_PROPHECY, CHRONOLOGY, DB, GREAT_ISAIAH_SCROLL, QUMRAN_FALLS, ROOT,
+    chronology_years, date_range, load_authorship, parse_refs, qumran_copies, years_between,
 )
 
 OUT = ROOT / "docs" / "data" / "prophecies-of-christ.json"
@@ -100,12 +99,7 @@ def chapter_length_lookup(conn: sqlite3.Connection):
 
 
 def qumran_index(conn: sqlite3.Connection) -> dict[tuple[str, int, int], set[str]]:
-    index = defaultdict(set)
-    for work, b, c, v in conn.execute("SELECT DISTINCT work_id, book, chapter, verse FROM morphology "
-                                      "WHERE work_id LIKE 'dss-%'"):
-        if QUMRAN.match(work):
-            index[(b, c, v)].add(work.removeprefix("dss-"))
-    return index
+    return qumran_copies(conn)
 
 
 def entry_row(e: dict, books: dict, years: dict[str, int], passion: set[str], scrolls_at,
@@ -136,8 +130,8 @@ def entry_row(e: dict, books: dict, years: dict[str, int], passion: set[str], sc
         "written_traditional": written["traditional"],
         "written_critical": written["critical"],
         "fulfilled": fulfilled,
-        "years_ahead_traditional": fulfilled - written["traditional"] if dated else None,
-        "years_ahead_critical": fulfilled - written["critical"] if dated and written["critical"] is not None else None,
+        "years_ahead_traditional": years_between(written["traditional"], fulfilled) if dated else None,
+        "years_ahead_critical": years_between(written["critical"], fulfilled) if dated and written["critical"] is not None else None,
         # For the verse pop-up (hooks/prophecies.py writes assets/popups/prophecies.json): the
         # prophecy's own verses, and each New Testament use's, so a reader meets the entry from
         # either end.
@@ -148,7 +142,7 @@ def entry_row(e: dict, books: dict, years: dict[str, int], passion: set[str], sc
                      "uses": [list(c) for c in chapters_of([k for u in e.get("uses", [])
                                                              for k in verse_keys(u["ref"], chapter_lengths)])]},
         "existed_by": existed_by,
-        "years_ahead_at_least": fulfilled - existed_by if dated and existed_by is not None else None,
+        "years_ahead_at_least": years_between(existed_by, fulfilled) if dated and existed_by is not None else None,
         "qumran": scrolls,
         # A manuscript you can hold, older than the event: the Great Isaiah Scroll (about 125 BC),
         # or any Qumran copy of a prophecy fulfilled after the site fell. A Qumran copy of one

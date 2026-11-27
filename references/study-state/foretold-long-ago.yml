@@ -15,10 +15,10 @@ ledger_page: "docs/content/prophecies-of-christ.md"
 next: >-
   Reviewed and read 2026-11-27 (subagents, report only; findings re-checked before applying; see
   review_2026_11_27). Thesis line: the author chose "eighty of them on the New Testament's own word"
-  (102 fulfilled or partly, 80 in tiers 1-2), 2026-11-28. Tooling: export_prophecies.py years_ahead
-  skips year zero across BC/AD (one year high on cards, the courtroom plate and What Literary
-  Criticism Declares' table); qumran_index counts reconstructed words (the dated sentence's 67
-  should be 66).
+  (102 fulfilled or partly, 80 in tiers 1-2), 2026-11-28. Tooling fixed
+  2026-11-28: unity_measures.years_between (no year zero) and qumran_copies (whole words only, and
+  not the letterless verse-divider rows) now serve both exporters; Qumran-attested entries 67 -> 62;
+  plates and What Literary Criticism Declares' table re-rendered and corrected.
 
 primary_passage: "Isaiah 45:21; Luke 24:44"
 supporting_passages: ["Isaiah 41:21-29", "Isaiah 42:1-9", "Isaiah 43:8-13", "Isaiah 44:6-8", "Isaiah 44:24-28", "Isaiah 45:18-25", "Isaiah 46:8-11", "Isaiah 48:3-12", "Deuteronomy 18:21-22", "John 13:18-19", "John 14:29", "John 8:28", "Luke 24:25-27", "Luke 24:44-48", "Luke 16:29-31", "Acts 17:2-3", "Acts 17:11", "Acts 18:24-28", "Acts 1:8", "1 Peter 1:10-12", "2 Peter 1:16-21", "Matthew 2:4-6", "Matthew 12:17-18", "Matthew 16:1-4", "Romans 16:25-26", "1 Corinthians 15:3-4", "Acts 17:31", "Philippians 2:9-11"]

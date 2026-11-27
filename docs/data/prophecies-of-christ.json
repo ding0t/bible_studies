@@ -99,8 +99,7 @@
    "existed_by": null,
    "years_ahead_at_least": null,
    "qumran": [
-    "1Qisaa",
-    "4Q65"
+    "1Qisaa"
    ],
    "manuscript_before": true
   },
@@ -110,8 +109,8 @@
    "written_traditional": -681,
    "written_critical": -700,
    "fulfilled": 29,
-   "years_ahead_traditional": 710,
-   "years_ahead_critical": 729,
+   "years_ahead_traditional": 709,
+   "years_ahead_critical": 728,
    "verses": [
     "Isa 9:1",
     "Isa 9:2"
@@ -156,7 +155,7 @@
    "written_traditional": -430,
    "written_critical": null,
    "fulfilled": 29,
-   "years_ahead_traditional": 459,
+   "years_ahead_traditional": 458,
    "years_ahead_critical": null,
    "verses": [
     "Mal 3:1"
@@ -207,7 +206,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 161,
+   "years_ahead_at_least": 160,
    "qumran": [
     "4Q76"
    ],
@@ -219,7 +218,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Zech 9:9"
@@ -267,7 +266,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 165,
+   "years_ahead_at_least": 164,
    "qumran": [],
    "manuscript_before": false
   },
@@ -277,7 +276,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Zech 11:12",
@@ -326,7 +325,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 165,
+   "years_ahead_at_least": 164,
    "qumran": [],
    "manuscript_before": false
   },
@@ -336,7 +335,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 22:18"
@@ -409,7 +408,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 22:16"
@@ -464,7 +463,7 @@
    "written_traditional": -1406,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 1439,
+   "years_ahead_traditional": 1438,
    "years_ahead_critical": null,
    "verses": [
     "Exod 12:46",
@@ -505,13 +504,10 @@
    "existed_by": null,
    "years_ahead_at_least": null,
    "qumran": [
-    "4Q11",
     "4Q128",
-    "4Q136",
     "4Q14",
     "4Q140",
     "4Q37",
-    "4Q83",
     "8Q3"
    ],
    "manuscript_before": false
@@ -522,7 +518,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Zech 12:10"
@@ -565,7 +561,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 165,
+   "years_ahead_at_least": 164,
    "qumran": [
     "4Q80"
    ],
@@ -577,8 +573,8 @@
    "written_traditional": -681,
    "written_critical": -540,
    "fulfilled": 33,
-   "years_ahead_traditional": 714,
-   "years_ahead_critical": 573,
+   "years_ahead_traditional": 713,
+   "years_ahead_critical": 572,
    "verses": [
     "Isa 53:5",
     "Isa 53:9",
@@ -663,7 +659,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 16:10"
@@ -713,9 +709,7 @@
    },
    "existed_by": null,
    "years_ahead_at_least": null,
-   "qumran": [
-    "4Q85"
-   ],
+   "qumran": [],
    "manuscript_before": false
   },
   {
@@ -724,8 +718,8 @@
    "written_traditional": -536,
    "written_critical": -164,
    "fulfilled": 33,
-   "years_ahead_traditional": 569,
-   "years_ahead_critical": 197,
+   "years_ahead_traditional": 568,
+   "years_ahead_critical": 196,
    "verses": [
     "Dan 9:25",
     "Dan 9:26"
@@ -777,7 +771,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 2:7"
@@ -842,7 +836,6 @@
    "existed_by": null,
    "years_ahead_at_least": null,
    "qumran": [
-    "11Q7",
     "3Q2"
    ],
    "manuscript_before": false
@@ -1162,7 +1155,7 @@
    "written_traditional": -400,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 433,
+   "years_ahead_traditional": 432,
    "years_ahead_critical": null,
    "verses": [
     "Joel 2:32"
@@ -1206,7 +1199,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 165,
+   "years_ahead_at_least": 164,
    "qumran": [],
    "manuscript_before": false
   },
@@ -1555,8 +1548,8 @@
    "written_traditional": -1406,
    "written_critical": -400,
    "fulfilled": 33,
-   "years_ahead_traditional": 1439,
-   "years_ahead_critical": 433,
+   "years_ahead_traditional": 1438,
+   "years_ahead_critical": 432,
    "verses": [
     "Gen 12:3",
     "Gen 22:18"
@@ -1807,7 +1800,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 132:11",
@@ -2093,9 +2086,7 @@
    },
    "existed_by": -132,
    "years_ahead_at_least": 127,
-   "qumran": [
-    "4Q82"
-   ],
+   "qumran": [],
    "manuscript_before": false
   },
   {
@@ -2268,8 +2259,8 @@
    "written_traditional": -681,
    "written_critical": -540,
    "fulfilled": 29,
-   "years_ahead_traditional": 710,
-   "years_ahead_critical": 569,
+   "years_ahead_traditional": 709,
+   "years_ahead_critical": 568,
    "verses": [
     "Isa 40:3",
     "Isa 40:4",
@@ -2338,7 +2329,6 @@
    "existed_by": null,
    "years_ahead_at_least": null,
    "qumran": [
-    "1Q8",
     "1Qisaa",
     "4Q56"
    ],
@@ -2350,7 +2340,7 @@
    "written_traditional": -430,
    "written_critical": null,
    "fulfilled": 29,
-   "years_ahead_traditional": 459,
+   "years_ahead_traditional": 458,
    "years_ahead_critical": null,
    "verses": [
     "Mal 4:5",
@@ -2407,7 +2397,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 161,
+   "years_ahead_at_least": 160,
    "qumran": [
     "4Q76"
    ],
@@ -2419,8 +2409,8 @@
    "written_traditional": -681,
    "written_critical": -400,
    "fulfilled": 29,
-   "years_ahead_traditional": 710,
-   "years_ahead_critical": 429,
+   "years_ahead_traditional": 709,
+   "years_ahead_critical": 428,
    "verses": [
     "Isa 61:1",
     "Isa 61:2"
@@ -2494,8 +2484,8 @@
    "written_traditional": -681,
    "written_critical": -540,
    "fulfilled": 30,
-   "years_ahead_traditional": 711,
-   "years_ahead_critical": 570,
+   "years_ahead_traditional": 710,
+   "years_ahead_critical": 569,
    "verses": [
     "Isa 42:1",
     "Isa 42:2",
@@ -2544,8 +2534,8 @@
    "written_traditional": -681,
    "written_critical": -700,
    "fulfilled": 30,
-   "years_ahead_traditional": 711,
-   "years_ahead_critical": 730,
+   "years_ahead_traditional": 710,
+   "years_ahead_critical": 729,
    "verses": [
     "Isa 35:5",
     "Isa 35:6",
@@ -2599,7 +2589,6 @@
    "existed_by": null,
    "years_ahead_at_least": null,
    "qumran": [
-    "1Q8",
     "1Qisaa"
    ],
    "manuscript_before": true
@@ -2610,8 +2599,8 @@
    "written_traditional": -681,
    "written_critical": -540,
    "fulfilled": 30,
-   "years_ahead_traditional": 711,
-   "years_ahead_critical": 570,
+   "years_ahead_traditional": 710,
+   "years_ahead_critical": 569,
    "verses": [
     "Isa 53:4"
    ],
@@ -2653,7 +2642,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 32,
-   "years_ahead_traditional": 482,
+   "years_ahead_traditional": 481,
    "years_ahead_critical": null,
    "verses": [
     "Ps 78:2"
@@ -2693,7 +2682,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 30,
-   "years_ahead_traditional": 480,
+   "years_ahead_traditional": 479,
    "years_ahead_critical": null,
    "verses": [
     "Ps 69:9"
@@ -2749,7 +2738,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 8:2"
@@ -2789,8 +2778,8 @@
    "written_traditional": -681,
    "written_critical": -540,
    "fulfilled": 33,
-   "years_ahead_traditional": 714,
-   "years_ahead_critical": 573,
+   "years_ahead_traditional": 713,
+   "years_ahead_critical": 572,
    "verses": [
     "Isa 53:1",
     "Isa 53:2",
@@ -2846,7 +2835,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 69:4",
@@ -2893,8 +2882,8 @@
    "written_traditional": -681,
    "written_critical": -700,
    "fulfilled": 33,
-   "years_ahead_traditional": 714,
-   "years_ahead_critical": 733,
+   "years_ahead_traditional": 713,
+   "years_ahead_critical": 732,
    "verses": [
     "Isa 8:14",
     "Isa 28:16"
@@ -2968,7 +2957,6 @@
     "1Q8",
     "1Qisaa",
     "4Q59",
-    "4Q60",
     "4Q65"
    ],
    "manuscript_before": true
@@ -2979,8 +2967,8 @@
    "written_traditional": -1406,
    "written_critical": -539,
    "fulfilled": 29,
-   "years_ahead_traditional": 1435,
-   "years_ahead_critical": 568,
+   "years_ahead_traditional": 1434,
+   "years_ahead_critical": 567,
    "verses": [
     "Deut 18:15",
     "Deut 18:16",
@@ -3071,7 +3059,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 41:9"
@@ -3132,7 +3120,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 69:25",
@@ -3171,9 +3159,7 @@
    },
    "existed_by": null,
    "years_ahead_at_least": null,
-   "qumran": [
-    "4Q87"
-   ],
+   "qumran": [],
    "manuscript_before": false
   },
   {
@@ -3182,7 +3168,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 55:12",
@@ -3224,7 +3210,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Zech 13:7"
@@ -3271,7 +3257,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 165,
+   "years_ahead_at_least": 164,
    "qumran": [],
    "manuscript_before": false
   },
@@ -3281,7 +3267,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 35:11",
@@ -3331,8 +3317,7 @@
    "existed_by": null,
    "years_ahead_at_least": null,
    "qumran": [
-    "4Q85",
-    "4Q98"
+    "4Q85"
    ],
    "manuscript_before": false
   },
@@ -3342,8 +3327,8 @@
    "written_traditional": -681,
    "written_critical": -540,
    "fulfilled": 33,
-   "years_ahead_traditional": 714,
-   "years_ahead_critical": 573,
+   "years_ahead_traditional": 713,
+   "years_ahead_critical": 572,
    "verses": [
     "Isa 50:6"
    ],
@@ -3418,7 +3403,7 @@
    "written_traditional": -700,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 733,
+   "years_ahead_traditional": 732,
    "years_ahead_critical": null,
    "verses": [
     "Mic 5:1"
@@ -3458,7 +3443,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 165,
+   "years_ahead_at_least": 164,
    "qumran": [],
    "manuscript_before": false
   },
@@ -3468,8 +3453,8 @@
    "written_traditional": -681,
    "written_critical": -540,
    "fulfilled": 33,
-   "years_ahead_traditional": 714,
-   "years_ahead_critical": 573,
+   "years_ahead_traditional": 713,
+   "years_ahead_critical": 572,
    "verses": [
     "Isa 53:7",
     "Isa 53:8"
@@ -3552,7 +3537,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 2:1",
@@ -3587,9 +3572,7 @@
    },
    "existed_by": null,
    "years_ahead_at_least": null,
-   "qumran": [
-    "11Q7"
-   ],
+   "qumran": [],
    "manuscript_before": false
   },
   {
@@ -3598,8 +3581,8 @@
    "written_traditional": -1406,
    "written_critical": -400,
    "fulfilled": 33,
-   "years_ahead_traditional": 1439,
-   "years_ahead_critical": 433,
+   "years_ahead_traditional": 1438,
+   "years_ahead_critical": 432,
    "verses": [
     "Num 21:8",
     "Num 21:9"
@@ -3651,8 +3634,8 @@
    "written_traditional": -1406,
    "written_critical": -400,
    "fulfilled": 33,
-   "years_ahead_traditional": 1439,
-   "years_ahead_critical": 433,
+   "years_ahead_traditional": 1438,
+   "years_ahead_critical": 432,
    "verses": [
     "Exod 12:3",
     "Exod 12:4",
@@ -3735,8 +3718,8 @@
    "written_traditional": -1406,
    "written_critical": -400,
    "fulfilled": 33,
-   "years_ahead_traditional": 1439,
-   "years_ahead_critical": 433,
+   "years_ahead_traditional": 1438,
+   "years_ahead_critical": 432,
    "verses": [
     "Gen 22:1",
     "Gen 22:2",
@@ -3811,7 +3794,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 22:7",
@@ -3880,7 +3863,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 22:1"
@@ -3930,7 +3913,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 69:21"
@@ -3989,7 +3972,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 31:5"
@@ -4028,7 +4011,7 @@
    "written_traditional": -750,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 783,
+   "years_ahead_traditional": 782,
    "years_ahead_critical": null,
    "verses": [
     "Amos 8:9"
@@ -4080,7 +4063,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 165,
+   "years_ahead_at_least": 164,
    "qumran": [],
    "manuscript_before": false
   },
@@ -4090,7 +4073,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 38:11"
@@ -4142,8 +4125,8 @@
    "written_traditional": -681,
    "written_critical": -540,
    "fulfilled": 33,
-   "years_ahead_traditional": 714,
-   "years_ahead_critical": 573,
+   "years_ahead_traditional": 713,
+   "years_ahead_critical": 572,
    "verses": [
     "Isa 53:12"
    ],
@@ -4197,7 +4180,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 22:30",
@@ -4237,7 +4220,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 118:22",
@@ -4323,7 +4306,7 @@
    "written_traditional": -400,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 433,
+   "years_ahead_traditional": 432,
    "years_ahead_critical": null,
    "verses": [
     "Jonah 1:17"
@@ -4378,10 +4361,9 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 165,
+   "years_ahead_at_least": 164,
    "qumran": [
-    "4Q76",
-    "4Q81"
+    "4Q76"
    ],
    "manuscript_before": false
   },
@@ -4391,7 +4373,7 @@
    "written_traditional": -715,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 748,
+   "years_ahead_traditional": 747,
    "years_ahead_critical": null,
    "verses": [
     "Hos 6:2"
@@ -4434,7 +4416,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 165,
+   "years_ahead_at_least": 164,
    "qumran": [],
    "manuscript_before": false
   },
@@ -4444,8 +4426,8 @@
    "written_traditional": -681,
    "written_critical": -540,
    "fulfilled": 33,
-   "years_ahead_traditional": 714,
-   "years_ahead_critical": 573,
+   "years_ahead_traditional": 713,
+   "years_ahead_critical": 572,
    "verses": [
     "Isa 53:10",
     "Isa 53:11"
@@ -4489,8 +4471,8 @@
    "written_traditional": -681,
    "written_critical": -540,
    "fulfilled": 33,
-   "years_ahead_traditional": 714,
-   "years_ahead_critical": 573,
+   "years_ahead_traditional": 713,
+   "years_ahead_critical": 572,
    "verses": [
     "Isa 55:3"
    ],
@@ -4532,7 +4514,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 68:18"
@@ -4574,7 +4556,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 110:1"
@@ -4703,7 +4685,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 8:4",
@@ -4770,7 +4752,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 22:22"
@@ -4863,7 +4845,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 24:7",
@@ -4905,7 +4887,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 118:17",
@@ -4932,7 +4914,7 @@
    "written_traditional": -550,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 583,
+   "years_ahead_traditional": 582,
    "years_ahead_critical": null,
    "verses": [
     "Jer 31:31",
@@ -5008,7 +4990,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 165,
+   "years_ahead_at_least": 164,
    "qumran": [],
    "manuscript_before": false
   },
@@ -5018,7 +5000,7 @@
    "written_traditional": -400,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 433,
+   "years_ahead_traditional": 432,
    "years_ahead_critical": null,
    "verses": [
     "Joel 2:28",
@@ -5063,7 +5045,7 @@
     ]
    },
    "existed_by": -132,
-   "years_ahead_at_least": 165,
+   "years_ahead_at_least": 164,
    "qumran": [],
    "manuscript_before": false
   },
@@ -5073,7 +5055,7 @@
    "written_traditional": -681,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 714,
+   "years_ahead_traditional": 713,
    "years_ahead_critical": null,
    "verses": [
     "Zech 14:8",
@@ -5235,8 +5217,8 @@
    "written_traditional": -681,
    "written_critical": -540,
    "fulfilled": 33,
-   "years_ahead_traditional": 714,
-   "years_ahead_critical": 573,
+   "years_ahead_traditional": 713,
+   "years_ahead_critical": 572,
    "verses": [
     "Isa 49:8"
    ],
@@ -5279,8 +5261,8 @@
    "written_traditional": -681,
    "written_critical": -700,
    "fulfilled": 33,
-   "years_ahead_traditional": 714,
-   "years_ahead_critical": 733,
+   "years_ahead_traditional": 713,
+   "years_ahead_critical": 732,
    "verses": [
     "Isa 11:10"
    ],
@@ -5370,7 +5352,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 110:4"
@@ -5522,7 +5504,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 80:17"
@@ -5580,9 +5562,7 @@
    "years_ahead_at_least": null,
    "qumran": [
     "1Qisaa",
-    "4Q55",
-    "4Q57",
-    "4Q60"
+    "4Q55"
    ],
    "manuscript_before": false
   },
@@ -5786,8 +5766,7 @@
    "years_ahead_at_least": null,
    "qumran": [
     "1Q2",
-    "4Q11",
-    "4Q22"
+    "4Q11"
    ],
    "manuscript_before": false
   },
@@ -5797,8 +5776,8 @@
    "written_traditional": -1406,
    "written_critical": -400,
    "fulfilled": 33,
-   "years_ahead_traditional": 1439,
-   "years_ahead_critical": 433,
+   "years_ahead_traditional": 1438,
+   "years_ahead_critical": 432,
    "verses": [
     "Lev 16:1",
     "Lev 16:2",
@@ -5994,7 +5973,7 @@
    "written_traditional": -450,
    "written_critical": null,
    "fulfilled": 33,
-   "years_ahead_traditional": 483,
+   "years_ahead_traditional": 482,
    "years_ahead_critical": null,
    "verses": [
     "Ps 118:26"
@@ -6173,9 +6152,7 @@
    },
    "existed_by": null,
    "years_ahead_at_least": null,
-   "qumran": [
-    "11Q7"
-   ],
+   "qumran": [],
    "manuscript_before": false
   },
   {
@@ -6438,7 +6415,6 @@
    "existed_by": null,
    "years_ahead_at_least": null,
    "qumran": [
-    "4Q42",
     "4Q72",
     "4Q78",
     "4Q82"

@@ -34,8 +34,16 @@ def test_a_copy_at_qumran_is_not_older_than_an_event_in_jesus_lifetime(rows):
 
 
 def test_critical_isaiah_dates_the_servant_by_its_chapter(rows):
+    """540 BC to AD 33 is 572 years: there is no year zero."""
     servant = rows["suffering-servant"]
-    assert servant["written_critical"] == -540 and servant["years_ahead_critical"] == 573
+    assert servant["written_critical"] == -540 and servant["years_ahead_critical"] == 572
+
+
+def test_a_restored_line_is_not_a_copy(rows):
+    """4Q82's line for Hosea 11:1 is an editor's restoration, every word in brackets, with only the
+    scribe's verse divider surviving; 4Q85 keeps no whole word of Psalm 16:10."""
+    assert rows["out-of-egypt"]["qumran"] == []
+    assert rows["not-abandoned"]["qumran"] == []
 
 
 def test_no_critical_date_is_claimed_where_the_table_records_none(rows):
@@ -51,7 +59,7 @@ def test_zechariah_is_bracketed_by_sirach(rows):
     translator wrote after 132 BC: on any dating the prophecy existed by then."""
     pierced = rows["pierced-one"]
     assert pierced["written_critical"] is None
-    assert pierced["existed_by"] == -132 and pierced["years_ahead_at_least"] == 165
+    assert pierced["existed_by"] == -132 and pierced["years_ahead_at_least"] == 164
 
 
 def test_an_undated_prophecy_claims_nothing(rows):

@@ -4622,10 +4622,10 @@
     "over_1000_years": 0.029
    },
    "quotation-crosslang": {
-    "links": 48,
+    "links": 59,
     "median_years": 770,
-    "over_500_years": 0.979,
-    "over_1000_years": 0.167
+    "over_500_years": 0.983,
+    "over_1000_years": 0.153
    },
    "quotation-greek": {
     "links": 5407,
@@ -9446,10 +9446,10 @@
     "over_1000_years": 0.0
    },
    "quotation-crosslang": {
-    "links": 48,
-    "median_years": 658,
-    "over_500_years": 0.958,
-    "over_1000_years": 0.062
+    "links": 59,
+    "median_years": 660,
+    "over_500_years": 0.949,
+    "over_1000_years": 0.051
    },
    "quotation-greek": {
     "links": 5407,
@@ -9855,25 +9855,17 @@
    "longest": 1048,
    "over_400_years": 0.96
   },
-  "qumran_attested": 0.529,
+  "qumran_attested": 0.473,
   "fulfilment_formula": {
    "quotations": 33,
-   "qumran_attested": 17,
+   "qumran_attested": 14,
    "in_great_isaiah_scroll": 9,
    "examples": [
     {
      "nt": "Matt 1:23",
      "ot": "Isa 7:14",
      "scrolls": [
-      "1Qisaa",
-      "4Q65"
-     ]
-    },
-    {
-     "nt": "Matt 2:15",
-     "ot": "Hos 11:1",
-     "scrolls": [
-      "4Q82"
+      "1Qisaa"
      ]
     },
     {
@@ -9935,27 +9927,13 @@
      ]
     },
     {
-     "nt": "John 15:25",
-     "ot": "Ps 109:3",
-     "scrolls": [
-      "11Q6"
-     ]
-    },
-    {
-     "nt": "John 17:12",
-     "ot": "Ps 109:8",
-     "scrolls": [
-      "4Q87"
-     ]
-    },
-    {
      "nt": "John 19:36",
      "ot": "Exod 12:46",
      "scrolls": [
-      "4Q11",
       "4Q128",
-      "4Q136",
-      "4Q14"
+      "4Q14",
+      "4Q140",
+      "4Q37"
      ]
     },
     {
@@ -9988,10 +9966,10 @@
      "nt": "Col 2:11",
      "ot": "Deut 10:16",
      "scrolls": [
-      "4Q128",
       "4Q138",
       "4Q150",
-      "4Q151"
+      "4Q151",
+      "8Q3"
      ]
     },
     {
@@ -10090,7 +10068,6 @@
     "years_ahead_traditional": 142,
     "years_ahead_critical": 161,
     "qumran": [
-     "1Q8",
      "1Qisaa",
      "4Q56"
     ],
@@ -10134,9 +10111,7 @@
     "written_critical": -164,
     "years_ahead_traditional": 220,
     "years_ahead_critical": -167,
-    "qumran": [
-     "6Q7"
-    ],
+    "qumran": [],
     "earliest_copy": "Greek translation, Sirach prologue",
     "years_ahead_of_copy": -199,
     "manuscript_before": false
@@ -10195,8 +10170,7 @@
     "years_ahead_traditional": 676,
     "years_ahead_critical": 695,
     "qumran": [
-     "1Qisaa",
-     "4Q65"
+     "1Qisaa"
     ],
     "earliest_copy": "Greek translation, Sirach prologue",
     "years_ahead_of_copy": 127,
@@ -10213,13 +10187,13 @@
     "fulfilled": 29,
     "written_traditional": -681,
     "written_critical": -700,
-    "years_ahead_traditional": 710,
-    "years_ahead_critical": 729,
+    "years_ahead_traditional": 709,
+    "years_ahead_critical": 728,
     "qumran": [
      "1Qisaa"
     ],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 161,
+    "years_ahead_of_copy": 160,
     "manuscript_before": true
    },
    {
@@ -10234,13 +10208,13 @@
     "fulfilled": 29,
     "written_traditional": -430,
     "written_critical": -430,
-    "years_ahead_traditional": 459,
-    "years_ahead_critical": 459,
+    "years_ahead_traditional": 458,
+    "years_ahead_critical": 458,
     "qumran": [
      "4Q76"
     ],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 161,
+    "years_ahead_of_copy": 160,
     "manuscript_before": false
    },
    {
@@ -10255,11 +10229,11 @@
     "fulfilled": 33,
     "written_traditional": -450,
     "written_critical": -450,
-    "years_ahead_traditional": 483,
-    "years_ahead_critical": 483,
+    "years_ahead_traditional": 482,
+    "years_ahead_critical": 482,
     "qumran": [],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 165,
+    "years_ahead_of_copy": 164,
     "manuscript_before": false
    },
    {
@@ -10274,11 +10248,11 @@
     "fulfilled": 33,
     "written_traditional": -450,
     "written_critical": -450,
-    "years_ahead_traditional": 483,
-    "years_ahead_critical": 483,
+    "years_ahead_traditional": 482,
+    "years_ahead_critical": 482,
     "qumran": [],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 165,
+    "years_ahead_of_copy": 164,
     "manuscript_before": false
    },
    {
@@ -10292,11 +10266,11 @@
     "fulfilled": 33,
     "written_traditional": -450,
     "written_critical": -450,
-    "years_ahead_traditional": 483,
-    "years_ahead_critical": 483,
+    "years_ahead_traditional": 482,
+    "years_ahead_critical": 482,
     "qumran": [],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 165,
+    "years_ahead_of_copy": 164,
     "manuscript_before": false
    },
    {
@@ -10310,13 +10284,13 @@
     "fulfilled": 33,
     "written_traditional": -450,
     "written_critical": -450,
-    "years_ahead_traditional": 483,
-    "years_ahead_critical": 483,
+    "years_ahead_traditional": 482,
+    "years_ahead_critical": 482,
     "qumran": [
      "4Q88"
     ],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 165,
+    "years_ahead_of_copy": 164,
     "manuscript_before": false
    },
    {
@@ -10330,20 +10304,17 @@
     "fulfilled": 33,
     "written_traditional": -1406,
     "written_critical": -450,
-    "years_ahead_traditional": 1439,
-    "years_ahead_critical": 483,
+    "years_ahead_traditional": 1438,
+    "years_ahead_critical": 482,
     "qumran": [
-     "4Q11",
      "4Q128",
-     "4Q136",
      "4Q14",
      "4Q140",
      "4Q37",
-     "4Q83",
      "8Q3"
     ],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 165,
+    "years_ahead_of_copy": 164,
     "manuscript_before": false
    },
    {
@@ -10357,13 +10328,13 @@
     "fulfilled": 33,
     "written_traditional": -450,
     "written_critical": -450,
-    "years_ahead_traditional": 483,
-    "years_ahead_critical": 483,
+    "years_ahead_traditional": 482,
+    "years_ahead_critical": 482,
     "qumran": [
      "4Q80"
     ],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 165,
+    "years_ahead_of_copy": 164,
     "manuscript_before": false
    },
    {
@@ -10377,8 +10348,8 @@
     "fulfilled": 33,
     "written_traditional": -681,
     "written_critical": -540,
-    "years_ahead_traditional": 714,
-    "years_ahead_critical": 573,
+    "years_ahead_traditional": 713,
+    "years_ahead_critical": 572,
     "qumran": [
      "1Q8",
      "1Qisaa",
@@ -10386,7 +10357,7 @@
      "4Q58"
     ],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 165,
+    "years_ahead_of_copy": 164,
     "manuscript_before": true
    },
    {
@@ -10400,13 +10371,11 @@
     "fulfilled": 33,
     "written_traditional": -450,
     "written_critical": -450,
-    "years_ahead_traditional": 483,
-    "years_ahead_critical": 483,
-    "qumran": [
-     "4Q85"
-    ],
+    "years_ahead_traditional": 482,
+    "years_ahead_critical": 482,
+    "qumran": [],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 165,
+    "years_ahead_of_copy": 164,
     "manuscript_before": false
    },
    {
@@ -10421,11 +10390,11 @@
     "fulfilled": 33,
     "written_traditional": -536,
     "written_critical": -164,
-    "years_ahead_traditional": 569,
-    "years_ahead_critical": 197,
+    "years_ahead_traditional": 568,
+    "years_ahead_critical": 196,
     "qumran": [],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 165,
+    "years_ahead_of_copy": 164,
     "manuscript_before": false
    },
    {
@@ -10439,11 +10408,11 @@
     "fulfilled": 70,
     "written_traditional": -536,
     "written_critical": -164,
-    "years_ahead_traditional": 606,
-    "years_ahead_critical": 234,
+    "years_ahead_traditional": 605,
+    "years_ahead_critical": 233,
     "qumran": [],
     "earliest_copy": "Greek translation, Sirach prologue",
-    "years_ahead_of_copy": 202,
+    "years_ahead_of_copy": 201,
     "manuscript_before": false
    },
    {

@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Hebrews 1:1-2"
 bible_references: ["Isaiah 46:9-10", "Isaiah 41:21-23", "Isaiah 45:21", "Isaiah 48:3-5", "Deuteronomy 18:21-22", "1 Peter 1:10-12", "2 Peter 1:19-21", "Luke 24:25-27", "Luke 24:44-45", "Genesis 2:9-10", "Genesis 3:17", "Genesis 3:22-24", "Revelation 20:2", "Revelation 22:1-3", "Isaiah 44:28", "Isaiah 45:1", "Ezra 1:1-4", "Jeremiah 25:11-12", "Jeremiah 26:18", "Micah 3:12", "Daniel 8:20-22", "Micah 5:2", "Matthew 2:1-6", "Isaiah 7:14", "Isaiah 9:1-2", "Isaiah 53:5", "Isaiah 53:9", "Isaiah 53:12", "Zechariah 9:9", "Zechariah 11:12-13", "Zechariah 12:10", "Psalm 22:16", "Psalm 22:18", "Psalm 16:10", "Psalm 34:20", "Exodus 12:46", "John 19:23-24", "John 19:36-37", "Malachi 3:1", "Daniel 9:25-26", "Luke 21:20-24", "Mark 13:2", "1 Kings 13:2", "2 Kings 23:15-16", "2 Timothy 3:16", "Jeremiah 43:8-13"]
 date_created: 2026-11-04
-date_modified: 2026-11-27
+date_modified: 2026-11-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -336,17 +336,17 @@ records it was finished after Josiah lived, so it cannot count here.
 |---|---|---|---|---|---|
 | Micah 5:2 | Bethlehem | c. 5 BC | c. 700 BC | 695 | Greek, by 132 BC; Qumran |
 | Isaiah 7:14 † | a virgin's son | c. 5 BC | c. 700 BC | 695 | Great Isaiah Scroll, 125 BC |
-| Isaiah 9:1-2 | Galilee | AD 29 | c. 700 BC | 729 | Great Isaiah Scroll, 125 BC |
-| Malachi 3:1 | the forerunner | AD 29 | c. 430 BC | 459 | Greek, by 132 BC; Qumran |
-| Zechariah 9:9 | the king on a donkey | AD 33 | c. 450 BC | 483 | Greek, by 132 BC |
-| Zechariah 11:12-13 | thirty pieces of silver | AD 33 | c. 450 BC | 483 | Greek, by 132 BC |
-| Psalm 22:18 | lots for his clothing | AD 33 | collection closed c. 450 BC | 483 | Greek, by 132 BC |
-| Psalm 22:16 † | hands and feet | AD 33 | the same | 483 | Greek, by 132 BC; Qumran |
-| Exodus 12:46; Psalm 34:20 | no bone broken | AD 33 | the same | 483 | Greek, by 132 BC; Qumran |
-| Zechariah 12:10 | the pierced one | AD 33 | c. 450 BC | 483 | Greek, by 132 BC; Qumran |
-| Isaiah 53:5, 9, 12 | the servant pierced, with the rich in death | AD 33 | c. 540 BC | 573 | Great Isaiah Scroll, 125 BC |
-| Psalm 16:10 | not abandoned to the grave | AD 33 | the psalter's c. 450 BC | 483 | Greek, by 132 BC; Qumran |
-| Daniel 9:25-26 † | the anointed one cut off | AD 33 | 164 BC | 197 | Greek, by 132 BC |
+| Isaiah 9:1-2 | Galilee | AD 29 | c. 700 BC | 728 | Great Isaiah Scroll, 125 BC |
+| Malachi 3:1 | the forerunner | AD 29 | c. 430 BC | 458 | Greek, by 132 BC; Qumran |
+| Zechariah 9:9 | the king on a donkey | AD 33 | c. 450 BC | 482 | Greek, by 132 BC |
+| Zechariah 11:12-13 | thirty pieces of silver | AD 33 | c. 450 BC | 482 | Greek, by 132 BC |
+| Psalm 22:18 | lots for his clothing | AD 33 | collection closed c. 450 BC | 482 | Greek, by 132 BC |
+| Psalm 22:16 † | hands and feet | AD 33 | the same | 482 | Greek, by 132 BC; Qumran |
+| Exodus 12:46; Psalm 34:20 | no bone broken | AD 33 | the same | 482 | Greek, by 132 BC; Qumran |
+| Zechariah 12:10 | the pierced one | AD 33 | c. 450 BC | 482 | Greek, by 132 BC; Qumran |
+| Isaiah 53:5, 9, 12 | the servant pierced, with the rich in death | AD 33 | c. 540 BC | 572 | Great Isaiah Scroll, 125 BC |
+| Psalm 16:10 | not abandoned to the grave | AD 33 | the psalter's c. 450 BC | 482 | Greek, by 132 BC |
+| Daniel 9:25-26 † | the anointed one cut off | AD 33 | 164 BC | 196 | Greek, by 132 BC |
 
 † contested, as explained below. The years ahead are measured from the latest critical date, or from
 the latest date of the book where critics give none.
@@ -400,7 +400,7 @@ leaves room to date this oracle later.
 ### After the Old Testament closed
 
 Daniel 9:26 says that after the anointed one is cut off, "the people of the prince who is to come
-shall destroy the city and the sanctuary" (ESV). On the critics' own date of 164 BC that is 234
+shall destroy the city and the sanctuary" (ESV). On the critics' own date of 164 BC that is 233
 years before Rome burned the temple in AD 70. The reading is contested: critics take the verse of
 the high priest Onias III, deposed in 175 BC and killed about 171 BC (2 Maccabees 4:7-10, 33-34), and of
 Antiochus IV. Antiochus desecrated the temple;
@@ -443,7 +443,7 @@ that no one could say "My idol did them".
 - **No number measures a miracle.** This study gives no odds. Probabilities multiplied across
   prophecies assume the prophecies are independent and that only the fulfilled ones were counted,
   and neither can be shown. [How unlikely by chance?](../jesus/foretold-long-ago.md#how-unlikely-by-chance)
-  lets you set the chance yourself and names both assumptions. What can be measured is structure and dates, and the inference to an Author is a
+  lets you set the chance yourself and names both, and a third. What can be measured is structure and dates, and the inference to an Author is a
   conclusion from them, which Part five draws.
 
 ## Part five: what literary criticism declares
