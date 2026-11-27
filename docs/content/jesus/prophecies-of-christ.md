@@ -5,7 +5,7 @@ description: "Every Old Testament prophecy the New Testament reads of Jesus, and
 tags: ["messianic-prophecy", "prophecy-fulfilled", "isaiah", "luke", "dead-sea-scrolls"]
 draft: false
 primary_passage: "Isaiah 45:21; Luke 24:44"
-bible_references: ["Isaiah 45:21", "Isaiah 41:21-23", "Isaiah 43:10", "Isaiah 46:9-10", "Isaiah 48:3-5", "John 13:19", "Luke 24:44", "1 Peter 1:10-11"]
+bible_references: ["Acts 18:28", "Acts 17:2-3", "Isaiah 45:21", "Isaiah 41:21-23", "Isaiah 43:10", "Isaiah 46:9-10", "Isaiah 48:3-5", "John 13:19", "Luke 24:44", "1 Peter 1:10-11"]
 series:
   cut: topic
   sessions:
@@ -24,16 +24,16 @@ series:
     - study: jesus/the-bright-morning-star.md
       why: "Balaam's star out of Jacob (Numbers 24:17), and the morning star of Revelation 22:16."
 date_created: 2026-11-26
-date_modified: 2026-11-26
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
 
 # The Prophecies of Christ
 
-**In one sentence:** God staked His name on telling what was still to come (Isaiah 45:21; 46:9-10),
-and in His Son Jesus He kept His word: this page sets out every Old Testament prophecy the New
-Testament reads of Him, and those tradition reads of Him, so you can test each one and see that God does what He says.
+**In one sentence:** More than a hundred prophecies, written centuries before Jesus was born, have
+come to pass in Him, and that alone proves He is the Christ: Apollos was "proving from the
+Scriptures that Jesus is the Christ" (Acts 18:28, BSB).
 
 ## God's own argument
 
