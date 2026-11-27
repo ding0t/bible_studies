@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Numbers 24:17; Revelation 22:16"
 bible_references: ["Genesis 1:14-18", "Genesis 15:5-6", "Genesis 22:17", "Genesis 37:9-10", "Deuteronomy 1:10", "Deuteronomy 4:19", "Judges 5:20", "2 Kings 23:5", "Nehemiah 9:23", "Job 9:7-9", "Job 25:5-6", "Job 38:4-7", "Psalm 8:3-4", "Psalm 136:9", "Psalm 147:4-5", "Psalm 148:3", "Isaiah 13:9-10", "Isaiah 14:12-15", "Isaiah 40:26", "Isaiah 47:13-14", "Isaiah 60:1-6", "Jeremiah 8:2", "Jeremiah 31:35-36", "Daniel 8:10", "Daniel 8:24", "Daniel 12:3", "Joel 2:10", "Joel 3:15-16", "Amos 5:8", "Amos 5:25-27", "Obadiah 1:3-4", "Micah 5:2", "Matthew 2:1-12", "Matthew 24:29-30", "Mark 13:24-26", "Luke 1:78-79", "Luke 21:25-27", "Acts 7:42-43", "1 Corinthians 15:41-42", "Hebrews 11:12", "2 Peter 1:16-19", "Jude 1:13", "Revelation 1:16", "Revelation 1:20", "Revelation 2:26-28", "Revelation 6:12-14", "Revelation 8:12", "Revelation 9:1", "Revelation 12:1-9", "Revelation 21:23", "Revelation 22:5", "Revelation 22:20", "Psalm 31:15", "Romans 4:16-18", "Galatians 3:8", "Galatians 3:14", "Luke 1:32", "Colossians 1:16", "Hebrews 2:6-9", "Daniel 8:11", "Revelation 12:5", "Revelation 19:15", "1 John 5:5", "Numbers 24:19", "Matthew 22:41-45", "Philippians 2:6-9", "Jeremiah 23:5", "Zechariah 3:8", "Zechariah 6:12"]
 date_created: 2026-11-08
-date_modified: 2026-11-15
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -401,7 +401,7 @@ lists the words for "star"; it leaves out *heilel* (Isaiah 14:12) and the conste
   1:20, 2:26-28; *NIV Cultural Backgrounds Study Bible* (Zondervan), note on Revelation 2:28; *NIV
   Biblical Theology Study Bible* (Zondervan), notes on Matthew 2:2 and
   Revelation 1:20, 2:28.
-- **On this site.** [The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md)
+- **On this site.** [The Prophecies of Christ](prophecies-of-christ.md) (every Old Testament prophecy the New Testament reads of Jesus, in one filterable ledger; this study is one week of its series); [The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md)
   (Balaam's oracle and its reading at Qumran); [The Names of Jesus](names-of-jesus.md) (the star out
   of Jacob); [Pride](../sin/pride.md) (Isaiah 14); [The Nephilim](../spiritual-beings/nephilim.md)
   (the sons of God in Job); [The Tribulation](../last-things/tribulation.md) (Revelation 12; Matthew

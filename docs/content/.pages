@@ -37,6 +37,9 @@ nav:
   - Explore:
     - references.md
     - timeline.md
+    # Lives in jesus/ (its subject); listed here too because its filter makes it a lookup tool.
+    # A link entry keeps one URL for the page.
+    - Prophecies of Christ: /jesus/prophecies-of-christ/
   - Learn:
     - hebrew
     - greek

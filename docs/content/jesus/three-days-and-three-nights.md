@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Matthew 12:40"
 bible_references: ["Matthew 12:40", "Jonah 1:17", "Luke 24:21", "Mark 15:42", "John 19:14", "John 19:42", "Matthew 28:1", "John 20:1", "Mark 15:42-46", "Luke 23:50-56", "John 19:38-42", "Jonah 2:2-6", "Matthew 12:39-41", "Leviticus 23:5-11", "1 Corinthians 5:7", "1 Corinthians 15:20-23", "Psalm 16:10", "Acts 2:27", "Acts 2:29-31", "Luke 23:43", "Luke 16:19-31", "Genesis 37:35", "2 Corinthians 12:2-4", "Revelation 2:7", "John 20:17", "Matthew 28:9", "1 Peter 3:18-19", "Hebrews 2:14-15", "Revelation 1:18", "Revelation 20:13-14", "1 Samuel 28:13-19"]
 date_created: 2026-09-06
-date_modified: 2026-11-23
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -447,6 +447,8 @@ with this study's conclusion as well as where they support it.
 - **CSB Ancient Faith Study Bible** (Holman) — translator footnote at Luke 16:22.
 
 **Related on this site.**
+- [The Prophecies of Christ](prophecies-of-christ.md) — every Old Testament prophecy the New
+  Testament reads of Jesus, in one filterable ledger; this study is one week of its series.
 
 - [Friday, 3 April AD 33: Dating the Cross](../chronology/dating-the-cross.md) — the weekday and
   the year: Mark 15:42 and Luke 24:21 for a Friday, and AD 33 over AD 30.

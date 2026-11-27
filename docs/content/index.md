@@ -4,7 +4,7 @@ category: "other"
 description: "Personal Bible study notes: the Old and New Testaments read in context, with word studies in the original languages and every claim traceable to a source."
 draft: false
 date_created: 2026-07-10
-date_modified: 2026-10-22
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -168,7 +168,7 @@ Faith in Christ rests on evidence that can be examined. Here is what convinces m
 
 ## Interactive tools
 
-Three of these studies are charts you can explore.
+Four tools you can explore: three charts, and a ledger you can filter.
 
 <div class="grid cards" markdown>
 
@@ -200,6 +200,16 @@ Three of these studies are charts you can explore.
     calendars, family, the events each took part in, and who was alive at the same time as whom.
 
     [:octicons-arrow-right-24: Open the family tree](timeline/#view=family)
+
+-   :material-filter-variant:{ .lg .middle } __Prophecies of Christ__
+
+    ---
+
+    Every Old Testament prophecy the New Testament reads of Jesus, and those tradition reads of Him,
+    with where each came to pass. Filter them by subject, by who brought them about, and by whether
+    Israel read them of the Messiah before Jesus came.
+
+    [:octicons-arrow-right-24: Browse the prophecies](jesus/prophecies-of-christ.md)
 
 </div>
 

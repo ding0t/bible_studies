@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Zechariah 9:9-10; Matthew 21:1-11"
 bible_references: ["Genesis 12:16", "Genesis 22:3-5", "Genesis 32:15", "Genesis 42:26-27", "Genesis 45:23", "Genesis 49:8-12", "Exodus 4:20", "Exodus 13:13", "Exodus 20:17", "Exodus 23:4-5", "Exodus 23:12", "Exodus 34:20", "Numbers 16:15", "Numbers 19:2", "Numbers 22:21-33", "Deuteronomy 5:14", "Deuteronomy 17:16", "Deuteronomy 21:3", "Deuteronomy 22:4", "Deuteronomy 22:10", "Judges 5:10", "Judges 10:4", "Judges 12:14", "Judges 15:15-16", "1 Samuel 6:7", "1 Samuel 9:3-20", "1 Samuel 12:3", "1 Samuel 25:18-20", "2 Samuel 15:30", "2 Samuel 16:1-2", "1 Kings 1:33-38", "1 Kings 13:24-28", "2 Kings 4:22-24", "Job 1:3", "Job 42:12", "Psalm 20:7", "Psalm 118:25-26", "Proverbs 26:3", "Isaiah 1:3", "Isaiah 31:1", "Isaiah 62:11", "Zechariah 14:4", "Mark 11:1-10", "Luke 2:7-16", "Luke 13:15-16", "Luke 19:29-41", "John 12:12-16", "Matthew 2:13-15", "Matthew 11:29", "Acts 1:11-12", "Philippians 2:8", "1 Peter 1:18-19", "2 Peter 2:16", "Revelation 19:11", "Genesis 22:13", "Numbers 18:15-17", "Mark 11:3-7", "Matthew 21:10-11", "Zechariah 1:1", "Zechariah 9:1", "Zechariah 9:8", "Zechariah 9:11", "Colossians 1:20", "1 Samuel 9:1"]
 date_created: 2026-11-08
-date_modified: 2026-11-09
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -355,7 +355,7 @@ Lord (Luke 2:15-20), while Jerusalem "did not recognize the time of your visitat
 - **Jewish sources.** *Genesis Rabbah* 55:8, Sefaria Community Translation (CC0); *Mishnah
   Bekhorot* 1:4, Mishnah Yomit by Dr. Joshua Kulp (CC-BY). Both fetched with
   `references/build/sefaria.py`.
-- **On this site.** [The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md)
+- **On this site.** [The Prophecies of Christ](prophecies-of-christ.md) (every Old Testament prophecy the New Testament reads of Jesus, in one filterable ledger; this study is one week of its series); [The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md)
   (Balaam's she-donkey); [Humility](../christian-life/humility.md) (the humble King);
   [Prophecy: Events and Times](../last-things/prophecy-events-times.md) (Daniel 9 and the entry);
   [What Literary Criticism Declares](../scripture/what-literary-criticism-declares.md) (the date of

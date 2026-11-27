@@ -8,7 +8,7 @@ draft: false
 primary_passage: "Mark 15:23; John 19:28-30"
 bible_references: ["John 2:1-11", "John 2:17", "Mark 10:38-39", "Isaiah 51:17-22", "Jeremiah 25:15", "Psalm 75:8", "Mark 14:25", "Mark 14:36", "Luke 22:42", "John 18:11", "John 12:27", "Matthew 27:34", "Proverbs 31:6", "Mark 15:33-37", "Matthew 27:48-49", "Luke 23:36", "John 19:25-27", "Psalm 69:21", "Psalm 22:15", "Ruth 2:14", "John 4:7", "John 7:37", "John 10:18", "Revelation 14:10", "Psalm 116:13", "1 Corinthians 10:16", "Revelation 19:9", "Hebrews 5:7", "Isaiah 53:6", "Romans 3:25", "John 12:23", "Exodus 12:22", "Luke 23:27", "Luke 23:46", "Matthew 27:29-30", "Matthew 26:29", "Mark 15:25"]
 date_created: 2026-10-31
-date_modified: 2026-11-06
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -489,6 +489,7 @@ numbering). See [Patristic Sources](../resources/patristic-sources.md).
 Biblical Theology Study Bible* (Zondervan); *NIV Cultural Backgrounds Study Bible* (Keener and
 Walton, eds.).
 
-**Related studies on this site.** ["I Will Not Drink Again"](../feasts/last-supper-four-cups.md);
+**Related studies on this site.** [The Prophecies of Christ](prophecies-of-christ.md) (the
+ledger of every prophecy, and the series this study belongs to); ["I Will Not Drink Again"](../feasts/last-supper-four-cups.md);
 [The Lord's Supper](../feasts/lords-supper.md); [Passover](../feasts/passover.md);
 [The Bride of Christ](../israel-and-church/bride-of-christ.md).
