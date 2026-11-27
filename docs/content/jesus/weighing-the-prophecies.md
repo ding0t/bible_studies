@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Hosea 11:1; Matthew 2:15; Hebrews 9:8-9; Hebrews 11:19"
 bible_references: ["Hosea 11:1-11", "Hosea 3:5", "Matthew 2:13-15", "Exodus 4:22-23", "Numbers 23:22", "Numbers 24:5-8", "Matthew 3:17", "Matthew 4:1-10", "Deuteronomy 8:2-3", "Deuteronomy 6:13-16", "Hebrews 9:8-9", "Hebrews 10:19-20", "Hebrews 11:17-19", "1 Peter 1:10-12", "1 Corinthians 10:1-11", "1 Corinthians 5:7", "Romans 5:14", "Hebrews 8:5", "John 1:51", "Matthew 1:22-23", "Luke 23:46", "Psalm 31:5", "Acts 2:25-31", "Hebrews 10:5-7", "Hebrews 2:11-12", "Psalm 40:6-8", "Psalm 22:22", "Psalm 16:10", "Luke 24:44", "John 5:39-40", "2 Peter 1:21", "Galatians 4:4-7", "John 19:37", "Zechariah 12:10", "Matthew 27:10", "Zechariah 11:13", "Matthew 8:17", "Isaiah 53:4"]
 date_created: 2026-11-26
-date_modified: 2026-11-27
+date_modified: 2026-11-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -285,8 +285,7 @@ Every card in the ledger carries the same checks. Each answers a question a doub
 
 ### Why no card carries odds
 
-No card puts odds on its prophecy. A probability for each one would be a guess, and one bad guess
-would discredit the true fulfilments beside it. Each measure above can be checked against a text or
+No card puts odds on its prophecy. Each measure above can be checked against a text or
 a manuscript. In [How unlikely by chance?](foretold-long-ago.md#how-unlikely-by-chance) you set the
 chance yourself, and the floor counts only the prophecies that pass every check.
 
@@ -300,7 +299,7 @@ mark there is a filter you can choose.
 
 Jesus named three parts of Scripture: "Everything must be fulfilled that is written about Me in the
 Law of Moses, the Prophets, and the Psalms" (Luke 24:44, BSB). [Foretold Long
-Ago](foretold-long-ago.md#the-law-the-prophets-and-the-psalms) follows that method from Jesus into
+Ago](foretold-long-ago.md#proving-from-the-scriptures) follows that method from Jesus into
 the apostles' preaching. The ledger shows how much the third part carries.
 
 The Psalms supply 78 of the New Testament's 241 uses, and Isaiah 65. Thirty-eight of the Psalms'
@@ -409,8 +408,6 @@ have life" (John 5:39-40, BSB). Weigh the prophecies, and then come to the One t
    this week?
 
 ## Annex: the ledger in numbers {#the-ledger-in-numbers}
-
-<!-- prophecies-of-christ: dated -->
 
 <!-- prophecies-of-christ: measures -->
 

@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 12:10
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 12:10
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 12:10
 - [The Angel of the LORD: God the Son Before Bethlehem](../../jesus/the-angel-of-the-lord.md) — 12:8

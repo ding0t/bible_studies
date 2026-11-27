@@ -13,12 +13,12 @@ status: published
 target_path: "docs/content/jesus/foretold-long-ago.md"
 ledger_page: "docs/content/prophecies-of-christ.md"
 next: >-
-  Read pass done 2026-11-27 in a fresh context: no change needed (26 sections, median 187 words, none
-  over 400; verify clean). Author's prose findings: no "this shows that God" line in "Former things,
-  new things" or "The prophet's view and history's view"; "Showing from the Scriptures" and "The
-  prophet's view" open on a quotation before their topic sentence; "The Law, the Prophets and the
-  Psalms" could split at the witnesses paragraph if it opened by naming Jesus. Not yet through
-  review-bible-study.
+  Reviewed and read 2026-11-27 (subagents, report only; findings re-checked before applying; see
+  review_2026_11_27). Thesis line: the author chose "eighty of them on the New Testament's own word"
+  (102 fulfilled or partly, 80 in tiers 1-2), 2026-11-28. Tooling: export_prophecies.py years_ahead
+  skips year zero across BC/AD (one year high on cards, the courtroom plate and What Literary
+  Criticism Declares' table); qumran_index counts reconstructed words (the dated sentence's 67
+  should be 66).
 
 primary_passage: "Isaiah 45:21; Luke 24:44"
 supporting_passages: ["Isaiah 41:21-29", "Isaiah 42:1-9", "Isaiah 43:8-13", "Isaiah 44:6-8", "Isaiah 44:24-28", "Isaiah 45:18-25", "Isaiah 46:8-11", "Isaiah 48:3-12", "Deuteronomy 18:21-22", "John 13:18-19", "John 14:29", "John 8:28", "Luke 24:25-27", "Luke 24:44-48", "Luke 16:29-31", "Acts 17:2-3", "Acts 17:11", "Acts 18:24-28", "Acts 1:8", "1 Peter 1:10-12", "2 Peter 1:16-21", "Matthew 2:4-6", "Matthew 12:17-18", "Matthew 16:1-4", "Romans 16:25-26", "1 Corinthians 15:3-4", "Acts 17:31", "Philippians 2:9-11"]
@@ -202,3 +202,23 @@ innovations_2026_11_26:
     - "5. which-text.svg: Hebrew, Septuagint, both or neither, by New Testament writer"
     - "6. the chance floor (hooks/prophecies.py floor_moments, UNSEEN with reasons): tier 1, fulfilled at least in part, dated, brought about by God, His opponents or the unaware, seen by witnesses; one trial per moment; the reader sets one chance in k for each"
     - "dates: seven more entries dated from the New Testament's own words (elijah-before-the-day, let-another-take-his-office, blessed-is-he-who-comes, fruit-of-davids-body, all-things-under-his-feet, the-day-of-atonement, gold-and-frankincense); left undated, as about who He is or as allusions that fix no moment: the nature entries, lion-of-judah, star-out-of-jacob, the-branch, son-of-david-throne, seed-of-the-woman, his-name-wonderful, firstborn-highest-of-kings, key-of-david, david-my-servant-shepherd, jacobs-ladder, the-rock-was-christ, bread-from-heaven, stranger-to-my-brothers, i-and-the-children, booth-of-david-rebuilt (no event for the Jerusalem council in the chronology)"
+
+review_2026_11_27:
+  review: >-
+    Applied: Acts 13:47 quotes the end of Isaiah 49:6, not the whole verse; the floor's rule now names
+    types (floor_moments admits tier 1 types: bronze serpent, Passover lamb, Jonah); 573 -> 572 (no
+    year zero); 'latest date any critic gives' -> 'in the critics' range, 540 BC'; Ezra 1:1 names
+    Jeremiah's word, 2 Chronicles 36:21 the seventy years; Brenton's comma at Isaiah 43:10; the
+    independence example moved to the bones and the spear (John 19:32-34); Zechariah 12:10 / John
+    19:37 cited; 'righteous judge of His own case' reworded; Luke 16:31 'put the Scriptures ahead of a
+    sign'; References' scroll entry; Strong's for nagad, alethe, dikaios; bible_references filled.
+    The author's three prose findings: 'this shows that God' lines added to Former things and the
+    prophet's view; Showing from the Scriptures and the prophet's view open on a topic sentence; the
+    Law, the Prophets and the Psalms opens on what Jesus taught. Style: four clipped sentences
+    expanded; Acts 18:28's fourth quotation cut from the Do.
+  read: >-
+    Applied: the series section moved after the questions, outline updated; 'The resurrection: the
+    proof inside the prophecies' split out; two self-references reworded. In Weighing the Prophecies:
+    the shared odds sentence and the shared dated marker kept here and cut there; its Luke 24:44 link
+    repointed to #proving-from-the-scriptures. Not applied: the διανοίγω overlap with Known Before.
+  verified_after: "npm run validate clean for both pages; mkdocs build --strict passes; every anchor resolves."

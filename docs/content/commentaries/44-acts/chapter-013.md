@@ -14,6 +14,7 @@ draft: false
 
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 13:27 (primary passage)
 - [Fasting](../../christian-life/fasting.md) — 13:1-3
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 13:47
 - [Four Hundred and Eighty Years: From the Exodus to Solomon's Temple](../../chronology/four-hundred-and-eighty-years.md) — 13:19-21
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 13:47
 - [Sin and Sorcery](../../sin/sorcery.md) — 13:4-12

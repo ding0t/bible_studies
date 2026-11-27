@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 36:21-23
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 36:21-22
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 36:22-23
 <!-- commentary-index:auto-end -->

@@ -18,6 +18,7 @@ draft: false
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 19:23-24
 - [Faith](../../salvation/faith.md) — 19:30
 - [Firstfruits: The Sheaf Waved on the Third Day](../../feasts/firstfruits.md) — 19:31
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 19:23
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 19:14
 - [Israel's Regathering and Refining](../../israel-and-church/israels-regathering-and-refining.md) — 19:35
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 19:25

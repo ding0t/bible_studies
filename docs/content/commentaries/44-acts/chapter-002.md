@@ -14,6 +14,7 @@ draft: false
 
 - [Weeks: Fifty Days to Pentecost](../../feasts/weeks.md) — 2:1-41 (primary passage)
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 2:17
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 2:31
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 2:36-38
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 2:20
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 2:30-36
