@@ -16,14 +16,14 @@ next: >-
   Published 2026-11-27 as a full study. Next: read-bible-study in a fresh session; the human-review
   tells to read hardest are theology stated outright in "Former things, new things" and "The prophet's
   view and history's view" (no "this shows that God" line), then register in the third-assumption
-  paragraph. Open offer: What Literary Criticism Declares' "neither holds" line against the floor's
-  three assumptions (author's call).
+  paragraph. What Literary Criticism Declares' "neither holds" line against the floor's
+  three assumptions: resolved 2026-11-27, both pages edited.
 
 primary_passage: "Isaiah 45:21; Luke 24:44"
 supporting_passages: ["Isaiah 41:21-29", "Isaiah 42:1-9", "Isaiah 43:8-13", "Isaiah 44:6-8", "Isaiah 44:24-28", "Isaiah 45:18-25", "Isaiah 46:8-11", "Isaiah 48:3-12", "Deuteronomy 18:21-22", "John 13:18-19", "John 14:29", "John 8:28", "Luke 24:25-27", "Luke 24:44-48", "Luke 16:29-31", "Acts 17:2-3", "Acts 17:11", "Acts 18:24-28", "Acts 1:8", "1 Peter 1:10-12", "2 Peter 1:16-21", "Matthew 2:4-6", "Matthew 12:17-18", "Matthew 16:1-4", "Romans 16:25-26", "1 Corinthians 15:3-4", "Acts 17:31", "Philippians 2:9-11"]
 genre: [topical, prophets]
 sibling_studies:
-  - {slug: scripture/what-literary-criticism-declares, role: cited, use: link, note: "Isaiah 41-48 as God's test, nagad (32x in Isaiah), Deuteronomy 18:22, the three-date test, 1 Peter 1:10-11. Link for nagad and the dated test; do not repeat. TENSION: its 'Where this argument is weak' says multiplied probabilities assume independence and 'that only fulfilled ones were counted, and neither holds'; this study's floor names independence but not selection. Raised with the author 2026-11-27."}
+  - {slug: scripture/what-literary-criticism-declares, role: cited, use: link, note: "Isaiah 41-48 as God's test, nagad (32x in Isaiah), Deuteronomy 18:22, the three-date test, 1 Peter 1:10-11. Link for nagad and the dated test; do not repeat. RESOLVED 2026-11-27 (author approved both edits): its 'neither holds' became 'neither can be shown', linking #how-unlikely-by-chance; this study's assumption 1 now states the dependence (John 19:23) and the floor line reads 'Within those three assumptions'."}
   - {slug: last-things/prophecy-essentials, role: primary, use: link, note: "Luke 24:27 as the test Jesus pointed to; birthplace, passion, Daniel 9 checked. Link once for the worked examples."}
   - {slug: jesus/known-before-seen-after, role: primary, use: link, note: "week 2. Owns Luke 24's dianoigo x3, Matthew 2:4-6, Acts 17:3, which prophecies were read before. This study adds Acts 17:3 as Paul doing what Jesus did, and hands the selection question to week 2 in one sentence."}
   - {slug: jesus/the-bright-morning-star, role: cited, use: link, note: "2 Peter 1:19 the lamp and the morning star"}

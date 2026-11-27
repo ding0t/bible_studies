@@ -357,7 +357,10 @@ the third hour are one trial and not three. Then give each moment a chance, as g
 
 The figure assumes three things, and says so.
 
-1. **The moments are independent.** A critic may say one led to another.
+1. **The moments are independent.** In part they depend on each other: a crucifixion put the
+   condemned man's clothes in the soldiers' hands (John 19:23), so the lot cast for His garment
+   followed from the cross. Counting each moment once removes part of that dependence, and a critic
+   may press the rest.
 2. **The record of each fulfilment is the Gospels'.** His opponents' own part supports that record:
    they had no reason to fulfil the texts of a Messiah they rejected.
 3. **The texts were chosen after the events.** The apostles cited the prophecies that fit, and a
@@ -368,7 +371,8 @@ The figure assumes three things, and says so.
    so. And each moment counted is a particular a chance match must hit: a town, a price, a lot cast
    for a garment.
 
-The figure is a floor, set by you: every choice above makes the number smaller.
+Within those three assumptions, the figure is a floor, set by you: every rule above makes the
+number smaller.
 
 This shows that God does what He said in Isaiah 46:10. He declared the end from the beginning, and
 He declared His Son. The same God says to you, "Turn to Me and be saved" (Isaiah 45:22, BSB), and

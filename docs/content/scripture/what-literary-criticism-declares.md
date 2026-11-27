@@ -441,8 +441,9 @@ that no one could say "My idol did them".
   where He was born, the priests set the price of thirty pieces of silver, and Roman soldiers cast
   lots for His clothes and left His legs unbroken (John 19:23-24, 32-36).
 - **No number measures a miracle.** This study gives no odds. Probabilities multiplied across
-  prophecies assume the prophecies are independent and that only fulfilled ones were counted, and
-  neither holds. What can be measured is structure and dates, and the inference to an Author is a
+  prophecies assume the prophecies are independent and that only the fulfilled ones were counted,
+  and neither can be shown. [How unlikely by chance?](../jesus/foretold-long-ago.md#how-unlikely-by-chance)
+  lets you set the chance yourself and names both assumptions. What can be measured is structure and dates, and the inference to an Author is a
   conclusion from them, which Part five draws.
 
 ## Part five: what literary criticism declares
