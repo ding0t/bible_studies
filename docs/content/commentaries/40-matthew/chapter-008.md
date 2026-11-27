@@ -17,4 +17,5 @@ draft: false
 - [Faith](../../salvation/faith.md) — 8:5-13
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 8:19
 - [The Woman Who Touched the Fringe: Uncleanness Running Backwards](../../jesus/woman-with-the-issue-of-blood.md) — 8:17
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 8:17
 <!-- commentary-index:auto-end -->

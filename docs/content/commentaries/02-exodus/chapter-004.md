@@ -15,4 +15,5 @@ draft: false
 - ["You Are Gods": Psalm 82, John 10 and the Authority God Lends](../../jesus/you-are-gods.md) — 4:16
 - [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 4:20
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 4:16
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 4:22-23
 <!-- commentary-index:auto-end -->

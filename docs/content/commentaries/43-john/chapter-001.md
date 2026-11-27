@@ -43,4 +43,5 @@ draft: false
 - [The Woman at the Well](../../jesus/woman-at-well.md) — 1:39
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 1:18
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 1:1-3
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 1:51
 <!-- commentary-index:auto-end -->

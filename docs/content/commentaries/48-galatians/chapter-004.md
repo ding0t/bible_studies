@@ -25,5 +25,6 @@ draft: false
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 4:8
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 4:9
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:7
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 4:4-7
 - [Why Not 4004 BC? Where Ussher's Forty-Six Years Came From](../../chronology/why-not-4004-bc.md) — 4:4
 <!-- commentary-index:auto-end -->

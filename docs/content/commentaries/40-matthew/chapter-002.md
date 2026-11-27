@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 2:15 (primary passage)
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 2:1-6
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 2:1
 - [Dreams and Visions: Godly and Otherwise](../../holy-spirit/dreams-and-visions/index.md) — 2:12-13

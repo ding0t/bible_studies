@@ -14,6 +14,7 @@ draft: false
 
 - [Faith](../../salvation/faith.md) — 11:1-40 (primary passage)
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 11:1 (primary passage)
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 11:19 (primary passage)
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 11:5
 - [Passover: When I See the Blood](../../feasts/passover.md) — 11:28
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 11:39-40

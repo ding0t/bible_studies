@@ -17,6 +17,7 @@ draft: false
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 6:6-7
 - [True Worship](../../christian-life/true-worship.md) — 6:13
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 6:13
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 6:13-16
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 6:5
 - [Why We Need Saving](../../sin/why-we-need-saving.md) — 6:24
 <!-- commentary-index:auto-end -->

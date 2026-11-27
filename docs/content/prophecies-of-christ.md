@@ -15,7 +15,9 @@ ai_provider_models:
 Every Old Testament prophecy the New Testament reads of Jesus, and those tradition reads of Him, in
 one ledger. Choose a book, a subject, a writer or a cell in any of the three pictures below, and the
 cards beneath narrow to match. Why the prophecies prove He is the Christ, and how unlikely it is that
-they came to pass by chance, is the study [Foretold Long Ago](jesus/foretold-long-ago.md).
+they came to pass by chance, is the study [Foretold Long Ago](jesus/foretold-long-ago.md). How the
+New Testament grades its own claims, and what the whole ledger shows, is [Weighing the
+Prophecies](jesus/weighing-the-prophecies.md).
 
 <!-- prophecies-of-christ: explorer -->
 
@@ -113,7 +115,9 @@ before or after the event.
 - **Later Jewish readings.** The Targums (dated by W. Bacher, "Targum", *Jewish Encyclopedia*,
   1906) and the Babylonian Talmud (Wikisource Talmud Bavli, CC BY-SA), via the Sefaria export.
 - **On this site.** [Foretold Long Ago](jesus/foretold-long-ago.md) (why the prophecies prove Jesus
-  is the Christ, and the odds against chance); [What Literary Criticism
+  is the Christ, and the odds against chance); [Weighing the
+  Prophecies](jesus/weighing-the-prophecies.md) (how the New Testament grades its claims, and the
+  patterns across the ledger); [What Literary Criticism
   Declares](scripture/what-literary-criticism-declares.md) (the dates, and prophecies written and
   copied before the events); [Two mountain peaks](last-things/immediately-after.md#two-mountain-peaks)
   (near and far in one sentence).

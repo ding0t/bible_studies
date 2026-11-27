@@ -29,5 +29,6 @@ draft: false
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 5:2
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 5:7
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 5:4
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 5:7
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 5:4-5
 <!-- commentary-index:auto-end -->

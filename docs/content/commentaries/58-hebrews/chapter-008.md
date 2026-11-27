@@ -18,5 +18,6 @@ draft: false
 - [The Heavenly Pattern](../../jesus/the-heavenly-pattern/index.md) — 8:5
 - [The Lampstand](../../jesus/the-heavenly-pattern/lampstand.md) — 8:5
 - [Those Who Sigh and Groan: A Heart After God's Own](../../christian-life/those-who-sigh-and-groan.md) — 8:10
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 8:5
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 8:8-12
 <!-- commentary-index:auto-end -->

@@ -14,4 +14,5 @@ draft: false
 
 - [Know the Truth](../../christian-life/know-the-truth.md) — 31:5
 - [The Bright Morning Star: How Scripture Uses 'Star'](../../jesus/the-bright-morning-star.md) — 31:15
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 31:5
 <!-- commentary-index:auto-end -->

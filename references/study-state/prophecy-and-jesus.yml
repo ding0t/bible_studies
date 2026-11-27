@@ -255,6 +255,17 @@ sessions:
       references/study-state/weighing-the-prophecies.yml); the ledger keeps a collapsed card key.
       While it is a draft the Passion Week and Hebrew-or-Greek plates are off the live site. Next:
       develop the extra in a fresh session, then link it from the ledger and Foretold Long Ago.
+  - n: 15
+    date: 2026-11-27
+    done: >-
+      Weighing the Prophecies developed into a full draft (still draft: true) on the thesis the author
+      approved: the New Testament grades its own claims. Worked example Hosea 11:1 / Matthew 2:15
+      (no other study covers it). Found: παραβολή outside the Synoptics only at Hebrews 9:9 (with
+      'the Holy Spirit was showing') and 11:19 ('in a sense'), the textual basis for tiering the Day
+      of Atonement 1 and Isaac 2; δηλόω of the Spirit at Hebrews 9:8 and 1 Peter 1:11; Psalms 78 uses
+      against Isaiah 65, and 14 of the 16 messiah-speaker entries. State:
+      references/study-state/weighing-the-prophecies.yml. Next: review and read passes, then publish
+      with the links from the ledger and Foretold Long Ago.
 
 # Each entry, candidate -> drafted. One call to passage_brief per prophecy, research_batch_run for
 # the rest. Record what is checked under evidence: below.

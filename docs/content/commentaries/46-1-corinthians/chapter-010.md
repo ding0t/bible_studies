@@ -28,4 +28,5 @@ draft: false
 - [The Table and the Bread of the Presence](../../jesus/the-heavenly-pattern/table.md) — 10:21
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 10:32
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 10:20
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 10:1-11
 <!-- commentary-index:auto-end -->

@@ -158,6 +158,14 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
 
     [:octicons-arrow-right-24: Read](three-days-and-three-nights.md)
 
+-   __Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth__
+
+    ---
+
+    The New Testament grades its own claims on the Old: fulfilled, a type, applied, echoed. Weighed by those grades and by measures anyone can check, the prophecies of Christ show God writing His Son into every part of Scripture, speaking in His voice in the Psalms, and bringing it about through hands that could not have arranged it.
+
+    [:octicons-arrow-right-24: Read](weighing-the-prophecies.md)
+
 -   __Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth__
 
     ---

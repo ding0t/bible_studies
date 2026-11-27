@@ -29,5 +29,6 @@ draft: false
 - [The Twelve: Disciples and Apostles](../../biblical-figures/twelve-apostles.md) — 4:18-22
 - [True Worship](../../christian-life/true-worship.md) — 4:8-10
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 4:1-11
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 4:1-10
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 4:17
 <!-- commentary-index:auto-end -->

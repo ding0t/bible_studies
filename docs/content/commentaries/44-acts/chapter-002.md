@@ -29,6 +29,7 @@ draft: false
 - [True Worship](../../christian-life/true-worship.md) — 2:42
 - [Unleavened Bread: A New Lump](../../feasts/unleavened-bread.md) — 2:27
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 2:27
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 2:25-31
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 2:1-11
 - [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 2:38
 - [Your Kingdom Come: The Kingdom Already Here and Not Yet Complete](../../last-things/your-kingdom-come.md) — 2:30-35

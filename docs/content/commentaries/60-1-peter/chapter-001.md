@@ -33,5 +33,6 @@ draft: false
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 1:8
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 1:3
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 1:14
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 1:10-12
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 1:10-12
 <!-- commentary-index:auto-end -->

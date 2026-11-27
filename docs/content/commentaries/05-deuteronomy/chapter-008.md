@@ -23,4 +23,5 @@ draft: false
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 8:3
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 8:11
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 8:3
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 8:2-3
 <!-- commentary-index:auto-end -->

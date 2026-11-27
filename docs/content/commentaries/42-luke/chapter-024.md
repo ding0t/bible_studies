@@ -25,6 +25,7 @@ draft: false
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 24:16
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 24:39
 - [We Shall All Be Changed](../../last-things/we-shall-all-be-changed.md) — 24:36-43
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 24:44
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 24:25-27
 - [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 24:47
 <!-- commentary-index:auto-end -->

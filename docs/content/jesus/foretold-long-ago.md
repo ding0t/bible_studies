@@ -381,7 +381,9 @@ the One you turn to is Jesus, at whose name every knee will bow.
 ## The studies, a week at a time
 
 These studies take the prophecies one theme at a time, for a group or on your own. This is the
-first.
+first. Beside the weeks, [Weighing the Prophecies](weighing-the-prophecies.md) takes the ledger
+itself in depth: how the New Testament grades its own claims, and what the whole ledger shows that
+no single prophecy does.
 
 <!-- series-sessions -->
 
@@ -422,6 +424,7 @@ first.
 - **On this site.** [What Literary Criticism Declares](../scripture/what-literary-criticism-declares.md)
   (the dates, and prophecies written and copied before the events); [Bible Prophecy
   Essentials](../last-things/prophecy-essentials.md) (fulfilled prophecies checked against source);
-  [Known Before, Seen After](known-before-seen-after.md); [The Names of God](../god/names-of-god.md);
+  [Known Before, Seen After](known-before-seen-after.md); [Weighing the
+  Prophecies](weighing-the-prophecies.md) (the ledger in depth); [The Names of God](../god/names-of-god.md);
   [Two mountain peaks](../last-things/immediately-after.md#two-mountain-peaks) (near and far in one
   sentence).

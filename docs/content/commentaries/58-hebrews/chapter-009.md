@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 9:6-28 (primary passage)
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 9:8-9 (primary passage)
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 9:15
 - [Fasting](../../christian-life/fasting.md) — 9:11-12
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 9:6-28

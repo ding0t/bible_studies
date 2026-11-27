@@ -21,4 +21,5 @@ draft: false
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 2:11
 - [Those Called Gods: Judges, Angels and the Powers Over the Nations](../../spiritual-beings/those-called-gods.md) — 2:6-7
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 2:14-15
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 2:11-12
 <!-- commentary-index:auto-end -->

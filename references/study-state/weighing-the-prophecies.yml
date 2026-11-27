@@ -9,18 +9,16 @@
 
 slug: "weighing-the-prophecies"
 title: "Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth"
-status: scaffold
+status: published
 target_path: "docs/content/jesus/weighing-the-prophecies.md"
 ledger_page: "docs/content/prophecies-of-christ.md"
 next: >-
-  Develop with develop-bible-study. The moved prose is a starting point, not a study: it has no
-  thesis, Key Takeaways, theology stated outright or discussion questions. Name the one sentence
-  first. Candidate spine: how the New Testament reads the Old (fulfilment, type, application,
-  allusion: prophecy-method.md section 2), then what each measure weighs and why, then what the
-  ledger shows that no single card does (the explorer's three pictures as findings: the Psalms
-  supply more uses than Isaiah; Passion is the widest stream; most fulfilments were brought about
-  by God, His opponents or people unaware). Not in the series' weeks: link it from Foretold Long
-  Ago and the ledger page only once it is published (never link a draft).
+  Drafted 2026-11-27 (draft: true). Validator clean for this file; mkdocs build --strict passes with
+  the page flipped to published (flipped back), every cross-page anchor resolves. Next, in a fresh
+  session: review-bible-study, then read-bible-study, then the author's read. On publish: link it from
+  Foretold Long Ago and the ledger page (prophecies-of-christ.md), offer the Hosea 11:1 / Numbers 24:8
+  material back to Known Before, Seen After if wanted, re-run commentary_index.py and section_index.py,
+  and run refresh_frontmatter_provenance.py before the commit.
 
 overlap:
   - {slug: jesus/foretold-long-ago, note: "owns the span chart, the LORD's words and the chance floor. Cover briefly and link; do not repeat."}
@@ -33,3 +31,102 @@ owns:
   - Hebrew or Greek (which-text.svg)
   - Passion Week day by day (passion-week.svg)
   - the ledger in numbers (the measures table and the dated sentence)
+
+primary_passage: "Hosea 11:1; Matthew 2:15; Hebrews 9:8-9; Hebrews 11:19"
+supporting_passages: ["Exodus 4:22-23", "1 Corinthians 10:1-11", "1 Corinthians 5:7", "Romans 5:14", "1 Peter 1:10-12", "Hebrews 2:11-12", "Hebrews 10:5-7", "Acts 2:25-31", "John 1:51", "John 5:39, 46", "Luke 24:44", "Hebrews 8:5", "Colossians 2:16-17"]
+genre: [topical, prophets]
+sibling_studies:
+  - {slug: jesus/foretold-long-ago, role: cited, use: link, note: "owns Acts 17:2-3, 11, Deuteronomy 18:21-22, Luke 24:44, the span chart, the LORD's words, the chance floor"}
+  - {slug: jesus/known-before-seen-after, role: cited, use: link, note: "owns recognition, who fulfilled it, 1 Peter 1:11 (sufferings then glories). Both are draft? check before linking"}
+  - {slug: scripture/what-literary-criticism-declares, role: cited, use: link, note: "owns the dates and the Sirach bracket"}
+  - {slug: feasts/day-of-atonement, role: primary on Hebrews 9, use: link, note: "the type itself; this study needs only 9:8's verb"}
+  - {slug: last-things/immediately-after, role: prose, use: link, note: "two mountain peaks (near and far)"}
+  - {slug: jesus/the-king-on-a-donkey, role: cited on Matthew 2:13-15, use: none, note: "checked 2026-11-27: no reading of Hosea 11:1 there"}
+
+stages_2026_11_27:
+  scoping: >-
+    Topical, built on the ledger; the Scripture spine is how the New Testament grades its own claims.
+    No study on the site treats Hosea 11:1 / Matthew 2:15 (cross_study_claims "Hosea 11": only
+    Hosea 11:8 in cities-of-the-plain). Acts 17 and Deuteronomy 18 are owned by Foretold Long Ago:
+    not used as the frame here.
+  exegesis: >-
+    Re-queried 2026-11-27 (bible-text.db via query.py; ESV via study_verse):
+    Hosea 11:1 is history (Israel the son, Exodus 4:22 'Israel is My firstborn son'), and 11:2-5 at
+    once turns to Israel's idolatry and exile: the near referent is the nation. MT לִבְנִי 'my son';
+    Brenton LXX τὰ τέκνα αὐτοῦ 'his children'; Matthew 2:15 SBLGNT τὸν υἱόν μου follows the Hebrew,
+    with ἵνα πληρωθῇ. Matthew uses πληρόω (G4137) 16 times (SBLGNT, count_only).
+    παραβολή (G3850): 50 NT uses, twice in Hebrews: 9:9 (BSB 'illustration', ESV 'symbolic') of the
+    tabernacle, 11:19 (BSB 'in a sense', ESV 'figuratively speaking') of Isaac's return. Same word,
+    two grades: 9:8 adds τοῦτο δηλοῦντος τοῦ πνεύματος τοῦ ἁγίου, the Spirit's intent; 11:19 adds
+    none. δηλόω (G1213) is used of the Spirit at Hebrews 9:8 and 1 Peter 1:11 (ἐδήλου τὸ ἐν αὐτοῖς
+    πνεῦμα Χριστοῦ), the one verb for a type and for a verbal prediction.
+    τύπος (G5179): 1 Corinthians 10:6, Romans 5:14 ('a pattern of the One to come'), Hebrews 8:5
+    (of the tabernacle's pattern, quoting Exodus 25:40), Acts 7:44; τυπικῶς at 1 Corinthians 10:11
+    with ἐγράφη δὲ πρὸς νουθεσίαν ἡμῶν. Acts 2:30-31 προϊδὼν ἐλάλησεν: David as prophet.
+    Hebrews 10:5 εἰσερχόμενος εἰς τὸν κόσμον λέγει and Hebrews 2:12 put Psalm 40 and Psalm 22 in
+    Christ's mouth.
+  ledger_counts_2026_11_27: >-
+    Recounted from docs/data/prophecies-of-christ.toml (scratchpad counts.py): 118 entries, tier
+    59/31/28; 12 types; 241 uses: fulfilment 87, allusion 82, application 35, split 15, type 12,
+    imagery 10. Uses by OT book: Psalms 78, Isaiah 65 (fulfilment+split: Psalms 38, Isaiah 27).
+    Speaker messiah: 16 entries, 14 of them Psalms. Passion 26 (widest), 14 of them from the Psalms.
+    Control: divine 58, opponents 19, chosen 18, unfulfilled 17, unwitting 4, followers 2.
+    Passion week: 38 hung on the chronology's days, 25 on 14 Nisan, 9 on 16 Nisan.
+    Text of quoting uses: lxx 51, both 29, neither 24, mt 17; Matthew renders the Hebrew afresh 6
+    times, Acts never (lxx 12). Data oddity: david-my-servant-shepherd has control 'unfulfilled'
+    with status 'partly'.
+
+thesis: >-
+  The New Testament grades its own claims on the Old (fulfilled, a type, applied, echoed), and
+  weighed by those grades and by measures anyone can check, the prophecies of Christ show God writing
+  His Son into every part of Scripture, speaking in His voice in the Psalms, and bringing it about
+  through hands that could not have arranged it. (Approved by the author 2026-11-27.)
+outline:
+  - {section: "How the apostles grade their claims", says: "six kinds of use; παραβολή twice in Hebrews (9:9 with the Spirit's intent, 11:19 'in a sense'); δηλόω at Hebrews 9:8 and 1 Peter 1:11; the three tiers"}
+  - {section: "Out of Egypt: one prophecy weighed", says: "Hosea 11:1 in Hosea (the nation, 11:2 failure, 11:11 new exodus), in Matthew (Hebrew 'My son' against LXX 'his children'; Matthew 2-4 in Israel's order), and the contested further sight (Numbers 23:22 plural / 24:8 singular)"}
+  - {section: "What each measure weighs", says: "the card checks, shortened; no odds; links to Known Before and the floor"}
+  - {section: "What the whole ledger shows", says: "the Psalms as His voice; Passion Week (plate); Hebrew or Greek (plate); two comings; the LORD's words (link only)"}
+  - {section: "The ledger in numbers", says: "build-time markers: dated, measures"}
+  - {section: "What the weighing shows of God", says: "inspiration; adoption (Galatians 4:4-7); John 5:39-40"}
+word_budget: 4000
+word_budget_reason: ""
+open_questions:
+  - "Numbers 24:8's singular 'him' (after the king of 24:7) as Hosea's source: presented as contested, both sides from the text. A fork candidate if the author wants it argued in full."
+  - "The prose counts (241 uses, Psalms 78 / Isaiah 65, 14 of 16 first-person texts, 25 on 14 Nisan) are as of 2026-11-27 and go stale if the ledger changes; a marker for them in hooks/prophecies.py would keep them live."
+  - "Ledger data: david-my-servant-shepherd has control 'unfulfilled' with status 'partly'; check whether control should name who fulfilled the part fulfilled."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "Matthew 2:13-23 and 2:15; checked after the exegesis; agrees (Jesus repeats Israel's history)"}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Matthew 2:15; recapitulation"}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan", note: "Matthew 2:15; notes the new exodus of Hosea 11:5, 11"}
+  - {type: other, title: "MACULA Greek SBLGNT", author: "Clear Bible", note: "concordance counts for G3850, G5179, G1213, G4137"}
+review_2026_11_27:
+  review: >-
+    review-bible-study by subagent, report only; every finding re-checked before applying. Applied:
+    the 4Q82 claim (Hosea 11:1 is wholly reconstructed there: dss_text 4Q82 f15_26 line 26, one
+    extant mark); two false "Septuagint misses it" examples replaced (LXX Isaiah 53:12 has ἐν τοῖς
+    ἀνόμοις; LXX Psalm 40:10 has πτερνισμόν) with Zechariah 11:13 LXX 'the furnace' and Isaiah 53:4
+    LXX 'sins' against Matthew 8:17; Hebrews 9:8 no longer said to show 'Christ' (it shows the way not
+    yet open; Hebrews 10:19-20 added); Hebrews 11:19 marked contested (NASB 1995 and 2020 'as a
+    type'); 'Hosea 11 names no king' corrected (Hosea 11:5, Assyria) and Hosea 3:5 added; the
+    two-comings count stated as 30 partly / 17 with a named divider; the closing grades paragraph
+    made consistent with Matthew 2:15; 'Applied' example changed to Luke 23:46 (jacobs-ladder's use
+    is a type); 'in His mouth' reworded to 'the 16 texts the ledger marks as spoken in His voice';
+    Hosea 11:8-9 added beside 'Israel failed'; The Donkey and Her Prophet linked; Strong's numbers
+    added (τυπικῶς G5179; motsi'am/motsi'o H3318).
+  read: >-
+    read-bible-study by subagent, report only. Applied: παραβολή and δηλόω first under the grading
+    section, each with its own heading; the ledger provenance paragraph moved to open Six kinds of
+    use; πληρόω/τύπος given a heading; 'What each measure weighs' renamed 'The six checks on every
+    card', with 'Why no card carries odds'; 'Filled full in Jesus' split out; the numbers moved to
+    '## Annex: the ledger in numbers {#the-ledger-in-numbers}' after the questions; H1 matched to the
+    title; Study outline updated. Prose fixes the read flagged: 'draws three of them' corrected, and
+    a short 'Hands that could not arrange it' subsection built from sentences moved out of the
+    checks list, so the thesis's third clause has a section.
+  verified_after: >-
+    npm run validate: no warning for this file; mkdocs build --strict passes with the page flipped
+    to published (flipped back); every local and cross-page anchor resolves.
+  for_the_author:
+    - "Ledger data, not edited: add speaker = 'messiah' to into-your-hand (Luke 23:46) and i-and-the-children (Hebrews 2:13); the prose would then read 15 of 18."
+    - "export_prophecies.py qumran_index counts reconstructed DSS words as copies, inflating each card's copy field and the dated sentence (which renders on this page): Hosea 11:1 / 4Q82 is one case."
+    - "Enrichment offers: The Donkey and Her Prophet (Numbers 24:8 singular 'him', LXX 24:7 'a man'); Known Before, Seen After (Hosea 11:1)."
+last_updated: "2026-11-27"

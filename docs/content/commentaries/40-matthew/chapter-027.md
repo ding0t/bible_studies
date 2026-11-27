@@ -22,5 +22,6 @@ draft: false
 - [The Day of Atonement: Once a Year, Once for All](../../feasts/day-of-atonement.md) — 27:51
 - [The Names of God](../../god/names-of-god.md) — 27:46
 - [The Scribe Trained for the Kingdom](../../scripture/scribe-trained-for-the-kingdom.md) — 27:57
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 27:10
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 27:46
 <!-- commentary-index:auto-end -->

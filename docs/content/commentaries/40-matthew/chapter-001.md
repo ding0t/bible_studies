@@ -24,5 +24,6 @@ draft: false
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:3
 - [The Names of God](../../god/names-of-god.md) — 1:21-23
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 1:21-23
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 1:22-23
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 1:23
 <!-- commentary-index:auto-end -->

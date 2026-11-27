@@ -20,4 +20,5 @@ draft: false
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 5:22-29
 - [The Thousand Years: What the Saints Do When Christ Reigns](../../last-things/the-thousand-years.md) — 5:25-29
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 5:30
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 5:39-40
 <!-- commentary-index:auto-end -->

@@ -14,4 +14,5 @@ draft: false
 
 - [Psalms, Hymns and Spiritual Songs](../../christian-life/psalms-hymns-and-spiritual-songs.md) — 40:3
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 40:8
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 40:6-8
 <!-- commentary-index:auto-end -->

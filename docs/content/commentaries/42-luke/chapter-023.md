@@ -22,4 +22,5 @@ draft: false
 - [The Lord's Prayer: What Jesus Taught Us About How to Pray](../../christian-life/lords-prayer.md) — 23:34
 - [The Names of Jesus](../../jesus/names-of-jesus.md) — 23:42-43
 - [Three Days and Three Nights](../../jesus/three-days-and-three-nights.md) — 23:50-56
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 23:46
 <!-- commentary-index:auto-end -->

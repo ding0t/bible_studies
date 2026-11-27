@@ -31,6 +31,7 @@ draft: false
 - [True Worship](../../christian-life/true-worship.md) — 10:19-22
 - [Verses Quoted Well](../../scripture/verses-quoted-well.md) — 10:35-39
 - [Walking in His Will](../../christian-life/walking-in-his-will.md) — 10:5-10
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 10:19-20
 - [When Love Grows Cold: The Falling Away and the Remnant](../../christian-life/when-love-grows-cold.md) — 10:23-25
 - [Where Jesus Stopped Reading: Isaiah 61 in the Synagogue at Nazareth](../../jesus/where-jesus-stopped-reading.md) — 10:12-13
 - [Where Two or Three Are Gathered](../../israel-and-church/where-two-or-three-are-gathered.md) — 10:24-25

@@ -14,5 +14,6 @@ draft: false
 
 - [Judas Iscariot](../../biblical-figures/judas-iscariot.md) — 11:12-13
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 11:12-13
+- [Weighing the Prophecies: The Ledger of the Prophecies of Christ in Depth](../../jesus/weighing-the-prophecies.md) — 11:13
 - [What Literary Criticism Declares: Many Writers, One Story](../../scripture/what-literary-criticism-declares.md) — 11:12-13
 <!-- commentary-index:auto-end -->
