@@ -1,4 +1,4 @@
-// The filter bar on jesus/prophecies-of-christ.md. hooks/prophecies.py writes the bar (every facet
+// The filter bar on prophecies-of-christ.md (under Explore). hooks/prophecies.py writes the bar (every facet
 // and chip label) and tags each card with data-category, data-control, data-recognition and the
 // rest, so this script only reads what the page already says. Values chosen within one facet are
 // alternatives (passion or ministry); facets combine (passion, and done by His opponents). Each

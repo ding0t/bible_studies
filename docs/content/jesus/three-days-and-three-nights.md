@@ -447,8 +447,10 @@ with this study's conclusion as well as where they support it.
 - **CSB Ancient Faith Study Bible** (Holman) — translator footnote at Luke 16:22.
 
 **Related on this site.**
-- [The Prophecies of Christ](prophecies-of-christ.md) — every Old Testament prophecy the New
-  Testament reads of Jesus, in one filterable ledger; this study is one week of its series.
+- [The Prophecies of Christ](../prophecies-of-christ.md) — every Old Testament prophecy the New
+  Testament reads of Jesus, in one filterable ledger.
+- [Foretold Long Ago](foretold-long-ago.md) — why fulfilled prophecy proves Jesus is the Christ; this study is one week of its
+  series.
 
 - [Friday, 3 April AD 33: Dating the Cross](../chronology/dating-the-cross.md) — the weekday and
   the year: Mark 15:42 and Luke 24:21 for a Friday, and AD 33 over AD 30.

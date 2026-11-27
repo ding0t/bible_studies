@@ -672,8 +672,10 @@ the temple's destruction if it had already happened. So the letter is most likel
 
 ### Related studies on this site
 
-- [The Prophecies of Christ](prophecies-of-christ.md) — every Old Testament prophecy the New
-  Testament reads of Jesus, in one filterable ledger; this study is one week of its series.
+- [The Prophecies of Christ](../prophecies-of-christ.md) — every Old Testament prophecy the New
+  Testament reads of Jesus, in one filterable ledger.
+- [Foretold Long Ago](foretold-long-ago.md) — why fulfilled prophecy proves Jesus is the Christ; this study is one week of its
+  series.
 - [Before Aaron: Who Offered Sacrifice?](priesthood-before-sinai.md) — who offered sacrifice before
   Sinai, and the later traditions that made Adam, Enoch and Shem priests.
 - [Melchizedek in Second Temple Judaism](../scripture/melchizedek-in-second-temple-judaism.md) —

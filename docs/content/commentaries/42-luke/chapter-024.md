@@ -13,8 +13,8 @@ draft: false
 ## Studies referencing this chapter
 
 - [Bible Prophecy Essentials](../../last-things/prophecy-essentials.md) — 24:27 (primary passage)
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 24:44 (primary passage)
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 24:44-46 (primary passage)
-- [The Prophecies of Christ: What the Old Testament Foretold, and When It Came to Pass](../../jesus/prophecies-of-christ.md) — 24:44 (primary passage)
 - [What the Scripture Links Reveal](../../scripture/what-the-links-reveal.md) — 24:27 (primary passage)
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 24:47
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 24:21

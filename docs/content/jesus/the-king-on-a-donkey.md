@@ -355,7 +355,7 @@ Lord (Luke 2:15-20), while Jerusalem "did not recognize the time of your visitat
 - **Jewish sources.** *Genesis Rabbah* 55:8, Sefaria Community Translation (CC0); *Mishnah
   Bekhorot* 1:4, Mishnah Yomit by Dr. Joshua Kulp (CC-BY). Both fetched with
   `references/build/sefaria.py`.
-- **On this site.** [The Prophecies of Christ](prophecies-of-christ.md) (every Old Testament prophecy the New Testament reads of Jesus, in one filterable ledger; this study is one week of its series); [The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md)
+- **On this site.** [The Prophecies of Christ](../prophecies-of-christ.md) (every Old Testament prophecy the New Testament reads of Jesus, in one filterable ledger); [Foretold Long Ago](foretold-long-ago.md) (why fulfilled prophecy proves Jesus is the Christ; this study is one week of its series); [The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md)
   (Balaam's she-donkey); [Humility](../christian-life/humility.md) (the humble King);
   [Prophecy: Events and Times](../last-things/prophecy-events-times.md) (Daniel 9 and the entry);
   [What Literary Criticism Declares](../scripture/what-literary-criticism-declares.md) (the date of

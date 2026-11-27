@@ -209,7 +209,7 @@ Four tools you can explore: three charts, and a ledger you can filter.
     with where each came to pass. Filter them by subject, by who brought them about, and by whether
     Israel read them of the Messiah before Jesus came.
 
-    [:octicons-arrow-right-24: Browse the prophecies](jesus/prophecies-of-christ.md)
+    [:octicons-arrow-right-24: Browse the prophecies](prophecies-of-christ.md)
 
 </div>
 

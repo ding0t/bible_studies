@@ -233,6 +233,16 @@ sessions:
       the author in references/study-state/prophecies-of-christ.yml: the tier of the three types, the
       b. Megillah 3a lead, critical dates for the Psalms and the Minor Prophets, the series weeks.
       Next: the author reads the page and the two studies; publish the three together.
+  - n: 13
+    date: 2026-11-27
+    done: >-
+      At the author's word, the reference page split in two: the ledger moved under Explore as
+      docs/content/prophecies-of-christ.md (the key, the numbers, the patterns, the filter, the cards;
+      the old URL redirects there, keeping #prophecy-<id>), and the study became
+      docs/content/jesus/foretold-long-ago.md, week 1 and hub of the series, with the argument, the
+      span chart, the LORD's words and the chance floor as its closing argument. hooks/prophecies.py
+      LEDGER_PAGE: the floor's moments and each commentary chapter link to the ledger's cards. State:
+      references/study-state/foretold-long-ago.yml (renamed). Next: develop the study, then read it.
 
 # Each entry, candidate -> drafted. One call to passage_brief per prophecy, research_batch_run for
 # the rest. Record what is checked under evidence: below.

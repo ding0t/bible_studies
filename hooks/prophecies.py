@@ -23,8 +23,9 @@ or the authorship table and the chronology (the years) comes from docs/data/prop
 which references/build/export_prophecies.py writes; utils/check_prophecies.py fails while it is
 stale, so the counts here are the ledger's. Every count on the page is written here, never by hand.
 
-Each card carries id="prophecy-<id>", so a study links to one entry as
-`../jesus/prophecies-of-christ.md#prophecy-<id>`. References are plain text so the verse pop-up
+The cards live on the ledger page, prophecies-of-christ.md (under Explore); the study that argues
+from them, jesus/foretold-long-ago.md, carries the chance floor. Each card carries id="prophecy-<id>",
+so a study links to one entry as `../prophecies-of-christ.md#prophecy-<id>`. References are plain text so the verse pop-up
 finds them. An entry's `notes` are the ledger's working notes (leads, questions for a later session)
 and never reach the page; every field that does is kept free of working language by
 utils/check_prophecies.py. The styles are in assets/stylesheets/prophecies.css.
@@ -89,6 +90,9 @@ RECORDED = {
 # A run of Hebrew or Aramaic letters (with points and maqaf), spaces allowed inside the run.
 _HEBREW = re.compile(r"[\u0590-\u05FF\uFB1D-\uFB4F]+(?:\s+[\u0590-\u05FF\uFB1D-\uFB4F]+)*")
 
+# The page that carries the cards. The floor (on the study) and each commentary chapter link to them.
+LEDGER_PAGE = "prophecies-of-christ.md"
+
 _ledger: list[dict] = []
 # The page the markers are on, for the pop-up's links; set when it renders.
 _page_url: list[str] = []
@@ -130,10 +134,13 @@ def on_page_content(html, page, config, files):  # noqa: ARG001 - hook signature
         _page_url.append(page.url)
     if m := _COMMENTARY.match(page.file.src_uri):
         html += _chapter_section(int(m[1]), int(m[2]), files)
-    return _MARKER.sub(lambda m: _render(m[1], page.file.src_uri), html)
+    ledger = files.get_file_from_path(LEDGER_PAGE)
+    # The site is served at the root of its domain, so a site-absolute address needs no prefix.
+    ledger_url = "/" + ledger.url if ledger else ""
+    return _MARKER.sub(lambda m: _render(m[1], page.file.src_uri, ledger_url), html)
 
 
-def _render(what: str, src: str) -> str:
+def _render(what: str, src: str, ledger_url: str) -> str:
     if what == "measures":
         return _measures()
     if what == "dated":
@@ -141,7 +148,7 @@ def _render(what: str, src: str) -> str:
     if what == "filter":
         return _filter()
     if what == "floor":
-        return _floor()
+        return _floor(ledger_url)
     if what == "nt":
         return f'<div class="pc-group">{"".join(_nt_card(e) for e in _nt)}</div>'
     category = what.split()[1]
@@ -351,7 +358,7 @@ def on_post_build(config):
 def _chapter_section(book: int, chapter: int, files) -> str:
     """On a generated commentary chapter page: the prophecies of Christ whose text is in this chapter,
     and those the chapter's verses fulfil or use. Linked to their cards on the reference page."""
-    hub = files.get_file_from_path("jesus/prophecies-of-christ.md")
+    hub = files.get_file_from_path(LEDGER_PAGE)
     if hub is None:
         return ""
     # The site is served at the root of its domain, so a site-absolute address needs no prefix.
@@ -408,11 +415,11 @@ def floor_moments() -> list[tuple[str, list[dict]]]:
     return sorted(moments.items(), key=lambda kv: _computed[kv[1][0]["id"]]["fulfilled"])
 
 
-def _floor() -> str:
+def _floor(ledger_url: str) -> str:
     moments = floor_moments()
     n = len(moments)
     items = "".join(
-        f'<li>{", ".join(f"<a href=\"#prophecy-{escape(e["id"])}\">{escape(e["prophecy"])}</a>" for e in group)}</li>'
+        f'<li>{", ".join(f"<a href=\"{ledger_url}#prophecy-{escape(e["id"])}\">{escape(e["prophecy"])}</a>" for e in group)}</li>'
         for _, group in moments)
     left_out = "".join(f"<li>{escape(i)}: {escape(r)}</li>" for i, r in UNSEEN.items())
     return f"""<div class="pc-floor" data-n="{n}">

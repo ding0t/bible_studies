@@ -1,11 +1,23 @@
-# The reference page of the Prophecy and Jesus project (references/study-state/prophecy-and-jesus.yml,
-# session 11). The entries are rendered from docs/data/prophecies-of-christ.toml by hooks/prophecies.py;
-# this file holds what the page's own prose claims, and its evidence.
+# Week 1 of the Prophecy and Jesus series (references/study-state/prophecy-and-jesus.yml). Until
+# 2026-11-27 this was the reference page jesus/prophecies-of-christ.md, study and ledger in one. At
+# the author's word ("split it into a study under jesus... the explore part is the browser of all
+# prophecies") it split: the argument, the span chart, the LORD's words and the chance floor stayed
+# here as the study; the key, the numbers, the patterns and the cards went to the ledger page
+# docs/content/prophecies-of-christ.md (under Explore; old URL redirected). The review and read
+# records below are of the page before the split. The ledger page's prose (the tiers, the measures)
+# came from here unchanged.
 
-slug: "prophecies-of-christ"
-title: "The Prophecies of Christ"
+slug: "foretold-long-ago"
+title: "Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ"
 status: published
-target_path: "docs/content/jesus/prophecies-of-christ.md"
+target_path: "docs/content/jesus/foretold-long-ago.md"
+ledger_page: "docs/content/prophecies-of-christ.md"
+next: >-
+  Develop it into a full study (develop-bible-study): Key Takeaways, outline, discussion questions,
+  prayer, in the shape of Known Before, Seen After, from the exegesis already recorded here (Isaiah's
+  trial of the idols; John 13:19 taking up Isaiah 43:10 LXX; the apostles' method in Acts 17:2-3 and
+  18:28; 1 Peter 1:10-11). Then read-bible-study in a different session. Author settled 2026-11-27:
+  the title; the chance floor is the study's closing argument; the study is week 1 of the series.
 
 primary_passage: "Isaiah 45:21; Luke 24:44"
 genre: [topical, prophets]
@@ -17,12 +29,10 @@ thesis: >-
   event, at least 127 years ahead on any dating.
 outline:
   - {section: "God's own argument", says: "Isaiah 45:21; 41:23; 48:5; 46:10; Jesus takes the LORD's words, John 13:19 = Isaiah 43:10 LXX (hina pisteusete ... hoti ego eimi); Luke 24:44"}
-  - {section: "How to read the ledger", says: "the three tiers; the six measures; no odds (decision no_odds)"}
-  - {section: "measures table, dated sentence, the span chart", says: "generated; 1 Peter 1:11"}
-  - {section: "The studies, a week at a time", says: "series-sessions"}
-  - {section: "one section per category, then the New Testament's own predictions", says: "generated cards"}
-word_budget: 4000
-word_budget_reason: "the hand-written prose only; the cards are generated"
+  - {section: "The prophet's view and history's view", says: "1 Peter 1:11; the span chart; the dated sentence (generated)"}
+  - {section: "The LORD's words, said of Jesus", says: "the yhwh_text plate"}
+  - {section: "How unlikely by chance?", says: "no odds per prophecy (decision no_odds); the reader-set floor (generated); its two assumptions"}
+  - {section: "The studies, a week at a time", says: "series-sessions; this study is week 1"}
 
 open_questions:
   - "31 fulfilled or partly-fulfilled entries carry no `event` (the nature entries, most of lineage, the types), so they are off the span chart's history panel; giving each a dated event is ledger research"

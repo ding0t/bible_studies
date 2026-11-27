@@ -13,11 +13,11 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 17:10-12
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 17:2-3
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 17:11
 - [Idolatry](../../sin/idolatry.md) — 17:16-29
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 17:3
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 17:11
-- [The Prophecies of Christ: What the Old Testament Foretold, and When It Came to Pass](../../jesus/prophecies-of-christ.md) — 17:2-3
 - [What Creation Declares: General Revelation in Romans 1:19-23](../../god/creation-reveals-the-creator.md) — 17:24-28
 - [What Languages Declare: Babel and the Arithmetic of Tongues](../../chronology/what-languages-declare.md) — 17:26-27
 - [What World Population Declares: Biblical Chronology and the Arithmetic of Growth](../../chronology/world-population-declares-gods-creation-and-biblical-truth.md) — 17:26

@@ -127,6 +127,9 @@ plugins:
         'god/dreams-and-visions/personal-examples/the-deceiver.md': 'blog/index.md'
         # How This Site Is Built moved from Resources to About on 2026-10-15: it explains the site, not a study aid.
         'resources/site-architecture.md': 'about/site-architecture.md'
+        # The Prophecies of Christ split on 2026-11-27: the ledger moved under Explore and the study
+        # became Foretold Long Ago. Old card links (#prophecy-<id>) land on their cards.
+        'jesus/prophecies-of-christ.md': 'prophecies-of-christ.md'
         # /skills/ held only the raw skill files (hooks/llms.py); its address now opens the page that explains them.
         'skills/index.md': 'resources/study-skills.md'
         # Test the Spirits became a study of recognising false teachers and moved beside Hurt by the Church on 2026-10-10.

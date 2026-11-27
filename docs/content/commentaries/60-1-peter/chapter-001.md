@@ -15,6 +15,7 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 1:18-19
 - [Assurance of Salvation](../../salvation/assurance-of-salvation.md) — 1:3-5
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 1:1
+- [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 1:10-11
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 1:24-25
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 1:10-12
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 1:8
@@ -28,7 +29,6 @@ draft: false
 - [The King on a Donkey: The Humble Beast from Abraham to the Triumphal Entry](../../jesus/the-king-on-a-donkey.md) — 1:18-19
 - [The Kinsman Redeemer: Boaz, Ruth, and the Right to Buy Back](../../jesus/kinsman-redeemer.md) — 1:18-19
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 1:11
-- [The Prophecies of Christ: What the Old Testament Foretold, and When It Came to Pass](../../jesus/prophecies-of-christ.md) — 1:10-11
 - [The Wife of the Lamb](../../israel-and-church/wife-of-the-lamb.md) — 1:4
 - [Through a Glass, Darkly](../../christian-life/through-a-glass-darkly.md) — 1:8
 - [Verses Often Misquoted](../../scripture/verses-often-misquoted.md) — 1:3

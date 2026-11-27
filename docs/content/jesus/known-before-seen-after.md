@@ -7,7 +7,7 @@ draft: false
 primary_passage: "Luke 24:25-27; Luke 24:44-46; Acts 13:27"
 bible_references: ["Luke 24:25-27", "Luke 24:44-46", "Acts 13:27", "John 12:34", "Matthew 16:21-22", "Luke 9:45", "Luke 18:34", "Mark 9:32", "Acts 1:20", "Psalm 69:25", "Psalm 109:8", "Psalm 38:11", "Luke 23:49", "Zechariah 13:7", "Psalm 2:1-2", "Psalm 89:36-37", "Sirach 48:10", "Luke 24:16", "Luke 24:21", "Luke 24:31-32", "Acts 3:17-18", "1 Corinthians 2:7-8", "1 Peter 1:10-12", "John 2:22", "John 12:16", "John 20:9", "John 7:39", "Matthew 2:4-6", "John 7:42", "John 1:21", "Mark 9:11", "Luke 2:25-26", "Acts 2:23", "Acts 4:27-28", "John 19:28", "John 19:24", "John 19:36-37", "Matthew 27:9-10", "Matthew 21:2-5", "Acts 17:3", "Genesis 49:10", "Numbers 24:17", "Deuteronomy 18:15-19", "2 Samuel 7:12-16", "Isaiah 11:1-4", "Psalm 2:9", "Isaiah 53:5", "Psalm 22:18", "Zechariah 11:12-13", "Acts 3:19"]
 date_created: 2026-11-26
-date_modified: 2026-11-26
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -346,8 +346,8 @@ spoken.
   *Jewish Encyclopedia*, vol. 12 (1906).
 - **The Talmud.** Babylonian Talmud, Sukkah 52a and Sanhedrin 98b, Wikisource Talmud Bavli via the
   Sefaria export (CC BY-SA); translations our own.
-- **On this site.** [The Prophecies of Christ](prophecies-of-christ.md) (every prophecy in the
-  ledger, with its measures); [What Literary Criticism Declares](../scripture/what-literary-criticism-declares.md)
+- **On this site.** [The Prophecies of Christ](../prophecies-of-christ.md) (every prophecy in the
+  ledger, with its measures); [Foretold Long Ago](foretold-long-ago.md) (why fulfilled prophecy proves Jesus is the Christ); [What Literary Criticism Declares](../scripture/what-literary-criticism-declares.md)
   (prophecies written and copied before the events; 1 Peter 1:10-11); [The Gospel in the Old
   Testament](../series/the-gospel-in-the-old-testament.md) (the types); [Where Jesus Stopped
   Reading](where-jesus-stopped-reading.md) (Isaiah 61, the year of favour now and the day of

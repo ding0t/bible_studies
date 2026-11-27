@@ -187,17 +187,20 @@ short. `AGENTS.md` keeps the rules that break things if forgotten.
   and is never linked, which keeps Check 24's rule for links a hook writes. A series' `why` lines
   are descriptive; whether a series is worth running is the author's call. Field reference:
   [docs/CONTENT_GUIDE.md](../CONTENT_GUIDE.md#series).
-- **The prophecies of Christ are a ledger rendered as a page** (`hooks/prophecies.py`).
+- **The prophecies of Christ are a ledger rendered as a page** (`hooks/prophecies.py`), under
+  Explore at `prophecies-of-christ.md`; the study that argues from it is
+  `jesus/foretold-long-ago.md`.
   `docs/data/prophecies-of-christ.toml` is the authority; `references/build/export_prophecies.py`
   computes what needs the Bible databases or the dating tables (years written on both schemes,
   the year fulfilled, the Qumran copies) into `prophecies-of-christ.json`, and
   `utils/check_prophecies.py` fails `npm test` while that file is stale, so no count on
-  `jesus/prophecies-of-christ.md` is typed by hand. Markers on the page place the measures table,
-  each category's cards (`id="prophecy-<id>"`) and the New Testament's own predictions. A ledger
-  note's research leads ("lead:" on) are left off the page. The page is also the hub of the
-  Prophecy and Jesus series (a `series:` block), and its charts are drawn from the same two files
-  by `utils/build_jesus_graphics.py`. The same hook writes the page's filter bar (behaviour in
-  `app/src/entries/prophecy-filter.js`) and its chance floor, adds "Prophecies of Christ" to each
+  either page is typed by hand. Markers on the ledger page place the measures table, each
+  category's cards (`id="prophecy-<id>"`) and the New Testament's own predictions. A ledger
+  note's research leads ("lead:" on) are left off the page. The study is week 1 and the hub of the
+  Prophecy and Jesus series (a `series:` block), and the charts are drawn from the same two files
+  by `utils/build_jesus_graphics.py`. The same hook writes the ledger's filter bar (behaviour in
+  `app/src/entries/prophecy-filter.js`) and the study's chance floor (its moments link to the
+  ledger's cards), adds "Prophecies of Christ" to each
   generated commentary chapter page, and writes `assets/popups/prophecies.json`, which the verse
   pop-up reads to say a verse is a prophecy of Christ or a New Testament use of one.
 - **An exemption in a checking tool carries its justification with it, or it is a hole.** Two of this

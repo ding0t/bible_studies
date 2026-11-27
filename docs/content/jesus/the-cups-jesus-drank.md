@@ -489,7 +489,7 @@ numbering). See [Patristic Sources](../resources/patristic-sources.md).
 Biblical Theology Study Bible* (Zondervan); *NIV Cultural Backgrounds Study Bible* (Keener and
 Walton, eds.).
 
-**Related studies on this site.** [The Prophecies of Christ](prophecies-of-christ.md) (the
-ledger of every prophecy, and the series this study belongs to); ["I Will Not Drink Again"](../feasts/last-supper-four-cups.md);
+**Related studies on this site.** [The Prophecies of Christ](../prophecies-of-christ.md) (the
+ledger of every prophecy); [Foretold Long Ago](foretold-long-ago.md) (the series this study belongs to); ["I Will Not Drink Again"](../feasts/last-supper-four-cups.md);
 [The Lord's Supper](../feasts/lords-supper.md); [Passover](../feasts/passover.md);
 [The Bride of Christ](../israel-and-church/bride-of-christ.md).

@@ -165,8 +165,9 @@ only after the ledger is done (SKILL.md Phase 5).
 The ledger of the Old Testament's prophecies of Christ (`docs/data/prophecies-of-christ.toml`, 118
 entries) turned up features that recur. Look for each when reading a prophecy. The counts are as of
 2026-11-26; recount from the ledger before a study prints one. The reader sees the ledger on
-`jesus/prophecies-of-christ.md`, rendered by `hooks/prophecies.py`; link a study to one entry as
-`#prophecy-<id>`, and re-run `references/build/export_prophecies.py` after editing the ledger.
+`prophecies-of-christ.md` (under Explore), rendered by `hooks/prophecies.py`; link a study to one
+entry as `prophecies-of-christ.md#prophecy-<id>` (from `jesus/`, `../prophecies-of-christ.md#prophecy-<id>`).
+The argument from them, and the chance floor, is the study `jesus/foretold-long-ago.md`. Re-run `references/build/export_prophecies.py` after editing the ledger.
 
 - **Who fulfilled it.** His opponents fulfilled 15 of the 26 passion prophecies (`control`), and none
   of the 19 prophecies His opponents fulfilled was read of the Messiah before Jesus: "in condemning

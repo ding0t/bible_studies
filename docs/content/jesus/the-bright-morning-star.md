@@ -401,7 +401,7 @@ lists the words for "star"; it leaves out *heilel* (Isaiah 14:12) and the conste
   1:20, 2:26-28; *NIV Cultural Backgrounds Study Bible* (Zondervan), note on Revelation 2:28; *NIV
   Biblical Theology Study Bible* (Zondervan), notes on Matthew 2:2 and
   Revelation 1:20, 2:28.
-- **On this site.** [The Prophecies of Christ](prophecies-of-christ.md) (every Old Testament prophecy the New Testament reads of Jesus, in one filterable ledger; this study is one week of its series); [The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md)
+- **On this site.** [The Prophecies of Christ](../prophecies-of-christ.md) (every Old Testament prophecy the New Testament reads of Jesus, in one filterable ledger); [Foretold Long Ago](foretold-long-ago.md) (why fulfilled prophecy proves Jesus is the Christ; this study is one week of its series); [The Donkey and Her Prophet](../biblical-figures/the-donkey-and-her-prophet.md)
   (Balaam's oracle and its reading at Qumran); [The Names of Jesus](names-of-jesus.md) (the star out
   of Jacob); [Pride](../sin/pride.md) (Isaiah 14); [The Nephilim](../spiritual-beings/nephilim.md)
   (the sons of God in Job); [The Tribulation](../last-things/tribulation.md) (Revelation 12; Matthew

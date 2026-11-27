@@ -4,7 +4,7 @@ category: "other"
 description: "God the Son: who Jesus is and what He did, including Old Testament prophecy fulfilled in Him."
 draft: false
 date_created: 2026-08-07
-date_modified: 2026-11-26
+date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -45,6 +45,14 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
     The two feeding miracles read the way Jesus reads them at Mark 8:19-21 -- what He makes explicit about the sign in John 6, and what the narrative leaves implicit about Jew, Gentile, shepherd, and the wrong way to want bread.
 
     [:octicons-arrow-right-24: Read](bread-of-life-feeding-the-multitudes.md)
+
+-   __Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ__
+
+    ---
+
+    God rests His claim to be God on what He foretold, and Jesus made the same claim His own: more than a hundred prophecies, written centuries before Him, came to pass in Him, and you can set for yourself how unlikely that is by chance.
+
+    [:octicons-arrow-right-24: Read](foretold-long-ago.md)
 
 -   __Jesus and Women__
 
@@ -93,14 +101,6 @@ Old Testament promised Him. It sits between [God the Father](../god/index.md) an
     Before Sinai the heads of families offered sacrifice for their households, yet Scripture calls none of them a priest. God then appointed Aaron's sons and gave the Levites in place of Israel's firstborn, because priesthood is always His appointment, and He appointed His Son Jesus, who holds His priesthood permanently.
 
     [:octicons-arrow-right-24: Read](priesthood-before-sinai.md)
-
--   __The Prophecies of Christ: What the Old Testament Foretold, and When It Came to Pass__
-
-    ---
-
-    Every Old Testament prophecy the New Testament reads of Jesus, and those tradition reads of Him, with what each foretold, where it was fulfilled or is still to come, how far ahead it was written, whether anyone read it of the Messiah beforehand, and who brought it about.
-
-    [:octicons-arrow-right-24: Read](prophecies-of-christ.md)
 
 -   __The Angel of the LORD: God the Son Before Bethlehem__
 
