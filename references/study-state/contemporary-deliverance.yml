@@ -30,6 +30,12 @@ evidence:
   - {id: col-2-8-esv, what: "not according to Christ", tool: study_verse, args: {book: Col, chapter: 2, verse: 8, work_id: esv-study-bible}, path: "0.text", expect_contains: "See to it that no one takes you captive by philosophy and empty deceit", checked: 2026-11-26}
 
 open_questions:
-  - "Virkler date: page says Prayers That Heal the Heart (2021) with Reimer 'published somewhat later'; recalled (unverified) as 2001 and Soul Care 2016. Author to check."
+  # RESOLVED 2026-11-27 by search: Prayers That Heal the Heart, Bridge-Logos 2001 (Open Library),
+  # revised and expanded 2021; Soul Care, Carpenter's Son 2016. Study guide PDF (c) 2021, text
+  # extracted: principle 7 = deliverance; authority quote verbatim (one stray full stop removed);
+  # "more of God" / "it's all about life change" NOT in it, so replaced with its own words.
+  - "Virkler seven roots / seven prayers and 'sin energy' unverified: cwgministries.org returns 403; a third-party summary lists the prayers differently (incl. 'experiencing the Spirit of life'). Check against the book."
+  - "Dickerman (liberatedliving.info) and Williams (andreabygrace.com) pages are offline; quotes kept, unverifiable from here (web.archive.org blocked in this environment)."
+  - "Two unattributed register lines removed ('He may speak things...', 'fresher and newer anointing'): no source found by exact-phrase search."
 
 last_updated: "2026-11-26"

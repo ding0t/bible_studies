@@ -84,7 +84,10 @@ evidence:
   - {id: 1pet-5-8-esv, what: "sober-minded", tool: study_verse, args: {book: 1Pet, chapter: 5, verse: 8, work_id: esv-study-bible}, path: "0.text", expect_contains: "Be sober-minded; be watchful", checked: 2026-11-26}
 
 open_questions:
-  - "Whether the block quote opening 'The preparation' is quoted or the site's own words (backlog decision; left verbatim)."
+  # RESOLVED 2026-11-27: the old block quote (lead-in + four-item list) is NOT in Bradley's article
+  # (fetched). Replaced by her own sentence on the stages before a session; the four items kept as
+  # the site's own unquoted list (no source found for them).
+  - "The four-item preparation list is the site's own summary; no source located for it."
   - "Summary claim that manifesting believers have usually been led through self-emptying first has no source on the page."
   - "No Key Takeaways or discussion questions yet (backlog 'new wording only the author can write')."
 

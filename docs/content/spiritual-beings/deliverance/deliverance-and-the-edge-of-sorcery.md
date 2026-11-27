@@ -84,8 +84,8 @@ In Jesus' name. Amen.
 ## Study outline
 
 - [Philippi: the passage in its setting](#philippi-the-passage-in-its-setting). Where Acts 16:16-18
-  sits, the verb Luke uses for the girl's fortune-telling, what Paul did, and how Luke tells it as
-  he told Gerasa.
+  sits, the verb Luke uses for the girl's fortune-telling, what Paul did, how Luke tells it as he
+  told Gerasa, and whether one narrative scene binds.
 - [Four tests](#four-tests). Silence the spirit; rest on Jesus; weigh confession; rejoice in your
   name written in heaven. Includes the Gerasene counter-example.
 - [When a believer manifests](#when-a-believer-manifests). Indwelling, oppression, and suggestion.
@@ -93,7 +93,8 @@ In Jesus' name. Amen.
   God gave His people.
 - [Discussion questions](#discussion-questions). Five, for a group or on your own.
 - [Annex: what Scripture says about demons](#annex-what-scripture-says-about-demons). The New
-  Testament's direct statements, in one table.
+  Testament's direct statements, in one table, with the contested reading of Jude 8 and 2 Peter
+  2:10 and a caution on Matthew 12:43.
 
 ## Philippi: the passage in its setting
 

@@ -9,6 +9,7 @@ date_modified: 2026-11-27
 ai_provider_models:
   - anthropic/claude-opus-4.8
   - anthropic/claude-opus-5
+  - anthropic/claude-opus-5.5
   - anthropic/claude-sonnet-5
 ---
 
@@ -21,15 +22,10 @@ does not have the Holy Spirit is not in dispute. "Demonized" translates the same
 "demon-possessed" (see the [word study in Christians and Deliverance Ministry](christians-and-deliverance.md#the-key-term-demonized)),
 so the milder-sounding word carries the same claim.
 
-The quotations were gathered by search, and the survey makes no claim to be complete. Two lines
-heard in this teaching, from no single ministry below, give its register:
-
-> He may speak things that seem strange and unusual to you, but it is the Holy Spirit.
->
-> You are receiving a fresher and newer anointing.
-
 Your time is better spent reading God's Word. This survey is for anyone already influenced by one of
 these ministries.
+
+**In one sentence:** Every ministry surveyed here offers more than Christ has given, and the texts behind its vocabulary, read in context, show that God has already cancelled your debt at the cross, disarmed the powers and filled you in Christ, so you need nothing added to Him.
 
 ## What the ministries share
 
@@ -44,7 +40,13 @@ The same pattern recurs in every ministry below:
 term in its context. [Christians and Deliverance Ministry](christians-and-deliverance.md) gives the
 biblical case against a believer being "demonized," word study included.
 
-## Don Dickerman
+## The ministries, in their own words
+
+The quotations were gathered by search, and the survey makes no claim to be complete. Each is
+quoted from the source linked with it. Two of those pages are no longer online (checked November
+2026), and they are marked where they appear.
+
+### Don Dickerman
 
 <https://www.liberatedliving.info/>
 
@@ -52,6 +54,7 @@ biblical case against a believer being "demonized," word study included.
 God-given right to be there.
 
 [On demons in a believer](https://www.liberatedliving.info/can-evil-spirits-live-in-a-believer/)
+(no longer online; the address now redirects to dondickerman.com)
 
 > Perhaps it will help you to understand and receive the truth if you can see the comparison. As long as you remain blind to the truth you will be subject to deception and control. It is difficult to combat an enemy you don't know you have. If you will search scripture with Holy Spirit guidance you will see the truth and once you do you can help to liberate others. If the scripture was not clear enough on this, I would have to believe it anyway after experiencing thousands of believers being delivered of demons! One of the foremost Southern Baptist preachers in America recently was delivered of demons.
 >
@@ -62,7 +65,7 @@ unforgiving servant (Matthew 18:34). The ESV reads "his master delivered him to 
 Greek βασανισταί (*basanistai*, bah-sah-nis-TIE) are the king's torturers. The parable names no
 demons. The "right to be there" is weighed [below](#a-god-given-right-to-be-there).
 
-## Andrea Williams
+### Andrea Williams
 
 Williams trained with Don Dickerman's ministry in March 2020.
 
@@ -70,6 +73,7 @@ Williams trained with Don Dickerman's ministry in March 2020.
 strongholds take several sessions to clear, and staying free is a choice.
 
 [Commentary on mechanics](https://www.andreabygrace.com/blog/deliverancemisconceptions)
+(no longer online)
 
 > Eventually, the Lord guided me to lead my daughter through deliverance from spiritual oppression enough to get her functioning again. We were able to identify a spirit of fear and a spirit of death that were tormenting her. The spirit of death came through her listening to and singing the lyrics of a song on the radio. I was relieved, but I still wasn't satisfied. I wanted to know for sure that those things, those demons that had been tormenting were all gone. Every. Last. One. Of. Them. I wanted that root cause completely gone, and I wanted evidence to prove it.
 >
@@ -77,9 +81,10 @@ strongholds take several sessions to clear, and staying free is a choice.
 
 [Another reference](https://www.andreabygrace.com/blog/OvercomingAnxietyAndFear)
 
-## Virkler
+### Mark and Patti Virkler
 
-*Prayers That Heal the Heart* (2021) shares substantial similarity with the Rob Reimer material below, published somewhat later.
+Mark and Patti Virkler's *Prayers That Heal the Heart* (Bridge-Logos, 2001; revised and expanded,
+2021) shares substantial similarity with Rob Reimer's *Soul Care* (2016), below.
 
 [Source of resources](https://www.cwgministries.org/free-resources-prayers-that-heal-the-heart)
 
@@ -98,21 +103,23 @@ strongholds take several sessions to clear, and staying free is a choice.
 The material also urges you to confess any sin in your life so that you are not cut off from
 ongoing revelation (Isaiah 59:1-2; 1 John 1:9).
 
-## Rob Reimer
+### Rob Reimer
 
-Reimer calls his framework "soul care." Its recurring phrases include "more of God" and "it's all
-about life change."
+Reimer calls his framework "soul care": seven principles, set out in *Soul Care: 7
+Transformational Principles for a Healthy Soul* (2016) and a study guide (© 2021). The guide's
+seventh principle is deliverance. Its goal is "life change": it asks whether "you keep sinning in
+the same direction without life change" (principle 2).
 
 **The claim.** Spiritual authority is developmental: you grow it, and you need it to drive out
 demons.
 
-### Seeking authority
+#### Seeking authority
 
 Soul care's seventh principle is deliverance, framed around developing personal spiritual authority:
 
-> Consider authority. Jesus cast out demons by authority. Jesus gave his disciples authority to drive out demons and heal the sick (Matthew 10:1). Authority is developmental. Are you developing authority? Is it demonstrated in your life? Are you utilizing the authority that you have developed to advance the Kingdom of God? How can you develop your authority further? (Note: Dr Rob Reimer's book *Spiritual Authority* looks at how to develop spiritual authority and can be a useful resource on this subject.) What practical action steps are you going to take to intentionally grow in spiritual authority? Read a book, like *Spiritual Authority*. Join a conference like the Deliverance Training Workshop. Join a ministry team in your local church. Dialog with the Holy Spirit to see if He invites you into anything specific.
+> Consider authority. Jesus cast out demons by authority. Jesus gave his disciples authority to drive out demons and heal the sick (Matthew 10:1). Authority is developmental. Are you developing authority? Is it demonstrated in your life? Are you utilizing the authority that you have developed to advance the Kingdom of God? How can you develop your authority further? (Note: Dr Rob Reimer's book *Spiritual Authority* looks at how to develop spiritual authority and can be a useful resource on this subject) What practical action steps are you going to take to intentionally grow in spiritual authority? Read a book, like *Spiritual Authority*. Join a conference like the Deliverance Training Workshop. Join a ministry team in your local church. Dialog with the Holy Spirit to see if He invites you into anything specific.
 
-### Critique
+#### A critique: Lectio Divina and Bethel
 
 A [third-party critique](https://whputnam00.blogspot.com/2014/04/reimer-loses-his-way-in-pathways-to.html)
 raises two concerns:
@@ -120,10 +127,20 @@ raises two concerns:
 - The use of contemplative meditation techniques (*Lectio Divina*).
 - Overlap with [wider concerns raised about the Bethel movement](https://shepherdguardian.wordpress.com/2014/01/29/heresy-alert-why-jesus-culture-bethel-church-and-bethels-school-of-supernatural-ministry-are-spiritually-dangerous-part-3-of-3/).
 
-### Sources
+#### Sources
 
-- [Soul care workbook](https://static1.squarespace.com/static/57ab83cacd0f68541d8792b6/t/643fde48589d441789a5f684/1681907273145/Soul+Care+Study+Guide.pdf)
-- <https://www.cma.org.au/ministries/deeper-life-seminars>
+- [*Processing Soul Care*](https://static1.squarespace.com/static/57ab83cacd0f68541d8792b6/t/643fde48589d441789a5f684/1681907273145/Soul+Care+Study+Guide.pdf),
+  Rob Reimer's study guide (© 2021, Renewal International). The authority quotation is from its
+  principle 7, verified against it November 2026.
+- [CMA Australia, Deeper Life seminars](https://www.cma.org.au/ministries/deeper-life-seminars)
+  (now behind a login).
+
+### Related, not yet surveyed
+
+- **Bethel Church** represents a related strand of the same broader movement. See
+  [a third-party review of Bill Johnson's *When Heaven Invades Earth*](https://www.9marks.org/review/book-review-when-heaven-invades-earth-by-bill-johnson/).
+- **Toach Ministries**: [7 signs you need deliverance](https://www.toach-ministries.com/our-blog/2021/8/25/7-signs-you-need-deliverance).
+- **Ellel Ministries**: another ministry in the same space.
 
 ## The vocabulary, weighed
 
@@ -176,17 +193,10 @@ not rejoice in this, that the spirits are subject to you, but rejoice that your 
 heaven" (Luke 10:20, ESV). The authority is His gift and rests on Him: "All authority in heaven and
 on earth has been given to me" (Matthew 28:18, ESV).
 
-### "More of God"
+### More than Christ has given
 
 "For in him the whole fullness of deity dwells bodily, and you have been filled in him, who is the
 head of all rule and authority" (Colossians 2:9-10, ESV). "You have been filled" is the perfect
 participle πεπληρωμένοι (*peplērōmenoi*): filled, and still full. Paul wrote it to a church being
 offered something beyond Christ: "See to it that no one takes you captive by philosophy and empty
 deceit... and not according to Christ" (Colossians 2:8, ESV).
-
-## Related, not yet surveyed
-
-- **Bethel Church** represents a related strand of the same broader movement. See
-  [a third-party review of Bill Johnson's *When Heaven Invades Earth*](https://www.9marks.org/review/book-review-when-heaven-invades-earth-by-bill-johnson/).
-- **Toach Ministries**: [7 signs you need deliverance](https://www.toach-ministries.com/our-blog/2021/8/25/7-signs-you-need-deliverance).
-- **Ellel Ministries**: another ministry in the same space.

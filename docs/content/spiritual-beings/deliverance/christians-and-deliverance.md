@@ -46,31 +46,42 @@ you; it can attack you from outside, and you answer it by submitting to God and 
 
 - [What deliverance ministry teaches](#what-deliverance-ministry-teaches). The preparation for a
   session, and what the teaching adds to the cross.
-- [The key term: "demonized"](#the-key-term-demonized). δαιμονίζομαι through its 13 occurrences,
-  Luke's one use, and Paul's different word for his own affliction.
-- [A demon cannot indwell a Christian](#a-demon-cannot-indwell-a-christian). Three reasons, and the
-  empty house of Matthew 12 read in its argument about houses.
-- [The texts offered for a demonized believer](#the-texts-offered-for-a-demonized-believer).
-  Ephesians 4:27, Ananias, the bent woman, Peter and "a different spirit", each with its case.
+- [The key term: "demonized"](#the-key-term-demonized). Where δαιμονίζομαι comes from, its 13
+  occurrences (Luke's one use and John 10's onlooker among them), and Paul's different word for his
+  own affliction.
+- [A demon cannot indwell a Christian](#a-demon-cannot-indwell-a-christian). Three reasons, the
+  third with the empty house of Matthew 12 read in its argument about houses, and the danger of
+  self-emptying.
+- [The texts offered for a demonized believer](#the-texts-offered-for-a-demonized-believer) and
+  [Accounting for manifestations](#accounting-for-manifestations). Ephesians 4:27, Ananias, the bent
+  woman, Peter and "a different spirit", each read in its context; then the signs seen in sessions,
+  and diagnostic techniques close to divination.
 - [What Scripture calls deliverance](#what-scripture-calls-deliverance) and
   [How a believer stands](#how-a-believer-stands). The verb ῥύομαι in its three tenses, and the one
   verb three apostles give for facing the devil.
-- [Accounting for manifestations](#accounting-for-manifestations) and
-  [What this shows about God](#what-this-shows-about-god).
+- [What this shows about God](#what-this-shows-about-god).
 
 ## What deliverance ministry teaches
 
 ### The preparation
 
 As commonly practised, deliverance ministry has the believer work toward a freedom Christ has
-already given. A typical preparatory process looks like this:
+already given. Amy Bradley, who once led deliverance sessions, describes the stages before
+them:
 
-> This is the preparatory work done before deliverance — it is not the deliverance itself:
+> Multiple meetings typically took place prior to an actual deliverance session: a consult, followed by counsel, followed by preparatory details . . . all leading up to the actual sequence of deliverance sessions.
 >
-> - Confirm all your confessions are current.
-> - Reveal family secrets.
-> - Identify any historical addiction or abuse.
-> - Identify any occult activity.
+> — Amy Bradley, "Why I Don't 'Do' Deliverance Ministry Anymore (Part 1)" (2019)
+
+The preparatory details usually ask the person to:
+
+- confirm all their confessions are current;
+- reveal family secrets;
+- identify any historical addiction or abuse;
+- identify any occult activity.
+
+Bradley stopped. The people she ministered to were survivors of severe abuse, and she "quickly came
+to believe that it was, in fact, re-traumatizing them instead."
 
 ### What it adds to the cross
 
@@ -235,7 +246,7 @@ Matthew 12:43 wanders through places.
 >
 > 12 and they begged him, saying, "Send us to the pigs; let us enter them."
 
-#### The empty house
+#### The empty house, and the danger of self-emptying
 
 Jesus tells this picture at the end of an argument about houses. Accused of casting out demons by
 Beelzebul, He answers that "no city or house divided against itself will stand" (Matthew 12:25, ESV).
@@ -324,6 +335,20 @@ Each text describes temptation, deception or affliction from outside. Each is an
 by repentance, by the truth or by Jesus' healing. None shows a spirit cast out of someone the Holy
 Spirit indwells.
 
+## Accounting for manifestations
+
+Christians in deliverance sessions do shake, cough and cry out. The session's own method, its
+passivity, suggestion and expectation, is enough to produce these signs. So the question is whether
+the signs are demonic or a predictable response to the method. Where a spirit is involved in a
+believer's distress, it is oppressing them from outside;
+[Deliverance and the Edge of Sorcery](deliverance-and-the-edge-of-sorcery.md#when-a-believer-manifests)
+sets out the explanations.
+
+Christians can wander unawares into practices closer to [sorcery](../../sin/sorcery.md) than to
+biblical prayer and confession. Some diagnostic techniques, such as naming specific "spirits" by
+discernment or tracing generational curses, sit close to the divination Scripture condemns
+(Deuteronomy 18:10-11). Sincere Christian intent does not change what the practice is.
+
 ## What Scripture calls deliverance
 
 "Delivered" in Colossians 1:13 is ῥύομαι (*rhyomai*, HROO-oh-my, G4506), "to rescue". It occurs in
@@ -363,20 +388,6 @@ Peter puts it in a posture: "Be sober-minded; be watchful" (1 Peter 5:8, ESV), �
 None of the three letters tells a believer to have the devil cast out of them. Each tells the
 believer to stand.
 
-## Accounting for manifestations
-
-Christians in deliverance sessions do shake, cough and cry out. The session's own method, its
-passivity, suggestion and expectation, is enough to produce these signs. So the question is whether
-the signs are demonic or a predictable response to the method. Where a spirit is involved in a
-believer's distress, it is oppressing them from outside;
-[Deliverance and the Edge of Sorcery](deliverance-and-the-edge-of-sorcery.md#when-a-believer-manifests)
-sets out the explanations.
-
-Christians can wander unawares into practices closer to [sorcery](../../sin/sorcery.md) than to
-biblical prayer and confession. Some diagnostic techniques, such as naming specific "spirits" by
-discernment or tracing generational curses, sit close to the divination Scripture condemns
-(Deuteronomy 18:10-11). Sincere Christian intent does not change what the practice is.
-
 ## What this shows about God
 
 God does not leave His children half-delivered. He "has delivered us from the domain of darkness and
@@ -391,7 +402,9 @@ who is in Christ.
 
 ## References
 
-- [Why not focus on deliverance](https://lifelibertyandlove.com/item/40-why-i-don-t-do-deliverance-ministry-anymore-part-1)
+- Amy Bradley, [Why I Don't "Do" Deliverance Ministry Anymore (Part 1)](https://lifelibertyandlove.com/item/40-why-i-don-t-do-deliverance-ministry-anymore-part-1),
+  *Life, Liberty and Love*, 16 August 2019: the stages before a session, and why she gave
+  deliverance sessions up.
 - [Contemporary Deliverance in Christianity](contemporary-deliverance.md): a survey of specific
   contemporary deliverance ministries and their teachings.
 - [Deliverance and the Edge of Sorcery](deliverance-and-the-edge-of-sorcery.md): where deliverance
