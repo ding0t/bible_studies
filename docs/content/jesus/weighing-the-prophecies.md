@@ -47,7 +47,7 @@ it about through hands that could not have arranged it.
   came out of Egypt, was tested forty days in the wilderness, and answered every temptation from
   Deuteronomy (Matthew 4:4, 7, 10).
 - **He speaks in the Psalms.** "When Christ came into the world, He said" Psalm 40's words (Hebrews
-  10:5, BSB). Fourteen of the sixteen texts the ledger marks as spoken in His voice are psalms.
+  10:5, BSB). Fifteen of the eighteen Old Testament texts the New Testament puts in His mouth are psalms.
 - **All of Scripture testifies about Him.** "These are the very words that testify about Me" (John
   5:39, BSB): the Law, the Prophets and the Psalms (Luke 24:44).
 
@@ -313,8 +313,8 @@ suffering come from the Psalms. The New Testament hears Christ speaking in them:
 The words are Psalm 40:6, and Hebrews gives them to Christ at His coming into the world. "He says: 'I
 will proclaim Your name to My brothers'" (Hebrews 2:12, BSB) is Psalm 22:22. Peter calls David the
 speaker and the prophet both: "But he was a prophet... Foreseeing this, David spoke about the
-resurrection of the Christ" (Acts 2:30-31, BSB), of Psalm 16:10. Of the 16 texts the ledger marks as
-spoken in His voice, 14 are psalms. In the Psalms the prophecy of Christ is a prayer, and much of it
+resurrection of the Christ" (Acts 2:30-31, BSB), of Psalm 16:10. Of the 18 texts in the ledger that
+the New Testament puts in His mouth, 15 are psalms. In the Psalms the prophecy of Christ is a prayer, and much of it
 is a prayer He prayed from the cross (Psalm 22:1; 31:5).
 
 ### Hands that could not arrange it

@@ -5,9 +5,9 @@ description: "Balak paid Balaam to curse Israel. A donkey saw the angel first, t
 tags: ["person/balaam", "method/archaeology", "method/word-study", "lang/hebrew", "numbers", "old-testament", "prophecy-fulfilled"]
 draft: false
 primary_passage: "Numbers 22:21-35; Numbers 24:15-19"
-bible_references: ["Numbers 22:1-20", "Numbers 23:1-30", "Numbers 24:1-14", "Numbers 24:20-25", "Genesis 12:3", "Genesis 27:29", "Genesis 28:14", "Genesis 37:9", "Genesis 49:9-10", "Numbers 2:2", "Numbers 21:21-35", "Numbers 25:1-3", "Numbers 31:8", "Numbers 31:16", "Deuteronomy 3:29", "Deuteronomy 4:19", "Deuteronomy 18:10-12", "Deuteronomy 18:18-19", "Deuteronomy 23:3-5", "Deuteronomy 33:8-11", "Deuteronomy 34:1-6", "Joshua 6:26", "Joshua 13:22", "Joshua 24:9-10", "2 Samuel 8:2", "Nehemiah 13:1-2", "Job 38:7", "Psalm 2:9", "Psalm 110:1", "Proverbs 26:2", "Isaiah 9:6", "Micah 5:2", "Micah 6:5", "Amos 5:26", "Zechariah 9:9", "Matthew 2:1-2", "Matthew 22:42-45", "Romans 8:31-34", "1 Corinthians 10:6-11", "Galatians 3:13-14", "Ephesians 1:3", "2 Peter 2:15-16", "Jude 11", "Revelation 2:14", "Revelation 5:5", "Revelation 22:16", "Genesis 31:13", "Exodus 23:20-21", "1 Corinthians 10:4", "Jude 5", "Revelation 22:8-9", "Genesis 12:16", "Genesis 24:10", "Genesis 24:31", "Genesis 24:50", "Genesis 31:19", "Genesis 31:30", "Genesis 49:11", "Exodus 23:5", "Judges 5:10", "2 Kings 4:22-24", "Job 1:3", "Proverbs 26:3", "Joshua 24:2", "Matthew 21:2-7", "Revelation 2:26-28"]
+bible_references: ["Numbers 22:1-20", "Numbers 23:1-30", "Numbers 24:1-14", "Numbers 24:20-25", "Genesis 12:3", "Genesis 27:29", "Genesis 28:14", "Genesis 37:9", "Genesis 49:9-10", "Numbers 2:2", "Numbers 21:21-35", "Numbers 25:1-3", "Numbers 31:8", "Numbers 31:16", "Deuteronomy 3:29", "Deuteronomy 4:19", "Deuteronomy 18:10-12", "Deuteronomy 18:18-19", "Deuteronomy 23:3-5", "Deuteronomy 33:8-11", "Deuteronomy 34:1-6", "Joshua 6:26", "Joshua 13:22", "Joshua 24:9-10", "2 Samuel 8:2", "Nehemiah 13:1-2", "Job 38:7", "Psalm 2:9", "Psalm 110:1", "Proverbs 26:2", "Isaiah 9:6", "Micah 5:2", "Micah 6:5", "Amos 5:26", "Zechariah 9:9", "Matthew 2:1-2", "Matthew 22:42-45", "Romans 8:31-34", "1 Corinthians 10:6-11", "Galatians 3:13-14", "Ephesians 1:3", "2 Peter 2:15-16", "Jude 11", "Revelation 2:14", "Revelation 5:5", "Revelation 22:16", "Genesis 31:13", "Exodus 23:20-21", "1 Corinthians 10:4", "Jude 5", "Revelation 22:8-9", "Genesis 12:16", "Genesis 24:10", "Genesis 24:31", "Genesis 24:50", "Genesis 31:19", "Genesis 31:30", "Genesis 49:11", "Exodus 23:5", "Judges 5:10", "2 Kings 4:22-24", "Job 1:3", "Proverbs 26:3", "Joshua 24:2", "Matthew 21:2-7", "Revelation 2:26-28", "Hosea 11:1", "Matthew 2:15"]
 date_created: 2026-11-08
-date_modified: 2026-11-09
+date_modified: 2026-11-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -339,7 +339,18 @@ words. God's promise to Abraham stands behind both (Genesis 12:3). The lion who 
 down" echoes Jacob's blessing on Judah, "Like a lion he crouches and lies down; like a lioness, who
 dares to rouse him?" (Genesis 49:9, BSB). The same question belongs to the tribe that carries the
 scepter (Genesis 49:10), and John hears the lion named in Christ: "the Lion of the tribe of Judah,
-the Root of David" (Revelation 5:5, BSB). Balak counts the result: "you have persisted in blessing them these
+the Root of David" (Revelation 5:5, BSB).
+
+The oracle has a king in it too. "His king will be greater than Agag" (Numbers 24:7, BSB), and the
+next verse says "God brought him out of Egypt" (Numbers 24:8, BSB). The verb is singular,
+<span dir="rtl">מוֹצִיאוֹ</span> (*motsi'o*, H3318), where the second oracle had "them",
+<span dir="rtl">מוֹצִיאָם</span> (*motsi'am*, Numbers 23:22). The "him" may be Jacob, the people as
+one man, or the king just named, and the text allows both. The Septuagint, translated before Christ,
+read a person: "a man shall come forth from his seed" (Numbers 24:7, Brenton LXX; translation ours).
+[Weighing the Prophecies](../jesus/weighing-the-prophecies.md#did-hosea-see-further) weighs that
+reading behind Hosea 11:1 and Matthew 2:15.
+
+Balak counts the result: "you have persisted in blessing them these
 three times" (Numbers 24:10, BSB). Three blows on the road, three blessings from the mountains.
 
 ## The Star and the Scepter
@@ -503,7 +514,8 @@ story of Numbers 22-24, and Numbers is what this study stands on. The full entry
 
 - Scripture: Berean Standard Bible (BSB) throughout, public domain; English Standard Version (ESV),
   quoted at Numbers 24:4, and checked against its text. The unfoldingWord Literal Text (ULT) and the
-  LSB's and CSB's footnotes compared for Numbers 22-24.
+  LSB's and CSB's footnotes compared for Numbers 22-24. The Septuagint at Numbers 24:7 from Brenton's
+  edition (public domain), translation ours.
 - Joel P. Kramer, Expedition Bible, [*Archaeology for "the Star who will come from
   Jacob"*](https://www.youtube.com/watch?v=Qrv1_C-I3Es) (YouTube, 6 January 2023). The source for
   the location of Shittim, Peor, Pisgah and Bamoth-baal, and for the suggestion about the Magi's road.

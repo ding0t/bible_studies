@@ -126,7 +126,7 @@ review_2026_11_27:
     npm run validate: no warning for this file; mkdocs build --strict passes with the page flipped
     to published (flipped back); every local and cross-page anchor resolves.
   for_the_author:
-    - "Ledger data, not edited: add speaker = 'messiah' to into-your-hand (Luke 23:46) and i-and-the-children (Hebrews 2:13); the prose would then read 15 of 18."
+    - "DONE 2026-11-28 at the author's word: speaker = 'messiah' on into-your-hand (Luke 23:46) and i-and-the-children (Hebrews 2:13); the prose reads 15 of 18."
     - "FIXED 2026-11-28: qumran_index counted reconstructed words and letterless verse dividers as copies (Hosea 11:1 / 4Q82); see foretold-long-ago.yml."
-    - "Enrichment offers: The Donkey and Her Prophet (Numbers 24:8 singular 'him', LXX 24:7 'a man'); Known Before, Seen After (Hosea 11:1)."
+    - "DONE 2026-11-28: enrichment added to The Donkey and Her Prophet (third oracle: Numbers 24:8's singular 'him', LXX 24:7 'a man') and Known Before, Seen After (Hosea 11:1 among the pictures seen after); Known Before's Acts 17:3 sentence trimmed to a link to Foretold Long Ago, which owns Paul's use of the verb."
 last_updated: "2026-11-27"

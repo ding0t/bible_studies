@@ -5,9 +5,9 @@ description: "Before Jesus came, Israel read the prophecies of the Messiah's lin
 tags: ["messianic-prophecy", "prophecy-fulfilled", "luke", "acts", "dead-sea-scrolls", "method/word-study", "lang/greek"]
 draft: false
 primary_passage: "Luke 24:25-27; Luke 24:44-46; Acts 13:27"
-bible_references: ["Luke 24:25-27", "Luke 24:44-46", "Acts 13:27", "John 12:34", "Matthew 16:21-22", "Luke 9:45", "Luke 18:34", "Mark 9:32", "Acts 1:20", "Psalm 69:25", "Psalm 109:8", "Psalm 38:11", "Luke 23:49", "Zechariah 13:7", "Psalm 2:1-2", "Psalm 89:36-37", "Sirach 48:10", "Luke 24:16", "Luke 24:21", "Luke 24:31-32", "Acts 3:17-18", "1 Corinthians 2:7-8", "1 Peter 1:10-12", "John 2:22", "John 12:16", "John 20:9", "John 7:39", "Matthew 2:4-6", "John 7:42", "John 1:21", "Mark 9:11", "Luke 2:25-26", "Acts 2:23", "Acts 4:27-28", "John 19:28", "John 19:24", "John 19:36-37", "Matthew 27:9-10", "Matthew 21:2-5", "Acts 17:3", "Genesis 49:10", "Numbers 24:17", "Deuteronomy 18:15-19", "2 Samuel 7:12-16", "Isaiah 11:1-4", "Psalm 2:9", "Isaiah 53:5", "Psalm 22:18", "Zechariah 11:12-13", "Acts 3:19"]
+bible_references: ["Luke 24:25-27", "Luke 24:44-46", "Acts 13:27", "John 12:34", "Matthew 16:21-22", "Luke 9:45", "Luke 18:34", "Mark 9:32", "Acts 1:20", "Psalm 69:25", "Psalm 109:8", "Psalm 38:11", "Luke 23:49", "Zechariah 13:7", "Psalm 2:1-2", "Psalm 89:36-37", "Sirach 48:10", "Luke 24:16", "Luke 24:21", "Luke 24:31-32", "Acts 3:17-18", "1 Corinthians 2:7-8", "1 Peter 1:10-12", "John 2:22", "John 12:16", "John 20:9", "John 7:39", "Matthew 2:4-6", "John 7:42", "John 1:21", "Mark 9:11", "Luke 2:25-26", "Acts 2:23", "Acts 4:27-28", "John 19:28", "John 19:24", "John 19:36-37", "Matthew 27:9-10", "Matthew 21:2-5", "Acts 17:3", "Genesis 49:10", "Numbers 24:17", "Deuteronomy 18:15-19", "2 Samuel 7:12-16", "Isaiah 11:1-4", "Psalm 2:9", "Isaiah 53:5", "Psalm 22:18", "Zechariah 11:12-13", "Acts 3:19", "Hosea 11:1", "Matthew 2:15"]
 date_created: 2026-11-26
-date_modified: 2026-11-27
+date_modified: 2026-11-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -272,8 +272,8 @@ burning within us as He... opened the Scriptures to us?" (Luke 24:32, BSB). And 
 > 44 Jesus said to them, "These are the words I spoke to you while I was still with you: Everything must be fulfilled that is written about Me in the Law of Moses, the Prophets, and the Psalms." 45 Then He opened their minds to understand the Scriptures. 46 And He told them, "This is what is written: The Christ will suffer and rise from the dead on the third day,
 
 The word occurs eight times in the SBLGNT, seven of them in Luke and Acts (the eighth is Mark 7:34). Its last use is Paul
-in Thessalonica, "explaining and proving that the Christ had to suffer and rise from the dead" (Acts
-17:3, BSB): the apostles opened to others what had been opened to them.
+in Thessalonica (Acts 17:3), which [Foretold Long Ago](foretold-long-ago.md#opening-and-setting-before)
+follows.
 
 ### Sufferings, then glories
 
@@ -285,7 +285,10 @@ they were seen after.
 
 The Old Testament pictures of the gospel that were seen only afterwards, the Passover lamb, the
 bronze serpent and the Day of Atonement among them, are the subject of [The Gospel in the Old
-Testament](../series/the-gospel-in-the-old-testament.md).
+Testament](../series/the-gospel-in-the-old-testament.md). Hosea 11:1 is another. "Out of Egypt I
+called My son" (Hosea 11:1, BSB) remembered the exodus, and no Jewish source reads it of the
+Messiah. Matthew saw it fulfilled when the child came out of Egypt (Matthew 2:15). [Weighing the
+Prophecies](weighing-the-prophecies.md#out-of-egypt-one-prophecy-weighed) works through it.
 
 ## Why God hid it
 
