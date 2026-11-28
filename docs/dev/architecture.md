@@ -204,7 +204,7 @@ short. `AGENTS.md` keeps the rules that break things if forgotten.
   at build time: a Sankey from Luke 24:44's Law, Prophets and Psalms through each subject to the New
   Testament book; a wheel of subjects; a grid of who brought each about against whether it was read
   beforehand), its filter bar (behaviour for both in `app/src/entries/prophecy-filter.js`, where each
-  mark in a plate is a choice and the plates dim to the cards left showing) and the study's chance
+  mark in a plate is a choice and the plates dim to the cards left showing, and each fact on a card is a choice too, through the same facet:value pairs (`_pivot`)) and the study's chance
   floor (its moments link to the
   ledger's cards), adds "Prophecies of Christ" to each
   generated commentary chapter page, and writes `assets/popups/prophecies.json`, which the verse

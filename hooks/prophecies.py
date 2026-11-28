@@ -200,12 +200,20 @@ def _copy(row: dict) -> str:
     return ""
 
 
+def _pivot(html: str, pick: str | None) -> str:
+    """A fact on a card that is also a filter: `pick` is the facet:value it chooses, the same pairs
+    the explorer's marks carry, and app/src/entries/prophecy-filter.js makes it a button. A card
+    outside the filter (a New Testament prediction) passes None and its facts stay plain text."""
+    return f'<span class="pc-pivot" data-pick="{escape(pick)}">{html}</span>' if pick else html
+
+
 def _use(use: dict) -> str:
-    parts = [USE_KINDS.get(use["kind"], use["kind"])]
-    if USE_TEXTS.get(use.get("text", "none")):
-        parts.append(USE_TEXTS[use["text"]])
+    kind = escape(USE_KINDS.get(use["kind"], use["kind"]))
+    text = use.get("text", "none")
+    if USE_TEXTS.get(text):
+        kind += "; " + _pivot(escape(USE_TEXTS[text]), f"text:{text}")
     note = f'<span class="pc-use-note">{_text(use["note"])}</span>' if use.get("note") else ""
-    return f'<li><b>{escape(use["ref"])}</b> <span class="pc-kind">{escape("; ".join(parts))}</span> {note}</li>'
+    return f'<li><b>{escape(use["ref"])}</b> <span class="pc-kind">{kind}</span> {note}</li>'
 
 
 def _pole(kind: str, label: str, text: str) -> str:
@@ -237,24 +245,31 @@ def _takeaway(e: dict, years: int | None, fulfilled: str, rest: str) -> str:
     return f'<div class="pc-takeaway{single}">{out}</div>'
 
 
-def _facts(rows: list[tuple[str, str]]) -> str:
-    return '<dl class="pc-facts">' + "".join(f"<dt>{escape(k)}</dt><dd>{escape(v)}</dd>" for k, v in rows if v) + "</dl>"
+def _facts(rows: list[tuple[str, str, str | None]]) -> str:
+    """(label, value, facet:value or None) rows; a row with a pick is a filter as well as a fact."""
+    return '<dl class="pc-facts">' + "".join(
+        f"<dt>{escape(k)}</dt><dd>{_pivot(escape(v), pick)}</dd>" for k, v, pick in rows if v) + "</dl>"
 
 
-def _head(e: dict, extra: str = "") -> str:
-    form = ' <span class="pc-form">a type</span>' if e.get("form") == "type" else ""
-    return (f'<header class="pc-head"><b class="pc-ref">{escape(e["prophecy"])}</b>{form}{extra}'
-            f'<span class="pc-status">{escape(STATUS[e["status"]])}</span></header>')
+def _head(e: dict, pivots: bool = True) -> str:
+    form = (" " + _pivot('<span class="pc-form">a type</span>', "feature:type" if pivots else None)
+            if e.get("form") == "type" else "")
+    status = _pivot(escape(STATUS[e["status"]]), f"status:{e['status']}" if pivots else None)
+    return (f'<header class="pc-head"><b class="pc-ref">{escape(e["prophecy"])}</b>{form}'
+            f'<span class="pc-status">{status}</span></header>')
 
 
 def _card(e: dict) -> str:
     row = _computed.get(e["id"], {})
     years = row.get("years_ahead_traditional") if row.get("fulfilled") is not None else None
     takeaway = _takeaway(e, years, _text(e.get("came_to_pass", "")), _text(e.get("still_to_come", "")))
-    facts = _facts([("Written", _years(row)), ("Oldest copy", _copy(row)),
-                    ("Read of the Messiah", RECOGNITION.get(e.get("recognition", "unassessed"), "")),
-                    ("Brought about by", CONTROL.get(e.get("control", ""), "")),
-                    ("The New Testament", TIERS[e["tier"]])])
+    recognition = e.get("recognition", "unassessed")
+    facts = _facts([("Written", _years(row), None),
+                    ("Oldest copy", _copy(row), "feature:manuscript" if row.get("manuscript_before") else None),
+                    ("Read of the Messiah", RECOGNITION.get(recognition, ""),
+                     None if recognition == "unassessed" else f"recognition:{recognition}"),
+                    ("Brought about by", CONTROL.get(e.get("control", ""), ""), f"control:{e.get('control', '')}"),
+                    ("The New Testament", TIERS[e["tier"]], f"tier:{e['tier']}")])
     uses = "".join(_use(u) for u in e.get("uses", []))
     uses = f'<p class="pc-sub">Where the New Testament uses it</p><ul class="pc-uses">{uses}</ul>' if uses else ""
     first = ""
@@ -266,7 +281,7 @@ def _card(e: dict) -> str:
     split = ""
     if e.get("split"):
         s = e["split"]
-        split = (f'<p class="pc-split"><b>Two comings in one text</b> Fulfilled: {_text(s["first"])}. '
+        split = (f'<p class="pc-split">{_pivot("<b>Two comings in one text</b>", "feature:split")} Fulfilled: {_text(s["first"])}. '
                  f'Still to come: {_text(s["rest"])}. Divided at {escape(s["at"])}.</p>')
     facets = " ".join(f'data-{k}="{escape(" ".join(v))}"' for k, v in _facets(e).items())
     return f"""<article class="pc-entry pc-{escape(e['status'])}" id="prophecy-{escape(e['id'])}" {facets}>
@@ -280,11 +295,11 @@ def _card(e: dict) -> str:
 def _nt_card(e: dict) -> str:
     # A future prediction is itself what is still to come, so its card has the one panel.
     takeaway = _takeaway(e, None, _text(e.get("came_to_pass", "")), _text(e.get("still_to_come", "")))
-    facts = _facts([("Spoken by", SPEAKERS[e["speaker"]]), ("Fulfilled in", e.get("fulfilment", "")),
-                    ("Written down", RECORDED.get(e.get("recorded", ""), "")),
-                    ("Brought about by", CONTROL.get(e.get("control", ""), ""))])
+    facts = _facts([("Spoken by", SPEAKERS[e["speaker"]], None), ("Fulfilled in", e.get("fulfilment", ""), None),
+                    ("Written down", RECORDED.get(e.get("recorded", ""), ""), None),
+                    ("Brought about by", CONTROL.get(e.get("control", ""), ""), None)])
     return f"""<article class="pc-entry pc-{escape(e['status'])}" id="prophecy-{escape(e['id'])}">
-  {_head(e)}
+  {_head(e, pivots=False)}
   {takeaway}
   <div class="pc-rule"><span>The evidence</span></div>
   {facts}

@@ -514,3 +514,88 @@
     transition: none;
   }
 }
+
+/* A fact on a card that is also a filter (hooks/prophecies.py _pivot). Plain text until the script
+ * makes it a button, so a page without the script shows no control that does nothing. */
+.pc-pivot[role="button"] {
+  cursor: pointer;
+  border-radius: 0.2rem;
+  text-decoration: underline dotted var(--md-default-fg-color--lighter);
+  text-underline-offset: 0.2em;
+}
+
+.pc-pivot[role="button"]:hover,
+.pc-pivot[role="button"]:focus-visible {
+  text-decoration-color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+  outline: none;
+}
+
+.pc-pivot[role="button"]:focus-visible {
+  box-shadow: 0 0 0 2px var(--md-accent-fg-color--transparent);
+}
+
+.pc-pivot[aria-pressed="true"] {
+  background: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+  text-decoration: none;
+  padding: 0 0.25rem;
+}
+
+.pc-pivot[aria-pressed="true"]:hover {
+  color: var(--md-accent-bg-color);
+}
+
+.pc-status .pc-pivot[role="button"] {
+  text-decoration: none;
+}
+
+.pc-status .pc-pivot[aria-pressed="true"] {
+  padding: 0;
+  background: none;
+  color: inherit;
+}
+
+.pc-status:has(.pc-pivot[aria-pressed="true"]) {
+  background: var(--md-accent-fg-color);
+  color: var(--md-accent-bg-color);
+}
+
+.pc-pivot[aria-pressed="true"] .pc-form {
+  color: inherit;
+}
+
+/* The count and a way out, at the foot of the window while the bar is scrolled away. */
+.pc-pill {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  display: flex;
+  border-radius: 1.2rem;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-accent-fg-color);
+  box-shadow: 0 0.2rem 0.8rem rgb(0 0 0 / 20%);
+  font-size: 0.75rem;
+  overflow: hidden;
+}
+
+.pc-pill[hidden] {
+  display: none;
+}
+
+.pc-pill button {
+  font: inherit;
+  border: 0;
+  background: none;
+  color: var(--md-default-fg-color);
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+}
+
+.pc-pill .pc-pill-clear {
+  border-left: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-accent-fg-color);
+  font-weight: 600;
+}

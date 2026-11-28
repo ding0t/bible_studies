@@ -12,11 +12,20 @@
 // `extra` and shown in the bar as a button that removes it. Each mark's `data-units` names the
 // entries it stands for ("<id>", or "<id>@<nt book>" for one New Testament use), so the pictures dim
 // and recount from the cards left showing.
+//
+// Each card's facts are choices too (hooks/prophecies.py _pivot): "His opponents", "Partly fulfilled",
+// "follows the Septuagint" carry the same facet:value pairs as the explorer's marks. Clicking one
+// pivots the page to the cards that share it, and the card clicked holds its place on the screen
+// while the others close up around it. Down among the cards the bar is out of sight, so a pill at
+// the foot of the window says how many are showing and clears the choice.
 
 const bar = document.querySelector('.pc-filter');
 const cards = [...document.querySelectorAll('.pc-group[data-category] .pc-entry')];
 const explorer = document.querySelector('.px');
 const extra = {};
+const pivots = [...document.querySelectorAll('.pc-group[data-category] .pc-pivot')];
+let pill = null;
+let barInView = true;
 
 function chosen() {
   const picks = {};
@@ -150,6 +159,13 @@ function update() {
   bar.querySelector('.pc-clear').hidden = !any;
   showExtra();
   if (explorer) paintExplorer(picks);
+  for (const el of pivots) {
+    el.setAttribute('aria-pressed', String(pairsOf(el).every(([facet, value]) => isPicked(facet, value))));
+  }
+  if (pill) {
+    pill.querySelector('.pc-pill-shown').textContent = `Showing ${shown} of ${cards.length}`;
+    pill.hidden = !any || barInView;
+  }
 
   const params = new window.URLSearchParams();
   for (const [facet, values] of Object.entries(picks)) params.set(facet, [...values].join(','));
@@ -175,6 +191,36 @@ if (bar && cards.length) {
     for (const facet of Object.keys(extra)) delete extra[facet];
     update();
   });
+  const pivot = (el) => {
+    const card = el.closest('.pc-entry');
+    const before = card.getBoundingClientRect().top;
+    togglePick(el);
+    window.scrollBy(0, card.getBoundingClientRect().top - before);
+  };
+  for (const el of pivots) {
+    el.setAttribute('role', 'button');
+    el.setAttribute('tabindex', '0');
+    el.title = 'Show the prophecies that share this (click again to undo)';
+    el.addEventListener('click', () => pivot(el));
+    el.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        pivot(el);
+      }
+    });
+  }
+  pill = document.createElement('div');
+  pill.className = 'pc-pill';
+  pill.hidden = true;
+  pill.innerHTML = '<button type="button" class="pc-pill-shown"></button>'
+    + '<button type="button" class="pc-pill-clear">Clear ✕</button>';
+  pill.querySelector('.pc-pill-shown').addEventListener('click', () => bar.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+  pill.querySelector('.pc-pill-clear').addEventListener('click', () => bar.querySelector('.pc-clear').click());
+  document.body.append(pill);
+  new window.IntersectionObserver(([entry]) => {
+    barInView = entry.isIntersecting;
+    pill.hidden = barInView || !Object.keys(chosen()).length;
+  }).observe(bar);
   if (explorer) {
     for (const mark of explorer.querySelectorAll('.px-pick')) {
       mark.addEventListener('click', () => togglePick(mark));

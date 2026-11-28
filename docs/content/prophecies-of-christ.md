@@ -51,7 +51,9 @@ Prophecies](jesus/weighing-the-prophecies.md).
 
 Narrow the cards by any of their measures: the passion prophecies His opponents fulfilled, say, or
 every text where the LORD's words are said of Jesus. Each choice shows how many cards it leaves, and
-the page's address keeps it, so you can share what you found.
+the page's address keeps it, so you can share what you found. The facts on a card are choices too:
+click "His opponents" on one and the page shows every card that shares it, and click it again to
+undo.
 
 <!-- prophecies-of-christ: filter -->
 
