@@ -5,7 +5,7 @@ description: "Every Old Testament prophecy the New Testament reads of Jesus, and
 tags: ["messianic-prophecy", "prophecy-fulfilled", "dead-sea-scrolls", "tools"]
 draft: false
 date_created: 2026-11-26
-date_modified: 2026-11-27
+date_modified: 2026-11-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -22,6 +22,10 @@ Prophecies](jesus/weighing-the-prophecies.md).
 <!-- prophecies-of-christ: explorer -->
 
 ??? info "How to read a card"
+
+    Each card opens with its takeaway: what the Old Testament foretold beside how it was fulfilled
+    in Jesus, with the years between them on the arrow, and below them what is still to come. A type
+    opens with the pattern in place of the words. Under the ruled line is the evidence:
 
     - **How firmly the New Testament reads it of Him.** It says the text was fulfilled in Him or spoke
       of Him, or that God shaped a person, event or institution to point to Him (a type, as "Christ,

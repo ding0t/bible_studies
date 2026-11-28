@@ -195,7 +195,9 @@ short. `AGENTS.md` keeps the rules that break things if forgotten.
   the year fulfilled, the Qumran copies) into `prophecies-of-christ.json`, and
   `utils/check_prophecies.py` fails `npm test` while that file is stale, so no count on
   either page is typed by hand. Markers on the ledger page place the measures table, each
-  category's cards (`id="prophecy-<id>"`) and the New Testament's own predictions. A ledger
+  category's cards (`id="prophecy-<id>"`) and the New Testament's own predictions. A card leads
+  with its takeaway (`predicts` beside `came_to_pass`, the years between on the arrow, and
+  `still_to_come` beneath), then a labelled rule and the evidence. A ledger
   note's research leads ("lead:" on) are left off the page. The study is week 1 and the hub of the
   Prophecy and Jesus series (a `series:` block), and the charts are drawn from the same two files
   by `utils/build_jesus_graphics.py`. The same hook writes the ledger's explorer (three plates drawn

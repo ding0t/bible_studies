@@ -1,18 +1,20 @@
 /* The reference of the prophecies of Christ (hooks/prophecies.py). Colours come from material's
- * own variables, so the cards follow the site's palette and dark-mode toggle. The left border marks
- * the status: accent for fulfilled, dashed for still to come. */
+ * own variables, so the cards follow the site's palette and dark-mode toggle. Each card leads with
+ * its takeaway (what was foretold beside what came to pass, bridged by the years between), then a
+ * labelled rule, then the evidence. The left border and the status mark the status: solid accent
+ * for fulfilled, double for in part, dashed for still to come. */
 
 .pc-group {
   display: grid;
-  gap: 0.8rem;
+  gap: 1rem;
   margin: 1rem 0 1.6rem;
 }
 
 .pc-entry {
   border: 1px solid var(--md-default-fg-color--lightest);
   border-left: 3px solid var(--md-accent-fg-color);
-  border-radius: 0.2rem;
-  padding: 0.6rem 0.9rem;
+  border-radius: 0.3rem;
+  padding: 0.7rem 0.9rem 0.6rem;
   scroll-margin-top: 4rem;
 }
 
@@ -26,24 +28,21 @@
 }
 
 .pc-entry:target {
-  background: var(--md-accent-fg-color--transparent);
+  box-shadow: 0 0 0 3px var(--md-accent-fg-color--transparent);
 }
 
 .pc-head {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.2rem 0.8rem;
-  align-items: baseline;
+  gap: 0.2rem 0.6rem;
+  align-items: center;
 }
 
 .pc-ref {
-  font-size: 1.05em;
+  font-size: 1.1em;
 }
 
-.pc-status,
-.pc-speaker,
 .pc-form,
-.pc-tier,
 .pc-kind {
   color: var(--md-default-fg-color--light);
   font-size: 0.85em;
@@ -51,38 +50,240 @@
 
 .pc-status {
   margin-left: auto;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border: 1px solid var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
+  border-radius: 1rem;
+  padding: 0.05rem 0.6rem;
 }
 
-.md-typeset .pc-says,
-.md-typeset .pc-tier,
-.md-typeset .pc-near,
-.md-typeset .pc-split {
-  margin: 0.3rem 0;
+.pc-partly .pc-status {
+  border-style: double;
+  border-width: 3px;
 }
 
-.md-typeset .pc-says {
+.pc-future .pc-status {
+  border-style: dashed;
+  border-color: var(--md-default-fg-color--light);
+  color: var(--md-default-fg-color--light);
+}
+
+/* The takeaway: Foretold | years -> | Fulfilled, and Still to come beneath when part remains. */
+.pc-takeaway {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 0.5rem;
+  align-items: stretch;
+  margin: 0.6rem 0 0.2rem;
+}
+
+.pc-takeaway.pc-single {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.pc-pole {
+  border-radius: 0.3rem;
+  padding: 0.45rem 0.7rem 0.5rem;
+  background: var(--md-code-bg-color);
+}
+
+.pc-came {
+  background: var(--md-accent-fg-color--transparent);
+}
+
+.pc-awaits {
+  background: transparent;
+  border: 1px dashed var(--md-default-fg-color--lighter);
+}
+
+.pc-after {
+  grid-column: 1 / -1;
+}
+
+.pc-label,
+.pc-rule span,
+.md-typeset .pc-sub {
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+
+.pc-came .pc-label {
+  color: var(--md-accent-fg-color);
+}
+
+.md-typeset .pc-pole p {
+  margin: 0.15rem 0 0;
+  line-height: 1.5;
+}
+
+.md-typeset .pc-foretold p {
   font-style: italic;
 }
 
-.md-typeset .pc-uses,
-.md-typeset .pc-meta {
-  margin: 0.3rem 0;
-  padding-left: 1.1rem;
+.pc-gap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.6rem;
+  color: var(--md-accent-fg-color);
+  line-height: 1.1;
 }
 
-.md-typeset .pc-uses li,
-.md-typeset .pc-meta li {
+.pc-gap-n {
+  font-size: 1.05em;
+  font-variant-numeric: tabular-nums;
+}
+
+.pc-gap-unit {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* The arrow: a line with a head, drawn so it turns downward when the poles stack. */
+.pc-arrow {
+  position: relative;
+  display: block;
+  width: 2.6rem;
+  height: 0;
+  border-top: 2px solid currentColor;
+  margin: 0.35rem 0.3rem;
+}
+
+.pc-arrow::after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: -6px;
+  border: 5px solid transparent;
+  border-left: 7px solid currentColor;
+  border-right: 0;
+}
+
+.pc-gap-future {
+  color: var(--md-default-fg-color--light);
+}
+
+.pc-gap-future .pc-arrow {
+  border-top-style: dashed;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .pc-takeaway {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .pc-gap {
+    flex-direction: row;
+    gap: 0.4rem;
+    min-width: 0;
+  }
+
+  .pc-arrow {
+    width: 0;
+    height: 1.2rem;
+    border-top: 0;
+    border-left: 2px solid currentColor;
+    margin: 0;
+  }
+
+  .pc-gap-future .pc-arrow {
+    border-left-style: dashed;
+  }
+
+  .pc-arrow::after {
+    right: auto;
+    left: -6px;
+    top: auto;
+    bottom: -1px;
+    border: 5px solid transparent;
+    border-top: 7px solid currentColor;
+    border-bottom: 0;
+  }
+}
+
+/* The ruled line between the takeaway and the evidence, with its name set in the rule. */
+.pc-rule {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.7rem 0 0.4rem;
+}
+
+.pc-rule::before,
+.pc-rule::after {
+  content: "";
+  height: 1px;
+  background: var(--md-default-fg-color--lighter);
+}
+
+.pc-rule::before {
+  width: 0.8rem;
+}
+
+.pc-rule::after {
+  flex: 1;
+}
+
+/* The evidence: a label column and a value column, one row a measure. */
+.md-typeset .pc-facts {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 0.2rem 0.9rem;
+  margin: 0.2rem 0 0.5rem;
+  font-size: 0.88em;
+}
+
+.md-typeset .pc-facts dt {
+  color: var(--md-default-fg-color--light);
+  font-weight: 600;
+}
+
+.md-typeset .pc-facts dd {
+  margin: 0;
+}
+
+@media screen and (max-width: 30em) {
+  .md-typeset .pc-facts {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
+
+  .md-typeset .pc-facts dd {
+    margin-bottom: 0.35rem;
+  }
+}
+
+.md-typeset .pc-sub {
+  margin: 0.6rem 0 0.1rem;
+}
+
+.md-typeset .pc-near,
+.md-typeset .pc-split {
+  margin: 0.4rem 0;
+  font-size: 0.88em;
+}
+
+.md-typeset .pc-uses {
+  margin: 0.2rem 0 0.3rem;
+  padding-left: 1.1rem;
+  font-size: 0.88em;
+}
+
+.md-typeset .pc-uses li {
   margin: 0.1rem 0;
 }
 
 .pc-use-note {
   display: block;
-  font-size: 0.9em;
+  font-size: 0.95em;
   color: var(--md-default-fg-color--light);
-}
-
-.md-typeset .pc-meta {
-  font-size: 0.9em;
 }
 
 /* Seven columns of counts: let the table scroll inside itself on a phone, never the page. */

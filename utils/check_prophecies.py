@@ -20,18 +20,21 @@ Errors (exit non-zero):
 6. **Drafted means filled in.** A drafted or verified entry has predicts, specific, control and
    recognition, and a `text` on every fulfilment, split and application use; a verified one has
    recognition other than "unassessed". Recognition "read-after" carries a witness dated after
-   the New Testament (a Targum, a midrash), or the label has nothing under it.
+   the New Testament (a Targum, a midrash), or the label has nothing under it. It has a
+   `came_to_pass` unless its status is "future", and a `still_to_come` unless it is "fulfilled":
+   the card's takeaway is the pair, so a card missing one says what was foretold and stops.
 7. **Validator entries are dated.** An entry with `standing` has an `event` or a `year`.
 8. **The New Testament table** (`[[nt_prophecy]]`): ids unique across both tables; speaker,
    recorded and the shared vocabulary as documented; `prophecy` a New Testament reference; `see`
-   an id that exists in either file; a `fulfilment` unless the status is "future".
+   an id that exists in either file; a `fulfilment` and a `came_to_pass` unless the status is
+   "future", and a `still_to_come` when it is "partly".
 
 9. **The computed file is current.** docs/data/prophecies-of-christ.json, which the reference page
    renders, was written from this ledger, the authorship table and the chronology as they are now
    (references/build/export_prophecies.py records their hash). A stale file would put old counts on
    the page with no error anywhere.
 10. **What the page shows is written for a reader.** hooks/prophecies.py renders predicts, near,
-   exceeds, fulfilment, each use's note and the split's first, rest and at; `notes` stays in the
+   exceeds, came_to_pass, still_to_come, fulfilment, each use's note and the split's first, rest and at; `notes` stays in the
    ledger. Those fields carry no research lead, session number, file, tool or field name: 49 cards
    once showed "lead for recognition: ... (session 8)" and the like to readers.
 
@@ -161,6 +164,10 @@ def check(entries: list[dict], other_ids: set[str], dated: set[str], future: set
                 err(f"status {e['status']!r} needs a future_event")
             if "split" in kinds and "split" not in e:
                 err("a split use needs a split block")
+            if e.get("status") != "future" and "came_to_pass" not in e:
+                err(f"status {e.get('status')!r} needs a came_to_pass")
+            if e.get("status") != "fulfilled" and "still_to_come" not in e:
+                err(f"status {e.get('status')!r} needs a still_to_come")
         if e.get("research") == "verified" and e.get("recognition") == "unassessed":
             err("verified with recognition still unassessed")
         if e.get("recognition") == "read-after" and not any(
@@ -207,6 +214,10 @@ def check_nt(entries: list[dict], known_ids: set[str], dated: set[str], future: 
             err(f"prophecy {e.get('prophecy')!r} is not a New Testament book and chapter:verse")
         if e.get("status") != "future" and "fulfilment" not in e:
             err("a fulfilled or partly fulfilled prophecy needs a fulfilment")
+        if e.get("status") != "future" and "came_to_pass" not in e:
+            err(f"status {e.get('status')!r} needs a came_to_pass")
+        if e.get("status") == "partly" and "still_to_come" not in e:
+            err("status 'partly' needs a still_to_come")
         if "see" in e and e["see"] not in known_ids:
             err(f"see {e['see']!r} is not an id in either prophecy file")
         if "event" in e and e["event"] not in dated:
@@ -221,7 +232,7 @@ def check_nt(entries: list[dict], known_ids: set[str], dated: set[str], future: 
 WORKING = re.compile(r"\blead:|\blead for\b|\bsession \d|state file|\.(?:db|md|py|toml)\b|\bbible_\w+|"
                      r"\bfuture_event\b|\bprophecy_ledger\b|\bgive the case\b|\bcheck before\b|"
                      r"[Rr]esearched 20\d\d|\bTODO\b", re.I)
-RENDERED = ("predicts", "near", "exceeds", "fulfilment")
+RENDERED = ("predicts", "came_to_pass", "still_to_come", "near", "exceeds", "fulfilment")
 
 
 def check_rendered(entries: list[dict]) -> list[str]:

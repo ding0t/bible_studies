@@ -56,10 +56,11 @@ CATEGORIES = {
     "resurrection": "Resurrection", "redemption": "Redemption", "office": "Prophet, priest, king",
     "future": "Future",
 }
+# The card's evidence rows, each under its own label (_facts); How to read a card explains them.
 TIERS = {
-    1: "The New Testament says it was fulfilled in Him, spoke of Him, or was shaped to point to Him",
-    2: "The New Testament applies it to Him",
-    3: "A reading of tradition; the New Testament at most alludes",
+    1: "Says it was fulfilled in Him, spoke of Him, or was shaped to point to Him",
+    2: "Applies it to Him",
+    3: "At most alludes to it: the reading is tradition's",
 }
 STATUS = {"fulfilled": "Fulfilled", "partly": "Partly fulfilled", "future": "Still to come"}
 USE_KINDS = {
@@ -71,25 +72,25 @@ USE_TEXTS = {
     "neither": "follows neither text", "none": "",
 }
 RECOGNITION = {
-    "known-before": "Read of the Messiah before Jesus",
-    "partly": "Read of the Messiah before Jesus, but not of the part He fulfilled",
-    "read-after": "Read of the Messiah only in a later Jewish source",
-    "veiled": "Read of the Messiah in no Jewish source, before Jesus or since",
+    "known-before": "Before Jesus, by a witness older than Him",
+    "partly": "Before Jesus, of a part other than the one He fulfilled",
+    "read-after": "Only in a later Jewish source",
+    "veiled": "In no Jewish source, before Jesus or since",
     "unassessed": "Not yet assessed",
 }
 CONTROL = {
-    "divine": "Beyond any human agent",
-    "opponents": "Brought about by His opponents",
-    "unwitting": "Brought about by someone with no thought of it",
-    "followers": "Brought about by His followers",
-    "chosen": "Jesus fulfilled it knowingly",
+    "divine": "God alone, beyond any human agent",
+    "opponents": "His opponents",
+    "unwitting": "Someone with no thought of the prophecy",
+    "followers": "His followers",
+    "chosen": "Jesus Himself, knowingly",
     "unfulfilled": "",
 }
 SPEAKERS = {"jesus": "Jesus", "angel": "An angel", "apostle": "An apostle", "revelation": "Revelation"}
 RECORDED = {
-    "before": "Written down before it came to pass",
-    "after": "Written down after it came to pass",
-    "contested": "Whether it was written down before is contested",
+    "before": "Before it came to pass",
+    "after": "After it came to pass",
+    "contested": "Whether before it came to pass is contested",
 }
 
 # A run of Hebrew or Aramaic letters (with points and maqaf), spaces allowed inside the run.
@@ -178,7 +179,7 @@ def _years(row: dict) -> str:
     if row.get("fulfilled") is None:
         return ""
     trad, crit = row["written_traditional"], row["written_critical"]
-    line = (f"Written by {year_label(trad)}; came to pass {year_label(row['fulfilled'])}: "
+    line = (f"By {year_label(trad)}; came to pass {year_label(row['fulfilled'])}: "
             f"{row['years_ahead_traditional']:,} years ahead")
     # The critics' date matters only where it is later; an earlier one (Isaiah 7) moves nothing.
     if crit is not None and crit > trad:
@@ -207,11 +208,55 @@ def _use(use: dict) -> str:
     return f'<li><b>{escape(use["ref"])}</b> <span class="pc-kind">{escape("; ".join(parts))}</span> {note}</li>'
 
 
+def _pole(kind: str, label: str, text: str) -> str:
+    return f'<div class="pc-pole pc-{kind}"><span class="pc-label">{label}</span><p>{text}</p></div>'
+
+
+def _gap(years: int | None, status: str) -> str:
+    """The bridge between what was foretold and what came of it, carrying the years between."""
+    count = (f'<b class="pc-gap-n">{years:,}</b><span class="pc-gap-unit">years</span>'
+             if years and years > 0 else "")
+    return f'<div class="pc-gap pc-gap-{status}" aria-hidden="true">{count}<i class="pc-arrow"></i></div>'
+
+
+def _takeaway(e: dict, years: int | None, fulfilled: str, rest: str) -> str:
+    """What was foretold beside what came to pass, and below them what is still to come."""
+    left = "The pattern" if e.get("form") == "type" else "Foretold"
+    said = _text(e.get("predicts", ""))
+    said = said[:1].upper() + said[1:]
+    if fulfilled:
+        out = _pole("foretold", left, said) + _gap(years, e["status"]) + _pole("came", "Fulfilled", fulfilled)
+    elif rest:
+        out = _pole("foretold", left, said) + _gap(None, e["status"]) + _pole("awaits", "Still to come", rest)
+        rest = ""
+    else:
+        out = _pole("foretold", left, said)
+    if rest:
+        out += _pole("awaits pc-after", "Still to come", rest)
+    single = "" if fulfilled or rest or e.get("still_to_come") else " pc-single"
+    return f'<div class="pc-takeaway{single}">{out}</div>'
+
+
+def _facts(rows: list[tuple[str, str]]) -> str:
+    return '<dl class="pc-facts">' + "".join(f"<dt>{escape(k)}</dt><dd>{escape(v)}</dd>" for k, v in rows if v) + "</dl>"
+
+
+def _head(e: dict, extra: str = "") -> str:
+    form = ' <span class="pc-form">a type</span>' if e.get("form") == "type" else ""
+    return (f'<header class="pc-head"><b class="pc-ref">{escape(e["prophecy"])}</b>{form}{extra}'
+            f'<span class="pc-status">{escape(STATUS[e["status"]])}</span></header>')
+
+
 def _card(e: dict) -> str:
     row = _computed.get(e["id"], {})
-    meta = [m for m in (_years(row), _copy(row), RECOGNITION.get(e.get("recognition", "unassessed"), ""),
-                        CONTROL.get(e.get("control", ""), "")) if m]
+    years = row.get("years_ahead_traditional") if row.get("fulfilled") is not None else None
+    takeaway = _takeaway(e, years, _text(e.get("came_to_pass", "")), _text(e.get("still_to_come", "")))
+    facts = _facts([("Written", _years(row)), ("Oldest copy", _copy(row)),
+                    ("Read of the Messiah", RECOGNITION.get(e.get("recognition", "unassessed"), "")),
+                    ("Brought about by", CONTROL.get(e.get("control", ""), "")),
+                    ("The New Testament", TIERS[e["tier"]])])
     uses = "".join(_use(u) for u in e.get("uses", []))
+    uses = f'<p class="pc-sub">Where the New Testament uses it</p><ul class="pc-uses">{uses}</ul>' if uses else ""
     first = ""
     if e.get("near"):
         first = f'<p class="pc-near"><b>First meant</b> {_text(e["near"])}'
@@ -223,29 +268,26 @@ def _card(e: dict) -> str:
         s = e["split"]
         split = (f'<p class="pc-split"><b>Two comings in one text</b> Fulfilled: {_text(s["first"])}. '
                  f'Still to come: {_text(s["rest"])}. Divided at {escape(s["at"])}.</p>')
-    form = ' <span class="pc-form">a type</span>' if e.get("form") == "type" else ""
     facets = " ".join(f'data-{k}="{escape(" ".join(v))}"' for k, v in _facets(e).items())
     return f"""<article class="pc-entry pc-{escape(e['status'])}" id="prophecy-{escape(e['id'])}" {facets}>
-  <header class="pc-head"><b class="pc-ref">{escape(e['prophecy'])}</b>{form}
-    <span class="pc-status">{escape(STATUS[e['status']])}</span></header>
-  <p class="pc-says">{_text(e.get('predicts', ''))}</p>
-  <p class="pc-tier">{escape(TIERS[e['tier']])}</p>
-  <ul class="pc-uses">{uses}</ul>
-  {first}{split}
-  <ul class="pc-meta">{"".join(f"<li>{escape(m)}</li>" for m in meta)}</ul>
+  {_head(e)}
+  {takeaway}
+  <div class="pc-rule"><span>The evidence</span></div>
+  {facts}{uses}{first}{split}
 </article>"""
 
 
 def _nt_card(e: dict) -> str:
-    meta = [m for m in (RECORDED.get(e.get("recorded", ""), ""), CONTROL.get(e.get("control", ""), "")) if m]
-    fulfilment = f'<p class="pc-says"><b>Fulfilled</b> {escape(e["fulfilment"])}</p>' if e.get("fulfilment") else ""
+    # A future prediction is itself what is still to come, so its card has the one panel.
+    takeaway = _takeaway(e, None, _text(e.get("came_to_pass", "")), _text(e.get("still_to_come", "")))
+    facts = _facts([("Spoken by", SPEAKERS[e["speaker"]]), ("Fulfilled in", e.get("fulfilment", "")),
+                    ("Written down", RECORDED.get(e.get("recorded", ""), "")),
+                    ("Brought about by", CONTROL.get(e.get("control", ""), ""))])
     return f"""<article class="pc-entry pc-{escape(e['status'])}" id="prophecy-{escape(e['id'])}">
-  <header class="pc-head"><b class="pc-ref">{escape(e['prophecy'])}</b>
-    <span class="pc-speaker">{escape(SPEAKERS[e['speaker']])}</span>
-    <span class="pc-status">{escape(STATUS[e['status']])}</span></header>
-  <p class="pc-says">{_text(e['predicts'])}</p>
-  {fulfilment}
-  <ul class="pc-meta">{"".join(f"<li>{escape(m)}</li>" for m in meta)}</ul>
+  {_head(e)}
+  {takeaway}
+  <div class="pc-rule"><span>The evidence</span></div>
+  {facts}
 </article>"""
 
 

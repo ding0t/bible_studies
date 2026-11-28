@@ -55,6 +55,10 @@
 #
 # Optional on a candidate, required once drafted
 #   predicts      what the text says will happen, in its own terms
+#   came_to_pass  how it was fulfilled in Jesus, in one plain sentence with its references: the
+#                 card's takeaway beside `predicts`. Required unless the status is "future"
+#   still_to_come what remains, in one sentence with its references. Required unless the status
+#                 is "fulfilled"
 #   specific      what makes it checkable: name | place | number | time | manner | sequence |
 #                 lineage | person
 #   control       who brought the fulfilment about, the measure of whether it could be arranged:
@@ -121,6 +125,8 @@ category = "birth"
 prophecy = "Micah 5:2"
 masoretic = "Micah 5:1"
 predicts = "a ruler over Israel, 'One whose origins are of old' (BSB), will come forth from Bethlehem Ephrathah"
+came_to_pass = "Jesus was born in Bethlehem of Judea, where Augustus's census had brought Joseph and Mary from Nazareth (Luke 2:1-7; Matthew 2:1-6)."
+still_to_come = "The ruler from Bethlehem has yet to gather the rest of His brothers back to Israel and shepherd them, His greatness reaching to the ends of the earth (Micah 5:3-4)."
 specific = ["place"]
 uses = [
   { ref = "Matthew 2:1-6", kind = "split", text = "neither", note = "'by no means least' (οὐδαμῶς ἐλαχίστη) turns Micah's 'small' (צָעִיר, tsa'ir; LXX ὀλιγοστός) around; 'rulers' (ἡγεμόσιν) reads the consonants of בְּאַלְפֵי (be'alphei, 'among the clans') as אַלֻּפֵי (alluphei, 'chiefs'); 'who will be the shepherd of My people Israel' comes from 2 Samuel 5:2. Matthew stops at Micah 5:2" },
@@ -147,6 +153,7 @@ tier = 1
 category = "birth"
 prophecy = "Isaiah 7:14"
 predicts = "the virgin (or young woman) will conceive and bear a son called Immanuel"
+came_to_pass = "Mary, a virgin pledged to Joseph, conceived Jesus by the Holy Spirit and bore Him, and Matthew names Him Immanuel, God with us (Matthew 1:18-25; Luke 1:26-35)."
 specific = ["manner"]
 uses = [
   { ref = "Matthew 1:20-23", kind = "fulfilment", text = "lxx", note = "ἡ παρθένος (hē parthenos, 'the virgin') as the Septuagint, for the Hebrew עַלְמָה (almah); 'they will call' (καλέσουσιν) where the Septuagint has 'you will call' and the Hebrew 'she will call'" },
@@ -168,6 +175,7 @@ category = "ministry"
 prophecy = "Isaiah 9:1-2"
 masoretic = "Isaiah 8:23-9:1"
 predicts = "Galilee of the nations will see a great light"
+came_to_pass = "Jesus left Nazareth, made His home in Capernaum by the Sea of Galilee, and began to preach there (Matthew 4:12-17)."
 specific = ["place"]
 uses = [
   { ref = "Matthew 4:12-16", kind = "fulfilment", text = "neither", note = "Matthew's own rendering: 'sitting in darkness' (καθήμενος) where the Hebrew and Septuagint have 'walking'; the Septuagint of 8:23 is unrecognisable ('drink this first')" },
@@ -186,6 +194,8 @@ tier = 1
 category = "forerunner"
 prophecy = "Malachi 3:1"
 predicts = "a messenger will prepare the way, and the Lord will suddenly come to his temple"
+came_to_pass = "John the Baptist went ahead of Jesus to prepare His way, and Jesus came to His temple and cleared it (Mark 1:2-4; Matthew 11:10; John 2:13-17)."
+still_to_come = "The Lord's coming as a refiner's fire, purifying the sons of Levi and judging the wicked, waits for His return (Malachi 3:2-5)."
 specific = ["sequence", "place"]
 uses = [
   { ref = "Matthew 11:10", kind = "fulfilment", text = "neither", note = "'before your face' (πρὸ προσώπου σου) from Exodus 23:20 LXX, and 'prepare your way' (κατασκευάσει τὴν ὁδόν σου) nearer the Hebrew פִּנָּה־דֶרֶךְ (pinnah derekh, 'clear the way') than the Septuagint's 'look upon'" },
@@ -212,6 +222,8 @@ tier = 1
 category = "ministry"
 prophecy = "Zechariah 9:9"
 predicts = "Zion's king comes humble, mounted on a donkey, on a colt the foal of a donkey"
+came_to_pass = "Jesus sent for a donkey and her colt and rode into Jerusalem while the crowds hailed Him as the Son of David (Matthew 21:1-9; John 12:12-16)."
+still_to_come = "The rest of the verse waits for His reign: the chariot and the war-horse cut off, peace proclaimed to the nations, and His rule from sea to sea (Zechariah 9:10)."
 specific = ["manner", "place"]
 uses = [
   { ref = "Matthew 21:1-5", kind = "split", text = "mt", note = "'a donkey, and a colt, the foal of a beast of burden', the Hebrew's donkey and colt (the Septuagint has 'a beast of burden and a young colt'). Matthew leaves out 'righteous and victorious'" },
@@ -235,6 +247,7 @@ tier = 1
 category = "passion"
 prophecy = "Zechariah 11:12-13"
 predicts = "the shepherd valued at thirty pieces of silver, thrown to the potter in the house of the LORD"
+came_to_pass = "The chief priests paid Judas thirty pieces of silver; he threw the silver into the temple, and they used it to buy the potter's field (Matthew 26:14-15; Matthew 27:3-10)."
 specific = ["number", "manner"]
 uses = [
   { ref = "Matthew 26:14-15", kind = "allusion", note = "the chief priests 'weighed out' (ἔστησαν, as the Septuagint's verb) thirty pieces" },
@@ -256,6 +269,7 @@ prophecy = "Psalm 22:18"
 masoretic = "Psalm 22:19"
 speaker = "messiah"
 predicts = "they divide my garments among them, and for my clothing they cast lots"
+came_to_pass = "At the cross the soldiers divided Jesus' garments into four shares and cast lots for His seamless tunic (John 19:23-24)."
 specific = ["manner"]
 uses = [
   { ref = "John 19:23-24", kind = "fulfilment", text = "both", note = "word for word the Septuagint (Psalm 21:19 LXX), which here renders the Hebrew closely" },
@@ -280,6 +294,7 @@ prophecy = "Psalm 22:16"
 masoretic = "Psalm 22:17"
 speaker = "messiah"
 predicts = "my hands and feet, 'pierced' (BSB, with the Septuagint's ὤρυξαν, 'they dug', and the Nahal Hever psalms scroll) or 'like a lion' (the Masoretic Text): the reading is contested"
+came_to_pass = "Jesus was nailed to the cross; risen, He showed the disciples His hands and His feet, and Thomas the marks of the nails (Luke 24:39-40; John 20:25-27)."
 specific = ["manner"]
 uses = [
   { ref = "John 20:25-27", kind = "allusion", note = "no New Testament text quotes this line; John records the nail wounds in His hands, and Luke 24:39-40 the hands and feet" },
@@ -301,6 +316,7 @@ prophecy = "Exodus 12:46; Psalm 34:20"
 masoretic = "Exodus 12:46; Psalm 34:21"
 form = "type"
 predicts = "not one of his bones will be broken"
+came_to_pass = "The soldiers broke the legs of the two men crucified with Jesus, found Him already dead, and left every bone of His unbroken (John 19:31-36)."
 specific = ["manner"]
 uses = [
   { ref = "John 19:31-36", kind = "fulfilment", text = "lxx", note = "'Ὀστοῦν οὐ συντριβήσεται αὐτοῦ' joins the noun of Exodus 12:46 LXX (ὀστοῦν οὐ συντρίψετε ἀπʼ αὐτοῦ) to the passive verb of Psalm 33:21 LXX (οὐ συντριβήσεται)" },
@@ -319,6 +335,8 @@ tier = 1
 category = "passion"
 prophecy = "Zechariah 12:10"
 predicts = "'they will look on Me, the One they have pierced', and mourn for Him (BSB)"
+came_to_pass = "A soldier pierced Jesus' side with a spear, and blood and water flowed out (John 19:34-37)."
+still_to_come = "Every eye will see Him at His return, and the house of David will mourn for the One they pierced (Revelation 1:7; Zechariah 12:10-14)."
 specific = ["manner"]
 uses = [
   { ref = "John 19:34-37", kind = "fulfilment", text = "mt", note = "ἐξεκέντησαν (exekentēsan, 'they pierced') renders the Hebrew דָּקָרוּ (daqaru); the Septuagint has κατωρχήσαντο (katōrchēsanto, 'they danced in triumph')" },
@@ -344,6 +362,7 @@ tier = 1
 category = "passion"
 prophecy = "Isaiah 53:5, 9, 12"
 predicts = "the servant pierced for our transgressions, numbered with the transgressors, with a rich man in his death"
+came_to_pass = "Jesus was crucified between two criminals, bearing our sins in His body, and was buried in the new tomb of a rich man, Joseph of Arimathea (Mark 15:27; Luke 22:37; 1 Peter 2:24; Matthew 27:57-60)."
 specific = ["manner"]
 uses = [
   { ref = "Luke 22:37", kind = "fulfilment", text = "mt", note = "μετὰ ἀνόμων ἐλογίσθη, 'with transgressors': the Hebrew's אֶת (et, with); the Septuagint has ἐν τοῖς ἀνόμοις" },
@@ -369,6 +388,7 @@ category = "resurrection"
 prophecy = "Psalm 16:10"
 speaker = "messiah"
 predicts = "you will not abandon my soul to Sheol, or let your holy one see corruption"
+came_to_pass = "God raised Jesus from the dead before His body saw decay, as Peter and Paul each preached from this psalm (Acts 2:25-31; Acts 13:34-37)."
 specific = ["manner"]
 uses = [
   { ref = "Acts 2:25-31", kind = "fulfilment", text = "lxx", note = "Psalm 15:8-11 LXX word for word; 'decay' (διαφθορά, diaphthora) is the Septuagint's rendering of the Hebrew שַׁחַת (shachat, the pit, corruption)" },
@@ -391,6 +411,8 @@ tier = 3
 category = "ministry"
 prophecy = "Daniel 9:25-26"
 predicts = "from the word to restore Jerusalem to an anointed one, seven weeks and sixty-two weeks; then he is cut off, and the city and sanctuary are destroyed"
+came_to_pass = "On one reckoning, contested, sixty-nine weeks of years from Artaxerxes' decree to rebuild Jerusalem (Nehemiah 2:1-8) end in the week Jesus was cut off, and Rome destroyed the city and the temple in AD 70 (Luke 19:41-44)."
+still_to_come = "The seventieth week, begun by a covenant confirmed with many, is still to come (Daniel 9:27)."
 specific = ["time", "sequence"]
 uses = [
   { ref = "Matthew 24:15", kind = "allusion", note = "cites Daniel for the desolation; no New Testament text sets out the arithmetic" },
@@ -424,6 +446,7 @@ tier = 1
 category = "nature"
 prophecy = "Psalm 2:7"
 predicts = "the LORD's decree to His king: 'You are My Son; today I have become Your Father'"
+came_to_pass = "God fulfilled the decree by raising Jesus from the dead, as Paul preached at Pisidian Antioch, declaring Him the Son of God in power (Acts 13:32-33; Romans 1:4; Hebrews 1:5)."
 specific = ["person"]
 uses = [
   { ref = "Acts 13:32-33", kind = "fulfilment", text = "both", note = "'He has fulfilled for us… by raising up Jesus' (BSB): Paul places the 'today' at the resurrection" },
@@ -451,6 +474,8 @@ category = "nature"
 prophecy = "Psalm 45:6-7"
 masoretic = "Psalm 45:7-8"
 predicts = "the king addressed as God, whose throne endures forever, anointed by God, his God, above his companions"
+came_to_pass = "Hebrews speaks the psalm to the Son: He is addressed as God and anointed with the oil of joy above His companions (Hebrews 1:8-9)."
+still_to_come = "His throne over the earth, with the sceptre of justice, waits for His reign on David's throne (Luke 1:32-33; Revelation 11:15)."
 specific = ["person"]
 uses = [
   { ref = "Hebrews 1:8-9", kind = "fulfilment", text = "both", note = "'But about the Son He says: Your throne, O God, endures forever and ever' (BSB)" },
@@ -474,6 +499,7 @@ category = "nature"
 prophecy = "Psalm 102:25-27"
 masoretic = "Psalm 102:26-28"
 predicts = "the Lord who laid the earth's foundations remains when the heavens wear out like a garment and are changed"
+came_to_pass = "Hebrews says these words of the Son: through Him the world was made, and He remains the same when heaven and earth wear out (Hebrews 1:10-12; John 1:3)."
 specific = ["person"]
 uses = [
   { ref = "Hebrews 1:10-12", kind = "fulfilment", text = "lxx", note = "the Septuagint (Psalm 101:26-28 LXX), including the address 'O Lord' (Κύριε), which the Hebrew lacks in this verse" },
@@ -491,6 +517,7 @@ tier = 1
 category = "nature"
 prophecy = "Deuteronomy 32:43"
 predicts = "let all God's angels worship Him"
+came_to_pass = "Hebrews applies the command to the Son: when God brings His firstborn into the world, all His angels worship Him (Hebrews 1:6)."
 specific = ["person"]
 uses = [
   { ref = "Hebrews 1:6", kind = "fulfilment", text = "lxx", note = "Deuteronomy 32:43 LXX word for word: προσκυνησάτωσαν αὐτῷ πάντες ἄγγελοι θεοῦ" },
@@ -509,6 +536,7 @@ prophecy = "Psalm 40:6-8"
 masoretic = "Psalm 40:7-9"
 speaker = "messiah"
 predicts = "sacrifice and offering You did not desire, but a body You prepared for me; 'I have come to do Your will'"
+came_to_pass = "The Son took a human body and offered it once for all on the cross, doing the Father's will where the blood of bulls and goats could never take sins away (Hebrews 10:4-10)."
 specific = ["manner"]
 uses = [
   { ref = "Hebrews 10:5-10", kind = "fulfilment", text = "lxx", note = "'σῶμα δὲ κατηρτίσω μοι', 'a body You prepared for Me' (Psalm 39:7 LXX); the Hebrew has 'my ears You have opened' (BSB)" },
@@ -526,6 +554,7 @@ tier = 2
 category = "nature"
 prophecy = "Isaiah 44:6; 41:4; 48:12"
 predicts = "the LORD, the King and Redeemer of Israel: 'I am the first and I am the last, and there is no God but Me'"
+came_to_pass = "The risen Jesus takes the LORD's own title, the First and the Last, as the One who was dead and is alive forever (Revelation 1:17-18; Revelation 22:13)."
 specific = ["person", "name"]
 uses = [
   { ref = "Revelation 1:17-18", kind = "application", text = "mt", note = "'ὁ πρῶτος καὶ ὁ ἔσχατος', 'the last' as the Hebrew אַחֲרוֹן (acharon); the Septuagint has 'I am after these things' (44:6) and 'forever' (48:12)" },
@@ -545,6 +574,8 @@ tier = 2
 category = "nature"
 prophecy = "Isaiah 45:23"
 predicts = "by Himself the LORD has sworn: every knee will bow to Him and every tongue swear allegiance"
+came_to_pass = "God exalted Jesus and gave Him the name above every name, so the homage the LORD swore by Himself is owed to Jesus (Philippians 2:9-11)."
+still_to_come = "Every knee bowing and every tongue confessing Jesus as Lord waits for the day all stand before God's judgement seat (Romans 14:10-11; Philippians 2:10-11)."
 specific = ["person", "manner"]
 uses = [
   { ref = "Philippians 2:9-11", kind = "application", text = "lxx", note = "'every knee should bow… every tongue confess that Jesus Christ is Lord' (πᾶν γόνυ κάμψῃ… ἐξομολογήσηται), the Septuagint's wording, applied to Jesus" },
@@ -565,6 +596,7 @@ category = "nature"
 prophecy = "Joel 2:32"
 masoretic = "Joel 3:5"
 predicts = "everyone who calls on the name of the LORD will be saved"
+came_to_pass = "From Pentecost on, the apostles preached that everyone who calls on the name of the Lord Jesus is saved (Acts 2:21, 36-38; Romans 10:9-13)."
 specific = ["name"]
 uses = [
   { ref = "Romans 10:9-13", kind = "application", text = "both", note = "'Πᾶς γὰρ ὃς ἂν ἐπικαλέσηται τὸ ὄνομα κυρίου σωθήσεται' (10:13) follows 'confess with your mouth, Jesus is Lord' (10:9): the LORD called on is Jesus" },
@@ -584,6 +616,7 @@ tier = 2
 category = "nature"
 prophecy = "Isaiah 8:12-13"
 predicts = "do not fear what this people fears; the LORD of Hosts is the One to regard as holy"
+came_to_pass = "Peter tells believers who suffer to set Christ apart as Lord in their hearts, where Isaiah has the LORD of Hosts (1 Peter 3:14-15)."
 specific = ["person"]
 uses = [
   { ref = "1 Peter 3:14-15", kind = "application", text = "lxx", note = "Isaiah 8:12-13 LXX ('Κύριον αὐτὸν ἁγιάσατε'), with 'the Christ' (τὸν Χριστόν) written where Isaiah has 'Himself': 'sanctify Christ as Lord in your hearts'" },
@@ -601,6 +634,7 @@ tier = 1
 category = "nature"
 prophecy = "Isaiah 6:1-10"
 predicts = "Isaiah sees the Lord on a throne, high and lifted up, the LORD of Hosts whose glory fills the earth, and is sent to a people who will hear and not understand"
+came_to_pass = "John says Isaiah saw Jesus' glory and spoke of Him; Jesus' hearers, like Isaiah's, saw His signs and did not believe (John 12:37-41; Matthew 13:13-15)."
 specific = ["person"]
 uses = [
   { ref = "John 12:37-41", kind = "fulfilment", text = "neither", note = "John's own rendering of Isaiah 6:10 ('He has blinded their eyes'); 'Isaiah said these things because he saw His glory and spoke about Him' (12:41; the BSB has 'Jesus' glory' for αὐτοῦ, 'his')" },
@@ -621,6 +655,8 @@ category = "nature"
 prophecy = "Isaiah 9:6"
 masoretic = "Isaiah 9:5"
 predicts = "a child born, a son given; the government on his shoulders; called Wonderful Counsellor, Mighty God, Everlasting Father, Prince of Peace; no end to his government on David's throne"
+came_to_pass = "The child was born and the Son given: Jesus, God come in the flesh, to whom Gabriel promised the throne of His father David (Luke 1:31-33; John 1:14)."
+still_to_come = "The government on His shoulders, with peace and no end on David's throne, waits for His reign (Isaiah 9:7; Luke 1:33)."
 specific = ["person", "name", "lineage"]
 uses = [
   { ref = "Luke 1:32-33", kind = "allusion" },
@@ -641,6 +677,7 @@ tier = 2
 category = "nature"
 prophecy = "Daniel 7:9; 10:5-6"
 predicts = "the Ancient of Days with clothing white as snow and hair like pure wool; the man in linen with eyes like torches and arms and legs like bronze"
+came_to_pass = "John saw the risen Jesus with hair white as wool, eyes like blazing fire and feet like polished bronze, the features of Daniel's Ancient of Days and man in linen (Revelation 1:13-16)."
 specific = ["person"]
 uses = [
   { ref = "Revelation 1:13-16", kind = "imagery", note = "'His head and hair were white like wool, as white as snow' (Daniel 7:9's Ancient of Days) on 'one like a son of man' (Daniel 7:13), with Daniel 10:6's eyes, bronze and voice" },
@@ -657,6 +694,7 @@ tier = 3
 category = "nature"
 prophecy = "Psalm 110:3"
 predicts = "the king-priest's people volunteer on his day of battle; from the womb of the dawn is the dew of his youth (Septuagint: 'from the womb, before the morning star, I begot you')"
+came_to_pass = "Tradition reads it of the eternal Son, begotten before the morning star as the Septuagint renders the verse, in the psalm from which Jesus showed He is David's Lord (Mark 12:35-37)."
 specific = ["person"]
 uses = []
 status = "fulfilled"
@@ -675,6 +713,7 @@ tier = 3
 category = "nature"
 prophecy = "Psalm 2:12"
 predicts = "kings and judges of the earth are told to kiss the Son, lest He be angry; blessed are all who take refuge in Him"
+still_to_come = "When He comes to reign, the kings of the earth who would not honour the Son hide from the wrath of the Lamb; until then, all who take refuge in Him are blessed (Revelation 6:15-17; Psalm 2:12)."
 specific = ["person"]
 uses = []
 status = "future"
@@ -693,6 +732,8 @@ tier = 3
 category = "lineage"
 prophecy = "Genesis 3:15"
 predicts = "enmity between the serpent and the woman, and between their seed; he will crush the serpent's head, and the serpent will strike his heel"
+came_to_pass = "Born of a woman, Jesus was struck at the cross, and through His death He broke the power of the devil (Galatians 4:4; Hebrews 2:14; Colossians 2:15)."
+still_to_come = "The serpent's head is finally crushed when Satan is thrown into the lake of fire (Romans 16:20; Revelation 20:10)."
 specific = ["person", "manner"]
 uses = [
   { ref = "Romans 16:20", kind = "allusion", note = "'The God of peace will soon crush Satan under your feet' (BSB): the crushing still to come, and shared with the church" },
@@ -716,6 +757,7 @@ tier = 1
 category = "lineage"
 prophecy = "Genesis 12:3; 22:18"
 predicts = "all the families and nations of the earth will be blessed through Abraham and his offspring"
+came_to_pass = "Christ is the offspring through whom the blessing of Abraham reaches the nations, by faith in Him (Galatians 3:8, 14, 16; Acts 3:25-26)."
 specific = ["lineage", "person"]
 uses = [
   { ref = "Galatians 3:8", kind = "fulfilment", text = "lxx", note = "Genesis 12:3 LXX with 'all the nations' (πάντα τὰ ἔθνη) from 18:18 and 22:18; 'The Scripture foresaw… and foretold the gospel to Abraham' (BSB)" },
@@ -736,6 +778,8 @@ tier = 2
 category = "lineage"
 prophecy = "Genesis 49:9-10"
 predicts = "the sceptre will not depart from Judah until Shiloh comes, and the obedience of the nations is his; Judah is a lion's cub"
+came_to_pass = "Jesus was born of the tribe of Judah and is named the Lion of the tribe of Judah, who has triumphed (Hebrews 7:14; Revelation 5:5)."
+still_to_come = "The obedience of the nations to Him waits for His reign over the earth (Genesis 49:10; Revelation 11:15)."
 specific = ["lineage", "sequence"]
 uses = [
   { ref = "Revelation 5:5", kind = "application", text = "none", note = "'the Lion of the tribe of Judah' (Genesis 49:9), with 'the Root of David'" },
@@ -760,6 +804,8 @@ tier = 3
 category = "lineage"
 prophecy = "Numbers 24:17"
 predicts = "a star comes forth from Jacob and a sceptre rises from Israel, crushing Moab; seen 'not now… not near'"
+came_to_pass = "A star led the magi to the child born King of the Jews, and Jesus calls Himself the bright Morning Star (Matthew 2:2; Revelation 22:16)."
+still_to_come = "The sceptre that rises from Israel to rule its enemies awaits His return as King (Numbers 24:17-19; Revelation 19:15-16)."
 specific = ["person", "time"]
 uses = [
   { ref = "Matthew 2:2", kind = "allusion", note = "'We saw His star in the east' (BSB); Matthew cites no text" },
@@ -787,6 +833,8 @@ tier = 1
 category = "lineage"
 prophecy = "2 Samuel 7:12-16"
 predicts = "God raises David's offspring after him, who builds a house for His name; God will be his Father, and his throne will be established forever"
+came_to_pass = "Jesus, born of David's line, is the Son to whom God is Father, and Gabriel promised Him David's throne (Hebrews 1:5; Luke 1:32)."
+still_to_come = "His throne and kingdom established forever wait for His reign on David's throne (2 Samuel 7:13, 16; Luke 1:32-33)."
 specific = ["lineage", "person"]
 uses = [
   { ref = "Hebrews 1:5", kind = "fulfilment", text = "both", note = "'I will be His Father, and He will be My Son' as the Septuagint, which renders the Hebrew closely. Hebrews stops before 'When he does wrong, I will discipline him' (2 Samuel 7:14, BSB)" },
@@ -818,6 +866,8 @@ category = "lineage"
 prophecy = "Psalm 132:11; 89:3-4"
 masoretic = "Psalm 132:11; 89:4-5"
 predicts = "the LORD swore to David that one of his descendants would sit on his throne, and his offspring would be established forever"
+came_to_pass = "God raised Jesus, David's descendant, from the dead and seated Him at His right hand, as Peter preached at Pentecost (Acts 2:29-36)."
+still_to_come = "His reign on David's throne over Israel waits for His return (Luke 1:32-33; Acts 1:6-7)."
 specific = ["lineage", "person"]
 uses = [
   { ref = "Acts 2:29-36", kind = "fulfilment", text = "neither", note = "Psalm 131:11 LXX adapted: 'of the fruit of his loins' (ἐκ καρποῦ τῆς ὀσφύος) for 'of the fruit of your belly'; Peter: 'Foreseeing this, David spoke about the resurrection of the Christ' (BSB)" },
@@ -842,6 +892,7 @@ tier = 2
 category = "lineage"
 prophecy = "Isaiah 11:1"
 predicts = "a shoot springs up from the stump of Jesse, and a Branch from his roots bears fruit"
+came_to_pass = "Jesus was born of Jesse's line through David, and calls Himself the Root and Offspring of David (Matthew 1:5-6, 16; Revelation 22:16)."
 specific = ["lineage"]
 uses = [
   { ref = "Revelation 5:5", kind = "application", text = "none", note = "'the Root of David' (ἡ ῥίζα Δαυίδ), a title" },
@@ -868,6 +919,8 @@ tier = 3
 category = "lineage"
 prophecy = "Jeremiah 23:5-6; 33:15-16; Zechariah 3:8; 6:12-13; Isaiah 4:2"
 predicts = "the LORD raises for David a righteous Branch who reigns as king, named 'The LORD Our Righteousness'; the Branch builds the temple and is a priest on his throne"
+came_to_pass = "Jesus, David's righteous descendant, has become our righteousness from God, and serves as priest at the Father's right hand (1 Corinthians 1:30; Hebrews 8:1)."
+still_to_come = "The Branch reigning as king, with Judah saved and Israel living securely, waits for His kingdom (Jeremiah 23:5-6; Jeremiah 33:15-16)."
 specific = ["lineage", "name", "person"]
 uses = [
   { ref = "1 Corinthians 1:30", kind = "allusion", note = "'the LORD is our righteousness' (Jeremiah 23:6)" },
@@ -894,6 +947,8 @@ tier = 3
 category = "birth"
 prophecy = "Isaiah 60:3-6; Psalm 72:10-11"
 predicts = "nations and kings come to Zion's light, bringing gold and frankincense; the kings of Sheba and Seba bring gifts"
+came_to_pass = "Magi from the east came to the newborn King and opened their treasures: gold, frankincense and myrrh (Matthew 2:1-11)."
+still_to_come = "Nations and kings bringing their wealth to Zion's light wait for His reign (Isaiah 60:3-14; Psalm 72:10-11)."
 specific = ["manner", "person"]
 uses = [
   { ref = "Matthew 2:1-11", kind = "allusion", note = "'gifts of gold and frankincense and myrrh' (BSB); Matthew cites neither text" },
@@ -918,6 +973,7 @@ category = "childhood"
 prophecy = "Hosea 11:1"
 form = "type"
 predicts = "out of Egypt God calls His son"
+came_to_pass = "Joseph took Jesus and Mary to Egypt to escape Herod and brought them back after Herod died: God's Son called out of Egypt, as Israel was (Matthew 2:13-15, 19-21)."
 specific = ["place", "person"]
 uses = [
   { ref = "Matthew 2:13-15", kind = "fulfilment", text = "mt", note = "'Ἐξ Αἰγύπτου ἐκάλεσα τὸν υἱόν μου', the Hebrew לִבְנִי (livni, 'my son'); the Septuagint has 'his children' (τὰ τέκνα αὐτοῦ)" },
@@ -937,6 +993,7 @@ category = "childhood"
 prophecy = "Jeremiah 31:15"
 form = "type"
 predicts = "a voice in Ramah, Rachel weeping for her children and refusing comfort, because they are no more"
+came_to_pass = "Herod killed the boys of Bethlehem and its region aged two and under, and the mothers grieved as Rachel had (Matthew 2:16-18)."
 specific = ["place", "manner"]
 uses = [
   { ref = "Matthew 2:16-18", kind = "fulfilment", text = "mt", note = "Matthew's own rendering of the Hebrew (Jeremiah 38:15 LXX differs in wording); 'then was fulfilled' (τότε ἐπληρώθη)" },
@@ -955,6 +1012,7 @@ tier = 1
 category = "childhood"
 prophecy = "Isaiah 11:1"
 predicts = "he will be called a Nazarene"
+came_to_pass = "Warned in a dream, Joseph settled the family in Nazareth, and Jesus grew up known as Jesus of Nazareth (Matthew 2:22-23; John 1:45-46)."
 specific = ["place", "name"]
 uses = [
   { ref = "Matthew 2:22-23", kind = "fulfilment", text = "none", note = "'what was spoken through the prophets' (plural): Matthew quotes no single text" },
@@ -980,6 +1038,7 @@ prophecy = "Psalm 22:9-10"
 masoretic = "Psalm 22:10-11"
 speaker = "messiah"
 predicts = "God brought the sufferer from the womb, kept him safe at his mother's breast, and has been his God from his mother's womb"
+came_to_pass = "God kept Jesus from His birth, through Herod's slaughter, and on the cross Jesus prayed the psalm that confesses it (Matthew 2:13-15; Matthew 27:46)."
 specific = ["person"]
 uses = []
 status = "fulfilled"
@@ -997,6 +1056,7 @@ prophecy = "Psalm 69:8"
 masoretic = "Psalm 69:9"
 speaker = "messiah"
 predicts = "the sufferer becomes a stranger to his brothers and a foreigner to his mother's sons, because of zeal for God's house"
+came_to_pass = "Jesus' own brothers did not believe in Him, and His family went out to restrain Him, saying He was out of His mind (John 7:3-5; Mark 3:21)."
 specific = ["person"]
 uses = [
   { ref = "John 7:3-5", kind = "allusion", note = "'For even His own brothers did not believe in Him' (BSB)" },
@@ -1014,6 +1074,7 @@ tier = 1
 category = "forerunner"
 prophecy = "Isaiah 40:3-5"
 predicts = "a voice calls: prepare the way of the LORD in the wilderness, make straight a highway for our God; the glory of the LORD revealed and all flesh seeing it"
+came_to_pass = "John the Baptist preached in the wilderness of Judea, calling Israel to repent and prepare the way for Jesus (Matthew 3:1-3; John 1:23)."
 specific = ["place", "sequence"]
 uses = [
   { ref = "Matthew 3:1-3", kind = "fulfilment", text = "lxx", note = "the Septuagint, which joins 'in the wilderness' to the voice, with 'His paths' (τὰς τρίβους αὐτοῦ) for 'the paths of our God'" },
@@ -1039,6 +1100,8 @@ category = "forerunner"
 prophecy = "Malachi 4:5-6"
 masoretic = "Malachi 3:23-24"
 predicts = "the LORD sends Elijah the prophet before the great and awesome day of the LORD, to turn the hearts of fathers to their children"
+came_to_pass = "John came in the spirit and power of Elijah to turn the hearts of fathers to their children, and Jesus said Elijah had already come (Luke 1:16-17; Matthew 17:10-13)."
+still_to_come = "Elijah's coming before the great and awesome day of the LORD has a further fulfilment still to come, which this site reads in the two witnesses (Malachi 4:5; Matthew 17:11; Revelation 11:3-6)."
 specific = ["person", "sequence"]
 uses = [
   { ref = "Luke 1:16-17", kind = "fulfilment", text = "mt", note = "'to turn the hearts of the fathers to their children' as the Hebrew; the Septuagint has 'the heart of a man to his neighbour' in the second line. John goes 'in the spirit and power of Elijah'" },
@@ -1068,6 +1131,8 @@ category = "ministry"
 prophecy = "Isaiah 61:1-2"
 speaker = "messiah"
 predicts = "the anointed one, on whom the Spirit of the Lord GOD rests, preaches good news to the poor, proclaims liberty to captives, and proclaims the year of the LORD's favour and the day of our God's vengeance"
+came_to_pass = "In the synagogue at Nazareth Jesus read the passage, stopped at the year of the LORD's favour, and told them it was fulfilled that day in their hearing (Luke 4:16-21)."
+still_to_come = "The day of our God's vengeance, and comfort for all who mourn in Zion, wait for His return (Isaiah 61:2-3; 2 Thessalonians 1:7-8)."
 specific = ["manner", "sequence"]
 uses = [
   { ref = "Luke 4:16-21", kind = "split", text = "lxx", note = "Isaiah 61:1-2a in the Septuagint's wording, without 'to heal the brokenhearted', with Isaiah 58:6 LXX spliced in ('to set the oppressed free', ἀποστεῖλαι τεθραυσμένους ἐν ἀφέσει), and stopping at 'to proclaim the year of the Lord's favor' (BSB). Then: 'Today this Scripture is fulfilled in your hearing' (Luke 4:21, BSB)" },
@@ -1095,6 +1160,8 @@ tier = 1
 category = "ministry"
 prophecy = "Isaiah 42:1-4"
 predicts = "the LORD's servant, on whom He puts His Spirit, brings justice to the nations without crying out, does not break a bruised reed, and does not grow faint until justice is established on earth"
+came_to_pass = "Jesus healed the crowds and warned them to keep Him from being known: the quiet servant on whom the Spirit rests (Matthew 12:15-21; Matthew 3:16-17)."
+still_to_come = "Justice established on the earth, with the coastlands waiting for His law, comes when He reigns (Isaiah 42:4)."
 specific = ["manner"]
 uses = [
   { ref = "Matthew 12:15-21", kind = "fulfilment", text = "neither", note = "'Here is My Servant, whom I have chosen, My beloved' (BSB), the baptism's words (Matthew 3:17); the Septuagint names the servant 'Jacob… Israel' and Matthew does not; 'In His name the nations will put their hope' (BSB) is the Septuagint's line for the Hebrew 'in His law the islands'" },
@@ -1116,6 +1183,8 @@ tier = 2
 category = "ministry"
 prophecy = "Isaiah 35:5-6; 29:18"
 predicts = "when God comes, the eyes of the blind are opened, the ears of the deaf unstopped, the lame leap and the mute sing"
+came_to_pass = "Jesus gave sight to the blind, made the lame walk and the deaf hear, and sent John's disciples back with it as His answer (Matthew 11:2-6; Luke 7:20-23)."
+still_to_come = "God's coming with vengeance, and the desert blooming, wait for His return (Isaiah 35:1-4)."
 specific = ["manner"]
 uses = [
   { ref = "Matthew 11:2-6", kind = "application", text = "none", note = "Jesus answers John with a list drawn from Isaiah 35:5-6, 26:19 and 61:1, without a quotation" },
@@ -1139,6 +1208,7 @@ tier = 1
 category = "ministry"
 prophecy = "Isaiah 53:4"
 predicts = "the servant takes up our infirmities and carries our sorrows"
+came_to_pass = "In Capernaum Jesus drove out spirits with a word and healed all who were sick, and Matthew says this fulfilled the servant's bearing of our infirmities (Matthew 8:16-17)."
 specific = ["manner"]
 uses = [
   { ref = "Matthew 8:16-17", kind = "fulfilment", text = "mt", note = "'He took our infirmities and carried our diseases' renders the Hebrew חֳלָיֵנוּ (choloyenu, sicknesses); the Septuagint has 'our sins'" },
@@ -1159,6 +1229,7 @@ tier = 1
 category = "ministry"
 prophecy = "Psalm 78:2"
 predicts = "the speaker opens his mouth in parables and utters things hidden from of old"
+came_to_pass = "Jesus taught the crowds in parables, speaking of things hidden since the foundation of the world (Matthew 13:34-35)."
 specific = ["manner"]
 uses = [
   { ref = "Matthew 13:34-35", kind = "fulfilment", text = "neither", note = "the first line as the Septuagint; the second ('I will pour forth things hidden since the foundation', ἐρεύξομαι κεκρυμμένα) Matthew's own, nearer the Hebrew than the Septuagint's 'problems from the beginning'" },
@@ -1179,6 +1250,7 @@ prophecy = "Psalm 69:9"
 masoretic = "Psalm 69:10"
 speaker = "messiah"
 predicts = "zeal for God's house consumes the sufferer, and the insults aimed at God fall on him"
+came_to_pass = "Jesus drove the traders out of the temple and His disciples remembered the psalm; He bore the insults aimed at God (John 2:13-17; Romans 15:3)."
 specific = ["manner"]
 uses = [
   { ref = "John 2:13-17", kind = "application", text = "lxx", note = "Psalm 68:10 LXX with the verb made future: 'will consume me' (καταφάγεταί) for 'consumed' (κατέφαγε)" },
@@ -1199,6 +1271,7 @@ category = "ministry"
 prophecy = "Psalm 8:2"
 masoretic = "Psalm 8:3"
 predicts = "from the mouths of children and infants God ordains praise, to silence the enemy"
+came_to_pass = "Children in the temple shouted Hosanna to the Son of David, and when the chief priests objected, Jesus answered them with this psalm (Matthew 21:15-16)."
 specific = ["person", "manner"]
 uses = [
   { ref = "Matthew 21:15-16", kind = "application", text = "lxx", note = "'You have prepared praise' (κατηρτίσω αἶνον) as the Septuagint; the Hebrew has 'strength' (עֹז, oz)" },
@@ -1216,6 +1289,7 @@ tier = 1
 category = "ministry"
 prophecy = "Isaiah 53:1-3"
 predicts = "Lord, who has believed our report? To whom has the arm of the LORD been revealed? The servant grows up despised and rejected"
+came_to_pass = "Though Jesus did many signs, His own people did not believe in Him, and John and Paul both cite Isaiah's lament (John 1:11; John 12:37-38; Romans 10:16)."
 specific = ["manner"]
 uses = [
   { ref = "John 12:37-38", kind = "fulfilment", text = "lxx", note = "Isaiah 53:1 LXX word for word, with the Septuagint's added address 'Lord' (Κύριε)" },
@@ -1236,6 +1310,7 @@ prophecy = "Psalm 69:4; 35:19"
 masoretic = "Psalm 69:5; 35:19"
 speaker = "messiah"
 predicts = "those who hate the sufferer without cause are more than the hairs of his head"
+came_to_pass = "Jesus said the world hated Him without cause, fulfilling the word written in their Law (John 15:24-25)."
 specific = ["manner"]
 uses = [
   { ref = "John 15:25", kind = "fulfilment", text = "lxx", note = "'Ἐμίσησάν με δωρεάν', the Septuagint's 'those who hate me without cause' (Psalm 34:19; 68:5 LXX) made a sentence" },
@@ -1253,6 +1328,7 @@ tier = 1
 category = "ministry"
 prophecy = "Isaiah 8:14; 28:16"
 predicts = "the LORD of Hosts is a sanctuary, and a stone of stumbling and rock of offense to both houses of Israel; God lays in Zion a tested, precious cornerstone, and the one who believes will not be shaken"
+came_to_pass = "Israel's leaders stumbled over Jesus and rejected Him, and those who believe in Him are never put to shame (Romans 9:32-33; 1 Peter 2:6-8)."
 specific = ["person", "manner"]
 uses = [
   { ref = "Romans 9:32-33", kind = "fulfilment", text = "neither", note = "Isaiah 28:16 and 8:14 joined: 'a stone of stumbling and a rock of offense' as the Hebrew, against the Septuagint, which says 'you will not meet Him as a stone of stumbling'; 'will not be put to shame' as the Septuagint's 28:16" },
@@ -1277,6 +1353,7 @@ tier = 1
 category = "office"
 prophecy = "Deuteronomy 18:15-19"
 predicts = "the LORD raises up a prophet like Moses from among his brothers, puts His words in his mouth, and requires everyone to listen to him"
+came_to_pass = "Jesus spoke the words the Father gave Him, and Peter and Stephen named Him the prophet Moses foretold (John 12:49-50; Acts 3:22-26; Acts 7:37)."
 specific = ["person"]
 uses = [
   { ref = "Acts 3:22-26", kind = "fulfilment", text = "lxx", note = "Deuteronomy 18:15 LXX, with 18:18-19 folded in ('in everything He tells you')" },
@@ -1310,6 +1387,7 @@ prophecy = "Psalm 41:9"
 masoretic = "Psalm 41:10"
 speaker = "messiah"
 predicts = "a close friend who shared his bread lifts up his heel against him"
+came_to_pass = "Judas, who ate bread with Jesus at the Last Supper, went out and betrayed Him (John 13:18-30; Mark 14:18)."
 specific = ["person", "manner"]
 uses = [
   { ref = "John 13:18", kind = "fulfilment", text = "mt", note = "'ἐπῆρεν ἐπʼ ἐμὲ τὴν πτέρναν αὐτοῦ', the Hebrew עָקֵב (aqev, heel); the Septuagint has ἐμεγάλυνεν ἐπʼ ἐμὲ πτερνισμόν ('made great tripping'). Jesus leaves out 'whom I trusted'" },
@@ -1332,6 +1410,7 @@ category = "passion"
 prophecy = "Psalm 69:25; 109:8"
 masoretic = "Psalm 69:26; 109:8"
 predicts = "the enemy's dwelling left desolate, and another taking his office"
+came_to_pass = "Judas bought a field with the reward of his wickedness and died there, and the apostles chose Matthias to take his office (Acts 1:16-26)."
 specific = ["person", "sequence"]
 uses = [
   { ref = "Acts 1:16-20", kind = "fulfilment", text = "lxx", note = "Psalm 68:26 LXX made singular (αὐτοῦ… ἔρημος) and Psalm 108:8 LXX (τὴν ἐπισκοπὴν αὐτοῦ… ἕτερος)" },
@@ -1351,6 +1430,7 @@ category = "passion"
 prophecy = "Psalm 55:12-14"
 masoretic = "Psalm 55:13-15"
 predicts = "the one who reproaches the sufferer is no enemy but his companion and close friend, with whom he walked to the house of God"
+came_to_pass = "Judas, one of the Twelve who had walked with Jesus, betrayed Him with a kiss, and Jesus called him friend (Matthew 26:47-50)."
 specific = ["person"]
 uses = [
   { ref = "Matthew 26:49-50", kind = "allusion", note = "'Friend,' Jesus replied, 'do what you came for' (BSB)" },
@@ -1369,6 +1449,7 @@ tier = 1
 category = "passion"
 prophecy = "Zechariah 13:7"
 predicts = "the LORD's sword strikes His shepherd, the man who is His companion, and the sheep are scattered"
+came_to_pass = "When Jesus was arrested in Gethsemane, all the disciples deserted Him and fled, as He had told them that night (Matthew 26:31, 56; Mark 14:27, 50)."
 specific = ["person", "sequence"]
 uses = [
   { ref = "Matthew 26:31", kind = "fulfilment", text = "neither", note = "'Πατάξω τὸν ποιμένα', 'I will strike the shepherd': the Hebrew's single shepherd; the Septuagint has 'strike the shepherds' (πατάξατε τοὺς ποιμένας), and neither has the first person" },
@@ -1391,6 +1472,7 @@ tier = 3
 category = "passion"
 prophecy = "Psalm 35:11; 27:12"
 predicts = "malicious witnesses rise up and ask him of things he does not know"
+came_to_pass = "At His trial before the council, many false witnesses came forward against Jesus, and their testimony did not agree (Matthew 26:59-61; Mark 14:56-57)."
 specific = ["manner"]
 uses = [
   { ref = "Matthew 26:59-61", kind = "allusion" },
@@ -1411,6 +1493,7 @@ category = "passion"
 prophecy = "Isaiah 50:6"
 speaker = "messiah"
 predicts = "the servant gives his back to those who strike and his cheeks to those who pull out the beard, and does not hide his face from mocking and spitting"
+came_to_pass = "Jesus was spat on, struck and flogged, and offered no resistance, as He had foretold on the road to Jerusalem (Luke 18:31-33; Matthew 26:67; Matthew 27:26-30)."
 specific = ["manner"]
 uses = [
   { ref = "Luke 18:31-33", kind = "fulfilment", text = "none", note = "'everything the prophets have written about the Son of Man will be fulfilled… spit upon' (BSB) names no text; Isaiah 50:6 is the text that describes spitting" },
@@ -1433,6 +1516,7 @@ category = "passion"
 prophecy = "Micah 5:1"
 masoretic = "Micah 4:14"
 predicts = "they strike the judge of Israel on the cheek with a rod"
+came_to_pass = "An officer struck Jesus in the face before Annas, and the soldiers struck Him on the head with a staff (John 18:22; Matthew 27:30)."
 specific = ["manner"]
 uses = [
   { ref = "Matthew 27:30", kind = "allusion" },
@@ -1452,6 +1536,7 @@ tier = 1
 category = "passion"
 prophecy = "Isaiah 53:7-8"
 predicts = "the servant, oppressed, does not open his mouth; led like a lamb to the slaughter; cut off from the land of the living for the transgression of the people"
+came_to_pass = "Accused before the chief priests and Pilate, Jesus gave no answer, and Philip preached Him to the Ethiopian from this passage (Matthew 27:12-14; Acts 8:30-35)."
 specific = ["manner"]
 uses = [
   { ref = "Acts 8:30-35", kind = "fulfilment", text = "lxx", note = "Isaiah 53:7-8 word for word as the Septuagint, including 53:8's 'in his humiliation justice was denied him', where the Hebrew differs" },
@@ -1472,6 +1557,7 @@ tier = 1
 category = "passion"
 prophecy = "Psalm 2:1-2"
 predicts = "the nations rage, and the kings and rulers gather together against the LORD and against His Anointed"
+came_to_pass = "Herod and Pontius Pilate, with the Gentiles and the people of Israel, gathered against Jesus, God's anointed Servant (Acts 4:24-28; Luke 23:12)."
 specific = ["person", "manner"]
 uses = [
   { ref = "Acts 4:24-28", kind = "fulfilment", text = "both", note = "Psalm 2:1-2 word for word as the Septuagint, which renders the Hebrew closely; Χριστοῦ for מְשִׁיחוֹ (meshicho, His Anointed)" },
@@ -1495,6 +1581,7 @@ category = "passion"
 prophecy = "Numbers 21:8-9"
 form = "type"
 predicts = "those bitten who look at the bronze serpent on the pole live"
+came_to_pass = "Jesus was lifted up on the cross, so that everyone who believes in Him has eternal life (John 3:14-15; John 12:32-33)."
 specific = ["manner"]
 uses = [
   { ref = "John 3:14-15", kind = "type", note = "'Just as Moses lifted up the snake in the wilderness, so the Son of Man must be lifted up' (BSB); John's ὑψόω (hypsoō, lift up) is his own word: the Septuagint has 'set it on a standard' (ἐπὶ σημείου)" },
@@ -1514,6 +1601,7 @@ category = "passion"
 prophecy = "Exodus 12:3-13"
 form = "type"
 predicts = "a lamb without blemish, slain at twilight on the fourteenth of the first month; its blood on the doorposts, and the LORD passes over"
+came_to_pass = "Jesus, the Lamb of God without blemish, was sacrificed on the day of preparation for the Passover, and His blood redeems (John 1:29; John 19:14; 1 Corinthians 5:7; 1 Peter 1:19)."
 specific = ["time", "manner"]
 uses = [
   { ref = "1 Corinthians 5:7", kind = "type", note = "'Christ, our Passover lamb, has been sacrificed' (BSB)" },
@@ -1535,6 +1623,7 @@ category = "resurrection"
 prophecy = "Genesis 22:1-14"
 form = "type"
 predicts = "Abraham offers his only son on a mountain of Moriah; God provides the lamb; 'on the mount of the LORD it will be provided'"
+came_to_pass = "God spared Abraham's son and gave up His own Son for us all, the Lamb He provided; Abraham received Isaac back as from the dead (Romans 8:32; Hebrews 11:17-19; John 3:16)."
 specific = ["place", "person"]
 uses = [
   { ref = "Hebrews 11:17-19", kind = "type", note = "ἐν παραβολῇ (en parabolē, 'as a figure'; BSB 'in a sense') he received Isaac back from death: Hebrews draws the type at the return from death" },
@@ -1556,6 +1645,7 @@ prophecy = "Psalm 22:7-8"
 masoretic = "Psalm 22:8-9"
 speaker = "messiah"
 predicts = "all who see him mock him and shake their heads: 'He trusts in the LORD; let the LORD deliver him, since He delights in him'"
+came_to_pass = "Passers-by at the cross shook their heads, and the chief priests mocked His trust in God, daring God to rescue Him (Matthew 27:39-43)."
 specific = ["manner"]
 uses = [
   { ref = "Matthew 27:39-43", kind = "application", text = "lxx", note = "'shaking their heads' (κινοῦντες τὰς κεφαλάς; Psalm 21:8 LXX ἐκίνησαν κεφαλήν), and 'Let God deliver Him now if He wants Him' (BSB; ῥυσάσθω… θέλει αὐτόν, Psalm 21:9 LXX): the chief priests speak the psalm" },
@@ -1577,6 +1667,7 @@ prophecy = "Psalm 22:1"
 masoretic = "Psalm 22:2"
 speaker = "messiah"
 predicts = "the sufferer cries to God, asking why He has forsaken him and is far from saving him"
+came_to_pass = "At the ninth hour Jesus cried out the psalm's opening words from the cross (Matthew 27:46; Mark 15:34)."
 specific = ["manner"]
 uses = [
   { ref = "Matthew 27:46", kind = "application", text = "mt", note = "Ἠλὶ ἠλὶ λεμὰ σαβαχθάνι: the Hebrew's opening, with the Aramaic שְׁבַקְתַּנִי (shevaqtani) for עֲזַבְתָּנִי (azavtani); the Septuagint adds 'attend to me' (πρόσχες μοι)" },
@@ -1597,6 +1688,7 @@ prophecy = "Psalm 69:21"
 masoretic = "Psalm 69:22"
 speaker = "messiah"
 predicts = "for his thirst they give him vinegar to drink, and gall for food"
+came_to_pass = "Jesus said He was thirsty, to fulfil the Scripture, and was given sour wine on a sponge; earlier they had offered Him wine mixed with gall (John 19:28-30; Matthew 27:34)."
 specific = ["manner"]
 uses = [
   { ref = "John 19:28-30", kind = "fulfilment", text = "none", note = "'to fulfill the Scripture, Jesus said, I am thirsty' (BSB); ὄξος (oxos, sour wine) as Psalm 68:22 LXX" },
@@ -1618,6 +1710,7 @@ prophecy = "Psalm 31:5"
 masoretic = "Psalm 31:6"
 speaker = "messiah"
 predicts = "the sufferer commits his spirit into God's hands, confessing that the LORD has redeemed him"
+came_to_pass = "Jesus breathed His last committing His spirit into His Father's hands, in this psalm's words (Luke 23:46)."
 specific = ["manner"]
 uses = [
   { ref = "Luke 23:46", kind = "application", text = "lxx", note = "Psalm 30:6 LXX (εἰς χεῖράς σου παραθήσομαι τὸ πνεῦμά μου), with 'Father' added and the verb present; He stops before 'You have redeemed me'" },
@@ -1636,6 +1729,7 @@ tier = 3
 category = "passion"
 prophecy = "Amos 8:9"
 predicts = "on that day the Lord GOD makes the sun go down at noon and darkens the earth in broad daylight"
+came_to_pass = "From the sixth hour to the ninth, darkness came over all the land while Jesus hung on the cross (Matthew 27:45; Mark 15:33; Luke 23:44-45)."
 specific = ["time", "manner"]
 uses = [
   { ref = "Matthew 27:45", kind = "allusion", note = "darkness from the sixth hour to the ninth" },
@@ -1657,6 +1751,7 @@ category = "passion"
 prophecy = "Psalm 38:11"
 masoretic = "Psalm 38:12"
 predicts = "friends and companions stand aloof from his plague; his kinsmen stand far off"
+came_to_pass = "At the cross all who knew Jesus, and the women who had followed Him from Galilee, stood at a distance, watching (Luke 23:49; Mark 15:40)."
 specific = ["person"]
 uses = [
   { ref = "Luke 23:49", kind = "allusion", note = "μακρόθεν (makrothen, far off), as Psalm 37:12 LXX" },
@@ -1676,6 +1771,7 @@ tier = 2
 category = "passion"
 prophecy = "Isaiah 53:12b"
 predicts = "he bore the sin of many and made intercession for the transgressors"
+came_to_pass = "Crucified among criminals, Jesus prayed for those who crucified Him, and He lives to intercede for us still (Luke 23:34; Hebrews 7:25)."
 specific = ["manner"]
 uses = [
   { ref = "Luke 23:34", kind = "allusion", note = "'Father, forgive them': some manuscripts do not include it (the BSB's note)" },
@@ -1696,6 +1792,7 @@ prophecy = "Psalm 22:30-31"
 masoretic = "Psalm 22:31-32"
 speaker = "messiah"
 predicts = "a people yet unborn will be told of the LORD's righteousness: that He has done it"
+came_to_pass = "The psalm Jesus prayed on the cross ends in God's deliverance told to generations yet unborn, and the risen Jesus declares God's name to His brothers (Psalm 22:22-31; Hebrews 2:11-12)."
 specific = ["sequence"]
 uses = [
   { ref = "John 19:30", kind = "allusion", note = "'It is finished' (τετέλεσται) is often linked; the words are not shared" },
@@ -1713,6 +1810,7 @@ tier = 1
 category = "passion"
 prophecy = "Psalm 118:22-23"
 predicts = "the stone the builders rejected becomes the cornerstone; this is the LORD's doing and marvellous in our eyes"
+came_to_pass = "The leaders of Israel rejected and crucified Jesus, and God raised Him and made Him the cornerstone (Matthew 21:42; Acts 4:10-11; 1 Peter 2:7)."
 specific = ["manner", "sequence"]
 uses = [
   { ref = "Matthew 21:42", kind = "fulfilment", text = "both", note = "word for word as Psalm 117:22-23 LXX, which renders the Hebrew closely" },
@@ -1738,6 +1836,7 @@ prophecy = "Jonah 1:17"
 masoretic = "Jonah 2:1"
 form = "type"
 predicts = "Jonah is three days and three nights in the belly of the great fish, and is brought up alive"
+came_to_pass = "Jesus lay in the tomb and rose on the third day: the sign of Jonah, the one sign He gave that generation (Matthew 12:38-41; Matthew 28:1-6)."
 specific = ["time", "number", "manner"]
 uses = [
   { ref = "Matthew 12:38-41", kind = "type", text = "lxx", note = "Jonah 2:1 LXX word for word ('three days and three nights in the belly of the sea creature'), then 'so the Son of Man will be three days and three nights in the heart of the earth'" },
@@ -1757,6 +1856,7 @@ tier = 3
 category = "resurrection"
 prophecy = "Hosea 6:2"
 predicts = "after two days God revives His people; on the third day He raises them up to live before Him"
+came_to_pass = "Jesus rose on the third day, as Paul says, according to the Scriptures (1 Corinthians 15:3-4; Luke 24:44-46)."
 specific = ["time", "number"]
 uses = [
   { ref = "1 Corinthians 15:3-4", kind = "allusion", note = "'raised on the third day according to the Scriptures' (BSB) names no text" },
@@ -1777,6 +1877,7 @@ tier = 3
 category = "resurrection"
 prophecy = "Isaiah 53:10-11"
 predicts = "after the servant's soul is made a guilt offering, he sees his offspring, prolongs his days, and after the anguish of his soul sees light and is satisfied"
+came_to_pass = "After His death as an offering for sin, Jesus rose to die no more, and the children God has given Him are His offspring (Romans 6:9; Hebrews 2:10-13)."
 specific = ["manner", "sequence"]
 uses = [
   { ref = "1 Corinthians 15:3-4", kind = "allusion" },
@@ -1797,6 +1898,7 @@ tier = 1
 category = "resurrection"
 prophecy = "Isaiah 55:3"
 predicts = "God makes an everlasting covenant: the faithful mercies promised to David"
+came_to_pass = "God raised Jesus from the dead, never to return to decay, and so gave the holy and sure blessings promised to David (Acts 13:34)."
 specific = ["lineage"]
 uses = [
   { ref = "Acts 13:34", kind = "fulfilment", text = "lxx", note = "'the holy and sure things of David' (τὰ ὅσια Δαυὶδ τὰ πιστά) as Isaiah 55:3 LXX, joined to Psalm 16:10's 'Your Holy One' (τὸν ὅσιόν) in the next verse by the shared word" },
@@ -1815,6 +1917,7 @@ category = "resurrection"
 prophecy = "Psalm 68:18"
 masoretic = "Psalm 68:19"
 predicts = "God ascends on high, leads captives, and receives gifts among men, that He may dwell there"
+came_to_pass = "Jesus ascended into heaven and gave gifts to His church: apostles, prophets, evangelists, pastors and teachers (Acts 1:9; Ephesians 4:7-11)."
 specific = ["manner"]
 uses = [
   { ref = "Ephesians 4:7-10", kind = "application", text = "neither", note = "'He gave gifts to men' (ἔδωκεν δόματα τοῖς ἀνθρώποις), where the Hebrew and Septuagint have 'You received'; and 'He ascended' for 'You ascended'" },
@@ -1832,6 +1935,8 @@ tier = 1
 category = "resurrection"
 prophecy = "Psalm 110:1"
 predicts = "the LORD says to David's Lord: sit at My right hand until I make Your enemies a footstool for Your feet"
+came_to_pass = "Jesus ascended and sat down at the right hand of God, as Peter preached at Pentecost (Acts 2:34-36; Hebrews 1:13; Hebrews 10:12)."
+still_to_come = "He waits there until His enemies are made His footstool, the last of them death (Hebrews 10:12-13; 1 Corinthians 15:25-26)."
 specific = ["person", "sequence"]
 uses = [
   { ref = "Matthew 22:41-46", kind = "fulfilment", text = "both", note = "Psalm 109:1 LXX, which renders the Hebrew closely, with ὑποκάτω ('under') for its ὑποπόδιον ('footstool') in the SBLGNT, as in Mark 12:36; the Textus Receptus has the Septuagint's word" },
@@ -1863,6 +1968,8 @@ category = "resurrection"
 prophecy = "Psalm 8:4-6"
 masoretic = "Psalm 8:5-7"
 predicts = "God makes the son of man a little lower than the angels (or God), crowns him with glory and honour, and puts all things under his feet"
+came_to_pass = "Jesus was made lower than the angels for a little while, suffered death, and is now crowned with glory and honour (Hebrews 2:9)."
+still_to_come = "Everything put under His feet is still to be seen, at the end, when He hands the kingdom to the Father (Hebrews 2:8; 1 Corinthians 15:24-28)."
 specific = ["person", "sequence"]
 uses = [
   { ref = "Hebrews 2:5-9", kind = "split", text = "lxx", note = "Psalm 8:5-7 LXX ('a little lower than the angels', παρʼ ἀγγέλους; the Hebrew מֵאֱלֹהִים, me'elohim); 'Yet at present we do not see everything subject to him. But we see Jesus… now crowned with glory and honor because He suffered death' (Hebrews 2:8-9, BSB)" },
@@ -1887,6 +1994,7 @@ prophecy = "Psalm 22:22"
 masoretic = "Psalm 22:23"
 speaker = "messiah"
 predicts = "the sufferer, delivered, proclaims God's name to his brothers and praises Him in the assembly"
+came_to_pass = "Risen, Jesus sent word to His disciples as His brothers, and Hebrews puts the psalm in His mouth: He declares God's name to them (John 20:17; Hebrews 2:11-12)."
 specific = ["person"]
 uses = [
   { ref = "Hebrews 2:11-12", kind = "application", text = "neither", note = "the Septuagint's line with 'I will proclaim' (ἀπαγγελῶ) for 'I will recount' (διηγήσομαι)" },
@@ -1906,6 +2014,7 @@ category = "resurrection"
 prophecy = "Isaiah 8:17-18"
 speaker = "messiah"
 predicts = "the prophet waits for the LORD and trusts Him; he and the children the LORD has given him are signs in Israel"
+came_to_pass = "Hebrews puts the prophet's words in Jesus' mouth: He trusts God and stands with the children God has given Him (Hebrews 2:13)."
 specific = ["person"]
 uses = [
   { ref = "Hebrews 2:13", kind = "application", text = "lxx", note = "Isaiah 8:17 LXX ('I will put my trust in Him') and 8:18 LXX word for word, as two sayings" },
@@ -1925,6 +2034,7 @@ tier = 3
 category = "resurrection"
 prophecy = "Psalm 24:7-10"
 predicts = "the ancient gates lift up their heads for the King of glory to enter: the LORD of Hosts, strong and mighty in battle"
+came_to_pass = "Paul calls the crucified Jesus the Lord of glory, and the risen Jesus entered heaven itself (1 Corinthians 2:8; Hebrews 9:24)."
 specific = ["person"]
 uses = [
   { ref = "1 Corinthians 2:8", kind = "allusion", note = "'the Lord of glory' (BSB)" },
@@ -1943,6 +2053,7 @@ tier = 3
 category = "resurrection"
 prophecy = "Psalm 118:17-18"
 predicts = "the king will not die but live, to proclaim what the LORD has done; the LORD disciplined him severely but did not give him over to death"
+came_to_pass = "Jesus was disciplined even to death and given back to life, since death could not hold Him, and He claimed the rejected stone of the same psalm (Acts 2:24; Psalm 118:22; Matthew 21:42)."
 specific = ["manner"]
 uses = []
 status = "fulfilled"
@@ -1958,6 +2069,8 @@ tier = 1
 category = "redemption"
 prophecy = "Jeremiah 31:31-34"
 predicts = "the LORD makes a new covenant with the house of Israel and the house of Judah: His law written on their hearts, all of them knowing Him, their sins remembered no more"
+came_to_pass = "At the Last Supper Jesus gave the cup as the new covenant in His blood, and by His one sacrifice sins are remembered no more (Luke 22:20; Hebrews 8:6-13; Hebrews 10:15-18)."
+still_to_come = "The covenant made with the whole house of Israel and Judah, all of them knowing the LORD, waits for the day all Israel is saved (Jeremiah 31:34; Romans 11:26-27)."
 specific = ["person", "manner"]
 uses = [
   { ref = "Hebrews 8:6-13", kind = "fulfilment", text = "lxx", note = "Jeremiah 38:31-34 LXX, including 'I disregarded them' (ἠμέλησα αὐτῶν) where the Hebrew has 'though I was a husband to them' (בָּעַלְתִּי, ba'alti)" },
@@ -1982,6 +2095,8 @@ category = "redemption"
 prophecy = "Joel 2:28-32"
 masoretic = "Joel 3:1-5"
 predicts = "afterward God pours out His Spirit on all flesh, sons and daughters prophesy; wonders in heaven and earth, the sun turned to darkness and the moon to blood, before the great day of the LORD; whoever calls on the LORD's name is saved"
+came_to_pass = "At Pentecost the risen Jesus poured out the Holy Spirit on His disciples, and Peter said this was what Joel had spoken (Acts 2:16-21, 33)."
+still_to_come = "The wonders in the sky, the sun darkened and the moon turned to blood, come before the great and awesome day of the LORD (Joel 2:30-31; Revelation 6:12)."
 specific = ["sequence", "manner"]
 uses = [
   { ref = "Acts 2:16-21", kind = "split", text = "lxx", note = "Joel 3:1-5 LXX, with Peter's changes: 'in the last days' (ἐν ταῖς ἐσχάταις ἡμέραις) for 'afterward' (μετὰ ταῦτα), 'and they will prophesy' added, and 'above… signs… below' added to the wonders" },
@@ -2002,6 +2117,8 @@ tier = 2
 category = "redemption"
 prophecy = "Zechariah 14:8; Isaiah 44:3; 55:1; 58:11; Ezekiel 47:1-12"
 predicts = "living waters flow out from Jerusalem; God pours water on the thirsty land and His Spirit on Jacob's offspring"
+came_to_pass = "At the Feast of Booths Jesus promised rivers of living water to all who believe in Him, meaning the Spirit, given once He was glorified (John 7:37-39; Acts 2:33)."
+still_to_come = "Living water flowing out from Jerusalem, and the river from the temple, wait for His reign (Zechariah 14:8; Ezekiel 47:1-12)."
 specific = ["manner", "place"]
 uses = [
   { ref = "John 7:37-39", kind = "application", text = "none", note = "'as the Scripture has said': no single text" },
@@ -2022,6 +2139,8 @@ tier = 2
 category = "redemption"
 prophecy = "Isaiah 49:6; 42:6"
 predicts = "the servant raises up the tribes of Jacob and is also made a light for the nations, so God's salvation reaches the ends of the earth"
+came_to_pass = "Simeon held the infant Jesus and called Him a light for revelation to the Gentiles, and Paul carried that light to the nations (Luke 2:30-32; Acts 13:46-47; Acts 26:23)."
+still_to_come = "The tribes of Jacob raised up and Israel restored wait for His reign (Isaiah 49:5-6; Acts 1:6)."
 specific = ["person", "place"]
 uses = [
   { ref = "Luke 2:30-32", kind = "fulfilment", text = "none", note = "Simeon over the child: 'a light for revelation to the Gentiles, and for glory to Your people Israel' (BSB)" },
@@ -2042,6 +2161,7 @@ tier = 2
 category = "redemption"
 prophecy = "Isaiah 49:8"
 predicts = "in a time of favour the LORD answers His servant, in a day of salvation helps him, and makes him a covenant for the people"
+came_to_pass = "Paul says the day of salvation has come with Christ: now is the time of God's favour (2 Corinthians 6:1-2)."
 specific = ["time"]
 uses = [
   { ref = "2 Corinthians 6:1-2", kind = "application", text = "both", note = "Isaiah 49:8 LXX word for word, then 'Behold, now is the time of favor; now is the day of salvation!' (BSB)" },
@@ -2059,6 +2179,8 @@ tier = 1
 category = "redemption"
 prophecy = "Isaiah 11:10"
 predicts = "in that day the Root of Jesse stands as a banner for the peoples; the nations seek Him, and His resting place is glorious"
+came_to_pass = "Christ came to confirm God's promises to Israel and so that the Gentiles would glorify God and hope in Him (Romans 15:8-12)."
+still_to_come = "The Root of Jesse standing as a banner, with the nations gathered and His resting place glorious, waits for His reign (Isaiah 11:10-12)."
 specific = ["person", "lineage"]
 uses = [
   { ref = "Romans 15:8-12", kind = "fulfilment", text = "lxx", note = "Isaiah 11:10 LXX: 'the one who rises (ὁ ἀνιστάμενος) to rule the nations; in Him the nations will hope', where the Hebrew has 'stands as a banner… the nations will seek Him'" },
@@ -2081,6 +2203,8 @@ tier = 2
 category = "redemption"
 prophecy = "Amos 9:11-12"
 predicts = "in that day God raises up the fallen tent of David and rebuilds it as in days of old, so that the remnant possesses Edom and all the nations called by His name"
+came_to_pass = "Gentiles began turning to God and bearing His name, which James at the council in Jerusalem said agrees with Amos (Acts 15:13-19)."
+still_to_come = "David's fallen tent rebuilt as in the days of old, and Israel planted in its land never to be uprooted, wait for His reign (Amos 9:11, 14-15)."
 specific = ["lineage", "sequence"]
 uses = [
   { ref = "Acts 15:13-18", kind = "application", text = "neither", note = "a composite of 'the words of the prophets' (15:15): 'After this I will return' from Jeremiah 12:15 LXX ('after I have cast them out, I will return', ἐπιστρέψω) and Hosea 3:5 LXX ('afterward', μετὰ ταῦτα, Israel 'will seek the Lord… and David their king… in the last days'); Amos 9:11-12 LXX ('that the remnant of men may seek', where the Hebrew has 'possess the remnant of Edom'), with 'the Lord' as the object from Hosea; 'known for ages' (γνωστὰ ἀπʼ αἰῶνος) from Isaiah 45:21 LXX. James says the prophets 'agree' (συμφωνοῦσιν), never 'fulfilled'" },
@@ -2105,6 +2229,7 @@ tier = 1
 category = "office"
 prophecy = "Psalm 110:4"
 predicts = "the LORD has sworn and will not change His mind: the king at His right hand is a priest forever in the order of Melchizedek"
+came_to_pass = "Jesus, risen to an indestructible life, was designated by God's oath a high priest forever in the order of Melchizedek (Hebrews 5:5-10; Hebrews 7:15-28)."
 specific = ["person", "manner"]
 uses = [
   { ref = "Hebrews 5:5-10", kind = "fulfilment", text = "both", note = "Psalm 109:4 LXX word for word, which renders the Hebrew closely" },
@@ -2125,6 +2250,8 @@ category = "office"
 prophecy = "Psalm 89:26-27"
 masoretic = "Psalm 89:27-28"
 predicts = "God appoints David's line as His firstborn, the highest of the kings of the earth, and establishes his throne like the sun and the moon, the faithful witness in the sky"
+came_to_pass = "Jesus is the faithful witness, the firstborn from the dead and the ruler of the kings of the earth (Revelation 1:5; Colossians 1:18)."
+still_to_come = "His throne over all the kings of the earth, enduring like the sun, is seen when He reigns (Psalm 89:27-37; Revelation 19:16)."
 specific = ["person", "lineage"]
 uses = [
   { ref = "Revelation 1:5", kind = "application", text = "lxx", note = "three phrases of Psalm 88 LXX: 'the faithful witness' (ὁ μάρτυς… πιστός, 88:38), 'the firstborn' (πρωτότοκον, 88:28) and 'ruler of the kings of the earth' (88:28)" },
@@ -2147,6 +2274,7 @@ category = "office"
 prophecy = "Psalm 80:17"
 masoretic = "Psalm 80:18"
 predicts = "the psalmist asks God to put His hand on the man at His right hand, the son of man He raised up for Himself, so Israel will not turn back"
+came_to_pass = "Jesus told the council they would see the Son of Man seated at the right hand of Power, and Stephen saw Him standing there (Mark 14:62; Acts 7:56)."
 specific = ["person"]
 uses = []
 status = "fulfilled"
@@ -2168,6 +2296,7 @@ category = "office"
 prophecy = "Isaiah 22:22"
 form = "type"
 predicts = "the LORD lays the key of the house of David on Eliakim's shoulder: what he opens no one shuts, what he shuts no one opens"
+came_to_pass = "The risen Jesus holds the key of David: what He opens no one shuts, and what He shuts no one opens (Revelation 3:7)."
 specific = ["person"]
 uses = [
   { ref = "Revelation 3:7", kind = "application", text = "both", note = "'the key of David', shortened from 'the key of the house of David', with the opening and shutting as Isaiah 22:22" },
@@ -2187,6 +2316,8 @@ tier = 3
 category = "office"
 prophecy = "Ezekiel 34:23-24; 37:24-25"
 predicts = "the LORD appoints one shepherd, His servant David, to feed His flock; David will be king over them, one shepherd for all"
+came_to_pass = "Jesus is the good shepherd who lays down His life for the sheep and gathers one flock under one shepherd (John 10:11-16)."
+still_to_come = "The shepherd-king over a reunited Israel in its own land waits for His kingdom; whether this David is Christ or David raised to serve under Him is contested (Ezekiel 37:24-25)."
 specific = ["person", "name"]
 uses = [
   { ref = "John 10:11-16", kind = "allusion", note = "'one flock and one shepherd' (John 10:16, BSB) beside Ezekiel's 'one shepherd' (Ezekiel 34:23; 37:24)" },
@@ -2209,6 +2340,7 @@ category = "office"
 prophecy = "Genesis 28:12"
 form = "type"
 predicts = "a stairway set on the earth reaching to heaven, with God's angels ascending and descending on it"
+came_to_pass = "Jesus told Nathanael and the disciples they would see the angels of God ascending and descending on the Son of Man: He is the way between heaven and earth (John 1:51)."
 specific = ["manner"]
 uses = [
   { ref = "John 1:51", kind = "type", note = "'the angels of God ascending and descending on the Son of Man': the Septuagint has 'on it' (ἐπʼ αὐτῇ, the ladder); the Hebrew בּוֹ (bo) can be 'on it' or 'on him'" },
@@ -2226,6 +2358,7 @@ category = "office"
 prophecy = "Exodus 17:6; Numbers 20:11"
 form = "type"
 predicts = "the LORD stands on the rock at Horeb; Moses strikes it and water comes out for the people"
+came_to_pass = "Paul says the rock that gave Israel water in the wilderness was Christ, from whom living water flows (1 Corinthians 10:1-4; John 7:37-39)."
 specific = ["manner"]
 uses = [
   { ref = "1 Corinthians 10:1-4", kind = "type", note = "'they drank from the spiritual rock that accompanied them, and that rock was Christ' (1 Corinthians 10:4, BSB)" },
@@ -2243,6 +2376,7 @@ category = "office"
 prophecy = "Exodus 16:4, 15; Psalm 78:24"
 form = "type"
 predicts = "God rains bread from heaven for the people to eat in the wilderness"
+came_to_pass = "Jesus said He is the true bread from heaven, the bread of life, and whoever comes to Him will never hunger (John 6:30-35; John 6:48-51)."
 specific = ["manner"]
 uses = [
   { ref = "John 6:30-35", kind = "type", note = "the crowd quotes 'He gave them bread from heaven to eat' (Psalm 77:24 LXX with Exodus 16:4); Jesus: 'I am the bread of life'" },
@@ -2261,6 +2395,7 @@ category = "office"
 prophecy = "Leviticus 16:1-34"
 form = "type"
 predicts = "once a year the high priest enters the Most Holy Place with blood to make atonement for himself and for the people"
+came_to_pass = "Christ entered heaven itself once for all with His own blood, securing eternal redemption, and suffered outside the city gate (Hebrews 9:11-14, 24-28; Hebrews 13:11-12)."
 specific = ["manner", "time"]
 uses = [
   { ref = "Hebrews 9:6-14, 24-28", kind = "type", note = "'Christ did not enter a man-made copy of the true sanctuary, but He entered heaven itself' (Hebrews 9:24, BSB)" },
@@ -2282,6 +2417,7 @@ tier = 1
 category = "future"
 prophecy = "Daniel 7:13-14"
 predicts = "one like a son of man comes with the clouds of heaven to the Ancient of Days and is given dominion, glory and a kingdom that all peoples serve and that will not pass away"
+still_to_come = "Jesus told the high priest they would see the Son of Man coming on the clouds of heaven: every eye will see Him at His return, and He receives the everlasting kingdom (Mark 14:62; Matthew 24:30; Revelation 1:7)."
 specific = ["person", "manner"]
 uses = [
   { ref = "Mark 14:61-64", kind = "split", text = "both", note = "'coming with the clouds of heaven' (μετὰ τῶν νεφελῶν), as the Hebrew עִם (im, 'with') and Theodotion, joined to Psalm 110:1's 'sitting at the right hand of Power': the session fulfilled and the coming still to come, in one sentence" },
@@ -2309,6 +2445,8 @@ tier = 1
 category = "future"
 prophecy = "Psalm 118:26"
 predicts = "blessed is he who comes in the name of the LORD"
+came_to_pass = "The crowds sang the psalm as Jesus rode into Jerusalem on the donkey (Matthew 21:9)."
+still_to_come = "Jerusalem will see Him again on the day it blesses Him who comes in the name of the Lord (Matthew 23:37-39; Luke 13:35)."
 specific = ["person", "sequence"]
 uses = [
   { ref = "Matthew 21:9", kind = "fulfilment", text = "both", note = "the crowds at the entry, with 'Hosanna to the Son of David'" },
@@ -2333,6 +2471,7 @@ tier = 3
 category = "future"
 prophecy = "Zechariah 14:3-9"
 predicts = "the LORD goes out to fight the nations; on that day His feet stand on the Mount of Olives, which splits in two; the LORD becomes King over all the earth"
+still_to_come = "The LORD stands on the Mount of Olives, fights the nations and becomes King over all the earth; Jesus ascended from that mountain with the promise that He will come back the same way (Zechariah 14:3-9; Acts 1:9-12)."
 specific = ["place", "manner"]
 uses = [
   { ref = "Acts 1:9-12", kind = "allusion", note = "'will come back in the same way you have seen Him go into heaven' (Acts 1:11, BSB); from the mount called Olivet" },
@@ -2352,6 +2491,7 @@ tier = 1
 category = "future"
 prophecy = "Psalm 2:8-9"
 predicts = "the Son is given the nations as his inheritance and rules them with an iron sceptre, breaking them like pottery"
+still_to_come = "At His return He rules the nations with an iron sceptre, and shares that rule with those who overcome (Revelation 12:5; Revelation 19:15; Revelation 2:26-27)."
 specific = ["manner"]
 uses = [
   { ref = "Revelation 12:5", kind = "fulfilment", text = "lxx", note = "'who will rule all the nations with an iron scepter' (BSB)" },
@@ -2375,6 +2515,7 @@ tier = 2
 category = "future"
 prophecy = "Isaiah 11:4"
 predicts = "the shoot of Jesse strikes the earth with the rod of his mouth and slays the wicked with the breath of his lips"
+still_to_come = "At His coming the Lord Jesus destroys the lawless one with the breath of His mouth (2 Thessalonians 2:8; Revelation 19:15)."
 specific = ["manner"]
 uses = [
   { ref = "2 Thessalonians 2:8", kind = "application", text = "lxx", note = "'the Lord Jesus will slay with the breath of His mouth' (ἀνελεῖ τῷ πνεύματι τοῦ στόματος), the Septuagint's verb; Isaiah's singular 'the wicked' (רָשָׁע, rasha; LXX ἀσεβῆ) becomes 'the lawless one'" },
@@ -2398,6 +2539,7 @@ tier = 3
 category = "future"
 prophecy = "Psalm 110:2, 5-7"
 predicts = "the LORD extends the king's sceptre from Zion to rule in the midst of his enemies; the Lord at his right hand crushes kings in the day of His wrath and judges the nations"
+still_to_come = "At His return the kings of the earth gather against Him and are struck down, and He rules from Zion among His enemies (Revelation 6:15-17; Revelation 19:15-19)."
 specific = ["sequence", "place", "manner"]
 uses = [
   { ref = "Revelation 6:15-17", kind = "allusion", note = "'the kings of the earth'… 'the great day of Their wrath has come' (BSB)" },
@@ -2420,6 +2562,7 @@ tier = 2
 category = "future"
 prophecy = "Isaiah 63:1-6"
 predicts = "one comes from Edom in crimson garments, having trodden the winepress alone in His anger, for the day of vengeance was in His heart and the year of His redemption had come"
+still_to_come = "The rider whose robe is dipped in blood treads the winepress of the fury of God's wrath when He returns (Revelation 19:13-15; Revelation 14:19-20)."
 specific = ["manner", "place"]
 uses = [
   { ref = "Revelation 19:13-15", kind = "imagery", note = "'a robe dipped in blood'; 'He treads the winepress of the fury of the wrath of God' (BSB)" },
@@ -2438,6 +2581,7 @@ tier = 2
 category = "future"
 prophecy = "Hosea 3:4-5; 5:15-6:1; Jeremiah 30:7-9; Deuteronomy 4:30"
 predicts = "Israel lives many days without king or sacrifice; in their affliction they seek the LORD's face; in the time of Jacob's distress they are saved out of it, and in the last days they return and seek the LORD their God and David their king"
+still_to_come = "Israel, many days without king or sacrifice, will seek the LORD and David their king in the time of Jacob's distress, and all Israel will be saved (Hosea 3:4-5; Jeremiah 30:7-9; Romans 11:25-27)."
 specific = ["sequence", "time", "person"]
 uses = [
   { ref = "Acts 15:16-17", kind = "application", text = "lxx", note = "James opens Amos 9:11 with Hosea 3:5 LXX's 'afterward' (μετὰ ταῦτα) and takes its 'seek the Lord'" },
@@ -2462,6 +2606,7 @@ tier = 1
 category = "future"
 prophecy = "Isaiah 59:20-21"
 predicts = "the Redeemer comes to Zion, to those in Jacob who turn from transgression; God's Spirit and words remain with them forever"
+still_to_come = "The Deliverer will come from Zion and remove ungodliness from Jacob, once the full number of the Gentiles has come in and all Israel is saved (Romans 11:25-27)."
 specific = ["person", "place"]
 uses = [
   { ref = "Romans 11:25-27", kind = "fulfilment", text = "neither", note = "'The Deliverer will come from Zion' (ἐκ Σιών), where the Hebrew has 'to Zion' (לְצִיּוֹן) and the Septuagint 'for Zion's sake' (ἕνεκεν Σιών); 'He will remove godlessness from Jacob' as the Septuagint" },
@@ -2479,6 +2624,7 @@ tier = 2
 category = "future"
 prophecy = "Daniel 2:34-35, 44-45"
 predicts = "a stone cut without hands strikes the image on its feet and becomes a great mountain filling the earth: God sets up a kingdom that will never be destroyed"
+still_to_come = "At His return the stone strikes the kingdoms of this world and God sets up a kingdom that will never be destroyed; Jesus named Himself the stone that crushes (Daniel 2:44-45; Luke 20:17-18)."
 specific = ["sequence", "manner"]
 uses = [
   { ref = "Luke 20:17-18", kind = "allusion", note = "'Everyone who falls on this stone will be broken to pieces, but he on whom it falls will be crushed' (BSB), after Psalm 118:22" },
@@ -2498,6 +2644,7 @@ tier = 1
 category = "future"
 prophecy = "Habakkuk 2:3-4"
 predicts = "the vision awaits its appointed time and will surely come; though it lingers, wait for it; the righteous will live by faith"
+still_to_come = "Hebrews reads Habakkuk's vision of the Coming One: in a very little while He will come without delay, and the righteous live by faith until He does (Hebrews 10:36-39; Revelation 22:20)."
 specific = ["time"]
 uses = [
   { ref = "Hebrews 10:36-39", kind = "fulfilment", text = "lxx", note = "the Septuagint, which reads 'wait for him… the one coming will come' (ὑπόμεινον αὐτόν… ἐρχόμενος ἥξει), with Hebrews adding the article ('the coming one', ὁ ἐρχόμενος) and Isaiah 26:20's 'a little while' (μικρὸν ὅσον ὅσον)" },
@@ -2519,6 +2666,7 @@ tier = 2
 category = "future"
 prophecy = "Isaiah 40:10; 62:11"
 predicts = "the Lord GOD comes with might; His reward is with Him and His recompense before Him"
+still_to_come = "Jesus says He is coming soon, and His reward is with Him, to repay each one for what he has done (Revelation 22:12)."
 specific = ["person", "manner"]
 uses = [
   { ref = "Revelation 22:12", kind = "application", text = "lxx", note = "'My reward is with Me' (ὁ μισθός μου μετʼ ἐμοῦ) for the Septuagint's 'His reward is with Him': Jesus speaks the LORD's line in the first person" },
@@ -2537,6 +2685,7 @@ tier = 1
 category = "future"
 prophecy = "Isaiah 25:8; Hosea 13:14"
 predicts = "on this mountain the LORD swallows up death forever and wipes away the tears from every face; He ransoms them from Sheol: 'Where, O Death, are your plagues?'"
+still_to_come = "When the dead in Christ are raised imperishable, death is swallowed up in victory; at the last, death itself is destroyed and every tear wiped away (1 Corinthians 15:54-57; Revelation 20:14; Revelation 21:4)."
 specific = ["manner"]
 uses = [
   { ref = "1 Corinthians 15:54-57", kind = "fulfilment", text = "mt", note = "'Death has been swallowed up in victory' (Κατεπόθη ὁ θάνατος εἰς νῖκος) renders the Hebrew לָנֶצַח (lanetsach, 'forever', in Aramaic usage 'victory') where the Septuagint differs; 'then the saying… will come to pass' at the resurrection of the believers; Hosea 13:14 after the Septuagint ('Where, O Death, is your sting?', κέντρον)" },
@@ -2556,6 +2705,7 @@ tier = 3
 category = "future"
 prophecy = "Isaiah 2:2-4; Micah 4:1-4"
 predicts = "in the last days the mountain of the LORD's house is raised above the hills, the nations stream to it, He judges between nations, and they beat swords into ploughshares"
+still_to_come = "When Christ reigns from Zion the nations come to learn His ways, He judges between them, and they beat their swords into ploughshares (Isaiah 2:2-4; Micah 4:1-4)."
 specific = ["place", "manner"]
 uses = []
 status = "future"
@@ -2572,6 +2722,7 @@ tier = 3
 category = "future"
 prophecy = "Psalm 72:8-17"
 predicts = "the king's dominion runs from sea to sea; kings bring tribute and all nations serve him; his name endures forever and all nations are blessed in him"
+still_to_come = "The kingdom of the world becomes the kingdom of our Lord and of His Christ, and all nations are blessed in Him (Revelation 11:15; Psalm 72:8-17)."
 specific = ["person", "manner"]
 uses = [
   { ref = "Revelation 11:15", kind = "allusion" },
@@ -2593,6 +2744,7 @@ tier = 3
 category = "future"
 prophecy = "Haggai 2:6-9"
 predicts = "once more God shakes the heavens, the earth and all nations; they come with their treasures, and He fills this house with glory, greater than the former"
+still_to_come = "God shakes heaven and earth once more and gives His people a kingdom that cannot be shaken (Haggai 2:6-7; Hebrews 12:26-28)."
 specific = ["manner", "place"]
 uses = [
   { ref = "Hebrews 12:26-28", kind = "application", text = "lxx", note = "Haggai 2:6 LXX ('Yet once more I will shake', ἔτι ἅπαξ ἐγὼ σείσω), rearranged 'not only the earth but also the heavens', with the argument from 'once more' (12:27)" },
@@ -2627,6 +2779,7 @@ speaker = "jesus"
 category = "passion"
 prophecy = "Mark 8:31; 9:31; 10:32-34"
 predicts = "the Son of Man will be delivered to the chief priests and scribes, condemned, handed to the Gentiles, mocked, spat on, flogged and killed, and after three days rise"
+came_to_pass = "Judas handed Jesus to the chief priests; the council condemned Him and handed Him to Pilate, and He was mocked, spat on, flogged and crucified, and rose on the third day (Mark 14:43-16:7)."
 specific = ["sequence", "manner", "time", "person"]
 fulfilment = "Mark 14:43-16:7"
 status = "fulfilled"
@@ -2642,6 +2795,7 @@ speaker = "jesus"
 category = "resurrection"
 prophecy = "John 2:19-22"
 predicts = "destroy this temple, and in three days He will raise it up"
+came_to_pass = "Jesus spoke of the temple of His body: His accusers turned the saying against Him at His trial and at the cross, and He rose on the third day (John 2:21-22; Matthew 26:61; Matthew 27:40)."
 specific = ["time", "manner"]
 fulfilment = "John 2:21-22; Matthew 26:61; 27:40"
 status = "fulfilled"
@@ -2657,6 +2811,7 @@ speaker = "jesus"
 category = "passion"
 prophecy = "John 13:18-27; Mark 14:18-21"
 predicts = "one of the Twelve, eating with Him, will betray Him"
+came_to_pass = "Judas, one of the Twelve, led an armed crowd to Gethsemane and betrayed Jesus with a kiss (Mark 14:43-46)."
 specific = ["person"]
 fulfilment = "Mark 14:43-46"
 status = "fulfilled"
@@ -2672,6 +2827,7 @@ speaker = "jesus"
 category = "passion"
 prophecy = "Mark 14:29-31"
 predicts = "before the rooster crows twice, Peter will deny Him three times, that very night"
+came_to_pass = "That night in the high priest's courtyard Peter denied Jesus three times, and the rooster crowed a second time (Mark 14:66-72)."
 specific = ["number", "time", "person"]
 fulfilment = "Mark 14:66-72"
 status = "fulfilled"
@@ -2687,6 +2843,7 @@ speaker = "jesus"
 category = "redemption"
 prophecy = "John 14:16-17, 26; 16:7; Acts 1:4-8"
 predicts = "the Father will give another Helper, the Spirit of truth, sent by the Son after He goes away, and the disciples will be baptised with the Holy Spirit not many days from now"
+came_to_pass = "At Pentecost the Holy Spirit came on the disciples with a sound like a mighty wind and tongues of fire, poured out by the risen Jesus (Acts 2:1-4, 33)."
 specific = ["time", "sequence"]
 fulfilment = "Acts 2:1-4, 33"
 status = "fulfilled"
@@ -2702,6 +2859,8 @@ speaker = "jesus"
 category = "redemption"
 prophecy = "Matthew 16:18"
 predicts = "He will build His church, and the gates of Hades will not prevail against it"
+came_to_pass = "At Pentecost about three thousand were baptised, and the Lord added to the church daily those who were being saved (Acts 2:41-47)."
+still_to_come = "The church He builds stands against the gates of Hades until He presents it to Himself, radiant, at His coming (Matthew 16:18; Ephesians 5:27)."
 specific = ["manner"]
 fulfilment = "Acts 2:41-47"
 status = "partly"
@@ -2716,6 +2875,8 @@ speaker = "jesus"
 category = "redemption"
 prophecy = "Matthew 24:14; Mark 13:10; Acts 1:8"
 predicts = "the gospel of the kingdom will be preached in the whole world as a testimony to all nations, and then the end will come"
+came_to_pass = "The apostles preached from Jerusalem to Rome, and within a generation Paul could say the gospel was bearing fruit all over the world (Acts 2:5-11; Acts 28:28-31; Colossians 1:6, 23)."
+still_to_come = "The gospel reaching every nation as a testimony, and then the end, are still to come (Matthew 24:14; Revelation 14:6)."
 specific = ["place", "sequence"]
 fulfilment = "Acts 2:5-11; 28:28-31; Colossians 1:6, 23 (begun)"
 status = "partly"
@@ -2731,6 +2892,7 @@ speaker = "jesus"
 category = "future"
 prophecy = "Mark 13:1-2; Luke 19:41-44; 21:20-24"
 predicts = "not one stone of the temple left on another; Jerusalem surrounded by armies, its people fallen by the sword and led captive"
+came_to_pass = "In AD 70 the armies of Titus surrounded Jerusalem, burned the temple and threw it down, and the survivors were led captive (Josephus, Jewish War 6-7)."
 specific = ["place", "manner"]
 fulfilment = "Josephus, Jewish War 6-7"
 status = "fulfilled"
@@ -2747,6 +2909,8 @@ speaker = "jesus"
 category = "future"
 prophecy = "Luke 21:24"
 predicts = "Jerusalem will be trampled by the Gentiles until the times of the Gentiles are fulfilled"
+came_to_pass = "Rome took Jerusalem in AD 70, and Gentile powers have ruled or trodden the city since (Josephus, Jewish War 6-7)."
+still_to_come = "The trampling ends when the times of the Gentiles are fulfilled (Luke 21:24; Romans 11:25)."
 specific = ["place", "time", "sequence"]
 fulfilment = "Josephus, Jewish War 6-7 (the trampling begun)"
 status = "partly"
@@ -2763,6 +2927,7 @@ speaker = "jesus"
 category = "future"
 prophecy = "John 21:18-19"
 predicts = "when Peter is old he will stretch out his hands and another will lead him where he does not want to go: the death by which he will glorify God"
+came_to_pass = "Peter died a martyr's death, as 1 Clement 5:4 (about AD 96) records; that he was crucified, in Rome under Nero, is later tradition (Tertullian; Eusebius)."
 specific = ["person", "manner"]
 fulfilment = "1 Clement 5:4 (Peter's martyrdom; the manner is later tradition)"
 status = "fulfilled"
