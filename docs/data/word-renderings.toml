@@ -97,3 +97,9 @@ kind = "wording"
 follow = "signet"
 status = "proposed"
 why = "חוֹתָם (chotam) is a seal, the stamp a man pressed into clay to mark a thing as his own. Carried on a cord, as Judah's was, it is a signet (Genesis 38:18, ESV). The ULT's signet and the BSB's seal name the same object."
+
+[G1848]
+kind = "wording"
+follow = "despise"
+status = "proposed"
+why = "ἐξουθενέω (exoutheneō) is to treat as nothing. The ULT's \"despise\" and the BSB's \"belittle\" (Romans 14:3) name the same contempt; the ESV gives \"despised\" (1 Corinthians 1:28), \"despise\" (Romans 14:3, 10) and \"treated with contempt\" (Luke 18:9; 23:11), and the site glosses the word \"despise\" while quoting the ESV's wording in each verse."

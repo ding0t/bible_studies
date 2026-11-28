@@ -16,6 +16,7 @@ draft: false
 - [Chronology Anchors: What Can Actually Be Dated, and How Tightly](../../chronology/chronology-anchors.md) — 18:12
 - [Foretold Long Ago: Why Fulfilled Prophecy Proves Jesus Is the Christ](../../jesus/foretold-long-ago.md) — 18:24-28
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 18:12
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 18:1-11
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 18:2
 - [Jesus and Women](../../jesus/jesus-and-women.md) — 18:26
 - [Submission in Context](../../christian-life/submission-in-context.md) — 18:26

@@ -13,5 +13,6 @@ draft: false
 ## Studies referencing this chapter
 
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 9:3
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 9:5
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 9:25
 <!-- commentary-index:auto-end -->

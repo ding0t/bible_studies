@@ -18,6 +18,7 @@ draft: false
 - [Fasting](../../christian-life/fasting.md) — 4:1-4
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 4:20
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 4:20
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 4:21
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:4
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 4:4
 - [Simon Peter](../../biblical-figures/peter.md) — 4:18-20

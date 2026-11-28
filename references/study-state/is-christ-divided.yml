@@ -1,0 +1,214 @@
+slug: "is-christ-divided"
+title: "Is Christ Divided?"
+status: published
+target_path: "docs/content/christian-life/is-christ-divided.md"
+
+primary_passage: "1 Corinthians 1:10-17; 1 Corinthians 3:3-9; 1 Corinthians 3:16-17; 1 Corinthians 3:21-23; 1 Corinthians 4:1-14"
+supporting_passages:
+  - "1 Corinthians 1:2"
+  - "1 Corinthians 1:26-31"
+  - "1 Corinthians 4:12"
+  - "1 Corinthians 12:21-27"
+  - "1 Corinthians 16:12"
+  - "Acts 18:1-11, 24-28"
+  - "Mark 9:38-40; Luke 9:49-50; Numbers 11:29"
+  - "Romans 14:1-10"
+  - "Luke 18:9-11; Luke 23:11"
+  - "Philippians 1:15-18"
+  - "Galatians 1:6-9; Jude 1:3; 2 John 1:9-10"
+sibling_studies:
+  - {slug: "salvation/saved-as-through-fire", role: primary, use: link, note: "Covers the Corinthian faction background and sarkinos/sarkikos (1 Cor 3:1-3). Link for depth; don't re-argue. Its focus is 3:10-15 and Jude 22-23."}
+  - {slug: "faq", role: cited, use: link, note: "'What denomination are you?' answer quotes 1 Cor 1:12-13, the ABS Census point and 'I fellowship at a Calvary Chapel'. Link; offer back-link."}
+  - {slug: "christian-life/through-a-glass-darkly", role: cited, use: none, note: "Called 1 Cor 4:8 'Paul mocking a church'. Changed 2026-11-28 to 'Paul's irony at a church' after the 4:8-14 word study (empaizō never Pauline; ophelon a real wish; 4:10 = 1:27's words; 4:14 noutheteō). Author asked for the investigation; edit uncommitted."}
+  - {slug: "christian-life/humility", role: cited, use: link, note: "Already states physioō 6 of 7 NT uses in 1 Cor; and 1 Cor 4:7. Link instead of repeating."}
+  - {slug: "christian-life/first-take-the-log-out", role: cited, use: link, note: "Judging: when Scripture tells believers to judge. Link from the 'where it stops' section."}
+  - {slug: "christian-life/test-the-spirits", role: prose, use: link, note: "Three marks for testing teachers. Link from 'where it stops'."}
+  - {slug: "sin/pride", role: cited, use: none, note: "1 Cor 4:7, 18. Humility link covers it."}
+  - {slug: "last-things/judgment-seat-of-christ", role: cited, use: none, note: "1 Cor 4:5 commendation. Not needed for the thesis."}
+  - {slug: "christian-life/great-commission", role: cited, use: none, note: "draft: true; uses 1 Cor 3:5-9. Must NOT be linked (Check 24)."}
+genre: [epistle]
+
+thesis: "Paul and Apollos were servants and only Christ was crucified for you, so take your name from Christ alone and count every faithful teacher as yours; and because God chose the despised and every believer is the Lord's own servant, never hold another church in contempt, while still testing every teacher by the gospel of first importance."
+outline:
+  - {section: "Hook", says: "Four slogans in one young church, and Paul's three questions."}
+  - {section: "Key Takeaways", says: "Lessons about Jesus, memory verses, Be Transformed, prayer."}
+  - {section: "Four names in Corinth", says: "Who founded, who watered, Chloe's report; 'I am of Paul' is a genitive of belonging; the 'of Christ' slogan is contested."}
+  - {section: "Three questions", says: "Is Christ divided / crucified for you / baptized in Paul's name; schisma is a tear, katartizō is mending nets; the cross emptied by eloquence."}
+  - {section: "What then is Apollos?", says: "'What', a function: diakonoi, hyperetai, oikonomoi; planting, watering, God gives growth; the teachers were one (1 Cor 3:8; 16:12) while their fans fought."}
+  - {section: "All things are yours", says: "3:21-23 inverts the slogan: Paul belongs to you, you belong to Christ (same genitive). Today's denominations and teachers. Local church still matters (FAQ link)."}
+  - {section: "Puffed up, one against another", says: "4:6-7, the root of factions is pride in what was received (humility link)."}
+  - {section: "Do not despise", says: "exoutheneo: God chose the despised (1 Cor 1:28); Herod and the Pharisee; Rom 14:3-4, 10. loidoros (1 Cor 5:11; 6:10) vs Paul and Jesus reviled. Mark 9:38-40 and Num 11:29. Mocking another church."}
+  - {section: "Where it stops", says: "Gal 1:8-9, Jude 3, 2 John 9-10, 1 Cor 15:3; Phil 1:15-18 the line is the gospel's content. Paul's own irony (1 Cor 4:8; Gal 5:12) as the hard part."}
+  - {section: "What this shows about God", says: "One Lord, one body; Christ is undivided; the Father owns every servant."}
+  - {section: "Discussion questions", says: "language, context, Christ, hard part, be transformed."}
+word_budget: 4000
+word_budget_reason: ""
+
+stages:
+  scoping:
+    done: true
+    notes: "No existing study on 1 Cor 1:10-4:7 as primary. FAQ and saved-as-through-fire touch it."
+  exegesis:
+    historical_context:
+      done: true
+      notes: "Paul founded the church, 18 months (Acts 18:11). Apollos came after, from Ephesus with letters (Acts 18:27-28; 19:1). Cephas known to Corinth (1 Cor 9:5); whether Peter visited is not stated. Chloe's people reported (1 Cor 1:11); her location unknown (ESV SB). Letter from Ephesus (1 Cor 16:8), c. AD 53-55 per saved-as-through-fire. Paul and Apollos on good terms (1 Cor 16:12)."
+    literary_context:
+      done: true
+      notes: "1:10-17 is the letter's body opening (STEP letter-structure). The unit runs to 4:21 (ESV SB). 1:18-2:16 the cross vs wisdom; 3:1-4 back to the slogans; 3:5-9 servants; 3:10-17 builders (sibling); 3:18-23 all are yours; 4:1-5 stewards; 4:6-7 the application 'I have applied these things to myself and Apollos'. The same schisma closes the body section on gifts (1 Cor 12:25)."
+    content_word_studies:
+      done: true
+      notes: ""
+      terms:
+        - {word: "σχίσμα", language: greek, transliteration: "schisma", strongs_id: "G4978", gloss: "a tear, a split", notes: "8 NT: tear in a garment Matt 9:16, Mark 2:21; crowd divided John 7:43; 9:16; 10:19; 1 Cor 1:10; 11:18; 12:25."}
+        - {word: "καταρτίζω", language: greek, transliteration: "katartizō", strongs_id: "G2675", gloss: "mend, restore, fit together", notes: "13 NT; mending nets Matt 4:21, Mark 1:19; restore Gal 6:1."}
+        - {word: "μερίζω", language: greek, transliteration: "merizō", strongs_id: "G3307", gloss: "divide, apportion", notes: "14 NT. 1:13 perfect passive; ESV footnote allows statement 'Christ has been divided!'"}
+        - {word: "Παύλου (genitive)", language: greek, transliteration: "Paulou", strongs_id: "G3972", gloss: "of Paul, belonging to Paul", notes: "ESV/NIV/BSB 'I follow'; NASB95/LSB/NKJV 'I am of'; CSB 'I belong to'. Same genitive in 3:23 'you are Christ's' and 2 Cor 10:7."}
+        - {word: "διάκονος", language: greek, transliteration: "diakonos", strongs_id: "G1249", gloss: "servant", notes: "1 Cor 3:5"}
+        - {word: "ὑπηρέτης", language: greek, transliteration: "hypēretēs", strongs_id: "G5257", gloss: "attendant, assistant", notes: "20 NT; Luke 4:20 the synagogue attendant. Do NOT use the 'under-rower' etymology."}
+        - {word: "οἰκονόμος", language: greek, transliteration: "oikonomos", strongs_id: "G3623", gloss: "steward, household manager", notes: "1 Cor 4:1-2"}
+        - {word: "φυσιόω", language: greek, transliteration: "physioō", strongs_id: "G5448", gloss: "puff up", notes: "7 NT, 6 in 1 Cor (4:6, 18, 19; 5:2; 8:1; 13:4) + Col 2:18. humility.md already states this."}
+        - {word: "ἐξουθενέω", language: greek, transliteration: "exoutheneō", strongs_id: "G1848", gloss: "despise, treat as nothing", notes: "11 NT (SBLGNT): 1 Cor 1:28; 6:4; 16:11; 1 Thess 5:20; 2 Cor 10:10; Acts 4:11; Gal 4:14; Luke 18:9; 23:11; Rom 14:3, 10."}
+        - {word: "λοίδορος", language: greek, transliteration: "loidoros", strongs_id: "G3060", gloss: "reviler, verbal abuser", notes: "2 NT, both 1 Cor (5:11; 6:10). Verb λοιδορέω G3058 4x incl. 1 Cor 4:12 and 1 Pet 2:23."}
+  hermeneutics:
+    cultural_vs_transcultural:
+      done: true
+      notes: "Then: house-church factions in one city around personalities and rhetoric. Now: the nearest equivalents are denominations, movements, celebrity teachers and online fan bases. The transfer is application, marked as such. Paul addresses factions inside one church; 1:2 widens the frame to 'all those who in every place call upon the name'."
+    theological_principle:
+      done: true
+      notes: "The church is one because Christ is one (1 Cor 1:13; 12:12-13; Eph 4:4-6). Teachers are servants God gives to the whole church (3:21-22). Contempt for another believer despises one God has welcomed (Rom 14:3). The limit is the gospel itself (Gal 1:8-9; 1 Cor 15:3)."
+    application_draft:
+      done: true
+      notes: "Speak of yourself as Christ's; thank God for teachers outside your stream; stop jokes about other churches; still test the gospel. Statement of faith 'lowest common denominator' line is consistent with the 'where it stops' section — no conflict."
+  cross_reference:
+    done: true
+    cross_refs:
+      - {ref: "Mark 9:38-40; Luke 9:49-50", relation: "Jesus: 'Do not stop him' — the one not following us"}
+      - {ref: "Numbers 11:29", relation: "Moses: 'Are you jealous for my sake?' (cross-ref given by NLT LASB)"}
+      - {ref: "Philippians 1:15-18", relation: "Paul rejoices when rivals preach Christ"}
+      - {ref: "Romans 14:3-4, 10", relation: "do not despise; servant of another"}
+      - {ref: "Ephesians 4:3-6; John 17:20-21", relation: "unity grounded in one Lord; Jesus' prayer"}
+      - {ref: "Galatians 1:8-9; Jude 1:3; 2 John 1:9-10", relation: "the limit: another gospel"}
+    translations_compared: ["ESV", "NIV", "BSB", "NASB 1995", "NASB 2020", "LSB", "CSB", "NKJV"]
+    divergences_noted: "1 Cor 1:12 genitive: 'I follow' (ESV, NIV, BSB) vs 'I am of' (NASB95, LSB, NKJV) vs 'I belong to' (CSB) vs 'I am with' (NASB 2020)."
+  drafting:
+    done: true
+    file: "docs/content/christian-life/is-christ-divided.md"
+  review:
+    done: true # review-bible-study and read-bible-study passes 2026-11-28 (subagents); author calls pending
+    validated: true # npm run validate 2026-11-28: provenance warnings only (uncommitted); evidence replay 52/52
+
+open_questions:
+  - "1 Cor 3:16-17 added 2026-11-28 as ### You are God's temple (author call 1)."
+  - "Fork candidate: John 17:21 and Ephesians 4 as a full unity study."
+  - "Back-links added 2026-11-28 to faq.md (end of 'What religion are you?') and saved-as-through-fire.md ('What divided Corinth'), uncommitted. They must ship in the same commit as draft: false (Check 24)."
+resources_consulted:
+  - {type: commentary, title: "ESV Study Bible", author: "Crossway", note: "1 Cor 1:10-4:21 notes; 1:11 Chloe; 1:12 'I follow Christ' as a faction; Phil 1:15-18 rivals preached a sound gospel."}
+  - {type: commentary, title: "NIV Cultural Backgrounds Study Bible", author: "Zondervan (Keener, Walton)", note: "1 Cor 1:13 rhetorical questions; 3:4 'merely human' as irony; 4:6 'what is written' most likely Scripture."}
+  - {type: commentary, title: "NIV Biblical Theology Study Bible", author: "Zondervan", note: "Mark 9:38-41: the disciples defining who is in and out."}
+  - {type: commentary, title: "NLT Life Application Study Bible", author: "Tyndale", note: "Mark 9:38-40 cross-ref Num 11:26-29."}
+  - {type: lexicon, title: "MACULA Greek (SBLGNT) via bible_concordance", author: "Clear Bible", note: "counts above"}
+
+evidence:
+  - {id: 1cor1-10-esv, what: "ESV 1 Cor 1:10", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 10, work_id: esv-study-bible}, expect_contains: "united in the same mind and the same judgment", checked: 2026-11-28}
+  - {id: 1cor1-12-esv, what: "ESV 1 Cor 1:12", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 12, work_id: esv-study-bible}, expect_contains: "I follow Apollos", checked: 2026-11-28}
+  - {id: 1cor1-13-esv, what: "ESV 1 Cor 1:13", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 13, work_id: esv-study-bible}, expect_contains: "Was Paul crucified for you?", checked: 2026-11-28}
+  - {id: 1cor1-17-esv, what: "ESV 1 Cor 1:17", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 17, work_id: esv-study-bible}, expect_contains: "lest the cross of Christ be emptied of its power", checked: 2026-11-28}
+  - {id: 1cor1-2-esv, what: "ESV 1 Cor 1:2", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 2, work_id: esv-study-bible}, expect_contains: "both their Lord and ours", checked: 2026-11-28}
+  - {id: 1cor1-28-esv, what: "ESV 1 Cor 1:28", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 28, work_id: esv-study-bible}, expect_contains: "low and despised in the world", checked: 2026-11-28}
+  - {id: 1cor3-5-esv, what: "ESV 1 Cor 3:5", tool: study_verse, args: {book: 1Cor, chapter: 3, verse: 5, work_id: esv-study-bible}, expect_contains: "What then is Apollos?", checked: 2026-11-28}
+  - {id: 1cor3-8-esv, what: "ESV 1 Cor 3:8", tool: study_verse, args: {book: 1Cor, chapter: 3, verse: 8, work_id: esv-study-bible}, expect_contains: "He who plants and he who waters are one", checked: 2026-11-28}
+  - {id: 1cor3-21-esv, what: "ESV 1 Cor 3:21", tool: study_verse, args: {book: 1Cor, chapter: 3, verse: 21, work_id: esv-study-bible}, expect_contains: "So let no one boast in men", checked: 2026-11-28}
+  - {id: 1cor3-23-esv, what: "ESV 1 Cor 3:23", tool: study_verse, args: {book: 1Cor, chapter: 3, verse: 23, work_id: esv-study-bible}, expect_contains: "and you are Christ's, and Christ is God's", checked: 2026-11-28}
+  - {id: 1cor4-1-esv, what: "ESV 1 Cor 4:1", tool: study_verse, args: {book: 1Cor, chapter: 4, verse: 1, work_id: esv-study-bible}, expect_contains: "servants of Christ and stewards of the mysteries of God", checked: 2026-11-28}
+  - {id: 1cor4-6-esv, what: "ESV 1 Cor 4:6", tool: study_verse, args: {book: 1Cor, chapter: 4, verse: 6, work_id: esv-study-bible}, expect_contains: "puffed up in favor of one against another", checked: 2026-11-28}
+  - {id: 1cor4-7-esv, what: "ESV 1 Cor 4:7", tool: study_verse, args: {book: 1Cor, chapter: 4, verse: 7, work_id: esv-study-bible}, expect_contains: "What do you have that you did not receive?", checked: 2026-11-28}
+  - {id: 1cor4-12-esv, what: "ESV 1 Cor 4:12", tool: study_verse, args: {book: 1Cor, chapter: 4, verse: 12, work_id: esv-study-bible}, expect_contains: "When reviled, we bless", checked: 2026-11-28}
+  - {id: 1cor16-12-esv, what: "ESV 1 Cor 16:12", tool: study_verse, args: {book: 1Cor, chapter: 16, verse: 12, work_id: esv-study-bible}, expect_contains: "our brother Apollos, I strongly urged him to visit you", checked: 2026-11-28}
+  - {id: 1cor12-21-esv, what: "ESV 1 Cor 12:21", tool: study_verse, args: {book: 1Cor, chapter: 12, verse: 21, work_id: esv-study-bible}, expect_contains: "I have no need of you", checked: 2026-11-28}
+  - {id: 1cor12-25-esv, what: "ESV 1 Cor 12:25", tool: study_verse, args: {book: 1Cor, chapter: 12, verse: 25, work_id: esv-study-bible}, expect_contains: "that there may be no division in the body", checked: 2026-11-28}
+  - {id: 1cor5-11-esv, what: "ESV 1 Cor 5:11 reviler", tool: study_verse, args: {book: 1Cor, chapter: 5, verse: 11, work_id: esv-study-bible}, expect_contains: "reviler", checked: 2026-11-28}
+  - {id: 1cor4-8-esv, what: "ESV 1 Cor 4:8", tool: study_verse, args: {book: 1Cor, chapter: 4, verse: 8, work_id: esv-study-bible}, expect_contains: "Already you have become rich!", checked: 2026-11-28}
+  - {id: 1cor15-3-esv, what: "ESV 1 Cor 15:3", tool: study_verse, args: {book: 1Cor, chapter: 15, verse: 3, work_id: esv-study-bible}, expect_contains: "as of first importance", checked: 2026-11-28}
+  - {id: acts18-24-esv, what: "ESV Acts 18:24", tool: study_verse, args: {book: Acts, chapter: 18, verse: 24, work_id: esv-study-bible}, expect_contains: "He was an eloquent man, competent in the Scriptures", checked: 2026-11-28}
+  - {id: acts18-11-esv, what: "Paul 18 months in Corinth", tool: study_verse, args: {book: Acts, chapter: 18, verse: 11, work_id: esv-study-bible}, expect_contains: "a year and six months", checked: 2026-11-28}
+  - {id: mark9-38-esv, what: "ESV Mark 9:38", tool: study_verse, args: {book: Mark, chapter: 9, verse: 38, work_id: esv-study-bible}, expect_contains: "because he was not following us", checked: 2026-11-28}
+  - {id: mark9-39-esv, what: "ESV Mark 9:39", tool: study_verse, args: {book: Mark, chapter: 9, verse: 39, work_id: esv-study-bible}, expect_contains: "Do not stop him", checked: 2026-11-28}
+  - {id: mark9-40-esv, what: "ESV Mark 9:40", tool: study_verse, args: {book: Mark, chapter: 9, verse: 40, work_id: esv-study-bible}, expect_contains: "For the one who is not against us is for us", checked: 2026-11-28}
+  - {id: num11-29-esv, what: "ESV Num 11:29", tool: study_verse, args: {book: Num, chapter: 11, verse: 29, work_id: esv-study-bible}, expect_contains: "Are you jealous for my sake?", checked: 2026-11-28}
+  - {id: rom14-3-esv, what: "ESV Rom 14:3", tool: study_verse, args: {book: Rom, chapter: 14, verse: 3, work_id: esv-study-bible}, expect_contains: "for God has welcomed him", checked: 2026-11-28}
+  - {id: rom14-4-esv, what: "ESV Rom 14:4", tool: study_verse, args: {book: Rom, chapter: 14, verse: 4, work_id: esv-study-bible}, expect_contains: "Who are you to pass judgment on the servant of another?", checked: 2026-11-28}
+  - {id: rom14-10-esv, what: "ESV Rom 14:10", tool: study_verse, args: {book: Rom, chapter: 14, verse: 10, work_id: esv-study-bible}, expect_contains: "why do you despise your brother?", checked: 2026-11-28}
+  - {id: luke18-9-esv, what: "ESV Luke 18:9", tool: study_verse, args: {book: Luke, chapter: 18, verse: 9, work_id: esv-study-bible}, expect_contains: "treated others with contempt", checked: 2026-11-28}
+  - {id: luke18-11-esv, what: "ESV Luke 18:11", tool: study_verse, args: {book: Luke, chapter: 18, verse: 11, work_id: esv-study-bible}, expect_contains: "I thank you that I am not like other men", checked: 2026-11-28}
+  - {id: luke23-11-esv, what: "ESV Luke 23:11", tool: study_verse, args: {book: Luke, chapter: 23, verse: 11, work_id: esv-study-bible}, expect_contains: "treated him with contempt and mocked him", checked: 2026-11-28}
+  - {id: 1pet2-23-esv, what: "ESV 1 Pet 2:23", tool: study_verse, args: {book: 1Pet, chapter: 2, verse: 23, work_id: esv-study-bible}, expect_contains: "When he was reviled, he did not revile in return", checked: 2026-11-28}
+  - {id: phil1-18-esv, what: "ESV Phil 1:18", tool: study_verse, args: {book: Phil, chapter: 1, verse: 18, work_id: esv-study-bible}, expect_contains: "Christ is proclaimed, and in that I rejoice", checked: 2026-11-28}
+  - {id: gal1-8-esv, what: "ESV Gal 1:8", tool: study_verse, args: {book: Gal, chapter: 1, verse: 8, work_id: esv-study-bible}, expect_contains: "let him be accursed", checked: 2026-11-28}
+  - {id: gal5-12-esv, what: "ESV Gal 5:12", tool: study_verse, args: {book: Gal, chapter: 5, verse: 12, work_id: esv-study-bible}, expect_contains: "emasculate themselves", checked: 2026-11-28}
+  - {id: gal5-15-esv, what: "ESV Gal 5:15", tool: study_verse, args: {book: Gal, chapter: 5, verse: 15, work_id: esv-study-bible}, expect_contains: "bite and devour one another", checked: 2026-11-28}
+  - {id: jude3-esv, what: "ESV Jude 3", tool: study_verse, args: {book: Jude, chapter: 1, verse: 3, work_id: esv-study-bible}, expect_contains: "contend for the faith that was once for all delivered to the saints", checked: 2026-11-28}
+  - {id: 2john9-esv, what: "ESV 2 John 9", tool: study_verse, args: {book: 2John, chapter: 1, verse: 9, work_id: esv-study-bible}, expect_contains: "does not abide in the teaching of Christ", checked: 2026-11-28}
+  - {id: eph4-4-esv, what: "ESV Eph 4:4-5", tool: study_verse, args: {book: Eph, chapter: 4, verse: 5, work_id: esv-study-bible}, expect_contains: "one Lord, one faith, one baptism", checked: 2026-11-28}
+  - {id: 2cor10-7-esv, what: "ESV 2 Cor 10:7", tool: study_verse, args: {book: 2Cor, chapter: 10, verse: 7, work_id: esv-study-bible}, expect_contains: "If anyone is confident that he is Christ's", checked: 2026-11-28}
+  - {id: 1cor1-12-genitive, what: "1:12 genitive Παύλου", tool: bible_interlinear, args: {book: 1Cor, chapter: 1, verse: 12}, expect_contains: "Παύλου", checked: 2026-11-28}
+  - {id: 1cor3-5-ti, what: "3:5 neuter τί", tool: bible_interlinear, args: {book: 1Cor, chapter: 3, verse: 5}, expect_contains: "Gr,RT,,,,NNS,", checked: 2026-11-28}
+  - {id: schisma-count, what: "schisma 8 NT", tool: bible_concordance, args: {strongs: G4978, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "8", checked: 2026-11-28}
+  - {id: katartizo-count, what: "katartizo 13 NT", tool: bible_concordance, args: {strongs: G2675, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "13", checked: 2026-11-28}
+  - {id: exoutheneo-count, what: "exoutheneo 11 NT", tool: bible_concordance, args: {strongs: G1848, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "11", checked: 2026-11-28}
+  - {id: loidoros-count, what: "loidoros 2 NT", tool: bible_concordance, args: {strongs: G3060, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "2", checked: 2026-11-28}
+  - {id: hyperetes-luke4, what: "Luke 4:20 attendant = hyperetes", tool: bible_interlinear, args: {book: Luke, chapter: 4, verse: 20}, expect_contains: "G52570", checked: 2026-11-28}
+  - {id: 1cor4-14-esv, what: "ESV 1 Cor 4:14", tool: study_verse, args: {book: 1Cor, chapter: 4, verse: 14, work_id: esv-study-bible}, expect_contains: "to admonish you as my beloved children", checked: 2026-11-28}
+  - {id: 1cor1-15-esv, what: "ESV 1 Cor 1:15", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 15, work_id: esv-study-bible}, expect_contains: "baptized in my name", checked: 2026-11-28}
+  - {id: luke18-14-esv, what: "ESV Luke 18:14", tool: study_verse, args: {book: Luke, chapter: 18, verse: 14, work_id: esv-study-bible}, expect_contains: "went down to his house justified, rather than the other", checked: 2026-11-28}
+  - {id: gal5-4-esv, what: "Galatians: justified by the law", tool: study_verse, args: {book: Gal, chapter: 5, verse: 4, work_id: esv-study-bible}, expect_contains: "you who would be justified by the law", checked: 2026-11-28}
+  # Added by review 2026-11-28
+  - {id: 1cor1-12-na28-men, what: "1:12 critical text has ἐγὼ μέν εἰμι Παύλου (UGNT omits μέν; NA28 stores oxia accents, so the match string does too)", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 12, work_id: na28-greek-nt}, expect_contains: "ἐγὼ μέν εἰμι Παύλου", checked: 2026-11-28}
+  - {id: 1cor1-13-perfect, what: "1:13 μεμέρισται is perfect passive", tool: bible_interlinear, args: {book: 1Cor, chapter: 1, verse: 13}, expect_contains: "Gr,V,IEP3,,S,", checked: 2026-11-28}
+  - {id: 1cor1-13-lsb-footnote, what: "LSB footnote: 1:13 as a statement (study-notes.db holds no ESV footnotes)", tool: study_note, args: {book: 1Cor, chapter: 1, verse: 13, note_type: footnote, work_id: lsb-2021}, expect_contains: "Or Christ has been divided!", checked: 2026-11-28}
+  - {id: 1cor1-12-csb, what: "CSB 1:12 'I belong to Paul'", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 12, work_id: csb-ancient-faith-study-bible}, expect_contains: "I belong to Paul", checked: 2026-11-28}
+  - {id: 1cor1-12-nasb95, what: "NASB 1995 1:12 'I am of Paul'", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 12, work_id: nasb-1995}, expect_contains: "I am of Paul", checked: 2026-11-28}
+  - {id: 1cor1-12-nkjv, what: "NKJV 1:12 'I am of Paul'", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 12, work_id: nkjv-cultural-backgrounds-study-bible}, expect_contains: "I am of Paul", checked: 2026-11-28}
+  - {id: 1cor2-2-esv, what: "ESV 1 Cor 2:2", tool: study_verse, args: {book: 1Cor, chapter: 2, verse: 2, work_id: esv-study-bible}, expect_contains: "decided to know nothing among you except Jesus Christ and him crucified", checked: 2026-11-28}
+  - {id: 1cor4-2-esv, what: "ESV 1 Cor 4:2", tool: study_verse, args: {book: 1Cor, chapter: 4, verse: 2, work_id: esv-study-bible}, expect_contains: "it is required of stewards that they be found faithful", checked: 2026-11-28}
+  - {id: acts19-1-esv, what: "Apollos at Corinth by Acts 19:1", tool: study_verse, args: {book: Acts, chapter: 19, verse: 1, work_id: esv-study-bible}, expect_contains: "while Apollos was at Corinth", checked: 2026-11-28}
+  - {id: luke22-66-esv, what: "Herod scene (Luke 23:7-11) follows daybreak, not night", tool: study_verse, args: {book: Luke, chapter: 22, verse: 66, work_id: esv-study-bible}, expect_contains: "When day came", checked: 2026-11-28}
+  - {id: physioo-count, what: "physioo 7 NT (6 in 1 Cor)", tool: bible_concordance, args: {strongs: G5448, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "\"count\": 7", checked: 2026-11-28}
+  - {id: loidoreo-1pet, what: "loidoreo at 1 Cor 4:12 and 1 Pet 2:23", tool: bible_concordance, args: {strongs: G3058, work_id: macula-greek-sblgnt}, expect_contains: "1Pet", checked: 2026-11-28}
+  - {id: cbsb-1cor3-4, what: "NIV CBSB 3:4 'merely human' as irony", tool: study_note, args: {book: 1Cor, chapter: 3, verse: 4, work_id: niv-cultural-backgrounds-study-bible}, expect_contains: "biting irony", checked: 2026-11-28}
+  - {id: esvsb-phil1-15, what: "ESV SB Phil 1:15-18 rivals preached a generally sound gospel", tool: study_note, args: {book: Phil, chapter: 1, verse: 15, work_id: esv-study-bible}, expect_contains: "generally sound gospel", checked: 2026-11-28}
+  - {id: lasb-mark9-38-xref, what: "NLT LASB cross-ref Mark 9:38-41 to Num 11:26-29", tool: study_note, args: {book: Mark, chapter: 9, verse: 38, note_type: cross_reference, work_id: nlt-life-application-study-bible}, expect_contains: "Num 11:26-29", checked: 2026-11-28}
+  - {id: 1cor3-16-esv, what: "ESV 1 Cor 3:16", tool: study_verse, args: {book: 1Cor, chapter: 3, verse: 16, work_id: esv-study-bible}, expect_contains: "you are God's temple and that God's Spirit dwells in you", checked: 2026-11-28}
+  - {id: 1cor3-17-esv, what: "ESV 1 Cor 3:17", tool: study_verse, args: {book: 1Cor, chapter: 3, verse: 17, work_id: esv-study-bible}, expect_contains: "If anyone destroys God's temple, God will destroy him", checked: 2026-11-28}
+  - {id: 1cor3-17-plural, what: "3:17 ὑμεῖς plural, ναός singular", tool: bible_interlinear, args: {book: 1Cor, chapter: 3, verse: 17}, expect_contains: "Gr,RP,,,2N,P,", checked: 2026-11-28}
+  - {id: 1cor3-17-phtheiro-twice, what: "φθείρω both halves of 3:17", tool: bible_interlinear, args: {book: 1Cor, chapter: 3, verse: 17}, expect_contains: "φθερεῖ", checked: 2026-11-28}
+  - {id: 1cor6-19-naos, what: "ναός at 1 Cor 6:19", tool: bible_concordance, args: {strongs: G3485, work_id: macula-greek-sblgnt, book: 1Cor}, expect_contains: "\"verse\": 19", checked: 2026-11-28}
+  - {id: 1cor3-3-esv, what: "ESV 1 Cor 3:3", tool: study_verse, args: {book: 1Cor, chapter: 3, verse: 3, work_id: esv-study-bible}, expect_contains: "jealousy and strife", checked: 2026-11-28}
+  - {id: 1cor4-8-esv, what: "ESV 1 Cor 4:8", tool: study_verse, args: {book: 1Cor, chapter: 4, verse: 8, work_id: esv-study-bible}, expect_contains: "And would that you did reign, so that we might share the rule with you!", checked: 2026-11-28}
+  - {id: korennymi-acts27, what: "κορέννυμι only 1 Cor 4:8 and Acts 27:38", tool: bible_concordance, args: {strongs: G2880, work_id: macula-greek-sblgnt}, expect_contains: "\"chapter\": 27", checked: 2026-11-28}
+  - {id: acts27-38-esv, what: "ESV Acts 27:38", tool: study_verse, args: {book: Acts, chapter: 27, verse: 38, work_id: esv-study-bible}, expect_contains: "had eaten enough", checked: 2026-11-28}
+  - {id: 1cor1-5-esv, what: "ESV 1 Cor 1:5", tool: study_verse, args: {book: 1Cor, chapter: 1, verse: 5, work_id: esv-study-bible}, expect_contains: "in every way you were enriched in him", checked: 2026-11-28}
+  - {id: 1cor4-5-esv, what: "ESV 1 Cor 4:5", tool: study_verse, args: {book: 1Cor, chapter: 4, verse: 5, work_id: esv-study-bible}, expect_contains: "before the Lord comes", checked: 2026-11-28}
+  - {id: 1cor6-2-esv, what: "ESV 1 Cor 6:2 saints will judge", tool: study_verse, args: {book: 1Cor, chapter: 6, verse: 2, work_id: esv-study-bible}, expect_contains: "the saints will judge the world", checked: 2026-11-28}
+  - {id: ophelon-4x, what: "ὄφελον at 1 Cor 4:8 and Gal 5:12", tool: bible_concordance, args: {strongs: G3785, work_id: macula-greek-sblgnt}, expect_contains: "Gal", checked: 2026-11-28}
+  - {id: 1cor4-10-esv, what: "ESV 1 Cor 4:10", tool: study_verse, args: {book: 1Cor, chapter: 4, verse: 10, work_id: esv-study-bible}, expect_contains: "We are fools for Christ's sake, but you are wise in Christ. We are weak, but you are strong.", checked: 2026-11-28}
+  - {id: 1cor4-10-words, what: "4:10 μωροί/ἀσθενεῖς/ἰσχυροί", tool: bible_interlinear, args: {book: 1Cor, chapter: 4, verse: 10}, expect_contains: "ἰσχυρός", checked: 2026-11-28}
+  - {id: 1cor1-27-words, what: "1:27 μωρά/ἀσθενῆ/ἰσχυρά", tool: bible_interlinear, args: {book: 1Cor, chapter: 1, verse: 27}, expect_contains: "ἀσθενής", checked: 2026-11-28}
+  - {id: 1cor4-14-noutheteo, what: "4:14 admonish = νουθετέω", tool: bible_interlinear, args: {book: 1Cor, chapter: 4, verse: 14}, expect_contains: "νουθετέω", checked: 2026-11-28}
+  - {id: acts20-31-esv, what: "ESV Acts 20:31", tool: study_verse, args: {book: Acts, chapter: 20, verse: 31, work_id: esv-study-bible}, expect_contains: "to admonish every one with tears", checked: 2026-11-28}
+  - {id: empaizo-count, what: "ἐμπαίζω 13 NT, all Gospels (11 of Jesus; Luke 14:29, Matt 2:16 not)", tool: bible_concordance, args: {strongs: G1702, work_id: macula-greek-sblgnt, count_only: true}, expect_contains: "13", checked: 2026-11-28}
+  - {id: luke23-11-esv, what: "ESV Luke 23:11 contempt and mocked", tool: study_verse, args: {book: Luke, chapter: 23, verse: 11, work_id: esv-study-bible}, expect_contains: "treated him with contempt and mocked him", checked: 2026-11-28}
+  - {id: 2tim3-16-esv, what: "ESV 2 Tim 3:16", tool: study_verse, args: {book: 2Tim, chapter: 3, verse: 16, work_id: esv-study-bible}, expect_contains: "breathed out by God", checked: 2026-11-28}
+  - {id: matt28-19-esv, what: "ESV Matt 28:19", tool: study_verse, args: {book: Matt, chapter: 28, verse: 19, work_id: esv-study-bible}, expect_contains: "the name of the Father and of the Son and of the Holy Spirit", checked: 2026-11-28}
+  - {id: matt28-19-onoma, what: "Matt 28:19 ὄνομα singular", tool: bible_interlinear, args: {book: Matt, chapter: 28, verse: 19}, expect_contains: "Gr,N,,,,,ANS,", checked: 2026-11-28}
+  - {id: john1-1-esv, what: "ESV John 1:1", tool: study_verse, args: {book: John, chapter: 1, verse: 1, work_id: esv-study-bible}, expect_contains: "the Word was God", checked: 2026-11-28}
+  - {id: 1cor5-11-list, what: "ESV 1 Cor 5:11 reviler beside idolater and drunkard", tool: study_verse, args: {book: 1Cor, chapter: 5, verse: 11, work_id: esv-study-bible}, expect_contains: "idolater, reviler, drunkard", checked: 2026-11-28}
+
+review_2026-11-28:
+  checked: "Every quoted verse re-queried in full (ESV via study_verse, not substring); 1:12-13 Greek against NA28/SBLGNT/UGNT; all seven word counts re-run with occurrence lists; study-Bible notes cited in References; FAQ/humility/test-the-spirits/first-take-the-log-out/saved-as-through-fire links and anchors; review_gaps; alignment_ranking; strongs_suggest; cross_study_claims for 1 Cor 1, 3, 4; statement of faith."
+  fixed: "'three and a half chapters' to 'nearly three' (4:6 is reached by ~2.8 chapters); Greek of 1:12 given as ἐγὼ μέν εἰμι Παύλου (NA28/SBLGNT) in body and Q1, 'ἐγὼ μέν ... ἐγὼ δέ'; 1:13 statement-reading footnote reattributed ESV->LSB (no ESV footnotes in study-notes.db); 'he' -> 'Paul' at 1 Cor 2:2; deleted 'Paul meant it.'; FAQ paraphrase corrected; Herod 'night of His trial' -> 'morning He was crucified' (Luke 22:66); '4:12 same chapter as question about Apollos' (3:5) corrected; bible_references + 1 Cor 4:14, Galatians 5:2-4, Romans 14:1-6."
+  open_for_author: "1:13 'expects the answer no' vs no μή; 'each has the same answer: Jesus'; katartizō 'net with holes' picture; 3:16-17 omission; 1 Cor 4:8 mockery vs sibling through-a-glass-darkly; exoutheneō has no word-renderings entry; uncited bible_references (1 Cor 12:12-13, 16:14, Titus 3:2); commentary_index/section_index re-run at publish."
+
+author_calls_2026-11-28:
+  applied: "1) 1 Cor 3:16-17 added as its own subsection. 2) 4:8 investigated from 4:8-14 context and Greek; 'The hard part' rewritten; through-a-glass-darkly 'mocking' -> 'irony'. 3) gospel line now names Scripture's authority (15:3-4 'in accordance with the Scriptures'; 2 Tim 3:16), the Trinity (Matt 28:19, one ὄνομα) and the deity of Jesus (John 1:1). 4) no study notes for the fourth slogan: ESV SB sentence removed, 'each one of you says' (1:12) added as the text's own reason. 5) the three 'no X' foils kept (author: they make sense in context). 6) 'Reviled, we bless' now ends with a conclusion and a second-person charge. 7) bible_references pruned/added, luke + acts tags, word-renderings G1848 (status proposed)."
+
+last_updated: "2026-11-28"

@@ -14,6 +14,7 @@ draft: false
 
 - [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 14:4
 - [In Humility](../../christian-life/humility.md) — 14:11
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 14:1-6
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 14:17
 - [The Appointed Times](../../feasts/feasts.md) — 14:5-6
 - [The Day No One Knows](../../jesus/the-day-no-one-knows.md) — 14:12

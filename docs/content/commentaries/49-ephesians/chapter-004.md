@@ -18,6 +18,7 @@ draft: false
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 4:26
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 4:31-32
 - [In Humility](../../christian-life/humility.md) — 4:2
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 4:3-6
 - [Know the Truth](../../christian-life/know-the-truth.md) — 4:14-15
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:1
 - [Submission in Context](../../christian-life/submission-in-context.md) — 4:2

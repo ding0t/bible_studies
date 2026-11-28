@@ -20,6 +20,7 @@ draft: false
 - [Grace](../../salvation/grace.md) — 4:22
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 4:16-21
 - [In Humility](../../christian-life/humility.md) — 4:18
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 4:20
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 4:18-21
 - [Submission in Context](../../christian-life/submission-in-context.md) — 4:29-30
 - [The Names of the Holy Spirit](../../holy-spirit/names-of-the-holy-spirit.md) — 4:18

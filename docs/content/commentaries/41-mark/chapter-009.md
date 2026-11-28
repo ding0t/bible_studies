@@ -17,6 +17,7 @@ draft: false
 - [Faith](../../salvation/faith.md) — 9:22-24
 - [Fasting](../../christian-life/fasting.md) — 9:14-29
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 9:31
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 9:38-40
 - [James son of Zebedee](../../biblical-figures/james-son-of-zebedee.md) — 9:2-8
 - [John son of Zebedee](../../biblical-figures/john.md) — 9:2-8
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 9:32

@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 12:1-11
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 12:21-27
 - [Submission in Context](../../christian-life/submission-in-context.md) — 12:22-23
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 12:3
 - [The Lord's Supper: Do This in Remembrance of Me](../../feasts/lords-supper.md) — 12:27

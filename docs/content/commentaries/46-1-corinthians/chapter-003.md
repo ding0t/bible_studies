@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 3:21-23 (primary passage)
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 3:10-15 (primary passage)
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 3:10-15 (primary passage)
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 3:23

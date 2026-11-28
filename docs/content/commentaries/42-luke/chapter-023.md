@@ -16,6 +16,7 @@ draft: false
 - [Charting End Times](../../last-things/prophecy-chart.md) — 23:43
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 23:34
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 23:54
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 23:11
 - [Know the Truth](../../christian-life/know-the-truth.md) — 23:46
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 23:49
 - [The Cups Jesus Drank](../../jesus/the-cups-jesus-drank.md) — 23:36

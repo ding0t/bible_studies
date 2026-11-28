@@ -20,6 +20,7 @@ draft: false
 - [Grace](../../salvation/grace.md) — 1:14-18
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 1:41
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 1:11
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 1:1
 - [Know the Truth](../../christian-life/know-the-truth.md) — 1:14
 - [Known Before, Seen After: Which Prophecies of Christ Were Understood, and When](../../jesus/known-before-seen-after.md) — 1:21
 - [Melchizedek in Second Temple Judaism](../../scripture/melchizedek-in-second-temple-judaism.md) — 1:14

@@ -14,6 +14,7 @@ draft: false
 
 - [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 6:1-4
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 6:1-2
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 6:1
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 6:16
 - [Pride](../../sin/pride.md) — 6:14
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 6:9

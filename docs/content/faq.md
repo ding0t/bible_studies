@@ -5,7 +5,7 @@ description: "Short answers to the questions readers arrive with — who writes 
 tags: ["faq", "reference"]
 draft: false
 date_created: 2026-09-05
-date_modified: 2026-11-23
+date_modified: 2026-11-28
 ai_provider_models:
   - anthropic/claude-opus-5
   - anthropic/claude-opus-5.5
@@ -84,6 +84,9 @@ Where I gather is a separate question, and a real one: I fellowship at a Calvary
 planted in a local congregation matters, and this is not an argument for drifting between churches
 on principle. But it answers *where I fellowship*, not *what I am*, and collapsing the second
 question into the first is how the word Christian goes missing off a form.
+
+Paul's answer to the slogans, and why it rules out mocking another church, is studied in
+[Is Christ Divided?](christian-life/is-christ-divided.md)
 
 [^abs]: Australian Bureau of Statistics, [Religious affiliation
     (RELP)](https://www.abs.gov.au/census/guide-census-data/census-dictionary/2026/variables-topic/cultural-diversity/religious-affiliation-relp),

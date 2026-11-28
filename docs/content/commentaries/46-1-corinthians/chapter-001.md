@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 1:10-17 (primary passage)
 - [Pride](../../sin/pride.md) — 1:28-31
 - [Salt, Light and the Aroma of Christ](../../christian-life/salt-light-and-aroma.md) — 1:20
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 1:10-12

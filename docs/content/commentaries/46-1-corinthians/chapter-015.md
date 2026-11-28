@@ -26,6 +26,7 @@ draft: false
 - [Grace](../../salvation/grace.md) — 15:57
 - [Heaven and Earth Will Pass Away](../../last-things/heaven-and-earth-will-pass-away.md) — 15:42
 - [Immediately After: Daniel's Seventieth Week and the Olivet Discourse](../../last-things/immediately-after.md) — 15:51
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 15:3-4
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 15:10
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 15:8-10
 - [Taken Before Judgment: Enoch, Noah, Lot and Elijah](../../last-things/taken-before-judgment.md) — 15:51-52

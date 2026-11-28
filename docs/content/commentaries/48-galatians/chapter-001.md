@@ -15,6 +15,7 @@ draft: false
 - [Be Prepared: A Reason for the Hope That Is in You](../../christian-life/be-prepared.md) — 1:14
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 1:18
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 1:6-9
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 1:6-9
 - [James son of Alphaeus](../../biblical-figures/james-son-of-alphaeus.md) — 1:19
 - [Jesus, Priest in the Order of Melchizedek](../../jesus/melchizedek-priesthood.md) — 1:12
 - [Paul: Apostle to the Gentiles](../../biblical-figures/paul.md) — 1:11-24

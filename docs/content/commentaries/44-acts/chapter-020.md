@@ -13,6 +13,7 @@ draft: false
 ## Studies referencing this chapter
 
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 20:28-31 (primary passage)
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 20:31
 - [Run the Race: Come to Me, All Who Are Weary](../../christian-life/run-the-race.md) — 20:29-30
 - [Test the Spirits: Recognising False Teachers and Wolves](../../christian-life/test-the-spirits.md) — 20:28-32
 - [The Judgment Seat of Christ](../../last-things/judgment-seat-of-christ.md) — 20:26-27

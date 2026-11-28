@@ -12,6 +12,7 @@ draft: false
 <!-- commentary-index:auto-start -->
 ## Studies referencing this chapter
 
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 17:20-21
 - [Know the Truth](../../christian-life/know-the-truth.md) — 17:17
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 17:3
 - [Teaching the Lord's Prayer at Home](../../christian-life/teaching-the-lords-prayer-at-home.md) — 17:15

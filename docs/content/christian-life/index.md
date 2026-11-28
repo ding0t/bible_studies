@@ -73,6 +73,14 @@ Prayer, fasting, and the disciplines of walking with Christ.
 
     [:octicons-arrow-right-24: Read](hurt-by-the-church.md)
 
+-   __Is Christ Divided?__
+
+    ---
+
+    Corinth split four ways over its teachers, and Paul answered with three questions about the cross. Teachers are servants God gives to the whole church, so take your name from Christ alone, never hold another church in contempt, and still test every teacher by the gospel. A study of 1 Corinthians 1:10-17 and 3:3-4:14.
+
+    [:octicons-arrow-right-24: Read](is-christ-divided.md)
+
 -   __Know the Truth__
 
     ---

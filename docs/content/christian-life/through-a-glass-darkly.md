@@ -8,7 +8,7 @@ draft: false
 primary_passage: "1 Corinthians 13:8-13"
 bible_references: ["1 Corinthians 1:5-7", "1 Corinthians 2:10-12", "1 Corinthians 12:31", "1 Corinthians 13:1-2", "1 Corinthians 16:8", "James 1:23", "Genesis 32:30", "Judges 6:22", "Isaiah 29:13", "Luke 9:29", "Philippians 3:8-14", "1 Corinthians 3:1", "1 Corinthians 4:5", "1 Corinthians 4:8", "1 Corinthians 8:1-3", "1 Corinthians 15:23", "Numbers 12:6-8", "Exodus 33:11", "Exodus 33:18-23", "Deuteronomy 4:12", "Psalm 17:15", "2 Corinthians 3:16-18", "2 Corinthians 4:4-6", "2 Corinthians 4:18", "2 Corinthians 5:7-8", "2 Corinthians 11:3", "2 Corinthians 11:14", "2 Corinthians 12:4", "John 1:18", "John 14:9", "John 17:24", "Hebrews 1:3", "Hebrews 3:13", "Hebrews 11:27", "Luke 9:28-36", "Luke 21:34-36", "Luke 24:16", "Luke 24:31-32", "Matthew 26:40-43", "2 Peter 1:16-19", "2 Kings 6:17", "Job 26:14", "Job 42:5", "Romans 11:7-8", "Romans 11:25-26", "Isaiah 29:10", "Deuteronomy 29:4", "1 Corinthians 14:1", "Matthew 17:1-8", "Mark 9:2-8", "Romans 13:11-12", "Ephesians 1:17-18", "Ephesians 5:14", "1 Thessalonians 4:17", "1 Thessalonians 5:6", "Colossians 3:1-2", "1 John 2:16-17", "Galatians 4:9", "Philippians 3:12", "Amos 3:2", "Romans 8:29", "Romans 8:24-25", "1 John 3:2-3", "Revelation 22:3-4", "Matthew 5:8", "Job 19:26-27", "1 Peter 1:8", "Hosea 6:3"]
 date_created: 2026-11-13
-date_modified: 2026-11-13
+date_modified: 2026-11-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -116,7 +116,7 @@ were "enriched in him in all speech and all knowledge" and "not lacking in any g
 1:5, 7, ESV).
 
 It was also proud. "Already you have all you want! Already you have become rich!" (1 Corinthians
-4:8, ESV) is Paul mocking a church that talked as if the age to come had already arrived.
+4:8, ESV) is Paul's irony at a church that talked as if the age to come had already arrived.
 
 Much of the pride ran through knowledge, γνῶσις (*gnōsis*, G1108). In chapter 8 Paul quotes their
 slogan, "all of us possess knowledge," and answers it:

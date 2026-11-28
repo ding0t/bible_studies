@@ -18,6 +18,7 @@ draft: false
 - [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 4:11-12
 - [Idolatry](../../sin/idolatry.md) — 4:1-7
 - [In Humility](../../christian-life/humility.md) — 4:6-10
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 4:11
 - [Prayer: Communion with God](../../christian-life/prayer-as-communion.md) — 4:2-3
 - [Pride](../../sin/pride.md) — 4:6
 - [Sin and Sexual Immorality](../../sin/sexual-immorality.md) — 4:4

@@ -13,4 +13,5 @@ draft: false
 ## Studies referencing this chapter
 
 - [Fasting](../../christian-life/fasting.md) — 10:3-5
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 10:7
 <!-- commentary-index:auto-end -->

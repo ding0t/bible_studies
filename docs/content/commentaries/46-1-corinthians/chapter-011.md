@@ -16,5 +16,6 @@ draft: false
 - ["I Will Not Drink Again": The Last Supper and the Cups of Passover](../../feasts/last-supper-four-cups.md) — 11:23-26
 - [Bread of Life: The Feeding of the 5,000 and the 4,000](../../jesus/bread-of-life-feeding-the-multitudes.md) — 11:23-26
 - [First Take the Log Out](../../christian-life/first-take-the-log-out.md) — 11:31-32
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 11:18
 - [Submission in Context](../../christian-life/submission-in-context.md) — 11:3-12
 <!-- commentary-index:auto-end -->

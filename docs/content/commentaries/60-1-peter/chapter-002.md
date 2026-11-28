@@ -16,6 +16,7 @@ draft: false
 - [Before Aaron: Who Offered Sacrifice?](../../jesus/priesthood-before-sinai.md) — 2:5
 - [Christians and Deliverance Ministry](../../spiritual-beings/deliverance/christians-and-deliverance.md) — 2:9
 - [Forgive Us Our Debts](../../christian-life/forgiveness.md) — 2:23
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 2:23
 - [Israel and the Church](../../israel-and-church/israel-and-the-church.md) — 2:9
 - [Partakers of the Divine Nature](../../christian-life/partakers-of-the-divine-nature.md) — 2:9
 - [Precious Stones in Scripture](../../god/precious-stones.md) — 2:5

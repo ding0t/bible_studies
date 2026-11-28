@@ -8,7 +8,7 @@ draft: false
 primary_passage: "1 Corinthians 3:10-15; Jude 1:22-23"
 bible_references: ["1 Corinthians 1:10-12", "1 Corinthians 1:20", "1 Corinthians 2:14-16", "1 Corinthians 3:1-4", "1 Corinthians 3:5-9", "1 Corinthians 3:16-23", "1 Corinthians 4:5", "1 Corinthians 5:5", "1 Corinthians 5:11", "1 Corinthians 6:9-11", "2 Corinthians 5:10", "Jude 1:3-4", "Jude 1:7", "Jude 1:9", "Jude 1:19-21", "Jude 1:24-25", "Zechariah 3:1-9", "Amos 4:11", "Galatians 6:1", "James 5:19-20", "John 10:28-29"]
 date_created: 2026-10-14
-date_modified: 2026-10-31
+date_modified: 2026-11-28
 ai_provider_models:
   - anthropic/claude-opus-5.5
 ---
@@ -128,7 +128,8 @@ follow Apollos,' or 'I follow Cephas,' or 'I follow Christ'" (1 Corinthians 1:12
 cities prized eloquent teachers, and a man's standing rose with the reputation of the teacher he
 attached himself to. The Corinthians had brought that habit into the church. Paul answers it for
 three chapters with the cross: "Has not God made foolish the wisdom of the world?"
-(1 Corinthians 1:20, ESV).
+(1 Corinthians 1:20, ESV). [Is Christ Divided?](../christian-life/is-christ-divided.md) follows
+that answer through 1 Corinthians 4:7, and into how believers treat other churches now.
 
 ### Natural, and fleshly
 

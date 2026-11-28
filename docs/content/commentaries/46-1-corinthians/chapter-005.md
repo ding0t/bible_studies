@@ -19,6 +19,7 @@ draft: false
 - [Friday, 3 April AD 33: Dating the Cross](../../chronology/dating-the-cross.md) — 5:7
 - [Hebrew Roots of Christianity](../../israel-and-church/hebrew-roots.md) — 5:7-8
 - [Hurt by the Church: Wolves, Weeds and the Good Shepherd](../../christian-life/hurt-by-the-church.md) — 5:11-13
+- [Is Christ Divided?](../../christian-life/is-christ-divided.md) — 5:11
 - [Passover: When I See the Blood](../../feasts/passover.md) — 5:7-8
 - [Pride](../../sin/pride.md) — 5:2
 - [Saved as Through Fire](../../salvation/saved-as-through-fire.md) — 5:5
